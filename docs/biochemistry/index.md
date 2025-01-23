@@ -1,8 +1,8 @@
 # Biochemistry Problem Sets
 
-Welcome to the Biochemistry problem sets. Explore practice questions for various chapters and sections below.
+Welcome to the Biochemistry problem sets. Explore practice questions for various topics and sections below.
 
-## Chapters
+## Topics
 
-- [Chapter 1: Introduction to Macromolecules](chapter1/index.md)
-- [Chapter 2: Advanced Topics in Biochemistry](chapter2/index.md)
+- [Topic 1: Introduction to Macromolecules](topic1/index.md)
+- [Topic 2: Advanced Topics in Biochemistry](topic2/index.md)
