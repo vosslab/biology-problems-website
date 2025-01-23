@@ -2,12 +2,28 @@ site_name: Biology Problems OER
 theme:
   name: material
 nav:
-  - Home: index.md
-  - Biochemistry:
-      - List of Biochemistry Topics: biochemistry/index.md
-      - Topic 1: biochemistry/topic1/index.md
-      - Topic 2: biochemistry/topic2/index.md
-  - Genetics:
-      - List of Genetics Topics: genetics/index.md
-      - Topic 1: genetics/topic1/index.md
-      - Topic 2: genetics/topic2/index.md
+- Home: index.md
+- Biochemistry:
+  - List of Topics: biochemistry/index.md
+  - 'Topic 1: The Molecular Design of Life': biochemistry/topic01/index.md
+  - 'Topic 2: Water Chemistry and pH': biochemistry/topic02/index.md
+  - 'Topic 3: Amino Acids': biochemistry/topic03/index.md
+  - 'Topic 4: Proteins: Structure and Folding': biochemistry/topic04/index.md
+  - 'Topic 5: Protein Purification Techniques': biochemistry/topic05/index.md
+  - 'Topic 6: Enzymes and Thermodynamics': biochemistry/topic06/index.md
+  - 'Topic 7: Enzyme Regulation': biochemistry/topic07/index.md
+  - 'Topic 8: Carbohydrates': biochemistry/topic08/index.md
+  - 'Topic 9: Nucleic Acids': biochemistry/topic09/index.md
+  - Topic 10: biochemistry/topic10/index.md
+- Genetics:
+  - List of Topics: genetics/index.md
+  - Topic 01: genetics/topic01/index.md
+  - Topic 02: genetics/topic02/index.md
+  - Topic 03: genetics/topic03/index.md
+  - Topic 04: genetics/topic04/index.md
+  - Topic 05: genetics/topic05/index.md
+  - Topic 06: genetics/topic06/index.md
+  - Topic 07: genetics/topic07/index.md
+  - Topic 08: genetics/topic08/index.md
+  - Topic 09: genetics/topic09/index.md
+  - Topic 10: genetics/topic10/index.md
