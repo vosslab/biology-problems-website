@@ -31,6 +31,10 @@ jobs:
         run: |
           mkdocs build
 
+      - name: Preserve CNAME file
+        run: |
+          echo "biologyproblems.org" > ./site/CNAME
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
