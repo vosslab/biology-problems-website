@@ -1,3 +1,3 @@
-# Topic 2: Advanced Topics in Biochemistry
+# Topic 2: Water Chemistry and pH
 
-Dive deeper into advanced biochemistry topics. Practice questions coming soon.
+Properties of water, pH scales, buffering systems.
