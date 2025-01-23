@@ -4,10 +4,8 @@ theme:
 nav:
   - Home: index.md
   - Biochemistry:
-      - Overview: biochemistry/index.md
-      - Chapter 1: biochemistry/chapter1.md
-      - Chapter 2: biochemistry/chapter2.md
+      - Chapter 1: biochemistry/chapter1/index.md
+      - Chapter 2: biochemistry/chapter2/index.md
   - Genetics:
-      - Overview: genetics/index.md
-      - Chapter 1: genetics/chapter1.md
-      - Chapter 2: genetics/chapter2.md
+      - Chapter 1: genetics/chapter1/index.md
+      - Chapter 2: genetics/chapter2/index.md
