@@ -1,7 +1,7 @@
-# Topic 1: Introduction to Macromolecules
+# Topic 1: The Molecular Design of Life
 
-This topic introduces the structure and function of biological macromolecules.
+Molecular design of life, major elements, and biomacromolecules.
 
 ## Sections
 
-- [Which Macromolecule Does Galactobiose Represent?](which_macro.md)
+- [Which Macromolecule Does This Chemical Structure Represent?](which_macro.md)
