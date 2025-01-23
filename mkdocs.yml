@@ -1,6 +1,21 @@
 site_name: Biology Problems OER
 theme:
   name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: green
+      accent: lime
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: green
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
 nav:
 - Home: index.md
 - Biochemistry:
