@@ -1,8 +1,8 @@
 # Genetics Problem Sets
 
-Welcome to the Genetics problem sets. Explore practice questions for various chapters and sections below.
+Welcome to the Genetics problem sets. Explore practice questions for various topics and sections below.
 
-## Chapters
+## Topics
 
-- [Chapter 1: Basics of Genetics](chapter1/index.md)
-- [Chapter 2: Advanced Topics in Genetics](chapter2/index.md)
+- [Topic 1: Basics of Genetics](topic1/index.md)
+- [Topic 2: Advanced Topics in Genetics](topic2/index.md)
