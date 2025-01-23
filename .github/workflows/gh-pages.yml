@@ -16,10 +16,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4  # Pinned to v4 for stability
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v4  # Ensures Python environment is correctly configured
         with:
           python-version: 3.x
 
@@ -31,12 +31,9 @@ jobs:
         run: |
           mkdocs build
 
-      - name: Preserve CNAME file
-        run: |
-          echo "biologyproblems.org" > ./site/CNAME
-
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+        uses: peaceiris/actions-gh-pages@v4  # Pinned version of gh-pages action
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
+          cname: biologyproblems.org  # Automatically handles CNAME
