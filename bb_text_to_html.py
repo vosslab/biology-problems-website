@@ -58,7 +58,7 @@ def generate_html(question_text, choices_list_of_tuples):
 	html_content += "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n"
 	html_content += "<title>MC Question</title>\n"
 	# Add JavaScript function
-	html_content += f"<script>{generate_javascript()}</script>\n"
+	html_content += generate_javascript()
 	html_content += "</head>\n"
 	# Open body section
 	html_content += "<body>\n"
@@ -97,7 +97,7 @@ def generate_javascript() -> str:
 	Returns:
 		str: JavaScript code as a string.
 	"""
-	javascript_html = ""
+	javascript_html = "<script>\n"
 	# Open the function
 	javascript_html += "function checkAnswer() {\n"
 	# Set options constant to get all options from the form
@@ -134,6 +134,8 @@ def generate_javascript() -> str:
 
 	# Close the function
 	javascript_html += "}\n"
+	javascript_html += "</script>\n"
+
 	return javascript_html
 
 #==============
