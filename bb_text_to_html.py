@@ -2,10 +2,24 @@
 
 # Standard Library
 import os
-import random
+import re
 import sys
 import time
+import random
 import argparse
+
+from lxml import html, etree
+
+def format_html(html_string):
+	return format_html_lxml(html_string)
+
+def format_html_lxml(html_string):
+	parser = html.HTMLParser(remove_blank_text=True)  # Prevent excessive spacing
+	tree = html.fromstring(html_string, parser=parser)
+	formatted_html = etree.tostring(tree, pretty_print=True, encoding="unicode").strip()
+	formatted_html = etree.tostring(tree, pretty_print=True, encoding="unicode", method="html").strip()
+	return formatted_html
+
 
 #==============
 def load_single_question_from_file(file_path: str) -> tuple:
@@ -32,15 +46,29 @@ def load_single_question_from_file(file_path: str) -> tuple:
 	# Extract question text
 	question_text = parts[1]
 
+	# Extract the hex value
+	hex_value = question_text[3:7]
+
+	# Validate the hex value
+	if not re.match(r'^[0-9a-fA-F]{4}$', hex_value):
+		raise ValueError(f"Invalid hex value: {hex_value}")
+
+	# Remove those characters from the string and strip any leading/trailing whitespace
+	question_text = question_text[11:].strip()
+
+	# Output for validation (optional)
+	print("Validated Hex Value:", hex_value)
+	print("Remaining Question Text:", question_text[:40])
+
 	# Extract answer choices as a list of tuples (answer_text, is_correct)
 	choices_list_of_tuples = [
 		(parts[i], parts[i + 1].lower() == "correct") for i in range(2, len(parts), 2)
 	]
 
-	return question_text, choices_list_of_tuples
+	return hex_value, question_text, choices_list_of_tuples
 
 #==============
-def generate_html(question_text, choices_list_of_tuples):
+def generate_html(hex_value, question_text, choices_list_of_tuples):
 	"""
 	Generate an HTML file for a single multiple-choice question.
 
@@ -48,49 +76,43 @@ def generate_html(question_text, choices_list_of_tuples):
 		question (dict): A dictionary containing question text and options.
 		output_file (str): Path to save the generated HTML file.
 	"""
-	html_content = ""
-	# Add DOCTYPE and opening HTML tag
-	html_content += "<!DOCTYPE html>\n"
-	html_content += "<html lang=\"en\">\n"
-	# Add head section with metadata and title
-	html_content += "<head>\n"
-	html_content += "<meta charset=\"UTF-8\">\n"
-	html_content += "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n"
-	html_content += "<title>MC Question</title>\n"
+	html_content = f"<div id=\"question_html_{hex_value}\">\n"
 	# Add JavaScript function
-	html_content += generate_javascript()
-	html_content += "</head>\n"
-	# Open body section
-	html_content += "<body>\n"
-	# Add question header
-	html_content += "<h1>Multiple Choice Question</h1>\n"
 	# Add question text
-	html_content += f"<p>{question_text}</p>\n"
+	#style = 'style="display: block; margin: 0; padding: 0;"'
+	question_text = re.sub(r'</p>\s*<p>', '<br/>', question_text)
+	html_content += f"<div id=\"statement_text_{hex_value}\">{question_text}</div>\n"
 	# Open form tag
 	html_content += "<form>\n"
 
-	# Add options dynamically
+	html_content += f"<ul id=\"choices_{hex_value}\">\n"
 	for idx, option_tuple in enumerate(choices_list_of_tuples):
 		choice_text, correct_bool = option_tuple
-		html_content += f"<div>\n"
-		html_content += f"<input type=\"radio\" id=\"option{idx}\" name=\"answer\" data-correct=\"{str(correct_bool).lower()}\">\n"
-		html_content += f"<label for=\"option{idx}\">{choice_text}</label>\n"
-		html_content += "</div>\n"
+		html_content += f"  <li>\n"
+		html_content += f"    <input type=\"radio\" id=\"option{idx}\" "
+		html_content += f" name=\"answer_{hex_value}\" "
+		html_content += f" data-correct=\"{str(correct_bool).lower()}\">\n"
+		html_content += f"    <label for=\"option{idx}\">{choice_text}</label>\n"
+		html_content += f"  </li>\n"
+	html_content += "</ul>\n"
+	style = 'style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"'
+	html_content += f"<div id=\"result_{hex_value}\" {style}>&nbsp;</div>\n"
 
 	# Add check button
-	html_content += "<button type=\"button\" onclick=\"checkAnswer()\">Check</button>\n"
-	# Close form tag
+	html_content += "<button type=\"button\" "
+	html_content += "class=\"md-button md-button--secondary\" "
+	html_content += f"onclick=\"checkAnswer_{hex_value}()\">"
+	html_content += f"Check Answer"
+	html_content += "</button>\n"
+
+	# close the form
 	html_content += "</form>\n"
 	# Add result div
-	html_content += "<div id=\"result\"></div>\n"
-	# Close body and HTML tags
-	html_content += "</body>\n"
-	html_content += "</html>\n"
-
+	html_content += "</div>" # close question
 	return html_content
 
 #==============
-def generate_javascript() -> str:
+def generate_javascript(hex_value) -> str:
 	"""
 	Generate the JavaScript code for the HTML file.
 
@@ -99,38 +121,38 @@ def generate_javascript() -> str:
 	"""
 	javascript_html = "<script>\n"
 	# Open the function
-	javascript_html += "function checkAnswer() {\n"
+	javascript_html +=f"function checkAnswer_{hex_value}() "
+	javascript_html += "{\n"
 	# Set options constant to get all options from the form
-	javascript_html += "const options = document.getElementsByName('answer');\n"
+	javascript_html +=f" const options = document.getElementsByName('answer_{hex_value}');\n"
 	# Initialize correctOption variable to null
-	javascript_html += "let correctOption = null;\n"
+	javascript_html += " let correctOption = null;\n"
 
 	# Loop through options to find the correct one
-	javascript_html += "for (let i = 0; i < options.length; i++) {\n"
-	javascript_html += "if (options[i].dataset.correct === 'true') {\n"
-	javascript_html += "correctOption = options[i];\n"
-	javascript_html += "}\n"  # Close if statement
-	javascript_html += "}\n"  # Close for loop
-
+	javascript_html += " for (let i = 0; i < options.length; i++) {\n"
+	javascript_html += "  if (options[i].dataset.correct === 'true') {\n"
+	javascript_html += "   correctOption = options[i];\n"
+	javascript_html += "  }\n"  # Close if statement
+	javascript_html += " }\n"  # Close for loop
 	# Get the selected option
-	javascript_html += "const selected = Array.from(options).find(option => option.checked);\n"
+	javascript_html += " const selected = Array.from(options).find(option => option.checked);\n"
 	# Get the result div to display feedback
-	javascript_html += "const resultDiv = document.getElementById('result');\n"
+	javascript_html +=f" const resultDiv = document.getElementById('result_{hex_value}');\n"
 
 	# Check if a selection is made
-	javascript_html += "if (selected) {\n"
+	javascript_html += " if (selected) {\n"
 	# If the selection is correct
-	javascript_html += "if (selected === correctOption) {\n"
-	javascript_html += "resultDiv.style.color = 'green';\n"
-	javascript_html += "resultDiv.textContent = 'CORRECT';\n"
-	javascript_html += "} else {\n"  # If the selection is incorrect
-	javascript_html += "resultDiv.style.color = 'red';\n"
-	javascript_html += "resultDiv.textContent = 'incorrect';\n"
-	javascript_html += "}\n"  # Close else
-	javascript_html += "} else {\n"  # If no selection is made
-	javascript_html += "resultDiv.style.color = 'black';\n"
-	javascript_html += "resultDiv.textContent = 'Please select an answer.';\n"
-	javascript_html += "}\n"  # Close else
+	javascript_html += "  if (selected === correctOption) {\n"
+	javascript_html += "   resultDiv.style.color = 'green';\n"
+	javascript_html += "   resultDiv.textContent = 'CORRECT';\n"
+	javascript_html += "  } else {\n"  # If the selection is incorrect
+	javascript_html += "   resultDiv.style.color = 'red';\n"
+	javascript_html += "   resultDiv.textContent = 'incorrect';\n"
+	javascript_html += "  }\n"  # Close else
+	javascript_html += " } else {\n"  # If no selection is made
+	javascript_html += "  resultDiv.style.color = 'black';\n"
+	javascript_html += "  resultDiv.textContent = 'Please select an answer.';\n"
+	javascript_html += " }\n"  # Close else
 
 	# Close the function
 	javascript_html += "}\n"
@@ -148,7 +170,7 @@ def get_parser() -> argparse.Namespace:
 	"""
 	parser = argparse.ArgumentParser(description="Generate an HTML MC question from a text file.")
 	parser.add_argument('-f', '--file', dest='file_path', required=True, help='Path to the questions text file.')
-	parser.add_argument('-o', '--output', dest='output_file', default='mc_question.html', help='Output HTML file name.')
+	parser.add_argument('-o', '--output', dest='output_file', help='Output HTML file name.')
 	args = parser.parse_args()
 	return args
 
@@ -166,10 +188,28 @@ def main() -> None:
 		print(f"Error: File {file_path} not found.")
 		sys.exit(1)
 
-	question_text, choices_list_of_tuples = load_single_question_from_file(file_path)
+	if args.output_file is None:
+		args.output_file = 'mc_question.html'
+		basename = os.path.basename(file_path)
+		if basename.startswith('bbq-'):
+			match = re.search(r'bbq-(.*?)-questions\.txt', basename)
+			if not match:
+				raise ValueError(f"Invalid filename format: {basename}")
+			unique_part = match.group(1)
+			args.output_file = unique_part + ".html"
+
+	hex_value, question_text, choices_list_of_tuples = load_single_question_from_file(file_path)
 
 	# Generate the HTML file
-	html_content = generate_html(question_text, choices_list_of_tuples)
+	html_content = generate_html(hex_value, question_text, choices_list_of_tuples)
+	print(f"Original HTML Text (Length = {len(html_content)}):", html_content[:40])
+
+	html_content = format_html(html_content)
+
+	print(f"Cleaned  HTML Text (Length = {len(html_content)}):", html_content[:40])
+
+	html_content += generate_javascript(hex_value)
+
 
 	# Write the constructed HTML to the output file
 	with open(args.output_file, 'w') as file:
