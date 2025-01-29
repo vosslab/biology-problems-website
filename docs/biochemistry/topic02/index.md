@@ -2,8 +2,10 @@
 
 Properties of water, pH scales, buffering systems.
 
-## Included File: pKa Buffer State Questions
-{% include-markdown "biochemistry/topic02/pKa_buffer_state-2_protons-question.md" %}
+## Optimal Buffering Range
+{% include-markdown "biochemistry/topic02/optimal_buffering_range.html" %}
 
-## Included File: Optimal Buffering Range
-{% include-markdown "biochemistry/topic02/optimal_buffering_range-question.md" %}
+## pKa Buffer State Questions
+{% include-markdown "biochemistry/topic02/pKa_buffer_state-2_protons.html" %}
+{% include-markdown "biochemistry/topic02/pKa_buffer_state-3_protons.html" %}
+{% include-markdown "biochemistry/topic02/pKa_buffer_state-4_protons.html" %}
