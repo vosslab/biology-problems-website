@@ -19,7 +19,7 @@ theme:
 nav:
 - Home: index.md
 - Biochemistry:
-  - List of Topics: biochemistry/index.md
+  - 'List of Topics': biochemistry/index.md
   - 'Topic 1: The Molecular Design of Life': biochemistry/topic01/index.md
   - 'Topic 2: Water Chemistry and pH': biochemistry/topic02/index.md
   - 'Topic 3: Amino Acids': biochemistry/topic03/index.md
@@ -29,9 +29,9 @@ nav:
   - 'Topic 7: Enzyme Regulation': biochemistry/topic07/index.md
   - 'Topic 8: Carbohydrates': biochemistry/topic08/index.md
   - 'Topic 9: Nucleic Acids': biochemistry/topic09/index.md
-  - Topic 10: biochemistry/topic10/index.md
+  - 'Topic 10': biochemistry/topic10/index.md
 - Genetics:
-  - List of Topics: genetics/index.md
+  - 'List of Topics': genetics/index.md
   - Topic 01: genetics/topic01/index.md
   - Topic 02: genetics/topic02/index.md
   - Topic 03: genetics/topic03/index.md
