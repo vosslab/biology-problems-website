@@ -7,6 +7,7 @@ import argparse
 
 #pip
 from ollama import chat, ChatResponse
+from bs4 import BeautifulSoup
 
 # Configure Ollama model
 MODEL_NAME = "phi4"
@@ -64,6 +65,23 @@ def generate_title_prompt(file_path: str, problem_statements: list) -> str:
 		prompt += f"<problem {i}>\n{problem.strip()}\n</problem {i}>\n\n"
 
 	return prompt
+
+
+#==============
+
+def strip_html_tags(html_string):
+    """
+    Removes all HTML tags from the input string and returns the plain text.
+
+    Parameters:
+    - html_string (str): The HTML string to process.
+
+    Returns:
+    - str: The plain text with HTML tags removed.
+    """
+    # Use BeautifulSoup to parse and extract the text
+    soup = BeautifulSoup(html_string, 'html.parser')
+    return soup.get_text()
 
 #==============
 
@@ -144,9 +162,11 @@ def load_problem_statements_from_file(file_path: str) -> tuple:
 
 		# Extract question text
 		question_text = parts[1].strip()
+		stripped_problem = strip_html_tags(question_text)
 
-		problem_statements.append(question_text)
-		total_length += len(question_text)
+
+		problem_statements.append(stripped_problem)
+		total_length += len(stripped_problem)
 		if total_length > 1000:
 			break
 
@@ -180,12 +200,12 @@ def get_problem_title_from_file(file_path):
 
 	response_content = run_ollama(prompt)
 	problem_title = get_problem_title_from_response(response_content)
-	if problem_title.startswith('Determine '):
-		problem_title = re.sub('^Determine ', '', problem_title).strip()
-	if problem_title.startswith('Identify '):
-		problem_title = re.sub('^Identify ', '', problem_title).strip()
+	leading_words = ['Determine', 'Identify', 'Identifying']
+	for word in leading_words:
+		if problem_title.startswith(f'{word} '):
+			problem_title = problem_title[len(word)+1:].strip()
 	if problem_title.startswith('the '):
-		problem_title = re.sub('^the ', '', problem_title).strip()
+		problem_title = problem_title[len('the')+1:].strip()
 	return problem_title
 
 #==============
