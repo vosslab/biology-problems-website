@@ -31,16 +31,15 @@
 </div><script>
 function checkAnswer_8d74() {
  const options = document.getElementsByName('answer_8d74');
- let correctOption = null;
- for (let i = 0; i < options.length; i++) {
-  if (options[i].dataset.correct === 'true') {
-   correctOption = options[i];
-  }
- }
- const selected = Array.from(options).find(option => option.checked);
+ const correctOption = Array.from(options).reduce(function(acc, option) {
+   return acc || (option.dataset.correct === 'true' ? option : null);
+ }, null);
+ const selectedOption = Array.from(options).reduce(function(acc, option) {
+   return acc || (option.checked ? option : null);
+ }, null);
  const resultDiv = document.getElementById('result_8d74');
- if (selected) {
-  if (selected === correctOption) {
+ if (selectedOption) {
+  if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';
    resultDiv.textContent = 'CORRECT';
   } else {

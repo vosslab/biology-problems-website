@@ -351,9 +351,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#hydrophobicity-from-molecular-formula" class="md-nav__link">
+  <a href="#hydrophobic-compounds-from-molecular-formulas" class="md-nav__link">
     <span class="md-ellipsis">
-      Hydrophobicity from Molecular Formula
+      Hydrophobic Compounds from Molecular Formulas
     </span>
   </a>
   
@@ -864,9 +864,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#hydrophobicity-from-molecular-formula" class="md-nav__link">
+  <a href="#hydrophobic-compounds-from-molecular-formulas" class="md-nav__link">
     <span class="md-ellipsis">
-      Hydrophobicity from Molecular Formula
+      Hydrophobic Compounds from Molecular Formulas
     </span>
   </a>
   
@@ -889,57 +889,60 @@
 
 <h1 id="topic-1-the-molecular-design-of-life">Topic 1: The Molecular Design of Life</h1>
 <p>Molecular design of life, major elements, and biomacromolecules.</p>
-<h2 id="hydrophobicity-from-molecular-formula">Hydrophobicity from Molecular Formula</h2>
-<p><a href="biochemistry/topic01/bbq-which_hydrophobic-simple-questions.txt">Download the original question set</a></p>
-<div id="question_html_92ed">
-<div id="statement_text_92ed"><h4>Based on their molecular formula, which one of the following compounds is most likely hydrophobic?</h4></div>
-<form>
-<ul id="choices_92ed">
-<li>
-    <input type="radio" id="option0" name="answer_92ed" data-correct="true"><label for="option0">A.  butane, CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>  </label>
-  </li>
+<h2 id="hydrophobic-compounds-from-molecular-formulas">Hydrophobic Compounds from Molecular Formulas</h2>
+<p><a id='raw-url' href='bbq-which_hydrophobic-simple-questions.txt' download>Download the bbq-which_hydrophobic-simple-questions.txt file for Blackboard Upload</a></p>
+<details>
+  <summary>"Click to show example problem on Hydrophobic Compounds from Molecular Formulas"</summary>
+  <div id="question_html_38ed">
+  <div id="statement_text_38ed"><h4>Based on their molecular formula, which one of the following compounds is most likely hydrophobic?</h4></div>
+  <form>
+  <ul id="choices_38ed">
   <li>
-    <input type="radio" id="option1" name="answer_92ed" data-correct="false"><label for="option1">B.  ethanol, CH<sub>3</sub>CH<sub>2</sub>OH  </label>
-  </li>
-  <li>
-    <input type="radio" id="option2" name="answer_92ed" data-correct="false"><label for="option2">C.  urea, CO(NH<sub>2</sub>)<sub>2</sub>  </label>
-  </li>
-  <li>
-    <input type="radio" id="option3" name="answer_92ed" data-correct="false"><label for="option3">D.  methanol, CH<sub>3</sub>OH  </label>
-  </li>
-  <li>
-    <input type="radio" id="option4" name="answer_92ed" data-correct="false"><label for="option4">E.  ammonia, NH<sub>3</sub>  </label>
-  </li>
-</ul>
-<div id="result_92ed" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
-<button type="button" class="md-button md-button--secondary" onclick="checkAnswer_92ed()">Check Answer</button>
-</form>
-</div>
-<script>
-function checkAnswer_92ed() {
- const options = document.getElementsByName('answer_92ed');
- let correctOption = null;
- for (let i = 0; i < options.length; i++) {
-  if (options[i].dataset.correct === 'true') {
-   correctOption = options[i];
+      <input type="radio" id="option0" name="answer_38ed" data-correct="true"><label for="option0">A.  benzene, C<sub>6</sub>H<sub>6</sub>  </label>
+    </li>
+    <li>
+      <input type="radio" id="option1" name="answer_38ed" data-correct="false"><label for="option1">B.  ethanol, CH<sub>3</sub>CH<sub>2</sub>OH  </label>
+    </li>
+    <li>
+      <input type="radio" id="option2" name="answer_38ed" data-correct="false"><label for="option2">C.  phosphoric acid, H<sub>3</sub>PO<sub>4</sub>  </label>
+    </li>
+    <li>
+      <input type="radio" id="option3" name="answer_38ed" data-correct="false"><label for="option3">D.  methanol, CH<sub>3</sub>OH  </label>
+    </li>
+    <li>
+      <input type="radio" id="option4" name="answer_38ed" data-correct="false"><label for="option4">E.  erythrose, C<sub>4</sub>H<sub>8</sub>O<sub>4</sub>  </label>
+    </li>
+  </ul>
+  <div id="result_38ed" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+  <button type="button" class="md-button md-button--secondary" onclick="checkAnswer_38ed()">Check Answer</button>
+  </form>
+  </div><script>
+  function checkAnswer_38ed() {
+   const options = document.getElementsByName('answer_38ed');
+   const correctOption = Array.from(options).reduce(function(acc, option) {
+     return acc || (option.dataset.correct === 'true' ? option : null);
+   }, null);
+   const selectedOption = Array.from(options).reduce(function(acc, option) {
+     return acc || (option.checked ? option : null);
+   }, null);
+   const resultDiv = document.getElementById('result_38ed');
+   if (selectedOption) {
+    if (selectedOption === correctOption) {
+     resultDiv.style.color = 'green';
+     resultDiv.textContent = 'CORRECT';
+    } else {
+     resultDiv.style.color = 'red';
+     resultDiv.textContent = 'incorrect';
+    }
+   } else {
+    resultDiv.style.color = 'black';
+    resultDiv.textContent = 'Please select an answer.';
+   }
   }
- }
- const selected = Array.from(options).find(option => option.checked);
- const resultDiv = document.getElementById('result_92ed');
- if (selected) {
-  if (selected === correctOption) {
-   resultDiv.style.color = 'green';
-   resultDiv.textContent = 'CORRECT';
-  } else {
-   resultDiv.style.color = 'red';
-   resultDiv.textContent = 'incorrect';
-  }
- } else {
-  resultDiv.style.color = 'black';
-  resultDiv.textContent = 'Please select an answer.';
- }
-}
-</script>
+  </script>
+
+
+<br/></details>
 
 
 
