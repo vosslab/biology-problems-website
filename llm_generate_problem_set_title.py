@@ -2,6 +2,7 @@
 
 import os
 import re
+import time
 import random
 import argparse
 
@@ -10,7 +11,10 @@ from ollama import chat, ChatResponse
 from bs4 import BeautifulSoup
 
 # Configure Ollama model
-MODEL_NAME = "phi4"
+#MODEL_NAME = "phi4"
+#MODEL_NAME = "llama3.2:3b"
+#MODEL_NAME = "llama3.2:1b"
+MODEL_NAME = "llama3.2:3b-instruct-q4_K_M"
 
 #==============
 
@@ -102,6 +106,7 @@ def run_ollama(prompt: str, model: str = MODEL_NAME) -> str:
 		max_tokens (int): Maximum number of tokens in the response. Defaults to 50.
 		temperature (float): Sampling temperature for response generation. Defaults to 0.5.
 	"""
+	t0 = time.time()
 	# Send the prompt to the Ollama model
 	response: ChatResponse = chat(
 		model=model,
@@ -110,6 +115,7 @@ def run_ollama(prompt: str, model: str = MODEL_NAME) -> str:
 
 	# Extract the response content using the ChatResponse object
 	response_content = response.message.content.strip()
+	print(f"Ollama completed in {time.time()-t0:.2f} seconds")
 
 	return response_content
 
@@ -217,7 +223,7 @@ def main():
 	args = get_parser()
 	file_path = args.file_path
 	problem_title = get_problem_title_from_file(file_path)
-	print(f"Generated Title:\n{problem_title}")
+	print(f"Generated Title:\"{problem_title}\"")
 
 
 
