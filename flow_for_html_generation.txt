@@ -1,0 +1,40 @@
+Flow for creating website pages for a particular folder
+
+1. Obtain the topic title
+* The topic title is defined in the root-level mkdocs.yml file under the "titles" section.
+Example: titles: biochemistry/topic02: "Buffer Systems and pKa"
+
+2. Obtain the subtitle
+* The subtitle is defined in the index.md file located in the parent folder of the topic.
+Example: ./biochemistry/index.md may contain a subtitle like:
+"Topics on Molecular Design of Life and Major Concepts"
+
+3. Identify BBQ text files
+* Locate all files in the topic folder that match the pattern bbq-*.txt.
+Example files in ./biochemistry/topic02/:
+bbq-optimal_buffering_range-questions.txt
+bbq-pKa_buffer_state-2_protons-questions.txt
+bbq-pKa_buffer_state-3_protons-questions.txt
+
+4. Run the text-to-HTML conversion script
+* Use bb_text_to_html.py to convert each BBQ text file to an HTML file.
+Example: python bb_text_to_html.py bbq-optimal_buffering_range-questions.txt
+This will generate a file named: optimal_buffering_range-questions.html
+
+5. Generate a problem set title
+* Use an LLM to generate a meaningful problem set title based on the content of the file.
+use the ollama module on pypi
+Example problem set title: "Identify the Hydrophobic Compound Based on Its Molecular Formula"
+
+6. Add the generated HTML to the topic's index.md file
+* Insert a line in index.md to include the generated HTML file.
+Example line: {% include-markdown "biochemistry/topic02/optimal_buffering_range-questions.html" %}
+
+7. Add a download link
+* Provide a link to download the original BBQ text file within index.md.
+Example: Download the original question set
+[Download the question set for Blackboard Upload](bbq-optimal_buffering_range-questions.txt)
+
+8. (Optional) Create a detailed markdown file
+* If desired, generate a more detailed .md file with multiple questions or examples to provide additional context.
+
