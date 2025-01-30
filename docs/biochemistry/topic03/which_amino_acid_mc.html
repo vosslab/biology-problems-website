@@ -1,0 +1,48 @@
+<div id="question_html_7902">
+<div id="statement_text_7902">
+<script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script><p><canvas id="canvas_f970" width="480" height="320"></canvas></p>
+<script>/* */initRDKitModule().then(function(instance){RDKitModule=instance;console.log("RDKit:"+RDKitModule.version());/* */let/* */smiles="C(CC(=O)O)[C@@H](C(=O)O)N";let/* */mol=RDKitModule.get_mol(smiles);let/* */mdetails={};mdetails["legend"]="";mdetails["explicitMethyl"]=true;canvas=document.getElementById("canvas_f970");mol.draw_to_canvas_with_highlights(canvas,JSON.stringify(mdetails));});/* */</script><h3>Which one of the following amino acids is represented by the chemical structure shown above?</h3>
+</div>
+<form>
+<ul id="choices_7902">
+<li>
+    <input type="radio" id="option0" name="answer_7902" data-correct="true"><label for="option0">A.  glutamic acid  </label>
+  </li>
+  <li>
+    <input type="radio" id="option1" name="answer_7902" data-correct="false"><label for="option1">B.  glutamine  </label>
+  </li>
+  <li>
+    <input type="radio" id="option2" name="answer_7902" data-correct="false"><label for="option2">C.  proline  </label>
+  </li>
+  <li>
+    <input type="radio" id="option3" name="answer_7902" data-correct="false"><label for="option3">D.  threonine  </label>
+  </li>
+</ul>
+<div id="result_7902" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary" onclick="checkAnswer_7902()">Check Answer</button>
+</form>
+</div><script>
+function checkAnswer_7902() {
+ const options = document.getElementsByName('answer_7902');
+ let correctOption = null;
+ for (let i = 0; i < options.length; i++) {
+  if (options[i].dataset.correct === 'true') {
+   correctOption = options[i];
+  }
+ }
+ const selected = Array.from(options).find(option => option.checked);
+ const resultDiv = document.getElementById('result_7902');
+ if (selected) {
+  if (selected === correctOption) {
+   resultDiv.style.color = 'green';
+   resultDiv.textContent = 'CORRECT';
+  } else {
+   resultDiv.style.color = 'red';
+   resultDiv.textContent = 'incorrect';
+  }
+ } else {
+  resultDiv.style.color = 'black';
+  resultDiv.textContent = 'Please select an answer.';
+ }
+}
+</script>

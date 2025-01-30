@@ -2,7 +2,7 @@
 
 Molecular design of life, major elements, and biomacromolecules.
 
-## Hydrophobicity Based on Molecular Formula
+## Hydrophobicity from Molecular Formula
 
 [Download the original question set](biochemistry/topic01/bbq-which_hydrophobic-simple-questions.txt)
 
