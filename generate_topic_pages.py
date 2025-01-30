@@ -134,7 +134,7 @@ def update_index_md(topic_folder: str, bbq_files: list) -> None:
 	description = get_description(parent_folder, relative_topic_name)
 	print(f"Page description: {description}")
 
-	index_md_path = os.path.join(topic_folder, "index.md.temp")
+	index_md_path = os.path.join(topic_folder, "index.md")
 	print(f'writing to {index_md_path}')
 	with open(index_md_path, "w") as index_md:
 
