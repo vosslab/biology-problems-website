@@ -117,30 +117,31 @@ def generate_javascript(hex_value) -> str:
 	Returns:
 		str: JavaScript code as a string.
 	"""
+
 	javascript_html = "<script>\n"
 	# Open the function
 	javascript_html +=f"function checkAnswer_{hex_value}() "
 	javascript_html += "{\n"
 	# Set options constant to get all options from the form
 	javascript_html +=f" const options = document.getElementsByName('answer_{hex_value}');\n"
-	# Initialize correctOption variable to null
-	javascript_html += " let correctOption = null;\n"
 
-	# Loop through options to find the correct one
-	javascript_html += " for (let i = 0; i < options.length; i++) {\n"
-	javascript_html += "  if (options[i].dataset.correct === 'true') {\n"
-	javascript_html += "   correctOption = options[i];\n"
-	javascript_html += "  }\n"  # Close if statement
-	javascript_html += " }\n"  # Close for loop
+	#  Get the correct option
+	javascript_html += " const correctOption = Array.from(options).reduce(function(acc, option) {\n"
+	javascript_html += "   return acc || (option.dataset.correct === 'true' ? option : null);\n"
+	javascript_html += " }, null);\n"
+
 	# Get the selected option
-	javascript_html += " const selected = Array.from(options).find(option => option.checked);\n"
+	javascript_html += " const selectedOption = Array.from(options).reduce(function(acc, option) {\n"
+	javascript_html += "   return acc || (option.checked ? option : null);\n"
+	javascript_html += " }, null);\n"
+
 	# Get the result div to display feedback
 	javascript_html +=f" const resultDiv = document.getElementById('result_{hex_value}');\n"
 
 	# Check if a selection is made
-	javascript_html += " if (selected) {\n"
+	javascript_html += " if (selectedOption) {\n"
 	# If the selection is correct
-	javascript_html += "  if (selected === correctOption) {\n"
+	javascript_html += "  if (selectedOption === correctOption) {\n"
 	javascript_html += "   resultDiv.style.color = 'green';\n"
 	javascript_html += "   resultDiv.textContent = 'CORRECT';\n"
 	javascript_html += "  } else {\n"  # If the selection is incorrect
