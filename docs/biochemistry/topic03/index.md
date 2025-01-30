@@ -2,15 +2,21 @@
 
 Amino acid structure, types, and roles in protein structure.
 
-## Amino Acid Sequence in a Dipeptide
+## Amino Acid Sequence of a Dipeptide
 
-[Download the original question set](biochemistry/topic03/bbq-2_amino_acids-polypeptide_mc_sequence-questions.txt)
+<a id='raw-url' href='bbq-2_amino_acids-polypeptide_mc_sequence-questions.txt' download>Download the bbq-2_amino_acids-polypeptide_mc_sequence-questions.txt file for Blackboard Upload</a>
 
-{% include-markdown "biochemistry/topic03/2_amino_acids-polypeptide_mc_sequence.html" %}
+<details>
+  <summary>"Click to show example problem on Amino Acid Sequence of a Dipeptide"</summary>
+  {% include "biochemistry/topic03/2_amino_acids-polypeptide_mc_sequence.html" %}
 
-## Amino Acids from Chemical Structures
+<br/></details>
+## Chemical Structure of an Amino Acid
 
-[Download the original question set](biochemistry/topic03/bbq-which_amino_acid_mc-questions.txt)
+<a id='raw-url' href='bbq-which_amino_acid_mc-questions.txt' download>Download the bbq-which_amino_acid_mc-questions.txt file for Blackboard Upload</a>
 
-{% include-markdown "biochemistry/topic03/which_amino_acid_mc.html" %}
+<details>
+  <summary>"Click to show example problem on Chemical Structure of an Amino Acid"</summary>
+  {% include "biochemistry/topic03/which_amino_acid_mc.html" %}
 
+<br/></details>

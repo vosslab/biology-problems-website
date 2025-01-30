@@ -2,27 +2,39 @@
 
 Properties of water, pH scales, buffering systems.
 
-## Optimal Buffering Range Based on pKa Values
+## Optimal Buffering Range using pKa
 
-[Download the original question set](biochemistry/topic02/bbq-optimal_buffering_range-questions.txt)
+<a id='raw-url' href='bbq-optimal_buffering_range-questions.txt' download>Download the bbq-optimal_buffering_range-questions.txt file for Blackboard Upload</a>
 
-{% include-markdown "biochemistry/topic02/optimal_buffering_range.html" %}
+<details>
+  <summary>"Click to show example problem on Optimal Buffering Range using pKa"</summary>
+  {% include "biochemistry/topic02/optimal_buffering_range.html" %}
 
-## Most Abundant Protonation State Based on pKa Values and pH
+<br/></details>
+## Most Abundant Diprotic State at pH using pKa
 
-[Download the original question set](biochemistry/topic02/bbq-pKa_buffer_state-2_protons-questions.txt)
+<a id='raw-url' href='bbq-pKa_buffer_state-2_protons-questions.txt' download>Download the bbq-pKa_buffer_state-2_protons-questions.txt file for Blackboard Upload</a>
 
-{% include-markdown "biochemistry/topic02/pKa_buffer_state-2_protons.html" %}
+<details>
+  <summary>"Click to show example problem on Most Abundant Diprotic State at pH using pKa"</summary>
+  {% include "biochemistry/topic02/pKa_buffer_state-2_protons.html" %}
 
-## Most Abundant Protonation State of Phosphoric Acid at Given pH Values
+<br/></details>
+## Most Abundant Triprotic State at pH using pKa
 
-[Download the original question set](biochemistry/topic02/bbq-pKa_buffer_state-3_protons-questions.txt)
+<a id='raw-url' href='bbq-pKa_buffer_state-3_protons-questions.txt' download>Download the bbq-pKa_buffer_state-3_protons-questions.txt file for Blackboard Upload</a>
 
-{% include-markdown "biochemistry/topic02/pKa_buffer_state-3_protons.html" %}
+<details>
+  <summary>"Click to show example problem on Most Abundant Triprotic State at pH using pKa"</summary>
+  {% include "biochemistry/topic02/pKa_buffer_state-3_protons.html" %}
 
-## Most Abundant Protonation State Based on pKa Values
+<br/></details>
+## Most Abundant Tetraprotic State at pH using pKa
 
-[Download the original question set](biochemistry/topic02/bbq-pKa_buffer_state-4_protons-questions.txt)
+<a id='raw-url' href='bbq-pKa_buffer_state-4_protons-questions.txt' download>Download the bbq-pKa_buffer_state-4_protons-questions.txt file for Blackboard Upload</a>
 
-{% include-markdown "biochemistry/topic02/pKa_buffer_state-4_protons.html" %}
+<details>
+  <summary>"Click to show example problem on Most Abundant Tetraprotic State at pH using pKa"</summary>
+  {% include "biochemistry/topic02/pKa_buffer_state-4_protons.html" %}
 
+<br/></details>
