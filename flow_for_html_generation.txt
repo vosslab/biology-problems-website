@@ -4,9 +4,9 @@ Flow for creating website pages for a particular folder
 * The topic title is defined in the root-level mkdocs.yml file under the "nav" section.
 Example: titles: biochemistry/topic02: "Buffer Systems and pKa"
 
-2. Obtain the subtitle
-* The subtitle is defined in the index.md file located in the parent folder of the topic.
-Example: ./biochemistry/index.md may contain a subtitle like:
+2. Obtain the description
+* The description is defined in the index.md file located in the parent folder of the topic.
+Example: ./biochemistry/index.md may contain a description like:
 "Topics on Molecular Design of Life and Major Concepts"
 
 3. Identify BBQ text files
@@ -33,8 +33,9 @@ Example: Download the original question set
 
 7. Add the generated HTML to the topic's index.md file
 * Insert a line in index.md to include the generated HTML file.
-Example line: {% include-markdown "biochemistry/topic02/optimal_buffering_range-questions.html" %}
+Example line: {% include "biochemistry/topic02/optimal_buffering_range-questions.html" %}
 
 8. (Optional) Create a detailed markdown file
 * If desired, generate a more detailed .md file with multiple questions or examples to provide additional context.
 
+9. TODO add the QTI v2.1 for LP like Canvas or Moodle
