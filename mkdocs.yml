@@ -16,6 +16,11 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+
+plugins:
+- search
+- include-markdown
+
 nav:
 - Home: index.md
 - Biochemistry:
@@ -43,6 +48,3 @@ nav:
   - Topic 09: genetics/topic09/index.md
   - Topic 10: genetics/topic10/index.md
 
-plugins:
-- search
-- include-markdown
