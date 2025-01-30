@@ -1,33 +1,32 @@
-<div id="question_html_0a4d">
-<div id="statement_text_0a4d"><p><strong>Fumaric acid</strong> and its conjugate base, fumarate, is produced by human skin when exposed to sunlight and is an intermediate in the citric acid cycle.<br>Fumaric acid is diprotic with pK<sub>a</sub> values of <strong>3.03</strong> and <strong>4.44</strong>.<br>Fumaric acid has three possible protonation states in the choices below.<br>Which one of the following protonation states is the most abundant at <strong>pH 2.5</strong>?</p></div>
+<div id="question_html_7214">
+<div id="statement_text_7214"><p><strong>Sulfurous acid</strong> and its conjugate base, sulfite, occurs naturally in wine, but larger amounts are added to wine to stop fermentation and prevent spoilage.<br>Sulfurous acid is diprotic with pK<sub>a</sub> values of <strong>1.81</strong> and <strong>6.97</strong>.<br>Sulfurous acid has three possible protonation states in the choices below.<br>Which one of the following protonation states is the most abundant at <strong>pH 4.5</strong>?</p></div>
 <form>
-<ul id="choices_0a4d">
+<ul id="choices_7214">
 <li>
-    <input type="radio" id="option0" name="answer_0a4d" data-correct="true"><label for="option0">A.  <span style="color: #00008B">(COOH)CH=CH(COOH)</span>  </label>
+    <input type="radio" id="option0" name="answer_7214" data-correct="false"><label for="option0">A.  <span style="color: #8B0000">SO<sub>3</sub><sup>2-</sup></span>  </label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_0a4d" data-correct="false"><label for="option1">B.  <span style="color: #404040">(COOH)CH=CH(COO)<sup>-</sup></span>  </label>
+    <input type="radio" id="option1" name="answer_7214" data-correct="true"><label for="option1">B.  <span style="color: #404040">HSO<sub>3</sub><sup>-</sup></span>  </label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_0a4d" data-correct="false"><label for="option2">C.  <span style="color: #8B0000">(COO)CH=CH(COO)<sup>2-</sup></span>  </label>
+    <input type="radio" id="option2" name="answer_7214" data-correct="false"><label for="option2">C.  <span style="color: #00008B">H<sub>2</sub>SO<sub>3</sub></span>  </label>
   </li>
 </ul>
-<div id="result_0a4d" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
-<button type="button" class="md-button md-button--secondary" onclick="checkAnswer_0a4d()">Check Answer</button>
+<div id="result_7214" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary" onclick="checkAnswer_7214()">Check Answer</button>
 </form>
 </div><script>
-function checkAnswer_0a4d() {
- const options = document.getElementsByName('answer_0a4d');
- let correctOption = null;
- for (let i = 0; i < options.length; i++) {
-  if (options[i].dataset.correct === 'true') {
-   correctOption = options[i];
-  }
- }
- const selected = Array.from(options).find(option => option.checked);
- const resultDiv = document.getElementById('result_0a4d');
- if (selected) {
-  if (selected === correctOption) {
+function checkAnswer_7214() {
+ const options = document.getElementsByName('answer_7214');
+ const correctOption = Array.from(options).reduce(function(acc, option) {
+   return acc || (option.dataset.correct === 'true' ? option : null);
+ }, null);
+ const selectedOption = Array.from(options).reduce(function(acc, option) {
+   return acc || (option.checked ? option : null);
+ }, null);
+ const resultDiv = document.getElementById('result_7214');
+ if (selectedOption) {
+  if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';
    resultDiv.textContent = 'CORRECT';
   } else {

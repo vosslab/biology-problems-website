@@ -2,9 +2,12 @@
 
 Molecular design of life, major elements, and biomacromolecules.
 
-## Hydrophobicity from Molecular Formula
+## Hydrophobic Compounds from Molecular Formulas
 
-[Download the original question set](biochemistry/topic01/bbq-which_hydrophobic-simple-questions.txt)
+<a id='raw-url' href='bbq-which_hydrophobic-simple-questions.txt' download>Download the bbq-which_hydrophobic-simple-questions.txt file for Blackboard Upload</a>
 
-{% include-markdown "biochemistry/topic01/which_hydrophobic-simple.html" %}
+<details>
+  <summary>"Click to show example problem on Hydrophobic Compounds from Molecular Formulas"</summary>
+  {% include "biochemistry/topic01/which_hydrophobic-simple.html" %}
 
+<br/></details>
