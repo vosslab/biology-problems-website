@@ -4,7 +4,6 @@
 import os
 import re
 import sys
-import time
 import random
 import argparse
 
@@ -19,7 +18,6 @@ def format_html_lxml(html_string):
 	formatted_html = etree.tostring(tree, pretty_print=True, encoding="unicode").strip()
 	formatted_html = etree.tostring(tree, pretty_print=True, encoding="unicode", method="html").strip()
 	return formatted_html
-
 
 #==============
 def load_single_question_from_file(file_path: str) -> tuple:
@@ -57,8 +55,8 @@ def load_single_question_from_file(file_path: str) -> tuple:
 	question_text = question_text[11:].strip()
 
 	# Output for validation (optional)
-	print("Validated Hex Value:", hex_value)
-	print("Remaining Question Text:", question_text[:40])
+	print("  Validated Hex Value:", hex_value)
+	#print("Remaining Question Text:", question_text[:40])
 
 	# Extract answer choices as a list of tuples (answer_text, is_correct)
 	choices_list_of_tuples = [
@@ -88,12 +86,12 @@ def generate_html(hex_value, question_text, choices_list_of_tuples):
 	html_content += f"<ul id=\"choices_{hex_value}\">\n"
 	for idx, option_tuple in enumerate(choices_list_of_tuples):
 		choice_text, correct_bool = option_tuple
-		html_content += f"  <li>\n"
+		html_content += "  <li>\n"
 		html_content += f"    <input type=\"radio\" id=\"option{idx}\" "
 		html_content += f" name=\"answer_{hex_value}\" "
 		html_content += f" data-correct=\"{str(correct_bool).lower()}\">\n"
 		html_content += f"    <label for=\"option{idx}\">{choice_text}</label>\n"
-		html_content += f"  </li>\n"
+		html_content += "  </li>\n"
 	html_content += "</ul>\n"
 	style = 'style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"'
 	html_content += f"<div id=\"result_{hex_value}\" {style}>&nbsp;</div>\n"
@@ -102,7 +100,7 @@ def generate_html(hex_value, question_text, choices_list_of_tuples):
 	html_content += "<button type=\"button\" "
 	html_content += "class=\"md-button md-button--secondary\" "
 	html_content += f"onclick=\"checkAnswer_{hex_value}()\">"
-	html_content += f"Check Answer"
+	html_content += "Check Answer"
 	html_content += "</button>\n"
 
 	# close the form
@@ -175,6 +173,42 @@ def get_parser() -> argparse.Namespace:
 	return args
 
 #==============
+def get_output_filename(file_path):
+	basename = os.path.basename(file_path)
+	if basename.startswith('bbq-'):
+		match = re.search(r'bbq-(.*?)-questions\.txt', basename)
+		if not match:
+			raise ValueError(f"Invalid filename format: {basename}")
+		unique_part = match.group(1)
+		output_file = unique_part + ".html"
+	return output_file
+
+#==============
+def convert_text_to_html(file_path, output_file=None):
+
+	if not os.path.exists(file_path):
+		print(f"Error: File {file_path} not found.")
+		sys.exit(1)
+
+	if output_file is None:
+		output_file = get_output_filename(file_path)
+
+	hex_value, question_text, choices_list_of_tuples = load_single_question_from_file(file_path)
+
+	# Generate the HTML file
+	html_content = generate_html(hex_value, question_text, choices_list_of_tuples)
+	#print(f"Original HTML Text (Length = {len(html_content)}):", html_content[:40])
+	html_content = format_html(html_content)
+	#print(f"Cleaned  HTML Text (Length = {len(html_content)}):", html_content[:40])
+	html_content += generate_javascript(hex_value)
+
+	# Write the constructed HTML to the output file
+	with open(output_file, 'w') as file:
+		file.write(html_content)
+
+	return output_file
+
+#==============
 def main() -> None:
 	"""
 	Main function to execute the program.
@@ -184,38 +218,9 @@ def main() -> None:
 
 	file_path = args.file_path
 
-	if not os.path.exists(file_path):
-		print(f"Error: File {file_path} not found.")
-		sys.exit(1)
+	output_file = convert_text_to_html(file_path, args.output_file)
 
-	if args.output_file is None:
-		args.output_file = 'mc_question.html'
-		basename = os.path.basename(file_path)
-		if basename.startswith('bbq-'):
-			match = re.search(r'bbq-(.*?)-questions\.txt', basename)
-			if not match:
-				raise ValueError(f"Invalid filename format: {basename}")
-			unique_part = match.group(1)
-			args.output_file = unique_part + ".html"
-
-	hex_value, question_text, choices_list_of_tuples = load_single_question_from_file(file_path)
-
-	# Generate the HTML file
-	html_content = generate_html(hex_value, question_text, choices_list_of_tuples)
-	print(f"Original HTML Text (Length = {len(html_content)}):", html_content[:40])
-
-	html_content = format_html(html_content)
-
-	print(f"Cleaned  HTML Text (Length = {len(html_content)}):", html_content[:40])
-
-	html_content += generate_javascript(hex_value)
-
-
-	# Write the constructed HTML to the output file
-	with open(args.output_file, 'w') as file:
-		file.write(html_content)
-
-	print(f"HTML file generated: {args.output_file}")
+	print(f"HTML file generated: {output_file}")
 
 #==============
 if __name__ == "__main__":
