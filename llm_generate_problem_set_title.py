@@ -29,7 +29,8 @@ from bs4 import BeautifulSoup
 #MODEL_NAME = "llama3.2:3b-instruct-fp16"
 
 # best for 8GB VRAM machines
-MODEL_NAME = "llama3.2:3b-instruct-q4_K_M"
+#MODEL_NAME = "llama3.2:3b-instruct-q4_K_M"
+MODEL_NAME = "llama3.2:3b-instruct-q5_K_M"
 
 
 #==============
