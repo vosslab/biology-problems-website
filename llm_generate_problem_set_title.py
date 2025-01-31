@@ -23,7 +23,9 @@ from bs4 import BeautifulSoup
 # Configure the Ollama model by setting the model name
 # Uncomment one of these lines to change the model
 # see https://ollama.com/library for models
-
+# check size of models 'du -sh .ollama/models/blobs/'
+# to avoid filling hard drive space
+# run 'ollama list' also helps
 # best for 32GB VRAM machines
 # MODEL_NAME = "phi4"
 #MODEL_NAME = "llama3.2:3b-instruct-fp16"
@@ -31,7 +33,6 @@ from bs4 import BeautifulSoup
 # best for 8GB VRAM machines
 #MODEL_NAME = "llama3.2:3b-instruct-q4_K_M"
 MODEL_NAME = "llama3.2:3b-instruct-q5_K_M"
-
 
 #==============
 
