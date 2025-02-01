@@ -1,0 +1,55 @@
+<div id="question_html_2cf9">
+<div id="statement_text_2cf9">
+<h6>Isoelectric Point Problem</h6> <table cellpadding="2" cellspacing="2" style="text-align:center; border: 1px solid black; font-size: 14px;">
+<tr>
+<th>Protein Name</th>
+<th>isoelectric point (pI)</th>
+<th>molecular weight</th>
+</tr>
+<tr>
+<td>Fibrinogen (Fib)</td>
+<td align="center">5.8</td>
+<td align="center">63.5</td>
+</tr>
+</table>
+<p>The protein in the table (above) is placed in a buffer solution with a pH of 4.5.<br>What is the correct net charge on the Fib protein at <b>pH of 4.5</b>?</p>
+</div>
+<form>
+<ul id="choices_2cf9">
+<li>
+    <input type="radio" id="option0" name="answer_2cf9" data-correct="true"><label for="option0">A.  The protein will have a net <strong><span style="color: darkblue">positive (+)</span></strong> charge.  </label>
+  </li>
+  <li>
+    <input type="radio" id="option1" name="answer_2cf9" data-correct="false"><label for="option1">B.  The protein will have a net <strong><span style="color: darkred">negative (–)</span></strong> charge.  </label>
+  </li>
+  <li>
+    <input type="radio" id="option2" name="answer_2cf9" data-correct="false"><label for="option2">C.  The protein will have a net <strong><span style="color: goldenrod">neutral (0)</span></strong> charge.  </label>
+  </li>
+</ul>
+<div id="result_2cf9" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary" onclick="checkAnswer_2cf9()">Check Answer</button>
+</form>
+</div><script>
+function checkAnswer_2cf9() {
+ const options = document.getElementsByName('answer_2cf9');
+ const correctOption = Array.from(options).reduce(function(acc, option) {
+   return acc || (option.dataset.correct === 'true' ? option : null);
+ }, null);
+ const selectedOption = Array.from(options).reduce(function(acc, option) {
+   return acc || (option.checked ? option : null);
+ }, null);
+ const resultDiv = document.getElementById('result_2cf9');
+ if (selectedOption) {
+  if (selectedOption === correctOption) {
+   resultDiv.style.color = 'green';
+   resultDiv.textContent = 'CORRECT';
+  } else {
+   resultDiv.style.color = 'red';
+   resultDiv.textContent = 'incorrect';
+  }
+ } else {
+  resultDiv.style.color = 'black';
+  resultDiv.textContent = 'Please select an answer.';
+ }
+}
+</script>
