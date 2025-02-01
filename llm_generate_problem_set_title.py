@@ -13,12 +13,48 @@ import time
 import random
 # Provides tools to parse and handle command-line arguments
 import argparse
+import subprocess
 
 # Import external libraries
 # Provides functions to interact with the Ollama chat model API
 from ollama import chat, ChatResponse
 # Provides tools to parse and manipulate HTML content
 from bs4 import BeautifulSoup
+
+#==============
+# Function to detect VRAM or Unified Memory size in GB
+def get_vram_size_in_gb():
+	try:
+		# Detect system architecture
+		architecture = subprocess.check_output(["uname", "-m"], text=True).strip()
+		is_apple_silicon = architecture.startswith("arm64")
+
+		if is_apple_silicon:
+			# Apple Silicon (M1/M2): Unified memory
+			hardware_info = subprocess.check_output(["system_profiler", "SPHardwareDataType"], text=True)
+			memory_match = re.search(r"Memory:\s(\d+)\s?GB", hardware_info)
+			if memory_match:
+				return int(memory_match.group(1))
+		else:
+			# Intel Macs: Dedicated VRAM
+			display_info = subprocess.check_output(["system_profiler", "SPDisplaysDataType"], text=True)
+			vram_match = re.search(r"VRAM.*?: (\d+)\s?MB", display_info)
+			if vram_match:
+				vram_in_mb = int(vram_match.group(1))
+				return vram_in_mb // 1024  # Convert MB to GB
+
+	except subprocess.SubprocessError as e:
+		print(f"Error getting memory info: {e}")
+	except Exception as e:
+		print(f"Unexpected error: {e}")
+
+	return None
+
+vram_size_gb = get_vram_size_in_gb()
+if vram_size_gb is not None:
+	print(f"VRAM size: {vram_size_gb} GB")
+else:
+	print("Could not determine VRAM size.")
 
 # Configure the Ollama model by setting the model name
 # Uncomment one of these lines to change the model
@@ -27,12 +63,19 @@ from bs4 import BeautifulSoup
 # to avoid filling hard drive space
 # run 'ollama list' also helps
 # best for 32GB VRAM machines
-# MODEL_NAME = "phi4"
-#MODEL_NAME = "llama3.2:3b-instruct-fp16"
-
-# best for 8GB VRAM machines
-#MODEL_NAME = "llama3.2:3b-instruct-q4_K_M"
-MODEL_NAME = "llama3.2:3b-instruct-q5_K_M"
+#default
+MODEL_NAME = "llama3.2:1b-instruct-q4_K_M"
+if vram_size_gb is not None:
+	if vram_size_gb > 30:
+		MODEL_NAME = "phi4:14b-q8_0"
+		#MODEL_NAME = "llama3.2:3b-instruct-fp16"
+	elif vram_size_gb > 14:
+		MODEL_NAME = "phi4:14b-q4_K_M"
+	elif vram_size_gb > 4:
+		# best for 8GB VRAM machines
+		#MODEL_NAME = "llama3.2:3b-instruct-q4_K_M"
+		MODEL_NAME = "llama3.2:3b-instruct-q5_K_M"
+print(f"Selected ollama model: {MODEL_NAME}")
 
 #==============
 
@@ -119,18 +162,18 @@ def generate_title_prompt(file_path: str, problem_statements: list, save_prompt:
 
 # This function removes all HTML tags from a string.
 def strip_html_tags(html_string):
-    """
-    Removes all HTML tags from the input string and returns the plain text.
+	"""
+	Removes all HTML tags from the input string and returns the plain text.
 
-    Args:
-        html_string (str): The HTML string to process.
+	Args:
+		html_string (str): The HTML string to process.
 
-    Returns:
-        str: The plain text with HTML tags removed.
-    """
-    # Use BeautifulSoup to parse the HTML and extract only the text content
-    soup = BeautifulSoup(html_string, 'html.parser')
-    return soup.get_text()
+	Returns:
+		str: The plain text with HTML tags removed.
+	"""
+	# Use BeautifulSoup to parse the HTML and extract only the text content
+	soup = BeautifulSoup(html_string, 'html.parser')
+	return soup.get_text()
 
 #==============
 
@@ -243,7 +286,7 @@ def load_problem_statements_from_file(file_path: str) -> tuple:
 	total_length = 0
 
 	# Loop up to 4 times to select random problem statements
-	for _ in range(4):
+	for _ in range(6):
 		# Pick a random line from the file and remove any extra whitespace
 		line = random.choice(lines).strip()
 
