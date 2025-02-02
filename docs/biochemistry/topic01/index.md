@@ -11,6 +11,15 @@ Molecular design of life, major elements, and biomacromolecules.
   {% include "biochemistry/topic01/MC-bond_types.html" %}
 
 <br/></details>
+## The Seven Biochemical Functional Groups
+
+<a id='raw-url' href='bbq-MC-chemical_groups-questions.txt' download>Download the bbq-MC-chemical_groups-questions.txt file for Blackboard Upload</a>
+
+<details>
+  <summary>"Click to show example problem on The Seven Biochemical Functional Groups"</summary>
+  {% include "biochemistry/topic01/MC-chemical_groups.html" %}
+
+<br/></details>
 ## Types of Macromolecules
 
 <a id='raw-url' href='bbq-MC-macromolecules-questions.txt' download>Download the bbq-MC-macromolecules-questions.txt file for Blackboard Upload</a>
