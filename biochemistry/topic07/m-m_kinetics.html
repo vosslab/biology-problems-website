@@ -1,0 +1,47 @@
+<div id="question_html_d8e2">
+<div id="statement_text_d8e2"><p>Which one of the following statements is<strong> <span style="color: #ba372a;"><strong>FALSE</strong></span> </strong> about Michaelis-Menten kinetics?</p></div>
+<form>
+<ul id="choices_d8e2">
+<li>
+    <input type="radio" id="option0" name="answer_d8e2" data-correct="false"><label for="option0">A.<strong> </strong><strong><span style="color: #0d57a5;">M-M kinetics</span></strong> was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913.  </label>
+  </li>
+  <li>
+    <input type="radio" id="option1" name="answer_d8e2" data-correct="false"><label for="option1">B.<strong> </strong><strong><span style="color: #0d57a5;">M-M kinetics</span></strong> assumes that the rate of breaking the <strong><span style="color: #2fbd0f;">enzyme-substrate complex [ES]</span></strong> is equal to the rate of its formation.  </label>
+  </li>
+  <li>
+    <input type="radio" id="option2" name="answer_d8e2" data-correct="false"><label for="option2">C.<strong> </strong>When the substrate <strong><span style="color: #ff0000;">concentration</span></strong>, [S], is much smaller than K<sub>M</sub>, the <strong><span style="color: #a1005e;">reaction rate</span></strong> is linear.  </label>
+  </li>
+  <li>
+    <input type="radio" id="option3" name="answer_d8e2" data-correct="false"><label for="option3">D.<strong> </strong><strong><span style="color: #0d57a5;">M-M kinetics</span></strong> assumes that there is no product available and there is no measureable reverse <strong><span style="color: #a1005e;">reaction rate</span></strong>.  </label>
+  </li>
+  <li>
+    <input type="radio" id="option4" name="answer_d8e2" data-correct="true"><label for="option4">E.<strong> </strong><strong><span style="color: #0d57a5;"><strong><span style="color: #0d57a5;">M-M kinetics</span></strong></span></strong> assumes that the <strong><span style="color: #2fbd0f;"><strong><span style="color: #2fbd0f;">enzyme-substrate complex [ES]</span></strong></span></strong> is short lived and does<strong> <strong>NOT</strong> </strong>contribute to the <strong><span style="color: #a1005e;"><strong><span style="color: #a1005e;">reaction rate</span></strong></span></strong>.  </label>
+  </li>
+</ul>
+<div id="result_d8e2" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary" onclick="checkAnswer_d8e2()">Check Answer</button>
+</form>
+</div><script>
+function checkAnswer_d8e2() {
+ const options = document.getElementsByName('answer_d8e2');
+ const correctOption = Array.from(options).reduce(function(acc, option) {
+   return acc || (option.dataset.correct === 'true' ? option : null);
+ }, null);
+ const selectedOption = Array.from(options).reduce(function(acc, option) {
+   return acc || (option.checked ? option : null);
+ }, null);
+ const resultDiv = document.getElementById('result_d8e2');
+ if (selectedOption) {
+  if (selectedOption === correctOption) {
+   resultDiv.style.color = 'green';
+   resultDiv.textContent = 'CORRECT';
+  } else {
+   resultDiv.style.color = 'red';
+   resultDiv.textContent = 'incorrect';
+  }
+ } else {
+  resultDiv.style.color = 'black';
+  resultDiv.textContent = 'Please select an answer.';
+ }
+}
+</script>

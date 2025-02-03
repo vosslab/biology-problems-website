@@ -1,0 +1,47 @@
+<div id="question_html_e786">
+<div id="statement_text_e786">Which one of the following molecular entities <strong><span style="color: OrangeRed;">CANNOT</span></strong> be classified as an enzymatic cofactor?</div>
+<form>
+<ul id="choices_e786">
+<li>
+    <input type="radio" id="option0" name="answer_e786" data-correct="false"><label for="option0">A.<strong> </strong><strong><span style="color: DarkGreen;">vitamin</span></strong> B<sub>2</sub>, riboflavin  </label>
+  </li>
+  <li>
+    <input type="radio" id="option1" name="answer_e786" data-correct="false"><label for="option1">B.<strong> </strong>co<strong><span style="color: DarkBlue;">enzyme</span></strong> A (CoA)  </label>
+  </li>
+  <li>
+    <input type="radio" id="option2" name="answer_e786" data-correct="false"><label for="option2">C.<strong> </strong><strong><span style="color: #990033;">adenosine</span></strong> triphosphate (ATP)  </label>
+  </li>
+  <li>
+    <input type="radio" id="option3" name="answer_e786" data-correct="false"><label for="option3">D.<strong> </strong>iron <strong><span style="color: #663300;">ion</span></strong>s, Fe<sup>+2</sup>/Fe<sup>+3</sup>  </label>
+  </li>
+  <li>
+    <input type="radio" id="option4" name="answer_e786" data-correct="true"><label for="option4">E.<strong> </strong>the glycolysis <strong><span style="color: DarkBlue;"><strong><span style="color: DarkBlue;">enzyme</span></strong></span></strong>, hexokinase  </label>
+  </li>
+</ul>
+<div id="result_e786" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary" onclick="checkAnswer_e786()">Check Answer</button>
+</form>
+</div><script>
+function checkAnswer_e786() {
+ const options = document.getElementsByName('answer_e786');
+ const correctOption = Array.from(options).reduce(function(acc, option) {
+   return acc || (option.dataset.correct === 'true' ? option : null);
+ }, null);
+ const selectedOption = Array.from(options).reduce(function(acc, option) {
+   return acc || (option.checked ? option : null);
+ }, null);
+ const resultDiv = document.getElementById('result_e786');
+ if (selectedOption) {
+  if (selectedOption === correctOption) {
+   resultDiv.style.color = 'green';
+   resultDiv.textContent = 'CORRECT';
+  } else {
+   resultDiv.style.color = 'red';
+   resultDiv.textContent = 'incorrect';
+  }
+ } else {
+  resultDiv.style.color = 'black';
+  resultDiv.textContent = 'Please select an answer.';
+ }
+}
+</script>
