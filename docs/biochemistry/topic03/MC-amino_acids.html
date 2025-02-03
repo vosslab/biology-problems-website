@@ -1,36 +1,36 @@
-<div id="question_html_5b39">
-<div id="statement_text_5b39"><p>Which one of the following amino acids correspond to the description <span style="font-size: 1em;"><strong>'a <strong><span style="color: #009e4c;">polar amino acid</span></strong> with a shorter amine-substituted carboxylate (amide) -C(=O)NH<sub>2</sub> group'</strong></span>.</p></div>
+<div id="question_html_29d3">
+<div id="statement_text_29d3"><p>Which one of the following amino acids correspond to the description <span style="font-size: 1em;"><strong>'a <strong><span style="color: #0d57a5;">positively charged amino acid</span></strong> with a long, flexible <strong><span style="color: #6d108e;">side chain</span></strong> containing 3 nitrogen atoms (guanidinium)'</strong></span>.</p></div>
 <form>
-<ul id="choices_5b39">
+<ul id="choices_29d3">
 <li>
-    <input type="radio" id="option0" name="answer_5b39" data-correct="false"><label for="option0">A.  <span style="font-family: sans-serif; letter-spacing: 1px;">alanine</span>  </label>
+    <input type="radio" id="option0" name="answer_29d3" data-correct="true"><label for="option0">A.  <span style="font-family: sans-serif; letter-spacing: 1px;">arginine</span>  </label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_5b39" data-correct="true"><label for="option1">B.  <span style="font-family: sans-serif; letter-spacing: 1px;">asparagine</span>  </label>
+    <input type="radio" id="option1" name="answer_29d3" data-correct="false"><label for="option1">B.  <span style="font-family: sans-serif; letter-spacing: 1px;">asparagine</span>  </label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_5b39" data-correct="false"><label for="option2">C.  <span style="font-family: sans-serif; letter-spacing: 1px;">aspartate</span>  </label>
+    <input type="radio" id="option2" name="answer_29d3" data-correct="false"><label for="option2">C.  <span style="font-family: sans-serif; letter-spacing: 1px;">methionine</span>  </label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_5b39" data-correct="false"><label for="option3">D.  <span style="font-family: sans-serif; letter-spacing: 1px;">glycine</span>  </label>
+    <input type="radio" id="option3" name="answer_29d3" data-correct="false"><label for="option3">D.  <span style="font-family: sans-serif; letter-spacing: 1px;">threonine</span>  </label>
   </li>
   <li>
-    <input type="radio" id="option4" name="answer_5b39" data-correct="false"><label for="option4">E.  <span style="font-family: sans-serif; letter-spacing: 1px;">lysine</span>  </label>
+    <input type="radio" id="option4" name="answer_29d3" data-correct="false"><label for="option4">E.  <span style="font-family: sans-serif; letter-spacing: 1px;">valine</span>  </label>
   </li>
 </ul>
-<div id="result_5b39" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
-<button type="button" class="md-button md-button--secondary" onclick="checkAnswer_5b39()">Check Answer</button>
+<div id="result_29d3" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary" onclick="checkAnswer_29d3()">Check Answer</button>
 </form>
 </div><script>
-function checkAnswer_5b39() {
- const options = document.getElementsByName('answer_5b39');
+function checkAnswer_29d3() {
+ const options = document.getElementsByName('answer_29d3');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_5b39');
+ const resultDiv = document.getElementById('result_29d3');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';

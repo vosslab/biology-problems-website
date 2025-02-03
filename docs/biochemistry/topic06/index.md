@@ -20,21 +20,21 @@ Enzyme classifications, kinetics, thermodynamic principles.
   {% include "biochemistry/topic06/chemical_reactions.html" %}
 
 <br/></details>
-## Understanding Gibbs Free Energy (\( \Delta G = \Delta H - T\Delta S \))
+## True/False Statements on Gibbs Free Energy (&Delta;G = &Delta;H - T &Delta;S)
 
 <a id='raw-url' href='bbq-gibbs_free_energy_equation-questions.txt' download>Download the bbq-gibbs_free_energy_equation-questions.txt file for Blackboard Upload</a>
 
 <details>
-  <summary>"Click to show example problem on Understanding Gibbs Free Energy (\( \Delta G = \Delta H - T\Delta S \))"</summary>
+  <summary>"Click to show example problem on True/False Statements on Gibbs Free Energy (&Delta;G = &Delta;H - T &Delta;S)"</summary>
   {% include "biochemistry/topic06/gibbs_free_energy_equation.html" %}
 
 <br/></details>
-## Understanding Thermodynamics vs. Kinetics
+## True/False Statements on Thermodynamics vs. Kinetics
 
 <a id='raw-url' href='bbq-thermodynamics-questions.txt' download>Download the bbq-thermodynamics-questions.txt file for Blackboard Upload</a>
 
 <details>
-  <summary>"Click to show example problem on Understanding Thermodynamics vs. Kinetics"</summary>
+  <summary>"Click to show example problem on True/False Statements on Thermodynamics vs. Kinetics"</summary>
   {% include "biochemistry/topic06/thermodynamics.html" %}
 
 <br/></details>
