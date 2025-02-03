@@ -16,7 +16,7 @@
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.1">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.2">
     
     
       
@@ -24,7 +24,7 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.a40c8224.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.d7758b05.min.css">
       
         
         <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
@@ -1017,39 +1017,39 @@
 <p><a id='raw-url' href='bbq-MC-amino_acids-questions.txt' download>Download the bbq-MC-amino_acids-questions.txt file for Blackboard Upload</a></p>
 <details>
   <summary>"Click to show example problem on Identification of Amino Acids by Structural and Chemical Properties"</summary>
-  <div id="question_html_b4f0">
-  <div id="statement_text_b4f0"><p>Which one of the following amino acids correspond to the description <span style="font-size: 1em;"><strong>'a <strong><span style="color: #009e4c;">polar amino acid</span></strong> that is a methylated form of serine'</strong></span>.</p></div>
+  <div id="question_html_5b39">
+  <div id="statement_text_5b39"><p>Which one of the following amino acids correspond to the description <span style="font-size: 1em;"><strong>'a <strong><span style="color: #009e4c;">polar amino acid</span></strong> with a shorter amine-substituted carboxylate (amide) -C(=O)NH<sub>2</sub> group'</strong></span>.</p></div>
   <form>
-  <ul id="choices_b4f0">
+  <ul id="choices_5b39">
   <li>
-      <input type="radio" id="option0" name="answer_b4f0" data-correct="false"><label for="option0">A.  <span style="font-family: sans-serif; letter-spacing: 1px;">arginine</span>  </label>
+      <input type="radio" id="option0" name="answer_5b39" data-correct="false"><label for="option0">A.  <span style="font-family: sans-serif; letter-spacing: 1px;">alanine</span>  </label>
     </li>
     <li>
-      <input type="radio" id="option1" name="answer_b4f0" data-correct="false"><label for="option1">B.  <span style="font-family: sans-serif; letter-spacing: 1px;">aspartic acid</span>  </label>
+      <input type="radio" id="option1" name="answer_5b39" data-correct="true"><label for="option1">B.  <span style="font-family: sans-serif; letter-spacing: 1px;">asparagine</span>  </label>
     </li>
     <li>
-      <input type="radio" id="option2" name="answer_b4f0" data-correct="false"><label for="option2">C.  <span style="font-family: sans-serif; letter-spacing: 1px;">glutamate</span>  </label>
+      <input type="radio" id="option2" name="answer_5b39" data-correct="false"><label for="option2">C.  <span style="font-family: sans-serif; letter-spacing: 1px;">aspartate</span>  </label>
     </li>
     <li>
-      <input type="radio" id="option3" name="answer_b4f0" data-correct="false"><label for="option3">D.  <span style="font-family: sans-serif; letter-spacing: 1px;">glutamine</span>  </label>
+      <input type="radio" id="option3" name="answer_5b39" data-correct="false"><label for="option3">D.  <span style="font-family: sans-serif; letter-spacing: 1px;">glycine</span>  </label>
     </li>
     <li>
-      <input type="radio" id="option4" name="answer_b4f0" data-correct="true"><label for="option4">E.  <span style="font-family: sans-serif; letter-spacing: 1px;">threonine</span>  </label>
+      <input type="radio" id="option4" name="answer_5b39" data-correct="false"><label for="option4">E.  <span style="font-family: sans-serif; letter-spacing: 1px;">lysine</span>  </label>
     </li>
   </ul>
-  <div id="result_b4f0" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
-  <button type="button" class="md-button md-button--secondary" onclick="checkAnswer_b4f0()">Check Answer</button>
+  <div id="result_5b39" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+  <button type="button" class="md-button md-button--secondary" onclick="checkAnswer_5b39()">Check Answer</button>
   </form>
   </div><script>
-  function checkAnswer_b4f0() {
-   const options = document.getElementsByName('answer_b4f0');
+  function checkAnswer_5b39() {
+   const options = document.getElementsByName('answer_5b39');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_b4f0');
+   const resultDiv = document.getElementById('result_5b39');
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.style.color = 'green';
@@ -1071,39 +1071,39 @@
 <p><a id='raw-url' href='bbq-which_amino_acid_mc-questions.txt' download>Download the bbq-which_amino_acid_mc-questions.txt file for Blackboard Upload</a></p>
 <details>
   <summary>"Click to show example problem on Amino Acids from Chemical Structures"</summary>
-  <div id="question_html_5a3c">
-  <div id="statement_text_5a3c">
-  <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script><p><canvas id="canvas_3c1d" width="480" height="320"></canvas></p>
-  <script>/* */initRDKitModule().then(function(instance){RDKitModule=instance;console.log("RDKit:"+RDKitModule.version());/* */let/* */smiles="C1=C(NC=N1)C[C@@H](C(=O)O)N";let/* */mol=RDKitModule.get_mol(smiles);let/* */mdetails={};mdetails["legend"]="";mdetails["explicitMethyl"]=true;canvas=document.getElementById("canvas_3c1d");mol.draw_to_canvas_with_highlights(canvas,JSON.stringify(mdetails));});/* */</script><h3>Which one of the following amino acids is represented by the chemical structure shown above?</h3>
+  <div id="question_html_25a3">
+  <div id="statement_text_25a3">
+  <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script><p><canvas id="canvas_531a" width="480" height="320"></canvas></p>
+  <script>/* */initRDKitModule().then(function(instance){RDKitModule=instance;console.log("RDKit:"+RDKitModule.version());/* */let/* */smiles="CC(C)[C@@H](C(=O)O)N";let/* */mol=RDKitModule.get_mol(smiles);let/* */mdetails={};mdetails["legend"]="";mdetails["explicitMethyl"]=true;canvas=document.getElementById("canvas_531a");mol.draw_to_canvas_with_highlights(canvas,JSON.stringify(mdetails));});/* */</script><h3>Which one of the following amino acids is represented by the chemical structure shown above?</h3>
   </div>
   <form>
-  <ul id="choices_5a3c">
+  <ul id="choices_25a3">
   <li>
-      <input type="radio" id="option0" name="answer_5a3c" data-correct="false"><label for="option0">A.  glutamine  </label>
+      <input type="radio" id="option0" name="answer_25a3" data-correct="false"><label for="option0">A.  isoleucine  </label>
     </li>
     <li>
-      <input type="radio" id="option1" name="answer_5a3c" data-correct="true"><label for="option1">B.  histidine  </label>
+      <input type="radio" id="option1" name="answer_25a3" data-correct="false"><label for="option1">B.  methionine  </label>
     </li>
     <li>
-      <input type="radio" id="option2" name="answer_5a3c" data-correct="false"><label for="option2">C.  methionine  </label>
+      <input type="radio" id="option2" name="answer_25a3" data-correct="false"><label for="option2">C.  proline  </label>
     </li>
     <li>
-      <input type="radio" id="option3" name="answer_5a3c" data-correct="false"><label for="option3">D.  proline  </label>
+      <input type="radio" id="option3" name="answer_25a3" data-correct="true"><label for="option3">D.  valine  </label>
     </li>
   </ul>
-  <div id="result_5a3c" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
-  <button type="button" class="md-button md-button--secondary" onclick="checkAnswer_5a3c()">Check Answer</button>
+  <div id="result_25a3" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+  <button type="button" class="md-button md-button--secondary" onclick="checkAnswer_25a3()">Check Answer</button>
   </form>
   </div><script>
-  function checkAnswer_5a3c() {
-   const options = document.getElementsByName('answer_5a3c');
+  function checkAnswer_25a3() {
+   const options = document.getElementsByName('answer_25a3');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_5a3c');
+   const resultDiv = document.getElementById('result_25a3');
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.style.color = 'green';
@@ -1170,7 +1170,7 @@
     <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../assets/javascripts/bundle.5090c770.min.js"></script>
+      <script src="../../assets/javascripts/bundle.f13b1293.min.js"></script>
       
     
   </body>
