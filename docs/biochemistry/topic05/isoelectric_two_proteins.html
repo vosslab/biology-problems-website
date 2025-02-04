@@ -1,5 +1,5 @@
-<div id="question_html_fffb">
-<div id="statement_text_fffb">
+<div id="question_html_9765">
+<div id="statement_text_9765">
 <h6>Isoelectric Point Problem</h6> <p>A mixture of two proteins are to be separated by isoelectric focusing.</p> <table cellpadding="2" cellspacing="2" style="text-align:center; border: 1px solid black;">
 <tr>
 <th>Protein<br>Name</th>
@@ -7,9 +7,9 @@
 <th>Molecular<br>Weight</th>
 </tr>
 <tr>
-<td>γ-Globulin (Glob)</td>
+<td>Succinate Ligase (SL)</td>
 <td align="right">6.6</td>
-<td align="right">57.0</td>
+<td align="right">20.9</td>
 </tr>
 <tr>
 <td>Lactalbumin (Lac)</td>
@@ -17,36 +17,36 @@
 <td align="right">13.0</td>
 </tr>
 </table>
-<p>Both protein samples are placed into a gel with a constant pH of 8.0. The gel is then placed into an electric field.<br>In which direction will each protein in the table migrate at <b>pH 8.0</b>?</p>
+<p>Both protein samples are placed into a gel with a constant pH of 3.0. The gel is then placed into an electric field.<br>In which direction will each protein in the table migrate at <b>pH 3.0</b>?</p>
 </div>
 <form>
-<ul id="choices_fffb">
+<ul id="choices_9765">
 <li>
-    <input type="radio" id="option0" name="answer_fffb" data-correct="true"><label for="option0">A.  Both Glob and Lac will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal  </label>
+    <input type="radio" id="option0" name="answer_9765" data-correct="false"><label for="option0">A.  Both SL and Lac will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal  </label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_fffb" data-correct="false"><label for="option1">B.  Both Glob and Lac will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal  </label>
+    <input type="radio" id="option1" name="answer_9765" data-correct="true"><label for="option1">B.  Both SL and Lac will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal  </label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_fffb" data-correct="false"><label for="option2">C.  Glob will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal<br> Lac will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal  </label>
+    <input type="radio" id="option2" name="answer_9765" data-correct="false"><label for="option2">C.  SL will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal<br> Lac will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal  </label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_fffb" data-correct="false"><label for="option3">D.  Glob will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal<br> Lac will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal  </label>
+    <input type="radio" id="option3" name="answer_9765" data-correct="false"><label for="option3">D.  SL will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal<br> Lac will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal  </label>
   </li>
 </ul>
-<div id="result_fffb" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
-<button type="button" class="md-button md-button--secondary" onclick="checkAnswer_fffb()">Check Answer</button>
+<div id="result_9765" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary" onclick="checkAnswer_9765()">Check Answer</button>
 </form>
 </div><script>
-function checkAnswer_fffb() {
- const options = document.getElementsByName('answer_fffb');
+function checkAnswer_9765() {
+ const options = document.getElementsByName('answer_9765');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_fffb');
+ const resultDiv = document.getElementById('result_9765');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';
