@@ -1,6 +1,6 @@
 # Topic 2: Water Chemistry and pH
 
-Properties of water, pH scales, buffering systems.
+Properties of water, pH, pK<sub>a</sub>, and buffering systems.
 
 ## Optimal Buffering Range using pKa
 
