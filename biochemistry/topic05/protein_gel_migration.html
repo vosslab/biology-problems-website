@@ -1,5 +1,5 @@
-<div id="question_html_908f">
-<div id="statement_text_908f">
+<div id="question_html_0f6e">
+<div id="statement_text_0f6e">
 <h6>Gel Migration Problem</h6> <p>In this task, data from an SDS-PAGE experiment, where proteins are separated based on molecular weight, is provided. The gel results table below shows some standard proteins with known molecular weights and one unknown protein.<br></p>
 <table cellpadding="2" cellspacing="2" style="text-align:center; border: 2px solid black; font-size: 14px;">
 <tr style="background-color: #f2f2f2; border-bottom: 3px solid grey;">
@@ -13,9 +13,9 @@
 <td align="center">3.45</td>
 </tr>
 <tr>
-<td>Hemoglobin (Hem)</td>
-<td align="center">16.7</td>
-<td align="center">3.25</td>
+<td>Leghemoglobin (Leg)</td>
+<td align="center">16.0</td>
+<td align="center">3.28</td>
 </tr>
 <tr>
 <td>Agglutinin (Agg)</td>
@@ -23,61 +23,61 @@
 <td align="center">3.03</td>
 </tr>
 <tr>
-<td>Green Fluorescent Protein (GFP)</td>
-<td align="center">28.0</td>
-<td align="center">2.83</td>
+<td>Urease A (Ure)</td>
+<td align="center">26.5</td>
+<td align="center">2.88</td>
 </tr>
 <tr>
-<td>G3P Dehydrogenase (GDH)</td>
-<td align="center">36.0</td>
-<td align="center">2.63</td>
+<td>Tropomyosin (Trop)</td>
+<td align="center">35.0</td>
+<td align="center">2.66</td>
 </tr>
 <tr>
-<td>Ovalbumin (Ova)</td>
-<td align="center">45.0</td>
-<td align="center">2.45</td>
+<td>Fumerase (Fum)</td>
+<td align="center">48.5</td>
+<td align="center">2.39</td>
 </tr>
 <tr>
-<td>Pyruvate Kinase (PK)</td>
-<td align="center">60.0</td>
-<td align="center">2.22</td>
+<td>Fibrinogen (Fib)</td>
+<td align="center">63.5</td>
+<td align="center">2.18</td>
 </tr>
 <tr style="border-top: 3px double gray; background-color: #fffacd;">
-<td>Unknown</td>  <td align="center"><strong>?</strong></td>  <td align="center">3.34</td>
+<td>Unknown</td>  <td align="center"><strong>?</strong></td>  <td align="center">2.52</td>
 </tr>
 </table>
 <br>Estimate the molecular weight of the unknown protein by comparing its gel migration distance with those of the standards.</div>
 <form>
-<ul id="choices_908f">
+<ul id="choices_0f6e">
 <li>
-    <input type="radio" id="option0" name="answer_908f" data-correct="true"><label for="option0">A.  15 kDa  </label>
+    <input type="radio" id="option0" name="answer_0f6e" data-correct="false"><label for="option0">A.  14 kDa  </label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_908f" data-correct="false"><label for="option1">B.  20 kDa  </label>
+    <input type="radio" id="option1" name="answer_0f6e" data-correct="false"><label for="option1">B.  18 kDa  </label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_908f" data-correct="false"><label for="option2">C.  25 kDa  </label>
+    <input type="radio" id="option2" name="answer_0f6e" data-correct="false"><label for="option2">C.  24 kDa  </label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_908f" data-correct="false"><label for="option3">D.  31 kDa  </label>
+    <input type="radio" id="option3" name="answer_0f6e" data-correct="false"><label for="option3">D.  31 kDa  </label>
   </li>
   <li>
-    <input type="radio" id="option4" name="answer_908f" data-correct="false"><label for="option4">E.  41 kDa  </label>
+    <input type="radio" id="option4" name="answer_0f6e" data-correct="true"><label for="option4">E.  41 kDa  </label>
   </li>
 </ul>
-<div id="result_908f" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
-<button type="button" class="md-button md-button--secondary" onclick="checkAnswer_908f()">Check Answer</button>
+<div id="result_0f6e" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary" onclick="checkAnswer_0f6e()">Check Answer</button>
 </form>
 </div><script>
-function checkAnswer_908f() {
- const options = document.getElementsByName('answer_908f');
+function checkAnswer_0f6e() {
+ const options = document.getElementsByName('answer_0f6e');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_908f');
+ const resultDiv = document.getElementById('result_0f6e');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';
