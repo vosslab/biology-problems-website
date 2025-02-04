@@ -30,11 +30,12 @@ nav:
   - 'Topic 3: Amino Acids': biochemistry/topic03/index.md
   - 'Topic 4: Proteins: Structure and Folding': biochemistry/topic04/index.md
   - 'Topic 5: Protein Purification Techniques': biochemistry/topic05/index.md
-  - 'Topic 6: Enzymes and Thermodynamics': biochemistry/topic06/index.md
-  - 'Topic 7: Enzyme Regulation': biochemistry/topic07/index.md
-  - 'Topic 8: Carbohydrates': biochemistry/topic08/index.md
-  - 'Topic 9: Nucleic Acids': biochemistry/topic09/index.md
-  - 'Topic 10': biochemistry/topic10/index.md
+  - 'Topic 6: Enzymes Reactions and Thermodynamics': biochemistry/topic06/index.md
+  - 'Topic 7: Enzyme Kinetics and Inhibition': biochemistry/topic07/index.md
+  - 'Topic 8: Ligand Binding, Allostery, and Regulation': biochemistry/topic08/index.md
+  - 'Topic 9: Carbohydrates: Monosaccharides to Polysaccharides': biochemistry/topic09/index.md
+  - 'Topic 10: Nucleic Acids: Structure and Applications': biochemistry/topic10/index.md
+  - 'Topic 11: Biochemistry of Human Senses': biochemistry/topic11/index.md
 - Genetics:
   - 'List of Topics': genetics/index.md
   - Topic 01: genetics/topic01/index.md
