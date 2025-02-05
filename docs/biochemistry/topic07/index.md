@@ -47,6 +47,24 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
   {% include "biochemistry/topic07/enzyme_cofactors.html" %}
 
 <br/></details>
+## Calculating Michaelis-Menten Constant (\(K_M\)) from Enzyme Activity Data
+
+<a id='raw-url' href='bbq-michaelis_menten_table-Km-questions.txt' download>Download the bbq-michaelis_menten_table-Km-questions.txt file for Blackboard Upload</a>
+
+<details>
+  <summary>"Click to show example problem on Calculating Michaelis-Menten Constant (\(K_M\)) from Enzyme Activity Data"</summary>
+  {% include "biochemistry/topic07/michaelis_menten_table-Km.html" %}
+
+<br/></details>
+## Michaelis-Menten Kinetics and Inhibition Type Determination
+
+<a id='raw-url' href='bbq-michaelis_menten_table-inhibition-questions.txt' download>Download the bbq-michaelis_menten_table-inhibition-questions.txt file for Blackboard Upload</a>
+
+<details>
+  <summary>"Click to show example problem on Michaelis-Menten Kinetics and Inhibition Type Determination"</summary>
+  {% include "biochemistry/topic07/michaelis_menten_table-inhibition.html" %}
+
+<br/></details>
 ## Which Molecule Could be an Enzyme
 
 <a id='raw-url' href='bbq-which_enzyme-questions.txt' download>Download the bbq-which_enzyme-questions.txt file for Blackboard Upload</a>
