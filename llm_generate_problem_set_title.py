@@ -289,6 +289,8 @@ def load_problem_statements_from_file(file_path: str) -> tuple:
 	for _ in range(6):
 		# Pick a random line from the file and remove any extra whitespace
 		line = random.choice(lines).strip()
+		while len(line) < 10:
+			line = random.choice(lines).strip()
 
 		# Split the line by tab characters
 		parts = line.split('\t')
