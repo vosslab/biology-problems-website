@@ -4,9 +4,8 @@ bbq-MC-enzyme_terminology-questions.txt: Enzyme Catalysis Terminology
 bbq-TF-enzyme_equilibrium-questions.txt: True/False Statements on Enzyme Kinetics
 bbq-TF-m-m_kinetics-questions.txt: True/False Statements on Michaelis-Menten Kinetics
 bbq-enzyme_cofactors-questions.txt: Which Molecule Cannot be an Enzyme Cofactors
-bbq-michaelis_menten_table-Km-questions.txt: Calculating Michaelis-Menten Constant
-  (\(K_M\)) from Enzyme Activity Data
-bbq-michaelis_menten_table-inhibition-questions.txt: Michaelis-Menten Kinetics and
-  Inhibition Type Determination
+bbq-michaelis_menten_table-Km-questions.txt: Michaelis-Menten Constant
+  (K<sub>M</sub>) from Enzyme Activity Data
+bbq-michaelis_menten_table-inhibition-questions.txt: Inhibition Type Determination from Enzyme Activity Data
 bbq-which_enzyme-questions.txt: Which Molecule Could be an Enzyme
 last edit: Tue Feb  4 22:12:37 2025
