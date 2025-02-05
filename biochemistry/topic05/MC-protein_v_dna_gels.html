@@ -1,30 +1,30 @@
-<div id="question_html_5e2a">
-<div id="statement_text_5e2a"><p>Which one of the following types of macromolecules correspond to the gel component or process <span style="font-size: 1em;"><strong>'<strong><span style="color: #004d99;">stain / destaining process</span></strong>'</strong></span>.</p></div>
+<div id="question_html_e05e">
+<div id="statement_text_e05e"><p>Which one of the following types of macromolecules correspond to the gel component or process <span style="font-size: 1em;"><strong>'<strong><span style="color: #0a9bf5;">electrical fields</span></strong>'</strong></span>.</p></div>
 <form>
-<ul id="choices_5e2a">
+<ul id="choices_e05e">
 <li>
-    <input type="radio" id="option0" name="answer_5e2a" data-correct="false"><label for="option0">A.  <span style="font-family: sans-serif; letter-spacing: 1px;"><strong><span style="color: #7b12a1;">Both protein and nucleotide</span></strong></span>  </label>
+    <input type="radio" id="option0" name="answer_e05e" data-correct="true"><label for="option0">A.  <span style="font-family: sans-serif; letter-spacing: 1px;"><strong><span style="color: #7b12a1;">Both protein and nucleotide</span></strong></span>  </label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_5e2a" data-correct="false"><label for="option1">B.  <span style="font-family: sans-serif; letter-spacing: 1px;"><strong><span style="color: #00b3b3;">Only nucleotides</span></strong></span>  </label>
+    <input type="radio" id="option1" name="answer_e05e" data-correct="false"><label for="option1">B.  <span style="font-family: sans-serif; letter-spacing: 1px;"><strong><span style="color: #00b3b3;">Only nucleotides</span></strong></span>  </label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_5e2a" data-correct="true"><label for="option2">C.  <span style="font-family: sans-serif; letter-spacing: 1px;"><strong><span style="color: #e65400;">Only proteins</span></strong></span>  </label>
+    <input type="radio" id="option2" name="answer_e05e" data-correct="false"><label for="option2">C.  <span style="font-family: sans-serif; letter-spacing: 1px;"><strong><span style="color: #e65400;">Only proteins</span></strong></span>  </label>
   </li>
 </ul>
-<div id="result_5e2a" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
-<button type="button" class="md-button md-button--secondary" onclick="checkAnswer_5e2a()">Check Answer</button>
+<div id="result_e05e" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary" onclick="checkAnswer_e05e()">Check Answer</button>
 </form>
 </div><script>
-function checkAnswer_5e2a() {
- const options = document.getElementsByName('answer_5e2a');
+function checkAnswer_e05e() {
+ const options = document.getElementsByName('answer_e05e');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_5e2a');
+ const resultDiv = document.getElementById('result_e05e');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';
