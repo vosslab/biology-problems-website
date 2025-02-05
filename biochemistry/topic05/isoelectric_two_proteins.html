@@ -1,5 +1,5 @@
-<div id="question_html_9765">
-<div id="statement_text_9765">
+<div id="question_html_f57f">
+<div id="statement_text_f57f">
 <h6>Isoelectric Point Problem</h6> <p>A mixture of two proteins are to be separated by isoelectric focusing.</p> <table cellpadding="2" cellspacing="2" style="text-align:center; border: 1px solid black;">
 <tr>
 <th>Protein<br>Name</th>
@@ -7,46 +7,46 @@
 <th>Molecular<br>Weight</th>
 </tr>
 <tr>
-<td>Succinate Ligase (SL)</td>
-<td align="right">6.6</td>
-<td align="right">20.9</td>
+<td>Heat Shock Protein (HSP)</td>
+<td align="right">5.5</td>
+<td align="right">70.1</td>
 </tr>
 <tr>
-<td>Lactalbumin (Lac)</td>
-<td align="right">4.3</td>
-<td align="right">13.0</td>
+<td>Enolase (Eno)</td>
+<td align="right">8.4</td>
+<td align="right">42.5</td>
 </tr>
 </table>
-<p>Both protein samples are placed into a gel with a constant pH of 3.0. The gel is then placed into an electric field.<br>In which direction will each protein in the table migrate at <b>pH 3.0</b>?</p>
+<p>Both protein samples are placed into a gel with a constant pH of 9.5. The gel is then placed into an electric field.<br>In which direction will each protein in the table migrate at <b>pH 9.5</b>?</p>
 </div>
 <form>
-<ul id="choices_9765">
+<ul id="choices_f57f">
 <li>
-    <input type="radio" id="option0" name="answer_9765" data-correct="false"><label for="option0">A.  Both SL and Lac will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal  </label>
+    <input type="radio" id="option0" name="answer_f57f" data-correct="true"><label for="option0">A.  Both HSP and Eno will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal  </label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_9765" data-correct="true"><label for="option1">B.  Both SL and Lac will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal  </label>
+    <input type="radio" id="option1" name="answer_f57f" data-correct="false"><label for="option1">B.  Both HSP and Eno will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal  </label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_9765" data-correct="false"><label for="option2">C.  SL will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal<br> Lac will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal  </label>
+    <input type="radio" id="option2" name="answer_f57f" data-correct="false"><label for="option2">C.  HSP will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal<br> Eno will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal  </label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_9765" data-correct="false"><label for="option3">D.  SL will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal<br> Lac will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal  </label>
+    <input type="radio" id="option3" name="answer_f57f" data-correct="false"><label for="option3">D.  HSP will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal<br> Eno will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal  </label>
   </li>
 </ul>
-<div id="result_9765" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
-<button type="button" class="md-button md-button--secondary" onclick="checkAnswer_9765()">Check Answer</button>
+<div id="result_f57f" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary" onclick="checkAnswer_f57f()">Check Answer</button>
 </form>
 </div><script>
-function checkAnswer_9765() {
- const options = document.getElementsByName('answer_9765');
+function checkAnswer_f57f() {
+ const options = document.getElementsByName('answer_f57f');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_9765');
+ const resultDiv = document.getElementById('result_f57f');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';
