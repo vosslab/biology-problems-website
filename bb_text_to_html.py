@@ -53,7 +53,7 @@ def format_html_lxml(html_string):
 	formatted_html = etree.tostring(tree, pretty_print=True, encoding="unicode").strip()
 	# Ensure the string is formatted for HTML output
 	formatted_html = etree.tostring(tree, pretty_print=True, encoding="unicode", method="html").strip()
-
+	formatted_html = formatted_html.replace("&amp;", "&")
 	# Return the formatted HTML string
 	return formatted_html
 
