@@ -2,6 +2,15 @@
 
 Properties of water, pH, pK<sub>a</sub>, and buffering systems.
 
+## Correct Form of the Henderson-Hasselbalch Equation
+
+<a id='raw-url' href='bbq-Henderson-Hasselbalch-EQUATION-questions.txt' download>Download the bbq-Henderson-Hasselbalch-EQUATION-questions.txt file for Blackboard Upload</a>
+
+<details>
+  <summary>"Click to show example problem on Correct Form of the Henderson-Hasselbalch Equation"</summary>
+  {% include "biochemistry/topic02/Henderson-Hasselbalch-EQUATION.html" %}
+
+<br/></details>
 ## Optimal Buffering Range using pKa
 
 <a id='raw-url' href='bbq-optimal_buffering_range-questions.txt' download>Download the bbq-optimal_buffering_range-questions.txt file for Blackboard Upload</a>
