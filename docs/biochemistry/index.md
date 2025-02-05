@@ -25,7 +25,7 @@ Explore the foundational concepts and techniques in Biochemistry. Click on a top
 7. [Enzyme Kinetics and Inhibition](topic07/index.md)
     - Reaction rates, enzyme efficiency, and inhibition mechanisms.
 
-8. [Ligand Binding, Allostery, and Regulation](topic07/index.md)
+8. [Ligand Binding, Allostery, and Regulation](topic08/index.md)
     - Ligand binding, allosteric effects, and feedback regulation.
 
 9. [Carbohydrates: Monosaccharides to Polysaccharides](topic09/index.md)
