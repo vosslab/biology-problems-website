@@ -1,36 +1,36 @@
-<div id="question_html_5a3c">
-<div id="statement_text_5a3c">
-<script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script><p><canvas id="canvas_3c1d" width="480" height="320"></canvas></p>
-<script>/* */initRDKitModule().then(function(instance){RDKitModule=instance;console.log("RDKit:"+RDKitModule.version());/* */let/* */smiles="C1=C(NC=N1)C[C@@H](C(=O)O)N";let/* */mol=RDKitModule.get_mol(smiles);let/* */mdetails={};mdetails["legend"]="";mdetails["explicitMethyl"]=true;canvas=document.getElementById("canvas_3c1d");mol.draw_to_canvas_with_highlights(canvas,JSON.stringify(mdetails));});/* */</script><h3>Which one of the following amino acids is represented by the chemical structure shown above?</h3>
+<div id="question_html_4403">
+<div id="statement_text_4403">
+<script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script><p><canvas id="canvas_237d" width="480" height="320"></canvas></p>
+<script>/* */initRDKitModule().then(function(instance){RDKitModule=instance;console.log("RDKit:"+RDKitModule.version());/* */let/* */smiles="CC[C@H](C)[C@@H](C(=O)O)N";let/* */mol=RDKitModule.get_mol(smiles);let/* */mdetails={};mdetails["legend"]="";mdetails["explicitMethyl"]=true;canvas=document.getElementById("canvas_237d");mol.draw_to_canvas_with_highlights(canvas,JSON.stringify(mdetails));});/* */</script><h3>Which one of the following amino acids is represented by the chemical structure shown above?</h3>
 </div>
 <form>
-<ul id="choices_5a3c">
+<ul id="choices_4403">
 <li>
-    <input type="radio" id="option0" name="answer_5a3c" data-correct="false"><label for="option0">A.  glutamine  </label>
+    <input type="radio" id="option0" name="answer_4403" data-correct="true"><label for="option0">A.  isoleucine  </label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_5a3c" data-correct="true"><label for="option1">B.  histidine  </label>
+    <input type="radio" id="option1" name="answer_4403" data-correct="false"><label for="option1">B.  leucine  </label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_5a3c" data-correct="false"><label for="option2">C.  methionine  </label>
+    <input type="radio" id="option2" name="answer_4403" data-correct="false"><label for="option2">C.  lysine  </label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_5a3c" data-correct="false"><label for="option3">D.  proline  </label>
+    <input type="radio" id="option3" name="answer_4403" data-correct="false"><label for="option3">D.  valine  </label>
   </li>
 </ul>
-<div id="result_5a3c" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
-<button type="button" class="md-button md-button--secondary" onclick="checkAnswer_5a3c()">Check Answer</button>
+<div id="result_4403" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary" onclick="checkAnswer_4403()">Check Answer</button>
 </form>
 </div><script>
-function checkAnswer_5a3c() {
- const options = document.getElementsByName('answer_5a3c');
+function checkAnswer_4403() {
+ const options = document.getElementsByName('answer_4403');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_5a3c');
+ const resultDiv = document.getElementById('result_4403');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';
