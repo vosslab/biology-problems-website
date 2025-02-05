@@ -83,6 +83,8 @@ def load_single_question_from_file(file_path: str) -> tuple:
 
 	# Select a random line from the list of lines
 	line = random.choice(lines).strip()
+	while len(line) < 10:
+		line = random.choice(lines).strip()
 
 	# Split the line by tab characters into parts
 	parts = line.split('\t')
@@ -91,6 +93,7 @@ def load_single_question_from_file(file_path: str) -> tuple:
 	if parts[0] != "MC" or len(parts) < 4 or (len(parts) - 2) % 2 != 0:
 		raise ValueError("Invalid question format in the file.")
 
+	#print(parts)
 	# Extract the question text from the parts
 	question_text = parts[1]
 
