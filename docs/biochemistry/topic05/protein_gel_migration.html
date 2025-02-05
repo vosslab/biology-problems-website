@@ -1,5 +1,5 @@
-<div id="question_html_d510">
-<div id="statement_text_d510">
+<div id="question_html_dab9">
+<div id="statement_text_dab9">
 <h6>Gel Migration Problem</h6> <p>In this task, data from an SDS-PAGE experiment, where proteins are separated based on molecular weight, is provided. The gel results table below shows some standard proteins with known molecular weights and one unknown protein.<br></p>
 <table cellpadding="2" cellspacing="2" style="text-align:center; border: 2px solid black; font-size: 14px;">
 <tr style="background-color: #f2f2f2; border-bottom: 3px solid grey;">
@@ -8,32 +8,32 @@
 <th>Migration<br>Distance (cm)</th>
 </tr>
 <tr>
-<td>Lactalbumin (Lac)</td>
+<td>Cytochrome c (Cyt)</td>
 <td align="center">13.0</td>
 <td align="center">3.45</td>
 </tr>
 <tr>
-<td>Myoglobin (Myo)</td>
-<td align="center">18.0</td>
-<td align="center">3.19</td>
+<td>Avidin (Av)</td>
+<td align="center">16.9</td>
+<td align="center">3.24</td>
 </tr>
 <tr>
-<td>Serine Protease (Ser)</td>
+<td>Agglutinin (Agg)</td>
 <td align="center">22.0</td>
 <td align="center">3.03</td>
 </tr>
 <tr>
-<td>Horseradish peroxidase (HP)</td>
-<td align="center">34.0</td>
-<td align="center">2.68</td>
+<td>Prostate-Specific Antigen (PSA)</td>
+<td align="center">30.0</td>
+<td align="center">2.78</td>
 </tr>
 <tr>
-<td>Lipase (Lip)</td>
+<td>Epidermal Growth Factor  (EGF)</td>
 <td align="center">40.0</td>
 <td align="center">2.55</td>
 </tr>
 <tr>
-<td>Neuraminidase (Neu)</td>
+<td>Luciferase (Luc)</td>
 <td align="center">50.0</td>
 <td align="center">2.37</td>
 </tr>
@@ -43,41 +43,41 @@
 <td align="center">2.15</td>
 </tr>
 <tr style="border-top: 3px double gray; background-color: #fffacd;">
-<td>Unknown</td>  <td align="center"><strong>?</strong></td>  <td align="center">2.81</td>
+<td>Unknown</td>  <td align="center"><strong>?</strong></td>  <td align="center">2.88</td>
 </tr>
 </table>
 <br>Estimate the molecular weight of the unknown protein by comparing its gel migration distance with those of the standards.</div>
 <form>
-<ul id="choices_d510">
+<ul id="choices_dab9">
 <li>
-    <input type="radio" id="option0" name="answer_d510" data-correct="false"><label for="option0">A.  15 kDa  </label>
+    <input type="radio" id="option0" name="answer_dab9" data-correct="false"><label for="option0">A.  16 kDa  </label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_d510" data-correct="false"><label for="option1">B.  20 kDa  </label>
+    <input type="radio" id="option1" name="answer_dab9" data-correct="false"><label for="option1">B.  20 kDa  </label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_d510" data-correct="true"><label for="option2">C.  29 kDa  </label>
+    <input type="radio" id="option2" name="answer_dab9" data-correct="true"><label for="option2">C.  27 kDa  </label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_d510" data-correct="false"><label for="option3">D.  36 kDa  </label>
+    <input type="radio" id="option3" name="answer_dab9" data-correct="false"><label for="option3">D.  36 kDa  </label>
   </li>
   <li>
-    <input type="radio" id="option4" name="answer_d510" data-correct="false"><label for="option4">E.  46 kDa  </label>
+    <input type="radio" id="option4" name="answer_dab9" data-correct="false"><label for="option4">E.  43 kDa  </label>
   </li>
 </ul>
-<div id="result_d510" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
-<button type="button" class="md-button md-button--secondary" onclick="checkAnswer_d510()">Check Answer</button>
+<div id="result_dab9" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary" onclick="checkAnswer_dab9()">Check Answer</button>
 </form>
 </div><script>
-function checkAnswer_d510() {
- const options = document.getElementsByName('answer_d510');
+function checkAnswer_dab9() {
+ const options = document.getElementsByName('answer_dab9');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_d510');
+ const resultDiv = document.getElementById('result_dab9');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';

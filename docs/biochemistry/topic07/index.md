@@ -2,6 +2,15 @@
 
 Reaction rates, enzyme efficiency, and inhibition mechanisms.
 
+## Enzyme Inhibition and Activation in Metabolic Pathways
+
+<a id='raw-url' href='bbq-BCHM355-metabolic_pathway_inhibitor-questions.txt' download>Download the bbq-BCHM355-metabolic_pathway_inhibitor-questions.txt file for Blackboard Upload</a>
+
+<details>
+  <summary>"Click to show example problem on Enzyme Inhibition and Activation in Metabolic Pathways"</summary>
+  {% include "biochemistry/topic07/BCHM355-metabolic_pathway_inhibitor.html" %}
+
+<br/></details>
 ## Enzyme Catalysis Terminology
 
 <a id='raw-url' href='bbq-MC-enzyme_terminology-questions.txt' download>Download the bbq-MC-enzyme_terminology-questions.txt file for Blackboard Upload</a>
