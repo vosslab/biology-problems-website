@@ -58,6 +58,14 @@ def format_html_lxml(html_string):
 	return formatted_html
 
 #==============
+def add_mathml_javascript():
+	javascript_text = ""
+	javascript_text += "<script type='text/javascript' async "
+	javascript_text += "src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'>"
+	javascript_text += "</script>"
+	return javascript_text
+
+#==============
 # This function loads a random multiple-choice question from a file.
 def load_single_question_from_file(file_path: str) -> tuple:
 	"""
@@ -95,6 +103,9 @@ def load_single_question_from_file(file_path: str) -> tuple:
 
 	# Remove unnecessary text from the question text
 	question_text = question_text[11:].strip()
+
+	if '<math xmlns=' in line:
+		question_text = add_mathml_javascript() + question_text
 
 	# Debug output to display the validated hex value (optional)
 	print("  Validated Hex Value:", hex_value)
