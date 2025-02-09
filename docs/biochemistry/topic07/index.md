@@ -5,88 +5,88 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
 ## Enzyme Inhibition and Activation in Metabolic Pathways
 
 <div id="BCHM355-metabolic_pathway_inhibitor-button-container" class="button-container">
-<button class="md-button custom-download-button bb_text" onclick="downloadFile('bbq-BCHM355-metabolic_pathway_inhibitor-questions.txt')" title="Download bbq-BCHM355-metabolic_pathway_inhibitor-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-BCHM355-metabolic_pathway_inhibitor-questions.txt)">
+<button class="md-button custom-button bb_text" onclick="downloadFile('bbq-BCHM355-metabolic_pathway_inhibitor-questions.txt')" title="Download bbq-BCHM355-metabolic_pathway_inhibitor-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-BCHM355-metabolic_pathway_inhibitor-questions.txt)">
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
   <summary>"Click to show example problem on Enzyme Inhibition and Activation in Metabolic Pathways"</summary>
   {% include "biochemistry/topic07/BCHM355-metabolic_pathway_inhibitor.html" %}
 
-<br/></details>
+</details>
 ## Enzyme Catalysis Terminology
 
 <div id="MC-enzyme_terminology-button-container" class="button-container">
-<button class="md-button custom-download-button bb_text" onclick="downloadFile('bbq-MC-enzyme_terminology-questions.txt')" title="Download bbq-MC-enzyme_terminology-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-MC-enzyme_terminology-questions.txt)">
+<button class="md-button custom-button bb_text" onclick="downloadFile('bbq-MC-enzyme_terminology-questions.txt')" title="Download bbq-MC-enzyme_terminology-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-MC-enzyme_terminology-questions.txt)">
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
   <summary>"Click to show example problem on Enzyme Catalysis Terminology"</summary>
   {% include "biochemistry/topic07/MC-enzyme_terminology.html" %}
 
-<br/></details>
+</details>
 ## True/False Statements on Enzyme Kinetics
 
 <div id="TF-enzyme_equilibrium-button-container" class="button-container">
-<button class="md-button custom-download-button bb_text" onclick="downloadFile('bbq-TF-enzyme_equilibrium-questions.txt')" title="Download bbq-TF-enzyme_equilibrium-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-TF-enzyme_equilibrium-questions.txt)">
+<button class="md-button custom-button bb_text" onclick="downloadFile('bbq-TF-enzyme_equilibrium-questions.txt')" title="Download bbq-TF-enzyme_equilibrium-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-TF-enzyme_equilibrium-questions.txt)">
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
   <summary>"Click to show example problem on True/False Statements on Enzyme Kinetics"</summary>
   {% include "biochemistry/topic07/TF-enzyme_equilibrium.html" %}
 
-<br/></details>
+</details>
 ## True/False Statements on Michaelis-Menten Kinetics
 
 <div id="TF-m-m_kinetics-button-container" class="button-container">
-<button class="md-button custom-download-button bb_text" onclick="downloadFile('bbq-TF-m-m_kinetics-questions.txt')" title="Download bbq-TF-m-m_kinetics-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-TF-m-m_kinetics-questions.txt)">
+<button class="md-button custom-button bb_text" onclick="downloadFile('bbq-TF-m-m_kinetics-questions.txt')" title="Download bbq-TF-m-m_kinetics-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-TF-m-m_kinetics-questions.txt)">
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
   <summary>"Click to show example problem on True/False Statements on Michaelis-Menten Kinetics"</summary>
   {% include "biochemistry/topic07/TF-m-m_kinetics.html" %}
 
-<br/></details>
+</details>
 ## Which Molecule Cannot be an Enzyme Cofactors
 
 <div id="enzyme_cofactors-button-container" class="button-container">
-<button class="md-button custom-download-button bb_text" onclick="downloadFile('bbq-enzyme_cofactors-questions.txt')" title="Download bbq-enzyme_cofactors-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-enzyme_cofactors-questions.txt)">
+<button class="md-button custom-button bb_text" onclick="downloadFile('bbq-enzyme_cofactors-questions.txt')" title="Download bbq-enzyme_cofactors-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-enzyme_cofactors-questions.txt)">
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
   <summary>"Click to show example problem on Which Molecule Cannot be an Enzyme Cofactors"</summary>
   {% include "biochemistry/topic07/enzyme_cofactors.html" %}
 
-<br/></details>
+</details>
 ## Michaelis-Menten Constant (K<sub>M</sub>) from Enzyme Activity Data
 
 <div id="michaelis_menten_table-Km-button-container" class="button-container">
-<button class="md-button custom-download-button bb_text" onclick="downloadFile('bbq-michaelis_menten_table-Km-questions.txt')" title="Download bbq-michaelis_menten_table-Km-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-michaelis_menten_table-Km-questions.txt)">
+<button class="md-button custom-button bb_text" onclick="downloadFile('bbq-michaelis_menten_table-Km-questions.txt')" title="Download bbq-michaelis_menten_table-Km-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-michaelis_menten_table-Km-questions.txt)">
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
   <summary>"Click to show example problem on Michaelis-Menten Constant (K<sub>M</sub>) from Enzyme Activity Data"</summary>
   {% include "biochemistry/topic07/michaelis_menten_table-Km.html" %}
 
-<br/></details>
+</details>
 ## Inhibition Type Determination from Enzyme Activity Data
 
 <div id="michaelis_menten_table-inhibition-button-container" class="button-container">
-<button class="md-button custom-download-button bb_text" onclick="downloadFile('bbq-michaelis_menten_table-inhibition-questions.txt')" title="Download bbq-michaelis_menten_table-inhibition-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-michaelis_menten_table-inhibition-questions.txt)">
+<button class="md-button custom-button bb_text" onclick="downloadFile('bbq-michaelis_menten_table-inhibition-questions.txt')" title="Download bbq-michaelis_menten_table-inhibition-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-michaelis_menten_table-inhibition-questions.txt)">
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
   <summary>"Click to show example problem on Inhibition Type Determination from Enzyme Activity Data"</summary>
   {% include "biochemistry/topic07/michaelis_menten_table-inhibition.html" %}
 
-<br/></details>
+</details>
 ## Which Molecule Could be an Enzyme
 
 <div id="which_enzyme-button-container" class="button-container">
-<button class="md-button custom-download-button bb_text" onclick="downloadFile('bbq-which_enzyme-questions.txt')" title="Download bbq-which_enzyme-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-which_enzyme-questions.txt)">
+<button class="md-button custom-button bb_text" onclick="downloadFile('bbq-which_enzyme-questions.txt')" title="Download bbq-which_enzyme-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-which_enzyme-questions.txt)">
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
   <summary>"Click to show example problem on Which Molecule Could be an Enzyme"</summary>
   {% include "biochemistry/topic07/which_enzyme.html" %}
 
-<br/></details>
+</details>

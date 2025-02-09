@@ -1,36 +1,37 @@
-<div id="question_html_5fec">
-<div id="statement_text_5fec">Which one of the following molecular entities <strong><span style="color: OrangeRed;">CANNOT</span></strong> be classified as an enzymatic cofactor?</div>
+<div id="question_html_fde6">
+<div id="statement_text_fde6">Which one of the following molecular entities <strong><span style="color: OrangeRed;">CANNOT</span></strong> be classified as an enzymatic cofactor?</div>
 <form>
-<ul id="choices_5fec">
+<ul id="choices_fde6">
 <li>
-    <input type="radio" id="option0" name="answer_5fec" data-correct="false"><label for="option0">A.<strong> </strong>co<strong><span style="color: DarkBlue;">enzyme</span></strong> Q10, ubiquinone  </label>
+    <input type="radio" id="option0" name="answer_fde6" data-correct="false"><label for="option0">A.<strong> </strong><strong><span style="color: #990033;">adenosine</span></strong> triphosphate (ATP)  </label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_5fec" data-correct="false"><label for="option1">B.<strong> </strong><strong><span style="color: #990033;">adenosine</span></strong> monophosphate (AMP)  </label>
+    <input type="radio" id="option1" name="answer_fde6" data-correct="true"><label for="option1">B.<strong> </strong>transcript<strong><span style="color: #663300;"><strong><span style="color: #663300;">ion</span></strong></span></strong> factor proteins  </label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_5fec" data-correct="false"><label for="option2">C.<strong> </strong>aldosterone, a <strong><span style="color: #6600cc;">steroid</span></strong> hormone that acts on the kidney  </label>
+    <input type="radio" id="option2" name="answer_fde6" data-correct="false"><label for="option2">C.<strong> </strong>quinone, an organic compound involved in electron transport  </label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_5fec" data-correct="false"><label for="option3">D.<strong> </strong>creatine, an <strong><span style="color: DarkRed;">organic molecule </span></strong> that recharges ATP  </label>
+    <input type="radio" id="option3" name="answer_fde6" data-correct="false"><label for="option3">D.<strong> </strong>testosterone, an anabolic-androgenic <strong><span style="color: #6600cc;">steroid</span></strong> and the principal male sex hormone  </label>
   </li>
   <li>
-    <input type="radio" id="option4" name="answer_5fec" data-correct="true"><label for="option4">E.<strong> </strong>insulin, a hormone and a protein  </label>
+    <input type="radio" id="option4" name="answer_fde6" data-correct="false"><label for="option4">E.<strong> </strong><strong><span style="color: DarkGreen;">vitamin</span></strong> B<sub>7</sub>, biotin  </label>
   </li>
 </ul>
-<div id="result_5fec" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
-<button type="button" class="md-button md-button--secondary" onclick="checkAnswer_5fec()">Check Answer</button>
+<div id="result_fde6" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_fde6()">Check Answer</button>
 </form>
+<br>
 </div><script>
-function checkAnswer_5fec() {
- const options = document.getElementsByName('answer_5fec');
+function checkAnswer_fde6() {
+ const options = document.getElementsByName('answer_fde6');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_5fec');
+ const resultDiv = document.getElementById('result_fde6');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';
