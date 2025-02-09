@@ -300,7 +300,6 @@ def update_index_md(topic_folder: str, bbq_files: list) -> None:
 			# Add content to the index.md file
 			index_md.write(f"## {problem_set_title}\n\n")
 			print("bbq_file_basename=", bbq_file_basename)
-			bbq_core_name = extract_core_name(bbq_file_basename)
 			download_button_row = generate_download_button_row(bbq_file)
 			"""
 			download_msg = f"Download the {bbq_file_basename} file for Blackboard Upload"
@@ -352,7 +351,7 @@ def main():
 
 		# Update the index.md file for the topic
 		update_index_md(topic_folder, bbq_files)
-		sys.exit(1)
+		#sys.exit(1)
 
 #==============
 
