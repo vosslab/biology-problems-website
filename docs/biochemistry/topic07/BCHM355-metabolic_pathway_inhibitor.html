@@ -1,5 +1,5 @@
-<div id="question_html_f714">
-<div id="statement_text_f714">
+<div id="question_html_73b1">
+<div id="statement_text_73b1">
 <p>A series of enzymes catalyze the reactions in the following metabolic pathway:</p>
 <table border="0" style="border-collapse: collapse;">
 <tr>
@@ -15,15 +15,15 @@
 <td></td>
 </tr>
 <tr>
-<td style="font-size: 150%; text-align:center;" colspan="3"><strong><span style="color: #00b38f">G</span></strong></td>
-<td style="text-align:center; vertical-align:top;"> &xrarr; </td>
-<td style="font-size: 150%; text-align:center;" colspan="3"><strong><span style="color: #00b3b3">H</span></strong></td>
-<td style="text-align:center; vertical-align:top;"> &xrarr; </td>
-<td style="font-size: 150%; text-align:center;" colspan="3"><strong><span style="color: #0a9bf5">I</span></strong></td>
-<td style="text-align:center; vertical-align:top;"> &xrarr; </td>
 <td style="font-size: 150%; text-align:center;" colspan="3"><strong><span style="color: #0039e6">J</span></strong></td>
 <td style="text-align:center; vertical-align:top;"> &xrarr; </td>
 <td style="font-size: 150%; text-align:center;" colspan="3"><strong><span style="color: #004d99">K</span></strong></td>
+<td style="text-align:center; vertical-align:top;"> &xrarr; </td>
+<td style="font-size: 150%; text-align:center;" colspan="3"><strong><span style="color: #7b12a1">L</span></strong></td>
+<td style="text-align:center; vertical-align:top;"> &xrarr; </td>
+<td style="font-size: 150%; text-align:center;" colspan="3"><strong><span style="color: #b30077">M</span></strong></td>
+<td style="text-align:center; vertical-align:top;"> &xrarr; </td>
+<td style="font-size: 150%; text-align:center;" colspan="3"><strong><span style="color: #cc0066">N</span></strong></td>
 </tr>
 <tr>
 <td><span style="font-size: 1px; color: white;"> </span></td>
@@ -48,39 +48,40 @@
 </tr>
 </table>
 <p>Understanding the type of enzyme inhibition or activation is crucial for developing effective drugs and understanding metabolic regulation.</p>
-<strong>enzyme 1</strong> converts substrate <strong><span style="color: #00b38f">G</span></strong> into product <strong><span style="color: #00b3b3">H</span></strong>. <p>The end product <strong><span style="color: #004d99">K</span></strong> of this pathway binds to <strong>enzyme 1</strong>at a location far away from its active site.<br>This binding <strong><span style="color: seagreen">increases</span></strong>  the activity of the enzyme.<br>Determine the type of enzyme inhibition or activation described:</p>
+<strong>enzyme 1</strong> converts substrate <strong><span style="color: #0039e6">J</span></strong> into product <strong><span style="color: #004d99">K</span></strong>. <p>The end product <strong><span style="color: #cc0066">N</span></strong> of this pathway binds to <strong>enzyme 1</strong>and its substrate in the active site at the same time.<br>This binding <strong><span style="color: brown">decreases</span></strong> the activity of the enzyme.<br>Determine the type of enzyme inhibition or activation described:</p>
 </div>
 <form>
-<ul id="choices_f714">
+<ul id="choices_73b1">
 <li>
-    <input type="radio" id="option0" name="answer_f714" data-correct="false"><label for="option0">A.  competitive inhibitor  </label>
+    <input type="radio" id="option0" name="answer_73b1" data-correct="false"><label for="option0">A.  molecular stopper  </label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_f714" data-correct="true"><label for="option1">B.  enzyme activator  </label>
+    <input type="radio" id="option1" name="answer_73b1" data-correct="false"><label for="option1">B.  competitive inhibitor  </label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_f714" data-correct="false"><label for="option2">C.  metabolic blocker  </label>
+    <input type="radio" id="option2" name="answer_73b1" data-correct="false"><label for="option2">C.  non-competitive inhibitor  </label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_f714" data-correct="false"><label for="option3">D.  un-competitive inhibitor  </label>
+    <input type="radio" id="option3" name="answer_73b1" data-correct="true"><label for="option3">D.  un-competitive inhibitor  </label>
   </li>
   <li>
-    <input type="radio" id="option4" name="answer_f714" data-correct="false"><label for="option4">E.  non-competitive inhibitor  </label>
+    <input type="radio" id="option4" name="answer_73b1" data-correct="false"><label for="option4">E.  enzyme activator  </label>
   </li>
 </ul>
-<div id="result_f714" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
-<button type="button" class="md-button md-button--secondary" onclick="checkAnswer_f714()">Check Answer</button>
+<div id="result_73b1" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_73b1()">Check Answer</button>
 </form>
+<br>
 </div><script>
-function checkAnswer_f714() {
- const options = document.getElementsByName('answer_f714');
+function checkAnswer_73b1() {
+ const options = document.getElementsByName('answer_73b1');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_f714');
+ const resultDiv = document.getElementById('result_73b1');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';
