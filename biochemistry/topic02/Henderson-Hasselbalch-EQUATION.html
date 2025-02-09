@@ -1,29 +1,30 @@
-<div id="question_html_345c">
-<div id="statement_text_345c">
+<div id="question_html_51cf">
+<div id="statement_text_51cf">
 <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script><p>Which one of the following equations is the correct form of the Henderson-Hasselbalch equation?</p>
 </div>
 <form>
-<ul id="choices_345c">
+<ul id="choices_51cf">
 <li>
-    <input type="radio" id="option0" name="answer_345c" data-correct="true"><label for="option0">A.  <p><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>pH</mi><mo> </mo><mo>=</mo><mo> </mo><msub><mi>pK</mi><mi>a</mi></msub><mo> </mo><mo>+</mo><mo> </mo><msub><mo>log</mo><mn>10</mn></msub><mfenced><mfrac><mrow><mo stretchy="true">[</mo><msup><mi mathvariant="normal">A</mi><mo>–</mo></msup><mo stretchy="true">]</mo></mrow><mrow><mo stretchy="true">[</mo><mi>HA</mi><mo stretchy="true">]</mo></mrow></mfrac></mfenced></math></p>  </label>
+    <input type="radio" id="option0" name="answer_51cf" data-correct="true"><label for="option0">A.  <p><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>pH</mi><mo> </mo><mo>=</mo><mo> </mo><msub><mi>pK</mi><mi>a</mi></msub><mo> </mo><mo>–</mo><mo> </mo><msub><mo>log</mo><mn>10</mn></msub><mfenced><mfrac><mrow><mo stretchy="true">[</mo><mi>Acid</mi><mo stretchy="true">]</mo></mrow><mrow><mo stretchy="true">[</mo><mi>Base</mi><mo stretchy="true">]</mo></mrow></mfrac></mfenced></math></p>  </label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_345c" data-correct="false"><label for="option1">B.  <p><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>pH</mi><mo> </mo><mo>=</mo><mo> </mo><msub><mi>pK</mi><mi>a</mi></msub><mo> </mo><mo>+</mo><mo> </mo><msub><mo>log</mo><mn>10</mn></msub><mfenced><mfrac><mrow><mo stretchy="true">[</mo><mi>HA</mi><mo stretchy="true">]</mo></mrow><mrow><mo stretchy="true">[</mo><msup><mi mathvariant="normal">A</mi><mo>–</mo></msup><mo stretchy="true">]</mo></mrow></mfrac></mfenced></math></p>  </label>
+    <input type="radio" id="option1" name="answer_51cf" data-correct="false"><label for="option1">B.  <p><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>pH</mi><mo> </mo><mo>=</mo><mo> </mo><msub><mi>pK</mi><mi>a</mi></msub><mo> </mo><mo>+</mo><mo> </mo><msub><mo>log</mo><mn>10</mn></msub><mfenced><mfrac><mrow><mo stretchy="true">[</mo><mi>Acid</mi><mo stretchy="true">]</mo></mrow><mrow><mo stretchy="true">[</mo><mi>Base</mi><mo stretchy="true">]</mo></mrow></mfrac></mfenced></math></p>  </label>
   </li>
 </ul>
-<div id="result_345c" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
-<button type="button" class="md-button md-button--secondary" onclick="checkAnswer_345c()">Check Answer</button>
+<div id="result_51cf" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_51cf()">Check Answer</button>
 </form>
+<br>
 </div><script>
-function checkAnswer_345c() {
- const options = document.getElementsByName('answer_345c');
+function checkAnswer_51cf() {
+ const options = document.getElementsByName('answer_51cf');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_345c');
+ const resultDiv = document.getElementById('result_51cf');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';

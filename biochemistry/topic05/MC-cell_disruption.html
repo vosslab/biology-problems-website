@@ -1,33 +1,34 @@
-<div id="question_html_2b3f">
-<div id="statement_text_2b3f"><p>Which one of the following <strong><span style="color: #e65400;">cell</span> </strong>disruption techniques correspond to the description <span style="font-size: 1em;"><strong>'Digestive protein catalysts digest and decompose the microbial <strong><span style="color: #e65400;">cell</span> </strong>wall.'</strong></span>.</p></div>
+<div id="question_html_7c00">
+<div id="statement_text_7c00"><p>Which one of the following <strong><span style="color: #e65400;">cell</span> </strong>disruption techniques correspond to the description <span style="font-size: 1em;"><strong>'Cell suspensions are subjected to variable temperatures, resulting in rupture of the walls.'</strong></span>.</p></div>
 <form>
-<ul id="choices_2b3f">
+<ul id="choices_7c00">
 <li>
-    <input type="radio" id="option0" name="answer_2b3f" data-correct="false"><label for="option0">A.  <span style="font-family: sans-serif; letter-spacing: 1px;"><strong><span style="color: #b3b300;">Bead-beating</span></strong></span>  </label>
+    <input type="radio" id="option0" name="answer_7c00" data-correct="false"><label for="option0">A.  <span style="font-family: sans-serif; letter-spacing: 1px;"><strong><span style="color: #e69100;">Enzymatic Method</span></strong></span>  </label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_2b3f" data-correct="true"><label for="option1">B.  <span style="font-family: sans-serif; letter-spacing: 1px;"><strong><span style="color: #e69100;">Enzymatic Method</span></strong></span>  </label>
+    <input type="radio" id="option1" name="answer_7c00" data-correct="true"><label for="option1">B.  <span style="font-family: sans-serif; letter-spacing: 1px;"><strong><span style="color: #009900;">Freeze-thaw</span></strong></span>  </label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_2b3f" data-correct="false"><label for="option2">C.  <span style="font-family: sans-serif; letter-spacing: 1px;"><strong><span style="color: #004d99;">Microfluidizer</span></strong></span>  </label>
+    <input type="radio" id="option2" name="answer_7c00" data-correct="false"><label for="option2">C.  <span style="font-family: sans-serif; letter-spacing: 1px;"><strong><span style="color: #7b12a1;">High-throughput Homogenizer</span></strong></span>  </label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_2b3f" data-correct="false"><label for="option3">D.  <span style="font-family: sans-serif; letter-spacing: 1px;"><strong><span style="color: #59b300;">Sonication</span></strong></span>  </label>
+    <input type="radio" id="option3" name="answer_7c00" data-correct="false"><label for="option3">D.  <span style="font-family: sans-serif; letter-spacing: 1px;"><strong><span style="color: #59b300;">Sonication</span></strong></span>  </label>
   </li>
 </ul>
-<div id="result_2b3f" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
-<button type="button" class="md-button md-button--secondary" onclick="checkAnswer_2b3f()">Check Answer</button>
+<div id="result_7c00" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_7c00()">Check Answer</button>
 </form>
+<br>
 </div><script>
-function checkAnswer_2b3f() {
- const options = document.getElementsByName('answer_2b3f');
+function checkAnswer_7c00() {
+ const options = document.getElementsByName('answer_7c00');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_2b3f');
+ const resultDiv = document.getElementById('result_7c00');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';
