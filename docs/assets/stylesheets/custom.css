@@ -30,7 +30,7 @@
 }
 
 /* General button style extension */
-.md-button.custom-download-button {
+.md-button.custom-button {
   display: flex;
   gap: 5px;
   padding: 5px;
@@ -39,11 +39,11 @@
 }
 
 /* Hover and active styles */
-.md-button.custom-download-button:hover {
+.md-button.custom-button:hover {
   opacity: 0.9;
 }
 
-.md-button.custom-download-button:active {
+.md-button.custom-button:active {
   transform: scale(0.96);
   transition: transform 0.1s ease;
 }
