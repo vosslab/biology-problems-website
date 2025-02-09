@@ -21,6 +21,12 @@ plugins:
 - search
 - include-markdown
 
+extra_css:
+  - assets/stylesheets/custom.css
+
+extra_javascript:
+  - assets/scripts/custom.js
+
 nav:
 - Home: index.md
 - Biochemistry:
