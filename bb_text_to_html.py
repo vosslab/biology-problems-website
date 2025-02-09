@@ -61,7 +61,7 @@ def format_html_lxml(html_string):
 def add_mathml_javascript():
 	javascript_text = ""
 	javascript_text += "<script type='text/javascript' async "
-	javascript_text += "src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'>"
+	javascript_text += "  src='https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'>"
 	javascript_text += "</script>"
 	return javascript_text
 
@@ -185,7 +185,7 @@ def generate_html(hex_value, question_text, choices_list_of_tuples):
 	html_content += "<button type=\"button\" "
 
 	# Set the class of the button to match the material design theme of the website
-	html_content += "class=\"md-button md-button--secondary\" "
+	html_content += 'class="md-button md-button--secondary custom-button" '
 
 	# Add an onclick event to call the answer-checking function for this question
 	html_content += f"onclick=\"checkAnswer_{hex_value}()\">"
@@ -197,7 +197,7 @@ def generate_html(hex_value, question_text, choices_list_of_tuples):
 	html_content += "</button>\n"
 
 	# Close the form element
-	html_content += "</form>\n"
+	html_content += "</form><br/>\n"
 
 	# Close the question div element
 	html_content += "</div>"
