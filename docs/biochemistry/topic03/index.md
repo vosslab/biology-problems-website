@@ -9,7 +9,17 @@ Amino acid structure, types, and roles in protein structure.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>"Click to show example problem on Determining Dipeptide Sequence from Structure"</summary>
+  <summary>
+    <span style='font-weight: normal;'>
+      Click to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Determining Dipeptide Sequence from Structure
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
   {% include "biochemistry/topic03/2_amino_acids-polypeptide_mc_sequence.html" %}
 
 </details>
@@ -20,7 +30,17 @@ Amino acid structure, types, and roles in protein structure.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>"Click to show example problem on Identification of Amino Acids by Structural and Chemical Properties"</summary>
+  <summary>
+    <span style='font-weight: normal;'>
+      Click to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Identification of Amino Acids by Structural and Chemical Properties
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
   {% include "biochemistry/topic03/MC-amino_acids.html" %}
 
 </details>
@@ -31,7 +51,17 @@ Amino acid structure, types, and roles in protein structure.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>"Click to show example problem on Amino Acids from Chemical Structures"</summary>
+  <summary>
+    <span style='font-weight: normal;'>
+      Click to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Amino Acids from Chemical Structures
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
   {% include "biochemistry/topic03/which_amino_acid_mc.html" %}
 
 </details>

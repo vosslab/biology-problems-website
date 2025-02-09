@@ -9,7 +9,17 @@ Protein folding, structural levels, and mechanisms.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>"Click to show example problem on Levels of Protein Structure"</summary>
+  <summary>
+    <span style='font-weight: normal;'>
+      Click to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Levels of Protein Structure
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
   {% include "biochemistry/topic04/MC-levels_of_protein_structure.html" %}
 
 </details>
@@ -20,7 +30,17 @@ Protein folding, structural levels, and mechanisms.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>"Click to show example problem on Hydrogen Bonding in Alpha-Helix Structures"</summary>
+  <summary>
+    <span style='font-weight: normal;'>
+      Click to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Hydrogen Bonding in Alpha-Helix Structures
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
   {% include "biochemistry/topic04/alpha_helix_h-bonds-MC.html" %}
 
 </details>
@@ -31,7 +51,17 @@ Protein folding, structural levels, and mechanisms.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>"Click to show example problem on Ionic Bond Formation in Amino Acid Side Chains"</summary>
+  <summary>
+    <span style='font-weight: normal;'>
+      Click to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Ionic Bond Formation in Amino Acid Side Chains
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
   {% include "biochemistry/topic04/ionic_bond_amino_acids.html" %}
 
 </details>
