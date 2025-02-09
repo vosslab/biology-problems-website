@@ -166,7 +166,7 @@ def generate_download_button_row(bbq_file_name: str) -> str:
 
 		# Create HTML button element with corresponding attributes
 		button_html = (
-			f'<button class="md-button custom-download-button {file_type["button_class"]}" '
+			f'<button class="md-button custom-button {file_type["button_class"]}" '
 			f'onclick="downloadFile(\'{file_basename}\')" '
 			f'title="Download {file_basename}" '
 			f'aria-label="Click to download the {file_type["display_name"]} file ({file_basename})">\n'
@@ -246,7 +246,6 @@ def extract_core_name(bbq_file_name):
 
 #==============
 
-
 def update_index_md(topic_folder: str, bbq_files: list) -> None:
 	"""Update or create the index.md file for the topic.
 
@@ -299,7 +298,7 @@ def update_index_md(topic_folder: str, bbq_files: list) -> None:
 
 			# Add content to the index.md file
 			index_md.write(f"## {problem_set_title}\n\n")
-			print("bbq_file_basename=", bbq_file_basename)
+			#print("bbq_file_basename=", bbq_file_basename)
 			download_button_row = generate_download_button_row(bbq_file)
 			"""
 			download_msg = f"Download the {bbq_file_basename} file for Blackboard Upload"
@@ -311,7 +310,7 @@ def update_index_md(topic_folder: str, bbq_files: list) -> None:
 			index_md.write("<details>\n")
 			index_md.write(f"  <summary>\"Click to show example problem on {problem_set_title}\"</summary>\n")
 			index_md.write(f"  {{% include \"{os.path.relpath(html_file_path, BASE_DIR)}\" %}}\n\n")
-			index_md.write("<br/></details>\n")
+			index_md.write("</details>\n")
 
 #==============
 
@@ -329,7 +328,6 @@ def main():
 	all_topic_folders = glob.glob(os.path.join(BASE_DIR, "*/topic??/"))
 	all_topic_folders.sort()
 	print(f"Found {len(all_topic_folders)} topic folders to parse")
-
 
 	for topic_folder in all_topic_folders:
 		print("\n\n\n################################")
