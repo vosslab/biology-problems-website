@@ -9,7 +9,17 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>"Click to show example problem on Enzyme Inhibition and Activation in Metabolic Pathways"</summary>
+  <summary>
+    <span style='font-weight: normal;'>
+      Click to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Enzyme Inhibition and Activation in Metabolic Pathways
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
   {% include "biochemistry/topic07/BCHM355-metabolic_pathway_inhibitor.html" %}
 
 </details>
@@ -20,7 +30,17 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>"Click to show example problem on Enzyme Catalysis Terminology"</summary>
+  <summary>
+    <span style='font-weight: normal;'>
+      Click to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Enzyme Catalysis Terminology
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
   {% include "biochemistry/topic07/MC-enzyme_terminology.html" %}
 
 </details>
@@ -31,7 +51,17 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>"Click to show example problem on True/False Statements on Enzyme Kinetics"</summary>
+  <summary>
+    <span style='font-weight: normal;'>
+      Click to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      True/False Statements on Enzyme Kinetics
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
   {% include "biochemistry/topic07/TF-enzyme_equilibrium.html" %}
 
 </details>
@@ -42,7 +72,17 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>"Click to show example problem on True/False Statements on Michaelis-Menten Kinetics"</summary>
+  <summary>
+    <span style='font-weight: normal;'>
+      Click to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      True/False Statements on Michaelis-Menten Kinetics
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
   {% include "biochemistry/topic07/TF-m-m_kinetics.html" %}
 
 </details>
@@ -53,7 +93,17 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>"Click to show example problem on Which Molecule Cannot be an Enzyme Cofactors"</summary>
+  <summary>
+    <span style='font-weight: normal;'>
+      Click to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Which Molecule Cannot be an Enzyme Cofactors
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
   {% include "biochemistry/topic07/enzyme_cofactors.html" %}
 
 </details>
@@ -64,7 +114,17 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>"Click to show example problem on Michaelis-Menten Constant (K<sub>M</sub>) from Enzyme Activity Data"</summary>
+  <summary>
+    <span style='font-weight: normal;'>
+      Click to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Michaelis-Menten Constant (K<sub>M</sub>) from Enzyme Activity Data
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
   {% include "biochemistry/topic07/michaelis_menten_table-Km.html" %}
 
 </details>
@@ -75,7 +135,17 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>"Click to show example problem on Inhibition Type Determination from Enzyme Activity Data"</summary>
+  <summary>
+    <span style='font-weight: normal;'>
+      Click to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Inhibition Type Determination from Enzyme Activity Data
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
   {% include "biochemistry/topic07/michaelis_menten_table-inhibition.html" %}
 
 </details>
@@ -86,7 +156,17 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>"Click to show example problem on Which Molecule Could be an Enzyme"</summary>
+  <summary>
+    <span style='font-weight: normal;'>
+      Click to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Which Molecule Could be an Enzyme
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
   {% include "biochemistry/topic07/which_enzyme.html" %}
 
 </details>

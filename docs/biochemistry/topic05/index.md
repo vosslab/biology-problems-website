@@ -9,7 +9,17 @@ Isolation and analysis methods, chromatography, electrophoresis.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>"Click to show example problem on Cell Disruption Techniques Identification"</summary>
+  <summary>
+    <span style='font-weight: normal;'>
+      Click to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Cell Disruption Techniques Identification
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
   {% include "biochemistry/topic05/MC-cell_disruption.html" %}
 
 </details>
@@ -20,7 +30,17 @@ Isolation and analysis methods, chromatography, electrophoresis.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>"Click to show example problem on Types of Column Chromatography"</summary>
+  <summary>
+    <span style='font-weight: normal;'>
+      Click to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Types of Column Chromatography
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
   {% include "biochemistry/topic05/MC-chromatography.html" %}
 
 </details>
@@ -31,7 +51,17 @@ Isolation and analysis methods, chromatography, electrophoresis.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>"Click to show example problem on Identification of Macromolecules in Gel Electrophoresis Processes"</summary>
+  <summary>
+    <span style='font-weight: normal;'>
+      Click to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Identification of Macromolecules in Gel Electrophoresis Processes
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
   {% include "biochemistry/topic05/MC-protein_v_dna_gels.html" %}
 
 </details>
@@ -42,7 +72,17 @@ Isolation and analysis methods, chromatography, electrophoresis.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>"Click to show example problem on Determining Net Charge of Proteins at Given pH"</summary>
+  <summary>
+    <span style='font-weight: normal;'>
+      Click to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Determining Net Charge of Proteins at Given pH
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
   {% include "biochemistry/topic05/isoelectric_one_protein.html" %}
 
 </details>
@@ -53,7 +93,17 @@ Isolation and analysis methods, chromatography, electrophoresis.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>"Click to show example problem on Protein Migration Direction Based on Isoelectric Point"</summary>
+  <summary>
+    <span style='font-weight: normal;'>
+      Click to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Protein Migration Direction Based on Isoelectric Point
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
   {% include "biochemistry/topic05/isoelectric_two_proteins.html" %}
 
 </details>
@@ -64,7 +114,17 @@ Isolation and analysis methods, chromatography, electrophoresis.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>"Click to show example problem on Estimating Protein Molecular Weight from SDS-PAGE Migration"</summary>
+  <summary>
+    <span style='font-weight: normal;'>
+      Click to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Estimating Protein Molecular Weight from SDS-PAGE Migration
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
   {% include "biochemistry/topic05/protein_gel_migration.html" %}
 
 </details>
