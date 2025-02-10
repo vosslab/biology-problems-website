@@ -308,9 +308,9 @@ def update_index_md(topic_folder: str, bbq_files: list) -> None:
 			"""
 			index_md.write(download_button_row)
 			index_md.write("<details>\n")
-			index_md.write("  <summary>\n")
+			index_md.write("  <summary>Click \n")
 			index_md.write("    <span style='font-weight: normal;'>\n")
-			index_md.write("      Click to show\n")
+			index_md.write("       to show\n")
 			index_md.write("    </span>\n")
 			index_md.write("    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>\n")
 			index_md.write(f"      {problem_set_title}\n")
