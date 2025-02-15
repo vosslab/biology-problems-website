@@ -4,55 +4,127 @@ Isolation and analysis methods, chromatography, electrophoresis.
 
 ## Cell Disruption Techniques Identification
 
-<a id='raw-url' href='bbq-MC-cell_disruption-questions.txt' download>Download the bbq-MC-cell_disruption-questions.txt file for Blackboard Upload</a>
-
-<details>
-  <summary>"Click to show example problem on Cell Disruption Techniques Identification"</summary>
+<div id="MC-cell_disruption-button-container" class="button-container">
+<button class="md-button custom-button bb_text" onclick="downloadFile('bbq-MC-cell_disruption-questions.txt')" title="Download bbq-MC-cell_disruption-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-MC-cell_disruption-questions.txt)">
+    <i class="fa fa-download"></i> Blackboard TXT
+</button>
+</div><details>
+  <summary>
+    <span style='font-weight: normal;'>
+      Click to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Cell Disruption Techniques Identification
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
   {% include "biochemistry/topic05/MC-cell_disruption.html" %}
 
-<br/></details>
+</details>
 ## Types of Column Chromatography
 
-<a id='raw-url' href='bbq-MC-chromatography-questions.txt' download>Download the bbq-MC-chromatography-questions.txt file for Blackboard Upload</a>
-
-<details>
-  <summary>"Click to show example problem on Types of Column Chromatography"</summary>
+<div id="MC-chromatography-button-container" class="button-container">
+<button class="md-button custom-button bb_text" onclick="downloadFile('bbq-MC-chromatography-questions.txt')" title="Download bbq-MC-chromatography-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-MC-chromatography-questions.txt)">
+    <i class="fa fa-download"></i> Blackboard TXT
+</button>
+</div><details>
+  <summary>
+    <span style='font-weight: normal;'>
+      Click to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Types of Column Chromatography
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
   {% include "biochemistry/topic05/MC-chromatography.html" %}
 
-<br/></details>
+</details>
 ## Identification of Macromolecules in Gel Electrophoresis Processes
 
-<a id='raw-url' href='bbq-MC-protein_v_dna_gels-questions.txt' download>Download the bbq-MC-protein_v_dna_gels-questions.txt file for Blackboard Upload</a>
-
-<details>
-  <summary>"Click to show example problem on Identification of Macromolecules in Gel Electrophoresis Processes"</summary>
+<div id="MC-protein_v_dna_gels-button-container" class="button-container">
+<button class="md-button custom-button bb_text" onclick="downloadFile('bbq-MC-protein_v_dna_gels-questions.txt')" title="Download bbq-MC-protein_v_dna_gels-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-MC-protein_v_dna_gels-questions.txt)">
+    <i class="fa fa-download"></i> Blackboard TXT
+</button>
+</div><details>
+  <summary>
+    <span style='font-weight: normal;'>
+      Click to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Identification of Macromolecules in Gel Electrophoresis Processes
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
   {% include "biochemistry/topic05/MC-protein_v_dna_gels.html" %}
 
-<br/></details>
+</details>
 ## Determining Net Charge of Proteins at Given pH
 
-<a id='raw-url' href='bbq-isoelectric_one_protein-questions.txt' download>Download the bbq-isoelectric_one_protein-questions.txt file for Blackboard Upload</a>
-
-<details>
-  <summary>"Click to show example problem on Determining Net Charge of Proteins at Given pH"</summary>
+<div id="isoelectric_one_protein-button-container" class="button-container">
+<button class="md-button custom-button bb_text" onclick="downloadFile('bbq-isoelectric_one_protein-questions.txt')" title="Download bbq-isoelectric_one_protein-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-isoelectric_one_protein-questions.txt)">
+    <i class="fa fa-download"></i> Blackboard TXT
+</button>
+</div><details>
+  <summary>
+    <span style='font-weight: normal;'>
+      Click to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Determining Net Charge of Proteins at Given pH
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
   {% include "biochemistry/topic05/isoelectric_one_protein.html" %}
 
-<br/></details>
+</details>
 ## Protein Migration Direction Based on Isoelectric Point
 
-<a id='raw-url' href='bbq-isoelectric_two_proteins-questions.txt' download>Download the bbq-isoelectric_two_proteins-questions.txt file for Blackboard Upload</a>
-
-<details>
-  <summary>"Click to show example problem on Protein Migration Direction Based on Isoelectric Point"</summary>
+<div id="isoelectric_two_proteins-button-container" class="button-container">
+<button class="md-button custom-button bb_text" onclick="downloadFile('bbq-isoelectric_two_proteins-questions.txt')" title="Download bbq-isoelectric_two_proteins-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-isoelectric_two_proteins-questions.txt)">
+    <i class="fa fa-download"></i> Blackboard TXT
+</button>
+</div><details>
+  <summary>
+    <span style='font-weight: normal;'>
+      Click to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Protein Migration Direction Based on Isoelectric Point
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
   {% include "biochemistry/topic05/isoelectric_two_proteins.html" %}
 
-<br/></details>
+</details>
 ## Estimating Protein Molecular Weight from SDS-PAGE Migration
 
-<a id='raw-url' href='bbq-protein_gel_migration-questions.txt' download>Download the bbq-protein_gel_migration-questions.txt file for Blackboard Upload</a>
-
-<details>
-  <summary>"Click to show example problem on Estimating Protein Molecular Weight from SDS-PAGE Migration"</summary>
+<div id="protein_gel_migration-button-container" class="button-container">
+<button class="md-button custom-button bb_text" onclick="downloadFile('bbq-protein_gel_migration-questions.txt')" title="Download bbq-protein_gel_migration-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-protein_gel_migration-questions.txt)">
+    <i class="fa fa-download"></i> Blackboard TXT
+</button>
+</div><details>
+  <summary>
+    <span style='font-weight: normal;'>
+      Click to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Estimating Protein Molecular Weight from SDS-PAGE Migration
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
   {% include "biochemistry/topic05/protein_gel_migration.html" %}
 
-<br/></details>
+</details>

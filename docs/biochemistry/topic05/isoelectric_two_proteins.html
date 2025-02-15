@@ -1,5 +1,5 @@
-<div id="question_html_f940">
-<div id="statement_text_f940">
+<div id="question_html_54ec">
+<div id="statement_text_54ec">
 <h6>Isoelectric Point Problem</h6> <p>A mixture of two proteins are to be separated by isoelectric focusing.</p> <table cellpadding="2" cellspacing="2" style="text-align:center; border: 1px solid black;">
 <tr>
 <th>Protein<br>Name</th>
@@ -7,46 +7,47 @@
 <th>Molecular<br>Weight</th>
 </tr>
 <tr>
-<td>Fumerase (Fum)</td>
-<td align="right">7.6</td>
-<td align="right">48.5</td>
+<td>Enolase (Eno)</td>
+<td align="right">8.4</td>
+<td align="right">42.5</td>
 </tr>
 <tr>
-<td>Neuraminidase (Neu)</td>
-<td align="right">5.2</td>
-<td align="right">50.0</td>
+<td>Agglutinin (Agg)</td>
+<td align="right">4.8</td>
+<td align="right">22.0</td>
 </tr>
 </table>
 <p>Both protein samples are placed into a gel with a constant pH of 6.5. The gel is then placed into an electric field.<br>In which direction will each protein in the table migrate at <b>pH 6.5</b>?</p>
 </div>
 <form>
-<ul id="choices_f940">
+<ul id="choices_54ec">
 <li>
-    <input type="radio" id="option0" name="answer_f940" data-correct="false"><label for="option0">A.  Both Fum and Neu will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal  </label>
+    <input type="radio" id="option0" name="answer_54ec" data-correct="false"><label for="option0">A.  Both Eno and Agg will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal  </label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_f940" data-correct="false"><label for="option1">B.  Both Fum and Neu will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal  </label>
+    <input type="radio" id="option1" name="answer_54ec" data-correct="false"><label for="option1">B.  Both Eno and Agg will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal  </label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_f940" data-correct="true"><label for="option2">C.  Fum will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal<br> Neu will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal  </label>
+    <input type="radio" id="option2" name="answer_54ec" data-correct="true"><label for="option2">C.  Eno will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal<br> Agg will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal  </label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_f940" data-correct="false"><label for="option3">D.  Fum will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal<br> Neu will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal  </label>
+    <input type="radio" id="option3" name="answer_54ec" data-correct="false"><label for="option3">D.  Eno will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal<br> Agg will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal  </label>
   </li>
 </ul>
-<div id="result_f940" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
-<button type="button" class="md-button md-button--secondary" onclick="checkAnswer_f940()">Check Answer</button>
+<div id="result_54ec" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_54ec()">Check Answer</button>
 </form>
+<br>
 </div><script>
-function checkAnswer_f940() {
- const options = document.getElementsByName('answer_f940');
+function checkAnswer_54ec() {
+ const options = document.getElementsByName('answer_54ec');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_f940');
+ const resultDiv = document.getElementById('result_54ec');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';

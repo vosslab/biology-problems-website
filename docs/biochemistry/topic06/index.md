@@ -4,37 +4,85 @@ Enzyme functions, substrate binding, and energy changes in reactions.
 
 ## Energy Terms and Their Categories
 
-<a id='raw-url' href='bbq-MC-energy_terms-questions.txt' download>Download the bbq-MC-energy_terms-questions.txt file for Blackboard Upload</a>
-
-<details>
-  <summary>"Click to show example problem on Energy Terms and Their Categories"</summary>
+<div id="MC-energy_terms-button-container" class="button-container">
+<button class="md-button custom-button bb_text" onclick="downloadFile('bbq-MC-energy_terms-questions.txt')" title="Download bbq-MC-energy_terms-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-MC-energy_terms-questions.txt)">
+    <i class="fa fa-download"></i> Blackboard TXT
+</button>
+</div><details>
+  <summary>
+    <span style='font-weight: normal;'>
+      Click to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Energy Terms and Their Categories
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
   {% include "biochemistry/topic06/MC-energy_terms.html" %}
 
-<br/></details>
+</details>
 ## True/False Statements on Chemical Reactions
 
-<a id='raw-url' href='bbq-TF-chemical_reactions-questions.txt' download>Download the bbq-TF-chemical_reactions-questions.txt file for Blackboard Upload</a>
-
-<details>
-  <summary>"Click to show example problem on True/False Statements on Chemical Reactions"</summary>
+<div id="TF-chemical_reactions-button-container" class="button-container">
+<button class="md-button custom-button bb_text" onclick="downloadFile('bbq-TF-chemical_reactions-questions.txt')" title="Download bbq-TF-chemical_reactions-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-TF-chemical_reactions-questions.txt)">
+    <i class="fa fa-download"></i> Blackboard TXT
+</button>
+</div><details>
+  <summary>
+    <span style='font-weight: normal;'>
+      Click to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      True/False Statements on Chemical Reactions
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
   {% include "biochemistry/topic06/TF-chemical_reactions.html" %}
 
-<br/></details>
+</details>
 ## True/False Statements on Gibbs Free Energy (&Delta;G = &Delta;H - T &Delta;S)
 
-<a id='raw-url' href='bbq-TF-gibbs_free_energy_equation-questions.txt' download>Download the bbq-TF-gibbs_free_energy_equation-questions.txt file for Blackboard Upload</a>
-
-<details>
-  <summary>"Click to show example problem on True/False Statements on Gibbs Free Energy (&Delta;G = &Delta;H - T &Delta;S)"</summary>
+<div id="TF-gibbs_free_energy_equation-button-container" class="button-container">
+<button class="md-button custom-button bb_text" onclick="downloadFile('bbq-TF-gibbs_free_energy_equation-questions.txt')" title="Download bbq-TF-gibbs_free_energy_equation-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-TF-gibbs_free_energy_equation-questions.txt)">
+    <i class="fa fa-download"></i> Blackboard TXT
+</button>
+</div><details>
+  <summary>
+    <span style='font-weight: normal;'>
+      Click to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      True/False Statements on Gibbs Free Energy (&Delta;G = &Delta;H - T &Delta;S)
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
   {% include "biochemistry/topic06/TF-gibbs_free_energy_equation.html" %}
 
-<br/></details>
+</details>
 ## True/False Statements on Thermodynamics vs. Kinetics
 
-<a id='raw-url' href='bbq-TF-thermodynamics-questions.txt' download>Download the bbq-TF-thermodynamics-questions.txt file for Blackboard Upload</a>
-
-<details>
-  <summary>"Click to show example problem on True/False Statements on Thermodynamics vs. Kinetics"</summary>
+<div id="TF-thermodynamics-button-container" class="button-container">
+<button class="md-button custom-button bb_text" onclick="downloadFile('bbq-TF-thermodynamics-questions.txt')" title="Download bbq-TF-thermodynamics-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-TF-thermodynamics-questions.txt)">
+    <i class="fa fa-download"></i> Blackboard TXT
+</button>
+</div><details>
+  <summary>
+    <span style='font-weight: normal;'>
+      Click to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      True/False Statements on Thermodynamics vs. Kinetics
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
   {% include "biochemistry/topic06/TF-thermodynamics.html" %}
 
-<br/></details>
+</details>
