@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('/assets/fonts/fontawesome-webfont.woff2') format('woff2'),
+       url('/assets/fonts/fontawesome-webfont.woff') format('woff'),
+       url('/assets/fonts/fontawesome-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fa {
+  display: inline-block;
+  margin-right: 2px;  /* Adds spacing between the icon and the text */
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherited;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-download:before {
+  content: "\f019";
+}
+
+/* Flexbox layout for button container */
+.button-container {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  margin: 3px 0;
+}
+
+/* General button style extension */
+.md-button.custom-button {
+  display: flex;
+  gap: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 80%;
+}
+
+/* Hover and active styles */
+.md-button.custom-button:hover {
+  opacity: 0.9;
+}
+
+.md-button.custom-button:active {
+  transform: scale(0.96);
+  transition: transform 0.1s ease;
+}
+
+/* Specific variations using hue rotation */
+.bb_text {
+  filter: hue-rotate(60deg);
+}
+
+.bb_qti {
+  filter: hue-rotate(0deg);
+}
+
+.canvas_qti {
+  filter: hue-rotate(-30deg);
+}
+
+.human_read {
+  filter: hue-rotate(-60deg);
+}
+
+

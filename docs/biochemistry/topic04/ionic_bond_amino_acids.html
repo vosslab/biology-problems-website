@@ -1,36 +1,37 @@
-<div id="question_html_1778">
-<div id="statement_text_1778"><h4>Based on the chemical properties of amino acid side chains, which pair of amino acids listed below can form an ionic bond between their side chains?</h4></div>
+<div id="question_html_f0b1">
+<div id="statement_text_f0b1"><h4>Based on the chemical properties of amino acid side chains, which pair of amino acids listed below can form an ionic bond between their side chains?</h4></div>
 <form>
-<ul id="choices_1778">
+<ul id="choices_f0b1">
 <li>
-    <input type="radio" id="option0" name="answer_1778" data-correct="false"><label for="option0">A.  Serine and Alanine  </label>
+    <input type="radio" id="option0" name="answer_f0b1" data-correct="false"><label for="option0">A.  Serine and Proline  </label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_1778" data-correct="false"><label for="option1">B.  Serine and Glutamine  </label>
+    <input type="radio" id="option1" name="answer_f0b1" data-correct="false"><label for="option1">B.  Leucine and Histidine  </label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_1778" data-correct="false"><label for="option2">C.  Phenylalanine and Histidine  </label>
+    <input type="radio" id="option2" name="answer_f0b1" data-correct="false"><label for="option2">C.  Phenylalanine and Leucine  </label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_1778" data-correct="false"><label for="option3">D.  Tyrosine and Aspartic Acid  </label>
+    <input type="radio" id="option3" name="answer_f0b1" data-correct="false"><label for="option3">D.  Tryptophan and Glutamic Acid  </label>
   </li>
   <li>
-    <input type="radio" id="option4" name="answer_1778" data-correct="true"><label for="option4">E.  Histidine and Aspartic Acid  </label>
+    <input type="radio" id="option4" name="answer_f0b1" data-correct="true"><label for="option4">E.  Glutamate and Lysine  </label>
   </li>
 </ul>
-<div id="result_1778" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
-<button type="button" class="md-button md-button--secondary" onclick="checkAnswer_1778()">Check Answer</button>
+<div id="result_f0b1" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_f0b1()">Check Answer</button>
 </form>
+<br>
 </div><script>
-function checkAnswer_1778() {
- const options = document.getElementsByName('answer_1778');
+function checkAnswer_f0b1() {
+ const options = document.getElementsByName('answer_f0b1');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_1778');
+ const resultDiv = document.getElementById('result_f0b1');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';

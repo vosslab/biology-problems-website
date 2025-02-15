@@ -3,6 +3,7 @@
 # Standard Library
 import os
 import re
+import sys
 import glob
 import time
 
@@ -106,6 +107,81 @@ def get_topic_description(parent_folder: str, relative_topic_name: str) -> str:
 	raise ValueError(f"No description found for topic: {relative_topic_name}")
 
 #==============
+def generate_download_button_row(bbq_file_name: str) -> str:
+	"""
+	Generates a row of HTML buttons for downloading various file types.
+
+	Args:
+		bbq_core_name (str): The base name used to generate filenames.
+
+	Returns:
+		str: HTML string containing the button row.
+	"""
+
+	# Define file types with their prefixes, suffixes, and button classes
+	file_types = {
+		"bb_text": {
+			"prefix": "bbq-",
+			"suffix": "-questions.txt",
+			"button_class": "bb_text",
+			"display_name": "Blackboard TXT"
+		},
+		"bb_qti": {
+			"prefix": "blackboard-",
+			"suffix": "-qti21.txt",
+			"button_class": "bb_qti",
+			"display_name": "Blackboard QTI v2.1"
+		},
+		"canvas_qti": {
+			"prefix": "canvas-",
+			"suffix": "-qti12.txt",
+			"button_class": "canvas_qti",
+			"display_name": "Canvas/ADAPT QTI v1.2"
+		},
+		"human_read": {
+			"prefix": "human_read-",
+			"suffix": ".txt",
+			"button_class": "human_read",
+			"display_name": "Human-Readable TXT"
+		}
+	}
+
+	bbq_core_name = extract_core_name(bbq_file_name)
+	bbq_base_name = os.path.basename(bbq_file_name)
+	dir_name = os.path.dirname(bbq_file_name)
+
+	# Initialize the HTML output string
+	html_output = f'<div id="{bbq_core_name}-button-container" class="button-container">\n'
+
+	# Generate a button for each file type
+	for type_key, file_type in file_types.items():
+		# Construct the filename using the base name and file type details
+		file_basename = f"{file_type['prefix']}{bbq_core_name}{file_type['suffix']}"
+		if file_type == "bb_text" and bbq_base_name != file_basename:
+			raise ValueError
+
+		file_path = os.path.join(dir_name, file_basename)
+		if not os.path.isfile(file_path):
+			continue
+
+		# Create HTML button element with corresponding attributes
+		button_html = (
+			f'<button class="md-button custom-button {file_type["button_class"]}" '
+			f'onclick="downloadFile(\'{file_basename}\')" '
+			f'title="Download {file_basename}" '
+			f'aria-label="Click to download the {file_type["display_name"]} file ({file_basename})">\n'
+			f'    <i class="fa fa-download"></i> {file_type["display_name"]}\n'
+			f'</button>'
+		)
+		# Add the button to the HTML output
+		html_output += button_html + '\n'
+
+	# Close the container div
+	html_output += '</div>'
+
+	return html_output
+
+#==============
 
 def get_problem_set_title(bbq_file: str) -> str:
 	"""
@@ -156,6 +232,20 @@ def get_problem_set_title(bbq_file: str) -> str:
 
 #==============
 
+def extract_core_name(bbq_file_name):
+	# Regular expression to match the core part
+	if '/' in bbq_file_name:
+		bbq_file_basename = os.path.basename(bbq_file_name)
+	else:
+		bbq_file_basename = bbq_file_name
+	match = re.search(r'^bbq-(.+?)-questions\.txt$', bbq_file_basename)
+	if not match:
+		raise ValueError
+	bbq_core_name = match.group(1)
+	return bbq_core_name
+
+#==============
+
 def update_index_md(topic_folder: str, bbq_files: list) -> None:
 	"""Update or create the index.md file for the topic.
 
@@ -170,7 +260,7 @@ def update_index_md(topic_folder: str, bbq_files: list) -> None:
 
 	# Extract the last directory name (e.g., "topic09")
 	relative_topic_name = os.path.basename(normalized_path)
-	relative_path = os.path.relpath(normalized_path, BASE_DIR)
+	#relative_path = os.path.relpath(normalized_path, BASE_DIR)
 
 	topic_number = int(re.search('topic([0-9]+)', relative_topic_name).groups()[0])
 	print(f"Topic Number: {topic_number}")
@@ -208,14 +298,29 @@ def update_index_md(topic_folder: str, bbq_files: list) -> None:
 
 			# Add content to the index.md file
 			index_md.write(f"## {problem_set_title}\n\n")
+			#print("bbq_file_basename=", bbq_file_basename)
+			download_button_row = generate_download_button_row(bbq_file)
+			"""
 			download_msg = f"Download the {bbq_file_basename} file for Blackboard Upload"
 			markdown_link = f"[{download_msg}]({bbq_file_basename})\n\n"
 			a_href = f"<a id='raw-url' href='{bbq_file_basename}' download>{download_msg}</a>\n\n"
 			index_md.write(a_href)
+			"""
+			index_md.write(download_button_row)
 			index_md.write("<details>\n")
-			index_md.write(f"  <summary>\"Click to show example problem on {problem_set_title}\"</summary>\n")
+			index_md.write("  <summary>Click \n")
+			index_md.write("    <span style='font-weight: normal;'>\n")
+			index_md.write("       to show\n")
+			index_md.write("    </span>\n")
+			index_md.write("    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>\n")
+			index_md.write(f"      {problem_set_title}\n")
+			index_md.write("    </span>\n")
+			index_md.write("    <span style='font-weight: normal;'>\n")
+			index_md.write("      example problem\n")
+			index_md.write("    </span>\n")
+			index_md.write("  </summary>\n")
 			index_md.write(f"  {{% include \"{os.path.relpath(html_file_path, BASE_DIR)}\" %}}\n\n")
-			index_md.write("<br/></details>\n")
+			index_md.write("</details>\n")
 
 #==============
 
@@ -233,7 +338,6 @@ def main():
 	all_topic_folders = glob.glob(os.path.join(BASE_DIR, "*/topic??/"))
 	all_topic_folders.sort()
 	print(f"Found {len(all_topic_folders)} topic folders to parse")
-
 
 	for topic_folder in all_topic_folders:
 		print("\n\n\n################################")
@@ -255,6 +359,7 @@ def main():
 
 		# Update the index.md file for the topic
 		update_index_md(topic_folder, bbq_files)
+		#sys.exit(1)
 
 #==============
 

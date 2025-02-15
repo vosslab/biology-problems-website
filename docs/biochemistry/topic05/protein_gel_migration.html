@@ -1,5 +1,5 @@
-<div id="question_html_6911">
-<div id="statement_text_6911">
+<div id="question_html_c452">
+<div id="statement_text_c452">
 <h6>Gel Migration Problem</h6> <p>In this task, data from an SDS-PAGE experiment, where proteins are separated based on molecular weight, is provided. The gel results table below shows some standard proteins with known molecular weights and one unknown protein.<br></p>
 <table cellpadding="2" cellspacing="2" style="text-align:center; border: 2px solid black; font-size: 14px;">
 <tr style="background-color: #f2f2f2; border-bottom: 3px solid grey;">
@@ -8,76 +8,80 @@
 <th>Migration<br>Distance (cm)</th>
 </tr>
 <tr>
-<td>Avidin (Av)</td>
-<td align="center">16.9</td>
-<td align="center">3.24</td>
+<td>Histone (His)</td>
+<td align="center">15.0</td>
+<td align="center">3.33</td>
 </tr>
 <tr>
-<td>Succinate Ligase (SL)</td>
-<td align="center">20.9</td>
-<td align="center">3.07</td>
+<td>Phospholypase (Pho)</td>
+<td align="center">19.5</td>
+<td align="center">3.12</td>
 </tr>
 <tr>
-<td>Elastase II (Ela)</td>
-<td align="center">26.5</td>
-<td align="center">2.88</td>
+<td>Serine Protease (Ser)</td>
+<td align="center">22.0</td>
+<td align="center">3.03</td>
 </tr>
 <tr>
-<td>Horseradish peroxidase (HP)</td>
-<td align="center">34.0</td>
-<td align="center">2.68</td>
+<td>Prostate-Specific Antigen (PSA)</td>
+<td align="center">30.0</td>
+<td align="center">2.78</td>
 </tr>
 <tr>
-<td>Epidermal Growth Factor  (EGF)</td>
+<td>Lipase (Lip)</td>
 <td align="center">40.0</td>
 <td align="center">2.55</td>
 </tr>
 <tr>
-<td>Aldolase (Aldo)</td>
-<td align="center">47.5</td>
-<td align="center">2.41</td>
+<td>Fumerase (Fum)</td>
+<td align="center">48.5</td>
+<td align="center">2.39</td>
 </tr>
 <tr>
-<td>Pyruvate Kinase (PK)</td>
-<td align="center">60.0</td>
-<td align="center">2.22</td>
+<td>α-Amylase (Amy)</td>
+<td align="center">61.0</td>
+<td align="center">2.21</td>
 </tr>
 <tr style="border-top: 3px double gray; background-color: #fffacd;">
-<td>Unknown</td>  <td align="center"><strong>?</strong></td>  <td align="center">2.79</td>
+<td>Unknown</td>  <td align="center"><strong>?</strong></td>  <td align="center">2.34</td>
 </tr>
 </table>
 <br>Estimate the molecular weight of the unknown protein by comparing its gel migration distance with those of the standards.</div>
 <form>
-<ul id="choices_6911">
+<ul id="choices_c452">
 <li>
-    <input type="radio" id="option0" name="answer_6911" data-correct="false"><label for="option0">A.  19 kDa  </label>
+    <input type="radio" id="option0" name="answer_c452" data-correct="false"><label for="option0">A.  17 kDa  </label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_6911" data-correct="false"><label for="option1">B.  24 kDa  </label>
+    <input type="radio" id="option1" name="answer_c452" data-correct="false"><label for="option1">B.  20 kDa  </label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_6911" data-correct="true"><label for="option2">C.  29 kDa  </label>
+    <input type="radio" id="option2" name="answer_c452" data-correct="false"><label for="option2">C.  26 kDa  </label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_6911" data-correct="false"><label for="option3">D.  36 kDa  </label>
+    <input type="radio" id="option3" name="answer_c452" data-correct="false"><label for="option3">D.  34 kDa  </label>
   </li>
   <li>
-    <input type="radio" id="option4" name="answer_6911" data-correct="false"><label for="option4">E.  44 kDa  </label>
+    <input type="radio" id="option4" name="answer_c452" data-correct="false"><label for="option4">E.  45 kDa  </label>
+  </li>
+  <li>
+    <input type="radio" id="option5" name="answer_c452" data-correct="true"><label for="option5">F.  52 kDa  </label>
   </li>
 </ul>
-<div id="result_6911" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
-<button type="button" class="md-button md-button--secondary" onclick="checkAnswer_6911()">Check Answer</button>
+<div id="result_c452" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_c452()">Check Answer</button>
 </form>
+<br>
 </div><script>
-function checkAnswer_6911() {
- const options = document.getElementsByName('answer_6911');
+function checkAnswer_c452() {
+ const options = document.getElementsByName('answer_c452');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_6911');
+ const resultDiv = document.getElementById('result_c452');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';

@@ -207,8 +207,34 @@ def generate_html(hex_value, question_text, choices_list_of_tuples):
 
 #==============
 
+      feedbackText += "<span style='font-family: monospace;'>"
+      if (answer1 === "A") {
+        score++;
+        feedbackText += "1. <span style='color:green'>Correct!</span><br>";
+      } else {
+        feedbackText += "1. <span style='color:red'>Incorrect</span>. The correct answer is A.<br>";
+      }
+
+      if (answer2 === "B") {
+        score++;
+        feedbackText += "2. <span style='color:green'>Correct!</span><br>";
+      } else {
+        feedbackText += "2. <span style='color:red'>Incorrect</span>. The correct answer is B.<br>";
+      }
+
+      if (answer3 === "C") {
+        score++;
+        feedbackText += "3. <span style='color:green'>Correct!</span><br>";
+      } else {
+        feedbackText += "3. <span style='color:red'>Incorrect</span>. The correct answer is C.<br>";
+      }
+
+      feedbackText += "<br>Total Score: " + score + " out of 3.";
+      document.getElementById('feedback').innerHTML = feedbackText;
+
+
 # This function generates JavaScript to check the answer for a multiple-choice question.
-def generate_javascript(hex_value) -> str:
+def generate_javascript(hex_value: str, list_of_tuples: list[tuple]) -> str:
 	"""
 	Generate JavaScript code for validating the answer to a multiple-choice question.
 
@@ -224,8 +250,12 @@ def generate_javascript(hex_value) -> str:
 	# Define a function to check the selected answer, using the unique hex value
 	javascript_html += f"function checkAnswer_{hex_value}() {{\n"
 
-	# Get all radio button options for this question
-	javascript_html += f" const options = document.getElementsByName('answer_{hex_value}');\n"
+	javascript_html += f"  var score = 0;\n"
+	javascript_html += f"  var feedbackText = '';\n"
+
+	for i in range(len(list_of_tuples))
+		# Get all radio button options for this question
+		javascript_html += f" const options = document.getElementsByName('answer_{i+1}_{hex_value}');\n"
 
 	# Find the correct option by checking the custom data attribute
 	javascript_html += " const correctOption = Array.from(options).reduce(function(acc, option) {\n"

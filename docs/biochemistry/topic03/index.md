@@ -4,28 +4,64 @@ Amino acid structure, types, and roles in protein structure.
 
 ## Determining Dipeptide Sequence from Structure
 
-<a id='raw-url' href='bbq-2_amino_acids-polypeptide_mc_sequence-questions.txt' download>Download the bbq-2_amino_acids-polypeptide_mc_sequence-questions.txt file for Blackboard Upload</a>
-
-<details>
-  <summary>"Click to show example problem on Determining Dipeptide Sequence from Structure"</summary>
+<div id="2_amino_acids-polypeptide_mc_sequence-button-container" class="button-container">
+<button class="md-button custom-button bb_text" onclick="downloadFile('bbq-2_amino_acids-polypeptide_mc_sequence-questions.txt')" title="Download bbq-2_amino_acids-polypeptide_mc_sequence-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-2_amino_acids-polypeptide_mc_sequence-questions.txt)">
+    <i class="fa fa-download"></i> Blackboard TXT
+</button>
+</div><details>
+  <summary>
+    <span style='font-weight: normal;'>
+      Click to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Determining Dipeptide Sequence from Structure
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
   {% include "biochemistry/topic03/2_amino_acids-polypeptide_mc_sequence.html" %}
 
-<br/></details>
+</details>
 ## Identification of Amino Acids by Structural and Chemical Properties
 
-<a id='raw-url' href='bbq-MC-amino_acids-questions.txt' download>Download the bbq-MC-amino_acids-questions.txt file for Blackboard Upload</a>
-
-<details>
-  <summary>"Click to show example problem on Identification of Amino Acids by Structural and Chemical Properties"</summary>
+<div id="MC-amino_acids-button-container" class="button-container">
+<button class="md-button custom-button bb_text" onclick="downloadFile('bbq-MC-amino_acids-questions.txt')" title="Download bbq-MC-amino_acids-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-MC-amino_acids-questions.txt)">
+    <i class="fa fa-download"></i> Blackboard TXT
+</button>
+</div><details>
+  <summary>
+    <span style='font-weight: normal;'>
+      Click to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Identification of Amino Acids by Structural and Chemical Properties
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
   {% include "biochemistry/topic03/MC-amino_acids.html" %}
 
-<br/></details>
+</details>
 ## Amino Acids from Chemical Structures
 
-<a id='raw-url' href='bbq-which_amino_acid_mc-questions.txt' download>Download the bbq-which_amino_acid_mc-questions.txt file for Blackboard Upload</a>
-
-<details>
-  <summary>"Click to show example problem on Amino Acids from Chemical Structures"</summary>
+<div id="which_amino_acid_mc-button-container" class="button-container">
+<button class="md-button custom-button bb_text" onclick="downloadFile('bbq-which_amino_acid_mc-questions.txt')" title="Download bbq-which_amino_acid_mc-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-which_amino_acid_mc-questions.txt)">
+    <i class="fa fa-download"></i> Blackboard TXT
+</button>
+</div><details>
+  <summary>
+    <span style='font-weight: normal;'>
+      Click to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Amino Acids from Chemical Structures
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
   {% include "biochemistry/topic03/which_amino_acid_mc.html" %}
 
-<br/></details>
+</details>
