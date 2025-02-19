@@ -1,0 +1,112 @@
+<div>
+  <p style="font-family: Arial, sans-serif; margin: 20px;">
+    Match each biological term (numbered) on the left with its corresponding description/image (lettered) on the right by dragging the correct answer.
+  </p>
+
+  <!-- Wrapper table to hold the two tables side-by-side -->
+  <table style="border-collapse: collapse;">
+    <tr>
+      <!-- Left table: Numbered matching questions -->
+      <td style="vertical-align: top; padding: 10px;">
+        <table style="border: 1px solid #999; border-collapse: collapse; font-family: Arial, sans-serif;">
+          <thead>
+            <tr>
+              <th style="border: 1px solid #999; padding: 10px; background-color: #eee;">Numbered Term</th>
+              <th style="border: 1px solid #999; padding: 10px; background-color: #eee;">Your Answer</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="border: 1px solid #999; padding: 10px;">1. Mitochondria</td>
+              <td class="dropzone" data-correct="A" style="border: 1px solid #999; padding: 10px; min-width: 100px;"></td>
+            </tr>
+            <tr>
+              <td style="border: 1px solid #999; padding: 10px;">2. Nucleus</td>
+              <td class="dropzone" data-correct="B" style="border: 1px solid #999; padding: 10px; min-width: 100px;"></td>
+            </tr>
+            <tr>
+              <td style="border: 1px solid #999; padding: 10px;">3. Ribosome</td>
+              <td class="dropzone" data-correct="C" style="border: 1px solid #999; padding: 10px; min-width: 100px;"></td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+
+      <!-- Right table: Lettered answer choices -->
+      <td style="vertical-align: top; padding: 10px;">
+        <ul id="answerList" style="list-style: none; padding: 0;">
+          <li class="draggable" draggable="true" data-value="A" style="border: 1px solid #999; padding: 10px; margin: 5px; background-color: #f0f0f0; cursor: grab;">
+            A - Site of cellular respiration
+          </li>
+          <li class="draggable" draggable="true" data-value="B" style="border: 1px solid #999; padding: 10px; margin: 5px; background-color: #f0f0f0; cursor: grab;">
+            B - Stores genetic information
+          </li>
+          <li class="draggable" draggable="true" data-value="C" style="border: 1px solid #999; padding: 10px; margin: 5px; background-color: #f0f0f0; cursor: grab;">
+            C - Site of protein synthesis
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+
+  <p style="font-family: Arial, sans-serif; margin: 20px;">
+    <button onclick="checkAnswers()" style="padding: 10px 20px;" class='md-button md-button--secondary'>Check Answers</button>
+  </p>
+
+  <div id="feedback" style="font-family: monospace; font-weight: bold; margin-top: 20px;"></div>
+
+  <script>
+    let draggedItem = null;
+
+    // Enable drag-and-drop functionality
+    document.querySelectorAll(".draggable").forEach(item => {
+      item.addEventListener("dragstart", function(e) {
+        draggedItem = this;
+        setTimeout(() => this.style.opacity = "0.5", 0);
+      });
+
+      item.addEventListener("dragend", function() {
+        this.style.opacity = "1";
+      });
+    });
+
+    document.querySelectorAll(".dropzone").forEach(zone => {
+      zone.addEventListener("dragover", function(e) {
+        e.preventDefault();
+        this.style.backgroundColor = "#dff0d8"; // Highlight dropzone
+      });
+
+      zone.addEventListener("dragleave", function() {
+        this.style.backgroundColor = ""; // Reset background
+      });
+
+      zone.addEventListener("drop", function() {
+        this.style.backgroundColor = ""; // Reset background
+        if (draggedItem) {
+          this.innerHTML = draggedItem.innerHTML; // Move text
+          this.dataset.value = draggedItem.dataset.value; // Store answer value
+        }
+      });
+    });
+
+    function checkAnswers() {
+      let score = 0;
+      let feedbackText = "";
+
+      document.querySelectorAll(".dropzone").forEach(zone => {
+        let selectedValue = zone.dataset.value;
+        let correctValue = zone.dataset.correct;
+
+        if (selectedValue === correctValue) {
+          score++;
+          feedbackText += `<span style='color:green'>Correct!</span> ${zone.previousElementSibling.innerText}<br>`;
+        } else {
+          feedbackText += `<span style='color:red'>Incorrect</span>. ${zone.previousElementSibling.innerText} should be ${correctValue}<br>`;
+        }
+      });
+
+      feedbackText += `<br>Total Score: ${score} out of 3.`;
+      document.getElementById('feedback').innerHTML = feedbackText;
+    }
+  </script>
+</div>
