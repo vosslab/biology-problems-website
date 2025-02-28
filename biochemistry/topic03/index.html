@@ -981,6 +981,15 @@
 <button class="md-button custom-button bb_text" onclick="downloadFile('bbq-2_amino_acids-polypeptide_mc_sequence-questions.txt')" title="Download bbq-2_amino_acids-polypeptide_mc_sequence-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-2_amino_acids-polypeptide_mc_sequence-questions.txt)">
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
+<button class="md-button custom-button bb_qti" onclick="downloadFile('blackboard_qti_v2_1-2_amino_acids-polypeptide_mc_sequence.zip')" title="Download blackboard_qti_v2_1-2_amino_acids-polypeptide_mc_sequence.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-2_amino_acids-polypeptide_mc_sequence.zip)">
+    <i class="fa fa-download"></i> Blackboard QTI v2.1
+</button>
+<button class="md-button custom-button canvas_qti" onclick="downloadFile('canvas_qti_v1_2-2_amino_acids-polypeptide_mc_sequence.zip')" title="Download canvas_qti_v1_2-2_amino_acids-polypeptide_mc_sequence.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-2_amino_acids-polypeptide_mc_sequence.zip)">
+    <i class="fa fa-download"></i> Canvas/ADAPT QTI v1.2
+</button>
+<button class="md-button custom-button human_read" onclick="window.open('human_readable-2_amino_acids-polypeptide_mc_sequence.txt', '_blank')" title="View human_readable-2_amino_acids-polypeptide_mc_sequence.txt" aria-label="Click to view the Human-Readable TXT file (human_readable-2_amino_acids-polypeptide_mc_sequence.txt)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
 </div>
 <details>
   <summary>Click 
@@ -994,47 +1003,47 @@
       example problem
     </span>
   </summary>
-  <div id="question_html_43cd_073e">
-  <div id="statement_text_43cd_073e">
-  <p>8d74</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script><h4>peptide_4529</h4>
-  <p><canvas id="canvas_3197" width="480" height="512"></canvas></p>
+  <div id="question_html_7108_71a7">
+  <div id="statement_text_7108_71a7">
+  <p>814d</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script><h4>peptide_2228</h4>
+  <p><canvas id="canvas_c08a" width="480" height="512"></canvas></p>
   <hr>
-  <script>/* */initRDKitModule().then(function(instance){RDKitModule=instance;console.log("RDKit:"+RDKitModule.version());/* */function/* */getPeptideBonds(mol){let/* */peptide_bond="CC(=O)NC";let/* */qmol=window.RDKitModule.get_qmol(peptide_bond);let/* */matches=JSON.parse(mol.get_substruct_matches(qmol));let/* */aggregatedBonds=[];for(let/* */i=0;i<matches.length;i++){match=matches[i];if(Array.isArray(match["bonds"])){aggregatedBonds.push(match["bonds"].slice(-2)[0]);}}return/* */aggregatedBonds;}let/* */smiles="[NH3+][C@@H](CCC(=O)N)(C(=O)N[C@@H](CS)(C(=O)[O-]))";let/* */mol=RDKitModule.get_mol(smiles);let/* */mdetails={};mdetails["bonds"]=getPeptideBonds(mol);mdetails["atoms"]=[0];mdetails["highlightColour"]=[0,1,0];mdetails["legend"]="peptide_4529";mdetails["explicitMethyl"]=true;canvas=document.getElementById("canvas_3197");mol.draw_to_canvas_with_highlights(canvas,JSON.stringify(mdetails));});/* */</script><p>A dipeptide is made up of two (2) amino acids. The figure above shows one such dipeptide with an unknown sequence. Your task is to find out the two (2) letter sequence of this dipeptide.<br>Here is a step-by-step guide to help you answer the question:</p> <ol>
+  <script>/* */initRDKitModule().then(function(instance){RDKitModule=instance;console.log("RDKit:"+RDKitModule.version());/* */function/* */getPeptideBonds(mol){let/* */peptide_bond="CC(=O)NC";let/* */qmol=window.RDKitModule.get_qmol(peptide_bond);let/* */matches=JSON.parse(mol.get_substruct_matches(qmol));let/* */aggregatedBonds=[];for(let/* */i=0;i<matches.length;i++){match=matches[i];if(Array.isArray(match["bonds"])){aggregatedBonds.push(match["bonds"].slice(-2)[0]);}}return/* */aggregatedBonds;}let/* */smiles="[NH3+][C@@H](CS)(C(=O)N[C@@H](CCCNC(=[NH2+])N)(C(=O)[O-]))";let/* */mol=RDKitModule.get_mol(smiles);let/* */mdetails={};mdetails["bonds"]=getPeptideBonds(mol);mdetails["atoms"]=[0];mdetails["highlightColour"]=[0,1,0];mdetails["legend"]="peptide_2228";mdetails["explicitMethyl"]=true;canvas=document.getElementById("canvas_c08a");mol.draw_to_canvas_with_highlights(canvas,JSON.stringify(mdetails));});/* */</script><p>A dipeptide is made up of two (2) amino acids. The figure above shows one such dipeptide with an unknown sequence. Your task is to find out the two (2) letter sequence of this dipeptide.<br>Here is a step-by-step guide to help you answer the question:</p> <ol>
   <li style="margin-bottom: 20px;">Consult an amino acid guide for reference. You can find a PDF guide on Blackboard under "Exam and Quiz" in the "Old Exams" section, with the filename <a href="https://drive.google.com/file/d/1Mgum_TmZ71-XIjb38sStEpzzZLqkQb-W/view?usp=sharing">bchm_exam-help_sheet.pdf</a>, or search online for a visual guide that shows all 20 amino acids with their single-letter codes.</li> <li style="margin-bottom: 20px;">Identify the amino-terminal end, represented as <span style="padding: 2px; color: #0000cc; background-color: #66ff66;">NH<sub>3</sub><sup>+</sup></span> and highlighted in bright green. Distinguish between the general nitrogens in amino acid backbones (denoted as <span style="color:#0000cc">NH</span>) and the nitrogen in amino acid side chains.</li> <li style="margin-bottom: 20px;">The one (1) peptide bonds connecting the two (2) amino acids are highlighted in <span style="background-color: #00FF00; padding: 2px;">bright green</span>, making it easier to distinguish the two (2) amino acids.</li> <li style="margin-bottom: 20px;">Examine the side chain for each of the two (2) amino acids to determine their single-letter amino acid code.</li> <li style="margin-bottom: 20px;">List the single-letter amino acid codes in the amino to carboxyl (N→C) direction. This is the standard method for writing peptide sequences.</li> </ol>
   <p>Select the correct peptide sequence from the options below:</p>
   </div>
   <form>
-  <ul id="choices_43cd_073e">
+  <ul id="choices_7108_71a7">
   <li>
-      <input type="radio" id="option0" name="answer_43cd_073e" data-correct="false"><label for="option0">A.  QW  </label>
+      <input type="radio" id="option0" name="answer_7108_71a7" data-correct="true"><label for="option0">A.  CR  </label>
     </li>
     <li>
-      <input type="radio" id="option1" name="answer_43cd_073e" data-correct="false"><label for="option1">B.  FW  </label>
+      <input type="radio" id="option1" name="answer_7108_71a7" data-correct="false"><label for="option1">B.  AN  </label>
     </li>
     <li>
-      <input type="radio" id="option2" name="answer_43cd_073e" data-correct="false"><label for="option2">C.  MC  </label>
+      <input type="radio" id="option2" name="answer_7108_71a7" data-correct="false"><label for="option2">C.  GK  </label>
     </li>
     <li>
-      <input type="radio" id="option3" name="answer_43cd_073e" data-correct="true"><label for="option3">D.  QC  </label>
+      <input type="radio" id="option3" name="answer_7108_71a7" data-correct="false"><label for="option3">D.  KR  </label>
     </li>
     <li>
-      <input type="radio" id="option4" name="answer_43cd_073e" data-correct="false"><label for="option4">E.  YH  </label>
+      <input type="radio" id="option4" name="answer_7108_71a7" data-correct="false"><label for="option4">E.  KI  </label>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_43cd_073e()">Check Answer</button>
-  <div id="result_43cd_073e" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_7108_71a7()">Check Answer</button>
+  <div id="result_7108_71a7" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
   </form>
   <br>
   </div><script>
-  function checkAnswer_43cd_073e() {
-   const options = document.getElementsByName('answer_43cd_073e');
+  function checkAnswer_7108_71a7() {
+   const options = document.getElementsByName('answer_7108_71a7');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_43cd_073e');
+   const resultDiv = document.getElementById('result_7108_71a7');
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.style.color = 'green';
@@ -1057,6 +1066,15 @@
 <button class="md-button custom-button bb_text" onclick="downloadFile('bbq-MC-amino_acids-questions.txt')" title="Download bbq-MC-amino_acids-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-MC-amino_acids-questions.txt)">
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
+<button class="md-button custom-button bb_qti" onclick="downloadFile('blackboard_qti_v2_1-MC-amino_acids.zip')" title="Download blackboard_qti_v2_1-MC-amino_acids.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-MC-amino_acids.zip)">
+    <i class="fa fa-download"></i> Blackboard QTI v2.1
+</button>
+<button class="md-button custom-button canvas_qti" onclick="downloadFile('canvas_qti_v1_2-MC-amino_acids.zip')" title="Download canvas_qti_v1_2-MC-amino_acids.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MC-amino_acids.zip)">
+    <i class="fa fa-download"></i> Canvas/ADAPT QTI v1.2
+</button>
+<button class="md-button custom-button human_read" onclick="window.open('human_readable-MC-amino_acids.txt', '_blank')" title="View human_readable-MC-amino_acids.txt" aria-label="Click to view the Human-Readable TXT file (human_readable-MC-amino_acids.txt)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
 </div>
 <details>
   <summary>Click 
@@ -1070,40 +1088,40 @@
       example problem
     </span>
   </summary>
-  <div id="question_html_e971_ef21">
-  <div id="statement_text_e971_ef21"><p>9c32<br>Which one of the following amino acids correspond to the description <span style="font-size: 1em;"><strong>'a <strong><span style="color: #009e4c;">polar amino acid</span></strong> that can form disulfide bridges'</strong></span>.</p></div>
+  <div id="question_html_710f_9d44">
+  <div id="statement_text_710f_9d44"><p>5a6d<br>Which one of the following amino acids correspond to the description <span style="font-size: 1em;"><strong>'a <strong><span style="color: #009e4c;">polar amino acid</span></strong> with a thiol (-SH) group that can form disulfide bonds'</strong></span>.</p></div>
   <form>
-  <ul id="choices_e971_ef21">
+  <ul id="choices_710f_9d44">
   <li>
-      <input type="radio" id="option0" name="answer_e971_ef21" data-correct="false"><label for="option0">A.  <span style="font-family: sans-serif; letter-spacing: 1px;">aspartic acid</span>  </label>
+      <input type="radio" id="option0" name="answer_710f_9d44" data-correct="false"><label for="option0">A.  <span style="font-family: sans-serif; letter-spacing: 1px;">alanine</span>  </label>
     </li>
     <li>
-      <input type="radio" id="option1" name="answer_e971_ef21" data-correct="true"><label for="option1">B.  <span style="font-family: sans-serif; letter-spacing: 1px;">cysteine</span>  </label>
+      <input type="radio" id="option1" name="answer_710f_9d44" data-correct="true"><label for="option1">B.  <span style="font-family: sans-serif; letter-spacing: 1px;">cysteine</span>  </label>
     </li>
     <li>
-      <input type="radio" id="option2" name="answer_e971_ef21" data-correct="false"><label for="option2">C.  <span style="font-family: sans-serif; letter-spacing: 1px;">glutamate</span>  </label>
+      <input type="radio" id="option2" name="answer_710f_9d44" data-correct="false"><label for="option2">C.  <span style="font-family: sans-serif; letter-spacing: 1px;">glutamine</span>  </label>
     </li>
     <li>
-      <input type="radio" id="option3" name="answer_e971_ef21" data-correct="false"><label for="option3">D.  <span style="font-family: sans-serif; letter-spacing: 1px;">tryptophan</span>  </label>
+      <input type="radio" id="option3" name="answer_710f_9d44" data-correct="false"><label for="option3">D.  <span style="font-family: sans-serif; letter-spacing: 1px;">leucine</span>  </label>
     </li>
     <li>
-      <input type="radio" id="option4" name="answer_e971_ef21" data-correct="false"><label for="option4">E.  <span style="font-family: sans-serif; letter-spacing: 1px;">valine</span>  </label>
+      <input type="radio" id="option4" name="answer_710f_9d44" data-correct="false"><label for="option4">E.  <span style="font-family: sans-serif; letter-spacing: 1px;">proline</span>  </label>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_e971_ef21()">Check Answer</button>
-  <div id="result_e971_ef21" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_710f_9d44()">Check Answer</button>
+  <div id="result_710f_9d44" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
   </form>
   <br>
   </div><script>
-  function checkAnswer_e971_ef21() {
-   const options = document.getElementsByName('answer_e971_ef21');
+  function checkAnswer_710f_9d44() {
+   const options = document.getElementsByName('answer_710f_9d44');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_e971_ef21');
+   const resultDiv = document.getElementById('result_710f_9d44');
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.style.color = 'green';
@@ -1126,6 +1144,15 @@
 <button class="md-button custom-button bb_text" onclick="downloadFile('bbq-which_amino_acid_mc-questions.txt')" title="Download bbq-which_amino_acid_mc-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-which_amino_acid_mc-questions.txt)">
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
+<button class="md-button custom-button bb_qti" onclick="downloadFile('blackboard_qti_v2_1-which_amino_acid_mc.zip')" title="Download blackboard_qti_v2_1-which_amino_acid_mc.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-which_amino_acid_mc.zip)">
+    <i class="fa fa-download"></i> Blackboard QTI v2.1
+</button>
+<button class="md-button custom-button canvas_qti" onclick="downloadFile('canvas_qti_v1_2-which_amino_acid_mc.zip')" title="Download canvas_qti_v1_2-which_amino_acid_mc.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-which_amino_acid_mc.zip)">
+    <i class="fa fa-download"></i> Canvas/ADAPT QTI v1.2
+</button>
+<button class="md-button custom-button human_read" onclick="window.open('human_readable-which_amino_acid_mc.txt', '_blank')" title="View human_readable-which_amino_acid_mc.txt" aria-label="Click to view the Human-Readable TXT file (human_readable-which_amino_acid_mc.txt)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
 </div>
 <details>
   <summary>Click 
@@ -1139,40 +1166,40 @@
       example problem
     </span>
   </summary>
-  <div id="question_html_47c1_9f4b">
-  <div id="statement_text_47c1_9f4b">
-  <p>25a3</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script><p><canvas id="canvas_531a" width="480" height="320"></canvas></p>
-  <script>/* */initRDKitModule().then(function(instance){RDKitModule=instance;console.log("RDKit:"+RDKitModule.version());/* */let/* */smiles="CC(C)[C@@H](C(=O)O)N";let/* */mol=RDKitModule.get_mol(smiles);let/* */mdetails={};mdetails["legend"]="";mdetails["explicitMethyl"]=true;canvas=document.getElementById("canvas_531a");mol.draw_to_canvas_with_highlights(canvas,JSON.stringify(mdetails));});/* */</script><h3>Which one of the following amino acids is represented by the chemical structure shown above?</h3>
+  <div id="question_html_ef11_2093">
+  <div id="statement_text_ef11_2093">
+  <p>4403</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script><p><canvas id="canvas_237d" width="480" height="320"></canvas></p>
+  <script>/* */initRDKitModule().then(function(instance){RDKitModule=instance;console.log("RDKit:"+RDKitModule.version());/* */let/* */smiles="CC[C@H](C)[C@@H](C(=O)O)N";let/* */mol=RDKitModule.get_mol(smiles);let/* */mdetails={};mdetails["legend"]="";mdetails["explicitMethyl"]=true;canvas=document.getElementById("canvas_237d");mol.draw_to_canvas_with_highlights(canvas,JSON.stringify(mdetails));});/* */</script><h3>Which one of the following amino acids is represented by the chemical structure shown above?</h3>
   </div>
   <form>
-  <ul id="choices_47c1_9f4b">
+  <ul id="choices_ef11_2093">
   <li>
-      <input type="radio" id="option0" name="answer_47c1_9f4b" data-correct="false"><label for="option0">A.  isoleucine  </label>
+      <input type="radio" id="option0" name="answer_ef11_2093" data-correct="true"><label for="option0">A.  isoleucine  </label>
     </li>
     <li>
-      <input type="radio" id="option1" name="answer_47c1_9f4b" data-correct="false"><label for="option1">B.  methionine  </label>
+      <input type="radio" id="option1" name="answer_ef11_2093" data-correct="false"><label for="option1">B.  leucine  </label>
     </li>
     <li>
-      <input type="radio" id="option2" name="answer_47c1_9f4b" data-correct="false"><label for="option2">C.  proline  </label>
+      <input type="radio" id="option2" name="answer_ef11_2093" data-correct="false"><label for="option2">C.  lysine  </label>
     </li>
     <li>
-      <input type="radio" id="option3" name="answer_47c1_9f4b" data-correct="true"><label for="option3">D.  valine  </label>
+      <input type="radio" id="option3" name="answer_ef11_2093" data-correct="false"><label for="option3">D.  valine  </label>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_47c1_9f4b()">Check Answer</button>
-  <div id="result_47c1_9f4b" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_ef11_2093()">Check Answer</button>
+  <div id="result_ef11_2093" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
   </form>
   <br>
   </div><script>
-  function checkAnswer_47c1_9f4b() {
-   const options = document.getElementsByName('answer_47c1_9f4b');
+  function checkAnswer_ef11_2093() {
+   const options = document.getElementsByName('answer_ef11_2093');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_47c1_9f4b');
+   const resultDiv = document.getElementById('result_ef11_2093');
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.style.color = 'green';

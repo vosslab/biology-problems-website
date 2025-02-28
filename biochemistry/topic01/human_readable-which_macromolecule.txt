@@ -1,0 +1,855 @@
+1. <p>196f</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of melezitose shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [*] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+2. <p>5c77</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of glutathione shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [*] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+3. <p>366d</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of Arg-Asp-Pro shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [*] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+4. <p>e1b7</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of butyric acid shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [*] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+5. <p>0015</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of zidovudine-triphosphate shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [*] D. Nucleic acids (nucleobases) 
+
+
+6. <p>4c1a</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of glycerol-3-phosphate shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [*] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+7. <p>53cb</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of uridine shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [*] D. Nucleic acids (nucleobases) 
+
+
+8. <p>9852</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of citrate shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [*] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+9. <p>a724</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of Thr-Met-Met shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [*] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+10. <p>463c</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of Phe-Ile-Met shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [*] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+11. <p>8ca9</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of guanosine-3'-monophosphate shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [*] D. Nucleic acids (nucleobases) 
+
+
+12. <p>4f9d</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of dioleoyl phosphatidylethanolamine shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [*] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+13. <p>0477</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of methyltestosterone shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [*] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+14. <p>26a7</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of cytosine shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [*] D. Nucleic acids (nucleobases) 
+
+
+15. <p>960f</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of cytidine-5'-diphosphate shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [*] D. Nucleic acids (nucleobases) 
+
+
+16. <p>e5ce</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of leu-enkephalin shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [*] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+17. <p>fef4</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of capric acid shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [*] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+18. <p>b289</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of fucitol shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [*] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+19. <p>b1de</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of glucose shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [*] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+20. <p>e0bc</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of deoxyguanosine-triphosphate shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [*] D. Nucleic acids (nucleobases) 
+
+
+21. <p>7dae</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of 7-Methylguanosine shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [*] D. Nucleic acids (nucleobases) 
+
+
+22. <p>c026</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of aspartate shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [*] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+23. <p>5f18</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of stearidonic acid shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [*] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+24. <p>0d19</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of malate shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [*] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+25. <p>2d87</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of Dihydrouridine shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [*] D. Nucleic acids (nucleobases) 
+
+
+26. <p>3f86</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of N6-Methyladenosine shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [*] D. Nucleic acids (nucleobases) 
+
+
+27. <p>f9eb</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of maltose shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [*] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+28. <p>768e</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of Ser-Cys-Lys shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [*] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+29. <p>ba83</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of Pseudouridine shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [*] D. Nucleic acids (nucleobases) 
+
+
+30. <p>0796</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of threose shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [*] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+31. <p>b44d</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of danazol shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [*] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+32. <p>747c</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of adenosine-5'-triphosphate shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [*] D. Nucleic acids (nucleobases) 
+
+
+33. <p>a0c5</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of arachidic acid shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [*] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+34. <p>3ede</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of adenosine-3'-monophosphate shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [*] D. Nucleic acids (nucleobases) 
+
+
+35. <p>4dc2</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of Thr-Arg shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [*] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+36. <p>3c51</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of lauric acid shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [*] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+37. <p>0699</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of tetraglycine shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [*] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+38. <p>c3da</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of guanosine-5'-triphosphate shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [*] D. Nucleic acids (nucleobases) 
+
+
+39. <p>2e86</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of galactose shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [*] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+40. <p>c7d3</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of ribose shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [*] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+41. <p>d130</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of sorbitol-6-phosphate shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [*] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+42. <p>0c70</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of sedoheptulose-7-phosphate shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [*] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+43. <p>7fa8</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of altrose shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [*] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+44. <p>cf9a</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of erythrose-4-phosphate shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [*] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+45. <p>72eb</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of alpha-linolenic acid shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [*] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+46. <p>177d</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of arachidonic acid shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [*] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+47. <p>714b</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of sedoheptulose shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [*] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+48. <p>d3b3</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of thymidine-5'-diphosphate shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [*] D. Nucleic acids (nucleobases) 
+
+
+49. <p>ec43</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of adenine shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [*] D. Nucleic acids (nucleobases) 
+
+
+50. <p>255e</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of stearic acid shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [*] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+51. <p>8c9b</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of Ile-Leu-Glu shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [*] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+52. <p>a86e</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of tetrapeptide-11 shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [*] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+53. <p>3b5b</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of uridine-5'-monophosphate shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [*] D. Nucleic acids (nucleobases) 
+
+
+54. <p>071d</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of galactitol shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [*] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+55. <p>cd3d</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of deoxyuridine-5'-diphosphate shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [*] D. Nucleic acids (nucleobases) 
+
+
+56. <p>9054</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of dioleoyl phosphatidylcholine shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [*] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+57. <p>181b</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of xylulose shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [*] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+58. <p>123d</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of l-anserine shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [*] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+59. <p>5220</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of lysine shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [*] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+60. <p>42fd</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of docosapentaenoic acid shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [*] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+61. <p>d6c9</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of Xanthine shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [*] D. Nucleic acids (nucleobases) 
+
+
+62. <p>98a8</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of ribitol shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [*] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+63. <p>4b60</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of Xanthosine shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [*] D. Nucleic acids (nucleobases) 
+
+
+64. <p>cdbd</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of testosterone shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [*] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+65. <p>5be5</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of n-stearoylsphingomyelin shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [*] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+66. <p>08bd</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of adenosine-5'-monophosphate shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [*] D. Nucleic acids (nucleobases) 
+
+
+67. <p>bc24</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of mannose shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [*] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+68. <p>8456</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of Asn-Thr shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [*] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+69. <p>aff5</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of palmitoleic acid shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [*] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+70. <p>2c31</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of l-theanine shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [*] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+71. <p>4af1</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of isocitrate shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [*] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+72. <p>0e01</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of nandrolone decanoate shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [*] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+73. <p>b259</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of caprylic acid shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [*] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+74. <p>a0e4</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of docosahexaenoic acid shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [*] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+75. <p>f346</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of ribulose shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [*] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+76. <p>d17e</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of cholesterol shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [*] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+77. <p>d012</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of Pro-Ala-Gln shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [*] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+78. <p>8821</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of deoxythymidine-triphosphate shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [*] D. Nucleic acids (nucleobases) 
+
+
+79. <p>aab0</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of glyceryl monostearate shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [*] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+80. <p>fd02</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of deae-cellulose shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [*] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+81. <p>1890</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of Trp-Val-Lys shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [*] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+82. <p>fc35</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of dextrose shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [*] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+83. <p>450f</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of nandrolone shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [*] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+84. <p>b5ad</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of guanosine-5'-diphosphate shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [*] D. Nucleic acids (nucleobases) 
+
+
+85. <p>f62a</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of testosterone undecanoate shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [*] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+86. <p>6e8f</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of Asp-Trp shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [*] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+87. <p>52f1</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of metandienone shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [*] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+88. <p>c484</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of 5-Methyluridine shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [*] D. Nucleic acids (nucleobases) 
+
+
+89. <p>28ff</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of isoleucine shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [*] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+90. <p>d670</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of cytidine shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [*] D. Nucleic acids (nucleobases) 
+
+
+91. <p>cd74</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of gamma-Glutamylglycine shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [*] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+92. <p>e546</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of Cys-Gly shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [*] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+93. <p>9d9f</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of raffinose shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [*] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+94. <p>ad1d</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of trehalose-6-phosphate shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [*] A. Carbohydrates (monosaccharides) 
+- [ ] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+
+95. <p>65e2</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script> 
+[TABLE]
+Which one of the four main types of macromolecules is represented by the chemical structure of nervonic acid shown above?</h3><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
+- [ ] A. Carbohydrates (monosaccharides) 
+- [*] B. Lipids (fatty acids) 
+- [ ] C. Proteins (amino acids and dipeptides) 
+- [ ] D. Nucleic acids (nucleobases) 
+
+

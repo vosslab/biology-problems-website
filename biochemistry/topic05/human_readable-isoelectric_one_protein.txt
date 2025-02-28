@@ -1,0 +1,990 @@
+1. <p>2d2f
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 5.0.
+What is the correct net charge on the Stp protein at pH of 5.0 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+2. <p>3021
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 11.0.
+What is the correct net charge on the Sal protein at pH of 11.0 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+3. <p>359e
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 9.5.
+What is the correct net charge on the Ela protein at pH of 9.5 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+4. <p>81d5
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 5.5.
+What is the correct net charge on the Glob protein at pH of 5.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+5. <p>81d5
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 5.5.
+What is the correct net charge on the Glob protein at pH of 5.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+6. <p>2e34
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 11.5.
+What is the correct net charge on the Cyt protein at pH of 11.5 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+7. <p>346e
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 9.5.
+What is the correct net charge on the GDH protein at pH of 9.5 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+8. <p>afe8
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 6.0.
+What is the correct net charge on the Alb protein at pH of 6.0 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+9. <p>e298
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 7.0.
+What is the correct net charge on the Tran protein at pH of 7.0 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+10. <p>364a
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 3.5.
+What is the correct net charge on the Alb protein at pH of 3.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+11. <p>3d12
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 6.5.
+What is the correct net charge on the Alde protein at pH of 6.5 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+12. <p>1531
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 7.5.
+What is the correct net charge on the CoV protein at pH of 7.5 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+13. <p>dbd1
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 9.5.
+What is the correct net charge on the Tryp protein at pH of 9.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+14. <p>3021
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 11.0.
+What is the correct net charge on the Sal protein at pH of 11.0 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+15. <p>2699
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 7.0.
+What is the correct net charge on the PK protein at pH of 7.0 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+16. <p>58c2
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 11.5.
+What is the correct net charge on the Av protein at pH of 11.5 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+17. <p>dbd1
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 9.5.
+What is the correct net charge on the Tryp protein at pH of 9.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+18. <p>7702
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 8.0.
+What is the correct net charge on the HP protein at pH of 8.0 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+19. <p>58c2
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 11.5.
+What is the correct net charge on the Av protein at pH of 11.5 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+20. <p>3465
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 10.0.
+What is the correct net charge on the Lys protein at pH of 10.0 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+21. <p>671e
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 6.5.
+What is the correct net charge on the HSP protein at pH of 6.5 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+22. <p>0050
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 4.5.
+What is the correct net charge on the PK protein at pH of 4.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+23. <p>bbe7
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 4.5.
+What is the correct net charge on the Tran protein at pH of 4.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+24. <p>a46d
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 4.0.
+What is the correct net charge on the Alde protein at pH of 4.0 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+25. <p>ff66
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 7.0.
+What is the correct net charge on the Amy protein at pH of 7.0 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+26. <p>78d7
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 7.5.
+What is the correct net charge on the Ela protein at pH of 7.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+27. <p>4827
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 5.5.
+What is the correct net charge on the EGF protein at pH of 5.5 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+28. <p>ddc9
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 6.5.
+What is the correct net charge on the Trop protein at pH of 6.5 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+29. <p>8e09
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 6.0.
+What is the correct net charge on the Lip protein at pH of 6.0 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+30. <p>8c3d
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 9.0.
+What is the correct net charge on the Cyt protein at pH of 9.0 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+31. <p>ec70
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 5.5.
+What is the correct net charge on the Lac protein at pH of 5.5 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+32. <p>927f
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 6.0.
+What is the correct net charge on the Cas protein at pH of 6.0 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+33. <p>afe8
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 6.0.
+What is the correct net charge on the Alb protein at pH of 6.0 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+34. <p>10e7
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 3.0.
+What is the correct net charge on the Lac protein at pH of 3.0 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+35. <p>a84e
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 10.5.
+What is the correct net charge on the Apr protein at pH of 10.5 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+36. <p>364a
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 3.5.
+What is the correct net charge on the Alb protein at pH of 3.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+37. <p>b6b4
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 6.5.
+What is the correct net charge on the Fer protein at pH of 6.5 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+38. <p>86b5
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 6.0.
+What is the correct net charge on the Gal protein at pH of 6.0 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+39. <p>2d65
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 6.5.
+What is the correct net charge on the Fum protein at pH of 6.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+40. <p>2d2f
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 5.0.
+What is the correct net charge on the Stp protein at pH of 5.0 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+41. <p>d272
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 5.5.
+What is the correct net charge on the Suc protein at pH of 5.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+42. <p>2699
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 7.0.
+What is the correct net charge on the PK protein at pH of 7.0 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+43. <p>9f29
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 5.5.
+What is the correct net charge on the SL protein at pH of 5.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+44. <p>ce87
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 7.0.
+What is the correct net charge on the GDH protein at pH of 7.0 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+45. <p>dbd1
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 9.5.
+What is the correct net charge on the Tryp protein at pH of 9.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+46. <p>997a
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 8.5.
+What is the correct net charge on the MBP protein at pH of 8.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+47. <p>78d7
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 7.5.
+What is the correct net charge on the Ela protein at pH of 7.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+48. <p>2d65
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 6.5.
+What is the correct net charge on the Fum protein at pH of 6.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+49. <p>de2c
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 4.5.
+What is the correct net charge on the Hex protein at pH of 4.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+50. <p>4129
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 8.0.
+What is the correct net charge on the Col protein at pH of 8.0 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+51. <p>4b1a
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 9.0.
+What is the correct net charge on the Fum protein at pH of 9.0 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+52. <p>9f29
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 5.5.
+What is the correct net charge on the SL protein at pH of 5.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+53. <p>2699
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 7.0.
+What is the correct net charge on the PK protein at pH of 7.0 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+54. <p>6127
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 9.5.
+What is the correct net charge on the Eno protein at pH of 9.5 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+55. <p>5c30
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 7.0.
+What is the correct net charge on the Stp protein at pH of 7.0 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+56. <p>ffc8
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 9.5.
+What is the correct net charge on the Aldo protein at pH of 9.5 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+57. <p>cf4e
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 3.0.
+What is the correct net charge on the Ser protein at pH of 3.0 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+58. <p>8922
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 9.5.
+What is the correct net charge on the His protein at pH of 9.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+59. <p>346e
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 9.5.
+What is the correct net charge on the GDH protein at pH of 9.5 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+60. <p>364a
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 3.5.
+What is the correct net charge on the Alb protein at pH of 3.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+61. <p>c637
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 9.5.
+What is the correct net charge on the Av protein at pH of 9.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+62. <p>3465
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 10.0.
+What is the correct net charge on the Lys protein at pH of 10.0 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+63. <p>8922
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 9.5.
+What is the correct net charge on the His protein at pH of 9.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+64. <p>9f29
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 5.5.
+What is the correct net charge on the SL protein at pH of 5.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+65. <p>78e4
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 8.0.
+What is the correct net charge on the SL protein at pH of 8.0 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+66. <p>bbe7
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 4.5.
+What is the correct net charge on the Tran protein at pH of 4.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+67. <p>58c2
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 11.5.
+What is the correct net charge on the Av protein at pH of 11.5 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+68. <p>7eab
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 8.5.
+What is the correct net charge on the Hem protein at pH of 8.5 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+69. <p>4a22
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 7.5.
+What is the correct net charge on the Suc protein at pH of 7.5 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+70. <p>1d50
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 5.5.
+What is the correct net charge on the Col protein at pH of 5.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+71. <p>0620
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 3.5.
+What is the correct net charge on the Cas protein at pH of 3.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+72. <p>4a22
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 7.5.
+What is the correct net charge on the Suc protein at pH of 7.5 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+73. <p>78e4
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 8.0.
+What is the correct net charge on the SL protein at pH of 8.0 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+74. <p>37d3
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 9.5.
+What is the correct net charge on the Pho protein at pH of 9.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+75. <p>2699
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 7.0.
+What is the correct net charge on the PK protein at pH of 7.0 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+76. <p>884f
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 8.0.
+What is the correct net charge on the RibA protein at pH of 8.0 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+77. <p>e8ce
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 3.5.
+What is the correct net charge on the Ure protein at pH of 3.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+78. <p>3d12
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 6.5.
+What is the correct net charge on the Alde protein at pH of 6.5 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+79. <p>0050
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 4.5.
+What is the correct net charge on the PK protein at pH of 4.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+80. <p>8922
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 9.5.
+What is the correct net charge on the His protein at pH of 9.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+81. <p>fb61
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 3.5.
+What is the correct net charge on the Leg protein at pH of 3.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+82. <p>fdcc
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 3.5.
+What is the correct net charge on the EGF protein at pH of 3.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+83. <p>d63f
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 3.5.
+What is the correct net charge on the Ova protein at pH of 3.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+84. <p>359e
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 9.5.
+What is the correct net charge on the Ela protein at pH of 9.5 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+85. <p>b6b4
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 6.5.
+What is the correct net charge on the Fer protein at pH of 6.5 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+86. <p>3393
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 5.0.
+What is the correct net charge on the PSA protein at pH of 5.0 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+87. <p>4b1a
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 9.0.
+What is the correct net charge on the Fum protein at pH of 9.0 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+88. <p>3465
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 10.0.
+What is the correct net charge on the Lys protein at pH of 10.0 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+89. <p>afe8
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 6.0.
+What is the correct net charge on the Alb protein at pH of 6.0 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+90. <p>7dec
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 5.0.
+What is the correct net charge on the Lig protein at pH of 5.0 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+91. <p>7eab
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 8.5.
+What is the correct net charge on the Hem protein at pH of 8.5 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+92. <p>d272
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 5.5.
+What is the correct net charge on the Suc protein at pH of 5.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+93. <p>dbd1
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 9.5.
+What is the correct net charge on the Tryp protein at pH of 9.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+94. <p>b6b4
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 6.5.
+What is the correct net charge on the Fer protein at pH of 6.5 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+95. <p>8427
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 7.0.
+What is the correct net charge on the Luc protein at pH of 7.0 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+96. <p>81d5
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 5.5.
+What is the correct net charge on the Glob protein at pH of 5.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+97. <p>6ad4
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 6.0.
+What is the correct net charge on the Ova protein at pH of 6.0 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+98. <p>227c
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 3.5.
+What is the correct net charge on the Agg protein at pH of 3.5 </p>?
+- [*] A. The protein will have a net positive (+) charge. 
+- [ ] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
+99. <p>359e
+Isoelectric Point Problem</h6> 
+[TABLE]
+The protein in the table (above) is placed in a buffer solution with a pH of 9.5.
+What is the correct net charge on the Ela protein at pH of 9.5 </p>?
+- [ ] A. The protein will have a net positive (+) charge. 
+- [*] B. The protein will have a net negative (–) charge. 
+- [ ] C. The protein will have a net neutral (0) charge. 
+
+
