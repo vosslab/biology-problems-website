@@ -9,9 +9,9 @@ Amino acid structure, types, and roles in protein structure.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>
+  <summary>Click 
     <span style='font-weight: normal;'>
-      Click to show
+       to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
       Determining Dipeptide Sequence from Structure
@@ -20,7 +20,7 @@ Amino acid structure, types, and roles in protein structure.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic03/2_amino_acids-polypeptide_mc_sequence.html" %}
+  {% include "biochemistry/topic03/selftest-2_amino_acids-polypeptide_mc_sequence.html" %}
 
 </details>
 ## Identification of Amino Acids by Structural and Chemical Properties
@@ -30,9 +30,9 @@ Amino acid structure, types, and roles in protein structure.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>
+  <summary>Click 
     <span style='font-weight: normal;'>
-      Click to show
+       to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
       Identification of Amino Acids by Structural and Chemical Properties
@@ -41,7 +41,7 @@ Amino acid structure, types, and roles in protein structure.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic03/MC-amino_acids.html" %}
+  {% include "biochemistry/topic03/selftest-MC-amino_acids.html" %}
 
 </details>
 ## Amino Acids from Chemical Structures
@@ -51,9 +51,9 @@ Amino acid structure, types, and roles in protein structure.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>
+  <summary>Click 
     <span style='font-weight: normal;'>
-      Click to show
+       to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
       Amino Acids from Chemical Structures
@@ -62,6 +62,6 @@ Amino acid structure, types, and roles in protein structure.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic03/which_amino_acid_mc.html" %}
+  {% include "biochemistry/topic03/selftest-which_amino_acid_mc.html" %}
 
 </details>

@@ -9,9 +9,9 @@ Protein folding, structural levels, and mechanisms.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>
+  <summary>Click 
     <span style='font-weight: normal;'>
-      Click to show
+       to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
       Levels of Protein Structure
@@ -20,7 +20,7 @@ Protein folding, structural levels, and mechanisms.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic04/MC-levels_of_protein_structure.html" %}
+  {% include "biochemistry/topic04/selftest-MC-levels_of_protein_structure.html" %}
 
 </details>
 ## Hydrogen Bonding in Alpha-Helix Structures
@@ -30,9 +30,9 @@ Protein folding, structural levels, and mechanisms.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>
+  <summary>Click 
     <span style='font-weight: normal;'>
-      Click to show
+       to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
       Hydrogen Bonding in Alpha-Helix Structures
@@ -41,7 +41,7 @@ Protein folding, structural levels, and mechanisms.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic04/alpha_helix_h-bonds-MC.html" %}
+  {% include "biochemistry/topic04/selftest-alpha_helix_h-bonds-MC.html" %}
 
 </details>
 ## Ionic Bond Formation in Amino Acid Side Chains
@@ -51,9 +51,9 @@ Protein folding, structural levels, and mechanisms.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>
+  <summary>Click 
     <span style='font-weight: normal;'>
-      Click to show
+       to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
       Ionic Bond Formation in Amino Acid Side Chains
@@ -62,6 +62,6 @@ Protein folding, structural levels, and mechanisms.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic04/ionic_bond_amino_acids.html" %}
+  {% include "biochemistry/topic04/selftest-ionic_bond_amino_acids.html" %}
 
 </details>

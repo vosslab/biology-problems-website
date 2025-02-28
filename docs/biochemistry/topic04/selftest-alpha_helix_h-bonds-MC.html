@@ -1,0 +1,48 @@
+<div id="question_html_2f52_d0ff">
+<div id="statement_text_2f52_d0ff"><p>4ca2<br>The α-helix is a right-handed coil in which each backbone N–H group forms a hydrogen bond with the C=O group of an amino acid located a few residues away. The regular pattern of hydrogen bonding stabilizes the helix, preventing it from unraveling.<br>In a long α-helix, amino acid <b>number 6</b> would form a hydrogen bond with which two other amino acids?<br>Select the correct pair of amino acids below.</p></div>
+<form>
+<ul id="choices_2f52_d0ff">
+<li>
+    <input type="radio" id="option0" name="answer_2f52_d0ff" data-correct="false"><label for="option0">A.  amino acids 5 and 7 (a residue shift of 1 position)  </label>
+  </li>
+  <li>
+    <input type="radio" id="option1" name="answer_2f52_d0ff" data-correct="false"><label for="option1">B.  amino acids 4 and 8 (a residue shift of 2 positions)  </label>
+  </li>
+  <li>
+    <input type="radio" id="option2" name="answer_2f52_d0ff" data-correct="false"><label for="option2">C.  amino acids 3 and 9 (a residue shift of 3 positions)  </label>
+  </li>
+  <li>
+    <input type="radio" id="option3" name="answer_2f52_d0ff" data-correct="true"><label for="option3">D.  amino acids 2 and 10 (a residue shift of 4 positions)  </label>
+  </li>
+  <li>
+    <input type="radio" id="option4" name="answer_2f52_d0ff" data-correct="false"><label for="option4">E.  amino acids 1 and 11 (a residue shift of 5 positions)  </label>
+  </li>
+</ul>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_2f52_d0ff()">Check Answer</button>
+<div id="result_2f52_d0ff" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+</form>
+<br>
+</div><script>
+function checkAnswer_2f52_d0ff() {
+ const options = document.getElementsByName('answer_2f52_d0ff');
+ const correctOption = Array.from(options).reduce(function(acc, option) {
+   return acc || (option.dataset.correct === 'true' ? option : null);
+ }, null);
+ const selectedOption = Array.from(options).reduce(function(acc, option) {
+   return acc || (option.checked ? option : null);
+ }, null);
+ const resultDiv = document.getElementById('result_2f52_d0ff');
+ if (selectedOption) {
+  if (selectedOption === correctOption) {
+   resultDiv.style.color = 'green';
+   resultDiv.textContent = 'CORRECT';
+  } else {
+   resultDiv.style.color = 'red';
+   resultDiv.textContent = 'incorrect';
+  }
+ } else {
+  resultDiv.style.color = 'black';
+  resultDiv.textContent = 'Please select an answer.';
+ }
+}
+</script>

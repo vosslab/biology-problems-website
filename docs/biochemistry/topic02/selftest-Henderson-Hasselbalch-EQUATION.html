@@ -1,0 +1,39 @@
+<div id="question_html_939d_fab9">
+<div id="statement_text_939d_fab9"><p>345c<br>Which one of the following equations is the correct form of the Henderson-Hasselbalch equation?</p></div>
+<form>
+<ul id="choices_939d_fab9">
+<li>
+    <input type="radio" id="option0" name="answer_939d_fab9" data-correct="true"><label for="option0">A.  <p><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>pH</mi><mo> </mo><mo>=</mo><mo> </mo><msub><mi>pK</mi><mi>a</mi></msub><mo> </mo><mo>+</mo><mo> </mo><msub><mo>log</mo><mn>10</mn></msub><mfenced><mfrac><mrow><mo stretchy="true">[</mo><msup><mi mathvariant="normal">A</mi><mo>–</mo></msup><mo stretchy="true">]</mo></mrow><mrow><mo stretchy="true">[</mo><mi>HA</mi><mo stretchy="true">]</mo></mrow></mfrac></mfenced></math></p>  </label>
+  </li>
+  <li>
+    <input type="radio" id="option1" name="answer_939d_fab9" data-correct="false"><label for="option1">B.  <p><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>pH</mi><mo> </mo><mo>=</mo><mo> </mo><msub><mi>pK</mi><mi>a</mi></msub><mo> </mo><mo>+</mo><mo> </mo><msub><mo>log</mo><mn>10</mn></msub><mfenced><mfrac><mrow><mo stretchy="true">[</mo><mi>HA</mi><mo stretchy="true">]</mo></mrow><mrow><mo stretchy="true">[</mo><msup><mi mathvariant="normal">A</mi><mo>–</mo></msup><mo stretchy="true">]</mo></mrow></mfrac></mfenced></math></p>  </label>
+  </li>
+</ul>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_939d_fab9()">Check Answer</button>
+<div id="result_939d_fab9" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+</form>
+<br>
+</div><script>
+function checkAnswer_939d_fab9() {
+ const options = document.getElementsByName('answer_939d_fab9');
+ const correctOption = Array.from(options).reduce(function(acc, option) {
+   return acc || (option.dataset.correct === 'true' ? option : null);
+ }, null);
+ const selectedOption = Array.from(options).reduce(function(acc, option) {
+   return acc || (option.checked ? option : null);
+ }, null);
+ const resultDiv = document.getElementById('result_939d_fab9');
+ if (selectedOption) {
+  if (selectedOption === correctOption) {
+   resultDiv.style.color = 'green';
+   resultDiv.textContent = 'CORRECT';
+  } else {
+   resultDiv.style.color = 'red';
+   resultDiv.textContent = 'incorrect';
+  }
+ } else {
+  resultDiv.style.color = 'black';
+  resultDiv.textContent = 'Please select an answer.';
+ }
+}
+</script>

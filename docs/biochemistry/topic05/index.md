@@ -9,9 +9,9 @@ Isolation and analysis methods, chromatography, electrophoresis.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>
+  <summary>Click 
     <span style='font-weight: normal;'>
-      Click to show
+       to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
       Cell Disruption Techniques Identification
@@ -20,7 +20,7 @@ Isolation and analysis methods, chromatography, electrophoresis.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic05/MC-cell_disruption.html" %}
+  {% include "biochemistry/topic05/selftest-MC-cell_disruption.html" %}
 
 </details>
 ## Types of Column Chromatography
@@ -30,9 +30,9 @@ Isolation and analysis methods, chromatography, electrophoresis.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>
+  <summary>Click 
     <span style='font-weight: normal;'>
-      Click to show
+       to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
       Types of Column Chromatography
@@ -41,7 +41,7 @@ Isolation and analysis methods, chromatography, electrophoresis.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic05/MC-chromatography.html" %}
+  {% include "biochemistry/topic05/selftest-MC-chromatography.html" %}
 
 </details>
 ## Identification of Macromolecules in Gel Electrophoresis Processes
@@ -51,9 +51,9 @@ Isolation and analysis methods, chromatography, electrophoresis.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>
+  <summary>Click 
     <span style='font-weight: normal;'>
-      Click to show
+       to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
       Identification of Macromolecules in Gel Electrophoresis Processes
@@ -62,7 +62,7 @@ Isolation and analysis methods, chromatography, electrophoresis.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic05/MC-protein_v_dna_gels.html" %}
+  {% include "biochemistry/topic05/selftest-MC-protein_v_dna_gels.html" %}
 
 </details>
 ## Determining Net Charge of Proteins at Given pH
@@ -72,9 +72,9 @@ Isolation and analysis methods, chromatography, electrophoresis.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>
+  <summary>Click 
     <span style='font-weight: normal;'>
-      Click to show
+       to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
       Determining Net Charge of Proteins at Given pH
@@ -83,7 +83,7 @@ Isolation and analysis methods, chromatography, electrophoresis.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic05/isoelectric_one_protein.html" %}
+  {% include "biochemistry/topic05/selftest-isoelectric_one_protein.html" %}
 
 </details>
 ## Protein Migration Direction Based on Isoelectric Point
@@ -93,9 +93,9 @@ Isolation and analysis methods, chromatography, electrophoresis.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>
+  <summary>Click 
     <span style='font-weight: normal;'>
-      Click to show
+       to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
       Protein Migration Direction Based on Isoelectric Point
@@ -104,7 +104,7 @@ Isolation and analysis methods, chromatography, electrophoresis.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic05/isoelectric_two_proteins.html" %}
+  {% include "biochemistry/topic05/selftest-isoelectric_two_proteins.html" %}
 
 </details>
 ## Estimating Protein Molecular Weight from SDS-PAGE Migration
@@ -114,9 +114,9 @@ Isolation and analysis methods, chromatography, electrophoresis.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>
+  <summary>Click 
     <span style='font-weight: normal;'>
-      Click to show
+       to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
       Estimating Protein Molecular Weight from SDS-PAGE Migration
@@ -125,6 +125,6 @@ Isolation and analysis methods, chromatography, electrophoresis.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic05/protein_gel_migration.html" %}
+  {% include "biochemistry/topic05/selftest-protein_gel_migration.html" %}
 
 </details>
