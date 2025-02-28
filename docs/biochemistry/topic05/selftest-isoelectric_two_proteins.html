@@ -1,53 +1,53 @@
-<div id="question_html_db4b_f5ee">
-<div id="statement_text_db4b_f5ee">
-<p>d268</p> <h6>Isoelectric Point Problem</h6> <p>A mixture of two proteins are to be separated by isoelectric focusing.</p> <table cellpadding="2" cellspacing="2" style="text-align:center; border: 1px solid black;">
+<div id="question_html_69d9_96c3">
+<div id="statement_text_69d9_96c3">
+<p>0eb4</p> <h6>Isoelectric Point Problem</h6> <p>A mixture of two proteins are to be separated by isoelectric focusing.</p> <table cellpadding="2" cellspacing="2" style="text-align:center; border: 1px solid black;">
 <tr>
 <th>Protein<br>Name</th>
 <th>Isoelectric<br>Point (pI)</th>
 <th>Molecular<br>Weight</th>
 </tr>
 <tr>
-<td>Hemoglobin (Hem)</td>
-<td align="right">7.1</td>
-<td align="right">16.7</td>
+<td>Aldehyde Dehydrogenase (Alde)</td>
+<td align="right">5.3</td>
+<td align="right">53.0</td>
 </tr>
 <tr>
-<td>Serine Protease (Ser)</td>
-<td align="right">4.1</td>
-<td align="right">22.0</td>
+<td>Cytochrome c (Cyt)</td>
+<td align="right">10.2</td>
+<td align="right">13.0</td>
 </tr>
 </table>
-<p>Both protein samples are placed into a gel with a constant pH of 5.5. The gel is then placed into an electric field.<br>In which direction will each protein in the table migrate at <b>pH 5.5</b>?</p>
+<p>Both protein samples are placed into a gel with a constant pH of 8.0. The gel is then placed into an electric field.<br>In which direction will each protein in the table migrate at <b>pH 8.0</b>?</p>
 </div>
 <form>
-<ul id="choices_db4b_f5ee">
+<ul id="choices_69d9_96c3">
 <li>
-    <input type="radio" id="option0" name="answer_db4b_f5ee" data-correct="false"><label for="option0">A.  Both Hem and Ser will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal  </label>
+    <input type="radio" id="option0" name="answer_69d9_96c3" data-correct="false"><label for="option0">A.  Both Alde and Cyt will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal  </label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_db4b_f5ee" data-correct="false"><label for="option1">B.  Both Hem and Ser will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal  </label>
+    <input type="radio" id="option1" name="answer_69d9_96c3" data-correct="false"><label for="option1">B.  Both Alde and Cyt will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal  </label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_db4b_f5ee" data-correct="true"><label for="option2">C.  Hem will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal<br> Ser will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal  </label>
+    <input type="radio" id="option2" name="answer_69d9_96c3" data-correct="false"><label for="option2">C.  Alde will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal<br> Cyt will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal  </label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_db4b_f5ee" data-correct="false"><label for="option3">D.  Hem will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal<br> Ser will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal  </label>
+    <input type="radio" id="option3" name="answer_69d9_96c3" data-correct="true"><label for="option3">D.  Alde will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal<br> Cyt will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal  </label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_db4b_f5ee()">Check Answer</button>
-<div id="result_db4b_f5ee" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_69d9_96c3()">Check Answer</button>
+<div id="result_69d9_96c3" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_db4b_f5ee() {
- const options = document.getElementsByName('answer_db4b_f5ee');
+function checkAnswer_69d9_96c3() {
+ const options = document.getElementsByName('answer_69d9_96c3');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_db4b_f5ee');
+ const resultDiv = document.getElementById('result_69d9_96c3');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';

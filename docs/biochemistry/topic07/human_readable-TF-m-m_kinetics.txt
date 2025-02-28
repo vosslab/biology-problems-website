@@ -1,0 +1,891 @@
+1. <p>03ff
+Which one of the following statements is FALSE about Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that the change in concentration of enzyme-substrate complex [ES] does NOT change. 
+- [ ] B. When the substrate concentration , [S], is much smaller than KM, the reaction rate is linear. 
+- [ ] C. M-M kinetics does NOT apply to allosteric enzymes. 
+- [ ] D. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+- [*] E. M-M kinetics assumes that the enzyme-substrate complex [ES] is short lived and does NOT contribute to the reaction rate . 
+
+
+2. <p>0662
+Which one of the following statements is FALSE about Michaelis-Menten kinetics?</p>
+- [*] A. When the substrate concentration , [S], is much larger than KM, the reaction rate is linear. 
+- [ ] B. M-M kinetics assumes that the product is NOT available and there is no measureable reverse reaction rate . 
+- [ ] C. M-M kinetics does NOT apply to allosteric enzymes. 
+- [ ] D. M-M kinetics assumes that the enzyme bound to the product [EP] is short lived and does NOT contribute to the reaction rate . 
+- [ ] E. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+
+
+3. <p>118a
+Which one of the following statements is TRUE of Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that the enzyme bound to the substrate [ES] is short lived and does NOT contribute to the reaction rate . 
+- [ ] B. M-M kinetics was developed by American linguist Laura Michaelis and Belgian cyclist Milan Menten in 1913. 
+- [*] C. The reaction rate is proportional to the substrate concentration . 
+- [ ] D. M-M kinetics assumes that the concentration of enzyme-product complex [EP] is constant . 
+- [ ] E. When the substrate concentration , [S], is much larger than KM, the reaction rate is linear. 
+
+
+4. <p>1199
+Which one of the following statements is TRUE of Michaelis-Menten kinetics?</p>
+- [ ] A. When the substrate concentration , [S], is much smaller than KM, the reaction rate is constant . 
+- [*] B. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+- [ ] C. M-M kinetics assumes that the change in concentration of enzyme-product complex [EP] does NOT change. 
+- [ ] D. M-M kinetics assumes that the substrate is NOT available and there is no measureable reverse reaction rate . 
+- [ ] E. The reaction rate is proportional to the product concentration . 
+
+
+5. <p>1218
+Which one of the following statements is FALSE concerning Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that the product is NOT available and there is no measureable reverse reaction rate . 
+- [ ] B. M-M kinetics assumes that the change in concentration of enzyme-substrate complex [ES] does NOT change. 
+- [ ] C. M-M kinetics assumes that the enzyme bound to the product [EP] is short lived and does NOT contribute to the reaction rate . 
+- [ ] D. The reaction rate is proportional to the substrate concentration . 
+- [*] E. When the substrate concentration , [S], is much larger than KM, the reaction rate is linear. 
+
+
+6. <p>14f8
+Which one of the following statements is TRUE of Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that the rate of breaking the enzyme-product complex [EP] is equal to the rate of its formation. 
+- [ ] B. M-M kinetics was developed by Greek economist Leo Michelis and Dutch bobsledder Hubert Menten in 1913. 
+- [ ] C. When the substrate concentration , [S], is much larger than KM, the reaction rate is linear. 
+- [ ] D. M-M kinetics assumes that the enzyme bound to the substrate [ES] is short lived and does NOT contribute to the reaction rate . 
+- [*] E. M-M kinetics does NOT apply to allosteric enzymes. 
+
+
+7. <p>1554
+Which one of the following statements is FALSE concerning Michaelis-Menten kinetics?</p>
+- [*] A. M-M kinetics assumes that there is no substrate available and there is no measureable reverse reaction rate . 
+- [ ] B. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+- [ ] C. When the substrate concentration , [S], is much larger than KM, the reaction rate is constant . 
+- [ ] D. The reaction rate is proportional to the substrate concentration . 
+- [ ] E. M-M kinetics does NOT apply to allosteric enzymes. 
+
+
+8. <p>17d8
+Which one of the following statements is TRUE regarding Michaelis-Menten kinetics?</p>
+- [*] A. M-M kinetics assumes that there is no product available and there is no measureable reverse reaction rate . 
+- [ ] B. M-M kinetics assumes that the change in concentration of enzyme-product complex [EP] does NOT change. 
+- [ ] C. The reaction rate is proportional to the product concentration . 
+- [ ] D. When the substrate concentration , [S], is much smaller than KM, the reaction rate is constant . 
+- [ ] E. M-M kinetics assumes that the enzyme-substrate complex [ES] is short lived and does NOT contribute to the reaction rate . 
+
+
+9. <p>18df
+Which one of the following statements is TRUE regarding Michaelis-Menten kinetics?</p>
+- [ ] A. The reaction rate is proportional to the product concentration . 
+- [ ] B. When the substrate concentration , [S], is much smaller than KM, the reaction rate is constant . 
+- [ ] C. M-M kinetics was developed by Greek economist Leo Michelis and Dutch bobsledder Hubert Menten in 1913. 
+- [ ] D. M-M kinetics assumes that the substrate is NOT available and there is no measureable reverse reaction rate . 
+- [*] E. M-M kinetics assumes a quasi-steady state, that the enzyme-substrate complex [ES] is constant . 
+
+
+10. <p>1a33
+Which one of the following statements is TRUE regarding Michaelis-Menten kinetics?</p>
+- [*] A. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+- [ ] B. M-M kinetics assumes that the concentration of enzyme-product complex [EP] is constant . 
+- [ ] C. M-M kinetics assumes that the substrate is NOT available and there is no measureable reverse reaction rate . 
+- [ ] D. The reaction rate is proportional to the product concentration . 
+- [ ] E. M-M kinetics assumes that the enzyme bound to the substrate [ES] is short lived and does NOT contribute to the reaction rate . 
+
+
+11. <p>1e09
+Which one of the following statements is TRUE regarding Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that the concentration of enzyme-product complex [EP] is constant . 
+- [ ] B. M-M kinetics was developed by Greek economist Leo Michelis and Dutch bobsledder Hubert Menten in 1913. 
+- [ ] C. M-M kinetics assumes that the enzyme bound to the substrate [ES] is short lived and does NOT contribute to the reaction rate . 
+- [ ] D. The reaction rate is proportional to the product concentration . 
+- [*] E. When the substrate concentration , [S], is much smaller than KM, the reaction rate is linear. 
+
+
+12. <p>1fe2
+Which one of the following statements is TRUE regarding Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics was developed by American linguist Laura Michaelis and Belgian cyclist Milan Menten in 1913. 
+- [ ] B. The reaction rate is proportional to the product concentration . 
+- [ ] C. When the substrate concentration , [S], is much larger than KM, the reaction rate is linear. 
+- [ ] D. M-M kinetics assumes that there is no substrate available and there is no measureable reverse reaction rate . 
+- [*] E. M-M kinetics assumes that the enzyme bound to the product [EP] is short lived and does NOT contribute to the reaction rate . 
+
+
+13. <p>251f
+Which one of the following statements is FALSE concerning Michaelis-Menten kinetics?</p>
+- [ ] A. The reaction rate is proportional to the substrate concentration . 
+- [*] B. When the substrate concentration , [S], is much larger than KM, the reaction rate is linear. 
+- [ ] C. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+- [ ] D. M-M kinetics assumes that there is no product available and there is no measureable reverse reaction rate . 
+- [ ] E. M-M kinetics assumes that the enzyme-product complex [EP] is short lived and does NOT contribute to the reaction rate . 
+
+
+14. <p>25df
+Which one of the following statements is TRUE of Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that the enzyme-product complex [EP] is constant . 
+- [ ] B. The reaction rate is proportional to the product concentration . 
+- [ ] C. M-M kinetics assumes that the substrate is NOT available and there is no measureable reverse reaction rate . 
+- [*] D. M-M kinetics does NOT apply to allosteric enzymes. 
+- [ ] E. M-M kinetics was developed by Greek economist Leo Michelis and Dutch bobsledder Hubert Menten in 1913. 
+
+
+15. <p>27d6
+Which one of the following statements is TRUE of Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that the change in concentration of enzyme-product complex [EP] does NOT change. 
+- [ ] B. M-M kinetics was developed by Greek economist Leo Michelis and Dutch bobsledder Hubert Menten in 1913. 
+- [*] C. The reaction rate is proportional to the substrate concentration . 
+- [ ] D. M-M kinetics assumes that the substrate is NOT available and there is no measureable reverse reaction rate . 
+- [ ] E. When the substrate concentration , [S], is much larger than KM, the reaction rate is linear. 
+
+
+16. <p>288a
+Which one of the following statements is FALSE about Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that the concentration of enzyme-substrate complex [ES] is constant . 
+- [ ] B. M-M kinetics assumes that there is no product available and there is no measureable reverse reaction rate . 
+- [ ] C. The reaction rate is proportional to the substrate concentration . 
+- [ ] D. When the substrate concentration , [S], is much smaller than KM, the reaction rate is linear. 
+- [*] E. M-M kinetics was developed by American linguist Laura Michaelis and Belgian cyclist Milan Menten in 1913. 
+
+
+17. <p>299b
+Which one of the following statements is FALSE concerning Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics does NOT apply to allosteric enzymes. 
+- [ ] B. The reaction rate is proportional to the substrate concentration . 
+- [ ] C. M-M kinetics assumes that the concentration of enzyme-substrate complex [ES] is constant . 
+- [*] D. M-M kinetics assumes that the enzyme bound to the substrate [ES] is short lived and does NOT contribute to the reaction rate . 
+- [ ] E. M-M kinetics assumes that the product is NOT available and there is no measureable reverse reaction rate . 
+
+
+18. <p>2a1a
+Which one of the following statements is TRUE of Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that the substrate is NOT available and there is no measureable reverse reaction rate . 
+- [*] B. M-M kinetics assumes that the change in concentration of enzyme-substrate complex [ES] does NOT change. 
+- [ ] C. When the substrate concentration , [S], is much larger than KM, the reaction rate is linear. 
+- [ ] D. M-M kinetics assumes that the enzyme bound to the substrate [ES] is short lived and does NOT contribute to the reaction rate . 
+- [ ] E. M-M kinetics was developed by American linguist Laura Michaelis and Belgian cyclist Milan Menten in 1913. 
+
+
+19. <p>2c18
+Which one of the following statements is FALSE about Michaelis-Menten kinetics?</p>
+- [ ] A. When the substrate concentration , [S], is much smaller than KM, the reaction rate is linear. 
+- [ ] B. The reaction rate is proportional to the substrate concentration . 
+- [ ] C. M-M kinetics assumes that the product is NOT available and there is no measureable reverse reaction rate . 
+- [*] D. M-M kinetics was developed by Greek economist Leo Michelis and Dutch bobsledder Hubert Menten in 1913. 
+- [ ] E. M-M kinetics does NOT apply to allosteric enzymes. 
+
+
+20. <p>2d68
+Which one of the following statements is FALSE concerning Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes a quasi-steady state, that the enzyme-substrate complex [ES] is constant . 
+- [ ] B. M-M kinetics assumes that the enzyme bound to the product [EP] is short lived and does NOT contribute to the reaction rate . 
+- [*] C. The reaction rate is proportional to the product concentration . 
+- [ ] D. When the substrate concentration , [S], is much larger than KM, the reaction rate is constant . 
+- [ ] E. M-M kinetics assumes that there is no product available and there is no measureable reverse reaction rate . 
+
+
+21. <p>2e8a
+Which one of the following statements is TRUE regarding Michaelis-Menten kinetics?</p>
+- [*] A. When the substrate concentration , [S], is much larger than KM, the reaction rate is constant . 
+- [ ] B. M-M kinetics assumes that there is no substrate available and there is no measureable reverse reaction rate . 
+- [ ] C. The reaction rate is proportional to the product concentration . 
+- [ ] D. M-M kinetics was developed by Greek economist Leo Michelis and Dutch bobsledder Hubert Menten in 1913. 
+- [ ] E. M-M kinetics assumes that the enzyme bound to the substrate [ES] is short lived and does NOT contribute to the reaction rate . 
+
+
+22. <p>2f08
+Which one of the following statements is FALSE about Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+- [ ] B. M-M kinetics does NOT apply to allosteric enzymes. 
+- [ ] C. M-M kinetics assumes that the enzyme-product complex [EP] is short lived and does NOT contribute to the reaction rate . 
+- [*] D. M-M kinetics assumes that the substrate is NOT available and there is no measureable reverse reaction rate . 
+- [ ] E. M-M kinetics assumes a quasi-steady state, that the enzyme-substrate complex [ES] is constant . 
+
+
+23. <p>33d7
+Which one of the following statements is TRUE of Michaelis-Menten kinetics?</p>
+- [*] A. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+- [ ] B. When the substrate concentration , [S], is much larger than KM, the reaction rate is linear. 
+- [ ] C. The reaction rate is proportional to the product concentration . 
+- [ ] D. M-M kinetics assumes that the change in concentration of enzyme-product complex [EP] does NOT change. 
+- [ ] E. M-M kinetics assumes that the enzyme bound to the substrate [ES] is short lived and does NOT contribute to the reaction rate . 
+
+
+24. <p>3b01
+Which one of the following statements is FALSE about Michaelis-Menten kinetics?</p>
+- [ ] A. When the substrate concentration , [S], is much smaller than KM, the reaction rate is linear. 
+- [*] B. M-M kinetics assumes that there is no substrate available and there is no measureable reverse reaction rate . 
+- [ ] C. M-M kinetics assumes a quasi-steady state, that the enzyme-substrate complex [ES] is constant . 
+- [ ] D. M-M kinetics does NOT apply to allosteric enzymes. 
+- [ ] E. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+
+
+25. <p>3caa
+Which one of the following statements is TRUE regarding Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that the enzyme-product complex [EP] is constant . 
+- [ ] B. M-M kinetics assumes that the enzyme-substrate complex [ES] is short lived and does NOT contribute to the reaction rate . 
+- [*] C. M-M kinetics assumes the enzyme has a single active site. 
+- [ ] D. The reaction rate is proportional to the product concentration . 
+- [ ] E. M-M kinetics was developed by Greek economist Leo Michelis and Dutch bobsledder Hubert Menten in 1913. 
+
+
+26. <p>3cb6
+Which one of the following statements is FALSE about Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that the enzyme-product complex [EP] is short lived and does NOT contribute to the reaction rate . 
+- [ ] B. The reaction rate is proportional to the substrate concentration . 
+- [ ] C. M-M kinetics assumes that the change in concentration of enzyme-substrate complex [ES] does NOT change. 
+- [ ] D. M-M kinetics assumes that there is no product available and there is no measureable reverse reaction rate . 
+- [*] E. When the substrate concentration , [S], is much larger than KM, the reaction rate is linear. 
+
+
+27. <p>3ccb
+Which one of the following statements is FALSE about Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes the enzyme has a single active site. 
+- [ ] B. M-M kinetics assumes that the enzyme-product complex [EP] is short lived and does NOT contribute to the reaction rate . 
+- [ ] C. M-M kinetics assumes that the product is NOT available and there is no measureable reverse reaction rate . 
+- [ ] D. M-M kinetics assumes that the rate of breaking the enzyme-substrate complex [ES] is equal to the rate of its formation. 
+- [*] E. M-M kinetics was developed by American linguist Laura Michaelis and Belgian cyclist Milan Menten in 1913. 
+
+
+28. <p>3fb3
+Which one of the following statements is FALSE concerning Michaelis-Menten kinetics?</p>
+- [ ] A. When the substrate concentration , [S], is much smaller than KM, the reaction rate is linear. 
+- [*] B. M-M kinetics assumes that the substrate is NOT available and there is no measureable reverse reaction rate . 
+- [ ] C. The reaction rate is proportional to the substrate concentration . 
+- [ ] D. M-M kinetics assumes that the concentration of enzyme-substrate complex [ES] is constant . 
+- [ ] E. M-M kinetics assumes that the enzyme-product complex [EP] is short lived and does NOT contribute to the reaction rate . 
+
+
+29. <p>4004
+Which one of the following statements is FALSE about Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+- [ ] B. When the substrate concentration , [S], is much larger than KM, the reaction rate is constant . 
+- [ ] C. M-M kinetics does NOT apply to allosteric enzymes. 
+- [*] D. M-M kinetics assumes that the concentration of enzyme-product complex [EP] is constant . 
+- [ ] E. M-M kinetics assumes that there is no product available and there is no measureable reverse reaction rate . 
+
+
+30. <p>40d6
+Which one of the following statements is TRUE of Michaelis-Menten kinetics?</p>
+- [ ] A. The reaction rate is proportional to the product concentration . 
+- [ ] B. M-M kinetics was developed by American linguist Laura Michaelis and Belgian cyclist Milan Menten in 1913. 
+- [ ] C. M-M kinetics assumes that the rate of breaking the enzyme-product complex [EP] is equal to the rate of its formation. 
+- [ ] D. M-M kinetics assumes that the substrate is NOT available and there is no measureable reverse reaction rate . 
+- [*] E. M-M kinetics assumes the enzyme has a single active site. 
+
+
+31. <p>4ddd
+Which one of the following statements is FALSE concerning Michaelis-Menten kinetics?</p>
+- [*] A. M-M kinetics assumes that the concentration of enzyme-product complex [EP] is constant . 
+- [ ] B. The reaction rate is proportional to the substrate concentration . 
+- [ ] C. When the substrate concentration , [S], is much smaller than KM, the reaction rate is linear. 
+- [ ] D. M-M kinetics assumes that the product is NOT available and there is no measureable reverse reaction rate . 
+- [ ] E. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+
+
+32. <p>4eb7
+Which one of the following statements is TRUE regarding Michaelis-Menten kinetics?</p>
+- [ ] A. When the substrate concentration , [S], is much larger than KM, the reaction rate is linear. 
+- [ ] B. The reaction rate is proportional to the product concentration . 
+- [ ] C. M-M kinetics assumes that the change in concentration of enzyme-product complex [EP] does NOT change. 
+- [ ] D. M-M kinetics assumes that there is no substrate available and there is no measureable reverse reaction rate . 
+- [*] E. M-M kinetics assumes that the enzyme bound to the product [EP] is short lived and does NOT contribute to the reaction rate . 
+
+
+33. <p>520d
+Which one of the following statements is FALSE about Michaelis-Menten kinetics?</p>
+- [ ] A. When the substrate concentration , [S], is much larger than KM, the reaction rate is constant . 
+- [ ] B. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+- [ ] C. The reaction rate is proportional to the substrate concentration . 
+- [ ] D. M-M kinetics assumes the enzyme has a single active site. 
+- [*] E. M-M kinetics assumes that the concentration of enzyme-product complex [EP] is constant . 
+
+
+34. <p>5453
+Which one of the following statements is TRUE of Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that the enzyme-product complex [EP] is constant . 
+- [ ] B. M-M kinetics was developed by American linguist Laura Michaelis and Belgian cyclist Milan Menten in 1913. 
+- [*] C. M-M kinetics assumes the enzyme has a single active site. 
+- [ ] D. M-M kinetics assumes that the enzyme bound to the substrate [ES] is short lived and does NOT contribute to the reaction rate . 
+- [ ] E. When the substrate concentration , [S], is much larger than KM, the reaction rate is linear. 
+
+
+35. <p>5869
+Which one of the following statements is FALSE concerning Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that the change in concentration of enzyme-substrate complex [ES] does NOT change. 
+- [ ] B. When the substrate concentration , [S], is much smaller than KM, the reaction rate is linear. 
+- [ ] C. The reaction rate is proportional to the substrate concentration . 
+- [ ] D. M-M kinetics does NOT apply to allosteric enzymes. 
+- [*] E. M-M kinetics assumes that the substrate is NOT available and there is no measureable reverse reaction rate . 
+
+
+36. <p>59e8
+Which one of the following statements is TRUE regarding Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that the enzyme-substrate complex [ES] is short lived and does NOT contribute to the reaction rate . 
+- [ ] B. M-M kinetics assumes that the substrate is NOT available and there is no measureable reverse reaction rate . 
+- [ ] C. The reaction rate is proportional to the product concentration . 
+- [*] D. M-M kinetics assumes that the concentration of enzyme-substrate complex [ES] is constant . 
+- [ ] E. M-M kinetics was developed by American linguist Laura Michaelis and Belgian cyclist Milan Menten in 1913. 
+
+
+37. <p>5bc6
+Which one of the following statements is FALSE concerning Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+- [ ] B. The reaction rate is proportional to the substrate concentration . 
+- [*] C. M-M kinetics assumes that the rate of breaking the enzyme-product complex [EP] is equal to the rate of its formation. 
+- [ ] D. M-M kinetics assumes that there is no product available and there is no measureable reverse reaction rate . 
+- [ ] E. When the substrate concentration , [S], is much larger than KM, the reaction rate is constant . 
+
+
+38. <p>610b
+Which one of the following statements is TRUE regarding Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that the rate of breaking the enzyme-product complex [EP] is equal to the rate of its formation. 
+- [ ] B. M-M kinetics assumes that the enzyme-substrate complex [ES] is short lived and does NOT contribute to the reaction rate . 
+- [ ] C. M-M kinetics assumes that the substrate is NOT available and there is no measureable reverse reaction rate . 
+- [*] D. When the substrate concentration , [S], is much smaller than KM, the reaction rate is linear. 
+- [ ] E. M-M kinetics was developed by Greek economist Leo Michelis and Dutch bobsledder Hubert Menten in 1913. 
+
+
+39. <p>6567
+Which one of the following statements is TRUE of Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics was developed by Greek economist Leo Michelis and Dutch bobsledder Hubert Menten in 1913. 
+- [ ] B. M-M kinetics assumes that the enzyme bound to the substrate [ES] is short lived and does NOT contribute to the reaction rate . 
+- [ ] C. The reaction rate is proportional to the product concentration . 
+- [ ] D. M-M kinetics assumes that the change in concentration of enzyme-product complex [EP] does NOT change. 
+- [*] E. M-M kinetics does NOT apply to allosteric enzymes. 
+
+
+40. <p>6582
+Which one of the following statements is TRUE regarding Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics was developed by Greek economist Leo Michelis and Dutch bobsledder Hubert Menten in 1913. 
+- [*] B. When the substrate concentration , [S], is much larger than KM, the reaction rate is constant . 
+- [ ] C. M-M kinetics assumes that the concentration of enzyme-product complex [EP] is constant . 
+- [ ] D. M-M kinetics assumes that the enzyme bound to the substrate [ES] is short lived and does NOT contribute to the reaction rate . 
+- [ ] E. The reaction rate is proportional to the product concentration . 
+
+
+41. <p>65d9
+Which one of the following statements is FALSE concerning Michaelis-Menten kinetics?</p>
+- [ ] A. When the substrate concentration , [S], is much smaller than KM, the reaction rate is linear. 
+- [ ] B. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+- [ ] C. M-M kinetics assumes that the rate of breaking the enzyme-substrate complex [ES] is equal to the rate of its formation. 
+- [ ] D. M-M kinetics assumes the enzyme has a single active site. 
+- [*] E. M-M kinetics assumes that the enzyme bound to the substrate [ES] is short lived and does NOT contribute to the reaction rate . 
+
+
+42. <p>6974
+Which one of the following statements is FALSE about Michaelis-Menten kinetics?</p>
+- [ ] A. The reaction rate is proportional to the substrate concentration . 
+- [*] B. When the substrate concentration , [S], is much smaller than KM, the reaction rate is constant . 
+- [ ] C. M-M kinetics assumes the enzyme has a single active site. 
+- [ ] D. M-M kinetics assumes that the concentration of enzyme-substrate complex [ES] is constant . 
+- [ ] E. M-M kinetics assumes that the product is NOT available and there is no measureable reverse reaction rate . 
+
+
+43. <p>6ae8
+Which one of the following statements is FALSE about Michaelis-Menten kinetics?</p>
+- [ ] A. The reaction rate is proportional to the substrate concentration . 
+- [ ] B. M-M kinetics assumes that the rate of breaking the enzyme-substrate complex [ES] is equal to the rate of its formation. 
+- [*] C. M-M kinetics assumes that the substrate is NOT available and there is no measureable reverse reaction rate . 
+- [ ] D. When the substrate concentration , [S], is much larger than KM, the reaction rate is constant . 
+- [ ] E. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+
+
+44. <p>7178
+Which one of the following statements is TRUE of Michaelis-Menten kinetics?</p>
+- [ ] A. When the substrate concentration , [S], is much larger than KM, the reaction rate is linear. 
+- [ ] B. M-M kinetics assumes that there is no substrate available and there is no measureable reverse reaction rate . 
+- [*] C. M-M kinetics assumes that the enzyme bound to the product [EP] is short lived and does NOT contribute to the reaction rate . 
+- [ ] D. M-M kinetics assumes that the rate of breaking the enzyme-product complex [EP] is equal to the rate of its formation. 
+- [ ] E. The reaction rate is proportional to the product concentration . 
+
+
+45. <p>7182
+Which one of the following statements is TRUE of Michaelis-Menten kinetics?</p>
+- [ ] A. When the substrate concentration , [S], is much larger than KM, the reaction rate is linear. 
+- [ ] B. M-M kinetics assumes that the enzyme bound to the substrate [ES] is short lived and does NOT contribute to the reaction rate . 
+- [*] C. M-M kinetics assumes a quasi-steady state, that the enzyme-substrate complex [ES] is constant . 
+- [ ] D. M-M kinetics assumes that there is no substrate available and there is no measureable reverse reaction rate . 
+- [ ] E. M-M kinetics was developed by American linguist Laura Michaelis and Belgian cyclist Milan Menten in 1913. 
+
+
+46. <p>7264
+Which one of the following statements is TRUE regarding Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics was developed by Greek economist Leo Michelis and Dutch bobsledder Hubert Menten in 1913. 
+- [*] B. M-M kinetics assumes that the rate of breaking the enzyme-substrate complex [ES] is equal to the rate of its formation. 
+- [ ] C. M-M kinetics assumes that there is no substrate available and there is no measureable reverse reaction rate . 
+- [ ] D. When the substrate concentration , [S], is much smaller than KM, the reaction rate is constant . 
+- [ ] E. The reaction rate is proportional to the product concentration . 
+
+
+47. <p>7753
+Which one of the following statements is TRUE regarding Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that there is no substrate available and there is no measureable reverse reaction rate . 
+- [ ] B. M-M kinetics was developed by American linguist Laura Michaelis and Belgian cyclist Milan Menten in 1913. 
+- [ ] C. The reaction rate is proportional to the product concentration . 
+- [ ] D. M-M kinetics assumes that the enzyme-substrate complex [ES] is short lived and does NOT contribute to the reaction rate . 
+- [*] E. When the substrate concentration , [S], is much smaller than KM, the reaction rate is linear. 
+
+
+48. <p>7943
+Which one of the following statements is TRUE of Michaelis-Menten kinetics?</p>
+- [ ] A. The reaction rate is proportional to the product concentration . 
+- [*] B. M-M kinetics assumes a quasi-steady state, that the enzyme-substrate complex [ES] is constant . 
+- [ ] C. M-M kinetics assumes that the substrate is NOT available and there is no measureable reverse reaction rate . 
+- [ ] D. When the substrate concentration , [S], is much smaller than KM, the reaction rate is constant . 
+- [ ] E. M-M kinetics assumes that the enzyme bound to the substrate [ES] is short lived and does NOT contribute to the reaction rate . 
+
+
+49. <p>8479
+Which one of the following statements is TRUE regarding Michaelis-Menten kinetics?</p>
+- [ ] A. When the substrate concentration , [S], is much larger than KM, the reaction rate is linear. 
+- [*] B. M-M kinetics does NOT apply to allosteric enzymes. 
+- [ ] C. M-M kinetics assumes that the substrate is NOT available and there is no measureable reverse reaction rate . 
+- [ ] D. M-M kinetics assumes that the concentration of enzyme-product complex [EP] is constant . 
+- [ ] E. M-M kinetics was developed by American linguist Laura Michaelis and Belgian cyclist Milan Menten in 1913. 
+
+
+50. <p>850d
+Which one of the following statements is TRUE of Michaelis-Menten kinetics?</p>
+- [*] A. The reaction rate is proportional to the substrate concentration . 
+- [ ] B. M-M kinetics was developed by Greek economist Leo Michelis and Dutch bobsledder Hubert Menten in 1913. 
+- [ ] C. When the substrate concentration , [S], is much larger than KM, the reaction rate is linear. 
+- [ ] D. M-M kinetics assumes that the enzyme bound to the substrate [ES] is short lived and does NOT contribute to the reaction rate . 
+- [ ] E. M-M kinetics assumes that the change in concentration of enzyme-product complex [EP] does NOT change. 
+
+
+51. <p>857b
+Which one of the following statements is FALSE concerning Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that the rate of breaking the enzyme-substrate complex [ES] is equal to the rate of its formation. 
+- [*] B. The reaction rate is proportional to the product concentration . 
+- [ ] C. When the substrate concentration , [S], is much smaller than KM, the reaction rate is linear. 
+- [ ] D. M-M kinetics assumes that the product is NOT available and there is no measureable reverse reaction rate . 
+- [ ] E. M-M kinetics assumes that the enzyme bound to the product [EP] is short lived and does NOT contribute to the reaction rate . 
+
+
+52. <p>86cc
+Which one of the following statements is FALSE about Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that the enzyme-product complex [EP] is short lived and does NOT contribute to the reaction rate . 
+- [ ] B. M-M kinetics assumes the enzyme has a single active site. 
+- [ ] C. The reaction rate is proportional to the substrate concentration . 
+- [*] D. M-M kinetics assumes that there is no substrate available and there is no measureable reverse reaction rate . 
+- [ ] E. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+
+
+53. <p>8bcd
+Which one of the following statements is TRUE regarding Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics was developed by American linguist Laura Michaelis and Belgian cyclist Milan Menten in 1913. 
+- [ ] B. When the substrate concentration , [S], is much larger than KM, the reaction rate is linear. 
+- [*] C. M-M kinetics assumes that the concentration of enzyme-substrate complex [ES] is constant . 
+- [ ] D. M-M kinetics assumes that there is no substrate available and there is no measureable reverse reaction rate . 
+- [ ] E. M-M kinetics assumes that the enzyme-substrate complex [ES] is short lived and does NOT contribute to the reaction rate . 
+
+
+54. <p>91aa
+Which one of the following statements is TRUE of Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that there is no substrate available and there is no measureable reverse reaction rate . 
+- [ ] B. M-M kinetics assumes that the concentration of enzyme-product complex [EP] is constant . 
+- [*] C. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+- [ ] D. When the substrate concentration , [S], is much larger than KM, the reaction rate is linear. 
+- [ ] E. The reaction rate is proportional to the product concentration . 
+
+
+55. <p>93ac
+Which one of the following statements is FALSE concerning Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+- [ ] B. M-M kinetics assumes that the enzyme bound to the product [EP] is short lived and does NOT contribute to the reaction rate . 
+- [*] C. M-M kinetics assumes that the substrate is NOT available and there is no measureable reverse reaction rate . 
+- [ ] D. M-M kinetics assumes a quasi-steady state, that the enzyme-substrate complex [ES] is constant . 
+- [ ] E. M-M kinetics assumes the enzyme has a single active site. 
+
+
+56. <p>94aa
+Which one of the following statements is TRUE of Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that the rate of breaking the enzyme-product complex [EP] is equal to the rate of its formation. 
+- [ ] B. The reaction rate is proportional to the product concentration . 
+- [ ] C. M-M kinetics assumes that there is no substrate available and there is no measureable reverse reaction rate . 
+- [*] D. When the substrate concentration , [S], is much smaller than KM, the reaction rate is linear. 
+- [ ] E. M-M kinetics was developed by Greek economist Leo Michelis and Dutch bobsledder Hubert Menten in 1913. 
+
+
+57. <p>955f
+Which one of the following statements is TRUE of Michaelis-Menten kinetics?</p>
+- [ ] A. The reaction rate is proportional to the product concentration . 
+- [*] B. M-M kinetics assumes that the product is NOT available and there is no measureable reverse reaction rate . 
+- [ ] C. When the substrate concentration , [S], is much smaller than KM, the reaction rate is constant . 
+- [ ] D. M-M kinetics assumes that the enzyme-substrate complex [ES] is short lived and does NOT contribute to the reaction rate . 
+- [ ] E. M-M kinetics was developed by American linguist Laura Michaelis and Belgian cyclist Milan Menten in 1913. 
+
+
+58. <p>9566
+Which one of the following statements is FALSE about Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that the enzyme-product complex [EP] is short lived and does NOT contribute to the reaction rate . 
+- [ ] B. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+- [ ] C. The reaction rate is proportional to the substrate concentration . 
+- [*] D. M-M kinetics assumes that there is no substrate available and there is no measureable reverse reaction rate . 
+- [ ] E. M-M kinetics assumes that the concentration of enzyme-substrate complex [ES] is constant . 
+
+
+59. <p>977a
+Which one of the following statements is TRUE regarding Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that there is no substrate available and there is no measureable reverse reaction rate . 
+- [ ] B. When the substrate concentration , [S], is much larger than KM, the reaction rate is linear. 
+- [ ] C. M-M kinetics assumes that the concentration of enzyme-product complex [EP] is constant . 
+- [ ] D. M-M kinetics assumes that the enzyme-substrate complex [ES] is short lived and does NOT contribute to the reaction rate . 
+- [*] E. The reaction rate is proportional to the substrate concentration . 
+
+
+60. <p>9848
+Which one of the following statements is TRUE of Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that the rate of breaking the enzyme-product complex [EP] is equal to the rate of its formation. 
+- [ ] B. M-M kinetics assumes that the substrate is NOT available and there is no measureable reverse reaction rate . 
+- [ ] C. M-M kinetics assumes that the enzyme bound to the substrate [ES] is short lived and does NOT contribute to the reaction rate . 
+- [*] D. When the substrate concentration , [S], is much smaller than KM, the reaction rate is linear. 
+- [ ] E. M-M kinetics was developed by Greek economist Leo Michelis and Dutch bobsledder Hubert Menten in 1913. 
+
+
+61. <p>9ad1
+Which one of the following statements is FALSE concerning Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes the enzyme has a single active site. 
+- [ ] B. M-M kinetics assumes that the enzyme-product complex [EP] is short lived and does NOT contribute to the reaction rate . 
+- [ ] C. M-M kinetics assumes a quasi-steady state, that the enzyme-substrate complex [ES] is constant . 
+- [ ] D. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+- [*] E. M-M kinetics assumes that there is no substrate available and there is no measureable reverse reaction rate . 
+
+
+62. <p>9c6a
+Which one of the following statements is FALSE about Michaelis-Menten kinetics?</p>
+- [*] A. M-M kinetics assumes that the enzyme bound to the substrate [ES] is short lived and does NOT contribute to the reaction rate . 
+- [ ] B. When the substrate concentration , [S], is much larger than KM, the reaction rate is constant . 
+- [ ] C. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+- [ ] D. The reaction rate is proportional to the substrate concentration . 
+- [ ] E. M-M kinetics assumes that there is no product available and there is no measureable reverse reaction rate . 
+
+
+63. <p>9dd7
+Which one of the following statements is FALSE about Michaelis-Menten kinetics?</p>
+- [*] A. M-M kinetics assumes that the enzyme-substrate complex [ES] is short lived and does NOT contribute to the reaction rate . 
+- [ ] B. M-M kinetics assumes the enzyme has a single active site. 
+- [ ] C. When the substrate concentration , [S], is much smaller than KM, the reaction rate is linear. 
+- [ ] D. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+- [ ] E. The reaction rate is proportional to the substrate concentration . 
+
+
+64. <p>9ea4
+Which one of the following statements is FALSE about Michaelis-Menten kinetics?</p>
+- [ ] A. The reaction rate is proportional to the substrate concentration . 
+- [ ] B. M-M kinetics assumes that there is no product available and there is no measureable reverse reaction rate . 
+- [ ] C. M-M kinetics does NOT apply to allosteric enzymes. 
+- [*] D. M-M kinetics assumes that the concentration of enzyme-product complex [EP] is constant . 
+- [ ] E. When the substrate concentration , [S], is much larger than KM, the reaction rate is constant . 
+
+
+65. <p>9fb3
+Which one of the following statements is FALSE concerning Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics does NOT apply to allosteric enzymes. 
+- [ ] B. M-M kinetics assumes that the enzyme bound to the product [EP] is short lived and does NOT contribute to the reaction rate . 
+- [ ] C. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+- [ ] D. M-M kinetics assumes a quasi-steady state, that the enzyme-substrate complex [ES] is constant . 
+- [*] E. The reaction rate is proportional to the product concentration . 
+
+
+66. <p>a1ad
+Which one of the following statements is TRUE regarding Michaelis-Menten kinetics?</p>
+- [ ] A. When the substrate concentration , [S], is much smaller than KM, the reaction rate is constant . 
+- [*] B. M-M kinetics assumes that the change in concentration of enzyme-substrate complex [ES] does NOT change. 
+- [ ] C. M-M kinetics assumes that there is no substrate available and there is no measureable reverse reaction rate . 
+- [ ] D. M-M kinetics was developed by American linguist Laura Michaelis and Belgian cyclist Milan Menten in 1913. 
+- [ ] E. M-M kinetics assumes that the enzyme bound to the substrate [ES] is short lived and does NOT contribute to the reaction rate . 
+
+
+67. <p>a27c
+Which one of the following statements is FALSE concerning Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that the enzyme bound to the product [EP] is short lived and does NOT contribute to the reaction rate . 
+- [ ] B. The reaction rate is proportional to the substrate concentration . 
+- [ ] C. M-M kinetics assumes that the concentration of enzyme-substrate complex [ES] is constant . 
+- [ ] D. M-M kinetics assumes the enzyme has a single active site. 
+- [*] E. M-M kinetics assumes that there is no substrate available and there is no measureable reverse reaction rate . 
+
+
+68. <p>a30e
+Which one of the following statements is TRUE regarding Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that the rate of breaking the enzyme-product complex [EP] is equal to the rate of its formation. 
+- [*] B. M-M kinetics assumes that there is no product available and there is no measureable reverse reaction rate . 
+- [ ] C. M-M kinetics was developed by Greek economist Leo Michelis and Dutch bobsledder Hubert Menten in 1913. 
+- [ ] D. When the substrate concentration , [S], is much smaller than KM, the reaction rate is constant . 
+- [ ] E. The reaction rate is proportional to the product concentration . 
+
+
+69. <p>a5f0
+Which one of the following statements is TRUE of Michaelis-Menten kinetics?</p>
+- [*] A. M-M kinetics assumes that the enzyme bound to the product [EP] is short lived and does NOT contribute to the reaction rate . 
+- [ ] B. When the substrate concentration , [S], is much smaller than KM, the reaction rate is constant . 
+- [ ] C. M-M kinetics assumes that there is no substrate available and there is no measureable reverse reaction rate . 
+- [ ] D. M-M kinetics was developed by Greek economist Leo Michelis and Dutch bobsledder Hubert Menten in 1913. 
+- [ ] E. The reaction rate is proportional to the product concentration . 
+
+
+70. <p>ac95
+Which one of the following statements is TRUE of Michaelis-Menten kinetics?</p>
+- [ ] A. The reaction rate is proportional to the product concentration . 
+- [ ] B. M-M kinetics assumes that there is no substrate available and there is no measureable reverse reaction rate . 
+- [*] C. M-M kinetics assumes that the concentration of enzyme-substrate complex [ES] is constant . 
+- [ ] D. M-M kinetics was developed by Greek economist Leo Michelis and Dutch bobsledder Hubert Menten in 1913. 
+- [ ] E. M-M kinetics assumes that the enzyme bound to the substrate [ES] is short lived and does NOT contribute to the reaction rate . 
+
+
+71. <p>b176
+Which one of the following statements is FALSE concerning Michaelis-Menten kinetics?</p>
+- [ ] A. The reaction rate is proportional to the substrate concentration . 
+- [ ] B. M-M kinetics assumes that the rate of breaking the enzyme-substrate complex [ES] is equal to the rate of its formation. 
+- [ ] C. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+- [*] D. M-M kinetics assumes that there is no substrate available and there is no measureable reverse reaction rate . 
+- [ ] E. M-M kinetics assumes the enzyme has a single active site. 
+
+
+72. <p>b1a4
+Which one of the following statements is FALSE about Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+- [ ] B. M-M kinetics assumes that the enzyme bound to the product [EP] is short lived and does NOT contribute to the reaction rate . 
+- [*] C. When the substrate concentration , [S], is much smaller than KM, the reaction rate is constant . 
+- [ ] D. M-M kinetics does NOT apply to allosteric enzymes. 
+- [ ] E. M-M kinetics assumes that the product is NOT available and there is no measureable reverse reaction rate . 
+
+
+73. <p>b509
+Which one of the following statements is FALSE about Michaelis-Menten kinetics?</p>
+- [*] A. The reaction rate is proportional to the product concentration . 
+- [ ] B. M-M kinetics assumes that the enzyme-product complex [EP] is short lived and does NOT contribute to the reaction rate . 
+- [ ] C. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+- [ ] D. M-M kinetics assumes that the rate of breaking the enzyme-substrate complex [ES] is equal to the rate of its formation. 
+- [ ] E. M-M kinetics does NOT apply to allosteric enzymes. 
+
+
+74. <p>bb11
+Which one of the following statements is TRUE regarding Michaelis-Menten kinetics?</p>
+- [*] A. M-M kinetics assumes that the change in concentration of enzyme-substrate complex [ES] does NOT change. 
+- [ ] B. M-M kinetics was developed by American linguist Laura Michaelis and Belgian cyclist Milan Menten in 1913. 
+- [ ] C. M-M kinetics assumes that there is no substrate available and there is no measureable reverse reaction rate . 
+- [ ] D. M-M kinetics assumes that the enzyme bound to the substrate [ES] is short lived and does NOT contribute to the reaction rate . 
+- [ ] E. The reaction rate is proportional to the product concentration . 
+
+
+75. <p>bbf2
+Which one of the following statements is FALSE about Michaelis-Menten kinetics?</p>
+- [ ] A. The reaction rate is proportional to the substrate concentration . 
+- [ ] B. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+- [ ] C. M-M kinetics assumes the enzyme has a single active site. 
+- [ ] D. M-M kinetics assumes that the enzyme-product complex [EP] is short lived and does NOT contribute to the reaction rate . 
+- [*] E. M-M kinetics assumes that the enzyme-product complex [EP] is constant . 
+
+
+76. <p>bfbb
+Which one of the following statements is TRUE of Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that the enzyme bound to the substrate [ES] is short lived and does NOT contribute to the reaction rate . 
+- [ ] B. M-M kinetics was developed by American linguist Laura Michaelis and Belgian cyclist Milan Menten in 1913. 
+- [*] C. M-M kinetics assumes that the product is NOT available and there is no measureable reverse reaction rate . 
+- [ ] D. When the substrate concentration , [S], is much smaller than KM, the reaction rate is constant . 
+- [ ] E. M-M kinetics assumes that the rate of breaking the enzyme-product complex [EP] is equal to the rate of its formation. 
+
+
+77. <p>c302
+Which one of the following statements is FALSE about Michaelis-Menten kinetics?</p>
+- [*] A. M-M kinetics assumes that the rate of breaking the enzyme-product complex [EP] is equal to the rate of its formation. 
+- [ ] B. When the substrate concentration , [S], is much smaller than KM, the reaction rate is linear. 
+- [ ] C. M-M kinetics assumes that there is no product available and there is no measureable reverse reaction rate . 
+- [ ] D. M-M kinetics assumes that the enzyme-product complex [EP] is short lived and does NOT contribute to the reaction rate . 
+- [ ] E. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+
+
+78. <p>c33f
+Which one of the following statements is FALSE about Michaelis-Menten kinetics?</p>
+- [ ] A. The reaction rate is proportional to the substrate concentration . 
+- [*] B. M-M kinetics assumes that the concentration of enzyme-product complex [EP] is constant . 
+- [ ] C. When the substrate concentration , [S], is much larger than KM, the reaction rate is constant . 
+- [ ] D. M-M kinetics assumes that the product is NOT available and there is no measureable reverse reaction rate . 
+- [ ] E. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+
+
+79. <p>c7a8
+Which one of the following statements is FALSE concerning Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that there is no product available and there is no measureable reverse reaction rate . 
+- [ ] B. M-M kinetics assumes that the enzyme-product complex [EP] is short lived and does NOT contribute to the reaction rate . 
+- [ ] C. M-M kinetics assumes that the concentration of enzyme-substrate complex [ES] is constant . 
+- [*] D. M-M kinetics was developed by American linguist Laura Michaelis and Belgian cyclist Milan Menten in 1913. 
+- [ ] E. When the substrate concentration , [S], is much smaller than KM, the reaction rate is linear. 
+
+
+80. <p>caa9
+Which one of the following statements is TRUE regarding Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics was developed by American linguist Laura Michaelis and Belgian cyclist Milan Menten in 1913. 
+- [*] B. M-M kinetics does NOT apply to allosteric enzymes. 
+- [ ] C. The reaction rate is proportional to the product concentration . 
+- [ ] D. M-M kinetics assumes that the substrate is NOT available and there is no measureable reverse reaction rate . 
+- [ ] E. M-M kinetics assumes that the enzyme-substrate complex [ES] is short lived and does NOT contribute to the reaction rate . 
+
+
+81. <p>cc26
+Which one of the following statements is FALSE concerning Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that there is no product available and there is no measureable reverse reaction rate . 
+- [ ] B. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+- [ ] C. M-M kinetics assumes the enzyme has a single active site. 
+- [*] D. M-M kinetics assumes that the rate of breaking the enzyme-product complex [EP] is equal to the rate of its formation. 
+- [ ] E. The reaction rate is proportional to the substrate concentration . 
+
+
+82. <p>cecf
+Which one of the following statements is TRUE regarding Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that there is no substrate available and there is no measureable reverse reaction rate . 
+- [ ] B. The reaction rate is proportional to the product concentration . 
+- [*] C. M-M kinetics assumes that the enzyme-product complex [EP] is short lived and does NOT contribute to the reaction rate . 
+- [ ] D. M-M kinetics was developed by American linguist Laura Michaelis and Belgian cyclist Milan Menten in 1913. 
+- [ ] E. When the substrate concentration , [S], is much larger than KM, the reaction rate is linear. 
+
+
+83. <p>d146
+Which one of the following statements is FALSE about Michaelis-Menten kinetics?</p>
+- [*] A. When the substrate concentration , [S], is much larger than KM, the reaction rate is linear. 
+- [ ] B. M-M kinetics assumes that there is no product available and there is no measureable reverse reaction rate . 
+- [ ] C. M-M kinetics does NOT apply to allosteric enzymes. 
+- [ ] D. M-M kinetics assumes that the enzyme bound to the product [EP] is short lived and does NOT contribute to the reaction rate . 
+- [ ] E. M-M kinetics assumes a quasi-steady state, that the enzyme-substrate complex [ES] is constant . 
+
+
+84. <p>d1e4
+Which one of the following statements is FALSE concerning Michaelis-Menten kinetics?</p>
+- [ ] A. When the substrate concentration , [S], is much smaller than KM, the reaction rate is linear. 
+- [*] B. M-M kinetics assumes that the concentration of enzyme-product complex [EP] is constant . 
+- [ ] C. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+- [ ] D. M-M kinetics assumes the enzyme has a single active site. 
+- [ ] E. The reaction rate is proportional to the substrate concentration . 
+
+
+85. <p>d764
+Which one of the following statements is FALSE about Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics does NOT apply to allosteric enzymes. 
+- [ ] B. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+- [ ] C. M-M kinetics assumes that there is no product available and there is no measureable reverse reaction rate . 
+- [*] D. The reaction rate is proportional to the product concentration . 
+- [ ] E. M-M kinetics assumes that the change in concentration of enzyme-substrate complex [ES] does NOT change. 
+
+
+86. <p>d8e2
+Which one of the following statements is FALSE about Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+- [ ] B. M-M kinetics assumes that the rate of breaking the enzyme-substrate complex [ES] is equal to the rate of its formation. 
+- [ ] C. When the substrate concentration , [S], is much smaller than KM, the reaction rate is linear. 
+- [ ] D. M-M kinetics assumes that there is no product available and there is no measureable reverse reaction rate . 
+- [*] E. M-M kinetics assumes that the enzyme-substrate complex [ES] is short lived and does NOT contribute to the reaction rate . 
+
+
+87. <p>d911
+Which one of the following statements is FALSE about Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes the enzyme has a single active site. 
+- [*] B. M-M kinetics was developed by Greek economist Leo Michelis and Dutch bobsledder Hubert Menten in 1913. 
+- [ ] C. M-M kinetics assumes that the rate of breaking the enzyme-substrate complex [ES] is equal to the rate of its formation. 
+- [ ] D. M-M kinetics assumes that the product is NOT available and there is no measureable reverse reaction rate . 
+- [ ] E. When the substrate concentration , [S], is much smaller than KM, the reaction rate is linear. 
+
+
+88. <p>d92c
+Which one of the following statements is TRUE of Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that the concentration of enzyme-product complex [EP] is constant . 
+- [*] B. M-M kinetics assumes that there is no product available and there is no measureable reverse reaction rate . 
+- [ ] C. M-M kinetics assumes that the enzyme bound to the substrate [ES] is short lived and does NOT contribute to the reaction rate . 
+- [ ] D. When the substrate concentration , [S], is much larger than KM, the reaction rate is linear. 
+- [ ] E. The reaction rate is proportional to the product concentration . 
+
+
+89. <p>dc3d
+Which one of the following statements is TRUE of Michaelis-Menten kinetics?</p>
+- [ ] A. When the substrate concentration , [S], is much larger than KM, the reaction rate is linear. 
+- [*] B. M-M kinetics assumes that the product is NOT available and there is no measureable reverse reaction rate . 
+- [ ] C. M-M kinetics assumes that the concentration of enzyme-product complex [EP] is constant . 
+- [ ] D. M-M kinetics assumes that the enzyme bound to the substrate [ES] is short lived and does NOT contribute to the reaction rate . 
+- [ ] E. The reaction rate is proportional to the product concentration . 
+
+
+90. <p>e1ad
+Which one of the following statements is TRUE regarding Michaelis-Menten kinetics?</p>
+- [ ] A. When the substrate concentration , [S], is much larger than KM, the reaction rate is linear. 
+- [ ] B. M-M kinetics was developed by Greek economist Leo Michelis and Dutch bobsledder Hubert Menten in 1913. 
+- [ ] C. M-M kinetics assumes that the change in concentration of enzyme-product complex [EP] does NOT change. 
+- [*] D. M-M kinetics assumes that the product is NOT available and there is no measureable reverse reaction rate . 
+- [ ] E. M-M kinetics assumes that the enzyme bound to the substrate [ES] is short lived and does NOT contribute to the reaction rate . 
+
+
+91. <p>e1cf
+Which one of the following statements is FALSE concerning Michaelis-Menten kinetics?</p>
+- [*] A. When the substrate concentration , [S], is much larger than KM, the reaction rate is linear. 
+- [ ] B. The reaction rate is proportional to the substrate concentration . 
+- [ ] C. M-M kinetics assumes that there is no product available and there is no measureable reverse reaction rate . 
+- [ ] D. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+- [ ] E. M-M kinetics does NOT apply to allosteric enzymes. 
+
+
+92. <p>e5c1
+Which one of the following statements is TRUE regarding Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that the enzyme-substrate complex [ES] is short lived and does NOT contribute to the reaction rate . 
+- [ ] B. When the substrate concentration , [S], is much larger than KM, the reaction rate is linear. 
+- [*] C. M-M kinetics assumes that the product is NOT available and there is no measureable reverse reaction rate . 
+- [ ] D. M-M kinetics assumes that the concentration of enzyme-product complex [EP] is constant . 
+- [ ] E. M-M kinetics was developed by American linguist Laura Michaelis and Belgian cyclist Milan Menten in 1913. 
+
+
+93. <p>f0d9
+Which one of the following statements is FALSE about Michaelis-Menten kinetics?</p>
+- [*] A. M-M kinetics assumes that the rate of breaking the enzyme-product complex [EP] is equal to the rate of its formation. 
+- [ ] B. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+- [ ] C. The reaction rate is proportional to the substrate concentration . 
+- [ ] D. M-M kinetics assumes that there is no product available and there is no measureable reverse reaction rate . 
+- [ ] E. M-M kinetics assumes that the enzyme bound to the product [EP] is short lived and does NOT contribute to the reaction rate . 
+
+
+94. <p>f3da
+Which one of the following statements is FALSE about Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that the rate of breaking the enzyme-substrate complex [ES] is equal to the rate of its formation. 
+- [*] B. M-M kinetics assumes that the enzyme-substrate complex [ES] is short lived and does NOT contribute to the reaction rate . 
+- [ ] C. When the substrate concentration , [S], is much smaller than KM, the reaction rate is linear. 
+- [ ] D. M-M kinetics assumes the enzyme has a single active site. 
+- [ ] E. M-M kinetics assumes that the product is NOT available and there is no measureable reverse reaction rate . 
+
+
+95. <p>f57e
+Which one of the following statements is FALSE concerning Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that there is no product available and there is no measureable reverse reaction rate . 
+- [ ] B. M-M kinetics assumes that the enzyme-product complex [EP] is short lived and does NOT contribute to the reaction rate . 
+- [*] C. M-M kinetics assumes that the concentration of enzyme-product complex [EP] is constant . 
+- [ ] D. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+- [ ] E. When the substrate concentration , [S], is much smaller than KM, the reaction rate is linear. 
+
+
+96. <p>f710
+Which one of the following statements is FALSE about Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics does NOT apply to allosteric enzymes. 
+- [ ] B. M-M kinetics assumes that there is no product available and there is no measureable reverse reaction rate . 
+- [*] C. M-M kinetics assumes that the change in concentration of enzyme-product complex [EP] does NOT change. 
+- [ ] D. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+- [ ] E. When the substrate concentration , [S], is much larger than KM, the reaction rate is constant . 
+
+
+97. <p>f818
+Which one of the following statements is FALSE concerning Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that the enzyme bound to the product [EP] is short lived and does NOT contribute to the reaction rate . 
+- [ ] B. The reaction rate is proportional to the substrate concentration . 
+- [ ] C. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+- [ ] D. M-M kinetics assumes a quasi-steady state, that the enzyme-substrate complex [ES] is constant . 
+- [*] E. When the substrate concentration , [S], is much smaller than KM, the reaction rate is constant . 
+
+
+98. <p>fb08
+Which one of the following statements is TRUE of Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that there is no substrate available and there is no measureable reverse reaction rate . 
+- [*] B. M-M kinetics assumes that the enzyme bound to the product [EP] is short lived and does NOT contribute to the reaction rate . 
+- [ ] C. M-M kinetics was developed by Greek economist Leo Michelis and Dutch bobsledder Hubert Menten in 1913. 
+- [ ] D. M-M kinetics assumes that the enzyme-product complex [EP] is constant . 
+- [ ] E. When the substrate concentration , [S], is much smaller than KM, the reaction rate is constant . 
+
+
+99. <p>feb0
+Which one of the following statements is FALSE concerning Michaelis-Menten kinetics?</p>
+- [ ] A. M-M kinetics assumes that the enzyme bound to the product [EP] is short lived and does NOT contribute to the reaction rate . 
+- [ ] B. M-M kinetics was developed by German biochemist Leonor Michaelis and Canadian physician Maud Menten in 1913. 
+- [*] C. M-M kinetics assumes that the change in concentration of enzyme-product complex [EP] does NOT change. 
+- [ ] D. M-M kinetics assumes that the product is NOT available and there is no measureable reverse reaction rate . 
+- [ ] E. When the substrate concentration , [S], is much smaller than KM, the reaction rate is linear. 
+
+

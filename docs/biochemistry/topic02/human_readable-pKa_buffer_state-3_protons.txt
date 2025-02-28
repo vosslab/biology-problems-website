@@ -1,0 +1,539 @@
+1. <p>84f3
+ Arsenic acid and its conjugate base, arsenate, is extremely toxic, corrosive, and carcinogenic; it serves as a precursor to a variety of pesticides.
+Arsenic acid is triprotic with pKa values of 2.19 , 6.94 , and 11.50 .
+Arsenic acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 0.5 ?</p>
+- [ ] A. AsO₄³⁻ 
+- [ ] B. HAsO₄²⁻ 
+- [ ] C. H₂AsO₄⁻ 
+- [*] D. H₃AsO₄ 
+
+
+2. <p>9379
+ Arsenic acid and its conjugate base, arsenate, is extremely toxic, corrosive, and carcinogenic; it serves as a precursor to a variety of pesticides.
+Arsenic acid is triprotic with pKa values of 2.19 , 6.94 , and 11.50 .
+Arsenic acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 1.0 ?</p>
+- [ ] A. AsO₄³⁻ 
+- [ ] B. HAsO₄²⁻ 
+- [ ] C. H₂AsO₄⁻ 
+- [*] D. H₃AsO₄ 
+
+
+3. <p>6943
+ Arsenic acid and its conjugate base, arsenate, is extremely toxic, corrosive, and carcinogenic; it serves as a precursor to a variety of pesticides.
+Arsenic acid is triprotic with pKa values of 2.19 , 6.94 , and 11.50 .
+Arsenic acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 1.5 ?</p>
+- [ ] A. AsO₄³⁻ 
+- [ ] B. HAsO₄²⁻ 
+- [ ] C. H₂AsO₄⁻ 
+- [*] D. H₃AsO₄ 
+
+
+4. <p>b6eb
+ Arsenic acid and its conjugate base, arsenate, is extremely toxic, corrosive, and carcinogenic; it serves as a precursor to a variety of pesticides.
+Arsenic acid is triprotic with pKa values of 2.19 , 6.94 , and 11.50 .
+Arsenic acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 3.0 ?</p>
+- [ ] A. H₃AsO₄ 
+- [*] B. H₂AsO₄⁻ 
+- [ ] C. HAsO₄²⁻ 
+- [ ] D. AsO₄³⁻ 
+
+
+5. <p>017d
+ Arsenic acid and its conjugate base, arsenate, is extremely toxic, corrosive, and carcinogenic; it serves as a precursor to a variety of pesticides.
+Arsenic acid is triprotic with pKa values of 2.19 , 6.94 , and 11.50 .
+Arsenic acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 3.5 ?</p>
+- [ ] A. AsO₄³⁻ 
+- [ ] B. HAsO₄²⁻ 
+- [*] C. H₂AsO₄⁻ 
+- [ ] D. H₃AsO₄ 
+
+
+6. <p>ba0e
+ Arsenic acid and its conjugate base, arsenate, is extremely toxic, corrosive, and carcinogenic; it serves as a precursor to a variety of pesticides.
+Arsenic acid is triprotic with pKa values of 2.19 , 6.94 , and 11.50 .
+Arsenic acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 4.0 ?</p>
+- [ ] A. AsO₄³⁻ 
+- [ ] B. HAsO₄²⁻ 
+- [*] C. H₂AsO₄⁻ 
+- [ ] D. H₃AsO₄ 
+
+
+7. <p>0d98
+ Arsenic acid and its conjugate base, arsenate, is extremely toxic, corrosive, and carcinogenic; it serves as a precursor to a variety of pesticides.
+Arsenic acid is triprotic with pKa values of 2.19 , 6.94 , and 11.50 .
+Arsenic acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 4.5 ?</p>
+- [ ] A. H₃AsO₄ 
+- [*] B. H₂AsO₄⁻ 
+- [ ] C. HAsO₄²⁻ 
+- [ ] D. AsO₄³⁻ 
+
+
+8. <p>b914
+ Arsenic acid and its conjugate base, arsenate, is extremely toxic, corrosive, and carcinogenic; it serves as a precursor to a variety of pesticides.
+Arsenic acid is triprotic with pKa values of 2.19 , 6.94 , and 11.50 .
+Arsenic acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 5.0 ?</p>
+- [ ] A. H₃AsO₄ 
+- [*] B. H₂AsO₄⁻ 
+- [ ] C. HAsO₄²⁻ 
+- [ ] D. AsO₄³⁻ 
+
+
+9. <p>773d
+ Arsenic acid and its conjugate base, arsenate, is extremely toxic, corrosive, and carcinogenic; it serves as a precursor to a variety of pesticides.
+Arsenic acid is triprotic with pKa values of 2.19 , 6.94 , and 11.50 .
+Arsenic acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 5.5 ?</p>
+- [ ] A. H₃AsO₄ 
+- [*] B. H₂AsO₄⁻ 
+- [ ] C. HAsO₄²⁻ 
+- [ ] D. AsO₄³⁻ 
+
+
+10. <p>36fb
+ Arsenic acid and its conjugate base, arsenate, is extremely toxic, corrosive, and carcinogenic; it serves as a precursor to a variety of pesticides.
+Arsenic acid is triprotic with pKa values of 2.19 , 6.94 , and 11.50 .
+Arsenic acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 6.0 ?</p>
+- [ ] A. H₃AsO₄ 
+- [*] B. H₂AsO₄⁻ 
+- [ ] C. HAsO₄²⁻ 
+- [ ] D. AsO₄³⁻ 
+
+
+11. <p>3d42
+ Arsenic acid and its conjugate base, arsenate, is extremely toxic, corrosive, and carcinogenic; it serves as a precursor to a variety of pesticides.
+Arsenic acid is triprotic with pKa values of 2.19 , 6.94 , and 11.50 .
+Arsenic acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 7.5 ?</p>
+- [ ] A. H₃AsO₄ 
+- [ ] B. H₂AsO₄⁻ 
+- [*] C. HAsO₄²⁻ 
+- [ ] D. AsO₄³⁻ 
+
+
+12. <p>0a61
+ Arsenic acid and its conjugate base, arsenate, is extremely toxic, corrosive, and carcinogenic; it serves as a precursor to a variety of pesticides.
+Arsenic acid is triprotic with pKa values of 2.19 , 6.94 , and 11.50 .
+Arsenic acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 8.0 ?</p>
+- [ ] A. H₃AsO₄ 
+- [ ] B. H₂AsO₄⁻ 
+- [*] C. HAsO₄²⁻ 
+- [ ] D. AsO₄³⁻ 
+
+
+13. <p>7e34
+ Arsenic acid and its conjugate base, arsenate, is extremely toxic, corrosive, and carcinogenic; it serves as a precursor to a variety of pesticides.
+Arsenic acid is triprotic with pKa values of 2.19 , 6.94 , and 11.50 .
+Arsenic acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 8.5 ?</p>
+- [ ] A. H₃AsO₄ 
+- [ ] B. H₂AsO₄⁻ 
+- [*] C. HAsO₄²⁻ 
+- [ ] D. AsO₄³⁻ 
+
+
+14. <p>63c9
+ Arsenic acid and its conjugate base, arsenate, is extremely toxic, corrosive, and carcinogenic; it serves as a precursor to a variety of pesticides.
+Arsenic acid is triprotic with pKa values of 2.19 , 6.94 , and 11.50 .
+Arsenic acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 9.0 ?</p>
+- [ ] A. AsO₄³⁻ 
+- [*] B. HAsO₄²⁻ 
+- [ ] C. H₂AsO₄⁻ 
+- [ ] D. H₃AsO₄ 
+
+
+15. <p>179c
+ Arsenic acid and its conjugate base, arsenate, is extremely toxic, corrosive, and carcinogenic; it serves as a precursor to a variety of pesticides.
+Arsenic acid is triprotic with pKa values of 2.19 , 6.94 , and 11.50 .
+Arsenic acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 9.5 ?</p>
+- [ ] A. AsO₄³⁻ 
+- [*] B. HAsO₄²⁻ 
+- [ ] C. H₂AsO₄⁻ 
+- [ ] D. H₃AsO₄ 
+
+
+16. <p>246d
+ Arsenic acid and its conjugate base, arsenate, is extremely toxic, corrosive, and carcinogenic; it serves as a precursor to a variety of pesticides.
+Arsenic acid is triprotic with pKa values of 2.19 , 6.94 , and 11.50 .
+Arsenic acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 10.0 ?</p>
+- [ ] A. AsO₄³⁻ 
+- [*] B. HAsO₄²⁻ 
+- [ ] C. H₂AsO₄⁻ 
+- [ ] D. H₃AsO₄ 
+
+
+17. <p>a513
+ Arsenic acid and its conjugate base, arsenate, is extremely toxic, corrosive, and carcinogenic; it serves as a precursor to a variety of pesticides.
+Arsenic acid is triprotic with pKa values of 2.19 , 6.94 , and 11.50 .
+Arsenic acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 10.5 ?</p>
+- [ ] A. H₃AsO₄ 
+- [ ] B. H₂AsO₄⁻ 
+- [*] C. HAsO₄²⁻ 
+- [ ] D. AsO₄³⁻ 
+
+
+18. <p>7f8f
+ Arsenic acid and its conjugate base, arsenate, is extremely toxic, corrosive, and carcinogenic; it serves as a precursor to a variety of pesticides.
+Arsenic acid is triprotic with pKa values of 2.19 , 6.94 , and 11.50 .
+Arsenic acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 12.5 ?</p>
+- [ ] A. H₃AsO₄ 
+- [ ] B. H₂AsO₄⁻ 
+- [ ] C. HAsO₄²⁻ 
+- [*] D. AsO₄³⁻ 
+
+
+19. <p>2749
+ Arsenic acid and its conjugate base, arsenate, is extremely toxic, corrosive, and carcinogenic; it serves as a precursor to a variety of pesticides.
+Arsenic acid is triprotic with pKa values of 2.19 , 6.94 , and 11.50 .
+Arsenic acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 13.0 ?</p>
+- [*] A. AsO₄³⁻ 
+- [ ] B. HAsO₄²⁻ 
+- [ ] C. H₂AsO₄⁻ 
+- [ ] D. H₃AsO₄ 
+
+
+20. <p>16a6
+ Citric acid and its conjugate base, citrate, is an intermediate in the citric acid cycle.
+Citric acid is triprotic with pKa values of 3.13 , 4.76 , and 6.39 .
+Citric acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 1.5 ?</p>
+- [*] A. HOC₃H₄(COOH)₃ 
+- [ ] B. HOC₃H₄(COOH)₂(COO)⁻ 
+- [ ] C. HOC₃H₄(COOH)(COO)₂²⁻ 
+- [ ] D. HOC₃H₄(COO)₃³⁻ 
+
+
+21. <p>c646
+ Citric acid and its conjugate base, citrate, is an intermediate in the citric acid cycle.
+Citric acid is triprotic with pKa values of 3.13 , 4.76 , and 6.39 .
+Citric acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 2.0 ?</p>
+- [*] A. HOC₃H₄(COOH)₃ 
+- [ ] B. HOC₃H₄(COOH)₂(COO)⁻ 
+- [ ] C. HOC₃H₄(COOH)(COO)₂²⁻ 
+- [ ] D. HOC₃H₄(COO)₃³⁻ 
+
+
+22. <p>5a83
+ Citric acid and its conjugate base, citrate, is an intermediate in the citric acid cycle.
+Citric acid is triprotic with pKa values of 3.13 , 4.76 , and 6.39 .
+Citric acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 2.5 ?</p>
+- [*] A. HOC₃H₄(COOH)₃ 
+- [ ] B. HOC₃H₄(COOH)₂(COO)⁻ 
+- [ ] C. HOC₃H₄(COOH)(COO)₂²⁻ 
+- [ ] D. HOC₃H₄(COO)₃³⁻ 
+
+
+23. <p>bb0a
+ Citric acid and its conjugate base, citrate, is an intermediate in the citric acid cycle.
+Citric acid is triprotic with pKa values of 3.13 , 4.76 , and 6.39 .
+Citric acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 4.0 ?</p>
+- [ ] A. HOC₃H₄(COOH)₃ 
+- [*] B. HOC₃H₄(COOH)₂(COO)⁻ 
+- [ ] C. HOC₃H₄(COOH)(COO)₂²⁻ 
+- [ ] D. HOC₃H₄(COO)₃³⁻ 
+
+
+24. <p>c078
+ Citric acid and its conjugate base, citrate, is an intermediate in the citric acid cycle.
+Citric acid is triprotic with pKa values of 3.13 , 4.76 , and 6.39 .
+Citric acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 5.5 ?</p>
+- [ ] A. HOC₃H₄(COOH)₃ 
+- [ ] B. HOC₃H₄(COOH)₂(COO)⁻ 
+- [*] C. HOC₃H₄(COOH)(COO)₂²⁻ 
+- [ ] D. HOC₃H₄(COO)₃³⁻ 
+
+
+25. <p>b409
+ Citric acid and its conjugate base, citrate, is an intermediate in the citric acid cycle.
+Citric acid is triprotic with pKa values of 3.13 , 4.76 , and 6.39 .
+Citric acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 7.0 ?</p>
+- [ ] A. HOC₃H₄(COOH)₃ 
+- [ ] B. HOC₃H₄(COOH)₂(COO)⁻ 
+- [ ] C. HOC₃H₄(COOH)(COO)₂²⁻ 
+- [*] D. HOC₃H₄(COO)₃³⁻ 
+
+
+26. <p>7bf5
+ Citric acid and its conjugate base, citrate, is an intermediate in the citric acid cycle.
+Citric acid is triprotic with pKa values of 3.13 , 4.76 , and 6.39 .
+Citric acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 7.5 ?</p>
+- [ ] A. HOC₃H₄(COOH)₃ 
+- [ ] B. HOC₃H₄(COOH)₂(COO)⁻ 
+- [ ] C. HOC₃H₄(COOH)(COO)₂²⁻ 
+- [*] D. HOC₃H₄(COO)₃³⁻ 
+
+
+27. <p>cd02
+ Citric acid and its conjugate base, citrate, is an intermediate in the citric acid cycle.
+Citric acid is triprotic with pKa values of 3.13 , 4.76 , and 6.39 .
+Citric acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 8.0 ?</p>
+- [ ] A. HOC₃H₄(COOH)₃ 
+- [ ] B. HOC₃H₄(COOH)₂(COO)⁻ 
+- [ ] C. HOC₃H₄(COOH)(COO)₂²⁻ 
+- [*] D. HOC₃H₄(COO)₃³⁻ 
+
+
+28. <p>72d1
+ Phosphoric acid and its conjugate base, phosphate, is abbreviated Pi and is formed by cells from the hydrolysis of ATP into ADP.
+Phosphoric acid is triprotic with pKa values of 2.16 , 7.21 , and 12.32 .
+Phosphoric acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 0.5 ?</p>
+- [ ] A. PO₄³⁻ 
+- [ ] B. HPO₄²⁻ 
+- [ ] C. H₂PO₄⁻ 
+- [*] D. H₃PO₄ 
+
+
+29. <p>9eb7
+ Phosphoric acid and its conjugate base, phosphate, is abbreviated Pi and is formed by cells from the hydrolysis of ATP into ADP.
+Phosphoric acid is triprotic with pKa values of 2.16 , 7.21 , and 12.32 .
+Phosphoric acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 1.0 ?</p>
+- [*] A. H₃PO₄ 
+- [ ] B. H₂PO₄⁻ 
+- [ ] C. HPO₄²⁻ 
+- [ ] D. PO₄³⁻ 
+
+
+30. <p>188a
+ Phosphoric acid and its conjugate base, phosphate, is abbreviated Pi and is formed by cells from the hydrolysis of ATP into ADP.
+Phosphoric acid is triprotic with pKa values of 2.16 , 7.21 , and 12.32 .
+Phosphoric acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 1.5 ?</p>
+- [*] A. H₃PO₄ 
+- [ ] B. H₂PO₄⁻ 
+- [ ] C. HPO₄²⁻ 
+- [ ] D. PO₄³⁻ 
+
+
+31. <p>f567
+ Phosphoric acid and its conjugate base, phosphate, is abbreviated Pi and is formed by cells from the hydrolysis of ATP into ADP.
+Phosphoric acid is triprotic with pKa values of 2.16 , 7.21 , and 12.32 .
+Phosphoric acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 3.0 ?</p>
+- [ ] A. H₃PO₄ 
+- [*] B. H₂PO₄⁻ 
+- [ ] C. HPO₄²⁻ 
+- [ ] D. PO₄³⁻ 
+
+
+32. <p>803f
+ Phosphoric acid and its conjugate base, phosphate, is abbreviated Pi and is formed by cells from the hydrolysis of ATP into ADP.
+Phosphoric acid is triprotic with pKa values of 2.16 , 7.21 , and 12.32 .
+Phosphoric acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 3.5 ?</p>
+- [ ] A. H₃PO₄ 
+- [*] B. H₂PO₄⁻ 
+- [ ] C. HPO₄²⁻ 
+- [ ] D. PO₄³⁻ 
+
+
+33. <p>a7c7
+ Phosphoric acid and its conjugate base, phosphate, is abbreviated Pi and is formed by cells from the hydrolysis of ATP into ADP.
+Phosphoric acid is triprotic with pKa values of 2.16 , 7.21 , and 12.32 .
+Phosphoric acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 4.0 ?</p>
+- [ ] A. PO₄³⁻ 
+- [ ] B. HPO₄²⁻ 
+- [*] C. H₂PO₄⁻ 
+- [ ] D. H₃PO₄ 
+
+
+34. <p>d29f
+ Phosphoric acid and its conjugate base, phosphate, is abbreviated Pi and is formed by cells from the hydrolysis of ATP into ADP.
+Phosphoric acid is triprotic with pKa values of 2.16 , 7.21 , and 12.32 .
+Phosphoric acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 4.5 ?</p>
+- [ ] A. PO₄³⁻ 
+- [ ] B. HPO₄²⁻ 
+- [*] C. H₂PO₄⁻ 
+- [ ] D. H₃PO₄ 
+
+
+35. <p>c2f9
+ Phosphoric acid and its conjugate base, phosphate, is abbreviated Pi and is formed by cells from the hydrolysis of ATP into ADP.
+Phosphoric acid is triprotic with pKa values of 2.16 , 7.21 , and 12.32 .
+Phosphoric acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 5.0 ?</p>
+- [ ] A. H₃PO₄ 
+- [*] B. H₂PO₄⁻ 
+- [ ] C. HPO₄²⁻ 
+- [ ] D. PO₄³⁻ 
+
+
+36. <p>dbda
+ Phosphoric acid and its conjugate base, phosphate, is abbreviated Pi and is formed by cells from the hydrolysis of ATP into ADP.
+Phosphoric acid is triprotic with pKa values of 2.16 , 7.21 , and 12.32 .
+Phosphoric acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 5.5 ?</p>
+- [ ] A. PO₄³⁻ 
+- [ ] B. HPO₄²⁻ 
+- [*] C. H₂PO₄⁻ 
+- [ ] D. H₃PO₄ 
+
+
+37. <p>d936
+ Phosphoric acid and its conjugate base, phosphate, is abbreviated Pi and is formed by cells from the hydrolysis of ATP into ADP.
+Phosphoric acid is triprotic with pKa values of 2.16 , 7.21 , and 12.32 .
+Phosphoric acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 6.0 ?</p>
+- [ ] A. H₃PO₄ 
+- [*] B. H₂PO₄⁻ 
+- [ ] C. HPO₄²⁻ 
+- [ ] D. PO₄³⁻ 
+
+
+38. <p>c015
+ Phosphoric acid and its conjugate base, phosphate, is abbreviated Pi and is formed by cells from the hydrolysis of ATP into ADP.
+Phosphoric acid is triprotic with pKa values of 2.16 , 7.21 , and 12.32 .
+Phosphoric acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 6.5 ?</p>
+- [ ] A. PO₄³⁻ 
+- [ ] B. HPO₄²⁻ 
+- [*] C. H₂PO₄⁻ 
+- [ ] D. H₃PO₄ 
+
+
+39. <p>44ad
+ Phosphoric acid and its conjugate base, phosphate, is abbreviated Pi and is formed by cells from the hydrolysis of ATP into ADP.
+Phosphoric acid is triprotic with pKa values of 2.16 , 7.21 , and 12.32 .
+Phosphoric acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 8.0 ?</p>
+- [ ] A. H₃PO₄ 
+- [ ] B. H₂PO₄⁻ 
+- [*] C. HPO₄²⁻ 
+- [ ] D. PO₄³⁻ 
+
+
+40. <p>2c00
+ Phosphoric acid and its conjugate base, phosphate, is abbreviated Pi and is formed by cells from the hydrolysis of ATP into ADP.
+Phosphoric acid is triprotic with pKa values of 2.16 , 7.21 , and 12.32 .
+Phosphoric acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 8.5 ?</p>
+- [ ] A. PO₄³⁻ 
+- [*] B. HPO₄²⁻ 
+- [ ] C. H₂PO₄⁻ 
+- [ ] D. H₃PO₄ 
+
+
+41. <p>76a2
+ Phosphoric acid and its conjugate base, phosphate, is abbreviated Pi and is formed by cells from the hydrolysis of ATP into ADP.
+Phosphoric acid is triprotic with pKa values of 2.16 , 7.21 , and 12.32 .
+Phosphoric acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 9.0 ?</p>
+- [ ] A. H₃PO₄ 
+- [ ] B. H₂PO₄⁻ 
+- [*] C. HPO₄²⁻ 
+- [ ] D. PO₄³⁻ 
+
+
+42. <p>1e0f
+ Phosphoric acid and its conjugate base, phosphate, is abbreviated Pi and is formed by cells from the hydrolysis of ATP into ADP.
+Phosphoric acid is triprotic with pKa values of 2.16 , 7.21 , and 12.32 .
+Phosphoric acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 9.5 ?</p>
+- [ ] A. PO₄³⁻ 
+- [*] B. HPO₄²⁻ 
+- [ ] C. H₂PO₄⁻ 
+- [ ] D. H₃PO₄ 
+
+
+43. <p>feb2
+ Phosphoric acid and its conjugate base, phosphate, is abbreviated Pi and is formed by cells from the hydrolysis of ATP into ADP.
+Phosphoric acid is triprotic with pKa values of 2.16 , 7.21 , and 12.32 .
+Phosphoric acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 10.0 ?</p>
+- [ ] A. H₃PO₄ 
+- [ ] B. H₂PO₄⁻ 
+- [*] C. HPO₄²⁻ 
+- [ ] D. PO₄³⁻ 
+
+
+44. <p>961f
+ Phosphoric acid and its conjugate base, phosphate, is abbreviated Pi and is formed by cells from the hydrolysis of ATP into ADP.
+Phosphoric acid is triprotic with pKa values of 2.16 , 7.21 , and 12.32 .
+Phosphoric acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 10.5 ?</p>
+- [ ] A. PO₄³⁻ 
+- [*] B. HPO₄²⁻ 
+- [ ] C. H₂PO₄⁻ 
+- [ ] D. H₃PO₄ 
+
+
+45. <p>685e
+ Phosphoric acid and its conjugate base, phosphate, is abbreviated Pi and is formed by cells from the hydrolysis of ATP into ADP.
+Phosphoric acid is triprotic with pKa values of 2.16 , 7.21 , and 12.32 .
+Phosphoric acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 11.0 ?</p>
+- [ ] A. PO₄³⁻ 
+- [*] B. HPO₄²⁻ 
+- [ ] C. H₂PO₄⁻ 
+- [ ] D. H₃PO₄ 
+
+
+46. <p>00f3
+ Phosphoric acid and its conjugate base, phosphate, is abbreviated Pi and is formed by cells from the hydrolysis of ATP into ADP.
+Phosphoric acid is triprotic with pKa values of 2.16 , 7.21 , and 12.32 .
+Phosphoric acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 11.5 ?</p>
+- [ ] A. H₃PO₄ 
+- [ ] B. H₂PO₄⁻ 
+- [*] C. HPO₄²⁻ 
+- [ ] D. PO₄³⁻ 
+
+
+47. <p>1e7c
+ Phosphoric acid and its conjugate base, phosphate, is abbreviated Pi and is formed by cells from the hydrolysis of ATP into ADP.
+Phosphoric acid is triprotic with pKa values of 2.16 , 7.21 , and 12.32 .
+Phosphoric acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 13.0 ?</p>
+- [*] A. PO₄³⁻ 
+- [ ] B. HPO₄²⁻ 
+- [ ] C. H₂PO₄⁻ 
+- [ ] D. H₃PO₄ 
+
+
+48. <p>13c5
+ Phosphoric acid and its conjugate base, phosphate, is abbreviated Pi and is formed by cells from the hydrolysis of ATP into ADP.
+Phosphoric acid is triprotic with pKa values of 2.16 , 7.21 , and 12.32 .
+Phosphoric acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 13.5 ?</p>
+- [ ] A. H₃PO₄ 
+- [ ] B. H₂PO₄⁻ 
+- [ ] C. HPO₄²⁻ 
+- [*] D. PO₄³⁻ 
+
+
+49. <p>9b23
+ Phosphoric acid and its conjugate base, phosphate, is abbreviated Pi and is formed by cells from the hydrolysis of ATP into ADP.
+Phosphoric acid is triprotic with pKa values of 2.16 , 7.21 , and 12.32 .
+Phosphoric acid has four possible protonation states in the choices below.
+Which one of the following protonation states is the most abundant at pH 14.0 ?</p>
+- [*] A. PO₄³⁻ 
+- [ ] B. HPO₄²⁻ 
+- [ ] C. H₂PO₄⁻ 
+- [ ] D. H₃PO₄ 
+
+

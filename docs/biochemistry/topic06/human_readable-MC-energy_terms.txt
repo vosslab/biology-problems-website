@@ -1,0 +1,594 @@
+1. <p>021a
+Which one of the following energy requirement categories correspond to the energy term 'condensation reactions ' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+2. <p>021a
+Which one of the following energy requirement categories correspond to the energy term 'condensation reactions ' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+3. <p>2003
+Which one of the following energy requirement categories correspond to the energy term 'isomerization, bond rearrangement reactions ' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+4. <p>2003
+Which one of the following energy requirement categories correspond to the energy term 'isomerization, bond rearrangement reactions ' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+5. <p>2003
+Which one of the following energy requirement categories correspond to the energy term 'isomerization, bond rearrangement reactions ' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+6. <p>2003
+Which one of the following energy requirement categories correspond to the energy term 'isomerization, bond rearrangement reactions ' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+7. <p>2003
+Which one of the following energy requirement categories correspond to the energy term 'isomerization, bond rearrangement reactions ' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+8. <p>204b
+Which one of the following energy requirement categories correspond to the energy term 'catabolic' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+9. <p>204b
+Which one of the following energy requirement categories correspond to the energy term 'catabolic' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+10. <p>204b
+Which one of the following energy requirement categories correspond to the energy term 'catabolic' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+11. <p>204b
+Which one of the following energy requirement categories correspond to the energy term 'catabolic' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+12. <p>2999
+Which one of the following energy requirement categories correspond to the energy term 'Gibbs free energy greater than zero' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+13. <p>2999
+Which one of the following energy requirement categories correspond to the energy term 'Gibbs free energy greater than zero' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+14. <p>2999
+Which one of the following energy requirement categories correspond to the energy term 'Gibbs free energy greater than zero' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+15. <p>2999
+Which one of the following energy requirement categories correspond to the energy term 'Gibbs free energy greater than zero' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+16. <p>2a30
+Which one of the following energy requirement categories correspond to the energy term 'ΔG°′ < 0' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+17. <p>2a30
+Which one of the following energy requirement categories correspond to the energy term 'ΔG°′ < 0' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+18. <p>2a30
+Which one of the following energy requirement categories correspond to the energy term 'ΔG°′ < 0' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+19. <p>2a30
+Which one of the following energy requirement categories correspond to the energy term 'ΔG°′ < 0' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+20. <p>3cc5
+Which one of the following energy requirement categories correspond to the energy term 'ΔG > 0' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+21. <p>3cc5
+Which one of the following energy requirement categories correspond to the energy term 'ΔG > 0' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+22. <p>3cc5
+Which one of the following energy requirement categories correspond to the energy term 'ΔG > 0' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+23. <p>49e0
+Which one of the following energy requirement categories correspond to the energy term 'making larger, complex molecules' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+24. <p>49e0
+Which one of the following energy requirement categories correspond to the energy term 'making larger, complex molecules' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+25. <p>49e0
+Which one of the following energy requirement categories correspond to the energy term 'making larger, complex molecules' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+26. <p>581a
+Which one of the following energy requirement categories correspond to the energy term 'exergonic' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+27. <p>581a
+Which one of the following energy requirement categories correspond to the energy term 'exergonic' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+28. <p>581a
+Which one of the following energy requirement categories correspond to the energy term 'exergonic' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+29. <p>581a
+Which one of the following energy requirement categories correspond to the energy term 'exergonic' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+30. <p>586f
+Which one of the following energy requirement categories correspond to the energy term 'ΔG < 0' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+31. <p>586f
+Which one of the following energy requirement categories correspond to the energy term 'ΔG < 0' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+32. <p>586f
+Which one of the following energy requirement categories correspond to the energy term 'ΔG < 0' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+33. <p>586f
+Which one of the following energy requirement categories correspond to the energy term 'ΔG < 0' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+34. <p>589c
+Which one of the following energy requirement categories correspond to the energy term 'bio-synthesis' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+35. <p>589c
+Which one of the following energy requirement categories correspond to the energy term 'bio-synthesis' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+36. <p>589c
+Which one of the following energy requirement categories correspond to the energy term 'bio-synthesis' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+37. <p>589c
+Which one of the following energy requirement categories correspond to the energy term 'bio-synthesis' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+38. <p>589c
+Which one of the following energy requirement categories correspond to the energy term 'bio-synthesis' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+39. <p>5d02
+Which one of the following energy requirement categories correspond to the energy term ' breaking bonds' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+40. <p>5d02
+Which one of the following energy requirement categories correspond to the energy term ' breaking bonds' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+41. <p>5d02
+Which one of the following energy requirement categories correspond to the energy term ' breaking bonds' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+42. <p>6821
+Which one of the following energy requirement categories correspond to the energy term 'building muscle' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+43. <p>6821
+Which one of the following energy requirement categories correspond to the energy term 'building muscle' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+44. <p>6821
+Which one of the following energy requirement categories correspond to the energy term 'building muscle' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+45. <p>6a56
+Which one of the following energy requirement categories correspond to the energy term 'hydrolysis reactions ' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+46. <p>6a56
+Which one of the following energy requirement categories correspond to the energy term 'hydrolysis reactions ' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+47. <p>6a56
+Which one of the following energy requirement categories correspond to the energy term 'hydrolysis reactions ' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+48. <p>6a56
+Which one of the following energy requirement categories correspond to the energy term 'hydrolysis reactions ' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+49. <p>7376
+Which one of the following energy requirement categories correspond to the energy term 'dehydration reactions ' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+50. <p>7376
+Which one of the following energy requirement categories correspond to the energy term 'dehydration reactions ' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+51. <p>7376
+Which one of the following energy requirement categories correspond to the energy term 'dehydration reactions ' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+52. <p>7376
+Which one of the following energy requirement categories correspond to the energy term 'dehydration reactions ' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+53. <p>7376
+Which one of the following energy requirement categories correspond to the energy term 'dehydration reactions ' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+54. <p>8230
+Which one of the following energy requirement categories correspond to the energy term 'polymer formation ' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+55. <p>8230
+Which one of the following energy requirement categories correspond to the energy term 'polymer formation ' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+56. <p>8230
+Which one of the following energy requirement categories correspond to the energy term 'polymer formation ' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+57. <p>8230
+Which one of the following energy requirement categories correspond to the energy term 'polymer formation ' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+58. <p>923d
+Which one of the following energy requirement categories correspond to the energy term 'bond formation ' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+59. <p>923d
+Which one of the following energy requirement categories correspond to the energy term 'bond formation ' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+60. <p>973b
+Which one of the following energy requirement categories correspond to the energy term 'anabolic' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+61. <p>973b
+Which one of the following energy requirement categories correspond to the energy term 'anabolic' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+62. <p>973b
+Which one of the following energy requirement categories correspond to the energy term 'anabolic' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+63. <p>97d9
+Which one of the following energy requirement categories correspond to the energy term 'ΔG°′ > 0' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+64. <p>97d9
+Which one of the following energy requirement categories correspond to the energy term 'ΔG°′ > 0' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+65. <p>97d9
+Which one of the following energy requirement categories correspond to the energy term 'ΔG°′ > 0' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+66. <p>9abb
+Which one of the following energy requirement categories correspond to the energy term 'forming bonds' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+67. <p>9abb
+Which one of the following energy requirement categories correspond to the energy term 'forming bonds' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+68. <p>9abb
+Which one of the following energy requirement categories correspond to the energy term 'forming bonds' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+69. <p>9ba9
+Which one of the following energy requirement categories correspond to the energy term 'polymer breakdown' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+70. <p>9ba9
+Which one of the following energy requirement categories correspond to the energy term 'polymer breakdown' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+71. <p>9ba9
+Which one of the following energy requirement categories correspond to the energy term 'polymer breakdown' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+72. <p>9ba9
+Which one of the following energy requirement categories correspond to the energy term 'polymer breakdown' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+73. <p>a1d1
+Which one of the following energy requirement categories correspond to the energy term ' breaking down polymers' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+74. <p>a1d1
+Which one of the following energy requirement categories correspond to the energy term ' breaking down polymers' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+75. <p>a1d1
+Which one of the following energy requirement categories correspond to the energy term ' breaking down polymers' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+76. <p>a1d1
+Which one of the following energy requirement categories correspond to the energy term ' breaking down polymers' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+77. <p>acad
+Which one of the following energy requirement categories correspond to the energy term 'spontaneous' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+78. <p>acad
+Which one of the following energy requirement categories correspond to the energy term 'spontaneous' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+79. <p>acad
+Which one of the following energy requirement categories correspond to the energy term 'spontaneous' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+80. <p>be0a
+Which one of the following energy requirement categories correspond to the energy term ' formation of polymers' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+81. <p>be0a
+Which one of the following energy requirement categories correspond to the energy term ' formation of polymers' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+82. <p>be0a
+Which one of the following energy requirement categories correspond to the energy term ' formation of polymers' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+83. <p>be0a
+Which one of the following energy requirement categories correspond to the energy term ' formation of polymers' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+84. <p>ce7f
+Which one of the following energy requirement categories correspond to the energy term 'digestion' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+85. <p>ce7f
+Which one of the following energy requirement categories correspond to the energy term 'digestion' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+86. <p>ce7f
+Which one of the following energy requirement categories correspond to the energy term 'digestion' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+87. <p>ce7f
+Which one of the following energy requirement categories correspond to the energy term 'digestion' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+88. <p>d8b4
+Which one of the following energy requirement categories correspond to the energy term ' breaking down food' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+89. <p>d8b4
+Which one of the following energy requirement categories correspond to the energy term ' breaking down food' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+90. <p>d8b4
+Which one of the following energy requirement categories correspond to the energy term ' breaking down food' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+91. <p>d8b4
+Which one of the following energy requirement categories correspond to the energy term ' breaking down food' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+92. <p>dd71
+Which one of the following energy requirement categories correspond to the energy term 'endergonic' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+93. <p>dd71
+Which one of the following energy requirement categories correspond to the energy term 'endergonic' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+94. <p>dd71
+Which one of the following energy requirement categories correspond to the energy term 'endergonic' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+95. <p>fcfb
+Which one of the following energy requirement categories correspond to the energy term 'non-spontaneous' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+96. <p>fcfb
+Which one of the following energy requirement categories correspond to the energy term 'non-spontaneous' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+97. <p>fcfb
+Which one of the following energy requirement categories correspond to the energy term 'non-spontaneous' .</p>
+- [ ] A. releases energy 
+- [*] B. requires energy input 
+
+
+98. <p>fde4
+Which one of the following energy requirement categories correspond to the energy term 'Gibbs free energy less than zero' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
+99. <p>fde4
+Which one of the following energy requirement categories correspond to the energy term 'Gibbs free energy less than zero' .</p>
+- [*] A. releases energy 
+- [ ] B. requires energy input 
+
+
