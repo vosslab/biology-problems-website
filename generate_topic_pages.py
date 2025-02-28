@@ -107,40 +107,53 @@ def get_topic_description(parent_folder: str, relative_topic_name: str) -> str:
 	raise ValueError(f"No description found for topic: {relative_topic_name}")
 
 #==============
+def create_downloadable_format(bbq_file: str, prefix: str, extension: str):
+	if prefix == "bbq":
+		raise ValueError
+	file_path = get_outfile_name(bbq_file, prefix, extension)
+	if os.path.exists(file_path):
+		os.remove(file_path)
+	convert_cmd = "python3 bbq_converter.py "
+	convert_cmd += f"--{prefix} "
+	convert_cmd += f"--input {bbq_file} "
+	convert_cmd += f"--output {file_path}"
+	proc = subprocess.Popen(convert_cmd, shell=True)
+	proc.communicate()
+	if not os.path.isfile(file_path):
+		print(convert_cmd)
+		print(f"FAIL: {prefix}, {extension}, {bbq_file}")
+		#raise FileNotFoundError(file_path)
+	return file_path
+
+#==============
 def generate_download_button_row(bbq_file_name: str) -> str:
 	"""
 	Generates a row of HTML buttons for downloading various file types.
-
-	Args:
-		bbq_core_name (str): The base name used to generate filenames.
-
-	Returns:
-		str: HTML string containing the button row.
 	"""
 
 	# Define file types with their prefixes, suffixes, and button classes
 	file_types = {
 		"bb_text": {
-			"prefix": "bbq-",
-			"suffix": "-questions.txt",
+			"prefix": "bbq",
+			"extension": "txt",
 			"button_class": "bb_text",
 			"display_name": "Blackboard TXT"
 		},
 		"bb_qti": {
-			"prefix": "blackboard-",
-			"suffix": "-qti21.zip",
+			"prefix": "blackboard_qti_v2_1",
+			"extension": "zip",
 			"button_class": "bb_qti",
 			"display_name": "Blackboard QTI v2.1"
 		},
 		"canvas_qti": {
-			"prefix": "canvas-",
-			"suffix": "-qti12.zip",
+			"prefix": "canvas_qti_v1_2",
+			"extension": "zip",
 			"button_class": "canvas_qti",
 			"display_name": "Canvas/ADAPT QTI v1.2"
 		},
 		"human_read": {
-			"prefix": "human-",
-			"suffix": ".txt",
+			"prefix": "human_readable",
+			"extension": "txt",
 			"button_class": "human_read",
 			"display_name": "Human-Readable TXT"
 		}
@@ -156,23 +169,34 @@ def generate_download_button_row(bbq_file_name: str) -> str:
 	# Generate a button for each file type
 	for type_key, file_type in file_types.items():
 		# Construct the filename using the base name and file type details
-		file_basename = f"{file_type['prefix']}{bbq_core_name}{file_type['suffix']}"
-		if file_type == "bb_text" and bbq_base_name != file_basename:
-			raise ValueError
-
-		file_path = os.path.join(dir_name, file_basename)
+		file_path = get_outfile_name(bbq_file_name, file_type['prefix'], file_type['extension'])
+		if type_key == "bb_text":
+			file_path = bbq_file_name
+		file_basename = os.path.basename(file_path)
+		if not os.path.isfile(file_path):
+			file_path = create_downloadable_format(bbq_file_name, file_type['prefix'], file_type['extension'])
 		if not os.path.isfile(file_path):
 			continue
-
+		file_basename = os.path.basename(file_path)
 		# Create HTML button element with corresponding attributes
-		button_html = (
-			f'<button class="md-button custom-button {file_type["button_class"]}" '
-			f'onclick="downloadFile(\'{file_basename}\')" '
-			f'title="Download {file_basename}" '
-			f'aria-label="Click to download the {file_type["display_name"]} file ({file_basename})">\n'
-			f'    <i class="fa fa-download"></i> {file_type["display_name"]}\n'
-			f'</button>'
-		)
+		if type_key == "human_read":
+			button_html = (
+				f'<button class="md-button custom-button {file_type["button_class"]}" '
+				f'onclick="window.open(\'{file_basename}\', \'_blank\')" '
+				f'title="View {file_basename}" '
+				f'aria-label="Click to view the {file_type["display_name"]} file ({file_basename})">\n'
+				f'    <i class="fa fa-eye"></i> {file_type["display_name"]}\n'
+				f'</button>'
+			)
+		else:
+			button_html = (
+				f'<button class="md-button custom-button {file_type["button_class"]}" '
+				f'onclick="downloadFile(\'{file_basename}\')" '
+				f'title="Download {file_basename}" '
+				f'aria-label="Click to download the {file_type["display_name"]} file ({file_basename})">\n'
+				f'    <i class="fa fa-download"></i> {file_type["display_name"]}\n'
+				f'</button>'
+			)
 		# Add the button to the HTML output
 		html_output += button_html + '\n'
 
@@ -238,7 +262,7 @@ def extract_core_name(bbq_file_name):
 		bbq_file_basename = os.path.basename(bbq_file_name)
 	else:
 		bbq_file_basename = bbq_file_name
-	match = re.search(r'^bbq-(.+?)-questions\.txt$', bbq_file_basename)
+	match = re.search(r'^bbq-(.+?)(-questions)?\.txt$', bbq_file_basename)
 	if not match:
 		raise ValueError
 	bbq_core_name = match.group(1)
@@ -300,16 +324,11 @@ def update_index_md(topic_folder: str, bbq_files: list) -> None:
 			bbq_file_basename = os.path.basename(bbq_file)
 			# Convert the text file to HTML
 			print(f'  BBQ file {bbq_file}')
+
 			html_file_path = get_outfile_name(bbq_file, 'selftest', 'html')
 			if os.path.exists(html_file_path):
 				os.remove(html_file_path)
-			convert_cmd = "python3 bbq_converter.py "
-			convert_cmd += f"--html "
-			convert_cmd += f"--input {bbq_file} "
-			convert_cmd += f"--output {html_file_path}"
-			print(convert_cmd)
-			proc = subprocess.Popen(convert_cmd, shell=True)
-			proc.communicate()
+			html_file_path = create_downloadable_format(bbq_file, 'selftest', 'html')
 			if not os.path.isfile(html_file_path):
 				raise FileNotFoundError(html_file_path)
 
