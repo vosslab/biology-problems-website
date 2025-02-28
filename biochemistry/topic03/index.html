@@ -16,7 +16,7 @@
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.4">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.5">
     
     
       
@@ -983,9 +983,9 @@
 </button>
 </div>
 <details>
-  <summary>
+  <summary>Click 
     <span style='font-weight: normal;'>
-      Click to show
+       to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
       Determining Dipeptide Sequence from Structure
@@ -994,9 +994,9 @@
       example problem
     </span>
   </summary>
-  <div id="question_html_8d74">
-  <div id="statement_text_8d74">
-  <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script><h4>peptide_4529</h4>
+  <div id="question_html_43cd_073e">
+  <div id="statement_text_43cd_073e">
+  <p>8d74</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script><h4>peptide_4529</h4>
   <p><canvas id="canvas_3197" width="480" height="512"></canvas></p>
   <hr>
   <script>/* */initRDKitModule().then(function(instance){RDKitModule=instance;console.log("RDKit:"+RDKitModule.version());/* */function/* */getPeptideBonds(mol){let/* */peptide_bond="CC(=O)NC";let/* */qmol=window.RDKitModule.get_qmol(peptide_bond);let/* */matches=JSON.parse(mol.get_substruct_matches(qmol));let/* */aggregatedBonds=[];for(let/* */i=0;i<matches.length;i++){match=matches[i];if(Array.isArray(match["bonds"])){aggregatedBonds.push(match["bonds"].slice(-2)[0]);}}return/* */aggregatedBonds;}let/* */smiles="[NH3+][C@@H](CCC(=O)N)(C(=O)N[C@@H](CS)(C(=O)[O-]))";let/* */mol=RDKitModule.get_mol(smiles);let/* */mdetails={};mdetails["bonds"]=getPeptideBonds(mol);mdetails["atoms"]=[0];mdetails["highlightColour"]=[0,1,0];mdetails["legend"]="peptide_4529";mdetails["explicitMethyl"]=true;canvas=document.getElementById("canvas_3197");mol.draw_to_canvas_with_highlights(canvas,JSON.stringify(mdetails));});/* */</script><p>A dipeptide is made up of two (2) amino acids. The figure above shows one such dipeptide with an unknown sequence. Your task is to find out the two (2) letter sequence of this dipeptide.<br>Here is a step-by-step guide to help you answer the question:</p> <ol>
@@ -1004,37 +1004,37 @@
   <p>Select the correct peptide sequence from the options below:</p>
   </div>
   <form>
-  <ul id="choices_8d74">
+  <ul id="choices_43cd_073e">
   <li>
-      <input type="radio" id="option0" name="answer_8d74" data-correct="false"><label for="option0">A.  QW  </label>
+      <input type="radio" id="option0" name="answer_43cd_073e" data-correct="false"><label for="option0">A.  QW  </label>
     </li>
     <li>
-      <input type="radio" id="option1" name="answer_8d74" data-correct="false"><label for="option1">B.  FW  </label>
+      <input type="radio" id="option1" name="answer_43cd_073e" data-correct="false"><label for="option1">B.  FW  </label>
     </li>
     <li>
-      <input type="radio" id="option2" name="answer_8d74" data-correct="false"><label for="option2">C.  MC  </label>
+      <input type="radio" id="option2" name="answer_43cd_073e" data-correct="false"><label for="option2">C.  MC  </label>
     </li>
     <li>
-      <input type="radio" id="option3" name="answer_8d74" data-correct="true"><label for="option3">D.  QC  </label>
+      <input type="radio" id="option3" name="answer_43cd_073e" data-correct="true"><label for="option3">D.  QC  </label>
     </li>
     <li>
-      <input type="radio" id="option4" name="answer_8d74" data-correct="false"><label for="option4">E.  YH  </label>
+      <input type="radio" id="option4" name="answer_43cd_073e" data-correct="false"><label for="option4">E.  YH  </label>
     </li>
   </ul>
-  <div id="result_8d74" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
-  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_8d74()">Check Answer</button>
+  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_43cd_073e()">Check Answer</button>
+  <div id="result_43cd_073e" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
   </form>
   <br>
   </div><script>
-  function checkAnswer_8d74() {
-   const options = document.getElementsByName('answer_8d74');
+  function checkAnswer_43cd_073e() {
+   const options = document.getElementsByName('answer_43cd_073e');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_8d74');
+   const resultDiv = document.getElementById('result_43cd_073e');
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.style.color = 'green';
@@ -1059,9 +1059,9 @@
 </button>
 </div>
 <details>
-  <summary>
+  <summary>Click 
     <span style='font-weight: normal;'>
-      Click to show
+       to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
       Identification of Amino Acids by Structural and Chemical Properties
@@ -1070,40 +1070,40 @@
       example problem
     </span>
   </summary>
-  <div id="question_html_7549">
-  <div id="statement_text_7549"><p>Which one of the following amino acids correspond to the description <span style="font-size: 1em;"><strong>'a <strong><span style="color: #ff0000;">negatively charged amino acid</span></strong> with a large, carboxylate (-COOH) <strong><span style="color: #6d108e;">side chain</span></strong>'</strong></span>.</p></div>
+  <div id="question_html_07e5_3a4e">
+  <div id="statement_text_07e5_3a4e"><p>e4dc<br>Which one of the following amino acids correspond to the description <span style="font-size: 1em;"><strong>'an <strong><span style="color: #ff5e00;">aromatic amino acid</span></strong> with a <strong><span style="color: #6d108e;">side chain</span></strong> containing a 5-membered nitrogenous ring and a pKa close to pH 7'</strong></span>.</p></div>
   <form>
-  <ul id="choices_7549">
+  <ul id="choices_07e5_3a4e">
   <li>
-      <input type="radio" id="option0" name="answer_7549" data-correct="true"><label for="option0">A.  <span style="font-family: sans-serif; letter-spacing: 1px;">glutamate</span>  </label>
+      <input type="radio" id="option0" name="answer_07e5_3a4e" data-correct="false"><label for="option0">A.  <span style="font-family: sans-serif; letter-spacing: 1px;">glutamate</span>  </label>
     </li>
     <li>
-      <input type="radio" id="option1" name="answer_7549" data-correct="false"><label for="option1">B.  <span style="font-family: sans-serif; letter-spacing: 1px;">glutamine</span>  </label>
+      <input type="radio" id="option1" name="answer_07e5_3a4e" data-correct="false"><label for="option1">B.  <span style="font-family: sans-serif; letter-spacing: 1px;">glutamine</span>  </label>
     </li>
     <li>
-      <input type="radio" id="option2" name="answer_7549" data-correct="false"><label for="option2">C.  <span style="font-family: sans-serif; letter-spacing: 1px;">isoleucine</span>  </label>
+      <input type="radio" id="option2" name="answer_07e5_3a4e" data-correct="true"><label for="option2">C.  <span style="font-family: sans-serif; letter-spacing: 1px;">histidine</span>  </label>
     </li>
     <li>
-      <input type="radio" id="option3" name="answer_7549" data-correct="false"><label for="option3">D.  <span style="font-family: sans-serif; letter-spacing: 1px;">phenylalanine</span>  </label>
+      <input type="radio" id="option3" name="answer_07e5_3a4e" data-correct="false"><label for="option3">D.  <span style="font-family: sans-serif; letter-spacing: 1px;">isoleucine</span>  </label>
     </li>
     <li>
-      <input type="radio" id="option4" name="answer_7549" data-correct="false"><label for="option4">E.  <span style="font-family: sans-serif; letter-spacing: 1px;">tryptophan</span>  </label>
+      <input type="radio" id="option4" name="answer_07e5_3a4e" data-correct="false"><label for="option4">E.  <span style="font-family: sans-serif; letter-spacing: 1px;">methionine</span>  </label>
     </li>
   </ul>
-  <div id="result_7549" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
-  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_7549()">Check Answer</button>
+  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_07e5_3a4e()">Check Answer</button>
+  <div id="result_07e5_3a4e" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
   </form>
   <br>
   </div><script>
-  function checkAnswer_7549() {
-   const options = document.getElementsByName('answer_7549');
+  function checkAnswer_07e5_3a4e() {
+   const options = document.getElementsByName('answer_07e5_3a4e');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_7549');
+   const resultDiv = document.getElementById('result_07e5_3a4e');
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.style.color = 'green';
@@ -1128,9 +1128,9 @@
 </button>
 </div>
 <details>
-  <summary>
+  <summary>Click 
     <span style='font-weight: normal;'>
-      Click to show
+       to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
       Amino Acids from Chemical Structures
@@ -1139,40 +1139,40 @@
       example problem
     </span>
   </summary>
-  <div id="question_html_5a3c">
-  <div id="statement_text_5a3c">
-  <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script><p><canvas id="canvas_3c1d" width="480" height="320"></canvas></p>
-  <script>/* */initRDKitModule().then(function(instance){RDKitModule=instance;console.log("RDKit:"+RDKitModule.version());/* */let/* */smiles="C1=C(NC=N1)C[C@@H](C(=O)O)N";let/* */mol=RDKitModule.get_mol(smiles);let/* */mdetails={};mdetails["legend"]="";mdetails["explicitMethyl"]=true;canvas=document.getElementById("canvas_3c1d");mol.draw_to_canvas_with_highlights(canvas,JSON.stringify(mdetails));});/* */</script><h3>Which one of the following amino acids is represented by the chemical structure shown above?</h3>
+  <div id="question_html_2d69_f59f">
+  <div id="statement_text_2d69_f59f">
+  <p>c1dd</p> <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script><p><canvas id="canvas_b32e" width="480" height="320"></canvas></p>
+  <script>/* */initRDKitModule().then(function(instance){RDKitModule=instance;console.log("RDKit:"+RDKitModule.version());/* */let/* */smiles="C([C@@H](C(=O)O)N)S";let/* */mol=RDKitModule.get_mol(smiles);let/* */mdetails={};mdetails["legend"]="";mdetails["explicitMethyl"]=true;canvas=document.getElementById("canvas_b32e");mol.draw_to_canvas_with_highlights(canvas,JSON.stringify(mdetails));});/* */</script><h3>Which one of the following amino acids is represented by the chemical structure shown above?</h3>
   </div>
   <form>
-  <ul id="choices_5a3c">
+  <ul id="choices_2d69_f59f">
   <li>
-      <input type="radio" id="option0" name="answer_5a3c" data-correct="false"><label for="option0">A.  glutamine  </label>
+      <input type="radio" id="option0" name="answer_2d69_f59f" data-correct="false"><label for="option0">A.  alanine  </label>
     </li>
     <li>
-      <input type="radio" id="option1" name="answer_5a3c" data-correct="true"><label for="option1">B.  histidine  </label>
+      <input type="radio" id="option1" name="answer_2d69_f59f" data-correct="false"><label for="option1">B.  aspartic acid  </label>
     </li>
     <li>
-      <input type="radio" id="option2" name="answer_5a3c" data-correct="false"><label for="option2">C.  methionine  </label>
+      <input type="radio" id="option2" name="answer_2d69_f59f" data-correct="true"><label for="option2">C.  cysteine  </label>
     </li>
     <li>
-      <input type="radio" id="option3" name="answer_5a3c" data-correct="false"><label for="option3">D.  proline  </label>
+      <input type="radio" id="option3" name="answer_2d69_f59f" data-correct="false"><label for="option3">D.  serine  </label>
     </li>
   </ul>
-  <div id="result_5a3c" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
-  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_5a3c()">Check Answer</button>
+  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_2d69_f59f()">Check Answer</button>
+  <div id="result_2d69_f59f" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
   </form>
   <br>
   </div><script>
-  function checkAnswer_5a3c() {
-   const options = document.getElementsByName('answer_5a3c');
+  function checkAnswer_2d69_f59f() {
+   const options = document.getElementsByName('answer_2d69_f59f');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_5a3c');
+   const resultDiv = document.getElementById('result_2d69_f59f');
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.style.color = 'green';
