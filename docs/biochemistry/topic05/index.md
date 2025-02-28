@@ -2,6 +2,27 @@
 
 Isolation and analysis methods, chromatography, electrophoresis.
 
+## Types and Descriptions of Column Chromatography
+
+<div id="MATCH-chromatography-button-container" class="button-container">
+<button class="md-button custom-button bb_text" onclick="downloadFile('bbq-MATCH-chromatography-questions.txt')" title="Download bbq-MATCH-chromatography-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-MATCH-chromatography-questions.txt)">
+    <i class="fa fa-download"></i> Blackboard TXT
+</button>
+</div><details>
+  <summary>Click 
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Types and Descriptions of Column Chromatography
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biochemistry/topic05/selftest-MATCH-chromatography.html" %}
+
+</details>
 ## Cell Disruption Techniques Identification
 
 <div id="MC-cell_disruption-button-container" class="button-container">

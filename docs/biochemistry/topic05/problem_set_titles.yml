@@ -1,3 +1,4 @@
+bbq-MATCH-chromatography-questions.txt: Types and Descriptions of Column Chromatography
 bbq-MC-cell_disruption-questions.txt: Cell Disruption Techniques Identification
 bbq-MC-chromatography-questions.txt: Types of Column Chromatography
 bbq-MC-protein_v_dna_gels-questions.txt: Identification of Macromolecules in Gel Electrophoresis
@@ -8,4 +9,4 @@ bbq-isoelectric_two_proteins-questions.txt: Protein Migration Direction Based on
   Point
 bbq-protein_gel_migration-questions.txt: Estimating Protein Molecular Weight from
   SDS-PAGE Migration
-last edit: Sat Feb  1 16:42:48 2025
+last edit: Fri Feb 28 14:24:20 2025
