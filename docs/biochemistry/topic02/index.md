@@ -9,9 +9,9 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>
+  <summary>Click 
     <span style='font-weight: normal;'>
-      Click to show
+       to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
       Correct Form of the Henderson-Hasselbalch Equation
@@ -20,7 +20,7 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic02/Henderson-Hasselbalch-EQUATION.html" %}
+  {% include "biochemistry/topic02/selftest-Henderson-Hasselbalch-EQUATION.html" %}
 
 </details>
 ## Optimal Buffering Range using pKa
@@ -30,9 +30,9 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>
+  <summary>Click 
     <span style='font-weight: normal;'>
-      Click to show
+       to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
       Optimal Buffering Range using pKa
@@ -41,7 +41,7 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic02/optimal_buffering_range.html" %}
+  {% include "biochemistry/topic02/selftest-optimal_buffering_range.html" %}
 
 </details>
 ## Most Abundant Diprotic State at pH using pKa
@@ -51,9 +51,9 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>
+  <summary>Click 
     <span style='font-weight: normal;'>
-      Click to show
+       to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
       Most Abundant Diprotic State at pH using pKa
@@ -62,7 +62,7 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic02/pKa_buffer_state-2_protons.html" %}
+  {% include "biochemistry/topic02/selftest-pKa_buffer_state-2_protons.html" %}
 
 </details>
 ## Most Abundant Triprotic State at pH using pKa
@@ -72,9 +72,9 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>
+  <summary>Click 
     <span style='font-weight: normal;'>
-      Click to show
+       to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
       Most Abundant Triprotic State at pH using pKa
@@ -83,7 +83,7 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic02/pKa_buffer_state-3_protons.html" %}
+  {% include "biochemistry/topic02/selftest-pKa_buffer_state-3_protons.html" %}
 
 </details>
 ## Most Abundant Tetraprotic State at pH using pKa
@@ -93,9 +93,9 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>
+  <summary>Click 
     <span style='font-weight: normal;'>
-      Click to show
+       to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
       Most Abundant Tetraprotic State at pH using pKa
@@ -104,6 +104,6 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic02/pKa_buffer_state-4_protons.html" %}
+  {% include "biochemistry/topic02/selftest-pKa_buffer_state-4_protons.html" %}
 
 </details>

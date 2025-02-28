@@ -9,9 +9,9 @@ Ligand binding, allosteric effects, and feedback regulation.
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
 </div><details>
-  <summary>
+  <summary>Click 
     <span style='font-weight: normal;'>
-      Click to show
+       to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
       Allosteric Enzymes in Metabolic Pathways
@@ -20,6 +20,6 @@ Ligand binding, allosteric effects, and feedback regulation.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic08/metabolic_pathway_allosteric.html" %}
+  {% include "biochemistry/topic08/selftest-metabolic_pathway_allosteric.html" %}
 
 </details>

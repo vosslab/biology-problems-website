@@ -6,12 +6,12 @@ import re
 import sys
 import glob
 import time
+import subprocess
 
 # PIP3 modules
 import yaml
 
 # Local
-import bb_text_to_html
 import llm_generate_problem_set_title
 
 #==============
@@ -128,18 +128,18 @@ def generate_download_button_row(bbq_file_name: str) -> str:
 		},
 		"bb_qti": {
 			"prefix": "blackboard-",
-			"suffix": "-qti21.txt",
+			"suffix": "-qti21.zip",
 			"button_class": "bb_qti",
 			"display_name": "Blackboard QTI v2.1"
 		},
 		"canvas_qti": {
 			"prefix": "canvas-",
-			"suffix": "-qti12.txt",
+			"suffix": "-qti12.zip",
 			"button_class": "canvas_qti",
 			"display_name": "Canvas/ADAPT QTI v1.2"
 		},
 		"human_read": {
-			"prefix": "human_read-",
+			"prefix": "human-",
 			"suffix": ".txt",
 			"button_class": "human_read",
 			"display_name": "Human-Readable TXT"
@@ -245,6 +245,18 @@ def extract_core_name(bbq_file_name):
 	return bbq_core_name
 
 #==============
+def get_outfile_name(bbq_file_name: str, prefix: str, extension: str):
+	dirname = os.path.dirname(bbq_file_name)
+	outfile = extract_core_name(bbq_file_name)
+	if not outfile.startswith(prefix):
+		outfile = f'{prefix}-{outfile}'
+	# Ensure the extension is '.txt'
+	if not outfile.endswith("." + extension):
+		outfile += "." + extension
+	outfile = os.path.join(dirname, outfile)
+	return outfile
+
+#==============
 
 def update_index_md(topic_folder: str, bbq_files: list) -> None:
 	"""Update or create the index.md file for the topic.
@@ -288,9 +300,18 @@ def update_index_md(topic_folder: str, bbq_files: list) -> None:
 			bbq_file_basename = os.path.basename(bbq_file)
 			# Convert the text file to HTML
 			print(f'  BBQ file {bbq_file}')
-			html_file = bb_text_to_html.get_output_filename(bbq_file)
-			html_file_path = os.path.join(normalized_path, html_file)
-			bb_text_to_html.convert_text_to_html(bbq_file, html_file_path)
+			html_file_path = get_outfile_name(bbq_file, 'selftest', 'html')
+			if os.path.exists(html_file_path):
+				os.remove(html_file_path)
+			convert_cmd = "python3 bbq_converter.py "
+			convert_cmd += f"--html "
+			convert_cmd += f"--input {bbq_file} "
+			convert_cmd += f"--output {html_file_path}"
+			print(convert_cmd)
+			proc = subprocess.Popen(convert_cmd, shell=True)
+			proc.communicate()
+			if not os.path.isfile(html_file_path):
+				raise FileNotFoundError(html_file_path)
 
 			# Generate the problem set title using the LLM
 			problem_set_title = get_problem_set_title(bbq_file)
