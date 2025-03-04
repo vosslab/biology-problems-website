@@ -131,9 +131,6 @@ Isolation and analysis methods, chromatography, electrophoresis.
 <button class="md-button custom-button canvas_qti" onclick="downloadFile('canvas_qti_v1_2-isoelectric_one_protein.zip')" title="Download canvas_qti_v1_2-isoelectric_one_protein.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-isoelectric_one_protein.zip)">
     <i class="fa fa-download"></i> Canvas/ADAPT QTI v1.2
 </button>
-<button class="md-button custom-button human_read" onclick="window.open('human_readable-isoelectric_one_protein.txt', '_blank')" title="View human_readable-isoelectric_one_protein.txt" aria-label="Click to view the Human-Readable TXT file (human_readable-isoelectric_one_protein.txt)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
 </div><details>
   <summary>Click 
     <span style='font-weight: normal;'>
@@ -161,9 +158,6 @@ Isolation and analysis methods, chromatography, electrophoresis.
 <button class="md-button custom-button canvas_qti" onclick="downloadFile('canvas_qti_v1_2-isoelectric_two_proteins.zip')" title="Download canvas_qti_v1_2-isoelectric_two_proteins.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-isoelectric_two_proteins.zip)">
     <i class="fa fa-download"></i> Canvas/ADAPT QTI v1.2
 </button>
-<button class="md-button custom-button human_read" onclick="window.open('human_readable-isoelectric_two_proteins.txt', '_blank')" title="View human_readable-isoelectric_two_proteins.txt" aria-label="Click to view the Human-Readable TXT file (human_readable-isoelectric_two_proteins.txt)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
 </div><details>
   <summary>Click 
     <span style='font-weight: normal;'>
@@ -190,9 +184,6 @@ Isolation and analysis methods, chromatography, electrophoresis.
 </button>
 <button class="md-button custom-button canvas_qti" onclick="downloadFile('canvas_qti_v1_2-protein_gel_migration.zip')" title="Download canvas_qti_v1_2-protein_gel_migration.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-protein_gel_migration.zip)">
     <i class="fa fa-download"></i> Canvas/ADAPT QTI v1.2
-</button>
-<button class="md-button custom-button human_read" onclick="window.open('human_readable-protein_gel_migration.txt', '_blank')" title="View human_readable-protein_gel_migration.txt" aria-label="Click to view the Human-Readable TXT file (human_readable-protein_gel_migration.txt)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
   <summary>Click 
