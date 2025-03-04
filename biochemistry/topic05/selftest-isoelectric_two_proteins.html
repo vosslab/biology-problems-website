@@ -1,53 +1,53 @@
-<div id="question_html_5de3_d13f">
-<div id="statement_text_5de3_d13f">
-<p>bef5</p> <h6>Isoelectric Point Problem</h6> <p>A mixture of two proteins are to be separated by isoelectric focusing.</p> <table cellpadding="2" cellspacing="2" style="text-align:center; border: 1px solid black;">
+<div id="question_html_fd7a_f342">
+<div id="statement_text_fd7a_f342">
+<p>00b7</p> <h6>Isoelectric Point Problem</h6> <p>A mixture of two proteins are to be separated by isoelectric focusing.</p> <table cellpadding="2" cellspacing="2" style="text-align:center; border: 1px solid black;">
 <tr>
 <th>Protein<br>Name</th>
 <th>Isoelectric<br>Point (pI)</th>
 <th>Molecular<br>Weight</th>
 </tr>
 <tr>
-<td>Immunoglobulin (IgG)</td>
-<td align="right">7.3</td>
-<td align="right">145.0</td>
+<td>Ferritin (Fer)</td>
+<td align="right">5.5</td>
+<td align="right">19.8</td>
 </tr>
 <tr>
-<td>Xylosidase (Xyl)</td>
-<td align="right">5.0</td>
-<td align="right">100.0</td>
+<td>Myelin Basic Protein (MBP)</td>
+<td align="right">9.5</td>
+<td align="right">18.0</td>
 </tr>
 </table>
-<p>Both protein samples are placed into a gel with a constant pH of 8.5. The gel is then placed into an electric field.<br>In which direction will each protein in the table migrate at <b>pH 8.5</b>?</p>
+<p>Both protein samples are placed into a gel with a constant pH of 7.5. The gel is then placed into an electric field.<br>In which direction will each protein in the table migrate at <b>pH 7.5</b>?</p>
 </div>
 <form>
-<ul id="choices_5de3_d13f">
+<ul id="choices_fd7a_f342">
 <li>
-    <input type="radio" id="option0" name="answer_5de3_d13f" data-correct="true"><label for="option0">A.  Both IgG and Xyl will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal  </label>
+    <input type="radio" id="option0" name="answer_fd7a_f342" data-correct="false"><label for="option0">A.  Both Fer and MBP will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal  </label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_5de3_d13f" data-correct="false"><label for="option1">B.  Both IgG and Xyl will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal  </label>
+    <input type="radio" id="option1" name="answer_fd7a_f342" data-correct="false"><label for="option1">B.  Both Fer and MBP will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal  </label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_5de3_d13f" data-correct="false"><label for="option2">C.  IgG will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal<br> Xyl will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal  </label>
+    <input type="radio" id="option2" name="answer_fd7a_f342" data-correct="false"><label for="option2">C.  Fer will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal<br> MBP will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal  </label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_5de3_d13f" data-correct="false"><label for="option3">D.  IgG will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal<br> Xyl will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal  </label>
+    <input type="radio" id="option3" name="answer_fd7a_f342" data-correct="true"><label for="option3">D.  Fer will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal<br> MBP will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal  </label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_5de3_d13f()">Check Answer</button>
-<div id="result_5de3_d13f" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_fd7a_f342()">Check Answer</button>
+<div id="result_fd7a_f342" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_5de3_d13f() {
- const options = document.getElementsByName('answer_5de3_d13f');
+function checkAnswer_fd7a_f342() {
+ const options = document.getElementsByName('answer_fd7a_f342');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_5de3_d13f');
+ const resultDiv = document.getElementById('result_fd7a_f342');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';
