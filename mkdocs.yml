@@ -54,4 +54,6 @@ nav:
   - Topic 08: genetics/topic08/index.md
   - Topic 09: genetics/topic09/index.md
   - Topic 10: genetics/topic10/index.md
-
+- Tutorials:
+  - 'List of Tutorials': tutorials/index.md
+  - "Blackboard BBQ Text File Upload": tutorials/bbq_tutorial.md
