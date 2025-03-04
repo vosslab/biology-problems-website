@@ -1,6 +1,6 @@
 # About the Author
 
-![Profile image of Dr. Neil R. Voss](assets/images/neil_square_thumb_avatar-150px-2022.png){: style="width: 150px; border-radius: 50%;"}
+![Profile image of Dr. Neil R. Voss](assets/images/neil_square_thumb_avatar-150px-2022.png){ width="150" style="border-radius: 50%;" }
 
 Dr. Neil R. Voss is an Associate Professor of Biology at Roosevelt University, where he has been dedicated to teaching and mentoring students since 2010. With a Ph.D. in Molecular Biophysics and Biochemistry, as well as B.S. degrees in both Mathematics and Physics, Dr. Voss also has extensive experience in computer programming and software development. He specializes in Python programming and has applied his computational expertise to problem set development shared on this website.
 
