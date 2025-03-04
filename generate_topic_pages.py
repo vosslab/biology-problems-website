@@ -113,6 +113,10 @@ def create_downloadable_format(bbq_file: str, prefix: str, extension: str):
 	file_path = get_outfile_name(bbq_file, prefix, extension)
 	if os.path.exists(file_path):
 		os.remove(file_path)
+	if not os.path.exists("bbq_converter.py"):
+		print("cannot find bbq_converter.py")
+		print("ln -sv ~/nsh/qti_package_maker/tools/bbq_converter.py .")
+		raise FileNotFoundError
 	convert_cmd = "python3 bbq_converter.py "
 	convert_cmd += f"--{prefix} "
 	convert_cmd += f"--input {bbq_file} "
