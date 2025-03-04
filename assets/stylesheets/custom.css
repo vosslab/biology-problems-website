@@ -21,6 +21,10 @@
   content: "\f019";
 }
 
+.fa-eye:before {
+  content: "\f06e";
+}
+
 /* Flexbox layout for button container */
 .button-container {
   display: flex;
