@@ -17,19 +17,22 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
 
+markdown_extensions:
+- attr_list
+
 plugins:
 - search
 - include-markdown
 
 extra_css:
-  - assets/stylesheets/custom.css
+- assets/stylesheets/custom.css
 
 extra_javascript:
-  - assets/scripts/custom.js
+- assets/scripts/custom.js
 
 nav:
 - Home: index.md
-- Biochemistry:
+- 🧪 Biochemistry:
   - 'List of Topics': biochemistry/index.md
   - 'Topic 1: The Molecular Design of Life': biochemistry/topic01/index.md
   - 'Topic 2: Water Chemistry and pH': biochemistry/topic02/index.md
@@ -42,7 +45,7 @@ nav:
   - 'Topic 9: Carbohydrates: Monosaccharides to Polysaccharides': biochemistry/topic09/index.md
   - 'Topic 10: Nucleic Acids: Structure and Applications': biochemistry/topic10/index.md
   - 'Topic 11: Biochemistry of Human Senses': biochemistry/topic11/index.md
-- Genetics:
+- 🧬 Genetics:
   - 'List of Topics': genetics/index.md
   - Topic 01: genetics/topic01/index.md
   - Topic 02: genetics/topic02/index.md
@@ -57,3 +60,4 @@ nav:
 - Tutorials:
   - 'List of Tutorials': tutorials/index.md
   - "Blackboard BBQ Text File Upload": tutorials/bbq_tutorial.md
+- About the Author: author.md
