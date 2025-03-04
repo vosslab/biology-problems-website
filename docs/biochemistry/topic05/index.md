@@ -8,9 +8,6 @@ Isolation and analysis methods, chromatography, electrophoresis.
 <button class="md-button custom-button bb_text" onclick="downloadFile('bbq-MATCH-chromatography-questions.txt')" title="Download bbq-MATCH-chromatography-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-MATCH-chromatography-questions.txt)">
     <i class="fa fa-download"></i> Blackboard TXT
 </button>
-<button class="md-button custom-button bb_qti" onclick="downloadFile('blackboard_qti_v2_1-MATCH-chromatography.zip')" title="Download blackboard_qti_v2_1-MATCH-chromatography.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-MATCH-chromatography.zip)">
-    <i class="fa fa-download"></i> Blackboard QTI v2.1
-</button>
 <button class="md-button custom-button canvas_qti" onclick="downloadFile('canvas_qti_v1_2-MATCH-chromatography.zip')" title="Download canvas_qti_v1_2-MATCH-chromatography.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-chromatography.zip)">
     <i class="fa fa-download"></i> Canvas/ADAPT QTI v1.2
 </button>
