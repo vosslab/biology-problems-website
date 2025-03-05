@@ -1,29 +1,31 @@
 @font-face {
-  font-family: 'FontAwesome';
-  src: url('/assets/fonts/fontawesome-webfont.woff2') format('woff2'),
-       url('/assets/fonts/fontawesome-webfont.woff') format('woff'),
-       url('/assets/fonts/fontawesome-webfont.ttf') format('truetype');
-  font-weight: normal;
+  font-family: 'Font Awesome 6 Free';
+  src: url('/assets/fonts/fa-solid-900.woff2') format('woff2'),
+       url('/assets/fonts/fa-solid-900.ttf') format('truetype');
+  font-weight: 900;
   font-style: normal;
 }
 
 .fa {
   display: inline-block;
-  margin-right: 2px;  /* Adds spacing between the icon and the text */
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherited;
+  margin-right: 2px;
+  font: normal normal normal 14px/1 "Font Awesome 6 Free";
+  font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.fa-download:before {
-  content: "\f019";
-}
+.fa-download:before { content: "\f019"; }
+.fa-eye:before { content: "\f06e"; }
+.fa-home:before { content: "\f015"; }
+.fa-flask:before { content: "\f0c3"; }
+.fa-dna:before { content: "\f471"; }
+.fa-book-open:before { content: "\f518"; }
+.fa-user-tie:before { content: "\f508"; }
+.fa-chalkboard:before { content: "\f51b"; }
+.fa-water:before { content: "\f773"; }
 
-.fa-eye:before {
-  content: "\f06e";
-}
 
 /* Flexbox layout for button container */
 .button-container {
