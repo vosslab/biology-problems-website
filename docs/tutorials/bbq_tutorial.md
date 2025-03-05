@@ -8,7 +8,7 @@ Creating a randomized test in Blackboard ensures that each student receives a un
 ## **Part 1: Build an Empty Pool**
 In this part, we will create an empty question pool to store the test questions we plan to upload. A **question pool** in Blackboard serves as a collection of reusable questions that can be pulled into quizzes, tests, or exams.
 
-### **Steps:**
+**Steps:**
 1. Navigate to the **Test, Pools, and Surveys** section.
 2. Click on **Pools**.
    ![Screenshot of the Blackboard menu displaying the "Tests, Surveys, and Pools" section, with the "Pools" option highlighted.](bbq_how_to/step_01-menu-test_surveys_pools.png)
@@ -33,7 +33,7 @@ In this part, we will create an empty question pool to store the test questions 
 ## **Part 2: Import the BBQ Text Questions**
 Now that we have a **question pool**, we need to populate it with questions. Instead of adding them manually, we will **upload a batch of questions** using a preformatted BBQ text file.
 
-### **Steps:**
+**Steps:**
 1. While inside the **Pool** information page, click **Upload Questions** from the menu.
    ![Cursor hovering over the "Upload Questions" button on the "Pool information page"" of Blackboard.](bbq_how_to/step_07-select_upload_questions.png)
 
@@ -54,7 +54,7 @@ Now that we have a **question pool**, we need to populate it with questions. Ins
 ## **Part 3: Build an Empty Test "Assignment"**
 Now that we have a **question pool** filled with questions, we need to create a test that students will take. This test, also referred to as an **assignment**, will be set up in Blackboard and later linked to the pool of questions.
 
-### **Steps:**
+**Steps:**
 
 1. Navigate to the **Tests** section in Blackboard by selecting **Tests, Surveys, and Pools**, then clicking **Tests**.
    ![Cursor selecting the "Tests" tab in Blackboard, preparing to create a new test.](bbq_how_to/step_12-select_tests.png)
@@ -81,7 +81,7 @@ At this point, we have successfully **built an empty test**. In the next step, w
 ## **Part 4: Add a Random Block to the Assignment of the Pooled Questions**
 Random blocks pull a set number of questions from a pool to ensure variation. This ensures each student gets a different combination of questions, making tests fairer and reducing the likelihood of answer sharing.
 
-### **Steps:**
+**Steps:**
 
 1. On the **Test Information** page, click **Reuse Question > Create Random Block**. This allows you to pull a set of randomized questions from the pool.
 
@@ -121,7 +121,7 @@ In the next step, we will make the test available to students and configure addi
 
 Now that the test is created and contains a randomized question block, we need to make it available to students by adding it to the **Assignments Content Area**.
 
-#### **Steps:**
+**Steps:**
 
 1. Navigate to the **Assignments Content Area** where students will access the test.
 
@@ -146,7 +146,7 @@ At this stage, the test is now linked to the **Assignments Content Area**, but w
 ### **Sub Part 5b: Customize Test Settings**
 Now that the test has been added to the course, we must configure its settings in the **Test Options** menu. These settings determine how and when students can access the test.
 
-#### **Steps:**
+**Steps:**
 
 1. Select **Yes** to make the test available to students.
 
