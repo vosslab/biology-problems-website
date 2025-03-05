@@ -70,3 +70,7 @@
 .human_read {
   filter: hue-rotate(-60deg);
 }
+
+.md-sidebar--secondary {
+  display: none !important;
+}
