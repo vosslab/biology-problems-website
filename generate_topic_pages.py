@@ -118,15 +118,20 @@ def create_downloadable_format(bbq_file: str, prefix: str, extension: str):
 		print("ln -sv ~/nsh/qti_package_maker/tools/bbq_converter.py .")
 		raise FileNotFoundError
 	convert_cmd = "python3 bbq_converter.py "
+	convert_cmd += "--quiet "
 	convert_cmd += f"--{prefix} "
 	convert_cmd += f"--input {bbq_file} "
 	convert_cmd += f"--output {file_path}"
+	#print("\n" + convert_cmd + "\n")
 	proc = subprocess.Popen(convert_cmd, shell=True)
 	proc.communicate()
 	if not os.path.isfile(file_path):
-		print(convert_cmd)
+		print("\n" + convert_cmd + "\n")
 		print(f"FAIL: {prefix}, {extension}, {bbq_file}")
-		#raise FileNotFoundError(file_path)
+		if not prefix.startswith("human"):
+			#raise FileNotFoundError(file_path)
+			#return None
+			pass
 	return file_path
 
 #==============
