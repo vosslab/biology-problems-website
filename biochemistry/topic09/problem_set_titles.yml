@@ -1,11 +1,9 @@
-bbq-D_to_L_Fischer_configuration-questions.txt: Conversion Between  D and L isomers in Fischer Projections
-bbq-D_to_L_Haworth_configuration-questions.txt: Conversion Between  D and L isomers in Haworth Projections
-bbq-MC-polysaccharides-questions.txt: Polysaccharides Based on Function and Structure
-bbq-classify_Fischer-questions.txt: Classification of Fischer Projections
-bbq-classify_Haworth-FURAN-questions.txt: Classification of Haworth Furanose Projections
-bbq-classify_Haworth-PYRAN-questions.txt: Classification of Haworth Pyranose Projections
-bbq-convert_Fischer_to_Haworth-FURAN-questions.txt: Converting Fischer to Haworth Furanose Projections
-bbq-convert_Fischer_to_Haworth-PYRAN-questions.txt: Converting Fischer to Haworth Pyranose Projections
-bbq-convert_Haworth_to_Fischer-FURAN-questions.txt: Converting Haworth Furanose to Fischer Projections
-bbq-convert_Haworth_to_Fischer-PYRAN-questions.txt: Converting Haworth Pyranose to Fischer Projections
-last edit: Fri Mar 28 16:29:46 2025
+bbq-D_to_L_Fischer_configuration-questions.txt: Monosaccharides from Fischer Projections
+bbq-D_to_L_Haworth_configuration-questions.txt: L-Form Monosaccharides from D-Form
+  Haworth Projections
+bbq-MATCH-polysaccharides-questions.txt: Matching Polysaccharides to Descriptions
+bbq-MC-polysaccharides-questions.txt: Identification and Characteristics of Polysaccharides
+bbq-classify_Fischer-questions.txt: Fischer Projection Classification of Monosaccharides
+bbq-classify_Haworth-questions.txt: Classification of Monosaccharides from Haworth
+  Projections
+last edit: Fri Mar 28 18:02:19 2025
