@@ -279,7 +279,7 @@ def extract_core_name(bbq_file_name):
 
 #==============
 def get_outfile_name(bbq_file_name: str, prefix: str, extension: str):
-	dirname = os.path.dirname(bbq_file_name)
+	dirname = os.path.join(os.path.dirname(bbq_file_name), "downloads")
 	outfile = extract_core_name(bbq_file_name)
 	if not outfile.startswith(prefix):
 		outfile = f'{prefix}-{outfile}'
@@ -322,6 +322,9 @@ def update_index_md(topic_folder: str, bbq_files: list) -> None:
 	index_md_path = os.path.join(topic_folder, "index.md")
 	print(f'writing to {index_md_path}')
 	with open(index_md_path, "w") as index_md:
+		downloads_folder = os.path.join(topic_folder, "downloads")
+		if not os.path.isdir(downloads_folder):
+			os.makedirs(downloads_folder)
 
 		index_md.write(f"# {title}\n\n")
 		index_md.write(f"{description}\n\n")
