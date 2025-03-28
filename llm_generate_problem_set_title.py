@@ -117,42 +117,42 @@ def generate_title_prompt(file_path: str, problem_statements: list, save_prompt:
 	prompt += (
 		# Provide a list of sample titles to guide the model
 		"<list of unrelated sample titles>\n"
-		"### Allosteric Enzymes in Metabolic Pathways\n",
-		"### Amino Acids from Chemical Structures\n",
-		"### Cell Disruption Techniques Identification\n",
-		"### Correct Form of the Henderson-Hasselbalch\n",
-		"### Determining Dipeptide Sequence\n",
-		"### Determining Net Charge of Proteins at Given\n",
-		"### Energy Terms and Their Categories\n",
-		"### Enzyme Catalysis Terminology\n",
-		"### Enzyme Inhibition and Activation\n",
-		"### Estimating Protein Molecular Weight from\n",
-		"### Hydrogen Bonding in Alpha-Helix Structures\n",
-		"### Hydrophobic Compounds from Molecular Formulas\n",
-		"### Identification of Amino Acids by Structural and\n",
-		"### Identification of Macromolecules in Gel Electrophoresis\n",
-		"### Inhibition Type Determination from Enzyme Activity Data\n",
-		"### Ionic Bond Formation in Amino Acid Side\n",
-		"### Levels of Protein Structure\n",
-		"### Macromolecule Types Based on Chemical Structures\n",
-		"### Michaelis-Menten Constant\n",
-		"### Most Abundant Diprotic State at pH using\n",
-		"### Most Abundant Tetraprotic State at pH\n",
-		"### Most Abundant Triprotic State at pH\n",
-		"### Optimal Buffering Range using pKa\n",
-		"### Protein Migration Direction Based on Isoelectric\n",
-		"### The Seven Biochemical Functional Groups\n",
-		"### True/False Statements on Chemical Reactions\n",
-		"### True/False Statements on Enzyme Kinetics\n",
-		"### True/False Statements on Gibbs Free Energy (&Delta;G = &Delta;H - T &Delta;S)\n",
-		"### True/False Statements on Michaelis-Menten Kinetics\n",
-		"### True/False Statements on Thermodynamics vs. Kinetics\n",
-		"### Types and Descriptions of Column Chromatography\n",
-		"### Types of Chemical Bonds\n",
-		"### Types of Column Chromatography\n",
-		"### Types of Macromolecules\n",
-		"### Which Molecule Cannot be an Enzyme Cofactors\n",
-		"### Which Molecule Could be an Enzyme\n",
+		"### Allosteric Enzymes in Metabolic Pathways\n"
+		"### Amino Acids from Chemical Structures\n"
+		"### Cell Disruption Techniques Identification\n"
+		"### Correct Form of the Henderson-Hasselbalch\n"
+		"### Determining Dipeptide Sequence\n"
+		"### Determining Net Charge of Proteins at Given\n"
+		"### Energy Terms and Their Categories\n"
+		"### Enzyme Catalysis Terminology\n"
+		"### Enzyme Inhibition and Activation\n"
+		"### Estimating Protein Molecular Weight from\n"
+		"### Hydrogen Bonding in Alpha-Helix Structures\n"
+		"### Hydrophobic Compounds from Molecular Formulas\n"
+		"### Identification of Amino Acids by Structural and\n"
+		"### Identification of Macromolecules in Gel Electrophoresis\n"
+		"### Inhibition Type Determination from Enzyme Activity Data\n"
+		"### Ionic Bond Formation in Amino Acid Side\n"
+		"### Levels of Protein Structure\n"
+		"### Macromolecule Types Based on Chemical Structures\n"
+		"### Michaelis-Menten Constant\n"
+		"### Most Abundant Diprotic State at pH using\n"
+		"### Most Abundant Tetraprotic State at pH\n"
+		"### Most Abundant Triprotic State at pH\n"
+		"### Optimal Buffering Range using pKa\n"
+		"### Protein Migration Direction Based on Isoelectric\n"
+		"### The Seven Biochemical Functional Groups\n"
+		"### True/False Statements on Chemical Reactions\n"
+		"### True/False Statements on Enzyme Kinetics\n"
+		"### True/False Statements on Gibbs Free Energy (&Delta;G = &Delta;H - T &Delta;S)\n"
+		"### True/False Statements on Michaelis-Menten Kinetics\n"
+		"### True/False Statements on Thermodynamics vs. Kinetics\n"
+		"### Types and Descriptions of Column Chromatography\n"
+		"### Types of Chemical Bonds\n"
+		"### Types of Column Chromatography\n"
+		"### Types of Macromolecules\n"
+		"### Which Molecule Cannot be an Enzyme Cofactors\n"
+		"### Which Molecule Could be an Enzyme\n"
 		"</list of unrelated sample titles>\n\n"
 	)
 
