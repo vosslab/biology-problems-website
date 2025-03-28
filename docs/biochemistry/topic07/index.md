@@ -14,6 +14,9 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
 <button class="md-button custom-button canvas_qti" onclick="downloadFile('canvas_qti_v1_2-BCHM355-metabolic_pathway_inhibitor.zip')" title="Download canvas_qti_v1_2-BCHM355-metabolic_pathway_inhibitor.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-BCHM355-metabolic_pathway_inhibitor.zip)">
     <i class="fa fa-download"></i> Canvas/ADAPT QTI v1.2
 </button>
+<button class="md-button custom-button human_read" onclick="window.open('human_readable-BCHM355-metabolic_pathway_inhibitor.txt', '_blank')" title="View human_readable-BCHM355-metabolic_pathway_inhibitor.txt" aria-label="Click to view the Human-Readable TXT file (human_readable-BCHM355-metabolic_pathway_inhibitor.txt)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
 </div><details>
   <summary>Click 
     <span style='font-weight: normal;'>
@@ -161,6 +164,9 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
 <button class="md-button custom-button canvas_qti" onclick="downloadFile('canvas_qti_v1_2-michaelis_menten_table-Km.zip')" title="Download canvas_qti_v1_2-michaelis_menten_table-Km.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-michaelis_menten_table-Km.zip)">
     <i class="fa fa-download"></i> Canvas/ADAPT QTI v1.2
 </button>
+<button class="md-button custom-button human_read" onclick="window.open('human_readable-michaelis_menten_table-Km.txt', '_blank')" title="View human_readable-michaelis_menten_table-Km.txt" aria-label="Click to view the Human-Readable TXT file (human_readable-michaelis_menten_table-Km.txt)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
 </div><details>
   <summary>Click 
     <span style='font-weight: normal;'>
@@ -187,6 +193,9 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
 </button>
 <button class="md-button custom-button canvas_qti" onclick="downloadFile('canvas_qti_v1_2-michaelis_menten_table-inhibition.zip')" title="Download canvas_qti_v1_2-michaelis_menten_table-inhibition.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-michaelis_menten_table-inhibition.zip)">
     <i class="fa fa-download"></i> Canvas/ADAPT QTI v1.2
+</button>
+<button class="md-button custom-button human_read" onclick="window.open('human_readable-michaelis_menten_table-inhibition.txt', '_blank')" title="View human_readable-michaelis_menten_table-inhibition.txt" aria-label="Click to view the Human-Readable TXT file (human_readable-michaelis_menten_table-inhibition.txt)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
   <summary>Click 
