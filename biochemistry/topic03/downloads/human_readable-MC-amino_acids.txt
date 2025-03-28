@@ -1,0 +1,801 @@
+06a7
+Which one of the following amino acids correspond to the description 'an aromatic amino acid with a side chain containing a 5-membered nitrogenous ring and a pKa close to pH 7' .
+- [ ] A. aspartate 
+- [*] B. histidine 
+- [ ] C. isoleucine 
+- [ ] D. leucine 
+- [ ] E. tyrosine 
+
+
+0bbe
+Which one of the following amino acids correspond to the description 'a polar amino acid with a shorter amine-substituted carboxylate (amide) -C(=O)NH2 group' .
+- [*] A. asparagine 
+- [ ] B. aspartate 
+- [ ] C. histidine 
+- [ ] D. threonine 
+- [ ] E. valine 
+
+
+0edc
+Which one of the following amino acids correspond to the description 'a non-polar branched chain amino acid that is a shorter version of leucine' .
+- [ ] A. aspartic acid 
+- [ ] B. glutamic acid 
+- [ ] C. lysine 
+- [ ] D. methionine 
+- [*] E. valine 
+
+
+1046
+Which one of the following amino acids correspond to the description 'a non-polar branched chain amino acid that is an isomer of isoleucine' .
+- [ ] A. glutamine 
+- [*] B. leucine 
+- [ ] C. phenylalanine 
+- [ ] D. serine 
+- [ ] E. tryptophan 
+
+
+1189
+Which one of the following amino acids correspond to the description 'a polar amino acid that is capable of thiol (-SH) chemistry' .
+- [ ] A. aspartate 
+- [*] B. cysteine 
+- [ ] C. glutamate 
+- [ ] D. serine 
+- [ ] E. tyrosine 
+
+
+11a6
+Which one of the following amino acids correspond to the description 'a non- polar amino acid , with a single methyl group (-CH3) as its side chain ' .
+- [*] A. alanine 
+- [ ] B. glutamate 
+- [ ] C. glycine 
+- [ ] D. methionine 
+- [ ] E. serine 
+
+
+15ea
+Which one of the following amino acids correspond to the description 'a non-polar branched chain amino acid that is an isomer of leucine' .
+- [ ] A. arginine 
+- [ ] B. aspartic acid 
+- [*] C. isoleucine 
+- [ ] D. proline 
+- [ ] E. valine 
+
+
+1bae
+Which one of the following amino acids correspond to the description 'a polar amino acid with the smallest side chain containing a hydroxyl group (-OH)' .
+- [ ] A. aspartic acid 
+- [ ] B. cysteine 
+- [ ] C. glutamine 
+- [*] D. serine 
+- [ ] E. tryptophan 
+
+
+1d1b
+Which one of the following amino acids correspond to the description 'a positively charged amino acid with a long, flexible side chain containing an amine group' .
+- [ ] A. arginine 
+- [ ] B. aspartate 
+- [ ] C. histidine 
+- [*] D. lysine 
+- [ ] E. methionine 
+
+
+2266
+Which one of the following amino acids correspond to the description 'a aromatic amino acid with a side chain containing a phenol (-C6H6OH) group, derived from phenylalanine' .
+- [ ] A. asparagine 
+- [ ] B. glycine 
+- [ ] C. lysine 
+- [ ] D. tryptophan 
+- [*] E. tyrosine 
+
+
+2599
+Which one of the following amino acids correspond to the description 'a non-polar branched chain amino acid with a double methylated γ-carbon' .
+- [ ] A. asparagine 
+- [ ] B. isoleucine 
+- [*] C. leucine 
+- [ ] D. proline 
+- [ ] E. threonine 
+
+
+2656
+Which one of the following amino acids correspond to the description 'a non-polar branched chain amino acid that is a valine with a extra methyl group (-CH3) at the end' .
+- [ ] A. glycine 
+- [ ] B. histidine 
+- [*] C. isoleucine 
+- [ ] D. proline 
+- [ ] E. valine 
+
+
+27d6
+Which one of the following amino acids correspond to the description 'a non- polar amino acid with an aromatic side chain containing a single benzene (-C6H6) ring' .
+- [ ] A. arginine 
+- [ ] B. cysteine 
+- [ ] C. histidine 
+- [*] D. phenylalanine 
+- [ ] E. tryptophan 
+
+
+2803
+Which one of the following amino acids correspond to the description 'a polar amino acid with a thiol (-SH) group that can form disulfide bonds' .
+- [ ] A. alanine 
+- [ ] B. arginine 
+- [*] C. cysteine 
+- [ ] D. methionine 
+- [ ] E. tryptophan 
+
+
+287b
+Which one of the following amino acids correspond to the description 'a polar amino acid with a thiol (-SH) group that can form disulfide bonds' .
+- [ ] A. asparagine 
+- [*] B. cysteine 
+- [ ] C. glutamate 
+- [ ] D. leucine 
+- [ ] E. serine 
+
+
+294e
+Which one of the following amino acids correspond to the description 'a negatively charged amino acid with a large, carboxylate (-COOH) side chain ' .
+- [ ] A. alanine 
+- [*] B. glutamic acid 
+- [ ] C. isoleucine 
+- [ ] D. lysine 
+- [ ] E. valine 
+
+
+296e
+Which one of the following amino acids correspond to the description 'a negatively charged amino acid with a small, carboxylate (-COOH) side chain ' .
+- [*] A. aspartic acid 
+- [ ] B. lysine 
+- [ ] C. threonine 
+- [ ] D. tryptophan 
+- [ ] E. valine 
+
+
+2bcf
+Which one of the following amino acids correspond to the description 'a negatively charged amino acid with a large, carboxylate (-COOH) side chain ' .
+- [ ] A. aspartate 
+- [*] B. glutamic acid 
+- [ ] C. glutamine 
+- [ ] D. phenylalanine 
+- [ ] E. proline 
+
+
+2e4c
+Which one of the following amino acids correspond to the description 'a polar amino acid with a longer amine-substituted carboxylate (amide) -C(=O)NH2 group' .
+- [ ] A. alanine 
+- [*] B. glutamine 
+- [ ] C. glycine 
+- [ ] D. leucine 
+- [ ] E. proline 
+
+
+314d
+Which one of the following amino acids correspond to the description 'a non- polar amino acid where the side chain is bonded to the backbone amine, resulting in a rigid cyclic structure' .
+- [ ] A. glutamate 
+- [ ] B. methionine 
+- [*] C. proline 
+- [ ] D. tryptophan 
+- [ ] E. valine 
+
+
+31d1
+Which one of the following amino acids correspond to the description 'a negatively charged amino acid with a small, carboxylate (-COOH) side chain ' .
+- [*] A. aspartic acid 
+- [ ] B. glutamic acid 
+- [ ] C. histidine 
+- [ ] D. methionine 
+- [ ] E. threonine 
+
+
+31f6
+Which one of the following amino acids correspond to the description 'a non-polar branched chain amino acid with a double methylated γ-carbon' .
+- [ ] A. histidine 
+- [*] B. leucine 
+- [ ] C. methionine 
+- [ ] D. proline 
+- [ ] E. valine 
+
+
+3423
+Which one of the following amino acids correspond to the description 'a negatively charged amino acid with a small, carboxylate (-COOH) side chain ' .
+- [ ] A. asparagine 
+- [*] B. aspartate 
+- [ ] C. cysteine 
+- [ ] D. glycine 
+- [ ] E. serine 
+
+
+37fc
+Which one of the following amino acids correspond to the description 'a polar amino acid with the smallest polar side chain ' .
+- [ ] A. arginine 
+- [ ] B. asparagine 
+- [ ] C. aspartic acid 
+- [ ] D. leucine 
+- [*] E. serine 
+
+
+3e45
+Which one of the following amino acids correspond to the description 'a positively charged amino acid with a long, flexible side chain containing an amine group' .
+- [ ] A. glutamic acid 
+- [ ] B. glutamine 
+- [*] C. lysine 
+- [ ] D. proline 
+- [ ] E. threonine 
+
+
+3f3a
+Which one of the following amino acids correspond to the description 'an aromatic amino acid with a side chain containing a 5-membered nitrogenous ring and a pKa close to pH 7' .
+- [ ] A. glutamate 
+- [*] B. histidine 
+- [ ] C. threonine 
+- [ ] D. tyrosine 
+- [ ] E. valine 
+
+
+402b
+Which one of the following amino acids correspond to the description 'a polar amino acid that can form disulfide bridges' .
+- [*] A. cysteine 
+- [ ] B. leucine 
+- [ ] C. proline 
+- [ ] D. serine 
+- [ ] E. tyrosine 
+
+
+453a
+Which one of the following amino acids correspond to the description 'a polar amino acid that is capable of thiol (-SH) chemistry' .
+- [ ] A. aspartate 
+- [*] B. cysteine 
+- [ ] C. glutamic acid 
+- [ ] D. leucine 
+- [ ] E. tyrosine 
+
+
+488b
+Which one of the following amino acids correspond to the description 'a small amino acid with the simple chemical formula NH2-CH2-COOH' .
+- [ ] A. aspartic acid 
+- [*] B. glycine 
+- [ ] C. leucine 
+- [ ] D. serine 
+- [ ] E. valine 
+
+
+4a16
+Which one of the following amino acids correspond to the description 'a negatively charged amino acid with a small, carboxylate (-COOH) side chain ' .
+- [ ] A. alanine 
+- [*] B. aspartic acid 
+- [ ] C. glutamate 
+- [ ] D. glutamine 
+- [ ] E. threonine 
+
+
+4f8c
+Which one of the following amino acids correspond to the description 'a non-polar branched chain amino acid with the shortest hydrophobic side chain ' .
+- [ ] A. glutamic acid 
+- [ ] B. histidine 
+- [ ] C. serine 
+- [ ] D. tryptophan 
+- [*] E. valine 
+
+
+5043
+Which one of the following amino acids correspond to the description 'a non-polar branched chain amino acid that is a valine with a extra methyl group (-CH3) at the end' .
+- [ ] A. arginine 
+- [ ] B. asparagine 
+- [ ] C. glycine 
+- [*] D. isoleucine 
+- [ ] E. serine 
+
+
+50ed
+Which one of the following amino acids correspond to the description 'a non-polar branched chain amino acid that is an isomer of leucine' .
+- [ ] A. arginine 
+- [ ] B. glutamine 
+- [*] C. isoleucine 
+- [ ] D. leucine 
+- [ ] E. threonine 
+
+
+5406
+Which one of the following amino acids correspond to the description 'a non-polar branched chain amino acid that is a longer version of valine' .
+- [ ] A. glutamic acid 
+- [*] B. leucine 
+- [ ] C. methionine 
+- [ ] D. threonine 
+- [ ] E. tyrosine 
+
+
+541e
+Which one of the following amino acids correspond to the description 'a negatively charged amino acid with a large, carboxylate (-COOH) side chain ' .
+- [ ] A. arginine 
+- [ ] B. aspartic acid 
+- [ ] C. cysteine 
+- [*] D. glutamate 
+- [ ] E. valine 
+
+
+565d
+Which one of the following amino acids correspond to the description 'a polar amino acid that is a methylated form of serine' .
+- [ ] A. arginine 
+- [ ] B. asparagine 
+- [ ] C. glutamine 
+- [ ] D. methionine 
+- [*] E. threonine 
+
+
+579b
+Which one of the following amino acids correspond to the description 'a non-polar branched chain amino acid with a double methylated β-carbon' .
+- [ ] A. cysteine 
+- [ ] B. glutamic acid 
+- [ ] C. phenylalanine 
+- [ ] D. threonine 
+- [*] E. valine 
+
+
+59c4
+Which one of the following amino acids correspond to the description 'a polar amino acid with the smallest polar side chain ' .
+- [ ] A. aspartate 
+- [ ] B. leucine 
+- [ ] C. methionine 
+- [*] D. serine 
+- [ ] E. tyrosine 
+
+
+5a6d
+Which one of the following amino acids correspond to the description 'a polar amino acid with a thiol (-SH) group that can form disulfide bonds' .
+- [ ] A. alanine 
+- [*] B. cysteine 
+- [ ] C. glutamine 
+- [ ] D. leucine 
+- [ ] E. proline 
+
+
+5dcf
+Which one of the following amino acids correspond to the description 'a negatively charged amino acid with a small, carboxylate (-COOH) side chain ' .
+- [*] A. aspartate 
+- [ ] B. glutamine 
+- [ ] C. glycine 
+- [ ] D. serine 
+- [ ] E. tryptophan 
+
+
+5dd6
+Which one of the following amino acids correspond to the description 'a non-polar branched chain amino acid that is a longer version of valine' .
+- [ ] A. arginine 
+- [ ] B. glutamine 
+- [ ] C. glycine 
+- [ ] D. histidine 
+- [*] E. leucine 
+
+
+67c9
+Which one of the following amino acids correspond to the description 'a aromatic amino acid with a side chain containing a phenol (-C6H6OH) group, derived from phenylalanine' .
+- [ ] A. glutamic acid 
+- [ ] B. glutamine 
+- [ ] C. leucine 
+- [ ] D. serine 
+- [*] E. tyrosine 
+
+
+699f
+Which one of the following amino acids correspond to the description 'a non- polar amino acid where the side chain is bonded to the backbone amine, resulting in a rigid cyclic structure' .
+- [ ] A. arginine 
+- [ ] B. aspartate 
+- [ ] C. glutamic acid 
+- [*] D. proline 
+- [ ] E. threonine 
+
+
+7112
+Which one of the following amino acids correspond to the description 'a non-polar branched chain amino acid with a double methylated β-carbon' .
+- [ ] A. alanine 
+- [ ] B. aspartate 
+- [ ] C. methionine 
+- [ ] D. tryptophan 
+- [*] E. valine 
+
+
+72a2
+Which one of the following amino acids correspond to the description 'a non- polar amino acid with a side chain containing a sulfur atom that is NOT available for chemical reactions' .
+- [ ] A. glutamic acid 
+- [ ] B. isoleucine 
+- [ ] C. leucine 
+- [*] D. methionine 
+- [ ] E. valine 
+
+
+778d
+Which one of the following amino acids correspond to the description 'a non-polar branched chain amino acid with a double methylated β-carbon' .
+- [ ] A. glycine 
+- [ ] B. histidine 
+- [ ] C. isoleucine 
+- [ ] D. lysine 
+- [*] E. valine 
+
+
+7bc9
+Which one of the following amino acids correspond to the description 'a non-polar branched chain amino acid that is an isomer of isoleucine' .
+- [ ] A. aspartic acid 
+- [ ] B. glycine 
+- [*] C. leucine 
+- [ ] D. tryptophan 
+- [ ] E. tyrosine 
+
+
+7cc6
+Which one of the following amino acids correspond to the description 'a non- polar amino acid with an aromatic side chain containing a single benzene (-C6H6) ring' .
+- [ ] A. arginine 
+- [ ] B. glutamic acid 
+- [ ] C. leucine 
+- [*] D. phenylalanine 
+- [ ] E. serine 
+
+
+878a
+Which one of the following amino acids correspond to the description 'a polar amino acid with the smallest side chain containing a hydroxyl group (-OH)' .
+- [ ] A. aspartate 
+- [ ] B. glutamine 
+- [ ] C. isoleucine 
+- [ ] D. phenylalanine 
+- [*] E. serine 
+
+
+8b57
+Which one of the following amino acids correspond to the description 'a small amino acid with a single hydrogen atom as its side chain ' .
+- [ ] A. aspartic acid 
+- [*] B. glycine 
+- [ ] C. methionine 
+- [ ] D. phenylalanine 
+- [ ] E. serine 
+
+
+8ec0
+Which one of the following amino acids correspond to the description 'a polar amino acid with a longer amine-substituted carboxylate (amide) -C(=O)NH2 group' .
+- [*] A. glutamine 
+- [ ] B. isoleucine 
+- [ ] C. methionine 
+- [ ] D. tryptophan 
+- [ ] E. tyrosine 
+
+
+9071
+Which one of the following amino acids correspond to the description 'a small amino acid with the simple chemical formula NH2-CH2-COOH' .
+- [ ] A. asparagine 
+- [*] B. glycine 
+- [ ] C. histidine 
+- [ ] D. methionine 
+- [ ] E. tyrosine 
+
+
+9438
+Which one of the following amino acids correspond to the description 'a negatively charged amino acid with a large, carboxylate (-COOH) side chain ' .
+- [ ] A. arginine 
+- [ ] B. asparagine 
+- [*] C. glutamate 
+- [ ] D. isoleucine 
+- [ ] E. serine 
+
+
+95c2
+Which one of the following amino acids correspond to the description 'a non- polar amino acid , with only a methyl group (-CH3) attached to the α-carbon' .
+- [*] A. alanine 
+- [ ] B. glutamate 
+- [ ] C. glycine 
+- [ ] D. histidine 
+- [ ] E. methionine 
+
+
+97c4
+Which one of the following amino acids correspond to the description 'a non- polar amino acid where the side chain is bonded to the backbone amine, resulting in a rigid cyclic structure' .
+- [ ] A. alanine 
+- [ ] B. asparagine 
+- [ ] C. lysine 
+- [*] D. proline 
+- [ ] E. tyrosine 
+
+
+9b33
+Which one of the following amino acids correspond to the description 'a non-polar branched chain amino acid with a double methylated γ-carbon' .
+- [ ] A. aspartic acid 
+- [ ] B. glycine 
+- [*] C. leucine 
+- [ ] D. serine 
+- [ ] E. tyrosine 
+
+
+9c32
+Which one of the following amino acids correspond to the description 'a polar amino acid that can form disulfide bridges' .
+- [ ] A. aspartic acid 
+- [*] B. cysteine 
+- [ ] C. glutamate 
+- [ ] D. tryptophan 
+- [ ] E. valine 
+
+
+a0e9
+Which one of the following amino acids correspond to the description 'a non- polar amino acid , with only a methyl group (-CH3) attached to the α-carbon' .
+- [*] A. alanine 
+- [ ] B. leucine 
+- [ ] C. methionine 
+- [ ] D. serine 
+- [ ] E. tryptophan 
+
+
+a962
+Which one of the following amino acids correspond to the description 'a non- polar amino acid with a side chain containing a sulfur atom that is NOT available for chemical reactions' .
+- [ ] A. alanine 
+- [ ] B. glutamine 
+- [ ] C. histidine 
+- [*] D. methionine 
+- [ ] E. phenylalanine 
+
+
+aaa7
+Which one of the following amino acids correspond to the description 'a non- polar amino acid , with a single methyl group (-CH3) as its side chain ' .
+- [*] A. alanine 
+- [ ] B. asparagine 
+- [ ] C. cysteine 
+- [ ] D. glutamate 
+- [ ] E. serine 
+
+
+ad95
+Which one of the following amino acids correspond to the description 'a non- polar amino acid , with only a methyl group (-CH3) attached to the α-carbon' .
+- [*] A. alanine 
+- [ ] B. glutamine 
+- [ ] C. proline 
+- [ ] D. serine 
+- [ ] E. threonine 
+
+
+aeee
+Which one of the following amino acids correspond to the description 'a polar amino acid with a shorter amine-substituted carboxylate (amide) -C(=O)NH2 group' .
+- [*] A. asparagine 
+- [ ] B. aspartic acid 
+- [ ] C. glycine 
+- [ ] D. histidine 
+- [ ] E. lysine 
+
+
+af4a
+Which one of the following amino acids correspond to the description 'a positively charged amino acid with a long, flexible side chain containing 3 nitrogen atoms (guanidinium)' .
+- [*] A. arginine 
+- [ ] B. cysteine 
+- [ ] C. glutamate 
+- [ ] D. methionine 
+- [ ] E. serine 
+
+
+b04f
+Which one of the following amino acids correspond to the description 'a non-polar branched chain amino acid that is a valine with a extra methyl group (-CH3) at the end' .
+- [ ] A. glutamic acid 
+- [ ] B. glutamine 
+- [*] C. isoleucine 
+- [ ] D. leucine 
+- [ ] E. threonine 
+
+
+b67e
+Which one of the following amino acids correspond to the description 'an aromatic amino acid with the largest side chain consisting of a fused pair of rings' .
+- [ ] A. alanine 
+- [ ] B. asparagine 
+- [ ] C. cysteine 
+- [ ] D. serine 
+- [*] E. tryptophan 
+
+
+b7be
+Which one of the following amino acids correspond to the description 'a negatively charged amino acid with a small, carboxylate (-COOH) side chain ' .
+- [ ] A. asparagine 
+- [*] B. aspartate 
+- [ ] C. glutamine 
+- [ ] D. methionine 
+- [ ] E. tyrosine 
+
+
+bb42
+Which one of the following amino acids correspond to the description 'an aromatic amino acid with the largest side chain consisting of a fused pair of rings' .
+- [ ] A. glycine 
+- [ ] B. isoleucine 
+- [ ] C. phenylalanine 
+- [*] D. tryptophan 
+- [ ] E. valine 
+
+
+bc2a
+Which one of the following amino acids correspond to the description 'a small amino acid with the simple chemical formula NH2-CH2-COOH' .
+- [ ] A. aspartate 
+- [ ] B. glutamine 
+- [*] C. glycine 
+- [ ] D. phenylalanine 
+- [ ] E. serine 
+
+
+bd16
+Which one of the following amino acids correspond to the description 'a positively charged amino acid with a long, flexible side chain containing an amine group' .
+- [ ] A. aspartic acid 
+- [*] B. lysine 
+- [ ] C. methionine 
+- [ ] D. tryptophan 
+- [ ] E. tyrosine 
+
+
+c1ad
+Which one of the following amino acids correspond to the description 'an aromatic amino acid with the largest side chain consisting of a fused pair of rings' .
+- [ ] A. alanine 
+- [ ] B. aspartic acid 
+- [ ] C. glutamic acid 
+- [ ] D. isoleucine 
+- [*] E. tryptophan 
+
+
+c312
+Which one of the following amino acids correspond to the description 'a non- polar amino acid with a side chain containing a sulfur atom that is NOT available for chemical reactions' .
+- [ ] A. glutamate 
+- [*] B. methionine 
+- [ ] C. threonine 
+- [ ] D. tyrosine 
+- [ ] E. valine 
+
+
+c3d5
+Which one of the following amino acids correspond to the description 'a small amino acid with a single hydrogen atom as its side chain ' .
+- [ ] A. aspartate 
+- [ ] B. cysteine 
+- [*] C. glycine 
+- [ ] D. tryptophan 
+- [ ] E. valine 
+
+
+ca46
+Which one of the following amino acids correspond to the description 'a polar amino acid that can form disulfide bridges' .
+- [ ] A. asparagine 
+- [ ] B. aspartate 
+- [*] C. cysteine 
+- [ ] D. proline 
+- [ ] E. valine 
+
+
+d006
+Which one of the following amino acids correspond to the description 'a polar amino acid with a shorter amine-substituted carboxylate (amide) -C(=O)NH2 group' .
+- [*] A. asparagine 
+- [ ] B. glutamate 
+- [ ] C. serine 
+- [ ] D. threonine 
+- [ ] E. tyrosine 
+
+
+d4f5
+Which one of the following amino acids correspond to the description 'a non-polar branched chain amino acid that is an isomer of isoleucine' .
+- [ ] A. alanine 
+- [ ] B. arginine 
+- [*] C. leucine 
+- [ ] D. serine 
+- [ ] E. threonine 
+
+
+d62f
+Which one of the following amino acids correspond to the description 'a small amino acid with a single hydrogen atom as its side chain ' .
+- [ ] A. cysteine 
+- [*] B. glycine 
+- [ ] C. isoleucine 
+- [ ] D. leucine 
+- [ ] E. proline 
+
+
+d6b0
+Which one of the following amino acids correspond to the description 'a non-polar branched chain amino acid with the shortest hydrophobic side chain ' .
+- [ ] A. asparagine 
+- [ ] B. threonine 
+- [ ] C. tryptophan 
+- [ ] D. tyrosine 
+- [*] E. valine 
+
+
+da54
+Which one of the following amino acids correspond to the description 'a non-polar branched chain amino acid that is a shorter version of leucine' .
+- [ ] A. asparagine 
+- [ ] B. leucine 
+- [ ] C. methionine 
+- [ ] D. tryptophan 
+- [*] E. valine 
+
+
+da6f
+Which one of the following amino acids correspond to the description 'a positively charged amino acid with a long, flexible side chain containing 3 nitrogen atoms (guanidinium)' .
+- [*] A. arginine 
+- [ ] B. cysteine 
+- [ ] C. histidine 
+- [ ] D. serine 
+- [ ] E. threonine 
+
+
+dabd
+Which one of the following amino acids correspond to the description 'a non-polar branched chain amino acid that is a shorter version of leucine' .
+- [ ] A. asparagine 
+- [ ] B. aspartic acid 
+- [ ] C. glutamine 
+- [ ] D. threonine 
+- [*] E. valine 
+
+
+de3e
+Which one of the following amino acids correspond to the description 'a non- polar amino acid with an aromatic side chain containing a single benzene (-C6H6) ring' .
+- [ ] A. glutamic acid 
+- [ ] B. glycine 
+- [ ] C. lysine 
+- [*] D. phenylalanine 
+- [ ] E. serine 
+
+
+e1e3
+Which one of the following amino acids correspond to the description 'a positively charged amino acid with a long, flexible side chain containing 3 nitrogen atoms (guanidinium)' .
+- [*] A. arginine 
+- [ ] B. aspartate 
+- [ ] C. proline 
+- [ ] D. serine 
+- [ ] E. threonine 
+
+
+e4dc
+Which one of the following amino acids correspond to the description 'an aromatic amino acid with a side chain containing a 5-membered nitrogenous ring and a pKa close to pH 7' .
+- [ ] A. glutamate 
+- [ ] B. glutamine 
+- [*] C. histidine 
+- [ ] D. isoleucine 
+- [ ] E. methionine 
+
+
+e5e5
+Which one of the following amino acids correspond to the description 'a non-polar branched chain amino acid that is an isomer of leucine' .
+- [ ] A. glutamate 
+- [*] B. isoleucine 
+- [ ] C. lysine 
+- [ ] D. serine 
+- [ ] E. tryptophan 
+
+
+ee20
+Which one of the following amino acids correspond to the description 'a negatively charged amino acid with a large, carboxylate (-COOH) side chain ' .
+- [*] A. glutamic acid 
+- [ ] B. histidine 
+- [ ] C. proline 
+- [ ] D. tryptophan 
+- [ ] E. valine 
+
+
+f170
+Which one of the following amino acids correspond to the description 'a negatively charged amino acid with a large, carboxylate (-COOH) side chain ' .
+- [ ] A. aspartate 
+- [*] B. glutamate 
+- [ ] C. leucine 
+- [ ] D. threonine 
+- [ ] E. tryptophan 
+
+
+f20b
+Which one of the following amino acids correspond to the description 'a non- polar amino acid , with a single methyl group (-CH3) as its side chain ' .
+- [*] A. alanine 
+- [ ] B. glutamine 
+- [ ] C. glycine 
+- [ ] D. lysine 
+- [ ] E. threonine 
+
+
+f4a4
+Which one of the following amino acids correspond to the description 'a aromatic amino acid with a side chain containing a phenol (-C6H6OH) group, derived from phenylalanine' .
+- [ ] A. glutamic acid 
+- [ ] B. histidine 
+- [ ] C. leucine 
+- [ ] D. methionine 
+- [*] E. tyrosine 
+
+
+f504
+Which one of the following amino acids correspond to the description 'a non-polar branched chain amino acid with the shortest hydrophobic side chain ' .
+- [ ] A. asparagine 
+- [ ] B. histidine 
+- [ ] C. phenylalanine 
+- [ ] D. threonine 
+- [*] E. valine 
+
+

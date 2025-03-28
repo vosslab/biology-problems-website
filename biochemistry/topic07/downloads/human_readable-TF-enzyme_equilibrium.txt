@@ -1,0 +1,891 @@
+005c
+Which one of the following statements is TRUE about enzyme kinetics?
+- [ ] A. enzymes cannot change the activation energy of the chemical reaction 
+- [*] B. enzymes can provide favorable microenvironments for a chemical reaction 
+- [ ] C. enzymes reduce the rate of a chemical reaction 
+- [ ] D. enzymes only allow chemical reactions to go forward 
+- [ ] E. enzymes alter the equilibrium of the chemical reaction 
+
+
+02a0
+Which one of the following statements is TRUE of enzyme kinetics?
+- [ ] A. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [ ] B. enzymes reduce the rate of a chemical reaction 
+- [ ] C. enzymes force chemical reactions to go forward 
+- [*] D. enzymes reduce the activation energy of a chemical reaction 
+- [ ] E. enzymes alter the equilibrium of the chemical reaction 
+
+
+043d
+Which one of the following statements is FALSE of enzyme kinetics?
+- [ ] A. enzymes reduce the activation energy of a chemical reaction 
+- [ ] B. enzymes cannot change the equilibrium of the chemical reaction 
+- [*] C. enzymes make endergonic reactions proceed spontaneously 
+- [ ] D. enzymes can provide favorable microenvironments for a chemical reaction 
+- [ ] E. enzymes increase the rate of a chemical reaction 
+
+
+04e0
+Which one of the following statements is FALSE of enzyme kinetics?
+- [ ] A. enzymes stabilize the transition state in a chemical reaction 
+- [*] B. enzymes alter the Gibbs free energy (ΔG) of a chemical reaction 
+- [ ] C. enzymes increase the rate of a chemical reaction 
+- [ ] D. enzymes cannot change the equilibrium of the chemical reaction 
+- [ ] E. enzymes can provide favorable microenvironments for a chemical reaction 
+
+
+0528
+Which one of the following statements is FALSE of enzyme kinetics?
+- [ ] A. enzymes lower the activation energy of a chemical reaction 
+- [ ] B. enzymes stabilize the transition state in a chemical reaction 
+- [ ] C. enzymes increase the rate of a chemical reaction 
+- [*] D. enzymes alter the equilibrium of the chemical reaction 
+- [ ] E. enzymes cannot change the standard free energy (ΔG°′) of a chemical reaction 
+
+
+098a
+Which one of the following statements is FALSE regarding enzyme kinetics?
+- [ ] A. enzymes cannot change the standard free energy (ΔG°′) of a chemical reaction 
+- [ ] B. enzymes increase the rate of a chemical reaction 
+- [*] C. enzymes alter the equilibrium of the chemical reaction 
+- [ ] D. enzymes stabilize the transition state in a chemical reaction 
+- [ ] E. enzymes can provide favorable microenvironments for a chemical reaction 
+
+
+0b29
+Which one of the following statements is FALSE of enzyme kinetics?
+- [ ] A. enzymes cannot change the equilibrium of the chemical reaction 
+- [ ] B. enzymes stabilize the transition state in a chemical reaction 
+- [ ] C. enzymes increase the rate of a chemical reaction 
+- [*] D. enzymes raise the activation energy of a chemical reaction 
+- [ ] E. enzymes cannot change the standard free energy (ΔG°′) of a chemical reaction 
+
+
+0ce4
+Which one of the following statements is FALSE of enzyme kinetics?
+- [ ] A. enzymes stabilize the transition state in a chemical reaction 
+- [*] B. enzymes make endergonic reactions proceed spontaneously 
+- [ ] C. enzymes cannot change the equilibrium of the chemical reaction 
+- [ ] D. enzymes reduce the activation energy of a chemical reaction 
+- [ ] E. enzymes can provide favorable microenvironments for a chemical reaction 
+
+
+0ed2
+Which one of the following statements is FALSE regarding enzyme kinetics?
+- [ ] A. enzymes can provide favorable microenvironments for a chemical reaction 
+- [ ] B. enzymes reduce the activation energy of a chemical reaction 
+- [*] C. enzymes reduce the rate of a chemical reaction 
+- [ ] D. enzymes stabilize the transition state in a chemical reaction 
+- [ ] E. enzymes cannot change the equilibrium of the chemical reaction 
+
+
+1002
+Which one of the following statements is TRUE about enzyme kinetics?
+- [ ] A. enzymes only allow chemical reactions to go forward 
+- [*] B. enzymes cannot change the equilibrium of the chemical reaction 
+- [ ] C. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [ ] D. enzymes provide the needed activation energy for a chemical reaction 
+- [ ] E. enzymes make endergonic reactions proceed spontaneously 
+
+
+1215
+Which one of the following statements is TRUE about enzyme kinetics?
+- [*] A. enzymes cannot change the equilibrium of the chemical reaction 
+- [ ] B. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [ ] C. enzymes reduce the rate of a chemical reaction 
+- [ ] D. enzymes force chemical reactions to go forward 
+- [ ] E. enzymes raise the activation energy of a chemical reaction 
+
+
+151d
+Which one of the following statements is TRUE of enzyme kinetics?
+- [ ] A. enzymes force chemical reactions to go forward 
+- [ ] B. enzymes reduce the rate of a chemical reaction 
+- [ ] C. enzymes eliminate the activation energy of a chemical reaction. 
+- [ ] D. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [*] E. enzymes stabilize the transition state in a chemical reaction 
+
+
+1717
+Which one of the following statements is TRUE about enzyme kinetics?
+- [*] A. enzymes decrease the activation energy of a chemical reaction 
+- [ ] B. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [ ] C. enzymes make endergonic reactions proceed spontaneously 
+- [ ] D. enzymes alter the equilibrium of the chemical reaction 
+- [ ] E. enzymes reduce the rate of a chemical reaction 
+
+
+173a
+Which one of the following statements is TRUE about enzyme kinetics?
+- [*] A. enzymes reduce the activation energy of a chemical reaction 
+- [ ] B. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [ ] C. enzymes produce more product than substrate in a chemical reaction 
+- [ ] D. enzymes make endergonic reactions proceed spontaneously 
+- [ ] E. enzymes reduce the rate of a chemical reaction 
+
+
+1a66
+Which one of the following statements is TRUE about enzyme kinetics?
+- [ ] A. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [ ] B. enzymes reduce the rate of a chemical reaction 
+- [ ] C. enzymes alter the equilibrium of the chemical reaction 
+- [ ] D. enzymes cannot change the activation energy of the chemical reaction 
+- [*] E. enzymes can provide favorable microenvironments for a chemical reaction 
+
+
+1a75
+Which one of the following statements is TRUE about enzyme kinetics?
+- [ ] A. enzymes reduce the rate of a chemical reaction 
+- [ ] B. enzymes produce more product than substrate in a chemical reaction 
+- [ ] C. enzymes alter the equilibrium of the chemical reaction 
+- [*] D. enzymes lower the activation energy of a chemical reaction 
+- [ ] E. enzymes are needed in large quantities as they are used up in a chemical reaction 
+
+
+1abb
+Which one of the following statements is TRUE of enzyme kinetics?
+- [ ] A. enzymes raise the activation energy of a chemical reaction 
+- [ ] B. enzymes produce more product than substrate in a chemical reaction 
+- [ ] C. enzymes alter the equilibrium of the chemical reaction 
+- [ ] D. enzymes reduce the rate of a chemical reaction 
+- [*] E. enzymes stabilize the transition state in a chemical reaction 
+
+
+1dca
+Which one of the following statements is FALSE regarding enzyme kinetics?
+- [ ] A. enzymes cannot change the Gibbs free energy (ΔG) of a chemical reaction 
+- [ ] B. enzymes cannot change the equilibrium of the chemical reaction 
+- [ ] C. enzymes increase the rate of a chemical reaction 
+- [ ] D. enzymes can provide favorable microenvironments for a chemical reaction 
+- [*] E. enzymes cannot change the activation energy of the chemical reaction 
+
+
+1e0e
+Which one of the following statements is TRUE of enzyme kinetics?
+- [ ] A. enzymes produce more product than substrate in a chemical reaction 
+- [ ] B. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [*] C. enzymes cannot change the Gibbs free energy (ΔG) of a chemical reaction 
+- [ ] D. enzymes increase the activation energy of a chemical reaction 
+- [ ] E. enzymes alter the equilibrium of the chemical reaction 
+
+
+1f75
+Which one of the following statements is TRUE of enzyme kinetics?
+- [ ] A. enzymes only convert substrate to product and NOT the reverse 
+- [ ] B. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [*] C. enzymes cannot change the equilibrium of the chemical reaction 
+- [ ] D. enzymes increase the activation energy of a chemical reaction 
+- [ ] E. enzymes reduce the rate of a chemical reaction 
+
+
+20e1
+Which one of the following statements is FALSE of enzyme kinetics?
+- [ ] A. enzymes increase the rate of a chemical reaction 
+- [ ] B. enzymes stabilize the transition state in a chemical reaction 
+- [*] C. enzymes produce more product than substrate in a chemical reaction 
+- [ ] D. enzymes decrease the activation energy of a chemical reaction 
+- [ ] E. enzymes cannot change the equilibrium of the chemical reaction 
+
+
+214f
+Which one of the following statements is TRUE about enzyme kinetics?
+- [ ] A. enzymes alter the standard free energy (ΔG°′) of a chemical reaction 
+- [ ] B. enzymes produce more product than substrate in a chemical reaction 
+- [ ] C. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [ ] D. enzymes raise the activation energy of a chemical reaction 
+- [*] E. enzymes increase the rate of a chemical reaction 
+
+
+23a9
+Which one of the following statements is TRUE about enzyme kinetics?
+- [ ] A. enzymes force chemical reactions to go forward 
+- [ ] B. enzymes reduce the rate of a chemical reaction 
+- [ ] C. enzymes alter the standard free energy (ΔG°′) of a chemical reaction 
+- [ ] D. enzymes alter the equilibrium of the chemical reaction 
+- [*] E. enzymes reduce the activation energy of a chemical reaction 
+
+
+258f
+Which one of the following statements is TRUE of enzyme kinetics?
+- [*] A. enzymes increase the rate of a chemical reaction 
+- [ ] B. enzymes alter the standard free energy (ΔG°′) of a chemical reaction 
+- [ ] C. enzymes only convert substrate to product and NOT the reverse 
+- [ ] D. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [ ] E. enzymes eliminate the activation energy of a chemical reaction. 
+
+
+290f
+Which one of the following statements is FALSE of enzyme kinetics?
+- [*] A. enzymes provide the needed activation energy for a chemical reaction 
+- [ ] B. enzymes stabilize the transition state in a chemical reaction 
+- [ ] C. enzymes increase the rate of a chemical reaction 
+- [ ] D. enzymes cannot change the Gibbs free energy (ΔG) of a chemical reaction 
+- [ ] E. enzymes can provide favorable microenvironments for a chemical reaction 
+
+
+2b6f
+Which one of the following statements is FALSE regarding enzyme kinetics?
+- [*] A. enzymes raise the activation energy of a chemical reaction 
+- [ ] B. enzymes cannot change the equilibrium of the chemical reaction 
+- [ ] C. enzymes can provide favorable microenvironments for a chemical reaction 
+- [ ] D. enzymes stabilize the transition state in a chemical reaction 
+- [ ] E. enzymes cannot change the Gibbs free energy (ΔG) of a chemical reaction 
+
+
+32ab
+Which one of the following statements is FALSE of enzyme kinetics?
+- [*] A. enzymes produce more product than substrate in a chemical reaction 
+- [ ] B. enzymes decrease the activation energy of a chemical reaction 
+- [ ] C. enzymes increase the rate of a chemical reaction 
+- [ ] D. enzymes cannot change the Gibbs free energy (ΔG) of a chemical reaction 
+- [ ] E. enzymes can provide favorable microenvironments for a chemical reaction 
+
+
+337b
+Which one of the following statements is TRUE of enzyme kinetics?
+- [ ] A. enzymes alter the equilibrium of the chemical reaction 
+- [ ] B. enzymes only allow chemical reactions to go forward 
+- [ ] C. enzymes alter the Gibbs free energy (ΔG) of a chemical reaction 
+- [ ] D. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [*] E. enzymes decrease the activation energy of a chemical reaction 
+
+
+362b
+Which one of the following statements is FALSE regarding enzyme kinetics?
+- [ ] A. enzymes stabilize the transition state in a chemical reaction 
+- [ ] B. enzymes can provide favorable microenvironments for a chemical reaction 
+- [ ] C. enzymes increase the rate of a chemical reaction 
+- [ ] D. enzymes cannot change the Gibbs free energy (ΔG) of a chemical reaction 
+- [*] E. enzymes only allow chemical reactions to go forward 
+
+
+3775
+Which one of the following statements is FALSE regarding enzyme kinetics?
+- [ ] A. enzymes stabilize the transition state in a chemical reaction 
+- [ ] B. enzymes increase the rate of a chemical reaction 
+- [ ] C. enzymes cannot change the equilibrium of the chemical reaction 
+- [ ] D. enzymes cannot change the Gibbs free energy (ΔG) of a chemical reaction 
+- [*] E. enzymes force chemical reactions to go forward 
+
+
+3b13
+Which one of the following statements is TRUE of enzyme kinetics?
+- [ ] A. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [*] B. enzymes increase the rate of a chemical reaction 
+- [ ] C. enzymes alter the equilibrium of the chemical reaction 
+- [ ] D. enzymes alter the standard free energy (ΔG°′) of a chemical reaction 
+- [ ] E. enzymes cannot change the activation energy of the chemical reaction 
+
+
+3d71
+Which one of the following statements is TRUE of enzyme kinetics?
+- [ ] A. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [*] B. enzymes cannot change the standard free energy (ΔG°′) of a chemical reaction 
+- [ ] C. enzymes cannot change the activation energy of the chemical reaction 
+- [ ] D. enzymes alter the equilibrium of the chemical reaction 
+- [ ] E. enzymes only convert substrate to product and NOT the reverse 
+
+
+3e66
+Which one of the following statements is TRUE of enzyme kinetics?
+- [ ] A. enzymes force chemical reactions to go forward 
+- [ ] B. enzymes provide the needed activation energy for a chemical reaction 
+- [ ] C. enzymes alter the Gibbs free energy (ΔG) of a chemical reaction 
+- [*] D. enzymes stabilize the transition state in a chemical reaction 
+- [ ] E. enzymes alter the equilibrium of the chemical reaction 
+
+
+422d
+Which one of the following statements is TRUE of enzyme kinetics?
+- [*] A. enzymes stabilize the transition state in a chemical reaction 
+- [ ] B. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [ ] C. enzymes produce more product than substrate in a chemical reaction 
+- [ ] D. enzymes make endergonic reactions proceed spontaneously 
+- [ ] E. enzymes raise the activation energy of a chemical reaction 
+
+
+4772
+Which one of the following statements is FALSE of enzyme kinetics?
+- [ ] A. enzymes cannot change the standard free energy (ΔG°′) of a chemical reaction 
+- [ ] B. enzymes reduce the activation energy of a chemical reaction 
+- [*] C. enzymes reduce the rate of a chemical reaction 
+- [ ] D. enzymes stabilize the transition state in a chemical reaction 
+- [ ] E. enzymes can provide favorable microenvironments for a chemical reaction 
+
+
+4912
+Which one of the following statements is FALSE of enzyme kinetics?
+- [ ] A. enzymes cannot change the equilibrium of the chemical reaction 
+- [ ] B. enzymes cannot change the Gibbs free energy (ΔG) of a chemical reaction 
+- [ ] C. enzymes stabilize the transition state in a chemical reaction 
+- [*] D. enzymes raise the activation energy of a chemical reaction 
+- [ ] E. enzymes can provide favorable microenvironments for a chemical reaction 
+
+
+4dc8
+Which one of the following statements is FALSE regarding enzyme kinetics?
+- [ ] A. enzymes increase the rate of a chemical reaction 
+- [ ] B. enzymes can provide favorable microenvironments for a chemical reaction 
+- [ ] C. enzymes cannot change the equilibrium of the chemical reaction 
+- [*] D. enzymes raise the activation energy of a chemical reaction 
+- [ ] E. enzymes stabilize the transition state in a chemical reaction 
+
+
+518f
+Which one of the following statements is FALSE of enzyme kinetics?
+- [ ] A. enzymes cannot change the equilibrium of the chemical reaction 
+- [ ] B. enzymes reduce the activation energy of a chemical reaction 
+- [ ] C. enzymes can provide favorable microenvironments for a chemical reaction 
+- [*] D. enzymes alter the standard free energy (ΔG°′) of a chemical reaction 
+- [ ] E. enzymes increase the rate of a chemical reaction 
+
+
+5392
+Which one of the following statements is TRUE about enzyme kinetics?
+- [ ] A. enzymes produce more product than substrate in a chemical reaction 
+- [ ] B. enzymes increase the activation energy of a chemical reaction 
+- [ ] C. enzymes alter the equilibrium of the chemical reaction 
+- [*] D. enzymes stabilize the transition state in a chemical reaction 
+- [ ] E. enzymes reduce the rate of a chemical reaction 
+
+
+57e5
+Which one of the following statements is FALSE of enzyme kinetics?
+- [ ] A. enzymes can provide favorable microenvironments for a chemical reaction 
+- [ ] B. enzymes cannot change the Gibbs free energy (ΔG) of a chemical reaction 
+- [ ] C. enzymes cannot change the equilibrium of the chemical reaction 
+- [*] D. enzymes only convert substrate to product and NOT the reverse 
+- [ ] E. enzymes decrease the activation energy of a chemical reaction 
+
+
+598c
+Which one of the following statements is TRUE about enzyme kinetics?
+- [ ] A. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [ ] B. enzymes reduce the rate of a chemical reaction 
+- [ ] C. enzymes alter the Gibbs free energy (ΔG) of a chemical reaction 
+- [ ] D. enzymes increase the activation energy of a chemical reaction 
+- [*] E. enzymes stabilize the transition state in a chemical reaction 
+
+
+5c12
+Which one of the following statements is FALSE of enzyme kinetics?
+- [ ] A. enzymes stabilize the transition state in a chemical reaction 
+- [*] B. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [ ] C. enzymes increase the rate of a chemical reaction 
+- [ ] D. enzymes reduce the activation energy of a chemical reaction 
+- [ ] E. enzymes can provide favorable microenvironments for a chemical reaction 
+
+
+5c89
+Which one of the following statements is TRUE about enzyme kinetics?
+- [*] A. enzymes cannot change the equilibrium of the chemical reaction 
+- [ ] B. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [ ] C. enzymes raise the activation energy of a chemical reaction 
+- [ ] D. enzymes alter the standard free energy (ΔG°′) of a chemical reaction 
+- [ ] E. enzymes produce more product than substrate in a chemical reaction 
+
+
+624b
+Which one of the following statements is TRUE about enzyme kinetics?
+- [ ] A. enzymes only allow chemical reactions to go forward 
+- [ ] B. enzymes alter the equilibrium of the chemical reaction 
+- [ ] C. enzymes reduce the rate of a chemical reaction 
+- [*] D. enzymes can provide favorable microenvironments for a chemical reaction 
+- [ ] E. enzymes provide the needed activation energy for a chemical reaction 
+
+
+639c
+Which one of the following statements is FALSE of enzyme kinetics?
+- [ ] A. enzymes stabilize the transition state in a chemical reaction 
+- [ ] B. enzymes cannot change the standard free energy (ΔG°′) of a chemical reaction 
+- [*] C. enzymes provide the needed activation energy for a chemical reaction 
+- [ ] D. enzymes cannot change the equilibrium of the chemical reaction 
+- [ ] E. enzymes increase the rate of a chemical reaction 
+
+
+669f
+Which one of the following statements is TRUE about enzyme kinetics?
+- [ ] A. enzymes raise the activation energy of a chemical reaction 
+- [ ] B. enzymes reduce the rate of a chemical reaction 
+- [*] C. enzymes cannot change the Gibbs free energy (ΔG) of a chemical reaction 
+- [ ] D. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [ ] E. enzymes only convert substrate to product and NOT the reverse 
+
+
+678b
+Which one of the following statements is TRUE about enzyme kinetics?
+- [*] A. enzymes can provide favorable microenvironments for a chemical reaction 
+- [ ] B. enzymes alter the standard free energy (ΔG°′) of a chemical reaction 
+- [ ] C. enzymes alter the equilibrium of the chemical reaction 
+- [ ] D. enzymes reduce the rate of a chemical reaction 
+- [ ] E. enzymes produce more product than substrate in a chemical reaction 
+
+
+6db0
+Which one of the following statements is FALSE regarding enzyme kinetics?
+- [ ] A. enzymes decrease the activation energy of a chemical reaction 
+- [ ] B. enzymes cannot change the equilibrium of the chemical reaction 
+- [*] C. enzymes produce more product than substrate in a chemical reaction 
+- [ ] D. enzymes can provide favorable microenvironments for a chemical reaction 
+- [ ] E. enzymes increase the rate of a chemical reaction 
+
+
+715d
+Which one of the following statements is TRUE of enzyme kinetics?
+- [ ] A. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [ ] B. enzymes make endergonic reactions proceed spontaneously 
+- [*] C. enzymes lower the activation energy of a chemical reaction 
+- [ ] D. enzymes reduce the rate of a chemical reaction 
+- [ ] E. enzymes only allow chemical reactions to go forward 
+
+
+75f4
+Which one of the following statements is TRUE of enzyme kinetics?
+- [ ] A. enzymes reduce the rate of a chemical reaction 
+- [ ] B. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [*] C. enzymes stabilize the transition state in a chemical reaction 
+- [ ] D. enzymes alter the standard free energy (ΔG°′) of a chemical reaction 
+- [ ] E. enzymes cannot change the activation energy of the chemical reaction 
+
+
+7976
+Which one of the following statements is FALSE of enzyme kinetics?
+- [ ] A. enzymes increase the rate of a chemical reaction 
+- [ ] B. enzymes cannot change the equilibrium of the chemical reaction 
+- [ ] C. enzymes can provide favorable microenvironments for a chemical reaction 
+- [ ] D. enzymes reduce the activation energy of a chemical reaction 
+- [*] E. enzymes produce more product than substrate in a chemical reaction 
+
+
+91ba
+Which one of the following statements is TRUE about enzyme kinetics?
+- [*] A. enzymes stabilize the transition state in a chemical reaction 
+- [ ] B. enzymes force chemical reactions to go forward 
+- [ ] C. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [ ] D. enzymes alter the equilibrium of the chemical reaction 
+- [ ] E. enzymes provide the needed activation energy for a chemical reaction 
+
+
+960b
+Which one of the following statements is FALSE of enzyme kinetics?
+- [ ] A. enzymes can provide favorable microenvironments for a chemical reaction 
+- [ ] B. enzymes lower the activation energy of a chemical reaction 
+- [ ] C. enzymes cannot change the Gibbs free energy (ΔG) of a chemical reaction 
+- [*] D. enzymes produce more product than substrate in a chemical reaction 
+- [ ] E. enzymes cannot change the equilibrium of the chemical reaction 
+
+
+9750
+Which one of the following statements is FALSE regarding enzyme kinetics?
+- [ ] A. enzymes stabilize the transition state in a chemical reaction 
+- [ ] B. enzymes decrease the activation energy of a chemical reaction 
+- [*] C. enzymes produce more product than substrate in a chemical reaction 
+- [ ] D. enzymes cannot change the Gibbs free energy (ΔG) of a chemical reaction 
+- [ ] E. enzymes cannot change the equilibrium of the chemical reaction 
+
+
+9a6c
+Which one of the following statements is FALSE of enzyme kinetics?
+- [*] A. enzymes only allow chemical reactions to go forward 
+- [ ] B. enzymes lower the activation energy of a chemical reaction 
+- [ ] C. enzymes cannot change the standard free energy (ΔG°′) of a chemical reaction 
+- [ ] D. enzymes increase the rate of a chemical reaction 
+- [ ] E. enzymes can provide favorable microenvironments for a chemical reaction 
+
+
+a022
+Which one of the following statements is FALSE regarding enzyme kinetics?
+- [*] A. enzymes only allow chemical reactions to go forward 
+- [ ] B. enzymes cannot change the Gibbs free energy (ΔG) of a chemical reaction 
+- [ ] C. enzymes cannot change the equilibrium of the chemical reaction 
+- [ ] D. enzymes stabilize the transition state in a chemical reaction 
+- [ ] E. enzymes can provide favorable microenvironments for a chemical reaction 
+
+
+a251
+Which one of the following statements is FALSE regarding enzyme kinetics?
+- [ ] A. enzymes cannot change the Gibbs free energy (ΔG) of a chemical reaction 
+- [*] B. enzymes only convert substrate to product and NOT the reverse 
+- [ ] C. enzymes stabilize the transition state in a chemical reaction 
+- [ ] D. enzymes cannot change the equilibrium of the chemical reaction 
+- [ ] E. enzymes lower the activation energy of a chemical reaction 
+
+
+a3bd
+Which one of the following statements is TRUE of enzyme kinetics?
+- [ ] A. enzymes force chemical reactions to go forward 
+- [*] B. enzymes can provide favorable microenvironments for a chemical reaction 
+- [ ] C. enzymes alter the equilibrium of the chemical reaction 
+- [ ] D. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [ ] E. enzymes alter the Gibbs free energy (ΔG) of a chemical reaction 
+
+
+a7e1
+Which one of the following statements is TRUE about enzyme kinetics?
+- [ ] A. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [ ] B. enzymes cannot change the activation energy of the chemical reaction 
+- [*] C. enzymes can provide favorable microenvironments for a chemical reaction 
+- [ ] D. enzymes reduce the rate of a chemical reaction 
+- [ ] E. enzymes produce more product than substrate in a chemical reaction 
+
+
+aa9b
+Which one of the following statements is TRUE of enzyme kinetics?
+- [ ] A. enzymes alter the equilibrium of the chemical reaction 
+- [*] B. enzymes can provide favorable microenvironments for a chemical reaction 
+- [ ] C. enzymes make endergonic reactions proceed spontaneously 
+- [ ] D. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [ ] E. enzymes reduce the rate of a chemical reaction 
+
+
+ab15
+Which one of the following statements is FALSE regarding enzyme kinetics?
+- [*] A. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [ ] B. enzymes cannot change the standard free energy (ΔG°′) of a chemical reaction 
+- [ ] C. enzymes cannot change the equilibrium of the chemical reaction 
+- [ ] D. enzymes increase the rate of a chemical reaction 
+- [ ] E. enzymes decrease the activation energy of a chemical reaction 
+
+
+b2cb
+Which one of the following statements is FALSE of enzyme kinetics?
+- [ ] A. enzymes stabilize the transition state in a chemical reaction 
+- [ ] B. enzymes cannot change the equilibrium of the chemical reaction 
+- [ ] C. enzymes decrease the activation energy of a chemical reaction 
+- [*] D. enzymes only allow chemical reactions to go forward 
+- [ ] E. enzymes increase the rate of a chemical reaction 
+
+
+b82d
+Which one of the following statements is FALSE of enzyme kinetics?
+- [ ] A. enzymes cannot change the standard free energy (ΔG°′) of a chemical reaction 
+- [*] B. enzymes only allow chemical reactions to go forward 
+- [ ] C. enzymes increase the rate of a chemical reaction 
+- [ ] D. enzymes can provide favorable microenvironments for a chemical reaction 
+- [ ] E. enzymes cannot change the equilibrium of the chemical reaction 
+
+
+b963
+Which one of the following statements is TRUE of enzyme kinetics?
+- [*] A. enzymes increase the rate of a chemical reaction 
+- [ ] B. enzymes provide the needed activation energy for a chemical reaction 
+- [ ] C. enzymes make endergonic reactions proceed spontaneously 
+- [ ] D. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [ ] E. enzymes alter the equilibrium of the chemical reaction 
+
+
+ba37
+Which one of the following statements is TRUE about enzyme kinetics?
+- [*] A. enzymes cannot change the Gibbs free energy (ΔG) of a chemical reaction 
+- [ ] B. enzymes cannot change the activation energy of the chemical reaction 
+- [ ] C. enzymes reduce the rate of a chemical reaction 
+- [ ] D. enzymes alter the equilibrium of the chemical reaction 
+- [ ] E. enzymes produce more product than substrate in a chemical reaction 
+
+
+ba7d
+Which one of the following statements is FALSE of enzyme kinetics?
+- [ ] A. enzymes reduce the activation energy of a chemical reaction 
+- [*] B. enzymes reduce the rate of a chemical reaction 
+- [ ] C. enzymes cannot change the Gibbs free energy (ΔG) of a chemical reaction 
+- [ ] D. enzymes stabilize the transition state in a chemical reaction 
+- [ ] E. enzymes cannot change the equilibrium of the chemical reaction 
+
+
+ba9a
+Which one of the following statements is TRUE of enzyme kinetics?
+- [ ] A. enzymes force chemical reactions to go forward 
+- [ ] B. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [ ] C. enzymes provide the needed activation energy for a chemical reaction 
+- [ ] D. enzymes reduce the rate of a chemical reaction 
+- [*] E. enzymes cannot change the standard free energy (ΔG°′) of a chemical reaction 
+
+
+bb7b
+Which one of the following statements is TRUE of enzyme kinetics?
+- [ ] A. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [ ] B. enzymes alter the equilibrium of the chemical reaction 
+- [*] C. enzymes cannot change the Gibbs free energy (ΔG) of a chemical reaction 
+- [ ] D. enzymes raise the activation energy of a chemical reaction 
+- [ ] E. enzymes reduce the rate of a chemical reaction 
+
+
+bec0
+Which one of the following statements is FALSE regarding enzyme kinetics?
+- [ ] A. enzymes increase the rate of a chemical reaction 
+- [ ] B. enzymes cannot change the Gibbs free energy (ΔG) of a chemical reaction 
+- [*] C. enzymes force chemical reactions to go forward 
+- [ ] D. enzymes cannot change the equilibrium of the chemical reaction 
+- [ ] E. enzymes reduce the activation energy of a chemical reaction 
+
+
+bf8c
+Which one of the following statements is FALSE regarding enzyme kinetics?
+- [ ] A. enzymes can provide favorable microenvironments for a chemical reaction 
+- [ ] B. enzymes increase the rate of a chemical reaction 
+- [*] C. enzymes only allow chemical reactions to go forward 
+- [ ] D. enzymes cannot change the Gibbs free energy (ΔG) of a chemical reaction 
+- [ ] E. enzymes stabilize the transition state in a chemical reaction 
+
+
+bfd6
+Which one of the following statements is FALSE regarding enzyme kinetics?
+- [ ] A. enzymes lower the activation energy of a chemical reaction 
+- [ ] B. enzymes stabilize the transition state in a chemical reaction 
+- [ ] C. enzymes cannot change the equilibrium of the chemical reaction 
+- [*] D. enzymes only convert substrate to product and NOT the reverse 
+- [ ] E. enzymes cannot change the Gibbs free energy (ΔG) of a chemical reaction 
+
+
+bfdf
+Which one of the following statements is FALSE regarding enzyme kinetics?
+- [ ] A. enzymes can provide favorable microenvironments for a chemical reaction 
+- [ ] B. enzymes stabilize the transition state in a chemical reaction 
+- [ ] C. enzymes decrease the activation energy of a chemical reaction 
+- [*] D. enzymes alter the standard free energy (ΔG°′) of a chemical reaction 
+- [ ] E. enzymes increase the rate of a chemical reaction 
+
+
+c457
+Which one of the following statements is FALSE regarding enzyme kinetics?
+- [*] A. enzymes force chemical reactions to go forward 
+- [ ] B. enzymes increase the rate of a chemical reaction 
+- [ ] C. enzymes can provide favorable microenvironments for a chemical reaction 
+- [ ] D. enzymes stabilize the transition state in a chemical reaction 
+- [ ] E. enzymes decrease the activation energy of a chemical reaction 
+
+
+c477
+Which one of the following statements is FALSE regarding enzyme kinetics?
+- [*] A. enzymes make endergonic reactions proceed spontaneously 
+- [ ] B. enzymes stabilize the transition state in a chemical reaction 
+- [ ] C. enzymes cannot change the equilibrium of the chemical reaction 
+- [ ] D. enzymes reduce the activation energy of a chemical reaction 
+- [ ] E. enzymes can provide favorable microenvironments for a chemical reaction 
+
+
+c4d3
+Which one of the following statements is TRUE of enzyme kinetics?
+- [ ] A. enzymes alter the Gibbs free energy (ΔG) of a chemical reaction 
+- [ ] B. enzymes reduce the rate of a chemical reaction 
+- [*] C. enzymes cannot change the equilibrium of the chemical reaction 
+- [ ] D. enzymes only convert substrate to product and NOT the reverse 
+- [ ] E. enzymes eliminate the activation energy of a chemical reaction. 
+
+
+c5cb
+Which one of the following statements is TRUE of enzyme kinetics?
+- [ ] A. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [*] B. enzymes increase the rate of a chemical reaction 
+- [ ] C. enzymes alter the equilibrium of the chemical reaction 
+- [ ] D. enzymes cannot change the activation energy of the chemical reaction 
+- [ ] E. enzymes only convert substrate to product and NOT the reverse 
+
+
+c698
+Which one of the following statements is FALSE regarding enzyme kinetics?
+- [ ] A. enzymes stabilize the transition state in a chemical reaction 
+- [ ] B. enzymes can provide favorable microenvironments for a chemical reaction 
+- [ ] C. enzymes reduce the activation energy of a chemical reaction 
+- [*] D. enzymes alter the Gibbs free energy (ΔG) of a chemical reaction 
+- [ ] E. enzymes cannot change the equilibrium of the chemical reaction 
+
+
+d000
+Which one of the following statements is TRUE about enzyme kinetics?
+- [ ] A. enzymes only convert substrate to product and NOT the reverse 
+- [ ] B. enzymes provide the needed activation energy for a chemical reaction 
+- [ ] C. enzymes make endergonic reactions proceed spontaneously 
+- [*] D. enzymes can provide favorable microenvironments for a chemical reaction 
+- [ ] E. enzymes are needed in large quantities as they are used up in a chemical reaction 
+
+
+d237
+Which one of the following statements is TRUE about enzyme kinetics?
+- [ ] A. enzymes reduce the rate of a chemical reaction 
+- [ ] B. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [ ] C. enzymes alter the Gibbs free energy (ΔG) of a chemical reaction 
+- [*] D. enzymes decrease the activation energy of a chemical reaction 
+- [ ] E. enzymes alter the equilibrium of the chemical reaction 
+
+
+d43c
+Which one of the following statements is FALSE regarding enzyme kinetics?
+- [ ] A. enzymes increase the rate of a chemical reaction 
+- [ ] B. enzymes cannot change the equilibrium of the chemical reaction 
+- [*] C. enzymes increase the activation energy of a chemical reaction 
+- [ ] D. enzymes cannot change the Gibbs free energy (ΔG) of a chemical reaction 
+- [ ] E. enzymes stabilize the transition state in a chemical reaction 
+
+
+d66e
+Which one of the following statements is FALSE of enzyme kinetics?
+- [ ] A. enzymes stabilize the transition state in a chemical reaction 
+- [*] B. enzymes only allow chemical reactions to go forward 
+- [ ] C. enzymes can provide favorable microenvironments for a chemical reaction 
+- [ ] D. enzymes increase the rate of a chemical reaction 
+- [ ] E. enzymes cannot change the standard free energy (ΔG°′) of a chemical reaction 
+
+
+d7b3
+Which one of the following statements is FALSE regarding enzyme kinetics?
+- [ ] A. enzymes cannot change the equilibrium of the chemical reaction 
+- [*] B. enzymes eliminate the activation energy of a chemical reaction. 
+- [ ] C. enzymes can provide favorable microenvironments for a chemical reaction 
+- [ ] D. enzymes increase the rate of a chemical reaction 
+- [ ] E. enzymes stabilize the transition state in a chemical reaction 
+
+
+ddeb
+Which one of the following statements is TRUE of enzyme kinetics?
+- [ ] A. enzymes alter the Gibbs free energy (ΔG) of a chemical reaction 
+- [ ] B. enzymes alter the equilibrium of the chemical reaction 
+- [*] C. enzymes lower the activation energy of a chemical reaction 
+- [ ] D. enzymes produce more product than substrate in a chemical reaction 
+- [ ] E. enzymes are needed in large quantities as they are used up in a chemical reaction 
+
+
+e020
+Which one of the following statements is TRUE of enzyme kinetics?
+- [ ] A. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [ ] B. enzymes reduce the rate of a chemical reaction 
+- [*] C. enzymes cannot change the Gibbs free energy (ΔG) of a chemical reaction 
+- [ ] D. enzymes only convert substrate to product and NOT the reverse 
+- [ ] E. enzymes increase the activation energy of a chemical reaction 
+
+
+e0aa
+Which one of the following statements is FALSE of enzyme kinetics?
+- [*] A. enzymes eliminate the activation energy of a chemical reaction. 
+- [ ] B. enzymes can provide favorable microenvironments for a chemical reaction 
+- [ ] C. enzymes increase the rate of a chemical reaction 
+- [ ] D. enzymes cannot change the Gibbs free energy (ΔG) of a chemical reaction 
+- [ ] E. enzymes cannot change the equilibrium of the chemical reaction 
+
+
+e564
+Which one of the following statements is TRUE of enzyme kinetics?
+- [ ] A. enzymes make endergonic reactions proceed spontaneously 
+- [ ] B. enzymes reduce the rate of a chemical reaction 
+- [ ] C. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [*] D. enzymes cannot change the equilibrium of the chemical reaction 
+- [ ] E. enzymes raise the activation energy of a chemical reaction 
+
+
+e611
+Which one of the following statements is TRUE about enzyme kinetics?
+- [ ] A. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [ ] B. enzymes increase the activation energy of a chemical reaction 
+- [ ] C. enzymes alter the Gibbs free energy (ΔG) of a chemical reaction 
+- [*] D. enzymes increase the rate of a chemical reaction 
+- [ ] E. enzymes produce more product than substrate in a chemical reaction 
+
+
+e767
+Which one of the following statements is TRUE about enzyme kinetics?
+- [*] A. enzymes increase the rate of a chemical reaction 
+- [ ] B. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [ ] C. enzymes only convert substrate to product and NOT the reverse 
+- [ ] D. enzymes alter the standard free energy (ΔG°′) of a chemical reaction 
+- [ ] E. enzymes provide the needed activation energy for a chemical reaction 
+
+
+e839
+Which one of the following statements is FALSE of enzyme kinetics?
+- [*] A. enzymes force chemical reactions to go forward 
+- [ ] B. enzymes can provide favorable microenvironments for a chemical reaction 
+- [ ] C. enzymes lower the activation energy of a chemical reaction 
+- [ ] D. enzymes cannot change the equilibrium of the chemical reaction 
+- [ ] E. enzymes increase the rate of a chemical reaction 
+
+
+ed8b
+Which one of the following statements is FALSE of enzyme kinetics?
+- [ ] A. enzymes increase the rate of a chemical reaction 
+- [*] B. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [ ] C. enzymes lower the activation energy of a chemical reaction 
+- [ ] D. enzymes stabilize the transition state in a chemical reaction 
+- [ ] E. enzymes can provide favorable microenvironments for a chemical reaction 
+
+
+ef27
+Which one of the following statements is FALSE regarding enzyme kinetics?
+- [ ] A. enzymes increase the rate of a chemical reaction 
+- [ ] B. enzymes stabilize the transition state in a chemical reaction 
+- [*] C. enzymes produce more product than substrate in a chemical reaction 
+- [ ] D. enzymes lower the activation energy of a chemical reaction 
+- [ ] E. enzymes cannot change the equilibrium of the chemical reaction 
+
+
+f060
+Which one of the following statements is TRUE of enzyme kinetics?
+- [ ] A. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [ ] B. enzymes reduce the rate of a chemical reaction 
+- [ ] C. enzymes alter the standard free energy (ΔG°′) of a chemical reaction 
+- [*] D. enzymes decrease the activation energy of a chemical reaction 
+- [ ] E. enzymes only convert substrate to product and NOT the reverse 
+
+
+f373
+Which one of the following statements is FALSE regarding enzyme kinetics?
+- [*] A. enzymes produce more product than substrate in a chemical reaction 
+- [ ] B. enzymes cannot change the standard free energy (ΔG°′) of a chemical reaction 
+- [ ] C. enzymes increase the rate of a chemical reaction 
+- [ ] D. enzymes cannot change the equilibrium of the chemical reaction 
+- [ ] E. enzymes can provide favorable microenvironments for a chemical reaction 
+
+
+f4e3
+Which one of the following statements is TRUE about enzyme kinetics?
+- [ ] A. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [ ] B. enzymes increase the activation energy of a chemical reaction 
+- [*] C. enzymes cannot change the standard free energy (ΔG°′) of a chemical reaction 
+- [ ] D. enzymes reduce the rate of a chemical reaction 
+- [ ] E. enzymes alter the equilibrium of the chemical reaction 
+
+
+f4ec
+Which one of the following statements is FALSE of enzyme kinetics?
+- [ ] A. enzymes increase the rate of a chemical reaction 
+- [*] B. enzymes force chemical reactions to go forward 
+- [ ] C. enzymes cannot change the equilibrium of the chemical reaction 
+- [ ] D. enzymes can provide favorable microenvironments for a chemical reaction 
+- [ ] E. enzymes reduce the activation energy of a chemical reaction 
+
+
+fbbc
+Which one of the following statements is TRUE of enzyme kinetics?
+- [ ] A. enzymes alter the standard free energy (ΔG°′) of a chemical reaction 
+- [*] B. enzymes can provide favorable microenvironments for a chemical reaction 
+- [ ] C. enzymes reduce the rate of a chemical reaction 
+- [ ] D. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [ ] E. enzymes raise the activation energy of a chemical reaction 
+
+
+fe78
+Which one of the following statements is FALSE of enzyme kinetics?
+- [ ] A. enzymes stabilize the transition state in a chemical reaction 
+- [ ] B. enzymes cannot change the equilibrium of the chemical reaction 
+- [ ] C. enzymes increase the rate of a chemical reaction 
+- [ ] D. enzymes cannot change the Gibbs free energy (ΔG) of a chemical reaction 
+- [*] E. enzymes cannot change the activation energy of the chemical reaction 
+
+
+fe7b
+Which one of the following statements is TRUE about enzyme kinetics?
+- [ ] A. enzymes are needed in large quantities as they are used up in a chemical reaction 
+- [ ] B. enzymes reduce the rate of a chemical reaction 
+- [*] C. enzymes cannot change the Gibbs free energy (ΔG) of a chemical reaction 
+- [ ] D. enzymes alter the equilibrium of the chemical reaction 
+- [ ] E. enzymes raise the activation energy of a chemical reaction 
+
+
+ffae
+Which one of the following statements is FALSE regarding enzyme kinetics?
+- [ ] A. enzymes increase the rate of a chemical reaction 
+- [ ] B. enzymes cannot change the standard free energy (ΔG°′) of a chemical reaction 
+- [*] C. enzymes increase the activation energy of a chemical reaction 
+- [ ] D. enzymes cannot change the equilibrium of the chemical reaction 
+- [ ] E. enzymes can provide favorable microenvironments for a chemical reaction 
+
+

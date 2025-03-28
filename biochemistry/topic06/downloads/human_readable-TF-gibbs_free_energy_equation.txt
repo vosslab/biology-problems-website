@@ -1,0 +1,891 @@
+0489
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [*] A. Δ S is the change in entropy 
+- [ ] B. When Δ H < 0 the reaction is called non-spontaneous 
+- [ ] C. free energy is associated with the amount of heat exchanged with the environment 
+- [ ] D. T is the temperature in degrees Fahrenheit 
+- [ ] E. When Δ S = 0 the reaction has reached equilibrium 
+
+
+08ba
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. When Δ G = 0 the reaction has reached equilibrium 
+- [ ] B. enthalpy is associated with the amount of heat exchanged with the environment 
+- [ ] C. When Δ G < 0 the reaction is called spontaneous 
+- [ ] D. Δ H is the change in enthalpy 
+- [*] E. T is the temperature in degrees Celcius 
+
+
+0a01
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [*] A. When Δ G < 0 the reaction is called spontaneous 
+- [ ] B. T is the temperature in degrees Celcius 
+- [ ] C. entropy is associated with the amount of heat exchanged with the environment 
+- [ ] D. Δ S is the change in enthalpy 
+- [ ] E. When Δ H = 0 the reaction has reached equilibrium 
+
+
+0d1c
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. free energy is associated with a state of disorder, randomness, or uncertainty 
+- [ ] B. When Δ H > 0 the reaction is called non-spontaneous 
+- [ ] C. T is the temperature in degrees Fahrenheit 
+- [ ] D. When Δ H = 0 the reaction has reached equilibrium 
+- [*] E. Δ H is the change in enthalpy 
+
+
+106d
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. When Δ S = 0 the reaction has reached equilibrium 
+- [ ] B. free energy is associated with the heat content of a system 
+- [ ] C. When Δ S > 0 the reaction is called non-spontaneous 
+- [ ] D. T is the temperature in degrees Fahrenheit 
+- [*] E. Δ H is the change in enthalpy 
+
+
+1094
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [*] A. When Δ H > 0 the reaction is called spontaneous 
+- [ ] B. entropy is associated with a state of disorder, randomness, or uncertainty 
+- [ ] C. T is the temperature in degrees Kelvin 
+- [ ] D. Δ H is the change in enthalpy 
+- [ ] E. When Δ G = 0 the reaction has reached equilibrium 
+
+
+12d0
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. Δ H is the change in entropy 
+- [*] B. enthalpy is associated with the amount of heat exchanged with the environment 
+- [ ] C. When Δ H = 0 the reaction has reached equilibrium 
+- [ ] D. When Δ H > 0 the reaction is called spontaneous 
+- [ ] E. T is the temperature in degrees Fahrenheit 
+
+
+18d6
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. When Δ H = 0 the reaction has reached equilibrium 
+- [ ] B. T is the temperature in degrees Celcius 
+- [ ] C. When Δ G > 0 the reaction is called spontaneous 
+- [ ] D. Δ G is the change in entropy 
+- [*] E. the Gibbs free energy can be described as the energy available to do work 
+
+
+1aad
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. When Δ G = 0 the reaction has reached equilibrium 
+- [ ] B. When Δ G > 0 the reaction is called non-spontaneous 
+- [ ] C. entropy is associated with a state of disorder, randomness, or uncertainty 
+- [*] D. T is the temperature in degrees Celcius 
+- [ ] E. Δ H is the change in enthalpy 
+
+
+1d66
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. Δ H is the change in free energy 
+- [ ] B. T is the temperature in degrees Celcius 
+- [ ] C. When Δ S = 0 the reaction has reached equilibrium 
+- [ ] D. entropy is associated with the heat content of a system 
+- [*] E. When Δ G < 0 the reaction is called spontaneous 
+
+
+267e
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [*] A. When Δ H > 0 the reaction is called spontaneous 
+- [ ] B. T is the temperature in degrees Kelvin 
+- [ ] C. entropy is associated with a state of disorder, randomness, or uncertainty 
+- [ ] D. Δ H is the change in enthalpy 
+- [ ] E. When Δ G = 0 the reaction has reached equilibrium 
+
+
+26f8
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [*] A. When Δ S < 0 the reaction is called non-spontaneous 
+- [ ] B. T is the temperature in degrees Kelvin 
+- [ ] C. Δ S is the change in entropy 
+- [ ] D. When Δ G = 0 the reaction has reached equilibrium 
+- [ ] E. enthalpy is associated with the heat content of a system 
+
+
+287e
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. T is the temperature in degrees Kelvin 
+- [*] B. Δ S is the change in enthalpy 
+- [ ] C. When Δ G > 0 the reaction is called non-spontaneous 
+- [ ] D. When Δ G = 0 the reaction has reached equilibrium 
+- [ ] E. entropy is associated with a state of disorder, randomness, or uncertainty 
+
+
+3200
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. enthalpy is associated with the heat content of a system 
+- [ ] B. When Δ G = 0 the reaction has reached equilibrium 
+- [*] C. Δ G is the change in enthalpy 
+- [ ] D. When Δ G > 0 the reaction is called non-spontaneous 
+- [ ] E. T is the temperature in degrees Kelvin 
+
+
+343c
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. When Δ G = 0 the reaction has reached equilibrium 
+- [ ] B. Δ H is the change in enthalpy 
+- [*] C. enthalpy can be described as the energy available to do work 
+- [ ] D. When Δ G < 0 the reaction is called spontaneous 
+- [ ] E. T is the temperature in degrees Kelvin 
+
+
+34de
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. When Δ G = 0 the reaction has reached equilibrium 
+- [ ] B. T is the temperature in degrees Kelvin 
+- [ ] C. Δ S is the change in entropy 
+- [ ] D. When Δ G < 0 the reaction is called spontaneous 
+- [*] E. enthalpy is associated with a state of disorder, randomness, or uncertainty 
+
+
+3670
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. When Δ S = 0 the reaction has reached equilibrium 
+- [ ] B. When Δ S < 0 the reaction is called non-spontaneous 
+- [ ] C. T is the temperature in degrees Fahrenheit 
+- [*] D. the Gibbs free energy can be described as the energy available to do work 
+- [ ] E. Δ G is the change in enthalpy 
+
+
+388c
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. the Gibbs free energy can be described as the energy available to do work 
+- [*] B. When Δ H = 0 the reaction has reached equilibrium 
+- [ ] C. T is the temperature in degrees Kelvin 
+- [ ] D. When Δ G > 0 the reaction is called non-spontaneous 
+- [ ] E. Δ H is the change in enthalpy 
+
+
+395a
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [*] A. When Δ G > 0 the reaction is called spontaneous 
+- [ ] B. enthalpy is associated with the amount of heat exchanged with the environment 
+- [ ] C. T is the temperature in degrees Kelvin 
+- [ ] D. Δ H is the change in enthalpy 
+- [ ] E. When Δ G = 0 the reaction has reached equilibrium 
+
+
+47dc
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. When Δ G < 0 the reaction is called spontaneous 
+- [ ] B. When Δ G = 0 the reaction has reached equilibrium 
+- [ ] C. Δ H is the change in enthalpy 
+- [*] D. entropy can be described as the energy available to do work 
+- [ ] E. T is the temperature in degrees Kelvin 
+
+
+4a3b
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [*] A. T is the temperature in degrees Fahrenheit 
+- [ ] B. enthalpy is associated with the heat content of a system 
+- [ ] C. When Δ G > 0 the reaction is called non-spontaneous 
+- [ ] D. Δ G is the change in free energy 
+- [ ] E. When Δ G = 0 the reaction has reached equilibrium 
+
+
+4a53
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. When Δ G = 0 the reaction has reached equilibrium 
+- [ ] B. Δ S is the change in entropy 
+- [ ] C. enthalpy is associated with the amount of heat exchanged with the environment 
+- [*] D. When Δ S > 0 the reaction is called spontaneous 
+- [ ] E. T is the temperature in degrees Kelvin 
+
+
+4be0
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [*] A. When Δ G > 0 the reaction is called non-spontaneous 
+- [ ] B. Δ H is the change in free energy 
+- [ ] C. free energy is associated with the amount of heat exchanged with the environment 
+- [ ] D. T is the temperature in degrees Fahrenheit 
+- [ ] E. When Δ S = 0 the reaction has reached equilibrium 
+
+
+4d41
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. When Δ G = 0 the reaction has reached equilibrium 
+- [ ] B. Δ G is the change in free energy 
+- [ ] C. T is the temperature in degrees Kelvin 
+- [*] D. free energy is associated with the heat content of a system 
+- [ ] E. When Δ G < 0 the reaction is called spontaneous 
+
+
+4d9c
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. Δ S is the change in enthalpy 
+- [*] B. When Δ G = 0 the reaction has reached equilibrium 
+- [ ] C. T is the temperature in degrees Fahrenheit 
+- [ ] D. enthalpy can be described as the energy available to do work 
+- [ ] E. When Δ H < 0 the reaction is called non-spontaneous 
+
+
+5064
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. When Δ H > 0 the reaction is called spontaneous 
+- [ ] B. Δ G is the change in enthalpy 
+- [*] C. enthalpy is associated with the heat content of a system 
+- [ ] D. When Δ S = 0 the reaction has reached equilibrium 
+- [ ] E. T is the temperature in degrees Fahrenheit 
+
+
+519f
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [*] A. Δ G is the change in free energy 
+- [ ] B. T is the temperature in degrees Celcius 
+- [ ] C. When Δ H = 0 the reaction has reached equilibrium 
+- [ ] D. free energy is associated with the amount of heat exchanged with the environment 
+- [ ] E. When Δ H > 0 the reaction is called non-spontaneous 
+
+
+5200
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. Δ H is the change in enthalpy 
+- [ ] B. When Δ G < 0 the reaction is called spontaneous 
+- [ ] C. T is the temperature in degrees Kelvin 
+- [*] D. entropy is associated with the amount of heat exchanged with the environment 
+- [ ] E. When Δ G = 0 the reaction has reached equilibrium 
+
+
+53c9
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [*] A. When Δ S < 0 the reaction is called spontaneous 
+- [ ] B. Δ G is the change in free energy 
+- [ ] C. T is the temperature in degrees Kelvin 
+- [ ] D. enthalpy is associated with the amount of heat exchanged with the environment 
+- [ ] E. When Δ G = 0 the reaction has reached equilibrium 
+
+
+5714
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [*] A. When Δ S < 0 the reaction is called spontaneous 
+- [ ] B. enthalpy is associated with the amount of heat exchanged with the environment 
+- [ ] C. Δ G is the change in free energy 
+- [ ] D. When Δ G = 0 the reaction has reached equilibrium 
+- [ ] E. T is the temperature in degrees Kelvin 
+
+
+577b
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. When Δ S < 0 the reaction is called spontaneous 
+- [ ] B. When Δ H = 0 the reaction has reached equilibrium 
+- [ ] C. T is the temperature in degrees Celcius 
+- [ ] D. free energy is associated with a state of disorder, randomness, or uncertainty 
+- [*] E. Δ H is the change in enthalpy 
+
+
+5819
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. T is the temperature in degrees Kelvin 
+- [ ] B. Δ S is the change in entropy 
+- [ ] C. the Gibbs free energy can be described as the energy available to do work 
+- [ ] D. When Δ G = 0 the reaction has reached equilibrium 
+- [*] E. When Δ H > 0 the reaction is called non-spontaneous 
+
+
+5b62
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [*] A. T is the temperature in degrees Fahrenheit 
+- [ ] B. When Δ G = 0 the reaction has reached equilibrium 
+- [ ] C. enthalpy is associated with the heat content of a system 
+- [ ] D. Δ G is the change in free energy 
+- [ ] E. When Δ G < 0 the reaction is called spontaneous 
+
+
+5d50
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. When Δ H < 0 the reaction is called spontaneous 
+- [ ] B. Δ S is the change in enthalpy 
+- [ ] C. When Δ H = 0 the reaction has reached equilibrium 
+- [*] D. the Gibbs free energy can be described as the energy available to do work 
+- [ ] E. T is the temperature in degrees Celcius 
+
+
+5ec2
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [*] A. Δ S is the change in entropy 
+- [ ] B. entropy can be described as the energy available to do work 
+- [ ] C. When Δ G > 0 the reaction is called spontaneous 
+- [ ] D. When Δ H = 0 the reaction has reached equilibrium 
+- [ ] E. T is the temperature in degrees Fahrenheit 
+
+
+5ec8
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [*] A. When Δ H < 0 the reaction is called non-spontaneous 
+- [ ] B. When Δ G = 0 the reaction has reached equilibrium 
+- [ ] C. entropy is associated with a state of disorder, randomness, or uncertainty 
+- [ ] D. Δ H is the change in enthalpy 
+- [ ] E. T is the temperature in degrees Kelvin 
+
+
+6173
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. When Δ S > 0 the reaction is called spontaneous 
+- [ ] B. When Δ H = 0 the reaction has reached equilibrium 
+- [ ] C. T is the temperature in degrees Celcius 
+- [*] D. Δ S is the change in entropy 
+- [ ] E. enthalpy is associated with a state of disorder, randomness, or uncertainty 
+
+
+628b
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. When Δ S = 0 the reaction has reached equilibrium 
+- [*] B. When Δ G < 0 the reaction is called spontaneous 
+- [ ] C. Δ H is the change in entropy 
+- [ ] D. T is the temperature in degrees Celcius 
+- [ ] E. entropy is associated with the heat content of a system 
+
+
+64ac
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. the Gibbs free energy can be described as the energy available to do work 
+- [ ] B. Δ S is the change in entropy 
+- [ ] C. When Δ G = 0 the reaction has reached equilibrium 
+- [ ] D. T is the temperature in degrees Kelvin 
+- [*] E. When Δ H < 0 the reaction is called spontaneous 
+
+
+652a
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. When Δ G = 0 the reaction has reached equilibrium 
+- [ ] B. enthalpy is associated with the amount of heat exchanged with the environment 
+- [*] C. T is the temperature in degrees Celcius 
+- [ ] D. Δ G is the change in free energy 
+- [ ] E. When Δ G < 0 the reaction is called spontaneous 
+
+
+667d
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [*] A. Δ S is the change in enthalpy 
+- [ ] B. When Δ G = 0 the reaction has reached equilibrium 
+- [ ] C. When Δ G < 0 the reaction is called spontaneous 
+- [ ] D. the Gibbs free energy can be described as the energy available to do work 
+- [ ] E. T is the temperature in degrees Kelvin 
+
+
+6b32
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. When Δ H = 0 the reaction has reached equilibrium 
+- [ ] B. T is the temperature in degrees Fahrenheit 
+- [ ] C. Δ H is the change in entropy 
+- [ ] D. When Δ H > 0 the reaction is called spontaneous 
+- [*] E. enthalpy is associated with the heat content of a system 
+
+
+6e49
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. T is the temperature in degrees Kelvin 
+- [ ] B. When Δ G = 0 the reaction has reached equilibrium 
+- [ ] C. When Δ G < 0 the reaction is called spontaneous 
+- [ ] D. enthalpy is associated with the heat content of a system 
+- [*] E. Δ G is the change in entropy 
+
+
+6eea
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. Δ H is the change in enthalpy 
+- [ ] B. enthalpy is associated with the heat content of a system 
+- [*] C. When Δ G < 0 the reaction is called non-spontaneous 
+- [ ] D. When Δ G = 0 the reaction has reached equilibrium 
+- [ ] E. T is the temperature in degrees Kelvin 
+
+
+7059
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [*] A. When Δ H = 0 the reaction has reached equilibrium 
+- [ ] B. T is the temperature in degrees Kelvin 
+- [ ] C. enthalpy is associated with the amount of heat exchanged with the environment 
+- [ ] D. When Δ G > 0 the reaction is called non-spontaneous 
+- [ ] E. Δ S is the change in entropy 
+
+
+7384
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. When Δ G < 0 the reaction is called spontaneous 
+- [ ] B. T is the temperature in degrees Kelvin 
+- [ ] C. When Δ G = 0 the reaction has reached equilibrium 
+- [ ] D. Δ S is the change in entropy 
+- [*] E. entropy is associated with the heat content of a system 
+
+
+7c47
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. When Δ H > 0 the reaction is called spontaneous 
+- [ ] B. Δ G is the change in enthalpy 
+- [ ] C. When Δ S = 0 the reaction has reached equilibrium 
+- [ ] D. T is the temperature in degrees Celcius 
+- [*] E. enthalpy is associated with the heat content of a system 
+
+
+7eb2
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. Δ H is the change in enthalpy 
+- [ ] B. When Δ G < 0 the reaction is called spontaneous 
+- [*] C. When Δ S = 0 the reaction has reached equilibrium 
+- [ ] D. T is the temperature in degrees Kelvin 
+- [ ] E. the Gibbs free energy can be described as the energy available to do work 
+
+
+82e0
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. enthalpy is associated with a state of disorder, randomness, or uncertainty 
+- [ ] B. T is the temperature in degrees Fahrenheit 
+- [ ] C. When Δ S > 0 the reaction is called non-spontaneous 
+- [ ] D. When Δ H = 0 the reaction has reached equilibrium 
+- [*] E. Δ G is the change in free energy 
+
+
+8340
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. When Δ G < 0 the reaction is called non-spontaneous 
+- [ ] B. entropy can be described as the energy available to do work 
+- [ ] C. T is the temperature in degrees Celcius 
+- [ ] D. When Δ S = 0 the reaction has reached equilibrium 
+- [*] E. Δ G is the change in free energy 
+
+
+8af8
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. free energy is associated with a state of disorder, randomness, or uncertainty 
+- [*] B. When Δ G > 0 the reaction is called non-spontaneous 
+- [ ] C. Δ H is the change in free energy 
+- [ ] D. When Δ S = 0 the reaction has reached equilibrium 
+- [ ] E. T is the temperature in degrees Fahrenheit 
+
+
+8fb5
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [*] A. T is the temperature in degrees Kelvin 
+- [ ] B. When Δ H = 0 the reaction has reached equilibrium 
+- [ ] C. When Δ H > 0 the reaction is called non-spontaneous 
+- [ ] D. free energy is associated with the amount of heat exchanged with the environment 
+- [ ] E. Δ S is the change in enthalpy 
+
+
+9181
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. When Δ H < 0 the reaction is called non-spontaneous 
+- [*] B. T is the temperature in degrees Kelvin 
+- [ ] C. entropy is associated with the amount of heat exchanged with the environment 
+- [ ] D. Δ G is the change in enthalpy 
+- [ ] E. When Δ S = 0 the reaction has reached equilibrium 
+
+
+9399
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. T is the temperature in degrees Kelvin 
+- [ ] B. entropy is associated with a state of disorder, randomness, or uncertainty 
+- [ ] C. When Δ G > 0 the reaction is called non-spontaneous 
+- [ ] D. Δ H is the change in enthalpy 
+- [*] E. When Δ H = 0 the reaction has reached equilibrium 
+
+
+9989
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. When Δ G < 0 the reaction is called spontaneous 
+- [ ] B. Δ H is the change in enthalpy 
+- [*] C. When Δ S = 0 the reaction has reached equilibrium 
+- [ ] D. the Gibbs free energy can be described as the energy available to do work 
+- [ ] E. T is the temperature in degrees Kelvin 
+
+
+9c74
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. T is the temperature in degrees Fahrenheit 
+- [ ] B. When Δ G > 0 the reaction is called spontaneous 
+- [*] C. enthalpy is associated with the amount of heat exchanged with the environment 
+- [ ] D. When Δ H = 0 the reaction has reached equilibrium 
+- [ ] E. Δ H is the change in free energy 
+
+
+9d43
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. enthalpy is associated with a state of disorder, randomness, or uncertainty 
+- [*] B. Δ H is the change in enthalpy 
+- [ ] C. When Δ S > 0 the reaction is called non-spontaneous 
+- [ ] D. When Δ S = 0 the reaction has reached equilibrium 
+- [ ] E. T is the temperature in degrees Celcius 
+
+
+9d49
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. T is the temperature in degrees Fahrenheit 
+- [ ] B. entropy is associated with the amount of heat exchanged with the environment 
+- [*] C. When Δ G > 0 the reaction is called non-spontaneous 
+- [ ] D. Δ G is the change in entropy 
+- [ ] E. When Δ S = 0 the reaction has reached equilibrium 
+
+
+9db0
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. When Δ H > 0 the reaction is called spontaneous 
+- [ ] B. When Δ S = 0 the reaction has reached equilibrium 
+- [ ] C. free energy is associated with a state of disorder, randomness, or uncertainty 
+- [*] D. T is the temperature in degrees Kelvin 
+- [ ] E. Δ H is the change in free energy 
+
+
+9f4c
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. Δ G is the change in enthalpy 
+- [ ] B. T is the temperature in degrees Celcius 
+- [ ] C. When Δ H = 0 the reaction has reached equilibrium 
+- [*] D. the Gibbs free energy can be described as the energy available to do work 
+- [ ] E. When Δ H < 0 the reaction is called non-spontaneous 
+
+
+a318
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. When Δ G = 0 the reaction has reached equilibrium 
+- [*] B. free energy is associated with the amount of heat exchanged with the environment 
+- [ ] C. When Δ G < 0 the reaction is called spontaneous 
+- [ ] D. T is the temperature in degrees Kelvin 
+- [ ] E. Δ G is the change in free energy 
+
+
+a3fb
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [*] A. free energy is associated with a state of disorder, randomness, or uncertainty 
+- [ ] B. When Δ G < 0 the reaction is called spontaneous 
+- [ ] C. Δ H is the change in enthalpy 
+- [ ] D. T is the temperature in degrees Kelvin 
+- [ ] E. When Δ G = 0 the reaction has reached equilibrium 
+
+
+a547
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. T is the temperature in degrees Kelvin 
+- [*] B. Δ S is the change in free energy 
+- [ ] C. When Δ G > 0 the reaction is called non-spontaneous 
+- [ ] D. enthalpy is associated with the amount of heat exchanged with the environment 
+- [ ] E. When Δ G = 0 the reaction has reached equilibrium 
+
+
+a5a2
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [*] A. When Δ G > 0 the reaction is called non-spontaneous 
+- [ ] B. entropy is associated with the amount of heat exchanged with the environment 
+- [ ] C. T is the temperature in degrees Celcius 
+- [ ] D. Δ H is the change in entropy 
+- [ ] E. When Δ S = 0 the reaction has reached equilibrium 
+
+
+a5bb
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. T is the temperature in degrees Fahrenheit 
+- [ ] B. Δ H is the change in entropy 
+- [ ] C. When Δ H > 0 the reaction is called non-spontaneous 
+- [*] D. enthalpy is associated with the heat content of a system 
+- [ ] E. When Δ S = 0 the reaction has reached equilibrium 
+
+
+a5d8
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. T is the temperature in degrees Kelvin 
+- [*] B. Δ H is the change in entropy 
+- [ ] C. enthalpy is associated with the heat content of a system 
+- [ ] D. When Δ G < 0 the reaction is called spontaneous 
+- [ ] E. When Δ G = 0 the reaction has reached equilibrium 
+
+
+a730
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. When Δ G > 0 the reaction is called non-spontaneous 
+- [ ] B. When Δ G = 0 the reaction has reached equilibrium 
+- [*] C. Δ H is the change in free energy 
+- [ ] D. T is the temperature in degrees Kelvin 
+- [ ] E. entropy is associated with a state of disorder, randomness, or uncertainty 
+
+
+ab58
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. When Δ G = 0 the reaction has reached equilibrium 
+- [ ] B. enthalpy is associated with the heat content of a system 
+- [ ] C. Δ H is the change in enthalpy 
+- [*] D. When Δ H > 0 the reaction is called non-spontaneous 
+- [ ] E. T is the temperature in degrees Kelvin 
+
+
+aef4
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [*] A. Δ G is the change in free energy 
+- [ ] B. T is the temperature in degrees Celcius 
+- [ ] C. When Δ H < 0 the reaction is called spontaneous 
+- [ ] D. When Δ H = 0 the reaction has reached equilibrium 
+- [ ] E. free energy is associated with the amount of heat exchanged with the environment 
+
+
+af31
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. T is the temperature in degrees Kelvin 
+- [ ] B. entropy is associated with a state of disorder, randomness, or uncertainty 
+- [ ] C. Δ G is the change in free energy 
+- [*] D. When Δ H < 0 the reaction is called spontaneous 
+- [ ] E. When Δ G = 0 the reaction has reached equilibrium 
+
+
+af49
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [*] A. When Δ G = 0 the reaction has reached equilibrium 
+- [ ] B. T is the temperature in degrees Fahrenheit 
+- [ ] C. When Δ S > 0 the reaction is called spontaneous 
+- [ ] D. free energy is associated with the heat content of a system 
+- [ ] E. Δ S is the change in enthalpy 
+
+
+af49
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. When Δ G = 0 the reaction has reached equilibrium 
+- [ ] B. T is the temperature in degrees Kelvin 
+- [ ] C. When Δ G > 0 the reaction is called non-spontaneous 
+- [*] D. Δ S is the change in free energy 
+- [ ] E. entropy is associated with a state of disorder, randomness, or uncertainty 
+
+
+afee
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. T is the temperature in degrees Fahrenheit 
+- [ ] B. Δ G is the change in entropy 
+- [ ] C. When Δ S > 0 the reaction is called non-spontaneous 
+- [ ] D. When Δ S = 0 the reaction has reached equilibrium 
+- [*] E. entropy is associated with a state of disorder, randomness, or uncertainty 
+
+
+b41a
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. When Δ H = 0 the reaction has reached equilibrium 
+- [*] B. enthalpy is associated with the heat content of a system 
+- [ ] C. T is the temperature in degrees Celcius 
+- [ ] D. Δ S is the change in enthalpy 
+- [ ] E. When Δ S < 0 the reaction is called non-spontaneous 
+
+
+b5ca
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. T is the temperature in degrees Kelvin 
+- [ ] B. Δ S is the change in entropy 
+- [ ] C. When Δ G = 0 the reaction has reached equilibrium 
+- [ ] D. enthalpy is associated with the amount of heat exchanged with the environment 
+- [*] E. When Δ S > 0 the reaction is called non-spontaneous 
+
+
+b793
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. entropy is associated with the amount of heat exchanged with the environment 
+- [ ] B. When Δ S > 0 the reaction is called spontaneous 
+- [*] C. When Δ G = 0 the reaction has reached equilibrium 
+- [ ] D. T is the temperature in degrees Celcius 
+- [ ] E. Δ G is the change in enthalpy 
+
+
+b7ac
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. Δ H is the change in free energy 
+- [ ] B. entropy can be described as the energy available to do work 
+- [ ] C. When Δ H = 0 the reaction has reached equilibrium 
+- [ ] D. When Δ S < 0 the reaction is called spontaneous 
+- [*] E. T is the temperature in degrees Kelvin 
+
+
+b98f
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. T is the temperature in degrees Celcius 
+- [ ] B. When Δ G > 0 the reaction is called spontaneous 
+- [ ] C. Δ G is the change in entropy 
+- [ ] D. free energy is associated with the heat content of a system 
+- [*] E. When Δ G = 0 the reaction has reached equilibrium 
+
+
+bab1
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. When Δ S = 0 the reaction has reached equilibrium 
+- [*] B. enthalpy is associated with the amount of heat exchanged with the environment 
+- [ ] C. T is the temperature in degrees Celcius 
+- [ ] D. When Δ H < 0 the reaction is called spontaneous 
+- [ ] E. Δ G is the change in entropy 
+
+
+bc97
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. enthalpy is associated with the heat content of a system 
+- [ ] B. When Δ G = 0 the reaction has reached equilibrium 
+- [ ] C. T is the temperature in degrees Kelvin 
+- [ ] D. Δ S is the change in entropy 
+- [*] E. When Δ H < 0 the reaction is called non-spontaneous 
+
+
+c11e
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. entropy can be described as the energy available to do work 
+- [ ] B. Δ S is the change in enthalpy 
+- [ ] C. T is the temperature in degrees Celcius 
+- [*] D. When Δ G < 0 the reaction is called spontaneous 
+- [ ] E. When Δ H = 0 the reaction has reached equilibrium 
+
+
+c190
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [*] A. T is the temperature in degrees Kelvin 
+- [ ] B. Δ G is the change in enthalpy 
+- [ ] C. When Δ S = 0 the reaction has reached equilibrium 
+- [ ] D. When Δ H < 0 the reaction is called spontaneous 
+- [ ] E. enthalpy is associated with a state of disorder, randomness, or uncertainty 
+
+
+c214
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. When Δ S = 0 the reaction has reached equilibrium 
+- [ ] B. T is the temperature in degrees Celcius 
+- [*] C. Δ H is the change in enthalpy 
+- [ ] D. enthalpy is associated with a state of disorder, randomness, or uncertainty 
+- [ ] E. When Δ G < 0 the reaction is called non-spontaneous 
+
+
+c82b
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. enthalpy is associated with the heat content of a system 
+- [ ] B. When Δ G = 0 the reaction has reached equilibrium 
+- [ ] C. When Δ G < 0 the reaction is called spontaneous 
+- [ ] D. T is the temperature in degrees Kelvin 
+- [*] E. Δ H is the change in entropy 
+
+
+d175
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. free energy is associated with the amount of heat exchanged with the environment 
+- [*] B. When Δ G < 0 the reaction is called spontaneous 
+- [ ] C. When Δ H = 0 the reaction has reached equilibrium 
+- [ ] D. Δ S is the change in free energy 
+- [ ] E. T is the temperature in degrees Fahrenheit 
+
+
+d2c5
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [*] A. When Δ G = 0 the reaction has reached equilibrium 
+- [ ] B. When Δ H < 0 the reaction is called non-spontaneous 
+- [ ] C. T is the temperature in degrees Fahrenheit 
+- [ ] D. Δ H is the change in free energy 
+- [ ] E. enthalpy can be described as the energy available to do work 
+
+
+d319
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. T is the temperature in degrees Kelvin 
+- [ ] B. When Δ G < 0 the reaction is called spontaneous 
+- [*] C. Δ G is the change in enthalpy 
+- [ ] D. When Δ G = 0 the reaction has reached equilibrium 
+- [ ] E. enthalpy is associated with the amount of heat exchanged with the environment 
+
+
+d879
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. When Δ G = 0 the reaction has reached equilibrium 
+- [ ] B. T is the temperature in degrees Kelvin 
+- [ ] C. the Gibbs free energy can be described as the energy available to do work 
+- [*] D. When Δ G > 0 the reaction is called spontaneous 
+- [ ] E. Δ H is the change in enthalpy 
+
+
+dc73
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. When Δ S = 0 the reaction has reached equilibrium 
+- [ ] B. entropy is associated with the amount of heat exchanged with the environment 
+- [*] C. When Δ G > 0 the reaction is called non-spontaneous 
+- [ ] D. T is the temperature in degrees Fahrenheit 
+- [ ] E. Δ H is the change in entropy 
+
+
+dc7c
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. When Δ H > 0 the reaction is called non-spontaneous 
+- [ ] B. When Δ H = 0 the reaction has reached equilibrium 
+- [ ] C. T is the temperature in degrees Fahrenheit 
+- [ ] D. enthalpy can be described as the energy available to do work 
+- [*] E. Δ G is the change in free energy 
+
+
+e300
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. When Δ H = 0 the reaction has reached equilibrium 
+- [ ] B. T is the temperature in degrees Celcius 
+- [ ] C. Δ S is the change in free energy 
+- [*] D. entropy is associated with a state of disorder, randomness, or uncertainty 
+- [ ] E. When Δ S > 0 the reaction is called spontaneous 
+
+
+e6df
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. T is the temperature in degrees Celcius 
+- [ ] B. When Δ H = 0 the reaction has reached equilibrium 
+- [ ] C. Δ H is the change in free energy 
+- [ ] D. When Δ H > 0 the reaction is called spontaneous 
+- [*] E. entropy is associated with a state of disorder, randomness, or uncertainty 
+
+
+e759
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. Δ S is the change in free energy 
+- [*] B. entropy is associated with a state of disorder, randomness, or uncertainty 
+- [ ] C. When Δ G > 0 the reaction is called spontaneous 
+- [ ] D. T is the temperature in degrees Celcius 
+- [ ] E. When Δ S = 0 the reaction has reached equilibrium 
+
+
+f05f
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. T is the temperature in degrees Kelvin 
+- [*] B. When Δ S > 0 the reaction is called non-spontaneous 
+- [ ] C. Δ S is the change in entropy 
+- [ ] D. When Δ G = 0 the reaction has reached equilibrium 
+- [ ] E. the Gibbs free energy can be described as the energy available to do work 
+
+
+f09f
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. When Δ H < 0 the reaction is called non-spontaneous 
+- [ ] B. Δ H is the change in entropy 
+- [*] C. When Δ G = 0 the reaction has reached equilibrium 
+- [ ] D. T is the temperature in degrees Celcius 
+- [ ] E. enthalpy is associated with a state of disorder, randomness, or uncertainty 
+
+
+f40c
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [*] A. Δ S is the change in entropy 
+- [ ] B. T is the temperature in degrees Celcius 
+- [ ] C. When Δ H = 0 the reaction has reached equilibrium 
+- [ ] D. When Δ G < 0 the reaction is called non-spontaneous 
+- [ ] E. free energy is associated with the heat content of a system 
+
+
+f56c
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. Δ G is the change in entropy 
+- [ ] B. When Δ H = 0 the reaction has reached equilibrium 
+- [ ] C. When Δ H > 0 the reaction is called non-spontaneous 
+- [*] D. T is the temperature in degrees Kelvin 
+- [ ] E. free energy is associated with a state of disorder, randomness, or uncertainty 
+
+
+f84c
+Which one of the following statements is TRUE concerning the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [ ] A. entropy can be described as the energy available to do work 
+- [ ] B. When Δ H > 0 the reaction is called non-spontaneous 
+- [*] C. Δ S is the change in entropy 
+- [ ] D. T is the temperature in degrees Fahrenheit 
+- [ ] E. When Δ H = 0 the reaction has reached equilibrium 
+
+
+fa80
+Which one of the following statements is FALSE about the Gibbs free energy , Δ G = Δ H – T Δ S ?
+- [*] A. Δ H is the change in free energy 
+- [ ] B. When Δ G = 0 the reaction has reached equilibrium 
+- [ ] C. When Δ G < 0 the reaction is called spontaneous 
+- [ ] D. T is the temperature in degrees Kelvin 
+- [ ] E. enthalpy is associated with the amount of heat exchanged with the environment 
+
+

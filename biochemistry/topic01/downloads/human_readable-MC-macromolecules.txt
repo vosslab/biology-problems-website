@@ -1,0 +1,792 @@
+00c8
+Which one of the following types of macromolecules correspond to the macromolecule 'thymidine' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [*] C. nucleic acids 
+- [ ] D. proteins 
+
+
+015e
+Which one of the following types of macromolecules correspond to the macromolecule 'ribose' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+0467
+Which one of the following types of macromolecules correspond to the macromolecule 'palmitic acid – a fatty acid with 16 carbons' .
+- [ ] A. carbohydrates 
+- [*] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+0592
+Which one of the following types of macromolecules correspond to the macromolecule 'adenosine' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [*] C. nucleic acids 
+- [ ] D. proteins 
+
+
+0aa2
+Which one of the following types of macromolecules correspond to the macromolecule 'threonine' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [*] D. proteins 
+
+
+0bb9
+Which one of the following types of macromolecules correspond to the macromolecule 'fructose' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+0c0b
+Which one of the following types of macromolecules correspond to the macromolecule 'valine' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [*] D. proteins 
+
+
+0deb
+Which one of the following types of macromolecules correspond to the macromolecule 'guanosine triphosphate' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [*] C. nucleic acids 
+- [ ] D. proteins 
+
+
+159e
+Which one of the following types of macromolecules correspond to the macromolecule 'talose' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+1674
+Which one of the following types of macromolecules correspond to the macromolecule 'glutamic acid' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [*] D. proteins 
+
+
+193a
+Which one of the following types of macromolecules correspond to the macromolecule 'mannose' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+1aa8
+Which one of the following types of macromolecules correspond to the macromolecule 'xylose' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+1e1c
+Which one of the following types of macromolecules correspond to the macromolecule 'disaccharides' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+2224
+Which one of the following types of macromolecules correspond to the macromolecule 'adenosine triphosphate' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [*] C. nucleic acids 
+- [ ] D. proteins 
+
+
+240c
+Which one of the following types of macromolecules correspond to the macromolecule 'histidine' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [*] D. proteins 
+
+
+2813
+Which one of the following types of macromolecules correspond to the macromolecule 'aspartate' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [*] D. proteins 
+
+
+284c
+Which one of the following types of macromolecules correspond to the macromolecule 'amino acids' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [*] D. proteins 
+
+
+29d6
+Which one of the following types of macromolecules correspond to the macromolecule 'polypeptides' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [*] D. proteins 
+
+
+2f20
+Which one of the following types of macromolecules correspond to the macromolecule 'tryptophan' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [*] D. proteins 
+
+
+3131
+Which one of the following types of macromolecules correspond to the macromolecule 'polynucleotides' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [*] C. nucleic acids 
+- [ ] D. proteins 
+
+
+3456
+Which one of the following types of macromolecules correspond to the macromolecule 'cytidine' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [*] C. nucleic acids 
+- [ ] D. proteins 
+
+
+3565
+Which one of the following types of macromolecules correspond to the macromolecule 'testosterone' .
+- [ ] A. carbohydrates 
+- [*] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+381d
+Which one of the following types of macromolecules correspond to the macromolecule 'lanolin or wool wax – secreted by the sebaceous glands of sheep' .
+- [ ] A. carbohydrates 
+- [*] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+3a99
+Which one of the following types of macromolecules correspond to the macromolecule 'serine' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [*] D. proteins 
+
+
+3bcd
+Which one of the following types of macromolecules correspond to the macromolecule 'uracil' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [*] C. nucleic acids 
+- [ ] D. proteins 
+
+
+4012
+Which one of the following types of macromolecules correspond to the macromolecule 'capric acid – a fatty acid with 10 carbons' .
+- [ ] A. carbohydrates 
+- [*] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+45ba
+Which one of the following types of macromolecules correspond to the macromolecule 'galactose' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+47f0
+Which one of the following types of macromolecules correspond to the macromolecule 'maltodextrin' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+4b84
+Which one of the following types of macromolecules correspond to the macromolecule 'membrane bilayer' .
+- [ ] A. carbohydrates 
+- [*] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+4bf4
+Which one of the following types of macromolecules correspond to the macromolecule 'uridine' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [*] C. nucleic acids 
+- [ ] D. proteins 
+
+
+4dc4
+Which one of the following types of macromolecules correspond to the macromolecule 'sucrose' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+55af
+Which one of the following types of macromolecules correspond to the macromolecule 'spermaceti wax – found in the head cavities of sperm whales' .
+- [ ] A. carbohydrates 
+- [*] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+5a74
+Which one of the following types of macromolecules correspond to the macromolecule 'dextrose' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+5d0a
+Which one of the following types of macromolecules correspond to the macromolecule 'collagen' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [*] D. proteins 
+
+
+5d1a
+Which one of the following types of macromolecules correspond to the macromolecule 'DNA' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [*] C. nucleic acids 
+- [ ] D. proteins 
+
+
+5d23
+Which one of the following types of macromolecules correspond to the macromolecule 'sugar' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+60e2
+Which one of the following types of macromolecules correspond to the macromolecule 'steroids' .
+- [ ] A. carbohydrates 
+- [*] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+6512
+Which one of the following types of macromolecules correspond to the macromolecule 'caproic acid – a fatty acid with 6 carbons' .
+- [ ] A. carbohydrates 
+- [*] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+6527
+Which one of the following types of macromolecules correspond to the macromolecule 'lauric acid – a fatty acid with 12 carbons' .
+- [ ] A. carbohydrates 
+- [*] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+6765
+Which one of the following types of macromolecules correspond to the macromolecule 'shellac wax – secreted by the female lac bug' .
+- [ ] A. carbohydrates 
+- [*] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+68d6
+Which one of the following types of macromolecules correspond to the macromolecule 'amylose starch' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+6bf3
+Which one of the following types of macromolecules correspond to the macromolecule 'ATP' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [*] C. nucleic acids 
+- [ ] D. proteins 
+
+
+6c37
+Which one of the following types of macromolecules correspond to the macromolecule 'guanine' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [*] C. nucleic acids 
+- [ ] D. proteins 
+
+
+6e22
+Which one of the following types of macromolecules correspond to the macromolecule 'pentose' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+6fd1
+Which one of the following types of macromolecules correspond to the macromolecule 'diglycerides' .
+- [ ] A. carbohydrates 
+- [*] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+7872
+Which one of the following types of macromolecules correspond to the macromolecule 'allose' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+81b5
+Which one of the following types of macromolecules correspond to the macromolecule 'sphingo lipids ' .
+- [ ] A. carbohydrates 
+- [*] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+8309
+Which one of the following types of macromolecules correspond to the macromolecule 'glycine' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [*] D. proteins 
+
+
+835a
+Which one of the following types of macromolecules correspond to the macromolecule 'xylitol – a sugar alcohol added to chewing gum' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+83b7
+Which one of the following types of macromolecules correspond to the macromolecule 'gulose' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+8835
+Which one of the following types of macromolecules correspond to the macromolecule 'monosaccharides' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+88c2
+Which one of the following types of macromolecules correspond to the macromolecule 'aldose' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+8b14
+Which one of the following types of macromolecules correspond to the macromolecule 'chitin' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+9132
+Which one of the following types of macromolecules correspond to the macromolecule 'alanine' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [*] D. proteins 
+
+
+94c1
+Which one of the following types of macromolecules correspond to the macromolecule 'stearic acid – a fatty acid with 18 carbons' .
+- [ ] A. carbohydrates 
+- [*] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+95e0
+Which one of the following types of macromolecules correspond to the macromolecule 'cholesterol' .
+- [ ] A. carbohydrates 
+- [*] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+9697
+Which one of the following types of macromolecules correspond to the macromolecule 'hemoglobin' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [*] D. proteins 
+
+
+9c74
+Which one of the following types of macromolecules correspond to the macromolecule 'deoxyribonucleic acid' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [*] C. nucleic acids 
+- [ ] D. proteins 
+
+
+a043
+Which one of the following types of macromolecules correspond to the macromolecule 'lactalbumin – whey polypeptides found in milk' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [*] D. proteins 
+
+
+a12c
+Which one of the following types of macromolecules correspond to the macromolecule 'xanthan gum – polysaccharide used as a thickening agent in food' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+a235
+Which one of the following types of macromolecules correspond to the macromolecule 'phospho lipids ' .
+- [ ] A. carbohydrates 
+- [*] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+a2c3
+Which one of the following types of macromolecules correspond to the macromolecule 'lysine' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [*] D. proteins 
+
+
+a83d
+Which one of the following types of macromolecules correspond to the macromolecule 'polysaccharides' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+aad3
+Which one of the following types of macromolecules correspond to the macromolecule 'asparagine' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [*] D. proteins 
+
+
+ab66
+Which one of the following types of macromolecules correspond to the macromolecule 'xylulose' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+ad1a
+Which one of the following types of macromolecules correspond to the macromolecule 'hexose' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+ae5a
+Which one of the following types of macromolecules correspond to the macromolecule 'serum albumin – family of water-soluble polypeptides found in blood plasma' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [*] D. proteins 
+
+
+b15e
+Which one of the following types of macromolecules correspond to the macromolecule 'pectin – a heteropolysaccharide present in plant cell walls' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+b1a9
+Which one of the following types of macromolecules correspond to the macromolecule 'lyxose' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+b377
+Which one of the following types of macromolecules correspond to the macromolecule 'amylopectin starch' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+b46c
+Which one of the following types of macromolecules correspond to the macromolecule 'furanose' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+b61a
+Which one of the following types of macromolecules correspond to the macromolecule 'tagatose' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+bbf6
+Which one of the following types of macromolecules correspond to the macromolecule 'proline' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [*] D. proteins 
+
+
+bdba
+Which one of the following types of macromolecules correspond to the macromolecule 'phosphatidylcholine' .
+- [ ] A. carbohydrates 
+- [*] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+c1ed
+Which one of the following types of macromolecules correspond to the macromolecule 'RNA' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [*] C. nucleic acids 
+- [ ] D. proteins 
+
+
+c43c
+Which one of the following types of macromolecules correspond to the macromolecule 'fiber' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+c82f
+Which one of the following types of macromolecules correspond to the macromolecule 'lactose' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+c872
+Which one of the following types of macromolecules correspond to the macromolecule 'cysteine' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [*] D. proteins 
+
+
+d26f
+Which one of the following types of macromolecules correspond to the macromolecule 'ketose' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+d446
+Which one of the following types of macromolecules correspond to the macromolecule 'dietary fiber' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+dbb0
+Which one of the following types of macromolecules correspond to the macromolecule 'psicose' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+dc4d
+Which one of the following types of macromolecules correspond to the macromolecule 'pyranose' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+dd29
+Which one of the following types of macromolecules correspond to the macromolecule 'myristic acid – a fatty acid with 14 carbons' .
+- [ ] A. carbohydrates 
+- [*] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+ddfe
+Which one of the following types of macromolecules correspond to the macromolecule 'glutamine' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [*] D. proteins 
+
+
+e249
+Which one of the following types of macromolecules correspond to the macromolecule 'glucose' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+e2a5
+Which one of the following types of macromolecules correspond to the macromolecule 'castor oil – oil pressed from castor beans' .
+- [ ] A. carbohydrates 
+- [*] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+e335
+Which one of the following types of macromolecules correspond to the macromolecule 'cytosine' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [*] C. nucleic acids 
+- [ ] D. proteins 
+
+
+e3fe
+Which one of the following types of macromolecules correspond to the macromolecule 'methionine' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [*] D. proteins 
+
+
+e4c6
+Which one of the following types of macromolecules correspond to the macromolecule 'adenine' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [*] C. nucleic acids 
+- [ ] D. proteins 
+
+
+e506
+Which one of the following types of macromolecules correspond to the macromolecule 'triglycerides' .
+- [ ] A. carbohydrates 
+- [*] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+e523
+Which one of the following types of macromolecules correspond to the macromolecule 'cellulose' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+e7b8
+Which one of the following types of macromolecules correspond to the macromolecule 'butyric acid – a fatty acid with 4 carbons' .
+- [ ] A. carbohydrates 
+- [*] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+eac7
+Which one of the following types of macromolecules correspond to the macromolecule 'sorbitol – a sugar alcohol added to chewing gum' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+eb56
+Which one of the following types of macromolecules correspond to the macromolecule 'ribonucleic acid' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [*] C. nucleic acids 
+- [ ] D. proteins 
+
+
+f9a5
+Which one of the following types of macromolecules correspond to the macromolecule 'nucleotides' .
+- [ ] A. carbohydrates 
+- [ ] B. lipids 
+- [*] C. nucleic acids 
+- [ ] D. proteins 
+
+
+faa1
+Which one of the following types of macromolecules correspond to the macromolecule 'arabinose' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+fb36
+Which one of the following types of macromolecules correspond to the macromolecule 'ribulose' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+fda2
+Which one of the following types of macromolecules correspond to the macromolecule 'carnauba wax – from leaves of the Brazilian palm tree' .
+- [ ] A. carbohydrates 
+- [*] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
+ff38
+Which one of the following types of macromolecules correspond to the macromolecule 'maltose' .
+- [*] A. carbohydrates 
+- [ ] B. lipids 
+- [ ] C. nucleic acids 
+- [ ] D. proteins 
+
+
