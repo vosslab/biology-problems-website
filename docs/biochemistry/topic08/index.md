@@ -29,6 +29,6 @@ Ligand binding, allosteric effects, and feedback regulation.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic08/selftest-metabolic_pathway_allosteric.html" %}
+  {% include "biochemistry/topic08/downloads/selftest-metabolic_pathway_allosteric.html" %}
 
 </details>

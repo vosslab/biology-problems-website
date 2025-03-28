@@ -29,7 +29,7 @@ Amino acid structure, types, and roles in protein structure.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic03/selftest-2_amino_acids-polypeptide_mc_sequence.html" %}
+  {% include "biochemistry/topic03/downloads/selftest-2_amino_acids-polypeptide_mc_sequence.html" %}
 
 </details>
 ## Identification of Amino Acids by Structural and Chemical Properties
@@ -59,7 +59,7 @@ Amino acid structure, types, and roles in protein structure.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic03/selftest-MC-amino_acids.html" %}
+  {% include "biochemistry/topic03/downloads/selftest-MC-amino_acids.html" %}
 
 </details>
 ## Amino Acids from Chemical Structures
@@ -89,6 +89,6 @@ Amino acid structure, types, and roles in protein structure.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic03/selftest-which_amino_acid_mc.html" %}
+  {% include "biochemistry/topic03/downloads/selftest-which_amino_acid_mc.html" %}
 
 </details>

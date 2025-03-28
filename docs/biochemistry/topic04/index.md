@@ -29,7 +29,7 @@ Protein folding, structural levels, and mechanisms.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic04/selftest-MC-levels_of_protein_structure.html" %}
+  {% include "biochemistry/topic04/downloads/selftest-MC-levels_of_protein_structure.html" %}
 
 </details>
 ## Hydrogen Bonding in Alpha-Helix Structures
@@ -59,7 +59,7 @@ Protein folding, structural levels, and mechanisms.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic04/selftest-alpha_helix_h-bonds-MC.html" %}
+  {% include "biochemistry/topic04/downloads/selftest-alpha_helix_h-bonds-MC.html" %}
 
 </details>
 ## Ionic Bond Formation in Amino Acid Side Chains
@@ -89,6 +89,6 @@ Protein folding, structural levels, and mechanisms.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic04/selftest-ionic_bond_amino_acids.html" %}
+  {% include "biochemistry/topic04/downloads/selftest-ionic_bond_amino_acids.html" %}
 
 </details>
