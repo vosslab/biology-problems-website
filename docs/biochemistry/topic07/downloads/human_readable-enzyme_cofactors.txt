@@ -1,0 +1,792 @@
+05b5 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. cholesterol, a cell membrane steroid 
+- [*] B. the glycolysis enzyme , hexokinase 
+- [ ] C. creatine, an organic molecule that recharges ATP 
+- [ ] D. nicotinamide adenine dinucleotide (NAD+ → NADH) 
+- [ ] E. zinc ion , Zn2+ 
+
+
+0974 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. adenosine diphosphate (ADP) 
+- [ ] B. vitamin B1, thiamin 
+- [*] C. the structural protein, keratin 
+- [ ] D. flavin adenine dinucleotide (FAD → FADH2) 
+- [ ] E. creatine, an organic molecule that recharges ATP 
+
+
+0ec8 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. adenosine monophosphate (AMP) 
+- [ ] B. pyridoxal phosphate (PLP), a derivative of Vitamin B6 
+- [ ] C. cholesterol, a cell membrane steroid 
+- [*] D. transcript ion factor proteins 
+- [ ] E. potassium ion , K+ 
+
+
+1193 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [*] A. transcript ion factor proteins 
+- [ ] B. nicotinamide adenine dinucleotide (NAD+ → NADH) 
+- [ ] C. cholesterol, a cell membrane steroid 
+- [ ] D. iron ion s, Fe+2/Fe+3 
+- [ ] E. vitamin B2, riboflavin 
+
+
+1528 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. nicotinamide adenine dinucleotide phosphate (NADP+ → NADPH) 
+- [ ] B. the organic molecule of a heme porphyrin with an iron ion , Fe2+, attached 
+- [ ] C. estradiol (E2), one of the estrogen steroid hormones responsible for female sex characteristics 
+- [ ] D. potassium ion , K+ 
+- [*] E. insulin, a hormone and a protein 
+
+
+16dc Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. quinone, an organic compound involved in electron transport 
+- [ ] B. manganese ion s (Mn2+) 
+- [ ] C. estriol (E3), one of the estrogen steroid hormones responsible for female sex characteristics 
+- [ ] D. vitamin B3, niacin 
+- [*] E. the glycolysis enzyme , glyceraldehyde 3-phosphate dehydrogenase 
+
+
+1b1e Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. vitamin B6, pyridoxamine 
+- [ ] B. potassium ion , K+ 
+- [*] C. the oxygen transport protein, hemoglobin 
+- [ ] D. estrone (E1), one of the estrogen steroid hormones responsible for female sex characteristics 
+- [ ] E. the organic molecule of a heme porphyrin with an iron ion , Fe2+, attached 
+
+
+1c0d Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. S-adenosyl meth ion ine (SAM), an organic molecule used for methyl group transfer 
+- [*] B. the oxygen transport protein, hemoglobin 
+- [ ] C. flavin adenine dinucleotide (FAD → FADH2) 
+- [ ] D. zinc ion , Zn2+ 
+- [ ] E. estrone (E1), one of the estrogen steroid hormones responsible for female sex characteristics 
+
+
+1d8d Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. adenosine diphosphate (ADP) 
+- [ ] B. tetrahydrofolate (THF), a form of folic acid, Vitamin B9 
+- [*] C. polyalanine peptide 
+- [ ] D. chloride ion , Cl- 
+- [ ] E. S-adenosyl meth ion ine (SAM), an organic molecule used for methyl group transfer 
+
+
+1f37 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. vitamin B12, cobalamins 
+- [ ] B. calcium ion , Ca2+ 
+- [ ] C. co enzyme A (CoA) 
+- [*] D. insulin, a hormone and a protein 
+- [ ] E. estriol (E3), one of the estrogen steroid hormones responsible for female sex characteristics 
+
+
+2312 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [*] A. immunoglobulin proteins 
+- [ ] B. co enzyme A (CoA) 
+- [ ] C. vitamin B7, biotin 
+- [ ] D. iron ion s, Fe+2/Fe+3 
+- [ ] E. quinone, an organic compound involved in electron transport 
+
+
+277a Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. pyridoxal phosphate (PLP), a derivative of Vitamin B6 
+- [ ] B. adenosine triphosphate (ATP) 
+- [ ] C. the organic molecule of a heme porphyrin with an iron ion , Fe2+, attached 
+- [ ] D. vitamin B6, pyridoxamine 
+- [*] E. polyalanine peptide 
+
+
+2813 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. chloride ion , Cl- 
+- [ ] B. vitamin B9, folate 
+- [ ] C. co enzyme Q10, ubiquinone 
+- [*] D. polyalanine peptide 
+- [ ] E. quinone, an organic compound involved in electron transport 
+
+
+2aa9 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. aldosterone, a steroid hormone that acts on the kidney 
+- [ ] B. calcium ion , Ca2+ 
+- [*] C. ACTH protein 
+- [ ] D. flavin mononucleotide (FMN → FMNH2) 
+- [ ] E. the organic molecule of a heme porphyrin with an iron ion , Fe2+, attached 
+
+
+2d2e Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. sodium ion , Na+ 
+- [ ] B. the organic molecule of a heme porphyrin with an iron ion , Fe2+, attached 
+- [*] C. immunoglobulin proteins 
+- [ ] D. cholesterol, a cell membrane steroid 
+- [ ] E. vitamin B5, pantothenic acid 
+
+
+34b3 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. adenosine monophosphate (AMP) 
+- [ ] B. sodium ion , Na+ 
+- [*] C. ACTH protein 
+- [ ] D. S-adenosyl meth ion ine (SAM), an organic molecule used for methyl group transfer 
+- [ ] E. vitamin B7, biotin 
+
+
+3aa6 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [*] A. polyalanine peptide 
+- [ ] B. co enzyme Q10, ubiquinone 
+- [ ] C. adenosine triphosphate (ATP) 
+- [ ] D. creatine, an organic molecule that recharges ATP 
+- [ ] E. zinc ion , Zn2+ 
+
+
+3c2b Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. adenosine diphosphate (ADP) 
+- [ ] B. vitamin A, retinol 
+- [ ] C. sodium ion , Na+ 
+- [*] D. polyalanine peptide 
+- [ ] E. flavin adenine dinucleotide (FAD → FADH2) 
+
+
+3f5f Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. adenosine monophosphate (AMP) 
+- [ ] B. flavin adenine dinucleotide (FAD → FADH2) 
+- [ ] C. quinone, an organic compound involved in electron transport 
+- [ ] D. vitamin A, retinol 
+- [*] E. polyalanine peptide 
+
+
+48b4 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. creatine, an organic molecule that recharges ATP 
+- [*] B. the glycolysis enzyme , hexokinase 
+- [ ] C. adenosine monophosphate (AMP) 
+- [ ] D. vitamin B5, pantothenic acid 
+- [ ] E. estrone (E1), one of the estrogen steroid hormones responsible for female sex characteristics 
+
+
+49af Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. chloride ion , Cl- 
+- [ ] B. nicotinamide adenine dinucleotide (NAD+ → NADH) 
+- [ ] C. dehydroepiandrosterone (DHEA), a steroid hormone precursor 
+- [*] D. the glycolysis enzyme , hexokinase 
+- [ ] E. S-adenosyl meth ion ine (SAM), an organic molecule used for methyl group transfer 
+
+
+4b99 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. co enzyme Q10, ubiquinone 
+- [ ] B. aldosterone, a steroid hormone that acts on the kidney 
+- [ ] C. adenosine triphosphate (ATP) 
+- [ ] D. potassium ion , K+ 
+- [*] E. the structural protein, keratin 
+
+
+4fa2 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. sodium ion , Na+ 
+- [ ] B. adenosine monophosphate (AMP) 
+- [ ] C. pyridoxal phosphate (PLP), a derivative of Vitamin B6 
+- [*] D. polyalanine peptide 
+- [ ] E. the organic molecule of a heme porphyrin with an iron ion , Fe2+, attached 
+
+
+4fb0 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. nicotinamide adenine dinucleotide phosphate (NADP+ → NADPH) 
+- [ ] B. vitamin B7, biotin 
+- [ ] C. the organic molecule of a heme porphyrin with an iron ion , Fe2+, attached 
+- [ ] D. sodium ion , Na+ 
+- [*] E. the glycolysis enzyme , hexokinase 
+
+
+503c Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. potassium ion , K+ 
+- [ ] B. adenosine monophosphate (AMP) 
+- [*] C. ACTH protein 
+- [ ] D. vitamin B3, niacin 
+- [ ] E. quinone, an organic compound involved in electron transport 
+
+
+562d Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. adenosine triphosphate (ATP) 
+- [*] B. insulin, a hormone and a protein 
+- [ ] C. chloride ion , Cl- 
+- [ ] D. cortisol, a cortico steroid hormone that is produced in response to stress 
+- [ ] E. vitamin B7, biotin 
+
+
+5647 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. the organic molecule of a heme porphyrin with an iron ion , Fe2+, attached 
+- [ ] B. cholesterol, a cell membrane steroid 
+- [ ] C. adenosine diphosphate (ADP) 
+- [*] D. ACTH protein 
+- [ ] E. nicotinamide adenine dinucleotide (NAD+ → NADH) 
+
+
+5700 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [*] A. ACTH protein 
+- [ ] B. vitamin B9, folate 
+- [ ] C. zinc ion , Zn2+ 
+- [ ] D. adenosine diphosphate (ADP) 
+- [ ] E. pyridoxal phosphate (PLP), a derivative of Vitamin B6 
+
+
+597f Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. vitamin B7, biotin 
+- [ ] B. estriol (E3), one of the estrogen steroid hormones responsible for female sex characteristics 
+- [ ] C. adenosine monophosphate (AMP) 
+- [*] D. the structural protein, keratin 
+- [ ] E. creatine, an organic molecule that recharges ATP 
+
+
+59fa Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [*] A. ACTH protein 
+- [ ] B. cortisol, a cortico steroid hormone that is produced in response to stress 
+- [ ] C. chloride ion , Cl- 
+- [ ] D. methylcobalamin, a form of Vitamin B12 
+- [ ] E. adenosine monophosphate (AMP) 
+
+
+5adb Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. adenosine triphosphate (ATP) 
+- [ ] B. quinone, an organic compound involved in electron transport 
+- [ ] C. estriol (E3), one of the estrogen steroid hormones responsible for female sex characteristics 
+- [ ] D. vitamin B2, riboflavin 
+- [*] E. the glycolysis enzyme , pyruvate kinase 
+
+
+5ddb Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [*] A. the structural protein, keratin 
+- [ ] B. adenosine diphosphate (ADP) 
+- [ ] C. vitamin B7, biotin 
+- [ ] D. the organic molecule of a heme porphyrin with an iron ion , Fe2+, attached 
+- [ ] E. tetrahydrofolate (THF), a form of folic acid, Vitamin B9 
+
+
+5fec Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. co enzyme Q10, ubiquinone 
+- [ ] B. adenosine monophosphate (AMP) 
+- [ ] C. aldosterone, a steroid hormone that acts on the kidney 
+- [ ] D. creatine, an organic molecule that recharges ATP 
+- [*] E. insulin, a hormone and a protein 
+
+
+62b7 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. methylcobalamin, a form of Vitamin B12 
+- [ ] B. vitamin B2, riboflavin 
+- [*] C. immunoglobulin proteins 
+- [ ] D. quinone, an organic compound involved in electron transport 
+- [ ] E. magnesium ion , Mg2+ 
+
+
+6372 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. adenosine triphosphate (ATP) 
+- [ ] B. the organic molecule of a heme porphyrin with an iron ion , Fe2+, attached 
+- [ ] C. estriol (E3), one of the estrogen steroid hormones responsible for female sex characteristics 
+- [*] D. the oxygen transport protein, hemoglobin 
+- [ ] E. vitamin B12, cobalamins 
+
+
+66b8 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [*] A. transcript ion factor proteins 
+- [ ] B. nicotinamide adenine dinucleotide (NAD+ → NADH) 
+- [ ] C. vitamin B2, riboflavin 
+- [ ] D. cortisol, a cortico steroid hormone that is produced in response to stress 
+- [ ] E. the organic molecule of a heme porphyrin with an iron ion , Fe2+, attached 
+
+
+67c1 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. co enzyme Q10, ubiquinone 
+- [*] B. the glycolysis enzyme , glyceraldehyde 3-phosphate dehydrogenase 
+- [ ] C. vitamin B7, biotin 
+- [ ] D. adenosine diphosphate (ADP) 
+- [ ] E. cortisol, a cortico steroid hormone that is produced in response to stress 
+
+
+6b87 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. co enzyme Q10, ubiquinone 
+- [ ] B. adenosine diphosphate (ADP) 
+- [*] C. the oxygen transport protein, hemoglobin 
+- [ ] D. quinone, an organic compound involved in electron transport 
+- [ ] E. estriol (E3), one of the estrogen steroid hormones responsible for female sex characteristics 
+
+
+6dd1 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [*] A. the glycolysis enzyme , glyceraldehyde 3-phosphate dehydrogenase 
+- [ ] B. aldosterone, a steroid hormone that acts on the kidney 
+- [ ] C. adenosine diphosphate (ADP) 
+- [ ] D. quinone, an organic compound involved in electron transport 
+- [ ] E. vitamin B9, folate 
+
+
+6e63 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. creatine, an organic molecule that recharges ATP 
+- [ ] B. adenosine monophosphate (AMP) 
+- [ ] C. calcium ion , Ca2+ 
+- [ ] D. vitamin A, retinol 
+- [*] E. the glycolysis enzyme , pyruvate kinase 
+
+
+6ff3 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. estriol (E3), one of the estrogen steroid hormones responsible for female sex characteristics 
+- [ ] B. creatine, an organic molecule that recharges ATP 
+- [*] C. insulin, a hormone and a protein 
+- [ ] D. co enzyme Q10, ubiquinone 
+- [ ] E. vitamin B5, pantothenic acid 
+
+
+72da Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. vitamin B6, pyridoxamine 
+- [*] B. transcript ion factor proteins 
+- [ ] C. adenosine diphosphate (ADP) 
+- [ ] D. the organic molecule of a heme porphyrin with an iron ion , Fe2+, attached 
+- [ ] E. potassium ion , K+ 
+
+
+74f5 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. vitamin A, retinol 
+- [ ] B. creatine, an organic molecule that recharges ATP 
+- [*] C. polyalanine peptide 
+- [ ] D. copper ion , Cu2+ 
+- [ ] E. adenosine monophosphate (AMP) 
+
+
+7658 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. vitamin B5, pantothenic acid 
+- [*] B. the glycolysis enzyme , pyruvate kinase 
+- [ ] C. quinone, an organic compound involved in electron transport 
+- [ ] D. estrone (E1), one of the estrogen steroid hormones responsible for female sex characteristics 
+- [ ] E. flavin mononucleotide (FMN → FMNH2) 
+
+
+7e76 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. copper ion , Cu2+ 
+- [ ] B. adenosine monophosphate (AMP) 
+- [ ] C. quinone, an organic compound involved in electron transport 
+- [*] D. the oxygen transport protein, hemoglobin 
+- [ ] E. estradiol (E2), one of the estrogen steroid hormones responsible for female sex characteristics 
+
+
+803f Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. vitamin A, retinol 
+- [ ] B. estradiol (E2), one of the estrogen steroid hormones responsible for female sex characteristics 
+- [ ] C. the organic molecule of a heme porphyrin with an iron ion , Fe2+, attached 
+- [ ] D. adenosine triphosphate (ATP) 
+- [*] E. polyalanine peptide 
+
+
+8232 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. calcium ion , Ca2+ 
+- [ ] B. vitamin B12, cobalamins 
+- [ ] C. adenosine diphosphate (ADP) 
+- [*] D. ACTH protein 
+- [ ] E. tetrahydrofolate (THF), a form of folic acid, Vitamin B9 
+
+
+8b53 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. adenosine monophosphate (AMP) 
+- [ ] B. estriol (E3), one of the estrogen steroid hormones responsible for female sex characteristics 
+- [ ] C. pyridoxal phosphate (PLP), a derivative of Vitamin B6 
+- [ ] D. magnesium ion , Mg2+ 
+- [*] E. polyalanine peptide 
+
+
+8e62 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. quinone, an organic compound involved in electron transport 
+- [*] B. insulin, a hormone and a protein 
+- [ ] C. vitamin B7, biotin 
+- [ ] D. iron ion s, Fe+2/Fe+3 
+- [ ] E. nicotinamide adenine dinucleotide phosphate (NADP+ → NADPH) 
+
+
+8f52 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [*] A. immunoglobulin proteins 
+- [ ] B. magnesium ion , Mg2+ 
+- [ ] C. vitamin B9, folate 
+- [ ] D. co enzyme A (CoA) 
+- [ ] E. adenosine monophosphate (AMP) 
+
+
+917c Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [*] A. the glycolysis enzyme , glyceraldehyde 3-phosphate dehydrogenase 
+- [ ] B. nicotinamide adenine dinucleotide phosphate (NADP+ → NADPH) 
+- [ ] C. manganese ion s (Mn2+) 
+- [ ] D. vitamin B9, folate 
+- [ ] E. adenosine diphosphate (ADP) 
+
+
+92cf Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. S-adenosyl meth ion ine (SAM), an organic molecule used for methyl group transfer 
+- [*] B. insulin, a hormone and a protein 
+- [ ] C. adenosine triphosphate (ATP) 
+- [ ] D. sodium ion , Na+ 
+- [ ] E. estradiol (E2), one of the estrogen steroid hormones responsible for female sex characteristics 
+
+
+9321 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. manganese ion s (Mn2+) 
+- [ ] B. adenosine monophosphate (AMP) 
+- [ ] C. flavin mononucleotide (FMN → FMNH2) 
+- [ ] D. the organic molecule of a heme porphyrin with an iron ion , Fe2+, attached 
+- [*] E. the glycolysis enzyme , pyruvate kinase 
+
+
+93ad Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [*] A. the glycolysis enzyme , pyruvate kinase 
+- [ ] B. estrone (E1), one of the estrogen steroid hormones responsible for female sex characteristics 
+- [ ] C. vitamin B3, niacin 
+- [ ] D. adenosine triphosphate (ATP) 
+- [ ] E. magnesium ion , Mg2+ 
+
+
+9544 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. cholesterol, a cell membrane steroid 
+- [ ] B. iron ion s, Fe+2/Fe+3 
+- [ ] C. creatine, an organic molecule that recharges ATP 
+- [*] D. immunoglobulin proteins 
+- [ ] E. pyridoxal phosphate (PLP), a derivative of Vitamin B6 
+
+
+9c60 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. potassium ion , K+ 
+- [*] B. the structural protein, keratin 
+- [ ] C. cortisol, a cortico steroid hormone that is produced in response to stress 
+- [ ] D. co enzyme A (CoA) 
+- [ ] E. vitamin B9, folate 
+
+
+9ea9 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. creatine, an organic molecule that recharges ATP 
+- [ ] B. zinc ion , Zn2+ 
+- [ ] C. vitamin B1, thiamin 
+- [*] D. the structural protein, keratin 
+- [ ] E. adenosine triphosphate (ATP) 
+
+
+9f16 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. creatine, an organic molecule that recharges ATP 
+- [*] B. the glycolysis enzyme , glyceraldehyde 3-phosphate dehydrogenase 
+- [ ] C. chloride ion , Cl- 
+- [ ] D. adenosine triphosphate (ATP) 
+- [ ] E. co enzyme A (CoA) 
+
+
+9f56 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. adenosine monophosphate (AMP) 
+- [*] B. transcript ion factor proteins 
+- [ ] C. aldosterone, a steroid hormone that acts on the kidney 
+- [ ] D. creatine, an organic molecule that recharges ATP 
+- [ ] E. manganese ion s (Mn2+) 
+
+
+9fe4 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. sodium ion , Na+ 
+- [*] B. transcript ion factor proteins 
+- [ ] C. vitamin B3, niacin 
+- [ ] D. estrone (E1), one of the estrogen steroid hormones responsible for female sex characteristics 
+- [ ] E. S-adenosyl meth ion ine (SAM), an organic molecule used for methyl group transfer 
+
+
+a3b3 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. cortisol, a cortico steroid hormone that is produced in response to stress 
+- [*] B. the glycolysis enzyme , glyceraldehyde 3-phosphate dehydrogenase 
+- [ ] C. nicotinamide adenine dinucleotide (NAD+ → NADH) 
+- [ ] D. zinc ion , Zn2+ 
+- [ ] E. adenosine triphosphate (ATP) 
+
+
+a4e8 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. zinc ion , Zn2+ 
+- [*] B. insulin, a hormone and a protein 
+- [ ] C. adenosine monophosphate (AMP) 
+- [ ] D. the organic molecule of a heme porphyrin with an iron ion , Fe2+, attached 
+- [ ] E. pyridoxal phosphate (PLP), a derivative of Vitamin B6 
+
+
+a5d7 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. adenosine monophosphate (AMP) 
+- [ ] B. vitamin B3, niacin 
+- [ ] C. manganese ion s (Mn2+) 
+- [ ] D. cholesterol, a cell membrane steroid 
+- [*] E. ACTH protein 
+
+
+aa2f Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [*] A. insulin, a hormone and a protein 
+- [ ] B. magnesium ion , Mg2+ 
+- [ ] C. co enzyme A (CoA) 
+- [ ] D. vitamin B7, biotin 
+- [ ] E. estradiol (E2), one of the estrogen steroid hormones responsible for female sex characteristics 
+
+
+aaf6 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. pyridoxal phosphate (PLP), a derivative of Vitamin B6 
+- [*] B. the oxygen transport protein, hemoglobin 
+- [ ] C. vitamin B7, biotin 
+- [ ] D. copper ion , Cu2+ 
+- [ ] E. estradiol (E2), one of the estrogen steroid hormones responsible for female sex characteristics 
+
+
+afcc Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. co enzyme A (CoA) 
+- [*] B. transcript ion factor proteins 
+- [ ] C. vitamin B2, riboflavin 
+- [ ] D. cholesterol, a cell membrane steroid 
+- [ ] E. adenosine diphosphate (ADP) 
+
+
+b299 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. quinone, an organic compound involved in electron transport 
+- [ ] B. vitamin B7, biotin 
+- [ ] C. estriol (E3), one of the estrogen steroid hormones responsible for female sex characteristics 
+- [*] D. immunoglobulin proteins 
+- [ ] E. adenosine triphosphate (ATP) 
+
+
+b6aa Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. potassium ion , K+ 
+- [ ] B. pyridoxal phosphate (PLP), a derivative of Vitamin B6 
+- [ ] C. S-adenosyl meth ion ine (SAM), an organic molecule used for methyl group transfer 
+- [ ] D. vitamin B6, pyridoxamine 
+- [*] E. transcript ion factor proteins 
+
+
+b817 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. the organic molecule of a heme porphyrin with an iron ion , Fe2+, attached 
+- [ ] B. aldosterone, a steroid hormone that acts on the kidney 
+- [ ] C. vitamin B7, biotin 
+- [*] D. immunoglobulin proteins 
+- [ ] E. pyridoxal phosphate (PLP), a derivative of Vitamin B6 
+
+
+bbe0 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. adenosine monophosphate (AMP) 
+- [*] B. the oxygen transport protein, hemoglobin 
+- [ ] C. quinone, an organic compound involved in electron transport 
+- [ ] D. cortisol, a cortico steroid hormone that is produced in response to stress 
+- [ ] E. copper ion , Cu2+ 
+
+
+bc32 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [*] A. ACTH protein 
+- [ ] B. adenosine diphosphate (ADP) 
+- [ ] C. nicotinamide adenine dinucleotide phosphate (NADP+ → NADPH) 
+- [ ] D. vitamin B7, biotin 
+- [ ] E. quinone, an organic compound involved in electron transport 
+
+
+bdd2 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. cortisol, a cortico steroid hormone that is produced in response to stress 
+- [ ] B. vitamin B3, niacin 
+- [ ] C. quinone, an organic compound involved in electron transport 
+- [ ] D. flavin adenine dinucleotide (FAD → FADH2) 
+- [*] E. the structural protein, keratin 
+
+
+c270 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. cholesterol, a cell membrane steroid 
+- [ ] B. creatine, an organic molecule that recharges ATP 
+- [*] C. the oxygen transport protein, hemoglobin 
+- [ ] D. vitamin B2, riboflavin 
+- [ ] E. iron ion s, Fe+2/Fe+3 
+
+
+c47a Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. vitamin B12, cobalamins 
+- [*] B. the glycolysis enzyme , pyruvate kinase 
+- [ ] C. copper ion , Cu2+ 
+- [ ] D. creatine, an organic molecule that recharges ATP 
+- [ ] E. flavin adenine dinucleotide (FAD → FADH2) 
+
+
+c626 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [*] A. the glycolysis enzyme , pyruvate kinase 
+- [ ] B. adenosine monophosphate (AMP) 
+- [ ] C. vitamin B2, riboflavin 
+- [ ] D. aldosterone, a steroid hormone that acts on the kidney 
+- [ ] E. copper ion , Cu2+ 
+
+
+c6c8 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. vitamin B6, pyridoxamine 
+- [ ] B. cholesterol, a cell membrane steroid 
+- [ ] C. quinone, an organic compound involved in electron transport 
+- [*] D. insulin, a hormone and a protein 
+- [ ] E. nicotinamide adenine dinucleotide phosphate (NADP+ → NADPH) 
+
+
+c77a Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. methylcobalamin, a form of Vitamin B12 
+- [ ] B. vitamin B3, niacin 
+- [*] C. the glycolysis enzyme , hexokinase 
+- [ ] D. S-adenosyl meth ion ine (SAM), an organic molecule used for methyl group transfer 
+- [ ] E. adenosine monophosphate (AMP) 
+
+
+db46 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. adenosine monophosphate (AMP) 
+- [ ] B. progesterone (P4), a steroid hormone involved in the menstrual cycle 
+- [ ] C. S-adenosyl meth ion ine (SAM), an organic molecule used for methyl group transfer 
+- [*] D. the oxygen transport protein, hemoglobin 
+- [ ] E. iron ion s, Fe+2/Fe+3 
+
+
+dd18 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. cholesterol, a cell membrane steroid 
+- [ ] B. vitamin B2, riboflavin 
+- [ ] C. zinc ion , Zn2+ 
+- [*] D. transcript ion factor proteins 
+- [ ] E. methylcobalamin, a form of Vitamin B12 
+
+
+de17 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [*] A. the glycolysis enzyme , glyceraldehyde 3-phosphate dehydrogenase 
+- [ ] B. nicotinamide adenine dinucleotide (NAD+ → NADH) 
+- [ ] C. testosterone, an anabolic-androgenic steroid and the principal male sex hormone 
+- [ ] D. S-adenosyl meth ion ine (SAM), an organic molecule used for methyl group transfer 
+- [ ] E. vitamin B12, cobalamins 
+
+
+e1b0 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. iron ion s, Fe+2/Fe+3 
+- [*] B. the glycolysis enzyme , hexokinase 
+- [ ] C. adenosine monophosphate (AMP) 
+- [ ] D. vitamin A, retinol 
+- [ ] E. S-adenosyl meth ion ine (SAM), an organic molecule used for methyl group transfer 
+
+
+e786 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. vitamin B2, riboflavin 
+- [ ] B. co enzyme A (CoA) 
+- [ ] C. adenosine triphosphate (ATP) 
+- [ ] D. iron ion s, Fe+2/Fe+3 
+- [*] E. the glycolysis enzyme , hexokinase 
+
+
+e7c0 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. quinone, an organic compound involved in electron transport 
+- [ ] B. zinc ion , Zn2+ 
+- [ ] C. adenosine triphosphate (ATP) 
+- [ ] D. vitamin B12, cobalamins 
+- [*] E. immunoglobulin proteins 
+
+
+e815 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. nicotinamide adenine dinucleotide phosphate (NADP+ → NADPH) 
+- [ ] B. vitamin B2, riboflavin 
+- [ ] C. testosterone, an anabolic-androgenic steroid and the principal male sex hormone 
+- [*] D. the structural protein, keratin 
+- [ ] E. quinone, an organic compound involved in electron transport 
+
+
+e99b Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. estrone (E1), one of the estrogen steroid hormones responsible for female sex characteristics 
+- [*] B. the glycolysis enzyme , glyceraldehyde 3-phosphate dehydrogenase 
+- [ ] C. flavin adenine dinucleotide (FAD → FADH2) 
+- [ ] D. vitamin B9, folate 
+- [ ] E. chloride ion , Cl- 
+
+
+e9f8 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [*] A. insulin, a hormone and a protein 
+- [ ] B. vitamin B5, pantothenic acid 
+- [ ] C. cholesterol, a cell membrane steroid 
+- [ ] D. zinc ion , Zn2+ 
+- [ ] E. quinone, an organic compound involved in electron transport 
+
+
+ed5d Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [*] A. the oxygen transport protein, hemoglobin 
+- [ ] B. copper ion , Cu2+ 
+- [ ] C. cortisol, a cortico steroid hormone that is produced in response to stress 
+- [ ] D. the organic molecule of a heme porphyrin with an iron ion , Fe2+, attached 
+- [ ] E. nicotinamide adenine dinucleotide (NAD+ → NADH) 
+
+
+ee46 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. vitamin B2, riboflavin 
+- [*] B. insulin, a hormone and a protein 
+- [ ] C. the organic molecule of a heme porphyrin with an iron ion , Fe2+, attached 
+- [ ] D. progesterone (P4), a steroid hormone involved in the menstrual cycle 
+- [ ] E. adenosine diphosphate (ADP) 
+
+
+f235 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. copper ion , Cu2+ 
+- [ ] B. the organic molecule of a heme porphyrin with an iron ion , Fe2+, attached 
+- [*] C. immunoglobulin proteins 
+- [ ] D. adenosine triphosphate (ATP) 
+- [ ] E. estradiol (E2), one of the estrogen steroid hormones responsible for female sex characteristics 
+
+
+f582 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. adenosine triphosphate (ATP) 
+- [ ] B. co enzyme Q10, ubiquinone 
+- [*] C. immunoglobulin proteins 
+- [ ] D. iron ion s, Fe+2/Fe+3 
+- [ ] E. testosterone, an anabolic-androgenic steroid and the principal male sex hormone 
+
+
+f5f6 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. creatine, an organic molecule that recharges ATP 
+- [*] B. the glycolysis enzyme , hexokinase 
+- [ ] C. adenosine diphosphate (ADP) 
+- [ ] D. methylcobalamin, a form of Vitamin B12 
+- [ ] E. zinc ion , Zn2+ 
+
+
+f6ba Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. vitamin B7, biotin 
+- [*] B. ACTH protein 
+- [ ] C. chloride ion , Cl- 
+- [ ] D. quinone, an organic compound involved in electron transport 
+- [ ] E. nicotinamide adenine dinucleotide phosphate (NADP+ → NADPH) 
+
+
+f6e8 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. S-adenosyl meth ion ine (SAM), an organic molecule used for methyl group transfer 
+- [*] B. transcript ion factor proteins 
+- [ ] C. estrone (E1), one of the estrogen steroid hormones responsible for female sex characteristics 
+- [ ] D. calcium ion , Ca2+ 
+- [ ] E. vitamin B5, pantothenic acid 
+
+
+f8ba Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. adenosine triphosphate (ATP) 
+- [*] B. immunoglobulin proteins 
+- [ ] C. S-adenosyl meth ion ine (SAM), an organic molecule used for methyl group transfer 
+- [ ] D. vitamin B5, pantothenic acid 
+- [ ] E. co enzyme Q10, ubiquinone 
+
+
+f8fb Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. co enzyme Q10, ubiquinone 
+- [ ] B. quinone, an organic compound involved in electron transport 
+- [*] C. polyalanine peptide 
+- [ ] D. vitamin B12, cobalamins 
+- [ ] E. adenosine monophosphate (AMP) 
+
+
+f944 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. adenosine monophosphate (AMP) 
+- [*] B. insulin, a hormone and a protein 
+- [ ] C. sodium ion , Na+ 
+- [ ] D. cortisol, a cortico steroid hormone that is produced in response to stress 
+- [ ] E. S-adenosyl meth ion ine (SAM), an organic molecule used for methyl group transfer 
+
+
+f987 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. co enzyme Q10, ubiquinone 
+- [ ] B. creatine, an organic molecule that recharges ATP 
+- [*] C. the oxygen transport protein, hemoglobin 
+- [ ] D. adenosine triphosphate (ATP) 
+- [ ] E. vitamin B9, folate 
+
+
+fde6 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. adenosine triphosphate (ATP) 
+- [*] B. transcript ion factor proteins 
+- [ ] C. quinone, an organic compound involved in electron transport 
+- [ ] D. testosterone, an anabolic-androgenic steroid and the principal male sex hormone 
+- [ ] E. vitamin B7, biotin 
+
+
+fdf1 Which one of the following molecular entities CANNOT be classified as an enzymatic cofactor?
+- [ ] A. S-adenosyl meth ion ine (SAM), an organic molecule used for methyl group transfer 
+- [ ] B. dehydroepiandrosterone (DHEA), a steroid hormone precursor 
+- [*] C. the glycolysis enzyme , hexokinase 
+- [ ] D. adenosine diphosphate (ADP) 
+- [ ] E. nicotinamide adenine dinucleotide (NAD+ → NADH) 
+
+

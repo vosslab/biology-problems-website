@@ -1,0 +1,45 @@
+<div id="question_html_0805_74fb">
+<div id="statement_text_0805_74fb"><p>00f3<br><strong>Phosphoric acid</strong> and its conjugate base, phosphate, is abbreviated P<sub>i</sub> and is formed by cells from the hydrolysis of ATP into ADP.<br>Phosphoric acid is triprotic with pK<sub>a</sub> values of <strong>2.16</strong>, <strong>7.21</strong>, and <strong>12.32</strong>.<br>Phosphoric acid has four possible protonation states in the choices below.<br>Which one of the following protonation states is the most abundant at <strong>pH 11.5</strong>?</p></div>
+<form>
+<ul id="choices_0805_74fb">
+<li>
+    <input type="radio" id="option0" name="answer_0805_74fb" data-correct="false"><label for="option0">A.  <span style="color: #00008B">H<sub>3</sub>PO<sub>4</sub></span>  </label>
+  </li>
+  <li>
+    <input type="radio" id="option1" name="answer_0805_74fb" data-correct="false"><label for="option1">B.  <span style="color: #202060">H<sub>2</sub>PO<sub>4</sub><sup>-</sup></span>  </label>
+  </li>
+  <li>
+    <input type="radio" id="option2" name="answer_0805_74fb" data-correct="true"><label for="option2">C.  <span style="color: #602020">HPO<sub>4</sub><sup>2-</sup></span>  </label>
+  </li>
+  <li>
+    <input type="radio" id="option3" name="answer_0805_74fb" data-correct="false"><label for="option3">D.  <span style="color: #8B0000">PO<sub>4</sub><sup>3-</sup></span>  </label>
+  </li>
+</ul>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_0805_74fb()">Check Answer</button>
+<div id="result_0805_74fb" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+</form>
+<br>
+</div><script>
+function checkAnswer_0805_74fb() {
+ const options = document.getElementsByName('answer_0805_74fb');
+ const correctOption = Array.from(options).reduce(function(acc, option) {
+   return acc || (option.dataset.correct === 'true' ? option : null);
+ }, null);
+ const selectedOption = Array.from(options).reduce(function(acc, option) {
+   return acc || (option.checked ? option : null);
+ }, null);
+ const resultDiv = document.getElementById('result_0805_74fb');
+ if (selectedOption) {
+  if (selectedOption === correctOption) {
+   resultDiv.style.color = 'green';
+   resultDiv.textContent = 'CORRECT';
+  } else {
+   resultDiv.style.color = 'red';
+   resultDiv.textContent = 'incorrect';
+  }
+ } else {
+  resultDiv.style.color = 'black';
+  resultDiv.textContent = 'Please select an answer.';
+ }
+}
+</script>

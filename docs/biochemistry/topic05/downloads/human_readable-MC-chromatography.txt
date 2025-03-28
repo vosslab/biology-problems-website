@@ -1,0 +1,520 @@
+0024
+Which one of the following types of column chromatography correspond to the description 'for one type, gradients of increasing organic solvent concentration are used to affect separation s' .
+- [ ] A. affinity column (AC) 
+- [ ] B. ion exchange column (IEX) 
+- [*] C. reverse phase column (RPC) 
+- [ ] D. size-exclusion column (SEC) 
+
+
+041c
+Which one of the following types of column chromatography correspond to the description ' ligand -attached beads bind directly to the protein of interest' .
+- [*] A. affinity column (AC) 
+- [ ] B. ion exchange column (IEX) 
+- [ ] C. reverse phase column (RPC) 
+- [ ] D. size-exclusion column (SEC) 
+
+
+054b
+Which one of the following types of column chromatography correspond to the description 'for one type, high salt concentration enhances the interaction, whereas low salt concentrations weaken it' .
+- [ ] A. affinity column (AC) 
+- [ ] B. ion exchange column (IEX) 
+- [*] C. reverse phase column (RPC) 
+- [ ] D. size-exclusion column (SEC) 
+
+
+057a
+Which one of the following types of column chromatography correspond to the description 'hydrophobic-based separation s for protein characterization' .
+- [ ] A. affinity column (AC) 
+- [ ] B. gel filtration column (GFC) 
+- [*] C. hydrophobic interaction column (HIC) 
+- [ ] D. ion exchange column (IEX) 
+
+
+05b8
+Which one of the following types of column chromatography correspond to the description 'relies on charge-charge interactions between the proteins in your sample and the charges on the particle resin' .
+- [ ] A. affinity column (AC) 
+- [ ] B. hydrophobic interaction column (HIC) 
+- [*] C. ion exchange column (IEX) 
+- [ ] D. size-exclusion column (SEC) 
+
+
+07f7
+Which one of the following types of column chromatography correspond to the description ' separation based on proteins binding to a ligand ' .
+- [*] A. affinity column (AC) 
+- [ ] B. ion exchange column (IEX) 
+- [ ] C. reverse phase column (RPC) 
+- [ ] D. size-exclusion column (SEC) 
+
+
+081d
+Which one of the following types of column chromatography correspond to the description 'for one type, a decreasing salt gradient is used to separate samples in order of increasing hydrophobicity' .
+- [ ] A. affinity column (AC) 
+- [ ] B. gel filtration column (GFC) 
+- [ ] C. ion exchange column (IEX) 
+- [*] D. reverse phase column (RPC) 
+
+
+0df7
+Which one of the following types of column chromatography correspond to the description ' separates proteins with differences in surface charge' .
+- [ ] A. affinity column (AC) 
+- [ ] B. hydrophobic interaction column (HIC) 
+- [*] C. ion exchange column (IEX) 
+- [ ] D. size-exclusion column (SEC) 
+
+
+107f
+Which one of the following types of column chromatography correspond to the description 'separate by charge, particle binding is controlled by pH of the solvent mobile phase' .
+- [ ] A. affinity column (AC) 
+- [*] B. ion exchange column (IEX) 
+- [ ] C. reverse phase column (RPC) 
+- [ ] D. size-exclusion column (SEC) 
+
+
+10f4
+Which one of the following types of column chromatography correspond to the description ' ligand -attached beads bind directly to the protein of interest' .
+- [*] A. affinity column (AC) 
+- [ ] B. gel filtration column (GFC) 
+- [ ] C. ion exchange column (IEX) 
+- [ ] D. reverse phase column (RPC) 
+
+
+179c
+Which one of the following types of column chromatography correspond to the description 'technique based on the ability to separate proteins based on relative hydrophobic differences' .
+- [ ] A. affinity column (AC) 
+- [ ] B. ion exchange column (IEX) 
+- [*] C. reverse phase column (RPC) 
+- [ ] D. size-exclusion column (SEC) 
+
+
+20f1
+Which one of the following types of column chromatography correspond to the description ' charged proteins interact with an oppositely charged chromatography particle resin' .
+- [ ] A. affinity column (AC) 
+- [*] B. ion exchange column (IEX) 
+- [ ] C. reverse phase column (RPC) 
+- [ ] D. size-exclusion column (SEC) 
+
+
+2687
+Which one of the following types of column chromatography correspond to the description ' separation method essentially based on the net charge of the protein' .
+- [ ] A. affinity column (AC) 
+- [ ] B. gel filtration column (GFC) 
+- [ ] C. hydrophobic interaction column (HIC) 
+- [*] D. ion exchange column (IEX) 
+
+
+2c7e
+Which one of the following types of column chromatography correspond to the description ' separates proteins on the basis of a reversible interaction between the target protein and a specific ligand ' .
+- [*] A. affinity column (AC) 
+- [ ] B. gel filtration column (GFC) 
+- [ ] C. ion exchange column (IEX) 
+- [ ] D. reverse phase column (RPC) 
+
+
+2d19
+Which one of the following types of column chromatography correspond to the description 'for one type, a decreasing salt gradient is used to separate samples in order of increasing hydrophobicity' .
+- [ ] A. affinity column (AC) 
+- [ ] B. ion exchange column (IEX) 
+- [*] C. reverse phase column (RPC) 
+- [ ] D. size-exclusion column (SEC) 
+
+
+2e84
+Which one of the following types of column chromatography correspond to the description 'technique based on the ability to separate proteins based on relative hydrophobic differences' .
+- [ ] A. affinity column (AC) 
+- [ ] B. gel filtration column (GFC) 
+- [*] C. hydrophobic interaction column (HIC) 
+- [ ] D. ion exchange column (IEX) 
+
+
+3298
+Which one of the following types of column chromatography correspond to the description 'technique based on the ability to separate proteins based on relative hydrophobic differences' .
+- [ ] A. affinity column (AC) 
+- [ ] B. gel filtration column (GFC) 
+- [ ] C. ion exchange column (IEX) 
+- [*] D. reverse phase column (RPC) 
+
+
+35d8
+Which one of the following types of column chromatography correspond to the description 'technique based on the ability to separate proteins based on relative hydrophobic differences' .
+- [ ] A. affinity column (AC) 
+- [*] B. hydrophobic interaction column (HIC) 
+- [ ] C. ion exchange column (IEX) 
+- [ ] D. size-exclusion column (SEC) 
+
+
+3896
+Which one of the following types of column chromatography correspond to the description ' separates proteins on the basis of a reversible interaction between the target protein and a specific ligand ' .
+- [*] A. affinity column (AC) 
+- [ ] B. ion exchange column (IEX) 
+- [ ] C. reverse phase column (RPC) 
+- [ ] D. size-exclusion column (SEC) 
+
+
+3ad7
+Which one of the following types of column chromatography correspond to the description 'above its isoelectric point (pI), a protein will bind to a positively charged anion exchanger' .
+- [ ] A. affinity column (AC) 
+- [ ] B. hydrophobic interaction column (HIC) 
+- [*] C. ion exchange column (IEX) 
+- [ ] D. size-exclusion column (SEC) 
+
+
+4167
+Which one of the following types of column chromatography correspond to the description 'for one type, a decreasing salt gradient is used to separate samples in order of increasing hydrophobicity' .
+- [ ] A. affinity column (AC) 
+- [ ] B. gel filtration column (GFC) 
+- [*] C. hydrophobic interaction column (HIC) 
+- [ ] D. ion exchange column (IEX) 
+
+
+43c1
+Which one of the following types of column chromatography correspond to the description 'ability to separate protein samples by size using porous particles ' .
+- [ ] A. affinity column (AC) 
+- [ ] B. hydrophobic interaction column (HIC) 
+- [ ] C. ion exchange column (IEX) 
+- [*] D. size-exclusion column (SEC) 
+
+
+4b41
+Which one of the following types of column chromatography correspond to the description ' separates molecules by differences in size as they pass through a porous particles in a column ' .
+- [ ] A. affinity column (AC) 
+- [*] B. gel filtration column (GFC) 
+- [ ] C. ion exchange column (IEX) 
+- [ ] D. reverse phase column (RPC) 
+
+
+4bab
+Which one of the following types of column chromatography correspond to the description ' separation method essentially based on the net charge of the protein' .
+- [ ] A. affinity column (AC) 
+- [ ] B. hydrophobic interaction column (HIC) 
+- [*] C. ion exchange column (IEX) 
+- [ ] D. size-exclusion column (SEC) 
+
+
+4da1
+Which one of the following types of column chromatography correspond to the description 'hydrophobic-based separation s for protein characterization' .
+- [ ] A. affinity column (AC) 
+- [ ] B. gel filtration column (GFC) 
+- [ ] C. ion exchange column (IEX) 
+- [*] D. reverse phase column (RPC) 
+
+
+4e5a
+Which one of the following types of column chromatography correspond to the description 'below its isoelectric point (pI), a protein will bind to a negatively charged cation exchanger' .
+- [ ] A. affinity column (AC) 
+- [ ] B. gel filtration column (GFC) 
+- [*] C. ion exchange column (IEX) 
+- [ ] D. reverse phase column (RPC) 
+
+
+4fbe
+Which one of the following types of column chromatography correspond to the description 'only liquid chromatography method where molecules do NOT bind to the chromatography particles ' .
+- [ ] A. affinity column (AC) 
+- [ ] B. hydrophobic interaction column (HIC) 
+- [ ] C. ion exchange column (IEX) 
+- [*] D. size-exclusion column (SEC) 
+
+
+57fb
+Which one of the following types of column chromatography correspond to the description 'above its isoelectric point (pI), a protein will bind to a positively charged anion exchanger' .
+- [ ] A. affinity column (AC) 
+- [ ] B. gel filtration column (GFC) 
+- [ ] C. hydrophobic interaction column (HIC) 
+- [*] D. ion exchange column (IEX) 
+
+
+588d
+Which one of the following types of column chromatography correspond to the description ' separation method essentially based on the net charge of the protein' .
+- [ ] A. affinity column (AC) 
+- [*] B. ion exchange column (IEX) 
+- [ ] C. reverse phase column (RPC) 
+- [ ] D. size-exclusion column (SEC) 
+
+
+5a3b
+Which one of the following types of column chromatography correspond to the description 'for one type, a decreasing salt gradient is used to separate samples in order of increasing hydrophobicity' .
+- [ ] A. affinity column (AC) 
+- [*] B. hydrophobic interaction column (HIC) 
+- [ ] C. ion exchange column (IEX) 
+- [ ] D. size-exclusion column (SEC) 
+
+
+5edd
+Which one of the following types of column chromatography correspond to the description 'size separation in a column filled with porous beads' .
+- [ ] A. affinity column (AC) 
+- [ ] B. ion exchange column (IEX) 
+- [ ] C. reverse phase column (RPC) 
+- [*] D. size-exclusion column (SEC) 
+
+
+60db
+Which one of the following types of column chromatography correspond to the description ' separates proteins with differences in surface charge' .
+- [ ] A. affinity column (AC) 
+- [ ] B. gel filtration column (GFC) 
+- [ ] C. hydrophobic interaction column (HIC) 
+- [*] D. ion exchange column (IEX) 
+
+
+625d
+Which one of the following types of column chromatography correspond to the description 'works using resin-attached ligand s to grab hold of the corresponding proteins ' .
+- [*] A. affinity column (AC) 
+- [ ] B. gel filtration column (GFC) 
+- [ ] C. hydrophobic interaction column (HIC) 
+- [ ] D. ion exchange column (IEX) 
+
+
+6432
+Which one of the following types of column chromatography correspond to the description ' separates proteins with differences in surface charge' .
+- [ ] A. affinity column (AC) 
+- [ ] B. gel filtration column (GFC) 
+- [*] C. ion exchange column (IEX) 
+- [ ] D. reverse phase column (RPC) 
+
+
+68a5
+Which one of the following types of column chromatography correspond to the description 'hydrophobic-based separation s for protein characterization' .
+- [ ] A. affinity column (AC) 
+- [ ] B. ion exchange column (IEX) 
+- [*] C. reverse phase column (RPC) 
+- [ ] D. size-exclusion column (SEC) 
+
+
+6c12
+Which one of the following types of column chromatography correspond to the description 'for one type, high salt concentration enhances the interaction, whereas low salt concentrations weaken it' .
+- [ ] A. affinity column (AC) 
+- [*] B. hydrophobic interaction column (HIC) 
+- [ ] C. ion exchange column (IEX) 
+- [ ] D. size-exclusion column (SEC) 
+
+
+70e7
+Which one of the following types of column chromatography correspond to the description 'size separation in a column filled with porous beads' .
+- [ ] A. affinity column (AC) 
+- [*] B. gel filtration column (GFC) 
+- [ ] C. ion exchange column (IEX) 
+- [ ] D. reverse phase column (RPC) 
+
+
+71e1
+Which one of the following types of column chromatography correspond to the description 'below its isoelectric point (pI), a protein will bind to a negatively charged cation exchanger' .
+- [ ] A. affinity column (AC) 
+- [ ] B. hydrophobic interaction column (HIC) 
+- [*] C. ion exchange column (IEX) 
+- [ ] D. size-exclusion column (SEC) 
+
+
+76e9
+Which one of the following types of column chromatography correspond to the description ' ligand -attached beads bind directly to the protein of interest' .
+- [*] A. affinity column (AC) 
+- [ ] B. hydrophobic interaction column (HIC) 
+- [ ] C. ion exchange column (IEX) 
+- [ ] D. size-exclusion column (SEC) 
+
+
+774e
+Which one of the following types of column chromatography correspond to the description 'for one type, high salt concentration enhances the interaction, whereas low salt concentrations weaken it' .
+- [ ] A. affinity column (AC) 
+- [ ] B. gel filtration column (GFC) 
+- [*] C. hydrophobic interaction column (HIC) 
+- [ ] D. ion exchange column (IEX) 
+
+
+7d33
+Which one of the following types of column chromatography correspond to the description 'a specific ligand is attached to the particle resin in the column ' .
+- [*] A. affinity column (AC) 
+- [ ] B. ion exchange column (IEX) 
+- [ ] C. reverse phase column (RPC) 
+- [ ] D. size-exclusion column (SEC) 
+
+
+7dad
+Which one of the following types of column chromatography correspond to the description ' separates proteins on the basis of a reversible interaction between the target protein and a specific ligand ' .
+- [*] A. affinity column (AC) 
+- [ ] B. gel filtration column (GFC) 
+- [ ] C. hydrophobic interaction column (HIC) 
+- [ ] D. ion exchange column (IEX) 
+
+
+7ec0
+Which one of the following types of column chromatography correspond to the description ' separates molecules by differences in size as they pass through a porous particles in a column ' .
+- [ ] A. affinity column (AC) 
+- [ ] B. hydrophobic interaction column (HIC) 
+- [ ] C. ion exchange column (IEX) 
+- [*] D. size-exclusion column (SEC) 
+
+
+81a8
+Which one of the following types of column chromatography correspond to the description ' separates proteins according to differences in their surface hydrophobicity' .
+- [ ] A. affinity column (AC) 
+- [ ] B. gel filtration column (GFC) 
+- [*] C. hydrophobic interaction column (HIC) 
+- [ ] D. ion exchange column (IEX) 
+
+
+8482
+Which one of the following types of column chromatography correspond to the description 'for one type, gradients of increasing organic solvent concentration are used to affect separation s' .
+- [ ] A. affinity column (AC) 
+- [*] B. hydrophobic interaction column (HIC) 
+- [ ] C. ion exchange column (IEX) 
+- [ ] D. size-exclusion column (SEC) 
+
+
+85a4
+Which one of the following types of column chromatography correspond to the description 'ability to separate protein samples by size using porous particles ' .
+- [ ] A. affinity column (AC) 
+- [*] B. gel filtration column (GFC) 
+- [ ] C. hydrophobic interaction column (HIC) 
+- [ ] D. ion exchange column (IEX) 
+
+
+89db
+Which one of the following types of column chromatography correspond to the description 'only liquid chromatography method where molecules do NOT bind to the chromatography particles ' .
+- [ ] A. affinity column (AC) 
+- [*] B. gel filtration column (GFC) 
+- [ ] C. hydrophobic interaction column (HIC) 
+- [ ] D. ion exchange column (IEX) 
+
+
+8e68
+Which one of the following types of column chromatography correspond to the description 'only liquid chromatography method where molecules do NOT bind to the chromatography particles ' .
+- [ ] A. affinity column (AC) 
+- [*] B. gel filtration column (GFC) 
+- [ ] C. ion exchange column (IEX) 
+- [ ] D. reverse phase column (RPC) 
+
+
+9393
+Which one of the following types of column chromatography correspond to the description 'ability to separate protein samples by size using porous particles ' .
+- [ ] A. affinity column (AC) 
+- [*] B. gel filtration column (GFC) 
+- [ ] C. ion exchange column (IEX) 
+- [ ] D. reverse phase column (RPC) 
+
+
+9581
+Which one of the following types of column chromatography correspond to the description ' separation based on proteins binding to a ligand ' .
+- [*] A. affinity column (AC) 
+- [ ] B. gel filtration column (GFC) 
+- [ ] C. hydrophobic interaction column (HIC) 
+- [ ] D. ion exchange column (IEX) 
+
+
+9af4
+Which one of the following types of column chromatography correspond to the description ' separates proteins according to differences in their surface hydrophobicity' .
+- [ ] A. affinity column (AC) 
+- [*] B. hydrophobic interaction column (HIC) 
+- [ ] C. ion exchange column (IEX) 
+- [ ] D. size-exclusion column (SEC) 
+
+
+9c0a
+Which one of the following types of column chromatography correspond to the description 'separate by charge, particle binding is controlled by pH of the solvent mobile phase' .
+- [ ] A. affinity column (AC) 
+- [ ] B. gel filtration column (GFC) 
+- [*] C. ion exchange column (IEX) 
+- [ ] D. reverse phase column (RPC) 
+
+
+9fb7
+Which one of the following types of column chromatography correspond to the description 'relies on charge-charge interactions between the proteins in your sample and the charges on the particle resin' .
+- [ ] A. affinity column (AC) 
+- [ ] B. gel filtration column (GFC) 
+- [*] C. ion exchange column (IEX) 
+- [ ] D. reverse phase column (RPC) 
+
+
+9fde
+Which one of the following types of column chromatography correspond to the description 'for one type, gradients of increasing organic solvent concentration are used to affect separation s' .
+- [ ] A. affinity column (AC) 
+- [ ] B. gel filtration column (GFC) 
+- [*] C. hydrophobic interaction column (HIC) 
+- [ ] D. ion exchange column (IEX) 
+
+
+ac7c
+Which one of the following types of column chromatography correspond to the description 'size separation in a column filled with porous beads' .
+- [ ] A. affinity column (AC) 
+- [*] B. gel filtration column (GFC) 
+- [ ] C. hydrophobic interaction column (HIC) 
+- [ ] D. ion exchange column (IEX) 
+
+
+ac84
+Which one of the following types of column chromatography correspond to the description ' charged proteins interact with an oppositely charged chromatography particle resin' .
+- [ ] A. affinity column (AC) 
+- [ ] B. gel filtration column (GFC) 
+- [*] C. ion exchange column (IEX) 
+- [ ] D. reverse phase column (RPC) 
+
+
+b359
+Which one of the following types of column chromatography correspond to the description ' separates proteins according to differences in their surface hydrophobicity' .
+- [ ] A. affinity column (AC) 
+- [ ] B. ion exchange column (IEX) 
+- [*] C. reverse phase column (RPC) 
+- [ ] D. size-exclusion column (SEC) 
+
+
+b3ce
+Which one of the following types of column chromatography correspond to the description 'a specific ligand is attached to the particle resin in the column ' .
+- [*] A. affinity column (AC) 
+- [ ] B. hydrophobic interaction column (HIC) 
+- [ ] C. ion exchange column (IEX) 
+- [ ] D. size-exclusion column (SEC) 
+
+
+b8a5
+Which one of the following types of column chromatography correspond to the description ' separates molecules by differences in size as they pass through a porous particles in a column ' .
+- [ ] A. affinity column (AC) 
+- [*] B. gel filtration column (GFC) 
+- [ ] C. hydrophobic interaction column (HIC) 
+- [ ] D. ion exchange column (IEX) 
+
+
+bda9
+Which one of the following types of column chromatography correspond to the description 'ability to separate protein samples by size using porous particles ' .
+- [ ] A. affinity column (AC) 
+- [ ] B. ion exchange column (IEX) 
+- [ ] C. reverse phase column (RPC) 
+- [*] D. size-exclusion column (SEC) 
+
+
+c22f
+Which one of the following types of column chromatography correspond to the description 'below its isoelectric point (pI), a protein will bind to a negatively charged cation exchanger' .
+- [ ] A. affinity column (AC) 
+- [*] B. ion exchange column (IEX) 
+- [ ] C. reverse phase column (RPC) 
+- [ ] D. size-exclusion column (SEC) 
+
+
+c53a
+Which one of the following types of column chromatography correspond to the description ' separates by surface hydrophobicity, particle binding is controlled by salt concentration and/or organic solvents' .
+- [ ] A. affinity column (AC) 
+- [ ] B. ion exchange column (IEX) 
+- [*] C. reverse phase column (RPC) 
+- [ ] D. size-exclusion column (SEC) 
+
+
+e03e
+Which one of the following types of column chromatography correspond to the description ' separates by surface hydrophobicity, particle binding is controlled by salt concentration and/or organic solvents' .
+- [ ] A. affinity column (AC) 
+- [ ] B. gel filtration column (GFC) 
+- [ ] C. ion exchange column (IEX) 
+- [*] D. reverse phase column (RPC) 
+
+
+ef54
+Which one of the following types of column chromatography correspond to the description ' separates by surface hydrophobicity, particle binding is controlled by salt concentration and/or organic solvents' .
+- [ ] A. affinity column (AC) 
+- [ ] B. gel filtration column (GFC) 
+- [*] C. hydrophobic interaction column (HIC) 
+- [ ] D. ion exchange column (IEX) 
+
+
+f408
+Which one of the following types of column chromatography correspond to the description ' separates by surface hydrophobicity, particle binding is controlled by salt concentration and/or organic solvents' .
+- [ ] A. affinity column (AC) 
+- [*] B. hydrophobic interaction column (HIC) 
+- [ ] C. ion exchange column (IEX) 
+- [ ] D. size-exclusion column (SEC) 
+
+

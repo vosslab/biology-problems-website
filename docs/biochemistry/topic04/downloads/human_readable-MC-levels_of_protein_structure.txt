@@ -1,0 +1,424 @@
+03cb
+Which one of the following levels of protein structure correspond to the description 'dimers, trimers, tetramers, and pentamers' .
+- [ ] A. primary 
+- [*] B. quaternary 
+- [ ] C. secondary 
+- [ ] D. tertiary 
+
+
+0c16
+Which one of the following levels of protein structure correspond to the description ' backbone hydrogen bonding in α-helices' .
+- [ ] A. primary 
+- [ ] B. quaternary 
+- [*] C. secondary 
+- [ ] D. tertiary 
+
+
+1a72
+Which one of the following levels of protein structure correspond to the description ' amino acid chain length' .
+- [*] A. primary 
+- [ ] B. quaternary 
+- [ ] C. secondary 
+- [ ] D. tertiary 
+
+
+2c16
+Which one of the following levels of protein structure correspond to the description 'formation of a β-strand within the polypeptide backbone ' .
+- [ ] A. primary 
+- [ ] B. quaternary 
+- [*] C. secondary 
+- [ ] D. tertiary 
+
+
+2e23
+Which one of the following levels of protein structure correspond to the description 'manner in which protein subunits are arranged in the native protein ' .
+- [ ] A. primary 
+- [*] B. quaternary 
+- [ ] C. secondary 
+- [ ] D. tertiary 
+
+
+3086
+Which one of the following levels of protein structure correspond to the description 'hydrophobic side chain van der Waals (VDW) interactions ' .
+- [ ] A. primary 
+- [ ] B. quaternary 
+- [ ] C. secondary 
+- [*] D. tertiary 
+
+
+30ce
+Which one of the following levels of protein structure correspond to the description 'charged side chain interactions ' .
+- [ ] A. primary 
+- [ ] B. quaternary 
+- [ ] C. secondary 
+- [*] D. tertiary 
+
+
+324d
+Which one of the following levels of protein structure correspond to the description 'relative orientation of neighboring amino acids ' .
+- [ ] A. primary 
+- [ ] B. quaternary 
+- [*] C. secondary 
+- [ ] D. tertiary 
+
+
+453d
+Which one of the following levels of protein structure correspond to the description 'complete three-dimensional conformation' .
+- [ ] A. primary 
+- [ ] B. quaternary 
+- [ ] C. secondary 
+- [*] D. tertiary 
+
+
+4575
+Which one of the following levels of protein structure correspond to the description 'linear arrangement of the amino acids connected by the peptide bonds ' .
+- [*] A. primary 
+- [ ] B. quaternary 
+- [ ] C. secondary 
+- [ ] D. tertiary 
+
+
+4a8d
+Which one of the following levels of protein structure correspond to the description 'N-terminal to C-terminal list of amino acids ' .
+- [*] A. primary 
+- [ ] B. quaternary 
+- [ ] C. secondary 
+- [ ] D. tertiary 
+
+
+4dfa
+Which one of the following levels of protein structure correspond to the description 'angular orientation between adjacent amino acids ' .
+- [ ] A. primary 
+- [ ] B. quaternary 
+- [*] C. secondary 
+- [ ] D. tertiary 
+
+
+5568
+Which one of the following levels of protein structure correspond to the description 'association of two or more polypeptide chains ' .
+- [ ] A. primary 
+- [*] B. quaternary 
+- [ ] C. secondary 
+- [ ] D. tertiary 
+
+
+5a37
+Which one of the following levels of protein structure correspond to the description ' amino acid sequence in a polypeptide chain ' .
+- [*] A. primary 
+- [ ] B. quaternary 
+- [ ] C. secondary 
+- [ ] D. tertiary 
+
+
+611a
+Which one of the following levels of protein structure correspond to the description 'assembly of multiple polypeptide chains into a protein complex' .
+- [ ] A. primary 
+- [*] B. quaternary 
+- [ ] C. secondary 
+- [ ] D. tertiary 
+
+
+661a
+Which one of the following levels of protein structure correspond to the description 'formation of oligomers from two or more protein subunits ' .
+- [ ] A. primary 
+- [*] B. quaternary 
+- [ ] C. secondary 
+- [ ] D. tertiary 
+
+
+66ef
+Which one of the following levels of protein structure correspond to the description 'φ and ψ dihedral angles ' .
+- [ ] A. primary 
+- [ ] B. quaternary 
+- [*] C. secondary 
+- [ ] D. tertiary 
+
+
+6c2d
+Which one of the following levels of protein structure correspond to the description ' peptide bonds forming a linear chain of amino acids ' .
+- [*] A. primary 
+- [ ] B. quaternary 
+- [ ] C. secondary 
+- [ ] D. tertiary 
+
+
+75da
+Which one of the following levels of protein structure correspond to the description 'creation of hydrophobic core' .
+- [ ] A. primary 
+- [ ] B. quaternary 
+- [ ] C. secondary 
+- [*] D. tertiary 
+
+
+763c
+Which one of the following levels of protein structure correspond to the description ' hydrogen bonding between nearby backbone atoms in a β-sheet' .
+- [ ] A. primary 
+- [ ] B. quaternary 
+- [*] C. secondary 
+- [ ] D. tertiary 
+
+
+7795
+Which one of the following levels of protein structure correspond to the description 'hydrophobic interactions of amino acid side chains ' .
+- [ ] A. primary 
+- [ ] B. quaternary 
+- [ ] C. secondary 
+- [*] D. tertiary 
+
+
+7dd6
+Which one of the following levels of protein structure correspond to the description 'arrangement of many protein domains' .
+- [ ] A. primary 
+- [*] B. quaternary 
+- [ ] C. secondary 
+- [ ] D. tertiary 
+
+
+7e41
+Which one of the following levels of protein structure correspond to the description ' hydrogen bonding between polar side chains ' .
+- [ ] A. primary 
+- [ ] B. quaternary 
+- [ ] C. secondary 
+- [*] D. tertiary 
+
+
+81c1
+Which one of the following levels of protein structure correspond to the description 'arrangement of subunits into a protein complex' .
+- [ ] A. primary 
+- [*] B. quaternary 
+- [ ] C. secondary 
+- [ ] D. tertiary 
+
+
+84ab
+Which one of the following levels of protein structure correspond to the description 'van der Waals (VDW) interactions between uncharged side chains ' .
+- [ ] A. primary 
+- [ ] B. quaternary 
+- [ ] C. secondary 
+- [*] D. tertiary 
+
+
+87bf
+Which one of the following levels of protein structure correspond to the description 'formation of a α-helix within the polypeptide backbone ' .
+- [ ] A. primary 
+- [ ] B. quaternary 
+- [*] C. secondary 
+- [ ] D. tertiary 
+
+
+8898
+Which one of the following levels of protein structure correspond to the description 'formation of disulfide bonds by special side chains ' .
+- [ ] A. primary 
+- [ ] B. quaternary 
+- [ ] C. secondary 
+- [*] D. tertiary 
+
+
+8fe5
+Which one of the following levels of protein structure correspond to the description 'organization and quantity of folded polypeptide chains ' .
+- [ ] A. primary 
+- [*] B. quaternary 
+- [ ] C. secondary 
+- [ ] D. tertiary 
+
+
+9899
+Which one of the following levels of protein structure correspond to the description 'order of the amino acids in a polypeptide chain ' .
+- [*] A. primary 
+- [ ] B. quaternary 
+- [ ] C. secondary 
+- [ ] D. tertiary 
+
+
+9cb3
+Which one of the following levels of protein structure correspond to the description ' side chains with opposite charges forming ionic bonds' .
+- [ ] A. primary 
+- [ ] B. quaternary 
+- [ ] C. secondary 
+- [*] D. tertiary 
+
+
+a122
+Which one of the following levels of protein structure correspond to the description ' hydrogen bonding between distant side chain amino acids ' .
+- [ ] A. primary 
+- [ ] B. quaternary 
+- [ ] C. secondary 
+- [*] D. tertiary 
+
+
+a73c
+Which one of the following levels of protein structure correspond to the description 'Ramachandran plot of dihedral angles ' .
+- [ ] A. primary 
+- [ ] B. quaternary 
+- [*] C. secondary 
+- [ ] D. tertiary 
+
+
+a832
+Which one of the following levels of protein structure correspond to the description 'disulfide bridges linking distant amino acids in the same polypeptide chain ' .
+- [ ] A. primary 
+- [ ] B. quaternary 
+- [ ] C. secondary 
+- [*] D. tertiary 
+
+
+b397
+Which one of the following levels of protein structure correspond to the description 'three-dimensional shape of a single polypeptide chain ' .
+- [ ] A. primary 
+- [ ] B. quaternary 
+- [ ] C. secondary 
+- [*] D. tertiary 
+
+
+b82d
+Which one of the following levels of protein structure correspond to the description ' backbone dihedral angles ' .
+- [ ] A. primary 
+- [ ] B. quaternary 
+- [*] C. secondary 
+- [ ] D. tertiary 
+
+
+b99c
+Which one of the following levels of protein structure correspond to the description 'highest level for a protein with a single peptide chain' .
+- [ ] A. primary 
+- [ ] B. quaternary 
+- [ ] C. secondary 
+- [*] D. tertiary 
+
+
+bb07
+Which one of the following levels of protein structure correspond to the description 'ionic salt bridge formations between charged side chains ' .
+- [ ] A. primary 
+- [ ] B. quaternary 
+- [ ] C. secondary 
+- [*] D. tertiary 
+
+
+bd66
+Which one of the following levels of protein structure correspond to the description ' hydrogen bonding between nearby backbone atoms in the polypeptide chain ' .
+- [ ] A. primary 
+- [ ] B. quaternary 
+- [*] C. secondary 
+- [ ] D. tertiary 
+
+
+c588
+Which one of the following levels of protein structure correspond to the description 'electrostatic interactions among charged side chains ' .
+- [ ] A. primary 
+- [ ] B. quaternary 
+- [ ] C. secondary 
+- [*] D. tertiary 
+
+
+c8bf
+Which one of the following levels of protein structure correspond to the description 'distant amino acids linked by disulfide bonds' .
+- [ ] A. primary 
+- [ ] B. quaternary 
+- [ ] C. secondary 
+- [*] D. tertiary 
+
+
+cb6b
+Which one of the following levels of protein structure correspond to the description 'relative orientation of one protein subunits to another protein subunit' .
+- [ ] A. primary 
+- [*] B. quaternary 
+- [ ] C. secondary 
+- [ ] D. tertiary 
+
+
+ccaa
+Which one of the following levels of protein structure correspond to the description 'number and arrangement of multiple folded protein subunits ' .
+- [ ] A. primary 
+- [*] B. quaternary 
+- [ ] C. secondary 
+- [ ] D. tertiary 
+
+
+cdb7
+Which one of the following levels of protein structure correspond to the description ' peptide bonds restricting rotation of the backbone ' .
+- [ ] A. primary 
+- [ ] B. quaternary 
+- [*] C. secondary 
+- [ ] D. tertiary 
+
+
+d202
+Which one of the following levels of protein structure correspond to the description 'homo- and hetero-oligomers' .
+- [ ] A. primary 
+- [*] B. quaternary 
+- [ ] C. secondary 
+- [ ] D. tertiary 
+
+
+ddf8
+Which one of the following levels of protein structure correspond to the description 'creation of disulfide bridges by specific side chains ' .
+- [ ] A. primary 
+- [ ] B. quaternary 
+- [ ] C. secondary 
+- [*] D. tertiary 
+
+
+e0cc
+Which one of the following levels of protein structure correspond to the description ' side chain hydrogen bonding between distant amino acids ' .
+- [ ] A. primary 
+- [ ] B. quaternary 
+- [ ] C. secondary 
+- [*] D. tertiary 
+
+
+e0f8
+Which one of the following levels of protein structure correspond to the description 'α-helix structures linked by backbone hydrogen bonding ' .
+- [ ] A. primary 
+- [ ] B. quaternary 
+- [*] C. secondary 
+- [ ] D. tertiary 
+
+
+e23d
+Which one of the following levels of protein structure correspond to the description 'ionic bonds between oppositely charged side chains ' .
+- [ ] A. primary 
+- [ ] B. quaternary 
+- [ ] C. secondary 
+- [*] D. tertiary 
+
+
+eafe
+Which one of the following levels of protein structure correspond to the description 'locations of α-helix structures within the backbone ' .
+- [ ] A. primary 
+- [ ] B. quaternary 
+- [*] C. secondary 
+- [ ] D. tertiary 
+
+
+f004
+Which one of the following levels of protein structure correspond to the description 'restriction of backbone rotation by peptide bonds ' .
+- [ ] A. primary 
+- [ ] B. quaternary 
+- [*] C. secondary 
+- [ ] D. tertiary 
+
+
+f3ad
+Which one of the following levels of protein structure correspond to the description 'intramolecular peptide bonds of the linear amino acid chain' .
+- [*] A. primary 
+- [ ] B. quaternary 
+- [ ] C. secondary 
+- [ ] D. tertiary 
+
+
+f67a
+Which one of the following levels of protein structure correspond to the description 'β-strand locations within polypeptide backbone ' .
+- [ ] A. primary 
+- [ ] B. quaternary 
+- [*] C. secondary 
+- [ ] D. tertiary 
+
+
+fce1
+Which one of the following levels of protein structure correspond to the description 'formation of ionic salt bridges by charged side chains ' .
+- [ ] A. primary 
+- [ ] B. quaternary 
+- [ ] C. secondary 
+- [*] D. tertiary 
+
+

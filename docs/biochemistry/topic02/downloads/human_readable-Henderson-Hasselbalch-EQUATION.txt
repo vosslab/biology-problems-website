@@ -1,0 +1,96 @@
+345c
+Which one of the following equations is the correct form of the Henderson-Hasselbalch equation?
+- [*] A. pH = pKa + log10[A–][HA] 
+- [ ] B. pH = pKa + log10[HA][A–] 
+
+
+51cf
+Which one of the following equations is the correct form of the Henderson-Hasselbalch equation?
+- [*] A. pH = pKa – log10[Acid][Base] 
+- [ ] B. pH = pKa + log10[Acid][Base] 
+
+
+a878
+Which one of the following equations is the correct form of the Henderson-Hasselbalch equation?
+- [*] A. pH = pKa – log10[HA][A–] 
+- [ ] B. pH = pKa + log10[HA][A–] 
+
+
+e821
+Which one of the following equations is the correct form of the Henderson-Hasselbalch equation?
+- [*] A. pH = pKa + log10[Base][Acid] 
+- [ ] B. pH = pKa – log10[Base][Acid] 
+
+
+da3d
+Which one of the following equations is the correct form of the Henderson-Hasselbalch equation?
+- [*] A. pH = pKa + log10[A–][HA] 
+- [ ] B. pH = pKa – log10[A–][HA] 
+
+
+cde5
+Which one of the following equations is the correct form of the Henderson-Hasselbalch equation?
+- [*] A. pH = pKa – log10[Acid][Base] 
+- [ ] B. pH = pKa – log10[Base][Acid] 
+
+
+3cca
+Which one of the following equations is the correct form of the Henderson-Hasselbalch equation?
+- [*] A. pH = pKa – log10[HA][A–] 
+- [ ] B. pH = pKa – log10[A–][HA] 
+
+
+2415
+Which one of the following equations is the correct form of the Henderson-Hasselbalch equation?
+- [ ] A. pH = pKa + log10[Acid][Base] 
+- [*] B. pH = pKa + log10[Base][Acid] 
+
+
+a1c6
+Which one of the following equations is the correct form of the Henderson-Hasselbalch equation?
+- [ ] A. pH = pKa + log10[HA][A–] 
+- [*] B. pH = pKa + log10[A–][HA] 
+
+
+010a
+Which one of the following equations is the correct form of the Henderson-Hasselbalch equation?
+- [ ] A. pH = pKa + log10[Acid][Base] 
+- [*] B. pH = pKa – log10[Acid][Base] 
+
+
+e596
+Which one of the following equations is the correct form of the Henderson-Hasselbalch equation?
+- [ ] A. pH = pKa + log10[HA][A–] 
+- [*] B. pH = pKa – log10[HA][A–] 
+
+
+6522
+Which one of the following equations is the correct form of the Henderson-Hasselbalch equation?
+- [ ] A. pH = pKa – log10[Base][Acid] 
+- [*] B. pH = pKa + log10[Base][Acid] 
+
+
+349d
+Which one of the following equations is the correct form of the Henderson-Hasselbalch equation?
+- [ ] A. pH = pKa – log10[A–][HA] 
+- [*] B. pH = pKa + log10[A–][HA] 
+
+
+09c5
+Which one of the following equations is the correct form of the Henderson-Hasselbalch equation?
+- [ ] A. pH = pKa – log10[Base][Acid] 
+- [*] B. pH = pKa – log10[Acid][Base] 
+
+
+bd5a
+Which one of the following equations is the correct form of the Henderson-Hasselbalch equation?
+- [ ] A. pH = pKa – log10[A–][HA] 
+- [*] B. pH = pKa – log10[HA][A–] 
+
+
+d548
+Which one of the following equations is the correct form of the Henderson-Hasselbalch equation?
+- [*] A. pH = pKa + log10[Base][Acid] 
+- [ ] B. pH = pKa + log10[Acid][Base] 
+
+

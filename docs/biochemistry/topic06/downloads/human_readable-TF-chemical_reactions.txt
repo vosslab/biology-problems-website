@@ -1,0 +1,891 @@
+0926
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Salt (NaCl) dissolving in water breaking the ionic bonds between Na+ and Cl– is a physical reaction. 
+- [ ] B. For chemical reactions to occur, the chemical identity of the substances must change. 
+- [ ] C. Chemical reactions always involve the forming and breaking of chemical bonds 
+- [*] D. Reactions that occur in living organisms are NOT chemical reactions . 
+- [ ] E. The rate of a chemical reactions depend on temperature, pressure, and the presence of catalysts. 
+
+
+094a
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Chemical reactions only occur when energy is released. 
+- [ ] B. Chemical reactions only occur in living organisms. 
+- [ ] C. Chemical reactions always result in a increase in entropy. 
+- [ ] D. Chemical reactions always result in a decrease in the number of atoms. 
+- [*] E. For chemical reactions to occur, the chemical identity of the substances must change. 
+
+
+0991
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. The rate of a chemical reactions depend on temperature, pressure, and the presence of catalysts. 
+- [ ] B. Salt (NaCl) dissolving in water breaking the ionic bonds between Na+ and Cl– is a physical reaction. 
+- [*] C. Chemical reactions always result in a increase in the total energy of the system. 
+- [ ] D. Chemical reactions play a role in many important biological processes. 
+- [ ] E. Chemical reactions are always either exothermic or endothermic . 
+
+
+0a9b
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Chemical reactions only occur at a specific temperature. 
+- [ ] B. Chemical reactions always result in a increase in the number of atoms. 
+- [*] C. Chemical reactions always transform one or more substances into one or more different substances . 
+- [ ] D. Chemical reactions always involve physical changes . 
+- [ ] E. Chemical reactions always result in a decrease in entropy. 
+
+
+0bce
+Which one of the following statements is TRUE of chemical reactions ?
+- [*] A. Chemical reactions always transform one or more substances into one or more different substances . 
+- [ ] B. Chemical reactions only occur when energy is added. 
+- [ ] C. Sugar (glucose) disolving in water is a chemical reaction. 
+- [ ] D. Chemical reactions only occur at a specific temperature. 
+- [ ] E. Chemical reactions always result in a increase in the number of atoms. 
+
+
+0c33
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Chemical reactions only occur at a specific temperature. 
+- [ ] B. Chemical reactions always result in a increase in the number of atoms. 
+- [ ] C. Chemical reactions only occur in living organisms. 
+- [*] D. For chemical reactions to occur, the chemical formulas of both the reactant and the product can be the same. 
+- [ ] E. Chemical reactions only occur when energy is released. 
+
+
+0d33
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Chemical reactions always result in a increase in entropy. 
+- [ ] B. Chemical reactions always result in a increase in the number of atoms. 
+- [ ] C. Chemical reactions are always endothermic . 
+- [ ] D. For chemical reactions to occur, the chemical formulas of both the reactant and the product cannot be the same. 
+- [*] E. Chemical reactions are involved in many important processes in biology. 
+
+
+0d4d
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Chemical reactions play a role in many important biological processes. 
+- [ ] B. Chemical reactions always involve a change in the chemical composition of substances . 
+- [ ] C. Chemical reactions always transform one or more substances into one or more different substances . 
+- [*] D. Chemical reactions always result in a increase in the number of atoms. 
+- [ ] E. Chemical reactions are always either exothermic or endothermic . 
+
+
+14e9
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Chemical reactions always involve a change in the chemical composition of substances . 
+- [ ] B. The rate of a chemical reactions depend on temperature, pressure, and the presence of catalysts. 
+- [ ] C. Chemical reactions always transform one or more substances into one or more different substances . 
+- [ ] D. Chemical reactions always involve the forming and breaking of chemical bonds 
+- [*] E. For chemical reactions to occur, the chemical formulas of both the reactant and the product cannot be the same. 
+
+
+17a8
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Chemical reactions always transform one or more substances into one or more different substances . 
+- [ ] B. Chemical reactions are always either exothermic or endothermic . 
+- [ ] C. For chemical reactions to occur, the chemical identity of the substances must change. 
+- [ ] D. The rate of a chemical reactions depend on temperature, pressure, and the presence of catalysts. 
+- [*] E. Chemical reactions always result in a increase in the number of atoms. 
+
+
+2679
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Salt (NaCl) dissolving in water breaking the ionic bonds between Na+ and Cl– is a physical reaction. 
+- [ ] B. Chemical reactions always involve a change in the chemical composition of substances . 
+- [*] C. Chemical reactions always result in a decrease in the number of atoms. 
+- [ ] D. Chemical reactions are always either exothermic or endothermic . 
+- [ ] E. Chemical reactions play a role in many important biological processes. 
+
+
+27d5
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Chemical reactions always involve a change in the chemical composition of substances . 
+- [ ] B. Chemical reactions always transform one or more substances into one or more different substances . 
+- [*] C. Chemical reactions cannot be exothermic . 
+- [ ] D. The rate of a chemical reactions depend on temperature, pressure, and the presence of catalysts. 
+- [ ] E. For chemical reactions to occur, the chemical identity of the substances must change. 
+
+
+29be
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Chemical reactions are always endothermic . 
+- [*] B. For chemical reactions to occur, the chemical formulas of both the reactant and the product can be the same. 
+- [ ] C. Chemical reactions only occur in living organisms. 
+- [ ] D. Salt (NaCl) dissolving in water is a chemical reaction since breaking ionic bonds forms in new chemicals. 
+- [ ] E. Chemical reactions only occur in the presence of light. 
+
+
+2d3a
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. For chemical reactions to occur, the chemical identity of the substances must change. 
+- [ ] B. Chemical reactions play a role in many important biological processes. 
+- [ ] C. Salt (NaCl) dissolving in water breaking the ionic bonds between Na+ and Cl– is a physical reaction. 
+- [ ] D. Chemical reactions always transform one or more substances into one or more different substances . 
+- [*] E. Chemical reactions only occur when energy is added. 
+
+
+2f10
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Chemical reactions only occur when energy is released. 
+- [ ] B. Chemical reactions always result in a decrease in entropy. 
+- [*] C. Chemical reactions play a role in many important biological processes. 
+- [ ] D. Chemical reactions always result in a decrease in the number of atoms. 
+- [ ] E. Chemical reactions only occur in the presence of light. 
+
+
+30de
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Chemical reactions only occur when energy is released. 
+- [ ] B. Chemical reactions always result in a increase in the total energy of the system. 
+- [ ] C. Chemical reactions always result in a increase in entropy. 
+- [*] D. Chemical reactions are involved in many important processes in biology. 
+- [ ] E. Chemical reactions only occur at a specific temperature. 
+
+
+3195
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Chemical reactions always involve a change in the chemical composition of substances . 
+- [ ] B. Chemical reactions always transform one or more substances into one or more different substances . 
+- [ ] C. For chemical reactions to occur, the chemical identity of the substances must change. 
+- [ ] D. The rate of a chemical reactions depend on temperature, pressure, and the presence of catalysts. 
+- [*] E. Ice melting into water is a chemical reaction. 
+
+
+349d
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Chemical reactions always result in a increase in the number of atoms. 
+- [ ] B. Chemical reactions are always exothermic . 
+- [*] C. Chemical reactions play a role in many important biological processes. 
+- [ ] D. Chemical reactions only occur when energy is released. 
+- [ ] E. Chemical reactions only occur in the presence of light. 
+
+
+35da
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Chemical reactions only occur at a specific temperature. 
+- [*] B. For chemical reactions to occur, the chemical formulas of both the reactant and the product can be the same. 
+- [ ] C. Chemical reactions only occur when energy is released. 
+- [ ] D. Chemical reactions only occur in the presence of light. 
+- [ ] E. Chemical reactions always result in a decrease in the total energy of the system. 
+
+
+3d44
+Which one of the following statements is TRUE of chemical reactions ?
+- [*] A. For chemical reactions to occur, the chemical formulas of both the reactant and the product can be the same. 
+- [ ] B. Chemical reactions only occur in the presence of light. 
+- [ ] C. Sublimation of dry ice into carbon dioxide gas is a chemical reaction. 
+- [ ] D. Chemical reactions cannot be exothermic . 
+- [ ] E. Reactions that occur in living organisms are NOT chemical reactions . 
+
+
+40ac
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Chemical reactions cannot be exothermic . 
+- [*] B. For chemical reactions to occur, the chemical formulas of both the reactant and the product can be the same. 
+- [ ] C. Chemical reactions always result in a increase in the total energy of the system. 
+- [ ] D. Chemical reactions only occur in living organisms. 
+- [ ] E. Salt (NaCl) dissolving in water is a chemical reaction since breaking ionic bonds forms in new chemicals. 
+
+
+4291
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Reactions that occur in living organisms are NOT chemical reactions . 
+- [ ] B. Chemical reactions always result in a decrease in the total energy of the system. 
+- [*] C. Chemical reactions always involve a change in the chemical composition of substances . 
+- [ ] D. Chemical reactions only occur at a specific temperature. 
+- [ ] E. Chemical reactions only occur in the presence of light. 
+
+
+432c
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [*] A. Chemical reactions always result in a decrease in the total energy of the system. 
+- [ ] B. Chemical reactions are always either exothermic or endothermic . 
+- [ ] C. Chemical reactions always transform one or more substances into one or more different substances . 
+- [ ] D. Salt (NaCl) dissolving in water breaking the ionic bonds between Na+ and Cl– is a physical reaction. 
+- [ ] E. Chemical reactions always involve the forming and breaking of chemical bonds 
+
+
+449b
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Chemical reactions always result in a increase in the total energy of the system. 
+- [ ] B. Chemical reactions only occur at a specific temperature. 
+- [*] C. Chemical reactions play a role in many important biological processes. 
+- [ ] D. Chemical reactions always result in a increase in the number of atoms. 
+- [ ] E. For chemical reactions to occur, the chemical formula of the substances must change. 
+
+
+44e8
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [*] A. Salt (NaCl) dissolving in water is a chemical reaction since breaking ionic bonds forms in new chemicals. 
+- [ ] B. Chemical reactions always involve a change in the chemical composition of substances . 
+- [ ] C. Chemical reactions are always either exothermic or endothermic . 
+- [ ] D. Chemical reactions always transform one or more substances into one or more different substances . 
+- [ ] E. For chemical reactions to occur, the chemical formulas of both the reactant and the product can be the same. 
+
+
+4689
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Chemical reactions are always either exothermic or endothermic . 
+- [ ] B. Chemical reactions always transform one or more substances into one or more different substances . 
+- [ ] C. Chemical reactions always involve a change in the chemical composition of substances . 
+- [ ] D. The rate of a chemical reactions depend on temperature, pressure, and the presence of catalysts. 
+- [*] E. For chemical reactions to occur, the chemical formulas of both the reactant and the product cannot be the same. 
+
+
+47a5
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Chemical reactions always result in a increase in the number of atoms. 
+- [ ] B. Chemical reactions only occur in the presence of light. 
+- [ ] C. Chemical reactions cannot be endothermic . 
+- [ ] D. For chemical reactions to occur, the chemical formula of the substances must change. 
+- [*] E. Chemical reactions are involved in many important processes in biology. 
+
+
+487b
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Chemical reactions only occur in the presence of light. 
+- [ ] B. Sublimation of dry ice into carbon dioxide gas is a chemical reaction. 
+- [ ] C. Chemical reactions are always exothermic . 
+- [ ] D. Reactions that occur in living organisms are NOT chemical reactions . 
+- [*] E. Chemical reactions always involve the forming and breaking of chemical bonds 
+
+
+4ad7
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Chemical reactions always transform one or more substances into one or more different substances . 
+- [*] B. Chemical reactions only occur in the presence of light. 
+- [ ] C. Salt (NaCl) dissolving in water breaking the ionic bonds between Na+ and Cl– is a physical reaction. 
+- [ ] D. For chemical reactions to occur, the chemical formulas of both the reactant and the product can be the same. 
+- [ ] E. The rate of a chemical reactions depend on temperature, pressure, and the presence of catalysts. 
+
+
+4af1
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Chemical reactions are always endothermic . 
+- [*] B. The rate of a chemical reactions depend on temperature, pressure, and the presence of catalysts. 
+- [ ] C. Chemical reactions only occur in living organisms. 
+- [ ] D. Ice melting into water is a chemical reaction. 
+- [ ] E. Chemical reactions only occur at a specific temperature. 
+
+
+4d7f
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Chemical reactions always involve a change in the chemical composition of substances . 
+- [ ] B. The rate of a chemical reactions depend on temperature, pressure, and the presence of catalysts. 
+- [ ] C. Salt (NaCl) dissolving in water breaking the ionic bonds between Na+ and Cl– is a physical reaction. 
+- [*] D. Chemical reactions only occur in living organisms. 
+- [ ] E. Chemical reactions are always either exothermic or endothermic . 
+
+
+4e31
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Chemical reactions are always either exothermic or endothermic . 
+- [*] B. Chemical reactions always result in a decrease in the total energy of the system. 
+- [ ] C. Salt (NaCl) dissolving in water breaking the ionic bonds between Na+ and Cl– is a physical reaction. 
+- [ ] D. Chemical reactions always involve a change in the chemical composition of substances . 
+- [ ] E. Chemical reactions always transform one or more substances into one or more different substances . 
+
+
+50c9
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. For chemical reactions to occur, the chemical formulas of both the reactant and the product can be the same. 
+- [ ] B. Chemical reactions are always either exothermic or endothermic . 
+- [ ] C. Chemical reactions always transform one or more substances into one or more different substances . 
+- [ ] D. Chemical reactions always involve a change in the chemical composition of substances . 
+- [*] E. Salt (NaCl) dissolving in water is a chemical reaction since breaking ionic bonds forms in new chemicals. 
+
+
+542e
+Which one of the following statements is TRUE of chemical reactions ?
+- [*] A. Chemical reactions always involve the forming and breaking of chemical bonds 
+- [ ] B. Chemical reactions only occur at a specific temperature. 
+- [ ] C. Chemical reactions only occur in the presence of light. 
+- [ ] D. Chemical reactions always result in a increase in entropy. 
+- [ ] E. Chemical reactions only occur in living organisms. 
+
+
+57f6
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Chemical reactions always result in a increase in the number of atoms. 
+- [ ] B. Chemical reactions only occur in living organisms. 
+- [ ] C. Chemical reactions only occur at a specific temperature. 
+- [*] D. Chemical reactions always involve a change in the chemical composition of substances . 
+- [ ] E. Chemical reactions cannot be exothermic . 
+
+
+585a
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [*] A. Reactions that occur in living organisms are NOT chemical reactions . 
+- [ ] B. Chemical reactions are always either exothermic or endothermic . 
+- [ ] C. Chemical reactions always involve a change in the chemical composition of substances . 
+- [ ] D. For chemical reactions to occur, the chemical identity of the substances must change. 
+- [ ] E. Salt (NaCl) dissolving in water breaking the ionic bonds between Na+ and Cl– is a physical reaction. 
+
+
+5919
+Which one of the following statements is TRUE of chemical reactions ?
+- [*] A. Chemical reactions always involve a change in the chemical composition of substances . 
+- [ ] B. For chemical reactions to occur, the chemical formula of the substances must change. 
+- [ ] C. Chemical reactions only occur when energy is released. 
+- [ ] D. Chemical reactions are always exothermic . 
+- [ ] E. Chemical reactions only occur at a specific temperature. 
+
+
+5c13
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. For chemical reactions to occur, the chemical formulas of both the reactant and the product can be the same. 
+- [ ] B. The rate of a chemical reactions depend on temperature, pressure, and the presence of catalysts. 
+- [ ] C. Chemical reactions always involve the forming and breaking of chemical bonds 
+- [*] D. Chemical reactions are always endothermic . 
+- [ ] E. Salt (NaCl) dissolving in water breaking the ionic bonds between Na+ and Cl– is a physical reaction. 
+
+
+5e75
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Chemical reactions only occur at a specific temperature. 
+- [ ] B. Chemical reactions always result in a decrease in entropy. 
+- [ ] C. For chemical reactions to happen, the chemical identity of both reactants and products remains the same. 
+- [*] D. Chemical reactions are involved in many important processes in biology. 
+- [ ] E. Chemical reactions always result in a decrease in the number of atoms. 
+
+
+6327
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [*] A. Chemical reactions cannot be endothermic . 
+- [ ] B. Chemical reactions always involve the forming and breaking of chemical bonds 
+- [ ] C. For chemical reactions to occur, the chemical identity of the substances must change. 
+- [ ] D. The rate of a chemical reactions depend on temperature, pressure, and the presence of catalysts. 
+- [ ] E. Chemical reactions always transform one or more substances into one or more different substances . 
+
+
+63dc
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Chemical reactions only occur in living organisms. 
+- [ ] B. Chemical reactions only occur at a specific temperature. 
+- [ ] C. Chemical reactions always result in a decrease in the number of atoms. 
+- [*] D. Salt (NaCl) dissolving in water breaking the ionic bonds between Na+ and Cl– is a physical reaction. 
+- [ ] E. Chemical reactions only occur in the presence of light. 
+
+
+65b6
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Chemical reactions always involve a change in the chemical composition of substances . 
+- [*] B. Chemical reactions always result in a increase in the total energy of the system. 
+- [ ] C. Chemical reactions always involve the forming and breaking of chemical bonds 
+- [ ] D. Chemical reactions are involved in many important processes in biology. 
+- [ ] E. Chemical reactions are always either exothermic or endothermic . 
+
+
+662d
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [*] A. Chemical reactions always result in a decrease in the number of atoms. 
+- [ ] B. The rate of a chemical reactions depend on temperature, pressure, and the presence of catalysts. 
+- [ ] C. For chemical reactions to occur, the chemical identity of the substances must change. 
+- [ ] D. Chemical reactions play a role in many important biological processes. 
+- [ ] E. Chemical reactions are always either exothermic or endothermic . 
+
+
+69e6
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Chemical reactions always transform one or more substances into one or more different substances . 
+- [ ] B. Chemical reactions always involve the forming and breaking of chemical bonds 
+- [ ] C. Chemical reactions always involve a change in the chemical composition of substances . 
+- [*] D. Chemical reactions only occur when energy is released. 
+- [ ] E. The rate of a chemical reactions depend on temperature, pressure, and the presence of catalysts. 
+
+
+6a50
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. For chemical reactions to occur, the chemical formulas of both the reactant and the product cannot be the same. 
+- [ ] B. Chemical reactions always result in a decrease in the total energy of the system. 
+- [*] C. Chemical reactions are always either exothermic or endothermic . 
+- [ ] D. Sublimation of dry ice into carbon dioxide gas is a chemical reaction. 
+- [ ] E. Chemical reactions only occur when energy is added. 
+
+
+6eb8
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Chemical reactions play a role in many important biological processes. 
+- [ ] B. Chemical reactions always involve a change in the chemical composition of substances . 
+- [*] C. Chemical reactions always result in a decrease in entropy. 
+- [ ] D. Chemical reactions always transform one or more substances into one or more different substances . 
+- [ ] E. Salt (NaCl) dissolving in water breaking the ionic bonds between Na+ and Cl– is a physical reaction. 
+
+
+6fd9
+Which one of the following statements is TRUE of chemical reactions ?
+- [*] A. Salt (NaCl) dissolving in water breaking the ionic bonds between Na+ and Cl– is a physical reaction. 
+- [ ] B. For chemical reactions to happen, the chemical identity of both reactants and products remains the same. 
+- [ ] C. Chemical reactions only occur at a specific temperature. 
+- [ ] D. Chemical reactions cannot be exothermic . 
+- [ ] E. Chemical reactions only occur in living organisms. 
+
+
+70e5
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Chemical reactions play a role in many important biological processes. 
+- [*] B. Chemical reactions cannot be exothermic . 
+- [ ] C. Chemical reactions always transform one or more substances into one or more different substances . 
+- [ ] D. Chemical reactions always involve the forming and breaking of chemical bonds 
+- [ ] E. Chemical reactions always involve a change in the chemical composition of substances . 
+
+
+723f
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Chemical reactions always transform one or more substances into one or more different substances . 
+- [ ] B. The rate of a chemical reactions depend on temperature, pressure, and the presence of catalysts. 
+- [ ] C. Chemical reactions play a role in many important biological processes. 
+- [*] D. For chemical reactions to happen, the chemical identity of both reactants and products remains the same. 
+- [ ] E. Salt (NaCl) dissolving in water breaking the ionic bonds between Na+ and Cl– is a physical reaction. 
+
+
+7417
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. For chemical reactions to occur, the chemical formula of the substances must change. 
+- [ ] B. Chemical reactions only occur when energy is released. 
+- [*] C. The rate of a chemical reactions depend on temperature, pressure, and the presence of catalysts. 
+- [ ] D. Chemical reactions always result in a decrease in the number of atoms. 
+- [ ] E. Chemical reactions only occur in living organisms. 
+
+
+75e2
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Chemical reactions only occur at a specific temperature. 
+- [ ] B. Chemical reactions always result in a decrease in entropy. 
+- [ ] C. Chemical reactions only occur when energy is added. 
+- [*] D. Chemical reactions always involve the forming and breaking of chemical bonds 
+- [ ] E. Chemical reactions always result in a increase in the number of atoms. 
+
+
+7656
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Chemical reactions always involve the forming and breaking of chemical bonds 
+- [ ] B. Chemical reactions always involve a change in the chemical composition of substances . 
+- [*] C. For chemical reactions to occur, the chemical formulas of both the reactant and the product cannot be the same. 
+- [ ] D. Chemical reactions are always either exothermic or endothermic . 
+- [ ] E. Salt (NaCl) dissolving in water breaking the ionic bonds between Na+ and Cl– is a physical reaction. 
+
+
+785b
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Chemical reactions always result in a increase in entropy. 
+- [*] B. Chemical reactions always involve the forming and breaking of chemical bonds 
+- [ ] C. Chemical reactions always result in a decrease in the total energy of the system. 
+- [ ] D. Chemical reactions only occur in the presence of light. 
+- [ ] E. For chemical reactions to occur, the chemical formula of the substances must change. 
+
+
+78e0
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Chemical reactions only occur in the presence of light. 
+- [ ] B. Chemical reactions always result in a increase in the number of atoms. 
+- [*] C. Chemical reactions play a role in many important biological processes. 
+- [ ] D. Chemical reactions always result in a decrease in entropy. 
+- [ ] E. Chemical reactions only occur at a specific temperature. 
+
+
+7d73
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Chemical reactions always result in a increase in entropy. 
+- [ ] B. Chemical reactions always result in a increase in the total energy of the system. 
+- [ ] C. Chemical reactions only occur in the presence of light. 
+- [ ] D. Chemical reactions only occur at a specific temperature. 
+- [*] E. Chemical reactions play a role in many important biological processes. 
+
+
+7d80
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Chemical reactions always involve the forming and breaking of chemical bonds 
+- [*] B. For chemical reactions to happen, the chemical identity of both reactants and products remains the same. 
+- [ ] C. The rate of a chemical reactions depend on temperature, pressure, and the presence of catalysts. 
+- [ ] D. Chemical reactions are always either exothermic or endothermic . 
+- [ ] E. Chemical reactions always transform one or more substances into one or more different substances . 
+
+
+81f1
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. For chemical reactions to occur, the chemical formula of the substances must change. 
+- [ ] B. Chemical reactions only occur in the presence of light. 
+- [ ] C. Chemical reactions always result in a decrease in entropy. 
+- [*] D. The rate of a chemical reactions depend on temperature, pressure, and the presence of catalysts. 
+- [ ] E. Chemical reactions are always exothermic . 
+
+
+822f
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Chemical reactions always transform one or more substances into one or more different substances . 
+- [*] B. Ice melting into water is a chemical reaction. 
+- [ ] C. Chemical reactions always involve the forming and breaking of chemical bonds 
+- [ ] D. Chemical reactions are involved in many important processes in biology. 
+- [ ] E. The rate of a chemical reactions depend on temperature, pressure, and the presence of catalysts. 
+
+
+8531
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [*] A. Chemical reactions are always endothermic . 
+- [ ] B. Chemical reactions always involve the forming and breaking of chemical bonds 
+- [ ] C. Chemical reactions are involved in many important processes in biology. 
+- [ ] D. For chemical reactions to occur, the chemical identity of the substances must change. 
+- [ ] E. Salt (NaCl) dissolving in water breaking the ionic bonds between Na+ and Cl– is a physical reaction. 
+
+
+89ed
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Salt (NaCl) dissolving in water is a chemical reaction since breaking ionic bonds forms in new chemicals. 
+- [ ] B. For chemical reactions to occur, the chemical formulas of both the reactant and the product cannot be the same. 
+- [ ] C. Chemical reactions only occur when energy is added. 
+- [ ] D. Chemical reactions always result in a increase in the number of atoms. 
+- [*] E. Chemical reactions are involved in many important processes in biology. 
+
+
+8dd9
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. For chemical reactions to occur, the chemical formulas of both the reactant and the product cannot be the same. 
+- [ ] B. Chemical reactions always result in a decrease in entropy. 
+- [ ] C. Chemical reactions only occur when energy is added. 
+- [*] D. Chemical reactions are involved in many important processes in biology. 
+- [ ] E. Chemical reactions only occur in the presence of light. 
+
+
+8ec1
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. For chemical reactions to occur, the chemical identity of the substances must change. 
+- [ ] B. Salt (NaCl) dissolving in water breaking the ionic bonds between Na+ and Cl– is a physical reaction. 
+- [ ] C. Chemical reactions are always either exothermic or endothermic . 
+- [ ] D. Chemical reactions always involve a change in the chemical composition of substances . 
+- [*] E. Chemical reactions only occur when energy is released. 
+
+
+94b4
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Chemical reactions always result in a decrease in the number of atoms. 
+- [ ] B. Chemical reactions only occur at a specific temperature. 
+- [ ] C. Chemical reactions are always endothermic . 
+- [*] D. For chemical reactions to occur, the chemical formulas of both the reactant and the product can be the same. 
+- [ ] E. Chemical reactions only occur when energy is added. 
+
+
+978e
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Chemical reactions always transform one or more substances into one or more different substances . 
+- [ ] B. Salt (NaCl) dissolving in water breaking the ionic bonds between Na+ and Cl– is a physical reaction. 
+- [*] C. Chemical reactions only occur when energy is added. 
+- [ ] D. Chemical reactions always involve the forming and breaking of chemical bonds 
+- [ ] E. For chemical reactions to occur, the chemical identity of the substances must change. 
+
+
+9864
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Chemical reactions always result in a increase in the total energy of the system. 
+- [*] B. Chemical reactions are always either exothermic or endothermic . 
+- [ ] C. Chemical reactions only occur when energy is added. 
+- [ ] D. Chemical reactions only occur in living organisms. 
+- [ ] E. Chemical reactions always result in a decrease in the number of atoms. 
+
+
+9acd
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Chemical reactions are always either exothermic or endothermic . 
+- [ ] B. Chemical reactions play a role in many important biological processes. 
+- [ ] C. Chemical reactions always transform one or more substances into one or more different substances . 
+- [ ] D. Salt (NaCl) dissolving in water breaking the ionic bonds between Na+ and Cl– is a physical reaction. 
+- [*] E. For chemical reactions to occur, the chemical formula of the substances must change. 
+
+
+9c42
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Chemical reactions always result in a decrease in the number of atoms. 
+- [ ] B. Chemical reactions always result in a increase in entropy. 
+- [ ] C. Chemical reactions only occur when energy is added. 
+- [*] D. Chemical reactions are always either exothermic or endothermic . 
+- [ ] E. Chemical reactions always result in a decrease in the total energy of the system. 
+
+
+9d68
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [*] A. Chemical reactions always result in a decrease in entropy. 
+- [ ] B. Chemical reactions always involve the forming and breaking of chemical bonds 
+- [ ] C. Chemical reactions always involve a change in the chemical composition of substances . 
+- [ ] D. The rate of a chemical reactions depend on temperature, pressure, and the presence of catalysts. 
+- [ ] E. Chemical reactions are always either exothermic or endothermic . 
+
+
+9f86
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Chemical reactions always transform one or more substances into one or more different substances . 
+- [*] B. Chemical reactions always involve physical changes . 
+- [ ] C. Chemical reactions always involve a change in the chemical composition of substances . 
+- [ ] D. The rate of a chemical reactions depend on temperature, pressure, and the presence of catalysts. 
+- [ ] E. For chemical reactions to occur, the chemical formulas of both the reactant and the product can be the same. 
+
+
+a0a3
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Chemical reactions play a role in many important biological processes. 
+- [ ] B. Chemical reactions always transform one or more substances into one or more different substances . 
+- [*] C. For chemical reactions to occur, the chemical formula of the substances must change. 
+- [ ] D. Chemical reactions always involve a change in the chemical composition of substances . 
+- [ ] E. Chemical reactions always involve the forming and breaking of chemical bonds 
+
+
+a7bf
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Chemical reactions always involve the forming and breaking of chemical bonds 
+- [ ] B. Chemical reactions always involve a change in the chemical composition of substances . 
+- [ ] C. Chemical reactions always transform one or more substances into one or more different substances . 
+- [*] D. Chemical reactions only occur at a specific temperature. 
+- [ ] E. Salt (NaCl) dissolving in water breaking the ionic bonds between Na+ and Cl– is a physical reaction. 
+
+
+a828
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Chemical reactions are always exothermic . 
+- [*] B. Chemical reactions always transform one or more substances into one or more different substances . 
+- [ ] C. For chemical reactions to occur, the chemical formulas of both the reactant and the product cannot be the same. 
+- [ ] D. Chemical reactions always result in a increase in the total energy of the system. 
+- [ ] E. Chemical reactions always result in a decrease in entropy. 
+
+
+ac7e
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Sugar (glucose) disolving in water is a chemical reaction. 
+- [*] B. For chemical reactions to occur, the chemical identity of the substances must change. 
+- [ ] C. Chemical reactions only occur in living organisms. 
+- [ ] D. Chemical reactions always result in a increase in entropy. 
+- [ ] E. Chemical reactions are always endothermic . 
+
+
+b083
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Chemical reactions always involve a change in the chemical composition of substances . 
+- [*] B. Chemical reactions only involve physical changes . 
+- [ ] C. For chemical reactions to occur, the chemical formulas of both the reactant and the product can be the same. 
+- [ ] D. Chemical reactions are involved in many important processes in biology. 
+- [ ] E. Chemical reactions always transform one or more substances into one or more different substances . 
+
+
+b519
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Chemical reactions are involved in many important processes in biology. 
+- [ ] B. For chemical reactions to occur, the chemical formulas of both the reactant and the product can be the same. 
+- [ ] C. Chemical reactions always involve the forming and breaking of chemical bonds 
+- [ ] D. Chemical reactions are always either exothermic or endothermic . 
+- [*] E. Chemical reactions only occur when energy is released. 
+
+
+b59b
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. The rate of a chemical reactions depend on temperature, pressure, and the presence of catalysts. 
+- [*] B. Chemical reactions only occur in living organisms. 
+- [ ] C. Salt (NaCl) dissolving in water breaking the ionic bonds between Na+ and Cl– is a physical reaction. 
+- [ ] D. For chemical reactions to occur, the chemical identity of the substances must change. 
+- [ ] E. Chemical reactions are always either exothermic or endothermic . 
+
+
+b69c
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Chemical reactions only occur in the presence of light. 
+- [*] B. Chemical reactions always involve the forming and breaking of chemical bonds 
+- [ ] C. Reactions that occur in living organisms are NOT chemical reactions . 
+- [ ] D. Chemical reactions only occur when energy is added. 
+- [ ] E. Chemical reactions are always exothermic . 
+
+
+b75a
+Which one of the following statements is TRUE of chemical reactions ?
+- [*] A. Chemical reactions are involved in many important processes in biology. 
+- [ ] B. Chemical reactions are always endothermic . 
+- [ ] C. Salt (NaCl) dissolving in water is a chemical reaction since breaking ionic bonds forms in new chemicals. 
+- [ ] D. Chemical reactions only occur when energy is added. 
+- [ ] E. Chemical reactions only occur at a specific temperature. 
+
+
+b787
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Chemical reactions are always either exothermic or endothermic . 
+- [*] B. Chemical reactions only occur in the presence of light. 
+- [ ] C. For chemical reactions to occur, the chemical formulas of both the reactant and the product can be the same. 
+- [ ] D. Chemical reactions always transform one or more substances into one or more different substances . 
+- [ ] E. Chemical reactions are involved in many important processes in biology. 
+
+
+ba62
+Which one of the following statements is TRUE of chemical reactions ?
+- [*] A. Chemical reactions always involve a change in the chemical composition of substances . 
+- [ ] B. Chemical reactions always result in a increase in entropy. 
+- [ ] C. Chemical reactions only occur at a specific temperature. 
+- [ ] D. Chemical reactions always result in a increase in the number of atoms. 
+- [ ] E. Chemical reactions only occur in living organisms. 
+
+
+bd41
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Chemical reactions only occur in living organisms. 
+- [*] B. Chemical reactions always involve a change in the chemical composition of substances . 
+- [ ] C. Chemical reactions only occur in the presence of light. 
+- [ ] D. Chemical reactions only occur at a specific temperature. 
+- [ ] E. Chemical reactions only occur when energy is added. 
+
+
+c1e5
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [*] A. Chemical reactions always result in a increase in entropy. 
+- [ ] B. Chemical reactions always transform one or more substances into one or more different substances . 
+- [ ] C. Chemical reactions play a role in many important biological processes. 
+- [ ] D. Salt (NaCl) dissolving in water breaking the ionic bonds between Na+ and Cl– is a physical reaction. 
+- [ ] E. Chemical reactions always involve the forming and breaking of chemical bonds 
+
+
+c6a4
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Chemical reactions only occur at a specific temperature. 
+- [*] B. Chemical reactions always transform one or more substances into one or more different substances . 
+- [ ] C. Chemical reactions only occur in the presence of light. 
+- [ ] D. Chemical reactions only occur when energy is released. 
+- [ ] E. Chemical reactions always result in a increase in the total energy of the system. 
+
+
+c87d
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Chemical reactions are always endothermic . 
+- [ ] B. Chemical reactions always result in a increase in the total energy of the system. 
+- [ ] C. Chemical reactions always result in a increase in entropy. 
+- [ ] D. Chemical reactions only occur when energy is released. 
+- [*] E. For chemical reactions to occur, the chemical identity of the substances must change. 
+
+
+c8a7
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Chemical reactions always involve the forming and breaking of chemical bonds 
+- [*] B. Chemical reactions always result in a decrease in the number of atoms. 
+- [ ] C. Chemical reactions are always either exothermic or endothermic . 
+- [ ] D. For chemical reactions to occur, the chemical identity of the substances must change. 
+- [ ] E. Chemical reactions are involved in many important processes in biology. 
+
+
+c955
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Chemical reactions are involved in many important processes in biology. 
+- [ ] B. The rate of a chemical reactions depend on temperature, pressure, and the presence of catalysts. 
+- [*] C. Salt (NaCl) dissolving in water is a chemical reaction since breaking ionic bonds forms in new chemicals. 
+- [ ] D. Chemical reactions always involve a change in the chemical composition of substances . 
+- [ ] E. Chemical reactions always transform one or more substances into one or more different substances . 
+
+
+c9ee
+Which one of the following statements is TRUE of chemical reactions ?
+- [*] A. Chemical reactions are always either exothermic or endothermic . 
+- [ ] B. Chemical reactions always result in a decrease in the number of atoms. 
+- [ ] C. Chemical reactions always result in a decrease in the total energy of the system. 
+- [ ] D. Chemical reactions only occur in the presence of light. 
+- [ ] E. Reactions that occur in living organisms are NOT chemical reactions . 
+
+
+caf2
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Chemical reactions always result in a decrease in entropy. 
+- [ ] B. Reactions that occur in living organisms are NOT chemical reactions . 
+- [*] C. Salt (NaCl) dissolving in water breaking the ionic bonds between Na+ and Cl– is a physical reaction. 
+- [ ] D. Chemical reactions only occur at a specific temperature. 
+- [ ] E. Chemical reactions cannot be endothermic . 
+
+
+d056
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Chemical reactions are always either exothermic or endothermic . 
+- [ ] B. Chemical reactions always involve the forming and breaking of chemical bonds 
+- [ ] C. For chemical reactions to occur, the chemical identity of the substances must change. 
+- [*] D. Sublimation of dry ice into carbon dioxide gas is a chemical reaction. 
+- [ ] E. Chemical reactions always transform one or more substances into one or more different substances . 
+
+
+d3f5
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Salt (NaCl) dissolving in water breaking the ionic bonds between Na+ and Cl– is a physical reaction. 
+- [*] B. Chemical reactions only occur at a specific temperature. 
+- [ ] C. Chemical reactions always involve the forming and breaking of chemical bonds 
+- [ ] D. Chemical reactions are involved in many important processes in biology. 
+- [ ] E. Chemical reactions always involve a change in the chemical composition of substances . 
+
+
+d5fd
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Chemical reactions are always either exothermic or endothermic . 
+- [ ] B. Chemical reactions always involve the forming and breaking of chemical bonds 
+- [ ] C. Chemical reactions always involve a change in the chemical composition of substances . 
+- [*] D. For chemical reactions to occur, the chemical formulas of both the reactant and the product cannot be the same. 
+- [ ] E. The rate of a chemical reactions depend on temperature, pressure, and the presence of catalysts. 
+
+
+d70b
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Chemical reactions always involve physical changes . 
+- [ ] B. Chemical reactions always result in a increase in entropy. 
+- [*] C. For chemical reactions to occur, the chemical formulas of both the reactant and the product can be the same. 
+- [ ] D. Chemical reactions always result in a increase in the total energy of the system. 
+- [ ] E. Chemical reactions cannot be endothermic . 
+
+
+dab0
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Chemical reactions always result in a decrease in the total energy of the system. 
+- [ ] B. Chemical reactions only occur in the presence of light. 
+- [ ] C. Chemical reactions always result in a increase in the number of atoms. 
+- [*] D. Chemical reactions always involve the forming and breaking of chemical bonds 
+- [ ] E. Reactions that occur in living organisms are NOT chemical reactions . 
+
+
+e7a2
+Which one of the following statements is TRUE of chemical reactions ?
+- [ ] A. Chemical reactions are always exothermic . 
+- [ ] B. Sublimation of dry ice into carbon dioxide gas is a chemical reaction. 
+- [ ] C. Chemical reactions always result in a decrease in the number of atoms. 
+- [ ] D. Chemical reactions always result in a increase in entropy. 
+- [*] E. The rate of a chemical reactions depend on temperature, pressure, and the presence of catalysts. 
+
+
+ea85
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Chemical reactions always transform one or more substances into one or more different substances . 
+- [ ] B. Salt (NaCl) dissolving in water breaking the ionic bonds between Na+ and Cl– is a physical reaction. 
+- [ ] C. Chemical reactions always involve the forming and breaking of chemical bonds 
+- [ ] D. Chemical reactions are involved in many important processes in biology. 
+- [*] E. Chemical reactions always result in a increase in entropy. 
+
+
+eb43
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Chemical reactions always transform one or more substances into one or more different substances . 
+- [ ] B. The rate of a chemical reactions depend on temperature, pressure, and the presence of catalysts. 
+- [*] C. Chemical reactions are always endothermic . 
+- [ ] D. Salt (NaCl) dissolving in water breaking the ionic bonds between Na+ and Cl– is a physical reaction. 
+- [ ] E. Chemical reactions always involve the forming and breaking of chemical bonds 
+
+
+ecb1
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Chemical reactions are always either exothermic or endothermic . 
+- [*] B. Chemical reactions only occur when energy is released. 
+- [ ] C. Chemical reactions play a role in many important biological processes. 
+- [ ] D. For chemical reactions to occur, the chemical identity of the substances must change. 
+- [ ] E. Chemical reactions always involve a change in the chemical composition of substances . 
+
+
+ecb6
+Which one of the following statements is FALSE regarding chemical reactions ?
+- [ ] A. Salt (NaCl) dissolving in water breaking the ionic bonds between Na+ and Cl– is a physical reaction. 
+- [ ] B. Chemical reactions always involve a change in the chemical composition of substances . 
+- [*] C. Chemical reactions are always exothermic . 
+- [ ] D. Chemical reactions always involve the forming and breaking of chemical bonds 
+- [ ] E. Chemical reactions always transform one or more substances into one or more different substances . 
+
+
+ffb7
+Which one of the following statements is TRUE of chemical reactions ?
+- [*] A. The rate of a chemical reactions depend on temperature, pressure, and the presence of catalysts. 
+- [ ] B. Chemical reactions only occur at a specific temperature. 
+- [ ] C. Chemical reactions always result in a decrease in entropy. 
+- [ ] D. Ice melting into water is a chemical reaction. 
+- [ ] E. Chemical reactions always result in a increase in the number of atoms. 
+
+

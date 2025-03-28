@@ -1,0 +1,48 @@
+<div id="question_html_db84_ba65">
+<div id="statement_text_db84_ba65"><p>cfb8<br><strong>Pyrophosphoric acid</strong> and its conjugate base, pyrophosphate, is abbreviated PP<sub>i</sub> and is formed by cells from the hydrolysis of ATP into AMP.<br>Pyrophosphoric acid is tetraprotic with pK<sub>a</sub> values of <strong>0.91</strong>, <strong>2.10</strong>, <strong>6.70</strong>, and <strong>9.32</strong>.<br>Pyrophosphoric acid has five possible protonation states in the choices below.<br>Which one of the following protonation states is the most abundant at <strong>pH 5.0</strong>?</p></div>
+<form>
+<ul id="choices_db84_ba65">
+<li>
+    <input type="radio" id="option0" name="answer_db84_ba65" data-correct="false"><label for="option0">A.  <span style="color: #8B0000">P<sub>2</sub>O<sub>7</sub><sup>4-</sup></span>  </label>
+  </li>
+  <li>
+    <input type="radio" id="option1" name="answer_db84_ba65" data-correct="false"><label for="option1">B.  <span style="color: #602020">HP<sub>2</sub>O<sub>7</sub><sup>3-</sup></span>  </label>
+  </li>
+  <li>
+    <input type="radio" id="option2" name="answer_db84_ba65" data-correct="true"><label for="option2">C.  <span style="color: #404040">H<sub>2</sub>P<sub>2</sub>O<sub>7</sub><sup>2-</sup></span>  </label>
+  </li>
+  <li>
+    <input type="radio" id="option3" name="answer_db84_ba65" data-correct="false"><label for="option3">D.  <span style="color: #202060">H<sub>3</sub>P<sub>2</sub>O<sub>7</sub><sup>-</sup></span>  </label>
+  </li>
+  <li>
+    <input type="radio" id="option4" name="answer_db84_ba65" data-correct="false"><label for="option4">E.  <span style="color: #00008B">H<sub>4</sub>P<sub>2</sub>O<sub>7</sub></span>  </label>
+  </li>
+</ul>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_db84_ba65()">Check Answer</button>
+<div id="result_db84_ba65" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+</form>
+<br>
+</div><script>
+function checkAnswer_db84_ba65() {
+ const options = document.getElementsByName('answer_db84_ba65');
+ const correctOption = Array.from(options).reduce(function(acc, option) {
+   return acc || (option.dataset.correct === 'true' ? option : null);
+ }, null);
+ const selectedOption = Array.from(options).reduce(function(acc, option) {
+   return acc || (option.checked ? option : null);
+ }, null);
+ const resultDiv = document.getElementById('result_db84_ba65');
+ if (selectedOption) {
+  if (selectedOption === correctOption) {
+   resultDiv.style.color = 'green';
+   resultDiv.textContent = 'CORRECT';
+  } else {
+   resultDiv.style.color = 'red';
+   resultDiv.textContent = 'incorrect';
+  }
+ } else {
+  resultDiv.style.color = 'black';
+  resultDiv.textContent = 'Please select an answer.';
+ }
+}
+</script>

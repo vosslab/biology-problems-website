@@ -1,0 +1,49 @@
+<div id="question_html_30a4_ad71">
+<div id="statement_text_30a4_ad71">
+<p>aaf6</p> Which one of the following molecular entities <strong><span style="color: OrangeRed;">CANNOT</span></strong> be classified as an enzymatic cofactor?</div>
+<form>
+<ul id="choices_30a4_ad71">
+<li>
+    <input type="radio" id="option0" name="answer_30a4_ad71" data-correct="false"><label for="option0">A.<strong> </strong>pyridoxal phosphate (PLP), a derivative of Vitamin B<sub>6</sub>  </label>
+  </li>
+  <li>
+    <input type="radio" id="option1" name="answer_30a4_ad71" data-correct="true"><label for="option1">B.<strong> </strong>the oxygen transport protein, hemoglobin  </label>
+  </li>
+  <li>
+    <input type="radio" id="option2" name="answer_30a4_ad71" data-correct="false"><label for="option2">C.<strong> </strong><strong><span style="color: DarkGreen;">vitamin</span></strong> B<sub>7</sub>, biotin  </label>
+  </li>
+  <li>
+    <input type="radio" id="option3" name="answer_30a4_ad71" data-correct="false"><label for="option3">D.<strong> </strong>copper <strong><span style="color: #663300;">ion</span></strong>, Cu<sup>2+</sup>  </label>
+  </li>
+  <li>
+    <input type="radio" id="option4" name="answer_30a4_ad71" data-correct="false"><label for="option4">E.<strong> </strong>estradiol (E2), one of the estrogen <strong><span style="color: #6600cc;">steroid</span></strong> hormones responsible for female sex characteristics  </label>
+  </li>
+</ul>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_30a4_ad71()">Check Answer</button>
+<div id="result_30a4_ad71" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+</form>
+<br>
+</div><script>
+function checkAnswer_30a4_ad71() {
+ const options = document.getElementsByName('answer_30a4_ad71');
+ const correctOption = Array.from(options).reduce(function(acc, option) {
+   return acc || (option.dataset.correct === 'true' ? option : null);
+ }, null);
+ const selectedOption = Array.from(options).reduce(function(acc, option) {
+   return acc || (option.checked ? option : null);
+ }, null);
+ const resultDiv = document.getElementById('result_30a4_ad71');
+ if (selectedOption) {
+  if (selectedOption === correctOption) {
+   resultDiv.style.color = 'green';
+   resultDiv.textContent = 'CORRECT';
+  } else {
+   resultDiv.style.color = 'red';
+   resultDiv.textContent = 'incorrect';
+  }
+ } else {
+  resultDiv.style.color = 'black';
+  resultDiv.textContent = 'Please select an answer.';
+ }
+}
+</script>

@@ -1,0 +1,64 @@
+<div id="question_html_e083_a289">
+<div id="statement_text_e083_a289">
+<p>b53b</p> <h6>Isoelectric Point Problem</h6> <p>A mixture of two proteins are to be separated by isoelectric focusing.</p> <table cellpadding="2" cellspacing="2" style="text-align:center; border: 1px solid black;">
+<tr>
+<th>Protein<br>Name</th>
+<th>Isoelectric<br>Point (pI)</th>
+<th>Molecular<br>Weight</th>
+</tr>
+<tr>
+<td>Xylosidase (Xyl)</td>
+<td align="right">5.0</td>
+<td align="right">100.0</td>
+</tr>
+<tr>
+<td>Aprotinin (Apr)</td>
+<td align="right">9.2</td>
+<td align="right">6.5</td>
+</tr>
+</table>
+<p>Both protein samples are placed into a gel with a constant pH of 4.0. The gel is then placed into an electric field.<br>In which direction will each protein in the table migrate at <b>pH 4.0</b>?</p>
+</div>
+<form>
+<ul id="choices_e083_a289">
+<li>
+    <input type="radio" id="option0" name="answer_e083_a289" data-correct="false"><label for="option0">A.  Both Xyl and Apr will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal  </label>
+  </li>
+  <li>
+    <input type="radio" id="option1" name="answer_e083_a289" data-correct="true"><label for="option1">B.  Both Xyl and Apr will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal  </label>
+  </li>
+  <li>
+    <input type="radio" id="option2" name="answer_e083_a289" data-correct="false"><label for="option2">C.  Xyl will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal<br> Apr will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal  </label>
+  </li>
+  <li>
+    <input type="radio" id="option3" name="answer_e083_a289" data-correct="false"><label for="option3">D.  Xyl will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal<br> Apr will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal  </label>
+  </li>
+</ul>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_e083_a289()">Check Answer</button>
+<div id="result_e083_a289" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+</form>
+<br>
+</div><script>
+function checkAnswer_e083_a289() {
+ const options = document.getElementsByName('answer_e083_a289');
+ const correctOption = Array.from(options).reduce(function(acc, option) {
+   return acc || (option.dataset.correct === 'true' ? option : null);
+ }, null);
+ const selectedOption = Array.from(options).reduce(function(acc, option) {
+   return acc || (option.checked ? option : null);
+ }, null);
+ const resultDiv = document.getElementById('result_e083_a289');
+ if (selectedOption) {
+  if (selectedOption === correctOption) {
+   resultDiv.style.color = 'green';
+   resultDiv.textContent = 'CORRECT';
+  } else {
+   resultDiv.style.color = 'red';
+   resultDiv.textContent = 'incorrect';
+  }
+ } else {
+  resultDiv.style.color = 'black';
+  resultDiv.textContent = 'Please select an answer.';
+ }
+}
+</script>
