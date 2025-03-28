@@ -2,33 +2,6 @@
 
 Isolation and analysis methods, chromatography, electrophoresis.
 
-## Types and Descriptions of Column Chromatography
-
-<div id="MATCH-chromatography-button-container" class="button-container">
-<button class="md-button custom-button bb_text" onclick="downloadFile('bbq-MATCH-chromatography-questions.txt')" title="Download bbq-MATCH-chromatography-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-MATCH-chromatography-questions.txt)">
-    <i class="fa fa-download"></i> Blackboard TXT
-</button>
-<button class="md-button custom-button canvas_qti" onclick="downloadFile('canvas_qti_v1_2-MATCH-chromatography.zip')" title="Download canvas_qti_v1_2-MATCH-chromatography.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-chromatography.zip)">
-    <i class="fa fa-download"></i> Canvas/ADAPT QTI v1.2
-</button>
-<button class="md-button custom-button human_read" onclick="window.open('human_readable-MATCH-chromatography.txt', '_blank')" title="View human_readable-MATCH-chromatography.txt" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-chromatography.txt)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-</div><details>
-  <summary>Click 
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Types and Descriptions of Column Chromatography
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  {% include "biochemistry/topic05/selftest-MATCH-chromatography.html" %}
-
-</details>
 ## Cell Disruption Techniques Identification
 
 <div id="MC-cell_disruption-button-container" class="button-container">
@@ -131,6 +104,9 @@ Isolation and analysis methods, chromatography, electrophoresis.
 <button class="md-button custom-button canvas_qti" onclick="downloadFile('canvas_qti_v1_2-isoelectric_one_protein.zip')" title="Download canvas_qti_v1_2-isoelectric_one_protein.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-isoelectric_one_protein.zip)">
     <i class="fa fa-download"></i> Canvas/ADAPT QTI v1.2
 </button>
+<button class="md-button custom-button human_read" onclick="window.open('human_readable-isoelectric_one_protein.txt', '_blank')" title="View human_readable-isoelectric_one_protein.txt" aria-label="Click to view the Human-Readable TXT file (human_readable-isoelectric_one_protein.txt)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
 </div><details>
   <summary>Click 
     <span style='font-weight: normal;'>
@@ -158,6 +134,9 @@ Isolation and analysis methods, chromatography, electrophoresis.
 <button class="md-button custom-button canvas_qti" onclick="downloadFile('canvas_qti_v1_2-isoelectric_two_proteins.zip')" title="Download canvas_qti_v1_2-isoelectric_two_proteins.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-isoelectric_two_proteins.zip)">
     <i class="fa fa-download"></i> Canvas/ADAPT QTI v1.2
 </button>
+<button class="md-button custom-button human_read" onclick="window.open('human_readable-isoelectric_two_proteins.txt', '_blank')" title="View human_readable-isoelectric_two_proteins.txt" aria-label="Click to view the Human-Readable TXT file (human_readable-isoelectric_two_proteins.txt)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
 </div><details>
   <summary>Click 
     <span style='font-weight: normal;'>
@@ -184,6 +163,9 @@ Isolation and analysis methods, chromatography, electrophoresis.
 </button>
 <button class="md-button custom-button canvas_qti" onclick="downloadFile('canvas_qti_v1_2-protein_gel_migration.zip')" title="Download canvas_qti_v1_2-protein_gel_migration.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-protein_gel_migration.zip)">
     <i class="fa fa-download"></i> Canvas/ADAPT QTI v1.2
+</button>
+<button class="md-button custom-button human_read" onclick="window.open('human_readable-protein_gel_migration.txt', '_blank')" title="View human_readable-protein_gel_migration.txt" aria-label="Click to view the Human-Readable TXT file (human_readable-protein_gel_migration.txt)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
   <summary>Click 
