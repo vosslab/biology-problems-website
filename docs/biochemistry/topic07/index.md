@@ -29,7 +29,7 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic07/selftest-BCHM355-metabolic_pathway_inhibitor.html" %}
+  {% include "biochemistry/topic07/downloads/selftest-BCHM355-metabolic_pathway_inhibitor.html" %}
 
 </details>
 ## Enzyme Catalysis Terminology
@@ -59,7 +59,7 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic07/selftest-MC-enzyme_terminology.html" %}
+  {% include "biochemistry/topic07/downloads/selftest-MC-enzyme_terminology.html" %}
 
 </details>
 ## True/False Statements on Enzyme Kinetics
@@ -89,7 +89,7 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic07/selftest-TF-enzyme_equilibrium.html" %}
+  {% include "biochemistry/topic07/downloads/selftest-TF-enzyme_equilibrium.html" %}
 
 </details>
 ## True/False Statements on Michaelis-Menten Kinetics
@@ -119,7 +119,7 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic07/selftest-TF-m-m_kinetics.html" %}
+  {% include "biochemistry/topic07/downloads/selftest-TF-m-m_kinetics.html" %}
 
 </details>
 ## Which Molecule Cannot be an Enzyme Cofactors
@@ -149,7 +149,7 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic07/selftest-enzyme_cofactors.html" %}
+  {% include "biochemistry/topic07/downloads/selftest-enzyme_cofactors.html" %}
 
 </details>
 ## Michaelis-Menten Constant (K<sub>M</sub>) from Enzyme Activity Data
@@ -179,7 +179,7 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic07/selftest-michaelis_menten_table-Km.html" %}
+  {% include "biochemistry/topic07/downloads/selftest-michaelis_menten_table-Km.html" %}
 
 </details>
 ## Inhibition Type Determination from Enzyme Activity Data
@@ -209,7 +209,7 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic07/selftest-michaelis_menten_table-inhibition.html" %}
+  {% include "biochemistry/topic07/downloads/selftest-michaelis_menten_table-inhibition.html" %}
 
 </details>
 ## Which Molecule Could be an Enzyme
@@ -239,6 +239,6 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic07/selftest-which_enzyme.html" %}
+  {% include "biochemistry/topic07/downloads/selftest-which_enzyme.html" %}
 
 </details>

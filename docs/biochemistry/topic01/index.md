@@ -29,7 +29,7 @@ Molecular design of life, major elements, and biomacromolecules.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic01/selftest-MC-macromolecules.html" %}
+  {% include "biochemistry/topic01/downloads/selftest-MC-macromolecules.html" %}
 
 </details>
 ## Hydrophobic Compounds from Molecular Formulas
@@ -59,7 +59,7 @@ Molecular design of life, major elements, and biomacromolecules.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic01/selftest-which_hydrophobic-simple.html" %}
+  {% include "biochemistry/topic01/downloads/selftest-which_hydrophobic-simple.html" %}
 
 </details>
 ## Macromolecule Types Based on Chemical Structures
@@ -89,6 +89,6 @@ Molecular design of life, major elements, and biomacromolecules.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic01/selftest-which_macromolecule.html" %}
+  {% include "biochemistry/topic01/downloads/selftest-which_macromolecule.html" %}
 
 </details>

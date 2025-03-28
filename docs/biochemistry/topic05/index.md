@@ -29,7 +29,7 @@ Isolation and analysis methods, chromatography, electrophoresis.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic05/selftest-MC-cell_disruption.html" %}
+  {% include "biochemistry/topic05/downloads/selftest-MC-cell_disruption.html" %}
 
 </details>
 ## Types of Column Chromatography
@@ -59,7 +59,7 @@ Isolation and analysis methods, chromatography, electrophoresis.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic05/selftest-MC-chromatography.html" %}
+  {% include "biochemistry/topic05/downloads/selftest-MC-chromatography.html" %}
 
 </details>
 ## Identification of Macromolecules in Gel Electrophoresis Processes
@@ -89,7 +89,7 @@ Isolation and analysis methods, chromatography, electrophoresis.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic05/selftest-MC-protein_v_dna_gels.html" %}
+  {% include "biochemistry/topic05/downloads/selftest-MC-protein_v_dna_gels.html" %}
 
 </details>
 ## Determining Net Charge of Proteins at Given pH
@@ -119,7 +119,7 @@ Isolation and analysis methods, chromatography, electrophoresis.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic05/selftest-isoelectric_one_protein.html" %}
+  {% include "biochemistry/topic05/downloads/selftest-isoelectric_one_protein.html" %}
 
 </details>
 ## Protein Migration Direction Based on Isoelectric Point
@@ -149,7 +149,7 @@ Isolation and analysis methods, chromatography, electrophoresis.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic05/selftest-isoelectric_two_proteins.html" %}
+  {% include "biochemistry/topic05/downloads/selftest-isoelectric_two_proteins.html" %}
 
 </details>
 ## Estimating Protein Molecular Weight from SDS-PAGE Migration
@@ -179,6 +179,6 @@ Isolation and analysis methods, chromatography, electrophoresis.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic05/selftest-protein_gel_migration.html" %}
+  {% include "biochemistry/topic05/downloads/selftest-protein_gel_migration.html" %}
 
 </details>

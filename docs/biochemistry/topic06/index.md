@@ -29,7 +29,7 @@ Enzyme functions, substrate binding, and energy changes in reactions.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic06/selftest-MC-energy_terms.html" %}
+  {% include "biochemistry/topic06/downloads/selftest-MC-energy_terms.html" %}
 
 </details>
 ## True/False Statements on Chemical Reactions
@@ -59,7 +59,7 @@ Enzyme functions, substrate binding, and energy changes in reactions.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic06/selftest-TF-chemical_reactions.html" %}
+  {% include "biochemistry/topic06/downloads/selftest-TF-chemical_reactions.html" %}
 
 </details>
 ## True/False Statements on Gibbs Free Energy (&Delta;G = &Delta;H - T &Delta;S)
@@ -89,7 +89,7 @@ Enzyme functions, substrate binding, and energy changes in reactions.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic06/selftest-TF-gibbs_free_energy_equation.html" %}
+  {% include "biochemistry/topic06/downloads/selftest-TF-gibbs_free_energy_equation.html" %}
 
 </details>
 ## True/False Statements on Thermodynamics vs. Kinetics
@@ -119,6 +119,6 @@ Enzyme functions, substrate binding, and energy changes in reactions.
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic06/selftest-TF-thermodynamics.html" %}
+  {% include "biochemistry/topic06/downloads/selftest-TF-thermodynamics.html" %}
 
 </details>
