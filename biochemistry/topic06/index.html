@@ -1104,16 +1104,16 @@
 <p>Enzyme functions, substrate binding, and energy changes in reactions.</p>
 <h2 id="energy-terms-and-their-categories">Energy Terms and Their Categories</h2>
 <div id="MC-energy_terms-button-container" class="button-container">
-<button class="md-button custom-button bb_text" onclick="downloadFile('bbq-MC-energy_terms-questions.txt')" title="Download bbq-MC-energy_terms-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-MC-energy_terms-questions.txt)">
-    <i class="fa fa-download"></i> Blackboard TXT
-</button>
-<button class="md-button custom-button bb_qti" onclick="downloadFile('blackboard_qti_v2_1-MC-energy_terms.zip')" title="Download blackboard_qti_v2_1-MC-energy_terms.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-MC-energy_terms.zip)">
-    <i class="fa fa-download"></i> Blackboard QTI v2.1
-</button>
-<button class="md-button custom-button canvas_qti" onclick="downloadFile('canvas_qti_v1_2-MC-energy_terms.zip')" title="Download canvas_qti_v1_2-MC-energy_terms.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MC-energy_terms.zip)">
-    <i class="fa fa-download"></i> Canvas/ADAPT QTI v1.2
-</button>
-<button class="md-button custom-button human_read" onclick="window.open('human_readable-MC-energy_terms.txt', '_blank')" title="View human_readable-MC-energy_terms.txt" aria-label="Click to view the Human-Readable TXT file (human_readable-MC-energy_terms.txt)">
+<a class="md-button custom-button bb_text" href="bbq-MC-energy_terms-questions.txt" download title="Download bbq-MC-energy_terms-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-MC-energy_terms-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MC-energy_terms.zip" download title="Download blackboard_qti_v2_1-MC-energy_terms.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-MC-energy_terms.zip)">
+    <i class="fa fa-download"></i>Blackboard QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MC-energy_terms.zip" download title="Download canvas_qti_v1_2-MC-energy_terms.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MC-energy_terms.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MC-energy_terms.html', '_blank')" title="View human_readable-MC-energy_terms.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MC-energy_terms.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div>
@@ -1129,31 +1129,31 @@
       example problem
     </span>
   </summary>
-  <div id="question_html_245c_f6f7">
-  <div id="statement_text_245c_f6f7"><p>Which one of the following energy requirement categories correspond to the energy term <span style="font-size: 1em;"><strong>'ΔG &gt; 0'</strong></span>.</p></div>
+  <div id="question_html_a9e3_f6f7">
+  <div id="statement_text_a9e3_f6f7"><p>Which one of the following energy requirement categories correspond to the energy term <span style="font-size: 1em;"><strong>'polymer breakdown'</strong></span>.</p></div>
   <form>
-  <ul id="choices_245c_f6f7">
+  <ul id="choices_a9e3_f6f7">
   <li>
-      <input type="radio" id="option0" name="answer_245c_f6f7" data-correct="false"><label for="option0"><span style="font-family: sans-serif; letter-spacing: 1px;"><strong><span style="color: #e60000;">releases energy</span></strong></span>  </label>
+      <input type="radio" id="option0" name="answer_a9e3_f6f7" data-correct="true"><label for="option0"><span style="font-family: sans-serif; letter-spacing: 1px;"><strong><span style="color: #e60000;">releases energy</span></strong></span>  </label>
     </li>
     <li>
-      <input type="radio" id="option1" name="answer_245c_f6f7" data-correct="true"><label for="option1"><span style="font-family: sans-serif; letter-spacing: 1px;"><strong><span style="color: #0a9bf5;">requires energy input</span></strong></span>  </label>
+      <input type="radio" id="option1" name="answer_a9e3_f6f7" data-correct="false"><label for="option1"><span style="font-family: sans-serif; letter-spacing: 1px;"><strong><span style="color: #0a9bf5;">requires energy input</span></strong></span>  </label>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_245c_f6f7()">Check Answer</button>
-  <div id="result_245c_f6f7" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_a9e3_f6f7()">Check Answer</button>
+  <div id="result_a9e3_f6f7" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
   </form>
   <br>
   </div><script>
-  function checkAnswer_245c_f6f7() {
-   const options = document.getElementsByName('answer_245c_f6f7');
+  function checkAnswer_a9e3_f6f7() {
+   const options = document.getElementsByName('answer_a9e3_f6f7');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_245c_f6f7');
+   const resultDiv = document.getElementById('result_a9e3_f6f7');
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.style.color = 'green';
@@ -1171,18 +1171,19 @@
 
 
 </details>
+
 <h2 id="truefalse-statements-on-chemical-reactions">True/False Statements on Chemical Reactions</h2>
 <div id="TF-chemical_reactions-button-container" class="button-container">
-<button class="md-button custom-button bb_text" onclick="downloadFile('bbq-TF-chemical_reactions-questions.txt')" title="Download bbq-TF-chemical_reactions-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-TF-chemical_reactions-questions.txt)">
-    <i class="fa fa-download"></i> Blackboard TXT
-</button>
-<button class="md-button custom-button bb_qti" onclick="downloadFile('blackboard_qti_v2_1-TF-chemical_reactions.zip')" title="Download blackboard_qti_v2_1-TF-chemical_reactions.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-TF-chemical_reactions.zip)">
-    <i class="fa fa-download"></i> Blackboard QTI v2.1
-</button>
-<button class="md-button custom-button canvas_qti" onclick="downloadFile('canvas_qti_v1_2-TF-chemical_reactions.zip')" title="Download canvas_qti_v1_2-TF-chemical_reactions.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TF-chemical_reactions.zip)">
-    <i class="fa fa-download"></i> Canvas/ADAPT QTI v1.2
-</button>
-<button class="md-button custom-button human_read" onclick="window.open('human_readable-TF-chemical_reactions.txt', '_blank')" title="View human_readable-TF-chemical_reactions.txt" aria-label="Click to view the Human-Readable TXT file (human_readable-TF-chemical_reactions.txt)">
+<a class="md-button custom-button bb_text" href="bbq-TF-chemical_reactions-questions.txt" download title="Download bbq-TF-chemical_reactions-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-TF-chemical_reactions-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-TF-chemical_reactions.zip" download title="Download blackboard_qti_v2_1-TF-chemical_reactions.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-TF-chemical_reactions.zip)">
+    <i class="fa fa-download"></i>Blackboard QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TF-chemical_reactions.zip" download title="Download canvas_qti_v1_2-TF-chemical_reactions.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TF-chemical_reactions.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TF-chemical_reactions.html', '_blank')" title="View human_readable-TF-chemical_reactions.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TF-chemical_reactions.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div>
@@ -1198,40 +1199,40 @@
       example problem
     </span>
   </summary>
-  <div id="question_html_e6e1_771d">
-  <div id="statement_text_e6e1_771d"><p>Which one of the following statements is<strong> <span style="color: #169179;"><strong>TRUE</strong></span> </strong> of <strong><span style="color: #a1005e;">chemical reactions</span></strong>?</p></div>
+  <div id="question_html_e6e1_1acb">
+  <div id="statement_text_e6e1_1acb"><p>Which one of the following statements is<strong> <span style="color: #169179;"><strong>TRUE</strong></span> </strong> of <strong><span style="color: #a1005e;">chemical reactions</span></strong>?</p></div>
   <form>
-  <ul id="choices_e6e1_771d">
+  <ul id="choices_e6e1_1acb">
   <li>
-      <input type="radio" id="option0" name="answer_e6e1_771d" data-correct="false"><label for="option0"><strong> </strong><strong><span style="color: #a1005e;">Chemical reactions</span></strong> are always <strong><span style="color: #0d57a5;">endothermic</span></strong>.  </label>
+      <input type="radio" id="option0" name="answer_e6e1_1acb" data-correct="false"><label for="option0"><strong> </strong><strong><span style="color: #a1005e;">Chemical reactions</span></strong> only occur at a specific temperature.  </label>
     </li>
     <li>
-      <input type="radio" id="option1" name="answer_e6e1_771d" data-correct="false"><label for="option1"><strong> </strong><strong><span style="color: #a1005e;">Chemical reactions</span></strong> always result in a increase in the total <strong><span style="color: #009e4c;">energy</span></strong> of the system.  </label>
+      <input type="radio" id="option1" name="answer_e6e1_1acb" data-correct="false"><label for="option1"><strong> </strong><strong><span style="color: #a1005e;">Chemical reactions</span></strong> always result in a increase in the number of atoms.  </label>
     </li>
     <li>
-      <input type="radio" id="option2" name="answer_e6e1_771d" data-correct="false"><label for="option2"><strong> </strong><strong><span style="color: #a1005e;">Chemical reactions</span></strong> always result in a increase in entropy.  </label>
+      <input type="radio" id="option2" name="answer_e6e1_1acb" data-correct="true"><label for="option2"><strong> </strong><strong><span style="color: #a1005e;">Chemical reactions</span></strong> always transform one or more <strong><span style="color: #6d108e;"><strong><span style="color: #6d108e;">substances</span></strong></span></strong> into one or more different <strong><span style="color: #6d108e;"><strong><span style="color: #6d108e;">substances</span></strong></span></strong>.  </label>
     </li>
     <li>
-      <input type="radio" id="option3" name="answer_e6e1_771d" data-correct="false"><label for="option3"><strong> </strong><strong><span style="color: #a1005e;">Chemical reactions</span></strong> only occur when <strong><span style="color: #009e4c;">energy</span></strong> is released.  </label>
+      <input type="radio" id="option3" name="answer_e6e1_1acb" data-correct="false"><label for="option3"><strong> </strong><strong><span style="color: #a1005e;">Chemical reactions</span></strong> always involve <strong><span style="color: #2fbd0f;">physical changes</span></strong>.  </label>
     </li>
     <li>
-      <input type="radio" id="option4" name="answer_e6e1_771d" data-correct="true"><label for="option4"><strong> </strong>For <strong><span style="color: #a1005e;">chemical reactions</span></strong> to occur, the chemical identity of the <strong><span style="color: #6d108e;"><strong><span style="color: #6d108e;">substances</span></strong></span></strong> must change.  </label>
+      <input type="radio" id="option4" name="answer_e6e1_1acb" data-correct="false"><label for="option4"><strong> </strong><strong><span style="color: #a1005e;">Chemical reactions</span></strong> always result in a decrease in entropy.  </label>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_e6e1_771d()">Check Answer</button>
-  <div id="result_e6e1_771d" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_e6e1_1acb()">Check Answer</button>
+  <div id="result_e6e1_1acb" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
   </form>
   <br>
   </div><script>
-  function checkAnswer_e6e1_771d() {
-   const options = document.getElementsByName('answer_e6e1_771d');
+  function checkAnswer_e6e1_1acb() {
+   const options = document.getElementsByName('answer_e6e1_1acb');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_e6e1_771d');
+   const resultDiv = document.getElementById('result_e6e1_1acb');
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.style.color = 'green';
@@ -1249,18 +1250,19 @@
 
 
 </details>
+
 <h2 id="truefalse-statements-on-gibbs-free-energy-g-h-t-s">True/False Statements on Gibbs Free Energy (&Delta;G = &Delta;H - T &Delta;S)</h2>
 <div id="TF-gibbs_free_energy_equation-button-container" class="button-container">
-<button class="md-button custom-button bb_text" onclick="downloadFile('bbq-TF-gibbs_free_energy_equation-questions.txt')" title="Download bbq-TF-gibbs_free_energy_equation-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-TF-gibbs_free_energy_equation-questions.txt)">
-    <i class="fa fa-download"></i> Blackboard TXT
-</button>
-<button class="md-button custom-button bb_qti" onclick="downloadFile('blackboard_qti_v2_1-TF-gibbs_free_energy_equation.zip')" title="Download blackboard_qti_v2_1-TF-gibbs_free_energy_equation.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-TF-gibbs_free_energy_equation.zip)">
-    <i class="fa fa-download"></i> Blackboard QTI v2.1
-</button>
-<button class="md-button custom-button canvas_qti" onclick="downloadFile('canvas_qti_v1_2-TF-gibbs_free_energy_equation.zip')" title="Download canvas_qti_v1_2-TF-gibbs_free_energy_equation.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TF-gibbs_free_energy_equation.zip)">
-    <i class="fa fa-download"></i> Canvas/ADAPT QTI v1.2
-</button>
-<button class="md-button custom-button human_read" onclick="window.open('human_readable-TF-gibbs_free_energy_equation.txt', '_blank')" title="View human_readable-TF-gibbs_free_energy_equation.txt" aria-label="Click to view the Human-Readable TXT file (human_readable-TF-gibbs_free_energy_equation.txt)">
+<a class="md-button custom-button bb_text" href="bbq-TF-gibbs_free_energy_equation-questions.txt" download title="Download bbq-TF-gibbs_free_energy_equation-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-TF-gibbs_free_energy_equation-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-TF-gibbs_free_energy_equation.zip" download title="Download blackboard_qti_v2_1-TF-gibbs_free_energy_equation.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-TF-gibbs_free_energy_equation.zip)">
+    <i class="fa fa-download"></i>Blackboard QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TF-gibbs_free_energy_equation.zip" download title="Download canvas_qti_v1_2-TF-gibbs_free_energy_equation.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TF-gibbs_free_energy_equation.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TF-gibbs_free_energy_equation.html', '_blank')" title="View human_readable-TF-gibbs_free_energy_equation.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TF-gibbs_free_energy_equation.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div>
@@ -1276,40 +1278,40 @@
       example problem
     </span>
   </summary>
-  <div id="question_html_7c0f_e7a1">
-  <div id="statement_text_7c0f_e7a1"><p>Which one of the following statements is<strong> <span style="color: #ba372a;"><strong>FALSE</strong></span> </strong> about the Gibbs <strong><span style="color: #7b12a1;"><strong><span style="color: #7b12a1;"><strong><span style="color: #7b12a1;">free energy</span></strong></span></strong></span></strong>, <strong><span style="color: #004d99;"><strong>Δ<i>G</i></strong></span></strong> = <strong><span style="color: #e60000;"><strong>Δ<i>H</i></strong></span></strong> – <strong><span style="color: #e69100;"><strong><i>T</i></strong></span></strong><strong><span style="color: #0a9bf5;"><strong>Δ<i>S</i></strong></span></strong>?</p></div>
+  <div id="question_html_7c0f_871a">
+  <div id="statement_text_7c0f_871a"><p>Which one of the following statements is<strong> <span style="color: #ba372a;"><strong>FALSE</strong></span> </strong> about the Gibbs <strong><span style="color: #7b12a1;"><strong><span style="color: #7b12a1;"><strong><span style="color: #7b12a1;">free energy</span></strong></span></strong></span></strong>, <strong><span style="color: #004d99;"><strong>Δ<i>G</i></strong></span></strong> = <strong><span style="color: #e60000;"><strong>Δ<i>H</i></strong></span></strong> – <strong><span style="color: #e69100;"><strong><i>T</i></strong></span></strong><strong><span style="color: #0a9bf5;"><strong>Δ<i>S</i></strong></span></strong>?</p></div>
   <form>
-  <ul id="choices_7c0f_e7a1">
+  <ul id="choices_7c0f_871a">
   <li>
-      <input type="radio" id="option0" name="answer_7c0f_e7a1" data-correct="false"><label for="option0"><strong> </strong><strong><span style="color: #e65400;">enthalpy</span></strong> is associated with the heat content of a system  </label>
+      <input type="radio" id="option0" name="answer_7c0f_871a" data-correct="true"><label for="option0"><strong> </strong><strong><span style="color: #0a9bf5;"><strong>Δ<i>S</i></strong></span></strong> is the change in <strong><span style="color: #e65400;"><strong><span style="color: #e65400;">enthalpy</span></strong></span></strong>  </label>
     </li>
     <li>
-      <input type="radio" id="option1" name="answer_7c0f_e7a1" data-correct="false"><label for="option1"><strong> </strong>When <strong><span style="color: #004d99;"><strong>Δ<i>G</i></strong></span></strong> = 0 the reaction has reached equilibrium  </label>
+      <input type="radio" id="option1" name="answer_7c0f_871a" data-correct="false"><label for="option1"><strong> </strong>When <strong><span style="color: #004d99;"><strong>Δ<i>G</i></strong></span></strong> = 0 the reaction has reached equilibrium  </label>
     </li>
     <li>
-      <input type="radio" id="option2" name="answer_7c0f_e7a1" data-correct="false"><label for="option2"><strong> </strong><strong><span style="color: #e69100;"><strong><i>T</i></strong></span></strong>is the <strong><span style="color: #b3b300;">temperature</span></strong> in <strong><span style="color: #cc0066;">degrees Kelvin</span></strong>  </label>
+      <input type="radio" id="option2" name="answer_7c0f_871a" data-correct="false"><label for="option2"><strong> </strong>When <strong><span style="color: #004d99;"><strong>Δ<i>G</i></strong></span></strong> &lt; 0 the reaction is called<strong><span style="color: #009900;"><i>spontaneous</i></span></strong>  </label>
     </li>
     <li>
-      <input type="radio" id="option3" name="answer_7c0f_e7a1" data-correct="false"><label for="option3"><strong> </strong><strong><span style="color: #0a9bf5;"><strong>Δ<i>S</i></strong></span></strong> is the change in <strong><span style="color: #00b3b3;">entropy</span></strong>  </label>
+      <input type="radio" id="option3" name="answer_7c0f_871a" data-correct="false"><label for="option3"><strong> </strong>the Gibbs <strong><span style="color: #7b12a1;">free energy</span></strong> can be described as the energy available to do work  </label>
     </li>
     <li>
-      <input type="radio" id="option4" name="answer_7c0f_e7a1" data-correct="true"><label for="option4"><strong> </strong>When <strong><span style="color: #e60000;"><strong>Δ<i>H</i></strong></span></strong> &lt; 0 the reaction is called <strong><span style="color: #b30077;"><i><strong><span style="color: #b30077;"><i>non-spontaneous</i></span></strong></i></span></strong>  </label>
+      <input type="radio" id="option4" name="answer_7c0f_871a" data-correct="false"><label for="option4"><strong> </strong><strong><span style="color: #e69100;"><strong><i>T</i></strong></span></strong>is the <strong><span style="color: #b3b300;">temperature</span></strong> in <strong><span style="color: #cc0066;">degrees Kelvin</span></strong>  </label>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_7c0f_e7a1()">Check Answer</button>
-  <div id="result_7c0f_e7a1" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_7c0f_871a()">Check Answer</button>
+  <div id="result_7c0f_871a" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
   </form>
   <br>
   </div><script>
-  function checkAnswer_7c0f_e7a1() {
-   const options = document.getElementsByName('answer_7c0f_e7a1');
+  function checkAnswer_7c0f_871a() {
+   const options = document.getElementsByName('answer_7c0f_871a');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_7c0f_e7a1');
+   const resultDiv = document.getElementById('result_7c0f_871a');
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.style.color = 'green';
@@ -1327,18 +1329,19 @@
 
 
 </details>
+
 <h2 id="truefalse-statements-on-thermodynamics-vs-kinetics">True/False Statements on Thermodynamics vs. Kinetics</h2>
 <div id="TF-thermodynamics-button-container" class="button-container">
-<button class="md-button custom-button bb_text" onclick="downloadFile('bbq-TF-thermodynamics-questions.txt')" title="Download bbq-TF-thermodynamics-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-TF-thermodynamics-questions.txt)">
-    <i class="fa fa-download"></i> Blackboard TXT
-</button>
-<button class="md-button custom-button bb_qti" onclick="downloadFile('blackboard_qti_v2_1-TF-thermodynamics.zip')" title="Download blackboard_qti_v2_1-TF-thermodynamics.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-TF-thermodynamics.zip)">
-    <i class="fa fa-download"></i> Blackboard QTI v2.1
-</button>
-<button class="md-button custom-button canvas_qti" onclick="downloadFile('canvas_qti_v1_2-TF-thermodynamics.zip')" title="Download canvas_qti_v1_2-TF-thermodynamics.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TF-thermodynamics.zip)">
-    <i class="fa fa-download"></i> Canvas/ADAPT QTI v1.2
-</button>
-<button class="md-button custom-button human_read" onclick="window.open('human_readable-TF-thermodynamics.txt', '_blank')" title="View human_readable-TF-thermodynamics.txt" aria-label="Click to view the Human-Readable TXT file (human_readable-TF-thermodynamics.txt)">
+<a class="md-button custom-button bb_text" href="bbq-TF-thermodynamics-questions.txt" download title="Download bbq-TF-thermodynamics-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-TF-thermodynamics-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-TF-thermodynamics.zip" download title="Download blackboard_qti_v2_1-TF-thermodynamics.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-TF-thermodynamics.zip)">
+    <i class="fa fa-download"></i>Blackboard QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TF-thermodynamics.zip" download title="Download canvas_qti_v1_2-TF-thermodynamics.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TF-thermodynamics.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TF-thermodynamics.html', '_blank')" title="View human_readable-TF-thermodynamics.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TF-thermodynamics.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div>
@@ -1354,40 +1357,40 @@
       example problem
     </span>
   </summary>
-  <div id="question_html_a05c_0d18">
-  <div id="statement_text_a05c_0d18"><p>Which one of the following statements is<strong> <span style="color: #169179;"><strong>TRUE</strong></span> </strong> of <strong><span style="color: #bb5d00;"><strong><span style="color: #bb5d00;"><strong><span style="color: #bb5d00;">thermodynamics</span></strong></span></strong></span></strong> and <strong><span style="color: #56225d;"><strong><span style="color: #56225d;"><strong><span style="color: #56225d;">kinetics</span></strong></span></strong></span></strong>?</p></div>
+  <div id="question_html_6e32_7074">
+  <div id="statement_text_6e32_7074"><p>Which one of the following statements is<strong> <span style="color: #169179;"><strong>TRUE</strong></span> </strong> of <strong><span style="color: #bb5d00;"><strong><span style="color: #bb5d00;"><strong><span style="color: #bb5d00;"><strong><span style="color: #bb5d00;">thermodynamics</span></strong></span></strong></span></strong></span></strong> and <strong><span style="color: #56225d;"><strong><span style="color: #56225d;"><strong><span style="color: #56225d;"><strong><span style="color: #56225d;">kinetics</span></strong></span></strong></span></strong></span></strong>?</p></div>
   <form>
-  <ul id="choices_a05c_0d18">
+  <ul id="choices_6e32_7074">
   <li>
-      <input type="radio" id="option0" name="answer_a05c_0d18" data-correct="false"><label for="option0"><strong> </strong>The second law of <strong><span style="color: #bb5d00;">thermodynamics</span></strong> states that the <strong><span style="color: #b77b04;">entropy</span></strong> of a closed system always decreases.  </label>
+      <input type="radio" id="option0" name="answer_6e32_7074" data-correct="true"><label for="option0"><strong> </strong>Enzymes do<strong> <strong>NOT</strong> </strong>change the standard change in free energy (ΔG°′) of a <strong><span style="color: #008a75;"><strong><span style="color: #008a75;">reaction</span></strong></span></strong>.  </label>
     </li>
     <li>
-      <input type="radio" id="option1" name="answer_a05c_0d18" data-correct="false"><label for="option1"><strong> </strong>Kinetics depends only on the ratio of product and substrates.  </label>
+      <input type="radio" id="option1" name="answer_6e32_7074" data-correct="false"><label for="option1"><strong> </strong>The first law of <strong><span style="color: #bb5d00;">thermodynamics</span></strong> states that the total <strong><span style="color: #b77b04;">entropy</span></strong> of a closed system will always increase.  </label>
     </li>
     <li>
-      <input type="radio" id="option2" name="answer_a05c_0d18" data-correct="false"><label for="option2"><strong> </strong>Kinetics is only determined by the <strong><span style="color: #0078a3;">enthalpy</span></strong> change of a <strong><span style="color: #008a75;">reaction</span></strong>.  </label>
+      <input type="radio" id="option2" name="answer_6e32_7074" data-correct="false"><label for="option2"><strong> </strong>Enzymes are consumed by the <strong><span style="color: #008a75;">reaction</span></strong> they catalyze and must continually be replaced.  </label>
     </li>
     <li>
-      <input type="radio" id="option3" name="answer_a05c_0d18" data-correct="false"><label for="option3"><strong> </strong>Kinetics tells us the <strong><span style="color: #478d1b;">equilibrium</span></strong> point.  </label>
+      <input type="radio" id="option3" name="answer_6e32_7074" data-correct="false"><label for="option3"><strong> </strong>Kinetics depends only on the concentration of reactants.  </label>
     </li>
     <li>
-      <input type="radio" id="option4" name="answer_a05c_0d18" data-correct="true"><label for="option4"><strong> </strong>Enzymes are<strong> <strong>NOT</strong> </strong>consumed by the <strong><span style="color: #008a75;"><strong><span style="color: #008a75;">reaction</span></strong></span></strong> they catalyze.  </label>
+      <input type="radio" id="option4" name="answer_6e32_7074" data-correct="false"><label for="option4"><strong> </strong>Kinetics is only determined by the <strong><span style="color: #0078a3;">enthalpy</span></strong> change of a <strong><span style="color: #008a75;">reaction</span></strong>.  </label>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_a05c_0d18()">Check Answer</button>
-  <div id="result_a05c_0d18" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_6e32_7074()">Check Answer</button>
+  <div id="result_6e32_7074" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
   </form>
   <br>
   </div><script>
-  function checkAnswer_a05c_0d18() {
-   const options = document.getElementsByName('answer_a05c_0d18');
+  function checkAnswer_6e32_7074() {
+   const options = document.getElementsByName('answer_6e32_7074');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_a05c_0d18');
+   const resultDiv = document.getElementById('result_6e32_7074');
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.style.color = 'green';
