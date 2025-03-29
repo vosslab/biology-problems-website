@@ -4,4 +4,5 @@ bbq-MATCH-polysaccharides-questions.txt: Matching Common Polysaccharides to Desc
 bbq-MC-polysaccharides-questions.txt: Characteristics of Common Polysaccharides
 bbq-classify_Fischer-questions.txt: Classify the Fischer Projection of a Monosaccharide
 bbq-classify_Haworth-questions.txt: Classify the Haworth Projection of a Monosaccharide
+bbq-convert_Fischer_and_Haworth-questions.txt: Convert Betweeen Fischer and Haworth Projection
 last edit: Fri Mar 28 18:02:19 2025
