@@ -121,7 +121,7 @@ Carbohydrate structure, glycosidic bonds, biological roles.
 </details>
 
 
-## Classification of Monosaccharides from Fischer Projections
+## Classify the Fischer Projection of a Monosaccharide
 
 <div id="classify_Fischer-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-classify_Fischer-questions.txt" download title="Download bbq-classify_Fischer-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-classify_Fischer-questions.txt)">
@@ -139,7 +139,7 @@ Carbohydrate structure, glycosidic bonds, biological roles.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Classification of Monosaccharides from Fischer Projections
+      Classify the Fischer Projection of a Monosaccharide
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -150,7 +150,7 @@ Carbohydrate structure, glycosidic bonds, biological roles.
 </details>
 
 
-## Classification of Monosaccharides from Haworth Projections
+## Classify the Haworth Projection of a Monosaccharide
 
 <div id="classify_Haworth-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-classify_Haworth-questions.txt" download title="Download bbq-classify_Haworth-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-classify_Haworth-questions.txt)">
@@ -168,13 +168,42 @@ Carbohydrate structure, glycosidic bonds, biological roles.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Classification of Monosaccharides from Haworth Projections
+      Classify the Haworth Projection of a Monosaccharide
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
   {% include "biochemistry/topic09/downloads/selftest-classify_Haworth.html" %}
+
+</details>
+
+
+## Convert Betweeen Fischer and Haworth Projection
+
+<div id="convert_Fischer_and_Haworth-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-convert_Fischer_and_Haworth-questions.txt" download title="Download bbq-convert_Fischer_and_Haworth-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-convert_Fischer_and_Haworth-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-convert_Fischer_and_Haworth.zip" download title="Download blackboard_qti_v2_1-convert_Fischer_and_Haworth.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-convert_Fischer_and_Haworth.zip)">
+    <i class="fa fa-download"></i>Blackboard QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-convert_Fischer_and_Haworth.zip" download title="Download canvas_qti_v1_2-convert_Fischer_and_Haworth.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-convert_Fischer_and_Haworth.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+</div><details>
+  <summary>Click 
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Convert Betweeen Fischer and Haworth Projection
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biochemistry/topic09/downloads/selftest-convert_Fischer_and_Haworth.html" %}
 
 </details>
 
