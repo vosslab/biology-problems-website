@@ -30,27 +30,33 @@
 /* Flexbox layout for button container */
 .button-container {
   display: flex;
-  gap: 5px;
+  gap: 7px;
   flex-wrap: wrap;
-  margin: 3px 0;
+  margin: 5px 0;
 }
 
 /* General button style extension */
-.md-button.custom-button {
+.md-button.custom-button,
+a.md-button.custom-button {
   display: flex;
-  gap: 5px;
-  padding: 5px;
+  gap: 7px;
+  padding: 2px 5px;
   border-radius: 5px;
   font-size: 80%;
+  align-items: center;
+  border-radius: 5px;
+  text-decoration: none;  /* Remove underline from <a> */
 }
 
 /* Hover and active styles */
-.md-button.custom-button:hover {
+.md-button.custom-button:hover,
+a.md-button.custom-button:hover {
   opacity: 0.9;
 }
 
-.md-button.custom-button:active {
-  transform: scale(0.96);
+.md-button.custom-button:active,
+a.md-button.custom-button:active {
+  transform: scale(0.94);
   transition: transform 0.1s ease;
 }
 
