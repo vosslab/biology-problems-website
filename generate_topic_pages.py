@@ -3,9 +3,9 @@
 # Standard Library
 import os
 import re
-import sys
 import glob
 import time
+import random
 import subprocess
 
 # PIP3 modules
@@ -135,6 +135,22 @@ def create_downloadable_format(bbq_file: str, prefix: str, extension: str):
 	return file_path
 
 #==============
+def get_download_js_string():
+	download_js = (
+		'<script>\n'
+		'	function downloadFile(filePath) {\n'
+		'		const link = document.createElement(\'a\');\n'
+		'		link.href = filePath;\n'
+		'		link.download = filePath.split(\'/\').pop()\n'
+		'		document.body.appendChild(link);\n'
+		'		link.click();\n'
+		'		document.body.removeChild(link);\n'
+		'	}\n'
+		'</script>\n\n'
+	)
+	return download_js
+
+#==============
 def generate_download_button_row(bbq_file_name: str) -> str:
 	"""
 	Generates a row of HTML buttons for downloading various file types.
@@ -162,14 +178,14 @@ def generate_download_button_row(bbq_file_name: str) -> str:
 		},
 		"human_read": {
 			"prefix": "human_readable",
-			"extension": "txt",
+			"extension": "html",
 			"button_class": "human_read",
 			"display_name": "Human-Readable TXT"
 		}
 	}
 
 	bbq_core_name = extract_core_name(bbq_file_name)
-	bbq_base_name = os.path.basename(bbq_file_name)
+	#bbq_base_name = os.path.basename(bbq_file_name)
 	dir_name = os.path.dirname(bbq_file_name)
 
 	# Initialize the HTML output string
@@ -178,33 +194,43 @@ def generate_download_button_row(bbq_file_name: str) -> str:
 	# Generate a button for each file type
 	for type_key, file_type in file_types.items():
 		# Construct the filename using the base name and file type details
-		file_path = get_outfile_name(bbq_file_name, file_type['prefix'], file_type['extension'])
+		out_file_path = get_outfile_name(bbq_file_name, file_type['prefix'], file_type['extension'])
 		if type_key == "bb_text":
-			file_path = bbq_file_name
-		file_basename = os.path.basename(file_path)
-		if not os.path.isfile(file_path):
-			file_path = create_downloadable_format(bbq_file_name, file_type['prefix'], file_type['extension'])
-		if not os.path.isfile(file_path):
+			out_file_path = bbq_file_name
+		out_file_basename = os.path.basename(out_file_path)
+		out_relative_path = os.path.relpath(out_file_path, start=dir_name)
+		if not os.path.isfile(out_file_path):
+			out_file_path = create_downloadable_format(bbq_file_name, file_type['prefix'], file_type['extension'])
+		if not os.path.isfile(out_file_path):
 			continue
-		file_basename = os.path.basename(file_path)
+		out_file_basename = os.path.basename(out_file_path)
 		# Create HTML button element with corresponding attributes
 		if type_key == "human_read":
 			button_html = (
 				f'<button class="md-button custom-button {file_type["button_class"]}" '
-				f'onclick="window.open(\'{file_basename}\', \'_blank\')" '
-				f'title="View {file_basename}" '
-				f'aria-label="Click to view the {file_type["display_name"]} file ({file_basename})">\n'
+				f'onclick="window.open(\'{out_relative_path}\', \'_blank\')" '
+				f'title="View {out_file_basename}" '
+				f'aria-label="Click to view the {file_type["display_name"]} file ({out_file_basename})">\n'
 				f'    <i class="fa fa-eye"></i> {file_type["display_name"]}\n'
 				f'</button>'
 			)
 		else:
 			button_html = (
 				f'<button class="md-button custom-button {file_type["button_class"]}" '
-				f'onclick="downloadFile(\'{file_basename}\')" '
-				f'title="Download {file_basename}" '
-				f'aria-label="Click to download the {file_type["display_name"]} file ({file_basename})">\n'
-				f'    <i class="fa fa-download"></i> {file_type["display_name"]}\n'
+				f'onclick="downloadFile(\'{out_relative_path}\')" '
+				f'title="Download {out_file_basename}" '
+				f'aria-label="Click to download the {file_type["display_name"]} file ({out_file_basename})">\n'
+				f'    <i class="fa fa-download"></i>BUTTON {file_type["display_name"]}\n'
 				f'</button>'
+			)
+			button_html = (
+				f'<a class="md-button custom-button {file_type["button_class"]}" '
+				f'href="{out_relative_path}" '
+				f'download '
+				f'title="Download {out_file_basename}" '
+				f'aria-label="Click to download the {file_type["display_name"]} file ({out_file_basename})">\n'
+				f'    <i class="fa fa-download"></i>{file_type["display_name"]}\n'
+				f'</a>'
 			)
 		# Add the button to the HTML output
 		html_output += button_html + '\n'
@@ -277,6 +303,8 @@ def extract_core_name(bbq_file_name):
 	bbq_core_name = match.group(1)
 	return bbq_core_name
 
+
+
 #==============
 def get_outfile_name(bbq_file_name: str, prefix: str, extension: str):
 	dirname = os.path.join(os.path.dirname(bbq_file_name), "downloads")
@@ -333,7 +361,7 @@ def update_index_md(topic_folder: str, bbq_files: list) -> None:
 		for bbq_file in bbq_files:
 			print('-' * 50)
 			# Extract the base file name from the input path
-			bbq_file_basename = os.path.basename(bbq_file)
+			#bbq_file_basename = os.path.basename(bbq_file)
 			# Convert the text file to HTML
 			print(f'  BBQ file {bbq_file}')
 
@@ -372,7 +400,8 @@ def update_index_md(topic_folder: str, bbq_files: list) -> None:
 			index_md.write("    </span>\n")
 			index_md.write("  </summary>\n")
 			index_md.write(f"  {{% include \"{os.path.relpath(html_file_path, BASE_DIR)}\" %}}\n\n")
-			index_md.write("</details>\n")
+			index_md.write("</details>\n\n\n")
+		#index_md.write(get_download_js_string())
 
 #==============
 
