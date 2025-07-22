@@ -16,7 +16,7 @@ These tutorials will be added in the future to cover more LMS platforms:
 
 #### **Canvas**
 - [Canvas QTI.zip File Upload](canvas_tutorial.md)
-  Learn how to properly upload question banks and create a quiz using the randomization preset from Canvas 
+  Learn how to properly upload question banks and create a quiz using the randomization preset from Canvas.
 
 #### **LibreTexts ADAPT**
 - LibreTexts ADAPT QTI v1.2 Question Import Guide
