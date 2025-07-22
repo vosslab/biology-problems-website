@@ -15,7 +15,7 @@ These tutorials will be added in the future to cover more LMS platforms:
 - Canvas QTI v1.2 Question Import Guide
 
 #### **Canvas**
-- Canvas QTI v1.2 Question Import Guide
+- Canvas QTI.zip File Upload 
 
 #### **LibreTexts ADAPT**
 - LibreTexts ADAPT QTI v1.2 Question Import Guide
