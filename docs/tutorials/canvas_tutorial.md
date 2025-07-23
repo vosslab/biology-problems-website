@@ -11,12 +11,12 @@ In this section, we will upload the questions to Canvas using QTI .zip files. Th
 **Steps:**
 
 1. **Navigate to Settings:** On the bottom left-hand side of your course, click on **Settings**.
-![](canvas_how_to/Step_01_01-select_settings.png) 
+![](canvas_how_to/Step_01_01-select_settings.png)
 
 2. **Go to Import Course Content:** On the right-hand side, in the middle of the page, click on **Import Course Content.**
 ![](canvas_how_to/Step_01_02-select_import_course_content.png)
 
-3. **Select Content Type:** Under **"Select Content Type"**, open the drop-down menu and choose **"QTI .zip file"** at the bottom of the list.
+3. **Select Content Type:** Under **"Select Content Type"**, open the drop-down menu and choose **"QTI .zip file"** at the bottom of the list.  
 ![](canvas_how_to/Step_01_03-select_QTI_zip_file.png)
 
 4. Under **Source**, click **Choose File** to select the QTI .zip file, then upload the specific file containing the questions you want to add.
@@ -30,7 +30,7 @@ In this section, we will upload the questions to Canvas using QTI .zip files. Th
 
 ---
 
-## **(Optional)Part 2: Rename your Question Bank**
+## **Part 2 (Optional): Rename your Question Bank**
 Now that we have uploaded the questions to Canvas, we can rename the file to make it easier to identify the question bank when setting up the randomization process.
 
 **Steps:**
@@ -39,11 +39,11 @@ Now that we have uploaded the questions to Canvas, we can rename the file to mak
 ![](canvas_how_to/Step_02_01-select_Quizzes.png)
 
 2. **In the top-right corner**, click the three dots next to the **+ Quiz button**. A drop-down menu will appear. Then, click on **Manage Question Banks**.
-![](canvas_how_to/Step_02_02-select_three_dots.png)
-![](canvas_how_to/Step_02_03-select-Manage_Question_Banks.png)
+![](canvas_how_to/Step_02_02-select_three_dots.png)  
+![](canvas_how_to/Step_02_03-select-Manage_Question_Banks.png)  
 
 3. You will see a list of the uploaded .zip files containing the questions for this course. To rename a questions bank, click the **pencil icon** to the right of the name, enter your desired name, and press **Enter**.
-![](canvas_how_to/Step_02_04-select_pencil_icon.png)
+![](canvas_how_to/Step_02_04-select_pencil_icon.png)  
 ![](canvas_how_to/Step_02_05-edit_name.png)
 
 ---
@@ -77,8 +77,8 @@ In this section, we will create a quiz and set up a randomized question group th
 ![](canvas_how_to/Step_03_09-create_group.png)
 
 10. Name the question group, select the number of questions for the quiz, and specify the points per question. Then, click **Create Group**. Finish by clicking **Add Questions**.
-![](canvas_how_to/Step_03_10_01-Create_Group.png)
-![](canvas_how_to/Step_03_10_02-Add_Questions.png)
+![](canvas_how_to/Step_03_10_01-Create_Group.png)  
+![](canvas_how_to/Step_03_10_02-Add_Questions.png)  
 
 11. Scroll to the bottom of the quiz and click **Save & Publish**, or click **Save** if you would like to publish it later.
 ![](canvas_how_to/Step_03_11-Save_and_publish.png)
@@ -87,9 +87,10 @@ In this section, we will create a quiz and set up a randomized question group th
 
 ## **Conclusion**
 Congratulations! Your test is now fully set up and available for students. You have successfully:  
-- **Uploaded** the questions  
-- **Renamed** your question bank  
-- **Created** a specific randomized question preset  
-- **Configured** a test using that randomized preset  
+  
+- Uploaded the questions  
+- Renamed your question bank  
+- Created a specific randomized question preset  
+- Configured a test using that randomized preset
 
 Your students can now access and complete the test within Canvas. Great job!
