@@ -86,7 +86,7 @@ In this section, we will create a quiz and set up a randomized question group th
 ---
 
 ## **Conclusion**
-Congratulations! Your test is now fully set up and available for students. You have successfully:
+Congratulations! Your test is now fully set up and available for students. You have successfully:  
 - **Uploaded** the questions  
 - **Renamed** your question bank  
 - **Created** a specific randomized question preset  
