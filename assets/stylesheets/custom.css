@@ -80,3 +80,14 @@ a.md-button.custom-button:active {
 .md-sidebar--secondary {
   display: none !important;
 }
+
+/* Allow inline image width styles */
+img[style] {
+  max-width: none !important;
+  height: auto !important;
+}
+
+/* For spacing between images that are side by side */
+.img-right-pad {
+  margin-right: 3%;
+}
