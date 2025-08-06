@@ -16,6 +16,8 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+  features:
+    - content.footer
 
 markdown_extensions:
 - attr_list
@@ -29,6 +31,25 @@ extra_css:
 
 extra_javascript:
 - assets/scripts/custom.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/vosslab
+      name: GitHub
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/vosslab
+      name: Twitter
+  generator: false
+
+copyright: >
+  &copy; 2024-2025 Dr. Neil Voss • Licensed under
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">
+    CC BY-SA 4.0
+    <i class="fa-brands fa-creative-commons"></i>
+    <i class="fa-brands fa-creative-commons-by"></i>
+    <i class="fa-brands fa-creative-commons-sa"></i>
+  </a>
 
 nav:
 - "<i class='fa fa-home'></i> Home": index.md
