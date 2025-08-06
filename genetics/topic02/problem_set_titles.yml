@@ -1,4 +1,10 @@
-bbq-chargaff_dna_percent-5_choices-questions.txt: Chargaff's Base Pairing Composition in dsDNA
+bbq-chargaff_dna_percent-5_choices-questions.txt: Chargaff's Base Pairing Composition
+  in dsDNA
+bbq-complementary_sequences-fib-directionless-questions.txt: Complementary DNA Sequences
+bbq-complementary_sequences-fib-prime-questions.txt: Determining Complementary DNA
+  Sequences
+bbq-complementary_sequences-mc-directionless-questions.txt: Complementary DNA Sequences
+bbq-complementary_sequences-mc-prime-questions.txt: Complementary DNA Sequences Identification
 bbq-metabolic_pathway-4_metabolites-questions.txt: Metabolic Pathway Order, Four Choices
 bbq-metabolic_pathway-6_metabolites-questions.txt: Metabolic Pathway Order, Six Choices
-last edit: Wed Aug  6 10:13:28 2025
+last edit: Wed Aug  6 12:48:01 2025
