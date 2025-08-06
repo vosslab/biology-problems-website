@@ -1190,44 +1190,44 @@
       example problem
     </span>
   </summary>
-  <div id="question_html_e795_c315">
-  <div id="statement_text_e795_c315"><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script><h4>peptide_40e1</h4><p><canvas id="canvas_43ea" width="480" height="512"></canvas></p><hr/><script>/* */initRDKitModule().then(function(instance){RDKitModule=instance;console.log("RDKit:"+RDKitModule.version());/* */function/* */getPeptideBonds(mol){let/* */peptide_bond="CC(=O)NC";let/* */qmol=window.RDKitModule.get_qmol(peptide_bond);let/* */matches=JSON.parse(mol.get_substruct_matches(qmol));let/* */aggregatedBonds=[];for(let/* */i=0;i<matches.length;i++){match=matches[i];if(Array.isArray(match["bonds"])){aggregatedBonds.push(match["bonds"].slice(-2)[0]);}}return/* */aggregatedBonds;}let/* */smiles="[NH3+][C@@H](CC(C)C)(C(=O)N[C@@H](CC(=O)[O-])(C(=O)[O-]))";let/* */mol=RDKitModule.get_mol(smiles);let/* */mdetails={};mdetails["bonds"]=getPeptideBonds(mol);mdetails["atoms"]=[0];mdetails["highlightColour"]=[0,1,0];mdetails["legend"]="peptide_40e1";mdetails["explicitMethyl"]=true;canvas=document.getElementById("canvas_43ea");mol.draw_to_canvas_with_highlights(canvas,JSON.stringify(mdetails));});/* */</script> <p>A dipeptide is made up of two (2) amino acids. The figure above shows one such dipeptide with an unknown sequence. Your task is to find out the two (2) letter sequence of this dipeptide.<br/>Here is a step-by-step guide to help you answer the question:</p> <ol> <li style="margin-bottom: 20px;">Consult an amino acid guide for reference. You can find a PDF guide on Blackboard under "Exam and Quiz" in the "Old Exams" section, with the filename <a href="https://drive.google.com/file/d/1Mgum_TmZ71-XIjb38sStEpzzZLqkQb-W/view?usp=sharing">bchm_exam-help_sheet.pdf</a>, or search online for a visual guide that shows all 20 amino acids with their single-letter codes.</li> <li style="margin-bottom: 20px;">Identify the amino-terminal end, represented as <span style="padding: 2px; color: #0000cc; background-color: #66ff66;">NH<sub>3</sub><sup>+</sup></span> and highlighted in bright green. Distinguish between the general nitrogens in amino acid backbones (denoted as <span style="color:#0000cc">NH</span>) and the nitrogen in amino acid side chains.</li> <li style="margin-bottom: 20px;">The one (1) peptide bonds connecting the two (2) amino acids are highlighted in <span style="background-color: #00FF00; padding: 2px;">bright green</span>, making it easier to distinguish the two (2) amino acids.</li> <li style="margin-bottom: 20px;">Examine the side chain for each of the two (2) amino acids to determine their single-letter amino acid code.</li> <li style="margin-bottom: 20px;">List the single-letter amino acid codes in the amino to carboxyl (N&rarr;C) direction. This is the standard method for writing peptide sequences.</li> </ol> <p>Select the correct peptide sequence from the options below:</p></div>
+  <div id="question_html_1fe6_17e9">
+  <div id="statement_text_1fe6_17e9"><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script><h4>peptide_98af</h4><p><canvas id="canvas_f6fc" width="480" height="512"></canvas></p><hr/><script>/* */initRDKitModule().then(function(instance){RDKitModule=instance;console.log("RDKit:"+RDKitModule.version());/* */function/* */getPeptideBonds(mol){let/* */peptide_bond="CC(=O)NC";let/* */qmol=window.RDKitModule.get_qmol(peptide_bond);let/* */matches=JSON.parse(mol.get_substruct_matches(qmol));let/* */aggregatedBonds=[];for(let/* */i=0;i<matches.length;i++){match=matches[i];if(Array.isArray(match["bonds"])){aggregatedBonds.push(match["bonds"].slice(-2)[0]);}}return/* */aggregatedBonds;}let/* */smiles="[NH3+][C@@H](CCC(=O)[O-])(C(=O)N[C@@H](CO)(C(=O)[O-]))";let/* */mol=RDKitModule.get_mol(smiles);let/* */mdetails={};mdetails["bonds"]=getPeptideBonds(mol);mdetails["atoms"]=[0];mdetails["highlightColour"]=[0,1,0];mdetails["legend"]="peptide_98af";mdetails["explicitMethyl"]=true;canvas=document.getElementById("canvas_f6fc");mol.draw_to_canvas_with_highlights(canvas,JSON.stringify(mdetails));});/* */</script> <p>A dipeptide is made up of two (2) amino acids. The figure above shows one such dipeptide with an unknown sequence. Your task is to find out the two (2) letter sequence of this dipeptide.<br/>Here is a step-by-step guide to help you answer the question:</p> <ol> <li style="margin-bottom: 20px;">Consult an amino acid guide for reference. You can find a PDF guide on Blackboard under "Exam and Quiz" in the "Old Exams" section, with the filename <a href="https://drive.google.com/file/d/1Mgum_TmZ71-XIjb38sStEpzzZLqkQb-W/view?usp=sharing">bchm_exam-help_sheet.pdf</a>, or search online for a visual guide that shows all 20 amino acids with their single-letter codes.</li> <li style="margin-bottom: 20px;">Identify the amino-terminal end, represented as <span style="padding: 2px; color: #0000cc; background-color: #66ff66;">NH<sub>3</sub><sup>+</sup></span> and highlighted in bright green. Distinguish between the general nitrogens in amino acid backbones (denoted as <span style="color:#0000cc">NH</span>) and the nitrogen in amino acid side chains.</li> <li style="margin-bottom: 20px;">The one (1) peptide bonds connecting the two (2) amino acids are highlighted in <span style="background-color: #00FF00; padding: 2px;">bright green</span>, making it easier to distinguish the two (2) amino acids.</li> <li style="margin-bottom: 20px;">Examine the side chain for each of the two (2) amino acids to determine their single-letter amino acid code.</li> <li style="margin-bottom: 20px;">List the single-letter amino acid codes in the amino to carboxyl (N&rarr;C) direction. This is the standard method for writing peptide sequences.</li> </ol> <p>Select the correct peptide sequence from the options below:</p></div>
   <form>
-  <ul id="choices_e795_c315">
+  <ul id="choices_1fe6_17e9">
     <li>
-      <input type="radio" id="option0"  name="answer_e795_c315"  data-correct="true">
-      <label for="option0">LD&nbsp; </label>
+      <input type="radio" id="option0"  name="answer_1fe6_17e9"  data-correct="false">
+      <label for="option0">EE&nbsp; </label>
     </li>
     <li>
-      <input type="radio" id="option1"  name="answer_e795_c315"  data-correct="false">
-      <label for="option1">LS&nbsp; </label>
+      <input type="radio" id="option1"  name="answer_1fe6_17e9"  data-correct="false">
+      <label for="option1">EI&nbsp; </label>
     </li>
     <li>
-      <input type="radio" id="option2"  name="answer_e795_c315"  data-correct="false">
-      <label for="option2">CY&nbsp; </label>
+      <input type="radio" id="option2"  name="answer_1fe6_17e9"  data-correct="false">
+      <label for="option2">NL&nbsp; </label>
     </li>
     <li>
-      <input type="radio" id="option3"  name="answer_e795_c315"  data-correct="false">
-      <label for="option3">LV&nbsp; </label>
+      <input type="radio" id="option3"  name="answer_1fe6_17e9"  data-correct="true">
+      <label for="option3">ES&nbsp; </label>
     </li>
     <li>
-      <input type="radio" id="option4"  name="answer_e795_c315"  data-correct="false">
-      <label for="option4">DH&nbsp; </label>
+      <input type="radio" id="option4"  name="answer_1fe6_17e9"  data-correct="false">
+      <label for="option4">IE&nbsp; </label>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_e795_c315()">Check Answer</button>
-  <div id="result_e795_c315" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;">&nbsp;</div>
+  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_1fe6_17e9()">Check Answer</button>
+  <div id="result_1fe6_17e9" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;">&nbsp;</div>
   </form><br/>
   </div><script>
-  function checkAnswer_e795_c315() {
-   const options = document.getElementsByName('answer_e795_c315');
+  function checkAnswer_1fe6_17e9() {
+   const options = document.getElementsByName('answer_1fe6_17e9');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_e795_c315');
+   const resultDiv = document.getElementById('result_1fe6_17e9');
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.style.color = 'green';
@@ -1273,40 +1273,40 @@
       example problem
     </span>
   </summary>
-  <div id="question_html_dec5_3710">
-  <div id="statement_text_dec5_3710"><p>Which one of the following amino acids correspond to the description <span style="font-size: 1em;"><strong>'a <strong><span style="color: #009e4c;">polar amino acid</span></strong> with a thiol (-SH) group that can form disulfide bonds'</strong></span>.</p></div>
+  <div id="question_html_a574_56db">
+  <div id="statement_text_a574_56db"><p>Which one of the following amino acids correspond to the description <span style="font-size: 1em;"><strong>'a <strong><span style="color: #ffa100;">non-polar branched chain amino acid</span></strong> with a double methylated γ-carbon'</strong></span>.</p></div>
   <form>
-  <ul id="choices_dec5_3710">
+  <ul id="choices_a574_56db">
   <li>
-      <input type="radio" id="option0" name="answer_dec5_3710" data-correct="false"><label for="option0"><span style="font-family: sans-serif; letter-spacing: 1px;">alanine</span>  </label>
+      <input type="radio" id="option0" name="answer_a574_56db" data-correct="false"><label for="option0"><span style="font-family: sans-serif; letter-spacing: 1px;">histidine</span>  </label>
     </li>
     <li>
-      <input type="radio" id="option1" name="answer_dec5_3710" data-correct="false"><label for="option1"><span style="font-family: sans-serif; letter-spacing: 1px;">arginine</span>  </label>
+      <input type="radio" id="option1" name="answer_a574_56db" data-correct="true"><label for="option1"><span style="font-family: sans-serif; letter-spacing: 1px;">leucine</span>  </label>
     </li>
     <li>
-      <input type="radio" id="option2" name="answer_dec5_3710" data-correct="true"><label for="option2"><span style="font-family: sans-serif; letter-spacing: 1px;">cysteine</span>  </label>
+      <input type="radio" id="option2" name="answer_a574_56db" data-correct="false"><label for="option2"><span style="font-family: sans-serif; letter-spacing: 1px;">methionine</span>  </label>
     </li>
     <li>
-      <input type="radio" id="option3" name="answer_dec5_3710" data-correct="false"><label for="option3"><span style="font-family: sans-serif; letter-spacing: 1px;">methionine</span>  </label>
+      <input type="radio" id="option3" name="answer_a574_56db" data-correct="false"><label for="option3"><span style="font-family: sans-serif; letter-spacing: 1px;">proline</span>  </label>
     </li>
     <li>
-      <input type="radio" id="option4" name="answer_dec5_3710" data-correct="false"><label for="option4"><span style="font-family: sans-serif; letter-spacing: 1px;">tryptophan</span>  </label>
+      <input type="radio" id="option4" name="answer_a574_56db" data-correct="false"><label for="option4"><span style="font-family: sans-serif; letter-spacing: 1px;">valine</span>  </label>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_dec5_3710()">Check Answer</button>
-  <div id="result_dec5_3710" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_a574_56db()">Check Answer</button>
+  <div id="result_a574_56db" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
   </form>
   <br>
   </div><script>
-  function checkAnswer_dec5_3710() {
-   const options = document.getElementsByName('answer_dec5_3710');
+  function checkAnswer_a574_56db() {
+   const options = document.getElementsByName('answer_a574_56db');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_dec5_3710');
+   const resultDiv = document.getElementById('result_a574_56db');
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.style.color = 'green';
@@ -1349,40 +1349,40 @@
       example problem
     </span>
   </summary>
-  <div id="question_html_519c_298f">
-  <div id="statement_text_519c_298f"><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script><p><canvas id="canvas_edd0" width="480" height="320"></canvas></p><script>/* */initRDKitModule().then(function(instance){RDKitModule=instance;console.log("RDKit:"+RDKitModule.version());/* */let/* */smiles="C1C[C@H](NC1)C(=O)O";let/* */mol=RDKitModule.get_mol(smiles);let/* */mdetails={};mdetails["legend"]="";mdetails["explicitMethyl"]=true;canvas=document.getElementById("canvas_edd0");mol.draw_to_canvas_with_highlights(canvas,JSON.stringify(mdetails));});/* */</script><h3>Which one of the following amino acids is represented by the chemical structure shown above?</h3></div>
+  <div id="question_html_c2cf_2093">
+  <div id="statement_text_c2cf_2093"><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script><p><canvas id="canvas_237d" width="480" height="320"></canvas></p><script>/* */initRDKitModule().then(function(instance){RDKitModule=instance;console.log("RDKit:"+RDKitModule.version());/* */let/* */smiles="CC[C@H](C)[C@@H](C(=O)O)N";let/* */mol=RDKitModule.get_mol(smiles);let/* */mdetails={};mdetails["legend"]="";mdetails["explicitMethyl"]=true;canvas=document.getElementById("canvas_237d");mol.draw_to_canvas_with_highlights(canvas,JSON.stringify(mdetails));});/* */</script><h3>Which one of the following amino acids is represented by the chemical structure shown above?</h3></div>
   <form>
-  <ul id="choices_519c_298f">
+  <ul id="choices_c2cf_2093">
     <li>
-      <input type="radio" id="option0"  name="answer_519c_298f"  data-correct="false">
-      <label for="option0">methionine&nbsp; </label>
+      <input type="radio" id="option0"  name="answer_c2cf_2093"  data-correct="true">
+      <label for="option0">isoleucine&nbsp; </label>
     </li>
     <li>
-      <input type="radio" id="option1"  name="answer_519c_298f"  data-correct="true">
-      <label for="option1">proline&nbsp; </label>
+      <input type="radio" id="option1"  name="answer_c2cf_2093"  data-correct="false">
+      <label for="option1">leucine&nbsp; </label>
     </li>
     <li>
-      <input type="radio" id="option2"  name="answer_519c_298f"  data-correct="false">
-      <label for="option2">threonine&nbsp; </label>
+      <input type="radio" id="option2"  name="answer_c2cf_2093"  data-correct="false">
+      <label for="option2">lysine&nbsp; </label>
     </li>
     <li>
-      <input type="radio" id="option3"  name="answer_519c_298f"  data-correct="false">
+      <input type="radio" id="option3"  name="answer_c2cf_2093"  data-correct="false">
       <label for="option3">valine&nbsp; </label>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_519c_298f()">Check Answer</button>
-  <div id="result_519c_298f" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;">&nbsp;</div>
+  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_c2cf_2093()">Check Answer</button>
+  <div id="result_c2cf_2093" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;">&nbsp;</div>
   </form><br/>
   </div><script>
-  function checkAnswer_519c_298f() {
-   const options = document.getElementsByName('answer_519c_298f');
+  function checkAnswer_c2cf_2093() {
+   const options = document.getElementsByName('answer_c2cf_2093');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_519c_298f');
+   const resultDiv = document.getElementById('result_c2cf_2093');
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.style.color = 'green';
