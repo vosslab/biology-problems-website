@@ -1,6 +1,6 @@
 # Topic 01
 
-[Topic 2: Advanced Topics in Genetics](topic02/index.md)
+Inheritance patterns, common genetic disorders, and terminology matching.
 
 ## Matching Genetic Disorders to Descriptions
 
@@ -31,7 +31,7 @@
 </details>
 
 
-## Genetic Terminology Matching Definitions
+## Matching Genetic Terminology to Definitions
 
 <div id="MATCH-genetics_terminology-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-genetics_terminology-questions.txt" download title="Download bbq-MATCH-genetics_terminology-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-MATCH-genetics_terminology-questions.txt)">
@@ -49,7 +49,7 @@
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Genetic Terminology Matching Definitions
+      Matching Genetic Terminology to Definitions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -60,7 +60,7 @@
 </details>
 
 
-## Identification of Genetic Disorders by Description
+## Selection of Genetic Disorders by Description
 
 <div id="MC-genetic_disorders-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MC-genetic_disorders-questions.txt" download title="Download bbq-MC-genetic_disorders-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-MC-genetic_disorders-questions.txt)">
@@ -81,7 +81,7 @@
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identification of Genetic Disorders by Description
+      Selection of Genetic Disorders by Description
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -92,7 +92,7 @@
 </details>
 
 
-## Genetic Terminology Definitions
+## Selection Genetic Terminology by Definitions
 
 <div id="MC-genetics_terminology-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MC-genetics_terminology-questions.txt" download title="Download bbq-MC-genetics_terminology-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-MC-genetics_terminology-questions.txt)">
@@ -113,7 +113,7 @@
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Genetic Terminology Definitions
+      Selection Genetic Terminology by Definitions
     </span>
     <span style='font-weight: normal;'>
       example problem
