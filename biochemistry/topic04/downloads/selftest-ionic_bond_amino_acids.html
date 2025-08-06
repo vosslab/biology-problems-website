@@ -1,37 +1,37 @@
-<div id="question_html_a32e_aa24">
-<div id="statement_text_a32e_aa24"><h4>Based on the chemical properties of amino acid side chains, which pair of amino acids listed below can form an ionic bond between their side chains?</h4></div>
+<div id="question_html_a32e_cbbe">
+<div id="statement_text_a32e_cbbe"><h4>Based on the chemical properties of amino acid side chains, which pair of amino acids listed below can form an ionic bond between their side chains?</h4></div>
 <form>
-<ul id="choices_a32e_aa24">
+<ul id="choices_a32e_cbbe">
 <li>
-    <input type="radio" id="option0" name="answer_a32e_aa24" data-correct="false"><label for="option0">Asparagine and Tryptophan  </label>
+    <input type="radio" id="option0" name="answer_a32e_cbbe" data-correct="true"><label for="option0">Arginine and Glutamate  </label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_a32e_aa24" data-correct="false"><label for="option1">Serine and Aspartic Acid  </label>
+    <input type="radio" id="option1" name="answer_a32e_cbbe" data-correct="false"><label for="option1">Asparagine and Cysteine  </label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_a32e_aa24" data-correct="true"><label for="option2">Lysine and Aspartate  </label>
+    <input type="radio" id="option2" name="answer_a32e_cbbe" data-correct="false"><label for="option2">Leucine and Glutamic Acid  </label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_a32e_aa24" data-correct="false"><label for="option3">Asparagine and Glutamine  </label>
+    <input type="radio" id="option3" name="answer_a32e_cbbe" data-correct="false"><label for="option3">Tyrosine and Glutamine  </label>
   </li>
   <li>
-    <input type="radio" id="option4" name="answer_a32e_aa24" data-correct="false"><label for="option4">Alanine and Lysine  </label>
+    <input type="radio" id="option4" name="answer_a32e_cbbe" data-correct="false"><label for="option4">Serine and Arginine  </label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_a32e_aa24()">Check Answer</button>
-<div id="result_a32e_aa24" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_a32e_cbbe()">Check Answer</button>
+<div id="result_a32e_cbbe" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_a32e_aa24() {
- const options = document.getElementsByName('answer_a32e_aa24');
+function checkAnswer_a32e_cbbe() {
+ const options = document.getElementsByName('answer_a32e_cbbe');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_a32e_aa24');
+ const resultDiv = document.getElementById('result_a32e_cbbe');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';
