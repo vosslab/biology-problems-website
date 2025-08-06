@@ -1,4 +1,4 @@
-# Topic 4: Proteins: Structure and Folding
+# 4: Protein Structure
 
 Protein folding, structural levels, and mechanisms.
 

@@ -1,4 +1,4 @@
-# Topic 1: The Molecular Design of Life
+# 1: Life Molecules
 
 Molecular design of life, major elements, and biomacromolecules.
 

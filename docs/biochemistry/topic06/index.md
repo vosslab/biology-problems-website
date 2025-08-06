@@ -1,4 +1,4 @@
-# Topic 6: Enzymes Reactions and Thermodynamics
+# 6: Thermodynamics
 
 Enzyme functions, substrate binding, and energy changes in reactions.
 

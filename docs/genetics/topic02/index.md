@@ -2,7 +2,7 @@
 
 DNA composition, Chargaff’s rules, complementary strands, restriction digestion, electrophoresis.
 
-## Base Pairing Composition in Double-Stranded DNA
+## Chargaff's Base Pairing Composition in dsDNA
 
 <div id="chargaff_dna_percent-5_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chargaff_dna_percent-5_choices-questions.txt" download title="Download bbq-chargaff_dna_percent-5_choices-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-chargaff_dna_percent-5_choices-questions.txt)">
@@ -23,7 +23,7 @@ DNA composition, Chargaff’s rules, complementary strands, restriction digestio
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Base Pairing Composition in Double-Stranded DNA
+      Chargaff's Base Pairing Composition in dsDNA
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -34,7 +34,7 @@ DNA composition, Chargaff’s rules, complementary strands, restriction digestio
 </details>
 
 
-## Supplementing Metabolic Pathways with Nutrients
+## Metabolic Pathway Order, Four Choices
 
 <div id="metabolic_pathway-4_metabolites-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-metabolic_pathway-4_metabolites-questions.txt" download title="Download bbq-metabolic_pathway-4_metabolites-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-metabolic_pathway-4_metabolites-questions.txt)">
@@ -55,7 +55,7 @@ DNA composition, Chargaff’s rules, complementary strands, restriction digestio
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Supplementing Metabolic Pathways with Nutrients
+      Metabolic Pathway Order, Four Choices
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -66,7 +66,7 @@ DNA composition, Chargaff’s rules, complementary strands, restriction digestio
 </details>
 
 
-## Nutrient Supplementation in Metabolic Pathways
+## Metabolic Pathway Order, Six Choices
 
 <div id="metabolic_pathway-6_metabolites-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-metabolic_pathway-6_metabolites-questions.txt" download title="Download bbq-metabolic_pathway-6_metabolites-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-metabolic_pathway-6_metabolites-questions.txt)">
@@ -87,7 +87,7 @@ DNA composition, Chargaff’s rules, complementary strands, restriction digestio
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Nutrient Supplementation in Metabolic Pathways
+      Metabolic Pathway Order, Six Choices
     </span>
     <span style='font-weight: normal;'>
       example problem
