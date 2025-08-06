@@ -1,37 +1,37 @@
-<div id="question_html_e6e1_0cd3">
-<div id="statement_text_e6e1_0cd3"><p>Which one of the following statements is<strong> <span style="color: #169179;"><strong>TRUE</strong></span> </strong> of <strong><span style="color: #a1005e;">chemical reactions</span></strong>?</p></div>
+<div id="question_html_e6e1_0cc9">
+<div id="statement_text_e6e1_0cc9"><p>Which one of the following statements is<strong> <span style="color: #169179;"><strong>TRUE</strong></span> </strong> of <strong><span style="color: #a1005e;">chemical reactions</span></strong>?</p></div>
 <form>
-<ul id="choices_e6e1_0cd3">
+<ul id="choices_e6e1_0cc9">
 <li>
-    <input type="radio" id="option0" name="answer_e6e1_0cd3" data-correct="false"><label for="option0"><strong> </strong><strong><span style="color: #a1005e;">Chemical reactions</span></strong> always result in a increase in the number of atoms.  </label>
+    <input type="radio" id="option0" name="answer_e6e1_0cc9" data-correct="true"><label for="option0"><strong> </strong><strong><span style="color: #a1005e;">Chemical reactions</span></strong> are involved in many important processes in biology.  </label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_e6e1_0cd3" data-correct="false"><label for="option1"><strong> </strong><strong><span style="color: #a1005e;">Chemical reactions</span></strong> are always <strong><span style="color: #ff5e00;">exothermic</span></strong>.  </label>
+    <input type="radio" id="option1" name="answer_e6e1_0cc9" data-correct="false"><label for="option1"><strong> </strong><strong><span style="color: #a1005e;">Chemical reactions</span></strong> are always <strong><span style="color: #0d57a5;">endothermic</span></strong>.  </label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_e6e1_0cd3" data-correct="true"><label for="option2"><strong> </strong><strong><span style="color: #a1005e;">Chemical reactions</span></strong> play a role in many important biological processes.  </label>
+    <input type="radio" id="option2" name="answer_e6e1_0cc9" data-correct="false"><label for="option2"><strong> </strong>Salt (NaCl) dissolving in water is a chemical reaction since breaking ionic bonds forms in new chemicals.  </label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_e6e1_0cd3" data-correct="false"><label for="option3"><strong> </strong><strong><span style="color: #a1005e;">Chemical reactions</span></strong> only occur when <strong><span style="color: #009e4c;">energy</span></strong> is released.  </label>
+    <input type="radio" id="option3" name="answer_e6e1_0cc9" data-correct="false"><label for="option3"><strong> </strong><strong><span style="color: #a1005e;">Chemical reactions</span></strong> only occur when <strong><span style="color: #009e4c;">energy</span></strong> is added.  </label>
   </li>
   <li>
-    <input type="radio" id="option4" name="answer_e6e1_0cd3" data-correct="false"><label for="option4"><strong> </strong><strong><span style="color: #a1005e;">Chemical reactions</span></strong> only occur in the presence of light.  </label>
+    <input type="radio" id="option4" name="answer_e6e1_0cc9" data-correct="false"><label for="option4"><strong> </strong><strong><span style="color: #a1005e;">Chemical reactions</span></strong> only occur at a specific temperature.  </label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_e6e1_0cd3()">Check Answer</button>
-<div id="result_e6e1_0cd3" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_e6e1_0cc9()">Check Answer</button>
+<div id="result_e6e1_0cc9" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_e6e1_0cd3() {
- const options = document.getElementsByName('answer_e6e1_0cd3');
+function checkAnswer_e6e1_0cc9() {
+ const options = document.getElementsByName('answer_e6e1_0cc9');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_e6e1_0cd3');
+ const resultDiv = document.getElementById('result_e6e1_0cc9');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';
