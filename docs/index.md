@@ -17,8 +17,7 @@ Step-by-step guides for **importing and formatting** question banks into various
 - **[Blackboard BBQ Text File Upload](tutorials/bbq_tutorial.md)**
   Instructions on properly formatting and uploading question banks using **Blackboard’s BBQ text format**.
 
-## **About the Author**
+## **About**
 
-[About the Author](author.md)
-
-*thanks for visiting*
+- [About the Author](author.md)
+- [Content License](license.md)
