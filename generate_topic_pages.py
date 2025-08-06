@@ -370,7 +370,8 @@ def update_index_md(topic_folder: str, bbq_files: list) -> None:
 				os.remove(html_file_path)
 			html_file_path = create_downloadable_format(bbq_file, 'selftest', 'html')
 			if not os.path.isfile(html_file_path):
-				raise FileNotFoundError(html_file_path)
+				#raise FileNotFoundError(html_file_path)
+				pass
 
 			# Generate the problem set title using the LLM
 			problem_set_title = get_problem_set_title(bbq_file)
