@@ -1,0 +1,48 @@
+<div id="question_html_0cb7_8e5d">
+<div id="statement_text_0cb7_8e5d"><p>Which one of the following <strong><span style="color: MediumVioletRed;">genetic</span></strong> <strong><span style="color: DarkGreen;">disorder</span></strong>s correspond to the description <span style="font-size: 1em;"><strong>'gets its name from the distinctive sweet odor of affected infants' urine'</strong></span>.</p></div>
+<form>
+<ul id="choices_0cb7_8e5d">
+<li>
+    <input type="radio" id="option0" name="answer_0cb7_8e5d" data-correct="false"><label for="option0">Fragile X syndrome</label>
+  </li>
+  <li>
+    <input type="radio" id="option1" name="answer_0cb7_8e5d" data-correct="false"><label for="option1">Hemophilia</label>
+  </li>
+  <li>
+    <input type="radio" id="option2" name="answer_0cb7_8e5d" data-correct="true"><label for="option2">Maple syrup urine disease</label>
+  </li>
+  <li>
+    <input type="radio" id="option3" name="answer_0cb7_8e5d" data-correct="false"><label for="option3">Triple X syndrome</label>
+  </li>
+  <li>
+    <input type="radio" id="option4" name="answer_0cb7_8e5d" data-correct="false"><label for="option4">WAGR syndrome</label>
+  </li>
+</ul>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_0cb7_8e5d()">Check Answer</button>
+<div id="result_0cb7_8e5d" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+</form>
+<br>
+</div><script>
+function checkAnswer_0cb7_8e5d() {
+ const options = document.getElementsByName('answer_0cb7_8e5d');
+ const correctOption = Array.from(options).reduce(function(acc, option) {
+   return acc || (option.dataset.correct === 'true' ? option : null);
+ }, null);
+ const selectedOption = Array.from(options).reduce(function(acc, option) {
+   return acc || (option.checked ? option : null);
+ }, null);
+ const resultDiv = document.getElementById('result_0cb7_8e5d');
+ if (selectedOption) {
+  if (selectedOption === correctOption) {
+   resultDiv.style.color = 'green';
+   resultDiv.textContent = 'CORRECT';
+  } else {
+   resultDiv.style.color = 'red';
+   resultDiv.textContent = 'incorrect';
+  }
+ } else {
+  resultDiv.style.color = 'black';
+  resultDiv.textContent = 'Please select an answer.';
+ }
+}
+</script>
