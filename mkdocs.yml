@@ -40,6 +40,9 @@ extra:
     - icon: fontawesome/brands/youtube
       link: https://www.youtube.com/neilvosslab
       name: YouTube
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/neilvosslab.bsky.social
+      name: Bluesky
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/vosslab
       name: LinkedIn
