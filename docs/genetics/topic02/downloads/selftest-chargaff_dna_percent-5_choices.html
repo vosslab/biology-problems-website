@@ -1,37 +1,37 @@
-<div id="question_html_2cf1_41f3">
-<div id="statement_text_2cf1_41f3"><p>According to Chargaff's rules concerning the base pairing composition in double-stranded DNA, consider a sample where the percentage composition of <strong><span style="color: #004d00;"> 3% is adenine</span></strong>.<br>What are the percentages of the other three bases?</p></div>
+<div id="question_html_aadc_5d10">
+<div id="statement_text_aadc_5d10"><p>According to Chargaff's rules concerning the base pairing composition in double-stranded DNA, consider a sample where the percentage composition of <strong><span style="color: #2a2000;">27% is guanine</span></strong>.<br>What are the percentages of the other three bases?</p></div>
 <form>
-<ul id="choices_2cf1_41f3">
+<ul id="choices_aadc_5d10">
 <li>
-    <input type="radio" id="option0" name="answer_2cf1_41f3" data-correct="false"><label for="option0"><span style="color: #003566;">cytosine (C): 47%</span> — <span style="color: #2a2000;">guanine (G): 25%</span> — <span style="color: #6e1212;">thymine (T): 25%</span></label>
+    <input type="radio" id="option0" name="answer_aadc_5d10" data-correct="false"><label for="option0"><span style="color: #004d00;">adenine (A): 27%</span> — <span style="color: #003566;">cytosine (C): 23%</span> — <span style="color: #6e1212;">thymine (T): 23%</span></label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_2cf1_41f3" data-correct="true"><label for="option1"><span style="color: #003566;">cytosine (C): 47%</span> — <span style="color: #2a2000;">guanine (G): 47%</span> — <span style="color: #6e1212;">thymine (T): 3%</span></label>
+    <input type="radio" id="option1" name="answer_aadc_5d10" data-correct="false"><label for="option1"><span style="color: #004d00;">adenine (A): 25%</span> — <span style="color: #003566;">cytosine (C): 25%</span> — <span style="color: #6e1212;">thymine (T): 23%</span></label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_2cf1_41f3" data-correct="false"><label for="option2"><span style="color: #003566;">cytosine (C): 3%</span> — <span style="color: #2a2000;">guanine (G): 47%</span> — <span style="color: #6e1212;">thymine (T): 47%</span></label>
+    <input type="radio" id="option2" name="answer_aadc_5d10" data-correct="true"><label for="option2"><span style="color: #004d00;">adenine (A): 23%</span> — <span style="color: #003566;">cytosine (C): 27%</span> — <span style="color: #6e1212;">thymine (T): 23%</span></label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_2cf1_41f3" data-correct="false"><label for="option3"><span style="color: #003566;">cytosine (C): 25%</span> — <span style="color: #2a2000;">guanine (G): 25%</span> — <span style="color: #6e1212;">thymine (T): 47%</span></label>
+    <input type="radio" id="option3" name="answer_aadc_5d10" data-correct="false"><label for="option3"><span style="color: #004d00;">adenine (A): 23%</span> — <span style="color: #003566;">cytosine (C): 25%</span> — <span style="color: #6e1212;">thymine (T): 25%</span></label>
   </li>
   <li>
-    <input type="radio" id="option4" name="answer_2cf1_41f3" data-correct="false"><label for="option4"><span style="color: #003566;">cytosine (C): 47%</span> — <span style="color: #2a2000;">guanine (G): 3%</span> — <span style="color: #6e1212;">thymine (T): 47%</span></label>
+    <input type="radio" id="option4" name="answer_aadc_5d10" data-correct="false"><label for="option4"><span style="color: #004d00;">adenine (A): 23%</span> — <span style="color: #003566;">cytosine (C): 23%</span> — <span style="color: #6e1212;">thymine (T): 27%</span></label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_2cf1_41f3()">Check Answer</button>
-<div id="result_2cf1_41f3" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_aadc_5d10()">Check Answer</button>
+<div id="result_aadc_5d10" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_2cf1_41f3() {
- const options = document.getElementsByName('answer_2cf1_41f3');
+function checkAnswer_aadc_5d10() {
+ const options = document.getElementsByName('answer_aadc_5d10');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_2cf1_41f3');
+ const resultDiv = document.getElementById('result_aadc_5d10');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';
