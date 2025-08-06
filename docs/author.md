@@ -33,8 +33,3 @@ Dr. Voss's work in OER development is driven by a passion for accessible and hig
 - Dash: [Donate with Dash](dash:XdDmwBVecEy9yyXKeD7hScLp7oN8rd4XNV?message=support%20qti_package_maker)
 - Patreon: [Support on Patreon](https://www.patreon.com/vosslab)
 - PayPal: [Donate via PayPal](https://paypal.me/vosslab)
-
----
-
-<a href="https://biologyproblems.org/">Biology Problems</a> © 2024 by Dr. Neil Voss is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img 
-src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
