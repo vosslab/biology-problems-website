@@ -1,16 +1,40 @@
 @font-face {
   font-family: 'Font Awesome 6 Free';
-  src: url('/assets/fonts/fa-solid-900.woff2') format('woff2'),
-       url('/assets/fonts/fa-solid-900.ttf') format('truetype');
+  src: url('/assets/fonts/fa-solid-900.woff2') format('woff2');
   font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Font Awesome 6 Free';
+  src: url('/assets/fonts/fa-regular-400.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Font Awesome 6 Brands';
+  src: url('/assets/fonts/fa-brands-400.woff2') format('woff2');
+  font-weight: 400;
   font-style: normal;
 }
 
 .fa {
   display: inline-block;
   margin-right: 2px;
-  font: normal normal normal 14px/1 "Font Awesome 6 Free";
+  font: normal normal 900 14px/1 "Font Awesome 6 Free";
   font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-brands {
+  font-family: 'Font Awesome 6 Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-size: inherit;
+  display: inline-block;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -26,6 +50,9 @@
 .fa-chalkboard:before { content: "\f51b"; }
 .fa-water:before { content: "\f773"; }
 
+.fa-creative-commons:before { content: "\f25e"; }
+.fa-creative-commons-by:before { content: "\f4e7"; }
+.fa-creative-commons-sa:before { content: "\f4ef"; }
 
 /* Flexbox layout for button container */
 .button-container {
