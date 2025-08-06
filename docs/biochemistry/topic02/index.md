@@ -1,4 +1,4 @@
-# Topic 2: Water Chemistry and pH
+# 2: Water and pH
 
 Properties of water, pH, pK<sub>a</sub>, and buffering systems.
 
