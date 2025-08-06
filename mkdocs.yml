@@ -70,29 +70,27 @@ nav:
 - "<i class='fa fa-home'></i> Home": index.md
 - "<i class='fa fa-flask'></i> Biochemistry":
   - 'List of Topics': biochemistry/index.md
-  - 'Topic 1: The Molecular Design of Life': biochemistry/topic01/index.md
-  - 'Topic 2: Water Chemistry and pH': biochemistry/topic02/index.md
-  - 'Topic 3: Amino Acids': biochemistry/topic03/index.md
-  - 'Topic 4: Proteins: Structure and Folding': biochemistry/topic04/index.md
-  - 'Topic 5: Protein Purification Techniques': biochemistry/topic05/index.md
-  - 'Topic 6: Enzymes Reactions and Thermodynamics': biochemistry/topic06/index.md
-  - 'Topic 7: Enzyme Kinetics and Inhibition': biochemistry/topic07/index.md
-  - 'Topic 8: Ligand Binding, Allostery, and Regulation': biochemistry/topic08/index.md
-  - 'Topic 9: Carbohydrates: Monosaccharides to Polysaccharides': biochemistry/topic09/index.md
-  - 'Topic 10: Nucleic Acids: Structure and Applications': biochemistry/topic10/index.md
-  - 'Topic 11: Biochemistry of Human Senses': biochemistry/topic11/index.md
+  - '1: Life Molecules': biochemistry/topic01/index.md
+  - '2: Water and pH': biochemistry/topic02/index.md
+  - '3: Amino Acids': biochemistry/topic03/index.md
+  - '4: Protein Structure': biochemistry/topic04/index.md
+  - '5: Protein Purification': biochemistry/topic05/index.md
+  - '6: Thermodynamics': biochemistry/topic06/index.md
+  - '7: Enzyme Kinetics': biochemistry/topic07/index.md
+  - '8: Enzyme Regulation': biochemistry/topic08/index.md
+  - '9: Carbohydrates': biochemistry/topic09/index.md
+  - '10: Nucleic Acids': biochemistry/topic10/index.md
+  - '11: Human Senses': biochemistry/topic11/index.md
 - "<i class='fa fa-dna'></i> Genetics":
   - 'List of Topics': genetics/index.md
-  - Topic 01: genetics/topic01/index.md
-  - Topic 02: genetics/topic02/index.md
-  - Topic 03: genetics/topic03/index.md
-  - Topic 04: genetics/topic04/index.md
-  - Topic 05: genetics/topic05/index.md
-  - Topic 06: genetics/topic06/index.md
-  - Topic 07: genetics/topic07/index.md
-  - Topic 08: genetics/topic08/index.md
-  - Topic 09: genetics/topic09/index.md
-  - Topic 10: genetics/topic10/index.md
+  - '1: Genetic Disorders': genetics/topic01/index.md
+  - '2: DNA and Tools': genetics/topic02/index.md
+  - '3: Mendelian Genetics': genetics/topic03/index.md
+  - '4: Modern Genetics': genetics/topic04/index.md
+  - '5: Gene Mapping': genetics/topic05/index.md
+  - '6: Chromosomes': genetics/topic06/index.md
+  - '7: Population Genetics': genetics/topic07/index.md
+  - '8: Gene Trees': genetics/topic08/index.md
 - "<i class='fa fa-book-open'></i> Tutorials":
   - 'List of Tutorials': tutorials/index.md
   - "<i class='fa fa-chalkboard'></i> Blackboard BBQ Text File Upload": tutorials/bbq_tutorial.md
