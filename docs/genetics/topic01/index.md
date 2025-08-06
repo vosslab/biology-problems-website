@@ -1,4 +1,4 @@
-# Topic 01
+# 1: Genetic Disorders
 
 Inheritance patterns, common genetic disorders, and terminology matching.
 
