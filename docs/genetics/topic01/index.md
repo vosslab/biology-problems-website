@@ -124,3 +124,67 @@ Inheritance patterns, common genetic disorders, and terminology matching.
 </details>
 
 
+## Metabolic Pathway Nutrient Supplementation
+
+<div id="beadle_tatum-metabolic_pathway-4_metabolites-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-beadle_tatum-metabolic_pathway-4_metabolites-questions.txt" download title="Download bbq-beadle_tatum-metabolic_pathway-4_metabolites-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-beadle_tatum-metabolic_pathway-4_metabolites-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-beadle_tatum-metabolic_pathway-4_metabolites.zip" download title="Download blackboard_qti_v2_1-beadle_tatum-metabolic_pathway-4_metabolites.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-beadle_tatum-metabolic_pathway-4_metabolites.zip)">
+    <i class="fa fa-download"></i>Blackboard QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-beadle_tatum-metabolic_pathway-4_metabolites.zip" download title="Download canvas_qti_v1_2-beadle_tatum-metabolic_pathway-4_metabolites.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-beadle_tatum-metabolic_pathway-4_metabolites.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-beadle_tatum-metabolic_pathway-4_metabolites.html', '_blank')" title="View human_readable-beadle_tatum-metabolic_pathway-4_metabolites.html" aria-label="Click to view the Human-Readable TXT file (human_readable-beadle_tatum-metabolic_pathway-4_metabolites.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click 
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Metabolic Pathway Nutrient Supplementation
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic01/downloads/selftest-beadle_tatum-metabolic_pathway-4_metabolites.html" %}
+
+</details>
+
+
+## Metabolic Pathway Supplementation
+
+<div id="beadle_tatum-metabolic_pathway-6_metabolites-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-beadle_tatum-metabolic_pathway-6_metabolites-questions.txt" download title="Download bbq-beadle_tatum-metabolic_pathway-6_metabolites-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-beadle_tatum-metabolic_pathway-6_metabolites-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-beadle_tatum-metabolic_pathway-6_metabolites.zip" download title="Download blackboard_qti_v2_1-beadle_tatum-metabolic_pathway-6_metabolites.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-beadle_tatum-metabolic_pathway-6_metabolites.zip)">
+    <i class="fa fa-download"></i>Blackboard QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-beadle_tatum-metabolic_pathway-6_metabolites.zip" download title="Download canvas_qti_v1_2-beadle_tatum-metabolic_pathway-6_metabolites.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-beadle_tatum-metabolic_pathway-6_metabolites.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-beadle_tatum-metabolic_pathway-6_metabolites.html', '_blank')" title="View human_readable-beadle_tatum-metabolic_pathway-6_metabolites.html" aria-label="Click to view the Human-Readable TXT file (human_readable-beadle_tatum-metabolic_pathway-6_metabolites.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click 
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Metabolic Pathway Supplementation
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic01/downloads/selftest-beadle_tatum-metabolic_pathway-6_metabolites.html" %}
+
+</details>
+
+
