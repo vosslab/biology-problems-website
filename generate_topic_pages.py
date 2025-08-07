@@ -162,13 +162,13 @@ def generate_download_button_row(bbq_file_name: str) -> str:
 			"prefix": "bbq",
 			"extension": "txt",
 			"button_class": "bb_text",
-			"display_name": "Blackboard TXT"
+			"display_name": "Blackboard Learn TXT"
 		},
 		"bb_qti": {
 			"prefix": "blackboard_qti_v2_1",
 			"extension": "zip",
 			"button_class": "bb_qti",
-			"display_name": "Blackboard QTI v2.1"
+			"display_name": "Blackboard Ultra QTI v2.1"
 		},
 		"canvas_qti": {
 			"prefix": "canvas_qti_v1_2",
