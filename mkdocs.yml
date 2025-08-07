@@ -87,11 +87,12 @@ nav:
   - '2: DNA Structure and Sequences': genetics/topic02/index.md
   - '3: DNA Profiling and Techniques': genetics/topic03/index.md
   - '4: Mendelian Genetics': genetics/topic04/index.md
-  - '5: Chromosomal Inheritance': genetics/topic05/index.md
-  - '6: Gene Mapping': genetics/topic06/index.md
-  - '7: Chromosomal Disorders': genetics/topic07/index.md
-  - '8: Population Genetics': genetics/topic08/index.md
-  - '9: Gene Trees': genetics/topic09/index.md
+  - '5: Allele and Gene Interactions': genetics/topic05/index.md
+  - '6: Chromosomal Inheritance': genetics/topic06/index.md
+  - '7: Gene Mapping': genetics/topic07/index.md
+  - '8: Chromosomal Disorders': genetics/topic08/index.md
+  - '9: Population Genetics': genetics/topic09/index.md
+  - '10: Gene Trees': genetics/topic10/index.md
 - "<i class='fa fa-book-open'></i> Tutorials":
   - 'List of Tutorials': tutorials/index.md
   - "<i class='fa fa-chalkboard'></i> Blackboard BBQ Text File Upload": tutorials/bbq_tutorial.md

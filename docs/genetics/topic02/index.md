@@ -1,4 +1,4 @@
-# 2: DNA and Tools
+# 2: DNA Structure and Sequences
 
 DNA composition, base pairing, nucleotide components, and double-helix complementarity.
 

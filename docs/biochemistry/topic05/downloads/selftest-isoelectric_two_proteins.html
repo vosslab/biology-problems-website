@@ -1,5 +1,5 @@
-<div id="question_html_697a_6ff0">
-<div id="statement_text_697a_6ff0">
+<div id="question_html_f7fb_18c3">
+<div id="statement_text_f7fb_18c3">
 <h6>Isoelectric Point Problem</h6> <p>A mixture of two proteins are to be separated by isoelectric focusing.</p> <table cellpadding="2" cellspacing="2" style="text-align:center; border: 1px solid black;">
 <tr>
 <th>Protein<br>Name</th>
@@ -7,47 +7,47 @@
 <th>Molecular<br>Weight</th>
 </tr>
 <tr>
-<td>Aprotinin (Apr)</td>
-<td align="right">9.2</td>
-<td align="right">6.5</td>
+<td>Ferritin (Fer)</td>
+<td align="right">5.5</td>
+<td align="right">19.8</td>
 </tr>
 <tr>
-<td>Histone (His)</td>
-<td align="right">10.8</td>
-<td align="right">15.0</td>
+<td>Fumerase (Fum)</td>
+<td align="right">7.6</td>
+<td align="right">48.5</td>
 </tr>
 </table>
-<p>Both protein samples are placed into a gel with a constant pH of 10.0. The gel is then placed into an electric field.<br>In which direction will each protein in the table migrate at <b>pH 10.0</b>?</p>
+<p>Both protein samples are placed into a gel with a constant pH of 6.5. The gel is then placed into an electric field.<br>In which direction will each protein in the table migrate at <b>pH 6.5</b>?</p>
 </div>
 <form>
-<ul id="choices_697a_6ff0">
+<ul id="choices_f7fb_18c3">
 <li>
-    <input type="radio" id="option0" name="answer_697a_6ff0" data-correct="false"><label for="option0">Both Apr and His will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal  </label>
+    <input type="radio" id="option0" name="answer_f7fb_18c3" data-correct="false"><label for="option0">Both Fer and Fum will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal  </label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_697a_6ff0" data-correct="false"><label for="option1">Both Apr and His will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal  </label>
+    <input type="radio" id="option1" name="answer_f7fb_18c3" data-correct="false"><label for="option1">Both Fer and Fum will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal  </label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_697a_6ff0" data-correct="false"><label for="option2">Apr will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal<br> His will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal  </label>
+    <input type="radio" id="option2" name="answer_f7fb_18c3" data-correct="false"><label for="option2">Fer will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal<br> Fum will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal  </label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_697a_6ff0" data-correct="true"><label for="option3">Apr will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal<br> His will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal  </label>
+    <input type="radio" id="option3" name="answer_f7fb_18c3" data-correct="true"><label for="option3">Fer will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal<br> Fum will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal  </label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_697a_6ff0()">Check Answer</button>
-<div id="result_697a_6ff0" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_f7fb_18c3()">Check Answer</button>
+<div id="result_f7fb_18c3" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_697a_6ff0() {
- const options = document.getElementsByName('answer_697a_6ff0');
+function checkAnswer_f7fb_18c3() {
+ const options = document.getElementsByName('answer_f7fb_18c3');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_697a_6ff0');
+ const resultDiv = document.getElementById('result_f7fb_18c3');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';

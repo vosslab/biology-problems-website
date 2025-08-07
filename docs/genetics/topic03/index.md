@@ -1,4 +1,4 @@
-# 3: Mendelian Genetics
+# 3: DNA Profiling and Techniques
 
 Restriction enzymes, recognition sequences, gel electrophoresis, and applications in DNA profiling.
 
@@ -30,6 +30,99 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
     </span>
   </summary>
   {% include "genetics/topic03/downloads/selftest-TFMS-english_palindromes.html" %}
+
+</details>
+
+
+## Blood Typing Test Interpretation
+
+<div id="blood_type_agglutination_test-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-blood_type_agglutination_test-questions.txt" download title="Download bbq-blood_type_agglutination_test-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-blood_type_agglutination_test-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-blood_type_agglutination_test.zip" download title="Download blackboard_qti_v2_1-blood_type_agglutination_test.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-blood_type_agglutination_test.zip)">
+    <i class="fa fa-download"></i>Blackboard QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-blood_type_agglutination_test.zip" download title="Download canvas_qti_v1_2-blood_type_agglutination_test.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-blood_type_agglutination_test.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+</div><details>
+  <summary>Click 
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Blood Typing Test Interpretation
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic03/downloads/selftest-blood_type_agglutination_test.html" %}
+
+</details>
+
+
+## HLA Genotype Inheritance (2 Markers)
+
+<div id="hla_genotype-2_markers-black-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-hla_genotype-2_markers-black-questions.txt" download title="Download bbq-hla_genotype-2_markers-black-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-hla_genotype-2_markers-black-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-hla_genotype-2_markers-black.zip" download title="Download blackboard_qti_v2_1-hla_genotype-2_markers-black.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-hla_genotype-2_markers-black.zip)">
+    <i class="fa fa-download"></i>Blackboard QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-hla_genotype-2_markers-black.zip" download title="Download canvas_qti_v1_2-hla_genotype-2_markers-black.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-hla_genotype-2_markers-black.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-hla_genotype-2_markers-black.html', '_blank')" title="View human_readable-hla_genotype-2_markers-black.html" aria-label="Click to view the Human-Readable TXT file (human_readable-hla_genotype-2_markers-black.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click 
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      HLA Genotype Inheritance (2 Markers)
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic03/downloads/selftest-hla_genotype-2_markers-black.html" %}
+
+</details>
+
+
+## HLA Genotype Inheritance (3 Colored Markers)
+
+<div id="hla_genotype-3_markers-color-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-hla_genotype-3_markers-color-questions.txt" download title="Download bbq-hla_genotype-3_markers-color-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-hla_genotype-3_markers-color-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-hla_genotype-3_markers-color.zip" download title="Download blackboard_qti_v2_1-hla_genotype-3_markers-color.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-hla_genotype-3_markers-color.zip)">
+    <i class="fa fa-download"></i>Blackboard QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-hla_genotype-3_markers-color.zip" download title="Download canvas_qti_v1_2-hla_genotype-3_markers-color.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-hla_genotype-3_markers-color.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-hla_genotype-3_markers-color.html', '_blank')" title="View human_readable-hla_genotype-3_markers-color.html" aria-label="Click to view the Human-Readable TXT file (human_readable-hla_genotype-3_markers-color.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click 
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      HLA Genotype Inheritance (3 Colored Markers)
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic03/downloads/selftest-hla_genotype-3_markers-color.html" %}
 
 </details>
 

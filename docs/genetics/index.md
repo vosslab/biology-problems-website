@@ -1,6 +1,6 @@
 # List of Genetics Topics
 
-Explore the key principles, methods, and applications in Genetics. Click on a topic to dive deeper.
+Explore the main topics in genetics. Click on a topic to dive deeper.
 
 ## Topics
 
@@ -13,20 +13,23 @@ Explore the key principles, methods, and applications in Genetics. Click on a to
 3. [DNA Profiling and Techniques](topic03/index.md)
     - Restriction enzymes, recognition sequences, gel electrophoresis, and applications in DNA profiling.
 
-4. [Mendelian Genetics and Inheritance](topic04/index.md)
-    - Mendel’s principles, Punnett squares, genotype/phenotype ratios, mono- and dihybrid crosses.
+4. [Mendelian Genetics](topic04/index.md)
+    - Mendel’s principles, Punnett squares, genotype/phenotype ratios, and autosomal pedigree analysis.
 
-5. [Meiosis, Pedigrees, and Probability](topic05/index.md)
-    - Chromosome behavior in meiosis, pedigree interpretation, sex-linkage, probability calculations.
+5. [Allele and Gene Interactions](topic05/index.md)
+    - Multigene crosses, degrees of dominance, and epistasis in metabolic and genetic pathways.
 
-6. [Gene Mapping and Recombination](topic06/index.md)
-    - Two- and three-point test crosses, genetic distances, interference, tetrad analysis.
+6. [Chromosomal Inheritance](topic06/index.md)
+    - Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheritance.
 
-7. [Chromosomal Structure and Disorders](topic07/index.md)
-    - Karyotypes, aneuploidy, rearrangements, deletions, translocations, polyploidy.
+7. [Gene Mapping and Recombination](topic07/index.md)
+    - Two- and three-point test crosses, genetic distances, interference, and tetrad analysis.
 
-8. [Population Genetics and Hardy-Weinberg](topic08/index.md)
-    - Allele frequencies, HW equilibrium, inbreeding, and population-level variation.
+8. [Chromosomal Disorders](topic08/index.md)
+    - Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploidy.
 
-9. [Gene Trees and Relationships](topic09/index.md)
+9. [Population Genetics](topic09/index.md)
+    - Allele frequencies, Hardy-Weinberg equilibrium, inbreeding, and population-level variation.
+
+10. [Gene Trees and Relationships](topic10/index.md)
     - Phylogenetics, tree comparisons, evolutionary distances, and patterns of inheritance.
