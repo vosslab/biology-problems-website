@@ -1,5 +1,5 @@
-<div id="question_html_4d4f_5502">
-<div id="statement_text_4d4f_5502">
+<div id="question_html_c29f_5099">
+<div id="statement_text_c29f_5099">
 <h6>Gel Migration Problem</h6> <p>In this task, data from an SDS-PAGE experiment, where proteins are separated based on molecular weight, is provided. The gel results table below shows some standard proteins with known molecular weights and one unknown protein.<br></p>
 <table cellpadding="2" cellspacing="2" style="text-align:center; border: 2px solid black; font-size: 14px;">
 <tr style="background-color: #f2f2f2; border-bottom: 3px solid grey;">
@@ -8,80 +8,77 @@
 <th>Migration<br>Distance (cm)</th>
 </tr>
 <tr>
-<td>Histone (His)</td>
-<td align="center">15.0</td>
-<td align="center">3.33</td>
+<td>Cytochrome c (Cyt)</td>
+<td align="center">13.0</td>
+<td align="center">3.45</td>
 </tr>
 <tr>
-<td>Phospholypase (Pho)</td>
-<td align="center">19.5</td>
-<td align="center">3.12</td>
+<td>Avidin (Av)</td>
+<td align="center">16.9</td>
+<td align="center">3.24</td>
 </tr>
 <tr>
-<td>Serine Protease (Ser)</td>
+<td>Agglutinin (Agg)</td>
 <td align="center">22.0</td>
 <td align="center">3.03</td>
 </tr>
 <tr>
-<td>Prostate-Specific Antigen (PSA)</td>
-<td align="center">30.0</td>
-<td align="center">2.78</td>
+<td>Green Fluorescent Protein (GFP)</td>
+<td align="center">28.0</td>
+<td align="center">2.83</td>
 </tr>
 <tr>
-<td>Lipase (Lip)</td>
-<td align="center">40.0</td>
-<td align="center">2.55</td>
+<td>G3P Dehydrogenase (GDH)</td>
+<td align="center">36.0</td>
+<td align="center">2.63</td>
 </tr>
 <tr>
-<td>Fumerase (Fum)</td>
-<td align="center">48.5</td>
-<td align="center">2.39</td>
+<td>Neuraminidase (Neu)</td>
+<td align="center">50.0</td>
+<td align="center">2.37</td>
 </tr>
 <tr>
-<td>α-Amylase (Amy)</td>
-<td align="center">61.0</td>
-<td align="center">2.21</td>
+<td>Fibrinogen (Fib)</td>
+<td align="center">63.5</td>
+<td align="center">2.18</td>
 </tr>
 <tr style="border-top: 3px double gray; background-color: #fffacd;">
-<td>Unknown</td>  <td align="center"><strong>?</strong></td>  <td align="center">2.34</td>
+<td>Unknown</td>  <td align="center"><strong>?</strong></td>  <td align="center">2.92</td>
 </tr>
 </table>
 <br>Estimate the molecular weight of the unknown protein by comparing its gel migration distance with those of the standards.</div>
 <form>
-<ul id="choices_4d4f_5502">
+<ul id="choices_c29f_5099">
 <li>
-    <input type="radio" id="option0" name="answer_4d4f_5502" data-correct="false"><label for="option0">17 kDa  </label>
+    <input type="radio" id="option0" name="answer_c29f_5099" data-correct="false"><label for="option0">14 kDa  </label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_4d4f_5502" data-correct="false"><label for="option1">20 kDa  </label>
+    <input type="radio" id="option1" name="answer_c29f_5099" data-correct="false"><label for="option1">19 kDa  </label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_4d4f_5502" data-correct="false"><label for="option2">26 kDa  </label>
+    <input type="radio" id="option2" name="answer_c29f_5099" data-correct="true"><label for="option2">25 kDa  </label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_4d4f_5502" data-correct="false"><label for="option3">34 kDa  </label>
+    <input type="radio" id="option3" name="answer_c29f_5099" data-correct="false"><label for="option3">32 kDa  </label>
   </li>
   <li>
-    <input type="radio" id="option4" name="answer_4d4f_5502" data-correct="false"><label for="option4">45 kDa  </label>
-  </li>
-  <li>
-    <input type="radio" id="option5" name="answer_4d4f_5502" data-correct="true"><label for="option5">52 kDa  </label>
+    <input type="radio" id="option4" name="answer_c29f_5099" data-correct="false"><label for="option4">43 kDa  </label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_4d4f_5502()">Check Answer</button>
-<div id="result_4d4f_5502" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_c29f_5099()">Check Answer</button>
+<div id="result_c29f_5099" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_4d4f_5502() {
- const options = document.getElementsByName('answer_4d4f_5502');
+function checkAnswer_c29f_5099() {
+ const options = document.getElementsByName('answer_c29f_5099');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_4d4f_5502');
+ const resultDiv = document.getElementById('result_c29f_5099');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';

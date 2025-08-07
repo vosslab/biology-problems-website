@@ -1,37 +1,37 @@
-<div id="question_html_0015_4b9b">
-<div id="statement_text_0015_4b9b"><p>Which one of the following statements is<strong> <span style="color: #169179;"><strong>TRUE</strong></span> </strong> concerning the structure of DNA?</p></div>
+<div id="question_html_0c40_cc0f">
+<div id="statement_text_0c40_cc0f"><p>Which one of the following statements is<strong> <span style="color: #ba372a;"><strong>FALSE</strong></span> </strong> concerning the structure of DNA?</p></div>
 <form>
-<ul id="choices_0015_4b9b">
+<ul id="choices_0c40_cc0f">
 <li>
-    <input type="radio" id="option0" name="answer_0015_4b9b" data-correct="false"><label for="option0">pyrimidine bases pair up with like pyrimidine bases</label>
+    <input type="radio" id="option0" name="answer_0c40_cc0f" data-correct="false"><label for="option0">purine bases pair up with pyrimidine bases</label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_0015_4b9b" data-correct="false"><label for="option1">the DNA bases for each strand face the outside of the helix</label>
+    <input type="radio" id="option1" name="answer_0c40_cc0f" data-correct="true"><label for="option1">DNA contains two strands, with both strands running the same direction</label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_0015_4b9b" data-correct="false"><label for="option2">covalent bonds hold the two strands together</label>
+    <input type="radio" id="option2" name="answer_0c40_cc0f" data-correct="false"><label for="option2">the DNA bases for each strand face the inside of the helix</label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_0015_4b9b" data-correct="true"><label for="option3">the phosphate groups are on the outside of the DNA double helix</label>
+    <input type="radio" id="option3" name="answer_0c40_cc0f" data-correct="false"><label for="option3">the backbone contains only phosphate and sugar</label>
   </li>
   <li>
-    <input type="radio" id="option4" name="answer_0015_4b9b" data-correct="false"><label for="option4">the backbone contains only phosphate and nucleobase</label>
+    <input type="radio" id="option4" name="answer_0c40_cc0f" data-correct="false"><label for="option4">the helix is made of nucleotides</label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_0015_4b9b()">Check Answer</button>
-<div id="result_0015_4b9b" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_0c40_cc0f()">Check Answer</button>
+<div id="result_0c40_cc0f" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_0015_4b9b() {
- const options = document.getElementsByName('answer_0015_4b9b');
+function checkAnswer_0c40_cc0f() {
+ const options = document.getElementsByName('answer_0c40_cc0f');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_0015_4b9b');
+ const resultDiv = document.getElementById('result_0c40_cc0f');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';
