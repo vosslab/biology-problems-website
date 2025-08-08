@@ -1,4 +1,4 @@
-# 3: DNA Profiling and Techniques
+# 3: DNA Profiling
 
 Restriction enzymes, recognition sequences, gel electrophoresis, and applications in DNA profiling.
 

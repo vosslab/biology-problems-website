@@ -1,9 +1,9 @@
-<div id="question_html_6cb9_9e60">
-<div id="statement_text_6cb9_9e60">In his experiments, Mendel discovered that the purple flower phenotype was dominant to the white flower phenotype. Which one of the following Punnett squares represents a backcross between a true-breeding white flower plant from the P generation and a purple F<sub>1</sub> hybrid plant?</div>
+<div id="question_html_b78b_9e60">
+<div id="statement_text_b78b_9e60">In his experiments, Mendel discovered that the purple flower phenotype was dominant to the white flower phenotype. Which one of the following Punnett squares represents a cross of two different true-breeding purple flower plants?</div>
 <form>
-<ul id="choices_6cb9_9e60">
+<ul id="choices_b78b_9e60">
 <li>
-    <input type="radio" id="option0" name="answer_6cb9_9e60" data-correct="false"><label for="option0"><table border="1" cellpadding="4" cellspacing="0" style="margin: 2px; border-collapse: collapse;">
+    <input type="radio" id="option0" name="answer_b78b_9e60" data-correct="true"><label for="option0"><table border="1" cellpadding="4" cellspacing="0" style="margin: 2px; border-collapse: collapse;">
 <tr>
 <td></td>
 <td align="center"><span style="font-family: monospace; font-weight: bold;">A</span></td>
@@ -23,7 +23,7 @@
 <br></label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_6cb9_9e60" data-correct="false"><label for="option1"><table border="1" cellpadding="4" cellspacing="0" style="margin: 2px; border-collapse: collapse;">
+    <input type="radio" id="option1" name="answer_b78b_9e60" data-correct="false"><label for="option1"><table border="1" cellpadding="4" cellspacing="0" style="margin: 2px; border-collapse: collapse;">
 <tr>
 <td></td>
 <td align="center"><span style="font-family: monospace; font-weight: bold;">A</span></td>
@@ -43,7 +43,7 @@
 <br></label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_6cb9_9e60" data-correct="false"><label for="option2"><table border="1" cellpadding="4" cellspacing="0" style="margin: 2px; border-collapse: collapse;">
+    <input type="radio" id="option2" name="answer_b78b_9e60" data-correct="false"><label for="option2"><table border="1" cellpadding="4" cellspacing="0" style="margin: 2px; border-collapse: collapse;">
 <tr>
 <td></td>
 <td align="center"><span style="font-family: monospace; font-weight: bold;">a</span></td>
@@ -63,7 +63,7 @@
 <br></label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_6cb9_9e60" data-correct="false"><label for="option3"><table border="1" cellpadding="4" cellspacing="0" style="margin: 2px; border-collapse: collapse;">
+    <input type="radio" id="option3" name="answer_b78b_9e60" data-correct="false"><label for="option3"><table border="1" cellpadding="4" cellspacing="0" style="margin: 2px; border-collapse: collapse;">
 <tr>
 <td></td>
 <td align="center"><span style="font-family: monospace; font-weight: bold;">A</span></td>
@@ -83,7 +83,7 @@
 <br></label>
   </li>
   <li>
-    <input type="radio" id="option4" name="answer_6cb9_9e60" data-correct="true"><label for="option4"><table border="1" cellpadding="4" cellspacing="0" style="margin: 2px; border-collapse: collapse;">
+    <input type="radio" id="option4" name="answer_b78b_9e60" data-correct="false"><label for="option4"><table border="1" cellpadding="4" cellspacing="0" style="margin: 2px; border-collapse: collapse;">
 <tr>
 <td></td>
 <td align="center"><span style="font-family: monospace; font-weight: bold;">a</span></td>
@@ -103,7 +103,7 @@
 <br></label>
   </li>
   <li>
-    <input type="radio" id="option5" name="answer_6cb9_9e60" data-correct="false"><label for="option5"><table border="1" cellpadding="4" cellspacing="0" style="margin: 2px; border-collapse: collapse;">
+    <input type="radio" id="option5" name="answer_b78b_9e60" data-correct="false"><label for="option5"><table border="1" cellpadding="4" cellspacing="0" style="margin: 2px; border-collapse: collapse;">
 <tr>
 <td></td>
 <td align="center"><span style="font-family: monospace; font-weight: bold;">a</span></td>
@@ -123,20 +123,20 @@
 <br></label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_6cb9_9e60()">Check Answer</button>
-<div id="result_6cb9_9e60" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_b78b_9e60()">Check Answer</button>
+<div id="result_b78b_9e60" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_6cb9_9e60() {
- const options = document.getElementsByName('answer_6cb9_9e60');
+function checkAnswer_b78b_9e60() {
+ const options = document.getElementsByName('answer_b78b_9e60');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_6cb9_9e60');
+ const resultDiv = document.getElementById('result_b78b_9e60');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';
