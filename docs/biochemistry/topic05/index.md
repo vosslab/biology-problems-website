@@ -5,11 +5,11 @@ Isolation and analysis methods, chromatography, electrophoresis.
 ## Cell Disruption Techniques Identification
 
 <div id="MC-cell_disruption-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MC-cell_disruption-questions.txt" download title="Download bbq-MC-cell_disruption-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-MC-cell_disruption-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard TXT
+<a class="md-button custom-button bb_text" href="bbq-MC-cell_disruption-questions.txt" download title="Download bbq-MC-cell_disruption-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-cell_disruption-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MC-cell_disruption.zip" download title="Download blackboard_qti_v2_1-MC-cell_disruption.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-MC-cell_disruption.zip)">
-    <i class="fa fa-download"></i>Blackboard QTI v2.1
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MC-cell_disruption.zip" download title="Download blackboard_qti_v2_1-MC-cell_disruption.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MC-cell_disruption.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MC-cell_disruption.zip" download title="Download canvas_qti_v1_2-MC-cell_disruption.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MC-cell_disruption.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -37,11 +37,11 @@ Isolation and analysis methods, chromatography, electrophoresis.
 ## Types of Column Chromatography
 
 <div id="MC-chromatography-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MC-chromatography-questions.txt" download title="Download bbq-MC-chromatography-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-MC-chromatography-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard TXT
+<a class="md-button custom-button bb_text" href="bbq-MC-chromatography-questions.txt" download title="Download bbq-MC-chromatography-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-chromatography-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MC-chromatography.zip" download title="Download blackboard_qti_v2_1-MC-chromatography.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-MC-chromatography.zip)">
-    <i class="fa fa-download"></i>Blackboard QTI v2.1
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MC-chromatography.zip" download title="Download blackboard_qti_v2_1-MC-chromatography.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MC-chromatography.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MC-chromatography.zip" download title="Download canvas_qti_v1_2-MC-chromatography.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MC-chromatography.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -69,11 +69,11 @@ Isolation and analysis methods, chromatography, electrophoresis.
 ## Identification of Macromolecules in Gel Electrophoresis Processes
 
 <div id="MC-protein_v_dna_gels-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MC-protein_v_dna_gels-questions.txt" download title="Download bbq-MC-protein_v_dna_gels-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-MC-protein_v_dna_gels-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard TXT
+<a class="md-button custom-button bb_text" href="bbq-MC-protein_v_dna_gels-questions.txt" download title="Download bbq-MC-protein_v_dna_gels-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-protein_v_dna_gels-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MC-protein_v_dna_gels.zip" download title="Download blackboard_qti_v2_1-MC-protein_v_dna_gels.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-MC-protein_v_dna_gels.zip)">
-    <i class="fa fa-download"></i>Blackboard QTI v2.1
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MC-protein_v_dna_gels.zip" download title="Download blackboard_qti_v2_1-MC-protein_v_dna_gels.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MC-protein_v_dna_gels.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MC-protein_v_dna_gels.zip" download title="Download canvas_qti_v1_2-MC-protein_v_dna_gels.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MC-protein_v_dna_gels.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -101,11 +101,11 @@ Isolation and analysis methods, chromatography, electrophoresis.
 ## Determining Net Charge of Proteins at Given pH
 
 <div id="isoelectric_one_protein-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-isoelectric_one_protein-questions.txt" download title="Download bbq-isoelectric_one_protein-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-isoelectric_one_protein-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard TXT
+<a class="md-button custom-button bb_text" href="bbq-isoelectric_one_protein-questions.txt" download title="Download bbq-isoelectric_one_protein-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-isoelectric_one_protein-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-isoelectric_one_protein.zip" download title="Download blackboard_qti_v2_1-isoelectric_one_protein.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-isoelectric_one_protein.zip)">
-    <i class="fa fa-download"></i>Blackboard QTI v2.1
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-isoelectric_one_protein.zip" download title="Download blackboard_qti_v2_1-isoelectric_one_protein.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-isoelectric_one_protein.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-isoelectric_one_protein.zip" download title="Download canvas_qti_v1_2-isoelectric_one_protein.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-isoelectric_one_protein.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -133,11 +133,11 @@ Isolation and analysis methods, chromatography, electrophoresis.
 ## Protein Migration Direction Based on Isoelectric Point
 
 <div id="isoelectric_two_proteins-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-isoelectric_two_proteins-questions.txt" download title="Download bbq-isoelectric_two_proteins-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-isoelectric_two_proteins-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard TXT
+<a class="md-button custom-button bb_text" href="bbq-isoelectric_two_proteins-questions.txt" download title="Download bbq-isoelectric_two_proteins-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-isoelectric_two_proteins-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-isoelectric_two_proteins.zip" download title="Download blackboard_qti_v2_1-isoelectric_two_proteins.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-isoelectric_two_proteins.zip)">
-    <i class="fa fa-download"></i>Blackboard QTI v2.1
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-isoelectric_two_proteins.zip" download title="Download blackboard_qti_v2_1-isoelectric_two_proteins.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-isoelectric_two_proteins.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-isoelectric_two_proteins.zip" download title="Download canvas_qti_v1_2-isoelectric_two_proteins.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-isoelectric_two_proteins.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -165,11 +165,11 @@ Isolation and analysis methods, chromatography, electrophoresis.
 ## Estimating Protein Molecular Weight from SDS-PAGE Migration
 
 <div id="protein_gel_migration-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-protein_gel_migration-questions.txt" download title="Download bbq-protein_gel_migration-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-protein_gel_migration-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard TXT
+<a class="md-button custom-button bb_text" href="bbq-protein_gel_migration-questions.txt" download title="Download bbq-protein_gel_migration-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-protein_gel_migration-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-protein_gel_migration.zip" download title="Download blackboard_qti_v2_1-protein_gel_migration.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-protein_gel_migration.zip)">
-    <i class="fa fa-download"></i>Blackboard QTI v2.1
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-protein_gel_migration.zip" download title="Download blackboard_qti_v2_1-protein_gel_migration.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-protein_gel_migration.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-protein_gel_migration.zip" download title="Download canvas_qti_v1_2-protein_gel_migration.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-protein_gel_migration.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2

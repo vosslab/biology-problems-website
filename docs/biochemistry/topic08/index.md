@@ -5,11 +5,11 @@ Ligand binding, allosteric effects, and feedback regulation.
 ## Allosteric Enzymes in Metabolic Pathways
 
 <div id="metabolic_pathway_allosteric-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-metabolic_pathway_allosteric-questions.txt" download title="Download bbq-metabolic_pathway_allosteric-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-metabolic_pathway_allosteric-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard TXT
+<a class="md-button custom-button bb_text" href="bbq-metabolic_pathway_allosteric-questions.txt" download title="Download bbq-metabolic_pathway_allosteric-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-metabolic_pathway_allosteric-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-metabolic_pathway_allosteric.zip" download title="Download blackboard_qti_v2_1-metabolic_pathway_allosteric.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-metabolic_pathway_allosteric.zip)">
-    <i class="fa fa-download"></i>Blackboard QTI v2.1
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-metabolic_pathway_allosteric.zip" download title="Download blackboard_qti_v2_1-metabolic_pathway_allosteric.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-metabolic_pathway_allosteric.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-metabolic_pathway_allosteric.zip" download title="Download canvas_qti_v1_2-metabolic_pathway_allosteric.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-metabolic_pathway_allosteric.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2

@@ -5,8 +5,8 @@ Inheritance patterns, common genetic disorders, and terminology matching.
 ## Matching Genetic Disorders to Descriptions
 
 <div id="MATCH-genetic_disorders-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MATCH-genetic_disorders-questions.txt" download title="Download bbq-MATCH-genetic_disorders-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-MATCH-genetic_disorders-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard TXT
+<a class="md-button custom-button bb_text" href="bbq-MATCH-genetic_disorders-questions.txt" download title="Download bbq-MATCH-genetic_disorders-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-genetic_disorders-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-genetic_disorders.zip" download title="Download canvas_qti_v1_2-MATCH-genetic_disorders.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-genetic_disorders.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -34,8 +34,8 @@ Inheritance patterns, common genetic disorders, and terminology matching.
 ## Matching Genetic Terminology to Definitions
 
 <div id="MATCH-genetics_terminology-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MATCH-genetics_terminology-questions.txt" download title="Download bbq-MATCH-genetics_terminology-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-MATCH-genetics_terminology-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard TXT
+<a class="md-button custom-button bb_text" href="bbq-MATCH-genetics_terminology-questions.txt" download title="Download bbq-MATCH-genetics_terminology-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-genetics_terminology-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-genetics_terminology.zip" download title="Download canvas_qti_v1_2-MATCH-genetics_terminology.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-genetics_terminology.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -63,11 +63,11 @@ Inheritance patterns, common genetic disorders, and terminology matching.
 ## Selection of Genetic Disorders by Description
 
 <div id="MC-genetic_disorders-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MC-genetic_disorders-questions.txt" download title="Download bbq-MC-genetic_disorders-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-MC-genetic_disorders-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard TXT
+<a class="md-button custom-button bb_text" href="bbq-MC-genetic_disorders-questions.txt" download title="Download bbq-MC-genetic_disorders-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-genetic_disorders-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MC-genetic_disorders.zip" download title="Download blackboard_qti_v2_1-MC-genetic_disorders.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-MC-genetic_disorders.zip)">
-    <i class="fa fa-download"></i>Blackboard QTI v2.1
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MC-genetic_disorders.zip" download title="Download blackboard_qti_v2_1-MC-genetic_disorders.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MC-genetic_disorders.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MC-genetic_disorders.zip" download title="Download canvas_qti_v1_2-MC-genetic_disorders.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MC-genetic_disorders.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -95,11 +95,11 @@ Inheritance patterns, common genetic disorders, and terminology matching.
 ## Selection Genetic Terminology by Definitions
 
 <div id="MC-genetics_terminology-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MC-genetics_terminology-questions.txt" download title="Download bbq-MC-genetics_terminology-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-MC-genetics_terminology-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard TXT
+<a class="md-button custom-button bb_text" href="bbq-MC-genetics_terminology-questions.txt" download title="Download bbq-MC-genetics_terminology-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-genetics_terminology-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MC-genetics_terminology.zip" download title="Download blackboard_qti_v2_1-MC-genetics_terminology.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-MC-genetics_terminology.zip)">
-    <i class="fa fa-download"></i>Blackboard QTI v2.1
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MC-genetics_terminology.zip" download title="Download blackboard_qti_v2_1-MC-genetics_terminology.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MC-genetics_terminology.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MC-genetics_terminology.zip" download title="Download canvas_qti_v1_2-MC-genetics_terminology.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MC-genetics_terminology.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -127,11 +127,11 @@ Inheritance patterns, common genetic disorders, and terminology matching.
 ## Metabolic Pathway Nutrient Supplementation
 
 <div id="beadle_tatum-metabolic_pathway-4_metabolites-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-beadle_tatum-metabolic_pathway-4_metabolites-questions.txt" download title="Download bbq-beadle_tatum-metabolic_pathway-4_metabolites-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-beadle_tatum-metabolic_pathway-4_metabolites-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard TXT
+<a class="md-button custom-button bb_text" href="bbq-beadle_tatum-metabolic_pathway-4_metabolites-questions.txt" download title="Download bbq-beadle_tatum-metabolic_pathway-4_metabolites-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-beadle_tatum-metabolic_pathway-4_metabolites-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-beadle_tatum-metabolic_pathway-4_metabolites.zip" download title="Download blackboard_qti_v2_1-beadle_tatum-metabolic_pathway-4_metabolites.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-beadle_tatum-metabolic_pathway-4_metabolites.zip)">
-    <i class="fa fa-download"></i>Blackboard QTI v2.1
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-beadle_tatum-metabolic_pathway-4_metabolites.zip" download title="Download blackboard_qti_v2_1-beadle_tatum-metabolic_pathway-4_metabolites.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-beadle_tatum-metabolic_pathway-4_metabolites.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-beadle_tatum-metabolic_pathway-4_metabolites.zip" download title="Download canvas_qti_v1_2-beadle_tatum-metabolic_pathway-4_metabolites.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-beadle_tatum-metabolic_pathway-4_metabolites.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -159,11 +159,11 @@ Inheritance patterns, common genetic disorders, and terminology matching.
 ## Metabolic Pathway Supplementation
 
 <div id="beadle_tatum-metabolic_pathway-6_metabolites-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-beadle_tatum-metabolic_pathway-6_metabolites-questions.txt" download title="Download bbq-beadle_tatum-metabolic_pathway-6_metabolites-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-beadle_tatum-metabolic_pathway-6_metabolites-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard TXT
+<a class="md-button custom-button bb_text" href="bbq-beadle_tatum-metabolic_pathway-6_metabolites-questions.txt" download title="Download bbq-beadle_tatum-metabolic_pathway-6_metabolites-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-beadle_tatum-metabolic_pathway-6_metabolites-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-beadle_tatum-metabolic_pathway-6_metabolites.zip" download title="Download blackboard_qti_v2_1-beadle_tatum-metabolic_pathway-6_metabolites.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-beadle_tatum-metabolic_pathway-6_metabolites.zip)">
-    <i class="fa fa-download"></i>Blackboard QTI v2.1
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-beadle_tatum-metabolic_pathway-6_metabolites.zip" download title="Download blackboard_qti_v2_1-beadle_tatum-metabolic_pathway-6_metabolites.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-beadle_tatum-metabolic_pathway-6_metabolites.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-beadle_tatum-metabolic_pathway-6_metabolites.zip" download title="Download canvas_qti_v1_2-beadle_tatum-metabolic_pathway-6_metabolites.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-beadle_tatum-metabolic_pathway-6_metabolites.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2

@@ -5,11 +5,11 @@ Amino acid structure, types, and roles in protein structure.
 ## Determining Dipeptide Sequence from Structure
 
 <div id="2_amino_acids-polypeptide_mc_sequence-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-2_amino_acids-polypeptide_mc_sequence-questions.txt" download title="Download bbq-2_amino_acids-polypeptide_mc_sequence-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-2_amino_acids-polypeptide_mc_sequence-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard TXT
+<a class="md-button custom-button bb_text" href="bbq-2_amino_acids-polypeptide_mc_sequence-questions.txt" download title="Download bbq-2_amino_acids-polypeptide_mc_sequence-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-2_amino_acids-polypeptide_mc_sequence-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-2_amino_acids-polypeptide_mc_sequence.zip" download title="Download blackboard_qti_v2_1-2_amino_acids-polypeptide_mc_sequence.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-2_amino_acids-polypeptide_mc_sequence.zip)">
-    <i class="fa fa-download"></i>Blackboard QTI v2.1
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-2_amino_acids-polypeptide_mc_sequence.zip" download title="Download blackboard_qti_v2_1-2_amino_acids-polypeptide_mc_sequence.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-2_amino_acids-polypeptide_mc_sequence.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-2_amino_acids-polypeptide_mc_sequence.zip" download title="Download canvas_qti_v1_2-2_amino_acids-polypeptide_mc_sequence.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-2_amino_acids-polypeptide_mc_sequence.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -34,11 +34,11 @@ Amino acid structure, types, and roles in protein structure.
 ## Identification of Amino Acids by Structural and Chemical Properties
 
 <div id="MC-amino_acids-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MC-amino_acids-questions.txt" download title="Download bbq-MC-amino_acids-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-MC-amino_acids-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard TXT
+<a class="md-button custom-button bb_text" href="bbq-MC-amino_acids-questions.txt" download title="Download bbq-MC-amino_acids-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-amino_acids-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MC-amino_acids.zip" download title="Download blackboard_qti_v2_1-MC-amino_acids.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-MC-amino_acids.zip)">
-    <i class="fa fa-download"></i>Blackboard QTI v2.1
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MC-amino_acids.zip" download title="Download blackboard_qti_v2_1-MC-amino_acids.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MC-amino_acids.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MC-amino_acids.zip" download title="Download canvas_qti_v1_2-MC-amino_acids.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MC-amino_acids.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -66,11 +66,11 @@ Amino acid structure, types, and roles in protein structure.
 ## Amino Acids from Chemical Structures
 
 <div id="which_amino_acid_mc-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-which_amino_acid_mc-questions.txt" download title="Download bbq-which_amino_acid_mc-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-which_amino_acid_mc-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard TXT
+<a class="md-button custom-button bb_text" href="bbq-which_amino_acid_mc-questions.txt" download title="Download bbq-which_amino_acid_mc-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-which_amino_acid_mc-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-which_amino_acid_mc.zip" download title="Download blackboard_qti_v2_1-which_amino_acid_mc.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-which_amino_acid_mc.zip)">
-    <i class="fa fa-download"></i>Blackboard QTI v2.1
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-which_amino_acid_mc.zip" download title="Download blackboard_qti_v2_1-which_amino_acid_mc.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-which_amino_acid_mc.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-which_amino_acid_mc.zip" download title="Download canvas_qti_v1_2-which_amino_acid_mc.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-which_amino_acid_mc.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
