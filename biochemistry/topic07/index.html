@@ -1283,8 +1283,8 @@
       example problem
     </span>
   </summary>
-  <div id="question_html_14fa_9e08">
-  <div id="statement_text_14fa_9e08">
+  <div id="question_html_cd50_8feb">
+  <div id="statement_text_cd50_8feb">
   <p>A series of enzymes catalyze the reactions in the following metabolic pathway:</p>
   <table border="0" style="border-collapse: collapse;">
   <tr>
@@ -1300,6 +1300,8 @@
   <td></td>
   </tr>
   <tr>
+  <td style="font-size: 150%; text-align:center;" colspan="3"><strong><span style="color: #59b300">S</span></strong></td>
+  <td style="text-align:center; vertical-align:top;"> &xrarr; </td>
   <td style="font-size: 150%; text-align:center;" colspan="3"><strong><span style="color: #009900">T</span></strong></td>
   <td style="text-align:center; vertical-align:top;"> &xrarr; </td>
   <td style="font-size: 150%; text-align:center;" colspan="3"><strong><span style="color: #00b38f">U</span></strong></td>
@@ -1307,8 +1309,6 @@
   <td style="font-size: 150%; text-align:center;" colspan="3"><strong><span style="color: #00b3b3">V</span></strong></td>
   <td style="text-align:center; vertical-align:top;"> &xrarr; </td>
   <td style="font-size: 150%; text-align:center;" colspan="3"><strong><span style="color: #0a9bf5">W</span></strong></td>
-  <td style="text-align:center; vertical-align:top;"> &xrarr; </td>
-  <td style="font-size: 150%; text-align:center;" colspan="3"><strong><span style="color: #0039e6">X</span></strong></td>
   </tr>
   <tr>
   <td><span style="font-size: 1px; color: white;"> </span></td>
@@ -1333,40 +1333,40 @@
   </tr>
   </table>
   <p>Understanding the type of enzyme inhibition or activation is crucial for developing effective drugs and understanding metabolic regulation.</p>
-  <strong>enzyme 1</strong> converts substrate <strong><span style="color: #009900">T</span></strong> into product <strong><span style="color: #00b38f">U</span></strong>. <p>The end product <strong><span style="color: #0039e6">X</span></strong> of this pathway binds to <strong>enzyme 1</strong>in its active site blocking the substrate.<br>This binding <strong><span style="color: brown">decreases</span></strong> the activity of the enzyme.<br>Determine the type of enzyme inhibition or activation described:</p>
+  <strong>enzyme 1</strong> converts substrate <strong><span style="color: #59b300">S</span></strong> into product <strong><span style="color: #009900">T</span></strong>. <p>The end product <strong><span style="color: #0a9bf5">W</span></strong> of this pathway binds to <strong>enzyme 1</strong>at a location far away from its active site.<br>This binding <strong><span style="color: brown">decreases</span></strong> the activity of the enzyme.<br>Determine the type of enzyme inhibition or activation described:</p>
   </div>
   <form>
-  <ul id="choices_14fa_9e08">
+  <ul id="choices_cd50_8feb">
   <li>
-      <input type="radio" id="option0" name="answer_14fa_9e08" data-correct="false"><label for="option0">metabolic blocker  </label>
+      <input type="radio" id="option0" name="answer_cd50_8feb" data-correct="false"><label for="option0">competitive inhibitor  </label>
     </li>
     <li>
-      <input type="radio" id="option1" name="answer_14fa_9e08" data-correct="false"><label for="option1">non-competitive inhibitor  </label>
+      <input type="radio" id="option1" name="answer_cd50_8feb" data-correct="false"><label for="option1">enzyme activator  </label>
     </li>
     <li>
-      <input type="radio" id="option2" name="answer_14fa_9e08" data-correct="true"><label for="option2">competitive inhibitor  </label>
+      <input type="radio" id="option2" name="answer_cd50_8feb" data-correct="false"><label for="option2">enzyme suppressor  </label>
     </li>
     <li>
-      <input type="radio" id="option3" name="answer_14fa_9e08" data-correct="false"><label for="option3">un-competitive inhibitor  </label>
+      <input type="radio" id="option3" name="answer_cd50_8feb" data-correct="false"><label for="option3">un-competitive inhibitor  </label>
     </li>
     <li>
-      <input type="radio" id="option4" name="answer_14fa_9e08" data-correct="false"><label for="option4">enzyme activator  </label>
+      <input type="radio" id="option4" name="answer_cd50_8feb" data-correct="true"><label for="option4">non-competitive inhibitor  </label>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_14fa_9e08()">Check Answer</button>
-  <div id="result_14fa_9e08" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_cd50_8feb()">Check Answer</button>
+  <div id="result_cd50_8feb" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
   </form>
   <br>
   </div><script>
-  function checkAnswer_14fa_9e08() {
-   const options = document.getElementsByName('answer_14fa_9e08');
+  function checkAnswer_cd50_8feb() {
+   const options = document.getElementsByName('answer_cd50_8feb');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_14fa_9e08');
+   const resultDiv = document.getElementById('result_cd50_8feb');
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.style.color = 'green';
@@ -1412,37 +1412,37 @@
       example problem
     </span>
   </summary>
-  <div id="question_html_5159_75f4">
-  <div id="statement_text_5159_75f4"><p>Which one of the following terms related to enzyme catalysis correspond to the definition <span style="font-size: 1em;"><strong>'non-protein small molecules that some enzymes require for activity'</strong></span>.</p></div>
+  <div id="question_html_d3ac_0a9b">
+  <div id="statement_text_d3ac_0a9b"><p>Which one of the following terms related to enzyme catalysis correspond to the definition <span style="font-size: 1em;"><strong>'usually a small molecule, such as a hormone, neurotransmitter, or drug, that binds to a protein'</strong></span>.</p></div>
   <form>
-  <ul id="choices_5159_75f4">
+  <ul id="choices_d3ac_0a9b">
   <li>
-      <input type="radio" id="option0" name="answer_5159_75f4" data-correct="true"><label for="option0"><span style="font-family: sans-serif; letter-spacing: 1px;"><strong><span style="color: #004d99;">Cofactor</span></strong></span>  </label>
+      <input type="radio" id="option0" name="answer_d3ac_0a9b" data-correct="true"><label for="option0"><span style="font-family: sans-serif; letter-spacing: 1px;"><strong><span style="color: #0a9bf5;">Ligand</span></strong></span>  </label>
     </li>
     <li>
-      <input type="radio" id="option1" name="answer_5159_75f4" data-correct="false"><label for="option1"><span style="font-family: sans-serif; letter-spacing: 1px;"><strong><span style="color: #b30077;">Holoenzyme</span></strong></span>  </label>
+      <input type="radio" id="option1" name="answer_d3ac_0a9b" data-correct="false"><label for="option1"><span style="font-family: sans-serif; letter-spacing: 1px;"><strong><span style="color: #b3b300;">Product</span></strong></span>  </label>
     </li>
     <li>
-      <input type="radio" id="option2" name="answer_5159_75f4" data-correct="false"><label for="option2"><span style="font-family: sans-serif; letter-spacing: 1px;"><strong><span style="color: #0a9bf5;">Ligand</span></strong>-binding site</span>  </label>
+      <input type="radio" id="option2" name="answer_d3ac_0a9b" data-correct="false"><label for="option2"><span style="font-family: sans-serif; letter-spacing: 1px;"><strong><span style="color: #e69100;">Reactant</span></strong></span>  </label>
     </li>
     <li>
-      <input type="radio" id="option3" name="answer_5159_75f4" data-correct="false"><label for="option3"><span style="font-family: sans-serif; letter-spacing: 1px;"><strong><span style="color: #e69100;">Reactant</span></strong></span>  </label>
+      <input type="radio" id="option3" name="answer_d3ac_0a9b" data-correct="false"><label for="option3"><span style="font-family: sans-serif; letter-spacing: 1px;"><strong><span style="color: #00b38f;">Ribozyme</span></strong></span>  </label>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_5159_75f4()">Check Answer</button>
-  <div id="result_5159_75f4" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_d3ac_0a9b()">Check Answer</button>
+  <div id="result_d3ac_0a9b" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
   </form>
   <br>
   </div><script>
-  function checkAnswer_5159_75f4() {
-   const options = document.getElementsByName('answer_5159_75f4');
+  function checkAnswer_d3ac_0a9b() {
+   const options = document.getElementsByName('answer_d3ac_0a9b');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_5159_75f4');
+   const resultDiv = document.getElementById('result_d3ac_0a9b');
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.style.color = 'green';
@@ -1488,40 +1488,40 @@
       example problem
     </span>
   </summary>
-  <div id="question_html_f040_6e8c">
-  <div id="statement_text_f040_6e8c"><p>Which one of the following statements is<strong> <span style="color: #169179;"><strong>TRUE</strong></span> </strong> about enzyme kinetics?</p></div>
+  <div id="question_html_9d40_993c">
+  <div id="statement_text_9d40_993c"><p>Which one of the following statements is<strong> <span style="color: #ba372a;"><strong>FALSE</strong></span> </strong> of enzyme kinetics?</p></div>
   <form>
-  <ul id="choices_f040_6e8c">
+  <ul id="choices_9d40_993c">
   <li>
-      <input type="radio" id="option0" name="answer_f040_6e8c" data-correct="false"><label for="option0"><strong> </strong><strong><i>enzymes</i></strong> <strong><span style="color: #009900;">raise</span></strong> the <strong><span style="color: #660000;">activation energy</span></strong> of a chemical reaction  </label>
+      <input type="radio" id="option0" name="answer_9d40_993c" data-correct="true"><label for="option0"><strong> </strong><strong><i><strong><i>enzymes</i></strong></i></strong> eliminate the <strong><span style="color: #660000;"><strong><span style="color: #660000;">activation energy</span></strong></span></strong> of a chemical reaction.  </label>
     </li>
     <li>
-      <input type="radio" id="option1" name="answer_f040_6e8c" data-correct="false"><label for="option1"><strong> </strong><strong><i>enzymes</i></strong> <strong><span style="color: #990000;">reduce</span></strong> the rate of a chemical reaction  </label>
+      <input type="radio" id="option1" name="answer_9d40_993c" data-correct="false"><label for="option1"><strong> </strong><strong><i>enzymes</i></strong> can provide favorable microenvironments for a chemical reaction  </label>
     </li>
     <li>
-      <input type="radio" id="option2" name="answer_f040_6e8c" data-correct="true"><label for="option2"><strong> </strong><strong><i><strong><i>enzymes</i></strong></i></strong> cannot <strong><span style="color: #000099;"><strong><span style="color: #000099;">change</span></strong></span></strong> the Gibbs <strong><span style="color: #006600;"><strong><span style="color: #006600;">free energy</span></strong></span></strong> (ΔG) of a chemical reaction  </label>
+      <input type="radio" id="option2" name="answer_9d40_993c" data-correct="false"><label for="option2"><strong> </strong><strong><i>enzymes</i></strong> <strong><span style="color: #009900;">increase</span></strong> the rate of a chemical reaction  </label>
     </li>
     <li>
-      <input type="radio" id="option3" name="answer_f040_6e8c" data-correct="false"><label for="option3"><strong> </strong><strong><i>enzymes</i></strong> are needed in large quantities as they are used up in a chemical reaction  </label>
+      <input type="radio" id="option3" name="answer_9d40_993c" data-correct="false"><label for="option3"><strong> </strong><strong><i>enzymes</i></strong> cannot <strong><span style="color: #000099;">change</span></strong> the Gibbs <strong><span style="color: #006600;">free energy</span></strong> (ΔG) of a chemical reaction  </label>
     </li>
     <li>
-      <input type="radio" id="option4" name="answer_f040_6e8c" data-correct="false"><label for="option4"><strong> </strong><strong><i>enzymes</i></strong> only convert substrate to product and<strong> <strong>NOT</strong> </strong>the reverse  </label>
+      <input type="radio" id="option4" name="answer_9d40_993c" data-correct="false"><label for="option4"><strong> </strong><strong><i>enzymes</i></strong> cannot <strong><span style="color: #000099;">change</span></strong> the equilibrium of the chemical reaction  </label>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_f040_6e8c()">Check Answer</button>
-  <div id="result_f040_6e8c" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_9d40_993c()">Check Answer</button>
+  <div id="result_9d40_993c" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
   </form>
   <br>
   </div><script>
-  function checkAnswer_f040_6e8c() {
-   const options = document.getElementsByName('answer_f040_6e8c');
+  function checkAnswer_9d40_993c() {
+   const options = document.getElementsByName('answer_9d40_993c');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_f040_6e8c');
+   const resultDiv = document.getElementById('result_9d40_993c');
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.style.color = 'green';
@@ -1567,40 +1567,40 @@
       example problem
     </span>
   </summary>
-  <div id="question_html_fff4_fc62">
-  <div id="statement_text_fff4_fc62"><p>Which one of the following statements is<strong> <span style="color: #ba372a;"><strong>FALSE</strong></span> </strong> concerning Michaelis-Menten kinetics?</p></div>
+  <div id="question_html_9cbd_9531">
+  <div id="statement_text_9cbd_9531"><p>Which one of the following statements is<strong> <span style="color: #169179;"><strong>TRUE</strong></span> </strong> regarding Michaelis-Menten kinetics?</p></div>
   <form>
-  <ul id="choices_fff4_fc62">
+  <ul id="choices_9cbd_9531">
   <li>
-      <input type="radio" id="option0" name="answer_fff4_fc62" data-correct="false"><label for="option0"><strong> </strong><strong><span style="color: #0d57a5;">M-M kinetics</span></strong> does<strong> <strong>NOT</strong> </strong>apply to allosteric enzymes.  </label>
+      <input type="radio" id="option0" name="answer_9cbd_9531" data-correct="false"><label for="option0"><strong> </strong><strong><span style="color: #0d57a5;">M-M kinetics</span></strong> was developed by American linguist Laura Michaelis and Belgian cyclist Milan Menten in 1913.  </label>
     </li>
     <li>
-      <input type="radio" id="option1" name="answer_fff4_fc62" data-correct="false"><label for="option1"><strong> </strong>The <strong><span style="color: #a1005e;">reaction rate</span></strong> is <strong><span style="color: #009e4c;"><i>proportional</i></span></strong> to the substrate <strong><span style="color: #ff0000;">concentration</span></strong>.  </label>
+      <input type="radio" id="option1" name="answer_9cbd_9531" data-correct="true"><label for="option1"><strong> </strong><strong><span style="color: #0d57a5;"><strong><span style="color: #0d57a5;">M-M kinetics</span></strong></span></strong> does<strong> <strong>NOT</strong> </strong>apply to allosteric enzymes.  </label>
     </li>
     <li>
-      <input type="radio" id="option2" name="answer_fff4_fc62" data-correct="false"><label for="option2"><strong> </strong><strong><span style="color: #0d57a5;">M-M kinetics</span></strong> assumes that the <strong><span style="color: #ff0000;">concentration</span></strong> of <strong><span style="color: #2fbd0f;">enzyme-substrate complex [ES]</span></strong> is <strong><span style="color: #6d108e;"><i>constant</i></span></strong>.  </label>
+      <input type="radio" id="option2" name="answer_9cbd_9531" data-correct="false"><label for="option2"><strong> </strong>The <strong><span style="color: #a1005e;">reaction rate</span></strong> is <strong><span style="color: #009e4c;"><i>proportional</i></span></strong> to the product <strong><span style="color: #ff0000;">concentration</span></strong>.  </label>
     </li>
     <li>
-      <input type="radio" id="option3" name="answer_fff4_fc62" data-correct="true"><label for="option3"><strong> </strong><strong><span style="color: #0d57a5;"><strong><span style="color: #0d57a5;">M-M kinetics</span></strong></span></strong> assumes that the enzyme bound to the substrate [ES] is short lived and does<strong> <strong>NOT</strong> </strong>contribute to the <strong><span style="color: #a1005e;"><strong><span style="color: #a1005e;">reaction rate</span></strong></span></strong>.  </label>
+      <input type="radio" id="option3" name="answer_9cbd_9531" data-correct="false"><label for="option3"><strong> </strong><strong><span style="color: #0d57a5;">M-M kinetics</span></strong> assumes that the substrate is<strong> <strong>NOT</strong> </strong>available and there is no measureable reverse <strong><span style="color: #a1005e;">reaction rate</span></strong>.  </label>
     </li>
     <li>
-      <input type="radio" id="option4" name="answer_fff4_fc62" data-correct="false"><label for="option4"><strong> </strong><strong><span style="color: #0d57a5;">M-M kinetics</span></strong> assumes that the product is<strong> <strong>NOT</strong> </strong>available and there is no measureable reverse <strong><span style="color: #a1005e;">reaction rate</span></strong>.  </label>
+      <input type="radio" id="option4" name="answer_9cbd_9531" data-correct="false"><label for="option4"><strong> </strong><strong><span style="color: #0d57a5;">M-M kinetics</span></strong> assumes that the <strong><span style="color: #2fbd0f;">enzyme-substrate complex [ES]</span></strong> is short lived and does<strong> <strong>NOT</strong> </strong>contribute to the <strong><span style="color: #a1005e;">reaction rate</span></strong>.  </label>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_fff4_fc62()">Check Answer</button>
-  <div id="result_fff4_fc62" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_9cbd_9531()">Check Answer</button>
+  <div id="result_9cbd_9531" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
   </form>
   <br>
   </div><script>
-  function checkAnswer_fff4_fc62() {
-   const options = document.getElementsByName('answer_fff4_fc62');
+  function checkAnswer_9cbd_9531() {
+   const options = document.getElementsByName('answer_9cbd_9531');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_fff4_fc62');
+   const resultDiv = document.getElementById('result_9cbd_9531');
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.style.color = 'green';
@@ -1646,40 +1646,40 @@
       example problem
     </span>
   </summary>
-  <div id="question_html_6015_5b3a">
-  <div id="statement_text_6015_5b3a">Which one of the following molecular entities <strong><span style="color: OrangeRed;">CANNOT</span></strong> be classified as an enzymatic cofactor?</div>
+  <div id="question_html_6015_9597">
+  <div id="statement_text_6015_9597">Which one of the following molecular entities <strong><span style="color: OrangeRed;">CANNOT</span></strong> be classified as an enzymatic cofactor?</div>
   <form>
-  <ul id="choices_6015_5b3a">
+  <ul id="choices_6015_9597">
   <li>
-      <input type="radio" id="option0" name="answer_6015_5b3a" data-correct="false"><label for="option0"><strong> </strong>co<strong><span style="color: DarkBlue;">enzyme</span></strong> Q10, ubiquinone  </label>
+      <input type="radio" id="option0" name="answer_6015_9597" data-correct="false"><label for="option0"><strong> </strong><strong><span style="color: #990033;">adenosine</span></strong> triphosphate (ATP)  </label>
     </li>
     <li>
-      <input type="radio" id="option1" name="answer_6015_5b3a" data-correct="false"><label for="option1"><strong> </strong>quinone, an organic compound involved in electron transport  </label>
+      <input type="radio" id="option1" name="answer_6015_9597" data-correct="false"><label for="option1"><strong> </strong>quinone, an organic compound involved in electron transport  </label>
     </li>
     <li>
-      <input type="radio" id="option2" name="answer_6015_5b3a" data-correct="true"><label for="option2"><strong> </strong>polyalanine peptide  </label>
+      <input type="radio" id="option2" name="answer_6015_9597" data-correct="false"><label for="option2"><strong> </strong>estriol (E3), one of the estrogen <strong><span style="color: #6600cc;">steroid</span></strong> hormones responsible for female sex characteristics  </label>
     </li>
     <li>
-      <input type="radio" id="option3" name="answer_6015_5b3a" data-correct="false"><label for="option3"><strong> </strong><strong><span style="color: DarkGreen;">vitamin</span></strong> B<sub>12</sub>, cobalamins  </label>
+      <input type="radio" id="option3" name="answer_6015_9597" data-correct="false"><label for="option3"><strong> </strong><strong><span style="color: DarkGreen;">vitamin</span></strong> B<sub>2</sub>, riboflavin  </label>
     </li>
     <li>
-      <input type="radio" id="option4" name="answer_6015_5b3a" data-correct="false"><label for="option4"><strong> </strong><strong><span style="color: #990033;">adenosine</span></strong> monophosphate (AMP)  </label>
+      <input type="radio" id="option4" name="answer_6015_9597" data-correct="true"><label for="option4"><strong> </strong>the glycolysis <strong><span style="color: DarkBlue;"><strong><span style="color: DarkBlue;">enzyme</span></strong></span></strong>, pyruvate kinase  </label>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_6015_5b3a()">Check Answer</button>
-  <div id="result_6015_5b3a" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_6015_9597()">Check Answer</button>
+  <div id="result_6015_9597" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
   </form>
   <br>
   </div><script>
-  function checkAnswer_6015_5b3a() {
-   const options = document.getElementsByName('answer_6015_5b3a');
+  function checkAnswer_6015_9597() {
+   const options = document.getElementsByName('answer_6015_9597');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_6015_5b3a');
+   const resultDiv = document.getElementById('result_6015_9597');
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.style.color = 'green';
@@ -1725,8 +1725,8 @@
       example problem
     </span>
   </summary>
-  <div id="question_html_456c_8950">
-  <div id="statement_text_456c_8950">
+  <div id="question_html_2a82_5bd7">
+  <div id="statement_text_2a82_5bd7">
   <p><u>Michaelis-Menten question.</u> The following question refers to the table (<i>below</i>) of enzyme activity.</p> <table cellpadding="2" cellspacing="2" style="text-align:center; border-collapse: collapse; border: 1px solid black; font-size: 14px;">
   <colgroup width="160"></colgroup>
   <colgroup width="160"></colgroup>
@@ -1737,73 +1737,76 @@
   </th>
   </tr>
   <tr style="background-color: #FFFFDD;">
-  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.0001 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">2.0 </span></td>
+  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.001 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">2.0 </span></td>
   </tr>
   <tr style="background-color: #FFFFFF;">
-  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.0002 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">3.7 </span></td>
+  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.002 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">3.9 </span></td>
   </tr>
   <tr style="background-color: #FFFFDD;">
-  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.0005 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">8.0 </span></td>
+  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.005 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">9.1 </span></td>
   </tr>
   <tr style="background-color: #FFFFFF;">
-  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.0010 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">13.4 </span></td>
+  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.010 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">16.7 </span></td>
   </tr>
   <tr style="background-color: #FFFFDD;">
-  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.0020 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">20.0 </span></td>
+  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.020 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">28.6 </span></td>
   </tr>
   <tr style="background-color: #FFFFFF;">
-  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.0050 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">28.6 </span></td>
+  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.050 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">50.0 </span></td>
   </tr>
   <tr style="background-color: #FFFFDD;">
-  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.0100 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">33.4 </span></td>
+  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.100 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">66.7 </span></td>
   </tr>
   <tr style="background-color: #FFFFFF;">
-  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.0200 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">36.4 </span></td>
+  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.200 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">80.0 </span></td>
   </tr>
   <tr style="background-color: #FFFFDD;">
-  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.0500 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">38.5 </span></td>
+  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.500 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">91.0 </span></td>
   </tr>
   <tr style="background-color: #FFFFFF;">
-  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.1000 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">39.3 </span></td>
+  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">1.000 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">95.3 </span></td>
   </tr>
   <tr style="background-color: #FFFFDD;">
-  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">1.0000 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">40.0 </span></td>
+  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">10.000 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">99.6 </span></td>
+  </tr>
+  <tr style="background-color: #FFFFFF;">
+  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">100.000 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">100.0 </span></td>
   </tr>
   </table>
   <br><p>Using the table (<i>above</i>), calculate the value for the Michaelis-Menten constant, K<sub>M</sub>.</p>
   </div>
   <form>
-  <ul id="choices_456c_8950">
+  <ul id="choices_2a82_5bd7">
   <li>
-      <input type="radio" id="option0" name="answer_456c_8950" data-correct="false"><label for="option0">K<sub>M</sub> = <span style="font-family: courier, monospace;">0.0001</span>  </label>
+      <input type="radio" id="option0" name="answer_2a82_5bd7" data-correct="false"><label for="option0">K<sub>M</sub> = <span style="font-family: courier, monospace;">0.005</span>  </label>
     </li>
     <li>
-      <input type="radio" id="option1" name="answer_456c_8950" data-correct="false"><label for="option1">K<sub>M</sub> = <span style="font-family: courier, monospace;">0.0005</span>  </label>
+      <input type="radio" id="option1" name="answer_2a82_5bd7" data-correct="false"><label for="option1">K<sub>M</sub> = <span style="font-family: courier, monospace;">0.010</span>  </label>
     </li>
     <li>
-      <input type="radio" id="option2" name="answer_456c_8950" data-correct="false"><label for="option2">K<sub>M</sub> = <span style="font-family: courier, monospace;">0.0010</span>  </label>
+      <input type="radio" id="option2" name="answer_2a82_5bd7" data-correct="false"><label for="option2">K<sub>M</sub> = <span style="font-family: courier, monospace;">0.020</span>  </label>
     </li>
     <li>
-      <input type="radio" id="option3" name="answer_456c_8950" data-correct="true"><label for="option3">K<sub>M</sub> = <span style="font-family: courier, monospace;">0.0020</span>  </label>
+      <input type="radio" id="option3" name="answer_2a82_5bd7" data-correct="true"><label for="option3">K<sub>M</sub> = <span style="font-family: courier, monospace;">0.050</span>  </label>
     </li>
     <li>
-      <input type="radio" id="option4" name="answer_456c_8950" data-correct="false"><label for="option4">K<sub>M</sub> = <span style="font-family: courier, monospace;">0.0050</span>  </label>
+      <input type="radio" id="option4" name="answer_2a82_5bd7" data-correct="false"><label for="option4">K<sub>M</sub> = <span style="font-family: courier, monospace;">0.100</span>  </label>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_456c_8950()">Check Answer</button>
-  <div id="result_456c_8950" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_2a82_5bd7()">Check Answer</button>
+  <div id="result_2a82_5bd7" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
   </form>
   <br>
   </div><script>
-  function checkAnswer_456c_8950() {
-   const options = document.getElementsByName('answer_456c_8950');
+  function checkAnswer_2a82_5bd7() {
+   const options = document.getElementsByName('answer_2a82_5bd7');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_456c_8950');
+   const resultDiv = document.getElementById('result_2a82_5bd7');
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.style.color = 'green';
@@ -1849,8 +1852,8 @@
       example problem
     </span>
   </summary>
-  <div id="question_html_93f7_51d8">
-  <div id="statement_text_93f7_51d8">
+  <div id="question_html_7cbb_5341">
+  <div id="statement_text_7cbb_5341">
   <p><u>Michaelis-Menten Kinetics and Inhibition Type Determination</u><br>The table below presents data on enzyme activity measured as initial reaction velocities (V<sub>0</sub>) with and without the presence of an inhibitor at various substrate concentrations ([S]).</p>
   <table cellpadding="2" cellspacing="2" style="text-align:center; border-collapse: collapse; border: 1px solid black; font-size: 14px;">
   <colgroup width="160"></colgroup>
@@ -1865,76 +1868,76 @@
   </th>
   </tr>
   <tr style="background-color: #FFFFDD;">
-  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.0001 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">1.6 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.4 </span></td>
+  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.0001 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">2.4 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.4 </span></td>
   </tr>
   <tr style="background-color: #FFFFFF;">
-  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.0002 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">3.1 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.8 </span></td>
+  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.0002 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">4.7 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.8 </span></td>
   </tr>
   <tr style="background-color: #FFFFDD;">
-  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.0005 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">7.3 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">2.0 </span></td>
+  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.0005 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">11.0 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">1.9 </span></td>
   </tr>
   <tr style="background-color: #FFFFFF;">
-  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.0010 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">13.4 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">3.9 </span></td>
+  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.0010 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">20.0 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">3.4 </span></td>
   </tr>
   <tr style="background-color: #FFFFDD;">
-  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.0020 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">22.9 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">7.3 </span></td>
+  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.0020 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">34.3 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">5.8 </span></td>
   </tr>
   <tr style="background-color: #FFFFFF;">
-  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.0050 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">40.0 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">16.0 </span></td>
+  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.0050 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">60.0 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">10.0 </span></td>
   </tr>
   <tr style="background-color: #FFFFDD;">
-  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.0100 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">53.4 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">26.7 </span></td>
+  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.0100 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">80.0 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">13.4 </span></td>
   </tr>
   <tr style="background-color: #FFFFFF;">
-  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.0200 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">64.0 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">40.0 </span></td>
+  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.0200 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">96.0 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">16.0 </span></td>
   </tr>
   <tr style="background-color: #FFFFDD;">
-  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.0500 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">72.8 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">57.2 </span></td>
+  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.0500 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">109.1 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">18.2 </span></td>
   </tr>
   <tr style="background-color: #FFFFFF;">
-  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.1000 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">76.2 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">66.7 </span></td>
+  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">0.1000 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">114.3 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">19.1 </span></td>
   </tr>
   <tr style="background-color: #FFFFDD;">
-  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">1.0000 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">79.7 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">78.5 </span></td>
+  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">1.0000 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">119.5 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">20.0 </span></td>
   </tr>
   <tr style="background-color: #FFFFFF;">
-  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">10.0000 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">80.0 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">79.9 </span></td>
+  <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">10.0000 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">120.0 </span></td> <td style="border: 1px solid black;" align="right"><span style="font-family: courier, monospace;">20.0 </span></td>
   </tr>
   </table>
   <br><p>Based on the data provided, determine the type of inhibition show by the inhibitor. Consider how the addition of the inhibitor affects the initial reaction velocities (V<sub>0</sub>) at various substrate concentrations ([S]).</p>
   </div>
   <form>
-  <ul id="choices_93f7_51d8">
+  <ul id="choices_7cbb_5341">
   <li>
-      <input type="radio" id="option0" name="answer_93f7_51d8" data-correct="true"><label for="option0">competitive  </label>
+      <input type="radio" id="option0" name="answer_7cbb_5341" data-correct="false"><label for="option0">competitive  </label>
     </li>
     <li>
-      <input type="radio" id="option1" name="answer_93f7_51d8" data-correct="false"><label for="option1">homo-competitive  </label>
+      <input type="radio" id="option1" name="answer_7cbb_5341" data-correct="false"><label for="option1">inter-competitive  </label>
     </li>
     <li>
-      <input type="radio" id="option2" name="answer_93f7_51d8" data-correct="false"><label for="option2">non-competitive  </label>
+      <input type="radio" id="option2" name="answer_7cbb_5341" data-correct="false"><label for="option2">mega-competitive  </label>
     </li>
     <li>
-      <input type="radio" id="option3" name="answer_93f7_51d8" data-correct="false"><label for="option3">pre-competitive  </label>
+      <input type="radio" id="option3" name="answer_7cbb_5341" data-correct="true"><label for="option3">non-competitive  </label>
     </li>
     <li>
-      <input type="radio" id="option4" name="answer_93f7_51d8" data-correct="false"><label for="option4">un-competitive  </label>
+      <input type="radio" id="option4" name="answer_7cbb_5341" data-correct="false"><label for="option4">un-competitive  </label>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_93f7_51d8()">Check Answer</button>
-  <div id="result_93f7_51d8" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_7cbb_5341()">Check Answer</button>
+  <div id="result_7cbb_5341" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
   </form>
   <br>
   </div><script>
-  function checkAnswer_93f7_51d8() {
-   const options = document.getElementsByName('answer_93f7_51d8');
+  function checkAnswer_7cbb_5341() {
+   const options = document.getElementsByName('answer_7cbb_5341');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_93f7_51d8');
+   const resultDiv = document.getElementById('result_7cbb_5341');
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.style.color = 'green';
@@ -1980,40 +1983,40 @@
       example problem
     </span>
   </summary>
-  <div id="question_html_c396_46be">
-  <div id="statement_text_c396_46be"><p>Enzymes are biological catalysts that speed up chemical reactions in living organisms.<br>Which one of the following choices is most likely an enzyme?<br><i>Hint: enzymes often have a distinct naming pattern that can help identify them.</i></p></div>
+  <div id="question_html_c396_dd78">
+  <div id="statement_text_c396_dd78"><p>Enzymes are biological catalysts that speed up chemical reactions in living organisms.<br>Which one of the following choices is most likely an enzyme?<br><i>Hint: enzymes often have a distinct naming pattern that can help identify them.</i></p></div>
   <form>
-  <ul id="choices_c396_46be">
+  <ul id="choices_c396_dd78">
   <li>
-      <input type="radio" id="option0" name="answer_c396_46be" data-correct="true"><label for="option0"><strong> </strong>sucrase  </label>
+      <input type="radio" id="option0" name="answer_c396_dd78" data-correct="true"><label for="option0"><strong> </strong>α-amylase  </label>
     </li>
     <li>
-      <input type="radio" id="option1" name="answer_c396_46be" data-correct="false"><label for="option1"><strong> </strong>oxygen (O<sub>2</sub>)  </label>
+      <input type="radio" id="option1" name="answer_c396_dd78" data-correct="false"><label for="option1"><strong> </strong>GTP  </label>
     </li>
     <li>
-      <input type="radio" id="option2" name="answer_c396_46be" data-correct="false"><label for="option2"><strong> </strong>steroid  </label>
+      <input type="radio" id="option2" name="answer_c396_dd78" data-correct="false"><label for="option2"><strong> </strong>steroid  </label>
     </li>
     <li>
-      <input type="radio" id="option3" name="answer_c396_46be" data-correct="false"><label for="option3"><strong> </strong>collagen  </label>
+      <input type="radio" id="option3" name="answer_c396_dd78" data-correct="false"><label for="option3"><strong> </strong>FADH<sub>2</sub>  </label>
     </li>
     <li>
-      <input type="radio" id="option4" name="answer_c396_46be" data-correct="false"><label for="option4"><strong> </strong>phospholipid  </label>
+      <input type="radio" id="option4" name="answer_c396_dd78" data-correct="false"><label for="option4"><strong> </strong>water (H<sub>2</sub>O)  </label>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_c396_46be()">Check Answer</button>
-  <div id="result_c396_46be" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+  <button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_c396_dd78()">Check Answer</button>
+  <div id="result_c396_dd78" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
   </form>
   <br>
   </div><script>
-  function checkAnswer_c396_46be() {
-   const options = document.getElementsByName('answer_c396_46be');
+  function checkAnswer_c396_dd78() {
+   const options = document.getElementsByName('answer_c396_dd78');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_c396_46be');
+   const resultDiv = document.getElementById('result_c396_dd78');
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.style.color = 'green';
