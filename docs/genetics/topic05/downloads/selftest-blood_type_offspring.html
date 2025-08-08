@@ -1,31 +1,31 @@
-<div id="question_html_e167_f39b">
-<div id="statement_text_e167_f39b"><p>For the ABO blood group in humans, the i<sup>A</sup> and i<sup>B</sup> alleles are codominant and the i allele is recessive.<br>If a female &female; with <u>type O blood</u> marries a male &male; with <u>type O blood</u>, which of the following blood types could their children possibly have? Check all that apply.</p></div>
+<div id="question_html_0076_f39b">
+<div id="statement_text_0076_f39b"><p>For the ABO blood group in humans, the i<sup>A</sup> and i<sup>B</sup> alleles are codominant and the i allele is recessive.<br>If a female &female; with <u>type B blood</u> marries a male &male; with <u>type AB blood</u>, which of the following blood types could their children possibly have? Check all that apply.</p></div>
 <form>
-<ul id="choices_e167_f39b">
+<ul id="choices_0076_f39b">
 <li>
-    <input type="checkbox" id="option_e167_f39b_1" name="answer_e167_f39b" data-correct="true"><label for="option_e167_f39b_1">Type O blood</label>
+    <input type="checkbox" id="option_0076_f39b_1" name="answer_0076_f39b" data-correct="false"><label for="option_0076_f39b_1">Type O blood</label>
   </li>
   <li>
-    <input type="checkbox" id="option_e167_f39b_2" name="answer_e167_f39b" data-correct="false"><label for="option_e167_f39b_2">Type A blood</label>
+    <input type="checkbox" id="option_0076_f39b_2" name="answer_0076_f39b" data-correct="true"><label for="option_0076_f39b_2">Type A blood</label>
   </li>
   <li>
-    <input type="checkbox" id="option_e167_f39b_3" name="answer_e167_f39b" data-correct="false"><label for="option_e167_f39b_3">Type B blood</label>
+    <input type="checkbox" id="option_0076_f39b_3" name="answer_0076_f39b" data-correct="true"><label for="option_0076_f39b_3">Type B blood</label>
   </li>
   <li>
-    <input type="checkbox" id="option_e167_f39b_4" name="answer_e167_f39b" data-correct="false"><label for="option_e167_f39b_4">Type AB blood</label>
+    <input type="checkbox" id="option_0076_f39b_4" name="answer_0076_f39b" data-correct="true"><label for="option_0076_f39b_4">Type AB blood</label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_e167_f39b()">Check Answer</button>
-<button type="button" class="md-button md-button--secondary custom-button" style="background-color: #e6eeff;" onclick="clearSelection_e167_f39b()">Clear Selection</button>
-<div id="result_e167_f39b" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_0076_f39b()">Check Answer</button>
+<button type="button" class="md-button md-button--secondary custom-button" style="background-color: #e6eeff;" onclick="clearSelection_0076_f39b()">Clear Selection</button>
+<div id="result_0076_f39b" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_e167_f39b() {
-	const options = Array.from(document.getElementsByName('answer_e167_f39b'));
+function checkAnswer_0076_f39b() {
+	const options = Array.from(document.getElementsByName('answer_0076_f39b'));
 	const correctOptions = options.filter(option => option.dataset.correct === 'true');
 	const selectedOptions = options.filter(option => option.checked);
-	const resultDiv = document.getElementById('result_e167_f39b');
+	const resultDiv = document.getElementById('result_0076_f39b');
 	const numCorrectSelected = selectedOptions.filter(option => correctOptions.includes(option)).length;
 	const numIncorrectSelected = selectedOptions.length - numCorrectSelected;
 	const totalCorrect = correctOptions.length;
@@ -49,10 +49,10 @@ function checkAnswer_e167_f39b() {
 }
 </script>
 <script>
-	function clearSelection_e167_f39b() {
-		const checkboxes = document.getElementsByName('answer_e167_f39b');
+	function clearSelection_0076_f39b() {
+		const checkboxes = document.getElementsByName('answer_0076_f39b');
 		Array.from(checkboxes).forEach(checkbox => checkbox.checked = false);
-		const resultDiv = document.getElementById('result_e167_f39b');
+		const resultDiv = document.getElementById('result_0076_f39b');
 		if (resultDiv) {			resultDiv.textContent = '';
 			resultDiv.style.color = 'inherit';
 		}	}

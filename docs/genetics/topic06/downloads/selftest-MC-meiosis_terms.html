@@ -1,0 +1,45 @@
+<div id="question_html_365a_af9c">
+<div id="statement_text_365a_af9c"><p>Which one of the following Meiosis terms correspond to the definition <span style="font-size: 1em;"><strong>'two identical copies of the same chromosome attached to each other by the centromere'</strong></span>.</p></div>
+<form>
+<ul id="choices_365a_af9c">
+<li>
+    <input type="radio" id="option0" name="answer_365a_af9c" data-correct="false"><label for="option0">crossing over</label>
+  </li>
+  <li>
+    <input type="radio" id="option1" name="answer_365a_af9c" data-correct="false"><label for="option1">homologous chromosomes</label>
+  </li>
+  <li>
+    <input type="radio" id="option2" name="answer_365a_af9c" data-correct="true"><label for="option2">sister chromatids</label>
+  </li>
+  <li>
+    <input type="radio" id="option3" name="answer_365a_af9c" data-correct="false"><label for="option3">synapsis</label>
+  </li>
+</ul>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_365a_af9c()">Check Answer</button>
+<div id="result_365a_af9c" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+</form>
+<br>
+</div><script>
+function checkAnswer_365a_af9c() {
+ const options = document.getElementsByName('answer_365a_af9c');
+ const correctOption = Array.from(options).reduce(function(acc, option) {
+   return acc || (option.dataset.correct === 'true' ? option : null);
+ }, null);
+ const selectedOption = Array.from(options).reduce(function(acc, option) {
+   return acc || (option.checked ? option : null);
+ }, null);
+ const resultDiv = document.getElementById('result_365a_af9c');
+ if (selectedOption) {
+  if (selectedOption === correctOption) {
+   resultDiv.style.color = 'green';
+   resultDiv.textContent = 'CORRECT';
+  } else {
+   resultDiv.style.color = 'red';
+   resultDiv.textContent = 'incorrect';
+  }
+ } else {
+  resultDiv.style.color = 'black';
+  resultDiv.textContent = 'Please select an answer.';
+ }
+}
+</script>

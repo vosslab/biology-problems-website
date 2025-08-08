@@ -1,0 +1,66 @@
+<div id="question_html_5de6_edf6">
+<div id="statement_text_5de6_edf6">
+<p>The white-eyed phenotype is an X-linked recessive disorder in fruit flies. The red allele, +, is dominant to the white allele, w. The offspring of size 360 from the mating of a single female and a single male are shown in the table below:</p>
+<table cellpadding="2" cellspacing="2" style="border-collapse: collapse; text-align:center; border: 1px solid black; font-size: 14px;">
+<tr>
+<th>phenotype</th>
+<th>female &female;</th>
+<th>male &male;</th>
+</tr>
+<tr>
+<td><span style="color: darkred;">red-eyed (wildtype)</span></td> <td align="center">0</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td>white-eyed (mutant)</td> <td align="center">187</td>
+<td align="center">173</td>
+</tr>
+</table>
+<br><p><strong>What are the genotypes of the parents in this cross?</strong></p>
+</div>
+<form>
+<ul id="choices_5de6_edf6">
+<li>
+    <input type="radio" id="option0" name="answer_5de6_edf6" data-correct="false"><label for="option0">homozygous mutant female (ww) and wildtype male (+–)</label>
+  </li>
+  <li>
+    <input type="radio" id="option1" name="answer_5de6_edf6" data-correct="false"><label for="option1">heterozygous female (+w) and mutant male (w–)</label>
+  </li>
+  <li>
+    <input type="radio" id="option2" name="answer_5de6_edf6" data-correct="false"><label for="option2">homozygous wildtype female (++) and male of unknown genotype</label>
+  </li>
+  <li>
+    <input type="radio" id="option3" name="answer_5de6_edf6" data-correct="false"><label for="option3">heterozygous female (+w) and wildtype male (+–)</label>
+  </li>
+  <li>
+    <input type="radio" id="option4" name="answer_5de6_edf6" data-correct="true"><label for="option4">homozygous mutant female (ww) and mutant male (w–)</label>
+  </li>
+</ul>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_5de6_edf6()">Check Answer</button>
+<div id="result_5de6_edf6" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+</form>
+<br>
+</div><script>
+function checkAnswer_5de6_edf6() {
+ const options = document.getElementsByName('answer_5de6_edf6');
+ const correctOption = Array.from(options).reduce(function(acc, option) {
+   return acc || (option.dataset.correct === 'true' ? option : null);
+ }, null);
+ const selectedOption = Array.from(options).reduce(function(acc, option) {
+   return acc || (option.checked ? option : null);
+ }, null);
+ const resultDiv = document.getElementById('result_5de6_edf6');
+ if (selectedOption) {
+  if (selectedOption === correctOption) {
+   resultDiv.style.color = 'green';
+   resultDiv.textContent = 'CORRECT';
+  } else {
+   resultDiv.style.color = 'red';
+   resultDiv.textContent = 'incorrect';
+  }
+ } else {
+  resultDiv.style.color = 'black';
+  resultDiv.textContent = 'Please select an answer.';
+ }
+}
+</script>

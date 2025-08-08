@@ -1,0 +1,147 @@
+<div id="question_html_1623_3e7b">
+<div id="statement_text_1623_3e7b"><p>Match each of the following Meiosis terms with their corresponding definitions.<br><i>Note:</i> Each choice will be used exactly once.</p></div>
+<!-- Matching Table -->
+<table style="border: 1px solid #999; border-collapse: collapse;">
+<thead><tr>
+<th style="width: 20px;"></th>
+			<th style="padding: 10px; width: 180px; text-align: center;">Your Choice</th>
+			<th style="padding: 10px;">Prompt</th>
+		</tr></thead>
+<tbody>
+<tr>
+<td class="feedback" style="border: 1px solid #999; text-align: center; padding: 3px;"></td>
+			<td class="dropzone" data-correct="1623_3e7b_001" title="Drop Your Choice Here" style="border: 2px dashed #bbb; padding: 8px; text-align: center; background-color: #f8f8f8; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td style="border: 1px solid #999; padding: 10px;">1. homologous chromosomes</td>
+		</tr>
+<tr>
+<td class="feedback" style="border: 1px solid #999; text-align: center; padding: 3px;"></td>
+			<td class="dropzone" data-correct="1623_3e7b_002" title="Drop Your Choice Here" style="border: 2px dashed #bbb; padding: 8px; text-align: center; background-color: #f8f8f8; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td style="border: 1px solid #999; padding: 10px;">2. homologous</td>
+		</tr>
+<tr>
+<td class="feedback" style="border: 1px solid #999; text-align: center; padding: 3px;"></td>
+			<td class="dropzone" data-correct="1623_3e7b_003" title="Drop Your Choice Here" style="border: 2px dashed #bbb; padding: 8px; text-align: center; background-color: #f8f8f8; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td style="border: 1px solid #999; padding: 10px;">3. chiasmata</td>
+		</tr>
+<tr>
+<td class="feedback" style="border: 1px solid #999; text-align: center; padding: 3px;"></td>
+			<td class="dropzone" data-correct="1623_3e7b_004" title="Drop Your Choice Here" style="border: 2px dashed #bbb; padding: 8px; text-align: center; background-color: #f8f8f8; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td style="border: 1px solid #999; padding: 10px;">4. crossing over</td>
+		</tr>
+</tbody>
+</table>
+<p style="font-style: italic; font-size: 14px; margin-top: 10px;">Drag one of the choices below:</p>
+<ul id="choiceList" style="list-style: none; padding: 0;">
+<li class="draggable" draggable="true" data-value="1623_3e7b_001" title="two similar but different copies of a chromosome" style="border: 1px solid #999; padding: 8px; margin: 5px; cursor: grab; background-color: #e6e6ff; display: inline-block;">
+		<span style="color: #004080;"><strong>A.</strong> two similar but different copies of a chromosome</span>
+	</li>
+	<li class="draggable" draggable="true" data-value="1623_3e7b_002" title="having a similar position, structure, value, or purpose" style="border: 1px solid #999; padding: 8px; margin: 5px; cursor: grab; background-color: #e6fff3; display: inline-block;">
+		<span style="color: #008066;"><strong>B.</strong> having a similar position, structure, value, or purpose</span>
+	</li>
+	<li class="draggable" draggable="true" data-value="1623_3e7b_003" title="the point of contact, the physical link, between two (non-sister) chromatids belonging to homologous chromosomes" style="border: 1px solid #999; padding: 8px; margin: 5px; cursor: grab; background-color: #f5e6cc; display: inline-block;">
+		<span style="color: #803300;"><strong>C.</strong> the point of contact, the physical link, between two (non-sister) chromatids belonging to homologous chromosomes</span>
+	</li>
+	<li class="draggable" draggable="true" data-value="1623_3e7b_004" title="two homologous chromosomes line up and parts of the chromosomes can be exchanged" style="border: 1px solid #999; padding: 8px; margin: 5px; cursor: grab; background-color: #ffccff; display: inline-block;">
+		<span style="color: #660033;"><strong>D.</strong> two homologous chromosomes line up and parts of the chromosomes can be exchanged</span>
+	</li>
+</ul>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_1623_3e7b()">Check Answer</button>
+<button type="button" class="md-button md-button--secondary custom-button" style="background-color: #fbe9eb;" onclick="resetGame_1623_3e7b()">Reset Game</button>
+<div id="result_1623_3e7b" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+</div><script>
+	let draggedItem = null;
+
+	document.querySelectorAll(".draggable").forEach(item => {
+		item.addEventListener("dragstart", function() {
+			draggedItem = this;
+			setTimeout(() => this.style.opacity = "0.5", 0);
+		});
+
+		item.addEventListener("dragend", function() {
+			this.style.opacity = "1";
+		});
+	});
+
+	document.querySelectorAll(".dropzone").forEach(zone => {
+		zone.addEventListener("drop", function() {
+			this.dataset.originalBgColor = draggedItem.style.backgroundColor;
+			this.style.backgroundColor = this.dataset.originalBgColor;
+			this.style.border = "2px solid gray";
+			this.style.color = draggedItem.querySelector("span").style.color;
+			this.style.fontWeight = "bold";
+
+			let choiceText = draggedItem.innerText.trim();
+			this.innerHTML = choiceText.length > 30 ? choiceText.substring(0, 27) + "..." : choiceText;
+			this.dataset.value = draggedItem.dataset.value;
+			this.title = draggedItem.getAttribute("title");
+		});
+
+		zone.addEventListener("dragleave", function() {
+			if (!this.dataset.value) {
+				this.style.backgroundColor = "#f8f8f8";
+			} else {
+				this.style.backgroundColor = this.dataset.originalBgColor;
+			}
+		});
+
+		zone.addEventListener("dragover", function(e) {
+			e.preventDefault();
+			this.style.backgroundColor = "#e6e6e6";
+		});
+	});
+</script>
+<script>
+	function checkAnswer_1623_3e7b() {
+		let score = 0;
+		let possible = 0;
+		let feedbackText = "";
+
+		document.querySelectorAll(".dropzone").forEach((zone, index) => {
+			let selectedValue = zone.dataset.value;
+			let correctValue = zone.dataset.correct;
+			let feedbackCell = document.querySelectorAll(".feedback")[index];
+
+			if (selectedValue === correctValue) {
+				score++;
+				possible++;
+				feedbackCell.innerHTML = "<strong><span style='color:#008000; font-size:large;'>&#9989;</span></strong>";
+				feedbackCell.style.backgroundColor = "#ccffcc";
+			} else {
+				possible++;
+				feedbackCell.innerHTML = "&#10060;";
+				feedbackCell.style.backgroundColor = "#ffcccc";
+			}
+		});
+
+		feedbackText = `Total Score: ${score} out of ${possible}`;
+		const resultDiv = document.getElementById('result_1623_3e7b');
+		if (score === possible) {
+			resultDiv.style.color = 'green';
+		}
+		else if (score <= Math.floor(possible / 2)) {
+			resultDiv.style.color = 'red';
+		}
+		else {
+			resultDiv.style.color = 'inherit';
+		}
+		resultDiv.innerHTML = feedbackText;
+	}
+</script>
+<script>
+	function resetGame_1623_3e7b() {
+		document.querySelectorAll(".dropzone").forEach(zone => {
+			zone.textContent = "Drop Your Choice Here";
+			delete zone.dataset.value;
+			zone.style.backgroundColor = "#f8f8f8";
+			zone.style.border = "2px dashed #bbb";
+			zone.style.color = "black";
+			zone.style.fontWeight = "normal";
+		});
+
+		document.querySelectorAll(".feedback").forEach(cell => {
+			cell.textContent = "";
+			cell.style.backgroundColor = "white";
+		});
+		document.getElementById("result_1623_3e7b").innerHTML = "";
+	}
+</script>
