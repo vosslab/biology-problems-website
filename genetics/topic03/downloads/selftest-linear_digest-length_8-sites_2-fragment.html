@@ -1,5 +1,5 @@
-<div id="question_html_c8c3_a15f">
-<div id="statement_text_c8c3_a15f">
+<div id="question_html_76fa_56cd">
+<div id="statement_text_76fa_56cd">
 <p><strong>DNA Fragment Question:</strong>Shown below is a short DNA fragment that is only 8 kb in length. This fragment has been isolated for restriction enzyme analysis.</p>
 <table cellpading="0" cellspacing="0" border="0" style="border-collapse: collapse; ">
 <colgroup width="40"></colgroup>
@@ -26,12 +26,12 @@
 <tr>
 <td style="border: 0px solid white; "></td>
 <td align="center" colspan="2" style="border: 0px solid white; "><i></i></td>
-<td align="center" colspan="2" style="border: 0px solid white; "><i>SalI</i></td>
+<td align="center" colspan="2" style="border: 0px solid white; "><i>SciI</i></td>
+<td align="center" colspan="2" style="border: 0px solid white; "><i>NarI</i></td>
 <td align="center" colspan="2" style="border: 0px solid white; "><i></i></td>
-<td align="center" colspan="2" style="border: 0px solid white; "><i>PsiI</i></td>
+<td align="center" colspan="2" style="border: 0px solid white; "><i>SciI</i></td>
 <td align="center" colspan="2" style="border: 0px solid white; "><i></i></td>
 <td align="center" colspan="2" style="border: 0px solid white; "><i></i></td>
-<td align="center" colspan="2" style="border: 0px solid white; "><i>SalI</i></td>
 <td align="center" colspan="2" style="border: 0px solid white; "><i></i></td>
 <td align="center" colspan="2" style="border: 0px solid white; "><i></i></td>
 <td style="border: 0px solid white; "></td>
@@ -57,42 +57,39 @@
 </tr>
 </tbody>
 </table>
-<p>Two (2) distinct types of restriction enzyme recognition sites, <i>SalI</i> and <i>PsiI</i>, are labeled at the top of this DNA segment.</p>
+<p>Two (2) distinct types of restriction enzyme recognition sites, <i>SciI</i> and <i>NarI</i>, are labeled at the top of this DNA segment.</p>
 <h6>
-<strong>Determine the sizes of the DNA bands</strong> that would appear on an agarose gel after digestion with <i>SalI</i> only.</h6>
+<strong>Determine the sizes of the DNA bands</strong> that would appear on an agarose gel after digestion with <i>SciI</i> only.</h6>
 </div>
 <form>
-<ul id="choices_c8c3_a15f">
+<ul id="choices_76fa_56cd">
 <li>
-    <input type="checkbox" id="option_c8c3_a15f_1" name="answer_c8c3_a15f" data-correct="true"><label for="option_c8c3_a15f_1">1 kb</label>
+    <input type="checkbox" id="option_76fa_56cd_1" name="answer_76fa_56cd" data-correct="true"><label for="option_76fa_56cd_1">1 kb</label>
   </li>
   <li>
-    <input type="checkbox" id="option_c8c3_a15f_2" name="answer_c8c3_a15f" data-correct="true"><label for="option_c8c3_a15f_2">2 kb</label>
+    <input type="checkbox" id="option_76fa_56cd_2" name="answer_76fa_56cd" data-correct="false"><label for="option_76fa_56cd_2">2 kb</label>
   </li>
   <li>
-    <input type="checkbox" id="option_c8c3_a15f_3" name="answer_c8c3_a15f" data-correct="false"><label for="option_c8c3_a15f_3">3 kb</label>
+    <input type="checkbox" id="option_76fa_56cd_3" name="answer_76fa_56cd" data-correct="true"><label for="option_76fa_56cd_3">3 kb</label>
   </li>
   <li>
-    <input type="checkbox" id="option_c8c3_a15f_4" name="answer_c8c3_a15f" data-correct="false"><label for="option_c8c3_a15f_4">4 kb</label>
+    <input type="checkbox" id="option_76fa_56cd_4" name="answer_76fa_56cd" data-correct="true"><label for="option_76fa_56cd_4">4 kb</label>
   </li>
   <li>
-    <input type="checkbox" id="option_c8c3_a15f_5" name="answer_c8c3_a15f" data-correct="true"><label for="option_c8c3_a15f_5">5 kb</label>
-  </li>
-  <li>
-    <input type="checkbox" id="option_c8c3_a15f_6" name="answer_c8c3_a15f" data-correct="false"><label for="option_c8c3_a15f_6">6 kb</label>
+    <input type="checkbox" id="option_76fa_56cd_5" name="answer_76fa_56cd" data-correct="false"><label for="option_76fa_56cd_5">5 kb</label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_c8c3_a15f()">Check Answer</button>
-<button type="button" class="md-button md-button--secondary custom-button" style="background-color: #e6eeff;" onclick="clearSelection_c8c3_a15f()">Clear Selection</button>
-<div id="result_c8c3_a15f" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_76fa_56cd()">Check Answer</button>
+<button type="button" class="md-button md-button--secondary custom-button" style="background-color: #e6eeff;" onclick="clearSelection_76fa_56cd()">Clear Selection</button>
+<div id="result_76fa_56cd" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_c8c3_a15f() {
-	const options = Array.from(document.getElementsByName('answer_c8c3_a15f'));
+function checkAnswer_76fa_56cd() {
+	const options = Array.from(document.getElementsByName('answer_76fa_56cd'));
 	const correctOptions = options.filter(option => option.dataset.correct === 'true');
 	const selectedOptions = options.filter(option => option.checked);
-	const resultDiv = document.getElementById('result_c8c3_a15f');
+	const resultDiv = document.getElementById('result_76fa_56cd');
 	const numCorrectSelected = selectedOptions.filter(option => correctOptions.includes(option)).length;
 	const numIncorrectSelected = selectedOptions.length - numCorrectSelected;
 	const totalCorrect = correctOptions.length;
@@ -116,10 +113,10 @@ function checkAnswer_c8c3_a15f() {
 }
 </script>
 <script>
-	function clearSelection_c8c3_a15f() {
-		const checkboxes = document.getElementsByName('answer_c8c3_a15f');
+	function clearSelection_76fa_56cd() {
+		const checkboxes = document.getElementsByName('answer_76fa_56cd');
 		Array.from(checkboxes).forEach(checkbox => checkbox.checked = false);
-		const resultDiv = document.getElementById('result_c8c3_a15f');
+		const resultDiv = document.getElementById('result_76fa_56cd');
 		if (resultDiv) {			resultDiv.textContent = '';
 			resultDiv.style.color = 'inherit';
 		}	}

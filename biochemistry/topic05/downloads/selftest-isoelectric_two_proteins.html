@@ -1,5 +1,5 @@
-<div id="question_html_8ed2_76a7">
-<div id="statement_text_8ed2_76a7">
+<div id="question_html_bcf1_e859">
+<div id="statement_text_bcf1_e859">
 <h6>Isoelectric Point Problem</h6> <p>A mixture of two proteins are to be separated by isoelectric focusing.</p> <table cellpadding="2" cellspacing="2" style="text-align:center; border: 1px solid black;">
 <tr>
 <th>Protein<br>Name</th>
@@ -7,47 +7,47 @@
 <th>Molecular<br>Weight</th>
 </tr>
 <tr>
-<td>Ribonuclease A (RibA)</td>
-<td align="right">9.3</td>
-<td align="right">13.7</td>
+<td>Histone (His)</td>
+<td align="right">10.8</td>
+<td align="right">15.0</td>
 </tr>
 <tr>
-<td>Collagen (Col)</td>
-<td align="right">6.6</td>
-<td align="right">134.0</td>
+<td>Elastase II (Ela)</td>
+<td align="right">8.5</td>
+<td align="right">26.5</td>
 </tr>
 </table>
-<p>Both protein samples are placed into a gel with a constant pH of 8.0. The gel is then placed into an electric field.<br>In which direction will each protein in the table migrate at <b>pH 8.0</b>?</p>
+<p>Both protein samples are placed into a gel with a constant pH of 7.5. The gel is then placed into an electric field.<br>In which direction will each protein in the table migrate at <b>pH 7.5</b>?</p>
 </div>
 <form>
-<ul id="choices_8ed2_76a7">
+<ul id="choices_bcf1_e859">
 <li>
-    <input type="radio" id="option0" name="answer_8ed2_76a7" data-correct="false"><label for="option0">Both RibA and Col will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal  </label>
+    <input type="radio" id="option0" name="answer_bcf1_e859" data-correct="false"><label for="option0">Both His and Ela will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal  </label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_8ed2_76a7" data-correct="false"><label for="option1">Both RibA and Col will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal  </label>
+    <input type="radio" id="option1" name="answer_bcf1_e859" data-correct="true"><label for="option1">Both His and Ela will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal  </label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_8ed2_76a7" data-correct="true"><label for="option2">RibA will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal<br> Col will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal  </label>
+    <input type="radio" id="option2" name="answer_bcf1_e859" data-correct="false"><label for="option2">His will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal<br> Ela will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal  </label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_8ed2_76a7" data-correct="false"><label for="option3">RibA will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal<br> Col will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal  </label>
+    <input type="radio" id="option3" name="answer_bcf1_e859" data-correct="false"><label for="option3">His will have a <span style="color:darkred">negative (–)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal<br> Ela will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (–)</span> terminal  </label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_8ed2_76a7()">Check Answer</button>
-<div id="result_8ed2_76a7" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_bcf1_e859()">Check Answer</button>
+<div id="result_bcf1_e859" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_8ed2_76a7() {
- const options = document.getElementsByName('answer_8ed2_76a7');
+function checkAnswer_bcf1_e859() {
+ const options = document.getElementsByName('answer_bcf1_e859');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_8ed2_76a7');
+ const resultDiv = document.getElementById('result_bcf1_e859');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';
