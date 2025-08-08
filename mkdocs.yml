@@ -84,10 +84,10 @@ nav:
 - "<i class='fa fa-dna'></i> Genetics":
   - 'List of Topics': genetics/index.md
   - '1: Genetic Disorders': genetics/topic01/index.md
-  - '2: DNA Structure and Sequences': genetics/topic02/index.md
-  - '3: DNA Profiling and Techniques': genetics/topic03/index.md
+  - '2: DNA Structure': genetics/topic02/index.md
+  - '3: DNA Profiling': genetics/topic03/index.md
   - '4: Mendelian Genetics': genetics/topic04/index.md
-  - '5: Allele and Gene Interactions': genetics/topic05/index.md
+  - '5: Gene Interactions': genetics/topic05/index.md
   - '6: Chromosomal Inheritance': genetics/topic06/index.md
   - '7: Gene Mapping': genetics/topic07/index.md
   - '8: Chromosomal Disorders': genetics/topic08/index.md
