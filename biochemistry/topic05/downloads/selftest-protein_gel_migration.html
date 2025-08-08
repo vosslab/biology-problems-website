@@ -1,5 +1,5 @@
-<div id="question_html_37aa_eafb">
-<div id="statement_text_37aa_eafb">
+<div id="question_html_b3de_bbfd">
+<div id="statement_text_b3de_bbfd">
 <h6>Gel Migration Problem</h6> <p>In this task, data from an SDS-PAGE experiment, where proteins are separated based on molecular weight, is provided. The gel results table below shows some standard proteins with known molecular weights and one unknown protein.<br></p>
 <table cellpadding="2" cellspacing="2" style="text-align:center; border: 2px solid black; font-size: 14px;">
 <tr style="background-color: #f2f2f2; border-bottom: 3px solid grey;">
@@ -8,24 +8,24 @@
 <th>Migration<br>Distance (cm)</th>
 </tr>
 <tr>
-<td>Lysozyme (Lys)</td>
-<td align="center">14.4</td>
-<td align="center">3.37</td>
+<td>Avidin (Av)</td>
+<td align="center">16.9</td>
+<td align="center">3.24</td>
 </tr>
 <tr>
-<td>Myoglobin (Myo)</td>
-<td align="center">18.0</td>
-<td align="center">3.19</td>
+<td>Succinate Ligase (SL)</td>
+<td align="center">20.9</td>
+<td align="center">3.07</td>
 </tr>
 <tr>
-<td>Trypsin (Tryp)</td>
-<td align="center">23.5</td>
-<td align="center">2.97</td>
+<td>Casein (Cas)</td>
+<td align="center">24.0</td>
+<td align="center">2.96</td>
 </tr>
 <tr>
-<td>Prostate-Specific Antigen (PSA)</td>
-<td align="center">30.0</td>
-<td align="center">2.78</td>
+<td>Horseradish peroxidase (HP)</td>
+<td align="center">34.0</td>
+<td align="center">2.68</td>
 </tr>
 <tr>
 <td>Lipase (Lip)</td>
@@ -38,47 +38,47 @@
 <td align="center">2.37</td>
 </tr>
 <tr>
-<td>Catalase (Cat)</td>
-<td align="center">65.5</td>
-<td align="center">2.15</td>
+<td>α-Amylase (Amy)</td>
+<td align="center">61.0</td>
+<td align="center">2.21</td>
 </tr>
 <tr style="border-top: 3px double gray; background-color: #fffacd;">
-<td>Unknown</td>  <td align="center"><strong>?</strong></td>  <td align="center">2.43</td>
+<td>Unknown</td>  <td align="center"><strong>?</strong></td>  <td align="center">2.64</td>
 </tr>
 </table>
 <br>Estimate the molecular weight of the unknown protein by comparing its gel migration distance with those of the standards.</div>
 <form>
-<ul id="choices_37aa_eafb">
+<ul id="choices_b3de_bbfd">
 <li>
-    <input type="radio" id="option0" name="answer_37aa_eafb" data-correct="false"><label for="option0">16 kDa  </label>
+    <input type="radio" id="option0" name="answer_b3de_bbfd" data-correct="false"><label for="option0">20 kDa  </label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_37aa_eafb" data-correct="false"><label for="option1">21 kDa  </label>
+    <input type="radio" id="option1" name="answer_b3de_bbfd" data-correct="false"><label for="option1">22 kDa  </label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_37aa_eafb" data-correct="false"><label for="option2">26 kDa  </label>
+    <input type="radio" id="option2" name="answer_b3de_bbfd" data-correct="false"><label for="option2">30 kDa  </label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_37aa_eafb" data-correct="false"><label for="option3">34 kDa  </label>
+    <input type="radio" id="option3" name="answer_b3de_bbfd" data-correct="true"><label for="option3">36 kDa  </label>
   </li>
   <li>
-    <input type="radio" id="option4" name="answer_37aa_eafb" data-correct="true"><label for="option4">46 kDa  </label>
+    <input type="radio" id="option4" name="answer_b3de_bbfd" data-correct="false"><label for="option4">44 kDa  </label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_37aa_eafb()">Check Answer</button>
-<div id="result_37aa_eafb" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_b3de_bbfd()">Check Answer</button>
+<div id="result_b3de_bbfd" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_37aa_eafb() {
- const options = document.getElementsByName('answer_37aa_eafb');
+function checkAnswer_b3de_bbfd() {
+ const options = document.getElementsByName('answer_b3de_bbfd');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_37aa_eafb');
+ const resultDiv = document.getElementById('result_b3de_bbfd');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';
