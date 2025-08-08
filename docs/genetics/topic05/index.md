@@ -1,6 +1,67 @@
-# 5: Allele and Gene Interactions
+# 5: Gene Interactions
 
 Multigene crosses, degrees of dominance, and epistasis in metabolic and genetic pathways.
+
+## Monohybrid Cross Genotype-Phenotype Relationships
+
+<div id="MATCH-monohybrid_cross_genotype-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-MATCH-monohybrid_cross_genotype-questions.txt" download title="Download bbq-MATCH-monohybrid_cross_genotype-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-monohybrid_cross_genotype-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-monohybrid_cross_genotype.zip" download title="Download canvas_qti_v1_2-MATCH-monohybrid_cross_genotype.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-monohybrid_cross_genotype.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-monohybrid_cross_genotype.html', '_blank')" title="View human_readable-MATCH-monohybrid_cross_genotype.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-monohybrid_cross_genotype.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click 
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Monohybrid Cross Genotype-Phenotype Relationships
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic05/downloads/selftest-MATCH-monohybrid_cross_genotype.html" %}
+
+</details>
+
+
+## Monohybrid Cross Genotype Analysis
+
+<div id="MC-monohybrid_cross_genotype-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-MC-monohybrid_cross_genotype-questions.txt" download title="Download bbq-MC-monohybrid_cross_genotype-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-monohybrid_cross_genotype-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MC-monohybrid_cross_genotype.zip" download title="Download blackboard_qti_v2_1-MC-monohybrid_cross_genotype.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MC-monohybrid_cross_genotype.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MC-monohybrid_cross_genotype.zip" download title="Download canvas_qti_v1_2-MC-monohybrid_cross_genotype.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MC-monohybrid_cross_genotype.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MC-monohybrid_cross_genotype.html', '_blank')" title="View human_readable-MC-monohybrid_cross_genotype.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MC-monohybrid_cross_genotype.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click 
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Monohybrid Cross Genotype Analysis
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic05/downloads/selftest-MC-monohybrid_cross_genotype.html" %}
+
+</details>
+
 
 ## ABO Blood Group Inheritance Patterns
 
@@ -66,6 +127,131 @@ Multigene crosses, degrees of dominance, and epistasis in metabolic and genetic 
 </details>
 
 
+## Gene Interaction Types in Dihybrid Crosses
+
+<div id="dihybrid_cross_epistatic_gene_interactions-4_choices-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-dihybrid_cross_epistatic_gene_interactions-4_choices-questions.txt" download title="Download bbq-dihybrid_cross_epistatic_gene_interactions-4_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-dihybrid_cross_epistatic_gene_interactions-4_choices-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-dihybrid_cross_epistatic_gene_interactions-4_choices.zip" download title="Download blackboard_qti_v2_1-dihybrid_cross_epistatic_gene_interactions-4_choices.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-dihybrid_cross_epistatic_gene_interactions-4_choices.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-dihybrid_cross_epistatic_gene_interactions-4_choices.zip" download title="Download canvas_qti_v1_2-dihybrid_cross_epistatic_gene_interactions-4_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-dihybrid_cross_epistatic_gene_interactions-4_choices.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-dihybrid_cross_epistatic_gene_interactions-4_choices.html', '_blank')" title="View human_readable-dihybrid_cross_epistatic_gene_interactions-4_choices.html" aria-label="Click to view the Human-Readable TXT file (human_readable-dihybrid_cross_epistatic_gene_interactions-4_choices.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click 
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Gene Interaction Types in Dihybrid Crosses
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic05/downloads/selftest-dihybrid_cross_epistatic_gene_interactions-4_choices.html" %}
+
+</details>
+
+
+## Dihybrid Cross and Epistasis in Metabolic Pathways
+
+<div id="dihybrid_cross_epistatic_gene_metabolics-4_choices-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-dihybrid_cross_epistatic_gene_metabolics-4_choices-questions.txt" download title="Download bbq-dihybrid_cross_epistatic_gene_metabolics-4_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-dihybrid_cross_epistatic_gene_metabolics-4_choices-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-dihybrid_cross_epistatic_gene_metabolics-4_choices.zip" download title="Download blackboard_qti_v2_1-dihybrid_cross_epistatic_gene_metabolics-4_choices.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-dihybrid_cross_epistatic_gene_metabolics-4_choices.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-dihybrid_cross_epistatic_gene_metabolics-4_choices.zip" download title="Download canvas_qti_v1_2-dihybrid_cross_epistatic_gene_metabolics-4_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-dihybrid_cross_epistatic_gene_metabolics-4_choices.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+</div><details>
+  <summary>Click 
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Dihybrid Cross and Epistasis in Metabolic Pathways
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic05/downloads/selftest-dihybrid_cross_epistatic_gene_metabolics-4_choices.html" %}
+
+</details>
+
+
+## Genetic Linkage and Epistasis in Dihybrid Crosses
+
+<div id="epistasis_test_cross-forward_direction-4_choices-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-epistasis_test_cross-forward_direction-4_choices-questions.txt" download title="Download bbq-epistasis_test_cross-forward_direction-4_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-epistasis_test_cross-forward_direction-4_choices-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-epistasis_test_cross-forward_direction-4_choices.zip" download title="Download blackboard_qti_v2_1-epistasis_test_cross-forward_direction-4_choices.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-epistasis_test_cross-forward_direction-4_choices.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-epistasis_test_cross-forward_direction-4_choices.zip" download title="Download canvas_qti_v1_2-epistasis_test_cross-forward_direction-4_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-epistasis_test_cross-forward_direction-4_choices.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-epistasis_test_cross-forward_direction-4_choices.html', '_blank')" title="View human_readable-epistasis_test_cross-forward_direction-4_choices.html" aria-label="Click to view the Human-Readable TXT file (human_readable-epistasis_test_cross-forward_direction-4_choices.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click 
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Genetic Linkage and Epistasis in Dihybrid Crosses
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic05/downloads/selftest-epistasis_test_cross-forward_direction-4_choices.html" %}
+
+</details>
+
+
+## Genetic Linkage and Gene Interaction in Dihybrid Crosses
+
+<div id="epistasis_test_cross-inverse_direction-4_choices-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-epistasis_test_cross-inverse_direction-4_choices-questions.txt" download title="Download bbq-epistasis_test_cross-inverse_direction-4_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-epistasis_test_cross-inverse_direction-4_choices-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-epistasis_test_cross-inverse_direction-4_choices.zip" download title="Download blackboard_qti_v2_1-epistasis_test_cross-inverse_direction-4_choices.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-epistasis_test_cross-inverse_direction-4_choices.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-epistasis_test_cross-inverse_direction-4_choices.zip" download title="Download canvas_qti_v1_2-epistasis_test_cross-inverse_direction-4_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-epistasis_test_cross-inverse_direction-4_choices.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-epistasis_test_cross-inverse_direction-4_choices.html', '_blank')" title="View human_readable-epistasis_test_cross-inverse_direction-4_choices.html" aria-label="Click to view the Human-Readable TXT file (human_readable-epistasis_test_cross-inverse_direction-4_choices.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click 
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Genetic Linkage and Gene Interaction in Dihybrid Crosses
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic05/downloads/selftest-epistasis_test_cross-inverse_direction-4_choices.html" %}
+
+</details>
+
+
 ## Types of Genetic Dominance in Monohybrid Crosses
 
 <div id="monohybrid_degrees_of_dominance-button-container" class="button-container">
@@ -94,6 +280,38 @@ Multigene crosses, degrees of dominance, and epistasis in metabolic and genetic 
     </span>
   </summary>
   {% include "genetics/topic05/downloads/selftest-monohybrid_degrees_of_dominance.html" %}
+
+</details>
+
+
+## Monohybrid Cross Genotype Outcomes
+
+<div id="monohybrid_genotype_statements-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-monohybrid_genotype_statements-questions.txt" download title="Download bbq-monohybrid_genotype_statements-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-monohybrid_genotype_statements-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-monohybrid_genotype_statements.zip" download title="Download blackboard_qti_v2_1-monohybrid_genotype_statements.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-monohybrid_genotype_statements.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-monohybrid_genotype_statements.zip" download title="Download canvas_qti_v1_2-monohybrid_genotype_statements.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-monohybrid_genotype_statements.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-monohybrid_genotype_statements.html', '_blank')" title="View human_readable-monohybrid_genotype_statements.html" aria-label="Click to view the Human-Readable TXT file (human_readable-monohybrid_genotype_statements.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click 
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Monohybrid Cross Genotype Outcomes
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic05/downloads/selftest-monohybrid_genotype_statements.html" %}
 
 </details>
 

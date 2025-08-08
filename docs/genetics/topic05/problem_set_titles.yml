@@ -1,5 +1,17 @@
+bbq-MATCH-monohybrid_cross_genotype-questions.txt: Monohybrid Cross Genotype-Phenotype
+  Relationships
+bbq-MC-monohybrid_cross_genotype-questions.txt: Monohybrid Cross Genotype Analysis
 bbq-blood_type_mother-questions.txt: ABO Blood Group Inheritance Patterns
 bbq-blood_type_offspring-questions.txt: Inheritance Patterns in ABO Blood Group
+bbq-dihybrid_cross_epistatic_gene_interactions-4_choices-questions.txt: Gene Interaction
+  Types in Dihybrid Crosses
+bbq-dihybrid_cross_epistatic_gene_metabolics-4_choices-questions.txt: Dihybrid Cross
+  and Epistasis in Metabolic Pathways
+bbq-epistasis_test_cross-forward_direction-4_choices-questions.txt: Genetic Linkage
+  and Epistasis in Dihybrid Crosses
+bbq-epistasis_test_cross-inverse_direction-4_choices-questions.txt: Genetic Linkage
+  and Gene Interaction in Dihybrid Crosses
 bbq-monohybrid_degrees_of_dominance-questions.txt: Types of Genetic Dominance in Monohybrid
   Crosses
-last edit: Thu Aug  7 18:57:56 2025
+bbq-monohybrid_genotype_statements-questions.txt: Monohybrid Cross Genotype Outcomes
+last edit: Fri Aug  8 15:45:05 2025

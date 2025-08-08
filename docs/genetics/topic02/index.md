@@ -1,4 +1,4 @@
-# 2: DNA Structure and Sequences
+# 2: DNA Structure
 
 DNA composition, base pairing, nucleotide components, and double-helix complementarity.
 
