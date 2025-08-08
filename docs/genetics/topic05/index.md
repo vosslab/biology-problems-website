@@ -316,3 +316,99 @@ Multigene crosses, degrees of dominance, and epistasis in metabolic and genetic 
 </details>
 
 
+## Genotype Diversity in Hybrid Crosses
+
+<div id="unique_cross_genotypes-with_hint-6_genes-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-unique_cross_genotypes-with_hint-6_genes-questions.txt" download title="Download bbq-unique_cross_genotypes-with_hint-6_genes-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-unique_cross_genotypes-with_hint-6_genes-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-unique_cross_genotypes-with_hint-6_genes.zip" download title="Download blackboard_qti_v2_1-unique_cross_genotypes-with_hint-6_genes.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-unique_cross_genotypes-with_hint-6_genes.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-unique_cross_genotypes-with_hint-6_genes.zip" download title="Download canvas_qti_v1_2-unique_cross_genotypes-with_hint-6_genes.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-unique_cross_genotypes-with_hint-6_genes.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-unique_cross_genotypes-with_hint-6_genes.html', '_blank')" title="View human_readable-unique_cross_genotypes-with_hint-6_genes.html" aria-label="Click to view the Human-Readable TXT file (human_readable-unique_cross_genotypes-with_hint-6_genes.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click 
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Genotype Diversity in Hybrid Crosses
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic05/downloads/selftest-unique_cross_genotypes-with_hint-6_genes.html" %}
+
+</details>
+
+
+## Determining Phenotype Diversity in Genetic Crosses
+
+<div id="unique_cross_phenotypes-with_hint-6_genes-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-unique_cross_phenotypes-with_hint-6_genes-questions.txt" download title="Download bbq-unique_cross_phenotypes-with_hint-6_genes-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-unique_cross_phenotypes-with_hint-6_genes-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-unique_cross_phenotypes-with_hint-6_genes.zip" download title="Download blackboard_qti_v2_1-unique_cross_phenotypes-with_hint-6_genes.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-unique_cross_phenotypes-with_hint-6_genes.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-unique_cross_phenotypes-with_hint-6_genes.zip" download title="Download canvas_qti_v1_2-unique_cross_phenotypes-with_hint-6_genes.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-unique_cross_phenotypes-with_hint-6_genes.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-unique_cross_phenotypes-with_hint-6_genes.html', '_blank')" title="View human_readable-unique_cross_phenotypes-with_hint-6_genes.html" aria-label="Click to view the Human-Readable TXT file (human_readable-unique_cross_phenotypes-with_hint-6_genes.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click 
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Determining Phenotype Diversity in Genetic Crosses
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic05/downloads/selftest-unique_cross_phenotypes-with_hint-6_genes.html" %}
+
+</details>
+
+
+## Calculating Gamete Diversity through Independent Assortment
+
+<div id="unique_gametes-with_hint-7_genes-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-unique_gametes-with_hint-7_genes-questions.txt" download title="Download bbq-unique_gametes-with_hint-7_genes-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-unique_gametes-with_hint-7_genes-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-unique_gametes-with_hint-7_genes.zip" download title="Download blackboard_qti_v2_1-unique_gametes-with_hint-7_genes.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-unique_gametes-with_hint-7_genes.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-unique_gametes-with_hint-7_genes.zip" download title="Download canvas_qti_v1_2-unique_gametes-with_hint-7_genes.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-unique_gametes-with_hint-7_genes.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-unique_gametes-with_hint-7_genes.html', '_blank')" title="View human_readable-unique_gametes-with_hint-7_genes.html" aria-label="Click to view the Human-Readable TXT file (human_readable-unique_gametes-with_hint-7_genes.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click 
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Calculating Gamete Diversity through Independent Assortment
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic05/downloads/selftest-unique_gametes-with_hint-7_genes.html" %}
+
+</details>
+
+
