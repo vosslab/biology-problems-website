@@ -1,0 +1,59 @@
+<div id="question_html_599b_f39b">
+<div id="statement_text_599b_f39b"><p>For the ABO blood group in humans, the i<sup>A</sup> and i<sup>B</sup> alleles are codominant and the i allele is recessive.<br>If a female &female; with <u>type AB blood</u> marries a male &male; with <u>type A blood</u>, which of the following blood types could their children possibly have? Check all that apply.</p></div>
+<form>
+<ul id="choices_599b_f39b">
+<li>
+    <input type="checkbox" id="option_599b_f39b_1" name="answer_599b_f39b" data-correct="false"><label for="option_599b_f39b_1">Type O blood</label>
+  </li>
+  <li>
+    <input type="checkbox" id="option_599b_f39b_2" name="answer_599b_f39b" data-correct="true"><label for="option_599b_f39b_2">Type A blood</label>
+  </li>
+  <li>
+    <input type="checkbox" id="option_599b_f39b_3" name="answer_599b_f39b" data-correct="true"><label for="option_599b_f39b_3">Type B blood</label>
+  </li>
+  <li>
+    <input type="checkbox" id="option_599b_f39b_4" name="answer_599b_f39b" data-correct="true"><label for="option_599b_f39b_4">Type AB blood</label>
+  </li>
+</ul>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_599b_f39b()">Check Answer</button>
+<button type="button" class="md-button md-button--secondary custom-button" style="background-color: #e6eeff;" onclick="clearSelection_599b_f39b()">Clear Selection</button>
+<div id="result_599b_f39b" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+</form>
+<br>
+</div><script>
+function checkAnswer_599b_f39b() {
+	const options = Array.from(document.getElementsByName('answer_599b_f39b'));
+	const correctOptions = options.filter(option => option.dataset.correct === 'true');
+	const selectedOptions = options.filter(option => option.checked);
+	const resultDiv = document.getElementById('result_599b_f39b');
+	const numCorrectSelected = selectedOptions.filter(option => correctOptions.includes(option)).length;
+	const numIncorrectSelected = selectedOptions.length - numCorrectSelected;
+	const totalCorrect = correctOptions.length;
+	const totalSelected = selectedOptions.length;
+	if (numCorrectSelected === totalCorrect && totalSelected === totalCorrect) {
+		resultDiv.style.color = 'green';
+		resultDiv.textContent = 'CORRECT';
+	} else if (totalSelected > totalCorrect) {
+		resultDiv.style.color = 'red';
+		resultDiv.textContent = `Too many answers selected. You selected ${numCorrectSelected} correct answers, but also included ${numIncorrectSelected} incorrect choices.`;
+	} else if (numCorrectSelected < totalCorrect && totalSelected < totalCorrect) {
+		resultDiv.style.color = 'orange';
+		resultDiv.textContent = `Too few answers selected. You got ${numCorrectSelected} out of ${totalCorrect} correct.`;
+	} else if (totalSelected === totalCorrect && numCorrectSelected < totalCorrect) {
+		resultDiv.style.color = 'goldenrod';
+		resultDiv.textContent = `You selected the right number of choices, but only ${numCorrectSelected} out of ${totalCorrect} are correct.`;
+	} else if (totalSelected === 0) {
+		resultDiv.style.color = 'black';
+		resultDiv.textContent = 'Please select an answer.';
+	}
+}
+</script>
+<script>
+	function clearSelection_599b_f39b() {
+		const checkboxes = document.getElementsByName('answer_599b_f39b');
+		Array.from(checkboxes).forEach(checkbox => checkbox.checked = false);
+		const resultDiv = document.getElementById('result_599b_f39b');
+		if (resultDiv) {			resultDiv.textContent = '';
+			resultDiv.style.color = 'inherit';
+		}	}
+</script>

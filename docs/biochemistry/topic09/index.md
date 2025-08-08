@@ -5,11 +5,11 @@ Carbohydrate structure, glycosidic bonds, biological roles.
 ## Fischer Projections of D and L from Monosaccharides
 
 <div id="D_to_L_Fischer_configuration-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-D_to_L_Fischer_configuration-questions.txt" download title="Download bbq-D_to_L_Fischer_configuration-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-D_to_L_Fischer_configuration-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard TXT
+<a class="md-button custom-button bb_text" href="bbq-D_to_L_Fischer_configuration-questions.txt" download title="Download bbq-D_to_L_Fischer_configuration-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-D_to_L_Fischer_configuration-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-D_to_L_Fischer_configuration.zip" download title="Download blackboard_qti_v2_1-D_to_L_Fischer_configuration.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-D_to_L_Fischer_configuration.zip)">
-    <i class="fa fa-download"></i>Blackboard QTI v2.1
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-D_to_L_Fischer_configuration.zip" download title="Download blackboard_qti_v2_1-D_to_L_Fischer_configuration.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-D_to_L_Fischer_configuration.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-D_to_L_Fischer_configuration.zip" download title="Download canvas_qti_v1_2-D_to_L_Fischer_configuration.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-D_to_L_Fischer_configuration.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -34,11 +34,11 @@ Carbohydrate structure, glycosidic bonds, biological roles.
 ## Haworth Projections of D and L from Monosaccharides
 
 <div id="D_to_L_Haworth_configuration-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-D_to_L_Haworth_configuration-questions.txt" download title="Download bbq-D_to_L_Haworth_configuration-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-D_to_L_Haworth_configuration-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard TXT
+<a class="md-button custom-button bb_text" href="bbq-D_to_L_Haworth_configuration-questions.txt" download title="Download bbq-D_to_L_Haworth_configuration-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-D_to_L_Haworth_configuration-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-D_to_L_Haworth_configuration.zip" download title="Download blackboard_qti_v2_1-D_to_L_Haworth_configuration.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-D_to_L_Haworth_configuration.zip)">
-    <i class="fa fa-download"></i>Blackboard QTI v2.1
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-D_to_L_Haworth_configuration.zip" download title="Download blackboard_qti_v2_1-D_to_L_Haworth_configuration.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-D_to_L_Haworth_configuration.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-D_to_L_Haworth_configuration.zip" download title="Download canvas_qti_v1_2-D_to_L_Haworth_configuration.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-D_to_L_Haworth_configuration.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -63,8 +63,8 @@ Carbohydrate structure, glycosidic bonds, biological roles.
 ## Matching Common Polysaccharides to Descriptions
 
 <div id="MATCH-polysaccharides-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MATCH-polysaccharides-questions.txt" download title="Download bbq-MATCH-polysaccharides-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-MATCH-polysaccharides-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard TXT
+<a class="md-button custom-button bb_text" href="bbq-MATCH-polysaccharides-questions.txt" download title="Download bbq-MATCH-polysaccharides-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-polysaccharides-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-polysaccharides.zip" download title="Download canvas_qti_v1_2-MATCH-polysaccharides.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-polysaccharides.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -92,11 +92,11 @@ Carbohydrate structure, glycosidic bonds, biological roles.
 ## Characteristics of Common Polysaccharides
 
 <div id="MC-polysaccharides-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MC-polysaccharides-questions.txt" download title="Download bbq-MC-polysaccharides-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-MC-polysaccharides-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard TXT
+<a class="md-button custom-button bb_text" href="bbq-MC-polysaccharides-questions.txt" download title="Download bbq-MC-polysaccharides-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-polysaccharides-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MC-polysaccharides.zip" download title="Download blackboard_qti_v2_1-MC-polysaccharides.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-MC-polysaccharides.zip)">
-    <i class="fa fa-download"></i>Blackboard QTI v2.1
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MC-polysaccharides.zip" download title="Download blackboard_qti_v2_1-MC-polysaccharides.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MC-polysaccharides.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MC-polysaccharides.zip" download title="Download canvas_qti_v1_2-MC-polysaccharides.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MC-polysaccharides.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -124,11 +124,11 @@ Carbohydrate structure, glycosidic bonds, biological roles.
 ## Classify the Fischer Projection of a Monosaccharide
 
 <div id="classify_Fischer-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-classify_Fischer-questions.txt" download title="Download bbq-classify_Fischer-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-classify_Fischer-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard TXT
+<a class="md-button custom-button bb_text" href="bbq-classify_Fischer-questions.txt" download title="Download bbq-classify_Fischer-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-classify_Fischer-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-classify_Fischer.zip" download title="Download blackboard_qti_v2_1-classify_Fischer.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-classify_Fischer.zip)">
-    <i class="fa fa-download"></i>Blackboard QTI v2.1
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-classify_Fischer.zip" download title="Download blackboard_qti_v2_1-classify_Fischer.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-classify_Fischer.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-classify_Fischer.zip" download title="Download canvas_qti_v1_2-classify_Fischer.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-classify_Fischer.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -156,11 +156,11 @@ Carbohydrate structure, glycosidic bonds, biological roles.
 ## Classify the Haworth Projection of a Monosaccharide
 
 <div id="classify_Haworth-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-classify_Haworth-questions.txt" download title="Download bbq-classify_Haworth-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-classify_Haworth-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard TXT
+<a class="md-button custom-button bb_text" href="bbq-classify_Haworth-questions.txt" download title="Download bbq-classify_Haworth-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-classify_Haworth-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-classify_Haworth.zip" download title="Download blackboard_qti_v2_1-classify_Haworth.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-classify_Haworth.zip)">
-    <i class="fa fa-download"></i>Blackboard QTI v2.1
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-classify_Haworth.zip" download title="Download blackboard_qti_v2_1-classify_Haworth.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-classify_Haworth.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-classify_Haworth.zip" download title="Download canvas_qti_v1_2-classify_Haworth.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-classify_Haworth.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -188,11 +188,11 @@ Carbohydrate structure, glycosidic bonds, biological roles.
 ## Convert Betweeen Fischer and Haworth Projection
 
 <div id="convert_Fischer_and_Haworth-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-convert_Fischer_and_Haworth-questions.txt" download title="Download bbq-convert_Fischer_and_Haworth-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-convert_Fischer_and_Haworth-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard TXT
+<a class="md-button custom-button bb_text" href="bbq-convert_Fischer_and_Haworth-questions.txt" download title="Download bbq-convert_Fischer_and_Haworth-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-convert_Fischer_and_Haworth-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-convert_Fischer_and_Haworth.zip" download title="Download blackboard_qti_v2_1-convert_Fischer_and_Haworth.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-convert_Fischer_and_Haworth.zip)">
-    <i class="fa fa-download"></i>Blackboard QTI v2.1
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-convert_Fischer_and_Haworth.zip" download title="Download blackboard_qti_v2_1-convert_Fischer_and_Haworth.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-convert_Fischer_and_Haworth.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-convert_Fischer_and_Haworth.zip" download title="Download canvas_qti_v1_2-convert_Fischer_and_Haworth.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-convert_Fischer_and_Haworth.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2

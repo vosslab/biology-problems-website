@@ -5,11 +5,11 @@ DNA composition, base pairing, nucleotide components, and double-helix complemen
 ## Statements about DNA Structure
 
 <div id="TFMS-dna_structure-biol_351-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-TFMS-dna_structure-biol_351-questions.txt" download title="Download bbq-TFMS-dna_structure-biol_351-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-TFMS-dna_structure-biol_351-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard TXT
+<a class="md-button custom-button bb_text" href="bbq-TFMS-dna_structure-biol_351-questions.txt" download title="Download bbq-TFMS-dna_structure-biol_351-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-dna_structure-biol_351-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-TFMS-dna_structure-biol_351.zip" download title="Download blackboard_qti_v2_1-TFMS-dna_structure-biol_351.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-TFMS-dna_structure-biol_351.zip)">
-    <i class="fa fa-download"></i>Blackboard QTI v2.1
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-TFMS-dna_structure-biol_351.zip" download title="Download blackboard_qti_v2_1-TFMS-dna_structure-biol_351.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-TFMS-dna_structure-biol_351.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-dna_structure-biol_351.zip" download title="Download canvas_qti_v1_2-TFMS-dna_structure-biol_351.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-dna_structure-biol_351.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -37,11 +37,11 @@ DNA composition, base pairing, nucleotide components, and double-helix complemen
 ## Statements about Nucleotides Components
 
 <div id="TFMS-nucleotide_components-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-TFMS-nucleotide_components-questions.txt" download title="Download bbq-TFMS-nucleotide_components-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-TFMS-nucleotide_components-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard TXT
+<a class="md-button custom-button bb_text" href="bbq-TFMS-nucleotide_components-questions.txt" download title="Download bbq-TFMS-nucleotide_components-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-nucleotide_components-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-TFMS-nucleotide_components.zip" download title="Download blackboard_qti_v2_1-TFMS-nucleotide_components.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-TFMS-nucleotide_components.zip)">
-    <i class="fa fa-download"></i>Blackboard QTI v2.1
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-TFMS-nucleotide_components.zip" download title="Download blackboard_qti_v2_1-TFMS-nucleotide_components.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-TFMS-nucleotide_components.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-nucleotide_components.zip" download title="Download canvas_qti_v1_2-TFMS-nucleotide_components.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-nucleotide_components.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -69,11 +69,11 @@ DNA composition, base pairing, nucleotide components, and double-helix complemen
 ## Chargaff's Base Pairing Composition
 
 <div id="chargaff_dna_percent-5_choices-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-chargaff_dna_percent-5_choices-questions.txt" download title="Download bbq-chargaff_dna_percent-5_choices-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-chargaff_dna_percent-5_choices-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard TXT
+<a class="md-button custom-button bb_text" href="bbq-chargaff_dna_percent-5_choices-questions.txt" download title="Download bbq-chargaff_dna_percent-5_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chargaff_dna_percent-5_choices-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-chargaff_dna_percent-5_choices.zip" download title="Download blackboard_qti_v2_1-chargaff_dna_percent-5_choices.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-chargaff_dna_percent-5_choices.zip)">
-    <i class="fa fa-download"></i>Blackboard QTI v2.1
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-chargaff_dna_percent-5_choices.zip" download title="Download blackboard_qti_v2_1-chargaff_dna_percent-5_choices.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-chargaff_dna_percent-5_choices.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-chargaff_dna_percent-5_choices.zip" download title="Download canvas_qti_v1_2-chargaff_dna_percent-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-chargaff_dna_percent-5_choices.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -101,11 +101,11 @@ DNA composition, base pairing, nucleotide components, and double-helix complemen
 ## Directionless Complementary DNA Sequences
 
 <div id="complementary_sequences-mc-directionless-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-complementary_sequences-mc-directionless-questions.txt" download title="Download bbq-complementary_sequences-mc-directionless-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-complementary_sequences-mc-directionless-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard TXT
+<a class="md-button custom-button bb_text" href="bbq-complementary_sequences-mc-directionless-questions.txt" download title="Download bbq-complementary_sequences-mc-directionless-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-complementary_sequences-mc-directionless-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-complementary_sequences-mc-directionless.zip" download title="Download blackboard_qti_v2_1-complementary_sequences-mc-directionless.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-complementary_sequences-mc-directionless.zip)">
-    <i class="fa fa-download"></i>Blackboard QTI v2.1
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-complementary_sequences-mc-directionless.zip" download title="Download blackboard_qti_v2_1-complementary_sequences-mc-directionless.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-complementary_sequences-mc-directionless.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-complementary_sequences-mc-directionless.zip" download title="Download canvas_qti_v1_2-complementary_sequences-mc-directionless.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-complementary_sequences-mc-directionless.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -130,11 +130,11 @@ DNA composition, base pairing, nucleotide components, and double-helix complemen
 ## 5&prime; and 3&prime; Complementary DNA Sequences
 
 <div id="complementary_sequences-mc-prime-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-complementary_sequences-mc-prime-questions.txt" download title="Download bbq-complementary_sequences-mc-prime-questions.txt" aria-label="Click to download the Blackboard TXT file (bbq-complementary_sequences-mc-prime-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard TXT
+<a class="md-button custom-button bb_text" href="bbq-complementary_sequences-mc-prime-questions.txt" download title="Download bbq-complementary_sequences-mc-prime-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-complementary_sequences-mc-prime-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-complementary_sequences-mc-prime.zip" download title="Download blackboard_qti_v2_1-complementary_sequences-mc-prime.zip" aria-label="Click to download the Blackboard QTI v2.1 file (blackboard_qti_v2_1-complementary_sequences-mc-prime.zip)">
-    <i class="fa fa-download"></i>Blackboard QTI v2.1
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-complementary_sequences-mc-prime.zip" download title="Download blackboard_qti_v2_1-complementary_sequences-mc-prime.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-complementary_sequences-mc-prime.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-complementary_sequences-mc-prime.zip" download title="Download canvas_qti_v1_2-complementary_sequences-mc-prime.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-complementary_sequences-mc-prime.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
