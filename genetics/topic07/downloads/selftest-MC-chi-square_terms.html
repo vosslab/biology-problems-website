@@ -1,34 +1,34 @@
-<div id="question_html_a1e9_8809">
-<div id="statement_text_a1e9_8809"><p>Which one of the following <strong><span style="color: #FB9902;">chi-square (χ²)</span></strong> terms correspond to the defintion <span style="font-size: 1em;"><strong>'the statistical cutoff of the result for the <strong><span style="color: #0247FE;">null hypothesis, H<sub>0</sub></span></strong> to be<strong> <span style="color: #169179;"><strong>TRUE</strong></span> </strong>or false'</strong></span>.</p></div>
+<div id="question_html_8d60_03af">
+<div id="statement_text_8d60_03af"><p>Which one of the following <strong><span style="color: #FB9902;">chi-square (χ²)</span></strong> terms correspond to the defintion <span style="font-size: 1em;"><strong>'the probability of getting a result that is either the same or more extreme than the actual observations'</strong></span>.</p></div>
 <form>
-<ul id="choices_a1e9_8809">
+<ul id="choices_8d60_03af">
 <li>
-    <input type="radio" id="option0" name="answer_a1e9_8809" data-correct="false"><label for="option0"><strong><span style="color: #FB9902;">chi-square (χ²)</span></strong> test statistic</label>
+    <input type="radio" id="option0" name="answer_8d60_03af" data-correct="false"><label for="option0"><strong><span style="color: #4424D6;">critical value</span></strong></label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_a1e9_8809" data-correct="false"><label for="option1"><strong><span style="color: #4424D6;">critical value</span></strong></label>
+    <input type="radio" id="option1" name="answer_8d60_03af" data-correct="false"><label for="option1"><strong><span style="color: #B2D732;">degrees of freedom</span></strong></label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_a1e9_8809" data-correct="true"><label for="option2"><strong><span style="color: #8601AF;">level of significance, α</span></strong></label>
+    <input type="radio" id="option2" name="answer_8d60_03af" data-correct="false"><label for="option2"><strong><span style="color: #8601AF;">level of significance, α</span></strong></label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_a1e9_8809" data-correct="false"><label for="option3"><strong><span style="color: #0247FE;">null hypothesis, H<sub>0</sub></span></strong></label>
+    <input type="radio" id="option3" name="answer_8d60_03af" data-correct="true"><label for="option3"><strong><span style="color: #C21460;">p-value</span></strong></label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_a1e9_8809()">Check Answer</button>
-<div id="result_a1e9_8809" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_8d60_03af()">Check Answer</button>
+<div id="result_8d60_03af" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_a1e9_8809() {
- const options = document.getElementsByName('answer_a1e9_8809');
+function checkAnswer_8d60_03af() {
+ const options = document.getElementsByName('answer_8d60_03af');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_a1e9_8809');
+ const resultDiv = document.getElementById('result_8d60_03af');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';

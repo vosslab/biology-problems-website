@@ -1,0 +1,15 @@
+bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_1-questions.txt: Construct Gene Tree from Matrix (Level 1)
+bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_2-questions.txt: Construct Gene Tree from Matrix (Level 2)
+bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_3-questions.txt: Construct Gene Tree from Matrix (Level 3)
+bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_4-questions.txt: Construct Gene Tree from Matrix (Level 4)
+bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_5-questions.txt: Construct Gene Tree from Matrix (Level 5)
+
+bbq-gene_tree_matches_plus-DIFFERENT_mode-EASY_level-questions.txt: Identify Different Phylogenetic Tree (Easy)
+bbq-gene_tree_matches_plus-DIFFERENT_mode-MEDIUM_level-questions.txt: Identify Different Phylogenetic Tree (Medium)
+bbq-gene_tree_matches_plus-DIFFERENT_mode-RIGOROUS_level-questions.txt: Identify Different Phylogenetic Tree (Rigorous)
+
+bbq-gene_tree_matches_plus-SAME_mode-EASY_level-questions.txt: Identify Same Phylogenetic Tree (Easy)
+bbq-gene_tree_matches_plus-SAME_mode-MEDIUM_level-questions.txt: Identify Same Phylogenetic Tree (Medium)
+bbq-gene_tree_matches_plus-SAME_mode-RIGOROUS_level-questions.txt: Identify Same Phylogenetic Tree (Rigorous)
+
+last edit: Sat Aug  9 13:47:55 2025
