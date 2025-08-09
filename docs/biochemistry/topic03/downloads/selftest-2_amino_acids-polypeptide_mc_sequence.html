@@ -1,41 +1,41 @@
-<div id="question_html_ee06_bba7">
-<div id="statement_text_ee06_bba7"><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script><h4>peptide_71fe</h4><p><canvas id="canvas_7f19" width="480" height="512"></canvas></p><hr/><script>/* */initRDKitModule().then(function(instance){RDKitModule=instance;console.log("RDKit:"+RDKitModule.version());/* */function/* */getPeptideBonds(mol){let/* */peptide_bond="CC(=O)NC";let/* */qmol=window.RDKitModule.get_qmol(peptide_bond);let/* */matches=JSON.parse(mol.get_substruct_matches(qmol));let/* */aggregatedBonds=[];for(let/* */i=0;i<matches.length;i++){match=matches[i];if(Array.isArray(match["bonds"])){aggregatedBonds.push(match["bonds"].slice(-2)[0]);}}return/* */aggregatedBonds;}let/* */smiles="[NH3+][C@@H](CO)(C(=O)N[C@@H](CC1=CC=C2C(=C1)C(=CN2))(C(=O)[O-]))";let/* */mol=RDKitModule.get_mol(smiles);let/* */mdetails={};mdetails["bonds"]=getPeptideBonds(mol);mdetails["atoms"]=[0];mdetails["highlightColour"]=[0,1,0];mdetails["legend"]="peptide_71fe";mdetails["explicitMethyl"]=true;canvas=document.getElementById("canvas_7f19");mol.draw_to_canvas_with_highlights(canvas,JSON.stringify(mdetails));});/* */</script> <p>A dipeptide is made up of two (2) amino acids. The figure above shows one such dipeptide with an unknown sequence. Your task is to find out the two (2) letter sequence of this dipeptide.<br/>Here is a step-by-step guide to help you answer the question:</p> <ol> <li style="margin-bottom: 20px;">Consult an amino acid guide for reference. You can find a PDF guide on Blackboard under "Exam and Quiz" in the "Old Exams" section, with the filename <a href="https://drive.google.com/file/d/1Mgum_TmZ71-XIjb38sStEpzzZLqkQb-W/view?usp=sharing">bchm_exam-help_sheet.pdf</a>, or search online for a visual guide that shows all 20 amino acids with their single-letter codes.</li> <li style="margin-bottom: 20px;">Identify the amino-terminal end, represented as <span style="padding: 2px; color: #0000cc; background-color: #66ff66;">NH<sub>3</sub><sup>+</sup></span> and highlighted in bright green. Distinguish between the general nitrogens in amino acid backbones (denoted as <span style="color:#0000cc">NH</span>) and the nitrogen in amino acid side chains.</li> <li style="margin-bottom: 20px;">The one (1) peptide bonds connecting the two (2) amino acids are highlighted in <span style="background-color: #00FF00; padding: 2px;">bright green</span>, making it easier to distinguish the two (2) amino acids.</li> <li style="margin-bottom: 20px;">Examine the side chain for each of the two (2) amino acids to determine their single-letter amino acid code.</li> <li style="margin-bottom: 20px;">List the single-letter amino acid codes in the amino to carboxyl (N&rarr;C) direction. This is the standard method for writing peptide sequences.</li> </ol> <p>Select the correct peptide sequence from the options below:</p></div>
+<div id="question_html_2b2e_9098">
+<div id="statement_text_2b2e_9098"><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script><h4>peptide_ae77</h4><p><canvas id="canvas_f3a0" width="480" height="512"></canvas></p><hr/><script>/* */initRDKitModule().then(function(instance){RDKitModule=instance;console.log("RDKit:"+RDKitModule.version());/* */function/* */getPeptideBonds(mol){let/* */peptide_bond="CC(=O)NC";let/* */qmol=window.RDKitModule.get_qmol(peptide_bond);let/* */matches=JSON.parse(mol.get_substruct_matches(qmol));let/* */aggregatedBonds=[];for(let/* */i=0;i<matches.length;i++){match=matches[i];if(Array.isArray(match["bonds"])){aggregatedBonds.push(match["bonds"].slice(-2)[0]);}}return/* */aggregatedBonds;}let/* */smiles="[NH3+][C@@H](CC1=C[NH]C=N1)(C(=O)N[C@@H](CC1=CC=C2C(=C1)C(=CN2))(C(=O)[O-]))";let/* */mol=RDKitModule.get_mol(smiles);let/* */mdetails={};mdetails["bonds"]=getPeptideBonds(mol);mdetails["atoms"]=[0];mdetails["highlightColour"]=[0,1,0];mdetails["legend"]="peptide_ae77";mdetails["explicitMethyl"]=true;canvas=document.getElementById("canvas_f3a0");mol.draw_to_canvas_with_highlights(canvas,JSON.stringify(mdetails));});/* */</script> <p>A dipeptide is made up of two (2) amino acids. The figure above shows one such dipeptide with an unknown sequence. Your task is to find out the two (2) letter sequence of this dipeptide.<br/>Here is a step-by-step guide to help you answer the question:</p> <ol> <li style="margin-bottom: 20px;">Consult an amino acid guide for reference. You can find a PDF guide on Blackboard under "Exam and Quiz" in the "Old Exams" section, with the filename <a href="https://drive.google.com/file/d/1Mgum_TmZ71-XIjb38sStEpzzZLqkQb-W/view?usp=sharing">bchm_exam-help_sheet.pdf</a>, or search online for a visual guide that shows all 20 amino acids with their single-letter codes.</li> <li style="margin-bottom: 20px;">Identify the amino-terminal end, represented as <span style="padding: 2px; color: #0000cc; background-color: #66ff66;">NH<sub>3</sub><sup>+</sup></span> and highlighted in bright green. Distinguish between the general nitrogens in amino acid backbones (denoted as <span style="color:#0000cc">NH</span>) and the nitrogen in amino acid side chains.</li> <li style="margin-bottom: 20px;">The one (1) peptide bonds connecting the two (2) amino acids are highlighted in <span style="background-color: #00FF00; padding: 2px;">bright green</span>, making it easier to distinguish the two (2) amino acids.</li> <li style="margin-bottom: 20px;">Examine the side chain for each of the two (2) amino acids to determine their single-letter amino acid code.</li> <li style="margin-bottom: 20px;">List the single-letter amino acid codes in the amino to carboxyl (N&rarr;C) direction. This is the standard method for writing peptide sequences.</li> </ol> <p>Select the correct peptide sequence from the options below:</p></div>
 <form>
-<ul id="choices_ee06_bba7">
+<ul id="choices_2b2e_9098">
   <li>
-    <input type="radio" id="option0"  name="answer_ee06_bba7"  data-correct="false">
-    <label for="option0">TW&nbsp; </label>
+    <input type="radio" id="option0"  name="answer_2b2e_9098"  data-correct="true">
+    <label for="option0">HW&nbsp; </label>
   </li>
   <li>
-    <input type="radio" id="option1"  name="answer_ee06_bba7"  data-correct="false">
-    <label for="option1">HY&nbsp; </label>
+    <input type="radio" id="option1"  name="answer_2b2e_9098"  data-correct="false">
+    <label for="option1">HT&nbsp; </label>
   </li>
   <li>
-    <input type="radio" id="option2"  name="answer_ee06_bba7"  data-correct="false">
-    <label for="option2">NH&nbsp; </label>
+    <input type="radio" id="option2"  name="answer_2b2e_9098"  data-correct="false">
+    <label for="option2">LH&nbsp; </label>
   </li>
   <li>
-    <input type="radio" id="option3"  name="answer_ee06_bba7"  data-correct="false">
-    <label for="option3">GW&nbsp; </label>
+    <input type="radio" id="option3"  name="answer_2b2e_9098"  data-correct="false">
+    <label for="option3">IN&nbsp; </label>
   </li>
   <li>
-    <input type="radio" id="option4"  name="answer_ee06_bba7"  data-correct="true">
-    <label for="option4">SW&nbsp; </label>
+    <input type="radio" id="option4"  name="answer_2b2e_9098"  data-correct="false">
+    <label for="option4">WI&nbsp; </label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_ee06_bba7()">Check Answer</button>
-<div id="result_ee06_bba7" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;">&nbsp;</div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_2b2e_9098()">Check Answer</button>
+<div id="result_2b2e_9098" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;">&nbsp;</div>
 </form><br/>
 </div><script>
-function checkAnswer_ee06_bba7() {
- const options = document.getElementsByName('answer_ee06_bba7');
+function checkAnswer_2b2e_9098() {
+ const options = document.getElementsByName('answer_2b2e_9098');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_ee06_bba7');
+ const resultDiv = document.getElementById('result_2b2e_9098');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';

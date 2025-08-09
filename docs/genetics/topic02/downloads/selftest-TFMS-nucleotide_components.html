@@ -1,34 +1,34 @@
-<div id="question_html_e677_5b24">
-<div id="statement_text_e677_5b24">Which one of the following is<strong> <strong>NOT</strong> </strong>one of the three (3) major components of a DNA or RNA nucleotide?</div>
+<div id="question_html_e677_dfc1">
+<div id="statement_text_e677_dfc1">Which one of the following is<strong> <strong>NOT</strong> </strong>one of the three (3) major components of a DNA or RNA nucleotide?</div>
 <form>
-<ul id="choices_e677_5b24">
+<ul id="choices_e677_dfc1">
 <li>
-    <input type="radio" id="option0" name="answer_e677_5b24" data-correct="false"><label for="option0">phosphate group</label>
+    <input type="radio" id="option0" name="answer_e677_dfc1" data-correct="false"><label for="option0">phosphate group</label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_e677_5b24" data-correct="false"><label for="option1">nucleobase</label>
+    <input type="radio" id="option1" name="answer_e677_dfc1" data-correct="true"><label for="option1">carboxyl</label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_e677_5b24" data-correct="false"><label for="option2">deoxyribose</label>
+    <input type="radio" id="option2" name="answer_e677_dfc1" data-correct="false"><label for="option2">deoxyribose</label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_e677_5b24" data-correct="true"><label for="option3">chromatin</label>
+    <input type="radio" id="option3" name="answer_e677_dfc1" data-correct="false"><label for="option3">purines and pyrimidines</label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_e677_5b24()">Check Answer</button>
-<div id="result_e677_5b24" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_e677_dfc1()">Check Answer</button>
+<div id="result_e677_dfc1" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_e677_5b24() {
- const options = document.getElementsByName('answer_e677_5b24');
+function checkAnswer_e677_dfc1() {
+ const options = document.getElementsByName('answer_e677_dfc1');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_e677_5b24');
+ const resultDiv = document.getElementById('result_e677_dfc1');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';
