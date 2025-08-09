@@ -1,34 +1,40 @@
-<div id="question_html_a053_12bc">
-<div id="statement_text_a053_12bc">Choose the parental genotype pairing that gives rise to a <b>1:1 ratio of homozygotes to heterozygotes</b> in the offspring.</div>
+<div id="question_html_4dcb_1aa4">
+<div id="statement_text_4dcb_1aa4">Which parental genotype pairing would result in a <b>1:2:1 genotype ratio</b> offspring?</div>
 <form>
-<ul id="choices_a053_12bc">
+<ul id="choices_4dcb_1aa4">
 <li>
-    <input type="radio" id="option0" name="answer_a053_12bc" data-correct="false"><label for="option0">AA x AA</label>
+    <input type="radio" id="option0" name="answer_4dcb_1aa4" data-correct="false"><label for="option0">AA x AA</label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_a053_12bc" data-correct="false"><label for="option1">AA x aa</label>
+    <input type="radio" id="option1" name="answer_4dcb_1aa4" data-correct="false"><label for="option1">AA x Aa</label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_a053_12bc" data-correct="true"><label for="option2">Aa x aa</label>
+    <input type="radio" id="option2" name="answer_4dcb_1aa4" data-correct="false"><label for="option2">AA x aa</label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_a053_12bc" data-correct="false"><label for="option3">aa x aa</label>
+    <input type="radio" id="option3" name="answer_4dcb_1aa4" data-correct="true"><label for="option3">Aa x Aa</label>
+  </li>
+  <li>
+    <input type="radio" id="option4" name="answer_4dcb_1aa4" data-correct="false"><label for="option4">Aa x aa</label>
+  </li>
+  <li>
+    <input type="radio" id="option5" name="answer_4dcb_1aa4" data-correct="false"><label for="option5">aa x aa</label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_a053_12bc()">Check Answer</button>
-<div id="result_a053_12bc" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_4dcb_1aa4()">Check Answer</button>
+<div id="result_4dcb_1aa4" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_a053_12bc() {
- const options = document.getElementsByName('answer_a053_12bc');
+function checkAnswer_4dcb_1aa4() {
+ const options = document.getElementsByName('answer_4dcb_1aa4');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_a053_12bc');
+ const resultDiv = document.getElementById('result_4dcb_1aa4');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';

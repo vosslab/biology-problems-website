@@ -1,34 +1,34 @@
-<div id="question_html_4cd6_f879">
-<div id="statement_text_4cd6_f879"><p>For the ABO blood group in humans, the i<sup>A</sup> and i<sup>B</sup> alleles are codominant and the i allele is recessive.<br>A father &male; with <u>blood type AB</u> has a daughter &female; with <u>blood type O</u>.<br>Which of the following blood types could the mother &female; possibly have? Check all that apply.</p></div>
+<div id="question_html_201d_f879">
+<div id="statement_text_201d_f879"><p>For the ABO blood group in humans, the i<sup>A</sup> and i<sup>B</sup> alleles are codominant and the i allele is recessive.<br>A father &male; with <u>blood type AB</u> has a daughter &female; with <u>blood type A</u>.<br>Which of the following blood types could the mother &female; possibly have? Check all that apply.</p></div>
 <form>
-<ul id="choices_4cd6_f879">
+<ul id="choices_201d_f879">
 <li>
-    <input type="checkbox" id="option_4cd6_f879_1" name="answer_4cd6_f879" data-correct="false"><label for="option_4cd6_f879_1">Type O blood</label>
+    <input type="checkbox" id="option_201d_f879_1" name="answer_201d_f879" data-correct="true"><label for="option_201d_f879_1">Type O blood</label>
   </li>
   <li>
-    <input type="checkbox" id="option_4cd6_f879_2" name="answer_4cd6_f879" data-correct="false"><label for="option_4cd6_f879_2">Type A blood</label>
+    <input type="checkbox" id="option_201d_f879_2" name="answer_201d_f879" data-correct="true"><label for="option_201d_f879_2">Type A blood</label>
   </li>
   <li>
-    <input type="checkbox" id="option_4cd6_f879_3" name="answer_4cd6_f879" data-correct="false"><label for="option_4cd6_f879_3">Type B blood</label>
+    <input type="checkbox" id="option_201d_f879_3" name="answer_201d_f879" data-correct="true"><label for="option_201d_f879_3">Type B blood</label>
   </li>
   <li>
-    <input type="checkbox" id="option_4cd6_f879_4" name="answer_4cd6_f879" data-correct="false"><label for="option_4cd6_f879_4">Type AB blood</label>
+    <input type="checkbox" id="option_201d_f879_4" name="answer_201d_f879" data-correct="true"><label for="option_201d_f879_4">Type AB blood</label>
   </li>
   <li>
-    <input type="checkbox" id="option_4cd6_f879_5" name="answer_4cd6_f879" data-correct="true"><label for="option_4cd6_f879_5">None of the above are possible; the father &male; is not related to his daughter &female;</label>
+    <input type="checkbox" id="option_201d_f879_5" name="answer_201d_f879" data-correct="false"><label for="option_201d_f879_5">None of the above are possible; the father &male; is not related to his daughter &female;</label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_4cd6_f879()">Check Answer</button>
-<button type="button" class="md-button md-button--secondary custom-button" style="background-color: #e6eeff;" onclick="clearSelection_4cd6_f879()">Clear Selection</button>
-<div id="result_4cd6_f879" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_201d_f879()">Check Answer</button>
+<button type="button" class="md-button md-button--secondary custom-button" style="background-color: #e6eeff;" onclick="clearSelection_201d_f879()">Clear Selection</button>
+<div id="result_201d_f879" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_4cd6_f879() {
-	const options = Array.from(document.getElementsByName('answer_4cd6_f879'));
+function checkAnswer_201d_f879() {
+	const options = Array.from(document.getElementsByName('answer_201d_f879'));
 	const correctOptions = options.filter(option => option.dataset.correct === 'true');
 	const selectedOptions = options.filter(option => option.checked);
-	const resultDiv = document.getElementById('result_4cd6_f879');
+	const resultDiv = document.getElementById('result_201d_f879');
 	const numCorrectSelected = selectedOptions.filter(option => correctOptions.includes(option)).length;
 	const numIncorrectSelected = selectedOptions.length - numCorrectSelected;
 	const totalCorrect = correctOptions.length;
@@ -52,10 +52,10 @@ function checkAnswer_4cd6_f879() {
 }
 </script>
 <script>
-	function clearSelection_4cd6_f879() {
-		const checkboxes = document.getElementsByName('answer_4cd6_f879');
+	function clearSelection_201d_f879() {
+		const checkboxes = document.getElementsByName('answer_201d_f879');
 		Array.from(checkboxes).forEach(checkbox => checkbox.checked = false);
-		const resultDiv = document.getElementById('result_4cd6_f879');
+		const resultDiv = document.getElementById('result_201d_f879');
 		if (resultDiv) {			resultDiv.textContent = '';
 			resultDiv.style.color = 'inherit';
 		}	}
