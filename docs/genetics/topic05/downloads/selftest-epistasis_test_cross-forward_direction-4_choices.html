@@ -1,34 +1,34 @@
-<div id="question_html_5a8f_11ec">
-<div id="statement_text_5a8f_11ec"><p>In a standard dihybrid cross involving two independent genes, the expected F<sub>2</sub> phenotypic ratio is <b>9:3:3:1</b>. A test-cross with an F<sub>1</sub> individual and a double recessive usually yields a <b>1:1:1:1</b> phenotypic ratio if the genes assort independently.<br>In a specific cross, F<sub>2</sub> progeny exhibit a modified dihybrid ratio of <b>12:3:1</b> (instead of 9:3:3:1).<br>What phenotypic ratio would be expected from a test-cross with an individual from the F<sub>1</sub> progeny?</p></div>
+<div id="question_html_585f_451f">
+<div id="statement_text_585f_451f"><p>In a standard dihybrid cross involving two independent genes, the expected F<sub>2</sub> phenotypic ratio is <b>9:3:3:1</b>. A test-cross with an F<sub>1</sub> individual and a double recessive usually yields a <b>1:1:1:1</b> phenotypic ratio if the genes assort independently.<br>In a specific cross, F<sub>2</sub> progeny exhibit a modified dihybrid ratio of <b>12:4</b> (instead of 9:3:3:1).<br>What phenotypic ratio would be expected from a test-cross with an individual from the F<sub>1</sub> progeny?</p></div>
 <form>
-<ul id="choices_5a8f_11ec">
+<ul id="choices_585f_451f">
 <li>
-    <input type="radio" id="option0" name="answer_5a8f_11ec" data-correct="false"><label for="option0">a ratio of 1:1:1</label>
+    <input type="radio" id="option0" name="answer_585f_451f" data-correct="false"><label for="option0">a ratio of 1:2</label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_5a8f_11ec" data-correct="false"><label for="option1">a ratio of 1:3:1</label>
+    <input type="radio" id="option1" name="answer_585f_451f" data-correct="true"><label for="option1">a ratio of 2:2 or 1:1</label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_5a8f_11ec" data-correct="true"><label for="option2">a ratio of 2:1:1</label>
+    <input type="radio" id="option2" name="answer_585f_451f" data-correct="false"><label for="option2">a ratio of 2:3</label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_5a8f_11ec" data-correct="false"><label for="option3">a ratio of 2:2:1</label>
+    <input type="radio" id="option3" name="answer_585f_451f" data-correct="false"><label for="option3">a ratio of 3:1</label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_5a8f_11ec()">Check Answer</button>
-<div id="result_5a8f_11ec" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_585f_451f()">Check Answer</button>
+<div id="result_585f_451f" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_5a8f_11ec() {
- const options = document.getElementsByName('answer_5a8f_11ec');
+function checkAnswer_585f_451f() {
+ const options = document.getElementsByName('answer_585f_451f');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_5a8f_11ec');
+ const resultDiv = document.getElementById('result_585f_451f');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';

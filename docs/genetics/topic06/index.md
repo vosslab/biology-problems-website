@@ -310,6 +310,102 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
 </details>
 
 
+## Chi-Squared Test for Genetic Cross
+
+<div id="chi_square_choices-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-chi_square_choices-questions.txt" download title="Download bbq-chi_square_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chi_square_choices-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-chi_square_choices.zip" download title="Download blackboard_qti_v2_1-chi_square_choices.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-chi_square_choices.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-chi_square_choices.zip" download title="Download canvas_qti_v1_2-chi_square_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-chi_square_choices.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-chi_square_choices.html', '_blank')" title="View human_readable-chi_square_choices.html" aria-label="Click to view the Human-Readable TXT file (human_readable-chi_square_choices.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click 
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Chi-Squared Test for Genetic Cross
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic06/downloads/selftest-chi_square_choices.html" %}
+
+</details>
+
+
+## Chi-Squared Test and Hypothesis Testing
+
+<div id="chi_square_errors-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-chi_square_errors-questions.txt" download title="Download bbq-chi_square_errors-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chi_square_errors-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-chi_square_errors.zip" download title="Download blackboard_qti_v2_1-chi_square_errors.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-chi_square_errors.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-chi_square_errors.zip" download title="Download canvas_qti_v1_2-chi_square_errors.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-chi_square_errors.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-chi_square_errors.html', '_blank')" title="View human_readable-chi_square_errors.html" aria-label="Click to view the Human-Readable TXT file (human_readable-chi_square_errors.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click 
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Chi-Squared Test and Hypothesis Testing
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic06/downloads/selftest-chi_square_errors.html" %}
+
+</details>
+
+
+## Inheritance Patterns of Genetic Disorders
+
+<div id="dominant_and_X-linked_recessive-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-dominant_and_X-linked_recessive-questions.txt" download title="Download bbq-dominant_and_X-linked_recessive-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-dominant_and_X-linked_recessive-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-dominant_and_X-linked_recessive.zip" download title="Download blackboard_qti_v2_1-dominant_and_X-linked_recessive.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-dominant_and_X-linked_recessive.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-dominant_and_X-linked_recessive.zip" download title="Download canvas_qti_v1_2-dominant_and_X-linked_recessive.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-dominant_and_X-linked_recessive.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-dominant_and_X-linked_recessive.html', '_blank')" title="View human_readable-dominant_and_X-linked_recessive.html" aria-label="Click to view the Human-Readable TXT file (human_readable-dominant_and_X-linked_recessive.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click 
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Inheritance Patterns of Genetic Disorders
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic06/downloads/selftest-dominant_and_X-linked_recessive.html" %}
+
+</details>
+
+
 ## Patterns of Pedigree Inheritance
 
 <div id="pedigree_choice-button-container" class="button-container">
@@ -396,6 +492,35 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
     </span>
   </summary>
   {% include "genetics/topic06/downloads/selftest-poisson_flies.html" %}
+
+</details>
+
+
+## Probability of Gender Distribution in Progeny
+
+<div id="probabiliy_of_progeny-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-probabiliy_of_progeny-questions.txt" download title="Download bbq-probabiliy_of_progeny-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-probabiliy_of_progeny-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-probabiliy_of_progeny.zip" download title="Download blackboard_qti_v2_1-probabiliy_of_progeny.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-probabiliy_of_progeny.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-probabiliy_of_progeny.zip" download title="Download canvas_qti_v1_2-probabiliy_of_progeny.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-probabiliy_of_progeny.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+</div><details>
+  <summary>Click 
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Probability of Gender Distribution in Progeny
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic06/downloads/selftest-probabiliy_of_progeny.html" %}
 
 </details>
 
