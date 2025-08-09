@@ -89,10 +89,11 @@ nav:
   - '4: Mendelian Genetics': genetics/topic04/index.md
   - '5: Gene Interactions': genetics/topic05/index.md
   - '6: Chromosomal Inheritance': genetics/topic06/index.md
-  - '7: Gene Mapping': genetics/topic07/index.md
-  - '8: Chromosomal Disorders': genetics/topic08/index.md
-  - '9: Population Genetics': genetics/topic09/index.md
-  - '10: Gene Trees': genetics/topic10/index.md
+  - '7: Chi Square Analysis': genetics/topic07/index.md
+  - '8: Gene Mapping': genetics/topic08/index.md
+  - '9: Chromosomal Disorders': genetics/topic09/index.md
+  - '10: Population Genetics': genetics/topic10/index.md
+  - '11: Gene Trees': genetics/topic11/index.md
 - "<i class='fa fa-book-open'></i> Tutorials":
   - 'List of Tutorials': tutorials/index.md
   - "<i class='fa fa-chalkboard'></i> Blackboard BBQ Text File Upload": tutorials/bbq_tutorial.md

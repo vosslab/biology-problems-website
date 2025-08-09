@@ -22,14 +22,17 @@ Explore the main topics in genetics. Click on a topic to dive deeper.
 6. [Chromosomal Inheritance](topic06/index.md)
     - Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheritance.
 
-7. [Gene Mapping and Recombination](topic07/index.md)
+7. [Chi Square Analysis](topic07/index.md)
+    - Statistical evaluation of genetic data, chi-square test statistic, and hypothesis testing.
+
+8. [Gene Mapping and Recombination](topic08/index.md)
     - Two- and three-point test crosses, genetic distances, interference, and tetrad analysis.
 
-8. [Chromosomal Disorders](topic08/index.md)
+9. [Chromosomal Disorders](topic09/index.md)
     - Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploidy.
 
-9. [Population Genetics](topic09/index.md)
+10. [Population Genetics](topic10/index.md)
     - Allele frequencies, Hardy-Weinberg equilibrium, inbreeding, and population-level variation.
 
-10. [Gene Trees and Relationships](topic10/index.md)
+11. [Gene Trees and Relationships](topic11/index.md)
     - Phylogenetics, tree comparisons, evolutionary distances, and patterns of inheritance.
