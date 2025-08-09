@@ -1,34 +1,37 @@
-<div id="question_html_383d_2d6c">
-<div id="statement_text_383d_2d6c">Which pair of parental genotypes would produce <b>only the dominant phenotype</b> in their offspring?</div>
+<div id="question_html_85e4_3bd7">
+<div id="statement_text_85e4_3bd7">Which cross leads to a <b>1:1 ratio of two genotypes</b> as the only outcome in the progeny?</div>
 <form>
-<ul id="choices_383d_2d6c">
+<ul id="choices_85e4_3bd7">
 <li>
-    <input type="radio" id="option0" name="answer_383d_2d6c" data-correct="true"><label for="option0"><strong><span style="font-family: monospace; font-size: 1.5em; color: #ba372a;">AA</span></strong>  ×  <strong><span style="font-family: monospace; font-size: 1.5em; color: #843fa1;">Aa</span></strong></label>
+    <input type="radio" id="option0" name="answer_85e4_3bd7" data-correct="false"><label for="option0"><strong><span style="font-family: monospace; font-size: 1.5em; color: #ba372a;">AA</span></strong>  ×  <strong><span style="font-family: monospace; font-size: 1.5em; color: #ba372a;">AA</span></strong></label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_383d_2d6c" data-correct="false"><label for="option1"><strong><span style="font-family: monospace; font-size: 1.5em; color: #843fa1;">Aa</span></strong>  ×  <strong><span style="font-family: monospace; font-size: 1.5em; color: #843fa1;">Aa</span></strong></label>
+    <input type="radio" id="option1" name="answer_85e4_3bd7" data-correct="false"><label for="option1"><strong><span style="font-family: monospace; font-size: 1.5em; color: #ba372a;">AA</span></strong>  ×  <strong><span style="font-family: monospace; font-size: 1.5em; color: #236fa1;">aa</span></strong></label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_383d_2d6c" data-correct="false"><label for="option2"><strong><span style="font-family: monospace; font-size: 1.5em; color: #843fa1;">Aa</span></strong>  ×  <strong><span style="font-family: monospace; font-size: 1.5em; color: #236fa1;">aa</span></strong></label>
+    <input type="radio" id="option2" name="answer_85e4_3bd7" data-correct="false"><label for="option2"><strong><span style="font-family: monospace; font-size: 1.5em; color: #843fa1;">Aa</span></strong>  ×  <strong><span style="font-family: monospace; font-size: 1.5em; color: #843fa1;">Aa</span></strong></label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_383d_2d6c" data-correct="false"><label for="option3"><strong><span style="font-family: monospace; font-size: 1.5em; color: #236fa1;">aa</span></strong>  ×  <strong><span style="font-family: monospace; font-size: 1.5em; color: #236fa1;">aa</span></strong></label>
+    <input type="radio" id="option3" name="answer_85e4_3bd7" data-correct="true"><label for="option3"><strong><span style="font-family: monospace; font-size: 1.5em; color: #843fa1;">Aa</span></strong>  ×  <strong><span style="font-family: monospace; font-size: 1.5em; color: #236fa1;">aa</span></strong></label>
+  </li>
+  <li>
+    <input type="radio" id="option4" name="answer_85e4_3bd7" data-correct="false"><label for="option4"><strong><span style="font-family: monospace; font-size: 1.5em; color: #236fa1;">aa</span></strong>  ×  <strong><span style="font-family: monospace; font-size: 1.5em; color: #236fa1;">aa</span></strong></label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_383d_2d6c()">Check Answer</button>
-<div id="result_383d_2d6c" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_85e4_3bd7()">Check Answer</button>
+<div id="result_85e4_3bd7" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_383d_2d6c() {
- const options = document.getElementsByName('answer_383d_2d6c');
+function checkAnswer_85e4_3bd7() {
+ const options = document.getElementsByName('answer_85e4_3bd7');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_383d_2d6c');
+ const resultDiv = document.getElementById('result_85e4_3bd7');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';
