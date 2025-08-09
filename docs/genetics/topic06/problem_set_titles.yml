@@ -1,19 +1,19 @@
-bbq-MATCH-chi-square_terms-questions.txt: Chi-Square Terms and Definitions Matching
-bbq-MATCH-meiosis_prophase_1-questions.txt: Stages of Meiosis Prophase I Matching
+bbq-MATCH-meiosis_prophase_1-questions.txt: Stages and Descriptions of Meiosis Prophase
+  I
 bbq-MATCH-meiosis_terms-questions.txt: Matching Meiosis Terms with Definitions
 bbq-MATCH-sex_determination-questions.txt: Sex Determination Systems and Their Descriptions
-bbq-MC-chi-square_terms-questions.txt: Chi-Square Test Terms and Definitions
 bbq-MC-meiosis_prophase_1-questions.txt: Stages of Meiosis Prophase I
-bbq-MC-meiosis_terms-questions.txt: Identification of Meiosis Terms by Definition
-bbq-MC-sex_determination-questions.txt: Sex Determination Systems in Biology
-bbq-TFMS-chi-square-questions.txt: True/False Statements on Chi-Square Tests
+bbq-MC-meiosis_terms-questions.txt: Identification of Meiosis Terms Based on Definitions
+bbq-MC-sex_determination-questions.txt: Sex Determination Systems Identification
 bbq-TFMS-mitosis_and_meiosis-questions.txt: True/False Statements on Mitosis and Meiosis
-bbq-chi_square_choices-questions.txt: Chi-Squared Test for Genetic Cross
-bbq-chi_square_errors-questions.txt: Chi-Squared Test and Hypothesis Testing
-bbq-dominant_and_X-linked_recessive-questions.txt: Inheritance Patterns of Genetic
-  Disorders
-bbq-pedigree_choice-questions.txt: Patterns of Pedigree Inheritance
-bbq-pedigree_match-questions.txt: Inheritance Type Analysis from Pedigree Charts
-bbq-poisson_flies-questions.txt: X-Linked Genetic Crosses in Fruit Flies
-bbq-probabiliy_of_progeny-questions.txt: Probability of Gender Distribution in Progeny
-last edit: Fri Aug  8 21:08:32 2025
+bbq-chi_square_choices-questions.txt: Chi-Squared Test for Genetic Ratios
+bbq-chi_square_errors-questions.txt: Chi-Squared Test Calculation and Hypothesis Evaluation
+bbq-dominant_and_X-linked_recessive-questions.txt: Genetic Inheritance Patterns in
+  X-Linked Recessive and Autosomal Dominant Disorders
+bbq-pedigree_choice-questions.txt: Patterns of Inheritance Analysis from Pedigree
+  Charts
+bbq-pedigree_match-questions.txt: Pedigree Analysis for Inheritance Types
+bbq-poisson_flies-questions.txt: X-Linked Inheritance Patterns in Fruit Flies
+bbq-probabiliy_of_progeny-questions.txt: Probability of Specific Gender Distribution
+  in Offspring
+last edit: Fri Aug  8 21:19:05 2025
