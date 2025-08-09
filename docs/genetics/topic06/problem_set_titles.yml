@@ -8,7 +8,12 @@ bbq-MC-meiosis_terms-questions.txt: Identification of Meiosis Terms by Definitio
 bbq-MC-sex_determination-questions.txt: Sex Determination Systems in Biology
 bbq-TFMS-chi-square-questions.txt: True/False Statements on Chi-Square Tests
 bbq-TFMS-mitosis_and_meiosis-questions.txt: True/False Statements on Mitosis and Meiosis
+bbq-chi_square_choices-questions.txt: Chi-Squared Test for Genetic Cross
+bbq-chi_square_errors-questions.txt: Chi-Squared Test and Hypothesis Testing
+bbq-dominant_and_X-linked_recessive-questions.txt: Inheritance Patterns of Genetic
+  Disorders
 bbq-pedigree_choice-questions.txt: Patterns of Pedigree Inheritance
 bbq-pedigree_match-questions.txt: Inheritance Type Analysis from Pedigree Charts
 bbq-poisson_flies-questions.txt: X-Linked Genetic Crosses in Fruit Flies
-last edit: Fri Aug  8 18:02:59 2025
+bbq-probabiliy_of_progeny-questions.txt: Probability of Gender Distribution in Progeny
+last edit: Fri Aug  8 21:08:32 2025
