@@ -67,8 +67,9 @@ else:
 MODEL_NAME = "llama3.2:1b-instruct-q4_K_M"
 if vram_size_gb is not None:
 	if vram_size_gb > 30:
-		MODEL_NAME = "phi4:14b-q8_0"
+		#MODEL_NAME = "phi4:14b-q8_0"
 		#MODEL_NAME = "llama3.2:3b-instruct-fp16"
+		MODEL_NAME = "gpt-oss:20b"
 	elif vram_size_gb > 14:
 		MODEL_NAME = "phi4:14b-q4_K_M"
 	elif vram_size_gb > 4:

@@ -442,6 +442,8 @@ def main():
 		# Update the index.md file for the topic
 		update_index_md(topic_folder, bbq_files)
 		#sys.exit(1)
+	print("\n\n\n")
+	print("PROGRAM HAS COMPLETED!!!")
 
 #==============
 
