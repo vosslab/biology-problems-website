@@ -1,4 +1,29 @@
 bbq-MATCH-chromosome_shapes-questions.txt: Chromosome Shape Matching
 bbq-MC-chromosome_shapes-questions.txt: Identification of Chromosome Shapes Based
   on Centromere Position and Arm Length
-last edit: Sat Aug  9 13:47:22 2025
+bbq-cytogenetic_notation-aneuploidy-questions.txt: Interpreting Cytogenetic Nomenclature
+  for Aneuploidy
+bbq-cytogenetic_notation-rearrangements-questions.txt: Interpreting Human Chromosome
+  Notation
+bbq-deletion_mutants-04_genes-FREE-MC-questions.txt: Gene Order Mapping via Deletion
+  Mutants
+bbq-deletion_mutants-04_genes-TABLE-MC-questions.txt: '**Determining Gene Order with
+  Deletion Mutants**'
+bbq-deletion_mutants-06_genes-TABLE-MC-questions.txt: Mapping Gene Order with Deletion
+  Mutants
+bbq-deletion_mutants-08_genes-TABLE-MC-questions.txt: Gene Order Determination by
+  Deletion Mutants
+bbq-deletion_mutants-16_genes-TABLE-MC-questions.txt: Gene Order Mapping with Deletion
+  Mutants
+bbq-letter_translocation_problem_color-black-questions.txt: '**Chromosomal Translocation
+  Outcomes**'
+bbq-letter_translocation_problem_color-questions.txt: Reciprocal Translocation Product
+  Identification
+bbq-polyploid-gametes-questions.txt: Gamete Chromosome Numbers for Polyploid Plants
+bbq-polyploid-monoploid_v_haploid-questions.txt: Determining Monoploid and Haploid
+  Numbers from Chromosome Counts
+bbq-robertsonian-questions.txt: Robertsonian Translocation Alternate Segregation and
+  Gamete Formation
+bbq-translocation_meiosis_table-questions.txt: Balanced Chromosomal Translocation
+  Segregation Outcomes
+last edit: Tue Aug 12 15:39:00 2025

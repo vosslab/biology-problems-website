@@ -1,40 +1,40 @@
-<div id="question_html_e22a_06dd">
-<div id="statement_text_e22a_06dd"><p>Restriction enzymes are proteins that cut DNA at specific sequences to produce fragments for further study. These enzymes are obtained from various types of bacteria and have the ability to recognize short nucleotide sequences within a larger DNA molecule.<br>The restriction enzyme we are focusing on is <strong><i><code>PspLI</code></i></strong>, which is derived from the bacterium Pseudomonas species L.<br><strong><i><code>PspLI</code></i></strong> cuts the DNA sequence as follows: <code>5'-C|GTACG-3'</code>, where the '|' indicates the cleavage site.<br>Based on this information, which one of the following sequences below corresponds to the overhang region of the DNA after cleavage by the restriction enzyme <strong><i><code>PspLI</code></i></strong>?</p></div>
+<div id="question_html_375b_2c38">
+<div id="statement_text_375b_2c38"><p>Restriction enzymes are proteins that cut DNA at specific sequences to produce fragments for further study. These enzymes are obtained from various types of bacteria and have the ability to recognize short nucleotide sequences within a larger DNA molecule.<br>The restriction enzyme we are focusing on is <strong><i><code>PinAI</code></i></strong>, which is derived from the bacterium Pseudomonas inequalis.<br><strong><i><code>PinAI</code></i></strong> cuts the DNA sequence as follows: <code>5'-A|CCGGT-3'</code>, where the '|' indicates the cleavage site.<br>Based on this information, which one of the following sequences below corresponds to the overhang region of the DNA after cleavage by the restriction enzyme <strong><i><code>PinAI</code></i></strong>?</p></div>
 <form>
-<ul id="choices_e22a_06dd">
+<ul id="choices_375b_2c38">
 <li>
-    <input type="radio" id="option0" name="answer_e22a_06dd" data-correct="false"><label for="option0">5'-CATG-3'</label>
+    <input type="radio" id="option0" name="answer_375b_2c38" data-correct="false"><label for="option0">5'-ACCGG-3'</label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_e22a_06dd" data-correct="false"><label for="option1">5'-CATGC-3'</label>
+    <input type="radio" id="option1" name="answer_375b_2c38" data-correct="true"><label for="option1">5'-CCGG-3'</label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_e22a_06dd" data-correct="false"><label for="option2">5'-CGTAC-3'</label>
+    <input type="radio" id="option2" name="answer_375b_2c38" data-correct="false"><label for="option2">5'-CCGGT-3'</label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_e22a_06dd" data-correct="false"><label for="option3">5'-GCATG-3'</label>
+    <input type="radio" id="option3" name="answer_375b_2c38" data-correct="false"><label for="option3">5'-GGCC-3'</label>
   </li>
   <li>
-    <input type="radio" id="option4" name="answer_e22a_06dd" data-correct="true"><label for="option4">5'-GTAC-3'</label>
+    <input type="radio" id="option4" name="answer_375b_2c38" data-correct="false"><label for="option4">5'-GGCCA-3'</label>
   </li>
   <li>
-    <input type="radio" id="option5" name="answer_e22a_06dd" data-correct="false"><label for="option5">5'-GTACG-3'</label>
+    <input type="radio" id="option5" name="answer_375b_2c38" data-correct="false"><label for="option5">5'-TGGCC-3'</label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_e22a_06dd()">Check Answer</button>
-<div id="result_e22a_06dd" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_375b_2c38()">Check Answer</button>
+<div id="result_375b_2c38" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_e22a_06dd() {
- const options = document.getElementsByName('answer_e22a_06dd');
+function checkAnswer_375b_2c38() {
+ const options = document.getElementsByName('answer_375b_2c38');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_e22a_06dd');
+ const resultDiv = document.getElementById('result_375b_2c38');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';
