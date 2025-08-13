@@ -1,29 +1,16 @@
-bbq-MATCH-chromosome_shapes-questions.txt: Chromosome Shape Matching
-bbq-MC-chromosome_shapes-questions.txt: Identification of Chromosome Shapes Based
-  on Centromere Position and Arm Length
-bbq-cytogenetic_notation-aneuploidy-questions.txt: Interpreting Cytogenetic Nomenclature
-  for Aneuploidy
-bbq-cytogenetic_notation-rearrangements-questions.txt: Interpreting Human Chromosome
-  Notation
-bbq-deletion_mutants-04_genes-FREE-MC-questions.txt: Gene Order Mapping via Deletion
-  Mutants
-bbq-deletion_mutants-04_genes-TABLE-MC-questions.txt: '**Determining Gene Order with
-  Deletion Mutants**'
-bbq-deletion_mutants-06_genes-TABLE-MC-questions.txt: Mapping Gene Order with Deletion
-  Mutants
-bbq-deletion_mutants-08_genes-TABLE-MC-questions.txt: Gene Order Determination by
-  Deletion Mutants
-bbq-deletion_mutants-16_genes-TABLE-MC-questions.txt: Gene Order Mapping with Deletion
-  Mutants
-bbq-letter_translocation_problem_color-black-questions.txt: '**Chromosomal Translocation
-  Outcomes**'
-bbq-letter_translocation_problem_color-questions.txt: Reciprocal Translocation Product
-  Identification
-bbq-polyploid-gametes-questions.txt: Gamete Chromosome Numbers for Polyploid Plants
-bbq-polyploid-monoploid_v_haploid-questions.txt: Determining Monoploid and Haploid
-  Numbers from Chromosome Counts
-bbq-robertsonian-questions.txt: Robertsonian Translocation Alternate Segregation and
-  Gamete Formation
-bbq-translocation_meiosis_table-questions.txt: Balanced Chromosomal Translocation
-  Segregation Outcomes
+bbq-MATCH-chromosome_shapes-questions.txt: Match Chromosome Shapes
+bbq-MC-chromosome_shapes-questions.txt: Identify Chromosome Shapes from Centromere and Arm Length
+bbq-cytogenetic_notation-aneuploidy-questions.txt: Interpret Cytogenetic Notation for Aneuploidy
+bbq-cytogenetic_notation-rearrangements-questions.txt: Interpret Cytogenetic Notation for Rearrangements
+bbq-deletion_mutants-04_genes-FREE-MC-questions.txt: Map Gene Order with Deletion Mutants (4 Genes, Free Response)
+bbq-deletion_mutants-04_genes-TABLE-MC-questions.txt: Map Gene Order with Deletion Mutants (4 Genes, Table)
+bbq-deletion_mutants-06_genes-TABLE-MC-questions.txt: Map Gene Order with Deletion Mutants (6 Genes, Table)
+bbq-deletion_mutants-08_genes-TABLE-MC-questions.txt: Map Gene Order with Deletion Mutants (8 Genes, Table)
+bbq-deletion_mutants-16_genes-TABLE-MC-questions.txt: Map Gene Order with Deletion Mutants (16 Genes, Table)
+bbq-letter_translocation_problem_color-black-questions.txt: Identify Chromosomal Translocation Outcomes (Black)
+bbq-letter_translocation_problem_color-questions.txt: Identify Chromosomal Translocation Outcomes (Color)
+bbq-polyploid-gametes-questions.txt: Determine Gamete Chromosome Numbers in Polyploids
+bbq-polyploid-monoploid_v_haploid-questions.txt: Determine Monoploid and Haploid Numbers from Chromosome Counts
+bbq-robertsonian-questions.txt: Predict Gametes from Robertsonian Translocation
+bbq-translocation_meiosis_table-questions.txt: Predict Balanced Translocation Segregation Outcomes
 last edit: Tue Aug 12 15:39:00 2025
