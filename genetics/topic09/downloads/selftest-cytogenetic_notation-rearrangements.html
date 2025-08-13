@@ -1,0 +1,48 @@
+<div id="question_html_7806_1e83">
+<div id="statement_text_7806_1e83">What does "46,XY,inv(12q10)" imply in terms of human chromosome structure?</div>
+<form>
+<ul id="choices_7806_1e83">
+<li>
+    <input type="radio" id="option0" name="answer_7806_1e83" data-correct="false"><label for="option0"><span style="color: #00b38f;">An inversion</span> involving the <span style="color: #0039e6;">long arm</span> of chromosome <span style="color: #004d99;">10</span> at band <span style="color: #e69100;">12</span></label>
+  </li>
+  <li>
+    <input type="radio" id="option1" name="answer_7806_1e83" data-correct="true"><label for="option1"><span style="color: #00b38f;">An inversion</span> involving the <span style="color: #0039e6;">long arm</span> of chromosome <span style="color: #004d99;">12</span> at band <span style="color: #e69100;">10</span></label>
+  </li>
+  <li>
+    <input type="radio" id="option2" name="answer_7806_1e83" data-correct="false"><label for="option2"><span style="color: #00b38f;">An inversion</span> involving the <span style="color: #59b300;">short arm</span> of chromosome <span style="color: #004d99;">12</span> at band <span style="color: #e69100;">10</span></label>
+  </li>
+  <li>
+    <input type="radio" id="option3" name="answer_7806_1e83" data-correct="false"><label for="option3"><span style="color: #e65400;">A duplication</span> involving the <span style="color: #0039e6;">long arm</span> of chromosome <span style="color: #004d99;">10</span> at band <span style="color: #e69100;">12</span></label>
+  </li>
+  <li>
+    <input type="radio" id="option4" name="answer_7806_1e83" data-correct="false"><label for="option4"><span style="color: #e65400;">A duplication</span> involving the <span style="color: #0039e6;">long arm</span> of chromosome <span style="color: #004d99;">12</span> at band <span style="color: #e69100;">10</span></label>
+  </li>
+</ul>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_7806_1e83()">Check Answer</button>
+<div id="result_7806_1e83" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+</form>
+<br>
+</div><script>
+function checkAnswer_7806_1e83() {
+ const options = document.getElementsByName('answer_7806_1e83');
+ const correctOption = Array.from(options).reduce(function(acc, option) {
+   return acc || (option.dataset.correct === 'true' ? option : null);
+ }, null);
+ const selectedOption = Array.from(options).reduce(function(acc, option) {
+   return acc || (option.checked ? option : null);
+ }, null);
+ const resultDiv = document.getElementById('result_7806_1e83');
+ if (selectedOption) {
+  if (selectedOption === correctOption) {
+   resultDiv.style.color = 'green';
+   resultDiv.textContent = 'CORRECT';
+  } else {
+   resultDiv.style.color = 'red';
+   resultDiv.textContent = 'incorrect';
+  }
+ } else {
+  resultDiv.style.color = 'black';
+  resultDiv.textContent = 'Please select an answer.';
+ }
+}
+</script>

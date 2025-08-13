@@ -1,0 +1,48 @@
+<div id="question_html_902c_7789">
+<div id="statement_text_902c_7789">In cytogenetic terms, what is meant by the human karyotype "45,-18,XY"?</div>
+<form>
+<ul id="choices_902c_7789">
+<li>
+    <input type="radio" id="option0" name="answer_902c_7789" data-correct="true"><label for="option0">This indicates a male human karyotype with an absent chromosome 18.</label>
+  </li>
+  <li>
+    <input type="radio" id="option1" name="answer_902c_7789" data-correct="false"><label for="option1">This indicates a female human karyotype with an added chromosome 18.</label>
+  </li>
+  <li>
+    <input type="radio" id="option2" name="answer_902c_7789" data-correct="false"><label for="option2">This indicates a male human karyotype with a partial deletion of chromosome 18.</label>
+  </li>
+  <li>
+    <input type="radio" id="option3" name="answer_902c_7789" data-correct="false"><label for="option3">This indicates a female human karyotype with a partial deletion of chromosome 18.</label>
+  </li>
+  <li>
+    <input type="radio" id="option4" name="answer_902c_7789" data-correct="false"><label for="option4">This indicates a male human karyotype with an additional copy of chromosome 18.</label>
+  </li>
+</ul>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_902c_7789()">Check Answer</button>
+<div id="result_902c_7789" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+</form>
+<br>
+</div><script>
+function checkAnswer_902c_7789() {
+ const options = document.getElementsByName('answer_902c_7789');
+ const correctOption = Array.from(options).reduce(function(acc, option) {
+   return acc || (option.dataset.correct === 'true' ? option : null);
+ }, null);
+ const selectedOption = Array.from(options).reduce(function(acc, option) {
+   return acc || (option.checked ? option : null);
+ }, null);
+ const resultDiv = document.getElementById('result_902c_7789');
+ if (selectedOption) {
+  if (selectedOption === correctOption) {
+   resultDiv.style.color = 'green';
+   resultDiv.textContent = 'CORRECT';
+  } else {
+   resultDiv.style.color = 'red';
+   resultDiv.textContent = 'incorrect';
+  }
+ } else {
+  resultDiv.style.color = 'black';
+  resultDiv.textContent = 'Please select an answer.';
+ }
+}
+</script>

@@ -1,0 +1,78 @@
+<div id="question_html_d7d0_fe25">
+<div id="statement_text_d7d0_fe25">
+<h4>Using Deletion Mutants to Determine Gene Order</h4>
+<p>Deletion mutants are an essential tool in genetics for uncovering the order of four (4) genes on a chromosome. Deletions remove specific regions of the chromosome, allowing researchers to observe the effects of the missing genes on the phenotype of the organism. This approach is particularly useful for identifying the locations of recessive genes, which are only revealed when the corresponding wildtype copies are absent.<br>In a test cross involving deletion mutants, one parent carries a full-length wildtype chromosome and a second chromosome with a deletion, while the other parent is homozygous recessive for all four genes. Offspring inheriting the full-length wildtype chromosome display the dominant phenotype for all four genes in the test cross. However, offspring inheriting the chromosome with the deletion will display some recessive traits. These recessive traits uncover the missing genes in the deleted region. By analyzing which genes are uncovered in a series of different deletion mutants, the linear order of the genes can be determined.<br>For this problem, deletion mutants have been generated for a chromosome containing four genes. Your goal is to analyze the phenotypic data resulting from these deletions and determine the correct linear order of the genes.<br>There are four (4) genes, A, P, R, and S, closely linked in a single chromosome. However, their order is unknown. In the region, three (3) deletions have been identified. These deletions uncover recessive alleles of the genes as follows:</p>
+<ul>
+<li><span style="color: #b34100; font-weight: bold;">Deletion #1: <strong>A, P, and S</strong></span></li>
+<li><span style="color: #465927; font-weight: bold;">Deletion #2: <strong>A, P, and R</strong></span></li>
+<li><span style="color: #004080; font-weight: bold;">Deletion #3: <strong>A and S</strong></span></li>
+</ul>
+<p>What is the correct order of the four (4) genes?<br><strong>Hint 1</strong>: The first gene at start of the chromosome is <strong>gene R</strong>.<br><strong>Hint 2</strong>: Enter your answer in the blank using only four (4) letters, or one comma every three (3) letters. Do not include extra commas or spaces in your answer.</p>
+<h6>Step-by-Step Instructions for Solving Deletion Mutant Problems</h6>
+<ul>
+<li>Step 1: Simplify the information.</li> <ul>
+<li>List the genes and deletions provided in the question.</li> <li>Organize the deletions in a clear table or list format for easier analysis.</li>
+</ul>
+<li>Step 2: Create a template for the gene order.</li> <ul>
+<li>Start with placeholders for each gene (e.g., _ _ _ _).</li> <li>Insert known genes based on hints (e.g., the first or last gene).</li>
+</ul>
+<li>Step 3: Identify deletions containing the first gene.</li> <ul>
+<li>Analyze deletions that include the first gene to determine its neighbors.</li> <li>Use deletions that overlap to narrow down adjacent genes.</li>
+</ul>
+<li>Step 4: Analyze deletions containing the next genes.</li> <ul>
+<li>Look for deletions that include specific pairs of genes.</li> <li>Identify deletions that exclude certain genes to resolve ambiguities.</li>
+</ul>
+<li>Step 5: Verify the answer using all of the listed deletions.</li> <ul>
+<li>Deletion questions can be hard to solve, but once you have an answer, it is easy to check if it is correct!</li> <li>Go through each deletion and confirm that the proposed gene order matches the genes included in that deletion.</li> <li>If any deletion is inconsistent with the proposed order, your answer is wrong.</li>
+</ul>
+</ul>
+</div>
+<form>
+<ul id="choices_d7d0_fe25">
+<li>
+    <input type="radio" id="option0" name="answer_d7d0_fe25" data-correct="false"><label for="option0"><strong><span style="font-family: monospace;">RAPS</span></strong>:   <i>gene order of R, A, P, and S</i></label>
+  </li>
+  <li>
+    <input type="radio" id="option1" name="answer_d7d0_fe25" data-correct="false"><label for="option1"><strong><span style="font-family: monospace;">RASP</span></strong>:   <i>gene order of R, A, S, and P</i></label>
+  </li>
+  <li>
+    <input type="radio" id="option2" name="answer_d7d0_fe25" data-correct="true"><label for="option2"><strong><span style="font-family: monospace;">RPAS</span></strong>:   <i>gene order of R, P, A, and S</i></label>
+  </li>
+  <li>
+    <input type="radio" id="option3" name="answer_d7d0_fe25" data-correct="false"><label for="option3"><strong><span style="font-family: monospace;">RPSA</span></strong>:   <i>gene order of R, P, S, and A</i></label>
+  </li>
+  <li>
+    <input type="radio" id="option4" name="answer_d7d0_fe25" data-correct="false"><label for="option4"><strong><span style="font-family: monospace;">RSAP</span></strong>:   <i>gene order of R, S, A, and P</i></label>
+  </li>
+  <li>
+    <input type="radio" id="option5" name="answer_d7d0_fe25" data-correct="false"><label for="option5"><strong><span style="font-family: monospace;">RSPA</span></strong>:   <i>gene order of R, S, P, and A</i></label>
+  </li>
+</ul>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_d7d0_fe25()">Check Answer</button>
+<div id="result_d7d0_fe25" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+</form>
+<br>
+</div><script>
+function checkAnswer_d7d0_fe25() {
+ const options = document.getElementsByName('answer_d7d0_fe25');
+ const correctOption = Array.from(options).reduce(function(acc, option) {
+   return acc || (option.dataset.correct === 'true' ? option : null);
+ }, null);
+ const selectedOption = Array.from(options).reduce(function(acc, option) {
+   return acc || (option.checked ? option : null);
+ }, null);
+ const resultDiv = document.getElementById('result_d7d0_fe25');
+ if (selectedOption) {
+  if (selectedOption === correctOption) {
+   resultDiv.style.color = 'green';
+   resultDiv.textContent = 'CORRECT';
+  } else {
+   resultDiv.style.color = 'red';
+   resultDiv.textContent = 'incorrect';
+  }
+ } else {
+  resultDiv.style.color = 'black';
+  resultDiv.textContent = 'Please select an answer.';
+ }
+}
+</script>
