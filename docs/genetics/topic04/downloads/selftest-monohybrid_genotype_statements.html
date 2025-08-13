@@ -1,31 +1,40 @@
-<div id="question_html_9a3a_054e">
-<div id="statement_text_9a3a_054e">Which genotype pairing would yield <b>only one phenotype</b> offspring?</div>
+<div id="question_html_bf41_1aa4">
+<div id="statement_text_bf41_1aa4">Which cross leads to <b>only the recessive phenotype</b> as the only outcome in the progeny?</div>
 <form>
-<ul id="choices_9a3a_054e">
+<ul id="choices_bf41_1aa4">
 <li>
-    <input type="radio" id="option0" name="answer_9a3a_054e" data-correct="true"><label for="option0">AA x Aa</label>
+    <input type="radio" id="option0" name="answer_bf41_1aa4" data-correct="false"><label for="option0">AA x AA</label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_9a3a_054e" data-correct="false"><label for="option1">Aa x Aa</label>
+    <input type="radio" id="option1" name="answer_bf41_1aa4" data-correct="false"><label for="option1">AA x Aa</label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_9a3a_054e" data-correct="false"><label for="option2">Aa x aa</label>
+    <input type="radio" id="option2" name="answer_bf41_1aa4" data-correct="false"><label for="option2">AA x aa</label>
+  </li>
+  <li>
+    <input type="radio" id="option3" name="answer_bf41_1aa4" data-correct="false"><label for="option3">Aa x Aa</label>
+  </li>
+  <li>
+    <input type="radio" id="option4" name="answer_bf41_1aa4" data-correct="false"><label for="option4">Aa x aa</label>
+  </li>
+  <li>
+    <input type="radio" id="option5" name="answer_bf41_1aa4" data-correct="true"><label for="option5">aa x aa</label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_9a3a_054e()">Check Answer</button>
-<div id="result_9a3a_054e" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_bf41_1aa4()">Check Answer</button>
+<div id="result_bf41_1aa4" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_9a3a_054e() {
- const options = document.getElementsByName('answer_9a3a_054e');
+function checkAnswer_bf41_1aa4() {
+ const options = document.getElementsByName('answer_bf41_1aa4');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_9a3a_054e');
+ const resultDiv = document.getElementById('result_bf41_1aa4');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';

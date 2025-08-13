@@ -1,28 +1,28 @@
-<div id="question_html_d125_f6f7">
-<div id="statement_text_d125_f6f7"><p>Which one of the following energy requirement categories correspond to the energy term <span style="font-size: 1em;"><strong>'bio-synthesis'</strong></span>.</p></div>
+<div id="question_html_f00f_f6f7">
+<div id="statement_text_f00f_f6f7"><p>Which one of the following energy requirement categories correspond to the energy term <span style="font-size: 1em;"><strong>'endergonic'</strong></span>.</p></div>
 <form>
-<ul id="choices_d125_f6f7">
+<ul id="choices_f00f_f6f7">
 <li>
-    <input type="radio" id="option0" name="answer_d125_f6f7" data-correct="false"><label for="option0"><span style="font-family: sans-serif; letter-spacing: 1px;"><strong><span style="color: #e60000;">releases energy</span></strong></span>  </label>
+    <input type="radio" id="option0" name="answer_f00f_f6f7" data-correct="false"><label for="option0"><span style="font-family: sans-serif; letter-spacing: 1px;"><strong><span style="color: #e60000;">releases energy</span></strong></span>  </label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_d125_f6f7" data-correct="true"><label for="option1"><span style="font-family: sans-serif; letter-spacing: 1px;"><strong><span style="color: #0a9bf5;">requires energy input</span></strong></span>  </label>
+    <input type="radio" id="option1" name="answer_f00f_f6f7" data-correct="true"><label for="option1"><span style="font-family: sans-serif; letter-spacing: 1px;"><strong><span style="color: #0a9bf5;">requires energy input</span></strong></span>  </label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_d125_f6f7()">Check Answer</button>
-<div id="result_d125_f6f7" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_f00f_f6f7()">Check Answer</button>
+<div id="result_f00f_f6f7" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_d125_f6f7() {
- const options = document.getElementsByName('answer_d125_f6f7');
+function checkAnswer_f00f_f6f7() {
+ const options = document.getElementsByName('answer_f00f_f6f7');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_d125_f6f7');
+ const resultDiv = document.getElementById('result_f00f_f6f7');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';
