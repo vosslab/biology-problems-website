@@ -8,15 +8,16 @@ This section provides step-by-step guides on how to format and upload question f
 - [Blackboard BBQ Text File Upload](bbq_tutorial.md)  
   Learn how to properly format and upload question banks using **Blackboard’s BBQ text format**.
 
-### **Upcoming Tutorials**
-These tutorials will be added in the future to cover more LMS platforms:
-
 #### **Blackboard and QTI v2.1**
-- Canvas QTI v1.2 Question Import Guide
+- [Blackboard Ultra QTI .zip Import Guide](bbq_ultra_tutorial.md)  
+  Learn how to upload question banks to Blackboard Ultra and set up randomized quizes.
 
 #### **Canvas**
 - [Canvas QTI .zip Import Guide](canvas_tutorial.md)  
   Learn how to upload question banks and use Canvas’s group preset to create your own randomized quiz.
+
+### **Upcoming Tutorials**
+These tutorials will be added in the future to cover more LMS platforms:
 
 #### **LibreTexts ADAPT**
 - LibreTexts ADAPT QTI v1.2 Question Import Guide
