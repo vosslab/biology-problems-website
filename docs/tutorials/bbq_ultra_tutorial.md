@@ -19,7 +19,7 @@ The QTI format makes it simple to transfer questions and prepare them for use in
 ![Details & Actions menu in Blackboard Ultra with an arrow pointing to the ‘Manage banks’ link under Question Banks.](bbq_ultra_how_to/Step_01_02-go_to_manage_banks.png){ width=40% }
 
 3. **Click on "PLUS" symbol:** In the middle of the page, click the **plus (+)** symbol. If you already have question banks, the plus symbol will appear above the existing banks.  
-![Blackboard Ultra Question Banks page with an arrow pointing to the plus (+) button for adding a new question bank.](bbq_ultra_how_to/Step_01_03-go_to_plus.png){ width=40% }
+![Blackboard Ultra Question Banks page with an arrow pointing to the plus (+) button for adding a new question bank.](bbq_ultra_how_to/Step_01_03-go_to_plus.png){ width=60% }
 
 4. After clicking the **plus (+)** symbol, a dropdown menu will appear. Select **Import from QTI 2.1 package**.  
 ![dropdown menu in Blackboard Ultra with an arrow pointing to the option ‘Import from QTI 2.1 package.’](bbq_ultra_how_to/Step_01_04-dropown_import_qti.png){ width=60% }
@@ -65,7 +65,7 @@ Now that the questions have been uploaded into Blackboard Ultra, we can create a
 ![Blackboard Ultra options with an arrow pointing to the black ‘Add Questions’ button next to the grey ‘Cancel’ button.](bbq_ultra_how_to/Step_02_09-click_add_quesions.png){ width=40% }
 
 10. Choose the number of questions you want students to answer and set the points for each question. Blackboard will automatically randomize which questions are shown. When you are finished, click **Save**.  
-![Blackboard Ultra Question Pool settings. An arrow points to the box for entering the number of questions to display to students, another arrow points to the option to set points per question, and a third arrow points to the ‘Save’ button.](bbq_ultra_how_to/Step_02_10-set_up_question.png){ width=40% }
+![Blackboard Ultra Question Pool settings. An arrow points to the box for entering the number of questions to display to students, another arrow points to the option to set points per question, and a third arrow points to the ‘Save’ button.](bbq_ultra_how_to/Step_02_10-set_up_question.png){ width=90% }
 
 11. Now that your questions are ready, you can edit the assessment settings just as you would for any other test. Set options such as the due date, time limit, availability, and other preferences.  
 ![Assessment Settings panel in Blackboard Ultra showing options for Due date, Grade category, Grading, Attempts allowed, and Originality Report.](bbq_ultra_how_to/Step_02_11-assessmnet_settings.png){ width=40% }
