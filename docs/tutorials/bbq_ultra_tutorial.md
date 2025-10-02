@@ -62,7 +62,7 @@ Now that the questions have been uploaded into Blackboard Ultra, we can create a
 ![Blackboard Ultra question bank with an arrow pointing to the ‘Select all’ option at the top, allowing all questions in the bank to be chosen.](bbq_ultra_how_to/Step_02_08-click-select-all.png){ width=40% }
 
 9. After choosing the questions you want to include, go to the bottom-right corner of the page and click **Add Questions**.  
-![Blackboard Ultra options with an arrow pointing to the black ‘Add Questions’ button next to the grey ‘Cancel’ button.](bbq_ultra_how_to/Step_02_09-click_add_quesions.png){ width=40% }
+![Blackboard Ultra options with an arrow pointing to the black ‘Add Questions’ button next to the grey ‘Cancel’ button.](bbq_ultra_how_to/Step_02_09-click_add_quesions.png){ width=60% }
 
 10. Choose the number of questions you want students to answer and set the points for each question. Blackboard will automatically randomize which questions are shown. When you are finished, click **Save**.  
 ![Blackboard Ultra Question Pool settings. An arrow points to the box for entering the number of questions to display to students, another arrow points to the option to set points per question, and a third arrow points to the ‘Save’ button.](bbq_ultra_how_to/Step_02_10-set_up_question.png){ width=90% }
