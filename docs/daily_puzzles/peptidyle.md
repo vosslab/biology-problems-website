@@ -14,6 +14,7 @@ title: Peptidyle
 ### Deduce the pentapeptide sequence
 
 <div id="pw-root">
+	<div id="stats"></div>
 	<div id="peptide"></div>
 	<div id="help-row">
 		<button id="help-button" type="button">Peptide solving tips</button>
