@@ -1,3 +1,15 @@
+<!--
+js:
+  - https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js
+  - /assets/scripts/peptidyle_peptides.js
+  - /assets/scripts/peptidyle_words.js
+  - /assets/scripts/peptidyle_stats.js
+  - /assets/scripts/peptidyle_game.js
+  - /assets/scripts/peptidyle_bootstrap.js
+css:
+  - /assets/stylesheets/peptidyle.css
+-->
+
 ### Deduce the pentapeptide sequence
 
 <div id="pw-root">
