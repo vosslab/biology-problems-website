@@ -1,40 +1,23 @@
-# Peptidyle
+### Deduce the pentapeptide sequence
 
 <div id="pw-root">
-	<div id="top-bar">
-		<div>
-			<h1>Peptidyle</h1>
-			<p class="subtitle">Deduce the pentapeptide sequence</p>
-		</div>
-		<div id="stats"></div>
-	</div>
-
 	<div id="peptide"></div>
-
 	<div id="help-row">
 		<button id="help-button" type="button">Peptide solving tips</button>
 	</div>
-
 	<div id="message"></div>
-
 	<div id="board"></div>
-
 	<form id="guess-form" autocomplete="off">
 		<label for="guess">Guess:</label>
 		<input id="guess" maxlength="5">
 		<button type="submit">Enter</button>
 	</form>
-
 	<div id="keyboard"></div>
-
 	<div id="toast-container"></div>
-
 	<div id="instructions">
 		<details id="instructions-details">
 			<summary><strong>How to solve the peptide puzzle</strong></summary>
-
 			<p>A pentapeptide is made up of 5 amino acids. The figure above shows one such peptide chain with an unknown sequence. Your task is to find out the sequence of this pentapeptide.</p>
-
 			<p>Here is a step by step guide to help you:</p>
 			<ol>
 				<li style="margin-bottom: 20px;">
@@ -61,7 +44,7 @@
 				</li>
 				<li style="margin-bottom: 20px;">
 					The peptide bonds are highlighted in
-					<span style="background-color: #00FF00; padding: 2px;">bright green</span>,
+					<span style="color: #222222; background-color: #00FF00; padding: 2px;">bright green</span>,
 					helping you see the different amino acids.
 				</li>
 				<li style="margin-bottom: 20px;">
@@ -81,12 +64,3 @@
 		</details>
 	</div>
 </div>
-
-<!-- Scripts for the game. We will later move these to extra_javascript in mkdocs.yml -->
-<script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
-<script src="peptidyle_peptides.js"></script>
-<script src="peptidyle_words.js"></script>
-<script src="peptidyle_stats.js"></script>
-<script src="peptidyle_game.js"></script>
-<script src="peptidyle_bootstrap.js"></script>
-<link rel="stylesheet" href="peptidyle_formatting.css">
