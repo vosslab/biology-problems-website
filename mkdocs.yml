@@ -28,9 +28,10 @@ plugins:
 
 extra_css:
   - assets/stylesheets/custom.css
-  - assets/stylesheets/peptidyle.css
+  - assets/stylesheets/peptidyle_formatting.css
 
 extra_javascript:
+  - https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js
   - assets/scripts/custom.js
   - assets/scripts/peptidyle_peptides.js
   - assets/scripts/peptidyle_words.js
@@ -74,8 +75,8 @@ copyright: >
 
 nav:
 - "<i class='fa fa-home'></i> Home": index.md
-- "Daily Puzzles":
-  - 'Peptidyle': daily_puzzles/peptidyle.md
+- "<i class='fa fa-puzzle-piece'></i> Daily Puzzles":
+  - "<i class='fa fa-dice-five'></i> Peptidyle": daily_puzzles/peptidyle.md
 - "<i class='fa fa-flask'></i> Biochemistry":
   - 'List of Topics': biochemistry/index.md
   - '1: Life Molecules': biochemistry/topic01/index.md
