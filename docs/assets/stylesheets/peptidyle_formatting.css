@@ -20,17 +20,31 @@
 	margin-bottom: 10px;
 }
 
-
-#pw-root #top-bar .subtitle {
-margin: -6px 0 0;
-font-size: 0.95rem;
-color: #555555;
+#pw-root .pw-title {
+	margin: 0 0 4px;
 }
 
-@media (prefers-color-scheme: dark) {
-	#pw-root #top-bar .subtitle {
-	color: #cccccc;
-	}
+#pw-root #top-bar .subtitle {
+	margin: -6px 0 0;
+	font-size: 0.95rem;
+	color: #555555;
+}
+
+/* Light theme (Material "default") */
+:root[data-md-color-scheme="default"] #pw-root {
+	background-color: transparent;
+	color: inherit;
+}
+
+/* Dark theme (Material "slate") */
+:root[data-md-color-scheme="slate"] #pw-root {
+	background-color: #111111;
+	color: #f0f0f0;
+}
+
+/* Optional: slightly darker canvas in dark mode */
+:root[data-md-color-scheme="slate"] #pw-root #peptide canvas {
+	background-color: #333333;
 }
 
 
@@ -176,9 +190,9 @@ display: none;
 }
 
 #pw-root .kb-key.invalid {
-	background: #e0e0e0;
-	border-color: #cccccc;
-	color: #888888;
+	background: #f4d6d6;      /* pale warm red */
+	border-color: #e0b3b3;
+	color: #885555;
 	cursor: not-allowed;
 }
 
@@ -236,36 +250,4 @@ display: none;
 #pw-root #instructions summary {
 	cursor: pointer;
 	margin-bottom: 8px;
-}
-
-/* dark mode override */
-@media (prefers-color-scheme: dark) {
-	#pw-root {
-		background-color: #121212;
-		color: #f0f0f0;
-	}
-
-	#pw-root #peptide canvas {
-		border-color: #555555;
-	}
-
-	#pw-root .cell.empty {
-		border-color: #555555;
-	}
-
-	#pw-root .kb-key {
-		background: #3a3a3c;
-		color: #f0f0f0;
-		border-color: #3a3a3c;
-	}
-
-	#pw-root .kb-key.invalid {
-		background: #27272a;
-		color: #888888;
-		border-color: #27272a;
-	}
-
-	#pw-root #instructions {
-		color: #e0e0e0;
-	}
 }
