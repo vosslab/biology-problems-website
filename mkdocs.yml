@@ -27,10 +27,16 @@ plugins:
 - include-markdown
 
 extra_css:
-- assets/stylesheets/custom.css
+  - assets/stylesheets/custom.css
+  - assets/stylesheets/peptidyle.css
 
 extra_javascript:
-- assets/scripts/custom.js
+  - assets/scripts/custom.js
+  - assets/scripts/peptidyle_peptides.js
+  - assets/scripts/peptidyle_words.js
+  - assets/scripts/peptidyle_stats.js
+  - assets/scripts/peptidyle_game.js
+  - assets/scripts/peptidyle_bootstrap.js
 
 extra:
   social:
@@ -68,6 +74,8 @@ copyright: >
 
 nav:
 - "<i class='fa fa-home'></i> Home": index.md
+- "Daily Puzzles":
+  - 'Peptidyle': daily_puzzles/peptidyle.md
 - "<i class='fa fa-flask'></i> Biochemistry":
   - 'List of Topics': biochemistry/index.md
   - '1: Life Molecules': biochemistry/topic01/index.md
