@@ -17,7 +17,7 @@ Problem sets for a post-general biology inheritance genetics course, including t
 
 ### **Additional Topics**
 
-#### **[Molecular Biology](molecular_biology/index.md) 🧫** Problem sets covering PCR, cloning, gene expression analysis, and core molecular biology techniques.
+#### **[Molecular Biology](molecular_biology/index.md) 🦠** Problem sets covering PCR, cloning, gene expression analysis, and core molecular biology techniques.
 
 #### **[Biostatistics](biostatistics/index.md) 📊** Assignments drawn from a full biostatistics course, expanding as new material is added.
 
