@@ -52,6 +52,12 @@
 .fa-file-contract:before { content: "\f56c"; }
 .fa-puzzle-piece:before { content: "\f12e"; }
 .fa-dice-five:before { content: "\f523"; }
+.fa-fly:before { content: "\f188"; }
+.fa-chart-bar:before { content: "\f080"; }
+.fa-dice:before { content: "\f522"; }
+
+
+
 
 .fa-creative-commons:before { content: "\f25e"; }
 .fa-creative-commons-by:before { content: "\f4e7"; }
