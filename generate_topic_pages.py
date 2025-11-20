@@ -348,13 +348,15 @@ def get_outfile_name(bbq_file_name: str, prefix: str, extension: str):
 
 #==============
 
-def update_index_md(topic_folder: str, bbq_files: list) -> None:
+def update_index_md(topic_folder: str, bbq_files: list, file_counter: dict, total_files: int) -> None:
 	"""Update or create the index.md file for the topic.
 
 	Args:
 		topic_folder (str): The path to the topic folder.
 		subtitle (str): The subtitle for the topic.
 		bbq_files (list[str]): List of BBQ file paths to process.
+		file_counter (dict): Mutable counter tracking processed BBQ files.
+		total_files (int): Total number of BBQ files being processed.
 	"""
 	# Get subtitle from the parent folder's index.md
 	# Normalize the folder path to handle trailing slashes
@@ -391,11 +393,15 @@ def update_index_md(topic_folder: str, bbq_files: list) -> None:
 
 		bbq_files.sort()
 		for bbq_file in bbq_files:
+			file_counter["count"] += 1
+			file_progress = ""
+			if total_files:
+				file_progress = f"[{file_counter['count']}/{total_files}] "
 			print('-' * 50)
 			# Extract the base file name from the input path
 			#bbq_file_basename = os.path.basename(bbq_file)
 			# Convert the text file to HTML
-			print(color_text(f'  BBQ file {bbq_file}', COLOR_CYAN))
+			print(color_text(f'  {file_progress}BBQ file {bbq_file}', COLOR_CYAN))
 
 			html_file_path = get_outfile_name(bbq_file, 'selftest', 'html')
 			if os.path.exists(html_file_path):
@@ -465,16 +471,21 @@ def main():
 		topic_jobs.append((norm_topic, bbq_files))
 
 	total_jobs = len(topic_jobs)
-	print(color_text(f"Processing {total_jobs} topic folders with BBQ files", COLOR_CYAN))
+	total_bbq_files = sum(len(files) for _, files in topic_jobs)
+	print(color_text(f"Processing {total_jobs} topic folders with {total_bbq_files} BBQ files", COLOR_CYAN))
 
+	file_counter = {"count": 0}
 	for idx, (topic_folder, bbq_files) in enumerate(topic_jobs, start=1):
 		print("\n\n\n################################")
 		progress = f"[{idx}/{total_jobs}]"
-		print(color_text(f"{progress} Current folder: {topic_folder}", COLOR_MAGENTA))
+		file_progress = ""
+		if total_bbq_files:
+			file_progress = f" ({file_counter['count'] + len(bbq_files)}/{total_bbq_files} files)"
+		print(color_text(f"{progress} Current folder: {topic_folder}{file_progress}", COLOR_MAGENTA))
 		print(color_text(f"{progress} Found {len(bbq_files)} bbq files in topic folder: {topic_folder}", COLOR_CYAN))
 
 		# Update the index.md file for the topic
-		update_index_md(topic_folder, bbq_files)
+		update_index_md(topic_folder, bbq_files, file_counter, total_bbq_files)
 		#sys.exit(1)
 	print("\n\n\n")
 	print(color_text("PROGRAM HAS COMPLETED!!!", COLOR_GREEN))
