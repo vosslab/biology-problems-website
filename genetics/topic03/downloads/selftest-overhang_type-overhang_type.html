@@ -1,31 +1,31 @@
-<div id="question_html_3903_eeb9">
-<div id="statement_text_3903_eeb9"><p>Restriction enzymes are proteins that cut DNA at specific sequences to produce fragments for further study. These enzymes are obtained from various types of bacteria and have the ability to recognize short nucleotide sequences within a larger DNA molecule.<br>The restriction enzyme we are focusing on is <strong><i><code>PvuII</code></i></strong> and is obtained from the bacteria Proteus vulgaris.<br><strong><i><code>PvuII</code></i></strong> cuts the DNA sequence as follows: <code>5'-CAG|CTG-3'</code> where the '|' indicates the cut location.<br>Based on this info, can you identify the type of cut this enzyme makes?</p></div>
+<div id="question_html_de30_eeb9">
+<div id="statement_text_de30_eeb9"><p>Restriction enzymes are proteins that cut DNA at specific sequences to produce fragments for further study. These enzymes are obtained from various types of bacteria and have the ability to recognize short nucleotide sequences within a larger DNA molecule.<br>The restriction enzyme we are focusing on is <strong><i><code>PabI</code></i></strong> and is obtained from the bacteria Pyrococcus abyssi.<br><strong><i><code>PabI</code></i></strong> cuts the DNA sequence as follows: <code>5'-GTA|C-3'</code> where the '|' indicates the cut location.<br>Based on this info, can you identify the type of cut this enzyme makes?</p></div>
 <form>
-<ul id="choices_3903_eeb9">
+<ul id="choices_de30_eeb9">
 <li>
-    <input type="radio" id="option0" name="answer_3903_eeb9" data-correct="false"><label for="option0"><span style="color: #0039e6;">3′ overhang</span></label>
+    <input type="radio" id="option0" name="answer_de30_eeb9" data-correct="true"><label for="option0"><span style="color: #0039e6;">3′ overhang</span></label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_3903_eeb9" data-correct="false"><label for="option1"><span style="color: #e60000;">5′ overhang</span></label>
+    <input type="radio" id="option1" name="answer_de30_eeb9" data-correct="false"><label for="option1"><span style="color: #e60000;">5′ overhang</span></label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_3903_eeb9" data-correct="true"><label for="option2"><span style="color: #009900;">blunt</span></label>
+    <input type="radio" id="option2" name="answer_de30_eeb9" data-correct="false"><label for="option2"><span style="color: #009900;">blunt</span></label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_3903_eeb9()">Check Answer</button>
-<div id="result_3903_eeb9" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_de30_eeb9()">Check Answer</button>
+<div id="result_de30_eeb9" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_3903_eeb9() {
- const options = document.getElementsByName('answer_3903_eeb9');
+function checkAnswer_de30_eeb9() {
+ const options = document.getElementsByName('answer_de30_eeb9');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_3903_eeb9');
+ const resultDiv = document.getElementById('result_de30_eeb9');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';

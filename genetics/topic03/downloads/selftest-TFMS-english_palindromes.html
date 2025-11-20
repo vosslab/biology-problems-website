@@ -1,37 +1,37 @@
-<div id="question_html_8741_ad6d">
-<div id="statement_text_8741_ad6d">Which one of the following English words is a palindrome?</div>
+<div id="question_html_8e8b_8bd5">
+<div id="statement_text_8e8b_8bd5">Which one of the following English words is <strong>NOT</strong> a palindrome?</div>
 <form>
-<ul id="choices_8741_ad6d">
+<ul id="choices_8e8b_8bd5">
 <li>
-    <input type="radio" id="option0" name="answer_8741_ad6d" data-correct="false"><label for="option0">bid</label>
+    <input type="radio" id="option0" name="answer_8e8b_8bd5" data-correct="false"><label for="option0">Refer</label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_8741_ad6d" data-correct="false"><label for="option1">swims</label>
+    <input type="radio" id="option1" name="answer_8e8b_8bd5" data-correct="true"><label for="option1">dop</label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_8741_ad6d" data-correct="false"><label for="option2">dollop</label>
+    <input type="radio" id="option2" name="answer_8e8b_8bd5" data-correct="false"><label for="option2">Level</label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_8741_ad6d" data-correct="true"><label for="option3">Rotor</label>
+    <input type="radio" id="option3" name="answer_8e8b_8bd5" data-correct="false"><label for="option3">Civic</label>
   </li>
   <li>
-    <input type="radio" id="option4" name="answer_8741_ad6d" data-correct="false"><label for="option4">wog</label>
+    <input type="radio" id="option4" name="answer_8e8b_8bd5" data-correct="false"><label for="option4">Redder</label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_8741_ad6d()">Check Answer</button>
-<div id="result_8741_ad6d" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_8e8b_8bd5()">Check Answer</button>
+<div id="result_8e8b_8bd5" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_8741_ad6d() {
- const options = document.getElementsByName('answer_8741_ad6d');
+function checkAnswer_8e8b_8bd5() {
+ const options = document.getElementsByName('answer_8e8b_8bd5');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_8741_ad6d');
+ const resultDiv = document.getElementById('result_8e8b_8bd5');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';
