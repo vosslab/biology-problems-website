@@ -452,23 +452,25 @@ def main():
 	all_topic_folders.sort()
 	print(color_text(f"Found {len(all_topic_folders)} topic folders to parse", COLOR_CYAN))
 
+	# Pre-filter only topics that actually have bbq files so progress counts are accurate
+	topic_jobs = []
 	for topic_folder in all_topic_folders:
-		print("\n\n\n################################")
-		topic_folder = os.path.normpath(topic_folder)
-		# Skip the base directory itself and non-topic folders
-		if topic_folder == BASE_DIR:
+		norm_topic = os.path.normpath(topic_folder)
+		if norm_topic == BASE_DIR or "topic" not in norm_topic:
 			continue
-
-		if not 'topic' in topic_folder:
-			continue
-
-		print(color_text(f"Current folder: {topic_folder}", COLOR_CYAN))
-		# Check for BBQ files
-		# glob is probably more efficient
-		bbq_files = glob.glob(os.path.join(topic_folder, "bbq-*-questions.txt"))
+		bbq_files = glob.glob(os.path.join(norm_topic, "bbq-*-questions.txt"))
 		if not bbq_files:
 			continue
-		print(color_text(f"Found {len(bbq_files)} bbq files in topic folder: {topic_folder}", COLOR_CYAN))
+		topic_jobs.append((norm_topic, bbq_files))
+
+	total_jobs = len(topic_jobs)
+	print(color_text(f"Processing {total_jobs} topic folders with BBQ files", COLOR_CYAN))
+
+	for idx, (topic_folder, bbq_files) in enumerate(topic_jobs, start=1):
+		print("\n\n\n################################")
+		progress = f"[{idx}/{total_jobs}]"
+		print(color_text(f"{progress} Current folder: {topic_folder}", COLOR_CYAN))
+		print(color_text(f"{progress} Found {len(bbq_files)} bbq files in topic folder: {topic_folder}", COLOR_CYAN))
 
 		# Update the index.md file for the topic
 		update_index_md(topic_folder, bbq_files)
