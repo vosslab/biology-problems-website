@@ -1,34 +1,37 @@
-<div id="question_html_a01f_e8e8">
-<div id="statement_text_a01f_e8e8"><p>HLA genotyping serves as a key component in the field of immunogenetics. It is used for understanding individual variations in immune responses. This molecular technique identifies unique alleles on paired chromosomes. It's particularly vital in organ transplantation for matching donors and recipients. Finding a correct match reduces the chance for graft rejection. <br>A mother has a HLA genotype of <strong><span style="color: #b30000;">A5</span>,<span style="color: #b30000;">B3</span></strong> on one chromosome and <strong><span style="color: #465927;">A4</span>,<span style="color: #465927;">B6</span></strong> on the other chromosome. <br>The father has a HLA genotype of <strong><span style="color: #076cab;">A9</span>,<span style="color: #076cab;">B5</span></strong> on one chromosome and <strong><span style="color: #690f8a;">A6</span>,<span style="color: #690f8a;">B9</span></strong> on the other chromosome. <br>Which one of the following combinations is a possible genotype for their offspring?</p></div>
+<div id="question_html_1d0e_2acd">
+<div id="statement_text_1d0e_2acd"><p>HLA genotyping serves as a key component in the field of immunogenetics. It is used for understanding individual variations in immune responses. This molecular technique identifies unique alleles on paired chromosomes. It's particularly vital in organ transplantation for matching donors and recipients. Finding a correct match reduces the chance for graft rejection. <br>A mother has a HLA genotype of <strong><span style="color: #b34100;">A3</span>,<span style="color: #b34100;">B5</span></strong> on one chromosome and <strong><span style="color: #999900;">A8</span>,<span style="color: #999900;">B3</span></strong> on the other chromosome. <br>The father has a HLA genotype of <strong><span style="color: #008080;">A7</span>,<span style="color: #008080;">B9</span></strong> on one chromosome and <strong><span style="color: #690f8a;">A6</span>,<span style="color: #690f8a;">B1</span></strong> on the other chromosome. <br>Which one of the following combinations is a possible genotype for their offspring?</p></div>
 <form>
-<ul id="choices_a01f_e8e8">
+<ul id="choices_1d0e_2acd">
 <li>
-    <input type="radio" id="option0" name="answer_a01f_e8e8" data-correct="true"><label for="option0">A5,A6,B3,B9</label>
+    <input type="radio" id="option0" name="answer_1d0e_2acd" data-correct="false"><label for="option0">A6,A7,B1,B9</label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_a01f_e8e8" data-correct="false"><label for="option1">A4,A5,B3,B6</label>
+    <input type="radio" id="option1" name="answer_1d0e_2acd" data-correct="false"><label for="option1">A6,A8,B5,B9</label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_a01f_e8e8" data-correct="false"><label for="option2">A6,A9,B5,B9</label>
+    <input type="radio" id="option2" name="answer_1d0e_2acd" data-correct="true"><label for="option2">A6,A8,B1,B3</label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_a01f_e8e8" data-correct="false"><label for="option3">A4,A6,B3,B5</label>
+    <input type="radio" id="option3" name="answer_1d0e_2acd" data-correct="false"><label for="option3">A3,A6,B3,B9</label>
+  </li>
+  <li>
+    <input type="radio" id="option4" name="answer_1d0e_2acd" data-correct="false"><label for="option4">A3,A8,B3,B5</label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_a01f_e8e8()">Check Answer</button>
-<div id="result_a01f_e8e8" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_1d0e_2acd()">Check Answer</button>
+<div id="result_1d0e_2acd" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_a01f_e8e8() {
- const options = document.getElementsByName('answer_a01f_e8e8');
+function checkAnswer_1d0e_2acd() {
+ const options = document.getElementsByName('answer_1d0e_2acd');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_a01f_e8e8');
+ const resultDiv = document.getElementById('result_1d0e_2acd');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';

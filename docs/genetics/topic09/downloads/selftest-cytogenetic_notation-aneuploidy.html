@@ -1,37 +1,37 @@
-<div id="question_html_7272_1c77">
-<div id="statement_text_7272_1c77">In cytogenetic terms, what is meant by the human karyotype "45,-2,XY"?</div>
+<div id="question_html_956d_f543">
+<div id="statement_text_956d_f543">In the context of human karyotypes, what does "45,X" mean?</div>
 <form>
-<ul id="choices_7272_1c77">
+<ul id="choices_956d_f543">
 <li>
-    <input type="radio" id="option0" name="answer_7272_1c77" data-correct="false"><label for="option0">This indicates a female human karyotype with an absent chromosome 2.</label>
+    <input type="radio" id="option0" name="answer_956d_f543" data-correct="false"><label for="option0">This indicates a female human karyotype with an extra pair of chromosome X.</label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_7272_1c77" data-correct="false"><label for="option1">This indicates a male human karyotype with a partial deletion of chromosome 2.</label>
+    <input type="radio" id="option1" name="answer_956d_f543" data-correct="false"><label for="option1">This indicates a female human karyotype with a partial deletion of chromosome X.</label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_7272_1c77" data-correct="false"><label for="option2">This indicates a male human karyotype with an extra pair of chromosome 2.</label>
+    <input type="radio" id="option2" name="answer_956d_f543" data-correct="false"><label for="option2">This indicates a male human karyotype with two extra copies of chromosome X.</label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_7272_1c77" data-correct="false"><label for="option3">This indicates a female human karyotype with a partial deletion of chromosome 2.</label>
+    <input type="radio" id="option3" name="answer_956d_f543" data-correct="true"><label for="option3">This indicates a female human karyotype with a missing chromosome X.</label>
   </li>
   <li>
-    <input type="radio" id="option4" name="answer_7272_1c77" data-correct="true"><label for="option4">This indicates a male human karyotype lacking copy of chromosome 2.</label>
+    <input type="radio" id="option4" name="answer_956d_f543" data-correct="false"><label for="option4">This indicates a male human karyotype with a partial deletion of chromosome X.</label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_7272_1c77()">Check Answer</button>
-<div id="result_7272_1c77" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_956d_f543()">Check Answer</button>
+<div id="result_956d_f543" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_7272_1c77() {
- const options = document.getElementsByName('answer_7272_1c77');
+function checkAnswer_956d_f543() {
+ const options = document.getElementsByName('answer_956d_f543');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_7272_1c77');
+ const resultDiv = document.getElementById('result_956d_f543');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';
