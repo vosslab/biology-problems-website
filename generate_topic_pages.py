@@ -18,6 +18,20 @@ import llm_generate_problem_set_title
 
 BASE_DIR: str = "./docs"
 MKDOCS_CONFIG: str = "mkdocs.yml"
+TOPICS_METADATA_FILE: str = "topics_metadata.yml"
+TOPIC_METADATA = {}
+
+# ANSI color codes for readable CLI output
+COLOR_RESET = "\033[0m"
+COLOR_GREEN = "\033[92m"
+COLOR_YELLOW = "\033[93m"
+COLOR_CYAN = "\033[96m"
+COLOR_RED = "\033[91m"
+
+
+def color_text(text: str, color: str) -> str:
+	"""Return colored text for CLI readability."""
+	return f"{color}{text}{COLOR_RESET}"
 
 #==============
 
@@ -61,50 +75,64 @@ def get_topic_title(folder_path: str, topic_number: int) -> str:
 
 #==============
 
-def get_topic_description(parent_folder: str, relative_topic_name: str) -> str:
-	"""Retrieve the description from the parent folder's index.md file.
+def load_topic_metadata() -> dict:
+	"""Load topic metadata (descriptions + LibreTexts links) from YAML if present."""
+	if not os.path.isfile(TOPICS_METADATA_FILE):
+		return {}
+	with open(TOPICS_METADATA_FILE, "r") as file_pointer:
+		metadata = yaml.safe_load(file_pointer) or {}
+		if not isinstance(metadata, dict):
+			return {}
+		return metadata
+
+TOPIC_METADATA = load_topic_metadata()
+
+#==============
+
+def get_libretexts_link(topic_folder: str, relative_topic_name: str):
+	"""Return LibreTexts mapping for a topic if available."""
+	subject_folder = os.path.basename(os.path.dirname(topic_folder))
+	subject_metadata = TOPIC_METADATA.get(subject_folder, {})
+	if not isinstance(subject_metadata, dict):
+		return None
+	topic_entry = subject_metadata.get(relative_topic_name)
+	if not isinstance(topic_entry, dict):
+		return None
+	libretexts = topic_entry.get("libretexts", {})
+	if not isinstance(libretexts, dict):
+		return None
+	url = libretexts.get("url")
+	if not url:
+		return None
+	title = libretexts.get("title")
+	return {"url": url, "title": title}
+
+#==============
+
+def get_topic_description(topic_folder: str) -> str:
+	"""Retrieve the description from topics_metadata.yml.
 
 	Args:
-		parent_folder (str): The path to the parent folder containing index.md.
-		relative_topic_name (str): The name of the topic for which to find the description.
+		topic_folder (str): The path to the topic folder.
 
 	Returns:
-		str: The description found in the index.md file.
+		str: The description for the topic.
 
 	Raises:
-		ValueError: If the index.md file does not exist or no matching description is found.
+		ValueError: If no matching description is found.
 	"""
-	# Path to the index.md file
-	index_md_path = os.path.join(parent_folder, "index.md")
-	print(f"Parent Index file: {index_md_path}")
-
-	if not os.path.exists(index_md_path):
-		raise ValueError(f"No index.md file found in the folder: {parent_folder}")
-
-	# Normalize the search path (topic folder with "index.md")
-	search_path = os.path.normpath(os.path.join(relative_topic_name, "index.md"))
-	print(f"Search path: {search_path}")
-
-	#Sample
-	"""
-	1. [The Molecular Design of Life](topic01/index.md)
-		- Molecular design of life, major elements, and biomacromolecules.
-	"""
-
-	# Read the file and find the line after the topic path
-	with open(index_md_path, "r") as file:
-		for line in file:
-			sline = line.strip()
-			# Check if the current line contains the normalized topic path
-			if search_path in os.path.normpath(sline):
-				# Get the next line, which should contain the description
-				next_line = file.readline().strip()
-				description = re.sub(r"^[\-\s]*", "", next_line)
-				if description:
-					return description
-
-	# If no matching description is found
-	raise ValueError(f"No description found for topic: {relative_topic_name}")
+	subject_folder = os.path.basename(os.path.dirname(topic_folder))
+	relative_topic_name = os.path.basename(topic_folder)
+	subject_metadata = TOPIC_METADATA.get(subject_folder, {})
+	if not isinstance(subject_metadata, dict):
+		raise ValueError(f"No descriptions found for subject: {subject_folder}")
+	topic_entry = subject_metadata.get(relative_topic_name, {})
+	if not isinstance(topic_entry, dict):
+		raise ValueError(f"No metadata found for topic: {relative_topic_name}")
+	description = topic_entry.get("description")
+	if not description:
+		raise ValueError(f"No description found for topic: {relative_topic_name}")
+	return description
 
 #==============
 def create_downloadable_format(bbq_file: str, prefix: str, extension: str):
@@ -114,7 +142,7 @@ def create_downloadable_format(bbq_file: str, prefix: str, extension: str):
 	if os.path.exists(file_path):
 		os.remove(file_path)
 	if not os.path.exists("bbq_converter.py"):
-		print("cannot find bbq_converter.py")
+		print(color_text("cannot find bbq_converter.py", COLOR_YELLOW))
 		print("ln -sv ~/nsh/qti_package_maker/tools/bbq_converter.py .")
 		raise FileNotFoundError
 	convert_cmd = "python3 bbq_converter.py "
@@ -122,12 +150,12 @@ def create_downloadable_format(bbq_file: str, prefix: str, extension: str):
 	convert_cmd += f"--{prefix} "
 	convert_cmd += f"--input {bbq_file} "
 	convert_cmd += f"--output {file_path}"
-	#print("\n" + convert_cmd + "\n")
+	print(color_text(convert_cmd, COLOR_CYAN))
 	proc = subprocess.Popen(convert_cmd, shell=True)
 	proc.communicate()
 	if not os.path.isfile(file_path):
 		print("\n" + convert_cmd + "\n")
-		print(f"FAIL: {prefix}, {extension}, {bbq_file}")
+		print(color_text(f"WARNING: {prefix}, {extension}, {bbq_file}", COLOR_YELLOW))
 		if not prefix.startswith("human"):
 			#raise FileNotFoundError(file_path)
 			#return None
@@ -339,13 +367,13 @@ def update_index_md(topic_folder: str, bbq_files: list) -> None:
 	print(f"Topic Number: {topic_number}")
 
 	title = get_topic_title(topic_folder, topic_number)
-	print(f"Page Title: {title}")
+	print(color_text(f"Page Title: {title}", COLOR_CYAN))
 
-	parent_folder = os.path.dirname(topic_folder)
-	if 'topic' in parent_folder:
-		raise ValueError(f"topic should not be in parent_folder {parent_folder}")
-	description = get_topic_description(parent_folder, relative_topic_name)
+	description = get_topic_description(topic_folder)
 	print(f"Page description: {description}")
+	libretexts_link = get_libretexts_link(topic_folder, relative_topic_name)
+	if libretexts_link:
+		print(color_text(f"LibreTexts link: {libretexts_link}", COLOR_CYAN))
 
 	index_md_path = os.path.join(topic_folder, "index.md")
 	print(f'writing to {index_md_path}')
@@ -356,6 +384,9 @@ def update_index_md(topic_folder: str, bbq_files: list) -> None:
 
 		index_md.write(f"# {title}\n\n")
 		index_md.write(f"{description}\n\n")
+		if libretexts_link:
+			link_title = libretexts_link.get("title") or "LibreTexts chapter"
+			index_md.write(f"**LibreTexts reference:** [{link_title}]({libretexts_link['url']})\n\n")
 
 		bbq_files.sort()
 		for bbq_file in bbq_files:
@@ -363,7 +394,7 @@ def update_index_md(topic_folder: str, bbq_files: list) -> None:
 			# Extract the base file name from the input path
 			#bbq_file_basename = os.path.basename(bbq_file)
 			# Convert the text file to HTML
-			print(f'  BBQ file {bbq_file}')
+			print(color_text(f'  BBQ file {bbq_file}', COLOR_CYAN))
 
 			html_file_path = get_outfile_name(bbq_file, 'selftest', 'html')
 			if os.path.exists(html_file_path):
@@ -375,7 +406,7 @@ def update_index_md(topic_folder: str, bbq_files: list) -> None:
 
 			# Generate the problem set title using the LLM
 			problem_set_title = get_problem_set_title(bbq_file)
-			print(f"  Problem set title: {problem_set_title}")
+			print(color_text(f"  Problem set title: {problem_set_title}", COLOR_CYAN))
 
 			# Add content to the index.md file
 			index_md.write(f"## {problem_set_title}\n\n")
@@ -416,10 +447,10 @@ def main():
 		raise FileNotFoundError(f"Base directory '{BASE_DIR}' not found.")
 
 	search_text = os.path.join(BASE_DIR, "*/topic??")
-	print(f"Search text: {search_text}")
+	print(color_text(f"Search text: {search_text}", COLOR_CYAN))
 	all_topic_folders = glob.glob(os.path.join(BASE_DIR, "*/topic??/"))
 	all_topic_folders.sort()
-	print(f"Found {len(all_topic_folders)} topic folders to parse")
+	print(color_text(f"Found {len(all_topic_folders)} topic folders to parse", COLOR_CYAN))
 
 	for topic_folder in all_topic_folders:
 		print("\n\n\n################################")
@@ -431,19 +462,19 @@ def main():
 		if not 'topic' in topic_folder:
 			continue
 
-		print(f"Current folder: {topic_folder}")
+		print(color_text(f"Current folder: {topic_folder}", COLOR_CYAN))
 		# Check for BBQ files
 		# glob is probably more efficient
 		bbq_files = glob.glob(os.path.join(topic_folder, "bbq-*-questions.txt"))
 		if not bbq_files:
 			continue
-		print(f"Found {len(bbq_files)} bbq files in topic folder: {topic_folder}")
+		print(color_text(f"Found {len(bbq_files)} bbq files in topic folder: {topic_folder}", COLOR_CYAN))
 
 		# Update the index.md file for the topic
 		update_index_md(topic_folder, bbq_files)
 		#sys.exit(1)
 	print("\n\n\n")
-	print("PROGRAM HAS COMPLETED!!!")
+	print(color_text("PROGRAM HAS COMPLETED!!!", COLOR_GREEN))
 
 #==============
 
