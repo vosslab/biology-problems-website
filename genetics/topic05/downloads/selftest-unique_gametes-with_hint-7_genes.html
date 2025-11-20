@@ -1,40 +1,40 @@
-<div id="question_html_376e_ae35">
-<div id="statement_text_376e_ae35">
+<div id="question_html_1ff0_ae35">
+<div id="statement_text_1ff0_ae35">
 <h3>Gamete Diversity in Sexual Reproduction</h3>
-<p>In sexual reproduction, the potential diversity of gametes – such as sperm and eggs in animals, or pollen and ovules in plants – can be calculated based on the genotype of an individual.<br>How many unique <span style="color: Green;"><strong>GAMETES</strong></span> could be produced through the process of independent assortment by an individual with the following genotype?<br><i>Hint: Remember, each heterozygous gene pair (like `Aa` or `Bb`) can give rise to two (2) different gametes, while homozygous pairs (like `AA`, `BB`, and `aa`, `bb`) can only give rise to one gamete.</i><br><strong>Genotype:</strong><span style="font-family: monospace;">Aa Bb cc Dd Ee FF GG </span></p>
+<p>In sexual reproduction, the potential diversity of gametes – such as sperm and eggs in animals, or pollen and ovules in plants – can be calculated based on the genotype of an individual.<br>How many unique <span style="color: Green;"><strong>GAMETES</strong></span> could be produced through the process of independent assortment by an individual with the following genotype?<br><i>Hint: Remember, each heterozygous gene pair (like `Aa` or `Bb`) can give rise to two (2) different gametes, while homozygous pairs (like `AA`, `BB`, and `aa`, `bb`) can only give rise to one gamete.</i><br><strong>Genotype:</strong><span style="font-family: monospace;">aa Bb Cc Dd Ee Ff GG </span></p>
 </div>
 <form>
-<ul id="choices_376e_ae35">
+<ul id="choices_1ff0_ae35">
 <li>
-    <input type="radio" id="option0" name="answer_376e_ae35" data-correct="false"><label for="option0">2<sup>2</sup> = 4 (i.e., two genes with two alternative forms each)</label>
+    <input type="radio" id="option0" name="answer_1ff0_ae35" data-correct="false"><label for="option0">2<sup>2</sup> = 4 (i.e., two genes with two alternative forms each)</label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_376e_ae35" data-correct="false"><label for="option1">2<sup>3</sup> = 8 (i.e., three genes with two alternative forms each)</label>
+    <input type="radio" id="option1" name="answer_1ff0_ae35" data-correct="false"><label for="option1">2<sup>3</sup> = 8 (i.e., three genes with two alternative forms each)</label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_376e_ae35" data-correct="true"><label for="option2">2<sup>4</sup> = 16 (i.e., four genes with two alternative forms each)</label>
+    <input type="radio" id="option2" name="answer_1ff0_ae35" data-correct="false"><label for="option2">2<sup>4</sup> = 16 (i.e., four genes with two alternative forms each)</label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_376e_ae35" data-correct="false"><label for="option3">2<sup>5</sup> = 32 (i.e., five genes with two alternative forms each)</label>
+    <input type="radio" id="option3" name="answer_1ff0_ae35" data-correct="true"><label for="option3">2<sup>5</sup> = 32 (i.e., five genes with two alternative forms each)</label>
   </li>
   <li>
-    <input type="radio" id="option4" name="answer_376e_ae35" data-correct="false"><label for="option4">2<sup>6</sup> = 64 (i.e., six genes with two alternative forms each)</label>
+    <input type="radio" id="option4" name="answer_1ff0_ae35" data-correct="false"><label for="option4">2<sup>6</sup> = 64 (i.e., six genes with two alternative forms each)</label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_376e_ae35()">Check Answer</button>
-<div id="result_376e_ae35" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_1ff0_ae35()">Check Answer</button>
+<div id="result_1ff0_ae35" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_376e_ae35() {
- const options = document.getElementsByName('answer_376e_ae35');
+function checkAnswer_1ff0_ae35() {
+ const options = document.getElementsByName('answer_1ff0_ae35');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_376e_ae35');
+ const resultDiv = document.getElementById('result_1ff0_ae35');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';

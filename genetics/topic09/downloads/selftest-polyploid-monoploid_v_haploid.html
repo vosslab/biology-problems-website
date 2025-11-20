@@ -1,44 +1,44 @@
-<div id="question_html_f503_672e">
-<div id="statement_text_f503_672e">
-<p>A certain plant is found to be an octaploid (8n) with 80 chromosomes in total.</p>
+<div id="question_html_b20d_fd03">
+<div id="statement_text_b20d_fd03">
+<p>A certain plant is found to be a tetradecaploid (14n) with 98 chromosomes in total.</p>
 <h5>What are the monoploid (m) and haploid (h) numbers for this plant?</h5>
-<p><i>Note: 80/2 = 40 and 80/8 = 10</i></p>
+<p><i>Note: 98/14 = 7 and 98/2 = 49</i></p>
 </div>
 <form>
-<ul id="choices_f503_672e">
+<ul id="choices_b20d_fd03">
 <li>
-    <input type="radio" id="option0" name="answer_f503_672e" data-correct="false"><label for="option0"><p>monoploid, m = 80 and haploid, h = 10</p></label>
+    <input type="radio" id="option0" name="answer_b20d_fd03" data-correct="true"><label for="option0"><p>monoploid, m = 7 and haploid, h = 49</p></label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_f503_672e" data-correct="false"><label for="option1"><p>monoploid, m = 40 and haploid, h = 10</p></label>
+    <input type="radio" id="option1" name="answer_b20d_fd03" data-correct="false"><label for="option1"><p>monoploid, m = 49 and haploid, h = 49</p></label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_f503_672e" data-correct="false"><label for="option2"><p>monoploid, m = 80 and haploid, h = 40</p></label>
+    <input type="radio" id="option2" name="answer_b20d_fd03" data-correct="false"><label for="option2"><p>monoploid, m = 7 and haploid, h = 7</p></label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_f503_672e" data-correct="false"><label for="option3"><p>monoploid, m = 10 and haploid, h = 10</p></label>
+    <input type="radio" id="option3" name="answer_b20d_fd03" data-correct="false"><label for="option3"><p>monoploid, m = 49 and haploid, h = 7</p></label>
   </li>
   <li>
-    <input type="radio" id="option4" name="answer_f503_672e" data-correct="false"><label for="option4"><p>monoploid, m = 40 and haploid, h = 40</p></label>
+    <input type="radio" id="option4" name="answer_b20d_fd03" data-correct="false"><label for="option4"><p>monoploid, m = 98 and haploid, h = 7</p></label>
   </li>
   <li>
-    <input type="radio" id="option5" name="answer_f503_672e" data-correct="true"><label for="option5"><p>monoploid, m = 10 and haploid, h = 40</p></label>
+    <input type="radio" id="option5" name="answer_b20d_fd03" data-correct="false"><label for="option5"><p>monoploid, m = 98 and haploid, h = 49</p></label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_f503_672e()">Check Answer</button>
-<div id="result_f503_672e" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_b20d_fd03()">Check Answer</button>
+<div id="result_b20d_fd03" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_f503_672e() {
- const options = document.getElementsByName('answer_f503_672e');
+function checkAnswer_b20d_fd03() {
+ const options = document.getElementsByName('answer_b20d_fd03');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_f503_672e');
+ const resultDiv = document.getElementById('result_b20d_fd03');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';

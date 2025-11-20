@@ -1,8 +1,8 @@
-<div id="question_html_13e1_ed90">
-<div id="statement_text_13e1_ed90">
+<div id="question_html_3932_6216">
+<div id="statement_text_3932_6216">
 <h4>Using Deletion Mutants to Determine Gene Order</h4>
 <p>Deletion mutants are an essential tool in genetics for uncovering the order of six (6) genes on a chromosome. Deletions remove specific regions of the chromosome, allowing researchers to observe the effects of the missing genes on the phenotype of the organism. This approach is particularly useful for identifying the locations of recessive genes, which are only revealed when the corresponding wildtype copies are absent.<br>In a test cross involving deletion mutants, one parent carries a full-length wildtype chromosome and a second chromosome with a deletion, while the other parent is homozygous recessive for all six genes. Offspring inheriting the full-length wildtype chromosome display the dominant phenotype for all six genes in the test cross. However, offspring inheriting the chromosome with the deletion will display some recessive traits. These recessive traits uncover the missing genes in the deleted region. By analyzing which genes are uncovered in a series of different deletion mutants, the linear order of the genes can be determined.<br>In organisms such as <i>Drosophila melanogaster</i>, polytene chromosomes from the salivary glands provide a physical map for studying deletions. Polytene chromosomes are giant chromosomes with distinct banding patterns, allowing researchers to directly visualize which regions of the chromosome are deleted. This visual representation complements the genetic data obtained from test crosses.<br>For this problem, deletion mutants have been generated for a chromosome containing six genes. Your goal is to analyze the phenotypic data resulting from these deletions and determine the correct linear order of the genes.</p>
-<table style="border-collapse: collapse; border: 2px solid black; width: 420px; height: 125px;">
+<table style="border-collapse: collapse; border: 2px solid black; width: 420px; height: 150px;">
 <tr>
 <th> </th>
 <th align="center">Gene 1</th>
@@ -14,49 +14,59 @@
 </tr>
 <tr>
 <th align="center"><span style="color: #b34100; font-weight: bold;">Del #1</span></th>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#b34100"> </td>
 <td bgcolor="#b34100"> </td>
 <td bgcolor="#b34100"> </td>
-</tr>
-<tr>
-<th align="center"><span style="color: #999900; font-weight: bold;">Del #2</span></th>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#999900"> </td>
-<td bgcolor="#999900"> </td>
-<td bgcolor="#999900"> </td>
-<td bgcolor="#999900"> </td>
-</tr>
-<tr>
-<th align="center"><span style="color: #008000; font-weight: bold;">Del #3</span></th>
-<td bgcolor="#008000"> </td>
-<td bgcolor="#008000"> </td>
-<td bgcolor="#008000"> </td>
-<td bgcolor="#008000"> </td>
+<td bgcolor="#b34100"> </td>
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
 </tr>
 <tr>
-<th align="center"><span style="color: #690f8a; font-weight: bold;">Del #4</span></th>
+<th align="center"><span style="color: #b37100; font-weight: bold;">Del #2</span></th>
+<td bgcolor="#b37100"> </td>
+<td bgcolor="#b37100"> </td>
+<td bgcolor="#b37100"> </td>
+<td bgcolor="#b37100"> </td>
+<td bgcolor="#b37100"> </td>
 <td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#690f8a"> </td>
-<td bgcolor="#690f8a"> </td>
-<td bgcolor="#690f8a"> </td>
-<td bgcolor="#690f8a"> </td>
+</tr>
+<tr>
+<th align="center"><span style="color: #008080; font-weight: bold;">Del #3</span></th>
 <td bgcolor="#EEEEEE"> </td>
+<td bgcolor="#EEEEEE"> </td>
+<td bgcolor="#EEEEEE"> </td>
+<td bgcolor="#008080"> </td>
+<td bgcolor="#008080"> </td>
+<td bgcolor="#008080"> </td>
+</tr>
+<tr>
+<th align="center"><span style="color: #002db3; font-weight: bold;">Del #4</span></th>
+<td bgcolor="#EEEEEE"> </td>
+<td bgcolor="#002db3"> </td>
+<td bgcolor="#002db3"> </td>
+<td bgcolor="#002db3"> </td>
+<td bgcolor="#002db3"> </td>
+<td bgcolor="#002db3"> </td>
+</tr>
+<tr>
+<th align="center"><span style="color: #800055; font-weight: bold;">Del #5</span></th>
+<td bgcolor="#EEEEEE"> </td>
+<td bgcolor="#EEEEEE"> </td>
+<td bgcolor="#800055"> </td>
+<td bgcolor="#800055"> </td>
+<td bgcolor="#800055"> </td>
+<td bgcolor="#800055"> </td>
 </tr>
 </table>
-<p>There are six (6) genes, B, E, J, Q, W, and X, closely linked in a single chromosome. However, their order is unknown. In the region, four (4) deletions have been identified. These deletions uncover recessive alleles of the genes as follows:</p>
+<p>There are six (6) genes, A, C, J, Q, T, and X, closely linked in a single chromosome. However, their order is unknown. In the region, five (5) deletions have been identified. These deletions uncover recessive alleles of the genes as follows:</p>
 <ul>
-<li><span style="color: #b34100; font-weight: bold;">Deletion #1: <strong>E, Q, and X</strong></span></li>
-<li><span style="color: #999900; font-weight: bold;">Deletion #2: <strong>E, J, Q, and X</strong></span></li>
-<li><span style="color: #008000; font-weight: bold;">Deletion #3: <strong>B, E, J, and W</strong></span></li>
-<li><span style="color: #690f8a; font-weight: bold;">Deletion #4: <strong>E, J, W, and X</strong></span></li>
+<li><span style="color: #b34100; font-weight: bold;">Deletion #1: <strong>A, C, J, and T</strong></span></li>
+<li><span style="color: #b37100; font-weight: bold;">Deletion #2: <strong>A, C, J, Q, and T</strong></span></li>
+<li><span style="color: #008080; font-weight: bold;">Deletion #3: <strong>C, Q, and X</strong></span></li>
+<li><span style="color: #002db3; font-weight: bold;">Deletion #4: <strong>A, C, J, Q, and X</strong></span></li>
+<li><span style="color: #800055; font-weight: bold;">Deletion #5: <strong>C, J, Q, and X</strong></span></li>
 </ul>
-<p>What is the correct order of the six (6) genes?<br><strong>Hint 1</strong>: The first gene at start of the chromosome is <strong>gene B</strong>.<br><strong>Hint 2</strong>: Enter your answer in the blank using only six (6) letters, or one comma every three (3) letters. Do not include extra commas or spaces in your answer.</p>
+<p>What is the correct order of the six (6) genes?<br><strong>Hint 1</strong>: The first gene at start of the chromosome is <strong>gene T</strong>.<br><strong>Hint 2</strong>: Enter your answer in the blank using only six (6) letters, or one comma every three (3) letters. Do not include extra commas or spaces in your answer.</p>
 <h6>Step-by-Step Instructions for Solving Deletion Mutant Problems</h6>
 <ul>
 <li>Step 1: Simplify the information.</li> <ul>
@@ -77,40 +87,40 @@
 </ul>
 </div>
 <form>
-<ul id="choices_13e1_ed90">
+<ul id="choices_3932_6216">
 <li>
-    <input type="radio" id="option0" name="answer_13e1_ed90" data-correct="false"><label for="option0"><strong><span style="font-family: monospace;">BJWEXQ</span></strong>:   <i>gene order of B, J, W, E, X, and Q</i></label>
+    <input type="radio" id="option0" name="answer_3932_6216" data-correct="false"><label for="option0"><strong><span style="font-family: monospace;">TACJQX</span></strong>:   <i>gene order of T, A, C, J, Q, and X</i></label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_13e1_ed90" data-correct="false"><label for="option1"><strong><span style="font-family: monospace;">BJWXEQ</span></strong>:   <i>gene order of B, J, W, X, E, and Q</i></label>
+    <input type="radio" id="option1" name="answer_3932_6216" data-correct="false"><label for="option1"><strong><span style="font-family: monospace;">TACQJX</span></strong>:   <i>gene order of T, A, C, Q, J, and X</i></label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_13e1_ed90" data-correct="false"><label for="option2"><strong><span style="font-family: monospace;">BWEJXQ</span></strong>:   <i>gene order of B, W, E, J, X, and Q</i></label>
+    <input type="radio" id="option2" name="answer_3932_6216" data-correct="true"><label for="option2"><strong><span style="font-family: monospace;">TAJCQX</span></strong>:   <i>gene order of T, A, J, C, Q, and X</i></label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_13e1_ed90" data-correct="true"><label for="option3"><strong><span style="font-family: monospace;">BWJEXQ</span></strong>:   <i>gene order of B, W, J, E, X, and Q</i></label>
+    <input type="radio" id="option3" name="answer_3932_6216" data-correct="false"><label for="option3"><strong><span style="font-family: monospace;">TJACQX</span></strong>:   <i>gene order of T, J, A, C, Q, and X</i></label>
   </li>
   <li>
-    <input type="radio" id="option4" name="answer_13e1_ed90" data-correct="false"><label for="option4"><strong><span style="font-family: monospace;">BWJXEQ</span></strong>:   <i>gene order of B, W, J, X, E, and Q</i></label>
+    <input type="radio" id="option4" name="answer_3932_6216" data-correct="false"><label for="option4"><strong><span style="font-family: monospace;">TJACXQ</span></strong>:   <i>gene order of T, J, A, C, X, and Q</i></label>
   </li>
   <li>
-    <input type="radio" id="option5" name="answer_13e1_ed90" data-correct="false"><label for="option5"><strong><span style="font-family: monospace;">BWXJEQ</span></strong>:   <i>gene order of B, W, X, J, E, and Q</i></label>
+    <input type="radio" id="option5" name="answer_3932_6216" data-correct="false"><label for="option5"><strong><span style="font-family: monospace;">TJCAQX</span></strong>:   <i>gene order of T, J, C, A, Q, and X</i></label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_13e1_ed90()">Check Answer</button>
-<div id="result_13e1_ed90" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_3932_6216()">Check Answer</button>
+<div id="result_3932_6216" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_13e1_ed90() {
- const options = document.getElementsByName('answer_13e1_ed90');
+function checkAnswer_3932_6216() {
+ const options = document.getElementsByName('answer_3932_6216');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_13e1_ed90');
+ const resultDiv = document.getElementById('result_3932_6216');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';
