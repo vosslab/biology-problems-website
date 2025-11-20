@@ -2,6 +2,8 @@
 
 Enzyme functions, substrate binding, and energy changes in reactions.
 
+**LibreTexts reference:** [Enzyme Thermodynamics](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/06:_Enzyme_Thermodynamics)
+
 ## Energy Terms and Their Categories
 
 <div id="MC-energy_terms-button-container" class="button-container">

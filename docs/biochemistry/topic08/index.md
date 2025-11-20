@@ -2,6 +2,8 @@
 
 Ligand binding, allosteric effects, and feedback regulation.
 
+**LibreTexts reference:** [Enzyme Regulation](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/08:_Enzyme_Regulation)
+
 ## Allosteric Enzymes in Metabolic Pathways
 
 <div id="metabolic_pathway_allosteric-button-container" class="button-container">
