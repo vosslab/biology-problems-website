@@ -1,0 +1,2 @@
+script,flags,output
+~/nsh/biology-problems/inheritance-problems/unique_gametes.py,"-n 5 -x 3 --hint",docs/genetics/topic05/bbq-unique_gametes-with_hint-5_genes-questions.txt
