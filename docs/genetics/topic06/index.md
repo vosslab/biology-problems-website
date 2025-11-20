@@ -2,11 +2,16 @@
 
 Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheritance.
 
+**LibreTexts reference:** [Chromosomal Inheritance](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/06:_Chromosomal_Inheritance)
+
 ## Stages and Descriptions of Meiosis Prophase I
 
 <div id="MATCH-meiosis_prophase_1-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-meiosis_prophase_1-questions.txt" download title="Download bbq-MATCH-meiosis_prophase_1-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-meiosis_prophase_1-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-meiosis_prophase_1.zip" download title="Download blackboard_qti_v2_1-MATCH-meiosis_prophase_1.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-meiosis_prophase_1.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-meiosis_prophase_1.zip" download title="Download canvas_qti_v1_2-MATCH-meiosis_prophase_1.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-meiosis_prophase_1.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -37,6 +42,9 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
 <a class="md-button custom-button bb_text" href="bbq-MATCH-meiosis_terms-questions.txt" download title="Download bbq-MATCH-meiosis_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-meiosis_terms-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-meiosis_terms.zip" download title="Download blackboard_qti_v2_1-MATCH-meiosis_terms.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-meiosis_terms.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-meiosis_terms.zip" download title="Download canvas_qti_v1_2-MATCH-meiosis_terms.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-meiosis_terms.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
@@ -65,6 +73,9 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
 <div id="MATCH-sex_determination-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-sex_determination-questions.txt" download title="Download bbq-MATCH-sex_determination-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-sex_determination-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-sex_determination.zip" download title="Download blackboard_qti_v2_1-MATCH-sex_determination.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-sex_determination.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-sex_determination.zip" download title="Download canvas_qti_v1_2-MATCH-sex_determination.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-sex_determination.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -286,6 +297,9 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
 <div id="pedigree_match-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-pedigree_match-questions.txt" download title="Download bbq-pedigree_match-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-pedigree_match-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-pedigree_match.zip" download title="Download blackboard_qti_v2_1-pedigree_match.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-pedigree_match.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-pedigree_match.zip" download title="Download canvas_qti_v1_2-pedigree_match.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-pedigree_match.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
