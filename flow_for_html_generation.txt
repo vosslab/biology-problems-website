@@ -39,3 +39,8 @@ Example line: {% include "biochemistry/topic02/optimal_buffering_range-questions
 * If desired, generate a more detailed .md file with multiple questions or examples to provide additional context.
 
 9. TODO add the QTI v2.1 for LP like Canvas or Moodle
+
+10. Structured BBQ/task runner (optional)
+* Define generation tasks in bbq_tasks.csv (script, flags, output; program defaults to python3). Works with any script (e.g., unique_gametes.py, converter scripts, etc.).
+* Run `python3 run_bbq_tasks.py` to execute all tasks; stdout/stderr goes to logs/bbq_generation.log, CLI shows only progress and failures.
+* Use `--dry-run` to preview commands, `--config` to point to another tasks file, and `--log` to change the log destination.
