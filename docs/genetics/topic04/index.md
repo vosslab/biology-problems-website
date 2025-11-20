@@ -2,11 +2,16 @@
 
 Mendel’s principles, Punnett squares, genotype/phenotype ratios, and autosomal pedigree analysis.
 
+**LibreTexts reference:** [Mendelian Genetics](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/04:_Mendelian_Genetics)
+
 ## Mendelian Crosses and Generational Stages Identification
 
 <div id="MATCH-mendel_cross_terminology-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-mendel_cross_terminology-questions.txt" download title="Download bbq-MATCH-mendel_cross_terminology-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-mendel_cross_terminology-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-mendel_cross_terminology.zip" download title="Download blackboard_qti_v2_1-MATCH-mendel_cross_terminology.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-mendel_cross_terminology.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-mendel_cross_terminology.zip" download title="Download canvas_qti_v1_2-MATCH-mendel_cross_terminology.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-mendel_cross_terminology.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -37,6 +42,9 @@ Mendel’s principles, Punnett squares, genotype/phenotype ratios, and autosomal
 <a class="md-button custom-button bb_text" href="bbq-MATCH-mendel_four_principles-questions.txt" download title="Download bbq-MATCH-mendel_four_principles-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-mendel_four_principles-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-mendel_four_principles.zip" download title="Download blackboard_qti_v2_1-MATCH-mendel_four_principles.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-mendel_four_principles.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-mendel_four_principles.zip" download title="Download canvas_qti_v1_2-MATCH-mendel_four_principles.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-mendel_four_principles.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
@@ -66,6 +74,9 @@ Mendel’s principles, Punnett squares, genotype/phenotype ratios, and autosomal
 <a class="md-button custom-button bb_text" href="bbq-MATCH-mendelian_genetics_terms-questions.txt" download title="Download bbq-MATCH-mendelian_genetics_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-mendelian_genetics_terms-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-mendelian_genetics_terms.zip" download title="Download blackboard_qti_v2_1-MATCH-mendelian_genetics_terms.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-mendelian_genetics_terms.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-mendelian_genetics_terms.zip" download title="Download canvas_qti_v1_2-MATCH-mendelian_genetics_terms.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-mendelian_genetics_terms.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
@@ -94,6 +105,9 @@ Mendel’s principles, Punnett squares, genotype/phenotype ratios, and autosomal
 <div id="MATCH-monohybrid_cross_genotype-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-monohybrid_cross_genotype-questions.txt" download title="Download bbq-MATCH-monohybrid_cross_genotype-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-monohybrid_cross_genotype-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-monohybrid_cross_genotype.zip" download title="Download blackboard_qti_v2_1-MATCH-monohybrid_cross_genotype.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-monohybrid_cross_genotype.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-monohybrid_cross_genotype.zip" download title="Download canvas_qti_v1_2-MATCH-monohybrid_cross_genotype.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-monohybrid_cross_genotype.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2

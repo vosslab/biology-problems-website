@@ -1,50 +1,50 @@
-<div id="question_html_cce4_d71f">
-<div id="statement_text_cce4_d71f">
+<div id="question_html_8f6e_22d6">
+<div id="statement_text_8f6e_22d6">
 <h3>Genotype Diversity in Hybrid Cross</h3>
 <p>In a hybrid cross, the range of possible genotypes in the offspring is determined by the genetic makeup of the parental organisms.<br>Assume that all genes sort independently and display complete dominance.<br><i>Hint: For each gene pair from the parents, you can get 1, 2, or 3 unique genotypes.<br>This is based on the combinations: homozygous x homozygous (1), homozygous x heterozygous (2), and heterozygous x heterozygous (3).</i><br>Considering the principle of independent assortment, how many unique <span style="color: MediumBlue;"><strong>GENOTYPES</strong></span> could be produced in a hybrid cross between the following individuals?</p>
 <table style="border-collapse: collapse; border: 1px solid black;"><tbody>
 <tr>
-<td style="padding-left: 10px; padding-right: 10px;">Female (&female;)</td>
-<td style="padding-left: 10px; padding-right: 10px;"><span style="font-family: monospace;">aa Bb CC Dd EE FF </span></td>
+<td style="padding-left: 10px; padding-right: 10px;">Male (♂)</td>
+<td style="padding-left: 10px; padding-right: 10px;"><span style="font-family: monospace;">Aa BB Cc DD ee FF </span></td>
 </tr>
 <tr>
-<td style="padding-left: 10px; padding-right: 10px;">Male (&male;)</td>
-<td style="padding-left: 10px; padding-right: 10px;"><span style="font-family: monospace;">aa Bb Cc DD EE ff </span></td>
+<td style="padding-left: 10px; padding-right: 10px;">Female (♀)</td>
+<td style="padding-left: 10px; padding-right: 10px;"><span style="font-family: monospace;">Aa bb cc Dd EE FF </span></td>
 </tr>
 </tbody></table>
 </div>
 <form>
-<ul id="choices_cce4_d71f">
+<ul id="choices_8f6e_22d6">
 <li>
-    <input type="radio" id="option0" name="answer_cce4_d71f" data-correct="false"><label for="option0">2<sup>2</sup>   = 4 (<i>i.e.</i> 2 genes with two forms)</label>
+    <input type="radio" id="option0" name="answer_8f6e_22d6" data-correct="true"><label for="option0">2<sup>2</sup> × 3   = 12 (<i>i.e.</i> 2 genes with two forms and 1 gene with three forms)</label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_cce4_d71f" data-correct="false"><label for="option1">2<sup>3</sup>   = 8 (<i>i.e.</i> 3 genes with two forms)</label>
+    <input type="radio" id="option1" name="answer_8f6e_22d6" data-correct="false"><label for="option1">2 × 3<sup>2</sup>   = 18 (<i>i.e.</i> 1 gene with two forms and 2 genes with three forms)</label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_cce4_d71f" data-correct="true"><label for="option2">2<sup>2</sup> × 3   = 12 (<i>i.e.</i> 2 genes with two forms and 1 gene with three forms)</label>
+    <input type="radio" id="option2" name="answer_8f6e_22d6" data-correct="false"><label for="option2">2<sup>2</sup> × 3<sup>3</sup>   = 108 (<i>i.e.</i> 2 genes with two forms and 3 genes with three forms)</label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_cce4_d71f" data-correct="false"><label for="option3">2 × 3<sup>3</sup>   = 54 (<i>i.e.</i> 1 gene with two forms and 3 genes with three forms)</label>
+    <input type="radio" id="option3" name="answer_8f6e_22d6" data-correct="false"><label for="option3">2<sup>4</sup> × 3<sup>2</sup>   = 144 (<i>i.e.</i> 4 genes with two forms and 2 genes with three forms)</label>
   </li>
   <li>
-    <input type="radio" id="option4" name="answer_cce4_d71f" data-correct="false"><label for="option4">2<sup>3</sup> × 3<sup>2</sup>   = 72 (<i>i.e.</i> 3 genes with two forms and 2 genes with three forms)</label>
+    <input type="radio" id="option4" name="answer_8f6e_22d6" data-correct="false"><label for="option4">2<sup>3</sup> × 3<sup>3</sup>   = 216 (<i>i.e.</i> 3 genes with two forms and 3 genes with three forms)</label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_cce4_d71f()">Check Answer</button>
-<div id="result_cce4_d71f" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_8f6e_22d6()">Check Answer</button>
+<div id="result_8f6e_22d6" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_cce4_d71f() {
- const options = document.getElementsByName('answer_cce4_d71f');
+function checkAnswer_8f6e_22d6() {
+ const options = document.getElementsByName('answer_8f6e_22d6');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_cce4_d71f');
+ const resultDiv = document.getElementById('result_8f6e_22d6');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'green';

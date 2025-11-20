@@ -2,6 +2,8 @@
 
 Allele frequencies, Hardy-Weinberg equilibrium, inbreeding, and population-level variation.
 
+**LibreTexts reference:** [Population Genetics](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/10:_Population_Genetics)
+
 ## Hardy-Weinberg Equilibrium Conditions
 
 <div id="TFMS-h-w_non-evolve_criteria-button-container" class="button-container">

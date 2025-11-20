@@ -2,6 +2,8 @@
 
 Restriction enzymes, recognition sequences, gel electrophoresis, and applications in DNA profiling.
 
+**LibreTexts reference:** [DNA Profiling and Techniques](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/03:_DNA_Profiling_and_Techniques)
+
 ## Palindromic Words in English
 
 <div id="TFMS-english_palindromes-button-container" class="button-container">
@@ -356,6 +358,9 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
 <div id="palindrome_sequence_match-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-palindrome_sequence_match-questions.txt" download title="Download bbq-palindrome_sequence_match-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-palindrome_sequence_match-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-palindrome_sequence_match.zip" download title="Download blackboard_qti_v2_1-palindrome_sequence_match.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-palindrome_sequence_match.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-palindrome_sequence_match.zip" download title="Download canvas_qti_v1_2-palindrome_sequence_match.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-palindrome_sequence_match.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2

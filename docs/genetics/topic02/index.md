@@ -2,6 +2,8 @@
 
 DNA composition, base pairing, nucleotide components, and double-helix complementarity.
 
+**LibreTexts reference:** [DNA Structure and Sequences](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/02:_DNA_Structure_and_Sequences)
+
 ## Statements about DNA Structure
 
 <div id="TFMS-dna_structure-biol_351-button-container" class="button-container">
