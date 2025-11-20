@@ -27,6 +27,7 @@ COLOR_GREEN = "\033[92m"
 COLOR_YELLOW = "\033[93m"
 COLOR_CYAN = "\033[96m"
 COLOR_RED = "\033[91m"
+COLOR_MAGENTA = "\033[95m"
 
 
 def color_text(text: str, color: str) -> str:
@@ -469,7 +470,7 @@ def main():
 	for idx, (topic_folder, bbq_files) in enumerate(topic_jobs, start=1):
 		print("\n\n\n################################")
 		progress = f"[{idx}/{total_jobs}]"
-		print(color_text(f"{progress} Current folder: {topic_folder}", COLOR_CYAN))
+		print(color_text(f"{progress} Current folder: {topic_folder}", COLOR_MAGENTA))
 		print(color_text(f"{progress} Found {len(bbq_files)} bbq files in topic folder: {topic_folder}", COLOR_CYAN))
 
 		# Update the index.md file for the topic
