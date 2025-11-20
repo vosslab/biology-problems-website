@@ -2,6 +2,8 @@
 
 Amino acid structure, types, and roles in protein structure.
 
+**LibreTexts reference:** [Amino Acids and Peptides](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/03:_Amino_Acids_and_Peptides)
+
 ## Determining Dipeptide Sequence from Structure
 
 <div id="2_amino_acids-polypeptide_mc_sequence-button-container" class="button-container">

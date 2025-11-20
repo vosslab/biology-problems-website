@@ -2,6 +2,8 @@
 
 Reaction rates, enzyme efficiency, and inhibition mechanisms.
 
+**LibreTexts reference:** [Enzyme Kinetics](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/07:_Enzyme_Kinetics)
+
 ## Enzyme Inhibition and Activation in Metabolic Pathways
 
 <div id="BCHM355-metabolic_pathway_inhibitor-button-container" class="button-container">

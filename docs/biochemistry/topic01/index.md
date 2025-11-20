@@ -2,6 +2,8 @@
 
 Molecular design of life, major elements, and biomacromolecules.
 
+**LibreTexts reference:** [Molecules of Life](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01:_Molecules_of_Life)
+
 ## Types of Macromolecules
 
 <div id="MC-macromolecules-button-container" class="button-container">

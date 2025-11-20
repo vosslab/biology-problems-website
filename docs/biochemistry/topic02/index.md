@@ -2,6 +2,8 @@
 
 Properties of water, pH, pK<sub>a</sub>, and buffering systems.
 
+**LibreTexts reference:** [Chemistry of Water](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/02:_Chemistry_of_Water)
+
 ## Correct Form of the Henderson-Hasselbalch Equation
 
 <div id="Henderson-Hasselbalch-EQUATION-button-container" class="button-container">
