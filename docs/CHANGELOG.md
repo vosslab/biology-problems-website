@@ -11,6 +11,12 @@
 - Adjusted TUI labels to show script names, tightened the metrics layout, and reduced the top row height.
 - Moved the TUI "Press q to quit" prompt into the dashboard panel.
 - Removed the TUI header bar and added a dashboard title line.
+- Increased the TUI top row height to scale with terminal size while keeping a larger minimum height.
+- Added `-x/--max-questions` to append a global max-questions flag to all scripts.
+- Added a validation check that fails when a max-questions run produces too many lines.
+- Truncate `logs/bbq_generation.log` at the start of each run.
+- Added `-d/--duplicates` (default 99) and `--no-duplicates` to control global duplicate runs.
+- Fixed dry-run validation to count lines from the newly generated output in the working directory.
 - Added `--no-tui` to force plain mode.
 - Added `pip_requirements.txt` with `textual`.
 - Fixed `run_bbq_tasks.py` to guard TUI class definitions when Textual is unavailable.

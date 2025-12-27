@@ -143,11 +143,27 @@ def resolve_output_candidate(output_path: str, workdir: str = ".") -> str:
 	return ""
 
 
+def resolve_output_workdir(output_path: str, workdir: str = ".") -> str:
+	if not output_path:
+		return ""
+	base = os.path.basename(output_path)
+	if not base:
+		return ""
+	candidate = os.path.join(workdir, base)
+	if os.path.isfile(candidate):
+		return candidate
+	return ""
+
+
 def count_output_lines(output_path: str, workdir: str = ".") -> int:
 	candidate = resolve_output_candidate(output_path, workdir)
-	if not candidate:
+	return count_output_lines_path(candidate)
+
+
+def count_output_lines_path(path: str) -> int:
+	if not path:
 		return 0
-	with open(candidate, "r") as file_handle:
+	with open(path, "r") as file_handle:
 		return sum(1 for _ in file_handle)
 
 
@@ -158,16 +174,25 @@ def log_line(log_path: str, message: str):
 		fp.write(f"[{timestamp}] {message}\n")
 
 
+def reset_log(log_path: str):
+	ensure_parent_dir(log_path)
+	with open(log_path, "w") as fp:
+		fp.write("")
+
+
 def build_command(task: dict) -> list:
 	# Simplest form: a single command string
 	if "cmd" in task:
 		cmd_value = task.get("cmd")
 		if isinstance(cmd_value, str):
 			parts = shlex.split(cmd_value)
-		if isinstance(cmd_value, list):
+		elif isinstance(cmd_value, list):
 			parts = [str(x) for x in cmd_value]
 		else:
 			parts = []
+		extra_args = task.get("extra_args", [])
+		if extra_args:
+			parts.extend(str(a) for a in extra_args)
 		if parts and parts[0].endswith(".py"):
 			parts.insert(0, "python3")
 		return parts
@@ -180,6 +205,9 @@ def build_command(task: dict) -> list:
 	if script:
 		cmd.append(str(script))
 	cmd.extend(str(a) for a in args)
+	extra_args = task.get("extra_args", [])
+	if extra_args:
+		cmd.extend(str(a) for a in extra_args)
 	return cmd
 
 
@@ -209,6 +237,7 @@ def run_task_capture(task: dict, log_path: str, move_output: bool) -> tuple:
 	output_path = task.get("output", "")
 	workdir = "."
 	cmd = build_command(task)
+	max_questions = task.get("max_questions")
 
 	log_line(log_path, f"CMD   {' '.join(cmd)} (cwd={workdir})")
 	try:
@@ -239,17 +268,27 @@ def run_task_capture(task: dict, log_path: str, move_output: bool) -> tuple:
 				log_line(log_path, f"ERROR expected output not found: {output_path}")
 				return False, proc.stdout, proc.stderr, 0
 		else:
-			if not output_exists(output_path, workdir):
+			if not resolve_output_workdir(output_path, workdir):
 				log_line(log_path, f"ERROR expected output not found: {output_path}")
 				return False, proc.stdout, proc.stderr, 0
 
-	line_count = count_output_lines(output_path, workdir)
+	if move_output:
+		line_count = count_output_lines(output_path, workdir)
+	else:
+		line_count = count_output_lines_path(resolve_output_workdir(output_path, workdir))
+	if max_questions and line_count > max_questions:
+		msg = f"Output has {line_count} lines; expected <= {max_questions}."
+		log_line(log_path, msg)
+		if proc.stderr:
+			return False, proc.stdout, proc.stderr + "\n" + msg, line_count
+		return False, proc.stdout, msg, line_count
 	return True, proc.stdout, proc.stderr, line_count
 
 
 def run_task(task: dict, log_path: str, index: int, total: int, move_output: bool = True):
 	output_path = task.get("output", "")
 	workdir = "."
+	max_questions = task.get("max_questions")
 
 	cmd = build_command(task)
 	label = task_label(task, index, output_path, cmd)
@@ -293,11 +332,21 @@ def run_task(task: dict, log_path: str, index: int, total: int, move_output: boo
 				log_line(log_path, f"ERROR: expected output not found: {output_path}")
 				return False
 		else:
-			if not output_exists(output_path, workdir):
+			if not resolve_output_workdir(output_path, workdir):
 				print(color(f"FAILED: expected output not found: {output_path}", COLOR_RED))
 				log_line(log_path, f"ERROR: expected output not found: {output_path}")
 				return False
 			log_line(log_path, f"SKIP MOVE {label} -> {output_path}")
+		if max_questions:
+			if move_output:
+				line_count = count_output_lines(output_path, workdir)
+			else:
+				line_count = count_output_lines_path(resolve_output_workdir(output_path, workdir))
+			if line_count > max_questions:
+				msg = f"Output has {line_count} lines; expected <= {max_questions}."
+				print(color(f"FAILED {label}: {msg}", COLOR_RED))
+				log_line(log_path, msg)
+				return False
 
 	print(color(f"DONE  {label}", COLOR_GREEN))
 	log_line(log_path, f"EXIT {label} -> 0")
@@ -319,12 +368,12 @@ if TEXTUAL_AVAILABLE:
 
 		CSS = (
 			"#root { height: 1fr; }\n"
-			"#top_row { height: 8; }\n"
-			"#metrics_box { width: 30%; height: 8; border: solid gray; }\n"
+			"#top_row { height: 40%; min-height: 10; }\n"
+			"#metrics_box { width: 30%; height: 1fr; border: solid gray; }\n"
 			"#metrics_title { height: 1; }\n"
 			"#metrics { height: 1fr; }\n"
 			"#footer_note { height: 1; }\n"
-			"#messages { width: 70%; height: 8; border: solid gray; }\n"
+			"#messages { width: 70%; height: 1fr; border: solid gray; }\n"
 			"#task_table { height: 1fr; border: solid gray; }\n"
 		)
 
@@ -463,6 +512,28 @@ def main():
 		help="Disable the Textual TUI interface.",
 	)
 	parser.add_argument(
+		"-x",
+		"--max-questions",
+		dest="max_questions",
+		type=int,
+		default=None,
+		help="Append -x N to all scripts.",
+	)
+	parser.add_argument(
+		"-d",
+		"--duplicates",
+		dest="duplicates",
+		type=int,
+		default=99,
+		help="Append -d N to all scripts (default: 99).",
+	)
+	parser.add_argument(
+		"--no-duplicates",
+		dest="no_duplicates",
+		action="store_true",
+		help="Do not append -d to scripts.",
+	)
+	parser.add_argument(
 		"--limit",
 		type=int,
 		dest="limit",
@@ -502,11 +573,36 @@ def main():
 			print(color("Limit must be a positive integer.", COLOR_RED))
 			return 1
 		tasks = tasks[:args.limit]
+	if args.max_questions is not None:
+		if args.max_questions <= 0:
+			print(color("Max questions must be a positive integer.", COLOR_RED))
+			return 1
+		for task in tasks:
+			task_args = task.get("args", [])
+			if "-x" in task_args or "--max-questions" in task_args:
+				continue
+			task.setdefault("extra_args", [])
+			task["extra_args"].extend(["-x", str(args.max_questions)])
+			task["max_questions"] = args.max_questions
+	if args.max_questions is not None:
+		for task in tasks:
+			task.setdefault("max_questions", args.max_questions)
+	if not args.no_duplicates:
+		if args.duplicates <= 0:
+			print(color("Duplicates must be a positive integer.", COLOR_RED))
+			return 1
+		for task in tasks:
+			task_args = task.get("args", [])
+			if "-d" in task_args or "--duplicates" in task_args:
+				continue
+			task.setdefault("extra_args", [])
+			task["extra_args"].extend(["-d", str(args.duplicates)])
 
 	total = len(tasks)
 	if total == 0:
 		print(color("No tasks found in config.", COLOR_YELLOW))
 		return 0
+	reset_log(args.log)
 
 	use_tui = TEXTUAL_AVAILABLE and not args.no_tui and sys.stdout.isatty()
 	if use_tui:
