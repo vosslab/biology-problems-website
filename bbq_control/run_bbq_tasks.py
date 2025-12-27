@@ -23,7 +23,7 @@ try:
 	# PIP3 modules
 	from textual.app import App, ComposeResult
 	from textual.containers import Horizontal, Vertical
-	from textual.widgets import DataTable, Footer, Header, RichLog, Static
+	from textual.widgets import DataTable, RichLog, Static
 	TEXTUAL_AVAILABLE = True
 except ImportError:
 	TEXTUAL_AVAILABLE = False
@@ -155,6 +155,16 @@ def resolve_output_workdir(output_path: str, workdir: str = ".") -> str:
 	return ""
 
 
+def resolve_output_workdir_recent(output_path: str, workdir: str, start_time: float) -> str:
+	candidate = resolve_output_workdir(output_path, workdir)
+	if not candidate:
+		return ""
+	mtime = os.path.getmtime(candidate)
+	if mtime >= (start_time - 2.0):
+		return candidate
+	return ""
+
+
 def count_output_lines(output_path: str, workdir: str = ".") -> int:
 	candidate = resolve_output_candidate(output_path, workdir)
 	return count_output_lines_path(candidate)
@@ -165,6 +175,17 @@ def count_output_lines_path(path: str) -> int:
 		return 0
 	with open(path, "r") as file_handle:
 		return sum(1 for _ in file_handle)
+
+
+def cleanup_dry_run_output(path: str, log_path: str):
+	if not path:
+		return
+	base = os.path.basename(path)
+	if not base.startswith("bbq") or not base.endswith(".txt"):
+		return
+	if os.path.isfile(path):
+		os.remove(path)
+		log_line(log_path, f"CLEANUP removed {path}")
 
 
 def log_line(log_path: str, message: str):
@@ -238,6 +259,7 @@ def run_task_capture(task: dict, log_path: str, move_output: bool) -> tuple:
 	workdir = "."
 	cmd = build_command(task)
 	max_questions = task.get("max_questions")
+	start_time = time.time()
 
 	log_line(log_path, f"CMD   {' '.join(cmd)} (cwd={workdir})")
 	try:
@@ -268,20 +290,23 @@ def run_task_capture(task: dict, log_path: str, move_output: bool) -> tuple:
 				log_line(log_path, f"ERROR expected output not found: {output_path}")
 				return False, proc.stdout, proc.stderr, 0
 		else:
-			if not resolve_output_workdir(output_path, workdir):
+			if not resolve_output_workdir_recent(output_path, workdir, start_time):
 				log_line(log_path, f"ERROR expected output not found: {output_path}")
 				return False, proc.stdout, proc.stderr, 0
 
 	if move_output:
 		line_count = count_output_lines(output_path, workdir)
 	else:
-		line_count = count_output_lines_path(resolve_output_workdir(output_path, workdir))
+		candidate = resolve_output_workdir_recent(output_path, workdir, start_time)
+		line_count = count_output_lines_path(candidate)
 	if max_questions and line_count > max_questions:
 		msg = f"Output has {line_count} lines; expected <= {max_questions}."
 		log_line(log_path, msg)
 		if proc.stderr:
 			return False, proc.stdout, proc.stderr + "\n" + msg, line_count
 		return False, proc.stdout, msg, line_count
+	if not move_output:
+		cleanup_dry_run_output(resolve_output_workdir(output_path, workdir), log_path)
 	return True, proc.stdout, proc.stderr, line_count
 
 
@@ -289,6 +314,7 @@ def run_task(task: dict, log_path: str, index: int, total: int, move_output: boo
 	output_path = task.get("output", "")
 	workdir = "."
 	max_questions = task.get("max_questions")
+	start_time = time.time()
 
 	cmd = build_command(task)
 	label = task_label(task, index, output_path, cmd)
@@ -332,7 +358,7 @@ def run_task(task: dict, log_path: str, index: int, total: int, move_output: boo
 				log_line(log_path, f"ERROR: expected output not found: {output_path}")
 				return False
 		else:
-			if not resolve_output_workdir(output_path, workdir):
+			if not resolve_output_workdir_recent(output_path, workdir, start_time):
 				print(color(f"FAILED: expected output not found: {output_path}", COLOR_RED))
 				log_line(log_path, f"ERROR: expected output not found: {output_path}")
 				return False
@@ -341,12 +367,15 @@ def run_task(task: dict, log_path: str, index: int, total: int, move_output: boo
 			if move_output:
 				line_count = count_output_lines(output_path, workdir)
 			else:
-				line_count = count_output_lines_path(resolve_output_workdir(output_path, workdir))
+				candidate = resolve_output_workdir_recent(output_path, workdir, start_time)
+				line_count = count_output_lines_path(candidate)
 			if line_count > max_questions:
 				msg = f"Output has {line_count} lines; expected <= {max_questions}."
 				print(color(f"FAILED {label}: {msg}", COLOR_RED))
 				log_line(log_path, msg)
 				return False
+		if not move_output:
+			cleanup_dry_run_output(resolve_output_workdir(output_path, workdir), log_path)
 
 	print(color(f"DONE  {label}", COLOR_GREEN))
 	log_line(log_path, f"EXIT {label} -> 0")

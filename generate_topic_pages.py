@@ -5,7 +5,6 @@ import os
 import re
 import glob
 import time
-import random
 import subprocess
 
 # PIP3 modules
@@ -16,7 +15,7 @@ import llm_generate_problem_set_title
 
 #==============
 
-BASE_DIR: str = "./docs"
+BASE_DIR: str = ""
 MKDOCS_CONFIG: str = "mkdocs.yml"
 TOPICS_METADATA_FILE: str = "topics_metadata.yml"
 TOPIC_METADATA = {}
@@ -33,6 +32,18 @@ COLOR_MAGENTA = "\033[95m"
 def color_text(text: str, color: str) -> str:
 	"""Return colored text for CLI readability."""
 	return f"{color}{text}{COLOR_RESET}"
+
+#==============
+
+def get_docs_dir() -> str:
+	if not os.path.isfile(MKDOCS_CONFIG):
+		raise FileNotFoundError(f"Config file '{MKDOCS_CONFIG}' not found.")
+	with open(MKDOCS_CONFIG, "r") as file_pointer:
+		config = yaml.safe_load(file_pointer) or {}
+	docs_dir = config.get("docs_dir")
+	if not docs_dir:
+		docs_dir = "docs"
+	return docs_dir
 
 #==============
 
@@ -146,16 +157,21 @@ def create_downloadable_format(bbq_file: str, prefix: str, extension: str):
 		print(color_text("cannot find bbq_converter.py", COLOR_YELLOW))
 		print("ln -sv ~/nsh/qti_package_maker/tools/bbq_converter.py .")
 		raise FileNotFoundError
-	convert_cmd = "python3 bbq_converter.py "
-	convert_cmd += "--quiet "
-	convert_cmd += f"--{prefix} "
-	convert_cmd += f"--input {bbq_file} "
-	convert_cmd += f"--output {file_path}"
-	print(color_text(convert_cmd, COLOR_CYAN))
-	proc = subprocess.Popen(convert_cmd, shell=True)
-	proc.communicate()
+	convert_cmd = [
+		"python3",
+		"bbq_converter.py",
+		"--quiet",
+		f"--{prefix}",
+		"--input",
+		bbq_file,
+		"--output",
+		file_path,
+	]
+	cmd_display = " ".join(convert_cmd)
+	print(color_text(cmd_display, COLOR_CYAN))
+	subprocess.run(convert_cmd, check=False)
 	if not os.path.isfile(file_path):
-		print("\n" + convert_cmd + "\n")
+		print("\n" + cmd_display + "\n")
 		print(color_text(f"WARNING: {prefix}, {extension}, {bbq_file}", COLOR_YELLOW))
 		if not prefix.startswith("human"):
 			#raise FileNotFoundError(file_path)
@@ -450,6 +466,8 @@ def main():
 	Raises:
 		FileNotFoundError: If the base directory does not exist.
 	"""
+	global BASE_DIR
+	BASE_DIR = get_docs_dir()
 	if not os.path.exists(BASE_DIR):
 		raise FileNotFoundError(f"Base directory '{BASE_DIR}' not found.")
 

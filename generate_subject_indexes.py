@@ -8,22 +8,36 @@ import sys
 # Third Party
 import yaml
 
-BASE_DIR = "./docs"
 MKDOCS_CONFIG = "mkdocs.yml"
 TOPICS_METADATA_FILE = "topics_metadata.yml"
 
-SUBJECT_METADATA = {
-	"biochemistry": {
-		"title": "List of Biochemistry Topics",
-		"intro": "Explore the foundational concepts and techniques in Biochemistry. Click on a topic to dive deeper.",
-		"index_path": os.path.join(BASE_DIR, "biochemistry", "index.md"),
-	},
-	"genetics": {
-		"title": "List of Genetics Topics",
-		"intro": "Explore the main topics in genetics. Click on a topic to dive deeper.",
-		"index_path": os.path.join(BASE_DIR, "genetics", "index.md"),
-	},
-}
+#============================================
+def get_docs_dir() -> str:
+	if not os.path.isfile(MKDOCS_CONFIG):
+		raise FileNotFoundError(f"Could not find {MKDOCS_CONFIG}")
+	with open(MKDOCS_CONFIG, "r") as file_pointer:
+		config = yaml.safe_load(file_pointer) or {}
+	docs_dir = config.get("docs_dir")
+	if not docs_dir:
+		docs_dir = "docs"
+	return docs_dir
+
+
+#============================================
+def build_subject_metadata(base_dir: str) -> dict:
+	return {
+		"biochemistry": {
+			"title": "List of Biochemistry Topics",
+			"intro": "Explore the foundational concepts and techniques in Biochemistry. "
+			"Click on a topic to dive deeper.",
+			"index_path": os.path.join(base_dir, "biochemistry", "index.md"),
+		},
+		"genetics": {
+			"title": "List of Genetics Topics",
+			"intro": "Explore the main topics in genetics. Click on a topic to dive deeper.",
+			"index_path": os.path.join(base_dir, "genetics", "index.md"),
+		},
+	}
 
 
 def load_yaml_file(path: str) -> dict:
@@ -37,8 +51,6 @@ def load_yaml_file(path: str) -> dict:
 
 
 def load_mkdocs_config() -> list:
-	if not os.path.isfile(MKDOCS_CONFIG):
-		raise FileNotFoundError(f"Could not find {MKDOCS_CONFIG}")
 	with open(MKDOCS_CONFIG, "r") as file_pointer:
 		config = yaml.safe_load(file_pointer) or {}
 	return config.get("nav", [])
@@ -105,8 +117,9 @@ def write_subject_index(
 	subject_key: str,
 	metadata_map: dict,
 	nav_topics: list,
+	subject_metadata: dict,
 ):
-	meta = SUBJECT_METADATA[subject_key]
+	meta = subject_metadata[subject_key]
 	lines = []
 	lines.append(f"# {meta['title']}")
 	lines.append("")
@@ -139,10 +152,12 @@ def write_subject_index(
 
 
 def main():
+	base_dir = get_docs_dir()
 	nav_config = load_mkdocs_config()
 	topic_metadata = load_yaml_file(TOPICS_METADATA_FILE)
+	subject_metadata = build_subject_metadata(base_dir)
 
-	for subject_key in SUBJECT_METADATA.keys():
+	for subject_key in subject_metadata.keys():
 		entries = find_subject_entries(nav_config, subject_key)
 		if entries is None:
 			raise ValueError(f"Could not find nav section for subject {subject_key}")
@@ -150,9 +165,8 @@ def main():
 		if not topics:
 			print(f"Warning: no topics found for {subject_key}")
 			continue
-		write_subject_index(subject_key, topic_metadata, topics)
+		write_subject_index(subject_key, topic_metadata, topics, subject_metadata)
 
 
 if __name__ == "__main__":
 	sys.exit(main())
-import re
