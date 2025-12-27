@@ -1,4 +1,5 @@
 site_name: Biology Problems OER
+docs_dir: site_docs
 theme:
   name: material
   palette:
@@ -105,4 +106,3 @@ nav:
   - "<i class='fa fa-chalkboard'></i> Canvas QTI .zip Import Guide": tutorials/canvas_tutorial.md
 - "<i class='fa fa-user-tie'></i> Author": author.md
 - "<i class='fa fa-file-contract'></i> License": license.md
-
