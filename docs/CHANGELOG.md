@@ -17,6 +17,11 @@
 - Truncate `logs/bbq_generation.log` at the start of each run.
 - Added `-d/--duplicates` (default 99) and `--no-duplicates` to control global duplicate runs.
 - Fixed dry-run validation to count lines from the newly generated output in the working directory.
+- Clean up dry-run generated `bbq*.txt` outputs to avoid accumulation.
+- Read the MkDocs `docs_dir` from `mkdocs.yml` when generating subject indexes and topic pages.
+- Routed LLM title generation through `llm_wrapper.py` with quiet model calls.
+- Removed shell-based subprocess usage from topic page generation.
+- Removed unused imports flagged by pyflakes.
 - Added `--no-tui` to force plain mode.
 - Added `pip_requirements.txt` with `textual`.
 - Fixed `run_bbq_tasks.py` to guard TUI class definitions when Textual is unavailable.
