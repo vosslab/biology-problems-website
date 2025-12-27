@@ -114,7 +114,7 @@ def generate_title_prompt(file_path: str, problem_statements: list, save_prompt:
 	)
 
 	# get topics using this command
-	# egrep '^bbq' docs/*/topic*/problem_set_titles.yml | cut -d':' -f3- | gsed 's/^\s*/\"### /' | gsed 's/\s*$/\\n\",/' | sort
+	# egrep '^bbq' site_docs/*/topic*/problem_set_titles.yml | cut -d':' -f3- | gsed 's/^\s*/\"### /' | gsed 's/\s*$/\\n\",/' | sort
 	prompt += (
 		# Provide a list of sample titles to guide the model
 		"<list of unrelated sample titles>\n"
