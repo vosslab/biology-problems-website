@@ -15,7 +15,7 @@ Visit the live website here: **[https://biologyproblems.org](https://biologyprob
 This repository is structured to support the MkDocs framework with the Material theme. Here's an overview of the directory layout:
 
 ```
-docs/
+site_docs/
 ├── index.md                   # Main landing page
 ├── biochemistry/              # Biochemistry topics
 │   ├── topic01/               # Topic 1
