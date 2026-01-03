@@ -1,7 +1,10 @@
 .DS_Store
+pyflakes.txt
+bbq_converter.py
+bbq_control/biology-problems
+logs/
 
 # Byte-compiled / optimized / DLL files
-__pycache__/
 *.py[cod]
 
 site/
