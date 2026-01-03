@@ -13,6 +13,16 @@ import shlex
 import shutil
 import subprocess
 
+import yaml
+
+#============================================
+# Known scripts where input lives in the same directory.
+INPUT_SCRIPT_BASENAMES = {
+	"yaml_make_which_one_multiple_choice.py",
+	"yaml_multiple_choice_statements.py",
+	"yaml_make_match_sets.py",
+}
+
 
 #============================================
 def parse_args():
@@ -47,6 +57,12 @@ def parse_args():
 		dest="log_path",
 		default="logs/bbq_sync.log",
 		help="Path to append run logs.",
+	)
+	config_group.add_argument(
+		"--bbq-config",
+		dest="bbq_config",
+		default="bbq_control/bbq_config.yml",
+		help="Path to BBQ config YAML.",
 	)
 
 	run_group = parser.add_argument_group("run")
@@ -118,6 +134,164 @@ def expand_path(path_value: str) -> str:
 
 
 #============================================
+def load_bbq_config(config_path: str) -> dict:
+	"""
+	Load BBQ YAML config for path aliases and script aliases.
+
+	Args:
+		config_path (str): Path to config YAML.
+
+	Returns:
+		dict: Config dictionary (empty if missing or invalid).
+	"""
+	if not config_path:
+		return {}
+	if not os.path.isfile(config_path):
+		return {}
+	with open(config_path, "r") as config_handle:
+		config_data = yaml.safe_load(config_handle)
+	if not isinstance(config_data, dict):
+		return {}
+	return config_data
+
+
+#============================================
+def apply_aliases(text: str, aliases: dict) -> str:
+	"""
+	Apply {alias} replacements to a string.
+
+	Args:
+		text (str): Input string.
+		aliases (dict): Alias mapping.
+
+	Returns:
+		str: Expanded string.
+	"""
+	if not text:
+		return ""
+	result = text
+	for key, value in aliases.items():
+		if not isinstance(value, str):
+			continue
+		result = result.replace(f"{{{key}}}", value)
+	return result
+
+
+#============================================
+def resolve_alias_map(raw_aliases: dict) -> dict:
+	"""
+	Resolve nested aliases and expand user paths.
+
+	Args:
+		raw_aliases (dict): Alias mapping.
+
+	Returns:
+		dict: Resolved aliases.
+	"""
+	if not isinstance(raw_aliases, dict):
+		return {}
+	resolved = dict(raw_aliases)
+	for _ in range(3):
+		for key, value in resolved.items():
+			if not isinstance(value, str):
+				continue
+			resolved[key] = apply_aliases(value, resolved)
+	for key, value in resolved.items():
+		if isinstance(value, str):
+			resolved[key] = os.path.expanduser(value)
+	return resolved
+
+
+#============================================
+def resolve_script_alias(script_value: str, script_aliases: dict) -> str:
+	"""
+	Resolve a script alias to a path.
+
+	Args:
+		script_value (str): Script alias or path.
+		script_aliases (dict): Script alias mapping.
+
+	Returns:
+		str: Resolved script path or alias.
+	"""
+	if not script_value:
+		return ""
+	if script_value.startswith("@"):
+		alias_key = script_value[1:]
+		return script_aliases.get(alias_key, script_value)
+	if script_value in script_aliases:
+		return script_aliases[script_value]
+	return script_value
+
+
+#============================================
+def expand_text(text: str, aliases: dict) -> str:
+	"""
+	Expand aliases and user paths in text.
+
+	Args:
+		text (str): Input text.
+		aliases (dict): Alias mapping.
+
+	Returns:
+		str: Expanded text.
+	"""
+	if not text:
+		return ""
+	expanded = apply_aliases(text, aliases)
+	return os.path.expanduser(expanded)
+
+
+#============================================
+def normalize_path(path_value: str, repo_root: str, base_root: str, aliases: dict) -> str:
+	"""
+	Normalize a path with alias expansion and base roots.
+
+	Args:
+		path_value (str): Input path.
+		repo_root (str): Repository root for relative paths.
+		base_root (str): Base root for external scripts.
+		aliases (dict): Alias mapping.
+
+	Returns:
+		str: Absolute path.
+	"""
+	if not path_value:
+		return ""
+	path_value = expand_text(path_value, aliases)
+	if not os.path.isabs(path_value):
+		root = base_root if base_root else repo_root
+		path_value = os.path.join(root, path_value)
+	return os.path.abspath(path_value)
+
+
+#============================================
+def add_input_args(args: list, input_flag: str, input_path: str) -> list:
+	"""
+	Append input arguments if provided.
+
+	Args:
+		args (list): Existing arguments.
+		input_flag (str): Input flag (example: -y).
+		input_path (str): Input path.
+
+	Returns:
+		list: Updated arguments.
+	"""
+	if not input_path:
+		return args
+	updated = list(args)
+	if input_flag:
+		if input_flag not in updated:
+			updated.extend([input_flag, input_path])
+		elif input_path not in updated:
+			updated.append(input_path)
+	elif input_path not in updated:
+		updated.append(input_path)
+	return updated
+
+
+#============================================
 def ensure_parent_dir(path_value: str):
 	"""
 	Ensure the parent directory exists.
@@ -148,12 +322,13 @@ def log_line(log_path: str, message: str):
 
 
 #============================================
-def load_tasks(config_path: str) -> list:
+def load_tasks(config_path: str, bbq_config: dict) -> list:
 	"""
 	Load tasks from CSV config.
 
 	Args:
 		config_path (str): Path to CSV config.
+		bbq_config (dict): BBQ config with aliases.
 
 	Returns:
 		list: List of task dictionaries.
@@ -161,12 +336,32 @@ def load_tasks(config_path: str) -> list:
 	if not os.path.isfile(config_path):
 		raise FileNotFoundError(f"Config file not found: {config_path}")
 
+	repo_root = os.getcwd()
+	paths_config = bbq_config.get("paths", {}) if isinstance(bbq_config, dict) else {}
+	path_aliases = resolve_alias_map(paths_config)
+	path_aliases["repo_root"] = repo_root
+	script_aliases_raw = bbq_config.get("script_aliases", {}) if isinstance(bbq_config, dict) else {}
+	script_aliases = {}
+	if isinstance(script_aliases_raw, dict):
+		for alias_key, alias_value in script_aliases_raw.items():
+			if not isinstance(alias_value, str):
+				continue
+			script_aliases[alias_key] = expand_text(alias_value, path_aliases)
+	defaults = bbq_config.get("defaults", {}) if isinstance(bbq_config, dict) else {}
+	default_input_flag = ""
+	if isinstance(defaults, dict):
+		default_input_flag = (defaults.get("input_flag") or "").strip()
+	if not default_input_flag:
+		default_input_flag = "-y"
+	base_root = (path_aliases.get("bp_root") or "").strip()
+
 	tasks = []
 	with open(config_path, newline="") as csv_handle:
 		reader = csv.DictReader(csv_handle)
 		for row in reader:
 			script_raw = (row.get("script") or "").strip()
 			flags_raw = (row.get("flags") or "").strip()
+			input_raw = (row.get("input") or "").strip()
 			output_raw = (row.get("output") or "").strip()
 			chapter_raw = (row.get("chapter") or "").strip()
 			topic_raw = (row.get("topic") or "").strip()
@@ -176,7 +371,8 @@ def load_tasks(config_path: str) -> list:
 			if not script_raw:
 				continue
 
-			script_path = expand_path(script_raw)
+			script_raw = resolve_script_alias(script_raw, script_aliases)
+			script_path = normalize_path(script_raw, repo_root, base_root, path_aliases)
 			if not output_raw and output_file_raw:
 				output_parts = ["site_docs"]
 				if chapter_raw:
@@ -185,9 +381,19 @@ def load_tasks(config_path: str) -> list:
 					output_parts.append(topic_raw)
 				output_parts.append(output_file_raw)
 				output_raw = os.path.join(*output_parts)
-			output_path = expand_path(output_raw)
+			output_path = normalize_path(output_raw, repo_root, "", path_aliases)
 			program_value = program_raw if program_raw else "python3"
+			flags_raw = expand_text(flags_raw, path_aliases)
 			args_list = shlex.split(flags_raw) if flags_raw else []
+			if input_raw:
+				input_flag = default_input_flag
+				if os.path.basename(input_raw) == input_raw:
+					script_basename = os.path.basename(script_path)
+					if script_basename in INPUT_SCRIPT_BASENAMES:
+						input_raw = os.path.join(os.path.dirname(script_path), input_raw)
+				input_path = normalize_path(input_raw, repo_root, base_root, path_aliases)
+				args_list = add_input_args(args_list, input_flag, input_path)
+			flags_raw = shlex.join(args_list) if args_list else ""
 
 			workdir_path = os.getcwd()
 
@@ -624,7 +830,10 @@ def format_skip_message(label_value: str, reasons: list) -> str:
 #============================================
 def main():
 	args = parse_args()
-	tasks = load_tasks(args.config_path)
+	bbq_config = load_bbq_config(args.bbq_config)
+	if args.bbq_config and not os.path.isfile(args.bbq_config):
+		print(f"Config not found: {args.bbq_config}")
+	tasks = load_tasks(args.config_path, bbq_config)
 	if not tasks:
 		print("No tasks found in config.")
 		return

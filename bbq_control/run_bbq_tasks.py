@@ -4,7 +4,7 @@
 Batch runner for BBQ-related scripts (CSV only).
 
 Config format (CSV):
-chapter,topic,output_file,script,flags
+chapter,topic,output_file,script,flags,input,notes
 genetics,topic05,bbq-unique_gametes.txt,unique_gametes.py,"-n 5"
 """
 
@@ -18,6 +18,8 @@ import shutil
 import subprocess
 import sys
 import time
+
+import yaml
 
 try:
 	# PIP3 modules
@@ -34,6 +36,11 @@ COLOR_GREEN = "\033[92m"
 COLOR_YELLOW = "\033[93m"
 COLOR_CYAN = "\033[96m"
 COLOR_RED = "\033[91m"
+INPUT_SCRIPT_BASENAMES = {
+	"yaml_make_which_one_multiple_choice.py",
+	"yaml_multiple_choice_statements.py",
+	"yaml_make_match_sets.py",
+}
 
 
 def color(text: str, code: str) -> str:
@@ -44,22 +51,110 @@ def get_repo_root() -> str:
 	return os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
-def normalize_path(path_value: str, repo_root: str) -> str:
+def load_bbq_config(config_path: str) -> dict:
+	if not config_path:
+		return {}
+	if not os.path.isfile(config_path):
+		return {}
+	with open(config_path, "r") as config_handle:
+		config_data = yaml.safe_load(config_handle)
+	if not isinstance(config_data, dict):
+		return {}
+	return config_data
+
+
+def apply_aliases(text: str, aliases: dict) -> str:
+	if not text:
+		return ""
+	result = text
+	for key, value in aliases.items():
+		if not isinstance(value, str):
+			continue
+		result = result.replace(f"{{{key}}}", value)
+	return result
+
+
+def resolve_alias_map(raw_aliases: dict) -> dict:
+	if not isinstance(raw_aliases, dict):
+		return {}
+	resolved = dict(raw_aliases)
+	for _ in range(3):
+		for key, value in resolved.items():
+			if not isinstance(value, str):
+				continue
+			resolved[key] = apply_aliases(value, resolved)
+	for key, value in resolved.items():
+		if isinstance(value, str):
+			resolved[key] = os.path.expanduser(value)
+	return resolved
+
+
+def resolve_script_alias(script_value: str, script_aliases: dict) -> str:
+	if not script_value:
+		return ""
+	if script_value.startswith("@"):
+		alias_key = script_value[1:]
+		return script_aliases.get(alias_key, script_value)
+	if script_value in script_aliases:
+		return script_aliases[script_value]
+	return script_value
+
+
+def expand_text(text: str, aliases: dict) -> str:
+	if not text:
+		return ""
+	expanded = apply_aliases(text, aliases)
+	return os.path.expanduser(expanded)
+
+
+def normalize_path(path_value: str, repo_root: str, base_root: str, aliases: dict) -> str:
 	if not path_value:
 		return ""
-	path_value = os.path.expanduser(path_value)
+	path_value = expand_text(path_value, aliases)
 	if not os.path.isabs(path_value):
-		path_value = os.path.join(repo_root, path_value)
+		root = base_root if base_root else repo_root
+		path_value = os.path.join(root, path_value)
 	return os.path.abspath(path_value)
 
 
-def load_tasks(config_path: str) -> list:
-	return load_tasks_csv(config_path)
+def add_input_args(args: list, input_flag: str, input_path: str) -> list:
+	if not input_path:
+		return args
+	updated = list(args)
+	if input_flag:
+		if input_flag not in updated:
+			updated.extend([input_flag, input_path])
+		elif input_path not in updated:
+			updated.append(input_path)
+	elif input_path not in updated:
+		updated.append(input_path)
+	return updated
 
 
-def load_tasks_csv(config_path: str) -> list:
+def load_tasks(config_path: str, bbq_config: dict) -> list:
+	return load_tasks_csv(config_path, bbq_config)
+
+
+def load_tasks_csv(config_path: str, bbq_config: dict) -> list:
 	tasks = []
 	repo_root = get_repo_root()
+	paths_config = bbq_config.get("paths", {}) if isinstance(bbq_config, dict) else {}
+	path_aliases = resolve_alias_map(paths_config)
+	path_aliases["repo_root"] = repo_root
+	script_aliases_raw = bbq_config.get("script_aliases", {}) if isinstance(bbq_config, dict) else {}
+	script_aliases = {}
+	if isinstance(script_aliases_raw, dict):
+		for alias_key, alias_value in script_aliases_raw.items():
+			if not isinstance(alias_value, str):
+				continue
+			script_aliases[alias_key] = expand_text(alias_value, path_aliases)
+	defaults = bbq_config.get("defaults", {}) if isinstance(bbq_config, dict) else {}
+	default_input_flag = ""
+	if isinstance(defaults, dict):
+		default_input_flag = (defaults.get("input_flag") or "").strip()
+	if not default_input_flag:
+		default_input_flag = "-y"
+	base_root = (path_aliases.get("bp_root") or "").strip()
 	if not os.path.isfile(config_path):
 		raise FileNotFoundError(f"Config file not found: {config_path}")
 	with open(config_path, newline="") as fp:
@@ -68,13 +163,15 @@ def load_tasks_csv(config_path: str) -> list:
 			program = (row.get("program") or "python3").strip()
 			script = (row.get("script") or "").strip()
 			flags = (row.get("flags") or "").strip()
+			input_value = (row.get("input") or "").strip()
 			output = (row.get("output") or "").strip()
 			chapter = (row.get("chapter") or "").strip()
 			topic = (row.get("topic") or "").strip()
 			output_file = (row.get("output_file") or "").strip()
 			if not script and not flags:
 				continue
-			script = normalize_path(script, repo_root)
+			script = resolve_script_alias(script, script_aliases)
+			script = normalize_path(script, repo_root, base_root, path_aliases)
 			if not output and output_file:
 				output_parts = [repo_root, "site_docs"]
 				if chapter:
@@ -83,11 +180,21 @@ def load_tasks_csv(config_path: str) -> list:
 					output_parts.append(topic)
 				output_parts.append(output_file)
 				output = os.path.join(*output_parts)
-			output = normalize_path(output, repo_root)
+			output = normalize_path(output, repo_root, "", path_aliases)
+			flags = expand_text(flags, path_aliases)
+			args = shlex.split(flags) if flags else []
+			if input_value:
+				input_flag = default_input_flag
+				if os.path.basename(input_value) == input_value:
+					script_basename = os.path.basename(script)
+					if script_basename in INPUT_SCRIPT_BASENAMES:
+						input_value = os.path.join(os.path.dirname(script), input_value)
+				input_path = normalize_path(input_value, repo_root, base_root, path_aliases)
+				args = add_input_args(args, input_flag, input_path)
 			task = {
 				"program": program or "python3",
 				"script": script,
-				"args": shlex.split(flags) if flags else [],
+				"args": args,
 				"output": output,
 			}
 			tasks.append(task)
@@ -517,6 +624,12 @@ def main():
 		help="Path to tasks YAML or CSV (default: bbq_tasks.csv)",
 	)
 	parser.add_argument(
+		"--bbq-config",
+		dest="bbq_config",
+		default="bbq_control/bbq_config.yml",
+		help="Path to BBQ config YAML (default: bbq_control/bbq_config.yml).",
+	)
+	parser.add_argument(
 		"-l",
 		"--log",
 		default="logs/bbq_generation.log",
@@ -591,7 +704,10 @@ def main():
 	)
 	args = parser.parse_args()
 
-	tasks = load_tasks(args.config)
+	bbq_config = load_bbq_config(args.bbq_config)
+	if args.bbq_config and not os.path.isfile(args.bbq_config):
+		print(color(f"Config not found: {args.bbq_config}", COLOR_YELLOW))
+	tasks = load_tasks(args.config, bbq_config)
 	if args.sort:
 		tasks.sort(key=lambda item: item.get("output", ""))
 	if args.shuffle:

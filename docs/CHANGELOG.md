@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-01-03
+- Added `bbq_control/bbq_config.yml` for path aliases, script aliases, and input defaults.
+- Added an `input` column to `bbq_control/bbq_tasks.csv` and `bbq_control/sub_bbq_tasks.csv`.
+- Updated BBQ task runners to expand aliases and attach input files from the new columns.
+- Added `bbq_control/usage.txt` with BBQ task runner usage notes.
+- Switched the main path alias to `{bp_root}` for shorter CSV entries.
+- Allowed basename-only `input` values for YMWOMC/YMCS/YMMS tasks.
+- Removed the `input_flag` column (inputs always use `-y`).
+
 ## 2025-12-27
 - Added `bbq_sync_tasks.py` to sync BBQ outputs from biology-problems scripts with a task state CSV.
 - Moved MkDocs content from `docs/` to `site_docs/` and set `docs_dir` in `mkdocs.yml`.
