@@ -1,0 +1,10 @@
+# BBQ task configuration for path aliases and script aliases.
+paths:
+  bp_root: "~/nsh/biology-problems"
+  matching_sets: "{bp_root}/matching_sets"
+  multiple_choice_statements: "{bp_root}/multiple_choice_statements"
+
+script_aliases:
+  YMWOMC: "{matching_sets}/yaml_make_which_one_multiple_choice.py"
+  YMCS: "{multiple_choice_statements}/yaml_multiple_choice_statements.py"
+  YMMS: "{matching_sets}/yaml_make_match_sets.py"
