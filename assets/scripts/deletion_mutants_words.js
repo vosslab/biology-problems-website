@@ -1,89 +1,160 @@
 "use strict";
 
 (function () {
-	var WORD_SOURCE_PATH = "/daily_puzzles/deletetions_source/real_wordles.txt";
+	// Auto-generated word bank: 5-letter English words with all unique letters.
+	// This is embedded to avoid a runtime fetch and keep the puzzle self-contained.
+	//
+	// BEGIN GENERATED WORD BANK V1
+	var EMBEDDED_WORD_BANK_V1 = {
+		5: [
+		'ABHOR', 'ABIDE', 'ABLED', 'ABODE', 'ABORT', 'ABOUT', 'ABOVE', 'ABUSE', 'ACORN', 'ACRID', 'ACTOR', 'ACUTE',
+		'ADEPT', 'ADMIN', 'ADMIT', 'ADOBE', 'ADOPT', 'ADORE', 'ADORN', 'ADULT', 'AFIRE', 'AFOUL', 'AFTER', 'AGENT',
+		'AGILE', 'AGLOW', 'AGONY', 'AIDER', 'AISLE', 'ALBUM', 'ALERT', 'ALIEN', 'ALIGN', 'ALIKE', 'ALIVE', 'ALOFT',
+		'ALONE', 'ALONG', 'ALOUD', 'ALTER', 'AMBER', 'AMBLE', 'AMEND', 'AMITY', 'AMONG', 'AMPLE', 'AMPLY', 'AMUSE',
+		'ANGEL', 'ANGER', 'ANGLE', 'ANGRY', 'ANGST', 'ANIME', 'ANKLE', 'ANODE', 'ANTIC', 'ANVIL', 'APHID', 'APING',
+		'APRON', 'APTLY', 'ARGUE', 'ARISE', 'AROSE', 'ARSON', 'ARTSY', 'ASCOT', 'ASHEN', 'ASIDE', 'ASKEW', 'ATONE',
+		'AUDIO', 'AUDIT', 'AUNTY', 'AVERT', 'AVOID', 'AWFUL', 'AWOKE', 'AXIOM', 'AXION', 'AZURE', 'BACON', 'BADGE',
+		'BADLY', 'BAGEL', 'BAKER', 'BALER', 'BALMY', 'BANJO', 'BARGE', 'BARON', 'BASIC', 'BASIL', 'BASIN', 'BASTE',
+		'BATCH', 'BATHE', 'BATON', 'BAWDY', 'BAYOU', 'BEACH', 'BEADY', 'BEARD', 'BEAST', 'BEFIT', 'BEGAN', 'BEGAT',
+		'BEGIN', 'BEGUN', 'BEING', 'BELCH', 'BELOW', 'BENCH', 'BERTH', 'BICEP', 'BIGOT', 'BILGE', 'BINGE', 'BINGO',
+		'BIOME', 'BIRCH', 'BIRTH', 'BISON', 'BLACK', 'BLADE', 'BLAME', 'BLAND', 'BLANK', 'BLARE', 'BLAST', 'BLAZE',
+		'BLEAK', 'BLEAT', 'BLEND', 'BLIMP', 'BLIND', 'BLINK', 'BLITZ', 'BLOAT', 'BLOCK', 'BLOKE', 'BLOND', 'BLOWN',
+		'BLUER', 'BLUNT', 'BLURT', 'BLUSH', 'BOARD', 'BOAST', 'BONEY', 'BONUS', 'BORAX', 'BORNE', 'BOTCH', 'BOUGH',
+		'BOULE', 'BOUND', 'BOWEL', 'BOXER', 'BRACE', 'BRAID', 'BRAIN', 'BRAKE', 'BRAND', 'BRASH', 'BRAVE', 'BRAVO',
+		'BRAWL', 'BRAWN', 'BREAD', 'BREAK', 'BRICK', 'BRIDE', 'BRIEF', 'BRINE', 'BRING', 'BRINK', 'BRINY', 'BRISK',
+		'BROAD', 'BROIL', 'BROKE', 'BROTH', 'BROWN', 'BRUNT', 'BRUSH', 'BRUTE', 'BUDGE', 'BUGLE', 'BUILD', 'BUILT',
+		'BULGE', 'BULKY', 'BUNCH', 'BURLY', 'BURNT', 'BURST', 'BUSED', 'BUSHY', 'BUTCH', 'BUXOM', 'BUYER', 'BYLAW',
+		'CABIN', 'CABLE', 'CADET', 'CAGEY', 'CAIRN', 'CAMEL', 'CAMEO', 'CANDY', 'CANOE', 'CAPER', 'CAPUT', 'CARGO',
+		'CAROL', 'CARVE', 'CASTE', 'CATER', 'CAULK', 'CAUSE', 'CAVIL', 'CEDAR', 'CHAFE', 'CHAIN', 'CHAIR', 'CHALK',
+		'CHAMP', 'CHANT', 'CHAOS', 'CHARD', 'CHARM', 'CHART', 'CHASE', 'CHASM', 'CHEAP', 'CHEAT', 'CHEST', 'CHIDE',
+		'CHIEF', 'CHILD', 'CHIME', 'CHINA', 'CHIRP', 'CHOIR', 'CHOKE', 'CHORD', 'CHORE', 'CHOSE', 'CHUMP', 'CHUNK',
+		'CHURN', 'CHUTE', 'CIDER', 'CIGAR', 'CLAIM', 'CLAMP', 'CLANG', 'CLANK', 'CLASH', 'CLASP', 'CLEAN', 'CLEAR',
+		'CLEAT', 'CLEFT', 'CLERK', 'CLIMB', 'CLING', 'CLINK', 'CLOAK', 'CLONE', 'CLOSE', 'CLOTH', 'CLOUD', 'CLOUT',
+		'CLOVE', 'CLOWN', 'CLUED', 'CLUMP', 'CLUNG', 'COAST', 'COBRA', 'COMET', 'COMFY', 'COPSE', 'CORAL', 'CORNY',
+		'COUGH', 'COULD', 'COUNT', 'COUPE', 'COURT', 'COVEN', 'COVER', 'COVET', 'COVEY', 'COWER', 'CRAFT', 'CRAMP',
+		'CRANE', 'CRANK', 'CRASH', 'CRATE', 'CRAVE', 'CRAWL', 'CRAZE', 'CRAZY', 'CREAK', 'CREAM', 'CREDO', 'CREPT',
+		'CREST', 'CRIED', 'CRIME', 'CRIMP', 'CRISP', 'CROAK', 'CRONE', 'CRONY', 'CROUP', 'CROWD', 'CROWN', 'CRUDE',
+		'CRUEL', 'CRUMB', 'CRUMP', 'CRUSH', 'CRUST', 'CRYPT', 'CUMIN', 'CURIO', 'CURLY', 'CURSE', 'CURVE', 'CURVY',
+		'CUTIE', 'CYBER', 'DAILY', 'DAIRY', 'DAISY', 'DANCE', 'DATUM', 'DAUNT', 'DEALT', 'DEATH', 'DEBAR', 'DEBIT',
+		'DEBUG', 'DEBUT', 'DECAL', 'DECAY', 'DECOR', 'DECOY', 'DECRY', 'DEIGN', 'DEITY', 'DELAY', 'DELTA', 'DEMON',
+		'DEMUR', 'DENIM', 'DEPOT', 'DEPTH', 'DERBY', 'DETOX', 'DEVIL', 'DIARY', 'DICEY', 'DIMLY', 'DINER', 'DINGO',
+		'DINGY', 'DIRGE', 'DIRTY', 'DISCO', 'DITCH', 'DIVER', 'DOGMA', 'DOING', 'DONUT', 'DOPEY', 'DOUBT', 'DOUGH',
+		'DOWEL', 'DOWNY', 'DOWRY', 'DOZEN', 'DRAFT', 'DRAIN', 'DRAKE', 'DRANK', 'DRAPE', 'DRAWL', 'DRAWN', 'DREAM',
+		'DRIFT', 'DRINK', 'DRIVE', 'DROIT', 'DRONE', 'DROVE', 'DROWN', 'DRUNK', 'DUCHY', 'DUMPY', 'DUNCE', 'DUSKY',
+		'DUSTY', 'DUTCH', 'DUVET', 'DWARF', 'DWELT', 'DYING', 'EARLY', 'EARTH', 'EBONY', 'ECLAT', 'EDICT', 'EDIFY',
+		'EIGHT', 'EKING', 'ELBOW', 'ELFIN', 'EMAIL', 'EMPTY', 'ENACT', 'ENDOW', 'ENJOY', 'ENTRY', 'ENVOY', 'EPOCH',
+		'EPOXY', 'EQUAL', 'EQUIP', 'ERUPT', 'ETHIC', 'ETHOS', 'EVICT', 'EXACT', 'EXALT', 'EXIST', 'EXTOL', 'EXTRA',
+		'EXULT', 'EYING', 'FABLE', 'FACET', 'FAINT', 'FAIRY', 'FAITH', 'FALSE', 'FANCY', 'FARCE', 'FAULT', 'FAVOR',
+		'FEAST', 'FECAL', 'FEIGN', 'FELON', 'FEMUR', 'FERAL', 'FETAL', 'FETCH', 'FETID', 'FETUS', 'FIBER', 'FIBRE',
+		'FICUS', 'FIELD', 'FIEND', 'FIERY', 'FIGHT', 'FILER', 'FILET', 'FILMY', 'FILTH', 'FINAL', 'FINCH', 'FINER',
+		'FIRST', 'FISHY', 'FIXER', 'FJORD', 'FLACK', 'FLAIR', 'FLAKE', 'FLAKY', 'FLAME', 'FLANK', 'FLARE', 'FLASH',
+		'FLASK', 'FLECK', 'FLESH', 'FLICK', 'FLIER', 'FLING', 'FLINT', 'FLIRT', 'FLOAT', 'FLOCK', 'FLORA', 'FLOUR',
+		'FLOUT', 'FLOWN', 'FLUID', 'FLUKE', 'FLUME', 'FLUNG', 'FLUNK', 'FLUSH', 'FLUTE', 'FLYER', 'FOAMY', 'FOCAL',
+		'FOCUS', 'FOIST', 'FORAY', 'FORCE', 'FORGE', 'FORTE', 'FORTH', 'FORTY', 'FORUM', 'FOUND', 'FOYER', 'FRAIL',
+		'FRAME', 'FRANK', 'FRAUD', 'FREAK', 'FRESH', 'FRIED', 'FRISK', 'FRITZ', 'FROCK', 'FROND', 'FRONT', 'FROST',
+		'FROTH', 'FROWN', 'FROZE', 'FRUIT', 'FUDGE', 'FUNGI', 'FUNKY', 'GAILY', 'GAMER', 'GAMUT', 'GAUDY', 'GAUNT',
+		'GAUZE', 'GAVEL', 'GAWKY', 'GAYER', 'GAZER', 'GECKO', 'GHOST', 'GHOUL', 'GIANT', 'GIPSY', 'GIRLY', 'GIRTH',
+		'GIVEN', 'GIVER', 'GLADE', 'GLAND', 'GLARE', 'GLAZE', 'GLEAM', 'GLEAN', 'GLIDE', 'GLINT', 'GLOAT', 'GLOBE',
+		'GLORY', 'GLOVE', 'GLYPH', 'GNASH', 'GNOME', 'GODLY', 'GOLEM', 'GONAD', 'GONER', 'GOURD', 'GRACE', 'GRADE',
+		'GRAFT', 'GRAIL', 'GRAIN', 'GRAND', 'GRANT', 'GRAPE', 'GRAPH', 'GRASP', 'GRATE', 'GRAVE', 'GRAVY', 'GRAZE',
+		'GREAT', 'GRIEF', 'GRIME', 'GRIMY', 'GRIND', 'GRIPE', 'GROAN', 'GROIN', 'GROPE', 'GROUP', 'GROUT', 'GROVE',
+		'GROWL', 'GROWN', 'GRUEL', 'GRUNT', 'GUARD', 'GUEST', 'GUIDE', 'GUILD', 'GUILE', 'GUILT', 'GUISE', 'GULCH',
+		'GUMBO', 'GUSTO', 'GUSTY', 'HABIT', 'HAIRY', 'HALVE', 'HANDY', 'HARDY', 'HAREM', 'HARPY', 'HASTE', 'HASTY',
+		'HATER', 'HAUNT', 'HAUTE', 'HAVEN', 'HAVOC', 'HAZEL', 'HEADY', 'HEARD', 'HEART', 'HEAVY', 'HEFTY', 'HEIST',
+		'HELIX', 'HERON', 'HINGE', 'HOARD', 'HOIST', 'HOMER', 'HONEY', 'HORDE', 'HORNY', 'HORSE', 'HOTEL', 'HOTLY',
+		'HOUND', 'HOUSE', 'HOVEL', 'HOVER', 'HOWDY', 'HUMAN', 'HUMID', 'HUMOR', 'HUNKY', 'HUSKY', 'HYDRO', 'HYENA',
+		'HYMEN', 'HYPER', 'IDEAL', 'IDLER', 'IMAGE', 'IMBUE', 'IMPEL', 'IMPLY', 'INBOX', 'INCUR', 'INDEX', 'INEPT',
+		'INERT', 'INFER', 'INGOT', 'INLAY', 'INLET', 'INPUT', 'INTER', 'INTRO', 'IRATE', 'IRONY', 'ISLET', 'ITCHY',
+		'IVORY', 'JAUNT', 'JERKY', 'JOINT', 'JOIST', 'JOKER', 'JOUST', 'JUDGE', 'JUICE', 'JUICY', 'JUMBO', 'JUMPY',
+		'JUNTA', 'JUNTO', 'KNAVE', 'KNEAD', 'KNELT', 'KNIFE', 'LABOR', 'LADEN', 'LAGER', 'LANCE', 'LANKY', 'LAPSE',
+		'LARGE', 'LATCH', 'LATER', 'LATHE', 'LAUGH', 'LAYER', 'LEACH', 'LEAFY', 'LEAKY', 'LEANT', 'LEAPT', 'LEARN',
+		'LEASH', 'LEAST', 'LEFTY', 'LEMON', 'LEMUR', 'LIGHT', 'LIKEN', 'LIMBO', 'LINER', 'LINGO', 'LITHE', 'LIVER',
+		'LOAMY', 'LOATH', 'LOCUS', 'LODGE', 'LOFTY', 'LOGIC', 'LOGIN', 'LOSER', 'LOUSE', 'LOUSY', 'LOVER', 'LOWER',
+		'LUCID', 'LUCKY', 'LUMEN', 'LUMPY', 'LUNAR', 'LUNCH', 'LUNGE', 'LURCH', 'LURID', 'LUSTY', 'LYING', 'LYMPH',
+		'LYNCH', 'LYRIC', 'MACHO', 'MACRO', 'MADLY', 'MAGIC', 'MAIZE', 'MAJOR', 'MAKER', 'MANGE', 'MANGO', 'MANGY',
+		'MANIC', 'MANLY', 'MANOR', 'MAPLE', 'MARCH', 'MARSH', 'MASON', 'MATCH', 'MATEY', 'MAUVE', 'MAYBE', 'MAYOR',
+		'MEALY', 'MEANT', 'MEATY', 'MEDAL', 'MEDIA', 'MEDIC', 'MELON', 'MERCY', 'MERIT', 'METAL', 'METRO', 'MICRO',
+		'MIDGE', 'MIDST', 'MIGHT', 'MILKY', 'MINCE', 'MINER', 'MINOR', 'MINTY', 'MINUS', 'MIRTH', 'MISER', 'MOCHA',
+		'MODAL', 'MODEL', 'MOGUL', 'MOIST', 'MOLAR', 'MOLDY', 'MONEY', 'MONTH', 'MORAL', 'MORPH', 'MOTEL', 'MOTIF',
+		'MOULT', 'MOUND', 'MOUNT', 'MOURN', 'MOUSE', 'MOUTH', 'MOVER', 'MOVIE', 'MOWER', 'MUCKY', 'MULCH', 'MUNCH',
+		'MURAL', 'MURKY', 'MUSHY', 'MUSIC', 'MUSKY', 'MUSTY', 'NADIR', 'NAIVE', 'NASTY', 'NAVEL', 'NEIGH', 'NERDY',
+		'NEWLY', 'NICER', 'NICHE', 'NIGHT', 'NOBLE', 'NOBLY', 'NOISE', 'NOISY', 'NOMAD', 'NORTH', 'NOSEY', 'NOTCH',
+		'NOVEL', 'NUDGE', 'NURSE', 'NYMPH', 'OAKEN', 'OCEAN', 'OCTAL', 'OFTEN', 'OLDEN', 'OLDER', 'OLIVE', 'OMBRE',
+		'OMEGA', 'ONSET', 'OPERA', 'OPINE', 'OPIUM', 'OPTIC', 'ORBIT', 'ORGAN', 'OTHER', 'OUGHT', 'OUNCE', 'OUTER',
+		'OVARY', 'OVATE', 'OVERT', 'OVINE', 'OWING', 'OWNER', 'OXIDE', 'PAINT', 'PALER', 'PALSY', 'PANEL', 'PANIC',
+		'PANSY', 'PARSE', 'PARTY', 'PASTE', 'PASTY', 'PATCH', 'PATIO', 'PATSY', 'PAUSE', 'PAYER', 'PEACH', 'PEARL',
+		'PECAN', 'PEDAL', 'PENAL', 'PERCH', 'PERIL', 'PERKY', 'PESKY', 'PESTO', 'PETAL', 'PHASE', 'PHONE', 'PHONY',
+		'PIANO', 'PICKY', 'PIETY', 'PILOT', 'PINCH', 'PINEY', 'PINKY', 'PINTO', 'PIQUE', 'PITCH', 'PITHY', 'PIVOT',
+		'PIXEL', 'PLACE', 'PLAID', 'PLAIN', 'PLAIT', 'PLANE', 'PLANK', 'PLANT', 'PLATE', 'PLEAD', 'PLEAT', 'PLIED',
+		'PLIER', 'PLUCK', 'PLUMB', 'PLUME', 'PLUNK', 'PLUSH', 'POESY', 'POINT', 'POISE', 'POKER', 'POLAR', 'POLKA',
+		'PORCH', 'POSER', 'POSIT', 'POUCH', 'POUND', 'POUTY', 'POWER', 'PRANK', 'PRAWN', 'PRICE', 'PRICK', 'PRIDE',
+		'PRIED', 'PRIME', 'PRIMO', 'PRINT', 'PRISM', 'PRIVY', 'PRIZE', 'PROBE', 'PRONE', 'PRONG', 'PROSE', 'PROUD',
+		'PROVE', 'PROWL', 'PROXY', 'PRUDE', 'PRUNE', 'PSALM', 'PUBIC', 'PUDGY', 'PULSE', 'PUNCH', 'PURGE', 'PURSE',
+		'PUSHY', 'QUACK', 'QUAIL', 'QUAKE', 'QUALM', 'QUARK', 'QUART', 'QUASH', 'QUASI', 'QUERY', 'QUEST', 'QUICK',
+		'QUIET', 'QUILT', 'QUIRK', 'QUITE', 'QUOTA', 'QUOTE', 'QUOTH', 'RABID', 'RADIO', 'RAINY', 'RAISE', 'RALPH',
+		'RAMEN', 'RANCH', 'RANDY', 'RANGE', 'RAPID', 'RASPY', 'RATIO', 'RAVEN', 'RAYON', 'REACH', 'REACT', 'READY',
+		'REALM', 'REBUS', 'REBUT', 'RECAP', 'RECUT', 'REFIT', 'REGAL', 'REHAB', 'REIGN', 'RELAX', 'RELAY', 'RELIC',
+		'REMIT', 'RENAL', 'REPAY', 'REPLY', 'RESIN', 'RETCH', 'RHINO', 'RHYME', 'RIDGE', 'RIFLE', 'RIGHT', 'RINSE',
+		'RIPEN', 'RISEN', 'RISKY', 'RIVAL', 'RIVET', 'ROACH', 'ROAST', 'ROBIN', 'ROCKY', 'ROGUE', 'ROUGE', 'ROUGH',
+		'ROUND', 'ROUSE', 'ROUTE', 'ROWDY', 'ROYAL', 'RUGBY', 'RUMBA', 'RUSTY', 'SADLY', 'SAFER', 'SAINT', 'SALON',
+		'SALTY', 'SALVE', 'SALVO', 'SANDY', 'SANER', 'SATIN', 'SATYR', 'SAUCE', 'SAUCY', 'SAUTE', 'SAVOR', 'SAVOY',
+		'SCALD', 'SCALE', 'SCALP', 'SCALY', 'SCAMP', 'SCANT', 'SCARE', 'SCARF', 'SCARY', 'SCENT', 'SCION', 'SCOLD',
+		'SCONE', 'SCOPE', 'SCORE', 'SCORN', 'SCOUR', 'SCOUT', 'SCOWL', 'SCRAM', 'SCRAP', 'SCREW', 'SCRUB', 'SCRUM',
+		'SCUBA', 'SEDAN', 'SEPIA', 'SERIF', 'SERUM', 'SETUP', 'SHACK', 'SHADE', 'SHADY', 'SHAFT', 'SHAKE', 'SHAKY',
+		'SHALE', 'SHALT', 'SHAME', 'SHANK', 'SHAPE', 'SHARD', 'SHARE', 'SHARK', 'SHARP', 'SHAVE', 'SHAWL', 'SHEAR',
+		'SHEIK', 'SHELF', 'SHIED', 'SHIFT', 'SHINE', 'SHINY', 'SHIRE', 'SHIRK', 'SHIRT', 'SHOAL', 'SHOCK', 'SHONE',
+		'SHORE', 'SHORN', 'SHORT', 'SHOUT', 'SHOVE', 'SHOWN', 'SHOWY', 'SHREW', 'SHRUB', 'SHRUG', 'SHUCK', 'SHUNT',
+		'SIGHT', 'SIGMA', 'SILKY', 'SINCE', 'SINEW', 'SINGE', 'SIREN', 'SIXTH', 'SIXTY', 'SKATE', 'SKIER', 'SKIMP',
+		'SKIRT', 'SLACK', 'SLAIN', 'SLANG', 'SLANT', 'SLATE', 'SLAVE', 'SLEPT', 'SLICE', 'SLICK', 'SLIDE', 'SLIME',
+		'SLIMY', 'SLING', 'SLINK', 'SLOPE', 'SLOTH', 'SLUMP', 'SLUNG', 'SLUNK', 'SLURP', 'SMACK', 'SMART', 'SMEAR',
+		'SMELT', 'SMILE', 'SMIRK', 'SMITE', 'SMITH', 'SMOCK', 'SMOKE', 'SMOKY', 'SMOTE', 'SNACK', 'SNAIL', 'SNAKE',
+		'SNAKY', 'SNARE', 'SNARL', 'SNEAK', 'SNIDE', 'SNIPE', 'SNORE', 'SNORT', 'SNOUT', 'SNOWY', 'SNUCK', 'SOAPY',
+		'SOBER', 'SOLAR', 'SOLID', 'SOLVE', 'SONAR', 'SONIC', 'SOUND', 'SOUTH', 'SOWER', 'SPACE', 'SPADE', 'SPANK',
+		'SPARE', 'SPARK', 'SPAWN', 'SPEAK', 'SPEAR', 'SPECK', 'SPELT', 'SPEND', 'SPENT', 'SPERM', 'SPICE', 'SPICY',
+		'SPIED', 'SPIEL', 'SPIKE', 'SPIKY', 'SPILT', 'SPINE', 'SPINY', 'SPIRE', 'SPITE', 'SPLAT', 'SPLIT', 'SPOIL',
+		'SPOKE', 'SPORE', 'SPORT', 'SPOUT', 'SPRAY', 'SPRIG', 'SPUNK', 'SPURN', 'SPURT', 'SQUAD', 'SQUAT', 'SQUIB',
+		'STACK', 'STAGE', 'STAID', 'STAIN', 'STAIR', 'STAKE', 'STALE', 'STALK', 'STAMP', 'STAND', 'STANK', 'STARE',
+		'STARK', 'STAVE', 'STEAD', 'STEAK', 'STEAL', 'STEAM', 'STEIN', 'STERN', 'STICK', 'STING', 'STINK', 'STOCK',
+		'STOIC', 'STOKE', 'STOLE', 'STOMP', 'STONE', 'STONY', 'STORE', 'STORK', 'STORM', 'STORY', 'STOVE', 'STRAP',
+		'STRAW', 'STRAY', 'STRIP', 'STUCK', 'STUDY', 'STUMP', 'STUNG', 'STUNK', 'STYLE', 'SUAVE', 'SUGAR', 'SUING',
+		'SUITE', 'SULKY', 'SUMAC', 'SUPER', 'SURGE', 'SURLY', 'SWAMI', 'SWAMP', 'SWARM', 'SWATH', 'SWEAR', 'SWEAT',
+		'SWEPT', 'SWIFT', 'SWINE', 'SWING', 'SWIRL', 'SWORD', 'SWORE', 'SWORN', 'SWUNG', 'SYNOD', 'SYRUP', 'TABLE',
+		'TACKY', 'TAKEN', 'TAKER', 'TALON', 'TAMER', 'TANGO', 'TANGY', 'TAPER', 'TAPIR', 'TARDY', 'TAWNY', 'TEACH',
+		'TEARY', 'TEMPO', 'TENOR', 'TEPID', 'THANK', 'THEIR', 'THICK', 'THIEF', 'THING', 'THINK', 'THIRD', 'THONG',
+		'THORN', 'THOSE', 'THREW', 'THROB', 'THROW', 'THRUM', 'THUMB', 'THUMP', 'THYME', 'TIDAL', 'TIGER', 'TILDE',
+		'TIMER', 'TIPSY', 'TODAY', 'TOKEN', 'TONAL', 'TONGA', 'TONIC', 'TOPAZ', 'TOPIC', 'TORCH', 'TORUS', 'TOUCH',
+		'TOUGH', 'TOWEL', 'TOWER', 'TOXIC', 'TOXIN', 'TRACE', 'TRACK', 'TRADE', 'TRAIL', 'TRAIN', 'TRAMP', 'TRASH',
+		'TRAWL', 'TREAD', 'TREND', 'TRIAD', 'TRIAL', 'TRIBE', 'TRICE', 'TRICK', 'TRIED', 'TRIPE', 'TROPE', 'TROVE',
+		'TRUCE', 'TRUCK', 'TRULY', 'TRUMP', 'TRUNK', 'TUBAL', 'TUBER', 'TULIP', 'TUMOR', 'TUNIC', 'TURBO', 'TWANG',
+		'TWEAK', 'TWICE', 'TWINE', 'TWIRL', 'TYING', 'ULCER', 'ULTRA', 'UMBRA', 'UNCLE', 'UNDER', 'UNFED', 'UNFIT',
+		'UNIFY', 'UNITE', 'UNITY', 'UNLIT', 'UNMET', 'UNSET', 'UNTIE', 'UNTIL', 'UNWED', 'UNZIP', 'UPSET', 'URBAN',
+		'URINE', 'USAGE', 'USHER', 'USING', 'UTILE', 'VAGUE', 'VALET', 'VALID', 'VALOR', 'VALUE', 'VAPID', 'VAPOR',
+		'VAULT', 'VAUNT', 'VEGAN', 'VENOM', 'VERSO', 'VICAR', 'VIDEO', 'VIGOR', 'VINYL', 'VIOLA', 'VIPER', 'VIRAL',
+		'VIRUS', 'VISOR', 'VISTA', 'VITAL', 'VIXEN', 'VOCAL', 'VODKA', 'VOGUE', 'VOICE', 'VOILA', 'VOMIT', 'VOTER',
+		'VOUCH', 'VOWEL', 'VYING', 'WACKY', 'WAFER', 'WAGER', 'WAGON', 'WAIST', 'WAIVE', 'WALTZ', 'WARTY', 'WASTE',
+		'WATCH', 'WATER', 'WAVER', 'WAXEN', 'WEARY', 'WEIGH', 'WEIRD', 'WELCH', 'WELSH', 'WENCH', 'WHACK', 'WHALE',
+		'WHARF', 'WHEAT', 'WHELP', 'WHILE', 'WHINE', 'WHINY', 'WHIRL', 'WHISK', 'WHITE', 'WHOLE', 'WHOSE', 'WIDEN',
+		'WIDER', 'WIDTH', 'WIELD', 'WIGHT', 'WIMPY', 'WINCE', 'WINCH', 'WINDY', 'WISER', 'WISPY', 'WITCH', 'WOKEN',
+		'WOMAN', 'WOMEN', 'WORDY', 'WORLD', 'WORSE', 'WORST', 'WORTH', 'WOULD', 'WOUND', 'WOVEN', 'WRACK', 'WRATH',
+		'WREAK', 'WRECK', 'WREST', 'WRING', 'WRIST', 'WRITE', 'WRONG', 'WROTE', 'WRUNG', 'YACHT', 'YEARN', 'YEAST',
+		'YIELD', 'YOUNG', 'YOUTH', 'ZEBRA', 'ZESTY', 'ZONAL',
+		]
+	};
+// END GENERATED WORD BANK V1
+
 	var SECRET_SALT = "deletion-mutants-v1";
-	var LOCALSTORAGE_CACHE_PREFIX = "deletion_mutants_words_cache_v1_";
-
 	var _cache = {};
-
-	function hasAllUniqueLetters(word) {
-		var seen = {};
-		var i = 0;
-		for (i = 0; i < word.length; i += 1) {
-			var ch = word[i];
-			if (seen[ch]) {
-				return false;
-			}
-			seen[ch] = true;
-		}
-		return true;
-	}
-
-	function parseWordListText(text, wordLength) {
-		var lines = text.split(/\r?\n/);
-		var words = [];
-		var i = 0;
-
-		for (i = 0; i < lines.length; i += 1) {
-			var line = lines[i].trim();
-			if (!line || line[0] === "#") {
-				continue;
-			}
-			if (line.length !== wordLength) {
-				continue;
-			}
-			if (!/^[a-z]+$/.test(line)) {
-				continue;
-			}
-
-			var w = line.toUpperCase();
-			if (!hasAllUniqueLetters(w)) {
-				continue;
-			}
-			words.push(w);
-		}
-
-		return words;
-	}
 
 	async function loadCandidateWords(wordLength) {
 		if (_cache[wordLength]) {
 			return _cache[wordLength];
 		}
-
-		var cacheKey = LOCALSTORAGE_CACHE_PREFIX + String(wordLength);
-		try {
-			var cachedRaw = window.localStorage.getItem(cacheKey);
-			if (cachedRaw) {
-				var cachedWords = JSON.parse(cachedRaw);
-				if (Array.isArray(cachedWords) && cachedWords.length) {
-					_cache[wordLength] = cachedWords;
-					return cachedWords;
-				}
-			}
-		} catch (_) {
-			// ignore and re-fetch
+		var bank = EMBEDDED_WORD_BANK_V1;
+		if (!bank || !bank[wordLength] || !bank[wordLength].length) {
+			throw new Error("No embedded word list for length " + String(wordLength));
 		}
-
-		var resp = await fetch(WORD_SOURCE_PATH);
-		if (!resp.ok) {
-			throw new Error("Could not load word list (" + resp.status + ")");
-		}
-		var text = await resp.text();
-		var words = parseWordListText(text, wordLength);
-
-		if (!words.length) {
-			throw new Error("Word list is empty after filtering");
-		}
-
-		_cache[wordLength] = words;
-		try {
-			window.localStorage.setItem(cacheKey, JSON.stringify(words));
-		} catch (_) {
-			// ignore quota / disabled storage
-		}
-		return words;
+		_cache[wordLength] = bank[wordLength];
+		return _cache[wordLength];
 	}
 
 	function getDailyIndex(words, date) {
