@@ -7,6 +7,9 @@ A resource hub for **professors and educators** to access free and open problem 
 ### **[Peptidyle](daily_puzzles/peptidyle.md) 🧩**
 A daily pentapeptide deduction puzzle inspired by the logic of Wordle. Analyze a rendered molecule and solve the sequence from structure alone.
 
+### **[Deletion mutants](daily_puzzles/deletion_mutants.md) 🧬**
+A daily genetics puzzle where you deduce the linear order of genes on a chromosome from deletion mutant evidence.
+
 ## **Subjects**
 
 ### **[Biochemistry](biochemistry/index.md) 🧪**
