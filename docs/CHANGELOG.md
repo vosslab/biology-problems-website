@@ -4,6 +4,7 @@
 - Added `site_docs/daily_puzzles/deletetions_source/deletion_mutant_plan.md` outlining the deletion mutant daily puzzle port.
 - Updated `site_docs/daily_puzzles/deletetions_source/deletion_mutant_plan.md` with current implementation status and next steps.
 - Added the new daily puzzle page `site_docs/daily_puzzles/deletion_mutants.md`.
+- Added short "why this matters" blurbs to the daily puzzle pages for Peptidyle and deletion mutants.
 - Added shared browser utilities `site_docs/assets/scripts/daily_puzzle_core.js` and `site_docs/assets/scripts/daily_puzzle_stats.js`.
 - Added deletion mutant puzzle JS/CSS assets under `site_docs/assets/scripts/` and `site_docs/assets/stylesheets/`.
 - Tweaked deletion mutant UI: stronger table borders, visible empty guess grid, and an optional first-gene hint with a guess penalty.
@@ -12,7 +13,37 @@
 - Reduced the size of the "I need help" hint UI in the deletion mutant daily puzzle.
 - Widened deletion mutant table columns for readability.
 - Refactored deletion mutant theme switching to use MkDocs Material `data-md-color-scheme` CSS variables (no JS re-render on toggle).
+- Improved daily puzzle theme integration: scheme-aware deletion colors via CSS, Material token-based surfaces/borders, focus-visible outlines, and reduced-motion scrolling.
+- Updated invalid (red) on-screen keyboard keys to render as dark red in dark mode.
+- Added shared `site_docs/assets/scripts/daily_puzzle_keyboard.js` and refactored both daily puzzles to use it.
+- Added shared physical keyboard input controller `site_docs/assets/scripts/daily_puzzle_input.js` and refactored both puzzles to use it.
+- Hardened `site_docs/assets/scripts/daily_puzzle_input.js` to avoid duplicate listeners across reloads and to ignore contenteditable ancestors (e.g. MkDocs search/widgets).
+- Made `site_docs/assets/scripts/daily_puzzle_input.js` merge install options to avoid accidental handler loss; strengthened slate-mode keyboard key foreground in `site_docs/assets/stylesheets/daily_puzzle.css`.
+- Added a shared "next puzzle" countdown timer under both daily puzzle keyboards (updates once per minute; `aria-live="off"`).
+- Improved deletion mutant layout: responsive table+legend columns, continuous deletion bars, and a non-reserved guess board to reduce whitespace before play.
+- Moved the deletion mutant help button into the same control row as the first-gene hint.
+- Updated the shared on-screen keyboard: renamed disabled keys from `invalid` to `disabled`, added an option to soft-disable keys, and drove disabled-key colors via theme-switched CSS variables.
+- Fixed deletion mutants page HTML rendering by removing leading indentation that caused Markdown to treat the UI as a code block.
+- Fixed dark mode keyboard foreground and disabled-key dimming via shared keyboard CSS variables.
+- Increased light-mode deletion bar saturation by using the light palette (instead of extra-light) for table fills.
+- Improved deletion legend wrapping (flex rows with fixed labels) and made light-mode deletion colors more saturated.
+- Added hard overrides to force keyboard glyph colors to switch correctly in slate mode (including Safari `-webkit-text-fill-color`).
+- Fixed theme selector mismatch by switching MkDocs Material scheme selectors from `:root/html[...]` to `body[data-md-color-scheme=...]`.
+- Aligned Peptidyle keyboard styling with the deletion mutants keyboard (container box + key borders).
+- Added shared `site_docs/assets/scripts/daily_puzzle_ui.js` and shared `site_docs/assets/stylesheets/daily_puzzle.css`.
+- Moved shared daily puzzle stats/keyboard/control-bar CSS out of `site_docs/assets/stylesheets/custom.css`.
+- Updated Peptidyle UI: moved tips controls above the peptide image and added a first-letter hint with a 1-guess penalty.
+- Updated both puzzles so the -1 first-letter hint consumes a visible guess row (first letter in green, rest blank) and is disabled when only 1 guess remains.
 - Added the deletion mutant puzzle to `mkdocs.yml` nav and linked it from `site_docs/index.md`.
+- Migrated Peptidyle stats to `site_docs/assets/scripts/daily_puzzle_stats.js` and removed `site_docs/assets/scripts/peptidyle_stats.js`.
+- Renamed `site_docs/assets/scripts/deletion_mutants_colors.js` to `site_docs/assets/scripts/daily_puzzle_colors.js` for reuse across daily puzzles.
+- Cached the deletion mutants unique-letter word list in `localStorage` to avoid repeated fetch+parse of `real_wordles.txt`.
+- Added `site_docs/assets/scripts/daily_puzzle_wordle.js` (shared Wordle scoring, board rendering, and toast helper) and refactored both daily puzzles to use it.
+- Unified -1 hint behavior across both puzzles: hint is only available before the first guess, requires an empty current guess, consumes a guess via a visible penalty row, and pre-fills the current guess with the revealed first letter.
+- Updated `site_docs/assets/scripts/peptidyle_words.js` to use `site_docs/assets/scripts/daily_puzzle_core.js` for daily selection/hashing (no duplicate hashing implementation).
+- Added shared Wordle cell/board styling to `site_docs/assets/stylesheets/daily_puzzle.css` so both puzzles render the guess grid consistently (and the deletion mutant board has visible boxes).
+- Increased light-mode deletion mutant palette saturation in `site_docs/assets/scripts/daily_puzzle_colors.js`.
+- Extended `site_docs/assets/scripts/daily_puzzle_keyboard.js` click handling to support optional soft-disabled key toasts.
 
 ## 2026-01-03
 - Added `bbq_control/bbq_config.yml` for path aliases, script aliases, and input defaults.

@@ -29,6 +29,7 @@ plugins:
 
 extra_css:
   - assets/stylesheets/custom.css
+  - assets/stylesheets/daily_puzzle.css
 
 extra_javascript:
   - assets/scripts/custom.js

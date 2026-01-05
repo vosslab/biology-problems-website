@@ -6,19 +6,32 @@ title: Peptidyle
 
 <script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script>
 <script src="/assets/scripts/peptidyle_peptides.js"></script>
+<script src="/assets/scripts/daily_puzzle_core.js"></script>
 <script src="/assets/scripts/peptidyle_words.js"></script>
-<script src="/assets/scripts/peptidyle_stats.js"></script>
+<script src="/assets/scripts/daily_puzzle_keyboard.js"></script>
+<script src="/assets/scripts/daily_puzzle_input.js"></script>
+<script src="/assets/scripts/daily_puzzle_stats.js"></script>
+<script src="/assets/scripts/daily_puzzle_ui.js"></script>
+<script src="/assets/scripts/daily_puzzle_wordle.js"></script>
 <script src="/assets/scripts/peptidyle_game.js"></script>
 <script src="/assets/scripts/peptidyle_bootstrap.js"></script>
 
 ### Deduce the pentapeptide sequence
 
+A pentapeptide is a protein fragment that is only five amino acids long. Even tiny sequences can matter because
+chemistry scales down: side chains still attract, repel, and bind. This puzzle builds intuition for how sequence and
+structure connect.
+
 <div id="pw-root">
 	<div id="stats"></div>
-	<div id="peptide"></div>
-	<div id="help-row">
-		<button id="help-button" type="button">Peptide solving tips</button>
+	<div id="hint-area">
+		<div id="controls-left">
+			<button id="help-button" type="button">Peptide solving tips</button>
+			<button id="hint-button" type="button">I need help: show first letter (-1 guess)</button>
+		</div>
+		<div id="hint-status"></div>
 	</div>
+	<div id="peptide"></div>
 	<div id="message"></div>
 	<div id="board"></div>
 	<form id="guess-form" autocomplete="off">
@@ -27,6 +40,7 @@ title: Peptidyle
 		<button type="submit">Enter</button>
 	</form>
 	<div id="keyboard"></div>
+	<div id="dp-next-reset" class="dp-next-reset" aria-live="off"></div>
 	<div id="toast-container"></div>
 	<div id="instructions">
 		<details id="instructions-details">
