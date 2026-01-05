@@ -5,31 +5,31 @@
 	padding: 20px;
 	font-family: system-ui, Arial, sans-serif;
 	box-sizing: border-box;
+
+	color: var(--md-default-fg-color);
+	--dm-surface: var(--md-default-bg-color);
+	--dm-border: rgba(127, 127, 127, 0.25);
+	--dm-border-strong: rgba(127, 127, 127, 0.45);
+	--dm-toast-bg: rgba(0, 0, 0, 0.85);
 }
 
-:root[data-md-color-scheme="default"] #dm-root {
-	background-color: transparent;
-	color: inherit;
-	--dm-table-border: #111111;
-	--dm-grid-border: #666666;
+body[data-md-color-scheme="default"] #dm-root {
 	--dm-empty-cell-bg: #f2f2f2;
 	--dm-empty-board-bg: #f2f2f2;
-	--dm-toast-bg: rgba(0, 0, 0, 0.85);
 }
 
-:root[data-md-color-scheme="slate"] #dm-root {
-	background-color: #111111;
-	color: #f0f0f0;
-	--dm-table-border: #d0d0d0;
-	--dm-grid-border: #777777;
+body[data-md-color-scheme="slate"] #dm-root {
 	--dm-empty-cell-bg: #3b3f46;
 	--dm-empty-board-bg: #2b2f35;
-	--dm-toast-bg: rgba(0, 0, 0, 0.85);
 }
 
 #dm-root #stats {
 	font-size: 0.9rem;
 	margin-bottom: 10px;
+	background: var(--dm-surface);
+	border: 1px solid var(--dm-border);
+	border-radius: 0.6rem;
+	padding: 6px 8px;
 }
 
 #dm-root #message {
@@ -39,13 +39,47 @@
 	font-size: 0.95rem;
 }
 
+/* Evidence block layout */
+#dm-root #problem {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 1rem;
+}
+
+@media (min-width: 900px) {
+	#dm-root #problem {
+		grid-template-columns: 2fr 1fr;
+		align-items: start;
+	}
+
+	#dm-root #problem-summary {
+		grid-column: 1 / -1;
+	}
+
+	#dm-root #hint-area {
+		grid-column: 1 / -1;
+	}
+
+	#dm-root #deletion-table {
+		grid-column: 1;
+	}
+
+	#dm-root #deletion-list {
+		grid-column: 2;
+	}
+}
+
 /* Deletion table */
 #dm-root .dm-table {
-	width: auto;
-	border-collapse: collapse;
-	border: 3px solid var(--dm-table-border);
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 0;
+	border: 1px solid var(--dm-border-strong);
+	border-radius: 0.6rem;
+	overflow: hidden;
 	margin: 10px 0 8px;
-	table-layout: auto;
+	table-layout: fixed;
+	background: var(--dm-surface);
 }
 
 #dm-root #deletion-table {
@@ -58,20 +92,25 @@
 }
 
 #dm-root .dm-table th {
-	border: 2px solid var(--dm-grid-border);
-	padding: 6px;
+	border-right: 1px solid var(--dm-border);
+	border-bottom: 1px solid var(--dm-border);
+	padding: 8px 6px 10px;
 	text-align: center;
 	font-size: 0.9rem;
-	background-color: transparent;
+	font-weight: 700;
+	color: var(--md-default-fg-color);
+	background: color-mix(in srgb, var(--md-default-bg-color) 88%, var(--md-default-fg-color));
 	white-space: nowrap;
 }
 
-#dm-root .dm-del-scheme {
+/* 1) Default to light palette for each row/item */
+.dm-del-scheme {
 	--dm-fill: var(--dm-fill-light);
 	--dm-label: var(--dm-label-light);
 }
 
-:root[data-md-color-scheme="slate"] #dm-root .dm-del-scheme {
+/* 2) Switch to dark palette when Material is in slate mode */
+[data-md-color-scheme="slate"] .dm-del-scheme {
 	--dm-fill: var(--dm-fill-dark);
 	--dm-label: var(--dm-label-dark);
 }
@@ -87,24 +126,43 @@
 }
 
 #dm-root .dm-table td.dm-cell {
-	border: 2px solid var(--dm-grid-border);
-	height: 26px;
+	border-right: 1px solid var(--dm-border);
+	border-bottom: 1px solid var(--dm-border);
+	height: 30px;
 	background-color: var(--dm-empty-cell-bg);
 	padding: 0;
+	position: relative;
 }
 
+/* 3) Use the selected variables everywhere */
 #dm-root .dm-table td.dm-cell.dm-filled {
-	background-color: var(--dm-fill);
+	background: linear-gradient(to bottom, rgba(255,255,255,0.10), rgba(0,0,0,0.10)), var(--dm-fill);
+	border-top-color: var(--dm-border);
+	border-bottom-color: var(--dm-border);
+}
+
+#dm-root .dm-table td.dm-cell.dm-filled:not(.dm-run-start) {
+	border-left-color: transparent;
+}
+
+#dm-root .dm-table td.dm-cell.dm-filled:not(.dm-run-end) {
+	border-right-color: transparent;
+}
+
+#dm-root .dm-table td.dm-cell.dm-run-start {
+	border-top-left-radius: 0.5rem;
+	border-bottom-left-radius: 0.5rem;
+	border-left: 1px solid var(--dm-border-strong);
+}
+
+#dm-root .dm-table td.dm-cell.dm-run-end {
+	border-top-right-radius: 0.5rem;
+	border-bottom-right-radius: 0.5rem;
+	border-right: 1px solid var(--dm-border-strong);
 }
 
 #dm-root .dm-table th:first-child {
-	min-width: 96px;
-}
-
-#dm-root .dm-table th:not(:first-child),
-#dm-root .dm-table td.dm-cell {
-	width: 86px;
-	min-width: 86px;
+	width: 6.5rem;
 }
 
 #dm-root #deletion-list {
@@ -112,129 +170,53 @@
 }
 
 #dm-root .dm-deletion-list {
+	list-style: none;
+	padding-left: 0;
 	margin: 0;
-	padding-left: 22px;
+}
+
+#dm-root .dm-deletion-list li {
+	display: flex;
+	gap: 0.6rem;
+	align-items: baseline;
+	margin: 0.35rem 0;
+}
+
+#dm-root .dm-deletion-list li::before {
+	content: "";
+	width: 0.9rem;
+	height: 0.9rem;
+	border-radius: 0.2rem;
+	background: var(--dm-fill);
+	flex: 0 0 auto;
+	margin-top: 0.15rem;
+	border: 1px solid var(--dm-border);
+}
+
+#dm-root .dm-del-name {
+	white-space: nowrap;
+	flex: 0 0 auto;
+}
+
+#dm-root .dm-deletion-list li span:last-child {
+	flex: 1 1 auto;
+	min-width: 0;
 }
 
 /* Wordle-style board */
 #dm-root #board {
 	margin: 6px auto 6px;
 	text-align: center;
+	background: var(--dm-surface);
+	border: 1px solid var(--dm-border);
+	border-radius: 0.6rem;
+	padding: 10px 8px;
 }
 
 #dm-root .row {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 4px;
-}
-
-#dm-root .cell {
-	display: inline-block;
-	align-items: center;
-	justify-content: center;
-	width: 2.2em;
-	height: 2.2em;
-	line-height: 2.2em;
-	text-align: center;
-	margin-right: 3px;
-	border: 2px solid var(--dm-grid-border);
-	font-weight: bold;
-	text-transform: uppercase;
-	box-sizing: border-box;
-}
-
-#dm-root .cell.empty {
-	background-color: var(--dm-empty-board-bg);
-}
-
-#dm-root .cell.pending {
-	border-color: #878a8c;
-}
-
-#dm-root .cell.correct {
-	background: #6aaa64;
-	color: #ffffff;
-	border-color: #6aaa64;
-}
-
-#dm-root .cell.present {
-	background: #c9b458;
-	color: #ffffff;
-	border-color: #c9b458;
-}
-
-#dm-root .cell.absent {
-	background: #787c7e;
-	color: #ffffff;
-	border-color: #787c7e;
-}
-
-/* On screen keyboard */
-#dm-root #keyboard {
-	margin-top: 12px;
-	user-select: none;
-	text-align: center;
-}
-
-#dm-root .kb-row {
-	display: flex;
-	justify-content: center;
-	margin-bottom: 4px;
-}
-
-#dm-root .kb-key {
-	min-width: 2.4em;
-	padding: 8px 6px;
-	margin: 0 2px;
-	text-align: center;
-	font-weight: bold;
-	border-radius: 4px;
-	border: 2px solid var(--dm-grid-border);
-	cursor: pointer;
-	background: #d3d6da;
-	color: #000000;
-	font-size: 0.9rem;
-	box-sizing: border-box;
-}
-
-:root[data-md-color-scheme="slate"] #dm-root .kb-key {
-	background: #444444;
-	color: #f0f0f0;
-}
-
-#dm-root .kb-key.wide {
-	min-width: 3.4em;
-}
-
-#dm-root .kb-key.correct {
-	background: #6aaa64;
-	border-color: #6aaa64;
-	color: #ffffff;
-}
-
-#dm-root .kb-key.present {
-	background: #c9b458;
-	border-color: #c9b458;
-	color: #ffffff;
-}
-
-#dm-root .kb-key.absent {
-	background: #787c7e;
-	border-color: #787c7e;
-	color: #ffffff;
-}
-
-#dm-root .kb-key.invalid {
-	background: #f4d6d6;
-	border-color: #e0b3b3;
-	color: #885555;
-	cursor: not-allowed;
-}
-
-:root[data-md-color-scheme="slate"] #dm-root .kb-key.invalid {
-	background: #3a2a2a;
-	border-color: #6b4b4b;
-	color: #e0b3b3;
 }
 
 /* Toast messages */
@@ -262,61 +244,4 @@
 	opacity: 1;
 }
 
-#dm-root #help-row {
-	margin: 8px auto 0;
-	text-align: center;
-}
-
-#dm-root #help-button {
-	padding: 4px 10px;
-	font-size: 0.9rem;
-	cursor: pointer;
-}
-
-/* Optional hint */
-#dm-root #hint-area {
-	margin: 8px 0 10px;
-	border-radius: 12px;
-	padding: 8px 10px;
-	border: 2px solid rgba(0, 0, 0, 0.18);
-	background: linear-gradient(135deg, rgba(255, 221, 87, 0.25), rgba(82, 196, 255, 0.20));
-}
-
-#dm-root #hint-button {
-	display: inline-block;
-	padding: 6px 10px;
-	font-size: 0.88rem;
-	font-weight: 700;
-	cursor: pointer;
-	border-radius: 999px;
-	border: 2px solid rgba(0, 0, 0, 0.20);
-	background: #ffcc66;
-	color: #1a1a1a;
-	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.18);
-}
-
-#dm-root #hint-button:disabled {
-	opacity: 0.55;
-	cursor: not-allowed;
-}
-
-#dm-root #hint-area #hint-button:hover:enabled {
-	filter: brightness(0.98);
-}
-
-#dm-root #hint-status {
-	margin-top: 6px;
-	font-size: 0.9rem;
-	opacity: 0.9;
-}
-
-:root[data-md-color-scheme="slate"] #dm-root #hint-area {
-	border: 2px solid rgba(255, 255, 255, 0.18);
-	background: linear-gradient(135deg, rgba(255, 221, 87, 0.14), rgba(82, 196, 255, 0.12));
-}
-
-:root[data-md-color-scheme="slate"] #dm-root #hint-button {
-	border: 2px solid rgba(255, 255, 255, 0.22);
-	background: #d9a441;
-	color: #111111;
-}
+/* Controls + keyboard UI is shared in assets/stylesheets/daily_puzzle.css */
