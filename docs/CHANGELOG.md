@@ -1,8 +1,7 @@
 # Changelog
 
 ## 2026-01-05
-- Added `site_docs/daily_puzzles/deletetions_source/deletion_mutant_plan.md` outlining the deletion mutant daily puzzle port.
-- Updated `site_docs/daily_puzzles/deletetions_source/deletion_mutant_plan.md` with current implementation status and next steps.
+- Added `docs/DELETION_MUTANTS_PLAN.md` outlining the deletion mutant daily puzzle port.
 - Added the new daily puzzle page `site_docs/daily_puzzles/deletion_mutants.md`.
 - Added short "why this matters" blurbs to the daily puzzle pages for Peptidyle and deletion mutants.
 - Added shared browser utilities `site_docs/assets/scripts/daily_puzzle_core.js` and `site_docs/assets/scripts/daily_puzzle_stats.js`.
@@ -37,13 +36,13 @@
 - Added the deletion mutant puzzle to `mkdocs.yml` nav and linked it from `site_docs/index.md`.
 - Migrated Peptidyle stats to `site_docs/assets/scripts/daily_puzzle_stats.js` and removed `site_docs/assets/scripts/peptidyle_stats.js`.
 - Renamed `site_docs/assets/scripts/deletion_mutants_colors.js` to `site_docs/assets/scripts/daily_puzzle_colors.js` for reuse across daily puzzles.
-- Cached the deletion mutants unique-letter word list in `localStorage` to avoid repeated fetch+parse of `real_wordles.txt`.
 - Added `site_docs/assets/scripts/daily_puzzle_wordle.js` (shared Wordle scoring, board rendering, and toast helper) and refactored both daily puzzles to use it.
 - Unified -1 hint behavior across both puzzles: hint is only available before the first guess, requires an empty current guess, consumes a guess via a visible penalty row, and pre-fills the current guess with the revealed first letter.
 - Updated `site_docs/assets/scripts/peptidyle_words.js` to use `site_docs/assets/scripts/daily_puzzle_core.js` for daily selection/hashing (no duplicate hashing implementation).
 - Added shared Wordle cell/board styling to `site_docs/assets/stylesheets/daily_puzzle.css` so both puzzles render the guess grid consistently (and the deletion mutant board has visible boxes).
 - Increased light-mode deletion mutant palette saturation in `site_docs/assets/scripts/daily_puzzle_colors.js`.
 - Extended `site_docs/assets/scripts/daily_puzzle_keyboard.js` click handling to support optional soft-disabled key toasts.
+- Added `build_deletion_mutants_wordbank.py` and embedded the filtered unique-letter deletion-mutants word list directly in `site_docs/assets/scripts/deletion_mutants_words.js` (no runtime fetch required).
 
 ## 2026-01-03
 - Added `bbq_control/bbq_config.yml` for path aliases, script aliases, and input defaults.
