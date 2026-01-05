@@ -1,0 +1,322 @@
+/* Root container so styles stay self contained */
+#dm-root {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 20px;
+	font-family: system-ui, Arial, sans-serif;
+	box-sizing: border-box;
+}
+
+:root[data-md-color-scheme="default"] #dm-root {
+	background-color: transparent;
+	color: inherit;
+	--dm-table-border: #111111;
+	--dm-grid-border: #666666;
+	--dm-empty-cell-bg: #f2f2f2;
+	--dm-empty-board-bg: #f2f2f2;
+	--dm-toast-bg: rgba(0, 0, 0, 0.85);
+}
+
+:root[data-md-color-scheme="slate"] #dm-root {
+	background-color: #111111;
+	color: #f0f0f0;
+	--dm-table-border: #d0d0d0;
+	--dm-grid-border: #777777;
+	--dm-empty-cell-bg: #3b3f46;
+	--dm-empty-board-bg: #2b2f35;
+	--dm-toast-bg: rgba(0, 0, 0, 0.85);
+}
+
+#dm-root #stats {
+	font-size: 0.9rem;
+	margin-bottom: 10px;
+}
+
+#dm-root #message {
+	min-height: 0;
+	margin: 8px 0 6px;
+	text-align: center;
+	font-size: 0.95rem;
+}
+
+/* Deletion table */
+#dm-root .dm-table {
+	width: auto;
+	border-collapse: collapse;
+	border: 3px solid var(--dm-table-border);
+	margin: 10px 0 8px;
+	table-layout: auto;
+}
+
+#dm-root #deletion-table {
+	overflow-x: auto;
+}
+
+#dm-root #deletion-table .dm-table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#dm-root .dm-table th {
+	border: 2px solid var(--dm-grid-border);
+	padding: 6px;
+	text-align: center;
+	font-size: 0.9rem;
+	background-color: transparent;
+	white-space: nowrap;
+}
+
+#dm-root .dm-del-scheme {
+	--dm-fill: var(--dm-fill-light);
+	--dm-label: var(--dm-label-light);
+}
+
+:root[data-md-color-scheme="slate"] #dm-root .dm-del-scheme {
+	--dm-fill: var(--dm-fill-dark);
+	--dm-label: var(--dm-label-dark);
+}
+
+#dm-root .dm-del-label {
+	color: var(--dm-label);
+	font-weight: bold;
+}
+
+#dm-root .dm-del-name {
+	color: var(--dm-label);
+	font-weight: bold;
+}
+
+#dm-root .dm-table td.dm-cell {
+	border: 2px solid var(--dm-grid-border);
+	height: 26px;
+	background-color: var(--dm-empty-cell-bg);
+	padding: 0;
+}
+
+#dm-root .dm-table td.dm-cell.dm-filled {
+	background-color: var(--dm-fill);
+}
+
+#dm-root .dm-table th:first-child {
+	min-width: 96px;
+}
+
+#dm-root .dm-table th:not(:first-child),
+#dm-root .dm-table td.dm-cell {
+	width: 86px;
+	min-width: 86px;
+}
+
+#dm-root #deletion-list {
+	margin: 8px 0 10px;
+}
+
+#dm-root .dm-deletion-list {
+	margin: 0;
+	padding-left: 22px;
+}
+
+/* Wordle-style board */
+#dm-root #board {
+	margin: 6px auto 6px;
+	text-align: center;
+}
+
+#dm-root .row {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 4px;
+}
+
+#dm-root .cell {
+	display: inline-block;
+	align-items: center;
+	justify-content: center;
+	width: 2.2em;
+	height: 2.2em;
+	line-height: 2.2em;
+	text-align: center;
+	margin-right: 3px;
+	border: 2px solid var(--dm-grid-border);
+	font-weight: bold;
+	text-transform: uppercase;
+	box-sizing: border-box;
+}
+
+#dm-root .cell.empty {
+	background-color: var(--dm-empty-board-bg);
+}
+
+#dm-root .cell.pending {
+	border-color: #878a8c;
+}
+
+#dm-root .cell.correct {
+	background: #6aaa64;
+	color: #ffffff;
+	border-color: #6aaa64;
+}
+
+#dm-root .cell.present {
+	background: #c9b458;
+	color: #ffffff;
+	border-color: #c9b458;
+}
+
+#dm-root .cell.absent {
+	background: #787c7e;
+	color: #ffffff;
+	border-color: #787c7e;
+}
+
+/* On screen keyboard */
+#dm-root #keyboard {
+	margin-top: 12px;
+	user-select: none;
+	text-align: center;
+}
+
+#dm-root .kb-row {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 4px;
+}
+
+#dm-root .kb-key {
+	min-width: 2.4em;
+	padding: 8px 6px;
+	margin: 0 2px;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 4px;
+	border: 2px solid var(--dm-grid-border);
+	cursor: pointer;
+	background: #d3d6da;
+	color: #000000;
+	font-size: 0.9rem;
+	box-sizing: border-box;
+}
+
+:root[data-md-color-scheme="slate"] #dm-root .kb-key {
+	background: #444444;
+	color: #f0f0f0;
+}
+
+#dm-root .kb-key.wide {
+	min-width: 3.4em;
+}
+
+#dm-root .kb-key.correct {
+	background: #6aaa64;
+	border-color: #6aaa64;
+	color: #ffffff;
+}
+
+#dm-root .kb-key.present {
+	background: #c9b458;
+	border-color: #c9b458;
+	color: #ffffff;
+}
+
+#dm-root .kb-key.absent {
+	background: #787c7e;
+	border-color: #787c7e;
+	color: #ffffff;
+}
+
+#dm-root .kb-key.invalid {
+	background: #f4d6d6;
+	border-color: #e0b3b3;
+	color: #885555;
+	cursor: not-allowed;
+}
+
+:root[data-md-color-scheme="slate"] #dm-root .kb-key.invalid {
+	background: #3a2a2a;
+	border-color: #6b4b4b;
+	color: #e0b3b3;
+}
+
+/* Toast messages */
+#dm-root #toast-container {
+	position: fixed;
+	top: 12px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1000;
+	pointer-events: none;
+}
+
+#dm-root .toast {
+	background: var(--dm-toast-bg);
+	color: #ffffff;
+	padding: 8px 14px;
+	margin-top: 4px;
+	border-radius: 4px;
+	font-size: 0.9rem;
+	opacity: 0;
+	transition: opacity 0.15s ease;
+}
+
+#dm-root .toast.show {
+	opacity: 1;
+}
+
+#dm-root #help-row {
+	margin: 8px auto 0;
+	text-align: center;
+}
+
+#dm-root #help-button {
+	padding: 4px 10px;
+	font-size: 0.9rem;
+	cursor: pointer;
+}
+
+/* Optional hint */
+#dm-root #hint-area {
+	margin: 8px 0 10px;
+	border-radius: 12px;
+	padding: 8px 10px;
+	border: 2px solid rgba(0, 0, 0, 0.18);
+	background: linear-gradient(135deg, rgba(255, 221, 87, 0.25), rgba(82, 196, 255, 0.20));
+}
+
+#dm-root #hint-button {
+	display: inline-block;
+	padding: 6px 10px;
+	font-size: 0.88rem;
+	font-weight: 700;
+	cursor: pointer;
+	border-radius: 999px;
+	border: 2px solid rgba(0, 0, 0, 0.20);
+	background: #ffcc66;
+	color: #1a1a1a;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.18);
+}
+
+#dm-root #hint-button:disabled {
+	opacity: 0.55;
+	cursor: not-allowed;
+}
+
+#dm-root #hint-area #hint-button:hover:enabled {
+	filter: brightness(0.98);
+}
+
+#dm-root #hint-status {
+	margin-top: 6px;
+	font-size: 0.9rem;
+	opacity: 0.9;
+}
+
+:root[data-md-color-scheme="slate"] #dm-root #hint-area {
+	border: 2px solid rgba(255, 255, 255, 0.18);
+	background: linear-gradient(135deg, rgba(255, 221, 87, 0.14), rgba(82, 196, 255, 0.12));
+}
+
+:root[data-md-color-scheme="slate"] #dm-root #hint-button {
+	border: 2px solid rgba(255, 255, 255, 0.22);
+	background: #d9a441;
+	color: #111111;
+}
