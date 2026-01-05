@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-01-05
+- Added `site_docs/daily_puzzles/deletetions_source/deletion_mutant_plan.md` outlining the deletion mutant daily puzzle port.
+- Updated `site_docs/daily_puzzles/deletetions_source/deletion_mutant_plan.md` with current implementation status and next steps.
+- Added the new daily puzzle page `site_docs/daily_puzzles/deletion_mutants.md`.
+- Added shared browser utilities `site_docs/assets/scripts/daily_puzzle_core.js` and `site_docs/assets/scripts/daily_puzzle_stats.js`.
+- Added deletion mutant puzzle JS/CSS assets under `site_docs/assets/scripts/` and `site_docs/assets/stylesheets/`.
+- Tweaked deletion mutant UI: stronger table borders, visible empty guess grid, and an optional first-gene hint with a guess penalty.
+- Tweaked daily puzzle UI: shared pill-style stats/streak display and deletion-table styling closer to the original deletion mutant tables.
+- Refined deletion mutant daily puzzle styling: pastel deletions in light mode, dark deletions in dark mode, better empty-cell fills, hint button styling, and reduced perceived whitespace around the game area.
+- Reduced the size of the "I need help" hint UI in the deletion mutant daily puzzle.
+- Widened deletion mutant table columns for readability.
+- Refactored deletion mutant theme switching to use MkDocs Material `data-md-color-scheme` CSS variables (no JS re-render on toggle).
+- Added the deletion mutant puzzle to `mkdocs.yml` nav and linked it from `site_docs/index.md`.
+
 ## 2026-01-03
 - Added `bbq_control/bbq_config.yml` for path aliases, script aliases, and input defaults.
 - Added an `input` column to `bbq_control/bbq_tasks.csv` and `bbq_control/sub_bbq_tasks.csv`.

@@ -77,9 +77,11 @@ function renderStats() {
     if (!el) {
         return;
     }
-    el.textContent =
-    "Games: " + stats.gamesPlayed +
-    "   Wins: " + stats.wins +
-    "   Streak: " + stats.currentStreak +
-    "   Max streak: " + stats.maxStreak;
+    el.innerHTML =
+    "<div class='dp-stats'>" +
+        "<span class='dp-stat'>Games <span class='dp-val'>" + String(stats.gamesPlayed) + "</span></span>" +
+        "<span class='dp-stat'>Wins <span class='dp-val'>" + String(stats.wins) + "</span></span>" +
+        "<span class='dp-stat dp-streak'>Streak <span class='dp-val'>" + String(stats.currentStreak) + "</span></span>" +
+        "<span class='dp-stat'>Max <span class='dp-val'>" + String(stats.maxStreak) + "</span></span>" +
+    "</div>";
 }
