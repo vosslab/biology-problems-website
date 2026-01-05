@@ -7,8 +7,8 @@
 	];
 
 	var LIGHT_WHEEL = [
-		"ffcccc", "ffd9cc", "ffe6cc", "ffebcc", "ffffcc", "eaefdc", "d9ffcc", "ccffcc",
-		"ccffe6", "ccffff", "ccf2ff", "ccd9ff", "ccccff", "e6ccff", "ffccf2", "ffccff"
+		"ff9999", "ffad99", "ffc199", "ffd599", "ffff99", "e1f0a3", "adff99", "99ffbf",
+		"99ffe0", "99ffff", "99d6ff", "99adff", "b399ff", "d699ff", "ff99d6", "ff99ff"
 	];
 
 	var EXTRA_LIGHT_WHEEL = [
@@ -114,8 +114,7 @@
 		return colors;
 	}
 
-	window.DeletionMutantsColors = {
+	window.DailyPuzzleColors = {
 		pickColorPairs: pickColorPairs
 	};
 }());
-

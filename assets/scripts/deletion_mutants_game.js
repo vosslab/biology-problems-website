@@ -1,6 +1,6 @@
 "use strict";
 
-/* global DailyPuzzleCore, DailyPuzzleStats, DeletionMutantsWords, DeletionMutantsColors, DeletionMutantsLogic */
+/* global DailyPuzzleCore, DailyPuzzleStats, DailyPuzzleKeyboard, DailyPuzzleUI, DailyPuzzleWordle, DeletionMutantsWords, DailyPuzzleColors, DeletionMutantsLogic */
 
 var DELETION_MUTANTS_CONFIG = {
 	numGenes: 5,
@@ -25,6 +25,7 @@ function deletionMutantsSetupGame() {
 
 	var dayKey = DailyPuzzleCore.getUtcDayKey(new Date());
 	var statsStore = DailyPuzzleStats.createStore("deletion_mutants_stats_v1");
+	var _toaster = null;
 
 	var state = {
 		dayKey: dayKey,
@@ -35,8 +36,7 @@ function deletionMutantsSetupGame() {
 		guesses: [],
 		currentGuess: "",
 		letterState: {},
-		hintsUsed: 0,
-		firstGeneHintRevealed: false,
+		hintUsed: false,
 		gameOver: false
 	};
 
@@ -62,128 +62,51 @@ function deletionMutantsSetupGame() {
 	}
 
 	function scoreGuess(guess, answer) {
-		var len = answer.length;
-		var result = new Array(len).fill("absent");
-		var counts = {};
-		var i = 0;
-
-		for (i = 0; i < len; i += 1) {
-			var a = answer[i];
-			var g = guess[i];
-			if (g === a) {
-				result[i] = "correct";
-			} else {
-				counts[a] = (counts[a] || 0) + 1;
-			}
-		}
-
-		for (i = 0; i < len; i += 1) {
-			if (result[i] !== "absent") {
-				continue;
-			}
-			var ch = guess[i];
-			if (counts[ch] > 0) {
-				result[i] = "present";
-				counts[ch] -= 1;
-			}
-		}
-
-		return result;
+		return DailyPuzzleWordle.scoreGuess(guess, answer);
 	}
 
 	function updateLetterState(guess, result) {
-		var i = 0;
-		for (i = 0; i < guess.length; i += 1) {
-			var ch = guess[i];
-			var res = result[i];
-			var current = state.letterState[ch] || "unknown";
-
-			if (res === "correct") {
-				state.letterState[ch] = "correct";
-			} else if (res === "present") {
-				if (current !== "correct") {
-					state.letterState[ch] = "present";
-				}
-			} else if (res === "absent") {
-				if (current === "unknown") {
-					state.letterState[ch] = "absent";
-				}
-			}
-		}
+		DailyPuzzleWordle.updateLetterState(guess, result, state.letterState);
 	}
 
 	function showToast(text, durationMs) {
-		var container = document.getElementById("toast-container");
-		if (!container) {
-			return;
+		if (!_toaster) {
+			_toaster = DailyPuzzleWordle.createToaster("toast-container", 1600);
 		}
-		var d = durationMs || 1600;
+		_toaster(text, durationMs);
+	}
 
-		var el = document.createElement("div");
-		el.className = "toast";
-		el.textContent = text;
-		container.appendChild(el);
+	function getHintPenaltyUsedCount() {
+		return DailyPuzzleWordle.getHintPenaltyUsedCount(state.hintUsed, DELETION_MUTANTS_CONFIG.firstGeneHintPenaltyGuesses);
+	}
 
-		void el.offsetWidth;
-		el.classList.add("show");
-
-		window.setTimeout(function () {
-			el.classList.remove("show");
-			window.setTimeout(function () {
-				if (el.parentNode === container) {
-					container.removeChild(el);
-				}
-			}, 200);
-		}, d);
+	function getDisplayGuesses() {
+		if (!state.geneOrder) {
+			return state.guesses;
+		}
+		return DailyPuzzleWordle.getDisplayGuesses(
+			state.guesses,
+			state.hintUsed,
+			DELETION_MUTANTS_CONFIG.numGenes,
+			state.geneOrder[0]
+		);
 	}
 
 	function renderBoard() {
-		var rows = DELETION_MUTANTS_CONFIG.maxGuesses;
-		var wordLen = DELETION_MUTANTS_CONFIG.numGenes;
-
-		boardEl.innerHTML = "";
-
-		var rowIndex = 0;
-		for (rowIndex = 0; rowIndex < rows; rowIndex += 1) {
-			var row = document.createElement("div");
-			row.className = "row";
-
-			var text = "";
-			var result = null;
-			var pending = false;
-
-			if (rowIndex < state.guesses.length) {
-				text = state.guesses[rowIndex].guess;
-				result = state.guesses[rowIndex].result;
-			} else if (rowIndex === state.guesses.length && state.currentGuess) {
-				text = state.currentGuess;
-				pending = true;
-			}
-
-			var col = 0;
-			for (col = 0; col < wordLen; col += 1) {
-				var cell = document.createElement("span");
-				var ch = text[col] || "";
-				cell.textContent = ch;
-
-				var cls = "cell";
-				if (result) {
-					cls += " " + result[col];
-				} else if (pending && ch) {
-					cls += " pending";
-				} else {
-					cls += " empty";
-				}
-				cell.className = cls;
-				row.appendChild(cell);
-			}
-
-			boardEl.appendChild(row);
-		}
+		DailyPuzzleWordle.renderBoard(boardEl, {
+			wordLen: DELETION_MUTANTS_CONFIG.numGenes,
+			maxRows: DELETION_MUTANTS_CONFIG.maxGuesses,
+			guesses: getDisplayGuesses(),
+			currentGuess: state.currentGuess,
+			gameOver: state.gameOver,
+			hideWhenEmpty: true
+		});
 	}
 
 	function renderKeyboard() {
-		keyboardEl.innerHTML = "";
+		if (!window.DailyPuzzleKeyboard) {
+			return;
+		}
 
 		var allowed = {};
 		var i = 0;
@@ -191,67 +114,12 @@ function deletionMutantsSetupGame() {
 			allowed[state.geneOrder[i]] = true;
 		}
 
-		var rows = [
-			"QWERTYUIOP",
-			"ASDFGHJKL",
-			"ZXCVBNM"
-		];
-
-		function createRow(letters, isBottom) {
-			var rowEl = document.createElement("div");
-			rowEl.className = "kb-row";
-
-			if (isBottom) {
-				var enterKey = document.createElement("button");
-				enterKey.type = "button";
-				enterKey.className = "kb-key wide";
-				enterKey.textContent = "Enter";
-				enterKey.dataset.key = "ENTER";
-				rowEl.appendChild(enterKey);
+		window.DailyPuzzleKeyboard.renderKeyboard(state.letterState, {
+			containerId: "keyboard",
+			isKeyDisabled: function (ch) {
+				return !allowed[ch];
 			}
-
-			var j = 0;
-			for (j = 0; j < letters.length; j += 1) {
-				var ch = letters[j];
-				var key = document.createElement("button");
-				key.type = "button";
-
-				var cls = "kb-key";
-				if (!allowed[ch]) {
-					cls += " invalid";
-					key.disabled = true;
-				} else {
-					var st = state.letterState[ch];
-					if (st === "correct") {
-						cls += " correct";
-					} else if (st === "present") {
-						cls += " present";
-					} else if (st === "absent") {
-						cls += " absent";
-					}
-				}
-
-				key.className = cls;
-				key.textContent = ch;
-				key.dataset.key = ch;
-				rowEl.appendChild(key);
-			}
-
-			if (isBottom) {
-				var backKey = document.createElement("button");
-				backKey.type = "button";
-				backKey.className = "kb-key wide";
-				backKey.textContent = "DEL";
-				backKey.dataset.key = "BACKSPACE";
-				rowEl.appendChild(backKey);
-			}
-
-			return rowEl;
-		}
-
-		keyboardEl.appendChild(createRow(rows[0], false));
-		keyboardEl.appendChild(createRow(rows[1], false));
-		keyboardEl.appendChild(createRow(rows[2], true));
+		});
 	}
 
 	function renderProblem() {
@@ -292,7 +160,7 @@ function deletionMutantsSetupGame() {
 			var tr = document.createElement("tr");
 			tr.className = "dm-del-scheme";
 			if (colorEntry) {
-				tr.style.setProperty("--dm-fill-light", colorEntry.extraLight);
+				tr.style.setProperty("--dm-fill-light", colorEntry.light);
 				tr.style.setProperty("--dm-fill-dark", colorEntry.dark);
 				tr.style.setProperty("--dm-label-light", colorEntry.dark);
 				tr.style.setProperty("--dm-label-dark", colorEntry.light);
@@ -307,8 +175,22 @@ function deletionMutantsSetupGame() {
 				var gene = state.geneOrder[col];
 				var td = document.createElement("td");
 				td.className = "dm-cell";
-				if (deletion.indexOf(gene) >= 0) {
+				var inDel = deletion.indexOf(gene) >= 0;
+				if (inDel) {
 					td.className = "dm-cell dm-filled";
+
+					var prevGene = col > 0 ? state.geneOrder[col - 1] : null;
+					var nextGene = col + 1 < state.geneOrder.length ? state.geneOrder[col + 1] : null;
+
+					var prevIn = prevGene && deletion.indexOf(prevGene) >= 0;
+					var nextIn = nextGene && deletion.indexOf(nextGene) >= 0;
+
+					if (!prevIn) {
+						td.className += " dm-run-start";
+					}
+					if (!nextIn) {
+						td.className += " dm-run-end";
+					}
 				}
 				tr.appendChild(td);
 			}
@@ -330,7 +212,7 @@ function deletionMutantsSetupGame() {
 			var li = document.createElement("li");
 			li.className = "dm-del-scheme";
 			if (delColorEntry) {
-				li.style.setProperty("--dm-fill-light", delColorEntry.extraLight);
+				li.style.setProperty("--dm-fill-light", delColorEntry.light);
 				li.style.setProperty("--dm-fill-dark", delColorEntry.dark);
 				li.style.setProperty("--dm-label-light", delColorEntry.dark);
 				li.style.setProperty("--dm-label-dark", delColorEntry.light);
@@ -351,22 +233,23 @@ function deletionMutantsSetupGame() {
 	}
 
 	function renderHintArea() {
-		var remaining = DELETION_MUTANTS_CONFIG.maxGuesses - (state.guesses.length + state.hintsUsed);
-		var status = "";
+		var remaining = DailyPuzzleUI.computeRemainingGuesses(
+			DELETION_MUTANTS_CONFIG.maxGuesses,
+			state.guesses.length,
+			getHintPenaltyUsedCount()
+		);
 
-		if (state.firstGeneHintRevealed) {
-			status = "Hint revealed: first gene is " + state.geneOrder[0] + ".";
-			hintButton.disabled = true;
-		} else if (state.gameOver) {
-			hintButton.disabled = true;
-		} else if (remaining <= 1) {
-			status = "Hint unavailable (not enough guesses remaining).";
-			hintButton.disabled = true;
-		} else {
-			hintButton.disabled = false;
-		}
-
-		hintStatusEl.textContent = status;
+		DailyPuzzleUI.renderPenaltyHint({
+			buttonEl: hintButton,
+			statusEl: hintStatusEl,
+			isRevealed: state.hintUsed,
+			isGameOver: state.gameOver,
+			isEligible: state.guesses.length === 0 && state.currentGuess.length === 0,
+			remaining: remaining,
+			minRemainingAfterHint: 1,
+			revealedText: "Hint revealed: first gene is " + state.geneOrder[0] + " (-1 guess).",
+			unavailableText: "Hint unavailable (not enough guesses remaining)."
+		});
 	}
 
 	function isValidGuess(raw) {
@@ -427,7 +310,7 @@ function deletionMutantsSetupGame() {
 			return;
 		}
 
-		if (state.guesses.length + state.hintsUsed >= DELETION_MUTANTS_CONFIG.maxGuesses) {
+		if (state.guesses.length + getHintPenaltyUsedCount() >= DELETION_MUTANTS_CONFIG.maxGuesses) {
 			state.gameOver = true;
 			messageEl.textContent = "Out of guesses. Answer: " + answer;
 			statsStore.updateOnGameEnd(false, state.dayKey);
@@ -440,22 +323,34 @@ function deletionMutantsSetupGame() {
 	}
 
 	function onHintClick() {
-		if (state.gameOver || state.firstGeneHintRevealed) {
+		if (state.gameOver || state.hintUsed) {
 			return;
 		}
 
-		var remaining = DELETION_MUTANTS_CONFIG.maxGuesses - (state.guesses.length + state.hintsUsed);
+		if (state.guesses.length > 0) {
+			showToast("Hint is only available before your first guess.");
+			return;
+		}
+
+		if (state.currentGuess.length > 0) {
+			return;
+		}
+
+		var remaining = DELETION_MUTANTS_CONFIG.maxGuesses - state.guesses.length;
 		if (remaining <= 1) {
 			showToast("Not enough guesses remaining for a hint.");
 			return;
 		}
 
-		state.firstGeneHintRevealed = true;
-		state.hintsUsed += DELETION_MUTANTS_CONFIG.firstGeneHintPenaltyGuesses;
+		state.hintUsed = true;
+		state.currentGuess = state.geneOrder[0];
+		state.letterState[state.geneOrder[0]] = "correct";
 		showToast("Hint: the first gene is " + state.geneOrder[0] + " (-1 guess)");
+		renderBoard();
+		renderKeyboard();
 		renderHintArea();
 
-		if (state.guesses.length + state.hintsUsed >= DELETION_MUTANTS_CONFIG.maxGuesses) {
+		if (state.guesses.length + getHintPenaltyUsedCount() >= DELETION_MUTANTS_CONFIG.maxGuesses) {
 			state.gameOver = true;
 			messageEl.textContent = "Out of guesses. Answer: " + state.answerWord;
 			statsStore.updateOnGameEnd(false, state.dayKey);
@@ -504,32 +399,20 @@ function deletionMutantsSetupGame() {
 	}
 
 	function attachEventHandlers() {
-		document.addEventListener("keydown", function (e) {
-			if (e.key === "Enter") {
-				e.preventDefault();
-				onKeyInput("ENTER");
-				return;
-			}
-			if (e.key === "Backspace") {
-				e.preventDefault();
-				onKeyInput("BACKSPACE");
-				return;
-			}
-			if (/^[a-zA-Z]$/.test(e.key)) {
-				onKeyInput(e.key.toUpperCase());
-			}
-		});
+		if (window.DailyPuzzleInput) {
+			window.DailyPuzzleInput.install({
+				isEnabled: function () { return !state.gameOver; },
+				onType: function (ch) { onKeyInput(ch); },
+				onEnter: function () { onKeyInput("ENTER"); },
+				onBackspace: function () { onKeyInput("BACKSPACE"); }
+			});
+		}
 
-		keyboardEl.addEventListener("click", function (e) {
-			var target = e.target;
-			if (!target || target.tagName !== "BUTTON") {
-				return;
-			}
-			var key = target.dataset.key;
-			if (key) {
+		if (window.DailyPuzzleKeyboard) {
+			window.DailyPuzzleKeyboard.attachKeyboardClick(function (key) {
 				onKeyInput(key);
-			}
-		});
+			}, { containerId: "keyboard" });
+		}
 
 		hintButton.addEventListener("click", function () {
 			onHintClick();
@@ -555,7 +438,7 @@ function deletionMutantsSetupGame() {
 		state.deletionsList = deletionsList;
 
 		var rngColors = DailyPuzzleCore.makeSeededRng(DeletionMutantsWords.getDailySeed("colors", answerWord, new Date()));
-		var colorPairs = DeletionMutantsColors.pickColorPairs(deletionsList.length, rngColors);
+		var colorPairs = DailyPuzzleColors.pickColorPairs(deletionsList.length, rngColors);
 
 		var colorMap = {};
 		var i = 0;

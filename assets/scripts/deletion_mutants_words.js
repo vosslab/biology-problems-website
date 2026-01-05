@@ -3,6 +3,7 @@
 (function () {
 	var WORD_SOURCE_PATH = "/daily_puzzles/deletetions_source/real_wordles.txt";
 	var SECRET_SALT = "deletion-mutants-v1";
+	var LOCALSTORAGE_CACHE_PREFIX = "deletion_mutants_words_cache_v1_";
 
 	var _cache = {};
 
@@ -51,6 +52,20 @@
 			return _cache[wordLength];
 		}
 
+		var cacheKey = LOCALSTORAGE_CACHE_PREFIX + String(wordLength);
+		try {
+			var cachedRaw = window.localStorage.getItem(cacheKey);
+			if (cachedRaw) {
+				var cachedWords = JSON.parse(cachedRaw);
+				if (Array.isArray(cachedWords) && cachedWords.length) {
+					_cache[wordLength] = cachedWords;
+					return cachedWords;
+				}
+			}
+		} catch (_) {
+			// ignore and re-fetch
+		}
+
 		var resp = await fetch(WORD_SOURCE_PATH);
 		if (!resp.ok) {
 			throw new Error("Could not load word list (" + resp.status + ")");
@@ -63,6 +78,11 @@
 		}
 
 		_cache[wordLength] = words;
+		try {
+			window.localStorage.setItem(cacheKey, JSON.stringify(words));
+		} catch (_) {
+			// ignore quota / disabled storage
+		}
 		return words;
 	}
 
@@ -88,4 +108,3 @@
 		getDailySeed: getDailySeed
 	};
 }());
-

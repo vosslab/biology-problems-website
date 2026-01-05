@@ -1,3 +1,6 @@
+"use strict";
+
+/* global DailyPuzzleCore */
 
 // 5-letter valid "pentapeptide" words
 const WORD_LIST = [
@@ -94,30 +97,12 @@ const WORD_LIST = [
 'WRING', 'WRIST', 'WRITE', 'WRYLY', 'YACHT', 'YEARN', 'YEAST', 'YIELD'
 ];
 
-function getUtcDayKey(date = new Date()) {
-    // "2025-11-09T12:34:56.789Z" -> "2025-11-09"
-    return date.toISOString().slice(0, 10);
-}
-
-function hashString32(str) {
-    // MurmurHash3-style 32 bit hash, good avalanche, non linear
-    let h = 1779033703 ^ str.length;
-    for (let i = 0; i < str.length; i += 1) {
-        h = Math.imul(h ^ str.charCodeAt(i), 3432918353);
-        h = (h << 13) | (h >>> 19);
-    }
-    h = Math.imul(h ^ (h >>> 16), 2246822507);
-    h = Math.imul(h ^ (h >>> 13), 3266489909);
-    h ^= h >>> 16;
-    return h >>> 0; // force unsigned
-}
-// WORD_LIST is your 898 word array, all uppercase
-
 const SECRET_SALT = "peptide-7x9";
 
 function getDailyIndex(date = new Date()) {
-    const key = getUtcDayKey(date) + "|" + SECRET_SALT;
-    const h = hashString32(key);         // deterministic 32 bit integer
+    const dayKey = DailyPuzzleCore.getUtcDayKey(date);
+    const key = dayKey + "|" + SECRET_SALT;
+    const h = DailyPuzzleCore.hashString32(key);         // deterministic 32 bit integer
     const n = WORD_LIST.length;
     return h % n;                        // 0 to n-1
 }
@@ -126,3 +111,6 @@ function getDailyWord(date = new Date()) {
     return WORD_LIST[getDailyIndex(date)];
 }
 
+window.PeptidyleWords = {
+    getDailyWord: getDailyWord
+};
