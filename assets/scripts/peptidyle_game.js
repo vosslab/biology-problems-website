@@ -14,6 +14,8 @@ const INVALID_LETTERS = {
 // Simple letter state for keyboard colouring
 const LETTER_STATE = {};
 const MAX_GUESSES = 3;
+const FIRST_LETTER_HINT_PENALTY = 1;
+let _peptidyleToaster = null;
 
 (function initLetterState() {
     const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -26,34 +28,10 @@ const MAX_GUESSES = 3;
 // Scoring and validation
 //=================================================
 function scoreGuess(guess, answer) {
-    const len = answer.length;
-    const result = new Array(len).fill("absent");
-    const counts = {};
-
-    // first pass: mark correct and count others
-    for (let i = 0; i < len; i += 1) {
-        const a = answer[i];
-        const g = guess[i];
-        if (g === a) {
-            result[i] = "correct";
-        } else {
-            counts[a] = (counts[a] || 0) + 1;
-        }
+    if (!window.DailyPuzzleWordle) {
+        return [];
     }
-
-    // second pass: present vs absent
-    for (let i = 0; i < len; i += 1) {
-        if (result[i] !== "absent") {
-            continue;
-        }
-        const g = guess[i];
-        if (counts[g] > 0) {
-            result[i] = "present";
-            counts[g] -= 1;
-        }
-    }
-
-    return result; // array of "correct" | "present" | "absent"
+    return window.DailyPuzzleWordle.scoreGuess(guess, answer);
 }
 
 // peptide specific validator: any valid amino acid sequence of length 5
@@ -79,176 +57,66 @@ function isValidPeptideGuess(guess) {
 //=================================================
 // Board rendering: show previous guesses + currentGuess + empty rows
 //=================================================
-function renderBoard(container, guesses, currentGuess, maxRows) {
-    const rows = maxRows || 3;
-    const wordLen = 5;
-
-    container.innerHTML = "";
-
-    for (let rowIndex = 0; rowIndex < rows; rowIndex += 1) {
-        const row = document.createElement("div");
-        row.className = "row";
-
-        let text = "";
-        let result = null;
-        let state = "empty";
-
-        if (rowIndex < guesses.length) {
-            // past guess, already scored
-            text = guesses[rowIndex].guess;
-            result = guesses[rowIndex].result;
-        } else if (rowIndex === guesses.length && currentGuess) {
-            // active guess being typed
-            text = currentGuess;
-            state = "pending";
-        }
-
-        for (let col = 0; col < wordLen; col += 1) {
-            const cell = document.createElement("span");
-            let ch = text[col] || "";
-            cell.textContent = ch;
-
-            let cls = "cell";
-            if (result) {
-                cls += " " + result[col]; // correct | present | absent
-            } else if (state === "pending" && ch) {
-                cls += " pending";
-            } else {
-                cls += " empty";
-            }
-            cell.className = cls;
-            row.appendChild(cell);
-        }
-
-        container.appendChild(row);
+function renderBoard(container, guesses, currentGuess, maxRows, gameOver) {
+    if (!window.DailyPuzzleWordle) {
+        return;
     }
+    window.DailyPuzzleWordle.renderBoard(container, {
+        wordLen: 5,
+        maxRows: maxRows || 3,
+        guesses: guesses || [],
+        currentGuess: currentGuess || "",
+        gameOver: Boolean(gameOver),
+        hideWhenEmpty: true
+    });
 }
 
 //=================================================
 // Keyboard state and rendering
 //=================================================
 function updateLetterState(guess, result, letterState) {
-    for (let i = 0; i < guess.length; i += 1) {
-        const ch = guess[i];
-        const res = result[i];
-        const current = letterState[ch] || "unknown";
-
-        if (res === "correct") {
-            letterState[ch] = "correct";
-        } else if (res === "present") {
-            if (current !== "correct") {
-                letterState[ch] = "present";
-            }
-        } else if (res === "absent") {
-            if (current === "unknown") {
-                letterState[ch] = "absent";
-            }
-        }
+    if (!window.DailyPuzzleWordle) {
+        return;
     }
+    window.DailyPuzzleWordle.updateLetterState(guess, result, letterState);
 }
 
 function renderKeyboard(letterState) {
-    const container = document.getElementById("keyboard");
-    if (!container) {
+    if (!window.DailyPuzzleKeyboard) {
         return;
     }
-    container.innerHTML = "";
-
-    const rows = [
-        "QWERTYUIOP",
-        "ASDFGHJKL",
-        "ZXCVBNM"
-    ];
-
-    function createRow(letters, isBottom) {
-        const rowEl = document.createElement("div");
-        rowEl.className = "kb-row";
-
-        if (isBottom) {
-            const enterKey = document.createElement("button");
-            enterKey.type = "button";
-            enterKey.className = "kb-key wide";
-            enterKey.textContent = "Enter";
-            enterKey.dataset.key = "ENTER";
-            rowEl.appendChild(enterKey);
+    window.DailyPuzzleKeyboard.renderKeyboard(letterState, {
+        containerId: "keyboard",
+        isKeyDisabled: function (ch) {
+            return Boolean(INVALID_LETTERS[ch]);
         }
-
-        for (let i = 0; i < letters.length; i += 1) {
-            const ch = letters[i];
-            const key = document.createElement("button");
-            key.type = "button";
-
-            let cls = "kb-key";
-            if (INVALID_LETTERS[ch]) {
-                cls += " invalid";
-                key.disabled = true;
-            } else {
-                const state = letterState[ch];
-                if (state === "correct") {
-                    cls += " correct";
-                } else if (state === "present") {
-                    cls += " present";
-                } else if (state === "absent") {
-                    cls += " absent";
-                }
-            }
-            key.className = cls;
-            key.textContent = ch;
-            key.dataset.key = ch;
-            rowEl.appendChild(key);
-        }
-
-        if (isBottom) {
-            const backKey = document.createElement("button");
-            backKey.type = "button";
-            backKey.className = "kb-key wide";
-            backKey.textContent = "DEL";
-            backKey.dataset.key = "BACKSPACE";
-            rowEl.appendChild(backKey);
-        }
-
-        return rowEl;
-    }
-
-    container.appendChild(createRow(rows[0], false));
-    container.appendChild(createRow(rows[1], false));
-    container.appendChild(createRow(rows[2], true));
+    });
 }
 
 //=================================================
 // Toast messages
 //=================================================
 function showToast(text, durationMs) {
-    const container = document.getElementById("toast-container");
-    if (!container) {
+    if (!window.DailyPuzzleWordle) {
         return;
     }
-    const d = durationMs || 1500;
-
-    const el = document.createElement("div");
-    el.className = "toast";
-    el.textContent = text;
-    container.appendChild(el);
-
-    void el.offsetWidth;
-    el.classList.add("show");
-
-    setTimeout(function () {
-        el.classList.remove("show");
-        setTimeout(function () {
-            if (el.parentNode === container) {
-                container.removeChild(el);
-            }
-        }, 200);
-    }, d);
+    if (!_peptidyleToaster) {
+        _peptidyleToaster = window.DailyPuzzleWordle.createToaster("toast-container", 1500);
+    }
+    _peptidyleToaster(text, durationMs);
 }
 
 //=================================================
 // Game setup and main loop
 //=================================================
 function setupGame() {
-    const dayKey = getUtcDayKey();
-    let answer = getDailyWord(); // uppercase
+    const dayKey = window.DailyPuzzleCore
+        ? window.DailyPuzzleCore.getUtcDayKey(new Date())
+        : new Date().toISOString().slice(0, 10);
+
+    let answer = window.PeptidyleWords
+        ? window.PeptidyleWords.getDailyWord(new Date())
+        : getDailyWord(); // uppercase
 
     // Optional override from URL: ?seq=ACRID
     if (window.PEPTIDYL_OVERRIDE) {
@@ -258,7 +126,16 @@ function setupGame() {
     const maxGuesses = MAX_GUESSES;
 
     renderSequence(answer, "peptide"); // from peptidyl_peptides.js
-    renderStats();
+
+    const statsStore = window.DailyPuzzleStats
+        ? window.DailyPuzzleStats.createStore("peptidyle_stats_v1")
+        : null;
+    if (statsStore) {
+        statsStore.renderStats("stats");
+    }
+
+    const hintButton = document.getElementById("hint-button");
+    const hintStatusEl = document.getElementById("hint-status");
 
     const form = document.getElementById("guess-form");
     const input = document.getElementById("guess");
@@ -268,12 +145,117 @@ function setupGame() {
     let guesses = [];
     let finished = false;
     let currentGuess = "";
+    let hintUsed = false;
+
+    function getDisplayGuesses() {
+        if (!window.DailyPuzzleWordle) {
+            return guesses;
+        }
+        return window.DailyPuzzleWordle.getDisplayGuesses(guesses, hintUsed, 5, answer[0]);
+    }
 
     // keep hidden input in sync but it is not shown
     input.value = "";
 
-    renderBoard(board, guesses, currentGuess, maxGuesses);
+    renderBoard(board, getDisplayGuesses(), currentGuess, maxGuesses, finished);
     renderKeyboard(LETTER_STATE);
+
+    function renderHintArea() {
+        if (!hintButton || !hintStatusEl) {
+            return;
+        }
+        const hintsUsedCount = window.DailyPuzzleWordle
+            ? window.DailyPuzzleWordle.getHintPenaltyUsedCount(hintUsed, FIRST_LETTER_HINT_PENALTY)
+            : 0;
+
+        const remaining = window.DailyPuzzleUI
+            ? window.DailyPuzzleUI.computeRemainingGuesses(maxGuesses, guesses.length, hintsUsedCount)
+            : (maxGuesses - (guesses.length + hintsUsedCount));
+
+        const revealedText = "Hint revealed: first letter is " + answer[0] + " (-1 guess).";
+        const unavailableText = "Hint unavailable (not enough guesses remaining).";
+
+        if (window.DailyPuzzleUI) {
+            window.DailyPuzzleUI.renderPenaltyHint({
+                buttonEl: hintButton,
+                statusEl: hintStatusEl,
+                isRevealed: hintUsed,
+                isGameOver: finished,
+                isEligible: guesses.length === 0 && currentGuess.length === 0,
+                remaining: remaining,
+                minRemainingAfterHint: 1,
+                revealedText: revealedText,
+                unavailableText: unavailableText
+            });
+            return;
+        }
+
+        if (hintUsed) {
+            hintButton.disabled = true;
+            hintStatusEl.textContent = revealedText;
+            return;
+        }
+        if (finished || guesses.length > 0 || currentGuess.length > 0 || remaining <= 1) {
+            hintButton.disabled = true;
+            hintStatusEl.textContent = remaining <= 1 ? unavailableText : "";
+            return;
+        }
+        hintButton.disabled = false;
+        hintStatusEl.textContent = "";
+    }
+
+    function onHintClick() {
+        if (finished || hintUsed) {
+            return;
+        }
+        if (guesses.length > 0) {
+            showToast("Hint is only available before your first guess.");
+            renderHintArea();
+            return;
+        }
+        if (currentGuess.length > 0) {
+            return;
+        }
+        const remaining = maxGuesses - guesses.length;
+        if (remaining <= 1) {
+            showToast("Not enough guesses remaining for a hint.");
+            renderHintArea();
+            return;
+        }
+
+        hintUsed = true;
+        if (currentGuess.length === 0) {
+            currentGuess = answer[0];
+            input.value = currentGuess;
+        }
+        LETTER_STATE[answer[0]] = "correct";
+        showToast("Hint: first letter is " + answer[0] + " (-1 guess)");
+        renderBoard(board, getDisplayGuesses(), currentGuess, maxGuesses, finished);
+        renderKeyboard(LETTER_STATE);
+        renderHintArea();
+
+        const hintsUsedCount = window.DailyPuzzleWordle
+            ? window.DailyPuzzleWordle.getHintPenaltyUsedCount(hintUsed, FIRST_LETTER_HINT_PENALTY)
+            : FIRST_LETTER_HINT_PENALTY;
+
+        if (guesses.length + hintsUsedCount >= maxGuesses) {
+            message.textContent = "Out of guesses. Answer was " + answer + ".";
+            showToast("Answer was " + answer + ".");
+            if (statsStore) {
+                statsStore.updateOnGameEnd(false, dayKey);
+                statsStore.renderStats("stats");
+            }
+            finished = true;
+        }
+    }
+
+    if (hintButton) {
+        hintButton.addEventListener("click", function () {
+            onHintClick();
+        });
+    }
+
+    renderHintArea();
 
     function submitGuess() {
         if (finished) {
@@ -294,27 +276,38 @@ function setupGame() {
         guesses.push({ guess: guess, result: result });
         currentGuess = "";
         input.value = "";
-        renderBoard(board, guesses, currentGuess, maxGuesses);
+        renderBoard(board, getDisplayGuesses(), currentGuess, maxGuesses, finished);
         updateLetterState(guess, result, LETTER_STATE);
         renderKeyboard(LETTER_STATE);
 
         if (result.every(function (x) { return x === "correct"; })) {
             message.textContent = "Correct.";
             showToast("Correct.");
-            updateStatsOnGameEnd(true, dayKey);
-            renderStats();
+            if (statsStore) {
+                statsStore.updateOnGameEnd(true, dayKey);
+                statsStore.renderStats("stats");
+            }
+            renderHintArea();
             finished = true;
             return;
         }
-        if (guesses.length >= maxGuesses) {
+        const hintsUsedCount = window.DailyPuzzleWordle
+            ? window.DailyPuzzleWordle.getHintPenaltyUsedCount(hintUsed, FIRST_LETTER_HINT_PENALTY)
+            : 0;
+
+        if (guesses.length + hintsUsedCount >= maxGuesses) {
             message.textContent = "Out of guesses. Answer was " + answer + ".";
             showToast("Answer was " + answer + ".");
-            updateStatsOnGameEnd(false, dayKey);
-            renderStats();
+            if (statsStore) {
+                statsStore.updateOnGameEnd(false, dayKey);
+                statsStore.renderStats("stats");
+            }
+            renderHintArea();
             finished = true;
             return;
         }
         message.textContent = "";
+        renderHintArea();
     }
 
     // Hidden form, in case someone actually hits Enter in it
@@ -323,67 +316,67 @@ function setupGame() {
         submitGuess();
     });
 
+    function handleType(ch) {
+        if (finished) {
+            return;
+        }
+        if (INVALID_LETTERS[ch]) {
+            return;
+        }
+        if (currentGuess.length >= 5) {
+            return;
+        }
+        currentGuess += ch;
+        input.value = currentGuess;
+        renderBoard(board, getDisplayGuesses(), currentGuess, maxGuesses, finished);
+    }
+
+    function handleBackspace() {
+        if (finished) {
+            return;
+        }
+        currentGuess = currentGuess.slice(0, -1);
+        input.value = currentGuess;
+        renderBoard(board, getDisplayGuesses(), currentGuess, maxGuesses, finished);
+    }
+
+    function handleEnter() {
+        submitGuess();
+    }
+
     // On screen keyboard
-    const keyboard = document.getElementById("keyboard");
-    if (keyboard) {
-        keyboard.addEventListener("click", function (evt) {
-            const target = evt.target;
-            if (!target.classList.contains("kb-key")) {
-                return;
-            }
-            const k = target.dataset.key;
-            if (!k) {
-                return;
-            }
+    if (window.DailyPuzzleKeyboard) {
+        window.DailyPuzzleKeyboard.attachKeyboardClick(function (k) {
             if (k === "ENTER") {
-                submitGuess();
+                handleEnter();
             } else if (k === "BACKSPACE") {
-                currentGuess = currentGuess.slice(0, -1);
-                input.value = currentGuess;
-                renderBoard(board, guesses, currentGuess, maxGuesses);
+                handleBackspace();
             } else if (/^[A-Z]$/.test(k)) {
-                if (INVALID_LETTERS[k]) {
-                    return;
-                }
-                if (!finished && currentGuess.length < 5) {
-                    currentGuess += k;
-                    input.value = currentGuess;
-                    renderBoard(board, guesses, currentGuess, maxGuesses);
-                }
+                handleType(k);
             }
-        });
+        }, { containerId: "keyboard" });
     }
 
     // Physical keyboard
-    document.addEventListener("keydown", function (evt) {
-        if (!input || finished) {
-            return;
-        }
-        // do not eat browser shortcuts like Cmd+R, Ctrl+R
-        if (evt.metaKey || evt.ctrlKey || evt.altKey) {
-            return;
-        }
-        const key = evt.key;
-        if (key === "Enter") {
-            evt.preventDefault();
-            submitGuess();
-        } else if (key === "Backspace") {
-            evt.preventDefault();
-            currentGuess = currentGuess.slice(0, -1);
-            input.value = currentGuess;
-            renderBoard(board, guesses, currentGuess, maxGuesses);
-        } else if (/^[a-zA-Z]$/.test(key)) {
-            const ch = key.toUpperCase();
-            if (INVALID_LETTERS[ch]) {
-                evt.preventDefault();
-                return;
+    if (window.DailyPuzzleInput) {
+        window.DailyPuzzleInput.install({
+            isEnabled: function () { return !finished; },
+            onType: handleType,
+            onEnter: handleEnter,
+            onBackspace: handleBackspace,
+            isBlockedTarget: function (el) {
+                if (!el) {
+                    return false;
+                }
+                if (el.isContentEditable) {
+                    return true;
+                }
+                var tag = (el.tagName || "").toLowerCase();
+                if (tag === "input" || tag === "textarea" || tag === "select") {
+                    return el.id !== "guess";
+                }
+                return false;
             }
-            if (currentGuess.length < 5) {
-                currentGuess += ch;
-                input.value = currentGuess;
-                renderBoard(board, guesses, currentGuess, maxGuesses);
-                evt.preventDefault();
-            }
-        }
-    });
+        });
+    }
 }

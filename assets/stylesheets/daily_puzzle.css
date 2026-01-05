@@ -1,0 +1,331 @@
+/* Shared styling for daily puzzles (Peptidyle + Deletion mutants) */
+
+/* Stats "scoreboard" row */
+.dp-stats {
+	display: flex;
+	gap: 8px;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: 6px 0 12px;
+	font-size: 0.9rem;
+	padding: 8px 10px;
+	border-radius: 0.6rem;
+	border: 1px solid rgba(127,127,127,0.25);
+	background: var(--md-default-bg-color);
+	background: color-mix(in srgb, var(--md-primary-fg-color) 14%, var(--md-default-bg-color));
+	color: var(--md-default-fg-color);
+}
+
+.dp-stat {
+	padding: 3px 10px;
+	border-radius: 999px;
+	border: 1px solid rgba(127,127,127,0.25);
+	background: color-mix(in srgb, var(--md-default-bg-color) 92%, var(--md-default-fg-color));
+}
+
+.dp-stat .dp-val {
+	font-weight: 700;
+	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+	color: var(--md-default-fg-color);
+}
+
+.dp-stat.dp-streak {
+	border: 1px solid color-mix(in srgb, var(--md-accent-fg-color) 45%, rgba(127,127,127,0.25));
+	background: color-mix(in srgb, var(--md-accent-fg-color) 18%, var(--md-default-bg-color));
+}
+
+/* Shared keyboard theming variables */
+:root {
+	--kb-key-bg: rgba(127,127,127,0.12);
+	--kb-key-fg: rgba(0,0,0,0.88);
+	--kb-disabled-bg: rgba(220, 80, 80, 0.25);
+	--kb-disabled-fg: rgba(0,0,0,0.88);
+}
+
+body[data-md-color-scheme="slate"] {
+	--kb-key-bg: rgba(127,127,127,0.18);
+	--kb-key-fg: rgba(255,255,255,0.92);
+	--kb-disabled-bg: rgba(200, 45, 45, 0.70);
+	--kb-disabled-fg: rgba(255,255,255,0.92);
+}
+
+/* Hard override: ensure slate palette reaches the puzzle roots */
+body[data-md-color-scheme="slate"] #dm-root,
+body[data-md-color-scheme="slate"] #pw-root {
+	--kb-key-fg: rgba(255,255,255,0.92);
+	--kb-disabled-fg: rgba(255,255,255,0.92);
+}
+
+/* On-screen keyboard (shared layout + visuals) */
+#pw-root #keyboard,
+#dm-root #keyboard {
+	margin-top: 12px;
+	user-select: none;
+	text-align: center;
+	background: var(--md-default-bg-color);
+	border: 1px solid rgba(127,127,127,0.25);
+	border-radius: 0.6rem;
+	padding: 10px 8px;
+}
+
+#pw-root .kb-row,
+#dm-root .kb-row {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 4px;
+}
+
+#pw-root .kb-key,
+#dm-root .kb-key {
+	min-width: 2.4em;
+	padding: 8px 6px;
+	margin: 0 2px;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 4px;
+	border: 1px solid rgba(127,127,127,0.45);
+	cursor: pointer;
+	background: var(--kb-key-bg);
+	color: var(--kb-key-fg);
+	font-size: 0.9rem;
+	box-sizing: border-box;
+}
+
+#pw-root .kb-key.wide,
+#dm-root .kb-key.wide {
+	min-width: 3.4em;
+}
+
+#pw-root .kb-key.correct,
+#dm-root .kb-key.correct {
+	background: #6aaa64;
+	border-color: #6aaa64;
+	color: #ffffff;
+}
+
+#pw-root .kb-key.present,
+#dm-root .kb-key.present {
+	background: #c9b458;
+	border-color: #c9b458;
+	color: #ffffff;
+}
+
+#pw-root .kb-key.absent,
+#dm-root .kb-key.absent {
+	background: #787c7e;
+	border-color: #787c7e;
+	color: #ffffff;
+}
+
+#pw-root .kb-key.disabled,
+#dm-root .kb-key.disabled,
+#pw-root .kb-key:disabled,
+#dm-root .kb-key:disabled {
+	background: var(--kb-disabled-bg);
+	color: var(--kb-disabled-fg);
+	opacity: 1;
+	-webkit-text-fill-color: var(--kb-disabled-fg);
+	cursor: not-allowed;
+}
+
+body[data-md-color-scheme="slate"] #pw-root .kb-key.disabled,
+body[data-md-color-scheme="slate"] #dm-root .kb-key.disabled,
+body[data-md-color-scheme="slate"] #pw-root .kb-key:disabled,
+body[data-md-color-scheme="slate"] #dm-root .kb-key:disabled {
+	background: linear-gradient(to bottom, rgba(255,255,255,0.08), rgba(0,0,0,0.08)), var(--kb-disabled-bg);
+}
+
+/* Ensure the glyph color actually updates (Safari can ignore color without this) */
+body[data-md-color-scheme="slate"] #dm-root button.kb-key,
+body[data-md-color-scheme="slate"] #pw-root button.kb-key {
+	color: var(--kb-key-fg);
+	-webkit-text-fill-color: var(--kb-key-fg);
+}
+
+body[data-md-color-scheme="slate"] #dm-root button.kb-key:disabled,
+body[data-md-color-scheme="slate"] #pw-root button.kb-key:disabled,
+body[data-md-color-scheme="slate"] #dm-root button.kb-key.disabled,
+body[data-md-color-scheme="slate"] #pw-root button.kb-key.disabled {
+	color: var(--kb-disabled-fg);
+	-webkit-text-fill-color: var(--kb-disabled-fg);
+	opacity: 1;
+}
+
+/* Shared help + hint control bar */
+#pw-root #hint-area,
+#dm-root #hint-area {
+	margin: 8px 0 10px;
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	border-radius: 0.6rem;
+	padding: 6px 8px;
+	background: var(--md-default-bg-color);
+	border: 1px solid rgba(127,127,127,0.25);
+}
+
+#pw-root #controls-left,
+#dm-root #controls-left {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+#pw-root #help-button,
+#dm-root #help-button {
+	padding: 4px 10px;
+	font-size: 0.9rem;
+	cursor: pointer;
+	border-radius: 999px;
+	border: 1px solid rgba(127,127,127,0.45);
+	background: var(--md-default-bg-color);
+	color: var(--md-default-fg-color);
+}
+
+#pw-root #hint-button,
+#dm-root #hint-button {
+	display: inline-block;
+	padding: 6px 10px;
+	font-size: 0.88rem;
+	font-weight: 700;
+	cursor: pointer;
+	border-radius: 999px;
+	border: 1px solid rgba(127,127,127,0.45);
+	background: var(--md-primary-fg-color);
+	color: #ffffff;
+}
+
+#pw-root #hint-status,
+#dm-root #hint-status {
+	margin-top: 0;
+	font-size: 0.9rem;
+	opacity: 0.9;
+	flex: 1;
+	text-align: right;
+	min-width: 220px;
+}
+
+@media (max-width: 600px) {
+	#pw-root #hint-status,
+	#dm-root #hint-status {
+		text-align: left;
+		min-width: 0;
+		flex-basis: 100%;
+	}
+}
+
+/* Shared Wordle-style board */
+body[data-md-color-scheme="default"] #pw-root,
+body[data-md-color-scheme="default"] #dm-root {
+	--dp-cell-empty-bg: #f2f2f2;
+	--dp-cell-border: #d3d6da;
+	--dp-cell-pending-border: #878a8c;
+}
+
+body[data-md-color-scheme="slate"] #pw-root,
+body[data-md-color-scheme="slate"] #dm-root {
+	--dp-cell-empty-bg: #3b3f46;
+	--dp-cell-border: rgba(255,255,255,0.18);
+	--dp-cell-pending-border: rgba(255,255,255,0.35);
+}
+
+#pw-root #board,
+#dm-root #board {
+	margin: 6px auto 6px;
+	text-align: center;
+	background: var(--md-default-bg-color);
+	border: 1px solid rgba(127,127,127,0.25);
+	border-radius: 0.6rem;
+	padding: 10px 8px;
+}
+
+#pw-root .row,
+#dm-root .row {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 4px;
+}
+
+#pw-root .cell,
+#dm-root .cell {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 2.2em;
+	height: 2.2em;
+	line-height: 2.2em;
+	text-align: center;
+	margin-right: 3px;
+	border-radius: 4px;
+	border: 1px solid var(--dp-cell-border);
+	font-weight: 700;
+	text-transform: uppercase;
+	box-sizing: border-box;
+	background: var(--dp-cell-empty-bg);
+	color: var(--md-default-fg-color);
+}
+
+#pw-root .cell.empty,
+#dm-root .cell.empty {
+	background: var(--dp-cell-empty-bg);
+	border-color: var(--dp-cell-border);
+}
+
+#pw-root .cell.pending,
+#dm-root .cell.pending {
+	border-color: var(--dp-cell-pending-border);
+}
+
+#pw-root .cell.correct,
+#dm-root .cell.correct {
+	background: #6aaa64;
+	color: #ffffff;
+	border-color: #6aaa64;
+}
+
+#pw-root .cell.present,
+#dm-root .cell.present {
+	background: #c9b458;
+	color: #ffffff;
+	border-color: #c9b458;
+}
+
+#pw-root .cell.absent,
+#dm-root .cell.absent {
+	background: #787c7e;
+	color: #ffffff;
+	border-color: #787c7e;
+}
+
+.dp-penalty-row .cell.empty {
+	opacity: 0.85;
+}
+
+/* Accessibility */
+#pw-root button:focus-visible,
+#dm-root button:focus-visible,
+#pw-root .kb-key:focus-visible,
+#dm-root .kb-key:focus-visible {
+	outline: 3px solid var(--md-accent-fg-color);
+	outline-offset: 2px;
+}
+
+/* Final authority: ensure key labels are readable in slate mode in all browsers */
+body[data-md-color-scheme="slate"] .md-typeset #pw-root .kb-key,
+body[data-md-color-scheme="slate"] .md-typeset #dm-root .kb-key {
+	color: rgba(255,255,255,0.92);
+}
+
+.dp-next-reset{
+	margin-top: 1rem;
+	text-align: center;
+	font-size: 0.85rem;
+	opacity: 0.75;
+}
+
+body[data-md-color-scheme="slate"] .dp-next-reset{
+	opacity: 0.80;
+}

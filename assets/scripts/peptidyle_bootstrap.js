@@ -4,13 +4,9 @@ document.addEventListener("DOMContentLoaded", function () {
     var messageEl = document.getElementById("message");
 
     // Help button scrolls to instructions
-    var helpButton = document.getElementById("help-button");
-    var details = document.getElementById("instructions-details");
-    if (helpButton && details) {
-        helpButton.addEventListener("click", function () {
-            details.open = true;
-            details.scrollIntoView({ behavior: "smooth" });
-        });
+    if (window.DailyPuzzleUI) {
+        window.DailyPuzzleUI.wireHelpButton("help-button", "instructions-details");
+        window.DailyPuzzleUI.mountNextResetTimer("dp-next-reset");
     }
 
     if (typeof initRDKitModule !== "function") {

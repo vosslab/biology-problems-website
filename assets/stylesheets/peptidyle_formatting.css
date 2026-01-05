@@ -5,45 +5,12 @@
 	padding: 20px;
 	font-family: system-ui, Arial, sans-serif;
 	box-sizing: border-box;
-}
-
-/* Basic layout */
-#pw-root h1 {
-	margin-top: 0;
-}
-
-
-#pw-root #top-bar {
-	display: flex;
-	justify-content: space-between;
-	align-items: baseline;
-	margin-bottom: 10px;
-}
-
-#pw-root .pw-title {
-	margin: 0 0 4px;
-}
-
-#pw-root #top-bar .subtitle {
-	margin: -6px 0 0;
-	font-size: 0.95rem;
-	color: #555555;
-}
-
-/* Light theme (Material "default") */
-:root[data-md-color-scheme="default"] #pw-root {
-	background-color: transparent;
-	color: inherit;
-}
-
-/* Dark theme (Material "slate") */
-:root[data-md-color-scheme="slate"] #pw-root {
-	background-color: #111111;
-	color: #f0f0f0;
+	color: var(--md-default-fg-color);
+	--pw-border: rgba(127, 127, 127, 0.25);
 }
 
 /* Optional: slightly darker canvas in dark mode */
-:root[data-md-color-scheme="slate"] #pw-root #peptide canvas {
+body[data-md-color-scheme="slate"] #pw-root #peptide canvas {
 	background-color: #333333;
 }
 
@@ -59,7 +26,7 @@
 }
 
 #pw-root #peptide canvas {
-	border: 1px solid #ccc;
+	border: 1px solid var(--pw-border);
 	display: block;
 	margin: 0 auto;
 	max-width: 800px;
@@ -84,117 +51,7 @@ display: none;
 	text-transform: uppercase;
 }
 
-/* board layout */
-#pw-root #board {
-	margin: 8px auto 8px;
-	text-align: center;
-}
-
-#pw-root .row {
-	display: flex;
-	justify-content: center;
-	margin-bottom: 4px;
-}
-
-#pw-root .cell {
-	display: inline-block;
-	align-items: center;
-	justify-content: center;
-	width: 2.2em;
-	height: 2.2em;
-	line-height: 2.2em;
-	text-align: center;
-	margin-right: 3px;
-	border: 1px solid #ccc;
-	font-weight: bold;
-	text-transform: uppercase;
-	box-sizing: border-box;
-}
-
-/* unused squares */
-#pw-root .cell.empty {
-	border-color: #d3d6da;
-}
-
-/* current guess, not yet submitted */
-#pw-root .cell.pending {
-	border-color: #878a8c;
-}
-
-#pw-root .cell.correct {
-	background: #6aaa64;
-	color: #ffffff;
-	border-color: #6aaa64;
-}
-
-#pw-root .cell.present {
-	background: #c9b458;
-	color: #ffffff;
-	border-color: #c9b458;
-}
-
-#pw-root .cell.absent {
-	background: #787c7e;
-	color: #ffffff;
-	border-color: #787c7e;
-}
-
-/* On screen keyboard */
-#pw-root #keyboard {
-	margin-top: 12px;
-	user-select: none;
-	text-align: center;
-}
-
-#pw-root .kb-row {
-	display: flex;
-	justify-content: center;
-	margin-bottom: 4px;
-}
-
-#pw-root .kb-key {
-	min-width: 2.4em;
-	padding: 8px 6px;
-	margin: 0 2px;
-	text-align: center;
-	font-weight: bold;
-	border-radius: 4px;
-	border: 1px solid #ccc;
-	cursor: pointer;
-	background: #d3d6da;
-	color: #000000;
-	font-size: 0.9rem;
-	box-sizing: border-box;
-}
-
-#pw-root .kb-key.wide {
-	min-width: 3.4em;
-}
-
-#pw-root .kb-key.correct {
-	background: #6aaa64;
-	border-color: #6aaa64;
-	color: #ffffff;
-}
-
-#pw-root .kb-key.present {
-	background: #c9b458;
-	border-color: #c9b458;
-	color: #ffffff;
-}
-
-#pw-root .kb-key.absent {
-	background: #787c7e;
-	border-color: #787c7e;
-	color: #ffffff;
-}
-
-#pw-root .kb-key.invalid {
-	background: #f4d6d6;      /* pale warm red */
-	border-color: #e0b3b3;
-	color: #885555;
-	cursor: not-allowed;
-}
+/* Keyboard + hint controls are shared in assets/stylesheets/daily_puzzle.css */
 
 /* Toast messages */
 #pw-root #toast-container {
@@ -227,17 +84,6 @@ display: none;
 	font-size: 0.85rem;
 	color: #555555;
 	text-align: center;
-}
-
-#pw-root #help-row {
-	margin: 8px auto 0;
-	text-align: center;
-}
-
-#pw-root #help-button {
-	padding: 4px 10px;
-	font-size: 0.9rem;
-	cursor: pointer;
 }
 
 #pw-root #instructions {
