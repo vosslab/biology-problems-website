@@ -125,4 +125,95 @@ img[style] {
   margin-right: 3%;
 }
 
+/* ---------- Landing page alignment and spacing polish ---------- */
+
+/* Keep body text consistent */
+.md-content p,
+.md-content li {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Headings: keep space before, reduce space after */
+.md-content h2,
+.md-content h3,
+.md-content h4 {
+  margin-top: 2rem;      /* keeps clear section separation */
+  margin-bottom: 0.2rem; /* reduces the gap below headings */
+}
+
+.md-content h2 {
+  font-size: 1.6rem;
+}
+
+.md-content h3 {
+  font-size: 1.25rem;
+}
+
+.md-content h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: normal;
+}
+
+/* Pull the first paragraph under a heading closer */
+.md-content h1 + p,
+.md-content h2 + p,
+.md-content h3 + p,
+.md-content h4 + p {
+  margin-top: 0.1rem;
+}
+
+/* Reduce extra paragraph spacing inside list items */
+.md-content li > p {
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+/* Remove the "jerky" left margin from bullet lists */
+.md-content ul {
+  margin-left: 0;
+  padding-left: 0.1rem; /* small, consistent bullet indent */
+}
+
+/* Keep inline link labels from looking like a different font system */
+.md-content a {
+  font-weight: 600;
+}
+
+.md-content h4 strong {
+  font-weight: 600;
+}
+
+/* ---------- One-line bullets, but with stronger labels ---------- */
+
+/* Normal bullet indent and consistent spacing */
+.md-content ul {
+  margin-top: 0.6rem;
+  margin-bottom: 0.9rem;
+  padding-left: 1.1rem;
+}
+
+.md-content li + li {
+  margin-top: 0.45rem;
+}
+
+/* Make the bold link label larger, without changing the rest */
+.md-content li > strong > a {
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+/* Keep the description on the same line and readable */
+.md-content li {
+  line-height: 1.7;
+}
+
+/* Subtle visual structure for major lists (adds color without emojis) */
+.md-content h2 + p + ul {
+  border-left: 3px solid var(--md-primary-fg-color);
+  padding-left: 1rem;
+  margin-left: 0;
+}
+
 /* Daily puzzle shared UI is in assets/stylesheets/daily_puzzle.css */
