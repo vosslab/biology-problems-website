@@ -261,14 +261,6 @@ def generate_download_button_row(bbq_file_name: str) -> str:
 			)
 		else:
 			button_html = (
-				f'<button class="md-button custom-button {file_type["button_class"]}" '
-				f'onclick="downloadFile(\'{out_relative_path}\')" '
-				f'title="Download {out_file_basename}" '
-				f'aria-label="Click to download the {file_type["display_name"]} file ({out_file_basename})">\n'
-				f'    <i class="fa fa-download"></i>BUTTON {file_type["display_name"]}\n'
-				f'</button>'
-			)
-			button_html = (
 				f'<a class="md-button custom-button {file_type["button_class"]}" '
 				f'href="{out_relative_path}" '
 				f'download '
