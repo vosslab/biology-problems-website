@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-01-09
+- Added the new daily puzzle page `site_docs/daily_puzzles/mutant_screen.md` based on Beadle and Tatum *Neurospora* auxotroph experiments.
+- Added mutant screen puzzle JS assets: `mutant_screen_words.js`, `mutant_screen_logic.js`, `mutant_screen_game.js`, and `mutant_screen_bootstrap.js`.
+- Added `site_docs/assets/stylesheets/mutant_screen_formatting.css` for growth table and puzzle styling.
+- Shuffled both rows (mutant classes) and columns (metabolites) in the growth table so the answer cannot be read directly from the table.
+- Updated `mkdocs.yml` nav to include the mutant screen puzzle.
+- Updated `site_docs/index.md` to link to the mutant screen puzzle.
+
 ## 2026-01-05
 - Added `docs/DELETION_MUTANTS_PLAN.md` outlining the deletion mutant daily puzzle port.
 - Added the new daily puzzle page `site_docs/daily_puzzles/deletion_mutants.md`.
