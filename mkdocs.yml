@@ -73,6 +73,7 @@ nav:
 - "<i class='fa fa-puzzle-piece'></i> Daily Puzzles":
   - "<i class='fa fa-dice-five'></i> Peptidyle": daily_puzzles/peptidyle.md
   - "<i class='fa fa-dna'></i> Deletion mutants": daily_puzzles/deletion_mutants.md
+  - "<i class='fa fa-flask'></i> Mutant screen": daily_puzzles/mutant_screen.md
 - "🧪 Biochemistry":
   - 'List of Topics': biochemistry/index.md
   - '1: Life Molecules': biochemistry/topic01/index.md

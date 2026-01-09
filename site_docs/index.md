@@ -9,6 +9,8 @@ Daily puzzles designed to strengthen biology knowledge.
 
 - **[Deletion mutants](daily_puzzles/deletion_mutants.md)**  A daily *Drosophila* deletion mutant puzzle where you deduce the correct order of genes on a chromosome to form a five-letter word.
 
+- **[Mutant screen](daily_puzzles/mutant_screen.md)**  A daily *Neurospora* auxotroph puzzle based on the classic Beadle and Tatum experiments. Deduce the metabolic pathway order from growth data to form a five-letter word.
+
 ## **Subjects**
 Complete, chapter-by-chapter collections of homework and exam questions.
 
