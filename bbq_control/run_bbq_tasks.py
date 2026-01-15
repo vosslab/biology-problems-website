@@ -347,14 +347,16 @@ def log_line(log_path: str, message: str):
 		fp.write(f"[{timestamp}] {message}\n")
 
 
-def rotate_log(log_path: str, max_backups: int = 5):
+def rotate_log(log_path: str, max_backups: int = 5) -> bool:
 	"""
 	Rotate log file with numbered backups (.1, .2, ... .N).
 
 	Shifts existing backups up by one number and moves current log to .1.
+	Returns True if an existing log was rotated, False otherwise.
 	"""
 	if not log_path:
-		return
+		return False
+	rotated = False
 	# Shift existing backups: .4 -> .5, .3 -> .4, .2 -> .3, .1 -> .2
 	for i in range(max_backups - 1, 0, -1):
 		old_backup = f"{log_path}.{i}"
@@ -364,9 +366,11 @@ def rotate_log(log_path: str, max_backups: int = 5):
 	# Move current log to .1
 	if os.path.isfile(log_path):
 		shutil.move(log_path, f"{log_path}.1")
+		rotated = True
 	# Create empty log file
 	with open(log_path, "w") as fp:
 		fp.write("")
+	return rotated
 
 
 def build_command(task: dict) -> list:
@@ -739,7 +743,8 @@ def main():
 	if total == 0:
 		print(color("No tasks found in config.", COLOR_YELLOW))
 		return 0
-	rotate_log(log_path)
+	if rotate_log(log_path):
+		print(f"Rotated previous log to {log_path}.1")
 
 	use_tui = TEXTUAL_AVAILABLE and not args.no_tui and sys.stdout.isatty()
 	if use_tui:
