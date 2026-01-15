@@ -11,8 +11,8 @@ genetics,topic05,bbq-unique_gametes.txt,unique_gametes.py,"-n 5"
 import argparse
 import csv
 import datetime
+import math
 import os
-import random
 import shlex
 import shutil
 import subprocess
@@ -48,7 +48,52 @@ def color(text: str, code: str) -> str:
 
 
 def get_repo_root() -> str:
-	return os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+	"""Get git repo root, falling back to script's parent directory."""
+	script_dir = os.path.dirname(os.path.abspath(__file__))
+	try:
+		result = subprocess.check_output(
+			['git', 'rev-parse', '--show-toplevel'],
+			cwd=script_dir,
+			stderr=subprocess.DEVNULL,
+			universal_newlines=True
+		)
+		return result.strip()
+	except (subprocess.CalledProcessError, FileNotFoundError):
+		# Fallback: assume script is one level below repo root
+		return os.path.dirname(script_dir)
+
+
+#============================================
+def find_settings_yaml(settings_arg: str) -> str:
+	"""
+	Find bbq_settings.yml in order: CWD, repo root, script directory.
+
+	Args:
+		settings_arg: the --settings argument value (may be empty)
+
+	Returns:
+		Resolved path to settings file, or empty string if not found.
+	"""
+	# If user provided an absolute path, use it directly
+	if settings_arg and os.path.isabs(settings_arg):
+		if os.path.isfile(settings_arg):
+			return settings_arg
+		return ""
+	# Determine the basename to search for
+	settings_basename = os.path.basename(settings_arg) if settings_arg else "bbq_settings.yml"
+	# Search locations in priority order
+	script_dir = os.path.dirname(os.path.abspath(__file__))
+	repo_root = get_repo_root()
+	search_paths = [
+		os.path.join(os.getcwd(), settings_basename),
+		os.path.join(repo_root, settings_basename),
+		os.path.join(repo_root, "bbq_control", settings_basename),
+		os.path.join(script_dir, settings_basename),
+	]
+	for candidate in search_paths:
+		if os.path.isfile(candidate):
+			return candidate
+	return ""
 
 
 def load_bbq_config(config_path: str) -> dict:
@@ -302,8 +347,24 @@ def log_line(log_path: str, message: str):
 		fp.write(f"[{timestamp}] {message}\n")
 
 
-def reset_log(log_path: str):
-	ensure_parent_dir(log_path)
+def rotate_log(log_path: str, max_backups: int = 5):
+	"""
+	Rotate log file with numbered backups (.1, .2, ... .N).
+
+	Shifts existing backups up by one number and moves current log to .1.
+	"""
+	if not log_path:
+		return
+	# Shift existing backups: .4 -> .5, .3 -> .4, .2 -> .3, .1 -> .2
+	for i in range(max_backups - 1, 0, -1):
+		old_backup = f"{log_path}.{i}"
+		new_backup = f"{log_path}.{i + 1}"
+		if os.path.isfile(old_backup):
+			shutil.move(old_backup, new_backup)
+	# Move current log to .1
+	if os.path.isfile(log_path):
+		shutil.move(log_path, f"{log_path}.1")
+	# Create empty log file
 	with open(log_path, "w") as fp:
 		fp.write("")
 
@@ -575,15 +636,6 @@ if TEXTUAL_AVAILABLE:
 				table.update_cell_at((self.task_rows[idx - 1], 2), "running")
 				start = time.time()
 
-				if self.args.print_only:
-					cmd_text = " ".join(build_command(task))
-					self.append_log(f"PRINT {label}: {cmd_text}")
-					table.update_cell_at((self.task_rows[idx - 1], 2), "print-only")
-					self.completed += 1
-					self.durations.append(0.0)
-					self.update_metrics()
-					continue
-
 				ok, stdout, stderr, line_count = await self.run_in_thread(task)
 				duration = time.time() - start
 				self.durations.append(duration)
@@ -616,103 +668,46 @@ if TEXTUAL_AVAILABLE:
 
 
 def main():
-	parser = argparse.ArgumentParser(description="Run BBQ generation tasks from YAML or CSV.")
+	parser = argparse.ArgumentParser(description="Run BBQ generation tasks from CSV.")
 	parser.add_argument(
-		"-c",
-		"--config",
-		default="bbq_tasks.csv",
-		help="Path to tasks YAML or CSV (default: bbq_tasks.csv)",
+		"-t", "--tasks", dest="tasks_csv", default="bbq_tasks.csv",
+		help="Path to tasks CSV (default: bbq_tasks.csv)",
 	)
 	parser.add_argument(
-		"--bbq-config",
-		dest="bbq_config",
-		default="bbq_control/bbq_config.yml",
-		help="Path to BBQ config YAML (default: bbq_control/bbq_config.yml).",
+		"-s", "--settings", dest="settings_yaml", default="",
+		help="Path to settings YAML (searches CWD, repo root, script dir).",
 	)
 	parser.add_argument(
-		"-l",
-		"--log",
-		default="logs/bbq_generation.log",
-		help="Path to append combined stdout/stderr logs.",
-	)
-	mode_group = parser.add_mutually_exclusive_group()
-	mode_group.add_argument(
-		"--dry-run",
-		action="store_true",
+		"--dry-run", dest="dry_run", action="store_true",
 		help="Run commands but do not move outputs.",
 	)
-	mode_group.add_argument(
-		"--print-only",
-		dest="print_only",
-		action="store_true",
-		help="Print planned commands without executing them.",
-	)
 	parser.add_argument(
-		"--no-tui",
-		dest="no_tui",
-		action="store_true",
+		"--no-tui", dest="no_tui", action="store_true",
 		help="Disable the Textual TUI interface.",
 	)
 	parser.add_argument(
-		"-x",
-		"--max-questions",
-		dest="max_questions",
-		type=int,
-		default=None,
+		"-x", "--max-questions", dest="max_questions", type=int, default=None,
 		help="Append -x N to all scripts.",
 	)
 	parser.add_argument(
-		"-d",
-		"--duplicates",
-		dest="duplicates",
-		type=int,
-		default=99,
-		help="Append -d N to all scripts (default: 99).",
-	)
-	parser.add_argument(
-		"--no-duplicates",
-		dest="no_duplicates",
-		action="store_true",
-		help="Do not append -d to scripts.",
-	)
-	parser.add_argument(
-		"--limit",
-		type=int,
-		dest="limit",
-		default=None,
-		help="Maximum number of tasks to run.",
-	)
-	parser.add_argument(
-		"--seed",
-		type=int,
-		dest="seed",
-		default=None,
-		help="Random seed for shuffle mode.",
-	)
-	order_group = parser.add_mutually_exclusive_group()
-	order_group.add_argument(
-		"--shuffle",
-		dest="shuffle",
-		action="store_true",
-		help="Randomize task order.",
-	)
-	order_group.add_argument(
-		"--sort",
-		dest="sort",
-		action="store_true",
-		help="Sort tasks by output path.",
+		"--limit", dest="limit", type=int, default=None,
+		help="Maximum number of tasks to run (for testing).",
 	)
 	args = parser.parse_args()
+	# Hardcoded settings
+	log_path = os.path.join(os.getcwd(), "bbq_generation.log")
+	# Duplicates: 1.1x max-questions when set, otherwise 99
+	if args.max_questions is not None:
+		duplicates_count = math.ceil(args.max_questions * 1.1)
+	else:
+		duplicates_count = 99
 
-	bbq_config = load_bbq_config(args.bbq_config)
-	if args.bbq_config and not os.path.isfile(args.bbq_config):
-		print(color(f"Config not found: {args.bbq_config}", COLOR_YELLOW))
-	tasks = load_tasks(args.config, bbq_config)
-	if args.sort:
-		tasks.sort(key=lambda item: item.get("output", ""))
-	if args.shuffle:
-		random_generator = random.Random(args.seed)
-		random_generator.shuffle(tasks)
+	# Find settings file
+	settings_path = find_settings_yaml(args.settings_yaml)
+	if not settings_path:
+		print(color("Warning: bbq_settings.yml not found, aliases will not expand.", COLOR_YELLOW))
+	settings = load_bbq_config(settings_path)
+	tasks = load_tasks(args.tasks_csv, settings)
 	if args.limit is not None:
 		if args.limit <= 0:
 			print(color("Limit must be a positive integer.", COLOR_RED))
@@ -732,50 +727,46 @@ def main():
 	if args.max_questions is not None:
 		for task in tasks:
 			task.setdefault("max_questions", args.max_questions)
-	if not args.no_duplicates:
-		if args.duplicates <= 0:
-			print(color("Duplicates must be a positive integer.", COLOR_RED))
-			return 1
-		for task in tasks:
-			task_args = task.get("args", [])
-			if "-d" in task_args or "--duplicates" in task_args:
-				continue
-			task.setdefault("extra_args", [])
-			task["extra_args"].extend(["-d", str(args.duplicates)])
+	# Always add duplicates flag
+	for task in tasks:
+		task_args = task.get("args", [])
+		if "-d" in task_args or "--duplicates" in task_args:
+			continue
+		task.setdefault("extra_args", [])
+		task["extra_args"].extend(["-d", str(duplicates_count)])
 
 	total = len(tasks)
 	if total == 0:
 		print(color("No tasks found in config.", COLOR_YELLOW))
 		return 0
-	reset_log(args.log)
+	rotate_log(log_path)
 
 	use_tui = TEXTUAL_AVAILABLE and not args.no_tui and sys.stdout.isatty()
 	if use_tui:
+		# Pass log_path to TUI via args-like object
+		args.log = log_path
 		app = BBQTaskApp(tasks, args)
 		app.run()
 		return 0
 	if not TEXTUAL_AVAILABLE and not args.no_tui:
 		print(color("Textual is not installed; running in plain mode.", COLOR_YELLOW))
 
-	log_line(args.log, f"=== RUN START ({total} tasks) ===")
+	log_line(log_path, f"=== RUN START ({total} tasks) ===")
 	failures = 0
 
 	for idx, task in enumerate(tasks, start=1):
 		cmd = build_command(task)
-		if args.print_only:
-			print(color(f"[{idx}/{total}] DRY-RUN {' '.join(cmd)}", COLOR_CYAN))
-			continue
 		if args.dry_run:
 			print(color(f"[{idx}/{total}] DRY-RUN {' '.join(cmd)}", COLOR_CYAN))
-			ok = run_task(task, args.log, idx, total, move_output=False)
+			ok = run_task(task, log_path, idx, total, move_output=False)
 		else:
-			ok = run_task(task, args.log, idx, total)
+			ok = run_task(task, log_path, idx, total)
 		if not ok:
 			failures += 1
 
-	log_line(args.log, f"=== RUN END (failures={failures}) ===")
+	log_line(log_path, f"=== RUN END (failures={failures}) ===")
 	if failures:
-		print(color(f"Completed with {failures} failure(s). See {args.log}", COLOR_RED))
+		print(color(f"Completed with {failures} failure(s). See {log_path}", COLOR_RED))
 		return 1
 	print(color("All tasks completed successfully.", COLOR_GREEN))
 	return 0

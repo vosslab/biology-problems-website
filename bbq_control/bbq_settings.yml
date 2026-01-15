@@ -1,6 +1,6 @@
 # BBQ task configuration for path aliases and script aliases.
 paths:
-  bp_root: "~/nsh/biology-problems"
+  bp_root: "~/nsh/biology-problems/problems"
   matching_sets: "{bp_root}/matching_sets"
   multiple_choice_statements: "{bp_root}/multiple_choice_statements"
 

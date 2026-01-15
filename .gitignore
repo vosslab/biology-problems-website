@@ -2,7 +2,9 @@
 pyflakes.txt
 bbq_converter.py
 bbq_control/biology-problems
-logs/
+ascii_compliance.txt
+bbq_generation.log*
+
 
 # Byte-compiled / optimized / DLL files
 *.py[cod]

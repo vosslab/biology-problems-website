@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-01-15
+- Improved `bbq_control/run_bbq_tasks.py` settings lookup to search CWD, repo root, and script directory using `git rev-parse --show-toplevel`.
+- Fixed `{bp_root}` alias expansion in task CSV files.
+- Renamed `bbq_config.yml` to `bbq_settings.yml` and changed argparse flags: `-t/--tasks` for CSV, `-s/--settings` for YAML.
+- Simplified argparse options: removed `--print-only`, `--log`, `--shuffle`, `--sort`, `--seed`, `--duplicates`, and `--no-duplicates` flags.
+- Changed `-d` (duplicates) to auto-calculate as `ceil(max_questions * 1.1)` when `-x` is set, otherwise defaults to 99.
+- Changed log output to `bbq_generation.log` in CWD with numbered rotation (.1, .2, .3, .4, .5).
+
 ## 2026-01-09
 - Added the new daily puzzle page `site_docs/daily_puzzles/mutant_screen.md` based on Beadle and Tatum *Neurospora* auxotroph experiments.
 - Added mutant screen puzzle JS assets: `mutant_screen_words.js`, `mutant_screen_logic.js`, `mutant_screen_game.js`, and `mutant_screen_bootstrap.js`.
