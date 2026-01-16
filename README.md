@@ -5,9 +5,13 @@ This repository contains the MkDocs site content and supporting scripts for Biol
 ## Documentation
 
 - [docs/CHANGELOG.md](docs/CHANGELOG.md): Chronological record of repo changes.
+- [docs/INSTALL.md](docs/INSTALL.md): Setup steps and verification.
+- [docs/USAGE.md](docs/USAGE.md): MkDocs usage and build flow.
 - [docs/REPO_STYLE.md](docs/REPO_STYLE.md): Repo conventions for files, naming, and docs.
 - [docs/MARKDOWN_STYLE.md](docs/MARKDOWN_STYLE.md): Markdown rules for this repo.
 - [docs/PYTHON_STYLE.md](docs/PYTHON_STYLE.md): Python coding rules for scripts in this repo.
+- [docs/CODE_ARCHITECTURE.md](docs/CODE_ARCHITECTURE.md): High-level components and flows.
+- [docs/FILE_STRUCTURE.md](docs/FILE_STRUCTURE.md): Directory map and file placement notes.
 - [docs/AUTHORS.md](docs/AUTHORS.md): Maintainers and contributors.
 
 ## Quick start
@@ -26,18 +30,21 @@ Site content lives under [site_docs/](site_docs/) and is configured by [mkdocs.y
 
 ## Repository structure
 
-Key content and configuration paths:
+When showing a directory tree, use ASCII only. Do not use box drawing characters.
 
-```
+- Allowed: `|`, `+-`, `` `-``, spaces
+- Not allowed: `├`, `─`, `│`, `└`
+
+Example (ASCII only):
+
+```text
 site_docs/
-- index.md                     # Main landing page
-- biochemistry/                # Biochemistry topics
-  - topic01/                   # Topic 1
-    - index.md                 # Topic 1 content
-  - topic02/                   # Topic 2
-- genetics/                    # Genetics topics
-  - topic01/                   # Topic 1
-    - index.md                 # Topic 1 content
-  - topic02/                   # Topic 2
++- index.md                    # Main landing page
++- biochemistry/               # Biochemistry topics
+|  `- topic01/                 # Topic 1
+|     `- index.md              # Topic 1 content
+`- genetics/                   # Genetics topics
+   `- topic01/                 # Topic 1
+      `- index.md              # Topic 1 content
 mkdocs.yml                     # Configuration for MkDocs
 ```
