@@ -4,6 +4,8 @@
 - Updated `README.md` to a concise overview with documentation links and a verified quick start.
 - Added minimal `docs/INSTALL.md` and `docs/USAGE.md` stubs based on repo evidence.
 - Added an ASCII repository structure snippet to `README.md`.
+- Added `docs/CODE_ARCHITECTURE.md` and `docs/FILE_STRUCTURE.md` with repo layout and flow notes.
+- Documented the ASCII-only tree rule and example in the `README.md` repository structure section.
 
 ## 2026-01-15
 - Improved `bbq_control/run_bbq_tasks.py` settings lookup to search CWD, repo root, and script directory using `git rev-parse --show-toplevel`.
