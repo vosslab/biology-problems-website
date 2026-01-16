@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-01-16
+- Updated `README.md` to a concise overview with documentation links and a verified quick start.
+- Added minimal `docs/INSTALL.md` and `docs/USAGE.md` stubs based on repo evidence.
+- Added an ASCII repository structure snippet to `README.md`.
+
 ## 2026-01-15
 - Improved `bbq_control/run_bbq_tasks.py` settings lookup to search CWD, repo root, and script directory using `git rev-parse --show-toplevel`.
 - Fixed `{bp_root}` alias expansion in task CSV files.
@@ -7,6 +12,7 @@
 - Simplified argparse options: removed `--print-only`, `--log`, `--shuffle`, `--sort`, `--seed`, `--duplicates`, and `--no-duplicates` flags.
 - Changed `-d` (duplicates) to auto-calculate as `ceil(max_questions * 1.1)` when `-x` is set, otherwise defaults to 99.
 - Changed log output to `bbq_generation.log` in CWD with numbered rotation (.1, .2, .3, .4, .5) and a startup message when rotated.
+- Added line count to non-TUI task completion output (e.g., `DONE script.py (99 lines)`).
 
 ## 2026-01-09
 - Added the new daily puzzle page `site_docs/daily_puzzles/mutant_screen.md` based on Beadle and Tatum *Neurospora* auxotroph experiments.

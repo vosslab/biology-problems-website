@@ -519,6 +519,7 @@ def run_task(task: dict, log_path: str, index: int, total: int, move_output: boo
 		return False
 
 	# If the task specifies an output path and the script wrote to CWD, move it.
+	line_count = 0
 	if output_path:
 		if move_output:
 			moved_ok = move_output_if_needed(output_path, workdir)
@@ -535,21 +536,26 @@ def run_task(task: dict, log_path: str, index: int, total: int, move_output: boo
 				log_line(log_path, f"ERROR: expected output not found: {output_path}")
 				return False
 			log_line(log_path, f"SKIP MOVE {label} -> {output_path}")
-		if max_questions:
-			if move_output:
-				line_count = count_output_lines(output_path, workdir)
-			else:
-				candidate = resolve_output_workdir_recent(output_path, workdir, start_time)
-				line_count = count_output_lines_path(candidate)
-			if line_count > max_questions:
-				msg = f"Output has {line_count} lines; expected <= {max_questions}."
-				print(color(f"FAILED {label}: {msg}", COLOR_RED))
-				log_line(log_path, msg)
-				return False
+		# Count output lines
+		if move_output:
+			line_count = count_output_lines(output_path, workdir)
+		else:
+			candidate = resolve_output_workdir_recent(output_path, workdir, start_time)
+			line_count = count_output_lines_path(candidate)
+		# Check against max_questions limit
+		if max_questions and line_count > max_questions:
+			msg = f"Output has {line_count} lines; expected <= {max_questions}."
+			print(color(f"FAILED {label}: {msg}", COLOR_RED))
+			log_line(log_path, msg)
+			return False
 		if not move_output:
 			cleanup_dry_run_output(resolve_output_workdir(output_path, workdir), log_path)
 
-	print(color(f"DONE  {label}", COLOR_GREEN))
+	# Show line count in output
+	if line_count > 0:
+		print(color(f"DONE  {label} ({line_count} lines)", COLOR_GREEN))
+	else:
+		print(color(f"DONE  {label}", COLOR_GREEN))
 	log_line(log_path, f"EXIT {label} -> 0")
 	return True
 

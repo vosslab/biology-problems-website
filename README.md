@@ -1,66 +1,43 @@
 # Biology Problems OER
 
-Explore **free and open problem sets** for Biochemistry, Genetics, and more! This repository hosts the content for [Biology Problems OER](https://biologyproblems.org), an open educational resource for students and educators.
+This repository contains the MkDocs site content and supporting scripts for Biology Problems OER, a free and open collection of biochemistry, genetics, and related problem sets for students and educators. The live site is at [https://biologyproblems.org](https://biologyproblems.org).
 
----
+## Documentation
 
-## 🌐 Access the Website
+- [docs/CHANGELOG.md](docs/CHANGELOG.md): Chronological record of repo changes.
+- [docs/REPO_STYLE.md](docs/REPO_STYLE.md): Repo conventions for files, naming, and docs.
+- [docs/MARKDOWN_STYLE.md](docs/MARKDOWN_STYLE.md): Markdown rules for this repo.
+- [docs/PYTHON_STYLE.md](docs/PYTHON_STYLE.md): Python coding rules for scripts in this repo.
+- [docs/AUTHORS.md](docs/AUTHORS.md): Maintainers and contributors.
 
-Visit the live website here: **[https://biologyproblems.org](https://biologyproblems.org)**
+## Quick start
 
----
-
-## 📂 Repository Structure
-
-This repository is structured to support the MkDocs framework with the Material theme. Here's an overview of the directory layout:
-
-```
-site_docs/
-├── index.md                   # Main landing page
-├── biochemistry/              # Biochemistry topics
-│   ├── topic01/               # Topic 1
-│   │   ├── index.md           # Topic 1 content
-│   └── topic02/               # Topic 2
-├── genetics/                  # Genetics topics
-    ├── topic01/               # Topic 1
-    │   ├── index.md           # Topic 1 content
-    └── topic02/               # Topic 2
-mkdocs.yml                     # Configuration for MkDocs
-```
-
----
-
-## 🚀 Local Development
-
-To build and test the site locally, follow these steps:
-
-1. Clone the repository:
+1. Install dependencies:
    ```bash
-   git clone https://github.com/vosslab/biology-problems-website.git
-   cd biology-problems-website
+   python3.12 -m pip install -r pip_requirements.txt
    ```
-
-2. Install MkDocs and the Material theme:
-   ```bash
-   pip install mkdocs-material
-   ```
-
-3. Serve the site locally:
+2. Serve the site locally:
    ```bash
    mkdocs serve
    ```
+3. Open your browser to `http://127.0.0.1:8000/`.
 
-4. Open your browser and visit `http://127.0.0.1:8000/`.
+Site content lives under [site_docs/](site_docs/) and is configured by [mkdocs.yml](mkdocs.yml).
 
----
+## Repository structure
 
-## 📦 Related Repositories
+Key content and configuration paths:
 
-- **[Biology Problems Source Code](https://github.com/vosslab/biology-problems)**: The source code and problem sets are available in this repository. 
-
----
-
-## 🛠️ Built With
-
-- **[MkDocs](https://www.mkdocs.org/)**: A static site generator that's simple and fast.
-- **[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)**: A beautiful and customizable theme for MkDocs.
+```
+site_docs/
+- index.md                     # Main landing page
+- biochemistry/                # Biochemistry topics
+  - topic01/                   # Topic 1
+    - index.md                 # Topic 1 content
+  - topic02/                   # Topic 2
+- genetics/                    # Genetics topics
+  - topic01/                   # Topic 1
+    - index.md                 # Topic 1 content
+  - topic02/                   # Topic 2
+mkdocs.yml                     # Configuration for MkDocs
+```
