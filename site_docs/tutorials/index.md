@@ -5,15 +5,15 @@ This section provides step-by-step guides on how to format and upload question f
 ## **Tutorials**
 
 ### **Blackboard Learn**
-- [Blackboard Learn BBQ Text File Upload](bbq_tutorial.md)  
+- [Blackboard Learn BBQ Text File Upload](bbq_tutorial.md)
   Learn how to properly format and upload question banks using **Blackboard’s BBQ text format**.
 
 ### **Blackboard Ultra**
-- [Blackboard Ultra QTI .zip Import Guide](bbq_ultra_tutorial.md)  
+- [Blackboard Ultra QTI .zip Import Guide](bbq_ultra_tutorial.md)
   Learn how to upload question banks to Blackboard Ultra and set up randomized quizes.
 
 ### **Canvas**
-- [Canvas QTI .zip Import Guide](canvas_tutorial.md)  
+- [Canvas QTI .zip Import Guide](canvas_tutorial.md)
   Learn how to upload question banks and use Canvas’s group preset to create your own randomized quiz.
 
 ## **Upcoming Tutorials**

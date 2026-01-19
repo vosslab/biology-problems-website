@@ -20,7 +20,7 @@ Statistical evaluation of genetic data, chi-square test statistic, and hypothesi
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -52,7 +52,7 @@ Statistical evaluation of genetic data, chi-square test statistic, and hypothesi
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -84,7 +84,7 @@ Statistical evaluation of genetic data, chi-square test statistic, and hypothesi
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -116,7 +116,7 @@ Statistical evaluation of genetic data, chi-square test statistic, and hypothesi
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -148,7 +148,7 @@ Statistical evaluation of genetic data, chi-square test statistic, and hypothesi
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>

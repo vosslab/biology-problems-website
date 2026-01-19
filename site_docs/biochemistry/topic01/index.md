@@ -20,7 +20,7 @@ Molecular design of life, major elements, and biomacromolecules.
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -52,7 +52,7 @@ Molecular design of life, major elements, and biomacromolecules.
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -84,7 +84,7 @@ Molecular design of life, major elements, and biomacromolecules.
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>

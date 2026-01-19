@@ -20,7 +20,7 @@ Two- and three-point test crosses, genetic distances, interference, and tetrad a
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -49,7 +49,7 @@ Two- and three-point test crosses, genetic distances, interference, and tetrad a
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -78,7 +78,7 @@ Two- and three-point test crosses, genetic distances, interference, and tetrad a
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -110,7 +110,7 @@ Two- and three-point test crosses, genetic distances, interference, and tetrad a
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -142,7 +142,7 @@ Two- and three-point test crosses, genetic distances, interference, and tetrad a
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -174,7 +174,7 @@ Two- and three-point test crosses, genetic distances, interference, and tetrad a
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -206,7 +206,7 @@ Two- and three-point test crosses, genetic distances, interference, and tetrad a
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -238,7 +238,7 @@ Two- and three-point test crosses, genetic distances, interference, and tetrad a
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -270,7 +270,7 @@ Two- and three-point test crosses, genetic distances, interference, and tetrad a
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -302,7 +302,7 @@ Two- and three-point test crosses, genetic distances, interference, and tetrad a
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -334,7 +334,7 @@ Two- and three-point test crosses, genetic distances, interference, and tetrad a
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -366,7 +366,7 @@ Two- and three-point test crosses, genetic distances, interference, and tetrad a
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -398,7 +398,7 @@ Two- and three-point test crosses, genetic distances, interference, and tetrad a
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
