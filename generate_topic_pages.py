@@ -435,7 +435,7 @@ def update_index_md(topic_folder: str, bbq_files: list, file_counter: dict, tota
 			"""
 			index_md.write(download_button_row)
 			index_md.write("<details>\n")
-			index_md.write("  <summary>Click \n")
+			index_md.write("  <summary>Click\n")
 			index_md.write("    <span style='font-weight: normal;'>\n")
 			index_md.write("       to show\n")
 			index_md.write("    </span>\n")
