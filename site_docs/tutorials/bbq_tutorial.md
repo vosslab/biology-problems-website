@@ -63,7 +63,7 @@ Now that we have a **question pool** filled with questions, we need to create a 
    ![Cursor selecting the "Tests" tab in Blackboard, preparing to create a new test.](bbq_how_to/step_12-select_tests.png)
 
 2. This is the **Tests** menu. Since no tests exist yet, we need to create a new one. Click **Build Test**.
-   ![Blackboard’s "Tests" section, currently empty, displaying the "Build Test" button.](bbq_how_to/step_13-menu-empty_tests.png)
+   ![Blackboard's "Tests" section, currently empty, displaying the "Build Test" button.](bbq_how_to/step_13-menu-empty_tests.png)
 
 3. In the dropdown, click **Build Test** to start creating the test.
    ![Cursor clicking "Build Test" to start creating a new test.](bbq_how_to/step_14-select_build_test.png)

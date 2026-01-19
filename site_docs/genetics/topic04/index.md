@@ -1,6 +1,6 @@
 # 4: Mendelian Genetics
 
-Mendel’s principles, Punnett squares, genotype/phenotype ratios, and autosomal pedigree analysis.
+Mendel's principles, Punnett squares, genotype/phenotype ratios, and autosomal pedigree analysis.
 
 **LibreTexts reference:** [Mendelian Genetics](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/04:_Mendelian_Genetics)
 
@@ -304,6 +304,9 @@ Mendel’s principles, Punnett squares, genotype/phenotype ratios, and autosomal
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-punnett_choice.zip" download title="Download canvas_qti_v1_2-punnett_choice.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-punnett_choice.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-punnett_choice.html', '_blank')" title="View human_readable-punnett_choice.html" aria-label="Click to view the Human-Readable TXT file (human_readable-punnett_choice.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>

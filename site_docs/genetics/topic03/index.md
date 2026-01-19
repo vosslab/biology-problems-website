@@ -48,6 +48,9 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-blood_type_agglutination_test.zip" download title="Download canvas_qti_v1_2-blood_type_agglutination_test.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-blood_type_agglutination_test.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-blood_type_agglutination_test.html', '_blank')" title="View human_readable-blood_type_agglutination_test.html" aria-label="Click to view the Human-Readable TXT file (human_readable-blood_type_agglutination_test.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -365,6 +368,9 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-palindrome_sequence_match.zip" download title="Download canvas_qti_v1_2-palindrome_sequence_match.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-palindrome_sequence_match.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-palindrome_sequence_match.html', '_blank')" title="View human_readable-palindrome_sequence_match.html" aria-label="Click to view the Human-Readable TXT file (human_readable-palindrome_sequence_match.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>

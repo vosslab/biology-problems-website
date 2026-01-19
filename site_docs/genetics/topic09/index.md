@@ -432,6 +432,9 @@ Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploid
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-robertsonian.zip" download title="Download canvas_qti_v1_2-robertsonian.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-robertsonian.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-robertsonian.html', '_blank')" title="View human_readable-robertsonian.html" aria-label="Click to view the Human-Readable TXT file (human_readable-robertsonian.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -461,6 +464,9 @@ Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploid
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-translocation_meiosis_table.zip" download title="Download canvas_qti_v1_2-translocation_meiosis_table.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-translocation_meiosis_table.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-translocation_meiosis_table.html', '_blank')" title="View human_readable-translocation_meiosis_table.html" aria-label="Click to view the Human-Readable TXT file (human_readable-translocation_meiosis_table.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
