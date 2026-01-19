@@ -4,6 +4,9 @@
 - Switched ASCII compliance file skips to a regex list (currently `human_readable-*.html`).
 - Replaced box-drawing characters in the README ASCII tree guidance with codepoint text.
 - Reapplied the topic page summary line fix to avoid trailing whitespace in generated index pages.
+- Updated `bbq_control/source_me.sh` to prepend `biology-problems` to PYTHONPATH instead of `bbq_control`.
+- Added `qti_package_maker` to `bbq_control/bbq_settings.yml` and used BBQ settings to derive PYTHONPATH in `bbq_control/source_me.sh` and `bbq_control/bbq_sync_tasks.py`.
+- Updated `bbq_control/USAGE.txt` to reference `bbq_settings.yml` and the new qti path entry.
 
 ## 2026-01-16
 - Updated `README.md` to a concise overview with documentation links and a verified quick start.
