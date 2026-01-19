@@ -61,8 +61,8 @@ def parse_args():
 	config_group.add_argument(
 		"--bbq-config",
 		dest="bbq_config",
-		default="bbq_control/bbq_config.yml",
-		help="Path to BBQ config YAML.",
+		default="bbq_control/bbq_settings.yml",
+		help="Path to BBQ settings YAML.",
 	)
 
 	run_group = parser.add_argument_group("run")
@@ -131,6 +131,44 @@ def expand_path(path_value: str) -> str:
 	expanded_path = os.path.expanduser(path_value)
 	absolute_path = os.path.abspath(expanded_path)
 	return absolute_path
+
+
+#============================================
+def build_pythonpath(path_aliases: dict) -> str:
+	"""
+	Build a PYTHONPATH from BBQ settings and existing environment.
+
+	Args:
+		path_aliases (dict): Resolved path aliases.
+
+	Returns:
+		str: PYTHONPATH value.
+	"""
+	python_parts = []
+
+	def add_path(path_value: str):
+		if not path_value:
+			return
+		normalized = os.path.abspath(os.path.expanduser(path_value))
+		if normalized not in python_parts:
+			python_parts.append(normalized)
+
+	if isinstance(path_aliases, dict):
+		bp_root = (path_aliases.get("bp_root") or "").strip()
+		if bp_root:
+			if os.path.basename(bp_root) == "problems":
+				bp_root = os.path.dirname(bp_root)
+			add_path(bp_root)
+		qti_root = (path_aliases.get("qti_package_maker") or "").strip()
+		if qti_root:
+			add_path(qti_root)
+
+	existing = os.environ.get("PYTHONPATH", "")
+	if existing:
+		for part in existing.split(os.pathsep):
+			add_path(part)
+
+	return os.pathsep.join(python_parts)
 
 
 #============================================
@@ -514,7 +552,7 @@ def get_file_mtime(path_value: str) -> float:
 
 
 #============================================
-def run_command(cmd_list: list, cwd: str) -> subprocess.CompletedProcess:
+def run_command(cmd_list: list, cwd: str, env_override: dict = None) -> subprocess.CompletedProcess:
 	"""
 	Run a subprocess command.
 
@@ -525,9 +563,16 @@ def run_command(cmd_list: list, cwd: str) -> subprocess.CompletedProcess:
 	Returns:
 		subprocess.CompletedProcess: Completed process.
 	"""
+	env = None
+	if env_override is not None:
+		env = os.environ.copy()
+		env.update(env_override)
+	elif "PYTHONPATH" in os.environ:
+		env = os.environ.copy()
 	proc = subprocess.run(
 		cmd_list,
 		cwd=cwd,
+		env=env,
 		text=True,
 		capture_output=True,
 		check=False,
@@ -766,7 +811,7 @@ def should_run_task(
 
 
 #============================================
-def run_task(task: dict, log_path: str) -> bool:
+def run_task(task: dict, log_path: str, pythonpath_value: str) -> bool:
 	"""
 	Run a task command and move output if needed.
 
@@ -781,12 +826,15 @@ def run_task(task: dict, log_path: str) -> bool:
 	workdir = task.get("workdir") or os.getcwd()
 	cmd_list = build_command(task)
 	label_value = task_label(task, output_path, cmd_list)
+	env_override = None
+	if pythonpath_value:
+		env_override = {"PYTHONPATH": pythonpath_value}
 
 	log_line(log_path, f"START {label_value} -> {output_path or 'N/A'}")
 	log_line(log_path, f"CMD   {' '.join(cmd_list)} (cwd={workdir})")
 
 	try:
-		proc = run_command(cmd_list, workdir)
+		proc = run_command(cmd_list, workdir, env_override=env_override)
 	except FileNotFoundError as exc:
 		log_line(log_path, f"LAUNCH ERROR {label_value}: {exc}")
 		return False
@@ -833,6 +881,9 @@ def main():
 	bbq_config = load_bbq_config(args.bbq_config)
 	if args.bbq_config and not os.path.isfile(args.bbq_config):
 		print(f"Config not found: {args.bbq_config}")
+	paths_config = bbq_config.get("paths", {}) if isinstance(bbq_config, dict) else {}
+	path_aliases = resolve_alias_map(paths_config)
+	pythonpath_value = build_pythonpath(path_aliases)
 	tasks = load_tasks(args.config_path, bbq_config)
 	if not tasks:
 		print("No tasks found in config.")
@@ -902,7 +953,7 @@ def main():
 				status_value = "dry-run"
 			else:
 				print(f"RUN   {label_value}")
-				ok = run_task(task, args.log_path)
+				ok = run_task(task, args.log_path, pythonpath_value)
 				if ok:
 					status_value = "updated"
 					output_mtime_after = get_file_mtime(output_path)
