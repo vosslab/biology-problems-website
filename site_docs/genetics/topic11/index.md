@@ -17,7 +17,7 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -46,7 +46,7 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -75,7 +75,7 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -104,7 +104,7 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -133,7 +133,7 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -162,7 +162,7 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -191,7 +191,7 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -220,7 +220,7 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -249,7 +249,7 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -278,7 +278,7 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -307,7 +307,7 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>

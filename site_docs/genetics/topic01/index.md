@@ -20,7 +20,7 @@ Inheritance patterns, common genetic disorders, and terminology matching.
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -52,7 +52,7 @@ Inheritance patterns, common genetic disorders, and terminology matching.
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -84,7 +84,7 @@ Inheritance patterns, common genetic disorders, and terminology matching.
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -116,7 +116,7 @@ Inheritance patterns, common genetic disorders, and terminology matching.
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -148,7 +148,7 @@ Inheritance patterns, common genetic disorders, and terminology matching.
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -180,7 +180,7 @@ Inheritance patterns, common genetic disorders, and terminology matching.
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>

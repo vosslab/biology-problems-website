@@ -20,7 +20,7 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -52,7 +52,7 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -84,7 +84,7 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -116,7 +116,7 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -148,7 +148,7 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -180,7 +180,7 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -212,7 +212,7 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -244,7 +244,7 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>

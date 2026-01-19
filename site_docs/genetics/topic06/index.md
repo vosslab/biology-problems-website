@@ -20,7 +20,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -52,7 +52,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -84,7 +84,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -116,7 +116,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -148,7 +148,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -180,7 +180,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -212,7 +212,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -244,7 +244,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -276,7 +276,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -305,7 +305,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -337,7 +337,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
@@ -366,7 +366,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
 </div><details>
-  <summary>Click 
+  <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
