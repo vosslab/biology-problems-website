@@ -1,8 +1,6 @@
 .DS_Store
-pyflakes.txt
 bbq_converter.py
 bbq_control/biology-problems
-ascii_compliance.txt
 bbq_generation.log*
 
 
@@ -10,3 +8,8 @@ bbq_generation.log*
 *.py[cod]
 
 site/
+report_shebang.txt
+report_pyflakes.txt
+report_ascii_compliance.txt
+report_bandit.txt
+report_pyright.txt
