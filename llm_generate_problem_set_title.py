@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 # Import modules from the standard library
 # Provides functions to interact with the operating system and file system
