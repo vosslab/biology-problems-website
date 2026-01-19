@@ -3,6 +3,7 @@
 ## 2026-01-19
 - Switched ASCII compliance file skips to a regex list (currently `human_readable-*.html`).
 - Replaced box-drawing characters in the README ASCII tree guidance with codepoint text.
+- Reapplied the topic page summary line fix to avoid trailing whitespace in generated index pages.
 
 ## 2026-01-16
 - Updated `README.md` to a concise overview with documentation links and a verified quick start.
