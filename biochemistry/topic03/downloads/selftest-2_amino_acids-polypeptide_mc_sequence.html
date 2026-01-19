@@ -1,52 +1,56 @@
-<div id="question_html_7254_e983">
-<div id="statement_text_7254_e983"><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script><h4>peptide_9220</h4><p><canvas id="canvas_92a6" width="480" height="512"></canvas></p><hr/><script>/* */initRDKitModule().then(function(instance){RDKitModule=instance;console.log("RDKit:"+RDKitModule.version());/* */function/* */getPeptideBonds(mol){let/* */peptide_bond="CC(=O)NC";let/* */qmol=window.RDKitModule.get_qmol(peptide_bond);let/* */matches=JSON.parse(mol.get_substruct_matches(qmol));let/* */aggregatedBonds=[];for(let/* */i=0;i<matches.length;i++){match=matches[i];if(Array.isArray(match["bonds"])){aggregatedBonds.push(match["bonds"].slice(-2)[0]);}}return/* */aggregatedBonds;}let/* */smiles="[NH3+][C@@H](CO)(C(=O)N[C@@H](CC1=C[NH]C=N1)(C(=O)[O-]))";let/* */mol=RDKitModule.get_mol(smiles);let/* */mdetails={};mdetails["bonds"]=getPeptideBonds(mol);mdetails["atoms"]=[0];mdetails["highlightColour"]=[0,1,0];mdetails["legend"]="peptide_9220";mdetails["explicitMethyl"]=true;canvas=document.getElementById("canvas_92a6");mol.draw_to_canvas_with_highlights(canvas,JSON.stringify(mdetails));});/* */</script> <p>A dipeptide is made up of two (2) amino acids. The figure above shows one such dipeptide with an unknown sequence. Your task is to find out the two (2) letter sequence of this dipeptide.<br/>Here is a step-by-step guide to help you answer the question:</p> <ol> <li style="margin-bottom: 20px;">Consult an amino acid guide for reference. You can find a PDF guide on Blackboard under "Exam and Quiz" in the "Old Exams" section, with the filename <a href="https://drive.google.com/file/d/1Mgum_TmZ71-XIjb38sStEpzzZLqkQb-W/view?usp=sharing">bchm_exam-help_sheet.pdf</a>, or search online for a visual guide that shows all 20 amino acids with their single-letter codes.</li> <li style="margin-bottom: 20px;">Identify the amino-terminal end, represented as <span style="padding: 2px; color: #0000cc; background-color: #66ff66;">NH<sub>3</sub><sup>+</sup></span> and highlighted in bright green. Distinguish between the general nitrogens in amino acid backbones (denoted as <span style="color:#0000cc">NH</span>) and the nitrogen in amino acid side chains.</li> <li style="margin-bottom: 20px;">The one (1) peptide bonds connecting the two (2) amino acids are highlighted in <span style="background-color: #00FF00; padding: 2px;">bright green</span>, making it easier to distinguish the two (2) amino acids.</li> <li style="margin-bottom: 20px;">Examine the side chain for each of the two (2) amino acids to determine their single-letter amino acid code.</li> <li style="margin-bottom: 20px;">List the single-letter amino acid codes in the amino to carboxyl (N&rarr;C) direction. This is the standard method for writing peptide sequences.</li> </ol> <p>Select the correct peptide sequence from the options below:</p></div>
+<script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
+<div class="qti-selftest">
+<div id="question_html_d61d_b0a0">
+<div id="statement_text_d61d_b0a0"><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script><h4>peptide_7e98</h4><p><canvas id="canvas_3c6d" width="480" height="512"></canvas></p><hr/><script>/* */initRDKitModule().then(function(instance){RDKitModule=instance;console.log("RDKit:"+RDKitModule.version());/* */function/* */getPeptideBonds(mol){let/* */peptide_bond="CC(=O)NC";let/* */qmol=window.RDKitModule.get_qmol(peptide_bond);let/* */matches=JSON.parse(mol.get_substruct_matches(qmol));let/* */aggregatedBonds=[];for(let/* */i=0;i<matches.length;i++){match=matches[i];if(Array.isArray(match["bonds"])){aggregatedBonds.push(match["bonds"].slice(-2)[0]);}}return/* */aggregatedBonds;}let/* */smiles="[NH3+][C@@H]([C@H](CC)C)(C(=O)N[C@@H](CC1=C[NH]C=N1)(C(=O)[O-]))";let/* */mol=RDKitModule.get_mol(smiles);let/* */mdetails={};mdetails["bonds"]=getPeptideBonds(mol);mdetails["atoms"]=[0];mdetails["highlightColour"]=[0,1,0];mdetails["legend"]="peptide_7e98";mdetails["explicitMethyl"]=true;canvas=document.getElementById("canvas_3c6d");mol.draw_to_canvas_with_highlights(canvas,JSON.stringify(mdetails));});/* */</script> <p>A dipeptide is made up of two (2) amino acids. The figure above shows one such dipeptide with an unknown sequence. Your task is to find out the two (2) letter sequence of this dipeptide.<br/>Here is a step-by-step guide to help you answer the question:</p> <ol> <li style="margin-bottom: 20px;">Consult an amino acid guide for reference. You can find a PDF guide on Blackboard under "Exam and Quiz" in the "Old Exams" section, with the filename <a href="https://drive.google.com/file/d/1Mgum_TmZ71-XIjb38sStEpzzZLqkQb-W/view?usp=sharing">bchm_exam-help_sheet.pdf</a>, or search online for a visual guide that shows all 20 amino acids with their single-letter codes.</li> <li style="margin-bottom: 20px;">Identify the amino-terminal end, represented as <span style="padding: 2px; color: #0000cc; background-color: #66ff66;">NH<sub>3</sub><sup>+</sup></span> and highlighted in bright green. Distinguish between the general nitrogens in amino acid backbones (denoted as <span style="color:#0000cc">NH</span>) and the nitrogen in amino acid side chains.</li> <li style="margin-bottom: 20px;">The one (1) peptide bonds connecting the two (2) amino acids are highlighted in <span style="background-color: #00FF00; padding: 2px;">bright green</span>, making it easier to distinguish the two (2) amino acids.</li> <li style="margin-bottom: 20px;">Examine the side chain for each of the two (2) amino acids to determine their single-letter amino acid code.</li> <li style="margin-bottom: 20px;">List the single-letter amino acid codes in the amino to carboxyl (N&rarr;C) direction. This is the standard method for writing peptide sequences.</li> </ol> <p>Select the correct peptide sequence from the options below:</p></div>
 <form>
-<ul id="choices_7254_e983">
+<ul id="choices_d61d_b0a0">
   <li>
-    <input type="radio" id="option0"  name="answer_7254_e983"  data-correct="false">
-    <label for="option0">SM&nbsp; </label>
+    <input type="radio" id="option0"  name="answer_d61d_b0a0"  data-correct="false">
+    <label for="option0">IC&nbsp; </label>
   </li>
   <li>
-    <input type="radio" id="option1"  name="answer_7254_e983"  data-correct="false">
-    <label for="option1">HG&nbsp; </label>
+    <input type="radio" id="option1"  name="answer_d61d_b0a0"  data-correct="true">
+    <label for="option1">IH&nbsp; </label>
   </li>
   <li>
-    <input type="radio" id="option2"  name="answer_7254_e983"  data-correct="true">
-    <label for="option2">SH&nbsp; </label>
+    <input type="radio" id="option2"  name="answer_d61d_b0a0"  data-correct="false">
+    <label for="option2">YI&nbsp; </label>
   </li>
   <li>
-    <input type="radio" id="option3"  name="answer_7254_e983"  data-correct="false">
-    <label for="option3">GH&nbsp; </label>
+    <input type="radio" id="option3"  name="answer_d61d_b0a0"  data-correct="false">
+    <label for="option3">SY&nbsp; </label>
   </li>
   <li>
-    <input type="radio" id="option4"  name="answer_7254_e983"  data-correct="false">
-    <label for="option4">QM&nbsp; </label>
+    <input type="radio" id="option4"  name="answer_d61d_b0a0"  data-correct="false">
+    <label for="option4">IT&nbsp; </label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button" onclick="checkAnswer_7254_e983()">Check Answer</button>
-<div id="result_7254_e983" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;">&nbsp;</div>
+<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_d61d_b0a0()">Check Answer</button>
+<div id="result_d61d_b0a0" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;">&nbsp;</div>
 </form><br/>
 </div><script>
-function checkAnswer_7254_e983() {
- const options = document.getElementsByName('answer_7254_e983');
+function checkAnswer_d61d_b0a0() {
+ const options = document.getElementsByName('answer_d61d_b0a0');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_7254_e983');
+ const resultDiv = document.getElementById('result_d61d_b0a0');
  if (selectedOption) {
   if (selectedOption === correctOption) {
-   resultDiv.style.color = 'green';
+   resultDiv.style.color = 'var(--qti-success-fg, #008000)';
    resultDiv.textContent = 'CORRECT';
   } else {
-   resultDiv.style.color = 'red';
+   resultDiv.style.color = 'var(--qti-error-fg, #9b1b1b)';
    resultDiv.textContent = 'incorrect';
   }
  } else {
-  resultDiv.style.color = 'black';
+  resultDiv.style.color = 'inherit';
   resultDiv.textContent = 'Please select an answer.';
  }
 }
 </script>
+
+</div>
