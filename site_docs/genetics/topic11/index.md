@@ -16,6 +16,9 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_choice_plus-TABLE_mode-LEVEL_1.zip" download title="Download canvas_qti_v1_2-gene_tree_choice_plus-TABLE_mode-LEVEL_1.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_choice_plus-TABLE_mode-LEVEL_1.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_choice_plus-TABLE_mode-LEVEL_1.html', '_blank')" title="View human_readable-gene_tree_choice_plus-TABLE_mode-LEVEL_1.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_choice_plus-TABLE_mode-LEVEL_1.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -45,6 +48,9 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_choice_plus-TABLE_mode-LEVEL_2.zip" download title="Download canvas_qti_v1_2-gene_tree_choice_plus-TABLE_mode-LEVEL_2.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_choice_plus-TABLE_mode-LEVEL_2.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_choice_plus-TABLE_mode-LEVEL_2.html', '_blank')" title="View human_readable-gene_tree_choice_plus-TABLE_mode-LEVEL_2.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_choice_plus-TABLE_mode-LEVEL_2.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -74,6 +80,9 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_choice_plus-TABLE_mode-LEVEL_3.zip" download title="Download canvas_qti_v1_2-gene_tree_choice_plus-TABLE_mode-LEVEL_3.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_choice_plus-TABLE_mode-LEVEL_3.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_choice_plus-TABLE_mode-LEVEL_3.html', '_blank')" title="View human_readable-gene_tree_choice_plus-TABLE_mode-LEVEL_3.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_choice_plus-TABLE_mode-LEVEL_3.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -103,6 +112,9 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_choice_plus-TABLE_mode-LEVEL_4.zip" download title="Download canvas_qti_v1_2-gene_tree_choice_plus-TABLE_mode-LEVEL_4.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_choice_plus-TABLE_mode-LEVEL_4.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_choice_plus-TABLE_mode-LEVEL_4.html', '_blank')" title="View human_readable-gene_tree_choice_plus-TABLE_mode-LEVEL_4.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_choice_plus-TABLE_mode-LEVEL_4.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -132,6 +144,9 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_choice_plus-TABLE_mode-LEVEL_5.zip" download title="Download canvas_qti_v1_2-gene_tree_choice_plus-TABLE_mode-LEVEL_5.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_choice_plus-TABLE_mode-LEVEL_5.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_choice_plus-TABLE_mode-LEVEL_5.html', '_blank')" title="View human_readable-gene_tree_choice_plus-TABLE_mode-LEVEL_5.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_choice_plus-TABLE_mode-LEVEL_5.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -161,6 +176,9 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_matches_plus-DIFFERENT_mode-EASY_level.zip" download title="Download canvas_qti_v1_2-gene_tree_matches_plus-DIFFERENT_mode-EASY_level.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_matches_plus-DIFFERENT_mode-EASY_level.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_matches_plus-DIFFERENT_mode-EASY_level.html', '_blank')" title="View human_readable-gene_tree_matches_plus-DIFFERENT_mode-EASY_level.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_matches_plus-DIFFERENT_mode-EASY_level.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -190,6 +208,9 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_matches_plus-DIFFERENT_mode-MEDIUM_level.zip" download title="Download canvas_qti_v1_2-gene_tree_matches_plus-DIFFERENT_mode-MEDIUM_level.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_matches_plus-DIFFERENT_mode-MEDIUM_level.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_matches_plus-DIFFERENT_mode-MEDIUM_level.html', '_blank')" title="View human_readable-gene_tree_matches_plus-DIFFERENT_mode-MEDIUM_level.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_matches_plus-DIFFERENT_mode-MEDIUM_level.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -219,6 +240,9 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_matches_plus-DIFFERENT_mode-RIGOROUS_level.zip" download title="Download canvas_qti_v1_2-gene_tree_matches_plus-DIFFERENT_mode-RIGOROUS_level.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_matches_plus-DIFFERENT_mode-RIGOROUS_level.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_matches_plus-DIFFERENT_mode-RIGOROUS_level.html', '_blank')" title="View human_readable-gene_tree_matches_plus-DIFFERENT_mode-RIGOROUS_level.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_matches_plus-DIFFERENT_mode-RIGOROUS_level.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -248,6 +272,9 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_matches_plus-SAME_mode-EASY_level.zip" download title="Download canvas_qti_v1_2-gene_tree_matches_plus-SAME_mode-EASY_level.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_matches_plus-SAME_mode-EASY_level.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_matches_plus-SAME_mode-EASY_level.html', '_blank')" title="View human_readable-gene_tree_matches_plus-SAME_mode-EASY_level.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_matches_plus-SAME_mode-EASY_level.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -277,6 +304,9 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_matches_plus-SAME_mode-MEDIUM_level.zip" download title="Download canvas_qti_v1_2-gene_tree_matches_plus-SAME_mode-MEDIUM_level.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_matches_plus-SAME_mode-MEDIUM_level.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_matches_plus-SAME_mode-MEDIUM_level.html', '_blank')" title="View human_readable-gene_tree_matches_plus-SAME_mode-MEDIUM_level.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_matches_plus-SAME_mode-MEDIUM_level.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -306,6 +336,9 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_matches_plus-SAME_mode-RIGOROUS_level.zip" download title="Download canvas_qti_v1_2-gene_tree_matches_plus-SAME_mode-RIGOROUS_level.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_matches_plus-SAME_mode-RIGOROUS_level.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_matches_plus-SAME_mode-RIGOROUS_level.html', '_blank')" title="View human_readable-gene_tree_matches_plus-SAME_mode-RIGOROUS_level.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_matches_plus-SAME_mode-RIGOROUS_level.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>

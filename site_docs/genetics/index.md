@@ -14,7 +14,7 @@ Explore the main topics in genetics. Click on a topic to dive deeper.
     - Restriction enzymes, recognition sequences, gel electrophoresis, and applications in DNA profiling.
 
 4. [Mendelian Genetics](topic04/index.md) &mdash; <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/04:_Mendelian_Genetics" target="_blank" rel="noopener" title="Open LibreTexts chapter"><span style="font-size: 0.8em;">(LibreTexts Chapter <i class="fa fa-external-link-alt"></i>)</span></a>
-    - Mendel’s principles, Punnett squares, genotype/phenotype ratios, and autosomal pedigree analysis.
+    - Mendel's principles, Punnett squares, genotype/phenotype ratios, and autosomal pedigree analysis.
 
 5. [Gene Interactions](topic05/index.md) &mdash; <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/05:_Allele_and_Gene_Interactions" target="_blank" rel="noopener" title="Open LibreTexts chapter"><span style="font-size: 0.8em;">(LibreTexts Chapter <i class="fa fa-external-link-alt"></i>)</span></a>
     - Multigene crosses, degrees of dominance, and epistasis in metabolic and genetic pathways.

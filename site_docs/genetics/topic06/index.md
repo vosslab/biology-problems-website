@@ -304,6 +304,9 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-pedigree_match.zip" download title="Download canvas_qti_v1_2-pedigree_match.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-pedigree_match.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-pedigree_match.html', '_blank')" title="View human_readable-pedigree_match.html" aria-label="Click to view the Human-Readable TXT file (human_readable-pedigree_match.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -365,6 +368,9 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-probabiliy_of_progeny.zip" download title="Download canvas_qti_v1_2-probabiliy_of_progeny.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-probabiliy_of_progeny.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-probabiliy_of_progeny.html', '_blank')" title="View human_readable-probabiliy_of_progeny.html" aria-label="Click to view the Human-Readable TXT file (human_readable-probabiliy_of_progeny.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>

@@ -48,6 +48,9 @@ Two- and three-point test crosses, genetic distances, interference, and tetrad a
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-tetrad_unordered_three_gene-find_one_distance-MC.zip" download title="Download canvas_qti_v1_2-tetrad_unordered_three_gene-find_one_distance-MC.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-tetrad_unordered_three_gene-find_one_distance-MC.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-tetrad_unordered_three_gene-find_one_distance-MC.html', '_blank')" title="View human_readable-tetrad_unordered_three_gene-find_one_distance-MC.html" aria-label="Click to view the Human-Readable TXT file (human_readable-tetrad_unordered_three_gene-find_one_distance-MC.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -77,6 +80,9 @@ Two- and three-point test crosses, genetic distances, interference, and tetrad a
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-tetrad_unordered_two_gene-find_distance-MC.zip" download title="Download canvas_qti_v1_2-tetrad_unordered_two_gene-find_distance-MC.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-tetrad_unordered_two_gene-find_distance-MC.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-tetrad_unordered_two_gene-find_distance-MC.html', '_blank')" title="View human_readable-tetrad_unordered_two_gene-find_distance-MC.html" aria-label="Click to view the Human-Readable TXT file (human_readable-tetrad_unordered_two_gene-find_distance-MC.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>

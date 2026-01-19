@@ -15,7 +15,7 @@ In addition to his teaching and OER development, Dr. Voss has worked extensively
 
 As a strong advocate for Open Educational Resources (OER), Dr. Voss is committed to expanding access to high-quality, no-cost educational materials. Having taught courses in biochemistry, genetics, molecular biology, and biostatistics, he has developed computational tools to enhance problem-based learning by creating dynamic, sharing-resistant problem sets.
 
-This website was funded by an Illinois State Library OER Grant, titled *"Dynamic and Sharing-Resistant OER Problem Sets for Biochemistry and Genetics" (2024–2026).* These problem sets ensure fair and effective assessments for online learning environments. The grant also supports projects that focus on LibreTexts ADAPT integration, QTI format standardization, and faculty outreach to promote OER adoption.
+This website was funded by an Illinois State Library OER Grant, titled *"Dynamic and Sharing-Resistant OER Problem Sets for Biochemistry and Genetics" (2024-2026).* These problem sets ensure fair and effective assessments for online learning environments. The grant also supports projects that focus on LibreTexts ADAPT integration, QTI format standardization, and faculty outreach to promote OER adoption.
 
 ## Social Media Links
 
@@ -27,7 +27,7 @@ This website was funded by an Illinois State Library OER Grant, titled *"Dynamic
 
 ## Support This Project
 
-Dr. Voss's work in OER development is driven by a passion for accessible and high-quality STEM education. If you’d like to support the continued creation of free and open problem sets, or drive any specicl questions or features, consider contributing:
+Dr. Voss's work in OER development is driven by a passion for accessible and high-quality STEM education. If you'd like to support the continued creation of free and open problem sets, or drive any specicl questions or features, consider contributing:
 
 - Bitcoin: [Donate with Bitcoin](bitcoin:bc1qdexkqwzyet93ret40akqmms2jv99wvsgzdshu8?message=support%20qti_package_maker)
 - Dash: [Donate with Dash](dash:XdDmwBVecEy9yyXKeD7hScLp7oN8rd4XNV?message=support%20qti_package_maker)
