@@ -33,7 +33,7 @@ Site content lives under [site_docs/](site_docs/) and is configured by [mkdocs.y
 When showing a directory tree, use ASCII only. Do not use box drawing characters.
 
 - Allowed: `|`, `+-`, `` `-``, spaces
-- Not allowed: `├`, `─`, `│`, `└`
+- Not allowed: box-drawing characters (for example U+2500, U+2502, U+2514, U+251C)
 
 Example (ASCII only):
 

@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-01-19
+- Switched ASCII compliance file skips to a regex list (currently `human_readable-*.html`).
+- Replaced box-drawing characters in the README ASCII tree guidance with codepoint text.
+
 ## 2026-01-16
 - Updated `README.md` to a concise overview with documentation links and a verified quick start.
 - Added minimal `docs/INSTALL.md` and `docs/USAGE.md` stubs based on repo evidence.
