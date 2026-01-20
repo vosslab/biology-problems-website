@@ -24,6 +24,7 @@ import yaml
 
 try:
 	# PIP3 modules
+	from rich.text import Text
 	from textual.app import App, ComposeResult
 	from textual.containers import Horizontal, Vertical
 	from textual.widgets import DataTable, RichLog, Static
@@ -277,17 +278,19 @@ def move_output_if_needed(output_path: str, workdir: str = ".") -> bool:
 	"""If output_path does not exist, but the basename exists in workdir, move it."""
 	if not output_path:
 		return True
-	if os.path.isfile(output_path):
-		return True
 	base = os.path.basename(output_path)
 	if not base:
 		return False
 	candidate = os.path.join(workdir, base)
 	if os.path.isfile(candidate):
 		ensure_parent_dir(output_path)
+		if os.path.abspath(candidate) == os.path.abspath(output_path):
+			return True
+		if os.path.isfile(output_path):
+			os.remove(output_path)
 		shutil.move(candidate, output_path)
 		return True
-	return False
+	return os.path.isfile(output_path)
 
 
 def output_exists(output_path: str, workdir: str = ".") -> bool:
@@ -602,6 +605,19 @@ def run_task(task: dict, log_path: str, index: int, total: int, move_output: boo
 
 if TEXTUAL_AVAILABLE:
 	class BBQTaskApp(App):
+		STATUS_STYLES = {
+			"pending": "yellow",
+			"running": "cyan",
+			"ok": "green",
+			"failed": "red",
+		}
+
+		def format_status(self, status: str) -> Text:
+			style = self.STATUS_STYLES.get(status, "")
+			if style:
+				return Text(status, style=style)
+			return Text(status)
+
 		def __init__(self, tasks: list, args: argparse.Namespace) -> None:
 			super().__init__()
 			self.tasks = tasks
@@ -612,6 +628,7 @@ if TEXTUAL_AVAILABLE:
 			self.durations = []
 			self.log_lines = []
 			self.task_rows = []
+			self.column_keys = {}
 
 		CSS = (
 			"#root { height: 1fr; }\n"
@@ -634,21 +651,28 @@ if TEXTUAL_AVAILABLE:
 					yield RichLog(id="messages", wrap=True, highlight=False)
 				table = DataTable(id="task_table", zebra_stripes=True)
 				table.cursor_type = "row"
-				table.add_columns("#", "script", "status", "sec", "lines")
+				self.task_rows = []
+				self.column_keys = {
+					"index": table.add_column("#"),
+					"script": table.add_column("script"),
+					"status": table.add_column("status"),
+					"sec": table.add_column("sec"),
+					"lines": table.add_column("lines"),
+				}
 				for idx, task in enumerate(self.tasks, start=1):
 					script_path = task.get("script", "")
 					label = os.path.basename(script_path) if script_path else task_label(
 						task, idx, task.get("output", ""), build_command(task)
 					)
 					label = shorten_text(label, 120)
-					table.add_row(
+					row_key = table.add_row(
 						str(idx),
 						label,
-						"pending",
+						self.format_status("pending"),
 						"",
 						"",
 					)
-					self.task_rows.append(idx - 1)
+					self.task_rows.append(row_key)
 				yield table
 
 		def on_mount(self) -> None:
@@ -683,7 +707,8 @@ if TEXTUAL_AVAILABLE:
 				)
 				label = shorten_text(label, 44)
 				table = self.query_one(DataTable)
-				table.update_cell_at((self.task_rows[idx - 1], 2), "running")
+				row_key = self.task_rows[idx - 1]
+				table.update_cell(row_key, self.column_keys["status"], self.format_status("running"))
 				start = time.time()
 
 				ok, stdout, stderr, line_count = await self.run_in_thread(task)
@@ -692,9 +717,9 @@ if TEXTUAL_AVAILABLE:
 				self.completed += 1
 
 				status = "ok" if ok else "failed"
-				table.update_cell_at((self.task_rows[idx - 1], 2), status)
-				table.update_cell_at((self.task_rows[idx - 1], 3), f"{duration:.1f}")
-				table.update_cell_at((self.task_rows[idx - 1], 4), str(line_count))
+				table.update_cell(row_key, self.column_keys["status"], self.format_status(status))
+				table.update_cell(row_key, self.column_keys["sec"], f"{duration:.1f}")
+				table.update_cell(row_key, self.column_keys["lines"], str(line_count))
 				self.append_log(f"{status.upper()} {label} ({duration:.1f}s, {line_count} lines)")
 				if stdout:
 					self.append_log(stdout.rstrip()[:2000])

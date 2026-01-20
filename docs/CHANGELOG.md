@@ -11,6 +11,9 @@
 - Added `--shuffle` to `bbq_control/run_bbq_tasks.py` to randomize task order before applying `-x/--limit`.
 - Added a pre-run input YAML existence check in `bbq_control/run_bbq_tasks.py` with a clear missing-file message.
 - Added a pre-run script existence check in `bbq_control/run_bbq_tasks.py` to avoid running missing generators.
+- Updated `bbq_control/run_bbq_tasks.py` to always overwrite existing outputs when moving generated files.
+- Added colored TUI status labels in `bbq_control/run_bbq_tasks.py` for pending/running/ok/failed.
+- Switched the TUI task table to update cells by row/column keys to avoid invalid coordinates.
 
 ## 2026-01-16
 - Updated `README.md` to a concise overview with documentation links and a verified quick start.

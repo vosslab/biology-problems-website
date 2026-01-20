@@ -2,7 +2,7 @@
 bbq_converter.py
 bbq_control/biology-problems
 bbq_generation.log*
-
+bbq_control/bbq-*-questions.txt
 
 # Byte-compiled / optimized / DLL files
 *.py[cod]
