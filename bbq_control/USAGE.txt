@@ -6,6 +6,9 @@ Quick start
 - Edit bbq_control/bbq_tasks.csv to add or adjust tasks.
 - Run: python3 bbq_control/run_bbq_tasks.py --config bbq_control/bbq_tasks.csv
 - For sync mode: python3 bbq_control/bbq_sync_tasks.py --config bbq_control/bbq_tasks.csv
+  - To limit tasks during testing: add -x 5 (runs the first 5 tasks).
+  - To randomize task order for testing: add --shuffle (use with -x for a random subset).
+  - To append max-questions to each task: add --max-questions 5.
 
 Key files
 - bbq_control/run_bbq_tasks.py: Runs task list and writes outputs.

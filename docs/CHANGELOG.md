@@ -7,6 +7,10 @@
 - Updated `bbq_control/source_me.sh` to prepend `biology-problems` to PYTHONPATH instead of `bbq_control`.
 - Added `qti_package_maker` to `bbq_control/bbq_settings.yml` and used BBQ settings to derive PYTHONPATH in `bbq_control/source_me.sh` and `bbq_control/bbq_sync_tasks.py`.
 - Updated `bbq_control/USAGE.txt` to reference `bbq_settings.yml` and the new qti path entry.
+- Changed `bbq_control/run_bbq_tasks.py` so `-x/--limit` caps task count and `--max-questions` is the global questions flag.
+- Added `--shuffle` to `bbq_control/run_bbq_tasks.py` to randomize task order before applying `-x/--limit`.
+- Added a pre-run input YAML existence check in `bbq_control/run_bbq_tasks.py` with a clear missing-file message.
+- Added a pre-run script existence check in `bbq_control/run_bbq_tasks.py` to avoid running missing generators.
 
 ## 2026-01-16
 - Updated `README.md` to a concise overview with documentation links and a verified quick start.
