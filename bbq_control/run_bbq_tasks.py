@@ -12,6 +12,7 @@ import argparse
 import csv
 import datetime
 import math
+import random
 import os
 import shlex
 import shutil
@@ -176,6 +177,24 @@ def add_input_args(args: list, input_flag: str, input_path: str) -> list:
 	return updated
 
 
+def get_missing_input_message(task: dict) -> str:
+	input_path = task.get("input_path") or ""
+	if not input_path:
+		return ""
+	if os.path.isfile(input_path):
+		return ""
+	return f"Missing input file: {input_path}"
+
+
+def get_missing_script_message(task: dict) -> str:
+	script_path = task.get("script") or ""
+	if not script_path:
+		return ""
+	if os.path.isfile(script_path):
+		return ""
+	return f"Missing script file: {script_path}"
+
+
 def load_tasks(config_path: str, bbq_config: dict) -> list:
 	return load_tasks_csv(config_path, bbq_config)
 
@@ -228,6 +247,7 @@ def load_tasks_csv(config_path: str, bbq_config: dict) -> list:
 			output = normalize_path(output, repo_root, "", path_aliases)
 			flags = expand_text(flags, path_aliases)
 			args = shlex.split(flags) if flags else []
+			input_path = ""
 			if input_value:
 				input_flag = default_input_flag
 				if os.path.basename(input_value) == input_value:
@@ -241,6 +261,7 @@ def load_tasks_csv(config_path: str, bbq_config: dict) -> list:
 				"script": script,
 				"args": args,
 				"output": output,
+				"input_path": input_path,
 			}
 			tasks.append(task)
 	return tasks
@@ -433,6 +454,15 @@ def run_task_capture(task: dict, log_path: str, move_output: bool) -> tuple:
 	max_questions = task.get("max_questions")
 	start_time = time.time()
 
+	missing_script = get_missing_script_message(task)
+	if missing_script:
+		log_line(log_path, missing_script)
+		return False, "", missing_script, 0
+	missing_input = get_missing_input_message(task)
+	if missing_input:
+		log_line(log_path, missing_input)
+		return False, "", missing_input, 0
+
 	log_line(log_path, f"CMD   {' '.join(cmd)} (cwd={workdir})")
 	try:
 		proc = subprocess.run(
@@ -493,6 +523,16 @@ def run_task(task: dict, log_path: str, index: int, total: int, move_output: boo
 	summary = f"[{index}/{total}] {label}"
 	print(color(summary, COLOR_CYAN))
 	log_line(log_path, f"START {summary} -> {output_path or 'N/A'}")
+	missing_script = get_missing_script_message(task)
+	if missing_script:
+		print(color(f"FAILED {label}: {missing_script}", COLOR_RED))
+		log_line(log_path, missing_script)
+		return False
+	missing_input = get_missing_input_message(task)
+	if missing_input:
+		print(color(f"FAILED {label}: {missing_input}", COLOR_RED))
+		log_line(log_path, missing_input)
+		return False
 	log_line(log_path, f"CMD   {' '.join(cmd)} (cwd={workdir})")
 
 	try:
@@ -696,12 +736,16 @@ def main():
 		help="Disable the Textual TUI interface.",
 	)
 	parser.add_argument(
-		"-x", "--max-questions", dest="max_questions", type=int, default=None,
+		"--max-questions", dest="max_questions", type=int, default=None,
 		help="Append -x N to all scripts.",
 	)
 	parser.add_argument(
-		"--limit", dest="limit", type=int, default=None,
+		"-x", "--limit", dest="limit", type=int, default=None,
 		help="Maximum number of tasks to run (for testing).",
+	)
+	parser.add_argument(
+		"--shuffle", dest="shuffle_tasks", action="store_true",
+		help="Shuffle task order before applying --limit (for testing).",
 	)
 	args = parser.parse_args()
 	# Hardcoded settings
@@ -718,6 +762,8 @@ def main():
 		print(color("Warning: bbq_settings.yml not found, aliases will not expand.", COLOR_YELLOW))
 	settings = load_bbq_config(settings_path)
 	tasks = load_tasks(args.tasks_csv, settings)
+	if args.shuffle_tasks:
+		random.shuffle(tasks)
 	if args.limit is not None:
 		if args.limit <= 0:
 			print(color("Limit must be a positive integer.", COLOR_RED))
