@@ -4,8 +4,8 @@
 Batch runner for BBQ-related scripts (CSV only).
 
 Config format (CSV):
-chapter,topic,output_file,script,flags,input,notes
-genetics,topic05,bbq-unique_gametes.txt,unique_gametes.py,"-n 5"
+chapter,topic,script,flags,input,notes
+genetics,topic05,unique_gametes.py,"-n 5",,
 """
 
 import argparse
@@ -39,6 +39,8 @@ COLOR_YELLOW = "\033[93m"
 COLOR_CYAN = "\033[96m"
 COLOR_RED = "\033[91m"
 INPUT_SCRIPT_BASENAMES = {
+	"yaml_match_to_bbq.py",
+	"yaml_which_one_mc_to_bbq.py",
 	"yaml_make_which_one_multiple_choice.py",
 	"yaml_multiple_choice_statements.py",
 	"yaml_make_match_sets.py",
@@ -136,7 +138,7 @@ def resolve_alias_map(raw_aliases: dict) -> dict:
 	return resolved
 
 
-def resolve_script_alias(script_value: str, script_aliases: dict) -> str:
+def resolve_script_alias(script_value: str, script_aliases: dict):
 	if not script_value:
 		return ""
 	if script_value.startswith("@"):
@@ -145,6 +147,77 @@ def resolve_script_alias(script_value: str, script_aliases: dict) -> str:
 	if script_value in script_aliases:
 		return script_aliases[script_value]
 	return script_value
+
+
+def get_env_bp_root() -> str:
+	for key in ("bp_root", "BP_ROOT"):
+		value = os.environ.get(key, "").strip()
+		if value:
+			return os.path.expanduser(value)
+	return ""
+
+
+def apply_env_overrides(path_aliases: dict) -> dict:
+	if not isinstance(path_aliases, dict):
+		return {}
+	updated = dict(path_aliases)
+	env_bp_root = get_env_bp_root()
+	if env_bp_root:
+		updated["bp_root"] = env_bp_root
+	return updated
+
+
+def check_pythonpath(bbq_config: dict) -> tuple:
+	pythonpath_value = os.environ.get("PYTHONPATH", "").strip()
+	if not pythonpath_value:
+		return False, "Warning: PYTHONPATH is not set. Run: source bbq_control/source_me.sh"
+	paths_config = bbq_config.get("paths", {}) if isinstance(bbq_config, dict) else {}
+	path_aliases = resolve_alias_map(paths_config)
+	path_aliases = apply_env_overrides(path_aliases)
+	bp_root = (path_aliases.get("bp_root") or "").strip()
+	expected = ""
+	if bp_root:
+		if os.path.basename(bp_root) == "problems":
+			expected = os.path.dirname(bp_root)
+		else:
+			expected = bp_root
+	if expected:
+		python_parts = pythonpath_value.split(os.pathsep)
+		if expected not in python_parts:
+			message = (
+				"Warning: PYTHONPATH does not include "
+				f"{expected}. Run: source bbq_control/source_me.sh"
+			)
+			return False, message
+	return True, ""
+
+
+def build_pythonpath(bbq_config: dict) -> str:
+	paths_config = bbq_config.get("paths", {}) if isinstance(bbq_config, dict) else {}
+	path_aliases = resolve_alias_map(paths_config)
+	path_aliases = apply_env_overrides(path_aliases)
+	python_parts = []
+
+	def add_path(path_value: str):
+		if not path_value:
+			return
+		normalized = os.path.abspath(os.path.expanduser(path_value))
+		if normalized not in python_parts:
+			python_parts.append(normalized)
+
+	bp_root = (path_aliases.get("bp_root") or "").strip()
+	if bp_root:
+		if os.path.basename(bp_root) == "problems":
+			bp_root = os.path.dirname(bp_root)
+		add_path(bp_root)
+	qti_root = (path_aliases.get("qti_package_maker") or "").strip()
+	if qti_root:
+		add_path(qti_root)
+	existing = os.environ.get("PYTHONPATH", "")
+	if existing:
+		for part in existing.split(os.pathsep):
+			add_path(part)
+	return os.pathsep.join(python_parts)
 
 
 def expand_text(text: str, aliases: dict) -> str:
@@ -205,14 +278,23 @@ def load_tasks_csv(config_path: str, bbq_config: dict) -> list:
 	repo_root = get_repo_root()
 	paths_config = bbq_config.get("paths", {}) if isinstance(bbq_config, dict) else {}
 	path_aliases = resolve_alias_map(paths_config)
+	path_aliases = apply_env_overrides(path_aliases)
 	path_aliases["repo_root"] = repo_root
 	script_aliases_raw = bbq_config.get("script_aliases", {}) if isinstance(bbq_config, dict) else {}
 	script_aliases = {}
 	if isinstance(script_aliases_raw, dict):
 		for alias_key, alias_value in script_aliases_raw.items():
-			if not isinstance(alias_value, str):
+			if isinstance(alias_value, str):
+				script_aliases[alias_key] = expand_text(alias_value, path_aliases)
 				continue
-			script_aliases[alias_key] = expand_text(alias_value, path_aliases)
+			if isinstance(alias_value, list):
+				expanded_list = []
+				for item in alias_value:
+					if not isinstance(item, str):
+						continue
+					expanded_list.append(expand_text(item, path_aliases))
+				if expanded_list:
+					script_aliases[alias_key] = expanded_list
 	defaults = bbq_config.get("defaults", {}) if isinstance(bbq_config, dict) else {}
 	default_input_flag = ""
 	if isinstance(defaults, dict):
@@ -235,36 +317,55 @@ def load_tasks_csv(config_path: str, bbq_config: dict) -> list:
 			output_file = (row.get("output_file") or "").strip()
 			if not script and not flags:
 				continue
-			script = resolve_script_alias(script, script_aliases)
-			script = normalize_path(script, repo_root, base_root, path_aliases)
+			script_value = resolve_script_alias(script, script_aliases)
+			script_values = []
+			if isinstance(script_value, list):
+				for item in script_value:
+					if not isinstance(item, str):
+						continue
+					if item.strip():
+						script_values.append(item.strip())
+			elif isinstance(script_value, str):
+				if script_value:
+					script_values.append(script_value)
+			if not script_values and script:
+				script_values = [script]
+			output_dir_parts = [repo_root, "site_docs"]
+			if chapter:
+				output_dir_parts.append(chapter)
+			if topic:
+				output_dir_parts.append(topic)
+			output_dir = os.path.join(*output_dir_parts)
 			if not output and output_file:
-				output_parts = [repo_root, "site_docs"]
-				if chapter:
-					output_parts.append(chapter)
-				if topic:
-					output_parts.append(topic)
-				output_parts.append(output_file)
-				output = os.path.join(*output_parts)
+				output = os.path.join(output_dir, output_file)
 			output = normalize_path(output, repo_root, "", path_aliases)
 			flags = expand_text(flags, path_aliases)
-			args = shlex.split(flags) if flags else []
-			input_path = ""
-			if input_value:
-				input_flag = default_input_flag
-				if os.path.basename(input_value) == input_value:
-					script_basename = os.path.basename(script)
-					if script_basename in INPUT_SCRIPT_BASENAMES:
-						input_value = os.path.join(os.path.dirname(script), input_value)
-				input_path = normalize_path(input_value, repo_root, base_root, path_aliases)
-				args = add_input_args(args, input_flag, input_path)
-			task = {
-				"program": program or "python3",
-				"script": script,
-				"args": args,
-				"output": output,
-				"input_path": input_path,
-			}
-			tasks.append(task)
+			base_args = shlex.split(flags) if flags else []
+			for script_entry in script_values:
+				script_path = normalize_path(script_entry, repo_root, base_root, path_aliases)
+				args = list(base_args)
+				input_path = ""
+				if input_value:
+					input_flag = default_input_flag
+					input_value_expanded = input_value
+					if os.path.basename(input_value_expanded) == input_value_expanded:
+						script_basename = os.path.basename(script_path)
+						if script_basename in INPUT_SCRIPT_BASENAMES:
+							input_value_expanded = os.path.join(
+								os.path.dirname(script_path),
+								input_value_expanded,
+							)
+					input_path = normalize_path(input_value_expanded, repo_root, base_root, path_aliases)
+					args = add_input_args(args, input_flag, input_path)
+				task = {
+					"program": program or "python3",
+					"script": script_path,
+					"args": args,
+					"output": output,
+					"output_dir": output_dir,
+					"input_path": input_path,
+				}
+				tasks.append(task)
 	return tasks
 
 
@@ -341,6 +442,71 @@ def resolve_output_workdir_recent(output_path: str, workdir: str, start_time: fl
 	return ""
 
 
+def build_output_patterns(script_path: str) -> tuple:
+	script_basename = os.path.splitext(os.path.basename(script_path))[0]
+	if not script_basename:
+		return "", ("-problems.txt",)
+	prefix = f"bbq-{script_basename}"
+	suffixes = ("-problems.txt", "-questions.txt")
+	return prefix, suffixes
+
+
+def find_recent_outputs(workdir: str, start_time: float, prefix: str, suffixes: tuple) -> list:
+	candidates = []
+	if not workdir or not os.path.isdir(workdir):
+		return candidates
+	for entry in os.scandir(workdir):
+		if not entry.is_file():
+			continue
+		name = entry.name
+		if prefix and not name.startswith(prefix):
+			continue
+		if suffixes and not any(name.endswith(suffix) for suffix in suffixes):
+			continue
+		try:
+			mtime = entry.stat().st_mtime
+		except OSError:
+			continue
+		if mtime >= (start_time - 2.0):
+			candidates.append((mtime, entry.path))
+	candidates.sort(key=lambda item: item[0], reverse=True)
+	return [path for _, path in candidates]
+
+
+def resolve_generated_output(task: dict, workdir: str, start_time: float) -> tuple:
+	output_dir = (task.get("output_dir") or "").strip()
+	script_path = task.get("script", "")
+	if not script_path:
+		return False, "", "", "Missing script path for output detection."
+	prefix, suffixes = build_output_patterns(script_path)
+	if not prefix:
+		return False, "", "", "Missing script basename for output detection."
+	candidates = find_recent_outputs(workdir, start_time, prefix, suffixes)
+	if not candidates:
+		return False, "", "", "Expected output not found in workdir."
+	if len(candidates) > 1:
+		names = ", ".join(os.path.basename(path) for path in candidates)
+		return False, "", "", f"Multiple outputs found in {workdir}: {names}"
+	candidate = candidates[0]
+	if output_dir:
+		output_path = os.path.join(output_dir, os.path.basename(candidate))
+	else:
+		output_path = candidate
+	return True, output_path, candidate, ""
+
+
+def move_output_candidate(candidate: str, output_path: str) -> bool:
+	if not candidate or not output_path:
+		return False
+	ensure_parent_dir(output_path)
+	if os.path.abspath(candidate) == os.path.abspath(output_path):
+		return True
+	if os.path.isfile(output_path):
+		os.remove(output_path)
+	shutil.move(candidate, output_path)
+	return True
+
+
 def count_output_lines(output_path: str, workdir: str = ".") -> int:
 	candidate = resolve_output_candidate(output_path, workdir)
 	return count_output_lines_path(candidate)
@@ -369,6 +535,31 @@ def log_line(log_path: str, message: str):
 	timestamp = datetime.datetime.now().isoformat()
 	with open(log_path, "a") as fp:
 		fp.write(f"[{timestamp}] {message}\n")
+
+
+def log_error(
+	log_path: str,
+	label: str,
+	message: str,
+	stdout_text: str = "",
+	stderr_text: str = "",
+	cmd_list: list = None,
+):
+	if not log_path:
+		return
+	ensure_parent_dir(log_path)
+	timestamp = datetime.datetime.now().isoformat()
+	with open(log_path, "a") as fp:
+		fp.write(f"[{timestamp}] {label}: {message}\n")
+		if cmd_list:
+			fp.write(f"CMD: {' '.join(str(part) for part in cmd_list)}\n")
+		if stdout_text:
+			fp.write("STDOUT:\n")
+			fp.write(stdout_text.rstrip() + "\n")
+		if stderr_text:
+			fp.write("STDERR:\n")
+			fp.write(stderr_text.rstrip() + "\n")
+		fp.write("\n")
 
 
 def rotate_log(log_path: str, max_backups: int = 5) -> bool:
@@ -450,33 +641,50 @@ def shorten_text(text: str, max_len: int) -> str:
 	return text[:max_len - 3] + "..."
 
 
-def run_task_capture(task: dict, log_path: str, move_output: bool) -> tuple:
+def run_task_capture(
+	task: dict,
+	log_path: str,
+	move_output: bool,
+	allow_cleanup: bool = True,
+	pythonpath_value: str = "",
+	error_log_path: str = "",
+) -> tuple:
 	output_path = task.get("output", "")
 	workdir = "."
 	cmd = build_command(task)
+	label = task_label(task, 0, output_path, cmd)
 	max_questions = task.get("max_questions")
 	start_time = time.time()
+	candidate_path = ""
 
 	missing_script = get_missing_script_message(task)
 	if missing_script:
 		log_line(log_path, missing_script)
+		log_error(error_log_path, label, missing_script, cmd_list=cmd)
 		return False, "", missing_script, 0
 	missing_input = get_missing_input_message(task)
 	if missing_input:
 		log_line(log_path, missing_input)
+		log_error(error_log_path, label, missing_input, cmd_list=cmd)
 		return False, "", missing_input, 0
 
 	log_line(log_path, f"CMD   {' '.join(cmd)} (cwd={workdir})")
+	env_override = None
+	if pythonpath_value:
+		env_override = os.environ.copy()
+		env_override["PYTHONPATH"] = pythonpath_value
 	try:
 		proc = subprocess.run(
 			cmd,
 			cwd=workdir,
+			env=env_override,
 			text=True,
 			capture_output=True,
 			check=False,
 		)
 	except Exception as exc:
 		log_line(log_path, f"LAUNCH ERROR {exc}")
+		log_error(error_log_path, label, f"Launch error: {exc}", cmd_list=cmd)
 		return False, "", str(exc), 0
 
 	if proc.stdout:
@@ -486,6 +694,14 @@ def run_task_capture(task: dict, log_path: str, move_output: bool) -> tuple:
 
 	if proc.returncode != 0:
 		log_line(log_path, f"EXIT -> {proc.returncode}")
+		log_error(
+			error_log_path,
+			label,
+			f"Exit {proc.returncode}",
+			stdout_text=proc.stdout,
+			stderr_text=proc.stderr,
+			cmd_list=cmd,
+		)
 		return False, proc.stdout, proc.stderr, 0
 
 	if output_path:
@@ -495,27 +711,77 @@ def run_task_capture(task: dict, log_path: str, move_output: bool) -> tuple:
 				log_line(log_path, f"ERROR expected output not found: {output_path}")
 				return False, proc.stdout, proc.stderr, 0
 		else:
-			if not resolve_output_workdir_recent(output_path, workdir, start_time):
+			candidate_path = resolve_output_workdir_recent(output_path, workdir, start_time)
+			if not candidate_path:
 				log_line(log_path, f"ERROR expected output not found: {output_path}")
+				log_error(error_log_path, label, f"Output not found: {output_path}", cmd_list=cmd)
+				return False, proc.stdout, proc.stderr, 0
+	else:
+		ok, resolved_output, detected_path, error_message = resolve_generated_output(
+			task,
+			workdir,
+			start_time,
+		)
+		if not ok:
+			log_line(log_path, f"ERROR {error_message}")
+			log_error(
+				error_log_path,
+				label,
+				error_message,
+				stdout_text=proc.stdout,
+				stderr_text=proc.stderr,
+				cmd_list=cmd,
+			)
+			return False, proc.stdout, proc.stderr, 0
+		output_path = resolved_output
+		candidate_path = detected_path
+		log_line(log_path, f"DETECTED output -> {output_path}")
+		if move_output:
+			moved_ok = move_output_candidate(candidate_path, output_path)
+			if not moved_ok:
+				log_line(log_path, f"ERROR expected output not found: {output_path}")
+				log_error(error_log_path, label, f"Output not found: {output_path}", cmd_list=cmd)
+				return False, proc.stdout, proc.stderr, 0
+		else:
+			if not os.path.isfile(candidate_path):
+				log_line(log_path, f"ERROR expected output not found: {candidate_path}")
+				log_error(error_log_path, label, f"Output not found: {candidate_path}", cmd_list=cmd)
 				return False, proc.stdout, proc.stderr, 0
 
 	if move_output:
-		line_count = count_output_lines(output_path, workdir)
+		line_count = count_output_lines_path(output_path)
 	else:
-		candidate = resolve_output_workdir_recent(output_path, workdir, start_time)
-		line_count = count_output_lines_path(candidate)
+		if not candidate_path:
+			candidate_path = resolve_output_workdir_recent(output_path, workdir, start_time)
+		line_count = count_output_lines_path(candidate_path)
 	if max_questions and line_count > max_questions:
 		msg = f"Output has {line_count} lines; expected <= {max_questions}."
 		log_line(log_path, msg)
+		log_error(error_log_path, label, msg, cmd_list=cmd)
 		if proc.stderr:
 			return False, proc.stdout, proc.stderr + "\n" + msg, line_count
 		return False, proc.stdout, msg, line_count
 	if not move_output:
-		cleanup_dry_run_output(resolve_output_workdir(output_path, workdir), log_path)
+		if allow_cleanup:
+			if candidate_path:
+				cleanup_dry_run_output(candidate_path, log_path)
+			else:
+				cleanup_dry_run_output(resolve_output_workdir(output_path, workdir), log_path)
+		else:
+			log_line(log_path, "SKIP CLEANUP (PYTHONPATH not set)")
 	return True, proc.stdout, proc.stderr, line_count
 
 
-def run_task(task: dict, log_path: str, index: int, total: int, move_output: bool = True):
+def run_task(
+	task: dict,
+	log_path: str,
+	index: int,
+	total: int,
+	move_output: bool = True,
+	allow_cleanup: bool = True,
+	pythonpath_value: str = "",
+	error_log_path: str = "",
+):
 	output_path = task.get("output", "")
 	workdir = "."
 	max_questions = task.get("max_questions")
@@ -530,18 +796,25 @@ def run_task(task: dict, log_path: str, index: int, total: int, move_output: boo
 	if missing_script:
 		print(color(f"FAILED {label}: {missing_script}", COLOR_RED))
 		log_line(log_path, missing_script)
+		log_error(error_log_path, label, missing_script, cmd_list=cmd)
 		return False
 	missing_input = get_missing_input_message(task)
 	if missing_input:
 		print(color(f"FAILED {label}: {missing_input}", COLOR_RED))
 		log_line(log_path, missing_input)
+		log_error(error_log_path, label, missing_input, cmd_list=cmd)
 		return False
 	log_line(log_path, f"CMD   {' '.join(cmd)} (cwd={workdir})")
 
+	env_override = None
+	if pythonpath_value:
+		env_override = os.environ.copy()
+		env_override["PYTHONPATH"] = pythonpath_value
 	try:
 		proc = subprocess.run(
 			cmd,
 			cwd=workdir,
+			env=env_override,
 			text=True,
 			capture_output=True,
 			check=False,
@@ -549,6 +822,7 @@ def run_task(task: dict, log_path: str, index: int, total: int, move_output: boo
 	except Exception as exc:  # subprocess failure before execution
 		print(color(f"FAILED to launch {label}: {exc}", COLOR_RED))
 		log_line(log_path, f"LAUNCH ERROR {label}: {exc}")
+		log_error(error_log_path, label, f"Launch error: {exc}", cmd_list=cmd)
 		return False
 
 	if proc.stdout:
@@ -559,10 +833,19 @@ def run_task(task: dict, log_path: str, index: int, total: int, move_output: boo
 	if proc.returncode != 0:
 		print(color(f"FAILED {label} (exit {proc.returncode})", COLOR_RED))
 		log_line(log_path, f"EXIT {label} -> {proc.returncode}")
+		log_error(
+			error_log_path,
+			label,
+			f"Exit {proc.returncode}",
+			stdout_text=proc.stdout,
+			stderr_text=proc.stderr,
+			cmd_list=cmd,
+		)
 		return False
 
 	# If the task specifies an output path and the script wrote to CWD, move it.
 	line_count = 0
+	candidate_path = ""
 	if output_path:
 		if move_output:
 			moved_ok = move_output_if_needed(output_path, workdir)
@@ -572,27 +855,75 @@ def run_task(task: dict, log_path: str, index: int, total: int, move_output: boo
 			else:
 				print(color(f"FAILED: expected output not found: {output_path}", COLOR_RED))
 				log_line(log_path, f"ERROR: expected output not found: {output_path}")
+				log_error(error_log_path, label, f"Output not found: {output_path}", cmd_list=cmd)
 				return False
 		else:
-			if not resolve_output_workdir_recent(output_path, workdir, start_time):
+			candidate_path = resolve_output_workdir_recent(output_path, workdir, start_time)
+			if not candidate_path:
 				print(color(f"FAILED: expected output not found: {output_path}", COLOR_RED))
 				log_line(log_path, f"ERROR: expected output not found: {output_path}")
+				log_error(error_log_path, label, f"Output not found: {output_path}", cmd_list=cmd)
 				return False
 			log_line(log_path, f"SKIP MOVE {label} -> {output_path}")
-		# Count output lines
-		if move_output:
-			line_count = count_output_lines(output_path, workdir)
-		else:
-			candidate = resolve_output_workdir_recent(output_path, workdir, start_time)
-			line_count = count_output_lines_path(candidate)
-		# Check against max_questions limit
-		if max_questions and line_count > max_questions:
-			msg = f"Output has {line_count} lines; expected <= {max_questions}."
-			print(color(f"FAILED {label}: {msg}", COLOR_RED))
-			log_line(log_path, msg)
+	else:
+		ok, resolved_output, detected_path, error_message = resolve_generated_output(
+			task,
+			workdir,
+			start_time,
+		)
+		if not ok:
+			print(color(f"FAILED: {error_message}", COLOR_RED))
+			log_line(log_path, f"ERROR: {error_message}")
+			log_error(
+				error_log_path,
+				label,
+				error_message,
+				stdout_text=proc.stdout,
+				stderr_text=proc.stderr,
+				cmd_list=cmd,
+			)
 			return False
-		if not move_output:
-			cleanup_dry_run_output(resolve_output_workdir(output_path, workdir), log_path)
+		output_path = resolved_output
+		task["output"] = output_path
+		candidate_path = detected_path
+		log_line(log_path, f"DETECTED output -> {output_path}")
+		if move_output:
+			moved_ok = move_output_candidate(candidate_path, output_path)
+			if not moved_ok:
+				print(color(f"FAILED: expected output not found: {output_path}", COLOR_RED))
+				log_line(log_path, f"ERROR: expected output not found: {output_path}")
+				log_error(error_log_path, label, f"Output not found: {output_path}", cmd_list=cmd)
+				return False
+			log_line(log_path, f"MOVED output to {output_path}")
+		else:
+			if not os.path.isfile(candidate_path):
+				print(color(f"FAILED: expected output not found: {candidate_path}", COLOR_RED))
+				log_line(log_path, f"ERROR: expected output not found: {candidate_path}")
+				log_error(error_log_path, label, f"Output not found: {candidate_path}", cmd_list=cmd)
+				return False
+			log_line(log_path, f"SKIP MOVE {label} -> {candidate_path}")
+	# Count output lines
+	if move_output:
+		line_count = count_output_lines_path(output_path)
+	else:
+		if not candidate_path:
+			candidate_path = resolve_output_workdir_recent(output_path, workdir, start_time)
+		line_count = count_output_lines_path(candidate_path)
+	# Check against max_questions limit
+	if max_questions and line_count > max_questions:
+		msg = f"Output has {line_count} lines; expected <= {max_questions}."
+		print(color(f"FAILED {label}: {msg}", COLOR_RED))
+		log_line(log_path, msg)
+		log_error(error_log_path, label, msg, cmd_list=cmd)
+		return False
+	if not move_output:
+		if allow_cleanup:
+			if candidate_path:
+				cleanup_dry_run_output(candidate_path, log_path)
+			else:
+				cleanup_dry_run_output(resolve_output_workdir(output_path, workdir), log_path)
+		else:
+			log_line(log_path, "SKIP CLEANUP (PYTHONPATH not set)")
 
 	# Show line count in output
 	if line_count > 0:
@@ -731,7 +1062,14 @@ if TEXTUAL_AVAILABLE:
 
 		async def run_in_thread(self, task: dict) -> tuple:
 			worker = self.run_worker(
-				lambda: run_task_capture(task, self.args.log, not self.args.dry_run),
+				lambda: run_task_capture(
+					task,
+					self.args.log,
+					not self.args.dry_run,
+					self.args.allow_cleanup,
+					self.args.pythonpath_value,
+					self.args.error_log,
+				),
 				thread=True,
 				exclusive=False
 			)
@@ -775,6 +1113,9 @@ def main():
 	args = parser.parse_args()
 	# Hardcoded settings
 	log_path = os.path.join(os.getcwd(), "bbq_generation.log")
+	error_log_path = os.path.join(os.getcwd(), "bbq_generation_errors.log")
+	if os.path.isfile(error_log_path):
+		os.remove(error_log_path)
 	# Duplicates: 1.1x max-questions when set, otherwise 99
 	if args.max_questions is not None:
 		duplicates_count = math.ceil(args.max_questions * 1.1)
@@ -786,6 +1127,10 @@ def main():
 	if not settings_path:
 		print(color("Warning: bbq_settings.yml not found, aliases will not expand.", COLOR_YELLOW))
 	settings = load_bbq_config(settings_path)
+	pythonpath_ok, pythonpath_message = check_pythonpath(settings)
+	if not pythonpath_ok and pythonpath_message:
+		print(color(pythonpath_message, COLOR_YELLOW))
+	pythonpath_value = build_pythonpath(settings)
 	tasks = load_tasks(args.tasks_csv, settings)
 	if args.shuffle_tasks:
 		random.shuffle(tasks)
@@ -822,6 +1167,11 @@ def main():
 		return 0
 	if rotate_log(log_path):
 		print(f"Rotated previous log to {log_path}.1")
+	if not pythonpath_ok and pythonpath_message:
+		log_line(log_path, pythonpath_message)
+	args.allow_cleanup = pythonpath_ok
+	args.pythonpath_value = pythonpath_value
+	args.error_log = error_log_path
 
 	use_tui = TEXTUAL_AVAILABLE and not args.no_tui and sys.stdout.isatty()
 	if use_tui:
@@ -840,15 +1190,35 @@ def main():
 		cmd = build_command(task)
 		if args.dry_run:
 			print(color(f"[{idx}/{total}] DRY-RUN {' '.join(cmd)}", COLOR_CYAN))
-			ok = run_task(task, log_path, idx, total, move_output=False)
+			ok = run_task(
+				task,
+				log_path,
+				idx,
+				total,
+				move_output=False,
+				allow_cleanup=args.allow_cleanup,
+				pythonpath_value=args.pythonpath_value,
+				error_log_path=args.error_log,
+			)
 		else:
-			ok = run_task(task, log_path, idx, total)
+			ok = run_task(
+				task,
+				log_path,
+				idx,
+				total,
+				allow_cleanup=args.allow_cleanup,
+				pythonpath_value=args.pythonpath_value,
+				error_log_path=args.error_log,
+			)
 		if not ok:
 			failures += 1
 
 	log_line(log_path, f"=== RUN END (failures={failures}) ===")
 	if failures:
-		print(color(f"Completed with {failures} failure(s). See {log_path}", COLOR_RED))
+		print(color(
+			f"Completed with {failures} failure(s). See {log_path} and {error_log_path}",
+			COLOR_RED,
+		))
 		return 1
 	print(color("All tasks completed successfully.", COLOR_GREEN))
 	return 0

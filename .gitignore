@@ -1,7 +1,8 @@
 .DS_Store
 bbq_converter.py
 bbq_control/biology-problems
-bbq_generation.log*
+bbq_control/bbq_generation.log*
+bbq_control/bbq_generation_errors.log
 bbq_control/bbq-*-questions.txt
 bbq_control/*.png
 
