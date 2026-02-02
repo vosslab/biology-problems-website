@@ -1,5 +1,20 @@
 # Changelog
 
+## 2026-02-02
+- Removed the output_file column from `bbq_control/bbq_tasks.csv` and `bbq_control/sub_bbq_tasks.csv`.
+- Updated `bbq_control/run_bbq_tasks.py` and `bbq_control/bbq_sync_tasks.py` to auto-detect new bbq-*.txt outputs and move them into the site_docs topic folders.
+- Updated `bbq_control/USAGE.md` and `flow_for_html_generation.txt` to document the new CSV format and output auto-detection.
+- Added a YMATCH script alias that runs both matching-set generators on the same input file.
+- Replaced YMWOMC usages in `bbq_control/bbq_tasks.csv` with YMATCH.
+- Tightened output auto-detection to match `bbq-<script_name>*-problems.txt` (with a questions.txt fallback).
+- Added a PYTHONPATH check in `bbq_control/run_bbq_tasks.py` and skip dry-run cleanup when it is missing.
+- Updated `bbq_control/USAGE.md` to reflect YMATCH and the output naming pattern.
+- Allowed `bp_root`/`BP_ROOT` to override path aliases and use that value to build PYTHONPATH for BBQ runs.
+- Added a dedicated `bbq_generation_errors.log` for failed task output in `bbq_control/run_bbq_tasks.py`.
+- Included the full command in `bbq_generation_errors.log` entries for easier debugging.
+- Removed rotation for `bbq_generation_errors.log` and delete it at the start of each run.
+- Updated `ignore_gen_content.sh` to remove untracked `bbq-*-questions.txt` files under `site_docs/`.
+
 ## 2026-01-19
 - Switched ASCII compliance file skips to a regex list (currently `human_readable-*.html`).
 - Replaced box-drawing characters in the README ASCII tree guidance with codepoint text.

@@ -18,6 +18,8 @@ import yaml
 #============================================
 # Known scripts where input lives in the same directory.
 INPUT_SCRIPT_BASENAMES = {
+	"yaml_match_to_bbq.py",
+	"yaml_which_one_mc_to_bbq.py",
 	"yaml_make_which_one_multiple_choice.py",
 	"yaml_multiple_choice_statements.py",
 	"yaml_make_match_sets.py",
@@ -153,6 +155,7 @@ def build_pythonpath(path_aliases: dict) -> str:
 		if normalized not in python_parts:
 			python_parts.append(normalized)
 
+	path_aliases = apply_env_overrides(path_aliases)
 	if isinstance(path_aliases, dict):
 		bp_root = (path_aliases.get("bp_root") or "").strip()
 		if bp_root:
@@ -240,8 +243,26 @@ def resolve_alias_map(raw_aliases: dict) -> dict:
 	return resolved
 
 
+def get_env_bp_root() -> str:
+	for key in ("bp_root", "BP_ROOT"):
+		value = os.environ.get(key, "").strip()
+		if value:
+			return os.path.expanduser(value)
+	return ""
+
+
+def apply_env_overrides(path_aliases: dict) -> dict:
+	if not isinstance(path_aliases, dict):
+		return {}
+	updated = dict(path_aliases)
+	env_bp_root = get_env_bp_root()
+	if env_bp_root:
+		updated["bp_root"] = env_bp_root
+	return updated
+
+
 #============================================
-def resolve_script_alias(script_value: str, script_aliases: dict) -> str:
+def resolve_script_alias(script_value: str, script_aliases: dict):
 	"""
 	Resolve a script alias to a path.
 
@@ -377,14 +398,23 @@ def load_tasks(config_path: str, bbq_config: dict) -> list:
 	repo_root = os.getcwd()
 	paths_config = bbq_config.get("paths", {}) if isinstance(bbq_config, dict) else {}
 	path_aliases = resolve_alias_map(paths_config)
+	path_aliases = apply_env_overrides(path_aliases)
 	path_aliases["repo_root"] = repo_root
 	script_aliases_raw = bbq_config.get("script_aliases", {}) if isinstance(bbq_config, dict) else {}
 	script_aliases = {}
 	if isinstance(script_aliases_raw, dict):
 		for alias_key, alias_value in script_aliases_raw.items():
-			if not isinstance(alias_value, str):
+			if isinstance(alias_value, str):
+				script_aliases[alias_key] = expand_text(alias_value, path_aliases)
 				continue
-			script_aliases[alias_key] = expand_text(alias_value, path_aliases)
+			if isinstance(alias_value, list):
+				expanded_list = []
+				for item in alias_value:
+					if not isinstance(item, str):
+						continue
+					expanded_list.append(expand_text(item, path_aliases))
+				if expanded_list:
+					script_aliases[alias_key] = expanded_list
 	defaults = bbq_config.get("defaults", {}) if isinstance(bbq_config, dict) else {}
 	default_input_flag = ""
 	if isinstance(defaults, dict):
@@ -409,42 +439,70 @@ def load_tasks(config_path: str, bbq_config: dict) -> list:
 			if not script_raw:
 				continue
 
-			script_raw = resolve_script_alias(script_raw, script_aliases)
-			script_path = normalize_path(script_raw, repo_root, base_root, path_aliases)
-			if not output_raw and output_file_raw:
-				output_parts = ["site_docs"]
-				if chapter_raw:
-					output_parts.append(chapter_raw)
-				if topic_raw:
-					output_parts.append(topic_raw)
-				output_parts.append(output_file_raw)
-				output_raw = os.path.join(*output_parts)
-			output_path = normalize_path(output_raw, repo_root, "", path_aliases)
-			program_value = program_raw if program_raw else "python3"
-			flags_raw = expand_text(flags_raw, path_aliases)
-			args_list = shlex.split(flags_raw) if flags_raw else []
-			if input_raw:
-				input_flag = default_input_flag
-				if os.path.basename(input_raw) == input_raw:
-					script_basename = os.path.basename(script_path)
-					if script_basename in INPUT_SCRIPT_BASENAMES:
-						input_raw = os.path.join(os.path.dirname(script_path), input_raw)
-				input_path = normalize_path(input_raw, repo_root, base_root, path_aliases)
-				args_list = add_input_args(args_list, input_flag, input_path)
-			flags_raw = shlex.join(args_list) if args_list else ""
+			script_value = resolve_script_alias(script_raw, script_aliases)
+			script_values = []
+			if isinstance(script_value, list):
+				for item in script_value:
+					if not isinstance(item, str):
+						continue
+					if item.strip():
+						script_values.append(item.strip())
+			elif isinstance(script_value, str):
+				if script_value:
+					script_values.append(script_value)
+			if not script_values and script_raw:
+				script_values = [script_raw]
+			output_dir_parts = [repo_root, "site_docs"]
+			if chapter_raw:
+				output_dir_parts.append(chapter_raw)
+			if topic_raw:
+				output_dir_parts.append(topic_raw)
+			output_dir = os.path.join(*output_dir_parts)
+			for script_entry in script_values:
+				script_path = normalize_path(script_entry, repo_root, base_root, path_aliases)
+				output_raw_entry = output_raw
+				if not output_raw_entry and output_file_raw:
+					output_parts = ["site_docs"]
+					if chapter_raw:
+						output_parts.append(chapter_raw)
+					if topic_raw:
+						output_parts.append(topic_raw)
+					output_parts.append(output_file_raw)
+					output_raw_entry = os.path.join(*output_parts)
+				output_path = normalize_path(output_raw_entry, repo_root, "", path_aliases)
+				program_value = program_raw if program_raw else "python3"
+				flags_expanded = expand_text(flags_raw, path_aliases)
+				base_args = shlex.split(flags_expanded) if flags_expanded else []
+				args_list = list(base_args)
+				if input_raw:
+					input_flag = default_input_flag
+					input_value_expanded = input_raw
+					if os.path.basename(input_value_expanded) == input_value_expanded:
+						script_basename = os.path.basename(script_path)
+						if script_basename in INPUT_SCRIPT_BASENAMES:
+							input_value_expanded = os.path.join(
+								os.path.dirname(script_path),
+								input_value_expanded,
+							)
+					input_path = normalize_path(input_value_expanded, repo_root, base_root, path_aliases)
+					args_list = add_input_args(args_list, input_flag, input_path)
+				flags_final = shlex.join(args_list) if args_list else ""
 
-			workdir_path = os.getcwd()
+				workdir_path = os.getcwd()
 
-			task = {
-				"script": script_path,
-				"flags_raw": flags_raw,
-				"args": args_list,
-				"output": output_path,
-				"output_raw": output_raw,
-				"program": program_value,
-				"workdir": workdir_path,
-			}
-			tasks.append(task)
+				task = {
+					"script": script_path,
+					"flags_raw": flags_final,
+					"args": args_list,
+					"output": output_path,
+					"output_raw": output_raw_entry,
+					"output_dir": output_dir,
+					"program": program_value,
+					"workdir": workdir_path,
+					"chapter": chapter_raw,
+					"topic": topic_raw,
+				}
+				tasks.append(task)
 
 	return tasks
 
@@ -467,11 +525,14 @@ def load_state(state_path: str) -> dict:
 	with open(state_path, newline="") as csv_handle:
 		reader = csv.DictReader(csv_handle)
 		for row in reader:
-			output_raw = (row.get("output") or "").strip()
-			output_key = expand_path(output_raw)
-			if not output_key:
+			signature_value = (row.get("signature") or "").strip()
+			state_key = signature_value
+			if not state_key:
+				output_raw = (row.get("output") or "").strip()
+				state_key = expand_path(output_raw)
+			if not state_key:
 				continue
-			state[output_key] = row
+			state[state_key] = row
 
 	return state
 
@@ -526,7 +587,9 @@ def build_signature(task: dict) -> str:
 		task.get("program", ""),
 		task.get("script", ""),
 		task.get("flags_raw", ""),
-		task.get("output", ""),
+		task.get("chapter", ""),
+		task.get("topic", ""),
+		task.get("output_raw", ""),
 	]
 	signature_value = "||".join(parts)
 	return signature_value
@@ -745,6 +808,74 @@ def move_output_if_needed(output_path: str, workdir: str) -> bool:
 
 
 #============================================
+def build_output_patterns(script_path: str) -> tuple:
+	script_basename = os.path.splitext(os.path.basename(script_path))[0]
+	if not script_basename:
+		return "", ("-problems.txt",)
+	prefix = f"bbq-{script_basename}"
+	suffixes = ("-problems.txt", "-questions.txt")
+	return prefix, suffixes
+
+
+def find_recent_outputs(workdir: str, start_time: float, prefix: str, suffixes: tuple) -> list:
+	candidates = []
+	if not workdir or not os.path.isdir(workdir):
+		return candidates
+	for entry in os.scandir(workdir):
+		if not entry.is_file():
+			continue
+		name = entry.name
+		if prefix and not name.startswith(prefix):
+			continue
+		if suffixes and not any(name.endswith(suffix) for suffix in suffixes):
+			continue
+		try:
+			mtime = entry.stat().st_mtime
+		except OSError:
+			continue
+		if mtime >= (start_time - 2.0):
+			candidates.append((mtime, entry.path))
+	candidates.sort(key=lambda item: item[0], reverse=True)
+	return [path for _, path in candidates]
+
+
+#============================================
+def resolve_generated_output(task: dict, workdir: str, start_time: float) -> tuple:
+	output_dir = (task.get("output_dir") or "").strip()
+	script_path = task.get("script", "")
+	if not script_path:
+		return False, "", "", "Missing script path for output detection."
+	prefix, suffixes = build_output_patterns(script_path)
+	if not prefix:
+		return False, "", "", "Missing script basename for output detection."
+	candidates = find_recent_outputs(workdir, start_time, prefix, suffixes)
+	if not candidates:
+		return False, "", "", "Expected output not found in workdir."
+	if len(candidates) > 1:
+		names = ", ".join(os.path.basename(path) for path in candidates)
+		return False, "", "", f"Multiple outputs found in {workdir}: {names}"
+	candidate = candidates[0]
+	if output_dir:
+		output_path = os.path.join(output_dir, os.path.basename(candidate))
+	else:
+		output_path = candidate
+	return True, output_path, candidate, ""
+
+
+#============================================
+def move_output_candidate(candidate: str, output_path: str) -> bool:
+	if not candidate or not output_path:
+		return False
+	ensure_parent_dir(output_path)
+	if os.path.abspath(candidate) == os.path.abspath(output_path):
+		return True
+	if os.path.isfile(output_path):
+		os.remove(output_path)
+	shutil.move(candidate, output_path)
+	return True
+
+
+#============================================
 #============================================
 def should_run_task(
 	task: dict,
@@ -827,6 +958,7 @@ def run_task(task: dict, log_path: str, pythonpath_value: str) -> bool:
 	cmd_list = build_command(task)
 	label_value = task_label(task, output_path, cmd_list)
 	env_override = None
+	start_time = datetime.datetime.now().timestamp()
 	if pythonpath_value:
 		env_override = {"PYTHONPATH": pythonpath_value}
 
@@ -850,6 +982,22 @@ def run_task(task: dict, log_path: str, pythonpath_value: str) -> bool:
 
 	if output_path:
 		moved_ok = move_output_if_needed(output_path, workdir)
+		if not moved_ok:
+			log_line(log_path, f"ERROR expected output not found: {output_path}")
+			return False
+	else:
+		ok, resolved_output, candidate_path, error_message = resolve_generated_output(
+			task,
+			workdir,
+			start_time,
+		)
+		if not ok:
+			log_line(log_path, f"ERROR {error_message}")
+			return False
+		output_path = resolved_output
+		task["output"] = output_path
+		log_line(log_path, f"DETECTED output -> {output_path}")
+		moved_ok = move_output_candidate(candidate_path, output_path)
 		if not moved_ok:
 			log_line(log_path, f"ERROR expected output not found: {output_path}")
 			return False
@@ -898,6 +1046,11 @@ def main():
 		script_path = task.get("script", "")
 		output_path = task.get("output", "")
 		signature_value = build_signature(task)
+		state_entry = state.get(signature_value, {})
+		if not output_path:
+			output_path = expand_path((state_entry.get("output") or "").strip())
+			if output_path:
+				task["output"] = output_path
 		label_value = task_label(task, output_path, build_command(task))
 
 		output_exists = os.path.isfile(output_path) if output_path else False
@@ -930,7 +1083,6 @@ def main():
 		git_commit = get_git_commit(repo_root, script_path, git_available)
 		git_dirty = get_git_dirty(repo_root, script_path, git_available)
 
-		state_entry = state.get(output_path, {})
 		should_run, reasons = should_run_task(
 			task,
 			state_entry,
@@ -956,6 +1108,7 @@ def main():
 				ok = run_task(task, args.log_path, pythonpath_value)
 				if ok:
 					status_value = "updated"
+					output_path = task.get("output", "")
 					output_mtime_after = get_file_mtime(output_path)
 				else:
 					status_value = "failed"
