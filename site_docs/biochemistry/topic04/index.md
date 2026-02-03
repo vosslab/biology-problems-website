@@ -4,7 +4,7 @@ Protein folding, structural levels, and mechanisms.
 
 **LibreTexts reference:** [Proteins- Structure and Folding](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/04:_Proteins-_Structure_and_Folding)
 
-## Levels of Protein Structure
+## Identifying Levels of Protein Structure
 
 <div id="MC-levels_of_protein_structure-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MC-levels_of_protein_structure-questions.txt" download title="Download bbq-MC-levels_of_protein_structure-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-levels_of_protein_structure-questions.txt)">
@@ -25,7 +25,7 @@ Protein folding, structural levels, and mechanisms.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Levels of Protein Structure
+      Identifying Levels of Protein Structure
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -36,7 +36,7 @@ Protein folding, structural levels, and mechanisms.
 </details>
 
 
-## Hydrogen Bonding in Alpha-Helix Structures
+## Identifying Hydrogen Bonding in Alpha-Helix Structures
 
 <div id="alpha_helix_h-bonds-MC-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-alpha_helix_h-bonds-MC-questions.txt" download title="Download bbq-alpha_helix_h-bonds-MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-alpha_helix_h-bonds-MC-questions.txt)">
@@ -57,7 +57,7 @@ Protein folding, structural levels, and mechanisms.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Hydrogen Bonding in Alpha-Helix Structures
+      Identifying Hydrogen Bonding in Alpha-Helix Structures
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -68,7 +68,7 @@ Protein folding, structural levels, and mechanisms.
 </details>
 
 
-## Ionic Bond Formation in Amino Acid Side Chains
+## Determining Ionic Bond Formation in Amino Acid Side Chains
 
 <div id="ionic_bond_amino_acids-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-ionic_bond_amino_acids-questions.txt" download title="Download bbq-ionic_bond_amino_acids-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-ionic_bond_amino_acids-questions.txt)">
@@ -89,7 +89,7 @@ Protein folding, structural levels, and mechanisms.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Ionic Bond Formation in Amino Acid Side Chains
+      Determining Ionic Bond Formation in Amino Acid Side Chains
     </span>
     <span style='font-weight: normal;'>
       example problem

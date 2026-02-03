@@ -1,27 +1,15 @@
-bbq-Henderson-Hasselbalch-EQUATION-questions.txt: Correct Form of the Henderson-Hasselbalch
-  Equation
-bbq-Henderson-Hasselbalch-pH_mc-questions.txt: Calculating pH with the Henderson-Hasselbalch
-  Equation
-bbq-Henderson-Hasselbalch-pH_num-questions.txt: Calculating pH using Henderson-Hasselbalch
-  Equation
-bbq-Henderson-Hasselbalch-pKa_mc-questions.txt: Calculating pKa and pKb Values Using
-  the Henderson-Hasselbalch Equation
-bbq-Henderson-Hasselbalch-pKa_num-questions.txt: Calculating pKa and pKb Using Henderson-Hasselbalch
-  Equation
-bbq-Henderson-Hasselbalch-ratio_mc-questions.txt: Calculating Acid-Base Ratios Using
-  Henderson-Hasselbalch Equation
-bbq-Henderson-Hasselbalch-ratio_num-questions.txt: Calculating Conjugate Base-Acid
-  Ratios Using Henderson-Hasselbalch Equation
-bbq-chemical_group_pka_forms-questions.txt: Protonation States of Functional Groups
-  at Different pH Levels
-bbq-functional_groups_bond_types-questions.txt: Functional Groups with Single Bonds
-bbq-optimal_buffering_range-questions.txt: Optimal Buffering Range using pKa
-bbq-pKa_buffer_state-2_protons-questions.txt: Most Abundant Diprotic State at pH using
-  pKa
-bbq-pKa_buffer_state-3_protons-questions.txt: Most Abundant Triprotic State at pH
-  using pKa
-bbq-pKa_buffer_state-4_protons-questions.txt: Most Abundant Tetraprotic State at pH
-  using pKa
-bbq-ph_h_concentration_ratio-questions.txt: Comparing and Calculating pH Differences
-  Between Solutions
-last edit: Mon Feb  2 21:21:28 2026
+bbq-Henderson-Hasselbalch-EQUATION-questions.txt: Identifying the Correct Henderson-Hasselbalch Equation
+bbq-Henderson-Hasselbalch-pH_mc-questions.txt: Identifying pH Using the Henderson-Hasselbalch Equation
+bbq-Henderson-Hasselbalch-pH_num-questions.txt: Calculating pH Using the Henderson-Hasselbalch Equation
+bbq-Henderson-Hasselbalch-pKa_mc-questions.txt: Identifying pKa and pKb Using the Henderson-Hasselbalch Equation
+bbq-Henderson-Hasselbalch-pKa_num-questions.txt: Calculating pKa and pKb Using the Henderson-Hasselbalch Equation
+bbq-Henderson-Hasselbalch-ratio_mc-questions.txt: Identifying Acid-Base Ratios Using the Henderson-Hasselbalch Equation
+bbq-Henderson-Hasselbalch-ratio_num-questions.txt: Calculating Conjugate Base-Acid Ratios Using the Henderson-Hasselbalch Equation
+bbq-chemical_group_pka_forms-questions.txt: Determining Protonation States of Functional Groups at Different pH Levels
+bbq-functional_groups_bond_types-questions.txt: Determining Functional Groups with Single Bonds
+bbq-optimal_buffering_range-questions.txt: Determining Optimal Buffering Range Using pKa
+bbq-pKa_buffer_state-2_protons-questions.txt: Determining the Most Abundant Diprotic State at a Given pH Using pKa
+bbq-pKa_buffer_state-3_protons-questions.txt: Determining the Most Abundant Triprotic State at a Given pH Using pKa
+bbq-pKa_buffer_state-4_protons-questions.txt: Determining the Most Abundant Tetraprotic State at a Given pH Using pKa
+bbq-ph_h_concentration_ratio-questions.txt: Determining pH Differences Between Solutions
+last edit: Tue Feb  3 16:26:44 2026

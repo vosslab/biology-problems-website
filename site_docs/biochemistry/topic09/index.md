@@ -4,7 +4,7 @@ Carbohydrate structure, glycosidic bonds, biological roles.
 
 **LibreTexts reference:** [Carbohydrates](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/09:_Carbohydrates)
 
-## Fischer Projections of D and L from Monosaccharides
+## Determining D and L Configurations from Fischer Projections
 
 <div id="D_to_L_Fischer_configuration-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-D_to_L_Fischer_configuration-questions.txt" download title="Download bbq-D_to_L_Fischer_configuration-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-D_to_L_Fischer_configuration-questions.txt)">
@@ -25,7 +25,7 @@ Carbohydrate structure, glycosidic bonds, biological roles.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Fischer Projections of D and L from Monosaccharides
+      Determining D and L Configurations from Fischer Projections
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -36,7 +36,7 @@ Carbohydrate structure, glycosidic bonds, biological roles.
 </details>
 
 
-## Haworth Projections of D and L from Monosaccharides
+## Determining D and L Configurations from Haworth Projections
 
 <div id="D_to_L_Haworth_configuration-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-D_to_L_Haworth_configuration-questions.txt" download title="Download bbq-D_to_L_Haworth_configuration-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-D_to_L_Haworth_configuration-questions.txt)">
@@ -57,7 +57,7 @@ Carbohydrate structure, glycosidic bonds, biological roles.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Haworth Projections of D and L from Monosaccharides
+      Determining D and L Configurations from Haworth Projections
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -100,7 +100,7 @@ Carbohydrate structure, glycosidic bonds, biological roles.
 </details>
 
 
-## Characteristics of Common Polysaccharides
+## Identifying Characteristics of Common Polysaccharides
 
 <div id="MC-polysaccharides-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MC-polysaccharides-questions.txt" download title="Download bbq-MC-polysaccharides-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-polysaccharides-questions.txt)">
@@ -121,7 +121,7 @@ Carbohydrate structure, glycosidic bonds, biological roles.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Characteristics of Common Polysaccharides
+      Identifying Characteristics of Common Polysaccharides
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -132,7 +132,7 @@ Carbohydrate structure, glycosidic bonds, biological roles.
 </details>
 
 
-## Classify the Fischer Projection of a Monosaccharide
+## Determining Monosaccharide Classes from Fischer Projections
 
 <div id="classify_Fischer-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-classify_Fischer-questions.txt" download title="Download bbq-classify_Fischer-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-classify_Fischer-questions.txt)">
@@ -153,7 +153,7 @@ Carbohydrate structure, glycosidic bonds, biological roles.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Classify the Fischer Projection of a Monosaccharide
+      Determining Monosaccharide Classes from Fischer Projections
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -164,7 +164,7 @@ Carbohydrate structure, glycosidic bonds, biological roles.
 </details>
 
 
-## Classify the Haworth Projection of a Monosaccharide
+## Determining Monosaccharide Classes from Haworth Projections
 
 <div id="classify_Haworth-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-classify_Haworth-questions.txt" download title="Download bbq-classify_Haworth-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-classify_Haworth-questions.txt)">
@@ -185,7 +185,7 @@ Carbohydrate structure, glycosidic bonds, biological roles.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Classify the Haworth Projection of a Monosaccharide
+      Determining Monosaccharide Classes from Haworth Projections
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -196,7 +196,7 @@ Carbohydrate structure, glycosidic bonds, biological roles.
 </details>
 
 
-## Convert Betweeen Fischer and Haworth Projection
+## Determining Conversions Between Fischer and Haworth Projections
 
 <div id="convert_Fischer_and_Haworth-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-convert_Fischer_and_Haworth-questions.txt" download title="Download bbq-convert_Fischer_and_Haworth-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-convert_Fischer_and_Haworth-questions.txt)">
@@ -217,7 +217,7 @@ Carbohydrate structure, glycosidic bonds, biological roles.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Convert Betweeen Fischer and Haworth Projection
+      Determining Conversions Between Fischer and Haworth Projections
     </span>
     <span style='font-weight: normal;'>
       example problem

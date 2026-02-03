@@ -4,7 +4,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
 
 **LibreTexts reference:** [DNA Profiling and Techniques](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/03:_DNA_Profiling_and_Techniques)
 
-## Palindromic Words in English
+## Determining True/False Statements About English Palindromes
 
 <div id="TFMS-english_palindromes-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-english_palindromes-questions.txt" download title="Download bbq-TFMS-english_palindromes-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-english_palindromes-questions.txt)">
@@ -25,7 +25,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Palindromic Words in English
+      Determining True/False Statements About English Palindromes
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -36,7 +36,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
 </details>
 
 
-## Blood Typing Test Interpretation
+## Identifying Blood Typing Test Results
 
 <div id="blood_type_agglutination_test-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-blood_type_agglutination_test-questions.txt" download title="Download bbq-blood_type_agglutination_test-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-blood_type_agglutination_test-questions.txt)">
@@ -57,7 +57,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Blood Typing Test Interpretation
+      Identifying Blood Typing Test Results
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -68,7 +68,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
 </details>
 
 
-## HLA Genotype Inheritance (2 Markers)
+## Determining HLA Genotype Inheritance (2 Markers, Black)
 
 <div id="hla_genotype-2_markers-black-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-hla_genotype-2_markers-black-questions.txt" download title="Download bbq-hla_genotype-2_markers-black-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-hla_genotype-2_markers-black-questions.txt)">
@@ -89,7 +89,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      HLA Genotype Inheritance (2 Markers)
+      Determining HLA Genotype Inheritance (2 Markers, Black)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -100,7 +100,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
 </details>
 
 
-## HLA Genotype Inheritance (3 Colored Markers)
+## Determining HLA Genotype Inheritance (3 Markers, Color)
 
 <div id="hla_genotype-3_markers-color-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-hla_genotype-3_markers-color-questions.txt" download title="Download bbq-hla_genotype-3_markers-color-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-hla_genotype-3_markers-color-questions.txt)">
@@ -121,7 +121,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      HLA Genotype Inheritance (3 Colored Markers)
+      Determining HLA Genotype Inheritance (3 Markers, Color)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -132,7 +132,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
 </details>
 
 
-## Restriction Enzyme DNA Strand (10 length)
+## Determining Restriction Enzyme DNA Strand Products (10 Length, 3 Sites)
 
 <div id="linear_digest-length_10-sites_3-strand-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-linear_digest-length_10-sites_3-strand-questions.txt" download title="Download bbq-linear_digest-length_10-sites_3-strand-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-linear_digest-length_10-sites_3-strand-questions.txt)">
@@ -153,7 +153,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Enzyme DNA Strand (10 length)
+      Determining Restriction Enzyme DNA Strand Products (10 Length, 3 Sites)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -164,7 +164,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
 </details>
 
 
-## Restriction Enzyme DNA Fragment (13 length)
+## Determining Restriction Enzyme DNA Fragment Products (13 Length, 3 Sites)
 
 <div id="linear_digest-length_13-sites_3-fragment-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-linear_digest-length_13-sites_3-fragment-questions.txt" download title="Download bbq-linear_digest-length_13-sites_3-fragment-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-linear_digest-length_13-sites_3-fragment-questions.txt)">
@@ -185,7 +185,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Enzyme DNA Fragment (13 length)
+      Determining Restriction Enzyme DNA Fragment Products (13 Length, 3 Sites)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -196,7 +196,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
 </details>
 
 
-## Restriction Enzyme DNA Strand (16 length)
+## Determining Restriction Enzyme DNA Strand Products (16 Length, 4 Sites)
 
 <div id="linear_digest-length_16-sites_4-strand-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-linear_digest-length_16-sites_4-strand-questions.txt" download title="Download bbq-linear_digest-length_16-sites_4-strand-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-linear_digest-length_16-sites_4-strand-questions.txt)">
@@ -217,7 +217,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Enzyme DNA Strand (16 length)
+      Determining Restriction Enzyme DNA Strand Products (16 Length, 4 Sites)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -228,7 +228,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
 </details>
 
 
-## Restriction Enzyme DNA Fragment (8 length)
+## Determining Restriction Enzyme DNA Fragment Products (8 Length, 2 Sites)
 
 <div id="linear_digest-length_8-sites_2-fragment-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-linear_digest-length_8-sites_2-fragment-questions.txt" download title="Download bbq-linear_digest-length_8-sites_2-fragment-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-linear_digest-length_8-sites_2-fragment-questions.txt)">
@@ -249,7 +249,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Enzyme DNA Fragment (8 length)
+      Determining Restriction Enzyme DNA Fragment Products (8 Length, 2 Sites)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -260,7 +260,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
 </details>
 
 
-## Restriction Enzyme Overhang Sequence
+## Identifying Restriction Enzyme Overhang Sequences (6 Choices)
 
 <div id="overhang_sequence-MC-6_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-overhang_sequence-MC-6_choices-questions.txt" download title="Download bbq-overhang_sequence-MC-6_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-overhang_sequence-MC-6_choices-questions.txt)">
@@ -281,7 +281,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Enzyme Overhang Sequence
+      Identifying Restriction Enzyme Overhang Sequences (6 Choices)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -292,7 +292,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
 </details>
 
 
-## Restriction Enzyme Cleavage Type
+## Identifying Restriction Enzyme Cleavage Types
 
 <div id="overhang_type-end_type-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-overhang_type-end_type-questions.txt" download title="Download bbq-overhang_type-end_type-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-overhang_type-end_type-questions.txt)">
@@ -313,7 +313,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Enzyme Cleavage Type
+      Identifying Restriction Enzyme Cleavage Types
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -324,7 +324,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
 </details>
 
 
-## Restriction Enzyme Overhang Type
+## Identifying Restriction Enzyme Overhang Types
 
 <div id="overhang_type-overhang_type-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-overhang_type-overhang_type-questions.txt" download title="Download bbq-overhang_type-overhang_type-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-overhang_type-overhang_type-questions.txt)">
@@ -345,7 +345,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Enzyme Overhang Type
+      Identifying Restriction Enzyme Overhang Types
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -356,7 +356,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
 </details>
 
 
-## Palindromic Sequence Matching
+## Determining Palindromic Sequence Matches
 
 <div id="palindrome_sequence_match-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-palindrome_sequence_match-questions.txt" download title="Download bbq-palindrome_sequence_match-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-palindrome_sequence_match-questions.txt)">
@@ -377,7 +377,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Palindromic Sequence Matching
+      Determining Palindromic Sequence Matches
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -388,7 +388,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
 </details>
 
 
-## RFLP Paternity Testing (EASY)
+## Identifying RFLP Paternity Testing Results (EASY, 3 Males)
 
 <div id="who_father_html-EASY-3_males-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-who_father_html-EASY-3_males-questions.txt" download title="Download bbq-who_father_html-EASY-3_males-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-who_father_html-EASY-3_males-questions.txt)">
@@ -409,7 +409,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      RFLP Paternity Testing (EASY)
+      Identifying RFLP Paternity Testing Results (EASY, 3 Males)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -420,7 +420,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
 </details>
 
 
-## RFLP Paternity Testing (HARD)
+## Identifying RFLP Paternity Testing Results (HARD, 9 Males)
 
 <div id="who_father_html-HARD-9_males-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-who_father_html-HARD-9_males-questions.txt" download title="Download bbq-who_father_html-HARD-9_males-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-who_father_html-HARD-9_males-questions.txt)">
@@ -441,7 +441,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      RFLP Paternity Testing (HARD)
+      Identifying RFLP Paternity Testing Results (HARD, 9 Males)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -452,7 +452,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
 </details>
 
 
-## RFLP Paternity Testing (MEDIUM)
+## Identifying RFLP Paternity Testing Results (MEDIUM, 5 Males)
 
 <div id="who_father_html-MEDIUM-5_males-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-who_father_html-MEDIUM-5_males-questions.txt" download title="Download bbq-who_father_html-MEDIUM-5_males-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-who_father_html-MEDIUM-5_males-questions.txt)">
@@ -473,7 +473,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      RFLP Paternity Testing (MEDIUM)
+      Identifying RFLP Paternity Testing Results (MEDIUM, 5 Males)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -484,7 +484,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
 </details>
 
 
-## RFLP Forensic DNA Analysis (EASY)
+## Identifying RFLP Forensic DNA Analysis Results (EASY, 4 Suspects)
 
 <div id="who_killer_html-EASY-4_suspects-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-who_killer_html-EASY-4_suspects-questions.txt" download title="Download bbq-who_killer_html-EASY-4_suspects-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-who_killer_html-EASY-4_suspects-questions.txt)">
@@ -505,7 +505,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      RFLP Forensic DNA Analysis (EASY)
+      Identifying RFLP Forensic DNA Analysis Results (EASY, 4 Suspects)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -516,7 +516,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
 </details>
 
 
-## RFLP Forensic DNA Analysis (HARD)
+## Identifying RFLP Forensic DNA Analysis Results (HARD, 9 Suspects)
 
 <div id="who_killer_html-HARD-9_suspects-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-who_killer_html-HARD-9_suspects-questions.txt" download title="Download bbq-who_killer_html-HARD-9_suspects-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-who_killer_html-HARD-9_suspects-questions.txt)">
@@ -537,7 +537,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      RFLP Forensic DNA Analysis (HARD)
+      Identifying RFLP Forensic DNA Analysis Results (HARD, 9 Suspects)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -548,7 +548,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
 </details>
 
 
-## RFLP Forensic DNA Analysis (MEDIUM)
+## Identifying RFLP Forensic DNA Analysis Results (MEDIUM, 5 Suspects)
 
 <div id="who_killer_html-MEDIUM-5_suspects-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-who_killer_html-MEDIUM-5_suspects-questions.txt" download title="Download bbq-who_killer_html-MEDIUM-5_suspects-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-who_killer_html-MEDIUM-5_suspects-questions.txt)">
@@ -569,7 +569,7 @@ Restriction enzymes, recognition sequences, gel electrophoresis, and application
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      RFLP Forensic DNA Analysis (MEDIUM)
+      Identifying RFLP Forensic DNA Analysis Results (MEDIUM, 5 Suspects)
     </span>
     <span style='font-weight: normal;'>
       example problem

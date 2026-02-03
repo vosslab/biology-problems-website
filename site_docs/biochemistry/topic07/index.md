@@ -4,7 +4,7 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
 
 **LibreTexts reference:** [Enzyme Kinetics](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/07:_Enzyme_Kinetics)
 
-## Enzyme Inhibition and Activation in Metabolic Pathways
+## Determining Enzyme Inhibition and Activation in Metabolic Pathways
 
 <div id="BCHM355-metabolic_pathway_inhibitor-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-BCHM355-metabolic_pathway_inhibitor-questions.txt" download title="Download bbq-BCHM355-metabolic_pathway_inhibitor-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-BCHM355-metabolic_pathway_inhibitor-questions.txt)">
@@ -25,7 +25,7 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Enzyme Inhibition and Activation in Metabolic Pathways
+      Determining Enzyme Inhibition and Activation in Metabolic Pathways
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -36,7 +36,7 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
 </details>
 
 
-## Enzyme Catalysis Terminology
+## Identifying Enzyme Catalysis Terminology
 
 <div id="MC-enzyme_terminology-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MC-enzyme_terminology-questions.txt" download title="Download bbq-MC-enzyme_terminology-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-enzyme_terminology-questions.txt)">
@@ -57,7 +57,7 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Enzyme Catalysis Terminology
+      Identifying Enzyme Catalysis Terminology
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -68,7 +68,7 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
 </details>
 
 
-## True/False Statements on Enzyme Kinetics
+## Determining True/False Statements About Enzyme Kinetics
 
 <div id="TF-enzyme_equilibrium-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TF-enzyme_equilibrium-questions.txt" download title="Download bbq-TF-enzyme_equilibrium-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TF-enzyme_equilibrium-questions.txt)">
@@ -89,7 +89,7 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements on Enzyme Kinetics
+      Determining True/False Statements About Enzyme Kinetics
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -100,7 +100,7 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
 </details>
 
 
-## True/False Statements on Michaelis-Menten Kinetics
+## Determining True/False Statements About Michaelis-Menten Kinetics
 
 <div id="TF-m-m_kinetics-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TF-m-m_kinetics-questions.txt" download title="Download bbq-TF-m-m_kinetics-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TF-m-m_kinetics-questions.txt)">
@@ -121,7 +121,7 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements on Michaelis-Menten Kinetics
+      Determining True/False Statements About Michaelis-Menten Kinetics
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -132,7 +132,7 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
 </details>
 
 
-## Which Molecule Cannot be an Enzyme Cofactors
+## Identifying Molecules That Are Not Enzyme Cofactors
 
 <div id="enzyme_cofactors-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-enzyme_cofactors-questions.txt" download title="Download bbq-enzyme_cofactors-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-enzyme_cofactors-questions.txt)">
@@ -153,7 +153,7 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Which Molecule Cannot be an Enzyme Cofactors
+      Identifying Molecules That Are Not Enzyme Cofactors
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -164,7 +164,7 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
 </details>
 
 
-## Michaelis-Menten Constant (K<sub>M</sub>) from Enzyme Activity Data
+## Determining the Michaelis-Menten Constant (Km) from Enzyme Activity Data
 
 <div id="michaelis_menten_table-Km-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-michaelis_menten_table-Km-questions.txt" download title="Download bbq-michaelis_menten_table-Km-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-michaelis_menten_table-Km-questions.txt)">
@@ -185,7 +185,7 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Michaelis-Menten Constant (K<sub>M</sub>) from Enzyme Activity Data
+      Determining the Michaelis-Menten Constant (Km) from Enzyme Activity Data
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -196,7 +196,7 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
 </details>
 
 
-## Inhibition Type Determination from Enzyme Activity Data
+## Determining Inhibition Type from Enzyme Activity Data
 
 <div id="michaelis_menten_table-inhibition-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-michaelis_menten_table-inhibition-questions.txt" download title="Download bbq-michaelis_menten_table-inhibition-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-michaelis_menten_table-inhibition-questions.txt)">
@@ -217,7 +217,7 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Inhibition Type Determination from Enzyme Activity Data
+      Determining Inhibition Type from Enzyme Activity Data
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -228,7 +228,7 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
 </details>
 
 
-## Which Molecule Could be an Enzyme
+## Identifying Molecules That Could Be Enzymes
 
 <div id="which_enzyme-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-which_enzyme-questions.txt" download title="Download bbq-which_enzyme-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-which_enzyme-questions.txt)">
@@ -249,7 +249,7 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Which Molecule Could be an Enzyme
+      Identifying Molecules That Could Be Enzymes
     </span>
     <span style='font-weight: normal;'>
       example problem

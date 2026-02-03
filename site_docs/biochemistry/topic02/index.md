@@ -4,7 +4,7 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
 
 **LibreTexts reference:** [Chemistry of Water](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/02:_Chemistry_of_Water)
 
-## Correct Form of the Henderson-Hasselbalch Equation
+## Identifying the Correct Henderson-Hasselbalch Equation
 
 <div id="Henderson-Hasselbalch-EQUATION-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-EQUATION-questions.txt" download title="Download bbq-Henderson-Hasselbalch-EQUATION-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-Henderson-Hasselbalch-EQUATION-questions.txt)">
@@ -25,7 +25,7 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Correct Form of the Henderson-Hasselbalch Equation
+      Identifying the Correct Henderson-Hasselbalch Equation
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -36,7 +36,7 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
 </details>
 
 
-## Calculating pH with the Henderson-Hasselbalch Equation
+## Identifying pH Using the Henderson-Hasselbalch Equation
 
 <div id="Henderson-Hasselbalch-pH_mc-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-pH_mc-questions.txt" download title="Download bbq-Henderson-Hasselbalch-pH_mc-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-Henderson-Hasselbalch-pH_mc-questions.txt)">
@@ -57,7 +57,7 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Calculating pH with the Henderson-Hasselbalch Equation
+      Identifying pH Using the Henderson-Hasselbalch Equation
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -68,7 +68,7 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
 </details>
 
 
-## Calculating pH using Henderson-Hasselbalch Equation
+## Calculating pH Using the Henderson-Hasselbalch Equation
 
 <div id="Henderson-Hasselbalch-pH_num-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-pH_num-questions.txt" download title="Download bbq-Henderson-Hasselbalch-pH_num-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-Henderson-Hasselbalch-pH_num-questions.txt)">
@@ -89,7 +89,7 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Calculating pH using Henderson-Hasselbalch Equation
+      Calculating pH Using the Henderson-Hasselbalch Equation
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -100,7 +100,7 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
 </details>
 
 
-## Calculating pKa and pKb Values Using the Henderson-Hasselbalch Equation
+## Identifying pKa and pKb Using the Henderson-Hasselbalch Equation
 
 <div id="Henderson-Hasselbalch-pKa_mc-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-pKa_mc-questions.txt" download title="Download bbq-Henderson-Hasselbalch-pKa_mc-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-Henderson-Hasselbalch-pKa_mc-questions.txt)">
@@ -121,7 +121,7 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Calculating pKa and pKb Values Using the Henderson-Hasselbalch Equation
+      Identifying pKa and pKb Using the Henderson-Hasselbalch Equation
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -132,7 +132,7 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
 </details>
 
 
-## Calculating pKa and pKb Using Henderson-Hasselbalch Equation
+## Calculating pKa and pKb Using the Henderson-Hasselbalch Equation
 
 <div id="Henderson-Hasselbalch-pKa_num-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-pKa_num-questions.txt" download title="Download bbq-Henderson-Hasselbalch-pKa_num-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-Henderson-Hasselbalch-pKa_num-questions.txt)">
@@ -153,7 +153,7 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Calculating pKa and pKb Using Henderson-Hasselbalch Equation
+      Calculating pKa and pKb Using the Henderson-Hasselbalch Equation
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -164,7 +164,7 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
 </details>
 
 
-## Calculating Acid-Base Ratios Using Henderson-Hasselbalch Equation
+## Identifying Acid-Base Ratios Using the Henderson-Hasselbalch Equation
 
 <div id="Henderson-Hasselbalch-ratio_mc-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-ratio_mc-questions.txt" download title="Download bbq-Henderson-Hasselbalch-ratio_mc-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-Henderson-Hasselbalch-ratio_mc-questions.txt)">
@@ -185,7 +185,7 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Calculating Acid-Base Ratios Using Henderson-Hasselbalch Equation
+      Identifying Acid-Base Ratios Using the Henderson-Hasselbalch Equation
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -196,7 +196,7 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
 </details>
 
 
-## Calculating Conjugate Base-Acid Ratios Using Henderson-Hasselbalch Equation
+## Calculating Conjugate Base-Acid Ratios Using the Henderson-Hasselbalch Equation
 
 <div id="Henderson-Hasselbalch-ratio_num-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-ratio_num-questions.txt" download title="Download bbq-Henderson-Hasselbalch-ratio_num-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-Henderson-Hasselbalch-ratio_num-questions.txt)">
@@ -217,7 +217,7 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Calculating Conjugate Base-Acid Ratios Using Henderson-Hasselbalch Equation
+      Calculating Conjugate Base-Acid Ratios Using the Henderson-Hasselbalch Equation
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -228,7 +228,7 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
 </details>
 
 
-## Protonation States of Functional Groups at Different pH Levels
+## Determining Protonation States of Functional Groups at Different pH Levels
 
 <div id="chemical_group_pka_forms-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chemical_group_pka_forms-questions.txt" download title="Download bbq-chemical_group_pka_forms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chemical_group_pka_forms-questions.txt)">
@@ -249,7 +249,7 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Protonation States of Functional Groups at Different pH Levels
+      Determining Protonation States of Functional Groups at Different pH Levels
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -260,7 +260,7 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
 </details>
 
 
-## Functional Groups with Single Bonds
+## Determining Functional Groups with Single Bonds
 
 <div id="functional_groups_bond_types-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-functional_groups_bond_types-questions.txt" download title="Download bbq-functional_groups_bond_types-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-functional_groups_bond_types-questions.txt)">
@@ -281,7 +281,7 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Functional Groups with Single Bonds
+      Determining Functional Groups with Single Bonds
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -292,7 +292,7 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
 </details>
 
 
-## Optimal Buffering Range using pKa
+## Determining Optimal Buffering Range Using pKa
 
 <div id="optimal_buffering_range-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-optimal_buffering_range-questions.txt" download title="Download bbq-optimal_buffering_range-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-optimal_buffering_range-questions.txt)">
@@ -313,7 +313,7 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Optimal Buffering Range using pKa
+      Determining Optimal Buffering Range Using pKa
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -324,7 +324,7 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
 </details>
 
 
-## Most Abundant Diprotic State at pH using pKa
+## Determining the Most Abundant Diprotic State at a Given pH Using pKa
 
 <div id="pKa_buffer_state-2_protons-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-pKa_buffer_state-2_protons-questions.txt" download title="Download bbq-pKa_buffer_state-2_protons-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-pKa_buffer_state-2_protons-questions.txt)">
@@ -345,7 +345,7 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Most Abundant Diprotic State at pH using pKa
+      Determining the Most Abundant Diprotic State at a Given pH Using pKa
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -356,7 +356,7 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
 </details>
 
 
-## Most Abundant Triprotic State at pH using pKa
+## Determining the Most Abundant Triprotic State at a Given pH Using pKa
 
 <div id="pKa_buffer_state-3_protons-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-pKa_buffer_state-3_protons-questions.txt" download title="Download bbq-pKa_buffer_state-3_protons-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-pKa_buffer_state-3_protons-questions.txt)">
@@ -377,7 +377,7 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Most Abundant Triprotic State at pH using pKa
+      Determining the Most Abundant Triprotic State at a Given pH Using pKa
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -388,7 +388,7 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
 </details>
 
 
-## Most Abundant Tetraprotic State at pH using pKa
+## Determining the Most Abundant Tetraprotic State at a Given pH Using pKa
 
 <div id="pKa_buffer_state-4_protons-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-pKa_buffer_state-4_protons-questions.txt" download title="Download bbq-pKa_buffer_state-4_protons-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-pKa_buffer_state-4_protons-questions.txt)">
@@ -409,7 +409,7 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Most Abundant Tetraprotic State at pH using pKa
+      Determining the Most Abundant Tetraprotic State at a Given pH Using pKa
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -420,7 +420,7 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
 </details>
 
 
-## Comparing and Calculating pH Differences Between Solutions
+## Determining pH Differences Between Solutions
 
 <div id="ph_h_concentration_ratio-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-ph_h_concentration_ratio-questions.txt" download title="Download bbq-ph_h_concentration_ratio-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-ph_h_concentration_ratio-questions.txt)">
@@ -441,7 +441,7 @@ Properties of water, pH, pK<sub>a</sub>, and buffering systems.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Comparing and Calculating pH Differences Between Solutions
+      Determining pH Differences Between Solutions
     </span>
     <span style='font-weight: normal;'>
       example problem

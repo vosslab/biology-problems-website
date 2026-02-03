@@ -1,9 +1,14 @@
 # Changelog
 
 ## 2026-02-03
-- Added argparse options and explicit download-format logging to `generate_topic_pages.py`.
+- Added argparse options, per-format logging, and summary stats to `generate_topic_pages.py`.
 - Added laboratory subject navigation, metadata, and topic index pages.
 - Linked the laboratory subject from `site_docs/index.md`.
+- Added the microscope emoji to the Laboratory nav entry in `mkdocs.yml`.
+- Standardized problem set titles to a plain-text Task + Topic + Key Detail format with consistent verbs.
+- Fixed corrupted laboratory problem set titles and updated topic title timestamps.
+- Updated the problem set title LLM prompt to return plain-text titles with deterministic verb guidance.
+- Added `docs/GUIDE_TO_NAMING_PROBLEM_SETS.md` to document problem set title conventions.
 
 ## 2026-02-02
 - Made missing or mismatched PYTHONPATH a hard error that exits in `bbq_control/run_bbq_tasks.py`.
