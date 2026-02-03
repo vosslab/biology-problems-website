@@ -1,0 +1,195 @@
+<script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
+<div class="qti-selftest">
+<div id="question_html_c14c_6ea2">
+<div id="statement_text_c14c_6ea2"><div id="drv_af4f" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
+<p>Match<span style="font-size: 1px; color: white;">orange</span>each<span style="font-size: 1px; color: white;">format</span>of<span style="font-size: 1px; color: white;">clot</span>the<span style="font-size: 1px; color: white;">what</span>following<span style="font-size: 1px; color: white;">talose</span>amino<span style="font-size: 1px; color: white;">use</span>acids with their<span style="font-size: 1px; color: white;">with</span>corresponding<span style="font-size: 1px; color: white;">sip</span>descriptions.<br><i>Note:</i> Each choice<span style="font-size: 1px; color: white;">xyloid</span>will be<span style="font-size: 1px; color: white;">subset</span>used exactly<span style="font-size: 1px; color: white;">bpspan</span>once.</p> </div></div>
+<!-- Matching Table -->
+<table style="border: 1px solid var(--qti-border, #999999); border-collapse: collapse;">
+<thead><tr>
+<th style="width: 20px;"></th>
+			<th style="padding: 10px; width: 180px; text-align: center;">Your Choice</th>
+			<th style="padding: 10px;">Prompt</th>
+		</tr></thead>
+<tbody>
+<tr>
+<td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
+			<td class="dropzone qti-dropzone" data-correct="c14c_6ea2_001" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">1. <div id="drv_e952" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
+<span style="color: #4d681a;">alanine</span> </div>
+</td>
+		</tr>
+<tr>
+<td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
+			<td class="dropzone qti-dropzone" data-correct="c14c_6ea2_002" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">2. <div id="drv_0311" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
+<span style="color: #006e56;">cysteine</span><span style="font-size: 1px; color: white;">hill</span>
+</div>
+</td>
+		</tr>
+<tr>
+<td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
+			<td class="dropzone qti-dropzone" data-correct="c14c_6ea2_003" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">3. <div id="drv_5d68" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
+<span style="color: #006592;">glutamine</span><span style="font-size: 1px; color: white;">eamino</span>
+</div>
+</td>
+		</tr>
+<tr>
+<td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
+			<td class="dropzone qti-dropzone" data-correct="c14c_6ea2_004" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">4. <div id="drv_9d33" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
+<span style="color: #863b8a;">tyrosine</span><span style="font-size: 1px; color: white;">half</span>
+</div>
+</td>
+		</tr>
+<tr>
+<td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
+			<td class="dropzone qti-dropzone" data-correct="c14c_6ea2_005" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">5. <div id="drv_4007" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
+<span style="color: #4e4eb9;">serine</span> </div>
+</td>
+		</tr>
+</tbody>
+</table>
+<p style="font-style: italic; font-size: 14px; margin-top: 10px;">Drag one of the choices below:</p>
+<ul id="choiceList" style="list-style: none; padding: 0;">
+<li class="draggable qti-choice-2" draggable="true" data-value="c14c_6ea2_003" title="a polar usersamino acid with a longer cordamine-substituted purifycarboxylate (amide) -C(=O)NH2 group make" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-2-bg); display: inline-block;">
+		<span style="color: var(--qti-choice-2-fg);"><strong>A.</strong> <div id="drv_66d2" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">a <strong><span style="color: #009e4c;">polar<span style="font-size: 1px; color: white;">users</span>amino acid</span></strong> with a longer<span style="font-size: 1px; color: white;">cord</span>amine-substituted<span style="font-size: 1px; color: white;">purify</span>carboxylate (amide) -C(=O)NH<sub>2</sub> group<span style="font-size: 1px; color: white;">make</span>
+</div></span>
+	</li>
+	<li class="draggable qti-choice-3" draggable="true" data-value="c14c_6ea2_004" title="a aromatic stringamino removeacid with createa side authorchain containing finea phenol (-C6H6OH) group, derived youfrom probephenylalanine" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-3-bg); display: inline-block;">
+		<span style="color: var(--qti-choice-3-fg);"><strong>B.</strong> <div id="drv_2015" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">a <strong><span style="color: #ff5e00;">aromatic<span style="font-size: 1px; color: white;">string</span>amino<span style="font-size: 1px; color: white;">remove</span>acid</span></strong> with<span style="font-size: 1px; color: white;">create</span>a <strong><span style="color: #6d108e;">side<span style="font-size: 1px; color: white;">author</span>chain</span></strong> containing<span style="font-size: 1px; color: white;">fine</span>a phenol (-C<sub>6</sub>H<sub>6</sub>OH) group, derived<span style="font-size: 1px; color: white;">you</span>from<span style="font-size: 1px; color: white;">probe</span>phenylalanine </div></span>
+	</li>
+	<li class="draggable qti-choice-4" draggable="true" data-value="c14c_6ea2_002" title="a polar amino civilacid with ubeaa thiol (-SH) group themipthat can rareform bonedisulfide bonds" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-4-bg); display: inline-block;">
+		<span style="color: var(--qti-choice-4-fg);"><strong>C.</strong> <div id="drv_b65e" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">a <strong><span style="color: #009e4c;">polar amino<span style="font-size: 1px; color: white;">civil</span>acid</span></strong> with<span style="font-size: 1px; color: white;">ubea</span>a thiol (-SH) group<span style="font-size: 1px; color: white;">themip</span>that can<span style="font-size: 1px; color: white;">rare</span>form<span style="font-size: 1px; color: white;">bone</span>disulfide bonds </div></span>
+	</li>
+	<li class="draggable qti-choice-5" draggable="true" data-value="c14c_6ea2_005" title="a polar amino epspanacid with withinthe tagsmallest side shapechain containing loopa hydroxyl resultgroup (-OH)" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-5-bg); display: inline-block;">
+		<span style="color: var(--qti-choice-5-fg);"><strong>D.</strong> <div id="drv_9b2b" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">a <strong><span style="color: #009e4c;">polar amino<span style="font-size: 1px; color: white;">epspan</span>acid</span></strong> with<span style="font-size: 1px; color: white;">within</span>the<span style="font-size: 1px; color: white;">tag</span>smallest <strong><span style="color: #6d108e;">side<span style="font-size: 1px; color: white;">shape</span>chain</span></strong> containing<span style="font-size: 1px; color: white;">loop</span>a hydroxyl<span style="font-size: 1px; color: white;">result</span>group (-OH) </div></span>
+	</li>
+	<li class="draggable qti-choice-1" draggable="true" data-value="c14c_6ea2_001" title="a non- polar uponamino acid , with a single hicmethyl group (-CH3) as serineits side fixedchain ice" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-1-bg); display: inline-block;">
+		<span style="color: var(--qti-choice-1-fg);"><strong>E.</strong> <div id="drv_b9a5" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">a <strong><span style="color: #b3b300;">non-<strong><span style="color: #009e4c;">polar<span style="font-size: 1px; color: white;">upon</span>amino acid</span></strong></span></strong>, with a single<span style="font-size: 1px; color: white;">hic</span>methyl group (-CH<sub>3</sub>) as<span style="font-size: 1px; color: white;">serine</span>its <strong><span style="color: #6d108e;">side<span style="font-size: 1px; color: white;">fixed</span>chain</span></strong><span style="font-size: 1px; color: white;">ice</span>
+</div></span>
+	</li>
+</ul>
+<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_c14c_6ea2()">Check Answer</button>
+<button type="button" class="md-button md-button--secondary custom-button qti-btn qti-btn-reset" onclick="resetGame_c14c_6ea2()">Reset Game</button>
+<div id="result_c14c_6ea2" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+</div><script>
+	function initDragAndDrop_c14c_6ea2() {
+		const container = document.getElementById('question_html_c14c_6ea2');
+		if (!container) {
+			return;
+		}
+		let draggedItem = null;
+
+		container.querySelectorAll(".draggable").forEach(item => {
+			item.addEventListener("dragstart", function() {
+				draggedItem = this;
+				setTimeout(() => this.style.opacity = "0.5", 0);
+			});
+
+			item.addEventListener("dragend", function() {
+				this.style.opacity = "1";
+			});
+		});
+
+		container.querySelectorAll(".dropzone").forEach(zone => {
+			zone.addEventListener("drop", function() {
+				if (!draggedItem) {
+					return;
+				}
+				this.dataset.originalBgColor = draggedItem.style.backgroundColor;
+				this.style.backgroundColor = this.dataset.originalBgColor;
+				this.style.border = "2px solid var(--qti-dropzone-border-filled, #888888)";
+				this.style.color = draggedItem.querySelector("span").style.color;
+				this.style.fontWeight = "bold";
+
+				let choiceText = draggedItem.innerText.trim();
+				this.innerHTML = choiceText.length > 30 ? choiceText.substring(0, 27) + "..." : choiceText;
+				this.dataset.value = draggedItem.dataset.value;
+				this.title = draggedItem.getAttribute("title");
+			});
+
+			zone.addEventListener("dragleave", function() {
+				if (!this.dataset.value) {
+					this.style.backgroundColor = "var(--qti-dropzone-bg, #f8f8f8)";
+				} else {
+					this.style.backgroundColor = this.dataset.originalBgColor;
+				}
+			});
+
+			zone.addEventListener("dragover", function(e) {
+				e.preventDefault();
+				this.style.backgroundColor = "var(--qti-dropzone-hover-bg, #e6e6e6)";
+			});
+		});
+	}
+	initDragAndDrop_c14c_6ea2();
+</script>
+<script>
+	function checkAnswer_c14c_6ea2() {
+		const container = document.getElementById('question_html_c14c_6ea2');
+		if (!container) {
+			return;
+		}
+		let score = 0;
+		let possible = 0;
+		let feedbackText = "";
+
+		const dropzones = container.querySelectorAll(".dropzone");
+		const feedbackCells = container.querySelectorAll(".feedback");
+		dropzones.forEach((zone, index) => {
+			let selectedValue = zone.dataset.value;
+			let correctValue = zone.dataset.correct;
+			let feedbackCell = feedbackCells[index];
+
+			if (selectedValue === correctValue) {
+				score++;
+				possible++;
+				feedbackCell.innerHTML = "<strong><span style='color:var(--qti-success-fg, #008000); font-size:large;'>&#9989;</span></strong>";
+				feedbackCell.style.backgroundColor = "var(--qti-success-bg, #ccffcc)";
+			} else {
+				possible++;
+				feedbackCell.innerHTML = "&#10060;";
+				feedbackCell.style.backgroundColor = "var(--qti-error-bg, #ffcccc)";
+			}
+		});
+
+		feedbackText = `Total Score: ${score} out of ${possible}`;
+		const resultDiv = document.getElementById('result_c14c_6ea2');
+		if (score === possible) {
+			resultDiv.style.color = 'var(--qti-success-fg, #008000)';
+		}
+		else if (score <= Math.floor(possible / 2)) {
+			resultDiv.style.color = 'var(--qti-error-fg, #9b1b1b)';
+		}
+		else {
+			resultDiv.style.color = 'inherit';
+		}
+		resultDiv.innerHTML = feedbackText;
+	}
+</script>
+<script>
+	function resetGame_c14c_6ea2() {
+		const container = document.getElementById('question_html_c14c_6ea2');
+		if (!container) {
+			return;
+		}
+		container.querySelectorAll(".dropzone").forEach(zone => {
+			zone.textContent = "Drop Your Choice Here";
+			delete zone.dataset.value;
+			zone.style.backgroundColor = "var(--qti-dropzone-bg, #f8f8f8)";
+			zone.style.border = "2px dashed var(--qti-dropzone-border, #bbbbbb)";
+			zone.style.color = "inherit";
+			zone.style.fontWeight = "normal";
+		});
+
+		container.querySelectorAll(".feedback").forEach(cell => {
+			cell.textContent = "";
+			cell.style.backgroundColor = "transparent";
+		});
+		document.getElementById("result_c14c_6ea2").innerHTML = "";
+	}
+</script>
+
+</div>

@@ -1,0 +1,188 @@
+<script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
+<div class="qti-selftest">
+<div id="question_html_7bc2_193f">
+<div id="statement_text_7bc2_193f"><div id="drv_b817" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
+<p>Match<span style="font-size: 1px; color: white;">strain</span>each<span style="font-size: 1px; color: white;">raise</span>of<span style="font-size: 1px; color: white;">build</span>the<span style="font-size: 1px; color: white;">weaker</span>following<span style="font-size: 1px; color: white;">starts</span>types of<span style="font-size: 1px; color: white;">manner</span>macromolecules with their<span style="font-size: 1px; color: white;">had</span>corresponding<span style="font-size: 1px; color: white;">start</span>macromolecules.<br><i>Note:</i> Each<span style="font-size: 1px; color: white;">added</span>choice<span style="font-size: 1px; color: white;">treat</span>will be used<span style="font-size: 1px; color: white;">cca</span>exactly<span style="font-size: 1px; color: white;">themip</span>once.</p>
+<span style="font-size: 1px; color: white;">maize</span>
+</div></div>
+<!-- Matching Table -->
+<table style="border: 1px solid var(--qti-border, #999999); border-collapse: collapse;">
+<thead><tr>
+<th style="width: 20px;"></th>
+			<th style="padding: 10px; width: 180px; text-align: center;">Your Choice</th>
+			<th style="padding: 10px;">Prompt</th>
+		</tr></thead>
+<tbody>
+<tr>
+<td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
+			<td class="dropzone qti-dropzone" data-correct="7bc2_193f_001" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">1. <div id="drv_ab6b" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
+<strong><span style="color: #b30077;">nucleic<span style="font-size: 1px; color: white;">rock</span>acids</span></strong><span style="font-size: 1px; color: white;">shows</span>
+</div>
+</td>
+		</tr>
+<tr>
+<td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
+			<td class="dropzone qti-dropzone" data-correct="7bc2_193f_002" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">2. <div id="drv_a324" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
+<strong><span style="color: #e65400;">lipids</span></strong><span style="font-size: 1px; color: white;">atom</span>
+</div>
+</td>
+		</tr>
+<tr>
+<td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
+			<td class="dropzone qti-dropzone" data-correct="7bc2_193f_003" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">3. <div id="drv_d0c1" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
+<strong><span style="color: #009900;">proteins</span></strong><span style="font-size: 1px; color: white;">bonds</span>
+</div>
+</td>
+		</tr>
+<tr>
+<td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
+			<td class="dropzone qti-dropzone" data-correct="7bc2_193f_004" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">4. <div id="drv_15e5" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
+<strong><span style="color: #0039e6;">carbohydrates</span></strong><span style="font-size: 1px; color: white;">muscle</span>
+</div>
+</td>
+		</tr>
+</tbody>
+</table>
+<p style="font-style: italic; font-size: 14px; margin-top: 10px;">Drag one of the choices below:</p>
+<ul id="choiceList" style="list-style: none; padding: 0;">
+<li class="draggable qti-choice-2" draggable="true" data-value="7bc2_193f_002" title="does NOT form arealong ensurepolymers" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-2-bg); display: inline-block;">
+		<span style="color: var(--qti-choice-2-fg);"><strong>A.</strong> <div id="drv_8604" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">does<strong> <strong>NOT</strong> </strong>form<span style="font-size: 1px; color: white;">area</span>long<span style="font-size: 1px; color: white;">ensure</span>polymers </div></span>
+	</li>
+	<li class="draggable qti-choice-3" draggable="true" data-value="7bc2_193f_004" title="main upsidecompontent handof worsethe locustough falsejcell acceptwall valvein rejectplants" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-3-bg); display: inline-block;">
+		<span style="color: var(--qti-choice-3-fg);"><strong>B.</strong> <div id="drv_80ab" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">main<span style="font-size: 1px; color: white;">upside</span>compontent<span style="font-size: 1px; color: white;">hand</span>of<span style="font-size: 1px; color: white;">worse</span>the<span style="font-size: 1px; color: white;">locus</span>tough<span style="font-size: 1px; color: white;">falsej</span>cell<span style="font-size: 1px; color: white;">accept</span>wall<span style="font-size: 1px; color: white;">valve</span>in<span style="font-size: 1px; color: white;">reject</span>plants </div></span>
+	</li>
+	<li class="draggable qti-choice-4" draggable="true" data-value="7bc2_193f_001" title="double targetstranded sexhelix fiber" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-4-bg); display: inline-block;">
+		<span style="color: var(--qti-choice-4-fg);"><strong>C.</strong> <div id="drv_1ee3" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">double<span style="font-size: 1px; color: white;">target</span>stranded<span style="font-size: 1px; color: white;">sex</span>helix<span style="font-size: 1px; color: white;">fiber</span>
+</div></span>
+	</li>
+	<li class="draggable qti-choice-5" draggable="true" data-value="7bc2_193f_003" title="amino runneracid gutglutamate father" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-5-bg); display: inline-block;">
+		<span style="color: var(--qti-choice-5-fg);"><strong>D.</strong> <div id="drv_7cf6" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">amino<span style="font-size: 1px; color: white;">runner</span>acid<span style="font-size: 1px; color: white;">gut</span>glutamate<span style="font-size: 1px; color: white;">father</span>
+</div></span>
+	</li>
+</ul>
+<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_7bc2_193f()">Check Answer</button>
+<button type="button" class="md-button md-button--secondary custom-button qti-btn qti-btn-reset" onclick="resetGame_7bc2_193f()">Reset Game</button>
+<div id="result_7bc2_193f" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+</div><script>
+	function initDragAndDrop_7bc2_193f() {
+		const container = document.getElementById('question_html_7bc2_193f');
+		if (!container) {
+			return;
+		}
+		let draggedItem = null;
+
+		container.querySelectorAll(".draggable").forEach(item => {
+			item.addEventListener("dragstart", function() {
+				draggedItem = this;
+				setTimeout(() => this.style.opacity = "0.5", 0);
+			});
+
+			item.addEventListener("dragend", function() {
+				this.style.opacity = "1";
+			});
+		});
+
+		container.querySelectorAll(".dropzone").forEach(zone => {
+			zone.addEventListener("drop", function() {
+				if (!draggedItem) {
+					return;
+				}
+				this.dataset.originalBgColor = draggedItem.style.backgroundColor;
+				this.style.backgroundColor = this.dataset.originalBgColor;
+				this.style.border = "2px solid var(--qti-dropzone-border-filled, #888888)";
+				this.style.color = draggedItem.querySelector("span").style.color;
+				this.style.fontWeight = "bold";
+
+				let choiceText = draggedItem.innerText.trim();
+				this.innerHTML = choiceText.length > 30 ? choiceText.substring(0, 27) + "..." : choiceText;
+				this.dataset.value = draggedItem.dataset.value;
+				this.title = draggedItem.getAttribute("title");
+			});
+
+			zone.addEventListener("dragleave", function() {
+				if (!this.dataset.value) {
+					this.style.backgroundColor = "var(--qti-dropzone-bg, #f8f8f8)";
+				} else {
+					this.style.backgroundColor = this.dataset.originalBgColor;
+				}
+			});
+
+			zone.addEventListener("dragover", function(e) {
+				e.preventDefault();
+				this.style.backgroundColor = "var(--qti-dropzone-hover-bg, #e6e6e6)";
+			});
+		});
+	}
+	initDragAndDrop_7bc2_193f();
+</script>
+<script>
+	function checkAnswer_7bc2_193f() {
+		const container = document.getElementById('question_html_7bc2_193f');
+		if (!container) {
+			return;
+		}
+		let score = 0;
+		let possible = 0;
+		let feedbackText = "";
+
+		const dropzones = container.querySelectorAll(".dropzone");
+		const feedbackCells = container.querySelectorAll(".feedback");
+		dropzones.forEach((zone, index) => {
+			let selectedValue = zone.dataset.value;
+			let correctValue = zone.dataset.correct;
+			let feedbackCell = feedbackCells[index];
+
+			if (selectedValue === correctValue) {
+				score++;
+				possible++;
+				feedbackCell.innerHTML = "<strong><span style='color:var(--qti-success-fg, #008000); font-size:large;'>&#9989;</span></strong>";
+				feedbackCell.style.backgroundColor = "var(--qti-success-bg, #ccffcc)";
+			} else {
+				possible++;
+				feedbackCell.innerHTML = "&#10060;";
+				feedbackCell.style.backgroundColor = "var(--qti-error-bg, #ffcccc)";
+			}
+		});
+
+		feedbackText = `Total Score: ${score} out of ${possible}`;
+		const resultDiv = document.getElementById('result_7bc2_193f');
+		if (score === possible) {
+			resultDiv.style.color = 'var(--qti-success-fg, #008000)';
+		}
+		else if (score <= Math.floor(possible / 2)) {
+			resultDiv.style.color = 'var(--qti-error-fg, #9b1b1b)';
+		}
+		else {
+			resultDiv.style.color = 'inherit';
+		}
+		resultDiv.innerHTML = feedbackText;
+	}
+</script>
+<script>
+	function resetGame_7bc2_193f() {
+		const container = document.getElementById('question_html_7bc2_193f');
+		if (!container) {
+			return;
+		}
+		container.querySelectorAll(".dropzone").forEach(zone => {
+			zone.textContent = "Drop Your Choice Here";
+			delete zone.dataset.value;
+			zone.style.backgroundColor = "var(--qti-dropzone-bg, #f8f8f8)";
+			zone.style.border = "2px dashed var(--qti-dropzone-border, #bbbbbb)";
+			zone.style.color = "inherit";
+			zone.style.fontWeight = "normal";
+		});
+
+		container.querySelectorAll(".feedback").forEach(cell => {
+			cell.textContent = "";
+			cell.style.backgroundColor = "transparent";
+		});
+		document.getElementById("result_7bc2_193f").innerHTML = "";
+	}
+</script>
+
+</div>
