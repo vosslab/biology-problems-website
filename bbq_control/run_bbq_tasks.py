@@ -68,6 +68,47 @@ def get_repo_root() -> str:
 
 
 #============================================
+def parse_args():
+	"""
+	Parse command-line arguments.
+
+	Returns:
+		argparse.Namespace: Parsed arguments.
+	"""
+	parser = argparse.ArgumentParser(description="Run BBQ generation tasks from CSV.")
+	parser.add_argument(
+		"-t", "--tasks", dest="tasks_csv", default="bbq_tasks.csv",
+		help="Path to tasks CSV (default: bbq_tasks.csv)",
+	)
+	parser.add_argument(
+		"-s", "--settings", dest="settings_yaml", default="",
+		help="Path to settings YAML (searches CWD, repo root, script dir).",
+	)
+	parser.add_argument(
+		"-n", "--dry-run", dest="dry_run", action="store_true",
+		help="Run commands but do not move outputs.",
+	)
+	parser.add_argument(
+		"-F", "--flat", "--no-tui", dest="no_tui", action="store_true",
+		help="Disable the Textual TUI interface.",
+	)
+	parser.add_argument(
+		"-x", "--max-questions", dest="max_questions", type=int, default=None,
+		help="Append -x N to all scripts.",
+	)
+	parser.add_argument(
+		"-l", "--limit", dest="limit", type=int, default=None,
+		help="Maximum number of tasks to run (for testing).",
+	)
+	parser.add_argument(
+		"-R", "--shuffle", dest="shuffle_tasks", action="store_true",
+		help="Shuffle task order before applying --limit (for testing).",
+	)
+	args = parser.parse_args()
+	return args
+
+
+#============================================
 def find_settings_yaml(settings_arg: str) -> str:
 	"""
 	Find bbq_settings.yml in order: CWD, repo root, script directory.
@@ -664,6 +705,22 @@ def shorten_text(text: str, max_len: int) -> str:
 	return text[:max_len - 3] + "..."
 
 
+#============================================
+class RunContext:
+	def __init__(
+		self,
+		log_path: str,
+		error_log_path: str,
+		allow_cleanup: bool,
+		pythonpath_value: str,
+	):
+		self.log_path = log_path
+		self.error_log_path = error_log_path
+		self.allow_cleanup = allow_cleanup
+		self.pythonpath_value = pythonpath_value
+
+
+#============================================
 def run_task_capture(
 	task: dict,
 	log_path: str,
@@ -972,10 +1029,11 @@ if TEXTUAL_AVAILABLE:
 				return Text(status, style=style)
 			return Text(status)
 
-		def __init__(self, tasks: list, args: argparse.Namespace) -> None:
+		def __init__(self, tasks: list, args: argparse.Namespace, run_context: RunContext) -> None:
 			super().__init__()
 			self.tasks = tasks
 			self.args = args
+			self.run_context = run_context
 			self.total = len(tasks)
 			self.start_time = time.time()
 			self.completed = 0
@@ -1087,11 +1145,11 @@ if TEXTUAL_AVAILABLE:
 			worker = self.run_worker(
 				lambda: run_task_capture(
 					task,
-					self.args.log,
+					self.run_context.log_path,
 					not self.args.dry_run,
-					self.args.allow_cleanup,
-					self.args.pythonpath_value,
-					self.args.error_log,
+					self.run_context.allow_cleanup,
+					self.run_context.pythonpath_value,
+					self.run_context.error_log_path,
 				),
 				thread=True,
 				exclusive=False
@@ -1103,37 +1161,9 @@ if TEXTUAL_AVAILABLE:
 				self.exit()
 
 
+#============================================
 def main():
-	parser = argparse.ArgumentParser(description="Run BBQ generation tasks from CSV.")
-	parser.add_argument(
-		"-t", "--tasks", dest="tasks_csv", default="bbq_tasks.csv",
-		help="Path to tasks CSV (default: bbq_tasks.csv)",
-	)
-	parser.add_argument(
-		"-s", "--settings", dest="settings_yaml", default="",
-		help="Path to settings YAML (searches CWD, repo root, script dir).",
-	)
-	parser.add_argument(
-		"--dry-run", dest="dry_run", action="store_true",
-		help="Run commands but do not move outputs.",
-	)
-	parser.add_argument(
-		"--no-tui", dest="no_tui", action="store_true",
-		help="Disable the Textual TUI interface.",
-	)
-	parser.add_argument(
-		"--max-questions", dest="max_questions", type=int, default=None,
-		help="Append -x N to all scripts.",
-	)
-	parser.add_argument(
-		"-x", "--limit", dest="limit", type=int, default=None,
-		help="Maximum number of tasks to run (for testing).",
-	)
-	parser.add_argument(
-		"--shuffle", dest="shuffle_tasks", action="store_true",
-		help="Shuffle task order before applying --limit (for testing).",
-	)
-	args = parser.parse_args()
+	args = parse_args()
 	# Hardcoded settings
 	log_path = os.path.join(os.getcwd(), "bbq_generation.log")
 	error_log_path = os.path.join(os.getcwd(), "bbq_generation_errors.log")
@@ -1194,15 +1224,16 @@ def main():
 		print(f"Rotated previous log to {log_path}.1")
 	if not pythonpath_ok and pythonpath_message:
 		log_line(log_path, pythonpath_message)
-	args.allow_cleanup = pythonpath_ok
-	args.pythonpath_value = pythonpath_value
-	args.error_log = error_log_path
+	run_context = RunContext(
+		log_path,
+		error_log_path,
+		pythonpath_ok,
+		pythonpath_value,
+	)
 
 	use_tui = TEXTUAL_AVAILABLE and not args.no_tui and sys.stdout.isatty()
 	if use_tui:
-		# Pass log_path to TUI via args-like object
-		args.log = log_path
-		app = BBQTaskApp(tasks, args)
+		app = BBQTaskApp(tasks, args, run_context)
 		app.run()
 		return 0
 	if not TEXTUAL_AVAILABLE and not args.no_tui:
@@ -1221,9 +1252,9 @@ def main():
 				idx,
 				total,
 				move_output=False,
-				allow_cleanup=args.allow_cleanup,
-				pythonpath_value=args.pythonpath_value,
-				error_log_path=args.error_log,
+				allow_cleanup=run_context.allow_cleanup,
+				pythonpath_value=run_context.pythonpath_value,
+				error_log_path=run_context.error_log_path,
 			)
 		else:
 			ok = run_task(
@@ -1231,9 +1262,9 @@ def main():
 				log_path,
 				idx,
 				total,
-				allow_cleanup=args.allow_cleanup,
-				pythonpath_value=args.pythonpath_value,
-				error_log_path=args.error_log,
+				allow_cleanup=run_context.allow_cleanup,
+				pythonpath_value=run_context.pythonpath_value,
+				error_log_path=run_context.error_log_path,
 			)
 		if not ok:
 			failures += 1
@@ -1250,4 +1281,4 @@ def main():
 
 
 if __name__ == "__main__":
-	sys.exit(main())
+	raise SystemExit(main())
