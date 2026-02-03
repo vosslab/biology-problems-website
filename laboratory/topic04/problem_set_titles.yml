@@ -1,6 +1,4 @@
-bbq-serial_dilution_factor_aliquot_numeric-questions.txt: Serial Dilution Volume Calculations.
-  That captures concept. Let's produce that.
-bbq-serial_dilution_factor_diluent_numeric-questions.txt: Serial Dilution Volume Calculations.
-bbq-serial_dilution_factor_mc-questions.txt: Serial Dilution Factor Calculations.
-  Ensure correct formatting.
-last edit: Tue Feb  3 16:04:15 2026
+bbq-serial_dilution_factor_aliquot_numeric-questions.txt: Calculating Aliquot Volumes for Serial Dilutions
+bbq-serial_dilution_factor_diluent_numeric-questions.txt: Calculating Diluent Volumes for Serial Dilutions
+bbq-serial_dilution_factor_mc-questions.txt: Identifying Serial Dilution Factors
+last edit: Tue Feb  3 16:26:44 2026

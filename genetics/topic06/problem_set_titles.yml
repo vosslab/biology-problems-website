@@ -1,19 +1,15 @@
-bbq-MATCH-meiosis_prophase_1-questions.txt: Stages and Descriptions of Meiosis Prophase
-  I
-bbq-MATCH-meiosis_terms-questions.txt: Matching Meiosis Terms with Definitions
-bbq-MATCH-sex_determination-questions.txt: Sex Determination Systems and Their Descriptions
-bbq-MC-meiosis_prophase_1-questions.txt: Stages of Meiosis Prophase I
-bbq-MC-meiosis_terms-questions.txt: Identification of Meiosis Terms Based on Definitions
-bbq-MC-sex_determination-questions.txt: Sex Determination Systems Identification
-bbq-TFMS-mitosis_and_meiosis-questions.txt: True/False Statements on Mitosis and Meiosis
-bbq-chi_square_choices-questions.txt: Chi-Squared Test for Genetic Ratios
-bbq-chi_square_errors-questions.txt: Chi-Squared Test Calculation and Hypothesis Evaluation
-bbq-dominant_and_X-linked_recessive-questions.txt: Genetic Inheritance Patterns in
-  X-Linked Recessive and Autosomal Dominant Disorders
-bbq-pedigree_choice-questions.txt: Patterns of Inheritance Analysis from Pedigree
-  Charts
-bbq-pedigree_match-questions.txt: Pedigree Analysis for Inheritance Types
-bbq-poisson_flies-questions.txt: X-Linked Inheritance Patterns in Fruit Flies
-bbq-probabiliy_of_progeny-questions.txt: Probability of Specific Gender Distribution
-  in Offspring
-last edit: Fri Aug  8 21:19:05 2025
+bbq-MATCH-meiosis_prophase_1-questions.txt: Matching Meiosis Prophase I Stages to Descriptions
+bbq-MATCH-meiosis_terms-questions.txt: Matching Meiosis Terms to Definitions
+bbq-MATCH-sex_determination-questions.txt: Matching Sex Determination Systems to Descriptions
+bbq-MC-meiosis_prophase_1-questions.txt: Identifying Meiosis Prophase I Stages
+bbq-MC-meiosis_terms-questions.txt: Identifying Meiosis Terms
+bbq-MC-sex_determination-questions.txt: Identifying Sex Determination Systems
+bbq-TFMS-mitosis_and_meiosis-questions.txt: Determining True/False Statements About Mitosis and Meiosis
+bbq-chi_square_choices-questions.txt: Identifying Chi-Square Tests for Genetic Ratios
+bbq-chi_square_errors-questions.txt: Determining Chi-Square Calculations and Hypothesis Evaluations
+bbq-dominant_and_X-linked_recessive-questions.txt: Determining Inheritance Patterns for X-Linked Recessive and Autosomal Dominant Disorders
+bbq-pedigree_choice-questions.txt: Identifying Inheritance Patterns from Pedigree Charts
+bbq-pedigree_match-questions.txt: Determining Inheritance Types from Pedigrees
+bbq-poisson_flies-questions.txt: Determining X-Linked Inheritance Patterns in Fruit Flies
+bbq-probabiliy_of_progeny-questions.txt: Determining Probability of Specific Gender Distributions in Offspring
+last edit: Tue Feb  3 16:26:44 2026

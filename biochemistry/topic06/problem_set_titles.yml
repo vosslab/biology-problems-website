@@ -1,5 +1,5 @@
-bbq-MC-energy_terms-questions.txt: Energy Terms and Their Categories
-bbq-TF-chemical_reactions-questions.txt: True/False Statements on Chemical Reactions
-bbq-TF-gibbs_free_energy_equation-questions.txt: True/False Statements on Gibbs Free Energy (&Delta;G = &Delta;H - T &Delta;S)
-bbq-TF-thermodynamics-questions.txt: True/False Statements on Thermodynamics vs. Kinetics
-last edit: Mon Feb  3 16:05:28 2025
+bbq-MC-energy_terms-questions.txt: Identifying Energy Terms and Their Categories
+bbq-TF-chemical_reactions-questions.txt: Determining True/False Statements About Chemical Reactions
+bbq-TF-gibbs_free_energy_equation-questions.txt: Determining True/False Statements About Gibbs Free Energy (Delta G = Delta H - T Delta S)
+bbq-TF-thermodynamics-questions.txt: Determining True/False Statements About Thermodynamics and Kinetics
+last edit: Tue Feb  3 16:26:44 2026
