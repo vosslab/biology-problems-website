@@ -21,7 +21,7 @@ INPUT_SCRIPT_BASENAMES = {
 	"yaml_match_to_bbq.py",
 	"yaml_which_one_mc_to_bbq.py",
 	"yaml_make_which_one_multiple_choice.py",
-	"yaml_multiple_choice_statements.py",
+	"yaml_mc_statements_to_bbq.py",
 	"yaml_make_match_sets.py",
 }
 

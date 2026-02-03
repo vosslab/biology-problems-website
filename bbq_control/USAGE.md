@@ -49,7 +49,7 @@ script_aliases:
   YMATCH:
     - "{matching_sets}/yaml_match_to_bbq.py"
     - "{matching_sets}/yaml_which_one_mc_to_bbq.py"
-  YMCS: "{multiple_choice_statements}/yaml_multiple_choice_statements.py"
+  YMCS: "{multiple_choice_statements}/yaml_mc_statements_to_bbq.py"
   YMMS: "{matching_sets}/yaml_make_match_sets.py"
 ```
 

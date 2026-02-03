@@ -1,6 +1,10 @@
 # Changelog
 
 ## 2026-02-02
+- Made missing or mismatched PYTHONPATH a hard error that exits in `bbq_control/run_bbq_tasks.py`.
+- Allowed BBQ output auto-detection to use YAML input basenames for `yaml_match_to_bbq.py` and `yaml_which_one_mc_to_bbq.py`.
+- Added YAML input basenames to task labels for `yaml_match_to_bbq.py` and `yaml_which_one_mc_to_bbq.py` in `bbq_control/run_bbq_tasks.py`.
+- Updated YAML MC statements aliasing to use `yaml_mc_statements_to_bbq.py` and included it in input-basename output detection and task labels.
 - Removed the output_file column from `bbq_control/bbq_tasks.csv` and `bbq_control/sub_bbq_tasks.csv`.
 - Updated `bbq_control/run_bbq_tasks.py` and `bbq_control/bbq_sync_tasks.py` to auto-detect new bbq-*.txt outputs and move them into the site_docs topic folders.
 - Updated `bbq_control/USAGE.md` and `flow_for_html_generation.txt` to document the new CSV format and output auto-detection.
