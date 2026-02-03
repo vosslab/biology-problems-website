@@ -121,3 +121,13 @@ genetics:
     libretexts:
       title: "Gene Trees and Relationships"
       url: "https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/11:_Gene_Trees_and_Relationships"
+
+laboratory:
+  topic01:
+    description: "Orders of magnitude, pipet sizing, and measurement scale."
+  topic02:
+    description: "Solution preparation using mass concentration, molarity, and volume ratios."
+  topic03:
+    description: "Single-step dilution factors and percent dilution calculations."
+  topic04:
+    description: "Serial dilution factor calculations."

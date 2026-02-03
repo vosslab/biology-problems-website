@@ -5,6 +5,7 @@ import os
 import re
 import glob
 import time
+import argparse
 import subprocess
 
 # PIP3 modules
@@ -28,10 +29,79 @@ COLOR_CYAN = "\033[96m"
 COLOR_RED = "\033[91m"
 COLOR_MAGENTA = "\033[95m"
 
+DOWNLOAD_FORMAT_KEYS = (
+	"bb_text",
+	"bb_qti",
+	"canvas_qti",
+	"human_read",
+)
+
 
 def color_text(text: str, color: str) -> str:
 	"""Return colored text for CLI readability."""
 	return f"{color}{text}{COLOR_RESET}"
+
+#==============
+
+def parse_args() -> argparse.Namespace:
+	"""
+	Parse command-line arguments.
+	"""
+	parser = argparse.ArgumentParser(
+		description="Generate topic pages and optional download formats."
+	)
+	parser.add_argument(
+		"-f",
+		"--formats",
+		dest="download_formats",
+		action="append",
+		choices=DOWNLOAD_FORMAT_KEYS,
+		help="Download formats to include (default: all).",
+	)
+	parser.add_argument(
+		"--no-downloads",
+		dest="no_downloads",
+		action="store_true",
+		help="Skip download button generation.",
+	)
+	parser.add_argument(
+		"--force-downloads",
+		dest="force_downloads",
+		action="store_true",
+		help="Regenerate download formats even if files exist.",
+	)
+	verbosity_group = parser.add_mutually_exclusive_group()
+	verbosity_group.add_argument(
+		"-q",
+		"--quiet",
+		dest="verbose",
+		action="store_false",
+		help="Reduce console output.",
+	)
+	verbosity_group.add_argument(
+		"-v",
+		"--verbose",
+		dest="verbose",
+		action="store_true",
+		help="Enable detailed console output.",
+	)
+	verbosity_group.set_defaults(verbose=True)
+	args = parser.parse_args()
+
+	if args.no_downloads:
+		args.download_formats = []
+	elif not args.download_formats:
+		args.download_formats = list(DOWNLOAD_FORMAT_KEYS)
+	else:
+		seen = set()
+		ordered = []
+		for item in args.download_formats:
+			if item in seen:
+				continue
+			ordered.append(item)
+			seen.add(item)
+		args.download_formats = ordered
+	return args
 
 #==============
 
@@ -196,10 +266,19 @@ def get_download_js_string():
 	return download_js
 
 #==============
-def generate_download_button_row(bbq_file_name: str) -> str:
+def generate_download_button_row(
+	bbq_file_name: str,
+	download_formats: list,
+	force_downloads: bool,
+	verbose: bool,
+) -> str:
 	"""
 	Generates a row of HTML buttons for downloading various file types.
 	"""
+	if not download_formats:
+		if verbose:
+			print(color_text("  Downloads disabled for this page.", COLOR_YELLOW))
+		return ""
 
 	# Define file types with their prefixes, suffixes, and button classes
 	file_types = {
@@ -238,16 +317,39 @@ def generate_download_button_row(bbq_file_name: str) -> str:
 
 	# Generate a button for each file type
 	for type_key, file_type in file_types.items():
+		if type_key not in download_formats:
+			if verbose:
+				print(color_text(f"  SKIP {file_type['display_name']} (disabled)", COLOR_YELLOW))
+			continue
 		# Construct the filename using the base name and file type details
-		out_file_path = get_outfile_name(bbq_file_name, file_type['prefix'], file_type['extension'])
 		if type_key == "bb_text":
 			out_file_path = bbq_file_name
+		else:
+			out_file_path = get_outfile_name(
+				bbq_file_name,
+				file_type['prefix'],
+				file_type['extension'],
+			)
+		if os.path.isfile(out_file_path) and not force_downloads:
+			if verbose:
+				print(color_text(f"  FOUND {file_type['display_name']}: {out_file_path}", COLOR_GREEN))
+		elif type_key == "bb_text":
+			if verbose:
+				print(color_text(f"  MISSING {file_type['display_name']}: {out_file_path}", COLOR_YELLOW))
+		else:
+			if verbose:
+				print(color_text(f"  BUILD {file_type['display_name']}: {out_file_path}", COLOR_CYAN))
+			out_file_path = create_downloadable_format(
+				bbq_file_name,
+				file_type['prefix'],
+				file_type['extension'],
+			)
+		if not os.path.isfile(out_file_path):
+			if verbose:
+				print(color_text(f"  MISSING {file_type['display_name']}: {out_file_path}", COLOR_YELLOW))
+			continue
 		out_file_basename = os.path.basename(out_file_path)
 		out_relative_path = os.path.relpath(out_file_path, start=dir_name)
-		if not os.path.isfile(out_file_path):
-			out_file_path = create_downloadable_format(bbq_file_name, file_type['prefix'], file_type['extension'])
-		if not os.path.isfile(out_file_path):
-			continue
 		out_file_basename = os.path.basename(out_file_path)
 		# Create HTML button element with corresponding attributes
 		if type_key == "human_read":
@@ -356,7 +458,15 @@ def get_outfile_name(bbq_file_name: str, prefix: str, extension: str):
 
 #==============
 
-def update_index_md(topic_folder: str, bbq_files: list, file_counter: dict, total_files: int) -> None:
+def update_index_md(
+	topic_folder: str,
+	bbq_files: list,
+	file_counter: dict,
+	total_files: int,
+	download_formats: list,
+	force_downloads: bool,
+	verbose: bool,
+) -> None:
 	"""Update or create the index.md file for the topic.
 
 	Args:
@@ -426,7 +536,12 @@ def update_index_md(topic_folder: str, bbq_files: list, file_counter: dict, tota
 			# Add content to the index.md file
 			index_md.write(f"## {problem_set_title}\n\n")
 			#print("bbq_file_basename=", bbq_file_basename)
-			download_button_row = generate_download_button_row(bbq_file)
+			download_button_row = generate_download_button_row(
+				bbq_file,
+				download_formats,
+				force_downloads,
+				verbose,
+			)
 			"""
 			download_msg = f"Download the {bbq_file_basename} file for Blackboard Upload"
 			markdown_link = f"[{download_msg}]({bbq_file_basename})\n\n"
@@ -459,9 +574,17 @@ def main():
 		FileNotFoundError: If the base directory does not exist.
 	"""
 	global BASE_DIR
+	args = parse_args()
 	BASE_DIR = get_docs_dir()
 	if not os.path.exists(BASE_DIR):
 		raise FileNotFoundError(f"Base directory '{BASE_DIR}' not found.")
+	if args.verbose:
+		if not args.download_formats:
+			print(color_text("Download formats: none", COLOR_YELLOW))
+		else:
+			joined_formats = ", ".join(args.download_formats)
+			print(color_text(f"Download formats: {joined_formats}", COLOR_CYAN))
+		print(color_text(f"Force downloads: {args.force_downloads}", COLOR_CYAN))
 
 	search_text = os.path.join(BASE_DIR, "*/topic??")
 	print(color_text(f"Search text: {search_text}", COLOR_CYAN))
@@ -495,7 +618,15 @@ def main():
 		print(color_text(f"{progress} Found {len(bbq_files)} bbq files in topic folder: {topic_folder}", COLOR_CYAN))
 
 		# Update the index.md file for the topic
-		update_index_md(topic_folder, bbq_files, file_counter, total_bbq_files)
+		update_index_md(
+			topic_folder,
+			bbq_files,
+			file_counter,
+			total_bbq_files,
+			args.download_formats,
+			args.force_downloads,
+			args.verbose,
+		)
 		#sys.exit(1)
 	print("\n\n\n")
 	print(color_text("PROGRAM HAS COMPLETED!!!", COLOR_GREEN))

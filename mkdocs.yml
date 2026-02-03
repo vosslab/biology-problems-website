@@ -100,6 +100,12 @@ nav:
   - '9: Chromosomal Disorders': genetics/topic09/index.md
   - '10: Population Genetics': genetics/topic10/index.md
   - '11: Gene Trees': genetics/topic11/index.md
+- "Laboratory":
+  - 'List of Topics': laboratory/index.md
+  - '1: Measurement basics': laboratory/topic01/index.md
+  - '2: Solutions': laboratory/topic02/index.md
+  - '3: Dilutions': laboratory/topic03/index.md
+  - '4: Serial dilutions': laboratory/topic04/index.md
 - "🧬 Molecular Biology": molecular_biology/index.md
 - "🎲 Biostatistics": biostatistics/index.md
 - "<i class='fa fa-book-open'></i> Tutorials":

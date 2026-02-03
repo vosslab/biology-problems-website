@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-02-03
+- Added argparse options and explicit download-format logging to `generate_topic_pages.py`.
+- Added laboratory subject navigation, metadata, and topic index pages.
+- Linked the laboratory subject from `site_docs/index.md`.
+
 ## 2026-02-02
 - Made missing or mismatched PYTHONPATH a hard error that exits in `bbq_control/run_bbq_tasks.py`.
 - Allowed BBQ output auto-detection to use YAML input basenames for `yaml_match_to_bbq.py` and `yaml_which_one_mc_to_bbq.py`.
