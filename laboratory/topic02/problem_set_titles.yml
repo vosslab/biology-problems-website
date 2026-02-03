@@ -1,9 +1,5 @@
-bbq-solution-mass_concentration-numeric-questions.txt: '**Preparing Solutions: Calculating
-  Mass for a Desired Concentration**". That meets both: heading and bold. Use concise.
-  Let''s craft final answer accordingly.'
-bbq-solution-mass_vol-numeric-questions.txt: Preparing Weight/Volume (w/v) Solutions
-bbq-solution-molarity-mol_weight-numeric-questions.txt: Mass Calculation for Preparing
-  a Solution
-bbq-solution-vol_vol-numeric-questions.txt: Determining Solute Volume for a % (v/v)
-  Solution.
-last edit: Tue Feb  3 16:03:46 2026
+bbq-solution-mass_concentration-numeric-questions.txt: Calculating Mass for a Target Concentration
+bbq-solution-mass_vol-numeric-questions.txt: Calculating Mass for Weight/Volume Solutions
+bbq-solution-molarity-mol_weight-numeric-questions.txt: Calculating Mass for Solutions Using Molarity and Molecular Weight
+bbq-solution-vol_vol-numeric-questions.txt: Calculating Solute Volume for Percent Volume/Volume Solutions
+last edit: Tue Feb  3 16:26:44 2026

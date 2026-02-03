@@ -1,9 +1,7 @@
 bbq-MATCH-genetic_disorders-questions.txt: Matching Genetic Disorders to Descriptions
 bbq-MATCH-genetics_terminology-questions.txt: Matching Genetic Terminology to Definitions
-bbq-MC-genetic_disorders-questions.txt: Selection of Genetic Disorders by Description
-bbq-MC-genetics_terminology-questions.txt: Selection Genetic Terminology by Definitions
-bbq-beadle_tatum-metabolic_pathway-4_metabolites-questions.txt: Metabolic Pathway
-  Nutrient Supplementation
-bbq-beadle_tatum-metabolic_pathway-6_metabolites-questions.txt: Metabolic Pathway
-  Supplementation
-last edit: Thu Aug  7 10:08:15 2025
+bbq-MC-genetic_disorders-questions.txt: Identifying Genetic Disorders from Descriptions
+bbq-MC-genetics_terminology-questions.txt: Identifying Genetic Terminology from Definitions
+bbq-beadle_tatum-metabolic_pathway-4_metabolites-questions.txt: Determining Metabolic Pathway Order from Nutrient Supplementation (4 Metabolites)
+bbq-beadle_tatum-metabolic_pathway-6_metabolites-questions.txt: Determining Metabolic Pathway Order from Nutrient Supplementation (6 Metabolites)
+last edit: Tue Feb  3 16:26:44 2026
