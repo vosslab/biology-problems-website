@@ -6,6 +6,7 @@
 - Added YAML input basenames to task labels for `yaml_match_to_bbq.py` and `yaml_which_one_mc_to_bbq.py` in `bbq_control/run_bbq_tasks.py`.
 - Updated YAML MC statements aliasing to use `yaml_mc_statements_to_bbq.py` and included it in input-basename output detection and task labels.
 - Moved `run_bbq_tasks.py` argparse into `parse_args()` and stopped attaching derived runtime state to `args`.
+- Switched `run_bbq_tasks.py` to raise a ValueError on non-zero exit from `main()`.
 - Removed the output_file column from `bbq_control/bbq_tasks.csv` and `bbq_control/sub_bbq_tasks.csv`.
 - Updated `bbq_control/run_bbq_tasks.py` and `bbq_control/bbq_sync_tasks.py` to auto-detect new bbq-*.txt outputs and move them into the site_docs topic folders.
 - Updated `bbq_control/USAGE.md` and `flow_for_html_generation.txt` to document the new CSV format and output auto-detection.

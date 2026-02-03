@@ -1281,4 +1281,6 @@ def main():
 
 
 if __name__ == "__main__":
-	raise SystemExit(main())
+	exit_code = main()
+	if exit_code:
+		raise ValueError(f"run_bbq_tasks failed with exit code {exit_code}")
