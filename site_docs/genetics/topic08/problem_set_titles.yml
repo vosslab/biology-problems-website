@@ -1,14 +1,14 @@
-bbq-tetrad_ordered-centromere_distance-MC-questions.txt: "Ordered Tetrad Analysis: Estimating Centromere Distance"
-bbq-tetrad_unordered_three_gene-find_one_distance-MC-questions.txt: "Unordered Tetrad Analysis: Calculating Gene Distance in a Three-Gene Cross"
-bbq-tetrad_unordered_two_gene-find_distance-MC-questions.txt: "Unordered Tetrad Analysis: Calculating Gene Distance in a Two-Gene Cross"
-bbq-tetrad_unordered_two_gene-test_linkage-questions.txt: "Unordered Tetrad Analysis: Testing for Linkage in a Two-Gene Cross"
-bbq-three-point_test_cross-find_interence-MC-questions.txt: "Three-Point Test Cross: Calculating Genetic Interference"
-bbq-three-point_test_cross-one_gene_distance-MC-questions.txt: "Three-Point Test Cross: Calculating Distance for a Single Gene Pair"
-bbq-three-point_test_cross-which_genotypes-DOUBLE-questions.txt: "Three-Point Test Cross: Identifying Double Crossover Genotypes"
-bbq-three-point_test_cross-which_genotypes-GENES-questions.txt: "Three-Point Test Cross: Identifying Recombinant Genotypes"
-bbq-three-point_test_cross-which_genotypes-PARENTAL-questions.txt: "Three-Point Test Cross: Identifying Parental Genotypes"
-bbq-two-point_test_cross-cis-trans-questions.txt: "Two-Point Test Cross: Determining Gene Configuration (Cis vs. Trans)"
-bbq-two-point_test_cross-distance-MC-questions.txt: "Two-Point Test Cross: Calculating Distance Between Genes"
-bbq-two-point_test_cross-which_genotypes-PARENTAL-questions.txt: "Two-Point Test Cross: Identifying Parental Genotypes"
-bbq-two-point_test_cross-which_genotypes-RECOMBINANT-questions.txt: "Two-Point Test Cross: Identifying Recombinant Genotypes"
-last edit: Fri Aug  8 21:38:18 2025
+bbq-tetrad_ordered-centromere_distance-MC-questions.txt: Identifying Centromere Distance from Ordered Tetrad Analysis
+bbq-tetrad_unordered_three_gene-find_one_distance-MC-questions.txt: Identifying Gene Distance in a Three-Gene Cross from Unordered Tetrad Analysis
+bbq-tetrad_unordered_two_gene-find_distance-MC-questions.txt: Identifying Gene Distance in a Two-Gene Cross from Unordered Tetrad Analysis
+bbq-tetrad_unordered_two_gene-test_linkage-questions.txt: Determining Linkage in a Two-Gene Cross from Unordered Tetrad Analysis
+bbq-three-point_test_cross-find_interence-MC-questions.txt: Identifying Genetic Interference from Three-Point Test Crosses
+bbq-three-point_test_cross-one_gene_distance-MC-questions.txt: Identifying Single-Gene Pair Distance from a Three-Point Test Cross
+bbq-three-point_test_cross-which_genotypes-DOUBLE-questions.txt: Determining Double Crossover Genotypes from Three-Point Test Crosses
+bbq-three-point_test_cross-which_genotypes-GENES-questions.txt: Determining Recombinant Genotypes from Three-Point Test Crosses
+bbq-three-point_test_cross-which_genotypes-PARENTAL-questions.txt: Determining Parental Genotypes from Three-Point Test Crosses
+bbq-two-point_test_cross-cis-trans-questions.txt: Determining Gene Configuration (Cis vs. Trans) in Two-Point Test Crosses
+bbq-two-point_test_cross-distance-MC-questions.txt: Identifying Gene Distance from Two-Point Test Crosses
+bbq-two-point_test_cross-which_genotypes-PARENTAL-questions.txt: Determining Parental Genotypes from Two-Point Test Crosses
+bbq-two-point_test_cross-which_genotypes-RECOMBINANT-questions.txt: Determining Recombinant Genotypes from Two-Point Test Crosses
+last edit: Tue Feb  3 16:26:44 2026

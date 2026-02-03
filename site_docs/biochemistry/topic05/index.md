@@ -4,7 +4,7 @@ Isolation and analysis methods, chromatography, electrophoresis.
 
 **LibreTexts reference:** [Protein Purification](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/05:_Protein_Purification)
 
-## Cell Disruption Techniques Identification
+## Identifying Cell Disruption Techniques
 
 <div id="MC-cell_disruption-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MC-cell_disruption-questions.txt" download title="Download bbq-MC-cell_disruption-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-cell_disruption-questions.txt)">
@@ -25,7 +25,7 @@ Isolation and analysis methods, chromatography, electrophoresis.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Cell Disruption Techniques Identification
+      Identifying Cell Disruption Techniques
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -36,7 +36,7 @@ Isolation and analysis methods, chromatography, electrophoresis.
 </details>
 
 
-## Types of Column Chromatography
+## Identifying Column Chromatography Types
 
 <div id="MC-chromatography-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MC-chromatography-questions.txt" download title="Download bbq-MC-chromatography-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-chromatography-questions.txt)">
@@ -57,7 +57,7 @@ Isolation and analysis methods, chromatography, electrophoresis.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Types of Column Chromatography
+      Identifying Column Chromatography Types
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -68,7 +68,7 @@ Isolation and analysis methods, chromatography, electrophoresis.
 </details>
 
 
-## Identification of Macromolecules in Gel Electrophoresis Processes
+## Identifying Macromolecules in Gel Electrophoresis
 
 <div id="MC-protein_v_dna_gels-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MC-protein_v_dna_gels-questions.txt" download title="Download bbq-MC-protein_v_dna_gels-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-protein_v_dna_gels-questions.txt)">
@@ -89,7 +89,7 @@ Isolation and analysis methods, chromatography, electrophoresis.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identification of Macromolecules in Gel Electrophoresis Processes
+      Identifying Macromolecules in Gel Electrophoresis
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -100,7 +100,7 @@ Isolation and analysis methods, chromatography, electrophoresis.
 </details>
 
 
-## Determining Net Charge of Proteins at Given pH
+## Determining Protein Net Charge at a Given pH
 
 <div id="isoelectric_one_protein-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-isoelectric_one_protein-questions.txt" download title="Download bbq-isoelectric_one_protein-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-isoelectric_one_protein-questions.txt)">
@@ -121,7 +121,7 @@ Isolation and analysis methods, chromatography, electrophoresis.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Net Charge of Proteins at Given pH
+      Determining Protein Net Charge at a Given pH
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -132,7 +132,7 @@ Isolation and analysis methods, chromatography, electrophoresis.
 </details>
 
 
-## Protein Migration Direction Based on Isoelectric Point
+## Determining Protein Migration Direction from Isoelectric Point
 
 <div id="isoelectric_two_proteins-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-isoelectric_two_proteins-questions.txt" download title="Download bbq-isoelectric_two_proteins-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-isoelectric_two_proteins-questions.txt)">
@@ -153,7 +153,7 @@ Isolation and analysis methods, chromatography, electrophoresis.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Protein Migration Direction Based on Isoelectric Point
+      Determining Protein Migration Direction from Isoelectric Point
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -164,7 +164,7 @@ Isolation and analysis methods, chromatography, electrophoresis.
 </details>
 
 
-## Estimating Protein Molecular Weight from SDS-PAGE Migration
+## Determining Protein Molecular Weight from SDS-PAGE Migration
 
 <div id="protein_gel_migration-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-protein_gel_migration-questions.txt" download title="Download bbq-protein_gel_migration-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-protein_gel_migration-questions.txt)">
@@ -185,7 +185,7 @@ Isolation and analysis methods, chromatography, electrophoresis.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Estimating Protein Molecular Weight from SDS-PAGE Migration
+      Determining Protein Molecular Weight from SDS-PAGE Migration
     </span>
     <span style='font-weight: normal;'>
       example problem

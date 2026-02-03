@@ -1,6 +1,6 @@
-bbq-MATCH-chi-square_terms-questions.txt: Chi-Square Terms and Definitions Matching
-bbq-MC-chi-square_terms-questions.txt: Chi-Square Test Terms and Definitions
-bbq-TFMS-chi-square-questions.txt: True/False Statements on Chi-Square Tests
-bbq-chi_square_choices-questions.txt: Chi-Squared Test for Phenotypic Ratios
-bbq-chi_square_errors-questions.txt: Chi-Squared Test for Goodness of Fit
-last edit: Fri Aug  8 21:23:54 2025
+bbq-MATCH-chi-square_terms-questions.txt: Matching Chi-Square Terms to Definitions
+bbq-MC-chi-square_terms-questions.txt: Identifying Chi-Square Terms
+bbq-TFMS-chi-square-questions.txt: Determining True/False Statements About Chi-Square Tests
+bbq-chi_square_choices-questions.txt: Identifying Chi-Square Tests for Phenotypic Ratios
+bbq-chi_square_errors-questions.txt: Determining Chi-Square Tests for Goodness of Fit
+last edit: Tue Feb  3 16:26:44 2026

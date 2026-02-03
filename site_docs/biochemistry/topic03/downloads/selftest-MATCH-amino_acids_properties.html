@@ -1,9 +1,9 @@
 <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
 <div class="qti-selftest">
-<div id="question_html_e3a9_b06e">
-<div id="statement_text_e3a9_b06e"><div id="drv_d2ff" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
-<p>Match<span style="font-size: 1px; color: white;">cri</span>each of<span style="font-size: 1px; color: white;">psi</span>the following<span style="font-size: 1px; color: white;">served</span>amino acids with their<span style="font-size: 1px; color: white;">sexes</span>corresponding<span style="font-size: 1px; color: white;">tracks</span>descriptions.<br><i>Note:</i> Each<span style="font-size: 1px; color: white;">dodo</span>choice<span style="font-size: 1px; color: white;">legs</span>will<span style="font-size: 1px; color: white;">kelvin</span>be<span style="font-size: 1px; color: white;">manual</span>used<span style="font-size: 1px; color: white;">balm</span>exactly<span style="font-size: 1px; color: white;">others</span>once.</p>
-<span style="font-size: 1px; color: white;">gap</span>
+<div id="question_html_1439_c62e">
+<div id="statement_text_1439_c62e"><div id="drv_7097" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
+<p>Match<span style="font-size: 1px; color: white;">bid</span>each<span style="font-size: 1px; color: white;">stress</span>of<span style="font-size: 1px; color: white;">next</span>the<span style="font-size: 1px; color: white;">nerve</span>following<span style="font-size: 1px; color: white;">common</span>amino<span style="font-size: 1px; color: white;">longer</span>acids<span style="font-size: 1px; color: white;">hammer</span>with<span style="font-size: 1px; color: white;">leads</span>their<span style="font-size: 1px; color: white;">fixed</span>corresponding<span style="font-size: 1px; color: white;">mix</span>descriptions.<br><i>Note:</i> Each<span style="font-size: 1px; color: white;">xmales</span>choice<span style="font-size: 1px; color: white;">feel</span>will be<span style="font-size: 1px; color: white;">lawyer</span>used<span style="font-size: 1px; color: white;">placed</span>exactly<span style="font-size: 1px; color: white;">bird</span>once.</p>
+<span style="font-size: 1px; color: white;">head</span>
 </div></div>
 <!-- Matching Table -->
 <table style="border: 1px solid var(--qti-border, #999999); border-collapse: collapse;">
@@ -15,69 +15,73 @@
 <tbody>
 <tr>
 <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-			<td class="dropzone qti-dropzone" data-correct="e3a9_b06e_001" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
-			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">1. <div id="drv_206d" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
-<span style="color: #335e9e;">glycine</span> </div>
-</td>
-		</tr>
-<tr>
-<td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-			<td class="dropzone qti-dropzone" data-correct="e3a9_b06e_002" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
-			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">2. <div id="drv_3184" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
-<span style="color: #006e56;">aspartate</span> </div>
-</td>
-		</tr>
-<tr>
-<td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-			<td class="dropzone qti-dropzone" data-correct="e3a9_b06e_003" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
-			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">3. <div id="drv_c88b" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
-<span style="color: #00697d;">glutamate</span><span style="font-size: 1px; color: white;">placed</span>
+			<td class="dropzone qti-dropzone" data-correct="1439_c62e_001" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">1. <div id="drv_cd95" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
+<span style="color: #00697d;">lysine</span><span style="font-size: 1px; color: white;">leads</span>
 </div>
 </td>
 		</tr>
 <tr>
 <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-			<td class="dropzone qti-dropzone" data-correct="e3a9_b06e_004" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
-			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">4. <div id="drv_d1b9" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
-<span style="color: #8a4c02;">arginine</span><span style="font-size: 1px; color: white;">dtt</span>
+			<td class="dropzone qti-dropzone" data-correct="1439_c62e_002" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">2. <div id="drv_24af" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
+<span style="color: #4e4eb9;">tryptophan</span><span style="font-size: 1px; color: white;">wick</span>
 </div>
 </td>
 		</tr>
 <tr>
 <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-			<td class="dropzone qti-dropzone" data-correct="e3a9_b06e_005" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
-			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">5. <div id="drv_f4cf" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
-<span style="color: #863b8a;">phenylalanine</span> </div>
+			<td class="dropzone qti-dropzone" data-correct="1439_c62e_003" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">3. <div id="drv_785a" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
+<span style="color: #9a2d69;">valine</span><span style="font-size: 1px; color: white;">begins</span>
+</div>
+</td>
+		</tr>
+<tr>
+<td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
+			<td class="dropzone qti-dropzone" data-correct="1439_c62e_004" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">4. <div id="drv_5a97" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
+<span style="color: #006e56;">isoleucine</span> </div>
+</td>
+		</tr>
+<tr>
+<td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
+			<td class="dropzone qti-dropzone" data-correct="1439_c62e_005" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">5. <div id="drv_3755" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
+<span style="color: #983f1b;">histidine</span><span style="font-size: 1px; color: white;">lyxose</span>
+</div>
 </td>
 		</tr>
 </tbody>
 </table>
 <p style="font-style: italic; font-size: 14px; margin-top: 10px;">Drag one of the choices below:</p>
 <ul id="choiceList" style="list-style: none; padding: 0;">
-<li class="draggable qti-choice-2" draggable="true" data-value="e3a9_b06e_004" title="a positively charged weekamino relysacid with a long, flexible side areaschain containing 3 nitrogen redoxatoms (guanidinium)" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-2-bg); display: inline-block;">
-		<span style="color: var(--qti-choice-2-fg);"><strong>A.</strong> <div id="drv_afea" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">a <strong><span style="color: #0d57a5;">positively charged<span style="font-size: 1px; color: white;">week</span>amino<span style="font-size: 1px; color: white;">relys</span>acid</span></strong> with a long, flexible <strong><span style="color: #6d108e;">side<span style="font-size: 1px; color: white;">areas</span>chain</span></strong> containing 3 nitrogen<span style="font-size: 1px; color: white;">redox</span>atoms (guanidinium) </div></span>
-	</li>
-	<li class="draggable qti-choice-3" draggable="true" data-value="e3a9_b06e_003" title="a negatively charged wogamino orderacid with aparta large, carboxylate (-COOH) side bulbchain" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-3-bg); display: inline-block;">
-		<span style="color: var(--qti-choice-3-fg);"><strong>B.</strong> <div id="drv_f07b" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">a <strong><span style="color: #ff0000;">negatively charged<span style="font-size: 1px; color: white;">wog</span>amino<span style="font-size: 1px; color: white;">order</span>acid</span></strong> with<span style="font-size: 1px; color: white;">apart</span>a large, carboxylate (-COOH) <strong><span style="color: #6d108e;">side<span style="font-size: 1px; color: white;">bulb</span>chain</span></strong> </div></span>
-	</li>
-	<li class="draggable qti-choice-4" draggable="true" data-value="e3a9_b06e_002" title="a negatively acetylcharged hillamino oxfordacid with carea small, carboxylate (-COOH) side runwaychain white" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-4-bg); display: inline-block;">
-		<span style="color: var(--qti-choice-4-fg);"><strong>C.</strong> <div id="drv_883a" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">a <strong><span style="color: #ff0000;">negatively<span style="font-size: 1px; color: white;">acetyl</span>charged<span style="font-size: 1px; color: white;">hill</span>amino<span style="font-size: 1px; color: white;">oxford</span>acid</span></strong> with<span style="font-size: 1px; color: white;">care</span>a small, carboxylate (-COOH) <strong><span style="color: #6d108e;">side<span style="font-size: 1px; color: white;">runway</span>chain</span></strong><span style="font-size: 1px; color: white;">white</span>
+<li class="draggable qti-choice-2" draggable="true" data-value="1439_c62e_005" title="an aromatic sinceamino acid with a side sourcechain containing sunnya 5-membered tumornitrogenous ring idoseand ratioa pKa familyclose valueto appearpH 7 ztest" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-2-bg); display: inline-block;">
+		<span style="color: var(--qti-choice-2-fg);"><strong>A.</strong> <div id="drv_80dc" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">an <strong><span style="color: #ff5e00;">aromatic<span style="font-size: 1px; color: white;">since</span>amino acid</span></strong> with a <strong><span style="color: #6d108e;">side<span style="font-size: 1px; color: white;">source</span>chain</span></strong> containing<span style="font-size: 1px; color: white;">sunny</span>a 5-membered<span style="font-size: 1px; color: white;">tumor</span>nitrogenous ring<span style="font-size: 1px; color: white;">idose</span>and<span style="font-size: 1px; color: white;">ratio</span>a pKa<span style="font-size: 1px; color: white;">family</span>close<span style="font-size: 1px; color: white;">value</span>to<span style="font-size: 1px; color: white;">appear</span>pH 7<span style="font-size: 1px; color: white;">ztest</span>
 </div></span>
 	</li>
-	<li class="draggable qti-choice-5" draggable="true" data-value="e3a9_b06e_001" title="a small tissueamino sybracid with the dttsimple chemical sheetformula NH2-CH2-COOH" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-5-bg); display: inline-block;">
-		<span style="color: var(--qti-choice-5-fg);"><strong>D.</strong> <div id="drv_3c0f" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">a <strong><span style="color: #2fbd0f;">small<span style="font-size: 1px; color: white;">tissue</span>amino<span style="font-size: 1px; color: white;">sybr</span>acid</span></strong> with the<span style="font-size: 1px; color: white;">dtt</span>simple chemical<span style="font-size: 1px; color: white;">sheet</span>formula NH<sub>2</sub>-CH<sub>2</sub>-COOH </div></span>
+	<li class="draggable qti-choice-3" draggable="true" data-value="1439_c62e_004" title="a non-polar runnerbranched surechain ubeaamino applyacid that aitaqiis sunnyan isomer sumof aboveleucine" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-3-bg); display: inline-block;">
+		<span style="color: var(--qti-choice-3-fg);"><strong>B.</strong> <div id="drv_e106" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">a <strong><span style="color: #ffa100;">non-polar<span style="font-size: 1px; color: white;">runner</span>branched<span style="font-size: 1px; color: white;">sure</span>chain<span style="font-size: 1px; color: white;">ubea</span>amino<span style="font-size: 1px; color: white;">apply</span>acid</span></strong> that<span style="font-size: 1px; color: white;">aitaqi</span>is<span style="font-size: 1px; color: white;">sunny</span>an isomer<span style="font-size: 1px; color: white;">sum</span>of<span style="font-size: 1px; color: white;">above</span>leucine </div></span>
 	</li>
-	<li class="draggable qti-choice-1" draggable="true" data-value="e3a9_b06e_005" title="a non- polar falseqamino acid with sodiuman joyaromatic side chain containing bladesa single pestbenzene (-C6H6) ring shultz" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-1-bg); display: inline-block;">
-		<span style="color: var(--qti-choice-1-fg);"><strong>E.</strong> <div id="drv_044b" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">a <strong><span style="color: #b3b300;">non-<strong><span style="color: #009e4c;">polar<span style="font-size: 1px; color: white;">falseq</span>amino acid</span></strong></span></strong> with<span style="font-size: 1px; color: white;">sodium</span>an<span style="font-size: 1px; color: white;">joy</span>aromatic <strong><span style="color: #6d108e;">side chain</span></strong> containing<span style="font-size: 1px; color: white;">blades</span>a single<span style="font-size: 1px; color: white;">pest</span>benzene (-C<sub>6</sub>H<sub>6</sub>) ring<span style="font-size: 1px; color: white;">shultz</span>
+	<li class="draggable qti-choice-4" draggable="true" data-value="1439_c62e_003" title="a non-polar driftbranched truthbchain wheyamino acid that pairis copieda shorter alongversion of polyaleucine bone" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-4-bg); display: inline-block;">
+		<span style="color: var(--qti-choice-4-fg);"><strong>C.</strong> <div id="drv_59c5" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">a <strong><span style="color: #ffa100;">non-polar<span style="font-size: 1px; color: white;">drift</span>branched<span style="font-size: 1px; color: white;">truthb</span>chain<span style="font-size: 1px; color: white;">whey</span>amino acid</span></strong> that<span style="font-size: 1px; color: white;">pair</span>is<span style="font-size: 1px; color: white;">copied</span>a shorter<span style="font-size: 1px; color: white;">along</span>version of<span style="font-size: 1px; color: white;">polya</span>leucine<span style="font-size: 1px; color: white;">bone</span>
+</div></span>
+	</li>
+	<li class="draggable qti-choice-5" draggable="true" data-value="1439_c62e_001" title="a positively strandcharged amino dependacid with numbera long, flexible side ringchain containing withinan herpesamine group widely" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-5-bg); display: inline-block;">
+		<span style="color: var(--qti-choice-5-fg);"><strong>D.</strong> <div id="drv_6923" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">a <strong><span style="color: #0d57a5;">positively<span style="font-size: 1px; color: white;">strand</span>charged amino<span style="font-size: 1px; color: white;">depend</span>acid</span></strong> with<span style="font-size: 1px; color: white;">number</span>a long, flexible <strong><span style="color: #6d108e;">side<span style="font-size: 1px; color: white;">ring</span>chain</span></strong> containing<span style="font-size: 1px; color: white;">within</span>an<span style="font-size: 1px; color: white;">herpes</span>amine group<span style="font-size: 1px; color: white;">widely</span>
+</div></span>
+	</li>
+	<li class="draggable qti-choice-1" draggable="true" data-value="1439_c62e_002" title="an aromatic reliefamino acid with equalthe ownerlargest side cyclechain consisting of garlica fused pair attachof rings heart" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-1-bg); display: inline-block;">
+		<span style="color: var(--qti-choice-1-fg);"><strong>E.</strong> <div id="drv_651d" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">an <strong><span style="color: #ff5e00;">aromatic<span style="font-size: 1px; color: white;">relief</span>amino acid</span></strong> with<span style="font-size: 1px; color: white;">equal</span>the<span style="font-size: 1px; color: white;">owner</span>largest <strong><span style="color: #6d108e;">side<span style="font-size: 1px; color: white;">cycle</span>chain</span></strong> consisting of<span style="font-size: 1px; color: white;">garlic</span>a fused pair<span style="font-size: 1px; color: white;">attach</span>of rings<span style="font-size: 1px; color: white;">heart</span>
 </div></span>
 	</li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_e3a9_b06e()">Check Answer</button>
-<button type="button" class="md-button md-button--secondary custom-button qti-btn qti-btn-reset" onclick="resetGame_e3a9_b06e()">Reset Game</button>
-<div id="result_e3a9_b06e" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_1439_c62e()">Check Answer</button>
+<button type="button" class="md-button md-button--secondary custom-button qti-btn qti-btn-reset" onclick="resetGame_1439_c62e()">Reset Game</button>
+<div id="result_1439_c62e" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </div><script>
-	function initDragAndDrop_e3a9_b06e() {
-		const container = document.getElementById('question_html_e3a9_b06e');
+	function initDragAndDrop_1439_c62e() {
+		const container = document.getElementById('question_html_1439_c62e');
 		if (!container) {
 			return;
 		}
@@ -125,11 +129,11 @@
 			});
 		});
 	}
-	initDragAndDrop_e3a9_b06e();
+	initDragAndDrop_1439_c62e();
 </script>
 <script>
-	function checkAnswer_e3a9_b06e() {
-		const container = document.getElementById('question_html_e3a9_b06e');
+	function checkAnswer_1439_c62e() {
+		const container = document.getElementById('question_html_1439_c62e');
 		if (!container) {
 			return;
 		}
@@ -157,7 +161,7 @@
 		});
 
 		feedbackText = `Total Score: ${score} out of ${possible}`;
-		const resultDiv = document.getElementById('result_e3a9_b06e');
+		const resultDiv = document.getElementById('result_1439_c62e');
 		if (score === possible) {
 			resultDiv.style.color = 'var(--qti-success-fg, #008000)';
 		}
@@ -171,8 +175,8 @@
 	}
 </script>
 <script>
-	function resetGame_e3a9_b06e() {
-		const container = document.getElementById('question_html_e3a9_b06e');
+	function resetGame_1439_c62e() {
+		const container = document.getElementById('question_html_1439_c62e');
 		if (!container) {
 			return;
 		}
@@ -189,7 +193,7 @@
 			cell.textContent = "";
 			cell.style.backgroundColor = "transparent";
 		});
-		document.getElementById("result_e3a9_b06e").innerHTML = "";
+		document.getElementById("result_1439_c62e").innerHTML = "";
 	}
 </script>
 
