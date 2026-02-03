@@ -100,7 +100,7 @@ nav:
   - '9: Chromosomal Disorders': genetics/topic09/index.md
   - '10: Population Genetics': genetics/topic10/index.md
   - '11: Gene Trees': genetics/topic11/index.md
-- "Laboratory":
+- "🔬 Laboratory":
   - 'List of Topics': laboratory/index.md
   - '1: Measurement basics': laboratory/topic01/index.md
   - '2: Solutions': laboratory/topic02/index.md
