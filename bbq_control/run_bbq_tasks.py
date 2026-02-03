@@ -42,7 +42,7 @@ INPUT_SCRIPT_BASENAMES = {
 	"yaml_match_to_bbq.py",
 	"yaml_which_one_mc_to_bbq.py",
 	"yaml_make_which_one_multiple_choice.py",
-	"yaml_multiple_choice_statements.py",
+	"yaml_mc_statements_to_bbq.py",
 	"yaml_make_match_sets.py",
 }
 
@@ -170,7 +170,7 @@ def apply_env_overrides(path_aliases: dict) -> dict:
 def check_pythonpath(bbq_config: dict) -> tuple:
 	pythonpath_value = os.environ.get("PYTHONPATH", "").strip()
 	if not pythonpath_value:
-		return False, "Warning: PYTHONPATH is not set. Run: source bbq_control/source_me.sh"
+		return False, "ERROR: PYTHONPATH is not set. Run: source bbq_control/source_me.sh"
 	paths_config = bbq_config.get("paths", {}) if isinstance(bbq_config, dict) else {}
 	path_aliases = resolve_alias_map(paths_config)
 	path_aliases = apply_env_overrides(path_aliases)
@@ -185,7 +185,7 @@ def check_pythonpath(bbq_config: dict) -> tuple:
 		python_parts = pythonpath_value.split(os.pathsep)
 		if expected not in python_parts:
 			message = (
-				"Warning: PYTHONPATH does not include "
+				"ERROR: PYTHONPATH does not include "
 				f"{expected}. Run: source bbq_control/source_me.sh"
 			)
 			return False, message
@@ -442,24 +442,36 @@ def resolve_output_workdir_recent(output_path: str, workdir: str, start_time: fl
 	return ""
 
 
-def build_output_patterns(script_path: str) -> tuple:
+def build_output_patterns(task: dict) -> tuple:
+	script_path = task.get("script", "") if isinstance(task, dict) else ""
 	script_basename = os.path.splitext(os.path.basename(script_path))[0]
 	if not script_basename:
-		return "", ("-problems.txt",)
-	prefix = f"bbq-{script_basename}"
+		return [], ("-problems.txt",)
+	prefixes = [f"bbq-{script_basename}"]
+	input_path = task.get("input_path", "") if isinstance(task, dict) else ""
+	input_basename = os.path.splitext(os.path.basename(input_path))[0] if input_path else ""
+	if input_basename:
+		if script_basename == "yaml_match_to_bbq":
+			prefixes.append(f"bbq-MATCH-{input_basename}")
+		elif script_basename == "yaml_which_one_mc_to_bbq":
+			prefixes.append(f"bbq-MC-{input_basename}")
+		elif script_basename == "yaml_mc_statements_to_bbq":
+			prefixes.append(f"bbq-TFMS-{input_basename}")
 	suffixes = ("-problems.txt", "-questions.txt")
-	return prefix, suffixes
+	return prefixes, suffixes
 
 
-def find_recent_outputs(workdir: str, start_time: float, prefix: str, suffixes: tuple) -> list:
+def find_recent_outputs(workdir: str, start_time: float, prefixes: list, suffixes: tuple) -> list:
 	candidates = []
 	if not workdir or not os.path.isdir(workdir):
+		return candidates
+	if not prefixes:
 		return candidates
 	for entry in os.scandir(workdir):
 		if not entry.is_file():
 			continue
 		name = entry.name
-		if prefix and not name.startswith(prefix):
+		if not any(name.startswith(prefix) for prefix in prefixes):
 			continue
 		if suffixes and not any(name.endswith(suffix) for suffix in suffixes):
 			continue
@@ -478,10 +490,10 @@ def resolve_generated_output(task: dict, workdir: str, start_time: float) -> tup
 	script_path = task.get("script", "")
 	if not script_path:
 		return False, "", "", "Missing script path for output detection."
-	prefix, suffixes = build_output_patterns(script_path)
-	if not prefix:
+	prefixes, suffixes = build_output_patterns(task)
+	if not prefixes:
 		return False, "", "", "Missing script basename for output detection."
-	candidates = find_recent_outputs(workdir, start_time, prefix, suffixes)
+	candidates = find_recent_outputs(workdir, start_time, prefixes, suffixes)
 	if not candidates:
 		return False, "", "", "Expected output not found in workdir."
 	if len(candidates) > 1:
@@ -622,8 +634,19 @@ def build_command(task: dict) -> list:
 def task_label(task: dict, index: int, output_path: str, cmd_list: list) -> str:
 	if task.get("name"):
 		return task.get("name")
-	if task.get("script"):
-		return os.path.basename(task["script"])
+	script_path = task.get("script", "")
+	if script_path:
+		script_base = os.path.basename(script_path)
+		if script_base in (
+			"yaml_match_to_bbq.py",
+			"yaml_which_one_mc_to_bbq.py",
+			"yaml_mc_statements_to_bbq.py",
+		):
+			input_path = task.get("input_path", "")
+			input_base = os.path.splitext(os.path.basename(input_path))[0] if input_path else ""
+			if input_base:
+				return f"{script_base} ({input_base})"
+		return script_base
 	if output_path:
 		return os.path.basename(output_path)
 	if "cmd" in task and isinstance(task["cmd"], str):
@@ -1128,8 +1151,10 @@ def main():
 		print(color("Warning: bbq_settings.yml not found, aliases will not expand.", COLOR_YELLOW))
 	settings = load_bbq_config(settings_path)
 	pythonpath_ok, pythonpath_message = check_pythonpath(settings)
-	if not pythonpath_ok and pythonpath_message:
-		print(color(pythonpath_message, COLOR_YELLOW))
+	if not pythonpath_ok:
+		if pythonpath_message:
+			print(color(pythonpath_message, COLOR_RED))
+		return 1
 	pythonpath_value = build_pythonpath(settings)
 	tasks = load_tasks(args.tasks_csv, settings)
 	if args.shuffle_tasks:
