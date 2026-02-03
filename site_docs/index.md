@@ -25,6 +25,8 @@ Collections of selected homework and exam questions.
 
 - **[Biostatistics](biostatistics/index.md)**  Problem sets including measures of central tendency and statistical tests.
 
+- **[Laboratory](laboratory/index.md)**  Problem sets covering lab measurement basics, solutions, and dilutions.
+
 ## **Tutorials**
 Guides for formatting and importing question banks into popular LMS platforms.
 
