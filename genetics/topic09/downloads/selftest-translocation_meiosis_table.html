@@ -1,114 +1,116 @@
 <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
 <div class="qti-selftest">
-<div id="question_html_3202_8322">
-<div id="statement_text_3202_8322">
-<p>A phenotypically <i>wildtype</i> prospective couple seeks genetic counseling. The man has a <strong>balanced translocation</strong>, between chromosomes 2 and 8.This means that a segment of chromosome 2 has been exchanged with a segment of chromosome 8 without any gain or loss of genetic material. While balanced translocations typically do not affect the individual's phenotype, they can result in different types of gametes during reproduction.<br></p>
+<div id="question_html_ce6c_8730">
+<div id="statement_text_ce6c_8730">
+<p>A phenotypically <i>wildtype</i> prospective couple seeks genetic counseling. The man has a <strong>balanced translocation</strong>, between chromosomes 16 and 17.This means that a segment of chromosome 16 has been exchanged with a segment of chromosome 17 without any gain or loss of genetic material. While balanced translocations typically do not affect the individual's phenotype, they can result in different types of gametes during reproduction.<br></p>
 <ul>
 <li>
-<strong>Chromosome Pair:</strong> 2, 8</li>
+<strong>Chromosome Pair:</strong> 16, 17</li>
 <li>
-<strong>Segregation Type:</strong> adjacent-1</li>
+<strong>Segregation Type:</strong> adjacent-2</li>
 </ul>
 <table style="border-collapse: collapse; border: 0px solid white;">
 <tr><td align="left"><table style="border-collapse: collapse; border: 0px solid white; height: 30px">
-<colgroup width="207.2"></colgroup>
+<colgroup width="72.8"></colgroup>
 <colgroup width="32"></colgroup>
-<colgroup width="341.59999999999997"></colgroup>
+<colgroup width="113.6"></colgroup>
 <tr>
 <td bgcolor="crimson" style="border: 2px solid black;" align="center"><span style="font-size: small"></span></td>
-<td bgcolor="lightsalmon" style="border: 4px solid black;" align="center">2</td>
+<td bgcolor="lightsalmon" style="border: 4px solid black;" align="center">16</td>
 <td bgcolor="crimson" style="border: 2px solid black;" align="center"><span style="font-size: large"></span></td>
 </tr>
 </table></td></tr>
 <tr><td align="left"><table style="border-collapse: collapse; border: 0px solid white; height: 30px">
-<colgroup width="94.39999999999999"></colgroup>
+<colgroup width="41.599999999999994"></colgroup>
 <colgroup width="32"></colgroup>
-<colgroup width="226.39999999999998"></colgroup>
+<colgroup width="120.79999999999998"></colgroup>
 <tr>
 <td bgcolor="royalblue" style="border: 2px solid black;" align="center"><span style="font-size: small"></span></td>
-<td bgcolor="lightskyblue" style="border: 4px solid black;" align="center">8</td>
+<td bgcolor="lightskyblue" style="border: 4px solid black;" align="center">17</td>
 <td bgcolor="royalblue" style="border: 2px solid black;" align="center"><span style="font-size: large"></span></td>
 </tr>
 </table></td></tr>
 <tr><td align="left"><table style="border-collapse: collapse; border: 0px solid white; height: 30px">
-<colgroup width="207.2"></colgroup>
+<colgroup width="72.8"></colgroup>
 <colgroup width="32"></colgroup>
-<colgroup width="170.79999999999998"></colgroup>
-<colgroup width="113.19999999999999"></colgroup>
+<colgroup width="56.8"></colgroup>
+<colgroup width="60.39999999999999"></colgroup>
 <tr>
 <td bgcolor="crimson" style="border: 2px solid black;" align="center"><span style="font-size: large"></span></td>
-<td bgcolor="lightsalmon" style="border: 4px solid black;" align="center">2</td>
+<td bgcolor="lightsalmon" style="border: 4px solid black;" align="center">16</td>
 <td bgcolor="crimson" style="border: 2px solid black; border-right: 1px dashed black" align="center"><span style="font-size: large"></span></td>
 <td bgcolor="royalblue" style="border: 2px solid black; border-left: 1px dashed black" align="center"><span style="font-size: large"></span></td>
 </tr>
 </table></td></tr>
 <tr><td align="left"><table style="border-collapse: collapse; border: 0px solid white; height: 30px">
-<colgroup width="94.39999999999999"></colgroup>
+<colgroup width="41.599999999999994"></colgroup>
 <colgroup width="32"></colgroup>
-<colgroup width="113.19999999999999"></colgroup>
-<colgroup width="170.79999999999998"></colgroup>
+<colgroup width="60.39999999999999"></colgroup>
+<colgroup width="56.8"></colgroup>
 <tr>
 <td bgcolor="royalblue" style="border: 2px solid black;" align="center"><span style="font-size: large"></span></td>
-<td bgcolor="lightskyblue" style="border: 4px solid black;" align="center">8</td>
+<td bgcolor="lightskyblue" style="border: 4px solid black;" align="center">17</td>
 <td bgcolor="royalblue" style="border: 2px solid black; border-right: 1px dashed black" align="center"><span style="font-size: large"></span></td>
 <td bgcolor="crimson" style="border: 2px solid black; border-left: 1px dashed black" align="center"><span style="font-size: large"></span></td>
 </tr>
 </table></td></tr>
 </table>
-<p>all four of the chromosomes present in a somatic cell are shown above<br><br>Below are all the possible gametes produced by the man with the translocation.<br>Among the six choices below, only two (2) gametes or two (2) sets of chromosomes are formed by <strong>adjacent-1</strong> segregation.<br>Your task is to <strong>select the two (2) gametes produced by adjacent-1</strong> segregation.<br>CHECK TWO BOXES below!</p>
+<p>all four of the chromosomes present in a somatic cell are shown above<br><br>Below are all the possible gametes produced by the man with the translocation.<br>Among the six choices below, only two (2) gametes or two (2) sets of chromosomes are formed by <strong>adjacent-2</strong> segregation.<br>Your task is to <strong>select the two (2) gametes produced by adjacent-2</strong> segregation.<br>CHECK TWO BOXES below!</p>
 </div>
 <form>
-<ul id="choices_3202_8322">
+<ul id="choices_ce6c_8730">
 <li>
-    <input type="checkbox" id="option_3202_8322_1" name="answer_3202_8322" data-correct="true"><label for="option_3202_8322_1"><table style="border-collapse: collapse; border: 1px solid silver;">
-<tr><td style="border: 0px solid white;">t(8; 2), +2</td></tr>
+    <input type="checkbox" id="option_ce6c_8730_1" name="answer_ce6c_8730" data-correct="true"><label for="option_ce6c_8730_1"><table style="border-collapse: collapse; border: 1px solid silver;">
+<tr><td style="border: 0px solid white;">t(16; 17), +16</td></tr>
 <tr><td style="border: 0px solid white;"><table style="border-collapse: collapse; border: 0px solid white; height: 30px">
-<colgroup width="94.39999999999999"></colgroup>
+<colgroup width="72.8"></colgroup>
 <colgroup width="32"></colgroup>
-<colgroup width="113.19999999999999"></colgroup>
-<colgroup width="170.79999999999998"></colgroup>
+<colgroup width="56.8"></colgroup>
+<colgroup width="60.39999999999999"></colgroup>
+<tr>
+<td bgcolor="crimson" style="border: 2px solid black;" align="center"><span style="font-size: large"></span></td>
+<td bgcolor="lightsalmon" style="border: 4px solid black;" align="center">16</td>
+<td bgcolor="crimson" style="border: 2px solid black; border-right: 1px dashed black" align="center"><span style="font-size: large"></span></td>
+<td bgcolor="royalblue" style="border: 2px solid black; border-left: 1px dashed black" align="center"><span style="font-size: large"></span></td>
+</tr>
+</table></td></tr>
+<tr><td style="border: 0px solid white;"><table style="border-collapse: collapse; border: 0px solid white; height: 30px">
+<colgroup width="72.8"></colgroup>
+<colgroup width="32"></colgroup>
+<colgroup width="113.6"></colgroup>
+<tr>
+<td bgcolor="crimson" style="border: 2px solid black;" align="center"><span style="font-size: small"></span></td>
+<td bgcolor="lightsalmon" style="border: 4px solid black;" align="center">16</td>
+<td bgcolor="crimson" style="border: 2px solid black;" align="center"><span style="font-size: large"></span></td>
+</tr>
+</table></td></tr>
+</table>
+<p></p>
+<hr>
+<p></p></label>
+  </li>
+  <li>
+    <input type="checkbox" id="option_ce6c_8730_2" name="answer_ce6c_8730" data-correct="true"><label for="option_ce6c_8730_2"><table style="border-collapse: collapse; border: 1px solid silver;">
+<tr><td style="border: 0px solid white;">t(17; 16), +17</td></tr>
+<tr><td style="border: 0px solid white;"><table style="border-collapse: collapse; border: 0px solid white; height: 30px">
+<colgroup width="41.599999999999994"></colgroup>
+<colgroup width="32"></colgroup>
+<colgroup width="60.39999999999999"></colgroup>
+<colgroup width="56.8"></colgroup>
 <tr>
 <td bgcolor="royalblue" style="border: 2px solid black;" align="center"><span style="font-size: large"></span></td>
-<td bgcolor="lightskyblue" style="border: 4px solid black;" align="center">8</td>
+<td bgcolor="lightskyblue" style="border: 4px solid black;" align="center">17</td>
 <td bgcolor="royalblue" style="border: 2px solid black; border-right: 1px dashed black" align="center"><span style="font-size: large"></span></td>
 <td bgcolor="crimson" style="border: 2px solid black; border-left: 1px dashed black" align="center"><span style="font-size: large"></span></td>
 </tr>
 </table></td></tr>
 <tr><td style="border: 0px solid white;"><table style="border-collapse: collapse; border: 0px solid white; height: 30px">
-<colgroup width="207.2"></colgroup>
+<colgroup width="41.599999999999994"></colgroup>
 <colgroup width="32"></colgroup>
-<colgroup width="341.59999999999997"></colgroup>
-<tr>
-<td bgcolor="crimson" style="border: 2px solid black;" align="center"><span style="font-size: small"></span></td>
-<td bgcolor="lightsalmon" style="border: 4px solid black;" align="center">2</td>
-<td bgcolor="crimson" style="border: 2px solid black;" align="center"><span style="font-size: large"></span></td>
-</tr>
-</table></td></tr>
-</table>
-<p></p>
-<hr>
-<p></p></label>
-  </li>
-  <li>
-    <input type="checkbox" id="option_3202_8322_2" name="answer_3202_8322" data-correct="false"><label for="option_3202_8322_2"><table style="border-collapse: collapse; border: 1px solid silver;">
-<tr><td style="border: 0px solid white;">2, 8</td></tr>
-<tr><td style="border: 0px solid white;"><table style="border-collapse: collapse; border: 0px solid white; height: 30px">
-<colgroup width="207.2"></colgroup>
-<colgroup width="32"></colgroup>
-<colgroup width="341.59999999999997"></colgroup>
-<tr>
-<td bgcolor="crimson" style="border: 2px solid black;" align="center"><span style="font-size: small"></span></td>
-<td bgcolor="lightsalmon" style="border: 4px solid black;" align="center">2</td>
-<td bgcolor="crimson" style="border: 2px solid black;" align="center"><span style="font-size: large"></span></td>
-</tr>
-</table></td></tr>
-<tr><td style="border: 0px solid white;"><table style="border-collapse: collapse; border: 0px solid white; height: 30px">
-<colgroup width="94.39999999999999"></colgroup>
-<colgroup width="32"></colgroup>
-<colgroup width="226.39999999999998"></colgroup>
+<colgroup width="120.79999999999998"></colgroup>
 <tr>
 <td bgcolor="royalblue" style="border: 2px solid black;" align="center"><span style="font-size: small"></span></td>
-<td bgcolor="lightskyblue" style="border: 4px solid black;" align="center">8</td>
+<td bgcolor="lightskyblue" style="border: 4px solid black;" align="center">17</td>
 <td bgcolor="royalblue" style="border: 2px solid black;" align="center"><span style="font-size: large"></span></td>
 </tr>
 </table></td></tr>
@@ -118,58 +120,28 @@
 <p></p></label>
   </li>
   <li>
-    <input type="checkbox" id="option_3202_8322_3" name="answer_3202_8322" data-correct="false"><label for="option_3202_8322_3"><table style="border-collapse: collapse; border: 1px solid silver;">
-<tr><td style="border: 0px solid white;">t(2; 8), +2</td></tr>
+    <input type="checkbox" id="option_ce6c_8730_3" name="answer_ce6c_8730" data-correct="false"><label for="option_ce6c_8730_3"><table style="border-collapse: collapse; border: 1px solid silver;">
+<tr><td style="border: 0px solid white;">t(16; 17), t(17; 16)</td></tr>
 <tr><td style="border: 0px solid white;"><table style="border-collapse: collapse; border: 0px solid white; height: 30px">
-<colgroup width="207.2"></colgroup>
+<colgroup width="72.8"></colgroup>
 <colgroup width="32"></colgroup>
-<colgroup width="170.79999999999998"></colgroup>
-<colgroup width="113.19999999999999"></colgroup>
+<colgroup width="56.8"></colgroup>
+<colgroup width="60.39999999999999"></colgroup>
 <tr>
 <td bgcolor="crimson" style="border: 2px solid black;" align="center"><span style="font-size: large"></span></td>
-<td bgcolor="lightsalmon" style="border: 4px solid black;" align="center">2</td>
+<td bgcolor="lightsalmon" style="border: 4px solid black;" align="center">16</td>
 <td bgcolor="crimson" style="border: 2px solid black; border-right: 1px dashed black" align="center"><span style="font-size: large"></span></td>
 <td bgcolor="royalblue" style="border: 2px solid black; border-left: 1px dashed black" align="center"><span style="font-size: large"></span></td>
 </tr>
 </table></td></tr>
 <tr><td style="border: 0px solid white;"><table style="border-collapse: collapse; border: 0px solid white; height: 30px">
-<colgroup width="207.2"></colgroup>
+<colgroup width="41.599999999999994"></colgroup>
 <colgroup width="32"></colgroup>
-<colgroup width="341.59999999999997"></colgroup>
-<tr>
-<td bgcolor="crimson" style="border: 2px solid black;" align="center"><span style="font-size: small"></span></td>
-<td bgcolor="lightsalmon" style="border: 4px solid black;" align="center">2</td>
-<td bgcolor="crimson" style="border: 2px solid black;" align="center"><span style="font-size: large"></span></td>
-</tr>
-</table></td></tr>
-</table>
-<p></p>
-<hr>
-<p></p></label>
-  </li>
-  <li>
-    <input type="checkbox" id="option_3202_8322_4" name="answer_3202_8322" data-correct="false"><label for="option_3202_8322_4"><table style="border-collapse: collapse; border: 1px solid silver;">
-<tr><td style="border: 0px solid white;">t(2; 8), t(8; 2)</td></tr>
-<tr><td style="border: 0px solid white;"><table style="border-collapse: collapse; border: 0px solid white; height: 30px">
-<colgroup width="207.2"></colgroup>
-<colgroup width="32"></colgroup>
-<colgroup width="170.79999999999998"></colgroup>
-<colgroup width="113.19999999999999"></colgroup>
-<tr>
-<td bgcolor="crimson" style="border: 2px solid black;" align="center"><span style="font-size: large"></span></td>
-<td bgcolor="lightsalmon" style="border: 4px solid black;" align="center">2</td>
-<td bgcolor="crimson" style="border: 2px solid black; border-right: 1px dashed black" align="center"><span style="font-size: large"></span></td>
-<td bgcolor="royalblue" style="border: 2px solid black; border-left: 1px dashed black" align="center"><span style="font-size: large"></span></td>
-</tr>
-</table></td></tr>
-<tr><td style="border: 0px solid white;"><table style="border-collapse: collapse; border: 0px solid white; height: 30px">
-<colgroup width="94.39999999999999"></colgroup>
-<colgroup width="32"></colgroup>
-<colgroup width="113.19999999999999"></colgroup>
-<colgroup width="170.79999999999998"></colgroup>
+<colgroup width="60.39999999999999"></colgroup>
+<colgroup width="56.8"></colgroup>
 <tr>
 <td bgcolor="royalblue" style="border: 2px solid black;" align="center"><span style="font-size: large"></span></td>
-<td bgcolor="lightskyblue" style="border: 4px solid black;" align="center">8</td>
+<td bgcolor="lightskyblue" style="border: 4px solid black;" align="center">17</td>
 <td bgcolor="royalblue" style="border: 2px solid black; border-right: 1px dashed black" align="center"><span style="font-size: large"></span></td>
 <td bgcolor="crimson" style="border: 2px solid black; border-left: 1px dashed black" align="center"><span style="font-size: large"></span></td>
 </tr>
@@ -180,27 +152,25 @@
 <p></p></label>
   </li>
   <li>
-    <input type="checkbox" id="option_3202_8322_5" name="answer_3202_8322" data-correct="true"><label for="option_3202_8322_5"><table style="border-collapse: collapse; border: 1px solid silver;">
-<tr><td style="border: 0px solid white;">t(2; 8), +8</td></tr>
+    <input type="checkbox" id="option_ce6c_8730_4" name="answer_ce6c_8730" data-correct="false"><label for="option_ce6c_8730_4"><table style="border-collapse: collapse; border: 1px solid silver;">
+<tr><td style="border: 0px solid white;">16, 17</td></tr>
 <tr><td style="border: 0px solid white;"><table style="border-collapse: collapse; border: 0px solid white; height: 30px">
-<colgroup width="207.2"></colgroup>
+<colgroup width="72.8"></colgroup>
 <colgroup width="32"></colgroup>
-<colgroup width="170.79999999999998"></colgroup>
-<colgroup width="113.19999999999999"></colgroup>
+<colgroup width="113.6"></colgroup>
 <tr>
+<td bgcolor="crimson" style="border: 2px solid black;" align="center"><span style="font-size: small"></span></td>
+<td bgcolor="lightsalmon" style="border: 4px solid black;" align="center">16</td>
 <td bgcolor="crimson" style="border: 2px solid black;" align="center"><span style="font-size: large"></span></td>
-<td bgcolor="lightsalmon" style="border: 4px solid black;" align="center">2</td>
-<td bgcolor="crimson" style="border: 2px solid black; border-right: 1px dashed black" align="center"><span style="font-size: large"></span></td>
-<td bgcolor="royalblue" style="border: 2px solid black; border-left: 1px dashed black" align="center"><span style="font-size: large"></span></td>
 </tr>
 </table></td></tr>
 <tr><td style="border: 0px solid white;"><table style="border-collapse: collapse; border: 0px solid white; height: 30px">
-<colgroup width="94.39999999999999"></colgroup>
+<colgroup width="41.599999999999994"></colgroup>
 <colgroup width="32"></colgroup>
-<colgroup width="226.39999999999998"></colgroup>
+<colgroup width="120.79999999999998"></colgroup>
 <tr>
 <td bgcolor="royalblue" style="border: 2px solid black;" align="center"><span style="font-size: small"></span></td>
-<td bgcolor="lightskyblue" style="border: 4px solid black;" align="center">8</td>
+<td bgcolor="lightskyblue" style="border: 4px solid black;" align="center">17</td>
 <td bgcolor="royalblue" style="border: 2px solid black;" align="center"><span style="font-size: large"></span></td>
 </tr>
 </table></td></tr>
@@ -210,28 +180,58 @@
 <p></p></label>
   </li>
   <li>
-    <input type="checkbox" id="option_3202_8322_6" name="answer_3202_8322" data-correct="false"><label for="option_3202_8322_6"><table style="border-collapse: collapse; border: 1px solid silver;">
-<tr><td style="border: 0px solid white;">t(8; 2), +8</td></tr>
+    <input type="checkbox" id="option_ce6c_8730_5" name="answer_ce6c_8730" data-correct="false"><label for="option_ce6c_8730_5"><table style="border-collapse: collapse; border: 1px solid silver;">
+<tr><td style="border: 0px solid white;">t(16; 17), +17</td></tr>
 <tr><td style="border: 0px solid white;"><table style="border-collapse: collapse; border: 0px solid white; height: 30px">
-<colgroup width="94.39999999999999"></colgroup>
+<colgroup width="72.8"></colgroup>
 <colgroup width="32"></colgroup>
-<colgroup width="113.19999999999999"></colgroup>
-<colgroup width="170.79999999999998"></colgroup>
+<colgroup width="56.8"></colgroup>
+<colgroup width="60.39999999999999"></colgroup>
+<tr>
+<td bgcolor="crimson" style="border: 2px solid black;" align="center"><span style="font-size: large"></span></td>
+<td bgcolor="lightsalmon" style="border: 4px solid black;" align="center">16</td>
+<td bgcolor="crimson" style="border: 2px solid black; border-right: 1px dashed black" align="center"><span style="font-size: large"></span></td>
+<td bgcolor="royalblue" style="border: 2px solid black; border-left: 1px dashed black" align="center"><span style="font-size: large"></span></td>
+</tr>
+</table></td></tr>
+<tr><td style="border: 0px solid white;"><table style="border-collapse: collapse; border: 0px solid white; height: 30px">
+<colgroup width="41.599999999999994"></colgroup>
+<colgroup width="32"></colgroup>
+<colgroup width="120.79999999999998"></colgroup>
+<tr>
+<td bgcolor="royalblue" style="border: 2px solid black;" align="center"><span style="font-size: small"></span></td>
+<td bgcolor="lightskyblue" style="border: 4px solid black;" align="center">17</td>
+<td bgcolor="royalblue" style="border: 2px solid black;" align="center"><span style="font-size: large"></span></td>
+</tr>
+</table></td></tr>
+</table>
+<p></p>
+<hr>
+<p></p></label>
+  </li>
+  <li>
+    <input type="checkbox" id="option_ce6c_8730_6" name="answer_ce6c_8730" data-correct="false"><label for="option_ce6c_8730_6"><table style="border-collapse: collapse; border: 1px solid silver;">
+<tr><td style="border: 0px solid white;">t(17; 16), +16</td></tr>
+<tr><td style="border: 0px solid white;"><table style="border-collapse: collapse; border: 0px solid white; height: 30px">
+<colgroup width="41.599999999999994"></colgroup>
+<colgroup width="32"></colgroup>
+<colgroup width="60.39999999999999"></colgroup>
+<colgroup width="56.8"></colgroup>
 <tr>
 <td bgcolor="royalblue" style="border: 2px solid black;" align="center"><span style="font-size: large"></span></td>
-<td bgcolor="lightskyblue" style="border: 4px solid black;" align="center">8</td>
+<td bgcolor="lightskyblue" style="border: 4px solid black;" align="center">17</td>
 <td bgcolor="royalblue" style="border: 2px solid black; border-right: 1px dashed black" align="center"><span style="font-size: large"></span></td>
 <td bgcolor="crimson" style="border: 2px solid black; border-left: 1px dashed black" align="center"><span style="font-size: large"></span></td>
 </tr>
 </table></td></tr>
 <tr><td style="border: 0px solid white;"><table style="border-collapse: collapse; border: 0px solid white; height: 30px">
-<colgroup width="94.39999999999999"></colgroup>
+<colgroup width="72.8"></colgroup>
 <colgroup width="32"></colgroup>
-<colgroup width="226.39999999999998"></colgroup>
+<colgroup width="113.6"></colgroup>
 <tr>
-<td bgcolor="royalblue" style="border: 2px solid black;" align="center"><span style="font-size: small"></span></td>
-<td bgcolor="lightskyblue" style="border: 4px solid black;" align="center">8</td>
-<td bgcolor="royalblue" style="border: 2px solid black;" align="center"><span style="font-size: large"></span></td>
+<td bgcolor="crimson" style="border: 2px solid black;" align="center"><span style="font-size: small"></span></td>
+<td bgcolor="lightsalmon" style="border: 4px solid black;" align="center">16</td>
+<td bgcolor="crimson" style="border: 2px solid black;" align="center"><span style="font-size: large"></span></td>
 </tr>
 </table></td></tr>
 </table>
@@ -240,17 +240,17 @@
 <p></p></label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_3202_8322()">Check Answer</button>
-<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="clearSelection_3202_8322()">Clear Selection</button>
-<div id="result_3202_8322" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_ce6c_8730()">Check Answer</button>
+<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="clearSelection_ce6c_8730()">Clear Selection</button>
+<div id="result_ce6c_8730" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_3202_8322() {
-	const options = Array.from(document.getElementsByName('answer_3202_8322'));
+function checkAnswer_ce6c_8730() {
+	const options = Array.from(document.getElementsByName('answer_ce6c_8730'));
 	const correctOptions = options.filter(option => option.dataset.correct === 'true');
 	const selectedOptions = options.filter(option => option.checked);
-	const resultDiv = document.getElementById('result_3202_8322');
+	const resultDiv = document.getElementById('result_ce6c_8730');
 	const numCorrectSelected = selectedOptions.filter(option => correctOptions.includes(option)).length;
 	const numIncorrectSelected = selectedOptions.length - numCorrectSelected;
 	const totalCorrect = correctOptions.length;
@@ -274,10 +274,10 @@ function checkAnswer_3202_8322() {
 }
 </script>
 <script>
-	function clearSelection_3202_8322() {
-		const checkboxes = document.getElementsByName('answer_3202_8322');
+	function clearSelection_ce6c_8730() {
+		const checkboxes = document.getElementsByName('answer_ce6c_8730');
 		Array.from(checkboxes).forEach(checkbox => checkbox.checked = false);
-		const resultDiv = document.getElementById('result_3202_8322');
+		const resultDiv = document.getElementById('result_ce6c_8730');
 		if (resultDiv) {			resultDiv.textContent = '';
 			resultDiv.style.color = 'inherit';
 		}	}
