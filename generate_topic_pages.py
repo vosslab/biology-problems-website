@@ -36,10 +36,45 @@ DOWNLOAD_FORMAT_KEYS = (
 	"human_read",
 )
 
+FORMAT_LABELS = {
+	"selftest": "Selftest HTML",
+	"bb_text": "Blackboard Learn TXT",
+	"bb_qti": "Blackboard Ultra QTI v2.1",
+	"canvas_qti": "Canvas/ADAPT QTI v1.2",
+	"human_read": "Human-Readable TXT",
+}
+
 
 def color_text(text: str, color: str) -> str:
 	"""Return colored text for CLI readability."""
 	return f"{color}{text}{COLOR_RESET}"
+
+#==============
+
+def init_format_stats() -> dict:
+	stats = {}
+	for format_key in FORMAT_LABELS:
+		stats[format_key] = {
+			"generated": 0,
+			"failed": 0,
+			"existing": 0,
+			"missing": 0,
+			"skipped": 0,
+		}
+	return stats
+
+#==============
+
+def record_stat(stats: dict, format_key: str, bucket: str) -> None:
+	if format_key not in stats:
+		stats[format_key] = {
+			"generated": 0,
+			"failed": 0,
+			"existing": 0,
+			"missing": 0,
+			"skipped": 0,
+		}
+	stats[format_key][bucket] += 1
 
 #==============
 
@@ -271,6 +306,7 @@ def generate_download_button_row(
 	download_formats: list,
 	force_downloads: bool,
 	verbose: bool,
+	stats: dict,
 ) -> str:
 	"""
 	Generates a row of HTML buttons for downloading various file types.
@@ -278,6 +314,8 @@ def generate_download_button_row(
 	if not download_formats:
 		if verbose:
 			print(color_text("  Downloads disabled for this page.", COLOR_YELLOW))
+		for format_key in DOWNLOAD_FORMAT_KEYS:
+			record_stat(stats, format_key, "skipped")
 		return ""
 
 	# Define file types with their prefixes, suffixes, and button classes
@@ -320,6 +358,7 @@ def generate_download_button_row(
 		if type_key not in download_formats:
 			if verbose:
 				print(color_text(f"  SKIP {file_type['display_name']} (disabled)", COLOR_YELLOW))
+			record_stat(stats, type_key, "skipped")
 			continue
 		# Construct the filename using the base name and file type details
 		if type_key == "bb_text":
@@ -330,12 +369,15 @@ def generate_download_button_row(
 				file_type['prefix'],
 				file_type['extension'],
 			)
-		if os.path.isfile(out_file_path) and not force_downloads:
+		exists_before = os.path.isfile(out_file_path)
+		if exists_before and not force_downloads:
 			if verbose:
 				print(color_text(f"  FOUND {file_type['display_name']}: {out_file_path}", COLOR_GREEN))
+			record_stat(stats, type_key, "existing")
 		elif type_key == "bb_text":
 			if verbose:
 				print(color_text(f"  MISSING {file_type['display_name']}: {out_file_path}", COLOR_YELLOW))
+			record_stat(stats, type_key, "missing")
 		else:
 			if verbose:
 				print(color_text(f"  BUILD {file_type['display_name']}: {out_file_path}", COLOR_CYAN))
@@ -347,7 +389,11 @@ def generate_download_button_row(
 		if not os.path.isfile(out_file_path):
 			if verbose:
 				print(color_text(f"  MISSING {file_type['display_name']}: {out_file_path}", COLOR_YELLOW))
+			if type_key != "bb_text":
+				record_stat(stats, type_key, "failed")
 			continue
+		if type_key != "bb_text" and not (exists_before and not force_downloads):
+			record_stat(stats, type_key, "generated")
 		out_file_basename = os.path.basename(out_file_path)
 		out_relative_path = os.path.relpath(out_file_path, start=dir_name)
 		out_file_basename = os.path.basename(out_file_path)
@@ -466,6 +512,7 @@ def update_index_md(
 	download_formats: list,
 	force_downloads: bool,
 	verbose: bool,
+	stats: dict,
 ) -> None:
 	"""Update or create the index.md file for the topic.
 
@@ -527,7 +574,9 @@ def update_index_md(
 			html_file_path = create_downloadable_format(bbq_file, 'selftest', 'html')
 			if not os.path.isfile(html_file_path):
 				print("\n\n\n!! unfortunately, the script requires a selftest for each problem !!")
+				record_stat(stats, "selftest", "failed")
 				raise FileNotFoundError(html_file_path)
+			record_stat(stats, "selftest", "generated")
 
 			# Generate the problem set title using the LLM
 			problem_set_title = get_problem_set_title(bbq_file)
@@ -541,6 +590,7 @@ def update_index_md(
 				download_formats,
 				force_downloads,
 				verbose,
+				stats,
 			)
 			"""
 			download_msg = f"Download the {bbq_file_basename} file for Blackboard Upload"
@@ -575,6 +625,7 @@ def main():
 	"""
 	global BASE_DIR
 	args = parse_args()
+	stats = init_format_stats()
 	BASE_DIR = get_docs_dir()
 	if not os.path.exists(BASE_DIR):
 		raise FileNotFoundError(f"Base directory '{BASE_DIR}' not found.")
@@ -626,9 +677,27 @@ def main():
 			args.download_formats,
 			args.force_downloads,
 			args.verbose,
+			stats,
 		)
 		#sys.exit(1)
 	print("\n\n\n")
+	print("Summary:")
+	format_order = ("selftest", "bb_text", "bb_qti", "canvas_qti", "human_read")
+	for format_key in format_order:
+		label = FORMAT_LABELS.get(format_key, format_key)
+		counts = stats.get(format_key, {})
+		generated = counts.get("generated", 0)
+		failed = counts.get("failed", 0)
+		existing = counts.get("existing", 0)
+		missing = counts.get("missing", 0)
+		skipped = counts.get("skipped", 0)
+		if format_key == "selftest":
+			print(f"- {label}: generated {generated}, failed {failed}")
+			continue
+		print(
+			f"- {label}: generated {generated}, failed {failed}, "
+			f"existing {existing}, missing {missing}, skipped {skipped}"
+		)
 	print(color_text("PROGRAM HAS COMPLETED!!!", COLOR_GREEN))
 
 #==============
