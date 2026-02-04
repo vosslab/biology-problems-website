@@ -2,7 +2,7 @@
 
 Solution preparation using mass concentration, molarity, and volume ratios.
 
-## Calculating Mass for a Target Concentration
+## Mass for a Target Concentration
 
 <div id="solution-mass_concentration-numeric-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-solution-mass_concentration-numeric-questions.txt" download title="Download bbq-solution-mass_concentration-numeric-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-solution-mass_concentration-numeric-questions.txt)">
@@ -23,7 +23,7 @@ Solution preparation using mass concentration, molarity, and volume ratios.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Calculating Mass for a Target Concentration
+      Mass for a Target Concentration
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -34,7 +34,7 @@ Solution preparation using mass concentration, molarity, and volume ratios.
 </details>
 
 
-## Calculating Mass for Weight/Volume Solutions
+## Mass for Weight/Volume Solutions
 
 <div id="solution-mass_vol-numeric-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-solution-mass_vol-numeric-questions.txt" download title="Download bbq-solution-mass_vol-numeric-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-solution-mass_vol-numeric-questions.txt)">
@@ -55,7 +55,7 @@ Solution preparation using mass concentration, molarity, and volume ratios.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Calculating Mass for Weight/Volume Solutions
+      Mass for Weight/Volume Solutions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -66,7 +66,7 @@ Solution preparation using mass concentration, molarity, and volume ratios.
 </details>
 
 
-## Calculating Mass for Solutions Using Molarity and Molecular Weight
+## Mass for Solutions Using Molarity and Molecular Weight
 
 <div id="solution-molarity-mol_weight-numeric-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-solution-molarity-mol_weight-numeric-questions.txt" download title="Download bbq-solution-molarity-mol_weight-numeric-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-solution-molarity-mol_weight-numeric-questions.txt)">
@@ -87,7 +87,7 @@ Solution preparation using mass concentration, molarity, and volume ratios.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Calculating Mass for Solutions Using Molarity and Molecular Weight
+      Mass for Solutions Using Molarity and Molecular Weight
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -98,7 +98,7 @@ Solution preparation using mass concentration, molarity, and volume ratios.
 </details>
 
 
-## Calculating Solute Volume for Percent Volume/Volume Solutions
+## Solute Volume for Percent Volume/Volume Solutions
 
 <div id="solution-vol_vol-numeric-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-solution-vol_vol-numeric-questions.txt" download title="Download bbq-solution-vol_vol-numeric-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-solution-vol_vol-numeric-questions.txt)">
@@ -119,7 +119,7 @@ Solution preparation using mass concentration, molarity, and volume ratios.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Calculating Solute Volume for Percent Volume/Volume Solutions
+      Solute Volume for Percent Volume/Volume Solutions
     </span>
     <span style='font-weight: normal;'>
       example problem

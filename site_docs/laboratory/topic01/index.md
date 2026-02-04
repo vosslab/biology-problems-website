@@ -2,7 +2,7 @@
 
 Orders of magnitude, pipet sizing, and measurement scale.
 
-## Identifying Orders of Magnitude for Given Quantities
+## Orders of Magnitude for Given Quantities
 
 <div id="orders_of_magnitude_mc-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-orders_of_magnitude_mc-questions.txt" download title="Download bbq-orders_of_magnitude_mc-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-orders_of_magnitude_mc-questions.txt)">
@@ -23,7 +23,7 @@ Orders of magnitude, pipet sizing, and measurement scale.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Orders of Magnitude for Given Quantities
+      Orders of Magnitude for Given Quantities
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -34,7 +34,7 @@ Orders of magnitude, pipet sizing, and measurement scale.
 </details>
 
 
-## Identifying Correct Pipette Sizes for Given Volumes
+## Pipette Sizes for Given Volumes
 
 <div id="pipet_size_mc-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-pipet_size_mc-questions.txt" download title="Download bbq-pipet_size_mc-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-pipet_size_mc-questions.txt)">
@@ -55,7 +55,7 @@ Orders of magnitude, pipet sizing, and measurement scale.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Correct Pipette Sizes for Given Volumes
+      Pipette Sizes for Given Volumes
     </span>
     <span style='font-weight: normal;'>
       example problem

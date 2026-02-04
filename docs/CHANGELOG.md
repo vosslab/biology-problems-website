@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-02-04
+- Reframed `docs/GUIDE_TO_NAMING_PROBLEM_SETS.md` around noun-first titles and removed leading task-verb guidance.
+- Removed leading task verbs from `problem_set_titles.yml` titles across `site_docs/` and refreshed timestamps.
+- Refined `problem_set_titles.yml` titles across `site_docs/` to remove matching-style "to" phrasing and other leftover action wording.
+- Made `generate_topic_pages.py` locate `bbq_converter.py` from repo or sibling `qti_package_maker` paths when the old symlink target is missing.
+
 ## 2026-02-03
 - Added argparse options, per-format logging, and summary stats to `generate_topic_pages.py`.
 - Added laboratory subject navigation, metadata, and topic index pages.

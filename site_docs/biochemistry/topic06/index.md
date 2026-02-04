@@ -4,7 +4,7 @@ Enzyme functions, substrate binding, and energy changes in reactions.
 
 **LibreTexts reference:** [Enzyme Thermodynamics](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/06:_Enzyme_Thermodynamics)
 
-## Identifying Energy Terms and Their Categories
+## Energy Terms and Their Categories
 
 <div id="MC-energy_terms-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MC-energy_terms-questions.txt" download title="Download bbq-MC-energy_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-energy_terms-questions.txt)">
@@ -25,7 +25,7 @@ Enzyme functions, substrate binding, and energy changes in reactions.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Energy Terms and Their Categories
+      Energy Terms and Their Categories
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -36,7 +36,7 @@ Enzyme functions, substrate binding, and energy changes in reactions.
 </details>
 
 
-## Determining True/False Statements About Chemical Reactions
+## True/False Statements About Chemical Reactions
 
 <div id="TF-chemical_reactions-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TF-chemical_reactions-questions.txt" download title="Download bbq-TF-chemical_reactions-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TF-chemical_reactions-questions.txt)">
@@ -57,7 +57,7 @@ Enzyme functions, substrate binding, and energy changes in reactions.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining True/False Statements About Chemical Reactions
+      True/False Statements About Chemical Reactions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -68,7 +68,7 @@ Enzyme functions, substrate binding, and energy changes in reactions.
 </details>
 
 
-## Determining True/False Statements About Gibbs Free Energy (Delta G = Delta H - T Delta S)
+## True/False Statements About Gibbs Free Energy (Delta G = Delta H - T Delta S)
 
 <div id="TF-gibbs_free_energy_equation-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TF-gibbs_free_energy_equation-questions.txt" download title="Download bbq-TF-gibbs_free_energy_equation-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TF-gibbs_free_energy_equation-questions.txt)">
@@ -89,7 +89,7 @@ Enzyme functions, substrate binding, and energy changes in reactions.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining True/False Statements About Gibbs Free Energy (Delta G = Delta H - T Delta S)
+      True/False Statements About Gibbs Free Energy (Delta G = Delta H - T Delta S)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -100,7 +100,7 @@ Enzyme functions, substrate binding, and energy changes in reactions.
 </details>
 
 
-## Determining True/False Statements About Thermodynamics and Kinetics
+## True/False Statements About Thermodynamics and Kinetics
 
 <div id="TF-thermodynamics-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TF-thermodynamics-questions.txt" download title="Download bbq-TF-thermodynamics-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TF-thermodynamics-questions.txt)">
@@ -121,7 +121,7 @@ Enzyme functions, substrate binding, and energy changes in reactions.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining True/False Statements About Thermodynamics and Kinetics
+      True/False Statements About Thermodynamics and Kinetics
     </span>
     <span style='font-weight: normal;'>
       example problem

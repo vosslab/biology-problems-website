@@ -1,11 +1,11 @@
-bbq-MATCH-mendel_cross_terminology-questions.txt: Matching Mendelian Cross Generations to Descriptions
-bbq-MATCH-mendel_four_principles-questions.txt: Matching Mendel's Foundational Principles to Descriptions
-bbq-MATCH-mendelian_genetics_terms-questions.txt: Matching Mendelian Genetics Terms to Definitions
-bbq-MATCH-monohybrid_cross_genotype-questions.txt: Matching Monohybrid Cross Genotypes to Phenotypes
-bbq-MC-mendel_cross_terminology-questions.txt: Identifying Mendelian Cross Generations
-bbq-MC-mendel_four_principles-questions.txt: Identifying Mendel's Foundational Principles
-bbq-MC-mendelian_genetics_terms-questions.txt: Identifying Mendelian Genetics Terms
-bbq-MC-monohybrid_cross_genotype-questions.txt: Identifying Monohybrid Cross Genotype Outcomes
-bbq-monohybrid_genotype_statements-questions.txt: Determining Monohybrid Cross Outcomes
-bbq-punnett_choice-questions.txt: Identifying Punnett Square Results for Flower Color Inheritance
-last edit: Tue Feb  3 16:26:44 2026
+bbq-MATCH-mendel_cross_terminology-questions.txt: Mendelian Cross Generations and Descriptions
+bbq-MATCH-mendel_four_principles-questions.txt: Mendel's Foundational Principles and Descriptions
+bbq-MATCH-mendelian_genetics_terms-questions.txt: Mendelian Genetics Terms and Definitions
+bbq-MATCH-monohybrid_cross_genotype-questions.txt: Monohybrid Cross Genotypes and Phenotypes
+bbq-MC-mendel_cross_terminology-questions.txt: Mendelian Cross Generations
+bbq-MC-mendel_four_principles-questions.txt: Mendel's Foundational Principles
+bbq-MC-mendelian_genetics_terms-questions.txt: Mendelian Genetics Terms
+bbq-MC-monohybrid_cross_genotype-questions.txt: Monohybrid Cross Genotype Outcomes
+bbq-monohybrid_genotype_statements-questions.txt: Monohybrid Cross Outcomes
+bbq-punnett_choice-questions.txt: Punnett Square Results for Flower Color Inheritance
+last edit: Wed Feb  4 07:53:32 2026

@@ -4,7 +4,7 @@ Statistical evaluation of genetic data, chi-square test statistic, and hypothesi
 
 **LibreTexts reference:** [Chi Square Analysis](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/07:_Chi_Square_Analysis)
 
-## Matching Chi-Square Terms to Definitions
+## Chi-Square Terms and Definitions
 
 <div id="MATCH-chi-square_terms-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-chi-square_terms-questions.txt" download title="Download bbq-MATCH-chi-square_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-chi-square_terms-questions.txt)">
@@ -25,7 +25,7 @@ Statistical evaluation of genetic data, chi-square test statistic, and hypothesi
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Chi-Square Terms to Definitions
+      Chi-Square Terms and Definitions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -36,7 +36,7 @@ Statistical evaluation of genetic data, chi-square test statistic, and hypothesi
 </details>
 
 
-## Identifying Chi-Square Terms
+## Chi-Square Terms
 
 <div id="MC-chi-square_terms-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MC-chi-square_terms-questions.txt" download title="Download bbq-MC-chi-square_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-chi-square_terms-questions.txt)">
@@ -57,7 +57,7 @@ Statistical evaluation of genetic data, chi-square test statistic, and hypothesi
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Chi-Square Terms
+      Chi-Square Terms
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -68,7 +68,7 @@ Statistical evaluation of genetic data, chi-square test statistic, and hypothesi
 </details>
 
 
-## Determining True/False Statements About Chi-Square Tests
+## True/False Statements About Chi-Square Tests
 
 <div id="TFMS-chi-square-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-chi-square-questions.txt" download title="Download bbq-TFMS-chi-square-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-chi-square-questions.txt)">
@@ -89,7 +89,7 @@ Statistical evaluation of genetic data, chi-square test statistic, and hypothesi
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining True/False Statements About Chi-Square Tests
+      True/False Statements About Chi-Square Tests
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -100,7 +100,7 @@ Statistical evaluation of genetic data, chi-square test statistic, and hypothesi
 </details>
 
 
-## Identifying Chi-Square Tests for Phenotypic Ratios
+## Chi-Square Tests for Phenotypic Ratios
 
 <div id="chi_square_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chi_square_choices-questions.txt" download title="Download bbq-chi_square_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chi_square_choices-questions.txt)">
@@ -121,7 +121,7 @@ Statistical evaluation of genetic data, chi-square test statistic, and hypothesi
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Chi-Square Tests for Phenotypic Ratios
+      Chi-Square Tests for Phenotypic Ratios
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -132,7 +132,7 @@ Statistical evaluation of genetic data, chi-square test statistic, and hypothesi
 </details>
 
 
-## Determining Chi-Square Tests for Goodness of Fit
+## Chi-Square Tests for Goodness of Fit
 
 <div id="chi_square_errors-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chi_square_errors-questions.txt" download title="Download bbq-chi_square_errors-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chi_square_errors-questions.txt)">
@@ -153,7 +153,7 @@ Statistical evaluation of genetic data, chi-square test statistic, and hypothesi
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Chi-Square Tests for Goodness of Fit
+      Chi-Square Tests for Goodness of Fit
     </span>
     <span style='font-weight: normal;'>
       example problem

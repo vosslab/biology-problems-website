@@ -4,7 +4,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
 
 **LibreTexts reference:** [Chromosomal Inheritance](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/06:_Chromosomal_Inheritance)
 
-## Matching Meiosis Prophase I Stages to Descriptions
+## Meiosis Prophase I Stages and Descriptions
 
 <div id="MATCH-meiosis_prophase_1-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-meiosis_prophase_1-questions.txt" download title="Download bbq-MATCH-meiosis_prophase_1-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-meiosis_prophase_1-questions.txt)">
@@ -25,7 +25,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Meiosis Prophase I Stages to Descriptions
+      Meiosis Prophase I Stages and Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -36,7 +36,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
 </details>
 
 
-## Matching Meiosis Terms to Definitions
+## Meiosis Terms and Definitions
 
 <div id="MATCH-meiosis_terms-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-meiosis_terms-questions.txt" download title="Download bbq-MATCH-meiosis_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-meiosis_terms-questions.txt)">
@@ -57,7 +57,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Meiosis Terms to Definitions
+      Meiosis Terms and Definitions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -68,7 +68,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
 </details>
 
 
-## Matching Sex Determination Systems to Descriptions
+## Sex Determination Systems and Descriptions
 
 <div id="MATCH-sex_determination-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-sex_determination-questions.txt" download title="Download bbq-MATCH-sex_determination-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-sex_determination-questions.txt)">
@@ -89,7 +89,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Sex Determination Systems to Descriptions
+      Sex Determination Systems and Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -100,7 +100,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
 </details>
 
 
-## Identifying Meiosis Prophase I Stages
+## Meiosis Prophase I Stages
 
 <div id="MC-meiosis_prophase_1-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MC-meiosis_prophase_1-questions.txt" download title="Download bbq-MC-meiosis_prophase_1-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-meiosis_prophase_1-questions.txt)">
@@ -121,7 +121,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Meiosis Prophase I Stages
+      Meiosis Prophase I Stages
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -132,7 +132,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
 </details>
 
 
-## Identifying Meiosis Terms
+## Meiosis Terms
 
 <div id="MC-meiosis_terms-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MC-meiosis_terms-questions.txt" download title="Download bbq-MC-meiosis_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-meiosis_terms-questions.txt)">
@@ -153,7 +153,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Meiosis Terms
+      Meiosis Terms
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -164,7 +164,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
 </details>
 
 
-## Identifying Sex Determination Systems
+## Sex Determination Systems
 
 <div id="MC-sex_determination-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MC-sex_determination-questions.txt" download title="Download bbq-MC-sex_determination-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-sex_determination-questions.txt)">
@@ -185,7 +185,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Sex Determination Systems
+      Sex Determination Systems
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -196,7 +196,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
 </details>
 
 
-## Determining True/False Statements About Mitosis and Meiosis
+## True/False Statements About Mitosis and Meiosis
 
 <div id="TFMS-mitosis_and_meiosis-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-mitosis_and_meiosis-questions.txt" download title="Download bbq-TFMS-mitosis_and_meiosis-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-mitosis_and_meiosis-questions.txt)">
@@ -217,7 +217,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining True/False Statements About Mitosis and Meiosis
+      True/False Statements About Mitosis and Meiosis
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -228,7 +228,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
 </details>
 
 
-## Determining Inheritance Patterns for X-Linked Recessive and Autosomal Dominant Disorders
+## Inheritance Patterns for X-Linked Recessive and Autosomal Dominant Disorders
 
 <div id="dominant_and_X-linked_recessive-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-dominant_and_X-linked_recessive-questions.txt" download title="Download bbq-dominant_and_X-linked_recessive-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-dominant_and_X-linked_recessive-questions.txt)">
@@ -249,7 +249,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Inheritance Patterns for X-Linked Recessive and Autosomal Dominant Disorders
+      Inheritance Patterns for X-Linked Recessive and Autosomal Dominant Disorders
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -260,7 +260,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
 </details>
 
 
-## Identifying Inheritance Patterns from Pedigree Charts
+## Inheritance Patterns from Pedigree Charts
 
 <div id="pedigree_choice-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-pedigree_choice-questions.txt" download title="Download bbq-pedigree_choice-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-pedigree_choice-questions.txt)">
@@ -281,7 +281,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Inheritance Patterns from Pedigree Charts
+      Inheritance Patterns from Pedigree Charts
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -292,7 +292,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
 </details>
 
 
-## Determining Inheritance Types from Pedigrees
+## Inheritance Types from Pedigrees
 
 <div id="pedigree_match-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-pedigree_match-questions.txt" download title="Download bbq-pedigree_match-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-pedigree_match-questions.txt)">
@@ -313,7 +313,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Inheritance Types from Pedigrees
+      Inheritance Types from Pedigrees
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -324,7 +324,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
 </details>
 
 
-## Determining X-Linked Inheritance Patterns in Fruit Flies
+## X-Linked Inheritance Patterns in Fruit Flies
 
 <div id="poisson_flies-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-poisson_flies-questions.txt" download title="Download bbq-poisson_flies-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-poisson_flies-questions.txt)">
@@ -345,7 +345,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining X-Linked Inheritance Patterns in Fruit Flies
+      X-Linked Inheritance Patterns in Fruit Flies
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -356,7 +356,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
 </details>
 
 
-## Determining Probability of Specific Gender Distributions in Offspring
+## Probability of Specific Gender Distributions in Offspring
 
 <div id="probabiliy_of_progeny-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-probabiliy_of_progeny-questions.txt" download title="Download bbq-probabiliy_of_progeny-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-probabiliy_of_progeny-questions.txt)">
@@ -377,7 +377,7 @@ Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheri
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Probability of Specific Gender Distributions in Offspring
+      Probability of Specific Gender Distributions in Offspring
     </span>
     <span style='font-weight: normal;'>
       example problem

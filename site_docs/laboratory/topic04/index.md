@@ -2,7 +2,7 @@
 
 Serial dilution factor calculations.
 
-## Calculating Aliquot Volumes for Serial Dilutions
+## Aliquot Volumes for Serial Dilutions
 
 <div id="serial_dilution_factor_aliquot_numeric-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-serial_dilution_factor_aliquot_numeric-questions.txt" download title="Download bbq-serial_dilution_factor_aliquot_numeric-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-serial_dilution_factor_aliquot_numeric-questions.txt)">
@@ -23,7 +23,7 @@ Serial dilution factor calculations.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Calculating Aliquot Volumes for Serial Dilutions
+      Aliquot Volumes for Serial Dilutions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -34,7 +34,7 @@ Serial dilution factor calculations.
 </details>
 
 
-## Calculating Diluent Volumes for Serial Dilutions
+## Diluent Volumes for Serial Dilutions
 
 <div id="serial_dilution_factor_diluent_numeric-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-serial_dilution_factor_diluent_numeric-questions.txt" download title="Download bbq-serial_dilution_factor_diluent_numeric-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-serial_dilution_factor_diluent_numeric-questions.txt)">
@@ -55,7 +55,7 @@ Serial dilution factor calculations.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Calculating Diluent Volumes for Serial Dilutions
+      Diluent Volumes for Serial Dilutions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -66,7 +66,7 @@ Serial dilution factor calculations.
 </details>
 
 
-## Identifying Serial Dilution Factors
+## Serial Dilution Factors
 
 <div id="serial_dilution_factor_mc-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-serial_dilution_factor_mc-questions.txt" download title="Download bbq-serial_dilution_factor_mc-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-serial_dilution_factor_mc-questions.txt)">
@@ -87,7 +87,7 @@ Serial dilution factor calculations.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Serial Dilution Factors
+      Serial Dilution Factors
     </span>
     <span style='font-weight: normal;'>
       example problem

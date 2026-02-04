@@ -4,7 +4,7 @@ Mendel's principles, Punnett squares, genotype/phenotype ratios, and autosomal p
 
 **LibreTexts reference:** [Mendelian Genetics](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/04:_Mendelian_Genetics)
 
-## Matching Mendelian Cross Generations to Descriptions
+## Mendelian Cross Generations and Descriptions
 
 <div id="MATCH-mendel_cross_terminology-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-mendel_cross_terminology-questions.txt" download title="Download bbq-MATCH-mendel_cross_terminology-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-mendel_cross_terminology-questions.txt)">
@@ -25,7 +25,7 @@ Mendel's principles, Punnett squares, genotype/phenotype ratios, and autosomal p
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Mendelian Cross Generations to Descriptions
+      Mendelian Cross Generations and Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -36,7 +36,7 @@ Mendel's principles, Punnett squares, genotype/phenotype ratios, and autosomal p
 </details>
 
 
-## Matching Mendel's Foundational Principles to Descriptions
+## Mendel's Foundational Principles and Descriptions
 
 <div id="MATCH-mendel_four_principles-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-mendel_four_principles-questions.txt" download title="Download bbq-MATCH-mendel_four_principles-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-mendel_four_principles-questions.txt)">
@@ -57,7 +57,7 @@ Mendel's principles, Punnett squares, genotype/phenotype ratios, and autosomal p
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Mendel's Foundational Principles to Descriptions
+      Mendel's Foundational Principles and Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -68,7 +68,7 @@ Mendel's principles, Punnett squares, genotype/phenotype ratios, and autosomal p
 </details>
 
 
-## Matching Mendelian Genetics Terms to Definitions
+## Mendelian Genetics Terms and Definitions
 
 <div id="MATCH-mendelian_genetics_terms-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-mendelian_genetics_terms-questions.txt" download title="Download bbq-MATCH-mendelian_genetics_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-mendelian_genetics_terms-questions.txt)">
@@ -89,7 +89,7 @@ Mendel's principles, Punnett squares, genotype/phenotype ratios, and autosomal p
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Mendelian Genetics Terms to Definitions
+      Mendelian Genetics Terms and Definitions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -100,7 +100,7 @@ Mendel's principles, Punnett squares, genotype/phenotype ratios, and autosomal p
 </details>
 
 
-## Matching Monohybrid Cross Genotypes to Phenotypes
+## Monohybrid Cross Genotypes and Phenotypes
 
 <div id="MATCH-monohybrid_cross_genotype-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-monohybrid_cross_genotype-questions.txt" download title="Download bbq-MATCH-monohybrid_cross_genotype-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-monohybrid_cross_genotype-questions.txt)">
@@ -121,7 +121,7 @@ Mendel's principles, Punnett squares, genotype/phenotype ratios, and autosomal p
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Monohybrid Cross Genotypes to Phenotypes
+      Monohybrid Cross Genotypes and Phenotypes
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -132,7 +132,7 @@ Mendel's principles, Punnett squares, genotype/phenotype ratios, and autosomal p
 </details>
 
 
-## Identifying Mendelian Cross Generations
+## Mendelian Cross Generations
 
 <div id="MC-mendel_cross_terminology-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MC-mendel_cross_terminology-questions.txt" download title="Download bbq-MC-mendel_cross_terminology-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-mendel_cross_terminology-questions.txt)">
@@ -153,7 +153,7 @@ Mendel's principles, Punnett squares, genotype/phenotype ratios, and autosomal p
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Mendelian Cross Generations
+      Mendelian Cross Generations
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -164,7 +164,7 @@ Mendel's principles, Punnett squares, genotype/phenotype ratios, and autosomal p
 </details>
 
 
-## Identifying Mendel's Foundational Principles
+## Mendel's Foundational Principles
 
 <div id="MC-mendel_four_principles-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MC-mendel_four_principles-questions.txt" download title="Download bbq-MC-mendel_four_principles-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-mendel_four_principles-questions.txt)">
@@ -185,7 +185,7 @@ Mendel's principles, Punnett squares, genotype/phenotype ratios, and autosomal p
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Mendel's Foundational Principles
+      Mendel's Foundational Principles
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -196,7 +196,7 @@ Mendel's principles, Punnett squares, genotype/phenotype ratios, and autosomal p
 </details>
 
 
-## Identifying Mendelian Genetics Terms
+## Mendelian Genetics Terms
 
 <div id="MC-mendelian_genetics_terms-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MC-mendelian_genetics_terms-questions.txt" download title="Download bbq-MC-mendelian_genetics_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-mendelian_genetics_terms-questions.txt)">
@@ -217,7 +217,7 @@ Mendel's principles, Punnett squares, genotype/phenotype ratios, and autosomal p
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Mendelian Genetics Terms
+      Mendelian Genetics Terms
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -228,7 +228,7 @@ Mendel's principles, Punnett squares, genotype/phenotype ratios, and autosomal p
 </details>
 
 
-## Identifying Monohybrid Cross Genotype Outcomes
+## Monohybrid Cross Genotype Outcomes
 
 <div id="MC-monohybrid_cross_genotype-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MC-monohybrid_cross_genotype-questions.txt" download title="Download bbq-MC-monohybrid_cross_genotype-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-monohybrid_cross_genotype-questions.txt)">
@@ -249,7 +249,7 @@ Mendel's principles, Punnett squares, genotype/phenotype ratios, and autosomal p
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Monohybrid Cross Genotype Outcomes
+      Monohybrid Cross Genotype Outcomes
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -260,7 +260,7 @@ Mendel's principles, Punnett squares, genotype/phenotype ratios, and autosomal p
 </details>
 
 
-## Determining Monohybrid Cross Outcomes
+## Monohybrid Cross Outcomes
 
 <div id="monohybrid_genotype_statements-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-monohybrid_genotype_statements-questions.txt" download title="Download bbq-monohybrid_genotype_statements-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-monohybrid_genotype_statements-questions.txt)">
@@ -281,7 +281,7 @@ Mendel's principles, Punnett squares, genotype/phenotype ratios, and autosomal p
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Monohybrid Cross Outcomes
+      Monohybrid Cross Outcomes
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -292,7 +292,7 @@ Mendel's principles, Punnett squares, genotype/phenotype ratios, and autosomal p
 </details>
 
 
-## Identifying Punnett Square Results for Flower Color Inheritance
+## Punnett Square Results for Flower Color Inheritance
 
 <div id="punnett_choice-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-punnett_choice-questions.txt" download title="Download bbq-punnett_choice-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-punnett_choice-questions.txt)">
@@ -313,7 +313,7 @@ Mendel's principles, Punnett squares, genotype/phenotype ratios, and autosomal p
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Punnett Square Results for Flower Color Inheritance
+      Punnett Square Results for Flower Color Inheritance
     </span>
     <span style='font-weight: normal;'>
       example problem

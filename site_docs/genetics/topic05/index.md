@@ -4,7 +4,7 @@ Multigene crosses, degrees of dominance, and epistasis in metabolic and genetic 
 
 **LibreTexts reference:** [Allele and Gene Interactions](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/05:_Allele_and_Gene_Interactions)
 
-## Matching Monohybrid Cross Genotypes to Phenotypes
+## Monohybrid Cross Genotypes and Phenotypes
 
 <div id="MATCH-monohybrid_cross_genotype-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-monohybrid_cross_genotype-questions.txt" download title="Download bbq-MATCH-monohybrid_cross_genotype-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-monohybrid_cross_genotype-questions.txt)">
@@ -25,7 +25,7 @@ Multigene crosses, degrees of dominance, and epistasis in metabolic and genetic 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Monohybrid Cross Genotypes to Phenotypes
+      Monohybrid Cross Genotypes and Phenotypes
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -36,7 +36,7 @@ Multigene crosses, degrees of dominance, and epistasis in metabolic and genetic 
 </details>
 
 
-## Identifying Monohybrid Cross Genotypes
+## Monohybrid Cross Genotypes
 
 <div id="MC-monohybrid_cross_genotype-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MC-monohybrid_cross_genotype-questions.txt" download title="Download bbq-MC-monohybrid_cross_genotype-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-monohybrid_cross_genotype-questions.txt)">
@@ -57,7 +57,7 @@ Multigene crosses, degrees of dominance, and epistasis in metabolic and genetic 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Monohybrid Cross Genotypes
+      Monohybrid Cross Genotypes
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -68,7 +68,7 @@ Multigene crosses, degrees of dominance, and epistasis in metabolic and genetic 
 </details>
 
 
-## Determining ABO Blood Group Inheritance Patterns
+## ABO Blood Group Inheritance Patterns
 
 <div id="blood_type_mother-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-blood_type_mother-questions.txt" download title="Download bbq-blood_type_mother-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-blood_type_mother-questions.txt)">
@@ -89,7 +89,7 @@ Multigene crosses, degrees of dominance, and epistasis in metabolic and genetic 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining ABO Blood Group Inheritance Patterns
+      ABO Blood Group Inheritance Patterns
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -100,7 +100,7 @@ Multigene crosses, degrees of dominance, and epistasis in metabolic and genetic 
 </details>
 
 
-## Determining ABO Blood Group Inheritance in Offspring
+## ABO Blood Group Inheritance in Offspring
 
 <div id="blood_type_offspring-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-blood_type_offspring-questions.txt" download title="Download bbq-blood_type_offspring-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-blood_type_offspring-questions.txt)">
@@ -121,7 +121,7 @@ Multigene crosses, degrees of dominance, and epistasis in metabolic and genetic 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining ABO Blood Group Inheritance in Offspring
+      ABO Blood Group Inheritance in Offspring
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -132,7 +132,7 @@ Multigene crosses, degrees of dominance, and epistasis in metabolic and genetic 
 </details>
 
 
-## Identifying Gene Interaction Types in Dihybrid Crosses
+## Gene Interaction Types in Dihybrid Crosses
 
 <div id="dihybrid_cross_epistatic_gene_interactions-4_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-dihybrid_cross_epistatic_gene_interactions-4_choices-questions.txt" download title="Download bbq-dihybrid_cross_epistatic_gene_interactions-4_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-dihybrid_cross_epistatic_gene_interactions-4_choices-questions.txt)">
@@ -153,7 +153,7 @@ Multigene crosses, degrees of dominance, and epistasis in metabolic and genetic 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Gene Interaction Types in Dihybrid Crosses
+      Gene Interaction Types in Dihybrid Crosses
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -164,7 +164,7 @@ Multigene crosses, degrees of dominance, and epistasis in metabolic and genetic 
 </details>
 
 
-## Identifying Epistasis in Metabolic Pathway Dihybrid Crosses
+## Epistasis in Metabolic Pathway Dihybrid Crosses
 
 <div id="dihybrid_cross_epistatic_gene_metabolics-4_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-dihybrid_cross_epistatic_gene_metabolics-4_choices-questions.txt" download title="Download bbq-dihybrid_cross_epistatic_gene_metabolics-4_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-dihybrid_cross_epistatic_gene_metabolics-4_choices-questions.txt)">
@@ -185,7 +185,7 @@ Multigene crosses, degrees of dominance, and epistasis in metabolic and genetic 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Epistasis in Metabolic Pathway Dihybrid Crosses
+      Epistasis in Metabolic Pathway Dihybrid Crosses
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -196,7 +196,7 @@ Multigene crosses, degrees of dominance, and epistasis in metabolic and genetic 
 </details>
 
 
-## Identifying Genetic Linkage and Epistasis in Dihybrid Crosses (Forward)
+## Genetic Linkage and Epistasis in Dihybrid Crosses (Forward)
 
 <div id="epistasis_test_cross-forward_direction-4_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-epistasis_test_cross-forward_direction-4_choices-questions.txt" download title="Download bbq-epistasis_test_cross-forward_direction-4_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-epistasis_test_cross-forward_direction-4_choices-questions.txt)">
@@ -217,7 +217,7 @@ Multigene crosses, degrees of dominance, and epistasis in metabolic and genetic 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Genetic Linkage and Epistasis in Dihybrid Crosses (Forward)
+      Genetic Linkage and Epistasis in Dihybrid Crosses (Forward)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -228,7 +228,7 @@ Multigene crosses, degrees of dominance, and epistasis in metabolic and genetic 
 </details>
 
 
-## Identifying Genetic Linkage and Epistasis in Dihybrid Crosses (Inverse)
+## Genetic Linkage and Epistasis in Dihybrid Crosses (Inverse)
 
 <div id="epistasis_test_cross-inverse_direction-4_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-epistasis_test_cross-inverse_direction-4_choices-questions.txt" download title="Download bbq-epistasis_test_cross-inverse_direction-4_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-epistasis_test_cross-inverse_direction-4_choices-questions.txt)">
@@ -249,7 +249,7 @@ Multigene crosses, degrees of dominance, and epistasis in metabolic and genetic 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Genetic Linkage and Epistasis in Dihybrid Crosses (Inverse)
+      Genetic Linkage and Epistasis in Dihybrid Crosses (Inverse)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -260,7 +260,7 @@ Multigene crosses, degrees of dominance, and epistasis in metabolic and genetic 
 </details>
 
 
-## Determining Types of Genetic Dominance in Monohybrid Crosses
+## Types of Genetic Dominance in Monohybrid Crosses
 
 <div id="monohybrid_degrees_of_dominance-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-monohybrid_degrees_of_dominance-questions.txt" download title="Download bbq-monohybrid_degrees_of_dominance-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-monohybrid_degrees_of_dominance-questions.txt)">
@@ -281,7 +281,7 @@ Multigene crosses, degrees of dominance, and epistasis in metabolic and genetic 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Types of Genetic Dominance in Monohybrid Crosses
+      Types of Genetic Dominance in Monohybrid Crosses
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -292,7 +292,7 @@ Multigene crosses, degrees of dominance, and epistasis in metabolic and genetic 
 </details>
 
 
-## Determining Monohybrid Cross Genotype Outcomes
+## Monohybrid Cross Genotype Outcomes
 
 <div id="monohybrid_genotype_statements-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-monohybrid_genotype_statements-questions.txt" download title="Download bbq-monohybrid_genotype_statements-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-monohybrid_genotype_statements-questions.txt)">
@@ -313,7 +313,7 @@ Multigene crosses, degrees of dominance, and epistasis in metabolic and genetic 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Monohybrid Cross Genotype Outcomes
+      Monohybrid Cross Genotype Outcomes
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -324,7 +324,7 @@ Multigene crosses, degrees of dominance, and epistasis in metabolic and genetic 
 </details>
 
 
-## Determining Genotype Diversity in Hybrid Crosses (6 Genes, Hint)
+## Genotype Diversity in Hybrid Crosses (6 Genes, Hint)
 
 <div id="unique_cross_genotypes-with_hint-6_genes-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-unique_cross_genotypes-with_hint-6_genes-questions.txt" download title="Download bbq-unique_cross_genotypes-with_hint-6_genes-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-unique_cross_genotypes-with_hint-6_genes-questions.txt)">
@@ -345,7 +345,7 @@ Multigene crosses, degrees of dominance, and epistasis in metabolic and genetic 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Genotype Diversity in Hybrid Crosses (6 Genes, Hint)
+      Genotype Diversity in Hybrid Crosses (6 Genes, Hint)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -356,7 +356,7 @@ Multigene crosses, degrees of dominance, and epistasis in metabolic and genetic 
 </details>
 
 
-## Determining Phenotype Diversity in Genetic Crosses (6 Genes, Hint)
+## Phenotype Diversity in Genetic Crosses (6 Genes, Hint)
 
 <div id="unique_cross_phenotypes-with_hint-6_genes-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-unique_cross_phenotypes-with_hint-6_genes-questions.txt" download title="Download bbq-unique_cross_phenotypes-with_hint-6_genes-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-unique_cross_phenotypes-with_hint-6_genes-questions.txt)">
@@ -377,7 +377,7 @@ Multigene crosses, degrees of dominance, and epistasis in metabolic and genetic 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Phenotype Diversity in Genetic Crosses (6 Genes, Hint)
+      Phenotype Diversity in Genetic Crosses (6 Genes, Hint)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -388,7 +388,7 @@ Multigene crosses, degrees of dominance, and epistasis in metabolic and genetic 
 </details>
 
 
-## Determining Gamete Diversity Through Independent Assortment (7 Genes, Hint)
+## Gamete Diversity Through Independent Assortment (7 Genes, Hint)
 
 <div id="unique_gametes-with_hint-7_genes-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-unique_gametes-with_hint-7_genes-questions.txt" download title="Download bbq-unique_gametes-with_hint-7_genes-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-unique_gametes-with_hint-7_genes-questions.txt)">
@@ -409,7 +409,7 @@ Multigene crosses, degrees of dominance, and epistasis in metabolic and genetic 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Gamete Diversity Through Independent Assortment (7 Genes, Hint)
+      Gamete Diversity Through Independent Assortment (7 Genes, Hint)
     </span>
     <span style='font-weight: normal;'>
       example problem
