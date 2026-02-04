@@ -1,10 +1,10 @@
 bbq-MATCH-bond_types-questions.txt: Chemical Bond Types and Characteristics
-bbq-MATCH-macromolecules-biol301-questions.txt: Macromolecule Types and Descriptions
-bbq-MATCH-macromolecules-questions.txt: Macromolecule Types and Structures or Functions
+bbq-MATCH-macromolecules-biol301-questions.txt: Types of Macromolecules (Reduced Set)
+bbq-MATCH-macromolecules-questions.txt: Types of Macromolecules (Full Set)
 bbq-MC-bond_types-questions.txt: Types of Chemical Bonds
 bbq-MC-chemical_groups-questions.txt: Biochemical Functional Groups
-bbq-MC-macromolecules-biol301-questions.txt: Macromolecules and Their Structures
-bbq-MC-macromolecules-questions.txt: Types of Macromolecules
+bbq-MC-macromolecules-biol301-questions.txt: Types of Macromolecules (Reduced Set)
+bbq-MC-macromolecules-questions.txt: Types of Macromolecules (Full Set)
 bbq-which_hydrophobic-simple-questions.txt: Hydrophobic Compounds from Molecular Formulas
 bbq-which_macromolecule-MC-questions.txt: Macromolecule Types from Chemical Structures
 bbq-which_macromolecule-questions.txt: Macromolecule Types from Structural Features
