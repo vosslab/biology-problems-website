@@ -51,6 +51,25 @@ def color_text(text: str, color: str) -> str:
 
 #==============
 
+def remove_case_mismatched_files(expected_path: str) -> None:
+	dir_name = os.path.dirname(expected_path)
+	base_name = os.path.basename(expected_path)
+	if not os.path.isdir(dir_name):
+		return
+	lower_name = base_name.lower()
+	for entry in os.listdir(dir_name):
+		if entry == base_name:
+			continue
+		if entry.lower() != lower_name:
+			continue
+		entry_path = os.path.join(dir_name, entry)
+		if not os.path.isfile(entry_path):
+			continue
+		os.remove(entry_path)
+		print(color_text(f"  REMOVED CASE MISMATCH: {entry_path}", COLOR_YELLOW))
+
+#==============
+
 def init_format_stats() -> dict:
 	stats = {}
 	for format_key in FORMAT_LABELS:
@@ -532,6 +551,7 @@ def get_outfile_name(bbq_file_name: str, prefix: str, extension: str):
 	if not outfile.endswith("." + extension):
 		outfile += "." + extension
 	outfile = os.path.join(dirname, outfile)
+	remove_case_mismatched_files(outfile)
 	return outfile
 
 #==============
