@@ -20,6 +20,7 @@ BASE_DIR: str = ""
 MKDOCS_CONFIG: str = "mkdocs.yml"
 TOPICS_METADATA_FILE: str = "topics_metadata.yml"
 TOPIC_METADATA = {}
+GIT_TRACKED_PATHS = None
 
 # ANSI color codes for readable CLI output
 COLOR_RESET = "\033[0m"
@@ -67,6 +68,44 @@ def remove_case_mismatched_files(expected_path: str) -> None:
 			continue
 		os.remove(entry_path)
 		print(color_text(f"  REMOVED CASE MISMATCH: {entry_path}", COLOR_YELLOW))
+
+#==============
+
+def get_git_tracked_paths() -> dict:
+	global GIT_TRACKED_PATHS
+	if GIT_TRACKED_PATHS is not None:
+		return GIT_TRACKED_PATHS
+	GIT_TRACKED_PATHS = {}
+	result = subprocess.run(
+		["git", "ls-files"],
+		capture_output=True,
+		text=True,
+		check=False,
+	)
+	if result.returncode != 0:
+		return GIT_TRACKED_PATHS
+	for line in result.stdout.splitlines():
+		if not line:
+			continue
+		lower_path = line.lower()
+		if lower_path in GIT_TRACKED_PATHS and GIT_TRACKED_PATHS[lower_path] != line:
+			print(color_text(f"  MULTIPLE GIT CASE MATCHES: {line}", COLOR_YELLOW))
+			continue
+		GIT_TRACKED_PATHS[lower_path] = line
+	return GIT_TRACKED_PATHS
+
+#==============
+
+def canonicalize_git_path(file_path: str) -> str:
+	repo_root = get_repo_root()
+	relative_path = os.path.relpath(file_path, repo_root)
+	tracked = get_git_tracked_paths().get(relative_path.lower())
+	if not tracked:
+		return file_path
+	canonical_path = os.path.join(repo_root, tracked)
+	if canonical_path != file_path and canonical_path.lower() == file_path.lower():
+		print(color_text(f"  CASE MISMATCH: {file_path} -> {canonical_path}", COLOR_YELLOW))
+	return canonical_path
 
 #==============
 
@@ -610,6 +649,7 @@ def update_index_md(
 
 		bbq_files.sort()
 		for bbq_file in bbq_files:
+			bbq_file = canonicalize_git_path(bbq_file)
 			file_counter["count"] += 1
 			file_progress = ""
 			if total_files:
