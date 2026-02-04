@@ -8,6 +8,7 @@
 - Fixed case mismatches in `site_docs/biochemistry/topic02/index.md` to match the tracked Henderson-Hasselbalch download filenames.
 - Taught `generate_topic_pages.py` to resolve case mismatches using Git-tracked paths and warn when files differ only by case.
 - Updated `generate_topic_pages.py` to remove case-mismatched download files before generating new outputs, keeping BBQ filename casing authoritative.
+- Aligned `generate_topic_pages.py` with Git-tracked BBQ filename casing when generating links and downloads.
 
 ## 2026-02-03
 - Added argparse options, per-format logging, and summary stats to `generate_topic_pages.py`.
