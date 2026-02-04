@@ -4,7 +4,7 @@ Inheritance patterns, common genetic disorders, and terminology matching.
 
 **LibreTexts reference:** [Foundations of Genetic Disorders](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/01:_Foundations_of_Genetic_Disorders)
 
-## Matching Genetic Disorders to Descriptions
+## Genetic Disorders and Descriptions
 
 <div id="MATCH-genetic_disorders-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-genetic_disorders-questions.txt" download title="Download bbq-MATCH-genetic_disorders-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-genetic_disorders-questions.txt)">
@@ -25,7 +25,7 @@ Inheritance patterns, common genetic disorders, and terminology matching.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Genetic Disorders to Descriptions
+      Genetic Disorders and Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -36,7 +36,7 @@ Inheritance patterns, common genetic disorders, and terminology matching.
 </details>
 
 
-## Matching Genetic Terminology to Definitions
+## Genetic Terminology and Definitions
 
 <div id="MATCH-genetics_terminology-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-genetics_terminology-questions.txt" download title="Download bbq-MATCH-genetics_terminology-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-genetics_terminology-questions.txt)">
@@ -57,7 +57,7 @@ Inheritance patterns, common genetic disorders, and terminology matching.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Genetic Terminology to Definitions
+      Genetic Terminology and Definitions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -68,7 +68,7 @@ Inheritance patterns, common genetic disorders, and terminology matching.
 </details>
 
 
-## Identifying Genetic Disorders from Descriptions
+## Genetic Disorders from Descriptions
 
 <div id="MC-genetic_disorders-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MC-genetic_disorders-questions.txt" download title="Download bbq-MC-genetic_disorders-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-genetic_disorders-questions.txt)">
@@ -89,7 +89,7 @@ Inheritance patterns, common genetic disorders, and terminology matching.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Genetic Disorders from Descriptions
+      Genetic Disorders from Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -100,7 +100,7 @@ Inheritance patterns, common genetic disorders, and terminology matching.
 </details>
 
 
-## Identifying Genetic Terminology from Definitions
+## Genetic Terminology from Definitions
 
 <div id="MC-genetics_terminology-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MC-genetics_terminology-questions.txt" download title="Download bbq-MC-genetics_terminology-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-genetics_terminology-questions.txt)">
@@ -121,7 +121,7 @@ Inheritance patterns, common genetic disorders, and terminology matching.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Genetic Terminology from Definitions
+      Genetic Terminology from Definitions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -132,7 +132,7 @@ Inheritance patterns, common genetic disorders, and terminology matching.
 </details>
 
 
-## Determining Metabolic Pathway Order from Nutrient Supplementation (4 Metabolites)
+## Metabolic Pathway Order from Nutrient Supplementation (4 Metabolites)
 
 <div id="beadle_tatum-metabolic_pathway-4_metabolites-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-beadle_tatum-metabolic_pathway-4_metabolites-questions.txt" download title="Download bbq-beadle_tatum-metabolic_pathway-4_metabolites-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-beadle_tatum-metabolic_pathway-4_metabolites-questions.txt)">
@@ -153,7 +153,7 @@ Inheritance patterns, common genetic disorders, and terminology matching.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Metabolic Pathway Order from Nutrient Supplementation (4 Metabolites)
+      Metabolic Pathway Order from Nutrient Supplementation (4 Metabolites)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -164,7 +164,7 @@ Inheritance patterns, common genetic disorders, and terminology matching.
 </details>
 
 
-## Determining Metabolic Pathway Order from Nutrient Supplementation (6 Metabolites)
+## Metabolic Pathway Order from Nutrient Supplementation (6 Metabolites)
 
 <div id="beadle_tatum-metabolic_pathway-6_metabolites-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-beadle_tatum-metabolic_pathway-6_metabolites-questions.txt" download title="Download bbq-beadle_tatum-metabolic_pathway-6_metabolites-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-beadle_tatum-metabolic_pathway-6_metabolites-questions.txt)">
@@ -185,7 +185,7 @@ Inheritance patterns, common genetic disorders, and terminology matching.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Metabolic Pathway Order from Nutrient Supplementation (6 Metabolites)
+      Metabolic Pathway Order from Nutrient Supplementation (6 Metabolites)
     </span>
     <span style='font-weight: normal;'>
       example problem

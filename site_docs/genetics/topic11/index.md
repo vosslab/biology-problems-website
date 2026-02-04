@@ -4,7 +4,7 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
 
 **LibreTexts reference:** [Gene Trees and Relationships](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/11:_Gene_Trees_and_Relationships)
 
-## Construct Gene Tree from Matrix (Level 1)
+## Gene Tree from Matrix (Level 1)
 
 <div id="gene_tree_choice_plus-TABLE_mode-LEVEL_1-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_1-questions.txt" download title="Download bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_1-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_1-questions.txt)">
@@ -25,7 +25,7 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Construct Gene Tree from Matrix (Level 1)
+      Gene Tree from Matrix (Level 1)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -36,7 +36,7 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
 </details>
 
 
-## Construct Gene Tree from Matrix (Level 2)
+## Gene Tree from Matrix (Level 2)
 
 <div id="gene_tree_choice_plus-TABLE_mode-LEVEL_2-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_2-questions.txt" download title="Download bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_2-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_2-questions.txt)">
@@ -57,7 +57,7 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Construct Gene Tree from Matrix (Level 2)
+      Gene Tree from Matrix (Level 2)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -68,7 +68,7 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
 </details>
 
 
-## Construct Gene Tree from Matrix (Level 3)
+## Gene Tree from Matrix (Level 3)
 
 <div id="gene_tree_choice_plus-TABLE_mode-LEVEL_3-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_3-questions.txt" download title="Download bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_3-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_3-questions.txt)">
@@ -89,7 +89,7 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Construct Gene Tree from Matrix (Level 3)
+      Gene Tree from Matrix (Level 3)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -100,7 +100,7 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
 </details>
 
 
-## Construct Gene Tree from Matrix (Level 4)
+## Gene Tree from Matrix (Level 4)
 
 <div id="gene_tree_choice_plus-TABLE_mode-LEVEL_4-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_4-questions.txt" download title="Download bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_4-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_4-questions.txt)">
@@ -121,7 +121,7 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Construct Gene Tree from Matrix (Level 4)
+      Gene Tree from Matrix (Level 4)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -132,7 +132,7 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
 </details>
 
 
-## Construct Gene Tree from Matrix (Level 5)
+## Gene Tree from Matrix (Level 5)
 
 <div id="gene_tree_choice_plus-TABLE_mode-LEVEL_5-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_5-questions.txt" download title="Download bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_5-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_5-questions.txt)">
@@ -153,7 +153,7 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Construct Gene Tree from Matrix (Level 5)
+      Gene Tree from Matrix (Level 5)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -164,7 +164,7 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
 </details>
 
 
-## Identify Different Phylogenetic Tree (Easy)
+## Different Phylogenetic Trees (Easy)
 
 <div id="gene_tree_matches_plus-DIFFERENT_mode-EASY_level-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-gene_tree_matches_plus-DIFFERENT_mode-EASY_level-questions.txt" download title="Download bbq-gene_tree_matches_plus-DIFFERENT_mode-EASY_level-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_matches_plus-DIFFERENT_mode-EASY_level-questions.txt)">
@@ -185,7 +185,7 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identify Different Phylogenetic Tree (Easy)
+      Different Phylogenetic Trees (Easy)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -196,7 +196,7 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
 </details>
 
 
-## Identify Different Phylogenetic Tree (Medium)
+## Different Phylogenetic Trees (Medium)
 
 <div id="gene_tree_matches_plus-DIFFERENT_mode-MEDIUM_level-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-gene_tree_matches_plus-DIFFERENT_mode-MEDIUM_level-questions.txt" download title="Download bbq-gene_tree_matches_plus-DIFFERENT_mode-MEDIUM_level-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_matches_plus-DIFFERENT_mode-MEDIUM_level-questions.txt)">
@@ -217,7 +217,7 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identify Different Phylogenetic Tree (Medium)
+      Different Phylogenetic Trees (Medium)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -228,7 +228,7 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
 </details>
 
 
-## Identify Different Phylogenetic Tree (Rigorous)
+## Different Phylogenetic Trees (Rigorous)
 
 <div id="gene_tree_matches_plus-DIFFERENT_mode-RIGOROUS_level-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-gene_tree_matches_plus-DIFFERENT_mode-RIGOROUS_level-questions.txt" download title="Download bbq-gene_tree_matches_plus-DIFFERENT_mode-RIGOROUS_level-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_matches_plus-DIFFERENT_mode-RIGOROUS_level-questions.txt)">
@@ -249,7 +249,7 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identify Different Phylogenetic Tree (Rigorous)
+      Different Phylogenetic Trees (Rigorous)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -260,7 +260,7 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
 </details>
 
 
-## Identify Same Phylogenetic Tree (Easy)
+## Same Phylogenetic Trees (Easy)
 
 <div id="gene_tree_matches_plus-SAME_mode-EASY_level-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-gene_tree_matches_plus-SAME_mode-EASY_level-questions.txt" download title="Download bbq-gene_tree_matches_plus-SAME_mode-EASY_level-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_matches_plus-SAME_mode-EASY_level-questions.txt)">
@@ -281,7 +281,7 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identify Same Phylogenetic Tree (Easy)
+      Same Phylogenetic Trees (Easy)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -292,7 +292,7 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
 </details>
 
 
-## Identify Same Phylogenetic Tree (Medium)
+## Same Phylogenetic Trees (Medium)
 
 <div id="gene_tree_matches_plus-SAME_mode-MEDIUM_level-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-gene_tree_matches_plus-SAME_mode-MEDIUM_level-questions.txt" download title="Download bbq-gene_tree_matches_plus-SAME_mode-MEDIUM_level-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_matches_plus-SAME_mode-MEDIUM_level-questions.txt)">
@@ -313,7 +313,7 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identify Same Phylogenetic Tree (Medium)
+      Same Phylogenetic Trees (Medium)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -324,7 +324,7 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
 </details>
 
 
-## Identify Same Phylogenetic Tree (Rigorous)
+## Same Phylogenetic Trees (Rigorous)
 
 <div id="gene_tree_matches_plus-SAME_mode-RIGOROUS_level-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-gene_tree_matches_plus-SAME_mode-RIGOROUS_level-questions.txt" download title="Download bbq-gene_tree_matches_plus-SAME_mode-RIGOROUS_level-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_matches_plus-SAME_mode-RIGOROUS_level-questions.txt)">
@@ -345,7 +345,7 @@ Phylogenetics, tree comparisons, evolutionary distances, and patterns of inherit
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identify Same Phylogenetic Tree (Rigorous)
+      Same Phylogenetic Trees (Rigorous)
     </span>
     <span style='font-weight: normal;'>
       example problem

@@ -152,6 +152,36 @@ def get_docs_dir() -> str:
 
 #==============
 
+def get_repo_root() -> str:
+	result = subprocess.run(
+		["git", "rev-parse", "--show-toplevel"],
+		capture_output=True,
+		text=True,
+		check=False,
+	)
+	if result.returncode == 0:
+		repo_root = result.stdout.strip()
+		if repo_root:
+			return repo_root
+	return os.path.dirname(os.path.abspath(__file__))
+
+#==============
+
+def find_bbq_converter() -> str:
+	repo_root = get_repo_root()
+	candidates = [
+		os.path.join(repo_root, "bbq_converter.py"),
+		os.path.join(repo_root, "..", "qti_package_maker", "tools", "bbq_converter.py"),
+		os.path.join(os.path.expanduser("~"), "nsh", "PROBLEM", "qti_package_maker", "tools", "bbq_converter.py"),
+		os.path.join(os.path.expanduser("~"), "nsh", "qti_package_maker", "tools", "bbq_converter.py"),
+	]
+	for candidate in candidates:
+		if os.path.isfile(candidate):
+			return os.path.abspath(candidate)
+	return ""
+
+#==============
+
 def get_topic_title(folder_path: str, topic_number: int) -> str:
 	"""Retrieve the topic title from mkdocs.yml.
 
@@ -258,13 +288,15 @@ def create_downloadable_format(bbq_file: str, prefix: str, extension: str):
 	file_path = get_outfile_name(bbq_file, prefix, extension)
 	if os.path.exists(file_path):
 		os.remove(file_path)
-	if not os.path.exists("bbq_converter.py"):
+	converter_path = find_bbq_converter()
+	if not converter_path:
 		print(color_text("cannot find bbq_converter.py", COLOR_YELLOW))
-		print("ln -sv ~/nsh/qti_package_maker/tools/bbq_converter.py .")
+		print("Expected in repo root or qti_package_maker/tools.")
+		print("Example: ln -sv ~/nsh/PROBLEM/qti_package_maker/tools/bbq_converter.py .")
 		raise FileNotFoundError
 	convert_cmd = [
 		"python3",
-		"bbq_converter.py",
+		converter_path,
 		"--quiet",
 		f"--{prefix}",
 		"--input",

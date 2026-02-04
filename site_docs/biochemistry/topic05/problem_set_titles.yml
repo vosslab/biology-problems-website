@@ -1,8 +1,8 @@
-bbq-MATCH-chromatography-questions.txt: Matching Column Chromatography Types to Descriptions
-bbq-MC-cell_disruption-questions.txt: Identifying Cell Disruption Techniques
-bbq-MC-chromatography-questions.txt: Identifying Column Chromatography Types
-bbq-MC-protein_v_dna_gels-questions.txt: Identifying Macromolecules in Gel Electrophoresis
-bbq-isoelectric_one_protein-questions.txt: Determining Protein Net Charge at a Given pH
-bbq-isoelectric_two_proteins-questions.txt: Determining Protein Migration Direction from Isoelectric Point
-bbq-protein_gel_migration-questions.txt: Determining Protein Molecular Weight from SDS-PAGE Migration
-last edit: Tue Feb  3 16:26:44 2026
+bbq-MATCH-chromatography-questions.txt: Column Chromatography Types and Descriptions
+bbq-MC-cell_disruption-questions.txt: Cell Disruption Techniques
+bbq-MC-chromatography-questions.txt: Column Chromatography Types
+bbq-MC-protein_v_dna_gels-questions.txt: Macromolecules in Gel Electrophoresis
+bbq-isoelectric_one_protein-questions.txt: Protein Net Charge at a Given pH
+bbq-isoelectric_two_proteins-questions.txt: Protein Migration Direction from Isoelectric Point
+bbq-protein_gel_migration-questions.txt: Protein Molecular Weight from SDS-PAGE Migration
+last edit: Wed Feb  4 07:53:32 2026

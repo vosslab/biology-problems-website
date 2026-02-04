@@ -1,9 +1,9 @@
-bbq-BCHM355-metabolic_pathway_inhibitor-questions.txt: Determining Enzyme Inhibition and Activation in Metabolic Pathways
-bbq-MC-enzyme_terminology-questions.txt: Identifying Enzyme Catalysis Terminology
-bbq-TF-enzyme_equilibrium-questions.txt: Determining True/False Statements About Enzyme Kinetics
-bbq-TF-m-m_kinetics-questions.txt: Determining True/False Statements About Michaelis-Menten Kinetics
-bbq-enzyme_cofactors-questions.txt: Identifying Molecules That Are Not Enzyme Cofactors
-bbq-michaelis_menten_table-Km-questions.txt: Determining the Michaelis-Menten Constant (Km) from Enzyme Activity Data
-bbq-michaelis_menten_table-inhibition-questions.txt: Determining Inhibition Type from Enzyme Activity Data
-bbq-which_enzyme-questions.txt: Identifying Molecules That Could Be Enzymes
-last edit: Tue Feb  3 16:26:44 2026
+bbq-BCHM355-metabolic_pathway_inhibitor-questions.txt: Enzyme Inhibition and Activation in Metabolic Pathways
+bbq-MC-enzyme_terminology-questions.txt: Enzyme Catalysis Terminology
+bbq-TF-enzyme_equilibrium-questions.txt: True/False Statements About Enzyme Kinetics
+bbq-TF-m-m_kinetics-questions.txt: True/False Statements About Michaelis-Menten Kinetics
+bbq-enzyme_cofactors-questions.txt: Molecules That Are Not Enzyme Cofactors
+bbq-michaelis_menten_table-Km-questions.txt: The Michaelis-Menten Constant (Km) from Enzyme Activity Data
+bbq-michaelis_menten_table-inhibition-questions.txt: Inhibition Type from Enzyme Activity Data
+bbq-which_enzyme-questions.txt: Molecules That Could Be Enzymes
+last edit: Wed Feb  4 07:50:42 2026

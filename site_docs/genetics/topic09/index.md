@@ -4,7 +4,7 @@ Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploid
 
 **LibreTexts reference:** [Chromosomal Disorders](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/09:_Chromosomal_Disorders)
 
-## Matching Chromosome Shapes to Descriptions
+## Chromosome Shapes and Descriptions
 
 <div id="MATCH-chromosome_shapes-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-chromosome_shapes-questions.txt" download title="Download bbq-MATCH-chromosome_shapes-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-chromosome_shapes-questions.txt)">
@@ -25,7 +25,7 @@ Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploid
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Chromosome Shapes to Descriptions
+      Chromosome Shapes and Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -36,7 +36,7 @@ Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploid
 </details>
 
 
-## Identifying Chromosome Shapes from Centromere and Arm Lengths
+## Chromosome Shapes from Centromere and Arm Lengths
 
 <div id="MC-chromosome_shapes-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MC-chromosome_shapes-questions.txt" download title="Download bbq-MC-chromosome_shapes-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-chromosome_shapes-questions.txt)">
@@ -57,7 +57,7 @@ Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploid
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Chromosome Shapes from Centromere and Arm Lengths
+      Chromosome Shapes from Centromere and Arm Lengths
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -68,7 +68,7 @@ Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploid
 </details>
 
 
-## Determining Cytogenetic Notation for Aneuploidy
+## Cytogenetic Notation for Aneuploidy
 
 <div id="cytogenetic_notation-aneuploidy-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-cytogenetic_notation-aneuploidy-questions.txt" download title="Download bbq-cytogenetic_notation-aneuploidy-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-cytogenetic_notation-aneuploidy-questions.txt)">
@@ -89,7 +89,7 @@ Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploid
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Cytogenetic Notation for Aneuploidy
+      Cytogenetic Notation for Aneuploidy
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -100,7 +100,7 @@ Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploid
 </details>
 
 
-## Determining Cytogenetic Notation for Rearrangements
+## Cytogenetic Notation for Rearrangements
 
 <div id="cytogenetic_notation-rearrangements-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-cytogenetic_notation-rearrangements-questions.txt" download title="Download bbq-cytogenetic_notation-rearrangements-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-cytogenetic_notation-rearrangements-questions.txt)">
@@ -121,7 +121,7 @@ Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploid
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Cytogenetic Notation for Rearrangements
+      Cytogenetic Notation for Rearrangements
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -132,7 +132,7 @@ Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploid
 </details>
 
 
-## Identifying Gene Order with Deletion Mutants (4 Genes, Free Response)
+## Gene Order with Deletion Mutants (4 Genes, Free Response)
 
 <div id="deletion_mutants-04_genes-FREE-MC-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-deletion_mutants-04_genes-FREE-MC-questions.txt" download title="Download bbq-deletion_mutants-04_genes-FREE-MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-deletion_mutants-04_genes-FREE-MC-questions.txt)">
@@ -153,7 +153,7 @@ Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploid
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Gene Order with Deletion Mutants (4 Genes, Free Response)
+      Gene Order with Deletion Mutants (4 Genes, Free Response)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -164,7 +164,7 @@ Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploid
 </details>
 
 
-## Identifying Gene Order with Deletion Mutants (4 Genes, Table)
+## Gene Order with Deletion Mutants (4 Genes, Table)
 
 <div id="deletion_mutants-04_genes-TABLE-MC-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-deletion_mutants-04_genes-TABLE-MC-questions.txt" download title="Download bbq-deletion_mutants-04_genes-TABLE-MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-deletion_mutants-04_genes-TABLE-MC-questions.txt)">
@@ -185,7 +185,7 @@ Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploid
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Gene Order with Deletion Mutants (4 Genes, Table)
+      Gene Order with Deletion Mutants (4 Genes, Table)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -196,7 +196,7 @@ Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploid
 </details>
 
 
-## Identifying Gene Order with Deletion Mutants (6 Genes, Table)
+## Gene Order with Deletion Mutants (6 Genes, Table)
 
 <div id="deletion_mutants-06_genes-TABLE-MC-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-deletion_mutants-06_genes-TABLE-MC-questions.txt" download title="Download bbq-deletion_mutants-06_genes-TABLE-MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-deletion_mutants-06_genes-TABLE-MC-questions.txt)">
@@ -217,7 +217,7 @@ Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploid
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Gene Order with Deletion Mutants (6 Genes, Table)
+      Gene Order with Deletion Mutants (6 Genes, Table)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -228,7 +228,7 @@ Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploid
 </details>
 
 
-## Identifying Gene Order with Deletion Mutants (8 Genes, Table)
+## Gene Order with Deletion Mutants (8 Genes, Table)
 
 <div id="deletion_mutants-08_genes-TABLE-MC-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-deletion_mutants-08_genes-TABLE-MC-questions.txt" download title="Download bbq-deletion_mutants-08_genes-TABLE-MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-deletion_mutants-08_genes-TABLE-MC-questions.txt)">
@@ -249,7 +249,7 @@ Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploid
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Gene Order with Deletion Mutants (8 Genes, Table)
+      Gene Order with Deletion Mutants (8 Genes, Table)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -260,7 +260,7 @@ Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploid
 </details>
 
 
-## Identifying Gene Order with Deletion Mutants (16 Genes, Table)
+## Gene Order with Deletion Mutants (16 Genes, Table)
 
 <div id="deletion_mutants-16_genes-TABLE-MC-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-deletion_mutants-16_genes-TABLE-MC-questions.txt" download title="Download bbq-deletion_mutants-16_genes-TABLE-MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-deletion_mutants-16_genes-TABLE-MC-questions.txt)">
@@ -281,7 +281,7 @@ Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploid
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Gene Order with Deletion Mutants (16 Genes, Table)
+      Gene Order with Deletion Mutants (16 Genes, Table)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -292,7 +292,7 @@ Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploid
 </details>
 
 
-## Identifying Chromosomal Translocation Outcomes (Black)
+## Chromosomal Translocation Outcomes (Black)
 
 <div id="letter_translocation_problem_color-black-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-letter_translocation_problem_color-black-questions.txt" download title="Download bbq-letter_translocation_problem_color-black-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-letter_translocation_problem_color-black-questions.txt)">
@@ -313,7 +313,7 @@ Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploid
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Chromosomal Translocation Outcomes (Black)
+      Chromosomal Translocation Outcomes (Black)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -324,7 +324,7 @@ Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploid
 </details>
 
 
-## Identifying Chromosomal Translocation Outcomes (Color)
+## Chromosomal Translocation Outcomes (Color)
 
 <div id="letter_translocation_problem_color-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-letter_translocation_problem_color-questions.txt" download title="Download bbq-letter_translocation_problem_color-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-letter_translocation_problem_color-questions.txt)">
@@ -345,7 +345,7 @@ Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploid
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Chromosomal Translocation Outcomes (Color)
+      Chromosomal Translocation Outcomes (Color)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -356,7 +356,7 @@ Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploid
 </details>
 
 
-## Determining Gamete Chromosome Numbers in Polyploids
+## Gamete Chromosome Numbers in Polyploids
 
 <div id="polyploid-gametes-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-polyploid-gametes-questions.txt" download title="Download bbq-polyploid-gametes-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-polyploid-gametes-questions.txt)">
@@ -377,7 +377,7 @@ Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploid
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Gamete Chromosome Numbers in Polyploids
+      Gamete Chromosome Numbers in Polyploids
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -388,7 +388,7 @@ Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploid
 </details>
 
 
-## Determining Monoploid and Haploid Numbers from Chromosome Counts
+## Monoploid and Haploid Numbers from Chromosome Counts
 
 <div id="polyploid-monoploid_v_haploid-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-polyploid-monoploid_v_haploid-questions.txt" download title="Download bbq-polyploid-monoploid_v_haploid-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-polyploid-monoploid_v_haploid-questions.txt)">
@@ -409,7 +409,7 @@ Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploid
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Monoploid and Haploid Numbers from Chromosome Counts
+      Monoploid and Haploid Numbers from Chromosome Counts
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -420,7 +420,7 @@ Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploid
 </details>
 
 
-## Determining Gametes from Robertsonian Translocation
+## Gametes from Robertsonian Translocation
 
 <div id="robertsonian-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-robertsonian-questions.txt" download title="Download bbq-robertsonian-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-robertsonian-questions.txt)">
@@ -441,7 +441,7 @@ Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploid
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Gametes from Robertsonian Translocation
+      Gametes from Robertsonian Translocation
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -452,7 +452,7 @@ Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploid
 </details>
 
 
-## Determining Balanced Translocation Segregation Outcomes
+## Balanced Translocation Segregation Outcomes
 
 <div id="translocation_meiosis_table-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-translocation_meiosis_table-questions.txt" download title="Download bbq-translocation_meiosis_table-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-translocation_meiosis_table-questions.txt)">
@@ -473,7 +473,7 @@ Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploid
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Balanced Translocation Segregation Outcomes
+      Balanced Translocation Segregation Outcomes
     </span>
     <span style='font-weight: normal;'>
       example problem

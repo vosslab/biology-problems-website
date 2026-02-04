@@ -4,7 +4,7 @@ DNA composition, base pairing, nucleotide components, and double-helix complemen
 
 **LibreTexts reference:** [DNA Structure and Sequences](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/02:_DNA_Structure_and_Sequences)
 
-## Determining True/False Statements About DNA Structure
+## True/False Statements About DNA Structure
 
 <div id="TFMS-dna_structure-biol_351-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-dna_structure-biol_351-questions.txt" download title="Download bbq-TFMS-dna_structure-biol_351-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-dna_structure-biol_351-questions.txt)">
@@ -25,7 +25,7 @@ DNA composition, base pairing, nucleotide components, and double-helix complemen
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining True/False Statements About DNA Structure
+      True/False Statements About DNA Structure
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -36,7 +36,7 @@ DNA composition, base pairing, nucleotide components, and double-helix complemen
 </details>
 
 
-## Determining True/False Statements About Nucleotide Components
+## True/False Statements About Nucleotide Components
 
 <div id="TFMS-nucleotide_components-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-nucleotide_components-questions.txt" download title="Download bbq-TFMS-nucleotide_components-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-nucleotide_components-questions.txt)">
@@ -57,7 +57,7 @@ DNA composition, base pairing, nucleotide components, and double-helix complemen
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining True/False Statements About Nucleotide Components
+      True/False Statements About Nucleotide Components
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -68,7 +68,7 @@ DNA composition, base pairing, nucleotide components, and double-helix complemen
 </details>
 
 
-## Identifying Chargaff's Base Pairing Composition
+## Chargaff's Base Pairing Composition
 
 <div id="chargaff_dna_percent-5_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chargaff_dna_percent-5_choices-questions.txt" download title="Download bbq-chargaff_dna_percent-5_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chargaff_dna_percent-5_choices-questions.txt)">
@@ -89,7 +89,7 @@ DNA composition, base pairing, nucleotide components, and double-helix complemen
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Chargaff's Base Pairing Composition
+      Chargaff's Base Pairing Composition
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -100,7 +100,7 @@ DNA composition, base pairing, nucleotide components, and double-helix complemen
 </details>
 
 
-## Identifying Complementary DNA Sequences (Directionless)
+## Complementary DNA Sequences (Directionless)
 
 <div id="complementary_sequences-mc-directionless-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-complementary_sequences-mc-directionless-questions.txt" download title="Download bbq-complementary_sequences-mc-directionless-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-complementary_sequences-mc-directionless-questions.txt)">
@@ -121,7 +121,7 @@ DNA composition, base pairing, nucleotide components, and double-helix complemen
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Complementary DNA Sequences (Directionless)
+      Complementary DNA Sequences (Directionless)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -132,7 +132,7 @@ DNA composition, base pairing, nucleotide components, and double-helix complemen
 </details>
 
 
-## Identifying 5' and 3' Complementary DNA Sequences
+## 5' and 3' Complementary DNA Sequences
 
 <div id="complementary_sequences-mc-prime-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-complementary_sequences-mc-prime-questions.txt" download title="Download bbq-complementary_sequences-mc-prime-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-complementary_sequences-mc-prime-questions.txt)">
@@ -153,7 +153,7 @@ DNA composition, base pairing, nucleotide components, and double-helix complemen
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying 5' and 3' Complementary DNA Sequences
+      5' and 3' Complementary DNA Sequences
     </span>
     <span style='font-weight: normal;'>
       example problem

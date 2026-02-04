@@ -2,7 +2,7 @@
 
 Single-step dilution factors and percent dilution calculations.
 
-## Calculating Aliquot Volumes for Dilutions
+## Aliquot Volumes for Dilutions
 
 <div id="dilution_factor_aliquot_numeric-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-dilution_factor_aliquot_numeric-questions.txt" download title="Download bbq-dilution_factor_aliquot_numeric-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-dilution_factor_aliquot_numeric-questions.txt)">
@@ -23,7 +23,7 @@ Single-step dilution factors and percent dilution calculations.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Calculating Aliquot Volumes for Dilutions
+      Aliquot Volumes for Dilutions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -34,7 +34,7 @@ Single-step dilution factors and percent dilution calculations.
 </details>
 
 
-## Calculating Dilution Factors for Solutions
+## Dilution Factors for Solutions
 
 <div id="dilution_factor_calc_numeric-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-dilution_factor_calc_numeric-questions.txt" download title="Download bbq-dilution_factor_calc_numeric-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-dilution_factor_calc_numeric-questions.txt)">
@@ -55,7 +55,7 @@ Single-step dilution factors and percent dilution calculations.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Calculating Dilution Factors for Solutions
+      Dilution Factors for Solutions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -66,7 +66,7 @@ Single-step dilution factors and percent dilution calculations.
 </details>
 
 
-## Calculating Diluent Volumes for Dilutions
+## Diluent Volumes for Dilutions
 
 <div id="dilution_factor_diluent_numeric-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-dilution_factor_diluent_numeric-questions.txt" download title="Download bbq-dilution_factor_diluent_numeric-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-dilution_factor_diluent_numeric-questions.txt)">
@@ -87,7 +87,7 @@ Single-step dilution factors and percent dilution calculations.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Calculating Diluent Volumes for Dilutions
+      Diluent Volumes for Dilutions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -98,7 +98,7 @@ Single-step dilution factors and percent dilution calculations.
 </details>
 
 
-## Identifying Dilution Factors
+## Dilution Factors
 
 <div id="dilution_factor_mc-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-dilution_factor_mc-questions.txt" download title="Download bbq-dilution_factor_mc-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-dilution_factor_mc-questions.txt)">
@@ -119,7 +119,7 @@ Single-step dilution factors and percent dilution calculations.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Dilution Factors
+      Dilution Factors
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -130,7 +130,7 @@ Single-step dilution factors and percent dilution calculations.
 </details>
 
 
-## Calculating Aliquot Volumes from Stock Solutions
+## Aliquot Volumes from Stock Solutions
 
 <div id="percent_dilution_aliquot_numeric-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-percent_dilution_aliquot_numeric-questions.txt" download title="Download bbq-percent_dilution_aliquot_numeric-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-percent_dilution_aliquot_numeric-questions.txt)">
@@ -151,7 +151,7 @@ Single-step dilution factors and percent dilution calculations.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Calculating Aliquot Volumes from Stock Solutions
+      Aliquot Volumes from Stock Solutions
     </span>
     <span style='font-weight: normal;'>
       example problem

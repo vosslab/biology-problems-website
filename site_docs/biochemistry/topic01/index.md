@@ -4,7 +4,7 @@ Molecular design of life, major elements, and biomacromolecules.
 
 **LibreTexts reference:** [Molecules of Life](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01:_Molecules_of_Life)
 
-## Matching Chemical Bond Types to Characteristics
+## Chemical Bond Types and Characteristics
 
 <div id="MATCH-bond_types-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-bond_types-questions.txt" download title="Download bbq-MATCH-bond_types-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-bond_types-questions.txt)">
@@ -25,7 +25,7 @@ Molecular design of life, major elements, and biomacromolecules.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Chemical Bond Types to Characteristics
+      Chemical Bond Types and Characteristics
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -36,7 +36,7 @@ Molecular design of life, major elements, and biomacromolecules.
 </details>
 
 
-## Matching Macromolecule Types to Descriptions
+## Macromolecule Types and Descriptions
 
 <div id="MATCH-macromolecules-biol301-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-macromolecules-biol301-questions.txt" download title="Download bbq-MATCH-macromolecules-biol301-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-macromolecules-biol301-questions.txt)">
@@ -57,7 +57,7 @@ Molecular design of life, major elements, and biomacromolecules.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Macromolecule Types to Descriptions
+      Macromolecule Types and Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -68,7 +68,7 @@ Molecular design of life, major elements, and biomacromolecules.
 </details>
 
 
-## Matching Macromolecule Types to Structures or Functions
+## Macromolecule Types and Structures or Functions
 
 <div id="MATCH-macromolecules-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-macromolecules-questions.txt" download title="Download bbq-MATCH-macromolecules-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-macromolecules-questions.txt)">
@@ -89,7 +89,7 @@ Molecular design of life, major elements, and biomacromolecules.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Macromolecule Types to Structures or Functions
+      Macromolecule Types and Structures or Functions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -100,7 +100,7 @@ Molecular design of life, major elements, and biomacromolecules.
 </details>
 
 
-## Identifying Types of Chemical Bonds
+## Types of Chemical Bonds
 
 <div id="MC-bond_types-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MC-bond_types-questions.txt" download title="Download bbq-MC-bond_types-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-bond_types-questions.txt)">
@@ -121,7 +121,7 @@ Molecular design of life, major elements, and biomacromolecules.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Types of Chemical Bonds
+      Types of Chemical Bonds
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -132,7 +132,7 @@ Molecular design of life, major elements, and biomacromolecules.
 </details>
 
 
-## Identifying Macromolecules and Their Structures
+## Macromolecules and Their Structures
 
 <div id="MC-macromolecules-biol301-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MC-macromolecules-biol301-questions.txt" download title="Download bbq-MC-macromolecules-biol301-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-macromolecules-biol301-questions.txt)">
@@ -153,7 +153,7 @@ Molecular design of life, major elements, and biomacromolecules.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Macromolecules and Their Structures
+      Macromolecules and Their Structures
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -164,7 +164,7 @@ Molecular design of life, major elements, and biomacromolecules.
 </details>
 
 
-## Identifying Types of Macromolecules
+## Types of Macromolecules
 
 <div id="MC-macromolecules-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MC-macromolecules-questions.txt" download title="Download bbq-MC-macromolecules-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-macromolecules-questions.txt)">
@@ -185,7 +185,7 @@ Molecular design of life, major elements, and biomacromolecules.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Types of Macromolecules
+      Types of Macromolecules
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -196,7 +196,7 @@ Molecular design of life, major elements, and biomacromolecules.
 </details>
 
 
-## Identifying Hydrophobic Compounds from Molecular Formulas
+## Hydrophobic Compounds from Molecular Formulas
 
 <div id="which_hydrophobic-simple-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-which_hydrophobic-simple-questions.txt" download title="Download bbq-which_hydrophobic-simple-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-which_hydrophobic-simple-questions.txt)">
@@ -217,7 +217,7 @@ Molecular design of life, major elements, and biomacromolecules.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Hydrophobic Compounds from Molecular Formulas
+      Hydrophobic Compounds from Molecular Formulas
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -228,7 +228,7 @@ Molecular design of life, major elements, and biomacromolecules.
 </details>
 
 
-## Identifying Macromolecule Types from Chemical Structures
+## Macromolecule Types from Chemical Structures
 
 <div id="which_macromolecule-MC-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-which_macromolecule-MC-questions.txt" download title="Download bbq-which_macromolecule-MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-which_macromolecule-MC-questions.txt)">
@@ -249,7 +249,7 @@ Molecular design of life, major elements, and biomacromolecules.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Macromolecule Types from Chemical Structures
+      Macromolecule Types from Chemical Structures
     </span>
     <span style='font-weight: normal;'>
       example problem

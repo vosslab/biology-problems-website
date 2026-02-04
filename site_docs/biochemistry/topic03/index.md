@@ -4,7 +4,7 @@ Amino acid structure, types, and roles in protein structure.
 
 **LibreTexts reference:** [Amino Acids and Peptides](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/03:_Amino_Acids_and_Peptides)
 
-## Matching Amino Acids to Descriptive Properties
+## Amino Acids and Descriptive Properties
 
 <div id="MATCH-amino_acids_properties-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-amino_acids_properties-questions.txt" download title="Download bbq-MATCH-amino_acids_properties-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-amino_acids_properties-questions.txt)">
@@ -25,7 +25,7 @@ Amino acid structure, types, and roles in protein structure.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Amino Acids to Descriptive Properties
+      Amino Acids and Descriptive Properties
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -36,7 +36,7 @@ Amino acid structure, types, and roles in protein structure.
 </details>
 
 
-## Identifying Amino Acids by Structural Features
+## Amino Acids by Structural Features
 
 <div id="MC-amino_acids_properties-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MC-amino_acids_properties-questions.txt" download title="Download bbq-MC-amino_acids_properties-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-amino_acids_properties-questions.txt)">
@@ -57,7 +57,7 @@ Amino acid structure, types, and roles in protein structure.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Amino Acids by Structural Features
+      Amino Acids by Structural Features
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -68,7 +68,7 @@ Amino acid structure, types, and roles in protein structure.
 </details>
 
 
-## Determining Ionic Bond Formation in Amino Acid Side Chains
+## Ionic Bond Formation in Amino Acid Side Chains
 
 <div id="ionic_bond_amino_acids-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-ionic_bond_amino_acids-questions.txt" download title="Download bbq-ionic_bond_amino_acids-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-ionic_bond_amino_acids-questions.txt)">
@@ -89,7 +89,7 @@ Amino acid structure, types, and roles in protein structure.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Ionic Bond Formation in Amino Acid Side Chains
+      Ionic Bond Formation in Amino Acid Side Chains
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -100,7 +100,7 @@ Amino acid structure, types, and roles in protein structure.
 </details>
 
 
-## Identifying Dipeptide Sequences from Descriptions
+## Dipeptide Sequences from Descriptions
 
 <div id="polypeptide_mc_sequence-2_amino_acids-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-polypeptide_mc_sequence-2_amino_acids-questions.txt" download title="Download bbq-polypeptide_mc_sequence-2_amino_acids-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-polypeptide_mc_sequence-2_amino_acids-questions.txt)">
@@ -118,7 +118,7 @@ Amino acid structure, types, and roles in protein structure.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Dipeptide Sequences from Descriptions
+      Dipeptide Sequences from Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -129,7 +129,7 @@ Amino acid structure, types, and roles in protein structure.
 </details>
 
 
-## Identifying Tripeptide Sequences from Structural Descriptions
+## Tripeptide Sequences from Structural Descriptions
 
 <div id="polypeptide_mc_sequence-3_amino_acids-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-polypeptide_mc_sequence-3_amino_acids-questions.txt" download title="Download bbq-polypeptide_mc_sequence-3_amino_acids-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-polypeptide_mc_sequence-3_amino_acids-questions.txt)">
@@ -147,7 +147,7 @@ Amino acid structure, types, and roles in protein structure.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Tripeptide Sequences from Structural Descriptions
+      Tripeptide Sequences from Structural Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -158,7 +158,7 @@ Amino acid structure, types, and roles in protein structure.
 </details>
 
 
-## Identifying Peptide Sequences with Four Amino Acids
+## Peptide Sequences with Four Amino Acids
 
 <div id="polypeptide_mc_sequence-4_amino_acids-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-polypeptide_mc_sequence-4_amino_acids-questions.txt" download title="Download bbq-polypeptide_mc_sequence-4_amino_acids-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-polypeptide_mc_sequence-4_amino_acids-questions.txt)">
@@ -176,7 +176,7 @@ Amino acid structure, types, and roles in protein structure.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Peptide Sequences with Four Amino Acids
+      Peptide Sequences with Four Amino Acids
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -187,7 +187,7 @@ Amino acid structure, types, and roles in protein structure.
 </details>
 
 
-## Identifying Amino Acids from Chemical Structures
+## Amino Acids from Chemical Structures
 
 <div id="which_amino_acid-FIB-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-which_amino_acid-FIB-questions.txt" download title="Download bbq-which_amino_acid-FIB-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-which_amino_acid-FIB-questions.txt)">
@@ -205,7 +205,7 @@ Amino acid structure, types, and roles in protein structure.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Amino Acids from Chemical Structures
+      Amino Acids from Chemical Structures
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -216,7 +216,7 @@ Amino acid structure, types, and roles in protein structure.
 </details>
 
 
-## Identifying Amino Acids from Chemical Structures (7 Choices)
+## Amino Acids from Chemical Structures (7 Choices)
 
 <div id="which_amino_acid-MC-7_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-which_amino_acid-MC-7_choices-questions.txt" download title="Download bbq-which_amino_acid-MC-7_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-which_amino_acid-MC-7_choices-questions.txt)">
@@ -234,7 +234,7 @@ Amino acid structure, types, and roles in protein structure.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Amino Acids from Chemical Structures (7 Choices)
+      Amino Acids from Chemical Structures (7 Choices)
     </span>
     <span style='font-weight: normal;'>
       example problem
