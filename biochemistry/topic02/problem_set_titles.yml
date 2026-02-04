@@ -1,15 +1,36 @@
-bbq-Henderson-Hasselbalch-EQUATION-questions.txt: Identifying the Correct Henderson-Hasselbalch Equation
-bbq-Henderson-Hasselbalch-pH_mc-questions.txt: Identifying pH Using the Henderson-Hasselbalch Equation
-bbq-Henderson-Hasselbalch-pH_num-questions.txt: Calculating pH Using the Henderson-Hasselbalch Equation
-bbq-Henderson-Hasselbalch-pKa_mc-questions.txt: Identifying pKa and pKb Using the Henderson-Hasselbalch Equation
-bbq-Henderson-Hasselbalch-pKa_num-questions.txt: Calculating pKa and pKb Using the Henderson-Hasselbalch Equation
-bbq-Henderson-Hasselbalch-ratio_mc-questions.txt: Identifying Acid-Base Ratios Using the Henderson-Hasselbalch Equation
-bbq-Henderson-Hasselbalch-ratio_num-questions.txt: Calculating Conjugate Base-Acid Ratios Using the Henderson-Hasselbalch Equation
-bbq-chemical_group_pka_forms-questions.txt: Determining Protonation States of Functional Groups at Different pH Levels
-bbq-functional_groups_bond_types-questions.txt: Determining Functional Groups with Single Bonds
-bbq-optimal_buffering_range-questions.txt: Determining Optimal Buffering Range Using pKa
-bbq-pKa_buffer_state-2_protons-questions.txt: Determining the Most Abundant Diprotic State at a Given pH Using pKa
-bbq-pKa_buffer_state-3_protons-questions.txt: Determining the Most Abundant Triprotic State at a Given pH Using pKa
-bbq-pKa_buffer_state-4_protons-questions.txt: Determining the Most Abundant Tetraprotic State at a Given pH Using pKa
-bbq-ph_h_concentration_ratio-questions.txt: Determining pH Differences Between Solutions
-last edit: Tue Feb  3 16:26:44 2026
+bbq-Henderson-Hasselbalch-EQUATION-questions.txt: The Correct Henderson-Hasselbalch
+  Equation
+bbq-Henderson-Hasselbalch-equation-questions.txt: 'Correct Form of the Henderson-Hasselbalch
+  Equation
+
+
+  This title reflects the primary task of determining which equations correctly represent
+  the Henderson-Hasselbalch equation, a concept related to pH and buffer solutions.
+  The filename indicates that these problems involve variations or representations
+  of this equation, making "identifying" an appropriate verb as students need to discern
+  the correct form among given options. This concise heading effectively classifies
+  the problem set for both students and educators.'
+bbq-Henderson-Hasselbalch-pH_mc-questions.txt: pH Using the Henderson-Hasselbalch
+  Equation
+bbq-Henderson-Hasselbalch-pH_num-questions.txt: pH Using the Henderson-Hasselbalch
+  Equation
+bbq-Henderson-Hasselbalch-pKa_mc-questions.txt: pKa and pKb Using the Henderson-Hasselbalch
+  Equation
+bbq-Henderson-Hasselbalch-pKa_num-questions.txt: pKa and pKb Using the Henderson-Hasselbalch
+  Equation
+bbq-Henderson-Hasselbalch-ratio_mc-questions.txt: Acid-Base Ratios Using the Henderson-Hasselbalch
+  Equation
+bbq-Henderson-Hasselbalch-ratio_num-questions.txt: Conjugate Base-Acid Ratios Using
+  the Henderson-Hasselbalch Equation
+bbq-chemical_group_pka_forms-questions.txt: Protonation States of Functional Groups
+  at Different pH Levels
+bbq-functional_groups_bond_types-questions.txt: Functional Groups with Single Bonds
+bbq-optimal_buffering_range-questions.txt: Optimal Buffering Range Using pKa
+bbq-pKa_buffer_state-2_protons-questions.txt: The Most Abundant Diprotic State at
+  a Given pH Using pKa
+bbq-pKa_buffer_state-3_protons-questions.txt: The Most Abundant Triprotic State at
+  a Given pH Using pKa
+bbq-pKa_buffer_state-4_protons-questions.txt: The Most Abundant Tetraprotic State
+  at a Given pH Using pKa
+bbq-ph_h_concentration_ratio-questions.txt: pH Differences Between Solutions
+last edit: Wed Feb  4 08:15:53 2026
