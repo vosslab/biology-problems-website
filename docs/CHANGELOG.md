@@ -5,6 +5,9 @@
 - Removed leading task verbs from `problem_set_titles.yml` titles across `site_docs/` and refreshed timestamps.
 - Refined `problem_set_titles.yml` titles across `site_docs/` to remove matching-style "to" phrasing and other leftover action wording.
 - Made `generate_topic_pages.py` locate `bbq_converter.py` from repo or sibling `qti_package_maker` paths when the old symlink target is missing.
+- Fixed case mismatches in `site_docs/biochemistry/topic02/index.md` to match the tracked Henderson-Hasselbalch download filenames.
+- Taught `generate_topic_pages.py` to resolve case mismatches using Git-tracked paths and warn when files differ only by case.
+- Updated `generate_topic_pages.py` to remove case-mismatched download files before generating new outputs, keeping BBQ filename casing authoritative.
 
 ## 2026-02-03
 - Added argparse options, per-format logging, and summary stats to `generate_topic_pages.py`.
