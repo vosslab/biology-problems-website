@@ -1,8 +1,8 @@
-bbq-D_to_L_Fischer_configuration-questions.txt: Determining D and L Configurations from Fischer Projections
-bbq-D_to_L_Haworth_configuration-questions.txt: Determining D and L Configurations from Haworth Projections
-bbq-MATCH-polysaccharides-questions.txt: Matching Common Polysaccharides to Descriptions
-bbq-MC-polysaccharides-questions.txt: Identifying Characteristics of Common Polysaccharides
-bbq-classify_Fischer-questions.txt: Determining Monosaccharide Classes from Fischer Projections
-bbq-classify_Haworth-questions.txt: Determining Monosaccharide Classes from Haworth Projections
-bbq-convert_Fischer_and_Haworth-questions.txt: Determining Conversions Between Fischer and Haworth Projections
-last edit: Tue Feb  3 16:26:44 2026
+bbq-D_to_L_Fischer_configuration-questions.txt: D and L Configurations from Fischer Projections
+bbq-D_to_L_Haworth_configuration-questions.txt: D and L Configurations from Haworth Projections
+bbq-MATCH-polysaccharides-questions.txt: Common Polysaccharides and Descriptions
+bbq-MC-polysaccharides-questions.txt: Characteristics of Common Polysaccharides
+bbq-classify_Fischer-questions.txt: Monosaccharide Classes from Fischer Projections
+bbq-classify_Haworth-questions.txt: Monosaccharide Classes from Haworth Projections
+bbq-convert_Fischer_and_Haworth-questions.txt: Conversions Between Fischer and Haworth Projections
+last edit: Wed Feb  4 07:53:32 2026

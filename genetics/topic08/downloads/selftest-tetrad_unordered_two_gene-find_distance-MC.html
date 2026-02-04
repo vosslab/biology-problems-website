@@ -1,15 +1,15 @@
-<script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
+<script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
 <div class="qti-selftest">
-<div id="question_html_1f3b_ce4f">
-<div id="statement_text_1f3b_ce4f">
+<div id="question_html_7960_d2bd">
+<div id="statement_text_7960_d2bd">
 <h5>Unordered Tetrad Two Gene Mapping</h5>
 <p>In this problem, you will use unordered tetrads to determine the between a single pair of genes and calculate the distances between them. The yeast <i>Saccharomyces cerevisiae</i> is used in this study. A cross has been performed to study the linkage relationships among two genes, and the resulting genotypes are summarized in the table below.</p>
 <h6>Characteristics of Recessive Phenotypes</h6>
 <p></p>
 <ul>
 <li>
-<strong><span style="color: #663300;">Gene D</span></strong> is linked with the '<span style="color: #663300;"><i>doubled</i></span>' phenotype. A budding yeast that is homozygous recessive for <span style="color: #663300;">Gene D</span> cells display double or multiple budding, with several buds emerging simultaneously.</li> <li>
-<strong><span style="color: #008066;">Gene T</span></strong> is correlated with the '<span style="color: #008066;"><i>toxic</i></span>' phenotype. A budding yeast that is homozygous recessive for <span style="color: #008066;">Gene T</span> secretes a toxic compound that inhibits or kills other microbial colonies nearby.</li> </ul>
+<strong><span style="color: #076cab;">Gene B</span></strong> is affiliated with the '<span style="color: #076cab;"><i>bubbly</i></span>' phenotype. A budding yeast that is homozygous recessive for <span style="color: #076cab;">Gene B</span> produces excessive gas bubbles during growth, causing foamy appearance of the media.</li> <li>
+<strong><span style="color: #99004d;">Gene R</span></strong> is analogous to the '<span style="color: #99004d;"><i>rusty</i></span>' phenotype. A budding yeast that is homozygous recessive for <span style="color: #99004d;">Gene R</span> colonies develop a reddish-brown pigmentation, reminiscent of rusted metal.</li> </ul>
 <table style="border-collapse: collapse; border: 2px solid black; width: 400px; height: 220px;">
 <tr>
 <th align="center" style="border: 1px solid black;">Set #</th> <th colspan="4" align="center" style="border: 1px solid black;">Tetrad Genotypes</th> <th align="center" style="border: 1px solid black;">Progeny<br>Count</th>
@@ -20,35 +20,35 @@
 </tr></table></div></span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
 <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #b30000;">+</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #008000;">+</span></td>
 </tr></table></div></span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
-<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">d</span></td> <td align="center" style="border: 0px; background-color: #ccffcc"><span style="font-size: large; font-family: monospace;">t</span></td>
+<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">b</span></td> <td align="center" style="border: 0px; background-color: #ccffcc"><span style="font-size: large; font-family: monospace;">r</span></td>
 </tr></table></div></span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
-<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">d</span></td> <td align="center" style="border: 0px; background-color: #ccffcc"><span style="font-size: large; font-family: monospace;">t</span></td>
-</tr></table></div></span></td> <td align="right" style="border: 1px solid black;"><span style="font-size: medium;">77</span></td>
+<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">b</span></td> <td align="center" style="border: 0px; background-color: #ccffcc"><span style="font-size: large; font-family: monospace;">r</span></td>
+</tr></table></div></span></td> <td align="right" style="border: 1px solid black;"><span style="font-size: medium;">27</span></td>
 </tr>
 <tr>
 <td align="center" style="border: 1px solid black;"><span style="font-size: medium;">2</span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
 <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #b30000;">+</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #008000;">+</span></td>
 </tr></table></div></span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
-<td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #b30000;">+</span></td> <td align="center" style="border: 0px; background-color: #ccffcc"><span style="font-size: large; font-family: monospace;">t</span></td>
+<td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #b30000;">+</span></td> <td align="center" style="border: 0px; background-color: #ccffcc"><span style="font-size: large; font-family: monospace;">r</span></td>
 </tr></table></div></span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
-<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">d</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #008000;">+</span></td>
+<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">b</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #008000;">+</span></td>
 </tr></table></div></span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
-<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">d</span></td> <td align="center" style="border: 0px; background-color: #ccffcc"><span style="font-size: large; font-family: monospace;">t</span></td>
-</tr></table></div></span></td> <td align="right" style="border: 1px solid black;"><span style="font-size: medium;">2,206</span></td>
+<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">b</span></td> <td align="center" style="border: 0px; background-color: #ccffcc"><span style="font-size: large; font-family: monospace;">r</span></td>
+</tr></table></div></span></td> <td align="right" style="border: 1px solid black;"><span style="font-size: medium;">722</span></td>
 </tr>
 <tr>
 <td align="center" style="border: 1px solid black;"><span style="font-size: medium;">3</span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
-<td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #b30000;">+</span></td> <td align="center" style="border: 0px; background-color: #ccffcc"><span style="font-size: large; font-family: monospace;">t</span></td>
+<td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #b30000;">+</span></td> <td align="center" style="border: 0px; background-color: #ccffcc"><span style="font-size: large; font-family: monospace;">r</span></td>
 </tr></table></div></span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
-<td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #b30000;">+</span></td> <td align="center" style="border: 0px; background-color: #ccffcc"><span style="font-size: large; font-family: monospace;">t</span></td>
+<td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #b30000;">+</span></td> <td align="center" style="border: 0px; background-color: #ccffcc"><span style="font-size: large; font-family: monospace;">r</span></td>
 </tr></table></div></span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
-<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">d</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #008000;">+</span></td>
+<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">b</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #008000;">+</span></td>
 </tr></table></div></span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
-<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">d</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #008000;">+</span></td>
-</tr></table></div></span></td> <td align="right" style="border: 1px solid black;"><span style="font-size: medium;">3,517</span></td>
+<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">b</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #008000;">+</span></td>
+</tr></table></div></span></td> <td align="right" style="border: 1px solid black;"><span style="font-size: medium;">1,051</span></td>
 </tr>
 <tr>
-<th colspan="5" align="right" style="border: 1px solid black;">TOTAL =</th> <td align="right" style="border: 1px solid black;">5,800</td>
+<th colspan="5" align="right" style="border: 1px solid black;">TOTAL =</th> <td align="right" style="border: 1px solid black;">1,800</td>
 </tr>
 </table>
 <p>The resulting phenotypes are summarized in the table above.</p> <h6>Step-by-Step Instructions</h6>
@@ -56,85 +56,85 @@
 <li>Step 1: Find the row for the Parental Type for all three genes.</li> <li>Step 2: Looking at only your two genes, assign PD, NPD, TT.</li> <li>Step 3: Determine if the two genes are linked.</li> <ul><li>PD &gt;&gt; NPD &#8594; linked; PD &#8776; NPD &#8594; unlinked</li></ul>
 <li>Step 4: Determine the map distance between the two genes.</li> <ul><li>D = ½ (TT + 6 NPD) / total = (3 NPD + ½ TT) / total</li></ul>
 </ul>
-<h5>Determine the distance between the two genes D and T</h5>
+<h5>Determine the distance between the two genes B and R</h5>
 </div>
 <form>
-<ul id="choices_1f3b_ce4f">
+<ul id="choices_7960_d2bd">
 <li>
-    <input type="radio" id="option0" name="answer_1f3b_ce4f" data-correct="false"><label for="option0">distance = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">½(77) + 3×(77)</td></tr>
-<tr><td style="text-align: center;">5,800</td></tr>
+    <input type="radio" id="option0" name="answer_7960_d2bd" data-correct="false"><label for="option0">distance = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
+<tr><td style="border-bottom: 1px solid black; text-align: center;">½(27) + 3×(27)</td></tr>
+<tr><td style="text-align: center;">1,800</td></tr>
 </table> = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">38.5 + 231</td></tr>
-<tr><td style="text-align: center;">5,800</td></tr>
+<tr><td style="border-bottom: 1px solid black; text-align: center;">13.5 + 81</td></tr>
+<tr><td style="text-align: center;">1,800</td></tr>
 </table> = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">269.5</td></tr>
-<tr><td style="text-align: center;">5,800</td></tr>
-</table> = 0.0465 = <strong>4.65 cM</strong></label>
+<tr><td style="border-bottom: 1px solid black; text-align: center;">94.5</td></tr>
+<tr><td style="text-align: center;">1,800</td></tr>
+</table> = 0.0525 = <strong>5.25 cM</strong></label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_1f3b_ce4f" data-correct="false"><label for="option1">distance = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">½(0) + 3×(77)</td></tr>
-<tr><td style="text-align: center;">5,800</td></tr>
+    <input type="radio" id="option1" name="answer_7960_d2bd" data-correct="false"><label for="option1">distance = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
+<tr><td style="border-bottom: 1px solid black; text-align: center;">½(0) + 3×(27)</td></tr>
+<tr><td style="text-align: center;">1,800</td></tr>
 </table> = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">0 + 231</td></tr>
-<tr><td style="text-align: center;">5,800</td></tr>
+<tr><td style="border-bottom: 1px solid black; text-align: center;">0 + 81</td></tr>
+<tr><td style="text-align: center;">1,800</td></tr>
 </table> = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">231</td></tr>
-<tr><td style="text-align: center;">5,800</td></tr>
-</table> = 0.0398 = <strong>3.98 cM</strong></label>
+<tr><td style="border-bottom: 1px solid black; text-align: center;">81</td></tr>
+<tr><td style="text-align: center;">1,800</td></tr>
+</table> = 0.0450 = <strong>4.50 cM</strong></label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_1f3b_ce4f" data-correct="false"><label for="option2">distance = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">½(77) + 3×(0)</td></tr>
-<tr><td style="text-align: center;">5,800</td></tr>
+    <input type="radio" id="option2" name="answer_7960_d2bd" data-correct="false"><label for="option2">distance = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
+<tr><td style="border-bottom: 1px solid black; text-align: center;">½(722 + 1,051) + 3×(27)</td></tr>
+<tr><td style="text-align: center;">1,800</td></tr>
 </table> = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">38.5 + 0</td></tr>
-<tr><td style="text-align: center;">5,800</td></tr>
+<tr><td style="border-bottom: 1px solid black; text-align: center;">886.5 + 81</td></tr>
+<tr><td style="text-align: center;">1,800</td></tr>
 </table> = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">38.5</td></tr>
-<tr><td style="text-align: center;">5,800</td></tr>
-</table> = 0.0066 = <strong>0.66 cM</strong></label>
+<tr><td style="border-bottom: 1px solid black; text-align: center;">967.5</td></tr>
+<tr><td style="text-align: center;">1,800</td></tr>
+</table> = 0.5375 = <strong>53.75 cM</strong></label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_1f3b_ce4f" data-correct="true"><label for="option3">distance = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">½(2,206) + 3×(77)</td></tr>
-<tr><td style="text-align: center;">5,800</td></tr>
+    <input type="radio" id="option3" name="answer_7960_d2bd" data-correct="true"><label for="option3">distance = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
+<tr><td style="border-bottom: 1px solid black; text-align: center;">½(722) + 3×(27)</td></tr>
+<tr><td style="text-align: center;">1,800</td></tr>
 </table> = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">1,103 + 231</td></tr>
-<tr><td style="text-align: center;">5,800</td></tr>
+<tr><td style="border-bottom: 1px solid black; text-align: center;">361 + 81</td></tr>
+<tr><td style="text-align: center;">1,800</td></tr>
 </table> = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">1,334</td></tr>
-<tr><td style="text-align: center;">5,800</td></tr>
-</table> = 0.2300 = <strong>23 cM</strong></label>
+<tr><td style="border-bottom: 1px solid black; text-align: center;">442</td></tr>
+<tr><td style="text-align: center;">1,800</td></tr>
+</table> = 0.2456 = <strong>24.56 cM</strong></label>
   </li>
   <li>
-    <input type="radio" id="option4" name="answer_1f3b_ce4f" data-correct="false"><label for="option4">distance = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">½(3,517) + 3×(0)</td></tr>
-<tr><td style="text-align: center;">5,800</td></tr>
+    <input type="radio" id="option4" name="answer_7960_d2bd" data-correct="false"><label for="option4">distance = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
+<tr><td style="border-bottom: 1px solid black; text-align: center;">½(722) + 3×(0)</td></tr>
+<tr><td style="text-align: center;">1,800</td></tr>
 </table> = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">1758.5 + 0</td></tr>
-<tr><td style="text-align: center;">5,800</td></tr>
+<tr><td style="border-bottom: 1px solid black; text-align: center;">361 + 0</td></tr>
+<tr><td style="text-align: center;">1,800</td></tr>
 </table> = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">1758.5</td></tr>
-<tr><td style="text-align: center;">5,800</td></tr>
-</table> = 0.3032 = <strong>30.32 cM</strong></label>
+<tr><td style="border-bottom: 1px solid black; text-align: center;">361</td></tr>
+<tr><td style="text-align: center;">1,800</td></tr>
+</table> = 0.2006 = <strong>20.06 cM</strong></label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_1f3b_ce4f()">Check Answer</button>
-<div id="result_1f3b_ce4f" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_7960_d2bd()">Check Answer</button>
+<div id="result_7960_d2bd" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_1f3b_ce4f() {
- const options = document.getElementsByName('answer_1f3b_ce4f');
+function checkAnswer_7960_d2bd() {
+ const options = document.getElementsByName('answer_7960_d2bd');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_1f3b_ce4f');
+ const resultDiv = document.getElementById('result_7960_d2bd');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'var(--qti-success-fg, #008000)';

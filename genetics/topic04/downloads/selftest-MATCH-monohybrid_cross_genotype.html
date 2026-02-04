@@ -1,7 +1,7 @@
-<script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
+<script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
 <div class="qti-selftest">
-<div id="question_html_62d1_0dd1">
-<div id="statement_text_62d1_0dd1"><p>Match each of the following parental genotypes in monohybrid crosses with their corresponding descriptions of the progeny.<br><i>Note:</i> Each choice will be used exactly once.</p></div>
+<div id="question_html_62d1_023c">
+<div id="statement_text_62d1_023c"><p>Match each of the following parental genotypes in monohybrid crosses with their corresponding descriptions of the progeny.<br><i>Note:</i> Each choice will be used exactly once.</p></div>
 <!-- Matching Table -->
 <table style="border: 1px solid var(--qti-border, #999999); border-collapse: collapse;">
 <thead><tr>
@@ -12,69 +12,69 @@
 <tbody>
 <tr>
 <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-			<td class="dropzone qti-dropzone" data-correct="62d1_0dd1_001" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
-			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">1. <strong><span style="color: #ba372a;">AA</span></strong><strong>×</strong><strong><span style="color: #843fa1;">Aa</span></strong>
+			<td class="dropzone qti-dropzone" data-correct="62d1_023c_001" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">1. <strong><span style="color: #ba372a;">AA</span></strong><strong>×</strong><strong><span style="color: #ba372a;">AA</span></strong>
 </td>
 		</tr>
 <tr>
 <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-			<td class="dropzone qti-dropzone" data-correct="62d1_0dd1_002" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
-			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">2. <strong><span style="color: #ba372a;">AA</span></strong><strong>×</strong><strong><span style="color: #ba372a;">AA</span></strong>
+			<td class="dropzone qti-dropzone" data-correct="62d1_023c_002" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">2. <strong><span style="color: #843fa1;">Aa</span></strong><strong>×</strong><strong><span style="color: #843fa1;">Aa</span></strong>
 </td>
 		</tr>
 <tr>
 <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-			<td class="dropzone qti-dropzone" data-correct="62d1_0dd1_003" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
-			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">3. <strong><span style="color: #843fa1;">Aa</span></strong><strong>×</strong><strong><span style="color: #843fa1;">Aa</span></strong>
+			<td class="dropzone qti-dropzone" data-correct="62d1_023c_003" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">3. <strong><span style="color: #ba372a;">AA</span></strong><strong>×</strong><strong><span style="color: #236fa1;">aa</span></strong>
 </td>
 		</tr>
 <tr>
 <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-			<td class="dropzone qti-dropzone" data-correct="62d1_0dd1_004" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
-			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">4. <strong><span style="color: #236fa1;">aa</span></strong><strong>×</strong><strong><span style="color: #236fa1;">aa</span></strong>
+			<td class="dropzone qti-dropzone" data-correct="62d1_023c_004" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">4. <strong><span style="color: #ba372a;">AA</span></strong><strong>×</strong><strong><span style="color: #843fa1;">Aa</span></strong>
 </td>
 		</tr>
 <tr>
 <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-			<td class="dropzone qti-dropzone" data-correct="62d1_0dd1_005" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
-			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">5. <strong><span style="color: #843fa1;">Aa</span></strong><strong>×</strong><strong><span style="color: #236fa1;">aa</span></strong>
+			<td class="dropzone qti-dropzone" data-correct="62d1_023c_005" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">5. <strong><span style="color: #236fa1;">aa</span></strong><strong>×</strong><strong><span style="color: #236fa1;">aa</span></strong>
 </td>
 		</tr>
 <tr>
 <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-			<td class="dropzone qti-dropzone" data-correct="62d1_0dd1_006" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
-			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">6. <strong><span style="color: #ba372a;">AA</span></strong><strong>×</strong><strong><span style="color: #236fa1;">aa</span></strong>
+			<td class="dropzone qti-dropzone" data-correct="62d1_023c_006" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">6. <strong><span style="color: #843fa1;">Aa</span></strong><strong>×</strong><strong><span style="color: #236fa1;">aa</span></strong>
 </td>
 		</tr>
 </tbody>
 </table>
 <p style="font-style: italic; font-size: 14px; margin-top: 10px;">Drag one of the choices below:</p>
 <ul id="choiceList" style="list-style: none; padding: 0;">
-<li class="draggable qti-choice-2" draggable="true" data-value="62d1_0dd1_006" title="All offspring have the dominant phenotype and are heterozygous" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-2-bg); display: inline-block;">
-		<span style="color: var(--qti-choice-2-fg);"><strong>A.</strong> All offspring have the dominant phenotype and are heterozygous</span>
+<li class="draggable qti-choice-2" draggable="true" data-value="62d1_023c_002" title="25% of the offspring are homozygous dominant" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-2-bg); display: inline-block;">
+		<span style="color: var(--qti-choice-2-fg);"><strong>A.</strong> 25% of the offspring are homozygous dominant</span>
 	</li>
-	<li class="draggable qti-choice-3" draggable="true" data-value="62d1_0dd1_004" title="Produces only the recessive phenotype in progeny" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-3-bg); display: inline-block;">
-		<span style="color: var(--qti-choice-3-fg);"><strong>B.</strong> Produces only the recessive phenotype in progeny</span>
+	<li class="draggable qti-choice-3" draggable="true" data-value="62d1_023c_003" title="Produces only heterozygotes in progeny" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-3-bg); display: inline-block;">
+		<span style="color: var(--qti-choice-3-fg);"><strong>B.</strong> Produces only heterozygotes in progeny</span>
 	</li>
-	<li class="draggable qti-choice-4" draggable="true" data-value="62d1_0dd1_002" title="All offspring have the same dominant genotype and phenotype" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-4-bg); display: inline-block;">
-		<span style="color: var(--qti-choice-4-fg);"><strong>C.</strong> All offspring have the same dominant genotype and phenotype</span>
+	<li class="draggable qti-choice-4" draggable="true" data-value="62d1_023c_006" title="Half of the offspring display the recessive phenotype" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-4-bg); display: inline-block;">
+		<span style="color: var(--qti-choice-4-fg);"><strong>C.</strong> Half of the offspring display the recessive phenotype</span>
 	</li>
-	<li class="draggable qti-choice-5" draggable="true" data-value="62d1_0dd1_003" title="25% of the offspring are homozygous dominant" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-5-bg); display: inline-block;">
-		<span style="color: var(--qti-choice-5-fg);"><strong>D.</strong> 25% of the offspring are homozygous dominant</span>
+	<li class="draggable qti-choice-5" draggable="true" data-value="62d1_023c_005" title="All offspring have the same recessive genotype and phenotype" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-5-bg); display: inline-block;">
+		<span style="color: var(--qti-choice-5-fg);"><strong>D.</strong> All offspring have the same recessive genotype and phenotype</span>
 	</li>
-	<li class="draggable qti-choice-1" draggable="true" data-value="62d1_0dd1_005" title="50% of the offspring are homozygous recessive" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-1-bg); display: inline-block;">
-		<span style="color: var(--qti-choice-1-fg);"><strong>E.</strong> 50% of the offspring are homozygous recessive</span>
+	<li class="draggable qti-choice-1" draggable="true" data-value="62d1_023c_004" title="Yields offspring with 50% homozygous dominant and 50% heterozygous genotypes" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-1-bg); display: inline-block;">
+		<span style="color: var(--qti-choice-1-fg);"><strong>E.</strong> Yields offspring with 50% homozygous dominant and 50% heterozygous genotypes</span>
 	</li>
-	<li class="draggable qti-choice-2" draggable="true" data-value="62d1_0dd1_001" title="Yields offspring with 50% homozygous dominant and 50% heterozygous genotypes" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-2-bg); display: inline-block;">
-		<span style="color: var(--qti-choice-2-fg);"><strong>F.</strong> Yields offspring with 50% homozygous dominant and 50% heterozygous genotypes</span>
+	<li class="draggable qti-choice-2" draggable="true" data-value="62d1_023c_001" title="All offspring have the same dominant genotype and phenotype" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-2-bg); display: inline-block;">
+		<span style="color: var(--qti-choice-2-fg);"><strong>F.</strong> All offspring have the same dominant genotype and phenotype</span>
 	</li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_62d1_0dd1()">Check Answer</button>
-<button type="button" class="md-button md-button--secondary custom-button qti-btn qti-btn-reset" onclick="resetGame_62d1_0dd1()">Reset Game</button>
-<div id="result_62d1_0dd1" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_62d1_023c()">Check Answer</button>
+<button type="button" class="md-button md-button--secondary custom-button qti-btn qti-btn-reset" onclick="resetGame_62d1_023c()">Reset Game</button>
+<div id="result_62d1_023c" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </div><script>
-	function initDragAndDrop_62d1_0dd1() {
-		const container = document.getElementById('question_html_62d1_0dd1');
+	function initDragAndDrop_62d1_023c() {
+		const container = document.getElementById('question_html_62d1_023c');
 		if (!container) {
 			return;
 		}
@@ -122,11 +122,11 @@
 			});
 		});
 	}
-	initDragAndDrop_62d1_0dd1();
+	initDragAndDrop_62d1_023c();
 </script>
 <script>
-	function checkAnswer_62d1_0dd1() {
-		const container = document.getElementById('question_html_62d1_0dd1');
+	function checkAnswer_62d1_023c() {
+		const container = document.getElementById('question_html_62d1_023c');
 		if (!container) {
 			return;
 		}
@@ -154,7 +154,7 @@
 		});
 
 		feedbackText = `Total Score: ${score} out of ${possible}`;
-		const resultDiv = document.getElementById('result_62d1_0dd1');
+		const resultDiv = document.getElementById('result_62d1_023c');
 		if (score === possible) {
 			resultDiv.style.color = 'var(--qti-success-fg, #008000)';
 		}
@@ -168,8 +168,8 @@
 	}
 </script>
 <script>
-	function resetGame_62d1_0dd1() {
-		const container = document.getElementById('question_html_62d1_0dd1');
+	function resetGame_62d1_023c() {
+		const container = document.getElementById('question_html_62d1_023c');
 		if (!container) {
 			return;
 		}
@@ -186,7 +186,7 @@
 			cell.textContent = "";
 			cell.style.backgroundColor = "transparent";
 		});
-		document.getElementById("result_62d1_0dd1").innerHTML = "";
+		document.getElementById("result_62d1_023c").innerHTML = "";
 	}
 </script>
 
