@@ -45,6 +45,7 @@ INPUT_SCRIPT_BASENAMES = {
 	"yaml_mc_statements_to_bbq.py",
 	"yaml_make_match_sets.py",
 }
+DISABLE_ANTICHEAT_FLAGS = ("--no-hidden-terms", "--allow-click")
 
 
 def color(text: str, code: str) -> str:
@@ -208,28 +209,35 @@ def apply_env_overrides(path_aliases: dict) -> dict:
 	return updated
 
 
+def _pythonpath_has_repo(python_parts: list, repo_name: str) -> bool:
+	for part in python_parts:
+		if not part:
+			continue
+		normalized = os.path.abspath(os.path.expanduser(part))
+		path_parts = [segment for segment in normalized.split(os.sep) if segment]
+		if repo_name in path_parts:
+			return True
+	return False
+
+
 def check_pythonpath(bbq_config: dict) -> tuple:
 	pythonpath_value = os.environ.get("PYTHONPATH", "").strip()
 	if not pythonpath_value:
 		return False, "ERROR: PYTHONPATH is not set. Run: source bbq_control/source_me.sh"
-	paths_config = bbq_config.get("paths", {}) if isinstance(bbq_config, dict) else {}
-	path_aliases = resolve_alias_map(paths_config)
-	path_aliases = apply_env_overrides(path_aliases)
-	bp_root = (path_aliases.get("bp_root") or "").strip()
-	expected = ""
-	if bp_root:
-		if os.path.basename(bp_root) == "problems":
-			expected = os.path.dirname(bp_root)
-		else:
-			expected = bp_root
-	if expected:
-		python_parts = pythonpath_value.split(os.pathsep)
-		if expected not in python_parts:
-			message = (
-				"ERROR: PYTHONPATH does not include "
-				f"{expected}. Run: source bbq_control/source_me.sh"
-			)
-			return False, message
+	python_parts = [part.strip() for part in pythonpath_value.split(os.pathsep) if part.strip()]
+	required_repos = ("biology-problems", "qti_package_maker")
+	missing_repos = []
+	for repo_name in required_repos:
+		if _pythonpath_has_repo(python_parts, repo_name):
+			continue
+		missing_repos.append(repo_name)
+	if missing_repos:
+		missing_text = ", ".join(missing_repos)
+		message = (
+			"ERROR: PYTHONPATH is missing required repo path(s): "
+			f"{missing_text}. Run: source bbq_control/source_me.sh"
+		)
+		return False, message
 	return True, ""
 
 
@@ -1215,6 +1223,10 @@ def main():
 			continue
 		task.setdefault("extra_args", [])
 		task["extra_args"].extend(["-d", str(duplicates_count)])
+	# Force anti-cheat off for all generated scripts.
+	for task in tasks:
+		task.setdefault("extra_args", [])
+		task["extra_args"].extend(DISABLE_ANTICHEAT_FLAGS)
 
 	total = len(tasks)
 	if total == 0:
