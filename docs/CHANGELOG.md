@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-02-06
+- Updated `bbq_control/run_bbq_tasks.py` to append `--no-hidden-terms --allow-click` to every task command so website batch runs disable bptools anti-cheat filters globally.
+- Updated `bbq_control/source_me.sh` to fall back to `~/nsh/PROBLEMS/qti_package_maker` (and repo-parent `qti_package_maker`) when `paths.qti_package_maker` points to a missing location.
+- Updated `bbq_control/source_me.sh` to fall back to `~/nsh/PROBLEMS/biology-problems/problems` (and repo-parent equivalent) when `paths.bp_root` points to a missing location.
+- Simplified `bbq_control/source_me.sh` to derive paths directly from `bbq_control/../..` (`biology-problems/problems` and `qti_package_maker`) instead of YAML-based path resolution.
+- Updated `bbq_control/bbq_settings.yml` path aliases to `~/nsh/PROBLEMS/...` and made `bbq_control/run_bbq_tasks.py` ignore stale non-existent configured `bp_root` values during PYTHONPATH validation.
+- Updated `bbq_control/run_bbq_tasks.py` PYTHONPATH validation to require repo presence (`biology-problems` and `qti_package_maker`) by path components instead of exact absolute configured paths.
+
 ## 2026-02-04
 - Reframed `docs/GUIDE_TO_NAMING_PROBLEM_SETS.md` around noun-first titles and removed leading task-verb guidance.
 - Removed leading task verbs from `problem_set_titles.yml` titles across `site_docs/` and refreshed timestamps.
