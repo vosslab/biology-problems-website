@@ -13,6 +13,7 @@ import csv
 import datetime
 import math
 import random
+import re
 import os
 import shlex
 import shutil
@@ -504,6 +505,7 @@ def build_output_patterns(task: dict) -> tuple:
 			prefixes.append(f"bbq-MATCH-{input_basename}")
 		elif script_basename == "yaml_which_one_mc_to_bbq":
 			prefixes.append(f"bbq-MC-{input_basename}")
+			prefixes.append(f"bbq-WOMC-{input_basename}")
 		elif script_basename == "yaml_mc_statements_to_bbq":
 			prefixes.append(f"bbq-TFMS-{input_basename}")
 	suffixes = ("-problems.txt", "-questions.txt")
@@ -534,6 +536,33 @@ def find_recent_outputs(workdir: str, start_time: float, prefixes: list, suffixe
 	return [path for _, path in candidates]
 
 
+def select_closest_output_candidate(candidates: list, prefixes: list) -> str:
+	if not candidates or not prefixes:
+		return ""
+	best_path = ""
+	best_score = 0.0
+	for candidate_path in candidates:
+		candidate_name = os.path.basename(candidate_path).lower()
+		candidate_tokens = set(re.findall(r"[a-z0-9]+", candidate_name))
+		for prefix in prefixes:
+			prefix_text = str(prefix).lower()
+			score = 0.0
+			if candidate_name.startswith(prefix_text):
+				score = 1.0
+			else:
+				prefix_tokens = set(re.findall(r"[a-z0-9]+", prefix_text))
+				if prefix_tokens:
+					shared = candidate_tokens.intersection(prefix_tokens)
+					score = len(shared) / float(len(prefix_tokens))
+			if score > best_score:
+				best_score = score
+				best_path = candidate_path
+	# Require a meaningful similarity so we do not move unrelated files.
+	if best_score < 0.5:
+		return ""
+	return best_path
+
+
 def resolve_generated_output(task: dict, workdir: str, start_time: float) -> tuple:
 	output_dir = (task.get("output_dir") or "").strip()
 	script_path = task.get("script", "")
@@ -544,7 +573,11 @@ def resolve_generated_output(task: dict, workdir: str, start_time: float) -> tup
 		return False, "", "", "Missing script basename for output detection."
 	candidates = find_recent_outputs(workdir, start_time, prefixes, suffixes)
 	if not candidates:
-		return False, "", "", "Expected output not found in workdir."
+		recent_candidates = find_recent_outputs(workdir, start_time, ["bbq-"], suffixes)
+		fallback_candidate = select_closest_output_candidate(recent_candidates, prefixes)
+		if not fallback_candidate:
+			return False, "", "", "Expected output not found in workdir."
+		candidates = [fallback_candidate]
 	if len(candidates) > 1:
 		names = ", ".join(os.path.basename(path) for path in candidates)
 		return False, "", "", f"Multiple outputs found in {workdir}: {names}"

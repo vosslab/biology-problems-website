@@ -7,6 +7,8 @@
 - Simplified `bbq_control/source_me.sh` to derive paths directly from `bbq_control/../..` (`biology-problems/problems` and `qti_package_maker`) instead of YAML-based path resolution.
 - Updated `bbq_control/bbq_settings.yml` path aliases to `~/nsh/PROBLEMS/...` and made `bbq_control/run_bbq_tasks.py` ignore stale non-existent configured `bp_root` values during PYTHONPATH validation.
 - Updated `bbq_control/run_bbq_tasks.py` PYTHONPATH validation to require repo presence (`biology-problems` and `qti_package_maker`) by path components instead of exact absolute configured paths.
+- Updated `bbq_control/run_bbq_tasks.py` output auto-detection for `yaml_which_one_mc_to_bbq.py` to match legacy `bbq-WOMC-<input>-questions.txt` output naming in addition to `bbq-MC-...`.
+- Updated `bbq_control/run_bbq_tasks.py` with a fallback output detector that scans recent `bbq-*.txt` files and selects the closest filename match when the expected output pattern is missing after a successful task run.
 
 ## 2026-02-04
 - Reframed `docs/GUIDE_TO_NAMING_PROBLEM_SETS.md` around noun-first titles and removed leading task-verb guidance.
