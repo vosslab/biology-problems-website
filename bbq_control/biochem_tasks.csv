@@ -1,6 +1,6 @@
 chapter,topic,script,flags,input,notes
-biochemistry,topic01,{bp_root}/biochemistry-problems/PUBCHEM/MACROMOLECULE_CATEGORIZE/which_macromolecule.py,,{bp_root}/biochemistry-problems/PUBCHEM/simple_macromolecules.yml,
-biochemistry,topic01,{bp_root}/biochemistry-problems/PUBCHEM/MACROMOLECULE_CATEGORIZE/which_macromolecule.py,,{bp_root}/biochemistry-problems/PUBCHEM/macromolecules.yml,
+biochemistry,topic01,{bp_root}/biochemistry-problems/PUBCHEM/MACROMOLECULE_CATEGORIZE/which_macromolecule.py,,{bp_root}/biochemistry-problems/PUBCHEM/MACROMOLECULE_CATEGORIZE/simple_macromolecules.yml,
+biochemistry,topic01,{bp_root}/biochemistry-problems/PUBCHEM/MACROMOLECULE_CATEGORIZE/which_macromolecule.py,,{bp_root}/biochemistry-problems/PUBCHEM/MACROMOLECULE_CATEGORIZE/macromolecules.yml,
 biochemistry,topic01,{bp_root}/biochemistry-problems/which_hydrophobic-simple.py,,,
 biochemistry,topic01,YMATCH,,{bp_root}/matching_sets/biochemistry/macromolecules-biol301.yml,
 biochemistry,topic01,YMATCH,,{bp_root}/matching_sets/biochemistry/macromolecules.yml,
