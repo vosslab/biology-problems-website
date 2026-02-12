@@ -1875,24 +1875,21 @@
   </summary>
   <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
   <div class="qti-selftest">
-  <div id="question_html_1797_efc9">
-  <div id="statement_text_1797_efc9">
-  <p>You are<span style="font-size: 1px; color: white;">field</span>preparing <span style="font-size: 1.05em;"><span style="font-family: monospace;">54.0 mL</span> with<span style="font-size: 1px; color: white;">germ</span>dilution factor <span style="color: #228b22;"><span style="font-family: monospace;">DF=18</span></span></span>.<br>What <span style="color: #7a1f7a;">volume of<span style="font-size: 1px; color: white;">bfsex</span>aliquot</span> in<span style="font-size: 1px; color: white;">george</span>milliliters (mL) do you add to <span style="color: #005cb3;">distilled water</span> to<span style="font-size: 1px; color: white;">atom</span>make<span style="font-size: 1px; color: white;">eye</span>the dilution?</p>
-  <span style="font-size: 1px; color: white;">maize</span><p><i>Note: answers need to be within 30% of the correct number to be correct.</i></p>
-  </div>
+  <div id="question_html_7f77_c05c">
+  <div id="statement_text_7f77_c05c"><p>You<span style="font-size: 1px; color: white;">system</span>are preparing <span style="font-size: 1.05em;"><span style="font-family: monospace;">208.0 mL</span> with dilution<span style="font-size: 1px; color: white;">design</span>factor <span style="color: #228b22;"><span style="font-family: monospace;">DF=40</span></span></span>.<br>What <span style="color: #7a1f7a;">volume of<span style="font-size: 1px; color: white;">sexual</span>aliquot</span> in milliliters (mL) do you add to <span style="color: #005cb3;">distilled water</span> to<span style="font-size: 1px; color: white;">evolve</span>make<span style="font-size: 1px; color: white;">apple</span>the<span style="font-size: 1px; color: white;">avp</span>dilution?<br><i>Note: answers need to be within 18% of the correct number to be correct.</i></p></div>
   <div>
-  <input type="text" class="qti-input" id="num_input_1797_efc9" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Enter a number"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_1797_efc9()">Check Answer</button>
-  <div id="result_1797_efc9" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+  <input type="text" class="qti-input" id="num_input_7f77_c05c" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Enter a number"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_7f77_c05c()">Check Answer</button>
+  <div id="result_7f77_c05c" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
   </div>
   <br>
   </div><script>
-  const numAnswer_1797_efc9 = 3.0;
-  const numTolerance_1797_efc9 = 0.9;
-  function checkAnswer_1797_efc9() {
-    const inputEl = document.getElementById('num_input_1797_efc9');
+  const numAnswer_7f77_c05c = 5.2;
+  const numTolerance_7f77_c05c = 0.9;
+  function checkAnswer_7f77_c05c() {
+    const inputEl = document.getElementById('num_input_7f77_c05c');
     if (!inputEl) { return; }
     const valStr = inputEl.value.trim();
-    const resultDiv = document.getElementById('result_1797_efc9');
+    const resultDiv = document.getElementById('result_7f77_c05c');
     if (valStr === '') {
       resultDiv.style.color = 'inherit';
       resultDiv.textContent = 'Please enter a value.';
@@ -1904,8 +1901,8 @@
       resultDiv.textContent = 'Please enter a valid number.';
       return;
     }
-    const lower = numAnswer_1797_efc9 - numTolerance_1797_efc9;
-    const upper = numAnswer_1797_efc9 + numTolerance_1797_efc9;
+    const lower = numAnswer_7f77_c05c - numTolerance_7f77_c05c;
+    const upper = numAnswer_7f77_c05c + numTolerance_7f77_c05c;
     const isCorrect = (userVal >= lower && userVal <= upper);
     if (isCorrect) {
       resultDiv.style.color = 'var(--qti-success-fg, #008000)';
@@ -1924,10 +1921,10 @@
     }
   }
   document.addEventListener('DOMContentLoaded', function() {
-    const inputEl = document.getElementById('num_input_1797_efc9');
+    const inputEl = document.getElementById('num_input_7f77_c05c');
     if (!inputEl) return;
     inputEl.addEventListener('keydown', function(e) {
-      if (e.key === 'Enter') { e.preventDefault(); checkAnswer_1797_efc9(); }
+      if (e.key === 'Enter') { e.preventDefault(); checkAnswer_7f77_c05c(); }
     });
   });
   </script>
@@ -1966,24 +1963,24 @@
   </summary>
   <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
   <div class="qti-selftest">
-  <div id="question_html_7d64_156f">
-  <div id="statement_text_7d64_156f">
-  <p>You<span style="font-size: 1px; color: white;">drift</span>are<span style="font-size: 1px; color: white;">fungus</span>preparing<span style="font-size: 1px; color: white;">ketone</span>a new<span style="font-size: 1px; color: white;">evolve</span>solution.<br>You dilute <span style="font-size: 1.05em;"><span style="color: #cc5500;"><span style="font-family: monospace;">4.0 mL</span> stock<span style="font-size: 1px; color: white;">second</span>solution</span> into <span style="color: #005cb3;"><span style="font-family: monospace;">300.0 mL</span> distilled water</span></span> to<span style="font-size: 1px; color: white;">buffer</span>make<span style="font-size: 1px; color: white;">chains</span>a dilution.<br>What<span style="font-size: 1px; color: white;">german</span>is<span style="font-size: 1px; color: white;">rows</span>the<span style="font-size: 1px; color: white;">umami</span>dilution<span style="font-size: 1px; color: white;">values</span>factor?</p>
-  <span style="font-size: 1px; color: white;">also</span><p><i>Note: answers need to be within 2% of the correct number to be correct.</i></p>
+  <div id="question_html_9208_bdea">
+  <div id="statement_text_9208_bdea">
+  <p>You are preparing a new<span style="font-size: 1px; color: white;">hans</span>solution.<br>You<span style="font-size: 1px; color: white;">uag</span>dilute <span style="font-size: 1.05em;"><span style="color: #cc5500;"><span style="font-family: monospace;">1.5 mL</span> stock<span style="font-size: 1px; color: white;">wine</span>solution</span> into <span style="color: #005cb3;"><span style="font-family: monospace;">139.5 mL</span> distilled<span style="font-size: 1px; color: white;">people</span>water</span></span> to<span style="font-size: 1px; color: white;">sides</span>make<span style="font-size: 1px; color: white;">ramesh</span>a dilution.<br>What<span style="font-size: 1px; color: white;">fiber</span>is<span style="font-size: 1px; color: white;">mean</span>the<span style="font-size: 1px; color: white;">atomic</span>dilution<span style="font-size: 1px; color: white;">code</span>factor?</p>
+  <span style="font-size: 1px; color: white;">anchor</span><p><i>Note: answers need to be within 1% of the correct number to be correct.</i></p>
   </div>
   <div>
-  <input type="text" class="qti-input" id="num_input_7d64_156f" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Enter a number"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_7d64_156f()">Check Answer</button>
-  <div id="result_7d64_156f" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+  <input type="text" class="qti-input" id="num_input_9208_bdea" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Enter a number"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_9208_bdea()">Check Answer</button>
+  <div id="result_9208_bdea" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
   </div>
   <br>
   </div><script>
-  const numAnswer_7d64_156f = 76.0;
-  const numTolerance_7d64_156f = 0.9;
-  function checkAnswer_7d64_156f() {
-    const inputEl = document.getElementById('num_input_7d64_156f');
+  const numAnswer_9208_bdea = 94.0;
+  const numTolerance_9208_bdea = 0.9;
+  function checkAnswer_9208_bdea() {
+    const inputEl = document.getElementById('num_input_9208_bdea');
     if (!inputEl) { return; }
     const valStr = inputEl.value.trim();
-    const resultDiv = document.getElementById('result_7d64_156f');
+    const resultDiv = document.getElementById('result_9208_bdea');
     if (valStr === '') {
       resultDiv.style.color = 'inherit';
       resultDiv.textContent = 'Please enter a value.';
@@ -1995,8 +1992,8 @@
       resultDiv.textContent = 'Please enter a valid number.';
       return;
     }
-    const lower = numAnswer_7d64_156f - numTolerance_7d64_156f;
-    const upper = numAnswer_7d64_156f + numTolerance_7d64_156f;
+    const lower = numAnswer_9208_bdea - numTolerance_9208_bdea;
+    const upper = numAnswer_9208_bdea + numTolerance_9208_bdea;
     const isCorrect = (userVal >= lower && userVal <= upper);
     if (isCorrect) {
       resultDiv.style.color = 'var(--qti-success-fg, #008000)';
@@ -2015,10 +2012,10 @@
     }
   }
   document.addEventListener('DOMContentLoaded', function() {
-    const inputEl = document.getElementById('num_input_7d64_156f');
+    const inputEl = document.getElementById('num_input_9208_bdea');
     if (!inputEl) return;
     inputEl.addEventListener('keydown', function(e) {
-      if (e.key === 'Enter') { e.preventDefault(); checkAnswer_7d64_156f(); }
+      if (e.key === 'Enter') { e.preventDefault(); checkAnswer_9208_bdea(); }
     });
   });
   </script>
@@ -2057,21 +2054,24 @@
   </summary>
   <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
   <div class="qti-selftest">
-  <div id="question_html_96ad_a33e">
-  <div id="statement_text_96ad_a33e"><p>You<span style="font-size: 1px; color: white;">capric</span>are<span style="font-size: 1px; color: white;">treat</span>preparing <span style="font-size: 1.05em;"><span style="font-family: monospace;">448.0 mL</span> with<span style="font-size: 1px; color: white;">light</span>dilution factor <span style="color: #228b22;"><span style="font-family: monospace;">DF=64</span></span></span>.<br>What <span style="color: #005cb3;">volume of<span style="font-size: 1px; color: white;">about</span>diluent</span> in<span style="font-size: 1px; color: white;">group</span>milliliters (mL) do<span style="font-size: 1px; color: white;">pcr</span>you add to<span style="font-size: 1px; color: white;">plot</span>the <span style="color: #7a1f7a;">aliquoted<span style="font-size: 1px; color: white;">probes</span>sample</span>?<br><i>Note: answers need to be within 1% of the correct number to be correct.</i></p></div>
+  <div id="question_html_d9ce_d023">
+  <div id="statement_text_d9ce_d023">
+  <p>You are<span style="font-size: 1px; color: white;">gef</span>preparing <span style="font-size: 1.05em;"><span style="font-family: monospace;">37.0 mL</span> with dilution factor <span style="color: #228b22;"><span style="font-family: monospace;">DF=74</span></span></span>.<br>What <span style="color: #005cb3;">volume of<span style="font-size: 1px; color: white;">two</span>diluent</span> in<span style="font-size: 1px; color: white;">sure</span>milliliters (mL) do<span style="font-size: 1px; color: white;">many</span>you<span style="font-size: 1px; color: white;">thrown</span>add<span style="font-size: 1px; color: white;">sulfur</span>to the <span style="color: #7a1f7a;">aliquoted sample</span>?</p>
+  <span style="font-size: 1px; color: white;">enable</span><p><i>Note: answers need to be within 3% of the correct number to be correct.</i></p>
+  </div>
   <div>
-  <input type="text" class="qti-input" id="num_input_96ad_a33e" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Enter a number"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_96ad_a33e()">Check Answer</button>
-  <div id="result_96ad_a33e" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+  <input type="text" class="qti-input" id="num_input_d9ce_d023" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Enter a number"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_d9ce_d023()">Check Answer</button>
+  <div id="result_d9ce_d023" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
   </div>
   <br>
   </div><script>
-  const numAnswer_96ad_a33e = 441.0;
-  const numTolerance_96ad_a33e = 0.9;
-  function checkAnswer_96ad_a33e() {
-    const inputEl = document.getElementById('num_input_96ad_a33e');
+  const numAnswer_d9ce_d023 = 36.5;
+  const numTolerance_d9ce_d023 = 0.9;
+  function checkAnswer_d9ce_d023() {
+    const inputEl = document.getElementById('num_input_d9ce_d023');
     if (!inputEl) { return; }
     const valStr = inputEl.value.trim();
-    const resultDiv = document.getElementById('result_96ad_a33e');
+    const resultDiv = document.getElementById('result_d9ce_d023');
     if (valStr === '') {
       resultDiv.style.color = 'inherit';
       resultDiv.textContent = 'Please enter a value.';
@@ -2083,8 +2083,8 @@
       resultDiv.textContent = 'Please enter a valid number.';
       return;
     }
-    const lower = numAnswer_96ad_a33e - numTolerance_96ad_a33e;
-    const upper = numAnswer_96ad_a33e + numTolerance_96ad_a33e;
+    const lower = numAnswer_d9ce_d023 - numTolerance_d9ce_d023;
+    const upper = numAnswer_d9ce_d023 + numTolerance_d9ce_d023;
     const isCorrect = (userVal >= lower && userVal <= upper);
     if (isCorrect) {
       resultDiv.style.color = 'var(--qti-success-fg, #008000)';
@@ -2103,10 +2103,10 @@
     }
   }
   document.addEventListener('DOMContentLoaded', function() {
-    const inputEl = document.getElementById('num_input_96ad_a33e');
+    const inputEl = document.getElementById('num_input_d9ce_d023');
     if (!inputEl) return;
     inputEl.addEventListener('keydown', function(e) {
-      if (e.key === 'Enter') { e.preventDefault(); checkAnswer_96ad_a33e(); }
+      if (e.key === 'Enter') { e.preventDefault(); checkAnswer_d9ce_d023(); }
     });
   });
   </script>
@@ -2145,49 +2145,51 @@
   </summary>
   <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
   <div class="qti-selftest">
-  <div id="question_html_83a2_3ebc">
-  <div id="statement_text_83a2_3ebc"><div id="drv_04ba" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
-  <p>Dilution<span style="font-size: 1px; color: white;">films</span>factors are<span style="font-size: 1px; color: white;">ligand</span>used in<span style="font-size: 1px; color: white;">maize</span>biology labs<span style="font-size: 1px; color: white;">modern</span>to<span style="font-size: 1px; color: white;">chat</span>make<span style="font-size: 1px; color: white;">dgtp</span>solutions at<span style="font-size: 1px; color: white;">exert</span>precise<span style="font-size: 1px; color: white;">upon</span>concentrations, ensure consistency across<span style="font-size: 1px; color: white;">mali</span>experiments, and<span style="font-size: 1px; color: white;">exact</span>preserve<span style="font-size: 1px; color: white;">brdu</span>valuable samples<span style="font-size: 1px; color: white;">turth</span>while still<span style="font-size: 1px; color: white;">ketose</span>meeting<span style="font-size: 1px; color: white;">falsel</span>volume requirements. For example, if a student<span style="font-size: 1px; color: white;">taste</span>needs 400 mL of<span style="font-size: 1px; color: white;">snap</span>a working<span style="font-size: 1px; color: white;">methyl</span>solution, it is<span style="font-size: 1px; color: white;">coa</span>much<span style="font-size: 1px; color: white;">brdu</span>easier<span style="font-size: 1px; color: white;">blue</span>to<span style="font-size: 1px; color: white;">erna</span>measure<span style="font-size: 1px; color: white;">embryo</span>a small<span style="font-size: 1px; color: white;">beans</span>aliquot<span style="font-size: 1px; color: white;">apples</span>from<span style="font-size: 1px; color: white;">civic</span>a concentrated<span style="font-size: 1px; color: white;">modern</span>stock and<span style="font-size: 1px; color: white;">forced</span>add<span style="font-size: 1px; color: white;">acids</span>water<span style="font-size: 1px; color: white;">cause</span>to reach<span style="font-size: 1px; color: white;">mental</span>the<span style="font-size: 1px; color: white;">most</span>final<span style="font-size: 1px; color: white;">sulfur</span>volume<span style="font-size: 1px; color: white;">gpcrs</span>than<span style="font-size: 1px; color: white;">word</span>to<span style="font-size: 1px; color: white;">cri</span>prepare<span style="font-size: 1px; color: white;">bread</span>the solution from<span style="font-size: 1px; color: white;">virus</span>scratch<span style="font-size: 1px; color: white;">string</span>each<span style="font-size: 1px; color: white;">the</span>time.<br>You<span style="font-size: 1px; color: white;">loop</span>are<span style="font-size: 1px; color: white;">gap</span>preparing<span style="font-size: 1px; color: white;">fmn</span>a new<span style="font-size: 1px; color: white;">behind</span>solution<span style="font-size: 1px; color: white;">health</span>with<span style="font-size: 1px; color: white;">column</span>a dilution<span style="font-size: 1px; color: white;">john</span>factor<span style="font-size: 1px; color: white;">coli</span>of <span style="font-size: 1.05em;"><span style="color: #228b22;"><span style="font-family: monospace;">DF=5</span></span></span>.<br>How much<span style="font-size: 1px; color: white;">entire</span>liquid do<span style="font-size: 1px; color: white;">coding</span>you<span style="font-size: 1px; color: white;">xxx</span>add to<span style="font-size: 1px; color: white;">althyp</span>make a total of <span style="font-size: 1.05em;"><span style="font-family: monospace;">15.0 mL</span></span>?</p> </div></div>
+  <div id="question_html_3669_8504">
+  <div id="statement_text_3669_8504"><div id="drv_105e" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
+  <p>Dilution factors are used<span style="font-size: 1px; color: white;">plays</span>in biology<span style="font-size: 1px; color: white;">that</span>labs<span style="font-size: 1px; color: white;">drift</span>to<span style="font-size: 1px; color: white;">fusion</span>make<span style="font-size: 1px; color: white;">folded</span>solutions at<span style="font-size: 1px; color: white;">hammer</span>precise<span style="font-size: 1px; color: white;">speeds</span>concentrations, ensure<span style="font-size: 1px; color: white;">ginger</span>consistency<span style="font-size: 1px; color: white;">mating</span>across<span style="font-size: 1px; color: white;">builds</span>experiments, and<span style="font-size: 1px; color: white;">hydrid</span>preserve<span style="font-size: 1px; color: white;">passes</span>valuable<span style="font-size: 1px; color: white;">candle</span>samples<span style="font-size: 1px; color: white;">bid</span>while still<span style="font-size: 1px; color: white;">uracil</span>meeting<span style="font-size: 1px; color: white;">air</span>volume<span style="font-size: 1px; color: white;">cystic</span>requirements. For<span style="font-size: 1px; color: white;">thf</span>example, if a student<span style="font-size: 1px; color: white;">roles</span>needs 400 mL of<span style="font-size: 1px; color: white;">behind</span>a working<span style="font-size: 1px; color: white;">primer</span>solution, it<span style="font-size: 1px; color: white;">degc</span>is<span style="font-size: 1px; color: white;">bud</span>much easier to<span style="font-size: 1px; color: white;">skier</span>measure<span style="font-size: 1px; color: white;">nonetd</span>a small<span style="font-size: 1px; color: white;">thiol</span>aliquot from<span style="font-size: 1px; color: white;">people</span>a concentrated<span style="font-size: 1px; color: white;">hole</span>stock<span style="font-size: 1px; color: white;">could</span>and add<span style="font-size: 1px; color: white;">things</span>water<span style="font-size: 1px; color: white;">xdna</span>to<span style="font-size: 1px; color: white;">spinal</span>reach<span style="font-size: 1px; color: white;">author</span>the<span style="font-size: 1px; color: white;">column</span>final<span style="font-size: 1px; color: white;">bowel</span>volume<span style="font-size: 1px; color: white;">pair</span>than to<span style="font-size: 1px; color: white;">serve</span>prepare<span style="font-size: 1px; color: white;">coding</span>the<span style="font-size: 1px; color: white;">rpc</span>solution from<span style="font-size: 1px; color: white;">elevel</span>scratch<span style="font-size: 1px; color: white;">enzyme</span>each<span style="font-size: 1px; color: white;">kayak</span>time.<br>You are preparing<span style="font-size: 1px; color: white;">before</span>a new solution<span style="font-size: 1px; color: white;">thiol</span>with<span style="font-size: 1px; color: white;">unlike</span>a dilution<span style="font-size: 1px; color: white;">block</span>factor<span style="font-size: 1px; color: white;">total</span>of <span style="font-size: 1.05em;"><span style="color: #228b22;"><span style="font-family: monospace;">DF=34</span></span></span>.<br>How<span style="font-size: 1px; color: white;">sample</span>much<span style="font-size: 1px; color: white;">finish</span>liquid do you<span style="font-size: 1px; color: white;">app</span>add<span style="font-size: 1px; color: white;">donors</span>to<span style="font-size: 1px; color: white;">stable</span>make a total<span style="font-size: 1px; color: white;">color</span>of <span style="font-size: 1.05em;"><span style="font-family: monospace;">323.0 mL</span></span>?</p>
+  <span style="font-size: 1px; color: white;">duplex</span>
+  </div></div>
   <form>
-  <ul id="choices_83a2_3ebc" class="qti-auto-grid-compact">
+  <ul id="choices_3669_8504" class="qti-auto-grid-compact">
   <li>
-      <input type="radio" id="option0" name="answer_83a2_3ebc" data-correct="false"><label for="option0"><div id="drv_9e3b" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
-  <span style="color: #cc5500;"><span style="font-family: monospace;">15.0 mL</span> stock<span style="font-size: 1px; color: white;">play</span>solution (aliquot)</span><br>  <span style="color: #005cb3;"><span style="font-family: monospace;">12.0 mL</span> distilled<span style="font-size: 1px; color: white;">falsem</span>water (diluent)</span><span style="font-size: 1px; color: white;">over</span>
+      <input type="radio" id="option0" name="answer_3669_8504" data-correct="false"><label for="option0"><div id="drv_1afa" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
+  <span style="color: #cc5500;"><span style="font-family: monospace;">323.0 mL</span> stock<span style="font-size: 1px; color: white;">good</span>solution (aliquot)</span><br>  <span style="color: #005cb3;"><span style="font-family: monospace;">313.5 mL</span> distilled water (diluent)</span><span style="font-size: 1px; color: white;">madam</span>
   </div></label>
     </li>
     <li>
-      <input type="radio" id="option1" name="answer_83a2_3ebc" data-correct="true"><label for="option1"><div id="drv_b874" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
-  <span style="color: #cc5500;"><span style="font-family: monospace;">3.0 mL</span> stock solution (aliquot)</span><br>  <span style="color: #005cb3;"><span style="font-family: monospace;">12.0 mL</span> distilled<span style="font-size: 1px; color: white;">butter</span>water (diluent)</span> </div></label>
-    </li>
-    <li>
-      <input type="radio" id="option2" name="answer_83a2_3ebc" data-correct="false"><label for="option2"><div id="drv_cada" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
-  <span style="color: #cc5500;"><span style="font-family: monospace;">12.0 mL</span> stock<span style="font-size: 1px; color: white;">dctp</span>solution (aliquot)</span><br>  <span style="color: #005cb3;"><span style="font-family: monospace;">3.0 mL</span> distilled water (diluent)</span> </div></label>
-    </li>
-    <li>
-      <input type="radio" id="option3" name="answer_83a2_3ebc" data-correct="false"><label for="option3"><div id="drv_b70c" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
-  <span style="color: #cc5500;"><span style="font-family: monospace;">6.0 mL</span> stock solution (aliquot)</span><br>  <span style="color: #005cb3;"><span style="font-family: monospace;">9.0 mL</span> distilled water (diluent)</span><span style="font-size: 1px; color: white;">due</span>
+      <input type="radio" id="option1" name="answer_3669_8504" data-correct="false"><label for="option1"><div id="drv_3d95" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
+  <span style="color: #cc5500;"><span style="font-family: monospace;">313.5 mL</span> stock<span style="font-size: 1px; color: white;">distal</span>solution (aliquot)</span><br>  <span style="color: #005cb3;"><span style="font-family: monospace;">323.0 mL</span> distilled<span style="font-size: 1px; color: white;">truthd</span>water (diluent)</span><span style="font-size: 1px; color: white;">colii</span>
   </div></label>
     </li>
     <li>
-      <input type="radio" id="option4" name="answer_83a2_3ebc" data-correct="false"><label for="option4"><div id="drv_1f8e" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
-  <span style="color: #cc5500;"><span style="font-family: monospace;">9.0 mL</span> stock<span style="font-size: 1px; color: white;">kinase</span>solution (aliquot)</span><br>  <span style="color: #005cb3;"><span style="font-family: monospace;">6.0 mL</span> distilled water (diluent)</span><span style="font-size: 1px; color: white;">else</span>
+      <input type="radio" id="option2" name="answer_3669_8504" data-correct="false"><label for="option2"><div id="drv_8401" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
+  <span style="color: #cc5500;"><span style="font-family: monospace;">323.0 mL</span> stock<span style="font-size: 1px; color: white;">hole</span>solution (aliquot)</span><br>  <span style="color: #005cb3;"><span style="font-family: monospace;">9.5 mL</span> distilled<span style="font-size: 1px; color: white;">kayak</span>water (diluent)</span> </div></label>
+    </li>
+    <li>
+      <input type="radio" id="option3" name="answer_3669_8504" data-correct="false"><label for="option3"><div id="drv_b1af" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
+  <span style="color: #cc5500;"><span style="font-family: monospace;">313.5 mL</span> stock<span style="font-size: 1px; color: white;">abf</span>solution (aliquot)</span><br>  <span style="color: #005cb3;"><span style="font-family: monospace;">9.5 mL</span> distilled<span style="font-size: 1px; color: white;">makeup</span>water (diluent)</span><span style="font-size: 1px; color: white;">humans</span>
   </div></label>
+    </li>
+    <li>
+      <input type="radio" id="option4" name="answer_3669_8504" data-correct="true"><label for="option4"><div id="drv_4092" oncopy="return false;" onpaste="return false;" oncut="return false;" oncontextmenu="return false;" onmousedown="return false;" onselectstart="return false;">
+  <span style="color: #cc5500;"><span style="font-family: monospace;">9.5 mL</span> stock solution (aliquot)</span><br>  <span style="color: #005cb3;"><span style="font-family: monospace;">313.5 mL</span> distilled<span style="font-size: 1px; color: white;">spin</span>water (diluent)</span> </div></label>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_83a2_3ebc()">Check Answer</button>
-  <div id="result_83a2_3ebc" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_3669_8504()">Check Answer</button>
+  <div id="result_3669_8504" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
   </form>
   <br>
   </div><script>
-  function checkAnswer_83a2_3ebc() {
-   const options = document.getElementsByName('answer_83a2_3ebc');
+  function checkAnswer_3669_8504() {
+   const options = document.getElementsByName('answer_3669_8504');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_83a2_3ebc');
+   const resultDiv = document.getElementById('result_3669_8504');
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.style.color = 'var(--qti-success-fg, #008000)';
@@ -2237,46 +2239,46 @@
   </summary>
   <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
   <div class="qti-selftest">
-  <div id="question_html_58b9_b8fa">
-  <div id="statement_text_58b9_b8fa">
+  <div id="question_html_d24e_c6ec">
+  <div id="statement_text_d24e_c6ec">
   <table border="1" cellpadding="4" cellspacing="0" style="border-collapse: collapse; margin-top: 6px;">
-  <tr><td colspan="2" style="font-weight: bold; background-color: #efefef; text-align: center;">Potassium chloride (KCl)</td></tr>
+  <tr><td colspan="2" style="font-weight: bold; background-color: #efefef; text-align: center;">Sodium chloride (NaCl)</td></tr>
   <tr>
   <td style="font-weight: bold; background-color: #f7f7f7;">Final volume</td>
-  <td><span style="font-family: monospace;">650 mL</span></td>
+  <td><span style="font-family: monospace;">280 mL</span></td>
   </tr>
   <tr>
   <td style="font-weight: bold; background-color: #f7f7f7;">Target concentration</td>
-  <td><span style="font-family: monospace;">24%</span></td>
+  <td><span style="font-family: monospace;">32%</span></td>
   </tr>
   <tr>
   <td style="font-weight: bold; background-color: #f7f7f7;">Stock concentration</td>
-  <td><span style="color: #cc5500;"><span style="font-family: monospace;">40%</span></span></td>
+  <td><span style="color: #cc5500;"><span style="font-family: monospace;">56%</span></span></td>
   </tr>
   <tr>
   <td style="font-weight: bold; background-color: #f7f7f7;">Molecular weight</td>
-  <td><span style="font-family: monospace;">74.55 g/mol</span></td>
+  <td><span style="font-family: monospace;">58.44 g/mol</span></td>
   </tr>
   <tr>
   <td style="font-weight: bold; background-color: #f7f7f7;">Aliquot unit</td>
   <td>milliliters (mL)</td>
   </tr>
   </table>
-  <p>You have an already prepared <span style="color: #cc5500;">stock solution of <span style="font-family: monospace;">40%</span> KCl</span> on the shelf.<br>Prepare <strong><span style="font-size: 1.05em;"><span style="font-family: monospace;">650 mL</span> of <span style="font-family: monospace;">24%</span> KCl solution</span></strong> using the <span style="color: #cc5500;">stock solution</span>.<br>What <span style="color: #7a1f7a;">volume of aliquot</span> in milliliters (mL) do you add to <span style="color: #005cb3;">distilled water</span> to make the final dilution?<br><i>Note: answers need to be within 1% of the correct number to be correct.</i></p>
+  <p>You have an already prepared <span style="color: #cc5500;">stock solution of <span style="font-family: monospace;">56%</span> NaCl</span> on the shelf.<br>Prepare <strong><span style="font-size: 1.05em;"><span style="font-family: monospace;">280 mL</span> of <span style="font-family: monospace;">32%</span> NaCl solution</span></strong> using the <span style="color: #cc5500;">stock solution</span>.<br>What <span style="color: #7a1f7a;">volume of aliquot</span> in milliliters (mL) do you add to <span style="color: #005cb3;">distilled water</span> to make the final dilution?<br><i>Note: answers need to be within 1% of the correct number to be correct.</i></p>
   </div>
   <div>
-  <input type="text" class="qti-input" id="num_input_58b9_b8fa" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Enter a number"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_58b9_b8fa()">Check Answer</button>
-  <div id="result_58b9_b8fa" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+  <input type="text" class="qti-input" id="num_input_d24e_c6ec" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Enter a number"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_d24e_c6ec()">Check Answer</button>
+  <div id="result_d24e_c6ec" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
   </div>
   <br>
   </div><script>
-  const numAnswer_58b9_b8fa = 390.0;
-  const numTolerance_58b9_b8fa = 0.9;
-  function checkAnswer_58b9_b8fa() {
-    const inputEl = document.getElementById('num_input_58b9_b8fa');
+  const numAnswer_d24e_c6ec = 160.0;
+  const numTolerance_d24e_c6ec = 0.9;
+  function checkAnswer_d24e_c6ec() {
+    const inputEl = document.getElementById('num_input_d24e_c6ec');
     if (!inputEl) { return; }
     const valStr = inputEl.value.trim();
-    const resultDiv = document.getElementById('result_58b9_b8fa');
+    const resultDiv = document.getElementById('result_d24e_c6ec');
     if (valStr === '') {
       resultDiv.style.color = 'inherit';
       resultDiv.textContent = 'Please enter a value.';
@@ -2288,8 +2290,8 @@
       resultDiv.textContent = 'Please enter a valid number.';
       return;
     }
-    const lower = numAnswer_58b9_b8fa - numTolerance_58b9_b8fa;
-    const upper = numAnswer_58b9_b8fa + numTolerance_58b9_b8fa;
+    const lower = numAnswer_d24e_c6ec - numTolerance_d24e_c6ec;
+    const upper = numAnswer_d24e_c6ec + numTolerance_d24e_c6ec;
     const isCorrect = (userVal >= lower && userVal <= upper);
     if (isCorrect) {
       resultDiv.style.color = 'var(--qti-success-fg, #008000)';
@@ -2308,10 +2310,10 @@
     }
   }
   document.addEventListener('DOMContentLoaded', function() {
-    const inputEl = document.getElementById('num_input_58b9_b8fa');
+    const inputEl = document.getElementById('num_input_d24e_c6ec');
     if (!inputEl) return;
     inputEl.addEventListener('keydown', function(e) {
-      if (e.key === 'Enter') { e.preventDefault(); checkAnswer_58b9_b8fa(); }
+      if (e.key === 'Enter') { e.preventDefault(); checkAnswer_d24e_c6ec(); }
     });
   });
   </script>

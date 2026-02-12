@@ -1,16 +1,16 @@
 <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
 <div class="qti-selftest">
-<div id="question_html_988d_a1f4">
-<div id="statement_text_988d_a1f4">
+<div id="question_html_f2c8_1bf6">
+<div id="statement_text_f2c8_1bf6">
 <h4>Three-Point Test Cross Problem</h4>
 <p>A test cross is a way to explore the relationship between genes and their respective alleles. It is a useful tool for genetic mapping and deciphering the inheritance of traits. Specifically, a three-point test cross examines three (3) genes at the same time to learn about their assortment in gamete formation.<br>A standard three-point test cross involves crossing a heterozygous organism for all three genes with an organism that is homozygous recessive for all three genes<br>For this problem, a test cross using a fruit fly (<i>Drosophila melanogaster</i>) heterozygous for three genes was conducted to understand their genetic interactions.</p>
 <h6>Characteristics of Recessive Phenotypes</h6>
 <p></p>
 <ul>
 <li>
-<strong><span style="color: #b34100;">Gene A</span></strong> is connected with the '<span style="color: #b34100;"><i>artsy</i></span>' phenotype. A fruit fly that is homozygous recessive for <span style="color: #b34100;">Gene A</span> has wings that are colorful and distinctive patterns.</li> <li>
-<strong><span style="color: #008000;">Gene B</span></strong> is linked with the '<span style="color: #008000;"><i>bumpy</i></span>' phenotype. A fruit fly that is homozygous recessive for <span style="color: #008000;">Gene B</span> has a skin texture that is not smooth, but rough with small bumps all over.</li> <li>
-<strong><span style="color: #690f8a;">Gene F</span></strong> is linked with the '<span style="color: #690f8a;"><i>fuzzy</i></span>' phenotype. A fruit fly that is homozygous recessive for <span style="color: #690f8a;">Gene F</span> is covered in a dense layer of hairs, giving it a soft appearance.</li> </ul>
+<strong><span style="color: #999900;">Gene D</span></strong> is linked with the '<span style="color: #999900;"><i>dewy</i></span>' phenotype. A fruit fly that is homozygous recessive for <span style="color: #999900;">Gene D</span> appears moist, with its body covered in tiny droplets of water.</li> <li>
+<strong><span style="color: #008066;">Gene N</span></strong> is related to the '<span style="color: #008066;"><i>nerdy</i></span>' phenotype. A fruit fly that is homozygous recessive for <span style="color: #008066;">Gene N</span> has large, prominent eyes that stand out, much like thick-rimmed glasses.</li> <li>
+<strong><span style="color: #004080;">Gene R</span></strong> is related to the '<span style="color: #004080;"><i>rusty</i></span>' phenotype. A fruit fly that is homozygous recessive for <span style="color: #004080;">Gene R</span> has a reddish-brown color, much like rusted iron metal.</li> </ul>
 <table style="border-collapse: collapse; border: 2px solid black;">
 <tr>
 <th align="center" style="border: 1px solid black; background-color: #cccccc; padding: 10px;"><span style="font-size: medium; color: #000000;">Phenotype</span></th>
@@ -18,114 +18,114 @@
 <th align="center" style="border: 1px solid black; background-color: #cccccc; padding: 10px;"><span style="font-size: medium; color: #000000;">Progeny<br>Count</span></th>
 </tr>
 <tr>
-<td align="left" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"> <span style="font-size: medium; color: #000000;">artsy, bumpy, fuzzy</span>
+<td align="left" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"> <span style="font-size: medium; color: #000000;">dewy, nerdy, rusty</span>
 </td>
-<td align="center" style="border: 1px solid black; background-color: #ffece6; padding: 5px;"><span style="font-size: large; color: #000000;">a</span></td>
-<td align="center" style="border: 1px solid black; background-color: #e6ffe6; padding: 5px;"><span style="font-size: large; color: #000000;">b</span></td>
-<td align="center" style="border: 1px solid black; background-color: #f3e6ff; padding: 5px;"><span style="font-size: large; color: #000000;">f</span></td>
-<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">235</span></td>
+<td align="center" style="border: 1px solid black; background-color: #ffffe6; padding: 5px;"><span style="font-size: large; color: #000000;">d</span></td>
+<td align="center" style="border: 1px solid black; background-color: #e6fff3; padding: 5px;"><span style="font-size: large; color: #000000;">n</span></td>
+<td align="center" style="border: 1px solid black; background-color: #e6e6ff; padding: 5px;"><span style="font-size: large; color: #000000;">r</span></td>
+<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">6</span></td>
 </tr>
 <tr>
-<td align="left" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"> <span style="font-size: medium; color: #000000;">artsy, bumpy</span>
+<td align="left" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"> <span style="font-size: medium; color: #000000;">dewy, nerdy</span>
 </td>
-<td align="center" style="border: 1px solid black; background-color: #ffece6; padding: 5px;"><span style="font-size: large; color: #000000;">a</span></td>
-<td align="center" style="border: 1px solid black; background-color: #e6ffe6; padding: 5px;"><span style="font-size: large; color: #000000;">b</span></td>
-<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #690f8a;">+</span></td>
-<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">1,948</span></td>
+<td align="center" style="border: 1px solid black; background-color: #ffffe6; padding: 5px;"><span style="font-size: large; color: #000000;">d</span></td>
+<td align="center" style="border: 1px solid black; background-color: #e6fff3; padding: 5px;"><span style="font-size: large; color: #000000;">n</span></td>
+<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #004080;">+</span></td>
+<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">562</span></td>
 </tr>
 <tr>
-<td align="left" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"> <span style="font-size: medium; color: #000000;">artsy, fuzzy</span>
+<td align="left" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"> <span style="font-size: medium; color: #000000;">dewy, rusty</span>
 </td>
-<td align="center" style="border: 1px solid black; background-color: #ffece6; padding: 5px;"><span style="font-size: large; color: #000000;">a</span></td>
-<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #008000;">+</span></td>
-<td align="center" style="border: 1px solid black; background-color: #f3e6ff; padding: 5px;"><span style="font-size: large; color: #000000;">f</span></td>
-<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">859</span></td>
+<td align="center" style="border: 1px solid black; background-color: #ffffe6; padding: 5px;"><span style="font-size: large; color: #000000;">d</span></td>
+<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #008066;">+</span></td>
+<td align="center" style="border: 1px solid black; background-color: #e6e6ff; padding: 5px;"><span style="font-size: large; color: #000000;">r</span></td>
+<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">128</span></td>
 </tr>
 <tr>
-<td align="left" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"> <span style="font-size: medium; color: #000000;">artsy</span>
+<td align="left" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"> <span style="font-size: medium; color: #000000;">dewy</span>
 </td>
-<td align="center" style="border: 1px solid black; background-color: #ffece6; padding: 5px;"><span style="font-size: large; color: #000000;">a</span></td>
-<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #008000;">+</span></td>
-<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #690f8a;">+</span></td>
-<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">73</span></td>
+<td align="center" style="border: 1px solid black; background-color: #ffffe6; padding: 5px;"><span style="font-size: large; color: #000000;">d</span></td>
+<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #008066;">+</span></td>
+<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #004080;">+</span></td>
+<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">182</span></td>
 </tr>
 <tr>
-<td align="left" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"> <span style="font-size: medium; color: #000000;">bumpy, fuzzy</span>
+<td align="left" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"> <span style="font-size: medium; color: #000000;">nerdy, rusty</span>
 </td>
-<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #b34100;">+</span></td>
-<td align="center" style="border: 1px solid black; background-color: #e6ffe6; padding: 5px;"><span style="font-size: large; color: #000000;">b</span></td>
-<td align="center" style="border: 1px solid black; background-color: #f3e6ff; padding: 5px;"><span style="font-size: large; color: #000000;">f</span></td>
-<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">82</span></td>
+<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #999900;">+</span></td>
+<td align="center" style="border: 1px solid black; background-color: #e6fff3; padding: 5px;"><span style="font-size: large; color: #000000;">n</span></td>
+<td align="center" style="border: 1px solid black; background-color: #e6e6ff; padding: 5px;"><span style="font-size: large; color: #000000;">r</span></td>
+<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">250</span></td>
 </tr>
 <tr>
-<td align="left" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"> <span style="font-size: medium; color: #000000;">bumpy</span>
+<td align="left" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"> <span style="font-size: medium; color: #000000;">nerdy</span>
 </td>
-<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #b34100;">+</span></td>
-<td align="center" style="border: 1px solid black; background-color: #e6ffe6; padding: 5px;"><span style="font-size: large; color: #000000;">b</span></td>
-<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #690f8a;">+</span></td>
-<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">846</span></td>
+<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #999900;">+</span></td>
+<td align="center" style="border: 1px solid black; background-color: #e6fff3; padding: 5px;"><span style="font-size: large; color: #000000;">n</span></td>
+<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #004080;">+</span></td>
+<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">106</span></td>
 </tr>
 <tr>
-<td align="left" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"> <span style="font-size: medium; color: #000000;">fuzzy</span>
+<td align="left" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"> <span style="font-size: medium; color: #000000;">rusty</span>
 </td>
-<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #b34100;">+</span></td>
-<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #008000;">+</span></td>
-<td align="center" style="border: 1px solid black; background-color: #f3e6ff; padding: 5px;"><span style="font-size: large; color: #000000;">f</span></td>
-<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">1,927</span></td>
+<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #999900;">+</span></td>
+<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #008066;">+</span></td>
+<td align="center" style="border: 1px solid black; background-color: #e6e6ff; padding: 5px;"><span style="font-size: large; color: #000000;">r</span></td>
+<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">554</span></td>
 </tr>
 <tr>
 <td align="left" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"> <span style="font-size: medium; color: #000000;"><i>wildtype</i></span>
 </td>
-<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #b34100;">+</span></td>
-<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #008000;">+</span></td>
-<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #690f8a;">+</span></td>
-<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">230</span></td>
+<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #999900;">+</span></td>
+<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #008066;">+</span></td>
+<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #004080;">+</span></td>
+<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">12</span></td>
 </tr>
 <tr>
 <th colspan="4" align="right" style="border: 1px solid black; background-color: #cccccc; padding: 10px;"><span style="font-size: medium; color: #000000;">TOTAL =</span></th>
-<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">6,200</span></td>
+<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">1,800</span></td>
 </tr>
 </table>
 <p>The resulting phenotypes are summarized in the table above.<br>The resulting phenotypes are summarized in the table above.</p> <h6>Question</h6> <p>Based on the traits expressed in the offspring, identify the <span style="color: DarkGreen;"><strong>double crossover genotype combinations</strong></span>. These allele combinations are a result of two genetic crossover events.<br>More than one genotype will be correct. Select all that apply.</p>
 </div>
 <form>
-<ul id="choices_988d_a1f4" class="qti-auto-grid">
+<ul id="choices_f2c8_1bf6" class="qti-auto-grid">
 <li>
-    <input type="checkbox" id="option_988d_a1f4_1" name="answer_988d_a1f4" data-correct="false"><label for="option_988d_a1f4_1">abf</label>
+    <input type="checkbox" id="option_f2c8_1bf6_1" name="answer_f2c8_1bf6" data-correct="true"><label for="option_f2c8_1bf6_1">dnr</label>
   </li>
   <li>
-    <input type="checkbox" id="option_988d_a1f4_2" name="answer_988d_a1f4" data-correct="false"><label for="option_988d_a1f4_2">ab+</label>
+    <input type="checkbox" id="option_f2c8_1bf6_2" name="answer_f2c8_1bf6" data-correct="false"><label for="option_f2c8_1bf6_2">dn+</label>
   </li>
   <li>
-    <input type="checkbox" id="option_988d_a1f4_3" name="answer_988d_a1f4" data-correct="false"><label for="option_988d_a1f4_3">a+f</label>
+    <input type="checkbox" id="option_f2c8_1bf6_3" name="answer_f2c8_1bf6" data-correct="false"><label for="option_f2c8_1bf6_3">d+r</label>
   </li>
   <li>
-    <input type="checkbox" id="option_988d_a1f4_4" name="answer_988d_a1f4" data-correct="true"><label for="option_988d_a1f4_4">a++</label>
+    <input type="checkbox" id="option_f2c8_1bf6_4" name="answer_f2c8_1bf6" data-correct="false"><label for="option_f2c8_1bf6_4">d++</label>
   </li>
   <li>
-    <input type="checkbox" id="option_988d_a1f4_5" name="answer_988d_a1f4" data-correct="true"><label for="option_988d_a1f4_5">+bf</label>
+    <input type="checkbox" id="option_f2c8_1bf6_5" name="answer_f2c8_1bf6" data-correct="false"><label for="option_f2c8_1bf6_5">+nr</label>
   </li>
   <li>
-    <input type="checkbox" id="option_988d_a1f4_6" name="answer_988d_a1f4" data-correct="false"><label for="option_988d_a1f4_6">+b+</label>
+    <input type="checkbox" id="option_f2c8_1bf6_6" name="answer_f2c8_1bf6" data-correct="false"><label for="option_f2c8_1bf6_6">+n+</label>
   </li>
   <li>
-    <input type="checkbox" id="option_988d_a1f4_7" name="answer_988d_a1f4" data-correct="false"><label for="option_988d_a1f4_7">++f</label>
+    <input type="checkbox" id="option_f2c8_1bf6_7" name="answer_f2c8_1bf6" data-correct="false"><label for="option_f2c8_1bf6_7">++r</label>
   </li>
   <li>
-    <input type="checkbox" id="option_988d_a1f4_8" name="answer_988d_a1f4" data-correct="false"><label for="option_988d_a1f4_8">+++</label>
+    <input type="checkbox" id="option_f2c8_1bf6_8" name="answer_f2c8_1bf6" data-correct="true"><label for="option_f2c8_1bf6_8">+++</label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_988d_a1f4()">Check Answer</button>
-<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="clearSelection_988d_a1f4()">Clear Selection</button>
-<div id="result_988d_a1f4" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_f2c8_1bf6()">Check Answer</button>
+<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="clearSelection_f2c8_1bf6()">Clear Selection</button>
+<div id="result_f2c8_1bf6" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_988d_a1f4() {
-	const options = Array.from(document.getElementsByName('answer_988d_a1f4'));
+function checkAnswer_f2c8_1bf6() {
+	const options = Array.from(document.getElementsByName('answer_f2c8_1bf6'));
 	const correctOptions = options.filter(option => option.dataset.correct === 'true');
 	const selectedOptions = options.filter(option => option.checked);
-	const resultDiv = document.getElementById('result_988d_a1f4');
+	const resultDiv = document.getElementById('result_f2c8_1bf6');
 	const numCorrectSelected = selectedOptions.filter(option => correctOptions.includes(option)).length;
 	const numIncorrectSelected = selectedOptions.length - numCorrectSelected;
 	const totalCorrect = correctOptions.length;
@@ -149,10 +149,10 @@ function checkAnswer_988d_a1f4() {
 }
 </script>
 <script>
-	function clearSelection_988d_a1f4() {
-		const checkboxes = document.getElementsByName('answer_988d_a1f4');
+	function clearSelection_f2c8_1bf6() {
+		const checkboxes = document.getElementsByName('answer_f2c8_1bf6');
 		Array.from(checkboxes).forEach(checkbox => checkbox.checked = false);
-		const resultDiv = document.getElementById('result_988d_a1f4');
+		const resultDiv = document.getElementById('result_f2c8_1bf6');
 		if (resultDiv) {			resultDiv.textContent = '';
 			resultDiv.style.color = 'inherit';
 		}	}
