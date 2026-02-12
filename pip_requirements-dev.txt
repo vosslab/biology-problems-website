@@ -1,0 +1,5 @@
+# Development dependencies
+bandit  # security linting for Python code
+pyflakes  # static analysis lint checks
+pytest  # automated test runner
+rich  # formatted terminal output in developer tools
