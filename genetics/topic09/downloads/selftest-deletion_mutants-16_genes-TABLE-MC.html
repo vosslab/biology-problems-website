@@ -1,10 +1,10 @@
-<script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
+<script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
 <div class="qti-selftest">
-<div id="question_html_0366_9420">
-<div id="statement_text_0366_9420">
+<div id="question_html_ab4d_3445">
+<div id="statement_text_ab4d_3445">
 <h4>Using Deletion Mutants to Determine Gene Order</h4>
 <p>Deletion mutants are an essential tool in genetics for uncovering the order of sixteen (16) genes on a chromosome. Deletions remove specific regions of the chromosome, allowing researchers to observe the effects of the missing genes on the phenotype of the organism. This approach is particularly useful for identifying the locations of recessive genes, which are only revealed when the corresponding wildtype copies are absent.<br>In a test cross involving deletion mutants, one parent carries a full-length wildtype chromosome and a second chromosome with a deletion, while the other parent is homozygous recessive for all sixteen genes. Offspring inheriting the full-length wildtype chromosome display the dominant phenotype for all sixteen genes in the test cross. However, offspring inheriting the chromosome with the deletion will display some recessive traits. These recessive traits uncover the missing genes in the deleted region. By analyzing which genes are uncovered in a series of different deletion mutants, the linear order of the genes can be determined.<br>In organisms such as <i>Drosophila melanogaster</i>, polytene chromosomes from the salivary glands provide a physical map for studying deletions. Polytene chromosomes are giant chromosomes with distinct banding patterns, allowing researchers to directly visualize which regions of the chromosome are deleted. This visual representation complements the genetic data obtained from test crosses.<br>For this problem, deletion mutants have been generated for a chromosome containing sixteen genes. Your goal is to analyze the phenotypic data resulting from these deletions and determine the correct linear order of the genes.</p>
-<table style="border-collapse: collapse; border: 2px solid black; width: 1020px; height: 400px;">
+<table style="border-collapse: collapse; border: 2px solid black; width: 1020px; height: 350px;">
 <tr>
 <th> </th>
 <th align="center">Gene 1</th>
@@ -29,15 +29,15 @@
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
+<td bgcolor="#EEEEEE"> </td>
+<td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#b30000"> </td>
 <td bgcolor="#b30000"> </td>
 <td bgcolor="#b30000"> </td>
 <td bgcolor="#b30000"> </td>
 <td bgcolor="#b30000"> </td>
-<td bgcolor="#b30000"> </td>
-<td bgcolor="#b30000"> </td>
-<td bgcolor="#b30000"> </td>
-<td bgcolor="#b30000"> </td>
+<td bgcolor="#EEEEEE"> </td>
+<td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
@@ -49,7 +49,7 @@
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#b34100"> </td>
+<td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#b34100"> </td>
 <td bgcolor="#b34100"> </td>
 <td bgcolor="#b34100"> </td>
@@ -67,16 +67,16 @@
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#663300"> </td>
 <td bgcolor="#663300"> </td>
 <td bgcolor="#663300"> </td>
 <td bgcolor="#663300"> </td>
 <td bgcolor="#663300"> </td>
+<td bgcolor="#663300"> </td>
+<td bgcolor="#663300"> </td>
+<td bgcolor="#663300"> </td>
+<td bgcolor="#EEEEEE"> </td>
+<td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
@@ -84,14 +84,14 @@
 <tr>
 <th align="center"><span style="color: #b37100; font-weight: bold;">Del #4</span></th>
 <td bgcolor="#EEEEEE"> </td>
+<td bgcolor="#b37100"> </td>
+<td bgcolor="#b37100"> </td>
+<td bgcolor="#b37100"> </td>
+<td bgcolor="#b37100"> </td>
+<td bgcolor="#b37100"> </td>
+<td bgcolor="#b37100"> </td>
 <td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#b37100"> </td>
-<td bgcolor="#b37100"> </td>
-<td bgcolor="#b37100"> </td>
-<td bgcolor="#b37100"> </td>
-<td bgcolor="#b37100"> </td>
-<td bgcolor="#b37100"> </td>
-<td bgcolor="#b37100"> </td>
+<td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
@@ -101,32 +101,13 @@
 <td bgcolor="#EEEEEE"> </td>
 </tr>
 <tr>
-<th align="center"><span style="color: #999900; font-weight: bold;">Del #5</span></th>
+<th align="center"><span style="color: #465927; font-weight: bold;">Del #5</span></th>
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#999900"> </td>
-<td bgcolor="#999900"> </td>
-<td bgcolor="#999900"> </td>
-<td bgcolor="#999900"> </td>
-<td bgcolor="#999900"> </td>
-<td bgcolor="#999900"> </td>
-<td bgcolor="#999900"> </td>
-</tr>
-<tr>
-<th align="center"><span style="color: #465927; font-weight: bold;">Del #6</span></th>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#465927"> </td>
-<td bgcolor="#465927"> </td>
 <td bgcolor="#465927"> </td>
 <td bgcolor="#465927"> </td>
 <td bgcolor="#465927"> </td>
@@ -139,34 +120,7 @@
 <td bgcolor="#EEEEEE"> </td>
 </tr>
 <tr>
-<th align="center"><span style="color: #4d9900; font-weight: bold;">Del #7</span></th>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#4d9900"> </td>
-<td bgcolor="#4d9900"> </td>
-<td bgcolor="#4d9900"> </td>
-<td bgcolor="#4d9900"> </td>
-<td bgcolor="#4d9900"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-</tr>
-<tr>
-<th align="center"><span style="color: #008000; font-weight: bold;">Del #8</span></th>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
+<th align="center"><span style="color: #008000; font-weight: bold;">Del #6</span></th>
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
@@ -174,52 +128,56 @@
 <td bgcolor="#008000"> </td>
 <td bgcolor="#008000"> </td>
 <td bgcolor="#008000"> </td>
-<td bgcolor="#EEEEEE"> </td>
-</tr>
-<tr>
-<th align="center"><span style="color: #008066; font-weight: bold;">Del #9</span></th>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#008066"> </td>
-<td bgcolor="#008066"> </td>
-<td bgcolor="#008066"> </td>
-<td bgcolor="#008066"> </td>
-<td bgcolor="#008066"> </td>
-<td bgcolor="#008066"> </td>
-<td bgcolor="#008066"> </td>
-<td bgcolor="#008066"> </td>
-<td bgcolor="#008066"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-</tr>
-<tr>
-<th align="center"><span style="color: #008080; font-weight: bold;">Del #10</span></th>
-<td bgcolor="#008080"> </td>
-<td bgcolor="#008080"> </td>
-<td bgcolor="#008080"> </td>
-<td bgcolor="#008080"> </td>
-<td bgcolor="#008080"> </td>
-<td bgcolor="#008080"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
+<td bgcolor="#008000"> </td>
+<td bgcolor="#008000"> </td>
+<td bgcolor="#008000"> </td>
+<td bgcolor="#008000"> </td>
+<td bgcolor="#008000"> </td>
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
 </tr>
 <tr>
-<th align="center"><span style="color: #076cab; font-weight: bold;">Del #11</span></th>
+<th align="center"><span style="color: #008066; font-weight: bold;">Del #7</span></th>
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
+<td bgcolor="#EEEEEE"> </td>
+<td bgcolor="#008066"> </td>
+<td bgcolor="#008066"> </td>
+<td bgcolor="#008066"> </td>
+<td bgcolor="#008066"> </td>
+<td bgcolor="#008066"> </td>
+<td bgcolor="#008066"> </td>
+<td bgcolor="#008066"> </td>
+<td bgcolor="#008066"> </td>
+<td bgcolor="#008066"> </td>
+<td bgcolor="#EEEEEE"> </td>
+<td bgcolor="#EEEEEE"> </td>
+</tr>
+<tr>
+<th align="center"><span style="color: #008080; font-weight: bold;">Del #8</span></th>
+<td bgcolor="#EEEEEE"> </td>
+<td bgcolor="#EEEEEE"> </td>
+<td bgcolor="#EEEEEE"> </td>
+<td bgcolor="#EEEEEE"> </td>
+<td bgcolor="#EEEEEE"> </td>
+<td bgcolor="#EEEEEE"> </td>
+<td bgcolor="#008080"> </td>
+<td bgcolor="#008080"> </td>
+<td bgcolor="#008080"> </td>
+<td bgcolor="#008080"> </td>
+<td bgcolor="#008080"> </td>
+<td bgcolor="#008080"> </td>
+<td bgcolor="#008080"> </td>
+<td bgcolor="#EEEEEE"> </td>
+<td bgcolor="#EEEEEE"> </td>
+<td bgcolor="#EEEEEE"> </td>
+</tr>
+<tr>
+<th align="center"><span style="color: #076cab; font-weight: bold;">Del #9</span></th>
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
@@ -232,10 +190,17 @@
 <td bgcolor="#076cab"> </td>
 <td bgcolor="#076cab"> </td>
 <td bgcolor="#076cab"> </td>
+<td bgcolor="#076cab"> </td>
+<td bgcolor="#076cab"> </td>
+<td bgcolor="#076cab"> </td>
+<td bgcolor="#076cab"> </td>
 </tr>
 <tr>
-<th align="center"><span style="color: #002db3; font-weight: bold;">Del #12</span></th>
-<td bgcolor="#EEEEEE"> </td>
+<th align="center"><span style="color: #002db3; font-weight: bold;">Del #10</span></th>
+<td bgcolor="#002db3"> </td>
+<td bgcolor="#002db3"> </td>
+<td bgcolor="#002db3"> </td>
+<td bgcolor="#002db3"> </td>
 <td bgcolor="#002db3"> </td>
 <td bgcolor="#002db3"> </td>
 <td bgcolor="#002db3"> </td>
@@ -248,38 +213,35 @@
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
+</tr>
+<tr>
+<th align="center"><span style="color: #004080; font-weight: bold;">Del #11</span></th>
+<td bgcolor="#EEEEEE"> </td>
+<td bgcolor="#EEEEEE"> </td>
+<td bgcolor="#EEEEEE"> </td>
+<td bgcolor="#004080"> </td>
+<td bgcolor="#004080"> </td>
+<td bgcolor="#004080"> </td>
+<td bgcolor="#004080"> </td>
+<td bgcolor="#004080"> </td>
+<td bgcolor="#EEEEEE"> </td>
+<td bgcolor="#EEEEEE"> </td>
+<td bgcolor="#EEEEEE"> </td>
+<td bgcolor="#EEEEEE"> </td>
+<td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
 </tr>
 <tr>
-<th align="center"><span style="color: #690f8a; font-weight: bold;">Del #13</span></th>
+<th align="center"><span style="color: #800055; font-weight: bold;">Del #12</span></th>
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#690f8a"> </td>
-<td bgcolor="#690f8a"> </td>
-<td bgcolor="#690f8a"> </td>
-<td bgcolor="#690f8a"> </td>
-<td bgcolor="#690f8a"> </td>
-<td bgcolor="#690f8a"> </td>
-<td bgcolor="#690f8a"> </td>
-<td bgcolor="#690f8a"> </td>
-<td bgcolor="#690f8a"> </td>
-</tr>
-<tr>
-<th align="center"><span style="color: #800055; font-weight: bold;">Del #14</span></th>
 <td bgcolor="#800055"> </td>
 <td bgcolor="#800055"> </td>
 <td bgcolor="#800055"> </td>
 <td bgcolor="#800055"> </td>
-<td bgcolor="#800055"> </td>
-<td bgcolor="#800055"> </td>
-<td bgcolor="#800055"> </td>
+<td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
@@ -291,7 +253,8 @@
 <td bgcolor="#EEEEEE"> </td>
 </tr>
 <tr>
-<th align="center"><span style="color: #99004d; font-weight: bold;">Del #15</span></th>
+<th align="center"><span style="color: #99004d; font-weight: bold;">Del #13</span></th>
+<td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
 <td bgcolor="#EEEEEE"> </td>
@@ -303,32 +266,29 @@
 <td bgcolor="#99004d"> </td>
 <td bgcolor="#99004d"> </td>
 <td bgcolor="#99004d"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
-<td bgcolor="#EEEEEE"> </td>
+<td bgcolor="#99004d"> </td>
+<td bgcolor="#99004d"> </td>
+<td bgcolor="#99004d"> </td>
 <td bgcolor="#EEEEEE"> </td>
 </tr>
 </table>
-<p>There are sixteen (16) genes, A, B, C, D, H, J, K, M, P, Q, S, T, W, X, Y, and Z, closely linked in a single chromosome. However, their order is unknown. In the region, fifteen (15) deletions have been identified. These deletions uncover recessive alleles of the genes as follows:</p>
+<p>There are sixteen (16) genes, A, C, E, F, G, H, J, M, P, Q, R, S, T, X, Y, and Z, closely linked in a single chromosome. However, their order is unknown. In the region, thirteen (13) deletions have been identified. These deletions uncover recessive alleles of the genes as follows:</p>
 <ul>
-<li><span style="color: #b30000; font-weight: bold;">Deletion #1: <strong>A, B, C, H, J, Q, S, W, and X</strong></span></li>
-<li><span style="color: #b34100; font-weight: bold;">Deletion #2: <strong>H, J, Q, S, and W</strong></span></li>
-<li><span style="color: #663300; font-weight: bold;">Deletion #3: <strong>A, C, S, X, and Y</strong></span></li>
-<li><span style="color: #b37100; font-weight: bold;">Deletion #4: <strong>B, H, J, M, Q, S, and W</strong></span></li>
-<li><span style="color: #999900; font-weight: bold;">Deletion #5: <strong>A, C, D, K, X, Y, and Z</strong></span></li>
-<li><span style="color: #465927; font-weight: bold;">Deletion #6: <strong>H, J, Q, S, W, and X</strong></span></li>
-<li><span style="color: #4d9900; font-weight: bold;">Deletion #7: <strong>A, C, D, X, and Y</strong></span></li>
-<li><span style="color: #008000; font-weight: bold;">Deletion #8: <strong>D, K, and Y</strong></span></li>
-<li><span style="color: #008066; font-weight: bold;">Deletion #9: <strong>A, C, H, J, Q, S, W, X, and Y</strong></span></li>
-<li><span style="color: #008080; font-weight: bold;">Deletion #10: <strong>B, H, J, M, P, and T</strong></span></li>
-<li><span style="color: #076cab; font-weight: bold;">Deletion #11: <strong>D, K, Y, and Z</strong></span></li>
-<li><span style="color: #002db3; font-weight: bold;">Deletion #12: <strong>B, H, M, and P</strong></span></li>
-<li><span style="color: #690f8a; font-weight: bold;">Deletion #13: <strong>A, C, D, K, S, W, X, Y, and Z</strong></span></li>
-<li><span style="color: #800055; font-weight: bold;">Deletion #14: <strong>B, H, J, M, P, Q, and T</strong></span></li>
-<li><span style="color: #99004d; font-weight: bold;">Deletion #15: <strong>A, J, Q, S, W, and X</strong></span></li>
+<li><span style="color: #b30000; font-weight: bold;">Deletion #1: <strong>A, H, Q, X, and Y</strong></span></li>
+<li><span style="color: #b34100; font-weight: bold;">Deletion #2: <strong>A, H, Q, and Y</strong></span></li>
+<li><span style="color: #663300; font-weight: bold;">Deletion #3: <strong>A, H, M, Q, S, X, Y, and Z</strong></span></li>
+<li><span style="color: #b37100; font-weight: bold;">Deletion #4: <strong>A, G, H, J, S, and Z</strong></span></li>
+<li><span style="color: #465927; font-weight: bold;">Deletion #5: <strong>H, Q, X, and Y</strong></span></li>
+<li><span style="color: #008000; font-weight: bold;">Deletion #6: <strong>A, H, M, Q, R, S, X, and Y</strong></span></li>
+<li><span style="color: #008066; font-weight: bold;">Deletion #7: <strong>A, F, H, M, Q, R, T, X, and Y</strong></span></li>
+<li><span style="color: #008080; font-weight: bold;">Deletion #8: <strong>H, M, Q, R, T, X, and Y</strong></span></li>
+<li><span style="color: #076cab; font-weight: bold;">Deletion #9: <strong>E, F, M, P, R, T, X, and Y</strong></span></li>
+<li><span style="color: #002db3; font-weight: bold;">Deletion #10: <strong>A, C, G, H, J, Q, S, and Z</strong></span></li>
+<li><span style="color: #004080; font-weight: bold;">Deletion #11: <strong>A, H, Q, S, and Z</strong></span></li>
+<li><span style="color: #800055; font-weight: bold;">Deletion #12: <strong>A, G, S, and Z</strong></span></li>
+<li><span style="color: #99004d; font-weight: bold;">Deletion #13: <strong>E, F, H, M, Q, R, T, X, and Y</strong></span></li>
 </ul>
-<p>What is the correct order of the sixteen (16) genes?<br><strong>Hint 1</strong>: The first gene at start of the chromosome is <strong>gene T</strong>.<br><strong>Hint 2</strong>: Enter your answer in the blank using only sixteen (16) letters, or one comma every three (3) letters. Do not include extra commas or spaces in your answer.</p>
+<p>What is the correct order of the sixteen (16) genes?<br><strong>Hint 1</strong>: The first gene at start of the chromosome is <strong>gene C</strong>.<br><strong>Hint 2</strong>: Enter your answer in the blank using only sixteen (16) letters, or one comma every three (3) letters. Do not include extra commas or spaces in your answer.</p>
 <h6>Step-by-Step Instructions for Solving Deletion Mutant Problems</h6>
 <ul>
 <li>Step 1: Simplify the information.</li> <ul>
@@ -349,40 +309,40 @@
 </ul>
 </div>
 <form>
-<ul id="choices_0366_9420">
+<ul id="choices_ab4d_3445" class="qti-auto-grid">
 <li>
-    <input type="radio" id="option0" name="answer_0366_9420" data-correct="false"><label for="option0"><strong><span style="font-family: monospace;">TMPB,HJQW,SXAC,YDKZ</span></strong>:   <i>gene order of T, M, P, B, H, J, Q, W, S, X, A, C, Y, D, K, and Z</i></label>
+    <input type="radio" id="option0" name="answer_ab4d_3445" data-correct="false"><label for="option0"><strong><span style="font-family: monospace;">CJGS,ZAHQ,YXMR,TEFP</span></strong>:   <i>gene order of C, J, G, S, Z, A, H, Q, Y, X, M, R, T, E, F, and P</i></label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_0366_9420" data-correct="false"><label for="option1"><strong><span style="font-family: monospace;">TPMB,HJQW,SAXC,YDKZ</span></strong>:   <i>gene order of T, P, M, B, H, J, Q, W, S, A, X, C, Y, D, K, and Z</i></label>
+    <input type="radio" id="option1" name="answer_ab4d_3445" data-correct="false"><label for="option1"><strong><span style="font-family: monospace;">CJGZ,SAHQ,YXMR,TEFP</span></strong>:   <i>gene order of C, J, G, Z, S, A, H, Q, Y, X, M, R, T, E, F, and P</i></label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_0366_9420" data-correct="false"><label for="option2"><strong><span style="font-family: monospace;">TPMB,HJQW,SAXC,YKDZ</span></strong>:   <i>gene order of T, P, M, B, H, J, Q, W, S, A, X, C, Y, K, D, and Z</i></label>
+    <input type="radio" id="option2" name="answer_ab4d_3445" data-correct="true"><label for="option2"><strong><span style="font-family: monospace;">CJGZ,SAHQ,YXMR,TFEP</span></strong>:   <i>gene order of C, J, G, Z, S, A, H, Q, Y, X, M, R, T, F, E, and P</i></label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_0366_9420" data-correct="true"><label for="option3"><strong><span style="font-family: monospace;">TPMB,HJQW,SXAC,YDKZ</span></strong>:   <i>gene order of T, P, M, B, H, J, Q, W, S, X, A, C, Y, D, K, and Z</i></label>
+    <input type="radio" id="option3" name="answer_ab4d_3445" data-correct="false"><label for="option3"><strong><span style="font-family: monospace;">CJGZ,SAHQ,YXMT,RFEP</span></strong>:   <i>gene order of C, J, G, Z, S, A, H, Q, Y, X, M, T, R, F, E, and P</i></label>
   </li>
   <li>
-    <input type="radio" id="option4" name="answer_0366_9420" data-correct="false"><label for="option4"><strong><span style="font-family: monospace;">TPMB,HJWQ,SXAC,YDKZ</span></strong>:   <i>gene order of T, P, M, B, H, J, W, Q, S, X, A, C, Y, D, K, and Z</i></label>
+    <input type="radio" id="option4" name="answer_ab4d_3445" data-correct="false"><label for="option4"><strong><span style="font-family: monospace;">CJGZ,SAHQ,YXRM,TEFP</span></strong>:   <i>gene order of C, J, G, Z, S, A, H, Q, Y, X, R, M, T, E, F, and P</i></label>
   </li>
   <li>
-    <input type="radio" id="option5" name="answer_0366_9420" data-correct="false"><label for="option5"><strong><span style="font-family: monospace;">TPMB,JHQW,SAXC,YKDZ</span></strong>:   <i>gene order of T, P, M, B, J, H, Q, W, S, A, X, C, Y, K, D, and Z</i></label>
+    <input type="radio" id="option5" name="answer_ab4d_3445" data-correct="false"><label for="option5"><strong><span style="font-family: monospace;">CJGZ,SAHQ,YXRM,TFEP</span></strong>:   <i>gene order of C, J, G, Z, S, A, H, Q, Y, X, R, M, T, F, E, and P</i></label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_0366_9420()">Check Answer</button>
-<div id="result_0366_9420" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_ab4d_3445()">Check Answer</button>
+<div id="result_ab4d_3445" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_0366_9420() {
- const options = document.getElementsByName('answer_0366_9420');
+function checkAnswer_ab4d_3445() {
+ const options = document.getElementsByName('answer_ab4d_3445');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_0366_9420');
+ const resultDiv = document.getElementById('result_ab4d_3445');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'var(--qti-success-fg, #008000)';

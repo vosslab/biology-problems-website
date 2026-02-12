@@ -1,16 +1,16 @@
-<script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
+<script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
 <div class="qti-selftest">
-<div id="question_html_eadd_ee01">
-<div id="statement_text_eadd_ee01">
+<div id="question_html_b02e_e27a">
+<div id="statement_text_b02e_e27a">
 <h5>Unordered Tetrad Three Gene Mapping</h5>
 <p>In this problem, you will use unordered tetrads to determine the between a single pair of genes and calculate the distances between them. The yeast <i>Saccharomyces cerevisiae</i> is used in this study. A cross has been performed to study the linkage relationships among three genes, and the resulting genotypes are summarized in the table below.</p>
 <h6>Characteristics of Recessive Phenotypes</h6>
 <p></p>
 <ul>
 <li>
-<strong><span style="color: #b37100;">Gene E</span></strong> is affiliated with the '<span style="color: #b37100;"><i>elephant</i></span>' phenotype. A budding yeast that is homozygous recessive for <span style="color: #b37100;">Gene E</span> cells absorb excessive amounts of liquid, resulting in giant, swollen cells.</li> <li>
-<strong><span style="color: #008000;">Gene W</span></strong> is analogous to the '<span style="color: #008000;"><i>webbed</i></span>' phenotype. A budding yeast that is homozygous recessive for <span style="color: #008000;">Gene W</span> colonies produce delicate, web-like strands that connect neighboring colonies in a cobweb pattern.</li> <li>
-<strong><span style="color: #99004d;">Gene Y</span></strong> is linked with the '<span style="color: #99004d;"><i>yolk</i></span>' phenotype. A budding yeast that is homozygous recessive for <span style="color: #99004d;">Gene Y</span> cells develop a dense, yellowish core that resembles an egg yolk when viewed under a microscope.</li> </ul>
+<strong><span style="color: #008000;">Gene A</span></strong> is related to the '<span style="color: #008000;"><i>amber</i></span>' phenotype. A budding yeast that is homozygous recessive for <span style="color: #008000;">Gene A</span> cells develop a rich yellow-orange pigmentation, giving the colony a warm, amber hue.</li> <li>
+<strong><span style="color: #002db3;">Gene T</span></strong> is affiliated with the '<span style="color: #002db3;"><i>toxic</i></span>' phenotype. A budding yeast that is homozygous recessive for <span style="color: #002db3;">Gene T</span> secretes a toxic compound that inhibits or kills other microbial colonies nearby.</li> <li>
+<strong><span style="color: #99004d;">Gene Y</span></strong> is affiliated with the '<span style="color: #99004d;"><i>yolk</i></span>' phenotype. A budding yeast that is homozygous recessive for <span style="color: #99004d;">Gene Y</span> cells develop a dense, yellowish core that resembles an egg yolk when viewed under a microscope.</li> </ul>
 <table style="border-collapse: collapse; border: 2px solid black; width: 400px; height: 220px;">
 <tr>
 <th align="center" style="border: 1px solid black;">Set #</th> <th colspan="4" align="center" style="border: 1px solid black;">Tetrad Genotypes</th> <th align="center" style="border: 1px solid black;">Progeny<br>Count</th>
@@ -21,21 +21,21 @@
 </tr></table></div></span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
 <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #b30000;">+</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #999900;">+</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #002db3;">+</span></td>
 </tr></table></div></span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
-<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">e</span></td> <td align="center" style="border: 0px; background-color: #ffffcc"><span style="font-size: large; font-family: monospace;">w</span></td> <td align="center" style="border: 0px; background-color: #ccd9ff"><span style="font-size: large; font-family: monospace;">y</span></td>
+<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">a</span></td> <td align="center" style="border: 0px; background-color: #ffffcc"><span style="font-size: large; font-family: monospace;">t</span></td> <td align="center" style="border: 0px; background-color: #ccd9ff"><span style="font-size: large; font-family: monospace;">y</span></td>
 </tr></table></div></span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
-<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">e</span></td> <td align="center" style="border: 0px; background-color: #ffffcc"><span style="font-size: large; font-family: monospace;">w</span></td> <td align="center" style="border: 0px; background-color: #ccd9ff"><span style="font-size: large; font-family: monospace;">y</span></td>
-</tr></table></div></span></td> <td align="right" style="border: 1px solid black;"><span style="font-size: medium;">467</span></td>
+<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">a</span></td> <td align="center" style="border: 0px; background-color: #ffffcc"><span style="font-size: large; font-family: monospace;">t</span></td> <td align="center" style="border: 0px; background-color: #ccd9ff"><span style="font-size: large; font-family: monospace;">y</span></td>
+</tr></table></div></span></td> <td align="right" style="border: 1px solid black;"><span style="font-size: medium;">218</span></td>
 </tr>
 <tr>
 <td align="center" style="border: 1px solid black;"><span style="font-size: medium;">2</span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
 <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #b30000;">+</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #999900;">+</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #002db3;">+</span></td>
 </tr></table></div></span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
-<td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #b30000;">+</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #999900;">+</span></td> <td align="center" style="border: 0px; background-color: #ccd9ff"><span style="font-size: large; font-family: monospace;">y</span></td>
+<td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #b30000;">+</span></td> <td align="center" style="border: 0px; background-color: #ffffcc"><span style="font-size: large; font-family: monospace;">t</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #002db3;">+</span></td>
 </tr></table></div></span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
-<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">e</span></td> <td align="center" style="border: 0px; background-color: #ffffcc"><span style="font-size: large; font-family: monospace;">w</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #002db3;">+</span></td>
+<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">a</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #999900;">+</span></td> <td align="center" style="border: 0px; background-color: #ccd9ff"><span style="font-size: large; font-family: monospace;">y</span></td>
 </tr></table></div></span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
-<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">e</span></td> <td align="center" style="border: 0px; background-color: #ffffcc"><span style="font-size: large; font-family: monospace;">w</span></td> <td align="center" style="border: 0px; background-color: #ccd9ff"><span style="font-size: large; font-family: monospace;">y</span></td>
-</tr></table></div></span></td> <td align="right" style="border: 1px solid black;"><span style="font-size: medium;">7,782</span></td>
+<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">a</span></td> <td align="center" style="border: 0px; background-color: #ffffcc"><span style="font-size: large; font-family: monospace;">t</span></td> <td align="center" style="border: 0px; background-color: #ccd9ff"><span style="font-size: large; font-family: monospace;">y</span></td>
+</tr></table></div></span></td> <td align="right" style="border: 1px solid black;"><span style="font-size: medium;">2,874</span></td>
 </tr>
 <tr>
 <td align="center" style="border: 1px solid black;"><span style="font-size: medium;">3</span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
@@ -43,46 +43,46 @@
 </tr></table></div></span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
 <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #b30000;">+</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #999900;">+</span></td> <td align="center" style="border: 0px; background-color: #ccd9ff"><span style="font-size: large; font-family: monospace;">y</span></td>
 </tr></table></div></span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
-<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">e</span></td> <td align="center" style="border: 0px; background-color: #ffffcc"><span style="font-size: large; font-family: monospace;">w</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #002db3;">+</span></td>
+<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">a</span></td> <td align="center" style="border: 0px; background-color: #ffffcc"><span style="font-size: large; font-family: monospace;">t</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #002db3;">+</span></td>
 </tr></table></div></span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
-<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">e</span></td> <td align="center" style="border: 0px; background-color: #ffffcc"><span style="font-size: large; font-family: monospace;">w</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #002db3;">+</span></td>
-</tr></table></div></span></td> <td align="right" style="border: 1px solid black;"><span style="font-size: medium;">9,234</span></td>
+<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">a</span></td> <td align="center" style="border: 0px; background-color: #ffffcc"><span style="font-size: large; font-family: monospace;">t</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #002db3;">+</span></td>
+</tr></table></div></span></td> <td align="right" style="border: 1px solid black;"><span style="font-size: medium;">139</span></td>
 </tr>
 <tr>
 <td align="center" style="border: 1px solid black;"><span style="font-size: medium;">4</span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
 <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #b30000;">+</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #999900;">+</span></td> <td align="center" style="border: 0px; background-color: #ccd9ff"><span style="font-size: large; font-family: monospace;">y</span></td>
 </tr></table></div></span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
-<td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #b30000;">+</span></td> <td align="center" style="border: 0px; background-color: #ffffcc"><span style="font-size: large; font-family: monospace;">w</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #002db3;">+</span></td>
+<td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #b30000;">+</span></td> <td align="center" style="border: 0px; background-color: #ffffcc"><span style="font-size: large; font-family: monospace;">t</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #002db3;">+</span></td>
 </tr></table></div></span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
-<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">e</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #999900;">+</span></td> <td align="center" style="border: 0px; background-color: #ccd9ff"><span style="font-size: large; font-family: monospace;">y</span></td>
+<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">a</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #999900;">+</span></td> <td align="center" style="border: 0px; background-color: #ccd9ff"><span style="font-size: large; font-family: monospace;">y</span></td>
 </tr></table></div></span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
-<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">e</span></td> <td align="center" style="border: 0px; background-color: #ffffcc"><span style="font-size: large; font-family: monospace;">w</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #002db3;">+</span></td>
-</tr></table></div></span></td> <td align="right" style="border: 1px solid black;"><span style="font-size: medium;">3,990</span></td>
+<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">a</span></td> <td align="center" style="border: 0px; background-color: #ffffcc"><span style="font-size: large; font-family: monospace;">t</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #002db3;">+</span></td>
+</tr></table></div></span></td> <td align="right" style="border: 1px solid black;"><span style="font-size: medium;">2,328</span></td>
 </tr>
 <tr>
 <td align="center" style="border: 1px solid black;"><span style="font-size: medium;">5</span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
-<td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #b30000;">+</span></td> <td align="center" style="border: 0px; background-color: #ffffcc"><span style="font-size: large; font-family: monospace;">w</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #002db3;">+</span></td>
+<td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #b30000;">+</span></td> <td align="center" style="border: 0px; background-color: #ffffcc"><span style="font-size: large; font-family: monospace;">t</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #002db3;">+</span></td>
 </tr></table></div></span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
-<td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #b30000;">+</span></td> <td align="center" style="border: 0px; background-color: #ffffcc"><span style="font-size: large; font-family: monospace;">w</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #002db3;">+</span></td>
+<td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #b30000;">+</span></td> <td align="center" style="border: 0px; background-color: #ffffcc"><span style="font-size: large; font-family: monospace;">t</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #002db3;">+</span></td>
 </tr></table></div></span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
-<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">e</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #999900;">+</span></td> <td align="center" style="border: 0px; background-color: #ccd9ff"><span style="font-size: large; font-family: monospace;">y</span></td>
+<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">a</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #999900;">+</span></td> <td align="center" style="border: 0px; background-color: #ccd9ff"><span style="font-size: large; font-family: monospace;">y</span></td>
 </tr></table></div></span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
-<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">e</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #999900;">+</span></td> <td align="center" style="border: 0px; background-color: #ccd9ff"><span style="font-size: large; font-family: monospace;">y</span></td>
-</tr></table></div></span></td> <td align="right" style="border: 1px solid black;"><span style="font-size: medium;">91</span></td>
+<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">a</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #999900;">+</span></td> <td align="center" style="border: 0px; background-color: #ccd9ff"><span style="font-size: large; font-family: monospace;">y</span></td>
+</tr></table></div></span></td> <td align="right" style="border: 1px solid black;"><span style="font-size: medium;">4,488</span></td>
 </tr>
 <tr>
 <td align="center" style="border: 1px solid black;"><span style="font-size: medium;">6</span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
-<td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #b30000;">+</span></td> <td align="center" style="border: 0px; background-color: #ffffcc"><span style="font-size: large; font-family: monospace;">w</span></td> <td align="center" style="border: 0px; background-color: #ccd9ff"><span style="font-size: large; font-family: monospace;">y</span></td>
+<td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #b30000;">+</span></td> <td align="center" style="border: 0px; background-color: #ffffcc"><span style="font-size: large; font-family: monospace;">t</span></td> <td align="center" style="border: 0px; background-color: #ccd9ff"><span style="font-size: large; font-family: monospace;">y</span></td>
 </tr></table></div></span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
-<td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #b30000;">+</span></td> <td align="center" style="border: 0px; background-color: #ffffcc"><span style="font-size: large; font-family: monospace;">w</span></td> <td align="center" style="border: 0px; background-color: #ccd9ff"><span style="font-size: large; font-family: monospace;">y</span></td>
+<td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #b30000;">+</span></td> <td align="center" style="border: 0px; background-color: #ffffcc"><span style="font-size: large; font-family: monospace;">t</span></td> <td align="center" style="border: 0px; background-color: #ccd9ff"><span style="font-size: large; font-family: monospace;">y</span></td>
 </tr></table></div></span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
-<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">e</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #999900;">+</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #002db3;">+</span></td>
+<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">a</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #999900;">+</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #002db3;">+</span></td>
 </tr></table></div></span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
-<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">e</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #999900;">+</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #002db3;">+</span></td>
-</tr></table></div></span></td> <td align="right" style="border: 1px solid black;"><span style="font-size: medium;">36</span></td>
+<td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">a</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #999900;">+</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #002db3;">+</span></td>
+</tr></table></div></span></td> <td align="right" style="border: 1px solid black;"><span style="font-size: medium;">153</span></td>
 </tr>
 <tr>
-<th colspan="5" align="right" style="border: 1px solid black;">TOTAL =</th> <td align="right" style="border: 1px solid black;">21,600</td>
+<th colspan="5" align="right" style="border: 1px solid black;">TOTAL =</th> <td align="right" style="border: 1px solid black;">10,200</td>
 </tr>
 </table>
 <p>The resulting phenotypes are summarized in the table above.</p> <h6>Step-by-Step Instructions</h6>
@@ -90,85 +90,85 @@
 <li>Step 1: Find the row for the Parental Type for all three genes.</li> <li>Step 2: Looking at only your two genes, assign PD, NPD, TT.</li> <li>Step 3: Determine if the two genes are linked.</li> <ul><li>PD &gt;&gt; NPD &#8594; linked; PD &#8776; NPD &#8594; unlinked</li></ul>
 <li>Step 4: Determine the map distance between the two genes.</li> <ul><li>D = ½ (TT + 6 NPD) / total = (3 NPD + ½ TT) / total</li></ul>
 </ul>
-<h5>Determine the distance between the two genes E and W</h5>
+<h5>Determine the distance between the two genes A and T</h5>
 </div>
 <form>
-<ul id="choices_eadd_ee01">
+<ul id="choices_b02e_e27a" class="qti-auto-grid-compact">
 <li>
-    <input type="radio" id="option0" name="answer_eadd_ee01" data-correct="false"><label for="option0">distance = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">½(7,782) + 3×(36 + 467)</td></tr>
-<tr><td style="text-align: center;">21,600</td></tr>
+    <input type="radio" id="option0" name="answer_b02e_e27a" data-correct="false"><label for="option0">distance = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
+<tr><td style="border-bottom: 1px solid black; text-align: center;">½(2,328) + 3×(139)</td></tr>
+<tr><td style="text-align: center;">10,200</td></tr>
 </table> = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">3,891 + 1,509</td></tr>
-<tr><td style="text-align: center;">21,600</td></tr>
+<tr><td style="border-bottom: 1px solid black; text-align: center;">1,164 + 417</td></tr>
+<tr><td style="text-align: center;">10,200</td></tr>
 </table> = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">5,400</td></tr>
-<tr><td style="text-align: center;">21,600</td></tr>
+<tr><td style="border-bottom: 1px solid black; text-align: center;">1,581</td></tr>
+<tr><td style="text-align: center;">10,200</td></tr>
+</table> = 0.1550 = <strong>15.50 cM</strong></label>
+  </li>
+  <li>
+    <input type="radio" id="option1" name="answer_b02e_e27a" data-correct="false"><label for="option1">distance = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
+<tr><td style="border-bottom: 1px solid black; text-align: center;">½(2,328 + 2,874) + 3×(153)</td></tr>
+<tr><td style="text-align: center;">10,200</td></tr>
+</table> = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
+<tr><td style="border-bottom: 1px solid black; text-align: center;">2,601 + 459</td></tr>
+<tr><td style="text-align: center;">10,200</td></tr>
+</table> = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
+<tr><td style="border-bottom: 1px solid black; text-align: center;">3,060</td></tr>
+<tr><td style="text-align: center;">10,200</td></tr>
+</table> = 0.3000 = <strong>30 cM</strong></label>
+  </li>
+  <li>
+    <input type="radio" id="option2" name="answer_b02e_e27a" data-correct="false"><label for="option2">distance = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
+<tr><td style="border-bottom: 1px solid black; text-align: center;">½(2,874) + 3×(153 + 218)</td></tr>
+<tr><td style="text-align: center;">10,200</td></tr>
+</table> = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
+<tr><td style="border-bottom: 1px solid black; text-align: center;">1,437 + 1,113</td></tr>
+<tr><td style="text-align: center;">10,200</td></tr>
+</table> = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
+<tr><td style="border-bottom: 1px solid black; text-align: center;">2,550</td></tr>
+<tr><td style="text-align: center;">10,200</td></tr>
 </table> = 0.2500 = <strong>25 cM</strong></label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_eadd_ee01" data-correct="true"><label for="option1">distance = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">½(3,990) + 3×(36 + 91)</td></tr>
-<tr><td style="text-align: center;">21,600</td></tr>
+    <input type="radio" id="option3" name="answer_b02e_e27a" data-correct="false"><label for="option3">distance = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
+<tr><td style="border-bottom: 1px solid black; text-align: center;">½(2,328) + 3×(139 + 153)</td></tr>
+<tr><td style="text-align: center;">10,200</td></tr>
 </table> = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">1,995 + 381</td></tr>
-<tr><td style="text-align: center;">21,600</td></tr>
+<tr><td style="border-bottom: 1px solid black; text-align: center;">1,164 + 876</td></tr>
+<tr><td style="text-align: center;">10,200</td></tr>
 </table> = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">2,376</td></tr>
-<tr><td style="text-align: center;">21,600</td></tr>
-</table> = 0.1100 = <strong>11 cM</strong></label>
+<tr><td style="border-bottom: 1px solid black; text-align: center;">2,040</td></tr>
+<tr><td style="text-align: center;">10,200</td></tr>
+</table> = 0.2000 = <strong>20 cM</strong></label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_eadd_ee01" data-correct="false"><label for="option2">distance = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">½(7,782) + 3×(467)</td></tr>
-<tr><td style="text-align: center;">21,600</td></tr>
+    <input type="radio" id="option4" name="answer_b02e_e27a" data-correct="true"><label for="option4">distance = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
+<tr><td style="border-bottom: 1px solid black; text-align: center;">½(2,328 + 2,874) + 3×(139 + 218)</td></tr>
+<tr><td style="text-align: center;">10,200</td></tr>
 </table> = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">3,891 + 1,401</td></tr>
-<tr><td style="text-align: center;">21,600</td></tr>
+<tr><td style="border-bottom: 1px solid black; text-align: center;">2,601 + 1,071</td></tr>
+<tr><td style="text-align: center;">10,200</td></tr>
 </table> = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">5,292</td></tr>
-<tr><td style="text-align: center;">21,600</td></tr>
-</table> = 0.2450 = <strong>24.50 cM</strong></label>
-  </li>
-  <li>
-    <input type="radio" id="option3" name="answer_eadd_ee01" data-correct="false"><label for="option3">distance = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">½(3,990 + 7,782) + 3×(91 + 467)</td></tr>
-<tr><td style="text-align: center;">21,600</td></tr>
-</table> = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">5,886 + 1,674</td></tr>
-<tr><td style="text-align: center;">21,600</td></tr>
-</table> = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">7,560</td></tr>
-<tr><td style="text-align: center;">21,600</td></tr>
-</table> = 0.3500 = <strong>35 cM</strong></label>
-  </li>
-  <li>
-    <input type="radio" id="option4" name="answer_eadd_ee01" data-correct="false"><label for="option4">distance = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">½(3,990) + 3×(91)</td></tr>
-<tr><td style="text-align: center;">21,600</td></tr>
-</table> = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">1,995 + 273</td></tr>
-<tr><td style="text-align: center;">21,600</td></tr>
-</table> = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">2,268</td></tr>
-<tr><td style="text-align: center;">21,600</td></tr>
-</table> = 0.1050 = <strong>10.50 cM</strong></label>
+<tr><td style="border-bottom: 1px solid black; text-align: center;">3,672</td></tr>
+<tr><td style="text-align: center;">10,200</td></tr>
+</table> = 0.3600 = <strong>36 cM</strong></label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_eadd_ee01()">Check Answer</button>
-<div id="result_eadd_ee01" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_b02e_e27a()">Check Answer</button>
+<div id="result_b02e_e27a" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_eadd_ee01() {
- const options = document.getElementsByName('answer_eadd_ee01');
+function checkAnswer_b02e_e27a() {
+ const options = document.getElementsByName('answer_b02e_e27a');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_eadd_ee01');
+ const resultDiv = document.getElementById('result_b02e_e27a');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'var(--qti-success-fg, #008000)';
