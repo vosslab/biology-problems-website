@@ -36,19 +36,19 @@ Amino acid structure, types, and roles in protein structure.
 </details>
 
 
-## Amino Acids by Structural Features
+## Amino Acids from Descriptions
 
-<div id="MC-amino_acids_properties-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MC-amino_acids_properties-questions.txt" download title="Download bbq-MC-amino_acids_properties-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-amino_acids_properties-questions.txt)">
+<div id="WOMC-amino_acids_properties-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-WOMC-amino_acids_properties-questions.txt" download title="Download bbq-WOMC-amino_acids_properties-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-amino_acids_properties-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MC-amino_acids_properties.zip" download title="Download blackboard_qti_v2_1-MC-amino_acids_properties.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MC-amino_acids_properties.zip)">
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-amino_acids_properties.zip" download title="Download blackboard_qti_v2_1-WOMC-amino_acids_properties.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-amino_acids_properties.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MC-amino_acids_properties.zip" download title="Download canvas_qti_v1_2-MC-amino_acids_properties.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MC-amino_acids_properties.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-amino_acids_properties.zip" download title="Download canvas_qti_v1_2-WOMC-amino_acids_properties.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-amino_acids_properties.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MC-amino_acids_properties.html', '_blank')" title="View human_readable-MC-amino_acids_properties.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MC-amino_acids_properties.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-amino_acids_properties.html', '_blank')" title="View human_readable-WOMC-amino_acids_properties.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-amino_acids_properties.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
@@ -57,13 +57,13 @@ Amino acid structure, types, and roles in protein structure.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Amino Acids by Structural Features
+      Amino Acids from Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic03/downloads/selftest-MC-amino_acids_properties.html" %}
+  {% include "biochemistry/topic03/downloads/selftest-WOMC-amino_acids_properties.html" %}
 
 </details>
 
