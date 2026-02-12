@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+source $HOME/.bashrc
+
 THIS_SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROBLEMS_ROOT_DIR="$(cd "$THIS_SCRIPT_DIR/../.." && pwd)"
 USER_ROOT_DIR="$(dirname "$PROBLEMS_ROOT_DIR")"
