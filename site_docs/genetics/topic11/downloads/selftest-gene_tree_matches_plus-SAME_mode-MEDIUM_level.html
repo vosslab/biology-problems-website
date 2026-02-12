@@ -1,12 +1,12 @@
 <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
 <div class="qti-selftest">
-<div id="question_html_ab46_21ca">
-<div id="statement_text_ab46_21ca">
+<div id="question_html_30df_4cbc">
+<div id="statement_text_30df_4cbc">
 <h2>Find the <span style="color: #169179;"><strong>SAME</strong></span> tree</h2>
-<p><b>Phylogenetic trees</b> are fundamental tools in genetics research, enabling scientists to visualize evolutionary relationships among species, gene sequences, or populations. By tracing shared ancestry, these trees can provide valuable insights into genetic biodiversity. Applications of phylogenetic trees include tracking disease evolution, identifying conserved genetic sequences, and understanding speciation processes. Phylogenetic trees are indispensable for both theoretical and applied genetics.<br>The tree diagram below is a phylogenetic tree with 6 leaves. This phylogenetic tree is affectionately called: "<i>5giraffe+1</i>".</p>
+<p><b>Phylogenetic trees</b> are fundamental tools in genetics research, enabling scientists to visualize evolutionary relationships among species, gene sequences, or populations. By tracing shared ancestry, these trees can provide valuable insights into genetic biodiversity. Applications of phylogenetic trees include tracking disease evolution, identifying conserved genetic sequences, and understanding speciation processes. Phylogenetic trees are indispensable for both theoretical and applied genetics.<br>The tree diagram below is a phylogenetic tree with 6 leaves. This phylogenetic tree is affectionately called: "<i>6balanced2</i>".</p>
 <table style="border-collapse: collapse; border: 1px solid silver;">
 <caption style="caption-side:bottom">
-<i>tree code common name</i>: 5giraffe+1</caption>
+<i>tree code common name</i>: 6balanced2</caption>
 <colgroup width="30"></colgroup>
 <colgroup width="30"></colgroup>
 <colgroup width="30"></colgroup>
@@ -20,56 +20,6 @@
 <colgroup width="100"></colgroup>
 <tr style="height: 25;">
 <td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#bdf5ef" align="left" rowspan="2"> <span style="color: #0e5850; font-size: large; "><strong>Quokka</strong></span> </td>
-</tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td> </tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#f6e1bc" align="left" rowspan="2"> <span style="color: #875e12; font-size: large; "><strong>Sphinx</strong></span> </td>
-</tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td> </tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
@@ -77,79 +27,129 @@
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#b3ffb3" align="left" rowspan="2"> <span style="color: #006600; font-size: large; "><strong>Hydra</strong></span> </td>
-</tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td> </tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#d1d1e0" align="left" rowspan="2"> <span style="color: #3d3d5c; font-size: large; "><strong>Narloc</strong></span> </td>
-</tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td> </tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#b3c6ff" align="left" rowspan="2"> <span style="color: #001a66; font-size: large; "><strong>Bellen</strong></span> </td>
-</tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td> </tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#99ffff" align="left" rowspan="2"> <span style="color: #006666; font-size: large; "><strong>Gorret</strong></span> </td>
+</tr>
+<tr style="height: 25;">
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td> </tr>
+<tr style="height: 25;">
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#d3d9de" align="left" rowspan="2"> <span style="color: #424d57; font-size: large; "><strong>Kraken</strong></span> </td>
+</tr>
+<tr style="height: 25;">
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td> </tr>
+<tr style="height: 25;">
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#b3ffd9" align="left" rowspan="2"> <span style="color: #008040; font-size: large; "><strong>Thorret</strong></span> </td>
+</tr>
+<tr style="height: 25;">
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td> </tr>
+<tr style="height: 25;">
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#ffd0b3" align="left" rowspan="2"> <span style="color: #803100; font-size: large; "><strong>Dibblet</strong></span> </td>
+</tr>
+<tr style="height: 25;">
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-right: 4px solid black; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td> </tr>
+<tr style="height: 25;">
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#d9b3ff" align="left" rowspan="2"> <span style="color: #330066; font-size: large; "><strong>Inktoad</strong></span> </td>
+</tr>
+<tr style="height: 25;">
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-right: 4px solid black; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td> </tr>
+<tr style="height: 25;">
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#f3bebe" align="left" rowspan="2"> <span style="color: #6c1414; font-size: large; "><strong>Rynoth</strong></span> </td>
 </tr>
 <tr style="height: 25;">
 <td style="border: 0px solid white; "> </td>
@@ -166,9 +166,9 @@
 <p><br><br>Several phylogenetic trees are shown below, but only one has the SAME structure and represents the same relationships as the phylogenetic tree above.<br>Your task is to identify the single <span style="color: #169179;">same</span> phylogenetic tree that shares the same structure and relationships as the reference tree above.<br><br>Which one of the following phylogenetic trees represents the <span style="color: #169179;"><strong>SAME</strong></span> tree relationships or is equivalent to the phylogenetic tree above?</p>
 </div>
 <form>
-<ul id="choices_ab46_21ca" class="qti-auto-grid">
+<ul id="choices_30df_4cbc" class="qti-auto-grid">
 <li>
-    <input type="radio" id="option0" name="answer_ab46_21ca" data-correct="false"><label for="option0"><table style="border-collapse: collapse; border: 1px solid silver;">
+    <input type="radio" id="option0" name="answer_30df_4cbc" data-correct="false"><label for="option0"><table style="border-collapse: collapse; border: 1px solid silver;">
 <colgroup width="30"></colgroup>
 <colgroup width="30"></colgroup>
 <colgroup width="30"></colgroup>
@@ -184,94 +184,46 @@
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#f6e1bc" align="left" rowspan="2"> <span style="color: #875e12; font-size: large; "><strong>Sphinx</strong></span> </td>
-</tr>
-<tr style="height: 25;">
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td> </tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#d1d1e0" align="left" rowspan="2"> <span style="color: #3d3d5c; font-size: large; "><strong>Narloc</strong></span> </td>
-</tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td> </tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#b3c6ff" align="left" rowspan="2"> <span style="color: #001a66; font-size: large; "><strong>Bellen</strong></span> </td>
-</tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td> </tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#99ffff" align="left" rowspan="2"> <span style="color: #006666; font-size: large; "><strong>Gorret</strong></span> </td>
 </tr>
 <tr style="height: 25;">
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td> </tr>
+<tr style="height: 25;">
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; border-left: 4px solid black; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; border-left: 4px solid black; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#b3ffd9" align="left" rowspan="2"> <span style="color: #008040; font-size: large; "><strong>Thorret</strong></span> </td>
+</tr>
+<tr style="height: 25;">
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
@@ -281,13 +233,13 @@
 <td style="border: 0px solid white; border-left: 4px solid black; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#b3ffb3" align="left" rowspan="2"> <span style="color: #006600; font-size: large; "><strong>Hydra</strong></span> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#d3d9de" align="left" rowspan="2"> <span style="color: #424d57; font-size: large; "><strong>Kraken</strong></span> </td>
 </tr>
 <tr style="height: 25;">
 <td style="border: 0px solid white; "> </td>
@@ -301,8 +253,57 @@
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td> </tr>
 <tr style="height: 25;">
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#ffd0b3" align="left" rowspan="2"> <span style="color: #803100; font-size: large; "><strong>Dibblet</strong></span> </td>
+</tr>
+<tr style="height: 25;">
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-right: 4px solid black; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td> </tr>
+<tr style="height: 25;">
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#d9b3ff" align="left" rowspan="2"> <span style="color: #330066; font-size: large; "><strong>Inktoad</strong></span> </td>
+</tr>
+<tr style="height: 25;">
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; border-left: 4px solid black; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-right: 4px solid black; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td> </tr>
+<tr style="height: 25;">
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
@@ -310,8 +311,7 @@
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#bdf5ef" align="left" rowspan="2"> <span style="color: #0e5850; font-size: large; "><strong>Quokka</strong></span> </td>
+<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#f3bebe" align="left" rowspan="2"> <span style="color: #6c1414; font-size: large; "><strong>Rynoth</strong></span> </td>
 </tr>
 <tr style="height: 25;">
 <td style="border: 0px solid white; "> </td>
@@ -327,7 +327,7 @@
 </table></label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_ab46_21ca" data-correct="false"><label for="option1"><table style="border-collapse: collapse; border: 1px solid silver;">
+    <input type="radio" id="option1" name="answer_30df_4cbc" data-correct="true"><label for="option1"><table style="border-collapse: collapse; border: 1px solid silver;">
 <colgroup width="30"></colgroup>
 <colgroup width="30"></colgroup>
 <colgroup width="30"></colgroup>
@@ -341,6 +341,8 @@
 <colgroup width="100"></colgroup>
 <tr style="height: 25;">
 <td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
@@ -348,9 +350,55 @@
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#f3bebe" align="left" rowspan="2"> <span style="color: #6c1414; font-size: large; "><strong>Rynoth</strong></span> </td>
+</tr>
+<tr style="height: 25;">
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td> </tr>
+<tr style="height: 25;">
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-right: 4px solid black; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#bdf5ef" align="left" rowspan="2"> <span style="color: #0e5850; font-size: large; "><strong>Quokka</strong></span> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#ffd0b3" align="left" rowspan="2"> <span style="color: #803100; font-size: large; "><strong>Dibblet</strong></span> </td>
+</tr>
+<tr style="height: 25;">
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-right: 4px solid black; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td> </tr>
+<tr style="height: 25;">
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#d9b3ff" align="left" rowspan="2"> <span style="color: #330066; font-size: large; "><strong>Inktoad</strong></span> </td>
 </tr>
 <tr style="height: 25;">
 <td style="border: 0px solid white; "> </td>
@@ -364,47 +412,47 @@
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td> </tr>
 <tr style="height: 25;">
-<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-left: 4px solid black; "> </td>
 <td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#f6e1bc" align="left" rowspan="2"> <span style="color: #875e12; font-size: large; "><strong>Sphinx</strong></span> </td>
+<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#d3d9de" align="left" rowspan="2"> <span style="color: #424d57; font-size: large; "><strong>Kraken</strong></span> </td>
 </tr>
 <tr style="height: 25;">
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td> </tr>
 <tr style="height: 25;">
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
 <td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#b3c6ff" align="left" rowspan="2"> <span style="color: #001a66; font-size: large; "><strong>Bellen</strong></span> </td>
+<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#b3ffd9" align="left" rowspan="2"> <span style="color: #008040; font-size: large; "><strong>Thorret</strong></span> </td>
 </tr>
 <tr style="height: 25;">
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; border-left: 4px solid black; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-left: 4px solid black; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
@@ -414,63 +462,15 @@
 <tr style="height: 25;">
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#99ffff" align="left" rowspan="2"> <span style="color: #006666; font-size: large; "><strong>Gorret</strong></span> </td>
-</tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td> </tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#b3ffb3" align="left" rowspan="2"> <span style="color: #006600; font-size: large; "><strong>Hydra</strong></span> </td>
-</tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td> </tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#d1d1e0" align="left" rowspan="2"> <span style="color: #3d3d5c; font-size: large; "><strong>Narloc</strong></span> </td>
 </tr>
 <tr style="height: 25;">
 <td style="border: 0px solid white; "> </td>
@@ -486,7 +486,7 @@
 </table></label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_ab46_21ca" data-correct="false"><label for="option2"><table style="border-collapse: collapse; border: 1px solid silver;">
+    <input type="radio" id="option2" name="answer_30df_4cbc" data-correct="false"><label for="option2"><table style="border-collapse: collapse; border: 1px solid silver;">
 <colgroup width="30"></colgroup>
 <colgroup width="30"></colgroup>
 <colgroup width="30"></colgroup>
@@ -502,19 +502,43 @@
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#f6e1bc" align="left" rowspan="2"> <span style="color: #875e12; font-size: large; "><strong>Sphinx</strong></span> </td>
+<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#ffd0b3" align="left" rowspan="2"> <span style="color: #803100; font-size: large; "><strong>Dibblet</strong></span> </td>
 </tr>
 <tr style="height: 25;">
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-right: 4px solid black; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td> </tr>
+<tr style="height: 25;">
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; border-right: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#d9b3ff" align="left" rowspan="2"> <span style="color: #330066; font-size: large; "><strong>Inktoad</strong></span> </td>
+</tr>
+<tr style="height: 25;">
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-right: 4px solid black; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
@@ -524,12 +548,60 @@
 <td style="border: 0px solid white; "> </td> </tr>
 <tr style="height: 25;">
 <td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#f3bebe" align="left" rowspan="2"> <span style="color: #6c1414; font-size: large; "><strong>Rynoth</strong></span> </td>
+</tr>
+<tr style="height: 25;">
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td> </tr>
+<tr style="height: 25;">
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#b3ffd9" align="left" rowspan="2"> <span style="color: #008040; font-size: large; "><strong>Thorret</strong></span> </td>
+</tr>
+<tr style="height: 25;">
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td> </tr>
+<tr style="height: 25;">
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
@@ -537,66 +609,18 @@
 </tr>
 <tr style="height: 25;">
 <td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
 <td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td> </tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#d1d1e0" align="left" rowspan="2"> <span style="color: #3d3d5c; font-size: large; "><strong>Narloc</strong></span> </td>
-</tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td> </tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; border-left: 4px solid black; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#b3c6ff" align="left" rowspan="2"> <span style="color: #001a66; font-size: large; "><strong>Bellen</strong></span> </td>
-</tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-left: 4px solid black; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td> </tr>
 <tr style="height: 25;">
 <td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
@@ -605,31 +629,7 @@
 <td style="border: 0px solid white; border-left: 4px solid black; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#b3ffb3" align="left" rowspan="2"> <span style="color: #006600; font-size: large; "><strong>Hydra</strong></span> </td>
-</tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td> </tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#bdf5ef" align="left" rowspan="2"> <span style="color: #0e5850; font-size: large; "><strong>Quokka</strong></span> </td>
+<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#d3d9de" align="left" rowspan="2"> <span style="color: #424d57; font-size: large; "><strong>Kraken</strong></span> </td>
 </tr>
 <tr style="height: 25;">
 <td style="border: 0px solid white; "> </td>
@@ -645,7 +645,7 @@
 </table></label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_ab46_21ca" data-correct="true"><label for="option3"><table style="border-collapse: collapse; border: 1px solid silver;">
+    <input type="radio" id="option3" name="answer_30df_4cbc" data-correct="false"><label for="option3"><table style="border-collapse: collapse; border: 1px solid silver;">
 <colgroup width="30"></colgroup>
 <colgroup width="30"></colgroup>
 <colgroup width="30"></colgroup>
@@ -661,22 +661,22 @@
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#f6e1bc" align="left" rowspan="2"> <span style="color: #875e12; font-size: large; "><strong>Sphinx</strong></span> </td>
+<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#ffd0b3" align="left" rowspan="2"> <span style="color: #803100; font-size: large; "><strong>Dibblet</strong></span> </td>
 </tr>
 <tr style="height: 25;">
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
 <td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-right: 4px solid black; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
@@ -687,33 +687,57 @@
 <td style="border: 0px solid white; border-right: 4px solid black; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#b3c6ff" align="left" rowspan="2"> <span style="color: #001a66; font-size: large; "><strong>Bellen</strong></span> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#f3bebe" align="left" rowspan="2"> <span style="color: #6c1414; font-size: large; "><strong>Rynoth</strong></span> </td>
 </tr>
 <tr style="height: 25;">
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-right: 4px solid black; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td> </tr>
 <tr style="height: 25;">
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; border-left: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-right: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#d9b3ff" align="left" rowspan="2"> <span style="color: #330066; font-size: large; "><strong>Inktoad</strong></span> </td>
+</tr>
+<tr style="height: 25;">
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; border-left: 4px solid black; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td> </tr>
+<tr style="height: 25;">
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#99ffff" align="left" rowspan="2"> <span style="color: #006666; font-size: large; "><strong>Gorret</strong></span> </td>
@@ -721,57 +745,9 @@
 <tr style="height: 25;">
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td> </tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#b3ffb3" align="left" rowspan="2"> <span style="color: #006600; font-size: large; "><strong>Hydra</strong></span> </td>
-</tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td> </tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#d1d1e0" align="left" rowspan="2"> <span style="color: #3d3d5c; font-size: large; "><strong>Narloc</strong></span> </td>
-</tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
@@ -782,13 +758,37 @@
 <td style="border: 0px solid white; border-left: 4px solid black; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#d3d9de" align="left" rowspan="2"> <span style="color: #424d57; font-size: large; "><strong>Kraken</strong></span> </td>
+</tr>
+<tr style="height: 25;">
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td> </tr>
+<tr style="height: 25;">
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#bdf5ef" align="left" rowspan="2"> <span style="color: #0e5850; font-size: large; "><strong>Quokka</strong></span> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#b3ffd9" align="left" rowspan="2"> <span style="color: #008040; font-size: large; "><strong>Thorret</strong></span> </td>
 </tr>
 <tr style="height: 25;">
 <td style="border: 0px solid white; "> </td>
@@ -804,7 +804,7 @@
 </table></label>
   </li>
   <li>
-    <input type="radio" id="option4" name="answer_ab46_21ca" data-correct="false"><label for="option4"><table style="border-collapse: collapse; border: 1px solid silver;">
+    <input type="radio" id="option4" name="answer_30df_4cbc" data-correct="false"><label for="option4"><table style="border-collapse: collapse; border: 1px solid silver;">
 <colgroup width="30"></colgroup>
 <colgroup width="30"></colgroup>
 <colgroup width="30"></colgroup>
@@ -818,6 +818,56 @@
 <colgroup width="100"></colgroup>
 <tr style="height: 25;">
 <td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#ffd0b3" align="left" rowspan="2"> <span style="color: #803100; font-size: large; "><strong>Dibblet</strong></span> </td>
+</tr>
+<tr style="height: 25;">
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td> </tr>
+<tr style="height: 25;">
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#d9b3ff" align="left" rowspan="2"> <span style="color: #330066; font-size: large; "><strong>Inktoad</strong></span> </td>
+</tr>
+<tr style="height: 25;">
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-right: 4px solid black; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td> </tr>
+<tr style="height: 25;">
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
@@ -825,9 +875,7 @@
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#bdf5ef" align="left" rowspan="2"> <span style="color: #0e5850; font-size: large; "><strong>Quokka</strong></span> </td>
+<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#f3bebe" align="left" rowspan="2"> <span style="color: #6c1414; font-size: large; "><strong>Rynoth</strong></span> </td>
 </tr>
 <tr style="height: 25;">
 <td style="border: 0px solid white; "> </td>
@@ -841,25 +889,25 @@
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td> </tr>
 <tr style="height: 25;">
-<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-left: 4px solid black; "> </td>
 <td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#f6e1bc" align="left" rowspan="2"> <span style="color: #875e12; font-size: large; "><strong>Sphinx</strong></span> </td>
+<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#d3d9de" align="left" rowspan="2"> <span style="color: #424d57; font-size: large; "><strong>Kraken</strong></span> </td>
 </tr>
 <tr style="height: 25;">
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-right: 4px solid black; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
@@ -867,23 +915,23 @@
 <tr style="height: 25;">
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-right: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#b3c6ff" align="left" rowspan="2"> <span style="color: #001a66; font-size: large; "><strong>Bellen</strong></span> </td>
+<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#b3ffd9" align="left" rowspan="2"> <span style="color: #008040; font-size: large; "><strong>Thorret</strong></span> </td>
 </tr>
 <tr style="height: 25;">
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; border-left: 4px solid black; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
@@ -891,63 +939,15 @@
 <tr style="height: 25;">
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
 <td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#99ffff" align="left" rowspan="2"> <span style="color: #006666; font-size: large; "><strong>Gorret</strong></span> </td>
-</tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td> </tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#b3ffb3" align="left" rowspan="2"> <span style="color: #006600; font-size: large; "><strong>Hydra</strong></span> </td>
-</tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td> </tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#d1d1e0" align="left" rowspan="2"> <span style="color: #3d3d5c; font-size: large; "><strong>Narloc</strong></span> </td>
 </tr>
 <tr style="height: 25;">
 <td style="border: 0px solid white; "> </td>
@@ -963,7 +963,7 @@
 </table></label>
   </li>
   <li>
-    <input type="radio" id="option5" name="answer_ab46_21ca" data-correct="false"><label for="option5"><table style="border-collapse: collapse; border: 1px solid silver;">
+    <input type="radio" id="option5" name="answer_30df_4cbc" data-correct="false"><label for="option5"><table style="border-collapse: collapse; border: 1px solid silver;">
 <colgroup width="30"></colgroup>
 <colgroup width="30"></colgroup>
 <colgroup width="30"></colgroup>
@@ -979,96 +979,48 @@
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#f6e1bc" align="left" rowspan="2"> <span style="color: #875e12; font-size: large; "><strong>Sphinx</strong></span> </td>
+<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#d3d9de" align="left" rowspan="2"> <span style="color: #424d57; font-size: large; "><strong>Kraken</strong></span> </td>
 </tr>
 <tr style="height: 25;">
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td> </tr>
 <tr style="height: 25;">
 <td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#b3ffb3" align="left" rowspan="2"> <span style="color: #006600; font-size: large; "><strong>Hydra</strong></span> </td>
-</tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td> </tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#d1d1e0" align="left" rowspan="2"> <span style="color: #3d3d5c; font-size: large; "><strong>Narloc</strong></span> </td>
-</tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td> </tr>
-<tr style="height: 25;">
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-left: 4px solid black; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; border-left: 4px solid black; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#b3c6ff" align="left" rowspan="2"> <span style="color: #001a66; font-size: large; "><strong>Bellen</strong></span> </td>
+<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#b3ffd9" align="left" rowspan="2"> <span style="color: #008040; font-size: large; "><strong>Thorret</strong></span> </td>
 </tr>
 <tr style="height: 25;">
 <td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td> </tr>
 <tr style="height: 25;">
@@ -1076,10 +1028,10 @@
 <td style="border: 0px solid white; border-left: 4px solid black; "> </td>
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
-<td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; border-left: 4px solid black; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#99ffff" align="left" rowspan="2"> <span style="color: #006666; font-size: large; "><strong>Gorret</strong></span> </td>
@@ -1096,8 +1048,57 @@
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; "> </td> </tr>
 <tr style="height: 25;">
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#d9b3ff" align="left" rowspan="2"> <span style="color: #330066; font-size: large; "><strong>Inktoad</strong></span> </td>
+</tr>
+<tr style="height: 25;">
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-right: 4px solid black; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td> </tr>
+<tr style="height: 25;">
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-left: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
+<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#f3bebe" align="left" rowspan="2"> <span style="color: #6c1414; font-size: large; "><strong>Rynoth</strong></span> </td>
+</tr>
+<tr style="height: 25;">
 <td style="border: 0px solid white; "> </td>
 <td style="border: 0px solid white; border-left: 4px solid black; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; border-right: 4px solid black; border-bottom: 4px solid black; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td> </tr>
+<tr style="height: 25;">
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; "> </td>
+<td style="border: 0px solid white; border-right: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
@@ -1105,8 +1106,7 @@
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
 <td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 0px solid white; border-bottom: 4px solid black; "> </td>
-<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#bdf5ef" align="left" rowspan="2"> <span style="color: #0e5850; font-size: large; "><strong>Quokka</strong></span> </td>
+<td style="border: 1px solid silver; vertical-align: middle; " bgcolor="#ffd0b3" align="left" rowspan="2"> <span style="color: #803100; font-size: large; "><strong>Dibblet</strong></span> </td>
 </tr>
 <tr style="height: 25;">
 <td style="border: 0px solid white; "> </td>
@@ -1122,20 +1122,20 @@
 </table></label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_ab46_21ca()">Check Answer</button>
-<div id="result_ab46_21ca" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_30df_4cbc()">Check Answer</button>
+<div id="result_30df_4cbc" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_ab46_21ca() {
- const options = document.getElementsByName('answer_ab46_21ca');
+function checkAnswer_30df_4cbc() {
+ const options = document.getElementsByName('answer_30df_4cbc');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_ab46_21ca');
+ const resultDiv = document.getElementById('result_30df_4cbc');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'var(--qti-success-fg, #008000)';
