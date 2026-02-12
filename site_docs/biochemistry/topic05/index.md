@@ -262,8 +262,6 @@ Isolation and analysis methods, chromatography, electrophoresis.
 
 ## Calculating Molecular Weight from SDS-PAGE Ladder
 
-This title captures the essence of both problem statements, which involve analyzing an SDS-PAGE gel image to calculate the molecular weight of a protein band based on its migration distance compared to a known ladder. The focus is on using the relationship between the logarithm of molecular weight and migration distance to perform this calculation.
-
 <div id="kaleidoscope_ladder_unknown_band-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-kaleidoscope_ladder_unknown_band-questions.txt" download title="Download bbq-kaleidoscope_ladder_unknown_band-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-kaleidoscope_ladder_unknown_band-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
@@ -284,8 +282,6 @@ This title captures the essence of both problem statements, which involve analyz
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
       Calculating Molecular Weight from SDS-PAGE Ladder
-
-This title captures the essence of both problem statements, which involve analyzing an SDS-PAGE gel image to calculate the molecular weight of a protein band based on its migration distance compared to a known ladder. The focus is on using the relationship between the logarithm of molecular weight and migration distance to perform this calculation.
     </span>
     <span style='font-weight: normal;'>
       example problem
