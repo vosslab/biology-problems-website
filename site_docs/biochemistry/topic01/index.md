@@ -36,7 +36,7 @@ Molecular design of life, major elements, and biomacromolecules.
 </details>
 
 
-## Macromolecule Types and Descriptions
+## Types of Macromolecules (Reduced Set)
 
 <div id="MATCH-macromolecules-biol301-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-macromolecules-biol301-questions.txt" download title="Download bbq-MATCH-macromolecules-biol301-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-macromolecules-biol301-questions.txt)">
@@ -57,7 +57,7 @@ Molecular design of life, major elements, and biomacromolecules.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Macromolecule Types and Descriptions
+      Types of Macromolecules (Reduced Set)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -68,7 +68,7 @@ Molecular design of life, major elements, and biomacromolecules.
 </details>
 
 
-## Macromolecule Types and Structures or Functions
+## Types of Macromolecules (Full Set)
 
 <div id="MATCH-macromolecules-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-macromolecules-questions.txt" download title="Download bbq-MATCH-macromolecules-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-macromolecules-questions.txt)">
@@ -89,7 +89,7 @@ Molecular design of life, major elements, and biomacromolecules.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Macromolecule Types and Structures or Functions
+      Types of Macromolecules (Full Set)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -100,19 +100,19 @@ Molecular design of life, major elements, and biomacromolecules.
 </details>
 
 
-## Types of Chemical Bonds
+## Types of Chemical Bonds from Examples
 
-<div id="MC-bond_types-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MC-bond_types-questions.txt" download title="Download bbq-MC-bond_types-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-bond_types-questions.txt)">
+<div id="WOMC-bond_types-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-WOMC-bond_types-questions.txt" download title="Download bbq-WOMC-bond_types-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-bond_types-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MC-bond_types.zip" download title="Download blackboard_qti_v2_1-MC-bond_types.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MC-bond_types.zip)">
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-bond_types.zip" download title="Download blackboard_qti_v2_1-WOMC-bond_types.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-bond_types.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MC-bond_types.zip" download title="Download canvas_qti_v1_2-MC-bond_types.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MC-bond_types.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-bond_types.zip" download title="Download canvas_qti_v1_2-WOMC-bond_types.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-bond_types.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MC-bond_types.html', '_blank')" title="View human_readable-MC-bond_types.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MC-bond_types.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-bond_types.html', '_blank')" title="View human_readable-WOMC-bond_types.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-bond_types.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
@@ -121,30 +121,30 @@ Molecular design of life, major elements, and biomacromolecules.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Types of Chemical Bonds
+      Types of Chemical Bonds from Examples
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic01/downloads/selftest-MC-bond_types.html" %}
+  {% include "biochemistry/topic01/downloads/selftest-WOMC-bond_types.html" %}
 
 </details>
 
 
-## Macromolecules and Their Structures
+## Macromolecule Types from Descriptions
 
-<div id="MC-macromolecules-biol301-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MC-macromolecules-biol301-questions.txt" download title="Download bbq-MC-macromolecules-biol301-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-macromolecules-biol301-questions.txt)">
+<div id="WOMC-macromolecules-biol301-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-WOMC-macromolecules-biol301-questions.txt" download title="Download bbq-WOMC-macromolecules-biol301-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-macromolecules-biol301-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MC-macromolecules-biol301.zip" download title="Download blackboard_qti_v2_1-MC-macromolecules-biol301.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MC-macromolecules-biol301.zip)">
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-macromolecules-biol301.zip" download title="Download blackboard_qti_v2_1-WOMC-macromolecules-biol301.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-macromolecules-biol301.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MC-macromolecules-biol301.zip" download title="Download canvas_qti_v1_2-MC-macromolecules-biol301.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MC-macromolecules-biol301.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-macromolecules-biol301.zip" download title="Download canvas_qti_v1_2-WOMC-macromolecules-biol301.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-macromolecules-biol301.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MC-macromolecules-biol301.html', '_blank')" title="View human_readable-MC-macromolecules-biol301.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MC-macromolecules-biol301.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-macromolecules-biol301.html', '_blank')" title="View human_readable-WOMC-macromolecules-biol301.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-macromolecules-biol301.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
@@ -153,30 +153,30 @@ Molecular design of life, major elements, and biomacromolecules.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Macromolecules and Their Structures
+      Macromolecule Types from Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic01/downloads/selftest-MC-macromolecules-biol301.html" %}
+  {% include "biochemistry/topic01/downloads/selftest-WOMC-macromolecules-biol301.html" %}
 
 </details>
 
 
-## Types of Macromolecules
+## Types of Macromolecules Based on Examples
 
-<div id="MC-macromolecules-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MC-macromolecules-questions.txt" download title="Download bbq-MC-macromolecules-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-macromolecules-questions.txt)">
+<div id="WOMC-macromolecules-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-WOMC-macromolecules-questions.txt" download title="Download bbq-WOMC-macromolecules-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-macromolecules-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MC-macromolecules.zip" download title="Download blackboard_qti_v2_1-MC-macromolecules.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MC-macromolecules.zip)">
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-macromolecules.zip" download title="Download blackboard_qti_v2_1-WOMC-macromolecules.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-macromolecules.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MC-macromolecules.zip" download title="Download canvas_qti_v1_2-MC-macromolecules.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MC-macromolecules.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-macromolecules.zip" download title="Download canvas_qti_v1_2-WOMC-macromolecules.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-macromolecules.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MC-macromolecules.html', '_blank')" title="View human_readable-MC-macromolecules.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MC-macromolecules.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-macromolecules.html', '_blank')" title="View human_readable-WOMC-macromolecules.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-macromolecules.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
@@ -185,13 +185,13 @@ Molecular design of life, major elements, and biomacromolecules.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Types of Macromolecules
+      Types of Macromolecules Based on Examples
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic01/downloads/selftest-MC-macromolecules.html" %}
+  {% include "biochemistry/topic01/downloads/selftest-WOMC-macromolecules.html" %}
 
 </details>
 
@@ -240,9 +240,6 @@ Molecular design of life, major elements, and biomacromolecules.
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-which_macromolecule-MC.zip" download title="Download canvas_qti_v1_2-which_macromolecule-MC.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-which_macromolecule-MC.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-which_macromolecule-MC.html', '_blank')" title="View human_readable-which_macromolecule-MC.html" aria-label="Click to view the Human-Readable TXT file (human_readable-which_macromolecule-MC.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
