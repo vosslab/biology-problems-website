@@ -16,14 +16,6 @@ bbq-WOMC-protein_v_dna_gels-questions.txt: Matching Macromolecule Types to Gel E
 bbq-isoelectric_one_protein-questions.txt: Protein Net Charge at a Given pH
 bbq-isoelectric_two_proteins-questions.txt: Protein Migration Direction from Isoelectric
   Point
-bbq-kaleidoscope_ladder_unknown_band-questions.txt: 'Calculating Molecular Weight
-  from SDS-PAGE Ladder
-
-
-  This title captures the essence of both problem statements, which involve analyzing
-  an SDS-PAGE gel image to calculate the molecular weight of a protein band based
-  on its migration distance compared to a known ladder. The focus is on using the
-  relationship between the logarithm of molecular weight and migration distance to
-  perform this calculation.'
+bbq-kaleidoscope_ladder_unknown_band-questions.txt: Calculating Molecular Weight from SDS-PAGE Ladder
 bbq-protein_gel_migration-questions.txt: Protein Molecular Weight from SDS-PAGE Migration
 last edit: Wed Feb 11 20:25:33 2026
