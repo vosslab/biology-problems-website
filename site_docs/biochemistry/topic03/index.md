@@ -19,6 +19,9 @@ Amino acid structure, types, and roles in protein structure.
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-amino_acids_properties.html', '_blank')" title="View human_readable-MATCH-amino_acids_properties.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-amino_acids_properties.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/amino_acids_properties-matching.pgml" download title="Download amino_acids_properties-matching.pgml" aria-label="Click to download the WeBWorK PGML file (amino_acids_properties-matching.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -51,6 +54,9 @@ Amino acid structure, types, and roles in protein structure.
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-amino_acids_properties.html', '_blank')" title="View human_readable-WOMC-amino_acids_properties.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-amino_acids_properties.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/amino_acids_properties-which_one.pgml" download title="Download amino_acids_properties-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (amino_acids_properties-which_one.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
