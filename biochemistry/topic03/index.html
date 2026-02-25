@@ -1973,8 +1973,8 @@
   </summary>
   <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
   <div class="qti-selftest">
-  <div id="question_html_e294_b388">
-  <div id="statement_text_e294_b388"><p>Match each of the following amino acids with their corresponding descriptions.<br><i>Note:</i> Each choice will be used exactly once.</p></div>
+  <div id="question_html_e294_b234">
+  <div id="statement_text_e294_b234"><p>Match each of the following amino acids with their corresponding descriptions.<br><i>Note:</i> Each choice will be used exactly once.</p></div>
   <!-- Matching Table -->
   <table style="border: 1px solid var(--qti-border, #999999); border-collapse: collapse;">
   <thead><tr>
@@ -1985,60 +1985,60 @@
   <tbody>
   <tr>
   <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-            <td class="dropzone qti-dropzone" data-correct="e294_b388_001" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
-            <td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">1. <span style="color: #723eb1;">phenylalanine</span>
+            <td class="dropzone qti-dropzone" data-correct="e294_b234_001" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+            <td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">1. <span style="color: #5a4cb0;">tyrosine</span>
   </td>
         </tr>
   <tr>
   <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-            <td class="dropzone qti-dropzone" data-correct="e294_b388_002" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
-            <td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">2. <span style="color: #1e658c;">leucine</span>
+            <td class="dropzone qti-dropzone" data-correct="e294_b234_002" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+            <td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">2. <span style="color: #9e3533;">arginine</span>
   </td>
         </tr>
   <tr>
   <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-            <td class="dropzone qti-dropzone" data-correct="e294_b388_003" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
-            <td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">3. <span style="color: #983169;">proline</span>
+            <td class="dropzone qti-dropzone" data-correct="e294_b234_003" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+            <td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">3. <span style="color: #745a00;">histidine</span>
   </td>
         </tr>
   <tr>
   <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-            <td class="dropzone qti-dropzone" data-correct="e294_b388_004" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
-            <td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">4. <span style="color: #137033;">glycine</span>
+            <td class="dropzone qti-dropzone" data-correct="e294_b234_004" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+            <td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">4. <span style="color: #196f43;">leucine</span>
   </td>
         </tr>
   <tr>
   <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-            <td class="dropzone qti-dropzone" data-correct="e294_b388_005" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
-            <td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">5. <span style="color: #954121;">arginine</span>
+            <td class="dropzone qti-dropzone" data-correct="e294_b234_005" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+            <td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">5. <span style="color: #006882;">lysine</span>
   </td>
         </tr>
   </tbody>
   </table>
   <p style="font-style: italic; font-size: 14px; margin-top: 10px;">Drag one of the choices below:</p>
   <ul id="choiceList" style="list-style: none; padding: 0;">
-  <li class="draggable qti-choice-2" draggable="true" data-value="e294_b388_005" title="a positively charged amino acid with a long, flexible side chain containing 3 nitrogen atoms (guanidinium)" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-2-bg); display: inline-block;">
-        <span style="color: var(--qti-choice-2-fg);"><strong>A.</strong> a <strong><span style="color: #0d57a5;">positively charged amino acid</span></strong> with a long, flexible <strong><span style="color: #6d108e;">side chain</span></strong> containing 3 nitrogen atoms (guanidinium)</span>
+  <li class="draggable qti-choice-2" draggable="true" data-value="e294_b234_001" title="a aromatic amino acid with a side chain containing a phenol (-C6H6OH) group, derived from phenylalanine" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-2-bg); display: inline-block;">
+        <span style="color: var(--qti-choice-2-fg);"><strong>A.</strong> a <strong><span style="color: #ff5e00;">aromatic amino acid</span></strong> with a <strong><span style="color: #6d108e;">side chain</span></strong> containing a phenol (-C<sub>6</sub>H<sub>6</sub>OH) group, derived from phenylalanine</span>
     </li>
-    <li class="draggable qti-choice-3" draggable="true" data-value="e294_b388_003" title="a non- polar amino acid where the side chain is bonded to the backbone amine, resulting in a rigid cyclic structure" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-3-bg); display: inline-block;">
-        <span style="color: var(--qti-choice-3-fg);"><strong>B.</strong> a <strong><span style="color: #b3b300;">non-<strong><span style="color: #009e4c;">polar amino acid</span></strong></span></strong> where the <strong><span style="color: #6d108e;">side chain</span></strong> is bonded to the backbone amine, resulting in a rigid cyclic structure</span>
+    <li class="draggable qti-choice-3" draggable="true" data-value="e294_b234_002" title="a positively charged amino acid with a long, flexible side chain containing 3 nitrogen atoms (guanidinium)" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-3-bg); display: inline-block;">
+        <span style="color: var(--qti-choice-3-fg);"><strong>B.</strong> a <strong><span style="color: #0d57a5;">positively charged amino acid</span></strong> with a long, flexible <strong><span style="color: #6d108e;">side chain</span></strong> containing 3 nitrogen atoms (guanidinium)</span>
     </li>
-    <li class="draggable qti-choice-4" draggable="true" data-value="e294_b388_001" title="a non- polar amino acid with an aromatic side chain containing a single benzene (-C6H6) ring" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-4-bg); display: inline-block;">
-        <span style="color: var(--qti-choice-4-fg);"><strong>C.</strong> a <strong><span style="color: #b3b300;">non-<strong><span style="color: #009e4c;">polar amino acid</span></strong></span></strong> with an aromatic <strong><span style="color: #6d108e;">side chain</span></strong> containing a single benzene (-C<sub>6</sub>H<sub>6</sub>) ring</span>
+    <li class="draggable qti-choice-4" draggable="true" data-value="e294_b234_003" title="an aromatic amino acid with a side chain containing a 5-membered nitrogenous ring and a pKa close to pH 7" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-4-bg); display: inline-block;">
+        <span style="color: var(--qti-choice-4-fg);"><strong>C.</strong> an <strong><span style="color: #ff5e00;">aromatic amino acid</span></strong> with a <strong><span style="color: #6d108e;">side chain</span></strong> containing a 5-membered nitrogenous ring and a pKa close to pH 7</span>
     </li>
-    <li class="draggable qti-choice-5" draggable="true" data-value="e294_b388_004" title="a small amino acid with the simple chemical formula NH2-CH2-COOH" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-5-bg); display: inline-block;">
-        <span style="color: var(--qti-choice-5-fg);"><strong>D.</strong> a <strong><span style="color: #2fbd0f;">small amino acid</span></strong> with the simple chemical formula NH<sub>2</sub>-CH<sub>2</sub>-COOH</span>
+    <li class="draggable qti-choice-5" draggable="true" data-value="e294_b234_004" title="a non-polar branched chain amino acid that is an isomer of isoleucine" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-5-bg); display: inline-block;">
+        <span style="color: var(--qti-choice-5-fg);"><strong>D.</strong> a <strong><span style="color: #ffa100;">non-polar branched chain amino acid</span></strong> that is an isomer of isoleucine</span>
     </li>
-    <li class="draggable qti-choice-1" draggable="true" data-value="e294_b388_002" title="a non-polar branched chain amino acid that is a longer version of valine" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-1-bg); display: inline-block;">
-        <span style="color: var(--qti-choice-1-fg);"><strong>E.</strong> a <strong><span style="color: #ffa100;">non-polar branched chain amino acid</span></strong> that is a longer version of valine</span>
+    <li class="draggable qti-choice-1" draggable="true" data-value="e294_b234_005" title="a positively charged amino acid with a long, flexible side chain containing an amine group" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-1-bg); display: inline-block;">
+        <span style="color: var(--qti-choice-1-fg);"><strong>E.</strong> a <strong><span style="color: #0d57a5;">positively charged amino acid</span></strong> with a long, flexible <strong><span style="color: #6d108e;">side chain</span></strong> containing an amine group</span>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_e294_b388()">Check Answer</button>
-  <button type="button" class="md-button md-button--secondary custom-button qti-btn qti-btn-reset" onclick="resetGame_e294_b388()">Reset Game</button>
-  <div id="result_e294_b388" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_e294_b234()">Check Answer</button>
+  <button type="button" class="md-button md-button--secondary custom-button qti-btn qti-btn-reset" onclick="resetGame_e294_b234()">Reset Game</button>
+  <div id="result_e294_b234" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
   </div><script>
-    function initDragAndDrop_e294_b388() {
-        const container = document.getElementById('question_html_e294_b388');
+    function initDragAndDrop_e294_b234() {
+        const container = document.getElementById('question_html_e294_b234');
         if (!container) {
             return;
         }
@@ -2086,11 +2086,11 @@
             });
         });
     }
-    initDragAndDrop_e294_b388();
+    initDragAndDrop_e294_b234();
   </script>
   <script>
-    function checkAnswer_e294_b388() {
-        const container = document.getElementById('question_html_e294_b388');
+    function checkAnswer_e294_b234() {
+        const container = document.getElementById('question_html_e294_b234');
         if (!container) {
             return;
         }
@@ -2118,7 +2118,7 @@
         });
 
         feedbackText = `Total Score: ${score} out of ${possible}`;
-        const resultDiv = document.getElementById('result_e294_b388');
+        const resultDiv = document.getElementById('result_e294_b234');
         if (score === possible) {
             resultDiv.style.color = 'var(--qti-success-fg, #008000)';
         }
@@ -2132,8 +2132,8 @@
     }
   </script>
   <script>
-    function resetGame_e294_b388() {
-        const container = document.getElementById('question_html_e294_b388');
+    function resetGame_e294_b234() {
+        const container = document.getElementById('question_html_e294_b234');
         if (!container) {
             return;
         }
@@ -2150,7 +2150,7 @@
             cell.textContent = "";
             cell.style.backgroundColor = "transparent";
         });
-        document.getElementById("result_e294_b388").innerHTML = "";
+        document.getElementById("result_e294_b234").innerHTML = "";
     }
   </script>
 
@@ -2191,40 +2191,40 @@
   </summary>
   <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
   <div class="qti-selftest">
-  <div id="question_html_3b32_ee61">
-  <div id="statement_text_3b32_ee61"><p>Which one of the following amino acids correspond to the description <span style="font-size: 1em;"><strong>'a <strong><span style="color: #b3b300;">non-<strong><span style="color: #009e4c;">polar amino acid</span></strong></span></strong>, with a single methyl group (-CH<sub>3</sub>) as its <strong><span style="color: #6d108e;">side chain</span></strong>'</strong></span>.</p></div>
+  <div id="question_html_589c_82e2">
+  <div id="statement_text_589c_82e2"><p>Which one of the following amino acids correspond to the description <span style="font-size: 1em;"><strong>'a <strong><span style="color: #ff0000;">negatively charged amino acid</span></strong> with a small, carboxylate (-COOH) <strong><span style="color: #6d108e;">side chain</span></strong>'</strong></span>.</p></div>
   <form>
-  <ul id="choices_3b32_ee61" class="qti-auto-grid-compact">
+  <ul id="choices_589c_82e2" class="qti-auto-grid-compact">
   <li>
-      <input type="radio" id="option0" name="answer_3b32_ee61" data-correct="true"><label for="option0">alanine</label>
+      <input type="radio" id="option0" name="answer_589c_82e2" data-correct="false"><label for="option0">asparagine</label>
     </li>
     <li>
-      <input type="radio" id="option1" name="answer_3b32_ee61" data-correct="false"><label for="option1">leucine</label>
+      <input type="radio" id="option1" name="answer_589c_82e2" data-correct="true"><label for="option1">aspartic acid</label>
     </li>
     <li>
-      <input type="radio" id="option2" name="answer_3b32_ee61" data-correct="false"><label for="option2">phenylalanine</label>
+      <input type="radio" id="option2" name="answer_589c_82e2" data-correct="false"><label for="option2">histidine</label>
     </li>
     <li>
-      <input type="radio" id="option3" name="answer_3b32_ee61" data-correct="false"><label for="option3">proline</label>
+      <input type="radio" id="option3" name="answer_589c_82e2" data-correct="false"><label for="option3">lysine</label>
     </li>
     <li>
-      <input type="radio" id="option4" name="answer_3b32_ee61" data-correct="false"><label for="option4">threonine</label>
+      <input type="radio" id="option4" name="answer_589c_82e2" data-correct="false"><label for="option4">valine</label>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_3b32_ee61()">Check Answer</button>
-  <div id="result_3b32_ee61" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_589c_82e2()">Check Answer</button>
+  <div id="result_589c_82e2" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
   </form>
   <br>
   </div><script>
-  function checkAnswer_3b32_ee61() {
-   const options = document.getElementsByName('answer_3b32_ee61');
+  function checkAnswer_589c_82e2() {
+   const options = document.getElementsByName('answer_589c_82e2');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_3b32_ee61');
+   const resultDiv = document.getElementById('result_589c_82e2');
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.style.color = 'var(--qti-success-fg, #008000)';
@@ -2274,40 +2274,40 @@
   </summary>
   <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
   <div class="qti-selftest">
-  <div id="question_html_a32e_58b9">
-  <div id="statement_text_a32e_58b9"><h4>Based on the chemical properties of amino acid side chains, which pair of amino acids listed below can form an ionic bond between their side chains?</h4></div>
+  <div id="question_html_a32e_9148">
+  <div id="statement_text_a32e_9148"><h4>Based on the chemical properties of amino acid side chains, which pair of amino acids listed below can form an ionic bond between their side chains?</h4></div>
   <form>
-  <ul id="choices_a32e_58b9" class="qti-auto-grid-compact">
+  <ul id="choices_a32e_9148" class="qti-auto-grid-compact">
   <li>
-      <input type="radio" id="option0" name="answer_a32e_58b9" data-correct="false"><label for="option0">Alanine and Aspartate</label>
+      <input type="radio" id="option0" name="answer_a32e_9148" data-correct="false"><label for="option0">Cysteine and Aspartate</label>
     </li>
     <li>
-      <input type="radio" id="option1" name="answer_a32e_58b9" data-correct="false"><label for="option1">Serine and Asparagine</label>
+      <input type="radio" id="option1" name="answer_a32e_9148" data-correct="false"><label for="option1">Threonine and Lysine</label>
     </li>
     <li>
-      <input type="radio" id="option2" name="answer_a32e_58b9" data-correct="false"><label for="option2">Phenylalanine and Arginine</label>
+      <input type="radio" id="option2" name="answer_a32e_9148" data-correct="true"><label for="option2">Aspartic Acid and Arginine</label>
     </li>
     <li>
-      <input type="radio" id="option3" name="answer_a32e_58b9" data-correct="false"><label for="option3">Serine and Glutamate</label>
+      <input type="radio" id="option3" name="answer_a32e_9148" data-correct="false"><label for="option3">Proline and Aspartate</label>
     </li>
     <li>
-      <input type="radio" id="option4" name="answer_a32e_58b9" data-correct="true"><label for="option4">Arginine and Glutamic Acid</label>
+      <input type="radio" id="option4" name="answer_a32e_9148" data-correct="false"><label for="option4">Glutamine and Arginine</label>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_a32e_58b9()">Check Answer</button>
-  <div id="result_a32e_58b9" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_a32e_9148()">Check Answer</button>
+  <div id="result_a32e_9148" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
   </form>
   <br>
   </div><script>
-  function checkAnswer_a32e_58b9() {
-   const options = document.getElementsByName('answer_a32e_58b9');
+  function checkAnswer_a32e_9148() {
+   const options = document.getElementsByName('answer_a32e_9148');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_a32e_58b9');
+   const resultDiv = document.getElementById('result_a32e_9148');
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.style.color = 'var(--qti-success-fg, #008000)';
@@ -2354,40 +2354,40 @@
   </summary>
   <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
   <div class="qti-selftest">
-  <div id="question_html_a234_f505">
-  <div id="statement_text_a234_f505"><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script><h4>peptide_4455</h4><p><canvas id="canvas_47db" width="480" height="512"></canvas></p><hr/><script>/* */initRDKitModule().then(function(instance){RDKitModule=instance;console.log("RDKit:"+RDKitModule.version());/* */function/* */getPeptideBonds(mol){let/* */peptide_bond="CC(=O)NC";let/* */qmol=window.RDKitModule.get_qmol(peptide_bond);let/* */matches=JSON.parse(mol.get_substruct_matches(qmol));let/* */aggregatedBonds=[];for(let/* */i=0;i<matches.length;i++){match=matches[i];if(Array.isArray(match["bonds"])){aggregatedBonds.push(match["bonds"].slice(-2)[0]);}}return/* */aggregatedBonds;}let/* */smiles="[NH3+][C@@H](CC(=O)N)(C(=O)N[C@@H](CO)(C(=O)[O-]))";let/* */mol=RDKitModule.get_mol(smiles);let/* */mdetails={};mdetails["bonds"]=getPeptideBonds(mol);mdetails["atoms"]=[0];mdetails["highlightColour"]=[0,1,0];mdetails["legend"]="peptide_4455";mdetails["explicitMethyl"]=true;canvas=document.getElementById("canvas_47db");mol.draw_to_canvas_with_highlights(canvas,JSON.stringify(mdetails));});/* */</script> <p>A dipeptide is made up of two (2) amino acids. The figure above shows one such dipeptide with an unknown sequence. Your task is to find out the two (2) letter sequence of this dipeptide.<br/>Here is a step-by-step guide to help you answer the question:</p> <ol> <li style="margin-bottom: 20px;">Consult an amino acid guide for reference. You can find a PDF guide on Blackboard under "Exam and Quiz" in the "Old Exams" section, with the filename <a href="https://drive.google.com/file/d/1Mgum_TmZ71-XIjb38sStEpzzZLqkQb-W/view?usp=sharing">bchm_exam-help_sheet.pdf</a>, or search online for a visual guide that shows all 20 amino acids with their single-letter codes.</li> <li style="margin-bottom: 20px;">Identify the amino-terminal end, represented as <span style="padding: 2px; color: #0000cc; background-color: #66ff66;">NH<sub>3</sub><sup>+</sup></span> and highlighted in bright green. Distinguish between the general nitrogens in amino acid backbones (denoted as <span style="color:#0000cc">NH</span>) and the nitrogen in amino acid side chains.</li> <li style="margin-bottom: 20px;">The one (1) peptide bonds connecting the two (2) amino acids are highlighted in <span style="background-color: #00FF00; padding: 2px;">bright green</span>, making it easier to distinguish the two (2) amino acids.</li> <li style="margin-bottom: 20px;">Examine the side chain for each of the two (2) amino acids to determine their single-letter amino acid code.</li> <li style="margin-bottom: 20px;">List the single-letter amino acid codes in the amino to carboxyl (N&rarr;C) direction. This is the standard method for writing peptide sequences.</li> </ol> <p>Select the correct peptide sequence from the options below:</p></div>
+  <div id="question_html_2e0d_d358">
+  <div id="statement_text_2e0d_d358"><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script><h4>peptide_2e22</h4><p><canvas id="canvas_7544" width="480" height="512"></canvas></p><hr/><script>/* */initRDKitModule().then(function(instance){RDKitModule=instance;console.log("RDKit:"+RDKitModule.version());/* */function/* */getPeptideBonds(mol){let/* */peptide_bond="CC(=O)NC";let/* */qmol=window.RDKitModule.get_qmol(peptide_bond);let/* */matches=JSON.parse(mol.get_substruct_matches(qmol));let/* */aggregatedBonds=[];for(let/* */i=0;i<matches.length;i++){match=matches[i];if(Array.isArray(match["bonds"])){aggregatedBonds.push(match["bonds"].slice(-2)[0]);}}return/* */aggregatedBonds;}let/* */smiles="[NH3+][C@@H](Cc1ccccc1)(C(=O)N[C@@H](CC(C)C)(C(=O)[O-]))";let/* */mol=RDKitModule.get_mol(smiles);let/* */mdetails={};mdetails["bonds"]=getPeptideBonds(mol);mdetails["atoms"]=[0];mdetails["highlightColour"]=[0,1,0];mdetails["legend"]="peptide_2e22";mdetails["explicitMethyl"]=true;canvas=document.getElementById("canvas_7544");mol.draw_to_canvas_with_highlights(canvas,JSON.stringify(mdetails));});/* */</script> <p>A dipeptide is made up of two (2) amino acids. The figure above shows one such dipeptide with an unknown sequence. Your task is to find out the two (2) letter sequence of this dipeptide.<br/>Here is a step-by-step guide to help you answer the question:</p> <ol> <li style="margin-bottom: 20px;">Consult an amino acid guide for reference. You can find a PDF guide on Blackboard under "Exam and Quiz" in the "Old Exams" section, with the filename <a href="https://drive.google.com/file/d/1Mgum_TmZ71-XIjb38sStEpzzZLqkQb-W/view?usp=sharing">bchm_exam-help_sheet.pdf</a>, or search online for a visual guide that shows all 20 amino acids with their single-letter codes.</li> <li style="margin-bottom: 20px;">Identify the amino-terminal end, represented as <span style="padding: 2px; color: #0000cc; background-color: #66ff66;">NH<sub>3</sub><sup>+</sup></span> and highlighted in bright green. Distinguish between the general nitrogens in amino acid backbones (denoted as <span style="color:#0000cc">NH</span>) and the nitrogen in amino acid side chains.</li> <li style="margin-bottom: 20px;">The one (1) peptide bonds connecting the two (2) amino acids are highlighted in <span style="background-color: #00FF00; padding: 2px;">bright green</span>, making it easier to distinguish the two (2) amino acids.</li> <li style="margin-bottom: 20px;">Examine the side chain for each of the two (2) amino acids to determine their single-letter amino acid code.</li> <li style="margin-bottom: 20px;">List the single-letter amino acid codes in the amino to carboxyl (N&rarr;C) direction. This is the standard method for writing peptide sequences.</li> </ol> <p>Select the correct peptide sequence from the options below:</p></div>
   <form>
-  <ul id="choices_a234_f505" class="qti-auto-grid-compact">
+  <ul id="choices_2e0d_d358" class="qti-auto-grid-compact">
     <li>
-      <input type="radio" id="option0"  name="answer_a234_f505"  data-correct="false">
-      <label for="option0">EI</label>
+      <input type="radio" id="option0"  name="answer_2e0d_d358"  data-correct="true">
+      <label for="option0">FL</label>
     </li>
     <li>
-      <input type="radio" id="option1"  name="answer_a234_f505"  data-correct="true">
-      <label for="option1">NS</label>
+      <input type="radio" id="option1"  name="answer_2e0d_d358"  data-correct="false">
+      <label for="option1">GL</label>
     </li>
     <li>
-      <input type="radio" id="option2"  name="answer_a234_f505"  data-correct="false">
-      <label for="option2">LS</label>
+      <input type="radio" id="option2"  name="answer_2e0d_d358"  data-correct="false">
+      <label for="option2">KL</label>
     </li>
     <li>
-      <input type="radio" id="option3"  name="answer_a234_f505"  data-correct="false">
-      <label for="option3">YD</label>
+      <input type="radio" id="option3"  name="answer_2e0d_d358"  data-correct="false">
+      <label for="option3">FY</label>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_a234_f505()">Check Answer</button>
-  <div id="result_a234_f505" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;">&nbsp;</div>
+  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_2e0d_d358()">Check Answer</button>
+  <div id="result_2e0d_d358" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;">&nbsp;</div>
   </form><br/>
   </div><script>
-  function checkAnswer_a234_f505() {
-   const options = document.getElementsByName('answer_a234_f505');
+  function checkAnswer_2e0d_d358() {
+   const options = document.getElementsByName('answer_2e0d_d358');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_a234_f505');
+   const resultDiv = document.getElementById('result_2e0d_d358');
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.style.color = 'var(--qti-success-fg, #008000)';
@@ -2434,44 +2434,44 @@
   </summary>
   <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
   <div class="qti-selftest">
-  <div id="question_html_475b_fda1">
-  <div id="statement_text_475b_fda1"><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script><h4>peptide_4150</h4><p><canvas id="canvas_4876" width="480" height="512"></canvas></p><hr/><script>/* */initRDKitModule().then(function(instance){RDKitModule=instance;console.log("RDKit:"+RDKitModule.version());/* */function/* */getPeptideBonds(mol){let/* */peptide_bond="CC(=O)NC";let/* */qmol=window.RDKitModule.get_qmol(peptide_bond);let/* */matches=JSON.parse(mol.get_substruct_matches(qmol));let/* */aggregatedBonds=[];for(let/* */i=0;i<matches.length;i++){match=matches[i];if(Array.isArray(match["bonds"])){aggregatedBonds.push(match["bonds"].slice(-2)[0]);}}return/* */aggregatedBonds;}let/* */smiles="[NH3+][C@@H](CS)(C(=O)N[C@@H](CCC(=O)N)(C(=O)N[C@@H]([H])(C(=O)[O-])))";let/* */mol=RDKitModule.get_mol(smiles);let/* */mdetails={};mdetails["bonds"]=getPeptideBonds(mol);mdetails["atoms"]=[0];mdetails["highlightColour"]=[0,1,0];mdetails["legend"]="peptide_4150";mdetails["explicitMethyl"]=true;canvas=document.getElementById("canvas_4876");mol.draw_to_canvas_with_highlights(canvas,JSON.stringify(mdetails));});/* */</script> <p>A tripeptide is made up of three (3) amino acids. The figure above shows one such tripeptide with an unknown sequence. Your task is to find out the three (3) letter sequence of this tripeptide.<br/>Here is a step-by-step guide to help you answer the question:</p> <ol> <li style="margin-bottom: 20px;">Consult an amino acid guide for reference. You can find a PDF guide on Blackboard under "Exam and Quiz" in the "Old Exams" section, with the filename <a href="https://drive.google.com/file/d/1Mgum_TmZ71-XIjb38sStEpzzZLqkQb-W/view?usp=sharing">bchm_exam-help_sheet.pdf</a>, or search online for a visual guide that shows all 20 amino acids with their single-letter codes.</li> <li style="margin-bottom: 20px;">Identify the amino-terminal end, represented as <span style="padding: 2px; color: #0000cc; background-color: #66ff66;">NH<sub>3</sub><sup>+</sup></span> and highlighted in bright green. Distinguish between the general nitrogens in amino acid backbones (denoted as <span style="color:#0000cc">NH</span>) and the nitrogen in amino acid side chains.</li> <li style="margin-bottom: 20px;">The two (2) peptide bonds connecting the three (3) amino acids are highlighted in <span style="background-color: #00FF00; padding: 2px;">bright green</span>, making it easier to distinguish the three (3) amino acids.</li> <li style="margin-bottom: 20px;">Examine the side chain for each of the three (3) amino acids to determine their single-letter amino acid code.</li> <li style="margin-bottom: 20px;">List the single-letter amino acid codes in the amino to carboxyl (N&rarr;C) direction. This is the standard method for writing peptide sequences.</li> </ol> <p>Select the correct peptide sequence from the options below:</p></div>
+  <div id="question_html_46c1_fd29">
+  <div id="statement_text_46c1_fd29"><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script><h4>peptide_475a</h4><p><canvas id="canvas_1117" width="480" height="512"></canvas></p><hr/><script>/* */initRDKitModule().then(function(instance){RDKitModule=instance;console.log("RDKit:"+RDKitModule.version());/* */function/* */getPeptideBonds(mol){let/* */peptide_bond="CC(=O)NC";let/* */qmol=window.RDKitModule.get_qmol(peptide_bond);let/* */matches=JSON.parse(mol.get_substruct_matches(qmol));let/* */aggregatedBonds=[];for(let/* */i=0;i<matches.length;i++){match=matches[i];if(Array.isArray(match["bonds"])){aggregatedBonds.push(match["bonds"].slice(-2)[0]);}}return/* */aggregatedBonds;}let/* */smiles="[NH3+][C@@H](CC1=CC=C2C(=C1)C(=CN2))(C(=O)N[C@@H](CC1=C[NH]C=N1)(C(=O)N[C@@H](CCC(=O)[O-])(C(=O)[O-])))";let/* */mol=RDKitModule.get_mol(smiles);let/* */mdetails={};mdetails["bonds"]=getPeptideBonds(mol);mdetails["atoms"]=[0];mdetails["highlightColour"]=[0,1,0];mdetails["legend"]="peptide_475a";mdetails["explicitMethyl"]=true;canvas=document.getElementById("canvas_1117");mol.draw_to_canvas_with_highlights(canvas,JSON.stringify(mdetails));});/* */</script> <p>A tripeptide is made up of three (3) amino acids. The figure above shows one such tripeptide with an unknown sequence. Your task is to find out the three (3) letter sequence of this tripeptide.<br/>Here is a step-by-step guide to help you answer the question:</p> <ol> <li style="margin-bottom: 20px;">Consult an amino acid guide for reference. You can find a PDF guide on Blackboard under "Exam and Quiz" in the "Old Exams" section, with the filename <a href="https://drive.google.com/file/d/1Mgum_TmZ71-XIjb38sStEpzzZLqkQb-W/view?usp=sharing">bchm_exam-help_sheet.pdf</a>, or search online for a visual guide that shows all 20 amino acids with their single-letter codes.</li> <li style="margin-bottom: 20px;">Identify the amino-terminal end, represented as <span style="padding: 2px; color: #0000cc; background-color: #66ff66;">NH<sub>3</sub><sup>+</sup></span> and highlighted in bright green. Distinguish between the general nitrogens in amino acid backbones (denoted as <span style="color:#0000cc">NH</span>) and the nitrogen in amino acid side chains.</li> <li style="margin-bottom: 20px;">The two (2) peptide bonds connecting the three (3) amino acids are highlighted in <span style="background-color: #00FF00; padding: 2px;">bright green</span>, making it easier to distinguish the three (3) amino acids.</li> <li style="margin-bottom: 20px;">Examine the side chain for each of the three (3) amino acids to determine their single-letter amino acid code.</li> <li style="margin-bottom: 20px;">List the single-letter amino acid codes in the amino to carboxyl (N&rarr;C) direction. This is the standard method for writing peptide sequences.</li> </ol> <p>Select the correct peptide sequence from the options below:</p></div>
   <form>
-  <ul id="choices_475b_fda1" class="qti-auto-grid-compact">
+  <ul id="choices_46c1_fd29" class="qti-auto-grid-compact">
     <li>
-      <input type="radio" id="option0"  name="answer_475b_fda1"  data-correct="false">
-      <label for="option0">YWN</label>
+      <input type="radio" id="option0"  name="answer_46c1_fd29"  data-correct="true">
+      <label for="option0">WHE</label>
     </li>
     <li>
-      <input type="radio" id="option1"  name="answer_475b_fda1"  data-correct="false">
-      <label for="option1">QLG</label>
+      <input type="radio" id="option1"  name="answer_46c1_fd29"  data-correct="false">
+      <label for="option1">WDS</label>
     </li>
     <li>
-      <input type="radio" id="option2"  name="answer_475b_fda1"  data-correct="false">
-      <label for="option2">TQC</label>
+      <input type="radio" id="option2"  name="answer_46c1_fd29"  data-correct="false">
+      <label for="option2">HLY</label>
     </li>
     <li>
-      <input type="radio" id="option3"  name="answer_475b_fda1"  data-correct="false">
-      <label for="option3">MQC</label>
+      <input type="radio" id="option3"  name="answer_46c1_fd29"  data-correct="false">
+      <label for="option3">CKN</label>
     </li>
     <li>
-      <input type="radio" id="option4"  name="answer_475b_fda1"  data-correct="true">
-      <label for="option4">CQG</label>
+      <input type="radio" id="option4"  name="answer_46c1_fd29"  data-correct="false">
+      <label for="option4">LFE</label>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_475b_fda1()">Check Answer</button>
-  <div id="result_475b_fda1" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;">&nbsp;</div>
+  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_46c1_fd29()">Check Answer</button>
+  <div id="result_46c1_fd29" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;">&nbsp;</div>
   </form><br/>
   </div><script>
-  function checkAnswer_475b_fda1() {
-   const options = document.getElementsByName('answer_475b_fda1');
+  function checkAnswer_46c1_fd29() {
+   const options = document.getElementsByName('answer_46c1_fd29');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_475b_fda1');
+   const resultDiv = document.getElementById('result_46c1_fd29');
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.style.color = 'var(--qti-success-fg, #008000)';
@@ -2518,48 +2518,48 @@
   </summary>
   <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
   <div class="qti-selftest">
-  <div id="question_html_d778_5bcc">
-  <div id="statement_text_d778_5bcc"><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script><h4>peptide_7535</h4><p><canvas id="canvas_ca00" width="480" height="512"></canvas></p><hr/><script>/* */initRDKitModule().then(function(instance){RDKitModule=instance;console.log("RDKit:"+RDKitModule.version());/* */function/* */getPeptideBonds(mol){let/* */peptide_bond="CC(=O)NC";let/* */qmol=window.RDKitModule.get_qmol(peptide_bond);let/* */matches=JSON.parse(mol.get_substruct_matches(qmol));let/* */aggregatedBonds=[];for(let/* */i=0;i<matches.length;i++){match=matches[i];if(Array.isArray(match["bonds"])){aggregatedBonds.push(match["bonds"].slice(-2)[0]);}}return/* */aggregatedBonds;}let/* */smiles="[NH3+][C@@H]([C@H](O)C)(C(=O)N[C@@H](CCC(=O)N)(C(=O)N[C@@H](CCCNC(=[NH2+])N)(C(=O)N[C@@H](Cc1ccc(O)cc1)(C(=O)[O-]))))";let/* */mol=RDKitModule.get_mol(smiles);let/* */mdetails={};mdetails["bonds"]=getPeptideBonds(mol);mdetails["atoms"]=[0];mdetails["highlightColour"]=[0,1,0];mdetails["legend"]="peptide_7535";mdetails["explicitMethyl"]=true;canvas=document.getElementById("canvas_ca00");mol.draw_to_canvas_with_highlights(canvas,JSON.stringify(mdetails));});/* */</script> <p>A tetrapeptide is made up of four (4) amino acids. The figure above shows one such tetrapeptide with an unknown sequence. Your task is to find out the four (4) letter sequence of this tetrapeptide.<br/>Here is a step-by-step guide to help you answer the question:</p> <ol> <li style="margin-bottom: 20px;">Consult an amino acid guide for reference. You can find a PDF guide on Blackboard under "Exam and Quiz" in the "Old Exams" section, with the filename <a href="https://drive.google.com/file/d/1Mgum_TmZ71-XIjb38sStEpzzZLqkQb-W/view?usp=sharing">bchm_exam-help_sheet.pdf</a>, or search online for a visual guide that shows all 20 amino acids with their single-letter codes.</li> <li style="margin-bottom: 20px;">Identify the amino-terminal end, represented as <span style="padding: 2px; color: #0000cc; background-color: #66ff66;">NH<sub>3</sub><sup>+</sup></span> and highlighted in bright green. Distinguish between the general nitrogens in amino acid backbones (denoted as <span style="color:#0000cc">NH</span>) and the nitrogen in amino acid side chains.</li> <li style="margin-bottom: 20px;">The three (3) peptide bonds connecting the four (4) amino acids are highlighted in <span style="background-color: #00FF00; padding: 2px;">bright green</span>, making it easier to distinguish the four (4) amino acids.</li> <li style="margin-bottom: 20px;">Examine the side chain for each of the four (4) amino acids to determine their single-letter amino acid code.</li> <li style="margin-bottom: 20px;">List the single-letter amino acid codes in the amino to carboxyl (N&rarr;C) direction. This is the standard method for writing peptide sequences.</li> </ol> <p>Select the correct peptide sequence from the options below:</p></div>
+  <div id="question_html_679b_3184">
+  <div id="statement_text_679b_3184"><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script><h4>peptide_2e4f</h4><p><canvas id="canvas_dba0" width="480" height="512"></canvas></p><hr/><script>/* */initRDKitModule().then(function(instance){RDKitModule=instance;console.log("RDKit:"+RDKitModule.version());/* */function/* */getPeptideBonds(mol){let/* */peptide_bond="CC(=O)NC";let/* */qmol=window.RDKitModule.get_qmol(peptide_bond);let/* */matches=JSON.parse(mol.get_substruct_matches(qmol));let/* */aggregatedBonds=[];for(let/* */i=0;i<matches.length;i++){match=matches[i];if(Array.isArray(match["bonds"])){aggregatedBonds.push(match["bonds"].slice(-2)[0]);}}return/* */aggregatedBonds;}let/* */smiles="[NH3+][C@@H](CCC(=O)N)(C(=O)N[C@@H](Cc1ccc(O)cc1)(C(=O)N[C@@H](CC1=CC=C2C(=C1)C(=CN2))(C(=O)N[C@@H](CCCNC(=[NH2+])N)(C(=O)[O-]))))";let/* */mol=RDKitModule.get_mol(smiles);let/* */mdetails={};mdetails["bonds"]=getPeptideBonds(mol);mdetails["atoms"]=[0];mdetails["highlightColour"]=[0,1,0];mdetails["legend"]="peptide_2e4f";mdetails["explicitMethyl"]=true;canvas=document.getElementById("canvas_dba0");mol.draw_to_canvas_with_highlights(canvas,JSON.stringify(mdetails));});/* */</script> <p>A tetrapeptide is made up of four (4) amino acids. The figure above shows one such tetrapeptide with an unknown sequence. Your task is to find out the four (4) letter sequence of this tetrapeptide.<br/>Here is a step-by-step guide to help you answer the question:</p> <ol> <li style="margin-bottom: 20px;">Consult an amino acid guide for reference. You can find a PDF guide on Blackboard under "Exam and Quiz" in the "Old Exams" section, with the filename <a href="https://drive.google.com/file/d/1Mgum_TmZ71-XIjb38sStEpzzZLqkQb-W/view?usp=sharing">bchm_exam-help_sheet.pdf</a>, or search online for a visual guide that shows all 20 amino acids with their single-letter codes.</li> <li style="margin-bottom: 20px;">Identify the amino-terminal end, represented as <span style="padding: 2px; color: #0000cc; background-color: #66ff66;">NH<sub>3</sub><sup>+</sup></span> and highlighted in bright green. Distinguish between the general nitrogens in amino acid backbones (denoted as <span style="color:#0000cc">NH</span>) and the nitrogen in amino acid side chains.</li> <li style="margin-bottom: 20px;">The three (3) peptide bonds connecting the four (4) amino acids are highlighted in <span style="background-color: #00FF00; padding: 2px;">bright green</span>, making it easier to distinguish the four (4) amino acids.</li> <li style="margin-bottom: 20px;">Examine the side chain for each of the four (4) amino acids to determine their single-letter amino acid code.</li> <li style="margin-bottom: 20px;">List the single-letter amino acid codes in the amino to carboxyl (N&rarr;C) direction. This is the standard method for writing peptide sequences.</li> </ol> <p>Select the correct peptide sequence from the options below:</p></div>
   <form>
-  <ul id="choices_d778_5bcc" class="qti-auto-grid">
+  <ul id="choices_679b_3184" class="qti-auto-grid">
     <li>
-      <input type="radio" id="option0"  name="answer_d778_5bcc"  data-correct="false">
-      <label for="option0">TQRL</label>
+      <input type="radio" id="option0"  name="answer_679b_3184"  data-correct="false">
+      <label for="option0">QLAD</label>
     </li>
     <li>
-      <input type="radio" id="option1"  name="answer_d778_5bcc"  data-correct="false">
-      <label for="option1">TQHY</label>
+      <input type="radio" id="option1"  name="answer_679b_3184"  data-correct="false">
+      <label for="option1">QYWQ</label>
     </li>
     <li>
-      <input type="radio" id="option2"  name="answer_d778_5bcc"  data-correct="false">
-      <label for="option2">TTRY</label>
+      <input type="radio" id="option2"  name="answer_679b_3184"  data-correct="false">
+      <label for="option2">QYRT</label>
     </li>
     <li>
-      <input type="radio" id="option3"  name="answer_d778_5bcc"  data-correct="false">
-      <label for="option3">TWRY</label>
+      <input type="radio" id="option3"  name="answer_679b_3184"  data-correct="false">
+      <label for="option3">QVWM</label>
     </li>
     <li>
-      <input type="radio" id="option4"  name="answer_d778_5bcc"  data-correct="false">
-      <label for="option4">RQMR</label>
+      <input type="radio" id="option4"  name="answer_679b_3184"  data-correct="false">
+      <label for="option4">GRQW</label>
     </li>
     <li>
-      <input type="radio" id="option5"  name="answer_d778_5bcc"  data-correct="true">
-      <label for="option5">TQRY</label>
+      <input type="radio" id="option5"  name="answer_679b_3184"  data-correct="true">
+      <label for="option5">QYWR</label>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_d778_5bcc()">Check Answer</button>
-  <div id="result_d778_5bcc" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;">&nbsp;</div>
+  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_679b_3184()">Check Answer</button>
+  <div id="result_679b_3184" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;">&nbsp;</div>
   </form><br/>
   </div><script>
-  function checkAnswer_d778_5bcc() {
-   const options = document.getElementsByName('answer_d778_5bcc');
+  function checkAnswer_679b_3184() {
+   const options = document.getElementsByName('answer_679b_3184');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_d778_5bcc');
+   const resultDiv = document.getElementById('result_679b_3184');
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.style.color = 'var(--qti-success-fg, #008000)';
@@ -2606,20 +2606,20 @@
   </summary>
   <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
   <div class="qti-selftest">
-  <div id="question_html_3dff_e945">
-  <div id="statement_text_3dff_e945"><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script><p><canvas id="canvas_e3f8" width="480" height="320"></canvas></p><script>/* */initRDKitModule().then(function(instance){RDKitModule=instance;console.log("RDKit:"+RDKitModule.version());/* */let/* */smiles="CC(C)C[C@@H](C(=O)O)N";let/* */mol=RDKitModule.get_mol(smiles);let/* */mdetails={};mdetails["legend"]="";mdetails["explicitMethyl"]=true;canvas=document.getElementById("canvas_e3f8");mol.draw_to_canvas_with_highlights(canvas,JSON.stringify(mdetails));});/* */</script><h3>Which amino acid is represented by the chemical structure shown above?</h3></div>
+  <div id="question_html_18a4_7b66">
+  <div id="statement_text_18a4_7b66"><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script><p><canvas id="canvas_d594" width="480" height="320"></canvas></p><script>/* */initRDKitModule().then(function(instance){RDKitModule=instance;console.log("RDKit:"+RDKitModule.version());/* */let/* */smiles="C[C@@H](C(=O)O)N";let/* */mol=RDKitModule.get_mol(smiles);let/* */mdetails={};mdetails["legend"]="";mdetails["explicitMethyl"]=true;canvas=document.getElementById("canvas_d594");mol.draw_to_canvas_with_highlights(canvas,JSON.stringify(mdetails));});/* */</script><h3>Which amino acid is represented by the chemical structure shown above?</h3></div>
   <form>
-  <input type="text" class="qti-input" id="fib_input_3dff_e945" placeholder="Enter your answer" autocomplete="off"/>
-  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_3dff_e945()">Check Answer</button>
-  <div id="result_3dff_e945" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;">&nbsp;</div>
+  <input type="text" class="qti-input" id="fib_input_18a4_7b66" placeholder="Enter your answer" autocomplete="off"/>
+  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_18a4_7b66()">Check Answer</button>
+  <div id="result_18a4_7b66" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;">&nbsp;</div>
   </form><br/>
   </div><script>
-  const fibAnswers_3dff_e945 = ['leucine', 'leucine'];
-  function checkAnswer_3dff_e945() {
-    const inputEl = document.getElementById('fib_input_3dff_e945');
+  const fibAnswers_18a4_7b66 = ['alanine', 'alanine'];
+  function checkAnswer_18a4_7b66() {
+    const inputEl = document.getElementById('fib_input_18a4_7b66');
     if (!inputEl) { return; }
     const userAns = inputEl.value.trim().toLowerCase();
-    const resultDiv = document.getElementById('result_3dff_e945');
+    const resultDiv = document.getElementById('result_18a4_7b66');
     const isCorrect = fibAnswers_{crc16_text}.includes(userAns);
     if (isCorrect) {
       resultDiv.style.color = 'green';
@@ -2662,52 +2662,52 @@
   </summary>
   <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
   <div class="qti-selftest">
-  <div id="question_html_d9cd_f065">
-  <div id="statement_text_d9cd_f065"><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script><p><canvas id="canvas_531a" width="480" height="320"></canvas></p><script>/* */initRDKitModule().then(function(instance){RDKitModule=instance;console.log("RDKit:"+RDKitModule.version());/* */let/* */smiles="CC(C)[C@@H](C(=O)O)N";let/* */mol=RDKitModule.get_mol(smiles);let/* */mdetails={};mdetails["legend"]="";mdetails["explicitMethyl"]=true;canvas=document.getElementById("canvas_531a");mol.draw_to_canvas_with_highlights(canvas,JSON.stringify(mdetails));});/* */</script><h3>Which amino acid is represented by the chemical structure shown above?</h3></div>
+  <div id="question_html_6c3d_fac3">
+  <div id="statement_text_6c3d_fac3"><script src="https://unpkg.com/@rdkit/rdkit/dist/RDKit_minimal.js"></script><p><canvas id="canvas_4b56" width="480" height="320"></canvas></p><script>/* */initRDKitModule().then(function(instance){RDKitModule=instance;console.log("RDKit:"+RDKitModule.version());/* */let/* */smiles="C(C[C@@H](C(=O)O)N)CN=C(N)N";let/* */mol=RDKitModule.get_mol(smiles);let/* */mdetails={};mdetails["legend"]="";mdetails["explicitMethyl"]=true;canvas=document.getElementById("canvas_4b56");mol.draw_to_canvas_with_highlights(canvas,JSON.stringify(mdetails));});/* */</script><h3>Which amino acid is represented by the chemical structure shown above?</h3></div>
   <form>
-  <ul id="choices_d9cd_f065" class="qti-auto-grid">
+  <ul id="choices_6c3d_fac3" class="qti-auto-grid">
     <li>
-      <input type="radio" id="option0"  name="answer_d9cd_f065"  data-correct="false">
-      <label for="option0">glutamine</label>
+      <input type="radio" id="option0"  name="answer_6c3d_fac3"  data-correct="true">
+      <label for="option0">arginine</label>
     </li>
     <li>
-      <input type="radio" id="option1"  name="answer_d9cd_f065"  data-correct="false">
-      <label for="option1">isoleucine</label>
+      <input type="radio" id="option1"  name="answer_6c3d_fac3"  data-correct="false">
+      <label for="option1">histidine</label>
     </li>
     <li>
-      <input type="radio" id="option2"  name="answer_d9cd_f065"  data-correct="false">
-      <label for="option2">leucine</label>
+      <input type="radio" id="option2"  name="answer_6c3d_fac3"  data-correct="false">
+      <label for="option2">isoleucine</label>
     </li>
     <li>
-      <input type="radio" id="option3"  name="answer_d9cd_f065"  data-correct="false">
-      <label for="option3">methionine</label>
+      <input type="radio" id="option3"  name="answer_6c3d_fac3"  data-correct="false">
+      <label for="option3">leucine</label>
     </li>
     <li>
-      <input type="radio" id="option4"  name="answer_d9cd_f065"  data-correct="false">
-      <label for="option4">proline</label>
+      <input type="radio" id="option4"  name="answer_6c3d_fac3"  data-correct="false">
+      <label for="option4">lysine</label>
     </li>
     <li>
-      <input type="radio" id="option5"  name="answer_d9cd_f065"  data-correct="false">
-      <label for="option5">threonine</label>
+      <input type="radio" id="option5"  name="answer_6c3d_fac3"  data-correct="false">
+      <label for="option5">methionine</label>
     </li>
     <li>
-      <input type="radio" id="option6"  name="answer_d9cd_f065"  data-correct="true">
-      <label for="option6">valine</label>
+      <input type="radio" id="option6"  name="answer_6c3d_fac3"  data-correct="false">
+      <label for="option6">tryptophan</label>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_d9cd_f065()">Check Answer</button>
-  <div id="result_d9cd_f065" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;">&nbsp;</div>
+  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_6c3d_fac3()">Check Answer</button>
+  <div id="result_6c3d_fac3" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;">&nbsp;</div>
   </form><br/>
   </div><script>
-  function checkAnswer_d9cd_f065() {
-   const options = document.getElementsByName('answer_d9cd_f065');
+  function checkAnswer_6c3d_fac3() {
+   const options = document.getElementsByName('answer_6c3d_fac3');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_d9cd_f065');
+   const resultDiv = document.getElementById('result_6c3d_fac3');
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.style.color = 'var(--qti-success-fg, #008000)';

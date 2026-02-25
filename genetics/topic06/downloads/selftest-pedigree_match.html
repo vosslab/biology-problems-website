@@ -1,7 +1,7 @@
 <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
 <div class="qti-selftest">
-<div id="question_html_3b19_ea4b">
-<div id="statement_text_3b19_ea4b"><p>Match the following pedigrees to their most likely inheritance type.<br>Note: <i>each inheritance type will only be used ONCE.</i></p></div>
+<div id="question_html_3b19_5d01">
+<div id="statement_text_3b19_5d01"><p>Match the following pedigrees to their most likely inheritance type.<br>Note: <i>each inheritance type will only be used ONCE.</i></p></div>
 <!-- Matching Table -->
 <table style="border: 1px solid var(--qti-border, #999999); border-collapse: collapse;">
 <thead><tr>
@@ -12,29 +12,11 @@
 <tbody>
 <tr>
 <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-			<td class="dropzone qti-dropzone" data-correct="3b19_ea4b_001" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td class="dropzone qti-dropzone" data-correct="3b19_5d01_001" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
 			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">1. <p></p>
 <table cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; border-collapse: collapse; border: 3px solid silver; width: 715px; height: 455px">
 <tr>
-<!-- WHITE SQUARE --><td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
-<!-- START T SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
-<tr>
-<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> </tr>
-<tr>
-<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-top: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-top: 3px solid #000000; "> </td> </tr>
-</tbody></table>
-</td> <!-- END T SHAPE --><!-- BLACK CIRCLE --> <td align="center" style="font-size: 26pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#11044;</td>
-<td align="center" style="font-size: 1pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;"> </td>
-<!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
-<!-- START T SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
-<tr>
-<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> </tr>
-<tr>
-<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-top: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-top: 3px solid #000000; "> </td> </tr>
-</tbody></table>
-</td> <!-- END T SHAPE --><!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
-<td align="center" style="font-size: 1pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;"> </td>
-<!-- BLACK SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9724;</td>
+<!-- BLACK SQUARE --><td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9724;</td>
 <!-- START T SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
 <tr>
 <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> </tr>
@@ -42,6 +24,24 @@
 <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-top: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-top: 3px solid #000000; "> </td> </tr>
 </tbody></table>
 </td> <!-- END T SHAPE --><!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
+<td align="center" style="font-size: 1pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;"> </td>
+<!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
+<!-- START T SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
+<tr>
+<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> </tr>
+<tr>
+<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-top: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-top: 3px solid #000000; "> </td> </tr>
+</tbody></table>
+</td> <!-- END T SHAPE --><!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
+<td align="center" style="font-size: 1pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;"> </td>
+<!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
+<!-- START T SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
+<tr>
+<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> </tr>
+<tr>
+<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-top: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-top: 3px solid #000000; "> </td> </tr>
+</tbody></table>
+</td> <!-- END T SHAPE --><!-- BLACK CIRCLE --> <td align="center" style="font-size: 26pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#11044;</td>
 </tr>
 <tr>
 <!-- START DOWN-RIGHT ELBOW SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
@@ -103,16 +103,16 @@
 </td> <!-- END DOWN-LEFT ELBOW SHAPE -->
 </tr>
 <tr>
-<!-- BLACK SQUARE --><td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9724;</td>
+<!-- WHITE CIRCLE --><td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
 <!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
-<!-- BLACK CIRCLE --> <td align="center" style="font-size: 26pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#11044;</td>
+<!-- BLACK SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9724;</td>
 <!-- START T SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
 <tr>
 <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> </tr>
 <tr>
 <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-top: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-top: 3px solid #000000; "> </td> </tr>
 </tbody></table>
-</td> <!-- END T SHAPE --><!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
+</td> <!-- END T SHAPE --><!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
 <td align="center" style="font-size: 1pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;"> </td>
 <!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
 <!-- START T SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
@@ -122,7 +122,7 @@
 <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-top: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-top: 3px solid #000000; "> </td> </tr>
 </tbody></table>
 </td> <!-- END T SHAPE --><!-- BLACK SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9724;</td>
-<!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
+<!-- BLACK CIRCLE --> <td align="center" style="font-size: 26pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#11044;</td>
 <!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
 </tr>
 <tr>
@@ -169,25 +169,25 @@
 <td align="center" style="font-size: 1pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;"> </td>
 </tr>
 <tr>
-<!-- WHITE CIRCLE --><td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
+<!-- BLACK CIRCLE --><td align="center" style="font-size: 26pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#11044;</td>
 <!-- START T SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
 <tr>
 <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> </tr>
 <tr>
 <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-top: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-top: 3px solid #000000; "> </td> </tr>
 </tbody></table>
-</td> <!-- END T SHAPE --><!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
+</td> <!-- END T SHAPE --><!-- BLACK SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9724;</td>
 <td align="center" style="font-size: 1pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;"> </td>
-<!-- BLACK SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9724;</td>
+<!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
 <!-- START INCEST T SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
 <tr>
 <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 9px double #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 9px double #000000; "> </td> </tr>
 <tr>
 <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-top: 9px double #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-top: 9px double #000000; "> </td> </tr>
 </tbody></table>
-</td> <!-- END INCEST T SHAPE --><!-- BLACK CIRCLE --> <td align="center" style="font-size: 26pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#11044;</td>
+</td> <!-- END INCEST T SHAPE --><!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
 <td align="center" style="font-size: 1pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;"> </td>
-<!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
+<!-- BLACK CIRCLE --> <td align="center" style="font-size: 26pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#11044;</td>
 <!-- START T SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
 <tr>
 <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> </tr>
@@ -209,7 +209,13 @@
 <tr>
 <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-top: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-top: 3px solid #000000; "> </td> </tr>
 </tbody></table>
-</td> <!-- END PLUS SHAPE --><!-- START DOWN-LEFT ELBOW SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
+</td> <!-- END PLUS SHAPE --><!-- START T SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
+<tr>
+<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> </tr>
+<tr>
+<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-top: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-top: 3px solid #000000; "> </td> </tr>
+</tbody></table>
+</td> <!-- END T SHAPE --><!-- START DOWN-LEFT ELBOW SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
 <tr>
 <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;"> </td> </tr>
 <tr>
@@ -221,13 +227,7 @@
 <tr>
 <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-top: 3px solid #000000; "> </td> </tr>
 </tbody></table>
-</td> <!-- END DOWN-RIGHT ELBOW SHAPE --><!-- START T SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
-<tr>
-<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> </tr>
-<tr>
-<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-top: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-top: 3px solid #000000; "> </td> </tr>
-</tbody></table>
-</td> <!-- END T SHAPE --><!-- START PLUS SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
+</td> <!-- END DOWN-RIGHT ELBOW SHAPE --><!-- START PLUS SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
 <tr>
 <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-bottom: 3px solid #000000; "> </td> </tr>
 <tr>
@@ -267,15 +267,15 @@
 </tr>
 <tr>
 <!-- WHITE SQUARE --><td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
-<!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
-<!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
+<!-- BLACK CIRCLE --> <td align="center" style="font-size: 26pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#11044;</td>
 <!-- BLACK SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9724;</td>
 <!-- BLACK CIRCLE --> <td align="center" style="font-size: 26pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#11044;</td>
 <!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
 <!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
-<!-- BLACK CIRCLE --> <td align="center" style="font-size: 26pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#11044;</td>
+<!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
+<!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
 <!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
-<!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
+<!-- BLACK SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9724;</td>
 <!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
 </tr>
 <tr></tr>
@@ -285,7 +285,7 @@
 		</tr>
 <tr>
 <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-			<td class="dropzone qti-dropzone" data-correct="3b19_ea4b_002" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td class="dropzone qti-dropzone" data-correct="3b19_5d01_002" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
 			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">2. <p></p>
 <table cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; border-collapse: collapse; border: 3px solid silver; width: 715px; height: 455px">
 <tr>
@@ -558,36 +558,36 @@
 		</tr>
 <tr>
 <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-			<td class="dropzone qti-dropzone" data-correct="3b19_ea4b_003" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td class="dropzone qti-dropzone" data-correct="3b19_5d01_003" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
 			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">3. <p></p>
 <table cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; border-collapse: collapse; border: 3px solid silver; width: 715px; height: 455px">
 <tr>
-<!-- WHITE SQUARE --><td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
+<!-- WHITE CIRCLE --><td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
 <!-- START T SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
 <tr>
 <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> </tr>
 <tr>
 <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-top: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-top: 3px solid #000000; "> </td> </tr>
 </tbody></table>
-</td> <!-- END T SHAPE --><!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
+</td> <!-- END T SHAPE --><!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
 <td align="center" style="font-size: 1pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;"> </td>
-<!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
+<!-- BLACK CIRCLE --> <td align="center" style="font-size: 26pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#11044;</td>
 <!-- START T SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
 <tr>
 <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> </tr>
 <tr>
 <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-top: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-top: 3px solid #000000; "> </td> </tr>
 </tbody></table>
-</td> <!-- END T SHAPE --><!-- BLACK CIRCLE --> <td align="center" style="font-size: 26pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#11044;</td>
+</td> <!-- END T SHAPE --><!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
 <td align="center" style="font-size: 1pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;"> </td>
-<!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
+<!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
 <!-- START T SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
 <tr>
 <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> </tr>
 <tr>
 <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-top: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-top: 3px solid #000000; "> </td> </tr>
 </tbody></table>
-</td> <!-- END T SHAPE --><!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
+</td> <!-- END T SHAPE --><!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
 </tr>
 <tr>
 <!-- START DOWN-RIGHT ELBOW SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
@@ -651,71 +651,7 @@
 <tr>
 <!-- WHITE CIRCLE --><td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
 <!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
-<!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
-<!-- START T SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
-<tr>
-<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> </tr>
-<tr>
-<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-top: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-top: 3px solid #000000; "> </td> </tr>
-</tbody></table>
-</td> <!-- END T SHAPE --><!-- BLACK SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9724;</td>
-<td align="center" style="font-size: 1pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;"> </td>
-<!-- BLACK CIRCLE --> <td align="center" style="font-size: 26pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#11044;</td>
-<!-- START T SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
-<tr>
-<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> </tr>
-<tr>
-<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-top: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-top: 3px solid #000000; "> </td> </tr>
-</tbody></table>
-</td> <!-- END T SHAPE --><!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
 <!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
-<!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
-</tr>
-<tr>
-<td align="center" style="font-size: 1pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;"> </td>
-<td align="center" style="font-size: 1pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;"> </td>
-<!-- START DOWN-RIGHT ELBOW SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
-<tr>
-<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;"> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> </tr>
-<tr>
-<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-top: 3px solid #000000; "> </td> </tr>
-</tbody></table>
-</td> <!-- END DOWN-RIGHT ELBOW SHAPE --><!-- START PERPENDICULAR TENT SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
-<tr>
-<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-bottom: 3px solid #000000; "> </td> </tr>
-<tr>
-<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-top: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-top: 3px solid #000000; "> </td> </tr>
-</tbody></table>
-</td> <!-- END PERPENDICULAR TENT SHAPE --><!-- START DOWN-LEFT ELBOW SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
-<tr>
-<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;"> </td> </tr>
-<tr>
-<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-top: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; "> </td> </tr>
-</tbody></table>
-</td> <!-- END DOWN-LEFT ELBOW SHAPE --><td align="center" style="font-size: 1pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;"> </td>
-<!-- START DOWN-RIGHT ELBOW SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
-<tr>
-<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;"> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> </tr>
-<tr>
-<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-top: 3px solid #000000; "> </td> </tr>
-</tbody></table>
-</td> <!-- END DOWN-RIGHT ELBOW SHAPE --><!-- START PERPENDICULAR TENT SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
-<tr>
-<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-bottom: 3px solid #000000; "> </td> </tr>
-<tr>
-<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-top: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-top: 3px solid #000000; "> </td> </tr>
-</tbody></table>
-</td> <!-- END PERPENDICULAR TENT SHAPE --><!-- START DOWN-LEFT ELBOW SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
-<tr>
-<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;"> </td> </tr>
-<tr>
-<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-top: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; "> </td> </tr>
-</tbody></table>
-</td> <!-- END DOWN-LEFT ELBOW SHAPE --><td align="center" style="font-size: 1pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;"> </td>
-<td align="center" style="font-size: 1pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;"> </td>
-</tr>
-<tr>
-<!-- BLACK SQUARE --><td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9724;</td>
 <!-- START T SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
 <tr>
 <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> </tr>
@@ -724,23 +660,87 @@
 </tbody></table>
 </td> <!-- END T SHAPE --><!-- BLACK CIRCLE --> <td align="center" style="font-size: 26pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#11044;</td>
 <td align="center" style="font-size: 1pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;"> </td>
-<!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
-<!-- START INCEST T SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
-<tr>
-<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 9px double #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 9px double #000000; "> </td> </tr>
-<tr>
-<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-top: 9px double #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-top: 9px double #000000; "> </td> </tr>
-</tbody></table>
-</td> <!-- END INCEST T SHAPE --><!-- BLACK CIRCLE --> <td align="center" style="font-size: 26pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#11044;</td>
-<td align="center" style="font-size: 1pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;"> </td>
-<!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
+<!-- BLACK SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9724;</td>
 <!-- START T SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
 <tr>
 <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> </tr>
 <tr>
 <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-top: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-top: 3px solid #000000; "> </td> </tr>
 </tbody></table>
-</td> <!-- END T SHAPE --><!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
+</td> <!-- END T SHAPE --><!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
+<!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
+<!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
+</tr>
+<tr>
+<td align="center" style="font-size: 1pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;"> </td>
+<td align="center" style="font-size: 1pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;"> </td>
+<!-- START DOWN-RIGHT ELBOW SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
+<tr>
+<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;"> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> </tr>
+<tr>
+<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-top: 3px solid #000000; "> </td> </tr>
+</tbody></table>
+</td> <!-- END DOWN-RIGHT ELBOW SHAPE --><!-- START PERPENDICULAR TENT SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
+<tr>
+<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-bottom: 3px solid #000000; "> </td> </tr>
+<tr>
+<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-top: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-top: 3px solid #000000; "> </td> </tr>
+</tbody></table>
+</td> <!-- END PERPENDICULAR TENT SHAPE --><!-- START DOWN-LEFT ELBOW SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
+<tr>
+<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;"> </td> </tr>
+<tr>
+<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-top: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; "> </td> </tr>
+</tbody></table>
+</td> <!-- END DOWN-LEFT ELBOW SHAPE --><td align="center" style="font-size: 1pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;"> </td>
+<!-- START DOWN-RIGHT ELBOW SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
+<tr>
+<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;"> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> </tr>
+<tr>
+<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-top: 3px solid #000000; "> </td> </tr>
+</tbody></table>
+</td> <!-- END DOWN-RIGHT ELBOW SHAPE --><!-- START PERPENDICULAR TENT SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
+<tr>
+<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-bottom: 3px solid #000000; "> </td> </tr>
+<tr>
+<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-top: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-top: 3px solid #000000; "> </td> </tr>
+</tbody></table>
+</td> <!-- END PERPENDICULAR TENT SHAPE --><!-- START DOWN-LEFT ELBOW SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
+<tr>
+<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;"> </td> </tr>
+<tr>
+<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-top: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; "> </td> </tr>
+</tbody></table>
+</td> <!-- END DOWN-LEFT ELBOW SHAPE --><td align="center" style="font-size: 1pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;"> </td>
+<td align="center" style="font-size: 1pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;"> </td>
+</tr>
+<tr>
+<!-- WHITE SQUARE --><td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
+<!-- START T SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
+<tr>
+<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> </tr>
+<tr>
+<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-top: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-top: 3px solid #000000; "> </td> </tr>
+</tbody></table>
+</td> <!-- END T SHAPE --><!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
+<td align="center" style="font-size: 1pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;"> </td>
+<!-- BLACK CIRCLE --> <td align="center" style="font-size: 26pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#11044;</td>
+<!-- START INCEST T SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
+<tr>
+<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 9px double #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 9px double #000000; "> </td> </tr>
+<tr>
+<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-top: 9px double #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-top: 9px double #000000; "> </td> </tr>
+</tbody></table>
+</td> <!-- END INCEST T SHAPE --><!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
+<td align="center" style="font-size: 1pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;"> </td>
+<!-- BLACK CIRCLE --> <td align="center" style="font-size: 26pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#11044;</td>
+<!-- START T SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
+<tr>
+<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> </tr>
+<tr>
+<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-top: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-top: 3px solid #000000; "> </td> </tr>
+</tbody></table>
+</td> <!-- END T SHAPE --><!-- BLACK SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9724;</td>
 </tr>
 <tr>
 <!-- START DOWN-RIGHT ELBOW SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
@@ -813,15 +813,15 @@
 </tr>
 <tr>
 <!-- WHITE SQUARE --><td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
+<!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
+<!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
+<!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
 <!-- BLACK CIRCLE --> <td align="center" style="font-size: 26pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#11044;</td>
-<!-- BLACK CIRCLE --> <td align="center" style="font-size: 26pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#11044;</td>
-<!-- BLACK CIRCLE --> <td align="center" style="font-size: 26pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#11044;</td>
+<!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
 <!-- BLACK SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9724;</td>
-<!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
 <!-- BLACK CIRCLE --> <td align="center" style="font-size: 26pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#11044;</td>
-<!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
-<!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
-<!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
+<!-- BLACK CIRCLE --> <td align="center" style="font-size: 26pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#11044;</td>
+<!-- BLACK CIRCLE --> <td align="center" style="font-size: 26pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#11044;</td>
 <!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
 </tr>
 <tr></tr>
@@ -831,7 +831,7 @@
 		</tr>
 <tr>
 <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-			<td class="dropzone qti-dropzone" data-correct="3b19_ea4b_004" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td class="dropzone qti-dropzone" data-correct="3b19_5d01_004" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
 			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">4. <p></p>
 <table cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; border-collapse: collapse; border: 3px solid silver; width: 715px; height: 455px">
 <tr>
@@ -1104,11 +1104,20 @@
 		</tr>
 <tr>
 <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-			<td class="dropzone qti-dropzone" data-correct="3b19_ea4b_005" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td class="dropzone qti-dropzone" data-correct="3b19_5d01_005" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
 			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">5. <p></p>
 <table cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; border-collapse: collapse; border: 3px solid silver; width: 715px; height: 455px">
 <tr>
-<!-- WHITE CIRCLE --><td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
+<!-- WHITE SQUARE --><td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
+<!-- START T SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
+<tr>
+<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> </tr>
+<tr>
+<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-top: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-top: 3px solid #000000; "> </td> </tr>
+</tbody></table>
+</td> <!-- END T SHAPE --><!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
+<td align="center" style="font-size: 1pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;"> </td>
+<!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
 <!-- START T SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
 <tr>
 <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> </tr>
@@ -1117,23 +1126,14 @@
 </tbody></table>
 </td> <!-- END T SHAPE --><!-- BLACK SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9724;</td>
 <td align="center" style="font-size: 1pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;"> </td>
-<!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
+<!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
 <!-- START T SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
 <tr>
 <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> </tr>
 <tr>
 <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-top: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-top: 3px solid #000000; "> </td> </tr>
 </tbody></table>
-</td> <!-- END T SHAPE --><!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
-<td align="center" style="font-size: 1pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;"> </td>
-<!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
-<!-- START T SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
-<tr>
-<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> </tr>
-<tr>
-<td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-top: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-top: 3px solid #000000; "> </td> </tr>
-</tbody></table>
-</td> <!-- END T SHAPE --><!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
+</td> <!-- END T SHAPE --><!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
 </tr>
 <tr>
 <!-- START DOWN-RIGHT ELBOW SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
@@ -1196,25 +1196,25 @@
 </tr>
 <tr>
 <!-- WHITE CIRCLE --><td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
-<!-- BLACK SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9724;</td>
-<!-- BLACK SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9724;</td>
+<!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
+<!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
 <!-- START T SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
 <tr>
 <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> </tr>
 <tr>
 <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-top: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-top: 3px solid #000000; "> </td> </tr>
 </tbody></table>
-</td> <!-- END T SHAPE --><!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
+</td> <!-- END T SHAPE --><!-- BLACK SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9724;</td>
 <td align="center" style="font-size: 1pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;"> </td>
-<!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
+<!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
 <!-- START T SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
 <tr>
 <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> </tr>
 <tr>
 <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-top: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-top: 3px solid #000000; "> </td> </tr>
 </tbody></table>
-</td> <!-- END T SHAPE --><!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
-<!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
+</td> <!-- END T SHAPE --><!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
+<!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
 <!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
 </tr>
 <tr>
@@ -1261,14 +1261,14 @@
 <td align="center" style="font-size: 1pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;"> </td>
 </tr>
 <tr>
-<!-- WHITE SQUARE --><td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
+<!-- WHITE CIRCLE --><td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
 <!-- START T SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
 <tr>
 <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-bottom: 3px solid #000000; "> </td> </tr>
 <tr>
 <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-right: 3px solid #000000; border-top: 3px solid #000000; "> </td> <td style="padding: 0; margin: 0; line-height: 0px; font-size: 1px;border-left: 3px solid #000000; border-top: 3px solid #000000; "> </td> </tr>
 </tbody></table>
-</td> <!-- END T SHAPE --><!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
+</td> <!-- END T SHAPE --><!-- BLACK SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9724;</td>
 <td align="center" style="font-size: 1pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;"> </td>
 <!-- BLACK SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9724;</td>
 <!-- START INCEST T SHAPE --><td align="center" style="vertical-align: middle; padding: 0; margin: 0; line-height: 0px; "> <table border="0" cellpadding="0" cellspacing="0" style="padding: 0; margin: 0; width: 65px; height: 65px; border-collapse: collapse; border-style: hidden;"><tbody>
@@ -1358,16 +1358,16 @@
 </td> <!-- END DOWN-LEFT ELBOW SHAPE -->
 </tr>
 <tr>
-<!-- WHITE SQUARE --><td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
+<!-- WHITE CIRCLE --><td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
+<!-- BLACK SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9724;</td>
+<!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
+<!-- BLACK SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9724;</td>
+<!-- BLACK SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9724;</td>
+<!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
+<!-- BLACK SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9724;</td>
+<!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
 <!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
 <!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
-<!-- BLACK SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9724;</td>
-<!-- BLACK SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9724;</td>
-<!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
-<!-- BLACK SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9724;</td>
-<!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
-<!-- WHITE CIRCLE --> <td align="center" style="font-size: 28pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9711;</td>
-<!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
 <!-- WHITE SQUARE --> <td align="center" style="font-size: 48pt; padding: 0; margin: 0; line-height: 0px; vertical-align: middle; width: 65px; height: 65px;">&#9723;</td>
 </tr>
 <tr></tr>
@@ -1379,28 +1379,28 @@
 </table>
 <p style="font-style: italic; font-size: 14px; margin-top: 10px;">Drag one of the choices below:</p>
 <ul id="choiceList" style="list-style: none; padding: 0;">
-<li class="draggable qti-choice-2" draggable="true" data-value="3b19_ea4b_001" title="autosomal dominant" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-2-bg); display: inline-block;">
-		<span style="color: var(--qti-choice-2-fg);"><strong>A.</strong> autosomal dominant</span>
+<li class="draggable qti-choice-2" draggable="true" data-value="3b19_5d01_003" title="x-linked dominant" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-2-bg); display: inline-block;">
+		<span style="color: var(--qti-choice-2-fg);"><strong>A.</strong> x-linked dominant</span>
 	</li>
-	<li class="draggable qti-choice-3" draggable="true" data-value="3b19_ea4b_002" title="autosomal recessive" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-3-bg); display: inline-block;">
-		<span style="color: var(--qti-choice-3-fg);"><strong>B.</strong> autosomal recessive</span>
+	<li class="draggable qti-choice-3" draggable="true" data-value="3b19_5d01_001" title="autosomal dominant" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-3-bg); display: inline-block;">
+		<span style="color: var(--qti-choice-3-fg);"><strong>B.</strong> autosomal dominant</span>
 	</li>
-	<li class="draggable qti-choice-4" draggable="true" data-value="3b19_ea4b_003" title="x-linked dominant" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-4-bg); display: inline-block;">
-		<span style="color: var(--qti-choice-4-fg);"><strong>C.</strong> x-linked dominant</span>
+	<li class="draggable qti-choice-4" draggable="true" data-value="3b19_5d01_005" title="y-linked" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-4-bg); display: inline-block;">
+		<span style="color: var(--qti-choice-4-fg);"><strong>C.</strong> y-linked</span>
 	</li>
-	<li class="draggable qti-choice-5" draggable="true" data-value="3b19_ea4b_004" title="x-linked recessive" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-5-bg); display: inline-block;">
-		<span style="color: var(--qti-choice-5-fg);"><strong>D.</strong> x-linked recessive</span>
+	<li class="draggable qti-choice-5" draggable="true" data-value="3b19_5d01_002" title="autosomal recessive" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-5-bg); display: inline-block;">
+		<span style="color: var(--qti-choice-5-fg);"><strong>D.</strong> autosomal recessive</span>
 	</li>
-	<li class="draggable qti-choice-1" draggable="true" data-value="3b19_ea4b_005" title="y-linked" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-1-bg); display: inline-block;">
-		<span style="color: var(--qti-choice-1-fg);"><strong>E.</strong> y-linked</span>
+	<li class="draggable qti-choice-1" draggable="true" data-value="3b19_5d01_004" title="x-linked recessive" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-1-bg); display: inline-block;">
+		<span style="color: var(--qti-choice-1-fg);"><strong>E.</strong> x-linked recessive</span>
 	</li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_3b19_ea4b()">Check Answer</button>
-<button type="button" class="md-button md-button--secondary custom-button qti-btn qti-btn-reset" onclick="resetGame_3b19_ea4b()">Reset Game</button>
-<div id="result_3b19_ea4b" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_3b19_5d01()">Check Answer</button>
+<button type="button" class="md-button md-button--secondary custom-button qti-btn qti-btn-reset" onclick="resetGame_3b19_5d01()">Reset Game</button>
+<div id="result_3b19_5d01" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </div><script>
-	function initDragAndDrop_3b19_ea4b() {
-		const container = document.getElementById('question_html_3b19_ea4b');
+	function initDragAndDrop_3b19_5d01() {
+		const container = document.getElementById('question_html_3b19_5d01');
 		if (!container) {
 			return;
 		}
@@ -1448,11 +1448,11 @@
 			});
 		});
 	}
-	initDragAndDrop_3b19_ea4b();
+	initDragAndDrop_3b19_5d01();
 </script>
 <script>
-	function checkAnswer_3b19_ea4b() {
-		const container = document.getElementById('question_html_3b19_ea4b');
+	function checkAnswer_3b19_5d01() {
+		const container = document.getElementById('question_html_3b19_5d01');
 		if (!container) {
 			return;
 		}
@@ -1480,7 +1480,7 @@
 		});
 
 		feedbackText = `Total Score: ${score} out of ${possible}`;
-		const resultDiv = document.getElementById('result_3b19_ea4b');
+		const resultDiv = document.getElementById('result_3b19_5d01');
 		if (score === possible) {
 			resultDiv.style.color = 'var(--qti-success-fg, #008000)';
 		}
@@ -1494,8 +1494,8 @@
 	}
 </script>
 <script>
-	function resetGame_3b19_ea4b() {
-		const container = document.getElementById('question_html_3b19_ea4b');
+	function resetGame_3b19_5d01() {
+		const container = document.getElementById('question_html_3b19_5d01');
 		if (!container) {
 			return;
 		}
@@ -1512,7 +1512,7 @@
 			cell.textContent = "";
 			cell.style.backgroundColor = "transparent";
 		});
-		document.getElementById("result_3b19_ea4b").innerHTML = "";
+		document.getElementById("result_3b19_5d01").innerHTML = "";
 	}
 </script>
 
