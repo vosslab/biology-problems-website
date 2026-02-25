@@ -18,12 +18,9 @@ title: Deletion mutants
 
 ### Deduce the gene order from deletions
 
-Deletion mutants are chromosomes with a chunk missing. Which genes still work, and which fail, tells you which genes
-sit inside the missing region. This puzzle uses that evidence to build a gene map, the classic way geneticists learned
-chromosome structure before genomes were cheap.
-
 <div id="dm-root">
 <div id="stats"></div>
+<p class="dp-intro">Deletion mutants are chromosomes with a chunk missing. Which genes still work, and which fail, tells you which genes sit inside the missing region. This puzzle uses that evidence to build a gene map, the classic way geneticists learned chromosome structure before genomes were cheap.</p>
 <div id="problem">
 <div id="problem-summary"></div>
 <div id="hint-area">

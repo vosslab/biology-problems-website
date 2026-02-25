@@ -11,6 +11,8 @@ Daily puzzles designed to strengthen biology knowledge.
 
 - **[Mutant screen](daily_puzzles/mutant_screen.md)**  A daily *Neurospora* auxotroph puzzle based on the classic Beadle and Tatum experiments. Deduce the metabolic pathway order from growth data to form a five-letter word.
 
+- **[Biomacromolecules](daily_puzzles/biomacromolecule.md)**  A daily molecule identification puzzle. Given a 2D chemical structure, classify it into the correct macromolecule category.
+
 ## **Subjects**
 Complete, chapter-by-chapter collections of homework and exam questions.
 

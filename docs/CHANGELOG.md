@@ -1,6 +1,17 @@
 # Changelog
 
 ## 2026-02-24
+- Added 4th daily puzzle: Biomacromolecules — shows a 2D chemical structure and asks the player to identify its macromolecule category (Carbohydrate, Lipid, Nucleic Acid, Protein), then subcategory for fun.
+- Created build script `tools/build_biomacromolecule_data.py` that merges macromolecules.yml with pubchem data into `biomacromolecule_data.js` (326 molecules).
+- Added guard in `showGameEndModal` to skip guess distribution chart when `maxGuesses <= 1`.
+- Consolidated shared CSS into `daily_puzzle.css` for all four puzzles: root container, stats, message, toast, instructions, canvas display, keyboard, board/cell, hint-area, and accessibility styles.
+- Added `#ms-root` to all shared selectors in `daily_puzzle.css` — mutant screen now uses shared keyboard, board, cell, and hint-area styles instead of duplicated rules.
+- Stripped ~200 lines of duplicated CSS from puzzle-specific files (`peptidyle_formatting.css`, `deletion_mutants_formatting.css`, `mutant_screen_formatting.css`, `biomacromolecule_formatting.css`).
+- Switched biomacromolecule rendering from SVG to canvas (800x450) matching peptidyle dimensions, with shared gray background and dark mode styling.
+- Moved biomacromolecule name-reveal button into the shared hint-area alongside the help button, matching the layout of the other three puzzles.
+- Added `explicitMethyl: true` to biomacromolecule RDKit rendering to match peptidyle.
+- Added pastel category colors to Biomacromolecule buttons (sky blue for Carbohydrate, orange for Lipid, red for Nucleic Acid, green for Protein) with dark mode variants.
+- Added detailed identification guide table in instructions, adapted from `which_macromolecule.py`, including phosphate group tip.
 - Added Wordle-style game-end modal with guess distribution chart, win percentage, streak indicators, and next-puzzle timer to all three daily puzzles (Peptidyle, Deletion Mutants, Mutant Screen).
 - Redesigned stats bar from horizontal pill layout to card-style grid with large values on top and labels below.
 - Extended stats data model with `guessDistribution` array; backward-compatible with old localStorage data.

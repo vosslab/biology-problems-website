@@ -17,10 +17,9 @@ title: Mutant screen
 
 ### Deduce the pathway order from auxotroph growth
 
-This puzzle is based on the classic Beadle and Tatum *Neurospora* mutant auxotroph experiments that led to the "one gene, one enzyme" hypothesis. Each mutant class is blocked at a different step in a metabolic pathway. A blocked mutant can only grow if you supply a downstream intermediate that bypasses the block.
-
 <div id="ms-root">
 <div id="stats"></div>
+<p class="dp-intro">This puzzle is based on the classic Beadle and Tatum <em>Neurospora</em> mutant auxotroph experiments that led to the "one gene, one enzyme" hypothesis. Each mutant class is blocked at a different step in a metabolic pathway. A blocked mutant can only grow if you supply a downstream intermediate that bypasses the block.</p>
 <div id="problem">
 <div id="problem-summary"></div>
 <div id="hint-area">
