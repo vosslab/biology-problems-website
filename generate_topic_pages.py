@@ -35,6 +35,7 @@ DOWNLOAD_FORMAT_KEYS = (
 	"bb_qti",
 	"canvas_qti",
 	"human_read",
+	"webwork_pgml",
 )
 
 FORMAT_LABELS = {
@@ -43,6 +44,7 @@ FORMAT_LABELS = {
 	"bb_qti": "Blackboard Ultra QTI v2.1",
 	"canvas_qti": "Canvas/ADAPT QTI v1.2",
 	"human_read": "Human-Readable TXT",
+	"webwork_pgml": "WeBWorK PGML",
 }
 
 
@@ -391,6 +393,52 @@ def get_download_js_string():
 	return download_js
 
 #==============
+def find_pgml_file(bbq_file_name: str) -> str:
+	"""Search for a PGML file matching a given BBQ file.
+
+	Checks downloads/ first, then the same directory as the BBQ file.
+	Returns the path if found, or empty string if not.
+	"""
+	core_name = extract_core_name(bbq_file_name)
+	dir_name = os.path.dirname(bbq_file_name)
+	downloads_dir = os.path.join(dir_name, "downloads")
+
+	# Determine expected PGML basename based on BBQ prefix
+	# core_name has prefixes like MATCH-, WOMC-, MC-, TFMS-
+	pgml_candidates = []
+	if core_name.startswith("MATCH-"):
+		yaml_base = core_name[len("MATCH-"):]
+		pgml_candidates.append(f"{yaml_base}-matching.pgml")
+		pgml_candidates.append(f"{yaml_base}-matching.pg")
+	elif core_name.startswith("WOMC-") or core_name.startswith("MC-"):
+		prefix = "WOMC-" if core_name.startswith("WOMC-") else "MC-"
+		yaml_base = core_name[len(prefix):]
+		pgml_candidates.append(f"{yaml_base}-which_one.pgml")
+		pgml_candidates.append(f"{yaml_base}-which_one.pg")
+	elif core_name.startswith("TFMS-"):
+		yaml_base = core_name[len("TFMS-"):]
+		pgml_candidates.append(f"{yaml_base}.pg")
+		pgml_candidates.append(f"{yaml_base}.pgml")
+	else:
+		# Regular scripts: look for any .pgml or .pg with matching base
+		pgml_candidates.append(f"{core_name}.pgml")
+		pgml_candidates.append(f"{core_name}.pg")
+
+	# Search downloads/ first, then same directory as bbq file
+	search_dirs = []
+	if os.path.isdir(downloads_dir):
+		search_dirs.append(downloads_dir)
+	search_dirs.append(dir_name)
+
+	for search_dir in search_dirs:
+		for candidate_name in pgml_candidates:
+			candidate_path = os.path.join(search_dir, candidate_name)
+			if os.path.isfile(candidate_path):
+				return candidate_path
+	return ""
+
+
+#==============
 def generate_download_button_row(
 	bbq_file_name: str,
 	download_formats: list,
@@ -433,6 +481,12 @@ def generate_download_button_row(
 			"extension": "html",
 			"button_class": "human_read",
 			"display_name": "Human-Readable TXT"
+		},
+		"webwork_pgml": {
+			"prefix": "webwork_pgml",
+			"extension": "pgml",
+			"button_class": "webwork_pgml",
+			"display_name": "WeBWorK PGML"
 		}
 	}
 
@@ -449,6 +503,30 @@ def generate_download_button_row(
 			if verbose:
 				print(color_text(f"  SKIP {file_type['display_name']} (disabled)", COLOR_YELLOW))
 			record_stat(stats, type_key, "skipped")
+			continue
+		# Special handling for WeBWorK PGML: search for existing file only
+		if type_key == "webwork_pgml":
+			pgml_path = find_pgml_file(bbq_file_name)
+			if not pgml_path:
+				if verbose:
+					print(color_text(f"  MISSING {file_type['display_name']}", COLOR_YELLOW))
+				record_stat(stats, type_key, "missing")
+				continue
+			if verbose:
+				print(color_text(f"  FOUND {file_type['display_name']}: {pgml_path}", COLOR_GREEN))
+			record_stat(stats, type_key, "existing")
+			pgml_basename = os.path.basename(pgml_path)
+			pgml_relative_path = os.path.relpath(pgml_path, start=dir_name)
+			button_html = (
+				f'<a class="md-button custom-button {file_type["button_class"]}" '
+				f'href="{pgml_relative_path}" '
+				f'download '
+				f'title="Download {pgml_basename}" '
+				f'aria-label="Click to download the {file_type["display_name"]} file ({pgml_basename})">\n'
+				f'    <i class="fa fa-code"></i>{file_type["display_name"]}\n'
+				f'</a>'
+			)
+			html_output += button_html + '\n'
 			continue
 		# Construct the filename using the base name and file type details
 		if type_key == "bb_text":
@@ -774,7 +852,7 @@ def main():
 		#sys.exit(1)
 	print("\n\n\n")
 	print("Summary:")
-	format_order = ("selftest", "bb_text", "bb_qti", "canvas_qti", "human_read")
+	format_order = ("selftest", "bb_text", "bb_qti", "canvas_qti", "human_read", "webwork_pgml")
 	for format_key in format_order:
 		label = FORMAT_LABELS.get(format_key, format_key)
 		counts = stats.get(format_key, {})

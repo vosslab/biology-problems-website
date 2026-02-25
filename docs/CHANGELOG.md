@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-02-25
+- Added `pgml_script_map` to `bbq_control/bbq_settings.yml` mapping BBQ scripts to their PGML generator equivalents.
+- Updated `bbq_control/run_bbq_tasks.py` to load `pgml_script_map`, attach `pgml_info` to tasks with PGML generators, and run PGML generation after successful BBQ task completion.
+- Added `run_pgml_generation()` function to `bbq_control/run_bbq_tasks.py` for generating WeBWorK PGML files from YAML inputs.
+- Added a 5th "WeBWorK PGML" download button to `generate_topic_pages.py` that appears when a `.pgml` or `.pg` file exists for a problem set.
+- Added `find_pgml_file()` function to `generate_topic_pages.py` that searches `downloads/` and the topic folder for PGML files matching BBQ core names.
+- Added `.webwork_pgml` button style and `fa-code` icon to `site_docs/assets/stylesheets/custom.css`.
+
 ## 2026-02-24
 - Added 4th daily puzzle: Biomacromolecules — shows a 2D chemical structure and asks the player to identify its macromolecule category (Carbohydrate, Lipid, Nucleic Acid, Protein), then subcategory for fun.
 - Created build script `tools/build_biomacromolecule_data.py` that merges macromolecules.yml with pubchem data into `biomacromolecule_data.js` (326 molecules).

@@ -11,3 +11,17 @@ script_aliases:
     - "{matching_sets}/yaml_which_one_mc_to_bbq.py"
   YMCS: "{multiple_choice_statements}/yaml_mc_statements_to_bbq.py"
   YMMS: "{matching_sets}/yaml_make_match_sets.py"
+
+pgml_script_map:
+  yaml_match_to_bbq.py:
+    script: "{matching_sets}/yaml_match_to_pgml.py"
+    suffix: "-matching"
+    extension: "pgml"
+  yaml_which_one_mc_to_bbq.py:
+    script: "{matching_sets}/yaml_which_one_mc_to_pgml.py"
+    suffix: "-which_one"
+    extension: "pgml"
+  yaml_mc_statements_to_bbq.py:
+    script: "{multiple_choice_statements}/yaml_mc_statements_to_pgml.py"
+    suffix: ""
+    extension: "pg"

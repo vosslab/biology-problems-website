@@ -351,6 +351,20 @@ def load_tasks_csv(config_path: str, bbq_config: dict) -> list:
 		default_input_flag = (defaults.get("input_flag") or "").strip()
 	if not default_input_flag:
 		default_input_flag = "-y"
+	pgml_script_map_raw = bbq_config.get("pgml_script_map", {}) if isinstance(bbq_config, dict) else {}
+	pgml_script_map = {}
+	if isinstance(pgml_script_map_raw, dict):
+		for bbq_script_name, pgml_entry in pgml_script_map_raw.items():
+			if not isinstance(pgml_entry, dict):
+				continue
+			pgml_script = expand_text((pgml_entry.get("script") or ""), path_aliases)
+			pgml_suffix = pgml_entry.get("suffix", "")
+			pgml_extension = pgml_entry.get("extension", "pgml")
+			pgml_script_map[bbq_script_name] = {
+				"script": pgml_script,
+				"suffix": pgml_suffix,
+				"extension": pgml_extension,
+			}
 	base_root = (path_aliases.get("bp_root") or "").strip()
 	if not os.path.isfile(config_path):
 		raise FileNotFoundError(f"Config file not found: {config_path}")
@@ -415,6 +429,19 @@ def load_tasks_csv(config_path: str, bbq_config: dict) -> list:
 					"output_dir": output_dir,
 					"input_path": input_path,
 				}
+				script_basename = os.path.basename(script_path)
+				if script_basename in pgml_script_map and input_path:
+					pgml_entry = pgml_script_map[script_basename]
+					pgml_script_path = normalize_path(
+						pgml_entry["script"], repo_root, base_root, path_aliases
+					)
+					task["pgml_info"] = {
+						"script": pgml_script_path,
+						"suffix": pgml_entry["suffix"],
+						"extension": pgml_entry["extension"],
+						"input_path": input_path,
+						"output_dir": os.path.join(output_dir, "downloads"),
+					}
 				tasks.append(task)
 	return tasks
 
@@ -761,6 +788,57 @@ class RunContext:
 		self.pythonpath_value = pythonpath_value
 
 
+def run_pgml_generation(task: dict, log_path: str, pythonpath_value: str = "") -> bool:
+	pgml_info = task.get("pgml_info")
+	if not pgml_info:
+		return True
+	pgml_script = pgml_info.get("script", "")
+	input_path = pgml_info.get("input_path", "")
+	pgml_suffix = pgml_info.get("suffix", "")
+	pgml_extension = pgml_info.get("extension", "pgml")
+	pgml_output_dir = pgml_info.get("output_dir", "")
+	if not pgml_script or not os.path.isfile(pgml_script):
+		log_line(log_path, f"PGML SKIP: script not found: {pgml_script}")
+		return True
+	if not input_path or not os.path.isfile(input_path):
+		log_line(log_path, f"PGML SKIP: input not found: {input_path}")
+		return True
+	yaml_basename = os.path.splitext(os.path.basename(input_path))[0]
+	output_filename = f"{yaml_basename}{pgml_suffix}.{pgml_extension}"
+	output_path = os.path.join(pgml_output_dir, output_filename)
+	if pgml_output_dir and not os.path.isdir(pgml_output_dir):
+		os.makedirs(pgml_output_dir, exist_ok=True)
+	cmd = ["python3", pgml_script, "-y", input_path, "-o", output_path]
+	log_line(log_path, f"PGML CMD  {' '.join(cmd)}")
+	env_override = None
+	if pythonpath_value:
+		env_override = os.environ.copy()
+		env_override["PYTHONPATH"] = pythonpath_value
+	try:
+		proc = subprocess.run(
+			cmd,
+			text=True,
+			capture_output=True,
+			check=False,
+			env=env_override,
+		)
+	except Exception as exc:
+		log_line(log_path, f"PGML ERROR: launch failed: {exc}")
+		return False
+	if proc.returncode != 0:
+		log_line(log_path, f"PGML FAILED (exit {proc.returncode}): {output_filename}")
+		if proc.stderr:
+			log_line(log_path, f"PGML STDERR:\n{proc.stderr.rstrip()}")
+		return False
+	if os.path.isfile(output_path):
+		log_line(log_path, f"PGML OK: {output_path}")
+		print(color(f"  PGML {output_filename}", COLOR_GREEN))
+	else:
+		log_line(log_path, f"PGML WARNING: output not found: {output_path}")
+		return False
+	return True
+
+
 #============================================
 def run_task_capture(
 	task: dict,
@@ -890,6 +968,8 @@ def run_task_capture(
 				cleanup_dry_run_output(resolve_output_workdir(output_path, workdir), log_path)
 		else:
 			log_line(log_path, "SKIP CLEANUP (PYTHONPATH not set)")
+	if move_output:
+		run_pgml_generation(task, log_path, pythonpath_value)
 	return True, proc.stdout, proc.stderr, line_count
 
 
@@ -1052,6 +1132,8 @@ def run_task(
 	else:
 		print(color(f"DONE  {label}", COLOR_GREEN))
 	log_line(log_path, f"EXIT {label} -> 0")
+	if move_output:
+		run_pgml_generation(task, log_path, pythonpath_value)
 	return True
 
 
