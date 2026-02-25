@@ -48,7 +48,7 @@ body[data-md-color-scheme="slate"] #dm-root {
 
 @media (min-width: 900px) {
 	#dm-root #problem {
-		grid-template-columns: 2fr 1fr;
+		grid-template-columns: 3fr 2fr;
 		align-items: start;
 	}
 
