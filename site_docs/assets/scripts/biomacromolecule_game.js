@@ -179,7 +179,7 @@ function setupBiomacromoleculeGame() {
 	}
 
 	// -----------------------------------------------
-	// Build category buttons (Round 1 — scored)
+	// Build category buttons (Round 1 - scored)
 	// -----------------------------------------------
 	function buildCategoryButtons() {
 		var html = "<div class='bm-question'>Which macromolecule category?</div>";
@@ -230,8 +230,8 @@ function setupBiomacromoleculeGame() {
 			messageEl.textContent = "Correct! It is a " + correct + ".";
 			bmShowToast("Correct!");
 		} else {
-			messageEl.textContent = "Wrong — it is a " + correct + ".";
-			bmShowToast("Wrong — it is a " + correct + ".");
+			messageEl.textContent = "Wrong - it is a " + correct + ".";
+			bmShowToast("Wrong - it is a " + correct + ".");
 		}
 
 		// Reveal name automatically
@@ -248,7 +248,7 @@ function setupBiomacromoleculeGame() {
 	}
 
 	// -----------------------------------------------
-	// Build subcategory buttons (Round 2 — for fun)
+	// Build subcategory buttons (Round 2 - for fun)
 	// -----------------------------------------------
 	function buildSubcategoryButtons() {
 		var correct = molecule.subcategory;
@@ -349,7 +349,7 @@ function setupBiomacromoleculeGame() {
 		if (savedState.categoryCorrect) {
 			messageEl.textContent = "Correct! It is a " + molecule.category + ".";
 		} else {
-			messageEl.textContent = "Wrong — it is a " + molecule.category + ".";
+			messageEl.textContent = "Wrong - it is a " + molecule.category + ".";
 		}
 
 		// Rebuild subcategory if answered
@@ -367,7 +367,7 @@ function setupBiomacromoleculeGame() {
 				}
 			}
 		} else {
-			// Category was picked but subcategory wasn't — show subcategory buttons
+			// Category was picked but subcategory wasn't - show subcategory buttons
 			buildSubcategoryButtons();
 		}
 		return;
