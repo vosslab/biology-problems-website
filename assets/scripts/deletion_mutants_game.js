@@ -126,12 +126,10 @@ function deletionMutantsSetupGame() {
 		var sortedGenes = state.geneOrder.slice().sort();
 		var genesText = listToText(sortedGenes);
 
-		var hintText = "<p><strong>Hint</strong>: The correct answer is an English dictionary word.</p>";
-
 		summaryEl.innerHTML =
-			"<p>There are " + state.geneOrder.length + " genes, " + genesText + ", closely linked on one chromosome.</p>" +
-			"<p>The deletions below uncover recessive alleles of the genes as follows.</p>" +
-			hintText;
+			"<p>Genes " + genesText + " are closely linked on one chromosome. " +
+			"The deletions below uncover recessive alleles of these genes. " +
+			"<strong>Hint</strong>: The correct gene order spells an English word.</p>";
 
 		tableEl.innerHTML = "";
 

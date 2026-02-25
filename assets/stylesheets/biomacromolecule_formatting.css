@@ -1,0 +1,197 @@
+/* Biomacromolecule-specific styles (shared styles in daily_puzzle.css) */
+
+/* Custom border variable */
+#bm-root {
+	--bm-border: rgba(127, 127, 127, 0.25);
+}
+
+/* Formula display */
+#bm-root #formula-display {
+	text-align: center;
+	font-size: 1.1rem;
+	margin-bottom: 12px;
+	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+}
+
+#bm-root .bm-weight {
+	font-size: 0.9rem;
+	opacity: 0.7;
+}
+
+/* Name display (revealed molecule name) */
+#bm-root #name-display {
+	display: none;
+	text-align: center;
+	font-size: 1.05rem;
+	font-weight: 600;
+	margin-bottom: 12px;
+	padding: 6px 10px;
+	border-radius: 0.6rem;
+	background: color-mix(in srgb, var(--md-primary-fg-color) 10%, var(--md-default-bg-color));
+	border: 1px solid var(--bm-border);
+}
+
+/* Question labels */
+#bm-root .bm-question {
+	text-align: center;
+	font-size: 1rem;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+#bm-root .bm-fun-label {
+	font-weight: 400;
+	font-size: 0.85rem;
+	opacity: 0.65;
+}
+
+/* Choice button grid */
+#bm-root .bm-choices {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 8px;
+	margin-bottom: 16px;
+}
+
+#bm-root .bm-choice-btn {
+	padding: 10px 18px;
+	font-size: 0.95rem;
+	font-weight: 600;
+	cursor: pointer;
+	border-radius: 8px;
+	border: 2px solid var(--bm-border);
+	background: var(--md-default-bg-color);
+	color: var(--md-default-fg-color);
+	transition: background 0.15s, border-color 0.15s;
+	min-width: 120px;
+}
+
+/* Pastel category colors for the four main buttons */
+#bm-root .bm-choice-btn[data-cat="Carbohydrate"] {
+	background: #e7f5fe;
+	color: #0a9bf5;
+	border-color: #a4d4f4;
+}
+#bm-root .bm-choice-btn[data-cat="Lipid"] {
+	background: #fff6e6;
+	color: #e69100;
+	border-color: #f0d49a;
+}
+#bm-root .bm-choice-btn[data-cat="Nucleic Acid"] {
+	background: #ffe6e6;
+	color: #e60000;
+	border-color: #f4a4a4;
+}
+#bm-root .bm-choice-btn[data-cat="Protein"] {
+	background: #e6ffe6;
+	color: #009900;
+	border-color: #a4d4a4;
+}
+
+/* Darken pastel backgrounds for dark mode readability */
+body[data-md-color-scheme="slate"] #bm-root .bm-choice-btn[data-cat="Carbohydrate"] {
+	background: #1a3a4d;
+	color: #6dc4f7;
+	border-color: #2a5a7a;
+}
+body[data-md-color-scheme="slate"] #bm-root .bm-choice-btn[data-cat="Lipid"] {
+	background: #3d3018;
+	color: #f5b842;
+	border-color: #6a5530;
+}
+body[data-md-color-scheme="slate"] #bm-root .bm-choice-btn[data-cat="Nucleic Acid"] {
+	background: #3d1a1a;
+	color: #f56c6c;
+	border-color: #6a3030;
+}
+body[data-md-color-scheme="slate"] #bm-root .bm-choice-btn[data-cat="Protein"] {
+	background: #1a3d1a;
+	color: #5cc95c;
+	border-color: #306a30;
+}
+
+#bm-root .bm-choice-btn:hover:not(:disabled) {
+	filter: brightness(0.92);
+	border-color: var(--md-default-fg-color);
+}
+
+#bm-root .bm-choice-btn:disabled {
+	cursor: default;
+	opacity: 0.85;
+	filter: none;
+}
+
+#bm-root .bm-choice-btn.bm-correct {
+	background: #6aaa64 !important;
+	border-color: #6aaa64 !important;
+	color: #ffffff !important;
+	opacity: 1;
+}
+
+#bm-root .bm-choice-btn.bm-wrong {
+	background: #c1392b !important;
+	border-color: #c1392b !important;
+	color: #ffffff !important;
+	opacity: 1;
+}
+
+/* Guide table in instructions */
+#bm-root .bm-guide-table {
+	border-collapse: collapse;
+	width: 100%;
+	margin: 10px 0;
+	font-size: 0.9rem;
+}
+
+#bm-root .bm-guide-table td {
+	padding: 8px 10px;
+	border: 1px solid var(--bm-border);
+	vertical-align: top;
+}
+
+#bm-root .bm-guide-table ul {
+	margin: 4px 0 2px 0;
+	padding-left: 1.3em;
+	font-size: 0.88rem;
+}
+
+#bm-root .bm-guide-table li {
+	margin-bottom: 2px;
+}
+
+#bm-root .bm-guide-label {
+	font-weight: 700;
+	font-size: 0.95rem;
+}
+
+/* Pastel row backgrounds for guide table (light mode) */
+#bm-root .bm-guide-carb { background: #e7f5fe; }
+#bm-root .bm-guide-lipid { background: #fff6e6; }
+#bm-root .bm-guide-nucleic { background: #ffe6e6; }
+#bm-root .bm-guide-protein { background: #e6ffe6; }
+#bm-root .bm-guide-phosphate { background: #f7e8fc; }
+
+/* Guide table dark mode */
+body[data-md-color-scheme="slate"] #bm-root .bm-guide-carb { background: #1a3a4d; }
+body[data-md-color-scheme="slate"] #bm-root .bm-guide-lipid { background: #3d3018; }
+body[data-md-color-scheme="slate"] #bm-root .bm-guide-nucleic { background: #3d1a1a; }
+body[data-md-color-scheme="slate"] #bm-root .bm-guide-protein { background: #1a3d1a; }
+body[data-md-color-scheme="slate"] #bm-root .bm-guide-phosphate { background: #2d1a3d; }
+
+/* Subcategory section (hidden until round 2) */
+#bm-root #subcategory-section {
+	display: none;
+	margin-top: 8px;
+}
+
+/* Responsive: stack buttons vertically on small screens */
+@media (max-width: 500px) {
+	#bm-root .bm-choices {
+		flex-direction: column;
+		align-items: stretch;
+	}
+	#bm-root .bm-choice-btn {
+		min-width: 0;
+	}
+}
