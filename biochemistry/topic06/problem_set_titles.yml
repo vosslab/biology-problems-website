@@ -1,177 +1,20 @@
-bbq-MATCH-energy_terms-questions.txt: 'Thinking...
-
-  We need to produce a descriptive section heading that classifies these types of
-  problems. The problems are "Match each energy requirement category with its corresponding
-  energy term. Note: Each choice will be used exactly once." So it''s a Matching question
-  type, with energy terms. The task verb should be "Matching" according to instructions.
-  The heading should be concise and informative, Task + Topic + Key Detail format.
-  So: "Matching Energy Requirement Categories with Energy Terms". Or maybe "Matching
-  Energy Terms to Requirement Categories". Use simple language. Should we include
-  the filename? The filename root is MATCH-energy_terms, which matches. So heading:
-  "Matching Energy Requirement Categories to Energy Terms". That is concise and fits.
-  Let''s follow the format: "Matching Energy Terms to Requirement Categories". Or
-  "Matching Energy Requirement Categories with Energy Terms". I''ll choose: "Matching
-  Energy Requirement Categories with Energy Terms". That is clear. No extra punctuation.
-  Just plain text.
-
-  ...done thinking.
-
-
-  Matching Energy Requirement Categories with Energy Terms'
+bbq-MATCH-energy_terms-questions.txt: Energy Requirement Categories and Energy Terms
 bbq-MC-energy_terms-questions.txt: Energy Terms and Their Categories
 bbq-TF-chemical_reactions-questions.txt: True/False Statements About Chemical Reactions
-bbq-TF-gibbs_free_energy_equation-questions.txt: True/False Statements About Gibbs
-  Free Energy (Delta G = Delta H - T Delta S)
-bbq-TF-thermodynamics-questions.txt: True/False Statements About Thermodynamics and
-  Kinetics
-bbq-TFMS-gibbs_free_energy_equation-questions.txt: "Thinking...\nWe need to generate\
-  \ a title that fits these problems. All are about determining which statement is\
-  \ true/false regarding Gibbs free energy equation \u0394G = \u0394H \u2013 T\u0394\
-  S. The question type is True/False type. The list of verbs: \"Determining True/False\
-  \ Statements About Gibbs Free Energy (Delta G = Delta H - T Delta S)\". We should\
-  \ match. The instruction: \"Use Task + Topic + Key Detail format.\" Task verb aligned:\
-  \ \"Determining\" for True/False. Topic: \"Gibbs Free Energy\". Key Detail: \"True/False\
-  \ Statements\". So title: \"Determining True/False Statements About Gibbs Free Energy\"\
-  . That seems concise.\n\nBut the sample titles earlier include similar: \"Determining\
-  \ True/False Statements About Gibbs Free Energy (Delta G = Delta H - T Delta S)\"\
-  . So we can use that.\n\nWe should not include any other commentary. Just the title.\n\
-  \nThus output: Determining True/False Statements About Gibbs Free Energy (Delta\
-  \ G = Delta H - T Delta S)\n\n...done thinking.\n\nDetermining True/False Statements\
-  \ About Gibbs Free Energy (\u0394G = \u0394H \u2013 T\u0394S)"
-bbq-TFMS-thermodynamics-questions.txt: 'Thinking...
-
-  We need a single title that classifies these problems: all are about determining
-  true or false statements about thermodynamics and kinetics. The filename suggests
-  TFMS-thermodynamics, meaning True/False Multiple Choice? The task: Determining True/False
-  statements. So title: Determining True or False Statements About Thermodynamics
-  and Kinetics. Use format: Determining True/False Statements About Thermodynamics
-  and Kinetics. Use "Determining" as verb. Title concise.
-
-  ...done thinking.
-
-
-  Determining True/False Statements About Thermodynamics and Kinetics'
-bbq-WOMC-energy_terms-questions.txt: 'Thinking...
-
-  We need to produce a title following guidelines: Task + Topic + Key Detail. The
-  tasks are identifying categories. The topic: energy terms categories? The key detail:
-  energy term categories correspond to energy requirement categories? The examples:
-  "Identifying energy requirement categories for given energy terms." Let''s follow
-  pattern from sample titles: "Identifying Energy Terms and Their Categories". They
-  used "Identifying" and topic "Energy Terms and Their Categories". That matches.
-  But maybe more specific: "Identifying Energy Requirement Categories for Energy Terms".
-  So Task: Identifying, Topic: Energy Requirement Categories, Key Detail: for Energy
-  Terms. The guidelines: Use simple, accessible language. Avoid complex. So "Identifying
-  Energy Requirement Categories for Energy Terms" seems fine. Or "Identifying Energy
-  Term Categories in Biochemistry". But keep it concise. So final answer: "Identifying
-  Energy Requirement Categories for Energy Terms".
-
-  ...done thinking.
-
-
-  Identifying Energy Requirement Categories for Energy Terms'
-bbq-delta_g_prime_standard_state-questions.txt: "Thinking...\nWe need to generate\
-  \ a concise title that classifies these problems. They are all about difference\
-  \ between biochemical standard free energy change (\u0394G\xB0\u2032) vs chemical\
-  \ standard free energy change (\u0394G\xB0). The question asks which factor is treated\
-  \ differently. So the concept: difference between biochemical and chemical standard\
-  \ states; factor that differs. The title: \"Identifying Factor Differing Between\
-  \ Biochemical and Chemical Standard Free Energy Changes\". We need Task + Topic\
-  \ + Key Detail format. Task verb: Identifying. Topic: Biochemical vs Chemical Standard\
-  \ States. Key detail: Differing Factor. So maybe: \"Identifying Differing Factor\
-  \ Between Biochemical and Chemical Standard Free Energy States\". We should keep\
-  \ it concise. Maybe: \"Identifying Factor Differing in Biochemical vs Chemical Standard\
-  \ Free Energy\". That's acceptable. Use simple language.\n\nAlso check instruction:\
-  \ Title should be brief, accessible. Use \"Identifying\" verb. Use simple words.\
-  \ \"Biochemical vs Chemical Standard Free Energy\" is clear. Add \"Differing Factor\"\
-  . So final title: \"Identifying Factor Differing in Biochemical vs Chemical Standard\
-  \ Free Energy\". That seems good.\n\nReturn only the title as plain text.\n...done\
-  \ thinking.\n\nIdentifying Factor Differing in Biochemical vs Chemical Standard\
-  \ Free Energy"
-bbq-exergonic_endergonic_reactions-questions.txt: "Thinking...\nWe need a title that\
-  \ covers these problems. They all involve classification of reactions based on \u0394\
-  G and identifying statements about free energy, exergonic/endergonic. So title:\
-  \ \"Determining Exergonic vs Endergonic Reactions and Statements About \u0394G\"\
-  . Use format: Task + Topic + Key Detail. Task: Determining. Topic: Exergonic vs\
-  \ Endergonic Reactions. Key Detail: Statements About \u0394G. Combine: Determining\
-  \ Exergonic vs Endergonic Reactions and Statements About \u0394G. Should be concise.\
-  \ Maybe: Determining Exergonic/Endergonic Reaction Classification and \u0394G Statements.\
-  \ Good.\n...done thinking.\n\nDetermining Exergonic/Endergonic Reaction Classification\
-  \ and \u0394G Statements"
-bbq-free_energy_keq_relationship-questions.txt: "Thinking...\nWe need to produce a\
-  \ concise title: Task + Topic + Key Detail. The problems: relationships between\
-  \ \u0394G\xB0\u2032 and K\u2032eq, sign of \u0394G at equilibrium, sign of \u0394\
-  G\xB0\u2032 relative to K\u2032eq.\n\nTask type: Determining? For multiple conceptual\
-  \ relationships. Maybe \"Determining Free Energy\u2013Equilibrium Constant Relationships\"\
-  . Or \"Determining Sign Relationships Between \u0394G and K\". The key detail: \"\
-  Free Energy\u2013Equilibrium Constant Relationships\".\n\nExamples of title format:\
-  \ \"Determining the Relationship Between \u0394G\xB0\u2032 and K\u2032eq\".\n\n\
-  Let's produce a single title.\n\nWe should use simple language, no complex terms.\
-  \ \"Determining the Sign Relationship Between Free Energy Change and Equilibrium\
-  \ Constant\". But too long. Maybe \"Determining Sign Relationships Between \u0394\
-  G and K\".\n\nWe can use \"Determining the Sign Relationship Between Free Energy\
-  \ Change and Equilibrium Constant\". That's okay.\n\nLet's produce that.\n...done\
-  \ thinking.\n\nDetermining the Sign Relationship Between Free Energy Change and\
-  \ Equilibrium Constant"
-bbq-gibbs_free_energy_equation_symbols-questions.txt: 'Thinking...
-
-  We need to produce a title. All problems are matching symbols in Gibbs free energy
-  equation. So title: "Matching Symbols to Meanings in the Gibbs Free Energy Equation".
-  Use Task + Topic + Key Detail format. Task verb: Matching (MATCH). Topic: Gibbs
-  Free Energy Equation. Key detail: Symbols. So "Matching Gibbs Free Energy Equation
-  Symbols to Their Meanings". Ensure concise. Let''s output that.
-
-  ...done thinking.
-
-
-  Matching Gibbs Free Energy Equation Symbols to Their Meanings'
-bbq-thermodynamics_law_statements-questions.txt: 'Thinking...
-
-  We need to produce a concise title, following Task + Topic + Key Detail. All problems
-  are about identifying or selecting statements that match the First Law or Second
-  Law of Thermodynamics. The tasks: selecting the statement that matches. Some problems
-  are just "The First Law of Thermodynamics states:" maybe expecting fill in statement.
-  But overall classification: Determining statements about Thermodynamics Laws. The
-  tasks: Determining (or Identifying) First or Second Law statements. So title: Determining
-  Thermodynamics Law Statements. Or Identifying Thermodynamics Law Statements. Need
-  Task verb. The list: Identifying (MC, MA, FIB, MULTI_FIB), Matching (MATCH), Calculating
-  (NUMERIC or NUM), Determining (ORDERING, TF, TFMS). For these problems: They are
-  either "Select the statement that matches the First Law" - that''s Matching? But
-  the pattern suggests "Identifying Thermodynamics Law Statements". That fits. Use
-  Task: Identifying. Topic: Thermodynamics Law Statements. Key detail: First/Second.
-  Maybe include "First/Second". Title: Identifying Thermodynamics Law Statements (First
-  or Second). Or "Identifying Statements of the First and Second Laws of Thermodynamics".
-  Must be concise. Let''s do: Identifying Thermodynamics Law Statements. This indicates
-  they are selecting or matching statements. Good.
-
-
-  Check format: Task + Topic + Key Detail. "Identifying Thermodynamics Law Statements".
-  That''s Task Identifying, Topic Thermodynamics Law, Key Detail Statements. Good.
-
-  ...done thinking.
-
-
-  Identifying Thermodynamics Law Statements'
-bbq-thermodynamics_system_laws-questions.txt: 'Thinking...
-
-  We need to create a concise title that classifies these problems. They are about
-  thermodynamics system laws: first law and second law, different system types: open,
-  closed, isolated. The tasks likely are to fill in the correct statements (maybe
-  true/false, or what the total energy/entropy is). Probably a multiple choice or
-  fill-in-the-blank where the answer is something like "conserved", "increases", "constant",
-  etc. The title should use the format Task + Topic + Key Detail. Task verbs: Identifying,
-  Matching, Calculating, Determining. These are conceptual knowledge, so "Identifying"
-  or "Determining" could work. The topic: Thermodynamics System Laws. Key detail:
-  Energy or Entropy, System Type. Maybe: "Determining Energy or Entropy Conservation
-  in Different System Types". But we need one title for all. So maybe: "Determining
-  Energy or Entropy Conservation According to Thermodynamic Laws". Task: Determining.
-  Topic: Thermodynamic System Laws. Key Detail: Energy/Entropy in Open, Closed, Isolated.
-  Let''s craft: "Determining Energy or Entropy Conservation in Open, Closed, and Isolated
-  Systems". That seems good. Use simple language. So final answer: Determining Energy
-  or Entropy Conservation in Open, Closed, and Isolated Systems.
-
-  ...done thinking.
-
-
-  Determining Energy or Entropy Conservation in Open, Closed, and Isolated Systems'
-last edit: Wed Feb 25 14:45:22 2026
+bbq-TF-gibbs_free_energy_equation-questions.txt: True/False Statements About Gibbs Free
+  Energy (Delta G = Delta H - T Delta S)
+bbq-TF-thermodynamics-questions.txt: True/False Statements About Thermodynamics and Kinetics
+bbq-TFMS-gibbs_free_energy_equation-questions.txt: True/False Statements About Gibbs Free
+  Energy (Delta G = Delta H - T Delta S)
+bbq-TFMS-thermodynamics-questions.txt: True/False Statements About Thermodynamics and Kinetics
+bbq-WOMC-energy_terms-questions.txt: Energy Requirement Categories for Energy Terms
+bbq-delta_g_prime_standard_state-questions.txt: Biochemical vs Chemical Standard Free Energy
+  States
+bbq-exergonic_endergonic_reactions-questions.txt: Exergonic and Endergonic Reaction Classification
+bbq-free_energy_keq_relationship-questions.txt: Free Energy and Equilibrium Constant Relationships
+bbq-gibbs_free_energy_equation_symbols-questions.txt: Gibbs Free Energy Equation Symbols
+  and Meanings
+bbq-thermodynamics_law_statements-questions.txt: Thermodynamics Law Statements
+bbq-thermodynamics_system_laws-questions.txt: Energy and Entropy Conservation in Open, Closed,
+  and Isolated Systems
+last edit: Tue Feb 25 2026
