@@ -1,6 +1,16 @@
 # Changelog
 
 ## 2026-02-25
+
+### Additions and New Features
+- Switched LLM title prompt in `llm_generate_problem_set_title.py` to request XML `<title>` tags, parsed via `llm_wrapper.extract_xml_tag()`, with fallback to legacy `###` markdown parsing for backward compatibility.
+- Added download freshness check in `generate_topic_pages.py`: stale download files (where the source `bbq-*-questions.txt` is newer) are now automatically rebuilt instead of skipped.
+
+### Fixes and Maintenance
+- Added `is_valid_title()` validation to `generate_topic_pages.py` that rejects titles over 140 characters, containing "thinking" (LLM reasoning leaks), or non-ASCII characters.
+- Updated `get_problem_set_title()` to validate cached YAML titles and regenerate bad ones, with up to 3 retries for freshly generated titles.
+- Cleaned LLM chain-of-thought "Thinking..." text from `problem_set_titles.yml` in topic06 (all entries), topic07 (1 entry), and topic02 (1 entry plus removed stale uppercase EQUATION key with no matching file).
+
 - Added `pgml_script_map` to `bbq_control/bbq_settings.yml` mapping BBQ scripts to their PGML generator equivalents.
 - Updated `bbq_control/run_bbq_tasks.py` to load `pgml_script_map`, attach `pgml_info` to tasks with PGML generators, and run PGML generation after successful BBQ task completion.
 - Added `run_pgml_generation()` function to `bbq_control/run_bbq_tasks.py` for generating WeBWorK PGML files from YAML inputs.

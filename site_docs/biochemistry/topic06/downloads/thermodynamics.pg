@@ -1,0 +1,203 @@
+## DESCRIPTION
+## Select the statement that is TRUE or FALSE about thermodynamics and kinetics.
+## ENDDESCRIPTION
+## KEYWORDS('thermodynamics and kinetics','true/false','multiple choice')
+## DBsubject('Biochemistry')
+## DBchapter('')
+## DBsection('')
+## Date('2026-02-25')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "PGchoicemacros.pl",
+  "parserRadioButtons.pl",
+  "PGcourse.pl",
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+#==========================================================
+# AUTO-GENERATED GROUPS FROM YAML
+#==========================================================
+
+@true_groups = (
+  [
+    'Thermodynamics describes the <span style="color: #478d1b; font-weight:700;">equilibrium</span> point of a <span style="color: #008a75; font-weight:700;">reaction</span>.',
+    'Kinetics describes the rate at which a <span style="color: #008a75; font-weight:700;">reaction</span> approaches <span style="color: #478d1b; font-weight:700;">equilibrium</span>.',
+    'Equilibrium is reached when the rate of the forward and reverse <span style="color: #008a75; font-weight:700;">reaction</span>s is equal.',
+  ],
+  [
+    'Enzymes increase or decrease the rate of a <span style="color: #008a75; font-weight:700;">reaction</span>.',
+    'Enzymes lower the activation energy, which affects the <span style="color: #008a75; font-weight:700;">reaction</span> <span style="color: #56225d; font-weight:700;">kinetics</span>.',
+    'Enzymes do NOT affect the <span style="color: #bb5d00; font-weight:700;">thermodynamics</span> of a <span style="color: #008a75; font-weight:700;">reaction</span>.',
+    'Enzymes change the rate of a <span style="color: #008a75; font-weight:700;">reaction</span>.',
+    'Enzymes are NOT consumed by the <span style="color: #008a75; font-weight:700;">reaction</span> they catalyze.',
+    'Enzymes alter the <span style="color: #008a75; font-weight:700;">reaction</span> <span style="color: #56225d; font-weight:700;">kinetics</span> by lowering the activation energy.',
+  ],
+  [
+    'Enzymes do NOT change the overall change in free energy (ΔG) of a <span style="color: #008a75; font-weight:700;">reaction</span>.',
+    'Enzymes do NOT change the standard change in free energy (ΔG°′) of a <span style="color: #008a75; font-weight:700;">reaction</span>.',
+    'Enzymes do NOT change the <span style="color: #478d1b; font-weight:700;">equilibrium</span> constant (K′ₑq) of a <span style="color: #008a75; font-weight:700;">reaction</span>.',
+    'The <span style="color: #478d1b; font-weight:700;">equilibrium</span> constant (K′ₑq) is related to the standard change in free energy (ΔG°′) of a <span style="color: #008a75; font-weight:700;">reaction</span>.',
+  ],
+  [
+    'Thermodynamics determines the direction a <span style="color: #008a75; font-weight:700;">reaction</span> will proceed under specific conditions.',
+    'A <span style="color: #008a75; font-weight:700;">reaction</span> is spontaneous if the standard change in free energy (ΔG°′) is negative.',
+  ],
+  [
+    'The change in Gibbs free energy (ΔG) of a <span style="color: #008a75; font-weight:700;">reaction</span> is related to the <span style="color: #0078a3; font-weight:700;">enthalpy</span> and <span style="color: #b77b04; font-weight:700;">entropy</span> changes of the <span style="color: #008a75; font-weight:700;">reaction</span>.',
+    'Thermodynamics is determined by the combination of <span style="color: #0078a3; font-weight:700;">enthalpy</span> and <span style="color: #b77b04; font-weight:700;">entropy</span> of a <span style="color: #008a75; font-weight:700;">reaction</span>.',
+  ],
+  [
+    'The first law of <span style="color: #bb5d00; font-weight:700;">thermodynamics</span> states that energy is conserved and cannot be created or destroyed.',
+    'The second law of <span style="color: #bb5d00; font-weight:700;">thermodynamics</span> states that the total <span style="color: #b77b04; font-weight:700;">entropy</span> of a closed system will always increase.',
+  ],
+  [
+    'Hydrolysis <span style="color: #008a75; font-weight:700;">reaction</span>s often lead to an increase in the <span style="color: #b77b04; font-weight:700;">entropy</span> of the products.',
+    'Dehydration <span style="color: #008a75; font-weight:700;">reaction</span>s often lead to a decrease in the <span style="color: #b77b04; font-weight:700;">entropy</span> of the products.',
+    'In general, an increase in disorder or randomness corresponds to an increase in <span style="color: #b77b04; font-weight:700;">entropy</span>.',
+  ],
+);
+@false_groups = (
+  [
+    'Kinetics tells us the <span style="color: #478d1b; font-weight:700;">equilibrium</span> point.',
+    'Thermodynamics tells us how fast <span style="color: #478d1b; font-weight:700;">equilibrium</span> is approached.',
+    'Thermodynamics determines the rate of a <span style="color: #008a75; font-weight:700;">reaction</span>.',
+  ],
+  [
+    'Enzymes change the <span style="color: #478d1b; font-weight:700;">equilibrium</span> point.',
+    'Enzymes change the <span style="color: #008a75; font-weight:700;">reaction</span> <span style="color: #bb5d00; font-weight:700;">thermodynamics</span>.',
+    'Kinetics is unaffected by <span style="color: #cc2489; font-weight:700;">enzymes</span>.',
+    'Enzymes must be regenerated after each <span style="color: #008a75; font-weight:700;">reaction</span> they catalyze.',
+    'Enzymes are consumed by the <span style="color: #008a75; font-weight:700;">reaction</span> they catalyze and must continually be replaced.',
+    'Enzymes are NOT essential for most biochemical <span style="color: #008a75; font-weight:700;">reaction</span>s.',
+  ],
+  [
+    'Enzymes change the Gibbs free energy (ΔG) of the <span style="color: #008a75; font-weight:700;">reaction</span>.',
+    'Enzymes change the standard Gibbs free energy change (ΔG°′) of a <span style="color: #008a75; font-weight:700;">reaction</span>.',
+    'Enzymes change the <span style="color: #478d1b; font-weight:700;">equilibrium</span> constant (K′ₑq) of a <span style="color: #008a75; font-weight:700;">reaction</span>.',
+  ],
+  [
+    'Kinetics determines the direction of the <span style="color: #008a75; font-weight:700;">reaction</span>.',
+    'Kinetics depends only on the ratio of product and substrates.',
+    'A <span style="color: #008a75; font-weight:700;">reaction</span> can proceed spontaneously even if the standard Gibbs free energy change (ΔG°′) is positive.',
+    'Kinetics depends only on the concentration of reactants.',
+    'The activation energy of a <span style="color: #008a75; font-weight:700;">reaction</span> is related to the concentration of reactants.',
+    'The <span style="color: #478d1b; font-weight:700;">equilibrium</span> constant (K′ₑq) of a <span style="color: #008a75; font-weight:700;">reaction</span> is related to the activation energy.',
+  ],
+  [
+    'Kinetics is determined by a combination of <span style="color: #0078a3; font-weight:700;">enthalpy</span> and <span style="color: #b77b04; font-weight:700;">entropy</span>.',
+    'The rate of a <span style="color: #008a75; font-weight:700;">reaction</span> is independent of temperature.',
+    'The <span style="color: #bb5d00; font-weight:700;">thermodynamics</span> of a <span style="color: #008a75; font-weight:700;">reaction</span> is independent of temperature.',
+    'Kinetics is only determined by the <span style="color: #0078a3; font-weight:700;">enthalpy</span> change of a <span style="color: #008a75; font-weight:700;">reaction</span>.',
+  ],
+  [
+    'The second law of <span style="color: #bb5d00; font-weight:700;">thermodynamics</span> states that the <span style="color: #b77b04; font-weight:700;">entropy</span> of a closed system always decreases.',
+    'The first law of <span style="color: #bb5d00; font-weight:700;">thermodynamics</span> states that the total <span style="color: #b77b04; font-weight:700;">entropy</span> of a closed system will always increase.',
+    'The third law of <span style="color: #bb5d00; font-weight:700;">thermodynamics</span> states that the <span style="color: #b77b04; font-weight:700;">entropy</span> of a system is conserved.',
+    'The second law of <span style="color: #bb5d00; font-weight:700;">thermodynamics</span> is the conservation of energy.',
+  ],
+  [
+    'Hydrolysis <span style="color: #008a75; font-weight:700;">reaction</span>s tend to decrease <span style="color: #b77b04; font-weight:700;">entropy</span> of the products.',
+    'Dehydration <span style="color: #008a75; font-weight:700;">reaction</span>s tend to increase <span style="color: #b77b04; font-weight:700;">entropy</span> of the products.',
+    'In general, more order means more <span style="color: #b77b04; font-weight:700;">entropy</span>.',
+    'In general, more disorder means less <span style="color: #b77b04; font-weight:700;">entropy</span>.',
+  ],
+);
+
+#==========================================================
+# GLOBAL SETTINGS
+#==========================================================
+
+$topic = '<span style="color: #bb5d00; font-weight:700;">thermodynamics</span> and <span style="color: #56225d; font-weight:700;">kinetics</span>';
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+my @mode_choices = ("TRUE", "FALSE");
+$mode = $mode_choices[$local_random->random(0, $#mode_choices, 1)];
+$num_distractors = 4;
+#==========================================================
+# SELECT GROUP
+#==========================================================
+
+my (@selected_group, @opposite_groups);
+
+if ($mode eq "TRUE") {
+  $group_index      = $local_random->random(0, scalar(@true_groups)-1, 1);
+  @selected_group   = @{ $true_groups[$group_index] };
+  @opposite_groups  = @false_groups;
+} else {
+  $group_index      = $local_random->random(0, scalar(@false_groups)-1, 1);
+  @selected_group   = @{ $false_groups[$group_index] };
+  @opposite_groups  = @true_groups;
+}
+
+#==========================================================
+# PICK CORRECT + DISTRACTORS
+#==========================================================
+
+my $correct_index = $local_random->random(0, $#selected_group, 1);
+$correct = $selected_group[$correct_index];
+
+my @available_group_indices = (0 .. $#opposite_groups);
+my @selected_distractor_indices = ();
+
+while (@selected_distractor_indices < $num_distractors && @available_group_indices > 0) {
+  my $random_index = $local_random->random(0, scalar(@available_group_indices)-1, 1);
+  push @selected_distractor_indices, splice(@available_group_indices, $random_index, 1);
+}
+
+@distractors = ();
+foreach my $group_idx (@selected_distractor_indices) {
+  my @group = @{ $opposite_groups[$group_idx] };
+  my $distractor_index = $local_random->random(0, $#group, 1);
+  my $distractor = $group[$distractor_index];
+  push @distractors, $distractor;
+}
+
+@choices = ($correct, @distractors);
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# RADIO BUTTONS WITH A/B/C/D/E LABELS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => ['A','B','C','D','E'],
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+[@ $mode eq "TRUE" ? "Which one of the following statements is <strong>TRUE</strong> about $topic?" : "Which one of the following statements is <strong>FALSE</strong> about $topic?" @]*
+
+[_]{$rb}
+
+END_PGML
+
+ENDDOCUMENT();
+

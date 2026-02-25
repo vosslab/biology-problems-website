@@ -10,9 +10,6 @@ Molecular design of life, major elements, and biomacromolecules.
 <a class="md-button custom-button bb_text" href="bbq-MATCH-bond_types-questions.txt" download title="Download bbq-MATCH-bond_types-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-bond_types-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-bond_types.zip" download title="Download blackboard_qti_v2_1-MATCH-bond_types.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-bond_types.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
-</a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-bond_types.zip" download title="Download canvas_qti_v1_2-MATCH-bond_types.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-bond_types.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
@@ -45,9 +42,6 @@ Molecular design of life, major elements, and biomacromolecules.
 <a class="md-button custom-button bb_text" href="bbq-MATCH-macromolecules-biol301-questions.txt" download title="Download bbq-MATCH-macromolecules-biol301-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-macromolecules-biol301-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-macromolecules-biol301.zip" download title="Download blackboard_qti_v2_1-MATCH-macromolecules-biol301.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-macromolecules-biol301.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
-</a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-macromolecules-biol301.zip" download title="Download canvas_qti_v1_2-MATCH-macromolecules-biol301.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-macromolecules-biol301.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
@@ -79,9 +73,6 @@ Molecular design of life, major elements, and biomacromolecules.
 <div id="MATCH-macromolecules-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-macromolecules-questions.txt" download title="Download bbq-MATCH-macromolecules-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-macromolecules-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
-</a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-macromolecules.zip" download title="Download blackboard_qti_v2_1-MATCH-macromolecules.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-macromolecules.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-macromolecules.zip" download title="Download canvas_qti_v1_2-MATCH-macromolecules.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-macromolecules.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -258,6 +249,9 @@ Molecular design of life, major elements, and biomacromolecules.
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-which_macromolecule-MC.zip" download title="Download canvas_qti_v1_2-which_macromolecule-MC.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-which_macromolecule-MC.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-which_macromolecule-MC.html', '_blank')" title="View human_readable-which_macromolecule-MC.html" aria-label="Click to view the Human-Readable TXT file (human_readable-which_macromolecule-MC.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
