@@ -1,16 +1,16 @@
 <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
 <div class="qti-selftest">
-<div id="question_html_cd09_e4a2">
-<div id="statement_text_cd09_e4a2">
+<div id="question_html_a491_a3c3">
+<div id="statement_text_a491_a3c3">
 <h4>Three-Point Test Cross Problem</h4>
 <p>A test cross is a way to explore the relationship between genes and their respective alleles. It is a useful tool for genetic mapping and deciphering the inheritance of traits. Specifically, a three-point test cross examines three (3) genes at the same time to learn about their assortment in gamete formation.<br>A standard three-point test cross involves crossing a heterozygous organism for all three genes with an organism that is homozygous recessive for all three genes<br>For this problem, a test cross using a fruit fly (<i>Drosophila melanogaster</i>) heterozygous for three genes was conducted to understand their genetic interactions.</p>
 <h6>Characteristics of Recessive Phenotypes</h6>
 <p></p>
 <ul>
 <li>
-<strong><span style="color: #663300;">Gene K</span></strong> is correlated with the '<span style="color: #663300;"><i>kidney</i></span>' phenotype. A fruit fly that is homozygous recessive for <span style="color: #663300;">Gene K</span> has a body shape that is curved, similar to a kidney bean.</li> <li>
-<strong><span style="color: #076cab;">Gene M</span></strong> is correlated with the '<span style="color: #076cab;"><i>mushy</i></span>' phenotype. A fruit fly that is homozygous recessive for <span style="color: #076cab;">Gene M</span> feels soft to the touch and unusually squishy, unlike the usual firmness.</li> <li>
-<strong><span style="color: #800055;">Gene R</span></strong> is correlated with the '<span style="color: #800055;"><i>rusty</i></span>' phenotype. A fruit fly that is homozygous recessive for <span style="color: #800055;">Gene R</span> has a reddish-brown color, much like rusted iron metal.</li> </ul>
+<strong><span style="color: #999900;">Gene F</span></strong> is linked with the '<span style="color: #999900;"><i>fuzzy</i></span>' phenotype. A fruit fly that is homozygous recessive for <span style="color: #999900;">Gene F</span> is covered in a dense layer of hairs, giving it a soft appearance.</li> <li>
+<strong><span style="color: #076cab;">Gene K</span></strong> is analogous to the '<span style="color: #076cab;"><i>kidney</i></span>' phenotype. A fruit fly that is homozygous recessive for <span style="color: #076cab;">Gene K</span> has a body shape that is curved, similar to a kidney bean.</li> <li>
+<strong><span style="color: #99004d;">Gene M</span></strong> is related to the '<span style="color: #99004d;"><i>mushy</i></span>' phenotype. A fruit fly that is homozygous recessive for <span style="color: #99004d;">Gene M</span> feels soft to the touch and unusually squishy, unlike the usual firmness.</li> </ul>
 <table style="border-collapse: collapse; border: 2px solid black;">
 <tr>
 <th align="center" style="border: 1px solid black; background-color: #cccccc; padding: 10px;"><span style="font-size: medium; color: #000000;">Phenotype</span></th>
@@ -18,111 +18,111 @@
 <th align="center" style="border: 1px solid black; background-color: #cccccc; padding: 10px;"><span style="font-size: medium; color: #000000;">Progeny<br>Count</span></th>
 </tr>
 <tr>
-<td align="left" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"> <span style="font-size: medium; color: #000000;">kidney, mushy, rusty</span>
+<td align="left" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"> <span style="font-size: medium; color: #000000;">fuzzy, kidney, mushy</span>
 </td>
-<td align="center" style="border: 1px solid black; background-color: #fff3e6; padding: 5px;"><span style="font-size: large; color: #000000;">k</span></td>
-<td align="center" style="border: 1px solid black; background-color: #e6f9ff; padding: 5px;"><span style="font-size: large; color: #000000;">m</span></td>
-<td align="center" style="border: 1px solid black; background-color: #ffe6f9; padding: 5px;"><span style="font-size: large; color: #000000;">r</span></td>
-<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">5,888</span></td>
+<td align="center" style="border: 1px solid black; background-color: #ffffe6; padding: 5px;"><span style="font-size: large; color: #000000;">f</span></td>
+<td align="center" style="border: 1px solid black; background-color: #e6f9ff; padding: 5px;"><span style="font-size: large; color: #000000;">k</span></td>
+<td align="center" style="border: 1px solid black; background-color: #ffe6ff; padding: 5px;"><span style="font-size: large; color: #000000;">m</span></td>
+<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">26,004</span></td>
+</tr>
+<tr>
+<td align="left" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"> <span style="font-size: medium; color: #000000;">fuzzy, kidney</span>
+</td>
+<td align="center" style="border: 1px solid black; background-color: #ffffe6; padding: 5px;"><span style="font-size: large; color: #000000;">f</span></td>
+<td align="center" style="border: 1px solid black; background-color: #e6f9ff; padding: 5px;"><span style="font-size: large; color: #000000;">k</span></td>
+<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #99004d;">+</span></td>
+<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">19,345</span></td>
+</tr>
+<tr>
+<td align="left" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"> <span style="font-size: medium; color: #000000;">fuzzy, mushy</span>
+</td>
+<td align="center" style="border: 1px solid black; background-color: #ffffe6; padding: 5px;"><span style="font-size: large; color: #000000;">f</span></td>
+<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #076cab;">+</span></td>
+<td align="center" style="border: 1px solid black; background-color: #ffe6ff; padding: 5px;"><span style="font-size: large; color: #000000;">m</span></td>
+<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">3,620</span></td>
+</tr>
+<tr>
+<td align="left" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"> <span style="font-size: medium; color: #000000;">fuzzy</span>
+</td>
+<td align="center" style="border: 1px solid black; background-color: #ffffe6; padding: 5px;"><span style="font-size: large; color: #000000;">f</span></td>
+<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #076cab;">+</span></td>
+<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #99004d;">+</span></td>
+<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">56,486</span></td>
 </tr>
 <tr>
 <td align="left" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"> <span style="font-size: medium; color: #000000;">kidney, mushy</span>
 </td>
-<td align="center" style="border: 1px solid black; background-color: #fff3e6; padding: 5px;"><span style="font-size: large; color: #000000;">k</span></td>
-<td align="center" style="border: 1px solid black; background-color: #e6f9ff; padding: 5px;"><span style="font-size: large; color: #000000;">m</span></td>
-<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #800055;">+</span></td>
-<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">1,560</span></td>
-</tr>
-<tr>
-<td align="left" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"> <span style="font-size: medium; color: #000000;">kidney, rusty</span>
-</td>
-<td align="center" style="border: 1px solid black; background-color: #fff3e6; padding: 5px;"><span style="font-size: large; color: #000000;">k</span></td>
-<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #076cab;">+</span></td>
-<td align="center" style="border: 1px solid black; background-color: #ffe6f9; padding: 5px;"><span style="font-size: large; color: #000000;">r</span></td>
-<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">53,119</span></td>
+<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #999900;">+</span></td>
+<td align="center" style="border: 1px solid black; background-color: #e6f9ff; padding: 5px;"><span style="font-size: large; color: #000000;">k</span></td>
+<td align="center" style="border: 1px solid black; background-color: #ffe6ff; padding: 5px;"><span style="font-size: large; color: #000000;">m</span></td>
+<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">56,134</span></td>
 </tr>
 <tr>
 <td align="left" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"> <span style="font-size: medium; color: #000000;">kidney</span>
 </td>
-<td align="center" style="border: 1px solid black; background-color: #fff3e6; padding: 5px;"><span style="font-size: large; color: #000000;">k</span></td>
-<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #076cab;">+</span></td>
-<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #800055;">+</span></td>
-<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">29,768</span></td>
-</tr>
-<tr>
-<td align="left" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"> <span style="font-size: medium; color: #000000;">mushy, rusty</span>
-</td>
-<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #663300;">+</span></td>
-<td align="center" style="border: 1px solid black; background-color: #e6f9ff; padding: 5px;"><span style="font-size: large; color: #000000;">m</span></td>
-<td align="center" style="border: 1px solid black; background-color: #ffe6f9; padding: 5px;"><span style="font-size: large; color: #000000;">r</span></td>
-<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">29,921</span></td>
+<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #999900;">+</span></td>
+<td align="center" style="border: 1px solid black; background-color: #e6f9ff; padding: 5px;"><span style="font-size: large; color: #000000;">k</span></td>
+<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #99004d;">+</span></td>
+<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">3,475</span></td>
 </tr>
 <tr>
 <td align="left" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"> <span style="font-size: medium; color: #000000;">mushy</span>
 </td>
-<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #663300;">+</span></td>
-<td align="center" style="border: 1px solid black; background-color: #e6f9ff; padding: 5px;"><span style="font-size: large; color: #000000;">m</span></td>
-<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #800055;">+</span></td>
-<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">52,486</span></td>
-</tr>
-<tr>
-<td align="left" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"> <span style="font-size: medium; color: #000000;">rusty</span>
-</td>
-<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #663300;">+</span></td>
+<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #999900;">+</span></td>
 <td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #076cab;">+</span></td>
-<td align="center" style="border: 1px solid black; background-color: #ffe6f9; padding: 5px;"><span style="font-size: large; color: #000000;">r</span></td>
-<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">1,517</span></td>
+<td align="center" style="border: 1px solid black; background-color: #ffe6ff; padding: 5px;"><span style="font-size: large; color: #000000;">m</span></td>
+<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">18,941</span></td>
 </tr>
 <tr>
 <td align="left" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"> <span style="font-size: medium; color: #000000;"><i>wildtype</i></span>
 </td>
-<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #663300;">+</span></td>
+<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #999900;">+</span></td>
 <td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #076cab;">+</span></td>
-<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #800055;">+</span></td>
-<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">5,741</span></td>
+<td align="center" style="border: 1px solid black; background-color: #f8f8f8; padding: 5px;"><span style="font-size: large; color: #99004d;">+</span></td>
+<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">25,995</span></td>
 </tr>
 <tr>
 <th colspan="4" align="right" style="border: 1px solid black; background-color: #cccccc; padding: 10px;"><span style="font-size: medium; color: #000000;">TOTAL =</span></th>
-<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">180,000</span></td>
+<td align="right" style="border: 1px solid black; background-color: #ffffff; padding: 5px;"><span style="font-size: medium; color: #000000;">210,000</span></td>
 </tr>
 </table>
-<p>The resulting phenotypes are summarized in the table above.<br>The resulting phenotypes are summarized in the table above.</p> <h6>Question</h6> <p>With the progeny data from the table, and using only the genotypes that result from crossover events between the two genes <b>K</b> and <b>M</b> during meiosis.<br><strong>calculate the genetic distance between the two genes <b>K</b> and <b>M</b>,</strong> expressing your answer in centimorgans (cM)</p>
+<p>The resulting phenotypes are summarized in the table above.<br>The resulting phenotypes are summarized in the table above.</p> <h6>Question</h6> <p>With the progeny data from the table, and using only the genotypes that result from crossover events between the two genes <b>F</b> and <b>M</b> during meiosis.<br><strong>calculate the genetic distance between the two genes <b>F</b> and <b>M</b>,</strong> expressing your answer in centimorgans (cM)</p>
 </div>
 <form>
-<ul id="choices_cd09_e4a2" class="qti-auto-grid">
+<ul id="choices_a491_a3c3" class="qti-auto-grid">
 <li>
-    <input type="radio" id="option0" name="answer_cd09_e4a2" data-correct="false"><label for="option0"><sup>(52,486 + 53,119)</sup>/<sub>180,000</sub> = <sup>105,605</sup>/<sub>180,000</sub> = 0.5867 = <strong>58.67 cM</strong></label>
+    <input type="radio" id="option0" name="answer_a491_a3c3" data-correct="false"><label for="option0"><sup>(3,620 + 18,941 + 19,345 + 56,486)</sup>/<sub>210,000</sub> = <sup>98,392</sup>/<sub>210,000</sub> = 0.4685 = <strong>46.85 cM</strong></label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_cd09_e4a2" data-correct="true"><label for="option1"><sup>(1,517 + 1,560 + 5,741 + 5,888)</sup>/<sub>180,000</sub> = <sup>14,706</sup>/<sub>180,000</sub> = 0.0817 = <strong>8.17 cM</strong></label>
+    <input type="radio" id="option1" name="answer_a491_a3c3" data-correct="false"><label for="option1"><sup>(3,620 + 25,995 + 56,134)</sup>/<sub>210,000</sub> = <sup>85,749</sup>/<sub>210,000</sub> = 0.4083 = <strong>40.83 cM</strong></label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_cd09_e4a2" data-correct="false"><label for="option2"><sup>29,768</sup>/<sub>180,000</sub> = <sup>29,768</sup>/<sub>180,000</sub> = 0.1654 = <strong>16.54 cM</strong></label>
+    <input type="radio" id="option2" name="answer_a491_a3c3" data-correct="true"><label for="option2"><sup>(3,475 + 3,620 + 25,995 + 26,004)</sup>/<sub>210,000</sub> = <sup>59,094</sup>/<sub>210,000</sub> = 0.2814 = <strong>28.14 cM</strong></label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_cd09_e4a2" data-correct="false"><label for="option3"><sup>(1,517 + 1,560 + 5,741 + 53,119)</sup>/<sub>180,000</sub> = <sup>61,937</sup>/<sub>180,000</sub> = 0.3441 = <strong>34.41 cM</strong></label>
+    <input type="radio" id="option3" name="answer_a491_a3c3" data-correct="false"><label for="option3"><sup>(3,475 + 18,941 + 19,345)</sup>/<sub>210,000</sub> = <sup>41,761</sup>/<sub>210,000</sub> = 0.1989 = <strong>19.89 cM</strong></label>
   </li>
   <li>
-    <input type="radio" id="option4" name="answer_cd09_e4a2" data-correct="false"><label for="option4"><sup>5,741</sup>/<sub>180,000</sub> = <sup>5,741</sup>/<sub>180,000</sub> = 0.0319 = <strong>3.19 cM</strong></label>
+    <input type="radio" id="option4" name="answer_a491_a3c3" data-correct="false"><label for="option4"><sup>(3,475 + 3,620 + 18,941 + 19,345 + 56,134)</sup>/<sub>210,000</sub> = <sup>101,515</sup>/<sub>210,000</sub> = 0.4834 = <strong>48.34 cM</strong></label>
   </li>
   <li>
-    <input type="radio" id="option5" name="answer_cd09_e4a2" data-correct="false"><label for="option5"><sup>(1,560 + 5,741 + 5,888 + 29,768 + 29,921)</sup>/<sub>180,000</sub> = <sup>72,878</sup>/<sub>180,000</sub> = 0.4049 = <strong>40.49 cM</strong></label>
+    <input type="radio" id="option5" name="answer_a491_a3c3" data-correct="false"><label for="option5"><sup>(56,134 + 56,486)</sup>/<sub>210,000</sub> = <sup>112,620</sup>/<sub>210,000</sub> = 0.5363 = <strong>53.63 cM</strong></label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_cd09_e4a2()">Check Answer</button>
-<div id="result_cd09_e4a2" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_a491_a3c3()">Check Answer</button>
+<div id="result_a491_a3c3" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_cd09_e4a2() {
- const options = document.getElementsByName('answer_cd09_e4a2');
+function checkAnswer_a491_a3c3() {
+ const options = document.getElementsByName('answer_a491_a3c3');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_cd09_e4a2');
+ const resultDiv = document.getElementById('result_a491_a3c3');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'var(--qti-success-fg, #008000)';

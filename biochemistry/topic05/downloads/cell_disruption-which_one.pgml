@@ -1,0 +1,825 @@
+## DESCRIPTION
+## Select the cell disruption method that corresponds to the given description.
+## ENDDESCRIPTION
+## KEYWORDS('cell disruption techniques','descriptions','which one','multiple choice')
+## DBsubject('Laboratory Techniques')
+## DBchapter('')
+## DBsection('')
+## Date('2026-02-25')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserRadioButtons.pl',
+    'PGcourse.pl',
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 0;
+
+#==========================================================
+# QUESTION DATA
+#==========================================================
+
+# All questions data
+@questions_data = (
+  {
+    'item_name' => '<strong>Chemical reactions digest the <span style="color: #e65400; font-weight:700;">cell</span>wall.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e69100; font-weight:700;">Enzymatic Method</span>',
+      '<span style="color: #b3b300; font-weight:700;">Bead-beating</span>',
+      '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+      '<span style="color: #0039e6; font-weight:700;">French Press</span>',
+    ],
+    'correct' => '<span style="color: #e69100; font-weight:700;">Enzymatic Method</span>',
+  },
+  {
+    'item_name' => '<strong>Cells are suspended in buffers containing protein catalysts that digest the <span style="color: #e65400; font-weight:700;">cell</span>wall.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e69100; font-weight:700;">Enzymatic Method</span>',
+      '<span style="color: #00b38f; font-weight:700;">Mortar &amp; Pestle</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">Mechanical Homogenizer</span>',
+      '<span style="color: #7b12a1; font-weight:700;">High-throughput Homogenizer</span>',
+    ],
+    'correct' => '<span style="color: #e69100; font-weight:700;">Enzymatic Method</span>',
+  },
+  {
+    'item_name' => '<strong>Digestive protein catalysts digest and decompose the microbial <span style="color: #e65400; font-weight:700;">cell</span>wall.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e69100; font-weight:700;">Enzymatic Method</span>',
+      '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">Mechanical Homogenizer</span>',
+      '<span style="color: #7b12a1; font-weight:700;">High-throughput Homogenizer</span>',
+    ],
+    'correct' => '<span style="color: #e69100; font-weight:700;">Enzymatic Method</span>',
+  },
+  {
+    'item_name' => '<strong>Lysozyme is commonly used to digest the <span style="color: #e65400; font-weight:700;">cell</span>wall of gram-positive bacteria.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e69100; font-weight:700;">Enzymatic Method</span>',
+      '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+      '<span style="color: #00b38f; font-weight:700;">Mortar &amp; Pestle</span>',
+      '<span style="color: #004d99; font-weight:700;">Microfluidizer</span>',
+    ],
+    'correct' => '<span style="color: #e69100; font-weight:700;">Enzymatic Method</span>',
+  },
+  {
+    'item_name' => '<strong>Digestion of the <span style="color: #e65400; font-weight:700;">cell</span>wall by chemical reactions.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e69100; font-weight:700;">Enzymatic Method</span>',
+      '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Dounce Homogenizer</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">Mechanical Homogenizer</span>',
+    ],
+    'correct' => '<span style="color: #e69100; font-weight:700;">Enzymatic Method</span>',
+  },
+  {
+    'item_name' => '<strong>Cells wall digestion by protein catalysts.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e69100; font-weight:700;">Enzymatic Method</span>',
+      '<span style="color: #b3b300; font-weight:700;">Bead-beating</span>',
+      '<span style="color: #00b38f; font-weight:700;">Mortar &amp; Pestle</span>',
+      '<span style="color: #004d99; font-weight:700;">Microfluidizer</span>',
+    ],
+    'correct' => '<span style="color: #e69100; font-weight:700;">Enzymatic Method</span>',
+  },
+  {
+    'item_name' => '<strong>Protein catalysts decompose the microbial <span style="color: #e65400; font-weight:700;">cell</span>wall.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e69100; font-weight:700;">Enzymatic Method</span>',
+      '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">Mechanical Homogenizer</span>',
+      '<span style="color: #004d99; font-weight:700;">Microfluidizer</span>',
+    ],
+    'correct' => '<span style="color: #e69100; font-weight:700;">Enzymatic Method</span>',
+  },
+  {
+    'item_name' => '<strong>Lysozyme digests gram-positive bacterial <span style="color: #e65400; font-weight:700;">cell</span>walls.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e69100; font-weight:700;">Enzymatic Method</span>',
+      '<span style="color: #00b38f; font-weight:700;">Mortar &amp; Pestle</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">Mechanical Homogenizer</span>',
+      '<span style="color: #7b12a1; font-weight:700;">High-throughput Homogenizer</span>',
+    ],
+    'correct' => '<span style="color: #e69100; font-weight:700;">Enzymatic Method</span>',
+  },
+  {
+    'item_name' => '<strong>Tiny glass particles are mixed and stirred to a high level of agitation.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e69100; font-weight:700;">Enzymatic Method</span>',
+      '<span style="color: #b3b300; font-weight:700;">Bead-beating</span>',
+      '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+      '<span style="color: #0039e6; font-weight:700;">French Press</span>',
+    ],
+    'correct' => '<span style="color: #b3b300; font-weight:700;">Bead-beating</span>',
+  },
+  {
+    'item_name' => '<strong>This technique involves using glass or metal particles to apply gentle abrasion while vortexing them.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #b3b300; font-weight:700;">Bead-beating</span>',
+      '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+      '<span style="color: #00b38f; font-weight:700;">Mortar &amp; Pestle</span>',
+      '<span style="color: #004d99; font-weight:700;">Microfluidizer</span>',
+    ],
+    'correct' => '<span style="color: #b3b300; font-weight:700;">Bead-beating</span>',
+  },
+  {
+    'item_name' => '<strong>Small glass particles are placed into a blender and act like bullets smashing the <span style="color: #e60000; font-weight:700;">cells</span>.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e69100; font-weight:700;">Enzymatic Method</span>',
+      '<span style="color: #b3b300; font-weight:700;">Bead-beating</span>',
+      '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Dounce Homogenizer</span>',
+    ],
+    'correct' => '<span style="color: #b3b300; font-weight:700;">Bead-beating</span>',
+  },
+  {
+    'item_name' => '<strong>Small glass or ceramic particles are used to crack open <span style="color: #e60000; font-weight:700;">cells</span>.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e69100; font-weight:700;">Enzymatic Method</span>',
+      '<span style="color: #b3b300; font-weight:700;">Bead-beating</span>',
+      '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">Mechanical Homogenizer</span>',
+    ],
+    'correct' => '<span style="color: #b3b300; font-weight:700;">Bead-beating</span>',
+  },
+  {
+    'item_name' => '<strong>Gentle abrasion is applied to <span style="color: #e60000; font-weight:700;">cells</span> through vortexing with glass or metal particles.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #b3b300; font-weight:700;">Bead-beating</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Dounce Homogenizer</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">Mechanical Homogenizer</span>',
+      '<span style="color: #0039e6; font-weight:700;">French Press</span>',
+    ],
+    'correct' => '<span style="color: #b3b300; font-weight:700;">Bead-beating</span>',
+  },
+  {
+    'item_name' => '<strong>Glass or ceramic particles stirred at high speeds crack <span style="color: #e60000; font-weight:700;">cells</span> open.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #b3b300; font-weight:700;">Bead-beating</span>',
+      '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+      '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Dounce Homogenizer</span>',
+    ],
+    'correct' => '<span style="color: #b3b300; font-weight:700;">Bead-beating</span>',
+  },
+  {
+    'item_name' => '<strong>This technique applies high-frequency sound waves to shatter <span style="color: #e60000; font-weight:700;">cells</span>.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e69100; font-weight:700;">Enzymatic Method</span>',
+      '<span style="color: #b3b300; font-weight:700;">Bead-beating</span>',
+      '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+      '<span style="color: #00b38f; font-weight:700;">Mortar &amp; Pestle</span>',
+    ],
+    'correct' => '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+  },
+  {
+    'item_name' => '<strong>This technique uses short bursts of ultrasonic waves to disrupt the tissue.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+      '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Dounce Homogenizer</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">Mechanical Homogenizer</span>',
+    ],
+    'correct' => '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+  },
+  {
+    'item_name' => '<strong>High-frequency sound waves cause disruption of <span style="color: #e60000; font-weight:700;">cells</span> by shear force and tension.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+      '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+      '<span style="color: #004d99; font-weight:700;">Microfluidizer</span>',
+      '<span style="color: #7b12a1; font-weight:700;">High-throughput Homogenizer</span>',
+    ],
+    'correct' => '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+  },
+  {
+    'item_name' => '<strong>Ultrasonic sound energy is used to cause air bubbles in a liquid to implode, damaging the <span style="color: #e60000; font-weight:700;">cells</span>.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+      '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Dounce Homogenizer</span>',
+      '<span style="color: #0039e6; font-weight:700;">French Press</span>',
+    ],
+    'correct' => '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+  },
+  {
+    'item_name' => '<strong>High-frequency sound waves produce tiny bubbles that explode, producing a local shockwave.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #b3b300; font-weight:700;">Bead-beating</span>',
+      '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">Mechanical Homogenizer</span>',
+      '<span style="color: #004d99; font-weight:700;">Microfluidizer</span>',
+    ],
+    'correct' => '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+  },
+  {
+    'item_name' => '<strong>This technique uses the forces of ultrasonic waves to rupture <span style="color: #e60000; font-weight:700;">cells</span>.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e69100; font-weight:700;">Enzymatic Method</span>',
+      '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+      '<span style="color: #00b38f; font-weight:700;">Mortar &amp; Pestle</span>',
+      '<span style="color: #0039e6; font-weight:700;">French Press</span>',
+    ],
+    'correct' => '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+  },
+  {
+    'item_name' => '<strong>Ultrasonic waves in short bursts are employed to disintegrate tissue.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #b3b300; font-weight:700;">Bead-beating</span>',
+      '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">Mechanical Homogenizer</span>',
+      '<span style="color: #004d99; font-weight:700;">Microfluidizer</span>',
+    ],
+    'correct' => '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+  },
+  {
+    'item_name' => '<strong>Cells are disrupted by the shear force and tension caused by high-frequency sound waves.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e69100; font-weight:700;">Enzymatic Method</span>',
+      '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+      '<span style="color: #00b38f; font-weight:700;">Mortar &amp; Pestle</span>',
+      '<span style="color: #004d99; font-weight:700;">Microfluidizer</span>',
+    ],
+    'correct' => '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+  },
+  {
+    'item_name' => '<strong>Ultrasonic waves rupture <span style="color: #e65400; font-weight:700;">cell</span>walls.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+      '<span style="color: #0039e6; font-weight:700;">French Press</span>',
+      '<span style="color: #004d99; font-weight:700;">Microfluidizer</span>',
+      '<span style="color: #7b12a1; font-weight:700;">High-throughput Homogenizer</span>',
+    ],
+    'correct' => '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+  },
+  {
+    'item_name' => '<strong>Shear force from high-frequency waves disrupts <span style="color: #e60000; font-weight:700;">cells</span>.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e69100; font-weight:700;">Enzymatic Method</span>',
+      '<span style="color: #b3b300; font-weight:700;">Bead-beating</span>',
+      '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+      '<span style="color: #00b38f; font-weight:700;">Mortar &amp; Pestle</span>',
+    ],
+    'correct' => '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+  },
+  {
+    'item_name' => '<strong>This technique uses extremely cold temperatures and grinding to pulverize <span style="color: #e60000; font-weight:700;">cells</span>.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e69100; font-weight:700;">Enzymatic Method</span>',
+      '<span style="color: #b3b300; font-weight:700;">Bead-beating</span>',
+      '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+      '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+  },
+  {
+    'item_name' => '<strong>Under cold temperatures, the water inside the <span style="color: #e60000; font-weight:700;">cells</span> expands into ice, causing the <span style="color: #e60000; font-weight:700;">cells</span> to burst open.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+      '<span style="color: #00b38f; font-weight:700;">Mortar &amp; Pestle</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">Mechanical Homogenizer</span>',
+      '<span style="color: #004d99; font-weight:700;">Microfluidizer</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+  },
+  {
+    'item_name' => '<strong>Cell suspensions are subjected to variable temperatures, resulting in rupture of the walls.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+      '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+      '<span style="color: #0039e6; font-weight:700;">French Press</span>',
+      '<span style="color: #004d99; font-weight:700;">Microfluidizer</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+  },
+  {
+    'item_name' => '<strong>Cold temperatures form ice crystals, which expand, ultimately causing the <span style="color: #e65400; font-weight:700;">cell</span>wall to rupture.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+      '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">Mechanical Homogenizer</span>',
+      '<span style="color: #0039e6; font-weight:700;">French Press</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+  },
+  {
+    'item_name' => '<strong>Cells are pulverized through a combination of extreme cold.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #b3b300; font-weight:700;">Bead-beating</span>',
+      '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+      '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+      '<span style="color: #00b38f; font-weight:700;">Mortar &amp; Pestle</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+  },
+  {
+    'item_name' => '<strong>The <span style="color: #e65400; font-weight:700;">cell</span>walls rupture due to extreme temperature variations.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e69100; font-weight:700;">Enzymatic Method</span>',
+      '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+      '<span style="color: #00b38f; font-weight:700;">Mortar &amp; Pestle</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Dounce Homogenizer</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+  },
+  {
+    'item_name' => '<strong>Extreme temperature variations cause <span style="color: #e65400; font-weight:700;">cell</span>wall rupture.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+      '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">Mechanical Homogenizer</span>',
+      '<span style="color: #0039e6; font-weight:700;">French Press</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+  },
+  {
+    'item_name' => '<strong>Ice crystal expansion leads to <span style="color: #e65400; font-weight:700;">cell</span>wall disruption.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #b3b300; font-weight:700;">Bead-beating</span>',
+      '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+      '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Dounce Homogenizer</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+  },
+  {
+    'item_name' => '<strong>Samples are ground by hand to break apart into small pieces.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #b3b300; font-weight:700;">Bead-beating</span>',
+      '<span style="color: #00b38f; font-weight:700;">Mortar &amp; Pestle</span>',
+      '<span style="color: #0039e6; font-weight:700;">French Press</span>',
+      '<span style="color: #004d99; font-weight:700;">Microfluidizer</span>',
+    ],
+    'correct' => '<span style="color: #00b38f; font-weight:700;">Mortar &amp; Pestle</span>',
+  },
+  {
+    'item_name' => '<strong>This is laborious manual work that can take several minutes.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #b3b300; font-weight:700;">Bead-beating</span>',
+      '<span style="color: #00b38f; font-weight:700;">Mortar &amp; Pestle</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Dounce Homogenizer</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">Mechanical Homogenizer</span>',
+    ],
+    'correct' => '<span style="color: #00b38f; font-weight:700;">Mortar &amp; Pestle</span>',
+  },
+  {
+    'item_name' => '<strong>Grinding of the <span style="color: #e60000; font-weight:700;">cells</span> by hand to disrupt the <span style="color: #e65400; font-weight:700;">cell</span>walls.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+      '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+      '<span style="color: #00b38f; font-weight:700;">Mortar &amp; Pestle</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">Mechanical Homogenizer</span>',
+    ],
+    'correct' => '<span style="color: #00b38f; font-weight:700;">Mortar &amp; Pestle</span>',
+  },
+  {
+    'item_name' => '<strong>The <span style="color: #e60000; font-weight:700;">cells</span> are disrupted by hand grinding them.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e69100; font-weight:700;">Enzymatic Method</span>',
+      '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+      '<span style="color: #00b38f; font-weight:700;">Mortar &amp; Pestle</span>',
+      '<span style="color: #0039e6; font-weight:700;">French Press</span>',
+    ],
+    'correct' => '<span style="color: #00b38f; font-weight:700;">Mortar &amp; Pestle</span>',
+  },
+  {
+    'item_name' => '<strong>Manual grinding of <span style="color: #e60000; font-weight:700;">cells</span> that can take several minutes."</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #b3b300; font-weight:700;">Bead-beating</span>',
+      '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+      '<span style="color: #00b38f; font-weight:700;">Mortar &amp; Pestle</span>',
+      '<span style="color: #004d99; font-weight:700;">Microfluidizer</span>',
+    ],
+    'correct' => '<span style="color: #00b38f; font-weight:700;">Mortar &amp; Pestle</span>',
+  },
+  {
+    'item_name' => '<strong>Handheld device that spins in a tube to smash <span style="color: #e60000; font-weight:700;">cells</span>.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e69100; font-weight:700;">Enzymatic Method</span>',
+      '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Dounce Homogenizer</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">Mechanical Homogenizer</span>',
+    ],
+    'correct' => '<span style="color: #00b3b3; font-weight:700;">Dounce Homogenizer</span>',
+  },
+  {
+    'item_name' => '<strong>Handheld cylindrical glass tube and a spinning pestle that has a tight fit within the shaft.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Dounce Homogenizer</span>',
+      '<span style="color: #0039e6; font-weight:700;">French Press</span>',
+      '<span style="color: #7b12a1; font-weight:700;">High-throughput Homogenizer</span>',
+    ],
+    'correct' => '<span style="color: #00b3b3; font-weight:700;">Dounce Homogenizer</span>',
+  },
+  {
+    'item_name' => '<strong>Cells are smashed using a spinning handheld device in a tube.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e69100; font-weight:700;">Enzymatic Method</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Dounce Homogenizer</span>',
+      '<span style="color: #004d99; font-weight:700;">Microfluidizer</span>',
+      '<span style="color: #7b12a1; font-weight:700;">High-throughput Homogenizer</span>',
+    ],
+    'correct' => '<span style="color: #00b3b3; font-weight:700;">Dounce Homogenizer</span>',
+  },
+  {
+    'item_name' => '<strong>A spinning handheld device smashes <span style="color: #e60000; font-weight:700;">cells</span> in a tube.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #b3b300; font-weight:700;">Bead-beating</span>',
+      '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+      '<span style="color: #00b38f; font-weight:700;">Mortar &amp; Pestle</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Dounce Homogenizer</span>',
+    ],
+    'correct' => '<span style="color: #00b3b3; font-weight:700;">Dounce Homogenizer</span>',
+  },
+  {
+    'item_name' => '<strong>Drill-like device with spinning rotor blades to shear <span style="color: #e60000; font-weight:700;">cells</span> apart.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+      '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">Mechanical Homogenizer</span>',
+      '<span style="color: #004d99; font-weight:700;">Microfluidizer</span>',
+    ],
+    'correct' => '<span style="color: #0a9bf5; font-weight:700;">Mechanical Homogenizer</span>',
+  },
+  {
+    'item_name' => '<strong>Consists of a fast-spinning inner rotor with a stationary outer stator to produce shearing forces.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">Mechanical Homogenizer</span>',
+      '<span style="color: #0039e6; font-weight:700;">French Press</span>',
+      '<span style="color: #7b12a1; font-weight:700;">High-throughput Homogenizer</span>',
+    ],
+    'correct' => '<span style="color: #0a9bf5; font-weight:700;">Mechanical Homogenizer</span>',
+  },
+  {
+    'item_name' => '<strong>Motorized device with rotating blades that shear <span style="color: #e60000; font-weight:700;">cells</span> apart.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+      '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Dounce Homogenizer</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">Mechanical Homogenizer</span>',
+    ],
+    'correct' => '<span style="color: #0a9bf5; font-weight:700;">Mechanical Homogenizer</span>',
+  },
+  {
+    'item_name' => '<strong>Shearing forces from spinning blades break <span style="color: #e60000; font-weight:700;">cells</span> apart.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">Mechanical Homogenizer</span>',
+      '<span style="color: #0039e6; font-weight:700;">French Press</span>',
+      '<span style="color: #004d99; font-weight:700;">Microfluidizer</span>',
+    ],
+    'correct' => '<span style="color: #0a9bf5; font-weight:700;">Mechanical Homogenizer</span>',
+  },
+  {
+    'item_name' => '<strong>Spinning rotor blades shear the <span style="color: #e65400; font-weight:700;">cell</span>walls.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">Mechanical Homogenizer</span>',
+      '<span style="color: #0039e6; font-weight:700;">French Press</span>',
+      '<span style="color: #7b12a1; font-weight:700;">High-throughput Homogenizer</span>',
+    ],
+    'correct' => '<span style="color: #0a9bf5; font-weight:700;">Mechanical Homogenizer</span>',
+  },
+  {
+    'item_name' => '<strong>A hydraulic piston within a cylinder forces <span style="color: #e60000; font-weight:700;">cells</span> through a small hole using high pressure.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #b3b300; font-weight:700;">Bead-beating</span>',
+      '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">Mechanical Homogenizer</span>',
+      '<span style="color: #0039e6; font-weight:700;">French Press</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">French Press</span>',
+  },
+  {
+    'item_name' => '<strong>A hydraulic press drives a piston to squeeze the sample through a needle valve.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+      '<span style="color: #0039e6; font-weight:700;">French Press</span>',
+      '<span style="color: #004d99; font-weight:700;">Microfluidizer</span>',
+      '<span style="color: #7b12a1; font-weight:700;">High-throughput Homogenizer</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">French Press</span>',
+  },
+  {
+    'item_name' => '<strong>Cell suspension is forced through a narrow valve using a hydraulic piston.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e69100; font-weight:700;">Enzymatic Method</span>',
+      '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">Mechanical Homogenizer</span>',
+      '<span style="color: #0039e6; font-weight:700;">French Press</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">French Press</span>',
+  },
+  {
+    'item_name' => '<strong>Cells are pushed through a small hole using high pressure from a hydraulic piston.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e69100; font-weight:700;">Enzymatic Method</span>',
+      '<span style="color: #b3b300; font-weight:700;">Bead-beating</span>',
+      '<span style="color: #0039e6; font-weight:700;">French Press</span>',
+      '<span style="color: #004d99; font-weight:700;">Microfluidizer</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">French Press</span>',
+  },
+  {
+    'item_name' => '<strong>Cells are forced through a tiny hole by a high-pressure hydraulic piston.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #b3b300; font-weight:700;">Bead-beating</span>',
+      '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+      '<span style="color: #0039e6; font-weight:700;">French Press</span>',
+      '<span style="color: #004d99; font-weight:700;">Microfluidizer</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">French Press</span>',
+  },
+  {
+    'item_name' => '<strong>High-pressure hydraulic piston forces <span style="color: #e60000; font-weight:700;">cells</span> through a small hole.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #b3b300; font-weight:700;">Bead-beating</span>',
+      '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+      '<span style="color: #00b38f; font-weight:700;">Mortar &amp; Pestle</span>',
+      '<span style="color: #0039e6; font-weight:700;">French Press</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">French Press</span>',
+  },
+  {
+    'item_name' => '<strong>A high-pressure pump pushes <span style="color: #e60000; font-weight:700;">cells</span> through a Z-shaped interaction chamber.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #b3b300; font-weight:700;">Bead-beating</span>',
+      '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+      '<span style="color: #0039e6; font-weight:700;">French Press</span>',
+      '<span style="color: #004d99; font-weight:700;">Microfluidizer</span>',
+    ],
+    'correct' => '<span style="color: #004d99; font-weight:700;">Microfluidizer</span>',
+  },
+  {
+    'item_name' => '<strong>Uses a pump and a Z-shaped interaction chamber to create high pressures.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e69100; font-weight:700;">Enzymatic Method</span>',
+      '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+      '<span style="color: #00b38f; font-weight:700;">Mortar &amp; Pestle</span>',
+      '<span style="color: #004d99; font-weight:700;">Microfluidizer</span>',
+    ],
+    'correct' => '<span style="color: #004d99; font-weight:700;">Microfluidizer</span>',
+  },
+  {
+    'item_name' => '<strong>High pressures are generated using a Z-shaped chamber and a pump.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #00b38f; font-weight:700;">Mortar &amp; Pestle</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">Mechanical Homogenizer</span>',
+      '<span style="color: #0039e6; font-weight:700;">French Press</span>',
+      '<span style="color: #004d99; font-weight:700;">Microfluidizer</span>',
+    ],
+    'correct' => '<span style="color: #004d99; font-weight:700;">Microfluidizer</span>',
+  },
+  {
+    'item_name' => '<strong>A Z-shaped interaction chamber and pump work in tandem to exert high pressures on <span style="color: #e60000; font-weight:700;">cells</span>.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #b3b300; font-weight:700;">Bead-beating</span>',
+      '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+      '<span style="color: #0039e6; font-weight:700;">French Press</span>',
+      '<span style="color: #004d99; font-weight:700;">Microfluidizer</span>',
+    ],
+    'correct' => '<span style="color: #004d99; font-weight:700;">Microfluidizer</span>',
+  },
+  {
+    'item_name' => '<strong>Z-shaped chamber and pump create high pressure to disrupt <span style="color: #e60000; font-weight:700;">cells</span>.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e69100; font-weight:700;">Enzymatic Method</span>',
+      '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">Mechanical Homogenizer</span>',
+      '<span style="color: #004d99; font-weight:700;">Microfluidizer</span>',
+    ],
+    'correct' => '<span style="color: #004d99; font-weight:700;">Microfluidizer</span>',
+  },
+  {
+    'item_name' => '<strong>Cells are pushed through a Z-shaped chamber using a high-pressure pump.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Dounce Homogenizer</span>',
+      '<span style="color: #0039e6; font-weight:700;">French Press</span>',
+      '<span style="color: #004d99; font-weight:700;">Microfluidizer</span>',
+    ],
+    'correct' => '<span style="color: #004d99; font-weight:700;">Microfluidizer</span>',
+  },
+  {
+    'item_name' => '<strong>An expensive bead-beating machine can process a large number of samples simultaneously in a short time.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+      '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">Mechanical Homogenizer</span>',
+      '<span style="color: #7b12a1; font-weight:700;">High-throughput Homogenizer</span>',
+    ],
+    'correct' => '<span style="color: #7b12a1; font-weight:700;">High-throughput Homogenizer</span>',
+  },
+  {
+    'item_name' => '<strong>Numerous samples are processed simultaneously using a bead-beating machine.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+      '<span style="color: #00b38f; font-weight:700;">Mortar &amp; Pestle</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Dounce Homogenizer</span>',
+      '<span style="color: #7b12a1; font-weight:700;">High-throughput Homogenizer</span>',
+    ],
+    'correct' => '<span style="color: #7b12a1; font-weight:700;">High-throughput Homogenizer</span>',
+  },
+  {
+    'item_name' => '<strong>Large numbers of samples are disrupted simultaneously using a bead-beating machine.</strong>',
+    'plural_choice' => '<span style="color: #e65400; font-weight:700;">cell</span>disruption techniques',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e69100; font-weight:700;">Enzymatic Method</span>',
+      '<span style="color: #59b300; font-weight:700;">Sonication</span>',
+      '<span style="color: #00b38f; font-weight:700;">Mortar &amp; Pestle</span>',
+      '<span style="color: #7b12a1; font-weight:700;">High-throughput Homogenizer</span>',
+    ],
+    'correct' => '<span style="color: #7b12a1; font-weight:700;">High-throughput Homogenizer</span>',
+  },
+);
+
+#==========================================================
+# SELECT RANDOM QUESTION
+#==========================================================
+
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+
+$question_idx = $local_random->random(0, scalar(@questions_data) - 1, 1);
+$q = $questions_data[$question_idx];
+
+$item_name = $q->{'item_name'};
+$plural_choice = $q->{'plural_choice'};
+$singular_item = $q->{'singular_item'};
+@choices = @{ $q->{'choices'} };
+$correct = $q->{'correct'};
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# BUILD RADIO BUTTONS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => 'ABC',
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+Which one of the following [$plural_choice]* corresponds to the [$singular_item]* [$item_name]*?
+
+[_]{$rb}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The correct answer is: [$correct]*
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+

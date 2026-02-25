@@ -1,42 +1,42 @@
 <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
 <div class="qti-selftest">
-<div id="question_html_2241_3ee7">
-<div id="statement_text_2241_3ee7"><p>When the pH is more than two (2) pH units <span style="color:#1f7a1f;font-weight:700;">BELOW</span> the pKa of a <span style="color:#1565c0;font-weight:700;">amine group</span> (e.g., -NH<sub>2</sub>), what form is the chemical group in?<br>Select <span style="font-weight:700;">BOTH</span> the <span style="color:#2f855a;font-weight:700;">number of hydrogens</span> and <span style="color:#6b21a8;font-weight:700;">its charge</span>; <span style="font-weight:700;">check two boxes</span>.</p></div>
+<div id="question_html_c331_3ee7">
+<div id="statement_text_c331_3ee7"><p>When the pH is more than two (2) pH units <span style="color:#1f7a1f;font-weight:700;">BELOW</span> the pKa of a <span style="color:#b58900;font-weight:700;">thiol group</span> (e.g., -SH), what form is the chemical group in?<br>Select <span style="font-weight:700;">BOTH</span> the <span style="color:#2f855a;font-weight:700;">number of hydrogens</span> and <span style="color:#6b21a8;font-weight:700;">its charge</span>; <span style="font-weight:700;">check two boxes</span>.</p></div>
 <form>
-<ul id="choices_2241_3ee7" class="qti-auto-grid">
+<ul id="choices_c331_3ee7" class="qti-auto-grid">
 <li>
-    <input type="checkbox" id="option_2241_3ee7_1" name="answer_2241_3ee7" data-correct="false"><label for="option_2241_3ee7_1"><span style="color:#2f855a;font-weight:700;">no hydrogens (0 H)</span></label>
+    <input type="checkbox" id="option_c331_3ee7_1" name="answer_c331_3ee7" data-correct="false"><label for="option_c331_3ee7_1"><span style="color:#2f855a;font-weight:700;">no hydrogens (0 H)</span></label>
   </li>
   <li>
-    <input type="checkbox" id="option_2241_3ee7_2" name="answer_2241_3ee7" data-correct="false"><label for="option_2241_3ee7_2"><span style="color:#2f855a;font-weight:700;">one hydrogen (1 H)</span></label>
+    <input type="checkbox" id="option_c331_3ee7_2" name="answer_c331_3ee7" data-correct="true"><label for="option_c331_3ee7_2"><span style="color:#2f855a;font-weight:700;">one hydrogen (1 H)</span></label>
   </li>
   <li>
-    <input type="checkbox" id="option_2241_3ee7_3" name="answer_2241_3ee7" data-correct="false"><label for="option_2241_3ee7_3"><span style="color:#2f855a;font-weight:700;">two hydrogens (2 H)</span></label>
+    <input type="checkbox" id="option_c331_3ee7_3" name="answer_c331_3ee7" data-correct="false"><label for="option_c331_3ee7_3"><span style="color:#2f855a;font-weight:700;">two hydrogens (2 H)</span></label>
   </li>
   <li>
-    <input type="checkbox" id="option_2241_3ee7_4" name="answer_2241_3ee7" data-correct="true"><label for="option_2241_3ee7_4"><span style="color:#2f855a;font-weight:700;">three hydrogens (3 H)</span></label>
+    <input type="checkbox" id="option_c331_3ee7_4" name="answer_c331_3ee7" data-correct="false"><label for="option_c331_3ee7_4"><span style="color:#2f855a;font-weight:700;">three hydrogens (3 H)</span></label>
   </li>
   <li>
-    <input type="checkbox" id="option_2241_3ee7_5" name="answer_2241_3ee7" data-correct="true"><label for="option_2241_3ee7_5"><span style="color:#1f5aa6;font-weight:700;">positive charge (+)</span></label>
+    <input type="checkbox" id="option_c331_3ee7_5" name="answer_c331_3ee7" data-correct="false"><label for="option_c331_3ee7_5"><span style="color:#1f5aa6;font-weight:700;">positive charge (+)</span></label>
   </li>
   <li>
-    <input type="checkbox" id="option_2241_3ee7_6" name="answer_2241_3ee7" data-correct="false"><label for="option_2241_3ee7_6"><span style="color:#111111;font-weight:700;">neutral charge (0)</span></label>
+    <input type="checkbox" id="option_c331_3ee7_6" name="answer_c331_3ee7" data-correct="true"><label for="option_c331_3ee7_6"><span style="color:#111111;font-weight:700;">neutral charge (0)</span></label>
   </li>
   <li>
-    <input type="checkbox" id="option_2241_3ee7_7" name="answer_2241_3ee7" data-correct="false"><label for="option_2241_3ee7_7"><span style="color:#c1121f;font-weight:700;">negative charge (-)</span></label>
+    <input type="checkbox" id="option_c331_3ee7_7" name="answer_c331_3ee7" data-correct="false"><label for="option_c331_3ee7_7"><span style="color:#c1121f;font-weight:700;">negative charge (-)</span></label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_2241_3ee7()">Check Answer</button>
-<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="clearSelection_2241_3ee7()">Clear Selection</button>
-<div id="result_2241_3ee7" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_c331_3ee7()">Check Answer</button>
+<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="clearSelection_c331_3ee7()">Clear Selection</button>
+<div id="result_c331_3ee7" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_2241_3ee7() {
-	const options = Array.from(document.getElementsByName('answer_2241_3ee7'));
+function checkAnswer_c331_3ee7() {
+	const options = Array.from(document.getElementsByName('answer_c331_3ee7'));
 	const correctOptions = options.filter(option => option.dataset.correct === 'true');
 	const selectedOptions = options.filter(option => option.checked);
-	const resultDiv = document.getElementById('result_2241_3ee7');
+	const resultDiv = document.getElementById('result_c331_3ee7');
 	const numCorrectSelected = selectedOptions.filter(option => correctOptions.includes(option)).length;
 	const numIncorrectSelected = selectedOptions.length - numCorrectSelected;
 	const totalCorrect = correctOptions.length;
@@ -60,10 +60,10 @@ function checkAnswer_2241_3ee7() {
 }
 </script>
 <script>
-	function clearSelection_2241_3ee7() {
-		const checkboxes = document.getElementsByName('answer_2241_3ee7');
+	function clearSelection_c331_3ee7() {
+		const checkboxes = document.getElementsByName('answer_c331_3ee7');
 		Array.from(checkboxes).forEach(checkbox => checkbox.checked = false);
-		const resultDiv = document.getElementById('result_2241_3ee7');
+		const resultDiv = document.getElementById('result_c331_3ee7');
 		if (resultDiv) {			resultDiv.textContent = '';
 			resultDiv.style.color = 'inherit';
 		}	}
