@@ -55,6 +55,7 @@
 .fa-fly:before { content: "\f188"; }
 .fa-chart-bar:before { content: "\f080"; }
 .fa-dice:before { content: "\f522"; }
+.fa-sitemap:before { content: "\f0e8"; }
 .fa-external-link-alt:before { content: "\f35d"; }
 .fa-creative-commons:before { content: "\f25e"; }
 .fa-creative-commons-by:before { content: "\f4e7"; }
@@ -127,10 +128,15 @@ img[style] {
 
 /* ---------- Landing page alignment and spacing polish ---------- */
 
-/* Keep body text consistent */
+/* Scale all content text down ~20%; nav sidebar is unaffected */
+.md-content .md-typeset {
+  font-size: 0.8rem;
+}
+
+/* Keep body text consistent (scaled ~20% from original) */
 .md-content p,
 .md-content li {
-  font-size: 1rem;
+  font-size: 0.8rem;
   line-height: 1.6;
 }
 
@@ -143,15 +149,15 @@ img[style] {
 }
 
 .md-content h2 {
-  font-size: 1.6rem;
+  font-size: 1.28rem;
 }
 
 .md-content h3 {
-  font-size: 1.25rem;
+  font-size: 1.0rem;
 }
 
 .md-content h4 {
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 600;
   letter-spacing: normal;
 }
@@ -200,7 +206,7 @@ img[style] {
 
 /* Make the bold link label larger, without changing the rest */
 .md-content li > strong > a {
-  font-size: 1.15rem;
+  font-size: 0.92rem;
   font-weight: 700;
 }
 

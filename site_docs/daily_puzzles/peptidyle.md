@@ -18,12 +18,9 @@ title: Peptidyle
 
 ### Deduce the pentapeptide sequence
 
-A pentapeptide is a protein fragment that is only five amino acids long. Even tiny sequences can matter because
-chemistry scales down: side chains still attract, repel, and bind. This puzzle builds intuition for how sequence and
-structure connect.
-
 <div id="pw-root">
 	<div id="stats"></div>
+	<p class="dp-intro">A pentapeptide is a protein fragment that is only five amino acids long. Even tiny sequences can matter because chemistry scales down: side chains still attract, repel, and bind. This puzzle builds intuition for how sequence and structure connect.</p>
 	<div id="hint-area">
 		<div id="controls-left">
 			<button id="help-button" type="button">Peptide solving tips</button>

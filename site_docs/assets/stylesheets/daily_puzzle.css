@@ -1,37 +1,115 @@
-/* Shared styling for daily puzzles (Peptidyle + Deletion mutants) */
+/* ================================================
+   Shared styling for all four daily puzzles
+   (Peptidyle, Deletion Mutants, Mutant Screen, Biomacromolecules)
+   ================================================ */
 
-/* Stats "scoreboard" row */
-.dp-stats {
-	display: flex;
-	gap: 8px;
-	flex-wrap: wrap;
-	align-items: center;
-	margin: 6px 0 12px;
+/* Shared root container */
+#pw-root, #dm-root, #ms-root, #bm-root {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 8px 0 0;
+	font-family: system-ui, Arial, sans-serif;
+	box-sizing: border-box;
+	color: var(--md-default-fg-color);
+}
+
+/* Shared stats font-size */
+#pw-root #stats,
+#dm-root #stats,
+#ms-root #stats,
+#bm-root #stats {
 	font-size: 0.9rem;
-	padding: 8px 10px;
-	border-radius: 0.6rem;
-	border: 1px solid rgba(127,127,127,0.25);
-	background: var(--md-default-bg-color);
-	background: color-mix(in srgb, var(--md-primary-fg-color) 14%, var(--md-default-bg-color));
-	color: var(--md-default-fg-color);
 }
 
-.dp-stat {
-	padding: 3px 10px;
-	border-radius: 999px;
-	border: 1px solid rgba(127,127,127,0.25);
-	background: color-mix(in srgb, var(--md-default-bg-color) 92%, var(--md-default-fg-color));
+/* Shared message styling */
+#pw-root #message,
+#dm-root #message,
+#ms-root #message,
+#bm-root #message {
+	min-height: 0;
+	margin-bottom: 8px;
+	text-align: center;
+	font-size: 0.95rem;
 }
 
-.dp-stat .dp-val {
-	font-weight: 700;
-	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
-	color: var(--md-default-fg-color);
+/* Shared toast container */
+#pw-root #toast-container,
+#dm-root #toast-container,
+#ms-root #toast-container,
+#bm-root #toast-container {
+	position: fixed;
+	top: 12px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1000;
+	pointer-events: none;
 }
 
-.dp-stat.dp-streak {
-	border: 1px solid color-mix(in srgb, var(--md-accent-fg-color) 45%, rgba(127,127,127,0.25));
-	background: color-mix(in srgb, var(--md-accent-fg-color) 18%, var(--md-default-bg-color));
+#pw-root .toast,
+#dm-root .toast,
+#ms-root .toast,
+#bm-root .toast {
+	background: rgba(0, 0, 0, 0.85);
+	color: #ffffff;
+	padding: 8px 14px;
+	margin-top: 4px;
+	border-radius: 4px;
+	font-size: 0.9rem;
+	opacity: 0;
+	transition: opacity 0.15s ease;
+}
+
+#pw-root .toast.show,
+#dm-root .toast.show,
+#ms-root .toast.show,
+#bm-root .toast.show {
+	opacity: 1;
+}
+
+/* Shared instructions styling */
+#pw-root #instructions,
+#dm-root #instructions,
+#ms-root #instructions,
+#bm-root #instructions {
+	max-width: 800px;
+	margin: 24px auto 0;
+	font-size: 0.95rem;
+	text-align: left;
+}
+
+#pw-root #instructions summary,
+#dm-root #instructions summary,
+#ms-root #instructions summary,
+#bm-root #instructions summary {
+	cursor: pointer;
+	margin-bottom: 8px;
+}
+
+/* Shared canvas display (peptidyle + biomacromolecule) */
+#pw-root #peptide,
+#bm-root #molecule-display {
+	margin-bottom: 12px;
+	text-align: center;
+}
+
+#pw-root #peptide canvas,
+#bm-root #molecule-display canvas {
+	border: 1px solid rgba(127, 127, 127, 0.25);
+	display: block;
+	margin: 0 auto;
+	max-width: 800px;
+	width: 100%;
+	height: auto;
+}
+
+body[data-md-color-scheme="slate"] #pw-root #peptide canvas,
+body[data-md-color-scheme="slate"] #bm-root #molecule-display canvas {
+	background-color: #333333;
+}
+
+/* Hidden guess form (peptidyle) */
+#pw-root #guess-form {
+	display: none;
 }
 
 /* Shared keyboard theming variables */
@@ -51,14 +129,17 @@ body[data-md-color-scheme="slate"] {
 
 /* Hard override: ensure slate palette reaches the puzzle roots */
 body[data-md-color-scheme="slate"] #dm-root,
-body[data-md-color-scheme="slate"] #pw-root {
+body[data-md-color-scheme="slate"] #pw-root,
+body[data-md-color-scheme="slate"] #ms-root,
+body[data-md-color-scheme="slate"] #bm-root {
 	--kb-key-fg: rgba(255,255,255,0.92);
 	--kb-disabled-fg: rgba(255,255,255,0.92);
 }
 
 /* On-screen keyboard (shared layout + visuals) */
 #pw-root #keyboard,
-#dm-root #keyboard {
+#dm-root #keyboard,
+#ms-root #keyboard {
 	margin-top: 12px;
 	user-select: none;
 	text-align: center;
@@ -69,14 +150,16 @@ body[data-md-color-scheme="slate"] #pw-root {
 }
 
 #pw-root .kb-row,
-#dm-root .kb-row {
+#dm-root .kb-row,
+#ms-root .kb-row {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 4px;
 }
 
 #pw-root .kb-key,
-#dm-root .kb-key {
+#dm-root .kb-key,
+#ms-root .kb-key {
 	min-width: 2.4em;
 	padding: 8px 6px;
 	margin: 0 2px;
@@ -92,26 +175,30 @@ body[data-md-color-scheme="slate"] #pw-root {
 }
 
 #pw-root .kb-key.wide,
-#dm-root .kb-key.wide {
+#dm-root .kb-key.wide,
+#ms-root .kb-key.wide {
 	min-width: 3.4em;
 }
 
 #pw-root .kb-key.correct,
-#dm-root .kb-key.correct {
+#dm-root .kb-key.correct,
+#ms-root .kb-key.correct {
 	background: #6aaa64;
 	border-color: #6aaa64;
 	color: #ffffff;
 }
 
 #pw-root .kb-key.present,
-#dm-root .kb-key.present {
+#dm-root .kb-key.present,
+#ms-root .kb-key.present {
 	background: #c9b458;
 	border-color: #c9b458;
 	color: #ffffff;
 }
 
 #pw-root .kb-key.absent,
-#dm-root .kb-key.absent {
+#dm-root .kb-key.absent,
+#ms-root .kb-key.absent {
 	background: #787c7e;
 	border-color: #787c7e;
 	color: #ffffff;
@@ -119,8 +206,10 @@ body[data-md-color-scheme="slate"] #pw-root {
 
 #pw-root .kb-key.disabled,
 #dm-root .kb-key.disabled,
+#ms-root .kb-key.disabled,
 #pw-root .kb-key:disabled,
-#dm-root .kb-key:disabled {
+#dm-root .kb-key:disabled,
+#ms-root .kb-key:disabled {
 	background: var(--kb-disabled-bg);
 	color: var(--kb-disabled-fg);
 	opacity: 1;
@@ -130,22 +219,27 @@ body[data-md-color-scheme="slate"] #pw-root {
 
 body[data-md-color-scheme="slate"] #pw-root .kb-key.disabled,
 body[data-md-color-scheme="slate"] #dm-root .kb-key.disabled,
+body[data-md-color-scheme="slate"] #ms-root .kb-key.disabled,
 body[data-md-color-scheme="slate"] #pw-root .kb-key:disabled,
-body[data-md-color-scheme="slate"] #dm-root .kb-key:disabled {
+body[data-md-color-scheme="slate"] #dm-root .kb-key:disabled,
+body[data-md-color-scheme="slate"] #ms-root .kb-key:disabled {
 	background: linear-gradient(to bottom, rgba(255,255,255,0.08), rgba(0,0,0,0.08)), var(--kb-disabled-bg);
 }
 
 /* Ensure the glyph color actually updates (Safari can ignore color without this) */
 body[data-md-color-scheme="slate"] #dm-root button.kb-key,
-body[data-md-color-scheme="slate"] #pw-root button.kb-key {
+body[data-md-color-scheme="slate"] #pw-root button.kb-key,
+body[data-md-color-scheme="slate"] #ms-root button.kb-key {
 	color: var(--kb-key-fg);
 	-webkit-text-fill-color: var(--kb-key-fg);
 }
 
 body[data-md-color-scheme="slate"] #dm-root button.kb-key:disabled,
 body[data-md-color-scheme="slate"] #pw-root button.kb-key:disabled,
+body[data-md-color-scheme="slate"] #ms-root button.kb-key:disabled,
 body[data-md-color-scheme="slate"] #dm-root button.kb-key.disabled,
-body[data-md-color-scheme="slate"] #pw-root button.kb-key.disabled {
+body[data-md-color-scheme="slate"] #pw-root button.kb-key.disabled,
+body[data-md-color-scheme="slate"] #ms-root button.kb-key.disabled {
 	color: var(--kb-disabled-fg);
 	-webkit-text-fill-color: var(--kb-disabled-fg);
 	opacity: 1;
@@ -153,7 +247,9 @@ body[data-md-color-scheme="slate"] #pw-root button.kb-key.disabled {
 
 /* Shared help + hint control bar */
 #pw-root #hint-area,
-#dm-root #hint-area {
+#dm-root #hint-area,
+#ms-root #hint-area,
+#bm-root #hint-area {
 	margin: 8px 0 10px;
 	display: flex;
 	gap: 10px;
@@ -167,7 +263,9 @@ body[data-md-color-scheme="slate"] #pw-root button.kb-key.disabled {
 }
 
 #pw-root #controls-left,
-#dm-root #controls-left {
+#dm-root #controls-left,
+#ms-root #controls-left,
+#bm-root #controls-left {
 	display: flex;
 	gap: 8px;
 	align-items: center;
@@ -175,7 +273,9 @@ body[data-md-color-scheme="slate"] #pw-root button.kb-key.disabled {
 }
 
 #pw-root #help-button,
-#dm-root #help-button {
+#dm-root #help-button,
+#ms-root #help-button,
+#bm-root #help-button {
 	padding: 4px 10px;
 	font-size: 0.9rem;
 	cursor: pointer;
@@ -186,7 +286,9 @@ body[data-md-color-scheme="slate"] #pw-root button.kb-key.disabled {
 }
 
 #pw-root #hint-button,
-#dm-root #hint-button {
+#dm-root #hint-button,
+#ms-root #hint-button,
+#bm-root #hint-button {
 	display: inline-block;
 	padding: 6px 10px;
 	font-size: 0.88rem;
@@ -199,7 +301,9 @@ body[data-md-color-scheme="slate"] #pw-root button.kb-key.disabled {
 }
 
 #pw-root #hint-status,
-#dm-root #hint-status {
+#dm-root #hint-status,
+#ms-root #hint-status,
+#bm-root #hint-status {
 	margin-top: 0;
 	font-size: 0.9rem;
 	opacity: 0.9;
@@ -210,7 +314,9 @@ body[data-md-color-scheme="slate"] #pw-root button.kb-key.disabled {
 
 @media (max-width: 600px) {
 	#pw-root #hint-status,
-	#dm-root #hint-status {
+	#dm-root #hint-status,
+	#ms-root #hint-status,
+	#bm-root #hint-status {
 		text-align: left;
 		min-width: 0;
 		flex-basis: 100%;
@@ -219,21 +325,24 @@ body[data-md-color-scheme="slate"] #pw-root button.kb-key.disabled {
 
 /* Shared Wordle-style board */
 body[data-md-color-scheme="default"] #pw-root,
-body[data-md-color-scheme="default"] #dm-root {
+body[data-md-color-scheme="default"] #dm-root,
+body[data-md-color-scheme="default"] #ms-root {
 	--dp-cell-empty-bg: #f2f2f2;
 	--dp-cell-border: #d3d6da;
 	--dp-cell-pending-border: #878a8c;
 }
 
 body[data-md-color-scheme="slate"] #pw-root,
-body[data-md-color-scheme="slate"] #dm-root {
+body[data-md-color-scheme="slate"] #dm-root,
+body[data-md-color-scheme="slate"] #ms-root {
 	--dp-cell-empty-bg: #3b3f46;
 	--dp-cell-border: rgba(255,255,255,0.18);
 	--dp-cell-pending-border: rgba(255,255,255,0.35);
 }
 
 #pw-root #board,
-#dm-root #board {
+#dm-root #board,
+#ms-root #board {
 	margin: 6px auto 6px;
 	text-align: center;
 	background: var(--md-default-bg-color);
@@ -243,14 +352,16 @@ body[data-md-color-scheme="slate"] #dm-root {
 }
 
 #pw-root .row,
-#dm-root .row {
+#dm-root .row,
+#ms-root .row {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 4px;
 }
 
 #pw-root .cell,
-#dm-root .cell {
+#dm-root .cell,
+#ms-root .cell {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
@@ -269,32 +380,37 @@ body[data-md-color-scheme="slate"] #dm-root {
 }
 
 #pw-root .cell.empty,
-#dm-root .cell.empty {
+#dm-root .cell.empty,
+#ms-root .cell.empty {
 	background: var(--dp-cell-empty-bg);
 	border-color: var(--dp-cell-border);
 }
 
 #pw-root .cell.pending,
-#dm-root .cell.pending {
+#dm-root .cell.pending,
+#ms-root .cell.pending {
 	border-color: var(--dp-cell-pending-border);
 }
 
 #pw-root .cell.correct,
-#dm-root .cell.correct {
+#dm-root .cell.correct,
+#ms-root .cell.correct {
 	background: #6aaa64;
 	color: #ffffff;
 	border-color: #6aaa64;
 }
 
 #pw-root .cell.present,
-#dm-root .cell.present {
+#dm-root .cell.present,
+#ms-root .cell.present {
 	background: #c9b458;
 	color: #ffffff;
 	border-color: #c9b458;
 }
 
 #pw-root .cell.absent,
-#dm-root .cell.absent {
+#dm-root .cell.absent,
+#ms-root .cell.absent {
 	background: #787c7e;
 	color: #ffffff;
 	border-color: #787c7e;
@@ -307,16 +423,28 @@ body[data-md-color-scheme="slate"] #dm-root {
 /* Accessibility */
 #pw-root button:focus-visible,
 #dm-root button:focus-visible,
+#ms-root button:focus-visible,
+#bm-root button:focus-visible,
 #pw-root .kb-key:focus-visible,
-#dm-root .kb-key:focus-visible {
+#dm-root .kb-key:focus-visible,
+#ms-root .kb-key:focus-visible {
 	outline: 3px solid var(--md-accent-fg-color);
 	outline-offset: 2px;
 }
 
 /* Final authority: ensure key labels are readable in slate mode in all browsers */
 body[data-md-color-scheme="slate"] .md-typeset #pw-root .kb-key,
-body[data-md-color-scheme="slate"] .md-typeset #dm-root .kb-key {
+body[data-md-color-scheme="slate"] .md-typeset #dm-root .kb-key,
+body[data-md-color-scheme="slate"] .md-typeset #ms-root .kb-key {
 	color: rgba(255,255,255,0.92);
+}
+
+/* Intro paragraph inside the puzzle root, below the stats card */
+.dp-intro {
+	font-size: 0.85rem;
+	line-height: 1.5;
+	margin: 0 0 8px;
+	opacity: 0.85;
 }
 
 .dp-next-reset{
@@ -335,11 +463,11 @@ body[data-md-color-scheme="slate"] .dp-next-reset{
    ================================================ */
 .dp-stats-card {
 	display: flex;
-	justify-content: center;
-	gap: 12px;
-	flex-wrap: wrap;
-	margin: 6px 0 12px;
-	padding: 10px 12px;
+	justify-content: space-between;
+	gap: 0;
+	flex-wrap: nowrap;
+	margin: 4px 0 8px;
+	padding: 4px 8px;
 	border-radius: 0.6rem;
 	border: 1px solid rgba(127,127,127,0.25);
 	background: var(--md-default-bg-color);
@@ -349,14 +477,17 @@ body[data-md-color-scheme="slate"] .dp-next-reset{
 
 .dp-stat-item {
 	display: flex;
-	flex-direction: column;
-	align-items: center;
-	min-width: 48px;
-	padding: 4px 8px;
+	flex-direction: row;
+	align-items: baseline;
+	gap: 5px;
+	min-width: 0;
+	flex: 1;
+	justify-content: center;
+	padding: 2px 6px;
 }
 
 .dp-stat-value {
-	font-size: 1.6rem;
+	font-size: 1.1rem;
 	font-weight: 700;
 	line-height: 1.2;
 	font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
@@ -368,7 +499,7 @@ body[data-md-color-scheme="slate"] .dp-next-reset{
 	text-transform: uppercase;
 	letter-spacing: 0.04em;
 	opacity: 0.7;
-	margin-top: 2px;
+	margin-top: 0;
 }
 
 .dp-streak-active .dp-stat-value::before {
