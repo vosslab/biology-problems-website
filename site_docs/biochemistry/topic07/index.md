@@ -164,31 +164,7 @@ Reaction rates, enzyme efficiency, and inhibition mechanisms.
 </details>
 
 
-## Thinking...
-We need to generate a concise title that classifies these problems. The two problems both ask to determine the type of enzyme inhibition or activation. Problem 1: end product J binds allosterically to enzyme 1, decreases activity: that's non-competitive inhibition? Actually end product binds away from active site, decreasing activity: that's non-competitive inhibition (or allosteric inhibition). Problem 2: end product I binds allosterically to enzyme 1, increases activity: that's allosteric activation (non-competitive activation). So both problems are about determining type of inhibition or activation.
-
-So title: Determining Enzyme Inhibition or Activation Type.
-
-We need to use Task + Topic + Key Detail format. Task: Determining. Topic: Enzyme Inhibition or Activation. Key detail: End product allosteric effect. So "Determining Enzyme Inhibition or Activation by End Product Binding".
-
-We need to keep concise and accessible. Avoid complex terms but can use inhibition/activation.
-
-Probably "Determining Enzyme Inhibition or Activation by End Product Binding".
-
-Alternatively "Determining Allosteric Inhibition or Activation". But the problems ask for type, not allosteric per se.
-
-Given guidelines: "Determining Enzyme Inhibition and Activation in Metabolic Pathways" already exists in sample. That might be close. But we should provide a single title for both problems. So maybe "Determining Enzyme Inhibition or Activation in a Metabolic Pathway".
-
-But key detail: binding at a location far from active site. So "Determining Allosteric Inhibition or Activation in a Metabolic Pathway".
-
-Better: "Determining Allosteric Inhibition or Activation in a Metabolic Pathway".
-
-Task: Determining, Topic: Allosteric Inhibition or Activation, Key Detail: Metabolic Pathway.
-
-Thus final answer: Determining Allosteric Inhibition or Activation in a Metabolic Pathway.
-...done thinking.
-
-Determining Allosteric Inhibition or Activation in a Metabolic Pathway
+## Allosteric Inhibition and Activation in Metabolic Pathways
 
 <div id="metabolic_pathway_inhibitor-BCHM355-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-metabolic_pathway_inhibitor-BCHM355-questions.txt" download title="Download bbq-metabolic_pathway_inhibitor-BCHM355-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-metabolic_pathway_inhibitor-BCHM355-questions.txt)">
@@ -209,31 +185,7 @@ Determining Allosteric Inhibition or Activation in a Metabolic Pathway
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Thinking...
-We need to generate a concise title that classifies these problems. The two problems both ask to determine the type of enzyme inhibition or activation. Problem 1: end product J binds allosterically to enzyme 1, decreases activity: that's non-competitive inhibition? Actually end product binds away from active site, decreasing activity: that's non-competitive inhibition (or allosteric inhibition). Problem 2: end product I binds allosterically to enzyme 1, increases activity: that's allosteric activation (non-competitive activation). So both problems are about determining type of inhibition or activation.
-
-So title: Determining Enzyme Inhibition or Activation Type.
-
-We need to use Task + Topic + Key Detail format. Task: Determining. Topic: Enzyme Inhibition or Activation. Key detail: End product allosteric effect. So "Determining Enzyme Inhibition or Activation by End Product Binding".
-
-We need to keep concise and accessible. Avoid complex terms but can use inhibition/activation.
-
-Probably "Determining Enzyme Inhibition or Activation by End Product Binding".
-
-Alternatively "Determining Allosteric Inhibition or Activation". But the problems ask for type, not allosteric per se.
-
-Given guidelines: "Determining Enzyme Inhibition and Activation in Metabolic Pathways" already exists in sample. That might be close. But we should provide a single title for both problems. So maybe "Determining Enzyme Inhibition or Activation in a Metabolic Pathway".
-
-But key detail: binding at a location far from active site. So "Determining Allosteric Inhibition or Activation in a Metabolic Pathway".
-
-Better: "Determining Allosteric Inhibition or Activation in a Metabolic Pathway".
-
-Task: Determining, Topic: Allosteric Inhibition or Activation, Key Detail: Metabolic Pathway.
-
-Thus final answer: Determining Allosteric Inhibition or Activation in a Metabolic Pathway.
-...done thinking.
-
-Determining Allosteric Inhibition or Activation in a Metabolic Pathway
+      Allosteric Inhibition and Activation in Metabolic Pathways
     </span>
     <span style='font-weight: normal;'>
       example problem
