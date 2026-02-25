@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-02-24
+- Added Wordle-style game-end modal with guess distribution chart, win percentage, streak indicators, and next-puzzle timer to all three daily puzzles (Peptidyle, Deletion Mutants, Mutant Screen).
+- Redesigned stats bar from horizontal pill layout to card-style grid with large values on top and labels below.
+- Extended stats data model with `guessDistribution` array; backward-compatible with old localStorage data.
+- Added fire emoji indicator for active streaks.
+
 ## 2026-02-06
 - Updated `bbq_control/run_bbq_tasks.py` to append `--no-hidden-terms --allow-click` to every task command so website batch runs disable bptools anti-cheat filters globally.
 - Updated `bbq_control/source_me.sh` to fall back to `~/nsh/PROBLEMS/qti_package_maker` (and repo-parent `qti_package_maker`) when `paths.qti_package_maker` points to a missing location.
