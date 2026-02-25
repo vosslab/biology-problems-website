@@ -56,6 +56,7 @@
 .fa-chart-bar:before { content: "\f080"; }
 .fa-dice:before { content: "\f522"; }
 .fa-sitemap:before { content: "\f0e8"; }
+.fa-code:before { content: "\f121"; }
 .fa-external-link-alt:before { content: "\f35d"; }
 .fa-creative-commons:before { content: "\f25e"; }
 .fa-creative-commons-by:before { content: "\f4e7"; }
@@ -109,6 +110,10 @@ a.md-button.custom-button:active {
 
 .human_read {
   filter: hue-rotate(-60deg);
+}
+
+.webwork_pgml {
+  filter: hue-rotate(120deg);
 }
 
 .md-sidebar--secondary {
