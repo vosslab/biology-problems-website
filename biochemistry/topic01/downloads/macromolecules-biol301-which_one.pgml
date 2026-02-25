@@ -1,0 +1,1713 @@
+## DESCRIPTION
+## Select the type of macromolecule that corresponds to the given macromolecule.
+## ENDDESCRIPTION
+## KEYWORDS('types of macromolecules','macromolecules','which one','multiple choice')
+## DBsubject('Biochemistry')
+## DBchapter('')
+## DBsection('')
+## Date('2026-02-25')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserRadioButtons.pl',
+    'PGcourse.pl',
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 0;
+
+#==========================================================
+# QUESTION DATA
+#==========================================================
+
+# All questions data
+@questions_data = (
+  {
+    'item_name' => '<strong>amino acids</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>amino acid tryptophan</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>amino acid alanine</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>amino acid glycine</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>amino acid serine</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>amino acid threonine</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>amino acid tyrosine</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>amino acid phenylalanine</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>amino acid histidine</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>amino acid aspartate</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>amino acid aspartic acid</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>amino acid asparagine</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>amino acid cysteine</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>amino acid arginine</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>amino acid glutamate</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>amino acid glutamic acid</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>amino acid glutamine</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>amino acid leucine</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>amino acid isoleucine</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>amino acid methionine</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>amino acid lysine</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>amino acid proline</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>amino acid valine</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>primary structure</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>secondary structure</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>tertiary structure</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>quaternary structure</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>polypeptides</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>enzymes</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>hemoglobin</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>only macromolecule that often contains sulfur atoms</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>speed up chemical reactions</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>side chains</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>α-helix or alpha-helix</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>β-sheet or beta-sheet</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>β-strand or beta-strand</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>β-pleated sheet or beta-pleated sheet</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>contains an alpha-carbon or Cα</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>disulfide bridges</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>hydrophobic core</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>denaturation</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>native structure</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>chaperonins</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">proteins</span>',
+  },
+  {
+    'item_name' => '<strong>sugar</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+  },
+  {
+    'item_name' => '<strong>main compontent of the tough cell wall in plants</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+  },
+  {
+    'item_name' => '<strong>monosaccharides</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+  },
+  {
+    'item_name' => '<strong>hexose</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+  },
+  {
+    'item_name' => '<strong>pentose</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+  },
+  {
+    'item_name' => '<strong>triose</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+  },
+  {
+    'item_name' => '<strong>ketose</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+  },
+  {
+    'item_name' => '<strong>aldose</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+  },
+  {
+    'item_name' => '<strong>chemical formula of C&gt;₆H&gt;₁₂O&gt;₆</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+  },
+  {
+    'item_name' => '<strong>ribose</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+  },
+  {
+    'item_name' => '<strong>glucose</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+  },
+  {
+    'item_name' => '<strong>galactose</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+  },
+  {
+    'item_name' => '<strong>fructose</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+  },
+  {
+    'item_name' => '<strong>disaccharides</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+  },
+  {
+    'item_name' => '<strong>sucrose</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+  },
+  {
+    'item_name' => '<strong>maltose</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+  },
+  {
+    'item_name' => '<strong>lactose</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+  },
+  {
+    'item_name' => '<strong>glycosidic linkage</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+  },
+  {
+    'item_name' => '<strong>α-glycosidic linkage</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+  },
+  {
+    'item_name' => '<strong>β-glycosidic linkage</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+  },
+  {
+    'item_name' => '<strong>oligosaccharides</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+  },
+  {
+    'item_name' => '<strong>polysaccharides</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+  },
+  {
+    'item_name' => '<strong>starch</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+  },
+  {
+    'item_name' => '<strong>glycogen</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+  },
+  {
+    'item_name' => '<strong>amylose starch</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+  },
+  {
+    'item_name' => '<strong>amylopectin starch</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+  },
+  {
+    'item_name' => '<strong>chitin</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+  },
+  {
+    'item_name' => '<strong>cellulose</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+  },
+  {
+    'item_name' => '<strong>dietary fiber</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+  },
+  {
+    'item_name' => '<strong>exoskeleton of arthropods</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+  },
+  {
+    'item_name' => '<strong>macromolecule used to make strong and flexible surgical thread</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+  },
+  {
+    'item_name' => '<strong>pectin – a heteropolysaccharide present in plant cell walls</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+  },
+  {
+    'item_name' => '<strong>xanthan gum – polysaccharide used as a thickening agent in food</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+  },
+  {
+    'item_name' => '<strong>agarose – a heteropolysaccharide extracted from certain red seaweed</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+  },
+  {
+    'item_name' => '<strong>vegetable oil</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">lipids</span>',
+  },
+  {
+    'item_name' => '<strong>beeswax</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">lipids</span>',
+  },
+  {
+    'item_name' => '<strong>olive oil</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">lipids</span>',
+  },
+  {
+    'item_name' => '<strong>oil</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">lipids</span>',
+  },
+  {
+    'item_name' => '<strong>wax</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">lipids</span>',
+  },
+  {
+    'item_name' => '<strong>fat</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">lipids</span>',
+  },
+  {
+    'item_name' => '<strong>fatty acids</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">lipids</span>',
+  },
+  {
+    'item_name' => '<strong>ω-3 fatty acids</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">lipids</span>',
+  },
+  {
+    'item_name' => '<strong>saturated fatty acids</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">lipids</span>',
+  },
+  {
+    'item_name' => '<strong>unsaturated fatty acids</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">lipids</span>',
+  },
+  {
+    'item_name' => '<strong>chemical process of hydrogenation</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">lipids</span>',
+  },
+  {
+    'item_name' => '<strong>cis-unsaturated fatty acids</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">lipids</span>',
+  },
+  {
+    'item_name' => '<strong>trans-unsaturated fatty acids</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">lipids</span>',
+  },
+  {
+    'item_name' => '<strong>butter or margarine</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">lipids</span>',
+  },
+  {
+    'item_name' => '<strong>detergents</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">lipids</span>',
+  },
+  {
+    'item_name' => '<strong>trans-fat</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">lipids</span>',
+  },
+  {
+    'item_name' => '<strong>most hydrophobic macromolecule</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">lipids</span>',
+  },
+  {
+    'item_name' => '<strong>only macromolecule that is NOT a polymer</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">lipids</span>',
+  },
+  {
+    'item_name' => '<strong>does NOT form long polymers</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">lipids</span>',
+  },
+  {
+    'item_name' => '<strong>made of long hydrocarbons</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">lipids</span>',
+  },
+  {
+    'item_name' => '<strong>fatty acids attached to glycerol backbone</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">lipids</span>',
+  },
+  {
+    'item_name' => '<strong>macromolecule with the highest energy density</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">lipids</span>',
+  },
+  {
+    'item_name' => '<strong>does NOT dissolve well in water</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">lipids</span>',
+  },
+  {
+    'item_name' => '<strong>long-term energy storage from food</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">lipids</span>',
+  },
+  {
+    'item_name' => '<strong>membrane bilayer</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">lipids</span>',
+  },
+  {
+    'item_name' => '<strong>phospho<span style="color: #e65400; font-weight:700;">lipids</span></strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">lipids</span>',
+  },
+  {
+    'item_name' => '<strong>triglycerides or fat</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">lipids</span>',
+  },
+  {
+    'item_name' => '<strong>steroids</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">lipids</span>',
+  },
+  {
+    'item_name' => '<strong>cholesterol</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">lipids</span>',
+  },
+  {
+    'item_name' => '<strong>testosterone</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">lipids</span>',
+  },
+  {
+    'item_name' => '<strong>estrogen</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">lipids</span>',
+  },
+  {
+    'item_name' => '<strong>nucleotides</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+  },
+  {
+    'item_name' => '<strong>nucleobases</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+  },
+  {
+    'item_name' => '<strong>nitrogenous bases</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+  },
+  {
+    'item_name' => '<strong>polynucleotides</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+  },
+  {
+    'item_name' => '<strong>pyrimidines</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+  },
+  {
+    'item_name' => '<strong>purines</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+  },
+  {
+    'item_name' => '<strong>deoxyribose backbone</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+  },
+  {
+    'item_name' => '<strong>double stranded helix</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+  },
+  {
+    'item_name' => '<strong>anti-parallel helix</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+  },
+  {
+    'item_name' => '<strong>5′ → 3′ direction</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+  },
+  {
+    'item_name' => '<strong>polymer is connected by phosphates</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+  },
+  {
+    'item_name' => '<strong>backbone of sugar-phosphate units</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+  },
+  {
+    'item_name' => '<strong>adenine</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+  },
+  {
+    'item_name' => '<strong>adenosine triphosphate</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+  },
+  {
+    'item_name' => '<strong>thymine</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+  },
+  {
+    'item_name' => '<strong>cytosine</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+  },
+  {
+    'item_name' => '<strong>guanine</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+  },
+  {
+    'item_name' => '<strong>uracil</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+  },
+  {
+    'item_name' => '<strong>polynucleotides</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+  },
+  {
+    'item_name' => '<strong>DNA</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+  },
+  {
+    'item_name' => '<strong>RNA</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+  },
+  {
+    'item_name' => '<strong>messenger RNA</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+  },
+  {
+    'item_name' => '<strong>transfer RNA</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+  },
+  {
+    'item_name' => '<strong>ribosomal RNA</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+  },
+  {
+    'item_name' => '<strong>ATP</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+  },
+  {
+    'item_name' => '<strong>deoxyribonucleic acid</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+  },
+  {
+    'item_name' => '<strong>ribonucleic acid</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'macromolecule',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">proteins</span>',
+      '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
+      '<span style="color: #e65400; font-weight:700;">lipids</span>',
+      '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+    ],
+    'correct' => '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+  },
+);
+
+#==========================================================
+# SELECT RANDOM QUESTION
+#==========================================================
+
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+
+$question_idx = $local_random->random(0, scalar(@questions_data) - 1, 1);
+$q = $questions_data[$question_idx];
+
+$item_name = $q->{'item_name'};
+$plural_choice = $q->{'plural_choice'};
+$singular_item = $q->{'singular_item'};
+@choices = @{ $q->{'choices'} };
+$correct = $q->{'correct'};
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# BUILD RADIO BUTTONS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => 'ABC',
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+Which one of the following [$plural_choice]* corresponds to the [$singular_item]* [$item_name]*?
+
+[_]{$rb}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The correct answer is: [$correct]*
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+
