@@ -1,15 +1,6 @@
-bbq-Henderson-Hasselbalch-EQUATION-questions.txt: The Correct Henderson-Hasselbalch
+bbq-Henderson-Hasselbalch-EQUATION-questions.txt: Correct Henderson-Hasselbalch Equation
+bbq-Henderson-Hasselbalch-equation-questions.txt: Correct Form of the Henderson-Hasselbalch
   Equation
-bbq-Henderson-Hasselbalch-equation-questions.txt: 'Correct Form of the Henderson-Hasselbalch
-  Equation
-
-
-  This title reflects the primary task of determining which equations correctly represent
-  the Henderson-Hasselbalch equation, a concept related to pH and buffer solutions.
-  The filename indicates that these problems involve variations or representations
-  of this equation, making "identifying" an appropriate verb as students need to discern
-  the correct form among given options. This concise heading effectively classifies
-  the problem set for both students and educators.'
 bbq-Henderson-Hasselbalch-pH_mc-questions.txt: pH Using the Henderson-Hasselbalch
   Equation
 bbq-Henderson-Hasselbalch-pH_num-questions.txt: pH Using the Henderson-Hasselbalch
@@ -33,4 +24,4 @@ bbq-pKa_buffer_state-3_protons-questions.txt: The Most Abundant Triprotic State 
 bbq-pKa_buffer_state-4_protons-questions.txt: The Most Abundant Tetraprotic State
   at a Given pH Using pKa
 bbq-ph_h_concentration_ratio-questions.txt: pH Differences Between Solutions
-last edit: Wed Feb  4 08:15:53 2026
+last edit: Wed Feb 25 15:17:23 2026
