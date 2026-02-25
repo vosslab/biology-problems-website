@@ -123,13 +123,10 @@ function mutantScreenSetupGame() {
 	function renderProblem() {
 		var metabolitesText = listToText(state.growthData.metabolites);
 
-		var hintText = "<p><strong>Hint</strong>: The correct pathway order spells an English dictionary word.</p>";
-
 		summaryEl.innerHTML =
-			"<p>Five auxotrophic mutant classes were isolated in <em>Neurospora</em>. " +
-			"Each class is blocked at a different step in a biosynthetic pathway that produces an essential metabolite.</p>" +
-			"<p>The table below shows whether each class grows (+) or does not grow (&ndash;) when supplemented with each intermediate: " + metabolitesText + ".</p>" +
-			hintText;
+			"<p>Five <em>Neurospora</em> auxotrophic mutant classes are each blocked at a different biosynthetic step. " +
+			"The table shows growth (+) or no growth (&ndash;) when supplemented with intermediates: " + metabolitesText + ". " +
+			"<strong>Hint</strong>: The correct pathway order spells an English word.</p>";
 
 		tableEl.innerHTML = "";
 

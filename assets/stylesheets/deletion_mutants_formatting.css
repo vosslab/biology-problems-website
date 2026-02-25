@@ -1,16 +1,10 @@
-/* Root container so styles stay self contained */
-#dm-root {
-	max-width: 900px;
-	margin: 0 auto;
-	padding: 20px;
-	font-family: system-ui, Arial, sans-serif;
-	box-sizing: border-box;
+/* Deletion mutants-specific styles (shared styles in daily_puzzle.css) */
 
-	color: var(--md-default-fg-color);
+/* Custom variables */
+#dm-root {
 	--dm-surface: var(--md-default-bg-color);
 	--dm-border: rgba(127, 127, 127, 0.25);
 	--dm-border-strong: rgba(127, 127, 127, 0.45);
-	--dm-toast-bg: rgba(0, 0, 0, 0.85);
 }
 
 body[data-md-color-scheme="default"] #dm-root {
@@ -21,22 +15,6 @@ body[data-md-color-scheme="default"] #dm-root {
 body[data-md-color-scheme="slate"] #dm-root {
 	--dm-empty-cell-bg: #3b3f46;
 	--dm-empty-board-bg: #2b2f35;
-}
-
-#dm-root #stats {
-	font-size: 0.9rem;
-	margin-bottom: 10px;
-	background: var(--dm-surface);
-	border: 1px solid var(--dm-border);
-	border-radius: 0.6rem;
-	padding: 6px 8px;
-}
-
-#dm-root #message {
-	min-height: 0;
-	margin: 8px 0 6px;
-	text-align: center;
-	font-size: 0.95rem;
 }
 
 /* Evidence block layout */
@@ -202,46 +180,3 @@ body[data-md-color-scheme="slate"] #dm-root {
 	flex: 1 1 auto;
 	min-width: 0;
 }
-
-/* Wordle-style board */
-#dm-root #board {
-	margin: 6px auto 6px;
-	text-align: center;
-	background: var(--dm-surface);
-	border: 1px solid var(--dm-border);
-	border-radius: 0.6rem;
-	padding: 10px 8px;
-}
-
-#dm-root .row {
-	display: flex;
-	justify-content: center;
-	margin-bottom: 4px;
-}
-
-/* Toast messages */
-#dm-root #toast-container {
-	position: fixed;
-	top: 12px;
-	left: 50%;
-	transform: translateX(-50%);
-	z-index: 1000;
-	pointer-events: none;
-}
-
-#dm-root .toast {
-	background: var(--dm-toast-bg);
-	color: #ffffff;
-	padding: 8px 14px;
-	margin-top: 4px;
-	border-radius: 4px;
-	font-size: 0.9rem;
-	opacity: 0;
-	transition: opacity 0.15s ease;
-}
-
-#dm-root .toast.show {
-	opacity: 1;
-}
-
-/* Controls + keyboard UI is shared in assets/stylesheets/daily_puzzle.css */

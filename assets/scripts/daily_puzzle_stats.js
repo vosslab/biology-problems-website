@@ -185,8 +185,10 @@
 					"<div class='dp-modal-title'>" + title + "</div>" +
 					"<div class='dp-modal-subtitle'>" + subtitle + "</div>" +
 					renderStatsHtml(stats) +
-					"<div class='dp-modal-section-title'>Guess Distribution</div>" +
-					buildDistributionHtml(stats, highlightIndex) +
+					(modalMaxGuesses > 1
+						? "<div class='dp-modal-section-title'>Guess Distribution</div>" +
+						  buildDistributionHtml(stats, highlightIndex)
+						: "") +
 					"<div class='dp-modal-timer' id='dp-modal-timer'></div>" +
 					"<button class='dp-modal-btn-close'>Close</button>" +
 				"</div>";
