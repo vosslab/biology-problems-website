@@ -19,6 +19,9 @@ Protein folding, structural levels, and mechanisms.
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-levels_of_protein_structure.html', '_blank')" title="View human_readable-MATCH-levels_of_protein_structure.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-levels_of_protein_structure.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/levels_of_protein_structure-matching.pgml" download title="Download levels_of_protein_structure-matching.pgml" aria-label="Click to download the WeBWorK PGML file (levels_of_protein_structure-matching.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -51,6 +54,9 @@ Protein folding, structural levels, and mechanisms.
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-levels_of_protein_structure.html', '_blank')" title="View human_readable-WOMC-levels_of_protein_structure.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-levels_of_protein_structure.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/levels_of_protein_structure-which_one.pgml" download title="Download levels_of_protein_structure-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (levels_of_protein_structure-which_one.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>

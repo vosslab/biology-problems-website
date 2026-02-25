@@ -19,6 +19,9 @@ Molecular design of life, major elements, and biomacromolecules.
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-bond_types.html', '_blank')" title="View human_readable-MATCH-bond_types.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-bond_types.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/bond_types-matching.pgml" download title="Download bond_types-matching.pgml" aria-label="Click to download the WeBWorK PGML file (bond_types-matching.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -51,6 +54,9 @@ Molecular design of life, major elements, and biomacromolecules.
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-macromolecules-biol301.html', '_blank')" title="View human_readable-MATCH-macromolecules-biol301.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-macromolecules-biol301.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/macromolecules-biol301-matching.pgml" download title="Download macromolecules-biol301-matching.pgml" aria-label="Click to download the WeBWorK PGML file (macromolecules-biol301-matching.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -83,6 +89,9 @@ Molecular design of life, major elements, and biomacromolecules.
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-macromolecules.html', '_blank')" title="View human_readable-MATCH-macromolecules.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-macromolecules.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/macromolecules-matching.pgml" download title="Download macromolecules-matching.pgml" aria-label="Click to download the WeBWorK PGML file (macromolecules-matching.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -115,6 +124,9 @@ Molecular design of life, major elements, and biomacromolecules.
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-bond_types.html', '_blank')" title="View human_readable-WOMC-bond_types.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-bond_types.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/bond_types-which_one.pgml" download title="Download bond_types-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (bond_types-which_one.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -147,6 +159,9 @@ Molecular design of life, major elements, and biomacromolecules.
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-macromolecules-biol301.html', '_blank')" title="View human_readable-WOMC-macromolecules-biol301.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-macromolecules-biol301.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/macromolecules-biol301-which_one.pgml" download title="Download macromolecules-biol301-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (macromolecules-biol301-which_one.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -179,6 +194,9 @@ Molecular design of life, major elements, and biomacromolecules.
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-macromolecules.html', '_blank')" title="View human_readable-WOMC-macromolecules.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-macromolecules.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/macromolecules-which_one.pgml" download title="Download macromolecules-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (macromolecules-which_one.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>

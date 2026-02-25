@@ -1,0 +1,801 @@
+## DESCRIPTION
+## Select the level of protein structure that corresponds to the given description.
+## ENDDESCRIPTION
+## KEYWORDS('levels of protein structure','descriptions','which one','multiple choice')
+## DBsubject('Biochemistry')
+## DBchapter('')
+## DBsection('')
+## Date('2026-02-25')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserRadioButtons.pl',
+    'PGcourse.pl',
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 0;
+
+#==========================================================
+# QUESTION DATA
+#==========================================================
+
+# All questions data
+@questions_data = (
+  {
+    'item_name' => '<strong>order of the <span style="color: #e65400; font-weight:700;">amino acids</span> in a<span style="color: #e69100; font-weight:700;">polypeptide chain</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #e60000; font-weight:700;">primary</span>',
+  },
+  {
+    'item_name' => '<strong>sequence of <span style="color: #e65400; font-weight:700;">amino acids</span> residues in the <span style="color: #b30077; font-weight:700;">protein</span> chain</strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #e60000; font-weight:700;">primary</span>',
+  },
+  {
+    'item_name' => '<strong>formation of <span style="color: #b3b300; font-weight:700;">peptide bonds</span> to make a<span style="color: #e69100; font-weight:700;">polypeptide chain</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #e60000; font-weight:700;">primary</span>',
+  },
+  {
+    'item_name' => '<strong>intramolecular <span style="color: #b3b300; font-weight:700;">peptide bonds</span> of the linear <span style="color: #e65400; font-weight:700;">amino acid</span>chain</strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #e60000; font-weight:700;">primary</span>',
+  },
+  {
+    'item_name' => '<strong>linear arrangement of the <span style="color: #e65400; font-weight:700;">amino acids</span> connected by the <span style="color: #b3b300; font-weight:700;">peptide bonds</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #e60000; font-weight:700;">primary</span>',
+  },
+  {
+    'item_name' => '<strong>N-terminal to C-terminal list of <span style="color: #e65400; font-weight:700;">amino acids</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #e60000; font-weight:700;">primary</span>',
+  },
+  {
+    'item_name' => '<strong>length of the <span style="color: #e65400; font-weight:700;">amino acid</span>chain</strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #e60000; font-weight:700;">primary</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #e65400; font-weight:700;">amino acid</span>sequence in a<span style="color: #e69100; font-weight:700;">polypeptide chain</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #e60000; font-weight:700;">primary</span>',
+  },
+  {
+    'item_name' => '<strong>linear sequence of <span style="color: #e65400; font-weight:700;">amino acids</span> joined by <span style="color: #b3b300; font-weight:700;">peptide bonds</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #e60000; font-weight:700;">primary</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #b3b300; font-weight:700;">peptide bonds</span> forming a linear chain of <span style="color: #e65400; font-weight:700;">amino acids</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #e60000; font-weight:700;">primary</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #e65400; font-weight:700;">amino acid</span>chain length</strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #e60000; font-weight:700;">primary</span>',
+  },
+  {
+    'item_name' => '<strong>formation of a β-strand within the polypeptide <span style="color: #009900; font-weight:700;">backbone</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #59b300; font-weight:700;">secondary</span>',
+  },
+  {
+    'item_name' => '<strong>formation of a α-helix within the polypeptide <span style="color: #009900; font-weight:700;">backbone</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #59b300; font-weight:700;">secondary</span>',
+  },
+  {
+    'item_name' => '<strong>relative orientation of neighboring <span style="color: #e65400; font-weight:700;">amino acids</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #59b300; font-weight:700;">secondary</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #009900; font-weight:700;">backbone</span> <span style="color: #00b3b3; font-weight:700;">dihedral angles</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #59b300; font-weight:700;">secondary</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #009900; font-weight:700;">backbone</span> <span style="color: #00b38f; font-weight:700;">hydrogen bonding</span> in α-helices</strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #59b300; font-weight:700;">secondary</span>',
+  },
+  {
+    'item_name' => '<strong>Ramachandran plot of <span style="color: #00b3b3; font-weight:700;">dihedral angles</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #59b300; font-weight:700;">secondary</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #00b38f; font-weight:700;">hydrogen bonding</span> between nearby <span style="color: #009900; font-weight:700;">backbone</span> atoms in the<span style="color: #e69100; font-weight:700;">polypeptide chain</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #59b300; font-weight:700;">secondary</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #00b38f; font-weight:700;">hydrogen bonding</span> between nearby <span style="color: #009900; font-weight:700;">backbone</span> atoms in a β-sheet</strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #59b300; font-weight:700;">secondary</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #b3b300; font-weight:700;">peptide bonds</span> restricting rotation of the <span style="color: #009900; font-weight:700;">backbone</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #59b300; font-weight:700;">secondary</span>',
+  },
+  {
+    'item_name' => '<strong>β-strand locations within polypeptide <span style="color: #009900; font-weight:700;">backbone</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #59b300; font-weight:700;">secondary</span>',
+  },
+  {
+    'item_name' => '<strong>locations of α-helix structures within the <span style="color: #009900; font-weight:700;">backbone</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #59b300; font-weight:700;">secondary</span>',
+  },
+  {
+    'item_name' => '<strong>angular orientation between adjacent <span style="color: #e65400; font-weight:700;">amino acids</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #59b300; font-weight:700;">secondary</span>',
+  },
+  {
+    'item_name' => '<strong>α-helix structures linked by <span style="color: #009900; font-weight:700;">backbone</span> <span style="color: #00b38f; font-weight:700;">hydrogen bonding</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #59b300; font-weight:700;">secondary</span>',
+  },
+  {
+    'item_name' => '<strong>restriction of <span style="color: #009900; font-weight:700;">backbone</span> rotation by <span style="color: #b3b300; font-weight:700;">peptide bonds</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #59b300; font-weight:700;">secondary</span>',
+  },
+  {
+    'item_name' => '<strong>φ and ψ <span style="color: #00b3b3; font-weight:700;">dihedral angles</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #59b300; font-weight:700;">secondary</span>',
+  },
+  {
+    'item_name' => '<strong>complete three-dimensional conformation</strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+  },
+  {
+    'item_name' => '<strong>hydrophobic <span style="color: #0039e6; font-weight:700;">side chain</span><span style="color: #004d99; font-weight:700;">interactions</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #00b38f; font-weight:700;">hydrogen bonding</span> between polar <span style="color: #0039e6; font-weight:700;">side chains</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+  },
+  {
+    'item_name' => '<strong>highest level for a <span style="color: #b30077; font-weight:700;">protein</span> with a single peptide chain</strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+  },
+  {
+    'item_name' => '<strong>formation of disulfide bonds by special <span style="color: #0039e6; font-weight:700;">side chains</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+  },
+  {
+    'item_name' => '<strong>disulfide bridges linking distant <span style="color: #e65400; font-weight:700;">amino acids</span> in the same<span style="color: #e69100; font-weight:700;">polypeptide chain</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+  },
+  {
+    'item_name' => '<strong>electrostatic <span style="color: #004d99; font-weight:700;">interactions</span> among charged <span style="color: #0039e6; font-weight:700;">side chains</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+  },
+  {
+    'item_name' => '<strong>ionic bonds between oppositely charged <span style="color: #0039e6; font-weight:700;">side chains</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+  },
+  {
+    'item_name' => '<strong>van der Waals (VDW) <span style="color: #004d99; font-weight:700;">interactions</span> between uncharged <span style="color: #0039e6; font-weight:700;">side chains</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #0039e6; font-weight:700;">side chain</span><span style="color: #00b38f; font-weight:700;">hydrogen bonding</span> between distant <span style="color: #e65400; font-weight:700;">amino acids</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+  },
+  {
+    'item_name' => '<strong>formation of ionic salt bridges by charged <span style="color: #0039e6; font-weight:700;">side chains</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+  },
+  {
+    'item_name' => '<strong>creation of hydrophobic core</strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+  },
+  {
+    'item_name' => '<strong>three-dimensional shape of a single<span style="color: #e69100; font-weight:700;">polypeptide chain</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+  },
+  {
+    'item_name' => '<strong>hydrophobic <span style="color: #004d99; font-weight:700;">interactions</span> of <span style="color: #e65400; font-weight:700;">amino acid</span><span style="color: #0039e6; font-weight:700;">side chains</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+  },
+  {
+    'item_name' => '<strong>creation of disulfide bridges by specific <span style="color: #0039e6; font-weight:700;">side chains</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+  },
+  {
+    'item_name' => '<strong>distant <span style="color: #e65400; font-weight:700;">amino acids</span> linked by disulfide bonds</strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+  },
+  {
+    'item_name' => '<strong>charged <span style="color: #0039e6; font-weight:700;">side chain</span><span style="color: #004d99; font-weight:700;">interactions</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #0039e6; font-weight:700;">side chains</span> with opposite charges forming ionic bonds</strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+  },
+  {
+    'item_name' => '<strong>hydrophobic <span style="color: #0039e6; font-weight:700;">side chain</span>van der Waals (VDW) <span style="color: #004d99; font-weight:700;">interactions</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #00b38f; font-weight:700;">hydrogen bonding</span> between distant <span style="color: #0039e6; font-weight:700;">side chain</span><span style="color: #e65400; font-weight:700;">amino acids</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+  },
+  {
+    'item_name' => '<strong>ionic salt bridge formations between charged <span style="color: #0039e6; font-weight:700;">side chains</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+  },
+  {
+    'item_name' => '<strong>association of two or more <span style="color: #e69100; font-weight:700;">polypeptide chains</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+  },
+  {
+    'item_name' => '<strong>relative orientation of one <span style="color: #b30077; font-weight:700;">protein</span> <span style="color: #cc0066; font-weight:700;">subunits</span>to another <span style="color: #b30077; font-weight:700;">protein</span> subunit</strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+  },
+  {
+    'item_name' => '<strong>formation of oligomers from two or more <span style="color: #b30077; font-weight:700;">protein</span> <span style="color: #cc0066; font-weight:700;">subunits</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+  },
+  {
+    'item_name' => '<strong>manner in which <span style="color: #b30077; font-weight:700;">protein</span> <span style="color: #cc0066; font-weight:700;">subunits</span> are arranged in the native <span style="color: #b30077; font-weight:700;">protein</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+  },
+  {
+    'item_name' => '<strong>number and arrangement of multiple folded <span style="color: #b30077; font-weight:700;">protein</span> <span style="color: #cc0066; font-weight:700;">subunits</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+  },
+  {
+    'item_name' => '<strong>way in which the different <span style="color: #b30077; font-weight:700;">protein</span> <span style="color: #cc0066; font-weight:700;">subunits</span> are packed together</strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+  },
+  {
+    'item_name' => '<strong>dimers, trimers, tetramers, and pentamers</strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+  },
+  {
+    'item_name' => '<strong>homo- and hetero-oligomers</strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+  },
+  {
+    'item_name' => '<strong>assembly of multiple <span style="color: #e69100; font-weight:700;">polypeptide chains</span> into a <span style="color: #b30077; font-weight:700;">protein</span> complex</strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+  },
+  {
+    'item_name' => '<strong>arrangement of many <span style="color: #b30077; font-weight:700;">protein</span> domains</strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+  },
+  {
+    'item_name' => '<strong>arrangement of <span style="color: #cc0066; font-weight:700;">subunits</span> into a <span style="color: #b30077; font-weight:700;">protein</span> complex</strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+  },
+  {
+    'item_name' => '<strong>organization and quantity of folded <span style="color: #e69100; font-weight:700;">polypeptide chains</span></strong>',
+    'plural_choice' => 'levels of <span style="color: #b30077; font-weight:700;">protein</span> structure',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #e60000; font-weight:700;">primary</span>',
+      '<span style="color: #59b300; font-weight:700;">secondary</span>',
+      '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
+      '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+    ],
+    'correct' => '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+  },
+);
+
+#==========================================================
+# SELECT RANDOM QUESTION
+#==========================================================
+
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+
+$question_idx = $local_random->random(0, scalar(@questions_data) - 1, 1);
+$q = $questions_data[$question_idx];
+
+$item_name = $q->{'item_name'};
+$plural_choice = $q->{'plural_choice'};
+$singular_item = $q->{'singular_item'};
+@choices = @{ $q->{'choices'} };
+$correct = $q->{'correct'};
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# BUILD RADIO BUTTONS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => 'ABC',
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+Which one of the following [$plural_choice]* corresponds to the [$singular_item]* [$item_name]*?
+
+[_]{$rb}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The correct answer is: [$correct]*
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+

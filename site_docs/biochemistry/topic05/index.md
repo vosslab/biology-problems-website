@@ -19,6 +19,9 @@ Isolation and analysis methods, chromatography, electrophoresis.
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-cell_disruption.html', '_blank')" title="View human_readable-MATCH-cell_disruption.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-cell_disruption.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/cell_disruption-matching.pgml" download title="Download cell_disruption-matching.pgml" aria-label="Click to download the WeBWorK PGML file (cell_disruption-matching.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -51,6 +54,9 @@ Isolation and analysis methods, chromatography, electrophoresis.
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-column_chromatography.html', '_blank')" title="View human_readable-MATCH-column_chromatography.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-column_chromatography.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/column_chromatography-matching.pgml" download title="Download column_chromatography-matching.pgml" aria-label="Click to download the WeBWorK PGML file (column_chromatography-matching.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -83,6 +89,9 @@ Isolation and analysis methods, chromatography, electrophoresis.
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-protein_v_dna_gels.html', '_blank')" title="View human_readable-MATCH-protein_v_dna_gels.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-protein_v_dna_gels.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/protein_v_dna_gels-matching.pgml" download title="Download protein_v_dna_gels-matching.pgml" aria-label="Click to download the WeBWorK PGML file (protein_v_dna_gels-matching.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -115,6 +124,9 @@ Isolation and analysis methods, chromatography, electrophoresis.
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-cell_disruption.html', '_blank')" title="View human_readable-WOMC-cell_disruption.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-cell_disruption.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/cell_disruption-which_one.pgml" download title="Download cell_disruption-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (cell_disruption-which_one.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -147,6 +159,9 @@ Isolation and analysis methods, chromatography, electrophoresis.
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-column_chromatography.html', '_blank')" title="View human_readable-WOMC-column_chromatography.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-column_chromatography.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/column_chromatography-which_one.pgml" download title="Download column_chromatography-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (column_chromatography-which_one.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -179,6 +194,9 @@ Isolation and analysis methods, chromatography, electrophoresis.
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-protein_v_dna_gels.html', '_blank')" title="View human_readable-WOMC-protein_v_dna_gels.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-protein_v_dna_gels.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/protein_v_dna_gels-which_one.pgml" download title="Download protein_v_dna_gels-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (protein_v_dna_gels-which_one.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>

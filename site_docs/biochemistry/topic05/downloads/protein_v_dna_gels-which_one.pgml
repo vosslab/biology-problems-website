@@ -1,0 +1,324 @@
+## DESCRIPTION
+## Select the type of macromolecules that corresponds to the given gel component or process.
+## ENDDESCRIPTION
+## KEYWORDS('types of macromolecules','gel components or processes','which one','multiple choice')
+## DBsubject('Laboratory Techniques')
+## DBchapter('')
+## DBsection('')
+## Date('2026-02-25')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserRadioButtons.pl',
+    'PGcourse.pl',
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 0;
+
+#==========================================================
+# QUESTION DATA
+#==========================================================
+
+# All questions data
+@questions_data = (
+  {
+    'item_name' => '<strong>sodium dodecyl sulfate (SDS)</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'gel component or process',
+    'choices' => [
+      '<span style="color: #e65400; font-weight:700;">Only proteins</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Only nucleotides</span>',
+      '<span style="color: #7b12a1; font-weight:700;">Both protein and nucleotide</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">Only proteins</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #b3b300; font-weight:700;">dithiothreitol (DTT)</span></strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'gel component or process',
+    'choices' => [
+      '<span style="color: #e65400; font-weight:700;">Only proteins</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Only nucleotides</span>',
+      '<span style="color: #7b12a1; font-weight:700;">Both protein and nucleotide</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">Only proteins</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #59b300; font-weight:700;">β-mercaptoethanol (βME)</span></strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'gel component or process',
+    'choices' => [
+      '<span style="color: #e65400; font-weight:700;">Only proteins</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Only nucleotides</span>',
+      '<span style="color: #7b12a1; font-weight:700;">Both protein and nucleotide</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">Only proteins</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #0039e6; font-weight:700;">Coomassie blue stain</span></strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'gel component or process',
+    'choices' => [
+      '<span style="color: #e65400; font-weight:700;">Only proteins</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Only nucleotides</span>',
+      '<span style="color: #7b12a1; font-weight:700;">Both protein and nucleotide</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">Only proteins</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #00b38f; font-weight:700;">isoelectric focusing</span></strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'gel component or process',
+    'choices' => [
+      '<span style="color: #e65400; font-weight:700;">Only proteins</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Only nucleotides</span>',
+      '<span style="color: #7b12a1; font-weight:700;">Both protein and nucleotide</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">Only proteins</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #e69100; font-weight:700;">heating to almost boiling (95°C)</span></strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'gel component or process',
+    'choices' => [
+      '<span style="color: #e65400; font-weight:700;">Only proteins</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Only nucleotides</span>',
+      '<span style="color: #7b12a1; font-weight:700;">Both protein and nucleotide</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">Only proteins</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #004d99; font-weight:700;">stain / destaining process</span></strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'gel component or process',
+    'choices' => [
+      '<span style="color: #e65400; font-weight:700;">Only proteins</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Only nucleotides</span>',
+      '<span style="color: #7b12a1; font-weight:700;">Both protein and nucleotide</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">Only proteins</span>',
+  },
+  {
+    'item_name' => '<strong>native gels</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'gel component or process',
+    'choices' => [
+      '<span style="color: #e65400; font-weight:700;">Only proteins</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Only nucleotides</span>',
+      '<span style="color: #7b12a1; font-weight:700;">Both protein and nucleotide</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">Only proteins</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #00b38f; font-weight:700;">2D gels</span></strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'gel component or process',
+    'choices' => [
+      '<span style="color: #e65400; font-weight:700;">Only proteins</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Only nucleotides</span>',
+      '<span style="color: #7b12a1; font-weight:700;">Both protein and nucleotide</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">Only proteins</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #00b38f; font-weight:700;">two-dimensional gels</span></strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'gel component or process',
+    'choices' => [
+      '<span style="color: #e65400; font-weight:700;">Only proteins</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Only nucleotides</span>',
+      '<span style="color: #7b12a1; font-weight:700;">Both protein and nucleotide</span>',
+    ],
+    'correct' => '<span style="color: #e65400; font-weight:700;">Only proteins</span>',
+  },
+  {
+    'item_name' => '<strong>agarose gels</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'gel component or process',
+    'choices' => [
+      '<span style="color: #e65400; font-weight:700;">Only proteins</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Only nucleotides</span>',
+      '<span style="color: #7b12a1; font-weight:700;">Both protein and nucleotide</span>',
+    ],
+    'correct' => '<span style="color: #00b3b3; font-weight:700;">Only nucleotides</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #b30077; font-weight:700;">ultraviolet light (UV) visualization</span></strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'gel component or process',
+    'choices' => [
+      '<span style="color: #e65400; font-weight:700;">Only proteins</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Only nucleotides</span>',
+      '<span style="color: #7b12a1; font-weight:700;">Both protein and nucleotide</span>',
+    ],
+    'correct' => '<span style="color: #00b3b3; font-weight:700;">Only nucleotides</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #cc0066; font-weight:700;">ethidium bromide (EtBr) stain</span></strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'gel component or process',
+    'choices' => [
+      '<span style="color: #e65400; font-weight:700;">Only proteins</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Only nucleotides</span>',
+      '<span style="color: #7b12a1; font-weight:700;">Both protein and nucleotide</span>',
+    ],
+    'correct' => '<span style="color: #00b3b3; font-weight:700;">Only nucleotides</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #009900; font-weight:700;">SYBR safe stain</span></strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'gel component or process',
+    'choices' => [
+      '<span style="color: #e65400; font-weight:700;">Only proteins</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Only nucleotides</span>',
+      '<span style="color: #7b12a1; font-weight:700;">Both protein and nucleotide</span>',
+    ],
+    'correct' => '<span style="color: #00b3b3; font-weight:700;">Only nucleotides</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #e60000; font-weight:700;">gel red stain</span></strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'gel component or process',
+    'choices' => [
+      '<span style="color: #e65400; font-weight:700;">Only proteins</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Only nucleotides</span>',
+      '<span style="color: #7b12a1; font-weight:700;">Both protein and nucleotide</span>',
+    ],
+    'correct' => '<span style="color: #00b3b3; font-weight:700;">Only nucleotides</span>',
+  },
+  {
+    'item_name' => '<strong>horizontally run gel</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'gel component or process',
+    'choices' => [
+      '<span style="color: #e65400; font-weight:700;">Only proteins</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Only nucleotides</span>',
+      '<span style="color: #7b12a1; font-weight:700;">Both protein and nucleotide</span>',
+    ],
+    'correct' => '<span style="color: #00b3b3; font-weight:700;">Only nucleotides</span>',
+  },
+  {
+    'item_name' => '<strong>PAGE</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'gel component or process',
+    'choices' => [
+      '<span style="color: #e65400; font-weight:700;">Only proteins</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Only nucleotides</span>',
+      '<span style="color: #7b12a1; font-weight:700;">Both protein and nucleotide</span>',
+    ],
+    'correct' => '<span style="color: #7b12a1; font-weight:700;">Both protein and nucleotide</span>',
+  },
+  {
+    'item_name' => '<strong>acrylamide</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'gel component or process',
+    'choices' => [
+      '<span style="color: #e65400; font-weight:700;">Only proteins</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Only nucleotides</span>',
+      '<span style="color: #7b12a1; font-weight:700;">Both protein and nucleotide</span>',
+    ],
+    'correct' => '<span style="color: #7b12a1; font-weight:700;">Both protein and nucleotide</span>',
+  },
+  {
+    'item_name' => '<strong>polyacrylamide gel electrophoresis</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'gel component or process',
+    'choices' => [
+      '<span style="color: #e65400; font-weight:700;">Only proteins</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Only nucleotides</span>',
+      '<span style="color: #7b12a1; font-weight:700;">Both protein and nucleotide</span>',
+    ],
+    'correct' => '<span style="color: #7b12a1; font-weight:700;">Both protein and nucleotide</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #0a9bf5; font-weight:700;">electrical fields</span></strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'gel component or process',
+    'choices' => [
+      '<span style="color: #e65400; font-weight:700;">Only proteins</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Only nucleotides</span>',
+      '<span style="color: #7b12a1; font-weight:700;">Both protein and nucleotide</span>',
+    ],
+    'correct' => '<span style="color: #7b12a1; font-weight:700;">Both protein and nucleotide</span>',
+  },
+  {
+    'item_name' => '<strong>vertically run gel</strong>',
+    'plural_choice' => 'types of macromolecules',
+    'singular_item' => 'gel component or process',
+    'choices' => [
+      '<span style="color: #e65400; font-weight:700;">Only proteins</span>',
+      '<span style="color: #00b3b3; font-weight:700;">Only nucleotides</span>',
+      '<span style="color: #7b12a1; font-weight:700;">Both protein and nucleotide</span>',
+    ],
+    'correct' => '<span style="color: #7b12a1; font-weight:700;">Both protein and nucleotide</span>',
+  },
+);
+
+#==========================================================
+# SELECT RANDOM QUESTION
+#==========================================================
+
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+
+$question_idx = $local_random->random(0, scalar(@questions_data) - 1, 1);
+$q = $questions_data[$question_idx];
+
+$item_name = $q->{'item_name'};
+$plural_choice = $q->{'plural_choice'};
+$singular_item = $q->{'singular_item'};
+@choices = @{ $q->{'choices'} };
+$correct = $q->{'correct'};
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# BUILD RADIO BUTTONS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => 'ABC',
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+Which one of the following [$plural_choice]* corresponds to the [$singular_item]* [$item_name]*?
+
+[_]{$rb}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The correct answer is: [$correct]*
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+

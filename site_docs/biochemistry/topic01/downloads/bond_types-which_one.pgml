@@ -1,0 +1,369 @@
+## DESCRIPTION
+## Select the type of chemical bond that corresponds to the given example.
+## ENDDESCRIPTION
+## KEYWORDS('types of chemical bonds','examples','which one','multiple choice')
+## DBsubject('Biochemistry')
+## DBchapter('')
+## DBsection('')
+## Date('2026-02-25')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserRadioButtons.pl',
+    'PGcourse.pl',
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 0;
+
+#==========================================================
+# QUESTION DATA
+#==========================================================
+
+# All questions data
+@questions_data = (
+  {
+    'item_name' => '<strong>H - O - H (water)</strong>',
+    'plural_choice' => 'types of chemical bonds',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #00b3b3; font-weight:700;">polar covalent bond</span>',
+      '<span style="color: #b3b300; font-weight:700;">non-polar covalent bond</span>',
+      '<span style="color: #009900; font-weight:700;">ionic bond</span>',
+      '<span style="color: #e60000; font-weight:700;">hydrogen bond</span>',
+    ],
+    'correct' => '<span style="color: #00b3b3; font-weight:700;">polar covalent bond</span>',
+  },
+  {
+    'item_name' => '<strong>N - H (in an amide group)</strong>',
+    'plural_choice' => 'types of chemical bonds',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #00b3b3; font-weight:700;">polar covalent bond</span>',
+      '<span style="color: #b3b300; font-weight:700;">non-polar covalent bond</span>',
+      '<span style="color: #009900; font-weight:700;">ionic bond</span>',
+      '<span style="color: #e60000; font-weight:700;">hydrogen bond</span>',
+    ],
+    'correct' => '<span style="color: #00b3b3; font-weight:700;">polar covalent bond</span>',
+  },
+  {
+    'item_name' => '<strong>O - H (in an alcohol group)</strong>',
+    'plural_choice' => 'types of chemical bonds',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #00b3b3; font-weight:700;">polar covalent bond</span>',
+      '<span style="color: #b3b300; font-weight:700;">non-polar covalent bond</span>',
+      '<span style="color: #009900; font-weight:700;">ionic bond</span>',
+      '<span style="color: #e60000; font-weight:700;">hydrogen bond</span>',
+    ],
+    'correct' => '<span style="color: #00b3b3; font-weight:700;">polar covalent bond</span>',
+  },
+  {
+    'item_name' => '<strong>S - H (in hydrogen sulfide, H₂S)</strong>',
+    'plural_choice' => 'types of chemical bonds',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #00b3b3; font-weight:700;">polar covalent bond</span>',
+      '<span style="color: #b3b300; font-weight:700;">non-polar covalent bond</span>',
+      '<span style="color: #009900; font-weight:700;">ionic bond</span>',
+      '<span style="color: #e60000; font-weight:700;">hydrogen bond</span>',
+    ],
+    'correct' => '<span style="color: #00b3b3; font-weight:700;">polar covalent bond</span>',
+  },
+  {
+    'item_name' => '<strong>C - O (in carbon monoxide, CO)</strong>',
+    'plural_choice' => 'types of chemical bonds',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #00b3b3; font-weight:700;">polar covalent bond</span>',
+      '<span style="color: #b3b300; font-weight:700;">non-polar covalent bond</span>',
+      '<span style="color: #009900; font-weight:700;">ionic bond</span>',
+      '<span style="color: #e60000; font-weight:700;">hydrogen bond</span>',
+    ],
+    'correct' => '<span style="color: #00b3b3; font-weight:700;">polar covalent bond</span>',
+  },
+  {
+    'item_name' => '<strong>P - O (in phosphate groups, PO₄)</strong>',
+    'plural_choice' => 'types of chemical bonds',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #00b3b3; font-weight:700;">polar covalent bond</span>',
+      '<span style="color: #b3b300; font-weight:700;">non-polar covalent bond</span>',
+      '<span style="color: #009900; font-weight:700;">ionic bond</span>',
+      '<span style="color: #e60000; font-weight:700;">hydrogen bond</span>',
+    ],
+    'correct' => '<span style="color: #00b3b3; font-weight:700;">polar covalent bond</span>',
+  },
+  {
+    'item_name' => '<strong>C - C (in ethane, C₂H₆)</strong>',
+    'plural_choice' => 'types of chemical bonds',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #00b3b3; font-weight:700;">polar covalent bond</span>',
+      '<span style="color: #b3b300; font-weight:700;">non-polar covalent bond</span>',
+      '<span style="color: #009900; font-weight:700;">ionic bond</span>',
+      '<span style="color: #e60000; font-weight:700;">hydrogen bond</span>',
+    ],
+    'correct' => '<span style="color: #b3b300; font-weight:700;">non-polar covalent bond</span>',
+  },
+  {
+    'item_name' => '<strong>C = C (in ethylene, C₂H₄)</strong>',
+    'plural_choice' => 'types of chemical bonds',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #00b3b3; font-weight:700;">polar covalent bond</span>',
+      '<span style="color: #b3b300; font-weight:700;">non-polar covalent bond</span>',
+      '<span style="color: #009900; font-weight:700;">ionic bond</span>',
+      '<span style="color: #e60000; font-weight:700;">hydrogen bond</span>',
+    ],
+    'correct' => '<span style="color: #b3b300; font-weight:700;">non-polar covalent bond</span>',
+  },
+  {
+    'item_name' => '<strong>C ≡ C (in acetylene, C₂H₂)</strong>',
+    'plural_choice' => 'types of chemical bonds',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #00b3b3; font-weight:700;">polar covalent bond</span>',
+      '<span style="color: #b3b300; font-weight:700;">non-polar covalent bond</span>',
+      '<span style="color: #009900; font-weight:700;">ionic bond</span>',
+      '<span style="color: #e60000; font-weight:700;">hydrogen bond</span>',
+    ],
+    'correct' => '<span style="color: #b3b300; font-weight:700;">non-polar covalent bond</span>',
+  },
+  {
+    'item_name' => '<strong>C - C (in benzene, C₆H₆)</strong>',
+    'plural_choice' => 'types of chemical bonds',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #00b3b3; font-weight:700;">polar covalent bond</span>',
+      '<span style="color: #b3b300; font-weight:700;">non-polar covalent bond</span>',
+      '<span style="color: #009900; font-weight:700;">ionic bond</span>',
+      '<span style="color: #e60000; font-weight:700;">hydrogen bond</span>',
+    ],
+    'correct' => '<span style="color: #b3b300; font-weight:700;">non-polar covalent bond</span>',
+  },
+  {
+    'item_name' => '<strong>C - H (in methane, CH₄)</strong>',
+    'plural_choice' => 'types of chemical bonds',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #00b3b3; font-weight:700;">polar covalent bond</span>',
+      '<span style="color: #b3b300; font-weight:700;">non-polar covalent bond</span>',
+      '<span style="color: #009900; font-weight:700;">ionic bond</span>',
+      '<span style="color: #e60000; font-weight:700;">hydrogen bond</span>',
+    ],
+    'correct' => '<span style="color: #b3b300; font-weight:700;">non-polar covalent bond</span>',
+  },
+  {
+    'item_name' => '<strong>N ≡ N (nitrogen gas)</strong>',
+    'plural_choice' => 'types of chemical bonds',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #00b3b3; font-weight:700;">polar covalent bond</span>',
+      '<span style="color: #b3b300; font-weight:700;">non-polar covalent bond</span>',
+      '<span style="color: #009900; font-weight:700;">ionic bond</span>',
+      '<span style="color: #e60000; font-weight:700;">hydrogen bond</span>',
+    ],
+    'correct' => '<span style="color: #b3b300; font-weight:700;">non-polar covalent bond</span>',
+  },
+  {
+    'item_name' => '<strong>O = O (oxygen gas)</strong>',
+    'plural_choice' => 'types of chemical bonds',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #00b3b3; font-weight:700;">polar covalent bond</span>',
+      '<span style="color: #b3b300; font-weight:700;">non-polar covalent bond</span>',
+      '<span style="color: #009900; font-weight:700;">ionic bond</span>',
+      '<span style="color: #e60000; font-weight:700;">hydrogen bond</span>',
+    ],
+    'correct' => '<span style="color: #b3b300; font-weight:700;">non-polar covalent bond</span>',
+  },
+  {
+    'item_name' => '<strong>Ca²⁺ • 2× Cl⁻ (calcium chloride)</strong>',
+    'plural_choice' => 'types of chemical bonds',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #00b3b3; font-weight:700;">polar covalent bond</span>',
+      '<span style="color: #b3b300; font-weight:700;">non-polar covalent bond</span>',
+      '<span style="color: #009900; font-weight:700;">ionic bond</span>',
+      '<span style="color: #e60000; font-weight:700;">hydrogen bond</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">ionic bond</span>',
+  },
+  {
+    'item_name' => '<strong>Ca²⁺ • CO₃²⁻ (calcium carbonate)</strong>',
+    'plural_choice' => 'types of chemical bonds',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #00b3b3; font-weight:700;">polar covalent bond</span>',
+      '<span style="color: #b3b300; font-weight:700;">non-polar covalent bond</span>',
+      '<span style="color: #009900; font-weight:700;">ionic bond</span>',
+      '<span style="color: #e60000; font-weight:700;">hydrogen bond</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">ionic bond</span>',
+  },
+  {
+    'item_name' => '<strong>K⁺ • Cl⁻ (potassium chloride)</strong>',
+    'plural_choice' => 'types of chemical bonds',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #00b3b3; font-weight:700;">polar covalent bond</span>',
+      '<span style="color: #b3b300; font-weight:700;">non-polar covalent bond</span>',
+      '<span style="color: #009900; font-weight:700;">ionic bond</span>',
+      '<span style="color: #e60000; font-weight:700;">hydrogen bond</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">ionic bond</span>',
+  },
+  {
+    'item_name' => '<strong>Mg²⁺ • 2× Cl⁻ (magnesium chloride)</strong>',
+    'plural_choice' => 'types of chemical bonds',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #00b3b3; font-weight:700;">polar covalent bond</span>',
+      '<span style="color: #b3b300; font-weight:700;">non-polar covalent bond</span>',
+      '<span style="color: #009900; font-weight:700;">ionic bond</span>',
+      '<span style="color: #e60000; font-weight:700;">hydrogen bond</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">ionic bond</span>',
+  },
+  {
+    'item_name' => '<strong>Na⁺ • Cl⁻ (sodium chloride)</strong>',
+    'plural_choice' => 'types of chemical bonds',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #00b3b3; font-weight:700;">polar covalent bond</span>',
+      '<span style="color: #b3b300; font-weight:700;">non-polar covalent bond</span>',
+      '<span style="color: #009900; font-weight:700;">ionic bond</span>',
+      '<span style="color: #e60000; font-weight:700;">hydrogen bond</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">ionic bond</span>',
+  },
+  {
+    'item_name' => '<strong>NH₄⁺ • NO₃⁻ (ammonium nitrate)</strong>',
+    'plural_choice' => 'types of chemical bonds',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #00b3b3; font-weight:700;">polar covalent bond</span>',
+      '<span style="color: #b3b300; font-weight:700;">non-polar covalent bond</span>',
+      '<span style="color: #009900; font-weight:700;">ionic bond</span>',
+      '<span style="color: #e60000; font-weight:700;">hydrogen bond</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">ionic bond</span>',
+  },
+  {
+    'item_name' => '<strong>N-H ···· N (bond represented by the dots)</strong>',
+    'plural_choice' => 'types of chemical bonds',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #00b3b3; font-weight:700;">polar covalent bond</span>',
+      '<span style="color: #b3b300; font-weight:700;">non-polar covalent bond</span>',
+      '<span style="color: #009900; font-weight:700;">ionic bond</span>',
+      '<span style="color: #e60000; font-weight:700;">hydrogen bond</span>',
+    ],
+    'correct' => '<span style="color: #e60000; font-weight:700;">hydrogen bond</span>',
+  },
+  {
+    'item_name' => '<strong>N-H ···· O (bond represented by the dots)</strong>',
+    'plural_choice' => 'types of chemical bonds',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #00b3b3; font-weight:700;">polar covalent bond</span>',
+      '<span style="color: #b3b300; font-weight:700;">non-polar covalent bond</span>',
+      '<span style="color: #009900; font-weight:700;">ionic bond</span>',
+      '<span style="color: #e60000; font-weight:700;">hydrogen bond</span>',
+    ],
+    'correct' => '<span style="color: #e60000; font-weight:700;">hydrogen bond</span>',
+  },
+  {
+    'item_name' => '<strong>O-H ···· N (bond represented by the dots)</strong>',
+    'plural_choice' => 'types of chemical bonds',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #00b3b3; font-weight:700;">polar covalent bond</span>',
+      '<span style="color: #b3b300; font-weight:700;">non-polar covalent bond</span>',
+      '<span style="color: #009900; font-weight:700;">ionic bond</span>',
+      '<span style="color: #e60000; font-weight:700;">hydrogen bond</span>',
+    ],
+    'correct' => '<span style="color: #e60000; font-weight:700;">hydrogen bond</span>',
+  },
+  {
+    'item_name' => '<strong>O-H ···· O (bond represented by the dots)</strong>',
+    'plural_choice' => 'types of chemical bonds',
+    'singular_item' => 'example',
+    'choices' => [
+      '<span style="color: #00b3b3; font-weight:700;">polar covalent bond</span>',
+      '<span style="color: #b3b300; font-weight:700;">non-polar covalent bond</span>',
+      '<span style="color: #009900; font-weight:700;">ionic bond</span>',
+      '<span style="color: #e60000; font-weight:700;">hydrogen bond</span>',
+    ],
+    'correct' => '<span style="color: #e60000; font-weight:700;">hydrogen bond</span>',
+  },
+);
+
+#==========================================================
+# SELECT RANDOM QUESTION
+#==========================================================
+
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+
+$question_idx = $local_random->random(0, scalar(@questions_data) - 1, 1);
+$q = $questions_data[$question_idx];
+
+$item_name = $q->{'item_name'};
+$plural_choice = $q->{'plural_choice'};
+$singular_item = $q->{'singular_item'};
+@choices = @{ $q->{'choices'} };
+$correct = $q->{'correct'};
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# BUILD RADIO BUTTONS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => 'ABC',
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+Which one of the following [$plural_choice]* corresponds to the [$singular_item]* [$item_name]*?
+
+[_]{$rb}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The correct answer is: [$correct]*
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+

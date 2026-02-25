@@ -1,0 +1,513 @@
+## DESCRIPTION
+## Select the type of column chromatography that corresponds to the given description.
+## ENDDESCRIPTION
+## KEYWORDS('types of column chromatography','descriptions','which one','multiple choice')
+## DBsubject('Laboratory Techniques')
+## DBchapter('')
+## DBsection('')
+## Date('2026-02-25')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserRadioButtons.pl',
+    'PGcourse.pl',
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 0;
+
+#==========================================================
+# QUESTION DATA
+#==========================================================
+
+# All questions data
+@questions_data = (
+  {
+    'item_name' => '<strong>size <span style="color: #e65400; font-weight:700;">separation</span> in a <span style="color: #e60000; font-weight:700;">column</span> filled with porous beads</strong>',
+    'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">size-exclusion column (SEC)</span>',
+      '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+      '<span style="color: #b3b300; font-weight:700;">hydrophobic interaction column (HIC)</span>',
+      '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">size-exclusion column (SEC)</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #e65400; font-weight:700;">separates</span> molecules by differences in size as they pass through a porous <span style="color: #00b38f; font-weight:700;">particles</span> in a <span style="color: #e60000; font-weight:700;">column</span></strong>',
+    'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">size-exclusion column (SEC)</span>',
+      '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+      '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
+      '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">size-exclusion column (SEC)</span>',
+  },
+  {
+    'item_name' => '<strong>only liquid <span style="color: #b30077; font-weight:700;">chromatography</span> method where molecules do NOT bind to the <span style="color: #b30077; font-weight:700;">chromatography</span> <span style="color: #00b38f; font-weight:700;">particles</span></strong>',
+    'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">size-exclusion column (SEC)</span>',
+      '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+      '<span style="color: #b3b300; font-weight:700;">hydrophobic interaction column (HIC)</span>',
+      '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">size-exclusion column (SEC)</span>',
+  },
+  {
+    'item_name' => '<strong>ability to separate <span style="color: #00b3b3; font-weight:700;">protein</span>samples by size using porous <span style="color: #00b38f; font-weight:700;">particles</span></strong>',
+    'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">size-exclusion column (SEC)</span>',
+      '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+      '<span style="color: #b3b300; font-weight:700;">hydrophobic interaction column (HIC)</span>',
+      '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+    ],
+    'correct' => '<span style="color: #009900; font-weight:700;">size-exclusion column (SEC)</span>',
+  },
+  {
+    'item_name' => '<strong>size <span style="color: #e65400; font-weight:700;">separation</span> in a <span style="color: #e60000; font-weight:700;">column</span> filled with porous beads</strong>',
+    'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
+      '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+      '<span style="color: #b3b300; font-weight:700;">hydrophobic interaction column (HIC)</span>',
+      '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+    ],
+    'correct' => '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #e65400; font-weight:700;">separates</span> molecules by differences in size as they pass through a porous <span style="color: #00b38f; font-weight:700;">particles</span> in a <span style="color: #e60000; font-weight:700;">column</span></strong>',
+    'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
+      '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+      '<span style="color: #b3b300; font-weight:700;">hydrophobic interaction column (HIC)</span>',
+      '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+    ],
+    'correct' => '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
+  },
+  {
+    'item_name' => '<strong>only liquid <span style="color: #b30077; font-weight:700;">chromatography</span> method where molecules do NOT bind to the <span style="color: #b30077; font-weight:700;">chromatography</span> <span style="color: #00b38f; font-weight:700;">particles</span></strong>',
+    'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
+      '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+      '<span style="color: #b3b300; font-weight:700;">hydrophobic interaction column (HIC)</span>',
+      '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+    ],
+    'correct' => '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
+  },
+  {
+    'item_name' => '<strong>ability to separate <span style="color: #00b3b3; font-weight:700;">protein</span>samples by size using porous <span style="color: #00b38f; font-weight:700;">particles</span></strong>',
+    'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
+      '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+      '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
+      '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+    ],
+    'correct' => '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
+  },
+  {
+    'item_name' => '<strong>separate by charge, <span style="color: #00b38f; font-weight:700;">particle</span>binding is controlled by pH of the solvent mobile phase</strong>',
+    'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
+      '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+      '<span style="color: #b3b300; font-weight:700;">hydrophobic interaction column (HIC)</span>',
+      '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #e65400; font-weight:700;">separates</span> <span style="color: #00b3b3; font-weight:700;">proteins</span> with differences in <span style="color: #0a9bf5; font-weight:700;">surface</span> charge</strong>',
+    'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">size-exclusion column (SEC)</span>',
+      '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+      '<span style="color: #b3b300; font-weight:700;">hydrophobic interaction column (HIC)</span>',
+      '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #004d99; font-weight:700;">charged</span> <span style="color: #00b3b3; font-weight:700;">proteins</span> interact with an oppositely <span style="color: #004d99; font-weight:700;">charged</span> <span style="color: #b30077; font-weight:700;">chromatography</span> <span style="color: #00b38f; font-weight:700;">particle</span>resin</strong>',
+    'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
+      '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+      '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
+      '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+  },
+  {
+    'item_name' => '<strong>above its isoelectric point (pI), a <span style="color: #00b3b3; font-weight:700;">protein</span>will bind to a positively <span style="color: #004d99; font-weight:700;">charged</span> anion exchanger</strong>',
+    'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
+      '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+      '<span style="color: #b3b300; font-weight:700;">hydrophobic interaction column (HIC)</span>',
+      '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+  },
+  {
+    'item_name' => '<strong>below its isoelectric point (pI), a <span style="color: #00b3b3; font-weight:700;">protein</span>will bind to a negatively <span style="color: #004d99; font-weight:700;">charged</span> cation exchanger</strong>',
+    'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
+      '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+      '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
+      '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #e65400; font-weight:700;">separation</span> method essentially based on the net charge of the protein</strong>',
+    'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">size-exclusion column (SEC)</span>',
+      '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+      '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
+      '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+  },
+  {
+    'item_name' => '<strong>relies on charge-charge interactions between the <span style="color: #00b3b3; font-weight:700;">proteins</span> in your sample and the charges on the <span style="color: #00b38f; font-weight:700;">particle</span>resin</strong>',
+    'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">size-exclusion column (SEC)</span>',
+      '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+      '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
+      '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+    ],
+    'correct' => '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #e65400; font-weight:700;">separates</span> by <span style="color: #0a9bf5; font-weight:700;">surface</span> hydrophobicity, <span style="color: #00b38f; font-weight:700;">particle</span>binding is controlled by salt concentration and/or organic solvents</strong>',
+    'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">size-exclusion column (SEC)</span>',
+      '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+      '<span style="color: #b3b300; font-weight:700;">hydrophobic interaction column (HIC)</span>',
+      '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+    ],
+    'correct' => '<span style="color: #b3b300; font-weight:700;">hydrophobic interaction column (HIC)</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #e65400; font-weight:700;">separates</span> <span style="color: #00b3b3; font-weight:700;">proteins</span> according to differences in their <span style="color: #0a9bf5; font-weight:700;">surface</span> hydrophobicity</strong>',
+    'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
+      '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+      '<span style="color: #b3b300; font-weight:700;">hydrophobic interaction column (HIC)</span>',
+      '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+    ],
+    'correct' => '<span style="color: #b3b300; font-weight:700;">hydrophobic interaction column (HIC)</span>',
+  },
+  {
+    'item_name' => '<strong>hydrophobic-based <span style="color: #e65400; font-weight:700;">separation</span>s for <span style="color: #00b3b3; font-weight:700;">protein</span>characterization</strong>',
+    'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">size-exclusion column (SEC)</span>',
+      '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+      '<span style="color: #b3b300; font-weight:700;">hydrophobic interaction column (HIC)</span>',
+      '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+    ],
+    'correct' => '<span style="color: #b3b300; font-weight:700;">hydrophobic interaction column (HIC)</span>',
+  },
+  {
+    'item_name' => '<strong>for one type, high salt concentration enhances the interaction, whereas low salt concentrations weaken it</strong>',
+    'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">size-exclusion column (SEC)</span>',
+      '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+      '<span style="color: #b3b300; font-weight:700;">hydrophobic interaction column (HIC)</span>',
+      '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+    ],
+    'correct' => '<span style="color: #b3b300; font-weight:700;">hydrophobic interaction column (HIC)</span>',
+  },
+  {
+    'item_name' => '<strong>for one type, a decreasing salt gradient is used to separate samples in order of increasing hydrophobicity</strong>',
+    'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
+      '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+      '<span style="color: #b3b300; font-weight:700;">hydrophobic interaction column (HIC)</span>',
+      '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+    ],
+    'correct' => '<span style="color: #b3b300; font-weight:700;">hydrophobic interaction column (HIC)</span>',
+  },
+  {
+    'item_name' => '<strong>technique based on the ability to separate <span style="color: #00b3b3; font-weight:700;">proteins</span> based on relative hydrophobic differences</strong>',
+    'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
+      '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+      '<span style="color: #b3b300; font-weight:700;">hydrophobic interaction column (HIC)</span>',
+      '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+    ],
+    'correct' => '<span style="color: #b3b300; font-weight:700;">hydrophobic interaction column (HIC)</span>',
+  },
+  {
+    'item_name' => '<strong>for one type, gradients of increasing organic solvent concentration are used to affect <span style="color: #e65400; font-weight:700;">separation</span>s</strong>',
+    'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
+      '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+      '<span style="color: #b3b300; font-weight:700;">hydrophobic interaction column (HIC)</span>',
+      '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+    ],
+    'correct' => '<span style="color: #b3b300; font-weight:700;">hydrophobic interaction column (HIC)</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #e65400; font-weight:700;">separates</span> by <span style="color: #0a9bf5; font-weight:700;">surface</span> hydrophobicity, <span style="color: #00b38f; font-weight:700;">particle</span>binding is controlled by salt concentration and/or organic solvents</strong>',
+    'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
+      '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+      '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
+      '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+    ],
+    'correct' => '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #e65400; font-weight:700;">separates</span> <span style="color: #00b3b3; font-weight:700;">proteins</span> according to differences in their <span style="color: #0a9bf5; font-weight:700;">surface</span> hydrophobicity</strong>',
+    'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">size-exclusion column (SEC)</span>',
+      '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+      '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
+      '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+    ],
+    'correct' => '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
+  },
+  {
+    'item_name' => '<strong>hydrophobic-based <span style="color: #e65400; font-weight:700;">separation</span>s for <span style="color: #00b3b3; font-weight:700;">protein</span>characterization</strong>',
+    'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
+      '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+      '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
+      '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+    ],
+    'correct' => '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
+  },
+  {
+    'item_name' => '<strong>for one type, high salt concentration enhances the interaction, whereas low salt concentrations weaken it</strong>',
+    'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">size-exclusion column (SEC)</span>',
+      '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+      '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
+      '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+    ],
+    'correct' => '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
+  },
+  {
+    'item_name' => '<strong>for one type, a decreasing salt gradient is used to separate samples in order of increasing hydrophobicity</strong>',
+    'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
+      '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+      '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
+      '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+    ],
+    'correct' => '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
+  },
+  {
+    'item_name' => '<strong>technique based on the ability to separate <span style="color: #00b3b3; font-weight:700;">proteins</span> based on relative hydrophobic differences</strong>',
+    'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #009900; font-weight:700;">size-exclusion column (SEC)</span>',
+      '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+      '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
+      '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+    ],
+    'correct' => '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
+  },
+  {
+    'item_name' => '<strong>for one type, gradients of increasing organic solvent concentration are used to affect <span style="color: #e65400; font-weight:700;">separation</span>s</strong>',
+    'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
+      '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+      '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
+      '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+    ],
+    'correct' => '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #e65400; font-weight:700;">separation</span> based on <span style="color: #00b3b3; font-weight:700;">proteins</span> binding to a <span style="color: #7b12a1; font-weight:700;">ligand</span></strong>',
+    'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
+      '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+      '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
+      '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+    ],
+    'correct' => '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #e65400; font-weight:700;">separates</span> <span style="color: #00b3b3; font-weight:700;">proteins</span> on the basis of a reversible interaction between the target <span style="color: #00b3b3; font-weight:700;">protein</span>and a specific <span style="color: #7b12a1; font-weight:700;">ligand</span></strong>',
+    'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
+      '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+      '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
+      '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+    ],
+    'correct' => '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+  },
+  {
+    'item_name' => '<strong>works using resin-attached <span style="color: #7b12a1; font-weight:700;">ligand</span>s to grab hold of the corresponding <span style="color: #00b3b3; font-weight:700;">proteins</span></strong>',
+    'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
+      '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+      '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
+      '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+    ],
+    'correct' => '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+  },
+  {
+    'item_name' => '<strong>a specific <span style="color: #7b12a1; font-weight:700;">ligand</span> is attached to the <span style="color: #00b38f; font-weight:700;">particle</span>resin in the <span style="color: #e60000; font-weight:700;">column</span></strong>',
+    'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
+      '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+      '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
+      '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+    ],
+    'correct' => '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+  },
+  {
+    'item_name' => '<strong>relies on the specific and reversible binding of a <span style="color: #00b3b3; font-weight:700;">protein</span>to a matrix-bound <span style="color: #7b12a1; font-weight:700;">ligand</span></strong>',
+    'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
+      '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+      '<span style="color: #b3b300; font-weight:700;">hydrophobic interaction column (HIC)</span>',
+      '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+    ],
+    'correct' => '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #7b12a1; font-weight:700;">ligand</span>-attached beads bind directly to the <span style="color: #00b3b3; font-weight:700;">protein</span>of interest</strong>',
+    'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
+      '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
+      '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
+      '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+    ],
+    'correct' => '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
+  },
+);
+
+#==========================================================
+# SELECT RANDOM QUESTION
+#==========================================================
+
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+
+$question_idx = $local_random->random(0, scalar(@questions_data) - 1, 1);
+$q = $questions_data[$question_idx];
+
+$item_name = $q->{'item_name'};
+$plural_choice = $q->{'plural_choice'};
+$singular_item = $q->{'singular_item'};
+@choices = @{ $q->{'choices'} };
+$correct = $q->{'correct'};
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# BUILD RADIO BUTTONS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => 'ABC',
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+Which one of the following [$plural_choice]* corresponds to the [$singular_item]* [$item_name]*?
+
+[_]{$rb}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The correct answer is: [$correct]*
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+
