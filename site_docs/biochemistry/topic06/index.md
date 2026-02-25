@@ -4,11 +4,7 @@ Enzyme functions, substrate binding, and energy changes in reactions.
 
 **LibreTexts reference:** [Enzyme Thermodynamics](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/06:_Enzyme_Thermodynamics)
 
-## Thinking...
-We need to produce a descriptive section heading that classifies these types of problems. The problems are "Match each energy requirement category with its corresponding energy term. Note: Each choice will be used exactly once." So it's a Matching question type, with energy terms. The task verb should be "Matching" according to instructions. The heading should be concise and informative, Task + Topic + Key Detail format. So: "Matching Energy Requirement Categories with Energy Terms". Or maybe "Matching Energy Terms to Requirement Categories". Use simple language. Should we include the filename? The filename root is MATCH-energy_terms, which matches. So heading: "Matching Energy Requirement Categories to Energy Terms". That is concise and fits. Let's follow the format: "Matching Energy Terms to Requirement Categories". Or "Matching Energy Requirement Categories with Energy Terms". I'll choose: "Matching Energy Requirement Categories with Energy Terms". That is clear. No extra punctuation. Just plain text.
-...done thinking.
-
-Matching Energy Requirement Categories with Energy Terms
+## Energy Requirement Categories and Energy Terms
 
 <div id="MATCH-energy_terms-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-energy_terms-questions.txt" download title="Download bbq-MATCH-energy_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-energy_terms-questions.txt)">
@@ -23,17 +19,16 @@ Matching Energy Requirement Categories with Energy Terms
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-energy_terms.html', '_blank')" title="View human_readable-MATCH-energy_terms.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-energy_terms.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/energy_terms-matching.pgml" download title="Download energy_terms-matching.pgml" aria-label="Click to download the WeBWorK PGML file (energy_terms-matching.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Thinking...
-We need to produce a descriptive section heading that classifies these types of problems. The problems are "Match each energy requirement category with its corresponding energy term. Note: Each choice will be used exactly once." So it's a Matching question type, with energy terms. The task verb should be "Matching" according to instructions. The heading should be concise and informative, Task + Topic + Key Detail format. So: "Matching Energy Requirement Categories with Energy Terms". Or maybe "Matching Energy Terms to Requirement Categories". Use simple language. Should we include the filename? The filename root is MATCH-energy_terms, which matches. So heading: "Matching Energy Requirement Categories to Energy Terms". That is concise and fits. Let's follow the format: "Matching Energy Terms to Requirement Categories". Or "Matching Energy Requirement Categories with Energy Terms". I'll choose: "Matching Energy Requirement Categories with Energy Terms". That is clear. No extra punctuation. Just plain text.
-...done thinking.
-
-Matching Energy Requirement Categories with Energy Terms
+      Energy Requirement Categories and Energy Terms
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -59,6 +54,9 @@ Matching Energy Requirement Categories with Energy Terms
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MC-energy_terms.html', '_blank')" title="View human_readable-MC-energy_terms.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MC-energy_terms.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/energy_terms-which_one.pgml" download title="Download energy_terms-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (energy_terms-which_one.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -172,18 +170,7 @@ Matching Energy Requirement Categories with Energy Terms
 </details>
 
 
-## Thinking...
-We need to generate a title that fits these problems. All are about determining which statement is true/false regarding Gibbs free energy equation ΔG = ΔH – TΔS. The question type is True/False type. The list of verbs: "Determining True/False Statements About Gibbs Free Energy (Delta G = Delta H - T Delta S)". We should match. The instruction: "Use Task + Topic + Key Detail format." Task verb aligned: "Determining" for True/False. Topic: "Gibbs Free Energy". Key Detail: "True/False Statements". So title: "Determining True/False Statements About Gibbs Free Energy". That seems concise.
-
-But the sample titles earlier include similar: "Determining True/False Statements About Gibbs Free Energy (Delta G = Delta H - T Delta S)". So we can use that.
-
-We should not include any other commentary. Just the title.
-
-Thus output: Determining True/False Statements About Gibbs Free Energy (Delta G = Delta H - T Delta S)
-
-...done thinking.
-
-Determining True/False Statements About Gibbs Free Energy (ΔG = ΔH – TΔS)
+## True/False Statements About Gibbs Free Energy (Delta G = Delta H - T Delta S)
 
 <div id="TFMS-gibbs_free_energy_equation-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-gibbs_free_energy_equation-questions.txt" download title="Download bbq-TFMS-gibbs_free_energy_equation-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-gibbs_free_energy_equation-questions.txt)">
@@ -198,24 +185,16 @@ Determining True/False Statements About Gibbs Free Energy (ΔG = ΔH – TΔS)
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-gibbs_free_energy_equation.html', '_blank')" title="View human_readable-TFMS-gibbs_free_energy_equation.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-gibbs_free_energy_equation.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/gibbs_free_energy_equation.pg" download title="Download gibbs_free_energy_equation.pg" aria-label="Click to download the WeBWorK PGML file (gibbs_free_energy_equation.pg)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Thinking...
-We need to generate a title that fits these problems. All are about determining which statement is true/false regarding Gibbs free energy equation ΔG = ΔH – TΔS. The question type is True/False type. The list of verbs: "Determining True/False Statements About Gibbs Free Energy (Delta G = Delta H - T Delta S)". We should match. The instruction: "Use Task + Topic + Key Detail format." Task verb aligned: "Determining" for True/False. Topic: "Gibbs Free Energy". Key Detail: "True/False Statements". So title: "Determining True/False Statements About Gibbs Free Energy". That seems concise.
-
-But the sample titles earlier include similar: "Determining True/False Statements About Gibbs Free Energy (Delta G = Delta H - T Delta S)". So we can use that.
-
-We should not include any other commentary. Just the title.
-
-Thus output: Determining True/False Statements About Gibbs Free Energy (Delta G = Delta H - T Delta S)
-
-...done thinking.
-
-Determining True/False Statements About Gibbs Free Energy (ΔG = ΔH – TΔS)
+      True/False Statements About Gibbs Free Energy (Delta G = Delta H - T Delta S)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -226,11 +205,7 @@ Determining True/False Statements About Gibbs Free Energy (ΔG = ΔH – TΔS)
 </details>
 
 
-## Thinking...
-We need a single title that classifies these problems: all are about determining true or false statements about thermodynamics and kinetics. The filename suggests TFMS-thermodynamics, meaning True/False Multiple Choice? The task: Determining True/False statements. So title: Determining True or False Statements About Thermodynamics and Kinetics. Use format: Determining True/False Statements About Thermodynamics and Kinetics. Use "Determining" as verb. Title concise.
-...done thinking.
-
-Determining True/False Statements About Thermodynamics and Kinetics
+## True/False Statements About Thermodynamics and Kinetics
 
 <div id="TFMS-thermodynamics-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-thermodynamics-questions.txt" download title="Download bbq-TFMS-thermodynamics-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-thermodynamics-questions.txt)">
@@ -245,17 +220,16 @@ Determining True/False Statements About Thermodynamics and Kinetics
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-thermodynamics.html', '_blank')" title="View human_readable-TFMS-thermodynamics.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-thermodynamics.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/thermodynamics.pg" download title="Download thermodynamics.pg" aria-label="Click to download the WeBWorK PGML file (thermodynamics.pg)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Thinking...
-We need a single title that classifies these problems: all are about determining true or false statements about thermodynamics and kinetics. The filename suggests TFMS-thermodynamics, meaning True/False Multiple Choice? The task: Determining True/False statements. So title: Determining True or False Statements About Thermodynamics and Kinetics. Use format: Determining True/False Statements About Thermodynamics and Kinetics. Use "Determining" as verb. Title concise.
-...done thinking.
-
-Determining True/False Statements About Thermodynamics and Kinetics
+      True/False Statements About Thermodynamics and Kinetics
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -266,11 +240,7 @@ Determining True/False Statements About Thermodynamics and Kinetics
 </details>
 
 
-## Thinking...
-We need to produce a title following guidelines: Task + Topic + Key Detail. The tasks are identifying categories. The topic: energy terms categories? The key detail: energy term categories correspond to energy requirement categories? The examples: "Identifying energy requirement categories for given energy terms." Let's follow pattern from sample titles: "Identifying Energy Terms and Their Categories". They used "Identifying" and topic "Energy Terms and Their Categories". That matches. But maybe more specific: "Identifying Energy Requirement Categories for Energy Terms". So Task: Identifying, Topic: Energy Requirement Categories, Key Detail: for Energy Terms. The guidelines: Use simple, accessible language. Avoid complex. So "Identifying Energy Requirement Categories for Energy Terms" seems fine. Or "Identifying Energy Term Categories in Biochemistry". But keep it concise. So final answer: "Identifying Energy Requirement Categories for Energy Terms".
-...done thinking.
-
-Identifying Energy Requirement Categories for Energy Terms
+## Energy Requirement Categories for Energy Terms
 
 <div id="WOMC-energy_terms-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-energy_terms-questions.txt" download title="Download bbq-WOMC-energy_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-energy_terms-questions.txt)">
@@ -285,17 +255,16 @@ Identifying Energy Requirement Categories for Energy Terms
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-energy_terms.html', '_blank')" title="View human_readable-WOMC-energy_terms.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-energy_terms.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/energy_terms-which_one.pgml" download title="Download energy_terms-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (energy_terms-which_one.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Thinking...
-We need to produce a title following guidelines: Task + Topic + Key Detail. The tasks are identifying categories. The topic: energy terms categories? The key detail: energy term categories correspond to energy requirement categories? The examples: "Identifying energy requirement categories for given energy terms." Let's follow pattern from sample titles: "Identifying Energy Terms and Their Categories". They used "Identifying" and topic "Energy Terms and Their Categories". That matches. But maybe more specific: "Identifying Energy Requirement Categories for Energy Terms". So Task: Identifying, Topic: Energy Requirement Categories, Key Detail: for Energy Terms. The guidelines: Use simple, accessible language. Avoid complex. So "Identifying Energy Requirement Categories for Energy Terms" seems fine. Or "Identifying Energy Term Categories in Biochemistry". But keep it concise. So final answer: "Identifying Energy Requirement Categories for Energy Terms".
-...done thinking.
-
-Identifying Energy Requirement Categories for Energy Terms
+      Energy Requirement Categories for Energy Terms
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -306,15 +275,7 @@ Identifying Energy Requirement Categories for Energy Terms
 </details>
 
 
-## Thinking...
-We need to generate a concise title that classifies these problems. They are all about difference between biochemical standard free energy change (ΔG°′) vs chemical standard free energy change (ΔG°). The question asks which factor is treated differently. So the concept: difference between biochemical and chemical standard states; factor that differs. The title: "Identifying Factor Differing Between Biochemical and Chemical Standard Free Energy Changes". We need Task + Topic + Key Detail format. Task verb: Identifying. Topic: Biochemical vs Chemical Standard States. Key detail: Differing Factor. So maybe: "Identifying Differing Factor Between Biochemical and Chemical Standard Free Energy States". We should keep it concise. Maybe: "Identifying Factor Differing in Biochemical vs Chemical Standard Free Energy". That's acceptable. Use simple language.
-
-Also check instruction: Title should be brief, accessible. Use "Identifying" verb. Use simple words. "Biochemical vs Chemical Standard Free Energy" is clear. Add "Differing Factor". So final title: "Identifying Factor Differing in Biochemical vs Chemical Standard Free Energy". That seems good.
-
-Return only the title as plain text.
-...done thinking.
-
-Identifying Factor Differing in Biochemical vs Chemical Standard Free Energy
+## Biochemical vs Chemical Standard Free Energy States
 
 <div id="delta_g_prime_standard_state-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-delta_g_prime_standard_state-questions.txt" download title="Download bbq-delta_g_prime_standard_state-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-delta_g_prime_standard_state-questions.txt)">
@@ -338,15 +299,7 @@ Identifying Factor Differing in Biochemical vs Chemical Standard Free Energy
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Thinking...
-We need to generate a concise title that classifies these problems. They are all about difference between biochemical standard free energy change (ΔG°′) vs chemical standard free energy change (ΔG°). The question asks which factor is treated differently. So the concept: difference between biochemical and chemical standard states; factor that differs. The title: "Identifying Factor Differing Between Biochemical and Chemical Standard Free Energy Changes". We need Task + Topic + Key Detail format. Task verb: Identifying. Topic: Biochemical vs Chemical Standard States. Key detail: Differing Factor. So maybe: "Identifying Differing Factor Between Biochemical and Chemical Standard Free Energy States". We should keep it concise. Maybe: "Identifying Factor Differing in Biochemical vs Chemical Standard Free Energy". That's acceptable. Use simple language.
-
-Also check instruction: Title should be brief, accessible. Use "Identifying" verb. Use simple words. "Biochemical vs Chemical Standard Free Energy" is clear. Add "Differing Factor". So final title: "Identifying Factor Differing in Biochemical vs Chemical Standard Free Energy". That seems good.
-
-Return only the title as plain text.
-...done thinking.
-
-Identifying Factor Differing in Biochemical vs Chemical Standard Free Energy
+      Biochemical vs Chemical Standard Free Energy States
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -357,11 +310,7 @@ Identifying Factor Differing in Biochemical vs Chemical Standard Free Energy
 </details>
 
 
-## Thinking...
-We need a title that covers these problems. They all involve classification of reactions based on ΔG and identifying statements about free energy, exergonic/endergonic. So title: "Determining Exergonic vs Endergonic Reactions and Statements About ΔG". Use format: Task + Topic + Key Detail. Task: Determining. Topic: Exergonic vs Endergonic Reactions. Key Detail: Statements About ΔG. Combine: Determining Exergonic vs Endergonic Reactions and Statements About ΔG. Should be concise. Maybe: Determining Exergonic/Endergonic Reaction Classification and ΔG Statements. Good.
-...done thinking.
-
-Determining Exergonic/Endergonic Reaction Classification and ΔG Statements
+## Exergonic and Endergonic Reaction Classification
 
 <div id="exergonic_endergonic_reactions-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-exergonic_endergonic_reactions-questions.txt" download title="Download bbq-exergonic_endergonic_reactions-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-exergonic_endergonic_reactions-questions.txt)">
@@ -385,11 +334,7 @@ Determining Exergonic/Endergonic Reaction Classification and ΔG Statements
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Thinking...
-We need a title that covers these problems. They all involve classification of reactions based on ΔG and identifying statements about free energy, exergonic/endergonic. So title: "Determining Exergonic vs Endergonic Reactions and Statements About ΔG". Use format: Task + Topic + Key Detail. Task: Determining. Topic: Exergonic vs Endergonic Reactions. Key Detail: Statements About ΔG. Combine: Determining Exergonic vs Endergonic Reactions and Statements About ΔG. Should be concise. Maybe: Determining Exergonic/Endergonic Reaction Classification and ΔG Statements. Good.
-...done thinking.
-
-Determining Exergonic/Endergonic Reaction Classification and ΔG Statements
+      Exergonic and Endergonic Reaction Classification
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -400,23 +345,7 @@ Determining Exergonic/Endergonic Reaction Classification and ΔG Statements
 </details>
 
 
-## Thinking...
-We need to produce a concise title: Task + Topic + Key Detail. The problems: relationships between ΔG°′ and K′eq, sign of ΔG at equilibrium, sign of ΔG°′ relative to K′eq.
-
-Task type: Determining? For multiple conceptual relationships. Maybe "Determining Free Energy–Equilibrium Constant Relationships". Or "Determining Sign Relationships Between ΔG and K". The key detail: "Free Energy–Equilibrium Constant Relationships".
-
-Examples of title format: "Determining the Relationship Between ΔG°′ and K′eq".
-
-Let's produce a single title.
-
-We should use simple language, no complex terms. "Determining the Sign Relationship Between Free Energy Change and Equilibrium Constant". But too long. Maybe "Determining Sign Relationships Between ΔG and K".
-
-We can use "Determining the Sign Relationship Between Free Energy Change and Equilibrium Constant". That's okay.
-
-Let's produce that.
-...done thinking.
-
-Determining the Sign Relationship Between Free Energy Change and Equilibrium Constant
+## Free Energy and Equilibrium Constant Relationships
 
 <div id="free_energy_keq_relationship-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-free_energy_keq_relationship-questions.txt" download title="Download bbq-free_energy_keq_relationship-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-free_energy_keq_relationship-questions.txt)">
@@ -440,23 +369,7 @@ Determining the Sign Relationship Between Free Energy Change and Equilibrium Con
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Thinking...
-We need to produce a concise title: Task + Topic + Key Detail. The problems: relationships between ΔG°′ and K′eq, sign of ΔG at equilibrium, sign of ΔG°′ relative to K′eq.
-
-Task type: Determining? For multiple conceptual relationships. Maybe "Determining Free Energy–Equilibrium Constant Relationships". Or "Determining Sign Relationships Between ΔG and K". The key detail: "Free Energy–Equilibrium Constant Relationships".
-
-Examples of title format: "Determining the Relationship Between ΔG°′ and K′eq".
-
-Let's produce a single title.
-
-We should use simple language, no complex terms. "Determining the Sign Relationship Between Free Energy Change and Equilibrium Constant". But too long. Maybe "Determining Sign Relationships Between ΔG and K".
-
-We can use "Determining the Sign Relationship Between Free Energy Change and Equilibrium Constant". That's okay.
-
-Let's produce that.
-...done thinking.
-
-Determining the Sign Relationship Between Free Energy Change and Equilibrium Constant
+      Free Energy and Equilibrium Constant Relationships
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -467,11 +380,7 @@ Determining the Sign Relationship Between Free Energy Change and Equilibrium Con
 </details>
 
 
-## Thinking...
-We need to produce a title. All problems are matching symbols in Gibbs free energy equation. So title: "Matching Symbols to Meanings in the Gibbs Free Energy Equation". Use Task + Topic + Key Detail format. Task verb: Matching (MATCH). Topic: Gibbs Free Energy Equation. Key detail: Symbols. So "Matching Gibbs Free Energy Equation Symbols to Their Meanings". Ensure concise. Let's output that.
-...done thinking.
-
-Matching Gibbs Free Energy Equation Symbols to Their Meanings
+## Gibbs Free Energy Equation Symbols and Meanings
 
 <div id="gibbs_free_energy_equation_symbols-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-gibbs_free_energy_equation_symbols-questions.txt" download title="Download bbq-gibbs_free_energy_equation_symbols-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gibbs_free_energy_equation_symbols-questions.txt)">
@@ -495,11 +404,7 @@ Matching Gibbs Free Energy Equation Symbols to Their Meanings
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Thinking...
-We need to produce a title. All problems are matching symbols in Gibbs free energy equation. So title: "Matching Symbols to Meanings in the Gibbs Free Energy Equation". Use Task + Topic + Key Detail format. Task verb: Matching (MATCH). Topic: Gibbs Free Energy Equation. Key detail: Symbols. So "Matching Gibbs Free Energy Equation Symbols to Their Meanings". Ensure concise. Let's output that.
-...done thinking.
-
-Matching Gibbs Free Energy Equation Symbols to Their Meanings
+      Gibbs Free Energy Equation Symbols and Meanings
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -510,13 +415,7 @@ Matching Gibbs Free Energy Equation Symbols to Their Meanings
 </details>
 
 
-## Thinking...
-We need to produce a concise title, following Task + Topic + Key Detail. All problems are about identifying or selecting statements that match the First Law or Second Law of Thermodynamics. The tasks: selecting the statement that matches. Some problems are just "The First Law of Thermodynamics states:" maybe expecting fill in statement. But overall classification: Determining statements about Thermodynamics Laws. The tasks: Determining (or Identifying) First or Second Law statements. So title: Determining Thermodynamics Law Statements. Or Identifying Thermodynamics Law Statements. Need Task verb. The list: Identifying (MC, MA, FIB, MULTI_FIB), Matching (MATCH), Calculating (NUMERIC or NUM), Determining (ORDERING, TF, TFMS). For these problems: They are either "Select the statement that matches the First Law" - that's Matching? But the pattern suggests "Identifying Thermodynamics Law Statements". That fits. Use Task: Identifying. Topic: Thermodynamics Law Statements. Key detail: First/Second. Maybe include "First/Second". Title: Identifying Thermodynamics Law Statements (First or Second). Or "Identifying Statements of the First and Second Laws of Thermodynamics". Must be concise. Let's do: Identifying Thermodynamics Law Statements. This indicates they are selecting or matching statements. Good.
-
-Check format: Task + Topic + Key Detail. "Identifying Thermodynamics Law Statements". That's Task Identifying, Topic Thermodynamics Law, Key Detail Statements. Good.
-...done thinking.
-
-Identifying Thermodynamics Law Statements
+## Thermodynamics Law Statements
 
 <div id="thermodynamics_law_statements-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-thermodynamics_law_statements-questions.txt" download title="Download bbq-thermodynamics_law_statements-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-thermodynamics_law_statements-questions.txt)">
@@ -540,13 +439,7 @@ Identifying Thermodynamics Law Statements
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Thinking...
-We need to produce a concise title, following Task + Topic + Key Detail. All problems are about identifying or selecting statements that match the First Law or Second Law of Thermodynamics. The tasks: selecting the statement that matches. Some problems are just "The First Law of Thermodynamics states:" maybe expecting fill in statement. But overall classification: Determining statements about Thermodynamics Laws. The tasks: Determining (or Identifying) First or Second Law statements. So title: Determining Thermodynamics Law Statements. Or Identifying Thermodynamics Law Statements. Need Task verb. The list: Identifying (MC, MA, FIB, MULTI_FIB), Matching (MATCH), Calculating (NUMERIC or NUM), Determining (ORDERING, TF, TFMS). For these problems: They are either "Select the statement that matches the First Law" - that's Matching? But the pattern suggests "Identifying Thermodynamics Law Statements". That fits. Use Task: Identifying. Topic: Thermodynamics Law Statements. Key detail: First/Second. Maybe include "First/Second". Title: Identifying Thermodynamics Law Statements (First or Second). Or "Identifying Statements of the First and Second Laws of Thermodynamics". Must be concise. Let's do: Identifying Thermodynamics Law Statements. This indicates they are selecting or matching statements. Good.
-
-Check format: Task + Topic + Key Detail. "Identifying Thermodynamics Law Statements". That's Task Identifying, Topic Thermodynamics Law, Key Detail Statements. Good.
-...done thinking.
-
-Identifying Thermodynamics Law Statements
+      Thermodynamics Law Statements
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -557,11 +450,7 @@ Identifying Thermodynamics Law Statements
 </details>
 
 
-## Thinking...
-We need to create a concise title that classifies these problems. They are about thermodynamics system laws: first law and second law, different system types: open, closed, isolated. The tasks likely are to fill in the correct statements (maybe true/false, or what the total energy/entropy is). Probably a multiple choice or fill-in-the-blank where the answer is something like "conserved", "increases", "constant", etc. The title should use the format Task + Topic + Key Detail. Task verbs: Identifying, Matching, Calculating, Determining. These are conceptual knowledge, so "Identifying" or "Determining" could work. The topic: Thermodynamics System Laws. Key detail: Energy or Entropy, System Type. Maybe: "Determining Energy or Entropy Conservation in Different System Types". But we need one title for all. So maybe: "Determining Energy or Entropy Conservation According to Thermodynamic Laws". Task: Determining. Topic: Thermodynamic System Laws. Key Detail: Energy/Entropy in Open, Closed, Isolated. Let's craft: "Determining Energy or Entropy Conservation in Open, Closed, and Isolated Systems". That seems good. Use simple language. So final answer: Determining Energy or Entropy Conservation in Open, Closed, and Isolated Systems.
-...done thinking.
-
-Determining Energy or Entropy Conservation in Open, Closed, and Isolated Systems
+## Energy and Entropy Conservation in Open, Closed, and Isolated Systems
 
 <div id="thermodynamics_system_laws-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-thermodynamics_system_laws-questions.txt" download title="Download bbq-thermodynamics_system_laws-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-thermodynamics_system_laws-questions.txt)">
@@ -585,11 +474,7 @@ Determining Energy or Entropy Conservation in Open, Closed, and Isolated Systems
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Thinking...
-We need to create a concise title that classifies these problems. They are about thermodynamics system laws: first law and second law, different system types: open, closed, isolated. The tasks likely are to fill in the correct statements (maybe true/false, or what the total energy/entropy is). Probably a multiple choice or fill-in-the-blank where the answer is something like "conserved", "increases", "constant", etc. The title should use the format Task + Topic + Key Detail. Task verbs: Identifying, Matching, Calculating, Determining. These are conceptual knowledge, so "Identifying" or "Determining" could work. The topic: Thermodynamics System Laws. Key detail: Energy or Entropy, System Type. Maybe: "Determining Energy or Entropy Conservation in Different System Types". But we need one title for all. So maybe: "Determining Energy or Entropy Conservation According to Thermodynamic Laws". Task: Determining. Topic: Thermodynamic System Laws. Key Detail: Energy/Entropy in Open, Closed, Isolated. Let's craft: "Determining Energy or Entropy Conservation in Open, Closed, and Isolated Systems". That seems good. Use simple language. So final answer: Determining Energy or Entropy Conservation in Open, Closed, and Isolated Systems.
-...done thinking.
-
-Determining Energy or Entropy Conservation in Open, Closed, and Isolated Systems
+      Energy and Entropy Conservation in Open, Closed, and Isolated Systems
     </span>
     <span style='font-weight: normal;'>
       example problem

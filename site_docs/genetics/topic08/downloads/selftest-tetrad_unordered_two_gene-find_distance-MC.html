@@ -1,15 +1,15 @@
 <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
 <div class="qti-selftest">
-<div id="question_html_7917_3fb4">
-<div id="statement_text_7917_3fb4">
+<div id="question_html_fcb7_d849">
+<div id="statement_text_fcb7_d849">
 <h5>Unordered Tetrad Two Gene Mapping</h5>
 <p>In this problem, you will use unordered tetrads to determine the between a single pair of genes and calculate the distances between them. The yeast <i>Saccharomyces cerevisiae</i> is used in this study. A cross has been performed to study the linkage relationships among two genes, and the resulting genotypes are summarized in the table below.</p>
 <h6>Characteristics of Recessive Phenotypes</h6>
 <p></p>
 <ul>
 <li>
-<strong><span style="color: #008066;">Gene M</span></strong> is analogous to the '<span style="color: #008066;"><i>militant</i></span>' phenotype. A budding yeast that is homozygous recessive for <span style="color: #008066;">Gene M</span> colonies are small, dense, and secrete compounds that inhibit the growth of nearby colonies.</li> <li>
-<strong><span style="color: #800055;">Gene R</span></strong> is analogous to the '<span style="color: #800055;"><i>rusty</i></span>' phenotype. A budding yeast that is homozygous recessive for <span style="color: #800055;">Gene R</span> colonies develop a reddish-brown pigmentation, reminiscent of rusted metal.</li> </ul>
+<strong><span style="color: #b34100;">Gene M</span></strong> is affiliated with the '<span style="color: #b34100;"><i>militant</i></span>' phenotype. A budding yeast that is homozygous recessive for <span style="color: #b34100;">Gene M</span> colonies are small, dense, and secrete compounds that inhibit the growth of nearby colonies.</li> <li>
+<strong><span style="color: #008080;">Gene R</span></strong> is correlated with the '<span style="color: #008080;"><i>rusty</i></span>' phenotype. A budding yeast that is homozygous recessive for <span style="color: #008080;">Gene R</span> colonies develop a reddish-brown pigmentation, reminiscent of rusted metal.</li> </ul>
 <table style="border-collapse: collapse; border: 2px solid black; width: 400px; height: 220px;">
 <tr>
 <th align="center" style="border: 1px solid black;">Set #</th> <th colspan="4" align="center" style="border: 1px solid black;">Tetrad Genotypes</th> <th align="center" style="border: 1px solid black;">Progeny<br>Count</th>
@@ -23,7 +23,7 @@
 <td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">m</span></td> <td align="center" style="border: 0px; background-color: #ccffcc"><span style="font-size: large; font-family: monospace;">r</span></td>
 </tr></table></div></span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
 <td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">m</span></td> <td align="center" style="border: 0px; background-color: #ccffcc"><span style="font-size: large; font-family: monospace;">r</span></td>
-</tr></table></div></span></td> <td align="right" style="border: 1px solid black;"><span style="font-size: medium;">1,815</span></td>
+</tr></table></div></span></td> <td align="right" style="border: 1px solid black;"><span style="font-size: medium;">182</span></td>
 </tr>
 <tr>
 <td align="center" style="border: 1px solid black;"><span style="font-size: medium;">2</span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
@@ -34,7 +34,7 @@
 <td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">m</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #008000;">+</span></td>
 </tr></table></div></span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
 <td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">m</span></td> <td align="center" style="border: 0px; background-color: #ccffcc"><span style="font-size: large; font-family: monospace;">r</span></td>
-</tr></table></div></span></td> <td align="right" style="border: 1px solid black;"><span style="font-size: medium;">1,700</span></td>
+</tr></table></div></span></td> <td align="right" style="border: 1px solid black;"><span style="font-size: medium;">3,918</span></td>
 </tr>
 <tr>
 <td align="center" style="border: 1px solid black;"><span style="font-size: medium;">3</span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
@@ -45,10 +45,10 @@
 <td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">m</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #008000;">+</span></td>
 </tr></table></div></span></td> <td align="center" style="border: 1px solid black;"><span style="font-size: medium;"><div style="padding-left: 5px; padding-right: 5px;"><table style="border-collapse: collapse; border: 0px; padding-left: 50px; padding-right: 50px;"><tr>
 <td align="center" style="border: 0px; background-color: #ffcccc"><span style="font-size: large; font-family: monospace;">m</span></td> <td align="center" style="border: 0px;"><span style="font-size: large; font-family: monospace; color: #008000;">+</span></td>
-</tr></table></div></span></td> <td align="right" style="border: 1px solid black;"><span style="font-size: medium;">85</span></td>
+</tr></table></div></span></td> <td align="right" style="border: 1px solid black;"><span style="font-size: medium;">4,500</span></td>
 </tr>
 <tr>
-<th colspan="5" align="right" style="border: 1px solid black;">TOTAL =</th> <td align="right" style="border: 1px solid black;">3,600</td>
+<th colspan="5" align="right" style="border: 1px solid black;">TOTAL =</th> <td align="right" style="border: 1px solid black;">8,600</td>
 </tr>
 </table>
 <p>The resulting phenotypes are summarized in the table above.</p> <h6>Step-by-Step Instructions</h6>
@@ -59,82 +59,82 @@
 <h5>Determine the distance between the two genes M and R</h5>
 </div>
 <form>
-<ul id="choices_7917_3fb4" class="qti-auto-grid-compact">
+<ul id="choices_fcb7_d849" class="qti-auto-grid-compact">
 <li>
-    <input type="radio" id="option0" name="answer_7917_3fb4" data-correct="false"><label for="option0">distance = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">½(1,815) + 3×(85)</td></tr>
-<tr><td style="text-align: center;">3,600</td></tr>
+    <input type="radio" id="option0" name="answer_fcb7_d849" data-correct="false"><label for="option0">distance = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
+<tr><td style="border-bottom: 1px solid black; text-align: center;">½(3,918 + 4,500) + 3×(182)</td></tr>
+<tr><td style="text-align: center;">8,600</td></tr>
 </table> = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">907.5 + 255</td></tr>
-<tr><td style="text-align: center;">3,600</td></tr>
+<tr><td style="border-bottom: 1px solid black; text-align: center;">4,209 + 546</td></tr>
+<tr><td style="text-align: center;">8,600</td></tr>
 </table> = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">1162.5</td></tr>
-<tr><td style="text-align: center;">3,600</td></tr>
-</table> = 0.3229 = <strong>32.29 cM</strong></label>
+<tr><td style="border-bottom: 1px solid black; text-align: center;">4,755</td></tr>
+<tr><td style="text-align: center;">8,600</td></tr>
+</table> = 0.5529 = <strong>55.29 cM</strong></label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_7917_3fb4" data-correct="true"><label for="option1">distance = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">½(1,700) + 3×(85)</td></tr>
-<tr><td style="text-align: center;">3,600</td></tr>
+    <input type="radio" id="option1" name="answer_fcb7_d849" data-correct="false"><label for="option1">distance = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
+<tr><td style="border-bottom: 1px solid black; text-align: center;">½(4,500) + 3×(0)</td></tr>
+<tr><td style="text-align: center;">8,600</td></tr>
 </table> = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">850 + 255</td></tr>
-<tr><td style="text-align: center;">3,600</td></tr>
+<tr><td style="border-bottom: 1px solid black; text-align: center;">2,250 + 0</td></tr>
+<tr><td style="text-align: center;">8,600</td></tr>
 </table> = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">1,105</td></tr>
-<tr><td style="text-align: center;">3,600</td></tr>
-</table> = 0.3069 = <strong>30.69 cM</strong></label>
+<tr><td style="border-bottom: 1px solid black; text-align: center;">2,250</td></tr>
+<tr><td style="text-align: center;">8,600</td></tr>
+</table> = 0.2616 = <strong>26.16 cM</strong></label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_7917_3fb4" data-correct="false"><label for="option2">distance = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">½(1,700) + 3×(0)</td></tr>
-<tr><td style="text-align: center;">3,600</td></tr>
+    <input type="radio" id="option2" name="answer_fcb7_d849" data-correct="false"><label for="option2">distance = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
+<tr><td style="border-bottom: 1px solid black; text-align: center;">½(4,500) + 3×(182)</td></tr>
+<tr><td style="text-align: center;">8,600</td></tr>
 </table> = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">850 + 0</td></tr>
-<tr><td style="text-align: center;">3,600</td></tr>
+<tr><td style="border-bottom: 1px solid black; text-align: center;">2,250 + 546</td></tr>
+<tr><td style="text-align: center;">8,600</td></tr>
 </table> = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">850</td></tr>
-<tr><td style="text-align: center;">3,600</td></tr>
-</table> = 0.2361 = <strong>23.61 cM</strong></label>
+<tr><td style="border-bottom: 1px solid black; text-align: center;">2,796</td></tr>
+<tr><td style="text-align: center;">8,600</td></tr>
+</table> = 0.3251 = <strong>32.51 cM</strong></label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_7917_3fb4" data-correct="false"><label for="option3">distance = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">½(85) + 3×(85)</td></tr>
-<tr><td style="text-align: center;">3,600</td></tr>
+    <input type="radio" id="option3" name="answer_fcb7_d849" data-correct="false"><label for="option3">distance = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
+<tr><td style="border-bottom: 1px solid black; text-align: center;">½(182) + 3×(182)</td></tr>
+<tr><td style="text-align: center;">8,600</td></tr>
 </table> = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">42.5 + 255</td></tr>
-<tr><td style="text-align: center;">3,600</td></tr>
+<tr><td style="border-bottom: 1px solid black; text-align: center;">91 + 546</td></tr>
+<tr><td style="text-align: center;">8,600</td></tr>
 </table> = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">297.5</td></tr>
-<tr><td style="text-align: center;">3,600</td></tr>
-</table> = 0.0826 = <strong>8.26 cM</strong></label>
+<tr><td style="border-bottom: 1px solid black; text-align: center;">637</td></tr>
+<tr><td style="text-align: center;">8,600</td></tr>
+</table> = 0.0741 = <strong>7.41 cM</strong></label>
   </li>
   <li>
-    <input type="radio" id="option4" name="answer_7917_3fb4" data-correct="false"><label for="option4">distance = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">½(1,815) + 3×(0)</td></tr>
-<tr><td style="text-align: center;">3,600</td></tr>
+    <input type="radio" id="option4" name="answer_fcb7_d849" data-correct="true"><label for="option4">distance = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
+<tr><td style="border-bottom: 1px solid black; text-align: center;">½(3,918) + 3×(182)</td></tr>
+<tr><td style="text-align: center;">8,600</td></tr>
 </table> = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">907.5 + 0</td></tr>
-<tr><td style="text-align: center;">3,600</td></tr>
+<tr><td style="border-bottom: 1px solid black; text-align: center;">1,959 + 546</td></tr>
+<tr><td style="text-align: center;">8,600</td></tr>
 </table> = <table style="border-collapse: collapse; display: inline-table; vertical-align: middle;">
-<tr><td style="border-bottom: 1px solid black; text-align: center;">907.5</td></tr>
-<tr><td style="text-align: center;">3,600</td></tr>
-</table> = 0.2521 = <strong>25.21 cM</strong></label>
+<tr><td style="border-bottom: 1px solid black; text-align: center;">2,505</td></tr>
+<tr><td style="text-align: center;">8,600</td></tr>
+</table> = 0.2913 = <strong>29.13 cM</strong></label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_7917_3fb4()">Check Answer</button>
-<div id="result_7917_3fb4" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_fcb7_d849()">Check Answer</button>
+<div id="result_fcb7_d849" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_7917_3fb4() {
- const options = document.getElementsByName('answer_7917_3fb4');
+function checkAnswer_fcb7_d849() {
+ const options = document.getElementsByName('answer_fcb7_d849');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_7917_3fb4');
+ const resultDiv = document.getElementById('result_fcb7_d849');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'var(--qti-success-fg, #008000)';
