@@ -47,7 +47,7 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       '<span style="color: #009900; font-weight:700;">size-exclusion column (SEC)</span>',
       '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
-      '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
+      '<span style="color: #b3b300; font-weight:700;">hydrophobic interaction column (HIC)</span>',
       '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
     ],
     'correct' => '<span style="color: #009900; font-weight:700;">size-exclusion column (SEC)</span>',
@@ -59,7 +59,7 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       '<span style="color: #009900; font-weight:700;">size-exclusion column (SEC)</span>',
       '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
-      '<span style="color: #b3b300; font-weight:700;">hydrophobic interaction column (HIC)</span>',
+      '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
       '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
     ],
     'correct' => '<span style="color: #009900; font-weight:700;">size-exclusion column (SEC)</span>',
@@ -83,7 +83,7 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
       '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
-      '<span style="color: #b3b300; font-weight:700;">hydrophobic interaction column (HIC)</span>',
+      '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
       '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
     ],
     'correct' => '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
@@ -107,7 +107,7 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
       '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
-      '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
+      '<span style="color: #b3b300; font-weight:700;">hydrophobic interaction column (HIC)</span>',
       '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
     ],
     'correct' => '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
@@ -131,7 +131,7 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       '<span style="color: #009900; font-weight:700;">size-exclusion column (SEC)</span>',
       '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
-      '<span style="color: #b3b300; font-weight:700;">hydrophobic interaction column (HIC)</span>',
+      '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
       '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
     ],
     'correct' => '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
@@ -153,9 +153,9 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
     'singular_item' => 'description',
     'choices' => [
-      '<span style="color: #009900; font-weight:700;">size-exclusion column (SEC)</span>',
+      '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
       '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
-      '<span style="color: #b3b300; font-weight:700;">hydrophobic interaction column (HIC)</span>',
+      '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
       '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
     ],
     'correct' => '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
@@ -179,7 +179,7 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
       '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
-      '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
+      '<span style="color: #b3b300; font-weight:700;">hydrophobic interaction column (HIC)</span>',
       '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
     ],
     'correct' => '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
@@ -189,7 +189,7 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
     'singular_item' => 'description',
     'choices' => [
-      '<span style="color: #009900; font-weight:700;">size-exclusion column (SEC)</span>',
+      '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
       '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
       '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
       '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
@@ -261,7 +261,7 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
     'singular_item' => 'description',
     'choices' => [
-      '<span style="color: #009900; font-weight:700;">size-exclusion column (SEC)</span>',
+      '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
       '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
       '<span style="color: #b3b300; font-weight:700;">hydrophobic interaction column (HIC)</span>',
       '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
@@ -285,7 +285,7 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
     'singular_item' => 'description',
     'choices' => [
-      '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
+      '<span style="color: #009900; font-weight:700;">size-exclusion column (SEC)</span>',
       '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
       '<span style="color: #b3b300; font-weight:700;">hydrophobic interaction column (HIC)</span>',
       '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
@@ -333,7 +333,7 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
     'singular_item' => 'description',
     'choices' => [
-      '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
+      '<span style="color: #009900; font-weight:700;">size-exclusion column (SEC)</span>',
       '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
       '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
       '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
@@ -345,7 +345,7 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
     'singular_item' => 'description',
     'choices' => [
-      '<span style="color: #009900; font-weight:700;">size-exclusion column (SEC)</span>',
+      '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
       '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
       '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
       '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
@@ -405,7 +405,7 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'types of <span style="color: #e60000; font-weight:700;">column</span> <span style="color: #b30077; font-weight:700;">chromatography</span>',
     'singular_item' => 'description',
     'choices' => [
-      '<span style="color: #009900; font-weight:700;">size-exclusion column (SEC)</span>',
+      '<span style="color: #59b300; font-weight:700;">gel filtration column (GFC)</span>',
       '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
       '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
       '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
@@ -443,7 +443,7 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       '<span style="color: #009900; font-weight:700;">size-exclusion column (SEC)</span>',
       '<span style="color: #0039e6; font-weight:700;">ion exchange column (IEX)</span>',
-      '<span style="color: #e69100; font-weight:700;">reverse phase column (RPC)</span>',
+      '<span style="color: #b3b300; font-weight:700;">hydrophobic interaction column (HIC)</span>',
       '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
     ],
     'correct' => '<span style="color: #cc0066; font-weight:700;">affinity column (AC)</span>',
