@@ -49,6 +49,7 @@ def generate_title_prompt(file_path: str, problem_statements: list, save_prompt:
 		"- Use a Task + Topic + Key Detail format.\n"
 		"- Prefer task verbs aligned to question type: Identifying (MC, MA, FIB, MULTI_FIB), Matching (MATCH), Calculating (NUMERIC or NUM), Determining (ORDERING, TF, TFMS).\n"
 		"- If the question type is unclear, infer it from the filename or use the best-fit verb from the list above.\n"
+		"- Wrap your title in XML tags: <title>Your Title Here</title>\n"
 		"- Return only the title as plain text with no markdown, quotes, or trailing punctuation.\n"
 		"- Titles should be brief and easy to understand for both students and educators.\n"
 		"- Do not include any restated problem details, commentary, or additional thoughts.\n"
@@ -195,24 +196,21 @@ def get_problem_title_from_response(response_content: str) -> str:
 	Returns:
 		str: The extracted problem title.
 	"""
-	# Remove leading and trailing whitespace from the response
-	line_content = response_content.strip()
+	# Try XML tag extraction first (preferred format)
+	title = llm_wrapper.extract_xml_tag(response_content, "title")
 
-	# Check if the response contains multiple lines
-	if '\n' in response_content:
-		# Split the response into lines
-		lines = response_content.split('\n')
-
-		# Iterate through each line to find the one containing the '###' title marker
-		for line in lines:
-			sline = line.strip()  # Remove extra whitespace from the line
-			if '###' in sline:
-				# Set the line content to the one containing the title and stop searching
-				line_content = sline
-				break
-
-	# Use a regular expression to remove any characters before the '###' marker
-	title = re.sub(r'^.*###*', '', line_content).strip()
+	# Fall back to legacy ### markdown parsing for backward compatibility
+	if not title:
+		line_content = response_content.strip()
+		if '\n' in response_content:
+			lines = response_content.split('\n')
+			for line in lines:
+				sline = line.strip()
+				if '###' in sline:
+					line_content = sline
+					break
+		# Remove any characters before the '###' marker
+		title = re.sub(r'^.*###*', '', line_content).strip()
 
 	# Return the extracted title
 	return title

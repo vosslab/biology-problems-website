@@ -538,10 +538,30 @@ def generate_download_button_row(
 				file_type['extension'],
 			)
 		exists_before = os.path.isfile(out_file_path)
-		if exists_before and not force_downloads:
+		# Check if the source file is newer than the existing download file
+		source_is_newer = False
+		if exists_before:
+			source_mtime = os.path.getmtime(bbq_file_name)
+			download_mtime = os.path.getmtime(out_file_path)
+			source_is_newer = source_mtime > download_mtime
+		if exists_before and not force_downloads and not source_is_newer:
 			if verbose:
 				print(color_text(f"  FOUND {file_type['display_name']}: {out_file_path}", COLOR_GREEN))
 			record_stat(stats, type_key, "existing")
+		elif source_is_newer:
+			if verbose:
+				print(color_text(f"  STALE {file_type['display_name']}: source newer, rebuilding", COLOR_CYAN))
+			out_file_path = create_downloadable_format(
+				bbq_file_name,
+				file_type['prefix'],
+				file_type['extension'],
+			)
+			if not os.path.isfile(out_file_path):
+				if verbose:
+					print(color_text(f"  MISSING {file_type['display_name']}: {out_file_path}", COLOR_YELLOW))
+				record_stat(stats, type_key, "failed")
+				continue
+			record_stat(stats, type_key, "generated")
 		elif type_key == "bb_text":
 			if verbose:
 				print(color_text(f"  MISSING {file_type['display_name']}: {out_file_path}", COLOR_YELLOW))
@@ -593,7 +613,30 @@ def generate_download_button_row(
 
 	return html_output
 
-#==============
+#============================================
+
+def is_valid_title(title: str) -> bool:
+	"""
+	Check whether a problem set title is valid.
+
+	Args:
+		title: The title string to validate.
+
+	Returns:
+		bool: True if the title passes all checks, False otherwise.
+	"""
+	# Reject titles longer than 140 characters
+	if len(title) > 140:
+		return False
+	# Reject titles containing LLM chain-of-thought leaks
+	if 'thinking' in title.lower():
+		return False
+	# Reject titles containing non-ASCII characters
+	if not title.isascii():
+		return False
+	return True
+
+#============================================
 
 def get_problem_set_title(bbq_file: str) -> str:
 	"""
@@ -624,12 +667,26 @@ def get_problem_set_title(bbq_file: str) -> str:
 	# Extract the base file name from the input path
 	bbq_file_basename = os.path.basename(bbq_file)
 
-	# If the file's title is already in the YAML data, return it
+	# If the file's title is already in the YAML data, validate and return it
 	if bbq_file_basename in problem_set_title_data:
-		return problem_set_title_data[bbq_file_basename]
+		cached_title = problem_set_title_data[bbq_file_basename]
+		if is_valid_title(cached_title):
+			return cached_title
+		# Bad cached title: remove it so we regenerate below
+		print(f"WARNING: invalid cached title for {bbq_file_basename}: {cached_title!r}")
+		del problem_set_title_data[bbq_file_basename]
 
-	# Generate a new title using an external module function
-	problem_set_title = llm_generate_problem_set_title.get_problem_title_from_file(bbq_file)
+	# Generate a new title using an external module function, retry up to 3 times
+	max_retries = 3
+	problem_set_title = None
+	for attempt in range(max_retries):
+		candidate = llm_generate_problem_set_title.get_problem_title_from_file(bbq_file)
+		if is_valid_title(candidate):
+			problem_set_title = candidate
+			break
+		print(f"WARNING: attempt {attempt + 1}/{max_retries} produced invalid title: {candidate!r}")
+	if problem_set_title is None:
+		raise ValueError(f"Failed to generate valid title after {max_retries} attempts for {bbq_file_basename}: {candidate!r}")
 
 	# Update the YAML data with the newly generated title and a timestamp of the edit
 	problem_set_title_data[bbq_file_basename] = problem_set_title
