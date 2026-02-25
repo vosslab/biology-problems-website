@@ -128,7 +128,7 @@ function setupGame() {
     renderSequence(answer, "peptide"); // from peptidyl_peptides.js
 
     const statsStore = window.DailyPuzzleStats
-        ? window.DailyPuzzleStats.createStore("peptidyle_stats_v1")
+        ? window.DailyPuzzleStats.createStore("peptidyle_stats_v1", maxGuesses)
         : null;
     if (statsStore) {
         statsStore.renderStats("stats");
@@ -244,6 +244,11 @@ function setupGame() {
             if (statsStore) {
                 statsStore.updateOnGameEnd(false, dayKey);
                 statsStore.renderStats("stats");
+                window.setTimeout(function () {
+                    statsStore.showGameEndModal({
+                        win: false, maxGuesses: maxGuesses, gameName: "Peptidyle"
+                    });
+                }, 600);
             }
             finished = true;
         }
@@ -283,9 +288,16 @@ function setupGame() {
         if (result.every(function (x) { return x === "correct"; })) {
             message.textContent = "Correct.";
             showToast("Correct.");
+            var winGuessCount = guesses.length + (hintUsed ? FIRST_LETTER_HINT_PENALTY : 0);
             if (statsStore) {
-                statsStore.updateOnGameEnd(true, dayKey);
+                statsStore.updateOnGameEnd(true, dayKey, winGuessCount);
                 statsStore.renderStats("stats");
+                window.setTimeout(function () {
+                    statsStore.showGameEndModal({
+                        win: true, guessNumber: winGuessCount,
+                        maxGuesses: maxGuesses, gameName: "Peptidyle"
+                    });
+                }, 600);
             }
             renderHintArea();
             finished = true;
@@ -301,6 +313,11 @@ function setupGame() {
             if (statsStore) {
                 statsStore.updateOnGameEnd(false, dayKey);
                 statsStore.renderStats("stats");
+                window.setTimeout(function () {
+                    statsStore.showGameEndModal({
+                        win: false, maxGuesses: maxGuesses, gameName: "Peptidyle"
+                    });
+                }, 600);
             }
             renderHintArea();
             finished = true;

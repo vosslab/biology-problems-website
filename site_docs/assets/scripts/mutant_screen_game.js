@@ -23,7 +23,7 @@ function mutantScreenSetupGame() {
 	}
 
 	var dayKey = DailyPuzzleCore.getUtcDayKey(new Date());
-	var statsStore = DailyPuzzleStats.createStore("mutant_screen_stats_v1");
+	var statsStore = DailyPuzzleStats.createStore("mutant_screen_stats_v1", MUTANT_SCREEN_CONFIG.maxGuesses);
 	var _toaster = null;
 
 	var state = {
@@ -254,8 +254,15 @@ function mutantScreenSetupGame() {
 		if (guess === answer) {
 			state.gameOver = true;
 			messageEl.textContent = "Solved! Pathway: " + answer;
-			statsStore.updateOnGameEnd(true, state.dayKey);
+			var winGuessCount = state.guesses.length + getHintPenaltyUsedCount();
+			statsStore.updateOnGameEnd(true, state.dayKey, winGuessCount);
 			statsStore.renderStats("stats");
+			window.setTimeout(function () {
+				statsStore.showGameEndModal({
+					win: true, guessNumber: winGuessCount,
+					maxGuesses: MUTANT_SCREEN_CONFIG.maxGuesses, gameName: "Mutant Screen"
+				});
+			}, 600);
 			renderHintArea();
 			return;
 		}
@@ -265,6 +272,11 @@ function mutantScreenSetupGame() {
 			messageEl.textContent = "Out of guesses. Pathway: " + answer;
 			statsStore.updateOnGameEnd(false, state.dayKey);
 			statsStore.renderStats("stats");
+			window.setTimeout(function () {
+				statsStore.showGameEndModal({
+					win: false, maxGuesses: MUTANT_SCREEN_CONFIG.maxGuesses, gameName: "Mutant Screen"
+				});
+			}, 600);
 			renderHintArea();
 			return;
 		}
@@ -305,6 +317,11 @@ function mutantScreenSetupGame() {
 			messageEl.textContent = "Out of guesses. Pathway: " + state.answerWord;
 			statsStore.updateOnGameEnd(false, state.dayKey);
 			statsStore.renderStats("stats");
+			window.setTimeout(function () {
+				statsStore.showGameEndModal({
+					win: false, maxGuesses: MUTANT_SCREEN_CONFIG.maxGuesses, gameName: "Mutant Screen"
+				});
+			}, 600);
 			renderHintArea();
 		}
 	}
