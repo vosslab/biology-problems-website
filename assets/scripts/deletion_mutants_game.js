@@ -24,7 +24,7 @@ function deletionMutantsSetupGame() {
 	}
 
 	var dayKey = DailyPuzzleCore.getUtcDayKey(new Date());
-	var statsStore = DailyPuzzleStats.createStore("deletion_mutants_stats_v1");
+	var statsStore = DailyPuzzleStats.createStore("deletion_mutants_stats_v1", DELETION_MUTANTS_CONFIG.maxGuesses);
 	var _toaster = null;
 
 	var state = {
@@ -304,8 +304,15 @@ function deletionMutantsSetupGame() {
 		if (guess === answer) {
 			state.gameOver = true;
 			messageEl.textContent = "Solved! Answer: " + answer;
-			statsStore.updateOnGameEnd(true, state.dayKey);
+			var winGuessCount = state.guesses.length + getHintPenaltyUsedCount();
+			statsStore.updateOnGameEnd(true, state.dayKey, winGuessCount);
 			statsStore.renderStats("stats");
+			window.setTimeout(function () {
+				statsStore.showGameEndModal({
+					win: true, guessNumber: winGuessCount,
+					maxGuesses: DELETION_MUTANTS_CONFIG.maxGuesses, gameName: "Deletion Mutants"
+				});
+			}, 600);
 			renderHintArea();
 			return;
 		}
@@ -315,6 +322,11 @@ function deletionMutantsSetupGame() {
 			messageEl.textContent = "Out of guesses. Answer: " + answer;
 			statsStore.updateOnGameEnd(false, state.dayKey);
 			statsStore.renderStats("stats");
+			window.setTimeout(function () {
+				statsStore.showGameEndModal({
+					win: false, maxGuesses: DELETION_MUTANTS_CONFIG.maxGuesses, gameName: "Deletion Mutants"
+				});
+			}, 600);
 			renderHintArea();
 			return;
 		}
@@ -355,6 +367,11 @@ function deletionMutantsSetupGame() {
 			messageEl.textContent = "Out of guesses. Answer: " + state.answerWord;
 			statsStore.updateOnGameEnd(false, state.dayKey);
 			statsStore.renderStats("stats");
+			window.setTimeout(function () {
+				statsStore.showGameEndModal({
+					win: false, maxGuesses: DELETION_MUTANTS_CONFIG.maxGuesses, gameName: "Deletion Mutants"
+				});
+			}, 600);
 			renderHintArea();
 		}
 	}
