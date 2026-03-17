@@ -12,7 +12,7 @@ The QTI format makes it simple to transfer questions and prepare them for use in
 
 **Steps:**
 
-1. **Navigate to content:** In your course, use the menu on the left and make sure you are in the **Content** section. If not, click on **Content** to open it.
+1. **Navigate to content:** In your course, use the menu on the left and make sure you are in the **Content** section. If not, click on **Content** to open it.  
 ![Blackboard Ultra course navigation menu with the Content tab highlighted and an arrow pointing to it.](bbq_ultra_how_to/Step_01_01-go_to_content.png){ width=40% }
 
 2. **Go to Manage banks:** On the right-hand side of the page, in the **Details & Actions** panel, find the **Question Banks** section. Click on **Manage banks**.
