@@ -4,226 +4,177 @@ Carbohydrate structure, glycosidic bonds, biological roles.
 
 **LibreTexts reference:** [Carbohydrates](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/09:_Carbohydrates)
 
-## D and L Configurations from Fischer Projections
+## Allosteric Enzyme Models from Conformational Descriptions
 
-<div id="D_to_L_Fischer_configuration-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-D_to_L_Fischer_configuration-questions.txt" download title="Download bbq-D_to_L_Fischer_configuration-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-D_to_L_Fischer_configuration-questions.txt)">
+<div id="allosteric_enzyme_models-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-allosteric_enzyme_models-questions.txt" download title="Download bbq-allosteric_enzyme_models-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-allosteric_enzyme_models-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-D_to_L_Fischer_configuration.zip" download title="Download blackboard_qti_v2_1-D_to_L_Fischer_configuration.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-D_to_L_Fischer_configuration.zip)">
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-allosteric_enzyme_models.zip" download title="Download blackboard_qti_v2_1-allosteric_enzyme_models.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-allosteric_enzyme_models.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-D_to_L_Fischer_configuration.zip" download title="Download canvas_qti_v1_2-D_to_L_Fischer_configuration.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-D_to_L_Fischer_configuration.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-allosteric_enzyme_models.zip" download title="Download canvas_qti_v1_2-allosteric_enzyme_models.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-allosteric_enzyme_models.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-D_to_L_Fischer_configuration.html', '_blank')" title="View human_readable-D_to_L_Fischer_configuration.html" aria-label="Click to view the Human-Readable TXT file (human_readable-D_to_L_Fischer_configuration.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-allosteric_enzyme_models.html', '_blank')" title="View human_readable-allosteric_enzyme_models.html" aria-label="Click to view the Human-Readable TXT file (human_readable-allosteric_enzyme_models.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/allosteric_enzyme_models.pgml" download title="Download allosteric_enzyme_models.pgml" aria-label="Click to download the WeBWorK PGML file (allosteric_enzyme_models.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      D and L Configurations from Fischer Projections
+      Allosteric Enzyme Models from Conformational Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic09/downloads/selftest-D_to_L_Fischer_configuration.html" %}
+  {% include "biochemistry/topic09/downloads/selftest-allosteric_enzyme_models.html" %}
 
 </details>
 
 
-## D and L Configurations from Haworth Projections
+## Effects on Metabolite Production from Enzyme Inactivation
 
-<div id="D_to_L_Haworth_configuration-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-D_to_L_Haworth_configuration-questions.txt" download title="Download bbq-D_to_L_Haworth_configuration-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-D_to_L_Haworth_configuration-questions.txt)">
+<div id="feedback_merging_pathway-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-feedback_merging_pathway-questions.txt" download title="Download bbq-feedback_merging_pathway-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-feedback_merging_pathway-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-D_to_L_Haworth_configuration.zip" download title="Download blackboard_qti_v2_1-D_to_L_Haworth_configuration.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-D_to_L_Haworth_configuration.zip)">
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-feedback_merging_pathway.zip" download title="Download blackboard_qti_v2_1-feedback_merging_pathway.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-feedback_merging_pathway.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-D_to_L_Haworth_configuration.zip" download title="Download canvas_qti_v1_2-D_to_L_Haworth_configuration.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-D_to_L_Haworth_configuration.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-feedback_merging_pathway.zip" download title="Download canvas_qti_v1_2-feedback_merging_pathway.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-feedback_merging_pathway.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-D_to_L_Haworth_configuration.html', '_blank')" title="View human_readable-D_to_L_Haworth_configuration.html" aria-label="Click to view the Human-Readable TXT file (human_readable-D_to_L_Haworth_configuration.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-feedback_merging_pathway.html', '_blank')" title="View human_readable-feedback_merging_pathway.html" aria-label="Click to view the Human-Readable TXT file (human_readable-feedback_merging_pathway.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/feedback_merging_pathway.pgml" download title="Download feedback_merging_pathway.pgml" aria-label="Click to download the WeBWorK PGML file (feedback_merging_pathway.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      D and L Configurations from Haworth Projections
+      Effects on Metabolite Production from Enzyme Inactivation
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic09/downloads/selftest-D_to_L_Haworth_configuration.html" %}
+  {% include "biochemistry/topic09/downloads/selftest-feedback_merging_pathway.html" %}
 
 </details>
 
 
-## Common Polysaccharides and Descriptions
+## Determining Enzyme Inhibition Impact on Metabolite Production
 
-<div id="MATCH-polysaccharides-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MATCH-polysaccharides-questions.txt" download title="Download bbq-MATCH-polysaccharides-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-polysaccharides-questions.txt)">
+<div id="feedback_splitting_pathway-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-feedback_splitting_pathway-questions.txt" download title="Download bbq-feedback_splitting_pathway-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-feedback_splitting_pathway-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-polysaccharides.zip" download title="Download blackboard_qti_v2_1-MATCH-polysaccharides.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-polysaccharides.zip)">
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-feedback_splitting_pathway.zip" download title="Download blackboard_qti_v2_1-feedback_splitting_pathway.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-feedback_splitting_pathway.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-polysaccharides.zip" download title="Download canvas_qti_v1_2-MATCH-polysaccharides.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-polysaccharides.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-feedback_splitting_pathway.zip" download title="Download canvas_qti_v1_2-feedback_splitting_pathway.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-feedback_splitting_pathway.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-polysaccharides.html', '_blank')" title="View human_readable-MATCH-polysaccharides.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-polysaccharides.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-feedback_splitting_pathway.html', '_blank')" title="View human_readable-feedback_splitting_pathway.html" aria-label="Click to view the Human-Readable TXT file (human_readable-feedback_splitting_pathway.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/feedback_splitting_pathway.pgml" download title="Download feedback_splitting_pathway.pgml" aria-label="Click to download the WeBWorK PGML file (feedback_splitting_pathway.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Common Polysaccharides and Descriptions
+      Determining Enzyme Inhibition Impact on Metabolite Production
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic09/downloads/selftest-MATCH-polysaccharides.html" %}
+  {% include "biochemistry/topic09/downloads/selftest-feedback_splitting_pathway.html" %}
 
 </details>
 
 
-## Characteristics of Common Polysaccharides
+## Determining Hemoglobin Oxygen Affinity Changes Under Different Conditions
 
-<div id="MC-polysaccharides-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MC-polysaccharides-questions.txt" download title="Download bbq-MC-polysaccharides-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-polysaccharides-questions.txt)">
+<div id="hemoglobin_oxygen_affinity-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-hemoglobin_oxygen_affinity-questions.txt" download title="Download bbq-hemoglobin_oxygen_affinity-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-hemoglobin_oxygen_affinity-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MC-polysaccharides.zip" download title="Download blackboard_qti_v2_1-MC-polysaccharides.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MC-polysaccharides.zip)">
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-hemoglobin_oxygen_affinity.zip" download title="Download blackboard_qti_v2_1-hemoglobin_oxygen_affinity.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-hemoglobin_oxygen_affinity.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MC-polysaccharides.zip" download title="Download canvas_qti_v1_2-MC-polysaccharides.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MC-polysaccharides.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-hemoglobin_oxygen_affinity.zip" download title="Download canvas_qti_v1_2-hemoglobin_oxygen_affinity.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-hemoglobin_oxygen_affinity.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MC-polysaccharides.html', '_blank')" title="View human_readable-MC-polysaccharides.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MC-polysaccharides.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-hemoglobin_oxygen_affinity.html', '_blank')" title="View human_readable-hemoglobin_oxygen_affinity.html" aria-label="Click to view the Human-Readable TXT file (human_readable-hemoglobin_oxygen_affinity.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/hemoglobin_oxygen_affinity.pgml" download title="Download hemoglobin_oxygen_affinity.pgml" aria-label="Click to download the WeBWorK PGML file (hemoglobin_oxygen_affinity.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Characteristics of Common Polysaccharides
+      Determining Hemoglobin Oxygen Affinity Changes Under Different Conditions
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic09/downloads/selftest-MC-polysaccharides.html" %}
+  {% include "biochemistry/topic09/downloads/selftest-hemoglobin_oxygen_affinity.html" %}
 
 </details>
 
 
-## Monosaccharide Classes from Fischer Projections
+## Allosteric Enzymes in Metabolic Pathways
 
-<div id="classify_Fischer-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-classify_Fischer-questions.txt" download title="Download bbq-classify_Fischer-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-classify_Fischer-questions.txt)">
+<div id="metabolic_pathway_allosteric-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-metabolic_pathway_allosteric-questions.txt" download title="Download bbq-metabolic_pathway_allosteric-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-metabolic_pathway_allosteric-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-classify_Fischer.zip" download title="Download blackboard_qti_v2_1-classify_Fischer.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-classify_Fischer.zip)">
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-metabolic_pathway_allosteric.zip" download title="Download blackboard_qti_v2_1-metabolic_pathway_allosteric.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-metabolic_pathway_allosteric.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-classify_Fischer.zip" download title="Download canvas_qti_v1_2-classify_Fischer.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-classify_Fischer.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-metabolic_pathway_allosteric.zip" download title="Download canvas_qti_v1_2-metabolic_pathway_allosteric.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-metabolic_pathway_allosteric.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-classify_Fischer.html', '_blank')" title="View human_readable-classify_Fischer.html" aria-label="Click to view the Human-Readable TXT file (human_readable-classify_Fischer.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-metabolic_pathway_allosteric.html', '_blank')" title="View human_readable-metabolic_pathway_allosteric.html" aria-label="Click to view the Human-Readable TXT file (human_readable-metabolic_pathway_allosteric.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/metabolic_pathway_allosteric.pgml" download title="Download metabolic_pathway_allosteric.pgml" aria-label="Click to download the WeBWorK PGML file (metabolic_pathway_allosteric.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Monosaccharide Classes from Fischer Projections
+      Allosteric Enzymes in Metabolic Pathways
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic09/downloads/selftest-classify_Fischer.html" %}
-
-</details>
-
-
-## Monosaccharide Classes from Haworth Projections
-
-<div id="classify_Haworth-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-classify_Haworth-questions.txt" download title="Download bbq-classify_Haworth-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-classify_Haworth-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
-</a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-classify_Haworth.zip" download title="Download blackboard_qti_v2_1-classify_Haworth.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-classify_Haworth.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-classify_Haworth.zip" download title="Download canvas_qti_v1_2-classify_Haworth.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-classify_Haworth.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-classify_Haworth.html', '_blank')" title="View human_readable-classify_Haworth.html" aria-label="Click to view the Human-Readable TXT file (human_readable-classify_Haworth.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Monosaccharide Classes from Haworth Projections
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  {% include "biochemistry/topic09/downloads/selftest-classify_Haworth.html" %}
-
-</details>
-
-
-## Conversions Between Fischer and Haworth Projections
-
-<div id="convert_Fischer_and_Haworth-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-convert_Fischer_and_Haworth-questions.txt" download title="Download bbq-convert_Fischer_and_Haworth-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-convert_Fischer_and_Haworth-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
-</a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-convert_Fischer_and_Haworth.zip" download title="Download blackboard_qti_v2_1-convert_Fischer_and_Haworth.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-convert_Fischer_and_Haworth.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-convert_Fischer_and_Haworth.zip" download title="Download canvas_qti_v1_2-convert_Fischer_and_Haworth.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-convert_Fischer_and_Haworth.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-convert_Fischer_and_Haworth.html', '_blank')" title="View human_readable-convert_Fischer_and_Haworth.html" aria-label="Click to view the Human-Readable TXT file (human_readable-convert_Fischer_and_Haworth.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Conversions Between Fischer and Haworth Projections
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  {% include "biochemistry/topic09/downloads/selftest-convert_Fischer_and_Haworth.html" %}
+  {% include "biochemistry/topic09/downloads/selftest-metabolic_pathway_allosteric.html" %}
 
 </details>
 
