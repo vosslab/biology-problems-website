@@ -1,11 +1,12 @@
+## TITLE('Biochemistry: Gibbs Free Energy Equation True/False')
 ## DESCRIPTION
-## Select the statement that is TRUE or FALSE about the Gibbs free energy, &Delta;G = &Delta;H &ndash; T &Delta;S.
+## Evaluate true or false statements about the Gibbs free energy equation, including the roles of enthalpy, entropy, and temperature in determining spontaneity.
 ## ENDDESCRIPTION
-## KEYWORDS('the Gibbs free energy, &Delta;G = &Delta;H &ndash; T &Delta;S','true/false','multiple choice')
+## KEYWORDS('Gibbs free energy','enthalpy','entropy','spontaneity','multiple choice')
 ## DBsubject('Biochemistry')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-02-25')
+## Date('2026-03-30')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -28,77 +29,77 @@ $showPartialCorrectAnswers = 1;
 
 @true_groups = (
   [
-    'ΔG is the change in free energy',
-    'ΔH is the change in enthalpy',
-    'ΔS is the change in entropy',
+    '<span style="color: #0067cc; font-weight:700;">&Delta;<i>G</i></span> is the change in <span style="color: #a719db; font-weight:700;">free energy</span>',
+    '<span style="color: #d40000; font-weight:700;">&Delta;<i>H</i></span> is the change in <span style="color: #b74300; font-weight:700;">enthalpy</span>',
+    '<span style="color: #076dad; font-weight:700;">&Delta;<i>S</i></span> is the change in <span style="color: #007576; font-weight:700;">entropy</span>',
   ],
   [
-    '<span style="color: #00b3b3; font-weight:700;">entropy</span> is associated with a state of disorder, randomness, or uncertainty',
-    '<span style="color: #e65400; font-weight:700;">enthalpy</span> is associated with the amount of heat exchanged with the environment',
-    '<span style="color: #e65400; font-weight:700;">enthalpy</span> is associated with the heat content of a system',
-    'the Gibbs <span style="color: #7b12a1; font-weight:700;">free energy</span> can be described as the energy available to do work',
+    '<span style="color: #007576; font-weight:700;">entropy</span> is associated with a state of disorder, randomness, or uncertainty',
+    '<span style="color: #b74300; font-weight:700;">enthalpy</span> is associated with the amount of heat exchanged with the environment',
+    '<span style="color: #b74300; font-weight:700;">enthalpy</span> is associated with the heat content of a system',
+    'the Gibbs <span style="color: #a719db; font-weight:700;">free energy</span> can be described as the energy available to do work',
   ],
   [
-    'Tis the temperature in degrees Kelvin',
+    '<span style="color: #935d00; font-weight:700;"><i>T</i></span>is the <span style="color: #6c6c00; font-weight:700;">temperature</span> in <span style="color: #cc0066; font-weight:700;">degrees Kelvin</span>',
   ],
   [
-    'When ΔG = 0 the reaction has reached equilibrium',
+    'When <span style="color: #0067cc; font-weight:700;">&Delta;<i>G</i></span> = 0 the reaction has reached equilibrium',
   ],
   [
-    'When ΔG &gt; 0 the reaction is called non-spontaneous',
-    'When ΔG &lt; 0 the reaction is calledspontaneous',
+    'When <span style="color: #0067cc; font-weight:700;">&Delta;<i>G</i></span> &gt; 0 the reaction is called <span style="color: #c80085; font-weight:700;">non-spontaneous</span>',
+    'When <span style="color: #0067cc; font-weight:700;">&Delta;<i>G</i></span> &lt; 0 the reaction is called<span style="color: #007a00; font-weight:700;">spontaneous</span>',
   ],
   [
-    'Negative <span style="color: #e65400; font-weight:700;">enthalpy</span> makes a reaction more favorable',
-    'Positive <span style="color: #00b3b3; font-weight:700;">entropy</span> makes a reaction more favorable',
+    'Negative <span style="color: #b74300; font-weight:700;">enthalpy</span> makes a reaction more favorable',
+    'Positive <span style="color: #007576; font-weight:700;">entropy</span> makes a reaction more favorable',
   ],
 );
 @false_groups = (
   [
-    'ΔH is the change in free energy',
-    'ΔS is the change in free energy',
-    'ΔG is the change in enthalpy',
-    'ΔS is the change in enthalpy',
-    'ΔG is the change in entropy',
-    'ΔH is the change in entropy',
+    '<span style="color: #d40000; font-weight:700;">&Delta;<i>H</i></span> is the change in <span style="color: #a719db; font-weight:700;">free energy</span>',
+    '<span style="color: #076dad; font-weight:700;">&Delta;<i>S</i></span> is the change in <span style="color: #a719db; font-weight:700;">free energy</span>',
+    '<span style="color: #0067cc; font-weight:700;">&Delta;<i>G</i></span> is the change in <span style="color: #b74300; font-weight:700;">enthalpy</span>',
+    '<span style="color: #076dad; font-weight:700;">&Delta;<i>S</i></span> is the change in <span style="color: #b74300; font-weight:700;">enthalpy</span>',
+    '<span style="color: #0067cc; font-weight:700;">&Delta;<i>G</i></span> is the change in <span style="color: #007576; font-weight:700;">entropy</span>',
+    '<span style="color: #d40000; font-weight:700;">&Delta;<i>H</i></span> is the change in <span style="color: #007576; font-weight:700;">entropy</span>',
   ],
   [
-    '<span style="color: #e65400; font-weight:700;">enthalpy</span> is associated with a state of disorder, randomness, or uncertainty',
-    '<span style="color: #e65400; font-weight:700;">enthalpy</span> can be described as the energy available to do work',
-    '<span style="color: #00b3b3; font-weight:700;">entropy</span> is associated with the amount of heat exchanged with the environment',
-    '<span style="color: #00b3b3; font-weight:700;">entropy</span> can be described as the energy available to do work',
-    '<span style="color: #7b12a1; font-weight:700;">free energy</span> is associated with a state of disorder, randomness, or uncertainty',
-    '<span style="color: #7b12a1; font-weight:700;">free energy</span> is associated with the amount of heat exchanged with the environment',
-    '<span style="color: #00b3b3; font-weight:700;">entropy</span> is associated with the heat content of a system',
-    '<span style="color: #7b12a1; font-weight:700;">free energy</span> is associated with the heat content of a system',
+    '<span style="color: #b74300; font-weight:700;">enthalpy</span> is associated with a state of disorder, randomness, or uncertainty',
+    '<span style="color: #b74300; font-weight:700;">enthalpy</span> can be described as the energy available to do work',
+    '<span style="color: #007576; font-weight:700;">entropy</span> is associated with the amount of heat exchanged with the environment',
+    '<span style="color: #007576; font-weight:700;">entropy</span> can be described as the energy available to do work',
+    '<span style="color: #a719db; font-weight:700;">free energy</span> is associated with a state of disorder, randomness, or uncertainty',
+    '<span style="color: #a719db; font-weight:700;">free energy</span> is associated with the amount of heat exchanged with the environment',
+    '<span style="color: #007576; font-weight:700;">entropy</span> is associated with the heat content of a system',
+    '<span style="color: #a719db; font-weight:700;">free energy</span> is associated with the heat content of a system',
   ],
   [
-    'Tis the temperature in degrees Celcius',
-    'Tis the temperature in degrees Fahrenheit',
+    '<span style="color: #935d00; font-weight:700;"><i>T</i></span>is the <span style="color: #6c6c00; font-weight:700;">temperature</span> in <span style="color: #cc0066; font-weight:700;">degrees Celcius</span>',
+    '<span style="color: #935d00; font-weight:700;"><i>T</i></span>is the <span style="color: #6c6c00; font-weight:700;">temperature</span> in <span style="color: #cc0066; font-weight:700;">degrees Fahrenheit</span>',
   ],
   [
-    'When ΔH = 0 the reaction has reached equilibrium',
-    'When ΔS = 0 the reaction has reached equilibrium',
+    'When <span style="color: #d40000; font-weight:700;">&Delta;<i>H</i></span> = 0 the reaction has reached equilibrium',
+    'When <span style="color: #076dad; font-weight:700;">&Delta;<i>S</i></span> = 0 the reaction has reached equilibrium',
   ],
   [
-    'When ΔH &lt; 0 the reaction is calledspontaneous',
-    'When ΔS &lt; 0 the reaction is calledspontaneous',
-    'When ΔH &lt; 0 the reaction is called non-spontaneous',
-    'When ΔS &lt; 0 the reaction is called non-spontaneous',
-    'When ΔH &gt; 0 the reaction is calledspontaneous',
-    'When ΔS &gt; 0 the reaction is calledspontaneous',
-    'When ΔH &gt; 0 the reaction is called non-spontaneous',
-    'When ΔS &gt; 0 the reaction is called non-spontaneous',
-    'When ΔG &lt; 0 the reaction is called non-spontaneous',
-    'When ΔG &gt; 0 the reaction is calledspontaneous',
+    'When <span style="color: #d40000; font-weight:700;">&Delta;<i>H</i></span> &lt; 0 the reaction is called<span style="color: #007a00; font-weight:700;">spontaneous</span>',
+    'When <span style="color: #076dad; font-weight:700;">&Delta;<i>S</i></span> &lt; 0 the reaction is called<span style="color: #007a00; font-weight:700;">spontaneous</span>',
+    'When <span style="color: #d40000; font-weight:700;">&Delta;<i>H</i></span> &lt; 0 the reaction is called <span style="color: #c80085; font-weight:700;">non-spontaneous</span>',
+    'When <span style="color: #076dad; font-weight:700;">&Delta;<i>S</i></span> &lt; 0 the reaction is called <span style="color: #c80085; font-weight:700;">non-spontaneous</span>',
+    'When <span style="color: #d40000; font-weight:700;">&Delta;<i>H</i></span> &gt; 0 the reaction is called<span style="color: #007a00; font-weight:700;">spontaneous</span>',
+    'When <span style="color: #076dad; font-weight:700;">&Delta;<i>S</i></span> &gt; 0 the reaction is called<span style="color: #007a00; font-weight:700;">spontaneous</span>',
+    'When <span style="color: #d40000; font-weight:700;">&Delta;<i>H</i></span> &gt; 0 the reaction is called <span style="color: #c80085; font-weight:700;">non-spontaneous</span>',
+    'When <span style="color: #076dad; font-weight:700;">&Delta;<i>S</i></span> &gt; 0 the reaction is called <span style="color: #c80085; font-weight:700;">non-spontaneous</span>',
+    'When <span style="color: #0067cc; font-weight:700;">&Delta;<i>G</i></span> &lt; 0 the reaction is called <span style="color: #c80085; font-weight:700;">non-spontaneous</span>',
+    'When <span style="color: #0067cc; font-weight:700;">&Delta;<i>G</i></span> &gt; 0 the reaction is called<span style="color: #007a00; font-weight:700;">spontaneous</span>',
   ],
   [
-    'Negative <span style="color: #00b3b3; font-weight:700;">entropy</span> makes a reaction more favorable',
-    'Positive <span style="color: #e65400; font-weight:700;">enthalpy</span> makes a reaction more favorable',
+    'Negative <span style="color: #007576; font-weight:700;">entropy</span> makes a reaction more favorable',
+    'Positive <span style="color: #b74300; font-weight:700;">enthalpy</span> makes a reaction more favorable',
   ],
   [
-    'colder <span style="color: #b3b300; font-weight:700;">temperature</span> makes a reaction more favorable',
-    'warmer <span style="color: #b3b300; font-weight:700;">temperature</span> makes a reaction more favorable',
+    'colder <span style="color: #6c6c00; font-weight:700;">temperature</span> makes a reaction more favorable',
+    'warmer <span style="color: #6c6c00; font-weight:700;">temperature</span> makes a reaction more favorable',
   ],
 );
 
@@ -106,7 +107,7 @@ $showPartialCorrectAnswers = 1;
 # GLOBAL SETTINGS
 #==========================================================
 
-$topic = 'the Gibbs free energy, ΔG = ΔH – TΔS';
+$topic = 'the Gibbs <span style="color: #a719db; font-weight:700;">free energy</span>, <span style="color: #0067cc; font-weight:700;">&Delta;<i>G</i></span> = <span style="color: #d40000; font-weight:700;">&Delta;<i>H</i></span> &ndash; <span style="color: #935d00; font-weight:700;"><i>T</i></span><span style="color: #076dad; font-weight:700;">&Delta;<i>S</i></span>';
 my $local_random = PGrandom->new();
 $local_random->srand($problemSeed);
 my @mode_choices = ("TRUE", "FALSE");
@@ -184,7 +185,7 @@ $rb = RadioButtons(
 
 BEGIN_PGML
 
-[@ $mode eq "TRUE" ? "Which one of the following statements is <strong>TRUE</strong> about $topic?" : "Which one of the following statements is <strong>FALSE</strong> about $topic?" @]*
+[@ $mode eq "TRUE" ? "Which one of the following statements is <span style='color: #127663;'><strong>TRUE</strong></span> about $topic?" : "Which one of the following statements is <span style='color: #ba372a;'><strong>FALSE</strong></span> about $topic?" @]*
 
 [_]{$rb}
 

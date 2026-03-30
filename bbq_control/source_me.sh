@@ -7,7 +7,7 @@ PROBLEMS_ROOT_DIR="$(cd "$THIS_SCRIPT_DIR/../.." && pwd)"
 USER_ROOT_DIR="$(dirname "$PROBLEMS_ROOT_DIR")"
 CLEANPATH_PY="$USER_ROOT_DIR/junk-drawer/cleanpath.py"
 BP_ROOT="$PROBLEMS_ROOT_DIR/biology-problems/problems"
-QTI_PACKAGE_MAKER_DIR="$PROBLEMS_ROOT_DIR/qti_package_maker"
+QTI_PACKAGE_MAKER_DIR="$PROBLEMS_ROOT_DIR/qti-package-maker"
 
 BIOLOGY_PROBLEMS_DIR="$BP_ROOT"
 if [[ "$(basename "$BP_ROOT")" == "problems" ]]; then
