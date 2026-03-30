@@ -5,7 +5,7 @@
 ## DBsubject('Biochemistry')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-02-25')
+## Date('2026-03-30')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -41,17 +41,17 @@ $showPartialCorrectAnswers = 1;
     'Enzymes alter the <span style="color: #008a75; font-weight:700;">reaction</span> <span style="color: #56225d; font-weight:700;">kinetics</span> by lowering the activation energy.',
   ],
   [
-    'Enzymes do NOT change the overall change in free energy (ΔG) of a <span style="color: #008a75; font-weight:700;">reaction</span>.',
-    'Enzymes do NOT change the standard change in free energy (ΔG°′) of a <span style="color: #008a75; font-weight:700;">reaction</span>.',
-    'Enzymes do NOT change the <span style="color: #478d1b; font-weight:700;">equilibrium</span> constant (K′ₑq) of a <span style="color: #008a75; font-weight:700;">reaction</span>.',
-    'The <span style="color: #478d1b; font-weight:700;">equilibrium</span> constant (K′ₑq) is related to the standard change in free energy (ΔG°′) of a <span style="color: #008a75; font-weight:700;">reaction</span>.',
+    'Enzymes do NOT change the overall change in free energy (&Delta;G) of a <span style="color: #008a75; font-weight:700;">reaction</span>.',
+    'Enzymes do NOT change the standard change in free energy (&Delta;G&deg;&prime;) of a <span style="color: #008a75; font-weight:700;">reaction</span>.',
+    'Enzymes do NOT change the <span style="color: #478d1b; font-weight:700;">equilibrium</span> constant (K&prime;<sub>eq</sub>) of a <span style="color: #008a75; font-weight:700;">reaction</span>.',
+    'The <span style="color: #478d1b; font-weight:700;">equilibrium</span> constant (K&prime;<sub>eq</sub>) is related to the standard change in free energy (&Delta;G&deg;&prime;) of a <span style="color: #008a75; font-weight:700;">reaction</span>.',
   ],
   [
     'Thermodynamics determines the direction a <span style="color: #008a75; font-weight:700;">reaction</span> will proceed under specific conditions.',
-    'A <span style="color: #008a75; font-weight:700;">reaction</span> is spontaneous if the standard change in free energy (ΔG°′) is negative.',
+    'A <span style="color: #008a75; font-weight:700;">reaction</span> is spontaneous if the standard change in free energy (&Delta;G&deg;&prime;) is negative.',
   ],
   [
-    'The change in Gibbs free energy (ΔG) of a <span style="color: #008a75; font-weight:700;">reaction</span> is related to the <span style="color: #0078a3; font-weight:700;">enthalpy</span> and <span style="color: #b77b04; font-weight:700;">entropy</span> changes of the <span style="color: #008a75; font-weight:700;">reaction</span>.',
+    'The change in Gibbs free energy (&Delta;G) of a <span style="color: #008a75; font-weight:700;">reaction</span> is related to the <span style="color: #0078a3; font-weight:700;">enthalpy</span> and <span style="color: #b77b04; font-weight:700;">entropy</span> changes of the <span style="color: #008a75; font-weight:700;">reaction</span>.',
     'Thermodynamics is determined by the combination of <span style="color: #0078a3; font-weight:700;">enthalpy</span> and <span style="color: #b77b04; font-weight:700;">entropy</span> of a <span style="color: #008a75; font-weight:700;">reaction</span>.',
   ],
   [
@@ -79,17 +79,17 @@ $showPartialCorrectAnswers = 1;
     'Enzymes are NOT essential for most biochemical <span style="color: #008a75; font-weight:700;">reaction</span>s.',
   ],
   [
-    'Enzymes change the Gibbs free energy (ΔG) of the <span style="color: #008a75; font-weight:700;">reaction</span>.',
-    'Enzymes change the standard Gibbs free energy change (ΔG°′) of a <span style="color: #008a75; font-weight:700;">reaction</span>.',
-    'Enzymes change the <span style="color: #478d1b; font-weight:700;">equilibrium</span> constant (K′ₑq) of a <span style="color: #008a75; font-weight:700;">reaction</span>.',
+    'Enzymes change the Gibbs free energy (&Delta;G) of the <span style="color: #008a75; font-weight:700;">reaction</span>.',
+    'Enzymes change the standard Gibbs free energy change (&Delta;G&deg;&prime;) of a <span style="color: #008a75; font-weight:700;">reaction</span>.',
+    'Enzymes change the <span style="color: #478d1b; font-weight:700;">equilibrium</span> constant (K&prime;<sub>eq</sub>) of a <span style="color: #008a75; font-weight:700;">reaction</span>.',
   ],
   [
     'Kinetics determines the direction of the <span style="color: #008a75; font-weight:700;">reaction</span>.',
     'Kinetics depends only on the ratio of product and substrates.',
-    'A <span style="color: #008a75; font-weight:700;">reaction</span> can proceed spontaneously even if the standard Gibbs free energy change (ΔG°′) is positive.',
+    'A <span style="color: #008a75; font-weight:700;">reaction</span> can proceed spontaneously even if the standard Gibbs free energy change (&Delta;G&deg;&prime;) is positive.',
     'Kinetics depends only on the concentration of reactants.',
     'The activation energy of a <span style="color: #008a75; font-weight:700;">reaction</span> is related to the concentration of reactants.',
-    'The <span style="color: #478d1b; font-weight:700;">equilibrium</span> constant (K′ₑq) of a <span style="color: #008a75; font-weight:700;">reaction</span> is related to the activation energy.',
+    'The <span style="color: #478d1b; font-weight:700;">equilibrium</span> constant (K&prime;<sub>eq</sub>) of a <span style="color: #008a75; font-weight:700;">reaction</span> is related to the activation energy.',
   ],
   [
     'Kinetics is determined by a combination of <span style="color: #0078a3; font-weight:700;">enthalpy</span> and <span style="color: #b77b04; font-weight:700;">entropy</span>.',
@@ -193,7 +193,7 @@ $rb = RadioButtons(
 
 BEGIN_PGML
 
-[@ $mode eq "TRUE" ? "Which one of the following statements is <strong>TRUE</strong> about $topic?" : "Which one of the following statements is <strong>FALSE</strong> about $topic?" @]*
+[@ $mode eq "TRUE" ? "Which one of the following statements is <span style='color: #127663;'><strong>TRUE</strong></span> about $topic?" : "Which one of the following statements is <span style='color: #ba372a;'><strong>FALSE</strong></span> about $topic?" @]*
 
 [_]{$rb}
 

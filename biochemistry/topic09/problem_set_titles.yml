@@ -1,8 +1,20 @@
-bbq-D_to_L_Fischer_configuration-questions.txt: D and L Configurations from Fischer Projections
-bbq-D_to_L_Haworth_configuration-questions.txt: D and L Configurations from Haworth Projections
+bbq-D_to_L_Fischer_configuration-questions.txt: D and L Configurations from Fischer
+  Projections
+bbq-D_to_L_Haworth_configuration-questions.txt: D and L Configurations from Haworth
+  Projections
 bbq-MATCH-polysaccharides-questions.txt: Common Polysaccharides and Descriptions
 bbq-MC-polysaccharides-questions.txt: Characteristics of Common Polysaccharides
+bbq-allosteric_enzyme_models-questions.txt: Allosteric Enzyme Models from Conformational
+  Descriptions
 bbq-classify_Fischer-questions.txt: Monosaccharide Classes from Fischer Projections
 bbq-classify_Haworth-questions.txt: Monosaccharide Classes from Haworth Projections
-bbq-convert_Fischer_and_Haworth-questions.txt: Conversions Between Fischer and Haworth Projections
-last edit: Wed Feb  4 07:53:32 2026
+bbq-convert_Fischer_and_Haworth-questions.txt: Conversions Between Fischer and Haworth
+  Projections
+bbq-feedback_merging_pathway-questions.txt: Effects on Metabolite Production from
+  Enzyme Inactivation
+bbq-feedback_splitting_pathway-questions.txt: Determining Enzyme Inhibition Impact
+  on Metabolite Production
+bbq-hemoglobin_oxygen_affinity-questions.txt: Determining Hemoglobin Oxygen Affinity
+  Changes Under Different Conditions
+bbq-metabolic_pathway_allosteric-questions.txt: Allosteric Enzymes in Metabolic Pathways
+last edit: Mon Mar 30 16:13:04 2026
