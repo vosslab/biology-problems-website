@@ -226,7 +226,7 @@ def check_pythonpath(bbq_config: dict) -> tuple:
 	if not pythonpath_value:
 		return False, "ERROR: PYTHONPATH is not set. Run: source bbq_control/source_me.sh"
 	python_parts = [part.strip() for part in pythonpath_value.split(os.pathsep) if part.strip()]
-	required_repos = ("biology-problems", "qti_package_maker")
+	required_repos = ("biology-problems", "qti-package-maker")
 	missing_repos = []
 	for repo_name in required_repos:
 		if _pythonpath_has_repo(python_parts, repo_name):
@@ -840,6 +840,78 @@ def run_pgml_generation(task: dict, log_path: str, pythonpath_value: str = "") -
 
 
 #============================================
+def copy_sister_pgml(task: dict, log_path: str) -> bool:
+	"""Copy a sister PGML/PG file from the source script directory to downloads.
+
+	Looks for a .pgml or .pg file in the same directory as the task's source
+	script whose basename matches the script (exact or normalized). Copies the
+	first match to {output_dir}/downloads/.
+
+	Args:
+		task: Task dictionary with 'script', 'output_dir', and optionally 'pgml_info'.
+		log_path: Path to the run log file.
+
+	Returns:
+		True on success or benign skip, False on copy failure.
+	"""
+	# skip if task already has pgml_info (handled by run_pgml_generation)
+	if task.get("pgml_info"):
+		return True
+	script_path = task.get("script", "")
+	if not script_path or not os.path.isfile(script_path):
+		return True
+	source_dir = os.path.dirname(script_path)
+	script_stem = os.path.splitext(os.path.basename(script_path))[0]
+	# gather all .pgml and .pg files in the source directory
+	sister_candidates = []
+	for filename in os.listdir(source_dir):
+		if filename.endswith(".pgml") or filename.endswith(".pg"):
+			sister_candidates.append(filename)
+	if not sister_candidates:
+		return True
+	# try exact match first (.pgml before .pg)
+	matched_file = None
+	for ext in (".pgml", ".pg"):
+		candidate = script_stem + ext
+		if candidate in sister_candidates:
+			matched_file = candidate
+			break
+	# try normalized match: lowercase and replace hyphens with underscores
+	if matched_file is None:
+		normalized_stem = script_stem.lower().replace("-", "_")
+		for candidate in sister_candidates:
+			candidate_stem = os.path.splitext(candidate)[0]
+			normalized_candidate = candidate_stem.lower().replace("-", "_")
+			if normalized_candidate == normalized_stem:
+				matched_file = candidate
+				break
+	# no match found
+	if matched_file is None:
+		log_line(log_path, f"PGML COPY SKIP: no sister file for {os.path.basename(script_path)}")
+		return True
+	# build source and destination paths
+	source_pgml = os.path.join(source_dir, matched_file)
+	output_dir = task.get("output_dir", "")
+	if not output_dir:
+		log_line(log_path, f"PGML COPY SKIP: no output_dir for {os.path.basename(script_path)}")
+		return True
+	downloads_dir = os.path.join(output_dir, "downloads")
+	if not os.path.isdir(downloads_dir):
+		os.makedirs(downloads_dir, exist_ok=True)
+	dest_pgml = os.path.join(downloads_dir, matched_file)
+	# copy the file (assume source is newer)
+	try:
+		shutil.copy2(source_pgml, dest_pgml)
+	except OSError as exc:
+		log_line(log_path, f"PGML COPY ERROR: {exc}")
+		print(color(f"  PGML COPY FAIL {matched_file}", COLOR_RED))
+		return False
+	log_line(log_path, f"PGML COPY OK: {dest_pgml}")
+	print(color(f"  PGML COPY {matched_file}", COLOR_GREEN))
+	return True
+
+
+#============================================
 def run_task_capture(
 	task: dict,
 	log_path: str,
@@ -970,6 +1042,7 @@ def run_task_capture(
 			log_line(log_path, "SKIP CLEANUP (PYTHONPATH not set)")
 	if move_output:
 		run_pgml_generation(task, log_path, pythonpath_value)
+		copy_sister_pgml(task, log_path)
 	return True, proc.stdout, proc.stderr, line_count
 
 
@@ -1134,6 +1207,7 @@ def run_task(
 	log_line(log_path, f"EXIT {label} -> 0")
 	if move_output:
 		run_pgml_generation(task, log_path, pythonpath_value)
+		copy_sister_pgml(task, log_path)
 	return True
 
 

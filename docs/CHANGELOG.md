@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-03-30
+
+### Additions and New Features
+- Added `copy_sister_pgml()` function to `bbq_control/run_bbq_tasks.py` that automatically copies sister `.pgml`/`.pg` files from the source script directory to `{output_dir}/downloads/` after successful task execution.
+- Supports exact basename match and normalized match (lowercase + hyphens to underscores, e.g., `michaelis_menten_table-Km.py` finds `michaelis_menten_table_km.pgml`).
+- Skips tasks that already have `pgml_info` (handled by the existing `run_pgml_generation` mechanism).
+
 ## 2026-02-25
 
 ### Additions and New Features
