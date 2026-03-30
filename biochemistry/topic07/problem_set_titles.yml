@@ -10,5 +10,10 @@ bbq-michaelis_menten_table-Km-questions.txt: The Michaelis-Menten Constant (Km) 
   Enzyme Activity Data
 bbq-michaelis_menten_table-inhibition-questions.txt: Inhibition Type from Enzyme Activity
   Data
+bbq-optimal_enzyme-type_1-questions.txt: Determining Optimal Enzyme Activity Conditions
+bbq-optimal_enzyme-type_2-questions.txt: Determining Optimal Enzyme Activity Based
+  on Temperature and pH Conditions
+bbq-optimal_enzyme-type_3-questions.txt: 'Determining Optimal Conditions for Enzyme
+  Activity: Temperature and pH'
 bbq-which_enzyme-questions.txt: Molecules That Could Be Enzymes
-last edit: Tue Feb 25 2026
+last edit: Mon Mar 30 16:12:40 2026

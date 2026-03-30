@@ -5,7 +5,7 @@
 ## DBsubject('Biochemistry')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-02-25')
+## Date('2026-03-30')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -26,36 +26,36 @@ our @ALPHABET = ('A' .. 'Z');
 # Full matching data
 # ================================
 %match_data = (
-  'requires energy input' => [
+  'requires&nbsp;energy&nbsp;input' => [
     'anabolic',
     'endergonic',
-    'ΔG &gt; 0',
-    'ΔG°′ &gt; 0',
+    '&Delta;G &gt; 0',
+    '&Delta;G&deg;&prime; &gt; 0',
     'Gibbs free energy greater than zero',
     'non-spontaneous',
-    'dehydration <span style="color: #59b300; font-weight:700;">reactions</span>',
-    '<span style="color: #7b12a1; font-weight:700;">formation</span> of polymers',
-    'condensation <span style="color: #59b300; font-weight:700;">reactions</span>',
+    'dehydration <span style="color: #3b7600; font-weight:700;">reactions</span>',
+    '<span style="color: #a719db; font-weight:700;">formation</span> of polymers',
+    'condensation <span style="color: #3b7600; font-weight:700;">reactions</span>',
     'forming bonds',
-    'bond <span style="color: #7b12a1; font-weight:700;">formation</span>',
+    'bond <span style="color: #a719db; font-weight:700;">formation</span>',
     'building muscle',
-    'polymer <span style="color: #7b12a1; font-weight:700;">formation</span>',
+    'polymer <span style="color: #a719db; font-weight:700;">formation</span>',
     'bio-synthesis',
     'making larger, complex molecules',
-    'isomerization, bond rearrangement <span style="color: #59b300; font-weight:700;">reactions</span>',
+    'isomerization, bond rearrangement <span style="color: #3b7600; font-weight:700;">reactions</span>',
   ],
-  'releases energy' => [
+  'releases&nbsp;energy' => [
     'catabolic',
     'exergonic',
-    'ΔG &lt; 0',
-    'ΔG°′ &lt; 0',
+    '&Delta;G &lt; 0',
+    '&Delta;G&deg;&prime; &lt; 0',
     'Gibbs free energy less than zero',
     'spontaneous',
-    'hydrolysis <span style="color: #59b300; font-weight:700;">reactions</span>',
+    'hydrolysis <span style="color: #3b7600; font-weight:700;">reactions</span>',
     'digestion',
-    '<span style="color: #b30077; font-weight:700;">breaking</span> bonds',
-    '<span style="color: #b30077; font-weight:700;">breaking</span> down food',
-    '<span style="color: #b30077; font-weight:700;">breaking</span> down polymers',
+    '<span style="color: #c80085; font-weight:700;">breaking</span> bonds',
+    '<span style="color: #c80085; font-weight:700;">breaking</span> down food',
+    '<span style="color: #c80085; font-weight:700;">breaking</span> down polymers',
     'polymer breakdown',
   ],
 );
@@ -110,8 +110,8 @@ push(@answers, (map { $_->[1] } @q_and_a));
 # HTML-safe answer labels
 # -------------------------------
 %answer_html = (
-  'requires energy input' => '<span style="color: #0a9bf5; font-weight:700;">requires energy input</span>',
-  'releases energy' => '<span style="color: #e60000; font-weight:700;">releases energy</span>',
+  'requires&nbsp;energy&nbsp;input' => '<span style="color: #076dad; font-weight:700;">requires&nbsp;energy&nbsp;input</span>',
+  'releases&nbsp;energy' => '<span style="color: #d40000; font-weight:700;">releases&nbsp;energy</span>',
 );
 
 @answers_sorted_html = map { $answer_html{$_} || $_ } @answers_sorted;
@@ -156,9 +156,12 @@ HEADER_TEXT(<<END_STYLE);
 </style>
 END_STYLE
 
+$question_text = 'Match each energy requirement category with its corresponding energy term.';
+$note_text = 'Note: Each choice will be used exactly once.';
+
 BEGIN_PGML
-Match each energy requirement category with its corresponding energy term.
-Note: Each choice will be used exactly once.
+[$question_text]*
+[$note_text]*
 
 [@ MODES(HTML => '<div class="two-column"><div>') @]*
 [@ join(
