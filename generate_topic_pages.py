@@ -312,7 +312,9 @@ def get_libretexts_link(topic_folder: str, relative_topic_name: str):
 	if not url:
 		return None
 	title = libretexts.get("title")
-	return {"url": url, "title": title}
+	unit = libretexts.get("unit", 0)
+	chapter = libretexts.get("chapter", 0)
+	return {"url": url, "title": title, "unit": unit, "chapter": chapter}
 
 #==============
 
@@ -780,6 +782,13 @@ def update_index_md(
 		index_md.write(f"{description}\n\n")
 		if libretexts_link:
 			link_title = libretexts_link.get("title") or "LibreTexts chapter"
+			# Prepend unit/chapter info to the link title
+			link_unit = libretexts_link.get("unit", 0)
+			link_chapter = libretexts_link.get("chapter", 0)
+			if link_unit and link_chapter:
+				link_title = f"Unit {link_unit}, Chapter {link_chapter}: {link_title}"
+			elif link_chapter:
+				link_title = f"Chapter {link_chapter}: {link_title}"
 			index_md.write(f"**LibreTexts reference:** [{link_title}]({libretexts_link['url']})\n\n")
 
 		bbq_files.sort()

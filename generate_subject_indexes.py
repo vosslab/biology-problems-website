@@ -104,11 +104,19 @@ def extract_topics(entries: list, subject_key: str):
 	return topics
 
 
-def build_link_markup(url: str) -> str:
+def build_link_markup(url: str, unit: int = 0, chapter: int = 0) -> str:
+	"""Build an HTML link to a LibreTexts chapter with unit and chapter info."""
+	# Build the chapter/unit label text
+	if unit and chapter:
+		label = f"Unit {unit}, Chapter {chapter}"
+	elif chapter:
+		label = f"Chapter {chapter}"
+	else:
+		label = "Chapter"
 	return (
 		f' &mdash; '
 		f'<a href="{url}" target="_blank" rel="noopener" title="Open LibreTexts chapter">'
-		f'<span style="font-size: 0.8em;">(LibreTexts Chapter '
+		f'<span style="font-size: 0.8em;">(LibreTexts {label} '
 		f'<i class="fa fa-external-link-alt"></i>)</span></a>'
 	)
 
@@ -137,9 +145,12 @@ def write_subject_index(
 		libre_entry = topic_entry.get("libretexts", {}) if isinstance(topic_entry, dict) else {}
 		libre_url = libre_entry.get("url") if isinstance(libre_entry, dict) else None
 
+		libre_unit = libre_entry.get("unit", 0) if isinstance(libre_entry, dict) else 0
+		libre_chapter = libre_entry.get("chapter", 0) if isinstance(libre_entry, dict) else 0
+
 		line = f"{idx}. [{topic['title']}]({topic['path']})"
 		if libre_url:
-			line += build_link_markup(libre_url)
+			line += build_link_markup(libre_url, libre_unit, libre_chapter)
 		lines.append(line)
 		if topic_desc:
 			lines.append(f"    - {topic_desc}")
