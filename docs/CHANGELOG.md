@@ -3,7 +3,15 @@
 ## 2026-03-30
 
 ### Additions and New Features
+- Added `unit` and `chapter` fields to `topics_metadata.yml` for all biochemistry and genetics topics, matching the current LibreTexts course structure (Unit 1 Proteins, Unit 2 Enzymes, Unit 3 Macromolecules, Unit 4 Senses).
+- Updated `build_link_markup()` in `generate_subject_indexes.py` to display "(LibreTexts Unit X, Chapter Y)" or "(LibreTexts Chapter Y)" on subject index pages, using the new YAML fields.
+- Updated `get_libretexts_link()` in `generate_topic_pages.py` to return and display unit/chapter info in individual topic page LibreTexts reference links.
 - Added `copy_sister_pgml()` function to `bbq_control/run_bbq_tasks.py` that automatically copies sister `.pgml`/`.pg` files from the source script directory to `{output_dir}/downloads/` after successful task execution.
+
+### Behavior or Interface Changes
+- Updated all biochemistry LibreTexts URLs to the new unit-based URL structure (e.g., `/01%3A_Unit_1_-_Proteins/1.01%3A_Molecules_of_Life`).
+- Expanded biochemistry from 11 to 14 topics: split Enzyme Regulation into Enzyme Inhibition (topic08) and Enzyme Allostery (topic09), renumbered Carbohydrates to topic10, Nucleic Acids to topic11, added Lipids (topic12), Membranes and Membrane Proteins (topic13), and moved Human Senses to topic14.
+- Updated `mkdocs.yml` nav section for the new 14-topic biochemistry structure.
 - Supports exact basename match and normalized match (lowercase + hyphens to underscores, e.g., `michaelis_menten_table-Km.py` finds `michaelis_menten_table_km.pgml`).
 - Skips tasks that already have `pgml_info` (handled by the existing `run_pgml_generation` mechanism).
 

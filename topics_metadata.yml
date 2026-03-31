@@ -2,123 +2,167 @@ biochemistry:
   topic01:
     description: "Molecular design of life, major elements, and biomacromolecules."
     libretexts:
+      unit: 1
+      chapter: 1
       title: "Molecules of Life"
-      url: "https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01:_Molecules_of_Life"
+      url: "https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.01%3A_Molecules_of_Life"
   topic02:
     description: "Properties of water, pH, pK<sub>a</sub>, and buffering systems."
     libretexts:
+      unit: 1
+      chapter: 2
       title: "Chemistry of Water"
-      url: "https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/02:_Chemistry_of_Water"
+      url: "https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.02%3A_Chemistry_of_Water"
   topic03:
     description: "Amino acid structure, types, and roles in protein structure."
     libretexts:
+      unit: 1
+      chapter: 3
       title: "Amino Acids and Peptides"
-      url: "https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/03:_Amino_Acids_and_Peptides"
+      url: "https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.03%3A_Amino_Acids_and_Peptides"
   topic04:
     description: "Protein folding, structural levels, and mechanisms."
     libretexts:
-      title: "Proteins- Structure and Folding"
-      url: "https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/04:_Proteins-_Structure_and_Folding"
+      unit: 1
+      chapter: 4
+      title: "Proteins - Structure and Folding"
+      url: "https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.04%3A_Proteins-_Structure_and_Folding"
   topic05:
     description: "Isolation and analysis methods, chromatography, electrophoresis."
     libretexts:
+      unit: 1
+      chapter: 5
       title: "Protein Purification"
-      url: "https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/05:_Protein_Purification"
+      url: "https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.05%3A_Protein_Purification"
   topic06:
     description: "Enzyme functions, substrate binding, and energy changes in reactions."
     libretexts:
+      unit: 2
+      chapter: 1
       title: "Enzyme Thermodynamics"
-      url: "https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/06:_Enzyme_Thermodynamics"
+      url: "https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/02%3A_Unit_2_-_Enzymes/2.01%3A_Enzyme_Thermodynamics"
   topic07:
     description: "Reaction rates, enzyme efficiency, and inhibition mechanisms."
     libretexts:
+      unit: 2
+      chapter: 2
       title: "Enzyme Kinetics"
-      url: "https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/07:_Enzyme_Kinetics"
+      url: "https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/02%3A_Unit_2_-_Enzymes/2.02%3A_Enzyme_Kinetics"
   topic08:
-    description: "Ligand binding, allosteric effects, and feedback regulation."
+    description: "Ligand binding and inhibitors."
     libretexts:
-      title: "Enzyme Regulation"
-      url: "https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/08:_Enzyme_Regulation"
+      unit: 2
+      chapter: 3
+      title: "Enzyme Inhibition"
+      url: "https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/02%3A_Unit_2_-_Enzymes/2.03%3A_Enzyme_Inhibition"
   topic09:
+    description: "Allosteric effects, hemoglobin, and feedback regulation."
+    libretexts:
+      unit: 2
+      chapter: 4
+      title: "Enzyme Allostery"
+      url: "https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/02%3A_Unit_2_-_Enzymes/2.04%3A_Enzyme_Allostery"
+  topic10:
     description: "Carbohydrate structure, glycosidic bonds, biological roles."
     libretexts:
+      unit: 3
+      chapter: 1
       title: "Carbohydrates"
-      url: "https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/09:_Carbohydrates"
-  topic10:
+      url: "https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/03%3A_Unit_3_-_Macromolecules/3.01%3A_Carbohydrates"
+  topic11:
     description: "Nucleotide structure, DNA/RNA functions, biotechnology applications."
     libretexts:
+      unit: 3
+      chapter: 2
       title: "Nucleic Acids"
-      url: "https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/10:_Nucleic_Acids"
-  topic11:
+      url: "https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/03%3A_Unit_3_-_Macromolecules/3.02%3A_Nucleic_Acids"
+  topic12:
+    description: "Lipids, hydrophobic molecules vital for cellular functions."
+    libretexts:
+      unit: 3
+      chapter: 3
+      title: "Lipids"
+      url: "https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/03%3A_Unit_3_-_Macromolecules/3.03%3A_Lipids"
+  topic13:
+    description: "Cell membranes, membrane proteins, and dynamic characteristics of membrane bilayers."
+    libretexts:
+      unit: 3
+      chapter: 4
+      title: "Membranes and Membrane Proteins"
+      url: "https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/03%3A_Unit_3_-_Macromolecules/3.04%3A_Membranes_and_Membrane_Proteins"
+  topic14:
     description: "Taste, smell, hearing, sight, and touch."
     libretexts:
+      unit: 4
+      chapter: 1
       title: "Biochemistry of Our Senses"
-      url: "https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/13:_Biochemistry_of_Our_Senses"
-  topic12:
-    description: "Membrane structure, lipids, fluidity, and membrane proteins."
-    libretexts:
-      title: "Membranes and Membrane Proteins"
-      url: "https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/12:_Membranes_and_Membrane_Proteins"
-  topic13:
-    description: "Sensory biochemistry covering sight, smell, taste, hearing, and touch."
-    libretexts:
-      title: "Biochemistry of Our Senses"
-      url: "https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/13:_Biochemistry_of_Our_Senses"
+      url: "https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/04%3A_Biochemistry_of_Our_Senses"
 
 genetics:
   topic01:
     description: "Inheritance patterns, common genetic disorders, and terminology matching."
     libretexts:
+      chapter: 1
       title: "Foundations of Genetic Disorders"
       url: "https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/01:_Foundations_of_Genetic_Disorders"
   topic02:
     description: "DNA composition, base pairing, nucleotide components, and double-helix complementarity."
     libretexts:
+      chapter: 2
       title: "DNA Structure and Sequences"
       url: "https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/02:_DNA_Structure_and_Sequences"
   topic03:
     description: "Restriction enzymes, recognition sequences, gel electrophoresis, and applications in DNA profiling."
     libretexts:
+      chapter: 3
       title: "DNA Profiling and Techniques"
       url: "https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/03:_DNA_Profiling_and_Techniques"
   topic04:
     description: "Mendel's principles, Punnett squares, genotype/phenotype ratios, and autosomal pedigree analysis."
     libretexts:
+      chapter: 4
       title: "Mendelian Genetics"
       url: "https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/04:_Mendelian_Genetics"
   topic05:
     description: "Multigene crosses, degrees of dominance, and epistasis in metabolic and genetic pathways."
     libretexts:
+      chapter: 5
       title: "Allele and Gene Interactions"
       url: "https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/05:_Allele_and_Gene_Interactions"
   topic06:
     description: "Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheritance."
     libretexts:
+      chapter: 6
       title: "Chromosomal Inheritance"
       url: "https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/06:_Chromosomal_Inheritance"
   topic07:
     description: "Statistical evaluation of genetic data, chi-square test statistic, and hypothesis testing."
     libretexts:
+      chapter: 7
       title: "Chi Square Analysis"
       url: "https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/07:_Chi_Square_Analysis"
   topic08:
     description: "Two- and three-point test crosses, genetic distances, interference, and tetrad analysis."
     libretexts:
+      chapter: 8
       title: "Gene Mapping and Recombination"
       url: "https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/08:_Gene_Mapping_and_Recombination"
   topic09:
     description: "Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploidy."
     libretexts:
+      chapter: 9
       title: "Chromosomal Disorders"
       url: "https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/09:_Chromosomal_Disorders"
   topic10:
     description: "Allele frequencies, Hardy-Weinberg equilibrium, inbreeding, and population-level variation."
     libretexts:
+      chapter: 10
       title: "Population Genetics"
       url: "https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/10:_Population_Genetics"
   topic11:
     description: "Phylogenetics, tree comparisons, evolutionary distances, and patterns of inheritance."
     libretexts:
+      chapter: 11
       title: "Gene Trees and Relationships"
       url: "https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/11:_Gene_Trees_and_Relationships"
 
