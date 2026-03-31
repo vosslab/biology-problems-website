@@ -1,7 +1,7 @@
 <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
 <div class="qti-selftest">
-<div id="question_html_5e6c_b5cc">
-<div id="statement_text_5e6c_b5cc">
+<div id="question_html_0928_126e">
+<div id="statement_text_0928_126e">
 <h6>Gel Migration Problem</h6> <p>In this task, data from an SDS-PAGE experiment, where proteins are separated based on molecular weight, is provided. The gel results table below shows some standard proteins with known molecular weights and one unknown protein.<br></p>
 <table cellpadding="2" cellspacing="2" style="text-align:center; border: 2px solid black; font-size: 14px;">
 <tr style="background-color: #f2f2f2; border-bottom: 3px solid grey;">
@@ -10,59 +10,59 @@
 <th>Migration<br>Distance (cm)</th>
 </tr>
 <tr>
-<td>Lactalbumin (Lac)</td>
-<td align="center">13.0</td>
-<td align="center">3.45</td>
+<td>Ribonuclease A (RibA)</td>
+<td align="center">13.7</td>
+<td align="center">3.41</td>
 </tr>
 <tr>
-<td>Lysozyme (Lys)</td>
-<td align="center">14.4</td>
-<td align="center">3.37</td>
+<td>Myelin Basic Protein (MBP)</td>
+<td align="center">18.0</td>
+<td align="center">3.19</td>
 </tr>
 <tr>
-<td>Succinate Ligase (SL)</td>
-<td align="center">20.9</td>
-<td align="center">3.07</td>
+<td>Agglutinin (Agg)</td>
+<td align="center">22.0</td>
+<td align="center">3.03</td>
 </tr>
 <tr>
-<td>Chymotrypsin (Chy)</td>
-<td align="center">25.0</td>
-<td align="center">2.92</td>
+<td>Agglutinin (Agg)</td>
+<td align="center">22.0</td>
+<td align="center">3.03</td>
 </tr>
 <tr>
-<td>Pepsin (Pep)</td>
-<td align="center">34.5</td>
-<td align="center">2.67</td>
+<td>Ovalbumin (Ova)</td>
+<td align="center">45.0</td>
+<td align="center">2.45</td>
 </tr>
 <tr>
-<td>Enolase (Eno)</td>
-<td align="center">42.5</td>
-<td align="center">2.50</td>
+<td>Fumerase (Fum)</td>
+<td align="center">48.5</td>
+<td align="center">2.39</td>
 </tr>
 <tr>
-<td>Aldehyde Dehydrogenase (Alde)</td>
-<td align="center">53.0</td>
-<td align="center">2.32</td>
+<td>Fibrinogen (Fib)</td>
+<td align="center">63.5</td>
+<td align="center">2.18</td>
 </tr>
 <tr style="border-top: 3px double gray; background-color: #fffacd;">
-<td>Unknown</td> <td align="center"><strong>?</strong></td> <td align="center">2.77</td>
+<td>Unknown</td> <td align="center"><strong>?</strong></td> <td align="center">3.12</td>
 </tr>
 </table>
-<br>Estimate the molecular weight of the unknown protein by comparing its gel migration distance with those of the standards.<br><i>Note: answers need to be within 8% of the correct number to be correct.</i>
+<br>Estimate the molecular weight of the unknown protein by comparing its gel migration distance with those of the standards.<br><i>Note: answers need to be within 6% of the correct number to be correct.</i>
 </div>
 <div>
-<input type="text" class="qti-input" id="num_input_5e6c_b5cc" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Enter a number"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_5e6c_b5cc()">Check Answer</button>
-<div id="result_5e6c_b5cc" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<input type="text" class="qti-input" id="num_input_0928_126e" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Enter a number"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_0928_126e()">Check Answer</button>
+<div id="result_0928_126e" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </div>
 <br>
 </div><script>
-const numAnswer_5e6c_b5cc = 30.342;
-const numTolerance_5e6c_b5cc = 2.375;
-function checkAnswer_5e6c_b5cc() {
-  const inputEl = document.getElementById('num_input_5e6c_b5cc');
+const numAnswer_0928_126e = 19.54;
+const numTolerance_0928_126e = 1.0;
+function checkAnswer_0928_126e() {
+  const inputEl = document.getElementById('num_input_0928_126e');
   if (!inputEl) { return; }
   const valStr = inputEl.value.trim();
-  const resultDiv = document.getElementById('result_5e6c_b5cc');
+  const resultDiv = document.getElementById('result_0928_126e');
   if (valStr === '') {
     resultDiv.style.color = 'inherit';
     resultDiv.textContent = 'Please enter a value.';
@@ -74,8 +74,8 @@ function checkAnswer_5e6c_b5cc() {
     resultDiv.textContent = 'Please enter a valid number.';
     return;
   }
-  const lower = numAnswer_5e6c_b5cc - numTolerance_5e6c_b5cc;
-  const upper = numAnswer_5e6c_b5cc + numTolerance_5e6c_b5cc;
+  const lower = numAnswer_0928_126e - numTolerance_0928_126e;
+  const upper = numAnswer_0928_126e + numTolerance_0928_126e;
   const isCorrect = (userVal >= lower && userVal <= upper);
   if (isCorrect) {
     resultDiv.style.color = 'var(--qti-success-fg, #008000)';
@@ -94,10 +94,10 @@ function checkAnswer_5e6c_b5cc() {
   }
 }
 document.addEventListener('DOMContentLoaded', function() {
-  const inputEl = document.getElementById('num_input_5e6c_b5cc');
+  const inputEl = document.getElementById('num_input_0928_126e');
   if (!inputEl) return;
   inputEl.addEventListener('keydown', function(e) {
-    if (e.key === 'Enter') { e.preventDefault(); checkAnswer_5e6c_b5cc(); }
+    if (e.key === 'Enter') { e.preventDefault(); checkAnswer_0928_126e(); }
   });
 });
 </script>
