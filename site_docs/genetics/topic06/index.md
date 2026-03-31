@@ -2,7 +2,7 @@
 
 Chromosome behavior in meiosis, sex-linkage, and the chromosomal basis of inheritance.
 
-**LibreTexts reference:** [Chromosomal Inheritance](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/06:_Chromosomal_Inheritance)
+**LibreTexts reference:** [Chapter 6: Chromosomal Inheritance](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/06:_Chromosomal_Inheritance)
 
 ## Meiosis Prophase I Stages and Descriptions
 

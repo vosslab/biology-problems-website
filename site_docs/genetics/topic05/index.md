@@ -2,7 +2,7 @@
 
 Multigene crosses, degrees of dominance, and epistasis in metabolic and genetic pathways.
 
-**LibreTexts reference:** [Allele and Gene Interactions](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/05:_Allele_and_Gene_Interactions)
+**LibreTexts reference:** [Chapter 5: Allele and Gene Interactions](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/05:_Allele_and_Gene_Interactions)
 
 ## Monohybrid Cross Genotypes and Phenotypes
 

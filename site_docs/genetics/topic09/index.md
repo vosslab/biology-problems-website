@@ -2,7 +2,7 @@
 
 Karyotypes, aneuploidy, rearrangements, deletions, translocations, and polyploidy.
 
-**LibreTexts reference:** [Chromosomal Disorders](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/09:_Chromosomal_Disorders)
+**LibreTexts reference:** [Chapter 9: Chromosomal Disorders](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/09:_Chromosomal_Disorders)
 
 ## Chromosome Shapes and Descriptions
 

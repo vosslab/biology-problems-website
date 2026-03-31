@@ -2,7 +2,7 @@
 
 Isolation and analysis methods, chromatography, electrophoresis.
 
-**LibreTexts reference:** [Protein Purification](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/05:_Protein_Purification)
+**LibreTexts reference:** [Unit 1, Chapter 5: Protein Purification](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.05%3A_Protein_Purification)
 
 ## Matching Cell Disruption Techniques to Descriptions
 

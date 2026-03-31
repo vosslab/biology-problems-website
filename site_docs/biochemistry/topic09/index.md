@@ -1,8 +1,8 @@
-# 9: Carbohydrates
+# 9: Enzyme Allostery
 
-Carbohydrate structure, glycosidic bonds, biological roles.
+Allosteric effects, hemoglobin, and feedback regulation.
 
-**LibreTexts reference:** [Carbohydrates](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/09:_Carbohydrates)
+**LibreTexts reference:** [Unit 2, Chapter 4: Enzyme Allostery](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/02%3A_Unit_2_-_Enzymes/2.04%3A_Enzyme_Allostery)
 
 ## Allosteric Enzyme Models from Conformational Descriptions
 

@@ -2,7 +2,7 @@
 
 Mendel's principles, Punnett squares, genotype/phenotype ratios, and autosomal pedigree analysis.
 
-**LibreTexts reference:** [Mendelian Genetics](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/04:_Mendelian_Genetics)
+**LibreTexts reference:** [Chapter 4: Mendelian Genetics](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/04:_Mendelian_Genetics)
 
 ## Mendelian Cross Generations and Descriptions
 

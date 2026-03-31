@@ -2,7 +2,7 @@
 
 Phylogenetics, tree comparisons, evolutionary distances, and patterns of inheritance.
 
-**LibreTexts reference:** [Gene Trees and Relationships](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/11:_Gene_Trees_and_Relationships)
+**LibreTexts reference:** [Chapter 11: Gene Trees and Relationships](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/11:_Gene_Trees_and_Relationships)
 
 ## Gene Tree from Matrix (Level 1)
 

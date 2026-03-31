@@ -2,7 +2,7 @@
 
 Two- and three-point test crosses, genetic distances, interference, and tetrad analysis.
 
-**LibreTexts reference:** [Gene Mapping and Recombination](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/08:_Gene_Mapping_and_Recombination)
+**LibreTexts reference:** [Chapter 8: Gene Mapping and Recombination](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/08:_Gene_Mapping_and_Recombination)
 
 ## Centromere Distance from Ordered Tetrad Analysis
 

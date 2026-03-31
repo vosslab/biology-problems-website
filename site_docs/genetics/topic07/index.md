@@ -2,7 +2,7 @@
 
 Statistical evaluation of genetic data, chi-square test statistic, and hypothesis testing.
 
-**LibreTexts reference:** [Chi Square Analysis](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/07:_Chi_Square_Analysis)
+**LibreTexts reference:** [Chapter 7: Chi Square Analysis](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/07:_Chi_Square_Analysis)
 
 ## Chi-Square Terms and Definitions
 

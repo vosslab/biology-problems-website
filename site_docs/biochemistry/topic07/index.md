@@ -2,7 +2,7 @@
 
 Reaction rates, enzyme efficiency, and inhibition mechanisms.
 
-**LibreTexts reference:** [Enzyme Kinetics](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/07:_Enzyme_Kinetics)
+**LibreTexts reference:** [Unit 2, Chapter 2: Enzyme Kinetics](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/02%3A_Unit_2_-_Enzymes/2.02%3A_Enzyme_Kinetics)
 
 ## The Michaelis-Menten Constant (Km) from Enzyme Activity Data
 

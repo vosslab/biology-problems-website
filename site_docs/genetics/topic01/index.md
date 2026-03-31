@@ -2,7 +2,7 @@
 
 Inheritance patterns, common genetic disorders, and terminology matching.
 
-**LibreTexts reference:** [Foundations of Genetic Disorders](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/01:_Foundations_of_Genetic_Disorders)
+**LibreTexts reference:** [Chapter 1: Foundations of Genetic Disorders](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/01:_Foundations_of_Genetic_Disorders)
 
 ## Genetic Disorders and Descriptions
 
