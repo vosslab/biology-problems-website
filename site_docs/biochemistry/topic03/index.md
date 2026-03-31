@@ -2,7 +2,7 @@
 
 Amino acid structure, types, and roles in protein structure.
 
-**LibreTexts reference:** [Amino Acids and Peptides](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/03:_Amino_Acids_and_Peptides)
+**LibreTexts reference:** [Unit 1, Chapter 3: Amino Acids and Peptides](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.03%3A_Amino_Acids_and_Peptides)
 
 ## Amino Acids and Descriptive Properties
 

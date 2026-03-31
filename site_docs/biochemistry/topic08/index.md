@@ -1,8 +1,8 @@
-# 8: Enzyme Regulation
+# 8: Enzyme Inhibition
 
-Ligand binding, allosteric effects, and feedback regulation.
+Ligand binding and inhibitors.
 
-**LibreTexts reference:** [Enzyme Regulation](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/08:_Enzyme_Regulation)
+**LibreTexts reference:** [Unit 2, Chapter 3: Enzyme Inhibition](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/02%3A_Unit_2_-_Enzymes/2.03%3A_Enzyme_Inhibition)
 
 ## Cleavage Sites for Chymotrypsin Digestion of Peptides
 

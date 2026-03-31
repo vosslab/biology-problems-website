@@ -2,7 +2,7 @@
 
 Restriction enzymes, recognition sequences, gel electrophoresis, and applications in DNA profiling.
 
-**LibreTexts reference:** [DNA Profiling and Techniques](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/03:_DNA_Profiling_and_Techniques)
+**LibreTexts reference:** [Chapter 3: DNA Profiling and Techniques](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/03:_DNA_Profiling_and_Techniques)
 
 ## True/False Statements About English Palindromes
 

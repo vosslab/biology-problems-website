@@ -2,7 +2,7 @@
 
 Protein folding, structural levels, and mechanisms.
 
-**LibreTexts reference:** [Proteins- Structure and Folding](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/04:_Proteins-_Structure_and_Folding)
+**LibreTexts reference:** [Unit 1, Chapter 4: Proteins - Structure and Folding](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.04%3A_Proteins-_Structure_and_Folding)
 
 ## Matching Protein Structure Levels to Descriptions
 
