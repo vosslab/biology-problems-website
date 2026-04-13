@@ -1,6 +1,6 @@
 # 12: Lipids
 
-Lipids, hydrophobic molecules vital for cellular functions.
+Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, steroids, waxes), identify lipid structures from molecular formulas, and distinguish saturated from unsaturated fatty acids.
 
 **LibreTexts reference:** [Unit 3, Chapter 3: Lipids](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/03%3A_Unit_3_-_Macromolecules/3.03%3A_Lipids)
 

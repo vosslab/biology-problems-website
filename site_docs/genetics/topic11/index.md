@@ -1,8 +1,40 @@
 # 11: Gene Trees
 
-Phylogenetics, tree comparisons, evolutionary distances, and patterns of inheritance.
+Students construct and compare phylogenetic trees, interpret evolutionary distances, and trace gene inheritance across species.
 
 **LibreTexts reference:** [Chapter 11: Gene Trees and Relationships](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/11:_Gene_Trees_and_Relationships)
+
+## Determining Gene Tree Structure from Distance Matrices
+
+<div id="gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices-questions.txt" download title="Download bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices.zip" download title="Download blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices.zip" download title="Download canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices.html', '_blank')" title="View human_readable-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Determining Gene Tree Structure from Distance Matrices
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic11/downloads/selftest-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices.html" %}
+
+</details>
+
 
 ## Gene Tree from Matrix (Level 1)
 

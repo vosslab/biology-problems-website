@@ -1,0 +1,8 @@
+bbq-dna_gel-closest_farthest_MC-questions.txt: DNA Fragment Size in Agarose Gel Electrophoresis
+bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt: Determining DNA Size from Gel
+  Electrophoresis
+bbq-inverse_pcr_design-len_15-questions.txt: Determining Inverse PCR Primer Selection
+bbq-linear_digest-length_12-sites_2-fragment-questions.txt: Determining Restriction
+  Fragment Sizes
+bbq-nested_pcr_design-len_24-questions.txt: Determining Nested PCR Primer Pairs
+last edit: Mon Apr 13 15:07:59 2026

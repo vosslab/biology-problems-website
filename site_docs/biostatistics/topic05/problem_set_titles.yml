@@ -1,0 +1,16 @@
+bbq-babies_two_sample_t_test-tails1-questions.txt: Calculating p-value for Two-Sample
+  t-Test
+bbq-busse_woods_anova-anova-5year-questions.txt: Determining Differences in Diversity
+  Using ANOVA
+bbq-busse_woods_two_sample_f_test-tails1-questions.txt: Determining Statistical Significance
+  Using Two-Sample F-Test
+bbq-busse_woods_two_sample_t_test-tails1-questions.txt: Determining Significance Using
+  Two-Sample T-Test
+bbq-chi_square_calculated-ACCEPT-questions.txt: Calculating Chi-Square Value for Phenotype
+  Ratios
+bbq-chi_square_choices-questions.txt: Determining Hypothesis Acceptance Using Chi-Squared
+  Test
+bbq-hypothesis_lab_partner-hypotheses_partner-questions.txt: Flaws in Statistical
+  Hypothesis Testing
+bbq-population_test_google_sheet-ztest-questions.txt: '...'
+last edit: Mon Apr 13 14:51:52 2026

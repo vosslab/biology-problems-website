@@ -1,6 +1,6 @@
 # 8: Enzyme Inhibition
 
-Ligand binding and inhibitors.
+Students classify inhibition type (competitive, noncompetitive, uncompetitive, mixed) from changes in Km and Vmax in Michaelis-Menten data, and interpret inhibitor effects on Lineweaver-Burk plots.
 
 **LibreTexts reference:** [Unit 2, Chapter 3: Enzyme Inhibition](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/02%3A_Unit_2_-_Enzymes/2.03%3A_Enzyme_Inhibition)
 

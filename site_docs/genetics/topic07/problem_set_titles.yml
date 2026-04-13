@@ -1,6 +1,14 @@
 bbq-MATCH-chi-square_terms-questions.txt: Chi-Square Terms and Definitions
 bbq-MC-chi-square_terms-questions.txt: Chi-Square Terms
 bbq-TFMS-chi-square-questions.txt: True/False Statements About Chi-Square Tests
+bbq-chi_square_calculated-ACCEPT-questions.txt: Calculating Chi-Squared Statistic
+  from Observed Data
 bbq-chi_square_choices-questions.txt: Chi-Square Tests for Phenotypic Ratios
 bbq-chi_square_errors-questions.txt: Chi-Square Tests for Goodness of Fit
-last edit: Wed Feb  4 07:53:32 2026
+bbq-chi_square_hardy_weinberg-questions.txt: Determining Hardy-Weinberg Status Using
+  Chi-Squared Test
+bbq-chi_square_hypotheses-pair-questions.txt: "Determining Null and Alternative Hypotheses\
+  \ for Genetic Crosses</tit\e[12D\e[K\nCrosses"
+bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt: Statistical
+  Hypotheses in Mendelian Genetics
+last edit: Mon Apr 13 15:02:42 2026

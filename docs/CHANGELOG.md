@@ -1,5 +1,22 @@
 # Changelog
 
+## 2026-04-13
+
+### Additions and New Features
+- Added `load_subject_topics()` parser to `generate_topic_pages.py` that reads `site_docs/<subject>/index.md` and extracts topic title, description, and LibreTexts link (URL, unit, chapter) per topic, with module-level caching.
+- Added `_derive_libretexts_title()` helper that recovers chapter titles from LibreTexts URL slugs so the generated per-topic pages keep the "Unit X, Chapter Y: Chapter Title" link text.
+
+### Behavior or Interface Changes
+- `get_topic_title()`, `get_topic_description()`, and `get_libretexts_link()` in `generate_topic_pages.py` now read from the parsed subject `index.md` instead of `mkdocs.yml` / `topics_metadata.yml`. Source of truth for topic metadata is now the per-subject markdown file.
+- Shrunk `mkdocs.yml` nav: each subject is one entry pointing at `<subject>/index.md`. Individual topic pages are reached via the subject landing page rather than an expanded sidebar tree.
+
+### Removals and Deprecations
+- Removed `topics_metadata.yml` (data now lives in each `site_docs/<subject>/index.md`).
+- Removed `generate_subject_indexes.py` (previously generated subject index pages from the removed YAML; subject pages are now authored directly).
+
+### Decisions and Failures
+- Chose to make `site_docs/<subject>/index.md` the single source of truth for topic titles, descriptions, and LibreTexts links instead of keeping a parallel YAML. Rationale: the markdown already held the richest copy and was most pleasant to edit; the YAML was a mirror that kept drifting.
+
 ## 2026-03-30
 
 ### Additions and New Features

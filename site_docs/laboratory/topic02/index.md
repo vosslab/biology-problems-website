@@ -1,6 +1,6 @@
 # 2: Solutions
 
-Solution preparation using mass concentration, molarity, and volume ratios.
+Students prepare solutions from solids or stock reagents by calculating grams needed for a target molarity, using formula weight, and converting between mass concentration, percent w/v, percent v/v, and molarity.
 
 ## Mass for a Target Concentration
 

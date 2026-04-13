@@ -1,6 +1,6 @@
 # 1: Genetic Disorders
 
-Inheritance patterns, common genetic disorders, and terminology matching.
+Students identify common genetic disorders and describe basic inheritance patterns associated with single-gene conditions.
 
 **LibreTexts reference:** [Chapter 1: Foundations of Genetic Disorders](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/01:_Foundations_of_Genetic_Disorders)
 
