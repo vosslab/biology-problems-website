@@ -4,7 +4,7 @@
 Batch runner for BBQ-related scripts (CSV only).
 
 Config format (CSV):
-chapter,topic,script,flags,input,notes
+subject,topic,script,flags,input,notes
 genetics,topic05,unique_gametes.py,"-n 5",,
 """
 
@@ -376,7 +376,7 @@ def load_tasks_csv(config_path: str, bbq_config: dict) -> list:
 			flags = (row.get("flags") or "").strip()
 			input_value = (row.get("input") or "").strip()
 			output = (row.get("output") or "").strip()
-			chapter = (row.get("chapter") or "").strip()
+			subject = (row.get("subject") or row.get("chapter") or "").strip()
 			topic = (row.get("topic") or "").strip()
 			output_file = (row.get("output_file") or "").strip()
 			if not script and not flags:
@@ -395,8 +395,8 @@ def load_tasks_csv(config_path: str, bbq_config: dict) -> list:
 			if not script_values and script:
 				script_values = [script]
 			output_dir_parts = [repo_root, "site_docs"]
-			if chapter:
-				output_dir_parts.append(chapter)
+			if subject:
+				output_dir_parts.append(subject)
 			if topic:
 				output_dir_parts.append(topic)
 			output_dir = os.path.join(*output_dir_parts)

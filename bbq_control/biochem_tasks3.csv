@@ -1,4 +1,4 @@
-chapter,topic,script,flags,input,notes
+subject,topic,script,flags,input,notes
 biochemistry,topic10,{bp_root}/biochemistry-problems/carbs/classify_Fischer.py,,,
 biochemistry,topic10,{bp_root}/biochemistry-problems/carbs/classify_Haworth.py,--furan,,
 biochemistry,topic10,{bp_root}/biochemistry-problems/carbs/classify_Haworth.py,--pyran,,

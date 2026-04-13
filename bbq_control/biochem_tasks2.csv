@@ -1,4 +1,4 @@
-chapter,topic,script,flags,input,notes
+subject,topic,script,flags,input,notes
 biochemistry,topic06,{bp_root}/biochemistry-problems/thermodynamics/delta_g_prime_standard_state.py,,,
 biochemistry,topic06,{bp_root}/biochemistry-problems/thermodynamics/exergonic_endergonic_reactions.py,,,
 biochemistry,topic06,{bp_root}/biochemistry-problems/thermodynamics/free_energy_keq_relationship.py,,,

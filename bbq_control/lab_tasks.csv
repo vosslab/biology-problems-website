@@ -1,4 +1,4 @@
-"chapter","topic","script","flags","input","notes"
+"subject","topic","script","flags","input","notes"
 "laboratory","dilutions","{bp_root}/laboratory-problems/dilution_factor_aliquot_numeric.py",,,
 "laboratory","dilutions","{bp_root}/laboratory-problems/dilution_factor_calc_numeric.py",,,
 "laboratory","dilutions","{bp_root}/laboratory-problems/dilution_factor_diluent_numeric.py",,,
