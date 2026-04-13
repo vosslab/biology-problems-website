@@ -1,0 +1,10 @@
+subject,topic,script,flags,input,notes
+molecular_biology,topic04,{bp_root}/molecular_biology-problems/dna_gel-closest_farthest_MC.py,,,
+molecular_biology,topic04,{bp_root}/molecular_biology-problems/dna_gel-estimate_size-MC_or_NUM.py,,,
+molecular_biology,topic04,{bp_root}/molecular_biology-problems/inverse_pcr_design.py,,,
+molecular_biology,topic04,{bp_root}/molecular_biology-problems/linear_digest.py,,,
+molecular_biology,topic04,{bp_root}/molecular_biology-problems/nested_pcr_design.py,,,
+molecular_biology,topic05,{bp_root}/molecular_biology-problems/RT-qPCR.py,,,
+molecular_biology,topic07,{bp_root}/molecular_biology-problems/enhancer_gene_expression.py,,,
+molecular_biology,topic08,{bp_root}/molecular_biology-problems/exon_splicing.py,,,
+molecular_biology,topic09,{bp_root}/molecular_biology-problems/translate_genetic_code.py,,,
