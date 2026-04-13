@@ -1,6 +1,6 @@
 # 6: Thermodynamics
 
-Enzyme functions, substrate binding, and energy changes in reactions.
+Students calculate delta G and Keq, determine whether reactions are spontaneous, and interpret free energy diagrams for enzyme-catalyzed reactions.
 
 **LibreTexts reference:** [Unit 2, Chapter 1: Enzyme Thermodynamics](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/02%3A_Unit_2_-_Enzymes/2.01%3A_Enzyme_Thermodynamics)
 

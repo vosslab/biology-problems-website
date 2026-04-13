@@ -7,6 +7,7 @@ import glob
 import time
 import argparse
 import subprocess
+import urllib.parse
 
 # PIP3 modules
 import yaml
@@ -18,8 +19,7 @@ import llm_generate_problem_set_title
 
 BASE_DIR: str = ""
 MKDOCS_CONFIG: str = "mkdocs.yml"
-TOPICS_METADATA_FILE: str = "topics_metadata.yml"
-TOPIC_METADATA = {}
+SUBJECT_TOPIC_CACHE: dict = {}
 GIT_TRACKED_PATHS = None
 
 # ANSI color codes for readable CLI output
@@ -242,104 +242,130 @@ def find_bbq_converter() -> str:
 
 #==============
 
-def get_topic_title(folder_path: str, topic_number: int) -> str:
-	"""Retrieve the topic title from mkdocs.yml.
+# Matches a numbered topic list line in site_docs/<subject>/index.md, e.g.:
+#   1. [Life Molecules](topic01/index.md) &mdash; <a href="..." ...>(LibreTexts Unit 1, Chapter 1 ...)</a>
+# The trailing HTML block is optional.
+_TOPIC_HEADING_RE = re.compile(
+	r'^\s*(\d+)\.\s+\[([^\]]+)\]\((topic\d+)/index\.md\)(.*)$'
+)
 
-	Args:
-		folder_path (str): The path to the topic folder.
-		topic_number (int): A topic number (currently unused).
+# Matches the optional LibreTexts anchor, capturing URL, unit (optional), and chapter.
+_LIBRETEXTS_RE = re.compile(
+	r'href="([^"]+)"[^>]*>.*?\(LibreTexts(?:\s+Unit\s+(\d+),)?\s+Chapter\s+(\d+)'
+)
 
-	Returns:
-		str: The title of the topic, or 'Untitled Topic' if not found.
+# Matches the indented description bullet that follows a topic heading line.
+_DESCRIPTION_RE = re.compile(r'^\s*-\s+(.*\S)\s*$')
 
-	Raises:
-		FileNotFoundError: If the mkdocs.yml file does not exist.
-		ValueError: If no title is found for the given folder path.
+def _derive_libretexts_title(url: str) -> str:
+	"""Recover a human-readable chapter title from a LibreTexts URL slug."""
+	# Take the last path segment and URL-decode it (e.g. '1.01%3A_Molecules_of_Life').
+	last_segment = url.rstrip("/").rsplit("/", 1)[-1]
+	decoded = urllib.parse.unquote(last_segment)
+	# Drop any leading 'N.NN: ' or 'NN: ' numeric prefix if present.
+	if ":" in decoded:
+		decoded = decoded.split(":", 1)[1]
+	# Convert underscores to spaces and tidy whitespace.
+	return decoded.replace("_", " ").strip()
+
+def load_subject_topics(subject_folder: str) -> dict:
+	"""Parse site_docs/<subject>/index.md and return a topic metadata dict.
+
+	Returns a mapping like:
+		{
+			'topic01': {
+				'title': 'Life Molecules',
+				'description': 'Students categorize biomolecules ...',
+				'libretexts': {'url': ..., 'title': ..., 'unit': 1, 'chapter': 1} or None,
+			},
+			...
+		}
+	Results are cached per subject.
 	"""
-	# Check if the config file exists
-	if not os.path.exists(MKDOCS_CONFIG):
-		raise FileNotFoundError(f"Config file '{MKDOCS_CONFIG}' not found.")
+	# Return cached result if we have already parsed this subject.
+	if subject_folder in SUBJECT_TOPIC_CACHE:
+		return SUBJECT_TOPIC_CACHE[subject_folder]
+	index_path = os.path.join(BASE_DIR or "site_docs", subject_folder, "index.md")
+	if not os.path.isfile(index_path):
+		raise FileNotFoundError(f"Subject index not found: {index_path}")
+	with open(index_path, "r") as file_pointer:
+		lines = file_pointer.readlines()
+	topics: dict = {}
+	current_key = None
+	# Walk the file line by line, assigning each description bullet to the most recent heading.
+	for raw_line in lines:
+		heading_match = _TOPIC_HEADING_RE.match(raw_line)
+		if heading_match:
+			_topic_number, title, topic_key, trailing = heading_match.groups()
+			libretexts = None
+			libre_match = _LIBRETEXTS_RE.search(trailing)
+			if libre_match:
+				url, unit_str, chapter_str = libre_match.groups()
+				libretexts = {
+					"url": url,
+					"title": _derive_libretexts_title(url),
+					"unit": int(unit_str) if unit_str else 0,
+					"chapter": int(chapter_str) if chapter_str else 0,
+				}
+			topics[topic_key] = {
+				"title": title.strip(),
+				"description": "",
+				"libretexts": libretexts,
+			}
+			current_key = topic_key
+			continue
+		# Only treat the first indented bullet after a heading as that topic's description.
+		if current_key is not None and not topics[current_key]["description"]:
+			desc_match = _DESCRIPTION_RE.match(raw_line)
+			if desc_match:
+				topics[current_key]["description"] = desc_match.group(1)
+	SUBJECT_TOPIC_CACHE[subject_folder] = topics
+	return topics
 
-	# Get the relative path of the folder
-	relative_path = os.path.relpath(folder_path, BASE_DIR)
-
-	# Load the navigation structure from mkdocs.yml
-	with open(MKDOCS_CONFIG, "r") as file:
-		config = yaml.safe_load(file)
-
-	# Traverse the navigation structure to find the topic title
-	for section in config.get("nav", []):
-		for key, subsections in section.items():
-			for subsection in subsections:
-				if isinstance(subsection, dict):
-					for title, index_file in subsection.items():
-						# Check if the folder path matches
-						if relative_path in index_file:
-							return title
-
-	# If no matching title is found, raise an error
-	raise ValueError(f"No topic title found for folder path: {folder_path}")
+def _get_topic_entry(topic_folder: str) -> dict:
+	"""Look up the parsed entry for a topic folder, raising if absent."""
+	subject_folder = os.path.basename(os.path.dirname(topic_folder))
+	relative_topic_name = os.path.basename(os.path.normpath(topic_folder))
+	topics = load_subject_topics(subject_folder)
+	entry = topics.get(relative_topic_name)
+	if entry is None:
+		raise ValueError(
+			f"No entry for {subject_folder}/{relative_topic_name} in "
+			f"site_docs/{subject_folder}/index.md"
+		)
+	return entry
 
 #==============
 
-def load_topic_metadata() -> dict:
-	"""Load topic metadata (descriptions + LibreTexts links) from YAML if present."""
-	if not os.path.isfile(TOPICS_METADATA_FILE):
-		return {}
-	with open(TOPICS_METADATA_FILE, "r") as file_pointer:
-		metadata = yaml.safe_load(file_pointer) or {}
-		if not isinstance(metadata, dict):
-			return {}
-		return metadata
-
-TOPIC_METADATA = load_topic_metadata()
+def get_topic_title(folder_path: str, topic_number: int) -> str:
+	"""Return the topic title parsed from site_docs/<subject>/index.md."""
+	# topic_number is accepted for backwards-compatible call sites but unused.
+	del topic_number
+	entry = _get_topic_entry(folder_path)
+	title = entry.get("title")
+	if not title:
+		raise ValueError(f"No topic title found for folder path: {folder_path}")
+	# Prefix the numeric label so existing page output stays identical.
+	relative_topic_name = os.path.basename(os.path.normpath(folder_path))
+	topic_int = int(re.search(r'topic(\d+)', relative_topic_name).group(1))
+	return f"{topic_int}: {title}"
 
 #==============
 
 def get_libretexts_link(topic_folder: str, relative_topic_name: str):
-	"""Return LibreTexts mapping for a topic if available."""
-	subject_folder = os.path.basename(os.path.dirname(topic_folder))
-	subject_metadata = TOPIC_METADATA.get(subject_folder, {})
-	if not isinstance(subject_metadata, dict):
-		return None
-	topic_entry = subject_metadata.get(relative_topic_name)
-	if not isinstance(topic_entry, dict):
-		return None
-	libretexts = topic_entry.get("libretexts", {})
-	if not isinstance(libretexts, dict):
-		return None
-	url = libretexts.get("url")
-	if not url:
-		return None
-	title = libretexts.get("title")
-	unit = libretexts.get("unit", 0)
-	chapter = libretexts.get("chapter", 0)
-	return {"url": url, "title": title, "unit": unit, "chapter": chapter}
+	"""Return the LibreTexts mapping for a topic, or None if not linked."""
+	del relative_topic_name
+	entry = _get_topic_entry(topic_folder)
+	return entry.get("libretexts")
 
 #==============
 
 def get_topic_description(topic_folder: str) -> str:
-	"""Retrieve the description from topics_metadata.yml.
-
-	Args:
-		topic_folder (str): The path to the topic folder.
-
-	Returns:
-		str: The description for the topic.
-
-	Raises:
-		ValueError: If no matching description is found.
-	"""
-	subject_folder = os.path.basename(os.path.dirname(topic_folder))
-	relative_topic_name = os.path.basename(topic_folder)
-	subject_metadata = TOPIC_METADATA.get(subject_folder, {})
-	if not isinstance(subject_metadata, dict):
-		raise ValueError(f"No descriptions found for subject: {subject_folder}")
-	topic_entry = subject_metadata.get(relative_topic_name, {})
-	if not isinstance(topic_entry, dict):
-		raise ValueError(f"No metadata found for topic: {relative_topic_name}")
-	description = topic_entry.get("description")
+	"""Return the description parsed from site_docs/<subject>/index.md."""
+	entry = _get_topic_entry(topic_folder)
+	description = entry.get("description")
 	if not description:
+		relative_topic_name = os.path.basename(os.path.normpath(topic_folder))
 		raise ValueError(f"No description found for topic: {relative_topic_name}")
 	return description
 

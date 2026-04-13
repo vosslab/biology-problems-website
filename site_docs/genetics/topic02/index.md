@@ -1,6 +1,6 @@
 # 2: DNA Structure
 
-DNA composition, base pairing, nucleotide components, and double-helix complementarity.
+Students answer questions about DNA composition, base pairing rules, nucleotide components, and double-helix complementarity.
 
 **LibreTexts reference:** [Chapter 2: DNA Structure and Sequences](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/02:_DNA_Structure_and_Sequences)
 

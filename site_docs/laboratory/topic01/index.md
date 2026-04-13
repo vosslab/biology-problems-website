@@ -1,6 +1,6 @@
-# 1: Measurement basics
+# 1: Measurement Basics
 
-Orders of magnitude, pipet sizing, and measurement scale.
+Students convert between SI-prefixed units, choose values with the correct order of magnitude, select appropriate pipet sizes, and apply metric prefixes to compare concentrations or volumes.
 
 ## Orders of Magnitude for Given Quantities
 

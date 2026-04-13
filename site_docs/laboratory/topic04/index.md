@@ -1,6 +1,6 @@
-# 4: Serial dilutions
+# 4: Serial Dilutions
 
-Serial dilution factor calculations.
+Students design multi-step dilution series to reach high overall dilution factors, calculate effective dilution factors across linked steps, and explain why serial dilutions improve accuracy and save materials compared to one large dilution.
 
 ## Aliquot Volumes for Serial Dilutions
 

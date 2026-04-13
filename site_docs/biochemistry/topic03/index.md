@@ -1,6 +1,6 @@
 # 3: Amino Acids
 
-Amino acid structure, types, and roles in protein structure.
+Students identify amino acids by their side chains, classify R-groups by polarity and charge, predict amino acid protonation states at given pH values, and analyze peptide bond formation.
 
 **LibreTexts reference:** [Unit 1, Chapter 3: Amino Acids and Peptides](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.03%3A_Amino_Acids_and_Peptides)
 

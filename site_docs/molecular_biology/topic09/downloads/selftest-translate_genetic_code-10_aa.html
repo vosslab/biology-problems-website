@@ -1,0 +1,372 @@
+<script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
+<div class="qti-selftest">
+<div id="question_html_98e1_2012">
+<div id="statement_text_98e1_2012">
+<table border="1" style="border-collapse: collapse;"><tbody>
+<tr>
+<td rowspan="2" colspan="2" style="width: 12%; text-align: center; vertical-align: middle; border-left: 1px solid white; border-top: 1px solid white;"> </td>
+<th colspan="8" style="width: 80%; text-align: center; vertical-align: middle; background-color: #eccafa; border: 1px solid black;">Second Letter</th>
+<td rowspan="2" style="width: 8%; text-align: center; vertical-align: middle; border-right: 1px solid white; border-top: 1px solid white;"> </td>
+</tr>
+<tr>
+<th colspan="2" style="width: 20%; text-align: center; vertical-align: middle; background-color: #eccafa; border: 1px solid black;">U</th>
+<th colspan="2" style="width: 20%; text-align: center; vertical-align: middle; background-color: #eccafa; border: 1px solid black;">C</th>
+<th colspan="2" style="width: 20%; text-align: center; vertical-align: middle; background-color: #eccafa; border: 1px solid black;">A</th>
+<th colspan="2" style="width: 20%; text-align: center; vertical-align: middle; background-color: #eccafa; border: 1px solid black;">G</th>
+</tr>
+<tr>
+<th rowspan="16" style="width: 8%; text-align: center; vertical-align: middle; background-color: #eccafa; border: 1px solid black;">First<br>Letter</th>
+<th rowspan="4" style="width: 4%; text-align: center; vertical-align: middle; background-color: #eccafa; border: 1px solid black;">U</th>
+<td style="width: 14%; text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 1px solid black; border-right: 0px; border-bottom: 0px;">
+<!-- UUU -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> </tr></table>
+</td>
+<td style="width: 6%; text-align: center; vertical-align: middle;" rowspan="2">F</td>
+<td style="width: 14%; text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 1px solid black; border-right: 0px; border-bottom: 0px;">
+<!-- UCU -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> </tr></table>
+</td>
+<td style="width: 6%; text-align: center; vertical-align: middle;" rowspan="4">S</td>
+<td style="width: 14%; text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 1px solid black; border-right: 0px; border-bottom: 0px;">
+<!-- UAU -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> </tr></table>
+</td>
+<td style="width: 6%; text-align: center; vertical-align: middle;" rowspan="2">Y</td>
+<td style="width: 14%; text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 1px solid black; border-right: 0px; border-bottom: 0px;">
+<!-- UGU -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> </tr></table>
+</td>
+<td style="width: 6%; text-align: center; vertical-align: middle;" rowspan="2">C</td>
+<th rowspan="16" style="width: 8%; text-align: center; vertical-align: middle; background-color: #eccafa; border: 1px solid black;">Third<br>Letter</th>
+</tr>
+<tr>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 0px;">
+<!-- UUC -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 0px;">
+<!-- UCC -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 0px;">
+<!-- UAC -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 0px;">
+<!-- UGC -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> </tr></table>
+</td>
+</tr>
+<tr>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 0px;">
+<!-- UUA -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle;" rowspan="2">L</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 0px;">
+<!-- UCA -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle; background-color: #f8cac6; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 0px;">
+<!-- UAA -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle; color: DarkRed;">stop</td>
+<td style="text-align: center; vertical-align: middle; background-color: #f8cac6; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 0px;">
+<!-- UGA -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle; color: DarkRed;">stop</td>
+</tr>
+<tr>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 1px solid black;">
+<!-- UUG -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 1px solid black">
+<!-- UCG -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle; background-color: #f8cac6; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 1px solid black">
+<!-- UAG -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle; color: DarkRed;">stop</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 1px solid black">
+<!-- UGG -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle;">W</td>
+</tr>
+<tr>
+<th rowspan="4" style="text-align: center; vertical-align: middle; background-color: #eccafa; border: 1px solid black;">C</th>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 1px solid black; border-right: 0px; border-bottom: 0px;">
+<!-- CUU -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle;" rowspan="4">L</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 1px solid black; border-right: 0px; border-bottom: 0px;">
+<!-- CCU -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle;" rowspan="4">P</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 1px solid black; border-right: 0px; border-bottom: 0px;">
+<!-- CAU -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle;" rowspan="2">H</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 1px solid black; border-right: 0px; border-bottom: 0px;">
+<!-- CGU -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle;" rowspan="4">R</td>
+</tr>
+<tr>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 0px;">
+<!-- CUC -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 0px;">
+<!-- CCC -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 0px;">
+<!-- CAC -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 0px;">
+<!-- CGC -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> </tr></table>
+</td>
+</tr>
+<tr>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 0px;">
+<!-- CUA -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 0px;">
+<!-- CCA -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 0px;">
+<!-- CAA -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle;" rowspan="2">Q</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 0px;">
+<!-- CGA -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> </tr></table>
+</td>
+</tr>
+<tr>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 1px solid black;">
+<!-- CUG -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 1px solid black;">
+<!-- CCG -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 1px solid black;">
+<!-- CAG -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 1px solid black;">
+<!-- CGG -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> </tr></table>
+</td>
+</tr>
+<tr>
+<th rowspan="4" style="text-align: center; vertical-align: middle; background-color: #eccafa; border: 1px solid black;">A</th>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 1px solid black; border-right: 0px; border-bottom: 0px;">
+<!-- AUU -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle;" rowspan="3">I</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 1px solid black; border-right: 0px; border-bottom: 0px;">
+<!-- ACU -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle;" rowspan="4">T</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 1px solid black; border-right: 0px; border-bottom: 0px;">
+<!-- AAU -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle;" rowspan="2">N</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 1px solid black; border-right: 0px; border-bottom: 0px;">
+<!-- AGU -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle;" rowspan="2">S</td>
+</tr>
+<tr>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 0px;">
+<!-- AUC -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 0px;">
+<!-- ACC -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 0px;">
+<!-- AAC -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 0px;">
+<!-- AGC -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> </tr></table>
+</td>
+</tr>
+<tr>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 0px;">
+<!-- AUA -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 0px;">
+<!-- ACA -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 0px;">
+<!-- AAA -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle;" rowspan="2">K</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 0px;">
+<!-- AGA -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle;" rowspan="2">R</td>
+</tr>
+<tr>
+<td style="text-align: center; vertical-align: middle; background-color: #bfedd2; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 1px solid black;">
+<!-- AUG -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle; color: DarkGreen;"><strong>M</strong></td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 1px solid black;">
+<!-- ACG -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 1px solid black;">
+<!-- AAG -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 1px solid black;">
+<!-- AGG -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> </tr></table>
+</td>
+</tr>
+<tr>
+<th rowspan="4" style="text-align: center; vertical-align: middle; background-color: #eccafa; border: 1px solid black;">G</th>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 1px solid black; border-right: 0px; border-bottom: 0px;">
+<!-- GUU -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle;" rowspan="4">V</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 1px solid black; border-right: 0px; border-bottom: 0px;">
+<!-- GCU -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle;" rowspan="4">A</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 1px solid black; border-right: 0px; border-bottom: 0px;">
+<!-- GAU -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle;" rowspan="2">D</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 1px solid black; border-right: 0px; border-bottom: 0px;">
+<!-- GGU -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle;" rowspan="4">G</td>
+</tr>
+<tr>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 0px;">
+<!-- GUC -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 0px;">
+<!-- GCC -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 0px;">
+<!-- GAC -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 0px;">
+<!-- GGC -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> </tr></table>
+</td>
+</tr>
+<tr>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 0px;">
+<!-- GUA -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 0px;">
+<!-- GCA -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 0px;">
+<!-- GAA -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle;" rowspan="2">E</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 0px;">
+<!-- GGA -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> </tr></table>
+</td>
+</tr>
+<tr>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 1px solid black;">
+<!-- GUG -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 1px solid black;">
+<!-- GCG -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 1px solid black;">
+<!-- GAG -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> </tr></table>
+</td>
+<td style="text-align: center; vertical-align: middle; border-left: 1px solid black; border-top: 0px; border-right: 0px; border-bottom: 1px solid black;">
+<!-- GGG -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> </tr></table>
+</td>
+</tr>
+</tbody></table>
+<p>Using the Genetic Code table above, translate the following 33 nucleotide mRNA sequence into the single-letter peptide code.</p>
+<!-- AUGAUAAUGAUCUGUUUUCUUGCCAAAUAUUAG -->  <table style="border-collapse: collapse; border: 1px solid #999; display:inline-table;"><tr>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;">5&#8242;&#8211;</td>
+<td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;"> , </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;"> , </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;"> , </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;"> , </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;"> , </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;"> , </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;"> , </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6f3ff"> <span style="color: #003566;">C</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;"> , </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;"> , </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;"> , </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f3e6ff"> <span style="color: #420080;">U</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#e6ffe6"> <span style="color: #004d00;">A</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;" bgcolor="#f2f2f2"> <span style="color: #2a2000;">G</span> </td> <td style="border: 1px solid #999; padding: 2px 6px; text-align: center; font-family: monospace; font-size: 12pt;">&#8211;3&#8242;</td>
+</tr></table>
+<p>Note:</p>
+<ul>
+<li>Your answer will spell a combination of 2 five-letter words (that are also valid Wordle&#8482; answers).</li>
+<li>Enter your answer in the blank with no punctuation, only letters.</li>
+</ul>
+</div>
+<form>
+<input type="text" class="qti-input" id="fib_input_98e1_2012" placeholder="Enter your answer" autocomplete="off"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_98e1_2012()">Check Answer</button>
+<div id="result_98e1_2012" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+</form>
+<br>
+</div><script>
+const fibAnswers_98e1_2012 = ['mimicflaky', 'mim,icf,lak,y', 'mimic,flaky'];
+function checkAnswer_98e1_2012() {
+  const inputEl = document.getElementById('fib_input_98e1_2012');
+  if (!inputEl) { return; }
+  const userAns = inputEl.value.trim().toLowerCase();
+  const resultDiv = document.getElementById('result_98e1_2012');
+  const isCorrect = fibAnswers_{crc16_text}.includes(userAns);
+  if (isCorrect) {
+    resultDiv.style.color = 'green';
+    resultDiv.textContent = 'CORRECT';
+  } else {
+    resultDiv.style.color = 'red';
+    resultDiv.textContent = 'incorrect';
+  }
+}
+</script>
+
+</div>

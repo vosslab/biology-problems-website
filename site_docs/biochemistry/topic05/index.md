@@ -1,6 +1,6 @@
 # 5: Protein Purification
 
-Isolation and analysis methods, chromatography, electrophoresis.
+Students choose purification methods for proteins based on size, charge, and binding affinity, and interpret results from gel filtration, ion exchange, SDS-PAGE, and isoelectric focusing.
 
 **LibreTexts reference:** [Unit 1, Chapter 5: Protein Purification](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.05%3A_Protein_Purification)
 

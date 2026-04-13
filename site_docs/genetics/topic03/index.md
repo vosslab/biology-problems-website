@@ -1,6 +1,6 @@
 # 3: DNA Profiling
 
-Restriction enzymes, recognition sequences, gel electrophoresis, and applications in DNA profiling.
+Students use blood typing agglutination tests, HLA genotyping, gel electrophoresis band patterns, and DNA fingerprinting techniques to solve paternity disputes and forensic identification problems.
 
 **LibreTexts reference:** [Chapter 3: DNA Profiling and Techniques](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/03:_DNA_Profiling_and_Techniques)
 

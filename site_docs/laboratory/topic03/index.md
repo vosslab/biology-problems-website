@@ -1,6 +1,6 @@
 # 3: Dilutions
 
-Single-step dilution factors and percent dilution calculations.
+Students perform single-step dilution calculations using c1V1 = c2V2, determine aliquot and diluent volumes from stock and desired concentrations, and calculate dilution factors and concentration factors.
 
 ## Aliquot Volumes for Dilutions
 

@@ -1,15 +1,25 @@
-bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_1-questions.txt: Gene Tree from Matrix (Level 1)
-bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_2-questions.txt: Gene Tree from Matrix (Level 2)
-bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_3-questions.txt: Gene Tree from Matrix (Level 3)
-bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_4-questions.txt: Gene Tree from Matrix (Level 4)
-bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_5-questions.txt: Gene Tree from Matrix (Level 5)
-
-bbq-gene_tree_matches_plus-DIFFERENT_mode-EASY_level-questions.txt: Different Phylogenetic Trees (Easy)
-bbq-gene_tree_matches_plus-DIFFERENT_mode-MEDIUM_level-questions.txt: Different Phylogenetic Trees (Medium)
-bbq-gene_tree_matches_plus-DIFFERENT_mode-RIGOROUS_level-questions.txt: Different Phylogenetic Trees (Rigorous)
-
-bbq-gene_tree_matches_plus-SAME_mode-EASY_level-questions.txt: Same Phylogenetic Trees (Easy)
-bbq-gene_tree_matches_plus-SAME_mode-MEDIUM_level-questions.txt: Same Phylogenetic Trees (Medium)
-bbq-gene_tree_matches_plus-SAME_mode-RIGOROUS_level-questions.txt: Same Phylogenetic Trees (Rigorous)
-
-last edit: Wed Feb  4 07:53:32 2026
+bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices-questions.txt: Determining
+  Gene Tree Structure from Distance Matrices
+bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_1-questions.txt: Gene Tree from Matrix
+  (Level 1)
+bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_2-questions.txt: Gene Tree from Matrix
+  (Level 2)
+bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_3-questions.txt: Gene Tree from Matrix
+  (Level 3)
+bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_4-questions.txt: Gene Tree from Matrix
+  (Level 4)
+bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_5-questions.txt: Gene Tree from Matrix
+  (Level 5)
+bbq-gene_tree_matches_plus-DIFFERENT_mode-EASY_level-questions.txt: Different Phylogenetic
+  Trees (Easy)
+bbq-gene_tree_matches_plus-DIFFERENT_mode-MEDIUM_level-questions.txt: Different Phylogenetic
+  Trees (Medium)
+bbq-gene_tree_matches_plus-DIFFERENT_mode-RIGOROUS_level-questions.txt: Different
+  Phylogenetic Trees (Rigorous)
+bbq-gene_tree_matches_plus-SAME_mode-EASY_level-questions.txt: Same Phylogenetic Trees
+  (Easy)
+bbq-gene_tree_matches_plus-SAME_mode-MEDIUM_level-questions.txt: Same Phylogenetic
+  Trees (Medium)
+bbq-gene_tree_matches_plus-SAME_mode-RIGOROUS_level-questions.txt: Same Phylogenetic
+  Trees (Rigorous)
+last edit: Mon Apr 13 15:05:43 2026

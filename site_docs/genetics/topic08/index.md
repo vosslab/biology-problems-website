@@ -1,8 +1,72 @@
 # 8: Gene Mapping
 
-Two- and three-point test crosses, genetic distances, interference, and tetrad analysis.
+Students determine gene order on chromosomes using recombination data from test crosses, calculate map distances between linked genes, and use deletion mutants to establish gene arrangement.
 
 **LibreTexts reference:** [Chapter 8: Gene Mapping and Recombination](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/08:_Gene_Mapping_and_Recombination)
+
+## Title Here
+
+<div id="deletion_mutant_random-05_genes-MC-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_random-05_genes-MC-questions.txt" download title="Download bbq-deletion_mutant_random-05_genes-MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-deletion_mutant_random-05_genes-MC-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-deletion_mutant_random-05_genes-MC.zip" download title="Download blackboard_qti_v2_1-deletion_mutant_random-05_genes-MC.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-deletion_mutant_random-05_genes-MC.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-deletion_mutant_random-05_genes-MC.zip" download title="Download canvas_qti_v1_2-deletion_mutant_random-05_genes-MC.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-deletion_mutant_random-05_genes-MC.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-deletion_mutant_random-05_genes-MC.html', '_blank')" title="View human_readable-deletion_mutant_random-05_genes-MC.html" aria-label="Click to view the Human-Readable TXT file (human_readable-deletion_mutant_random-05_genes-MC.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Title Here
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic08/downloads/selftest-deletion_mutant_random-05_genes-MC.html" %}
+
+</details>
+
+
+## ...
+
+<div id="deletion_mutant_words-05_genes-MC-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_words-05_genes-MC-questions.txt" download title="Download bbq-deletion_mutant_words-05_genes-MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-deletion_mutant_words-05_genes-MC-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-deletion_mutant_words-05_genes-MC.zip" download title="Download blackboard_qti_v2_1-deletion_mutant_words-05_genes-MC.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-deletion_mutant_words-05_genes-MC.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-deletion_mutant_words-05_genes-MC.zip" download title="Download canvas_qti_v1_2-deletion_mutant_words-05_genes-MC.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-deletion_mutant_words-05_genes-MC.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-deletion_mutant_words-05_genes-MC.html', '_blank')" title="View human_readable-deletion_mutant_words-05_genes-MC.html" aria-label="Click to view the Human-Readable TXT file (human_readable-deletion_mutant_words-05_genes-MC.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      ...
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic08/downloads/selftest-deletion_mutant_words-05_genes-MC.html" %}
+
+</details>
+
 
 ## Centromere Distance from Ordered Tetrad Analysis
 
@@ -32,6 +96,38 @@ Two- and three-point test crosses, genetic distances, interference, and tetrad a
     </span>
   </summary>
   {% include "genetics/topic08/downloads/selftest-tetrad_ordered-centromere_distance-MC.html" %}
+
+</details>
+
+
+## Determining Gene Order and Map Distances from Tetrad Data
+
+<div id="tetrad_unordered_three_gene-distances_plus-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-tetrad_unordered_three_gene-distances_plus-questions.txt" download title="Download bbq-tetrad_unordered_three_gene-distances_plus-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-tetrad_unordered_three_gene-distances_plus-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-tetrad_unordered_three_gene-distances_plus.zip" download title="Download blackboard_qti_v2_1-tetrad_unordered_three_gene-distances_plus.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-tetrad_unordered_three_gene-distances_plus.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-tetrad_unordered_three_gene-distances_plus.zip" download title="Download canvas_qti_v1_2-tetrad_unordered_three_gene-distances_plus.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-tetrad_unordered_three_gene-distances_plus.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-tetrad_unordered_three_gene-distances_plus.html', '_blank')" title="View human_readable-tetrad_unordered_three_gene-distances_plus.html" aria-label="Click to view the Human-Readable TXT file (human_readable-tetrad_unordered_three_gene-distances_plus.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Determining Gene Order and Map Distances from Tetrad Data
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic08/downloads/selftest-tetrad_unordered_three_gene-distances_plus.html" %}
 
 </details>
 
@@ -128,6 +224,38 @@ Two- and three-point test crosses, genetic distances, interference, and tetrad a
     </span>
   </summary>
   {% include "genetics/topic08/downloads/selftest-tetrad_unordered_two_gene-test_linkage.html" %}
+
+</details>
+
+
+## Determining Gene Order and Genetic Distances
+
+<div id="three-point_test_cross-distances_plus-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-three-point_test_cross-distances_plus-questions.txt" download title="Download bbq-three-point_test_cross-distances_plus-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-three-point_test_cross-distances_plus-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-three-point_test_cross-distances_plus.zip" download title="Download blackboard_qti_v2_1-three-point_test_cross-distances_plus.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-three-point_test_cross-distances_plus.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-three-point_test_cross-distances_plus.zip" download title="Download canvas_qti_v1_2-three-point_test_cross-distances_plus.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-three-point_test_cross-distances_plus.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-three-point_test_cross-distances_plus.html', '_blank')" title="View human_readable-three-point_test_cross-distances_plus.html" aria-label="Click to view the Human-Readable TXT file (human_readable-three-point_test_cross-distances_plus.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Determining Gene Order and Genetic Distances
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic08/downloads/selftest-three-point_test_cross-distances_plus.html" %}
 
 </details>
 
@@ -288,6 +416,40 @@ Two- and three-point test crosses, genetic distances, interference, and tetrad a
     </span>
   </summary>
   {% include "genetics/topic08/downloads/selftest-three-point_test_cross-which_genotypes-PARENTAL.html" %}
+
+</details>
+
+
+## Determining Allele Configuration from Two-Point Test Cross Data</tit[9D[K
+Data
+
+<div id="two-point_test_cross-cis-trans-MC-with_hint-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-two-point_test_cross-cis-trans-MC-with_hint-questions.txt" download title="Download bbq-two-point_test_cross-cis-trans-MC-with_hint-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-two-point_test_cross-cis-trans-MC-with_hint-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-two-point_test_cross-cis-trans-MC-with_hint.zip" download title="Download blackboard_qti_v2_1-two-point_test_cross-cis-trans-MC-with_hint.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-two-point_test_cross-cis-trans-MC-with_hint.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-two-point_test_cross-cis-trans-MC-with_hint.zip" download title="Download canvas_qti_v1_2-two-point_test_cross-cis-trans-MC-with_hint.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-two-point_test_cross-cis-trans-MC-with_hint.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-two-point_test_cross-cis-trans-MC-with_hint.html', '_blank')" title="View human_readable-two-point_test_cross-cis-trans-MC-with_hint.html" aria-label="Click to view the Human-Readable TXT file (human_readable-two-point_test_cross-cis-trans-MC-with_hint.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Determining Allele Configuration from Two-Point Test Cross Data</tit[9D[K
+Data
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic08/downloads/selftest-two-point_test_cross-cis-trans-MC-with_hint.html" %}
 
 </details>
 

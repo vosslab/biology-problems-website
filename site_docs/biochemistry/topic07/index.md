@@ -1,6 +1,6 @@
 # 7: Enzyme Kinetics
 
-Reaction rates, enzyme efficiency, and inhibition mechanisms.
+Students determine Vmax and Km from substrate concentration data, interpret Michaelis-Menten and Lineweaver-Burk plots, and calculate enzyme efficiency using kcat.
 
 **LibreTexts reference:** [Unit 2, Chapter 2: Enzyme Kinetics](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/02%3A_Unit_2_-_Enzymes/2.02%3A_Enzyme_Kinetics)
 

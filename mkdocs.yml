@@ -75,43 +75,12 @@ nav:
   - "<i class='fa fa-dna'></i> Deletion mutants": daily_puzzles/deletion_mutants.md
   - "<i class='fa fa-flask'></i> Mutant screen": daily_puzzles/mutant_screen.md
   - "<i class='fa fa-sitemap'></i> Biomacromolecules": daily_puzzles/biomacromolecule.md
-- "🧪 Biochemistry":
-  - 'List of Topics': biochemistry/index.md
-  - '1: Life Molecules': biochemistry/topic01/index.md
-  - '2: Water and pH': biochemistry/topic02/index.md
-  - '3: Amino Acids': biochemistry/topic03/index.md
-  - '4: Protein Structure': biochemistry/topic04/index.md
-  - '5: Protein Purification': biochemistry/topic05/index.md
-  - '6: Thermodynamics': biochemistry/topic06/index.md
-  - '7: Enzyme Kinetics': biochemistry/topic07/index.md
-  - '8: Enzyme Inhibition': biochemistry/topic08/index.md
-  - '9: Enzyme Allostery': biochemistry/topic09/index.md
-  - '10: Carbohydrates': biochemistry/topic10/index.md
-  - '11: Nucleic Acids': biochemistry/topic11/index.md
-  - '12: Lipids': biochemistry/topic12/index.md
-  - '13: Membranes and Membrane Proteins': biochemistry/topic13/index.md
-  - '14: Human Senses': biochemistry/topic14/index.md
-- "🪰 Genetics":
-  - 'List of Topics': genetics/index.md
-  - '1: Genetic Disorders': genetics/topic01/index.md
-  - '2: DNA Structure': genetics/topic02/index.md
-  - '3: DNA Profiling': genetics/topic03/index.md
-  - '4: Mendelian Genetics': genetics/topic04/index.md
-  - '5: Gene Interactions': genetics/topic05/index.md
-  - '6: Chromosomal Inheritance': genetics/topic06/index.md
-  - '7: Chi Square Analysis': genetics/topic07/index.md
-  - '8: Gene Mapping': genetics/topic08/index.md
-  - '9: Chromosomal Disorders': genetics/topic09/index.md
-  - '10: Population Genetics': genetics/topic10/index.md
-  - '11: Gene Trees': genetics/topic11/index.md
-- "🔬 Laboratory":
-  - 'List of Topics': laboratory/index.md
-  - '1: Measurement basics': laboratory/topic01/index.md
-  - '2: Solutions': laboratory/topic02/index.md
-  - '3: Dilutions': laboratory/topic03/index.md
-  - '4: Serial dilutions': laboratory/topic04/index.md
+- "🧪 Biochemistry": biochemistry/index.md
+- "🪰 Genetics": genetics/index.md
+- "🔬 Laboratory": laboratory/index.md
 - "🧬 Molecular Biology": molecular_biology/index.md
 - "🎲 Biostatistics": biostatistics/index.md
+- "🔎 Other": other/index.md
 - "<i class='fa fa-book-open'></i> Tutorials":
   - 'List of Tutorials': tutorials/index.md
   - "<i class='fa fa-chalkboard'></i> Blackboard BBQ Text File Upload": tutorials/bbq_tutorial.md

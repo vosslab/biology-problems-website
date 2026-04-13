@@ -1,6 +1,6 @@
 # 9: Enzyme Allostery
 
-Allosteric effects, hemoglobin, and feedback regulation.
+Students analyze allosteric regulation, cooperativity, and sigmoidal binding curves, calculate Hill coefficients from hemoglobin oxygen binding data, and trace end-product feedback control through metabolic pathway diagrams.
 
 **LibreTexts reference:** [Unit 2, Chapter 4: Enzyme Allostery](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/02%3A_Unit_2_-_Enzymes/2.04%3A_Enzyme_Allostery)
 

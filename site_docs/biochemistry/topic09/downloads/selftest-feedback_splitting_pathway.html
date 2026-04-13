@@ -1,7 +1,7 @@
 <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
 <div class="qti-selftest">
-<div id="question_html_5a96_be49">
-<div id="statement_text_5a96_be49">
+<div id="question_html_f2b5_e227">
+<div id="statement_text_f2b5_e227">
 <p>A series of enzymes catalyze reactions involving the metabolites in the branched metabolic pathway shown below. The ellipsis (...) indicates that additional upstream steps are not shown.</p>
 <table border="0" style="border-collapse: collapse; border: 0;">
 <tr>
@@ -21,7 +21,8 @@
 <td style="text-align: center; padding: 0 2px; font-size: 75%; vertical-align: bottom;">E<sub>5</sub>
 </td>
 <td style="padding: 2px 4px;"></td>
-<td style="padding: 2px 4px;"></td>
+<td style="text-align: center; padding: 0 2px; font-size: 75%; vertical-align: bottom;">E<sub>6</sub>
+</td>
 <td style="padding: 2px 4px;"></td>
 </tr>
 <tr>
@@ -33,13 +34,13 @@
 <td style="padding: 2px 4px;"></td>
 <td style="padding: 2px 4px;"></td>
 <td style="text-align: center; padding: 2px 2px; font-size: 150%;">&#8599;</td>
-<td style="text-align: center; padding: 2px 4px;"><span style="display: inline-block; width: 38px; height: 38px; line-height: 38px; border-radius: 50%; background: #795700; color: #fff; font-weight: 700; font-size: 16px; border: 2px solid #333; text-align: center;">H</span></td>
+<td style="text-align: center; padding: 2px 4px;"><span style="display: inline-block; width: 38px; height: 38px; line-height: 38px; border-radius: 50%; background: #00678b; color: #fff; font-weight: 700; font-size: 16px; border: 2px solid #333; text-align: center;">D</span></td>
 <td style="text-align: center; padding: 2px 2px; font-size: 150%;">&#8594;</td>
-<td style="text-align: center; padding: 2px 4px;"><span style="display: inline-block; width: 38px; height: 38px; line-height: 38px; border-radius: 50%; background: #586600; color: #fff; font-weight: 700; font-size: 16px; border: 2px solid #333; text-align: center;">I</span></td>
+<td style="text-align: center; padding: 2px 4px;"><span style="display: inline-block; width: 38px; height: 38px; line-height: 38px; border-radius: 50%; background: #375ca3; color: #fff; font-weight: 700; font-size: 16px; border: 2px solid #333; text-align: center;">E</span></td>
 <td style="text-align: center; padding: 2px 2px; font-size: 150%;">&#8594;</td>
-<td style="text-align: center; padding: 2px 4px;"><span style="display: inline-block; width: 38px; height: 38px; line-height: 38px; border-radius: 50%; background: #00703b; color: #fff; font-weight: 700; font-size: 16px; border: 2px solid #333; text-align: center;">J</span></td>
-<td style="padding: 2px 4px;"></td>
-<td style="padding: 2px 4px;"></td>
+<td style="text-align: center; padding: 2px 4px;"><span style="display: inline-block; width: 38px; height: 38px; line-height: 38px; border-radius: 50%; background: #673fbe; color: #fff; font-weight: 700; font-size: 16px; border: 2px solid #333; text-align: center;">F</span></td>
+<td style="text-align: center; padding: 2px 2px; font-size: 150%;">&#8594;</td>
+<td style="text-align: center; padding: 2px 4px;"><span style="display: inline-block; width: 38px; height: 38px; line-height: 38px; border-radius: 50%; background: #873c86; color: #fff; font-weight: 700; font-size: 16px; border: 2px solid #333; text-align: center;">G</span></td>
 </tr>
 <tr>
 <td style="padding: 2px 4px;"></td>
@@ -63,11 +64,11 @@
 <tr>
 <td style="text-align: center; padding: 2px 2px; font-size: 120%; color: #888; letter-spacing: 2px;">···</td>
 <td style="text-align: center; padding: 2px 2px; font-size: 150%;">&#8594;</td>
-<td style="text-align: center; padding: 2px 4px;"><span style="display: inline-block; width: 38px; height: 38px; line-height: 38px; border-radius: 50%; background: #893b84; color: #fff; font-weight: 700; font-size: 16px; border: 2px solid #333; text-align: center;">E</span></td>
+<td style="text-align: center; padding: 2px 4px;"><span style="display: inline-block; width: 38px; height: 38px; line-height: 38px; border-radius: 50%; background: #416a29; color: #fff; font-weight: 700; font-size: 16px; border: 2px solid #333; text-align: center;">A</span></td>
 <td style="text-align: center; padding: 2px 2px; font-size: 150%;">&#8594;</td>
-<td style="text-align: center; padding: 2px 4px;"><span style="display: inline-block; width: 38px; height: 38px; line-height: 38px; border-radius: 50%; background: #a42744; color: #fff; font-weight: 700; font-size: 16px; border: 2px solid #333; text-align: center;">F</span></td>
+<td style="text-align: center; padding: 2px 4px;"><span style="display: inline-block; width: 38px; height: 38px; line-height: 38px; border-radius: 50%; background: #126e53; color: #fff; font-weight: 700; font-size: 16px; border: 2px solid #333; text-align: center;">B</span></td>
 <td style="text-align: center; padding: 2px 2px; font-size: 150%;">&#8594;</td>
-<td style="text-align: center; padding: 2px 4px;"><span style="display: inline-block; width: 38px; height: 38px; line-height: 38px; border-radius: 50%; background: #964101; color: #fff; font-weight: 700; font-size: 16px; border: 2px solid #333; text-align: center;">G</span></td>
+<td style="text-align: center; padding: 2px 4px;"><span style="display: inline-block; width: 38px; height: 38px; line-height: 38px; border-radius: 50%; background: #006b70; color: #fff; font-weight: 700; font-size: 16px; border: 2px solid #333; text-align: center;">C</span></td>
 <td style="padding: 2px 4px;"></td>
 <td style="padding: 2px 4px;"></td>
 <td style="padding: 2px 4px;"></td>
@@ -85,9 +86,6 @@
 <td style="padding: 2px 4px;"></td>
 <td style="padding: 2px 4px;"></td>
 <td style="padding: 2px 4px;"></td>
-<td style="text-align: center; padding: 0 2px; font-size: 75%; vertical-align: bottom;">E<sub>6</sub>
-</td>
-<td style="padding: 2px 4px;"></td>
 <td style="text-align: center; padding: 0 2px; font-size: 75%; vertical-align: bottom;">E<sub>7</sub>
 </td>
 <td style="padding: 2px 4px;"></td>
@@ -95,6 +93,9 @@
 </td>
 <td style="padding: 2px 4px;"></td>
 <td style="text-align: center; padding: 0 2px; font-size: 75%; vertical-align: bottom;">E<sub>9</sub>
+</td>
+<td style="padding: 2px 4px;"></td>
+<td style="text-align: center; padding: 0 2px; font-size: 75%; vertical-align: bottom;">E<sub>10</sub>
 </td>
 <td style="padding: 2px 4px;"></td>
 </tr>
@@ -107,49 +108,49 @@
 <td style="padding: 2px 4px;"></td>
 <td style="padding: 2px 4px;"></td>
 <td style="text-align: center; padding: 2px 2px; font-size: 150%;">&#8600;</td>
-<td style="text-align: center; padding: 2px 4px;"><span style="display: inline-block; width: 38px; height: 38px; line-height: 38px; border-radius: 50%; background: #006c67; color: #fff; font-weight: 700; font-size: 16px; border: 2px solid #333; text-align: center;">K</span></td>
+<td style="text-align: center; padding: 2px 4px;"><span style="display: inline-block; width: 38px; height: 38px; line-height: 38px; border-radius: 50%; background: #9c3151; color: #fff; font-weight: 700; font-size: 16px; border: 2px solid #333; text-align: center;">H</span></td>
 <td style="text-align: center; padding: 2px 2px; font-size: 150%;">&#8594;</td>
-<td style="text-align: center; padding: 2px 4px;"><span style="display: inline-block; width: 38px; height: 38px; line-height: 38px; border-radius: 50%; background: #006884; color: #fff; font-weight: 700; font-size: 16px; border: 2px solid #333; text-align: center;">L</span></td>
+<td style="text-align: center; padding: 2px 4px;"><span style="display: inline-block; width: 38px; height: 38px; line-height: 38px; border-radius: 50%; background: #973f1b; color: #fff; font-weight: 700; font-size: 16px; border: 2px solid #333; text-align: center;">I</span></td>
 <td style="text-align: center; padding: 2px 2px; font-size: 150%;">&#8594;</td>
-<td style="text-align: center; padding: 2px 4px;"><span style="display: inline-block; width: 38px; height: 38px; line-height: 38px; border-radius: 50%; background: #195daf; color: #fff; font-weight: 700; font-size: 16px; border: 2px solid #333; text-align: center;">M</span></td>
+<td style="text-align: center; padding: 2px 4px;"><span style="display: inline-block; width: 38px; height: 38px; line-height: 38px; border-radius: 50%; background: #7e5417; color: #fff; font-weight: 700; font-size: 16px; border: 2px solid #333; text-align: center;">J</span></td>
 <td style="text-align: center; padding: 2px 2px; font-size: 150%;">&#8594;</td>
-<td style="text-align: center; padding: 2px 4px;"><span style="display: inline-block; width: 38px; height: 38px; line-height: 38px; border-radius: 50%; background: #653bc9; color: #fff; font-weight: 700; font-size: 16px; border: 2px solid #333; text-align: center;">N</span></td>
+<td style="text-align: center; padding: 2px 4px;"><span style="display: inline-block; width: 38px; height: 38px; line-height: 38px; border-radius: 50%; background: #676014; color: #fff; font-weight: 700; font-size: 16px; border: 2px solid #333; text-align: center;">K</span></td>
 </tr>
 </table>
-<p>The end product <strong><span style="color: #00703b;">J</span></strong> acts as a feedback inhibitor. <b>Which enzyme is the most likely target of this feedback inhibition?</b></p>
+<p>The end product <strong><span style="color: #676014;">K</span></strong> acts as a feedback inhibitor. <b>Which enzyme is the most likely target of this feedback inhibition?</b></p>
 </div>
 <form>
-<ul id="choices_5a96_be49" class="qti-auto-grid-compact">
+<ul id="choices_f2b5_e227" class="qti-auto-grid-compact">
 <li>
-    <input type="radio" id="option0" name="answer_5a96_be49" data-correct="false"><label for="option0"><span style="font-weight: bold;">A.</span> <span>enzyme E<sub>7</sub></span></label>
+    <input type="radio" id="option0" name="answer_f2b5_e227" data-correct="true"><label for="option0"><span style="font-weight: bold;">A.</span> <span>enzyme E<sub>7</sub></span></label>
   </li>
   <li>
-    <input type="radio" id="option1" name="answer_5a96_be49" data-correct="false"><label for="option1"><span style="font-weight: bold;">B.</span> <span>enzyme E<sub>1</sub></span></label>
+    <input type="radio" id="option1" name="answer_f2b5_e227" data-correct="false"><label for="option1"><span style="font-weight: bold;">B.</span> <span>enzyme E<sub>8</sub></span></label>
   </li>
   <li>
-    <input type="radio" id="option2" name="answer_5a96_be49" data-correct="true"><label for="option2"><span style="font-weight: bold;">C.</span> <span>enzyme E<sub>3</sub></span></label>
+    <input type="radio" id="option2" name="answer_f2b5_e227" data-correct="false"><label for="option2"><span style="font-weight: bold;">C.</span> <span>enzyme E<sub>4</sub></span></label>
   </li>
   <li>
-    <input type="radio" id="option3" name="answer_5a96_be49" data-correct="false"><label for="option3"><span style="font-weight: bold;">D.</span> <span>enzyme E<sub>4</sub></span></label>
+    <input type="radio" id="option3" name="answer_f2b5_e227" data-correct="false"><label for="option3"><span style="font-weight: bold;">D.</span> <span>enzyme E<sub>1</sub></span></label>
   </li>
   <li>
-    <input type="radio" id="option4" name="answer_5a96_be49" data-correct="false"><label for="option4"><span style="font-weight: bold;">E.</span> <span>enzyme E<sub>2</sub></span></label>
+    <input type="radio" id="option4" name="answer_f2b5_e227" data-correct="false"><label for="option4"><span style="font-weight: bold;">E.</span> <span>enzyme E<sub>2</sub></span></label>
   </li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_5a96_be49()">Check Answer</button>
-<div id="result_5a96_be49" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_f2b5_e227()">Check Answer</button>
+<div id="result_f2b5_e227" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </form>
 <br>
 </div><script>
-function checkAnswer_5a96_be49() {
- const options = document.getElementsByName('answer_5a96_be49');
+function checkAnswer_f2b5_e227() {
+ const options = document.getElementsByName('answer_f2b5_e227');
  const correctOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.dataset.correct === 'true' ? option : null);
  }, null);
  const selectedOption = Array.from(options).reduce(function(acc, option) {
    return acc || (option.checked ? option : null);
  }, null);
- const resultDiv = document.getElementById('result_5a96_be49');
+ const resultDiv = document.getElementById('result_f2b5_e227');
  if (selectedOption) {
   if (selectedOption === correctOption) {
    resultDiv.style.color = 'var(--qti-success-fg, #008000)';

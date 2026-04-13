@@ -1,6 +1,6 @@
 # 10: Carbohydrates
 
-Carbohydrate structure, glycosidic bonds, biological roles.
+Students classify monosaccharides using Fischer and Haworth projections, identify anomers and epimers, and analyze glycosidic bond formation in disaccharides.
 
 **LibreTexts reference:** [Unit 3, Chapter 1: Carbohydrates](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/03%3A_Unit_3_-_Macromolecules/3.01%3A_Carbohydrates)
 
