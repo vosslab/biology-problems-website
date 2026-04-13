@@ -5,7 +5,7 @@
 ## DBsubject('Biochemistry')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-02-25')
+## Date('2026-04-13')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -27,71 +27,71 @@ our @ALPHABET = ('A' .. 'Z');
 # ================================
 %match_data = (
   'primary' => [
-    'order of the <span style="color: #e65400; font-weight:700;">amino acids</span> in a<span style="color: #e69100; font-weight:700;">polypeptide chain</span>',
-    'sequence of <span style="color: #e65400; font-weight:700;">amino acids</span> residues in the <span style="color: #b30077; font-weight:700;">protein</span> chain',
-    'formation of <span style="color: #b3b300; font-weight:700;">peptide bonds</span> to make a<span style="color: #e69100; font-weight:700;">polypeptide chain</span>',
-    'intramolecular <span style="color: #b3b300; font-weight:700;">peptide bonds</span> of the linear <span style="color: #e65400; font-weight:700;">amino acid</span>chain',
-    'linear arrangement of the <span style="color: #e65400; font-weight:700;">amino acids</span> connected by the <span style="color: #b3b300; font-weight:700;">peptide bonds</span>',
-    'N-terminal to C-terminal list of <span style="color: #e65400; font-weight:700;">amino acids</span>',
-    'length of the <span style="color: #e65400; font-weight:700;">amino acid</span>chain',
-    '<span style="color: #e65400; font-weight:700;">amino acid</span>sequence in a<span style="color: #e69100; font-weight:700;">polypeptide chain</span>',
-    'linear sequence of <span style="color: #e65400; font-weight:700;">amino acids</span> joined by <span style="color: #b3b300; font-weight:700;">peptide bonds</span>',
-    '<span style="color: #b3b300; font-weight:700;">peptide bonds</span> forming a linear chain of <span style="color: #e65400; font-weight:700;">amino acids</span>',
-    '<span style="color: #e65400; font-weight:700;">amino acid</span>chain length',
+    'order of the <span style="color: #b74300; font-weight:700;">amino acids</span> in a <span style="color: #935d00; font-weight:700;">polypeptide chain</span>',
+    'sequence of <span style="color: #b74300; font-weight:700;">amino acids</span> residues in the <span style="color: #c80085; font-weight:700;">protein</span> chain',
+    'formation of <span style="color: #6c6c00; font-weight:700;">peptide bonds</span> to make a <span style="color: #935d00; font-weight:700;">polypeptide chain</span>',
+    'intramolecular <span style="color: #6c6c00; font-weight:700;">peptide bonds</span> of the linear <span style="color: #b74300; font-weight:700;">amino acid</span>chain',
+    'linear arrangement of the <span style="color: #b74300; font-weight:700;">amino acids</span> connected by the <span style="color: #6c6c00; font-weight:700;">peptide bonds</span>',
+    'N-terminal to C-terminal list of <span style="color: #b74300; font-weight:700;">amino acids</span>',
+    'length of the <span style="color: #b74300; font-weight:700;">amino acid</span>chain',
+    '<span style="color: #b74300; font-weight:700;">amino acid</span>sequence in a <span style="color: #935d00; font-weight:700;">polypeptide chain</span>',
+    'linear sequence of <span style="color: #b74300; font-weight:700;">amino acids</span> joined by <span style="color: #6c6c00; font-weight:700;">peptide bonds</span>',
+    '<span style="color: #6c6c00; font-weight:700;">peptide bonds</span> forming a linear chain of <span style="color: #b74300; font-weight:700;">amino acids</span>',
+    '<span style="color: #b74300; font-weight:700;">amino acid</span>chain length',
   ],
   'secondary' => [
-    'formation of a β-strand within the polypeptide <span style="color: #009900; font-weight:700;">backbone</span>',
-    'formation of a α-helix within the polypeptide <span style="color: #009900; font-weight:700;">backbone</span>',
-    'relative orientation of neighboring <span style="color: #e65400; font-weight:700;">amino acids</span>',
-    '<span style="color: #009900; font-weight:700;">backbone</span> <span style="color: #00b3b3; font-weight:700;">dihedral angles</span>',
-    '<span style="color: #009900; font-weight:700;">backbone</span> <span style="color: #00b38f; font-weight:700;">hydrogen bonding</span> in α-helices',
-    'Ramachandran plot of <span style="color: #00b3b3; font-weight:700;">dihedral angles</span>',
-    '<span style="color: #00b38f; font-weight:700;">hydrogen bonding</span> between nearby <span style="color: #009900; font-weight:700;">backbone</span> atoms in the<span style="color: #e69100; font-weight:700;">polypeptide chain</span>',
-    '<span style="color: #00b38f; font-weight:700;">hydrogen bonding</span> between nearby <span style="color: #009900; font-weight:700;">backbone</span> atoms in a β-sheet',
-    '<span style="color: #b3b300; font-weight:700;">peptide bonds</span> restricting rotation of the <span style="color: #009900; font-weight:700;">backbone</span>',
-    'β-strand locations within polypeptide <span style="color: #009900; font-weight:700;">backbone</span>',
-    'locations of α-helix structures within the <span style="color: #009900; font-weight:700;">backbone</span>',
-    'angular orientation between adjacent <span style="color: #e65400; font-weight:700;">amino acids</span>',
-    'α-helix structures linked by <span style="color: #009900; font-weight:700;">backbone</span> <span style="color: #00b38f; font-weight:700;">hydrogen bonding</span>',
-    'restriction of <span style="color: #009900; font-weight:700;">backbone</span> rotation by <span style="color: #b3b300; font-weight:700;">peptide bonds</span>',
-    'φ and ψ <span style="color: #00b3b3; font-weight:700;">dihedral angles</span>',
+    'formation of a &beta;-strand within the polypeptide <span style="color: #007a00; font-weight:700;">backbone</span>',
+    'formation of a &alpha;-helix within the polypeptide <span style="color: #007a00; font-weight:700;">backbone</span>',
+    'relative orientation of neighboring <span style="color: #b74300; font-weight:700;">amino acids</span>',
+    '<span style="color: #007a00; font-weight:700;">backbone</span> <span style="color: #007576; font-weight:700;">dihedral angles</span>',
+    '<span style="color: #007a00; font-weight:700;">backbone</span> <span style="color: #00775f; font-weight:700;">hydrogen bonding</span> in &alpha;-helices',
+    'Ramachandran plot of <span style="color: #007576; font-weight:700;">dihedral angles</span>',
+    '<span style="color: #00775f; font-weight:700;">hydrogen bonding</span> between nearby <span style="color: #007a00; font-weight:700;">backbone</span> atoms in the <span style="color: #935d00; font-weight:700;">polypeptide chain</span>',
+    '<span style="color: #00775f; font-weight:700;">hydrogen bonding</span> between nearby <span style="color: #007a00; font-weight:700;">backbone</span> atoms in a &beta;-sheet',
+    '<span style="color: #6c6c00; font-weight:700;">peptide bonds</span> restricting rotation of the <span style="color: #007a00; font-weight:700;">backbone</span>',
+    '&beta;-strand locations within polypeptide <span style="color: #007a00; font-weight:700;">backbone</span>',
+    'locations of &alpha;-helix structures within the <span style="color: #007a00; font-weight:700;">backbone</span>',
+    'angular orientation between adjacent <span style="color: #b74300; font-weight:700;">amino acids</span>',
+    '&alpha;-helix structures linked by <span style="color: #007a00; font-weight:700;">backbone</span> <span style="color: #00775f; font-weight:700;">hydrogen bonding</span>',
+    'restriction of <span style="color: #007a00; font-weight:700;">backbone</span> rotation by <span style="color: #6c6c00; font-weight:700;">peptide bonds</span>',
+    '&phi; and &psi; <span style="color: #007576; font-weight:700;">dihedral angles</span>',
   ],
   'tertiary' => [
     'complete three-dimensional conformation',
-    'hydrophobic <span style="color: #0039e6; font-weight:700;">side chain</span><span style="color: #004d99; font-weight:700;">interactions</span>',
-    '<span style="color: #00b38f; font-weight:700;">hydrogen bonding</span> between polar <span style="color: #0039e6; font-weight:700;">side chains</span>',
-    'highest level for a <span style="color: #b30077; font-weight:700;">protein</span> with a single peptide chain',
-    'formation of disulfide bonds by special <span style="color: #0039e6; font-weight:700;">side chains</span>',
-    'disulfide bridges linking distant <span style="color: #e65400; font-weight:700;">amino acids</span> in the same<span style="color: #e69100; font-weight:700;">polypeptide chain</span>',
-    'electrostatic <span style="color: #004d99; font-weight:700;">interactions</span> among charged <span style="color: #0039e6; font-weight:700;">side chains</span>',
-    'ionic bonds between oppositely charged <span style="color: #0039e6; font-weight:700;">side chains</span>',
-    'van der Waals (VDW) <span style="color: #004d99; font-weight:700;">interactions</span> between uncharged <span style="color: #0039e6; font-weight:700;">side chains</span>',
-    '<span style="color: #0039e6; font-weight:700;">side chain</span><span style="color: #00b38f; font-weight:700;">hydrogen bonding</span> between distant <span style="color: #e65400; font-weight:700;">amino acids</span>',
-    'formation of ionic salt bridges by charged <span style="color: #0039e6; font-weight:700;">side chains</span>',
+    'hydrophobic <span style="color: #003fff; font-weight:700;">side chain</span><span style="color: #0067cc; font-weight:700;">interactions</span>',
+    '<span style="color: #00775f; font-weight:700;">hydrogen bonding</span> between polar <span style="color: #003fff; font-weight:700;">side chains</span>',
+    'highest level for a <span style="color: #c80085; font-weight:700;">protein</span> with a single peptide chain',
+    'formation of disulfide bonds by special <span style="color: #003fff; font-weight:700;">side chains</span>',
+    'disulfide bridges linking distant <span style="color: #b74300; font-weight:700;">amino acids</span> in the same <span style="color: #935d00; font-weight:700;">polypeptide chain</span>',
+    'electrostatic <span style="color: #0067cc; font-weight:700;">interactions</span> among charged <span style="color: #003fff; font-weight:700;">side chains</span>',
+    'ionic bonds between oppositely charged <span style="color: #003fff; font-weight:700;">side chains</span>',
+    'van der Waals (VDW) <span style="color: #0067cc; font-weight:700;">interactions</span> between uncharged <span style="color: #003fff; font-weight:700;">side chains</span>',
+    '<span style="color: #003fff; font-weight:700;">side chain</span><span style="color: #00775f; font-weight:700;">hydrogen bonding</span> between distant <span style="color: #b74300; font-weight:700;">amino acids</span>',
+    'formation of ionic salt bridges by charged <span style="color: #003fff; font-weight:700;">side chains</span>',
     'creation of hydrophobic core',
-    'three-dimensional shape of a single<span style="color: #e69100; font-weight:700;">polypeptide chain</span>',
-    'hydrophobic <span style="color: #004d99; font-weight:700;">interactions</span> of <span style="color: #e65400; font-weight:700;">amino acid</span><span style="color: #0039e6; font-weight:700;">side chains</span>',
-    'creation of disulfide bridges by specific <span style="color: #0039e6; font-weight:700;">side chains</span>',
-    'distant <span style="color: #e65400; font-weight:700;">amino acids</span> linked by disulfide bonds',
-    'charged <span style="color: #0039e6; font-weight:700;">side chain</span><span style="color: #004d99; font-weight:700;">interactions</span>',
-    '<span style="color: #0039e6; font-weight:700;">side chains</span> with opposite charges forming ionic bonds',
-    'hydrophobic <span style="color: #0039e6; font-weight:700;">side chain</span>van der Waals (VDW) <span style="color: #004d99; font-weight:700;">interactions</span>',
-    '<span style="color: #00b38f; font-weight:700;">hydrogen bonding</span> between distant <span style="color: #0039e6; font-weight:700;">side chain</span><span style="color: #e65400; font-weight:700;">amino acids</span>',
-    'ionic salt bridge formations between charged <span style="color: #0039e6; font-weight:700;">side chains</span>',
+    'three-dimensional shape of a single <span style="color: #935d00; font-weight:700;">polypeptide chain</span>',
+    'hydrophobic <span style="color: #0067cc; font-weight:700;">interactions</span> of <span style="color: #b74300; font-weight:700;">amino acid</span><span style="color: #003fff; font-weight:700;">side chains</span>',
+    'creation of disulfide bridges by specific <span style="color: #003fff; font-weight:700;">side chains</span>',
+    'distant <span style="color: #b74300; font-weight:700;">amino acids</span> linked by disulfide bonds',
+    'charged <span style="color: #003fff; font-weight:700;">side chain</span><span style="color: #0067cc; font-weight:700;">interactions</span>',
+    '<span style="color: #003fff; font-weight:700;">side chains</span> with opposite charges forming ionic bonds',
+    'hydrophobic <span style="color: #003fff; font-weight:700;">side chain</span>van der Waals (VDW) <span style="color: #0067cc; font-weight:700;">interactions</span>',
+    '<span style="color: #00775f; font-weight:700;">hydrogen bonding</span> between distant <span style="color: #003fff; font-weight:700;">side chain</span><span style="color: #b74300; font-weight:700;">amino acids</span>',
+    'ionic salt bridge formations between charged <span style="color: #003fff; font-weight:700;">side chains</span>',
   ],
   'quaternary' => [
-    'association of two or more <span style="color: #e69100; font-weight:700;">polypeptide chains</span>',
-    'relative orientation of one <span style="color: #b30077; font-weight:700;">protein</span> <span style="color: #cc0066; font-weight:700;">subunits</span>to another <span style="color: #b30077; font-weight:700;">protein</span> subunit',
-    'formation of oligomers from two or more <span style="color: #b30077; font-weight:700;">protein</span> <span style="color: #cc0066; font-weight:700;">subunits</span>',
-    'manner in which <span style="color: #b30077; font-weight:700;">protein</span> <span style="color: #cc0066; font-weight:700;">subunits</span> are arranged in the native <span style="color: #b30077; font-weight:700;">protein</span>',
-    'number and arrangement of multiple folded <span style="color: #b30077; font-weight:700;">protein</span> <span style="color: #cc0066; font-weight:700;">subunits</span>',
-    'way in which the different <span style="color: #b30077; font-weight:700;">protein</span> <span style="color: #cc0066; font-weight:700;">subunits</span> are packed together',
+    'association of two or more <span style="color: #935d00; font-weight:700;">polypeptide chains</span>',
+    'relative orientation of one <span style="color: #c80085; font-weight:700;">protein</span> <span style="color: #cc0066; font-weight:700;">subunits</span>to another <span style="color: #c80085; font-weight:700;">protein</span> subunit',
+    'formation of oligomers from two or more <span style="color: #c80085; font-weight:700;">protein</span> <span style="color: #cc0066; font-weight:700;">subunits</span>',
+    'manner in which <span style="color: #c80085; font-weight:700;">protein</span> <span style="color: #cc0066; font-weight:700;">subunits</span> are arranged in the native <span style="color: #c80085; font-weight:700;">protein</span>',
+    'number and arrangement of multiple folded <span style="color: #c80085; font-weight:700;">protein</span> <span style="color: #cc0066; font-weight:700;">subunits</span>',
+    'way in which the different <span style="color: #c80085; font-weight:700;">protein</span> <span style="color: #cc0066; font-weight:700;">subunits</span> are packed together',
     'dimers, trimers, tetramers, and pentamers',
     'homo- and hetero-oligomers',
-    'assembly of multiple <span style="color: #e69100; font-weight:700;">polypeptide chains</span> into a <span style="color: #b30077; font-weight:700;">protein</span> complex',
-    'arrangement of many <span style="color: #b30077; font-weight:700;">protein</span> domains',
-    'arrangement of <span style="color: #cc0066; font-weight:700;">subunits</span> into a <span style="color: #b30077; font-weight:700;">protein</span> complex',
-    'organization and quantity of folded <span style="color: #e69100; font-weight:700;">polypeptide chains</span>',
+    'assembly of multiple <span style="color: #935d00; font-weight:700;">polypeptide chains</span> into a <span style="color: #c80085; font-weight:700;">protein</span> complex',
+    'arrangement of many <span style="color: #c80085; font-weight:700;">protein</span> domains',
+    'arrangement of <span style="color: #cc0066; font-weight:700;">subunits</span> into a <span style="color: #c80085; font-weight:700;">protein</span> complex',
+    'organization and quantity of folded <span style="color: #935d00; font-weight:700;">polypeptide chains</span>',
   ],
 );
 
@@ -145,10 +145,10 @@ push(@answers, (map { $_->[1] } @q_and_a));
 # HTML-safe answer labels
 # -------------------------------
 %answer_html = (
-  'primary' => '<span style="color: #e60000; font-weight:700;">primary</span>',
-  'secondary' => '<span style="color: #59b300; font-weight:700;">secondary</span>',
-  'tertiary' => '<span style="color: #0a9bf5; font-weight:700;">tertiary</span>',
-  'quaternary' => '<span style="color: #7b12a1; font-weight:700;">quaternary</span>',
+  'primary' => '<span style="color: #d40000; font-weight:700;">primary</span>',
+  'secondary' => '<span style="color: #3b7600; font-weight:700;">secondary</span>',
+  'tertiary' => '<span style="color: #076dad; font-weight:700;">tertiary</span>',
+  'quaternary' => '<span style="color: #a719db; font-weight:700;">quaternary</span>',
 );
 
 @answers_sorted_html = map { $answer_html{$_} || $_ } @answers_sorted;
@@ -193,9 +193,12 @@ HEADER_TEXT(<<END_STYLE);
 </style>
 END_STYLE
 
+$question_text = 'Match each of the following levels of protein structure with their corresponding descriptions.';
+$note_text = 'Note: Each choice will be used exactly once.';
+
 BEGIN_PGML
-Match each of the following levels of protein structure with their corresponding descriptions.
-Note: Each choice will be used exactly once.
+[$question_text]*
+[$note_text]*
 
 [@ MODES(HTML => '<div class="two-column"><div>') @]*
 [@ join(

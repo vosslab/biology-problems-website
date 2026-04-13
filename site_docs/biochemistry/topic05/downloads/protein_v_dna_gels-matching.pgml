@@ -5,7 +5,7 @@
 ## DBsubject('Laboratory Techniques')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-02-25')
+## Date('2026-04-13')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -28,29 +28,29 @@ our @ALPHABET = ('A' .. 'Z');
 %match_data = (
   'Only proteins' => [
     'sodium dodecyl sulfate (SDS)',
-    '<span style="color: #b3b300; font-weight:700;">dithiothreitol (DTT)</span>',
-    '<span style="color: #59b300; font-weight:700;">β-mercaptoethanol (βME)</span>',
-    '<span style="color: #0039e6; font-weight:700;">Coomassie blue stain</span>',
-    '<span style="color: #00b38f; font-weight:700;">isoelectric focusing</span>',
-    '<span style="color: #e69100; font-weight:700;">heating to almost boiling (95°C)</span>',
-    '<span style="color: #004d99; font-weight:700;">stain / destaining process</span>',
+    '<span style="color: #6c6c00; font-weight:700;">dithiothreitol (DTT)</span>',
+    '<span style="color: #3b7600; font-weight:700;">&beta;-mercaptoethanol (&beta;ME)</span>',
+    '<span style="color: #003fff; font-weight:700;">Coomassie blue stain</span>',
+    '<span style="color: #00775f; font-weight:700;">isoelectric focusing</span>',
+    '<span style="color: #935d00; font-weight:700;">heating to almost boiling (95&deg;C)</span>',
+    '<span style="color: #0067cc; font-weight:700;">stain / destaining process</span>',
     'native gels',
-    '<span style="color: #00b38f; font-weight:700;">2D gels</span>',
-    '<span style="color: #00b38f; font-weight:700;">two-dimensional gels</span>',
+    '<span style="color: #00775f; font-weight:700;">2D gels</span>',
+    '<span style="color: #00775f; font-weight:700;">two-dimensional gels</span>',
   ],
   'Only nucleotides' => [
     'agarose gels',
-    '<span style="color: #b30077; font-weight:700;">ultraviolet light (UV) visualization</span>',
+    '<span style="color: #c80085; font-weight:700;">ultraviolet light (UV) visualization</span>',
     '<span style="color: #cc0066; font-weight:700;">ethidium bromide (EtBr) stain</span>',
-    '<span style="color: #009900; font-weight:700;">SYBR safe stain</span>',
-    '<span style="color: #e60000; font-weight:700;">gel red stain</span>',
+    '<span style="color: #007a00; font-weight:700;">SYBR safe stain</span>',
+    '<span style="color: #d40000; font-weight:700;">gel red stain</span>',
     'horizontally run gel',
   ],
   'Both protein and nucleotide' => [
     'PAGE',
     'acrylamide',
     'polyacrylamide gel electrophoresis',
-    '<span style="color: #0a9bf5; font-weight:700;">electrical fields</span>',
+    '<span style="color: #076dad; font-weight:700;">electrical fields</span>',
     'vertically run gel',
   ],
 );
@@ -105,9 +105,9 @@ push(@answers, (map { $_->[1] } @q_and_a));
 # HTML-safe answer labels
 # -------------------------------
 %answer_html = (
-  'Only proteins' => '<span style="color: #e65400; font-weight:700;">Only proteins</span>',
-  'Only nucleotides' => '<span style="color: #00b3b3; font-weight:700;">Only nucleotides</span>',
-  'Both protein and nucleotide' => '<span style="color: #7b12a1; font-weight:700;">Both protein and nucleotide</span>',
+  'Only proteins' => '<span style="color: #b74300; font-weight:700;">Only proteins</span>',
+  'Only nucleotides' => '<span style="color: #007576; font-weight:700;">Only nucleotides</span>',
+  'Both protein and nucleotide' => '<span style="color: #a719db; font-weight:700;">Both protein and nucleotide</span>',
 );
 
 @answers_sorted_html = map { $answer_html{$_} || $_ } @answers_sorted;
@@ -152,9 +152,12 @@ HEADER_TEXT(<<END_STYLE);
 </style>
 END_STYLE
 
+$question_text = 'Match each of the following types of macromolecules with their corresponding gel components or processes.';
+$note_text = 'Note: Each choice will be used exactly once.';
+
 BEGIN_PGML
-Match each of the following types of macromolecules with their corresponding gel components or processes.
-Note: Each choice will be used exactly once.
+[$question_text]*
+[$note_text]*
 
 [@ MODES(HTML => '<div class="two-column"><div>') @]*
 [@ join(

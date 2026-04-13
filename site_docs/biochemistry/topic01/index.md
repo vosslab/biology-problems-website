@@ -229,6 +229,9 @@ Molecular design of life, major elements, and biomacromolecules.
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-which_hydrophobic-simple.html', '_blank')" title="View human_readable-which_hydrophobic-simple.html" aria-label="Click to view the Human-Readable TXT file (human_readable-which_hydrophobic-simple.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/which_hydrophobic-simple.pgml" download title="Download which_hydrophobic-simple.pgml" aria-label="Click to download the WeBWorK PGML file (which_hydrophobic-simple.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
