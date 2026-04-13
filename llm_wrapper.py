@@ -131,8 +131,8 @@ def select_ollama_model() -> str:
 	available = list_ollama_models()
 
 	model_name = "llama3.2:1b-instruct-q4_K_M"
-	if vram_size_gb > 40:
-		model_name = "gpt-oss:20b"
+	if vram_size_gb > 33:
+		model_name = "gemma4:e4b-it-q8_0"
 	elif vram_size_gb > 14:
 		model_name = "phi4:14b-q4_K_M"
 	elif vram_size_gb > 4:
