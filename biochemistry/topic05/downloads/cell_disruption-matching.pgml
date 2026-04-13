@@ -5,7 +5,7 @@
 ## DBsubject('Laboratory Techniques')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-02-25')
+## Date('2026-04-13')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -27,79 +27,79 @@ our @ALPHABET = ('A' .. 'Z');
 # ================================
 %match_data = (
   'Enzymatic Method' => [
-    'Chemical reactions digest the <span style="color: #e65400; font-weight:700;">cell</span>wall.',
-    'Cells are suspended in buffers containing protein catalysts that digest the <span style="color: #e65400; font-weight:700;">cell</span>wall.',
-    'Digestive protein catalysts digest and decompose the microbial <span style="color: #e65400; font-weight:700;">cell</span>wall.',
-    'Lysozyme is commonly used to digest the <span style="color: #e65400; font-weight:700;">cell</span>wall of gram-positive bacteria.',
-    'Digestion of the <span style="color: #e65400; font-weight:700;">cell</span>wall by chemical reactions.',
+    'Chemical reactions digest the <span style="color: #b74300; font-weight:700;">cell</span>wall.',
+    'Cells are suspended in buffers containing protein catalysts that digest the <span style="color: #b74300; font-weight:700;">cell</span>wall.',
+    'Digestive protein catalysts digest and decompose the microbial <span style="color: #b74300; font-weight:700;">cell</span>wall.',
+    'Lysozyme is commonly used to digest the <span style="color: #b74300; font-weight:700;">cell</span>wall of gram-positive bacteria.',
+    'Digestion of the <span style="color: #b74300; font-weight:700;">cell</span>wall by chemical reactions.',
     'Cells wall digestion by protein catalysts.',
-    'Protein catalysts decompose the microbial <span style="color: #e65400; font-weight:700;">cell</span>wall.',
-    'Lysozyme digests gram-positive bacterial <span style="color: #e65400; font-weight:700;">cell</span>walls.',
+    'Protein catalysts decompose the microbial <span style="color: #b74300; font-weight:700;">cell</span>wall.',
+    'Lysozyme digests gram-positive bacterial <span style="color: #b74300; font-weight:700;">cell</span>walls.',
   ],
   'Bead-beating' => [
     'Tiny glass particles are mixed and stirred to a high level of agitation.',
     'This technique involves using glass or metal particles to apply gentle abrasion while vortexing them.',
-    'Small glass particles are placed into a blender and act like bullets smashing the <span style="color: #e60000; font-weight:700;">cells</span>.',
-    'Small glass or ceramic particles are used to crack open <span style="color: #e60000; font-weight:700;">cells</span>.',
-    'Gentle abrasion is applied to <span style="color: #e60000; font-weight:700;">cells</span> through vortexing with glass or metal particles.',
-    'Glass or ceramic particles stirred at high speeds crack <span style="color: #e60000; font-weight:700;">cells</span> open.',
+    'Small glass particles are placed into a blender and act like bullets smashing the <span style="color: #d40000; font-weight:700;">cells</span>.',
+    'Small glass or ceramic particles are used to crack open <span style="color: #d40000; font-weight:700;">cells</span>.',
+    'Gentle abrasion is applied to <span style="color: #d40000; font-weight:700;">cells</span> through vortexing with glass or metal particles.',
+    'Glass or ceramic particles stirred at high speeds crack <span style="color: #d40000; font-weight:700;">cells</span> open.',
   ],
   'Sonication' => [
-    'This technique applies high-frequency sound waves to shatter <span style="color: #e60000; font-weight:700;">cells</span>.',
+    'This technique applies high-frequency sound waves to shatter <span style="color: #d40000; font-weight:700;">cells</span>.',
     'This technique uses short bursts of ultrasonic waves to disrupt the tissue.',
-    'High-frequency sound waves cause disruption of <span style="color: #e60000; font-weight:700;">cells</span> by shear force and tension.',
-    'Ultrasonic sound energy is used to cause air bubbles in a liquid to implode, damaging the <span style="color: #e60000; font-weight:700;">cells</span>.',
+    'High-frequency sound waves cause disruption of <span style="color: #d40000; font-weight:700;">cells</span> by shear force and tension.',
+    'Ultrasonic sound energy is used to cause air bubbles in a liquid to implode, damaging the <span style="color: #d40000; font-weight:700;">cells</span>.',
     'High-frequency sound waves produce tiny bubbles that explode, producing a local shockwave.',
-    'This technique uses the forces of ultrasonic waves to rupture <span style="color: #e60000; font-weight:700;">cells</span>.',
+    'This technique uses the forces of ultrasonic waves to rupture <span style="color: #d40000; font-weight:700;">cells</span>.',
     'Ultrasonic waves in short bursts are employed to disintegrate tissue.',
     'Cells are disrupted by the shear force and tension caused by high-frequency sound waves.',
-    'Ultrasonic waves rupture <span style="color: #e65400; font-weight:700;">cell</span>walls.',
-    'Shear force from high-frequency waves disrupts <span style="color: #e60000; font-weight:700;">cells</span>.',
+    'Ultrasonic waves rupture <span style="color: #b74300; font-weight:700;">cell</span>walls.',
+    'Shear force from high-frequency waves disrupts <span style="color: #d40000; font-weight:700;">cells</span>.',
   ],
   'Freeze-thaw' => [
-    'This technique uses extremely cold temperatures and grinding to pulverize <span style="color: #e60000; font-weight:700;">cells</span>.',
-    'Under cold temperatures, the water inside the <span style="color: #e60000; font-weight:700;">cells</span> expands into ice, causing the <span style="color: #e60000; font-weight:700;">cells</span> to burst open.',
+    'This technique uses extremely cold temperatures and grinding to pulverize <span style="color: #d40000; font-weight:700;">cells</span>.',
+    'Under cold temperatures, the water inside the <span style="color: #d40000; font-weight:700;">cells</span> expands into ice, causing the <span style="color: #d40000; font-weight:700;">cells</span> to burst open.',
     'Cell suspensions are subjected to variable temperatures, resulting in rupture of the walls.',
-    'Cold temperatures form ice crystals, which expand, ultimately causing the <span style="color: #e65400; font-weight:700;">cell</span>wall to rupture.',
+    'Cold temperatures form ice crystals, which expand, ultimately causing the <span style="color: #b74300; font-weight:700;">cell</span>wall to rupture.',
     'Cells are pulverized through a combination of extreme cold.',
-    'The <span style="color: #e65400; font-weight:700;">cell</span>walls rupture due to extreme temperature variations.',
-    'Extreme temperature variations cause <span style="color: #e65400; font-weight:700;">cell</span>wall rupture.',
-    'Ice crystal expansion leads to <span style="color: #e65400; font-weight:700;">cell</span>wall disruption.',
+    'The <span style="color: #b74300; font-weight:700;">cell</span>walls rupture due to extreme temperature variations.',
+    'Extreme temperature variations cause <span style="color: #b74300; font-weight:700;">cell</span>wall rupture.',
+    'Ice crystal expansion leads to <span style="color: #b74300; font-weight:700;">cell</span>wall disruption.',
   ],
-  'Mortar & Pestle' => [
+  'Mortar &amp; Pestle' => [
     'Samples are ground by hand to break apart into small pieces.',
     'This is laborious manual work that can take several minutes.',
-    'Grinding of the <span style="color: #e60000; font-weight:700;">cells</span> by hand to disrupt the <span style="color: #e65400; font-weight:700;">cell</span>walls.',
-    'The <span style="color: #e60000; font-weight:700;">cells</span> are disrupted by hand grinding them.',
-    'Manual grinding of <span style="color: #e60000; font-weight:700;">cells</span> that can take several minutes."',
+    'Grinding of the <span style="color: #d40000; font-weight:700;">cells</span> by hand to disrupt the <span style="color: #b74300; font-weight:700;">cell</span>walls.',
+    'The <span style="color: #d40000; font-weight:700;">cells</span> are disrupted by hand grinding them.',
+    'Manual grinding of <span style="color: #d40000; font-weight:700;">cells</span> that can take several minutes."',
   ],
   'Dounce Homogenizer' => [
-    'Handheld device that spins in a tube to smash <span style="color: #e60000; font-weight:700;">cells</span>.',
+    'Handheld device that spins in a tube to smash <span style="color: #d40000; font-weight:700;">cells</span>.',
     'Handheld cylindrical glass tube and a spinning pestle that has a tight fit within the shaft.',
     'Cells are smashed using a spinning handheld device in a tube.',
-    'A spinning handheld device smashes <span style="color: #e60000; font-weight:700;">cells</span> in a tube.',
+    'A spinning handheld device smashes <span style="color: #d40000; font-weight:700;">cells</span> in a tube.',
   ],
   'Mechanical Homogenizer' => [
-    'Drill-like device with spinning rotor blades to shear <span style="color: #e60000; font-weight:700;">cells</span> apart.',
+    'Drill-like device with spinning rotor blades to shear <span style="color: #d40000; font-weight:700;">cells</span> apart.',
     'Consists of a fast-spinning inner rotor with a stationary outer stator to produce shearing forces.',
-    'Motorized device with rotating blades that shear <span style="color: #e60000; font-weight:700;">cells</span> apart.',
-    'Shearing forces from spinning blades break <span style="color: #e60000; font-weight:700;">cells</span> apart.',
-    'Spinning rotor blades shear the <span style="color: #e65400; font-weight:700;">cell</span>walls.',
+    'Motorized device with rotating blades that shear <span style="color: #d40000; font-weight:700;">cells</span> apart.',
+    'Shearing forces from spinning blades break <span style="color: #d40000; font-weight:700;">cells</span> apart.',
+    'Spinning rotor blades shear the <span style="color: #b74300; font-weight:700;">cell</span>walls.',
   ],
   'French Press' => [
-    'A hydraulic piston within a cylinder forces <span style="color: #e60000; font-weight:700;">cells</span> through a small hole using high pressure.',
+    'A hydraulic piston within a cylinder forces <span style="color: #d40000; font-weight:700;">cells</span> through a small hole using high pressure.',
     'A hydraulic press drives a piston to squeeze the sample through a needle valve.',
     'Cell suspension is forced through a narrow valve using a hydraulic piston.',
     'Cells are pushed through a small hole using high pressure from a hydraulic piston.',
     'Cells are forced through a tiny hole by a high-pressure hydraulic piston.',
-    'High-pressure hydraulic piston forces <span style="color: #e60000; font-weight:700;">cells</span> through a small hole.',
+    'High-pressure hydraulic piston forces <span style="color: #d40000; font-weight:700;">cells</span> through a small hole.',
   ],
   'Microfluidizer' => [
-    'A high-pressure pump pushes <span style="color: #e60000; font-weight:700;">cells</span> through a Z-shaped interaction chamber.',
+    'A high-pressure pump pushes <span style="color: #d40000; font-weight:700;">cells</span> through a Z-shaped interaction chamber.',
     'Uses a pump and a Z-shaped interaction chamber to create high pressures.',
     'High pressures are generated using a Z-shaped chamber and a pump.',
-    'A Z-shaped interaction chamber and pump work in tandem to exert high pressures on <span style="color: #e60000; font-weight:700;">cells</span>.',
-    'Z-shaped chamber and pump create high pressure to disrupt <span style="color: #e60000; font-weight:700;">cells</span>.',
+    'A Z-shaped interaction chamber and pump work in tandem to exert high pressures on <span style="color: #d40000; font-weight:700;">cells</span>.',
+    'Z-shaped chamber and pump create high pressure to disrupt <span style="color: #d40000; font-weight:700;">cells</span>.',
     'Cells are pushed through a Z-shaped chamber using a high-pressure pump.',
   ],
   'High-throughput Homogenizer' => [
@@ -185,16 +185,16 @@ push(@answers, (map { $_->[1] } @q_and_a));
 # HTML-safe answer labels
 # -------------------------------
 %answer_html = (
-  'Enzymatic Method' => '<span style="color: #e69100; font-weight:700;">Enzymatic Method</span>',
-  'Bead-beating' => '<span style="color: #b3b300; font-weight:700;">Bead-beating</span>',
-  'Sonication' => '<span style="color: #59b300; font-weight:700;">Sonication</span>',
-  'Freeze-thaw' => '<span style="color: #009900; font-weight:700;">Freeze-thaw</span>',
-  'Mortar & Pestle' => '<span style="color: #00b38f; font-weight:700;">Mortar &amp; Pestle</span>',
-  'Dounce Homogenizer' => '<span style="color: #00b3b3; font-weight:700;">Dounce Homogenizer</span>',
-  'Mechanical Homogenizer' => '<span style="color: #0a9bf5; font-weight:700;">Mechanical Homogenizer</span>',
-  'French Press' => '<span style="color: #0039e6; font-weight:700;">French Press</span>',
-  'Microfluidizer' => '<span style="color: #004d99; font-weight:700;">Microfluidizer</span>',
-  'High-throughput Homogenizer' => '<span style="color: #7b12a1; font-weight:700;">High-throughput Homogenizer</span>',
+  'Enzymatic Method' => '<span style="color: #935d00; font-weight:700;">Enzymatic Method</span>',
+  'Bead-beating' => '<span style="color: #6c6c00; font-weight:700;">Bead-beating</span>',
+  'Sonication' => '<span style="color: #3b7600; font-weight:700;">Sonication</span>',
+  'Freeze-thaw' => '<span style="color: #007a00; font-weight:700;">Freeze-thaw</span>',
+  'Mortar &amp; Pestle' => '<span style="color: #00775f; font-weight:700;">Mortar &amp; Pestle</span>',
+  'Dounce Homogenizer' => '<span style="color: #007576; font-weight:700;">Dounce Homogenizer</span>',
+  'Mechanical Homogenizer' => '<span style="color: #076dad; font-weight:700;">Mechanical Homogenizer</span>',
+  'French Press' => '<span style="color: #003fff; font-weight:700;">French Press</span>',
+  'Microfluidizer' => '<span style="color: #0067cc; font-weight:700;">Microfluidizer</span>',
+  'High-throughput Homogenizer' => '<span style="color: #a719db; font-weight:700;">High-throughput Homogenizer</span>',
 );
 
 @answers_sorted_html = map { $answer_html{$_} || $_ } @answers_sorted;
@@ -239,9 +239,12 @@ HEADER_TEXT(<<END_STYLE);
 </style>
 END_STYLE
 
+$question_text = 'Match each of the following cell disruption techniques with their corresponding descriptions.';
+$note_text = 'Note: Each choice will be used exactly once.';
+
 BEGIN_PGML
-Match each of the following cell disruption techniques with their corresponding descriptions.
-Note: Each choice will be used exactly once.
+[$question_text]*
+[$note_text]*
 
 [@ MODES(HTML => '<div class="two-column"><div>') @]*
 [@ join(

@@ -1,0 +1,142 @@
+<script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
+<div class="qti-selftest">
+<div id="question_html_9ddb_2438">
+<div id="statement_text_9ddb_2438">
+<p><b>Two-Sample Test of Shannon Diversity: 2014 vs 2024</b><br>Use a one tailed Welch two sample t test for H1: mean_2024 &lt; mean_2014.<br>Assume unequal variances.<br>Sample Data Table:<br><em>Copy the table rows and use regular paste (Ctrl-V or &#8984;-V) into Google Sheets.</em></p>
+<table border="1" cellpadding="3" style="border-collapse:collapse;">
+<tr>
+<th style="text-align:center;">Sample<br>Location</th>
+<th style="text-align:center;">2014<br>Shannon<br>Index</th>
+<th style="text-align:center;">2024<br>Shannon<br>Index</th>
+</tr>
+<tr>
+<td>Andrews Park</td>
+<td style="text-align:right;">4.39</td>
+<td style="text-align:right;">3.00</td>
+</tr>
+<tr>
+<td>Busse Lake</td>
+<td style="text-align:right;">3.24</td>
+<td style="text-align:right;">3.66</td>
+</tr>
+<tr>
+<td>Debra Park</td>
+<td style="text-align:right;">4.32</td>
+<td style="text-align:right;">3.70</td>
+</tr>
+<tr>
+<td>Elk Pasture</td>
+<td style="text-align:right;">3.29</td>
+<td style="text-align:right;">3.65</td>
+</tr>
+<tr>
+<td>Forest Central Grove</td>
+<td style="text-align:right;">4.09</td>
+<td style="text-align:right;">3.25</td>
+</tr>
+<tr>
+<td>Forest North Grove</td>
+<td style="text-align:right;">3.26</td>
+<td style="text-align:right;">4.67</td>
+</tr>
+<tr>
+<td>Forest West Grove</td>
+<td style="text-align:right;">4.86</td>
+<td style="text-align:right;">3.89</td>
+</tr>
+<tr>
+<td>Marshall Park</td>
+<td style="text-align:right;">4.71</td>
+<td style="text-align:right;">4.15</td>
+</tr>
+<tr>
+<td>Model Airplane Field</td>
+<td style="text-align:right;">3.54</td>
+<td style="text-align:right;">4.63</td>
+</tr>
+<tr>
+<td>Nature Preserve</td>
+<td style="text-align:right;">3.71</td>
+<td style="text-align:right;">3.75</td>
+</tr>
+<tr>
+<td>Ned Brown Meadow</td>
+<td style="text-align:right;">3.69</td>
+<td style="text-align:right;">2.34</td>
+</tr>
+<tr>
+<td>North Pool</td>
+<td style="text-align:right;">3.51</td>
+<td style="text-align:right;">2.98</td>
+</tr>
+<tr>
+<td>Osborn Park</td>
+<td style="text-align:right;">3.82</td>
+<td style="text-align:right;">3.38</td>
+</tr>
+<tr>
+<td>Wildlife Refuge</td>
+<td style="text-align:right;">3.96</td>
+<td style="text-align:right;">4.50</td>
+</tr>
+<tr>
+<td>Woodland Meadow</td>
+<td style="text-align:right;">3.81</td>
+<td style="text-align:right;">3.55</td>
+</tr>
+</table>
+<p>Alternate Copyable Format:<br><em>Copy this text and use <strong>Data &#8594; Split text to columns &#8594; Comma</strong> in Google Sheets.</em><br><span style="font-family: monospace; background-color:#eee;">Sample Location,2014 Shannon Index,2024 Shannon Index<br>Andrews Park,4.39,3.00<br>Busse Lake,3.24,3.66<br>Debra Park,4.32,3.70<br>Elk Pasture,3.29,3.65<br>Forest Central Grove,4.09,3.25<br>Forest North Grove,3.26,4.67<br>Forest West Grove,4.86,3.89<br>Marshall Park,4.71,4.15<br>Model Airplane Field,3.54,4.63<br>Nature Preserve,3.71,3.75<br>Ned Brown Meadow,3.69,2.34<br>North Pool,3.51,2.98<br>Osborn Park,3.82,3.38<br>Wildlife Refuge,3.96,4.50<br>Woodland Meadow,3.81,3.55<br></span><br>Compute the p value in Google Sheets using the tutorial: <a href="https://docs.google.com/document/d/1DiSYMwPhs8tmWQMLqQwLGHBssy12o-pYzyUT1qIoXcU/edit" target="_blank" rel="noopener">link here</a>.<br>Enter the p value as a decimal between 0 and 1.</p>
+</div>
+<div>
+<input type="text" class="qti-input" id="num_input_9ddb_2438" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Enter a number"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_9ddb_2438()">Check Answer</button>
+<div id="result_9ddb_2438" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+</div>
+<br>
+</div><script>
+const numAnswer_9ddb_2438 = 0.16983974;
+const numTolerance_9ddb_2438 = 0.0017;
+function checkAnswer_9ddb_2438() {
+  const inputEl = document.getElementById('num_input_9ddb_2438');
+  if (!inputEl) { return; }
+  const valStr = inputEl.value.trim();
+  const resultDiv = document.getElementById('result_9ddb_2438');
+  if (valStr === '') {
+    resultDiv.style.color = 'inherit';
+    resultDiv.textContent = 'Please enter a value.';
+    return;
+  }
+  const userVal = Number(valStr);
+  if (Number.isNaN(userVal)) {
+    resultDiv.style.color = 'inherit';
+    resultDiv.textContent = 'Please enter a valid number.';
+    return;
+  }
+  const lower = numAnswer_9ddb_2438 - numTolerance_9ddb_2438;
+  const upper = numAnswer_9ddb_2438 + numTolerance_9ddb_2438;
+  const isCorrect = (userVal >= lower && userVal <= upper);
+  if (isCorrect) {
+    resultDiv.style.color = 'var(--qti-success-fg, #008000)';
+    resultDiv.textContent = 'CORRECT';
+  } else {
+    resultDiv.style.color = 'var(--qti-error-fg, #9b1b1b)';
+    if (userVal > upper) {
+      resultDiv.style.color = 'var(--qti-error-fg, #9b1b1b)';
+      resultDiv.textContent = 'Too high. Try again.';
+    } else if (userVal < lower) {
+      resultDiv.style.color = 'var(--qti-warning-fg, #b37100)';
+      resultDiv.textContent = 'Too low. Try again.';
+    } else {
+      resultDiv.textContent = 'Incorrect. Try again.';
+    }
+  }
+}
+document.addEventListener('DOMContentLoaded', function() {
+  const inputEl = document.getElementById('num_input_9ddb_2438');
+  if (!inputEl) return;
+  inputEl.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') { e.preventDefault(); checkAnswer_9ddb_2438(); }
+  });
+});
+</script>
+
+</div>

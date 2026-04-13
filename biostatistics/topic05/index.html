@@ -1,0 +1,2333 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>5: Hypothesis Testing - Biology Problems OER</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/custom.css">
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/daily_puzzle.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="lime">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#5-hypothesis-testing" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Biology Problems OER" class="md-header__button md-logo" aria-label="Biology Problems OER" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Biology Problems OER
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              5: Hypothesis Testing
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="lime"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="green" data-md-color-accent="lime"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Biology Problems OER" class="md-nav__button md-logo" aria-label="Biology Problems OER" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Biology Problems OER
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <i class='fa fa-home'></i> Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <i class='fa fa-puzzle-piece'></i> Daily Puzzles
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    <i class='fa fa-puzzle-piece'></i> Daily Puzzles
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../daily_puzzles/peptidyle/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <i class='fa fa-dice-five'></i> Peptidyle
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../daily_puzzles/deletion_mutants/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <i class='fa fa-dna'></i> Deletion mutants
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../daily_puzzles/mutant_screen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <i class='fa fa-flask'></i> Mutant screen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../daily_puzzles/biomacromolecule/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <i class='fa fa-sitemap'></i> Biomacromolecules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../biochemistry/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🧪 Biochemistry
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../genetics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🪰 Genetics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../laboratory/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🔬 Laboratory
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../molecular_biology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🧬 Molecular Biology
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🎲 Biostatistics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../other/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🔎 Other
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <i class='fa fa-book-open'></i> Tutorials
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    <i class='fa fa-book-open'></i> Tutorials
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    List of Tutorials
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/bbq_tutorial/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <i class='fa fa-chalkboard'></i> Blackboard BBQ Text File Upload
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/bbq_ultra_tutorial/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <i class='fa fa-chalkboard'></i> Blackboard Ultra QTI .zip Import Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutorials/canvas_tutorial/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <i class='fa fa-chalkboard'></i> Canvas QTI .zip Import Guide
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../author/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <i class='fa fa-user-tie'></i> Author
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    <i class='fa fa-file-contract'></i> License
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#calculating-p-value-for-two-sample-t-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Calculating p-value for Two-Sample t-Test
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#determining-differences-in-diversity-using-anova" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Determining Differences in Diversity Using ANOVA
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#determining-statistical-significance-using-two-sample-f-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Determining Statistical Significance Using Two-Sample F-Test
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#determining-significance-using-two-sample-t-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Determining Significance Using Two-Sample T-Test
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#calculating-chi-square-value-for-phenotype-ratios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Calculating Chi-Square Value for Phenotype Ratios
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#determining-hypothesis-acceptance-using-chi-squared-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Determining Hypothesis Acceptance Using Chi-Squared Test
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#flaws-in-statistical-hypothesis-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Flaws in Statistical Hypothesis Testing
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ...
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="5-hypothesis-testing">5: Hypothesis Testing</h1>
+<p>Students formulate null and alternative hypotheses, interpret p-values and significance levels, and perform t-tests and ANOVA.</p>
+<h2 id="calculating-p-value-for-two-sample-t-test">Calculating p-value for Two-Sample t-Test</h2>
+<div id="babies_two_sample_t_test-tails1-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-babies_two_sample_t_test-tails1-questions.txt" download title="Download bbq-babies_two_sample_t_test-tails1-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-babies_two_sample_t_test-tails1-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-babies_two_sample_t_test-tails1.zip" download title="Download blackboard_qti_v2_1-babies_two_sample_t_test-tails1.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-babies_two_sample_t_test-tails1.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-babies_two_sample_t_test-tails1.zip" download title="Download canvas_qti_v1_2-babies_two_sample_t_test-tails1.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-babies_two_sample_t_test-tails1.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-babies_two_sample_t_test-tails1.html', '_blank')" title="View human_readable-babies_two_sample_t_test-tails1.html" aria-label="Click to view the Human-Readable TXT file (human_readable-babies_two_sample_t_test-tails1.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div>
+<details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Calculating p-value for Two-Sample t-Test
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
+  <div class="qti-selftest">
+  <div id="question_html_1348_97c4">
+  <div id="statement_text_1348_97c4">
+  <p><b>Two-Sample T-Test Scenario</b><br>Previously, you compared newborn weights at Joe's Hospital of Fried Foods to the national average (7.5 lbs) using a one-sample t-test. Now, Joe faces a challenge from Alex, CEO of Green Veggies Health Center, who believes her babies are just as heavy as Joe's fried-food babies.<br>Joe's Hospital of Fried Foods (n=34) and Green Veggies Health Center (n=28) each recorded the weights of newborns this month. Joe believes his hospital's babies weigh more on average than those from Green Veggies.<br>Use a one tailed two sample t test for H1: &#956;<sub>Joe</sub> &gt; &#956;<sub>Veggies</sub>.<br>Assume unequal variances (Welch's t test).</p>
+  <table style="border-collapse:collapse;"><tr>
+  <td style="vertical-align:top; padding-right:20px;">
+  <b>Joe's Hospital (lbs):</b><br><span style="font-family:monospace; background-color:#eee; white-space:pre;">8.2<br>5.4<br>7.3<br>7.1<br>8.3<br>7.9<br>6.4<br>6.5<br>6.8<br>11.4<br>5.9<br>9.3<br>6.2<br>7.1<br>6.5<br>9.4<br>7.4<br>6.6<br>5.7<br>8.1<br>6.5<br>8.4<br>6.2<br>8.4<br>7.4<br>7.7<br>8.1<br>4.8<br>9.0<br>6.9<br>8.2<br>7.0<br>6.2<br>10.0</span>
+  </td>
+  <td style="vertical-align:top;">
+  <b>Green Veggies (lbs):</b><br><span style="font-family:monospace; background-color:#eee; white-space:pre;">7.6<br>8.9<br>7.7<br>8.7<br>7.0<br>8.8<br>4.8<br>9.7<br>10.2<br>7.9<br>8.2<br>6.7<br>6.3<br>6.0<br>4.6<br>5.7<br>5.2<br>7.0<br>8.5<br>8.1<br>7.9<br>7.8<br>4.6<br>6.4<br>9.5<br>4.4<br>6.9<br>8.8</span>
+  </td>
+  </tr></table>
+  <p>Compute the p value in Google Sheets using the tutorial: <a href="https://docs.google.com/document/d/1k5UzUlpu-5wCMyWpop0bFlXBgAWivwTwd020Jgo1EIk/edit" target="_blank" rel="noopener">link here</a>.<br>Enter your result as a decimal between 0 and 1 (for example, 0.084, not 8.4%).</p>
+  </div>
+  <div>
+  <input type="text" class="qti-input" id="num_input_1348_97c4" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Enter a number"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_1348_97c4()">Check Answer</button>
+  <div id="result_1348_97c4" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+  </div>
+  <br>
+  </div><script>
+  const numAnswer_1348_97c4 = 0.36222569;
+  const numTolerance_1348_97c4 = 0.0036;
+  function checkAnswer_1348_97c4() {
+    const inputEl = document.getElementById('num_input_1348_97c4');
+    if (!inputEl) { return; }
+    const valStr = inputEl.value.trim();
+    const resultDiv = document.getElementById('result_1348_97c4');
+    if (valStr === '') {
+      resultDiv.style.color = 'inherit';
+      resultDiv.textContent = 'Please enter a value.';
+      return;
+    }
+    const userVal = Number(valStr);
+    if (Number.isNaN(userVal)) {
+      resultDiv.style.color = 'inherit';
+      resultDiv.textContent = 'Please enter a valid number.';
+      return;
+    }
+    const lower = numAnswer_1348_97c4 - numTolerance_1348_97c4;
+    const upper = numAnswer_1348_97c4 + numTolerance_1348_97c4;
+    const isCorrect = (userVal >= lower && userVal <= upper);
+    if (isCorrect) {
+      resultDiv.style.color = 'var(--qti-success-fg, #008000)';
+      resultDiv.textContent = 'CORRECT';
+    } else {
+      resultDiv.style.color = 'var(--qti-error-fg, #9b1b1b)';
+      if (userVal > upper) {
+        resultDiv.style.color = 'var(--qti-error-fg, #9b1b1b)';
+        resultDiv.textContent = 'Too high. Try again.';
+      } else if (userVal < lower) {
+        resultDiv.style.color = 'var(--qti-warning-fg, #b37100)';
+        resultDiv.textContent = 'Too low. Try again.';
+      } else {
+        resultDiv.textContent = 'Incorrect. Try again.';
+      }
+    }
+  }
+  document.addEventListener('DOMContentLoaded', function() {
+    const inputEl = document.getElementById('num_input_1348_97c4');
+    if (!inputEl) return;
+    inputEl.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter') { e.preventDefault(); checkAnswer_1348_97c4(); }
+    });
+  });
+  </script>
+
+  </div>
+
+
+</details>
+
+<h2 id="determining-differences-in-diversity-using-anova">Determining Differences in Diversity Using ANOVA</h2>
+<div id="busse_woods_anova-anova-5year-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-busse_woods_anova-anova-5year-questions.txt" download title="Download bbq-busse_woods_anova-anova-5year-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-busse_woods_anova-anova-5year-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-busse_woods_anova-anova-5year.zip" download title="Download blackboard_qti_v2_1-busse_woods_anova-anova-5year.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-busse_woods_anova-anova-5year.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-busse_woods_anova-anova-5year.zip" download title="Download canvas_qti_v1_2-busse_woods_anova-anova-5year.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-busse_woods_anova-anova-5year.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-busse_woods_anova-anova-5year.html', '_blank')" title="View human_readable-busse_woods_anova-anova-5year.html" aria-label="Click to view the Human-Readable TXT file (human_readable-busse_woods_anova-anova-5year.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div>
+<details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Determining Differences in Diversity Using ANOVA
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
+  <div class="qti-selftest">
+  <div id="question_html_2cd5_589e">
+  <div id="statement_text_2cd5_589e">
+  <p><b>ANOVA of Shannon Diversity: 1994, 2004, 2009, 2014, 2024</b><br>Compare microbial diversity across five years using one way ANOVA.<br>Sample Data Table:<br><em>Copy table rows and use regular paste (Ctrl-V or &#8984;-V) into Google Sheets.</em></p>
+  <table border="1" cellpadding="3" style="border-collapse:collapse;">
+  <tr>
+  <th style="text-align:center;">Sample<br>Location</th>
+  <th style="text-align:center;">1994<br>Shannon<br>Index</th>
+  <th style="text-align:center;">2004<br>Shannon<br>Index</th>
+  <th style="text-align:center;">2009<br>Shannon<br>Index</th>
+  <th style="text-align:center;">2014<br>Shannon<br>Index</th>
+  <th style="text-align:center;">2024<br>Shannon<br>Index</th>
+  </tr>
+  <tr>
+  <td>Andrews Park</td>
+  <td style="text-align:right;">4.77</td>
+  <td style="text-align:right;">3.65</td>
+  <td style="text-align:right;">3.43</td>
+  <td style="text-align:right;">5.09</td>
+  <td style="text-align:right;">4.58</td>
+  </tr>
+  <tr>
+  <td>Beisner Road Entrance</td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;">2.73</td>
+  <td style="text-align:right;">3.32</td>
+  </tr>
+  <tr>
+  <td>Boat Launch Area</td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;">3.69</td>
+  </tr>
+  <tr>
+  <td>Busse Lake</td>
+  <td style="text-align:right;">4.02</td>
+  <td style="text-align:right;">4.49</td>
+  <td style="text-align:right;">4.24</td>
+  <td style="text-align:right;">3.94</td>
+  <td style="text-align:right;">4.23</td>
+  </tr>
+  <tr>
+  <td>Debra Park</td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;">3.83</td>
+  </tr>
+  <tr>
+  <td>Elk Pasture</td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;">3.76</td>
+  </tr>
+  <tr>
+  <td>Forest Central Grove</td>
+  <td style="text-align:right;">3.11</td>
+  <td style="text-align:right;">3.05</td>
+  <td style="text-align:right;">3.80</td>
+  <td style="text-align:right;">3.76</td>
+  <td style="text-align:right;">4.58</td>
+  </tr>
+  <tr>
+  <td>Forest North Grove</td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;">5.24</td>
+  <td style="text-align:right;">3.77</td>
+  <td style="text-align:right;">3.86</td>
+  </tr>
+  <tr>
+  <td>Forest South Grove</td>
+  <td style="text-align:right;">4.31</td>
+  <td style="text-align:right;">3.62</td>
+  <td style="text-align:right;">4.12</td>
+  <td style="text-align:right;">3.95</td>
+  <td style="text-align:right;">3.58</td>
+  </tr>
+  <tr>
+  <td>Forest West Grove</td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;">4.19</td>
+  <td style="text-align:right;">3.65</td>
+  </tr>
+  <tr>
+  <td>Lake Boating Center</td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;">4.57</td>
+  <td style="text-align:right;">3.79</td>
+  <td style="text-align:right;">5.03</td>
+  <td style="text-align:right;">4.74</td>
+  </tr>
+  <tr>
+  <td>Large Event Area</td>
+  <td style="text-align:right;">3.51</td>
+  <td style="text-align:right;">3.43</td>
+  <td style="text-align:right;">3.91</td>
+  <td style="text-align:right;">4.28</td>
+  <td style="text-align:right;">3.29</td>
+  </tr>
+  <tr>
+  <td>Main Dam</td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;">4.25</td>
+  <td style="text-align:right;">3.80</td>
+  <td style="text-align:right;">3.75</td>
+  <td style="text-align:right;">4.46</td>
+  </tr>
+  <tr>
+  <td>Main Pool</td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;">3.89</td>
+  <td style="text-align:right;">3.88</td>
+  </tr>
+  <tr>
+  <td>Marshall Park</td>
+  <td style="text-align:right;">4.80</td>
+  <td style="text-align:right;">4.97</td>
+  <td style="text-align:right;">3.90</td>
+  <td style="text-align:right;">4.43</td>
+  <td style="text-align:right;">4.12</td>
+  </tr>
+  <tr>
+  <td>Model Airplane Field</td>
+  <td style="text-align:right;">4.38</td>
+  <td style="text-align:right;">3.84</td>
+  <td style="text-align:right;">3.76</td>
+  <td style="text-align:right;">3.45</td>
+  <td style="text-align:right;">4.53</td>
+  </tr>
+  <tr>
+  <td>Nature Preserve</td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;">4.05</td>
+  </tr>
+  <tr>
+  <td>Ned Brown Meadow</td>
+  <td style="text-align:right;">4.40</td>
+  <td style="text-align:right;">4.24</td>
+  <td style="text-align:right;">3.62</td>
+  <td style="text-align:right;">4.23</td>
+  <td style="text-align:right;">4.59</td>
+  </tr>
+  <tr>
+  <td>North Pool</td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;">4.06</td>
+  <td style="text-align:right;">3.28</td>
+  <td style="text-align:right;">3.64</td>
+  </tr>
+  <tr>
+  <td>Osborn Park</td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;">3.19</td>
+  <td style="text-align:right;">4.25</td>
+  </tr>
+  <tr>
+  <td>Salt Creek Trail</td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;">3.47</td>
+  <td style="text-align:right;">4.13</td>
+  <td style="text-align:right;">3.61</td>
+  </tr>
+  <tr>
+  <td>South Pool</td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;">4.28</td>
+  </tr>
+  <tr>
+  <td>Wildlife Refuge</td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;">4.44</td>
+  <td style="text-align:right;">4.88</td>
+  <td style="text-align:right;">3.89</td>
+  <td style="text-align:right;">4.03</td>
+  </tr>
+  <tr>
+  <td>Woodland Meadow</td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;">4.29</td>
+  <td style="text-align:right;">3.07</td>
+  </tr>
+  </table>
+  <p>Alternate Copyable Format:<br><em>Copy this text and use <strong>Data &#8594; Split text to columns &#8594; Comma</strong> in Google Sheets.</em><br><span style="font-family: monospace; background-color:#eee;">Sample Location,1994 Shannon Index,2004 Shannon Index,2009 Shannon Index,2014 Shannon Index,2024 Shannon Index<br>Andrews Park,4.77,3.65,3.43,5.09,4.58<br>Beisner Road Entrance,,,,2.73,3.32<br>Boat Launch Area,,,,,3.69<br>Busse Lake,4.02,4.49,4.24,3.94,4.23<br>Debra Park,,,,,3.83<br>Elk Pasture,,,,,3.76<br>Forest Central Grove,3.11,3.05,3.80,3.76,4.58<br>Forest North Grove,,,5.24,3.77,3.86<br>Forest South Grove,4.31,3.62,4.12,3.95,3.58<br>Forest West Grove,,,,4.19,3.65<br>Lake Boating Center,,4.57,3.79,5.03,4.74<br>Large Event Area,3.51,3.43,3.91,4.28,3.29<br>Main Dam,,4.25,3.80,3.75,4.46<br>Main Pool,,,,3.89,3.88<br>Marshall Park,4.80,4.97,3.90,4.43,4.12<br>Model Airplane Field,4.38,3.84,3.76,3.45,4.53<br>Nature Preserve,,,,,4.05<br>Ned Brown Meadow,4.40,4.24,3.62,4.23,4.59<br>North Pool,,,4.06,3.28,3.64<br>Osborn Park,,,,3.19,4.25<br>Salt Creek Trail,,,3.47,4.13,3.61<br>South Pool,,,,,4.28<br>Wildlife Refuge,,4.44,4.88,3.89,4.03<br>Woodland Meadow,,,,4.29,3.07<br></span><br>Enter the ANOVA p value as a decimal between 0 and 1.<br>Workflow: <a href="https://docs.google.com/document/d/1xkWsWENaOLRHUk6MO50anhL4DEbjmK8_xBmj22k3tts/edit" target="_blank" rel="noopener">link here</a>.</p>
+  </div>
+  <div>
+  <input type="text" class="qti-input" id="num_input_2cd5_589e" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Enter a number"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_2cd5_589e()">Check Answer</button>
+  <div id="result_2cd5_589e" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+  </div>
+  <br>
+  </div><script>
+  const numAnswer_2cd5_589e = 0.91727303;
+  const numTolerance_2cd5_589e = 0.0092;
+  function checkAnswer_2cd5_589e() {
+    const inputEl = document.getElementById('num_input_2cd5_589e');
+    if (!inputEl) { return; }
+    const valStr = inputEl.value.trim();
+    const resultDiv = document.getElementById('result_2cd5_589e');
+    if (valStr === '') {
+      resultDiv.style.color = 'inherit';
+      resultDiv.textContent = 'Please enter a value.';
+      return;
+    }
+    const userVal = Number(valStr);
+    if (Number.isNaN(userVal)) {
+      resultDiv.style.color = 'inherit';
+      resultDiv.textContent = 'Please enter a valid number.';
+      return;
+    }
+    const lower = numAnswer_2cd5_589e - numTolerance_2cd5_589e;
+    const upper = numAnswer_2cd5_589e + numTolerance_2cd5_589e;
+    const isCorrect = (userVal >= lower && userVal <= upper);
+    if (isCorrect) {
+      resultDiv.style.color = 'var(--qti-success-fg, #008000)';
+      resultDiv.textContent = 'CORRECT';
+    } else {
+      resultDiv.style.color = 'var(--qti-error-fg, #9b1b1b)';
+      if (userVal > upper) {
+        resultDiv.style.color = 'var(--qti-error-fg, #9b1b1b)';
+        resultDiv.textContent = 'Too high. Try again.';
+      } else if (userVal < lower) {
+        resultDiv.style.color = 'var(--qti-warning-fg, #b37100)';
+        resultDiv.textContent = 'Too low. Try again.';
+      } else {
+        resultDiv.textContent = 'Incorrect. Try again.';
+      }
+    }
+  }
+  document.addEventListener('DOMContentLoaded', function() {
+    const inputEl = document.getElementById('num_input_2cd5_589e');
+    if (!inputEl) return;
+    inputEl.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter') { e.preventDefault(); checkAnswer_2cd5_589e(); }
+    });
+  });
+  </script>
+
+  </div>
+
+
+</details>
+
+<h2 id="determining-statistical-significance-using-two-sample-f-test">Determining Statistical Significance Using Two-Sample F-Test</h2>
+<div id="busse_woods_two_sample_f_test-tails1-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-busse_woods_two_sample_f_test-tails1-questions.txt" download title="Download bbq-busse_woods_two_sample_f_test-tails1-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-busse_woods_two_sample_f_test-tails1-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-busse_woods_two_sample_f_test-tails1.zip" download title="Download blackboard_qti_v2_1-busse_woods_two_sample_f_test-tails1.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-busse_woods_two_sample_f_test-tails1.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-busse_woods_two_sample_f_test-tails1.zip" download title="Download canvas_qti_v1_2-busse_woods_two_sample_f_test-tails1.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-busse_woods_two_sample_f_test-tails1.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-busse_woods_two_sample_f_test-tails1.html', '_blank')" title="View human_readable-busse_woods_two_sample_f_test-tails1.html" aria-label="Click to view the Human-Readable TXT file (human_readable-busse_woods_two_sample_f_test-tails1.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div>
+<details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Determining Statistical Significance Using Two-Sample F-Test
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
+  <div class="qti-selftest">
+  <div id="question_html_74f4_87dd">
+  <div id="statement_text_74f4_87dd">
+  <p><b>F-Test of Variances: 2014 vs 2024</b><br>Use a one tailed F test for H1: variance_2024 &lt; variance_2014.<br>Sample Data Table:<br><em>Copy the table rows and use regular paste (Ctrl-V or &#8984;-V) into Google Sheets.</em></p>
+  <table border="1" cellpadding="3" style="border-collapse:collapse;">
+  <tr>
+  <th style="text-align:center;">Sample<br>Location</th>
+  <th style="text-align:center;">2014<br>Shannon<br>Index</th>
+  <th style="text-align:center;">2024<br>Shannon<br>Index</th>
+  </tr>
+  <tr>
+  <td>Andrews Park</td>
+  <td style="text-align:right;">4.08</td>
+  <td style="text-align:right;">4.12</td>
+  </tr>
+  <tr>
+  <td>Beisner Road Entrance</td>
+  <td style="text-align:right;">4.56</td>
+  <td style="text-align:right;">4.01</td>
+  </tr>
+  <tr>
+  <td>Boat Launch Area</td>
+  <td style="text-align:right;">5.70</td>
+  <td style="text-align:right;">4.10</td>
+  </tr>
+  <tr>
+  <td>Busse Lake</td>
+  <td style="text-align:right;">4.09</td>
+  <td style="text-align:right;">3.78</td>
+  </tr>
+  <tr>
+  <td>Forest North Grove</td>
+  <td style="text-align:right;">3.17</td>
+  <td style="text-align:right;">5.09</td>
+  </tr>
+  <tr>
+  <td>Forest South Grove</td>
+  <td style="text-align:right;">4.18</td>
+  <td style="text-align:right;">3.69</td>
+  </tr>
+  <tr>
+  <td>Large Event Area</td>
+  <td style="text-align:right;">3.66</td>
+  <td style="text-align:right;">3.95</td>
+  </tr>
+  <tr>
+  <td>Main Pool</td>
+  <td style="text-align:right;">4.46</td>
+  <td style="text-align:right;">3.74</td>
+  </tr>
+  <tr>
+  <td>Model Airplane Field</td>
+  <td style="text-align:right;">3.69</td>
+  <td style="text-align:right;">3.98</td>
+  </tr>
+  <tr>
+  <td>Nature Preserve</td>
+  <td style="text-align:right;">3.71</td>
+  <td style="text-align:right;">4.75</td>
+  </tr>
+  <tr>
+  <td>Osborn Park</td>
+  <td style="text-align:right;">3.68</td>
+  <td style="text-align:right;">3.34</td>
+  </tr>
+  <tr>
+  <td>Salt Creek Trail</td>
+  <td style="text-align:right;">3.51</td>
+  <td style="text-align:right;">4.00</td>
+  </tr>
+  <tr>
+  <td>Woodland Meadow</td>
+  <td style="text-align:right;">4.18</td>
+  <td style="text-align:right;">3.83</td>
+  </tr>
+  </table>
+  <p>Alternate Copyable Format:<br><em>Copy this text and use <strong>Data &#8594; Split text to columns &#8594; Comma</strong> in Google Sheets.</em><br><span style="font-family: monospace; background-color:#eee;">Sample Location,2014 Shannon Index,2024 Shannon Index<br>Andrews Park,4.08,4.12<br>Beisner Road Entrance,4.56,4.01<br>Boat Launch Area,5.70,4.10<br>Busse Lake,4.09,3.78<br>Forest North Grove,3.17,5.09<br>Forest South Grove,4.18,3.69<br>Large Event Area,3.66,3.95<br>Main Pool,4.46,3.74<br>Model Airplane Field,3.69,3.98<br>Nature Preserve,3.71,4.75<br>Osborn Park,3.68,3.34<br>Salt Creek Trail,3.51,4.00<br>Woodland Meadow,4.18,3.83<br></span><br>Enter the p value as a decimal between 0 and 1.<br>Workflow: <a href="https://docs.google.com/document/d/1tQE36lOQ_HJ2LsZdpqBnQl98xdz8G6YE7JRa6c9Mi9o/edit" target="_blank" rel="noopener">link here</a>.</p>
+  </div>
+  <div>
+  <input type="text" class="qti-input" id="num_input_74f4_87dd" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Enter a number"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_74f4_87dd()">Check Answer</button>
+  <div id="result_74f4_87dd" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+  </div>
+  <br>
+  </div><script>
+  const numAnswer_74f4_87dd = 0.12911671;
+  const numTolerance_74f4_87dd = 0.0013;
+  function checkAnswer_74f4_87dd() {
+    const inputEl = document.getElementById('num_input_74f4_87dd');
+    if (!inputEl) { return; }
+    const valStr = inputEl.value.trim();
+    const resultDiv = document.getElementById('result_74f4_87dd');
+    if (valStr === '') {
+      resultDiv.style.color = 'inherit';
+      resultDiv.textContent = 'Please enter a value.';
+      return;
+    }
+    const userVal = Number(valStr);
+    if (Number.isNaN(userVal)) {
+      resultDiv.style.color = 'inherit';
+      resultDiv.textContent = 'Please enter a valid number.';
+      return;
+    }
+    const lower = numAnswer_74f4_87dd - numTolerance_74f4_87dd;
+    const upper = numAnswer_74f4_87dd + numTolerance_74f4_87dd;
+    const isCorrect = (userVal >= lower && userVal <= upper);
+    if (isCorrect) {
+      resultDiv.style.color = 'var(--qti-success-fg, #008000)';
+      resultDiv.textContent = 'CORRECT';
+    } else {
+      resultDiv.style.color = 'var(--qti-error-fg, #9b1b1b)';
+      if (userVal > upper) {
+        resultDiv.style.color = 'var(--qti-error-fg, #9b1b1b)';
+        resultDiv.textContent = 'Too high. Try again.';
+      } else if (userVal < lower) {
+        resultDiv.style.color = 'var(--qti-warning-fg, #b37100)';
+        resultDiv.textContent = 'Too low. Try again.';
+      } else {
+        resultDiv.textContent = 'Incorrect. Try again.';
+      }
+    }
+  }
+  document.addEventListener('DOMContentLoaded', function() {
+    const inputEl = document.getElementById('num_input_74f4_87dd');
+    if (!inputEl) return;
+    inputEl.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter') { e.preventDefault(); checkAnswer_74f4_87dd(); }
+    });
+  });
+  </script>
+
+  </div>
+
+
+</details>
+
+<h2 id="determining-significance-using-two-sample-t-test">Determining Significance Using Two-Sample T-Test</h2>
+<div id="busse_woods_two_sample_t_test-tails1-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-busse_woods_two_sample_t_test-tails1-questions.txt" download title="Download bbq-busse_woods_two_sample_t_test-tails1-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-busse_woods_two_sample_t_test-tails1-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-busse_woods_two_sample_t_test-tails1.zip" download title="Download blackboard_qti_v2_1-busse_woods_two_sample_t_test-tails1.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-busse_woods_two_sample_t_test-tails1.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-busse_woods_two_sample_t_test-tails1.zip" download title="Download canvas_qti_v1_2-busse_woods_two_sample_t_test-tails1.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-busse_woods_two_sample_t_test-tails1.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-busse_woods_two_sample_t_test-tails1.html', '_blank')" title="View human_readable-busse_woods_two_sample_t_test-tails1.html" aria-label="Click to view the Human-Readable TXT file (human_readable-busse_woods_two_sample_t_test-tails1.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div>
+<details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Determining Significance Using Two-Sample T-Test
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
+  <div class="qti-selftest">
+  <div id="question_html_9ddb_2438">
+  <div id="statement_text_9ddb_2438">
+  <p><b>Two-Sample Test of Shannon Diversity: 2014 vs 2024</b><br>Use a one tailed Welch two sample t test for H1: mean_2024 &lt; mean_2014.<br>Assume unequal variances.<br>Sample Data Table:<br><em>Copy the table rows and use regular paste (Ctrl-V or &#8984;-V) into Google Sheets.</em></p>
+  <table border="1" cellpadding="3" style="border-collapse:collapse;">
+  <tr>
+  <th style="text-align:center;">Sample<br>Location</th>
+  <th style="text-align:center;">2014<br>Shannon<br>Index</th>
+  <th style="text-align:center;">2024<br>Shannon<br>Index</th>
+  </tr>
+  <tr>
+  <td>Andrews Park</td>
+  <td style="text-align:right;">4.39</td>
+  <td style="text-align:right;">3.00</td>
+  </tr>
+  <tr>
+  <td>Busse Lake</td>
+  <td style="text-align:right;">3.24</td>
+  <td style="text-align:right;">3.66</td>
+  </tr>
+  <tr>
+  <td>Debra Park</td>
+  <td style="text-align:right;">4.32</td>
+  <td style="text-align:right;">3.70</td>
+  </tr>
+  <tr>
+  <td>Elk Pasture</td>
+  <td style="text-align:right;">3.29</td>
+  <td style="text-align:right;">3.65</td>
+  </tr>
+  <tr>
+  <td>Forest Central Grove</td>
+  <td style="text-align:right;">4.09</td>
+  <td style="text-align:right;">3.25</td>
+  </tr>
+  <tr>
+  <td>Forest North Grove</td>
+  <td style="text-align:right;">3.26</td>
+  <td style="text-align:right;">4.67</td>
+  </tr>
+  <tr>
+  <td>Forest West Grove</td>
+  <td style="text-align:right;">4.86</td>
+  <td style="text-align:right;">3.89</td>
+  </tr>
+  <tr>
+  <td>Marshall Park</td>
+  <td style="text-align:right;">4.71</td>
+  <td style="text-align:right;">4.15</td>
+  </tr>
+  <tr>
+  <td>Model Airplane Field</td>
+  <td style="text-align:right;">3.54</td>
+  <td style="text-align:right;">4.63</td>
+  </tr>
+  <tr>
+  <td>Nature Preserve</td>
+  <td style="text-align:right;">3.71</td>
+  <td style="text-align:right;">3.75</td>
+  </tr>
+  <tr>
+  <td>Ned Brown Meadow</td>
+  <td style="text-align:right;">3.69</td>
+  <td style="text-align:right;">2.34</td>
+  </tr>
+  <tr>
+  <td>North Pool</td>
+  <td style="text-align:right;">3.51</td>
+  <td style="text-align:right;">2.98</td>
+  </tr>
+  <tr>
+  <td>Osborn Park</td>
+  <td style="text-align:right;">3.82</td>
+  <td style="text-align:right;">3.38</td>
+  </tr>
+  <tr>
+  <td>Wildlife Refuge</td>
+  <td style="text-align:right;">3.96</td>
+  <td style="text-align:right;">4.50</td>
+  </tr>
+  <tr>
+  <td>Woodland Meadow</td>
+  <td style="text-align:right;">3.81</td>
+  <td style="text-align:right;">3.55</td>
+  </tr>
+  </table>
+  <p>Alternate Copyable Format:<br><em>Copy this text and use <strong>Data &#8594; Split text to columns &#8594; Comma</strong> in Google Sheets.</em><br><span style="font-family: monospace; background-color:#eee;">Sample Location,2014 Shannon Index,2024 Shannon Index<br>Andrews Park,4.39,3.00<br>Busse Lake,3.24,3.66<br>Debra Park,4.32,3.70<br>Elk Pasture,3.29,3.65<br>Forest Central Grove,4.09,3.25<br>Forest North Grove,3.26,4.67<br>Forest West Grove,4.86,3.89<br>Marshall Park,4.71,4.15<br>Model Airplane Field,3.54,4.63<br>Nature Preserve,3.71,3.75<br>Ned Brown Meadow,3.69,2.34<br>North Pool,3.51,2.98<br>Osborn Park,3.82,3.38<br>Wildlife Refuge,3.96,4.50<br>Woodland Meadow,3.81,3.55<br></span><br>Compute the p value in Google Sheets using the tutorial: <a href="https://docs.google.com/document/d/1DiSYMwPhs8tmWQMLqQwLGHBssy12o-pYzyUT1qIoXcU/edit" target="_blank" rel="noopener">link here</a>.<br>Enter the p value as a decimal between 0 and 1.</p>
+  </div>
+  <div>
+  <input type="text" class="qti-input" id="num_input_9ddb_2438" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Enter a number"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_9ddb_2438()">Check Answer</button>
+  <div id="result_9ddb_2438" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+  </div>
+  <br>
+  </div><script>
+  const numAnswer_9ddb_2438 = 0.16983974;
+  const numTolerance_9ddb_2438 = 0.0017;
+  function checkAnswer_9ddb_2438() {
+    const inputEl = document.getElementById('num_input_9ddb_2438');
+    if (!inputEl) { return; }
+    const valStr = inputEl.value.trim();
+    const resultDiv = document.getElementById('result_9ddb_2438');
+    if (valStr === '') {
+      resultDiv.style.color = 'inherit';
+      resultDiv.textContent = 'Please enter a value.';
+      return;
+    }
+    const userVal = Number(valStr);
+    if (Number.isNaN(userVal)) {
+      resultDiv.style.color = 'inherit';
+      resultDiv.textContent = 'Please enter a valid number.';
+      return;
+    }
+    const lower = numAnswer_9ddb_2438 - numTolerance_9ddb_2438;
+    const upper = numAnswer_9ddb_2438 + numTolerance_9ddb_2438;
+    const isCorrect = (userVal >= lower && userVal <= upper);
+    if (isCorrect) {
+      resultDiv.style.color = 'var(--qti-success-fg, #008000)';
+      resultDiv.textContent = 'CORRECT';
+    } else {
+      resultDiv.style.color = 'var(--qti-error-fg, #9b1b1b)';
+      if (userVal > upper) {
+        resultDiv.style.color = 'var(--qti-error-fg, #9b1b1b)';
+        resultDiv.textContent = 'Too high. Try again.';
+      } else if (userVal < lower) {
+        resultDiv.style.color = 'var(--qti-warning-fg, #b37100)';
+        resultDiv.textContent = 'Too low. Try again.';
+      } else {
+        resultDiv.textContent = 'Incorrect. Try again.';
+      }
+    }
+  }
+  document.addEventListener('DOMContentLoaded', function() {
+    const inputEl = document.getElementById('num_input_9ddb_2438');
+    if (!inputEl) return;
+    inputEl.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter') { e.preventDefault(); checkAnswer_9ddb_2438(); }
+    });
+  });
+  </script>
+
+  </div>
+
+
+</details>
+
+<h2 id="calculating-chi-square-value-for-phenotype-ratios">Calculating Chi-Square Value for Phenotype Ratios</h2>
+<div id="chi_square_calculated-ACCEPT-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-chi_square_calculated-ACCEPT-questions.txt" download title="Download bbq-chi_square_calculated-ACCEPT-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chi_square_calculated-ACCEPT-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-chi_square_calculated-ACCEPT.zip" download title="Download blackboard_qti_v2_1-chi_square_calculated-ACCEPT.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-chi_square_calculated-ACCEPT.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-chi_square_calculated-ACCEPT.zip" download title="Download canvas_qti_v1_2-chi_square_calculated-ACCEPT.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-chi_square_calculated-ACCEPT.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-chi_square_calculated-ACCEPT.html', '_blank')" title="View human_readable-chi_square_calculated-ACCEPT.html" aria-label="Click to view the Human-Readable TXT file (human_readable-chi_square_calculated-ACCEPT.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div>
+<details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Calculating Chi-Square Value for Phenotype Ratios
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
+  <div class="qti-selftest">
+  <div id="question_html_1322_cb13">
+  <div id="statement_text_1322_cb13">
+  <table style="border: 1px solid black; border-collapse: collapse; ">
+  <colgroup width="200"></colgroup>
+  <colgroup width="100"></colgroup>
+  <colgroup width="100"></colgroup>
+  <colgroup width="100"></colgroup>
+  <colgroup width="100"></colgroup>
+  <tr>
+  <th align="center" colspan="5" style="background-color: silver">Data Table</th> </tr>
+  <tr>
+  <th align="center" style="background-color: lightgray">Phenotype</th> <th align="center" style="background-color: lightgray">Expected</th> <th align="center" style="background-color: lightgray">Observed</th> <th align="center" style="background-color: lightgray">Calculation</th> <th align="center" style="background-color: lightgray">Statistic</th> </tr>
+  <tr>
+  <td> Yellow Round (Y&#8211;R&#8211;)</td> <td align="center">90</td> <td align="center">98</td> <td align="center">__</td> <td align="center">__</td>
+  </tr>
+  <tr>
+  <td> Yellow Wrinkled (Y&#8211;rr)</td> <td align="center">30</td> <td align="center">28</td> <td align="center">__</td> <td align="center">__</td>
+  </tr>
+  <tr>
+  <td> Green Round (yyR&#8211;)</td> <td align="center">30</td> <td align="center">30</td> <td align="center">__</td> <td align="center">__</td>
+  </tr>
+  <tr>
+  <td> Green Wrinkled (yyrr)</td> <td align="center">10</td> <td align="center">4</td> <td align="center">__</td> <td align="center">__</td>
+  </tr>
+  <tr>
+  <td colspan="4" align="right" style="background-color: lightgray">(sum) &#967;<sup>2</sup> = </td> <td align="center">__</td>
+  </tr>
+  </table>
+  <br><hr>
+  <p>Complete the table and calculate the chi-squared (&#967;<sup>2</sup>) value.<br><i>Even though not part of the question, ask yourself whether you would reject or fail to reject the null hypothesis</i><br><i>Note: answers need to be within 3% of the correct number to be correct.</i></p>
+  </div>
+  <div>
+  <input type="text" class="qti-input" id="num_input_1322_cb13" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Enter a number"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_1322_cb13()">Check Answer</button>
+  <div id="result_1322_cb13" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+  </div>
+  <br>
+  </div><script>
+  const numAnswer_1322_cb13 = 4.444;
+  const numTolerance_1322_cb13 = 0.09;
+  function checkAnswer_1322_cb13() {
+    const inputEl = document.getElementById('num_input_1322_cb13');
+    if (!inputEl) { return; }
+    const valStr = inputEl.value.trim();
+    const resultDiv = document.getElementById('result_1322_cb13');
+    if (valStr === '') {
+      resultDiv.style.color = 'inherit';
+      resultDiv.textContent = 'Please enter a value.';
+      return;
+    }
+    const userVal = Number(valStr);
+    if (Number.isNaN(userVal)) {
+      resultDiv.style.color = 'inherit';
+      resultDiv.textContent = 'Please enter a valid number.';
+      return;
+    }
+    const lower = numAnswer_1322_cb13 - numTolerance_1322_cb13;
+    const upper = numAnswer_1322_cb13 + numTolerance_1322_cb13;
+    const isCorrect = (userVal >= lower && userVal <= upper);
+    if (isCorrect) {
+      resultDiv.style.color = 'var(--qti-success-fg, #008000)';
+      resultDiv.textContent = 'CORRECT';
+    } else {
+      resultDiv.style.color = 'var(--qti-error-fg, #9b1b1b)';
+      if (userVal > upper) {
+        resultDiv.style.color = 'var(--qti-error-fg, #9b1b1b)';
+        resultDiv.textContent = 'Too high. Try again.';
+      } else if (userVal < lower) {
+        resultDiv.style.color = 'var(--qti-warning-fg, #b37100)';
+        resultDiv.textContent = 'Too low. Try again.';
+      } else {
+        resultDiv.textContent = 'Incorrect. Try again.';
+      }
+    }
+  }
+  document.addEventListener('DOMContentLoaded', function() {
+    const inputEl = document.getElementById('num_input_1322_cb13');
+    if (!inputEl) return;
+    inputEl.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter') { e.preventDefault(); checkAnswer_1322_cb13(); }
+    });
+  });
+  </script>
+
+  </div>
+
+
+</details>
+
+<h2 id="determining-hypothesis-acceptance-using-chi-squared-test">Determining Hypothesis Acceptance Using Chi-Squared Test</h2>
+<div id="chi_square_choices-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-chi_square_choices-questions.txt" download title="Download bbq-chi_square_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chi_square_choices-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-chi_square_choices.zip" download title="Download blackboard_qti_v2_1-chi_square_choices.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-chi_square_choices.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-chi_square_choices.zip" download title="Download canvas_qti_v1_2-chi_square_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-chi_square_choices.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-chi_square_choices.html', '_blank')" title="View human_readable-chi_square_choices.html" aria-label="Click to view the Human-Readable TXT file (human_readable-chi_square_choices.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div>
+<details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Determining Hypothesis Acceptance Using Chi-Squared Test
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
+  <div class="qti-selftest">
+  <div id="question_html_e625_87dd">
+  <div id="statement_text_e625_87dd">
+  <table style="border-collapse: collapse; border: 2px solid gray;">
+  <colgroup width="100"></colgroup>
+  <colgroup width="60"></colgroup>
+  <colgroup width="60"></colgroup>
+  <colgroup width="60"></colgroup>
+  <colgroup width="60"></colgroup>
+  <colgroup width="60"></colgroup>
+  <colgroup width="60"></colgroup>
+  <colgroup width="60"></colgroup>
+  <colgroup width="60"></colgroup>
+  <tr><th align="center" colspan="9" style="background-color: gainsboro; border: 1px solid gray; padding: 5px;">Table of Chi-Squared (&#967;²) Critical Values</th></tr>
+  <tr>
+  <th rowspan="2" align="center" style="background-color: #D3D3D3; font-weight: bold; border: 1px solid gray; padding: 5px;">Degrees of Freedom</th> <th align="center" colspan="8" style="background-color: #D3D3D3; font-weight: bold; border: 1px solid gray; padding: 5px;">Probability</th>
+  </tr>
+  <tr>
+  <th align="center" style="background-color: #F0F0F0; font-weight: bold; border: 1px solid gray; padding: 5px;">0.95</th>
+  <th align="center" style="background-color: #F0F0F0; font-weight: bold; border: 1px solid gray; padding: 5px;">0.90</th>
+  <th align="center" style="background-color: #F0F0F0; font-weight: bold; border: 1px solid gray; padding: 5px;">0.75</th>
+  <th align="center" style="background-color: #F0F0F0; font-weight: bold; border: 1px solid gray; padding: 5px;">0.50</th>
+  <th align="center" style="background-color: #F0F0F0; font-weight: bold; border: 1px solid gray; padding: 5px;">0.25</th>
+  <th align="center" style="background-color: #F0F0F0; font-weight: bold; border: 1px solid gray; padding: 5px;">0.10</th>
+  <th align="center" style="background-color: #F0F0F0; font-weight: bold; border: 1px solid gray; padding: 5px;">0.05</th>
+  <th align="center" style="background-color: #F0F0F0; font-weight: bold; border: 1px solid gray; padding: 5px;">0.01</th>
+  </tr>
+  <tr style="background-color: #FAFAD2;">
+  <th align="center" style="background-color: #D3D3D3; font-weight: bold; border: 1px solid gray; padding: 5px;">1</th>
+  <td align="center" style="border: 1px solid gray; padding: 5px;">0.00</td>
+  <td align="center" style="border: 1px solid gray; padding: 5px;">0.02</td>
+  <td align="center" style="border: 1px solid gray; padding: 5px;">0.10</td>
+  <td align="center" style="border: 1px solid gray; padding: 5px;">0.45</td>
+  <td align="center" style="border: 1px solid gray; padding: 5px;">1.32</td>
+  <td align="center" style="border: 1px solid gray; padding: 5px;">2.71</td>
+  <td align="center" style="border: 1px solid gray; padding: 5px;">3.84</td>
+  <td align="center" style="border: 1px solid gray; padding: 5px;">6.63</td>
+  </tr>
+  <tr style="background-color: #FFFFFF;">
+  <th align="center" style="background-color: #D3D3D3; font-weight: bold; border: 1px solid gray; padding: 5px;">2</th>
+  <td align="center" style="border: 1px solid gray; padding: 5px;">0.10</td>
+  <td align="center" style="border: 1px solid gray; padding: 5px;">0.21</td>
+  <td align="center" style="border: 1px solid gray; padding: 5px;">0.58</td>
+  <td align="center" style="border: 1px solid gray; padding: 5px;">1.39</td>
+  <td align="center" style="border: 1px solid gray; padding: 5px;">2.77</td>
+  <td align="center" style="border: 1px solid gray; padding: 5px;">4.61</td>
+  <td align="center" style="border: 1px solid gray; padding: 5px;">5.99</td>
+  <td align="center" style="border: 1px solid gray; padding: 5px;">9.21</td>
+  </tr>
+  <tr style="background-color: #FAFAD2;">
+  <th align="center" style="background-color: #D3D3D3; font-weight: bold; border: 1px solid gray; padding: 5px;">3</th>
+  <td align="center" style="border: 1px solid gray; padding: 5px;">0.35</td>
+  <td align="center" style="border: 1px solid gray; padding: 5px;">0.58</td>
+  <td align="center" style="border: 1px solid gray; padding: 5px;">1.21</td>
+  <td align="center" style="border: 1px solid gray; padding: 5px;">2.37</td>
+  <td align="center" style="border: 1px solid gray; padding: 5px;">4.11</td>
+  <td align="center" style="border: 1px solid gray; padding: 5px;">6.25</td>
+  <td align="center" style="border: 1px solid gray; padding: 5px;">7.81</td>
+  <td align="center" style="border: 1px solid gray; padding: 5px;">11.34</td>
+  </tr>
+  <tr style="background-color: #FFFFFF;">
+  <th align="center" style="background-color: #D3D3D3; font-weight: bold; border: 1px solid gray; padding: 5px;">4</th>
+  <td align="center" style="border: 1px solid gray; padding: 5px;">0.71</td>
+  <td align="center" style="border: 1px solid gray; padding: 5px;">1.06</td>
+  <td align="center" style="border: 1px solid gray; padding: 5px;">1.92</td>
+  <td align="center" style="border: 1px solid gray; padding: 5px;">3.36</td>
+  <td align="center" style="border: 1px solid gray; padding: 5px;">5.39</td>
+  <td align="center" style="border: 1px solid gray; padding: 5px;">7.78</td>
+  <td align="center" style="border: 1px solid gray; padding: 5px;">9.49</td>
+  <td align="center" style="border: 1px solid gray; padding: 5px;">13.28</td>
+  </tr>
+  </table>
+  <br><table style="border: 1px solid black; border-collapse: collapse; ">
+  <colgroup width="160"></colgroup>
+  <colgroup width="80"></colgroup>
+  <colgroup width="80"></colgroup>
+  <colgroup width="100"></colgroup>
+  <colgroup width="80"></colgroup>
+  <tr><th align="center" colspan="5" style="background-color: silver"><span style="color: #e69100;"><strong>Table 1</strong></span></th></tr>
+  <tr>
+  <th align="center" style="background-color: lightgray">Phenotype</th> <th align="center" style="background-color: lightgray">Expected</th> <th align="center" style="background-color: lightgray">Observed</th> <th align="center" style="background-color: lightgray">Calculation</th> <th align="center" style="background-color: lightgray">Statistic</th> </tr>
+  <tr>
+  <td> Yellow Round (Y&#8211;R&#8211;)</td> <td align="center">90</td> <td align="center">80</td> <td align="center">
+  <sup>(80-90)²</sup>&#8260; <sub>90</sub>
+  </td> <td align="center">1.111</td>
+  </tr>
+  <tr>
+  <td> Yellow Wrinkled (Y&#8211;rr)</td> <td align="center">30</td> <td align="center">17</td> <td align="center">
+  <sup>(17-30)²</sup>&#8260; <sub>30</sub>
+  </td> <td align="center">5.633</td>
+  </tr>
+  <tr>
+  <td> Green Round (yyR&#8211;)</td> <td align="center">30</td> <td align="center">51</td> <td align="center">
+  <sup>(51-30)²</sup>&#8260; <sub>30</sub>
+  </td> <td align="center">14.700</td>
+  </tr>
+  <tr>
+  <td> Green Wrinkled (yyrr)</td> <td align="center">10</td> <td align="center">12</td> <td align="center">
+  <sup>(12-10)²</sup>&#8260; <sub>10</sub>
+  </td> <td align="center">0.400</td>
+  </tr>
+  <tr>
+  <td colspan="4" align="right" style="background-color: lightgray">(sum) &#967;² = </td> <td align="center">21.844</td>
+  </tr>
+  </table>
+  <br><table style="border: 1px solid black; border-collapse: collapse; ">
+  <colgroup width="160"></colgroup>
+  <colgroup width="80"></colgroup>
+  <colgroup width="80"></colgroup>
+  <colgroup width="100"></colgroup>
+  <colgroup width="80"></colgroup>
+  <tr><th align="center" colspan="5" style="background-color: silver"><span style="color: #004d99;"><strong>Table 2</strong></span></th></tr>
+  <tr>
+  <th align="center" style="background-color: lightgray">Phenotype</th> <th align="center" style="background-color: lightgray">Expected</th> <th align="center" style="background-color: lightgray">Observed</th> <th align="center" style="background-color: lightgray">Calculation</th> <th align="center" style="background-color: lightgray">Statistic</th> </tr>
+  <tr>
+  <td> Yellow Round (Y&#8211;R&#8211;)</td> <td align="center">90</td> <td align="center">80</td> <td align="center">
+  <sup>(80-90)²</sup>&#8260; <sub>80</sub>
+  </td> <td align="center">1.250</td>
+  </tr>
+  <tr>
+  <td> Yellow Wrinkled (Y&#8211;rr)</td> <td align="center">30</td> <td align="center">17</td> <td align="center">
+  <sup>(17-30)²</sup>&#8260; <sub>17</sub>
+  </td> <td align="center">9.941</td>
+  </tr>
+  <tr>
+  <td> Green Round (yyR&#8211;)</td> <td align="center">30</td> <td align="center">51</td> <td align="center">
+  <sup>(51-30)²</sup>&#8260; <sub>51</sub>
+  </td> <td align="center">8.647</td>
+  </tr>
+  <tr>
+  <td> Green Wrinkled (yyrr)</td> <td align="center">10</td> <td align="center">12</td> <td align="center">
+  <sup>(12-10)²</sup>&#8260; <sub>12</sub>
+  </td> <td align="center">0.333</td>
+  </tr>
+  <tr>
+  <td colspan="4" align="right" style="background-color: lightgray">(sum) &#967;² = </td> <td align="center">20.172</td>
+  </tr>
+  </table>
+  <br><table style="border: 1px solid black; border-collapse: collapse; ">
+  <colgroup width="160"></colgroup>
+  <colgroup width="80"></colgroup>
+  <colgroup width="80"></colgroup>
+  <colgroup width="100"></colgroup>
+  <colgroup width="80"></colgroup>
+  <tr><th align="center" colspan="5" style="background-color: silver"><span style="color: #b30077;"><strong>Table 3</strong></span></th></tr>
+  <tr>
+  <th align="center" style="background-color: lightgray">Phenotype</th> <th align="center" style="background-color: lightgray">Expected</th> <th align="center" style="background-color: lightgray">Observed</th> <th align="center" style="background-color: lightgray">Calculation</th> <th align="center" style="background-color: lightgray">Statistic</th> </tr>
+  <tr>
+  <td> Yellow Round (Y&#8211;R&#8211;)</td> <td align="center">90</td> <td align="center">80</td> <td align="center">
+  <sup>(80-90)²</sup>&#8260; <sub>80²</sub>
+  </td> <td align="center">0.016</td>
+  </tr>
+  <tr>
+  <td> Yellow Wrinkled (Y&#8211;rr)</td> <td align="center">30</td> <td align="center">17</td> <td align="center">
+  <sup>(17-30)²</sup>&#8260; <sub>17²</sub>
+  </td> <td align="center">0.585</td>
+  </tr>
+  <tr>
+  <td> Green Round (yyR&#8211;)</td> <td align="center">30</td> <td align="center">51</td> <td align="center">
+  <sup>(51-30)²</sup>&#8260; <sub>51²</sub>
+  </td> <td align="center">0.170</td>
+  </tr>
+  <tr>
+  <td> Green Wrinkled (yyrr)</td> <td align="center">10</td> <td align="center">12</td> <td align="center">
+  <sup>(12-10)²</sup>&#8260; <sub>12²</sub>
+  </td> <td align="center">0.028</td>
+  </tr>
+  <tr>
+  <td colspan="4" align="right" style="background-color: lightgray">(sum) &#967;² = </td> <td align="center">0.798</td>
+  </tr>
+  </table>
+  <br><hr>
+  <p>Your lab partner is trying again (eye roll) and did another a chi-squared (&#967;²) test on the F<sub>2</sub> generation in a dihybid cross based on your lab data (above). They wanted to know if the results confirm the expected phenotype ratios.<br>You helped them set up the null hypothesis, so you know that part is correct, but they got confused and were unsure about how to calculate the chi-squared (&#967;²) value. So much so that they did it three (3) different ways.<br>Before you ask your instructor for a new lab partner, <b>tell them which table is correct AND whether they can reject or fail to reject the null hypothesis</b> using the information provided.</p>
+  </div>
+  <form>
+  <ul id="choices_e625_87dd">
+  <li>
+      <input type="radio" id="option0" name="answer_e625_87dd" data-correct="true"><label for="option0"><span style="font-weight: bold;">A.</span> <span><span style="color: #e69100;"><strong>Table 1</strong></span> with &#967;² = 21.844 is correct and we <span style="color: #e60000;"><strong>REJECT</strong></span> the null hypothesis</span></label>
+    </li>
+    <li>
+      <input type="radio" id="option1" name="answer_e625_87dd" data-correct="false"><label for="option1"><span style="font-weight: bold;">B.</span> <span><span style="color: #004d99;"><strong>Table 2</strong></span> with &#967;² = 20.172 is correct and we <span style="color: #e60000;"><strong>REJECT</strong></span> the null hypothesis</span></label>
+    </li>
+    <li>
+      <input type="radio" id="option2" name="answer_e625_87dd" data-correct="false"><label for="option2"><span style="font-weight: bold;">C.</span> <span><span style="color: #b30077;"><strong>Table 3</strong></span> with &#967;² = 0.798 is correct and we <span style="color: #e60000;"><strong>REJECT</strong></span> the null hypothesis</span></label>
+    </li>
+    <li>
+      <input type="radio" id="option3" name="answer_e625_87dd" data-correct="false"><label for="option3"><span style="font-weight: bold;">D.</span> <span><span style="color: #e69100;"><strong>Table 1</strong></span> with &#967;² = 21.844 is correct and we <span style="color: #009900;"><strong>FAIL to REJECT</strong></span> the null hypothesis</span></label>
+    </li>
+    <li>
+      <input type="radio" id="option4" name="answer_e625_87dd" data-correct="false"><label for="option4"><span style="font-weight: bold;">E.</span> <span><span style="color: #004d99;"><strong>Table 2</strong></span> with &#967;² = 20.172 is correct and we <span style="color: #009900;"><strong>FAIL to REJECT</strong></span> the null hypothesis</span></label>
+    </li>
+    <li>
+      <input type="radio" id="option5" name="answer_e625_87dd" data-correct="false"><label for="option5"><span style="font-weight: bold;">F.</span> <span><span style="color: #b30077;"><strong>Table 3</strong></span> with &#967;² = 0.798 is correct and we <span style="color: #009900;"><strong>FAIL to REJECT</strong></span> the null hypothesis</span></label>
+    </li>
+  </ul>
+  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_e625_87dd()">Check Answer</button>
+  <div id="result_e625_87dd" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+  </form>
+  <br>
+  </div><script>
+  function checkAnswer_e625_87dd() {
+   const options = document.getElementsByName('answer_e625_87dd');
+   const correctOption = Array.from(options).reduce(function(acc, option) {
+     return acc || (option.dataset.correct === 'true' ? option : null);
+   }, null);
+   const selectedOption = Array.from(options).reduce(function(acc, option) {
+     return acc || (option.checked ? option : null);
+   }, null);
+   const resultDiv = document.getElementById('result_e625_87dd');
+   if (selectedOption) {
+    if (selectedOption === correctOption) {
+     resultDiv.style.color = 'var(--qti-success-fg, #008000)';
+     resultDiv.textContent = 'CORRECT';
+    } else {
+     resultDiv.style.color = 'var(--qti-error-fg, #9b1b1b)';
+     resultDiv.textContent = 'incorrect';
+    }
+   } else {
+    resultDiv.style.color = 'inherit';
+    resultDiv.textContent = 'Please select an answer.';
+   }
+  }
+  </script>
+
+  </div>
+
+
+</details>
+
+<h2 id="flaws-in-statistical-hypothesis-testing">Flaws in Statistical Hypothesis Testing</h2>
+<div id="hypothesis_lab_partner-hypotheses_partner-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-hypothesis_lab_partner-hypotheses_partner-questions.txt" download title="Download bbq-hypothesis_lab_partner-hypotheses_partner-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-hypothesis_lab_partner-hypotheses_partner-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-hypothesis_lab_partner-hypotheses_partner.zip" download title="Download blackboard_qti_v2_1-hypothesis_lab_partner-hypotheses_partner.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-hypothesis_lab_partner-hypotheses_partner.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-hypothesis_lab_partner-hypotheses_partner.zip" download title="Download canvas_qti_v1_2-hypothesis_lab_partner-hypotheses_partner.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-hypothesis_lab_partner-hypotheses_partner.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-hypothesis_lab_partner-hypotheses_partner.html', '_blank')" title="View human_readable-hypothesis_lab_partner-hypotheses_partner.html" aria-label="Click to view the Human-Readable TXT file (human_readable-hypothesis_lab_partner-hypotheses_partner.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div>
+<details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Flaws in Statistical Hypothesis Testing
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
+  <div class="qti-selftest">
+  <div id="question_html_5a97_f8be">
+  <div id="statement_text_5a97_f8be">
+  <p>Your lab partner is trying again (eye roll).<br><b>Scenario:</b> Two-sample variance test (F test)<br>Ecologists want to know whether the <b>variability</b> of Shannon Diversity Index measurements changed between 2014 and 2024.<br><b>Research question:</b> Is the 2024 value larger than the 2014 value?</p>
+  <hr>
+  <p>They wrote the hypotheses below:<br><b>H<sub>0</sub></b>: s<sub>2014</sub><sup>2</sup> (<span style="font-family: monospace;">s2_2014</span>) = s<sub>2024</sub><sup>2</sup> (<span style="font-family: monospace;">s2_2024</span>)<br><span style="font-size: 90%;">In words: The variance Shannon Diversity Index values in 2014 and 2024 are equal.</span><br><b>H<sub>A</sub></b>: s<sub>2024</sub><sup>2</sup> (<span style="font-family: monospace;">s2_2024</span>) &gt; s<sub>2014</sub><sup>2</sup> (<span style="font-family: monospace;">s2_2014</span>)<br><span style="font-size: 90%;">In words: The variance Shannon Diversity Index value in 2024 is greater than the value in 2014.</span><br><b>What is the main problem with their hypotheses?</b></p>
+  </div>
+  <form>
+  <ul id="choices_5a97_f8be">
+  <li>
+      <input type="radio" id="option0" name="answer_5a97_f8be" data-correct="false"><label for="option0"><span style="font-weight: bold;">A.</span> <span>Nothing is wrong; the hypotheses are stated correctly.</span></label>
+    </li>
+    <li>
+      <input type="radio" id="option1" name="answer_5a97_f8be" data-correct="false"><label for="option1"><span style="font-weight: bold;">B.</span> <span>They wrote the null hypothesis as an inequality (the null should include equality).</span></label>
+    </li>
+    <li>
+      <input type="radio" id="option2" name="answer_5a97_f8be" data-correct="true"><label for="option2"><span style="font-weight: bold;">C.</span> <span>They used sample statistics (like x&#772; or s<sup>2</sup>) instead of population parameters.</span></label>
+    </li>
+    <li>
+      <input type="radio" id="option3" name="answer_5a97_f8be" data-correct="false"><label for="option3"><span style="font-weight: bold;">D.</span> <span>They swapped the null and alternative hypotheses.</span></label>
+    </li>
+  </ul>
+  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_5a97_f8be()">Check Answer</button>
+  <div id="result_5a97_f8be" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+  </form>
+  <br>
+  </div><script>
+  function checkAnswer_5a97_f8be() {
+   const options = document.getElementsByName('answer_5a97_f8be');
+   const correctOption = Array.from(options).reduce(function(acc, option) {
+     return acc || (option.dataset.correct === 'true' ? option : null);
+   }, null);
+   const selectedOption = Array.from(options).reduce(function(acc, option) {
+     return acc || (option.checked ? option : null);
+   }, null);
+   const resultDiv = document.getElementById('result_5a97_f8be');
+   if (selectedOption) {
+    if (selectedOption === correctOption) {
+     resultDiv.style.color = 'var(--qti-success-fg, #008000)';
+     resultDiv.textContent = 'CORRECT';
+    } else {
+     resultDiv.style.color = 'var(--qti-error-fg, #9b1b1b)';
+     resultDiv.textContent = 'incorrect';
+    }
+   } else {
+    resultDiv.style.color = 'inherit';
+    resultDiv.textContent = 'Please select an answer.';
+   }
+  }
+  </script>
+
+  </div>
+
+
+</details>
+
+<h2 id="_1">...</h2>
+<div id="population_test_google_sheet-ztest-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-population_test_google_sheet-ztest-questions.txt" download title="Download bbq-population_test_google_sheet-ztest-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-population_test_google_sheet-ztest-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-population_test_google_sheet-ztest.zip" download title="Download blackboard_qti_v2_1-population_test_google_sheet-ztest.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-population_test_google_sheet-ztest.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-population_test_google_sheet-ztest.zip" download title="Download canvas_qti_v1_2-population_test_google_sheet-ztest.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-population_test_google_sheet-ztest.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-population_test_google_sheet-ztest.html', '_blank')" title="View human_readable-population_test_google_sheet-ztest.html" aria-label="Click to view the Human-Readable TXT file (human_readable-population_test_google_sheet-ztest.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div>
+<details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      ...
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
+  <div class="qti-selftest">
+  <div id="question_html_e930_ea5c">
+  <div id="statement_text_e930_ea5c"><p><b>Joe's Hospital of Fried Foods vs National Average</b><br>Use a one tailed Z test for H1: mu_hospital &gt; mu.<br>Fixed population values: &#956; = 7.5 lbs, &#963; = 1.5 lbs.<br>Sample weights (lbs), enter into a single column in Google Sheets:<br><span style="font-family: monospace; background-color:#eee;">9.2<br>7.5<br>5.4<br>8.5<br>7.9<br>8.7<br>7.9<br>5.8<br>7.9<br>9.5<br>8.6<br>9.8<br>7.1<br>9.5<br>10.0<br>10.1<br>9.5<br>5.8<br>7.1<br>6.1<br>6.1<br>8.1<br>9.2<br>7.3<br>7.8<br>6.9<br>4.0<br>6.1</span><br>Compute the one-tailed p-value using the tutorial workflow from last week: <a href="https://docs.google.com/document/d/1ZOLIw-JlNA6Mry1w0t5I5Ffgi7RMiBCSr7VtyNgsdt0/edit" target="_blank" rel="noopener">link here</a>.<br>Enter your result as a decimal between 0 and 1 (for example, 0.084, not 8.4%).</p></div>
+  <div>
+  <input type="text" class="qti-input" id="num_input_e930_ea5c" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Enter a number"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_e930_ea5c()">Check Answer</button>
+  <div id="result_e930_ea5c" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+  </div>
+  <br>
+  </div><script>
+  const numAnswer_e930_ea5c = 0.17558756;
+  const numTolerance_e930_ea5c = 0.0018;
+  function checkAnswer_e930_ea5c() {
+    const inputEl = document.getElementById('num_input_e930_ea5c');
+    if (!inputEl) { return; }
+    const valStr = inputEl.value.trim();
+    const resultDiv = document.getElementById('result_e930_ea5c');
+    if (valStr === '') {
+      resultDiv.style.color = 'inherit';
+      resultDiv.textContent = 'Please enter a value.';
+      return;
+    }
+    const userVal = Number(valStr);
+    if (Number.isNaN(userVal)) {
+      resultDiv.style.color = 'inherit';
+      resultDiv.textContent = 'Please enter a valid number.';
+      return;
+    }
+    const lower = numAnswer_e930_ea5c - numTolerance_e930_ea5c;
+    const upper = numAnswer_e930_ea5c + numTolerance_e930_ea5c;
+    const isCorrect = (userVal >= lower && userVal <= upper);
+    if (isCorrect) {
+      resultDiv.style.color = 'var(--qti-success-fg, #008000)';
+      resultDiv.textContent = 'CORRECT';
+    } else {
+      resultDiv.style.color = 'var(--qti-error-fg, #9b1b1b)';
+      if (userVal > upper) {
+        resultDiv.style.color = 'var(--qti-error-fg, #9b1b1b)';
+        resultDiv.textContent = 'Too high. Try again.';
+      } else if (userVal < lower) {
+        resultDiv.style.color = 'var(--qti-warning-fg, #b37100)';
+        resultDiv.textContent = 'Too low. Try again.';
+      } else {
+        resultDiv.textContent = 'Incorrect. Try again.';
+      }
+    }
+  }
+  document.addEventListener('DOMContentLoaded', function() {
+    const inputEl = document.getElementById('num_input_e930_ea5c');
+    if (!inputEl) return;
+    inputEl.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter') { e.preventDefault(); checkAnswer_e930_ea5c(); }
+    });
+  });
+  </script>
+
+  </div>
+
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2024-2025 Dr. Neil Voss * Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">
+  CC BY-SA 4.0
+  <i class="fa-brands fa-creative-commons"></i>
+  <i class="fa-brands fa-creative-commons-by"></i>
+  <i class="fa-brands fa-creative-commons-sa"></i>
+</a>
+
+    </div>
+  
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/vosslab" target="_blank" rel="noopener" title="GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://www.youtube.com/neilvosslab" target="_blank" rel="noopener" title="YouTube" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M549.7 124.1c-6.2-23.7-24.8-42.3-48.3-48.6C458.9 64 288.1 64 288.1 64S117.3 64 74.7 75.5c-23.5 6.3-42 24.9-48.3 48.6C15 167 15 256.4 15 256.4s0 89.4 11.4 132.3c6.3 23.6 24.8 41.5 48.3 47.8C117.3 448 288.1 448 288.1 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zM232.2 337.6V175.2l142.7 81.2z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://bsky.app/profile/neilvosslab.bsky.social" target="_blank" rel="noopener" title="Bluesky" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M407.8 294.7c-3.3-.4-6.7-.8-10-1.3 3.4.4 6.7.9 10 1.3M288 227.1c-26.1-50.7-97.1-145.2-163.1-191.8C61.6-9.4 37.5-1.7 21.6 5.5 3.3 13.8 0 41.9 0 58.4S9.1 194 15 213.9c19.5 65.7 89.1 87.9 153.2 80.7 3.3-.5 6.6-.9 10-1.4-3.3.5-6.6 1-10 1.4-93.9 14-177.3 48.2-67.9 169.9C220.6 589.1 265.1 437.8 288 361.1c22.9 76.7 49.2 222.5 185.6 103.4 102.4-103.4 28.1-156-65.8-169.9-3.3-.4-6.7-.8-10-1.3 3.4.4 6.7.9 10 1.3 64.1 7.1 133.6-15.1 153.2-80.7C566.9 194 576 75 576 58.4s-3.3-44.7-21.6-52.9c-15.8-7.1-40-14.9-103.2 29.8C385.1 81.9 314.1 176.4 288 227.1"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://www.linkedin.com/in/vosslab" target="_blank" rel="noopener" title="LinkedIn" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77m282.1 320h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://www.facebook.com/neilvosslab" target="_blank" rel="noopener" title="Facebook" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256c0 120 82.7 220.8 194.2 248.5V334.2h-52.8V256h52.8v-33.7c0-87.1 39.4-127.5 125-127.5 16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287v175.9C413.8 494.8 512 386.9 512 256"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://www.patreon.com/vosslab" target="_blank" rel="noopener" title="Patreon" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M490 153.8c-.1-65.4-51-119-110.7-138.3-74.2-24-172-20.5-242.9 12.9C50.6 68.9 23.6 157.7 22.6 246.2 21.8 319 29 510.6 137.2 512c80.3 1 92.3-102.5 129.5-152.3 26.4-35.5 60.5-45.5 102.4-55.9 72-17.8 121.1-74.7 121-150z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://paypal.me/vosslab" target="_blank" rel="noopener" title="PayPal" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M111.9 295.9c-3.5 19.2-17.4 108.7-21.5 134-.3 1.8-1 2.5-3 2.5H12.8c-7.6 0-13.1-6.6-12.1-13.9L59.3 46.6c1.5-9.6 10.1-16.9 20-16.9 152.3 0 165.1-3.7 204 11.4 60.1 23.3 65.6 79.5 44 140.3-21.5 62.6-72.5 89.5-140.1 90.3-43.4.7-69.5-7-75.3 24.2M357.6 152c-1.8-1.3-2.5-1.8-3 1.3-2 11.4-5.1 22.5-8.8 33.6-39.9 113.8-150.5 103.9-204.5 103.9-6.1 0-10.1 3.3-10.9 9.4-22.6 140.4-27.1 169.7-27.1 169.7-1 7.1 3.5 12.9 10.6 12.9h63.5c8.6 0 15.7-6.3 17.4-14.9.7-5.4-1.1 6.1 14.4-91.3 4.6-22 14.3-19.7 29.3-19.7 71 0 126.4-28.8 142.9-112.3 6.5-34.8 4.6-71.4-23.8-92.6"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.footer"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../../assets/scripts/custom.js"></script>
+      
+    
+  </body>
+</html>
