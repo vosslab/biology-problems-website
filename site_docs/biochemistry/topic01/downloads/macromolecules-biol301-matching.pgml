@@ -5,7 +5,7 @@
 ## DBsubject('Biochemistry')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-02-25')
+## Date('2026-04-13')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -60,11 +60,11 @@ our @ALPHABET = ('A' .. 'Z');
     'only macromolecule that often contains sulfur atoms',
     'speed up chemical reactions',
     'side chains',
-    'α-helix or alpha-helix',
-    'β-sheet or beta-sheet',
-    'β-strand or beta-strand',
-    'β-pleated sheet or beta-pleated sheet',
-    'contains an alpha-carbon or Cα',
+    '&alpha;-helix or alpha-helix',
+    '&beta;-sheet or beta-sheet',
+    '&beta;-strand or beta-strand',
+    '&beta;-pleated sheet or beta-pleated sheet',
+    'contains an alpha-carbon or C<sub>&alpha;</sub>',
     'disulfide bridges',
     'hydrophobic core',
     'denaturation',
@@ -80,7 +80,7 @@ our @ALPHABET = ('A' .. 'Z');
     'triose',
     'ketose',
     'aldose',
-    'chemical formula of C&gt;₆H&gt;₁₂O&gt;₆',
+    'chemical formula of C<sub>&gt;6</sub>H<sub>&gt;12</sub>O<sub>&gt;6</sub>',
     'ribose',
     'glucose',
     'galactose',
@@ -90,8 +90,8 @@ our @ALPHABET = ('A' .. 'Z');
     'maltose',
     'lactose',
     'glycosidic linkage',
-    'α-glycosidic linkage',
-    'β-glycosidic linkage',
+    '&alpha;-glycosidic linkage',
+    '&beta;-glycosidic linkage',
     'oligosaccharides',
     'polysaccharides',
     'starch',
@@ -103,9 +103,9 @@ our @ALPHABET = ('A' .. 'Z');
     'dietary fiber',
     'exoskeleton of arthropods',
     'macromolecule used to make strong and flexible surgical thread',
-    'pectin – a heteropolysaccharide present in plant cell walls',
-    'xanthan gum – polysaccharide used as a thickening agent in food',
-    'agarose – a heteropolysaccharide extracted from certain red seaweed',
+    'pectin &ndash; a heteropolysaccharide present in plant cell walls',
+    'xanthan gum &ndash; polysaccharide used as a thickening agent in food',
+    'agarose &ndash; a heteropolysaccharide extracted from certain red seaweed',
   ],
   'lipids' => [
     'vegetable oil',
@@ -115,7 +115,7 @@ our @ALPHABET = ('A' .. 'Z');
     'wax',
     'fat',
     'fatty acids',
-    'ω-3 fatty acids',
+    '&omega;-3 fatty acids',
     'saturated fatty acids',
     'unsaturated fatty acids',
     'chemical process of hydrogenation',
@@ -133,7 +133,7 @@ our @ALPHABET = ('A' .. 'Z');
     'does NOT dissolve well in water',
     'long-term energy storage from food',
     'membrane bilayer',
-    'phospho<span style="color: #e65400; font-weight:700;">lipids</span>',
+    'phospho<span style="color: #b74300; font-weight:700;">lipids</span>',
     'triglycerides or fat',
     'steroids',
     'cholesterol',
@@ -150,7 +150,7 @@ our @ALPHABET = ('A' .. 'Z');
     'deoxyribose backbone',
     'double stranded helix',
     'anti-parallel helix',
-    '5′ → 3′ direction',
+    '5&prime; &rarr; 3&prime; direction',
     'polymer is connected by phosphates',
     'backbone of sugar-phosphate units',
     'adenine',
@@ -221,10 +221,10 @@ push(@answers, (map { $_->[1] } @q_and_a));
 # HTML-safe answer labels
 # -------------------------------
 %answer_html = (
-  'proteins' => '<span style="color: #009900; font-weight:700;">proteins</span>',
-  'carbohydrates' => '<span style="color: #0039e6; font-weight:700;">carbohydrates</span>',
-  'lipids' => '<span style="color: #e65400; font-weight:700;">lipids</span>',
-  'nucleic acids' => '<span style="color: #b30077; font-weight:700;">nucleic acids</span>',
+  'proteins' => '<span style="color: #007a00; font-weight:700;">proteins</span>',
+  'carbohydrates' => '<span style="color: #003fff; font-weight:700;">carbohydrates</span>',
+  'lipids' => '<span style="color: #b74300; font-weight:700;">lipids</span>',
+  'nucleic acids' => '<span style="color: #c80085; font-weight:700;">nucleic acids</span>',
 );
 
 @answers_sorted_html = map { $answer_html{$_} || $_ } @answers_sorted;
@@ -269,9 +269,12 @@ HEADER_TEXT(<<END_STYLE);
 </style>
 END_STYLE
 
+$question_text = 'Match each of the following types of macromolecules with their corresponding macromolecules.';
+$note_text = 'Note: Each choice will be used exactly once.';
+
 BEGIN_PGML
-Match each of the following types of macromolecules with their corresponding macromolecules.
-Note: Each choice will be used exactly once.
+[$question_text]*
+[$note_text]*
 
 [@ MODES(HTML => '<div class="two-column"><div>') @]*
 [@ join(
