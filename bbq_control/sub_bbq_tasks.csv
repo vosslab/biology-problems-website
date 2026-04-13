@@ -1,4 +1,4 @@
-chapter,topic,script,flags,input,notes
+subject,topic,script,flags,input,notes
 biochemistry,topic04,{bp_root}/biochemistry-problems/alpha_helix_h-bonds.py,--mc,,
 biochemistry,topic02,{bp_root}/biochemistry-problems/Henderson-Hasselbalch.py,--equation,,
 biochemistry,topic04,{bp_root}/biochemistry-problems/ionic_bond_amino_acids.py,,,

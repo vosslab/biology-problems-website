@@ -1,4 +1,4 @@
-chapter,topic,script,flags,input,notes
+subject,topic,script,flags,input,notes
 biochemistry,topic01,{bp_root}/biochemistry-problems/PUBCHEM/which_macromolecule.py,,,
 biochemistry,topic01,{bp_root}/biochemistry-problems/which_hydrophobic-simple.py,,,
 biochemistry,topic01,YMATCH,,macromolecules.yml,
