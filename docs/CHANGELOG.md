@@ -1,5 +1,23 @@
 # Changelog
 
+## 2026-04-18
+
+### Additions and New Features
+- Added [devel/ui_ux_review.mjs](../devel/ui_ux_review.mjs), a Playwright driver that visits key mkdocs pages at desktop and mobile viewports, captures full-page screenshots into `test-results/ui_ux_review/`, and writes `report.json` with per-page metrics (status, H1 count, image count, missing alt text, tables, external links missing `rel=noopener`).
+- Added [docs/UI_UX_REVIEW_2026-04-18.md](UI_UX_REVIEW_2026-04-18.md) capturing the findings of a rendered-site UI/UX pass against the Material theme.
+
+### Behavior or Interface Changes
+- Added `test-results/` and `node_modules/` to `.gitignore` so Playwright screenshots and npm deps stay out of git.
+- Initialized root `package.json` and installed `playwright` as a dev dependency (plus `chromium` browser via `npx playwright install chromium`) so the review script can run locally per [docs/PLAYWRIGHT_USAGE.md](PLAYWRIGHT_USAGE.md).
+
+### Decisions and Failures
+- User feedback during review: the repeated `(LibreTexts Unit X, Chapter Y)` labels on each subject index "stand out like a sore thumb"; findings doc now recommends replacing the text label with a compact LibreTexts logo icon (or a distinct brand-blue color if text is kept) so the word "LibreTexts" is not repeated ~20 times per page.
+- Review flagged 25+ broken subject-to-topic links (`mkdocs serve` already warns about them), an orphan `biotechnology/` subject not in `mkdocs.yml` nav, inconsistent LibreTexts link styling across subject indexes, mobile download-button wall on generated topic pages, and missing `rel=noopener` on several `target=_blank` anchors (8 on `site_docs/author.md`, plus 1 each on a few topic and puzzle pages).
+- Recommendation documented: reintroduce a generated `topics_metadata.yml` (question counts + LibreTexts URLs) alongside the existing subject `index.md` prose, so the generator can suppress links to empty topics and surface question-count chips. See findings doc for the full rationale.
+
+### Developer Tests and Notes
+- Ran `node devel/ui_ux_review.mjs` against `mkdocs serve -a 127.0.0.1:8765`; 32 page visits, all HTTP 200, 33 screenshots saved under `test-results/ui_ux_review/`.
+
 ## 2026-04-13
 
 ### Additions and New Features

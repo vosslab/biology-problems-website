@@ -4,15 +4,21 @@ How to use Playwright for browser automation and visual testing in this repo.
 
 ## Install
 
-Playwright is a dev dependency. After cloning:
+Playwright is a dev dependency. If the repo does not already have a
+`package.json`, create one first. Then install Playwright and its browsers:
 
 ```bash
-npm install
+npm init -y
+npm install --save-dev playwright
 npx playwright install
 ```
 
-`npm install` gets the `playwright` Node library. `npx playwright install` downloads
-browser binaries (Chromium, Firefox, WebKit).
+`npm init -y` creates a default `package.json` at the repo root. `npm install
+--save-dev playwright` gets the `playwright` Node library and records it under
+`devDependencies`. `npx playwright install` downloads browser binaries
+(Chromium, Firefox, WebKit). If `package.json` already exists, skip
+`npm init -y` and just run `npm install` (to pick up existing deps) followed
+by `npx playwright install`.
 
 ## Key rule: scripts must run from the project root
 
@@ -31,10 +37,10 @@ node /tmp/_test_game_ui.mjs
 
 ```bash
 cd /Users/vosslab/nsh/cell-culture-game-claude
-node devel/test_game_ui.mjs
+node tests/test_game_ui.mjs
 ```
 
-Put test scripts inside the repo (e.g., `devel/` or `scripts/`), not in `/tmp/`.
+Put test scripts in `tests/` at the repo root, not in `/tmp/`.
 
 ## Packages
 
@@ -77,7 +83,7 @@ await browser.close();
 Run with:
 
 ```bash
-node devel/my_test.mjs
+node tests/my_test.mjs
 ```
 
 ## Common patterns
@@ -139,6 +145,8 @@ Should show `playwright@x.x.x` under the project.
 
 ## File conventions
 
-- Put Playwright scripts in `devel/` (development/testing utilities)
-- Put screenshots in `test-results/` (gitignored)
-- Use `.mjs` extension for ES module scripts
+- Put Playwright scripts in `tests/` at the repo root. Mixing with pytest files
+  (`test_*.py`) is fine; see [docs/REPO_STYLE.md](docs/REPO_STYLE.md).
+- Use `.mjs` extension for ES module scripts (e.g., `tests/test_game_ui.mjs`).
+- Put screenshots in `test-results/` (gitignored).
+- `devel/` is reserved for one-off developer tools, not bulk test files.
