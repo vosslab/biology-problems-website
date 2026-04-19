@@ -21,7 +21,6 @@ theme:
     - content.footer
     - navigation.path
     - navigation.indexes
-    - navigation.sections
     - navigation.top
 
 markdown_extensions:

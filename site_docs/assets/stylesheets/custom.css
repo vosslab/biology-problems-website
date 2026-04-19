@@ -228,16 +228,18 @@ img[style] {
 }
 
 /* LibreTexts chapter link icon used in subject index topic lists.
- * Replaces the previous inline "(LibreTexts Unit N, Chapter M)" text. */
-.lt-icon {
+ * Replaces the previous inline "(LibreTexts Unit N, Chapter M)" text.
+ * Scoped under .md-typeset so it wins over Material's .md-typeset img
+ * rule on specificity. */
+.md-typeset img.lt-icon {
   height: 1em;
+  max-height: 1.2em;
   width: auto;
   vertical-align: -0.15em;
   opacity: 0.75;
-  color: #127bc4;
 }
 
-.lt-icon:hover {
+.md-typeset img.lt-icon:hover {
   opacity: 1;
 }
 

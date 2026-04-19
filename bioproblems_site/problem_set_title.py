@@ -11,14 +11,13 @@ import local_llm_wrapper.llm as llm
 
 #==============
 # This function generates a descriptive prompt for summarizing problem statements.
-def generate_title_prompt(file_path: str, problem_statements: list, save_prompt: bool = False) -> str:
+def generate_title_prompt(file_path: str, problem_statements: list) -> str:
 	"""
 	Generate a prompt for summarizing homework problems by generating a concise section title.
 
 	Args:
 		file_path (str): Path to the input file.
 		problem_statements (list[str]): List of problem statements.
-		save_prompt (bool): Whether to save the generated prompt to a file.
 
 	Returns:
 		str: The formatted prompt for generating a title.
@@ -110,11 +109,6 @@ def generate_title_prompt(file_path: str, problem_statements: list, save_prompt:
 	for i, problem in enumerate(problem_statements, start=1):
 		# Add each problem statement, numbered, to the prompt
 		prompt += f"<problem {i}>\n{problem.strip()}\n</problem {i}>\n\n"
-
-	# If the save_prompt flag is True, save the generated prompt to a file
-	if save_prompt is True:
-		with open('prompt.txt', 'w') as prompt_file:
-			prompt_file.write(prompt)
 
 	# Return the generated prompt
 	return prompt
@@ -264,14 +258,13 @@ def load_problem_statements_from_file(file_path: str) -> tuple:
 #==============
 
 # This function orchestrates the process of generating a problem title from a file.
-def get_problem_title_from_file(client: llm.LLMClient, file_path: str, save_prompt: bool = False) -> str:
+def get_problem_title_from_file(client: llm.LLMClient, file_path: str) -> str:
 	"""
 	Generate a problem title from a file containing problem statements.
 
 	Args:
 		client (llm.LLMClient): Pre-built client (one per generate_pages.py run).
 		file_path (str): Path to the file containing problem statements.
-		save_prompt (bool): Whether to save the generated prompt to a file.
 
 	Returns:
 		str: The generated problem title.
@@ -284,7 +277,7 @@ def get_problem_title_from_file(client: llm.LLMClient, file_path: str, save_prom
 	problem_statements = load_problem_statements_from_file(file_path)
 
 	# Generate a prompt using the loaded problem statements
-	prompt = generate_title_prompt(file_path, problem_statements, save_prompt)
+	prompt = generate_title_prompt(file_path, problem_statements)
 
 	# Run the local LLM to generate a response for the prompt
 	response_content = run_llm(client, prompt)

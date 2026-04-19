@@ -2,6 +2,21 @@
 
 ## 2026-04-18
 
+### Behavior or Interface Changes
+- Removed `navigation.sections` from [mkdocs.yml](../mkdocs.yml) `theme.features` so subject groups (Biochemistry, Genetics, Laboratory, Molecular Biology, Biostatistics, Other) render as collapsible sections again rather than a long always-expanded left rail.
+- Scoped the `.lt-icon` CSS rule in [site_docs/assets/stylesheets/custom.css](../site_docs/assets/stylesheets/custom.css) to `.md-typeset img.lt-icon` with `height: 1em; max-height: 1.2em;` so the LibreTexts icon renders at text cap-height instead of full natural size; Material's `.md-typeset img` rule no longer wins on specificity.
+- Topic pages (e.g., `/biochemistry/topic01/`) now render the LibreTexts icon (`.lt-icon`) next to the `**LibreTexts reference:**` link, matching the subject-index convention. Code in [bioproblems_site/topic_page.py](../bioproblems_site/topic_page.py).
+
+### Fixes and Maintenance
+- Dropped dead parameters in [bioproblems_site/topic_page.py](../bioproblems_site/topic_page.py): `get_topic_title(folder_path)` and `get_libretexts_link(topic_folder)` no longer accept the previously-ignored `topic_number` / `relative_topic_name` arguments. Single in-module caller updated.
+- Dropped the never-used `save_prompt` argument from `generate_title_prompt` and `get_problem_title_from_file` in [bioproblems_site/problem_set_title.py](../bioproblems_site/problem_set_title.py) and removed the associated dead `with open('prompt.txt', 'w')` branch.
+
+### Decisions and Failures
+- Considered consolidating the three trailing boolean kwargs of `_write_subject_index` (`adopt_existing`, `dry_run`, `verbose`) into a new `WriteFlags` dataclass module; skipped because both call sites are already explicit and a dataclass only moves the keyword-arg typing around. Plan file: [conduct-a-deep-review-partitioned-pony.md](../../.claude/plans/conduct-a-deep-review-partitioned-pony.md) (WP-3c was gated as conditional).
+
+### Developer Tests and Notes
+- `pytest tests/ -q` green (1103 passed) after the cleanup.
+
 ### Additions and New Features
 - Added `bioproblems_site/llm_helpers.py` (project-local seam over the vendored `local_llm_wrapper.llm` facade), mirroring `validate_ollama_model` and `create_llm_client` from the sibling `biology-problems` repo.
 - Added `-O/--ollama` and `-m/--model MODEL` flags to `generate_pages.py`. `--model` implies `--ollama`; when set, `validate_ollama_model` runs once at startup before any topic page is rendered. The pipeline builds a single `LLMClient` and threads it through `RenameOptions.llm_client` -> `update_index_md(client=...)` -> `get_problem_set_title(client, ...)` -> `get_problem_title_from_file(client, ...)`. No per-call client cache; one client per `generate_pages.py` run.
