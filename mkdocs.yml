@@ -25,6 +25,7 @@ theme:
 
 markdown_extensions:
 - attr_list
+- md_in_html
 
 plugins:
 - search
@@ -74,12 +75,13 @@ copyright: >
 nav:
 - "<i class='fa fa-home'></i> Home": index.md
 - "<i class='fa fa-puzzle-piece'></i> Daily Puzzles":
+  - daily_puzzles/index.md
   - "<i class='fa fa-dice-five'></i> Peptidyle": daily_puzzles/peptidyle.md
   - "<i class='fa fa-dna'></i> Deletion mutants": daily_puzzles/deletion_mutants.md
   - "<i class='fa fa-flask'></i> Mutant screen": daily_puzzles/mutant_screen.md
   - "<i class='fa fa-sitemap'></i> Biomacromolecules": daily_puzzles/biomacromolecule.md
 # BEGIN GENERATED SUBJECT NAV
-- "Biochemistry":
+- "🧪 Biochemistry":
   - biochemistry/index.md
   - "01: Life Molecules": biochemistry/topic01/index.md
   - "02: Water and pH": biochemistry/topic02/index.md
@@ -94,7 +96,7 @@ nav:
   - "12: Lipids": biochemistry/topic12/index.md
   - "16: Sugar Metabolism": biochemistry/topic16/index.md
   - "20: Photosynthesis": biochemistry/topic20/index.md
-- "Genetics":
+- "🪰 Genetics":
   - genetics/index.md
   - "01: Genetic Disorders": genetics/topic01/index.md
   - "02: DNA Structure": genetics/topic02/index.md
@@ -107,26 +109,26 @@ nav:
   - "09: Chromosomal Disorders": genetics/topic09/index.md
   - "10: Population Genetics": genetics/topic10/index.md
   - "11: Gene Trees": genetics/topic11/index.md
-- "Laboratory":
+- "🔬 Laboratory":
   - laboratory/index.md
   - "01: Measurement Basics": laboratory/topic01/index.md
   - "02: Solutions": laboratory/topic02/index.md
   - "03: Dilutions": laboratory/topic03/index.md
   - "04: Serial Dilutions": laboratory/topic04/index.md
   - "11: PCR and Electrophoresis": laboratory/topic11/index.md
-- "Molecular Biology":
+- "🧬 Molecular Biology":
   - molecular_biology/index.md
   - "04: Manipulation of Nucleic Acids": molecular_biology/topic04/index.md
   - "05: Cloning and Sequencing": molecular_biology/topic05/index.md
   - "07: Transcription": molecular_biology/topic07/index.md
   - "08: RNA Processing and CRISPR": molecular_biology/topic08/index.md
   - "09: Translation": molecular_biology/topic09/index.md
-- "Biostatistics":
+- "🎲 Biostatistics":
   - biostatistics/index.md
   - "05: Hypothesis Testing": biostatistics/topic05/index.md
   - "06: Grouping with Z-Scores": biostatistics/topic06/index.md
   - "08: Graph Interpretation": biostatistics/topic08/index.md
-- "Other":
+- "📚 Other":
   - other/index.md
   - "01: Cell Biology": other/topic01/index.md
 # END GENERATED SUBJECT NAV

@@ -15,6 +15,23 @@ def test_missing_markers_raises(tmp_path):
 		mkdocs_nav.replace_nav_block(str(mkdocs_path), "payload")
 
 
+def test_display_labels_read_from_list_shape(tmp_path):
+	# Labels must survive when the subject's value is a list (the
+	# navigation.indexes shape) and not only when it is a bare string.
+	mkdocs_path = tmp_path / "mkdocs.yml"
+	mkdocs_path.write_text(
+		"nav:\n"
+		"- Home: index.md\n"
+		"- \"[icon] Biochemistry\":\n"
+		"  - biochemistry/index.md\n"
+		"  - \"01: Life Molecules\": biochemistry/topic01/index.md\n"
+		"- \"[icon] Genetics\": genetics/index.md\n"
+	)
+	labels = mkdocs_nav._subject_display_labels(str(mkdocs_path))
+	assert labels["biochemistry"] == "[icon] Biochemistry"
+	assert labels["genetics"] == "[icon] Genetics"
+
+
 def test_replacement_preserves_surrounding_lines(tmp_path):
 	mkdocs_path = tmp_path / "mkdocs.yml"
 	mkdocs_path.write_text(

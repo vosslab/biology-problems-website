@@ -30,21 +30,32 @@ def _count_chip(question_count: int) -> str:
 
 
 def _libretexts_icon_anchor(link: "metadata_module.LibreTextsLink") -> str:
-	"""Return the LibreTexts icon anchor: <a><img class=lt-icon></a>.
+	"""Return the LibreTexts labeled anchor: logo + short "Chapter X.Y" text.
 
-	Label ("Unit N, Chapter M" or just "Chapter M") lives in aria-label
-	for screen readers; visible glyph is the icon only.
+	Visible label uses the compact "Chapter unit.chapter" form (e.g.,
+	"Chapter 1.2") so readers can tell at a glance which LibreTexts
+	section a topic references. The longer "LibreTexts Unit N, Chapter M"
+	phrasing lives in aria-label and title for screen readers and
+	hover tooltips.
 	"""
+	# Compact visible label: "Chapter unit.chapter" when unit exists,
+	# otherwise plain "Chapter M".
 	if link.unit and link.chapter:
-		label = f"Unit {link.unit}, Chapter {link.chapter}"
+		visible_label = f"Chapter {link.unit}.{link.chapter}"
+		aria_label = f"LibreTexts Unit {link.unit}, Chapter {link.chapter}"
 	else:
-		label = f"Chapter {link.chapter}"
-	aria = f"LibreTexts {label}"
-	return (
-		f'<a href="{link.url}" target="_blank" rel="noopener" '
-		f'aria-label="{aria}" title="Open LibreTexts chapter">'
-		f'<img src="{LIBRETEXTS_ICON_SRC}" alt="" class="lt-icon"></a>'
+		visible_label = f"Chapter {link.chapter}"
+		aria_label = f"LibreTexts {visible_label}"
+	# rel="noopener noreferrer" prevents tabnabbing and opener leaks.
+	anchor = (
+		f'<a class="lt-link" href="{link.url}" target="_blank" '
+		f'rel="noopener noreferrer" aria-label="{aria_label}" '
+		f'title="Open on LibreTexts (new tab)">'
+		f'<img src="{LIBRETEXTS_ICON_SRC}" alt="" class="lt-icon">'
+		f'<span class="lt-label">{visible_label}</span>'
+		f'</a>'
 	)
+	return anchor
 
 
 #============================================
