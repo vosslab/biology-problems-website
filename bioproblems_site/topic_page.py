@@ -98,7 +98,10 @@ def record_stat(stats: dict, format_key: str, bucket: str) -> None:
 class RenderOptions:
 	"""Options consumed by render_all(). Populated by the pipeline."""
 	download_formats: tuple = DOWNLOAD_FORMAT_KEYS
-	no_downloads: bool = False
+	# When False, do not create missing artifact files. Buttons still
+	# render for files that already exist on disk; buttons for missing
+	# formats are omitted.
+	generate_downloads: bool = False
 	force_downloads: bool = False
 	verbose: bool = True
 	# Pre-built LLMClient for problem-set title generation. The pipeline
@@ -302,6 +305,8 @@ def generate_download_button_row(
 	force_downloads: bool,
 	verbose: bool,
 	stats: dict,
+	*,
+	generate_downloads: bool = False,
 ) -> str:
 	"""
 	Generates a row of HTML buttons for downloading various file types.
@@ -395,12 +400,29 @@ def generate_download_button_row(
 				file_type['extension'],
 			)
 		exists_before = os.path.isfile(out_file_path)
+		# When generate_downloads is off, never create missing artifact
+		# files. Skip the button entirely for formats that do not yet
+		# exist on disk.
+		if not generate_downloads and not exists_before:
+			if verbose:
+				print(color_text(
+					f"  SKIP {file_type['display_name']}: "
+					f"not generating missing artifact",
+					COLOR_YELLOW,
+				))
+			record_stat(stats, type_key, "skipped")
+			continue
 		# Check if the source file is newer than the existing download file
 		source_is_newer = False
 		if exists_before:
 			source_mtime = os.path.getmtime(bbq_file_name)
 			download_mtime = os.path.getmtime(out_file_path)
 			source_is_newer = source_mtime > download_mtime
+		# Honor generate_downloads for the stale-rebuild path too:
+		# render the button pointing at the stale file rather than
+		# rebuilding.
+		if source_is_newer and not generate_downloads:
+			source_is_newer = False
 		if exists_before and not force_downloads and not source_is_newer:
 			if verbose:
 				print(color_text(f"  FOUND {file_type['display_name']}: {out_file_path}", COLOR_GREEN))
@@ -600,6 +622,8 @@ def update_index_md(
 	stats: dict,
 	base_dir: str,
 	client=None,
+	*,
+	generate_downloads: bool = False,
 ) -> None:
 	"""Update or create the index.md file for the topic.
 
@@ -700,6 +724,7 @@ def update_index_md(
 				force_downloads,
 				verbose,
 				stats,
+				generate_downloads=generate_downloads,
 			)
 			index_md.write(download_button_row)
 			index_md.write("<details>\n")
@@ -789,6 +814,7 @@ def render_all(options: "RenderOptions | None" = None) -> None:
 			stats,
 			base_dir,
 			client=options.llm_client,
+			generate_downloads=options.generate_downloads,
 		)
 	if options.verbose:
 		print("\n\nSummary:")
