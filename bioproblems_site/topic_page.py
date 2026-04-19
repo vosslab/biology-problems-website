@@ -101,6 +101,9 @@ class RenderOptions:
 	no_downloads: bool = False
 	force_downloads: bool = False
 	verbose: bool = True
+	# Pre-built LLMClient for problem-set title generation. The pipeline
+	# constructs one client at startup based on --ollama / --model flags.
+	llm_client: object = None
 
 #==============
 
@@ -495,7 +498,7 @@ def is_valid_title(title: str) -> bool:
 
 #============================================
 
-def get_problem_set_title(bbq_file: str) -> str:
+def get_problem_set_title(client, bbq_file: str) -> str:
 	"""
 	Extracts or generates the title for a problem set based on the provided file path.
 
@@ -537,7 +540,9 @@ def get_problem_set_title(bbq_file: str) -> str:
 	max_retries = 3
 	problem_set_title = None
 	for attempt in range(max_retries):
-		candidate = bioproblems_site.problem_set_title.get_problem_title_from_file(bbq_file)
+		candidate = bioproblems_site.problem_set_title.get_problem_title_from_file(
+			client, bbq_file,
+		)
 		if is_valid_title(candidate):
 			problem_set_title = candidate
 			break
@@ -597,6 +602,7 @@ def update_index_md(
 	verbose: bool,
 	stats: dict,
 	base_dir: str,
+	client=None,
 ) -> None:
 	"""Update or create the index.md file for the topic.
 
@@ -670,7 +676,7 @@ def update_index_md(
 			record_stat(stats, "selftest", "generated")
 
 			# Generate the problem set title using the LLM
-			problem_set_title = get_problem_set_title(bbq_file)
+			problem_set_title = get_problem_set_title(client, bbq_file)
 			print(color_text(f"  Problem set title: {problem_set_title}", COLOR_CYAN))
 
 			# Add content to the index.md file
@@ -770,6 +776,7 @@ def render_all(options: "RenderOptions | None" = None) -> None:
 			options.verbose,
 			stats,
 			base_dir,
+			client=options.llm_client,
 		)
 	if options.verbose:
 		print("\n\nSummary:")

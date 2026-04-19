@@ -12,6 +12,7 @@ import bioproblems_site.scanner as scanner_module
 import bioproblems_site.subject_index as subject_index_module
 import bioproblems_site.topic_page as topic_page_module
 import bioproblems_site.mkdocs_nav as mkdocs_nav_module
+import bioproblems_site.llm_helpers as llm_helpers
 
 
 #============================================
@@ -79,6 +80,8 @@ def run(
 	adopt_existing: bool = False,
 	dry_run: bool = False,
 	verbose: bool = True,
+	model: "str | None" = None,
+	use_ollama: bool = False,
 	site_docs_dir: str = DEFAULT_SITE_DOCS,
 	metadata_path: str = DEFAULT_METADATA_PATH,
 	mkdocs_path: str = DEFAULT_MKDOCS_PATH,
@@ -124,7 +127,13 @@ def run(
 					COLOR_YELLOW,
 				))
 		else:
-			options = topic_page_module.RenderOptions(verbose=verbose)
+			# Build a single LLMClient up front; reused for every topic page.
+			llm_client = llm_helpers.create_llm_client(
+				model=model, use_ollama=use_ollama,
+			)
+			options = topic_page_module.RenderOptions(
+				verbose=verbose, llm_client=llm_client,
+			)
 			topic_page_module.render_all(options)
 
 	# Nav block regen runs whenever indexes were rewritten (nav entries

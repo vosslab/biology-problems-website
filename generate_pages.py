@@ -12,6 +12,7 @@ import argparse
 
 # local repo modules
 import bioproblems_site.pipeline as pipeline
+import bioproblems_site.llm_helpers as llm_helpers
 
 
 def parse_args() -> argparse.Namespace:
@@ -27,13 +28,36 @@ def parse_args() -> argparse.Namespace:
 	)
 	parser.add_argument("-n", "--dry-run", dest="dry_run", action="store_true")
 	parser.add_argument("-q", "--quiet", dest="verbose", action="store_false")
+	parser.add_argument(
+		"-O", "--ollama", dest="use_ollama", action="store_true",
+		help="Use Ollama instead of Apple Intelligence (auto-selects model by RAM).",
+	)
+	parser.add_argument(
+		"-m", "--model", dest="model", type=str, default=None,
+		help="Use Ollama with this exact local model (implies --ollama).",
+	)
 	parser.set_defaults(verbose=True)
 	return parser.parse_args()
 
 
 def main() -> None:
 	args = parse_args()
-	pipeline.run(**vars(args))
+	# --model implies --ollama; collapse to a single boolean for downstream callers.
+	use_ollama = args.use_ollama or (args.model is not None)
+	# Pre-flight: fail fast if the requested Ollama model is not installed.
+	if args.model:
+		llm_helpers.validate_ollama_model(args.model)
+	pipeline.run(
+		subject_filter=args.subject_filter,
+		topic_filter=args.topic_filter,
+		indexes_only=args.indexes_only,
+		topics_only=args.topics_only,
+		adopt_existing=args.adopt_existing,
+		dry_run=args.dry_run,
+		verbose=args.verbose,
+		model=args.model,
+		use_ollama=use_ollama,
+	)
 
 
 if __name__ == "__main__":

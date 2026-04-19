@@ -3,5 +3,6 @@ lxml
 mkdocs-include-markdown-plugin
 mkdocs-material
 ollama
+# local-llm-wrapper  # vendored at ~/nsh/local-llm-wrapper via PYTHONPATH for now
 PyYAML
 textual

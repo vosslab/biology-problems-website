@@ -22,6 +22,9 @@ REQUIREMENT_FILES = (
 	os.path.join("config_files", "pip_extras.txt"),
 )
 LOCAL_IMPORT_WHITELIST = {
+	# Vendored at ~/nsh/local-llm-wrapper, exposed via PYTHONPATH in source_me.sh.
+	# Also published on PyPI as local-llm-wrapper.
+	"local_llm_wrapper",
 }
 IMPORT_REQUIREMENT_ALIASES = {
 	"applescript": "py-applescript",
