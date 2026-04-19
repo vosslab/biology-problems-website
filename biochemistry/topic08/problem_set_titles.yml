@@ -1,8 +1,5 @@
-bbq-chymotrypsin_substrate-questions.txt: Cleavage Sites for Chymotrypsin Digestion
-  of Peptides
-bbq-metabolic_pathway_allosteric-questions.txt: Allosteric Enzymes in Metabolic Pathways
-bbq-metabolic_pathway_inhibitor-BCHM355-questions.txt: Determining Enzyme Inhibition
-  Type from Metabolic Pathway Descriptions
-bbq-michaelis_menten_table-inhibition-questions.txt: Determining Inhibition Type from
-  Enzyme Activity Data
+bbq-chymotrypsin_substrate-questions.txt: "Cleavage Sites for Chymotrypsin Digestion of Peptides"
+bbq-metabolic_pathway_allosteric-questions.txt: "Allosteric Enzymes in Metabolic Pathways"
+bbq-metabolic_pathway_inhibitor-BCHM355-questions.txt: "Determining Enzyme Inhibition Type from Metabolic Pathway Descriptions"
+bbq-michaelis_menten_table-inhibition-questions.txt: "Determining Inhibition Type from Enzyme Activity Data"
 last edit: Mon Mar 30 16:12:50 2026
