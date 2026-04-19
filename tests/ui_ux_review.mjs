@@ -18,15 +18,28 @@ const pages = [
 	{ slug: 'subject_biostats', url: '/biostatistics/' },
 	{ slug: 'subject_other', url: '/other/' },
 	{ slug: 'topic_biochem01', url: '/biochemistry/topic01/' },
+	{ slug: 'topic_biochem20', url: '/biochemistry/topic20/' },
 	{ slug: 'topic_genetics01', url: '/genetics/topic01/' },
+	{ slug: 'topic_genetics11', url: '/genetics/topic11/' },
 	{ slug: 'topic_lab01', url: '/laboratory/topic01/' },
+	{ slug: 'topic_lab11', url: '/laboratory/topic11/' },
+	{ slug: 'topic_molbio04', url: '/molecular_biology/topic04/' },
+	{ slug: 'topic_molbio09', url: '/molecular_biology/topic09/' },
+	{ slug: 'topic_biostats05', url: '/biostatistics/topic05/' },
+	{ slug: 'topic_biostats08', url: '/biostatistics/topic08/' },
+	{ slug: 'topic_other01', url: '/other/topic01/' },
 	{ slug: 'daily_puzzles_index', url: '/daily_puzzles/' },
 	{ slug: 'daily_peptidyle', url: '/daily_puzzles/peptidyle/' },
+	{ slug: 'daily_deletion_mutants', url: '/daily_puzzles/deletion_mutants/' },
+	{ slug: 'daily_mutant_screen', url: '/daily_puzzles/mutant_screen/' },
+	{ slug: 'daily_biomacromolecule', url: '/daily_puzzles/biomacromolecule/' },
 	{ slug: 'tutorials_index', url: '/tutorials/' },
 	{ slug: 'tutorial_bbq', url: '/tutorials/bbq_tutorial/' },
+	{ slug: 'tutorial_bbq_ultra', url: '/tutorials/bbq_ultra_tutorial/' },
+	{ slug: 'tutorial_canvas', url: '/tutorials/canvas_tutorial/' },
+	{ slug: 'search_results', url: '/?q=enzyme' },
 	{ slug: 'author', url: '/author/' },
 	{ slug: 'license', url: '/license/' },
-	{ slug: 'biotechnology_orphan', url: '/biotechnology/' },
 ];
 
 const viewports = [
@@ -92,8 +105,9 @@ for (const vp of viewports) {
 		try {
 			await page.goto(BASE + '/', { waitUntil: 'domcontentloaded', timeout: 20000 });
 			await page.waitForTimeout(300);
-			const toggleLabel = await page.$('form[data-md-component="palette"] label');
-			if (toggleLabel) { await toggleLabel.click(); await page.waitForTimeout(400); }
+			// Material renders one visible palette toggle label at a time; clicking it flips the scheme.
+			const toggleLabel = await page.$('form[data-md-component="palette"] label[hidden=""], form[data-md-component="palette"] label:not([hidden])');
+			if (toggleLabel) { await toggleLabel.click({ force: true }); await page.waitForTimeout(400); }
 			await page.screenshot({ path: path.join(OUT, 'home_dark.png'), fullPage: true });
 			await page.goto(BASE + '/biochemistry/', { waitUntil: 'domcontentloaded', timeout: 20000 });
 			await page.waitForTimeout(400);
