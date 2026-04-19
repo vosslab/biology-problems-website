@@ -37,15 +37,14 @@ def _write_subject_index(
 	subject,
 	scans: dict,
 	*,
-	adopt_existing: bool,
 	dry_run: bool,
 	verbose: bool,
 ) -> None:
 	"""Render and write one subject index.md.
 
-	Refuses to overwrite a file that lacks the generated marker unless
-	adopt_existing is True and the path matches the expected in-scope
-	target.
+	Refuses to overwrite a file that lacks the generated marker; all
+	live subject index.md files should carry the marker. If this error
+	trips, delete the offending file and regenerate from scratch.
 	"""
 	out_dir = os.path.join(site_docs_dir, subject.key)
 	out_path = os.path.join(out_dir, "index.md")
@@ -53,11 +52,11 @@ def _write_subject_index(
 	text = subject_index_module.render_subject_index(subject, scans)
 	if os.path.isfile(expected_target):
 		marker_present = subject_index_module.has_generated_marker(expected_target)
-		if not marker_present and not adopt_existing:
+		if not marker_present:
 			raise RuntimeError(
 				f"Refusing to overwrite {expected_target} -- file has no "
-				f"generated marker. Use --adopt-existing for the first "
-				f"migration write."
+				f"generated marker. Delete the file and re-run to "
+				f"regenerate from scratch."
 			)
 	if dry_run:
 		if verbose:
@@ -75,9 +74,9 @@ def run(
 	*,
 	subject_filter: "str | None" = None,
 	topic_filter: "str | None" = None,
-	indexes_only: bool = False,
-	topics_only: bool = False,
-	adopt_existing: bool = False,
+	subject_indexes: bool = True,
+	topic_pages: bool = False,
+	generate_downloads: bool = False,
 	dry_run: bool = False,
 	verbose: bool = True,
 	model: "str | None" = None,
@@ -86,7 +85,14 @@ def run(
 	metadata_path: str = DEFAULT_METADATA_PATH,
 	mkdocs_path: str = DEFAULT_MKDOCS_PATH,
 ) -> None:
-	"""Regenerate subject indexes, topic pages, and the mkdocs.yml nav block."""
+	"""Regenerate subject indexes, topic pages, and the mkdocs.yml nav block.
+
+	Three independent axes. `subject_indexes` also updates mkdocs nav.
+	`topic_pages` rewrites topic??/index.md files. `generate_downloads`
+	is only meaningful when `topic_pages` is True; when False, download
+	artifact files are not created (buttons still render for files that
+	already exist on disk).
+	"""
 	subjects, nav_order = metadata_module.load_topics_metadata(
 		metadata_path=metadata_path, mkdocs_path=mkdocs_path
 	)
@@ -100,7 +106,7 @@ def run(
 	else:
 		scoped_subjects = [subjects[key] for key in nav_order]
 
-	if not topics_only:
+	if subject_indexes:
 		if verbose:
 			print(color_text("== Rendering subject indexes ==", COLOR_CYAN))
 		for subject in scoped_subjects:
@@ -112,12 +118,11 @@ def run(
 				site_docs_dir,
 				subject,
 				scans,
-				adopt_existing=adopt_existing,
 				dry_run=dry_run,
 				verbose=verbose,
 			)
 
-	if not indexes_only:
+	if topic_pages:
 		if verbose:
 			print(color_text("== Rendering topic pages ==", COLOR_CYAN))
 		if dry_run:
@@ -132,13 +137,15 @@ def run(
 				model=model, use_ollama=use_ollama,
 			)
 			options = topic_page_module.RenderOptions(
-				verbose=verbose, llm_client=llm_client,
+				verbose=verbose,
+				llm_client=llm_client,
+				generate_downloads=generate_downloads,
 			)
 			topic_page_module.render_all(options)
 
-	# Nav block regen runs whenever indexes were rewritten (nav entries
-	# depend on the same visibility/count filter as the subject index).
-	if not topics_only:
+	# Nav block regen runs whenever subject indexes were rewritten (nav
+	# entries depend on the same visibility/count filter as the index).
+	if subject_indexes:
 		if verbose:
 			print(color_text("== Updating mkdocs.yml nav block ==", COLOR_CYAN))
 		mkdocs_nav_module.update_from_sources(
