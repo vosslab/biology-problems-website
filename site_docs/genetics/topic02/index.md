@@ -2,7 +2,7 @@
 
 Students answer questions about DNA composition, base pairing rules, nucleotide components, and double-helix complementarity.
 
-**LibreTexts reference:** [Chapter 2: DNA Structure and Sequences](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/02:_DNA_Structure_and_Sequences)
+**LibreTexts reference:** [Chapter 2: DNA Structure and Sequences](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/02:_DNA_Structure_and_Sequences) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/02:_DNA_Structure_and_Sequences" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 2" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="" class="lt-icon"></a>
 
 ## True/False Statements About DNA Structure
 

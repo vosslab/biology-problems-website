@@ -2,7 +2,7 @@
 
 Students classify monosaccharides using Fischer and Haworth projections, identify anomers and epimers, and analyze glycosidic bond formation in disaccharides.
 
-**LibreTexts reference:** [Unit 3, Chapter 1: Carbohydrates](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/03%3A_Unit_3_-_Macromolecules/3.01%3A_Carbohydrates)
+**LibreTexts reference:** [Unit 3, Chapter 1: Carbohydrates](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/03%3A_Unit_3_-_Macromolecules/3.01%3A_Carbohydrates) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/03%3A_Unit_3_-_Macromolecules/3.01%3A_Carbohydrates" target="_blank" rel="noopener" aria-label="LibreTexts Unit 3, Chapter 1" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="" class="lt-icon"></a>
 
 ## Fischer Projections for Monosaccharides with D to L Configuration
 
@@ -36,7 +36,7 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 </details>
 
 
-## D/L Monosaccharide Configurations from Haworth Projections - Multiple Choice
+## D/L Monosaccharide Configurations from Haworth Projections (Multiple Choice)
 
 <div id="D_to_L_Haworth_configuration-MC-with_hint-5_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt" download title="Download bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt)">
@@ -57,7 +57,7 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      D/L Monosaccharide Configurations from Haworth Projections - Multiple Choice
+      D/L Monosaccharide Configurations from Haworth Projections (Multiple Choice)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -68,7 +68,7 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 </details>
 
 
-## Monosaccharide Types from Fischer Projections - Multiple Answers
+## Monosaccharide Types from Fischer Projections (Multiple Answers)
 
 <div id="classify_Fischer-MA-with_hint-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-classify_Fischer-MA-with_hint-questions.txt" download title="Download bbq-classify_Fischer-MA-with_hint-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-classify_Fischer-MA-with_hint-questions.txt)">
@@ -89,7 +89,7 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Monosaccharide Types from Fischer Projections - Multiple Answers
+      Monosaccharide Types from Fischer Projections (Multiple Answers)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -100,7 +100,7 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 </details>
 
 
-## Classifying Monosaccharides from Haworth Projections
+## Classifying Furanose Monosaccharides from Haworth Projections
 
 <div id="classify_Haworth-MA-with_hint-FURAN-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-classify_Haworth-MA-with_hint-FURAN-questions.txt" download title="Download bbq-classify_Haworth-MA-with_hint-FURAN-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-classify_Haworth-MA-with_hint-FURAN-questions.txt)">
@@ -121,7 +121,7 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Classifying Monosaccharides from Haworth Projections
+      Classifying Furanose Monosaccharides from Haworth Projections
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -132,7 +132,7 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 </details>
 
 
-## Matching Monosaccharides to Haworth Projection Categorizations
+## Matching Pyranose Monosaccharides to Haworth Projection Categories
 
 <div id="classify_Haworth-MA-with_hint-PYRAN-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-classify_Haworth-MA-with_hint-PYRAN-questions.txt" download title="Download bbq-classify_Haworth-MA-with_hint-PYRAN-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-classify_Haworth-MA-with_hint-PYRAN-questions.txt)">
@@ -153,7 +153,7 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Monosaccharides to Haworth Projection Categorizations
+      Matching Pyranose Monosaccharides to Haworth Projection Categories
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -164,7 +164,7 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 </details>
 
 
-## Monosaccharides from Fischer to Haworth Projections (MC)
+## Furanose Monosaccharides from Fischer to Haworth Projections (MC)
 
 <div id="convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-questions.txt" download title="Download bbq-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-questions.txt)">
@@ -185,7 +185,7 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Monosaccharides from Fischer to Haworth Projections (MC)
+      Furanose Monosaccharides from Fischer to Haworth Projections (MC)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -196,7 +196,7 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 </details>
 
 
-## Monosaccharides in Haworth Projections from Fischer Projections (MC)
+## Pyranose Monosaccharides in Haworth Projections from Fischer Projections (MC)
 
 <div id="convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices-questions.txt" download title="Download bbq-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices-questions.txt)">
@@ -217,7 +217,7 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Monosaccharides in Haworth Projections from Fischer Projections (MC)
+      Pyranose Monosaccharides in Haworth Projections from Fischer Projections (MC)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -228,7 +228,7 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 </details>
 
 
-## Monosaccharides from Haworth to Fischer Projections (MC)
+## Furanose Monosaccharides from Haworth to Fischer Projections (MC)
 
 <div id="convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-questions.txt" download title="Download bbq-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-questions.txt)">
@@ -249,7 +249,7 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Monosaccharides from Haworth to Fischer Projections (MC)
+      Furanose Monosaccharides from Haworth to Fischer Projections (MC)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -260,7 +260,7 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 </details>
 
 
-## Fischer Projections of Monosaccharides from Haworth Structures
+## Fischer Projections of Pyranose Monosaccharides from Haworth Structures
 
 <div id="convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-questions.txt" download title="Download bbq-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-questions.txt)">
@@ -281,7 +281,7 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Fischer Projections of Monosaccharides from Haworth Structures
+      Fischer Projections of Pyranose Monosaccharides from Haworth Structures
     </span>
     <span style='font-weight: normal;'>
       example problem

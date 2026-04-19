@@ -2,7 +2,7 @@
 
 Students trace glucose through glycolysis to pyruvate, calculate net ATP and NADH yield, explain how fructose and galactose enter the pathway, describe NAD+ regeneration through fermentation, identify regulatory control points responsive to energy demand and hormonal signals, and contrast gluconeogenesis bypass reactions with irreversible glycolytic steps including reciprocal regulation between the two pathways.
 
-## ...
+## Ordering Glycolysis Intermediates
 
 <div id="order_glycolysis_molecules-ORD-4_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-order_glycolysis_molecules-ORD-4_choices-questions.txt" download title="Download bbq-order_glycolysis_molecules-ORD-4_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-order_glycolysis_molecules-ORD-4_choices-questions.txt)">
@@ -17,7 +17,7 @@ Students trace glucose through glycolysis to pyruvate, calculate net ATP and NAD
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      ...
+      Ordering Glycolysis Intermediates
     </span>
     <span style='font-weight: normal;'>
       example problem

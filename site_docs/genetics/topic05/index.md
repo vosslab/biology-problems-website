@@ -2,7 +2,7 @@
 
 Students determine how multiple genes interact to produce phenotypes, including epistasis in metabolic and biochemical pathways.
 
-**LibreTexts reference:** [Chapter 5: Allele and Gene Interactions](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/05:_Allele_and_Gene_Interactions)
+**LibreTexts reference:** [Chapter 5: Allele and Gene Interactions](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/05:_Allele_and_Gene_Interactions) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/05:_Allele_and_Gene_Interactions" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 5" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="" class="lt-icon"></a>
 
 ## Monohybrid Cross Genotypes and Phenotypes
 
@@ -196,7 +196,7 @@ Students determine how multiple genes interact to produce phenotypes, including 
 </details>
 
 
-## Genetic Linkage and Epistasis in Dihybrid Crosses (Forward)
+## Genetic Linkage and Epistasis in Dihybrid Crosses (Forward, 4 Choices)
 
 <div id="epistasis_test_cross-forward_direction-4_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-epistasis_test_cross-forward_direction-4_choices-questions.txt" download title="Download bbq-epistasis_test_cross-forward_direction-4_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-epistasis_test_cross-forward_direction-4_choices-questions.txt)">
@@ -217,7 +217,7 @@ Students determine how multiple genes interact to produce phenotypes, including 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Genetic Linkage and Epistasis in Dihybrid Crosses (Forward)
+      Genetic Linkage and Epistasis in Dihybrid Crosses (Forward, 4 Choices)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -228,8 +228,7 @@ Students determine how multiple genes interact to produce phenotypes, including 
 </details>
 
 
-## Your Title Here</titl[10D[K
-Here
+## Genetic Linkage and Epistasis in Dihybrid Crosses (Forward, 6 Choices)
 
 <div id="epistasis_test_cross-forward_direction-6_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-epistasis_test_cross-forward_direction-6_choices-questions.txt" download title="Download bbq-epistasis_test_cross-forward_direction-6_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-epistasis_test_cross-forward_direction-6_choices-questions.txt)">
@@ -250,8 +249,7 @@ Here
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Your Title Here</titl[10D[K
-Here
+      Genetic Linkage and Epistasis in Dihybrid Crosses (Forward, 6 Choices)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -262,7 +260,7 @@ Here
 </details>
 
 
-## Genetic Linkage and Epistasis in Dihybrid Crosses (Inverse)
+## Genetic Linkage and Epistasis in Dihybrid Crosses (Inverse, 4 Choices)
 
 <div id="epistasis_test_cross-inverse_direction-4_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-epistasis_test_cross-inverse_direction-4_choices-questions.txt" download title="Download bbq-epistasis_test_cross-inverse_direction-4_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-epistasis_test_cross-inverse_direction-4_choices-questions.txt)">
@@ -283,7 +281,7 @@ Here
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Genetic Linkage and Epistasis in Dihybrid Crosses (Inverse)
+      Genetic Linkage and Epistasis in Dihybrid Crosses (Inverse, 4 Choices)
     </span>
     <span style='font-weight: normal;'>
       example problem

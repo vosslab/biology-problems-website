@@ -2,9 +2,9 @@
 
 Students determine Vmax and Km from substrate concentration data, interpret Michaelis-Menten and Lineweaver-Burk plots, and calculate enzyme efficiency using kcat.
 
-**LibreTexts reference:** [Unit 2, Chapter 2: Enzyme Kinetics](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/02%3A_Unit_2_-_Enzymes/2.02%3A_Enzyme_Kinetics)
+**LibreTexts reference:** [Unit 2, Chapter 2: Enzyme Kinetics](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/02%3A_Unit_2_-_Enzymes/2.02%3A_Enzyme_Kinetics) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/02%3A_Unit_2_-_Enzymes/2.02%3A_Enzyme_Kinetics" target="_blank" rel="noopener" aria-label="LibreTexts Unit 2, Chapter 2" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="" class="lt-icon"></a>
 
-## The Michaelis-Menten Constant (Km) from Enzyme Activity Data
+## Michaelis-Menten Constant (Km) from Enzyme Activity Data
 
 <div id="michaelis_menten_table-Km-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-michaelis_menten_table-Km-questions.txt" download title="Download bbq-michaelis_menten_table-Km-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-michaelis_menten_table-Km-questions.txt)">
@@ -25,7 +25,7 @@ Students determine Vmax and Km from substrate concentration data, interpret Mich
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      The Michaelis-Menten Constant (Km) from Enzyme Activity Data
+      Michaelis-Menten Constant (Km) from Enzyme Activity Data
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -100,7 +100,7 @@ Students determine Vmax and Km from substrate concentration data, interpret Mich
 </details>
 
 
-## Determining Optimal Conditions for Enzyme Activity: Temperature and pH
+## Determining Optimal Conditions for Enzyme Activity (Temperature and pH)
 
 <div id="optimal_enzyme-type_3-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-optimal_enzyme-type_3-questions.txt" download title="Download bbq-optimal_enzyme-type_3-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-optimal_enzyme-type_3-questions.txt)">
@@ -121,7 +121,7 @@ Students determine Vmax and Km from substrate concentration data, interpret Mich
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Optimal Conditions for Enzyme Activity: Temperature and pH
+      Determining Optimal Conditions for Enzyme Activity (Temperature and pH)
     </span>
     <span style='font-weight: normal;'>
       example problem

@@ -2,9 +2,9 @@
 
 Students perform chi-square tests on genetic cross data to evaluate whether observed ratios fit expected Mendelian predictions.
 
-**LibreTexts reference:** [Chapter 7: Chi Square Analysis](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/07:_Chi_Square_Analysis)
+**LibreTexts reference:** [Chapter 7: Chi Square Analysis](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/07:_Chi_Square_Analysis) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/07:_Chi_Square_Analysis" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 7" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="" class="lt-icon"></a>
 
-## Chi-Square Terms and Definitions
+## Matching Chi-Square Terms
 
 <div id="MATCH-chi-square_terms-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-chi-square_terms-questions.txt" download title="Download bbq-MATCH-chi-square_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-chi-square_terms-questions.txt)">
@@ -25,7 +25,7 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Chi-Square Terms and Definitions
+      Matching Chi-Square Terms
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -36,7 +36,7 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
 </details>
 
 
-## Chi-Square Terms
+## Chi-Square Test Cutoff Terms
 
 <div id="MC-chi-square_terms-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MC-chi-square_terms-questions.txt" download title="Download bbq-MC-chi-square_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-chi-square_terms-questions.txt)">
@@ -57,7 +57,7 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Chi-Square Terms
+      Chi-Square Test Cutoff Terms
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -100,7 +100,7 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
 </details>
 
 
-## Calculating Chi-Squared Statistic from Observed Data
+## Chi-Squared Test for Genetic Variation
 
 <div id="chi_square_calculated-ACCEPT-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chi_square_calculated-ACCEPT-questions.txt" download title="Download bbq-chi_square_calculated-ACCEPT-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chi_square_calculated-ACCEPT-questions.txt)">
@@ -121,7 +121,7 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Calculating Chi-Squared Statistic from Observed Data
+      Chi-Squared Test for Genetic Variation
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -132,7 +132,7 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
 </details>
 
 
-## Chi-Square Tests for Phenotypic Ratios
+## Chi-Square Tests for Genetic Ratios
 
 <div id="chi_square_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chi_square_choices-questions.txt" download title="Download bbq-chi_square_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chi_square_choices-questions.txt)">
@@ -153,7 +153,7 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Chi-Square Tests for Phenotypic Ratios
+      Chi-Square Tests for Genetic Ratios
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -164,7 +164,7 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
 </details>
 
 
-## Chi-Square Tests for Goodness of Fit
+## Chi-Square Calculations and Hypothesis Evaluations
 
 <div id="chi_square_errors-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chi_square_errors-questions.txt" download title="Download bbq-chi_square_errors-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chi_square_errors-questions.txt)">
@@ -185,7 +185,7 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Chi-Square Tests for Goodness of Fit
+      Chi-Square Calculations and Hypothesis Evaluations
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -196,7 +196,7 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
 </details>
 
 
-## Determining Hardy-Weinberg Status Using Chi-Squared Test
+## Chi-Squared Test for Hardy-Weinberg Equilibrium
 
 <div id="chi_square_hardy_weinberg-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chi_square_hardy_weinberg-questions.txt" download title="Download bbq-chi_square_hardy_weinberg-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chi_square_hardy_weinberg-questions.txt)">
@@ -217,7 +217,7 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Hardy-Weinberg Status Using Chi-Squared Test
+      Chi-Squared Test for Hardy-Weinberg Equilibrium
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -228,8 +228,7 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
 </details>
 
 
-## Determining Null and Alternative Hypotheses for Genetic Crosses</tit[12D[K
-Crosses
+## Chi-Squared Goodness-of-Fit Test for Mendelian Inheritance
 
 <div id="chi_square_hypotheses-pair-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chi_square_hypotheses-pair-questions.txt" download title="Download bbq-chi_square_hypotheses-pair-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chi_square_hypotheses-pair-questions.txt)">
@@ -250,8 +249,7 @@ Crosses
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Null and Alternative Hypotheses for Genetic Crosses</tit[12D[K
-Crosses
+      Chi-Squared Goodness-of-Fit Test for Mendelian Inheritance
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -262,7 +260,7 @@ Crosses
 </details>
 
 
-## Statistical Hypotheses in Mendelian Genetics
+## Chi-Squared Goodness-of-Fit Test for Mendelian Inheritance
 
 <div id="chi_square_hypotheses_lab_partner-hypotheses_partner-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt" download title="Download bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt)">
@@ -283,7 +281,7 @@ Crosses
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Statistical Hypotheses in Mendelian Genetics
+      Chi-Squared Goodness-of-Fit Test for Mendelian Inheritance
     </span>
     <span style='font-weight: normal;'>
       example problem

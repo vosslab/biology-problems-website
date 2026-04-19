@@ -226,7 +226,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 </details>
 
 
-## ...
+## Population Z-Test Using Google Sheets Data
 
 <div id="population_test_google_sheet-ztest-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-population_test_google_sheet-ztest-questions.txt" download title="Download bbq-population_test_google_sheet-ztest-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-population_test_google_sheet-ztest-questions.txt)">
@@ -247,7 +247,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      ...
+      Population Z-Test Using Google Sheets Data
     </span>
     <span style='font-weight: normal;'>
       example problem
