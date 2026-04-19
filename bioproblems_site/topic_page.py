@@ -173,10 +173,8 @@ def _get_topic_entry(topic_folder: str) -> dict:
 
 #==============
 
-def get_topic_title(folder_path: str, topic_number: int) -> str:
+def get_topic_title(folder_path: str) -> str:
 	"""Return the topic title parsed from site_docs/<subject>/index.md."""
-	# topic_number is accepted for backwards-compatible call sites but unused.
-	del topic_number
 	entry = _get_topic_entry(folder_path)
 	title = entry.get("title")
 	if not title:
@@ -188,9 +186,8 @@ def get_topic_title(folder_path: str, topic_number: int) -> str:
 
 #==============
 
-def get_libretexts_link(topic_folder: str, relative_topic_name: str):
+def get_libretexts_link(topic_folder: str):
 	"""Return the LibreTexts mapping for a topic, or None if not linked."""
-	del relative_topic_name
 	entry = _get_topic_entry(topic_folder)
 	return entry.get("libretexts")
 
@@ -623,12 +620,12 @@ def update_index_md(
 	topic_number = int(re.search('topic([0-9]+)', relative_topic_name).groups()[0])
 	print(f"Topic Number: {topic_number}")
 
-	title = get_topic_title(topic_folder, topic_number)
+	title = get_topic_title(topic_folder)
 	print(color_text(f"Page Title: {title}", COLOR_CYAN))
 
 	description = get_topic_description(topic_folder)
 	print(f"Page description: {description}")
-	libretexts_link = get_libretexts_link(topic_folder, relative_topic_name)
+	libretexts_link = get_libretexts_link(topic_folder)
 	if libretexts_link:
 		print(color_text(f"LibreTexts link: {libretexts_link}", COLOR_CYAN))
 
@@ -648,9 +645,24 @@ def update_index_md(
 			link_chapter = libretexts_link.get("chapter", 0)
 			if link_unit and link_chapter:
 				link_title = f"Unit {link_unit}, Chapter {link_chapter}: {link_title}"
+				aria_label = f"LibreTexts Unit {link_unit}, Chapter {link_chapter}"
 			elif link_chapter:
 				link_title = f"Chapter {link_chapter}: {link_title}"
-			index_md.write(f"**LibreTexts reference:** [{link_title}]({libretexts_link['url']})\n\n")
+				aria_label = f"LibreTexts Chapter {link_chapter}"
+			else:
+				aria_label = "LibreTexts chapter"
+			libretexts_url = libretexts_link["url"]
+			# Icon anchor matches the subject index convention (.lt-icon).
+			icon_anchor = (
+				f'<a href="{libretexts_url}" target="_blank" rel="noopener" '
+				f'aria-label="{aria_label}" title="Open LibreTexts chapter">'
+				f'<img src="/assets/images/libretexts.png" alt="" class="lt-icon"></a>'
+			)
+			reference_line = (
+				f"**LibreTexts reference:** [{link_title}]({libretexts_url}) "
+				f"{icon_anchor}"
+			)
+			index_md.write(f"{reference_line}\n\n")
 
 		bbq_files.sort()
 		for bbq_file in bbq_files:
