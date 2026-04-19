@@ -2,7 +2,7 @@
 
 Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict protonation states of simple acids and bases, and analyze buffer systems.
 
-**LibreTexts reference:** [Unit 1, Chapter 2: Chemistry of Water](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.02%3A_Chemistry_of_Water)
+**LibreTexts reference:** [Unit 1, Chapter 2: Chemistry of Water](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.02%3A_Chemistry_of_Water) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.02%3A_Chemistry_of_Water" target="_blank" rel="noopener" aria-label="LibreTexts Unit 1, Chapter 2" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="" class="lt-icon"></a>
 
 ## Correct Henderson-Hasselbalch Equation
 
@@ -333,7 +333,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 </details>
 
 
-## The Most Abundant Diprotic State at a Given pH Using pKa
+## Most Abundant Diprotic State at a Given pH Using pKa
 
 <div id="pKa_buffer_state-2_protons-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-pKa_buffer_state-2_protons-questions.txt" download title="Download bbq-pKa_buffer_state-2_protons-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-pKa_buffer_state-2_protons-questions.txt)">
@@ -354,7 +354,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      The Most Abundant Diprotic State at a Given pH Using pKa
+      Most Abundant Diprotic State at a Given pH Using pKa
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -365,7 +365,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 </details>
 
 
-## The Most Abundant Triprotic State at a Given pH Using pKa
+## Most Abundant Triprotic State at a Given pH Using pKa
 
 <div id="pKa_buffer_state-3_protons-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-pKa_buffer_state-3_protons-questions.txt" download title="Download bbq-pKa_buffer_state-3_protons-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-pKa_buffer_state-3_protons-questions.txt)">
@@ -386,7 +386,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      The Most Abundant Triprotic State at a Given pH Using pKa
+      Most Abundant Triprotic State at a Given pH Using pKa
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -397,7 +397,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 </details>
 
 
-## The Most Abundant Tetraprotic State at a Given pH Using pKa
+## Most Abundant Tetraprotic State at a Given pH Using pKa
 
 <div id="pKa_buffer_state-4_protons-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-pKa_buffer_state-4_protons-questions.txt" download title="Download bbq-pKa_buffer_state-4_protons-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-pKa_buffer_state-4_protons-questions.txt)">
@@ -418,7 +418,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      The Most Abundant Tetraprotic State at a Given pH Using pKa
+      Most Abundant Tetraprotic State at a Given pH Using pKa
     </span>
     <span style='font-weight: normal;'>
       example problem

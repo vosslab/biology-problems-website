@@ -2,7 +2,7 @@
 
 Students identify amino acids by their side chains, classify R-groups by polarity and charge, predict amino acid protonation states at given pH values, and analyze peptide bond formation.
 
-**LibreTexts reference:** [Unit 1, Chapter 3: Amino Acids and Peptides](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.03%3A_Amino_Acids_and_Peptides)
+**LibreTexts reference:** [Unit 1, Chapter 3: Amino Acids and Peptides](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.03%3A_Amino_Acids_and_Peptides) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.03%3A_Amino_Acids_and_Peptides" target="_blank" rel="noopener" aria-label="LibreTexts Unit 1, Chapter 3" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="" class="lt-icon"></a>
 
 ## Amino Acids and Descriptive Properties
 
@@ -138,8 +138,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 </details>
 
 
-## Determining Histidine Protonation States at Specific pH Values</titl[12D[K
-Values
+## Determining Histidine Protonation States at Specific pH Values
 
 <div id="histidine_protonation_states-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-histidine_protonation_states-questions.txt" download title="Download bbq-histidine_protonation_states-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-histidine_protonation_states-questions.txt)">
@@ -160,8 +159,7 @@ Values
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Histidine Protonation States at Specific pH Values</titl[12D[K
-Values
+      Determining Histidine Protonation States at Specific pH Values
     </span>
     <span style='font-weight: normal;'>
       example problem

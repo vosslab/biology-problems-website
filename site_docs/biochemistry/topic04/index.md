@@ -2,7 +2,7 @@
 
 Students identify levels of protein structure, distinguish alpha helices from beta sheets, analyze backbone hydrogen bonding patterns, and interpret Ramachandran plots.
 
-**LibreTexts reference:** [Unit 1, Chapter 4: Proteins- Structure and Folding](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.04%3A_Proteins-_Structure_and_Folding)
+**LibreTexts reference:** [Unit 1, Chapter 4: Proteins- Structure and Folding](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.04%3A_Proteins-_Structure_and_Folding) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.04%3A_Proteins-_Structure_and_Folding" target="_blank" rel="noopener" aria-label="LibreTexts Unit 1, Chapter 4" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="" class="lt-icon"></a>
 
 ## Matching Protein Structure Levels to Descriptions
 

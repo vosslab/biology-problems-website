@@ -2,7 +2,7 @@
 
 Students identify common genetic disorders and describe basic inheritance patterns associated with single-gene conditions.
 
-**LibreTexts reference:** [Chapter 1: Foundations of Genetic Disorders](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/01:_Foundations_of_Genetic_Disorders)
+**LibreTexts reference:** [Chapter 1: Foundations of Genetic Disorders](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/01:_Foundations_of_Genetic_Disorders) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/01:_Foundations_of_Genetic_Disorders" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 1" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="" class="lt-icon"></a>
 
 ## Genetic Disorders and Descriptions
 

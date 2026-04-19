@@ -2,8 +2,7 @@
 
 Students analyze cell structure and function, calculate surface-to-volume ratios for different cell shapes, compare prokaryotic and eukaryotic organelles, and interpret membrane transport mechanisms.
 
-## Determining Cell Efficiency Using Surface Area to Volume Ratio</titl[11D[K
-Ratio
+## Determining Cell Efficiency Using Surface Area to Volume Ratio
 
 <div id="cell_surf-to-vol_ratio-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-cell_surf-to-vol_ratio-questions.txt" download title="Download bbq-cell_surf-to-vol_ratio-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-cell_surf-to-vol_ratio-questions.txt)">
@@ -24,8 +23,7 @@ Ratio
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Cell Efficiency Using Surface Area to Volume Ratio</titl[11D[K
-Ratio
+      Determining Cell Efficiency Using Surface Area to Volume Ratio
     </span>
     <span style='font-weight: normal;'>
       example problem

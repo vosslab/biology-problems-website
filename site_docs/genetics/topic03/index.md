@@ -2,7 +2,7 @@
 
 Students use blood typing agglutination tests, HLA genotyping, gel electrophoresis band patterns, and DNA fingerprinting techniques to solve paternity disputes and forensic identification problems.
 
-**LibreTexts reference:** [Chapter 3: DNA Profiling and Techniques](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/03:_DNA_Profiling_and_Techniques)
+**LibreTexts reference:** [Chapter 3: DNA Profiling and Techniques](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/03:_DNA_Profiling_and_Techniques) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/03:_DNA_Profiling_and_Techniques" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 3" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="" class="lt-icon"></a>
 
 ## True/False Statements About English Palindromes
 

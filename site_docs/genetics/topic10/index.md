@@ -2,7 +2,7 @@
 
 Students calculate allele and genotype frequencies in populations, apply the Hardy-Weinberg equation, and evaluate factors that change allele frequencies.
 
-**LibreTexts reference:** [Chapter 10: Population Genetics](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/10:_Population_Genetics)
+**LibreTexts reference:** [Chapter 10: Population Genetics](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/10:_Population_Genetics) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/10:_Population_Genetics" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 10" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="" class="lt-icon"></a>
 
 ## Hardy-Weinberg Equilibrium Conditions
 
@@ -68,7 +68,7 @@ Students calculate allele and genotype frequencies in populations, apply the Har
 </details>
 
 
-## Your Title Here
+## Hardy-Weinberg Allele and Genotype Frequencies
 
 <div id="hardy_weinberg_numeric-NUM-5_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-hardy_weinberg_numeric-NUM-5_choices-questions.txt" download title="Download bbq-hardy_weinberg_numeric-NUM-5_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-hardy_weinberg_numeric-NUM-5_choices-questions.txt)">
@@ -89,7 +89,7 @@ Students calculate allele and genotype frequencies in populations, apply the Har
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Your Title Here
+      Hardy-Weinberg Allele and Genotype Frequencies
     </span>
     <span style='font-weight: normal;'>
       example problem

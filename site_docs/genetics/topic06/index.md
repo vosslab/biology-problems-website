@@ -2,9 +2,9 @@
 
 Students trace inheritance of X-linked genes through meiosis, predict progeny outcomes from sex-linked crosses, and explain the chromosomal basis of inheritance.
 
-**LibreTexts reference:** [Chapter 6: Chromosomal Inheritance](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/06:_Chromosomal_Inheritance)
+**LibreTexts reference:** [Chapter 6: Chromosomal Inheritance](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/06:_Chromosomal_Inheritance) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/06:_Chromosomal_Inheritance" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 6" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="" class="lt-icon"></a>
 
-## Meiosis Prophase I Stages and Descriptions
+## Stages of Meiosis Prophase I Matching
 
 <div id="MATCH-meiosis_prophase_1-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-meiosis_prophase_1-questions.txt" download title="Download bbq-MATCH-meiosis_prophase_1-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-meiosis_prophase_1-questions.txt)">
@@ -25,7 +25,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Meiosis Prophase I Stages and Descriptions
+      Stages of Meiosis Prophase I Matching
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -36,7 +36,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </details>
 
 
-## Meiosis Terms and Definitions
+## Meiosis Terms Matching
 
 <div id="MATCH-meiosis_terms-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-meiosis_terms-questions.txt" download title="Download bbq-MATCH-meiosis_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-meiosis_terms-questions.txt)">
@@ -57,7 +57,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Meiosis Terms and Definitions
+      Meiosis Terms Matching
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -68,7 +68,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </details>
 
 
-## Sex Determination Systems and Descriptions
+## Match Sex Determination Systems
 
 <div id="MATCH-sex_determination-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-sex_determination-questions.txt" download title="Download bbq-MATCH-sex_determination-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-sex_determination-questions.txt)">
@@ -89,7 +89,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Sex Determination Systems and Descriptions
+      Match Sex Determination Systems
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -100,7 +100,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </details>
 
 
-## Meiosis Prophase I Stages
+## Stages of Meiosis Prophase I
 
 <div id="MC-meiosis_prophase_1-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MC-meiosis_prophase_1-questions.txt" download title="Download bbq-MC-meiosis_prophase_1-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-meiosis_prophase_1-questions.txt)">
@@ -121,7 +121,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Meiosis Prophase I Stages
+      Stages of Meiosis Prophase I
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -132,7 +132,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </details>
 
 
-## Meiosis Terms
+## Meiosis Terms Identification
 
 <div id="MC-meiosis_terms-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MC-meiosis_terms-questions.txt" download title="Download bbq-MC-meiosis_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-meiosis_terms-questions.txt)">
@@ -153,7 +153,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Meiosis Terms
+      Meiosis Terms Identification
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -228,7 +228,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </details>
 
 
-## Inheritance Patterns for X-Linked Recessive and Autosomal Dominant Disorders
+## Fraction of Daughters with Both AIS and HD
 
 <div id="dominant_and_X-linked_recessive-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-dominant_and_X-linked_recessive-questions.txt" download title="Download bbq-dominant_and_X-linked_recessive-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-dominant_and_X-linked_recessive-questions.txt)">
@@ -249,7 +249,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Inheritance Patterns for X-Linked Recessive and Autosomal Dominant Disorders
+      Fraction of Daughters with Both AIS and HD
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -260,7 +260,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </details>
 
 
-## Inheritance Patterns from Pedigree Charts
+## Pedigree Analysis
 
 <div id="pedigree_choice-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-pedigree_choice-questions.txt" download title="Download bbq-pedigree_choice-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-pedigree_choice-questions.txt)">
@@ -281,7 +281,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Inheritance Patterns from Pedigree Charts
+      Pedigree Analysis
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -292,7 +292,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </details>
 
 
-## Inheritance Types from Pedigrees
+## Match Pedigrees to Inheritance Types
 
 <div id="pedigree_match-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-pedigree_match-questions.txt" download title="Download bbq-pedigree_match-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-pedigree_match-questions.txt)">
@@ -313,7 +313,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Inheritance Types from Pedigrees
+      Match Pedigrees to Inheritance Types
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -324,7 +324,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </details>
 
 
-## X-Linked Inheritance Patterns in Fruit Flies
+## X-linked Recessive Phenotype Cross
 
 <div id="poisson_flies-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-poisson_flies-questions.txt" download title="Download bbq-poisson_flies-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-poisson_flies-questions.txt)">
@@ -348,7 +348,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      X-Linked Inheritance Patterns in Fruit Flies
+      X-linked Recessive Phenotype Cross
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -359,7 +359,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </details>
 
 
-## Probability of Specific Gender Distributions in Offspring
+## Probability of Gender Distribution in Children
 
 <div id="probabiliy_of_progeny-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-probabiliy_of_progeny-questions.txt" download title="Download bbq-probabiliy_of_progeny-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-probabiliy_of_progeny-questions.txt)">
@@ -380,7 +380,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Probability of Specific Gender Distributions in Offspring
+      Probability of Gender Distribution in Children
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -391,7 +391,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </details>
 
 
-## Determining F1 Outcomes in X-Linked Crosses
+## X-linked Eye Color Inheritance
 
 <div id="x_linked_reciprocal_cross-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-x_linked_reciprocal_cross-questions.txt" download title="Download bbq-x_linked_reciprocal_cross-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-x_linked_reciprocal_cross-questions.txt)">
@@ -412,7 +412,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining F1 Outcomes in X-Linked Crosses
+      X-linked Eye Color Inheritance
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -423,8 +423,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </details>
 
 
-## Determining Offspring Probability in X-linked Codominance Crosses</t[10D[K
-Crosses
+## X-linked Coat Color Probability
 
 <div id="x_linked_tortoiseshell-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-x_linked_tortoiseshell-questions.txt" download title="Download bbq-x_linked_tortoiseshell-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-x_linked_tortoiseshell-questions.txt)">
@@ -445,8 +444,7 @@ Crosses
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Offspring Probability in X-linked Codominance Crosses</t[10D[K
-Crosses
+      X-linked Coat Color Probability
     </span>
     <span style='font-weight: normal;'>
       example problem
