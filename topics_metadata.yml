@@ -1,0 +1,337 @@
+# topics_metadata.yml
+# Single source of truth for subject and topic metadata.
+# Question counts are NOT stored here; they are scanned from disk by
+# generate_pages.py at generation time.
+# Subject display labels and nav order live in mkdocs.yml, not here.
+
+biochemistry:
+  title: Biochemistry
+  description: |
+    Biochemistry is the study of chemical substances and vital processes in living organisms.
+    Biochemists focus on the role, function, and structure of biomolecules and the chemistry behind biological processes.
+    Questions ask students to identify molecular structures, classify biomolecules, calculate enzyme kinetics, and analyze chemical reactions like pH, pKa, and thermodynamics.
+  topics:
+    topic01:
+      title: Life Molecules
+      description: Students categorize biomolecules into major classes (proteins, carbohydrates, lipids, nucleic acids) and distinguish hydrophobic from hydrophilic molecules.
+      libretexts:
+        url: https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.01%3A_Molecules_of_Life
+        unit: 1
+        chapter: 1
+    topic02:
+      title: Water and pH
+      description: Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict protonation states of simple acids and bases, and analyze buffer systems.
+      libretexts:
+        url: https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.02%3A_Chemistry_of_Water
+        unit: 1
+        chapter: 2
+    topic03:
+      title: Amino Acids
+      description: Students identify amino acids by their side chains, classify R-groups by polarity and charge, predict amino acid protonation states at given pH values, and analyze peptide bond formation.
+      libretexts:
+        url: https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.03%3A_Amino_Acids_and_Peptides
+        unit: 1
+        chapter: 3
+    topic04:
+      title: Protein Structure
+      description: Students identify levels of protein structure, distinguish alpha helices from beta sheets, analyze backbone hydrogen bonding patterns, and interpret Ramachandran plots.
+      libretexts:
+        url: https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.04%3A_Proteins-_Structure_and_Folding
+        unit: 1
+        chapter: 4
+    topic05:
+      title: Protein Purification
+      description: Students choose purification methods for proteins based on size, charge, and binding affinity, and interpret results from gel filtration, ion exchange, SDS-PAGE, and isoelectric focusing.
+      libretexts:
+        url: https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.05%3A_Protein_Purification
+        unit: 1
+        chapter: 5
+    topic06:
+      title: Thermodynamics
+      description: Students calculate delta G and Keq, determine whether reactions are spontaneous, and interpret free energy diagrams for enzyme-catalyzed reactions.
+      libretexts:
+        url: https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/02%3A_Unit_2_-_Enzymes/2.01%3A_Enzyme_Thermodynamics
+        unit: 2
+        chapter: 1
+    topic07:
+      title: Enzyme Kinetics
+      description: Students determine Vmax and Km from substrate concentration data, interpret Michaelis-Menten and Lineweaver-Burk plots, and calculate enzyme efficiency using kcat.
+      libretexts:
+        url: https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/02%3A_Unit_2_-_Enzymes/2.02%3A_Enzyme_Kinetics
+        unit: 2
+        chapter: 2
+    topic08:
+      title: Enzyme Inhibition
+      description: Students classify inhibition type (competitive, noncompetitive, uncompetitive, mixed) from changes in Km and Vmax in Michaelis-Menten data, and interpret inhibitor effects on Lineweaver-Burk plots.
+      libretexts:
+        url: https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/02%3A_Unit_2_-_Enzymes/2.03%3A_Enzyme_Inhibition
+        unit: 2
+        chapter: 3
+    topic09:
+      title: Enzyme Allostery
+      description: Students analyze allosteric regulation, cooperativity, and sigmoidal binding curves, calculate Hill coefficients from hemoglobin oxygen binding data, and trace end-product feedback control through metabolic pathway diagrams.
+      libretexts:
+        url: https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/02%3A_Unit_2_-_Enzymes/2.04%3A_Enzyme_Allostery
+        unit: 2
+        chapter: 4
+    topic10:
+      title: Carbohydrates
+      description: Students classify monosaccharides using Fischer and Haworth projections, identify anomers and epimers, and analyze glycosidic bond formation in disaccharides.
+      libretexts:
+        url: https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/03%3A_Unit_3_-_Macromolecules/3.01%3A_Carbohydrates
+        unit: 3
+        chapter: 1
+    topic11:
+      title: Nucleic Acids
+      description: Students identify nucleotide components, compare DNA and RNA chemical structure, name nucleosides and nucleotides, and analyze phosphodiester bond formation.
+      libretexts:
+        url: https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/03%3A_Unit_3_-_Macromolecules/3.02%3A_Nucleic_Acids
+        unit: 3
+        chapter: 2
+    topic12:
+      title: Lipids
+      description: Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, steroids, waxes), identify lipid structures from molecular formulas, and distinguish saturated from unsaturated fatty acids.
+      libretexts:
+        url: https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/03%3A_Unit_3_-_Macromolecules/3.03%3A_Lipids
+        unit: 3
+        chapter: 3
+    topic13:
+      title: Membranes and Membrane Proteins
+      description: Students analyze phospholipid bilayer structure, predict how composition affects membrane fluidity, classify integral and peripheral membrane proteins, and explain transport mechanisms.
+      libretexts:
+        url: https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/03%3A_Unit_3_-_Macromolecules/3.04%3A_Membranes_and_Membrane_Proteins
+        unit: 3
+        chapter: 4
+    topic14:
+      title: Human Senses
+      description: Students explain the biochemical basis of taste, smell, hearing, sight, and touch perception.
+      libretexts:
+        url: https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/04%3A_Biochemistry_of_Our_Senses
+        unit: 4
+        chapter: 1
+    topic15:
+      title: Digestion
+      description: Students trace the digestion of proteins, carbohydrates, and lipids into smaller units through enzyme action, explain ATP hydrolysis and energy coupling, identify activated carriers and vitamin-derived cofactors, and describe how metabolic pathways are regulated through enzyme levels, catalytic activity, and substrate availability.
+    topic16:
+      title: Sugar Metabolism
+      description: Students trace glucose through glycolysis to pyruvate, calculate net ATP and NADH yield, explain how fructose and galactose enter the pathway, describe NAD+ regeneration through fermentation, identify regulatory control points responsive to energy demand and hormonal signals, and contrast gluconeogenesis bypass reactions with irreversible glycolytic steps including reciprocal regulation between the two pathways.
+    topic17:
+      title: Oxidative Phosphorylation
+      description: Students describe pyruvate conversion to acetyl-CoA by the pyruvate dehydrogenase complex, trace acetyl-CoA oxidation through the citric acid cycle tracking NADH and FADH2 production, explain how the electron transport chain creates a proton gradient through sequential redox reactions with oxygen as final acceptor, describe ATP synthase as a rotary enzyme coupling proton flow to ATP formation, and calculate the overall yield of approximately 30 ATP per glucose.
+    topic18:
+      title: Lipid Metabolism
+      description: Students trace fatty acid mobilization and beta-oxidation in mitochondria generating acetyl-CoA, NADH, and FADH2, explain ketone body formation during fasting, describe cytoplasmic fatty acid synthesis from malonyl-CoA through palmitate using NADPH, outline cholesterol synthesis and its role as precursor for steroid hormones and bile salts, and explain lipoprotein transport of lipids in the bloodstream including roles in cholesterol distribution and disease risk.
+    topic19:
+      title: Glycogen and Pentose Phosphate
+      description: Students describe glycogen degradation by phosphorylase and debranching enzymes, explain reciprocal regulation of glycogen synthesis and breakdown through insulin, glucagon, epinephrine, and phosphorylation cascades, trace glucose 6-phosphate through the pentose phosphate pathway generating NADPH for reductive biosynthesis and ribose 5-phosphate for nucleotide synthesis, and explain how metabolic flux adjusts based on cellular needs for reducing power, precursors, or energy.
+    topic20:
+      title: Photosynthesis
+      description: Students trace light energy capture through Photosystem II and Photosystem I, explain water oxidation and oxygen release, describe electron transport and proton gradient formation driving ATP synthase, trace NADPH and ATP into the Calvin cycle where Rubisco fixes CO2 into hexose phosphates, and compare C4 and CAM adaptations for improved carbon fixation efficiency.
+    topic21:
+      title: Nitrogen Metabolism
+      description: Students trace amino acid degradation through transamination to glutamate and ammonium entry into the urea cycle, classify carbon skeletons entering glycolysis or citric acid cycle, describe amino acid synthesis through glutamate and glutamine intermediates, outline pyrimidine and purine nucleotide biosynthesis pathways, explain deoxyribonucleotide formation and nucleotide salvage, and identify regulatory mechanisms including feedback inhibition.
+
+genetics:
+  title: Genetics
+  description: |
+    Genetics is the study of the effect of genetic differences on organisms, often inferred by the absence of a normal component.
+    Geneticists study how traits are inherited across generations, how mutations alter phenotype, and how genes are organized on chromosomes.
+    Questions ask students to predict offspring ratios with Punnett squares, trace inheritance through pedigrees, calculate recombination frequencies, and apply Hardy-Weinberg equilibrium to populations.
+  topics:
+    topic01:
+      title: Genetic Disorders
+      description: Students identify common genetic disorders and describe basic inheritance patterns associated with single-gene conditions.
+      libretexts:
+        url: "https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/01:_Foundations_of_Genetic_Disorders"
+        chapter: 1
+    topic02:
+      title: DNA Structure
+      description: Students answer questions about DNA composition, base pairing rules, nucleotide components, and double-helix complementarity.
+      libretexts:
+        url: "https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/02:_DNA_Structure_and_Sequences"
+        chapter: 2
+    topic03:
+      title: DNA Profiling
+      description: Students use blood typing agglutination tests, HLA genotyping, gel electrophoresis band patterns, and DNA fingerprinting techniques to solve paternity disputes and forensic identification problems.
+      libretexts:
+        url: "https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/03:_DNA_Profiling_and_Techniques"
+        chapter: 3
+    topic04:
+      title: Mendelian Genetics
+      description: Students predict offspring ratios using Punnett squares, apply Mendel's principles of segregation and independent assortment, and trace traits through pedigrees.
+      libretexts:
+        url: "https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/04:_Mendelian_Genetics"
+        chapter: 4
+    topic05:
+      title: Gene Interactions
+      description: Students determine how multiple genes interact to produce phenotypes, including epistasis in metabolic and biochemical pathways.
+      libretexts:
+        url: "https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/05:_Allele_and_Gene_Interactions"
+        chapter: 5
+    topic06:
+      title: Chromosomal Inheritance
+      description: Students trace inheritance of X-linked genes through meiosis, predict progeny outcomes from sex-linked crosses, and explain the chromosomal basis of inheritance.
+      libretexts:
+        url: "https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/06:_Chromosomal_Inheritance"
+        chapter: 6
+    topic07:
+      title: Chi Square Analysis
+      description: Students perform chi-square tests on genetic cross data to evaluate whether observed ratios fit expected Mendelian predictions.
+      libretexts:
+        url: "https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/07:_Chi_Square_Analysis"
+        chapter: 7
+    topic08:
+      title: Gene Mapping
+      description: Students determine gene order on chromosomes using recombination data from test crosses, calculate map distances between linked genes, and use deletion mutants to establish gene arrangement.
+      libretexts:
+        url: "https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/08:_Gene_Mapping_and_Recombination"
+        chapter: 8
+    topic09:
+      title: Chromosomal Disorders
+      description: Students interpret karyotypes, identify aneuploid conditions, classify chromosomal abnormalities, and predict outcomes of meiosis with translocations.
+      libretexts:
+        url: "https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/09:_Chromosomal_Disorders"
+        chapter: 9
+    topic10:
+      title: Population Genetics
+      description: Students calculate allele and genotype frequencies in populations, apply the Hardy-Weinberg equation, and evaluate factors that change allele frequencies.
+      libretexts:
+        url: "https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/10:_Population_Genetics"
+        chapter: 10
+    topic11:
+      title: Gene Trees
+      description: Students construct and compare phylogenetic trees, interpret evolutionary distances, and trace gene inheritance across species.
+      libretexts:
+        url: "https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/11:_Gene_Trees_and_Relationships"
+        chapter: 11
+
+laboratory:
+  title: Laboratory
+  description: |
+    Laboratory science is the study of experimental methods, measurements, and techniques used in biological research.
+    Laboratory work focuses on how experiments are designed, performed, and quantified using standard protocols and instruments.
+    Questions ask students to calculate dilution volumes, prepare solutions at specific concentrations, read spectrophotometer absorbance data, interpret standard curves, and apply significant figures to measurements.
+  topics:
+    topic01:
+      title: Measurement Basics
+      description: Students convert between SI-prefixed units, choose values with the correct order of magnitude, select appropriate pipet sizes, and apply metric prefixes to compare concentrations or volumes.
+    topic02:
+      title: Solutions
+      description: Students prepare solutions from solids or stock reagents by calculating grams needed for a target molarity, using formula weight, and converting between mass concentration, percent w/v, percent v/v, and molarity.
+    topic03:
+      title: Dilutions
+      description: Students perform single-step dilution calculations using c1V1 = c2V2, determine aliquot and diluent volumes from stock and desired concentrations, and calculate dilution factors and concentration factors.
+    topic04:
+      title: Serial Dilutions
+      description: Students design multi-step dilution series to reach high overall dilution factors, calculate effective dilution factors across linked steps, and explain why serial dilutions improve accuracy and save materials compared to one large dilution.
+    topic05:
+      title: Thin Layer Chromatography
+      description: Students perform TLC separations, calculate Rf values, and interpret chromatography results to identify unknown compounds.
+    topic06:
+      title: Buffers
+      description: Students prepare phosphate buffers at target pH values, measure pH with indicators or meters, and explain buffering capacity.
+    topic07:
+      title: Spectrophotometry and Protein Assays
+      description: Students measure absorbance with a spectrophotometer, construct standard curves from serial dilutions, apply Beer-Lambert law, and quantify protein concentration using Bradford or BCA assays.
+    topic08:
+      title: Detection of Bio-Organic Molecules
+      description: Students perform chemical indicator tests (Benedict's, Biuret, iodine, Sudan IV) to identify sugars, proteins, starch, and lipids in unknown samples.
+    topic09:
+      title: Enzyme Kinetics
+      description: Students measure lactase reaction rates at different substrate concentrations, plot velocity data, and analyze how temperature, pH, or inhibitors affect enzyme activity in a laboratory setting.
+    topic10:
+      title: Macromolecule Presentations
+      description: Students research and present on a macromolecule, integrating data analysis and visual communication of biochemical properties.
+    topic11:
+      title: PCR and Electrophoresis
+      description: Students extract DNA, perform initial and nested PCR amplification of the GAPDH gene, run gel electrophoresis to separate DNA fragments, and interpret band patterns.
+    topic12:
+      title: Environmental Microbial Culturing
+      description: Students collect environmental samples, plate and culture microorganisms, count colonies, and analyze microbial diversity.
+    topic13:
+      title: Bioinformatics
+      description: Students analyze GAPDH DNA and protein sequences using BLAST, interpret alignment scores, and use bioinformatics databases to compare sequences across species.
+
+molecular_biology:
+  title: Molecular Biology
+  description: |
+    Molecular biology is the study of the central dogma: replication, transcription, translation, and cell function at the molecular level.
+    Molecular biologists study how genetic information is copied, read, and expressed as proteins.
+    Questions ask students to transcribe DNA to mRNA, translate codons to amino acids, identify consensus sequences, analyze reading frames, and understand gene regulation through operons and promoters.
+  topics:
+    topic01:
+      title: Introduction to Molecular Biology
+      description: What is molecular biology, cells, organisms, gene creatures, genes, and chromosomes.
+    topic02:
+      title: Meiosis and DNA Structure
+      description: Meiosis, DNA composition, base pairing, and double-helix structure.
+    topic03:
+      title: Protein Structure and Chromosomes
+      description: Protein structure, the central dogma, and chromosome organization.
+    topic04:
+      title: Manipulation of Nucleic Acids
+      description: Restriction enzymes, gel electrophoresis, and PCR.
+    topic05:
+      title: Cloning and Sequencing
+      description: Gene cloning, DNA sequencing methods, and RT-qPCR.
+    topic06:
+      title: DNA Replication
+      description: Replication machinery, origins, forks, and fidelity mechanisms.
+    topic07:
+      title: Transcription
+      description: Transcription of genes, RNA polymerase, promoters, and regulation.
+    topic08:
+      title: RNA Processing and CRISPR
+      description: RNA splicing, mRNA maturation, and CRISPR gene editing.
+    topic09:
+      title: Translation
+      description: Translation of mRNA into protein, codons, anticodons, genetic code, ribosomes, tRNA, and peptide synthesis.
+    topic10:
+      title: Historical Experiments
+      description: "Landmark experiments that established core principles of molecular biology: Griffith's transformation experiment, Avery-MacLeod-McCarty's identification of DNA as the transforming principle, Hershey-Chase's confirmation that DNA carries genetic information, and Beadle-Tatum's one gene-one enzyme hypothesis linking genes to proteins."
+
+biostatistics:
+  title: Biostatistics
+  description: |
+    Biostatistics is the study of statistical methods applied to biological data and experiments.
+    Biostatisticians analyze data, quantify uncertainty, and test hypotheses using probability and statistical models.
+    Questions ask students to calculate means, standard deviations, and p-values, interpret hypothesis tests and confidence intervals, and apply regression and correlation to biological datasets.
+  topics:
+    topic01:
+      title: Introduction to Biostatistics
+      description: Students identify types of data (categorical, numerical, ordinal) and describe the scope and purpose of biostatistics.
+    topic02:
+      title: Descriptive Statistics
+      description: Students summarize datasets using frequency tables, calculate proportions, and choose appropriate graphical representations for data.
+    topic03:
+      title: Center, Variance, and Distributions
+      description: Students calculate mean, median, standard deviation, and variance, convert values to z-scores, and determine percentile ranks from sorted data.
+    topic04:
+      title: Probability Distributions
+      description: Students apply the normal distribution to calculate probabilities, use z-tables, and identify properties of probability distributions.
+    topic05:
+      title: Hypothesis Testing
+      description: Students formulate null and alternative hypotheses, interpret p-values and significance levels, and perform t-tests and ANOVA.
+    topic06:
+      title: Grouping with Z-Scores
+      description: Students convert raw scores to z-scores, use z-score thresholds to classify observations into groups, and identify statistical outliers using standard deviation cutoffs.
+    topic07:
+      title: Linear Regression
+      description: Students calculate correlation coefficients, fit least-squares regression lines, and interpret slope, intercept, and R-squared values.
+    topic08:
+      title: Graph Interpretation
+      description: Students read, interpret, and compare graphical data displays including box plots, histograms, scatterplots, bar charts, ROC curves, and Kaplan-Meier survival plots.
+
+other:
+  title: Other
+  description: |
+    Other topics covers biology scripts that do not fit neatly into the main subject areas of biochemistry, genetics, molecular biology, biostatistics, biotechnology, or laboratory.
+    This is a catch-all subject for orphaned scripts spanning cell biology, biophysics, and other interdisciplinary areas.
+    Questions ask students to work with concepts that cross traditional subject boundaries or belong to smaller specialized fields.
+  topics:
+    topic01:
+      title: Cell Biology
+      description: Students analyze cell structure and function, calculate surface-to-volume ratios for different cell shapes, compare prokaryotic and eukaryotic organelles, and interpret membrane transport mechanisms.
+    topic02:
+      title: Biophysics
+      description: Students analyze physical methods applied to biological molecules, including FRET energy transfer, fluorescence spectroscopy, binding curves, diffusion, membrane potentials, and single-molecule techniques.

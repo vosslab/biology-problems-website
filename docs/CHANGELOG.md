@@ -17,6 +17,31 @@
 
 ### Developer Tests and Notes
 - Ran `node devel/ui_ux_review.mjs` against `mkdocs serve -a 127.0.0.1:8765`; 32 page visits, all HTTP 200, 33 screenshots saved under `test-results/ui_ux_review/`.
+- Applied reviewer-driven style/test fixes to the `bioproblems_site/` reorg: removed mutable module-level `BASE_DIR` global in `topic_page.py` (now threaded via `base_dir` parameter), removed re-export aliases for `git_paths` helpers, dropped dead commented-out code. Narrowed `llm_wrapper.get_vram_size_in_gb` try/except to not swallow broad exceptions; moved module-level asserts into `tests/test_llm_wrapper.py`. Converted `problem_set_title.py` to a library-only module (removed argparse, `main()`, `if __name__ == '__main__'`). Tightened `metadata._validate_libretexts` to use direct key access for required keys. Moved `detect_formats` filesystem scanning out of `formats.py` (now pure registry) into `scanner._detect_formats`. Replaced brittle exact-count assertion in `test_scanner.py` with behavioral property (more files -> higher count); converted `test_subject_index_render.py` helper into `@pytest.fixture` and switched to `startswith` check; passed explicit paths in `test_mkdocs_metadata_sync.py` to avoid CWD coupling. Deleted obsolete `tests/test_topic_page_parity.py`.
+- Executed M1-M4 of the pipeline reorg plan. `pytest tests/test_metadata_loader.py tests/test_mkdocs_metadata_sync.py tests/test_scanner.py tests/test_subject_index_render.py tests/test_pyflakes_code_lint.py` is green (42 tests). `mkdocs build --strict` exits 0 with zero broken-link warnings. `python generate_pages.py --indexes-only` is idempotent.
+
+### Additions and New Features
+- Added `topics_metadata.yml` at repo root as the single source of truth for subject and topic metadata.
+- Added the `bioproblems_site/` package with submodules `metadata`, `formats`, `scanner`, `subject_index`, `topic_page`, `pipeline`, `llm_wrapper`, `problem_set_title`. Importable logic lives here; no helper modules remain at the repo root.
+- Added `generate_pages.py` at the repo root as the single page-generation CLI entrypoint. Thin argparse (83 lines); delegates to `bioproblems_site.pipeline.run`. Supports `--subject`, `--topic`, `--indexes-only`, `--topics-only`, `--adopt-existing`, `--use-icon`/`--legacy-libretexts-text`, `--dry-run`, `-q`/`-v`.
+- Added `site_docs/assets/images/libretexts.png` (LibreTexts chapter icon) plus `.lt-icon` CSS. The generated subject indexes now render a compact icon anchor per topic instead of the repeated `(LibreTexts Unit N, Chapter M)` text. Icon anchors carry `aria-label` and `rel="noopener"`.
+- Added per-topic `N questions` chip via a new `.topic-count` CSS class; chips derive from `bbq-*-questions.txt` scan at generation time, not mkdocs render time.
+
+### Behavior or Interface Changes
+- Enabled Material for MkDocs theme features `navigation.path`, `navigation.indexes`, `navigation.sections`, and `navigation.top` in `mkdocs.yml`. Breadcrumbs, collapsible subject sections, and back-to-top come from the theme, not generator-emitted HTML.
+- Added `bioproblems_site/mkdocs_nav.py` plus a `tests/conftest.py` that puts the repo root on `sys.path` so `pytest tests/` works without `source source_me.sh`.
+- Generated `site_docs/<subject>/index.md` pages are now authoritative and carry a generated-file marker as their first line; the generator refuses to overwrite a file without this marker unless `--adopt-existing` is passed.
+- Subject index generation intentionally omits topics with zero questions (no `bbq-*-questions.txt` on disk), so broken subject-to-topic links caught by the UI/UX review are no longer possible in generated output. `mkdocs build --strict` now exits with zero missing-target warnings.
+
+### Removals and Deprecations
+- Deleted `site_docs/biotechnology/` (orphan subject, not in `mkdocs.yml` nav, no topic pages). `grep -rn biotechnology site_docs/ mkdocs.yml` returns zero hits.
+- Deleted root `generate_topic_pages.py` (replaced by `generate_pages.py`). The markdown-index parser, `_TOPIC_HEADING_RE`, `_LIBRETEXTS_RE`, `_DESCRIPTION_RE`, and `--metadata-source` argparse flag are all gone. YAML is the sole metadata source.
+- Moved `llm_wrapper.py` -> `bioproblems_site/llm_wrapper.py` and `llm_generate_problem_set_title.py` -> `bioproblems_site/problem_set_title.py` via `git mv`. Neither is run directly.
+
+### Decisions and Failures
+- Picked Branch A of the M4 decision gate (theme breadcrumbs via `navigation.path`) and shipped the generated subject nav block in the same session. `bioproblems_site.mkdocs_nav` rewrites only the region between `# BEGIN GENERATED SUBJECT NAV` and `# END GENERATED SUBJECT NAV` markers in `mkdocs.yml`; the rest of the config is hand-authored. Guardrails: markers must appear exactly once, file is restored from backup if the rewrite would break YAML parsing, second run produces zero diff. Topic pages are back in nav so Material's `navigation.path` breadcrumb renders the full Home -> Subject -> Topic trail.
+- Genetics topics render as `(LibreTexts Chapter N)` (no unit label); the YAML schema was relaxed to allow libretexts with `url` + `chapter` but no `unit` so chapter-only books round-trip correctly.
+- Pyflakes caught an unused scanner import in `bioproblems_site/subject_index.py`; removed.
 
 ## 2026-04-13
 

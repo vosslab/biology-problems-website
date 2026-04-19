@@ -1,3 +1,6 @@
+"""LLM helpers: Ollama model selection, querying, and response parsing."""
+
+# Standard Library
 import re
 import subprocess
 import time
@@ -55,12 +58,6 @@ def extract_xml_tag(raw_text: str, tag: str) -> str:
 	return content.strip()
 
 
-_raw = "<response>Hello</response>"
-assert extract_xml_tag(_raw, "response") == "Hello"
-
-_raw2 = "<response>\nYou know that Canadian indie rock super-group..."
-assert extract_xml_tag(_raw2, "response").startswith("You know that Canadian")
-
 #============================================
 def get_vram_size_in_gb() -> int | None:
 	"""
@@ -69,28 +66,25 @@ def get_vram_size_in_gb() -> int | None:
 	Returns:
 		int | None: Size in GB if detected.
 	"""
-	try:
-		architecture = subprocess.check_output(["uname", "-m"], text=True).strip()
-		is_apple_silicon = architecture.startswith("arm64")
-		if is_apple_silicon:
-			hardware_info = subprocess.check_output(
-				["system_profiler", "SPHardwareDataType"],
-				text=True,
-			)
-			match = re.search(r"Memory:\s(\d+)\s?GB", hardware_info)
-			if match:
-				return int(match.group(1))
-		else:
-			display_info = subprocess.check_output(
-				["system_profiler", "SPDisplaysDataType"],
-				text=True,
-			)
-			vram_match = re.search(r"VRAM.*?: (\d+)\s?MB", display_info)
-			if vram_match:
-				size_mb = int(vram_match.group(1))
-				return size_mb // 1024
-	except Exception:
+	architecture = subprocess.check_output(["uname", "-m"], text=True).strip()
+	is_apple_silicon = architecture.startswith("arm64")
+	if is_apple_silicon:
+		hardware_info = subprocess.check_output(
+			["system_profiler", "SPHardwareDataType"],
+			text=True,
+		)
+		match = re.search(r"Memory:\s(\d+)\s?GB", hardware_info)
+		if match:
+			return int(match.group(1))
 		return None
+	display_info = subprocess.check_output(
+		["system_profiler", "SPDisplaysDataType"],
+		text=True,
+	)
+	vram_match = re.search(r"VRAM.*?: (\d+)\s?MB", display_info)
+	if vram_match:
+		size_mb = int(vram_match.group(1))
+		return size_mb // 1024
 	return None
 
 #============================================
