@@ -4,8 +4,11 @@ bbq-MC-chromosome_shapes-questions.txt: Chromosome Shapes from Centromere and Ar
 bbq-cytogenetic_notation-aneuploidy-5_choices-questions.txt: Chromosomal Abnormalities
   from Karyotype Notation
 bbq-cytogenetic_notation-aneuploidy-questions.txt: Cytogenetic Notation for Aneuploidy
+bbq-cytogenetic_notation-band_order-5_choices-questions.txt: Chromosome Band Proximity
 bbq-cytogenetic_notation-rearrangements-questions.txt: Cytogenetic Notation for Rearrangements
 bbq-cytogenetic_notation-sub-band_notation-questions.txt: Cytogenetic Notation Karyotypes
+bbq-deletion_mutant_random-05_genes-MC-questions.txt: Gene Order Determination
+bbq-deletion_mutant_words-05_genes-MC-questions.txt: Gene Order Determination
 bbq-deletion_mutants-04_genes-FREE-MC-questions.txt: Gene Order with Deletion Mutants
   (4 Genes, Free Response)
 bbq-deletion_mutants-04_genes-TABLE-MC-questions.txt: Gene Order with Deletion Mutants
@@ -26,4 +29,4 @@ bbq-polyploid-monoploid_v_haploid-questions.txt: Monoploid and Haploid Numbers f
 bbq-robertsonian-questions.txt: Gametes from Robertsonian Translocation
 bbq-translocation_meiosis_table-questions.txt: Balanced Translocation Segregation
   Outcomes
-last edit: Mon Apr 13 15:04:54 2026
+last edit: Sun Apr 19 11:41:28 2026

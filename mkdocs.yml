@@ -131,6 +131,7 @@ nav:
 - "📚 Other":
   - other/index.md
   - "01: Cell Biology": other/topic01/index.md
+  - "02: Biophysics": other/topic02/index.md
 # END GENERATED SUBJECT NAV
 - "<i class='fa fa-book-open'></i> Tutorials":
   - 'List of Tutorials': tutorials/index.md

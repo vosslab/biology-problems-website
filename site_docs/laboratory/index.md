@@ -20,5 +20,5 @@ Questions ask students to calculate dilution volumes, prepare solutions at speci
 4. [Serial Dilutions](topic04/index.md) <span class='topic-count' title='3 questions'>3 questions</span>
     - Students design multi-step dilution series to reach high overall dilution factors, calculate effective dilution factors across linked steps, and explain why serial dilutions improve accuracy and save materials compared to one large dilution.
 
-5. [PCR and Electrophoresis](topic11/index.md) <span class='topic-count' title='1 question'>1 question</span>
+5. [PCR and Electrophoresis](topic11/index.md) <span class='topic-count' title='2 questions'>2 questions</span>
     - Students extract DNA, perform initial and nested PCR amplification of the GAPDH gene, run gel electrophoresis to separate DNA fragments, and interpret band patterns.
