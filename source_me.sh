@@ -6,3 +6,8 @@ export PYTHONUNBUFFERED=1
 export PYTHONDONTWRITEBYTECODE=1
 
 source ~/.bashrc
+
+# Vendored local-llm-wrapper (also on PyPI as local-llm-wrapper).
+# Must come after sourcing ~/.bashrc, which clears PYTHONPATH.
+# Drop this line once the PyPI install is pinned in pip_requirements.txt.
+export PYTHONPATH="$HOME/nsh/local-llm-wrapper:${PYTHONPATH:-}"

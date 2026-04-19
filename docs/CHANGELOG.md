@@ -3,10 +3,13 @@
 ## 2026-04-18
 
 ### Additions and New Features
+- Added `bioproblems_site/llm_helpers.py` (project-local seam over the vendored `local_llm_wrapper.llm` facade), mirroring `validate_ollama_model` and `create_llm_client` from the sibling `biology-problems` repo.
+- Added `-O/--ollama` and `-m/--model MODEL` flags to `generate_pages.py`. `--model` implies `--ollama`; when set, `validate_ollama_model` runs once at startup before any topic page is rendered. The pipeline builds a single `LLMClient` and threads it through `RenameOptions.llm_client` -> `update_index_md(client=...)` -> `get_problem_set_title(client, ...)` -> `get_problem_title_from_file(client, ...)`. No per-call client cache; one client per `generate_pages.py` run.
 - Added [devel/ui_ux_review.mjs](../devel/ui_ux_review.mjs), a Playwright driver that visits key mkdocs pages at desktop and mobile viewports, captures full-page screenshots into `test-results/ui_ux_review/`, and writes `report.json` with per-page metrics (status, H1 count, image count, missing alt text, tables, external links missing `rel=noopener`).
 - Added [docs/UI_UX_REVIEW_2026-04-18.md](UI_UX_REVIEW_2026-04-18.md) capturing the findings of a rendered-site UI/UX pass against the Material theme.
 
 ### Behavior or Interface Changes
+- Replaced ad-hoc `bioproblems_site/llm_wrapper.py` with the vendored `local_llm_wrapper` package (also on PyPI as `local-llm-wrapper`). `source_me.sh` now appends `~/nsh/local-llm-wrapper` to `PYTHONPATH` (after `source ~/.bashrc`, which clears it). Default LLM transport is now Apple Intelligence (matches sibling repo); Ollama is opt-in via `-O/--ollama` or `-m/--model`. Title generation is now capped at `max_tokens=200` -- intentional behavior change suitable for short titles; the old wrapper used the Ollama default.
 - Added `test-results/` and `node_modules/` to `.gitignore` so Playwright screenshots and npm deps stay out of git.
 - Initialized root `package.json` and installed `playwright` as a dev dependency (plus `chromium` browser via `npx playwright install chromium`) so the review script can run locally per [docs/PLAYWRIGHT_USAGE.md](PLAYWRIGHT_USAGE.md).
 
@@ -34,6 +37,7 @@
 - Subject index generation intentionally omits topics with zero questions (no `bbq-*-questions.txt` on disk), so broken subject-to-topic links caught by the UI/UX review are no longer possible in generated output. `mkdocs build --strict` now exits with zero missing-target warnings.
 
 ### Removals and Deprecations
+- Deleted `bioproblems_site/llm_wrapper.py` outright (no deprecation stub; this repo's only caller, `problem_set_title.py`, was migrated in the same change). `Colors`, `extract_xml_tag`, `select_ollama_model`, `query_ollama_model`, `list_ollama_models`, `extract_response_text`, `get_vram_size_in_gb` are gone from this repo -- use `local_llm_wrapper.llm` (`extract_xml_tag_content`, `choose_model`, `LLMClient`, `get_vram_size_in_gb`) instead.
 - Deleted `site_docs/biotechnology/` (orphan subject, not in `mkdocs.yml` nav, no topic pages). `grep -rn biotechnology site_docs/ mkdocs.yml` returns zero hits.
 - Deleted root `generate_topic_pages.py` (replaced by `generate_pages.py`). The markdown-index parser, `_TOPIC_HEADING_RE`, `_LIBRETEXTS_RE`, `_DESCRIPTION_RE`, and `--metadata-source` argparse flag are all gone. YAML is the sole metadata source.
 - Moved `llm_wrapper.py` -> `bioproblems_site/llm_wrapper.py` and `llm_generate_problem_set_title.py` -> `bioproblems_site/problem_set_title.py` via `git mv`. Neither is run directly.
