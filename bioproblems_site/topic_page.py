@@ -702,14 +702,20 @@ def update_index_md(
 			print(color_text(f'  {file_progress}BBQ file {bbq_file}', COLOR_CYAN))
 
 			html_file_path = get_outfile_name(bbq_file, 'selftest', 'html')
-			if os.path.exists(html_file_path):
-				os.remove(html_file_path)
-			html_file_path = create_downloadable_format(bbq_file, 'selftest', 'html')
-			if not os.path.isfile(html_file_path):
-				print("\n\n\n!! unfortunately, the script requires a selftest for each problem !!")
-				record_stat(stats, "selftest", "failed")
-				raise FileNotFoundError(html_file_path)
-			record_stat(stats, "selftest", "generated")
+			# The selftest HTML is a generated artifact (bbq_converter
+			# subprocess). When generate_downloads is off, reuse the
+			# existing file to keep -T fast; only rebuild if missing.
+			if generate_downloads or not os.path.isfile(html_file_path):
+				if os.path.exists(html_file_path):
+					os.remove(html_file_path)
+				html_file_path = create_downloadable_format(bbq_file, 'selftest', 'html')
+				if not os.path.isfile(html_file_path):
+					print("\n\n\n!! unfortunately, the script requires a selftest for each problem !!")
+					record_stat(stats, "selftest", "failed")
+					raise FileNotFoundError(html_file_path)
+				record_stat(stats, "selftest", "generated")
+			else:
+				record_stat(stats, "selftest", "existing")
 
 			# Generate the problem set title using the LLM
 			problem_set_title = get_problem_set_title(client, bbq_file)
