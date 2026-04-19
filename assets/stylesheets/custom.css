@@ -227,20 +227,43 @@ img[style] {
   margin-left: 0;
 }
 
-/* LibreTexts chapter link icon used in subject index topic lists.
- * Replaces the previous inline "(LibreTexts Unit N, Chapter M)" text.
- * Scoped under .md-typeset so it wins over Material's .md-typeset img
- * rule on specificity. */
+/* LibreTexts chapter link used in subject index topic lists.
+ * Renders as: [small logo] Chapter X.Y  -- logo gives brand cue,
+ * text tells the user what the link goes to, color reinforces that
+ * it's an external reference. Scoped under .md-typeset so it wins
+ * over Material's default img rule on specificity. */
 .md-typeset img.lt-icon {
   height: 1em;
   max-height: 1.2em;
   width: auto;
   vertical-align: -0.15em;
-  opacity: 0.75;
+  opacity: 0.9;
+  margin-right: 0.2em;
 }
 
-.md-typeset img.lt-icon:hover {
+.md-typeset a.lt-link {
+  /* LibreTexts brand blue keeps this visually distinct from internal
+   * topic links without being loud. */
+  color: #127bc4;
+  text-decoration: none;
+  white-space: nowrap;
+  font-size: 0.9em;
+  margin-left: 0.25em;
+  padding: 0 0.25em;
+  border-radius: 0.25em;
+}
+
+.md-typeset a.lt-link:hover {
+  text-decoration: underline;
+  background: rgba(18, 123, 196, 0.08);
+}
+
+.md-typeset a.lt-link:hover img.lt-icon {
   opacity: 1;
+}
+
+.md-typeset a.lt-link .lt-label {
+  vertical-align: baseline;
 }
 
 /* Inline chip that shows per-topic question count next to each title. */
