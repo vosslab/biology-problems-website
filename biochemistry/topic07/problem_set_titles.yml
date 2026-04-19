@@ -1,19 +1,13 @@
-bbq-BCHM355-metabolic_pathway_inhibitor-questions.txt: Enzyme Inhibition and Activation
-  in Metabolic Pathways
-bbq-MC-enzyme_terminology-questions.txt: Enzyme Catalysis Terminology
-bbq-TF-enzyme_equilibrium-questions.txt: True/False Statements About Enzyme Kinetics
-bbq-TF-m-m_kinetics-questions.txt: True/False Statements About Michaelis-Menten Kinetics
-bbq-enzyme_cofactors-questions.txt: Molecules That Are Not Enzyme Cofactors
-bbq-metabolic_pathway_inhibitor-BCHM355-questions.txt: Allosteric Inhibition and Activation
-  in Metabolic Pathways
-bbq-michaelis_menten_table-Km-questions.txt: The Michaelis-Menten Constant (Km) from
-  Enzyme Activity Data
-bbq-michaelis_menten_table-inhibition-questions.txt: Inhibition Type from Enzyme Activity
-  Data
-bbq-optimal_enzyme-type_1-questions.txt: Determining Optimal Enzyme Activity Conditions
-bbq-optimal_enzyme-type_2-questions.txt: Determining Optimal Enzyme Activity Based
-  on Temperature and pH Conditions
-bbq-optimal_enzyme-type_3-questions.txt: 'Determining Optimal Conditions for Enzyme
-  Activity: Temperature and pH'
-bbq-which_enzyme-questions.txt: Molecules That Could Be Enzymes
+bbq-BCHM355-metabolic_pathway_inhibitor-questions.txt: "Enzyme Inhibition and Activation in Metabolic Pathways"
+bbq-MC-enzyme_terminology-questions.txt: "Enzyme Catalysis Terminology"
+bbq-TF-enzyme_equilibrium-questions.txt: "True/False Statements About Enzyme Kinetics"
+bbq-TF-m-m_kinetics-questions.txt: "True/False Statements About Michaelis-Menten Kinetics"
+bbq-enzyme_cofactors-questions.txt: "Molecules That Are Not Enzyme Cofactors"
+bbq-metabolic_pathway_inhibitor-BCHM355-questions.txt: "Allosteric Inhibition and Activation in Metabolic Pathways"
+bbq-michaelis_menten_table-Km-questions.txt: "Michaelis-Menten Constant (Km) from Enzyme Activity Data"
+bbq-michaelis_menten_table-inhibition-questions.txt: "Inhibition Type from Enzyme Activity Data"
+bbq-optimal_enzyme-type_1-questions.txt: "Determining Optimal Enzyme Activity Conditions"
+bbq-optimal_enzyme-type_2-questions.txt: "Determining Optimal Enzyme Activity Based on Temperature and pH Conditions"
+bbq-optimal_enzyme-type_3-questions.txt: "Determining Optimal Conditions for Enzyme Activity (Temperature and pH)"
+bbq-which_enzyme-questions.txt: "Molecules That Could Be Enzymes"
 last edit: Mon Mar 30 16:12:40 2026

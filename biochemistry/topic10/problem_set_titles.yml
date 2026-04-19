@@ -1,19 +1,10 @@
-bbq-D_to_L_Fischer_configuration-MC-with_hint-5_choices-questions.txt: Fischer Projections
-  for Monosaccharides with D to L Configuration
-bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt: D/L Monosaccharide
-  Configurations from Haworth Projections - Multiple Choice
-bbq-classify_Fischer-MA-with_hint-questions.txt: Monosaccharide Types from Fischer
-  Projections - Multiple Answers
-bbq-classify_Haworth-MA-with_hint-FURAN-questions.txt: Classifying Monosaccharides
-  from Haworth Projections
-bbq-classify_Haworth-MA-with_hint-PYRAN-questions.txt: Matching Monosaccharides to
-  Haworth Projection Categorizations
-bbq-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-questions.txt: Monosaccharides
-  from Fischer to Haworth Projections (MC)
-bbq-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices-questions.txt: Monosaccharides
-  in Haworth Projections from Fischer Projections (MC)
-bbq-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-questions.txt: Monosaccharides
-  from Haworth to Fischer Projections (MC)
-bbq-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-questions.txt: Fischer
-  Projections of Monosaccharides from Haworth Structures
+bbq-D_to_L_Fischer_configuration-MC-with_hint-5_choices-questions.txt: "Fischer Projections for Monosaccharides with D to L Configuration"
+bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt: "D/L Monosaccharide Configurations from Haworth Projections (Multiple Choice)"
+bbq-classify_Fischer-MA-with_hint-questions.txt: "Monosaccharide Types from Fischer Projections (Multiple Answers)"
+bbq-classify_Haworth-MA-with_hint-FURAN-questions.txt: "Classifying Furanose Monosaccharides from Haworth Projections"
+bbq-classify_Haworth-MA-with_hint-PYRAN-questions.txt: "Matching Pyranose Monosaccharides to Haworth Projection Categories"
+bbq-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-questions.txt: "Furanose Monosaccharides from Fischer to Haworth Projections (MC)"
+bbq-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices-questions.txt: "Pyranose Monosaccharides in Haworth Projections from Fischer Projections (MC)"
+bbq-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-questions.txt: "Furanose Monosaccharides from Haworth to Fischer Projections (MC)"
+bbq-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-questions.txt: "Fischer Projections of Pyranose Monosaccharides from Haworth Structures"
 last edit: Mon Mar 30 22:35:45 2026
