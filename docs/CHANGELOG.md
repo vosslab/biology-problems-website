@@ -7,6 +7,7 @@
 
 ### Fixes and Maintenance
 - Dropped the `adopt_existing` kwarg from `bioproblems_site.pipeline.run` and `_write_subject_index`. All 6 live subject `index.md` files now carry the generated marker, so the one-shot migration escape hatch has no remaining use. The marker check still fires if a future hand-authored subject index appears; its error now points at "delete and regenerate" rather than the removed flag.
+- Also gated the per-BBQ selftest HTML regen in [bioproblems_site/topic_page.py](../bioproblems_site/topic_page.py) `update_index_md` on `generate_downloads`. It was unconditionally removing + re-invoking `bbq_converter.py` on every run, which dominated `-T` runtime. Now it reuses the existing selftest file when present (only rebuilds if missing, so the `{% include %}` on line 717 never breaks); `-STG` / `--full` still force the rebuild.
 - Replaced the unused `RenderOptions.no_downloads` field in [bioproblems_site/topic_page.py](../bioproblems_site/topic_page.py) with `generate_downloads: bool = False` (opposite polarity, matches the new CLI flag). Threaded through `render_all` -> `update_index_md` -> `generate_download_button_row` as a keyword argument. When `False`, the per-format loop skips buttons for missing files and never calls `create_downloadable_format` (including the stale-source rebuild path).
 
 ### Decisions and Failures
