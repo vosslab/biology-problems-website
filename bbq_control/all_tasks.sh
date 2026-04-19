@@ -1,5 +1,6 @@
 #!/bin/sh
 
+rm -f bbq_generation.log*
 source source_me.sh
 for csvfile in task_files/*.csv;
 do
