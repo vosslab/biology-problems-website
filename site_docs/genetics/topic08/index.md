@@ -2,7 +2,7 @@
 
 Students determine gene order on chromosomes using recombination data from test crosses, calculate map distances between linked genes, and use deletion mutants to establish gene arrangement.
 
-**LibreTexts reference:** [Chapter 8: Gene Mapping and Recombination](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/08:_Gene_Mapping_and_Recombination) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/08:_Gene_Mapping_and_Recombination" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 8" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="" class="lt-icon"></a>
+**LibreTexts reference:** [Chapter 8: Gene Mapping and Recombination](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/08:_Gene_Mapping_and_Recombination) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/08:_Gene_Mapping_and_Recombination" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 8" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
 ## Gene Order Determination
 

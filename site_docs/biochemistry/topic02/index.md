@@ -2,7 +2,7 @@
 
 Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict protonation states of simple acids and bases, and analyze buffer systems.
 
-**LibreTexts reference:** [Unit 1, Chapter 2: Chemistry of Water](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.02%3A_Chemistry_of_Water) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.02%3A_Chemistry_of_Water" target="_blank" rel="noopener" aria-label="LibreTexts Unit 1, Chapter 2" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="" class="lt-icon"></a>
+**LibreTexts reference:** [Unit 1, Chapter 2: Chemistry of Water](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.02%3A_Chemistry_of_Water) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.02%3A_Chemistry_of_Water" target="_blank" rel="noopener" aria-label="LibreTexts Unit 1, Chapter 2" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
 ## Correct Henderson-Hasselbalch Equation
 

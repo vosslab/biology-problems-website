@@ -2,7 +2,7 @@
 
 Students interpret karyotypes, identify aneuploid conditions, classify chromosomal abnormalities, and predict outcomes of meiosis with translocations.
 
-**LibreTexts reference:** [Chapter 9: Chromosomal Disorders](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/09:_Chromosomal_Disorders) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/09:_Chromosomal_Disorders" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 9" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="" class="lt-icon"></a>
+**LibreTexts reference:** [Chapter 9: Chromosomal Disorders](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/09:_Chromosomal_Disorders) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/09:_Chromosomal_Disorders" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 9" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
 ## Chromosome Shapes and Descriptions
 

@@ -2,7 +2,7 @@
 
 Students determine Vmax and Km from substrate concentration data, interpret Michaelis-Menten and Lineweaver-Burk plots, and calculate enzyme efficiency using kcat.
 
-**LibreTexts reference:** [Unit 2, Chapter 2: Enzyme Kinetics](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/02%3A_Unit_2_-_Enzymes/2.02%3A_Enzyme_Kinetics) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/02%3A_Unit_2_-_Enzymes/2.02%3A_Enzyme_Kinetics" target="_blank" rel="noopener" aria-label="LibreTexts Unit 2, Chapter 2" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="" class="lt-icon"></a>
+**LibreTexts reference:** [Unit 2, Chapter 2: Enzyme Kinetics](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/02%3A_Unit_2_-_Enzymes/2.02%3A_Enzyme_Kinetics) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/02%3A_Unit_2_-_Enzymes/2.02%3A_Enzyme_Kinetics" target="_blank" rel="noopener" aria-label="LibreTexts Unit 2, Chapter 2" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
 ## Michaelis-Menten Constant (Km) from Enzyme Activity Data
 
