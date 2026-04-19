@@ -13,10 +13,12 @@ bbq-TFMS-mitosis_and_meiosis-questions.txt: True/False Statements About Mitosis 
   Meiosis
 bbq-dominant_and_X-linked_recessive-questions.txt: Fraction of Daughters with Both
   AIS and HD
+bbq-dominant_and_X-linked_recessive_variations-questions.txt: X-linked Recessive Genetic
+  Disorders
 bbq-pedigree_choice-questions.txt: Pedigree Analysis
 bbq-pedigree_match-questions.txt: Match Pedigrees to Inheritance Types
 bbq-poisson_flies-questions.txt: X-linked Recessive Phenotype Cross
 bbq-probabiliy_of_progeny-questions.txt: Probability of Gender Distribution in Children
 bbq-x_linked_reciprocal_cross-questions.txt: X-linked Eye Color Inheritance
 bbq-x_linked_tortoiseshell-questions.txt: X-linked Coat Color Probability
-last edit: Sat Apr 18 21:28:56 2026
+last edit: Sun Apr 19 11:39:56 2026

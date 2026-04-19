@@ -10,3 +10,6 @@ Questions ask students to work with concepts that cross traditional subject boun
 
 1. [Cell Biology](topic01/index.md) <span class='topic-count' title='1 question'>1 question</span>
     - Students analyze cell structure and function, calculate surface-to-volume ratios for different cell shapes, compare prokaryotic and eukaryotic organelles, and interpret membrane transport mechanisms.
+
+2. [Biophysics](topic02/index.md) <span class='topic-count' title='2 questions'>2 questions</span>
+    - Students analyze physical methods applied to biological molecules, including FRET energy transfer, fluorescence spectroscopy, binding curves, diffusion, membrane potentials, and single-molecule techniques.

@@ -132,6 +132,38 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 </details>
 
 
+## Chromosome Band Proximity
+
+<div id="cytogenetic_notation-band_order-5_choices-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-cytogenetic_notation-band_order-5_choices-questions.txt" download title="Download bbq-cytogenetic_notation-band_order-5_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-cytogenetic_notation-band_order-5_choices-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-cytogenetic_notation-band_order-5_choices.zip" download title="Download blackboard_qti_v2_1-cytogenetic_notation-band_order-5_choices.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-cytogenetic_notation-band_order-5_choices.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-cytogenetic_notation-band_order-5_choices.zip" download title="Download canvas_qti_v1_2-cytogenetic_notation-band_order-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-cytogenetic_notation-band_order-5_choices.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-cytogenetic_notation-band_order-5_choices.html', '_blank')" title="View human_readable-cytogenetic_notation-band_order-5_choices.html" aria-label="Click to view the Human-Readable TXT file (human_readable-cytogenetic_notation-band_order-5_choices.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Chromosome Band Proximity
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic09/downloads/selftest-cytogenetic_notation-band_order-5_choices.html" %}
+
+</details>
+
+
 ## Cytogenetic Notation for Rearrangements
 
 <div id="cytogenetic_notation-rearrangements-button-container" class="button-container">
@@ -192,6 +224,70 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
     </span>
   </summary>
   {% include "genetics/topic09/downloads/selftest-cytogenetic_notation-sub-band_notation.html" %}
+
+</details>
+
+
+## Gene Order Determination
+
+<div id="deletion_mutant_random-05_genes-MC-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_random-05_genes-MC-questions.txt" download title="Download bbq-deletion_mutant_random-05_genes-MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-deletion_mutant_random-05_genes-MC-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-deletion_mutant_random-05_genes-MC.zip" download title="Download blackboard_qti_v2_1-deletion_mutant_random-05_genes-MC.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-deletion_mutant_random-05_genes-MC.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-deletion_mutant_random-05_genes-MC.zip" download title="Download canvas_qti_v1_2-deletion_mutant_random-05_genes-MC.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-deletion_mutant_random-05_genes-MC.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-deletion_mutant_random-05_genes-MC.html', '_blank')" title="View human_readable-deletion_mutant_random-05_genes-MC.html" aria-label="Click to view the Human-Readable TXT file (human_readable-deletion_mutant_random-05_genes-MC.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Gene Order Determination
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic09/downloads/selftest-deletion_mutant_random-05_genes-MC.html" %}
+
+</details>
+
+
+## Gene Order Determination
+
+<div id="deletion_mutant_words-05_genes-MC-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_words-05_genes-MC-questions.txt" download title="Download bbq-deletion_mutant_words-05_genes-MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-deletion_mutant_words-05_genes-MC-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-deletion_mutant_words-05_genes-MC.zip" download title="Download blackboard_qti_v2_1-deletion_mutant_words-05_genes-MC.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-deletion_mutant_words-05_genes-MC.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-deletion_mutant_words-05_genes-MC.zip" download title="Download canvas_qti_v1_2-deletion_mutant_words-05_genes-MC.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-deletion_mutant_words-05_genes-MC.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-deletion_mutant_words-05_genes-MC.html', '_blank')" title="View human_readable-deletion_mutant_words-05_genes-MC.html" aria-label="Click to view the Human-Readable TXT file (human_readable-deletion_mutant_words-05_genes-MC.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Gene Order Determination
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic09/downloads/selftest-deletion_mutant_words-05_genes-MC.html" %}
 
 </details>
 

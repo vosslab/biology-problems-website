@@ -1,7 +1,7 @@
 <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 6px 0;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n.qti-btn {\n  background-color: var(--qti-btn-bg, #e6eeff);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, #fbe9eb);\n  color: var(--qti-btn-fg, inherit);\n}\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, inherit);\n  border: 1px solid var(--qti-input-border, #999999);\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n.qti-feedback-success {\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n}\n.qti-feedback-error {\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n}\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #2a3550;\n    --qti-btn-reset-bg: #4b2a2a;\n    --qti-btn-fg: #e0e0e0;\n    --qti-input-bg: #1f1f1f;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #e6eeff;\n  --qti-btn-reset-bg: #fbe9eb;\n  --qti-btn-fg: inherit;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: inherit;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #2a3550;\n  --qti-btn-reset-bg: #4b2a2a;\n  --qti-btn-fg: #e0e0e0;\n  --qti-input-bg: #1f1f1f;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
 <div class="qti-selftest">
-<div id="question_html_04ff_d2fa">
-<div id="statement_text_04ff_d2fa">
+<div id="question_html_219f_dcfe">
+<div id="statement_text_219f_dcfe">
 <p><b>F-Test of Variances: 2014 vs 2024</b><br>Use a one tailed F test for H1: variance_2024 &lt; variance_2014.<br>Sample Data Table:<br><em>Copy the table rows and use regular paste (Ctrl-V or &#8984;-V) into Google Sheets.</em></p>
 <table border="1" cellpadding="3" style="border-collapse:collapse;">
 <tr>
@@ -11,105 +11,140 @@
 </tr>
 <tr>
 <td>Andrews Park</td>
-<td style="text-align:right;">4.05</td>
-<td style="text-align:right;">3.34</td>
+<td style="text-align:right;">5.20</td>
+<td style="text-align:right;">5.21</td>
 </tr>
 <tr>
 <td>Beisner Road Entrance</td>
-<td style="text-align:right;">4.92</td>
-<td style="text-align:right;">4.00</td>
+<td style="text-align:right;">3.05</td>
+<td style="text-align:right;">3.45</td>
+</tr>
+<tr>
+<td>Boat Launch Area</td>
+<td style="text-align:right;">3.92</td>
+<td style="text-align:right;">4.60</td>
 </tr>
 <tr>
 <td>Busse Lake</td>
-<td style="text-align:right;">3.37</td>
-<td style="text-align:right;">5.08</td>
+<td style="text-align:right;">4.78</td>
+<td style="text-align:right;">3.97</td>
+</tr>
+<tr>
+<td>Debra Park</td>
+<td style="text-align:right;">3.93</td>
+<td style="text-align:right;">3.73</td>
 </tr>
 <tr>
 <td>Elk Pasture</td>
-<td style="text-align:right;">3.26</td>
-<td style="text-align:right;">3.89</td>
+<td style="text-align:right;">3.10</td>
+<td style="text-align:right;">3.79</td>
 </tr>
 <tr>
 <td>Forest Central Grove</td>
-<td style="text-align:right;">3.73</td>
-<td style="text-align:right;">3.63</td>
+<td style="text-align:right;">4.06</td>
+<td style="text-align:right;">3.18</td>
+</tr>
+<tr>
+<td>Forest North Grove</td>
+<td style="text-align:right;">4.61</td>
+<td style="text-align:right;">3.84</td>
 </tr>
 <tr>
 <td>Forest South Grove</td>
-<td style="text-align:right;">4.72</td>
-<td style="text-align:right;">4.22</td>
+<td style="text-align:right;">4.05</td>
+<td style="text-align:right;">4.27</td>
 </tr>
 <tr>
 <td>Forest West Grove</td>
-<td style="text-align:right;">5.16</td>
-<td style="text-align:right;">4.09</td>
+<td style="text-align:right;">3.61</td>
+<td style="text-align:right;">4.39</td>
 </tr>
 <tr>
 <td>Lake Boating Center</td>
-<td style="text-align:right;">4.06</td>
-<td style="text-align:right;">3.70</td>
+<td style="text-align:right;">4.13</td>
+<td style="text-align:right;">3.45</td>
 </tr>
 <tr>
 <td>Large Event Area</td>
-<td style="text-align:right;">4.29</td>
-<td style="text-align:right;">4.36</td>
+<td style="text-align:right;">3.33</td>
+<td style="text-align:right;">3.45</td>
 </tr>
 <tr>
 <td>Main Dam</td>
-<td style="text-align:right;">4.24</td>
-<td style="text-align:right;">3.46</td>
+<td style="text-align:right;">4.17</td>
+<td style="text-align:right;">3.89</td>
 </tr>
 <tr>
 <td>Main Pool</td>
-<td style="text-align:right;">4.64</td>
-<td style="text-align:right;">3.74</td>
+<td style="text-align:right;">4.14</td>
+<td style="text-align:right;">3.52</td>
 </tr>
 <tr>
 <td>Marshall Park</td>
-<td style="text-align:right;">4.25</td>
-<td style="text-align:right;">3.68</td>
+<td style="text-align:right;">3.75</td>
+<td style="text-align:right;">3.27</td>
 </tr>
 <tr>
 <td>Model Airplane Field</td>
-<td style="text-align:right;">4.09</td>
-<td style="text-align:right;">3.57</td>
+<td style="text-align:right;">4.46</td>
+<td style="text-align:right;">3.28</td>
+</tr>
+<tr>
+<td>Nature Preserve</td>
+<td style="text-align:right;">3.70</td>
+<td style="text-align:right;">3.29</td>
+</tr>
+<tr>
+<td>Ned Brown Meadow</td>
+<td style="text-align:right;">3.68</td>
+<td style="text-align:right;">3.53</td>
 </tr>
 <tr>
 <td>North Pool</td>
-<td style="text-align:right;">3.32</td>
-<td style="text-align:right;">4.21</td>
+<td style="text-align:right;">3.65</td>
+<td style="text-align:right;">4.22</td>
 </tr>
 <tr>
 <td>Osborn Park</td>
-<td style="text-align:right;">3.95</td>
-<td style="text-align:right;">4.59</td>
+<td style="text-align:right;">3.90</td>
+<td style="text-align:right;">3.68</td>
+</tr>
+<tr>
+<td>Salt Creek Trail</td>
+<td style="text-align:right;">3.57</td>
+<td style="text-align:right;">4.37</td>
 </tr>
 <tr>
 <td>South Pool</td>
-<td style="text-align:right;">4.91</td>
-<td style="text-align:right;">3.86</td>
+<td style="text-align:right;">4.20</td>
+<td style="text-align:right;">4.27</td>
+</tr>
+<tr>
+<td>Wildlife Refuge</td>
+<td style="text-align:right;">4.44</td>
+<td style="text-align:right;">3.62</td>
 </tr>
 <tr>
 <td>Woodland Meadow</td>
-<td style="text-align:right;">4.30</td>
-<td style="text-align:right;">4.27</td>
+<td style="text-align:right;">3.59</td>
+<td style="text-align:right;">3.72</td>
 </tr>
 </table>
-<p>Alternate Copyable Format:<br><em>Copy this text and use <strong>Data &#8594; Split text to columns &#8594; Comma</strong> in Google Sheets.</em><br><span style="font-family: monospace; background-color:#eee;">Sample Location,2014 Shannon Index,2024 Shannon Index<br>Andrews Park,4.05,3.34<br>Beisner Road Entrance,4.92,4.00<br>Busse Lake,3.37,5.08<br>Elk Pasture,3.26,3.89<br>Forest Central Grove,3.73,3.63<br>Forest South Grove,4.72,4.22<br>Forest West Grove,5.16,4.09<br>Lake Boating Center,4.06,3.70<br>Large Event Area,4.29,4.36<br>Main Dam,4.24,3.46<br>Main Pool,4.64,3.74<br>Marshall Park,4.25,3.68<br>Model Airplane Field,4.09,3.57<br>North Pool,3.32,4.21<br>Osborn Park,3.95,4.59<br>South Pool,4.91,3.86<br>Woodland Meadow,4.30,4.27<br></span><br>Enter the p value as a decimal between 0 and 1.<br>Workflow: <a href="https://docs.google.com/document/d/1tQE36lOQ_HJ2LsZdpqBnQl98xdz8G6YE7JRa6c9Mi9o/edit" target="_blank" rel="noopener">link here</a>.</p>
+<p>Alternate Copyable Format:<br><em>Copy this text and use <strong>Data &#8594; Split text to columns &#8594; Comma</strong> in Google Sheets.</em><br><span style="font-family: monospace; background-color:#eee;">Sample Location,2014 Shannon Index,2024 Shannon Index<br>Andrews Park,5.20,5.21<br>Beisner Road Entrance,3.05,3.45<br>Boat Launch Area,3.92,4.60<br>Busse Lake,4.78,3.97<br>Debra Park,3.93,3.73<br>Elk Pasture,3.10,3.79<br>Forest Central Grove,4.06,3.18<br>Forest North Grove,4.61,3.84<br>Forest South Grove,4.05,4.27<br>Forest West Grove,3.61,4.39<br>Lake Boating Center,4.13,3.45<br>Large Event Area,3.33,3.45<br>Main Dam,4.17,3.89<br>Main Pool,4.14,3.52<br>Marshall Park,3.75,3.27<br>Model Airplane Field,4.46,3.28<br>Nature Preserve,3.70,3.29<br>Ned Brown Meadow,3.68,3.53<br>North Pool,3.65,4.22<br>Osborn Park,3.90,3.68<br>Salt Creek Trail,3.57,4.37<br>South Pool,4.20,4.27<br>Wildlife Refuge,4.44,3.62<br>Woodland Meadow,3.59,3.72<br></span><br>Enter the p value as a decimal between 0 and 1.<br>Workflow: <a href="https://docs.google.com/document/d/1tQE36lOQ_HJ2LsZdpqBnQl98xdz8G6YE7JRa6c9Mi9o/edit" target="_blank" rel="noopener">link here</a>.</p>
 </div>
 <div>
-<input type="text" class="qti-input" id="num_input_04ff_d2fa" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Enter a number"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_04ff_d2fa()">Check Answer</button>
-<div id="result_04ff_d2fa" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
+<input type="text" class="qti-input" id="num_input_219f_dcfe" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Enter a number"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_219f_dcfe()">Check Answer</button>
+<div id="result_219f_dcfe" style="display: block; margin: 0; padding: 0; font-size: large; font-weight: bold; font-family: monospace;"> </div>
 </div>
 <br>
 </div><script>
-const numAnswer_04ff_d2fa = 0.17160406;
-const numTolerance_04ff_d2fa = 0.0017;
-function checkAnswer_04ff_d2fa() {
-  const inputEl = document.getElementById('num_input_04ff_d2fa');
+const numAnswer_219f_dcfe = 0.45827033;
+const numTolerance_219f_dcfe = 0.0046;
+function checkAnswer_219f_dcfe() {
+  const inputEl = document.getElementById('num_input_219f_dcfe');
   if (!inputEl) { return; }
   const valStr = inputEl.value.trim();
-  const resultDiv = document.getElementById('result_04ff_d2fa');
+  const resultDiv = document.getElementById('result_219f_dcfe');
   if (valStr === '') {
     resultDiv.style.color = 'inherit';
     resultDiv.textContent = 'Please enter a value.';
@@ -121,8 +156,8 @@ function checkAnswer_04ff_d2fa() {
     resultDiv.textContent = 'Please enter a valid number.';
     return;
   }
-  const lower = numAnswer_04ff_d2fa - numTolerance_04ff_d2fa;
-  const upper = numAnswer_04ff_d2fa + numTolerance_04ff_d2fa;
+  const lower = numAnswer_219f_dcfe - numTolerance_219f_dcfe;
+  const upper = numAnswer_219f_dcfe + numTolerance_219f_dcfe;
   const isCorrect = (userVal >= lower && userVal <= upper);
   if (isCorrect) {
     resultDiv.style.color = 'var(--qti-success-fg, #008000)';
@@ -141,10 +176,10 @@ function checkAnswer_04ff_d2fa() {
   }
 }
 document.addEventListener('DOMContentLoaded', function() {
-  const inputEl = document.getElementById('num_input_04ff_d2fa');
+  const inputEl = document.getElementById('num_input_219f_dcfe');
   if (!inputEl) return;
   inputEl.addEventListener('keydown', function(e) {
-    if (e.key === 'Enter') { e.preventDefault(); checkAnswer_04ff_d2fa(); }
+    if (e.key === 'Enter') { e.preventDefault(); checkAnswer_219f_dcfe(); }
   });
 });
 </script>
