@@ -55,21 +55,30 @@ async function evalPage(page) {
 			const h = a.getAttribute('href');
 			return h && !h.startsWith('http') && !h.startsWith('#') && !h.startsWith('mailto:');
 		});
+		// rel="noopener" only matters when the link opens in a new tab. Flag
+		// only external target=_blank links that are missing it.
 		const externalNoRel = anchors.filter(a => {
 			const h = a.getAttribute('href') || '';
 			if (!h.startsWith('http')) return false;
+			const target = (a.getAttribute('target') || '').toLowerCase();
+			if (target !== '_blank') return false;
 			const rel = (a.getAttribute('rel') || '').toLowerCase();
 			return !rel.includes('noopener');
 		}).length;
 		const imgs = Array.from(document.querySelectorAll('article img'));
-		const imgsNoAlt = imgs.filter(i => !i.getAttribute('alt')).length;
+		// alt="" is a valid decorative-image marker; only flag images with the attribute completely absent.
+		const imgsNoAlt = imgs.filter(i => i.getAttribute('alt') === null).length;
 		const smallFontIcons = Array.from(document.querySelectorAll('[style*="font-size: 0.8em"], [style*="font-size:0.8em"]')).length;
-		const tables = document.querySelectorAll('article table').length;
+		const allTables = Array.from(document.querySelectorAll('article table'));
+		const tables = allTables.length;
+		// Tables that are visible on page load (i.e., not inside a collapsed <details>).
+		const visibleTables = allTables.filter(t => !t.closest('details:not([open])')).length;
+		const detailsBlocks = document.querySelectorAll('article details').length;
 		const title = document.title;
 		const navItems = document.querySelectorAll('.md-nav__item').length;
 		return { title, h1count: h1s.length, h1: h1s[0] || null,
 			internalLinks: internal.length, externalNoRel,
-			imgs: imgs.length, imgsNoAlt, smallFontIcons, tables, navItems };
+			imgs: imgs.length, imgsNoAlt, smallFontIcons, tables, visibleTables, detailsBlocks, navItems };
 	});
 }
 
@@ -105,13 +114,20 @@ for (const vp of viewports) {
 		try {
 			await page.goto(BASE + '/', { waitUntil: 'domcontentloaded', timeout: 20000 });
 			await page.waitForTimeout(300);
-			// Material renders one visible palette toggle label at a time; clicking it flips the scheme.
-			const toggleLabel = await page.$('form[data-md-component="palette"] label[hidden=""], form[data-md-component="palette"] label:not([hidden])');
-			if (toggleLabel) { await toggleLabel.click({ force: true }); await page.waitForTimeout(400); }
-			await page.screenshot({ path: path.join(OUT, 'home_dark.png'), fullPage: true });
-			await page.goto(BASE + '/biochemistry/', { waitUntil: 'domcontentloaded', timeout: 20000 });
-			await page.waitForTimeout(400);
-			await page.screenshot({ path: path.join(OUT, 'subject_biochem_dark.png'), fullPage: true });
+			// Material's palette JS runs at page load and reads localStorage before paint.
+			// Use a fresh context with the palette pre-seeded via addInitScript.
+			const darkCtx = await browser.newContext({ viewport: { width: vp.width, height: vp.height }, colorScheme: 'dark' });
+			await darkCtx.addInitScript(() => {
+				localStorage.setItem('__palette', JSON.stringify({ index: 1, color: { scheme: 'slate', primary: 'green', accent: 'lime' } }));
+			});
+			const darkPage = await darkCtx.newPage();
+			await darkPage.goto(BASE + '/', { waitUntil: 'domcontentloaded', timeout: 20000 });
+			await darkPage.waitForTimeout(500);
+			await darkPage.screenshot({ path: path.join(OUT, 'home_dark.png'), fullPage: true });
+			await darkPage.goto(BASE + '/biochemistry/', { waitUntil: 'domcontentloaded', timeout: 20000 });
+			await darkPage.waitForTimeout(500);
+			await darkPage.screenshot({ path: path.join(OUT, 'subject_biochem_dark.png'), fullPage: true });
+			await darkCtx.close();
 		} catch (e) {
 			console.log('dark mode capture failed:', String(e).slice(0, 120));
 		}
@@ -122,6 +138,6 @@ await browser.close();
 
 fs.writeFileSync(path.join(OUT, 'report.json'), JSON.stringify(report, null, 2));
 for (const r of report) {
-	console.log(`[${r.vp}] ${r.status} ${r.url}  H1=${r.h1count} imgs=${r.imgs} noAlt=${r.imgsNoAlt} smallIcons=${r.smallFontIcons} tables=${r.tables} extNoRel=${r.externalNoRel}`);
+	console.log(`[${r.vp}] ${r.status} ${r.url}  H1=${r.h1count} imgs=${r.imgs} noAlt=${r.imgsNoAlt} tables=${r.tables} visTables=${r.visibleTables} details=${r.detailsBlocks} extNoRel=${r.externalNoRel}`);
 }
 console.log(`\nWrote ${report.length} rows to ${OUT}/report.json`);

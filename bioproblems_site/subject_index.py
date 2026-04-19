@@ -51,7 +51,7 @@ def _libretexts_icon_anchor(link: "metadata_module.LibreTextsLink") -> str:
 		f'<a class="lt-link" href="{link.url}" target="_blank" '
 		f'rel="noopener noreferrer" aria-label="{aria_label}" '
 		f'title="Open on LibreTexts (new tab)">'
-		f'<img src="{LIBRETEXTS_ICON_SRC}" alt="" class="lt-icon">'
+		f'<img src="{LIBRETEXTS_ICON_SRC}" alt="LibreTexts" class="lt-icon">'
 		f'<span class="lt-label">{visible_label}</span>'
 		f'</a>'
 	)
