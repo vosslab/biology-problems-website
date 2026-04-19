@@ -2,6 +2,21 @@
 
 ## 2026-04-18
 
+### Additions and New Features
+- Added [site_docs/daily_puzzles/index.md](../site_docs/daily_puzzles/index.md), a landing page for the Daily Puzzles section with a Material grid-card overview of the four puzzles (Peptidyle, Deletion mutants, Mutant screen, Biomacromolecules) plus a short "How it works" section covering the local-midnight rotation and browser-local stats storage. Wired it into the Daily Puzzles nav group in [mkdocs.yml](../mkdocs.yml) as the first child so Material's `navigation.indexes` uses it as the section landing page. Also added the new URL to the page list in [tests/ui_ux_review.mjs](../tests/ui_ux_review.mjs).
+- Added a `_subject_display_labels` test to [tests/test_mkdocs_nav.py](../tests/test_mkdocs_nav.py) covering the new list-shape path (value is a list whose first entry is the subject index), so icons in subject labels stay preserved across nav regeneration.
+
+### Behavior or Interface Changes
+- Restored emoji icons on the six subject labels in [mkdocs.yml](../mkdocs.yml) (`🧪 Biochemistry`, `🪰 Genetics`, `🔬 Laboratory`, `🧬 Molecular Biology`, `🎲 Biostatistics`, `📚 Other`) so every top-level nav entry has a glyph, matching the FontAwesome prefixes already on Home / Daily Puzzles / Tutorials / Author / License. Fixes the [minor] "unbranded subjects" finding from [docs/UI_UX_REVIEW_2026-04-18.md](UI_UX_REVIEW_2026-04-18.md).
+- Reworked the LibreTexts link in [bioproblems_site/subject_index.py](../bioproblems_site/subject_index.py) `_libretexts_icon_anchor`: it now renders as `[logo] Chapter U.C` (e.g. `Chapter 1.2`) inside an `<a class="lt-link">` with LibreTexts brand blue (`#127bc4`), a hover background, a "Open on LibreTexts (new tab)" tooltip, and `rel="noopener noreferrer"`. Replaces the prior logo-only anchor that readers could not interpret. New `.lt-link` CSS in [site_docs/assets/stylesheets/custom.css](../site_docs/assets/stylesheets/custom.css). All subject indexes regenerated via `generate_pages.py --indexes-only`.
+- Added `md_in_html` to `markdown_extensions` in [mkdocs.yml](../mkdocs.yml) so the Daily Puzzles landing page can use Material's `grid cards` layout (Markdown inside HTML blocks).
+
+### Fixes and Maintenance
+- Generalized `_subject_display_labels` in [bioproblems_site/mkdocs_nav.py](../bioproblems_site/mkdocs_nav.py) to read subject labels from both shapes (string-valued `{"Biochemistry": "biochemistry/index.md"}` and list-valued `{"Biochemistry": ["biochemistry/index.md", ...]}`). The prior string-only path silently dropped hand-authored icons whenever `navigation.indexes` listed subject children.
+
+### Decisions and Failures
+- Chose "emoji on subjects, FontAwesome on utility rows" over uniform FontAwesome after user preference. Accepts a minor mixed-style cost on the top-level nav in exchange for keeping the existing personality (🧪, 🪰, 🔬, 🧬, 🎲, 📚) that readers in earlier commits had internalized.
+
 ### Behavior or Interface Changes
 - Removed `navigation.sections` from [mkdocs.yml](../mkdocs.yml) `theme.features` so subject groups (Biochemistry, Genetics, Laboratory, Molecular Biology, Biostatistics, Other) render as collapsible sections again rather than a long always-expanded left rail.
 - Scoped the `.lt-icon` CSS rule in [site_docs/assets/stylesheets/custom.css](../site_docs/assets/stylesheets/custom.css) to `.md-typeset img.lt-icon` with `height: 1em; max-height: 1.2em;` so the LibreTexts icon renders at text cap-height instead of full natural size; Material's `.md-typeset img` rule no longer wins on specificity.

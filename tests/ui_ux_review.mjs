@@ -20,6 +20,7 @@ const pages = [
 	{ slug: 'topic_biochem01', url: '/biochemistry/topic01/' },
 	{ slug: 'topic_genetics01', url: '/genetics/topic01/' },
 	{ slug: 'topic_lab01', url: '/laboratory/topic01/' },
+	{ slug: 'daily_puzzles_index', url: '/daily_puzzles/' },
 	{ slug: 'daily_peptidyle', url: '/daily_puzzles/peptidyle/' },
 	{ slug: 'tutorials_index', url: '/tutorials/' },
 	{ slug: 'tutorial_bbq', url: '/tutorials/bbq_tutorial/' },

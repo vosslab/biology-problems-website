@@ -33,6 +33,13 @@ def _subject_display_labels(mkdocs_path: str) -> dict:
 	"""Extract the existing subject display label (with icon) from
 	mkdocs.yml nav. We preserve the hand-authored emoji/FontAwesome
 	prefixes rather than regenerating them from YAML.
+
+	Subjects can appear in two nav shapes:
+	  - string value: {"Biochemistry": "biochemistry/index.md"}
+	  - list value whose first entry is "<subject>/index.md":
+	    {"Biochemistry": ["biochemistry/index.md", ...]}
+	Both shapes are walked so icons survive the enable/disable of
+	navigation.indexes and other nav-shape tweaks.
 	"""
 	with open(mkdocs_path, "r") as file_pointer:
 		config = yaml.safe_load(file_pointer) or {}
@@ -42,12 +49,18 @@ def _subject_display_labels(mkdocs_path: str) -> dict:
 		if not isinstance(entry, dict):
 			continue
 		for label, value in entry.items():
-			if not isinstance(value, str):
+			# Flat subject: value is the subject index path directly.
+			if isinstance(value, str) and value.endswith("/index.md"):
+				subject_key = value.split("/", 1)[0]
+				labels[subject_key] = label
 				continue
-			if not value.endswith("/index.md"):
-				continue
-			subject_key = value.split("/", 1)[0]
-			labels[subject_key] = label
+			# Expanded subject: value is a list of topic entries whose
+			# first item is the subject index path string.
+			if isinstance(value, list) and value:
+				first = value[0]
+				if isinstance(first, str) and first.endswith("/index.md"):
+					subject_key = first.split("/", 1)[0]
+					labels[subject_key] = label
 	return labels
 
 
