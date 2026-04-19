@@ -2,7 +2,7 @@
 
 Students classify monosaccharides using Fischer and Haworth projections, identify anomers and epimers, and analyze glycosidic bond formation in disaccharides.
 
-**LibreTexts reference:** [Unit 3, Chapter 1: Carbohydrates](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/03%3A_Unit_3_-_Macromolecules/3.01%3A_Carbohydrates) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/03%3A_Unit_3_-_Macromolecules/3.01%3A_Carbohydrates" target="_blank" rel="noopener" aria-label="LibreTexts Unit 3, Chapter 1" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="" class="lt-icon"></a>
+**LibreTexts reference:** [Unit 3, Chapter 1: Carbohydrates](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/03%3A_Unit_3_-_Macromolecules/3.01%3A_Carbohydrates) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/03%3A_Unit_3_-_Macromolecules/3.01%3A_Carbohydrates" target="_blank" rel="noopener" aria-label="LibreTexts Unit 3, Chapter 1" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
 ## Fischer Projections for Monosaccharides with D to L Configuration
 

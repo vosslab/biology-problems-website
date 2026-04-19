@@ -2,7 +2,7 @@
 
 Students calculate allele and genotype frequencies in populations, apply the Hardy-Weinberg equation, and evaluate factors that change allele frequencies.
 
-**LibreTexts reference:** [Chapter 10: Population Genetics](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/10:_Population_Genetics) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/10:_Population_Genetics" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 10" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="" class="lt-icon"></a>
+**LibreTexts reference:** [Chapter 10: Population Genetics](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/10:_Population_Genetics) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/10:_Population_Genetics" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 10" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
 ## Hardy-Weinberg Equilibrium Conditions
 

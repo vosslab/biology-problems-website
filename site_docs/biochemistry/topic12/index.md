@@ -2,7 +2,7 @@
 
 Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, steroids, waxes), identify lipid structures from molecular formulas, and distinguish saturated from unsaturated fatty acids.
 
-**LibreTexts reference:** [Unit 3, Chapter 3: Lipids](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/03%3A_Unit_3_-_Macromolecules/3.03%3A_Lipids) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/03%3A_Unit_3_-_Macromolecules/3.03%3A_Lipids" target="_blank" rel="noopener" aria-label="LibreTexts Unit 3, Chapter 3" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="" class="lt-icon"></a>
+**LibreTexts reference:** [Unit 3, Chapter 3: Lipids](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/03%3A_Unit_3_-_Macromolecules/3.03%3A_Lipids) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/03%3A_Unit_3_-_Macromolecules/3.03%3A_Lipids" target="_blank" rel="noopener" aria-label="LibreTexts Unit 3, Chapter 3" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
 ## Omega Notation for Fatty Acids
 

@@ -2,7 +2,7 @@
 
 Students construct and compare phylogenetic trees, interpret evolutionary distances, and trace gene inheritance across species.
 
-**LibreTexts reference:** [Chapter 11: Gene Trees and Relationships](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/11:_Gene_Trees_and_Relationships) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/11:_Gene_Trees_and_Relationships" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 11" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="" class="lt-icon"></a>
+**LibreTexts reference:** [Chapter 11: Gene Trees and Relationships](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/11:_Gene_Trees_and_Relationships) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/11:_Gene_Trees_and_Relationships" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 11" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
 ## Determining Gene Tree Structure from Distance Matrices
 

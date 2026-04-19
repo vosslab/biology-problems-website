@@ -2,7 +2,7 @@
 
 Students determine how multiple genes interact to produce phenotypes, including epistasis in metabolic and biochemical pathways.
 
-**LibreTexts reference:** [Chapter 5: Allele and Gene Interactions](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/05:_Allele_and_Gene_Interactions) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/05:_Allele_and_Gene_Interactions" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 5" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="" class="lt-icon"></a>
+**LibreTexts reference:** [Chapter 5: Allele and Gene Interactions](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/05:_Allele_and_Gene_Interactions) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/05:_Allele_and_Gene_Interactions" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 5" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
 ## Monohybrid Cross Genotypes and Phenotypes
 

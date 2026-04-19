@@ -2,7 +2,7 @@
 
 Students calculate delta G and Keq, determine whether reactions are spontaneous, and interpret free energy diagrams for enzyme-catalyzed reactions.
 
-**LibreTexts reference:** [Unit 2, Chapter 1: Enzyme Thermodynamics](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/02%3A_Unit_2_-_Enzymes/2.01%3A_Enzyme_Thermodynamics) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/02%3A_Unit_2_-_Enzymes/2.01%3A_Enzyme_Thermodynamics" target="_blank" rel="noopener" aria-label="LibreTexts Unit 2, Chapter 1" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="" class="lt-icon"></a>
+**LibreTexts reference:** [Unit 2, Chapter 1: Enzyme Thermodynamics](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/02%3A_Unit_2_-_Enzymes/2.01%3A_Enzyme_Thermodynamics) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/02%3A_Unit_2_-_Enzymes/2.01%3A_Enzyme_Thermodynamics" target="_blank" rel="noopener" aria-label="LibreTexts Unit 2, Chapter 1" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
 ## Energy Requirement Categories and Energy Terms
 

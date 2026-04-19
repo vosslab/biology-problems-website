@@ -2,7 +2,7 @@
 
 Students trace inheritance of X-linked genes through meiosis, predict progeny outcomes from sex-linked crosses, and explain the chromosomal basis of inheritance.
 
-**LibreTexts reference:** [Chapter 6: Chromosomal Inheritance](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/06:_Chromosomal_Inheritance) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/06:_Chromosomal_Inheritance" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 6" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="" class="lt-icon"></a>
+**LibreTexts reference:** [Chapter 6: Chromosomal Inheritance](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/06:_Chromosomal_Inheritance) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/06:_Chromosomal_Inheritance" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 6" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
 ## Stages of Meiosis Prophase I Matching
 
