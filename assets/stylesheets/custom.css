@@ -227,4 +227,29 @@ img[style] {
   margin-left: 0;
 }
 
+/* LibreTexts chapter link icon used in subject index topic lists.
+ * Replaces the previous inline "(LibreTexts Unit N, Chapter M)" text. */
+.lt-icon {
+  height: 1em;
+  width: auto;
+  vertical-align: -0.15em;
+  opacity: 0.75;
+  color: #127bc4;
+}
+
+.lt-icon:hover {
+  opacity: 1;
+}
+
+/* Inline chip that shows per-topic question count next to each title. */
+.topic-count {
+  display: inline-block;
+  font-size: 0.8em;
+  padding: 0 0.4em;
+  margin-left: 0.25em;
+  border-radius: 0.5em;
+  background: var(--md-default-fg-color--lightest, #f0f0f0);
+  color: var(--md-default-fg-color--light, #555);
+}
+
 /* Daily puzzle shared UI is in assets/stylesheets/daily_puzzle.css */
