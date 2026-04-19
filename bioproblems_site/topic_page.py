@@ -1,28 +1,35 @@
-#!/usr/bin/env python3
+"""Topic-page renderer for bioproblems_site.
+
+Extracted from the former root-level generate_topic_pages.py. Exposes
+render_all() as the callable entrypoint for bioproblems_site.pipeline.
+No argparse here -- that lives in generate_pages.py at the repo root.
+"""
 
 # Standard Library
 import os
 import re
 import glob
 import time
-import argparse
+import functools
 import subprocess
 import urllib.parse
+import dataclasses
 
 # PIP3 modules
 import yaml
 
-# Local
-import llm_generate_problem_set_title
+# local repo modules
+import bioproblems_site.formats as formats_module
+import bioproblems_site.git_paths as git_paths
+import bioproblems_site.metadata as bp_metadata
+import bioproblems_site.download_buttons as download_buttons
+import bioproblems_site.problem_set_title
 
 #==============
 
-BASE_DIR: str = ""
 MKDOCS_CONFIG: str = "mkdocs.yml"
-SUBJECT_TOPIC_CACHE: dict = {}
-GIT_TRACKED_PATHS = None
 
-# ANSI color codes for readable CLI output
+# ANSI color codes for readable CLI output.
 COLOR_RESET = "\033[0m"
 COLOR_GREEN = "\033[92m"
 COLOR_YELLOW = "\033[93m"
@@ -30,22 +37,9 @@ COLOR_CYAN = "\033[96m"
 COLOR_RED = "\033[91m"
 COLOR_MAGENTA = "\033[95m"
 
-DOWNLOAD_FORMAT_KEYS = (
-	"bb_text",
-	"bb_qti",
-	"canvas_qti",
-	"human_read",
-	"webwork_pgml",
-)
-
-FORMAT_LABELS = {
-	"selftest": "Selftest HTML",
-	"bb_text": "Blackboard Learn TXT",
-	"bb_qti": "Blackboard Ultra QTI v2.1",
-	"canvas_qti": "Canvas/ADAPT QTI v1.2",
-	"human_read": "Human-Readable TXT",
-	"webwork_pgml": "WeBWorK PGML",
-}
+# Format keys + labels come from the canonical registries; no local copies.
+DOWNLOAD_FORMAT_KEYS = formats_module.FORMAT_KEYS
+FORMAT_LABELS = download_buttons.FORMAT_LABELS
 
 
 def color_text(text: str, color: str) -> str:
@@ -70,44 +64,6 @@ def remove_case_mismatched_files(expected_path: str) -> None:
 			continue
 		os.remove(entry_path)
 		print(color_text(f"  REMOVED CASE MISMATCH: {entry_path}", COLOR_YELLOW))
-
-#==============
-
-def get_git_tracked_paths() -> dict:
-	global GIT_TRACKED_PATHS
-	if GIT_TRACKED_PATHS is not None:
-		return GIT_TRACKED_PATHS
-	GIT_TRACKED_PATHS = {}
-	result = subprocess.run(
-		["git", "ls-files"],
-		capture_output=True,
-		text=True,
-		check=False,
-	)
-	if result.returncode != 0:
-		return GIT_TRACKED_PATHS
-	for line in result.stdout.splitlines():
-		if not line:
-			continue
-		lower_path = line.lower()
-		if lower_path in GIT_TRACKED_PATHS and GIT_TRACKED_PATHS[lower_path] != line:
-			print(color_text(f"  MULTIPLE GIT CASE MATCHES: {line}", COLOR_YELLOW))
-			continue
-		GIT_TRACKED_PATHS[lower_path] = line
-	return GIT_TRACKED_PATHS
-
-#==============
-
-def canonicalize_git_path(file_path: str) -> str:
-	repo_root = get_repo_root()
-	relative_path = os.path.relpath(file_path, repo_root)
-	tracked = get_git_tracked_paths().get(relative_path.lower())
-	if not tracked:
-		return file_path
-	canonical_path = os.path.join(repo_root, tracked)
-	if canonical_path != file_path and canonical_path.lower() == file_path.lower():
-		print(color_text(f"  CASE MISMATCH: {file_path} -> {canonical_path}", COLOR_YELLOW))
-	return canonical_path
 
 #==============
 
@@ -138,65 +94,13 @@ def record_stat(stats: dict, format_key: str, bucket: str) -> None:
 
 #==============
 
-def parse_args() -> argparse.Namespace:
-	"""
-	Parse command-line arguments.
-	"""
-	parser = argparse.ArgumentParser(
-		description="Generate topic pages and optional download formats."
-	)
-	parser.add_argument(
-		"-f",
-		"--formats",
-		dest="download_formats",
-		action="append",
-		choices=DOWNLOAD_FORMAT_KEYS,
-		help="Download formats to include (default: all).",
-	)
-	parser.add_argument(
-		"--no-downloads",
-		dest="no_downloads",
-		action="store_true",
-		help="Skip download button generation.",
-	)
-	parser.add_argument(
-		"--force-downloads",
-		dest="force_downloads",
-		action="store_true",
-		help="Regenerate download formats even if files exist.",
-	)
-	verbosity_group = parser.add_mutually_exclusive_group()
-	verbosity_group.add_argument(
-		"-q",
-		"--quiet",
-		dest="verbose",
-		action="store_false",
-		help="Reduce console output.",
-	)
-	verbosity_group.add_argument(
-		"-v",
-		"--verbose",
-		dest="verbose",
-		action="store_true",
-		help="Enable detailed console output.",
-	)
-	verbosity_group.set_defaults(verbose=True)
-	args = parser.parse_args()
-
-	if args.no_downloads:
-		args.download_formats = []
-	elif not args.download_formats:
-		args.download_formats = list(DOWNLOAD_FORMAT_KEYS)
-	else:
-		seen = set()
-		ordered = []
-		for item in args.download_formats:
-			if item in seen:
-				continue
-			ordered.append(item)
-			seen.add(item)
-		args.download_formats = ordered
-	return args
+@dataclasses.dataclass
+class RenderOptions:
+	"""Options consumed by render_all(). Populated by the pipeline."""
+	download_formats: tuple = DOWNLOAD_FORMAT_KEYS
+	no_downloads: bool = False
+	force_downloads: bool = False
+	verbose: bool = True
 
 #==============
 
@@ -205,57 +109,10 @@ def get_docs_dir() -> str:
 		raise FileNotFoundError(f"Config file '{MKDOCS_CONFIG}' not found.")
 	with open(MKDOCS_CONFIG, "r") as file_pointer:
 		config = yaml.safe_load(file_pointer) or {}
-	docs_dir = config.get("docs_dir")
-	if not docs_dir:
-		docs_dir = "docs"
+	docs_dir = config["docs_dir"]
 	return docs_dir
 
 #==============
-
-def get_repo_root() -> str:
-	result = subprocess.run(
-		["git", "rev-parse", "--show-toplevel"],
-		capture_output=True,
-		text=True,
-		check=False,
-	)
-	if result.returncode == 0:
-		repo_root = result.stdout.strip()
-		if repo_root:
-			return repo_root
-	return os.path.dirname(os.path.abspath(__file__))
-
-#==============
-
-def find_bbq_converter() -> str:
-	repo_root = get_repo_root()
-	candidates = [
-		os.path.join(repo_root, "bbq_converter.py"),
-		os.path.join(repo_root, "..", "qti_package_maker", "tools", "bbq_converter.py"),
-		os.path.join(os.path.expanduser("~"), "nsh", "PROBLEM", "qti_package_maker", "tools", "bbq_converter.py"),
-		os.path.join(os.path.expanduser("~"), "nsh", "qti_package_maker", "tools", "bbq_converter.py"),
-	]
-	for candidate in candidates:
-		if os.path.isfile(candidate):
-			return os.path.abspath(candidate)
-	return ""
-
-#==============
-
-# Matches a numbered topic list line in site_docs/<subject>/index.md, e.g.:
-#   1. [Life Molecules](topic01/index.md) &mdash; <a href="..." ...>(LibreTexts Unit 1, Chapter 1 ...)</a>
-# The trailing HTML block is optional.
-_TOPIC_HEADING_RE = re.compile(
-	r'^\s*(\d+)\.\s+\[([^\]]+)\]\((topic\d+)/index\.md\)(.*)$'
-)
-
-# Matches the optional LibreTexts anchor, capturing URL, unit (optional), and chapter.
-_LIBRETEXTS_RE = re.compile(
-	r'href="([^"]+)"[^>]*>.*?\(LibreTexts(?:\s+Unit\s+(\d+),)?\s+Chapter\s+(\d+)'
-)
-
-# Matches the indented description bullet that follows a topic heading line.
-_DESCRIPTION_RE = re.compile(r'^\s*-\s+(.*\S)\s*$')
 
 def _derive_libretexts_title(url: str) -> str:
 	"""Recover a human-readable chapter title from a LibreTexts URL slug."""
@@ -268,72 +125,48 @@ def _derive_libretexts_title(url: str) -> str:
 	# Convert underscores to spaces and tidy whitespace.
 	return decoded.replace("_", " ").strip()
 
-def load_subject_topics(subject_folder: str) -> dict:
-	"""Parse site_docs/<subject>/index.md and return a topic metadata dict.
 
-	Returns a mapping like:
-		{
-			'topic01': {
-				'title': 'Life Molecules',
-				'description': 'Students categorize biomolecules ...',
-				'libretexts': {'url': ..., 'title': ..., 'unit': 1, 'chapter': 1} or None,
-			},
-			...
-		}
-	Results are cached per subject.
+@functools.lru_cache(maxsize=None)
+def _topic_entry(subject_folder: str, relative_topic_name: str) -> dict:
+	"""Return the metadata entry for one topic.
+
+	Reads topics_metadata.yml via bioproblems_site.metadata and returns
+	the dict shape consumed by get_topic_title/get_libretexts_link/
+	get_topic_description. Cached per (subject, topic) tuple.
 	"""
-	# Return cached result if we have already parsed this subject.
-	if subject_folder in SUBJECT_TOPIC_CACHE:
-		return SUBJECT_TOPIC_CACHE[subject_folder]
-	index_path = os.path.join(BASE_DIR or "site_docs", subject_folder, "index.md")
-	if not os.path.isfile(index_path):
-		raise FileNotFoundError(f"Subject index not found: {index_path}")
-	with open(index_path, "r") as file_pointer:
-		lines = file_pointer.readlines()
-	topics: dict = {}
-	current_key = None
-	# Walk the file line by line, assigning each description bullet to the most recent heading.
-	for raw_line in lines:
-		heading_match = _TOPIC_HEADING_RE.match(raw_line)
-		if heading_match:
-			_topic_number, title, topic_key, trailing = heading_match.groups()
-			libretexts = None
-			libre_match = _LIBRETEXTS_RE.search(trailing)
-			if libre_match:
-				url, unit_str, chapter_str = libre_match.groups()
-				libretexts = {
-					"url": url,
-					"title": _derive_libretexts_title(url),
-					"unit": int(unit_str) if unit_str else 0,
-					"chapter": int(chapter_str) if chapter_str else 0,
-				}
-			topics[topic_key] = {
-				"title": title.strip(),
-				"description": "",
-				"libretexts": libretexts,
-			}
-			current_key = topic_key
-			continue
-		# Only treat the first indented bullet after a heading as that topic's description.
-		if current_key is not None and not topics[current_key]["description"]:
-			desc_match = _DESCRIPTION_RE.match(raw_line)
-			if desc_match:
-				topics[current_key]["description"] = desc_match.group(1)
-	SUBJECT_TOPIC_CACHE[subject_folder] = topics
-	return topics
-
-def _get_topic_entry(topic_folder: str) -> dict:
-	"""Look up the parsed entry for a topic folder, raising if absent."""
-	subject_folder = os.path.basename(os.path.dirname(topic_folder))
-	relative_topic_name = os.path.basename(os.path.normpath(topic_folder))
-	topics = load_subject_topics(subject_folder)
-	entry = topics.get(relative_topic_name)
-	if entry is None:
+	subjects, _order = bp_metadata.load_topics_metadata()
+	subject = subjects.get(subject_folder)
+	if subject is None:
+		raise FileNotFoundError(
+			f"Subject {subject_folder!r} missing from topics_metadata.yml"
+		)
+	matching = [t for t in subject.topics if t.key == relative_topic_name]
+	if not matching:
 		raise ValueError(
 			f"No entry for {subject_folder}/{relative_topic_name} in "
-			f"site_docs/{subject_folder}/index.md"
+			f"topics_metadata.yml"
 		)
-	return entry
+	topic = matching[0]
+	libretexts_payload = None
+	if topic.libretexts is not None:
+		libretexts_payload = {
+			"url": topic.libretexts.url,
+			"title": _derive_libretexts_title(topic.libretexts.url),
+			"unit": topic.libretexts.unit,
+			"chapter": topic.libretexts.chapter,
+		}
+	return {
+		"title": topic.title,
+		"description": topic.description,
+		"libretexts": libretexts_payload,
+	}
+
+
+def _get_topic_entry(topic_folder: str) -> dict:
+	"""Path-based entry lookup retained for existing call sites."""
+	subject_folder = os.path.basename(os.path.dirname(topic_folder))
+	relative_topic_name = os.path.basename(os.path.normpath(topic_folder))
+	return _topic_entry(subject_folder, relative_topic_name)
 
 #==============
 
@@ -376,7 +209,7 @@ def create_downloadable_format(bbq_file: str, prefix: str, extension: str):
 	file_path = get_outfile_name(bbq_file, prefix, extension)
 	if os.path.exists(file_path):
 		os.remove(file_path)
-	converter_path = find_bbq_converter()
+	converter_path = git_paths.find_bbq_converter()
 	if not converter_path:
 		print(color_text("cannot find bbq_converter.py", COLOR_YELLOW))
 		print("Expected in repo root or qti_package_maker/tools.")
@@ -398,10 +231,6 @@ def create_downloadable_format(bbq_file: str, prefix: str, extension: str):
 	if not os.path.isfile(file_path):
 		print("\n" + cmd_display + "\n")
 		print(color_text(f"WARNING: {prefix}, {extension}, {bbq_file}", COLOR_YELLOW))
-		if not prefix.startswith("human"):
-			#raise FileNotFoundError(file_path)
-			#return None
-			pass
 	return file_path
 
 #==============
@@ -708,7 +537,7 @@ def get_problem_set_title(bbq_file: str) -> str:
 	max_retries = 3
 	problem_set_title = None
 	for attempt in range(max_retries):
-		candidate = llm_generate_problem_set_title.get_problem_title_from_file(bbq_file)
+		candidate = bioproblems_site.problem_set_title.get_problem_title_from_file(bbq_file)
 		if is_valid_title(candidate):
 			problem_set_title = candidate
 			break
@@ -767,6 +596,7 @@ def update_index_md(
 	force_downloads: bool,
 	verbose: bool,
 	stats: dict,
+	base_dir: str,
 ) -> None:
 	"""Update or create the index.md file for the topic.
 
@@ -783,7 +613,6 @@ def update_index_md(
 
 	# Extract the last directory name (e.g., "topic09")
 	relative_topic_name = os.path.basename(normalized_path)
-	#relative_path = os.path.relpath(normalized_path, BASE_DIR)
 
 	topic_number = int(re.search('topic([0-9]+)', relative_topic_name).groups()[0])
 	print(f"Topic Number: {topic_number}")
@@ -819,7 +648,7 @@ def update_index_md(
 
 		bbq_files.sort()
 		for bbq_file in bbq_files:
-			bbq_file = canonicalize_git_path(bbq_file)
+			bbq_file = git_paths.canonicalize_git_path(bbq_file)
 			file_counter["count"] += 1
 			file_progress = ""
 			if total_files:
@@ -854,12 +683,6 @@ def update_index_md(
 				verbose,
 				stats,
 			)
-			"""
-			download_msg = f"Download the {bbq_file_basename} file for Blackboard Upload"
-			markdown_link = f"[{download_msg}]({bbq_file_basename})\n\n"
-			a_href = f"<a id='raw-url' href='{bbq_file_basename}' download>{download_msg}</a>\n\n"
-			index_md.write(a_href)
-			"""
 			index_md.write(download_button_row)
 			index_md.write("<details>\n")
 			index_md.write("  <summary>Click\n")
@@ -873,43 +696,40 @@ def update_index_md(
 			index_md.write("      example problem\n")
 			index_md.write("    </span>\n")
 			index_md.write("  </summary>\n")
-			index_md.write(f"  {{% include \"{os.path.relpath(html_file_path, BASE_DIR)}\" %}}\n\n")
+			index_md.write(f"  {{% include \"{os.path.relpath(html_file_path, base_dir)}\" %}}\n\n")
 			index_md.write("</details>\n\n\n")
-		#index_md.write(get_download_js_string())
 
 #==============
 
-def main():
-	"""Traverse the topic folders and generate pages.
+def render_all(options: "RenderOptions | None" = None) -> None:
+	"""Traverse topic folders and (re)generate their index.md files.
 
-	Raises:
-		FileNotFoundError: If the base directory does not exist.
+	Called by bioproblems_site.pipeline.run. Metadata is sourced from
+	topics_metadata.yml exclusively (the legacy markdown parser was
+	removed in M3).
 	"""
-	global BASE_DIR
-	args = parse_args()
+	if options is None:
+		options = RenderOptions()
 	stats = init_format_stats()
-	BASE_DIR = get_docs_dir()
-	if not os.path.exists(BASE_DIR):
-		raise FileNotFoundError(f"Base directory '{BASE_DIR}' not found.")
-	if args.verbose:
-		if not args.download_formats:
-			print(color_text("Download formats: none", COLOR_YELLOW))
-		else:
-			joined_formats = ", ".join(args.download_formats)
-			print(color_text(f"Download formats: {joined_formats}", COLOR_CYAN))
-		print(color_text(f"Force downloads: {args.force_downloads}", COLOR_CYAN))
+	base_dir = get_docs_dir()
+	if not os.path.exists(base_dir):
+		raise FileNotFoundError(f"Base directory '{base_dir}' not found.")
+	if options.verbose:
+		joined_formats = ", ".join(options.download_formats) or "none"
+		print(color_text(f"Download formats: {joined_formats}", COLOR_CYAN))
+		print(color_text(f"Force downloads: {options.force_downloads}", COLOR_CYAN))
 
-	search_text = os.path.join(BASE_DIR, "*/topic??")
-	print(color_text(f"Search text: {search_text}", COLOR_CYAN))
-	all_topic_folders = glob.glob(os.path.join(BASE_DIR, "*/topic??/"))
+	all_topic_folders = glob.glob(os.path.join(base_dir, "*/topic??/"))
 	all_topic_folders.sort()
-	print(color_text(f"Found {len(all_topic_folders)} topic folders to parse", COLOR_CYAN))
+	if options.verbose:
+		print(color_text(
+			f"Found {len(all_topic_folders)} topic folders to parse", COLOR_CYAN
+		))
 
-	# Pre-filter only topics that actually have bbq files so progress counts are accurate
 	topic_jobs = []
 	for topic_folder in all_topic_folders:
 		norm_topic = os.path.normpath(topic_folder)
-		if norm_topic == BASE_DIR or "topic" not in norm_topic:
+		if norm_topic == base_dir or "topic" not in norm_topic:
 			continue
 		bbq_files = glob.glob(os.path.join(norm_topic, "bbq-*-questions.txt"))
 		if not bbq_files:
@@ -918,51 +738,58 @@ def main():
 
 	total_jobs = len(topic_jobs)
 	total_bbq_files = sum(len(files) for _, files in topic_jobs)
-	print(color_text(f"Processing {total_jobs} topic folders with {total_bbq_files} BBQ files", COLOR_CYAN))
+	if options.verbose:
+		print(color_text(
+			f"Processing {total_jobs} topic folders with "
+			f"{total_bbq_files} BBQ files",
+			COLOR_CYAN,
+		))
 
 	file_counter = {"count": 0}
 	for idx, (topic_folder, bbq_files) in enumerate(topic_jobs, start=1):
-		print("\n\n\n################################")
-		progress = f"[{idx}/{total_jobs}]"
-		file_progress = ""
-		if total_bbq_files:
-			file_progress = f" ({file_counter['count'] + len(bbq_files)}/{total_bbq_files} files)"
-		print(color_text(f"{progress} Current folder: {topic_folder}{file_progress}", COLOR_MAGENTA))
-		print(color_text(f"{progress} Found {len(bbq_files)} bbq files in topic folder: {topic_folder}", COLOR_CYAN))
-
-		# Update the index.md file for the topic
+		if options.verbose:
+			print("\n\n\n################################")
+			progress = f"[{idx}/{total_jobs}]"
+			file_progress = ""
+			if total_bbq_files:
+				file_progress = (
+					f" ({file_counter['count'] + len(bbq_files)}/"
+					f"{total_bbq_files} files)"
+				)
+			print(color_text(
+				f"{progress} Current folder: {topic_folder}{file_progress}",
+				COLOR_MAGENTA,
+			))
 		update_index_md(
 			topic_folder,
 			bbq_files,
 			file_counter,
 			total_bbq_files,
-			args.download_formats,
-			args.force_downloads,
-			args.verbose,
+			list(options.download_formats),
+			options.force_downloads,
+			options.verbose,
 			stats,
+			base_dir,
 		)
-		#sys.exit(1)
-	print("\n\n\n")
-	print("Summary:")
-	format_order = ("selftest", "bb_text", "bb_qti", "canvas_qti", "human_read", "webwork_pgml")
-	for format_key in format_order:
-		label = FORMAT_LABELS.get(format_key, format_key)
-		counts = stats.get(format_key, {})
-		generated = counts.get("generated", 0)
-		failed = counts.get("failed", 0)
-		existing = counts.get("existing", 0)
-		missing = counts.get("missing", 0)
-		skipped = counts.get("skipped", 0)
-		if format_key == "selftest":
-			print(f"- {label}: generated {generated}, failed {failed}")
-			continue
-		print(
-			f"- {label}: generated {generated}, failed {failed}, "
-			f"existing {existing}, missing {missing}, skipped {skipped}"
+	if options.verbose:
+		print("\n\nSummary:")
+		format_order = (
+			"selftest", "bb_text", "bb_qti", "canvas_qti",
+			"human_read", "webwork_pgml",
 		)
-	print(color_text("PROGRAM HAS COMPLETED!!!", COLOR_GREEN))
-
-#==============
-
-if __name__ == "__main__":
-	main()
+		for format_key in format_order:
+			label = FORMAT_LABELS.get(format_key, format_key)
+			counts = stats.get(format_key, {})
+			generated = counts.get("generated", 0)
+			failed = counts.get("failed", 0)
+			existing = counts.get("existing", 0)
+			missing = counts.get("missing", 0)
+			skipped = counts.get("skipped", 0)
+			if format_key == "selftest":
+				print(f"- {label}: generated {generated}, failed {failed}")
+				continue
+			print(
+				f"- {label}: generated {generated}, failed {failed}, "
+				f"existing {existing}, missing {missing}, skipped {skipped}"
+			)
+		print(color_text("PROGRAM HAS COMPLETED!!!", COLOR_GREEN))
