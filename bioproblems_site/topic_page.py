@@ -656,7 +656,7 @@ def update_index_md(
 			icon_anchor = (
 				f'<a href="{libretexts_url}" target="_blank" rel="noopener" '
 				f'aria-label="{aria_label}" title="Open LibreTexts chapter">'
-				f'<img src="/assets/images/libretexts.png" alt="" class="lt-icon"></a>'
+				f'<img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>'
 			)
 			reference_line = (
 				f"**LibreTexts reference:** [{link_title}]({libretexts_url}) "
