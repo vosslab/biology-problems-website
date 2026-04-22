@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-04-22
+
+### Fixes and Maintenance
+- Updated [bbq_control/task_files/biochem_tasks1.csv](../bbq_control/task_files/biochem_tasks1.csv)
+  and [bbq_control/task_files/biochem_tasks3.csv](../bbq_control/task_files/biochem_tasks3.csv)
+  to match the 2026-04-22 biology-problems changelog entry that moved lipid
+  generators into `problems/biochemistry-problems/lipids/` and replaced
+  `fatty_acid_naming.py` with four new generators
+  (`fatty_acid_{naming,match}_{omega,delta}.py`). Repathed
+  `which_hydrophobic-simple.py`, `which_lipid-chemical_formula.py`, and
+  `quick_fatty_acid_colon_system.py` under `lipids/`, and replaced the
+  retired `fatty_acid_naming.py` topic12 row with the four new generator rows.
+
 ## 2026-04-18
 
 ### Behavior or Interface Changes
