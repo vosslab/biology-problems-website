@@ -335,3 +335,6 @@ other:
     topic02:
       title: Biophysics
       description: Students analyze physical methods applied to biological molecules, including FRET energy transfer, fluorescence spectroscopy, binding curves, diffusion, membrane potentials, and single-molecule techniques.
+    topic02:
+      title: Biotechnology
+      description: Cross over of technology and the life sciences
