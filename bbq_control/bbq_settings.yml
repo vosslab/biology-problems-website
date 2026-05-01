@@ -2,26 +2,26 @@
 paths:
   bp_root: "~/nsh/PROBLEMS/biology-problems/problems"
   qti_package_maker: "~/nsh/PROBLEMS/qti_package_maker"
-  matching_sets: "{bp_root}/matching_sets"
-  multiple_choice_statements: "{bp_root}/multiple_choice_statements"
+  bp_match: "{bp_root}/matching_sets"
+  bp_mcs: "{bp_root}/multiple_choice_statements"
 
 script_aliases:
   YMATCH:
-    - "{matching_sets}/yaml_match_to_bbq.py"
-    - "{matching_sets}/yaml_which_one_mc_to_bbq.py"
-  YMCS: "{multiple_choice_statements}/yaml_mc_statements_to_bbq.py"
-  YMMS: "{matching_sets}/yaml_make_match_sets.py"
+    - "{bp_match}/yaml_match_to_bbq.py"
+    - "{bp_match}/yaml_which_one_mc_to_bbq.py"
+  YMCS: "{bp_mcs}/yaml_mc_statements_to_bbq.py"
+  YMMS: "{bp_match}/yaml_make_match_sets.py"
 
 pgml_script_map:
   yaml_match_to_bbq.py:
-    script: "{matching_sets}/yaml_match_to_pgml.py"
+    script: "{bp_match}/yaml_match_to_pgml.py"
     suffix: "-matching"
     extension: "pgml"
   yaml_which_one_mc_to_bbq.py:
-    script: "{matching_sets}/yaml_which_one_mc_to_pgml.py"
+    script: "{bp_match}/yaml_which_one_mc_to_pgml.py"
     suffix: "-which_one"
     extension: "pgml"
   yaml_mc_statements_to_bbq.py:
-    script: "{multiple_choice_statements}/yaml_mc_statements_to_pgml.py"
+    script: "{bp_mcs}/yaml_mc_statements_to_pgml.py"
     suffix: ""
     extension: "pg"
