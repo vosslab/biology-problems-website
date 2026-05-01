@@ -141,7 +141,11 @@ def run(
 				llm_client=llm_client,
 				generate_downloads=generate_downloads,
 			)
-			topic_page_module.render_all(options)
+			topic_page_module.render_all(
+				options,
+				subject_filter=subject_filter,
+				topic_filter=topic_filter,
+			)
 
 	# Nav block regen runs whenever subject indexes were rewritten (nav
 	# entries depend on the same visibility/count filter as the index).

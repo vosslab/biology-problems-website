@@ -38,8 +38,9 @@ indexes and pages and with optional BBQ batch runners for producing question set
   [mkdocs.yml](../mkdocs.yml), [topics_metadata.yml](../topics_metadata.yml), and
   BBQ question files in [site_docs/](../site_docs/) topic folders to assemble topic
   pages and download links.
-- BBQ batch flow: [bbq_control/run_bbq_tasks.py](../bbq_control/run_bbq_tasks.py)
-  reads [bbq_control/bbq_tasks.csv](../bbq_control/bbq_tasks.csv) and
+- BBQ batch flow: [run_bbq_tasks.py](../run_bbq_tasks.py) (at the repo
+  root, next to `generate_pages.py`) reads task CSVs in
+  [bbq_control/task_files/](../bbq_control/task_files/) and
   [bbq_control/bbq_settings.yml](../bbq_control/bbq_settings.yml) to execute
   script-based tasks and write outputs to configured paths.
 

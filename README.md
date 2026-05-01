@@ -13,6 +13,17 @@ This repository contains the MkDocs site content and supporting scripts for Biol
 - [docs/CODE_ARCHITECTURE.md](docs/CODE_ARCHITECTURE.md): High-level components and flows.
 - [docs/FILE_STRUCTURE.md](docs/FILE_STRUCTURE.md): Directory map and file placement notes.
 - [docs/AUTHORS.md](docs/AUTHORS.md): Maintainers and contributors.
+- [docs/TOPICS_METADATA_FORMAT.md](docs/TOPICS_METADATA_FORMAT.md): Schema for `topics_metadata.yml` and the topic alias contract.
+- [docs/BBQ_TASK_CSV_FORMAT.md](docs/BBQ_TASK_CSV_FORMAT.md): Column reference for BBQ task CSVs.
+
+## Topic aliases
+
+Authors reference topics by short, stable aliases (for example
+`biochemistry:amino_acids`) in BBQ task CSVs and in
+`generate_pages.py -t/--topic`. The canonical `topicNN` ids still drive
+folder paths and URLs. See
+[docs/TOPICS_METADATA_FORMAT.md](docs/TOPICS_METADATA_FORMAT.md) and
+[docs/BBQ_TASK_CSV_FORMAT.md](docs/BBQ_TASK_CSV_FORMAT.md).
 
 ## Quick start
 

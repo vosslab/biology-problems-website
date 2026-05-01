@@ -750,12 +750,22 @@ def update_index_md(
 
 #==============
 
-def render_all(options: "RenderOptions | None" = None) -> None:
+def render_all(
+	options: "RenderOptions | None" = None,
+	subject_filter: "str | None" = None,
+	topic_filter: "str | None" = None,
+) -> None:
 	"""Traverse topic folders and (re)generate their index.md files.
 
 	Called by bioproblems_site.pipeline.run. Metadata is sourced from
 	topics_metadata.yml exclusively (the legacy markdown parser was
 	removed in M3).
+
+	Args:
+		options: RenderOptions object (or None for defaults).
+		subject_filter: if set, only render topics under this subject key.
+		topic_filter: if set, only render this topic key (within the
+			filtered subject, if subject_filter is also set).
 	"""
 	if options is None:
 		options = RenderOptions()
@@ -779,6 +789,27 @@ def render_all(options: "RenderOptions | None" = None) -> None:
 	for topic_folder in all_topic_folders:
 		norm_topic = os.path.normpath(topic_folder)
 		if norm_topic == base_dir or "topic" not in norm_topic:
+			continue
+		# Extract subject and topic from the path (format: .../subject_key/topic_key/...).
+		path_parts = norm_topic.split(os.sep)
+		# Find the index of the last path component that matches topic??
+		topic_key = None
+		subject_key = None
+		for i, part in enumerate(path_parts):
+			# Match the canonical topicNN form via the shared regex,
+			# not a hardcoded length check, so changes to the key
+			# contract (e.g. moving to three digits) only need to be
+			# made in one place.
+			if bp_metadata.TOPIC_KEY_RE.match(part):
+				topic_key = part
+				if i > 0:
+					subject_key = path_parts[i - 1]
+				break
+		# Apply filters: if subject_filter is set, skip other subjects.
+		# If topic_filter is set, skip other topics.
+		if subject_filter and subject_key != subject_filter:
+			continue
+		if topic_filter and topic_key != topic_filter:
 			continue
 		bbq_files = glob.glob(os.path.join(norm_topic, "bbq-*-questions.txt"))
 		if not bbq_files:

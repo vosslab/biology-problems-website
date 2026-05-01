@@ -23,6 +23,11 @@ import time
 
 import yaml
 
+# local repo modules
+import bioproblems_site.git_paths
+import bioproblems_site.metadata
+import bioproblems_site.topic_aliases
+
 try:
 	# PIP3 modules
 	from rich.text import Text
@@ -53,20 +58,11 @@ def color(text: str, code: str) -> str:
 	return f"{code}{text}{COLOR_RESET}"
 
 
-def get_repo_root() -> str:
-	"""Get git repo root, falling back to script's parent directory."""
-	script_dir = os.path.dirname(os.path.abspath(__file__))
-	try:
-		result = subprocess.check_output(
-			['git', 'rev-parse', '--show-toplevel'],
-			cwd=script_dir,
-			stderr=subprocess.DEVNULL,
-			universal_newlines=True
-		)
-		return result.strip()
-	except (subprocess.CalledProcessError, FileNotFoundError):
-		# Fallback: assume script is one level below repo root
-		return os.path.dirname(script_dir)
+# get_repo_root() lives in bioproblems_site.git_paths so the BBQ
+# runner and the rest of the production pipeline share one
+# implementation. Tests use tests/git_file_utils.get_repo_root()
+# (tests-only) which is a separate concern.
+get_repo_root = bioproblems_site.git_paths.get_repo_root
 
 
 #============================================
@@ -319,11 +315,11 @@ def get_missing_script_message(task: dict) -> str:
 	return f"Missing script file: {script_path}"
 
 
-def load_tasks(config_path: str, bbq_config: dict) -> list:
-	return load_tasks_csv(config_path, bbq_config)
+def load_tasks(config_path: str, bbq_config: dict, topic_alias_map: dict) -> list:
+	return load_tasks_csv(config_path, bbq_config, topic_alias_map)
 
 
-def load_tasks_csv(config_path: str, bbq_config: dict) -> list:
+def load_tasks_csv(config_path: str, bbq_config: dict, topic_alias_map: dict) -> list:
 	tasks = []
 	repo_root = get_repo_root()
 	paths_config = bbq_config.get("paths", {}) if isinstance(bbq_config, dict) else {}
@@ -376,11 +372,25 @@ def load_tasks_csv(config_path: str, bbq_config: dict) -> list:
 			flags = (row.get("flags") or "").strip()
 			input_value = (row.get("input") or "").strip()
 			output = (row.get("output") or "").strip()
-			subject = (row.get("subject") or row.get("chapter") or "").strip()
-			topic = (row.get("topic") or "").strip()
+			subject = (row.get("subject") or "").strip()
+			raw_topic = (row.get("topic") or "").strip()
 			output_file = (row.get("output_file") or "").strip()
+			# Blank-separator rows still skip before topic validation, so
+			# an empty topic cell on a real script row still raises.
 			if not script and not flags:
 				continue
+			# Resolve subject + topic cell to canonical topicNN. Errors
+			# include CSV path, row number, subject, and the bad value.
+			# reader.line_num is the physical file line number; use
+			# that wording in errors so the message matches what the
+			# author sees in their editor (header is line 1).
+			topic = bioproblems_site.topic_aliases.resolve_topic_key(
+				subject,
+				raw_topic,
+				topic_alias_map,
+				source=config_path,
+				line_number=reader.line_num,
+			)
 			script_value = resolve_script_alias(script, script_aliases)
 			script_values = []
 			if isinstance(script_value, list):
@@ -1383,7 +1393,12 @@ def main():
 			print(color(pythonpath_message, COLOR_RED))
 		return 1
 	pythonpath_value = build_pythonpath(settings)
-	tasks = load_tasks(args.tasks_csv, settings)
+	# Load topic metadata once per run (not once per CSV / row).
+	# Schema validation (alias charset, per-subject uniqueness, no
+	# topicNN collision) fires here.
+	topic_subjects, _topic_nav_order = bioproblems_site.metadata.load_topics_metadata()
+	topic_alias_map = bioproblems_site.metadata.build_topic_alias_map(topic_subjects)
+	tasks = load_tasks(args.tasks_csv, settings, topic_alias_map)
 	if args.shuffle_tasks:
 		random.shuffle(tasks)
 	if args.limit is not None:

@@ -20,6 +20,8 @@ import argparse
 # local repo modules
 import bioproblems_site.pipeline as pipeline
 import bioproblems_site.llm_helpers as llm_helpers
+import bioproblems_site.metadata as metadata
+import bioproblems_site.topic_aliases as topic_aliases
 
 
 def parse_args() -> argparse.Namespace:
@@ -109,9 +111,21 @@ def main() -> None:
 	# Pre-flight: fail fast if the requested Ollama model is not installed.
 	if args.model:
 		llm_helpers.validate_ollama_model(args.model)
+
+	# Resolve topic filter if provided. Load metadata once to get the
+	# alias map and subjects dict.
+	subject_filter = args.subject_filter
+	topic_filter = args.topic_filter
+	if topic_filter:
+		subjects, _ = metadata.load_topics_metadata()
+		alias_map = metadata.build_topic_alias_map(subjects)
+		subject_filter, topic_filter = topic_aliases.resolve_topic_filter(
+			topic_filter, alias_map, subjects
+		)
+
 	pipeline.run(
-		subject_filter=args.subject_filter,
-		topic_filter=args.topic_filter,
+		subject_filter=subject_filter,
+		topic_filter=topic_filter,
 		subject_indexes=subject_indexes,
 		topic_pages=topic_pages,
 		generate_downloads=generate_downloads,

@@ -1,5 +1,245 @@
 # Changelog
 
+## 2026-05-01
+
+### Additions and New Features
+- Added optional per-topic `alias` field to the `Topic` dataclass and
+  schema in [bioproblems_site/metadata.py](../bioproblems_site/metadata.py).
+  Aliases are author-facing slugs (charset `[a-z0-9_]+`, unique within
+  a subject) used in CSV task files and the `generate_pages.py -t/--topic`
+  CLI; canonical `topicNN` keys still drive folders, mkdocs nav, and
+  URLs (no rendered-site change). Schema rejects aliases matching
+  `^topic\d{2}$` (would collide with the canonical key form) and
+  duplicates within a subject.
+- Added `metadata.build_topic_alias_map(subjects)` helper returning
+  `{subject_key: {alias: topic_key}}`.
+- Added new module
+  [bioproblems_site/topic_aliases.py](../bioproblems_site/topic_aliases.py)
+  with pure (no file I/O) helpers `is_topic_key`,
+  `validate_topic_cell` (strips whitespace only, does not lowercase,
+  rejects uppercase explicitly), `resolve_topic_key` for per-row CSV
+  resolution, and `resolve_topic_filter` for CLI `subject:alias` /
+  `subject:topicNN` / bare-alias / bare-topicNN forms.
+
+### Developer Tests and Notes
+- New [tests/test_topics_metadata_alias.py](../tests/test_topics_metadata_alias.py)
+  covers the schema (optional, accepted slug, uppercase rejected,
+  topicNN collision rejected, per-subject uniqueness, cross-subject
+  duplicates allowed, alias-map construction).
+- New [tests/test_topic_alias_resolver.py](../tests/test_topic_alias_resolver.py)
+  covers `is_topic_key`, `validate_topic_cell` (whitespace, empty,
+  uppercase, embedded space, dash), `resolve_topic_key`
+  (alias hit, whitespace-trimmed alias, unknown alias, raw topicNN
+  for aliased topic, raw topicNN for non-aliased topic, unknown
+  subject, uppercase), and `resolve_topic_filter`
+  (subject:alias preferred, subject:topicNN for unaliased topic,
+  subject:topicNN for aliased topic raises, bare alias unique,
+  bare alias ambiguous across subjects, bare topicNN ambiguous,
+  unknown alias, malformed `:alias`).
+- Patch 1 of the topic-aliases plan landed; remaining patches
+  (relocate run_bbq_tasks.py, wire BBQ CSV + generate_pages CLI,
+  data migration, reference CSV utility, docs) are still pending.
+- Patch 4: Wired `generate_pages.py -t/--topic` CLI filter through
+  `topic_aliases.resolve_topic_filter()`. After argparse, topic filter
+  text is resolved to a `(subject_key, topic_key)` tuple and threaded
+  explicitly through [bioproblems_site/pipeline.py](../bioproblems_site/pipeline.py)
+  as separate `subject_filter` and `topic_filter` parameters. Pipeline
+  filter logic skips any subject != subject_filter and (within the
+  chosen subject) skips any topic whose canonical key != topic_filter.
+  Preferred CLI form is `subject:alias` (e.g. `biochemistry:amino_acids`,
+  always unambiguous after Patch 5 data migration); also accepts
+  `subject:topicNN` for unaliased topics, bare alias if unique across
+  subjects, and bare `topicNN` if unique and unaliased.
+- New [tests/test_generate_pages_topic_alias.py](../tests/test_generate_pages_topic_alias.py)
+  covering the integration: subject:alias preferred form, subject:topicNN
+  for unaliased topics, subject:topicNN for aliased topics raises,
+  bare alias unique, bare alias ambiguous raises, bare topicNN unaliased,
+  bare topicNN all-aliased raises, unknown alias raises, malformed forms.
+- Patch 6: New [tools/dump_topics_csv.py](../tools/dump_topics_csv.py)
+  utility exports topics metadata to a CSV file with columns
+  `subject, topic_key, alias, title, description` (one row per topic,
+  ordered by subject then topic_key). Enables offline cross-reference
+  in spreadsheet form for authoring task files. Takes `-o/--output`
+  (required), `-m/--metadata` (default `topics_metadata.yml`), and
+  `-k/--mkdocs` (default `mkdocs.yml`) options. Usage:
+  `python3 tools/dump_topics_csv.py -o output.csv`.
+- New [tests/test_dump_topics_csv.py](../tests/test_dump_topics_csv.py)
+  covers CSV structure (column order, header, row count), alias field
+  (preserved for aliased topics, empty string for non-aliased topics),
+  and ordering (subjects alphabetical, topics within subject by key).
+- Patch 2: Relocated `bbq_control/run_bbq_tasks.py` to the repo root
+  via `git mv` so the script can `import bioproblems_site` the same
+  way [generate_pages.py](../generate_pages.py) does. The repo-root
+  `source_me.sh` does not add the repo root to `PYTHONPATH`, so a
+  script under `bbq_control/` could not reach the `bioproblems_site`
+  package. Updated [bbq_control/all_tasks.sh](../bbq_control/all_tasks.sh)
+  to call `../run_bbq_tasks.py`,
+  [bbq_control/USAGE.md](../bbq_control/USAGE.md) to reference the
+  repo-root path, and the BBQ-flow paragraph in
+  [docs/CODE_ARCHITECTURE.md](../docs/CODE_ARCHITECTURE.md). Verified
+  the move with `python3 run_bbq_tasks.py -t bbq_control/task_files/biochem_tasks1.csv -s bbq_control/bbq_settings.yml -n -F -l 3` (after sourcing `bbq_control/source_me.sh` which sets up the BP_ROOT/qti-package-maker `PYTHONPATH` the script validates at startup).
+
+- Patch 3: Wired [run_bbq_tasks.py](../run_bbq_tasks.py) CSV `topic`
+  column through `bioproblems_site.topic_aliases.resolve_topic_key`.
+  Topic metadata loads once in `main()` (not per CSV / per row);
+  schema validation now fires every BBQ run too. The legacy
+  `row.get("chapter")` fallback at line 379 was removed -- all task
+  CSVs now use the `subject` column header. Blank-separator rows
+  still skip before topic validation so an empty cell on a real
+  script row still raises. Resolved canonical `topicNN` is used for
+  `site_docs/<subject>/<topicNN>/` output paths exactly as before
+  the wiring; raw `topicNN` cells continue to work pre-migration
+  except where that specific topic has an alias defined. Errors
+  include CSV path, row number, subject, and the bad value.
+- New [tests/test_run_bbq_alias.py](../tests/test_run_bbq_alias.py)
+  covers alias resolution, raw `topicNN`-when-aliased rejection,
+  raw `topicNN`-for-non-aliased-topic acceptance, blank-separator
+  rows, unknown subject, and unknown alias.
+- Tightened the LibreTexts comments in
+  [bioproblems_site/metadata.py](../bioproblems_site/metadata.py)
+  to read clearly as external-link context, not as legacy internal
+  hierarchy ("Some LibreTexts books, such as Advanced Genetics,
+  use chapter-only links" / "LibreTexts unit is optional; 0 means
+  the external link has no unit number").
+- Cleaned up
+  [bbq_control/USAGE.md](../bbq_control/USAGE.md) "CSV format" header
+  list which still said `chapter,topic,...`; corrected to
+  `subject,topic,...` and added a short note that the topic cell
+  may be either canonical `topicNN` or a per-subject alias.
+- Stale-terminology grep gate
+  (`row.get("chapter")|chapter.*subject|textbook` across active
+  code) returns no hits outside immutable CHANGELOG history.
+- Patch 5: Data migration. Added `alias` to all 66 topics in
+  [topics_metadata.yml](../topics_metadata.yml) across 6 subjects
+  (biochemistry 21, genetics 11, laboratory 13, molecular_biology
+  10, biostatistics 8, other 3). Aliases were proposed by six
+  parallel per-subject coder agents and reviewed before merge; the
+  one-shot migration script `_migrate.py` (underscore-prefix
+  scratch, deletable; not committed) inserted aliases into the YAML
+  via line-based mutation (preserves comments and ordering) and
+  rewrote the `topic` column in every
+  [bbq_control/task_files/*.csv](../bbq_control/task_files/) using
+  a `(subject, topicNN) -> alias` dict (no regex). The CSV rewriter
+  is also line-based so the visual blank-row separators between
+  topic blocks survive intact -- `csv.DictReader/Writer` would have
+  silently dropped them.
+- Cross-subject duplicate aliases (allowed by design):
+  `dna_structure` (genetics + molecular_biology), `enzyme_kinetics`
+  (biochemistry + laboratory).
+- Hard manifest-diff gate cleared. Generated a pre-migration
+  manifest (255 rows: every non-blank CSV row across all 9 task
+  files, columns `csv_file, row_number, subject,
+  original_topic_cell, resolved_topic_key, resolved_output_path`)
+  and a post-migration manifest with the same script. Sorted set
+  difference on every column except `original_topic_cell`: zero
+  diffs. Resolved topic keys and output paths are byte-identical
+  pre/post.
+- Full post-migration dry-run sweep across every task file in
+  [bbq_control/task_files/](../bbq_control/task_files/) exits 0.
+  Single-CSV production run (no `-n`) on
+  `bbq_control/task_files/biochem_tasks1.csv` writes the expected
+  `site_docs/biochemistry/topic01/...` artifact (resolves the new
+  alias `biomolecules` -> canonical `topic01`).
+- Patch 7: Two new format docs.
+  [docs/TOPICS_METADATA_FORMAT.md](TOPICS_METADATA_FORMAT.md)
+  documents the YAML schema (subjects -> topics, allowed Topic
+  keys including the new optional `alias`), the canonical-id /
+  author-facing-alias split, the URL/folder mapping (mkdocs URLs
+  remain `/<subject>/<topicNN>/`), the topic-key contract
+  (`^topic\d{2}$`), alias stability, and hidden-topic policy.
+  [docs/BBQ_TASK_CSV_FORMAT.md](BBQ_TASK_CSV_FORMAT.md) documents
+  the CSV column reference and how the `topic` cell resolves
+  through aliases; cross-references the matching
+  `generate_pages.py -t/--topic` syntax (preferred form
+  `subject:alias`). Both docs cross-link to each other and to
+  [bbq_control/USAGE.md](../bbq_control/USAGE.md). README.md and
+  docs/USAGE.md updated with pointers.
+- Made the `-o/--output` flag on
+  [tools/dump_topics_csv.py](../tools/dump_topics_csv.py) optional;
+  default is now `topics_reference.csv` in the current working
+  directory (was: required `-o`). Relative paths resolve against
+  CWD, not the repo root; no automatic directory creation.
+- Post-merge code/test cleanup from review:
+  - Renamed the resolver kwarg `row_number` -> `line_number` in
+    [bioproblems_site/topic_aliases.py](../bioproblems_site/topic_aliases.py)
+    and [run_bbq_tasks.py](../run_bbq_tasks.py); error messages now
+    say `<csv>:line N` (physical file line, matches the editor)
+    instead of `:row N` which was ambiguous between header-aware
+    and 1-based-data-row counts.
+  - Replaced the magic `len(part) == 7` topicNN check at
+    [bioproblems_site/topic_page.py](../bioproblems_site/topic_page.py):799
+    with `bp_metadata.TOPIC_KEY_RE.match(part)` so future changes
+    to the topic key contract live in one place.
+  - Swapped the inline `subprocess git rev-parse` repo-root call in
+    [tools/dump_topics_csv.py](../tools/dump_topics_csv.py) for
+    `bioproblems_site.git_paths.get_repo_root()` (production code
+    must not import from `tests/`).
+  - [tests/test_run_bbq_alias.py](../tests/test_run_bbq_alias.py):
+    replaced `t.get("output_dir", "")` with `t["output_dir"]` so a
+    missing key surfaces loudly rather than masking as empty
+    string.
+  - [tests/test_run_bbq_alias.py](../tests/test_run_bbq_alias.py):
+    `_bbq_config` now takes `tmp_path` and uses it as the
+    `bp_root` placeholder (was hardcoded `/tmp`); silences the
+    bandit B108 hardcoded-tmp warning without `# nosec`.
+  - Moved the `sys.path.insert("...tools")` hack out of
+    [tests/test_dump_topics_csv.py](../tests/test_dump_topics_csv.py)
+    and into [tests/conftest.py](../tests/conftest.py); the test
+    now does a clean absolute `import dump_topics_csv`.
+  - Switched [tests/conftest.py](../tests/conftest.py)
+    `REPO_ROOT` to the shared `git_file_utils.get_repo_root()`
+    helper used by every other test file (was deriving the root
+    from `__file__` against docs/REPO_STYLE.md).
+  - Loosened two over-pinned error-message substring assertions in
+    [tests/test_generate_pages_topic_alias.py](../tests/test_generate_pages_topic_alias.py)
+    so internal phrasing changes do not break tests.
+- Final end-to-end validation:
+  `python3 generate_pages.py` (default subject-indexes path) regenerates
+  every subject index plus the mkdocs nav block clean.
+  `python3 generate_pages.py -T -t biochemistry:amino_acids`
+  resolves the alias, writes the targeted topic page, and exits 0,
+  proving the CLI alias filter is wired end-to-end through
+  [bioproblems_site/pipeline.py](../bioproblems_site/pipeline.py).
+  `--full` was not run because of a pre-existing missing-selftest
+  artifact failure unrelated to the alias work.
+
+- Alias rename round (editorial): nine aliases revised in
+  [topics_metadata.yml](../topics_metadata.yml) to favor full words
+  over compressed forms (rule: "use full words unless the
+  abbreviation is a standard term in biology or chemistry").
+  Renames:
+  `biochemistry:topic02 ph_buffers -> water_ph`,
+  `biochemistry:topic16 glycolysis -> sugar_metabolism`,
+  `biochemistry:topic17 atp_synthesis -> oxidative_phosphorylation`,
+  `biochemistry:topic19 glycogen -> glycogen_pentose_phosphate`,
+  `genetics:topic06 sex_linkage -> chromosomal_inheritance`,
+  `laboratory:topic02 solutions -> solution_prep`,
+  `laboratory:topic10 presentations -> macromolecule_presentations`,
+  `molecular_biology:topic08 rna_processing -> rna_processing_crispr`,
+  `biostatistics:topic04 normal_distribution -> probability_distributions`.
+  `biochemistry:topic15 digestion` was kept (matches the topic
+  title literally). Renames were applied via a metadata-driven
+  scratch script `_rename.py` that mutates YAML and CSVs in
+  lockstep; pre/post resolved-path manifest diff was zero on every
+  column except `original_topic_cell` (the gate). Single-CSV
+  post-rename production run on biochem_tasks1.csv exits 0.
+- Additional code cleanup from the round-2 review:
+  - Replaced the local `get_repo_root()` in
+    [run_bbq_tasks.py](../run_bbq_tasks.py) with the shared
+    `bioproblems_site.git_paths.get_repo_root()` so production
+    code has one canonical implementation. Tests continue to use
+    `tests/git_file_utils.get_repo_root()` (tests-only).
+  - Loosened two more error-message substring assertions in
+    [tests/test_generate_pages_topic_alias.py](../tests/test_generate_pages_topic_alias.py)
+    (`test_unknown_alias_raises` and `test_bare_topicnn_all_aliased_raises`)
+    to use `pytest.raises(..., match=...)` against the offending
+    value only, not internal phrasing.
+  - Declared `encoding="iso8859-1"` on the CSV-read in
+    [tests/test_dump_topics_csv.py](../tests/test_dump_topics_csv.py)
+    to match repo policy (ASCII / ISO-8859-1 per
+    [docs/MARKDOWN_STYLE.md](MARKDOWN_STYLE.md)) and remove
+    locale-default dependence.
+
 ## 2026-04-30
 
 ### Behavior or Interface Changes
