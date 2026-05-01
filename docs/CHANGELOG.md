@@ -1,5 +1,31 @@
 # Changelog
 
+## 2026-04-30
+
+### Behavior or Interface Changes
+- Added two short path aliases to
+  [bbq_control/bbq_settings.yml](../bbq_control/bbq_settings.yml):
+  `bp_mcs` (resolves to `{bp_root}/multiple_choice_statements`) and
+  `bp_match` (resolves to `{bp_root}/matching_sets`). Replaced the older
+  long-named `multiple_choice_statements` and `matching_sets` aliases (the
+  `script_aliases` and `pgml_script_map` blocks now reference the short
+  names). Substituted `{bp_root}/multiple_choice_statements` -> `{bp_mcs}`
+  and `{bp_root}/matching_sets` -> `{bp_match}` across
+  [bbq_control/task_files/biochem_tasks1.csv](../bbq_control/task_files/biochem_tasks1.csv),
+  [bbq_control/task_files/biochem_tasks2.csv](../bbq_control/task_files/biochem_tasks2.csv),
+  and [bbq_control/task_files/biochem_tasks3.csv](../bbq_control/task_files/biochem_tasks3.csv)
+  to shorten frequent path prefixes. No code changes were required because
+  `resolve_alias_map` in
+  [bbq_control/run_bbq_tasks.py](../bbq_control/run_bbq_tasks.py)
+  already supports recursive `{key}` expansion.
+
+### Developer Tests and Notes
+- Verified with `python3 bbq_control/run_bbq_tasks.py -t
+  bbq_control/task_files/biochem_tasks1.csv -s bbq_control/bbq_settings.yml
+  -n -F -l 3` that the dry-run resolves task paths to the expected
+  absolute filesystem locations under
+  `~/nsh/PROBLEMS/biology-problems/problems/...`.
+
 ## 2026-04-22
 
 ### Fixes and Maintenance
