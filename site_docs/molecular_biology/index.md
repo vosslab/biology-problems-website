@@ -14,7 +14,7 @@ Questions ask students to transcribe DNA to mRNA, translate codons to amino acid
 2. [Cloning and Sequencing](topic05/index.md) <span class='topic-count' title='1 question'>1 question</span>
     - Gene cloning, DNA sequencing methods, and RT-qPCR.
 
-3. [Transcription](topic07/index.md) <span class='topic-count' title='1 question'>1 question</span>
+3. [RNA Transcription](topic07/index.md) <span class='topic-count' title='1 question'>1 question</span>
     - Transcription of genes, RNA polymerase, promoters, and regulation.
 
 4. [RNA Processing and CRISPR](topic08/index.md) <span class='topic-count' title='1 question'>1 question</span>
