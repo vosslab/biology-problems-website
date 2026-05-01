@@ -263,11 +263,11 @@ molecular_biology:
       title: Introduction to Molecular Biology
       description: What is molecular biology, cells, organisms, gene creatures, genes, and chromosomes.
     topic02:
-      title: Meiosis and DNA Structure
-      description: Meiosis, DNA composition, base pairing, and double-helix structure.
+      title: DNA Structure
+      description: DNA composition, base pairing, and double-helix structure.
     topic03:
       title: Protein Structure and Chromosomes
-      description: Protein structure, the central dogma, and chromosome organization.
+      description: Overview of the central dogma, and chromosome organization.
     topic04:
       title: Manipulation of Nucleic Acids
       description: Restriction enzymes, gel electrophoresis, and PCR.
@@ -278,7 +278,7 @@ molecular_biology:
       title: DNA Replication
       description: Replication machinery, origins, forks, and fidelity mechanisms.
     topic07:
-      title: Transcription
+      title: RNA Transcription
       description: Transcription of genes, RNA polymerase, promoters, and regulation.
     topic08:
       title: RNA Processing and CRISPR
@@ -335,6 +335,6 @@ other:
     topic02:
       title: Biophysics
       description: Students analyze physical methods applied to biological molecules, including FRET energy transfer, fluorescence spectroscopy, binding curves, diffusion, membrane potentials, and single-molecule techniques.
-    topic02:
+    topic03:
       title: Biotechnology
       description: Cross over of technology and the life sciences
