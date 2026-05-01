@@ -120,7 +120,7 @@ nav:
   - molecular_biology/index.md
   - "04: Manipulation of Nucleic Acids": molecular_biology/topic04/index.md
   - "05: Cloning and Sequencing": molecular_biology/topic05/index.md
-  - "07: Transcription": molecular_biology/topic07/index.md
+  - "07: RNA Transcription": molecular_biology/topic07/index.md
   - "08: RNA Processing and CRISPR": molecular_biology/topic08/index.md
   - "09: Translation": molecular_biology/topic09/index.md
 - "🎲 Biostatistics":

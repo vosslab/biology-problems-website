@@ -18,11 +18,11 @@ import bioproblems_site.subject_index as subject_index
 def subject():
 	topic_a = metadata.Topic(
 		key="topic01", title="One", description="first",
-		libretexts=None, visible=True,
+		libretexts=None, visible=True, alias=None,
 	)
 	topic_b = metadata.Topic(
 		key="topic02", title="Two", description="second",
-		libretexts=None, visible=True,
+		libretexts=None, visible=True, alias=None,
 	)
 	return metadata.Subject(
 		key="biochemistry",

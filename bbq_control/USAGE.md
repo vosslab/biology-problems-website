@@ -4,14 +4,15 @@
 - Edit `bbq_control/bbq_settings.yml` to point bp_root to your local
   biology-problems checkout.
 - Edit `bbq_control/bbq_tasks.csv` to add or adjust tasks.
-- Run: `python3 bbq_control/run_bbq_tasks.py --config bbq_control/bbq_tasks.csv`
+- Run: `python3 run_bbq_tasks.py --config bbq_control/bbq_tasks.csv`
+  (the script lives at the repo root next to `generate_pages.py`)
 - For sync mode: `python3 bbq_control/bbq_sync_tasks.py --config bbq_control/bbq_tasks.csv`
   - To limit tasks during testing: add `-x 5` (runs the first 5 tasks).
   - To randomize task order for testing: add `--shuffle` (use with `-x` for a random subset).
   - To append max-questions to each task: add `--max-questions 5`.
 
 ## Key files
-- `bbq_control/run_bbq_tasks.py`: Runs task list and writes outputs.
+- `run_bbq_tasks.py` (at repo root): Runs task list and writes outputs.
 - `bbq_control/bbq_sync_tasks.py`: Regenerates outputs only when inputs change.
 - `bbq_control/bbq_tasks.csv`: Full task list.
 - `bbq_control/sub_bbq_tasks.csv`: Subset task list.
@@ -19,10 +20,13 @@
 - `bbq_control/bbq_settings.yml`: Path aliases and script aliases.
 
 ## CSV format (bbq_tasks.csv)
-- Columns: chapter,topic,script,flags,input,notes (optional: output).
+- Columns: subject,topic,script,flags,input,notes (optional: output).
+- The `topic` cell may be either a canonical `topicNN` key or a
+  per-subject alias from `topics_metadata.yml`; aliases resolve to
+  `topicNN` at load time.
 - Output files are auto-detected from newly generated
   `bbq-<script_name>*-problems.txt` files in CWD and moved to
-  `site_docs/<chapter>/<topic>/` using the detected filename.
+  `site_docs/<subject>/<topicNN>/` using the detected filename.
 - If auto-detection is ambiguous, add an output column with a full or relative path.
 - script can be a full path, a relative path, or a script alias.
 - flags holds any extra CLI flags for the script.
