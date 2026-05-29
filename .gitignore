@@ -12,3 +12,7 @@ site/
 report_*.txt
 test-results/
 node_modules/
+
+# === UNIVERSAL ===
+_temp*.?*
+

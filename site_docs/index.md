@@ -16,6 +16,9 @@ Daily puzzles designed to strengthen biology knowledge.
 ## **Subjects**
 Complete, chapter-by-chapter collections of homework and exam questions.
 
+- **[Self-test Progress](progress/index.md)** Track which embedded
+  self-test questions you have completed in this browser.
+
 - **[Biochemistry](biochemistry/index.md)** Problem sets covering first-semester biochemistry topics, including macromolecules, pKa, and enzyme kinetics.
 
 - **[Genetics](genetics/index.md)** Problem sets for a post-general biology inheritance genetics course, including Punnett squares, gene mapping, and deletion mutants.

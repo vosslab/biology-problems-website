@@ -12,6 +12,7 @@ import bioproblems_site.scanner as scanner_module
 import bioproblems_site.subject_index as subject_index_module
 import bioproblems_site.topic_page as topic_page_module
 import bioproblems_site.mkdocs_nav as mkdocs_nav_module
+import bioproblems_site.selftest_manifest as selftest_manifest_module
 import bioproblems_site.llm_helpers as llm_helpers
 
 
@@ -160,3 +161,25 @@ def run(
 		)
 		if verbose and not dry_run:
 			print(color_text(f"updated {mkdocs_path} nav block", COLOR_GREEN))
+
+	if subject_indexes or topic_pages:
+		if verbose:
+			print(color_text("== Updating self-test manifest ==", COLOR_CYAN))
+		manifest = selftest_manifest_module.write_manifest(
+			site_docs_dir=site_docs_dir,
+			mkdocs_path=mkdocs_path,
+			metadata_path=metadata_path,
+			dry_run=dry_run,
+		)
+		if verbose:
+			count = len(manifest["questions"])
+			if dry_run:
+				print(color_text(
+					f"[dry-run] would write self-test manifest ({count} questions)",
+					COLOR_YELLOW,
+				))
+			else:
+				print(color_text(
+					f"updated self-test manifest ({count} questions)",
+					COLOR_GREEN,
+				))

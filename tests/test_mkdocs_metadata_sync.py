@@ -40,3 +40,26 @@ def test_mismatch_raises_clear_error(tmp_path):
 			metadata_path=str(metadata_path),
 			mkdocs_path=str(mkdocs_path),
 		)
+
+
+def test_progress_nav_is_not_treated_as_subject(tmp_path):
+	metadata_path = tmp_path / "topics.yml"
+	mkdocs_path = tmp_path / "mkdocs.yml"
+	metadata_path.write_text(
+		"biology:\n  title: Biology\n  description: intro\n  topics:\n"
+		"    topic01:\n      title: One\n      description: one\n"
+	)
+	mkdocs_path.write_text(
+		"nav:\n"
+		"- Home: index.md\n"
+		"- Progress: progress/index.md\n"
+		"- Biology:\n"
+		"  - biology/index.md\n"
+		"  - \"01: One\": biology/topic01/index.md\n"
+	)
+	subjects, nav_order = metadata_module.load_topics_metadata(
+		metadata_path=str(metadata_path),
+		mkdocs_path=str(mkdocs_path),
+	)
+	assert set(subjects) == {"biology"}
+	assert nav_order == ("biology",)

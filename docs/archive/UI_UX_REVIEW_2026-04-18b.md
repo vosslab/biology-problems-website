@@ -6,7 +6,7 @@ Puzzles changes. Supersedes the deleted first-pass doc.
 ## Method
 
 - Server: `mkdocs serve -a 127.0.0.1:8765 --strict` (zero broken-link warnings).
-- Driver: [tests/ui_ux_review.mjs](../tests/ui_ux_review.mjs) at 1280x900
+- Driver: [ui_ux_review.mjs](../../tests/playwright/ui_ux_review.mjs) at 1280x900
   (desktop) and 390x844 (mobile).
 - Coverage: 30 URLs x 2 viewports = 60 visits. All non-generated pages
   (home, 5 daily puzzles, 4 tutorials, author, license) plus all 6 subject
@@ -180,4 +180,4 @@ with `curl http://127.0.0.1:8765/<page>/ | grep '<a'` first.
 
 - Report: `test-results/ui_ux_review/report.json` (60 rows)
 - Screenshots: `test-results/ui_ux_review/*.png` (60 PNGs + 2 dark-mode)
-- Driver: [tests/ui_ux_review.mjs](../tests/ui_ux_review.mjs)
+- Driver: [ui_ux_review.mjs](../../tests/playwright/ui_ux_review.mjs)

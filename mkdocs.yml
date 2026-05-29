@@ -37,6 +37,7 @@ extra_css:
 
 extra_javascript:
   - assets/scripts/custom.js
+  - assets/scripts/selftest_progress.js
 
 extra:
   social:
@@ -74,6 +75,7 @@ copyright: >
 
 nav:
 - "<i class='fa fa-home'></i> Home": index.md
+- "<i class='fa fa-chart-line'></i> Progress": progress/index.md
 - "<i class='fa fa-puzzle-piece'></i> Daily Puzzles":
   - daily_puzzles/index.md
   - "<i class='fa fa-dice-five'></i> Peptidyle": daily_puzzles/peptidyle.md

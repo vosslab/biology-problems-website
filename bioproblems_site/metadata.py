@@ -24,6 +24,7 @@ RESERVED_NAV_TARGETS = (
 )
 RESERVED_NAV_DIR_PREFIXES = (
 	"daily_puzzles/",
+	"progress/",
 	"tutorials/",
 )
 
