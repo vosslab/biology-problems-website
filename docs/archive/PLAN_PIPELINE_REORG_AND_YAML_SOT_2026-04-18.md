@@ -7,7 +7,7 @@ The six in-scope subjects (from `mkdocs.yml` nav) are: `biochemistry`,
 `biotechnology` is present on disk but not in nav and is deleted in M2
 (see below).
 Supersedes
-[docs/active_plans/PLAN_PIPELINE_REORG_AND_YAML_SOT_2026-04-18.md](../../nsh/PROBLEMS/biology-problems-website/docs/active_plans/PLAN_PIPELINE_REORG_AND_YAML_SOT_2026-04-18.md),
+[PLAN_PIPELINE_REORG_AND_YAML_SOT_2026-04-18.md](PLAN_PIPELINE_REORG_AND_YAML_SOT_2026-04-18.md),
 which will be rewritten to match on plan approval.
 
 ## Context

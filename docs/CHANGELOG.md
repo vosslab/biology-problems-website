@@ -1,10 +1,139 @@
 # Changelog
 
+## 2026-05-29
+
+### Additions and New Features
+- Patch 1: Added a local self-test completion system. The new
+  [selftest_manifest.py](../bioproblems_site/selftest_manifest.py)
+  component builds
+  [selftest_question_manifest.json](../site_docs/assets/data/selftest_question_manifest.json)
+  from rendered, reachable topic pages in [mkdocs.yml](../mkdocs.yml),
+  follows only their self-test includes, and rejects duplicate CRC question
+  IDs. The manifest stores diagnostic fingerprints but uses the existing
+  `hhhh_hhhh` CRC as the v1 question ID.
+- Patch 2: Added
+  [selftest_progress.js](../site_docs/assets/scripts/selftest_progress.js),
+  loaded through [mkdocs.yml](../mkdocs.yml), to mark questions complete after
+  a fully correct self-test answer. It stores only completed question IDs and
+  first-correct timestamps in browser `localStorage` (`selftest_progress_v1`);
+  wrong answers, attempts, and accuracy are not stored. The wrapper is
+  idempotent and supports both normal `DOMContentLoaded` and MkDocs Material's
+  `document$` lifecycle hook.
+- Patch 3: Added [index.md](../site_docs/progress/index.md)
+  as the self-test progress dashboard, linked it from [mkdocs.yml](../mkdocs.yml)
+  and [index.md](../site_docs/index.md), and added shared progress
+  styles to
+  [custom.css](../site_docs/assets/stylesheets/custom.css).
+  Topic pages now receive runtime progress summaries and per-question
+  `Completed` / `Not completed` badges from the shared script.
+- Archived the completed implementation plan at
+  [PLAN_SELFTEST_COMPLETION_TRACKING_2026-05-29.md](archive/PLAN_SELFTEST_COMPLETION_TRACKING_2026-05-29.md).
+- Added [SELFTEST_PROGRESS.md](SELFTEST_PROGRESS.md) documenting the manifest
+  schema, the `selftest_progress_v1` localStorage model, and how to add a new
+  self-test question; linked from [USAGE.md](USAGE.md) and
+  [CODE_ARCHITECTURE.md](CODE_ARCHITECTURE.md).
+
+### Behavior or Interface Changes
+- Topic pages now show per-question `Completed` / `Not completed` badges and a
+  runtime progress summary, injected by
+  [selftest_progress.js](../site_docs/assets/scripts/selftest_progress.js).
+
+### Fixes and Maintenance
+- Reserved `progress/` in
+  [metadata.py](../bioproblems_site/metadata.py) so the
+  dashboard nav entry is not mistaken for a metadata-backed subject.
+- Relaxed the ASCII compliance gate to allow emoji codepoints so subject icons
+  (test tube, microscope, DNA, and similar) stay in docs; smart quotes, dashes,
+  and other non-ASCII punctuation are still rejected. Updated
+  [check_ascii_compliance.py](../tests/check_ascii_compliance.py) and
+  [fix_ascii_compliance.py](../tests/fix_ascii_compliance.py).
+- Whitelisted the vendored `local_llm_wrapper` import in
+  [test_import_requirements.py](../tests/test_import_requirements.py).
+- Rewrote the [README.md](../README.md) first paragraph to plain prose under 250
+  characters with no link, satisfying the new first-paragraph gate.
+- Refreshed [FILE_STRUCTURE.md](FILE_STRUCTURE.md) (dropped deleted top-level
+  generators, added `bioproblems_site/`, `generate_pages.py`, and the progress
+  dashboard) and fixed stale `site/`, `bbq_converter.py`, and BBQ links in
+  [CODE_ARCHITECTURE.md](CODE_ARCHITECTURE.md) and [USAGE.md](USAGE.md).
+- Taught [test_markdown_links.py](../tests/test_markdown_links.py) to treat
+  non-`file` URI schemes (for example `bitcoin:` and `dash:`) as external links
+  instead of broken local paths.
+- Repaired changelog prose corrupted by a one-shot
+  `devel/flatten_broken_md_links.py` pass and converted removed or relocated
+  link targets to code spans.
+- Regenerated [index.md](../site_docs/biochemistry/topic01/index.md)
+  after finding it was the only reachable topic page with BBQ sources but no
+  self-test includes. The regenerated page now includes the 8 Life Molecules
+  self-tests, including the newly generated
+  [selftest-MATCH-bond_types.html](../site_docs/biochemistry/topic01/downloads/selftest-MATCH-bond_types.html).
+
+### Developer Tests and Notes
+- Added [test_selftest_manifest.py](../tests/test_selftest_manifest.py)
+  for reachable-topic manifest construction, duplicate CRC rejection, and
+  JSON writing.
+- Added [selftest_correctness_contract_test.mjs](../tests/selftest_correctness_contract_test.mjs),
+  [selftest_progress_storage_test.mjs](../tests/selftest_progress_storage_test.mjs),
+  and [selftest_progress_dom_test.mjs](../tests/selftest_progress_dom_test.mjs)
+  for the browser correctness contract, correct-answer-only storage behavior,
+  and idempotent answer-check wrapping.
+- Added a metadata sync regression test proving
+  [index.md](../site_docs/progress/index.md) is ignored by
+  the subject-metadata cross-check.
+- Added the new Progress page to
+  [ui_ux_review.mjs](../tests/playwright/ui_ux_review.mjs)
+  so future browser screenshot reviews cover the dashboard route, and moved
+  the script into `tests/playwright/` to satisfy the repo's browser-test
+  placement rule.
+- Ran a six-pass code-review audit plus two independent Playwright UX reviews of
+  the self-test feature; it met all plan acceptance criteria. The reviews
+  confirmed the per-question badge flips live after a correct answer (no reload)
+  and that the only uncaught console errors under blocked storage come from
+  MkDocs Material's own palette code, not the self-test runtime, which degrades
+  cleanly. Full `pytest tests/` (1320 tests), the three Node self-test suites,
+  and `mkdocs build --strict` all pass.
+- Acted on Playwright UX findings in
+  [selftest_progress.js](../site_docs/assets/scripts/selftest_progress.js):
+  scoped the topic page progress panel to the questions actually on the page
+  (was counting the whole topic key, showing a confusing denominator) and added
+  `role="status"`, `aria-live="polite"`, and a reset-button `aria-label` for
+  screen-reader support. The badge completion styles flagged as "missing" were
+  already present in
+  [custom.css](../site_docs/assets/stylesheets/custom.css).
+- Extended [ui_ux_review.mjs](../tests/playwright/ui_ux_review.mjs) with a
+  focused browser review of the self-test progress feature, driven against a
+  local `mkdocs serve` build with Playwright 1.60.0 (chromium). It verifies the
+  `#selftest-progress-dashboard` renders in empty and populated states,
+  topic-page `Completed` / `Not completed` badges render (8 on biochemistry
+  topic01) with the topic summary panel showing `0 / 17 completed`, a correct
+  answer persists to local storage, wrong answers store nothing (asserted via
+  `classifyResultElement`), the storage-unavailable path shows a non-blocking
+  warning and disables Reset, and Reset confirms before clearing (and keeps
+  data when the dialog is dismissed). Light, dark, and mobile screenshots plus
+  `selftest_feature_report.json` are written to `test-results/ui_ux_review/`.
+  Note: Playwright and chromium are installed at the user home
+  (`~/node_modules`), not in this repo; the script resolves them by walking up
+  from `tests/playwright/`. The per-question badge check waits for `attached`
+  state because badges live inside collapsed `<details>` blocks.
+
+### Decisions and Failures
+- Self-test UI/UX review found one minor robustness gap: when local storage is
+  blocked (private mode) the dashboard and topic pages correctly show the
+  non-blocking warning and disable Reset, but an uncaught `Error: storage
+  blocked` still surfaces as a page error during init, so at least one storage
+  access is not routed through the guarded `storageStatus()` / try-wrapped
+  helpers. Worth hardening so private-mode browsers log zero console errors.
+- Minor UX note: marking a question complete updates local storage and the
+  topic summary panel, but the per-question badge does not visually flip to
+  `Completed` until reload, because `initPage()` is guarded by an
+  `initializedPages` cache and the re-run is a no-op. Consider re-running
+  `setQuestionStatus` after a successful answer instead of relying on a full
+  `initPage()` pass.
+
 ## 2026-05-01
 
 ### Additions and New Features
 - Added optional per-topic `alias` field to the `Topic` dataclass and
-  schema in [bioproblems_site/metadata.py](../bioproblems_site/metadata.py).
+  schema in [metadata.py](../bioproblems_site/metadata.py).
   Aliases are author-facing slugs (charset `[a-z0-9_]+`, unique within
   a subject) used in CSV task files and the `generate_pages.py -t/--topic`
   CLI; canonical `topicNN` keys still drive folders, mkdocs nav, and
@@ -14,7 +143,7 @@
 - Added `metadata.build_topic_alias_map(subjects)` helper returning
   `{subject_key: {alias: topic_key}}`.
 - Added new module
-  [bioproblems_site/topic_aliases.py](../bioproblems_site/topic_aliases.py)
+  [topic_aliases.py](../bioproblems_site/topic_aliases.py)
   with pure (no file I/O) helpers `is_topic_key`,
   `validate_topic_cell` (strips whitespace only, does not lowercase,
   rejects uppercase explicitly), `resolve_topic_key` for per-row CSV
@@ -22,11 +151,11 @@
   `subject:topicNN` / bare-alias / bare-topicNN forms.
 
 ### Developer Tests and Notes
-- New [tests/test_topics_metadata_alias.py](../tests/test_topics_metadata_alias.py)
+- New [test_topics_metadata_alias.py](../tests/test_topics_metadata_alias.py)
   covers the schema (optional, accepted slug, uppercase rejected,
   topicNN collision rejected, per-subject uniqueness, cross-subject
   duplicates allowed, alias-map construction).
-- New [tests/test_topic_alias_resolver.py](../tests/test_topic_alias_resolver.py)
+- New [test_topic_alias_resolver.py](../tests/test_topic_alias_resolver.py)
   covers `is_topic_key`, `validate_topic_cell` (whitespace, empty,
   uppercase, embedded space, dash), `resolve_topic_key`
   (alias hit, whitespace-trimmed alias, unknown alias, raw topicNN
@@ -42,7 +171,7 @@
 - Patch 4: Wired `generate_pages.py -t/--topic` CLI filter through
   `topic_aliases.resolve_topic_filter()`. After argparse, topic filter
   text is resolved to a `(subject_key, topic_key)` tuple and threaded
-  explicitly through [bioproblems_site/pipeline.py](../bioproblems_site/pipeline.py)
+  explicitly through [pipeline.py](../bioproblems_site/pipeline.py)
   as separate `subject_filter` and `topic_filter` parameters. Pipeline
   filter logic skips any subject != subject_filter and (within the
   chosen subject) skips any topic whose canonical key != topic_filter.
@@ -50,12 +179,12 @@
   always unambiguous after Patch 5 data migration); also accepts
   `subject:topicNN` for unaliased topics, bare alias if unique across
   subjects, and bare `topicNN` if unique and unaliased.
-- New [tests/test_generate_pages_topic_alias.py](../tests/test_generate_pages_topic_alias.py)
+- New [test_generate_pages_topic_alias.py](../tests/test_generate_pages_topic_alias.py)
   covering the integration: subject:alias preferred form, subject:topicNN
   for unaliased topics, subject:topicNN for aliased topics raises,
   bare alias unique, bare alias ambiguous raises, bare topicNN unaliased,
   bare topicNN all-aliased raises, unknown alias raises, malformed forms.
-- Patch 6: New [tools/dump_topics_csv.py](../tools/dump_topics_csv.py)
+- Patch 6: New [dump_topics_csv.py](../tools/dump_topics_csv.py)
   utility exports topics metadata to a CSV file with columns
   `subject, topic_key, alias, title, description` (one row per topic,
   ordered by subject then topic_key). Enables offline cross-reference
@@ -63,7 +192,7 @@
   (required), `-m/--metadata` (default `topics_metadata.yml`), and
   `-k/--mkdocs` (default `mkdocs.yml`) options. Usage:
   `python3 tools/dump_topics_csv.py -o output.csv`.
-- New [tests/test_dump_topics_csv.py](../tests/test_dump_topics_csv.py)
+- New [test_dump_topics_csv.py](../tests/test_dump_topics_csv.py)
   covers CSV structure (column order, header, row count), alias field
   (preserved for aliased topics, empty string for non-aliased topics),
   and ordering (subjects alphabetical, topics within subject by key).
@@ -72,11 +201,11 @@
   way [generate_pages.py](../generate_pages.py) does. The repo-root
   `source_me.sh` does not add the repo root to `PYTHONPATH`, so a
   script under `bbq_control/` could not reach the `bioproblems_site`
-  package. Updated [bbq_control/all_tasks.sh](../bbq_control/all_tasks.sh)
+  package. Updated [all_tasks.sh](../bbq_control/all_tasks.sh)
   to call `../run_bbq_tasks.py`,
-  [bbq_control/USAGE.md](../bbq_control/USAGE.md) to reference the
+  [USAGE.md](../bbq_control/USAGE.md) to reference the
   repo-root path, and the BBQ-flow paragraph in
-  [docs/CODE_ARCHITECTURE.md](../docs/CODE_ARCHITECTURE.md). Verified
+  [CODE_ARCHITECTURE.md](CODE_ARCHITECTURE.md). Verified
   the move with `python3 run_bbq_tasks.py -t bbq_control/task_files/biochem_tasks1.csv -s bbq_control/bbq_settings.yml -n -F -l 3` (after sourcing `bbq_control/source_me.sh` which sets up the BP_ROOT/qti-package-maker `PYTHONPATH` the script validates at startup).
 
 - Patch 3: Wired [run_bbq_tasks.py](../run_bbq_tasks.py) CSV `topic`
@@ -91,18 +220,18 @@
   the wiring; raw `topicNN` cells continue to work pre-migration
   except where that specific topic has an alias defined. Errors
   include CSV path, row number, subject, and the bad value.
-- New [tests/test_run_bbq_alias.py](../tests/test_run_bbq_alias.py)
+- New [test_run_bbq_alias.py](../tests/test_run_bbq_alias.py)
   covers alias resolution, raw `topicNN`-when-aliased rejection,
   raw `topicNN`-for-non-aliased-topic acceptance, blank-separator
   rows, unknown subject, and unknown alias.
 - Tightened the LibreTexts comments in
-  [bioproblems_site/metadata.py](../bioproblems_site/metadata.py)
+  [metadata.py](../bioproblems_site/metadata.py)
   to read clearly as external-link context, not as legacy internal
   hierarchy ("Some LibreTexts books, such as Advanced Genetics,
   use chapter-only links" / "LibreTexts unit is optional; 0 means
   the external link has no unit number").
 - Cleaned up
-  [bbq_control/USAGE.md](../bbq_control/USAGE.md) "CSV format" header
+  [USAGE.md](../bbq_control/USAGE.md) "CSV format" header
   list which still said `chapter,topic,...`; corrected to
   `subject,topic,...` and added a short note that the topic cell
   may be either canonical `topicNN` or a per-subject alias.
@@ -118,7 +247,7 @@
   scratch, deletable; not committed) inserted aliases into the YAML
   via line-based mutation (preserves comments and ordering) and
   rewrote the `topic` column in every
-  [bbq_control/task_files/*.csv](../bbq_control/task_files/) using
+  `task_files` using
   a `(subject, topicNN) -> alias` dict (no regex). The CSV rewriter
   is also line-based so the visual blank-row separators between
   topic blocks survive intact -- `csv.DictReader/Writer` would have
@@ -135,63 +264,63 @@
   diffs. Resolved topic keys and output paths are byte-identical
   pre/post.
 - Full post-migration dry-run sweep across every task file in
-  [bbq_control/task_files/](../bbq_control/task_files/) exits 0.
+  `task_files` exits 0.
   Single-CSV production run (no `-n`) on
   `bbq_control/task_files/biochem_tasks1.csv` writes the expected
   `site_docs/biochemistry/topic01/...` artifact (resolves the new
   alias `biomolecules` -> canonical `topic01`).
 - Patch 7: Two new format docs.
-  [docs/TOPICS_METADATA_FORMAT.md](TOPICS_METADATA_FORMAT.md)
+  [TOPICS_METADATA_FORMAT.md](TOPICS_METADATA_FORMAT.md)
   documents the YAML schema (subjects -> topics, allowed Topic
   keys including the new optional `alias`), the canonical-id /
   author-facing-alias split, the URL/folder mapping (mkdocs URLs
   remain `/<subject>/<topicNN>/`), the topic-key contract
   (`^topic\d{2}$`), alias stability, and hidden-topic policy.
-  [docs/BBQ_TASK_CSV_FORMAT.md](BBQ_TASK_CSV_FORMAT.md) documents
+  [BBQ_TASK_CSV_FORMAT.md](BBQ_TASK_CSV_FORMAT.md) documents
   the CSV column reference and how the `topic` cell resolves
   through aliases; cross-references the matching
   `generate_pages.py -t/--topic` syntax (preferred form
   `subject:alias`). Both docs cross-link to each other and to
-  [bbq_control/USAGE.md](../bbq_control/USAGE.md). README.md and
+  [USAGE.md](../bbq_control/USAGE.md). README.md and
   docs/USAGE.md updated with pointers.
 - Made the `-o/--output` flag on
-  [tools/dump_topics_csv.py](../tools/dump_topics_csv.py) optional;
+  [dump_topics_csv.py](../tools/dump_topics_csv.py) optional;
   default is now `topics_reference.csv` in the current working
   directory (was: required `-o`). Relative paths resolve against
   CWD, not the repo root; no automatic directory creation.
 - Post-merge code/test cleanup from review:
   - Renamed the resolver kwarg `row_number` -> `line_number` in
-    [bioproblems_site/topic_aliases.py](../bioproblems_site/topic_aliases.py)
+    [topic_aliases.py](../bioproblems_site/topic_aliases.py)
     and [run_bbq_tasks.py](../run_bbq_tasks.py); error messages now
     say `<csv>:line N` (physical file line, matches the editor)
     instead of `:row N` which was ambiguous between header-aware
     and 1-based-data-row counts.
   - Replaced the magic `len(part) == 7` topicNN check at
-    [bioproblems_site/topic_page.py](../bioproblems_site/topic_page.py):799
+    [topic_page.py](../bioproblems_site/topic_page.py):799
     with `bp_metadata.TOPIC_KEY_RE.match(part)` so future changes
     to the topic key contract live in one place.
   - Swapped the inline `subprocess git rev-parse` repo-root call in
-    [tools/dump_topics_csv.py](../tools/dump_topics_csv.py) for
+    [dump_topics_csv.py](../tools/dump_topics_csv.py) for
     `bioproblems_site.git_paths.get_repo_root()` (production code
     must not import from `tests/`).
-  - [tests/test_run_bbq_alias.py](../tests/test_run_bbq_alias.py):
+  - [test_run_bbq_alias.py](../tests/test_run_bbq_alias.py):
     replaced `t.get("output_dir", "")` with `t["output_dir"]` so a
     missing key surfaces loudly rather than masking as empty
     string.
-  - [tests/test_run_bbq_alias.py](../tests/test_run_bbq_alias.py):
+  - [test_run_bbq_alias.py](../tests/test_run_bbq_alias.py):
     `_bbq_config` now takes `tmp_path` and uses it as the
     `bp_root` placeholder (was hardcoded `/tmp`); silences the
     bandit B108 hardcoded-tmp warning without `# nosec`.
   - Moved the `sys.path.insert("...tools")` hack out of
-    [tests/test_dump_topics_csv.py](../tests/test_dump_topics_csv.py)
-    and into [tests/conftest.py](../tests/conftest.py); the test
+    [test_dump_topics_csv.py](../tests/test_dump_topics_csv.py)
+    and into [conftest.py](../tests/conftest.py); the test
     now does a clean absolute `import dump_topics_csv`.
-  - Switched [tests/conftest.py](../tests/conftest.py)
+  - Switched [conftest.py](../tests/conftest.py)
     `REPO_ROOT` to the shared `git_file_utils.get_repo_root()`
     helper used by every other test file (was deriving the root
     from `__file__` against docs/REPO_STYLE.md).
   - Loosened two over-pinned error-message substring assertions in
-    [tests/test_generate_pages_topic_alias.py](../tests/test_generate_pages_topic_alias.py)
+    [test_generate_pages_topic_alias.py](../tests/test_generate_pages_topic_alias.py)
     so internal phrasing changes do not break tests.
 - Final end-to-end validation:
   `python3 generate_pages.py` (default subject-indexes path) regenerates
@@ -199,7 +328,7 @@
   `python3 generate_pages.py -T -t biochemistry:amino_acids`
   resolves the alias, writes the targeted topic page, and exits 0,
   proving the CLI alias filter is wired end-to-end through
-  [bioproblems_site/pipeline.py](../bioproblems_site/pipeline.py).
+  [pipeline.py](../bioproblems_site/pipeline.py).
   `--full` was not run because of a pre-existing missing-selftest
   artifact failure unrelated to the alias work.
 
@@ -230,33 +359,33 @@
     code has one canonical implementation. Tests continue to use
     `tests/git_file_utils.get_repo_root()` (tests-only).
   - Loosened two more error-message substring assertions in
-    [tests/test_generate_pages_topic_alias.py](../tests/test_generate_pages_topic_alias.py)
+    [test_generate_pages_topic_alias.py](../tests/test_generate_pages_topic_alias.py)
     (`test_unknown_alias_raises` and `test_bare_topicnn_all_aliased_raises`)
     to use `pytest.raises(..., match=...)` against the offending
     value only, not internal phrasing.
   - Declared `encoding="iso8859-1"` on the CSV-read in
-    [tests/test_dump_topics_csv.py](../tests/test_dump_topics_csv.py)
+    [test_dump_topics_csv.py](../tests/test_dump_topics_csv.py)
     to match repo policy (ASCII / ISO-8859-1 per
-    [docs/MARKDOWN_STYLE.md](MARKDOWN_STYLE.md)) and remove
+    [MARKDOWN_STYLE.md](MARKDOWN_STYLE.md)) and remove
     locale-default dependence.
 
 ## 2026-04-30
 
 ### Behavior or Interface Changes
 - Added two short path aliases to
-  [bbq_control/bbq_settings.yml](../bbq_control/bbq_settings.yml):
+  [bbq_settings.yml](../bbq_control/bbq_settings.yml):
   `bp_mcs` (resolves to `{bp_root}/multiple_choice_statements`) and
   `bp_match` (resolves to `{bp_root}/matching_sets`). Replaced the older
   long-named `multiple_choice_statements` and `matching_sets` aliases (the
   `script_aliases` and `pgml_script_map` blocks now reference the short
   names). Substituted `{bp_root}/multiple_choice_statements` -> `{bp_mcs}`
   and `{bp_root}/matching_sets` -> `{bp_match}` across
-  [bbq_control/task_files/biochem_tasks1.csv](../bbq_control/task_files/biochem_tasks1.csv),
-  [bbq_control/task_files/biochem_tasks2.csv](../bbq_control/task_files/biochem_tasks2.csv),
-  and [bbq_control/task_files/biochem_tasks3.csv](../bbq_control/task_files/biochem_tasks3.csv)
+  [biochem_tasks1.csv](../bbq_control/task_files/biochem_tasks1.csv),
+  [biochem_tasks2.csv](../bbq_control/task_files/biochem_tasks2.csv),
+  and [biochem_tasks3.csv](../bbq_control/task_files/biochem_tasks3.csv)
   to shorten frequent path prefixes. No code changes were required because
   `resolve_alias_map` in
-  [bbq_control/run_bbq_tasks.py](../bbq_control/run_bbq_tasks.py)
+  [run_bbq_tasks.py](../run_bbq_tasks.py)
   already supports recursive `{key}` expansion.
 
 ### Developer Tests and Notes
@@ -269,8 +398,8 @@
 ## 2026-04-22
 
 ### Fixes and Maintenance
-- Updated [bbq_control/task_files/biochem_tasks1.csv](../bbq_control/task_files/biochem_tasks1.csv)
-  and [bbq_control/task_files/biochem_tasks3.csv](../bbq_control/task_files/biochem_tasks3.csv)
+- Updated [biochem_tasks1.csv](../bbq_control/task_files/biochem_tasks1.csv)
+  and [biochem_tasks3.csv](../bbq_control/task_files/biochem_tasks3.csv)
   to match the 2026-04-22 biology-problems changelog entry that moved lipid
   generators into `problems/biochemistry-problems/lipids/` and replaced
   `fatty_acid_naming.py` with four new generators
@@ -282,32 +411,32 @@
 ## 2026-04-18
 
 ### Behavior or Interface Changes
-- Redesigned the `generate_pages.py` CLI from two mutually-exclusive mode flags to three composable build-axis flags plus one alias. Old flags removed: `--indexes-only`, `--topics-only`, `--adopt-existing`. New flags: `-S`/`--subject-indexes`, `-T`/`--topic-pages`, `-G`/`--generate-downloads`, `--full`. The default (no flag) is now the fast subject-indexes + nav path (was: full run). Migration mapping: old `./generate_pages.py` full run -> `./generate_pages.py --full`; old `--indexes-only` -> bare `./generate_pages.py` (or `-S`); old `--topics-only` -> `-T -G`. Net-new workflow: bare `-T` regenerates `topic??/index.md` layout without rebuilding any download artifact files (fast middle path that did not exist before). `-G` without `-T` and `--full` combined with any of `-S`/`-T`/`-G` are hard argparse errors. Wired via [generate_pages.py](../generate_pages.py), [bioproblems_site/pipeline.py](../bioproblems_site/pipeline.py), [bioproblems_site/topic_page.py](../bioproblems_site/topic_page.py). Rationale: the old `--indexes-only`/`--topics-only` pair hid the real cost axes, and the old default always paid for the slow download-artifact regeneration even for routine top-level maintenance.
+- Redesigned the `generate_pages.py` CLI from two mutually-exclusive mode flags to three composable build-axis flags plus one alias. Old flags removed: `--indexes-only`, `--topics-only`, `--adopt-existing`. New flags: `-S`/`--subject-indexes`, `-T`/`--topic-pages`, `-G`/`--generate-downloads`, `--full`. The default (no flag) is now the fast subject-indexes + nav path (was: full run). Migration mapping: old `./generate_pages.py` full run -> `./generate_pages.py --full`; old `--indexes-only` -> bare `./generate_pages.py` (or `-S`); old `--topics-only` -> `-T -G`. Net-new workflow: bare `-T` regenerates `topic??/index.md` layout without rebuilding any download artifact files (fast middle path that did not exist before). `-G` without `-T` and `--full` combined with any of `-S`/`-T`/`-G` are hard argparse errors. Wired via [generate_pages.py](../generate_pages.py), [pipeline.py](../bioproblems_site/pipeline.py), [topic_page.py](../bioproblems_site/topic_page.py). Rationale: the old `--indexes-only`/`--topics-only` pair hid the real cost axes, and the old default always paid for the slow download-artifact regeneration even for routine top-level maintenance.
 
 ### Fixes and Maintenance
 - Dropped the `adopt_existing` kwarg from `bioproblems_site.pipeline.run` and `_write_subject_index`. All 6 live subject `index.md` files now carry the generated marker, so the one-shot migration escape hatch has no remaining use. The marker check still fires if a future hand-authored subject index appears; its error now points at "delete and regenerate" rather than the removed flag.
-- Also gated the per-BBQ selftest HTML regen in [bioproblems_site/topic_page.py](../bioproblems_site/topic_page.py) `update_index_md` on `generate_downloads`. It was unconditionally removing + re-invoking `bbq_converter.py` on every run, which dominated `-T` runtime. Now it reuses the existing selftest file when present (only rebuilds if missing, so the `{% include %}` on line 717 never breaks); `-STG` / `--full` still force the rebuild.
-- Replaced the unused `RenderOptions.no_downloads` field in [bioproblems_site/topic_page.py](../bioproblems_site/topic_page.py) with `generate_downloads: bool = False` (opposite polarity, matches the new CLI flag). Threaded through `render_all` -> `update_index_md` -> `generate_download_button_row` as a keyword argument. When `False`, the per-format loop skips buttons for missing files and never calls `create_downloadable_format` (including the stale-source rebuild path).
+- Also gated the per-BBQ selftest HTML regen in [topic_page.py](../bioproblems_site/topic_page.py) `update_index_md` on `generate_downloads`. It was unconditionally removing + re-invoking `bbq_converter.py` on every run, which dominated `-T` runtime. Now it reuses the existing selftest file when present (only rebuilds if missing, so the `{% include %}` on line 717 never breaks); `-STG` / `--full` still force the rebuild.
+- Replaced the unused `RenderOptions.no_downloads` field in [topic_page.py](../bioproblems_site/topic_page.py) with `generate_downloads: bool = False` (opposite polarity, matches the new CLI flag). Threaded through `render_all` -> `update_index_md` -> `generate_download_button_row` as a keyword argument. When `False`, the per-format loop skips buttons for missing files and never calls `create_downloadable_format` (including the stale-source rebuild path).
 
 ### Decisions and Failures
 - Picked `--generate-downloads` (positive form, default off) over `--no-generate` / `--no-downloads`. "Downloads" alone reads like "fetch from the internet"; the flag is about locally generating downloadable artifact files. Default off matches the measured timing: the bare run is under a second, download generation dominates the slow path.
 - Chose a CLI break over a soft-landing deprecation. The new `--full` alias is what users who ran bare `./generate_pages.py` should use instead; the explicit error on `-G` without `-T` is preferred over a silent ignore.
 
 ### Developer Tests and Notes
-- Added [tests/test_topic_page_generate_downloads.py](../tests/test_topic_page_generate_downloads.py): one minimal pytest that pre-seeds a topic folder and asserts `generate_download_button_row(..., generate_downloads=False)` writes no files. Pins the one behavior that actually matters for the new `-T` (without `-G`) fast path.
+- Added [test_topic_page_generate_downloads.py](../tests/test_topic_page_generate_downloads.py): one minimal pytest that pre-seeds a topic folder and asserts `generate_download_button_row(..., generate_downloads=False)` writes no files. Pins the one behavior that actually matters for the new `-T` (without `-G`) fast path.
 - Full pyflakes gate (`pytest tests/test_pyflakes_code_lint.py`) green after the refactor.
 
 ### Additions and New Features
-- Added [docs/UI_UX_REVIEW_2026-04-18b.md](UI_UX_REVIEW_2026-04-18b.md), a fresh rendered-site UI/UX pass after the evening's emoji/LibreTexts/Daily Puzzles changes (supersedes the deleted first-pass doc). Net result: zero outstanding source changes from this review; both initially flagged "Major" findings (subject-index images missing `alt`, external links missing `rel="noopener"`) turned out to be over-broad harness checks - the generated HTML was already correct. Two minor follow-ups remain (ASCII arrow on Daily Puzzles cards, single-item numbered list on `/other/`) plus a "worth revisiting" note about adding a small subtitle on the home page to explain the Subjects-vs-Additional-Topics distinction (Biochemistry/Genetics are complete; the rest are partial).
-- Expanded [tests/ui_ux_review.mjs](../tests/ui_ux_review.mjs) coverage from 17 to 30 URLs (60 visits across desktop+mobile): all hand-authored pages (home, 4 daily puzzles + landing, 3 tutorials + landing, author, license) plus a 1-2 topic sample per subject (11 of 42 generated topics) plus the search-results pseudo-page. Removed the dead `biotechnology_orphan` row (orphan was deleted earlier today). All 60 visits return HTTP 200.
+- Added [UI_UX_REVIEW_2026-04-18b.md](archive/UI_UX_REVIEW_2026-04-18b.md), a fresh rendered-site UI/UX pass after the evening's emoji/LibreTexts/Daily Puzzles changes (supersedes the deleted first-pass doc). Net result: zero outstanding source changes from this review; both initially flagged "Major" findings (subject-index images missing `alt`, external links missing `rel="noopener"`) turned out to be over-broad harness checks - the generated HTML was already correct. Two minor follow-ups remain (ASCII arrow on Daily Puzzles cards, single-item numbered list on `/other/`) plus a "worth revisiting" note about adding a small subtitle on the home page to explain the Subjects-vs-Additional-Topics distinction (Biochemistry/Genetics are complete; the rest are partial).
+- Expanded [ui_ux_review.mjs](../tests/playwright/ui_ux_review.mjs) coverage from 17 to 30 URLs (60 visits across desktop+mobile): all hand-authored pages (home, 4 daily puzzles + landing, 3 tutorials + landing, author, license) plus a 1-2 topic sample per subject (11 of 42 generated topics) plus the search-results pseudo-page. Removed the dead `biotechnology_orphan` row (orphan was deleted earlier today). All 60 visits return HTTP 200.
 
 ### Fixes and Maintenance
-- Tightened three checks in [tests/ui_ux_review.mjs](../tests/ui_ux_review.mjs) that were producing false-positive findings:
+- Tightened three checks in [ui_ux_review.mjs](../tests/playwright/ui_ux_review.mjs) that were producing false-positive findings:
   - `imgsNoAlt` now requires the `alt` attribute to be truly absent (`getAttribute('alt') === null`); empty-string `alt=""` is the standard decorative-image marker and was being mis-flagged. Re-run: `noAlt=0` on every page.
-- Changed the LibreTexts icon `alt` from `""` (decorative) to `"LibreTexts"` in both [bioproblems_site/subject_index.py](../bioproblems_site/subject_index.py) and [bioproblems_site/topic_page.py](../bioproblems_site/topic_page.py). The aria-label sits on the `<a>` not the `<img>`, so a meaningful image alt is more defensive (survives refactors that drop or change the anchor label). Regenerated subject indexes via `generate_pages.py --indexes-only`; 22 icons updated across biochem/genetics.
+- Changed the LibreTexts icon `alt` from `""` (decorative) to `"LibreTexts"` in both [subject_index.py](../bioproblems_site/subject_index.py) and [topic_page.py](../bioproblems_site/topic_page.py). The aria-label sits on the `<a>` not the `<img>`, so a meaningful image alt is more defensive (survives refactors that drop or change the anchor label). Regenerated subject indexes via `generate_pages.py --indexes-only`; 22 icons updated across biochem/genetics.
   - `externalNoRel` now requires both `target="_blank"` AND a missing `noopener` rel; `rel="noopener"` only matters for new-tab links. Re-run: `extNoRel=0` on every page.
   - Dark-mode capture now uses a fresh Playwright context with `colorScheme: 'dark'` plus an `addInitScript` that pre-seeds `localStorage.__palette` (Material's palette JS reads localStorage at page load before paint, so per-page evaluate-then-reload was always too late). `home_dark.png` and `subject_biochem_dark.png` now render the slate scheme correctly.
-- Added `visibleTables` and `detailsBlocks` metrics to [tests/ui_ux_review.mjs](../tests/ui_ux_review.mjs) so the report distinguishes on-load tables from tables nested inside collapsed `<details>` panels. Confirmed `visibleTables=0` on every topic page; the prior alarm about 88-table mobile overflow was a false signal from counting hidden example tables.
+- Added `visibleTables` and `detailsBlocks` metrics to [ui_ux_review.mjs](../tests/playwright/ui_ux_review.mjs) so the report distinguishes on-load tables from tables nested inside collapsed `<details>` panels. Confirmed `visibleTables=0` on every topic page; the prior alarm about 88-table mobile overflow was a false signal from counting hidden example tables.
 
 ### Decisions and Failures
 - **Crucial finding for future agents**: when the harness flags `imgsNoAlt` or `extNoRel`, inspect the source HTML before "fixing" the page generator. Every existing `target="_blank"` link in generated HTML already carries `rel="noopener"` (or `noopener noreferrer`), and decorative `<img>` tags carry an `alt` attribute (now `"LibreTexts"` for the LibreTexts icon). Verify with `curl http://127.0.0.1:8765/<page>/ | grep '<a'` before changing source.
@@ -315,31 +444,31 @@
 - The Subjects vs Additional Topics split on `site_docs/index.md` is intentional: Biochemistry and Genetics carry complete coverage; the other four subjects are partial. A previous attempt to add an explanatory subtitle was deemed unnecessary and removed; the review notes this is worth revisiting later for new-reader legibility.
 
 ### Additions and New Features
-- Added [site_docs/daily_puzzles/index.md](../site_docs/daily_puzzles/index.md), a landing page for the Daily Puzzles section with a Material grid-card overview of the four puzzles (Peptidyle, Deletion mutants, Mutant screen, Biomacromolecules) plus a short "How it works" section covering the local-midnight rotation and browser-local stats storage. Wired it into the Daily Puzzles nav group in [mkdocs.yml](../mkdocs.yml) as the first child so Material's `navigation.indexes` uses it as the section landing page. Also added the new URL to the page list in [tests/ui_ux_review.mjs](../tests/ui_ux_review.mjs).
-- Added a `_subject_display_labels` test to [tests/test_mkdocs_nav.py](../tests/test_mkdocs_nav.py) covering the new list-shape path (value is a list whose first entry is the subject index), so icons in subject labels stay preserved across nav regeneration.
+- Added [index.md](../site_docs/daily_puzzles/index.md), a landing page for the Daily Puzzles section with a Material grid-card overview of the four puzzles (Peptidyle, Deletion mutants, Mutant screen, Biomacromolecules) plus a short "How it works" section covering the local-midnight rotation and browser-local stats storage. Wired it into the Daily Puzzles nav group in [mkdocs.yml](../mkdocs.yml) as the first child so Material's `navigation.indexes` uses it as the section landing page. Also added the new URL to the page list in [ui_ux_review.mjs](../tests/playwright/ui_ux_review.mjs).
+- Added a `_subject_display_labels` test to [test_mkdocs_nav.py](../tests/test_mkdocs_nav.py) covering the new list-shape path (value is a list whose first entry is the subject index), so icons in subject labels stay preserved across nav regeneration.
 
 ### Behavior or Interface Changes
-- Restored emoji icons on the six subject labels in [mkdocs.yml](../mkdocs.yml) (`🧪 Biochemistry`, `🪰 Genetics`, `🔬 Laboratory`, `🧬 Molecular Biology`, `🎲 Biostatistics`, `📚 Other`) so every top-level nav entry has a glyph, matching the FontAwesome prefixes already on Home / Daily Puzzles / Tutorials / Author / License. Fixes the [minor] "unbranded subjects" finding from [docs/UI_UX_REVIEW_2026-04-18.md](UI_UX_REVIEW_2026-04-18.md).
-- Reworked the LibreTexts link in [bioproblems_site/subject_index.py](../bioproblems_site/subject_index.py) `_libretexts_icon_anchor`: it now renders as `[logo] Chapter U.C` (e.g. `Chapter 1.2`) inside an `<a class="lt-link">` with LibreTexts brand blue (`#127bc4`), a hover background, a "Open on LibreTexts (new tab)" tooltip, and `rel="noopener noreferrer"`. Replaces the prior logo-only anchor that readers could not interpret. New `.lt-link` CSS in [site_docs/assets/stylesheets/custom.css](../site_docs/assets/stylesheets/custom.css). All subject indexes regenerated via `generate_pages.py --indexes-only`.
+- Restored emoji icons on the six subject labels in [mkdocs.yml](../mkdocs.yml) (`🧪 Biochemistry`, `🪰 Genetics`, `🔬 Laboratory`, `🧬 Molecular Biology`, `🎲 Biostatistics`, `📚 Other`) so every top-level nav entry has a glyph, matching the FontAwesome prefixes already on Home / Daily Puzzles / Tutorials / Author / License. Fixes the [minor] "unbranded subjects" finding from `UI_UX_REVIEW_2026-04-18.md`.
+- Reworked the LibreTexts link in [subject_index.py](../bioproblems_site/subject_index.py) `_libretexts_icon_anchor`: it now renders as `[logo] Chapter U.C` (e.g. `Chapter 1.2`) inside an `<a class="lt-link">` with LibreTexts brand blue (`#127bc4`), a hover background, a "Open on LibreTexts (new tab)" tooltip, and `rel="noopener noreferrer"`. Replaces the prior logo-only anchor that readers could not interpret. New `.lt-link` CSS in [custom.css](../site_docs/assets/stylesheets/custom.css). All subject indexes regenerated via `generate_pages.py --indexes-only`.
 - Added `md_in_html` to `markdown_extensions` in [mkdocs.yml](../mkdocs.yml) so the Daily Puzzles landing page can use Material's `grid cards` layout (Markdown inside HTML blocks).
 
 ### Fixes and Maintenance
-- Generalized `_subject_display_labels` in [bioproblems_site/mkdocs_nav.py](../bioproblems_site/mkdocs_nav.py) to read subject labels from both shapes (string-valued `{"Biochemistry": "biochemistry/index.md"}` and list-valued `{"Biochemistry": ["biochemistry/index.md", ...]}`). The prior string-only path silently dropped hand-authored icons whenever `navigation.indexes` listed subject children.
+- Generalized `_subject_display_labels` in [mkdocs_nav.py](../bioproblems_site/mkdocs_nav.py) to read subject labels from both shapes (string-valued `{"Biochemistry": "biochemistry/index.md"}` and list-valued `{"Biochemistry": ["biochemistry/index.md", ...]}`). The prior string-only path silently dropped hand-authored icons whenever `navigation.indexes` listed subject children.
 
 ### Decisions and Failures
 - Chose "emoji on subjects, FontAwesome on utility rows" over uniform FontAwesome after user preference. Accepts a minor mixed-style cost on the top-level nav in exchange for keeping the existing personality (🧪, 🪰, 🔬, 🧬, 🎲, 📚) that readers in earlier commits had internalized.
 
 ### Behavior or Interface Changes
 - Removed `navigation.sections` from [mkdocs.yml](../mkdocs.yml) `theme.features` so subject groups (Biochemistry, Genetics, Laboratory, Molecular Biology, Biostatistics, Other) render as collapsible sections again rather than a long always-expanded left rail.
-- Scoped the `.lt-icon` CSS rule in [site_docs/assets/stylesheets/custom.css](../site_docs/assets/stylesheets/custom.css) to `.md-typeset img.lt-icon` with `height: 1em; max-height: 1.2em;` so the LibreTexts icon renders at text cap-height instead of full natural size; Material's `.md-typeset img` rule no longer wins on specificity.
-- Topic pages (e.g., `/biochemistry/topic01/`) now render the LibreTexts icon (`.lt-icon`) next to the `**LibreTexts reference:**` link, matching the subject-index convention. Code in [bioproblems_site/topic_page.py](../bioproblems_site/topic_page.py).
+- Scoped the `.lt-icon` CSS rule in [custom.css](../site_docs/assets/stylesheets/custom.css) to `.md-typeset img.lt-icon` with `height: 1em; max-height: 1.2em;` so the LibreTexts icon renders at text cap-height instead of full natural size; Material's `.md-typeset img` rule no longer wins on specificity.
+- Topic pages (e.g., `/biochemistry/topic01/`) now render the LibreTexts icon (`.lt-icon`) next to the `**LibreTexts reference:**` link, matching the subject-index convention. Code in [topic_page.py](../bioproblems_site/topic_page.py).
 
 ### Fixes and Maintenance
-- Dropped dead parameters in [bioproblems_site/topic_page.py](../bioproblems_site/topic_page.py): `get_topic_title(folder_path)` and `get_libretexts_link(topic_folder)` no longer accept the previously-ignored `topic_number` / `relative_topic_name` arguments. Single in-module caller updated.
-- Dropped the never-used `save_prompt` argument from `generate_title_prompt` and `get_problem_title_from_file` in [bioproblems_site/problem_set_title.py](../bioproblems_site/problem_set_title.py) and removed the associated dead `with open('prompt.txt', 'w')` branch.
+- Dropped dead parameters in [topic_page.py](../bioproblems_site/topic_page.py): `get_topic_title(folder_path)` and `get_libretexts_link(topic_folder)` no longer accept the previously-ignored `topic_number` / `relative_topic_name` arguments. Single in-module caller updated.
+- Dropped the never-used `save_prompt` argument from `generate_title_prompt` and `get_problem_title_from_file` in [problem_set_title.py](../bioproblems_site/problem_set_title.py) and removed the associated dead `with open('prompt.txt', 'w')` branch.
 
 ### Decisions and Failures
-- Considered consolidating the three trailing boolean kwargs of `_write_subject_index` (`adopt_existing`, `dry_run`, `verbose`) into a new `WriteFlags` dataclass module; skipped because both call sites are already explicit and a dataclass only moves the keyword-arg typing around. Plan file: [conduct-a-deep-review-partitioned-pony.md](../../.claude/plans/conduct-a-deep-review-partitioned-pony.md) (WP-3c was gated as conditional).
+- Considered consolidating the three trailing boolean kwargs of `_write_subject_index` (`adopt_existing`, `dry_run`, `verbose`) into a new `WriteFlags` dataclass module; skipped because both call sites are already explicit and a dataclass only moves the keyword-arg typing around. Plan file: `conduct-a-deep-review-partitioned-pony.md` (WP-3c was gated as conditional).
 
 ### Developer Tests and Notes
 - `pytest tests/ -q` green (1103 passed) after the cleanup.
@@ -347,13 +476,13 @@
 ### Additions and New Features
 - Added `bioproblems_site/llm_helpers.py` (project-local seam over the vendored `local_llm_wrapper.llm` facade), mirroring `validate_ollama_model` and `create_llm_client` from the sibling `biology-problems` repo.
 - Added `-O/--ollama` and `-m/--model MODEL` flags to `generate_pages.py`. `--model` implies `--ollama`; when set, `validate_ollama_model` runs once at startup before any topic page is rendered. The pipeline builds a single `LLMClient` and threads it through `RenameOptions.llm_client` -> `update_index_md(client=...)` -> `get_problem_set_title(client, ...)` -> `get_problem_title_from_file(client, ...)`. No per-call client cache; one client per `generate_pages.py` run.
-- Added [devel/ui_ux_review.mjs](../devel/ui_ux_review.mjs), a Playwright driver that visits key mkdocs pages at desktop and mobile viewports, captures full-page screenshots into `test-results/ui_ux_review/`, and writes `report.json` with per-page metrics (status, H1 count, image count, missing alt text, tables, external links missing `rel=noopener`).
-- Added [docs/UI_UX_REVIEW_2026-04-18.md](UI_UX_REVIEW_2026-04-18.md) capturing the findings of a rendered-site UI/UX pass against the Material theme.
+- Added [ui_ux_review.mjs](../tests/playwright/ui_ux_review.mjs), a Playwright driver that visits key mkdocs pages at desktop and mobile viewports, captures full-page screenshots into `test-results/ui_ux_review/`, and writes `report.json` with per-page metrics (status, H1 count, image count, missing alt text, tables, external links missing `rel=noopener`).
+- Added `UI_UX_REVIEW_2026-04-18.md` capturing the findings of a rendered-site UI/UX pass against the Material theme.
 
 ### Behavior or Interface Changes
 - Replaced ad-hoc `bioproblems_site/llm_wrapper.py` with the vendored `local_llm_wrapper` package (also on PyPI as `local-llm-wrapper`). `source_me.sh` now appends `~/nsh/local-llm-wrapper` to `PYTHONPATH` (after `source ~/.bashrc`, which clears it). Default LLM transport is now Apple Intelligence (matches sibling repo); Ollama is opt-in via `-O/--ollama` or `-m/--model`. Title generation is now capped at `max_tokens=200` -- intentional behavior change suitable for short titles; the old wrapper used the Ollama default.
 - Added `test-results/` and `node_modules/` to `.gitignore` so Playwright screenshots and npm deps stay out of git.
-- Initialized root `package.json` and installed `playwright` as a dev dependency (plus `chromium` browser via `npx playwright install chromium`) so the review script can run locally per [docs/PLAYWRIGHT_USAGE.md](PLAYWRIGHT_USAGE.md).
+- Initialized root `package.json` and installed `playwright` as a dev dependency (plus `chromium` browser via `npx playwright install chromium`) so the review script can run locally per [PLAYWRIGHT_USAGE.md](PLAYWRIGHT_USAGE.md).
 
 ### Decisions and Failures
 - User feedback during review: the repeated `(LibreTexts Unit X, Chapter Y)` labels on each subject index "stand out like a sore thumb"; findings doc now recommends replacing the text label with a compact LibreTexts logo icon (or a distinct brand-blue color if text is kept) so the word "LibreTexts" is not repeated ~20 times per page.
@@ -361,7 +490,7 @@
 - Recommendation documented: reintroduce a generated `topics_metadata.yml` (question counts + LibreTexts URLs) alongside the existing subject `index.md` prose, so the generator can suppress links to empty topics and surface question-count chips. See findings doc for the full rationale.
 
 ### Developer Tests and Notes
-- Ran `node devel/ui_ux_review.mjs` against `mkdocs serve -a 127.0.0.1:8765`; 32 page visits, all HTTP 200, 33 screenshots saved under `test-results/ui_ux_review/`.
+- Ran `node tests/playwright/ui_ux_review.mjs` against `mkdocs serve -a 127.0.0.1:8765`; 32 page visits, all HTTP 200, 33 screenshots saved under `test-results/ui_ux_review/`.
 - Applied reviewer-driven style/test fixes to the `bioproblems_site/` reorg: removed mutable module-level `BASE_DIR` global in `topic_page.py` (now threaded via `base_dir` parameter), removed re-export aliases for `git_paths` helpers, dropped dead commented-out code. Narrowed `llm_wrapper.get_vram_size_in_gb` try/except to not swallow broad exceptions; moved module-level asserts into `tests/test_llm_wrapper.py`. Converted `problem_set_title.py` to a library-only module (removed argparse, `main()`, `if __name__ == '__main__'`). Tightened `metadata._validate_libretexts` to use direct key access for required keys. Moved `detect_formats` filesystem scanning out of `formats.py` (now pure registry) into `scanner._detect_formats`. Replaced brittle exact-count assertion in `test_scanner.py` with behavioral property (more files -> higher count); converted `test_subject_index_render.py` helper into `@pytest.fixture` and switched to `startswith` check; passed explicit paths in `test_mkdocs_metadata_sync.py` to avoid CWD coupling. Deleted obsolete `tests/test_topic_page_parity.py`.
 - Executed M1-M4 of the pipeline reorg plan. `pytest tests/test_metadata_loader.py tests/test_mkdocs_metadata_sync.py tests/test_scanner.py tests/test_subject_index_render.py tests/test_pyflakes_code_lint.py` is green (42 tests). `mkdocs build --strict` exits 0 with zero broken-link warnings. `python generate_pages.py --indexes-only` is idempotent.
 

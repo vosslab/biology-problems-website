@@ -1,6 +1,8 @@
 # Biology Problems OER
 
-This repository contains the MkDocs site content and supporting scripts for Biology Problems OER, a free and open collection of biochemistry, genetics, and related problem sets for students and educators. The live site is at [https://biologyproblems.org](https://biologyproblems.org).
+This repository holds the MkDocs site content and supporting scripts for Biology Problems OER, a free and open collection of biochemistry, genetics, and related problem sets for students and educators.
+
+The live site is at [https://biologyproblems.org](https://biologyproblems.org).
 
 ## Documentation
 

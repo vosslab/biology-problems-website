@@ -5,34 +5,40 @@
 - [AGENTS.md](../AGENTS.md): Agent workflow and environment rules.
 - [README.md](../README.md): Project overview and quick start.
 - [mkdocs.yml](../mkdocs.yml): MkDocs configuration and site navigation.
+- [generate_pages.py](../generate_pages.py): Page-generation entrypoint for
+  subject indexes, topic pages, the generated nav block, and the self-test
+  manifest.
+- [run_bbq_tasks.py](../run_bbq_tasks.py): BBQ batch task runner (imports
+  `bioproblems_site`).
+- [topics_metadata.yml](../topics_metadata.yml): Topic descriptions, aliases,
+  and links.
+- [bioproblems_site/](../bioproblems_site/): Importable generator package for
+  metadata, scanning, rendering, nav updates, and self-test manifest creation.
 - [site_docs/](../site_docs/): MkDocs content root for pages and assets.
-- [site/](../site/): Built site output (generated, git ignored).
-- [docs/](../docs/): Repo documentation and standards.
+- `site/`: Built site output (generated, git ignored).
+- [docs/](.): Repo documentation and standards.
 - [bbq_control/](../bbq_control/): BBQ batch runner scripts and task configs.
 - [tools/](../tools/): Helper scripts for content generation tasks.
-- [devel/](../devel/): Developer utilities and scratch resources.
-- [tests/](../tests/): Lint and ASCII compliance scripts.
-- [topics_metadata.yml](../topics_metadata.yml): Topic descriptions and links.
-- [generate_subject_indexes.py](../generate_subject_indexes.py): Subject index generator.
-- [generate_topic_pages.py](../generate_topic_pages.py): Topic page generator.
-- [llm_generate_problem_set_title.py](../llm_generate_problem_set_title.py): LLM title helper.
-- [llm_wrapper.py](../llm_wrapper.py): Local LLM selection and invocation helper.
+- [devel/](../devel/): Developer utilities (versioning, changelog tooling).
+- [tests/](../tests/): Lint, ASCII compliance, and unit/E2E tests.
 
 ## Key subtrees
 
-- [site_docs/assets/](../site_docs/assets/): Shared CSS, JS, fonts, and images.
+- [site_docs/assets/](../site_docs/assets/): Shared CSS, JS, fonts, images, and generated data.
+- [site_docs/assets/scripts/selftest_progress.js](../site_docs/assets/scripts/selftest_progress.js): Browser self-test completion tracking.
+- [site_docs/progress/](../site_docs/progress/): Self-test progress dashboard page.
 - [site_docs/biochemistry/](../site_docs/biochemistry/): Biochemistry topic pages and assets.
 - [site_docs/genetics/](../site_docs/genetics/): Genetics topic pages and assets.
 - [site_docs/daily_puzzles/](../site_docs/daily_puzzles/): Daily puzzle pages and scripts.
 - [site_docs/tutorials/](../site_docs/tutorials/): BBQ and LMS import tutorials.
+- [bioproblems_site/selftest_manifest.py](../bioproblems_site/selftest_manifest.py): Builds the self-test question manifest.
 - [bbq_control/](../bbq_control/): CSV task lists, YAML settings, and runner scripts.
 
 ## Generated artifacts
 
 Git-ignored outputs and local-only files are listed in [.gitignore](../.gitignore),
-including [site/](../site/), [pyflakes.txt](../pyflakes.txt),
-[ascii_compliance.txt](../ascii_compliance.txt), `bbq_generation.log*`, and
-[bbq_converter.py](../bbq_converter.py).
+including the built `site/` directory, `report_*.txt` lint reports,
+`bbq_generation.log*` files, and the `bbq_converter.py` symlink.
 
 ## Documentation map
 
@@ -48,6 +54,6 @@ including [site/](../site/), [pyflakes.txt](../pyflakes.txt),
 ## Where to add new work
 
 - New site content: [site_docs/](../site_docs/).
-- New docs: [docs/](../docs/).
+- New docs: [docs/](.).
 - New scripts: repo root for small tools or [tools/](../tools/).
 - New tests: [tests/](../tests/).
