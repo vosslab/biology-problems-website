@@ -278,3 +278,57 @@ img[style] {
 }
 
 /* Daily puzzle shared UI is in assets/stylesheets/daily_puzzle.css */
+
+/* Self-test completion progress. */
+.selftest-progress-panel,
+.selftest-storage-warning,
+.selftest-dashboard-summary,
+.selftest-dashboard-subject {
+  border: 1px solid var(--md-default-fg-color--lightest, #dddddd);
+  border-radius: 0.35rem;
+  padding: 0.75rem;
+  margin: 0.75rem 0 1rem;
+  background: var(--md-code-bg-color, #f7f7f7);
+}
+
+.selftest-storage-warning {
+  border-color: var(--md-warning-fg-color, #b37100);
+}
+
+.selftest-status {
+  display: inline-block;
+  font-size: 0.78rem;
+  line-height: 1.2;
+  padding: 0.2rem 0.45rem;
+  margin: 0 0 0.6rem;
+  border-radius: 999px;
+  border: 1px solid var(--md-default-fg-color--lightest, #dddddd);
+  color: var(--md-default-fg-color--light, #555555);
+}
+
+.selftest-status-complete,
+.selftest-topic-complete {
+  color: var(--qti-success-fg, #008000);
+  font-weight: 700;
+}
+
+.selftest-progress-toast {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 20;
+  padding: 0.75rem 1rem;
+  border-radius: 0.35rem;
+  background: var(--md-primary-fg-color, #2e7d32);
+  color: var(--md-primary-bg-color, #ffffff);
+  box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.22);
+}
+
+.selftest-dashboard-subject h2 {
+  margin-top: 0;
+  text-transform: capitalize;
+}
+
+.selftest-dashboard-subject ul {
+  margin-bottom: 0;
+}
