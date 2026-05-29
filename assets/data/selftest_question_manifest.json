@@ -1,0 +1,2626 @@
+{
+  "questions": [
+    {
+      "crc": "42a3_fdf4",
+      "pagePath": "biochemistry/topic01/index.md",
+      "questionFingerprint": "916d7e5084399bca",
+      "questionId": "42a3_fdf4",
+      "selftestPath": "biochemistry/topic01/downloads/selftest-MATCH-bond_types.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic01",
+      "topicTitle": "Life Molecules"
+    },
+    {
+      "crc": "ccf9_0d87",
+      "pagePath": "biochemistry/topic01/index.md",
+      "questionFingerprint": "a449566b92f3d8a8",
+      "questionId": "ccf9_0d87",
+      "selftestPath": "biochemistry/topic01/downloads/selftest-MATCH-macromolecules-biol301.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic01",
+      "topicTitle": "Life Molecules"
+    },
+    {
+      "crc": "ccf9_d98d",
+      "pagePath": "biochemistry/topic01/index.md",
+      "questionFingerprint": "a449566b92f3d8a8",
+      "questionId": "ccf9_d98d",
+      "selftestPath": "biochemistry/topic01/downloads/selftest-MATCH-macromolecules.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic01",
+      "topicTitle": "Life Molecules"
+    },
+    {
+      "crc": "95b9_cd6e",
+      "pagePath": "biochemistry/topic01/index.md",
+      "questionFingerprint": "9bd48751aa26683d",
+      "questionId": "95b9_cd6e",
+      "selftestPath": "biochemistry/topic01/downloads/selftest-WOMC-bond_types.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic01",
+      "topicTitle": "Life Molecules"
+    },
+    {
+      "crc": "3d4b_1ee3",
+      "pagePath": "biochemistry/topic01/index.md",
+      "questionFingerprint": "182fd3da0483d25f",
+      "questionId": "3d4b_1ee3",
+      "selftestPath": "biochemistry/topic01/downloads/selftest-WOMC-macromolecules-biol301.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic01",
+      "topicTitle": "Life Molecules"
+    },
+    {
+      "crc": "003d_1ee3",
+      "pagePath": "biochemistry/topic01/index.md",
+      "questionFingerprint": "98bd84d9f2a7e585",
+      "questionId": "003d_1ee3",
+      "selftestPath": "biochemistry/topic01/downloads/selftest-WOMC-macromolecules.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic01",
+      "topicTitle": "Life Molecules"
+    },
+    {
+      "crc": "720c_d547",
+      "pagePath": "biochemistry/topic01/index.md",
+      "questionFingerprint": "109eccdcc938902f",
+      "questionId": "720c_d547",
+      "selftestPath": "biochemistry/topic01/downloads/selftest-which_hydrophobic-simple.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic01",
+      "topicTitle": "Life Molecules"
+    },
+    {
+      "crc": "cdd1_8112",
+      "pagePath": "biochemistry/topic01/index.md",
+      "questionFingerprint": "7b4af1fae4a8105e",
+      "questionId": "cdd1_8112",
+      "selftestPath": "biochemistry/topic01/downloads/selftest-which_macromolecule-MC.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic01",
+      "topicTitle": "Life Molecules"
+    },
+    {
+      "crc": "1fd6_5011",
+      "pagePath": "biochemistry/topic02/index.md",
+      "questionFingerprint": "0cbe49c20c0025a1",
+      "questionId": "1fd6_5011",
+      "selftestPath": "biochemistry/topic02/downloads/selftest-Henderson-Hasselbalch-EQUATION.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic02",
+      "topicTitle": "Water and pH"
+    },
+    {
+      "crc": "caab_ec96",
+      "pagePath": "biochemistry/topic02/index.md",
+      "questionFingerprint": "c4894c4b4c0ca368",
+      "questionId": "caab_ec96",
+      "selftestPath": "biochemistry/topic02/downloads/selftest-Henderson-Hasselbalch-pH_mc.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic02",
+      "topicTitle": "Water and pH"
+    },
+    {
+      "crc": "c649_d521",
+      "pagePath": "biochemistry/topic02/index.md",
+      "questionFingerprint": "3b105508cbd1eefd",
+      "questionId": "c649_d521",
+      "selftestPath": "biochemistry/topic02/downloads/selftest-Henderson-Hasselbalch-pH_num.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic02",
+      "topicTitle": "Water and pH"
+    },
+    {
+      "crc": "6278_7610",
+      "pagePath": "biochemistry/topic02/index.md",
+      "questionFingerprint": "26fdedb565f2a54f",
+      "questionId": "6278_7610",
+      "selftestPath": "biochemistry/topic02/downloads/selftest-Henderson-Hasselbalch-pKa_mc.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic02",
+      "topicTitle": "Water and pH"
+    },
+    {
+      "crc": "ea98_6d34",
+      "pagePath": "biochemistry/topic02/index.md",
+      "questionFingerprint": "1afe40f3530d2555",
+      "questionId": "ea98_6d34",
+      "selftestPath": "biochemistry/topic02/downloads/selftest-Henderson-Hasselbalch-pKa_num.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic02",
+      "topicTitle": "Water and pH"
+    },
+    {
+      "crc": "e622_d0e2",
+      "pagePath": "biochemistry/topic02/index.md",
+      "questionFingerprint": "94060f7362836802",
+      "questionId": "e622_d0e2",
+      "selftestPath": "biochemistry/topic02/downloads/selftest-Henderson-Hasselbalch-ratio_mc.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic02",
+      "topicTitle": "Water and pH"
+    },
+    {
+      "crc": "1a71_8572",
+      "pagePath": "biochemistry/topic02/index.md",
+      "questionFingerprint": "37cd0ed0346ee964",
+      "questionId": "1a71_8572",
+      "selftestPath": "biochemistry/topic02/downloads/selftest-Henderson-Hasselbalch-ratio_num.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic02",
+      "topicTitle": "Water and pH"
+    },
+    {
+      "crc": "c331_3ee7",
+      "pagePath": "biochemistry/topic02/index.md",
+      "questionFingerprint": "29e6f607a38e677f",
+      "questionId": "c331_3ee7",
+      "selftestPath": "biochemistry/topic02/downloads/selftest-chemical_group_pka_forms.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic02",
+      "topicTitle": "Water and pH"
+    },
+    {
+      "crc": "1311_ae5a",
+      "pagePath": "biochemistry/topic02/index.md",
+      "questionFingerprint": "1e4ee041c7b0f31b",
+      "questionId": "1311_ae5a",
+      "selftestPath": "biochemistry/topic02/downloads/selftest-functional_groups_bond_types.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic02",
+      "topicTitle": "Water and pH"
+    },
+    {
+      "crc": "a994_d5b9",
+      "pagePath": "biochemistry/topic02/index.md",
+      "questionFingerprint": "77eb0c6df826a8b7",
+      "questionId": "a994_d5b9",
+      "selftestPath": "biochemistry/topic02/downloads/selftest-optimal_buffering_range.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic02",
+      "topicTitle": "Water and pH"
+    },
+    {
+      "crc": "103e_fc76",
+      "pagePath": "biochemistry/topic02/index.md",
+      "questionFingerprint": "f699c50d4804fed6",
+      "questionId": "103e_fc76",
+      "selftestPath": "biochemistry/topic02/downloads/selftest-pKa_buffer_state-2_protons.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic02",
+      "topicTitle": "Water and pH"
+    },
+    {
+      "crc": "d077_c813",
+      "pagePath": "biochemistry/topic02/index.md",
+      "questionFingerprint": "c5f10dc16f52d4fe",
+      "questionId": "d077_c813",
+      "selftestPath": "biochemistry/topic02/downloads/selftest-pKa_buffer_state-3_protons.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic02",
+      "topicTitle": "Water and pH"
+    },
+    {
+      "crc": "50bd_8632",
+      "pagePath": "biochemistry/topic02/index.md",
+      "questionFingerprint": "68e2ed2017660b57",
+      "questionId": "50bd_8632",
+      "selftestPath": "biochemistry/topic02/downloads/selftest-pKa_buffer_state-4_protons.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic02",
+      "topicTitle": "Water and pH"
+    },
+    {
+      "crc": "09ef_9759",
+      "pagePath": "biochemistry/topic02/index.md",
+      "questionFingerprint": "c2f8a21355828b3c",
+      "questionId": "09ef_9759",
+      "selftestPath": "biochemistry/topic02/downloads/selftest-ph_h_concentration_ratio.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic02",
+      "topicTitle": "Water and pH"
+    },
+    {
+      "crc": "e294_fea6",
+      "pagePath": "biochemistry/topic03/index.md",
+      "questionFingerprint": "75ed432353cd9606",
+      "questionId": "e294_fea6",
+      "selftestPath": "biochemistry/topic03/downloads/selftest-MATCH-amino_acids_properties.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic03",
+      "topicTitle": "Amino Acids"
+    },
+    {
+      "crc": "e624_aaaf",
+      "pagePath": "biochemistry/topic03/index.md",
+      "questionFingerprint": "3c6fe45f0dddf426",
+      "questionId": "e624_aaaf",
+      "selftestPath": "biochemistry/topic03/downloads/selftest-WOMC-amino_acids_properties.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic03",
+      "topicTitle": "Amino Acids"
+    },
+    {
+      "crc": "0a82_d42d",
+      "pagePath": "biochemistry/topic03/index.md",
+      "questionFingerprint": "72c138c908e26309",
+      "questionId": "0a82_d42d",
+      "selftestPath": "biochemistry/topic03/downloads/selftest-alanine_protonation_states.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic03",
+      "topicTitle": "Amino Acids"
+    },
+    {
+      "crc": "61a8_ac26",
+      "pagePath": "biochemistry/topic03/index.md",
+      "questionFingerprint": "133b620adf0a1cb4",
+      "questionId": "61a8_ac26",
+      "selftestPath": "biochemistry/topic03/downloads/selftest-alpha_amino_acid_identification.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic03",
+      "topicTitle": "Amino Acids"
+    },
+    {
+      "crc": "82c2_8065",
+      "pagePath": "biochemistry/topic03/index.md",
+      "questionFingerprint": "52ac49417741c99c",
+      "questionId": "82c2_8065",
+      "selftestPath": "biochemistry/topic03/downloads/selftest-histidine_protonation_states.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic03",
+      "topicTitle": "Amino Acids"
+    },
+    {
+      "crc": "a32e_0da9",
+      "pagePath": "biochemistry/topic03/index.md",
+      "questionFingerprint": "19560552c178caed",
+      "questionId": "a32e_0da9",
+      "selftestPath": "biochemistry/topic03/downloads/selftest-ionic_bond_amino_acids.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic03",
+      "topicTitle": "Amino Acids"
+    },
+    {
+      "crc": "948b_30f7",
+      "pagePath": "biochemistry/topic03/index.md",
+      "questionFingerprint": "f6906ef857d72cca",
+      "questionId": "948b_30f7",
+      "selftestPath": "biochemistry/topic03/downloads/selftest-match_amino_acid_structures-4_choices.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic03",
+      "topicTitle": "Amino Acids"
+    },
+    {
+      "crc": "fea1_4739",
+      "pagePath": "biochemistry/topic03/index.md",
+      "questionFingerprint": "833e8a79d117bd0f",
+      "questionId": "fea1_4739",
+      "selftestPath": "biochemistry/topic03/downloads/selftest-polypeptide_fib_sequence-FIB-2aa.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic03",
+      "topicTitle": "Amino Acids"
+    },
+    {
+      "crc": "1fe6_2d93",
+      "pagePath": "biochemistry/topic03/index.md",
+      "questionFingerprint": "28acc0211f497a86",
+      "questionId": "1fe6_2d93",
+      "selftestPath": "biochemistry/topic03/downloads/selftest-polypeptide_mc_sequence-2_amino_acids.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic03",
+      "topicTitle": "Amino Acids"
+    },
+    {
+      "crc": "4066_782c",
+      "pagePath": "biochemistry/topic03/index.md",
+      "questionFingerprint": "89854fd8eb8b1652",
+      "questionId": "4066_782c",
+      "selftestPath": "biochemistry/topic03/downloads/selftest-polypeptide_mc_sequence-3_amino_acids.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic03",
+      "topicTitle": "Amino Acids"
+    },
+    {
+      "crc": "a959_4db0",
+      "pagePath": "biochemistry/topic03/index.md",
+      "questionFingerprint": "36c10adfc6c6e2dd",
+      "questionId": "a959_4db0",
+      "selftestPath": "biochemistry/topic03/downloads/selftest-polypeptide_mc_sequence-4_amino_acids.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic03",
+      "topicTitle": "Amino Acids"
+    },
+    {
+      "crc": "2db8_5cbc",
+      "pagePath": "biochemistry/topic03/index.md",
+      "questionFingerprint": "b0bef489d946b309",
+      "questionId": "2db8_5cbc",
+      "selftestPath": "biochemistry/topic03/downloads/selftest-which_amino_acid-FIB.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic03",
+      "topicTitle": "Amino Acids"
+    },
+    {
+      "crc": "6c3d_fac3",
+      "pagePath": "biochemistry/topic03/index.md",
+      "questionFingerprint": "986e880622fcc8be",
+      "questionId": "6c3d_fac3",
+      "selftestPath": "biochemistry/topic03/downloads/selftest-which_amino_acid-MC-7_choices.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic03",
+      "topicTitle": "Amino Acids"
+    },
+    {
+      "crc": "a88d_b4d8",
+      "pagePath": "biochemistry/topic04/index.md",
+      "questionFingerprint": "49e8eda8e6cb368d",
+      "questionId": "a88d_b4d8",
+      "selftestPath": "biochemistry/topic04/downloads/selftest-MATCH-levels_of_protein_structure.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic04",
+      "topicTitle": "Protein Structure"
+    },
+    {
+      "crc": "57fc_6c7d",
+      "pagePath": "biochemistry/topic04/index.md",
+      "questionFingerprint": "fa5bbec47882e586",
+      "questionId": "57fc_6c7d",
+      "selftestPath": "biochemistry/topic04/downloads/selftest-WOMC-levels_of_protein_structure.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic04",
+      "topicTitle": "Protein Structure"
+    },
+    {
+      "crc": "3586_f475",
+      "pagePath": "biochemistry/topic04/index.md",
+      "questionFingerprint": "3620a67ff83cf9d8",
+      "questionId": "3586_f475",
+      "selftestPath": "biochemistry/topic04/downloads/selftest-alpha_helix_h-bonds-MA.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic04",
+      "topicTitle": "Protein Structure"
+    },
+    {
+      "crc": "5a46_394f",
+      "pagePath": "biochemistry/topic04/index.md",
+      "questionFingerprint": "448076640b100dee",
+      "questionId": "5a46_394f",
+      "selftestPath": "biochemistry/topic04/downloads/selftest-alpha_helix_h-bonds-MC.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic04",
+      "topicTitle": "Protein Structure"
+    },
+    {
+      "crc": "45a0_c70c",
+      "pagePath": "biochemistry/topic05/index.md",
+      "questionFingerprint": "fabc1f65d7b6004a",
+      "questionId": "45a0_c70c",
+      "selftestPath": "biochemistry/topic05/downloads/selftest-MATCH-cell_disruption.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic05",
+      "topicTitle": "Protein Purification"
+    },
+    {
+      "crc": "fa7a_63ed",
+      "pagePath": "biochemistry/topic05/index.md",
+      "questionFingerprint": "dd9a3d7b02dbec67",
+      "questionId": "fa7a_63ed",
+      "selftestPath": "biochemistry/topic05/downloads/selftest-MATCH-column_chromatography.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic05",
+      "topicTitle": "Protein Purification"
+    },
+    {
+      "crc": "2166_5ade",
+      "pagePath": "biochemistry/topic05/index.md",
+      "questionFingerprint": "7847ad0b08ddf692",
+      "questionId": "2166_5ade",
+      "selftestPath": "biochemistry/topic05/downloads/selftest-MATCH-protein_v_dna_gels.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic05",
+      "topicTitle": "Protein Purification"
+    },
+    {
+      "crc": "c4ac_0dd9",
+      "pagePath": "biochemistry/topic05/index.md",
+      "questionFingerprint": "8c99083c9f059114",
+      "questionId": "c4ac_0dd9",
+      "selftestPath": "biochemistry/topic05/downloads/selftest-WOMC-cell_disruption.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic05",
+      "topicTitle": "Protein Purification"
+    },
+    {
+      "crc": "6051_9b19",
+      "pagePath": "biochemistry/topic05/index.md",
+      "questionFingerprint": "3f0b528c1b03d3f7",
+      "questionId": "6051_9b19",
+      "selftestPath": "biochemistry/topic05/downloads/selftest-WOMC-column_chromatography.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic05",
+      "topicTitle": "Protein Purification"
+    },
+    {
+      "crc": "d943_0eef",
+      "pagePath": "biochemistry/topic05/index.md",
+      "questionFingerprint": "23afd49318c37926",
+      "questionId": "d943_0eef",
+      "selftestPath": "biochemistry/topic05/downloads/selftest-WOMC-protein_v_dna_gels.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic05",
+      "topicTitle": "Protein Purification"
+    },
+    {
+      "crc": "8eab_36d4",
+      "pagePath": "biochemistry/topic05/index.md",
+      "questionFingerprint": "330680ab7cdfb395",
+      "questionId": "8eab_36d4",
+      "selftestPath": "biochemistry/topic05/downloads/selftest-isoelectric_one_protein.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic05",
+      "topicTitle": "Protein Purification"
+    },
+    {
+      "crc": "f1a3_3781",
+      "pagePath": "biochemistry/topic05/index.md",
+      "questionFingerprint": "9e3b351aab0085b5",
+      "questionId": "f1a3_3781",
+      "selftestPath": "biochemistry/topic05/downloads/selftest-isoelectric_two_proteins.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic05",
+      "topicTitle": "Protein Purification"
+    },
+    {
+      "crc": "8360_c126",
+      "pagePath": "biochemistry/topic05/index.md",
+      "questionFingerprint": "34e8cda934bd958d",
+      "questionId": "8360_c126",
+      "selftestPath": "biochemistry/topic05/downloads/selftest-kaleidoscope_ladder_unknown_band.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic05",
+      "topicTitle": "Protein Purification"
+    },
+    {
+      "crc": "018c_3301",
+      "pagePath": "biochemistry/topic05/index.md",
+      "questionFingerprint": "87e5597a80810cd1",
+      "questionId": "018c_3301",
+      "selftestPath": "biochemistry/topic05/downloads/selftest-protein_gel_migration.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic05",
+      "topicTitle": "Protein Purification"
+    },
+    {
+      "crc": "0324_cce6",
+      "pagePath": "biochemistry/topic05/index.md",
+      "questionFingerprint": "f2c798c0d55eb282",
+      "questionId": "0324_cce6",
+      "selftestPath": "biochemistry/topic05/downloads/selftest-titration_pI.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic05",
+      "topicTitle": "Protein Purification"
+    },
+    {
+      "crc": "5416_23a9",
+      "pagePath": "biochemistry/topic06/index.md",
+      "questionFingerprint": "f5e91459905c5196",
+      "questionId": "5416_23a9",
+      "selftestPath": "biochemistry/topic06/downloads/selftest-MATCH-energy_terms.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic06",
+      "topicTitle": "Thermodynamics"
+    },
+    {
+      "crc": "5f8d_02ec",
+      "pagePath": "biochemistry/topic06/index.md",
+      "questionFingerprint": "d9634ec20afde99b",
+      "questionId": "5f8d_02ec",
+      "selftestPath": "biochemistry/topic06/downloads/selftest-TFMS-gibbs_free_energy_equation.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic06",
+      "topicTitle": "Thermodynamics"
+    },
+    {
+      "crc": "215c_6d8d",
+      "pagePath": "biochemistry/topic06/index.md",
+      "questionFingerprint": "4339340eaf1863e3",
+      "questionId": "215c_6d8d",
+      "selftestPath": "biochemistry/topic06/downloads/selftest-TFMS-thermodynamics.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic06",
+      "topicTitle": "Thermodynamics"
+    },
+    {
+      "crc": "245c_d754",
+      "pagePath": "biochemistry/topic06/index.md",
+      "questionFingerprint": "78af68fae8fe4b08",
+      "questionId": "245c_d754",
+      "selftestPath": "biochemistry/topic06/downloads/selftest-WOMC-energy_terms.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic06",
+      "topicTitle": "Thermodynamics"
+    },
+    {
+      "crc": "679f_0c8f",
+      "pagePath": "biochemistry/topic06/index.md",
+      "questionFingerprint": "87b121e060abb338",
+      "questionId": "679f_0c8f",
+      "selftestPath": "biochemistry/topic06/downloads/selftest-delta_g_prime_standard_state.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic06",
+      "topicTitle": "Thermodynamics"
+    },
+    {
+      "crc": "a090_f723",
+      "pagePath": "biochemistry/topic06/index.md",
+      "questionFingerprint": "a1dcd867513c9043",
+      "questionId": "a090_f723",
+      "selftestPath": "biochemistry/topic06/downloads/selftest-exergonic_endergonic_reactions.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic06",
+      "topicTitle": "Thermodynamics"
+    },
+    {
+      "crc": "1661_5261",
+      "pagePath": "biochemistry/topic06/index.md",
+      "questionFingerprint": "f2687eaa829633fd",
+      "questionId": "1661_5261",
+      "selftestPath": "biochemistry/topic06/downloads/selftest-free_energy_keq_relationship.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic06",
+      "topicTitle": "Thermodynamics"
+    },
+    {
+      "crc": "c08b_e922",
+      "pagePath": "biochemistry/topic06/index.md",
+      "questionFingerprint": "2f51dd614e6f188c",
+      "questionId": "c08b_e922",
+      "selftestPath": "biochemistry/topic06/downloads/selftest-gibbs_free_energy_equation_symbols.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic06",
+      "topicTitle": "Thermodynamics"
+    },
+    {
+      "crc": "c44c_1dd6",
+      "pagePath": "biochemistry/topic06/index.md",
+      "questionFingerprint": "22e9dec152cca217",
+      "questionId": "c44c_1dd6",
+      "selftestPath": "biochemistry/topic06/downloads/selftest-thermodynamics_law_statements.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic06",
+      "topicTitle": "Thermodynamics"
+    },
+    {
+      "crc": "c8ee_c50e",
+      "pagePath": "biochemistry/topic06/index.md",
+      "questionFingerprint": "030f018e25f4fe0d",
+      "questionId": "c8ee_c50e",
+      "selftestPath": "biochemistry/topic06/downloads/selftest-thermodynamics_system_laws.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic06",
+      "topicTitle": "Thermodynamics"
+    },
+    {
+      "crc": "6ecd_b7a2",
+      "pagePath": "biochemistry/topic07/index.md",
+      "questionFingerprint": "f62564518aedaf90",
+      "questionId": "6ecd_b7a2",
+      "selftestPath": "biochemistry/topic07/downloads/selftest-michaelis_menten_table-Km.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic07",
+      "topicTitle": "Enzyme Kinetics"
+    },
+    {
+      "crc": "e858_89c0",
+      "pagePath": "biochemistry/topic07/index.md",
+      "questionFingerprint": "6feab717735c3c3a",
+      "questionId": "e858_89c0",
+      "selftestPath": "biochemistry/topic07/downloads/selftest-optimal_enzyme-type_1.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic07",
+      "topicTitle": "Enzyme Kinetics"
+    },
+    {
+      "crc": "b176_9494",
+      "pagePath": "biochemistry/topic07/index.md",
+      "questionFingerprint": "5abad39745ad8f80",
+      "questionId": "b176_9494",
+      "selftestPath": "biochemistry/topic07/downloads/selftest-optimal_enzyme-type_2.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic07",
+      "topicTitle": "Enzyme Kinetics"
+    },
+    {
+      "crc": "8407_1725",
+      "pagePath": "biochemistry/topic07/index.md",
+      "questionFingerprint": "037eeb968182d68c",
+      "questionId": "8407_1725",
+      "selftestPath": "biochemistry/topic07/downloads/selftest-optimal_enzyme-type_3.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic07",
+      "topicTitle": "Enzyme Kinetics"
+    },
+    {
+      "crc": "9cf3_dfbe",
+      "pagePath": "biochemistry/topic08/index.md",
+      "questionFingerprint": "251f0c552589bb80",
+      "questionId": "9cf3_dfbe",
+      "selftestPath": "biochemistry/topic08/downloads/selftest-chymotrypsin_substrate.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic08",
+      "topicTitle": "Enzyme Inhibition"
+    },
+    {
+      "crc": "11c2_b9d0",
+      "pagePath": "biochemistry/topic08/index.md",
+      "questionFingerprint": "87472f027d00d17e",
+      "questionId": "11c2_b9d0",
+      "selftestPath": "biochemistry/topic08/downloads/selftest-metabolic_pathway_inhibitor-BCHM355.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic08",
+      "topicTitle": "Enzyme Inhibition"
+    },
+    {
+      "crc": "8136_b7de",
+      "pagePath": "biochemistry/topic08/index.md",
+      "questionFingerprint": "d2b55524ad6cd6c5",
+      "questionId": "8136_b7de",
+      "selftestPath": "biochemistry/topic08/downloads/selftest-michaelis_menten_table-inhibition.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic08",
+      "topicTitle": "Enzyme Inhibition"
+    },
+    {
+      "crc": "37b7_14c6",
+      "pagePath": "biochemistry/topic09/index.md",
+      "questionFingerprint": "9a077c39aff9f946",
+      "questionId": "37b7_14c6",
+      "selftestPath": "biochemistry/topic09/downloads/selftest-allosteric_enzyme_models.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic09",
+      "topicTitle": "Enzyme Allostery"
+    },
+    {
+      "crc": "79fe_4276",
+      "pagePath": "biochemistry/topic09/index.md",
+      "questionFingerprint": "f9b29377ad14cffc",
+      "questionId": "79fe_4276",
+      "selftestPath": "biochemistry/topic09/downloads/selftest-feedback_merging_pathway.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic09",
+      "topicTitle": "Enzyme Allostery"
+    },
+    {
+      "crc": "dff7_4d7c",
+      "pagePath": "biochemistry/topic09/index.md",
+      "questionFingerprint": "f75b0a2163164f8d",
+      "questionId": "dff7_4d7c",
+      "selftestPath": "biochemistry/topic09/downloads/selftest-feedback_splitting_pathway.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic09",
+      "topicTitle": "Enzyme Allostery"
+    },
+    {
+      "crc": "2177_2abd",
+      "pagePath": "biochemistry/topic09/index.md",
+      "questionFingerprint": "4f494c78c11ebaf4",
+      "questionId": "2177_2abd",
+      "selftestPath": "biochemistry/topic09/downloads/selftest-hemoglobin_oxygen_affinity.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic09",
+      "topicTitle": "Enzyme Allostery"
+    },
+    {
+      "crc": "be7e_92a0",
+      "pagePath": "biochemistry/topic09/index.md",
+      "questionFingerprint": "e6501d51580e8477",
+      "questionId": "be7e_92a0",
+      "selftestPath": "biochemistry/topic09/downloads/selftest-metabolic_pathway_allosteric.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic09",
+      "topicTitle": "Enzyme Allostery"
+    },
+    {
+      "crc": "c588_5c1b",
+      "pagePath": "biochemistry/topic10/index.md",
+      "questionFingerprint": "b67fe7a28239ec20",
+      "questionId": "c588_5c1b",
+      "selftestPath": "biochemistry/topic10/downloads/selftest-D_to_L_Fischer_configuration-MC-with_hint-5_choices.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic10",
+      "topicTitle": "Carbohydrates"
+    },
+    {
+      "crc": "8c2c_cc25",
+      "pagePath": "biochemistry/topic10/index.md",
+      "questionFingerprint": "c1240a92a2508b8e",
+      "questionId": "8c2c_cc25",
+      "selftestPath": "biochemistry/topic10/downloads/selftest-D_to_L_Haworth_configuration-MC-with_hint-5_choices.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic10",
+      "topicTitle": "Carbohydrates"
+    },
+    {
+      "crc": "6ed2_d72d",
+      "pagePath": "biochemistry/topic10/index.md",
+      "questionFingerprint": "c33709fe18dc8f62",
+      "questionId": "6ed2_d72d",
+      "selftestPath": "biochemistry/topic10/downloads/selftest-classify_Fischer-MA-with_hint.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic10",
+      "topicTitle": "Carbohydrates"
+    },
+    {
+      "crc": "1368_fc0c",
+      "pagePath": "biochemistry/topic10/index.md",
+      "questionFingerprint": "397daa229ed8b12e",
+      "questionId": "1368_fc0c",
+      "selftestPath": "biochemistry/topic10/downloads/selftest-classify_Haworth-MA-with_hint-FURAN.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic10",
+      "topicTitle": "Carbohydrates"
+    },
+    {
+      "crc": "708f_fc0c",
+      "pagePath": "biochemistry/topic10/index.md",
+      "questionFingerprint": "a3a3ea78137c03cb",
+      "questionId": "708f_fc0c",
+      "selftestPath": "biochemistry/topic10/downloads/selftest-classify_Haworth-MA-with_hint-PYRAN.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic10",
+      "topicTitle": "Carbohydrates"
+    },
+    {
+      "crc": "f5aa_3ff8",
+      "pagePath": "biochemistry/topic10/index.md",
+      "questionFingerprint": "fb7e08254130ebfe",
+      "questionId": "f5aa_3ff8",
+      "selftestPath": "biochemistry/topic10/downloads/selftest-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic10",
+      "topicTitle": "Carbohydrates"
+    },
+    {
+      "crc": "9f06_cb11",
+      "pagePath": "biochemistry/topic10/index.md",
+      "questionFingerprint": "d77c86f149a6e4e7",
+      "questionId": "9f06_cb11",
+      "selftestPath": "biochemistry/topic10/downloads/selftest-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic10",
+      "topicTitle": "Carbohydrates"
+    },
+    {
+      "crc": "f9f2_8e90",
+      "pagePath": "biochemistry/topic10/index.md",
+      "questionFingerprint": "f6b7ade35def6668",
+      "questionId": "f9f2_8e90",
+      "selftestPath": "biochemistry/topic10/downloads/selftest-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic10",
+      "topicTitle": "Carbohydrates"
+    },
+    {
+      "crc": "a369_c977",
+      "pagePath": "biochemistry/topic10/index.md",
+      "questionFingerprint": "7025c1bbcfcc0cb4",
+      "questionId": "a369_c977",
+      "selftestPath": "biochemistry/topic10/downloads/selftest-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic10",
+      "topicTitle": "Carbohydrates"
+    },
+    {
+      "crc": "ab20_ba0d",
+      "pagePath": "biochemistry/topic12/index.md",
+      "questionFingerprint": "8c1c028468e58279",
+      "questionId": "ab20_ba0d",
+      "selftestPath": "biochemistry/topic12/downloads/selftest-fatty_acid_naming.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic12",
+      "topicTitle": "Lipids"
+    },
+    {
+      "crc": "baaa_8274",
+      "pagePath": "biochemistry/topic12/index.md",
+      "questionFingerprint": "5941e75160a8e3d9",
+      "questionId": "baaa_8274",
+      "selftestPath": "biochemistry/topic12/downloads/selftest-quick_fatty_acid_colon_system.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic12",
+      "topicTitle": "Lipids"
+    },
+    {
+      "crc": "d3f2_da1f",
+      "pagePath": "biochemistry/topic12/index.md",
+      "questionFingerprint": "0d19c72fbf6cfa17",
+      "questionId": "d3f2_da1f",
+      "selftestPath": "biochemistry/topic12/downloads/selftest-which_lipid-chemical_formula.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic12",
+      "topicTitle": "Lipids"
+    },
+    {
+      "crc": "c369_b5ef",
+      "pagePath": "biochemistry/topic16/index.md",
+      "questionFingerprint": "5a71a866434e09b4",
+      "questionId": "c369_b5ef",
+      "selftestPath": "biochemistry/topic16/downloads/selftest-order_glycolysis_molecules-ORD-4_choices.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic16",
+      "topicTitle": "Sugar Metabolism"
+    },
+    {
+      "crc": "1959_ae96",
+      "pagePath": "biochemistry/topic20/index.md",
+      "questionFingerprint": "9a1be1feaf1b3fda",
+      "questionId": "1959_ae96",
+      "selftestPath": "biochemistry/topic20/downloads/selftest-photosynthetic_light_pigments.html",
+      "subjectKey": "biochemistry",
+      "topicKey": "topic20",
+      "topicTitle": "Photosynthesis"
+    },
+    {
+      "crc": "76c8_694b",
+      "pagePath": "biostatistics/topic05/index.md",
+      "questionFingerprint": "35b1e685868258fb",
+      "questionId": "76c8_694b",
+      "selftestPath": "biostatistics/topic05/downloads/selftest-babies_two_sample_t_test-tails1.html",
+      "subjectKey": "biostatistics",
+      "topicKey": "topic05",
+      "topicTitle": "Hypothesis Testing"
+    },
+    {
+      "crc": "16c2_0fb7",
+      "pagePath": "biostatistics/topic05/index.md",
+      "questionFingerprint": "ce9b84aebbefb513",
+      "questionId": "16c2_0fb7",
+      "selftestPath": "biostatistics/topic05/downloads/selftest-busse_woods_anova-anova-5year.html",
+      "subjectKey": "biostatistics",
+      "topicKey": "topic05",
+      "topicTitle": "Hypothesis Testing"
+    },
+    {
+      "crc": "219f_dcfe",
+      "pagePath": "biostatistics/topic05/index.md",
+      "questionFingerprint": "f7676bd7073d505c",
+      "questionId": "219f_dcfe",
+      "selftestPath": "biostatistics/topic05/downloads/selftest-busse_woods_two_sample_f_test-tails1.html",
+      "subjectKey": "biostatistics",
+      "topicKey": "topic05",
+      "topicTitle": "Hypothesis Testing"
+    },
+    {
+      "crc": "ab91_9997",
+      "pagePath": "biostatistics/topic05/index.md",
+      "questionFingerprint": "d6518c018365cfd2",
+      "questionId": "ab91_9997",
+      "selftestPath": "biostatistics/topic05/downloads/selftest-busse_woods_two_sample_t_test-tails1.html",
+      "subjectKey": "biostatistics",
+      "topicKey": "topic05",
+      "topicTitle": "Hypothesis Testing"
+    },
+    {
+      "crc": "11ca_0194",
+      "pagePath": "biostatistics/topic05/index.md",
+      "questionFingerprint": "7933ce31bca75464",
+      "questionId": "11ca_0194",
+      "selftestPath": "biostatistics/topic05/downloads/selftest-chi_square_calculated-ACCEPT.html",
+      "subjectKey": "biostatistics",
+      "topicKey": "topic05",
+      "topicTitle": "Hypothesis Testing"
+    },
+    {
+      "crc": "c06f_a922",
+      "pagePath": "biostatistics/topic05/index.md",
+      "questionFingerprint": "de737f5ada84ed5d",
+      "questionId": "c06f_a922",
+      "selftestPath": "biostatistics/topic05/downloads/selftest-chi_square_choices.html",
+      "subjectKey": "biostatistics",
+      "topicKey": "topic05",
+      "topicTitle": "Hypothesis Testing"
+    },
+    {
+      "crc": "d8bb_d665",
+      "pagePath": "biostatistics/topic05/index.md",
+      "questionFingerprint": "5f571e1038dfc719",
+      "questionId": "d8bb_d665",
+      "selftestPath": "biostatistics/topic05/downloads/selftest-hypothesis_lab_partner-hypotheses_partner.html",
+      "subjectKey": "biostatistics",
+      "topicKey": "topic05",
+      "topicTitle": "Hypothesis Testing"
+    },
+    {
+      "crc": "07ee_9ca3",
+      "pagePath": "biostatistics/topic05/index.md",
+      "questionFingerprint": "b068557e2e76f807",
+      "questionId": "07ee_9ca3",
+      "selftestPath": "biostatistics/topic05/downloads/selftest-population_test_google_sheet-ztest.html",
+      "subjectKey": "biostatistics",
+      "topicKey": "topic05",
+      "topicTitle": "Hypothesis Testing"
+    },
+    {
+      "crc": "9b69_474d",
+      "pagePath": "biostatistics/topic06/index.md",
+      "questionFingerprint": "b6b591bd309c87e8",
+      "questionId": "9b69_474d",
+      "selftestPath": "biostatistics/topic06/downloads/selftest-z_score_table_interp.html",
+      "subjectKey": "biostatistics",
+      "topicKey": "topic06",
+      "topicTitle": "Grouping with Z-Scores"
+    },
+    {
+      "crc": "402a_fe25",
+      "pagePath": "biostatistics/topic08/index.md",
+      "questionFingerprint": "9f77fe9e4d97510c",
+      "questionId": "402a_fe25",
+      "selftestPath": "biostatistics/topic08/downloads/selftest-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices.html",
+      "subjectKey": "biostatistics",
+      "topicKey": "topic08",
+      "topicTitle": "Graph Interpretation"
+    },
+    {
+      "crc": "5f25_3fbf",
+      "pagePath": "biostatistics/topic08/index.md",
+      "questionFingerprint": "14c344c15900464e",
+      "questionId": "5f25_3fbf",
+      "selftestPath": "biostatistics/topic08/downloads/selftest-boxplot_from_summary-MC-boxplot_from_summary-5_choices.html",
+      "subjectKey": "biostatistics",
+      "topicKey": "topic08",
+      "topicTitle": "Graph Interpretation"
+    },
+    {
+      "crc": "2dbd_f2d1",
+      "pagePath": "biostatistics/topic08/index.md",
+      "questionFingerprint": "ef22eaeb26e34fcc",
+      "questionId": "2dbd_f2d1",
+      "selftestPath": "biostatistics/topic08/downloads/selftest-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices.html",
+      "subjectKey": "biostatistics",
+      "topicKey": "topic08",
+      "topicTitle": "Graph Interpretation"
+    },
+    {
+      "crc": "9fb0_0eb5",
+      "pagePath": "genetics/topic01/index.md",
+      "questionFingerprint": "9a7e0c8eee77ed90",
+      "questionId": "9fb0_0eb5",
+      "selftestPath": "genetics/topic01/downloads/selftest-MATCH-genetic_disorders.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic01",
+      "topicTitle": "Genetic Disorders"
+    },
+    {
+      "crc": "f54f_dc7d",
+      "pagePath": "genetics/topic01/index.md",
+      "questionFingerprint": "faad60262ce0bc10",
+      "questionId": "f54f_dc7d",
+      "selftestPath": "genetics/topic01/downloads/selftest-MATCH-genetics_terminology.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic01",
+      "topicTitle": "Genetic Disorders"
+    },
+    {
+      "crc": "6ae4_cdc5",
+      "pagePath": "genetics/topic01/index.md",
+      "questionFingerprint": "20d8dca569f3a0a8",
+      "questionId": "6ae4_cdc5",
+      "selftestPath": "genetics/topic01/downloads/selftest-MC-genetic_disorders.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic01",
+      "topicTitle": "Genetic Disorders"
+    },
+    {
+      "crc": "e2f6_ea6f",
+      "pagePath": "genetics/topic01/index.md",
+      "questionFingerprint": "c1079c0cce8008c4",
+      "questionId": "e2f6_ea6f",
+      "selftestPath": "genetics/topic01/downloads/selftest-MC-genetics_terminology.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic01",
+      "topicTitle": "Genetic Disorders"
+    },
+    {
+      "crc": "0de8_e6b7",
+      "pagePath": "genetics/topic01/index.md",
+      "questionFingerprint": "4185ea107c123a21",
+      "questionId": "0de8_e6b7",
+      "selftestPath": "genetics/topic01/downloads/selftest-beadle_tatum-metabolic_pathway-4_metabolites.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic01",
+      "topicTitle": "Genetic Disorders"
+    },
+    {
+      "crc": "f9fb_ad63",
+      "pagePath": "genetics/topic01/index.md",
+      "questionFingerprint": "42bf27817ea80c19",
+      "questionId": "f9fb_ad63",
+      "selftestPath": "genetics/topic01/downloads/selftest-beadle_tatum-metabolic_pathway-6_metabolites.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic01",
+      "topicTitle": "Genetic Disorders"
+    },
+    {
+      "crc": "0015_0ffc",
+      "pagePath": "genetics/topic02/index.md",
+      "questionFingerprint": "4bbead6a5378a78a",
+      "questionId": "0015_0ffc",
+      "selftestPath": "genetics/topic02/downloads/selftest-TFMS-dna_structure-biol_351.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic02",
+      "topicTitle": "DNA Structure"
+    },
+    {
+      "crc": "e677_2e28",
+      "pagePath": "genetics/topic02/index.md",
+      "questionFingerprint": "a905404ae9dc4f8a",
+      "questionId": "e677_2e28",
+      "selftestPath": "genetics/topic02/downloads/selftest-TFMS-nucleotide_components.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic02",
+      "topicTitle": "DNA Structure"
+    },
+    {
+      "crc": "0a7a_1f2d",
+      "pagePath": "genetics/topic02/index.md",
+      "questionFingerprint": "3b5e27f36f6fd3fa",
+      "questionId": "0a7a_1f2d",
+      "selftestPath": "genetics/topic02/downloads/selftest-chargaff_dna_percent-5_choices.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic02",
+      "topicTitle": "DNA Structure"
+    },
+    {
+      "crc": "6e24_1a5d",
+      "pagePath": "genetics/topic02/index.md",
+      "questionFingerprint": "53e30a451b20bd30",
+      "questionId": "6e24_1a5d",
+      "selftestPath": "genetics/topic02/downloads/selftest-complementary_sequences-mc-directionless.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic02",
+      "topicTitle": "DNA Structure"
+    },
+    {
+      "crc": "c2e5_bb66",
+      "pagePath": "genetics/topic02/index.md",
+      "questionFingerprint": "78a2cc70a886b425",
+      "questionId": "c2e5_bb66",
+      "selftestPath": "genetics/topic02/downloads/selftest-complementary_sequences-mc-prime.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic02",
+      "topicTitle": "DNA Structure"
+    },
+    {
+      "crc": "8e8b_4936",
+      "pagePath": "genetics/topic03/index.md",
+      "questionFingerprint": "ec74ff0dc2dde0d7",
+      "questionId": "8e8b_4936",
+      "selftestPath": "genetics/topic03/downloads/selftest-TFMS-english_palindromes.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic03",
+      "topicTitle": "DNA Profiling"
+    },
+    {
+      "crc": "bbb2_05cb",
+      "pagePath": "genetics/topic03/index.md",
+      "questionFingerprint": "45b3d1e934ef8cf0",
+      "questionId": "bbb2_05cb",
+      "selftestPath": "genetics/topic03/downloads/selftest-blood_type_agglutination_test.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic03",
+      "topicTitle": "DNA Profiling"
+    },
+    {
+      "crc": "253e_86b2",
+      "pagePath": "genetics/topic03/index.md",
+      "questionFingerprint": "93dcdb2787ec5056",
+      "questionId": "253e_86b2",
+      "selftestPath": "genetics/topic03/downloads/selftest-hla_genotype-2_markers-black.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic03",
+      "topicTitle": "DNA Profiling"
+    },
+    {
+      "crc": "1791_d857",
+      "pagePath": "genetics/topic03/index.md",
+      "questionFingerprint": "13c91817365a5a1b",
+      "questionId": "1791_d857",
+      "selftestPath": "genetics/topic03/downloads/selftest-hla_genotype-2_markers-color.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic03",
+      "topicTitle": "DNA Profiling"
+    },
+    {
+      "crc": "b3bd_df91",
+      "pagePath": "genetics/topic03/index.md",
+      "questionFingerprint": "022dc000a82de7d3",
+      "questionId": "b3bd_df91",
+      "selftestPath": "genetics/topic03/downloads/selftest-hla_genotype-3_markers-color.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic03",
+      "topicTitle": "DNA Profiling"
+    },
+    {
+      "crc": "1aae_197e",
+      "pagePath": "genetics/topic03/index.md",
+      "questionFingerprint": "7cc749279cdfb6b2",
+      "questionId": "1aae_197e",
+      "selftestPath": "genetics/topic03/downloads/selftest-linear_digest-length_10-sites_3-strand.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic03",
+      "topicTitle": "DNA Profiling"
+    },
+    {
+      "crc": "e7f5_3469",
+      "pagePath": "genetics/topic03/index.md",
+      "questionFingerprint": "2750da0d06dead2d",
+      "questionId": "e7f5_3469",
+      "selftestPath": "genetics/topic03/downloads/selftest-linear_digest-length_13-sites_3-fragment.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic03",
+      "topicTitle": "DNA Profiling"
+    },
+    {
+      "crc": "0b3a_197e",
+      "pagePath": "genetics/topic03/index.md",
+      "questionFingerprint": "1fada4d637a96c41",
+      "questionId": "0b3a_197e",
+      "selftestPath": "genetics/topic03/downloads/selftest-linear_digest-length_16-sites_4-strand.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic03",
+      "topicTitle": "DNA Profiling"
+    },
+    {
+      "crc": "a27e_a15f",
+      "pagePath": "genetics/topic03/index.md",
+      "questionFingerprint": "43e72b9cbc116863",
+      "questionId": "a27e_a15f",
+      "selftestPath": "genetics/topic03/downloads/selftest-linear_digest-length_8-sites_2-fragment.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic03",
+      "topicTitle": "DNA Profiling"
+    },
+    {
+      "crc": "68d4_50b2",
+      "pagePath": "genetics/topic03/index.md",
+      "questionFingerprint": "e978b365b6888d9a",
+      "questionId": "68d4_50b2",
+      "selftestPath": "genetics/topic03/downloads/selftest-overhang_sequence-MC-6_choices.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic03",
+      "topicTitle": "DNA Profiling"
+    },
+    {
+      "crc": "7950_0b96",
+      "pagePath": "genetics/topic03/index.md",
+      "questionFingerprint": "37fc23ec8cafd12e",
+      "questionId": "7950_0b96",
+      "selftestPath": "genetics/topic03/downloads/selftest-overhang_type-end_type.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic03",
+      "topicTitle": "DNA Profiling"
+    },
+    {
+      "crc": "7940_eeb9",
+      "pagePath": "genetics/topic03/index.md",
+      "questionFingerprint": "38c963c293d9a946",
+      "questionId": "7940_eeb9",
+      "selftestPath": "genetics/topic03/downloads/selftest-overhang_type-overhang_type.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic03",
+      "topicTitle": "DNA Profiling"
+    },
+    {
+      "crc": "ce8e_c172",
+      "pagePath": "genetics/topic03/index.md",
+      "questionFingerprint": "18241a972c436286",
+      "questionId": "ce8e_c172",
+      "selftestPath": "genetics/topic03/downloads/selftest-palindrome_sequence_match.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic03",
+      "topicTitle": "DNA Profiling"
+    },
+    {
+      "crc": "6585_1dc1",
+      "pagePath": "genetics/topic03/index.md",
+      "questionFingerprint": "f928906118186884",
+      "questionId": "6585_1dc1",
+      "selftestPath": "genetics/topic03/downloads/selftest-who_father_html-EASY-3_males.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic03",
+      "topicTitle": "DNA Profiling"
+    },
+    {
+      "crc": "cc44_903e",
+      "pagePath": "genetics/topic03/index.md",
+      "questionFingerprint": "733b852fa2312364",
+      "questionId": "cc44_903e",
+      "selftestPath": "genetics/topic03/downloads/selftest-who_father_html-HARD-9_males.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic03",
+      "topicTitle": "DNA Profiling"
+    },
+    {
+      "crc": "fdb6_69fa",
+      "pagePath": "genetics/topic03/index.md",
+      "questionFingerprint": "80a3ec6fd23058ce",
+      "questionId": "fdb6_69fa",
+      "selftestPath": "genetics/topic03/downloads/selftest-who_father_html-MEDIUM-5_males.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic03",
+      "topicTitle": "DNA Profiling"
+    },
+    {
+      "crc": "360f_7928",
+      "pagePath": "genetics/topic03/index.md",
+      "questionFingerprint": "ed9ebee08df2de28",
+      "questionId": "360f_7928",
+      "selftestPath": "genetics/topic03/downloads/selftest-who_killer_html-EASY-4_suspects.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic03",
+      "topicTitle": "DNA Profiling"
+    },
+    {
+      "crc": "b0d7_e6d4",
+      "pagePath": "genetics/topic03/index.md",
+      "questionFingerprint": "d0db38df1d7404fb",
+      "questionId": "b0d7_e6d4",
+      "selftestPath": "genetics/topic03/downloads/selftest-who_killer_html-HARD-9_suspects.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic03",
+      "topicTitle": "DNA Profiling"
+    },
+    {
+      "crc": "a460_baf7",
+      "pagePath": "genetics/topic03/index.md",
+      "questionFingerprint": "9df114e944895072",
+      "questionId": "a460_baf7",
+      "selftestPath": "genetics/topic03/downloads/selftest-who_killer_html-MEDIUM-5_suspects.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic03",
+      "topicTitle": "DNA Profiling"
+    },
+    {
+      "crc": "25e1_73d6",
+      "pagePath": "genetics/topic04/index.md",
+      "questionFingerprint": "8abb6863477edb86",
+      "questionId": "25e1_73d6",
+      "selftestPath": "genetics/topic04/downloads/selftest-MATCH-mendel_cross_terminology.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic04",
+      "topicTitle": "Mendelian Genetics"
+    },
+    {
+      "crc": "1a2b_9728",
+      "pagePath": "genetics/topic04/index.md",
+      "questionFingerprint": "db2723691238da71",
+      "questionId": "1a2b_9728",
+      "selftestPath": "genetics/topic04/downloads/selftest-MATCH-mendel_four_principles.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic04",
+      "topicTitle": "Mendelian Genetics"
+    },
+    {
+      "crc": "c07b_0881",
+      "pagePath": "genetics/topic04/index.md",
+      "questionFingerprint": "f34087ad49274c63",
+      "questionId": "c07b_0881",
+      "selftestPath": "genetics/topic04/downloads/selftest-MATCH-mendelian_genetics_terms.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic04",
+      "topicTitle": "Mendelian Genetics"
+    },
+    {
+      "crc": "62d1_2ca8",
+      "pagePath": "genetics/topic04/index.md",
+      "questionFingerprint": "56bfc80a3329058b",
+      "questionId": "62d1_2ca8",
+      "selftestPath": "genetics/topic04/downloads/selftest-MATCH-monohybrid_cross_genotype.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic04",
+      "topicTitle": "Mendelian Genetics"
+    },
+    {
+      "crc": "d9e6_efe7",
+      "pagePath": "genetics/topic04/index.md",
+      "questionFingerprint": "488839b3088d9138",
+      "questionId": "d9e6_efe7",
+      "selftestPath": "genetics/topic04/downloads/selftest-MC-mendel_cross_terminology.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic04",
+      "topicTitle": "Mendelian Genetics"
+    },
+    {
+      "crc": "7820_d067",
+      "pagePath": "genetics/topic04/index.md",
+      "questionFingerprint": "7502536e10659c6a",
+      "questionId": "7820_d067",
+      "selftestPath": "genetics/topic04/downloads/selftest-MC-mendel_four_principles.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic04",
+      "topicTitle": "Mendelian Genetics"
+    },
+    {
+      "crc": "749b_2d4c",
+      "pagePath": "genetics/topic04/index.md",
+      "questionFingerprint": "4691b8cf909eb75f",
+      "questionId": "749b_2d4c",
+      "selftestPath": "genetics/topic04/downloads/selftest-MC-mendelian_genetics_terms.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic04",
+      "topicTitle": "Mendelian Genetics"
+    },
+    {
+      "crc": "8ca3_7fab",
+      "pagePath": "genetics/topic04/index.md",
+      "questionFingerprint": "efe8bc29ff68a039",
+      "questionId": "8ca3_7fab",
+      "selftestPath": "genetics/topic04/downloads/selftest-MC-monohybrid_cross_genotype.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic04",
+      "topicTitle": "Mendelian Genetics"
+    },
+    {
+      "crc": "30fc_faa4",
+      "pagePath": "genetics/topic04/index.md",
+      "questionFingerprint": "cf70cd69ceac92c8",
+      "questionId": "30fc_faa4",
+      "selftestPath": "genetics/topic04/downloads/selftest-monohybrid_degrees_of_dominance.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic04",
+      "topicTitle": "Mendelian Genetics"
+    },
+    {
+      "crc": "d10e_f158",
+      "pagePath": "genetics/topic04/index.md",
+      "questionFingerprint": "4db9ee8d3fca8e95",
+      "questionId": "d10e_f158",
+      "selftestPath": "genetics/topic04/downloads/selftest-monohybrid_genotype_statements.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic04",
+      "topicTitle": "Mendelian Genetics"
+    },
+    {
+      "crc": "8c67_e245",
+      "pagePath": "genetics/topic04/index.md",
+      "questionFingerprint": "da7a9b9f98d3ba5a",
+      "questionId": "8c67_e245",
+      "selftestPath": "genetics/topic04/downloads/selftest-monohybrid_litter_inference.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic04",
+      "topicTitle": "Mendelian Genetics"
+    },
+    {
+      "crc": "e797_b34f",
+      "pagePath": "genetics/topic04/index.md",
+      "questionFingerprint": "c078b4fe97661aa8",
+      "questionId": "e797_b34f",
+      "selftestPath": "genetics/topic04/downloads/selftest-punnett_choice.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic04",
+      "topicTitle": "Mendelian Genetics"
+    },
+    {
+      "crc": "876b_53c5",
+      "pagePath": "genetics/topic04/index.md",
+      "questionFingerprint": "af1430ea93680cef",
+      "questionId": "876b_53c5",
+      "selftestPath": "genetics/topic04/downloads/selftest-write_pedigree_choice.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic04",
+      "topicTitle": "Mendelian Genetics"
+    },
+    {
+      "crc": "3b19_fb43",
+      "pagePath": "genetics/topic04/index.md",
+      "questionFingerprint": "2e66bd80435fc4f5",
+      "questionId": "3b19_fb43",
+      "selftestPath": "genetics/topic04/downloads/selftest-write_pedigree_match.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic04",
+      "topicTitle": "Mendelian Genetics"
+    },
+    {
+      "crc": "3b19_e0c9",
+      "pagePath": "genetics/topic04/index.md",
+      "questionFingerprint": "2e66bd80435fc4f5",
+      "questionId": "3b19_e0c9",
+      "selftestPath": "genetics/topic04/downloads/selftest-write_pedigree_match_random.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic04",
+      "topicTitle": "Mendelian Genetics"
+    },
+    {
+      "crc": "62d1_3659",
+      "pagePath": "genetics/topic05/index.md",
+      "questionFingerprint": "56bfc80a3329058b",
+      "questionId": "62d1_3659",
+      "selftestPath": "genetics/topic05/downloads/selftest-MATCH-monohybrid_cross_genotype.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic05",
+      "topicTitle": "Gene Interactions"
+    },
+    {
+      "crc": "8503_84a5",
+      "pagePath": "genetics/topic05/index.md",
+      "questionFingerprint": "367c3379172ee678",
+      "questionId": "8503_84a5",
+      "selftestPath": "genetics/topic05/downloads/selftest-MC-monohybrid_cross_genotype.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic05",
+      "topicTitle": "Gene Interactions"
+    },
+    {
+      "crc": "06e0_2b97",
+      "pagePath": "genetics/topic05/index.md",
+      "questionFingerprint": "4eddead30769f479",
+      "questionId": "06e0_2b97",
+      "selftestPath": "genetics/topic05/downloads/selftest-blood_type_mother.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic05",
+      "topicTitle": "Gene Interactions"
+    },
+    {
+      "crc": "4a9c_72be",
+      "pagePath": "genetics/topic05/index.md",
+      "questionFingerprint": "da61f1ef6f20d861",
+      "questionId": "4a9c_72be",
+      "selftestPath": "genetics/topic05/downloads/selftest-blood_type_offspring.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic05",
+      "topicTitle": "Gene Interactions"
+    },
+    {
+      "crc": "a55c_dc96",
+      "pagePath": "genetics/topic05/index.md",
+      "questionFingerprint": "a60acff4ef442b63",
+      "questionId": "a55c_dc96",
+      "selftestPath": "genetics/topic05/downloads/selftest-dihybrid_cross_epistatic_gene_interactions-4_choices.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic05",
+      "topicTitle": "Gene Interactions"
+    },
+    {
+      "crc": "7d36_bbe8",
+      "pagePath": "genetics/topic05/index.md",
+      "questionFingerprint": "c9e8828a32c3e033",
+      "questionId": "7d36_bbe8",
+      "selftestPath": "genetics/topic05/downloads/selftest-dihybrid_cross_epistatic_gene_metabolics-4_choices.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic05",
+      "topicTitle": "Gene Interactions"
+    },
+    {
+      "crc": "585f_da56",
+      "pagePath": "genetics/topic05/index.md",
+      "questionFingerprint": "fa62795dfa724d27",
+      "questionId": "585f_da56",
+      "selftestPath": "genetics/topic05/downloads/selftest-epistasis_test_cross-forward_direction-4_choices.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic05",
+      "topicTitle": "Gene Interactions"
+    },
+    {
+      "crc": "54c9_5ce5",
+      "pagePath": "genetics/topic05/index.md",
+      "questionFingerprint": "7c18aade4acf7e37",
+      "questionId": "54c9_5ce5",
+      "selftestPath": "genetics/topic05/downloads/selftest-epistasis_test_cross-forward_direction-6_choices.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic05",
+      "topicTitle": "Gene Interactions"
+    },
+    {
+      "crc": "390f_3113",
+      "pagePath": "genetics/topic05/index.md",
+      "questionFingerprint": "c5e32e1fef4a37a4",
+      "questionId": "390f_3113",
+      "selftestPath": "genetics/topic05/downloads/selftest-epistasis_test_cross-inverse_direction-4_choices.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic05",
+      "topicTitle": "Gene Interactions"
+    },
+    {
+      "crc": "42b8_3107",
+      "pagePath": "genetics/topic05/index.md",
+      "questionFingerprint": "c1bb55430fb8a673",
+      "questionId": "42b8_3107",
+      "selftestPath": "genetics/topic05/downloads/selftest-monohybrid_degrees_of_dominance.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic05",
+      "topicTitle": "Gene Interactions"
+    },
+    {
+      "crc": "b688_c4ef",
+      "pagePath": "genetics/topic05/index.md",
+      "questionFingerprint": "0a4b613100aab25a",
+      "questionId": "b688_c4ef",
+      "selftestPath": "genetics/topic05/downloads/selftest-monohybrid_genotype_statements.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic05",
+      "topicTitle": "Gene Interactions"
+    },
+    {
+      "crc": "57e2_bac3",
+      "pagePath": "genetics/topic05/index.md",
+      "questionFingerprint": "21a55e528087396f",
+      "questionId": "57e2_bac3",
+      "selftestPath": "genetics/topic05/downloads/selftest-unique_cross_genotypes-with_hint-6_genes.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic05",
+      "topicTitle": "Gene Interactions"
+    },
+    {
+      "crc": "3912_1d7c",
+      "pagePath": "genetics/topic05/index.md",
+      "questionFingerprint": "1b4dd17c7d8dcf2b",
+      "questionId": "3912_1d7c",
+      "selftestPath": "genetics/topic05/downloads/selftest-unique_cross_phenotypes-with_hint-6_genes.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic05",
+      "topicTitle": "Gene Interactions"
+    },
+    {
+      "crc": "9d0e_ae35",
+      "pagePath": "genetics/topic05/index.md",
+      "questionFingerprint": "c96b2f194d11648e",
+      "questionId": "9d0e_ae35",
+      "selftestPath": "genetics/topic05/downloads/selftest-unique_gametes-with_hint-7_genes.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic05",
+      "topicTitle": "Gene Interactions"
+    },
+    {
+      "crc": "cf25_28f9",
+      "pagePath": "genetics/topic06/index.md",
+      "questionFingerprint": "3168a3f8fdac5b27",
+      "questionId": "cf25_28f9",
+      "selftestPath": "genetics/topic06/downloads/selftest-MATCH-meiosis_prophase_1.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic06",
+      "topicTitle": "Chromosomal Inheritance"
+    },
+    {
+      "crc": "1623_c59d",
+      "pagePath": "genetics/topic06/index.md",
+      "questionFingerprint": "99fef92f77942e82",
+      "questionId": "1623_c59d",
+      "selftestPath": "genetics/topic06/downloads/selftest-MATCH-meiosis_terms.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic06",
+      "topicTitle": "Chromosomal Inheritance"
+    },
+    {
+      "crc": "b9fc_836a",
+      "pagePath": "genetics/topic06/index.md",
+      "questionFingerprint": "f08d2790344343e5",
+      "questionId": "b9fc_836a",
+      "selftestPath": "genetics/topic06/downloads/selftest-MATCH-sex_determination.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic06",
+      "topicTitle": "Chromosomal Inheritance"
+    },
+    {
+      "crc": "3978_096c",
+      "pagePath": "genetics/topic06/index.md",
+      "questionFingerprint": "defc16a3c7879d8e",
+      "questionId": "3978_096c",
+      "selftestPath": "genetics/topic06/downloads/selftest-MC-meiosis_prophase_1.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic06",
+      "topicTitle": "Chromosomal Inheritance"
+    },
+    {
+      "crc": "05af_a813",
+      "pagePath": "genetics/topic06/index.md",
+      "questionFingerprint": "16f28c7a89a330a4",
+      "questionId": "05af_a813",
+      "selftestPath": "genetics/topic06/downloads/selftest-MC-meiosis_terms.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic06",
+      "topicTitle": "Chromosomal Inheritance"
+    },
+    {
+      "crc": "6acb_b323",
+      "pagePath": "genetics/topic06/index.md",
+      "questionFingerprint": "4741d0f790d7e45c",
+      "questionId": "6acb_b323",
+      "selftestPath": "genetics/topic06/downloads/selftest-MC-sex_determination.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic06",
+      "topicTitle": "Chromosomal Inheritance"
+    },
+    {
+      "crc": "ff9f_98f2",
+      "pagePath": "genetics/topic06/index.md",
+      "questionFingerprint": "470c0cea70d58bf3",
+      "questionId": "ff9f_98f2",
+      "selftestPath": "genetics/topic06/downloads/selftest-TFMS-mitosis_and_meiosis.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic06",
+      "topicTitle": "Chromosomal Inheritance"
+    },
+    {
+      "crc": "5c1d_e69f",
+      "pagePath": "genetics/topic06/index.md",
+      "questionFingerprint": "e5050f0892af8dff",
+      "questionId": "5c1d_e69f",
+      "selftestPath": "genetics/topic06/downloads/selftest-dominant_and_X-linked_recessive.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic06",
+      "topicTitle": "Chromosomal Inheritance"
+    },
+    {
+      "crc": "3033_e69f",
+      "pagePath": "genetics/topic06/index.md",
+      "questionFingerprint": "1b02e727ec5ab138",
+      "questionId": "3033_e69f",
+      "selftestPath": "genetics/topic06/downloads/selftest-dominant_and_X-linked_recessive_variations.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic06",
+      "topicTitle": "Chromosomal Inheritance"
+    },
+    {
+      "crc": "9f74_25f3",
+      "pagePath": "genetics/topic06/index.md",
+      "questionFingerprint": "9aef6a6d6b958138",
+      "questionId": "9f74_25f3",
+      "selftestPath": "genetics/topic06/downloads/selftest-pedigree_choice.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic06",
+      "topicTitle": "Chromosomal Inheritance"
+    },
+    {
+      "crc": "3b19_c9db",
+      "pagePath": "genetics/topic06/index.md",
+      "questionFingerprint": "2e66bd80435fc4f5",
+      "questionId": "3b19_c9db",
+      "selftestPath": "genetics/topic06/downloads/selftest-pedigree_match.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic06",
+      "topicTitle": "Chromosomal Inheritance"
+    },
+    {
+      "crc": "b314_6b5e",
+      "pagePath": "genetics/topic06/index.md",
+      "questionFingerprint": "653024a86e562a1d",
+      "questionId": "b314_6b5e",
+      "selftestPath": "genetics/topic06/downloads/selftest-poisson_flies.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic06",
+      "topicTitle": "Chromosomal Inheritance"
+    },
+    {
+      "crc": "479a_0184",
+      "pagePath": "genetics/topic06/index.md",
+      "questionFingerprint": "73c17721e22e8bae",
+      "questionId": "479a_0184",
+      "selftestPath": "genetics/topic06/downloads/selftest-probabiliy_of_progeny.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic06",
+      "topicTitle": "Chromosomal Inheritance"
+    },
+    {
+      "crc": "18eb_32fc",
+      "pagePath": "genetics/topic06/index.md",
+      "questionFingerprint": "df3bad5e65e1183c",
+      "questionId": "18eb_32fc",
+      "selftestPath": "genetics/topic06/downloads/selftest-x_linked_reciprocal_cross.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic06",
+      "topicTitle": "Chromosomal Inheritance"
+    },
+    {
+      "crc": "2394_e69f",
+      "pagePath": "genetics/topic06/index.md",
+      "questionFingerprint": "1eeee8a187932fbc",
+      "questionId": "2394_e69f",
+      "selftestPath": "genetics/topic06/downloads/selftest-x_linked_tortoiseshell.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic06",
+      "topicTitle": "Chromosomal Inheritance"
+    },
+    {
+      "crc": "4a79_3c89",
+      "pagePath": "genetics/topic07/index.md",
+      "questionFingerprint": "d34a3fd31d39727e",
+      "questionId": "4a79_3c89",
+      "selftestPath": "genetics/topic07/downloads/selftest-MATCH-chi-square_terms.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic07",
+      "topicTitle": "Chi Square Analysis"
+    },
+    {
+      "crc": "9995_561a",
+      "pagePath": "genetics/topic07/index.md",
+      "questionFingerprint": "9fb6035f7dbcfc7c",
+      "questionId": "9995_561a",
+      "selftestPath": "genetics/topic07/downloads/selftest-MC-chi-square_terms.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic07",
+      "topicTitle": "Chi Square Analysis"
+    },
+    {
+      "crc": "4f2e_1a02",
+      "pagePath": "genetics/topic07/index.md",
+      "questionFingerprint": "bfa28e3f73c7089f",
+      "questionId": "4f2e_1a02",
+      "selftestPath": "genetics/topic07/downloads/selftest-TFMS-chi-square.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic07",
+      "topicTitle": "Chi Square Analysis"
+    },
+    {
+      "crc": "9acb_766e",
+      "pagePath": "genetics/topic07/index.md",
+      "questionFingerprint": "164bdfd4a3ac9b92",
+      "questionId": "9acb_766e",
+      "selftestPath": "genetics/topic07/downloads/selftest-chi_square_calculated-ACCEPT.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic07",
+      "topicTitle": "Chi Square Analysis"
+    },
+    {
+      "crc": "eb09_d098",
+      "pagePath": "genetics/topic07/index.md",
+      "questionFingerprint": "68dc13aa5b592ab9",
+      "questionId": "eb09_d098",
+      "selftestPath": "genetics/topic07/downloads/selftest-chi_square_choices.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic07",
+      "topicTitle": "Chi Square Analysis"
+    },
+    {
+      "crc": "46bf_57cc",
+      "pagePath": "genetics/topic07/index.md",
+      "questionFingerprint": "c03f0da0e53cf78f",
+      "questionId": "46bf_57cc",
+      "selftestPath": "genetics/topic07/downloads/selftest-chi_square_errors.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic07",
+      "topicTitle": "Chi Square Analysis"
+    },
+    {
+      "crc": "e053_524d",
+      "pagePath": "genetics/topic07/index.md",
+      "questionFingerprint": "3923fe991864dc6d",
+      "questionId": "e053_524d",
+      "selftestPath": "genetics/topic07/downloads/selftest-chi_square_hardy_weinberg.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic07",
+      "topicTitle": "Chi Square Analysis"
+    },
+    {
+      "crc": "c4e4_6d00",
+      "pagePath": "genetics/topic07/index.md",
+      "questionFingerprint": "380a742f574220cb",
+      "questionId": "c4e4_6d00",
+      "selftestPath": "genetics/topic07/downloads/selftest-chi_square_hypotheses-pair.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic07",
+      "topicTitle": "Chi Square Analysis"
+    },
+    {
+      "crc": "baa9_626a",
+      "pagePath": "genetics/topic07/index.md",
+      "questionFingerprint": "57cd4ed9735b8925",
+      "questionId": "baa9_626a",
+      "selftestPath": "genetics/topic07/downloads/selftest-chi_square_hypotheses_lab_partner-hypotheses_partner.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic07",
+      "topicTitle": "Chi Square Analysis"
+    },
+    {
+      "crc": "23c1_f357",
+      "pagePath": "genetics/topic08/index.md",
+      "questionFingerprint": "f28e91014b43ac95",
+      "questionId": "23c1_f357",
+      "selftestPath": "genetics/topic08/downloads/selftest-deletion_mutant_random-05_genes-MC.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic08",
+      "topicTitle": "Gene Mapping"
+    },
+    {
+      "crc": "fccc_bc71",
+      "pagePath": "genetics/topic08/index.md",
+      "questionFingerprint": "a8b8516d7ed790d5",
+      "questionId": "fccc_bc71",
+      "selftestPath": "genetics/topic08/downloads/selftest-deletion_mutant_words-05_genes-MC.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic08",
+      "topicTitle": "Gene Mapping"
+    },
+    {
+      "crc": "8ea8_1f80",
+      "pagePath": "genetics/topic08/index.md",
+      "questionFingerprint": "c21a317b0cc94ed9",
+      "questionId": "8ea8_1f80",
+      "selftestPath": "genetics/topic08/downloads/selftest-tetrad_ordered-centromere_distance-MC.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic08",
+      "topicTitle": "Gene Mapping"
+    },
+    {
+      "crc": "6d95_711c",
+      "pagePath": "genetics/topic08/index.md",
+      "questionFingerprint": "764141e832f436a4",
+      "questionId": "6d95_711c",
+      "selftestPath": "genetics/topic08/downloads/selftest-tetrad_unordered_three_gene-distances_plus.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic08",
+      "topicTitle": "Gene Mapping"
+    },
+    {
+      "crc": "d6ad_4054",
+      "pagePath": "genetics/topic08/index.md",
+      "questionFingerprint": "14e629d5a0ac547b",
+      "questionId": "d6ad_4054",
+      "selftestPath": "genetics/topic08/downloads/selftest-tetrad_unordered_three_gene-find_one_distance-MC.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic08",
+      "topicTitle": "Gene Mapping"
+    },
+    {
+      "crc": "57b5_03b2",
+      "pagePath": "genetics/topic08/index.md",
+      "questionFingerprint": "b1496f7d2d54ff97",
+      "questionId": "57b5_03b2",
+      "selftestPath": "genetics/topic08/downloads/selftest-tetrad_unordered_two_gene-find_distance-MC.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic08",
+      "topicTitle": "Gene Mapping"
+    },
+    {
+      "crc": "b549_31ca",
+      "pagePath": "genetics/topic08/index.md",
+      "questionFingerprint": "5b64c92f01e41d08",
+      "questionId": "b549_31ca",
+      "selftestPath": "genetics/topic08/downloads/selftest-tetrad_unordered_two_gene-test_linkage.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic08",
+      "topicTitle": "Gene Mapping"
+    },
+    {
+      "crc": "2fa0_cc12",
+      "pagePath": "genetics/topic08/index.md",
+      "questionFingerprint": "6ea987036b6a2f71",
+      "questionId": "2fa0_cc12",
+      "selftestPath": "genetics/topic08/downloads/selftest-three-point_test_cross-distances_plus.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic08",
+      "topicTitle": "Gene Mapping"
+    },
+    {
+      "crc": "706b_5209",
+      "pagePath": "genetics/topic08/index.md",
+      "questionFingerprint": "2e19869d2d375dc5",
+      "questionId": "706b_5209",
+      "selftestPath": "genetics/topic08/downloads/selftest-three-point_test_cross-find_interence-MC.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic08",
+      "topicTitle": "Gene Mapping"
+    },
+    {
+      "crc": "5b9f_5f69",
+      "pagePath": "genetics/topic08/index.md",
+      "questionFingerprint": "ecdd70e39c143e4c",
+      "questionId": "5b9f_5f69",
+      "selftestPath": "genetics/topic08/downloads/selftest-three-point_test_cross-one_gene_distance-MC.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic08",
+      "topicTitle": "Gene Mapping"
+    },
+    {
+      "crc": "4b06_976d",
+      "pagePath": "genetics/topic08/index.md",
+      "questionFingerprint": "b9eaa16f1e7f944f",
+      "questionId": "4b06_976d",
+      "selftestPath": "genetics/topic08/downloads/selftest-three-point_test_cross-which_genotypes-DOUBLE.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic08",
+      "topicTitle": "Gene Mapping"
+    },
+    {
+      "crc": "1eed_0a50",
+      "pagePath": "genetics/topic08/index.md",
+      "questionFingerprint": "d7122bb282d7e5dd",
+      "questionId": "1eed_0a50",
+      "selftestPath": "genetics/topic08/downloads/selftest-three-point_test_cross-which_genotypes-GENES.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic08",
+      "topicTitle": "Gene Mapping"
+    },
+    {
+      "crc": "d739_5b7c",
+      "pagePath": "genetics/topic08/index.md",
+      "questionFingerprint": "e23b926d9f4d38f7",
+      "questionId": "d739_5b7c",
+      "selftestPath": "genetics/topic08/downloads/selftest-three-point_test_cross-which_genotypes-PARENTAL.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic08",
+      "topicTitle": "Gene Mapping"
+    },
+    {
+      "crc": "b0ad_b2bd",
+      "pagePath": "genetics/topic08/index.md",
+      "questionFingerprint": "374caad7c7c41a04",
+      "questionId": "b0ad_b2bd",
+      "selftestPath": "genetics/topic08/downloads/selftest-two-point_test_cross-cis-trans-MC-with_hint.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic08",
+      "topicTitle": "Gene Mapping"
+    },
+    {
+      "crc": "ebfa_cd8e",
+      "pagePath": "genetics/topic08/index.md",
+      "questionFingerprint": "6fdd454d0c5373f6",
+      "questionId": "ebfa_cd8e",
+      "selftestPath": "genetics/topic08/downloads/selftest-two-point_test_cross-cis-trans.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic08",
+      "topicTitle": "Gene Mapping"
+    },
+    {
+      "crc": "8ec4_6f03",
+      "pagePath": "genetics/topic08/index.md",
+      "questionFingerprint": "6c077014bbf9b362",
+      "questionId": "8ec4_6f03",
+      "selftestPath": "genetics/topic08/downloads/selftest-two-point_test_cross-distance-MC.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic08",
+      "topicTitle": "Gene Mapping"
+    },
+    {
+      "crc": "1448_70cd",
+      "pagePath": "genetics/topic08/index.md",
+      "questionFingerprint": "cf81ec4ac3ead229",
+      "questionId": "1448_70cd",
+      "selftestPath": "genetics/topic08/downloads/selftest-two-point_test_cross-which_genotypes-PARENTAL.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic08",
+      "topicTitle": "Gene Mapping"
+    },
+    {
+      "crc": "49e6_c6ac",
+      "pagePath": "genetics/topic08/index.md",
+      "questionFingerprint": "30da6ebf09b7e02d",
+      "questionId": "49e6_c6ac",
+      "selftestPath": "genetics/topic08/downloads/selftest-two-point_test_cross-which_genotypes-RECOMBINANT.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic08",
+      "topicTitle": "Gene Mapping"
+    },
+    {
+      "crc": "8ddc_992b",
+      "pagePath": "genetics/topic09/index.md",
+      "questionFingerprint": "04cd759a716e3d8c",
+      "questionId": "8ddc_992b",
+      "selftestPath": "genetics/topic09/downloads/selftest-MATCH-chromosome_shapes.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic09",
+      "topicTitle": "Chromosomal Disorders"
+    },
+    {
+      "crc": "9d9e_ec1d",
+      "pagePath": "genetics/topic09/index.md",
+      "questionFingerprint": "f6f3a084aa1fd4a1",
+      "questionId": "9d9e_ec1d",
+      "selftestPath": "genetics/topic09/downloads/selftest-MC-chromosome_shapes.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic09",
+      "topicTitle": "Chromosomal Disorders"
+    },
+    {
+      "crc": "f212_615c",
+      "pagePath": "genetics/topic09/index.md",
+      "questionFingerprint": "cbbdee4ad8282bb6",
+      "questionId": "f212_615c",
+      "selftestPath": "genetics/topic09/downloads/selftest-cytogenetic_notation-aneuploidy-5_choices.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic09",
+      "topicTitle": "Chromosomal Disorders"
+    },
+    {
+      "crc": "acd8_686e",
+      "pagePath": "genetics/topic09/index.md",
+      "questionFingerprint": "48353a611d393426",
+      "questionId": "acd8_686e",
+      "selftestPath": "genetics/topic09/downloads/selftest-cytogenetic_notation-aneuploidy.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic09",
+      "topicTitle": "Chromosomal Disorders"
+    },
+    {
+      "crc": "e484_33ff",
+      "pagePath": "genetics/topic09/index.md",
+      "questionFingerprint": "f5e2dd711c28441b",
+      "questionId": "e484_33ff",
+      "selftestPath": "genetics/topic09/downloads/selftest-cytogenetic_notation-band_order-5_choices.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic09",
+      "topicTitle": "Chromosomal Disorders"
+    },
+    {
+      "crc": "286e_a970",
+      "pagePath": "genetics/topic09/index.md",
+      "questionFingerprint": "3e1d57d24ccb4abf",
+      "questionId": "286e_a970",
+      "selftestPath": "genetics/topic09/downloads/selftest-cytogenetic_notation-rearrangements.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic09",
+      "topicTitle": "Chromosomal Disorders"
+    },
+    {
+      "crc": "af70_1b51",
+      "pagePath": "genetics/topic09/index.md",
+      "questionFingerprint": "3b4becd07b52ad08",
+      "questionId": "af70_1b51",
+      "selftestPath": "genetics/topic09/downloads/selftest-cytogenetic_notation-sub-band_notation.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic09",
+      "topicTitle": "Chromosomal Disorders"
+    },
+    {
+      "crc": "0f21_e404",
+      "pagePath": "genetics/topic09/index.md",
+      "questionFingerprint": "7c6cbf0a242e7b37",
+      "questionId": "0f21_e404",
+      "selftestPath": "genetics/topic09/downloads/selftest-deletion_mutant_random-05_genes-MC.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic09",
+      "topicTitle": "Chromosomal Disorders"
+    },
+    {
+      "crc": "1ca1_a1dd",
+      "pagePath": "genetics/topic09/index.md",
+      "questionFingerprint": "4dc74baf3027b9c3",
+      "questionId": "1ca1_a1dd",
+      "selftestPath": "genetics/topic09/downloads/selftest-deletion_mutant_words-05_genes-MC.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic09",
+      "topicTitle": "Chromosomal Disorders"
+    },
+    {
+      "crc": "fd81_773c",
+      "pagePath": "genetics/topic09/index.md",
+      "questionFingerprint": "5aa1f804beac111f",
+      "questionId": "fd81_773c",
+      "selftestPath": "genetics/topic09/downloads/selftest-deletion_mutants-04_genes-FREE-MC.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic09",
+      "topicTitle": "Chromosomal Disorders"
+    },
+    {
+      "crc": "af8b_fa78",
+      "pagePath": "genetics/topic09/index.md",
+      "questionFingerprint": "35472a109dc65e8f",
+      "questionId": "af8b_fa78",
+      "selftestPath": "genetics/topic09/downloads/selftest-deletion_mutants-04_genes-TABLE-MC.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic09",
+      "topicTitle": "Chromosomal Disorders"
+    },
+    {
+      "crc": "c216_cac3",
+      "pagePath": "genetics/topic09/index.md",
+      "questionFingerprint": "5cca56569fa3cfae",
+      "questionId": "c216_cac3",
+      "selftestPath": "genetics/topic09/downloads/selftest-deletion_mutants-06_genes-TABLE-MC.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic09",
+      "topicTitle": "Chromosomal Disorders"
+    },
+    {
+      "crc": "6c6a_1623",
+      "pagePath": "genetics/topic09/index.md",
+      "questionFingerprint": "12731c50648bb2a3",
+      "questionId": "6c6a_1623",
+      "selftestPath": "genetics/topic09/downloads/selftest-deletion_mutants-08_genes-TABLE-MC.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic09",
+      "topicTitle": "Chromosomal Disorders"
+    },
+    {
+      "crc": "c12d_04cb",
+      "pagePath": "genetics/topic09/index.md",
+      "questionFingerprint": "1efac93244acc612",
+      "questionId": "c12d_04cb",
+      "selftestPath": "genetics/topic09/downloads/selftest-deletion_mutants-16_genes-TABLE-MC.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic09",
+      "topicTitle": "Chromosomal Disorders"
+    },
+    {
+      "crc": "c6df_12c7",
+      "pagePath": "genetics/topic09/index.md",
+      "questionFingerprint": "7c057e23ce7ca42c",
+      "questionId": "c6df_12c7",
+      "selftestPath": "genetics/topic09/downloads/selftest-letter_translocation_problem_color-black.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic09",
+      "topicTitle": "Chromosomal Disorders"
+    },
+    {
+      "crc": "7b63_45c6",
+      "pagePath": "genetics/topic09/index.md",
+      "questionFingerprint": "fd61148df0573801",
+      "questionId": "7b63_45c6",
+      "selftestPath": "genetics/topic09/downloads/selftest-letter_translocation_problem_color.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic09",
+      "topicTitle": "Chromosomal Disorders"
+    },
+    {
+      "crc": "607c_1ba4",
+      "pagePath": "genetics/topic09/index.md",
+      "questionFingerprint": "95cef700d8722c8f",
+      "questionId": "607c_1ba4",
+      "selftestPath": "genetics/topic09/downloads/selftest-polyploid-gametes.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic09",
+      "topicTitle": "Chromosomal Disorders"
+    },
+    {
+      "crc": "7fb9_3cf3",
+      "pagePath": "genetics/topic09/index.md",
+      "questionFingerprint": "685286d7eee9c0b7",
+      "questionId": "7fb9_3cf3",
+      "selftestPath": "genetics/topic09/downloads/selftest-polyploid-monoploid_v_haploid.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic09",
+      "topicTitle": "Chromosomal Disorders"
+    },
+    {
+      "crc": "0038_2fe2",
+      "pagePath": "genetics/topic09/index.md",
+      "questionFingerprint": "a6c808416670b1f6",
+      "questionId": "0038_2fe2",
+      "selftestPath": "genetics/topic09/downloads/selftest-robertsonian.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic09",
+      "topicTitle": "Chromosomal Disorders"
+    },
+    {
+      "crc": "87fe_2ba2",
+      "pagePath": "genetics/topic09/index.md",
+      "questionFingerprint": "48d5d39e1d3594db",
+      "questionId": "87fe_2ba2",
+      "selftestPath": "genetics/topic09/downloads/selftest-translocation_meiosis_table.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic09",
+      "topicTitle": "Chromosomal Disorders"
+    },
+    {
+      "crc": "ee83_9d3e",
+      "pagePath": "genetics/topic10/index.md",
+      "questionFingerprint": "eb0c82c887dc8521",
+      "questionId": "ee83_9d3e",
+      "selftestPath": "genetics/topic10/downloads/selftest-TFMS-h-w_non-evolve_criteria.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic10",
+      "topicTitle": "Population Genetics"
+    },
+    {
+      "crc": "eb51_d014",
+      "pagePath": "genetics/topic10/index.md",
+      "questionFingerprint": "09c60db476580706",
+      "questionId": "eb51_d014",
+      "selftestPath": "genetics/topic10/downloads/selftest-hardy_weinberg_mc_type.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic10",
+      "topicTitle": "Population Genetics"
+    },
+    {
+      "crc": "f0a4_1aec",
+      "pagePath": "genetics/topic10/index.md",
+      "questionFingerprint": "871bc12f73972396",
+      "questionId": "f0a4_1aec",
+      "selftestPath": "genetics/topic10/downloads/selftest-hardy_weinberg_numeric-NUM-5_choices.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic10",
+      "topicTitle": "Population Genetics"
+    },
+    {
+      "crc": "d94c_3416",
+      "pagePath": "genetics/topic11/index.md",
+      "questionFingerprint": "65277f941481114c",
+      "questionId": "d94c_3416",
+      "selftestPath": "genetics/topic11/downloads/selftest-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic11",
+      "topicTitle": "Gene Trees"
+    },
+    {
+      "crc": "26e0_8e1f",
+      "pagePath": "genetics/topic11/index.md",
+      "questionFingerprint": "7327dd21cb31ec70",
+      "questionId": "26e0_8e1f",
+      "selftestPath": "genetics/topic11/downloads/selftest-gene_tree_choice_plus-TABLE_mode-LEVEL_1.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic11",
+      "topicTitle": "Gene Trees"
+    },
+    {
+      "crc": "104f_78f6",
+      "pagePath": "genetics/topic11/index.md",
+      "questionFingerprint": "6c00c0a884fdf362",
+      "questionId": "104f_78f6",
+      "selftestPath": "genetics/topic11/downloads/selftest-gene_tree_choice_plus-TABLE_mode-LEVEL_2.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic11",
+      "topicTitle": "Gene Trees"
+    },
+    {
+      "crc": "f296_34c3",
+      "pagePath": "genetics/topic11/index.md",
+      "questionFingerprint": "a8afb6f7cc584e6d",
+      "questionId": "f296_34c3",
+      "selftestPath": "genetics/topic11/downloads/selftest-gene_tree_choice_plus-TABLE_mode-LEVEL_3.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic11",
+      "topicTitle": "Gene Trees"
+    },
+    {
+      "crc": "5102_e296",
+      "pagePath": "genetics/topic11/index.md",
+      "questionFingerprint": "7f331806c6567755",
+      "questionId": "5102_e296",
+      "selftestPath": "genetics/topic11/downloads/selftest-gene_tree_choice_plus-TABLE_mode-LEVEL_4.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic11",
+      "topicTitle": "Gene Trees"
+    },
+    {
+      "crc": "bffd_b36e",
+      "pagePath": "genetics/topic11/index.md",
+      "questionFingerprint": "0d22200f44c15c20",
+      "questionId": "bffd_b36e",
+      "selftestPath": "genetics/topic11/downloads/selftest-gene_tree_choice_plus-TABLE_mode-LEVEL_5.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic11",
+      "topicTitle": "Gene Trees"
+    },
+    {
+      "crc": "f60c_3b2e",
+      "pagePath": "genetics/topic11/index.md",
+      "questionFingerprint": "062208fe1cb1f979",
+      "questionId": "f60c_3b2e",
+      "selftestPath": "genetics/topic11/downloads/selftest-gene_tree_matches_plus-DIFFERENT_mode-EASY_level.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic11",
+      "topicTitle": "Gene Trees"
+    },
+    {
+      "crc": "cec1_e288",
+      "pagePath": "genetics/topic11/index.md",
+      "questionFingerprint": "ec9e86358228bb8b",
+      "questionId": "cec1_e288",
+      "selftestPath": "genetics/topic11/downloads/selftest-gene_tree_matches_plus-DIFFERENT_mode-MEDIUM_level.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic11",
+      "topicTitle": "Gene Trees"
+    },
+    {
+      "crc": "ff91_c1ad",
+      "pagePath": "genetics/topic11/index.md",
+      "questionFingerprint": "89c92c79cbdbe179",
+      "questionId": "ff91_c1ad",
+      "selftestPath": "genetics/topic11/downloads/selftest-gene_tree_matches_plus-DIFFERENT_mode-RIGOROUS_level.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic11",
+      "topicTitle": "Gene Trees"
+    },
+    {
+      "crc": "3910_c645",
+      "pagePath": "genetics/topic11/index.md",
+      "questionFingerprint": "9c043020933a9598",
+      "questionId": "3910_c645",
+      "selftestPath": "genetics/topic11/downloads/selftest-gene_tree_matches_plus-SAME_mode-EASY_level.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic11",
+      "topicTitle": "Gene Trees"
+    },
+    {
+      "crc": "79f8_8a0d",
+      "pagePath": "genetics/topic11/index.md",
+      "questionFingerprint": "84f549cc74a1483a",
+      "questionId": "79f8_8a0d",
+      "selftestPath": "genetics/topic11/downloads/selftest-gene_tree_matches_plus-SAME_mode-MEDIUM_level.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic11",
+      "topicTitle": "Gene Trees"
+    },
+    {
+      "crc": "6276_5297",
+      "pagePath": "genetics/topic11/index.md",
+      "questionFingerprint": "772f37e62001ac6f",
+      "questionId": "6276_5297",
+      "selftestPath": "genetics/topic11/downloads/selftest-gene_tree_matches_plus-SAME_mode-RIGOROUS_level.html",
+      "subjectKey": "genetics",
+      "topicKey": "topic11",
+      "topicTitle": "Gene Trees"
+    },
+    {
+      "crc": "35d1_960b",
+      "pagePath": "laboratory/topic01/index.md",
+      "questionFingerprint": "21379e28a71c4122",
+      "questionId": "35d1_960b",
+      "selftestPath": "laboratory/topic01/downloads/selftest-orders_of_magnitude_mc.html",
+      "subjectKey": "laboratory",
+      "topicKey": "topic01",
+      "topicTitle": "Measurement Basics"
+    },
+    {
+      "crc": "a9dd_e365",
+      "pagePath": "laboratory/topic01/index.md",
+      "questionFingerprint": "cb3ef46d1ea99fc9",
+      "questionId": "a9dd_e365",
+      "selftestPath": "laboratory/topic01/downloads/selftest-pipet_size_mc.html",
+      "subjectKey": "laboratory",
+      "topicKey": "topic01",
+      "topicTitle": "Measurement Basics"
+    },
+    {
+      "crc": "7757_be7b",
+      "pagePath": "laboratory/topic02/index.md",
+      "questionFingerprint": "969bdac28cedead1",
+      "questionId": "7757_be7b",
+      "selftestPath": "laboratory/topic02/downloads/selftest-solution-mass_concentration-numeric.html",
+      "subjectKey": "laboratory",
+      "topicKey": "topic02",
+      "topicTitle": "Solutions"
+    },
+    {
+      "crc": "8ea2_7972",
+      "pagePath": "laboratory/topic02/index.md",
+      "questionFingerprint": "2559c4a8a13dac37",
+      "questionId": "8ea2_7972",
+      "selftestPath": "laboratory/topic02/downloads/selftest-solution-mass_vol-numeric.html",
+      "subjectKey": "laboratory",
+      "topicKey": "topic02",
+      "topicTitle": "Solutions"
+    },
+    {
+      "crc": "bb39_4abc",
+      "pagePath": "laboratory/topic02/index.md",
+      "questionFingerprint": "b9236e68b4a9ec28",
+      "questionId": "bb39_4abc",
+      "selftestPath": "laboratory/topic02/downloads/selftest-solution-molarity-mol_weight-numeric.html",
+      "subjectKey": "laboratory",
+      "topicKey": "topic02",
+      "topicTitle": "Solutions"
+    },
+    {
+      "crc": "b534_b5c2",
+      "pagePath": "laboratory/topic02/index.md",
+      "questionFingerprint": "e119bc9a107e6e31",
+      "questionId": "b534_b5c2",
+      "selftestPath": "laboratory/topic02/downloads/selftest-solution-vol_vol-numeric.html",
+      "subjectKey": "laboratory",
+      "topicKey": "topic02",
+      "topicTitle": "Solutions"
+    },
+    {
+      "crc": "214e_2940",
+      "pagePath": "laboratory/topic03/index.md",
+      "questionFingerprint": "94ab1864be6578f9",
+      "questionId": "214e_2940",
+      "selftestPath": "laboratory/topic03/downloads/selftest-dilution_factor_aliquot_numeric.html",
+      "subjectKey": "laboratory",
+      "topicKey": "topic03",
+      "topicTitle": "Dilutions"
+    },
+    {
+      "crc": "d50d_058d",
+      "pagePath": "laboratory/topic03/index.md",
+      "questionFingerprint": "9cb704a1bd4b5787",
+      "questionId": "d50d_058d",
+      "selftestPath": "laboratory/topic03/downloads/selftest-dilution_factor_calc_numeric.html",
+      "subjectKey": "laboratory",
+      "topicKey": "topic03",
+      "topicTitle": "Dilutions"
+    },
+    {
+      "crc": "2f95_37c2",
+      "pagePath": "laboratory/topic03/index.md",
+      "questionFingerprint": "5e3102a9a31fe9fc",
+      "questionId": "2f95_37c2",
+      "selftestPath": "laboratory/topic03/downloads/selftest-dilution_factor_diluent_numeric.html",
+      "subjectKey": "laboratory",
+      "topicKey": "topic03",
+      "topicTitle": "Dilutions"
+    },
+    {
+      "crc": "79b9_1e08",
+      "pagePath": "laboratory/topic03/index.md",
+      "questionFingerprint": "c1c104f9c786725e",
+      "questionId": "79b9_1e08",
+      "selftestPath": "laboratory/topic03/downloads/selftest-dilution_factor_mc.html",
+      "subjectKey": "laboratory",
+      "topicKey": "topic03",
+      "topicTitle": "Dilutions"
+    },
+    {
+      "crc": "fadd_8f5d",
+      "pagePath": "laboratory/topic03/index.md",
+      "questionFingerprint": "bbf565d72d3641ac",
+      "questionId": "fadd_8f5d",
+      "selftestPath": "laboratory/topic03/downloads/selftest-percent_dilution_aliquot_numeric.html",
+      "subjectKey": "laboratory",
+      "topicKey": "topic03",
+      "topicTitle": "Dilutions"
+    },
+    {
+      "crc": "5996_6641",
+      "pagePath": "laboratory/topic04/index.md",
+      "questionFingerprint": "53ed7f43c03c328d",
+      "questionId": "5996_6641",
+      "selftestPath": "laboratory/topic04/downloads/selftest-serial_dilution_factor_aliquot_numeric.html",
+      "subjectKey": "laboratory",
+      "topicKey": "topic04",
+      "topicTitle": "Serial Dilutions"
+    },
+    {
+      "crc": "d27e_43ed",
+      "pagePath": "laboratory/topic04/index.md",
+      "questionFingerprint": "8e7f6c9c0057becd",
+      "questionId": "d27e_43ed",
+      "selftestPath": "laboratory/topic04/downloads/selftest-serial_dilution_factor_diluent_numeric.html",
+      "subjectKey": "laboratory",
+      "topicKey": "topic04",
+      "topicTitle": "Serial Dilutions"
+    },
+    {
+      "crc": "a429_4536",
+      "pagePath": "laboratory/topic04/index.md",
+      "questionFingerprint": "fcfb49965946834b",
+      "questionId": "a429_4536",
+      "selftestPath": "laboratory/topic04/downloads/selftest-serial_dilution_factor_mc.html",
+      "subjectKey": "laboratory",
+      "topicKey": "topic04",
+      "topicTitle": "Serial Dilutions"
+    },
+    {
+      "crc": "4fa7_c23b",
+      "pagePath": "laboratory/topic11/index.md",
+      "questionFingerprint": "0d2415a2b2f11a6d",
+      "questionId": "4fa7_c23b",
+      "selftestPath": "laboratory/topic11/downloads/selftest-dna_gel-estimate_size-MC_or_NUM-num.html",
+      "subjectKey": "laboratory",
+      "topicKey": "topic11",
+      "topicTitle": "PCR and Electrophoresis"
+    },
+    {
+      "crc": "b01b_9af6",
+      "pagePath": "laboratory/topic11/index.md",
+      "questionFingerprint": "0b2492c76124001e",
+      "questionId": "b01b_9af6",
+      "selftestPath": "laboratory/topic11/downloads/selftest-kaleidoscope_ladder_mapping.html",
+      "subjectKey": "laboratory",
+      "topicKey": "topic11",
+      "topicTitle": "PCR and Electrophoresis"
+    },
+    {
+      "crc": "6db7_d666",
+      "pagePath": "molecular_biology/topic04/index.md",
+      "questionFingerprint": "9f1672d8472b501b",
+      "questionId": "6db7_d666",
+      "selftestPath": "molecular_biology/topic04/downloads/selftest-dna_gel-closest_farthest_MC.html",
+      "subjectKey": "molecular_biology",
+      "topicKey": "topic04",
+      "topicTitle": "Manipulation of Nucleic Acids"
+    },
+    {
+      "crc": "e5d9_b018",
+      "pagePath": "molecular_biology/topic04/index.md",
+      "questionFingerprint": "b8f4389571480492",
+      "questionId": "e5d9_b018",
+      "selftestPath": "molecular_biology/topic04/downloads/selftest-dna_gel-estimate_size-MC_or_NUM-num.html",
+      "subjectKey": "molecular_biology",
+      "topicKey": "topic04",
+      "topicTitle": "Manipulation of Nucleic Acids"
+    },
+    {
+      "crc": "dbcd_1ee2",
+      "pagePath": "molecular_biology/topic04/index.md",
+      "questionFingerprint": "2f502f08efcbcf7b",
+      "questionId": "dbcd_1ee2",
+      "selftestPath": "molecular_biology/topic04/downloads/selftest-inverse_pcr_design-len_15.html",
+      "subjectKey": "molecular_biology",
+      "topicKey": "topic04",
+      "topicTitle": "Manipulation of Nucleic Acids"
+    },
+    {
+      "crc": "ad2c_d1e8",
+      "pagePath": "molecular_biology/topic04/index.md",
+      "questionFingerprint": "f3b60de73239dd73",
+      "questionId": "ad2c_d1e8",
+      "selftestPath": "molecular_biology/topic04/downloads/selftest-linear_digest-length_12-sites_2-fragment.html",
+      "subjectKey": "molecular_biology",
+      "topicKey": "topic04",
+      "topicTitle": "Manipulation of Nucleic Acids"
+    },
+    {
+      "crc": "c6e8_d48a",
+      "pagePath": "molecular_biology/topic04/index.md",
+      "questionFingerprint": "fda3ff8887318f3b",
+      "questionId": "c6e8_d48a",
+      "selftestPath": "molecular_biology/topic04/downloads/selftest-nested_pcr_design-len_24.html",
+      "subjectKey": "molecular_biology",
+      "topicKey": "topic04",
+      "topicTitle": "Manipulation of Nucleic Acids"
+    },
+    {
+      "crc": "2391_715d",
+      "pagePath": "molecular_biology/topic05/index.md",
+      "questionFingerprint": "9dc8aac0546c6fde",
+      "questionId": "2391_715d",
+      "selftestPath": "molecular_biology/topic05/downloads/selftest-RT-qPCR.html",
+      "subjectKey": "molecular_biology",
+      "topicKey": "topic05",
+      "topicTitle": "Cloning and Sequencing"
+    },
+    {
+      "crc": "05b5_38cf",
+      "pagePath": "molecular_biology/topic07/index.md",
+      "questionFingerprint": "059d60b5921e70a7",
+      "questionId": "05b5_38cf",
+      "selftestPath": "molecular_biology/topic07/downloads/selftest-enhancer_gene_expression.html",
+      "subjectKey": "molecular_biology",
+      "topicKey": "topic07",
+      "topicTitle": "RNA Transcription"
+    },
+    {
+      "crc": "742b_a2dd",
+      "pagePath": "molecular_biology/topic08/index.md",
+      "questionFingerprint": "9e91b04bf9b102f6",
+      "questionId": "742b_a2dd",
+      "selftestPath": "molecular_biology/topic08/downloads/selftest-exon_splicing.html",
+      "subjectKey": "molecular_biology",
+      "topicKey": "topic08",
+      "topicTitle": "RNA Processing and CRISPR"
+    },
+    {
+      "crc": "122c_a5f9",
+      "pagePath": "molecular_biology/topic09/index.md",
+      "questionFingerprint": "9a56f0fde33a13f0",
+      "questionId": "122c_a5f9",
+      "selftestPath": "molecular_biology/topic09/downloads/selftest-translate_genetic_code-10_aa.html",
+      "subjectKey": "molecular_biology",
+      "topicKey": "topic09",
+      "topicTitle": "Translation"
+    },
+    {
+      "crc": "d27d_0f59",
+      "pagePath": "other/topic01/index.md",
+      "questionFingerprint": "3505b9021d28131d",
+      "questionId": "d27d_0f59",
+      "selftestPath": "other/topic01/downloads/selftest-cell_surf-to-vol_ratio.html",
+      "subjectKey": "other",
+      "topicKey": "topic01",
+      "topicTitle": "Cell Biology"
+    },
+    {
+      "crc": "7c55_7399",
+      "pagePath": "other/topic02/index.md",
+      "questionFingerprint": "be47df9403883ba5",
+      "questionId": "7c55_7399",
+      "selftestPath": "other/topic02/downloads/selftest-fret_overlap_colors.html",
+      "subjectKey": "other",
+      "topicKey": "topic02",
+      "topicTitle": "Biophysics"
+    },
+    {
+      "crc": "7c55_584d",
+      "pagePath": "other/topic02/index.md",
+      "questionFingerprint": "be47df9403883ba5",
+      "questionId": "7c55_584d",
+      "selftestPath": "other/topic02/downloads/selftest-fret_permute_colors.html",
+      "subjectKey": "other",
+      "topicKey": "topic02",
+      "topicTitle": "Biophysics"
+    }
+  ],
+  "source": "reachable-topic-pages",
+  "version": 1
+}
