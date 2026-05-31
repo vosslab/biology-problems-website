@@ -385,6 +385,42 @@ biostatistics:
       title: Graph Interpretation
       description: Students read, interpret, and compare graphical data displays including box plots, histograms, scatterplots, bar charts, ROC curves, and Kaplan-Meier survival plots.
 
+biotechnology:
+  title: Biotechnology
+  description: |
+    Biotechnology is the application of biological systems and molecular tools to develop technologies and products.
+    Biotechnologists manipulate DNA, RNA, proteins, and cells for practical and industrial purposes.
+    Questions ask students to design cloning strategies with restriction enzymes and plasmids, evaluate gene therapy approaches, analyze PCR and transformation protocols, and discuss bioethics and regulation of GMOs.
+  topics:
+    topic01:
+      alias: biotech_basics
+      title: Biotech Basics and Central Dogma
+      description: Students explore the history of biotechnology, model organisms, bacteriophage, cell culture, subviral agents, the central dogma, and endosymbiotic theory.
+    topic02:
+      alias: dna_genomics
+      title: DNA and Genomics
+      description: Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR, Sanger and next-generation sequencing, RT-qPCR, CRISPR technology, RNA interference, GWAS, and synthetic biology.
+    topic03:
+      alias: protein_biotech
+      title: Protein Biotechnology
+      description: Students examine proteomics, western blotting, mass spectrometry, phage display, ELISA, recombinant expression systems, directed evolution, AlphaFold, cryo-EM, and de novo protein design.
+    topic04:
+      alias: synthetic_biology
+      title: Environmental and Synthetic Biology
+      description: Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, biosensors, Agrobacterium, gene guns, transgenic organisms, and GMO applications.
+    topic05:
+      alias: medicinal_biotech
+      title: Medicinal Biotechnology
+      description: Students assess gene therapy, viral vectors, genome editing (ZFNs, TALENs, CRISPR), stem cells, iPSC therapies, CAR-T therapy, cancer gene therapy, and prime editing.
+    topic06:
+      alias: regulation
+      title: Regulation in Biotechnology
+      description: Students review FDA history, clinical trial phases, the Asilomar Conference, the Coordinated Framework, biotech patents, CRISPR patent disputes, and drug regulation.
+    topic07:
+      alias: bioethics
+      title: Bioethics in Biotechnology
+      description: Students discuss scientific misconduct, GMO ethics, bioweapons, de-extinction, CRISPR babies, embryonic stem cells, biohackers, cloning ethics, and aid in dying.
+
 other:
   title: Other
   description: |
@@ -400,7 +436,3 @@ other:
       alias: biophysics
       title: Biophysics
       description: Students analyze physical methods applied to biological molecules, including FRET energy transfer, fluorescence spectroscopy, binding curves, diffusion, membrane potentials, and single-molecule techniques.
-    topic03:
-      alias: biotechnology
-      title: Biotechnology
-      description: Cross over of technology and the life sciences

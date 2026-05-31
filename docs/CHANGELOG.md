@@ -1,5 +1,33 @@
 # Changelog
 
+## 2026-05-31
+
+### Additions and New Features
+- Promoted Biotechnology to a first-class subject in
+  [topics_metadata.yml](../topics_metadata.yml) with 7 topics
+  (`biotech_basics`, `dna_genomics`, `protein_biotech`,
+  `synthetic_biology`, `medicinal_biotech`, `regulation`, `bioethics`),
+  drawn from the `biology-problems` biotechnology subject index. Seeded
+  the Biotechnology nav entry in [mkdocs.yml](../mkdocs.yml) between
+  Biostatistics and Other.
+- New BBQ task file `bbq_control/task_files/biotech_tasks.csv`.
+
+### Behavior or Interface Changes
+- Removed the catch-all `other/topic03` (alias `biotechnology`) topic
+  from the `other` subject. The 10 existing biotechnology BBQ tasks
+  migrated from `bbq_control/task_files/other_tasks.csv` to the new
+  biotechnology task file, with `subject` changed to `biotechnology` and
+  `topic` mapped to the new per-topic aliases. The `protein_biotech` and
+  `regulation` topics start with no problems and are auto-omitted from
+  the rendered nav.
+
+### Fixes and Maintenance
+- Added the new biotechnology subject and topics to
+  [CODE_ARCHITECTURE.md](CODE_ARCHITECTURE.md),
+  [FILE_STRUCTURE.md](FILE_STRUCTURE.md), and the per-subject task-CSV
+  notes; documented the `generate_pages.py` page-generation workflow and
+  its build/filter flags in [USAGE.md](USAGE.md).
+
 ## 2026-05-29
 
 ### Additions and New Features

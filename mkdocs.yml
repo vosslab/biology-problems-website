@@ -130,6 +130,8 @@ nav:
   - "05: Hypothesis Testing": biostatistics/topic05/index.md
   - "06: Grouping with Z-Scores": biostatistics/topic06/index.md
   - "08: Graph Interpretation": biostatistics/topic08/index.md
+- "💊 Biotechnology":
+  - biotechnology/index.md
 - "📚 Other":
   - other/index.md
   - "01: Cell Biology": other/topic01/index.md

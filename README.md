@@ -1,8 +1,8 @@
 # Biology Problems OER
 
-This repository holds the MkDocs site content and supporting scripts for Biology Problems OER, a free and open collection of biochemistry, genetics, and related problem sets for students and educators.
+Free and open collection of biochemistry, genetics, and related biology problem sets for students and educators, published as an MkDocs site with Python generators for question banks and printable pages.
 
-The live site is at [https://biologyproblems.org](https://biologyproblems.org).
+The live site is at [biologyproblems.org](https://biologyproblems.org).
 
 ## Documentation
 
@@ -43,12 +43,7 @@ Site content lives under [site_docs/](site_docs/) and is configured by [mkdocs.y
 
 ## Repository structure
 
-When showing a directory tree, use ASCII only. Do not use box drawing characters.
-
-- Allowed: `|`, `+-`, `` `-``, spaces
-- Not allowed: box-drawing characters (for example U+2500, U+2502, U+2514, U+251C)
-
-Example (ASCII only):
+Site content lives under `site_docs/`, one folder per subject and topic:
 
 ```text
 site_docs/
@@ -61,3 +56,5 @@ site_docs/
       `- index.md              # Topic 1 content
 mkdocs.yml                     # Configuration for MkDocs
 ```
+
+See [docs/FILE_STRUCTURE.md](docs/FILE_STRUCTURE.md) for the full directory map.
