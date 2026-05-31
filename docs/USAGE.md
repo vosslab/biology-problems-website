@@ -42,6 +42,28 @@ Open `http://127.0.0.1:8000/`.
   is produced by [generate_pages.py](../generate_pages.py) from reachable topic
   pages and their self-test includes.
 
+## Page generation
+
+[generate_pages.py](../generate_pages.py) regenerates subject index pages, topic
+pages, the generated nav block in [mkdocs.yml](../mkdocs.yml), and the self-test
+manifest from [topics_metadata.yml](../topics_metadata.yml). Run it from the repo
+root:
+
+```bash
+source source_me.sh && python3 generate_pages.py
+```
+
+Common flags (confirmed in the script):
+- Default (no build flags): regenerate subject indexes and the nav block.
+- `-T`, `--topic-pages`: also rebuild `topicNN/index.md` pages.
+- `-G`, `--generate-downloads`: create missing download artifacts (requires `-T`).
+- `--full`: subject indexes, topic pages, and downloads in one run.
+- `-s`, `--subject` / `-t`, `--topic`: limit a run to one subject or topic. The
+  topic filter uses the `subject:alias` form (for example
+  `biochemistry:amino_acids`); see
+  [docs/TOPICS_METADATA_FORMAT.md](TOPICS_METADATA_FORMAT.md).
+- `-n`, `--dry-run`: print what would be written without touching files.
+
 ## Self-test progress
 
 The [Self-test Progress](../site_docs/progress/index.md) dashboard tracks which
@@ -67,3 +89,7 @@ how the `topic` column resolves through aliases, see
 [docs/BBQ_TASK_CSV_FORMAT.md](BBQ_TASK_CSV_FORMAT.md). For the metadata
 schema and alias contract, see
 [docs/TOPICS_METADATA_FORMAT.md](TOPICS_METADATA_FORMAT.md).
+
+## Known gaps
+- Confirm whether `generate_pages.py` Ollama flags (`-O`, `-m`) need usage
+  examples for LLM-assisted problem-set titles.
