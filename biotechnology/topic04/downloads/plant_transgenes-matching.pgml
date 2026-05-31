@@ -1,0 +1,246 @@
+## DESCRIPTION
+## Match each of the following transgenes with their corresponding descriptions.
+## ENDDESCRIPTION
+## KEYWORDS('transgenes','descriptions')
+## DBsubject('Biotechnology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-05-31')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserPopUp.pl',
+    'parserUtils.pl',
+    'PGgraders.pl',
+    'PGcourse.pl'
+);
+our @ALPHABET = ('A' .. 'Z');
+
+# ================================
+# Full matching data
+# ================================
+%match_data = (
+  'DREB1A' => [
+    'Enhances the plant\'s ability to retain water under drought conditions',
+    'Activates stress-responsive genes to help cope with arid environments',
+    'Primarily found in plants that are modified to thrive in drought-prone areas',
+    'Known for its role in enhancing abiotic stress tolerance, particularly drought',
+    'Increases the osmotic potential in plants, allowing them to survive longer without water',
+  ],
+  'Cry/Bt' => [
+    'Functions by producing a protein toxic to specific insect larvae',
+    'Commonly utilized in crops like corn and cotton to reduce reliance on chemical pesticides',
+    'Is derived from the bacterium Bacillus thuringiensis',
+    'Binds to receptors in the insect gut, leading to cell lysis and death',
+    'Considered an environmentally friendly method for pest control as it reduces chemical pesticide use',
+    'Often integrated into plant genomes to produce Cry proteins throughout the plant\'s lifecycle',
+  ],
+  'AVP1' => [
+    'Encodes a proton pump that helps plants tolerate salty environments',
+    'Increases root growth and biomass in transgenic plants',
+    'Plays a key role in vacuolar proton transport',
+    'Often engineered into plants that require high salt tolerance',
+    'Enhances water-use efficiency by increasing cellular ion retention',
+    'Associated with improved phosphorus uptake in plants',
+  ],
+  'aro A (Glyphosate Resistant)' => [
+    'Allows for resistance to glyphosate herbicides',
+    'Developed by transferring aro A gene into a glyphosate EPSP synthetase from Salmonella typhimurium and E. coli',
+  ],
+  'Mutant ALS (Sulphonylurea Resistant)' => [
+    'Encodes for a mutant acetolactate synthetase that allows for resistance to Sulphonylurea herbicides',
+    'Originates from Arabidopsis',
+  ],
+  'QB Protein (Atrazine Resistant)' => [
+    'Derived from mutant Amaranthus hybrids',
+    'Produces atrazine-resistant transgenic plants',
+  ],
+  'TMV Coat Proteins (Virus Resistant)' => [
+    'Provides resistance against Tobacco Mosaic Virus (TMV)',
+    'Developed by introducing viral coat proteins',
+  ],
+  'Beta-Carotene Genes (Nutritional Benefits)' => [
+    'Increases production of beta-carotene as a precursor to vitamin A',
+    'Derived from daffodils and microorganisms',
+  ],
+  'Salt Tolerance Gene (from Mangroves)' => [
+    'Provides salt tolerance',
+    'Derived from Avicennia marina',
+  ],
+  'gut D Gene (Salt Tolerance)' => [
+    'Used to generate salt-tolerant transgenic maize plants',
+    'Originates from Escherichia coli',
+  ],
+  'Therapeutic Proteins' => [
+    'Produces antibodies, proteins, or vaccines for therapeutic use',
+    'Could be useful for various diseases ranging from dental caries to certain cancers',
+  ],
+  'Enhanced Shelf Life Genes' => [
+    'Provides enhanced ability to withstand long-distance transportation',
+    'Allows for longer shelf life of produce',
+  ],
+);
+
+# -------------------------------
+# Select N random keys
+# -------------------------------
+my $n = 4;
+@all_keys = PGsort(sub { $_[0] lt $_[1] }, keys %match_data);
+my $local_seed = (defined($problemSeed) && $problemSeed ne '') ? $problemSeed : 1;
+my $local_random = new PGrandom($local_seed);
+
+my @indices = (0 .. $#all_keys);
+my @shuffled = ();
+while (@indices) {
+  my $pick = $local_random->random(0, $#indices, 1);
+  push @shuffled, splice(@indices, $pick, 1);
+}
+my @selected_keys = @all_keys[@shuffled[0..$n-1]];
+
+# -------------------------------
+# Build question/answer pairs
+# -------------------------------
+# Each entry: [prompt, choice]
+@q_and_a = ();
+foreach my $key (@selected_keys) {
+  my $values_ref = $match_data{$key};
+  my $i = $local_random->random(0, $#$values_ref, 1);
+  my $value = $values_ref->[$i];
+  push @q_and_a, [ $value, $key ];
+}
+
+# -------------------------------
+# Randomize the questions
+# -------------------------------
+my @q_indices = (0 .. $#q_and_a);
+my @q_shuffled = ();
+while (@q_indices) {
+  my $pick = $local_random->random(0, $#q_indices, 1);
+  push @q_shuffled, $q_and_a[splice(@q_indices, $pick, 1)];
+}
+@q_and_a = @q_shuffled;
+
+# -------------------------------
+# Sort the choices alphabetically
+# -------------------------------
+@answers = ();
+push(@answers, (map { $_->[1] } @q_and_a));
+@answers_sorted = PGsort(sub { $_[0] lt $_[1] }, @answers);
+
+# -------------------------------
+# HTML-safe answer labels
+# -------------------------------
+%answer_html = (
+  'DREB1A' => 'DREB1A',
+  'Cry/Bt' => 'Cry/Bt',
+  'AVP1' => 'AVP1',
+  'aro A (Glyphosate Resistant)' => 'aro A (Glyphosate Resistant)',
+  'Mutant ALS (Sulphonylurea Resistant)' => 'Mutant ALS (Sulphonylurea Resistant)',
+  'QB Protein (Atrazine Resistant)' => 'QB Protein (Atrazine Resistant)',
+  'TMV Coat Proteins (Virus Resistant)' => 'TMV Coat Proteins (Virus Resistant)',
+  'Beta-Carotene Genes (Nutritional Benefits)' => 'Beta-Carotene Genes (Nutritional Benefits)',
+  'Salt Tolerance Gene (from Mangroves)' => 'Salt Tolerance Gene (from Mangroves)',
+  'gut D Gene (Salt Tolerance)' => 'gut D Gene (Salt Tolerance)',
+  'Therapeutic Proteins' => 'Therapeutic Proteins',
+  'Enhanced Shelf Life Genes' => 'Enhanced Shelf Life Genes',
+);
+
+@answers_sorted_html = map { $answer_html{$_} || $_ } @answers_sorted;
+
+# -------------------------------
+# Create answer index lookup
+# -------------------------------
+our %answer_index;
+for (my $i = 0; $i <= $#answers_sorted; $i++) {
+  $answer_index{$answers_sorted[$i]} = $i;
+}
+
+# -------------------------------
+# PopUp/DropDown compatibility
+# -------------------------------
+sub make_popup {
+  return defined &DropDown ? DropDown(@_) : PopUp(@_);
+}
+
+# -------------------------------
+# Create popup objects (blank default)
+# -------------------------------
+my @answer_letters = @ALPHABET[0 .. $#answers_sorted];
+my @answer_letters_with_blank = ('', @answer_letters);
+@answer_dropdowns =
+  map { make_popup([ @answer_letters_with_blank ], $answer_index{$q_and_a[$_][1]} + 1 ) }
+  0 .. $#q_and_a;
+
+# -------------------------------
+# Render the question
+# -------------------------------
+HEADER_TEXT(<<END_STYLE);
+<style>
+.two-column {
+    display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	align-items: center;
+	justify-content: space-evenly;
+}
+</style>
+END_STYLE
+
+$question_text = 'Match each of the following transgenes with their corresponding descriptions.';
+$note_text = 'Note: Each choice will be used exactly once.';
+
+BEGIN_PGML
+[$question_text]*
+[$note_text]*
+
+[@ MODES(HTML => '<div class="two-column"><div>') @]*
+[@ join(
+    "\n\n",
+    map {
+        '[_]{$answer_dropdowns[' . $_ . ']} '
+            . '*' . ($_ + 1) . '.* '
+            . '[$q_and_a[' . $_ . '][0]]*'
+    } 0 .. $#q_and_a
+) @]**
+[@ MODES(HTML => '</div><div class="right-col">') @]*
+[@ join(
+    "\n\n",
+    map {
+        chr(65 + $_) . '\\.' . ' ' . '[$answers_sorted_html[' . $_ . ']]*'
+    } 0 .. $#answers_sorted
+) @]**
+[@ MODES(HTML => '</div></div>') @]*
+END_PGML
+
+# -------------------------------
+# Dynamic Partial Credit Based on $n
+# -------------------------------
+$showPartialCorrectAnswers = 0;
+my @thresholds;
+my @scores;
+for (my $i = 1; $i <= $n; $i++) {
+  push @thresholds, $i;
+  push @scores, sprintf("%.2f", $i / $n);
+}
+
+install_problem_grader(~~&custom_problem_grader_fluid);
+$ENV{grader_numright} = [@thresholds];
+$ENV{grader_scores}   = [@scores];
+$ENV{grader_message} = 'You can earn partial credit.';
+
+# -------------------------------
+# Solution
+# -------------------------------
+$answer_list = join(', ', map { ($_ + 1) . '-' . $ALPHABET[$answer_index{$q_and_a[$_][1]}] } 0 .. $#q_and_a);
+BEGIN_PGML_SOLUTION
+The correct answers are: [$answer_list].
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+

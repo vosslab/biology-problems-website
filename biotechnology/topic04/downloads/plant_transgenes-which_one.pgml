@@ -1,0 +1,513 @@
+## DESCRIPTION
+## Select the transgene that corresponds to the given description.
+## ENDDESCRIPTION
+## KEYWORDS('transgenes','descriptions','which one','multiple choice')
+## DBsubject('Biotechnology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-05-31')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserRadioButtons.pl',
+    'PGcourse.pl',
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 0;
+
+#==========================================================
+# QUESTION DATA
+#==========================================================
+
+# All questions data
+@questions_data = (
+  {
+    'item_name' => '<strong>Enhances the plant\'s ability to retain water under drought conditions</strong>',
+    'plural_choice' => 'transgenes',
+    'singular_item' => 'description',
+    'choices' => [
+      'DREB1A',
+      'Cry/Bt',
+      'aro A (Glyphosate Resistant)',
+      'Therapeutic Proteins',
+    ],
+    'correct' => 'DREB1A',
+  },
+  {
+    'item_name' => '<strong>Activates stress-responsive genes to help cope with arid environments</strong>',
+    'plural_choice' => 'transgenes',
+    'singular_item' => 'description',
+    'choices' => [
+      'DREB1A',
+      'Mutant ALS (Sulphonylurea Resistant)',
+      'QB Protein (Atrazine Resistant)',
+      'gut D Gene (Salt Tolerance)',
+    ],
+    'correct' => 'DREB1A',
+  },
+  {
+    'item_name' => '<strong>Primarily found in plants that are modified to thrive in drought-prone areas</strong>',
+    'plural_choice' => 'transgenes',
+    'singular_item' => 'description',
+    'choices' => [
+      'DREB1A',
+      'Cry/Bt',
+      'Mutant ALS (Sulphonylurea Resistant)',
+      'Salt Tolerance Gene (from Mangroves)',
+    ],
+    'correct' => 'DREB1A',
+  },
+  {
+    'item_name' => '<strong>Known for its role in enhancing abiotic stress tolerance, particularly drought</strong>',
+    'plural_choice' => 'transgenes',
+    'singular_item' => 'description',
+    'choices' => [
+      'DREB1A',
+      'Mutant ALS (Sulphonylurea Resistant)',
+      'Beta-Carotene Genes (Nutritional Benefits)',
+      'Therapeutic Proteins',
+    ],
+    'correct' => 'DREB1A',
+  },
+  {
+    'item_name' => '<strong>Increases the osmotic potential in plants, allowing them to survive longer without water</strong>',
+    'plural_choice' => 'transgenes',
+    'singular_item' => 'description',
+    'choices' => [
+      'DREB1A',
+      'Cry/Bt',
+      'AVP1',
+      'Mutant ALS (Sulphonylurea Resistant)',
+    ],
+    'correct' => 'DREB1A',
+  },
+  {
+    'item_name' => '<strong>Functions by producing a protein toxic to specific insect larvae</strong>',
+    'plural_choice' => 'transgenes',
+    'singular_item' => 'description',
+    'choices' => [
+      'Cry/Bt',
+      'TMV Coat Proteins (Virus Resistant)',
+      'Beta-Carotene Genes (Nutritional Benefits)',
+      'Salt Tolerance Gene (from Mangroves)',
+    ],
+    'correct' => 'Cry/Bt',
+  },
+  {
+    'item_name' => '<strong>Commonly utilized in crops like corn and cotton to reduce reliance on chemical pesticides</strong>',
+    'plural_choice' => 'transgenes',
+    'singular_item' => 'description',
+    'choices' => [
+      'DREB1A',
+      'Cry/Bt',
+      'QB Protein (Atrazine Resistant)',
+      'Salt Tolerance Gene (from Mangroves)',
+    ],
+    'correct' => 'Cry/Bt',
+  },
+  {
+    'item_name' => '<strong>Is derived from the bacterium Bacillus thuringiensis</strong>',
+    'plural_choice' => 'transgenes',
+    'singular_item' => 'description',
+    'choices' => [
+      'Cry/Bt',
+      'aro A (Glyphosate Resistant)',
+      'Mutant ALS (Sulphonylurea Resistant)',
+      'QB Protein (Atrazine Resistant)',
+    ],
+    'correct' => 'Cry/Bt',
+  },
+  {
+    'item_name' => '<strong>Binds to receptors in the insect gut, leading to cell lysis and death</strong>',
+    'plural_choice' => 'transgenes',
+    'singular_item' => 'description',
+    'choices' => [
+      'Cry/Bt',
+      'AVP1',
+      'Mutant ALS (Sulphonylurea Resistant)',
+      'Therapeutic Proteins',
+    ],
+    'correct' => 'Cry/Bt',
+  },
+  {
+    'item_name' => '<strong>Considered an environmentally friendly method for pest control as it reduces chemical pesticide use</strong>',
+    'plural_choice' => 'transgenes',
+    'singular_item' => 'description',
+    'choices' => [
+      'DREB1A',
+      'Cry/Bt',
+      'aro A (Glyphosate Resistant)',
+      'TMV Coat Proteins (Virus Resistant)',
+    ],
+    'correct' => 'Cry/Bt',
+  },
+  {
+    'item_name' => '<strong>Often integrated into plant genomes to produce Cry proteins throughout the plant\'s lifecycle</strong>',
+    'plural_choice' => 'transgenes',
+    'singular_item' => 'description',
+    'choices' => [
+      'Cry/Bt',
+      'TMV Coat Proteins (Virus Resistant)',
+      'gut D Gene (Salt Tolerance)',
+      'Therapeutic Proteins',
+    ],
+    'correct' => 'Cry/Bt',
+  },
+  {
+    'item_name' => '<strong>Encodes a proton pump that helps plants tolerate salty environments</strong>',
+    'plural_choice' => 'transgenes',
+    'singular_item' => 'description',
+    'choices' => [
+      'Cry/Bt',
+      'AVP1',
+      'aro A (Glyphosate Resistant)',
+      'gut D Gene (Salt Tolerance)',
+    ],
+    'correct' => 'AVP1',
+  },
+  {
+    'item_name' => '<strong>Increases root growth and biomass in transgenic plants</strong>',
+    'plural_choice' => 'transgenes',
+    'singular_item' => 'description',
+    'choices' => [
+      'Cry/Bt',
+      'AVP1',
+      'QB Protein (Atrazine Resistant)',
+      'Therapeutic Proteins',
+    ],
+    'correct' => 'AVP1',
+  },
+  {
+    'item_name' => '<strong>Plays a key role in vacuolar proton transport</strong>',
+    'plural_choice' => 'transgenes',
+    'singular_item' => 'description',
+    'choices' => [
+      'AVP1',
+      'Salt Tolerance Gene (from Mangroves)',
+      'gut D Gene (Salt Tolerance)',
+      'Enhanced Shelf Life Genes',
+    ],
+    'correct' => 'AVP1',
+  },
+  {
+    'item_name' => '<strong>Often engineered into plants that require high salt tolerance</strong>',
+    'plural_choice' => 'transgenes',
+    'singular_item' => 'description',
+    'choices' => [
+      'AVP1',
+      'QB Protein (Atrazine Resistant)',
+      'TMV Coat Proteins (Virus Resistant)',
+      'gut D Gene (Salt Tolerance)',
+    ],
+    'correct' => 'AVP1',
+  },
+  {
+    'item_name' => '<strong>Enhances water-use efficiency by increasing cellular ion retention</strong>',
+    'plural_choice' => 'transgenes',
+    'singular_item' => 'description',
+    'choices' => [
+      'Cry/Bt',
+      'AVP1',
+      'Beta-Carotene Genes (Nutritional Benefits)',
+      'Salt Tolerance Gene (from Mangroves)',
+    ],
+    'correct' => 'AVP1',
+  },
+  {
+    'item_name' => '<strong>Associated with improved phosphorus uptake in plants</strong>',
+    'plural_choice' => 'transgenes',
+    'singular_item' => 'description',
+    'choices' => [
+      'AVP1',
+      'QB Protein (Atrazine Resistant)',
+      'Salt Tolerance Gene (from Mangroves)',
+      'gut D Gene (Salt Tolerance)',
+    ],
+    'correct' => 'AVP1',
+  },
+  {
+    'item_name' => '<strong>Allows for resistance to glyphosate herbicides</strong>',
+    'plural_choice' => 'transgenes',
+    'singular_item' => 'description',
+    'choices' => [
+      'Cry/Bt',
+      'aro A (Glyphosate Resistant)',
+      'TMV Coat Proteins (Virus Resistant)',
+      'Beta-Carotene Genes (Nutritional Benefits)',
+    ],
+    'correct' => 'aro A (Glyphosate Resistant)',
+  },
+  {
+    'item_name' => '<strong>Developed by transferring aro A gene into a glyphosate EPSP synthetase from Salmonella typhimurium and E. coli</strong>',
+    'plural_choice' => 'transgenes',
+    'singular_item' => 'description',
+    'choices' => [
+      'DREB1A',
+      'Cry/Bt',
+      'AVP1',
+      'aro A (Glyphosate Resistant)',
+    ],
+    'correct' => 'aro A (Glyphosate Resistant)',
+  },
+  {
+    'item_name' => '<strong>Encodes for a mutant acetolactate synthetase that allows for resistance to Sulphonylurea herbicides</strong>',
+    'plural_choice' => 'transgenes',
+    'singular_item' => 'description',
+    'choices' => [
+      'Cry/Bt',
+      'aro A (Glyphosate Resistant)',
+      'Mutant ALS (Sulphonylurea Resistant)',
+      'Salt Tolerance Gene (from Mangroves)',
+    ],
+    'correct' => 'Mutant ALS (Sulphonylurea Resistant)',
+  },
+  {
+    'item_name' => '<strong>Originates from Arabidopsis</strong>',
+    'plural_choice' => 'transgenes',
+    'singular_item' => 'description',
+    'choices' => [
+      'DREB1A',
+      'Mutant ALS (Sulphonylurea Resistant)',
+      'Beta-Carotene Genes (Nutritional Benefits)',
+      'Salt Tolerance Gene (from Mangroves)',
+    ],
+    'correct' => 'Mutant ALS (Sulphonylurea Resistant)',
+  },
+  {
+    'item_name' => '<strong>Derived from mutant Amaranthus hybrids</strong>',
+    'plural_choice' => 'transgenes',
+    'singular_item' => 'description',
+    'choices' => [
+      'DREB1A',
+      'AVP1',
+      'QB Protein (Atrazine Resistant)',
+      'Beta-Carotene Genes (Nutritional Benefits)',
+    ],
+    'correct' => 'QB Protein (Atrazine Resistant)',
+  },
+  {
+    'item_name' => '<strong>Produces atrazine-resistant transgenic plants</strong>',
+    'plural_choice' => 'transgenes',
+    'singular_item' => 'description',
+    'choices' => [
+      'Cry/Bt',
+      'QB Protein (Atrazine Resistant)',
+      'Beta-Carotene Genes (Nutritional Benefits)',
+      'Salt Tolerance Gene (from Mangroves)',
+    ],
+    'correct' => 'QB Protein (Atrazine Resistant)',
+  },
+  {
+    'item_name' => '<strong>Provides resistance against Tobacco Mosaic Virus (TMV)</strong>',
+    'plural_choice' => 'transgenes',
+    'singular_item' => 'description',
+    'choices' => [
+      'Cry/Bt',
+      'Mutant ALS (Sulphonylurea Resistant)',
+      'QB Protein (Atrazine Resistant)',
+      'TMV Coat Proteins (Virus Resistant)',
+    ],
+    'correct' => 'TMV Coat Proteins (Virus Resistant)',
+  },
+  {
+    'item_name' => '<strong>Developed by introducing viral coat proteins</strong>',
+    'plural_choice' => 'transgenes',
+    'singular_item' => 'description',
+    'choices' => [
+      'Cry/Bt',
+      'aro A (Glyphosate Resistant)',
+      'TMV Coat Proteins (Virus Resistant)',
+      'Salt Tolerance Gene (from Mangroves)',
+    ],
+    'correct' => 'TMV Coat Proteins (Virus Resistant)',
+  },
+  {
+    'item_name' => '<strong>Increases production of beta-carotene as a precursor to vitamin A</strong>',
+    'plural_choice' => 'transgenes',
+    'singular_item' => 'description',
+    'choices' => [
+      'DREB1A',
+      'Mutant ALS (Sulphonylurea Resistant)',
+      'TMV Coat Proteins (Virus Resistant)',
+      'Beta-Carotene Genes (Nutritional Benefits)',
+    ],
+    'correct' => 'Beta-Carotene Genes (Nutritional Benefits)',
+  },
+  {
+    'item_name' => '<strong>Derived from daffodils and microorganisms</strong>',
+    'plural_choice' => 'transgenes',
+    'singular_item' => 'description',
+    'choices' => [
+      'Cry/Bt',
+      'Mutant ALS (Sulphonylurea Resistant)',
+      'Beta-Carotene Genes (Nutritional Benefits)',
+      'Therapeutic Proteins',
+    ],
+    'correct' => 'Beta-Carotene Genes (Nutritional Benefits)',
+  },
+  {
+    'item_name' => '<strong>Provides salt tolerance</strong>',
+    'plural_choice' => 'transgenes',
+    'singular_item' => 'description',
+    'choices' => [
+      'Mutant ALS (Sulphonylurea Resistant)',
+      'Beta-Carotene Genes (Nutritional Benefits)',
+      'Salt Tolerance Gene (from Mangroves)',
+      'Enhanced Shelf Life Genes',
+    ],
+    'correct' => 'Salt Tolerance Gene (from Mangroves)',
+  },
+  {
+    'item_name' => '<strong>Derived from Avicennia marina</strong>',
+    'plural_choice' => 'transgenes',
+    'singular_item' => 'description',
+    'choices' => [
+      'Cry/Bt',
+      'Mutant ALS (Sulphonylurea Resistant)',
+      'TMV Coat Proteins (Virus Resistant)',
+      'Salt Tolerance Gene (from Mangroves)',
+    ],
+    'correct' => 'Salt Tolerance Gene (from Mangroves)',
+  },
+  {
+    'item_name' => '<strong>Used to generate salt-tolerant transgenic maize plants</strong>',
+    'plural_choice' => 'transgenes',
+    'singular_item' => 'description',
+    'choices' => [
+      'DREB1A',
+      'Cry/Bt',
+      'Salt Tolerance Gene (from Mangroves)',
+      'gut D Gene (Salt Tolerance)',
+    ],
+    'correct' => 'gut D Gene (Salt Tolerance)',
+  },
+  {
+    'item_name' => '<strong>Originates from Escherichia coli</strong>',
+    'plural_choice' => 'transgenes',
+    'singular_item' => 'description',
+    'choices' => [
+      'Beta-Carotene Genes (Nutritional Benefits)',
+      'gut D Gene (Salt Tolerance)',
+      'Therapeutic Proteins',
+      'Enhanced Shelf Life Genes',
+    ],
+    'correct' => 'gut D Gene (Salt Tolerance)',
+  },
+  {
+    'item_name' => '<strong>Produces antibodies, proteins, or vaccines for therapeutic use</strong>',
+    'plural_choice' => 'transgenes',
+    'singular_item' => 'description',
+    'choices' => [
+      'aro A (Glyphosate Resistant)',
+      'Beta-Carotene Genes (Nutritional Benefits)',
+      'gut D Gene (Salt Tolerance)',
+      'Therapeutic Proteins',
+    ],
+    'correct' => 'Therapeutic Proteins',
+  },
+  {
+    'item_name' => '<strong>Could be useful for various diseases ranging from dental caries to certain cancers</strong>',
+    'plural_choice' => 'transgenes',
+    'singular_item' => 'description',
+    'choices' => [
+      'DREB1A',
+      'aro A (Glyphosate Resistant)',
+      'Therapeutic Proteins',
+      'Enhanced Shelf Life Genes',
+    ],
+    'correct' => 'Therapeutic Proteins',
+  },
+  {
+    'item_name' => '<strong>Provides enhanced ability to withstand long-distance transportation</strong>',
+    'plural_choice' => 'transgenes',
+    'singular_item' => 'description',
+    'choices' => [
+      'aro A (Glyphosate Resistant)',
+      'Mutant ALS (Sulphonylurea Resistant)',
+      'QB Protein (Atrazine Resistant)',
+      'Enhanced Shelf Life Genes',
+    ],
+    'correct' => 'Enhanced Shelf Life Genes',
+  },
+  {
+    'item_name' => '<strong>Allows for longer shelf life of produce</strong>',
+    'plural_choice' => 'transgenes',
+    'singular_item' => 'description',
+    'choices' => [
+      'aro A (Glyphosate Resistant)',
+      'Beta-Carotene Genes (Nutritional Benefits)',
+      'gut D Gene (Salt Tolerance)',
+      'Enhanced Shelf Life Genes',
+    ],
+    'correct' => 'Enhanced Shelf Life Genes',
+  },
+);
+
+#==========================================================
+# SELECT RANDOM QUESTION
+#==========================================================
+
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+
+$question_idx = $local_random->random(0, scalar(@questions_data) - 1, 1);
+$q = $questions_data[$question_idx];
+
+$item_name = $q->{'item_name'};
+$plural_choice = $q->{'plural_choice'};
+$singular_item = $q->{'singular_item'};
+@choices = @{ $q->{'choices'} };
+$correct = $q->{'correct'};
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# BUILD RADIO BUTTONS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => 'ABC',
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+Which one of the following [$plural_choice]* corresponds to the [$singular_item]* [$item_name]*?
+
+[_]{$rb}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The correct answer is: [$correct]*
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+
