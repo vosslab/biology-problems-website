@@ -132,6 +132,11 @@ nav:
   - "08: Graph Interpretation": biostatistics/topic08/index.md
 - "💊 Biotechnology":
   - biotechnology/index.md
+  - "01: Biotech Basics and Central Dogma": biotechnology/topic01/index.md
+  - "02: DNA and Genomics": biotechnology/topic02/index.md
+  - "04: Environmental and Synthetic Biology": biotechnology/topic04/index.md
+  - "05: Medicinal Biotechnology": biotechnology/topic05/index.md
+  - "07: Bioethics in Biotechnology": biotechnology/topic07/index.md
 - "📚 Other":
   - other/index.md
   - "01: Cell Biology": other/topic01/index.md

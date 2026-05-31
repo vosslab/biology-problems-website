@@ -76,6 +76,25 @@ def test_manifest_uses_reachable_topic_pages(tmp_path):
 	assert manifest["questions"][0]["topicTitle"] == "Cells"
 
 
+def test_manifest_skips_unrendered_topic_page(tmp_path):
+	# Nav lists biology/topic01/index.md, but a fast subject-index-only run
+	# may not have rendered that index.md yet. The manifest must skip the
+	# unrendered page instead of crashing on the missing file.
+	site_docs = tmp_path / "site_docs"
+	site_docs.mkdir(parents=True)
+	# Intentionally do NOT create site_docs/biology/topic01/index.md.
+	metadata_path = tmp_path / "topics_metadata.yml"
+	mkdocs_path = tmp_path / "mkdocs.yml"
+	_write_metadata(metadata_path)
+	_write_mkdocs(mkdocs_path)
+	manifest = selftest_manifest.build_manifest(
+		site_docs_dir=str(site_docs),
+		mkdocs_path=str(mkdocs_path),
+		metadata_path=str(metadata_path),
+	)
+	assert manifest["questions"] == []
+
+
 def test_manifest_rejects_duplicate_crc(tmp_path):
 	site_docs = tmp_path / "site_docs"
 	topic_dir = site_docs / "biology" / "topic01"

@@ -1,0 +1,227 @@
+## TITLE('Topic of a &YEAR; Nobel Prizes Awarded This Week')
+## DESCRIPTION
+## Select the statement that is TRUE or FALSE about topic of a &YEAR; Nobel Prizes awarded this week.
+## ENDDESCRIPTION
+## KEYWORDS('topic of a &YEAR; Nobel Prizes awarded this week','true/false','multiple choice')
+## DBsubject('Biotechnology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-05-31')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "PGchoicemacros.pl",
+  "parserRadioButtons.pl",
+  "PGcourse.pl",
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+#==========================================================
+# AUTO-GENERATED GROUPS FROM YAML
+#==========================================================
+
+@true_groups = (
+  [
+    'discoveries concerning the genomes of extinct hominins and human evolution',
+  ],
+  [
+    'development of click chemistry in which molecular building blocks snap together quickly and efficiently',
+  ],
+  [
+    'development of bioorthogonal chemistry reactions that take place without disrupting the normal chemistry of the cell',
+  ],
+  [
+    'establishing the violation of Bell inequalities and pioneering quantum information science using entangled photons',
+  ],
+);
+@false_groups = (
+  [
+    'used a method called X-ray crystallography to solve the structure and function of the ribosome',
+  ],
+  [
+    'discoveries concerning the activation of innate immunity when encountering pathogenic microorganisms',
+  ],
+  [
+    'discovery of the dendritic cell and its role in adaptive immunity, a memory against pathogenic substances',
+  ],
+  [
+    'discovery of quasicrystals with regular patterns that never repeat themselves that was considered impossible',
+  ],
+  [
+    'discovery that mature cells can be reprogrammed to become pluripotent stem cells',
+  ],
+  [
+    'discovery and studies of G-protein coupled receptors (GPCRs)',
+  ],
+  [
+    'discoveries of machinery regulating vesicle transport in our cells',
+  ],
+  [
+    'development of multiscale models for complex chemical systems',
+  ],
+  [
+    'discoveries of cells that constitute a positioning system in the brain',
+  ],
+  [
+    'development of super-resolved fluorescence microscopy',
+  ],
+  [
+    'discoveries concerning a novel therapy against Malaria',
+  ],
+  [
+    'discoveries concerning a novel therapy against infections caused by roundworm parasites',
+  ],
+  [
+    'mechanistic studies of DNA repair and how cells repair damaged DNA and safeguard the genetic information',
+  ],
+  [
+    'discoveries of mechanisms for autophagy',
+  ],
+  [
+    'design and synthesis of molecular machines to be used in the development of new materials, sensors, and energy storage',
+  ],
+  [
+    'discoveries of molecular mechanisms controlling the circadian rhythm',
+  ],
+  [
+    'developing cryo-electron microscopy high-resolution structure determination of biomolecules in solution',
+  ],
+  [
+    'discovery of cancer therapy by inhibition of negative immune regulation',
+  ],
+  [
+    'development of directed evolution of enzymes used to manufacture everything from biofuels to pharmaceuticals',
+  ],
+  [
+    'development of phage display used to evolve new proteins, peptides, and antibodies',
+  ],
+  [
+    'discoveries of how cells sense and adapt to oxygen availability',
+  ],
+  [
+    'development of lithium-ion batteries that are lightweight, rechargeable, powerful, and store significant amounts of energy',
+  ],
+  [
+    'advanced mathematical methods to study unusual states of matter, such as superconductors, superfluids and thin magnetic films',
+  ],
+  [
+    'discovery of blood-borne Hepatitis C virus, a major global health problem',
+  ],
+  [
+    'development of the method for precise genome editing using CRISPR/Cas9 genetic scissors',
+  ],
+  [
+    'development of asymmetric organocatalysis tools that revolutionised pharmaceutical research and made chemistry greener',
+  ],
+  [
+    'discoveries of the molecular basis for sensing heat, cold and mechanical force, which is fundamental for our ability to feel and touch',
+  ],
+  [
+    'physical modelling of Earth climate: quantifying variability and reliably predicting global warming',
+  ],
+  [
+    'discovery of the interplay of disorder and fluctuations in physical systems from atomic to planetary scales',
+  ],
+);
+
+#==========================================================
+# GLOBAL SETTINGS
+#==========================================================
+
+$topic = 'topic of a &YEAR; Nobel Prizes awarded this week';
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+my @mode_choices = ("TRUE", "FALSE");
+$mode = $mode_choices[$local_random->random(0, $#mode_choices, 1)];
+$num_distractors = 4;
+# Question text with TRUE override
+$question_true = 'BONUS: Which of the following was a topic of the 2022 Nobel Prizes awarded this week?';
+# Question text with FALSE override
+$question_false = 'BONUS: Which of the following was NOT a topic of the 2022 Nobel Prizes awarded this week??';
+#==========================================================
+# SELECT GROUP
+#==========================================================
+
+my (@selected_group, @opposite_groups);
+
+if ($mode eq "TRUE") {
+  $group_index      = $local_random->random(0, scalar(@true_groups)-1, 1);
+  @selected_group   = @{ $true_groups[$group_index] };
+  @opposite_groups  = @false_groups;
+} else {
+  $group_index      = $local_random->random(0, scalar(@false_groups)-1, 1);
+  @selected_group   = @{ $false_groups[$group_index] };
+  @opposite_groups  = @true_groups;
+}
+
+#==========================================================
+# PICK CORRECT + DISTRACTORS
+#==========================================================
+
+my $correct_index = $local_random->random(0, $#selected_group, 1);
+$correct = $selected_group[$correct_index];
+
+my @available_group_indices = (0 .. $#opposite_groups);
+my @selected_distractor_indices = ();
+
+while (@selected_distractor_indices < $num_distractors && @available_group_indices > 0) {
+  my $random_index = $local_random->random(0, scalar(@available_group_indices)-1, 1);
+  push @selected_distractor_indices, splice(@available_group_indices, $random_index, 1);
+}
+
+@distractors = ();
+foreach my $group_idx (@selected_distractor_indices) {
+  my @group = @{ $opposite_groups[$group_idx] };
+  my $distractor_index = $local_random->random(0, $#group, 1);
+  my $distractor = $group[$distractor_index];
+  push @distractors, $distractor;
+}
+
+@choices = ($correct, @distractors);
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# RADIO BUTTONS WITH A/B/C/D/E LABELS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => ['A','B','C','D','E'],
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+[@ $mode eq "TRUE" ? $question_true : $question_false @]*
+
+[_]{$rb}
+
+END_PGML
+
+ENDDOCUMENT();
+
