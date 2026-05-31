@@ -22,6 +22,15 @@
   the rendered nav.
 
 ### Fixes and Maintenance
+- Fixed a `FileNotFoundError` in
+  [selftest_manifest.py](../bioproblems_site/selftest_manifest.py) when a
+  fast subject-index-only run (the default `generate_pages.py` path) lists a
+  topic page in the mkdocs nav before its `index.md` is rendered.
+  `build_manifest` now skips nav topic pages with no `index.md` on disk,
+  matching the "reachable from rendered topic pages" contract; the
+  missing-selftest-include check stays a hard error. Added
+  `test_manifest_skips_unrendered_topic_page` to
+  [test_selftest_manifest.py](../tests/test_selftest_manifest.py).
 - Added the new biotechnology subject and topics to
   [CODE_ARCHITECTURE.md](CODE_ARCHITECTURE.md),
   [FILE_STRUCTURE.md](FILE_STRUCTURE.md), and the per-subject task-CSV

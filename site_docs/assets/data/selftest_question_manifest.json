@@ -981,6 +981,166 @@
       "topicTitle": "Graph Interpretation"
     },
     {
+      "crc": "1d38_7c07",
+      "pagePath": "biotechnology/topic01/index.md",
+      "questionFingerprint": "28765b4b1e6afa1d",
+      "questionId": "1d38_7c07",
+      "selftestPath": "biotechnology/topic01/downloads/selftest-MATCH-biotech_vs.html",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic01",
+      "topicTitle": "Biotech Basics and Central Dogma"
+    },
+    {
+      "crc": "8668_5238",
+      "pagePath": "biotechnology/topic01/index.md",
+      "questionFingerprint": "1658ac1d50999aad",
+      "questionId": "8668_5238",
+      "selftestPath": "biotechnology/topic01/downloads/selftest-MATCH-biotech_vs_improved.html",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic01",
+      "topicTitle": "Biotech Basics and Central Dogma"
+    },
+    {
+      "crc": "fc52_a20d",
+      "pagePath": "biotechnology/topic01/index.md",
+      "questionFingerprint": "27e7c401b03651d9",
+      "questionId": "fc52_a20d",
+      "selftestPath": "biotechnology/topic01/downloads/selftest-MATCH-culture_enrichment.html",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic01",
+      "topicTitle": "Biotech Basics and Central Dogma"
+    },
+    {
+      "crc": "b005_1d78",
+      "pagePath": "biotechnology/topic01/index.md",
+      "questionFingerprint": "c821504eb61481ff",
+      "questionId": "b005_1d78",
+      "selftestPath": "biotechnology/topic01/downloads/selftest-TFMS-nobel_prizes.html",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic01",
+      "topicTitle": "Biotech Basics and Central Dogma"
+    },
+    {
+      "crc": "97ed_f66b",
+      "pagePath": "biotechnology/topic01/index.md",
+      "questionFingerprint": "7da09286d589477b",
+      "questionId": "97ed_f66b",
+      "selftestPath": "biotechnology/topic01/downloads/selftest-WOMC-biotech_vs.html",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic01",
+      "topicTitle": "Biotech Basics and Central Dogma"
+    },
+    {
+      "crc": "01cc_03e5",
+      "pagePath": "biotechnology/topic01/index.md",
+      "questionFingerprint": "fe0d17895c9f4147",
+      "questionId": "01cc_03e5",
+      "selftestPath": "biotechnology/topic01/downloads/selftest-WOMC-biotech_vs_improved.html",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic01",
+      "topicTitle": "Biotech Basics and Central Dogma"
+    },
+    {
+      "crc": "206b_39dd",
+      "pagePath": "biotechnology/topic01/index.md",
+      "questionFingerprint": "c3ea69d2559e4329",
+      "questionId": "206b_39dd",
+      "selftestPath": "biotechnology/topic01/downloads/selftest-WOMC-culture_enrichment.html",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic01",
+      "topicTitle": "Biotech Basics and Central Dogma"
+    },
+    {
+      "crc": "38e7_ae54",
+      "pagePath": "biotechnology/topic02/index.md",
+      "questionFingerprint": "1732a78f3d9b6385",
+      "questionId": "38e7_ae54",
+      "selftestPath": "biotechnology/topic02/downloads/selftest-MATCH-dna_sequencing.html",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic02",
+      "topicTitle": "DNA and Genomics"
+    },
+    {
+      "crc": "2f1d_39fd",
+      "pagePath": "biotechnology/topic02/index.md",
+      "questionFingerprint": "f8ed2089e81bf8b2",
+      "questionId": "2f1d_39fd",
+      "selftestPath": "biotechnology/topic02/downloads/selftest-TFMS-xna_and_xdna.html",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic02",
+      "topicTitle": "DNA and Genomics"
+    },
+    {
+      "crc": "681a_3074",
+      "pagePath": "biotechnology/topic02/index.md",
+      "questionFingerprint": "03421cbae7336d6e",
+      "questionId": "681a_3074",
+      "selftestPath": "biotechnology/topic02/downloads/selftest-WOMC-dna_sequencing.html",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic02",
+      "topicTitle": "DNA and Genomics"
+    },
+    {
+      "crc": "6273_7c6b",
+      "pagePath": "biotechnology/topic04/index.md",
+      "questionFingerprint": "46aa69b32ba473eb",
+      "questionId": "6273_7c6b",
+      "selftestPath": "biotechnology/topic04/downloads/selftest-MATCH-plant_transgenes.html",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic04",
+      "topicTitle": "Environmental and Synthetic Biology"
+    },
+    {
+      "crc": "19dd_3be3",
+      "pagePath": "biotechnology/topic04/index.md",
+      "questionFingerprint": "49a50abdbbf36195",
+      "questionId": "19dd_3be3",
+      "selftestPath": "biotechnology/topic04/downloads/selftest-WOMC-plant_transgenes.html",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic04",
+      "topicTitle": "Environmental and Synthetic Biology"
+    },
+    {
+      "crc": "e57d_751f",
+      "pagePath": "biotechnology/topic05/index.md",
+      "questionFingerprint": "b1520b640bd8f2d9",
+      "questionId": "e57d_751f",
+      "selftestPath": "biotechnology/topic05/downloads/selftest-MATCH-stem_cell_potency.html",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic05",
+      "topicTitle": "Medicinal Biotechnology"
+    },
+    {
+      "crc": "422a_e12f",
+      "pagePath": "biotechnology/topic05/index.md",
+      "questionFingerprint": "ec19ae0b09260b0c",
+      "questionId": "422a_e12f",
+      "selftestPath": "biotechnology/topic05/downloads/selftest-WOMC-stem_cell_potency.html",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic05",
+      "topicTitle": "Medicinal Biotechnology"
+    },
+    {
+      "crc": "aa4b_5ed3",
+      "pagePath": "biotechnology/topic07/index.md",
+      "questionFingerprint": "533f9c848d0bbfd2",
+      "questionId": "aa4b_5ed3",
+      "selftestPath": "biotechnology/topic07/downloads/selftest-MATCH-theranos_people.html",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic07",
+      "topicTitle": "Bioethics in Biotechnology"
+    },
+    {
+      "crc": "644d_bfe4",
+      "pagePath": "biotechnology/topic07/index.md",
+      "questionFingerprint": "f95b88657aa4080b",
+      "questionId": "644d_bfe4",
+      "selftestPath": "biotechnology/topic07/downloads/selftest-WOMC-theranos_people.html",
+      "subjectKey": "biotechnology",
+      "topicKey": "topic07",
+      "topicTitle": "Bioethics in Biotechnology"
+    },
+    {
       "crc": "9fb0_0eb5",
       "pagePath": "genetics/topic01/index.md",
       "questionFingerprint": "9a7e0c8eee77ed90",

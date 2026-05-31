@@ -1,0 +1,366 @@
+## DESCRIPTION
+## Select the character in the Theranos story that corresponds to the given information.
+## ENDDESCRIPTION
+## KEYWORDS('characters in the Theranos story','information','which one','multiple choice')
+## DBsubject('Biotechnology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-05-31')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserRadioButtons.pl',
+    'PGcourse.pl',
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 0;
+
+#==========================================================
+# QUESTION DATA
+#==========================================================
+
+# All questions data
+@questions_data = (
+  {
+    'item_name' => '<strong>Founder and chief execuitive officer (CEO) of Theranos</strong>',
+    'plural_choice' => 'characters in the Theranos story',
+    'singular_item' => 'information',
+    'choices' => [
+      'Elizabeth Holmes',
+      'Tyler Shultz',
+      'David Boies',
+      'Phyllis Gardner',
+      'John Carreyrou',
+    ],
+    'correct' => 'Elizabeth Holmes',
+  },
+  {
+    'item_name' => '<strong>youngest and wealthiest self-made female billionaire in America based on the $9-billion company valuation</strong>',
+    'plural_choice' => 'characters in the Theranos story',
+    'singular_item' => 'information',
+    'choices' => [
+      'Elizabeth Holmes',
+      'George Shultz',
+      'Tyler Shultz',
+      'Avie Tevanian',
+      'Amanda Seyfried',
+    ],
+    'correct' => 'Elizabeth Holmes',
+  },
+  {
+    'item_name' => '<strong>dropped out of Stanford in 2004 to start her own blood testing company</strong>',
+    'plural_choice' => 'characters in the Theranos story',
+    'singular_item' => 'information',
+    'choices' => [
+      'Elizabeth Holmes',
+      'George Shultz',
+      'Tyler Shultz',
+      'Channing Robertson',
+      'Phyllis Gardner',
+    ],
+    'correct' => 'Elizabeth Holmes',
+  },
+  {
+    'item_name' => '<strong>former president and chief operating officer (COO) of Theranos</strong>',
+    'plural_choice' => 'characters in the Theranos story',
+    'singular_item' => 'information',
+    'choices' => [
+      'Ramesh "Sunny" Balwani',
+      'David Boies',
+      'Phyllis Gardner',
+      'John Carreyrou',
+      'Amanda Seyfried',
+    ],
+    'correct' => 'Ramesh "Sunny" Balwani',
+  },
+  {
+    'item_name' => '<strong>joined Theranos in 2009 and ran the company\'s day-to- day operations as its president</strong>',
+    'plural_choice' => 'characters in the Theranos story',
+    'singular_item' => 'information',
+    'choices' => [
+      'Ramesh "Sunny" Balwani',
+      'David Boies',
+      'Phyllis Gardner',
+      'Rupert Murdoch',
+      'Avie Tevanian',
+    ],
+    'correct' => 'Ramesh "Sunny" Balwani',
+  },
+  {
+    'item_name' => '<strong>was in a romantic relationship with Elizabeth Holmes during his tenure at Theranos</strong>',
+    'plural_choice' => 'characters in the Theranos story',
+    'singular_item' => 'information',
+    'choices' => [
+      'Ramesh "Sunny" Balwani',
+      'George Shultz',
+      'Erika Cheung',
+      'David Boies',
+      'Dr. Richard Fuisz, MD',
+    ],
+    'correct' => 'Ramesh "Sunny" Balwani',
+  },
+  {
+    'item_name' => '<strong>former secretary of state and chairman of the Theranos board</strong>',
+    'plural_choice' => 'characters in the Theranos story',
+    'singular_item' => 'information',
+    'choices' => [
+      'George Shultz',
+      'Tyler Shultz',
+      'Erika Cheung',
+      'John Carreyrou',
+      'Amanda Seyfried',
+    ],
+    'correct' => 'George Shultz',
+  },
+  {
+    'item_name' => '<strong>chairman of the board and his grandson Tyler was one of the whistleblowers for problems at Theranos</strong>',
+    'plural_choice' => 'characters in the Theranos story',
+    'singular_item' => 'information',
+    'choices' => [
+      'George Shultz',
+      'Tyler Shultz',
+      'Rupert Murdoch',
+      'Dr. Richard Fuisz, MD',
+      'Amanda Seyfried',
+    ],
+    'correct' => 'George Shultz',
+  },
+  {
+    'item_name' => '<strong>one of the whistleblowers for problems at Theranos whose grandfather was chairman of the board</strong>',
+    'plural_choice' => 'characters in the Theranos story',
+    'singular_item' => 'information',
+    'choices' => [
+      'Tyler Shultz',
+      'Erika Cheung',
+      'Channing Robertson',
+      'Rupert Murdoch',
+      'John Carreyrou',
+    ],
+    'correct' => 'Tyler Shultz',
+  },
+  {
+    'item_name' => '<strong>served as a confidential source for the Wall Street Journal showing the company\'s device was faulty</strong>',
+    'plural_choice' => 'characters in the Theranos story',
+    'singular_item' => 'information',
+    'choices' => [
+      'Tyler Shultz',
+      'Erika Cheung',
+      'David Boies',
+      'Channing Robertson',
+      'Rupert Murdoch',
+    ],
+    'correct' => 'Tyler Shultz',
+  },
+  {
+    'item_name' => '<strong>with chemist and biologist degrees from Berkeley, she was the main whistleblower</strong>',
+    'plural_choice' => 'characters in the Theranos story',
+    'singular_item' => 'information',
+    'choices' => [
+      'Ramesh "Sunny" Balwani',
+      'Erika Cheung',
+      'Channing Robertson',
+      'Dr. Richard Fuisz, MD',
+      'Avie Tevanian',
+    ],
+    'correct' => 'Erika Cheung',
+  },
+  {
+    'item_name' => '<strong>the "pitbull" lawyer who represented Theranos and hired private investigators to harass employees</strong>',
+    'plural_choice' => 'characters in the Theranos story',
+    'singular_item' => 'information',
+    'choices' => [
+      'Tyler Shultz',
+      'David Boies',
+      'Channing Robertson',
+      'Avie Tevanian',
+      'John Carreyrou',
+    ],
+    'correct' => 'David Boies',
+  },
+  {
+    'item_name' => '<strong>Stanford professor who first encouraged Holmes to start her company</strong>',
+    'plural_choice' => 'characters in the Theranos story',
+    'singular_item' => 'information',
+    'choices' => [
+      'George Shultz',
+      'Channing Robertson',
+      'Phyllis Gardner',
+      'Rupert Murdoch',
+      'Dr. Richard Fuisz, MD',
+    ],
+    'correct' => 'Channing Robertson',
+  },
+  {
+    'item_name' => '<strong>Stanford professor who was skeptical of Holmes early on</strong>',
+    'plural_choice' => 'characters in the Theranos story',
+    'singular_item' => 'information',
+    'choices' => [
+      'Ramesh "Sunny" Balwani',
+      'Tyler Shultz',
+      'David Boies',
+      'Channing Robertson',
+      'Phyllis Gardner',
+    ],
+    'correct' => 'Phyllis Gardner',
+  },
+  {
+    'item_name' => '<strong>professor who knew from the moment the Holmes had her "brilliant" idea that it wouldn\'t work</strong>',
+    'plural_choice' => 'characters in the Theranos story',
+    'singular_item' => 'information',
+    'choices' => [
+      'George Shultz',
+      'Phyllis Gardner',
+      'Rupert Murdoch',
+      'Dr. Richard Fuisz, MD',
+      'Amanda Seyfried',
+    ],
+    'correct' => 'Phyllis Gardner',
+  },
+  {
+    'item_name' => '<strong>Owner of the Wall Street Journal newspaper who could have killed the information leak</strong>',
+    'plural_choice' => 'characters in the Theranos story',
+    'singular_item' => 'information',
+    'choices' => [
+      'George Shultz',
+      'Erika Cheung',
+      'Channing Robertson',
+      'Rupert Murdoch',
+      'Amanda Seyfried',
+    ],
+    'correct' => 'Rupert Murdoch',
+  },
+  {
+    'item_name' => '<strong>childhood neighbor of Holmes who was sued by Theranos for a misappropriated patent</strong>',
+    'plural_choice' => 'characters in the Theranos story',
+    'singular_item' => 'information',
+    'choices' => [
+      'George Shultz',
+      'Tyler Shultz',
+      'Rupert Murdoch',
+      'Dr. Richard Fuisz, MD',
+      'John Carreyrou',
+    ],
+    'correct' => 'Dr. Richard Fuisz, MD',
+  },
+  {
+    'item_name' => '<strong>investor from Apple who was forced to step down for asking too many questions</strong>',
+    'plural_choice' => 'characters in the Theranos story',
+    'singular_item' => 'information',
+    'choices' => [
+      'Erika Cheung',
+      'David Boies',
+      'Channing Robertson',
+      'Avie Tevanian',
+      'Amanda Seyfried',
+    ],
+    'correct' => 'Avie Tevanian',
+  },
+  {
+    'item_name' => '<strong>journalist that was first to expose Theranos scandal</strong>',
+    'plural_choice' => 'characters in the Theranos story',
+    'singular_item' => 'information',
+    'choices' => [
+      'Tyler Shultz',
+      'Erika Cheung',
+      'David Boies',
+      'John Carreyrou',
+      'Amanda Seyfried',
+    ],
+    'correct' => 'John Carreyrou',
+  },
+  {
+    'item_name' => '<strong>author of Bad Blood book, Theranos tracked his movements to prevent him from getting secrets</strong>',
+    'plural_choice' => 'characters in the Theranos story',
+    'singular_item' => 'information',
+    'choices' => [
+      'Elizabeth Holmes',
+      'Ramesh "Sunny" Balwani',
+      'Rupert Murdoch',
+      'Avie Tevanian',
+      'John Carreyrou',
+    ],
+    'correct' => 'John Carreyrou',
+  },
+  {
+    'item_name' => '<strong>actress who portrays Holmes in the Hulu TV series, The Dropout</strong>',
+    'plural_choice' => 'characters in the Theranos story',
+    'singular_item' => 'information',
+    'choices' => [
+      'Elizabeth Holmes',
+      'George Shultz',
+      'Tyler Shultz',
+      'John Carreyrou',
+      'Amanda Seyfried',
+    ],
+    'correct' => 'Amanda Seyfried',
+  },
+);
+
+#==========================================================
+# SELECT RANDOM QUESTION
+#==========================================================
+
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+
+$question_idx = $local_random->random(0, scalar(@questions_data) - 1, 1);
+$q = $questions_data[$question_idx];
+
+$item_name = $q->{'item_name'};
+$plural_choice = $q->{'plural_choice'};
+$singular_item = $q->{'singular_item'};
+@choices = @{ $q->{'choices'} };
+$correct = $q->{'correct'};
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# BUILD RADIO BUTTONS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => 'ABC',
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+Which one of the following [$plural_choice]* corresponds to the [$singular_item]* [$item_name]*?
+
+[_]{$rb}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The correct answer is: [$correct]*
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+

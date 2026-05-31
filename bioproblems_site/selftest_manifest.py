@@ -113,6 +113,11 @@ def build_manifest(
 		subject_key = page_match.group(1)
 		topic_key = page_match.group(2)
 		full_page_path = os.path.join(site_docs_dir, page_path)
+		# A topic page can be listed in nav (questions exist on disk) before
+		# its index.md is rendered: fast subject-index-only runs skip topic
+		# pages. An unrendered page exposes no reachable questions, so skip it.
+		if not os.path.isfile(full_page_path):
+			continue
 		with open(full_page_path, "r") as file_pointer:
 			page_text = file_pointer.read()
 		for include_path in _extract_include_paths(page_text):

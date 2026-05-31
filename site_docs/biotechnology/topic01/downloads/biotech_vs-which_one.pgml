@@ -1,0 +1,345 @@
+## DESCRIPTION
+## Select the industry that corresponds to the given description.
+## ENDDESCRIPTION
+## KEYWORDS('industries','descriptions','which one','multiple choice')
+## DBsubject('Biotechnology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-05-31')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserRadioButtons.pl',
+    'PGcourse.pl',
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 0;
+
+#==========================================================
+# QUESTION DATA
+#==========================================================
+
+# All questions data
+@questions_data = (
+  {
+    'item_name' => '<strong>using bacteria to make yogurt</strong>',
+    'plural_choice' => 'industries',
+    'singular_item' => 'description',
+    'choices' => [
+      'Biotechnology',
+      'Pharmaceuticals',
+      'Engineering',
+      'Medical Devices',
+    ],
+    'correct' => 'Biotechnology',
+  },
+  {
+    'item_name' => '<strong>using bacteria to make cheese</strong>',
+    'plural_choice' => 'industries',
+    'singular_item' => 'description',
+    'choices' => [
+      'Biotechnology',
+      'Pharmaceuticals',
+      'Engineering',
+      'Medical Devices',
+    ],
+    'correct' => 'Biotechnology',
+  },
+  {
+    'item_name' => '<strong>using yeast to brew beer</strong>',
+    'plural_choice' => 'industries',
+    'singular_item' => 'description',
+    'choices' => [
+      'Biotechnology',
+      'Pharmaceuticals',
+      'Engineering',
+      'Medical Devices',
+    ],
+    'correct' => 'Biotechnology',
+  },
+  {
+    'item_name' => '<strong>using yeast to ferment wine</strong>',
+    'plural_choice' => 'industries',
+    'singular_item' => 'description',
+    'choices' => [
+      'Biotechnology',
+      'Pharmaceuticals',
+      'Engineering',
+      'Medical Devices',
+    ],
+    'correct' => 'Biotechnology',
+  },
+  {
+    'item_name' => '<strong>using yeast to bake bread</strong>',
+    'plural_choice' => 'industries',
+    'singular_item' => 'description',
+    'choices' => [
+      'Biotechnology',
+      'Pharmaceuticals',
+      'Engineering',
+      'Medical Devices',
+    ],
+    'correct' => 'Biotechnology',
+  },
+  {
+    'item_name' => '<strong>crossing two varieties of apples to create a new variety</strong>',
+    'plural_choice' => 'industries',
+    'singular_item' => 'description',
+    'choices' => [
+      'Biotechnology',
+      'Pharmaceuticals',
+      'Engineering',
+      'Medical Devices',
+    ],
+    'correct' => 'Biotechnology',
+  },
+  {
+    'item_name' => '<strong>crossing a horse with a donkey to create a mule</strong>',
+    'plural_choice' => 'industries',
+    'singular_item' => 'description',
+    'choices' => [
+      'Biotechnology',
+      'Pharmaceuticals',
+      'Engineering',
+      'Medical Devices',
+    ],
+    'correct' => 'Biotechnology',
+  },
+  {
+    'item_name' => '<strong>growing non-infectious viral particles to serve as a vaccine</strong>',
+    'plural_choice' => 'industries',
+    'singular_item' => 'description',
+    'choices' => [
+      'Biotechnology',
+      'Pharmaceuticals',
+      'Engineering',
+      'Medical Devices',
+    ],
+    'correct' => 'Biotechnology',
+  },
+  {
+    'item_name' => '<strong>using algae to produce hydrocarbon fuel (biodiesel)</strong>',
+    'plural_choice' => 'industries',
+    'singular_item' => 'description',
+    'choices' => [
+      'Biotechnology',
+      'Pharmaceuticals',
+      'Engineering',
+      'Medical Devices',
+    ],
+    'correct' => 'Biotechnology',
+  },
+  {
+    'item_name' => '<strong>growing switchgrass and harvesting its cellulose to convert to ethanol (biofuel)</strong>',
+    'plural_choice' => 'industries',
+    'singular_item' => 'description',
+    'choices' => [
+      'Biotechnology',
+      'Pharmaceuticals',
+      'Engineering',
+      'Medical Devices',
+    ],
+    'correct' => 'Biotechnology',
+  },
+  {
+    'item_name' => '<strong>using stem cells to 3D print a new human organ</strong>',
+    'plural_choice' => 'industries',
+    'singular_item' => 'description',
+    'choices' => [
+      'Biotechnology',
+      'Pharmaceuticals',
+      'Engineering',
+      'Medical Devices',
+    ],
+    'correct' => 'Biotechnology',
+  },
+  {
+    'item_name' => '<strong>growing canabis for treating headaches</strong>',
+    'plural_choice' => 'industries',
+    'singular_item' => 'description',
+    'choices' => [
+      'Biotechnology',
+      'Pharmaceuticals',
+      'Engineering',
+      'Medical Devices',
+    ],
+    'correct' => 'Biotechnology',
+  },
+  {
+    'item_name' => '<strong>genetically modifying corn to produce its own nitrogen fertilizer</strong>',
+    'plural_choice' => 'industries',
+    'singular_item' => 'description',
+    'choices' => [
+      'Biotechnology',
+      'Pharmaceuticals',
+      'Engineering',
+      'Medical Devices',
+    ],
+    'correct' => 'Biotechnology',
+  },
+  {
+    'item_name' => '<strong>growing red meat in a lab using cell culture</strong>',
+    'plural_choice' => 'industries',
+    'singular_item' => 'description',
+    'choices' => [
+      'Biotechnology',
+      'Pharmaceuticals',
+      'Engineering',
+      'Medical Devices',
+    ],
+    'correct' => 'Biotechnology',
+  },
+  {
+    'item_name' => '<strong>genetically modifying cyanobacteria to digest plastic in the ocean</strong>',
+    'plural_choice' => 'industries',
+    'singular_item' => 'description',
+    'choices' => [
+      'Biotechnology',
+      'Pharmaceuticals',
+      'Engineering',
+      'Medical Devices',
+    ],
+    'correct' => 'Biotechnology',
+  },
+  {
+    'item_name' => '<strong>modify the herpes virus for gene editing in Huntington\'s disease patients</strong>',
+    'plural_choice' => 'industries',
+    'singular_item' => 'description',
+    'choices' => [
+      'Biotechnology',
+      'Pharmaceuticals',
+      'Engineering',
+      'Medical Devices',
+    ],
+    'correct' => 'Biotechnology',
+  },
+  {
+    'item_name' => '<strong>use enzymes harvested from cells to purify water in underdeveloped areas of the world</strong>',
+    'plural_choice' => 'industries',
+    'singular_item' => 'description',
+    'choices' => [
+      'Biotechnology',
+      'Pharmaceuticals',
+      'Engineering',
+      'Medical Devices',
+    ],
+    'correct' => 'Biotechnology',
+  },
+  {
+    'item_name' => '<strong>using a novel drug to fight cancer</strong>',
+    'plural_choice' => 'industries',
+    'singular_item' => 'description',
+    'choices' => [
+      'Biotechnology',
+      'Pharmaceuticals',
+      'Engineering',
+      'Medical Devices',
+    ],
+    'correct' => 'Pharmaceuticals',
+  },
+  {
+    'item_name' => '<strong>designing a bicycle for humans to generate energy</strong>',
+    'plural_choice' => 'industries',
+    'singular_item' => 'description',
+    'choices' => [
+      'Biotechnology',
+      'Pharmaceuticals',
+      'Engineering',
+      'Medical Devices',
+    ],
+    'correct' => 'Engineering',
+  },
+  {
+    'item_name' => '<strong>designing a watch to measure blood pressure</strong>',
+    'plural_choice' => 'industries',
+    'singular_item' => 'description',
+    'choices' => [
+      'Biotechnology',
+      'Pharmaceuticals',
+      'Engineering',
+      'Medical Devices',
+    ],
+    'correct' => 'Medical Devices',
+  },
+  {
+    'item_name' => '<strong>eye contacts that can measure blood sugar levels from your tears</strong>',
+    'plural_choice' => 'industries',
+    'singular_item' => 'description',
+    'choices' => [
+      'Biotechnology',
+      'Pharmaceuticals',
+      'Engineering',
+      'Medical Devices',
+    ],
+    'correct' => 'Medical Devices',
+  },
+);
+
+#==========================================================
+# SELECT RANDOM QUESTION
+#==========================================================
+
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+
+$question_idx = $local_random->random(0, scalar(@questions_data) - 1, 1);
+$q = $questions_data[$question_idx];
+
+$item_name = $q->{'item_name'};
+$plural_choice = $q->{'plural_choice'};
+$singular_item = $q->{'singular_item'};
+@choices = @{ $q->{'choices'} };
+$correct = $q->{'correct'};
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# BUILD RADIO BUTTONS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => 'ABC',
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+Which one of the following [$plural_choice]* corresponds to the [$singular_item]* [$item_name]*?
+
+[_]{$rb}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The correct answer is: [$correct]*
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+
