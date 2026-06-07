@@ -273,6 +273,29 @@
 		});
 	}
 
+	var CORRECT_SOUND_URL = "/assets/sounds/mixkit-correct-positive-notification-957.wav";
+
+	function playCorrectSound() {
+		try {
+			var audio = new window.Audio(CORRECT_SOUND_URL);
+			audio.play();
+		} catch (_) {
+			// Sound playback is optional; silently ignore failures.
+		}
+	}
+
+	function launchConfetti() {
+		// canvas-confetti exposes window.confetti; skip silently if unavailable.
+		if (typeof window.confetti !== "function") {
+			return;
+		}
+		window.confetti({
+			particleCount: 80,
+			spread: 70,
+			origin: { y: 0.6 }
+		});
+	}
+
 	function showPopup(message) {
 		var status = storageStatus();
 		if (!status.available) {
@@ -328,6 +351,8 @@
 				var resultElement = document.getElementById("result_" + row.crc);
 				var status = classifyResultElement(resultElement);
 				if (status === "full-correct") {
+					playCorrectSound();
+					launchConfetti();
 					var markResult = markCompleted(row.questionId);
 					setQuestionStatus(row.questionId);
 					updateTopicSummary(rows, manifest);
