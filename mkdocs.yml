@@ -37,6 +37,7 @@ extra_css:
 
 extra_javascript:
   - assets/scripts/custom.js
+  - assets/scripts/confetti.browser.min.js
   - assets/scripts/selftest_progress.js
 
 extra:

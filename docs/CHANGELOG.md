@@ -1,5 +1,21 @@
 # Changelog
 
+## 2026-06-07
+
+### Additions and New Features
+- Added correct-answer sound effect to self-test questions. A WAV file
+  (`mixkit-correct-positive-notification-957.wav`) is served from
+  `site_docs/assets/sounds/` and played via `new Audio().play()` in
+  [selftest_progress.js](../site_docs/assets/scripts/selftest_progress.js)
+  every time a question is answered fully correctly.
+- Added confetti animation on correct self-test answers using the
+  `canvas-confetti` library (v1.9.4, vendored as
+  [confetti.browser.min.js](../site_docs/assets/scripts/confetti.browser.min.js),
+  source: [jsdelivr.com](https://www.jsdelivr.com/package/npm/canvas-confetti)).
+  Registered in [mkdocs.yml](../mkdocs.yml) before
+  [selftest_progress.js](../site_docs/assets/scripts/selftest_progress.js).
+  Falls back silently if the library is unavailable.
+
 ## 2026-05-31
 
 ### Additions and New Features
