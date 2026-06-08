@@ -328,30 +328,6 @@ def fix_ascii_compliance(text: str) -> tuple[str, bool]:
 
 
 #============================================
-def is_allowed_codepoint(codepoint: int) -> bool:
-	"""
-	Allow subject and topic emojis intentionally kept in docs.
-
-	Maintainer keeps subject icons (test tube, microscope, DNA, etc.), so the
-	emoji blocks are exempt from the ISO-8859-1 gate. Smart quotes, em dashes,
-	and other sub-0x2600 punctuation stay blocked and still get fixed.
-
-	Args:
-		codepoint: Unicode codepoint to test.
-
-	Returns:
-		bool: True when the codepoint is an allowed emoji.
-	"""
-	# Supplemental symbols and pictographs (emoji) block.
-	if 0x1F000 <= codepoint <= 0x1FAFF:
-		return True
-	# Miscellaneous symbols and dingbats (older emoji) block.
-	if 0x2600 <= codepoint <= 0x27BF:
-		return True
-	return False
-
-
-#============================================
 def find_non_latin1_chars(text: str) -> list[tuple[int, int, int]]:
 	"""
 	Find non-ISO-8859-1 characters in text.
@@ -372,8 +348,7 @@ def find_non_latin1_chars(text: str) -> list[tuple[int, int, int]]:
 			continue
 		column_number += 1
 		codepoint = ord(char)
-		# Flag any codepoint outside ISO-8859-1 except allowed emojis.
-		if codepoint > 255 and not is_allowed_codepoint(codepoint):
+		if codepoint > 255:
 			issues.append((line_number, column_number, codepoint))
 	return issues
 
