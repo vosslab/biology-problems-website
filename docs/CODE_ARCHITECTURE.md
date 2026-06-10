@@ -26,7 +26,12 @@ question sets from per-subject task CSVs.
 - [bioproblems_site/](../bioproblems_site/): Python package holding the generation
   logic:
   - [bioproblems_site/pipeline.py](../bioproblems_site/pipeline.py): Orchestrates a
-    generation run (subject indexes, topic pages, downloads, nav update).
+    generation run (subject indexes, topic pages, downloads, reconcile, nav update).
+  - [bioproblems_site/orphan_prune.py](../bioproblems_site/orphan_prune.py): Orphan
+    reconcile via `reconcile_all`: detects and deletes generated orphans, strips dead
+    self-test includes, prunes the `problem_set_titles.yml` title cache, and
+    quarantines orphan topic-level `.pgml`/`.pg` masters to a repo-root `orphaned/`
+    folder.
   - [bioproblems_site/metadata.py](../bioproblems_site/metadata.py): Loads and
     validates `topics_metadata.yml`; enforces subject sync with `mkdocs.yml`.
   - [bioproblems_site/topic_aliases.py](../bioproblems_site/topic_aliases.py): Pure
@@ -49,7 +54,8 @@ question sets from per-subject task CSVs.
     (vendored on `PYTHONPATH` by [source_me.sh](../source_me.sh); also on PyPI as
     `local-llm-wrapper`).
   - [bioproblems_site/git_paths.py](../bioproblems_site/git_paths.py): Repo-root and
-    path helpers.
+    path helpers, plus git staging helpers (`git_rm`, `git_mv`, `tracked_paths_set`)
+    used by the reconcile step.
 - [run_bbq_tasks.py](../run_bbq_tasks.py): BBQ batch runner driven by per-subject task
   CSVs.
 - [bbq_control/](../bbq_control/): Task CSVs in
@@ -68,7 +74,10 @@ question sets from per-subject task CSVs.
   [topics_metadata.yml](../topics_metadata.yml), validates it against the `mkdocs.yml`
   subject nav, scans [site_docs/](../site_docs/) for question counts, then writes
   subject indexes and rewrites the generated nav block. With `-T` it also rebuilds
-  topic pages; with `-G` it creates missing download artifacts.
+  topic pages; with `-G` it creates missing download artifacts. On every gated run,
+  `reconcile_all` from
+  [bioproblems_site/orphan_prune.py](../bioproblems_site/orphan_prune.py) runs before
+  `write_manifest`, so the manifest never sees an orphan (reconcile-first ordering).
 - Topic resolution: topic aliases (for example `biochemistry:amino_acids`) resolve to
   canonical `topicNN` ids via
   [bioproblems_site/topic_aliases.py](../bioproblems_site/topic_aliases.py), shared by

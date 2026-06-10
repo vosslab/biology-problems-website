@@ -51,6 +51,7 @@ def get_git_tracked_paths() -> dict:
 	return tracked
 
 
+#============================================
 def canonicalize_git_path(file_path: str) -> str:
 	"""Return the path as git sees it (canonical case), else input unchanged."""
 	repo_root = get_repo_root()
@@ -59,6 +60,65 @@ def canonicalize_git_path(file_path: str) -> str:
 	if not tracked:
 		return file_path
 	return os.path.join(repo_root, tracked)
+
+
+#============================================
+def git_rm(path: str) -> None:
+	"""Stage the removal of a tracked file with git rm.
+
+	Args:
+		path (str): The tracked file to remove.
+	"""
+	subprocess.run(
+		["git", "rm", "--quiet", path],
+		capture_output=True,
+		text=True,
+		check=True,
+	)
+
+
+#============================================
+def git_mv(src: str, dst: str) -> None:
+	"""Stage a tracked-file move with git mv, preserving history.
+
+	Args:
+		src (str): The tracked source path.
+		dst (str): The destination path.
+	"""
+	subprocess.run(
+		["git", "mv", src, dst],
+		capture_output=True,
+		text=True,
+		check=True,
+	)
+
+
+#============================================
+def tracked_paths_set() -> set:
+	"""Return the set of absolute paths git currently tracks.
+
+	Built once per reconcile run and injected into each reconcile_topic
+	call so tracked-vs-untracked is decided without repeated git calls.
+
+	Returns:
+		set: Absolute paths of every git-tracked file.
+	"""
+	repo_root = get_repo_root()
+	tracked = set()
+	result = subprocess.run(
+		["git", "ls-files"],
+		capture_output=True,
+		text=True,
+		check=False,
+	)
+	if result.returncode != 0:
+		return tracked
+	# Each line is a repo-root-relative path; store the absolute form
+	for line in result.stdout.splitlines():
+		if not line:
+			continue
+		tracked.add(os.path.realpath(os.path.join(repo_root, line)))
+	return tracked
 
 
 #============================================

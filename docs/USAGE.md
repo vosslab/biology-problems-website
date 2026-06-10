@@ -53,6 +53,11 @@ root:
 source source_me.sh && python3 generate_pages.py
 ```
 
+A gated run also reconciles `site_docs/` against the live `bbq-*-questions.txt`
+set: it removes orphan generated artifacts, strips dead self-test includes, prunes
+stale title-cache entries, and quarantines orphan topic-level pgml/pg masters to a
+repo-root `orphaned/` folder.
+
 Common flags (confirmed in the script):
 - Default (no build flags): regenerate subject indexes and the nav block.
 - `-T`, `--topic-pages`: also rebuild `topicNN/index.md` pages.
@@ -62,7 +67,9 @@ Common flags (confirmed in the script):
   topic filter uses the `subject:alias` form (for example
   `biochemistry:amino_acids`); see
   [docs/TOPICS_METADATA_FORMAT.md](TOPICS_METADATA_FORMAT.md).
-- `-n`, `--dry-run`: print what would be written without touching files.
+- `-n`, `--dry-run`: print what would be written without touching files, and
+  preview the risk-grouped reconcile plan (DELETE / STRIP / DROP / QUARANTINE)
+  without mutating anything.
 
 ## Self-test progress
 

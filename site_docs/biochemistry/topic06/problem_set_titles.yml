@@ -1,31 +1,14 @@
 bbq-MATCH-energy_terms-questions.txt: Energy Requirement Categories and Energy Terms
-bbq-MATCH-enzyme_terminology-questions.txt: Enzyme Catalysis Terminology
-bbq-MC-energy_terms-questions.txt: Energy Terms and Their Categories
-bbq-TF-chemical_reactions-questions.txt: True/False Statements About Chemical Reactions
-bbq-TF-gibbs_free_energy_equation-questions.txt: True/False Statements About Gibbs
-  Free Energy (Delta G = Delta H - T Delta S)
-bbq-TF-thermodynamics-questions.txt: True/False Statements About Thermodynamics and
-  Kinetics
-bbq-TFMS-chemical_reactions-questions.txt: False Statements About Chemical Reactions
-bbq-TFMS-enzyme_cofactors-questions.txt: Enzymatic Cofactors
-bbq-TFMS-enzyme_equilibrium-questions.txt: True/False Statements About Enzyme Kinetics
 bbq-TFMS-gibbs_free_energy_equation-questions.txt: True/False Statements About Gibbs
   Free Energy (Delta G = Delta H - T Delta S)
-bbq-TFMS-potential_v_kinetic_energy-questions.txt: Kinetic vs. Potential Energy
 bbq-TFMS-thermodynamics-questions.txt: True/False Statements About Thermodynamics
   and Kinetics
-bbq-TFMS-which_enzyme-questions.txt: Enzymes
 bbq-WOMC-energy_terms-questions.txt: Energy Requirement Categories for Energy Terms
-bbq-WOMC-enzyme_terminology-questions.txt: Terms Related to Enzyme Catalysis
 bbq-delta_g_prime_standard_state-questions.txt: Biochemical vs Chemical Standard Free
   Energy States
 bbq-exergonic_endergonic_reactions-questions.txt: Exergonic and Endergonic Reaction
   Classification
-bbq-free_energy_keq_relationship-questions.txt: Free Energy and Equilibrium Constant
-  Relationships
 bbq-gibbs_free_energy_equation_symbols-questions.txt: Gibbs Free Energy Equation Symbols
   and Meanings
 bbq-thermodynamics_law_statements-questions.txt: Thermodynamics Law Statements
-bbq-thermodynamics_system_laws-questions.txt: Energy and Entropy Conservation in Open,
-  Closed, and Isolated Systems
 last edit: Mon Jun  8 06:20:43 2026

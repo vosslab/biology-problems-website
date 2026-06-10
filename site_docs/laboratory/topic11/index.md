@@ -61,7 +61,6 @@ Students extract DNA, perform initial and nested PCR amplification of the GAPDH 
       example problem
     </span>
   </summary>
-  {% include "laboratory/topic11/downloads/selftest-kaleidoscope_ladder_mapping.html" %}
 
 </details>
 
