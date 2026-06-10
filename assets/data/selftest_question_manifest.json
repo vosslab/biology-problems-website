@@ -81,16 +81,6 @@
       "topicTitle": "Life Molecules"
     },
     {
-      "crc": "1fd6_5011",
-      "pagePath": "biochemistry/topic02/index.md",
-      "questionFingerprint": "0cbe49c20c0025a1",
-      "questionId": "1fd6_5011",
-      "selftestPath": "biochemistry/topic02/downloads/selftest-Henderson-Hasselbalch-EQUATION.html",
-      "subjectKey": "biochemistry",
-      "topicKey": "topic02",
-      "topicTitle": "Water and pH"
-    },
-    {
       "crc": "caab_ec96",
       "pagePath": "biochemistry/topic02/index.md",
       "questionFingerprint": "c4894c4b4c0ca368",
@@ -146,16 +136,6 @@
       "questionFingerprint": "37cd0ed0346ee964",
       "questionId": "1a71_8572",
       "selftestPath": "biochemistry/topic02/downloads/selftest-Henderson-Hasselbalch-ratio_num.html",
-      "subjectKey": "biochemistry",
-      "topicKey": "topic02",
-      "topicTitle": "Water and pH"
-    },
-    {
-      "crc": "c331_3ee7",
-      "pagePath": "biochemistry/topic02/index.md",
-      "questionFingerprint": "29e6f607a38e677f",
-      "questionId": "c331_3ee7",
-      "selftestPath": "biochemistry/topic02/downloads/selftest-chemical_group_pka_forms.html",
       "subjectKey": "biochemistry",
       "topicKey": "topic02",
       "topicTitle": "Water and pH"
@@ -561,16 +541,6 @@
       "topicTitle": "Thermodynamics"
     },
     {
-      "crc": "1661_5261",
-      "pagePath": "biochemistry/topic06/index.md",
-      "questionFingerprint": "f2687eaa829633fd",
-      "questionId": "1661_5261",
-      "selftestPath": "biochemistry/topic06/downloads/selftest-free_energy_keq_relationship.html",
-      "subjectKey": "biochemistry",
-      "topicKey": "topic06",
-      "topicTitle": "Thermodynamics"
-    },
-    {
       "crc": "c08b_e922",
       "pagePath": "biochemistry/topic06/index.md",
       "questionFingerprint": "2f51dd614e6f188c",
@@ -586,16 +556,6 @@
       "questionFingerprint": "22e9dec152cca217",
       "questionId": "c44c_1dd6",
       "selftestPath": "biochemistry/topic06/downloads/selftest-thermodynamics_law_statements.html",
-      "subjectKey": "biochemistry",
-      "topicKey": "topic06",
-      "topicTitle": "Thermodynamics"
-    },
-    {
-      "crc": "c8ee_c50e",
-      "pagePath": "biochemistry/topic06/index.md",
-      "questionFingerprint": "030f018e25f4fe0d",
-      "questionId": "c8ee_c50e",
-      "selftestPath": "biochemistry/topic06/downloads/selftest-thermodynamics_system_laws.html",
       "subjectKey": "biochemistry",
       "topicKey": "topic06",
       "topicTitle": "Thermodynamics"
@@ -1451,16 +1411,6 @@
       "topicTitle": "Mendelian Genetics"
     },
     {
-      "crc": "1a2b_9728",
-      "pagePath": "genetics/topic04/index.md",
-      "questionFingerprint": "db2723691238da71",
-      "questionId": "1a2b_9728",
-      "selftestPath": "genetics/topic04/downloads/selftest-MATCH-mendel_four_principles.html",
-      "subjectKey": "genetics",
-      "topicKey": "topic04",
-      "topicTitle": "Mendelian Genetics"
-    },
-    {
       "crc": "c07b_0881",
       "pagePath": "genetics/topic04/index.md",
       "questionFingerprint": "f34087ad49274c63",
@@ -2291,16 +2241,6 @@
       "topicTitle": "Chromosomal Disorders"
     },
     {
-      "crc": "c6df_12c7",
-      "pagePath": "genetics/topic09/index.md",
-      "questionFingerprint": "7c057e23ce7ca42c",
-      "questionId": "c6df_12c7",
-      "selftestPath": "genetics/topic09/downloads/selftest-letter_translocation_problem_color-black.html",
-      "subjectKey": "genetics",
-      "topicKey": "topic09",
-      "topicTitle": "Chromosomal Disorders"
-    },
-    {
       "crc": "7b63_45c6",
       "pagePath": "genetics/topic09/index.md",
       "questionFingerprint": "fd61148df0573801",
@@ -2646,16 +2586,6 @@
       "questionFingerprint": "0d2415a2b2f11a6d",
       "questionId": "4fa7_c23b",
       "selftestPath": "laboratory/topic11/downloads/selftest-dna_gel-estimate_size-MC_or_NUM-num.html",
-      "subjectKey": "laboratory",
-      "topicKey": "topic11",
-      "topicTitle": "PCR and Electrophoresis"
-    },
-    {
-      "crc": "b01b_9af6",
-      "pagePath": "laboratory/topic11/index.md",
-      "questionFingerprint": "0b2492c76124001e",
-      "questionId": "b01b_9af6",
-      "selftestPath": "laboratory/topic11/downloads/selftest-kaleidoscope_ladder_mapping.html",
       "subjectKey": "laboratory",
       "topicKey": "topic11",
       "topicTitle": "PCR and Electrophoresis"

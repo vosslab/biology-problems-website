@@ -206,11 +206,15 @@
 			return;
 		}
 		if (isCompleted(questionId)) {
+			// Set text content first, then append the star span.
 			badge.textContent = "Completed";
 			badge.className = "selftest-status selftest-status-complete";
+			// Add the earned-star icon; aria-label updated inside addStarToBadge.
+			addStarToBadge(badge);
 		} else {
 			badge.textContent = "Not completed";
 			badge.className = "selftest-status";
+			badge.removeAttribute("aria-label");
 		}
 	}
 
@@ -296,6 +300,82 @@
 		});
 	}
 
+	// Show a brief star-burst animation near the answered question element.
+	// Respects prefers-reduced-motion via CSS (the animation is gated there);
+	// we still create and immediately remove the DOM nodes so the persistent
+	// star badge still gets added on the same tick.
+	function launchStarPop(questionElement) {
+		if (!questionElement) {
+			return;
+		}
+		var rect = questionElement.getBoundingClientRect();
+		// Anchor near the top-right of the question card.
+		var originX = rect.right - 20;
+		var originY = rect.top + window.scrollY + 20;
+
+		var container = document.createElement("div");
+		container.className = "selftest-star-pop";
+		container.setAttribute("aria-hidden", "true");
+		container.style.left = originX + "px";
+		container.style.top = originY + "px";
+
+		// Five glyphs scattered in different directions.
+		var offsets = [
+			{ dx: "-28px", dy: "-32px" },
+			{ dx: "28px",  dy: "-28px" },
+			{ dx: "-36px", dy: "0px" },
+			{ dx: "36px",  dy: "-10px" },
+			{ dx: "0px",   dy: "-44px" }
+		];
+		offsets.forEach(function (offset) {
+			var glyph = document.createElement("span");
+			glyph.className = "selftest-star-pop-glyph";
+			// Use HTML entity &#9733; (BLACK STAR) so no UTF-8 raw char in source.
+			glyph.innerHTML = "&#9733;";
+			glyph.style.setProperty("--star-dx", offset.dx);
+			glyph.style.setProperty("--star-dy", offset.dy);
+			container.appendChild(glyph);
+		});
+
+		document.body.appendChild(container);
+		// Remove after animation (800ms) plus small buffer.
+		window.setTimeout(function () {
+			if (container.parentNode) {
+				container.parentNode.removeChild(container);
+			}
+		}, 950);
+	}
+
+	// Add a star glyph to a question badge element if not already present.
+	// The visual star is aria-hidden; a .selftest-sr-only span carries the
+	// screen-reader text so assistive tech reads "earned star" explicitly.
+	function addStarToBadge(badge) {
+		if (!badge || badge.querySelector(".selftest-star")) {
+			return;
+		}
+		var star = document.createElement("span");
+		star.className = "selftest-star";
+		star.setAttribute("aria-hidden", "true");
+		// Use HTML entity so no raw UTF-8 in source.
+		star.innerHTML = "&#9733;";
+		badge.appendChild(star);
+		// Visually-hidden text so screen readers announce "earned star".
+		var srText = document.createElement("span");
+		srText.className = "selftest-sr-only";
+		srText.textContent = "earned star";
+		badge.appendChild(srText);
+		// Keep aria-label in sync as a belt-and-suspenders fallback.
+		badge.setAttribute("aria-label", "Completed - earned star");
+	}
+
+	// Count total stars (= completed questions) across all manifest questions.
+	function countEarnedStars(manifest) {
+		var state = loadState();
+		return manifest.questions.filter(function (row) {
+			return Boolean(state.completed[row.questionId]);
+		}).length;
+	}
+
 	function showPopup(message) {
 		var status = storageStatus();
 		if (!status.available) {
@@ -353,6 +433,8 @@
 				if (status === "full-correct") {
 					playCorrectSound();
 					launchConfetti();
+					// Star burst near the question element.
+					launchStarPop(document.getElementById("question_html_" + row.crc));
 					var markResult = markCompleted(row.questionId);
 					setQuestionStatus(row.questionId);
 					updateTopicSummary(rows, manifest);
@@ -410,8 +492,12 @@
 				return row.questionId === questionId;
 			});
 		}).length;
+		// Stars equal completed count (one star per first-correct answer).
+		var stars = countEarnedStars(manifest);
 		var html = "<section class='selftest-dashboard-summary' aria-live='polite'>" +
 			"<strong>Completed:</strong> " + completed + " / " + total +
+			"<span class='selftest-dashboard-stars' aria-label='Stars earned: " + stars + "'>" +
+			" &#9733; " + stars + "</span>" +
 			"</section>";
 		if (!status.available) {
 			html += "<div class='selftest-storage-warning'>" + status.message + "</div>";

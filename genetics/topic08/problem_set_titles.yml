@@ -1,16 +1,3 @@
-bbq-MATCH-chi-square_terms-questions.txt: Chi-Square Terms and Definitions
-bbq-MC-chi-square_terms-questions.txt: Chi-Square Terms
-bbq-TFMS-chi-square-questions.txt: True/False Statements About Chi-Square Tests
-bbq-chi_square_calculated-ACCEPT-questions.txt: Calculating Chi-Squared Statistic
-  from Observed Data
-bbq-chi_square_choices-questions.txt: Chi-Square Tests for Phenotypic Ratios
-bbq-chi_square_errors-questions.txt: Chi-Square Tests for Goodness of Fit
-bbq-chi_square_hardy_weinberg-questions.txt: Determining Hardy-Weinberg Status Using
-  Chi-Squared Test
-bbq-chi_square_hypotheses-pair-questions.txt: Determining Null and Alternative Hypotheses
-  for Genetic Crosses
-bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt: Statistical
-  Hypotheses in Mendelian Genetics
 bbq-deletion_mutant_random-05_genes-MC-questions.txt: Gene Order Determination
 bbq-deletion_mutant_words-05_genes-MC-questions.txt: Gene Order Determination
 bbq-tetrad_ordered-centromere_distance-MC-questions.txt: Genetic Distance Calculation

@@ -19,8 +19,6 @@ bbq-deletion_mutants-08_genes-TABLE-MC-questions.txt: Gene Order with Deletion M
   (8 Genes, Table)
 bbq-deletion_mutants-16_genes-TABLE-MC-questions.txt: Gene Order with Deletion Mutants
   (16 Genes, Table)
-bbq-letter_translocation_problem_color-black-questions.txt: Chromosomal Translocation
-  Outcomes (Black)
 bbq-letter_translocation_problem_color-questions.txt: Chromosomal Translocation Outcomes
   (Color)
 bbq-polyploid-gametes-questions.txt: Gamete Chromosome Numbers in Polyploids
