@@ -1,8 +1,90 @@
 # Changelog
 
+## 2026-06-08
+
+### Additions and New Features
+- Added Khan-Academy-style star reward to the self-test completion experience
+  (bp-website site runtime only; engine untouched). Three additive behaviors:
+  (1) **Star-pop animation** on full-correct answer: five CSS-animated star
+  glyphs burst near the question element (~800ms), gated behind
+  `@media (prefers-reduced-motion: no-preference)` so the persistent star is
+  still awarded when motion is reduced. (2) **Persistent earned-star badge**:
+  the existing per-question "Completed" badge gains a `&#9733;` star span
+  (`aria-hidden="true"`) and the badge receives `aria-label="Completed - earned
+  star"` so the reward is not color/icon-only for assistive technology.
+  (3) **Star count in the progress dashboard**: the `#selftest-progress-dashboard`
+  summary line gains a `.selftest-dashboard-stars` `<span>` showing the total
+  earned stars (equals completed count; one star per first-correct answer) with
+  `aria-label="Stars earned: N"`. All star CSS lives in
+  `site_docs/assets/stylesheets/custom.css`; all star JS is additive in
+  `site_docs/assets/scripts/selftest_progress.js`. No new storage key; reuses
+  the existing `selftest_progress_v1` completion record. No engine files
+  changed. Playwright verification: badge gains `.selftest-star`, confetti mock
+  called, completion stored, no JS console errors; 1347 pytest + 3 node tests
+  all pass.
+- Added `tests/playwright/capture_all_fragments.mjs`: permanent full-coverage Playwright harness that screenshots every standalone selftest fragment (all 272 in `site_docs/**/downloads/selftest-*.html`). Captures 3 screenshots per fragment (desktop-1280 passive, desktop-1280 after-interaction, mobile-390 passive), collects console/page errors and highBytes count, and writes `test-results/selftest_survey/full/index.json`. Uses concurrency-5 batch processing; 272 fragments captured in one pass with 0 load failures, 0 JS errors, 0 highBytes fragments, 816 total screenshots.
+- Extended `tests/playwright/capture_all_fragments.mjs` to also capture dark-theme screenshots alongside existing light captures. For each fragment, the harness now additionally captures: `__desktop_dark_passive.png` and `__desktop_dark_after.png` (desktop 1280 with Material slate dark via `__palette` localStorage seed + `colorScheme:'dark'` browser context). Fragments with a `<canvas>` element also get `__mobile_dark_passive.png`. Dark screenshots are recorded in `index.json` under `screenshotsDark` per fragment. Added optional `LIMIT=N` env var (caps fragment count for smoke runs) and `OUT_OVERRIDE` env var (redirects output directory). Smoke run of 3 fragments confirmed: 6 dark PNGs produced in `test-results/selftest_survey/_darksmoke/`, visually dark (near-black background, colored dark-theme tile highlights). Full run produces ~10 screenshots per fragment (5 light + up to 3 dark; canvas fragments get 6 dark). `node --check` passes.
+
+### Fixes and Maintenance
+- Regenerated all 295 selftest HTML fragments under `site_docs/**/downloads/selftest-*.html`
+  using `generate_pages.py --full -q` with PYTHONPATH pointed at the `qti-package-maker` working
+  tree to pick up the latest engine CSS (disabled-button styling: `.qti-btn:disabled` with
+  `cursor: not-allowed`). Non-fatal: one pre-existing NotImplementedError on `chi_square_errors`.
+  Byte scan: 0/295 fragments contain bytes > 0x7F. Both disabled CSS selectors
+  (`.qti-btn:disabled` and `cursor: not-allowed`) confirmed present in all 295 fragments.
+  Full light+dark Playwright capture run into `test-results/selftest_survey/full_polished2/`:
+  272 captured, 0 load failures, 0 JS errors, 0 highBytes, 1372 total screenshots
+  (816 light + 556 dark), index at `test-results/selftest_survey/full_polished2/index.json`.
+  Dark spot-checks: `desktop_dark_after` shows Check button visually greyed and dark theme
+  engaged; `mobile_dark_passive` shows canvas fits mobile viewport with no overflow.
+  1347 pytest tests pass.
+- Regenerated all 272 selftest HTML fragments under `site_docs/**/downloads/selftest-*.html`
+  using `generate_pages.py --full -q` with PYTHONPATH set to the `qti-package-maker` working
+  tree. This picks up the full visual-polish engine changes: (a) result div carries
+  `class='qti-feedback-result'`; (b) JS adds `qti-feedback-success`/`qti-feedback-error`
+  classes; (c) choices CSS has 1.4em input sizing and min-height 40px row; (d) responsive
+  canvas/img `max-width: 100%`; (e) `::before` ASCII markers `[+] `/`[x] `; (f) Check button
+  gets `checkBtn.disabled = true` on correct answer; dark-mode and answered-state CSS variables
+  also present. Byte scan: 0/272 fragments contain bytes > 0x7F. Contract strings CORRECT and
+  "Total Score:" confirmed intact. Full-coverage Playwright capture run into
+  `test-results/selftest_survey/full_polished/`: 272 captured, 0 load failures, 0 JS errors,
+  0 highBytes, 816 screenshots, index at
+  `test-results/selftest_survey/full_polished/index.json`. 1347 pytest tests pass.
+- Removed dead code in `site_docs/assets/scripts/selftest_progress.js`: `renderDashboard`
+  now calls `countEarnedStars(manifest)` instead of inlining `var stars = completed`,
+  so there is a single source of truth for the star count. Also added a `.selftest-sr-only`
+  visually-hidden span ("earned star") inside `addStarToBadge`, putting the previously-unused
+  CSS class to use and making the screen-reader announcement more robust (the parent
+  `aria-label` is kept as a belt-and-suspenders fallback). No displayed value or behavior
+  changed. Evidence screenshots captured:
+  `test-results/star_check/badge_with_star_real.png` (badge with gold star) and
+  `test-results/star_check/dashboard_with_stars.png` (dashboard showing "Completed: 2 / 295
+  [star] 2"). 1346 pytest + 3 node tests all pass.
+- Completed mojibake fix: regenerated the 6 stale selftest fragments that were skipped by the generator's existence-only gate on the prior pass (`selftest-chemical_group_pka_forms.html`, `selftest-free_energy_keq_relationship.html`, `selftest-thermodynamics_system_laws.html`, `selftest-MATCH-mendel_four_principles.html`, `selftest-letter_translocation_problem_color-black.html`, `selftest-kaleidoscope_ladder_mapping.html`). Steps: (1) `git rm` the 6 stale files; (2) generate missing BBQ source `.txt` files via `run_bbq_tasks.py` for 4 problems (chemical_group_pka_forms, free_energy_keq_relationship, thermodynamics_system_laws, kaleidoscope_ladder_mapping); (3) restore `bbq-letter_translocation_problem_color-black-questions.txt` from git history (ab332769); (4) regenerate `bbq-MATCH-mendel_four_principles-questions.txt` via `yaml_match_to_bbq.py`; (5) `generate_pages.py --full` rebuilt all 6 selftests using the fixed `escape_non_ascii` engine. Byte scan result: 0/272 tracked selftest fragments contain non-ASCII bytes (complete fix). Note: the generator's existence-only skip gate at `run_bbq_tasks.py:484` means engine fixes do not propagate to already-existing fragments without deleting them first; a freshness/force option would be the durable fix (deferred to a future pass).
+- Regenerated all 278 selftest HTML fragments under `site_docs/**/downloads/selftest-*.html` using `generate_pages.py --full` with PYTHONPATH set to the `qti-package-maker` working tree. This picks up the `escape_non_ascii` fix in `qti_package_maker/engines/html_selftest/html_functions.py`, which converts non-ASCII characters (plus-minus, middle dot, non-breaking space, etc.) to numeric HTML entities. Result: 260 of 266 previously-affected files now contain zero high bytes; 6 files remain with non-ASCII bytes originating from raw non-ASCII in their source BBQ input text (a separate upstream issue: `selftest-chemical_group_pka_forms.html`, `selftest-free_energy_keq_relationship.html`, `selftest-thermodynamics_system_laws.html`, `selftest-MATCH-mendel_four_principles.html`, `selftest-letter_translocation_problem_color-black.html`, `selftest-kaleidoscope_ladder_mapping.html`). All 1353 pytest tests pass.
+- Removed `@playwright/test` from `package.json` devDependencies: no tracked script imports from it (all `.mjs` harness files use the bare `playwright` library directly), so keeping it was dead weight per `docs/PLAYWRIGHT_USAGE.md`.
+- Fixed MATCH interaction simulation in `tests/playwright/selftest_visual_survey.mjs`: dropzone textContent now mirrors the real drop handler by reading the matching `.draggable` element's `innerText` instead of setting the raw CRC token, so after-screenshots show human-readable placed answers. Corrected `docs/active_plans/audits/selftest_visual_audit_2026-06-07.md` to reclassify the MATCH raw-ID finding as a harness artifact rather than an engine bug; removed it from the engine fix-now list (see `docs/active_plans/audits/match_raw_id_2026-06-08.md`).
+
 ## 2026-06-07
 
 ### Additions and New Features
+- Added Playwright harness for selftest visual and functional survey (M0). New
+  files: `package.json` (repo root, records `playwright` and `@playwright/test`
+  v1.60.0 as devDependencies), `tests/playwright/selftest_visual_survey.mjs`
+  (two-mode survey: passive visual at desktop/mobile x light/dark, and
+  interactive functional per question type), and fixed
+  `tests/playwright/ui_ux_review.mjs` (resolved merge conflict markers,
+  changed port from 8765 to 8000). Baseline screenshots written to
+  `test-results/selftest_survey/baseline/` (gitignored).
+
+### Developer Tests and Notes
+- `node tests/playwright/selftest_visual_survey.mjs` produces 148 screenshots
+  and a JSON report covering question types MC, WOMC, TFMS, EQUATION, MA,
+  MATCH, FIB, and NUM across 10 topic pages and 8 standalone selftest files.
+  Interactive mode confirms MATCH/MC/MA/NUM answer correctly; FIB questions
+  fail with `ReferenceError` (template variable `{crc16_text}` unresolved
+  in generated HTML) -- baseline captures this known bug as `fibErr=true`
+  on `/biochemistry/topic03/` and its standalone FIB file.
 - Added correct-answer sound effect to self-test questions. A WAV file
   (`mixkit-correct-positive-notification-957.wav`) is served from
   `site_docs/assets/sounds/` and played via `new Audio().play()` in

@@ -332,3 +332,77 @@ img[style] {
 .selftest-dashboard-subject ul {
   margin-bottom: 0;
 }
+
+/* ---------- Self-test star reward ---------- */
+
+/* Star icon on the Completed badge. */
+.selftest-star {
+  display: inline-block;
+  margin-left: 0.3em;
+  color: #f5a623;
+  font-style: normal;
+  font-size: 1em;
+  line-height: 1;
+  /* Screen-reader text is provided via aria-label on the parent badge. */
+}
+
+/* Visually-hidden helper: readable by assistive tech, invisible on screen. */
+.selftest-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Stars counter in the dashboard summary. */
+.selftest-dashboard-stars {
+  display: inline-block;
+  margin-left: 0.75em;
+  color: #f5a623;
+  font-weight: 700;
+}
+
+/* Container for the transient star-burst pop near a question. */
+.selftest-star-pop {
+  position: absolute;
+  pointer-events: none;
+  z-index: 100;
+  /* Centered on the trigger point by JS (top/left set inline). */
+}
+
+/* Each flying star glyph. */
+.selftest-star-pop-glyph {
+  position: absolute;
+  font-size: 1.4rem;
+  color: #f5a623;
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(0.2);
+  /* Default: no animation (prefers-reduced-motion or JS fallback). */
+}
+
+/* Animate only when the user has not requested reduced motion. */
+@media (prefers-reduced-motion: no-preference) {
+  .selftest-star-pop-glyph {
+    animation: selftest-star-fly 0.8s ease-out forwards;
+  }
+
+  @keyframes selftest-star-fly {
+    0% {
+      opacity: 1;
+      transform: translate(-50%, -50%) scale(0.2);
+    }
+    40% {
+      opacity: 1;
+      transform: translate(var(--star-dx, 0px), calc(-50% + var(--star-dy, 0px))) scale(1.2);
+    }
+    100% {
+      opacity: 0;
+      transform: translate(var(--star-dx, 0px), calc(-50% + var(--star-dy, -40px))) scale(0.8);
+    }
+  }
+}
