@@ -1,0 +1,13 @@
+{
+  "name": "biology-problems-website",
+  "version": "1.0.0",
+  "description": "Biology problems website Playwright test harness",
+  "private": true,
+  "scripts": {
+    "test:ui": "node tests/playwright/ui_ux_review.mjs",
+    "test:survey": "node tests/playwright/selftest_visual_survey.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.60.0"
+  }
+}

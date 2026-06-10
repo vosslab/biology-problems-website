@@ -1,7 +1,6 @@
 // UI/UX review driver: visits key mkdocs pages at desktop and mobile
 // viewports, saves screenshots to test-results/ui_ux_review/, and prints
 // a per-page report (status, title, H1 count, broken-link count, contrast hints).
-<<<<<<< HEAD
 //
 // It also runs a focused review of the self-test completion-tracking feature:
 //   - the progress dashboard at /progress/ (div#selftest-progress-dashboard)
@@ -11,32 +10,24 @@
 //   - the storage-unavailable non-blocking warning path
 //   - the reset-with-confirmation button on the dashboard
 //
-// Run from the repo root with the dev server up on 127.0.0.1:8765:
-//   source source_me.sh && python3 -m mkdocs serve -a 127.0.0.1:8765 &
+// Run from the repo root with the dev server up on 127.0.0.1:8000:
+//   source source_me.sh && python3 -m mkdocs serve -a 127.0.0.1:8000 &
 //   node tests/playwright/ui_ux_review.mjs
-=======
->>>>>>> ceefce98 (Promoted Biotechnology to a first-class subject in (+34 more))
 import { chromium } from 'playwright';
 import fs from 'fs';
 import path from 'path';
 
-const BASE = 'http://127.0.0.1:8765';
+const BASE = 'http://127.0.0.1:8000';
 const OUT = 'test-results/ui_ux_review';
-<<<<<<< HEAD
 const STORAGE_KEY = 'selftest_progress_v1';
 const MANIFEST_URL = '/assets/data/selftest_question_manifest.json';
 const TOPIC_URL = '/biochemistry/topic01/';
 const PROGRESS_URL = '/progress/';
-=======
->>>>>>> ceefce98 (Promoted Biotechnology to a first-class subject in (+34 more))
 fs.mkdirSync(OUT, { recursive: true });
 
 const pages = [
 	{ slug: 'home', url: '/' },
-<<<<<<< HEAD
 	{ slug: 'progress', url: '/progress/' },
-=======
->>>>>>> ceefce98 (Promoted Biotechnology to a first-class subject in (+34 more))
 	{ slug: 'subject_biochem', url: '/biochemistry/' },
 	{ slug: 'subject_genetics', url: '/genetics/' },
 	{ slug: 'subject_lab', url: '/laboratory/' },
@@ -108,7 +99,6 @@ async function evalPage(page) {
 	});
 }
 
-<<<<<<< HEAD
 // ===========================================================================
 // Self-test progress feature helpers
 // ===========================================================================
@@ -396,8 +386,6 @@ async function reviewStorageUnavailable(browser, findings) {
 // Main run
 // ===========================================================================
 
-=======
->>>>>>> ceefce98 (Promoted Biotechnology to a first-class subject in (+34 more))
 const browser = await chromium.launch();
 const report = [];
 for (const vp of viewports) {
@@ -443,7 +431,6 @@ for (const vp of viewports) {
 			await darkPage.goto(BASE + '/biochemistry/', { waitUntil: 'domcontentloaded', timeout: 20000 });
 			await darkPage.waitForTimeout(500);
 			await darkPage.screenshot({ path: path.join(OUT, 'subject_biochem_dark.png'), fullPage: true });
-<<<<<<< HEAD
 			// Dashboard in dark mode (contrast check for badges/topic-complete green).
 			// Pre-seed progress so the dark capture shows completed-state colors.
 			await darkPage.goto(BASE + PROGRESS_URL, { waitUntil: 'domcontentloaded', timeout: 20000 });
@@ -462,16 +449,10 @@ for (const vp of viewports) {
 			await darkCtx.close();
 		} catch (e) {
 			console.log('dark mode capture failed:', String(e).slice(0, 200));
-=======
-			await darkCtx.close();
-		} catch (e) {
-			console.log('dark mode capture failed:', String(e).slice(0, 120));
->>>>>>> ceefce98 (Promoted Biotechnology to a first-class subject in (+34 more))
 		}
 	}
 	await ctx.close();
 }
-<<<<<<< HEAD
 
 // Focused self-test feature review.
 const featureFindings = [];
@@ -502,12 +483,3 @@ for (const f of featureFindings) {
 	console.log(`[${f.area}${f.vp ? '/' + f.vp : ''}] ` + JSON.stringify(f));
 }
 console.log(`\nWrote ${featureFindings.length} feature findings to ${OUT}/selftest_feature_report.json`);
-=======
-await browser.close();
-
-fs.writeFileSync(path.join(OUT, 'report.json'), JSON.stringify(report, null, 2));
-for (const r of report) {
-	console.log(`[${r.vp}] ${r.status} ${r.url}  H1=${r.h1count} imgs=${r.imgs} noAlt=${r.imgsNoAlt} tables=${r.tables} visTables=${r.visibleTables} details=${r.detailsBlocks} extNoRel=${r.externalNoRel}`);
-}
-console.log(`\nWrote ${report.length} rows to ${OUT}/report.json`);
->>>>>>> ceefce98 (Promoted Biotechnology to a first-class subject in (+34 more))

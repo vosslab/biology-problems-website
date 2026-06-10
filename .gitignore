@@ -1,8 +1,11 @@
+package-lock.json
 .DS_Store
 topics_reference.csv
 bbq_converter.py
 bbq_control/bbq_generation.log*
 bbq_control/bbq_generation_errors.log
+bbq_generation.log*
+QTI12-*/
 bbq_control/*.png
 
 # Byte-compiled / optimized / DLL files
