@@ -63,7 +63,6 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
       example problem
     </span>
   </summary>
-  {% include "genetics/topic04/downloads/selftest-MATCH-mendel_four_principles.html" %}
 
 </details>
 

@@ -31,7 +31,6 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic02/downloads/selftest-Henderson-Hasselbalch-EQUATION.html" %}
 
 </details>
 
@@ -258,7 +257,6 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic02/downloads/selftest-chemical_group_pka_forms.html" %}
 
 </details>
 

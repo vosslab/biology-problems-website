@@ -479,7 +479,6 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
       example problem
     </span>
   </summary>
-  {% include "genetics/topic09/downloads/selftest-letter_translocation_problem_color-black.html" %}
 
 </details>
 

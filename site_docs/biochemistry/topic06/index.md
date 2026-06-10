@@ -244,7 +244,6 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic06/downloads/selftest-free_energy_keq_relationship.html" %}
 
 </details>
 
@@ -349,7 +348,6 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic06/downloads/selftest-thermodynamics_system_laws.html" %}
 
 </details>
 

@@ -1,5 +1,77 @@
 # Changelog
 
+## 2026-06-09
+
+### Additions and New Features
+- Added an orphan-reconcile mechanism to keep generated site state in sync with the live
+  `bbq-*-questions.txt` core question set, fixing a GitHub Pages deploy failure
+  (run #260: `mkdocs build` aborted with "No files found including
+  '.../selftest-chemical_group_pka_forms.html'"). Root cause: commit 49c0ea2c git-rm'd 6
+  `bbq-*-questions.txt` source files but left their generated `downloads/` artifacts and dead
+  `index.md` selftest `{% include %}` lines behind; a bare `./generate_pages.py` then ran the
+  manifest validator (which hard-raises on a missing included file) against the stale
+  `index.md` without re-rendering.
+- New [bioproblems_site/orphan_prune.py](../bioproblems_site/orphan_prune.py): per-topic
+  reconcile against the live `bbq-*-questions.txt` core set, with four targets. (1) Delete
+  orphan `downloads/` generated artifacts (the 4 prefixed export formats plus the reproducible
+  `downloads/*.pgml`/`*.pg` copies) via git rm or `os.remove`. (2) Strip orphan
+  `selftest-<core>` include lines from `index.md`. (3) Drop stale keys from
+  `problem_set_titles.yml` (keeping `last edit`). (4) Quarantine orphan TOPIC-LEVEL `.pgml`/`.pg`
+  masters via git mv to a flat `orphaned/<basename>` at the repo root (a basename collision
+  hard-fails). Files with no decidable bbq core are classified UNMANAGED and never deleted.
+  Dry-run returns a risk-grouped plan and mutates nothing.
+- Extended [bioproblems_site/git_paths.py](../bioproblems_site/git_paths.py) with `git_rm`,
+  `git_mv`, and `tracked_paths_set` (realpath-normalized for reliable tracked detection).
+
+### Behavior or Interface Changes
+- [bioproblems_site/pipeline.py](../bioproblems_site/pipeline.py): `reconcile_all` now runs
+  before `write_manifest` on every gated run, so a bare `./generate_pages.py` self-heals stale
+  state instead of crashing. `build_manifest` stays strict (loud failure on a missing included
+  file); reconcile runs first so it never sees an orphan.
+
+### Fixes and Maintenance
+- Live cleanup run: stripped 6 orphan selftest includes across 5 `index.md` files (cores:
+  chemical_group_pka_forms, free_energy_keq_relationship, thermodynamics_system_laws,
+  MATCH-mendel_four_principles, letter_translocation_problem_color-black,
+  kaleidoscope_ladder_mapping); git-rm'd ~32 orphan `downloads/` artifacts (including an
+  uppercase case-variant `selftest-Henderson-Hasselbalch-EQUATION.html` whose live bbq is
+  lowercase); quarantined 2 topic-level pgml masters
+  (free_energy_keq_relationship.pgml, thermodynamics_system_laws.pgml) to `orphaned/`; and
+  regenerated the subject indexes plus selftest manifest. `mkdocs build` now exits 0.
+- Hardened symlink safety in orphan-prune tracked-set membership tests.
+  `git_paths.tracked_paths_set()` now stores `os.path.realpath(os.path.join(repo_root, line))`
+  instead of a plain `os.path.join`, so symlinked path components (e.g. macOS `/tmp` ->
+  `/private/tmp`) do not produce false negatives. `_delete_path` and `_quarantine_path` in
+  `bioproblems_site/orphan_prune.py` now test `os.path.realpath(path) in tracked_set` (was
+  `os.path.abspath`). Both sides now agree on the realpath-normalized form, preventing a tracked
+  file from being silently routed to `os.remove`/`os.rename` instead of `git_rm`/`git_mv`.
+  27 unit tests, E2E pass, 58 pyflakes tests pass.
+
+### Decisions and Failures
+- Downloads artifacts are deleted because they are regenerable (the `downloads/*.pgml`/`*.pg`
+  copies are reproduced from the external biology-problems/problems masters via
+  `run_bbq_tasks` `run_pgml_generation`/`copy_sister_pgml`). Topic-level `.pgml`/`.pg` files are
+  treated as masters, so they are quarantined to a flat `orphaned/<basename>` for human triage
+  rather than deleted. `build_manifest` keeps its strict, loud-failure behavior; reconcile runs
+  first so it never encounters an orphan.
+
+### Developer Tests and Notes
+- Added [tests/test_orphan_prune.py](../tests/test_orphan_prune.py): naming equivalence to
+  `get_outfile_name`, all five pgml prefix branches, unknown-ignored, dry-run no-op, and the flat
+  quarantine plus basename-collision case.
+- Code-review fixes applied to [bioproblems_site/orphan_prune.py](../bioproblems_site/orphan_prune.py)
+  and [tests/test_orphan_prune.py](../tests/test_orphan_prune.py): removed planning-scaffold tags
+  (WS#/M#) from all comments and docstrings; assigned inline return dicts to named variables before
+  returning; corrected `_selftest_include_core` return annotation to `str | None`; removed dead
+  `SITE_DOCS_BASE` constant; added missing `#====` separators in
+  [bioproblems_site/git_paths.py](../bioproblems_site/git_paths.py); replaced hardcoded date value
+  in title-cache test fixture with `"some-timestamp"`. 27 tests pass, E2E exit:0, 59 pyflakes pass.
+- Added `tests/e2e/e2e_orphan_reconcile.py`: real git rm/mv staging on a tmp repo.
+- New "Topic folder file taxonomy and orphan policy" subsection in
+  [docs/FILE_STRUCTURE.md](FILE_STRUCTURE.md) documenting the source-vs-generated split
+  (`downloads/*` pgml = reproducible copy from the external masters; topic-level pgml = master,
+  quarantined).
+
 ## 2026-06-08
 
 ### Additions and New Features

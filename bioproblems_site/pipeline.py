@@ -12,6 +12,7 @@ import bioproblems_site.scanner as scanner_module
 import bioproblems_site.subject_index as subject_index_module
 import bioproblems_site.topic_page as topic_page_module
 import bioproblems_site.mkdocs_nav as mkdocs_nav_module
+import bioproblems_site.orphan_prune as orphan_prune_module
 import bioproblems_site.selftest_manifest as selftest_manifest_module
 import bioproblems_site.llm_helpers as llm_helpers
 
@@ -163,6 +164,11 @@ def run(
 			print(color_text(f"updated {mkdocs_path} nav block", COLOR_GREEN))
 
 	if subject_indexes or topic_pages:
+		# Reconcile orphaned bbq-derived state before the manifest is written,
+		# so a deleted bbq source never leaves stale artifacts/keys behind.
+		if verbose:
+			print(color_text("== Reconciling orphaned bbq state ==", COLOR_CYAN))
+		orphan_prune_module.reconcile_all(site_docs_dir, dry_run, verbose)
 		if verbose:
 			print(color_text("== Updating self-test manifest ==", COLOR_CYAN))
 		manifest = selftest_manifest_module.write_manifest(
