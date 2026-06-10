@@ -13,8 +13,6 @@ bbq-linear_digest-length_16-sites_4-strand-questions.txt: Restriction Enzyme DNA
   Products (16 Length, 4 Sites)
 bbq-linear_digest-length_8-sites_2-fragment-questions.txt: Restriction Enzyme DNA
   Fragment Products (8 Length, 2 Sites)
-bbq-metabolic_pathway-4_metabolites-questions.txt: Metabolic Pathway Order (4 Metabolites)
-bbq-metabolic_pathway-6_metabolites-questions.txt: Metabolic Pathway Order (6 Metabolites)
 bbq-overhang_sequence-MC-6_choices-questions.txt: Restriction Enzyme Overhang Sequences
   (6 Choices)
 bbq-overhang_type-end_type-questions.txt: Restriction Enzyme Cleavage Types
