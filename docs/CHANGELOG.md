@@ -1,5 +1,52 @@
 # Changelog
 
+## 2026-06-24
+
+### Additions and New Features
+- Added `tools/ultra_transfer_audit.py`: scans every
+  `site_docs/**/bbq-*.txt` question bank and reports what fraction of the deployed question
+  corpus survives Blackboard Ultra's HTML sanitizer versus Blackboard Learn Original. Classifies
+  each question line for meaningful inline color, fixed-pixel-width tables, RDKit/`<script>`/
+  `<canvas>` render, monospace text, and Matching/Ordering type-drop; reports counts and percent
+  at three granularities (question line, file, unique generator) plus two transfer outcomes
+  (`content_preserving`, `fully_faithful`). Optional `--csv` flag writes per-file counts.
+  Stdlib only; no external dependencies.
+- Measured corpus results (286 BBQ files, 263 unique generators, 38,720 question lines):
+  meaningful color 81.7% of lines (230 files); fixed_width_table 28.3%; script_render 3.6%
+  (12 files); monospace 28.7%; type_drop MAT+ORD 13.4% (5,204 lines). Transfer outcomes:
+  content_preserving 16.2% of lines; fully_faithful 12.0% of lines. Headline: only ~16% of
+  deployed questions render with content intact in Ultra; ~84% lose information. Color is the
+  dominant failure mode.
+
+### Behavior or Interface Changes
+- Enhanced `tools/ultra_transfer_audit.py` type distribution section: now shows unique-generator
+  count and percent per type alongside the existing line count/percent (denominator 263 generators).
+  ORD shows generators=1 / lines=199; MAT shows generators=32 / lines=5005. No mixed-type
+  generators exist in the corpus (each generator produces exactly one type). Added a
+  "Variations per generator" stats block showing min=10, median=130, mean=147, max=398 lines
+  across 263 generators, making the one-template-many-variations spread visible. Added a legend
+  line after the feature table explaining that Gens/Gens% is the unique-question view (one
+  generator = one question template; lines = randomized variations). All pre-existing totals
+  and feature percentages unchanged.
+- Further enhanced `tools/ultra_transfer_audit.py` with color severity split and Transfer Tiers:
+  split the `color (meaningful)` feature into `text_color` (inline non-black color: 29,701 lines /
+  195 generators) and `bg_color` (background-color/bgcolor=: 16,172 lines / 100 generators);
+  the combined meaningful-color total is unchanged at 31,618 lines (81.7%). Removed the redundant
+  `any_color (broad)` row (identical to meaningful color when black-only count = 0; 0 confirmed);
+  replaced with a computed NOTE. Added a Transfer Tiers section that partitions lines/files/generators
+  into Tier 1 (works as-is: 6,268 lines / 16.2%), Tier 2 (text-color-only: 10,037 lines / 25.9%),
+  Tier 3 (structural/data break: 22,415 lines / 57.9%), plus Tier 1+2 subtotal (16,305 / 42.1%).
+  The three tiers sum to 38,720 lines (100%). Also filled in file-level values for
+  `content_preserving` (48 files / 16.8%) and `fully_faithful` (39 files / 13.6%) which
+  previously showed "(files n/a)". pyflakes clean; all existing totals unchanged.
+
+### Decisions and Failures
+- Detection rules were independently quality-reviewed; all checks passed. "Meaningful color"
+  deliberately excludes black-only text color (the corpus had zero black-only lines, so broad
+  and meaningful counts are identical at 31,618 lines). `content_preserving` uses
+  ALL-lines-pass per generator (conservative). A robustness fix made `get_repo_root()` fail
+  loudly (`check=True` plus empty-guard) instead of silently scanning 0 files.
+
 ## 2026-06-09
 
 ### Additions and New Features
