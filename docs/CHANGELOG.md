@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-06-25
+
+### Additions and New Features
+- Added `.fa-chart-line:before { content: "\f201"; }` to `site_docs/assets/stylesheets/custom.css`
+  so the self-hosted Font Awesome 6 woff2 files expose the chart-line glyph (was missing, causing
+  the Progress nav icon to silently break).
+
+### Behavior or Interface Changes
+- Updated `mkdocs.yml` Progress nav entry to use the Unicode emoji U+1F4C8 (`\U0001F4C8`, 📈)
+  instead of the broken `<i class='fa fa-chart-line'></i>` Font Awesome tag, matching the emoji
+  style used by the generated subject nav entries.
+
 ## 2026-06-24
 
 ### Additions and New Features
