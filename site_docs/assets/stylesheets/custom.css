@@ -280,6 +280,31 @@ img[style] {
 
 /* Daily puzzle shared UI is in assets/stylesheets/daily_puzzle.css */
 
+/* Daily streak badge shown after h1 on every page. */
+.streak-badge {
+  border: 1px solid #e07800;
+  border-radius: 0.35rem;
+  padding: 0.5rem 0.75rem;
+  margin: 0.75rem 0 1rem;
+  background: #fff8f0;
+  color: #c05000;
+  font-size: 0.95em;
+}
+
+.streak-at-risk {
+  color: #cc0000;
+}
+
+body[data-md-color-scheme="slate"] .streak-badge {
+  background: #3a2200;
+  color: #ffaa55;
+  border-color: #995500;
+}
+
+body[data-md-color-scheme="slate"] .streak-at-risk {
+  color: #ff8888;
+}
+
 /* Self-test completion progress. */
 .selftest-progress-panel,
 .selftest-storage-warning,
