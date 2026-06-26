@@ -2,10 +2,13 @@
 
 // Quiz flow: opens the first self-test <details> automatically, then on a
 // correct answer collapses it and opens the next one, scrolling down to it.
-// Purely additive — selftest_progress.js star/confetti/badge logic is unaffected.
+// Also highlights the chosen answer green (correct) or red (incorrect) using
+// the same CSS classes the questions already define, and plays a wrong-answer
+// sound on incorrect. Purely additive -- selftest_progress.js is unaffected.
 (function () {
 	// Wait long enough for the star-pop (950ms) and confetti to feel complete.
 	var ADVANCE_DELAY_MS = 1500;
+	var WRONG_SOUND_URL = "/assets/sounds/wrong-answer-buzzer.wav";
 
 	//============================================
 	function findQuizDetails() {
@@ -17,7 +20,7 @@
 
 	//============================================
 	function findResultDiv(detailsEl) {
-		// Each question has exactly one result div: id="result_<crc>_<id>".
+		// Each question has exactly one result div: id="result_<suffix>".
 		return detailsEl.querySelector("[id^='result_']");
 	}
 
@@ -43,6 +46,49 @@
 	}
 
 	//============================================
+	function isNoAnswer(text) {
+		return text === "" ||
+			text === "Please select an answer." ||
+			text === "Please enter a value." ||
+			text === "Please enter a valid number.";
+	}
+
+	//============================================
+	function playWrongSound() {
+		try {
+			var audio = new window.Audio(WRONG_SOUND_URL);
+			audio.play();
+		} catch (_) {
+			// Sound is optional; silently ignore failures.
+		}
+	}
+
+	//============================================
+	function clearAnswerHighlights(questionDiv) {
+		// Remove any previously applied feedback classes from answer <li> items.
+		var highlighted = questionDiv.querySelectorAll("li.qti-feedback-success, li.qti-feedback-error");
+		highlighted.forEach(function (li) {
+			li.classList.remove("qti-feedback-success", "qti-feedback-error");
+		});
+	}
+
+	//============================================
+	function highlightSelectedAnswer(questionDiv, isCorrect) {
+		// Apply green or red to the <li> containing the checked radio/checkbox.
+		// Matching/drag-drop questions have no radio inputs so this is a no-op.
+		var checked = questionDiv.querySelectorAll(
+			"input[type='radio']:checked, input[type='checkbox']:checked"
+		);
+		var cssClass = isCorrect ? "qti-feedback-success" : "qti-feedback-error";
+		checked.forEach(function (input) {
+			var li = input.closest("li");
+			if (li) {
+				li.classList.add(cssClass);
+			}
+		});
+	}
+
+	//============================================
 	function advanceTo(allDetails, currentIndex) {
 		var current = allDetails[currentIndex];
 		var next = allDetails[currentIndex + 1];
@@ -53,22 +99,37 @@
 			next.setAttribute("open", "");
 			next.scrollIntoView({ behavior: "smooth", block: "start" });
 		}
-		// No next details means this was the last question — nothing more to do.
+		// No next means this was the last question -- nothing more to do.
 	}
 
 	//============================================
-	function watchForCorrect(resultDiv, allDetails, index) {
+	function watchResult(resultDiv, allDetails, index) {
+		// Derive the question div from the result div id suffix.
+		var suffix = resultDiv.id.replace("result_", "");
+		var questionDiv = document.getElementById("question_html_" + suffix);
+
 		var observer = new MutationObserver(function () {
 			var text = (resultDiv.textContent || "").trim();
-			if (!isFullyCorrect(text)) {
+			if (isNoAnswer(text)) {
 				return;
 			}
-			// Fire only once — disconnect before the timeout so a re-render
-			// of the result div cannot trigger a second advance.
-			observer.disconnect();
-			window.setTimeout(function () {
-				advanceTo(allDetails, index);
-			}, ADVANCE_DELAY_MS);
+			var correct = isFullyCorrect(text);
+
+			// Clear previous highlight then apply the new verdict color.
+			if (questionDiv) {
+				clearAnswerHighlights(questionDiv);
+				highlightSelectedAnswer(questionDiv, correct);
+			}
+
+			if (correct) {
+				// Disconnect before the timeout so a DOM re-render cannot fire twice.
+				observer.disconnect();
+				window.setTimeout(function () {
+					advanceTo(allDetails, index);
+				}, ADVANCE_DELAY_MS);
+			} else {
+				playWrongSound();
+			}
 		});
 		observer.observe(resultDiv, { childList: true, characterData: true, subtree: true });
 	}
@@ -89,13 +150,13 @@
 			}
 		});
 
-		// Attach a correct-answer observer to each details element.
+		// Attach a verdict observer to each details element.
 		allDetails.forEach(function (d, i) {
 			var resultDiv = findResultDiv(d);
 			if (!resultDiv) {
 				return;
 			}
-			watchForCorrect(resultDiv, allDetails, i);
+			watchResult(resultDiv, allDetails, i);
 		});
 	}
 
