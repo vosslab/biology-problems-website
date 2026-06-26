@@ -3,6 +3,13 @@
 ## 2026-06-25
 
 ### Additions and New Features
+- Added `site_docs/assets/scripts/quiz_flow.js`: Khan Academy-style sequential question
+  flow for self-test sections. On page load the first `<details>` question opens automatically;
+  on a correct answer the current section collapses and the next opens simultaneously with a
+  smooth scroll, after a 1500ms delay to let the star-pop and confetti finish. Purely additive
+  — no changes to the generation pipeline or `selftest_progress.js`.
+
+
 - Added `.fa-chart-line:before { content: "\f201"; }` to `site_docs/assets/stylesheets/custom.css`
   so the self-hosted Font Awesome 6 woff2 files expose the chart-line glyph (was missing, causing
   the Progress nav icon to silently break).
