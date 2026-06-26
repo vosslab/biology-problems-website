@@ -135,20 +135,60 @@
 	}
 
 	//============================================
+	function loadCompletedQuestions() {
+		try {
+			var raw = window.localStorage.getItem("selftest_progress_v1");
+			if (!raw) {
+				return {};
+			}
+			var parsed = JSON.parse(raw);
+			return (parsed.version === 1 && parsed.completed) ? parsed.completed : {};
+		} catch (_) {
+			return {};
+		}
+	}
+
+	//============================================
+	function findFirstUncompletedIndex(allDetails, completed) {
+		for (var i = 0; i < allDetails.length; i++) {
+			var resultDiv = findResultDiv(allDetails[i]);
+			if (!resultDiv) {
+				return i;
+			}
+			// questionId in localStorage equals the crc, which is the result div id suffix.
+			var crc = resultDiv.id.replace("result_", "");
+			if (!completed[crc]) {
+				return i;
+			}
+		}
+		// All questions completed -- start from the first for review.
+		return 0;
+	}
+
+	//============================================
 	function initQuizFlow() {
 		var allDetails = findQuizDetails();
 		if (allDetails.length === 0) {
 			return;
 		}
 
-		// Open the first question; make sure all others start closed.
+		// Resume from the first uncompleted question rather than always question 1.
+		var completed = loadCompletedQuestions();
+		var startIndex = findFirstUncompletedIndex(allDetails, completed);
+
+		// Open only the start question; close all others.
 		allDetails.forEach(function (d, i) {
-			if (i === 0) {
+			if (i === startIndex) {
 				d.setAttribute("open", "");
 			} else {
 				d.removeAttribute("open");
 			}
 		});
+
+		// Scroll to the resume point if it is not the first question.
+		if (startIndex > 0) {
+			allDetails[startIndex].scrollIntoView({ behavior: "smooth", block: "start" });
+		}
 
 		// Attach a verdict observer to each details element.
 		allDetails.forEach(function (d, i) {
