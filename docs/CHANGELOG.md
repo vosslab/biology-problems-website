@@ -8,6 +8,13 @@
   on a correct answer the current section collapses and the next opens simultaneously with a
   smooth scroll, after a 1500ms delay to let the star-pop and confetti finish. Purely additive
   — no changes to the generation pipeline or `selftest_progress.js`.
+- Added `site_docs/assets/sounds/wrong-answer-buzzer.wav`: audio feedback for incorrect answers.
+
+### Behavior or Interface Changes
+- Updated `quiz_flow.js`: incorrect answer now plays wrong-answer buzzer and highlights the
+  chosen answer `<li>` in red using the existing `qti-feedback-error` class; correct answer
+  highlights the chosen `<li>` in green using `qti-feedback-success`. Highlight clears on the
+  next Check Answer attempt. Colors are the same CSS variables used throughout the selftest UI.
 
 
 - Added `.fa-chart-line:before { content: "\f201"; }` to `site_docs/assets/stylesheets/custom.css`
