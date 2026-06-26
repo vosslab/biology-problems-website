@@ -1,5 +1,23 @@
 # Changelog
 
+## 2026-06-26
+
+### Additions and New Features
+- Added `site_docs/assets/scripts/streak.js`: daily streak tracker. Records the first
+  fully correct answer per calendar day in localStorage (`selftest_streak_v1`). Shows an
+  orange badge after the h1 on topic pages and a detail panel on the progress dashboard
+  (current streak, best streak, last active date). Fires a toast on streak start or extension.
+  Shows an "Answer today to keep it!" warning when the streak is at risk (answered yesterday
+  but not yet today). Purely additive, no changes to existing scripts.
+
+### Behavior or Interface Changes
+- `streak.js`: streak badge is suppressed on the progress page to avoid duplication with
+  the dashboard panel; each page now shows streak info in exactly one place.
+- Removed the explanatory paragraph from `site_docs/progress/index.md`; the page now goes
+  straight from the title to the dashboard.
+- Added streak badge CSS (`.streak-badge`, `.streak-at-risk`) to `custom.css` with dark-mode
+  support via `body[data-md-color-scheme="slate"]` selectors.
+
 ## 2026-06-25
 
 ### Additions and New Features
