@@ -2,6 +2,14 @@
 
 ## 2026-06-26
 
+### Behavior or Interface Changes
+- `quiz_flow.js`: on page load, automatically opens the first uncompleted question instead
+  of always question 1. Reads `selftest_progress_v1` from localStorage (questionId equals
+  the CRC, matching the result div id suffix). Scrolls to the resume point if it is not the
+  first question. Falls back to question 1 if all questions are already completed (review mode).
+
+
+
 ### Additions and New Features
 - Added `site_docs/assets/scripts/streak.js`: daily streak tracker. Records the first
   fully correct answer per calendar day in localStorage (`selftest_streak_v1`). Shows an
