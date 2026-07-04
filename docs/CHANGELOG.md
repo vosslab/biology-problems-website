@@ -33,7 +33,7 @@
   flow for self-test sections. On page load the first `<details>` question opens automatically;
   on a correct answer the current section collapses and the next opens simultaneously with a
   smooth scroll, after a 1500ms delay to let the star-pop and confetti finish. Purely additive
-  — no changes to the generation pipeline or `selftest_progress.js`.
+  - no changes to the generation pipeline or `selftest_progress.js`.
 - Added `site_docs/assets/sounds/wrong-answer-buzzer.wav`: audio feedback for incorrect answers.
 
 ### Behavior or Interface Changes

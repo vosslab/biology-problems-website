@@ -17,5 +17,7 @@ test-results/
 node_modules/
 
 # === UNIVERSAL ===
+output*/
 _temp*.?*
+OTHER_REPOS/
 

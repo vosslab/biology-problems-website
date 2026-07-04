@@ -58,7 +58,8 @@ the `e2e_*` prefix as a secondary, human-readable convention.
 
 ## Naming conventions test
 
-File naming conventions are enforced by `tests/test_test_naming_conventions.py` to prevent silent bugs:
+File naming conventions are enforced by `templates/typescript/tests/test_test_naming_conventions.py`
+(ships only to `REPO_TYPE=typescript` consumer repos) to prevent silent bugs:
 
 - No `test_*.py` files anywhere under `tests/e2e/` (since `collect_ignore` would skip them silently, mismatching the name).
 - No `test_*.py` files anywhere under `tests/playwright/` (same trap).
@@ -94,5 +95,6 @@ File naming conventions are enforced by `tests/test_test_naming_conventions.py` 
 
 - [PYTEST_STYLE.md](PYTEST_STYLE.md): fast pytest unit and integration tests under `tests/`.
 - Browser-driven test conventions: TypeScript repos include `PLAYWRIGHT_USAGE.md` in their propagated `docs/` folder for tests under `tests/playwright/`.
+- Browser test authoring style: repos that serve HTML (typescript and `other`) include `PLAYWRIGHT_TEST_STYLE.md` in their propagated `docs/` folder for how to write Playwright tests under `tests/playwright/`.
 - [PYTHON_STYLE.md](PYTHON_STYLE.md): repo-wide Python rules, including
   the `assert`-only-in-tests boundary.
