@@ -220,9 +220,12 @@ def _pythonpath_has_repo(python_parts: list, repo_name: str) -> bool:
 def check_pythonpath(bbq_config: dict) -> tuple:
 	pythonpath_value = os.environ.get("PYTHONPATH", "").strip()
 	if not pythonpath_value:
-		return False, "ERROR: PYTHONPATH is not set. Run: source bbq_control/source_me.sh"
+		return False, "ERROR: PYTHONPATH is not set. Run: source source_me.sh"
 	python_parts = [part.strip() for part in pythonpath_value.split(os.pathsep) if part.strip()]
-	required_repos = ("biology-problems", "qti-package-maker")
+	# biology-problems generator scripts are run by file path (bp_root in
+	# bbq_settings.yml), never imported, so only qti-package-maker needs to be
+	# importable from PYTHONPATH.
+	required_repos = ("qti-package-maker",)
 	missing_repos = []
 	for repo_name in required_repos:
 		if _pythonpath_has_repo(python_parts, repo_name):
@@ -232,7 +235,7 @@ def check_pythonpath(bbq_config: dict) -> tuple:
 		missing_text = ", ".join(missing_repos)
 		message = (
 			"ERROR: PYTHONPATH is missing required repo path(s): "
-			f"{missing_text}. Run: source bbq_control/source_me.sh"
+			f"{missing_text}. Run: source source_me.sh"
 		)
 		return False, message
 	return True, ""

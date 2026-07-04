@@ -10,7 +10,10 @@ Real logic lives in bioproblems_site.pipeline.
 _CLI_DESCRIPTION = (
 	"Regenerate subject indexes, topic pages, and the mkdocs.yml nav block. "
 	"Default: fast subject-indexes + nav run. "
-	"Use -T to rebuild topic pages. "
+	"Use -T to rebuild topic pages; self-tests rotate by default on -T "
+	"(use --no-selftests to skip). "
+	"Use -H to force-regenerate every self-test from its BBQ source "
+	"(standalone, no index.md rewrite or LLM). "
 	"Use -G with -T to also create missing download artifact files."
 )
 
@@ -51,6 +54,18 @@ def parse_args() -> argparse.Namespace:
 			"rebuilding topic pages. Requires --topic-pages (-T).",
 	)
 	parser.add_argument(
+		"-H", "--selftests", dest="run_selftests", action="store_true",
+		help="Regenerate every self-test HTML from its bbq-*.txt source via "
+			"qti-package-maker (treats all as stale). Standalone pass: does "
+			"not rewrite index.md or use the LLM. Honors -s/--subject and "
+			"-t/--topic filters.",
+	)
+	parser.add_argument(
+		"--no-selftests", dest="regenerate_selftests", action="store_false",
+		help="Reuse existing self-test HTML for fast -T iteration "
+			"(a missing self-test file is still built).",
+	)
+	parser.add_argument(
 		"--full", dest="full", action="store_true",
 		help="Convenience alias for subject indexes, topic pages, and "
 			"download generation.",
@@ -73,6 +88,7 @@ def parse_args() -> argparse.Namespace:
 		help="Use Ollama with this exact local model (implies --ollama).",
 	)
 	parser.set_defaults(verbose=True)
+	parser.set_defaults(regenerate_selftests=True)
 	args = parser.parse_args()
 	# --full is a convenience alias; combining it with the lower-level
 	# build flags is ambiguous, so reject.
@@ -97,6 +113,12 @@ def main() -> None:
 		subject_indexes = True
 		topic_pages = True
 		generate_downloads = True
+	elif args.run_selftests and not args.subject_indexes and not args.topic_pages:
+		# A bare -H runs only the standalone self-test pass; no
+		# subject-index or topic-page work is implied.
+		subject_indexes = False
+		topic_pages = False
+		generate_downloads = False
 	elif not args.subject_indexes and not args.topic_pages:
 		# Fast default: subject indexes + nav, no topic work.
 		subject_indexes = True
@@ -129,6 +151,8 @@ def main() -> None:
 		subject_indexes=subject_indexes,
 		topic_pages=topic_pages,
 		generate_downloads=generate_downloads,
+		regenerate_selftests=args.regenerate_selftests,
+		run_selftests=args.run_selftests,
 		dry_run=args.dry_run,
 		verbose=args.verbose,
 		model=args.model,

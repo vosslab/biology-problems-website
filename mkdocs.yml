@@ -1,4 +1,5 @@
 site_name: Biology Problems OER
+site_url: https://biologyproblems.org/
 docs_dir: site_docs
 theme:
   name: material

@@ -5,9 +5,11 @@
   "private": true,
   "scripts": {
     "test:ui": "node tests/playwright/ui_ux_review.mjs",
-    "test:survey": "node tests/playwright/selftest_visual_survey.mjs"
+    "test:survey": "node tests/playwright/selftest_visual_survey.mjs",
+    "test:smoke": "playwright test smoke.spec.ts"
   },
   "devDependencies": {
+    "@playwright/test": "^1.61.1",
     "playwright": "^1.60.0"
   }
 }

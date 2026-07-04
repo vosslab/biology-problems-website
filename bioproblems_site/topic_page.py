@@ -103,6 +103,10 @@ class RenderOptions:
 	# formats are omitted.
 	generate_downloads: bool = False
 	force_downloads: bool = False
+	# Rotate (regenerate) the per-BBQ self-test HTML on every build; each
+	# build draws a fresh random question from the bbq-*.txt source.
+	# Intentional -- do not re-gate for speed.
+	regenerate_selftests: bool = True
 	verbose: bool = True
 	# Pre-built LLMClient for problem-set title generation. The pipeline
 	# constructs one client at startup based on --ollama / --model flags.
@@ -624,6 +628,7 @@ def update_index_md(
 	client=None,
 	*,
 	generate_downloads: bool = False,
+	regenerate_selftests: bool = True,
 ) -> None:
 	"""Update or create the index.md file for the topic.
 
@@ -702,10 +707,12 @@ def update_index_md(
 			print(color_text(f'  {file_progress}BBQ file {bbq_file}', COLOR_CYAN))
 
 			html_file_path = get_outfile_name(bbq_file, 'selftest', 'html')
-			# The selftest HTML is a generated artifact (bbq_converter
-			# subprocess). When generate_downloads is off, reuse the
-			# existing file to keep -T fast; only rebuild if missing.
-			if generate_downloads or not os.path.isfile(html_file_path):
+			# The self-test HTML is a rotating artifact: each build draws a fresh
+			# random question from the bbq-*.txt source via bbq_converter. Rotation
+			# is intentional and ON by default (regenerate_selftests). --no-selftests
+			# reuses the existing file for fast -T iteration; a missing file is always
+			# built so the include on the following lines never breaks.
+			if regenerate_selftests or not os.path.isfile(html_file_path):
 				if os.path.exists(html_file_path):
 					os.remove(html_file_path)
 				html_file_path = create_downloadable_format(bbq_file, 'selftest', 'html')
@@ -750,41 +757,21 @@ def update_index_md(
 
 #==============
 
-def render_all(
-	options: "RenderOptions | None" = None,
+def enumerate_topic_jobs(
+	base_dir: str,
 	subject_filter: "str | None" = None,
 	topic_filter: "str | None" = None,
-) -> None:
-	"""Traverse topic folders and (re)generate their index.md files.
+) -> list:
+	"""Discover topic folders and their BBQ source files.
 
-	Called by bioproblems_site.pipeline.run. Metadata is sourced from
-	topics_metadata.yml exclusively (the legacy markdown parser was
-	removed in M3).
-
-	Args:
-		options: RenderOptions object (or None for defaults).
-		subject_filter: if set, only render topics under this subject key.
-		topic_filter: if set, only render this topic key (within the
-			filtered subject, if subject_filter is also set).
+	Traverses site_docs/<subject>/topic??/ folders, honoring the same
+	subject/topic filters as render_all. Returns a list of
+	(topic_folder, bbq_files) tuples for folders that contain at least
+	one bbq-*-questions.txt source. Shared by render_all and
+	regenerate_all_selftests so the discovery logic lives in one place.
 	"""
-	if options is None:
-		options = RenderOptions()
-	stats = init_format_stats()
-	base_dir = get_docs_dir()
-	if not os.path.exists(base_dir):
-		raise FileNotFoundError(f"Base directory '{base_dir}' not found.")
-	if options.verbose:
-		joined_formats = ", ".join(options.download_formats) or "none"
-		print(color_text(f"Download formats: {joined_formats}", COLOR_CYAN))
-		print(color_text(f"Force downloads: {options.force_downloads}", COLOR_CYAN))
-
 	all_topic_folders = glob.glob(os.path.join(base_dir, "*/topic??/"))
 	all_topic_folders.sort()
-	if options.verbose:
-		print(color_text(
-			f"Found {len(all_topic_folders)} topic folders to parse", COLOR_CYAN
-		))
-
 	topic_jobs = []
 	for topic_folder in all_topic_folders:
 		norm_topic = os.path.normpath(topic_folder)
@@ -814,7 +801,115 @@ def render_all(
 		bbq_files = glob.glob(os.path.join(norm_topic, "bbq-*-questions.txt"))
 		if not bbq_files:
 			continue
+		bbq_files.sort()
 		topic_jobs.append((norm_topic, bbq_files))
+	return topic_jobs
+
+#==============
+
+def regenerate_all_selftests(
+	subject_filter: "str | None" = None,
+	topic_filter: "str | None" = None,
+	site_docs_dir: "str | None" = None,
+	verbose: bool = True,
+	stats: "dict | None" = None,
+) -> None:
+	"""Force-regenerate every self-test HTML from its BBQ source.
+
+	Standalone self-test regeneration pass: enumerates every BBQ source
+	file in scope (honoring subject_filter/topic_filter) and rebuilds its
+	self-test HTML via create_downloadable_format, which removes any
+	existing output first and rebuilds through qti-package-maker. Every
+	self-test is treated as stale, so a fresh random question is drawn.
+
+	This pass does NOT write index.md, does NOT construct an LLMClient,
+	and does NOT call get_problem_set_title. When a stats dict is passed,
+	per-file generated/failed counts are recorded under the "selftest" key.
+
+	Args:
+		subject_filter: if set, only regenerate self-tests for this subject.
+		topic_filter: if set, only regenerate self-tests for this topic.
+		site_docs_dir: docs root; falls back to mkdocs.yml docs_dir when None.
+		verbose: print a concise per-file line for each regenerated self-test.
+		stats: optional stats dict; when provided, records selftest counts.
+	"""
+	# Resolve the docs root. When the caller does not supply one, read the
+	# canonical docs_dir from mkdocs.yml so this matches render_all.
+	base_dir = site_docs_dir
+	if base_dir is None:
+		base_dir = get_docs_dir()
+	if not os.path.exists(base_dir):
+		raise FileNotFoundError(f"Base directory '{base_dir}' not found.")
+	topic_jobs = enumerate_topic_jobs(base_dir, subject_filter, topic_filter)
+	total_bbq_files = sum(len(files) for _, files in topic_jobs)
+	if verbose:
+		print(color_text(
+			f"Regenerating self-tests for {len(topic_jobs)} topic folders "
+			f"with {total_bbq_files} BBQ files",
+			COLOR_CYAN,
+		))
+	file_count = 0
+	for topic_folder, bbq_files in topic_jobs:
+		for bbq_file in bbq_files:
+			# Canonicalize so the path is stable regardless of how glob
+			# returned it (matches update_index_md's handling).
+			bbq_file = git_paths.canonicalize_git_path(bbq_file)
+			file_count += 1
+			# create_downloadable_format removes any existing output first,
+			# so every self-test is treated as stale and rebuilt fresh.
+			html_file_path = create_downloadable_format(bbq_file, "selftest", "html")
+			if not os.path.isfile(html_file_path):
+				if verbose:
+					print(color_text(
+						f"  [{file_count}/{total_bbq_files}] FAILED selftest: {bbq_file}",
+						COLOR_YELLOW,
+					))
+				if stats is not None:
+					record_stat(stats, "selftest", "failed")
+				raise FileNotFoundError(html_file_path)
+			if verbose:
+				print(color_text(
+					f"  [{file_count}/{total_bbq_files}] regenerated {html_file_path}",
+					COLOR_GREEN,
+				))
+			if stats is not None:
+				record_stat(stats, "selftest", "generated")
+
+#==============
+
+def render_all(
+	options: "RenderOptions | None" = None,
+	subject_filter: "str | None" = None,
+	topic_filter: "str | None" = None,
+) -> None:
+	"""Traverse topic folders and (re)generate their index.md files.
+
+	Called by bioproblems_site.pipeline.run. Metadata is sourced from
+	topics_metadata.yml exclusively (the legacy markdown parser was
+	removed in M3).
+
+	Args:
+		options: RenderOptions object (or None for defaults).
+		subject_filter: if set, only render topics under this subject key.
+		topic_filter: if set, only render this topic key (within the
+			filtered subject, if subject_filter is also set).
+	"""
+	if options is None:
+		options = RenderOptions()
+	stats = init_format_stats()
+	base_dir = get_docs_dir()
+	if not os.path.exists(base_dir):
+		raise FileNotFoundError(f"Base directory '{base_dir}' not found.")
+	if options.verbose:
+		joined_formats = ", ".join(options.download_formats) or "none"
+		print(color_text(f"Download formats: {joined_formats}", COLOR_CYAN))
+		print(color_text(f"Force downloads: {options.force_downloads}", COLOR_CYAN))
+
+	topic_jobs = enumerate_topic_jobs(base_dir, subject_filter, topic_filter)
+	if options.verbose:
+		print(color_text(
+			f"Found {len(topic_jobs)} topic folders to parse", COLOR_CYAN
+		))
 
 	total_jobs = len(topic_jobs)
 	total_bbq_files = sum(len(files) for _, files in topic_jobs)
@@ -852,6 +947,7 @@ def render_all(
 			base_dir,
 			client=options.llm_client,
 			generate_downloads=options.generate_downloads,
+			regenerate_selftests=options.regenerate_selftests,
 		)
 	if options.verbose:
 		print("\n\nSummary:")
