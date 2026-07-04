@@ -79,6 +79,8 @@ def run(
 	subject_indexes: bool = True,
 	topic_pages: bool = False,
 	generate_downloads: bool = False,
+	regenerate_selftests: bool = True,
+	run_selftests: bool = False,
 	dry_run: bool = False,
 	verbose: bool = True,
 	model: "str | None" = None,
@@ -93,7 +95,13 @@ def run(
 	`topic_pages` rewrites topic??/index.md files. `generate_downloads`
 	is only meaningful when `topic_pages` is True; when False, download
 	artifact files are not created (buttons still render for files that
-	already exist on disk).
+	already exist on disk). `regenerate_selftests` rotates the per-BBQ
+	self-test HTML by default whenever `topic_pages` is True, independent
+	of `generate_downloads`; each build draws a fresh random question from
+	the bbq-*.txt source. `run_selftests` triggers a standalone self-test
+	regeneration pass (independent of `topic_pages`): every self-test HTML
+	in scope is force-rebuilt from its BBQ source via qti-package-maker,
+	without rewriting index.md or contacting the LLM.
 	"""
 	subjects, nav_order = metadata_module.load_topics_metadata(
 		metadata_path=metadata_path, mkdocs_path=mkdocs_path
@@ -142,12 +150,23 @@ def run(
 				verbose=verbose,
 				llm_client=llm_client,
 				generate_downloads=generate_downloads,
+				regenerate_selftests=regenerate_selftests,
 			)
 			topic_page_module.render_all(
 				options,
 				subject_filter=subject_filter,
 				topic_filter=topic_filter,
 			)
+
+	if run_selftests:
+		if verbose:
+			print(color_text("== Regenerating self-tests ==", COLOR_CYAN))
+		topic_page_module.regenerate_all_selftests(
+			subject_filter,
+			topic_filter,
+			site_docs_dir,
+			verbose,
+		)
 
 	# Nav block regen runs whenever subject indexes were rewritten (nav
 	# entries depend on the same visibility/count filter as the index).
@@ -163,7 +182,7 @@ def run(
 		if verbose and not dry_run:
 			print(color_text(f"updated {mkdocs_path} nav block", COLOR_GREEN))
 
-	if subject_indexes or topic_pages:
+	if subject_indexes or topic_pages or run_selftests:
 		# Reconcile orphaned bbq-derived state before the manifest is written,
 		# so a deleted bbq source never leaves stale artifacts/keys behind.
 		if verbose:

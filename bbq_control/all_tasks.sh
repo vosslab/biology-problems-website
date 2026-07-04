@@ -1,7 +1,7 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 rm -f bbq_generation.log*
-source source_me.sh
+source "$(git rev-parse --show-toplevel)/source_me.sh"
 for csvfile in task_files/*.csv;
 do
 	echo "======================================================"

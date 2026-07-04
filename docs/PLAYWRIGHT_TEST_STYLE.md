@@ -35,8 +35,10 @@ model.
 - Put browser tests under `tests/playwright/` at the repo root.
 - Name the first, broadest test `smoke` (`smoke.spec.ts` or `*_smoke.mjs`).
 - Use `.spec.ts` for runner tests and `.mjs` for library scripts.
-- Prefix non-test helper files with an underscore (`_server.mjs`) so they read
-  as support, not tests.
+- Prefix non-test helper files with `helper_` (`helper_server.mjs`) so they
+  read as support, not tests. Reserve a bare leading underscore for deletable
+  scratch: `_name` files match the hook's rm-allowed patterns and are treated
+  as temporary.
 - Import the propagated `tests/playwright/repo_root.mjs` anchor to resolve paths
   from the git root.
 - Group multi-step user journeys in an optional `tests/playwright/e2e/`
@@ -60,10 +62,14 @@ user actually receives.
 - Pin a random free port into an environment variable so parallel workers agree
   on the same URL.
 
-A repo can wrap the runner flow in a `run_playwright_tests.sh` that preflights
-tooling, rebuilds on `--build`, forwards remaining arguments to
-`npx playwright test`, and prints a single PASS or FAIL line. Reuse that shape
-where a repo wants one entry point.
+A repo can wrap either model in a `run_playwright_tests.sh` single entry point
+that preflights tooling, honors `--build`, prints a single PASS or FAIL line,
+and exits with the underlying tool's code. In the runner model, the wrapper
+forwards remaining arguments to `npx playwright test`, and the config's
+`webServer` block owns the server. In the bare-library model, the wrapper runs
+the `.mjs` entry point (for example `npm run test:smoke`, which builds and
+serves the site itself), and `--build` triggers the site build (`mkdocs
+build`). Reuse this shape where a repo wants one entry point.
 
 ## Selectors
 
