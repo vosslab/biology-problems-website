@@ -13,12 +13,12 @@ import pytest
 
 # local repo modules
 import bioproblems_site.metadata as metadata_module
-import git_file_utils
+import file_utils
 
 
 def test_repo_yaml_and_mkdocs_nav_are_in_sync():
 	"""Live invariant: the repo's YAML and mkdocs.yml name the same subjects."""
-	repo_root = git_file_utils.get_repo_root()
+	repo_root = file_utils.get_repo_root()
 	metadata_path = os.path.join(repo_root, "topics_metadata.yml")
 	mkdocs_path = os.path.join(repo_root, "mkdocs.yml")
 	metadata_module.load_topics_metadata(
