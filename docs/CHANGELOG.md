@@ -15,6 +15,11 @@
   exact duplicate row, corrected several existing chapter placements, and
   added cross-subject placements for DNA, PCR, statistics, genetics,
   laboratory, biotechnology, and cell-biology material.
+- Added `bbq_control/all_tasks.py` as the root-aware coordinator for every
+  `bbq_control/task_files/*.csv` file. It discovers files deterministically,
+  passes absolute task and settings paths to the root runner, and has a
+  non-generating `--list` verification mode. `bbq_control/all_tasks.sh` now
+  delegates to it.
 
 ### Developer Tests and Notes
 
