@@ -1,25 +1,54 @@
 # BBQ control usage
 
-## Quick start
-- Edit `bbq_control/bbq_settings.yml` to point bp_root to your local
-  biology-problems checkout.
-- Edit `bbq_control/bbq_tasks.csv` to add or adjust tasks.
-- Run: `python3 run_bbq_tasks.py --config bbq_control/bbq_tasks.csv`
-  (the script lives at the repo root next to `generate_pages.py`)
-- For sync mode: `python3 bbq_control/bbq_sync_tasks.py --config bbq_control/bbq_tasks.csv`
-  - To limit tasks during testing: add `-x 5` (runs the first 5 tasks).
-  - To randomize task order for testing: add `--shuffle` (use with `-x` for a random subset).
-  - To append max-questions to each task: add `--max-questions 5`.
+## Run all task files
+
+From the repository root, run:
+
+```bash
+./bbq_control/all_tasks.py
+```
+
+The command finds the Git repository root, runs every
+`bbq_control/task_files/*.csv` file in filename order, and invokes the root
+`run_bbq_tasks.py` with absolute paths. It sources the root `source_me.sh` for
+each CSV run, so it does not depend on the directory from which it is called.
+
+Use `--list` to verify file discovery without generating any output:
+
+```bash
+./bbq_control/all_tasks.py --list
+```
+
+For a limited trial, `--limit` applies to each CSV and `--no-shuffle` keeps
+the source order:
+
+```bash
+./bbq_control/all_tasks.py --limit 1 --no-shuffle --max-questions 1
+```
+
+`all_tasks.sh` remains a compatibility launcher for the Python command.
+
+## Run one task file
+
+Use the root runner directly when you want one CSV:
+
+```bash
+source source_me.sh && /opt/homebrew/opt/python@3.12/bin/python3.12 run_bbq_tasks.py \
+  --flat --max-questions 199 \
+  --settings bbq_control/bbq_settings.yml \
+  --tasks bbq_control/task_files/biochem_tasks1.csv
+```
 
 ## Key files
-- `run_bbq_tasks.py` (at repo root): Runs task list and writes outputs.
-- `bbq_control/bbq_sync_tasks.py`: Regenerates outputs only when inputs change.
-- `bbq_control/bbq_tasks.csv`: Full task list.
-- `bbq_control/sub_bbq_tasks.csv`: Subset task list.
-- `bbq_control/sub_biochem.csv`: Biochemistry subset for quick testing.
-- `bbq_control/bbq_settings.yml`: Path aliases and script aliases.
 
-## CSV format (bbq_tasks.csv)
+- `run_bbq_tasks.py`: Root runner that executes one task CSV and writes outputs.
+- `topics_metadata.yml`: Root site-wide subject and topic metadata source.
+- `bbq_control/all_tasks.py`: Root-aware batch coordinator for every task CSV.
+- `bbq_control/bbq_settings.yml`: BBQ path and script aliases.
+- `bbq_control/task_files/`: Per-subject task CSV files.
+
+## CSV format
+
 - Columns: subject,topic,script,flags,input,notes (optional: output).
 - The `topic` cell may be either a canonical `topicNN` key or a
   per-subject alias from `topics_metadata.yml`; aliases resolve to
@@ -60,8 +89,6 @@ script_aliases:
 ## Notes
 - If input is set, leave -y out of flags.
 - Use {bp_root} in script paths to avoid repeating the full root.
-- Use --bbq-config to point at a different config file.
 - YMATCH runs both matching-set generators on the same input file.
 - You can override bp_root by exporting `bp_root` or `BP_ROOT` in your shell.
-- Failed script output is appended to `bbq_generation_errors.log` in the current
-  working directory.
+- Failed script output is appended to `bbq_generation_errors.log` at the repo root.
