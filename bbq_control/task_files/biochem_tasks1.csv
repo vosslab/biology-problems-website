@@ -50,3 +50,5 @@ biochemistry,protein_purification,YMATCH,,{bp_match}/laboratory/cell_disruption.
 biochemistry,protein_purification,YMATCH,,{bp_match}/laboratory/column_chromatography.yml,
 biochemistry,protein_purification,YMATCH,,{bp_match}/laboratory/protein_v_dna_gels.yml,
 biochemistry,protein_purification,{bp_root}/biochemistry-problems/electrophoresis/titration_pI.py,,,
+biochemistry,amino_acids,{bp_root}/biochemistry-problems/PUBCHEM/PEPTIDES/tetrapeptide_net_charge.py,,,
+biochemistry,amino_acids,{bp_root}/biochemistry-problems/PUBCHEM/PEPTIDES/wordle_peptides.py,,,
