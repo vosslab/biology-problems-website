@@ -1,0 +1,353 @@
+## DESCRIPTION
+## Select the cellular structure that corresponds to the given description.
+## ENDDESCRIPTION
+## KEYWORDS('cellular structures','descriptions','which one','multiple choice')
+## DBsubject('Cell Biology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-07-12')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserRadioButtons.pl',
+    'PGcourse.pl',
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 0;
+
+#==========================================================
+# QUESTION DATA
+#==========================================================
+
+# All questions data
+@questions_data = (
+  {
+    'item_name' => '<strong>tail-like structure for motility and movement</strong>',
+    'plural_choice' => 'cellular structures',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">Flagellum</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Fimbriae</span>',
+      '<span style="color: #00775f; font-weight:700;">Sex pilus</span>',
+      '<span style="color: #003fff; font-weight:700;">Capsule</span>',
+      '<span style="color: #c80085; font-weight:700;">Peptidoglycan</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">Flagellum</span>',
+  },
+  {
+    'item_name' => '<strong>motility structure for movement and navigation</strong>',
+    'plural_choice' => 'cellular structures',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">Flagellum</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Fimbriae</span>',
+      '<span style="color: #00775f; font-weight:700;">Sex pilus</span>',
+      '<span style="color: #003fff; font-weight:700;">Capsule</span>',
+      '<span style="color: #c80085; font-weight:700;">Peptidoglycan</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">Flagellum</span>',
+  },
+  {
+    'item_name' => '<strong>whiplike structure for bacterial movement and motility</strong>',
+    'plural_choice' => 'cellular structures',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">Flagellum</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Fimbriae</span>',
+      '<span style="color: #00775f; font-weight:700;">Sex pilus</span>',
+      '<span style="color: #003fff; font-weight:700;">Capsule</span>',
+      '<span style="color: #c80085; font-weight:700;">Peptidoglycan</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">Flagellum</span>',
+  },
+  {
+    'item_name' => '<strong>hair-like appendages used for attachment</strong>',
+    'plural_choice' => 'cellular structures',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">Flagellum</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Fimbriae</span>',
+      '<span style="color: #00775f; font-weight:700;">Sex pilus</span>',
+      '<span style="color: #003fff; font-weight:700;">Capsule</span>',
+      '<span style="color: #c80085; font-weight:700;">Peptidoglycan</span>',
+    ],
+    'correct' => '<span style="color: #6c6c00; font-weight:700;">Fimbriae</span>',
+  },
+  {
+    'item_name' => '<strong>hair-like attachment structures for colonization</strong>',
+    'plural_choice' => 'cellular structures',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">Flagellum</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Fimbriae</span>',
+      '<span style="color: #00775f; font-weight:700;">Sex pilus</span>',
+      '<span style="color: #003fff; font-weight:700;">Capsule</span>',
+      '<span style="color: #c80085; font-weight:700;">Peptidoglycan</span>',
+    ],
+    'correct' => '<span style="color: #6c6c00; font-weight:700;">Fimbriae</span>',
+  },
+  {
+    'item_name' => '<strong>short, hair-like appendages that aid in attachment and infection</strong>',
+    'plural_choice' => 'cellular structures',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">Flagellum</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Fimbriae</span>',
+      '<span style="color: #00775f; font-weight:700;">Sex pilus</span>',
+      '<span style="color: #003fff; font-weight:700;">Capsule</span>',
+      '<span style="color: #c80085; font-weight:700;">Peptidoglycan</span>',
+    ],
+    'correct' => '<span style="color: #6c6c00; font-weight:700;">Fimbriae</span>',
+  },
+  {
+    'item_name' => '<strong>short projections that aid in attachment and infection</strong>',
+    'plural_choice' => 'cellular structures',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">Flagellum</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Fimbriae</span>',
+      '<span style="color: #00775f; font-weight:700;">Sex pilus</span>',
+      '<span style="color: #003fff; font-weight:700;">Capsule</span>',
+      '<span style="color: #c80085; font-weight:700;">Peptidoglycan</span>',
+    ],
+    'correct' => '<span style="color: #6c6c00; font-weight:700;">Fimbriae</span>',
+  },
+  {
+    'item_name' => '<strong>mating structure for transfer of genetic material</strong>',
+    'plural_choice' => 'cellular structures',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">Flagellum</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Fimbriae</span>',
+      '<span style="color: #00775f; font-weight:700;">Sex pilus</span>',
+      '<span style="color: #003fff; font-weight:700;">Capsule</span>',
+      '<span style="color: #c80085; font-weight:700;">Peptidoglycan</span>',
+    ],
+    'correct' => '<span style="color: #00775f; font-weight:700;">Sex pilus</span>',
+  },
+  {
+    'item_name' => '<strong>mating structure for genetic material transfer</strong>',
+    'plural_choice' => 'cellular structures',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">Flagellum</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Fimbriae</span>',
+      '<span style="color: #00775f; font-weight:700;">Sex pilus</span>',
+      '<span style="color: #003fff; font-weight:700;">Capsule</span>',
+      '<span style="color: #c80085; font-weight:700;">Peptidoglycan</span>',
+    ],
+    'correct' => '<span style="color: #00775f; font-weight:700;">Sex pilus</span>',
+  },
+  {
+    'item_name' => '<strong>structure for transferring genetic material</strong>',
+    'plural_choice' => 'cellular structures',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">Flagellum</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Fimbriae</span>',
+      '<span style="color: #00775f; font-weight:700;">Sex pilus</span>',
+      '<span style="color: #003fff; font-weight:700;">Capsule</span>',
+      '<span style="color: #c80085; font-weight:700;">Peptidoglycan</span>',
+    ],
+    'correct' => '<span style="color: #00775f; font-weight:700;">Sex pilus</span>',
+  },
+  {
+    'item_name' => '<strong>used for the exchange of genetic material</strong>',
+    'plural_choice' => 'cellular structures',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">Flagellum</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Fimbriae</span>',
+      '<span style="color: #00775f; font-weight:700;">Sex pilus</span>',
+      '<span style="color: #003fff; font-weight:700;">Capsule</span>',
+      '<span style="color: #c80085; font-weight:700;">Peptidoglycan</span>',
+    ],
+    'correct' => '<span style="color: #00775f; font-weight:700;">Sex pilus</span>',
+  },
+  {
+    'item_name' => '<strong>structure that allows for the transfer of DNA</strong>',
+    'plural_choice' => 'cellular structures',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">Flagellum</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Fimbriae</span>',
+      '<span style="color: #00775f; font-weight:700;">Sex pilus</span>',
+      '<span style="color: #003fff; font-weight:700;">Capsule</span>',
+      '<span style="color: #c80085; font-weight:700;">Peptidoglycan</span>',
+    ],
+    'correct' => '<span style="color: #00775f; font-weight:700;">Sex pilus</span>',
+  },
+  {
+    'item_name' => '<strong>structure for transfer of genetic material between cells</strong>',
+    'plural_choice' => 'cellular structures',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">Flagellum</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Fimbriae</span>',
+      '<span style="color: #00775f; font-weight:700;">Sex pilus</span>',
+      '<span style="color: #003fff; font-weight:700;">Capsule</span>',
+      '<span style="color: #c80085; font-weight:700;">Peptidoglycan</span>',
+    ],
+    'correct' => '<span style="color: #00775f; font-weight:700;">Sex pilus</span>',
+  },
+  {
+    'item_name' => '<strong>thin layer for protection and evasion</strong>',
+    'plural_choice' => 'cellular structures',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">Flagellum</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Fimbriae</span>',
+      '<span style="color: #00775f; font-weight:700;">Sex pilus</span>',
+      '<span style="color: #003fff; font-weight:700;">Capsule</span>',
+      '<span style="color: #c80085; font-weight:700;">Peptidoglycan</span>',
+    ],
+    'correct' => '<span style="color: #003fff; font-weight:700;">Capsule</span>',
+  },
+  {
+    'item_name' => '<strong>thin protective layer that aids in survival</strong>',
+    'plural_choice' => 'cellular structures',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">Flagellum</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Fimbriae</span>',
+      '<span style="color: #00775f; font-weight:700;">Sex pilus</span>',
+      '<span style="color: #003fff; font-weight:700;">Capsule</span>',
+      '<span style="color: #c80085; font-weight:700;">Peptidoglycan</span>',
+    ],
+    'correct' => '<span style="color: #003fff; font-weight:700;">Capsule</span>',
+  },
+  {
+    'item_name' => '<strong>protective layer used for evasion</strong>',
+    'plural_choice' => 'cellular structures',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">Flagellum</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Fimbriae</span>',
+      '<span style="color: #00775f; font-weight:700;">Sex pilus</span>',
+      '<span style="color: #003fff; font-weight:700;">Capsule</span>',
+      '<span style="color: #c80085; font-weight:700;">Peptidoglycan</span>',
+    ],
+    'correct' => '<span style="color: #003fff; font-weight:700;">Capsule</span>',
+  },
+  {
+    'item_name' => '<strong>layer for protecting and evading</strong>',
+    'plural_choice' => 'cellular structures',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">Flagellum</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Fimbriae</span>',
+      '<span style="color: #00775f; font-weight:700;">Sex pilus</span>',
+      '<span style="color: #003fff; font-weight:700;">Capsule</span>',
+      '<span style="color: #c80085; font-weight:700;">Peptidoglycan</span>',
+    ],
+    'correct' => '<span style="color: #003fff; font-weight:700;">Capsule</span>',
+  },
+  {
+    'item_name' => '<strong>a polysaccharide material that surrounds the bacterial cell</strong>',
+    'plural_choice' => 'cellular structures',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">Flagellum</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Fimbriae</span>',
+      '<span style="color: #00775f; font-weight:700;">Sex pilus</span>',
+      '<span style="color: #003fff; font-weight:700;">Capsule</span>',
+      '<span style="color: #c80085; font-weight:700;">Peptidoglycan</span>',
+    ],
+    'correct' => '<span style="color: #003fff; font-weight:700;">Capsule</span>',
+  },
+  {
+    'item_name' => '<strong>A protective covering surrounding bacteria</strong>',
+    'plural_choice' => 'cellular structures',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">Flagellum</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Fimbriae</span>',
+      '<span style="color: #00775f; font-weight:700;">Sex pilus</span>',
+      '<span style="color: #003fff; font-weight:700;">Capsule</span>',
+      '<span style="color: #c80085; font-weight:700;">Peptidoglycan</span>',
+    ],
+    'correct' => '<span style="color: #003fff; font-weight:700;">Capsule</span>',
+  },
+  {
+    'item_name' => '<strong>complex protein and polysaccharide structure within the cell wall stiff protein and carbohydrate layer within bacteria cell wall</strong>',
+    'plural_choice' => 'cellular structures',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">Flagellum</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Fimbriae</span>',
+      '<span style="color: #00775f; font-weight:700;">Sex pilus</span>',
+      '<span style="color: #003fff; font-weight:700;">Capsule</span>',
+      '<span style="color: #c80085; font-weight:700;">Peptidoglycan</span>',
+    ],
+    'correct' => '<span style="color: #c80085; font-weight:700;">Peptidoglycan</span>',
+  },
+);
+
+#==========================================================
+# SELECT RANDOM QUESTION
+#==========================================================
+
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+
+$question_idx = $local_random->random(0, scalar(@questions_data) - 1, 1);
+$q = $questions_data[$question_idx];
+
+$item_name = $q->{'item_name'};
+$plural_choice = $q->{'plural_choice'};
+$singular_item = $q->{'singular_item'};
+@choices = @{ $q->{'choices'} };
+$correct = $q->{'correct'};
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# BUILD RADIO BUTTONS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => 'ABC',
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+Which one of the following [$plural_choice]* corresponds to the [$singular_item]* [$item_name]*?
+
+[_]{$rb}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The correct answer is: [$correct]*
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+

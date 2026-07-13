@@ -1,0 +1,269 @@
+## DESCRIPTION
+## Select the cell receptor that corresponds to the given description.
+## ENDDESCRIPTION
+## KEYWORDS('cell receptors','descriptions','which one','multiple choice')
+## DBsubject('Cell Biology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-07-12')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserRadioButtons.pl',
+    'PGcourse.pl',
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 0;
+
+#==========================================================
+# QUESTION DATA
+#==========================================================
+
+# All questions data
+@questions_data = (
+  {
+    'item_name' => '<strong>the protein contains <span style="color: #b45918; font-weight:700;">7 transmembrane (7TM)</span> &alpha;-helices</strong>',
+    'plural_choice' => 'cell receptors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #843232; font-weight:700;">G protein-coupled receptor (GPCR)</span>',
+      '<span style="color: #693aaa; font-weight:700;">Receptor tyrosine kinase (RTK)</span>',
+      '<span style="color: #598231; font-weight:700;">Ligand-gated ion channel (LGIC)</span>',
+    ],
+    'correct' => '<span style="color: #843232; font-weight:700;">G protein-coupled receptor (GPCR)</span>',
+  },
+  {
+    'item_name' => '<strong>often called <span style="color: #b45918; font-weight:700;">7 transmembrane (7TM)</span> receptors based on their structure</strong>',
+    'plural_choice' => 'cell receptors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #843232; font-weight:700;">G protein-coupled receptor (GPCR)</span>',
+      '<span style="color: #693aaa; font-weight:700;">Receptor tyrosine kinase (RTK)</span>',
+      '<span style="color: #598231; font-weight:700;">Ligand-gated ion channel (LGIC)</span>',
+    ],
+    'correct' => '<span style="color: #843232; font-weight:700;">G protein-coupled receptor (GPCR)</span>',
+  },
+  {
+    'item_name' => '<strong>the receptor acts as a <span style="color: #a86739; font-weight:700;">guanine nucleotide exchange factor (GEF)</span> by exchanging GDP for GTP to activate a nearby protein</strong>',
+    'plural_choice' => 'cell receptors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #843232; font-weight:700;">G protein-coupled receptor (GPCR)</span>',
+      '<span style="color: #693aaa; font-weight:700;">Receptor tyrosine kinase (RTK)</span>',
+      '<span style="color: #598231; font-weight:700;">Ligand-gated ion channel (LGIC)</span>',
+    ],
+    'correct' => '<span style="color: #843232; font-weight:700;">G protein-coupled receptor (GPCR)</span>',
+  },
+  {
+    'item_name' => '<strong>when this receptor binds the extracellular primary messenger, it then activates another intracellular protein</strong>',
+    'plural_choice' => 'cell receptors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #843232; font-weight:700;">G protein-coupled receptor (GPCR)</span>',
+      '<span style="color: #693aaa; font-weight:700;">Receptor tyrosine kinase (RTK)</span>',
+      '<span style="color: #598231; font-weight:700;">Ligand-gated ion channel (LGIC)</span>',
+    ],
+    'correct' => '<span style="color: #843232; font-weight:700;">G protein-coupled receptor (GPCR)</span>',
+  },
+  {
+    'item_name' => '<strong>the time the message from this receptor is active is based on how long it takes to hydrolyze GTP to GDP</strong>',
+    'plural_choice' => 'cell receptors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #843232; font-weight:700;">G protein-coupled receptor (GPCR)</span>',
+      '<span style="color: #693aaa; font-weight:700;">Receptor tyrosine kinase (RTK)</span>',
+      '<span style="color: #598231; font-weight:700;">Ligand-gated ion channel (LGIC)</span>',
+    ],
+    'correct' => '<span style="color: #843232; font-weight:700;">G protein-coupled receptor (GPCR)</span>',
+  },
+  {
+    'item_name' => '<strong>this receptor is responsible for our taste sensing of bitter, umami (savory), and sweet substances</strong>',
+    'plural_choice' => 'cell receptors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #843232; font-weight:700;">G protein-coupled receptor (GPCR)</span>',
+      '<span style="color: #693aaa; font-weight:700;">Receptor tyrosine kinase (RTK)</span>',
+      '<span style="color: #598231; font-weight:700;">Ligand-gated ion channel (LGIC)</span>',
+    ],
+    'correct' => '<span style="color: #843232; font-weight:700;">G protein-coupled receptor (GPCR)</span>',
+  },
+  {
+    'item_name' => '<strong>form a dimers upon binding of the extracellular primary messenger</strong>',
+    'plural_choice' => 'cell receptors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #843232; font-weight:700;">G protein-coupled receptor (GPCR)</span>',
+      '<span style="color: #693aaa; font-weight:700;">Receptor tyrosine kinase (RTK)</span>',
+      '<span style="color: #598231; font-weight:700;">Ligand-gated ion channel (LGIC)</span>',
+    ],
+    'correct' => '<span style="color: #693aaa; font-weight:700;">Receptor tyrosine kinase (RTK)</span>',
+  },
+  {
+    'item_name' => '<strong>performs autophosphorylation, i.e., it phosphorylates itself</strong>',
+    'plural_choice' => 'cell receptors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #843232; font-weight:700;">G protein-coupled receptor (GPCR)</span>',
+      '<span style="color: #693aaa; font-weight:700;">Receptor tyrosine kinase (RTK)</span>',
+      '<span style="color: #598231; font-weight:700;">Ligand-gated ion channel (LGIC)</span>',
+    ],
+    'correct' => '<span style="color: #693aaa; font-weight:700;">Receptor tyrosine kinase (RTK)</span>',
+  },
+  {
+    'item_name' => '<strong>contains several intracellular Tyr amino acids that are phosphorylated when activated</strong>',
+    'plural_choice' => 'cell receptors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #843232; font-weight:700;">G protein-coupled receptor (GPCR)</span>',
+      '<span style="color: #693aaa; font-weight:700;">Receptor tyrosine kinase (RTK)</span>',
+      '<span style="color: #598231; font-weight:700;">Ligand-gated ion channel (LGIC)</span>',
+    ],
+    'correct' => '<span style="color: #693aaa; font-weight:700;">Receptor tyrosine kinase (RTK)</span>',
+  },
+  {
+    'item_name' => '<strong>extracellular ligand binding will typically causes the receptor to form a dimer</strong>',
+    'plural_choice' => 'cell receptors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #843232; font-weight:700;">G protein-coupled receptor (GPCR)</span>',
+      '<span style="color: #693aaa; font-weight:700;">Receptor tyrosine kinase (RTK)</span>',
+      '<span style="color: #598231; font-weight:700;">Ligand-gated ion channel (LGIC)</span>',
+    ],
+    'correct' => '<span style="color: #693aaa; font-weight:700;">Receptor tyrosine kinase (RTK)</span>',
+  },
+  {
+    'item_name' => '<strong>the only receptor where the receptor becomes phosphorylated when activated</strong>',
+    'plural_choice' => 'cell receptors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #843232; font-weight:700;">G protein-coupled receptor (GPCR)</span>',
+      '<span style="color: #693aaa; font-weight:700;">Receptor tyrosine kinase (RTK)</span>',
+      '<span style="color: #598231; font-weight:700;">Ligand-gated ion channel (LGIC)</span>',
+    ],
+    'correct' => '<span style="color: #693aaa; font-weight:700;">Receptor tyrosine kinase (RTK)</span>',
+  },
+  {
+    'item_name' => '<strong>unlike other forms of this receptor, the insulin receptor (IR) still forms a dimer, but monomers are permanently held together via disulfide bonds</strong>',
+    'plural_choice' => 'cell receptors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #843232; font-weight:700;">G protein-coupled receptor (GPCR)</span>',
+      '<span style="color: #693aaa; font-weight:700;">Receptor tyrosine kinase (RTK)</span>',
+      '<span style="color: #598231; font-weight:700;">Ligand-gated ion channel (LGIC)</span>',
+    ],
+    'correct' => '<span style="color: #693aaa; font-weight:700;">Receptor tyrosine kinase (RTK)</span>',
+  },
+  {
+    'item_name' => '<strong>when this receptor is activated, it can cause an immediate change in the electrochemical gradient</strong>',
+    'plural_choice' => 'cell receptors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #843232; font-weight:700;">G protein-coupled receptor (GPCR)</span>',
+      '<span style="color: #693aaa; font-weight:700;">Receptor tyrosine kinase (RTK)</span>',
+      '<span style="color: #598231; font-weight:700;">Ligand-gated ion channel (LGIC)</span>',
+    ],
+    'correct' => '<span style="color: #598231; font-weight:700;">Ligand-gated ion channel (LGIC)</span>',
+  },
+  {
+    'item_name' => '<strong>upon binding of the extracellular primary messenger, this receptor opens to allow ions to pass through the membrane</strong>',
+    'plural_choice' => 'cell receptors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #843232; font-weight:700;">G protein-coupled receptor (GPCR)</span>',
+      '<span style="color: #693aaa; font-weight:700;">Receptor tyrosine kinase (RTK)</span>',
+      '<span style="color: #598231; font-weight:700;">Ligand-gated ion channel (LGIC)</span>',
+    ],
+    'correct' => '<span style="color: #598231; font-weight:700;">Ligand-gated ion channel (LGIC)</span>',
+  },
+  {
+    'item_name' => '<strong>often in neurons when this receptor is activated, it can cause membrane depolarization leading to an action potential</strong>',
+    'plural_choice' => 'cell receptors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #843232; font-weight:700;">G protein-coupled receptor (GPCR)</span>',
+      '<span style="color: #693aaa; font-weight:700;">Receptor tyrosine kinase (RTK)</span>',
+      '<span style="color: #598231; font-weight:700;">Ligand-gated ion channel (LGIC)</span>',
+    ],
+    'correct' => '<span style="color: #598231; font-weight:700;">Ligand-gated ion channel (LGIC)</span>',
+  },
+  {
+    'item_name' => '<strong>when this receptor is activated, it can cause a rapid depolarization of membrane potential due to an influx of ions</strong>',
+    'plural_choice' => 'cell receptors',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #843232; font-weight:700;">G protein-coupled receptor (GPCR)</span>',
+      '<span style="color: #693aaa; font-weight:700;">Receptor tyrosine kinase (RTK)</span>',
+      '<span style="color: #598231; font-weight:700;">Ligand-gated ion channel (LGIC)</span>',
+    ],
+    'correct' => '<span style="color: #598231; font-weight:700;">Ligand-gated ion channel (LGIC)</span>',
+  },
+);
+
+#==========================================================
+# SELECT RANDOM QUESTION
+#==========================================================
+
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+
+$question_idx = $local_random->random(0, scalar(@questions_data) - 1, 1);
+$q = $questions_data[$question_idx];
+
+$item_name = $q->{'item_name'};
+$plural_choice = $q->{'plural_choice'};
+$singular_item = $q->{'singular_item'};
+@choices = @{ $q->{'choices'} };
+$correct = $q->{'correct'};
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# BUILD RADIO BUTTONS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => 'ABC',
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+Which one of the following [$plural_choice]* corresponds to the [$singular_item]* [$item_name]*?
+
+[_]{$rb}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The correct answer is: [$correct]*
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+

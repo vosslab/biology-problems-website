@@ -1,0 +1,254 @@
+## TITLE('Potential and Kinetic Energy')
+## DESCRIPTION
+## Select the statement that is TRUE or FALSE about potential and kinetic energy.
+## ENDDESCRIPTION
+## KEYWORDS('potential and kinetic energy','true/false','multiple choice')
+## DBsubject('Biochemistry')
+## DBchapter('')
+## DBsection('')
+## Date('2026-07-12')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "PGchoicemacros.pl",
+  "parserRadioButtons.pl",
+  "PGcourse.pl",
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+#==========================================================
+# AUTO-GENERATED GROUPS FROM YAML
+#==========================================================
+
+@true_groups = (
+  [
+    'water rushing over Niagara Falls',
+    'a river flowing under a bridge',
+    'water rushing out of Hoover Dam',
+  ],
+  [
+    'molecules of glucose swirling around in a glass of water',
+  ],
+  [
+    'a skier gliding down a hill',
+  ],
+  [
+    'an airplane in flight',
+  ],
+  [
+    'a baseball thrown by a pitcher',
+  ],
+  [
+    'a bullet traveling down the barrel of a gun',
+  ],
+  [
+    'a rollercoaster car flying down a hill',
+  ],
+  [
+    'a marathon runner jogging to the finish line',
+  ],
+  [
+    'a fireworks explosion lighting up the night sky',
+  ],
+  [
+    'light flashes emitted by a firefly',
+    'a flying insect',
+  ],
+  [
+    'a crawling beetle foraging for food',
+  ],
+  [
+    'a hammer striking a nail',
+  ],
+  [
+    'a car speeding on the interstate',
+  ],
+  [
+    'a crawling baby',
+  ],
+  [
+    'an asteroid falling to earth',
+  ],
+  [
+    'a glowing hot poker in a firepit',
+  ],
+  [
+    'wind turbine blades turning in the wind',
+    'a hurricane',
+    'a tornado',
+    'fan blades moving air around the room',
+  ],
+  [
+    'a light bulb shining in a dark tunnel',
+    'heat released by a campfire',
+  ],
+  [
+    'stereo speakers playing a John Coltrane saxophone solo',
+  ],
+  [
+    'someone knocking at your front door',
+  ],
+  [
+    'wet clothes in the washer during the spin cycle',
+    'a centrifuge spinning tubes on the bench',
+  ],
+);
+@false_groups = (
+  [
+    'water sitting at the top of Niagra Falls',
+    'water behind the Hoover dam',
+  ],
+  [
+    'a molecule of glucose',
+  ],
+  [
+    'a skier at the top of a hill',
+  ],
+  [
+    'an airplane at the start of the runway',
+  ],
+  [
+    'a baseball in the hand of a pitcher',
+  ],
+  [
+    'a bullet in the chamber of a gun',
+  ],
+  [
+    'a rollercoaster car at the top of the first hill',
+  ],
+  [
+    'a marathon runner at the start line',
+  ],
+  [
+    'fireworks still in their package',
+    'a stick of dynamite',
+    'an unused nuclear bomb',
+  ],
+  [
+    'a book hanging off the edge of a table',
+    'a rock sitting at the edge of a cliff',
+  ],
+  [
+    'a fully charged battery',
+  ],
+  [
+    'an archery bow with the string pulled back',
+  ],
+  [
+    'a stretched rubber band',
+  ],
+  [
+    'freshly chopped wood sitting in a cold fireplace',
+  ],
+  [
+    'the wick in an unlit candle',
+  ],
+  [
+    'a ball stuck in a tree',
+  ],
+  [
+    'a diver standing at the edge of a diving board',
+  ],
+);
+
+#==========================================================
+# GLOBAL SETTINGS
+#==========================================================
+
+$topic = 'potential and <span style="color: #995c00; font-weight:700;">kinetic energy</span>';
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+my @mode_choices = ("TRUE", "FALSE");
+$mode = $mode_choices[$local_random->random(0, $#mode_choices, 1)];
+$num_distractors = 4;
+# Question text with TRUE override
+$question_true = 'Which one of the following is an example of <span style="color: #995c00; font-weight:700;">kinetic energy</span> rather than <span style="color: #002699; font-weight:700;">potential energy</span>?';
+# Question text with FALSE override
+$question_false = 'Which one of the following is an example of <span style="color: #002699; font-weight:700;">potential energy</span> rather than <span style="color: #995c00; font-weight:700;">kinetic energy</span>?';
+#==========================================================
+# SELECT GROUP
+#==========================================================
+
+my (@selected_group, @opposite_groups);
+
+if ($mode eq "TRUE") {
+  $group_index      = $local_random->random(0, scalar(@true_groups)-1, 1);
+  @selected_group   = @{ $true_groups[$group_index] };
+  @opposite_groups  = @false_groups;
+} else {
+  $group_index      = $local_random->random(0, scalar(@false_groups)-1, 1);
+  @selected_group   = @{ $false_groups[$group_index] };
+  @opposite_groups  = @true_groups;
+}
+
+#==========================================================
+# PICK CORRECT + DISTRACTORS
+#==========================================================
+
+my $correct_index = $local_random->random(0, $#selected_group, 1);
+$correct = $selected_group[$correct_index];
+
+my @available_group_indices = (0 .. $#opposite_groups);
+my @selected_distractor_indices = ();
+
+while (@selected_distractor_indices < $num_distractors && @available_group_indices > 0) {
+  my $random_index = $local_random->random(0, scalar(@available_group_indices)-1, 1);
+  push @selected_distractor_indices, splice(@available_group_indices, $random_index, 1);
+}
+
+@distractors = ();
+foreach my $group_idx (@selected_distractor_indices) {
+  my @group = @{ $opposite_groups[$group_idx] };
+  my $distractor_index = $local_random->random(0, $#group, 1);
+  my $distractor = $group[$distractor_index];
+  push @distractors, $distractor;
+}
+
+@choices = ($correct, @distractors);
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# RADIO BUTTONS WITH A/B/C/D/E LABELS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => ['A','B','C','D','E'],
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+[@ $mode eq "TRUE" ? $question_true : $question_false @]*
+
+[_]{$rb}
+
+END_PGML
+
+ENDDOCUMENT();
+

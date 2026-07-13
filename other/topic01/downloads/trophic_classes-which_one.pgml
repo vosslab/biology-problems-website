@@ -1,0 +1,340 @@
+## DESCRIPTION
+## Select the trophic classification that corresponds to the given definition.
+## ENDDESCRIPTION
+## KEYWORDS('trophic classifications','definitions','which one','multiple choice')
+## DBsubject('Cell Biology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-07-12')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserRadioButtons.pl',
+    'PGcourse.pl',
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 0;
+
+#==========================================================
+# QUESTION DATA
+#==========================================================
+
+# All questions data
+@questions_data = (
+  {
+    'item_name' => '<strong>consume other <span style="color: #b74300; font-weight:700;">organisms</span> for food</strong>',
+    'plural_choice' => 'trophic classifications',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
+      '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">phototroph</span>',
+      '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
+      '<span style="color: #935d00; font-weight:700;">organotroph</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
+  },
+  {
+    'item_name' => '<strong>rely on other <span style="color: #b74300; font-weight:700;">organisms</span> for their food</strong>',
+    'plural_choice' => 'trophic classifications',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
+      '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">phototroph</span>',
+      '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
+  },
+  {
+    'item_name' => '<strong>obtain their nourishment from other <span style="color: #b74300; font-weight:700;">organisms</span></strong>',
+    'plural_choice' => 'trophic classifications',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
+      '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">phototroph</span>',
+      '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
+      '<span style="color: #935d00; font-weight:700;">organotroph</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
+  },
+  {
+    'item_name' => '<strong>produce their own food</strong>',
+    'plural_choice' => 'trophic classifications',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">phototroph</span>',
+      '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
+      '<span style="color: #935d00; font-weight:700;">organotroph</span>',
+    ],
+    'correct' => '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
+  },
+  {
+    'item_name' => '<strong>generate their own food</strong>',
+    'plural_choice' => 'trophic classifications',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
+      '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
+      '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
+      '<span style="color: #935d00; font-weight:700;">organotroph</span>',
+    ],
+    'correct' => '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
+  },
+  {
+    'item_name' => '<strong>produce their own nourishment</strong>',
+    'plural_choice' => 'trophic classifications',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
+      '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
+      '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
+      '<span style="color: #935d00; font-weight:700;">organotroph</span>',
+    ],
+    'correct' => '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
+  },
+  {
+    'item_name' => '<strong>obtain <span style="color: #007576; font-weight:700;">energy</span> from molecules rather than <span style="color: #00775f; font-weight:700;">light</span></strong>',
+    'plural_choice' => 'trophic classifications',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
+      '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">phototroph</span>',
+      '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
+    ],
+    'correct' => '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
+  },
+  {
+    'item_name' => '<strong>derive <span style="color: #007576; font-weight:700;">energy</span> from molecules rather than <span style="color: #00775f; font-weight:700;">light</span></strong>',
+    'plural_choice' => 'trophic classifications',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">phototroph</span>',
+      '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
+      '<span style="color: #935d00; font-weight:700;">organotroph</span>',
+    ],
+    'correct' => '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
+  },
+  {
+    'item_name' => '<strong>get their <span style="color: #007576; font-weight:700;">energy</span> from molecules instead of from <span style="color: #00775f; font-weight:700;">light</span></strong>',
+    'plural_choice' => 'trophic classifications',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
+      '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">phototroph</span>',
+      '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
+    ],
+    'correct' => '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
+  },
+  {
+    'item_name' => '<strong>use molecules as a source of <span style="color: #007576; font-weight:700;">energy</span></strong>',
+    'plural_choice' => 'trophic classifications',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
+      '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">phototroph</span>',
+      '<span style="color: #935d00; font-weight:700;">organotroph</span>',
+    ],
+    'correct' => '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
+  },
+  {
+    'item_name' => '<strong>use <span style="color: #00775f; font-weight:700;">light</span> as a source of <span style="color: #007576; font-weight:700;">energy</span></strong>',
+    'plural_choice' => 'trophic classifications',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">phototroph</span>',
+      '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
+      '<span style="color: #935d00; font-weight:700;">organotroph</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">phototroph</span>',
+  },
+  {
+    'item_name' => '<strong>get their <span style="color: #007576; font-weight:700;">energy</span> from <span style="color: #00775f; font-weight:700;">light</span> instead of from chemicals</strong>',
+    'plural_choice' => 'trophic classifications',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
+      '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">phototroph</span>',
+      '<span style="color: #935d00; font-weight:700;">organotroph</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">phototroph</span>',
+  },
+  {
+    'item_name' => '<strong>derive <span style="color: #007576; font-weight:700;">energy</span> from <span style="color: #00775f; font-weight:700;">light</span> rather than chemicals</strong>',
+    'plural_choice' => 'trophic classifications',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">phototroph</span>',
+      '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
+      '<span style="color: #935d00; font-weight:700;">organotroph</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">phototroph</span>',
+  },
+  {
+    'item_name' => '<strong>derive <span style="color: #007576; font-weight:700;">energy</span> from <span style="color: #003fff; font-weight:700;">inorganic</span> compounds</strong>',
+    'plural_choice' => 'trophic classifications',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
+      '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">phototroph</span>',
+      '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
+    ],
+    'correct' => '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
+  },
+  {
+    'item_name' => '<strong>obtain <span style="color: #007576; font-weight:700;">energy</span> from <span style="color: #003fff; font-weight:700;">inorganic</span> compounds</strong>',
+    'plural_choice' => 'trophic classifications',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
+      '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">phototroph</span>',
+      '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
+    ],
+    'correct' => '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
+  },
+  {
+    'item_name' => '<strong>obtain their <span style="color: #007576; font-weight:700;">energy</span> from <span style="color: #003fff; font-weight:700;">inorganic</span> chemicals</strong>',
+    'plural_choice' => 'trophic classifications',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">phototroph</span>',
+      '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
+      '<span style="color: #935d00; font-weight:700;">organotroph</span>',
+    ],
+    'correct' => '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
+  },
+  {
+    'item_name' => '<strong>derive <span style="color: #007576; font-weight:700;">energy</span> from organic compounds</strong>',
+    'plural_choice' => 'trophic classifications',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
+      '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">phototroph</span>',
+      '<span style="color: #935d00; font-weight:700;">organotroph</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">organotroph</span>',
+  },
+  {
+    'item_name' => '<strong>obtain <span style="color: #007576; font-weight:700;">energy</span> from organic compounds</strong>',
+    'plural_choice' => 'trophic classifications',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
+      '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">phototroph</span>',
+      '<span style="color: #935d00; font-weight:700;">organotroph</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">organotroph</span>',
+  },
+  {
+    'item_name' => '<strong>obtain their <span style="color: #007576; font-weight:700;">energy</span> from organic matter</strong>',
+    'plural_choice' => 'trophic classifications',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">phototroph</span>',
+      '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
+      '<span style="color: #935d00; font-weight:700;">organotroph</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">organotroph</span>',
+  },
+);
+
+#==========================================================
+# SELECT RANDOM QUESTION
+#==========================================================
+
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+
+$question_idx = $local_random->random(0, scalar(@questions_data) - 1, 1);
+$q = $questions_data[$question_idx];
+
+$item_name = $q->{'item_name'};
+$plural_choice = $q->{'plural_choice'};
+$singular_item = $q->{'singular_item'};
+@choices = @{ $q->{'choices'} };
+$correct = $q->{'correct'};
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# BUILD RADIO BUTTONS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => 'ABC',
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+Which one of the following [$plural_choice]* corresponds to the [$singular_item]* [$item_name]*?
+
+[_]{$rb}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The correct answer is: [$correct]*
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+

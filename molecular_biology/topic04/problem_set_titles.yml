@@ -1,3 +1,7 @@
+bbq-TFMS-dna_structure-biol_301-questions.txt: Determining True/False Statements About
+  DNA Structure
+bbq-amplicon_copies-questions.txt: Calculating Amplicon Copies After a Given Number
+  of PCR Rounds
 bbq-dna_gel-closest_farthest_MC-questions.txt: DNA Fragment Size in Agarose Gel Electrophoresis
 bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt: Determining DNA Size from Gel
   Electrophoresis
@@ -5,4 +9,18 @@ bbq-inverse_pcr_design-len_15-questions.txt: Determining Inverse PCR Primer Sele
 bbq-linear_digest-length_12-sites_2-fragment-questions.txt: Determining Restriction
   Fragment Sizes
 bbq-nested_pcr_design-len_24-questions.txt: Determining Nested PCR Primer Pairs
-last edit: Mon Apr 13 15:07:59 2026
+bbq-overhang_sequence-mc-questions.txt: Overhang Sequences from Restriction Enzyme
+  Cleavage
+bbq-overhang_type-5_3_blunt-questions.txt: Determining Restriction Enzyme Cut Types
+bbq-palindrome_sequence_match-questions.txt: Matching Palindrome Sequence Halves
+bbq-pcr_design-36_bp-9_primer-questions.txt: Correct Primers for PCR Amplification
+bbq-who_father_html-EASY-3_males-questions.txt: Determining Paternity Using Molecular
+  Biology Techniques
+bbq-who_father_html-HARD-9_males-questions.txt: Determining Paternity Using DNA Analysis
+bbq-who_father_html-MEDIUM-5_males-questions.txt: Determining Paternity Using Restriction
+  Fragment Length Polymorphism (RFLP)
+bbq-who_killer_html-EASY-4_suspects-questions.txt: Suspects Using Restriction Fragment
+  Length Polymorphism (RFLP) and DNA Gel Analysis
+bbq-who_killer_html-HARD-9_suspects-questions.txt: Suspects Using DNA Analysis
+bbq-who_killer_html-MEDIUM-5_suspects-questions.txt: Matching Suspects Using DNA Evidence
+last edit: Sun Jul 12 22:46:18 2026

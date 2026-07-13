@@ -1,0 +1,333 @@
+## DESCRIPTION
+## Select the intercellular junction that corresponds to the given function.
+## ENDDESCRIPTION
+## KEYWORDS('intercellular junctions','functions','which one','multiple choice')
+## DBsubject('Cell Biology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-07-12')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserRadioButtons.pl',
+    'PGcourse.pl',
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 0;
+
+#==========================================================
+# QUESTION DATA
+#==========================================================
+
+# All questions data
+@questions_data = (
+  {
+    'item_name' => '<strong>a dense attachment of anchoring proteins that a provide strong adhesion <span style="color: #598231; font-weight:700;">between cells</span></strong>',
+    'plural_choice' => 'intercellular junctions',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">desmosome</span>',
+      '<span style="color: #b74300; font-weight:700;">gap junction</span>',
+      '<span style="color: #935d00; font-weight:700;">plasmodesmata</span>',
+      '<span style="color: #6c6c00; font-weight:700;">tight junction</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">desmosome</span>',
+  },
+  {
+    'item_name' => '<strong>an adhesive junction that is crucial to tissues that experience mechanical stress</strong>',
+    'plural_choice' => 'intercellular junctions',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">desmosome</span>',
+      '<span style="color: #b74300; font-weight:700;">gap junction</span>',
+      '<span style="color: #935d00; font-weight:700;">plasmodesmata</span>',
+      '<span style="color: #6c6c00; font-weight:700;">tight junction</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">desmosome</span>',
+  },
+  {
+    'item_name' => '<strong>anchoring spots found all around cells that bind <span style="color: #3e3ec4; font-weight:700;">two adjacent cells</span> together</strong>',
+    'plural_choice' => 'intercellular junctions',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">desmosome</span>',
+      '<span style="color: #b74300; font-weight:700;">gap junction</span>',
+      '<span style="color: #935d00; font-weight:700;">plasmodesmata</span>',
+      '<span style="color: #6c6c00; font-weight:700;">tight junction</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">desmosome</span>',
+  },
+  {
+    'item_name' => '<strong>one of the stronger junctions found in tissue that experience intense mechanical stress</strong>',
+    'plural_choice' => 'intercellular junctions',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">desmosome</span>',
+      '<span style="color: #b74300; font-weight:700;">gap junction</span>',
+      '<span style="color: #935d00; font-weight:700;">plasmodesmata</span>',
+      '<span style="color: #6c6c00; font-weight:700;">tight junction</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">desmosome</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #7b7737; font-weight:700;">collection of protein channels</span> that allow the direct transfer of signal molecules <span style="color: #598231; font-weight:700;">between cells</span></strong>',
+    'plural_choice' => 'intercellular junctions',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">desmosome</span>',
+      '<span style="color: #b74300; font-weight:700;">gap junction</span>',
+      '<span style="color: #935d00; font-weight:700;">plasmodesmata</span>',
+      '<span style="color: #6c6c00; font-weight:700;">tight junction</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">gap junction</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #7b7737; font-weight:700;">collection of protein channels</span> that facilitates passage of ions, hormones, and neurotransmitters</strong>',
+    'plural_choice' => 'intercellular junctions',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">desmosome</span>',
+      '<span style="color: #b74300; font-weight:700;">gap junction</span>',
+      '<span style="color: #935d00; font-weight:700;">plasmodesmata</span>',
+      '<span style="color: #6c6c00; font-weight:700;">tight junction</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">gap junction</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #7b7737; font-weight:700;">collection of protein channels</span> that allow for intercellular communication</strong>',
+    'plural_choice' => 'intercellular junctions',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">desmosome</span>',
+      '<span style="color: #b74300; font-weight:700;">gap junction</span>',
+      '<span style="color: #935d00; font-weight:700;">plasmodesmata</span>',
+      '<span style="color: #6c6c00; font-weight:700;">tight junction</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">gap junction</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #3e3ec4; font-weight:700;">two adjacent cells</span> are connected through a <span style="color: #7b7737; font-weight:700;">collection of protein channels</span></strong>',
+    'plural_choice' => 'intercellular junctions',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">desmosome</span>',
+      '<span style="color: #b74300; font-weight:700;">gap junction</span>',
+      '<span style="color: #935d00; font-weight:700;">plasmodesmata</span>',
+      '<span style="color: #6c6c00; font-weight:700;">tight junction</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">gap junction</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #7b7737; font-weight:700;">collection of protein channels</span> that directly connect the cytoplasm of <span style="color: #3e3ec4; font-weight:700;">two adjacent cells</span></strong>',
+    'plural_choice' => 'intercellular junctions',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">desmosome</span>',
+      '<span style="color: #b74300; font-weight:700;">gap junction</span>',
+      '<span style="color: #935d00; font-weight:700;">plasmodesmata</span>',
+      '<span style="color: #6c6c00; font-weight:700;">tight junction</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">gap junction</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #7b7737; font-weight:700;">collection of protein channels</span> that allow electrical impulses to directly pass <span style="color: #598231; font-weight:700;">between cells</span></strong>',
+    'plural_choice' => 'intercellular junctions',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">desmosome</span>',
+      '<span style="color: #b74300; font-weight:700;">gap junction</span>',
+      '<span style="color: #935d00; font-weight:700;">plasmodesmata</span>',
+      '<span style="color: #6c6c00; font-weight:700;">tight junction</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">gap junction</span>',
+  },
+  {
+    'item_name' => '<strong>large tubes which traverse <span style="color: #b45918; font-weight:700;">cell walls</span> enabling transport and communication <span style="color: #598231; font-weight:700;">between cells</span></strong>',
+    'plural_choice' => 'intercellular junctions',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">desmosome</span>',
+      '<span style="color: #b74300; font-weight:700;">gap junction</span>',
+      '<span style="color: #935d00; font-weight:700;">plasmodesmata</span>',
+      '<span style="color: #6c6c00; font-weight:700;">tight junction</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">plasmodesmata</span>',
+  },
+  {
+    'item_name' => '<strong>large tubes that pass through openings in <span style="color: #b45918; font-weight:700;">cell walls</span> linking one cell to another</strong>',
+    'plural_choice' => 'intercellular junctions',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">desmosome</span>',
+      '<span style="color: #b74300; font-weight:700;">gap junction</span>',
+      '<span style="color: #935d00; font-weight:700;">plasmodesmata</span>',
+      '<span style="color: #6c6c00; font-weight:700;">tight junction</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">plasmodesmata</span>',
+  },
+  {
+    'item_name' => '<strong>forms a seal between the two <span style="color: #793aaa; font-weight:700;">membranes</span> to prevent passive flow <span style="color: #598231; font-weight:700;">between cells</span></strong>',
+    'plural_choice' => 'intercellular junctions',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">desmosome</span>',
+      '<span style="color: #b74300; font-weight:700;">gap junction</span>',
+      '<span style="color: #935d00; font-weight:700;">plasmodesmata</span>',
+      '<span style="color: #6c6c00; font-weight:700;">tight junction</span>',
+    ],
+    'correct' => '<span style="color: #6c6c00; font-weight:700;">tight junction</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #793aaa; font-weight:700;">membranes</span> join together forming a virtual impermeable barrier to fluid</strong>',
+    'plural_choice' => 'intercellular junctions',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">desmosome</span>',
+      '<span style="color: #b74300; font-weight:700;">gap junction</span>',
+      '<span style="color: #935d00; font-weight:700;">plasmodesmata</span>',
+      '<span style="color: #6c6c00; font-weight:700;">tight junction</span>',
+    ],
+    'correct' => '<span style="color: #6c6c00; font-weight:700;">tight junction</span>',
+  },
+  {
+    'item_name' => '<strong>areas where the <span style="color: #793aaa; font-weight:700;">membranes</span> of <span style="color: #3e3ec4; font-weight:700;">two adjacent cells</span> join together to form a barrier</strong>',
+    'plural_choice' => 'intercellular junctions',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">desmosome</span>',
+      '<span style="color: #b74300; font-weight:700;">gap junction</span>',
+      '<span style="color: #935d00; font-weight:700;">plasmodesmata</span>',
+      '<span style="color: #6c6c00; font-weight:700;">tight junction</span>',
+    ],
+    'correct' => '<span style="color: #6c6c00; font-weight:700;">tight junction</span>',
+  },
+  {
+    'item_name' => '<strong>parallel interweaving strands between two <span style="color: #793aaa; font-weight:700;">membranes</span> that greatly reduce the flow of macromolecules <span style="color: #598231; font-weight:700;">between cells</span></strong>',
+    'plural_choice' => 'intercellular junctions',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">desmosome</span>',
+      '<span style="color: #b74300; font-weight:700;">gap junction</span>',
+      '<span style="color: #935d00; font-weight:700;">plasmodesmata</span>',
+      '<span style="color: #6c6c00; font-weight:700;">tight junction</span>',
+    ],
+    'correct' => '<span style="color: #6c6c00; font-weight:700;">tight junction</span>',
+  },
+  {
+    'item_name' => '<strong>outer layers of the cell <span style="color: #793aaa; font-weight:700;">membranes</span> are fused, reducing the ability of larger molecules to pass between</strong>',
+    'plural_choice' => 'intercellular junctions',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">desmosome</span>',
+      '<span style="color: #b74300; font-weight:700;">gap junction</span>',
+      '<span style="color: #935d00; font-weight:700;">plasmodesmata</span>',
+      '<span style="color: #6c6c00; font-weight:700;">tight junction</span>',
+    ],
+    'correct' => '<span style="color: #6c6c00; font-weight:700;">tight junction</span>',
+  },
+  {
+    'item_name' => '<strong>closely associated areas of <span style="color: #3e3ec4; font-weight:700;">two adjacent cells</span> whose <span style="color: #793aaa; font-weight:700;">membranes</span> join together to form a virtually impermeable barrier to fluid</strong>',
+    'plural_choice' => 'intercellular junctions',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">desmosome</span>',
+      '<span style="color: #b74300; font-weight:700;">gap junction</span>',
+      '<span style="color: #935d00; font-weight:700;">plasmodesmata</span>',
+      '<span style="color: #6c6c00; font-weight:700;">tight junction</span>',
+    ],
+    'correct' => '<span style="color: #6c6c00; font-weight:700;">tight junction</span>',
+  },
+  {
+    'item_name' => '<strong>seal between the <span style="color: #793aaa; font-weight:700;">membranes</span> of <span style="color: #3e3ec4; font-weight:700;">two adjacent cells</span> to prevent leakage of solutes and water</strong>',
+    'plural_choice' => 'intercellular junctions',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">desmosome</span>',
+      '<span style="color: #b74300; font-weight:700;">gap junction</span>',
+      '<span style="color: #935d00; font-weight:700;">plasmodesmata</span>',
+      '<span style="color: #6c6c00; font-weight:700;">tight junction</span>',
+    ],
+    'correct' => '<span style="color: #6c6c00; font-weight:700;">tight junction</span>',
+  },
+  {
+    'item_name' => '<strong>connections formed by cells that fuse together so that a relatively impermeable barrier is created</strong>',
+    'plural_choice' => 'intercellular junctions',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">desmosome</span>',
+      '<span style="color: #b74300; font-weight:700;">gap junction</span>',
+      '<span style="color: #935d00; font-weight:700;">plasmodesmata</span>',
+      '<span style="color: #6c6c00; font-weight:700;">tight junction</span>',
+    ],
+    'correct' => '<span style="color: #6c6c00; font-weight:700;">tight junction</span>',
+  },
+);
+
+#==========================================================
+# SELECT RANDOM QUESTION
+#==========================================================
+
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+
+$question_idx = $local_random->random(0, scalar(@questions_data) - 1, 1);
+$q = $questions_data[$question_idx];
+
+$item_name = $q->{'item_name'};
+$plural_choice = $q->{'plural_choice'};
+$singular_item = $q->{'singular_item'};
+@choices = @{ $q->{'choices'} };
+$correct = $q->{'correct'};
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# BUILD RADIO BUTTONS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => 'ABC',
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+Which one of the following [$plural_choice]* corresponds to the [$singular_item]* [$item_name]*?
+
+[_]{$rb}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The correct answer is: [$correct]*
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+
