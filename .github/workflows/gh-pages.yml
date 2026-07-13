@@ -8,32 +8,38 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: true
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4  # Pinned to v4 for stability
+        uses: actions/checkout@v7
 
       - name: Set up Python
-        uses: actions/setup-python@v4  # Ensures Python environment is correctly configured
+        uses: actions/setup-python@v6
         with:
-          python-version: 3.x
+          python-version: "3.12"
+          cache: pip
 
       - name: Install dependencies
         run: |
-          pip install mkdocs-material mkdocs-include-markdown-plugin
+          python -m pip install --upgrade pip
+          python -m pip install \
+            mkdocs-material \
+            mkdocs-include-markdown-plugin
 
       - name: Build site
-        run: |
-          mkdocs build
+        run: mkdocs build
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4  # Pinned version of gh-pages action
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
-          cname: biologyproblems.org  # Automatically handles CNAME
+          cname: biologyproblems.org
