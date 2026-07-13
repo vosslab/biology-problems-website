@@ -36,7 +36,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 </details>
 
 
-## pH Using the Henderson-Hasselbalch Equation
+## pH Using the Henderson-Hasselbalch Equation (Multiple Choice)
 
 <div id="Henderson-Hasselbalch-pH_mc-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-pH_mc-questions.txt" download title="Download bbq-Henderson-Hasselbalch-pH_mc-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-Henderson-Hasselbalch-pH_mc-questions.txt)">
@@ -57,7 +57,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      pH Using the Henderson-Hasselbalch Equation
+      pH Using the Henderson-Hasselbalch Equation (Multiple Choice)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -68,7 +68,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 </details>
 
 
-## pH Using the Henderson-Hasselbalch Equation
+## pH Using the Henderson-Hasselbalch Equation (Numeric)
 
 <div id="Henderson-Hasselbalch-pH_num-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-pH_num-questions.txt" download title="Download bbq-Henderson-Hasselbalch-pH_num-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-Henderson-Hasselbalch-pH_num-questions.txt)">
@@ -89,7 +89,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      pH Using the Henderson-Hasselbalch Equation
+      pH Using the Henderson-Hasselbalch Equation (Numeric)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -100,7 +100,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 </details>
 
 
-## pKa and pKb Using the Henderson-Hasselbalch Equation
+## pKa and pKb Using the Henderson-Hasselbalch Equation (Multiple Choice)
 
 <div id="Henderson-Hasselbalch-pKa_mc-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-pKa_mc-questions.txt" download title="Download bbq-Henderson-Hasselbalch-pKa_mc-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-Henderson-Hasselbalch-pKa_mc-questions.txt)">
@@ -121,7 +121,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      pKa and pKb Using the Henderson-Hasselbalch Equation
+      pKa and pKb Using the Henderson-Hasselbalch Equation (Multiple Choice)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -132,7 +132,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 </details>
 
 
-## pKa and pKb Using the Henderson-Hasselbalch Equation
+## pKa and pKb Using the Henderson-Hasselbalch Equation (Numeric)
 
 <div id="Henderson-Hasselbalch-pKa_num-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-pKa_num-questions.txt" download title="Download bbq-Henderson-Hasselbalch-pKa_num-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-Henderson-Hasselbalch-pKa_num-questions.txt)">
@@ -153,7 +153,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      pKa and pKb Using the Henderson-Hasselbalch Equation
+      pKa and pKb Using the Henderson-Hasselbalch Equation (Numeric)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -164,7 +164,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 </details>
 
 
-## Acid-Base Ratios Using the Henderson-Hasselbalch Equation
+## Conjugate Base-to-Acid Ratios Using the Henderson-Hasselbalch Equation (Multiple Choice)
 
 <div id="Henderson-Hasselbalch-ratio_mc-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-ratio_mc-questions.txt" download title="Download bbq-Henderson-Hasselbalch-ratio_mc-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-Henderson-Hasselbalch-ratio_mc-questions.txt)">
@@ -185,7 +185,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Acid-Base Ratios Using the Henderson-Hasselbalch Equation
+      Conjugate Base-to-Acid Ratios Using the Henderson-Hasselbalch Equation (Multiple Choice)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -196,7 +196,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 </details>
 
 
-## Conjugate Base-Acid Ratios Using the Henderson-Hasselbalch Equation
+## Conjugate Base-to-Acid Ratios Using the Henderson-Hasselbalch Equation (Numeric)
 
 <div id="Henderson-Hasselbalch-ratio_num-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-ratio_num-questions.txt" download title="Download bbq-Henderson-Hasselbalch-ratio_num-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-Henderson-Hasselbalch-ratio_num-questions.txt)">
@@ -217,7 +217,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Conjugate Base-Acid Ratios Using the Henderson-Hasselbalch Equation
+      Conjugate Base-to-Acid Ratios Using the Henderson-Hasselbalch Equation (Numeric)
     </span>
     <span style='font-weight: normal;'>
       example problem

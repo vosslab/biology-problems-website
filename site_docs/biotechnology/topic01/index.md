@@ -2,7 +2,7 @@
 
 Students explore the history of biotechnology, model organisms, bacteriophage, cell culture, subviral agents, the central dogma, and endosymbiotic theory.
 
-## Matching Industries to Descriptions
+## Matching Industries to Project Descriptions
 
 <div id="MATCH-biotech_vs-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-biotech_vs-questions.txt" download title="Download bbq-MATCH-biotech_vs-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-biotech_vs-questions.txt)">
@@ -26,7 +26,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Industries to Descriptions
+      Matching Industries to Project Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -37,7 +37,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 </details>
 
 
-## Match Biotechnology Industries
+## Matching Biotechnology-Adjacent Industries to Project Descriptions
 
 <div id="MATCH-biotech_vs_improved-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-biotech_vs_improved-questions.txt" download title="Download bbq-MATCH-biotech_vs_improved-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-biotech_vs_improved-questions.txt)">
@@ -61,7 +61,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Match Biotechnology Industries
+      Matching Biotechnology-Adjacent Industries to Project Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -72,7 +72,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 </details>
 
 
-## Matching Culture Enrichment Methods
+## Matching Culture Enrichment Methods to Descriptions
 
 <div id="MATCH-culture_enrichment-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-culture_enrichment-questions.txt" download title="Download bbq-MATCH-culture_enrichment-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-culture_enrichment-questions.txt)">
@@ -96,7 +96,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Culture Enrichment Methods
+      Matching Culture Enrichment Methods to Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -107,7 +107,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 </details>
 
 
-## Nobel Prize Topics
+## True/False Statements About Nobel Prizes in Biotechnology
 
 <div id="TFMS-nobel_prizes-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-nobel_prizes-questions.txt" download title="Download bbq-TFMS-nobel_prizes-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-nobel_prizes-questions.txt)">
@@ -131,7 +131,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Nobel Prize Topics
+      True/False Statements About Nobel Prizes in Biotechnology
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -142,7 +142,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 </details>
 
 
-## Industries Using Enzymes
+## Industries from Project Descriptions
 
 <div id="WOMC-biotech_vs-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-biotech_vs-questions.txt" download title="Download bbq-WOMC-biotech_vs-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-biotech_vs-questions.txt)">
@@ -166,7 +166,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Industries Using Enzymes
+      Industries from Project Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -177,7 +177,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 </details>
 
 
-## Biotechnology Industry Identification
+## Biotechnology-Adjacent Industries from Project Descriptions
 
 <div id="WOMC-biotech_vs_improved-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-biotech_vs_improved-questions.txt" download title="Download bbq-WOMC-biotech_vs_improved-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-biotech_vs_improved-questions.txt)">
@@ -201,7 +201,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Biotechnology Industry Identification
+      Biotechnology-Adjacent Industries from Project Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -212,7 +212,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 </details>
 
 
-## Isotope Labeling in Culture Enrichment
+## Culture Enrichment Methods from Descriptions
 
 <div id="WOMC-culture_enrichment-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-culture_enrichment-questions.txt" download title="Download bbq-WOMC-culture_enrichment-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-culture_enrichment-questions.txt)">
@@ -236,7 +236,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Isotope Labeling in Culture Enrichment
+      Culture Enrichment Methods from Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -247,7 +247,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 </details>
 
 
-## Nutrients for Bacterial Growth in Metabolic Pathways
+## Bacterial Nutrient Requirements in Mutant Metabolic Pathways (5 Metabolites)
 
 <div id="beadle_tatum-metabolic_pathway-5_metabolites-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt" download title="Download bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt)">
@@ -268,7 +268,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Nutrients for Bacterial Growth in Metabolic Pathways
+      Bacterial Nutrient Requirements in Mutant Metabolic Pathways (5 Metabolites)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -279,7 +279,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 </details>
 
 
-## Determining the Correct Order of Metabolic Precursors in Pathways from Mutant Data
+## Metabolic Pathway Precursor Order from Mutant Growth Data (4 Metabolites)
 
 <div id="mutant_screen-fib-4_metabolites-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-mutant_screen-fib-4_metabolites-questions.txt" download title="Download bbq-mutant_screen-fib-4_metabolites-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-mutant_screen-fib-4_metabolites-questions.txt)">
@@ -300,7 +300,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining the Correct Order of Metabolic Precursors in Pathways from Mutant Data
+      Metabolic Pathway Precursor Order from Mutant Growth Data (4 Metabolites)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -311,7 +311,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 </details>
 
 
-## mRNA sequences from DNA templates
+## mRNA Sequences from DNA Templates (Fill in the Blank)
 
 <div id="rna_transcribe_fill_blank-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-rna_transcribe_fill_blank-questions.txt" download title="Download bbq-rna_transcribe_fill_blank-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-rna_transcribe_fill_blank-questions.txt)">
@@ -332,7 +332,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      mRNA sequences from DNA templates
+      mRNA Sequences from DNA Templates (Fill in the Blank)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -343,7 +343,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 </details>
 
 
-## mRNA Products from Transcription
+## mRNA Sequences from DNA Templates (5' and 3' Direction)
 
 <div id="rna_transcribe_prime-len_9-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-rna_transcribe_prime-len_9-questions.txt" download title="Download bbq-rna_transcribe_prime-len_9-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-rna_transcribe_prime-len_9-questions.txt)">
@@ -364,7 +364,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      mRNA Products from Transcription
+      mRNA Sequences from DNA Templates (5' and 3' Direction)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -375,7 +375,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 </details>
 
 
-## RNA Transcripts from DNA Templates
+## mRNA Sequences from DNA Templates (5' and 3' Fill in the Blank)
 
 <div id="rna_transcribe_prime_fill_blank-len_9-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-rna_transcribe_prime_fill_blank-len_9-questions.txt" download title="Download bbq-rna_transcribe_prime_fill_blank-len_9-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-rna_transcribe_prime_fill_blank-len_9-questions.txt)">
@@ -396,7 +396,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      RNA Transcripts from DNA Templates
+      mRNA Sequences from DNA Templates (5' and 3' Fill in the Blank)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -407,7 +407,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 </details>
 
 
-## Translating mRNA sequences into single-letter peptide codes
+## Peptide Sequences from mRNA Using the Genetic Code (10 Amino Acids)
 
 <div id="translate_genetic_code-10_aa-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-translate_genetic_code-10_aa-questions.txt" download title="Download bbq-translate_genetic_code-10_aa-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-translate_genetic_code-10_aa-questions.txt)">
@@ -428,7 +428,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Translating mRNA sequences into single-letter peptide codes
+      Peptide Sequences from mRNA Using the Genetic Code (10 Amino Acids)
     </span>
     <span style='font-weight: normal;'>
       example problem

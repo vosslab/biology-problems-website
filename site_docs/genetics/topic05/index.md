@@ -39,7 +39,7 @@ Students determine how multiple genes interact to produce phenotypes, including 
 </details>
 
 
-## Inheritance Patterns of Allele Expression
+## Inheritance Patterns from Allele-Expression Descriptions
 
 <div id="WOMC-degrees_of_dominance-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-degrees_of_dominance-questions.txt" download title="Download bbq-WOMC-degrees_of_dominance-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-degrees_of_dominance-questions.txt)">
@@ -63,7 +63,7 @@ Students determine how multiple genes interact to produce phenotypes, including 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Inheritance Patterns of Allele Expression
+      Inheritance Patterns from Allele-Expression Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -74,7 +74,7 @@ Students determine how multiple genes interact to produce phenotypes, including 
 </details>
 
 
-## Nutrients for Bacterial Growth in Defective Metabolic Pathways
+## Bacterial Nutrient Requirements in Mutant Metabolic Pathways (5 Metabolites)
 
 <div id="beadle_tatum-metabolic_pathway-5_metabolites-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt" download title="Download bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt)">
@@ -95,7 +95,7 @@ Students determine how multiple genes interact to produce phenotypes, including 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Nutrients for Bacterial Growth in Defective Metabolic Pathways
+      Bacterial Nutrient Requirements in Mutant Metabolic Pathways (5 Metabolites)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -266,7 +266,7 @@ Students determine how multiple genes interact to produce phenotypes, including 
 </details>
 
 
-## Determining Dihybrid Cross Phenotypic Ratios with Epistasis
+## Dihybrid Cross Phenotypic Ratios with Epistasis (Inverse, 6 Choices)
 
 <div id="epistasis_test_cross-inverse_direction-6_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-epistasis_test_cross-inverse_direction-6_choices-questions.txt" download title="Download bbq-epistasis_test_cross-inverse_direction-6_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-epistasis_test_cross-inverse_direction-6_choices-questions.txt)">
@@ -287,7 +287,7 @@ Students determine how multiple genes interact to produce phenotypes, including 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Dihybrid Cross Phenotypic Ratios with Epistasis
+      Dihybrid Cross Phenotypic Ratios with Epistasis (Inverse, 6 Choices)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -298,7 +298,7 @@ Students determine how multiple genes interact to produce phenotypes, including 
 </details>
 
 
-## Determining Horse Coat Patterns from Genetic Crosses
+## Horse Coat Patterns from Genetic Crosses
 
 <div id="horses-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-horses-questions.txt" download title="Download bbq-horses-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-horses-questions.txt)">
@@ -319,7 +319,7 @@ Students determine how multiple genes interact to produce phenotypes, including 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Horse Coat Patterns from Genetic Crosses
+      Horse Coat Patterns from Genetic Crosses
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -330,7 +330,7 @@ Students determine how multiple genes interact to produce phenotypes, including 
 </details>
 
 
-## Determining the Correct Order of Metabolic Precursors in a Pathway
+## Metabolic Pathway Precursor Order from Mutant Growth Data (4 Metabolites)
 
 <div id="mutant_screen-fib-4_metabolites-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-mutant_screen-fib-4_metabolites-questions.txt" download title="Download bbq-mutant_screen-fib-4_metabolites-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-mutant_screen-fib-4_metabolites-questions.txt)">
@@ -351,7 +351,7 @@ Students determine how multiple genes interact to produce phenotypes, including 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining the Correct Order of Metabolic Precursors in a Pathway
+      Metabolic Pathway Precursor Order from Mutant Growth Data (4 Metabolites)
     </span>
     <span style='font-weight: normal;'>
       example problem

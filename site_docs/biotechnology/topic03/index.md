@@ -2,7 +2,7 @@
 
 Students examine proteomics, western blotting, mass spectrometry, phage display, ELISA, recombinant expression systems, directed evolution, AlphaFold, cryo-EM, and de novo protein design.
 
-## Determining Net Charge at Given pH Using Isoelectric Point
+## Protein Net Charge at a Given pH
 
 <div id="isoelectric_one_protein-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-isoelectric_one_protein-questions.txt" download title="Download bbq-isoelectric_one_protein-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-isoelectric_one_protein-questions.txt)">
@@ -26,7 +26,7 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Net Charge at Given pH Using Isoelectric Point
+      Protein Net Charge at a Given pH
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -37,7 +37,7 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 </details>
 
 
-## Determining Protein Migration Direction in Isoelectric Focusing
+## Protein Migration Direction in Isoelectric Focusing
 
 <div id="isoelectric_two_proteins-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-isoelectric_two_proteins-questions.txt" download title="Download bbq-isoelectric_two_proteins-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-isoelectric_two_proteins-questions.txt)">
@@ -61,7 +61,7 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Protein Migration Direction in Isoelectric Focusing
+      Protein Migration Direction in Isoelectric Focusing
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -72,7 +72,7 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 </details>
 
 
-## Determining Protein Molecular Weight from SDS-PAGE Migration
+## Protein Molecular Weight from an SDS-PAGE Ladder
 
 <div id="kaleidoscope_ladder_unknown_band-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-kaleidoscope_ladder_unknown_band-questions.txt" download title="Download bbq-kaleidoscope_ladder_unknown_band-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-kaleidoscope_ladder_unknown_band-questions.txt)">
@@ -96,7 +96,7 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Protein Molecular Weight from SDS-PAGE Migration
+      Protein Molecular Weight from an SDS-PAGE Ladder
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -107,7 +107,7 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 </details>
 
 
-## Estimating Molecular Weight Using SDS-PAGE Gel Migration
+## Protein Molecular Weight from SDS-PAGE Migration
 
 <div id="protein_gel_migration-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-protein_gel_migration-questions.txt" download title="Download bbq-protein_gel_migration-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-protein_gel_migration-questions.txt)">
@@ -131,7 +131,7 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Estimating Molecular Weight Using SDS-PAGE Gel Migration
+      Protein Molecular Weight from SDS-PAGE Migration
     </span>
     <span style='font-weight: normal;'>
       example problem

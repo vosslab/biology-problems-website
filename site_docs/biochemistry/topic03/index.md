@@ -4,7 +4,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 
 **LibreTexts reference:** [Unit 1, Chapter 3: Amino Acids and Peptides](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.03%3A_Amino_Acids_and_Peptides) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.03%3A_Amino_Acids_and_Peptides" target="_blank" rel="noopener" aria-label="LibreTexts Unit 1, Chapter 3" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
-## Matching Amino Acid Properties
+## Matching Amino Acids to Properties (Long Tables)
 
 <div id="MATCH-amino_acids_properties-long_tables-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-amino_acids_properties-long_tables-questions.txt" download title="Download bbq-MATCH-amino_acids_properties-long_tables-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-amino_acids_properties-long_tables-questions.txt)">
@@ -28,7 +28,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Amino Acid Properties
+      Matching Amino Acids to Properties (Long Tables)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -39,7 +39,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 </details>
 
 
-## Amino Acids and Descriptive Properties
+## Matching Amino Acids to Descriptive Properties
 
 <div id="MATCH-amino_acids_properties-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-amino_acids_properties-questions.txt" download title="Download bbq-MATCH-amino_acids_properties-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-amino_acids_properties-questions.txt)">
@@ -63,7 +63,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Amino Acids and Descriptive Properties
+      Matching Amino Acids to Descriptive Properties
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -74,7 +74,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 </details>
 
 
-## Amino Acids by Their Properties
+## Amino Acids from Properties (Long Tables)
 
 <div id="WOMC-amino_acids_properties-long_tables-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-amino_acids_properties-long_tables-questions.txt" download title="Download bbq-WOMC-amino_acids_properties-long_tables-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-amino_acids_properties-long_tables-questions.txt)">
@@ -98,7 +98,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Amino Acids by Their Properties
+      Amino Acids from Properties (Long Tables)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -144,7 +144,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 </details>
 
 
-## Determining Amino Acid Charge States at Various pH Values
+## Alanine Charge States at Different pH Values
 
 <div id="alanine_protonation_states-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-alanine_protonation_states-questions.txt" download title="Download bbq-alanine_protonation_states-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-alanine_protonation_states-questions.txt)">
@@ -165,7 +165,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Amino Acid Charge States at Various pH Values
+      Alanine Charge States at Different pH Values
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -208,7 +208,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 </details>
 
 
-## Determining Histidine Protonation States at Specific pH Values
+## Histidine Protonation States at Specific pH Values
 
 <div id="histidine_protonation_states-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-histidine_protonation_states-questions.txt" download title="Download bbq-histidine_protonation_states-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-histidine_protonation_states-questions.txt)">
@@ -229,7 +229,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Histidine Protonation States at Specific pH Values
+      Histidine Protonation States at Specific pH Values
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -275,7 +275,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 </details>
 
 
-## Matching Amino Acid Structures to Names
+## Amino Acid Names from Chemical Structures (4 Choices)
 
 <div id="match_amino_acid_structures-4_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-match_amino_acid_structures-4_choices-questions.txt" download title="Download bbq-match_amino_acid_structures-4_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-match_amino_acid_structures-4_choices-questions.txt)">
@@ -293,7 +293,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Amino Acid Structures to Names
+      Amino Acid Names from Chemical Structures (4 Choices)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -420,7 +420,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 </details>
 
 
-## Determining Tetrapeptide Net Charge Using pKa Values
+## Tetrapeptide Net Charge from pKa Values (5 Choices)
 
 <div id="tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-questions.txt" download title="Download bbq-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-questions.txt)">
@@ -438,7 +438,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Tetrapeptide Net Charge Using pKa Values
+      Tetrapeptide Net Charge from pKa Values (5 Choices)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -507,7 +507,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 </details>
 
 
-## Determining Peptide Sequence (FIB)
+## Peptide Sequences (Fill in the Blank)
 
 <div id="wordle_peptides-FIB-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-wordle_peptides-FIB-questions.txt" download title="Download bbq-wordle_peptides-FIB-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-wordle_peptides-FIB-questions.txt)">
@@ -525,7 +525,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Peptide Sequence (FIB)
+      Peptide Sequences (Fill in the Blank)
     </span>
     <span style='font-weight: normal;'>
       example problem

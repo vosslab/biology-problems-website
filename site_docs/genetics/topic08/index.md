@@ -4,7 +4,7 @@ Students determine gene order on chromosomes using recombination data from test 
 
 **LibreTexts reference:** [Chapter 8: Gene Mapping and Recombination](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/08:_Gene_Mapping_and_Recombination) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/08:_Gene_Mapping_and_Recombination" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 8" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
-## Genetic Distance Calculation
+## Gene-to-Centromere Distance from Ordered Tetrads (Multiple Choice)
 
 <div id="tetrad_ordered-centromere_distance-MC-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-tetrad_ordered-centromere_distance-MC-questions.txt" download title="Download bbq-tetrad_ordered-centromere_distance-MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-tetrad_ordered-centromere_distance-MC-questions.txt)">
@@ -25,7 +25,7 @@ Students determine gene order on chromosomes using recombination data from test 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Genetic Distance Calculation
+      Gene-to-Centromere Distance from Ordered Tetrads (Multiple Choice)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -36,7 +36,7 @@ Students determine gene order on chromosomes using recombination data from test 
 </details>
 
 
-## Gene Order and Map Distances
+## Gene Order and Map Distances from Unordered Tetrads
 
 <div id="tetrad_unordered_three_gene-distances_plus-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-tetrad_unordered_three_gene-distances_plus-questions.txt" download title="Download bbq-tetrad_unordered_three_gene-distances_plus-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-tetrad_unordered_three_gene-distances_plus-questions.txt)">
@@ -57,7 +57,7 @@ Students determine gene order on chromosomes using recombination data from test 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Gene Order and Map Distances
+      Gene Order and Map Distances from Unordered Tetrads
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -68,7 +68,7 @@ Students determine gene order on chromosomes using recombination data from test 
 </details>
 
 
-## Calculating Genetic Distances Using Unordered Tetrad Data
+## Single Genetic Distance from Unordered Three-Gene Tetrads (5 Choices)
 
 <div id="tetrad_unordered_three_gene-find_one_distance-MC-5_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-tetrad_unordered_three_gene-find_one_distance-MC-5_choices-questions.txt" download title="Download bbq-tetrad_unordered_three_gene-find_one_distance-MC-5_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-tetrad_unordered_three_gene-find_one_distance-MC-5_choices-questions.txt)">
@@ -89,7 +89,7 @@ Students determine gene order on chromosomes using recombination data from test 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Calculating Genetic Distances Using Unordered Tetrad Data
+      Single Genetic Distance from Unordered Three-Gene Tetrads (5 Choices)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -100,7 +100,7 @@ Students determine gene order on chromosomes using recombination data from test 
 </details>
 
 
-## Calculating Genetic Linkage Distance from Tetrad Data
+## Genetic Distance from Unordered Two-Gene Tetrads (6 Choices)
 
 <div id="tetrad_unordered_two_gene-find_distance-MC-6_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-tetrad_unordered_two_gene-find_distance-MC-6_choices-questions.txt" download title="Download bbq-tetrad_unordered_two_gene-find_distance-MC-6_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-tetrad_unordered_two_gene-find_distance-MC-6_choices-questions.txt)">
@@ -121,7 +121,7 @@ Students determine gene order on chromosomes using recombination data from test 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Calculating Genetic Linkage Distance from Tetrad Data
+      Genetic Distance from Unordered Two-Gene Tetrads (6 Choices)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -132,7 +132,7 @@ Students determine gene order on chromosomes using recombination data from test 
 </details>
 
 
-## Linkage Between Genes
+## Linkage Tests from Unordered Two-Gene Tetrads
 
 <div id="tetrad_unordered_two_gene-test_linkage-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-tetrad_unordered_two_gene-test_linkage-questions.txt" download title="Download bbq-tetrad_unordered_two_gene-test_linkage-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-tetrad_unordered_two_gene-test_linkage-questions.txt)">
@@ -153,7 +153,7 @@ Students determine gene order on chromosomes using recombination data from test 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Linkage Between Genes
+      Linkage Tests from Unordered Two-Gene Tetrads
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -164,7 +164,7 @@ Students determine gene order on chromosomes using recombination data from test 
 </details>
 
 
-## Gene Order and Distance Calculation
+## Gene Order and Map Distances from Three-Point Test Crosses
 
 <div id="three-point_test_cross-distances_plus-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-three-point_test_cross-distances_plus-questions.txt" download title="Download bbq-three-point_test_cross-distances_plus-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-three-point_test_cross-distances_plus-questions.txt)">
@@ -185,7 +185,7 @@ Students determine gene order on chromosomes using recombination data from test 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Gene Order and Distance Calculation
+      Gene Order and Map Distances from Three-Point Test Crosses
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -196,7 +196,7 @@ Students determine gene order on chromosomes using recombination data from test 
 </details>
 
 
-## Determining Interference Levels in a Three-Point Test Cross
+## Interference in Three-Point Test Crosses (Multiple Choice, 6 Choices)
 
 <div id="three-point_test_cross-find_interence-MC-6_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-three-point_test_cross-find_interence-MC-6_choices-questions.txt" download title="Download bbq-three-point_test_cross-find_interence-MC-6_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-three-point_test_cross-find_interence-MC-6_choices-questions.txt)">
@@ -217,7 +217,7 @@ Students determine gene order on chromosomes using recombination data from test 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Interference Levels in a Three-Point Test Cross
+      Interference in Three-Point Test Crosses (Multiple Choice, 6 Choices)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -228,7 +228,7 @@ Students determine gene order on chromosomes using recombination data from test 
 </details>
 
 
-## Calculating Interference in Three-Point Test Crosses
+## Interference in Three-Point Test Crosses (Numeric)
 
 <div id="three-point_test_cross-find_interence-NUM-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-three-point_test_cross-find_interence-NUM-questions.txt" download title="Download bbq-three-point_test_cross-find_interence-NUM-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-three-point_test_cross-find_interence-NUM-questions.txt)">
@@ -249,7 +249,7 @@ Students determine gene order on chromosomes using recombination data from test 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Calculating Interference in Three-Point Test Crosses
+      Interference in Three-Point Test Crosses (Numeric)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -260,7 +260,7 @@ Students determine gene order on chromosomes using recombination data from test 
 </details>
 
 
-## Genetic Distance Calculation
+## Single-Gene Distance from Three-Point Test Crosses (Multiple Choice)
 
 <div id="three-point_test_cross-one_gene_distance-MC-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-three-point_test_cross-one_gene_distance-MC-questions.txt" download title="Download bbq-three-point_test_cross-one_gene_distance-MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-three-point_test_cross-one_gene_distance-MC-questions.txt)">
@@ -281,7 +281,7 @@ Students determine gene order on chromosomes using recombination data from test 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Genetic Distance Calculation
+      Single-Gene Distance from Three-Point Test Crosses (Multiple Choice)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -292,7 +292,7 @@ Students determine gene order on chromosomes using recombination data from test 
 </details>
 
 
-## Calculating Genetic Distance from Progeny Data in a Three-Point Test Cross
+## Single-Gene Distance from Three-Point Test Crosses (Numeric)
 
 <div id="three-point_test_cross-one_gene_distance-NUM-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-three-point_test_cross-one_gene_distance-NUM-questions.txt" download title="Download bbq-three-point_test_cross-one_gene_distance-NUM-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-three-point_test_cross-one_gene_distance-NUM-questions.txt)">
@@ -313,7 +313,7 @@ Students determine gene order on chromosomes using recombination data from test 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Calculating Genetic Distance from Progeny Data in a Three-Point Test Cross
+      Single-Gene Distance from Three-Point Test Crosses (Numeric)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -324,7 +324,7 @@ Students determine gene order on chromosomes using recombination data from test 
 </details>
 
 
-## Double Crossover Genotypes
+## Double-Crossover Genotypes in Three-Point Test Crosses
 
 <div id="three-point_test_cross-which_genotypes-DOUBLE-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-three-point_test_cross-which_genotypes-DOUBLE-questions.txt" download title="Download bbq-three-point_test_cross-which_genotypes-DOUBLE-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-three-point_test_cross-which_genotypes-DOUBLE-questions.txt)">
@@ -345,7 +345,7 @@ Students determine gene order on chromosomes using recombination data from test 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Double Crossover Genotypes
+      Double-Crossover Genotypes in Three-Point Test Crosses
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -356,7 +356,7 @@ Students determine gene order on chromosomes using recombination data from test 
 </details>
 
 
-## Recombinant Genotypes for Genes H and F
+## Recombinant Genotypes for a Specified Gene Pair in Three-Point Test Crosses
 
 <div id="three-point_test_cross-which_genotypes-GENES-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-three-point_test_cross-which_genotypes-GENES-questions.txt" download title="Download bbq-three-point_test_cross-which_genotypes-GENES-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-three-point_test_cross-which_genotypes-GENES-questions.txt)">
@@ -377,7 +377,7 @@ Students determine gene order on chromosomes using recombination data from test 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Recombinant Genotypes for Genes H and F
+      Recombinant Genotypes for a Specified Gene Pair in Three-Point Test Crosses
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -420,7 +420,7 @@ Students determine gene order on chromosomes using recombination data from test 
 </details>
 
 
-## Two-Point Test Cross Configuration
+## Gene Configuration (Cis vs. Trans) in Two-Point Test Crosses
 
 <div id="two-point_test_cross-cis-trans-MC-with_hint-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-two-point_test_cross-cis-trans-MC-with_hint-questions.txt" download title="Download bbq-two-point_test_cross-cis-trans-MC-with_hint-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-two-point_test_cross-cis-trans-MC-with_hint-questions.txt)">
@@ -441,7 +441,7 @@ Students determine gene order on chromosomes using recombination data from test 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Two-Point Test Cross Configuration
+      Gene Configuration (Cis vs. Trans) in Two-Point Test Crosses
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -452,7 +452,7 @@ Students determine gene order on chromosomes using recombination data from test 
 </details>
 
 
-## Calculating Genetic Distance in Two-Point Test Crosses
+## Genetic Distance in Two-Point Test Crosses (Multiple Choice, 6 Choices)
 
 <div id="two-point_test_cross-distance-MC-with_hint-6_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-two-point_test_cross-distance-MC-with_hint-6_choices-questions.txt" download title="Download bbq-two-point_test_cross-distance-MC-with_hint-6_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-two-point_test_cross-distance-MC-with_hint-6_choices-questions.txt)">
@@ -473,7 +473,7 @@ Students determine gene order on chromosomes using recombination data from test 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Calculating Genetic Distance in Two-Point Test Crosses
+      Genetic Distance in Two-Point Test Crosses (Multiple Choice, 6 Choices)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -484,7 +484,7 @@ Students determine gene order on chromosomes using recombination data from test 
 </details>
 
 
-## Calculating Genetic Distance in a Two-Point Test Cross
+## Genetic Distance in Two-Point Test Crosses (Numeric)
 
 <div id="two-point_test_cross-distance-NUM-with_hint-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-two-point_test_cross-distance-NUM-with_hint-questions.txt" download title="Download bbq-two-point_test_cross-distance-NUM-with_hint-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-two-point_test_cross-distance-NUM-with_hint-questions.txt)">
@@ -505,7 +505,7 @@ Students determine gene order on chromosomes using recombination data from test 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Calculating Genetic Distance in a Two-Point Test Cross
+      Genetic Distance in Two-Point Test Crosses (Numeric)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -548,7 +548,7 @@ Students determine gene order on chromosomes using recombination data from test 
 </details>
 
 
-## Recombinant Genotypes in Two-Point Test Cross
+## Recombinant Genotype Combinations in a Two-Point Test Cross
 
 <div id="two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT-questions.txt" download title="Download bbq-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT-questions.txt)">
@@ -569,7 +569,7 @@ Students determine gene order on chromosomes using recombination data from test 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Recombinant Genotypes in Two-Point Test Cross
+      Recombinant Genotype Combinations in a Two-Point Test Cross
     </span>
     <span style='font-weight: normal;'>
       example problem

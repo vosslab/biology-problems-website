@@ -74,7 +74,7 @@ Students analyze allosteric regulation, cooperativity, and sigmoidal binding cur
 </details>
 
 
-## Determining Enzyme Inhibition Impact on Metabolite Production
+## Effects of Enzyme Inhibition on Metabolite Production
 
 <div id="feedback_splitting_pathway-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-feedback_splitting_pathway-questions.txt" download title="Download bbq-feedback_splitting_pathway-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-feedback_splitting_pathway-questions.txt)">
@@ -98,7 +98,7 @@ Students analyze allosteric regulation, cooperativity, and sigmoidal binding cur
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Enzyme Inhibition Impact on Metabolite Production
+      Effects of Enzyme Inhibition on Metabolite Production
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -109,7 +109,7 @@ Students analyze allosteric regulation, cooperativity, and sigmoidal binding cur
 </details>
 
 
-## Determining Hemoglobin Oxygen Affinity Changes Under Different Conditions
+## Hemoglobin Oxygen Affinity Under Different Conditions
 
 <div id="hemoglobin_oxygen_affinity-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-hemoglobin_oxygen_affinity-questions.txt" download title="Download bbq-hemoglobin_oxygen_affinity-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-hemoglobin_oxygen_affinity-questions.txt)">
@@ -133,7 +133,7 @@ Students analyze allosteric regulation, cooperativity, and sigmoidal binding cur
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Hemoglobin Oxygen Affinity Changes Under Different Conditions
+      Hemoglobin Oxygen Affinity Under Different Conditions
     </span>
     <span style='font-weight: normal;'>
       example problem

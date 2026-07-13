@@ -2,7 +2,7 @@
 
 Students assess gene therapy, viral vectors, genome editing (ZFNs, TALENs, CRISPR), stem cells, iPSC therapies, CAR-T therapy, cancer gene therapy, and prime editing.
 
-## Matching Genetic Disease Treatment Methods to Their Descriptions
+## Matching Genetic Disease Treatment Methods to Descriptions
 
 <div id="MATCH-gene_therapy_v_edit-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-gene_therapy_v_edit-questions.txt" download title="Download bbq-MATCH-gene_therapy_v_edit-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-gene_therapy_v_edit-questions.txt)">
@@ -26,7 +26,7 @@ Students assess gene therapy, viral vectors, genome editing (ZFNs, TALENs, CRISP
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Genetic Disease Treatment Methods to Their Descriptions
+      Matching Genetic Disease Treatment Methods to Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -37,7 +37,7 @@ Students assess gene therapy, viral vectors, genome editing (ZFNs, TALENs, CRISP
 </details>
 
 
-## Match Stem Cell Potencies
+## Matching Stem Cell Potency Levels to Definitions
 
 <div id="MATCH-stem_cell_potency-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-stem_cell_potency-questions.txt" download title="Download bbq-MATCH-stem_cell_potency-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-stem_cell_potency-questions.txt)">
@@ -61,7 +61,7 @@ Students assess gene therapy, viral vectors, genome editing (ZFNs, TALENs, CRISP
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Match Stem Cell Potencies
+      Matching Stem Cell Potency Levels to Definitions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -72,7 +72,7 @@ Students assess gene therapy, viral vectors, genome editing (ZFNs, TALENs, CRISP
 </details>
 
 
-## Genetic Disease Treatment Methods
+## Genetic Disease Treatment Methods from Descriptions
 
 <div id="WOMC-gene_therapy_v_edit-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-gene_therapy_v_edit-questions.txt" download title="Download bbq-WOMC-gene_therapy_v_edit-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-gene_therapy_v_edit-questions.txt)">
@@ -96,7 +96,7 @@ Students assess gene therapy, viral vectors, genome editing (ZFNs, TALENs, CRISP
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Genetic Disease Treatment Methods
+      Genetic Disease Treatment Methods from Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -107,7 +107,7 @@ Students assess gene therapy, viral vectors, genome editing (ZFNs, TALENs, CRISP
 </details>
 
 
-## Stem Cell Potency Classification
+## Stem Cell Potency Levels from Definitions
 
 <div id="WOMC-stem_cell_potency-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-stem_cell_potency-questions.txt" download title="Download bbq-WOMC-stem_cell_potency-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-stem_cell_potency-questions.txt)">
@@ -131,7 +131,7 @@ Students assess gene therapy, viral vectors, genome editing (ZFNs, TALENs, CRISP
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Stem Cell Potency Classification
+      Stem Cell Potency Levels from Definitions
     </span>
     <span style='font-weight: normal;'>
       example problem

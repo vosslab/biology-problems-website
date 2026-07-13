@@ -2,7 +2,7 @@
 
 Students formulate null and alternative hypotheses, interpret p-values and significance levels, and perform t-tests and ANOVA.
 
-## Matching Chi-Square Terms with Their Definitions
+## Matching Chi-Square Terms to Definitions
 
 <div id="MATCH-chi-square_terms-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-chi-square_terms-questions.txt" download title="Download bbq-MATCH-chi-square_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-chi-square_terms-questions.txt)">
@@ -26,7 +26,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Chi-Square Terms with Their Definitions
+      Matching Chi-Square Terms to Definitions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -72,7 +72,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 </details>
 
 
-## Matching Statistical Test Terms with Their Definitions
+## Matching Statistical Test Terms to Definitions
 
 <div id="MATCH-statistical_test_terms-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-statistical_test_terms-questions.txt" download title="Download bbq-MATCH-statistical_test_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-statistical_test_terms-questions.txt)">
@@ -96,7 +96,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Statistical Test Terms with Their Definitions
+      Matching Statistical Test Terms to Definitions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -107,7 +107,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 </details>
 
 
-## Determining True Statements About Chi-Square Tests
+## True/False Statements About Chi-Square Tests
 
 <div id="TFMS-chi-square-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-chi-square-questions.txt" download title="Download bbq-TFMS-chi-square-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-chi-square-questions.txt)">
@@ -131,7 +131,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining True Statements About Chi-Square Tests
+      True/False Statements About Chi-Square Tests
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -142,7 +142,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 </details>
 
 
-## Determining True/False Statements About Statistical Tests
+## True/False Statements About Statistical Tests
 
 <div id="TFMS-statistical_tests-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-statistical_tests-questions.txt" download title="Download bbq-TFMS-statistical_tests-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-statistical_tests-questions.txt)">
@@ -166,7 +166,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining True/False Statements About Statistical Tests
+      True/False Statements About Statistical Tests
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -247,7 +247,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 </details>
 
 
-## Statistical Test Terms
+## Statistical Test Terms from Definitions
 
 <div id="WOMC-statistical_test_terms-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-statistical_test_terms-questions.txt" download title="Download bbq-WOMC-statistical_test_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-statistical_test_terms-questions.txt)">
@@ -271,7 +271,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Statistical Test Terms
+      Statistical Test Terms from Definitions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -282,7 +282,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 </details>
 
 
-## Calculating p-value for Two-Sample t-Test
+## Two-Sample t-Test P-Values
 
 <div id="babies_two_sample_t_test-tails1-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-babies_two_sample_t_test-tails1-questions.txt" download title="Download bbq-babies_two_sample_t_test-tails1-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-babies_two_sample_t_test-tails1-questions.txt)">
@@ -303,7 +303,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Calculating p-value for Two-Sample t-Test
+      Two-Sample t-Test P-Values
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -314,7 +314,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 </details>
 
 
-## Determining Differences in Diversity Using ANOVA
+## Biodiversity Differences Using ANOVA
 
 <div id="busse_woods_anova-anova-5year-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-busse_woods_anova-anova-5year-questions.txt" download title="Download bbq-busse_woods_anova-anova-5year-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-busse_woods_anova-anova-5year-questions.txt)">
@@ -335,7 +335,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Differences in Diversity Using ANOVA
+      Biodiversity Differences Using ANOVA
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -346,7 +346,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 </details>
 
 
-## Determining Significance of Microbial Diversity Data Using a Z-Test
+## Microbial Diversity Significance Using a Z-Test
 
 <div id="busse_woods_one_sample_tests-ztest-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-busse_woods_one_sample_tests-ztest-questions.txt" download title="Download bbq-busse_woods_one_sample_tests-ztest-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-busse_woods_one_sample_tests-ztest-questions.txt)">
@@ -367,7 +367,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Significance of Microbial Diversity Data Using a Z-Test
+      Microbial Diversity Significance Using a Z-Test
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -378,7 +378,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 </details>
 
 
-## Determining Statistical Significance Using Two-Sample F-Test
+## Statistical Significance Using a Two-Sample F-Test
 
 <div id="busse_woods_two_sample_f_test-tails1-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-busse_woods_two_sample_f_test-tails1-questions.txt" download title="Download bbq-busse_woods_two_sample_f_test-tails1-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-busse_woods_two_sample_f_test-tails1-questions.txt)">
@@ -399,7 +399,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Statistical Significance Using Two-Sample F-Test
+      Statistical Significance Using a Two-Sample F-Test
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -410,7 +410,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 </details>
 
 
-## Determining Significance Using Two-Sample T-Test
+## Statistical Significance Using a Two-Sample t-Test
 
 <div id="busse_woods_two_sample_t_test-tails1-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-busse_woods_two_sample_t_test-tails1-questions.txt" download title="Download bbq-busse_woods_two_sample_t_test-tails1-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-busse_woods_two_sample_t_test-tails1-questions.txt)">
@@ -431,7 +431,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Significance Using Two-Sample T-Test
+      Statistical Significance Using a Two-Sample t-Test
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -442,7 +442,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 </details>
 
 
-## Calculating Chi-Square Value for Phenotype Ratios
+## Chi-Square Values for Phenotypic Ratios
 
 <div id="chi_square_calculated-ACCEPT-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chi_square_calculated-ACCEPT-questions.txt" download title="Download bbq-chi_square_calculated-ACCEPT-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chi_square_calculated-ACCEPT-questions.txt)">
@@ -463,7 +463,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Calculating Chi-Square Value for Phenotype Ratios
+      Chi-Square Values for Phenotypic Ratios
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -474,7 +474,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 </details>
 
 
-## Determining Hypothesis Acceptance Using Chi-Squared Test
+## Hypothesis Decisions from Chi-Square Tests
 
 <div id="chi_square_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chi_square_choices-questions.txt" download title="Download bbq-chi_square_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chi_square_choices-questions.txt)">
@@ -495,7 +495,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Hypothesis Acceptance Using Chi-Squared Test
+      Hypothesis Decisions from Chi-Square Tests
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -506,7 +506,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 </details>
 
 
-## Errors in Chi-Squared Hypothesis Testing
+## Errors in Chi-Square Calculations and Hypothesis Decisions
 
 <div id="chi_square_errors-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chi_square_errors-questions.txt" download title="Download bbq-chi_square_errors-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chi_square_errors-questions.txt)">
@@ -527,7 +527,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Errors in Chi-Squared Hypothesis Testing
+      Errors in Chi-Square Calculations and Hypothesis Decisions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -538,7 +538,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 </details>
 
 
-## Determining Chi-Square Outcomes for Hardy-Weinberg Equilibrium
+## Chi-Square Tests for Hardy-Weinberg Equilibrium
 
 <div id="chi_square_hardy_weinberg-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chi_square_hardy_weinberg-questions.txt" download title="Download bbq-chi_square_hardy_weinberg-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chi_square_hardy_weinberg-questions.txt)">
@@ -559,7 +559,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Chi-Square Outcomes for Hardy-Weinberg Equilibrium
+      Chi-Square Tests for Hardy-Weinberg Equilibrium
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -570,7 +570,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 </details>
 
 
-## Determining Chi-Squared Test Hypotheses for Genetic Crosses
+## Null and Alternative Hypotheses for Genetic Crosses
 
 <div id="chi_square_hypotheses-pair-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chi_square_hypotheses-pair-questions.txt" download title="Download bbq-chi_square_hypotheses-pair-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chi_square_hypotheses-pair-questions.txt)">
@@ -591,7 +591,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Chi-Squared Test Hypotheses for Genetic Crosses
+      Null and Alternative Hypotheses for Genetic Crosses
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -602,7 +602,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 </details>
 
 
-## Misstated Null Hypotheses in Chi-Squared Goodness-of-Fit Tests for Genetic Ratios
+## Misstated Null Hypotheses for Genetic Ratios
 
 <div id="chi_square_hypotheses_lab_partner-hypotheses_partner-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt" download title="Download bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt)">
@@ -623,7 +623,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Misstated Null Hypotheses in Chi-Squared Goodness-of-Fit Tests for Genetic Ratios
+      Misstated Null Hypotheses for Genetic Ratios
     </span>
     <span style='font-weight: normal;'>
       example problem

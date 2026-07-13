@@ -4,7 +4,7 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 
 **LibreTexts reference:** [Unit 1, Chapter 1: Molecules of Life](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.01%3A_Molecules_of_Life) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.01%3A_Molecules_of_Life" target="_blank" rel="noopener" aria-label="LibreTexts Unit 1, Chapter 1" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
-## Matching Biochemical Functional Groups
+## Matching Biochemical Functional Groups to Descriptions
 
 <div id="MATCH-biochemical_functional_groups-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-biochemical_functional_groups-questions.txt" download title="Download bbq-MATCH-biochemical_functional_groups-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-biochemical_functional_groups-questions.txt)">
@@ -28,7 +28,7 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Biochemical Functional Groups
+      Matching Biochemical Functional Groups to Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -39,7 +39,7 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 </details>
 
 
-## Chemical Bond Types and Characteristics
+## Matching Chemical Bond Types to Characteristics
 
 <div id="MATCH-bond_types-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-bond_types-questions.txt" download title="Download bbq-MATCH-bond_types-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-bond_types-questions.txt)">
@@ -63,7 +63,7 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Chemical Bond Types and Characteristics
+      Matching Chemical Bond Types to Characteristics
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -74,7 +74,7 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 </details>
 
 
-## Types of Macromolecules (Reduced Set)
+## Matching Macromolecule Types to Descriptions (Reduced Set)
 
 <div id="MATCH-macromolecules-biol301-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-macromolecules-biol301-questions.txt" download title="Download bbq-MATCH-macromolecules-biol301-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-macromolecules-biol301-questions.txt)">
@@ -98,7 +98,7 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Types of Macromolecules (Reduced Set)
+      Matching Macromolecule Types to Descriptions (Reduced Set)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -109,7 +109,7 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 </details>
 
 
-## Types of Macromolecules (Full Set)
+## Matching Macromolecule Types to Descriptions (Full Set)
 
 <div id="MATCH-macromolecules-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-macromolecules-questions.txt" download title="Download bbq-MATCH-macromolecules-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-macromolecules-questions.txt)">
@@ -133,7 +133,7 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Types of Macromolecules (Full Set)
+      Matching Macromolecule Types to Descriptions (Full Set)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -214,7 +214,7 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 </details>
 
 
-## Macromolecule Types from Descriptions
+## Macromolecule Types from Descriptions (Reduced Set)
 
 <div id="WOMC-macromolecules-biol301-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-macromolecules-biol301-questions.txt" download title="Download bbq-WOMC-macromolecules-biol301-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-macromolecules-biol301-questions.txt)">
@@ -238,7 +238,7 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Macromolecule Types from Descriptions
+      Macromolecule Types from Descriptions (Reduced Set)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -249,7 +249,7 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 </details>
 
 
-## Types of Macromolecules Based on Examples
+## Macromolecule Types from Examples (Full Set)
 
 <div id="WOMC-macromolecules-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-macromolecules-questions.txt" download title="Download bbq-WOMC-macromolecules-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-macromolecules-questions.txt)">
@@ -273,7 +273,7 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Types of Macromolecules Based on Examples
+      Macromolecule Types from Examples (Full Set)
     </span>
     <span style='font-weight: normal;'>
       example problem

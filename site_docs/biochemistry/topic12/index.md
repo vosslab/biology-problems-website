@@ -4,7 +4,7 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
 
 **LibreTexts reference:** [Unit 3, Chapter 3: Lipids](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/03%3A_Unit_3_-_Macromolecules/3.03%3A_Lipids) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/03%3A_Unit_3_-_Macromolecules/3.03%3A_Lipids" target="_blank" rel="noopener" aria-label="LibreTexts Unit 3, Chapter 3" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
-## Matching Fatty Acid Structures with Delta Positions
+## Fatty Acid Delta Positions from Structures
 
 <div id="fatty_acid_match_delta-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-fatty_acid_match_delta-questions.txt" download title="Download bbq-fatty_acid_match_delta-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-fatty_acid_match_delta-questions.txt)">
@@ -28,7 +28,7 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Fatty Acid Structures with Delta Positions
+      Fatty Acid Delta Positions from Structures
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -39,7 +39,7 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
 </details>
 
 
-## Matching Fatty Acid Structures to Omega Notations
+## Fatty Acid Omega Notations from Structures
 
 <div id="fatty_acid_match_omega-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-fatty_acid_match_omega-questions.txt" download title="Download bbq-fatty_acid_match_omega-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-fatty_acid_match_omega-questions.txt)">
@@ -63,7 +63,7 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Fatty Acid Structures to Omega Notations
+      Fatty Acid Omega Notations from Structures
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -74,7 +74,7 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
 </details>
 
 
-## Determining Double Bond Positions in Fatty Acids Using Delta Notation
+## Fatty Acid Double-Bond Positions in Delta Notation
 
 <div id="fatty_acid_naming_delta-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-fatty_acid_naming_delta-questions.txt" download title="Download bbq-fatty_acid_naming_delta-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-fatty_acid_naming_delta-questions.txt)">
@@ -98,7 +98,7 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Double Bond Positions in Fatty Acids Using Delta Notation
+      Fatty Acid Double-Bond Positions in Delta Notation
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -109,7 +109,7 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
 </details>
 
 
-## Double Bond Positions Using Omega Notation
+## Fatty Acid Double-Bond Positions in Omega Notation
 
 <div id="fatty_acid_naming_omega-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-fatty_acid_naming_omega-questions.txt" download title="Download bbq-fatty_acid_naming_omega-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-fatty_acid_naming_omega-questions.txt)">
@@ -133,7 +133,7 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Double Bond Positions Using Omega Notation
+      Fatty Acid Double-Bond Positions in Omega Notation
     </span>
     <span style='font-weight: normal;'>
       example problem

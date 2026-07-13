@@ -2,7 +2,7 @@
 
 Replication machinery, origins, forks, and fidelity mechanisms.
 
-## Matching DNA Replication Enzymes with Their Functions
+## Matching DNA Replication Enzymes to Functions (BIOL 301)
 
 <div id="MATCH-dna_replication_enzymes-biol_301-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-dna_replication_enzymes-biol_301-questions.txt" download title="Download bbq-MATCH-dna_replication_enzymes-biol_301-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-dna_replication_enzymes-biol_301-questions.txt)">
@@ -26,7 +26,7 @@ Replication machinery, origins, forks, and fidelity mechanisms.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching DNA Replication Enzymes with Their Functions
+      Matching DNA Replication Enzymes to Functions (BIOL 301)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -37,7 +37,7 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 </details>
 
 
-## Matching DNA Replication Enzymes with Their Functions
+## Matching DNA Replication Enzymes to Functions
 
 <div id="MATCH-dna_replication_enzymes-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-dna_replication_enzymes-questions.txt" download title="Download bbq-MATCH-dna_replication_enzymes-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-dna_replication_enzymes-questions.txt)">
@@ -61,7 +61,7 @@ Replication machinery, origins, forks, and fidelity mechanisms.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching DNA Replication Enzymes with Their Functions
+      Matching DNA Replication Enzymes to Functions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -72,7 +72,7 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 </details>
 
 
-## Determining True/False Statements About DNA Replication in Bacteria
+## True/False Statements About Bacterial DNA Replication (BIOL 301)
 
 <div id="TFMS-dna_replication-biol_301-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-dna_replication-biol_301-questions.txt" download title="Download bbq-TFMS-dna_replication-biol_301-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-dna_replication-biol_301-questions.txt)">
@@ -96,7 +96,7 @@ Replication machinery, origins, forks, and fidelity mechanisms.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining True/False Statements About DNA Replication in Bacteria
+      True/False Statements About Bacterial DNA Replication (BIOL 301)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -107,7 +107,7 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 </details>
 
 
-## Determining True/False Statements About DNA Replication in Bacteria
+## True/False Statements About Bacterial DNA Replication
 
 <div id="TFMS-dna_replication-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-dna_replication-questions.txt" download title="Download bbq-TFMS-dna_replication-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-dna_replication-questions.txt)">
@@ -131,7 +131,7 @@ Replication machinery, origins, forks, and fidelity mechanisms.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining True/False Statements About DNA Replication in Bacteria
+      True/False Statements About Bacterial DNA Replication
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -142,7 +142,7 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 </details>
 
 
-## Determining True/False Statements About Leading and Lagging Strands
+## True/False Statements About Leading and Lagging Strands
 
 <div id="TFMS-leading_v_lagging_strand-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-leading_v_lagging_strand-questions.txt" download title="Download bbq-TFMS-leading_v_lagging_strand-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-leading_v_lagging_strand-questions.txt)">
@@ -166,7 +166,7 @@ Replication machinery, origins, forks, and fidelity mechanisms.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining True/False Statements About Leading and Lagging Strands
+      True/False Statements About Leading and Lagging Strands
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -177,7 +177,7 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 </details>
 
 
-## Determining True/False Statements About Proofreading by DNA Polymerase
+## True/False Statements About DNA Polymerase Proofreading
 
 <div id="TFMS-proofreading-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-proofreading-questions.txt" download title="Download bbq-TFMS-proofreading-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-proofreading-questions.txt)">
@@ -201,7 +201,7 @@ Replication machinery, origins, forks, and fidelity mechanisms.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining True/False Statements About Proofreading by DNA Polymerase
+      True/False Statements About DNA Polymerase Proofreading
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -212,7 +212,7 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 </details>
 
 
-## Enzyme Functions in DNA Replication
+## DNA Replication Enzymes from Functional Descriptions (BIOL 301)
 
 <div id="WOMC-dna_replication_enzymes-biol_301-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-dna_replication_enzymes-biol_301-questions.txt" download title="Download bbq-WOMC-dna_replication_enzymes-biol_301-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-dna_replication_enzymes-biol_301-questions.txt)">
@@ -236,7 +236,7 @@ Replication machinery, origins, forks, and fidelity mechanisms.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Enzyme Functions in DNA Replication
+      DNA Replication Enzymes from Functional Descriptions (BIOL 301)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -247,7 +247,7 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 </details>
 
 
-## DNA Replication Enzymes by Function
+## DNA Replication Enzymes from Functional Descriptions
 
 <div id="WOMC-dna_replication_enzymes-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-dna_replication_enzymes-questions.txt" download title="Download bbq-WOMC-dna_replication_enzymes-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-dna_replication_enzymes-questions.txt)">
@@ -271,7 +271,7 @@ Replication machinery, origins, forks, and fidelity mechanisms.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      DNA Replication Enzymes by Function
+      DNA Replication Enzymes from Functional Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem

@@ -2,7 +2,7 @@
 
 Students calculate mean, median, standard deviation, and variance, convert values to z-scores, and determine percentile ranks from sorted data.
 
-## Matching Measures of Center with Their Definitions
+## Matching Measures of Center to Definitions
 
 <div id="MATCH-measures_of_center-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-measures_of_center-questions.txt" download title="Download bbq-MATCH-measures_of_center-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-measures_of_center-questions.txt)">
@@ -26,7 +26,7 @@ Students calculate mean, median, standard deviation, and variance, convert value
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Measures of Center with Their Definitions
+      Matching Measures of Center to Definitions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -37,7 +37,7 @@ Students calculate mean, median, standard deviation, and variance, convert value
 </details>
 
 
-## Measures of Center
+## Measures of Center from Definitions
 
 <div id="WOMC-measures_of_center-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-measures_of_center-questions.txt" download title="Download bbq-WOMC-measures_of_center-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-measures_of_center-questions.txt)">
@@ -61,7 +61,7 @@ Students calculate mean, median, standard deviation, and variance, convert value
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Measures of Center
+      Measures of Center from Definitions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -72,7 +72,7 @@ Students calculate mean, median, standard deviation, and variance, convert value
 </details>
 
 
-## Determining Descriptive Statistics Using Google Sheets
+## Descriptive Statistics Using Google Sheets
 
 <div id="descriptive_stats_google_sheet-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-descriptive_stats_google_sheet-questions.txt" download title="Download bbq-descriptive_stats_google_sheet-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-descriptive_stats_google_sheet-questions.txt)">
@@ -93,7 +93,7 @@ Students calculate mean, median, standard deviation, and variance, convert value
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Descriptive Statistics Using Google Sheets
+      Descriptive Statistics Using Google Sheets
     </span>
     <span style='font-weight: normal;'>
       example problem

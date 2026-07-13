@@ -2,7 +2,7 @@
 
 RNA splicing, mRNA maturation, and CRISPR gene editing.
 
-## Determining True/False Statements About Intron Removal Mechanisms
+## True/False Statements About Intron Removal Mechanisms
 
 <div id="TFMS-intron_splicing-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-intron_splicing-questions.txt" download title="Download bbq-TFMS-intron_splicing-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-intron_splicing-questions.txt)">
@@ -26,7 +26,7 @@ RNA splicing, mRNA maturation, and CRISPR gene editing.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining True/False Statements About Intron Removal Mechanisms
+      True/False Statements About Intron Removal Mechanisms
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -37,7 +37,7 @@ RNA splicing, mRNA maturation, and CRISPR gene editing.
 </details>
 
 
-## Determining True/False Statements About mRNA Post-Transcriptional Modification
+## True/False Statements About mRNA Post-Transcriptional Modification
 
 <div id="TFMS-mRNA_processing-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-mRNA_processing-questions.txt" download title="Download bbq-TFMS-mRNA_processing-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-mRNA_processing-questions.txt)">
@@ -61,7 +61,7 @@ RNA splicing, mRNA maturation, and CRISPR gene editing.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining True/False Statements About mRNA Post-Transcriptional Modification
+      True/False Statements About mRNA Post-Transcriptional Modification
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -72,7 +72,7 @@ RNA splicing, mRNA maturation, and CRISPR gene editing.
 </details>
 
 
-## Determining Alternative Splicing Possibilities
+## Alternative Splicing Possibilities
 
 <div id="exon_splicing-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-exon_splicing-questions.txt" download title="Download bbq-exon_splicing-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-exon_splicing-questions.txt)">
@@ -93,7 +93,7 @@ RNA splicing, mRNA maturation, and CRISPR gene editing.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Alternative Splicing Possibilities
+      Alternative Splicing Possibilities
     </span>
     <span style='font-weight: normal;'>
       example problem

@@ -4,7 +4,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 
 **LibreTexts reference:** [Chapter 2: DNA Structure and Sequences](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/02:_DNA_Structure_and_Sequences) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/02:_DNA_Structure_and_Sequences" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 2" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
-## True/False Statements About DNA Structure
+## True/False Statements About DNA Structure (BIOL 351)
 
 <div id="TFMS-dna_structure-biol_351-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-dna_structure-biol_351-questions.txt" download title="Download bbq-TFMS-dna_structure-biol_351-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-dna_structure-biol_351-questions.txt)">
@@ -28,7 +28,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About DNA Structure
+      True/False Statements About DNA Structure (BIOL 351)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -39,7 +39,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## Determining True/False Statements About DNA Structure
+## True/False Statements About DNA Structure
 
 <div id="TFMS-dna_structure-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-dna_structure-questions.txt" download title="Download bbq-TFMS-dna_structure-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-dna_structure-questions.txt)">
@@ -63,7 +63,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining True/False Statements About DNA Structure
+      True/False Statements About DNA Structure
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -74,7 +74,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## Determining True/False Statements About Melting Temperature of DNA
+## True/False Statements About DNA Melting Temperature (Tm)
 
 <div id="TFMS-melting_Tm_type_1-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-melting_Tm_type_1-questions.txt" download title="Download bbq-TFMS-melting_Tm_type_1-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-melting_Tm_type_1-questions.txt)">
@@ -98,7 +98,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining True/False Statements About Melting Temperature of DNA
+      True/False Statements About DNA Melting Temperature (Tm)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -109,7 +109,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## Factors That Increase DNA Melting Temperature (Tm)
+## True/False Statements About Factors That Increase DNA Melting Temperature (Tm)
 
 <div id="TFMS-melting_Tm_type_2a-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-melting_Tm_type_2a-questions.txt" download title="Download bbq-TFMS-melting_Tm_type_2a-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-melting_Tm_type_2a-questions.txt)">
@@ -133,7 +133,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Factors That Increase DNA Melting Temperature (Tm)
+      True/False Statements About Factors That Increase DNA Melting Temperature (Tm)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -144,7 +144,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## Factors That Decrease DNA Melting Temperature
+## True/False Statements About Factors That Decrease DNA Melting Temperature (Tm)
 
 <div id="TFMS-melting_Tm_type_2b-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-melting_Tm_type_2b-questions.txt" download title="Download bbq-TFMS-melting_Tm_type_2b-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-melting_Tm_type_2b-questions.txt)">
@@ -168,7 +168,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Factors That Decrease DNA Melting Temperature
+      True/False Statements About Factors That Decrease DNA Melting Temperature (Tm)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -214,7 +214,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## Determining True/False Statements About Differences Between RNA and DNA
+## True/False Statements About RNA and DNA Differences (BIOL 301)
 
 <div id="TFMS-rna_v_dna-biol_301-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-rna_v_dna-biol_301-questions.txt" download title="Download bbq-TFMS-rna_v_dna-biol_301-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-rna_v_dna-biol_301-questions.txt)">
@@ -238,7 +238,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining True/False Statements About Differences Between RNA and DNA
+      True/False Statements About RNA and DNA Differences (BIOL 301)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -249,7 +249,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## Determining True/False Statements About Differences Between RNA and DNA
+## True/False Statements About RNA and DNA Differences
 
 <div id="TFMS-rna_v_dna-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-rna_v_dna-questions.txt" download title="Download bbq-TFMS-rna_v_dna-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-rna_v_dna-questions.txt)">
@@ -273,7 +273,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining True/False Statements About Differences Between RNA and DNA
+      True/False Statements About RNA and DNA Differences
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -284,7 +284,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## Chargaff's Base Pairing Composition
+## DNA Base Composition Using Chargaff's Rules (5 Choices)
 
 <div id="chargaff_dna_percent-5_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chargaff_dna_percent-5_choices-questions.txt" download title="Download bbq-chargaff_dna_percent-5_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chargaff_dna_percent-5_choices-questions.txt)">
@@ -305,7 +305,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Chargaff's Base Pairing Composition
+      DNA Base Composition Using Chargaff's Rules (5 Choices)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -316,7 +316,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## Complementary DNA Sequences (Directionless)
+## Complementary DNA Sequences Without Direction Labels
 
 <div id="complementary_sequences-mc-directionless-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-complementary_sequences-mc-directionless-questions.txt" download title="Download bbq-complementary_sequences-mc-directionless-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-complementary_sequences-mc-directionless-questions.txt)">
@@ -337,7 +337,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Complementary DNA Sequences (Directionless)
+      Complementary DNA Sequences Without Direction Labels
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -380,7 +380,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## Comparing DNA Sequences for Melting Temperature Extremes
+## DNA Melting Temperature Extremes from Sequence (12 Bases)
 
 <div id="dna_melting_temp-len_12-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-dna_melting_temp-len_12-questions.txt" download title="Download bbq-dna_melting_temp-len_12-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-dna_melting_temp-len_12-questions.txt)">
@@ -401,7 +401,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Comparing DNA Sequences for Melting Temperature Extremes
+      DNA Melting Temperature Extremes from Sequence (12 Bases)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -412,7 +412,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## Matching Palindromic Sequences
+## Palindromic DNA Sequence Completion
 
 <div id="palindrome_sequence_match-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-palindrome_sequence_match-questions.txt" download title="Download bbq-palindrome_sequence_match-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-palindrome_sequence_match-questions.txt)">
@@ -433,7 +433,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Palindromic Sequences
+      Palindromic DNA Sequence Completion
     </span>
     <span style='font-weight: normal;'>
       example problem

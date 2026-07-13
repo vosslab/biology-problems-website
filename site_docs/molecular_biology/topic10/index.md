@@ -2,7 +2,7 @@
 
 Landmark experiments that established core principles of molecular biology: Griffith's transformation experiment, Avery-MacLeod-McCarty's identification of DNA as the transforming principle, Hershey-Chase's confirmation that DNA carries genetic information, and Beadle-Tatum's one gene-one enzyme hypothesis linking genes to proteins.
 
-## Nutrients for Bacterial Growth in Metabolic Pathways with Enzyme Mutations
+## Bacterial Nutrient Requirements in Mutant Metabolic Pathways (5 Metabolites)
 
 <div id="beadle_tatum-metabolic_pathway-5_metabolites-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt" download title="Download bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt)">
@@ -23,7 +23,7 @@ Landmark experiments that established core principles of molecular biology: Grif
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Nutrients for Bacterial Growth in Metabolic Pathways with Enzyme Mutations
+      Bacterial Nutrient Requirements in Mutant Metabolic Pathways (5 Metabolites)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -34,7 +34,7 @@ Landmark experiments that established core principles of molecular biology: Grif
 </details>
 
 
-## Determining Metabolic Pathway Precursor Order from Mutant Growth Data
+## Metabolic Pathway Precursor Order from Mutant Growth Data (4 Metabolites)
 
 <div id="mutant_screen-fib-4_metabolites-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-mutant_screen-fib-4_metabolites-questions.txt" download title="Download bbq-mutant_screen-fib-4_metabolites-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-mutant_screen-fib-4_metabolites-questions.txt)">
@@ -55,7 +55,7 @@ Landmark experiments that established core principles of molecular biology: Grif
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Metabolic Pathway Precursor Order from Mutant Growth Data
+      Metabolic Pathway Precursor Order from Mutant Growth Data (4 Metabolites)
     </span>
     <span style='font-weight: normal;'>
       example problem

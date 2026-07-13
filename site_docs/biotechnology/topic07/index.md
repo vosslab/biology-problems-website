@@ -2,7 +2,7 @@
 
 Students discuss scientific misconduct, GMO ethics, bioweapons, de-extinction, CRISPR babies, embryonic stem cells, biohackers, cloning ethics, and aid in dying.
 
-## Match Characters in Theranos Story
+## Matching People in the Theranos Story to Roles
 
 <div id="MATCH-theranos_people-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-theranos_people-questions.txt" download title="Download bbq-MATCH-theranos_people-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-theranos_people-questions.txt)">
@@ -26,7 +26,7 @@ Students discuss scientific misconduct, GMO ethics, bioweapons, de-extinction, C
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Match Characters in Theranos Story
+      Matching People in the Theranos Story to Roles
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -37,7 +37,7 @@ Students discuss scientific misconduct, GMO ethics, bioweapons, de-extinction, C
 </details>
 
 
-## Characters in Theranos Story
+## People in the Theranos Story from Descriptions
 
 <div id="WOMC-theranos_people-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-theranos_people-questions.txt" download title="Download bbq-WOMC-theranos_people-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-theranos_people-questions.txt)">
@@ -61,7 +61,7 @@ Students discuss scientific misconduct, GMO ethics, bioweapons, de-extinction, C
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Characters in Theranos Story
+      People in the Theranos Story from Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem

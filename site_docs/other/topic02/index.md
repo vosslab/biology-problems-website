@@ -2,7 +2,7 @@
 
 Students analyze physical methods applied to biological molecules, including FRET energy transfer, fluorescence spectroscopy, binding curves, diffusion, membrane potentials, and single-molecule techniques.
 
-## FRET Color Combinations
+## FRET Donor-Acceptor Pairs from Spectral Overlap
 
 <div id="fret_overlap_colors-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-fret_overlap_colors-questions.txt" download title="Download bbq-fret_overlap_colors-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-fret_overlap_colors-questions.txt)">
@@ -23,7 +23,7 @@ Students analyze physical methods applied to biological molecules, including FRE
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      FRET Color Combinations
+      FRET Donor-Acceptor Pairs from Spectral Overlap
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -34,7 +34,7 @@ Students analyze physical methods applied to biological molecules, including FRE
 </details>
 
 
-## FRET Color Combinations
+## FRET Color Assignments from Donor-Acceptor Permutations
 
 <div id="fret_permute_colors-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-fret_permute_colors-questions.txt" download title="Download bbq-fret_permute_colors-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-fret_permute_colors-questions.txt)">
@@ -55,7 +55,7 @@ Students analyze physical methods applied to biological molecules, including FRE
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      FRET Color Combinations
+      FRET Color Assignments from Donor-Acceptor Permutations
     </span>
     <span style='font-weight: normal;'>
       example problem

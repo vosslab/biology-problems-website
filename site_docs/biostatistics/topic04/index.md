@@ -34,7 +34,7 @@ Students apply the normal distribution to calculate probabilities, use z-tables,
 </details>
 
 
-## Determining Hardy-Weinberg Allele Frequencies from Animal Population Data
+## Hardy-Weinberg Allele and Genotype Frequencies from Population Data (Numeric)
 
 <div id="hardy_weinberg_numeric-NUM-5_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-hardy_weinberg_numeric-NUM-5_choices-questions.txt" download title="Download bbq-hardy_weinberg_numeric-NUM-5_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-hardy_weinberg_numeric-NUM-5_choices-questions.txt)">
@@ -55,7 +55,7 @@ Students apply the normal distribution to calculate probabilities, use z-tables,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Hardy-Weinberg Allele Frequencies from Animal Population Data
+      Hardy-Weinberg Allele and Genotype Frequencies from Population Data (Numeric)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -66,7 +66,7 @@ Students apply the normal distribution to calculate probabilities, use z-tables,
 </details>
 
 
-## Determining Parent Genotypes in X-Linked Recessive Crosses
+## Parent Genotypes in X-Linked Recessive Crosses
 
 <div id="poisson_flies-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-poisson_flies-questions.txt" download title="Download bbq-poisson_flies-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-poisson_flies-questions.txt)">
@@ -90,7 +90,7 @@ Students apply the normal distribution to calculate probabilities, use z-tables,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Parent Genotypes in X-Linked Recessive Crosses
+      Parent Genotypes in X-Linked Recessive Crosses
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -101,7 +101,7 @@ Students apply the normal distribution to calculate probabilities, use z-tables,
 </details>
 
 
-## Determining Probability of Offspring Gender Distribution Using Binomial Model
+## Offspring Sex Distribution Using the Binomial Model
 
 <div id="probabiliy_of_progeny-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-probabiliy_of_progeny-questions.txt" download title="Download bbq-probabiliy_of_progeny-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-probabiliy_of_progeny-questions.txt)">
@@ -122,7 +122,7 @@ Students apply the normal distribution to calculate probabilities, use z-tables,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Probability of Offspring Gender Distribution Using Binomial Model
+      Offspring Sex Distribution Using the Binomial Model
     </span>
     <span style='font-weight: normal;'>
       example problem

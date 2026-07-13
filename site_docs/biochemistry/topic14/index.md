@@ -39,7 +39,7 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 </details>
 
 
-## MATCHING Sensory Signal Transduction Components
+## Matching Sensory Signal Transduction Components to Functions
 
 <div id="MATCH-senses_signal_transduction_matching_set-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-senses_signal_transduction_matching_set-questions.txt" download title="Download bbq-MATCH-senses_signal_transduction_matching_set-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-senses_signal_transduction_matching_set-questions.txt)">
@@ -63,7 +63,7 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      MATCHING Sensory Signal Transduction Components
+      Matching Sensory Signal Transduction Components to Functions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -109,7 +109,7 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 </details>
 
 
-## Determining True/False Statements About Chemosensation (Smell and Taste)
+## True/False Statements About Chemosensation (Smell and Taste)
 
 <div id="TFMS-senses_chemosensation_smell_taste-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-senses_chemosensation_smell_taste-questions.txt" download title="Download bbq-TFMS-senses_chemosensation_smell_taste-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-senses_chemosensation_smell_taste-questions.txt)">
@@ -133,7 +133,7 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining True/False Statements About Chemosensation (Smell and Taste)
+      True/False Statements About Chemosensation (Smell and Taste)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -144,7 +144,7 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 </details>
 
 
-## Determining True/False Statements About Sensory Coding Principles (Smell vs. Taste)
+## True/False Statements About Sensory Coding (Smell vs. Taste)
 
 <div id="TFMS-senses_smell_vs_taste-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-senses_smell_vs_taste-questions.txt" download title="Download bbq-TFMS-senses_smell_vs_taste-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-senses_smell_vs_taste-questions.txt)">
@@ -168,7 +168,7 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining True/False Statements About Sensory Coding Principles (Smell vs. Taste)
+      True/False Statements About Sensory Coding (Smell vs. Taste)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -179,7 +179,7 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 </details>
 
 
-## Determining True/False Statements About Vision and Hearing Transduction
+## True/False Statements About Vision and Hearing Transduction
 
 <div id="TFMS-senses_vision_hearing-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-senses_vision_hearing-questions.txt" download title="Download bbq-TFMS-senses_vision_hearing-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-senses_vision_hearing-questions.txt)">
@@ -203,7 +203,7 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining True/False Statements About Vision and Hearing Transduction
+      True/False Statements About Vision and Hearing Transduction
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -214,7 +214,7 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 </details>
 
 
-## Matching Sensory Modalities to Receptor Types
+## Receptor Cell Types from Sensory Modalities
 
 <div id="WOMC-senses_receptor_types_by_modality-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-senses_receptor_types_by_modality-questions.txt" download title="Download bbq-WOMC-senses_receptor_types_by_modality-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-senses_receptor_types_by_modality-questions.txt)">
@@ -238,7 +238,7 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Sensory Modalities to Receptor Types
+      Receptor Cell Types from Sensory Modalities
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -249,7 +249,7 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 </details>
 
 
-## Components in Sensory Signal Transduction
+## Sensory Signal Transduction Components from Functional Descriptions
 
 <div id="WOMC-senses_signal_transduction_matching_set-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-senses_signal_transduction_matching_set-questions.txt" download title="Download bbq-WOMC-senses_signal_transduction_matching_set-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-senses_signal_transduction_matching_set-questions.txt)">
@@ -273,7 +273,7 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Components in Sensory Signal Transduction
+      Sensory Signal Transduction Components from Functional Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem

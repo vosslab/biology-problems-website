@@ -4,7 +4,7 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 
 **LibreTexts reference:** [Unit 2, Chapter 3: Enzyme Inhibition](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/02%3A_Unit_2_-_Enzymes/2.03%3A_Enzyme_Inhibition) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/02%3A_Unit_2_-_Enzymes/2.03%3A_Enzyme_Inhibition" target="_blank" rel="noopener" aria-label="LibreTexts Unit 2, Chapter 3" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
-## Matching Enzyme Catalytic Mechanisms with Definitions
+## Matching Enzyme Catalytic Mechanisms to Definitions
 
 <div id="MATCH-catalytic_strategies-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-catalytic_strategies-questions.txt" download title="Download bbq-MATCH-catalytic_strategies-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-catalytic_strategies-questions.txt)">
@@ -28,7 +28,7 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Enzyme Catalytic Mechanisms with Definitions
+      Matching Enzyme Catalytic Mechanisms to Definitions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -39,7 +39,7 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 </details>
 
 
-## Determining True/False Statements About Enzyme Catalytic Strategies
+## True/False Statements About Enzyme Catalytic Strategies
 
 <div id="TFMS-catalytic_strategies-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-catalytic_strategies-questions.txt" download title="Download bbq-TFMS-catalytic_strategies-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-catalytic_strategies-questions.txt)">
@@ -63,7 +63,7 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining True/False Statements About Enzyme Catalytic Strategies
+      True/False Statements About Enzyme Catalytic Strategies
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -74,7 +74,7 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 </details>
 
 
-## Determining True/False Statements About Chymotrypsin Enzyme Function
+## True/False Statements About Chymotrypsin Function
 
 <div id="TFMS-chymotrypsin-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-chymotrypsin-questions.txt" download title="Download bbq-TFMS-chymotrypsin-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-chymotrypsin-questions.txt)">
@@ -98,7 +98,7 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining True/False Statements About Chymotrypsin Enzyme Function
+      True/False Statements About Chymotrypsin Function
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -109,7 +109,7 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 </details>
 
 
-## Determining True/False Statements About Enzyme Inhibitors
+## True/False Statements About Enzyme Inhibitors
 
 <div id="TFMS-enzyme_inhibitors-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-enzyme_inhibitors-questions.txt" download title="Download bbq-TFMS-enzyme_inhibitors-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-enzyme_inhibitors-questions.txt)">
@@ -133,7 +133,7 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining True/False Statements About Enzyme Inhibitors
+      True/False Statements About Enzyme Inhibitors
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -214,7 +214,7 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 </details>
 
 
-## Determining Enzyme Inhibition Type from Metabolic Pathway Descriptions
+## Enzyme Inhibition Type from Metabolic Pathway Descriptions (BCHM 355)
 
 <div id="metabolic_pathway_inhibitor-BCHM355-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-metabolic_pathway_inhibitor-BCHM355-questions.txt" download title="Download bbq-metabolic_pathway_inhibitor-BCHM355-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-metabolic_pathway_inhibitor-BCHM355-questions.txt)">
@@ -235,7 +235,7 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Enzyme Inhibition Type from Metabolic Pathway Descriptions
+      Enzyme Inhibition Type from Metabolic Pathway Descriptions (BCHM 355)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -246,7 +246,7 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 </details>
 
 
-## Determining Inhibition Type from Enzyme Activity Data
+## Enzyme Inhibition Type from Enzyme Activity Data
 
 <div id="michaelis_menten_table-inhibition-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-michaelis_menten_table-inhibition-questions.txt" download title="Download bbq-michaelis_menten_table-inhibition-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-michaelis_menten_table-inhibition-questions.txt)">
@@ -267,7 +267,7 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Inhibition Type from Enzyme Activity Data
+      Enzyme Inhibition Type from Enzyme Activity Data
     </span>
     <span style='font-weight: normal;'>
       example problem

@@ -74,7 +74,7 @@ Students identify levels of protein structure, distinguish alpha helices from be
 </details>
 
 
-## Hydrogen Bonds in Alpha-Helix Structures (Matching)
+## Hydrogen Bonds in Alpha-Helix Structures (Multiple Answer)
 
 <div id="alpha_helix_h-bonds-MA-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-alpha_helix_h-bonds-MA-questions.txt" download title="Download bbq-alpha_helix_h-bonds-MA-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-alpha_helix_h-bonds-MA-questions.txt)">
@@ -95,7 +95,7 @@ Students identify levels of protein structure, distinguish alpha helices from be
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Hydrogen Bonds in Alpha-Helix Structures (Matching)
+      Hydrogen Bonds in Alpha-Helix Structures (Multiple Answer)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -106,7 +106,7 @@ Students identify levels of protein structure, distinguish alpha helices from be
 </details>
 
 
-## Hydrogen Bonding in Alpha-Helix Structures
+## Hydrogen Bonds in Alpha-Helix Structures (Multiple Choice)
 
 <div id="alpha_helix_h-bonds-MC-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-alpha_helix_h-bonds-MC-questions.txt" download title="Download bbq-alpha_helix_h-bonds-MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-alpha_helix_h-bonds-MC-questions.txt)">
@@ -127,7 +127,7 @@ Students identify levels of protein structure, distinguish alpha helices from be
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Hydrogen Bonding in Alpha-Helix Structures
+      Hydrogen Bonds in Alpha-Helix Structures (Multiple Choice)
     </span>
     <span style='font-weight: normal;'>
       example problem

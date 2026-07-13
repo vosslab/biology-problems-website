@@ -2,7 +2,7 @@
 
 Students perform chemical indicator tests (Benedict's, Biuret, iodine, Sudan IV) to identify sugars, proteins, starch, and lipids in unknown samples.
 
-## Determining Blood Type Reactions in Agglutination Tests
+## Blood Types from Agglutination Test Results
 
 <div id="blood_type_agglutination_test-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-blood_type_agglutination_test-questions.txt" download title="Download bbq-blood_type_agglutination_test-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-blood_type_agglutination_test-questions.txt)">
@@ -23,7 +23,7 @@ Students perform chemical indicator tests (Benedict's, Biuret, iodine, Sudan IV)
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Blood Type Reactions in Agglutination Tests
+      Blood Types from Agglutination Test Results
     </span>
     <span style='font-weight: normal;'>
       example problem
