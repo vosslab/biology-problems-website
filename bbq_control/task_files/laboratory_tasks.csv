@@ -28,7 +28,7 @@ laboratory,pcr_electrophoresis,{bp_root}/biochemistry-problems/electrophoresis/k
 laboratory,pcr_electrophoresis,{bp_root}/molecular_biology-problems/RT-qPCR.py,,,
 laboratory,pcr_electrophoresis,{bp_root}/molecular_biology-problems/dna_gel-closest_farthest_MC.py,,,
 laboratory,pcr_electrophoresis,{bp_root}/molecular_biology-problems/inverse_pcr_design.py,,,
-laboratory,pcr_electrophoresis,{bp_root}/molecular_biology-problems/linear_digest.py,,,
+laboratory,pcr_electrophoresis,{bp_root}/molecular_biology-problems/restriction_enzymes/linear_digest.py,,,
 laboratory,pcr_electrophoresis,{bp_root}/molecular_biology-problems/nested_pcr_design.py,,,
 laboratory,pcr_electrophoresis,{bp_root}/molecular_biology-problems/pcr_design.py,,,
 laboratory,pcr_electrophoresis,{bp_root}/dna_profiling-problems/hla_genotype.py,,,
