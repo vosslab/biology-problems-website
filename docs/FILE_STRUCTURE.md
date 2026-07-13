@@ -21,6 +21,8 @@
 - [tools/](../tools/): Helper scripts for content generation tasks.
 - [devel/](../devel/): Developer utilities (versioning, changelog tooling).
 - [tests/](../tests/): Pytest suite, lint gates, and ASCII compliance checks.
+- [package.json](../package.json): Playwright commands, including the documentation
+  screenshot capture.
 
 ## Key subtrees
 
@@ -43,6 +45,10 @@
 - [site_docs/tutorials/](../site_docs/tutorials/): BBQ and LMS import tutorials.
 - [bbq_control/task_files/](../bbq_control/task_files/): Per-subject task CSVs (for
   example `biochem_tasks1.csv`, `biotech_tasks.csv`, `other_tasks.csv`).
+- [docs/screenshots/](screenshots/): Managed README screenshots captured from the
+  built website.
+- [tests/playwright/capture_docs_screenshots.mjs](../tests/playwright/capture_docs_screenshots.mjs):
+  Permanent Playwright capture workflow for documentation images.
 
 ## Generated artifacts
 

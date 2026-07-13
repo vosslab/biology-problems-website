@@ -64,6 +64,8 @@ question sets from per-subject task CSVs.
   and operational notes in [bbq_control/USAGE.md](../bbq_control/USAGE.md).
 - [tools/](../tools/): Small helper scripts, including
   [tools/dump_topics_csv.py](../tools/dump_topics_csv.py).
+- [tests/playwright/capture_docs_screenshots.mjs](../tests/playwright/capture_docs_screenshots.mjs):
+  Captures stable website views for the managed README screenshot block.
 
 ## Data flow
 
@@ -98,6 +100,10 @@ question sets from per-subject task CSVs.
   configured scripts, and writes question outputs into the matching `site_docs/`
   topic folders. CSV schema is documented in
   [docs/BBQ_TASK_CSV_FORMAT.md](BBQ_TASK_CSV_FORMAT.md).
+- Documentation screenshot flow: run
+  `./tests/playwright/capture_docs_screenshots.mjs`. The script starts its own
+  MkDocs server, captures the configured routes at a 1440x900 viewport, writes
+  the PNGs under [docs/screenshots/](screenshots/), and stops the server.
 
 ## Extension points
 

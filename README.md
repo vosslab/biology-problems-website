@@ -1,60 +1,54 @@
 # Biology Problems OER
 
-Free and open collection of biochemistry, genetics, and related biology problem sets for students and educators, published as an MkDocs site with Python generators for question banks and printable pages.
+Free, open biology problem sets that help students practice and give educators ready-to-use questions for courses, homework, quizzes, and learning-management systems.
 
-The live site is at [biologyproblems.org](https://biologyproblems.org).
+**Explore the live collection: [biologyproblems.org](https://biologyproblems.org/)**
+
+Browse chapter-by-chapter collections in biochemistry, genetics, molecular biology,
+laboratory methods, biostatistics, biotechnology, and cell biology. Try interactive
+self-tests, return for a daily puzzle, or download question banks for Blackboard,
+Canvas, ADAPT, and other teaching workflows.
+
+## See what is inside
+
+<!-- screenshots:begin (managed by screenshot-docs) -->
+![Biology Problems homepage showing daily puzzles and subject collections](docs/screenshots/website_home.png)
+![Genetics problem sets with HLA variants and LMS download options](docs/screenshots/hla_problem_sets.png)
+![Daily biology puzzle collection with four playable challenges](docs/screenshots/daily_puzzles.png)
+<!-- screenshots:end -->
+
+## Why use it?
+
+- Practice with interactive example questions and browser-local progress tracking.
+- Explore daily puzzles for peptide chemistry, genetics, metabolism, and macromolecules.
+- Download editable or import-ready question sets in Blackboard TXT, Blackboard QTI,
+  Canvas/ADAPT QTI, and human-readable formats.
+- Find distinct variants for difficulty, question format, dataset size, and course scope.
+- Reuse openly licensed material in teaching and study workflows.
+
+## Start exploring
+
+Visit [biologyproblems.org](https://biologyproblems.org/) and choose a subject from the
+navigation. Good starting points include the [daily puzzles](https://biologyproblems.org/daily_puzzles/),
+[biochemistry](https://biologyproblems.org/biochemistry/), and
+[genetics](https://biologyproblems.org/genetics/) collections.
+
+To preview the site locally:
+
+```bash
+python3.12 -m pip install -r pip_requirements.txt
+mkdocs serve
+```
+
+Open `http://127.0.0.1:8000/`. See [docs/INSTALL.md](docs/INSTALL.md) for setup and
+[docs/USAGE.md](docs/USAGE.md) for generation and testing workflows.
 
 ## Documentation
 
-- [docs/CHANGELOG.md](docs/CHANGELOG.md): Chronological record of repo changes.
-- [docs/INSTALL.md](docs/INSTALL.md): Setup steps and verification.
-- [docs/USAGE.md](docs/USAGE.md): MkDocs usage and build flow.
-- [docs/REPO_STYLE.md](docs/REPO_STYLE.md): Repo conventions for files, naming, and docs.
-- [docs/MARKDOWN_STYLE.md](docs/MARKDOWN_STYLE.md): Markdown rules for this repo.
-- [docs/PYTHON_STYLE.md](docs/PYTHON_STYLE.md): Python coding rules for scripts in this repo.
-- [docs/CODE_ARCHITECTURE.md](docs/CODE_ARCHITECTURE.md): High-level components and flows.
-- [docs/FILE_STRUCTURE.md](docs/FILE_STRUCTURE.md): Directory map and file placement notes.
-- [docs/AUTHORS.md](docs/AUTHORS.md): Maintainers and contributors.
-- [docs/TOPICS_METADATA_FORMAT.md](docs/TOPICS_METADATA_FORMAT.md): Schema for `topics_metadata.yml` and the topic alias contract.
-- [docs/BBQ_TASK_CSV_FORMAT.md](docs/BBQ_TASK_CSV_FORMAT.md): Column reference for BBQ task CSVs.
-
-## Topic aliases
-
-Authors reference topics by short, stable aliases (for example
-`biochemistry:amino_acids`) in BBQ task CSVs and in
-`generate_pages.py -t/--topic`. The canonical `topicNN` ids still drive
-folder paths and URLs. See
-[docs/TOPICS_METADATA_FORMAT.md](docs/TOPICS_METADATA_FORMAT.md) and
-[docs/BBQ_TASK_CSV_FORMAT.md](docs/BBQ_TASK_CSV_FORMAT.md).
-
-## Quick start
-
-1. Install dependencies:
-   ```bash
-   python3.12 -m pip install -r pip_requirements.txt
-   ```
-2. Serve the site locally:
-   ```bash
-   mkdocs serve
-   ```
-3. Open your browser to `http://127.0.0.1:8000/`.
-
-Site content lives under [site_docs/](site_docs/) and is configured by [mkdocs.yml](mkdocs.yml).
-
-## Repository structure
-
-Site content lives under `site_docs/`, one folder per subject and topic:
-
-```text
-site_docs/
-+- index.md                    # Main landing page
-+- biochemistry/               # Biochemistry topics
-|  `- topic01/                 # Topic 1
-|     `- index.md              # Topic 1 content
-`- genetics/                   # Genetics topics
-   `- topic01/                 # Topic 1
-      `- index.md              # Topic 1 content
-mkdocs.yml                     # Configuration for MkDocs
-```
-
-See [docs/FILE_STRUCTURE.md](docs/FILE_STRUCTURE.md) for the full directory map.
+- [docs/INSTALL.md](docs/INSTALL.md): Local setup and verification.
+- [docs/USAGE.md](docs/USAGE.md): Site, generator, and screenshot commands.
+- [docs/CODE_ARCHITECTURE.md](docs/CODE_ARCHITECTURE.md): Components and data flow.
+- [docs/FILE_STRUCTURE.md](docs/FILE_STRUCTURE.md): Repository and generated-file map.
+- [docs/RELATED_PROJECTS.md](docs/RELATED_PROJECTS.md): Connected generators and tooling.
+- [docs/NEWS.md](docs/NEWS.md): Curated project highlights.
+- [docs/CHANGELOG.md](docs/CHANGELOG.md): Detailed chronological changes.
