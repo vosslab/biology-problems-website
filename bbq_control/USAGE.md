@@ -37,7 +37,7 @@ tasks; `all_tasks.py` reports the ten slowest tasks across the full batch.
 Use the root runner directly when you want one CSV:
 
 ```bash
-source source_me.sh && /opt/homebrew/opt/python@3.12/bin/python3.12 run_bbq_tasks.py \
+source source_me.sh && python3 run_bbq_tasks.py \
   --flat --max-questions 199 \
   --settings bbq_control/bbq_settings.yml \
   --tasks bbq_control/task_files/biochem_tasks1.csv
@@ -65,6 +65,19 @@ source source_me.sh && /opt/homebrew/opt/python@3.12/bin/python3.12 run_bbq_task
 - flags holds any extra CLI flags for the script.
 - input lets you pass a required input file path (added as -y).
 - For YMATCH, YMCS, and YMMS, you can set input to just the YAML basename.
+
+## Sort a task CSV
+
+Use the metadata-driven sorter to regroup any BBQ task CSV by its subject and
+topic order in `topics_metadata.yml`. It preserves every nonblank row and
+writes `,,,,,` separator rows between populated topic groups:
+
+```bash
+source source_me.sh && ./tools/csv_topic_sorter.py -i bbq_control/task_files/molecular_bio_tasks.csv
+```
+
+[`tools/csv_topic_sorter.py`](../tools/csv_topic_sorter.py) is standalone; it
+does not import the task runner or site package.
 
 ## Example row
 ```text

@@ -1,5 +1,4 @@
 subject,topic,script,flags,input,notes
-
 genetics,gene_mapping,{bp_root}/inheritance-problems/gene_mapping/tetrad_ordered-centromere_distance.py,,,
 genetics,gene_mapping,{bp_root}/inheritance-problems/gene_mapping/tetrad_unordered_three_gene-distances_plus.py,,,
 genetics,gene_mapping,{bp_root}/inheritance-problems/gene_mapping/tetrad_unordered_three_gene-find_one_distance.py,,,
@@ -12,7 +11,7 @@ genetics,gene_mapping,{bp_root}/inheritance-problems/gene_mapping/three-point_te
 genetics,gene_mapping,{bp_root}/inheritance-problems/gene_mapping/two-point_test_cross-cis-trans.py,,,
 genetics,gene_mapping,{bp_root}/inheritance-problems/gene_mapping/two-point_test_cross-distance.py,,,
 genetics,gene_mapping,{bp_root}/inheritance-problems/gene_mapping/two-point_test_cross-which_genotypes.py,,,
-
+,,,,,
 genetics,chromosomal_disorders,{bp_root}/inheritance-problems/cytogenetic_notation/cytogenetic_notation-band_order.py,,,
 genetics,chromosomal_disorders,{bp_root}/inheritance-problems/cytogenetic_notation/cytogenetic_notation-aneuploidy.py,,,
 genetics,chromosomal_disorders,{bp_root}/inheritance-problems/cytogenetic_notation/cytogenetic_notation-disorders.py,,,
@@ -27,9 +26,16 @@ genetics,chromosomal_disorders,{bp_root}/inheritance-problems/deletion_mutants/d
 genetics,chromosomal_disorders,{bp_root}/inheritance-problems/translocation/letter_translocation_problem_color.py,,,
 genetics,chromosomal_disorders,{bp_root}/inheritance-problems/translocation/robertsonian.py,,,
 genetics,chromosomal_disorders,{bp_root}/inheritance-problems/translocation/translocation_meiosis_table.py,,,
-
+genetics,chromosomal_disorders,{bp_root}/inheritance-problems/polyploid/polyploid-gametes.py,,,
+genetics,chromosomal_disorders,{bp_root}/inheritance-problems/polyploid/polyploid-monoploid_v_haploid.py,,,
+genetics,chromosomal_disorders,YMATCH,,{bp_match}/inheritance/chromosome_alterations.yml,
+genetics,chromosomal_disorders,YMATCH,,{bp_match}/inheritance/chromosome_shapes.yml,
+,,,,,
 genetics,population_genetics,{bp_root}/inheritance-problems/hardy_weinberg/hardy_weinberg_mc_type.py,,,
 genetics,population_genetics,{bp_root}/inheritance-problems/hardy_weinberg/hardy_weinberg_numeric.py,,,
+genetics,population_genetics,YMATCH,,{bp_match}/inheritance/population_genetics_terms.yml,
+genetics,population_genetics,YMCS,,{bp_mcs}/inheritance/h-w_non-evolve_criteria.yml,
+,,,,,
 genetics,phylogenetics,{bp_root}/inheritance-problems/phylogenetic_trees/gene_tree_choice_plus.py,--level 1,,
 genetics,phylogenetics,{bp_root}/inheritance-problems/phylogenetic_trees/gene_tree_choice_plus.py,--level 2,,
 genetics,phylogenetics,{bp_root}/inheritance-problems/phylogenetic_trees/gene_tree_choice_plus.py,--level 3,,
@@ -41,9 +47,3 @@ genetics,phylogenetics,{bp_root}/inheritance-problems/phylogenetic_trees/gene_tr
 genetics,phylogenetics,{bp_root}/inheritance-problems/phylogenetic_trees/gene_tree_matches_plus.py,--same --easy,,
 genetics,phylogenetics,{bp_root}/inheritance-problems/phylogenetic_trees/gene_tree_matches_plus.py,--same --medium,,
 genetics,phylogenetics,{bp_root}/inheritance-problems/phylogenetic_trees/gene_tree_matches_plus.py,--same --rigorous,,
-genetics,chromosomal_disorders,{bp_root}/inheritance-problems/polyploid/polyploid-gametes.py,,,
-genetics,chromosomal_disorders,{bp_root}/inheritance-problems/polyploid/polyploid-monoploid_v_haploid.py,,,
-genetics,chromosomal_disorders,YMATCH,,{bp_match}/inheritance/chromosome_alterations.yml,
-genetics,chromosomal_disorders,YMATCH,,{bp_match}/inheritance/chromosome_shapes.yml,
-genetics,population_genetics,YMATCH,,{bp_match}/inheritance/population_genetics_terms.yml,
-genetics,population_genetics,YMCS,,{bp_mcs}/inheritance/h-w_non-evolve_criteria.yml,

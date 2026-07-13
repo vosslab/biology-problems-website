@@ -1,4 +1,4 @@
-#!/opt/homebrew/opt/python@3.12/bin/python3.12
+#!/usr/bin/env python3
 """Run every BBQ task CSV from the repository root."""
 
 # Standard Library
