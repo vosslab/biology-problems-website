@@ -1,5 +1,5 @@
-bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt: Nutrients for Bacterial
-  Growth in Metabolic Pathways with Enzyme Mutations
-bbq-mutant_screen-fib-4_metabolites-questions.txt: Determining Metabolic Pathway Precursor
-  Order from Mutant Growth Data
-last edit: Sun Jul 12 22:54:46 2026
+bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt: Bacterial Nutrient
+  Requirements in Mutant Metabolic Pathways (5 Metabolites)
+bbq-mutant_screen-fib-4_metabolites-questions.txt: Metabolic Pathway Precursor Order
+  from Mutant Growth Data (4 Metabolites)
+last edit: Sun Jul 12 23:11:26 2026

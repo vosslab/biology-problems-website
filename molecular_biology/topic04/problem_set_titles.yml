@@ -1,26 +1,28 @@
-bbq-TFMS-dna_structure-biol_301-questions.txt: Determining True/False Statements About
-  DNA Structure
-bbq-amplicon_copies-questions.txt: Calculating Amplicon Copies After a Given Number
-  of PCR Rounds
-bbq-dna_gel-closest_farthest_MC-questions.txt: DNA Fragment Size in Agarose Gel Electrophoresis
-bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt: Determining DNA Size from Gel
-  Electrophoresis
-bbq-inverse_pcr_design-len_15-questions.txt: Determining Inverse PCR Primer Selection
-bbq-linear_digest-length_12-sites_2-fragment-questions.txt: Determining Restriction
-  Fragment Sizes
-bbq-nested_pcr_design-len_24-questions.txt: Determining Nested PCR Primer Pairs
-bbq-overhang_sequence-mc-questions.txt: Overhang Sequences from Restriction Enzyme
-  Cleavage
-bbq-overhang_type-5_3_blunt-questions.txt: Determining Restriction Enzyme Cut Types
-bbq-palindrome_sequence_match-questions.txt: Matching Palindrome Sequence Halves
-bbq-pcr_design-36_bp-9_primer-questions.txt: Correct Primers for PCR Amplification
-bbq-who_father_html-EASY-3_males-questions.txt: Determining Paternity Using Molecular
-  Biology Techniques
-bbq-who_father_html-HARD-9_males-questions.txt: Determining Paternity Using DNA Analysis
-bbq-who_father_html-MEDIUM-5_males-questions.txt: Determining Paternity Using Restriction
-  Fragment Length Polymorphism (RFLP)
-bbq-who_killer_html-EASY-4_suspects-questions.txt: Suspects Using Restriction Fragment
-  Length Polymorphism (RFLP) and DNA Gel Analysis
-bbq-who_killer_html-HARD-9_suspects-questions.txt: Suspects Using DNA Analysis
-bbq-who_killer_html-MEDIUM-5_suspects-questions.txt: Matching Suspects Using DNA Evidence
-last edit: Sun Jul 12 22:46:18 2026
+bbq-TFMS-dna_structure-biol_301-questions.txt: True/False Statements About DNA Structure
+  (BIOL 301)
+bbq-amplicon_copies-questions.txt: Amplicon Copy Number After PCR Rounds
+bbq-dna_gel-closest_farthest_MC-questions.txt: DNA Fragment Migration in Agarose Gel
+  Electrophoresis (Closest/Farthest)
+bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt: DNA Fragment Size from Agarose
+  Gel Migration (Numeric)
+bbq-inverse_pcr_design-len_15-questions.txt: Inverse PCR Primer Selection (15 nt)
+bbq-linear_digest-length_12-sites_2-fragment-questions.txt: Restriction Fragment Sizes
+  (12 Length, 2 Sites)
+bbq-nested_pcr_design-len_24-questions.txt: Nested PCR Primer Pair Selection (24 nt)
+bbq-overhang_sequence-mc-questions.txt: Restriction Enzyme Overhang Sequences
+bbq-overhang_type-5_3_blunt-questions.txt: Restriction Enzyme Cut Types (5', 3', or
+  Blunt)
+bbq-palindrome_sequence_match-questions.txt: Palindromic DNA Sequence Completion
+bbq-pcr_design-36_bp-9_primer-questions.txt: PCR Primer Selection (36 bp Template,
+  9-nt Primers)
+bbq-who_father_html-EASY-3_males-questions.txt: RFLP Paternity Testing (EASY, 3 Males)
+bbq-who_father_html-HARD-9_males-questions.txt: RFLP Paternity Testing (HARD, 9 Males)
+bbq-who_father_html-MEDIUM-5_males-questions.txt: RFLP Paternity Testing (MEDIUM,
+  5 Males)
+bbq-who_killer_html-EASY-4_suspects-questions.txt: RFLP Forensic DNA Analysis (EASY,
+  4 Suspects)
+bbq-who_killer_html-HARD-9_suspects-questions.txt: RFLP Forensic DNA Analysis (HARD,
+  9 Suspects)
+bbq-who_killer_html-MEDIUM-5_suspects-questions.txt: RFLP Forensic DNA Analysis (MEDIUM,
+  5 Suspects)
+last edit: Sun Jul 12 23:11:26 2026
