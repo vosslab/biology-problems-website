@@ -43,7 +43,5 @@ genetics,phylogenetics,{bp_root}/inheritance-problems/phylogenetic_trees/gene_tr
 genetics,phylogenetics,{bp_root}/inheritance-problems/phylogenetic_trees/gene_tree_choice_plus.py,--level 5,,
 genetics,phylogenetics,{bp_root}/inheritance-problems/phylogenetic_trees/gene_tree_matches_plus.py,--different --easy,,
 genetics,phylogenetics,{bp_root}/inheritance-problems/phylogenetic_trees/gene_tree_matches_plus.py,--different --medium,,
-genetics,phylogenetics,{bp_root}/inheritance-problems/phylogenetic_trees/gene_tree_matches_plus.py,--different --rigorous,,
 genetics,phylogenetics,{bp_root}/inheritance-problems/phylogenetic_trees/gene_tree_matches_plus.py,--same --easy,,
 genetics,phylogenetics,{bp_root}/inheritance-problems/phylogenetic_trees/gene_tree_matches_plus.py,--same --medium,,
-genetics,phylogenetics,{bp_root}/inheritance-problems/phylogenetic_trees/gene_tree_matches_plus.py,--same --rigorous,,
