@@ -1,0 +1,213 @@
+## DESCRIPTION
+## Select the genetic disease treatment method that corresponds to the given description.
+## ENDDESCRIPTION
+## KEYWORDS('genetic disease treatment methods','descriptions','which one','multiple choice')
+## DBsubject('Biotechnology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-07-12')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserRadioButtons.pl',
+    'PGcourse.pl',
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 0;
+
+#==========================================================
+# QUESTION DATA
+#==========================================================
+
+# All questions data
+@questions_data = (
+  {
+    'item_name' => '<strong>treating cystic fibrosis using adenovirus to introduce a functioning <span style="color: #3b7600; font-weight:700;">protein</span> channel</strong>',
+    'plural_choice' => 'genetic disease <span style="color: #076dad; font-weight:700;">treatment</span> methods',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">gene&nbsp;therapy</span>',
+      '<span style="color: #b74300; font-weight:700;">genome&nbsp;editing</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">gene&nbsp;therapy</span>',
+  },
+  {
+    'item_name' => '<strong>engineering virus for injection into a tumor to promote apoptosis</strong>',
+    'plural_choice' => 'genetic disease <span style="color: #076dad; font-weight:700;">treatment</span> methods',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">gene&nbsp;therapy</span>',
+      '<span style="color: #b74300; font-weight:700;">genome&nbsp;editing</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">gene&nbsp;therapy</span>',
+  },
+  {
+    'item_name' => '<strong>introducing a new gene on a plasmid into a patient to replace a faulty &beta;-thalassemia <span style="color: #935d00; font-weight:700;">enzyme</span></strong>',
+    'plural_choice' => 'genetic disease <span style="color: #076dad; font-weight:700;">treatment</span> methods',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">gene&nbsp;therapy</span>',
+      '<span style="color: #b74300; font-weight:700;">genome&nbsp;editing</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">gene&nbsp;therapy</span>',
+  },
+  {
+    'item_name' => '<strong>culture and reprogram blood progenitor cells from bone marrow to kill HIV-infected cells</strong>',
+    'plural_choice' => 'genetic disease <span style="color: #076dad; font-weight:700;">treatment</span> methods',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">gene&nbsp;therapy</span>',
+      '<span style="color: #b74300; font-weight:700;">genome&nbsp;editing</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">gene&nbsp;therapy</span>',
+  },
+  {
+    'item_name' => '<strong>mRNA vaccines express the <span style="color: #007576; font-weight:700;">viral</span> spike <span style="color: #6c6c00; font-weight:700;">proteins</span> to train the immune system to recognize the virus</strong>',
+    'plural_choice' => 'genetic disease <span style="color: #076dad; font-weight:700;">treatment</span> methods',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">gene&nbsp;therapy</span>',
+      '<span style="color: #b74300; font-weight:700;">genome&nbsp;editing</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">gene&nbsp;therapy</span>',
+  },
+  {
+    'item_name' => '<strong>using CRISPR to change a single nucleotide in sickle-cell allele</strong>',
+    'plural_choice' => 'genetic disease <span style="color: #076dad; font-weight:700;">treatment</span> methods',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">gene&nbsp;therapy</span>',
+      '<span style="color: #b74300; font-weight:700;">genome&nbsp;editing</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">genome&nbsp;editing</span>',
+  },
+  {
+    'item_name' => '<strong>deleting the fragments of HIV DNA from the genome of an infected patient</strong>',
+    'plural_choice' => 'genetic disease <span style="color: #076dad; font-weight:700;">treatment</span> methods',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">gene&nbsp;therapy</span>',
+      '<span style="color: #b74300; font-weight:700;">genome&nbsp;editing</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">genome&nbsp;editing</span>',
+  },
+  {
+    'item_name' => '<strong>correcting a mutation within the host genome that causes liver disease</strong>',
+    'plural_choice' => 'genetic disease <span style="color: #076dad; font-weight:700;">treatment</span> methods',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">gene&nbsp;therapy</span>',
+      '<span style="color: #b74300; font-weight:700;">genome&nbsp;editing</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">genome&nbsp;editing</span>',
+  },
+  {
+    'item_name' => '<strong>using zinc finger nuclease (ZFN) mediated <span style="color: #076dad; font-weight:700;">treatment</span> to replace a nucleotide in the diseased &beta;-thalassemia allele</strong>',
+    'plural_choice' => 'genetic disease <span style="color: #076dad; font-weight:700;">treatment</span> methods',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">gene&nbsp;therapy</span>',
+      '<span style="color: #b74300; font-weight:700;">genome&nbsp;editing</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">genome&nbsp;editing</span>',
+  },
+  {
+    'item_name' => '<strong>using transcriptor activator-like effector nuclease (TALENs) to correct inherited retinal dystrophy</strong>',
+    'plural_choice' => 'genetic disease <span style="color: #076dad; font-weight:700;">treatment</span> methods',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">gene&nbsp;therapy</span>',
+      '<span style="color: #b74300; font-weight:700;">genome&nbsp;editing</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">genome&nbsp;editing</span>',
+  },
+  {
+    'item_name' => '<strong>CRISPR is used to insert a functional micro-dystrophin gene correcting Duchenne muscular dystrophy (DMD)</strong>',
+    'plural_choice' => 'genetic disease <span style="color: #076dad; font-weight:700;">treatment</span> methods',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">gene&nbsp;therapy</span>',
+      '<span style="color: #b74300; font-weight:700;">genome&nbsp;editing</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">genome&nbsp;editing</span>',
+  },
+  {
+    'item_name' => '<strong>correct defective DNA elements within a gene</strong>',
+    'plural_choice' => 'genetic disease <span style="color: #076dad; font-weight:700;">treatment</span> methods',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">gene&nbsp;therapy</span>',
+      '<span style="color: #b74300; font-weight:700;">genome&nbsp;editing</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">genome&nbsp;editing</span>',
+  },
+);
+
+#==========================================================
+# SELECT RANDOM QUESTION
+#==========================================================
+
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+
+$question_idx = $local_random->random(0, scalar(@questions_data) - 1, 1);
+$q = $questions_data[$question_idx];
+
+$item_name = $q->{'item_name'};
+$plural_choice = $q->{'plural_choice'};
+$singular_item = $q->{'singular_item'};
+@choices = @{ $q->{'choices'} };
+$correct = $q->{'correct'};
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# BUILD RADIO BUTTONS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => 'ABC',
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+Which one of the following [$plural_choice]* corresponds to the [$singular_item]* [$item_name]*?
+
+[_]{$rb}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The correct answer is: [$correct]*
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+
