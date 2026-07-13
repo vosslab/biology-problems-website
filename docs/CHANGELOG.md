@@ -15,6 +15,9 @@
   exact duplicate row, corrected several existing chapter placements, and
   added cross-subject placements for DNA, PCR, statistics, genetics,
   laboratory, biotechnology, and cell-biology material.
+- Restored genetics task coverage for the complementary prime, HLA marker and
+  color, English-palindrome, linear-digest, and restriction-overhang variants
+  that had been omitted during the task-file split.
 - Added `bbq_control/all_tasks.py` as the root-aware coordinator for every
   `bbq_control/task_files/*.csv` file. It discovers files deterministically,
   passes absolute task and settings paths to the root runner, and has a
