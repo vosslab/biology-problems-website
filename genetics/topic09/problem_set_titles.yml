@@ -1,6 +1,6 @@
 bbq-MATCH-chromosome_alterations-questions.txt: Matching Chromosome Structure Alterations
-  to Their Corresponding Descriptions
-bbq-MATCH-chromosome_shapes-questions.txt: Chromosome Shapes and Descriptions
+  to Descriptions
+bbq-MATCH-chromosome_shapes-questions.txt: Matching Chromosome Shapes to Descriptions
 bbq-WOMC-chromosome_alterations-questions.txt: Types of Chromosomal Alterations
 bbq-WOMC-chromosome_shapes-questions.txt: Chromosome Shape Categories Based on Descriptions
 bbq-cytogenetic_notation-aneuploidy-5_choices-questions.txt: Chromosomal Abnormalities
@@ -9,17 +9,20 @@ bbq-cytogenetic_notation-band_order-5_choices-questions.txt: Chromosome Band Pro
 bbq-cytogenetic_notation-disorders-5_choices-questions.txt: Cytogenetic Notations
   in Genetic Disorders
 bbq-cytogenetic_notation-rearrangements-questions.txt: Cytogenetic Notation for Rearrangements
-bbq-cytogenetic_notation-sub-band_notation-questions.txt: Cytogenetic Notation Karyotypes
-bbq-deletion_mutant_random-04_genes-MC-questions.txt: Determining Gene Order Using
-  Deletion Mutants
-bbq-deletion_mutant_random-05_genes-MC-questions.txt: Gene Order Determination
-bbq-deletion_mutant_random-06_genes-MC-questions.txt: Determining Gene Order Using
-  Deletion Mutants
-bbq-deletion_mutant_words-04_genes-MC-questions.txt: Gene Order Using Deletion Mutant
-  Data
-bbq-deletion_mutant_words-05_genes-MC-questions.txt: Gene Order Determination
-bbq-deletion_mutant_words-06_genes-MC-questions.txt: Determining Gene Order Using
-  Deletion Mutants
+bbq-cytogenetic_notation-sub-band_notation-questions.txt: Chromosome Sub-Band Positions
+  from Cytogenetic Notation
+bbq-deletion_mutant_random-04_genes-MC-questions.txt: Gene Order from Deletion Mutants
+  (4 Genes, Random Labels)
+bbq-deletion_mutant_random-05_genes-MC-questions.txt: Gene Order from Deletion Mutants
+  (5 Genes, Random Labels)
+bbq-deletion_mutant_random-06_genes-MC-questions.txt: Gene Order from Deletion Mutants
+  (6 Genes, Random Labels)
+bbq-deletion_mutant_words-04_genes-MC-questions.txt: Gene Order from Deletion Mutants
+  (4 Genes, Word Labels)
+bbq-deletion_mutant_words-05_genes-MC-questions.txt: Gene Order from Deletion Mutants
+  (5 Genes, Word Labels)
+bbq-deletion_mutant_words-06_genes-MC-questions.txt: Gene Order from Deletion Mutants
+  (6 Genes, Word Labels)
 bbq-letter_translocation_problem_color-questions.txt: Chromosomal Translocation Outcomes
   (Color)
 bbq-polyploid-gametes-questions.txt: Gamete Chromosome Numbers in Polyploids
@@ -28,4 +31,4 @@ bbq-polyploid-monoploid_v_haploid-questions.txt: Monoploid and Haploid Numbers f
 bbq-robertsonian-questions.txt: Gametes from Robertsonian Translocation
 bbq-translocation_meiosis_table-questions.txt: Balanced Translocation Segregation
   Outcomes
-last edit: Sun Jul 12 22:33:34 2026
+last edit: Sun Jul 12 23:11:26 2026

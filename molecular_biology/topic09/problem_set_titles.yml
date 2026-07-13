@@ -1,9 +1,9 @@
-bbq-MATCH-central_dogma_terms-questions.txt: Matching Central Dogma Stages with Related
+bbq-MATCH-central_dogma_terms-questions.txt: Matching Central Dogma Stages to Related
   Terms
-bbq-TFMS-g-u_wobble-questions.txt: Determining True/False Statements About G-U Wobble
-  Base Pairs
-bbq-TFMS-translation_accuracy-questions.txt: Factors Affecting Translation Accuracy
+bbq-TFMS-g-u_wobble-questions.txt: True/False Statements About G-U Wobble Base Pairs
+bbq-TFMS-translation_accuracy-questions.txt: True/False Statements About Translation
+  Accuracy
 bbq-WOMC-central_dogma_terms-questions.txt: Central Dogma Stages from Terminology
-bbq-translate_genetic_code-10_aa-questions.txt: Determining Amino Acid Sequence from
-  mRNA Sequence
-last edit: Sun Jul 12 22:54:26 2026
+bbq-translate_genetic_code-10_aa-questions.txt: Peptide Sequences from mRNA Using the
+  Genetic Code (10 Amino Acids)
+last edit: Sun Jul 12 23:11:26 2026

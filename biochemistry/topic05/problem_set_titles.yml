@@ -4,16 +4,14 @@ bbq-MATCH-column_chromatography-questions.txt: Matching Column Chromatography Ty
 bbq-MATCH-protein_v_dna_gels-questions.txt: Matching Macromolecule Types to Gel Components
   or Processes
 bbq-WOMC-cell_disruption-questions.txt: Cell Disruption Techniques from Descriptions
-  (MC)
-bbq-WOMC-column_chromatography-questions.txt: Types of Column Chromatography Based
-  on Descriptions
-bbq-WOMC-protein_v_dna_gels-questions.txt: Matching Macromolecule Types to Gel Electrophoresis
-  Processes
+bbq-WOMC-column_chromatography-questions.txt: Column Chromatography Types from Descriptions
+bbq-WOMC-protein_v_dna_gels-questions.txt: Macromolecule Types from Gel Electrophoresis
+  Descriptions
 bbq-isoelectric_one_protein-questions.txt: Protein Net Charge at a Given pH
-bbq-isoelectric_two_proteins-questions.txt: Protein Migration Direction from Isoelectric
-  Point
-bbq-kaleidoscope_ladder_unknown_band-questions.txt: Calculating Molecular Weight from
-  SDS-PAGE Ladder
+bbq-isoelectric_two_proteins-questions.txt: Protein Migration Direction in Isoelectric
+  Focusing
+bbq-kaleidoscope_ladder_unknown_band-questions.txt: Protein Molecular Weight from
+  an SDS-PAGE Ladder
 bbq-protein_gel_migration-questions.txt: Protein Molecular Weight from SDS-PAGE Migration
-bbq-titration_pI-questions.txt: Determining Isoelectric Point Using pKa
-last edit: Mon Apr 13 14:35:50 2026
+bbq-titration_pI-questions.txt: Isoelectric Point from pKa Values
+last edit: Sun Jul 12 23:11:26 2026
