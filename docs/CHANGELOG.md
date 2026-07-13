@@ -28,6 +28,9 @@
 - Replaced bare deletion-mutant defaults with explicit EASY, MEDIUM, and
   RIGOROUS table-based MC variants for both random gene labels and word-based
   gene labels.
+- Replaced the bare DNA-profiling father and killer generators in Biotechnology,
+  Genetics, Laboratory, and Molecular Biology task files with explicit EASY,
+  MEDIUM, and HARD variants.
 - Sorted `bbq_control/task_files/molecular_bio_tasks.csv` by the Molecular
   Biology topic order in `topics_metadata.yml`, with `,,,,,` separator rows
   between populated topic groups.
