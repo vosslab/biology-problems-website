@@ -2,6 +2,286 @@
 
 Students formulate null and alternative hypotheses, interpret p-values and significance levels, and perform t-tests and ANOVA.
 
+## Matching Chi-Square Terms with Their Definitions
+
+<div id="MATCH-chi-square_terms-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-MATCH-chi-square_terms-questions.txt" download title="Download bbq-MATCH-chi-square_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-chi-square_terms-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-chi-square_terms.zip" download title="Download blackboard_qti_v2_1-MATCH-chi-square_terms.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-chi-square_terms.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-chi-square_terms.zip" download title="Download canvas_qti_v1_2-MATCH-chi-square_terms.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-chi-square_terms.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-chi-square_terms.html', '_blank')" title="View human_readable-MATCH-chi-square_terms.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-chi-square_terms.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/chi-square_terms-matching.pgml" download title="Download chi-square_terms-matching.pgml" aria-label="Click to download the WeBWorK PGML file (chi-square_terms-matching.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Matching Chi-Square Terms with Their Definitions
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biostatistics/topic05/downloads/selftest-MATCH-chi-square_terms.html" %}
+
+</details>
+
+
+## Matching Hypothesis Tests to Their Descriptions
+
+<div id="MATCH-hypothesis_testing-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-MATCH-hypothesis_testing-questions.txt" download title="Download bbq-MATCH-hypothesis_testing-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-hypothesis_testing-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-hypothesis_testing.zip" download title="Download blackboard_qti_v2_1-MATCH-hypothesis_testing.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-hypothesis_testing.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-hypothesis_testing.zip" download title="Download canvas_qti_v1_2-MATCH-hypothesis_testing.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-hypothesis_testing.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-hypothesis_testing.html', '_blank')" title="View human_readable-MATCH-hypothesis_testing.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-hypothesis_testing.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/hypothesis_testing-matching.pgml" download title="Download hypothesis_testing-matching.pgml" aria-label="Click to download the WeBWorK PGML file (hypothesis_testing-matching.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Matching Hypothesis Tests to Their Descriptions
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biostatistics/topic05/downloads/selftest-MATCH-hypothesis_testing.html" %}
+
+</details>
+
+
+## Matching Statistical Test Terms with Their Definitions
+
+<div id="MATCH-statistical_test_terms-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-MATCH-statistical_test_terms-questions.txt" download title="Download bbq-MATCH-statistical_test_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-statistical_test_terms-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-statistical_test_terms.zip" download title="Download blackboard_qti_v2_1-MATCH-statistical_test_terms.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-statistical_test_terms.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-statistical_test_terms.zip" download title="Download canvas_qti_v1_2-MATCH-statistical_test_terms.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-statistical_test_terms.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-statistical_test_terms.html', '_blank')" title="View human_readable-MATCH-statistical_test_terms.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-statistical_test_terms.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/statistical_test_terms-matching.pgml" download title="Download statistical_test_terms-matching.pgml" aria-label="Click to download the WeBWorK PGML file (statistical_test_terms-matching.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Matching Statistical Test Terms with Their Definitions
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biostatistics/topic05/downloads/selftest-MATCH-statistical_test_terms.html" %}
+
+</details>
+
+
+## Determining True Statements About Chi-Square Tests
+
+<div id="TFMS-chi-square-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-TFMS-chi-square-questions.txt" download title="Download bbq-TFMS-chi-square-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-chi-square-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-TFMS-chi-square.zip" download title="Download blackboard_qti_v2_1-TFMS-chi-square.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-TFMS-chi-square.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-chi-square.zip" download title="Download canvas_qti_v1_2-TFMS-chi-square.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-chi-square.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-chi-square.html', '_blank')" title="View human_readable-TFMS-chi-square.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-chi-square.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/chi-square.pg" download title="Download chi-square.pg" aria-label="Click to download the WeBWorK PGML file (chi-square.pg)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Determining True Statements About Chi-Square Tests
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biostatistics/topic05/downloads/selftest-TFMS-chi-square.html" %}
+
+</details>
+
+
+## Determining True/False Statements About Statistical Tests
+
+<div id="TFMS-statistical_tests-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-TFMS-statistical_tests-questions.txt" download title="Download bbq-TFMS-statistical_tests-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-statistical_tests-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-TFMS-statistical_tests.zip" download title="Download blackboard_qti_v2_1-TFMS-statistical_tests.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-TFMS-statistical_tests.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-statistical_tests.zip" download title="Download canvas_qti_v1_2-TFMS-statistical_tests.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-statistical_tests.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-statistical_tests.html', '_blank')" title="View human_readable-TFMS-statistical_tests.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-statistical_tests.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/statistical_tests.pg" download title="Download statistical_tests.pg" aria-label="Click to download the WeBWorK PGML file (statistical_tests.pg)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Determining True/False Statements About Statistical Tests
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biostatistics/topic05/downloads/selftest-TFMS-statistical_tests.html" %}
+
+</details>
+
+
+## Chi-Square Terms from Definitions
+
+<div id="WOMC-chi-square_terms-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-WOMC-chi-square_terms-questions.txt" download title="Download bbq-WOMC-chi-square_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-chi-square_terms-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-chi-square_terms.zip" download title="Download blackboard_qti_v2_1-WOMC-chi-square_terms.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-chi-square_terms.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-chi-square_terms.zip" download title="Download canvas_qti_v1_2-WOMC-chi-square_terms.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-chi-square_terms.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-chi-square_terms.html', '_blank')" title="View human_readable-WOMC-chi-square_terms.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-chi-square_terms.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/chi-square_terms-which_one.pgml" download title="Download chi-square_terms-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (chi-square_terms-which_one.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Chi-Square Terms from Definitions
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biostatistics/topic05/downloads/selftest-WOMC-chi-square_terms.html" %}
+
+</details>
+
+
+## Appropriate Hypothesis Tests for Mean Comparisons
+
+<div id="WOMC-hypothesis_testing-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-WOMC-hypothesis_testing-questions.txt" download title="Download bbq-WOMC-hypothesis_testing-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-hypothesis_testing-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-hypothesis_testing.zip" download title="Download blackboard_qti_v2_1-WOMC-hypothesis_testing.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-hypothesis_testing.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-hypothesis_testing.zip" download title="Download canvas_qti_v1_2-WOMC-hypothesis_testing.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-hypothesis_testing.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-hypothesis_testing.html', '_blank')" title="View human_readable-WOMC-hypothesis_testing.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-hypothesis_testing.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/hypothesis_testing-which_one.pgml" download title="Download hypothesis_testing-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (hypothesis_testing-which_one.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Appropriate Hypothesis Tests for Mean Comparisons
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biostatistics/topic05/downloads/selftest-WOMC-hypothesis_testing.html" %}
+
+</details>
+
+
+## Statistical Test Terms
+
+<div id="WOMC-statistical_test_terms-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-WOMC-statistical_test_terms-questions.txt" download title="Download bbq-WOMC-statistical_test_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-statistical_test_terms-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-statistical_test_terms.zip" download title="Download blackboard_qti_v2_1-WOMC-statistical_test_terms.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-statistical_test_terms.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-statistical_test_terms.zip" download title="Download canvas_qti_v1_2-WOMC-statistical_test_terms.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-statistical_test_terms.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-statistical_test_terms.html', '_blank')" title="View human_readable-WOMC-statistical_test_terms.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-statistical_test_terms.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/statistical_test_terms-which_one.pgml" download title="Download statistical_test_terms-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (statistical_test_terms-which_one.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Statistical Test Terms
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biostatistics/topic05/downloads/selftest-WOMC-statistical_test_terms.html" %}
+
+</details>
+
+
 ## Calculating p-value for Two-Sample t-Test
 
 <div id="babies_two_sample_t_test-tails1-button-container" class="button-container">
@@ -62,6 +342,38 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
     </span>
   </summary>
   {% include "biostatistics/topic05/downloads/selftest-busse_woods_anova-anova-5year.html" %}
+
+</details>
+
+
+## Determining Significance of Microbial Diversity Data Using a Z-Test
+
+<div id="busse_woods_one_sample_tests-ztest-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-busse_woods_one_sample_tests-ztest-questions.txt" download title="Download bbq-busse_woods_one_sample_tests-ztest-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-busse_woods_one_sample_tests-ztest-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-busse_woods_one_sample_tests-ztest.zip" download title="Download blackboard_qti_v2_1-busse_woods_one_sample_tests-ztest.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-busse_woods_one_sample_tests-ztest.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-busse_woods_one_sample_tests-ztest.zip" download title="Download canvas_qti_v1_2-busse_woods_one_sample_tests-ztest.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-busse_woods_one_sample_tests-ztest.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-busse_woods_one_sample_tests-ztest.html', '_blank')" title="View human_readable-busse_woods_one_sample_tests-ztest.html" aria-label="Click to view the Human-Readable TXT file (human_readable-busse_woods_one_sample_tests-ztest.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Determining Significance of Microbial Diversity Data Using a Z-Test
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biostatistics/topic05/downloads/selftest-busse_woods_one_sample_tests-ztest.html" %}
 
 </details>
 
@@ -194,6 +506,134 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 </details>
 
 
+## Errors in Chi-Squared Hypothesis Testing
+
+<div id="chi_square_errors-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-chi_square_errors-questions.txt" download title="Download bbq-chi_square_errors-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chi_square_errors-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-chi_square_errors.zip" download title="Download blackboard_qti_v2_1-chi_square_errors.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-chi_square_errors.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-chi_square_errors.zip" download title="Download canvas_qti_v1_2-chi_square_errors.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-chi_square_errors.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-chi_square_errors.html', '_blank')" title="View human_readable-chi_square_errors.html" aria-label="Click to view the Human-Readable TXT file (human_readable-chi_square_errors.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Errors in Chi-Squared Hypothesis Testing
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biostatistics/topic05/downloads/selftest-chi_square_errors.html" %}
+
+</details>
+
+
+## Determining Chi-Square Outcomes for Hardy-Weinberg Equilibrium
+
+<div id="chi_square_hardy_weinberg-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-chi_square_hardy_weinberg-questions.txt" download title="Download bbq-chi_square_hardy_weinberg-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chi_square_hardy_weinberg-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-chi_square_hardy_weinberg.zip" download title="Download blackboard_qti_v2_1-chi_square_hardy_weinberg.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-chi_square_hardy_weinberg.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-chi_square_hardy_weinberg.zip" download title="Download canvas_qti_v1_2-chi_square_hardy_weinberg.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-chi_square_hardy_weinberg.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-chi_square_hardy_weinberg.html', '_blank')" title="View human_readable-chi_square_hardy_weinberg.html" aria-label="Click to view the Human-Readable TXT file (human_readable-chi_square_hardy_weinberg.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Determining Chi-Square Outcomes for Hardy-Weinberg Equilibrium
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biostatistics/topic05/downloads/selftest-chi_square_hardy_weinberg.html" %}
+
+</details>
+
+
+## Determining Chi-Squared Test Hypotheses for Genetic Crosses
+
+<div id="chi_square_hypotheses-pair-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-chi_square_hypotheses-pair-questions.txt" download title="Download bbq-chi_square_hypotheses-pair-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chi_square_hypotheses-pair-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-chi_square_hypotheses-pair.zip" download title="Download blackboard_qti_v2_1-chi_square_hypotheses-pair.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-chi_square_hypotheses-pair.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-chi_square_hypotheses-pair.zip" download title="Download canvas_qti_v1_2-chi_square_hypotheses-pair.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-chi_square_hypotheses-pair.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-chi_square_hypotheses-pair.html', '_blank')" title="View human_readable-chi_square_hypotheses-pair.html" aria-label="Click to view the Human-Readable TXT file (human_readable-chi_square_hypotheses-pair.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Determining Chi-Squared Test Hypotheses for Genetic Crosses
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biostatistics/topic05/downloads/selftest-chi_square_hypotheses-pair.html" %}
+
+</details>
+
+
+## Misstated Null Hypotheses in Chi-Squared Goodness-of-Fit Tests for Genetic Ratios
+
+<div id="chi_square_hypotheses_lab_partner-hypotheses_partner-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt" download title="Download bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-chi_square_hypotheses_lab_partner-hypotheses_partner.zip" download title="Download blackboard_qti_v2_1-chi_square_hypotheses_lab_partner-hypotheses_partner.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-chi_square_hypotheses_lab_partner-hypotheses_partner.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-chi_square_hypotheses_lab_partner-hypotheses_partner.zip" download title="Download canvas_qti_v1_2-chi_square_hypotheses_lab_partner-hypotheses_partner.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-chi_square_hypotheses_lab_partner-hypotheses_partner.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-chi_square_hypotheses_lab_partner-hypotheses_partner.html', '_blank')" title="View human_readable-chi_square_hypotheses_lab_partner-hypotheses_partner.html" aria-label="Click to view the Human-Readable TXT file (human_readable-chi_square_hypotheses_lab_partner-hypotheses_partner.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Misstated Null Hypotheses in Chi-Squared Goodness-of-Fit Tests for Genetic Ratios
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biostatistics/topic05/downloads/selftest-chi_square_hypotheses_lab_partner-hypotheses_partner.html" %}
+
+</details>
+
+
 ## Flaws in Statistical Hypothesis Testing
 
 <div id="hypothesis_lab_partner-hypotheses_partner-button-container" class="button-container">
@@ -222,6 +662,38 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
     </span>
   </summary>
   {% include "biostatistics/topic05/downloads/selftest-hypothesis_lab_partner-hypotheses_partner.html" %}
+
+</details>
+
+
+## Null and Alternative Hypotheses in Statistical Tests
+
+<div id="hypothesis_statements-pair-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-hypothesis_statements-pair-questions.txt" download title="Download bbq-hypothesis_statements-pair-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-hypothesis_statements-pair-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-hypothesis_statements-pair.zip" download title="Download blackboard_qti_v2_1-hypothesis_statements-pair.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-hypothesis_statements-pair.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-hypothesis_statements-pair.zip" download title="Download canvas_qti_v1_2-hypothesis_statements-pair.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-hypothesis_statements-pair.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-hypothesis_statements-pair.html', '_blank')" title="View human_readable-hypothesis_statements-pair.html" aria-label="Click to view the Human-Readable TXT file (human_readable-hypothesis_statements-pair.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Null and Alternative Hypotheses in Statistical Tests
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biostatistics/topic05/downloads/selftest-hypothesis_statements-pair.html" %}
 
 </details>
 

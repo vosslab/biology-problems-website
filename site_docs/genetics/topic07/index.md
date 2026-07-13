@@ -19,6 +19,9 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-chi-square_terms.html', '_blank')" title="View human_readable-MATCH-chi-square_terms.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-chi-square_terms.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/chi-square_terms-matching.pgml" download title="Download chi-square_terms-matching.pgml" aria-label="Click to download the WeBWorK PGML file (chi-square_terms-matching.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -32,38 +35,6 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
     </span>
   </summary>
   {% include "genetics/topic07/downloads/selftest-MATCH-chi-square_terms.html" %}
-
-</details>
-
-
-## Chi-Square Test Cutoff Terms
-
-<div id="MC-chi-square_terms-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MC-chi-square_terms-questions.txt" download title="Download bbq-MC-chi-square_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-chi-square_terms-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
-</a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MC-chi-square_terms.zip" download title="Download blackboard_qti_v2_1-MC-chi-square_terms.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MC-chi-square_terms.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MC-chi-square_terms.zip" download title="Download canvas_qti_v1_2-MC-chi-square_terms.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MC-chi-square_terms.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MC-chi-square_terms.html', '_blank')" title="View human_readable-MC-chi-square_terms.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MC-chi-square_terms.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Chi-Square Test Cutoff Terms
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  {% include "genetics/topic07/downloads/selftest-MC-chi-square_terms.html" %}
 
 </details>
 
@@ -83,6 +54,9 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-chi-square.html', '_blank')" title="View human_readable-TFMS-chi-square.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-chi-square.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/chi-square.pg" download title="Download chi-square.pg" aria-label="Click to download the WeBWorK PGML file (chi-square.pg)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -96,6 +70,41 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
     </span>
   </summary>
   {% include "genetics/topic07/downloads/selftest-TFMS-chi-square.html" %}
+
+</details>
+
+
+## Matching Chi-Square Terms to Definitions
+
+<div id="WOMC-chi-square_terms-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-WOMC-chi-square_terms-questions.txt" download title="Download bbq-WOMC-chi-square_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-chi-square_terms-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-chi-square_terms.zip" download title="Download blackboard_qti_v2_1-WOMC-chi-square_terms.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-chi-square_terms.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-chi-square_terms.zip" download title="Download canvas_qti_v1_2-WOMC-chi-square_terms.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-chi-square_terms.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-chi-square_terms.html', '_blank')" title="View human_readable-WOMC-chi-square_terms.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-chi-square_terms.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/chi-square_terms-which_one.pgml" download title="Download chi-square_terms-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (chi-square_terms-which_one.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Matching Chi-Square Terms to Definitions
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic07/downloads/selftest-WOMC-chi-square_terms.html" %}
 
 </details>
 

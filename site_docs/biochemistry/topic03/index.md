@@ -4,6 +4,41 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 
 **LibreTexts reference:** [Unit 1, Chapter 3: Amino Acids and Peptides](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.03%3A_Amino_Acids_and_Peptides) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.03%3A_Amino_Acids_and_Peptides" target="_blank" rel="noopener" aria-label="LibreTexts Unit 1, Chapter 3" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
+## Matching Amino Acid Properties
+
+<div id="MATCH-amino_acids_properties-long_tables-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-MATCH-amino_acids_properties-long_tables-questions.txt" download title="Download bbq-MATCH-amino_acids_properties-long_tables-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-amino_acids_properties-long_tables-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-amino_acids_properties-long_tables.zip" download title="Download blackboard_qti_v2_1-MATCH-amino_acids_properties-long_tables.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-amino_acids_properties-long_tables.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-amino_acids_properties-long_tables.zip" download title="Download canvas_qti_v1_2-MATCH-amino_acids_properties-long_tables.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-amino_acids_properties-long_tables.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-amino_acids_properties-long_tables.html', '_blank')" title="View human_readable-MATCH-amino_acids_properties-long_tables.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-amino_acids_properties-long_tables.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/amino_acids_properties-long_tables-matching.pgml" download title="Download amino_acids_properties-long_tables-matching.pgml" aria-label="Click to download the WeBWorK PGML file (amino_acids_properties-long_tables-matching.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Matching Amino Acid Properties
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biochemistry/topic03/downloads/selftest-MATCH-amino_acids_properties-long_tables.html" %}
+
+</details>
+
+
 ## Amino Acids and Descriptive Properties
 
 <div id="MATCH-amino_acids_properties-button-container" class="button-container">
@@ -35,6 +70,41 @@ Students identify amino acids by their side chains, classify R-groups by polarit
     </span>
   </summary>
   {% include "biochemistry/topic03/downloads/selftest-MATCH-amino_acids_properties.html" %}
+
+</details>
+
+
+## Amino Acids by Their Properties
+
+<div id="WOMC-amino_acids_properties-long_tables-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-WOMC-amino_acids_properties-long_tables-questions.txt" download title="Download bbq-WOMC-amino_acids_properties-long_tables-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-amino_acids_properties-long_tables-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-amino_acids_properties-long_tables.zip" download title="Download blackboard_qti_v2_1-WOMC-amino_acids_properties-long_tables.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-amino_acids_properties-long_tables.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-amino_acids_properties-long_tables.zip" download title="Download canvas_qti_v1_2-WOMC-amino_acids_properties-long_tables.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-amino_acids_properties-long_tables.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-amino_acids_properties-long_tables.html', '_blank')" title="View human_readable-WOMC-amino_acids_properties-long_tables.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-amino_acids_properties-long_tables.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/amino_acids_properties-long_tables-which_one.pgml" download title="Download amino_acids_properties-long_tables-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (amino_acids_properties-long_tables-which_one.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Amino Acids by Their Properties
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biochemistry/topic03/downloads/selftest-WOMC-amino_acids_properties-long_tables.html" %}
 
 </details>
 
@@ -350,6 +420,35 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 </details>
 
 
+## Determining Tetrapeptide Net Charge Using pKa Values
+
+<div id="tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-questions.txt" download title="Download bbq-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices.zip" download title="Download blackboard_qti_v2_1-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices.zip" download title="Download canvas_qti_v1_2-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Determining Tetrapeptide Net Charge Using pKa Values
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biochemistry/topic03/downloads/selftest-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices.html" %}
+
+</details>
+
+
 ## Amino Acids from Chemical Structures
 
 <div id="which_amino_acid-FIB-button-container" class="button-container">
@@ -404,6 +503,35 @@ Students identify amino acids by their side chains, classify R-groups by polarit
     </span>
   </summary>
   {% include "biochemistry/topic03/downloads/selftest-which_amino_acid-MC-7_choices.html" %}
+
+</details>
+
+
+## Determining Peptide Sequence (FIB)
+
+<div id="wordle_peptides-FIB-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-wordle_peptides-FIB-questions.txt" download title="Download bbq-wordle_peptides-FIB-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-wordle_peptides-FIB-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-wordle_peptides-FIB.zip" download title="Download blackboard_qti_v2_1-wordle_peptides-FIB.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-wordle_peptides-FIB.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-wordle_peptides-FIB.zip" download title="Download canvas_qti_v1_2-wordle_peptides-FIB.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-wordle_peptides-FIB.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Determining Peptide Sequence (FIB)
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biochemistry/topic03/downloads/selftest-wordle_peptides-FIB.html" %}
 
 </details>
 

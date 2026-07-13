@@ -4,6 +4,41 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 
 **LibreTexts reference:** [Chapter 4: Mendelian Genetics](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/04:_Mendelian_Genetics) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/04:_Mendelian_Genetics" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 4" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
+## Matching Genetic Terms to Their Definitions
+
+<div id="MATCH-genetics_terminology-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-MATCH-genetics_terminology-questions.txt" download title="Download bbq-MATCH-genetics_terminology-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-genetics_terminology-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-genetics_terminology.zip" download title="Download blackboard_qti_v2_1-MATCH-genetics_terminology.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-genetics_terminology.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-genetics_terminology.zip" download title="Download canvas_qti_v1_2-MATCH-genetics_terminology.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-genetics_terminology.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-genetics_terminology.html', '_blank')" title="View human_readable-MATCH-genetics_terminology.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-genetics_terminology.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/genetics_terminology-matching.pgml" download title="Download genetics_terminology-matching.pgml" aria-label="Click to download the WeBWorK PGML file (genetics_terminology-matching.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Matching Genetic Terms to Their Definitions
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic04/downloads/selftest-MATCH-genetics_terminology.html" %}
+
+</details>
+
+
 ## Mendelian Cross Generations and Descriptions
 
 <div id="MATCH-mendel_cross_terminology-button-container" class="button-container">
@@ -19,6 +54,9 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-mendel_cross_terminology.html', '_blank')" title="View human_readable-MATCH-mendel_cross_terminology.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-mendel_cross_terminology.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/mendel_cross_terminology-matching.pgml" download title="Download mendel_cross_terminology-matching.pgml" aria-label="Click to download the WeBWorK PGML file (mendel_cross_terminology-matching.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -36,7 +74,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 </details>
 
 
-## Mendel's Foundational Principles and Descriptions
+## Matching Mendel's Principles
 
 <div id="MATCH-mendel_four_principles-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-mendel_four_principles-questions.txt" download title="Download bbq-MATCH-mendel_four_principles-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-mendel_four_principles-questions.txt)">
@@ -51,18 +89,22 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-mendel_four_principles.html', '_blank')" title="View human_readable-MATCH-mendel_four_principles.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-mendel_four_principles.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/mendel_four_principles-matching.pgml" download title="Download mendel_four_principles-matching.pgml" aria-label="Click to download the WeBWorK PGML file (mendel_four_principles-matching.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Mendel's Foundational Principles and Descriptions
+      Matching Mendel's Principles
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
+  {% include "genetics/topic04/downloads/selftest-MATCH-mendel_four_principles.html" %}
 
 </details>
 
@@ -82,6 +124,9 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-mendelian_genetics_terms.html', '_blank')" title="View human_readable-MATCH-mendelian_genetics_terms.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-mendelian_genetics_terms.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/mendelian_genetics_terms-matching.pgml" download title="Download mendelian_genetics_terms-matching.pgml" aria-label="Click to download the WeBWorK PGML file (mendelian_genetics_terms-matching.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -114,6 +159,9 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-monohybrid_cross_genotype.html', '_blank')" title="View human_readable-MATCH-monohybrid_cross_genotype.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-monohybrid_cross_genotype.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/monohybrid_cross_genotype-matching.pgml" download title="Download monohybrid_cross_genotype-matching.pgml" aria-label="Click to download the WeBWorK PGML file (monohybrid_cross_genotype-matching.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -131,115 +179,194 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 </details>
 
 
-## Mendelian Cross Generations
+## Matching Genetic Terms
 
-<div id="MC-mendel_cross_terminology-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MC-mendel_cross_terminology-questions.txt" download title="Download bbq-MC-mendel_cross_terminology-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-mendel_cross_terminology-questions.txt)">
+<div id="WOMC-genetics_terminology-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-WOMC-genetics_terminology-questions.txt" download title="Download bbq-WOMC-genetics_terminology-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-genetics_terminology-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MC-mendel_cross_terminology.zip" download title="Download blackboard_qti_v2_1-MC-mendel_cross_terminology.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MC-mendel_cross_terminology.zip)">
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-genetics_terminology.zip" download title="Download blackboard_qti_v2_1-WOMC-genetics_terminology.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-genetics_terminology.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MC-mendel_cross_terminology.zip" download title="Download canvas_qti_v1_2-MC-mendel_cross_terminology.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MC-mendel_cross_terminology.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-genetics_terminology.zip" download title="Download canvas_qti_v1_2-WOMC-genetics_terminology.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-genetics_terminology.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MC-mendel_cross_terminology.html', '_blank')" title="View human_readable-MC-mendel_cross_terminology.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MC-mendel_cross_terminology.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-genetics_terminology.html', '_blank')" title="View human_readable-WOMC-genetics_terminology.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-genetics_terminology.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/genetics_terminology-which_one.pgml" download title="Download genetics_terminology-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (genetics_terminology-which_one.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Mendelian Cross Generations
+      Matching Genetic Terms
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "genetics/topic04/downloads/selftest-MC-mendel_cross_terminology.html" %}
+  {% include "genetics/topic04/downloads/selftest-WOMC-genetics_terminology.html" %}
 
 </details>
 
 
-## Mendel's Foundational Principles
+## Mendelian Cross Types and Generational Stages
 
-<div id="MC-mendel_four_principles-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MC-mendel_four_principles-questions.txt" download title="Download bbq-MC-mendel_four_principles-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-mendel_four_principles-questions.txt)">
+<div id="WOMC-mendel_cross_terminology-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-WOMC-mendel_cross_terminology-questions.txt" download title="Download bbq-WOMC-mendel_cross_terminology-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-mendel_cross_terminology-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MC-mendel_four_principles.zip" download title="Download blackboard_qti_v2_1-MC-mendel_four_principles.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MC-mendel_four_principles.zip)">
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-mendel_cross_terminology.zip" download title="Download blackboard_qti_v2_1-WOMC-mendel_cross_terminology.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-mendel_cross_terminology.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MC-mendel_four_principles.zip" download title="Download canvas_qti_v1_2-MC-mendel_four_principles.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MC-mendel_four_principles.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-mendel_cross_terminology.zip" download title="Download canvas_qti_v1_2-WOMC-mendel_cross_terminology.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-mendel_cross_terminology.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MC-mendel_four_principles.html', '_blank')" title="View human_readable-MC-mendel_four_principles.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MC-mendel_four_principles.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-mendel_cross_terminology.html', '_blank')" title="View human_readable-WOMC-mendel_cross_terminology.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-mendel_cross_terminology.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/mendel_cross_terminology-which_one.pgml" download title="Download mendel_cross_terminology-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (mendel_cross_terminology-which_one.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Mendel's Foundational Principles
+      Mendelian Cross Types and Generational Stages
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "genetics/topic04/downloads/selftest-MC-mendel_four_principles.html" %}
+  {% include "genetics/topic04/downloads/selftest-WOMC-mendel_cross_terminology.html" %}
 
 </details>
 
 
-## Mendelian Genetics Terms
+## Mendel's Foundational Principles of Genetics
 
-<div id="MC-mendelian_genetics_terms-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MC-mendelian_genetics_terms-questions.txt" download title="Download bbq-MC-mendelian_genetics_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-mendelian_genetics_terms-questions.txt)">
+<div id="WOMC-mendel_four_principles-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-WOMC-mendel_four_principles-questions.txt" download title="Download bbq-WOMC-mendel_four_principles-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-mendel_four_principles-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MC-mendelian_genetics_terms.zip" download title="Download blackboard_qti_v2_1-MC-mendelian_genetics_terms.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MC-mendelian_genetics_terms.zip)">
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-mendel_four_principles.zip" download title="Download blackboard_qti_v2_1-WOMC-mendel_four_principles.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-mendel_four_principles.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MC-mendelian_genetics_terms.zip" download title="Download canvas_qti_v1_2-MC-mendelian_genetics_terms.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MC-mendelian_genetics_terms.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-mendel_four_principles.zip" download title="Download canvas_qti_v1_2-WOMC-mendel_four_principles.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-mendel_four_principles.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MC-mendelian_genetics_terms.html', '_blank')" title="View human_readable-MC-mendelian_genetics_terms.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MC-mendelian_genetics_terms.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-mendel_four_principles.html', '_blank')" title="View human_readable-WOMC-mendel_four_principles.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-mendel_four_principles.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/mendel_four_principles-which_one.pgml" download title="Download mendel_four_principles-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (mendel_four_principles-which_one.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Mendelian Genetics Terms
+      Mendel's Foundational Principles of Genetics
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "genetics/topic04/downloads/selftest-MC-mendelian_genetics_terms.html" %}
+  {% include "genetics/topic04/downloads/selftest-WOMC-mendel_four_principles.html" %}
 
 </details>
 
 
-## Monohybrid Cross Genotype Outcomes
+## Mendelian Genetics Terms from Definitions
 
-<div id="MC-monohybrid_cross_genotype-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MC-monohybrid_cross_genotype-questions.txt" download title="Download bbq-MC-monohybrid_cross_genotype-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-monohybrid_cross_genotype-questions.txt)">
+<div id="WOMC-mendelian_genetics_terms-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-WOMC-mendelian_genetics_terms-questions.txt" download title="Download bbq-WOMC-mendelian_genetics_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-mendelian_genetics_terms-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MC-monohybrid_cross_genotype.zip" download title="Download blackboard_qti_v2_1-MC-monohybrid_cross_genotype.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MC-monohybrid_cross_genotype.zip)">
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-mendelian_genetics_terms.zip" download title="Download blackboard_qti_v2_1-WOMC-mendelian_genetics_terms.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-mendelian_genetics_terms.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MC-monohybrid_cross_genotype.zip" download title="Download canvas_qti_v1_2-MC-monohybrid_cross_genotype.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MC-monohybrid_cross_genotype.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-mendelian_genetics_terms.zip" download title="Download canvas_qti_v1_2-WOMC-mendelian_genetics_terms.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-mendelian_genetics_terms.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MC-monohybrid_cross_genotype.html', '_blank')" title="View human_readable-MC-monohybrid_cross_genotype.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MC-monohybrid_cross_genotype.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-mendelian_genetics_terms.html', '_blank')" title="View human_readable-WOMC-mendelian_genetics_terms.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-mendelian_genetics_terms.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/mendelian_genetics_terms-which_one.pgml" download title="Download mendelian_genetics_terms-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (mendelian_genetics_terms-which_one.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Mendelian Genetics Terms from Definitions
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic04/downloads/selftest-WOMC-mendelian_genetics_terms.html" %}
+
+</details>
+
+
+## Parental Genotypes in Monohybrid Crosses from Offspring Outcomes
+
+<div id="WOMC-monohybrid_cross_genotype-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-WOMC-monohybrid_cross_genotype-questions.txt" download title="Download bbq-WOMC-monohybrid_cross_genotype-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-monohybrid_cross_genotype-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-monohybrid_cross_genotype.zip" download title="Download blackboard_qti_v2_1-WOMC-monohybrid_cross_genotype.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-monohybrid_cross_genotype.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-monohybrid_cross_genotype.zip" download title="Download canvas_qti_v1_2-WOMC-monohybrid_cross_genotype.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-monohybrid_cross_genotype.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-monohybrid_cross_genotype.html', '_blank')" title="View human_readable-WOMC-monohybrid_cross_genotype.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-monohybrid_cross_genotype.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/monohybrid_cross_genotype-which_one.pgml" download title="Download monohybrid_cross_genotype-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (monohybrid_cross_genotype-which_one.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Parental Genotypes in Monohybrid Crosses from Offspring Outcomes
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic04/downloads/selftest-WOMC-monohybrid_cross_genotype.html" %}
+
+</details>
+
+
+## Determining Offspring Survival Ratios in Lethal Allele Crosses
+
+<div id="lethal_allele_survival-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-lethal_allele_survival-questions.txt" download title="Download bbq-lethal_allele_survival-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-lethal_allele_survival-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-lethal_allele_survival.zip" download title="Download blackboard_qti_v2_1-lethal_allele_survival.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-lethal_allele_survival.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-lethal_allele_survival.zip" download title="Download canvas_qti_v1_2-lethal_allele_survival.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-lethal_allele_survival.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-lethal_allele_survival.html', '_blank')" title="View human_readable-lethal_allele_survival.html" aria-label="Click to view the Human-Readable TXT file (human_readable-lethal_allele_survival.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
@@ -248,13 +375,13 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Monohybrid Cross Genotype Outcomes
+      Determining Offspring Survival Ratios in Lethal Allele Crosses
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "genetics/topic04/downloads/selftest-MC-monohybrid_cross_genotype.html" %}
+  {% include "genetics/topic04/downloads/selftest-lethal_allele_survival.html" %}
 
 </details>
 
@@ -351,6 +478,38 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
     </span>
   </summary>
   {% include "genetics/topic04/downloads/selftest-monohybrid_litter_inference.html" %}
+
+</details>
+
+
+## Calculating Probability with Binomial Model
+
+<div id="probabiliy_of_progeny-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-probabiliy_of_progeny-questions.txt" download title="Download bbq-probabiliy_of_progeny-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-probabiliy_of_progeny-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-probabiliy_of_progeny.zip" download title="Download blackboard_qti_v2_1-probabiliy_of_progeny.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-probabiliy_of_progeny.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-probabiliy_of_progeny.zip" download title="Download canvas_qti_v1_2-probabiliy_of_progeny.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-probabiliy_of_progeny.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-probabiliy_of_progeny.html', '_blank')" title="View human_readable-probabiliy_of_progeny.html" aria-label="Click to view the Human-Readable TXT file (human_readable-probabiliy_of_progeny.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Calculating Probability with Binomial Model
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic04/downloads/selftest-probabiliy_of_progeny.html" %}
 
 </details>
 
