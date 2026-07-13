@@ -11,6 +11,7 @@ genetics,topic05,unique_gametes.py,"-n 5",,
 import argparse
 import csv
 import datetime
+import json
 import math
 import random
 import re
@@ -44,6 +45,7 @@ COLOR_GREEN = "\033[92m"
 COLOR_YELLOW = "\033[93m"
 COLOR_CYAN = "\033[96m"
 COLOR_RED = "\033[91m"
+TASK_TIMING_LOG_ENV = "BBQ_TASK_TIMING_LOG"
 INPUT_SCRIPT_BASENAMES = {
 	"yaml_match_to_bbq.py",
 	"yaml_which_one_mc_to_bbq.py",
@@ -56,6 +58,63 @@ DISABLE_ANTICHEAT_FLAGS = ("--no-hidden-terms", "--allow-click")
 
 def color(text: str, code: str) -> str:
 	return f"{code}{text}{COLOR_RESET}"
+
+
+#============================================
+def format_elapsed_time(elapsed_seconds: float) -> str:
+	"""Format one task duration for concise terminal output."""
+	if elapsed_seconds < 60:
+		return f"{elapsed_seconds:.2f}s"
+	minutes = int(elapsed_seconds // 60)
+	seconds = elapsed_seconds % 60
+	return f"{minutes}m {seconds:05.2f}s"
+
+
+#============================================
+def get_slowest_task_timings(timing_records: list[dict], limit: int = 10) -> list[dict]:
+	"""Return task timing records from slowest to fastest."""
+	sorted_records = sorted(
+		timing_records,
+		key=lambda record: record["elapsed_seconds"],
+		reverse=True,
+	)
+	return sorted_records[:limit]
+
+
+#============================================
+def write_task_timing(
+	tasks_csv: str,
+	label: str,
+	elapsed_seconds: float,
+	ok: bool,
+) -> None:
+	"""Append a completed task timing when a parent batch run requests it."""
+	timing_log_path = os.environ.get(TASK_TIMING_LOG_ENV, "")
+	if not timing_log_path:
+		return
+	timing_record = {
+		"task_file": os.path.basename(tasks_csv),
+		"label": label,
+		"elapsed_seconds": elapsed_seconds,
+		"status": "DONE" if ok else "FAILED",
+	}
+	with open(timing_log_path, "a") as timing_handle:
+		timing_handle.write(json.dumps(timing_record) + "\n")
+
+
+#============================================
+def print_slowest_task_timings(timing_records: list[dict]) -> None:
+	"""Print up to ten slowest tasks from one CSV run."""
+	slowest_records = get_slowest_task_timings(timing_records)
+	if not slowest_records:
+		return
+	print(color(f"Slowest {len(slowest_records)} tasks:", COLOR_CYAN))
+	for timing_record in slowest_records:
+		duration = format_elapsed_time(timing_record["elapsed_seconds"])
+		print(
+			f"  {duration:>10}  {timing_record['label']} "
+			f"({timing_record['status']})"
+		)
 
 
 # get_repo_root() lives in bioproblems_site.git_paths so the BBQ
@@ -1248,6 +1307,7 @@ if TEXTUAL_AVAILABLE:
 			self.start_time = time.time()
 			self.completed = 0
 			self.durations = []
+			self.timing_records = []
 			self.log_lines = []
 			self.task_rows = []
 			self.column_keys = {}
@@ -1336,6 +1396,11 @@ if TEXTUAL_AVAILABLE:
 				ok, stdout, stderr, line_count = await self.run_in_thread(task)
 				duration = time.time() - start
 				self.durations.append(duration)
+				self.timing_records.append({
+					"label": label,
+					"elapsed_seconds": duration,
+					"status": "DONE" if ok else "FAILED",
+				})
 				self.completed += 1
 
 				status = "ok" if ok else "failed"
@@ -1349,6 +1414,15 @@ if TEXTUAL_AVAILABLE:
 					self.append_log(stderr.rstrip()[:2000])
 				self.update_metrics()
 
+			slowest_records = get_slowest_task_timings(self.timing_records)
+			if slowest_records:
+				self.append_log(f"Slowest {len(slowest_records)} tasks:")
+				for timing_record in slowest_records:
+					duration_text = format_elapsed_time(timing_record["elapsed_seconds"])
+					self.append_log(
+						f"  {duration_text:>10}  {timing_record['label']} "
+						f"({timing_record['status']})"
+					)
 			self.append_log("All tasks completed.")
 
 		async def run_in_thread(self, task: dict) -> tuple:
@@ -1460,9 +1534,12 @@ def main():
 
 	log_line(log_path, f"=== RUN START ({total} tasks) ===")
 	failures = 0
+	timing_records = []
 
 	for idx, task in enumerate(tasks, start=1):
 		cmd = build_command(task)
+		label = task_label(task, idx, task.get("output", ""), cmd)
+		task_start = time.perf_counter()
 		if args.dry_run:
 			print(color(f"[{idx}/{total}] DRY-RUN {' '.join(cmd)}", COLOR_CYAN))
 			ok = run_task(
@@ -1485,10 +1562,22 @@ def main():
 				pythonpath_value=run_context.pythonpath_value,
 				error_log_path=run_context.error_log_path,
 			)
+		elapsed_seconds = time.perf_counter() - task_start
+		timing_record = {
+			"label": label,
+			"elapsed_seconds": elapsed_seconds,
+			"status": "DONE" if ok else "FAILED",
+		}
+		timing_records.append(timing_record)
+		log_line(log_path, f"TIME {label} -> {elapsed_seconds:.3f}s")
+		print(color(f"  TIME  {format_elapsed_time(elapsed_seconds)}", COLOR_CYAN))
+		write_task_timing(args.tasks_csv, label, elapsed_seconds, ok)
 		if not ok:
 			failures += 1
 
 	log_line(log_path, f"=== RUN END (failures={failures}) ===")
+	if not os.environ.get(TASK_TIMING_LOG_ENV):
+		print_slowest_task_timings(timing_records)
 	if failures:
 		print(color(
 			f"Completed with {failures} failure(s). See {log_path} and {error_log_path}",

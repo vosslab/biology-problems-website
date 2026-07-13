@@ -8,6 +8,10 @@
   narrow placement model to 432 curated rows. A concrete question variant can
   now appear in every applicable course subject while remaining limited to one
   chapter per subject.
+- BBQ task runs now print each task's elapsed runtime after generation and any
+  PGML work. Direct CSV runs summarize their ten slowest tasks, while
+  `bbq_control/all_tasks.py` reports the ten slowest tasks across the full
+  batch.
 
 ### Fixes and Maintenance
 
