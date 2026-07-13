@@ -99,7 +99,10 @@ nav:
   - "08: Enzyme Inhibition": biochemistry/topic08/index.md
   - "09: Enzyme Allostery": biochemistry/topic09/index.md
   - "10: Carbohydrates": biochemistry/topic10/index.md
+  - "11: Nucleic Acids": biochemistry/topic11/index.md
   - "12: Lipids": biochemistry/topic12/index.md
+  - "13: Membranes and Membrane Proteins": biochemistry/topic13/index.md
+  - "14: Human Senses": biochemistry/topic14/index.md
   - "16: Sugar Metabolism": biochemistry/topic16/index.md
   - "20: Photosynthesis": biochemistry/topic20/index.md
 - "🪰 Genetics":
@@ -121,16 +124,24 @@ nav:
   - "02: Solutions": laboratory/topic02/index.md
   - "03: Dilutions": laboratory/topic03/index.md
   - "04: Serial Dilutions": laboratory/topic04/index.md
+  - "08: Detection of Bio-Organic Molecules": laboratory/topic08/index.md
+  - "09: Enzyme Kinetics": laboratory/topic09/index.md
   - "11: PCR and Electrophoresis": laboratory/topic11/index.md
+  - "13: Bioinformatics": laboratory/topic13/index.md
 - "🧬 Molecular Biology":
   - molecular_biology/index.md
+  - "02: DNA Structure": molecular_biology/topic02/index.md
   - "04: Manipulation of Nucleic Acids": molecular_biology/topic04/index.md
   - "05: Cloning and Sequencing": molecular_biology/topic05/index.md
+  - "06: DNA Replication": molecular_biology/topic06/index.md
   - "07: RNA Transcription": molecular_biology/topic07/index.md
   - "08: RNA Processing and CRISPR": molecular_biology/topic08/index.md
   - "09: Translation": molecular_biology/topic09/index.md
+  - "10: Historical Experiments": molecular_biology/topic10/index.md
 - "🎲 Biostatistics":
   - biostatistics/index.md
+  - "03: Center, Variance, and Distributions": biostatistics/topic03/index.md
+  - "04: Probability Distributions": biostatistics/topic04/index.md
   - "05: Hypothesis Testing": biostatistics/topic05/index.md
   - "06: Grouping with Z-Scores": biostatistics/topic06/index.md
   - "08: Graph Interpretation": biostatistics/topic08/index.md
@@ -138,6 +149,7 @@ nav:
   - biotechnology/index.md
   - "01: Biotech Basics and Central Dogma": biotechnology/topic01/index.md
   - "02: DNA and Genomics": biotechnology/topic02/index.md
+  - "03: Protein Biotechnology": biotechnology/topic03/index.md
   - "04: Environmental and Synthetic Biology": biotechnology/topic04/index.md
   - "05: Medicinal Biotechnology": biotechnology/topic05/index.md
   - "07: Bioethics in Biotechnology": biotechnology/topic07/index.md

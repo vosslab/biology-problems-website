@@ -5,4 +5,14 @@ bbq-TFMS-nobel_prizes-questions.txt: Nobel Prize Topics
 bbq-WOMC-biotech_vs-questions.txt: Industries Using Enzymes
 bbq-WOMC-biotech_vs_improved-questions.txt: Biotechnology Industry Identification
 bbq-WOMC-culture_enrichment-questions.txt: Isotope Labeling in Culture Enrichment
-last edit: Sun May 31 15:25:53 2026
+bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt: Nutrients for Bacterial
+  Growth in Metabolic Pathways
+bbq-mutant_screen-fib-4_metabolites-questions.txt: Determining the Correct Order of
+  Metabolic Precursors in Pathways from Mutant Data
+bbq-rna_transcribe_fill_blank-questions.txt: mRNA sequences from DNA templates
+bbq-rna_transcribe_prime-len_9-questions.txt: mRNA Products from Transcription
+bbq-rna_transcribe_prime_fill_blank-len_9-questions.txt: RNA Transcripts from DNA
+  Templates
+bbq-translate_genetic_code-10_aa-questions.txt: Translating mRNA sequences into single-letter
+  peptide codes
+last edit: Sun Jul 12 22:13:26 2026

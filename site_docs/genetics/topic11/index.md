@@ -4,19 +4,19 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 
 **LibreTexts reference:** [Chapter 11: Gene Trees and Relationships](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/11:_Gene_Trees_and_Relationships) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/11:_Gene_Trees_and_Relationships" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 11" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
-## Determining Gene Tree Structure from Distance Matrices
+## Determining Gene Trees Using Distance Matrices
 
-<div id="gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices-questions.txt" download title="Download bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices-questions.txt)">
+<div id="gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1-questions.txt" download title="Download bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices.zip" download title="Download blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices.zip)">
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1.zip" download title="Download blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices.zip" download title="Download canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1.zip" download title="Download canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices.html', '_blank')" title="View human_readable-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1.html', '_blank')" title="View human_readable-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
@@ -25,30 +25,30 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Gene Tree Structure from Distance Matrices
+      Determining Gene Trees Using Distance Matrices
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "genetics/topic11/downloads/selftest-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices.html" %}
+  {% include "genetics/topic11/downloads/selftest-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1.html" %}
 
 </details>
 
 
-## Gene Tree from Matrix (Level 1)
+## Determining Gene Trees from Distance Matrices
 
-<div id="gene_tree_choice_plus-TABLE_mode-LEVEL_1-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_1-questions.txt" download title="Download bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_1-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_1-questions.txt)">
+<div id="gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2-questions.txt" download title="Download bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-gene_tree_choice_plus-TABLE_mode-LEVEL_1.zip" download title="Download blackboard_qti_v2_1-gene_tree_choice_plus-TABLE_mode-LEVEL_1.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-gene_tree_choice_plus-TABLE_mode-LEVEL_1.zip)">
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2.zip" download title="Download blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_choice_plus-TABLE_mode-LEVEL_1.zip" download title="Download canvas_qti_v1_2-gene_tree_choice_plus-TABLE_mode-LEVEL_1.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_choice_plus-TABLE_mode-LEVEL_1.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2.zip" download title="Download canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_choice_plus-TABLE_mode-LEVEL_1.html', '_blank')" title="View human_readable-gene_tree_choice_plus-TABLE_mode-LEVEL_1.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_choice_plus-TABLE_mode-LEVEL_1.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2.html', '_blank')" title="View human_readable-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
@@ -57,30 +57,30 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Gene Tree from Matrix (Level 1)
+      Determining Gene Trees from Distance Matrices
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "genetics/topic11/downloads/selftest-gene_tree_choice_plus-TABLE_mode-LEVEL_1.html" %}
+  {% include "genetics/topic11/downloads/selftest-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2.html" %}
 
 </details>
 
 
-## Gene Tree from Matrix (Level 2)
+## Determining Gene Trees Using Genetic Distance Matrices
 
-<div id="gene_tree_choice_plus-TABLE_mode-LEVEL_2-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_2-questions.txt" download title="Download bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_2-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_2-questions.txt)">
+<div id="gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3-questions.txt" download title="Download bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-gene_tree_choice_plus-TABLE_mode-LEVEL_2.zip" download title="Download blackboard_qti_v2_1-gene_tree_choice_plus-TABLE_mode-LEVEL_2.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-gene_tree_choice_plus-TABLE_mode-LEVEL_2.zip)">
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3.zip" download title="Download blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_choice_plus-TABLE_mode-LEVEL_2.zip" download title="Download canvas_qti_v1_2-gene_tree_choice_plus-TABLE_mode-LEVEL_2.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_choice_plus-TABLE_mode-LEVEL_2.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3.zip" download title="Download canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_choice_plus-TABLE_mode-LEVEL_2.html', '_blank')" title="View human_readable-gene_tree_choice_plus-TABLE_mode-LEVEL_2.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_choice_plus-TABLE_mode-LEVEL_2.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3.html', '_blank')" title="View human_readable-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
@@ -89,30 +89,30 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Gene Tree from Matrix (Level 2)
+      Determining Gene Trees Using Genetic Distance Matrices
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "genetics/topic11/downloads/selftest-gene_tree_choice_plus-TABLE_mode-LEVEL_2.html" %}
+  {% include "genetics/topic11/downloads/selftest-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3.html" %}
 
 </details>
 
 
-## Gene Tree from Matrix (Level 3)
+## Determining Gene Trees from Distance Matrices
 
-<div id="gene_tree_choice_plus-TABLE_mode-LEVEL_3-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_3-questions.txt" download title="Download bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_3-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_3-questions.txt)">
+<div id="gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4-questions.txt" download title="Download bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-gene_tree_choice_plus-TABLE_mode-LEVEL_3.zip" download title="Download blackboard_qti_v2_1-gene_tree_choice_plus-TABLE_mode-LEVEL_3.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-gene_tree_choice_plus-TABLE_mode-LEVEL_3.zip)">
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4.zip" download title="Download blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_choice_plus-TABLE_mode-LEVEL_3.zip" download title="Download canvas_qti_v1_2-gene_tree_choice_plus-TABLE_mode-LEVEL_3.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_choice_plus-TABLE_mode-LEVEL_3.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4.zip" download title="Download canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_choice_plus-TABLE_mode-LEVEL_3.html', '_blank')" title="View human_readable-gene_tree_choice_plus-TABLE_mode-LEVEL_3.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_choice_plus-TABLE_mode-LEVEL_3.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4.html', '_blank')" title="View human_readable-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
@@ -121,30 +121,30 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Gene Tree from Matrix (Level 3)
+      Determining Gene Trees from Distance Matrices
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "genetics/topic11/downloads/selftest-gene_tree_choice_plus-TABLE_mode-LEVEL_3.html" %}
+  {% include "genetics/topic11/downloads/selftest-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4.html" %}
 
 </details>
 
 
-## Gene Tree from Matrix (Level 4)
+## Determining Gene Trees from Distance Matrices
 
-<div id="gene_tree_choice_plus-TABLE_mode-LEVEL_4-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_4-questions.txt" download title="Download bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_4-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_4-questions.txt)">
+<div id="gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5-questions.txt" download title="Download bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-gene_tree_choice_plus-TABLE_mode-LEVEL_4.zip" download title="Download blackboard_qti_v2_1-gene_tree_choice_plus-TABLE_mode-LEVEL_4.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-gene_tree_choice_plus-TABLE_mode-LEVEL_4.zip)">
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5.zip" download title="Download blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_choice_plus-TABLE_mode-LEVEL_4.zip" download title="Download canvas_qti_v1_2-gene_tree_choice_plus-TABLE_mode-LEVEL_4.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_choice_plus-TABLE_mode-LEVEL_4.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5.zip" download title="Download canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_choice_plus-TABLE_mode-LEVEL_4.html', '_blank')" title="View human_readable-gene_tree_choice_plus-TABLE_mode-LEVEL_4.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_choice_plus-TABLE_mode-LEVEL_4.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5.html', '_blank')" title="View human_readable-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
@@ -153,30 +153,30 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Gene Tree from Matrix (Level 4)
+      Determining Gene Trees from Distance Matrices
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "genetics/topic11/downloads/selftest-gene_tree_choice_plus-TABLE_mode-LEVEL_4.html" %}
+  {% include "genetics/topic11/downloads/selftest-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5.html" %}
 
 </details>
 
 
-## Gene Tree from Matrix (Level 5)
+## Different Phylogenetic Trees
 
-<div id="gene_tree_choice_plus-TABLE_mode-LEVEL_5-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_5-questions.txt" download title="Download bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_5-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_choice_plus-TABLE_mode-LEVEL_5-questions.txt)">
+<div id="gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level-questions.txt" download title="Download bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-gene_tree_choice_plus-TABLE_mode-LEVEL_5.zip" download title="Download blackboard_qti_v2_1-gene_tree_choice_plus-TABLE_mode-LEVEL_5.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-gene_tree_choice_plus-TABLE_mode-LEVEL_5.zip)">
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level.zip" download title="Download blackboard_qti_v2_1-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_choice_plus-TABLE_mode-LEVEL_5.zip" download title="Download canvas_qti_v1_2-gene_tree_choice_plus-TABLE_mode-LEVEL_5.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_choice_plus-TABLE_mode-LEVEL_5.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level.zip" download title="Download canvas_qti_v1_2-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_choice_plus-TABLE_mode-LEVEL_5.html', '_blank')" title="View human_readable-gene_tree_choice_plus-TABLE_mode-LEVEL_5.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_choice_plus-TABLE_mode-LEVEL_5.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level.html', '_blank')" title="View human_readable-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
@@ -185,30 +185,30 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Gene Tree from Matrix (Level 5)
+      Different Phylogenetic Trees
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "genetics/topic11/downloads/selftest-gene_tree_choice_plus-TABLE_mode-LEVEL_5.html" %}
+  {% include "genetics/topic11/downloads/selftest-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level.html" %}
 
 </details>
 
 
-## Different Phylogenetic Trees (Easy)
+## Different Phylogenetic Tree Structures
 
-<div id="gene_tree_matches_plus-DIFFERENT_mode-EASY_level-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-gene_tree_matches_plus-DIFFERENT_mode-EASY_level-questions.txt" download title="Download bbq-gene_tree_matches_plus-DIFFERENT_mode-EASY_level-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_matches_plus-DIFFERENT_mode-EASY_level-questions.txt)">
+<div id="gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level-questions.txt" download title="Download bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-gene_tree_matches_plus-DIFFERENT_mode-EASY_level.zip" download title="Download blackboard_qti_v2_1-gene_tree_matches_plus-DIFFERENT_mode-EASY_level.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-gene_tree_matches_plus-DIFFERENT_mode-EASY_level.zip)">
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level.zip" download title="Download blackboard_qti_v2_1-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_matches_plus-DIFFERENT_mode-EASY_level.zip" download title="Download canvas_qti_v1_2-gene_tree_matches_plus-DIFFERENT_mode-EASY_level.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_matches_plus-DIFFERENT_mode-EASY_level.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level.zip" download title="Download canvas_qti_v1_2-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_matches_plus-DIFFERENT_mode-EASY_level.html', '_blank')" title="View human_readable-gene_tree_matches_plus-DIFFERENT_mode-EASY_level.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_matches_plus-DIFFERENT_mode-EASY_level.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level.html', '_blank')" title="View human_readable-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
@@ -217,30 +217,30 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Different Phylogenetic Trees (Easy)
+      Different Phylogenetic Tree Structures
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "genetics/topic11/downloads/selftest-gene_tree_matches_plus-DIFFERENT_mode-EASY_level.html" %}
+  {% include "genetics/topic11/downloads/selftest-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level.html" %}
 
 </details>
 
 
-## Different Phylogenetic Trees (Medium)
+## Phylogenetic Tree Matches Through Structural Equivalence
 
-<div id="gene_tree_matches_plus-DIFFERENT_mode-MEDIUM_level-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-gene_tree_matches_plus-DIFFERENT_mode-MEDIUM_level-questions.txt" download title="Download bbq-gene_tree_matches_plus-DIFFERENT_mode-MEDIUM_level-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_matches_plus-DIFFERENT_mode-MEDIUM_level-questions.txt)">
+<div id="gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level-questions.txt" download title="Download bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-gene_tree_matches_plus-DIFFERENT_mode-MEDIUM_level.zip" download title="Download blackboard_qti_v2_1-gene_tree_matches_plus-DIFFERENT_mode-MEDIUM_level.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-gene_tree_matches_plus-DIFFERENT_mode-MEDIUM_level.zip)">
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level.zip" download title="Download blackboard_qti_v2_1-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_matches_plus-DIFFERENT_mode-MEDIUM_level.zip" download title="Download canvas_qti_v1_2-gene_tree_matches_plus-DIFFERENT_mode-MEDIUM_level.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_matches_plus-DIFFERENT_mode-MEDIUM_level.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level.zip" download title="Download canvas_qti_v1_2-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_matches_plus-DIFFERENT_mode-MEDIUM_level.html', '_blank')" title="View human_readable-gene_tree_matches_plus-DIFFERENT_mode-MEDIUM_level.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_matches_plus-DIFFERENT_mode-MEDIUM_level.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level.html', '_blank')" title="View human_readable-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
@@ -249,30 +249,30 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Different Phylogenetic Trees (Medium)
+      Phylogenetic Tree Matches Through Structural Equivalence
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "genetics/topic11/downloads/selftest-gene_tree_matches_plus-DIFFERENT_mode-MEDIUM_level.html" %}
+  {% include "genetics/topic11/downloads/selftest-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level.html" %}
 
 </details>
 
 
-## Different Phylogenetic Trees (Rigorous)
+## Equivalent Phylogenetic Trees from Structural Matches
 
-<div id="gene_tree_matches_plus-DIFFERENT_mode-RIGOROUS_level-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-gene_tree_matches_plus-DIFFERENT_mode-RIGOROUS_level-questions.txt" download title="Download bbq-gene_tree_matches_plus-DIFFERENT_mode-RIGOROUS_level-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_matches_plus-DIFFERENT_mode-RIGOROUS_level-questions.txt)">
+<div id="gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level-questions.txt" download title="Download bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-gene_tree_matches_plus-DIFFERENT_mode-RIGOROUS_level.zip" download title="Download blackboard_qti_v2_1-gene_tree_matches_plus-DIFFERENT_mode-RIGOROUS_level.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-gene_tree_matches_plus-DIFFERENT_mode-RIGOROUS_level.zip)">
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level.zip" download title="Download blackboard_qti_v2_1-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_matches_plus-DIFFERENT_mode-RIGOROUS_level.zip" download title="Download canvas_qti_v1_2-gene_tree_matches_plus-DIFFERENT_mode-RIGOROUS_level.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_matches_plus-DIFFERENT_mode-RIGOROUS_level.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level.zip" download title="Download canvas_qti_v1_2-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_matches_plus-DIFFERENT_mode-RIGOROUS_level.html', '_blank')" title="View human_readable-gene_tree_matches_plus-DIFFERENT_mode-RIGOROUS_level.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_matches_plus-DIFFERENT_mode-RIGOROUS_level.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level.html', '_blank')" title="View human_readable-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
@@ -281,109 +281,13 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Different Phylogenetic Trees (Rigorous)
+      Equivalent Phylogenetic Trees from Structural Matches
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "genetics/topic11/downloads/selftest-gene_tree_matches_plus-DIFFERENT_mode-RIGOROUS_level.html" %}
-
-</details>
-
-
-## Same Phylogenetic Trees (Easy)
-
-<div id="gene_tree_matches_plus-SAME_mode-EASY_level-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-gene_tree_matches_plus-SAME_mode-EASY_level-questions.txt" download title="Download bbq-gene_tree_matches_plus-SAME_mode-EASY_level-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_matches_plus-SAME_mode-EASY_level-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
-</a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-gene_tree_matches_plus-SAME_mode-EASY_level.zip" download title="Download blackboard_qti_v2_1-gene_tree_matches_plus-SAME_mode-EASY_level.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-gene_tree_matches_plus-SAME_mode-EASY_level.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_matches_plus-SAME_mode-EASY_level.zip" download title="Download canvas_qti_v1_2-gene_tree_matches_plus-SAME_mode-EASY_level.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_matches_plus-SAME_mode-EASY_level.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_matches_plus-SAME_mode-EASY_level.html', '_blank')" title="View human_readable-gene_tree_matches_plus-SAME_mode-EASY_level.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_matches_plus-SAME_mode-EASY_level.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Same Phylogenetic Trees (Easy)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  {% include "genetics/topic11/downloads/selftest-gene_tree_matches_plus-SAME_mode-EASY_level.html" %}
-
-</details>
-
-
-## Same Phylogenetic Trees (Medium)
-
-<div id="gene_tree_matches_plus-SAME_mode-MEDIUM_level-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-gene_tree_matches_plus-SAME_mode-MEDIUM_level-questions.txt" download title="Download bbq-gene_tree_matches_plus-SAME_mode-MEDIUM_level-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_matches_plus-SAME_mode-MEDIUM_level-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
-</a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-gene_tree_matches_plus-SAME_mode-MEDIUM_level.zip" download title="Download blackboard_qti_v2_1-gene_tree_matches_plus-SAME_mode-MEDIUM_level.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-gene_tree_matches_plus-SAME_mode-MEDIUM_level.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_matches_plus-SAME_mode-MEDIUM_level.zip" download title="Download canvas_qti_v1_2-gene_tree_matches_plus-SAME_mode-MEDIUM_level.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_matches_plus-SAME_mode-MEDIUM_level.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_matches_plus-SAME_mode-MEDIUM_level.html', '_blank')" title="View human_readable-gene_tree_matches_plus-SAME_mode-MEDIUM_level.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_matches_plus-SAME_mode-MEDIUM_level.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Same Phylogenetic Trees (Medium)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  {% include "genetics/topic11/downloads/selftest-gene_tree_matches_plus-SAME_mode-MEDIUM_level.html" %}
-
-</details>
-
-
-## Same Phylogenetic Trees (Rigorous)
-
-<div id="gene_tree_matches_plus-SAME_mode-RIGOROUS_level-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-gene_tree_matches_plus-SAME_mode-RIGOROUS_level-questions.txt" download title="Download bbq-gene_tree_matches_plus-SAME_mode-RIGOROUS_level-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_matches_plus-SAME_mode-RIGOROUS_level-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
-</a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-gene_tree_matches_plus-SAME_mode-RIGOROUS_level.zip" download title="Download blackboard_qti_v2_1-gene_tree_matches_plus-SAME_mode-RIGOROUS_level.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-gene_tree_matches_plus-SAME_mode-RIGOROUS_level.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_matches_plus-SAME_mode-RIGOROUS_level.zip" download title="Download canvas_qti_v1_2-gene_tree_matches_plus-SAME_mode-RIGOROUS_level.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_matches_plus-SAME_mode-RIGOROUS_level.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_matches_plus-SAME_mode-RIGOROUS_level.html', '_blank')" title="View human_readable-gene_tree_matches_plus-SAME_mode-RIGOROUS_level.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_matches_plus-SAME_mode-RIGOROUS_level.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Same Phylogenetic Trees (Rigorous)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  {% include "genetics/topic11/downloads/selftest-gene_tree_matches_plus-SAME_mode-RIGOROUS_level.html" %}
+  {% include "genetics/topic11/downloads/selftest-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level.html" %}
 
 </details>
 

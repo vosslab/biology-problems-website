@@ -292,19 +292,19 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 </details>
 
 
-## Restriction Enzyme Overhang Sequences (6 Choices)
+## Restriction Enzyme Overhang Sequences
 
-<div id="overhang_sequence-MC-6_choices-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-overhang_sequence-MC-6_choices-questions.txt" download title="Download bbq-overhang_sequence-MC-6_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-overhang_sequence-MC-6_choices-questions.txt)">
+<div id="overhang_sequence-mc-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-overhang_sequence-mc-questions.txt" download title="Download bbq-overhang_sequence-mc-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-overhang_sequence-mc-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-overhang_sequence-MC-6_choices.zip" download title="Download blackboard_qti_v2_1-overhang_sequence-MC-6_choices.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-overhang_sequence-MC-6_choices.zip)">
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-overhang_sequence-mc.zip" download title="Download blackboard_qti_v2_1-overhang_sequence-mc.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-overhang_sequence-mc.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-overhang_sequence-MC-6_choices.zip" download title="Download canvas_qti_v1_2-overhang_sequence-MC-6_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-overhang_sequence-MC-6_choices.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-overhang_sequence-mc.zip" download title="Download canvas_qti_v1_2-overhang_sequence-mc.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-overhang_sequence-mc.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-overhang_sequence-MC-6_choices.html', '_blank')" title="View human_readable-overhang_sequence-MC-6_choices.html" aria-label="Click to view the Human-Readable TXT file (human_readable-overhang_sequence-MC-6_choices.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-overhang_sequence-mc.html', '_blank')" title="View human_readable-overhang_sequence-mc.html" aria-label="Click to view the Human-Readable TXT file (human_readable-overhang_sequence-mc.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
@@ -313,30 +313,30 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Enzyme Overhang Sequences (6 Choices)
+      Restriction Enzyme Overhang Sequences
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "genetics/topic03/downloads/selftest-overhang_sequence-MC-6_choices.html" %}
+  {% include "genetics/topic03/downloads/selftest-overhang_sequence-mc.html" %}
 
 </details>
 
 
-## Restriction Enzyme Cleavage Types
+## Restriction Enzyme Cut Types
 
-<div id="overhang_type-end_type-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-overhang_type-end_type-questions.txt" download title="Download bbq-overhang_type-end_type-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-overhang_type-end_type-questions.txt)">
+<div id="overhang_type-5_3_blunt-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-overhang_type-5_3_blunt-questions.txt" download title="Download bbq-overhang_type-5_3_blunt-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-overhang_type-5_3_blunt-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-overhang_type-end_type.zip" download title="Download blackboard_qti_v2_1-overhang_type-end_type.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-overhang_type-end_type.zip)">
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-overhang_type-5_3_blunt.zip" download title="Download blackboard_qti_v2_1-overhang_type-5_3_blunt.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-overhang_type-5_3_blunt.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-overhang_type-end_type.zip" download title="Download canvas_qti_v1_2-overhang_type-end_type.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-overhang_type-end_type.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-overhang_type-5_3_blunt.zip" download title="Download canvas_qti_v1_2-overhang_type-5_3_blunt.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-overhang_type-5_3_blunt.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-overhang_type-end_type.html', '_blank')" title="View human_readable-overhang_type-end_type.html" aria-label="Click to view the Human-Readable TXT file (human_readable-overhang_type-end_type.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-overhang_type-5_3_blunt.html', '_blank')" title="View human_readable-overhang_type-5_3_blunt.html" aria-label="Click to view the Human-Readable TXT file (human_readable-overhang_type-5_3_blunt.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
@@ -345,30 +345,30 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Enzyme Cleavage Types
+      Restriction Enzyme Cut Types
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "genetics/topic03/downloads/selftest-overhang_type-end_type.html" %}
+  {% include "genetics/topic03/downloads/selftest-overhang_type-5_3_blunt.html" %}
 
 </details>
 
 
-## Restriction Enzyme Overhang Types
+## Restriction Enzyme Overhang Type from Cleavage Patterns
 
-<div id="overhang_type-overhang_type-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-overhang_type-overhang_type-questions.txt" download title="Download bbq-overhang_type-overhang_type-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-overhang_type-overhang_type-questions.txt)">
+<div id="overhang_type-blunt_v_sticky-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-overhang_type-blunt_v_sticky-questions.txt" download title="Download bbq-overhang_type-blunt_v_sticky-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-overhang_type-blunt_v_sticky-questions.txt)">
     <i class="fa fa-download"></i>Blackboard Learn TXT
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-overhang_type-overhang_type.zip" download title="Download blackboard_qti_v2_1-overhang_type-overhang_type.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-overhang_type-overhang_type.zip)">
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-overhang_type-blunt_v_sticky.zip" download title="Download blackboard_qti_v2_1-overhang_type-blunt_v_sticky.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-overhang_type-blunt_v_sticky.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-overhang_type-overhang_type.zip" download title="Download canvas_qti_v1_2-overhang_type-overhang_type.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-overhang_type-overhang_type.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-overhang_type-blunt_v_sticky.zip" download title="Download canvas_qti_v1_2-overhang_type-blunt_v_sticky.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-overhang_type-blunt_v_sticky.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-overhang_type-overhang_type.html', '_blank')" title="View human_readable-overhang_type-overhang_type.html" aria-label="Click to view the Human-Readable TXT file (human_readable-overhang_type-overhang_type.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-overhang_type-blunt_v_sticky.html', '_blank')" title="View human_readable-overhang_type-blunt_v_sticky.html" aria-label="Click to view the Human-Readable TXT file (human_readable-overhang_type-blunt_v_sticky.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
@@ -377,45 +377,13 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Enzyme Overhang Types
+      Restriction Enzyme Overhang Type from Cleavage Patterns
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "genetics/topic03/downloads/selftest-overhang_type-overhang_type.html" %}
-
-</details>
-
-
-## Palindromic Sequence Matches
-
-<div id="palindrome_sequence_match-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-palindrome_sequence_match-questions.txt" download title="Download bbq-palindrome_sequence_match-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-palindrome_sequence_match-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
-</a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-palindrome_sequence_match.zip" download title="Download blackboard_qti_v2_1-palindrome_sequence_match.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-palindrome_sequence_match.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-palindrome_sequence_match.zip" download title="Download canvas_qti_v1_2-palindrome_sequence_match.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-palindrome_sequence_match.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-palindrome_sequence_match.html', '_blank')" title="View human_readable-palindrome_sequence_match.html" aria-label="Click to view the Human-Readable TXT file (human_readable-palindrome_sequence_match.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Palindromic Sequence Matches
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  {% include "genetics/topic03/downloads/selftest-palindrome_sequence_match.html" %}
+  {% include "genetics/topic03/downloads/selftest-overhang_type-blunt_v_sticky.html" %}
 
 </details>
 

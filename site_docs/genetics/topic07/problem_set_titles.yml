@@ -1,6 +1,6 @@
 bbq-MATCH-chi-square_terms-questions.txt: Matching Chi-Square Terms
-bbq-MC-chi-square_terms-questions.txt: Chi-Square Test Cutoff Terms
 bbq-TFMS-chi-square-questions.txt: True/False Statements About Chi-Square Tests
+bbq-WOMC-chi-square_terms-questions.txt: Matching Chi-Square Terms to Definitions
 bbq-chi_square_calculated-ACCEPT-questions.txt: Chi-Squared Test for Genetic Variation
 bbq-chi_square_choices-questions.txt: Chi-Square Tests for Genetic Ratios
 bbq-chi_square_errors-questions.txt: Chi-Square Calculations and Hypothesis Evaluations
@@ -9,4 +9,4 @@ bbq-chi_square_hypotheses-pair-questions.txt: Chi-Squared Goodness-of-Fit Test f
   Mendelian Inheritance
 bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt: Chi-Squared
   Goodness-of-Fit Test for Mendelian Inheritance
-last edit: Sat Apr 18 21:30:45 2026
+last edit: Sun Jul 12 22:28:04 2026

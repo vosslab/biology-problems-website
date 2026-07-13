@@ -4,6 +4,41 @@ Students calculate allele and genotype frequencies in populations, apply the Har
 
 **LibreTexts reference:** [Chapter 10: Population Genetics](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/10:_Population_Genetics) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/10:_Population_Genetics" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 10" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
+## Matching Population Genetic Terms
+
+<div id="MATCH-population_genetics_terms-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-MATCH-population_genetics_terms-questions.txt" download title="Download bbq-MATCH-population_genetics_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-population_genetics_terms-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-population_genetics_terms.zip" download title="Download blackboard_qti_v2_1-MATCH-population_genetics_terms.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-population_genetics_terms.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-population_genetics_terms.zip" download title="Download canvas_qti_v1_2-MATCH-population_genetics_terms.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-population_genetics_terms.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-population_genetics_terms.html', '_blank')" title="View human_readable-MATCH-population_genetics_terms.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-population_genetics_terms.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/population_genetics_terms-matching.pgml" download title="Download population_genetics_terms-matching.pgml" aria-label="Click to download the WeBWorK PGML file (population_genetics_terms-matching.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Matching Population Genetic Terms
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic10/downloads/selftest-MATCH-population_genetics_terms.html" %}
+
+</details>
+
+
 ## Hardy-Weinberg Equilibrium Conditions
 
 <div id="TFMS-h-w_non-evolve_criteria-button-container" class="button-container">
@@ -19,6 +54,9 @@ Students calculate allele and genotype frequencies in populations, apply the Har
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-h-w_non-evolve_criteria.html', '_blank')" title="View human_readable-TFMS-h-w_non-evolve_criteria.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-h-w_non-evolve_criteria.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/h-w_non-evolve_criteria.pg" download title="Download h-w_non-evolve_criteria.pg" aria-label="Click to download the WeBWorK PGML file (h-w_non-evolve_criteria.pg)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -32,6 +70,41 @@ Students calculate allele and genotype frequencies in populations, apply the Har
     </span>
   </summary>
   {% include "genetics/topic10/downloads/selftest-TFMS-h-w_non-evolve_criteria.html" %}
+
+</details>
+
+
+## Matching Population Genetics Terms
+
+<div id="WOMC-population_genetics_terms-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-WOMC-population_genetics_terms-questions.txt" download title="Download bbq-WOMC-population_genetics_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-population_genetics_terms-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-population_genetics_terms.zip" download title="Download blackboard_qti_v2_1-WOMC-population_genetics_terms.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-population_genetics_terms.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-population_genetics_terms.zip" download title="Download canvas_qti_v1_2-WOMC-population_genetics_terms.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-population_genetics_terms.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-population_genetics_terms.html', '_blank')" title="View human_readable-WOMC-population_genetics_terms.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-population_genetics_terms.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/population_genetics_terms-which_one.pgml" download title="Download population_genetics_terms-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (population_genetics_terms-which_one.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Matching Population Genetics Terms
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic10/downloads/selftest-WOMC-population_genetics_terms.html" %}
 
 </details>
 

@@ -1,2 +1,28 @@
+bbq-RT-qPCR-questions.txt: Determining Fold Change in Gene Expression Using RT-qPCR
+  Data
+bbq-dna_gel-closest_farthest_MC-questions.txt: DNA Fragment Migration in Agarose Gel
+  Electrophoresis
 bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt: DNA Gel Migration Problem
-last edit: Sun Apr 19 11:42:33 2026
+bbq-hla_genotype-2_markers-color-questions.txt: Determining Possible Offspring HLA
+  Genotypes with Two Markers
+bbq-inverse_pcr_design-len_15-questions.txt: RNA Primers for Inverse PCR Design
+bbq-kaleidoscope_ladder_mapping-questions.txt: Matching Protein Bands to Molecular
+  Weights
+bbq-kaleidoscope_ladder_unknown_band-questions.txt: Determining Protein Molecular
+  Weight from SDS-PAGE Gel Analysis
+bbq-linear_digest-length_12-sites_2-fragment-questions.txt: Determining DNA Fragment
+  Sizes After Restriction Enzyme Digestion
+bbq-nested_pcr_design-len_24-questions.txt: RNA Primers for Nested PCR Design
+bbq-pcr_design-36_bp-9_primer-questions.txt: Correct RNA Primers for PCR
+bbq-protein_gel_migration-questions.txt: Estimating Molecular Weight from SDS-PAGE
+  Migration
+bbq-who_father_html-EASY-3_males-questions.txt: Determining Paternity Using Restriction
+  Fragment Length Polymorphism (RFLP) Analysis
+bbq-who_father_html-HARD-9_males-questions.txt: Determining Paternity Using DNA Analysis
+bbq-who_father_html-MEDIUM-5_males-questions.txt: Determining Paternity via RFLP Analysis
+bbq-who_killer_html-EASY-4_suspects-questions.txt: Suspects Using DNA Evidence Analysis
+  with RFLP
+bbq-who_killer_html-HARD-9_suspects-questions.txt: Killer Based on DNA Evidence
+bbq-who_killer_html-MEDIUM-5_suspects-questions.txt: Criminal Suspects Using DNA Analysis
+  (RFLP)
+last edit: Sun Jul 12 22:40:12 2026

@@ -39,6 +39,146 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 </details>
 
 
+## Matching Enzyme Catalysis Terminology
+
+<div id="MATCH-enzyme_terminology-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-MATCH-enzyme_terminology-questions.txt" download title="Download bbq-MATCH-enzyme_terminology-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-enzyme_terminology-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-enzyme_terminology.zip" download title="Download blackboard_qti_v2_1-MATCH-enzyme_terminology.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-enzyme_terminology.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-enzyme_terminology.zip" download title="Download canvas_qti_v1_2-MATCH-enzyme_terminology.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-enzyme_terminology.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-enzyme_terminology.html', '_blank')" title="View human_readable-MATCH-enzyme_terminology.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-enzyme_terminology.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/enzyme_terminology-matching.pgml" download title="Download enzyme_terminology-matching.pgml" aria-label="Click to download the WeBWorK PGML file (enzyme_terminology-matching.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Matching Enzyme Catalysis Terminology
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biochemistry/topic06/downloads/selftest-MATCH-enzyme_terminology.html" %}
+
+</details>
+
+
+## Determining True/False Statements About Chemical Reactions
+
+<div id="TFMS-chemical_reactions-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-TFMS-chemical_reactions-questions.txt" download title="Download bbq-TFMS-chemical_reactions-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-chemical_reactions-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-TFMS-chemical_reactions.zip" download title="Download blackboard_qti_v2_1-TFMS-chemical_reactions.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-TFMS-chemical_reactions.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-chemical_reactions.zip" download title="Download canvas_qti_v1_2-TFMS-chemical_reactions.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-chemical_reactions.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-chemical_reactions.html', '_blank')" title="View human_readable-TFMS-chemical_reactions.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-chemical_reactions.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/chemical_reactions.pg" download title="Download chemical_reactions.pg" aria-label="Click to download the WeBWorK PGML file (chemical_reactions.pg)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Determining True/False Statements About Chemical Reactions
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biochemistry/topic06/downloads/selftest-TFMS-chemical_reactions.html" %}
+
+</details>
+
+
+## Molecular Entities That Cannot Be Enzymatic Cofactors
+
+<div id="TFMS-enzyme_cofactors-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-TFMS-enzyme_cofactors-questions.txt" download title="Download bbq-TFMS-enzyme_cofactors-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-enzyme_cofactors-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-TFMS-enzyme_cofactors.zip" download title="Download blackboard_qti_v2_1-TFMS-enzyme_cofactors.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-TFMS-enzyme_cofactors.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-enzyme_cofactors.zip" download title="Download canvas_qti_v1_2-TFMS-enzyme_cofactors.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-enzyme_cofactors.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-enzyme_cofactors.html', '_blank')" title="View human_readable-TFMS-enzyme_cofactors.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-enzyme_cofactors.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/enzyme_cofactors.pg" download title="Download enzyme_cofactors.pg" aria-label="Click to download the WeBWorK PGML file (enzyme_cofactors.pg)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Molecular Entities That Cannot Be Enzymatic Cofactors
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biochemistry/topic06/downloads/selftest-TFMS-enzyme_cofactors.html" %}
+
+</details>
+
+
+## Determining True/False Statements About Enzyme Kinetics
+
+<div id="TFMS-enzyme_equilibrium-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-TFMS-enzyme_equilibrium-questions.txt" download title="Download bbq-TFMS-enzyme_equilibrium-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-enzyme_equilibrium-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-TFMS-enzyme_equilibrium.zip" download title="Download blackboard_qti_v2_1-TFMS-enzyme_equilibrium.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-TFMS-enzyme_equilibrium.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-enzyme_equilibrium.zip" download title="Download canvas_qti_v1_2-TFMS-enzyme_equilibrium.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-enzyme_equilibrium.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-enzyme_equilibrium.html', '_blank')" title="View human_readable-TFMS-enzyme_equilibrium.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-enzyme_equilibrium.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/enzyme_equilibrium.pg" download title="Download enzyme_equilibrium.pg" aria-label="Click to download the WeBWorK PGML file (enzyme_equilibrium.pg)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Determining True/False Statements About Enzyme Kinetics
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biochemistry/topic06/downloads/selftest-TFMS-enzyme_equilibrium.html" %}
+
+</details>
+
+
 ## True/False Statements About Gibbs Free Energy (Delta G = Delta H - T Delta S)
 
 <div id="TFMS-gibbs_free_energy_equation-button-container" class="button-container">
@@ -70,6 +210,41 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
     </span>
   </summary>
   {% include "biochemistry/topic06/downloads/selftest-TFMS-gibbs_free_energy_equation.html" %}
+
+</details>
+
+
+## Potential vs Kinetic Energy Examples
+
+<div id="TFMS-potential_v_kinetic_energy-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-TFMS-potential_v_kinetic_energy-questions.txt" download title="Download bbq-TFMS-potential_v_kinetic_energy-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-potential_v_kinetic_energy-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-TFMS-potential_v_kinetic_energy.zip" download title="Download blackboard_qti_v2_1-TFMS-potential_v_kinetic_energy.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-TFMS-potential_v_kinetic_energy.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-potential_v_kinetic_energy.zip" download title="Download canvas_qti_v1_2-TFMS-potential_v_kinetic_energy.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-potential_v_kinetic_energy.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-potential_v_kinetic_energy.html', '_blank')" title="View human_readable-TFMS-potential_v_kinetic_energy.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-potential_v_kinetic_energy.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/potential_v_kinetic_energy.pg" download title="Download potential_v_kinetic_energy.pg" aria-label="Click to download the WeBWorK PGML file (potential_v_kinetic_energy.pg)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Potential vs Kinetic Energy Examples
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biochemistry/topic06/downloads/selftest-TFMS-potential_v_kinetic_energy.html" %}
 
 </details>
 
@@ -109,6 +284,41 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 </details>
 
 
+## Enzymes Based on Naming Patterns
+
+<div id="TFMS-which_enzyme-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-TFMS-which_enzyme-questions.txt" download title="Download bbq-TFMS-which_enzyme-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-which_enzyme-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-TFMS-which_enzyme.zip" download title="Download blackboard_qti_v2_1-TFMS-which_enzyme.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-TFMS-which_enzyme.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-which_enzyme.zip" download title="Download canvas_qti_v1_2-TFMS-which_enzyme.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-which_enzyme.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-which_enzyme.html', '_blank')" title="View human_readable-TFMS-which_enzyme.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-which_enzyme.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/which_enzyme.pg" download title="Download which_enzyme.pg" aria-label="Click to download the WeBWorK PGML file (which_enzyme.pg)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Enzymes Based on Naming Patterns
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biochemistry/topic06/downloads/selftest-TFMS-which_enzyme.html" %}
+
+</details>
+
+
 ## Energy Requirement Categories for Energy Terms
 
 <div id="WOMC-energy_terms-button-container" class="button-container">
@@ -140,6 +350,41 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
     </span>
   </summary>
   {% include "biochemistry/topic06/downloads/selftest-WOMC-energy_terms.html" %}
+
+</details>
+
+
+## Enzyme Catalysis Terminology
+
+<div id="WOMC-enzyme_terminology-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-WOMC-enzyme_terminology-questions.txt" download title="Download bbq-WOMC-enzyme_terminology-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-enzyme_terminology-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-enzyme_terminology.zip" download title="Download blackboard_qti_v2_1-WOMC-enzyme_terminology.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-enzyme_terminology.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-enzyme_terminology.zip" download title="Download canvas_qti_v1_2-WOMC-enzyme_terminology.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-enzyme_terminology.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-enzyme_terminology.html', '_blank')" title="View human_readable-WOMC-enzyme_terminology.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-enzyme_terminology.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/enzyme_terminology-which_one.pgml" download title="Download enzyme_terminology-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (enzyme_terminology-which_one.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Enzyme Catalysis Terminology
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biochemistry/topic06/downloads/selftest-WOMC-enzyme_terminology.html" %}
 
 </details>
 
@@ -214,7 +459,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 </details>
 
 
-## Free Energy and Equilibrium Constant Relationships
+## Determining the Relationship Between Gibbs Free Energy Change and Equilibrium Constant
 
 <div id="free_energy_keq_relationship-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-free_energy_keq_relationship-questions.txt" download title="Download bbq-free_energy_keq_relationship-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-free_energy_keq_relationship-questions.txt)">
@@ -238,12 +483,13 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Free Energy and Equilibrium Constant Relationships
+      Determining the Relationship Between Gibbs Free Energy Change and Equilibrium Constant
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
+  {% include "biochemistry/topic06/downloads/selftest-free_energy_keq_relationship.html" %}
 
 </details>
 
@@ -318,7 +564,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 </details>
 
 
-## Energy and Entropy Conservation in Open, Closed, and Isolated Systems
+## Determining First and Second Laws of Thermodynamics for Different Systems
 
 <div id="thermodynamics_system_laws-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-thermodynamics_system_laws-questions.txt" download title="Download bbq-thermodynamics_system_laws-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-thermodynamics_system_laws-questions.txt)">
@@ -342,12 +588,13 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Energy and Entropy Conservation in Open, Closed, and Isolated Systems
+      Determining First and Second Laws of Thermodynamics for Different Systems
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
+  {% include "biochemistry/topic06/downloads/selftest-thermodynamics_system_laws.html" %}
 
 </details>
 

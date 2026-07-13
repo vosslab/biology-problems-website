@@ -19,6 +19,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-meiosis_prophase_1.html', '_blank')" title="View human_readable-MATCH-meiosis_prophase_1.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-meiosis_prophase_1.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/meiosis_prophase_1-matching.pgml" download title="Download meiosis_prophase_1-matching.pgml" aria-label="Click to download the WeBWorK PGML file (meiosis_prophase_1-matching.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -51,6 +54,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-meiosis_terms.html', '_blank')" title="View human_readable-MATCH-meiosis_terms.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-meiosis_terms.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/meiosis_terms-matching.pgml" download title="Download meiosis_terms-matching.pgml" aria-label="Click to download the WeBWorK PGML file (meiosis_terms-matching.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -83,6 +89,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-sex_determination.html', '_blank')" title="View human_readable-MATCH-sex_determination.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-sex_determination.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/sex_determination-matching.pgml" download title="Download sex_determination-matching.pgml" aria-label="Click to download the WeBWorK PGML file (sex_determination-matching.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -96,102 +105,6 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
     </span>
   </summary>
   {% include "genetics/topic06/downloads/selftest-MATCH-sex_determination.html" %}
-
-</details>
-
-
-## Stages of Meiosis Prophase I
-
-<div id="MC-meiosis_prophase_1-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MC-meiosis_prophase_1-questions.txt" download title="Download bbq-MC-meiosis_prophase_1-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-meiosis_prophase_1-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
-</a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MC-meiosis_prophase_1.zip" download title="Download blackboard_qti_v2_1-MC-meiosis_prophase_1.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MC-meiosis_prophase_1.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MC-meiosis_prophase_1.zip" download title="Download canvas_qti_v1_2-MC-meiosis_prophase_1.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MC-meiosis_prophase_1.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MC-meiosis_prophase_1.html', '_blank')" title="View human_readable-MC-meiosis_prophase_1.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MC-meiosis_prophase_1.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Stages of Meiosis Prophase I
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  {% include "genetics/topic06/downloads/selftest-MC-meiosis_prophase_1.html" %}
-
-</details>
-
-
-## Meiosis Terms Identification
-
-<div id="MC-meiosis_terms-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MC-meiosis_terms-questions.txt" download title="Download bbq-MC-meiosis_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-meiosis_terms-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
-</a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MC-meiosis_terms.zip" download title="Download blackboard_qti_v2_1-MC-meiosis_terms.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MC-meiosis_terms.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MC-meiosis_terms.zip" download title="Download canvas_qti_v1_2-MC-meiosis_terms.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MC-meiosis_terms.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MC-meiosis_terms.html', '_blank')" title="View human_readable-MC-meiosis_terms.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MC-meiosis_terms.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Meiosis Terms Identification
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  {% include "genetics/topic06/downloads/selftest-MC-meiosis_terms.html" %}
-
-</details>
-
-
-## Sex Determination Systems
-
-<div id="MC-sex_determination-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MC-sex_determination-questions.txt" download title="Download bbq-MC-sex_determination-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MC-sex_determination-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
-</a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MC-sex_determination.zip" download title="Download blackboard_qti_v2_1-MC-sex_determination.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MC-sex_determination.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MC-sex_determination.zip" download title="Download canvas_qti_v1_2-MC-sex_determination.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MC-sex_determination.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MC-sex_determination.html', '_blank')" title="View human_readable-MC-sex_determination.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MC-sex_determination.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Sex Determination Systems
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  {% include "genetics/topic06/downloads/selftest-MC-sex_determination.html" %}
 
 </details>
 
@@ -211,6 +124,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-mitosis_and_meiosis.html', '_blank')" title="View human_readable-TFMS-mitosis_and_meiosis.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-mitosis_and_meiosis.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/mitosis_and_meiosis.pg" download title="Download mitosis_and_meiosis.pg" aria-label="Click to download the WeBWorK PGML file (mitosis_and_meiosis.pg)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -224,6 +140,111 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
     </span>
   </summary>
   {% include "genetics/topic06/downloads/selftest-TFMS-mitosis_and_meiosis.html" %}
+
+</details>
+
+
+## Matching Meiosis Prophase I Stages to Their Descriptions
+
+<div id="WOMC-meiosis_prophase_1-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-WOMC-meiosis_prophase_1-questions.txt" download title="Download bbq-WOMC-meiosis_prophase_1-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-meiosis_prophase_1-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-meiosis_prophase_1.zip" download title="Download blackboard_qti_v2_1-WOMC-meiosis_prophase_1.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-meiosis_prophase_1.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-meiosis_prophase_1.zip" download title="Download canvas_qti_v1_2-WOMC-meiosis_prophase_1.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-meiosis_prophase_1.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-meiosis_prophase_1.html', '_blank')" title="View human_readable-WOMC-meiosis_prophase_1.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-meiosis_prophase_1.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/meiosis_prophase_1-which_one.pgml" download title="Download meiosis_prophase_1-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (meiosis_prophase_1-which_one.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Matching Meiosis Prophase I Stages to Their Descriptions
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic06/downloads/selftest-WOMC-meiosis_prophase_1.html" %}
+
+</details>
+
+
+## Meiosis Terms from Definitions
+
+<div id="WOMC-meiosis_terms-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-WOMC-meiosis_terms-questions.txt" download title="Download bbq-WOMC-meiosis_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-meiosis_terms-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-meiosis_terms.zip" download title="Download blackboard_qti_v2_1-WOMC-meiosis_terms.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-meiosis_terms.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-meiosis_terms.zip" download title="Download canvas_qti_v1_2-WOMC-meiosis_terms.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-meiosis_terms.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-meiosis_terms.html', '_blank')" title="View human_readable-WOMC-meiosis_terms.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-meiosis_terms.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/meiosis_terms-which_one.pgml" download title="Download meiosis_terms-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (meiosis_terms-which_one.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Meiosis Terms from Definitions
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic06/downloads/selftest-WOMC-meiosis_terms.html" %}
+
+</details>
+
+
+## Sex Determination Systems
+
+<div id="WOMC-sex_determination-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-WOMC-sex_determination-questions.txt" download title="Download bbq-WOMC-sex_determination-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-sex_determination-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-sex_determination.zip" download title="Download blackboard_qti_v2_1-WOMC-sex_determination.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-sex_determination.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-sex_determination.zip" download title="Download canvas_qti_v1_2-WOMC-sex_determination.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-sex_determination.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-sex_determination.html', '_blank')" title="View human_readable-WOMC-sex_determination.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-sex_determination.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/sex_determination-which_one.pgml" download title="Download sex_determination-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (sex_determination-which_one.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Sex Determination Systems
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic06/downloads/selftest-WOMC-sex_determination.html" %}
 
 </details>
 
@@ -292,70 +313,6 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </details>
 
 
-## Pedigree Analysis
-
-<div id="pedigree_choice-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-pedigree_choice-questions.txt" download title="Download bbq-pedigree_choice-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-pedigree_choice-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
-</a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-pedigree_choice.zip" download title="Download blackboard_qti_v2_1-pedigree_choice.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-pedigree_choice.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-pedigree_choice.zip" download title="Download canvas_qti_v1_2-pedigree_choice.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-pedigree_choice.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-pedigree_choice.html', '_blank')" title="View human_readable-pedigree_choice.html" aria-label="Click to view the Human-Readable TXT file (human_readable-pedigree_choice.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Pedigree Analysis
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  {% include "genetics/topic06/downloads/selftest-pedigree_choice.html" %}
-
-</details>
-
-
-## Match Pedigrees to Inheritance Types
-
-<div id="pedigree_match-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-pedigree_match-questions.txt" download title="Download bbq-pedigree_match-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-pedigree_match-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
-</a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-pedigree_match.zip" download title="Download blackboard_qti_v2_1-pedigree_match.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-pedigree_match.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-pedigree_match.zip" download title="Download canvas_qti_v1_2-pedigree_match.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-pedigree_match.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-pedigree_match.html', '_blank')" title="View human_readable-pedigree_match.html" aria-label="Click to view the Human-Readable TXT file (human_readable-pedigree_match.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Match Pedigrees to Inheritance Types
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  {% include "genetics/topic06/downloads/selftest-pedigree_match.html" %}
-
-</details>
-
-
 ## X-linked Recessive Phenotype Cross
 
 <div id="poisson_flies-button-container" class="button-container">
@@ -387,38 +344,6 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
     </span>
   </summary>
   {% include "genetics/topic06/downloads/selftest-poisson_flies.html" %}
-
-</details>
-
-
-## Probability of Gender Distribution in Children
-
-<div id="probabiliy_of_progeny-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-probabiliy_of_progeny-questions.txt" download title="Download bbq-probabiliy_of_progeny-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-probabiliy_of_progeny-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
-</a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-probabiliy_of_progeny.zip" download title="Download blackboard_qti_v2_1-probabiliy_of_progeny.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-probabiliy_of_progeny.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-probabiliy_of_progeny.zip" download title="Download canvas_qti_v1_2-probabiliy_of_progeny.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-probabiliy_of_progeny.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-probabiliy_of_progeny.html', '_blank')" title="View human_readable-probabiliy_of_progeny.html" aria-label="Click to view the Human-Readable TXT file (human_readable-probabiliy_of_progeny.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Probability of Gender Distribution in Children
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  {% include "genetics/topic06/downloads/selftest-probabiliy_of_progeny.html" %}
 
 </details>
 

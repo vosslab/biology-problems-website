@@ -4,6 +4,41 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 
 **LibreTexts reference:** [Unit 1, Chapter 1: Molecules of Life](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.01%3A_Molecules_of_Life) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.01%3A_Molecules_of_Life" target="_blank" rel="noopener" aria-label="LibreTexts Unit 1, Chapter 1" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
+## Matching Biochemical Functional Groups
+
+<div id="MATCH-biochemical_functional_groups-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-MATCH-biochemical_functional_groups-questions.txt" download title="Download bbq-MATCH-biochemical_functional_groups-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-biochemical_functional_groups-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-biochemical_functional_groups.zip" download title="Download blackboard_qti_v2_1-MATCH-biochemical_functional_groups.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-biochemical_functional_groups.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-biochemical_functional_groups.zip" download title="Download canvas_qti_v1_2-MATCH-biochemical_functional_groups.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-biochemical_functional_groups.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-biochemical_functional_groups.html', '_blank')" title="View human_readable-MATCH-biochemical_functional_groups.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-biochemical_functional_groups.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/biochemical_functional_groups-matching.pgml" download title="Download biochemical_functional_groups-matching.pgml" aria-label="Click to download the WeBWorK PGML file (biochemical_functional_groups-matching.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Matching Biochemical Functional Groups
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biochemistry/topic01/downloads/selftest-MATCH-biochemical_functional_groups.html" %}
+
+</details>
+
+
 ## Chemical Bond Types and Characteristics
 
 <div id="MATCH-bond_types-button-container" class="button-container">
@@ -105,6 +140,41 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
     </span>
   </summary>
   {% include "biochemistry/topic01/downloads/selftest-MATCH-macromolecules.html" %}
+
+</details>
+
+
+## Biochemical Functional Groups from Descriptions
+
+<div id="WOMC-biochemical_functional_groups-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-WOMC-biochemical_functional_groups-questions.txt" download title="Download bbq-WOMC-biochemical_functional_groups-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-biochemical_functional_groups-questions.txt)">
+    <i class="fa fa-download"></i>Blackboard Learn TXT
+</a>
+<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-biochemical_functional_groups.zip" download title="Download blackboard_qti_v2_1-WOMC-biochemical_functional_groups.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-biochemical_functional_groups.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-biochemical_functional_groups.zip" download title="Download canvas_qti_v1_2-WOMC-biochemical_functional_groups.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-biochemical_functional_groups.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-biochemical_functional_groups.html', '_blank')" title="View human_readable-WOMC-biochemical_functional_groups.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-biochemical_functional_groups.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/biochemical_functional_groups-which_one.pgml" download title="Download biochemical_functional_groups-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (biochemical_functional_groups-which_one.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Biochemical Functional Groups from Descriptions
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biochemistry/topic01/downloads/selftest-WOMC-biochemical_functional_groups.html" %}
 
 </details>
 

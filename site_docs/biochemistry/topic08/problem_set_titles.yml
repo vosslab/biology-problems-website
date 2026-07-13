@@ -1,7 +1,16 @@
+bbq-MATCH-catalytic_strategies-questions.txt: Matching Enzyme Catalytic Mechanisms
+  with Definitions
+bbq-TFMS-catalytic_strategies-questions.txt: Determining True/False Statements About
+  Enzyme Catalytic Strategies
+bbq-TFMS-chymotrypsin-questions.txt: Determining True/False Statements About Chymotrypsin
+  Enzyme Function
+bbq-TFMS-enzyme_inhibitors-questions.txt: Determining True/False Statements About
+  Enzyme Inhibitors
+bbq-WOMC-catalytic_strategies-questions.txt: Enzyme Catalysis Mechanisms from Definitions
 bbq-chymotrypsin_substrate-questions.txt: Cleavage Sites for Chymotrypsin Digestion
   of Peptides
 bbq-metabolic_pathway_inhibitor-BCHM355-questions.txt: Determining Enzyme Inhibition
   Type from Metabolic Pathway Descriptions
 bbq-michaelis_menten_table-inhibition-questions.txt: Determining Inhibition Type from
   Enzyme Activity Data
-last edit: Mon Jun  8 06:21:09 2026
+last edit: Sun Jul 12 21:56:19 2026
