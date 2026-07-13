@@ -2,6 +2,18 @@
 
 ## 2026-07-12
 
+### Additions and New Features
+
+- Added `tests/playwright/capture_docs_screenshots.mjs` as a self-contained
+  documentation capture command. It starts and stops `mkdocs serve`, waits for
+  readiness, and captures stable website views through a directly executable
+  Node shebang. The `npm run docs:screenshots` alias invokes the same script.
+  Added `docs/screenshots/website_home.png`,
+  `docs/screenshots/hla_problem_sets.png`, and
+  `docs/screenshots/daily_puzzles.png` and embedded them in `README.md`.
+- Added `docs/RELATED_PROJECTS.md`, `docs/RELEASE_HISTORY.md`, and `docs/NEWS.md`
+  as the sourced project map, full release summary, and curated highlights.
+
 ### Behavior or Interface Changes
 
 - Expanded the ten `bbq_control/task_files/*.csv` controls from the prior
@@ -15,6 +27,9 @@
 
 ### Fixes and Maintenance
 
+- Refreshed the repository docset and rewrote `README.md` around the live
+  `biologyproblems.org` experience, interactive practice, daily puzzles, and
+  instructor-ready download formats.
 - Individually reviewed all 500 problem-set titles across 56 topic files. MATCH
   titles now explicitly say "Matching", TFMS titles use "True/False Statements
   About", and similar parameterized sets expose their distinguishing format,
@@ -56,6 +71,8 @@
 
 ### Developer Tests and Notes
 
+- Verified the executable documentation capture workflow end to end and ran the
+  full repository suite with 5,492 passing tests.
 - The sibling biology-problems validator reports 178/178 generators and 98/98
   YAML banks covered, with zero invalid chapters, routing failures, exact
   duplicates, or same-subject chapter conflicts.
