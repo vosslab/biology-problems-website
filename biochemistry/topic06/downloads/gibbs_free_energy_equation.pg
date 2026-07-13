@@ -6,7 +6,7 @@
 ## DBsubject('Biochemistry')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-04-19')
+## Date('2026-07-12')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -29,9 +29,9 @@ $showPartialCorrectAnswers = 1;
 
 @true_groups = (
   [
-    '<span style="color: #0067cc; font-weight:700;">&Delta;<i>G</i></span> is the change in <span style="color: #a719db; font-weight:700;">free energy</span>',
-    '<span style="color: #d40000; font-weight:700;">&Delta;<i>H</i></span> is the change in <span style="color: #b74300; font-weight:700;">enthalpy</span>',
-    '<span style="color: #076dad; font-weight:700;">&Delta;<i>S</i></span> is the change in <span style="color: #007576; font-weight:700;">entropy</span>',
+    '&Delta;G is the change in free energy',
+    '&Delta;H is the change in enthalpy',
+    '&Delta;S is the change in entropy',
   ],
   [
     '<span style="color: #007576; font-weight:700;">entropy</span> is associated with a state of disorder, randomness, or uncertainty',
@@ -40,14 +40,14 @@ $showPartialCorrectAnswers = 1;
     'the Gibbs <span style="color: #a719db; font-weight:700;">free energy</span> can be described as the energy available to do work',
   ],
   [
-    '<span style="color: #935d00; font-weight:700;"><i>T</i></span>is the <span style="color: #6c6c00; font-weight:700;">temperature</span> in <span style="color: #cc0066; font-weight:700;">degrees Kelvin</span>',
+    'Tis the temperature in degrees Kelvin',
   ],
   [
-    'When <span style="color: #0067cc; font-weight:700;">&Delta;<i>G</i></span> = 0 the reaction has reached equilibrium',
+    'When &Delta;G = 0 the reaction has reached equilibrium',
   ],
   [
-    'When <span style="color: #0067cc; font-weight:700;">&Delta;<i>G</i></span> &gt; 0 the reaction is called <span style="color: #c80085; font-weight:700;">non-spontaneous</span>',
-    'When <span style="color: #0067cc; font-weight:700;">&Delta;<i>G</i></span> &lt; 0 the reaction is called<span style="color: #007a00; font-weight:700;">spontaneous</span>',
+    'When &Delta;G &gt; 0 the reaction is called non-spontaneous',
+    'When &Delta;G &lt; 0 the reaction is calledspontaneous',
   ],
   [
     'Negative <span style="color: #b74300; font-weight:700;">enthalpy</span> makes a reaction more favorable',
@@ -56,12 +56,12 @@ $showPartialCorrectAnswers = 1;
 );
 @false_groups = (
   [
-    '<span style="color: #d40000; font-weight:700;">&Delta;<i>H</i></span> is the change in <span style="color: #a719db; font-weight:700;">free energy</span>',
-    '<span style="color: #076dad; font-weight:700;">&Delta;<i>S</i></span> is the change in <span style="color: #a719db; font-weight:700;">free energy</span>',
-    '<span style="color: #0067cc; font-weight:700;">&Delta;<i>G</i></span> is the change in <span style="color: #b74300; font-weight:700;">enthalpy</span>',
-    '<span style="color: #076dad; font-weight:700;">&Delta;<i>S</i></span> is the change in <span style="color: #b74300; font-weight:700;">enthalpy</span>',
-    '<span style="color: #0067cc; font-weight:700;">&Delta;<i>G</i></span> is the change in <span style="color: #007576; font-weight:700;">entropy</span>',
-    '<span style="color: #d40000; font-weight:700;">&Delta;<i>H</i></span> is the change in <span style="color: #007576; font-weight:700;">entropy</span>',
+    '&Delta;H is the change in free energy',
+    '&Delta;S is the change in free energy',
+    '&Delta;G is the change in enthalpy',
+    '&Delta;S is the change in enthalpy',
+    '&Delta;G is the change in entropy',
+    '&Delta;H is the change in entropy',
   ],
   [
     '<span style="color: #b74300; font-weight:700;">enthalpy</span> is associated with a state of disorder, randomness, or uncertainty',
@@ -74,24 +74,24 @@ $showPartialCorrectAnswers = 1;
     '<span style="color: #a719db; font-weight:700;">free energy</span> is associated with the heat content of a system',
   ],
   [
-    '<span style="color: #935d00; font-weight:700;"><i>T</i></span>is the <span style="color: #6c6c00; font-weight:700;">temperature</span> in <span style="color: #cc0066; font-weight:700;">degrees Celcius</span>',
-    '<span style="color: #935d00; font-weight:700;"><i>T</i></span>is the <span style="color: #6c6c00; font-weight:700;">temperature</span> in <span style="color: #cc0066; font-weight:700;">degrees Fahrenheit</span>',
+    'Tis the temperature in degrees Celcius',
+    'Tis the temperature in degrees Fahrenheit',
   ],
   [
-    'When <span style="color: #d40000; font-weight:700;">&Delta;<i>H</i></span> = 0 the reaction has reached equilibrium',
-    'When <span style="color: #076dad; font-weight:700;">&Delta;<i>S</i></span> = 0 the reaction has reached equilibrium',
+    'When &Delta;H = 0 the reaction has reached equilibrium',
+    'When &Delta;S = 0 the reaction has reached equilibrium',
   ],
   [
-    'When <span style="color: #d40000; font-weight:700;">&Delta;<i>H</i></span> &lt; 0 the reaction is called<span style="color: #007a00; font-weight:700;">spontaneous</span>',
-    'When <span style="color: #076dad; font-weight:700;">&Delta;<i>S</i></span> &lt; 0 the reaction is called<span style="color: #007a00; font-weight:700;">spontaneous</span>',
-    'When <span style="color: #d40000; font-weight:700;">&Delta;<i>H</i></span> &lt; 0 the reaction is called <span style="color: #c80085; font-weight:700;">non-spontaneous</span>',
-    'When <span style="color: #076dad; font-weight:700;">&Delta;<i>S</i></span> &lt; 0 the reaction is called <span style="color: #c80085; font-weight:700;">non-spontaneous</span>',
-    'When <span style="color: #d40000; font-weight:700;">&Delta;<i>H</i></span> &gt; 0 the reaction is called<span style="color: #007a00; font-weight:700;">spontaneous</span>',
-    'When <span style="color: #076dad; font-weight:700;">&Delta;<i>S</i></span> &gt; 0 the reaction is called<span style="color: #007a00; font-weight:700;">spontaneous</span>',
-    'When <span style="color: #d40000; font-weight:700;">&Delta;<i>H</i></span> &gt; 0 the reaction is called <span style="color: #c80085; font-weight:700;">non-spontaneous</span>',
-    'When <span style="color: #076dad; font-weight:700;">&Delta;<i>S</i></span> &gt; 0 the reaction is called <span style="color: #c80085; font-weight:700;">non-spontaneous</span>',
-    'When <span style="color: #0067cc; font-weight:700;">&Delta;<i>G</i></span> &lt; 0 the reaction is called <span style="color: #c80085; font-weight:700;">non-spontaneous</span>',
-    'When <span style="color: #0067cc; font-weight:700;">&Delta;<i>G</i></span> &gt; 0 the reaction is called<span style="color: #007a00; font-weight:700;">spontaneous</span>',
+    'When &Delta;H &lt; 0 the reaction is calledspontaneous',
+    'When &Delta;S &lt; 0 the reaction is calledspontaneous',
+    'When &Delta;H &lt; 0 the reaction is called non-spontaneous',
+    'When &Delta;S &lt; 0 the reaction is called non-spontaneous',
+    'When &Delta;H &gt; 0 the reaction is calledspontaneous',
+    'When &Delta;S &gt; 0 the reaction is calledspontaneous',
+    'When &Delta;H &gt; 0 the reaction is called non-spontaneous',
+    'When &Delta;S &gt; 0 the reaction is called non-spontaneous',
+    'When &Delta;G &lt; 0 the reaction is called non-spontaneous',
+    'When &Delta;G &gt; 0 the reaction is calledspontaneous',
   ],
   [
     'Negative <span style="color: #007576; font-weight:700;">entropy</span> makes a reaction more favorable',
@@ -107,7 +107,7 @@ $showPartialCorrectAnswers = 1;
 # GLOBAL SETTINGS
 #==========================================================
 
-$topic = 'the Gibbs <span style="color: #a719db; font-weight:700;">free energy</span>, <span style="color: #0067cc; font-weight:700;">&Delta;<i>G</i></span> = <span style="color: #d40000; font-weight:700;">&Delta;<i>H</i></span> &ndash; <span style="color: #935d00; font-weight:700;"><i>T</i></span><span style="color: #076dad; font-weight:700;">&Delta;<i>S</i></span>';
+$topic = 'the Gibbs free energy, &Delta;G = &Delta;H &ndash; T&Delta;S';
 my $local_random = PGrandom->new();
 $local_random->srand($problemSeed);
 my @mode_choices = ("TRUE", "FALSE");

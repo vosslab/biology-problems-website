@@ -13,11 +13,10 @@ bbq-linear_digest-length_16-sites_4-strand-questions.txt: Restriction Enzyme DNA
   Products (16 Length, 4 Sites)
 bbq-linear_digest-length_8-sites_2-fragment-questions.txt: Restriction Enzyme DNA
   Fragment Products (8 Length, 2 Sites)
-bbq-overhang_sequence-MC-6_choices-questions.txt: Restriction Enzyme Overhang Sequences
-  (6 Choices)
-bbq-overhang_type-end_type-questions.txt: Restriction Enzyme Cleavage Types
-bbq-overhang_type-overhang_type-questions.txt: Restriction Enzyme Overhang Types
-bbq-palindrome_sequence_match-questions.txt: Palindromic Sequence Matches
+bbq-overhang_sequence-mc-questions.txt: Restriction Enzyme Overhang Sequences
+bbq-overhang_type-5_3_blunt-questions.txt: Restriction Enzyme Cut Types
+bbq-overhang_type-blunt_v_sticky-questions.txt: Restriction Enzyme Overhang Type from
+  Cleavage Patterns
 bbq-who_father_html-EASY-3_males-questions.txt: RFLP Paternity Testing Results (EASY,
   3 Males)
 bbq-who_father_html-HARD-9_males-questions.txt: RFLP Paternity Testing Results (HARD,
@@ -30,4 +29,4 @@ bbq-who_killer_html-HARD-9_suspects-questions.txt: RFLP Forensic DNA Analysis Re
   (HARD, 9 Suspects)
 bbq-who_killer_html-MEDIUM-5_suspects-questions.txt: RFLP Forensic DNA Analysis Results
   (MEDIUM, 5 Suspects)
-last edit: Sun Apr 19 11:38:20 2026
+last edit: Sun Jul 12 22:23:26 2026

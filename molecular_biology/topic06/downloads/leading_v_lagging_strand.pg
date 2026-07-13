@@ -1,0 +1,203 @@
+## TITLE('Difference Between the Leading Strand and the Lagging Strand in DNA Replication')
+## DESCRIPTION
+## Select the statement that is TRUE or FALSE about difference between the leading strand and the lagging strand in DNA replication.
+## ENDDESCRIPTION
+## KEYWORDS('difference between the leading strand and the lagging strand in DNA replication','true/false','multiple choice')
+## DBsubject('Molecular Biology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-07-12')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "PGchoicemacros.pl",
+  "parserRadioButtons.pl",
+  "PGcourse.pl",
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+#==========================================================
+# AUTO-GENERATED GROUPS FROM YAML
+#==========================================================
+
+@true_groups = (
+  [
+    'the <span style="color: #002699; font-weight:700;">leading strand</span> is replicated continuously, while the <span style="color: #995c00; font-weight:700;">lagging strand</span> is replicated piecewise',
+    'the <span style="color: #995c00; font-weight:700;">lagging strand</span> is replicated piecewise, while the <span style="color: #002699; font-weight:700;">leading strand</span> is replicated continuously',
+    'the <span style="color: #002699; font-weight:700;">leading strand</span> is replicated continuously, while the <span style="color: #995c00; font-weight:700;">lagging strand</span> is replicated discontinuously',
+    'the <span style="color: #995c00; font-weight:700;">lagging strand</span> is replicated discontinuously, while the <span style="color: #002699; font-weight:700;">leading strand</span> is replicated continuously',
+    'the <span style="color: #002699; font-weight:700;">leading strand</span> is synthesized continuously,<br/> whereas the <span style="color: #995c00; font-weight:700;">lagging strand</span> is synthesized in short fragments that are ultimately stitched together',
+    'the <span style="color: #995c00; font-weight:700;">lagging strand</span> is synthesized in short fragments that are ultimately stitched together,<br/> whereas the <span style="color: #002699; font-weight:700;">leading strand</span> is synthesized continuously',
+  ],
+  [
+    'both the the <span style="color: #002699; font-weight:700;">leading strand</span> and the <span style="color: #995c00; font-weight:700;">lagging strand</span> are synthesized in the 5&prime;&rarr;3&prime; direction of the template strand',
+  ],
+  [
+    'both the <span style="color: #002699; font-weight:700;">leading strand</span> and the <span style="color: #995c00; font-weight:700;">lagging strand</span> require <span style="color: #b33000; font-weight:700;">RNA primers</span>',
+  ],
+  [
+    '<span style="color: maroon; font-weight:700;">Okazaki fragments</span> are DNA fragments synthesized on the <span style="color: #995c00; font-weight:700;">lagging strand</span>, but NOT on the <span style="color: #002699; font-weight:700;">leading strand</span>',
+  ],
+  [
+    'the <span style="color: #002699; font-weight:700;">leading strand</span> is only synthesized by a single polymerase, while <span style="color: #995c00; font-weight:700;">lagging strand</span> uses more than one',
+    'the <span style="color: #995c00; font-weight:700;">lagging strand</span> is synthesized by multiple polymerases, while <span style="color: #002699; font-weight:700;">leading strand</span> only uses one',
+  ],
+  [
+    'the <span style="color: #002699; font-weight:700;">leading strand</span> is synthesized in the same direction as the movement of the replication fork,<br/> whereas the <span style="color: #995c00; font-weight:700;">lagging strand</span> is synthesized in the opposite direction',
+    'the <span style="color: #995c00; font-weight:700;">lagging strand</span> is synthesized in the opposite direction as the movement of the replication fork,<br/> whereas the <span style="color: #002699; font-weight:700;">leading strand</span> is synthesized in the same direction',
+  ],
+  [
+    'both the <span style="color: #002699; font-weight:700;">leading strand</span> and the <span style="color: #995c00; font-weight:700;">lagging strand</span> are synthesized by adding nucleotides to the 3&prime; end of the growing strand',
+  ],
+);
+@false_groups = (
+  [
+    'the <span style="color: #002699; font-weight:700;">leading strand</span> is replicated piecewise, while the <span style="color: #995c00; font-weight:700;">lagging strand</span> is replicated continuously',
+    'the <span style="color: #995c00; font-weight:700;">lagging strand</span> is replicated continuously, while the <span style="color: #002699; font-weight:700;">leading strand</span> is replicated piecewise',
+    'the <span style="color: #002699; font-weight:700;">leading strand</span> is replicated discontinuously, while the <span style="color: #995c00; font-weight:700;">lagging strand</span> is replicated continuously',
+    'the <span style="color: #995c00; font-weight:700;">lagging strand</span> is replicated continuously, while the <span style="color: #002699; font-weight:700;">leading strand</span> is replicated discontinuously',
+    'both the <span style="color: #002699; font-weight:700;">leading strand</span> and the <span style="color: #995c00; font-weight:700;">lagging strand</span> are replicated continuously',
+    'both the <span style="color: #002699; font-weight:700;">leading strand</span> and the <span style="color: #995c00; font-weight:700;">lagging strand</span> are replicated discontinuously',
+    'both the <span style="color: #002699; font-weight:700;">leading strand</span> and the <span style="color: #995c00; font-weight:700;">lagging strand</span> are replicated piecewise',
+    'the <span style="color: #995c00; font-weight:700;">lagging strand</span> is synthesized continuously,<br/> whereas the <span style="color: #002699; font-weight:700;">leading strand</span> is synthesized in short fragments that are ultimately stitched together',
+    'the <span style="color: #002699; font-weight:700;">leading strand</span> is synthesized in short fragments that are ultimately stitched together,<br/> whereas the <span style="color: #995c00; font-weight:700;">lagging strand</span> is synthesized continuously',
+  ],
+  [
+    'the <span style="color: #002699; font-weight:700;">leading strand</span> is synthesized in the 3&prime;&rarr;5&prime; direction of the template strand,<br/> while the <span style="color: #995c00; font-weight:700;">lagging strand</span> is synthesized in the 5&prime;&rarr;3&prime; direction of the template strand',
+    'the <span style="color: #995c00; font-weight:700;">lagging strand</span> is synthesized in the 3&prime;&rarr;5&prime; direction of the template strand,<br/> while the <span style="color: #002699; font-weight:700;">leading strand</span> is synthesized in the 5&prime;&rarr;3&prime; direction of the template strand',
+    'both the the <span style="color: #002699; font-weight:700;">leading strand</span> and the <span style="color: #995c00; font-weight:700;">lagging strand</span> are synthesized in the 3&prime;&rarr;5&prime; direction of the template strand',
+  ],
+  [
+    'the <span style="color: #002699; font-weight:700;">leading strand</span> requires <span style="color: #b33000; font-weight:700;">RNA primers</span>, whereas the <span style="color: #995c00; font-weight:700;">lagging strand</span> does not',
+    'the <span style="color: #995c00; font-weight:700;">lagging strand</span> requires <span style="color: #b33000; font-weight:700;">RNA primers</span>, whereas the <span style="color: #002699; font-weight:700;">leading strand</span> does not',
+    'the <span style="color: #002699; font-weight:700;">leading strand</span> requires <span style="color: #248f24; font-weight:700;">DNA primers</span>, whereas the <span style="color: #995c00; font-weight:700;">lagging strand</span> does not',
+    'the <span style="color: #995c00; font-weight:700;">lagging strand</span> requires <span style="color: #248f24; font-weight:700;">DNA primers</span>, whereas the <span style="color: #002699; font-weight:700;">leading strand</span> does not',
+    'both the <span style="color: #002699; font-weight:700;">leading strand</span> and the <span style="color: #995c00; font-weight:700;">lagging strand</span> require <span style="color: #248f24; font-weight:700;">DNA primers</span>',
+  ],
+  [
+    '<span style="color: maroon; font-weight:700;">Okazaki fragments</span> are DNA fragments synthesized on the <span style="color: #002699; font-weight:700;">leading strand</span>, but NOT on the <span style="color: #995c00; font-weight:700;">lagging strand</span>',
+    '<span style="color: maroon; font-weight:700;">Okazaki fragments</span> are DNA fragments synthesized on both the <span style="color: #002699; font-weight:700;">leading strand</span> and the <span style="color: #995c00; font-weight:700;">lagging strand</span>',
+  ],
+  [
+    'the <span style="color: #995c00; font-weight:700;">lagging strand</span> is only synthesized by a single polymerase, while the <span style="color: #002699; font-weight:700;">leading strand</span> uses more than one',
+    'a single polymerase creates both the <span style="color: #002699; font-weight:700;">leading strand</span> and the <span style="color: #995c00; font-weight:700;">lagging strand</span>',
+    'multiple polymerase enzymes are required to synthesize the <span style="color: #002699; font-weight:700;">leading strand</span> and the <span style="color: #995c00; font-weight:700;">lagging strand</span>',
+  ],
+  [
+    'the <span style="color: #995c00; font-weight:700;">lagging strand</span> is synthesized in the same direction as the movement of the replication fork,<br/> and the <span style="color: #002699; font-weight:700;">leading strand</span> is synthesized in the opposite direction',
+    'the <span style="color: #002699; font-weight:700;">leading strand</span> is synthesized in the opposite direction as the movement of the replication fork,<br/> whereas the <span style="color: #995c00; font-weight:700;">lagging strand</span> is synthesized in the same direction',
+    'both the <span style="color: #002699; font-weight:700;">leading strand</span> and the <span style="color: #995c00; font-weight:700;">lagging strand</span> are synthesized in the same direction as the movement of the replication fork',
+    'both the <span style="color: #002699; font-weight:700;">leading strand</span> and the <span style="color: #995c00; font-weight:700;">lagging strand</span> are synthesized in the opposite direction as the movement of the replication fork',
+  ],
+  [
+    'the <span style="color: #002699; font-weight:700;">leading strand</span> is synthesized by adding nucleotides to the 3&prime; end of the growing strand,<br/> whereas the <span style="color: #995c00; font-weight:700;">lagging strand</span> is synthesized by adding nucleotides to the 5&prime; end',
+    'the <span style="color: #995c00; font-weight:700;">lagging strand</span> is synthesized by adding nucleotides to the 3&prime; end of the growing strand,<br/> whereas the <span style="color: #002699; font-weight:700;">leading strand</span> is synthesized by adding nucleotides to the 5&prime; end',
+    'both the <span style="color: #002699; font-weight:700;">leading strand</span> and the <span style="color: #995c00; font-weight:700;">lagging strand</span> are synthesized by adding nucleotides to the 5&prime; end of the growing strand',
+  ],
+  [
+    'the <span style="color: #002699; font-weight:700;">leading strand</span> is synthesized at twice the rate of the <span style="color: #995c00; font-weight:700;">lagging strand</span>',
+    'the <span style="color: #995c00; font-weight:700;">lagging strand</span> is synthesized at twice the rate of the <span style="color: #002699; font-weight:700;">leading strand</span>',
+    'the <span style="color: #002699; font-weight:700;">leading strand</span> is synthesized at half the rate of the <span style="color: #995c00; font-weight:700;">lagging strand</span>',
+    'the <span style="color: #995c00; font-weight:700;">lagging strand</span> is synthesized at half the rate of the <span style="color: #002699; font-weight:700;">leading strand</span>',
+    'the <span style="color: #002699; font-weight:700;">leading strand</span> is synthesized at four times the rate of the <span style="color: #995c00; font-weight:700;">lagging strand</span>',
+    'the <span style="color: #995c00; font-weight:700;">lagging strand</span> is synthesized at four times the rate of the <span style="color: #002699; font-weight:700;">leading strand</span>',
+  ],
+);
+
+#==========================================================
+# GLOBAL SETTINGS
+#==========================================================
+
+$topic = 'difference between the <span style="color: #002699; font-weight:700;">leading strand</span> and the <span style="color: #995c00; font-weight:700;">lagging strand</span> in DNA replication';
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+my @mode_choices = ("TRUE", "FALSE");
+$mode = $mode_choices[$local_random->random(0, $#mode_choices, 1)];
+$num_distractors = 4;
+#==========================================================
+# SELECT GROUP
+#==========================================================
+
+my (@selected_group, @opposite_groups);
+
+if ($mode eq "TRUE") {
+  $group_index      = $local_random->random(0, scalar(@true_groups)-1, 1);
+  @selected_group   = @{ $true_groups[$group_index] };
+  @opposite_groups  = @false_groups;
+} else {
+  $group_index      = $local_random->random(0, scalar(@false_groups)-1, 1);
+  @selected_group   = @{ $false_groups[$group_index] };
+  @opposite_groups  = @true_groups;
+}
+
+#==========================================================
+# PICK CORRECT + DISTRACTORS
+#==========================================================
+
+my $correct_index = $local_random->random(0, $#selected_group, 1);
+$correct = $selected_group[$correct_index];
+
+my @available_group_indices = (0 .. $#opposite_groups);
+my @selected_distractor_indices = ();
+
+while (@selected_distractor_indices < $num_distractors && @available_group_indices > 0) {
+  my $random_index = $local_random->random(0, scalar(@available_group_indices)-1, 1);
+  push @selected_distractor_indices, splice(@available_group_indices, $random_index, 1);
+}
+
+@distractors = ();
+foreach my $group_idx (@selected_distractor_indices) {
+  my @group = @{ $opposite_groups[$group_idx] };
+  my $distractor_index = $local_random->random(0, $#group, 1);
+  my $distractor = $group[$distractor_index];
+  push @distractors, $distractor;
+}
+
+@choices = ($correct, @distractors);
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# RADIO BUTTONS WITH A/B/C/D/E LABELS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => ['A','B','C','D','E'],
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+[@ $mode eq "TRUE" ? "Which one of the following statements is <span style='color: #127663;'><strong>TRUE</strong></span> about $topic?" : "Which one of the following statements is <span style='color: #ba372a;'><strong>FALSE</strong></span> about $topic?" @]*
+
+[_]{$rb}
+
+END_PGML
+
+ENDDOCUMENT();
+

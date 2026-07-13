@@ -1,0 +1,195 @@
+## TITLE('Chemical Reactions')
+## DESCRIPTION
+## Select the statement that is TRUE or FALSE about chemical reactions.
+## ENDDESCRIPTION
+## KEYWORDS('chemical reactions','true/false','multiple choice')
+## DBsubject('Biochemistry')
+## DBchapter('')
+## DBsection('')
+## Date('2026-07-12')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "PGchoicemacros.pl",
+  "parserRadioButtons.pl",
+  "PGcourse.pl",
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+#==========================================================
+# AUTO-GENERATED GROUPS FROM YAML
+#==========================================================
+
+@true_groups = (
+  [
+    '<span style="color: #c80085; font-weight:700;">Chemical&nbsp;reactions</span> always involve a change in the chemical composition of <span style="color: #a719db; font-weight:700;">substances</span>.',
+  ],
+  [
+    '<span style="color: #c80085; font-weight:700;">Chemical&nbsp;reactions</span> always transform one or more <span style="color: #a719db; font-weight:700;">substances</span> into one or more different <span style="color: #a719db; font-weight:700;">substances</span>.',
+  ],
+  [
+    'The rate of a chemical reaction depends on temperature, pressure, and the presence of catalysts.',
+  ],
+  [
+    '<span style="color: #c80085; font-weight:700;">Chemical&nbsp;reactions</span> always involve the forming and breaking of chemical bonds',
+  ],
+  [
+    'For <span style="color: #c80085; font-weight:700;">chemical&nbsp;reactions</span> to occur, the chemical identity of the <span style="color: #a719db; font-weight:700;">substances</span> must change.',
+    'For <span style="color: #c80085; font-weight:700;">chemical&nbsp;reactions</span> to occur, the chemical formulas of both the reactant and the product can be the same.',
+  ],
+  [
+    'Salt (NaCl) dissolving in water, breaking the ionic bonds between Na<sup>+</sup> and Cl<sup>&ndash;</sup>, is a physical change.',
+  ],
+  [
+    '<span style="color: #c80085; font-weight:700;">Chemical&nbsp;reactions</span> are involved in many important processes in biology.',
+    '<span style="color: #c80085; font-weight:700;">Chemical&nbsp;reactions</span> play a role in many important biological processes.',
+  ],
+  [
+    '<span style="color: #c80085; font-weight:700;">Chemical&nbsp;reactions</span> are always either <span style="color: #b74300; font-weight:700;">exothermic</span> or <span style="color: #076dad; font-weight:700;">endothermic</span>.',
+  ],
+);
+@false_groups = (
+  [
+    'For <span style="color: #c80085; font-weight:700;">chemical&nbsp;reactions</span> to occur, the chemical formula of the <span style="color: #a719db; font-weight:700;">substances</span> must change.',
+    'For <span style="color: #c80085; font-weight:700;">chemical&nbsp;reactions</span> to occur, the chemical formulas of both the reactant and the product cannot be the same.',
+    'For <span style="color: #c80085; font-weight:700;">chemical&nbsp;reactions</span> to happen, the chemical identity of both reactants and products remains the same.',
+  ],
+  [
+    '<span style="color: #c80085; font-weight:700;">Chemical&nbsp;reactions</span> always involve <span style="color: #3b7600; font-weight:700;">physical changes</span>.',
+    '<span style="color: #c80085; font-weight:700;">Chemical&nbsp;reactions</span> only involve <span style="color: #3b7600; font-weight:700;">physical changes</span>.',
+    'Ice melting into water is a chemical&nbsp;reaction.',
+    'Sugar (glucose) dissolving in water is a chemical&nbsp;reaction.',
+    'Sublimation of dry ice into carbon dioxide gas is a chemical&nbsp;reaction.',
+    'Salt (NaCl) dissolving in water is a chemical reaction since breaking ionic bonds forms new chemicals.',
+  ],
+  [
+    '<span style="color: #c80085; font-weight:700;">Chemical&nbsp;reactions</span> only occur when <span style="color: #007a00; font-weight:700;">energy</span> is added.',
+    '<span style="color: #c80085; font-weight:700;">Chemical&nbsp;reactions</span> only occur when <span style="color: #007a00; font-weight:700;">energy</span> is released.',
+  ],
+  [
+    '<span style="color: #c80085; font-weight:700;">Chemical&nbsp;reactions</span> only occur at a specific temperature.',
+  ],
+  [
+    '<span style="color: #c80085; font-weight:700;">Chemical&nbsp;reactions</span> only occur in the presence of light.',
+  ],
+  [
+    '<span style="color: #c80085; font-weight:700;">Chemical&nbsp;reactions</span> only occur in living organisms.',
+    'Reactions that occur in living organisms are NOT <span style="color: #c80085; font-weight:700;">chemical&nbsp;reactions</span>.',
+  ],
+  [
+    '<span style="color: #c80085; font-weight:700;">Chemical&nbsp;reactions</span> are always <span style="color: #b74300; font-weight:700;">exothermic</span>.',
+    '<span style="color: #c80085; font-weight:700;">Chemical&nbsp;reactions</span> are always <span style="color: #076dad; font-weight:700;">endothermic</span>.',
+    '<span style="color: #c80085; font-weight:700;">Chemical&nbsp;reactions</span> cannot be <span style="color: #b74300; font-weight:700;">exothermic</span>.',
+    '<span style="color: #c80085; font-weight:700;">Chemical&nbsp;reactions</span> cannot be <span style="color: #076dad; font-weight:700;">endothermic</span>.',
+  ],
+  [
+    '<span style="color: #c80085; font-weight:700;">Chemical&nbsp;reactions</span> always result in a decrease in the total <span style="color: #007a00; font-weight:700;">energy</span> of the system.',
+    '<span style="color: #c80085; font-weight:700;">Chemical&nbsp;reactions</span> always result in an increase in the total <span style="color: #007a00; font-weight:700;">energy</span> of the system.',
+  ],
+  [
+    '<span style="color: #c80085; font-weight:700;">Chemical&nbsp;reactions</span> always result in a decrease in the number of atoms.',
+    '<span style="color: #c80085; font-weight:700;">Chemical&nbsp;reactions</span> always result in an increase in the number of atoms.',
+  ],
+  [
+    '<span style="color: #c80085; font-weight:700;">Chemical&nbsp;reactions</span> always result in a decrease in entropy.',
+    '<span style="color: #c80085; font-weight:700;">Chemical&nbsp;reactions</span> always result in an increase in entropy.',
+  ],
+);
+
+#==========================================================
+# GLOBAL SETTINGS
+#==========================================================
+
+$topic = '<span style="color: #c80085; font-weight:700;">chemical&nbsp;reactions</span>';
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+my @mode_choices = ("TRUE", "FALSE");
+$mode = $mode_choices[$local_random->random(0, $#mode_choices, 1)];
+$num_distractors = 4;
+#==========================================================
+# SELECT GROUP
+#==========================================================
+
+my (@selected_group, @opposite_groups);
+
+if ($mode eq "TRUE") {
+  $group_index      = $local_random->random(0, scalar(@true_groups)-1, 1);
+  @selected_group   = @{ $true_groups[$group_index] };
+  @opposite_groups  = @false_groups;
+} else {
+  $group_index      = $local_random->random(0, scalar(@false_groups)-1, 1);
+  @selected_group   = @{ $false_groups[$group_index] };
+  @opposite_groups  = @true_groups;
+}
+
+#==========================================================
+# PICK CORRECT + DISTRACTORS
+#==========================================================
+
+my $correct_index = $local_random->random(0, $#selected_group, 1);
+$correct = $selected_group[$correct_index];
+
+my @available_group_indices = (0 .. $#opposite_groups);
+my @selected_distractor_indices = ();
+
+while (@selected_distractor_indices < $num_distractors && @available_group_indices > 0) {
+  my $random_index = $local_random->random(0, scalar(@available_group_indices)-1, 1);
+  push @selected_distractor_indices, splice(@available_group_indices, $random_index, 1);
+}
+
+@distractors = ();
+foreach my $group_idx (@selected_distractor_indices) {
+  my @group = @{ $opposite_groups[$group_idx] };
+  my $distractor_index = $local_random->random(0, $#group, 1);
+  my $distractor = $group[$distractor_index];
+  push @distractors, $distractor;
+}
+
+@choices = ($correct, @distractors);
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# RADIO BUTTONS WITH A/B/C/D/E LABELS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => ['A','B','C','D','E'],
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+[@ $mode eq "TRUE" ? "Which one of the following statements is <span style='color: #127663;'><strong>TRUE</strong></span> about $topic?" : "Which one of the following statements is <span style='color: #ba372a;'><strong>FALSE</strong></span> about $topic?" @]*
+
+[_]{$rb}
+
+END_PGML
+
+ENDDOCUMENT();
+

@@ -1,9 +1,38 @@
-bbq-babies_two_sample_t_test-tails1-questions.txt: "Calculating p-value for Two-Sample t-Test"
-bbq-busse_woods_anova-anova-5year-questions.txt: "Determining Differences in Diversity Using ANOVA"
-bbq-busse_woods_two_sample_f_test-tails1-questions.txt: "Determining Statistical Significance Using Two-Sample F-Test"
-bbq-busse_woods_two_sample_t_test-tails1-questions.txt: "Determining Significance Using Two-Sample T-Test"
-bbq-chi_square_calculated-ACCEPT-questions.txt: "Calculating Chi-Square Value for Phenotype Ratios"
-bbq-chi_square_choices-questions.txt: "Determining Hypothesis Acceptance Using Chi-Squared Test"
-bbq-hypothesis_lab_partner-hypotheses_partner-questions.txt: "Flaws in Statistical Hypothesis Testing"
-bbq-population_test_google_sheet-ztest-questions.txt: "Population Z-Test Using Google Sheets Data"
-last edit: Mon Apr 13 14:51:52 2026
+bbq-MATCH-chi-square_terms-questions.txt: Matching Chi-Square Terms with Their Definitions
+bbq-MATCH-hypothesis_testing-questions.txt: Matching Hypothesis Tests to Their Descriptions
+bbq-MATCH-statistical_test_terms-questions.txt: Matching Statistical Test Terms with
+  Their Definitions
+bbq-TFMS-chi-square-questions.txt: Determining True Statements About Chi-Square Tests
+bbq-TFMS-statistical_tests-questions.txt: Determining True/False Statements About
+  Statistical Tests
+bbq-WOMC-chi-square_terms-questions.txt: Chi-Square Terms from Definitions
+bbq-WOMC-hypothesis_testing-questions.txt: Appropriate Hypothesis Tests for Mean Comparisons
+bbq-WOMC-statistical_test_terms-questions.txt: Statistical Test Terms
+bbq-babies_two_sample_t_test-tails1-questions.txt: Calculating p-value for Two-Sample
+  t-Test
+bbq-busse_woods_anova-anova-5year-questions.txt: Determining Differences in Diversity
+  Using ANOVA
+bbq-busse_woods_one_sample_tests-ztest-questions.txt: Determining Significance of
+  Microbial Diversity Data Using a Z-Test
+bbq-busse_woods_two_sample_f_test-tails1-questions.txt: Determining Statistical Significance
+  Using Two-Sample F-Test
+bbq-busse_woods_two_sample_t_test-tails1-questions.txt: Determining Significance Using
+  Two-Sample T-Test
+bbq-chi_square_calculated-ACCEPT-questions.txt: Calculating Chi-Square Value for Phenotype
+  Ratios
+bbq-chi_square_choices-questions.txt: Determining Hypothesis Acceptance Using Chi-Squared
+  Test
+bbq-chi_square_errors-questions.txt: Errors in Chi-Squared Hypothesis Testing
+bbq-chi_square_hardy_weinberg-questions.txt: Determining Chi-Square Outcomes for Hardy-Weinberg
+  Equilibrium
+bbq-chi_square_hypotheses-pair-questions.txt: Determining Chi-Squared Test Hypotheses
+  for Genetic Crosses
+bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt: Misstated
+  Null Hypotheses in Chi-Squared Goodness-of-Fit Tests for Genetic Ratios
+bbq-hypothesis_lab_partner-hypotheses_partner-questions.txt: Flaws in Statistical
+  Hypothesis Testing
+bbq-hypothesis_statements-pair-questions.txt: Null and Alternative Hypotheses in Statistical
+  Tests
+bbq-population_test_google_sheet-ztest-questions.txt: Population Z-Test Using Google
+  Sheets Data
+last edit: Sun Jul 12 22:11:09 2026

@@ -1,0 +1,525 @@
+## DESCRIPTION
+## Select the term related to enzyme catalysis that corresponds to the given definition.
+## ENDDESCRIPTION
+## KEYWORDS('terms related to enzyme catalysis','definitions','which one','multiple choice')
+## DBsubject('Biochemistry')
+## DBchapter('')
+## DBsection('')
+## Date('2026-07-12')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserRadioButtons.pl',
+    'PGcourse.pl',
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 0;
+
+#==========================================================
+# QUESTION DATA
+#==========================================================
+
+# All questions data
+@questions_data = (
+  {
+    'item_name' => '<strong>a molecule (reactant) that is acted upon by an enzyme</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">Substrate</span>',
+      '<span style="color: #b74300; font-weight:700;">Reagent</span>',
+      '<span style="color: #3b7600; font-weight:700;">Transition state</span>',
+      '<span style="color: #007a00; font-weight:700;">Enzyme</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">Substrate</span>',
+  },
+  {
+    'item_name' => '<strong>a molecule that is transformed into a product by an enzyme</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">Substrate</span>',
+      '<span style="color: #b74300; font-weight:700;">Reagent</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Product</span>',
+      '<span style="color: #076dad; font-weight:700;">Ligand</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">Substrate</span>',
+  },
+  {
+    'item_name' => '<strong>a molecule that facilitates a chemical reaction</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">Substrate</span>',
+      '<span style="color: #b74300; font-weight:700;">Reagent</span>',
+      '<span style="color: #3b7600; font-weight:700;">Transition state</span>',
+      '<span style="color: #007a00; font-weight:700;">Enzyme</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">Reagent</span>',
+  },
+  {
+    'item_name' => '<strong>a substance that participates in a chemical reaction</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #b74300; font-weight:700;">Reagent</span>',
+      '<span style="color: #3b7600; font-weight:700;">Transition state</span>',
+      '<span style="color: #a719db; font-weight:700;">Coenzyme</span>',
+      '<span style="color: #cc0066; font-weight:700;">Apoenzyme</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">Reagent</span>',
+  },
+  {
+    'item_name' => '<strong>substance used to cause or facilitate a chemical reaction</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #b74300; font-weight:700;">Reagent</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Product</span>',
+      '<span style="color: #076dad; font-weight:700;">Ligand</span>-binding site',
+      '<span style="color: #003fff; font-weight:700;">Prosthetic group</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">Reagent</span>',
+  },
+  {
+    'item_name' => '<strong>can be either reactants or catalysts that play a role in a chemical reaction</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #b74300; font-weight:700;">Reagent</span>',
+      '<span style="color: #007576; font-weight:700;">Active site</span>',
+      '<span style="color: #076dad; font-weight:700;">Ligand</span>',
+      '<span style="color: #c80085; font-weight:700;">Holoenzyme</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">Reagent</span>',
+  },
+  {
+    'item_name' => '<strong>a molecule that is consumed by a chemical reaction</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">Substrate</span>',
+      '<span style="color: #935d00; font-weight:700;">Reactant</span>',
+      '<span style="color: #003fff; font-weight:700;">Prosthetic group</span>',
+      '<span style="color: #cc0066; font-weight:700;">Apoenzyme</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">Reactant</span>',
+  },
+  {
+    'item_name' => '<strong>substance that is transformed into one or more chemical products.</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">Reactant</span>',
+      '<span style="color: #007a00; font-weight:700;">Enzyme</span>',
+      '<span style="color: #00775f; font-weight:700;">Ribozyme</span>',
+      '<span style="color: #a719db; font-weight:700;">Coenzyme</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">Reactant</span>',
+  },
+  {
+    'item_name' => '<strong>something manufactured by an enzyme from its substrate</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">Reactant</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Product</span>',
+      '<span style="color: #3b7600; font-weight:700;">Transition state</span>',
+      '<span style="color: #076dad; font-weight:700;">Ligand</span>',
+    ],
+    'correct' => '<span style="color: #6c6c00; font-weight:700;">Product</span>',
+  },
+  {
+    'item_name' => '<strong>any substance that is produced as a result of a chemical reaction</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">Substrate</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Product</span>',
+      '<span style="color: #076dad; font-weight:700;">Ligand</span>',
+      '<span style="color: #cc0066; font-weight:700;">Apoenzyme</span>',
+    ],
+    'correct' => '<span style="color: #6c6c00; font-weight:700;">Product</span>',
+  },
+  {
+    'item_name' => '<strong>intermediate, short-lived, high energy state of the substrate before forming the product</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #b74300; font-weight:700;">Reagent</span>',
+      '<span style="color: #935d00; font-weight:700;">Reactant</span>',
+      '<span style="color: #3b7600; font-weight:700;">Transition state</span>',
+      '<span style="color: #00775f; font-weight:700;">Ribozyme</span>',
+    ],
+    'correct' => '<span style="color: #3b7600; font-weight:700;">Transition state</span>',
+  },
+  {
+    'item_name' => '<strong>an intermediate, high-energy stage in a chemical reaction</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">Substrate</span>',
+      '<span style="color: #3b7600; font-weight:700;">Transition state</span>',
+      '<span style="color: #0067cc; font-weight:700;">Cofactor</span>',
+      '<span style="color: #cc0066; font-weight:700;">Apoenzyme</span>',
+    ],
+    'correct' => '<span style="color: #3b7600; font-weight:700;">Transition state</span>',
+  },
+  {
+    'item_name' => '<strong>proteins that catalyze chemical reactions</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #3b7600; font-weight:700;">Transition state</span>',
+      '<span style="color: #007a00; font-weight:700;">Enzyme</span>',
+      '<span style="color: #00775f; font-weight:700;">Ribozyme</span>',
+      '<span style="color: #c80085; font-weight:700;">Holoenzyme</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">Enzyme</span>',
+  },
+  {
+    'item_name' => '<strong>proteins that increase the rate of reactions</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">Substrate</span>',
+      '<span style="color: #935d00; font-weight:700;">Reactant</span>',
+      '<span style="color: #007a00; font-weight:700;">Enzyme</span>',
+      '<span style="color: #c80085; font-weight:700;">Holoenzyme</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">Enzyme</span>',
+  },
+  {
+    'item_name' => '<strong>RNA molecules that catalyze chemical reactions</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #6c6c00; font-weight:700;">Product</span>',
+      '<span style="color: #00775f; font-weight:700;">Ribozyme</span>',
+      '<span style="color: #007576; font-weight:700;">Active site</span>',
+      '<span style="color: #003fff; font-weight:700;">Prosthetic group</span>',
+    ],
+    'correct' => '<span style="color: #00775f; font-weight:700;">Ribozyme</span>',
+  },
+  {
+    'item_name' => '<strong>nucleic acids that can catalyze chemical reactions</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">Reactant</span>',
+      '<span style="color: #007a00; font-weight:700;">Enzyme</span>',
+      '<span style="color: #00775f; font-weight:700;">Ribozyme</span>',
+      '<span style="color: #007576; font-weight:700;">Active site</span>',
+    ],
+    'correct' => '<span style="color: #00775f; font-weight:700;">Ribozyme</span>',
+  },
+  {
+    'item_name' => '<strong>part of an enzyme where substrates bind and undergo a chemical reaction</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">Substrate</span>',
+      '<span style="color: #00775f; font-weight:700;">Ribozyme</span>',
+      '<span style="color: #007576; font-weight:700;">Active site</span>',
+      '<span style="color: #a719db; font-weight:700;">Coenzyme</span>',
+    ],
+    'correct' => '<span style="color: #007576; font-weight:700;">Active site</span>',
+  },
+  {
+    'item_name' => '<strong>specific region where substrate molecules bind and undergo a chemical reaction</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #6c6c00; font-weight:700;">Product</span>',
+      '<span style="color: #007576; font-weight:700;">Active site</span>',
+      '<span style="color: #076dad; font-weight:700;">Ligand</span>-binding site',
+      '<span style="color: #003fff; font-weight:700;">Prosthetic group</span>',
+    ],
+    'correct' => '<span style="color: #007576; font-weight:700;">Active site</span>',
+  },
+  {
+    'item_name' => '<strong>a site on an enzyme designed for precise interactions with the substrate</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #00775f; font-weight:700;">Ribozyme</span>',
+      '<span style="color: #007576; font-weight:700;">Active site</span>',
+      '<span style="color: #076dad; font-weight:700;">Ligand</span>',
+      '<span style="color: #c80085; font-weight:700;">Holoenzyme</span>',
+    ],
+    'correct' => '<span style="color: #007576; font-weight:700;">Active site</span>',
+  },
+  {
+    'item_name' => '<strong>part of an enzyme that provides the environment necessary for the chemical reaction to occur</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #3b7600; font-weight:700;">Transition state</span>',
+      '<span style="color: #007576; font-weight:700;">Active site</span>',
+      '<span style="color: #076dad; font-weight:700;">Ligand</span>-binding site',
+      '<span style="color: #c80085; font-weight:700;">Holoenzyme</span>',
+    ],
+    'correct' => '<span style="color: #007576; font-weight:700;">Active site</span>',
+  },
+  {
+    'item_name' => '<strong>any substance that forms a complex with a biomolecule to serve a biological purpose</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #b74300; font-weight:700;">Reagent</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Product</span>',
+      '<span style="color: #3b7600; font-weight:700;">Transition state</span>',
+      '<span style="color: #076dad; font-weight:700;">Ligand</span>',
+    ],
+    'correct' => '<span style="color: #076dad; font-weight:700;">Ligand</span>',
+  },
+  {
+    'item_name' => '<strong>usually a small molecule, such as a hormone, neurotransmitter, or drug, that binds to a protein</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #007a00; font-weight:700;">Enzyme</span>',
+      '<span style="color: #076dad; font-weight:700;">Ligand</span>',
+      '<span style="color: #003fff; font-weight:700;">Prosthetic group</span>',
+      '<span style="color: #cc0066; font-weight:700;">Apoenzyme</span>',
+    ],
+    'correct' => '<span style="color: #076dad; font-weight:700;">Ligand</span>',
+  },
+  {
+    'item_name' => '<strong>location on biomolecule where an important small molecule binds</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">Substrate</span>',
+      '<span style="color: #007a00; font-weight:700;">Enzyme</span>',
+      '<span style="color: #007576; font-weight:700;">Active site</span>',
+      '<span style="color: #076dad; font-weight:700;">Ligand</span>-binding site',
+    ],
+    'correct' => '<span style="color: #076dad; font-weight:700;">Ligand</span>-binding site',
+  },
+  {
+    'item_name' => '<strong>binding site on the enzyme that can alter its activity and is often a target for drugs</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">Substrate</span>',
+      '<span style="color: #076dad; font-weight:700;">Ligand</span>-binding site',
+      '<span style="color: #0067cc; font-weight:700;">Cofactor</span>',
+      '<span style="color: #cc0066; font-weight:700;">Apoenzyme</span>',
+    ],
+    'correct' => '<span style="color: #076dad; font-weight:700;">Ligand</span>-binding site',
+  },
+  {
+    'item_name' => '<strong>non-protein small molecules that some enzymes require for activity</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #3b7600; font-weight:700;">Transition state</span>',
+      '<span style="color: #00775f; font-weight:700;">Ribozyme</span>',
+      '<span style="color: #076dad; font-weight:700;">Ligand</span>',
+      '<span style="color: #0067cc; font-weight:700;">Cofactor</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">Cofactor</span>',
+  },
+  {
+    'item_name' => '<strong>non-protein substances required for enzyme activity</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">Substrate</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Product</span>',
+      '<span style="color: #0067cc; font-weight:700;">Cofactor</span>',
+      '<span style="color: #cc0066; font-weight:700;">Apoenzyme</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">Cofactor</span>',
+  },
+  {
+    'item_name' => '<strong>either metallic ions or small organic molecules required for enzyme activity</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #6c6c00; font-weight:700;">Product</span>',
+      '<span style="color: #3b7600; font-weight:700;">Transition state</span>',
+      '<span style="color: #0067cc; font-weight:700;">Cofactor</span>',
+      '<span style="color: #cc0066; font-weight:700;">Apoenzyme</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">Cofactor</span>',
+  },
+  {
+    'item_name' => '<strong>organic molecules derived from vitamins</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #b74300; font-weight:700;">Reagent</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Product</span>',
+      '<span style="color: #076dad; font-weight:700;">Ligand</span>-binding site',
+      '<span style="color: #a719db; font-weight:700;">Coenzyme</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">Coenzyme</span>',
+  },
+  {
+    'item_name' => '<strong>organic molecules required for enzyme activity</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">Substrate</span>',
+      '<span style="color: #b74300; font-weight:700;">Reagent</span>',
+      '<span style="color: #3b7600; font-weight:700;">Transition state</span>',
+      '<span style="color: #a719db; font-weight:700;">Coenzyme</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">Coenzyme</span>',
+  },
+  {
+    'item_name' => '<strong>tightly bound coenzymes</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #b74300; font-weight:700;">Reagent</span>',
+      '<span style="color: #3b7600; font-weight:700;">Transition state</span>',
+      '<span style="color: #007a00; font-weight:700;">Enzyme</span>',
+      '<span style="color: #003fff; font-weight:700;">Prosthetic group</span>',
+    ],
+    'correct' => '<span style="color: #003fff; font-weight:700;">Prosthetic group</span>',
+  },
+  {
+    'item_name' => '<strong>organic molecules tightly bound to an enzyme</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #b74300; font-weight:700;">Reagent</span>',
+      '<span style="color: #3b7600; font-weight:700;">Transition state</span>',
+      '<span style="color: #076dad; font-weight:700;">Ligand</span>',
+      '<span style="color: #003fff; font-weight:700;">Prosthetic group</span>',
+    ],
+    'correct' => '<span style="color: #003fff; font-weight:700;">Prosthetic group</span>',
+  },
+  {
+    'item_name' => '<strong>enzyme with bound cofactors</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #00775f; font-weight:700;">Ribozyme</span>',
+      '<span style="color: #076dad; font-weight:700;">Ligand</span>-binding site',
+      '<span style="color: #c80085; font-weight:700;">Holoenzyme</span>',
+      '<span style="color: #cc0066; font-weight:700;">Apoenzyme</span>',
+    ],
+    'correct' => '<span style="color: #c80085; font-weight:700;">Holoenzyme</span>',
+  },
+  {
+    'item_name' => '<strong>protein along with one or more cofactors</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #007a00; font-weight:700;">Enzyme</span>',
+      '<span style="color: #00775f; font-weight:700;">Ribozyme</span>',
+      '<span style="color: #003fff; font-weight:700;">Prosthetic group</span>',
+      '<span style="color: #c80085; font-weight:700;">Holoenzyme</span>',
+    ],
+    'correct' => '<span style="color: #c80085; font-weight:700;">Holoenzyme</span>',
+  },
+  {
+    'item_name' => '<strong>a complete enzyme complex</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">Reactant</span>',
+      '<span style="color: #00775f; font-weight:700;">Ribozyme</span>',
+      '<span style="color: #007576; font-weight:700;">Active site</span>',
+      '<span style="color: #c80085; font-weight:700;">Holoenzyme</span>',
+    ],
+    'correct' => '<span style="color: #c80085; font-weight:700;">Holoenzyme</span>',
+  },
+  {
+    'item_name' => '<strong>enzyme without its cofactors</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">Substrate</span>',
+      '<span style="color: #00775f; font-weight:700;">Ribozyme</span>',
+      '<span style="color: #a719db; font-weight:700;">Coenzyme</span>',
+      '<span style="color: #cc0066; font-weight:700;">Apoenzyme</span>',
+    ],
+    'correct' => '<span style="color: #cc0066; font-weight:700;">Apoenzyme</span>',
+  },
+  {
+    'item_name' => '<strong>an inactive enzyme that missing its cofactors</strong>',
+    'plural_choice' => 'terms related to enzyme catalysis',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #3b7600; font-weight:700;">Transition state</span>',
+      '<span style="color: #007576; font-weight:700;">Active site</span>',
+      '<span style="color: #076dad; font-weight:700;">Ligand</span>-binding site',
+      '<span style="color: #cc0066; font-weight:700;">Apoenzyme</span>',
+    ],
+    'correct' => '<span style="color: #cc0066; font-weight:700;">Apoenzyme</span>',
+  },
+);
+
+#==========================================================
+# SELECT RANDOM QUESTION
+#==========================================================
+
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+
+$question_idx = $local_random->random(0, scalar(@questions_data) - 1, 1);
+$q = $questions_data[$question_idx];
+
+$item_name = $q->{'item_name'};
+$plural_choice = $q->{'plural_choice'};
+$singular_item = $q->{'singular_item'};
+@choices = @{ $q->{'choices'} };
+$correct = $q->{'correct'};
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# BUILD RADIO BUTTONS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => 'ABC',
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+Which one of the following [$plural_choice]* corresponds to the [$singular_item]* [$item_name]*?
+
+[_]{$rb}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The correct answer is: [$correct]*
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+

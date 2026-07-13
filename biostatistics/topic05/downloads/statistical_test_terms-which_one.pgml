@@ -1,0 +1,522 @@
+## DESCRIPTION
+## Select the stattest term that corresponds to the given definition.
+## ENDDESCRIPTION
+## KEYWORDS('stattest terms','definitions','which one','multiple choice')
+## DBsubject('Biostatistics')
+## DBchapter('')
+## DBsection('')
+## Date('2026-07-12')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserRadioButtons.pl',
+    'PGcourse.pl',
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 0;
+
+#==========================================================
+# QUESTION DATA
+#==========================================================
+
+# All questions data
+@questions_data = (
+  {
+    'item_name' => '<strong>found in a table for given degrees of freedom and <span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span></strong>',
+    'plural_choice' => '<span style="color: #935d00; font-weight:700;">statistical test</span>terms',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #003fff; font-weight:700;">critical value</span>',
+      '<span style="color: #00775f; font-weight:700;">test statistic</span>',
+      '<span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
+      '<span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+      '<span style="color: #6c6c00; font-weight:700;">degrees of freedom</span>',
+    ],
+    'correct' => '<span style="color: #003fff; font-weight:700;">critical value</span>',
+  },
+  {
+    'item_name' => '<strong>the boundary for how extreme a <span style="color: #00775f; font-weight:700;">test statistic</span> must be to <span style="color: #d40000; font-weight:700;">reject</span>the <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span></strong>',
+    'plural_choice' => '<span style="color: #935d00; font-weight:700;">statistical test</span>terms',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #003fff; font-weight:700;">critical value</span>',
+      '<span style="color: #00775f; font-weight:700;">test statistic</span>',
+      '<span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+      '<span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
+      '<span style="color: #6c6c00; font-weight:700;">degrees of freedom</span>',
+    ],
+    'correct' => '<span style="color: #003fff; font-weight:700;">critical value</span>',
+  },
+  {
+    'item_name' => '<strong>the cutoff used to compare against the observed <span style="color: #00775f; font-weight:700;">test statistic</span></strong>',
+    'plural_choice' => '<span style="color: #935d00; font-weight:700;">statistical test</span>terms',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #003fff; font-weight:700;">critical value</span>',
+      '<span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
+      '<span style="color: #c80085; font-weight:700;">p-value</span>',
+      '<span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+      '<span style="color: #6c6c00; font-weight:700;">degrees of freedom</span>',
+    ],
+    'correct' => '<span style="color: #003fff; font-weight:700;">critical value</span>',
+  },
+  {
+    'item_name' => '<strong>a function of the data computed to test the <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span></strong>',
+    'plural_choice' => '<span style="color: #935d00; font-weight:700;">statistical test</span>terms',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #003fff; font-weight:700;">critical value</span>',
+      '<span style="color: #00775f; font-weight:700;">test statistic</span>',
+      '<span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
+      '<span style="color: #c80085; font-weight:700;">p-value</span>',
+      '<span style="color: #6c6c00; font-weight:700;">degrees of freedom</span>',
+    ],
+    'correct' => '<span style="color: #00775f; font-weight:700;">test statistic</span>',
+  },
+  {
+    'item_name' => '<strong>a function of the data designed to measure agreement or disagreement with the null hypothesis</strong>',
+    'plural_choice' => '<span style="color: #935d00; font-weight:700;">statistical test</span>terms',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #003fff; font-weight:700;">critical value</span>',
+      '<span style="color: #00775f; font-weight:700;">test statistic</span>',
+      '<span style="color: #c80085; font-weight:700;">p-value</span>',
+      '<span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+      '<span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
+    ],
+    'correct' => '<span style="color: #00775f; font-weight:700;">test statistic</span>',
+  },
+  {
+    'item_name' => '<strong>if this value is large in the direction favoring the <span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>, there is stronger evidence against the <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span></strong>',
+    'plural_choice' => '<span style="color: #935d00; font-weight:700;">statistical test</span>terms',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #003fff; font-weight:700;">critical value</span>',
+      '<span style="color: #00775f; font-weight:700;">test statistic</span>',
+      '<span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+      '<span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
+      '<span style="color: #6c6c00; font-weight:700;">degrees of freedom</span>',
+    ],
+    'correct' => '<span style="color: #00775f; font-weight:700;">test statistic</span>',
+  },
+  {
+    'item_name' => '<strong>the more extreme this value is under the <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>, the smaller the <span style="color: #c80085; font-weight:700;">p-value</span></strong>',
+    'plural_choice' => '<span style="color: #935d00; font-weight:700;">statistical test</span>terms',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #003fff; font-weight:700;">critical value</span>',
+      '<span style="color: #00775f; font-weight:700;">test statistic</span>',
+      '<span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
+      '<span style="color: #c80085; font-weight:700;">p-value</span>',
+      '<span style="color: #6c6c00; font-weight:700;">degrees of freedom</span>',
+    ],
+    'correct' => '<span style="color: #00775f; font-weight:700;">test statistic</span>',
+  },
+  {
+    'item_name' => '<strong>the probability cutoff used to decide whether to <span style="color: #d40000; font-weight:700;">reject</span>the <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span></strong>',
+    'plural_choice' => '<span style="color: #935d00; font-weight:700;">statistical test</span>terms',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #00775f; font-weight:700;">test statistic</span>',
+      '<span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
+      '<span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+      '<span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
+      '<span style="color: #6c6c00; font-weight:700;">degrees of freedom</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
+  },
+  {
+    'item_name' => '<strong>the probability cutoff that limits how often we mistakenly <span style="color: #d40000; font-weight:700;">reject</span>a <span style="color: #127663; font-weight:700;">TRUE</span><span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span> (later called a Type I error).</strong>',
+    'plural_choice' => '<span style="color: #935d00; font-weight:700;">statistical test</span>terms',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #003fff; font-weight:700;">critical value</span>',
+      '<span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
+      '<span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+      '<span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
+      '<span style="color: #6c6c00; font-weight:700;">degrees of freedom</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
+  },
+  {
+    'item_name' => '<strong>the cutoff for how small a <span style="color: #c80085; font-weight:700;">p-value</span> must be to <span style="color: #d40000; font-weight:700;">reject</span>the <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span></strong>',
+    'plural_choice' => '<span style="color: #935d00; font-weight:700;">statistical test</span>terms',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #003fff; font-weight:700;">critical value</span>',
+      '<span style="color: #00775f; font-weight:700;">test statistic</span>',
+      '<span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
+      '<span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+      '<span style="color: #6c6c00; font-weight:700;">degrees of freedom</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
+  },
+  {
+    'item_name' => '<strong>standard cutoff probability used to determine statistical significance</strong>',
+    'plural_choice' => '<span style="color: #935d00; font-weight:700;">statistical test</span>terms',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #00775f; font-weight:700;">test statistic</span>',
+      '<span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
+      '<span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+      '<span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
+      '<span style="color: #6c6c00; font-weight:700;">degrees of freedom</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
+  },
+  {
+    'item_name' => '<strong>biologists often use a probability of 0.05 (5%) for this value</strong>',
+    'plural_choice' => '<span style="color: #935d00; font-weight:700;">statistical test</span>terms',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #00775f; font-weight:700;">test statistic</span>',
+      '<span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
+      '<span style="color: #c80085; font-weight:700;">p-value</span>',
+      '<span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+      '<span style="color: #6c6c00; font-weight:700;">degrees of freedom</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
+  },
+  {
+    'item_name' => '<strong>the probability, under the <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>, of obtaining a result at least as extreme as the one observed</strong>',
+    'plural_choice' => '<span style="color: #935d00; font-weight:700;">statistical test</span>terms',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #00775f; font-weight:700;">test statistic</span>',
+      '<span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
+      '<span style="color: #c80085; font-weight:700;">p-value</span>',
+      '<span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+      '<span style="color: #6c6c00; font-weight:700;">degrees of freedom</span>',
+    ],
+    'correct' => '<span style="color: #c80085; font-weight:700;">p-value</span>',
+  },
+  {
+    'item_name' => '<strong>if this value is small, there is stronger evidence in favor of the <span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span></strong>',
+    'plural_choice' => '<span style="color: #935d00; font-weight:700;">statistical test</span>terms',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #003fff; font-weight:700;">critical value</span>',
+      '<span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
+      '<span style="color: #c80085; font-weight:700;">p-value</span>',
+      '<span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
+      '<span style="color: #6c6c00; font-weight:700;">degrees of freedom</span>',
+    ],
+    'correct' => '<span style="color: #c80085; font-weight:700;">p-value</span>',
+  },
+  {
+    'item_name' => '<strong>if this value is small, it suggests that the observed data are NOT consistent with the <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span></strong>',
+    'plural_choice' => '<span style="color: #935d00; font-weight:700;">statistical test</span>terms',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
+      '<span style="color: #c80085; font-weight:700;">p-value</span>',
+      '<span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+      '<span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
+      '<span style="color: #6c6c00; font-weight:700;">degrees of freedom</span>',
+    ],
+    'correct' => '<span style="color: #c80085; font-weight:700;">p-value</span>',
+  },
+  {
+    'item_name' => '<strong>smaller values typically correspond to more extreme <span style="color: #00775f; font-weight:700;">test statistic</span> values</strong>',
+    'plural_choice' => '<span style="color: #935d00; font-weight:700;">statistical test</span>terms',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #00775f; font-weight:700;">test statistic</span>',
+      '<span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
+      '<span style="color: #c80085; font-weight:700;">p-value</span>',
+      '<span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
+      '<span style="color: #6c6c00; font-weight:700;">degrees of freedom</span>',
+    ],
+    'correct' => '<span style="color: #c80085; font-weight:700;">p-value</span>',
+  },
+  {
+    'item_name' => '<strong>the hypothesis we attempt to find evidence against in a stattest</strong>',
+    'plural_choice' => '<span style="color: #935d00; font-weight:700;">statistical test</span>terms',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #003fff; font-weight:700;">critical value</span>',
+      '<span style="color: #c80085; font-weight:700;">p-value</span>',
+      '<span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+      '<span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
+      '<span style="color: #6c6c00; font-weight:700;">degrees of freedom</span>',
+    ],
+    'correct' => '<span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+  },
+  {
+    'item_name' => '<strong>the hypothesis we want to <span style="color: #d40000; font-weight:700;">reject</span>in a stattest</strong>',
+    'plural_choice' => '<span style="color: #935d00; font-weight:700;">statistical test</span>terms',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #003fff; font-weight:700;">critical value</span>',
+      '<span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
+      '<span style="color: #c80085; font-weight:700;">p-value</span>',
+      '<span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+      '<span style="color: #6c6c00; font-weight:700;">degrees of freedom</span>',
+    ],
+    'correct' => '<span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+  },
+  {
+    'item_name' => '<strong>this hypothesis defines the distribution used for comparison in the test</strong>',
+    'plural_choice' => '<span style="color: #935d00; font-weight:700;">statistical test</span>terms',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
+      '<span style="color: #c80085; font-weight:700;">p-value</span>',
+      '<span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+      '<span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
+      '<span style="color: #6c6c00; font-weight:700;">degrees of freedom</span>',
+    ],
+    'correct' => '<span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+  },
+  {
+    'item_name' => '<strong>defines the distribution used for comparison in the test</strong>',
+    'plural_choice' => '<span style="color: #935d00; font-weight:700;">statistical test</span>terms',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #003fff; font-weight:700;">critical value</span>',
+      '<span style="color: #c80085; font-weight:700;">p-value</span>',
+      '<span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+      '<span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
+      '<span style="color: #6c6c00; font-weight:700;">degrees of freedom</span>',
+    ],
+    'correct' => '<span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+  },
+  {
+    'item_name' => '<strong>defines the reference distribution used for comparison</strong>',
+    'plural_choice' => '<span style="color: #935d00; font-weight:700;">statistical test</span>terms',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #003fff; font-weight:700;">critical value</span>',
+      '<span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
+      '<span style="color: #c80085; font-weight:700;">p-value</span>',
+      '<span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+      '<span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
+    ],
+    'correct' => '<span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+  },
+  {
+    'item_name' => '<strong>the hypothesis we aim to support indirectly by rejecting another hypothesis</strong>',
+    'plural_choice' => '<span style="color: #935d00; font-weight:700;">statistical test</span>terms',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #003fff; font-weight:700;">critical value</span>',
+      '<span style="color: #00775f; font-weight:700;">test statistic</span>',
+      '<span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
+      '<span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
+      '<span style="color: #6c6c00; font-weight:700;">degrees of freedom</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
+  },
+  {
+    'item_name' => '<strong>this hypothesis can sometimes be <span style="color: #127663; font-weight:700;">TRUE</span>even when the test fails to detect it (later called a Type II error)</strong>',
+    'plural_choice' => '<span style="color: #935d00; font-weight:700;">statistical test</span>terms',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #00775f; font-weight:700;">test statistic</span>',
+      '<span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
+      '<span style="color: #c80085; font-weight:700;">p-value</span>',
+      '<span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
+      '<span style="color: #6c6c00; font-weight:700;">degrees of freedom</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
+  },
+  {
+    'item_name' => '<strong>can be <span style="color: #127663; font-weight:700;">TRUE</span>even if the test fails to detect it (later called a Type II error)</strong>',
+    'plural_choice' => '<span style="color: #935d00; font-weight:700;">statistical test</span>terms',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #003fff; font-weight:700;">critical value</span>',
+      '<span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
+      '<span style="color: #c80085; font-weight:700;">p-value</span>',
+      '<span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+      '<span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
+  },
+  {
+    'item_name' => '<strong>this hypothesis represents the possibility that the observed effect is real and NOT random</strong>',
+    'plural_choice' => '<span style="color: #935d00; font-weight:700;">statistical test</span>terms',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #003fff; font-weight:700;">critical value</span>',
+      '<span style="color: #00775f; font-weight:700;">test statistic</span>',
+      '<span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+      '<span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
+      '<span style="color: #6c6c00; font-weight:700;">degrees of freedom</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
+  },
+  {
+    'item_name' => '<strong>this hypothesis represents the possibility that the observed effect is NOT due to random chance</strong>',
+    'plural_choice' => '<span style="color: #935d00; font-weight:700;">statistical test</span>terms',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #00775f; font-weight:700;">test statistic</span>',
+      '<span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
+      '<span style="color: #c80085; font-weight:700;">p-value</span>',
+      '<span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
+      '<span style="color: #6c6c00; font-weight:700;">degrees of freedom</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
+  },
+  {
+    'item_name' => '<strong>represents the possibility that an observed effect or relationship is real and NOT random</strong>',
+    'plural_choice' => '<span style="color: #935d00; font-weight:700;">statistical test</span>terms',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #003fff; font-weight:700;">critical value</span>',
+      '<span style="color: #00775f; font-weight:700;">test statistic</span>',
+      '<span style="color: #c80085; font-weight:700;">p-value</span>',
+      '<span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
+      '<span style="color: #6c6c00; font-weight:700;">degrees of freedom</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
+  },
+  {
+    'item_name' => '<strong>represents the possibility that an observed effect or relationship is NOT due to random chance</strong>',
+    'plural_choice' => '<span style="color: #935d00; font-weight:700;">statistical test</span>terms',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #003fff; font-weight:700;">critical value</span>',
+      '<span style="color: #00775f; font-weight:700;">test statistic</span>',
+      '<span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
+      '<span style="color: #c80085; font-weight:700;">p-value</span>',
+      '<span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
+  },
+  {
+    'item_name' => '<strong>a parameter based on sample size and estimated parameters or constraints</strong>',
+    'plural_choice' => '<span style="color: #935d00; font-weight:700;">statistical test</span>terms',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #003fff; font-weight:700;">critical value</span>',
+      '<span style="color: #00775f; font-weight:700;">test statistic</span>',
+      '<span style="color: #c80085; font-weight:700;">p-value</span>',
+      '<span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
+      '<span style="color: #6c6c00; font-weight:700;">degrees of freedom</span>',
+    ],
+    'correct' => '<span style="color: #6c6c00; font-weight:700;">degrees of freedom</span>',
+  },
+  {
+    'item_name' => '<strong>a parameter determined by sample size and the number of parameters</strong>',
+    'plural_choice' => '<span style="color: #935d00; font-weight:700;">statistical test</span>terms',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #003fff; font-weight:700;">critical value</span>',
+      '<span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
+      '<span style="color: #c80085; font-weight:700;">p-value</span>',
+      '<span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
+      '<span style="color: #6c6c00; font-weight:700;">degrees of freedom</span>',
+    ],
+    'correct' => '<span style="color: #6c6c00; font-weight:700;">degrees of freedom</span>',
+  },
+  {
+    'item_name' => '<strong>based on how many independent pieces of information are available</strong>',
+    'plural_choice' => '<span style="color: #935d00; font-weight:700;">statistical test</span>terms',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #003fff; font-weight:700;">critical value</span>',
+      '<span style="color: #c80085; font-weight:700;">p-value</span>',
+      '<span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+      '<span style="color: #b74300; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
+      '<span style="color: #6c6c00; font-weight:700;">degrees of freedom</span>',
+    ],
+    'correct' => '<span style="color: #6c6c00; font-weight:700;">degrees of freedom</span>',
+  },
+  {
+    'item_name' => '<strong>the count of values free to vary once constraints are applied</strong>',
+    'plural_choice' => '<span style="color: #935d00; font-weight:700;">statistical test</span>terms',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #003fff; font-weight:700;">critical value</span>',
+      '<span style="color: #00775f; font-weight:700;">test statistic</span>',
+      '<span style="color: #c80085; font-weight:700;">p-value</span>',
+      '<span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+      '<span style="color: #6c6c00; font-weight:700;">degrees of freedom</span>',
+    ],
+    'correct' => '<span style="color: #6c6c00; font-weight:700;">degrees of freedom</span>',
+  },
+  {
+    'item_name' => '<strong>depends on sample size and restrictions from estimated parameters</strong>',
+    'plural_choice' => '<span style="color: #935d00; font-weight:700;">statistical test</span>terms',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #003fff; font-weight:700;">critical value</span>',
+      '<span style="color: #00775f; font-weight:700;">test statistic</span>',
+      '<span style="color: #c80085; font-weight:700;">p-value</span>',
+      '<span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+      '<span style="color: #6c6c00; font-weight:700;">degrees of freedom</span>',
+    ],
+    'correct' => '<span style="color: #6c6c00; font-weight:700;">degrees of freedom</span>',
+  },
+);
+
+#==========================================================
+# SELECT RANDOM QUESTION
+#==========================================================
+
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+
+$question_idx = $local_random->random(0, scalar(@questions_data) - 1, 1);
+$q = $questions_data[$question_idx];
+
+$item_name = $q->{'item_name'};
+$plural_choice = $q->{'plural_choice'};
+$singular_item = $q->{'singular_item'};
+@choices = @{ $q->{'choices'} };
+$correct = $q->{'correct'};
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# BUILD RADIO BUTTONS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => 'ABC',
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+Which one of the following [$plural_choice]* corresponds to the [$singular_item]* [$item_name]*?
+
+[_]{$rb}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The correct answer is: [$correct]*
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+

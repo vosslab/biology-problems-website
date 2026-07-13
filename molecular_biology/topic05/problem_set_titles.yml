@@ -1,2 +1,15 @@
 bbq-RT-qPCR-questions.txt: Calculating Fold Change from RT-qPCR Data
-last edit: Mon Apr 13 15:08:35 2026
+bbq-TFMS-long_run_pcr-questions.txt: Determining True/False Statements About Long
+  Distance PCR
+bbq-TFMS-pcr_components-questions.txt: Components Not in PCR Experiments
+bbq-TFMS-pcr_primers-questions.txt: Determining True/False Statements About Efficient
+  PCR Primers
+bbq-TFMS-pcr_step_order-questions.txt: Determining the Correct Order of Steps in a
+  Polymerase Chain Reaction (PCR)
+bbq-consensus_sequence_FIB-arbitrary_code-questions.txt: Determining Degenerate Primer
+  Codes
+bbq-consensus_sequence_FIB-easy-questions.txt: Consensus Sequences from Sequence Alignment
+bbq-consensus_sequence_FIB-hard-questions.txt: Consensus Sequence in DNA/RNA
+bbq-consensus_sequence_MC-questions.txt: Determining Consensus Sequences from Aligned
+  Sequences
+last edit: Sun Jul 12 22:47:58 2026
