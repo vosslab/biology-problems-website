@@ -34,7 +34,7 @@ Transcription of genes, RNA polymerase, promoters, and regulation.
 </details>
 
 
-## mRNA Sequences from DNA Templates
+## mRNA Sequences from DNA Templates (Fill in the Blank)
 
 <div id="rna_transcribe_fill_blank-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-rna_transcribe_fill_blank-questions.txt" download title="Download bbq-rna_transcribe_fill_blank-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-rna_transcribe_fill_blank-questions.txt)">
@@ -55,7 +55,7 @@ Transcription of genes, RNA polymerase, promoters, and regulation.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      mRNA Sequences from DNA Templates
+      mRNA Sequences from DNA Templates (Fill in the Blank)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -66,7 +66,7 @@ Transcription of genes, RNA polymerase, promoters, and regulation.
 </details>
 
 
-## mRNA Products from DNA Template Transcription
+## mRNA Sequences from DNA Templates (5' and 3' Direction)
 
 <div id="rna_transcribe_prime-len_9-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-rna_transcribe_prime-len_9-questions.txt" download title="Download bbq-rna_transcribe_prime-len_9-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-rna_transcribe_prime-len_9-questions.txt)">
@@ -87,7 +87,7 @@ Transcription of genes, RNA polymerase, promoters, and regulation.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      mRNA Products from DNA Template Transcription
+      mRNA Sequences from DNA Templates (5' and 3' Direction)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -98,7 +98,7 @@ Transcription of genes, RNA polymerase, promoters, and regulation.
 </details>
 
 
-## Determining RNA Transcription From DNA Strands
+## mRNA Sequences from DNA Templates (5' and 3' Fill in the Blank)
 
 <div id="rna_transcribe_prime_fill_blank-len_9-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-rna_transcribe_prime_fill_blank-len_9-questions.txt" download title="Download bbq-rna_transcribe_prime_fill_blank-len_9-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-rna_transcribe_prime_fill_blank-len_9-questions.txt)">
@@ -119,7 +119,7 @@ Transcription of genes, RNA polymerase, promoters, and regulation.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining RNA Transcription From DNA Strands
+      mRNA Sequences from DNA Templates (5' and 3' Fill in the Blank)
     </span>
     <span style='font-weight: normal;'>
       example problem

@@ -4,7 +4,7 @@ Students analyze phospholipid bilayer structure, predict how composition affects
 
 **LibreTexts reference:** [Unit 3, Chapter 4: Membranes and Membrane Proteins](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/03%3A_Unit_3_-_Macromolecules/3.04%3A_Membranes_and_Membrane_Proteins) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/03%3A_Unit_3_-_Macromolecules/3.04%3A_Membranes_and_Membrane_Proteins" target="_blank" rel="noopener" aria-label="LibreTexts Unit 3, Chapter 4" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
-## Determining True/False Statements About the Fluid Mosaic Model
+## True/False Statements About the Fluid Mosaic Model
 
 <div id="TFMS-fluid_mosaic_model-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-fluid_mosaic_model-questions.txt" download title="Download bbq-TFMS-fluid_mosaic_model-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-fluid_mosaic_model-questions.txt)">
@@ -28,7 +28,7 @@ Students analyze phospholipid bilayer structure, predict how composition affects
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining True/False Statements About the Fluid Mosaic Model
+      True/False Statements About the Fluid Mosaic Model
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -39,7 +39,7 @@ Students analyze phospholipid bilayer structure, predict how composition affects
 </details>
 
 
-## Substances Crossing Lipid Membranes
+## True/False Statements About Membrane Diffusion
 
 <div id="TFMS-membrane_diffusion-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-membrane_diffusion-questions.txt" download title="Download bbq-TFMS-membrane_diffusion-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-membrane_diffusion-questions.txt)">
@@ -63,7 +63,7 @@ Students analyze phospholipid bilayer structure, predict how composition affects
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Substances Crossing Lipid Membranes
+      True/False Statements About Membrane Diffusion
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -74,7 +74,7 @@ Students analyze phospholipid bilayer structure, predict how composition affects
 </details>
 
 
-## Determining False Statements About Membrane Protein Functions
+## True/False Statements About Membrane Protein Functions
 
 <div id="TFMS-membrane_protein_functions-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-membrane_protein_functions-questions.txt" download title="Download bbq-TFMS-membrane_protein_functions-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-membrane_protein_functions-questions.txt)">
@@ -98,7 +98,7 @@ Students analyze phospholipid bilayer structure, predict how composition affects
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining False Statements About Membrane Protein Functions
+      True/False Statements About Membrane Protein Functions
     </span>
     <span style='font-weight: normal;'>
       example problem

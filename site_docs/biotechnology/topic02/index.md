@@ -2,7 +2,7 @@
 
 Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR, Sanger and next-generation sequencing, RT-qPCR, CRISPR technology, RNA interference, GWAS, and synthetic biology.
 
-## DNA Sequencing Techniques Matching
+## Matching DNA Sequencing Techniques to Descriptions
 
 <div id="MATCH-dna_sequencing-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-dna_sequencing-questions.txt" download title="Download bbq-MATCH-dna_sequencing-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-dna_sequencing-questions.txt)">
@@ -26,7 +26,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      DNA Sequencing Techniques Matching
+      Matching DNA Sequencing Techniques to Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -37,7 +37,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## Calculating Fold Change from RT-qPCR Data
+## Gene Expression Fold Change from RT-qPCR Data
 
 <div id="RT-qPCR-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-RT-qPCR-questions.txt" download title="Download bbq-RT-qPCR-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-RT-qPCR-questions.txt)">
@@ -58,7 +58,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Calculating Fold Change from RT-qPCR Data
+      Gene Expression Fold Change from RT-qPCR Data
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -69,7 +69,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## Determining True/False Statements About DNA Structure
+## True/False Statements About DNA Structure (BIOL 351)
 
 <div id="TFMS-dna_structure-biol_351-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-dna_structure-biol_351-questions.txt" download title="Download bbq-TFMS-dna_structure-biol_351-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-dna_structure-biol_351-questions.txt)">
@@ -93,7 +93,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining True/False Statements About DNA Structure
+      True/False Statements About DNA Structure (BIOL 351)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -104,7 +104,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## Statements About xDNA and XNA
+## True/False Statements About xDNA and XNA
 
 <div id="TFMS-xna_and_xdna-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-xna_and_xdna-questions.txt" download title="Download bbq-TFMS-xna_and_xdna-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-xna_and_xdna-questions.txt)">
@@ -128,7 +128,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Statements About xDNA and XNA
+      True/False Statements About xDNA and XNA
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -139,7 +139,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## DNA Sequencing Techniques
+## DNA Sequencing Techniques from Descriptions
 
 <div id="WOMC-dna_sequencing-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-dna_sequencing-questions.txt" download title="Download bbq-WOMC-dna_sequencing-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-dna_sequencing-questions.txt)">
@@ -163,7 +163,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      DNA Sequencing Techniques
+      DNA Sequencing Techniques from Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -174,7 +174,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## Calculating Amplicon Copies After PCR Rounds
+## Amplicon Copy Number After PCR Rounds
 
 <div id="amplicon_copies-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-amplicon_copies-questions.txt" download title="Download bbq-amplicon_copies-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-amplicon_copies-questions.txt)">
@@ -195,7 +195,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Calculating Amplicon Copies After PCR Rounds
+      Amplicon Copy Number After PCR Rounds
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -206,7 +206,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## Calculating Base Percentages According to Chargaff's Rules
+## DNA Base Composition Using Chargaff's Rules (5 Choices)
 
 <div id="chargaff_dna_percent-5_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chargaff_dna_percent-5_choices-questions.txt" download title="Download bbq-chargaff_dna_percent-5_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chargaff_dna_percent-5_choices-questions.txt)">
@@ -227,7 +227,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Calculating Base Percentages According to Chargaff's Rules
+      DNA Base Composition Using Chargaff's Rules (5 Choices)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -238,7 +238,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## Complementary DNA Sequences
+## Complementary DNA Sequences Without Direction Labels
 
 <div id="complementary_sequences-mc-directionless-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-complementary_sequences-mc-directionless-questions.txt" download title="Download bbq-complementary_sequences-mc-directionless-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-complementary_sequences-mc-directionless-questions.txt)">
@@ -259,7 +259,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Complementary DNA Sequences
+      Complementary DNA Sequences Without Direction Labels
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -270,7 +270,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## Degenerate Primer Sequence Codes
+## Degenerate Primer Codes from Sequence Alignments
 
 <div id="consensus_sequence_FIB-arbitrary_code-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" download title="Download bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-consensus_sequence_FIB-arbitrary_code-questions.txt)">
@@ -291,7 +291,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Degenerate Primer Sequence Codes
+      Degenerate Primer Codes from Sequence Alignments
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -302,7 +302,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## Consensus Sequence in Molecular Biology
+## Consensus Sequences from Simple Alignments (Fill in the Blank)
 
 <div id="consensus_sequence_FIB-easy-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-easy-questions.txt" download title="Download bbq-consensus_sequence_FIB-easy-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-consensus_sequence_FIB-easy-questions.txt)">
@@ -323,7 +323,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Consensus Sequence in Molecular Biology
+      Consensus Sequences from Simple Alignments (Fill in the Blank)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -334,7 +334,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## Determining Consensus Sequence From Table
+## Consensus Sequences from Tables (Fill in the Blank)
 
 <div id="consensus_sequence_FIB-hard-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-hard-questions.txt" download title="Download bbq-consensus_sequence_FIB-hard-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-consensus_sequence_FIB-hard-questions.txt)">
@@ -355,7 +355,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Consensus Sequence From Table
+      Consensus Sequences from Tables (Fill in the Blank)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -366,7 +366,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## Determining Consensus Sequences from Aligned Sequences
+## Consensus Sequences from Alignments (Multiple Choice)
 
 <div id="consensus_sequence_MC-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-consensus_sequence_MC-questions.txt" download title="Download bbq-consensus_sequence_MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-consensus_sequence_MC-questions.txt)">
@@ -387,7 +387,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Consensus Sequences from Aligned Sequences
+      Consensus Sequences from Alignments (Multiple Choice)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -398,7 +398,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## DNA Migration in Agarose Gels
+## DNA Fragment Migration in Agarose Gel Electrophoresis (Closest/Farthest)
 
 <div id="dna_gel-closest_farthest_MC-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-dna_gel-closest_farthest_MC-questions.txt" download title="Download bbq-dna_gel-closest_farthest_MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-dna_gel-closest_farthest_MC-questions.txt)">
@@ -419,7 +419,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      DNA Migration in Agarose Gels
+      DNA Fragment Migration in Agarose Gel Electrophoresis (Closest/Farthest)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -430,7 +430,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## Estimating DNA Length from Gel Migration Distance
+## DNA Fragment Size from Agarose Gel Migration (Numeric)
 
 <div id="dna_gel-estimate_size-MC_or_NUM-num-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt" download title="Download bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt)">
@@ -451,7 +451,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Estimating DNA Length from Gel Migration Distance
+      DNA Fragment Size from Agarose Gel Migration (Numeric)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -462,7 +462,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## Extreme DNA Melting Temperatures (Tm)
+## DNA Melting Temperature Extremes from Sequence (12 Bases)
 
 <div id="dna_melting_temp-len_12-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-dna_melting_temp-len_12-questions.txt" download title="Download bbq-dna_melting_temp-len_12-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-dna_melting_temp-len_12-questions.txt)">
@@ -483,7 +483,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Extreme DNA Melting Temperatures (Tm)
+      DNA Melting Temperature Extremes from Sequence (12 Bases)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -494,7 +494,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## Determining HLA Genotype Possibilities for Offspring
+## Offspring HLA Genotypes (2 Markers, Color)
 
 <div id="hla_genotype-2_markers-color-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-hla_genotype-2_markers-color-questions.txt" download title="Download bbq-hla_genotype-2_markers-color-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-hla_genotype-2_markers-color-questions.txt)">
@@ -515,7 +515,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining HLA Genotype Possibilities for Offspring
+      Offspring HLA Genotypes (2 Markers, Color)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -526,7 +526,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## RNA Primers for Inverse PCR Design
+## Inverse PCR Primer Selection (15 nt)
 
 <div id="inverse_pcr_design-len_15-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-inverse_pcr_design-len_15-questions.txt" download title="Download bbq-inverse_pcr_design-len_15-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-inverse_pcr_design-len_15-questions.txt)">
@@ -547,7 +547,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      RNA Primers for Inverse PCR Design
+      Inverse PCR Primer Selection (15 nt)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -558,7 +558,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## Determining DNA Fragment Sizes from Restriction Enzyme Digestion
+## Restriction Fragment Sizes (12 Length, 2 Sites)
 
 <div id="linear_digest-length_12-sites_2-fragment-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-linear_digest-length_12-sites_2-fragment-questions.txt" download title="Download bbq-linear_digest-length_12-sites_2-fragment-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-linear_digest-length_12-sites_2-fragment-questions.txt)">
@@ -579,7 +579,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining DNA Fragment Sizes from Restriction Enzyme Digestion
+      Restriction Fragment Sizes (12 Length, 2 Sites)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -590,7 +590,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## RNA Primers for Nested PCR Design
+## Nested PCR Primer Pair Selection (24 nt)
 
 <div id="nested_pcr_design-len_24-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-nested_pcr_design-len_24-questions.txt" download title="Download bbq-nested_pcr_design-len_24-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-nested_pcr_design-len_24-questions.txt)">
@@ -611,7 +611,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      RNA Primers for Nested PCR Design
+      Nested PCR Primer Pair Selection (24 nt)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -622,7 +622,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## Overhang Sequences in DNA Cleavage
+## Restriction Enzyme Overhang Sequences
 
 <div id="overhang_sequence-mc-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-overhang_sequence-mc-questions.txt" download title="Download bbq-overhang_sequence-mc-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-overhang_sequence-mc-questions.txt)">
@@ -643,7 +643,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Overhang Sequences in DNA Cleavage
+      Restriction Enzyme Overhang Sequences
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -654,7 +654,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## Restriction Enzyme Cut Types from Sequences
+## Restriction Enzyme Cut Types (5', 3', or Blunt)
 
 <div id="overhang_type-5_3_blunt-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-overhang_type-5_3_blunt-questions.txt" download title="Download bbq-overhang_type-5_3_blunt-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-overhang_type-5_3_blunt-questions.txt)">
@@ -675,7 +675,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Enzyme Cut Types from Sequences
+      Restriction Enzyme Cut Types (5', 3', or Blunt)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -686,7 +686,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## Matching Palindrome Sequence Halves
+## Palindromic DNA Sequence Completion
 
 <div id="palindrome_sequence_match-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-palindrome_sequence_match-questions.txt" download title="Download bbq-palindrome_sequence_match-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-palindrome_sequence_match-questions.txt)">
@@ -707,7 +707,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Palindrome Sequence Halves
+      Palindromic DNA Sequence Completion
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -718,7 +718,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## Correct PCR Primers for DNA Amplification
+## PCR Primer Selection (36 bp Template, 9-nt Primers)
 
 <div id="pcr_design-36_bp-9_primer-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-pcr_design-36_bp-9_primer-questions.txt" download title="Download bbq-pcr_design-36_bp-9_primer-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-pcr_design-36_bp-9_primer-questions.txt)">
@@ -739,7 +739,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Correct PCR Primers for DNA Amplification
+      PCR Primer Selection (36 bp Template, 9-nt Primers)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -750,7 +750,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## Paternity Using RFLP Analysis
+## RFLP Paternity Testing (EASY, 3 Males)
 
 <div id="who_father_html-EASY-3_males-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-who_father_html-EASY-3_males-questions.txt" download title="Download bbq-who_father_html-EASY-3_males-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-who_father_html-EASY-3_males-questions.txt)">
@@ -771,7 +771,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Paternity Using RFLP Analysis
+      RFLP Paternity Testing (EASY, 3 Males)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -782,7 +782,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## Determining Paternity from DNA Analysis
+## RFLP Paternity Testing (HARD, 9 Males)
 
 <div id="who_father_html-HARD-9_males-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-who_father_html-HARD-9_males-questions.txt" download title="Download bbq-who_father_html-HARD-9_males-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-who_father_html-HARD-9_males-questions.txt)">
@@ -803,7 +803,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Paternity from DNA Analysis
+      RFLP Paternity Testing (HARD, 9 Males)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -814,7 +814,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## MATCHING Paternity via DNA Gel Profiles
+## RFLP Paternity Testing (MEDIUM, 5 Males)
 
 <div id="who_father_html-MEDIUM-5_males-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-who_father_html-MEDIUM-5_males-questions.txt" download title="Download bbq-who_father_html-MEDIUM-5_males-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-who_father_html-MEDIUM-5_males-questions.txt)">
@@ -835,7 +835,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      MATCHING Paternity via DNA Gel Profiles
+      RFLP Paternity Testing (MEDIUM, 5 Males)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -846,7 +846,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## Suspects Using DNA Evidence
+## RFLP Forensic DNA Analysis (EASY, 4 Suspects)
 
 <div id="who_killer_html-EASY-4_suspects-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-who_killer_html-EASY-4_suspects-questions.txt" download title="Download bbq-who_killer_html-EASY-4_suspects-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-who_killer_html-EASY-4_suspects-questions.txt)">
@@ -867,7 +867,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Suspects Using DNA Evidence
+      RFLP Forensic DNA Analysis (EASY, 4 Suspects)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -878,7 +878,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## Suspects in Criminal Investigations Using DNA Analysis
+## RFLP Forensic DNA Analysis (HARD, 9 Suspects)
 
 <div id="who_killer_html-HARD-9_suspects-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-who_killer_html-HARD-9_suspects-questions.txt" download title="Download bbq-who_killer_html-HARD-9_suspects-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-who_killer_html-HARD-9_suspects-questions.txt)">
@@ -899,7 +899,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Suspects in Criminal Investigations Using DNA Analysis
+      RFLP Forensic DNA Analysis (HARD, 9 Suspects)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -910,7 +910,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## Matching DNA Profiles of Suspects
+## RFLP Forensic DNA Analysis (MEDIUM, 5 Suspects)
 
 <div id="who_killer_html-MEDIUM-5_suspects-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-who_killer_html-MEDIUM-5_suspects-questions.txt" download title="Download bbq-who_killer_html-MEDIUM-5_suspects-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-who_killer_html-MEDIUM-5_suspects-questions.txt)">
@@ -931,7 +931,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching DNA Profiles of Suspects
+      RFLP Forensic DNA Analysis (MEDIUM, 5 Suspects)
     </span>
     <span style='font-weight: normal;'>
       example problem

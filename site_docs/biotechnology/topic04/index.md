@@ -2,7 +2,7 @@
 
 Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, biosensors, Agrobacterium, gene guns, transgenic organisms, and GMO applications.
 
-## Matching Transgenes to Descriptions
+## Matching Plant Transgenes to Functions
 
 <div id="MATCH-plant_transgenes-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-plant_transgenes-questions.txt" download title="Download bbq-MATCH-plant_transgenes-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-plant_transgenes-questions.txt)">
@@ -26,7 +26,7 @@ Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, bi
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Transgenes to Descriptions
+      Matching Plant Transgenes to Functions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -37,7 +37,7 @@ Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, bi
 </details>
 
 
-## Transgene Functions Related to Salt Tolerance and Proton Transport
+## Plant Transgenes from Functional Descriptions
 
 <div id="WOMC-plant_transgenes-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-plant_transgenes-questions.txt" download title="Download bbq-WOMC-plant_transgenes-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-plant_transgenes-questions.txt)">
@@ -61,7 +61,7 @@ Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, bi
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Transgene Functions Related to Salt Tolerance and Proton Transport
+      Plant Transgenes from Functional Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem

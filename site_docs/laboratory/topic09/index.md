@@ -2,7 +2,7 @@
 
 Students measure lactase reaction rates at different substrate concentrations, plot velocity data, and analyze how temperature, pH, or inhibitors affect enzyme activity in a laboratory setting.
 
-## Determining Michaelis-Menten Constant (KM) Using Table Data
+## Michaelis-Menten Constant (Km) from Enzyme Activity Data
 
 <div id="michaelis_menten_table-Km-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-michaelis_menten_table-Km-questions.txt" download title="Download bbq-michaelis_menten_table-Km-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-michaelis_menten_table-Km-questions.txt)">
@@ -23,7 +23,7 @@ Students measure lactase reaction rates at different substrate concentrations, p
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Michaelis-Menten Constant (KM) Using Table Data
+      Michaelis-Menten Constant (Km) from Enzyme Activity Data
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -34,7 +34,7 @@ Students measure lactase reaction rates at different substrate concentrations, p
 </details>
 
 
-## Determining Enzyme Inhibition Type from Table Data
+## Enzyme Inhibition Type from Enzyme Activity Data
 
 <div id="michaelis_menten_table-inhibition-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-michaelis_menten_table-inhibition-questions.txt" download title="Download bbq-michaelis_menten_table-inhibition-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-michaelis_menten_table-inhibition-questions.txt)">
@@ -55,7 +55,7 @@ Students measure lactase reaction rates at different substrate concentrations, p
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Enzyme Inhibition Type from Table Data
+      Enzyme Inhibition Type from Enzyme Activity Data
     </span>
     <span style='font-weight: normal;'>
       example problem

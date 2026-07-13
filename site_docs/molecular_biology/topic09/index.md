@@ -2,7 +2,7 @@
 
 Translation of mRNA into protein, codons, anticodons, genetic code, ribosomes, tRNA, and peptide synthesis.
 
-## Matching Central Dogma Stages with Related Terms
+## Matching Central Dogma Stages to Related Terms
 
 <div id="MATCH-central_dogma_terms-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-central_dogma_terms-questions.txt" download title="Download bbq-MATCH-central_dogma_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-central_dogma_terms-questions.txt)">
@@ -26,7 +26,7 @@ Translation of mRNA into protein, codons, anticodons, genetic code, ribosomes, t
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Central Dogma Stages with Related Terms
+      Matching Central Dogma Stages to Related Terms
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -37,7 +37,7 @@ Translation of mRNA into protein, codons, anticodons, genetic code, ribosomes, t
 </details>
 
 
-## Determining True/False Statements About G-U Wobble Base Pairs
+## True/False Statements About G-U Wobble Base Pairs
 
 <div id="TFMS-g-u_wobble-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-g-u_wobble-questions.txt" download title="Download bbq-TFMS-g-u_wobble-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-g-u_wobble-questions.txt)">
@@ -61,7 +61,7 @@ Translation of mRNA into protein, codons, anticodons, genetic code, ribosomes, t
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining True/False Statements About G-U Wobble Base Pairs
+      True/False Statements About G-U Wobble Base Pairs
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -72,7 +72,7 @@ Translation of mRNA into protein, codons, anticodons, genetic code, ribosomes, t
 </details>
 
 
-## Factors Affecting Translation Accuracy
+## True/False Statements About Translation Accuracy
 
 <div id="TFMS-translation_accuracy-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-translation_accuracy-questions.txt" download title="Download bbq-TFMS-translation_accuracy-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-translation_accuracy-questions.txt)">
@@ -93,7 +93,7 @@ Translation of mRNA into protein, codons, anticodons, genetic code, ribosomes, t
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Factors Affecting Translation Accuracy
+      True/False Statements About Translation Accuracy
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -139,7 +139,7 @@ Translation of mRNA into protein, codons, anticodons, genetic code, ribosomes, t
 </details>
 
 
-## Determining Amino Acid Sequence from mRNA Sequence
+## Peptide Sequences from mRNA Using the Genetic Code (10 Amino Acids)
 
 <div id="translate_genetic_code-10_aa-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-translate_genetic_code-10_aa-questions.txt" download title="Download bbq-translate_genetic_code-10_aa-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-translate_genetic_code-10_aa-questions.txt)">
@@ -160,7 +160,7 @@ Translation of mRNA into protein, codons, anticodons, genetic code, ribosomes, t
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Amino Acid Sequence from mRNA Sequence
+      Peptide Sequences from mRNA Using the Genetic Code (10 Amino Acids)
     </span>
     <span style='font-weight: normal;'>
       example problem

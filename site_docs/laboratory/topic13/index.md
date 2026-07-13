@@ -2,7 +2,7 @@
 
 Students analyze GAPDH DNA and protein sequences using BLAST, interpret alignment scores, and use bioinformatics databases to compare sequences across species.
 
-## Arbitrary Sequence Codes for Degenerate Primer Design
+## Degenerate Primer Codes from Sequence Alignments
 
 <div id="consensus_sequence_FIB-arbitrary_code-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" download title="Download bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-consensus_sequence_FIB-arbitrary_code-questions.txt)">
@@ -23,7 +23,7 @@ Students analyze GAPDH DNA and protein sequences using BLAST, interpret alignmen
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Arbitrary Sequence Codes for Degenerate Primer Design
+      Degenerate Primer Codes from Sequence Alignments
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -34,7 +34,7 @@ Students analyze GAPDH DNA and protein sequences using BLAST, interpret alignmen
 </details>
 
 
-## Determining Consensus Sequence from Aligned Data
+## Consensus Sequences from Simple Alignments (Fill in the Blank)
 
 <div id="consensus_sequence_FIB-easy-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-easy-questions.txt" download title="Download bbq-consensus_sequence_FIB-easy-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-consensus_sequence_FIB-easy-questions.txt)">
@@ -55,7 +55,7 @@ Students analyze GAPDH DNA and protein sequences using BLAST, interpret alignmen
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Consensus Sequence from Aligned Data
+      Consensus Sequences from Simple Alignments (Fill in the Blank)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -66,7 +66,7 @@ Students analyze GAPDH DNA and protein sequences using BLAST, interpret alignmen
 </details>
 
 
-## Consensus Sequences in DNA
+## Consensus Sequences from Tables (Fill in the Blank)
 
 <div id="consensus_sequence_FIB-hard-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-hard-questions.txt" download title="Download bbq-consensus_sequence_FIB-hard-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-consensus_sequence_FIB-hard-questions.txt)">
@@ -87,7 +87,7 @@ Students analyze GAPDH DNA and protein sequences using BLAST, interpret alignmen
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Consensus Sequences in DNA
+      Consensus Sequences from Tables (Fill in the Blank)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -98,7 +98,7 @@ Students analyze GAPDH DNA and protein sequences using BLAST, interpret alignmen
 </details>
 
 
-## Consensus Sequences
+## Consensus Sequences from Alignments (Multiple Choice)
 
 <div id="consensus_sequence_MC-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-consensus_sequence_MC-questions.txt" download title="Download bbq-consensus_sequence_MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-consensus_sequence_MC-questions.txt)">
@@ -119,7 +119,7 @@ Students analyze GAPDH DNA and protein sequences using BLAST, interpret alignmen
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Consensus Sequences
+      Consensus Sequences from Alignments (Multiple Choice)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -130,7 +130,7 @@ Students analyze GAPDH DNA and protein sequences using BLAST, interpret alignmen
 </details>
 
 
-## Determining Gene Trees from Distance Matrices
+## Gene Trees from Distance Matrices (5 Leaves, 5 Choices)
 
 <div id="gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices-questions.txt" download title="Download bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices-questions.txt)">
@@ -151,7 +151,7 @@ Students analyze GAPDH DNA and protein sequences using BLAST, interpret alignmen
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Gene Trees from Distance Matrices
+      Gene Trees from Distance Matrices (5 Leaves, 5 Choices)
     </span>
     <span style='font-weight: normal;'>
       example problem

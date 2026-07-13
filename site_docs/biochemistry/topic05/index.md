@@ -109,7 +109,7 @@ Students choose purification methods for proteins based on size, charge, and bin
 </details>
 
 
-## Cell Disruption Techniques from Descriptions (MC)
+## Cell Disruption Techniques from Descriptions
 
 <div id="WOMC-cell_disruption-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-cell_disruption-questions.txt" download title="Download bbq-WOMC-cell_disruption-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-cell_disruption-questions.txt)">
@@ -133,7 +133,7 @@ Students choose purification methods for proteins based on size, charge, and bin
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Cell Disruption Techniques from Descriptions (MC)
+      Cell Disruption Techniques from Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -144,7 +144,7 @@ Students choose purification methods for proteins based on size, charge, and bin
 </details>
 
 
-## Types of Column Chromatography Based on Descriptions
+## Column Chromatography Types from Descriptions
 
 <div id="WOMC-column_chromatography-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-column_chromatography-questions.txt" download title="Download bbq-WOMC-column_chromatography-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-column_chromatography-questions.txt)">
@@ -168,7 +168,7 @@ Students choose purification methods for proteins based on size, charge, and bin
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Types of Column Chromatography Based on Descriptions
+      Column Chromatography Types from Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -179,7 +179,7 @@ Students choose purification methods for proteins based on size, charge, and bin
 </details>
 
 
-## Matching Macromolecule Types to Gel Electrophoresis Processes
+## Macromolecule Types from Gel Electrophoresis Descriptions
 
 <div id="WOMC-protein_v_dna_gels-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-protein_v_dna_gels-questions.txt" download title="Download bbq-WOMC-protein_v_dna_gels-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-protein_v_dna_gels-questions.txt)">
@@ -203,7 +203,7 @@ Students choose purification methods for proteins based on size, charge, and bin
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Macromolecule Types to Gel Electrophoresis Processes
+      Macromolecule Types from Gel Electrophoresis Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -249,7 +249,7 @@ Students choose purification methods for proteins based on size, charge, and bin
 </details>
 
 
-## Protein Migration Direction from Isoelectric Point
+## Protein Migration Direction in Isoelectric Focusing
 
 <div id="isoelectric_two_proteins-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-isoelectric_two_proteins-questions.txt" download title="Download bbq-isoelectric_two_proteins-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-isoelectric_two_proteins-questions.txt)">
@@ -273,7 +273,7 @@ Students choose purification methods for proteins based on size, charge, and bin
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Protein Migration Direction from Isoelectric Point
+      Protein Migration Direction in Isoelectric Focusing
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -284,7 +284,7 @@ Students choose purification methods for proteins based on size, charge, and bin
 </details>
 
 
-## Calculating Molecular Weight from SDS-PAGE Ladder
+## Protein Molecular Weight from an SDS-PAGE Ladder
 
 <div id="kaleidoscope_ladder_unknown_band-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-kaleidoscope_ladder_unknown_band-questions.txt" download title="Download bbq-kaleidoscope_ladder_unknown_band-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-kaleidoscope_ladder_unknown_band-questions.txt)">
@@ -308,7 +308,7 @@ Students choose purification methods for proteins based on size, charge, and bin
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Calculating Molecular Weight from SDS-PAGE Ladder
+      Protein Molecular Weight from an SDS-PAGE Ladder
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -354,7 +354,7 @@ Students choose purification methods for proteins based on size, charge, and bin
 </details>
 
 
-## Determining Isoelectric Point Using pKa
+## Isoelectric Point from pKa Values
 
 <div id="titration_pI-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-titration_pI-questions.txt" download title="Download bbq-titration_pI-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-titration_pI-questions.txt)">
@@ -378,7 +378,7 @@ Students choose purification methods for proteins based on size, charge, and bin
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Isoelectric Point Using pKa
+      Isoelectric Point from pKa Values
     </span>
     <span style='font-weight: normal;'>
       example problem

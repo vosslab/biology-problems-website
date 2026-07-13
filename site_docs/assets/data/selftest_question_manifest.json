@@ -1751,16 +1751,6 @@
       "topicTitle": "Grouping with Z-Scores"
     },
     {
-      "crc": "5e8d_b8ff",
-      "pagePath": "biostatistics/topic08/index.md",
-      "questionFingerprint": "1d49ac90a3ea0019",
-      "questionId": "5e8d_b8ff",
-      "selftestPath": "biostatistics/topic08/downloads/selftest-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices.html",
-      "subjectKey": "biostatistics",
-      "topicKey": "topic08",
-      "topicTitle": "Graph Interpretation"
-    },
-    {
       "crc": "b873_eaef",
       "pagePath": "biostatistics/topic08/index.md",
       "questionFingerprint": "669420dcca75afdf",

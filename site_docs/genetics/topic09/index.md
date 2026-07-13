@@ -4,7 +4,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 
 **LibreTexts reference:** [Chapter 9: Chromosomal Disorders](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/09:_Chromosomal_Disorders) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/09:_Chromosomal_Disorders" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 9" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
-## Matching Chromosome Structure Alterations to Their Corresponding Descriptions
+## Matching Chromosome Structure Alterations to Descriptions
 
 <div id="MATCH-chromosome_alterations-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-chromosome_alterations-questions.txt" download title="Download bbq-MATCH-chromosome_alterations-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-chromosome_alterations-questions.txt)">
@@ -28,7 +28,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Chromosome Structure Alterations to Their Corresponding Descriptions
+      Matching Chromosome Structure Alterations to Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -39,7 +39,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 </details>
 
 
-## Chromosome Shapes and Descriptions
+## Matching Chromosome Shapes to Descriptions
 
 <div id="MATCH-chromosome_shapes-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-chromosome_shapes-questions.txt" download title="Download bbq-MATCH-chromosome_shapes-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-chromosome_shapes-questions.txt)">
@@ -63,7 +63,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Chromosome Shapes and Descriptions
+      Matching Chromosome Shapes to Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -272,7 +272,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 </details>
 
 
-## Cytogenetic Notation Karyotypes
+## Chromosome Sub-Band Positions from Cytogenetic Notation
 
 <div id="cytogenetic_notation-sub-band_notation-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-cytogenetic_notation-sub-band_notation-questions.txt" download title="Download bbq-cytogenetic_notation-sub-band_notation-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-cytogenetic_notation-sub-band_notation-questions.txt)">
@@ -293,7 +293,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Cytogenetic Notation Karyotypes
+      Chromosome Sub-Band Positions from Cytogenetic Notation
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -304,7 +304,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 </details>
 
 
-## Determining Gene Order Using Deletion Mutants
+## Gene Order from Deletion Mutants (4 Genes, Random Labels)
 
 <div id="deletion_mutant_random-04_genes-MC-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-deletion_mutant_random-04_genes-MC-questions.txt" download title="Download bbq-deletion_mutant_random-04_genes-MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-deletion_mutant_random-04_genes-MC-questions.txt)">
@@ -325,7 +325,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Gene Order Using Deletion Mutants
+      Gene Order from Deletion Mutants (4 Genes, Random Labels)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -336,7 +336,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 </details>
 
 
-## Gene Order Determination
+## Gene Order from Deletion Mutants (5 Genes, Random Labels)
 
 <div id="deletion_mutant_random-05_genes-MC-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-deletion_mutant_random-05_genes-MC-questions.txt" download title="Download bbq-deletion_mutant_random-05_genes-MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-deletion_mutant_random-05_genes-MC-questions.txt)">
@@ -357,7 +357,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Gene Order Determination
+      Gene Order from Deletion Mutants (5 Genes, Random Labels)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -368,7 +368,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 </details>
 
 
-## Determining Gene Order Using Deletion Mutants
+## Gene Order from Deletion Mutants (6 Genes, Random Labels)
 
 <div id="deletion_mutant_random-06_genes-MC-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-deletion_mutant_random-06_genes-MC-questions.txt" download title="Download bbq-deletion_mutant_random-06_genes-MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-deletion_mutant_random-06_genes-MC-questions.txt)">
@@ -389,7 +389,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Gene Order Using Deletion Mutants
+      Gene Order from Deletion Mutants (6 Genes, Random Labels)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -400,7 +400,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 </details>
 
 
-## Gene Order Using Deletion Mutant Data
+## Gene Order from Deletion Mutants (4 Genes, Word Labels)
 
 <div id="deletion_mutant_words-04_genes-MC-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-deletion_mutant_words-04_genes-MC-questions.txt" download title="Download bbq-deletion_mutant_words-04_genes-MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-deletion_mutant_words-04_genes-MC-questions.txt)">
@@ -421,7 +421,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Gene Order Using Deletion Mutant Data
+      Gene Order from Deletion Mutants (4 Genes, Word Labels)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -432,7 +432,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 </details>
 
 
-## Gene Order Determination
+## Gene Order from Deletion Mutants (5 Genes, Word Labels)
 
 <div id="deletion_mutant_words-05_genes-MC-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-deletion_mutant_words-05_genes-MC-questions.txt" download title="Download bbq-deletion_mutant_words-05_genes-MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-deletion_mutant_words-05_genes-MC-questions.txt)">
@@ -453,7 +453,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Gene Order Determination
+      Gene Order from Deletion Mutants (5 Genes, Word Labels)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -464,7 +464,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 </details>
 
 
-## Determining Gene Order Using Deletion Mutants
+## Gene Order from Deletion Mutants (6 Genes, Word Labels)
 
 <div id="deletion_mutant_words-06_genes-MC-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-deletion_mutant_words-06_genes-MC-questions.txt" download title="Download bbq-deletion_mutant_words-06_genes-MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-deletion_mutant_words-06_genes-MC-questions.txt)">
@@ -485,7 +485,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Gene Order Using Deletion Mutants
+      Gene Order from Deletion Mutants (6 Genes, Word Labels)
     </span>
     <span style='font-weight: normal;'>
       example problem

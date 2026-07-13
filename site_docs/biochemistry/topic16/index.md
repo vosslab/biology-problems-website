@@ -2,7 +2,7 @@
 
 Students trace glucose through glycolysis to pyruvate, calculate net ATP and NADH yield, explain how fructose and galactose enter the pathway, describe NAD+ regeneration through fermentation, identify regulatory control points responsive to energy demand and hormonal signals, and contrast gluconeogenesis bypass reactions with irreversible glycolytic steps including reciprocal regulation between the two pathways.
 
-## Matching Cellular Respiration Stages to Corresponding Statements
+## Matching Cellular Respiration Stages to Statements
 
 <div id="MATCH-respiration-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-respiration-questions.txt" download title="Download bbq-MATCH-respiration-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-respiration-questions.txt)">
@@ -26,7 +26,7 @@ Students trace glucose through glycolysis to pyruvate, calculate net ATP and NAD
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Cellular Respiration Stages to Corresponding Statements
+      Matching Cellular Respiration Stages to Statements
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -37,7 +37,7 @@ Students trace glucose through glycolysis to pyruvate, calculate net ATP and NAD
 </details>
 
 
-## Stages in Cellular Respiration
+## Cellular Respiration Stages from Statements
 
 <div id="WOMC-respiration-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-respiration-questions.txt" download title="Download bbq-WOMC-respiration-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-respiration-questions.txt)">
@@ -61,7 +61,7 @@ Students trace glucose through glycolysis to pyruvate, calculate net ATP and NAD
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Stages in Cellular Respiration
+      Cellular Respiration Stages from Statements
     </span>
     <span style='font-weight: normal;'>
       example problem

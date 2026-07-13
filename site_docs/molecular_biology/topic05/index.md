@@ -2,7 +2,7 @@
 
 Gene cloning, DNA sequencing methods, and RT-qPCR.
 
-## Calculating Fold Change from RT-qPCR Data
+## Gene Expression Fold Change from RT-qPCR Data
 
 <div id="RT-qPCR-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-RT-qPCR-questions.txt" download title="Download bbq-RT-qPCR-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-RT-qPCR-questions.txt)">
@@ -23,7 +23,7 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Calculating Fold Change from RT-qPCR Data
+      Gene Expression Fold Change from RT-qPCR Data
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -34,7 +34,7 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 </details>
 
 
-## Determining True/False Statements About Long Distance PCR
+## True/False Statements About Long-Distance PCR
 
 <div id="TFMS-long_run_pcr-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-long_run_pcr-questions.txt" download title="Download bbq-TFMS-long_run_pcr-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-long_run_pcr-questions.txt)">
@@ -58,7 +58,7 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining True/False Statements About Long Distance PCR
+      True/False Statements About Long-Distance PCR
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -69,7 +69,7 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 </details>
 
 
-## Components Not in PCR Experiments
+## True/False Statements About PCR Components
 
 <div id="TFMS-pcr_components-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-pcr_components-questions.txt" download title="Download bbq-TFMS-pcr_components-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-pcr_components-questions.txt)">
@@ -90,7 +90,7 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Components Not in PCR Experiments
+      True/False Statements About PCR Components
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -101,7 +101,7 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 </details>
 
 
-## Determining True/False Statements About Efficient PCR Primers
+## True/False Statements About Efficient PCR Primers
 
 <div id="TFMS-pcr_primers-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-pcr_primers-questions.txt" download title="Download bbq-TFMS-pcr_primers-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-pcr_primers-questions.txt)">
@@ -125,7 +125,7 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining True/False Statements About Efficient PCR Primers
+      True/False Statements About Efficient PCR Primers
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -136,7 +136,7 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 </details>
 
 
-## Determining the Correct Order of Steps in a Polymerase Chain Reaction (PCR)
+## True/False Statements About PCR Step Order
 
 <div id="TFMS-pcr_step_order-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-pcr_step_order-questions.txt" download title="Download bbq-TFMS-pcr_step_order-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-pcr_step_order-questions.txt)">
@@ -157,7 +157,7 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining the Correct Order of Steps in a Polymerase Chain Reaction (PCR)
+      True/False Statements About PCR Step Order
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -168,7 +168,7 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 </details>
 
 
-## Determining Degenerate Primer Codes
+## Degenerate Primer Codes from Sequence Alignments
 
 <div id="consensus_sequence_FIB-arbitrary_code-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" download title="Download bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-consensus_sequence_FIB-arbitrary_code-questions.txt)">
@@ -189,7 +189,7 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Degenerate Primer Codes
+      Degenerate Primer Codes from Sequence Alignments
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -200,7 +200,7 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 </details>
 
 
-## Consensus Sequences from Sequence Alignment
+## Consensus Sequences from Simple Alignments (Fill in the Blank)
 
 <div id="consensus_sequence_FIB-easy-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-easy-questions.txt" download title="Download bbq-consensus_sequence_FIB-easy-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-consensus_sequence_FIB-easy-questions.txt)">
@@ -221,7 +221,7 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Consensus Sequences from Sequence Alignment
+      Consensus Sequences from Simple Alignments (Fill in the Blank)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -232,7 +232,7 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 </details>
 
 
-## Consensus Sequence in DNA/RNA
+## Consensus Sequences from Tables (Fill in the Blank)
 
 <div id="consensus_sequence_FIB-hard-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-hard-questions.txt" download title="Download bbq-consensus_sequence_FIB-hard-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-consensus_sequence_FIB-hard-questions.txt)">
@@ -253,7 +253,7 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Consensus Sequence in DNA/RNA
+      Consensus Sequences from Tables (Fill in the Blank)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -264,7 +264,7 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 </details>
 
 
-## Determining Consensus Sequences from Aligned Sequences
+## Consensus Sequences from Alignments (Multiple Choice)
 
 <div id="consensus_sequence_MC-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-consensus_sequence_MC-questions.txt" download title="Download bbq-consensus_sequence_MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-consensus_sequence_MC-questions.txt)">
@@ -285,7 +285,7 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Consensus Sequences from Aligned Sequences
+      Consensus Sequences from Alignments (Multiple Choice)
     </span>
     <span style='font-weight: normal;'>
       example problem

@@ -2,7 +2,7 @@
 
 Restriction enzymes, gel electrophoresis, and PCR.
 
-## Determining True/False Statements About DNA Structure
+## True/False Statements About DNA Structure (BIOL 301)
 
 <div id="TFMS-dna_structure-biol_301-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-dna_structure-biol_301-questions.txt" download title="Download bbq-TFMS-dna_structure-biol_301-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-dna_structure-biol_301-questions.txt)">
@@ -26,7 +26,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining True/False Statements About DNA Structure
+      True/False Statements About DNA Structure (BIOL 301)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -37,7 +37,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
 </details>
 
 
-## Calculating Amplicon Copies After a Given Number of PCR Rounds
+## Amplicon Copy Number After PCR Rounds
 
 <div id="amplicon_copies-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-amplicon_copies-questions.txt" download title="Download bbq-amplicon_copies-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-amplicon_copies-questions.txt)">
@@ -58,7 +58,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Calculating Amplicon Copies After a Given Number of PCR Rounds
+      Amplicon Copy Number After PCR Rounds
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -69,7 +69,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
 </details>
 
 
-## DNA Fragment Size in Agarose Gel Electrophoresis
+## DNA Fragment Migration in Agarose Gel Electrophoresis (Closest/Farthest)
 
 <div id="dna_gel-closest_farthest_MC-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-dna_gel-closest_farthest_MC-questions.txt" download title="Download bbq-dna_gel-closest_farthest_MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-dna_gel-closest_farthest_MC-questions.txt)">
@@ -90,7 +90,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      DNA Fragment Size in Agarose Gel Electrophoresis
+      DNA Fragment Migration in Agarose Gel Electrophoresis (Closest/Farthest)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -101,7 +101,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
 </details>
 
 
-## Determining DNA Size from Gel Electrophoresis
+## DNA Fragment Size from Agarose Gel Migration (Numeric)
 
 <div id="dna_gel-estimate_size-MC_or_NUM-num-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt" download title="Download bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt)">
@@ -122,7 +122,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining DNA Size from Gel Electrophoresis
+      DNA Fragment Size from Agarose Gel Migration (Numeric)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -133,7 +133,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
 </details>
 
 
-## Determining Inverse PCR Primer Selection
+## Inverse PCR Primer Selection (15 nt)
 
 <div id="inverse_pcr_design-len_15-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-inverse_pcr_design-len_15-questions.txt" download title="Download bbq-inverse_pcr_design-len_15-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-inverse_pcr_design-len_15-questions.txt)">
@@ -154,7 +154,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Inverse PCR Primer Selection
+      Inverse PCR Primer Selection (15 nt)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -165,7 +165,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
 </details>
 
 
-## Determining Restriction Fragment Sizes
+## Restriction Fragment Sizes (12 Length, 2 Sites)
 
 <div id="linear_digest-length_12-sites_2-fragment-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-linear_digest-length_12-sites_2-fragment-questions.txt" download title="Download bbq-linear_digest-length_12-sites_2-fragment-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-linear_digest-length_12-sites_2-fragment-questions.txt)">
@@ -186,7 +186,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Restriction Fragment Sizes
+      Restriction Fragment Sizes (12 Length, 2 Sites)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -197,7 +197,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
 </details>
 
 
-## Determining Nested PCR Primer Pairs
+## Nested PCR Primer Pair Selection (24 nt)
 
 <div id="nested_pcr_design-len_24-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-nested_pcr_design-len_24-questions.txt" download title="Download bbq-nested_pcr_design-len_24-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-nested_pcr_design-len_24-questions.txt)">
@@ -218,7 +218,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Nested PCR Primer Pairs
+      Nested PCR Primer Pair Selection (24 nt)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -229,7 +229,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
 </details>
 
 
-## Overhang Sequences from Restriction Enzyme Cleavage
+## Restriction Enzyme Overhang Sequences
 
 <div id="overhang_sequence-mc-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-overhang_sequence-mc-questions.txt" download title="Download bbq-overhang_sequence-mc-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-overhang_sequence-mc-questions.txt)">
@@ -250,7 +250,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Overhang Sequences from Restriction Enzyme Cleavage
+      Restriction Enzyme Overhang Sequences
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -261,7 +261,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
 </details>
 
 
-## Determining Restriction Enzyme Cut Types
+## Restriction Enzyme Cut Types (5', 3', or Blunt)
 
 <div id="overhang_type-5_3_blunt-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-overhang_type-5_3_blunt-questions.txt" download title="Download bbq-overhang_type-5_3_blunt-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-overhang_type-5_3_blunt-questions.txt)">
@@ -282,7 +282,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Restriction Enzyme Cut Types
+      Restriction Enzyme Cut Types (5', 3', or Blunt)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -293,7 +293,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
 </details>
 
 
-## Matching Palindrome Sequence Halves
+## Palindromic DNA Sequence Completion
 
 <div id="palindrome_sequence_match-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-palindrome_sequence_match-questions.txt" download title="Download bbq-palindrome_sequence_match-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-palindrome_sequence_match-questions.txt)">
@@ -314,7 +314,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Palindrome Sequence Halves
+      Palindromic DNA Sequence Completion
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -325,7 +325,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
 </details>
 
 
-## Correct Primers for PCR Amplification
+## PCR Primer Selection (36 bp Template, 9-nt Primers)
 
 <div id="pcr_design-36_bp-9_primer-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-pcr_design-36_bp-9_primer-questions.txt" download title="Download bbq-pcr_design-36_bp-9_primer-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-pcr_design-36_bp-9_primer-questions.txt)">
@@ -346,7 +346,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Correct Primers for PCR Amplification
+      PCR Primer Selection (36 bp Template, 9-nt Primers)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -357,7 +357,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
 </details>
 
 
-## Determining Paternity Using Molecular Biology Techniques
+## RFLP Paternity Testing (EASY, 3 Males)
 
 <div id="who_father_html-EASY-3_males-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-who_father_html-EASY-3_males-questions.txt" download title="Download bbq-who_father_html-EASY-3_males-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-who_father_html-EASY-3_males-questions.txt)">
@@ -378,7 +378,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Paternity Using Molecular Biology Techniques
+      RFLP Paternity Testing (EASY, 3 Males)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -389,7 +389,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
 </details>
 
 
-## Determining Paternity Using DNA Analysis
+## RFLP Paternity Testing (HARD, 9 Males)
 
 <div id="who_father_html-HARD-9_males-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-who_father_html-HARD-9_males-questions.txt" download title="Download bbq-who_father_html-HARD-9_males-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-who_father_html-HARD-9_males-questions.txt)">
@@ -410,7 +410,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Paternity Using DNA Analysis
+      RFLP Paternity Testing (HARD, 9 Males)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -421,7 +421,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
 </details>
 
 
-## Determining Paternity Using Restriction Fragment Length Polymorphism (RFLP)
+## RFLP Paternity Testing (MEDIUM, 5 Males)
 
 <div id="who_father_html-MEDIUM-5_males-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-who_father_html-MEDIUM-5_males-questions.txt" download title="Download bbq-who_father_html-MEDIUM-5_males-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-who_father_html-MEDIUM-5_males-questions.txt)">
@@ -442,7 +442,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Determining Paternity Using Restriction Fragment Length Polymorphism (RFLP)
+      RFLP Paternity Testing (MEDIUM, 5 Males)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -453,7 +453,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
 </details>
 
 
-## Suspects Using Restriction Fragment Length Polymorphism (RFLP) and DNA Gel Analysis
+## RFLP Forensic DNA Analysis (EASY, 4 Suspects)
 
 <div id="who_killer_html-EASY-4_suspects-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-who_killer_html-EASY-4_suspects-questions.txt" download title="Download bbq-who_killer_html-EASY-4_suspects-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-who_killer_html-EASY-4_suspects-questions.txt)">
@@ -474,7 +474,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Suspects Using Restriction Fragment Length Polymorphism (RFLP) and DNA Gel Analysis
+      RFLP Forensic DNA Analysis (EASY, 4 Suspects)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -485,7 +485,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
 </details>
 
 
-## Suspects Using DNA Analysis
+## RFLP Forensic DNA Analysis (HARD, 9 Suspects)
 
 <div id="who_killer_html-HARD-9_suspects-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-who_killer_html-HARD-9_suspects-questions.txt" download title="Download bbq-who_killer_html-HARD-9_suspects-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-who_killer_html-HARD-9_suspects-questions.txt)">
@@ -506,7 +506,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Suspects Using DNA Analysis
+      RFLP Forensic DNA Analysis (HARD, 9 Suspects)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -517,7 +517,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
 </details>
 
 
-## Matching Suspects Using DNA Evidence
+## RFLP Forensic DNA Analysis (MEDIUM, 5 Suspects)
 
 <div id="who_killer_html-MEDIUM-5_suspects-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-who_killer_html-MEDIUM-5_suspects-questions.txt" download title="Download bbq-who_killer_html-MEDIUM-5_suspects-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-who_killer_html-MEDIUM-5_suspects-questions.txt)">
@@ -538,7 +538,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Suspects Using DNA Evidence
+      RFLP Forensic DNA Analysis (MEDIUM, 5 Suspects)
     </span>
     <span style='font-weight: normal;'>
       example problem
