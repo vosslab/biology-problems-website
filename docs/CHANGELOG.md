@@ -15,6 +15,12 @@
 
 ### Fixes and Maintenance
 
+- Individually reviewed all 500 problem-set titles across 56 topic files. MATCH
+  titles now explicitly say "Matching", TFMS titles use "True/False Statements
+  About", and similar parameterized sets expose their distinguishing format,
+  difficulty, count, layout, label, or color details.
+- Aligned repeated BBQ keys to the same title across subjects and updated the
+  naming guide and title-generation prompt to preserve these conventions.
 - Assigned every frozen biology-problems generator and YAML bank, removed an
   exact duplicate row, corrected several existing chapter placements, and
   added cross-subject placements for DNA, PCR, statistics, genetics,

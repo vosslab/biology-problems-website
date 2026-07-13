@@ -1,15 +1,14 @@
-bbq-RT-qPCR-questions.txt: Calculating Fold Change from RT-qPCR Data
-bbq-TFMS-long_run_pcr-questions.txt: Determining True/False Statements About Long
-  Distance PCR
-bbq-TFMS-pcr_components-questions.txt: Components Not in PCR Experiments
-bbq-TFMS-pcr_primers-questions.txt: Determining True/False Statements About Efficient
-  PCR Primers
-bbq-TFMS-pcr_step_order-questions.txt: Determining the Correct Order of Steps in a
-  Polymerase Chain Reaction (PCR)
-bbq-consensus_sequence_FIB-arbitrary_code-questions.txt: Determining Degenerate Primer
-  Codes
-bbq-consensus_sequence_FIB-easy-questions.txt: Consensus Sequences from Sequence Alignment
-bbq-consensus_sequence_FIB-hard-questions.txt: Consensus Sequence in DNA/RNA
-bbq-consensus_sequence_MC-questions.txt: Determining Consensus Sequences from Aligned
-  Sequences
-last edit: Sun Jul 12 22:47:58 2026
+bbq-RT-qPCR-questions.txt: Gene Expression Fold Change from RT-qPCR Data
+bbq-TFMS-long_run_pcr-questions.txt: True/False Statements About Long-Distance PCR
+bbq-TFMS-pcr_components-questions.txt: True/False Statements About PCR Components
+bbq-TFMS-pcr_primers-questions.txt: True/False Statements About Efficient PCR Primers
+bbq-TFMS-pcr_step_order-questions.txt: True/False Statements About PCR Step Order
+bbq-consensus_sequence_FIB-arbitrary_code-questions.txt: Degenerate Primer Codes from
+  Sequence Alignments
+bbq-consensus_sequence_FIB-easy-questions.txt: Consensus Sequences from Simple Alignments
+  (Fill in the Blank)
+bbq-consensus_sequence_FIB-hard-questions.txt: Consensus Sequences from Tables (Fill
+  in the Blank)
+bbq-consensus_sequence_MC-questions.txt: Consensus Sequences from Alignments (Multiple
+  Choice)
+last edit: Sun Jul 12 23:11:26 2026

@@ -1,18 +1,18 @@
 bbq-MATCH-senses_receptor_types_by_modality-questions.txt: Matching Sensory Modalities
   to Receptor Cell Types
-bbq-MATCH-senses_signal_transduction_matching_set-questions.txt: MATCHING Sensory
-  Signal Transduction Components
+bbq-MATCH-senses_signal_transduction_matching_set-questions.txt: Matching Sensory
+  Signal Transduction Components to Functions
 bbq-MATCH-senses_taste_quality_to_stimulus-questions.txt: Matching Taste Qualities
   to Stimuli
-bbq-TFMS-senses_chemosensation_smell_taste-questions.txt: Determining True/False Statements
-  About Chemosensation (Smell and Taste)
-bbq-TFMS-senses_smell_vs_taste-questions.txt: Determining True/False Statements About
-  Sensory Coding Principles (Smell vs. Taste)
-bbq-TFMS-senses_vision_hearing-questions.txt: Determining True/False Statements About
-  Vision and Hearing Transduction
-bbq-WOMC-senses_receptor_types_by_modality-questions.txt: Matching Sensory Modalities
-  to Receptor Types
-bbq-WOMC-senses_signal_transduction_matching_set-questions.txt: Components in Sensory
-  Signal Transduction
+bbq-TFMS-senses_chemosensation_smell_taste-questions.txt: True/False Statements About
+  Chemosensation (Smell and Taste)
+bbq-TFMS-senses_smell_vs_taste-questions.txt: True/False Statements About Sensory
+  Coding (Smell vs. Taste)
+bbq-TFMS-senses_vision_hearing-questions.txt: True/False Statements About Vision and
+  Hearing Transduction
+bbq-WOMC-senses_receptor_types_by_modality-questions.txt: Receptor Cell Types from
+  Sensory Modalities
+bbq-WOMC-senses_signal_transduction_matching_set-questions.txt: Sensory Signal Transduction
+  Components from Functional Descriptions
 bbq-WOMC-senses_taste_quality_to_stimulus-questions.txt: Taste Qualities from Stimuli
-last edit: Sun Jul 12 22:06:39 2026
+last edit: Sun Jul 12 23:11:26 2026

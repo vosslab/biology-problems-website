@@ -1,39 +1,48 @@
-bbq-MATCH-dna_sequencing-questions.txt: DNA Sequencing Techniques Matching
-bbq-RT-qPCR-questions.txt: Calculating Fold Change from RT-qPCR Data
-bbq-TFMS-dna_structure-biol_351-questions.txt: Determining True/False Statements About
-  DNA Structure
-bbq-TFMS-xna_and_xdna-questions.txt: Statements About xDNA and XNA
-bbq-WOMC-dna_sequencing-questions.txt: DNA Sequencing Techniques
-bbq-amplicon_copies-questions.txt: Calculating Amplicon Copies After PCR Rounds
-bbq-chargaff_dna_percent-5_choices-questions.txt: Calculating Base Percentages According
-  to Chargaff's Rules
+bbq-MATCH-dna_sequencing-questions.txt: Matching DNA Sequencing Techniques to Descriptions
+bbq-RT-qPCR-questions.txt: Gene Expression Fold Change from RT-qPCR Data
+bbq-TFMS-dna_structure-biol_351-questions.txt: True/False Statements About DNA Structure
+  (BIOL 351)
+bbq-TFMS-xna_and_xdna-questions.txt: True/False Statements About xDNA and XNA
+bbq-WOMC-dna_sequencing-questions.txt: DNA Sequencing Techniques from Descriptions
+bbq-amplicon_copies-questions.txt: Amplicon Copy Number After PCR Rounds
+bbq-chargaff_dna_percent-5_choices-questions.txt: DNA Base Composition Using Chargaff's
+  Rules (5 Choices)
 bbq-complementary_sequences-mc-directionless-questions.txt: Complementary DNA Sequences
-bbq-consensus_sequence_FIB-arbitrary_code-questions.txt: Degenerate Primer Sequence
-  Codes
-bbq-consensus_sequence_FIB-easy-questions.txt: Consensus Sequence in Molecular Biology
-bbq-consensus_sequence_FIB-hard-questions.txt: Determining Consensus Sequence From
-  Table
-bbq-consensus_sequence_MC-questions.txt: Determining Consensus Sequences from Aligned
-  Sequences
-bbq-dna_gel-closest_farthest_MC-questions.txt: DNA Migration in Agarose Gels
-bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt: Estimating DNA Length from
-  Gel Migration Distance
-bbq-dna_melting_temp-len_12-questions.txt: Extreme DNA Melting Temperatures (Tm)
-bbq-hla_genotype-2_markers-color-questions.txt: Determining HLA Genotype Possibilities
-  for Offspring
-bbq-inverse_pcr_design-len_15-questions.txt: RNA Primers for Inverse PCR Design
-bbq-linear_digest-length_12-sites_2-fragment-questions.txt: Determining DNA Fragment
-  Sizes from Restriction Enzyme Digestion
-bbq-nested_pcr_design-len_24-questions.txt: RNA Primers for Nested PCR Design
-bbq-overhang_sequence-mc-questions.txt: Overhang Sequences in DNA Cleavage
-bbq-overhang_type-5_3_blunt-questions.txt: Restriction Enzyme Cut Types from Sequences
-bbq-palindrome_sequence_match-questions.txt: Matching Palindrome Sequence Halves
-bbq-pcr_design-36_bp-9_primer-questions.txt: Correct PCR Primers for DNA Amplification
-bbq-who_father_html-EASY-3_males-questions.txt: Paternity Using RFLP Analysis
-bbq-who_father_html-HARD-9_males-questions.txt: Determining Paternity from DNA Analysis
-bbq-who_father_html-MEDIUM-5_males-questions.txt: MATCHING Paternity via DNA Gel Profiles
-bbq-who_killer_html-EASY-4_suspects-questions.txt: Suspects Using DNA Evidence
-bbq-who_killer_html-HARD-9_suspects-questions.txt: Suspects in Criminal Investigations
-  Using DNA Analysis
-bbq-who_killer_html-MEDIUM-5_suspects-questions.txt: Matching DNA Profiles of Suspects
-last edit: Sun Jul 12 22:19:45 2026
+  Without Direction Labels
+bbq-consensus_sequence_FIB-arbitrary_code-questions.txt: Degenerate Primer Codes from
+  Sequence Alignments
+bbq-consensus_sequence_FIB-easy-questions.txt: Consensus Sequences from Simple Alignments
+  (Fill in the Blank)
+bbq-consensus_sequence_FIB-hard-questions.txt: Consensus Sequences from Tables (Fill
+  in the Blank)
+bbq-consensus_sequence_MC-questions.txt: Consensus Sequences from Alignments (Multiple
+  Choice)
+bbq-dna_gel-closest_farthest_MC-questions.txt: DNA Fragment Migration in Agarose Gel
+  Electrophoresis (Closest/Farthest)
+bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt: DNA Fragment Size from Agarose
+  Gel Migration (Numeric)
+bbq-dna_melting_temp-len_12-questions.txt: DNA Melting Temperature Extremes from
+  Sequence (12 Bases)
+bbq-hla_genotype-2_markers-color-questions.txt: Offspring HLA Genotypes (2 Markers,
+  Color)
+bbq-inverse_pcr_design-len_15-questions.txt: Inverse PCR Primer Selection (15 nt)
+bbq-linear_digest-length_12-sites_2-fragment-questions.txt: Restriction Fragment Sizes
+  (12 Length, 2 Sites)
+bbq-nested_pcr_design-len_24-questions.txt: Nested PCR Primer Pair Selection (24 nt)
+bbq-overhang_sequence-mc-questions.txt: Restriction Enzyme Overhang Sequences
+bbq-overhang_type-5_3_blunt-questions.txt: Restriction Enzyme Cut Types (5', 3', or
+  Blunt)
+bbq-palindrome_sequence_match-questions.txt: Palindromic DNA Sequence Completion
+bbq-pcr_design-36_bp-9_primer-questions.txt: PCR Primer Selection (36 bp Template,
+  9-nt Primers)
+bbq-who_father_html-EASY-3_males-questions.txt: RFLP Paternity Testing (EASY, 3 Males)
+bbq-who_father_html-HARD-9_males-questions.txt: RFLP Paternity Testing (HARD, 9 Males)
+bbq-who_father_html-MEDIUM-5_males-questions.txt: RFLP Paternity Testing (MEDIUM,
+  5 Males)
+bbq-who_killer_html-EASY-4_suspects-questions.txt: RFLP Forensic DNA Analysis (EASY,
+  4 Suspects)
+bbq-who_killer_html-HARD-9_suspects-questions.txt: RFLP Forensic DNA Analysis (HARD,
+  9 Suspects)
+bbq-who_killer_html-MEDIUM-5_suspects-questions.txt: RFLP Forensic DNA Analysis (MEDIUM,
+  5 Suspects)
+last edit: Sun Jul 12 23:11:26 2026
