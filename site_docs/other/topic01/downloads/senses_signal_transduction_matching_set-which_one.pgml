@@ -1,0 +1,861 @@
+## DESCRIPTION
+## Select the sensory transduction component that corresponds to the given function in signaling.
+## ENDDESCRIPTION
+## KEYWORDS('sensory transduction components','functions in signaling','which one','multiple choice')
+## DBsubject('Cell Biology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-07-12')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserRadioButtons.pl',
+    'PGcourse.pl',
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 0;
+
+#==========================================================
+# QUESTION DATA
+#==========================================================
+
+# All questions data
+@questions_data = (
+  {
+    'item_name' => '<strong>Receptor that binds odorants and activates G proteins</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'Olfactory receptor (GPCR)',
+      'Adenylyl cyclase (AC3)',
+      'CNG channel (olfactory)',
+      'IP<sub>3</sub>',
+      'TRPM5',
+      'Rhodopsin',
+      'Transducin',
+      'Phosphodiesterase 6 (PDE6)',
+    ],
+    'correct' => 'Olfactory receptor (GPCR)',
+  },
+  {
+    'item_name' => '<strong>GPCR that initiates olfactory signaling in sensory neurons</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'Olfactory receptor (GPCR)',
+      'Adenylyl cyclase (AC3)',
+      'Phospholipase C-&beta;2 (PLC-&beta;2)',
+      'TRPM5',
+      'Phosphodiesterase 6 (PDE6)',
+      'cGMP',
+      'CNG channel (rod outer segment)',
+      'Tip link (hair cell bundle)',
+    ],
+    'correct' => 'Olfactory receptor (GPCR)',
+  },
+  {
+    'item_name' => '<strong>Odorant-activated GPCR upstream of cAMP production</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'Olfactory receptor (GPCR)',
+      'G<sub>olf</sub>',
+      'cAMP',
+      'Phospholipase C-&beta;2 (PLC-&beta;2)',
+      'TRPM5',
+      'Transducin',
+      'Tip link (hair cell bundle)',
+      'Mechanotransduction channel (hair cell MET channel)',
+    ],
+    'correct' => 'Olfactory receptor (GPCR)',
+  },
+  {
+    'item_name' => '<strong>Olfactory G protein that activates adenylyl cyclase</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'Olfactory receptor (GPCR)',
+      'G<sub>olf</sub>',
+      'Gustducin',
+      'TRPM5',
+      'Rhodopsin',
+      'Transducin',
+      'Phosphodiesterase 6 (PDE6)',
+      'CNG channel (rod outer segment)',
+    ],
+    'correct' => 'G<sub>olf</sub>',
+  },
+  {
+    'item_name' => '<strong>G protein coupling olfactory receptors to cAMP signaling</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'Olfactory receptor (GPCR)',
+      'G<sub>olf</sub>',
+      'Gustducin',
+      'Rhodopsin',
+      'Transducin',
+      'cGMP',
+      'Tip link (hair cell bundle)',
+      'Mechanotransduction channel (hair cell MET channel)',
+    ],
+    'correct' => 'G<sub>olf</sub>',
+  },
+  {
+    'item_name' => '<strong>Heterotrimeric G protein used in olfactory GPCR pathways</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'Olfactory receptor (GPCR)',
+      'G<sub>olf</sub>',
+      'CNG channel (olfactory)',
+      'Phospholipase C-&beta;2 (PLC-&beta;2)',
+      'TRPM5',
+      'Transducin',
+      'Tip link (hair cell bundle)',
+      'Mechanotransduction channel (hair cell MET channel)',
+    ],
+    'correct' => 'G<sub>olf</sub>',
+  },
+  {
+    'item_name' => '<strong>Enzyme that converts ATP to cAMP in olfactory neurons</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'Olfactory receptor (GPCR)',
+      'Adenylyl cyclase (AC3)',
+      'cAMP',
+      'IP<sub>3</sub>',
+      'Rhodopsin',
+      'Phosphodiesterase 6 (PDE6)',
+      'CNG channel (rod outer segment)',
+      'Tip link (hair cell bundle)',
+    ],
+    'correct' => 'Adenylyl cyclase (AC3)',
+  },
+  {
+    'item_name' => '<strong>Enzyme that produces cAMP as a second messenger</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'Olfactory receptor (GPCR)',
+      'Adenylyl cyclase (AC3)',
+      'CNG channel (olfactory)',
+      'Gustducin',
+      'IP<sub>3</sub>',
+      'TRPM5',
+      'Tip link (hair cell bundle)',
+      'Mechanotransduction channel (hair cell MET channel)',
+    ],
+    'correct' => 'Adenylyl cyclase (AC3)',
+  },
+  {
+    'item_name' => '<strong>ATP-to-cAMP enzyme downstream of G<sub>olf</sub></strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'Olfactory receptor (GPCR)',
+      'Adenylyl cyclase (AC3)',
+      'cAMP',
+      'CNG channel (olfactory)',
+      'IP<sub>3</sub>',
+      'Rhodopsin',
+      'Tip link (hair cell bundle)',
+      'Mechanotransduction channel (hair cell MET channel)',
+    ],
+    'correct' => 'Adenylyl cyclase (AC3)',
+  },
+  {
+    'item_name' => '<strong>Second messenger made from ATP that rises during odor detection</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'G<sub>olf</sub>',
+      'Adenylyl cyclase (AC3)',
+      'cAMP',
+      'CNG channel (olfactory)',
+      'TRPM5',
+      'Phosphodiesterase 6 (PDE6)',
+      'Tip link (hair cell bundle)',
+      'Mechanotransduction channel (hair cell MET channel)',
+    ],
+    'correct' => 'cAMP',
+  },
+  {
+    'item_name' => '<strong>Signaling molecule that helps open olfactory CNG channels</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'Olfactory receptor (GPCR)',
+      'Adenylyl cyclase (AC3)',
+      'cAMP',
+      'Gustducin',
+      'IP<sub>3</sub>',
+      'TRPM5',
+      'Transducin',
+      'Phosphodiesterase 6 (PDE6)',
+    ],
+    'correct' => 'cAMP',
+  },
+  {
+    'item_name' => '<strong>Cytosolic second messenger produced downstream of olfactory GPCRs</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'cAMP',
+      'CNG channel (olfactory)',
+      'Phospholipase C-&beta;2 (PLC-&beta;2)',
+      'IP<sub>3</sub>',
+      'TRPM5',
+      'Rhodopsin',
+      'Phosphodiesterase 6 (PDE6)',
+      'Mechanotransduction channel (hair cell MET channel)',
+    ],
+    'correct' => 'cAMP',
+  },
+  {
+    'item_name' => '<strong>Ion channel opened by cyclic nucleotides during odor detection</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'Olfactory receptor (GPCR)',
+      'CNG channel (olfactory)',
+      'Phospholipase C-&beta;2 (PLC-&beta;2)',
+      'IP<sub>3</sub>',
+      'Rhodopsin',
+      'Transducin',
+      'Phosphodiesterase 6 (PDE6)',
+      'Mechanotransduction channel (hair cell MET channel)',
+    ],
+    'correct' => 'CNG channel (olfactory)',
+  },
+  {
+    'item_name' => '<strong>Cyclic nucleotide gated channel that depolarizes olfactory neurons</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'Adenylyl cyclase (AC3)',
+      'cAMP',
+      'CNG channel (olfactory)',
+      'IP<sub>3</sub>',
+      'Rhodopsin',
+      'Transducin',
+      'Phosphodiesterase 6 (PDE6)',
+      'Mechanotransduction channel (hair cell MET channel)',
+    ],
+    'correct' => 'CNG channel (olfactory)',
+  },
+  {
+    'item_name' => '<strong>Allows Ca<sup>2+</sup> entry that can amplify the olfactory response</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'Olfactory receptor (GPCR)',
+      'G<sub>olf</sub>',
+      'CNG channel (olfactory)',
+      'Gustducin',
+      'IP<sub>3</sub>',
+      'TRPM5',
+      'Phosphodiesterase 6 (PDE6)',
+      'cGMP',
+    ],
+    'correct' => 'CNG channel (olfactory)',
+  },
+  {
+    'item_name' => '<strong>Taste G protein used in bitter and sweet pathways</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'Olfactory receptor (GPCR)',
+      'G<sub>olf</sub>',
+      'cAMP',
+      'Gustducin',
+      'IP<sub>3</sub>',
+      'TRPM5',
+      'Tip link (hair cell bundle)',
+      'Mechanotransduction channel (hair cell MET channel)',
+    ],
+    'correct' => 'Gustducin',
+  },
+  {
+    'item_name' => '<strong>G protein that couples taste GPCRs to downstream second messengers</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'Olfactory receptor (GPCR)',
+      'Adenylyl cyclase (AC3)',
+      'cAMP',
+      'Gustducin',
+      'TRPM5',
+      'Rhodopsin',
+      'Transducin',
+      'Mechanotransduction channel (hair cell MET channel)',
+    ],
+    'correct' => 'Gustducin',
+  },
+  {
+    'item_name' => '<strong>Heterotrimeric G protein in taste receptor signaling</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'G<sub>olf</sub>',
+      'Gustducin',
+      'Phospholipase C-&beta;2 (PLC-&beta;2)',
+      'Rhodopsin',
+      'Transducin',
+      'cGMP',
+      'Tip link (hair cell bundle)',
+      'Mechanotransduction channel (hair cell MET channel)',
+    ],
+    'correct' => 'Gustducin',
+  },
+  {
+    'item_name' => '<strong>Enzyme that cleaves PIP<sub>2</sub> to generate IP<sub>3</sub></strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'Olfactory receptor (GPCR)',
+      'G<sub>olf</sub>',
+      'Adenylyl cyclase (AC3)',
+      'Phospholipase C-&beta;2 (PLC-&beta;2)',
+      'Rhodopsin',
+      'Phosphodiesterase 6 (PDE6)',
+      'cGMP',
+      'CNG channel (rod outer segment)',
+    ],
+    'correct' => 'Phospholipase C-&beta;2 (PLC-&beta;2)',
+  },
+  {
+    'item_name' => '<strong>PIP<sub>2</sub>-cleaving enzyme in bitter, sweet, and umami taste signaling</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'Olfactory receptor (GPCR)',
+      'G<sub>olf</sub>',
+      'CNG channel (olfactory)',
+      'Phospholipase C-&beta;2 (PLC-&beta;2)',
+      'IP<sub>3</sub>',
+      'TRPM5',
+      'Tip link (hair cell bundle)',
+      'Mechanotransduction channel (hair cell MET channel)',
+    ],
+    'correct' => 'Phospholipase C-&beta;2 (PLC-&beta;2)',
+  },
+  {
+    'item_name' => '<strong>Enzyme that produces IP<sub>3</sub> downstream of taste GPCRs</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'G<sub>olf</sub>',
+      'Adenylyl cyclase (AC3)',
+      'Gustducin',
+      'Phospholipase C-&beta;2 (PLC-&beta;2)',
+      'Rhodopsin',
+      'Transducin',
+      'Phosphodiesterase 6 (PDE6)',
+      'CNG channel (rod outer segment)',
+    ],
+    'correct' => 'Phospholipase C-&beta;2 (PLC-&beta;2)',
+  },
+  {
+    'item_name' => '<strong>Second messenger that triggers Ca<sup>2+</sup> release from ER stores</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'G<sub>olf</sub>',
+      'IP<sub>3</sub>',
+      'TRPM5',
+      'Rhodopsin',
+      'Transducin',
+      'Phosphodiesterase 6 (PDE6)',
+      'Tip link (hair cell bundle)',
+      'Mechanotransduction channel (hair cell MET channel)',
+    ],
+    'correct' => 'IP<sub>3</sub>',
+  },
+  {
+    'item_name' => '<strong>Diffusible messenger that raises cytosolic Ca<sup>2+</sup> in taste cells</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'Olfactory receptor (GPCR)',
+      'G<sub>olf</sub>',
+      'cAMP',
+      'IP<sub>3</sub>',
+      'TRPM5',
+      'Rhodopsin',
+      'Transducin',
+      'Mechanotransduction channel (hair cell MET channel)',
+    ],
+    'correct' => 'IP<sub>3</sub>',
+  },
+  {
+    'item_name' => '<strong>Molecule that opens IP<sub>3</sub> receptors on internal Ca<sup>2+</sup> stores</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'Gustducin',
+      'IP<sub>3</sub>',
+      'TRPM5',
+      'Rhodopsin',
+      'Transducin',
+      'Phosphodiesterase 6 (PDE6)',
+      'Tip link (hair cell bundle)',
+      'Mechanotransduction channel (hair cell MET channel)',
+    ],
+    'correct' => 'IP<sub>3</sub>',
+  },
+  {
+    'item_name' => '<strong>Cation channel activated downstream of Ca<sup>2+</sup> signaling in taste cells</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'G<sub>olf</sub>',
+      'Gustducin',
+      'IP<sub>3</sub>',
+      'TRPM5',
+      'Transducin',
+      'Phosphodiesterase 6 (PDE6)',
+      'CNG channel (rod outer segment)',
+      'Mechanotransduction channel (hair cell MET channel)',
+    ],
+    'correct' => 'TRPM5',
+  },
+  {
+    'item_name' => '<strong>Channel that helps depolarize taste receptor cells after GPCR activation</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'Adenylyl cyclase (AC3)',
+      'Gustducin',
+      'TRPM5',
+      'Rhodopsin',
+      'Transducin',
+      'Phosphodiesterase 6 (PDE6)',
+      'CNG channel (rod outer segment)',
+      'Tip link (hair cell bundle)',
+    ],
+    'correct' => 'TRPM5',
+  },
+  {
+    'item_name' => '<strong>Ion channel involved in taste transduction downstream of IP<sub>3</sub></strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'G<sub>olf</sub>',
+      'cAMP',
+      'Phospholipase C-&beta;2 (PLC-&beta;2)',
+      'IP<sub>3</sub>',
+      'TRPM5',
+      'Transducin',
+      'CNG channel (rod outer segment)',
+      'Mechanotransduction channel (hair cell MET channel)',
+    ],
+    'correct' => 'TRPM5',
+  },
+  {
+    'item_name' => '<strong>Opsin plus retinal that activates transducin when retinal isomerizes</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'cAMP',
+      'Gustducin',
+      'TRPM5',
+      'Rhodopsin',
+      'Transducin',
+      'Phosphodiesterase 6 (PDE6)',
+      'Tip link (hair cell bundle)',
+      'Mechanotransduction channel (hair cell MET channel)',
+    ],
+    'correct' => 'Rhodopsin',
+  },
+  {
+    'item_name' => '<strong>Light-activated GPCR in rod photoreceptors</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'Olfactory receptor (GPCR)',
+      'Adenylyl cyclase (AC3)',
+      'CNG channel (olfactory)',
+      'IP<sub>3</sub>',
+      'Rhodopsin',
+      'Phosphodiesterase 6 (PDE6)',
+      'cGMP',
+      'Tip link (hair cell bundle)',
+    ],
+    'correct' => 'Rhodopsin',
+  },
+  {
+    'item_name' => '<strong>Photopigment that starts rod phototransduction</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'Olfactory receptor (GPCR)',
+      'G<sub>olf</sub>',
+      'Gustducin',
+      'Phospholipase C-&beta;2 (PLC-&beta;2)',
+      'TRPM5',
+      'Rhodopsin',
+      'Phosphodiesterase 6 (PDE6)',
+      'Mechanotransduction channel (hair cell MET channel)',
+    ],
+    'correct' => 'Rhodopsin',
+  },
+  {
+    'item_name' => '<strong>G protein that activates PDE6 in rod phototransduction</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'G<sub>olf</sub>',
+      'Adenylyl cyclase (AC3)',
+      'cAMP',
+      'CNG channel (olfactory)',
+      'TRPM5',
+      'Rhodopsin',
+      'Transducin',
+      'Tip link (hair cell bundle)',
+    ],
+    'correct' => 'Transducin',
+  },
+  {
+    'item_name' => '<strong>Rod G protein linking rhodopsin to cGMP breakdown</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'Olfactory receptor (GPCR)',
+      'G<sub>olf</sub>',
+      'CNG channel (olfactory)',
+      'IP<sub>3</sub>',
+      'Rhodopsin',
+      'Transducin',
+      'Tip link (hair cell bundle)',
+      'Mechanotransduction channel (hair cell MET channel)',
+    ],
+    'correct' => 'Transducin',
+  },
+  {
+    'item_name' => '<strong>Heterotrimeric G protein in the visual cascade</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'Olfactory receptor (GPCR)',
+      'G<sub>olf</sub>',
+      'Adenylyl cyclase (AC3)',
+      'IP<sub>3</sub>',
+      'TRPM5',
+      'Transducin',
+      'cGMP',
+      'Tip link (hair cell bundle)',
+    ],
+    'correct' => 'Transducin',
+  },
+  {
+    'item_name' => '<strong>Enzyme that hydrolyzes cGMP in rods after light activation</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'G<sub>olf</sub>',
+      'Adenylyl cyclase (AC3)',
+      'Phospholipase C-&beta;2 (PLC-&beta;2)',
+      'Transducin',
+      'Phosphodiesterase 6 (PDE6)',
+      'cGMP',
+      'Tip link (hair cell bundle)',
+      'Mechanotransduction channel (hair cell MET channel)',
+    ],
+    'correct' => 'Phosphodiesterase 6 (PDE6)',
+  },
+  {
+    'item_name' => '<strong>Enzyme that lowers cGMP concentration during phototransduction</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'Olfactory receptor (GPCR)',
+      'G<sub>olf</sub>',
+      'Adenylyl cyclase (AC3)',
+      'TRPM5',
+      'Rhodopsin',
+      'Transducin',
+      'Phosphodiesterase 6 (PDE6)',
+      'Mechanotransduction channel (hair cell MET channel)',
+    ],
+    'correct' => 'Phosphodiesterase 6 (PDE6)',
+  },
+  {
+    'item_name' => '<strong>cGMP-degrading enzyme downstream of transducin</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'Adenylyl cyclase (AC3)',
+      'Phospholipase C-&beta;2 (PLC-&beta;2)',
+      'Transducin',
+      'Phosphodiesterase 6 (PDE6)',
+      'cGMP',
+      'CNG channel (rod outer segment)',
+      'Tip link (hair cell bundle)',
+      'Mechanotransduction channel (hair cell MET channel)',
+    ],
+    'correct' => 'Phosphodiesterase 6 (PDE6)',
+  },
+  {
+    'item_name' => '<strong>Second messenger that keeps rod CNG channels open in the dark</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'G<sub>olf</sub>',
+      'Phospholipase C-&beta;2 (PLC-&beta;2)',
+      'TRPM5',
+      'Transducin',
+      'Phosphodiesterase 6 (PDE6)',
+      'cGMP',
+      'CNG channel (rod outer segment)',
+      'Mechanotransduction channel (hair cell MET channel)',
+    ],
+    'correct' => 'cGMP',
+  },
+  {
+    'item_name' => '<strong>Signaling nucleotide that falls in light, closing CNG channels</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'G<sub>olf</sub>',
+      'Adenylyl cyclase (AC3)',
+      'CNG channel (olfactory)',
+      'IP<sub>3</sub>',
+      'Transducin',
+      'cGMP',
+      'Tip link (hair cell bundle)',
+      'Mechanotransduction channel (hair cell MET channel)',
+    ],
+    'correct' => 'cGMP',
+  },
+  {
+    'item_name' => '<strong>Cyclic nucleotide that gates rod outer segment ion channels</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'Olfactory receptor (GPCR)',
+      'G<sub>olf</sub>',
+      'Adenylyl cyclase (AC3)',
+      'Phospholipase C-&beta;2 (PLC-&beta;2)',
+      'IP<sub>3</sub>',
+      'Transducin',
+      'cGMP',
+      'Tip link (hair cell bundle)',
+    ],
+    'correct' => 'cGMP',
+  },
+  {
+    'item_name' => '<strong>Ion channel that closes when cGMP falls, hyperpolarizing the rod</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'Olfactory receptor (GPCR)',
+      'Adenylyl cyclase (AC3)',
+      'Gustducin',
+      'IP<sub>3</sub>',
+      'Rhodopsin',
+      'Phosphodiesterase 6 (PDE6)',
+      'CNG channel (rod outer segment)',
+      'Mechanotransduction channel (hair cell MET channel)',
+    ],
+    'correct' => 'CNG channel (rod outer segment)',
+  },
+  {
+    'item_name' => '<strong>cGMP-gated channel that is open in darkness and closes in light</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'G<sub>olf</sub>',
+      'Gustducin',
+      'TRPM5',
+      'Rhodopsin',
+      'Transducin',
+      'Phosphodiesterase 6 (PDE6)',
+      'CNG channel (rod outer segment)',
+      'Tip link (hair cell bundle)',
+    ],
+    'correct' => 'CNG channel (rod outer segment)',
+  },
+  {
+    'item_name' => '<strong>Rod channel controlled by cGMP levels</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'G<sub>olf</sub>',
+      'Adenylyl cyclase (AC3)',
+      'Gustducin',
+      'Phospholipase C-&beta;2 (PLC-&beta;2)',
+      'IP<sub>3</sub>',
+      'Phosphodiesterase 6 (PDE6)',
+      'CNG channel (rod outer segment)',
+      'Mechanotransduction channel (hair cell MET channel)',
+    ],
+    'correct' => 'CNG channel (rod outer segment)',
+  },
+  {
+    'item_name' => '<strong>Mechanical tether that transmits force to open mechanotransduction channels</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'Olfactory receptor (GPCR)',
+      'G<sub>olf</sub>',
+      'Adenylyl cyclase (AC3)',
+      'CNG channel (olfactory)',
+      'Rhodopsin',
+      'Phosphodiesterase 6 (PDE6)',
+      'Tip link (hair cell bundle)',
+      'Mechanotransduction channel (hair cell MET channel)',
+    ],
+    'correct' => 'Tip link (hair cell bundle)',
+  },
+  {
+    'item_name' => '<strong>Link between stereocilia that helps gate transduction channels</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'Olfactory receptor (GPCR)',
+      'cAMP',
+      'CNG channel (olfactory)',
+      'Phospholipase C-&beta;2 (PLC-&beta;2)',
+      'TRPM5',
+      'Rhodopsin',
+      'Tip link (hair cell bundle)',
+      'Mechanotransduction channel (hair cell MET channel)',
+    ],
+    'correct' => 'Tip link (hair cell bundle)',
+  },
+  {
+    'item_name' => '<strong>Structure whose tension changes during stereocilia deflection</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'G<sub>olf</sub>',
+      'Adenylyl cyclase (AC3)',
+      'cAMP',
+      'Gustducin',
+      'Phospholipase C-&beta;2 (PLC-&beta;2)',
+      'IP<sub>3</sub>',
+      'CNG channel (rod outer segment)',
+      'Tip link (hair cell bundle)',
+    ],
+    'correct' => 'Tip link (hair cell bundle)',
+  },
+  {
+    'item_name' => '<strong>Ion channel opened by stereocilia deflection in hearing and balance</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'IP<sub>3</sub>',
+      'TRPM5',
+      'Rhodopsin',
+      'Transducin',
+      'Phosphodiesterase 6 (PDE6)',
+      'CNG channel (rod outer segment)',
+      'Tip link (hair cell bundle)',
+      'Mechanotransduction channel (hair cell MET channel)',
+    ],
+    'correct' => 'Mechanotransduction channel (hair cell MET channel)',
+  },
+  {
+    'item_name' => '<strong>Mechanically gated channel that allows cation influx in hair cells</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'G<sub>olf</sub>',
+      'Adenylyl cyclase (AC3)',
+      'Phospholipase C-&beta;2 (PLC-&beta;2)',
+      'TRPM5',
+      'Transducin',
+      'Phosphodiesterase 6 (PDE6)',
+      'Tip link (hair cell bundle)',
+      'Mechanotransduction channel (hair cell MET channel)',
+    ],
+    'correct' => 'Mechanotransduction channel (hair cell MET channel)',
+  },
+  {
+    'item_name' => '<strong>Allows K<sup>+</sup> influx from K<sup>+</sup> rich endolymph to depolarize hair cells</strong>',
+    'plural_choice' => 'sensory transduction components',
+    'singular_item' => 'function in signaling',
+    'choices' => [
+      'Olfactory receptor (GPCR)',
+      'Adenylyl cyclase (AC3)',
+      'Gustducin',
+      'Phospholipase C-&beta;2 (PLC-&beta;2)',
+      'TRPM5',
+      'Phosphodiesterase 6 (PDE6)',
+      'Tip link (hair cell bundle)',
+      'Mechanotransduction channel (hair cell MET channel)',
+    ],
+    'correct' => 'Mechanotransduction channel (hair cell MET channel)',
+  },
+);
+
+#==========================================================
+# SELECT RANDOM QUESTION
+#==========================================================
+
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+
+$question_idx = $local_random->random(0, scalar(@questions_data) - 1, 1);
+$q = $questions_data[$question_idx];
+
+$item_name = $q->{'item_name'};
+$plural_choice = $q->{'plural_choice'};
+$singular_item = $q->{'singular_item'};
+@choices = @{ $q->{'choices'} };
+$correct = $q->{'correct'};
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# BUILD RADIO BUTTONS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => 'ABC',
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+Which one of the following [$plural_choice]* corresponds to the [$singular_item]* [$item_name]*?
+
+[_]{$rb}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The correct answer is: [$correct]*
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+

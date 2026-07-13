@@ -1,0 +1,509 @@
+## DESCRIPTION
+## Select the amino acid that corresponds to the given description.
+## ENDDESCRIPTION
+## KEYWORDS('amino acids','descriptions','which one','multiple choice')
+## DBsubject('Biochemistry')
+## DBchapter('')
+## DBsection('')
+## Date('2026-07-12')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserRadioButtons.pl',
+    'PGcourse.pl',
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 0;
+
+#==========================================================
+# QUESTION DATA
+#==========================================================
+
+# All questions data
+@questions_data = (
+  {
+    'item_name' => '<strong>a <span style="color: #6c6c00; font-weight:700;">non-polar amino acid</span>, with a single methyl group (-CH<sub>3</sub>) as its <span style="color: #a719db; font-weight:700;">side chain</span></strong>',
+    'plural_choice' => 'amino acids',
+    'singular_item' => 'description',
+    'choices' => [
+      'alanine',
+      'isoleucine',
+      'leucine',
+      'methionine',
+      'tryptophan',
+    ],
+    'correct' => 'alanine',
+  },
+  {
+    'item_name' => '<strong>a <span style="color: #6c6c00; font-weight:700;">non-polar amino acid</span>, with only a methyl group (-CH<sub>3</sub>) attached to the &alpha;-carbon</strong>',
+    'plural_choice' => 'amino acids',
+    'singular_item' => 'description',
+    'choices' => [
+      'alanine',
+      'cysteine',
+      'glycine',
+      'leucine',
+      'valine',
+    ],
+    'correct' => 'alanine',
+  },
+  {
+    'item_name' => '<strong>a <span style="color: #076dad; font-weight:700;">positively charged amino acid</span> with a long, flexible <span style="color: #a719db; font-weight:700;">side chain</span> containing 3 nitrogen atoms (guanidinium)</strong>',
+    'plural_choice' => 'amino acids',
+    'singular_item' => 'description',
+    'choices' => [
+      'arginine',
+      'histidine',
+      'lysine',
+      'proline',
+      'serine',
+    ],
+    'correct' => 'arginine',
+  },
+  {
+    'item_name' => '<strong>a <span style="color: #007a00; font-weight:700;">polar amino acid</span> with a shorter amine-substituted carboxylate (amide) -C(=O)NH<sub>2</sub> group</strong>',
+    'plural_choice' => 'amino acids',
+    'singular_item' => 'description',
+    'choices' => [
+      'alanine',
+      'asparagine',
+      'glutamate',
+      'lysine',
+      'proline',
+    ],
+    'correct' => 'asparagine',
+  },
+  {
+    'item_name' => '<strong>a <span style="color: #d40000; font-weight:700;">negatively charged amino acid</span> with a small, carboxylate (-COOH) <span style="color: #a719db; font-weight:700;">side chain</span></strong>',
+    'plural_choice' => 'amino acids',
+    'singular_item' => 'description',
+    'choices' => [
+      'arginine',
+      'aspartate',
+      'glutamine',
+      'lysine',
+      'methionine',
+    ],
+    'correct' => 'aspartate',
+  },
+  {
+    'item_name' => '<strong>a <span style="color: #d40000; font-weight:700;">negatively charged amino acid</span> with a small, carboxylate (-COOH) <span style="color: #a719db; font-weight:700;">side chain</span></strong>',
+    'plural_choice' => 'amino acids',
+    'singular_item' => 'description',
+    'choices' => [
+      'alanine',
+      'aspartic acid',
+      'phenylalanine',
+      'serine',
+      'threonine',
+    ],
+    'correct' => 'aspartic acid',
+  },
+  {
+    'item_name' => '<strong>a <span style="color: #007a00; font-weight:700;">polar amino acid</span> with a thiol (-SH) group that can form disulfide bonds</strong>',
+    'plural_choice' => 'amino acids',
+    'singular_item' => 'description',
+    'choices' => [
+      'alanine',
+      'asparagine',
+      'cysteine',
+      'lysine',
+      'serine',
+    ],
+    'correct' => 'cysteine',
+  },
+  {
+    'item_name' => '<strong>a <span style="color: #007a00; font-weight:700;">polar amino acid</span> that can form disulfide bridges</strong>',
+    'plural_choice' => 'amino acids',
+    'singular_item' => 'description',
+    'choices' => [
+      'cysteine',
+      'isoleucine',
+      'methionine',
+      'proline',
+      'tyrosine',
+    ],
+    'correct' => 'cysteine',
+  },
+  {
+    'item_name' => '<strong>a <span style="color: #007a00; font-weight:700;">polar amino acid</span> that is capable of thiol (-SH) chemistry</strong>',
+    'plural_choice' => 'amino acids',
+    'singular_item' => 'description',
+    'choices' => [
+      'aspartate',
+      'cysteine',
+      'isoleucine',
+      'tryptophan',
+      'valine',
+    ],
+    'correct' => 'cysteine',
+  },
+  {
+    'item_name' => '<strong>a <span style="color: #007a00; font-weight:700;">polar amino acid</span> with a longer amine-substituted carboxylate (amide) -C(=O)NH<sub>2</sub> group</strong>',
+    'plural_choice' => 'amino acids',
+    'singular_item' => 'description',
+    'choices' => [
+      'arginine',
+      'cysteine',
+      'glutamine',
+      'glutamic acid',
+      'isoleucine',
+    ],
+    'correct' => 'glutamine',
+  },
+  {
+    'item_name' => '<strong>a <span style="color: #d40000; font-weight:700;">negatively charged amino acid</span> with a large, carboxylate (-COOH) <span style="color: #a719db; font-weight:700;">side chain</span></strong>',
+    'plural_choice' => 'amino acids',
+    'singular_item' => 'description',
+    'choices' => [
+      'arginine',
+      'glutamine',
+      'glutamate',
+      'phenylalanine',
+      'serine',
+    ],
+    'correct' => 'glutamate',
+  },
+  {
+    'item_name' => '<strong>a <span style="color: #d40000; font-weight:700;">negatively charged amino acid</span> with a large, carboxylate (-COOH) <span style="color: #a719db; font-weight:700;">side chain</span></strong>',
+    'plural_choice' => 'amino acids',
+    'singular_item' => 'description',
+    'choices' => [
+      'aspartic acid',
+      'glutamine',
+      'glutamic acid',
+      'leucine',
+      'methionine',
+    ],
+    'correct' => 'glutamic acid',
+  },
+  {
+    'item_name' => '<strong>a <span style="color: #3b7600; font-weight:700;">small amino acid</span> with a single hydrogen atom as its <span style="color: #a719db; font-weight:700;">side chain</span></strong>',
+    'plural_choice' => 'amino acids',
+    'singular_item' => 'description',
+    'choices' => [
+      'glutamate',
+      'glycine',
+      'histidine',
+      'leucine',
+      'phenylalanine',
+    ],
+    'correct' => 'glycine',
+  },
+  {
+    'item_name' => '<strong>a <span style="color: #3b7600; font-weight:700;">small amino acid</span> with the simple chemical formula NH<sub>2</sub>-CH<sub>2</sub>-COOH</strong>',
+    'plural_choice' => 'amino acids',
+    'singular_item' => 'description',
+    'choices' => [
+      'asparagine',
+      'aspartate',
+      'glycine',
+      'leucine',
+      'threonine',
+    ],
+    'correct' => 'glycine',
+  },
+  {
+    'item_name' => '<strong>an <span style="color: #b74300; font-weight:700;">aromatic amino acid</span> with a <span style="color: #a719db; font-weight:700;">side chain</span> containing a 5-membered nitrogenous ring and a pKa close to pH 7</strong>',
+    'plural_choice' => 'amino acids',
+    'singular_item' => 'description',
+    'choices' => [
+      'arginine',
+      'glutamic acid',
+      'histidine',
+      'leucine',
+      'valine',
+    ],
+    'correct' => 'histidine',
+  },
+  {
+    'item_name' => '<strong>a <span style="color: #935d00; font-weight:700;">non-polar branched chain amino acid</span> that is an isomer of leucine</strong>',
+    'plural_choice' => 'amino acids',
+    'singular_item' => 'description',
+    'choices' => [
+      'arginine',
+      'glutamate',
+      'isoleucine',
+      'lysine',
+      'serine',
+    ],
+    'correct' => 'isoleucine',
+  },
+  {
+    'item_name' => '<strong>a <span style="color: #935d00; font-weight:700;">non-polar branched chain amino acid</span> that is a valine with a extra methyl group (-CH<sub>3</sub>) at the end</strong>',
+    'plural_choice' => 'amino acids',
+    'singular_item' => 'description',
+    'choices' => [
+      'asparagine',
+      'cysteine',
+      'glutamate',
+      'histidine',
+      'isoleucine',
+    ],
+    'correct' => 'isoleucine',
+  },
+  {
+    'item_name' => '<strong>a <span style="color: #935d00; font-weight:700;">non-polar branched chain amino acid</span> that is an isomer of isoleucine</strong>',
+    'plural_choice' => 'amino acids',
+    'singular_item' => 'description',
+    'choices' => [
+      'asparagine',
+      'aspartate',
+      'cysteine',
+      'leucine',
+      'phenylalanine',
+    ],
+    'correct' => 'leucine',
+  },
+  {
+    'item_name' => '<strong>a <span style="color: #935d00; font-weight:700;">non-polar branched chain amino acid</span> with a double methylated &gamma;-carbon</strong>',
+    'plural_choice' => 'amino acids',
+    'singular_item' => 'description',
+    'choices' => [
+      'arginine',
+      'glutamine',
+      'leucine',
+      'serine',
+      'valine',
+    ],
+    'correct' => 'leucine',
+  },
+  {
+    'item_name' => '<strong>a <span style="color: #935d00; font-weight:700;">non-polar branched chain amino acid</span> that is a longer version of valine</strong>',
+    'plural_choice' => 'amino acids',
+    'singular_item' => 'description',
+    'choices' => [
+      'alanine',
+      'aspartic acid',
+      'glutamic acid',
+      'leucine',
+      'valine',
+    ],
+    'correct' => 'leucine',
+  },
+  {
+    'item_name' => '<strong>a <span style="color: #076dad; font-weight:700;">positively charged amino acid</span> with a long, flexible <span style="color: #a719db; font-weight:700;">side chain</span> containing an amine group</strong>',
+    'plural_choice' => 'amino acids',
+    'singular_item' => 'description',
+    'choices' => [
+      'arginine',
+      'aspartic acid',
+      'histidine',
+      'lysine',
+      'tryptophan',
+    ],
+    'correct' => 'lysine',
+  },
+  {
+    'item_name' => '<strong>a <span style="color: #6c6c00; font-weight:700;">non-polar amino acid</span> with a <span style="color: #a719db; font-weight:700;">side chain</span> containing a sulfur atom that is NOT available for chemical reactions</strong>',
+    'plural_choice' => 'amino acids',
+    'singular_item' => 'description',
+    'choices' => [
+      'aspartate',
+      'lysine',
+      'methionine',
+      'phenylalanine',
+      'proline',
+    ],
+    'correct' => 'methionine',
+  },
+  {
+    'item_name' => '<strong>a <span style="color: #6c6c00; font-weight:700;">non-polar amino acid</span> with an aromatic <span style="color: #a719db; font-weight:700;">side chain</span> containing a single benzene (-C<sub>6</sub>H<sub>6</sub>) ring</strong>',
+    'plural_choice' => 'amino acids',
+    'singular_item' => 'description',
+    'choices' => [
+      'glycine',
+      'leucine',
+      'phenylalanine',
+      'threonine',
+      'valine',
+    ],
+    'correct' => 'phenylalanine',
+  },
+  {
+    'item_name' => '<strong>a <span style="color: #6c6c00; font-weight:700;">non-polar amino acid</span> where the <span style="color: #a719db; font-weight:700;">side chain</span> is bonded to the backbone amine, resulting in a rigid cyclic structure</strong>',
+    'plural_choice' => 'amino acids',
+    'singular_item' => 'description',
+    'choices' => [
+      'methionine',
+      'phenylalanine',
+      'proline',
+      'serine',
+      'tyrosine',
+    ],
+    'correct' => 'proline',
+  },
+  {
+    'item_name' => '<strong>a <span style="color: #007a00; font-weight:700;">polar amino acid</span> with the smallest <span style="color: #a719db; font-weight:700;">side chain</span> containing a hydroxyl group (-OH)</strong>',
+    'plural_choice' => 'amino acids',
+    'singular_item' => 'description',
+    'choices' => [
+      'asparagine',
+      'glycine',
+      'isoleucine',
+      'serine',
+      'tryptophan',
+    ],
+    'correct' => 'serine',
+  },
+  {
+    'item_name' => '<strong>a <span style="color: #007a00; font-weight:700;">polar amino acid</span> with the smallest polar <span style="color: #a719db; font-weight:700;">side chain</span></strong>',
+    'plural_choice' => 'amino acids',
+    'singular_item' => 'description',
+    'choices' => [
+      'aspartic acid',
+      'glutamate',
+      'glycine',
+      'isoleucine',
+      'serine',
+    ],
+    'correct' => 'serine',
+  },
+  {
+    'item_name' => '<strong>a <span style="color: #007a00; font-weight:700;">polar amino acid</span> that is a methylated form of serine</strong>',
+    'plural_choice' => 'amino acids',
+    'singular_item' => 'description',
+    'choices' => [
+      'aspartic acid',
+      'glutamate',
+      'isoleucine',
+      'threonine',
+      'tryptophan',
+    ],
+    'correct' => 'threonine',
+  },
+  {
+    'item_name' => '<strong>an <span style="color: #b74300; font-weight:700;">aromatic amino acid</span> with the largest <span style="color: #a719db; font-weight:700;">side chain</span> consisting of a fused pair of rings</strong>',
+    'plural_choice' => 'amino acids',
+    'singular_item' => 'description',
+    'choices' => [
+      'arginine',
+      'glycine',
+      'isoleucine',
+      'proline',
+      'tryptophan',
+    ],
+    'correct' => 'tryptophan',
+  },
+  {
+    'item_name' => '<strong>a <span style="color: #b74300; font-weight:700;">aromatic amino acid</span> with a <span style="color: #a719db; font-weight:700;">side chain</span> containing a phenol (-C<sub>6</sub>H<sub>6</sub>OH) group, derived from phenylalanine</strong>',
+    'plural_choice' => 'amino acids',
+    'singular_item' => 'description',
+    'choices' => [
+      'alanine',
+      'asparagine',
+      'glutamine',
+      'tyrosine',
+      'valine',
+    ],
+    'correct' => 'tyrosine',
+  },
+  {
+    'item_name' => '<strong>a <span style="color: #935d00; font-weight:700;">non-polar branched chain amino acid</span> with the shortest hydrophobic <span style="color: #a719db; font-weight:700;">side chain</span></strong>',
+    'plural_choice' => 'amino acids',
+    'singular_item' => 'description',
+    'choices' => [
+      'aspartic acid',
+      'isoleucine',
+      'proline',
+      'tyrosine',
+      'valine',
+    ],
+    'correct' => 'valine',
+  },
+  {
+    'item_name' => '<strong>a <span style="color: #935d00; font-weight:700;">non-polar branched chain amino acid</span> that is a shorter version of leucine</strong>',
+    'plural_choice' => 'amino acids',
+    'singular_item' => 'description',
+    'choices' => [
+      'arginine',
+      'glutamine',
+      'phenylalanine',
+      'tyrosine',
+      'valine',
+    ],
+    'correct' => 'valine',
+  },
+  {
+    'item_name' => '<strong>a <span style="color: #935d00; font-weight:700;">non-polar branched chain amino acid</span> with a double methylated &beta;-carbon</strong>',
+    'plural_choice' => 'amino acids',
+    'singular_item' => 'description',
+    'choices' => [
+      'alanine',
+      'cysteine',
+      'glutamate',
+      'tryptophan',
+      'valine',
+    ],
+    'correct' => 'valine',
+  },
+);
+
+#==========================================================
+# SELECT RANDOM QUESTION
+#==========================================================
+
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+
+$question_idx = $local_random->random(0, scalar(@questions_data) - 1, 1);
+$q = $questions_data[$question_idx];
+
+$item_name = $q->{'item_name'};
+$plural_choice = $q->{'plural_choice'};
+$singular_item = $q->{'singular_item'};
+@choices = @{ $q->{'choices'} };
+$correct = $q->{'correct'};
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# BUILD RADIO BUTTONS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => 'ABC',
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+Which one of the following [$plural_choice]* corresponds to the [$singular_item]* [$item_name]*?
+
+[_]{$rb}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The correct answer is: [$correct]*
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+
