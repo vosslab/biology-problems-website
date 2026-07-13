@@ -22,6 +22,15 @@
 - Restored genetics task coverage for the complementary prime, HLA marker and
   color, English-palindrome, linear-digest, and restriction-overhang variants
   that had been omitted during the task-file split.
+- Replaced bare Genetics Gene Trees defaults with the maintained
+  matrix-interpreting Levels 1 through 5 plus SAME and DIFFERENT comparison
+  questions at EASY, MEDIUM, and RIGOROUS difficulty.
+- Replaced bare deletion-mutant defaults with explicit EASY, MEDIUM, and
+  RIGOROUS table-based MC variants for both random gene labels and word-based
+  gene labels.
+- Sorted `bbq_control/task_files/molecular_bio_tasks.csv` by the Molecular
+  Biology topic order in `topics_metadata.yml`, with `,,,,,` separator rows
+  between populated topic groups.
 - Added `bbq_control/all_tasks.py` as the root-aware coordinator for every
   `bbq_control/task_files/*.csv` file. It discovers files deterministically,
   passes absolute task and settings paths to the root runner, and has a
