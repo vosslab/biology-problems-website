@@ -28,6 +28,10 @@ the source order:
 
 `all_tasks.sh` remains a compatibility launcher for the Python command.
 
+Each completed or failed task reports its total runtime after generation and
+any PGML follow-up. A direct `run_bbq_tasks.py` run reports its slowest ten
+tasks; `all_tasks.py` reports the ten slowest tasks across the full batch.
+
 ## Run one task file
 
 Use the root runner directly when you want one CSV:

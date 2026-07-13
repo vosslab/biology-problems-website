@@ -3,12 +3,15 @@
 
 # Standard Library
 import argparse
+import json
 from pathlib import Path
 import shlex
 import subprocess
+import tempfile
 
 
 PYTHON312 = Path("/opt/homebrew/opt/python@3.12/bin/python3.12")
+TASK_TIMING_LOG_ENV = "BBQ_TASK_TIMING_LOG"
 
 
 #============================================
@@ -82,17 +85,59 @@ def build_runner_command(
 
 
 #============================================
+def format_elapsed_time(elapsed_seconds: float) -> str:
+	"""Format one task duration for concise terminal output."""
+	if elapsed_seconds < 60:
+		return f"{elapsed_seconds:.2f}s"
+	minutes = int(elapsed_seconds // 60)
+	seconds = elapsed_seconds % 60
+	return f"{minutes}m {seconds:05.2f}s"
+
+
+#============================================
+def print_slowest_task_timings(timing_log_path: Path) -> None:
+	"""Print the ten slowest tasks from every CSV in this batch."""
+	if not timing_log_path.is_file():
+		return
+	with timing_log_path.open() as timing_handle:
+		timing_records = [
+			json.loads(line)
+			for line in timing_handle
+			if line.strip()
+		]
+	if not timing_records:
+		return
+	slowest_records = sorted(
+		timing_records,
+		key=lambda record: record["elapsed_seconds"],
+		reverse=True,
+	)[:10]
+	print("=" * 54)
+	print(f"Slowest {len(slowest_records)} tasks across all task CSV files")
+	print("=" * 54)
+	for timing_record in slowest_records:
+		duration = format_elapsed_time(timing_record["elapsed_seconds"])
+		print(
+			f"{duration:>10}  {timing_record['task_file']}: "
+			f"{timing_record['label']} ({timing_record['status']})"
+		)
+
+
+#============================================
 def run_task_file(
 	repo_root: Path,
 	source_me_path: Path,
 	settings_path: Path,
 	task_file: Path,
+	timing_log_path: Path,
 	args: argparse.Namespace,
 ) -> int:
 	"""Run one CSV after loading the repository's shell environment."""
 	command = build_runner_command(repo_root, settings_path, task_file, args)
 	shell_command = (
-		f"source {shlex.quote(str(source_me_path))} && exec {shlex.join(command)}"
+		f"source {shlex.quote(str(source_me_path))} && "
+		f"{TASK_TIMING_LOG_ENV}={shlex.quote(str(timing_log_path))} "
+		f"exec {shlex.join(command)}"
 	)
 	result = subprocess.run(
 		["bash", "-c", shell_command],
@@ -135,20 +180,24 @@ def main(argv: list[str] | None = None) -> int:
 		return 1
 
 	failures = []
-	for index, task_file in enumerate(task_files, start=1):
-		relative_path = task_file.relative_to(repo_root)
-		print("=" * 54)
-		print(f"[{index}/{len(task_files)}] {relative_path}")
-		print("=" * 54)
-		return_code = run_task_file(
-			repo_root,
-			source_me_path,
-			settings_path,
-			task_file,
-			args,
-		)
-		if return_code != 0:
-			failures.append(relative_path)
+	with tempfile.TemporaryDirectory(prefix="bbq-task-timings-") as temp_dir:
+		timing_log_path = Path(temp_dir) / "task_timings.jsonl"
+		for index, task_file in enumerate(task_files, start=1):
+			relative_path = task_file.relative_to(repo_root)
+			print("=" * 54)
+			print(f"[{index}/{len(task_files)}] {relative_path}")
+			print("=" * 54)
+			return_code = run_task_file(
+				repo_root,
+				source_me_path,
+				settings_path,
+				task_file,
+				timing_log_path,
+				args,
+			)
+			if return_code != 0:
+				failures.append(relative_path)
+		print_slowest_task_timings(timing_log_path)
 
 	if failures:
 		print(f"Completed with failures in {len(failures)} task CSV file(s):")
