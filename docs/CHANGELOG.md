@@ -31,6 +31,9 @@
 - Replaced the bare DNA-profiling father and killer generators in Biotechnology,
   Genetics, Laboratory, and Molecular Biology task files with explicit EASY,
   MEDIUM, and HARD variants.
+- Replaced bare Genetics two- and three-point test-cross tasks with explicit
+  MC/NUM and genotype-type variants while retaining each generator's default
+  hint behavior.
 - Sorted `bbq_control/task_files/molecular_bio_tasks.csv` by the Molecular
   Biology topic order in `topics_metadata.yml`, with `,,,,,` separator rows
   between populated topic groups.
