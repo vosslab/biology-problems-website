@@ -1,5 +1,5 @@
-bbq-michaelis_menten_table-Km-questions.txt: Determining Michaelis-Menten Constant
-  (KM) Using Table Data
-bbq-michaelis_menten_table-inhibition-questions.txt: Determining Enzyme Inhibition
-  Type from Table Data
-last edit: Sun Jul 12 22:36:53 2026
+bbq-michaelis_menten_table-Km-questions.txt: Michaelis-Menten Constant (Km) from Enzyme
+  Activity Data
+bbq-michaelis_menten_table-inhibition-questions.txt: Enzyme Inhibition Type from
+  Enzyme Activity Data
+last edit: Sun Jul 12 23:11:26 2026

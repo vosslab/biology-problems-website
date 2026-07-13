@@ -1,11 +1,10 @@
-bbq-fatty_acid_match_delta-questions.txt: Matching Fatty Acid Structures with Delta
-  Positions
-bbq-fatty_acid_match_omega-questions.txt: Matching Fatty Acid Structures to Omega
-  Notations
-bbq-fatty_acid_naming_delta-questions.txt: Determining Double Bond Positions in Fatty
-  Acids Using Delta Notation
-bbq-fatty_acid_naming_omega-questions.txt: Double Bond Positions Using Omega Notation
+bbq-fatty_acid_match_delta-questions.txt: Fatty Acid Delta Positions from Structures
+bbq-fatty_acid_match_omega-questions.txt: Fatty Acid Omega Notations from Structures
+bbq-fatty_acid_naming_delta-questions.txt: Fatty Acid Double-Bond Positions in Delta
+  Notation
+bbq-fatty_acid_naming_omega-questions.txt: Fatty Acid Double-Bond Positions in Omega
+  Notation
 bbq-quick_fatty_acid_colon_system-questions.txt: Fatty Acid Chain Length and Number
   of Double Bonds
 bbq-which_lipid-chemical_formula-questions.txt: Lipids by Molecular Formula
-last edit: Sun Jul 12 22:04:19 2026
+last edit: Sun Jul 12 23:11:26 2026

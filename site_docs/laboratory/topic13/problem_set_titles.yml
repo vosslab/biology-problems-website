@@ -1,9 +1,11 @@
-bbq-consensus_sequence_FIB-arbitrary_code-questions.txt: Arbitrary Sequence Codes
-  for Degenerate Primer Design
-bbq-consensus_sequence_FIB-easy-questions.txt: Determining Consensus Sequence from
-  Aligned Data
-bbq-consensus_sequence_FIB-hard-questions.txt: Consensus Sequences in DNA
-bbq-consensus_sequence_MC-questions.txt: Consensus Sequences
-bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices-questions.txt: Determining
-  Gene Trees from Distance Matrices
-last edit: Sun Jul 12 22:41:29 2026
+bbq-consensus_sequence_FIB-arbitrary_code-questions.txt: Degenerate Primer Codes from
+  Sequence Alignments
+bbq-consensus_sequence_FIB-easy-questions.txt: Consensus Sequences from Simple Alignments
+  (Fill in the Blank)
+bbq-consensus_sequence_FIB-hard-questions.txt: Consensus Sequences from Tables (Fill
+  in the Blank)
+bbq-consensus_sequence_MC-questions.txt: Consensus Sequences from Alignments (Multiple
+  Choice)
+bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices-questions.txt: Gene
+  Trees from Distance Matrices (5 Leaves, 5 Choices)
+last edit: Sun Jul 12 23:11:26 2026

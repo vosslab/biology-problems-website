@@ -1,6 +1,8 @@
 bbq-enhancer_gene_expression-questions.txt: Genes Expressed by Activator Proteins
-bbq-rna_transcribe_fill_blank-questions.txt: mRNA Sequences from DNA Templates
-bbq-rna_transcribe_prime-len_9-questions.txt: mRNA Products from DNA Template Transcription
-bbq-rna_transcribe_prime_fill_blank-len_9-questions.txt: Determining RNA Transcription
-  From DNA Strands
-last edit: Sun Jul 12 22:50:08 2026
+bbq-rna_transcribe_fill_blank-questions.txt: mRNA Sequences from DNA Templates (Fill
+  in the Blank)
+bbq-rna_transcribe_prime-len_9-questions.txt: mRNA Sequences from DNA Templates (5'
+  and 3' Direction)
+bbq-rna_transcribe_prime_fill_blank-len_9-questions.txt: mRNA Sequences from DNA Templates
+  (5' and 3' Fill in the Blank)
+last edit: Sun Jul 12 23:11:26 2026

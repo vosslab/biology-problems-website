@@ -3,6 +3,7 @@ bbq-MATCH-levels_of_protein_structure-questions.txt: Matching Protein Structure 
 bbq-WOMC-levels_of_protein_structure-questions.txt: Levels of Protein Structure from
   Descriptions
 bbq-alpha_helix_h-bonds-MA-questions.txt: Hydrogen Bonds in Alpha-Helix Structures
-  (Matching)
-bbq-alpha_helix_h-bonds-MC-questions.txt: Hydrogen Bonding in Alpha-Helix Structures
-last edit: Wed Feb 11 20:24:50 2026
+  (Multiple Answer)
+bbq-alpha_helix_h-bonds-MC-questions.txt: Hydrogen Bonds in Alpha-Helix Structures
+  (Multiple Choice)
+last edit: Sun Jul 12 23:11:26 2026

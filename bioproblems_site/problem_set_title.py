@@ -36,9 +36,12 @@ def generate_title_prompt(file_path: str, problem_statements: list) -> str:
 		"- Analyze the problem statements to identify the main concept or question type (e.g., buffering range, pKa values, protonation state).\n"
 		"- Avoid analysis, reasoning, or explanation of the problem. Simply generate a concise title that clearly and accurately reflects the problem's focus.\n"
 		"- Use simple, accessible language (no complex scientific terms unless necessary).\n"
-		"- Use a Task + Topic + Key Detail format.\n"
-		"- Prefer task verbs aligned to question type: Identifying (MC, MA, FIB, MULTI_FIB), Matching (MATCH), Calculating (NUMERIC or NUM), Determining (ORDERING, TF, TFMS).\n"
-		"- If the question type is unclear, infer it from the filename or use the best-fit verb from the list above.\n"
+		"- Begin general titles with the concept, not task words such as Identifying, Determining, or Calculating.\n"
+		"- If the filename root begins MATCH-, begin the title with 'Matching' and name both sides of the match.\n"
+		"- If the filename root begins TFMS-, begin the title with 'True/False Statements About'.\n"
+		"- WOMC files are multiple-choice questions derived from a matching bank; do not begin their titles with 'Matching'.\n"
+		"- Include meaningful filename parameters that distinguish related sets, such as difficulty, counts, color mode, answer format, layout, or label type.\n"
+		"- Use a parenthetical qualifier when it makes a parameterized title easier to scan.\n"
 		"- Wrap your title in XML tags: <title>Your Title Here</title>\n"
 		"- Return only the title as plain text with no markdown, quotes, or trailing punctuation.\n"
 		"- Titles should be brief and easy to understand for both students and educators.\n"
@@ -51,38 +54,24 @@ def generate_title_prompt(file_path: str, problem_statements: list) -> str:
 	prompt += (
 		# Provide a list of sample titles to guide the model
 		"<list of unrelated sample titles>\n"
-		"Identifying Allosteric Enzymes in Metabolic Pathways\n"
-		"Identifying Amino Acids from Chemical Structures\n"
-		"Identifying Cell Disruption Techniques\n"
-		"Identifying the Correct Henderson-Hasselbalch Equation\n"
-		"Identifying Dipeptide Sequences from Structures\n"
-		"Determining Protein Net Charge at a Given pH\n"
-		"Identifying Energy Terms and Their Categories\n"
-		"Identifying Enzyme Catalysis Terminology\n"
-		"Determining Enzyme Inhibition and Activation in Metabolic Pathways\n"
-		"Determining Protein Molecular Weight from SDS-PAGE Migration\n"
-		"Identifying Hydrogen Bonding in Alpha-Helix Structures\n"
-		"Identifying Hydrophobic Compounds from Molecular Formulas\n"
-		"Identifying Macromolecules in Gel Electrophoresis\n"
-		"Determining Inhibition Type from Enzyme Activity Data\n"
-		"Determining Ionic Bond Formation in Amino Acid Side Chains\n"
-		"Identifying Levels of Protein Structure\n"
-		"Identifying Macromolecule Types from Chemical Structures\n"
-		"Determining the Michaelis-Menten Constant (Km) from Enzyme Activity Data\n"
-		"Determining the Most Abundant Diprotic State at a Given pH Using pKa\n"
-		"Determining Optimal Buffering Range Using pKa\n"
-		"Determining Protein Migration Direction from Isoelectric Point\n"
-		"Identifying Biochemical Functional Groups\n"
-		"Determining True/False Statements About Chemical Reactions\n"
-		"Determining True/False Statements About Enzyme Kinetics\n"
-		"Determining True/False Statements About Gibbs Free Energy (Delta G = Delta H - T Delta S)\n"
-		"Determining True/False Statements About Michaelis-Menten Kinetics\n"
-		"Determining True/False Statements About Thermodynamics and Kinetics\n"
+		"Allosteric Enzymes in Metabolic Pathways\n"
+		"Amino Acids from Chemical Structures (7 Choices)\n"
+		"Cell Disruption Techniques\n"
+		"Henderson-Hasselbalch Equations\n"
+		"Dipeptide Sequences from Structures\n"
+		"Protein Net Charge at a Given pH\n"
+		"Protein Molecular Weight from SDS-PAGE Migration\n"
+		"Inhibition Type from Enzyme Activity Data\n"
+		"Michaelis-Menten Constant (Km) from Enzyme Activity Data\n"
+		"Optimal Buffering Range from pKa\n"
+		"True/False Statements About Chemical Reactions\n"
+		"True/False Statements About Enzyme Kinetics\n"
+		"True/False Statements About Michaelis-Menten Kinetics\n"
 		"Matching Column Chromatography Types to Descriptions\n"
-		"Identifying Types of Chemical Bonds\n"
-		"Identifying Types of Macromolecules\n"
-		"Identifying Molecules That Are Not Enzyme Cofactors\n"
-		"Identifying Molecules That Could Be Enzymes\n"
+		"Column Chromatography Types from Descriptions\n"
+		"Offspring HLA Genotypes (2 Markers, Color)\n"
+		"Gene Trees from Distance Matrices (Level 3)\n"
+		"RFLP Forensic DNA Analysis Results (EASY, 4 Suspects)\n"
 		"</list of unrelated sample titles>\n\n"
 	)
 
@@ -286,7 +275,14 @@ def get_problem_title_from_file(client: llm.LLMClient, file_path: str) -> str:
 	problem_title = get_problem_title_from_response(response_content)
 
 	# Define a list of leading words that should be removed from the title
-	leading_words = ['Determine', 'Identify', 'Identifying']
+	leading_words = [
+		'Calculate',
+		'Calculating',
+		'Determine',
+		'Determining',
+		'Identify',
+		'Identifying',
+	]
 
 	# Loop through each leading word and check if the title starts with it
 	for word in leading_words:
@@ -300,4 +296,3 @@ def get_problem_title_from_file(client: llm.LLMClient, file_path: str) -> str:
 
 	# Return the cleaned problem title
 	return problem_title
-

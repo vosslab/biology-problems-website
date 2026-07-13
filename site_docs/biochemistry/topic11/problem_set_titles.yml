@@ -1,35 +1,37 @@
 bbq-TFMS-dna_structure-biol_351-questions.txt: True/False Statements About DNA Structure
-bbq-TFMS-dna_structure-questions.txt: Determining True/False Statements About DNA
-  Structure
-bbq-TFMS-franklin_diffraction-questions.txt: Information Not Obtained from Rosalind
-  Franklin's Diffraction Pattern
-bbq-TFMS-g-u_wobble-questions.txt: Determining True/False Statements About G.U Wobble
-  Base Pairs
-bbq-TFMS-melting_Tm_type_1-questions.txt: Determining True/False Statements About
-  Melting Temperature of DNA
-bbq-TFMS-melting_Tm_type_2a-questions.txt: Factors That Increase DNA Melting Temperature
-  (Tm)
-bbq-TFMS-melting_Tm_type_2b-questions.txt: Factors That Decrease DNA Melting Temperature
-  (Tm)
-bbq-TFMS-nucleotide_components-questions.txt: Incorrect Component of a DNA or RNA
-  Nucleotide
-bbq-TFMS-rna_v_dna-biol_301-questions.txt: Determining True/False Statements About
-  Differences Between RNA and DNA
-bbq-TFMS-rna_v_dna-questions.txt: Determining True/False Statements About RNA vs DNA
-bbq-chargaff_dna_percent-5_choices-questions.txt: Applying Chargaff's Rules to Determine
-  Base Composition
+  (BIOL 351)
+bbq-TFMS-dna_structure-questions.txt: True/False Statements About DNA Structure
+bbq-TFMS-franklin_diffraction-questions.txt: True/False Statements About Findings
+  from Rosalind Franklin's Diffraction Pattern
+bbq-TFMS-g-u_wobble-questions.txt: True/False Statements About G-U Wobble Base Pairs
+bbq-TFMS-melting_Tm_type_1-questions.txt: True/False Statements About DNA Melting
+  Temperature (Tm)
+bbq-TFMS-melting_Tm_type_2a-questions.txt: True/False Statements About Factors That
+  Increase DNA Melting Temperature (Tm)
+bbq-TFMS-melting_Tm_type_2b-questions.txt: True/False Statements About Factors That
+  Decrease DNA Melting Temperature (Tm)
+bbq-TFMS-nucleotide_components-questions.txt: True/False Statements About Nucleotide
+  Components
+bbq-TFMS-rna_v_dna-biol_301-questions.txt: True/False Statements About RNA and DNA
+  Differences (BIOL 301)
+bbq-TFMS-rna_v_dna-questions.txt: True/False Statements About RNA and DNA Differences
+bbq-chargaff_dna_percent-5_choices-questions.txt: DNA Base Composition Using Chargaff's
+  Rules (5 Choices)
 bbq-complementary_sequences-mc-directionless-questions.txt: Complementary DNA Sequences
-bbq-dna_melting_temp-len_12-questions.txt: Determining DNA Melting Temperatures (Tm)
-  from Sequences
-bbq-match_purine_structures-3_choices-questions.txt: Matching Purine Structures to
-  Their Names
-bbq-match_pyrimidine_structures-4_choices-questions.txt: Matching Pyrimidine Structures
-  to Their Names
-bbq-palindrome_sequence_match-questions.txt: Matching Half-Sequence Palindromes
-bbq-rna_transcribe_fill_blank-questions.txt: RNA Transcription Products
-bbq-rna_transcribe_prime-len_9-questions.txt: mRNA Products from DNA Template Transcription
-bbq-rna_transcribe_prime_fill_blank-len_9-questions.txt: Determining RNA Transcripts
-  from DNA Templates
-bbq-translate_genetic_code-10_aa-questions.txt: Translating mRNA sequence using genetic
-  code table
-last edit: Sun Jul 12 22:03:37 2026
+  Without Direction Labels
+bbq-dna_melting_temp-len_12-questions.txt: DNA Melting Temperature Extremes from
+  Sequence (12 Bases)
+bbq-match_purine_structures-3_choices-questions.txt: Purine Names from Chemical Structures
+  (3 Choices)
+bbq-match_pyrimidine_structures-4_choices-questions.txt: Pyrimidine Names from Chemical
+  Structures (4 Choices)
+bbq-palindrome_sequence_match-questions.txt: Palindromic DNA Sequence Completion
+bbq-rna_transcribe_fill_blank-questions.txt: mRNA Sequences from DNA Templates (Fill
+  in the Blank)
+bbq-rna_transcribe_prime-len_9-questions.txt: mRNA Sequences from DNA Templates (5'
+  and 3' Direction)
+bbq-rna_transcribe_prime_fill_blank-len_9-questions.txt: mRNA Sequences from DNA Templates
+  (5' and 3' Fill in the Blank)
+bbq-translate_genetic_code-10_aa-questions.txt: Peptide Sequences from mRNA Using the
+  Genetic Code (10 Amino Acids)
+last edit: Sun Jul 12 23:11:26 2026

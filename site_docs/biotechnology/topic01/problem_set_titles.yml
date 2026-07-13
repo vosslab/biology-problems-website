@@ -1,18 +1,24 @@
-bbq-MATCH-biotech_vs-questions.txt: Matching Industries to Descriptions
-bbq-MATCH-biotech_vs_improved-questions.txt: Match Biotechnology Industries
-bbq-MATCH-culture_enrichment-questions.txt: Matching Culture Enrichment Methods
-bbq-TFMS-nobel_prizes-questions.txt: Nobel Prize Topics
-bbq-WOMC-biotech_vs-questions.txt: Industries Using Enzymes
-bbq-WOMC-biotech_vs_improved-questions.txt: Biotechnology Industry Identification
-bbq-WOMC-culture_enrichment-questions.txt: Isotope Labeling in Culture Enrichment
-bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt: Nutrients for Bacterial
-  Growth in Metabolic Pathways
-bbq-mutant_screen-fib-4_metabolites-questions.txt: Determining the Correct Order of
-  Metabolic Precursors in Pathways from Mutant Data
-bbq-rna_transcribe_fill_blank-questions.txt: mRNA sequences from DNA templates
-bbq-rna_transcribe_prime-len_9-questions.txt: mRNA Products from Transcription
-bbq-rna_transcribe_prime_fill_blank-len_9-questions.txt: RNA Transcripts from DNA
-  Templates
-bbq-translate_genetic_code-10_aa-questions.txt: Translating mRNA sequences into single-letter
-  peptide codes
-last edit: Sun Jul 12 22:13:26 2026
+bbq-MATCH-biotech_vs-questions.txt: Matching Industries to Project Descriptions
+bbq-MATCH-biotech_vs_improved-questions.txt: Matching Biotechnology-Adjacent Industries
+  to Project Descriptions
+bbq-MATCH-culture_enrichment-questions.txt: Matching Culture Enrichment Methods to
+  Descriptions
+bbq-TFMS-nobel_prizes-questions.txt: True/False Statements About Nobel Prizes in
+  Biotechnology
+bbq-WOMC-biotech_vs-questions.txt: Industries from Project Descriptions
+bbq-WOMC-biotech_vs_improved-questions.txt: Biotechnology-Adjacent Industries from
+  Project Descriptions
+bbq-WOMC-culture_enrichment-questions.txt: Culture Enrichment Methods from Descriptions
+bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt: Bacterial Nutrient
+  Requirements in Mutant Metabolic Pathways (5 Metabolites)
+bbq-mutant_screen-fib-4_metabolites-questions.txt: Metabolic Pathway Precursor Order
+  from Mutant Growth Data (4 Metabolites)
+bbq-rna_transcribe_fill_blank-questions.txt: mRNA Sequences from DNA Templates (Fill
+  in the Blank)
+bbq-rna_transcribe_prime-len_9-questions.txt: mRNA Sequences from DNA Templates (5'
+  and 3' Direction)
+bbq-rna_transcribe_prime_fill_blank-len_9-questions.txt: mRNA Sequences from DNA Templates
+  (5' and 3' Fill in the Blank)
+bbq-translate_genetic_code-10_aa-questions.txt: Peptide Sequences from mRNA Using the
+  Genetic Code (10 Amino Acids)
+last edit: Sun Jul 12 23:11:26 2026
