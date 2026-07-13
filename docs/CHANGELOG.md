@@ -31,6 +31,11 @@
 - Sorted `bbq_control/task_files/molecular_bio_tasks.csv` by the Molecular
   Biology topic order in `topics_metadata.yml`, with `,,,,,` separator rows
   between populated topic groups.
+- Added [`tools/csv_topic_sorter.py`](../tools/csv_topic_sorter.py), a
+  standalone in-place sorter that groups BBQ task CSV rows by
+  `topics_metadata.yml` and writes separator rows between topic groups.
+- Aligned `AGENTS.md` and BBQ command examples with the shared
+  `source source_me.sh && python3` Python bootstrap.
 - Added `bbq_control/all_tasks.py` as the root-aware coordinator for every
   `bbq_control/task_files/*.csv` file. It discovers files deterministically,
   passes absolute task and settings paths to the root runner, and has a

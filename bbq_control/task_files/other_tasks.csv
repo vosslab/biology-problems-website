@@ -19,6 +19,5 @@ other,cell_biology,YMATCH,,{bp_match}/cell_biology/senses_signal_transduction_ma
 other,cell_biology,YMATCH,,{bp_match}/cell_biology/senses_taste_quality_to_stimulus.yml,
 other,cell_biology,YMATCH,,{bp_match}/cell_biology/stem_cell_potency.yml,
 ,,,,,
-,,,,,
 other,biophysics,{bp_root}/biophysics-problems/fret_overlap_colors.py,,,
 other,biophysics,{bp_root}/biophysics-problems/fret_permute_colors.py,,,
