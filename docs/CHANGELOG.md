@@ -1,5 +1,13 @@
 # Changelog
 
+## 2026-07-15
+
+### Behavior or Interface Changes
+
+- Standardized the website footer, public license page, and repository licensing
+  rule on CC BY 4.0 for non-code content. Removed the prior reciprocal licensing
+  requirement and retained separate GPLv3 and LGPLv3 licensing for source code.
+
 ## 2026-07-12
 
 ### Additions and New Features
