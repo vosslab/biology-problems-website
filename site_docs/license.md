@@ -1,6 +1,9 @@
 # License
 
-All content on this website, including text, images, code, and other materials, is owned by Dr. Neil Voss unless otherwise stated. This content is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).
+Except where otherwise stated, all non-code content on this website, including
+text and images, is owned by Dr. Neil Voss and licensed under the Creative
+Commons Attribution 4.0 International License (CC BY 4.0). Source code remains
+under its applicable GPLv3 or LGPLv3 license.
 
 ## Creative Commons License Overview
 
@@ -12,13 +15,14 @@ You are free to:
 Under the following terms:
 
 - **Attribution** - You must give appropriate credit, provide a link to the license, and indicate if changes were made.
-- **ShareAlike** - If you remix, transform, or build upon the material, you must distribute your contributions under the same license.
 - **No additional restrictions** - You may not apply legal terms or technological measures that restrict others from doing anything the license permits.
 
 ## Educational and Commercial Use
 
-This content is designed for open educational use. Commercial redistribution is permitted under CC BY-SA 4.0, including modest markups (e.g., print editions by LibreTexts).
+This content is designed for open educational use. Commercial redistribution is
+permitted under CC BY 4.0, including print editions, provided the attribution
+requirements are met.
 
 ## License Link
 
-[https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)
+[Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
