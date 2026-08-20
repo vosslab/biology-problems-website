@@ -87,6 +87,9 @@ Translation of mRNA into protein, codons, anticodons, genetic code, ribosomes, t
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-translation_accuracy.html', '_blank')" title="View human_readable-TFMS-translation_accuracy.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-translation_accuracy.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/translation_accuracy.pg" download title="Download translation_accuracy.pg" aria-label="Click to download the WeBWorK PGML file (translation_accuracy.pg)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>

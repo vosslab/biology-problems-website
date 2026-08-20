@@ -84,6 +84,9 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-pcr_components.html', '_blank')" title="View human_readable-TFMS-pcr_components.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-pcr_components.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/pcr_components.pg" download title="Download pcr_components.pg" aria-label="Click to download the WeBWorK PGML file (pcr_components.pg)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -151,6 +154,9 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-pcr_step_order.html', '_blank')" title="View human_readable-TFMS-pcr_step_order.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-pcr_step_order.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/pcr_step_order.pg" download title="Download pcr_step_order.pg" aria-label="Click to download the WeBWorK PGML file (pcr_step_order.pg)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>

@@ -19,6 +19,9 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 <button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-english_palindromes.html', '_blank')" title="View human_readable-TFMS-english_palindromes.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-english_palindromes.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/english_palindromes.pg" download title="Download english_palindromes.pg" aria-label="Click to download the WeBWorK PGML file (english_palindromes.pg)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
