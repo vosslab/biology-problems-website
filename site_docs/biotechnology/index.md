@@ -11,7 +11,7 @@ Questions ask students to design cloning strategies with restriction enzymes and
 1. [Biotech Basics and Central Dogma](topic01/index.md) <span class='topic-count' title='13 questions'>13 questions</span>
     - Students explore the history of biotechnology, model organisms, bacteriophage, cell culture, subviral agents, the central dogma, and endosymbiotic theory.
 
-2. [DNA and Genomics](topic02/index.md) <span class='topic-count' title='29 questions'>29 questions</span>
+2. [DNA and Genomics](topic02/index.md) <span class='topic-count' title='21 questions'>21 questions</span>
     - Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR, Sanger and next-generation sequencing, RT-qPCR, CRISPR technology, RNA interference, GWAS, and synthetic biology.
 
 3. [Protein Biotechnology](topic03/index.md) <span class='topic-count' title='4 questions'>4 questions</span>

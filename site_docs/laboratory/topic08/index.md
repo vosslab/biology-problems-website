@@ -29,7 +29,6 @@ Students perform chemical indicator tests (Benedict's, Biuret, iodine, Sudan IV)
       example problem
     </span>
   </summary>
-  {% include "laboratory/topic08/downloads/selftest-blood_type_agglutination_test.html" %}
 
 </details>
 

@@ -2,41 +2,6 @@
 
 DNA composition, base pairing, and double-helix structure.
 
-## True/False Statements About DNA Structure (BIOL 351)
-
-<div id="TFMS-dna_structure-biol_351-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-TFMS-dna_structure-biol_351-questions.txt" download title="Download bbq-TFMS-dna_structure-biol_351-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-dna_structure-biol_351-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-dna_structure-biol_351.zip" download title="Download blackboard_export_zip-TFMS-dna_structure-biol_351.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-dna_structure-biol_351.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-dna_structure-biol_351.zip" download title="Download canvas_qti_v1_2-TFMS-dna_structure-biol_351.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-dna_structure-biol_351.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-dna_structure-biol_351.html', '_blank')" title="View human_readable-TFMS-dna_structure-biol_351.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-dna_structure-biol_351.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/dna_structure-biol_351.pg" download title="Download dna_structure-biol_351.pg" aria-label="Click to download the WeBWorK PGML file (dna_structure-biol_351.pg)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About DNA Structure (BIOL 351)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  {% include "molecular_biology/topic02/downloads/selftest-TFMS-dna_structure-biol_351.html" %}
-
-</details>
-
-
 ## True/False Statements About DNA Structure
 
 <div id="TFMS-dna_structure-button-container" class="button-container">

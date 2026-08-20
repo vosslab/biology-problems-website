@@ -20,14 +20,11 @@ Questions ask students to calculate dilution volumes, prepare solutions at speci
 4. [Serial Dilutions](topic04/index.md) <span class='topic-count' title='3 questions'>3 questions</span>
     - Students design multi-step dilution series to reach high overall dilution factors, calculate effective dilution factors across linked steps, and explain why serial dilutions improve accuracy and save materials compared to one large dilution.
 
-5. [Detection of Bio-Organic Molecules](topic08/index.md) <span class='topic-count' title='1 question'>1 question</span>
-    - Students perform chemical indicator tests (Benedict's, Biuret, iodine, Sudan IV) to identify sugars, proteins, starch, and lipids in unknown samples.
-
-6. [Enzyme Kinetics](topic09/index.md) <span class='topic-count' title='2 questions'>2 questions</span>
+5. [Enzyme Kinetics](topic09/index.md) <span class='topic-count' title='2 questions'>2 questions</span>
     - Students measure lactase reaction rates at different substrate concentrations, plot velocity data, and analyze how temperature, pH, or inhibitors affect enzyme activity in a laboratory setting.
 
-7. [PCR and Electrophoresis](topic11/index.md) <span class='topic-count' title='17 questions'>17 questions</span>
+6. [PCR and Electrophoresis](topic11/index.md) <span class='topic-count' title='10 questions'>10 questions</span>
     - Students extract DNA, perform initial and nested PCR amplification of the GAPDH gene, run gel electrophoresis to separate DNA fragments, and interpret band patterns.
 
-8. [Bioinformatics](topic13/index.md) <span class='topic-count' title='5 questions'>5 questions</span>
+7. [Bioinformatics](topic13/index.md) <span class='topic-count' title='4 questions'>4 questions</span>
     - Students analyze GAPDH DNA and protein sequences using BLAST, interpret alignment scores, and use bioinformatics databases to compare sequences across species.
