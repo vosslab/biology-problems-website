@@ -1,0 +1,1328 @@
+## DESCRIPTION
+## Select the stage in the central dogma of biology that corresponds to the given related terminology.
+## ENDDESCRIPTION
+## KEYWORDS('stages in the central dogma of biology','related terms','which one','multiple choice')
+## DBsubject('Molecular Biology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-08-19')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserRadioButtons.pl',
+    'PGcourse.pl',
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 0;
+
+#==========================================================
+# QUESTION DATA
+#==========================================================
+
+# All questions data
+@questions_data = (
+  {
+    'item_name' => '<strong>DNA <span style="color: #3b7600; font-weight:700;">polymerase</span></strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+  },
+  {
+    'item_name' => '<strong>DNA pol III</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+  },
+  {
+    'item_name' => '<strong>DNA pol I</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+  },
+  {
+    'item_name' => '<strong>Okazaki fragments</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+  },
+  {
+    'item_name' => '<strong>leading <span style="color: #6c6c00; font-weight:700;">strand</span></strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+  },
+  {
+    'item_name' => '<strong>lagging <span style="color: #6c6c00; font-weight:700;">strand</span></strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+  },
+  {
+    'item_name' => '<strong>origin</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+  },
+  {
+    'item_name' => '<strong>origin of replication</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+  },
+  {
+    'item_name' => '<strong>helicase</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+  },
+  {
+    'item_name' => '<strong>RNA primase</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+  },
+  {
+    'item_name' => '<strong>DNA sliding clamp</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+  },
+  {
+    'item_name' => '<strong>DNA ligase</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+  },
+  {
+    'item_name' => '<strong>single-<span style="color: #6c6c00; font-weight:700;">strand</span>ed binding proteins</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+  },
+  {
+    'item_name' => '<strong>topoisomerase</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+  },
+  {
+    'item_name' => '<strong>replication fork</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+  },
+  {
+    'item_name' => '<strong>telomere shortening</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+  },
+  {
+    'item_name' => '<strong>semi-conservative model</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+  },
+  {
+    'item_name' => '<strong>bubble</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+  },
+  {
+    'item_name' => '<strong>replication bubble</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+  },
+  {
+    'item_name' => '<strong>daughter DNA <span style="color: #6c6c00; font-weight:700;">strand</span></strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+  },
+  {
+    'item_name' => '<strong>deoxytriphosphate nucleotides, such as dATP</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+  },
+  {
+    'item_name' => '<strong>DNA proof-reading</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+  },
+  {
+    'item_name' => '<strong>primer removal</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+  },
+  {
+    'item_name' => '<strong>Meselson-Stahl experiment</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+  },
+  {
+    'item_name' => '<strong>RNA <span style="color: #3b7600; font-weight:700;">polymerase</span></strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+  },
+  {
+    'item_name' => '<strong>RNA <span style="color: #3b7600; font-weight:700;">polymerase</span> II</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+  },
+  {
+    'item_name' => '<strong>-35 and -10 <span style="color: #007576; font-weight:700;">promotor</span> regions</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+  },
+  {
+    'item_name' => '<strong>TATA box</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+  },
+  {
+    'item_name' => '<strong>-35 <span style="color: #007576; font-weight:700;">promotor</span> region</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+  },
+  {
+    'item_name' => '<strong>-75 and -25 <span style="color: #007576; font-weight:700;">promotor</span> regions</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+  },
+  {
+    'item_name' => '<strong>RNA is synthesized</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+  },
+  {
+    'item_name' => '<strong>Pribnow box</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+  },
+  {
+    'item_name' => '<strong>non-template or coding <span style="color: #6c6c00; font-weight:700;">strand</span></strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+  },
+  {
+    'item_name' => '<strong>enhancer sequences</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+  },
+  {
+    'item_name' => '<strong>activator proteins</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+  },
+  {
+    'item_name' => '<strong>template <span style="color: #6c6c00; font-weight:700;">strand</span></strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #003fff; font-weight:700;">terminator</span></strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #003fff; font-weight:700;">terminator</span> sequence</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+  },
+  {
+    'item_name' => '<strong>transcription factors</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+  },
+  {
+    'item_name' => '<strong>creation of pre-mRNA transcript</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+  },
+  {
+    'item_name' => '<strong>proximal <span style="color: #007576; font-weight:700;">promotor</span> elements</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+  },
+  {
+    'item_name' => '<strong>distal <span style="color: #007576; font-weight:700;">promotor</span> elements</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+  },
+  {
+    'item_name' => '<strong>5&prime;-cap</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+  },
+  {
+    'item_name' => '<strong>intron removal</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+  },
+  {
+    'item_name' => '<strong>poly-A tail</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+  },
+  {
+    'item_name' => '<strong>poly-adenylation tail</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+  },
+  {
+    'item_name' => '<strong>poly-A <span style="color: #3b7600; font-weight:700;">polymerase</span></strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+  },
+  {
+    'item_name' => '<strong>alternative splicing</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+  },
+  {
+    'item_name' => '<strong>spliceosome</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+  },
+  {
+    'item_name' => '<strong>removes <span style="color: #00775f; font-weight:700;">introns</span> and joins exons</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+  },
+  {
+    'item_name' => '<strong>RNA splicing</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+  },
+  {
+    'item_name' => '<strong>GT-AG <span style="color: #00775f; font-weight:700;">introns</span></strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+  },
+  {
+    'item_name' => '<strong>group I self-splicing <span style="color: #00775f; font-weight:700;">introns</span></strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+  },
+  {
+    'item_name' => '<strong>conversion of pre-mRNA transcript into mature mRNA</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+  },
+  {
+    'item_name' => '<strong>exons are spliced together</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #00775f; font-weight:700;">introns</span> are cut out</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #00775f; font-weight:700;">introns</span> are removed</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+  },
+  {
+    'item_name' => '<strong>capping enzyme</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+  },
+  {
+    'item_name' => '<strong>creation of mature mRNA</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+  },
+  {
+    'item_name' => '<strong>anti-<span style="color: #c80085; font-weight:700;">codon</span> recognition for <span style="color: #935d00; font-weight:700;">amino acid</span> <span style="color: #076dad; font-weight:700;">attachment</span></strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #a719db; font-weight:700;">synthetase</span> enzymes</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #076dad; font-weight:700;">attachment</span> of <span style="color: #935d00; font-weight:700;">amino acid</span> to tRNA</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #076dad; font-weight:700;">attachment</span> of <span style="color: #935d00; font-weight:700;">amino acid</span> to CCA tail</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+  },
+  {
+    'item_name' => '<strong>tRNA binds to the <span style="color: #a719db; font-weight:700;">synthetase</span></strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+  },
+  {
+    'item_name' => '<strong>correct match between a tRNA and an <span style="color: #935d00; font-weight:700;">amino acid</span></strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+  },
+  {
+    'item_name' => '<strong>creates aminoacyl-tRNA <span style="color: #a719db; font-weight:700;">synthetase</span></strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+  },
+  {
+    'item_name' => '<strong>tRNA editing site</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+  },
+  {
+    'item_name' => '<strong>start <span style="color: #c80085; font-weight:700;">codon</span></strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+  },
+  {
+    'item_name' => '<strong>AUG start <span style="color: #c80085; font-weight:700;">codon</span></strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #c80085; font-weight:700;">codon</span>s, triplets of bases</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+  },
+  {
+    'item_name' => '<strong>proteins are synthesized</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+  },
+  {
+    'item_name' => '<strong>stop <span style="color: #c80085; font-weight:700;">codon</span></strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+  },
+  {
+    'item_name' => '<strong>UAA, UAG, UGA stop <span style="color: #c80085; font-weight:700;">codon</span>s</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+  },
+  {
+    'item_name' => '<strong>reading frame</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+  },
+  {
+    'item_name' => '<strong>mRNA <span style="color: #c80085; font-weight:700;">codon</span> recognition by tRNA</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+  },
+  {
+    'item_name' => '<strong>mRNA <span style="color: #c80085; font-weight:700;">codon</span> recognition</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+  },
+  {
+    'item_name' => '<strong>Shine-Delgarno sequence</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #c80085; font-weight:700;">codon</span>/anti-<span style="color: #c80085; font-weight:700;">codon</span> binding</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+  },
+  {
+    'item_name' => '<strong>ribosome</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+  },
+  {
+    'item_name' => '<strong>polysomes</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+  },
+  {
+    'item_name' => '<strong>peptide bond formation</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+  },
+  {
+    'item_name' => '<strong>large ribosomal subunit</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+  },
+  {
+    'item_name' => '<strong>small ribosomal subunit</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+  },
+  {
+    'item_name' => '<strong>mRNA attaches to ribosomes</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+  },
+  {
+    'item_name' => '<strong>peptidyl transferase</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+  },
+  {
+    'item_name' => '<strong>initiation factors</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+  },
+  {
+    'item_name' => '<strong>elongation factors</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+  },
+  {
+    'item_name' => '<strong>release factors</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+  },
+  {
+    'item_name' => '<strong>A-site</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+  },
+  {
+    'item_name' => '<strong>aminoacyl-tRNA binds to A-site</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #cc0066; font-weight:700;">translocation</span></strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+  },
+  {
+    'item_name' => '<strong>tRNA <span style="color: #cc0066; font-weight:700;">translocation</span></strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #cc0066; font-weight:700;">translocation</span> of peptidyl-tRNA</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+  },
+  {
+    'item_name' => '<strong>P-site</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+  },
+  {
+    'item_name' => '<strong>E-site</strong>',
+    'plural_choice' => 'stages in the central dogma of biology',
+    'singular_item' => 'related terminology',
+    'choices' => [
+      '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+      '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+      '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+      '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+      '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+  },
+);
+
+#==========================================================
+# SELECT RANDOM QUESTION
+#==========================================================
+
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+
+$question_idx = $local_random->random(0, scalar(@questions_data) - 1, 1);
+$q = $questions_data[$question_idx];
+
+$item_name = $q->{'item_name'};
+$plural_choice = $q->{'plural_choice'};
+$singular_item = $q->{'singular_item'};
+@choices = @{ $q->{'choices'} };
+$correct = $q->{'correct'};
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# BUILD RADIO BUTTONS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => 'ABC',
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+Which one of the following [$plural_choice]* corresponds to the [$singular_item]* [$item_name]*?
+
+[_]{$rb}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The correct answer is: [$correct]*
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+

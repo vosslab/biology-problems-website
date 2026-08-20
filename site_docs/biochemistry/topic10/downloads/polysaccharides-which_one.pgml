@@ -1,0 +1,444 @@
+## DESCRIPTION
+## Select the polysaccharide that corresponds to the given description.
+## ENDDESCRIPTION
+## KEYWORDS('polysaccharides','descriptions','which one','multiple choice')
+## DBsubject('Biochemistry')
+## DBchapter('')
+## DBsection('')
+## Date('2026-08-19')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserRadioButtons.pl',
+    'PGcourse.pl',
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 0;
+
+#==========================================================
+# QUESTION DATA
+#==========================================================
+
+# All questions data
+@questions_data = (
+  {
+    'item_name' => '<strong><span style="color: #693aaa; font-weight:700;">storage</span> form of glucose in <span style="color: #843232; font-weight:700;">animals</span></strong>',
+    'plural_choice' => 'polysaccharides',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">glycogen</span>',
+      '<span style="color: #3b7600; font-weight:700;">amylopectin</span>',
+      '<span style="color: #6c6c00; font-weight:700;">amylose</span>',
+      '<span style="color: #b74300; font-weight:700;">chitin</span>',
+      '<span style="color: #935d00; font-weight:700;">cellulose</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">glycogen</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #843232; font-weight:700;">animal</span>polysaccharide that contains &alpha;-glycosidic linkages</strong>',
+    'plural_choice' => 'polysaccharides',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">glycogen</span>',
+      '<span style="color: #3b7600; font-weight:700;">amylopectin</span>',
+      '<span style="color: #6c6c00; font-weight:700;">amylose</span>',
+      '<span style="color: #b74300; font-weight:700;">chitin</span>',
+      '<span style="color: #935d00; font-weight:700;">cellulose</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">glycogen</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #843232; font-weight:700;">animal</span>molecule composed of linear chains of &alpha;-(1,4) D-glucose residues connected through &alpha;-(1,6) linkages</strong>',
+    'plural_choice' => 'polysaccharides',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">glycogen</span>',
+      '<span style="color: #3b7600; font-weight:700;">amylopectin</span>',
+      '<span style="color: #6c6c00; font-weight:700;">amylose</span>',
+      '<span style="color: #b74300; font-weight:700;">chitin</span>',
+      '<span style="color: #935d00; font-weight:700;">cellulose</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">glycogen</span>',
+  },
+  {
+    'item_name' => '<strong>glucose <span style="color: #693aaa; font-weight:700;">storage</span> found in skeleton muscle and liver cells</strong>',
+    'plural_choice' => 'polysaccharides',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">glycogen</span>',
+      '<span style="color: #3b7600; font-weight:700;">amylopectin</span>',
+      '<span style="color: #6c6c00; font-weight:700;">amylose</span>',
+      '<span style="color: #b74300; font-weight:700;">chitin</span>',
+      '<span style="color: #935d00; font-weight:700;">cellulose</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">glycogen</span>',
+  },
+  {
+    'item_name' => '<strong>highly branched polymer of &alpha;-linked glucose units found in <span style="color: #843232; font-weight:700;">animals</span></strong>',
+    'plural_choice' => 'polysaccharides',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">glycogen</span>',
+      '<span style="color: #3b7600; font-weight:700;">amylopectin</span>',
+      '<span style="color: #6c6c00; font-weight:700;">amylose</span>',
+      '<span style="color: #b74300; font-weight:700;">chitin</span>',
+      '<span style="color: #935d00; font-weight:700;">cellulose</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">glycogen</span>',
+  },
+  {
+    'item_name' => '<strong>highly branched energy <span style="color: #693aaa; font-weight:700;">storage</span> in <span style="color: #843232; font-weight:700;">animals</span></strong>',
+    'plural_choice' => 'polysaccharides',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">glycogen</span>',
+      '<span style="color: #3b7600; font-weight:700;">amylopectin</span>',
+      '<span style="color: #6c6c00; font-weight:700;">amylose</span>',
+      '<span style="color: #b74300; font-weight:700;">chitin</span>',
+      '<span style="color: #935d00; font-weight:700;">cellulose</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">glycogen</span>',
+  },
+  {
+    'item_name' => '<strong>branched <span style="color: #693aaa; font-weight:700;">storage</span> form of glucose in <span style="color: #598231; font-weight:700;">plants</span></strong>',
+    'plural_choice' => 'polysaccharides',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">glycogen</span>',
+      '<span style="color: #3b7600; font-weight:700;">amylopectin</span>',
+      '<span style="color: #6c6c00; font-weight:700;">amylose</span>',
+      '<span style="color: #b74300; font-weight:700;">chitin</span>',
+      '<span style="color: #935d00; font-weight:700;">cellulose</span>',
+    ],
+    'correct' => '<span style="color: #3b7600; font-weight:700;">amylopectin</span>',
+  },
+  {
+    'item_name' => '<strong>highly branched polymer of &alpha;-linked glucose units found in <span style="color: #598231; font-weight:700;">plants</span></strong>',
+    'plural_choice' => 'polysaccharides',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">glycogen</span>',
+      '<span style="color: #3b7600; font-weight:700;">amylopectin</span>',
+      '<span style="color: #6c6c00; font-weight:700;">amylose</span>',
+      '<span style="color: #b74300; font-weight:700;">chitin</span>',
+      '<span style="color: #935d00; font-weight:700;">cellulose</span>',
+    ],
+    'correct' => '<span style="color: #3b7600; font-weight:700;">amylopectin</span>',
+  },
+  {
+    'item_name' => '<strong>highly branched glucose polymer found in <span style="color: #598231; font-weight:700;">plants</span> that is readily digested by humans and other mammals</strong>',
+    'plural_choice' => 'polysaccharides',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">glycogen</span>',
+      '<span style="color: #3b7600; font-weight:700;">amylopectin</span>',
+      '<span style="color: #6c6c00; font-weight:700;">amylose</span>',
+      '<span style="color: #b74300; font-weight:700;">chitin</span>',
+      '<span style="color: #935d00; font-weight:700;">cellulose</span>',
+    ],
+    'correct' => '<span style="color: #3b7600; font-weight:700;">amylopectin</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #598231; font-weight:700;">plant</span>molecule composed of linear chains of &alpha;-(1,4) D-glucose residues connected through &alpha;-(1,6) linkages</strong>',
+    'plural_choice' => 'polysaccharides',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">glycogen</span>',
+      '<span style="color: #3b7600; font-weight:700;">amylopectin</span>',
+      '<span style="color: #6c6c00; font-weight:700;">amylose</span>',
+      '<span style="color: #b74300; font-weight:700;">chitin</span>',
+      '<span style="color: #935d00; font-weight:700;">cellulose</span>',
+    ],
+    'correct' => '<span style="color: #3b7600; font-weight:700;">amylopectin</span>',
+  },
+  {
+    'item_name' => '<strong>moderately branched energy <span style="color: #693aaa; font-weight:700;">storage</span> in <span style="color: #598231; font-weight:700;">plants</span></strong>',
+    'plural_choice' => 'polysaccharides',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">glycogen</span>',
+      '<span style="color: #3b7600; font-weight:700;">amylopectin</span>',
+      '<span style="color: #6c6c00; font-weight:700;">amylose</span>',
+      '<span style="color: #b74300; font-weight:700;">chitin</span>',
+      '<span style="color: #935d00; font-weight:700;">cellulose</span>',
+    ],
+    'correct' => '<span style="color: #3b7600; font-weight:700;">amylopectin</span>',
+  },
+  {
+    'item_name' => '<strong>unbranched <span style="color: #693aaa; font-weight:700;">storage</span> form of glucose in <span style="color: #598231; font-weight:700;">plants</span></strong>',
+    'plural_choice' => 'polysaccharides',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">glycogen</span>',
+      '<span style="color: #3b7600; font-weight:700;">amylopectin</span>',
+      '<span style="color: #6c6c00; font-weight:700;">amylose</span>',
+      '<span style="color: #b74300; font-weight:700;">chitin</span>',
+      '<span style="color: #935d00; font-weight:700;">cellulose</span>',
+    ],
+    'correct' => '<span style="color: #6c6c00; font-weight:700;">amylose</span>',
+  },
+  {
+    'item_name' => '<strong>unbranched energy <span style="color: #693aaa; font-weight:700;">storage</span> in <span style="color: #598231; font-weight:700;">plants</span></strong>',
+    'plural_choice' => 'polysaccharides',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">glycogen</span>',
+      '<span style="color: #3b7600; font-weight:700;">amylopectin</span>',
+      '<span style="color: #6c6c00; font-weight:700;">amylose</span>',
+      '<span style="color: #b74300; font-weight:700;">chitin</span>',
+      '<span style="color: #935d00; font-weight:700;">cellulose</span>',
+    ],
+    'correct' => '<span style="color: #6c6c00; font-weight:700;">amylose</span>',
+  },
+  {
+    'item_name' => '<strong>linear chain of glucose with &alpha;-glycosidic linkages and no branches</strong>',
+    'plural_choice' => 'polysaccharides',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">glycogen</span>',
+      '<span style="color: #3b7600; font-weight:700;">amylopectin</span>',
+      '<span style="color: #6c6c00; font-weight:700;">amylose</span>',
+      '<span style="color: #b74300; font-weight:700;">chitin</span>',
+      '<span style="color: #935d00; font-weight:700;">cellulose</span>',
+    ],
+    'correct' => '<span style="color: #6c6c00; font-weight:700;">amylose</span>',
+  },
+  {
+    'item_name' => '<strong>also know as resistant starch, because it has no branches and it is resistant to digestion</strong>',
+    'plural_choice' => 'polysaccharides',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">glycogen</span>',
+      '<span style="color: #3b7600; font-weight:700;">amylopectin</span>',
+      '<span style="color: #6c6c00; font-weight:700;">amylose</span>',
+      '<span style="color: #b74300; font-weight:700;">chitin</span>',
+      '<span style="color: #935d00; font-weight:700;">cellulose</span>',
+    ],
+    'correct' => '<span style="color: #6c6c00; font-weight:700;">amylose</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #a86739; font-weight:700;">structural</span> form of glucose in some <span style="color: #843232; font-weight:700;">animals</span></strong>',
+    'plural_choice' => 'polysaccharides',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">glycogen</span>',
+      '<span style="color: #3b7600; font-weight:700;">amylopectin</span>',
+      '<span style="color: #6c6c00; font-weight:700;">amylose</span>',
+      '<span style="color: #b74300; font-weight:700;">chitin</span>',
+      '<span style="color: #935d00; font-weight:700;">cellulose</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">chitin</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #843232; font-weight:700;">animal</span>polysaccharide that contains &beta;-glycosidic linkages</strong>',
+    'plural_choice' => 'polysaccharides',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">glycogen</span>',
+      '<span style="color: #3b7600; font-weight:700;">amylopectin</span>',
+      '<span style="color: #6c6c00; font-weight:700;">amylose</span>',
+      '<span style="color: #b74300; font-weight:700;">chitin</span>',
+      '<span style="color: #935d00; font-weight:700;">cellulose</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">chitin</span>',
+  },
+  {
+    'item_name' => '<strong>major <span style="color: #a86739; font-weight:700;">structural</span> component of arthopod (e.g., insects) exoskeletons</strong>',
+    'plural_choice' => 'polysaccharides',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">glycogen</span>',
+      '<span style="color: #3b7600; font-weight:700;">amylopectin</span>',
+      '<span style="color: #6c6c00; font-weight:700;">amylose</span>',
+      '<span style="color: #b74300; font-weight:700;">chitin</span>',
+      '<span style="color: #935d00; font-weight:700;">cellulose</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">chitin</span>',
+  },
+  {
+    'item_name' => '<strong>polymer of &beta;-linked glucose units found in some <span style="color: #843232; font-weight:700;">animals</span></strong>',
+    'plural_choice' => 'polysaccharides',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">glycogen</span>',
+      '<span style="color: #3b7600; font-weight:700;">amylopectin</span>',
+      '<span style="color: #6c6c00; font-weight:700;">amylose</span>',
+      '<span style="color: #b74300; font-weight:700;">chitin</span>',
+      '<span style="color: #935d00; font-weight:700;">cellulose</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">chitin</span>',
+  },
+  {
+    'item_name' => '<strong>carbohydrate polymer that used for <span style="color: #a86739; font-weight:700;">structural</span> purposes by some <span style="color: #843232; font-weight:700;">animals</span></strong>',
+    'plural_choice' => 'polysaccharides',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">glycogen</span>',
+      '<span style="color: #3b7600; font-weight:700;">amylopectin</span>',
+      '<span style="color: #6c6c00; font-weight:700;">amylose</span>',
+      '<span style="color: #b74300; font-weight:700;">chitin</span>',
+      '<span style="color: #935d00; font-weight:700;">cellulose</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">chitin</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #a86739; font-weight:700;">structural</span> material in arthropods and fungi</strong>',
+    'plural_choice' => 'polysaccharides',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">glycogen</span>',
+      '<span style="color: #3b7600; font-weight:700;">amylopectin</span>',
+      '<span style="color: #6c6c00; font-weight:700;">amylose</span>',
+      '<span style="color: #b74300; font-weight:700;">chitin</span>',
+      '<span style="color: #935d00; font-weight:700;">cellulose</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">chitin</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #a86739; font-weight:700;">structural</span> form of glucose in <span style="color: #598231; font-weight:700;">plants</span></strong>',
+    'plural_choice' => 'polysaccharides',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">glycogen</span>',
+      '<span style="color: #3b7600; font-weight:700;">amylopectin</span>',
+      '<span style="color: #6c6c00; font-weight:700;">amylose</span>',
+      '<span style="color: #b74300; font-weight:700;">chitin</span>',
+      '<span style="color: #935d00; font-weight:700;">cellulose</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">cellulose</span>',
+  },
+  {
+    'item_name' => '<strong>major <span style="color: #a86739; font-weight:700;">structural</span> component of <span style="color: #b45918; font-weight:700;">cell walls</span></strong>',
+    'plural_choice' => 'polysaccharides',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">glycogen</span>',
+      '<span style="color: #3b7600; font-weight:700;">amylopectin</span>',
+      '<span style="color: #6c6c00; font-weight:700;">amylose</span>',
+      '<span style="color: #b74300; font-weight:700;">chitin</span>',
+      '<span style="color: #935d00; font-weight:700;">cellulose</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">cellulose</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #598231; font-weight:700;">plant</span>polysaccharide that contains &beta;-glycosidic linkages</strong>',
+    'plural_choice' => 'polysaccharides',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">glycogen</span>',
+      '<span style="color: #3b7600; font-weight:700;">amylopectin</span>',
+      '<span style="color: #6c6c00; font-weight:700;">amylose</span>',
+      '<span style="color: #b74300; font-weight:700;">chitin</span>',
+      '<span style="color: #935d00; font-weight:700;">cellulose</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">cellulose</span>',
+  },
+  {
+    'item_name' => '<strong>polymer of &beta;-linked glucose units found in <span style="color: #598231; font-weight:700;">plants</span></strong>',
+    'plural_choice' => 'polysaccharides',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">glycogen</span>',
+      '<span style="color: #3b7600; font-weight:700;">amylopectin</span>',
+      '<span style="color: #6c6c00; font-weight:700;">amylose</span>',
+      '<span style="color: #b74300; font-weight:700;">chitin</span>',
+      '<span style="color: #935d00; font-weight:700;">cellulose</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">cellulose</span>',
+  },
+  {
+    'item_name' => '<strong>carbohydrate polymer that used for <span style="color: #a86739; font-weight:700;">structural</span> purposes by <span style="color: #598231; font-weight:700;">plants</span></strong>',
+    'plural_choice' => 'polysaccharides',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">glycogen</span>',
+      '<span style="color: #3b7600; font-weight:700;">amylopectin</span>',
+      '<span style="color: #6c6c00; font-weight:700;">amylose</span>',
+      '<span style="color: #b74300; font-weight:700;">chitin</span>',
+      '<span style="color: #935d00; font-weight:700;">cellulose</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">cellulose</span>',
+  },
+  {
+    'item_name' => '<strong><span style="color: #a86739; font-weight:700;">structural</span> material in <span style="color: #598231; font-weight:700;">plant</span><span style="color: #b45918; font-weight:700;">cell walls</span></strong>',
+    'plural_choice' => 'polysaccharides',
+    'singular_item' => 'description',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">glycogen</span>',
+      '<span style="color: #3b7600; font-weight:700;">amylopectin</span>',
+      '<span style="color: #6c6c00; font-weight:700;">amylose</span>',
+      '<span style="color: #b74300; font-weight:700;">chitin</span>',
+      '<span style="color: #935d00; font-weight:700;">cellulose</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">cellulose</span>',
+  },
+);
+
+#==========================================================
+# SELECT RANDOM QUESTION
+#==========================================================
+
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+
+$question_idx = $local_random->random(0, scalar(@questions_data) - 1, 1);
+$q = $questions_data[$question_idx];
+
+$item_name = $q->{'item_name'};
+$plural_choice = $q->{'plural_choice'};
+$singular_item = $q->{'singular_item'};
+@choices = @{ $q->{'choices'} };
+$correct = $q->{'correct'};
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# BUILD RADIO BUTTONS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => 'ABC',
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+Which one of the following [$plural_choice]* corresponds to the [$singular_item]* [$item_name]*?
+
+[_]{$rb}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The correct answer is: [$correct]*
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+

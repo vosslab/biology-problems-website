@@ -1,0 +1,321 @@
+## DESCRIPTION
+## Select the DNA replication enzyme that corresponds to the given function.
+## ENDDESCRIPTION
+## KEYWORDS('DNA replication enzymes','functions','which one','multiple choice')
+## DBsubject('Molecular Biology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-08-19')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserRadioButtons.pl',
+    'PGcourse.pl',
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 0;
+
+#==========================================================
+# QUESTION DATA
+#==========================================================
+
+# All questions data
+@questions_data = (
+  {
+    'item_name' => '<strong>this enzyme relieves strain in the parental <span style="color: #228822; font-weight:700;">DNA double helix</span> caused by the supercoiling</strong>',
+    'plural_choice' => 'DNA replication enzymes',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">DNA&nbsp;gyrase</span>',
+      '<span style="color: #b74300; font-weight:700;">DNA&nbsp;ligase</span>',
+      '<span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span>',
+      '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span>',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">DNA&nbsp;gyrase</span>',
+  },
+  {
+    'item_name' => '<strong>this enzyme releases the supercoiling tension in the <span style="color: #228822; font-weight:700;">DNA double helix</span></strong>',
+    'plural_choice' => 'DNA replication enzymes',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">DNA&nbsp;gyrase</span>',
+      '<span style="color: #b74300; font-weight:700;">DNA&nbsp;ligase</span>',
+      '<span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span>',
+      'DNA sliding clamp',
+    ],
+    'correct' => '<span style="color: #935d00; font-weight:700;">DNA&nbsp;gyrase</span>',
+  },
+  {
+    'item_name' => '<strong>this enzyme builds <span style="color: #b33000; font-weight:700;">RNA primers</span> using the parental <span style="color: #228822; font-weight:700;">DNA strand</span> as a template</strong>',
+    'plural_choice' => 'DNA replication enzymes',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">DNA&nbsp;gyrase</span>',
+      '<span style="color: #6c6c00; font-weight:700;">primase</span>',
+      '<span style="color: #d40000; font-weight:700;">DNA&nbsp;helicase</span>',
+      '<span style="color: #b74300; font-weight:700;">DNA&nbsp;ligase</span>',
+    ],
+    'correct' => '<span style="color: #6c6c00; font-weight:700;">primase</span>',
+  },
+  {
+    'item_name' => '<strong>this enzyme creates the <span style="color: #b33000; font-weight:700;">RNA primers</span> that serve as a starting point for DNA synthesis</strong>',
+    'plural_choice' => 'DNA replication enzymes',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #6c6c00; font-weight:700;">primase</span>',
+      '<span style="color: #d40000; font-weight:700;">DNA&nbsp;helicase</span>',
+      '<span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span>',
+      'DNA sliding clamp',
+    ],
+    'correct' => '<span style="color: #6c6c00; font-weight:700;">primase</span>',
+  },
+  {
+    'item_name' => '<strong>this enzyme unwinds the parental <span style="color: #228822; font-weight:700;">DNA double helix</span></strong>',
+    'plural_choice' => 'DNA replication enzymes',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">DNA&nbsp;helicase</span>',
+      '<span style="color: #7b7737; font-weight:700;">single-strand binding proteins</span>',
+      '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span>',
+      'DNA sliding clamp',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">DNA&nbsp;helicase</span>',
+  },
+  {
+    'item_name' => '<strong>this enzyme separates the two strands of the <span style="color: #228822; font-weight:700;">DNA double helix</span></strong>',
+    'plural_choice' => 'DNA replication enzymes',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">DNA&nbsp;gyrase</span>',
+      '<span style="color: #d40000; font-weight:700;">DNA&nbsp;helicase</span>',
+      '<span style="color: #7b7737; font-weight:700;">single-strand binding proteins</span>',
+      'DNA sliding clamp',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">DNA&nbsp;helicase</span>',
+  },
+  {
+    'item_name' => '<strong>this enzyme joins <span style="color: #3b7600; font-weight:700;">Okazaki fragments</span> together to create one continuous <span style="color: #228822; font-weight:700;">DNA strand</span></strong>',
+    'plural_choice' => 'DNA replication enzymes',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">DNA&nbsp;helicase</span>',
+      '<span style="color: #b74300; font-weight:700;">DNA&nbsp;ligase</span>',
+      '<span style="color: #7b7737; font-weight:700;">single-strand binding proteins</span>',
+      '<span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">DNA&nbsp;ligase</span>',
+  },
+  {
+    'item_name' => '<strong>this enzyme seals the gaps between the <span style="color: #3b7600; font-weight:700;">Okazaki fragments</span> to create one continuous <span style="color: #228822; font-weight:700;">DNA strand</span></strong>',
+    'plural_choice' => 'DNA replication enzymes',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">DNA&nbsp;gyrase</span>',
+      '<span style="color: #6c6c00; font-weight:700;">primase</span>',
+      '<span style="color: #b74300; font-weight:700;">DNA&nbsp;ligase</span>',
+      '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span>',
+    ],
+    'correct' => '<span style="color: #b74300; font-weight:700;">DNA&nbsp;ligase</span>',
+  },
+  {
+    'item_name' => '<strong>this protein holds the <span style="color: #228822; font-weight:700;">DNA strand</span>s apart while they are being replicated</strong>',
+    'plural_choice' => 'DNA replication enzymes',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">DNA&nbsp;helicase</span>',
+      '<span style="color: #b74300; font-weight:700;">DNA&nbsp;ligase</span>',
+      '<span style="color: #7b7737; font-weight:700;">single-strand binding proteins</span>',
+      '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span>',
+    ],
+    'correct' => '<span style="color: #7b7737; font-weight:700;">single-strand binding proteins</span>',
+  },
+  {
+    'item_name' => '<strong>this protein stabilizes the open conformation of the unwound DNA</strong>',
+    'plural_choice' => 'DNA replication enzymes',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #6c6c00; font-weight:700;">primase</span>',
+      '<span style="color: #b74300; font-weight:700;">DNA&nbsp;ligase</span>',
+      '<span style="color: #7b7737; font-weight:700;">single-strand binding proteins</span>',
+      '<span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span>',
+    ],
+    'correct' => '<span style="color: #7b7737; font-weight:700;">single-strand binding proteins</span>',
+  },
+  {
+    'item_name' => '<strong>this enzyme replaces the <span style="color: #b33000; font-weight:700;">RNA primers</span> with DNA in the <span style="color: #3b7600; font-weight:700;">Okazaki fragments</span></strong>',
+    'plural_choice' => 'DNA replication enzymes',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">DNA&nbsp;helicase</span>',
+      '<span style="color: #b74300; font-weight:700;">DNA&nbsp;ligase</span>',
+      '<span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span>',
+      'DNA sliding clamp',
+    ],
+    'correct' => '<span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span>',
+  },
+  {
+    'item_name' => '<strong>this enzyme removes <span style="color: #b33000; font-weight:700;">RNA primers</span> and fills the gaps with DNA between <span style="color: #3b7600; font-weight:700;">Okazaki fragments</span></strong>',
+    'plural_choice' => 'DNA replication enzymes',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #7b7737; font-weight:700;">single-strand binding proteins</span>',
+      '<span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span>',
+      '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span>',
+      'DNA sliding clamp',
+    ],
+    'correct' => '<span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span>',
+  },
+  {
+    'item_name' => '<strong>this enzyme removes the <span style="color: #b33000; font-weight:700;">RNA primers</span> at the beginning of each Okazaki fragment and replaces them with DNA</strong>',
+    'plural_choice' => 'DNA replication enzymes',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #6c6c00; font-weight:700;">primase</span>',
+      '<span style="color: #b74300; font-weight:700;">DNA&nbsp;ligase</span>',
+      '<span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span>',
+      '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span>',
+    ],
+    'correct' => '<span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span>',
+  },
+  {
+    'item_name' => '<strong>this enzyme produces the majority of DNA polymer during DNA replications</strong>',
+    'plural_choice' => 'DNA replication enzymes',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">DNA&nbsp;gyrase</span>',
+      '<span style="color: #6c6c00; font-weight:700;">primase</span>',
+      '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span>',
+      'DNA sliding clamp',
+    ],
+    'correct' => '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span>',
+  },
+  {
+    'item_name' => '<strong>this enzyme is responsible for the synthesis of most of the bacterial chromosome</strong>',
+    'plural_choice' => 'DNA replication enzymes',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #6c6c00; font-weight:700;">primase</span>',
+      '<span style="color: #7b7737; font-weight:700;">single-strand binding proteins</span>',
+      '<span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span>',
+      '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span>',
+    ],
+    'correct' => '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span>',
+  },
+  {
+    'item_name' => '<strong>this enzyme synthesizes DNA on both the <span style="color: #002699; font-weight:700;">leading strand</span> and the <span style="color: #995c00; font-weight:700;">lagging strand</span></strong>',
+    'plural_choice' => 'DNA replication enzymes',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">DNA&nbsp;gyrase</span>',
+      '<span style="color: #6c6c00; font-weight:700;">primase</span>',
+      '<span style="color: #d40000; font-weight:700;">DNA&nbsp;helicase</span>',
+      '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span>',
+    ],
+    'correct' => '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span>',
+  },
+  {
+    'item_name' => '<strong>this enzyme is responsible for synthesizing the entire <span style="color: #002699; font-weight:700;">leading strand</span></strong>',
+    'plural_choice' => 'DNA replication enzymes',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">DNA&nbsp;helicase</span>',
+      '<span style="color: #7b7737; font-weight:700;">single-strand binding proteins</span>',
+      '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span>',
+      'DNA sliding clamp',
+    ],
+    'correct' => '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span>',
+  },
+  {
+    'item_name' => '<strong>this enzyme is a ring that tethers certain enzymes to DNA</strong>',
+    'plural_choice' => 'DNA replication enzymes',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #935d00; font-weight:700;">DNA&nbsp;gyrase</span>',
+      '<span style="color: #d40000; font-weight:700;">DNA&nbsp;helicase</span>',
+      '<span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span>',
+      'DNA sliding clamp',
+    ],
+    'correct' => 'DNA sliding clamp',
+  },
+  {
+    'item_name' => '<strong>this enzyme prevents certain enzymes from falling off of the DNA</strong>',
+    'plural_choice' => 'DNA replication enzymes',
+    'singular_item' => 'function',
+    'choices' => [
+      '<span style="color: #d40000; font-weight:700;">DNA&nbsp;helicase</span>',
+      '<span style="color: #b74300; font-weight:700;">DNA&nbsp;ligase</span>',
+      '<span style="color: #7b7737; font-weight:700;">single-strand binding proteins</span>',
+      'DNA sliding clamp',
+    ],
+    'correct' => 'DNA sliding clamp',
+  },
+);
+
+#==========================================================
+# SELECT RANDOM QUESTION
+#==========================================================
+
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+
+$question_idx = $local_random->random(0, scalar(@questions_data) - 1, 1);
+$q = $questions_data[$question_idx];
+
+$item_name = $q->{'item_name'};
+$plural_choice = $q->{'plural_choice'};
+$singular_item = $q->{'singular_item'};
+@choices = @{ $q->{'choices'} };
+$correct = $q->{'correct'};
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# BUILD RADIO BUTTONS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => 'ABC',
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+Which one of the following [$plural_choice]* corresponds to the [$singular_item]* [$item_name]*?
+
+[_]{$rb}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The correct answer is: [$correct]*
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+

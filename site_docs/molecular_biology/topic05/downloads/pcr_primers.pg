@@ -1,0 +1,180 @@
+## TITLE('PCR Primers That Are Efficient and Avoid Mispriming')
+## DESCRIPTION
+## Select the statement that is TRUE or FALSE about PCR primers that are efficient and avoid mispriming.
+## ENDDESCRIPTION
+## KEYWORDS('PCR primers that are efficient and avoid mispriming','true/false','multiple choice')
+## DBsubject('Laboratory Techniques')
+## DBchapter('')
+## DBsection('')
+## Date('2026-08-19')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "PGchoicemacros.pl",
+  "parserRadioButtons.pl",
+  "PGcourse.pl",
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+#==========================================================
+# AUTO-GENERATED GROUPS FROM YAML
+#==========================================================
+
+@true_groups = (
+  [
+    'the <span style="color: #248f24; font-weight:700;">primers</span> are about 18 to 30 <span style="color: maroon; font-weight:700;">nucleotides</span> in length',
+  ],
+  [
+    'the <span style="color: #248f24; font-weight:700;">primers</span> are <span style="color: #b33000; font-weight:700;">complementary</span> to highly conserved regions of the genome',
+  ],
+  [
+    'both <span style="color: #248f24; font-weight:700;">primers</span> have about the same <span style="color: #995c00; font-weight:700;">melting temperature (T<sub>m</sub>)</span>',
+  ],
+  [
+    q{the <span style="color: #248f24; font-weight:700;">primers</span>' <span style="color: #002699; font-weight:700;">sequences</span> do NOT bind to each other to form primer-dimers},
+    'the <span style="color: #248f24; font-weight:700;">primers</span> do NOT have any <span style="color: #b33000; font-weight:700;">complementary</span> regions to each other',
+  ],
+  [
+    'the ends of the <span style="color: #248f24; font-weight:700;">primer </span><span style="color: #002699; font-weight:700;">sequence </span>must NOT bind to form secondary structures',
+  ],
+  [
+    'the percentage of G/C bases in the range of 40% to 60%',
+  ],
+  [
+    'the <span style="color: #248f24; font-weight:700;">primers</span> have a <span style="color: #995c00; font-weight:700;">melting temperature (T<sub>m</sub>)</span> in the range of 50&deg;C to 65&deg;C',
+  ],
+  [
+    'the <span style="color: #248f24; font-weight:700;">primers</span> would ideally have unique <span style="color: #002699; font-weight:700;">sequences</span> that a deficient in 1 of the 4 <span style="color: maroon; font-weight:700;">nucleotides</span>',
+  ],
+);
+@false_groups = (
+  [
+    'the <span style="color: #248f24; font-weight:700;">primers</span> are shorter than 10 <span style="color: maroon; font-weight:700;">nucleotides</span> in length',
+    'the <span style="color: #248f24; font-weight:700;">primers</span> are at least 50 <span style="color: maroon; font-weight:700;">nucleotides</span> in length, if NOT longer',
+  ],
+  [
+    'the <span style="color: #248f24; font-weight:700;">primers</span> are <span style="color: #b33000; font-weight:700;">complementary</span> to highly variable regions of the genome',
+  ],
+  [
+    'each <span style="color: #248f24; font-weight:700;">primer </span>has a unique <span style="color: #995c00; font-weight:700;">melting temperature (T<sub>m</sub>)</span>, one is high and one is low',
+  ],
+  [
+    'the <span style="color: #248f24; font-weight:700;">primers</span> are rich in A/T bases at the 3&prime; end to ensure good binding',
+  ],
+  [
+    'the <span style="color: #248f24; font-weight:700;">primers</span> are mostly <span style="color: #b33000; font-weight:700;">complementary</span> to each other',
+    'the <span style="color: #248f24; font-weight:700;">primers</span> can readily bind to form primer-dimers',
+  ],
+  [
+    'the ends of each <span style="color: #248f24; font-weight:700;">primer </span>are self-<span style="color: #b33000; font-weight:700;">complementary</span> to form strong secondary structure',
+  ],
+  [
+    'the percentage of G/C bases are less than 30%',
+    'the percentage of G/C bases are more than 70%',
+  ],
+  [
+    'the <span style="color: #248f24; font-weight:700;">primers</span> have a <span style="color: #995c00; font-weight:700;">melting temperature (T<sub>m</sub>)</span> less than 42&deg;C',
+    'the <span style="color: #248f24; font-weight:700;">primers</span> have a <span style="color: #995c00; font-weight:700;">melting temperature (T<sub>m</sub>)</span> more than 68&deg;C',
+  ],
+  [
+    'both <span style="color: #248f24; font-weight:700;">primers</span> must always contain all four possible <span style="color: maroon; font-weight:700;">nucleotides</span>',
+  ],
+);
+
+#==========================================================
+# GLOBAL SETTINGS
+#==========================================================
+
+$topic = 'PCR <span style="color: #248f24; font-weight:700;">primers</span> that are efficient and avoid mispriming';
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+my @mode_choices = ("TRUE", "FALSE");
+$mode = $mode_choices[$local_random->random(0, $#mode_choices, 1)];
+$num_distractors = 4;
+#==========================================================
+# SELECT GROUP
+#==========================================================
+
+my (@selected_group, @opposite_groups);
+
+if ($mode eq "TRUE") {
+  $group_index      = $local_random->random(0, scalar(@true_groups)-1, 1);
+  @selected_group   = @{ $true_groups[$group_index] };
+  @opposite_groups  = @false_groups;
+} else {
+  $group_index      = $local_random->random(0, scalar(@false_groups)-1, 1);
+  @selected_group   = @{ $false_groups[$group_index] };
+  @opposite_groups  = @true_groups;
+}
+
+#==========================================================
+# PICK CORRECT + DISTRACTORS
+#==========================================================
+
+my $correct_index = $local_random->random(0, $#selected_group, 1);
+$correct = $selected_group[$correct_index];
+
+my @available_group_indices = (0 .. $#opposite_groups);
+my @selected_distractor_indices = ();
+
+while (@selected_distractor_indices < $num_distractors && @available_group_indices > 0) {
+  my $random_index = $local_random->random(0, scalar(@available_group_indices)-1, 1);
+  push @selected_distractor_indices, splice(@available_group_indices, $random_index, 1);
+}
+
+@distractors = ();
+foreach my $group_idx (@selected_distractor_indices) {
+  my @group = @{ $opposite_groups[$group_idx] };
+  my $distractor_index = $local_random->random(0, $#group, 1);
+  my $distractor = $group[$distractor_index];
+  push @distractors, $distractor;
+}
+
+@choices = ($correct, @distractors);
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# RADIO BUTTONS WITH A/B/C/D/E LABELS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => ['A','B','C','D','E'],
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+[@ $mode eq "TRUE" ? "Which one of the following statements is <span style='color: #127663;'><strong>TRUE</strong></span> about $topic?" : "Which one of the following statements is <span style='color: #ba372a;'><strong>FALSE</strong></span> about $topic?" @]*
+
+[_]{$rb}
+
+END_PGML
+
+ENDDOCUMENT();
+

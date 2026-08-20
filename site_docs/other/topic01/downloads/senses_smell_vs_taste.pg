@@ -1,0 +1,188 @@
+## TITLE('Sensory Coding Principles (Smell vs Taste)')
+## DESCRIPTION
+## Select the statement that is TRUE or FALSE about sensory coding principles (smell vs taste).
+## ENDDESCRIPTION
+## KEYWORDS('sensory coding principles (smell vs taste)','true/false','multiple choice')
+## DBsubject('Cell Biology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-08-19')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "PGchoicemacros.pl",
+  "parserRadioButtons.pl",
+  "PGcourse.pl",
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+#==========================================================
+# AUTO-GENERATED GROUPS FROM YAML
+#==========================================================
+
+@true_groups = (
+  [
+    'An individual olfactory sensory neuron usually expresses a single olfactory receptor gene.',
+    'A single olfactory sensory neuron typically expresses one receptor type.',
+  ],
+  [
+    'Odor identity is encoded by patterns of activity across many olfactory receptor types.',
+    'Many odorants activate multiple receptors, producing a combinatorial code for odor identity.',
+  ],
+  [
+    'Different odorants can be distinguished even when they share some receptors, because the overall activation pattern differs.',
+    'Odor discrimination can rely on different receptor activation patterns rather than a one odor to one receptor map.',
+  ],
+  [
+    'Bitter taste is often encoded as an aversive category rather than many distinct bitter identities.',
+    'Bitter perception is frequently treated as a danger signal, so fine bitter identity is NOT strongly separated.',
+  ],
+  [
+    'Many bitter sensing taste cells express multiple bitter receptors, which limits preservation of bitter identity at the periphery.',
+    'Coexpression of multiple bitter receptors in the same taste cells reduces the ability to label many separate bitter stimuli.',
+  ],
+  [
+    'Taste coding often uses labeled line logic for categories like bitter, sweet, and umami.',
+    'Some taste qualities are carried by dedicated pathways that preserve category identity.',
+  ],
+  [
+    'Olfaction supports high discrimination partly because many receptors contribute to identity coding.',
+    'Smell can distinguish many stimuli because odor identity depends on a large receptor repertoire and pattern coding.',
+  ],
+  [
+    'Taste is commonly described using a small number of basic qualities (sweet, sour, salty, bitter, and umami).',
+    'Compared with smell, taste is organized into a few basic categories rather than many distinct identities.',
+  ],
+);
+@false_groups = (
+  [
+    'Each olfactory sensory neuron expresses many different olfactory receptor genes at the same time.',
+    'Olfactory sensory neurons usually express all olfactory receptor genes.',
+  ],
+  [
+    'Each odorant activates only one olfactory receptor, so odor identity uses a one odor to one receptor code.',
+    'Odor identity is determined mainly by odorant concentration, NOT by receptor activation patterns.',
+  ],
+  [
+    'Odor identity is lost before reaching the brain, so the brain receives only intensity information.',
+    'Olfactory signals are mixed into a single channel before the brain, which prevents odor discrimination.',
+  ],
+  [
+    'Bitter taste discrimination is limited because bitter uses photoreceptors rather than chemoreceptors.',
+    'Bitter taste does NOT use receptors and occurs only by diffusion into taste cells.',
+  ],
+  [
+    'Bitter taste discrimination is high because each bitter taste cell expresses only one bitter receptor.',
+    'Bitter identity is preserved at the periphery by one receptor per cell logic.',
+  ],
+  [
+    'Taste categories are encoded only by intensity, NOT by which pathway is activated.',
+    'Sweet and bitter activate the same dedicated pathway, so the brain cannot separate them.',
+  ],
+  [
+    'Olfaction is low discrimination because it relies on labeled line coding for a few odor categories.',
+    'Smell uses only a small set of receptors, so most odorants activate the same receptor.',
+  ],
+  [
+    'Taste uses hundreds of receptor types to encode thousands of distinct taste identities like smell.',
+    'Taste identity is primarily encoded by combinatorial patterns across many receptor types, like olfaction.',
+  ],
+);
+
+#==========================================================
+# GLOBAL SETTINGS
+#==========================================================
+
+$topic = 'sensory coding principles (smell vs taste)';
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+my @mode_choices = ("TRUE", "FALSE");
+$mode = $mode_choices[$local_random->random(0, $#mode_choices, 1)];
+$num_distractors = 4;
+#==========================================================
+# SELECT GROUP
+#==========================================================
+
+my (@selected_group, @opposite_groups);
+
+if ($mode eq "TRUE") {
+  $group_index      = $local_random->random(0, scalar(@true_groups)-1, 1);
+  @selected_group   = @{ $true_groups[$group_index] };
+  @opposite_groups  = @false_groups;
+} else {
+  $group_index      = $local_random->random(0, scalar(@false_groups)-1, 1);
+  @selected_group   = @{ $false_groups[$group_index] };
+  @opposite_groups  = @true_groups;
+}
+
+#==========================================================
+# PICK CORRECT + DISTRACTORS
+#==========================================================
+
+my $correct_index = $local_random->random(0, $#selected_group, 1);
+$correct = $selected_group[$correct_index];
+
+my @available_group_indices = (0 .. $#opposite_groups);
+my @selected_distractor_indices = ();
+
+while (@selected_distractor_indices < $num_distractors && @available_group_indices > 0) {
+  my $random_index = $local_random->random(0, scalar(@available_group_indices)-1, 1);
+  push @selected_distractor_indices, splice(@available_group_indices, $random_index, 1);
+}
+
+@distractors = ();
+foreach my $group_idx (@selected_distractor_indices) {
+  my @group = @{ $opposite_groups[$group_idx] };
+  my $distractor_index = $local_random->random(0, $#group, 1);
+  my $distractor = $group[$distractor_index];
+  push @distractors, $distractor;
+}
+
+@choices = ($correct, @distractors);
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# RADIO BUTTONS WITH A/B/C/D/E LABELS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => ['A','B','C','D','E'],
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+[@ $mode eq "TRUE" ? "Which one of the following statements is <span style='color: #127663;'><strong>TRUE</strong></span> about $topic?" : "Which one of the following statements is <span style='color: #ba372a;'><strong>FALSE</strong></span> about $topic?" @]*
+
+[_]{$rb}
+
+END_PGML
+
+ENDDOCUMENT();
+
