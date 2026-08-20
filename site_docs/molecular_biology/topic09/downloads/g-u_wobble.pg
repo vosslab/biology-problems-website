@@ -1,0 +1,151 @@
+## TITLE('The G&middot;U Wobble Base Pair')
+## DESCRIPTION
+## Select the statement that is TRUE or FALSE about the G&middot;U wobble base pair.
+## ENDDESCRIPTION
+## KEYWORDS('the G&middot;U wobble base pair','true/false','multiple choice')
+## DBsubject('Molecular Biology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-08-19')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "PGchoicemacros.pl",
+  "parserRadioButtons.pl",
+  "PGcourse.pl",
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+#==========================================================
+# AUTO-GENERATED GROUPS FROM YAML
+#==========================================================
+
+@true_groups = (
+  [
+    'the <span style="color: #935d00; font-weight:700;">G&middot;U wobble base pair</span> ribose sugar glycosidic bond angles are shifted from normal',
+  ],
+  [
+    'the <span style="color: #935d00; font-weight:700;">G&middot;U wobble base pair</span> is a fundamental unit of RNA secondary structure',
+  ],
+  [
+    'the <span style="color: #935d00; font-weight:700;">G&middot;U wobble base pair</span> differs in the orientation of the bases with respect to the backbone',
+  ],
+  [
+    'the <span style="color: #935d00; font-weight:700;">G&middot;U wobble base pair</span> the most common mismatch (non Watson-Crick) in the RNA helices',
+  ],
+  [
+    'the <span style="color: #935d00; font-weight:700;">G&middot;U wobble base pair</span> provides unique hydrogen bond donors and acceptors in the major and minor grooves of the RNA helices',
+  ],
+  [
+    'unlike Watson-Crick base pairs, the <span style="color: #935d00; font-weight:700;">G&middot;U wobble base pair</span> does NOT have a amino group in the minor groove',
+  ],
+);
+@false_groups = (
+  [
+    'the <span style="color: #935d00; font-weight:700;">G&middot;U wobble base pair</span> causes the local double helix region to wobble in solution',
+  ],
+  [
+    'the <span style="color: #935d00; font-weight:700;">G&middot;U wobble base pair</span> is named for famous scientist Chandler Wobble.',
+  ],
+  [
+    'the <span style="color: #935d00; font-weight:700;">G&middot;U wobble base pair</span> is only found in nucleotide structures that wobble',
+  ],
+);
+
+#==========================================================
+# GLOBAL SETTINGS
+#==========================================================
+
+$topic = 'the <span style="color: #935d00; font-weight:700;">G&middot;U wobble base pair</span>';
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+my @mode_choices = ("TRUE", "FALSE");
+$mode = $mode_choices[$local_random->random(0, $#mode_choices, 1)];
+$num_distractors = 4;
+#==========================================================
+# SELECT GROUP
+#==========================================================
+
+my (@selected_group, @opposite_groups);
+
+if ($mode eq "TRUE") {
+  $group_index      = $local_random->random(0, scalar(@true_groups)-1, 1);
+  @selected_group   = @{ $true_groups[$group_index] };
+  @opposite_groups  = @false_groups;
+} else {
+  $group_index      = $local_random->random(0, scalar(@false_groups)-1, 1);
+  @selected_group   = @{ $false_groups[$group_index] };
+  @opposite_groups  = @true_groups;
+}
+
+#==========================================================
+# PICK CORRECT + DISTRACTORS
+#==========================================================
+
+my $correct_index = $local_random->random(0, $#selected_group, 1);
+$correct = $selected_group[$correct_index];
+
+my @available_group_indices = (0 .. $#opposite_groups);
+my @selected_distractor_indices = ();
+
+while (@selected_distractor_indices < $num_distractors && @available_group_indices > 0) {
+  my $random_index = $local_random->random(0, scalar(@available_group_indices)-1, 1);
+  push @selected_distractor_indices, splice(@available_group_indices, $random_index, 1);
+}
+
+@distractors = ();
+foreach my $group_idx (@selected_distractor_indices) {
+  my @group = @{ $opposite_groups[$group_idx] };
+  my $distractor_index = $local_random->random(0, $#group, 1);
+  my $distractor = $group[$distractor_index];
+  push @distractors, $distractor;
+}
+
+@choices = ($correct, @distractors);
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# RADIO BUTTONS WITH A/B/C/D/E LABELS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => ['A','B','C','D','E'],
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+[@ $mode eq "TRUE" ? "Which one of the following statements is <span style='color: #127663;'><strong>TRUE</strong></span> about $topic?" : "Which one of the following statements is <span style='color: #ba372a;'><strong>FALSE</strong></span> about $topic?" @]*
+
+[_]{$rb}
+
+END_PGML
+
+ENDDOCUMENT();
+

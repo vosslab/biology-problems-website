@@ -1,0 +1,314 @@
+## DESCRIPTION
+## Select the trophic organism that corresponds to the given definition.
+## ENDDESCRIPTION
+## KEYWORDS('trophic organisms','definitions','which one','multiple choice')
+## DBsubject('Cell Biology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-08-19')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserRadioButtons.pl',
+    'PGcourse.pl',
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 0;
+
+#==========================================================
+# QUESTION DATA
+#==========================================================
+
+# All questions data
+@questions_data = (
+  {
+    'item_name' => '<strong>uses <span style="color: #3b7600; font-weight:700;">light</span> for <span style="color: #cc0066; font-weight:700;">energy</span> and CO<sub>2</sub> as a <span style="color: #0067cc; font-weight:700;">carbon&nbsp;source</span></strong>',
+    'plural_choice' => 'trophic <span style="color: #935d00; font-weight:700;">organisms</span>',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #6c6c00; font-weight:700;">photolithoautotroph</span>',
+      '<span style="color: #a719db; font-weight:700;">chemolithoautotroph</span>',
+      '<span style="color: #d40000; font-weight:700;">chemoorganoheterotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemolithoheterotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">photoorganoheterotroph</span>',
+    ],
+    'correct' => '<span style="color: #6c6c00; font-weight:700;">photolithoautotroph</span>',
+  },
+  {
+    'item_name' => '<strong>uses <span style="color: #3b7600; font-weight:700;">light</span> for <span style="color: #cc0066; font-weight:700;">energy</span> and <span style="color: #007576; font-weight:700;">carbon&nbsp;dioxide</span> as a <span style="color: #0067cc; font-weight:700;">carbon&nbsp;source</span></strong>',
+    'plural_choice' => 'trophic <span style="color: #935d00; font-weight:700;">organisms</span>',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #6c6c00; font-weight:700;">photolithoautotroph</span>',
+      '<span style="color: #a719db; font-weight:700;">chemolithoautotroph</span>',
+      '<span style="color: #d40000; font-weight:700;">chemoorganoheterotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemolithoheterotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">photoorganoheterotroph</span>',
+    ],
+    'correct' => '<span style="color: #6c6c00; font-weight:700;">photolithoautotroph</span>',
+  },
+  {
+    'item_name' => '<strong>obtains <span style="color: #cc0066; font-weight:700;">energy</span> from <span style="color: #3b7600; font-weight:700;">light</span> and its <span style="color: #00775f; font-weight:700;">organic</span> material is derived from <span style="color: #007576; font-weight:700;">carbon&nbsp;dioxide</span></strong>',
+    'plural_choice' => 'trophic <span style="color: #935d00; font-weight:700;">organisms</span>',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #6c6c00; font-weight:700;">photolithoautotroph</span>',
+      '<span style="color: #a719db; font-weight:700;">chemolithoautotroph</span>',
+      '<span style="color: #d40000; font-weight:700;">chemoorganoheterotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemolithoheterotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">photoorganoheterotroph</span>',
+    ],
+    'correct' => '<span style="color: #6c6c00; font-weight:700;">photolithoautotroph</span>',
+  },
+  {
+    'item_name' => '<strong>obtains <span style="color: #cc0066; font-weight:700;">energy</span> by oxidizing <span style="color: #b74300; font-weight:700;">inorganic</span> compounds</strong>',
+    'plural_choice' => 'trophic <span style="color: #935d00; font-weight:700;">organisms</span>',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #6c6c00; font-weight:700;">photolithoautotroph</span>',
+      '<span style="color: #a719db; font-weight:700;">chemolithoautotroph</span>',
+      '<span style="color: #d40000; font-weight:700;">chemoorganoheterotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemolithoheterotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">photoorganoheterotroph</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">chemolithoautotroph</span>',
+  },
+  {
+    'item_name' => '<strong>uses <span style="color: #b74300; font-weight:700;">inorganic</span> compounds for both <span style="color: #cc0066; font-weight:700;">energy</span> and <span style="color: #0067cc; font-weight:700;">carbon&nbsp;source</span></strong>',
+    'plural_choice' => 'trophic <span style="color: #935d00; font-weight:700;">organisms</span>',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #6c6c00; font-weight:700;">photolithoautotroph</span>',
+      '<span style="color: #a719db; font-weight:700;">chemolithoautotroph</span>',
+      '<span style="color: #d40000; font-weight:700;">chemoorganoheterotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemolithoheterotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">photoorganoheterotroph</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">chemolithoautotroph</span>',
+  },
+  {
+    'item_name' => '<strong>uses sulfur, iron, or nitrogen as <span style="color: #cc0066; font-weight:700;">energy</span> sources and <span style="color: #007576; font-weight:700;">carbon&nbsp;dioxide</span> as a <span style="color: #0067cc; font-weight:700;">carbon&nbsp;source</span></strong>',
+    'plural_choice' => 'trophic <span style="color: #935d00; font-weight:700;">organisms</span>',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #6c6c00; font-weight:700;">photolithoautotroph</span>',
+      '<span style="color: #a719db; font-weight:700;">chemolithoautotroph</span>',
+      '<span style="color: #d40000; font-weight:700;">chemoorganoheterotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemolithoheterotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">photoorganoheterotroph</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">chemolithoautotroph</span>',
+  },
+  {
+    'item_name' => '<strong>derives its <span style="color: #cc0066; font-weight:700;">energy</span> using <span style="color: #00775f; font-weight:700;">organic</span> chemicals from consuming other <span style="color: #935d00; font-weight:700;">organisms</span></strong>',
+    'plural_choice' => 'trophic <span style="color: #935d00; font-weight:700;">organisms</span>',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #6c6c00; font-weight:700;">photolithoautotroph</span>',
+      '<span style="color: #a719db; font-weight:700;">chemolithoautotroph</span>',
+      '<span style="color: #d40000; font-weight:700;">chemoorganoheterotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemolithoheterotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">photoorganoheterotroph</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">chemoorganoheterotroph</span>',
+  },
+  {
+    'item_name' => '<strong>uses <span style="color: #00775f; font-weight:700;">organic</span> compounds for both <span style="color: #cc0066; font-weight:700;">energy</span> and its <span style="color: #0067cc; font-weight:700;">carbon&nbsp;source</span></strong>',
+    'plural_choice' => 'trophic <span style="color: #935d00; font-weight:700;">organisms</span>',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #6c6c00; font-weight:700;">photolithoautotroph</span>',
+      '<span style="color: #a719db; font-weight:700;">chemolithoautotroph</span>',
+      '<span style="color: #d40000; font-weight:700;">chemoorganoheterotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemolithoheterotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">photoorganoheterotroph</span>',
+    ],
+    'correct' => '<span style="color: #d40000; font-weight:700;">chemoorganoheterotroph</span>',
+  },
+  {
+    'item_name' => '<strong>its <span style="color: #cc0066; font-weight:700;">energy</span> from the oxidation of <span style="color: #b74300; font-weight:700;">inorganic</span> compounds, but uses <span style="color: #00775f; font-weight:700;">organic</span> compounds as its <span style="color: #0067cc; font-weight:700;">carbon&nbsp;source</span></strong>',
+    'plural_choice' => 'trophic <span style="color: #935d00; font-weight:700;">organisms</span>',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #6c6c00; font-weight:700;">photolithoautotroph</span>',
+      '<span style="color: #a719db; font-weight:700;">chemolithoautotroph</span>',
+      '<span style="color: #d40000; font-weight:700;">chemoorganoheterotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemolithoheterotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">photoorganoheterotroph</span>',
+    ],
+    'correct' => '<span style="color: #076dad; font-weight:700;">chemolithoheterotroph</span>',
+  },
+  {
+    'item_name' => '<strong>derives its <span style="color: #cc0066; font-weight:700;">energy</span> using <span style="color: #b74300; font-weight:700;">inorganic</span> chemicals, but its carbon from other <span style="color: #935d00; font-weight:700;">organisms</span></strong>',
+    'plural_choice' => 'trophic <span style="color: #935d00; font-weight:700;">organisms</span>',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #6c6c00; font-weight:700;">photolithoautotroph</span>',
+      '<span style="color: #a719db; font-weight:700;">chemolithoautotroph</span>',
+      '<span style="color: #d40000; font-weight:700;">chemoorganoheterotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemolithoheterotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">photoorganoheterotroph</span>',
+    ],
+    'correct' => '<span style="color: #076dad; font-weight:700;">chemolithoheterotroph</span>',
+  },
+  {
+    'item_name' => '<strong>uses <span style="color: #b74300; font-weight:700;">inorganic</span> compounds for <span style="color: #cc0066; font-weight:700;">energy</span>, but uses <span style="color: #00775f; font-weight:700;">organic</span> compounds as its <span style="color: #0067cc; font-weight:700;">carbon&nbsp;source</span></strong>',
+    'plural_choice' => 'trophic <span style="color: #935d00; font-weight:700;">organisms</span>',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #6c6c00; font-weight:700;">photolithoautotroph</span>',
+      '<span style="color: #a719db; font-weight:700;">chemolithoautotroph</span>',
+      '<span style="color: #d40000; font-weight:700;">chemoorganoheterotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemolithoheterotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">photoorganoheterotroph</span>',
+    ],
+    'correct' => '<span style="color: #076dad; font-weight:700;">chemolithoheterotroph</span>',
+  },
+  {
+    'item_name' => '<strong>uses sulfur, iron, or nitrogen as <span style="color: #cc0066; font-weight:700;">energy</span> sources, but uses <span style="color: #00775f; font-weight:700;">organic</span> compounds from other <span style="color: #935d00; font-weight:700;">organisms</span> as its <span style="color: #0067cc; font-weight:700;">carbon&nbsp;source</span></strong>',
+    'plural_choice' => 'trophic <span style="color: #935d00; font-weight:700;">organisms</span>',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #6c6c00; font-weight:700;">photolithoautotroph</span>',
+      '<span style="color: #a719db; font-weight:700;">chemolithoautotroph</span>',
+      '<span style="color: #d40000; font-weight:700;">chemoorganoheterotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemolithoheterotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">photoorganoheterotroph</span>',
+    ],
+    'correct' => '<span style="color: #076dad; font-weight:700;">chemolithoheterotroph</span>',
+  },
+  {
+    'item_name' => '<strong>obtains <span style="color: #cc0066; font-weight:700;">energy</span> from <span style="color: #3b7600; font-weight:700;">light</span> and <span style="color: #00775f; font-weight:700;">organic</span> material from other <span style="color: #935d00; font-weight:700;">organisms</span></strong>',
+    'plural_choice' => 'trophic <span style="color: #935d00; font-weight:700;">organisms</span>',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #6c6c00; font-weight:700;">photolithoautotroph</span>',
+      '<span style="color: #a719db; font-weight:700;">chemolithoautotroph</span>',
+      '<span style="color: #d40000; font-weight:700;">chemoorganoheterotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemolithoheterotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">photoorganoheterotroph</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">photoorganoheterotroph</span>',
+  },
+  {
+    'item_name' => '<strong>obtains <span style="color: #cc0066; font-weight:700;">energy</span> from <span style="color: #3b7600; font-weight:700;">light</span> and <span style="color: #00775f; font-weight:700;">organic</span> material as its <span style="color: #0067cc; font-weight:700;">carbon&nbsp;source</span></strong>',
+    'plural_choice' => 'trophic <span style="color: #935d00; font-weight:700;">organisms</span>',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #6c6c00; font-weight:700;">photolithoautotroph</span>',
+      '<span style="color: #a719db; font-weight:700;">chemolithoautotroph</span>',
+      '<span style="color: #d40000; font-weight:700;">chemoorganoheterotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemolithoheterotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">photoorganoheterotroph</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">photoorganoheterotroph</span>',
+  },
+  {
+    'item_name' => '<strong>uses <span style="color: #cc0066; font-weight:700;">energy</span> from <span style="color: #3b7600; font-weight:700;">light</span> and <span style="color: #00775f; font-weight:700;">organic</span> material from other <span style="color: #935d00; font-weight:700;">organisms</span></strong>',
+    'plural_choice' => 'trophic <span style="color: #935d00; font-weight:700;">organisms</span>',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #6c6c00; font-weight:700;">photolithoautotroph</span>',
+      '<span style="color: #a719db; font-weight:700;">chemolithoautotroph</span>',
+      '<span style="color: #d40000; font-weight:700;">chemoorganoheterotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemolithoheterotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">photoorganoheterotroph</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">photoorganoheterotroph</span>',
+  },
+  {
+    'item_name' => '<strong>relys on <span style="color: #3b7600; font-weight:700;">light</span> for <span style="color: #cc0066; font-weight:700;">energy</span> and <span style="color: #00775f; font-weight:700;">organic</span> compounds from other <span style="color: #935d00; font-weight:700;">organisms</span> for survival</strong>',
+    'plural_choice' => 'trophic <span style="color: #935d00; font-weight:700;">organisms</span>',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #6c6c00; font-weight:700;">photolithoautotroph</span>',
+      '<span style="color: #a719db; font-weight:700;">chemolithoautotroph</span>',
+      '<span style="color: #d40000; font-weight:700;">chemoorganoheterotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemolithoheterotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">photoorganoheterotroph</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">photoorganoheterotroph</span>',
+  },
+  {
+    'item_name' => '<strong>uses <span style="color: #3b7600; font-weight:700;">light</span> for <span style="color: #cc0066; font-weight:700;">energy</span>, but requires <span style="color: #00775f; font-weight:700;">organic</span> compounds from other <span style="color: #935d00; font-weight:700;">organisms</span> to provide the carbon it needs</strong>',
+    'plural_choice' => 'trophic <span style="color: #935d00; font-weight:700;">organisms</span>',
+    'singular_item' => 'definition',
+    'choices' => [
+      '<span style="color: #6c6c00; font-weight:700;">photolithoautotroph</span>',
+      '<span style="color: #a719db; font-weight:700;">chemolithoautotroph</span>',
+      '<span style="color: #d40000; font-weight:700;">chemoorganoheterotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemolithoheterotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">photoorganoheterotroph</span>',
+    ],
+    'correct' => '<span style="color: #007a00; font-weight:700;">photoorganoheterotroph</span>',
+  },
+);
+
+#==========================================================
+# SELECT RANDOM QUESTION
+#==========================================================
+
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+
+$question_idx = $local_random->random(0, scalar(@questions_data) - 1, 1);
+$q = $questions_data[$question_idx];
+
+$item_name = $q->{'item_name'};
+$plural_choice = $q->{'plural_choice'};
+$singular_item = $q->{'singular_item'};
+@choices = @{ $q->{'choices'} };
+$correct = $q->{'correct'};
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# BUILD RADIO BUTTONS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => 'ABC',
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+Which one of the following [$plural_choice]* corresponds to the [$singular_item]* [$item_name]*?
+
+[_]{$rb}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The correct answer is: [$correct]*
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+

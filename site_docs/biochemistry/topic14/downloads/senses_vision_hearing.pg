@@ -1,0 +1,224 @@
+## TITLE('Vision and Hearing Transduction')
+## DESCRIPTION
+## Select the statement that is TRUE or FALSE about vision and hearing transduction.
+## ENDDESCRIPTION
+## KEYWORDS('vision and hearing transduction','true/false','multiple choice')
+## DBsubject('Cell Biology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-08-19')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "PGchoicemacros.pl",
+  "parserRadioButtons.pl",
+  "PGcourse.pl",
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+#==========================================================
+# AUTO-GENERATED GROUPS FROM YAML
+#==========================================================
+
+@true_groups = (
+  [
+    'Rhodopsin consists of an opsin protein plus a retinal chromophore.',
+    'Rhodopsin is formed when opsin binds retinal.',
+  ],
+  [
+    'Light causes retinal isomerization that triggers a conformational change in opsin.',
+    'Photon absorption changes retinal shape and activates rhodopsin.',
+  ],
+  [
+    'In rods, activated rhodopsin activates a G protein that leads to phosphodiesterase activation.',
+    'Phototransduction uses a G protein cascade that activates phosphodiesterase (PDE).',
+  ],
+  [
+    'In rods, phosphodiesterase (PDE) activity lowers cGMP concentration.',
+    'Phototransduction reduces cGMP by increasing its breakdown.',
+  ],
+  [
+    'Lower cGMP closes CNG channels in rod outer segments.',
+    'Rod CNG channels close when cGMP levels fall.',
+  ],
+  [
+    'Rod photoreceptors hyperpolarize in response to light.',
+    'Light reduces inward current in rods, causing hyperpolarization.',
+  ],
+  [
+    'In darkness, rods have relatively high cGMP and open CNG channels.',
+    'Dark current in rods is supported by cGMP gated channel opening.',
+  ],
+  [
+    'Cones support color vision and function best at higher light levels than rods.',
+    'Rods are more sensitive to low light than cones.',
+  ],
+  [
+    'Hearing depends on mechanotransduction in hair cells of the inner ear.',
+    'Sound is converted into electrical signals by hair cell deflection.',
+  ],
+  [
+    'Tip links connect stereocilia and contribute to opening mechanosensitive transduction channels.',
+    'Mechanical tension through tip links can gate hair cell transduction channels.',
+  ],
+  [
+    'Hair cell depolarization can occur when K<sup>+</sup> enters from K<sup>+</sup> rich endolymph.',
+    'K<sup>+</sup> influx from endolymph can drive hair cell depolarization.',
+  ],
+  [
+    'Hair cells release neurotransmitter to afferent neurons when depolarized.',
+    'Hair cell signaling to the auditory nerve occurs through synaptic transmission.',
+  ],
+  [
+    'Unlike many sensory receptors that depolarize to stimulus, rods hyperpolarize to light.',
+    'Rods are unusual because the light response is hyperpolarization, NOT depolarization.',
+  ],
+);
+@false_groups = (
+  [
+    'Rhodopsin is a receptor tyrosine kinase that phosphorylates retinal.',
+    'Rhodopsin is an ion channel that directly conducts photons into the cell.',
+  ],
+  [
+    'In rods, light increases cGMP to open more CNG channels.',
+    'Phototransduction begins by synthesizing cGMP from GDP.',
+  ],
+  [
+    'Activated rhodopsin directly converts ATP into cGMP without enzymes.',
+    'Phototransduction activates adenylyl cyclase to raise cAMP in rods.',
+  ],
+  [
+    'phosphodiesterase (PDE) increases cGMP concentration by synthesizing it from GTP.',
+    'phosphodiesterase (PDE) terminates signals by producing cGMP in the outer segment.',
+  ],
+  [
+    'Rod CNG channels open when cGMP levels fall.',
+    'CNG channels close in darkness because cGMP is highest in light.',
+  ],
+  [
+    'Rod photoreceptors depolarize strongly in response to light.',
+    'Light opens sodium channels in rods and increases inward current.',
+  ],
+  [
+    'In darkness, rods have low cGMP and all CNG channels are closed.',
+    'Dark current is produced by closing CNG channels in rod outer segments.',
+  ],
+  [
+    'Cones are more sensitive to dim light than rods.',
+    'Rods are responsible for most color discrimination in bright light.',
+  ],
+  [
+    'Hearing relies mainly on GPCR signaling cascades that take seconds to operate.',
+    'Hair cells detect sound by photoreception in the cochlea.',
+  ],
+  [
+    'Tip links prevent ion channels from opening and block mechanotransduction.',
+    'Tip links stabilize stereocilia but do NOT help gate mechanotransduction channels.',
+  ],
+  [
+    'Hair cells depolarize mainly because Na<sup>+</sup> enters from endolymph through ENaC channels.',
+    'Hair cells depolarize mainly because K<sup>+</sup> leaves the cell into endolymph when stereocilia deflect.',
+  ],
+  [
+    'Hair cells do NOT use synapses and communicate only by gap junctions to the auditory nerve.',
+    'Hair cells send action potentials down the cochlea without neurotransmitter release.',
+  ],
+);
+
+#==========================================================
+# GLOBAL SETTINGS
+#==========================================================
+
+$topic = 'vision and hearing transduction';
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+my @mode_choices = ("TRUE", "FALSE");
+$mode = $mode_choices[$local_random->random(0, $#mode_choices, 1)];
+$num_distractors = 4;
+#==========================================================
+# SELECT GROUP
+#==========================================================
+
+my (@selected_group, @opposite_groups);
+
+if ($mode eq "TRUE") {
+  $group_index      = $local_random->random(0, scalar(@true_groups)-1, 1);
+  @selected_group   = @{ $true_groups[$group_index] };
+  @opposite_groups  = @false_groups;
+} else {
+  $group_index      = $local_random->random(0, scalar(@false_groups)-1, 1);
+  @selected_group   = @{ $false_groups[$group_index] };
+  @opposite_groups  = @true_groups;
+}
+
+#==========================================================
+# PICK CORRECT + DISTRACTORS
+#==========================================================
+
+my $correct_index = $local_random->random(0, $#selected_group, 1);
+$correct = $selected_group[$correct_index];
+
+my @available_group_indices = (0 .. $#opposite_groups);
+my @selected_distractor_indices = ();
+
+while (@selected_distractor_indices < $num_distractors && @available_group_indices > 0) {
+  my $random_index = $local_random->random(0, scalar(@available_group_indices)-1, 1);
+  push @selected_distractor_indices, splice(@available_group_indices, $random_index, 1);
+}
+
+@distractors = ();
+foreach my $group_idx (@selected_distractor_indices) {
+  my @group = @{ $opposite_groups[$group_idx] };
+  my $distractor_index = $local_random->random(0, $#group, 1);
+  my $distractor = $group[$distractor_index];
+  push @distractors, $distractor;
+}
+
+@choices = ($correct, @distractors);
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# RADIO BUTTONS WITH A/B/C/D/E LABELS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => ['A','B','C','D','E'],
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+[@ $mode eq "TRUE" ? "Which one of the following statements is <span style='color: #127663;'><strong>TRUE</strong></span> about $topic?" : "Which one of the following statements is <span style='color: #ba372a;'><strong>FALSE</strong></span> about $topic?" @]*
+
+[_]{$rb}
+
+END_PGML
+
+ENDDOCUMENT();
+

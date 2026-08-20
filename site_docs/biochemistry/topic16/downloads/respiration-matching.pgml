@@ -1,0 +1,219 @@
+## DESCRIPTION
+## Match each of the following five stages in cellular respiration with their corresponding statements.
+## ENDDESCRIPTION
+## KEYWORDS('five stages in cellular respiration','statements')
+## DBsubject('Biochemistry')
+## DBchapter('')
+## DBsection('')
+## Date('2026-08-19')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserPopUp.pl',
+    'parserUtils.pl',
+    'PGgraders.pl',
+    'PGcourse.pl'
+);
+our @ALPHABET = ('A' .. 'Z');
+
+# ================================
+# Full matching data
+# ================================
+%match_data = (
+  'Glycolysis' => [
+    'First stage of <span style="color: #d40000; font-weight:700;">cellular respiration</span>',
+    'For each molecule of glucose, this stage produces two (2) ATP and two (2) NADH molecules',
+    'The only stage of <span style="color: #d40000; font-weight:700;">cellular respiration</span> that takes place in the cytosol of the cell',
+  ],
+  'Pyruvate&nbsp;Oxidation' => [
+    'Short stage that produces carbon dioxide (CO<sub>2</sub>) and NADH',
+    'Takes <span style="color: #935d00; font-weight:700;">pyruvate</span> as input and produces acetyl-CoA',
+    'A stage that links glycolysis to the rest of <span style="color: #d40000; font-weight:700;">cellular respiration</span>',
+    'Pyruvate must enter the <span style="color: #a719db; font-weight:700;">mitochondrial matrix</span> for this stage to begin',
+    'This stage is entirely carried out by a large enzyme complex called the <span style="color: #935d00; font-weight:700;">pyruvate</span> dehydrogenase complex',
+    'For each molecule of glucose, this stage produces zero (0) ATP and two (2) NADH molecules',
+    'First stage of <span style="color: #d40000; font-weight:700;">cellular respiration</span> that occurs within the mitochondria organelles',
+  ],
+  'Cirtic Acid Cycle (TCA cycle)' => [
+    'Starts by joining a four carbon sugar and a two carbon sugar',
+    'Forms a GTP molecule which is equivalent to an ATP molecule',
+    'Final stage in the oxidation of glucose into carbon dioxide (CO<sub>2</sub>)',
+    'Acetyl CoA serves as fuel for this stage of <span style="color: #d40000; font-weight:700;">cellular respiration</span>',
+    'This stage was identified by Hans Krebs and William Johnson in 1937 and is sometimes called the "Krebs cycle"',
+    'Begins with the transfer of a two-carbon acetyl group to a four-carbon acceptor to form a six-carbon compound',
+    'Begins with the transfer of a two-carbon acetyl CoA to a four-carbon oxaloacetate to form a six-carbon citrate',
+    'The only stage of <span style="color: #d40000; font-weight:700;">cellular respiration</span> that produces the electron acceptor FADH<sub>2</sub>',
+    'At the end this stage, the four-carbon oxaloacetate has been regenerated, and the stage repeats.',
+    'For each molecule of glucose, this stage produces two (2) ATP, six (6) NADH, and two (2) FADH<sub>2</sub> molecules',
+  ],
+  'Electron Transport Chain (ETC)' => [
+    'Stage of <span style="color: #d40000; font-weight:700;">cellular respiration</span> that extracts energy from the <span style="color: #00775f; font-weight:700;">electron carriers</span> NADH and FADH<sub>2</sub>',
+    'Occurs in the membrane of the <span style="color: #a719db; font-weight:700;">mitochondrial matrix</span> to produce the <span style="color: #cc0066; font-weight:700;">electrochemical gradient</span>',
+    'Involves a series of protein complexes to extract redox energy from the high energy electrons',
+  ],
+  'Chemiosmosis' => [
+    'Stage of <span style="color: #d40000; font-weight:700;">cellular respiration</span> that produces the most ATP',
+    'Occurs in the membrane of the <span style="color: #a719db; font-weight:700;">mitochondrial matrix</span> to produce ATP',
+    'Uses the <span style="color: #cc0066; font-weight:700;">electrochemical gradient</span> to produce substrate-level phosphorylation energy molecules',
+    'The protein ATP synthase works like a water turbine in a dam',
+    'The only stage of <span style="color: #d40000; font-weight:700;">cellular respiration</span> that does NOT involve <span style="color: #00775f; font-weight:700;">electron carriers</span>',
+  ],
+);
+
+# -------------------------------
+# Select N random keys
+# -------------------------------
+my $n = 5;
+@all_keys = PGsort(sub { $_[0] lt $_[1] }, keys %match_data);
+my $local_seed = (defined($problemSeed) && $problemSeed ne '') ? $problemSeed : 1;
+my $local_random = new PGrandom($local_seed);
+
+my @indices = (0 .. $#all_keys);
+my @shuffled = ();
+while (@indices) {
+  my $pick = $local_random->random(0, $#indices, 1);
+  push @shuffled, splice(@indices, $pick, 1);
+}
+my @selected_keys = @all_keys[@shuffled[0..$n-1]];
+
+# -------------------------------
+# Build question/answer pairs
+# -------------------------------
+# Each entry: [prompt, choice]
+@q_and_a = ();
+foreach my $key (@selected_keys) {
+  my $values_ref = $match_data{$key};
+  my $i = $local_random->random(0, $#$values_ref, 1);
+  my $value = $values_ref->[$i];
+  push @q_and_a, [ $value, $key ];
+}
+
+# -------------------------------
+# Randomize the questions
+# -------------------------------
+my @q_indices = (0 .. $#q_and_a);
+my @q_shuffled = ();
+while (@q_indices) {
+  my $pick = $local_random->random(0, $#q_indices, 1);
+  push @q_shuffled, $q_and_a[splice(@q_indices, $pick, 1)];
+}
+@q_and_a = @q_shuffled;
+
+# -------------------------------
+# Sort the choices alphabetically
+# -------------------------------
+@answers = ();
+push(@answers, (map { $_->[1] } @q_and_a));
+@answers_sorted = PGsort(sub { $_[0] lt $_[1] }, @answers);
+
+# -------------------------------
+# HTML-safe answer labels
+# -------------------------------
+%answer_html = (
+  'Glycolysis' => '<span style="color: #0067cc; font-weight:700;">Glycolysis</span>',
+  'Pyruvate&nbsp;Oxidation' => '<span style="color: #b74300; font-weight:700;">Pyruvate&nbsp;Oxidation</span>',
+  'Cirtic Acid Cycle (TCA cycle)' => '<span style="color: #c80085; font-weight:700;">Cirtic Acid Cycle</span> (TCA cycle)',
+  'Electron Transport Chain (ETC)' => '<span style="color: #007576; font-weight:700;">Electron Transport Chain</span> (ETC)',
+  'Chemiosmosis' => '<span style="color: #3b7600; font-weight:700;">Chemiosmosis</span>',
+);
+
+@answers_sorted_html = map { $answer_html{$_} || $_ } @answers_sorted;
+
+# -------------------------------
+# Create answer index lookup
+# -------------------------------
+our %answer_index;
+for (my $i = 0; $i <= $#answers_sorted; $i++) {
+  $answer_index{$answers_sorted[$i]} = $i;
+}
+
+# -------------------------------
+# PopUp/DropDown compatibility
+# -------------------------------
+sub make_popup {
+  return defined &DropDown ? DropDown(@_) : PopUp(@_);
+}
+
+# -------------------------------
+# Create popup objects (blank default)
+# -------------------------------
+my @answer_letters = @ALPHABET[0 .. $#answers_sorted];
+my @answer_letters_with_blank = ('', @answer_letters);
+@answer_dropdowns =
+  map { make_popup([ @answer_letters_with_blank ], $answer_index{$q_and_a[$_][1]} + 1 ) }
+  0 .. $#q_and_a;
+
+# -------------------------------
+# Render the question
+# -------------------------------
+HEADER_TEXT(<<END_STYLE);
+<style>
+.pgml-bold { font-weight: 700; }
+.two-column {
+    display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	align-items: center;
+	justify-content: space-evenly;
+}
+</style>
+END_STYLE
+
+$question_text = 'Match each of the following five stages in cellular respiration with their corresponding statements.';
+$note_text = 'Note: Each choice will be used exactly once.';
+
+BEGIN_PGML
+[$question_text]*
+[$note_text]*
+
+[@ MODES(HTML => '<div class="two-column"><div>') @]*
+[@ join(
+    "\n\n",
+    map {
+        '[_]{$answer_dropdowns[' . $_ . ']} '
+            . '*' . ($_ + 1) . '.* '
+            . '[$q_and_a[' . $_ . '][0]]*'
+    } 0 .. $#q_and_a
+) @]**
+[@ MODES(HTML => '</div><div class="right-col">') @]*
+[@ join(
+    "\n\n",
+    map {
+        chr(65 + $_) . '\\.' . ' ' . '[$answers_sorted_html[' . $_ . ']]*'
+    } 0 .. $#answers_sorted
+) @]**
+[@ MODES(HTML => '</div></div>') @]*
+END_PGML
+
+# -------------------------------
+# Dynamic Partial Credit Based on $n
+# -------------------------------
+$showPartialCorrectAnswers = 0;
+my @thresholds;
+my @scores;
+for (my $i = 1; $i <= $n; $i++) {
+  push @thresholds, $i;
+  push @scores, sprintf("%.2f", $i / $n);
+}
+
+install_problem_grader(~~&custom_problem_grader_fluid);
+$ENV{grader_numright} = [@thresholds];
+$ENV{grader_scores}   = [@scores];
+$ENV{grader_message} = 'You can earn partial credit.';
+
+# -------------------------------
+# Solution
+# -------------------------------
+$answer_list = join(', ', map { ($_ + 1) . '-' . $ALPHABET[$answer_index{$q_and_a[$_][1]}] } 0 .. $#q_and_a);
+BEGIN_PGML_SOLUTION
+The correct answers are: [$answer_list].
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+

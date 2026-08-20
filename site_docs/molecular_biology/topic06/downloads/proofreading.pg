@@ -1,0 +1,176 @@
+## TITLE('Proofreading by DNA Polymerase')
+## DESCRIPTION
+## Select the statement that is TRUE or FALSE about proofreading by DNA polymerase.
+## ENDDESCRIPTION
+## KEYWORDS('proofreading by DNA polymerase','true/false','multiple choice')
+## DBsubject('Molecular Biology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-08-19')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "PGchoicemacros.pl",
+  "parserRadioButtons.pl",
+  "PGcourse.pl",
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+#==========================================================
+# AUTO-GENERATED GROUPS FROM YAML
+#==========================================================
+
+@true_groups = (
+  [
+    '<span style="color: darkgreen; font-weight:700;">proofreading</span> is designed in a way that requires a primer',
+  ],
+  [
+    '<span style="color: #793aaa; font-weight:700;">RNA&nbsp;polymerases</span> do NOT have <span style="color: darkgreen; font-weight:700;">proofreading</span> capability',
+  ],
+  [
+    'most <span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerases</span> have <span style="color: darkgreen; font-weight:700;">proofreading</span> capability',
+  ],
+  [
+    'Taq DNA&nbsp;polymerase does NOT have proofreading capability',
+  ],
+  [
+    '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase</span> requires a primer to start synthesis',
+  ],
+  [
+    '<span style="color: #793aaa; font-weight:700;">RNA&nbsp;polymerase</span> can start synthesis without primer',
+  ],
+  [
+    q{<span style="color: darkgreen; font-weight:700;">proofreading</span> and 'starting from scratch' have opposite requirements},
+  ],
+  [
+    'the <span style="color: #b33000; font-weight:700;">3&prime;&rarr;5&prime;</span> <span style="color: mediumvioletred; font-weight:700;">exonuclease polymerase domain</span> is required for <span style="color: darkgreen; font-weight:700;">proofreading</span>',
+  ],
+  [
+    '<span style="color: darkgreen; font-weight:700;">proofreading</span> allows <span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase</span> to remove mismatched nucleotides in the <span style="color: #b33000; font-weight:700;">3&prime;&rarr;5&prime;</span> direction',
+  ],
+);
+@false_groups = (
+  [
+    q{<span style="color: darkgreen; font-weight:700;">proofreading</span> is designed to allow polymerase to 'start from scratch'},
+    q{<span style="color: darkgreen; font-weight:700;">proofreading</span> allows <span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase</span> to 'start from scratch'},
+  ],
+  [
+    'most <span style="color: #793aaa; font-weight:700;">RNA&nbsp;polymerases</span> have <span style="color: darkgreen; font-weight:700;">proofreading</span> capability',
+  ],
+  [
+    '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerases</span> do NOT have <span style="color: darkgreen; font-weight:700;">proofreading</span> capability',
+  ],
+  [
+    'Taq DNA&nbsp;polymerase has proofreading capability',
+  ],
+  [
+    '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase</span> can start synthesis without primer',
+  ],
+  [
+    '<span style="color: #793aaa; font-weight:700;">RNA&nbsp;polymerase</span> requires a primer to start synthesis',
+  ],
+  [
+    'the <span style="color: #248f24; font-weight:700;">primase</span> <span style="color: mediumvioletred; font-weight:700;">exonuclease polymerase domain</span> is required for <span style="color: darkgreen; font-weight:700;">proofreading</span>',
+  ],
+  [
+    '<span style="color: darkgreen; font-weight:700;">proofreading</span> allows <span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase</span> to remove mismatched nucleotides in the <span style="color: #248f24; font-weight:700;">primase</span> direction',
+  ],
+);
+
+#==========================================================
+# GLOBAL SETTINGS
+#==========================================================
+
+$topic = '<span style="color: darkgreen; font-weight:700;">proofreading</span> by <span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase</span>';
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+my @mode_choices = ("TRUE", "FALSE");
+$mode = $mode_choices[$local_random->random(0, $#mode_choices, 1)];
+$num_distractors = 4;
+#==========================================================
+# SELECT GROUP
+#==========================================================
+
+my (@selected_group, @opposite_groups);
+
+if ($mode eq "TRUE") {
+  $group_index      = $local_random->random(0, scalar(@true_groups)-1, 1);
+  @selected_group   = @{ $true_groups[$group_index] };
+  @opposite_groups  = @false_groups;
+} else {
+  $group_index      = $local_random->random(0, scalar(@false_groups)-1, 1);
+  @selected_group   = @{ $false_groups[$group_index] };
+  @opposite_groups  = @true_groups;
+}
+
+#==========================================================
+# PICK CORRECT + DISTRACTORS
+#==========================================================
+
+my $correct_index = $local_random->random(0, $#selected_group, 1);
+$correct = $selected_group[$correct_index];
+
+my @available_group_indices = (0 .. $#opposite_groups);
+my @selected_distractor_indices = ();
+
+while (@selected_distractor_indices < $num_distractors && @available_group_indices > 0) {
+  my $random_index = $local_random->random(0, scalar(@available_group_indices)-1, 1);
+  push @selected_distractor_indices, splice(@available_group_indices, $random_index, 1);
+}
+
+@distractors = ();
+foreach my $group_idx (@selected_distractor_indices) {
+  my @group = @{ $opposite_groups[$group_idx] };
+  my $distractor_index = $local_random->random(0, $#group, 1);
+  my $distractor = $group[$distractor_index];
+  push @distractors, $distractor;
+}
+
+@choices = ($correct, @distractors);
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# RADIO BUTTONS WITH A/B/C/D/E LABELS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => ['A','B','C','D','E'],
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+[@ $mode eq "TRUE" ? "Which one of the following statements is <span style='color: #127663;'><strong>TRUE</strong></span> about $topic?" : "Which one of the following statements is <span style='color: #ba372a;'><strong>FALSE</strong></span> about $topic?" @]*
+
+[_]{$rb}
+
+END_PGML
+
+ENDDOCUMENT();
+

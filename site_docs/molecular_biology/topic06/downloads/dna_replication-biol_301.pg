@@ -1,0 +1,216 @@
+## TITLE('DNA Replication in Bacteria')
+## DESCRIPTION
+## Select the statement that is TRUE or FALSE about DNA replication in bacteria.
+## ENDDESCRIPTION
+## KEYWORDS('DNA replication in bacteria','true/false','multiple choice')
+## DBsubject('Molecular Biology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-08-19')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "PGchoicemacros.pl",
+  "parserRadioButtons.pl",
+  "PGcourse.pl",
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+#==========================================================
+# AUTO-GENERATED GROUPS FROM YAML
+#==========================================================
+
+@true_groups = (
+  [
+    'the <span style="color: #002699; font-weight:700;">leading strand</span> is replicated continuously, while the <span style="color: #995c00; font-weight:700;">lagging strand</span> is replicated piecewise',
+  ],
+  [
+    '<span style="color: #7b7737; font-weight:700;">single-strand binding proteins</span> stabilize the open conformation of the unwound DNA',
+  ],
+  [
+    '<span style="color: darkgreen; font-weight:700;">DNA&nbsp;helicase</span> unwinds the <span style="color: #248f24; font-weight:700;">DNA double helix</span>',
+    '<span style="color: indigo; font-weight:700;">DNA&nbsp;topoisomerase</span> releases the supercoiling tension in the <span style="color: #248f24; font-weight:700;">DNA double helix</span>',
+    '<span style="color: darkgreen; font-weight:700;">DNA&nbsp;helicase</span> separates the two strands of the <span style="color: #248f24; font-weight:700;">DNA double helix</span>',
+  ],
+  [
+    '<span style="color: maroon; font-weight:700;">Okazaki fragments</span> are DNA fragments synthesized on the <span style="color: #995c00; font-weight:700;">lagging strand</span>',
+  ],
+  [
+    'all DNA polymerases add dNTP monomers in the 5&prime; to 3&prime; direction of the template strand',
+    'all DNA polymerases add dNTP monomers to the terminal 3&prime;-OH of the newly synthesized strand',
+  ],
+  [
+    '<span style="color: steelblue; font-weight:700;">primase</span> creates the <span style="color: #b33000; font-weight:700;">RNA primers</span> that serve as a starting point for DNA synthesis',
+    '<span style="color: steelblue; font-weight:700;">primase</span> is a type of RNA polymerase that creates an RNA primer',
+  ],
+  [
+    'in the final step, <span style="color: mediumvioletred; font-weight:700;">DNA&nbsp;ligase</span> seals the gaps between the <span style="color: maroon; font-weight:700;">Okazaki fragments</span> to create one continuous <span style="color: #248f24; font-weight:700;">DNA strand</span>',
+  ],
+  [
+    '<span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span> removes <span style="color: #b33000; font-weight:700;">RNA primers</span> and fills the gaps with DNA between <span style="color: maroon; font-weight:700;">Okazaki fragments</span>',
+    '<span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span> removes the <span style="color: #b33000; font-weight:700;">RNA primers</span> at the beginning of each Okazaki fragment and replaces them with DNA',
+    '<span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span> replaces the <span style="color: #b33000; font-weight:700;">RNA primers</span> with DNA in the <span style="color: maroon; font-weight:700;">Okazaki fragments</span>',
+  ],
+  [
+    'the <span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span> holoenzyme is responsible for the synthesis of most of the bacterial chromosome',
+    '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span> is the major replicative polymerase that functions in the synthesis both the <span style="color: #002699; font-weight:700;">leading strand</span> and <span style="color: #995c00; font-weight:700;">lagging strand</span>',
+    'one complex of <span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span> is responsible for synthesizing the entire <span style="color: #002699; font-weight:700;">leading strand</span>',
+  ],
+);
+@false_groups = (
+  [
+    'the <span style="color: #002699; font-weight:700;">leading strand</span> is replicated piecewise, while the <span style="color: #995c00; font-weight:700;">lagging strand</span> is replicated continuously',
+    'both the <span style="color: #002699; font-weight:700;">leading strand</span> and <span style="color: #995c00; font-weight:700;">lagging strand</span> are replicated continuously',
+    'both the <span style="color: #002699; font-weight:700;">leading strand</span> and <span style="color: #995c00; font-weight:700;">lagging strand</span> are replicated discontinuously',
+  ],
+  [
+    '<span style="color: #7b7737; font-weight:700;">single-strand binding proteins</span> stabilize the <span style="color: #248f24; font-weight:700;">DNA double helix</span> conformation of the newly synthesized DNA',
+  ],
+  [
+    '<span style="color: indigo; font-weight:700;">DNA&nbsp;topoisomerase</span> unwinds the <span style="color: #248f24; font-weight:700;">DNA double helix</span>',
+    '<span style="color: darkgreen; font-weight:700;">DNA&nbsp;helicase</span> releases the supercoiling tension in the <span style="color: #248f24; font-weight:700;">DNA double helix</span>',
+    '<span style="color: indigo; font-weight:700;">DNA&nbsp;topoisomerase</span> separates the two strands of the <span style="color: #248f24; font-weight:700;">DNA double helix</span>',
+  ],
+  [
+    '<span style="color: maroon; font-weight:700;">Okazaki fragments</span> are DNA fragments synthesized on the <span style="color: #002699; font-weight:700;">leading strand</span>',
+  ],
+  [
+    'all DNA polymerases add dNTP monomers in the 3&prime; to 5&prime; direction of the template strand',
+    'all DNA polymerases add dNTP monomers to the terminal 5&prime;-OH of the newly synthesized strand',
+  ],
+  [
+    '<span style="color: steelblue; font-weight:700;">primase</span> creates the <span style="color: #248f24; font-weight:700;">DNA primers</span> that serve as a starting point for DNA synthesis',
+    '<span style="color: steelblue; font-weight:700;">primase</span> is a type of DNA polymerase that creates a DNA primer',
+  ],
+  [
+    'in the final step, <span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span> seals the gaps between the <span style="color: maroon; font-weight:700;">Okazaki fragments</span> to create one continuous <span style="color: #248f24; font-weight:700;">DNA strand</span>',
+    'in the final step, <span style="color: #793aaa; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8545;</span> seals the gaps between the <span style="color: maroon; font-weight:700;">Okazaki fragments</span> to create one continuous <span style="color: #248f24; font-weight:700;">DNA strand</span>',
+    'in the final step, <span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span> seals the gaps between the <span style="color: maroon; font-weight:700;">Okazaki fragments</span> to create one continuous <span style="color: #248f24; font-weight:700;">DNA strand</span>',
+    'in the final step, <span style="color: #5a8432; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8547;</span> seals the gaps between the <span style="color: maroon; font-weight:700;">Okazaki fragments</span> to create one continuous <span style="color: #248f24; font-weight:700;">DNA strand</span>',
+    'in the final step, <span style="color: darkgreen; font-weight:700;">DNA&nbsp;helicase</span> seals the gaps between the <span style="color: maroon; font-weight:700;">Okazaki fragments</span> to create one continuous <span style="color: #248f24; font-weight:700;">DNA strand</span>',
+    'in the final step, <span style="color: indigo; font-weight:700;">DNA&nbsp;topoisomerase</span> seals the gaps between the <span style="color: maroon; font-weight:700;">Okazaki fragments</span> to create one continuous <span style="color: #248f24; font-weight:700;">DNA strand</span>',
+  ],
+  [
+    '<span style="color: #793aaa; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8545;</span> removes <span style="color: #b33000; font-weight:700;">RNA primers</span> and fills the gaps with DNA between <span style="color: maroon; font-weight:700;">Okazaki fragments</span>',
+    '<span style="color: #793aaa; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8545;</span> removes the <span style="color: #b33000; font-weight:700;">RNA primers</span> at the beginning of each Okazaki fragment and replaces them with DNA',
+    '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span> removes <span style="color: #b33000; font-weight:700;">RNA primers</span> and fills the gaps with DNA between <span style="color: maroon; font-weight:700;">Okazaki fragments</span>',
+    '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span> removes the <span style="color: #b33000; font-weight:700;">RNA primers</span> at the beginning of each Okazaki fragment and replaces them with DNA',
+    '<span style="color: #5a8432; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8547;</span> removes <span style="color: #b33000; font-weight:700;">RNA primers</span> and fills the gaps with DNA between <span style="color: maroon; font-weight:700;">Okazaki fragments</span>',
+    '<span style="color: #5a8432; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8547;</span> removes the <span style="color: #b33000; font-weight:700;">RNA primers</span> at the beginning of each Okazaki fragment and replaces them with DNA',
+    '<span style="color: mediumvioletred; font-weight:700;">DNA&nbsp;ligase</span> removes <span style="color: #b33000; font-weight:700;">RNA primers</span> and fills the gaps with DNA between <span style="color: maroon; font-weight:700;">Okazaki fragments</span>',
+    '<span style="color: mediumvioletred; font-weight:700;">DNA&nbsp;ligase</span> removes the <span style="color: #b33000; font-weight:700;">RNA primers</span> at the beginning of each Okazaki fragment and replaces them with DNA',
+    '<span style="color: darkgreen; font-weight:700;">DNA&nbsp;helicase</span> removes <span style="color: #b33000; font-weight:700;">RNA primers</span> and fills the gaps with DNA between <span style="color: maroon; font-weight:700;">Okazaki fragments</span>',
+    '<span style="color: darkgreen; font-weight:700;">DNA&nbsp;helicase</span> removes the <span style="color: #b33000; font-weight:700;">RNA primers</span> at the beginning of each Okazaki fragment and replaces them with DNA',
+    '<span style="color: indigo; font-weight:700;">DNA&nbsp;topoisomerase</span> removes <span style="color: #b33000; font-weight:700;">RNA primers</span> and fills the gaps with DNA between <span style="color: maroon; font-weight:700;">Okazaki fragments</span>',
+    '<span style="color: indigo; font-weight:700;">DNA&nbsp;topoisomerase</span> removes the <span style="color: #b33000; font-weight:700;">RNA primers</span> at the beginning of each Okazaki fragment and replaces them with DNA',
+  ],
+  [
+    'the <span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span> holoenzyme is responsible for the synthesis of most of the bacterial chromosome',
+    'the <span style="color: #793aaa; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8545;</span> holoenzyme is responsible for the synthesis of most of the bacterial chromosome',
+    'the <span style="color: #5a8432; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8547;</span> holoenzyme is responsible for the synthesis of most of the bacterial chromosome',
+    '<span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span> is the major replicative polymerase that functions in the synthesis both the <span style="color: #002699; font-weight:700;">leading strand</span> and <span style="color: #995c00; font-weight:700;">lagging strand</span>',
+    '<span style="color: #793aaa; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8545;</span> is the major replicative polymerase that functions in the synthesis both the <span style="color: #002699; font-weight:700;">leading strand</span> and <span style="color: #995c00; font-weight:700;">lagging strand</span>',
+    '<span style="color: #5a8432; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8547;</span> is the major replicative polymerase that functions in the synthesis both the <span style="color: #002699; font-weight:700;">leading strand</span> and <span style="color: #995c00; font-weight:700;">lagging strand</span>',
+    'one complex of <span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span> is responsible for synthesizing the entire <span style="color: #002699; font-weight:700;">leading strand</span>',
+    'one complex of <span style="color: #793aaa; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8545;</span> is responsible for synthesizing the entire <span style="color: #002699; font-weight:700;">leading strand</span>',
+    'one complex of <span style="color: #5a8432; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8547;</span> is responsible for synthesizing the entire <span style="color: #002699; font-weight:700;">leading strand</span>',
+  ],
+);
+
+#==========================================================
+# GLOBAL SETTINGS
+#==========================================================
+
+$topic = 'DNA replication in bacteria';
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+my @mode_choices = ("TRUE", "FALSE");
+$mode = $mode_choices[$local_random->random(0, $#mode_choices, 1)];
+$num_distractors = 4;
+#==========================================================
+# SELECT GROUP
+#==========================================================
+
+my (@selected_group, @opposite_groups);
+
+if ($mode eq "TRUE") {
+  $group_index      = $local_random->random(0, scalar(@true_groups)-1, 1);
+  @selected_group   = @{ $true_groups[$group_index] };
+  @opposite_groups  = @false_groups;
+} else {
+  $group_index      = $local_random->random(0, scalar(@false_groups)-1, 1);
+  @selected_group   = @{ $false_groups[$group_index] };
+  @opposite_groups  = @true_groups;
+}
+
+#==========================================================
+# PICK CORRECT + DISTRACTORS
+#==========================================================
+
+my $correct_index = $local_random->random(0, $#selected_group, 1);
+$correct = $selected_group[$correct_index];
+
+my @available_group_indices = (0 .. $#opposite_groups);
+my @selected_distractor_indices = ();
+
+while (@selected_distractor_indices < $num_distractors && @available_group_indices > 0) {
+  my $random_index = $local_random->random(0, scalar(@available_group_indices)-1, 1);
+  push @selected_distractor_indices, splice(@available_group_indices, $random_index, 1);
+}
+
+@distractors = ();
+foreach my $group_idx (@selected_distractor_indices) {
+  my @group = @{ $opposite_groups[$group_idx] };
+  my $distractor_index = $local_random->random(0, $#group, 1);
+  my $distractor = $group[$distractor_index];
+  push @distractors, $distractor;
+}
+
+@choices = ($correct, @distractors);
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# RADIO BUTTONS WITH A/B/C/D/E LABELS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => ['A','B','C','D','E'],
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+[@ $mode eq "TRUE" ? "Which one of the following statements is <span style='color: #127663;'><strong>TRUE</strong></span> about $topic?" : "Which one of the following statements is <span style='color: #ba372a;'><strong>FALSE</strong></span> about $topic?" @]*
+
+[_]{$rb}
+
+END_PGML
+
+ENDDOCUMENT();
+

@@ -1,0 +1,221 @@
+## TITLE('Chemosensation (Smell and Taste)')
+## DESCRIPTION
+## Select the statement that is TRUE or FALSE about chemosensation (smell and taste).
+## ENDDESCRIPTION
+## KEYWORDS('chemosensation (smell and taste)','true/false','multiple choice')
+## DBsubject('Cell Biology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-08-19')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "PGchoicemacros.pl",
+  "parserRadioButtons.pl",
+  "PGcourse.pl",
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+#==========================================================
+# AUTO-GENERATED GROUPS FROM YAML
+#==========================================================
+
+@true_groups = (
+  [
+    'Many odorant receptors are GPCRs expressed in olfactory sensory neurons.',
+    'Olfactory receptors are commonly seven-transmembrane GPCR proteins.',
+  ],
+  [
+    'In olfaction, an odorant can activate a G protein that stimulates adenylyl cyclase.',
+    'Odorant binding can lead to G<sub>olf</sub> activation and increased cAMP production.',
+  ],
+  [
+    'cAMP can open cyclic nucleotide gated (CNG) ion channels in olfactory neurons.',
+    'In olfaction, cAMP can act as a second messenger that gates ion channels.',
+  ],
+  [
+    'Olfactory sensory neurons typically express one olfactory receptor gene.',
+    'A single olfactory sensory neuron usually expresses one receptor type.',
+  ],
+  [
+    'Odor identity is encoded by patterns of activity across many receptor types.',
+    'Many odorants activate multiple receptors, producing a combinatorial code.',
+  ],
+  [
+    'Salty taste commonly involves ion movement through channels rather than GPCR signaling.',
+    'Salty taste is often detected by direct ion flow across the membrane.',
+  ],
+  [
+    'Sour taste is linked to high acidity and elevated H<sub>3</sub>O<sup>+</sup> in foods.',
+    'Sour tastants are associated with low pH and increased proton concentration.',
+    'In sour sensing cells, protons (H+) can directly change ion channel activity.',
+  ],
+  [
+    'Sweet taste commonly uses a GPCR pathway rather than a simple ion channel pore.',
+    'Sweet taste is often detected by GPCR type receptors on taste cells.',
+  ],
+  [
+    'Bitter taste commonly uses GPCR type receptors and downstream signaling.',
+    'Many bitter compounds are detected through GPCR signaling in taste receptor cells.',
+  ],
+  [
+    'Taste receptor cells can release neurotransmitter onto afferent neurons.',
+    'Taste transduction ends with synaptic signaling to sensory neurons.',
+  ],
+  [
+    'Signal amplification can occur when one activated receptor leads to many downstream second messengers.',
+    'A signaling cascade can amplify a small input into a larger cellular response.',
+  ],
+  [
+    'Phosphodiesterase can terminate cyclic nucleotide signals by breaking down cAMP or cGMP.',
+    'Cyclic nucleotide phosphodiesterases reduce signaling by hydrolyzing cyclic nucleotides.',
+  ],
+);
+@false_groups = (
+  [
+    'In mammals, olfactory receptors are ligand gated ion channels that open directly when an odorant binds.',
+    'Most odorants are detected by receptor tyrosine kinases in olfactory neurons.',
+  ],
+  [
+    'In olfaction, odorant binding decreases cAMP by directly inhibiting adenylyl cyclase.',
+    'Olfactory transduction primarily depends on cGMP made by guanylyl cyclase.',
+  ],
+  [
+    'In olfactory neurons, cAMP closes CNG channels to trigger depolarization.',
+    'In olfaction, ion channels open only after cAMP is converted into cGMP.',
+  ],
+  [
+    'Each olfactory sensory neuron expresses many different olfactory receptor genes.',
+    'A single olfactory sensory neuron expresses every odorant receptor type.',
+  ],
+  [
+    'Each odorant activates only one receptor, so smell has a one odor to one receptor code.',
+    'Odor identity is determined only by odorant concentration, NOT by receptor patterns.',
+  ],
+  [
+    'Salty taste depends on GPCR activation of adenylyl cyclase and cAMP.',
+    'Salty taste is primarily detected by nuclear hormone receptors in taste cells.',
+  ],
+  [
+    'Sour taste is caused by Na<sup>+</sup> entering taste cells through ENaC channels.',
+    'Sour tastants are detected because they increase pH inside taste receptor cells.',
+  ],
+  [
+    'Sweet tastants are detected mainly by direct passage of glucose through a membrane channel.',
+    'Sweet taste is detected by a voltage gated sodium channel on taste cells.',
+  ],
+  [
+    'Bitter tastants are detected by the same receptor used for salty taste.',
+    'Bitter taste occurs only when taste cells take up large amounts of Ca<sup>2+</sup> from food.',
+  ],
+  [
+    'Taste receptor cells do NOT communicate with neurons and act only as passive sensors.',
+    'Taste transduction bypasses synapses and directly activates the cortex.',
+  ],
+  [
+    'Signal amplification means each signaling step reduces the number of activated molecules.',
+    'A cascade is less sensitive because it prevents second messenger production.',
+  ],
+  [
+    'Phosphodiesterase makes cAMP from ATP and starts signaling.',
+    'Phosphodiesterase increases cyclic nucleotide levels by synthesizing cAMP and cGMP.',
+  ],
+);
+
+#==========================================================
+# GLOBAL SETTINGS
+#==========================================================
+
+$topic = 'chemosensation (smell and taste)';
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+my @mode_choices = ("TRUE", "FALSE");
+$mode = $mode_choices[$local_random->random(0, $#mode_choices, 1)];
+$num_distractors = 4;
+#==========================================================
+# SELECT GROUP
+#==========================================================
+
+my (@selected_group, @opposite_groups);
+
+if ($mode eq "TRUE") {
+  $group_index      = $local_random->random(0, scalar(@true_groups)-1, 1);
+  @selected_group   = @{ $true_groups[$group_index] };
+  @opposite_groups  = @false_groups;
+} else {
+  $group_index      = $local_random->random(0, scalar(@false_groups)-1, 1);
+  @selected_group   = @{ $false_groups[$group_index] };
+  @opposite_groups  = @true_groups;
+}
+
+#==========================================================
+# PICK CORRECT + DISTRACTORS
+#==========================================================
+
+my $correct_index = $local_random->random(0, $#selected_group, 1);
+$correct = $selected_group[$correct_index];
+
+my @available_group_indices = (0 .. $#opposite_groups);
+my @selected_distractor_indices = ();
+
+while (@selected_distractor_indices < $num_distractors && @available_group_indices > 0) {
+  my $random_index = $local_random->random(0, scalar(@available_group_indices)-1, 1);
+  push @selected_distractor_indices, splice(@available_group_indices, $random_index, 1);
+}
+
+@distractors = ();
+foreach my $group_idx (@selected_distractor_indices) {
+  my @group = @{ $opposite_groups[$group_idx] };
+  my $distractor_index = $local_random->random(0, $#group, 1);
+  my $distractor = $group[$distractor_index];
+  push @distractors, $distractor;
+}
+
+@choices = ($correct, @distractors);
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# RADIO BUTTONS WITH A/B/C/D/E LABELS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => ['A','B','C','D','E'],
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+[@ $mode eq "TRUE" ? "Which one of the following statements is <span style='color: #127663;'><strong>TRUE</strong></span> about $topic?" : "Which one of the following statements is <span style='color: #ba372a;'><strong>FALSE</strong></span> about $topic?" @]*
+
+[_]{$rb}
+
+END_PGML
+
+ENDDOCUMENT();
+

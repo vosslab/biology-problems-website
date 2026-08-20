@@ -1,0 +1,200 @@
+## TITLE('Cell Theory')
+## DESCRIPTION
+## Select the statement that is TRUE or FALSE about cell theory.
+## ENDDESCRIPTION
+## KEYWORDS('cell theory','true/false','multiple choice')
+## DBsubject('Cell Biology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-08-19')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "PGchoicemacros.pl",
+  "parserRadioButtons.pl",
+  "PGcourse.pl",
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+#==========================================================
+# AUTO-GENERATED GROUPS FROM YAML
+#==========================================================
+
+@true_groups = (
+  [
+    'All <span style="color: orangered; font-weight:700;">living things</span> are composed of <span style="color: mediumblue; font-weight:700;">cells</span>.',
+    'All <span style="color: orangered; font-weight:700;">living organisms</span> are composed of one or more <span style="color: mediumblue; font-weight:700;">cells</span>.',
+    'All known <span style="color: orangered; font-weight:700;">living things</span> are made up of one or more <span style="color: mediumblue; font-weight:700;">cells</span>.',
+    'All <span style="color: orangered; font-weight:700;">living things</span> are made up of one or more <span style="color: mediumblue; font-weight:700;">cells</span>.',
+    '<span style="color: mediumblue; font-weight:700;">Cells</span> are the basic building blocks of all <span style="color: orangered; font-weight:700;">living things</span>.',
+  ],
+  [
+    '<span style="color: mediumblue; font-weight:700;">Cells</span> share similar chemical composition.',
+    'All <span style="color: mediumblue; font-weight:700;">cells</span> are basically the same in chemical composition.',
+  ],
+  [
+    'All <span style="color: mediumblue; font-weight:700;">cells</span> arise from pre-existing <span style="color: mediumblue; font-weight:700;">cells</span>.',
+    '<span style="color: mediumblue; font-weight:700;">Cells</span> arise from pre-existing <span style="color: mediumblue; font-weight:700;">cells</span>.',
+    'All living <span style="color: mediumblue; font-weight:700;">cells</span> arise from pre-existing <span style="color: mediumblue; font-weight:700;">cells</span> by division.',
+    'All <span style="color: mediumblue; font-weight:700;">cells</span> are produced from other <span style="color: mediumblue; font-weight:700;">cells</span>.',
+    '<span style="color: mediumblue; font-weight:700;">Cells</span> come from previously existing <span style="color: mediumblue; font-weight:700;">cells</span>.',
+    'All <span style="color: mediumblue; font-weight:700;">cells</span> come from other living <span style="color: mediumblue; font-weight:700;">cells</span>.',
+    'All <span style="color: mediumblue; font-weight:700;">cells</span> arise from other <span style="color: mediumblue; font-weight:700;">cells</span>.',
+  ],
+  [
+    'The <span style="color: mediumblue; font-weight:700;">cell</span> is the basic unit of structure and organization in organisms.',
+    '<span style="color: mediumblue; font-weight:700;">Cells</span> are the basic unit of structure and function in all <span style="color: orangered; font-weight:700;">living things</span>.',
+    'The basic units of structure and function are <span style="color: mediumblue; font-weight:700;">cells</span>.',
+    '<span style="color: mediumblue; font-weight:700;">Cells</span> are the basic structural and functional units of <span style="color: orangered; font-weight:700;">life</span>.',
+    'The <span style="color: mediumblue; font-weight:700;">cell</span> is the smallest living thing that performs all the functions of <span style="color: orangered; font-weight:700;">life</span>.',
+    'The basic unit of <span style="color: orangered; font-weight:700;">life</span> is a <span style="color: mediumblue; font-weight:700;">cell</span>.',
+  ],
+  [
+    'Energy flow (metabolism and biochemistry) occurs within <span style="color: mediumblue; font-weight:700;">cells</span>.',
+    'All <span style="color: orangered; font-weight:700;">life</span> functions occur within <span style="color: mediumblue; font-weight:700;">cells</span>.',
+  ],
+  [
+    'Heredity information (DNA) is passed on from <span style="color: mediumblue; font-weight:700;">cell</span> to <span style="color: mediumblue; font-weight:700;">cell</span>.',
+    'All <span style="color: mediumblue; font-weight:700;">cells</span> contain genetic information or DNA.',
+  ],
+);
+@false_groups = (
+  [
+    '<span style="color: mediumblue; font-weight:700;">Cells</span> are of similar shapes and sizes.',
+  ],
+  [
+    '<span style="color: mediumblue; font-weight:700;">Cells</span> are too small to see without a microscope.',
+  ],
+  [
+    'Not all organisms are composed of <span style="color: mediumblue; font-weight:700;">cells</span>, but most organisms are.',
+  ],
+  [
+    'All <span style="color: mediumblue; font-weight:700;">cells</span> contain membrane-bound organelles.',
+    'All <span style="color: mediumblue; font-weight:700;">cells</span> have a nucleus which divides.',
+    'All <span style="color: mediumblue; font-weight:700;">cells</span> contain a nucleus.',
+  ],
+  [
+    'Eukaryotic <span style="color: mediumblue; font-weight:700;">cells</span> are complex.',
+    'Humans are multicellular.',
+    'Bacteria are prokaryotic <span style="color: mediumblue; font-weight:700;">cells</span>.',
+  ],
+  [
+    '<span style="color: mediumblue; font-weight:700;">Cells</span> form through spontaneous generation.',
+    'Living things can "generate" from non-living matter.',
+  ],
+  [
+    'The <span style="color: mediumblue; font-weight:700;">organ</span>is the basic unit of structure and organization in organisms.',
+    '<span style="color: mediumblue; font-weight:700;">Organs</span> are the basic unit of structure and function in all <span style="color: orangered; font-weight:700;">living things</span>.',
+    'The basic units of structure and function are <span style="color: mediumblue; font-weight:700;">organs</span>.',
+    '<span style="color: mediumblue; font-weight:700;">Organs</span> are the basic structural and functional units of <span style="color: orangered; font-weight:700;">life</span>.',
+    'The <span style="color: mediumblue; font-weight:700;">organ</span>is the smallest living thing that performs all the functions of <span style="color: orangered; font-weight:700;">life</span>.',
+  ],
+  [
+    '<span style="color: mediumblue; font-weight:700;">Cells</span> are made primarily of water.',
+    'All <span style="color: orangered; font-weight:700;">living things</span> are only composed of <span style="color: mediumblue; font-weight:700;">cells</span> and nothing else.',
+    'All living <span style="color: mediumblue; font-weight:700;">cells</span> require water for survival.',
+    'All living <span style="color: mediumblue; font-weight:700;">cells</span> require glucose for survival.',
+    'All living <span style="color: mediumblue; font-weight:700;">cells</span> require oxygen in order to survive.',
+  ],
+  [
+    'All living <span style="color: mediumblue; font-weight:700;">cells</span> must have a <span style="color: mediumblue; font-weight:700;">cell</span> wall.',
+  ],
+);
+
+#==========================================================
+# GLOBAL SETTINGS
+#==========================================================
+
+$topic = '<span style="color: #793aaa; font-weight:700;">cell&nbsp;theory</span>';
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+my @mode_choices = ("TRUE", "FALSE");
+$mode = $mode_choices[$local_random->random(0, $#mode_choices, 1)];
+$num_distractors = 4;
+#==========================================================
+# SELECT GROUP
+#==========================================================
+
+my (@selected_group, @opposite_groups);
+
+if ($mode eq "TRUE") {
+  $group_index      = $local_random->random(0, scalar(@true_groups)-1, 1);
+  @selected_group   = @{ $true_groups[$group_index] };
+  @opposite_groups  = @false_groups;
+} else {
+  $group_index      = $local_random->random(0, scalar(@false_groups)-1, 1);
+  @selected_group   = @{ $false_groups[$group_index] };
+  @opposite_groups  = @true_groups;
+}
+
+#==========================================================
+# PICK CORRECT + DISTRACTORS
+#==========================================================
+
+my $correct_index = $local_random->random(0, $#selected_group, 1);
+$correct = $selected_group[$correct_index];
+
+my @available_group_indices = (0 .. $#opposite_groups);
+my @selected_distractor_indices = ();
+
+while (@selected_distractor_indices < $num_distractors && @available_group_indices > 0) {
+  my $random_index = $local_random->random(0, scalar(@available_group_indices)-1, 1);
+  push @selected_distractor_indices, splice(@available_group_indices, $random_index, 1);
+}
+
+@distractors = ();
+foreach my $group_idx (@selected_distractor_indices) {
+  my @group = @{ $opposite_groups[$group_idx] };
+  my $distractor_index = $local_random->random(0, $#group, 1);
+  my $distractor = $group[$distractor_index];
+  push @distractors, $distractor;
+}
+
+@choices = ($correct, @distractors);
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# RADIO BUTTONS WITH A/B/C/D/E LABELS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => ['A','B','C','D','E'],
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+[@ $mode eq "TRUE" ? "Which one of the following statements is <span style='color: #127663;'><strong>TRUE</strong></span> about $topic?" : "Which one of the following statements is <span style='color: #ba372a;'><strong>FALSE</strong></span> about $topic?" @]*
+
+[_]{$rb}
+
+END_PGML
+
+ENDDOCUMENT();
+

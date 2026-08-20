@@ -1,0 +1,286 @@
+## DESCRIPTION
+## Match each of the following stages in the central dogma of biology with their corresponding related terms.
+## ENDDESCRIPTION
+## KEYWORDS('stages in the central dogma of biology','related terms')
+## DBsubject('Molecular Biology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-08-19')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserPopUp.pl',
+    'parserUtils.pl',
+    'PGgraders.pl',
+    'PGcourse.pl'
+);
+our @ALPHABET = ('A' .. 'Z');
+
+# ================================
+# Full matching data
+# ================================
+%match_data = (
+  'DNA replication' => [
+    'DNA <span style="color: #3b7600; font-weight:700;">polymerase</span>',
+    'DNA pol III',
+    'DNA pol I',
+    'Okazaki fragments',
+    'leading <span style="color: #6c6c00; font-weight:700;">strand</span>',
+    'lagging <span style="color: #6c6c00; font-weight:700;">strand</span>',
+    'origin',
+    'origin of replication',
+    'helicase',
+    'RNA primase',
+    'DNA sliding clamp',
+    'DNA ligase',
+    'single-<span style="color: #6c6c00; font-weight:700;">strand</span>ed binding proteins',
+    'topoisomerase',
+    'replication fork',
+    'telomere shortening',
+    'semi-conservative model',
+    'bubble',
+    'replication bubble',
+    'daughter DNA <span style="color: #6c6c00; font-weight:700;">strand</span>',
+    'deoxytriphosphate nucleotides, such as dATP',
+    'DNA proof-reading',
+    'primer removal',
+    'Meselson-Stahl experiment',
+  ],
+  'RNA transcription' => [
+    'RNA <span style="color: #3b7600; font-weight:700;">polymerase</span>',
+    'RNA <span style="color: #3b7600; font-weight:700;">polymerase</span> II',
+    '-35 and -10 <span style="color: #007576; font-weight:700;">promotor</span> regions',
+    'TATA box',
+    '-35 <span style="color: #007576; font-weight:700;">promotor</span> region',
+    '-75 and -25 <span style="color: #007576; font-weight:700;">promotor</span> regions',
+    'RNA is synthesized',
+    'Pribnow box',
+    'non-template or coding <span style="color: #6c6c00; font-weight:700;">strand</span>',
+    'enhancer sequences',
+    'activator proteins',
+    'template <span style="color: #6c6c00; font-weight:700;">strand</span>',
+    '<span style="color: #003fff; font-weight:700;">terminator</span>',
+    '<span style="color: #003fff; font-weight:700;">terminator</span> sequence',
+    'transcription factors',
+    'creation of pre-mRNA transcript',
+    'proximal <span style="color: #007576; font-weight:700;">promotor</span> elements',
+    'distal <span style="color: #007576; font-weight:700;">promotor</span> elements',
+  ],
+  'mRNA processing' => [
+    '5&prime;-cap',
+    'intron removal',
+    'poly-A tail',
+    'poly-adenylation tail',
+    'poly-A <span style="color: #3b7600; font-weight:700;">polymerase</span>',
+    'alternative splicing',
+    'spliceosome',
+    'removes <span style="color: #00775f; font-weight:700;">introns</span> and joins exons',
+    'RNA splicing',
+    'GT-AG <span style="color: #00775f; font-weight:700;">introns</span>',
+    'group I self-splicing <span style="color: #00775f; font-weight:700;">introns</span>',
+    'conversion of pre-mRNA transcript into mature mRNA',
+    'exons are spliced together',
+    '<span style="color: #00775f; font-weight:700;">introns</span> are cut out',
+    '<span style="color: #00775f; font-weight:700;">introns</span> are removed',
+    'capping enzyme',
+    'creation of mature mRNA',
+  ],
+  'tRNA charging' => [
+    'anti-<span style="color: #c80085; font-weight:700;">codon</span> recognition for <span style="color: #935d00; font-weight:700;">amino acid</span> <span style="color: #076dad; font-weight:700;">attachment</span>',
+    '<span style="color: #a719db; font-weight:700;">synthetase</span> enzymes',
+    '<span style="color: #076dad; font-weight:700;">attachment</span> of <span style="color: #935d00; font-weight:700;">amino acid</span> to tRNA',
+    '<span style="color: #076dad; font-weight:700;">attachment</span> of <span style="color: #935d00; font-weight:700;">amino acid</span> to CCA tail',
+    'tRNA binds to the <span style="color: #a719db; font-weight:700;">synthetase</span>',
+    'correct match between a tRNA and an <span style="color: #935d00; font-weight:700;">amino acid</span>',
+    'creates aminoacyl-tRNA <span style="color: #a719db; font-weight:700;">synthetase</span>',
+    'tRNA editing site',
+  ],
+  'Protein translation' => [
+    'start <span style="color: #c80085; font-weight:700;">codon</span>',
+    'AUG start <span style="color: #c80085; font-weight:700;">codon</span>',
+    '<span style="color: #c80085; font-weight:700;">codon</span>s, triplets of bases',
+    'proteins are synthesized',
+    'stop <span style="color: #c80085; font-weight:700;">codon</span>',
+    'UAA, UAG, UGA stop <span style="color: #c80085; font-weight:700;">codon</span>s',
+    'reading frame',
+    'mRNA <span style="color: #c80085; font-weight:700;">codon</span> recognition by tRNA',
+    'mRNA <span style="color: #c80085; font-weight:700;">codon</span> recognition',
+    'Shine-Delgarno sequence',
+    '<span style="color: #c80085; font-weight:700;">codon</span>/anti-<span style="color: #c80085; font-weight:700;">codon</span> binding',
+    'ribosome',
+    'polysomes',
+    'peptide bond formation',
+    'large ribosomal subunit',
+    'small ribosomal subunit',
+    'mRNA attaches to ribosomes',
+    'peptidyl transferase',
+    'initiation factors',
+    'elongation factors',
+    'release factors',
+    'A-site',
+    'aminoacyl-tRNA binds to A-site',
+    '<span style="color: #cc0066; font-weight:700;">translocation</span>',
+    'tRNA <span style="color: #cc0066; font-weight:700;">translocation</span>',
+    '<span style="color: #cc0066; font-weight:700;">translocation</span> of peptidyl-tRNA',
+    'P-site',
+    'E-site',
+  ],
+);
+
+# -------------------------------
+# Select N random keys
+# -------------------------------
+my $n = 5;
+@all_keys = PGsort(sub { $_[0] lt $_[1] }, keys %match_data);
+my $local_seed = (defined($problemSeed) && $problemSeed ne '') ? $problemSeed : 1;
+my $local_random = new PGrandom($local_seed);
+
+my @indices = (0 .. $#all_keys);
+my @shuffled = ();
+while (@indices) {
+  my $pick = $local_random->random(0, $#indices, 1);
+  push @shuffled, splice(@indices, $pick, 1);
+}
+my @selected_keys = @all_keys[@shuffled[0..$n-1]];
+
+# -------------------------------
+# Build question/answer pairs
+# -------------------------------
+# Each entry: [prompt, choice]
+@q_and_a = ();
+foreach my $key (@selected_keys) {
+  my $values_ref = $match_data{$key};
+  my $i = $local_random->random(0, $#$values_ref, 1);
+  my $value = $values_ref->[$i];
+  push @q_and_a, [ $value, $key ];
+}
+
+# -------------------------------
+# Randomize the questions
+# -------------------------------
+my @q_indices = (0 .. $#q_and_a);
+my @q_shuffled = ();
+while (@q_indices) {
+  my $pick = $local_random->random(0, $#q_indices, 1);
+  push @q_shuffled, $q_and_a[splice(@q_indices, $pick, 1)];
+}
+@q_and_a = @q_shuffled;
+
+# -------------------------------
+# Sort the choices alphabetically
+# -------------------------------
+@answers = ();
+push(@answers, (map { $_->[1] } @q_and_a));
+@answers_sorted = PGsort(sub { $_[0] lt $_[1] }, @answers);
+
+# -------------------------------
+# HTML-safe answer labels
+# -------------------------------
+%answer_html = (
+  'DNA replication' => '<span style="color: #0067cc; font-weight:700;">DNA replication</span>',
+  'RNA transcription' => '<span style="color: #d40000; font-weight:700;">RNA transcription</span>',
+  'mRNA processing' => '<span style="color: #cc0066; font-weight:700;">mRNA processing</span>',
+  'tRNA charging' => '<span style="color: #b74300; font-weight:700;">tRNA charging</span>',
+  'Protein translation' => '<span style="color: #007a00; font-weight:700;">Protein translation</span>',
+);
+
+@answers_sorted_html = map { $answer_html{$_} || $_ } @answers_sorted;
+
+# -------------------------------
+# Create answer index lookup
+# -------------------------------
+our %answer_index;
+for (my $i = 0; $i <= $#answers_sorted; $i++) {
+  $answer_index{$answers_sorted[$i]} = $i;
+}
+
+# -------------------------------
+# PopUp/DropDown compatibility
+# -------------------------------
+sub make_popup {
+  return defined &DropDown ? DropDown(@_) : PopUp(@_);
+}
+
+# -------------------------------
+# Create popup objects (blank default)
+# -------------------------------
+my @answer_letters = @ALPHABET[0 .. $#answers_sorted];
+my @answer_letters_with_blank = ('', @answer_letters);
+@answer_dropdowns =
+  map { make_popup([ @answer_letters_with_blank ], $answer_index{$q_and_a[$_][1]} + 1 ) }
+  0 .. $#q_and_a;
+
+# -------------------------------
+# Render the question
+# -------------------------------
+HEADER_TEXT(<<END_STYLE);
+<style>
+.pgml-bold { font-weight: 700; }
+.two-column {
+    display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	align-items: center;
+	justify-content: space-evenly;
+}
+</style>
+END_STYLE
+
+$question_text = 'Match each of the following stages in the central dogma of biology with their corresponding related terms.';
+$note_text = 'Note: Each choice will be used exactly once.';
+
+BEGIN_PGML
+[$question_text]*
+[$note_text]*
+
+[@ MODES(HTML => '<div class="two-column"><div>') @]*
+[@ join(
+    "\n\n",
+    map {
+        '[_]{$answer_dropdowns[' . $_ . ']} '
+            . '*' . ($_ + 1) . '.* '
+            . '[$q_and_a[' . $_ . '][0]]*'
+    } 0 .. $#q_and_a
+) @]**
+[@ MODES(HTML => '</div><div class="right-col">') @]*
+[@ join(
+    "\n\n",
+    map {
+        chr(65 + $_) . '\\.' . ' ' . '[$answers_sorted_html[' . $_ . ']]*'
+    } 0 .. $#answers_sorted
+) @]**
+[@ MODES(HTML => '</div></div>') @]*
+END_PGML
+
+# -------------------------------
+# Dynamic Partial Credit Based on $n
+# -------------------------------
+$showPartialCorrectAnswers = 0;
+my @thresholds;
+my @scores;
+for (my $i = 1; $i <= $n; $i++) {
+  push @thresholds, $i;
+  push @scores, sprintf("%.2f", $i / $n);
+}
+
+install_problem_grader(~~&custom_problem_grader_fluid);
+$ENV{grader_numright} = [@thresholds];
+$ENV{grader_scores}   = [@scores];
+$ENV{grader_message} = 'You can earn partial credit.';
+
+# -------------------------------
+# Solution
+# -------------------------------
+$answer_list = join(', ', map { ($_ + 1) . '-' . $ALPHABET[$answer_index{$q_and_a[$_][1]}] } 0 .. $#q_and_a);
+BEGIN_PGML_SOLUTION
+The correct answers are: [$answer_list].
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+

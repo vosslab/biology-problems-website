@@ -1,0 +1,219 @@
+## DESCRIPTION
+## Match each of the following DNA replication enzymes with their corresponding functions.
+## ENDDESCRIPTION
+## KEYWORDS('DNA replication enzymes','functions')
+## DBsubject('Molecular Biology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-08-19')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserPopUp.pl',
+    'parserUtils.pl',
+    'PGgraders.pl',
+    'PGcourse.pl'
+);
+our @ALPHABET = ('A' .. 'Z');
+
+# ================================
+# Full matching data
+# ================================
+%match_data = (
+  'DNA&nbsp;gyrase' => [
+    'this enzyme relieves strain in the parental <span style="color: #228822; font-weight:700;">DNA double helix</span> caused by the supercoiling',
+    'this enzyme releases the supercoiling tension in the <span style="color: #228822; font-weight:700;">DNA double helix</span>',
+  ],
+  'primase' => [
+    'this enzyme builds <span style="color: #b33000; font-weight:700;">RNA primers</span> using the parental <span style="color: #228822; font-weight:700;">DNA strand</span> as a template',
+    'this enzyme creates the <span style="color: #b33000; font-weight:700;">RNA primers</span> that serve as a starting point for DNA synthesis',
+  ],
+  'DNA&nbsp;helicase' => [
+    'this enzyme unwinds the parental <span style="color: #228822; font-weight:700;">DNA double helix</span>',
+    'this enzyme separates the two strands of the <span style="color: #228822; font-weight:700;">DNA double helix</span>',
+  ],
+  'DNA&nbsp;ligase' => [
+    'this enzyme joins <span style="color: #3b7600; font-weight:700;">Okazaki fragments</span> together to create one continuous <span style="color: #228822; font-weight:700;">DNA strand</span>',
+    'this enzyme seals the gaps between the <span style="color: #3b7600; font-weight:700;">Okazaki fragments</span> to create one continuous <span style="color: #228822; font-weight:700;">DNA strand</span>',
+  ],
+  'single-strand binding proteins' => [
+    'this protein holds the <span style="color: #228822; font-weight:700;">DNA strand</span>s apart while they are being replicated',
+    'this protein stabilizes the open conformation of the unwound DNA',
+  ],
+  'DNA&nbsp;polymerase&nbsp;&#8544;' => [
+    'this enzyme replaces the <span style="color: #b33000; font-weight:700;">RNA primers</span> with DNA in the <span style="color: #3b7600; font-weight:700;">Okazaki fragments</span>',
+    'this enzyme removes <span style="color: #b33000; font-weight:700;">RNA primers</span> and fills the gaps with DNA between <span style="color: #3b7600; font-weight:700;">Okazaki fragments</span>',
+    'this enzyme removes the <span style="color: #b33000; font-weight:700;">RNA primers</span> at the beginning of each Okazaki fragment and replaces them with DNA',
+  ],
+  'DNA&nbsp;polymerase&nbsp;&#8546;' => [
+    'this enzyme produces the majority of DNA polymer during DNA replications',
+    'this enzyme is responsible for the synthesis of most of the bacterial chromosome',
+    'this enzyme synthesizes DNA on both the <span style="color: #002699; font-weight:700;">leading strand</span> and the <span style="color: #995c00; font-weight:700;">lagging strand</span>',
+    'this enzyme is responsible for synthesizing the entire <span style="color: #002699; font-weight:700;">leading strand</span>',
+  ],
+  'DNA sliding clamp' => [
+    'this enzyme is a ring that tethers certain enzymes to DNA',
+    'this enzyme prevents certain enzymes from falling off of the DNA',
+  ],
+);
+
+# -------------------------------
+# Select N random keys
+# -------------------------------
+my $n = 4;
+@all_keys = PGsort(sub { $_[0] lt $_[1] }, keys %match_data);
+my $local_seed = (defined($problemSeed) && $problemSeed ne '') ? $problemSeed : 1;
+my $local_random = new PGrandom($local_seed);
+
+my @indices = (0 .. $#all_keys);
+my @shuffled = ();
+while (@indices) {
+  my $pick = $local_random->random(0, $#indices, 1);
+  push @shuffled, splice(@indices, $pick, 1);
+}
+my @selected_keys = @all_keys[@shuffled[0..$n-1]];
+
+# -------------------------------
+# Build question/answer pairs
+# -------------------------------
+# Each entry: [prompt, choice]
+@q_and_a = ();
+foreach my $key (@selected_keys) {
+  my $values_ref = $match_data{$key};
+  my $i = $local_random->random(0, $#$values_ref, 1);
+  my $value = $values_ref->[$i];
+  push @q_and_a, [ $value, $key ];
+}
+
+# -------------------------------
+# Randomize the questions
+# -------------------------------
+my @q_indices = (0 .. $#q_and_a);
+my @q_shuffled = ();
+while (@q_indices) {
+  my $pick = $local_random->random(0, $#q_indices, 1);
+  push @q_shuffled, $q_and_a[splice(@q_indices, $pick, 1)];
+}
+@q_and_a = @q_shuffled;
+
+# -------------------------------
+# Sort the choices alphabetically
+# -------------------------------
+@answers = ();
+push(@answers, (map { $_->[1] } @q_and_a));
+@answers_sorted = PGsort(sub { $_[0] lt $_[1] }, @answers);
+
+# -------------------------------
+# HTML-safe answer labels
+# -------------------------------
+%answer_html = (
+  'DNA&nbsp;gyrase' => '<span style="color: #935d00; font-weight:700;">DNA&nbsp;gyrase</span>',
+  'primase' => '<span style="color: #6c6c00; font-weight:700;">primase</span>',
+  'DNA&nbsp;helicase' => '<span style="color: #d40000; font-weight:700;">DNA&nbsp;helicase</span>',
+  'DNA&nbsp;ligase' => '<span style="color: #b74300; font-weight:700;">DNA&nbsp;ligase</span>',
+  'single-strand binding proteins' => '<span style="color: #7b7737; font-weight:700;">single-strand binding proteins</span>',
+  'DNA&nbsp;polymerase&nbsp;&#8544;' => '<span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span>',
+  'DNA&nbsp;polymerase&nbsp;&#8546;' => '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span>',
+  'DNA sliding clamp' => 'DNA sliding clamp',
+);
+
+@answers_sorted_html = map { $answer_html{$_} || $_ } @answers_sorted;
+
+# -------------------------------
+# Create answer index lookup
+# -------------------------------
+our %answer_index;
+for (my $i = 0; $i <= $#answers_sorted; $i++) {
+  $answer_index{$answers_sorted[$i]} = $i;
+}
+
+# -------------------------------
+# PopUp/DropDown compatibility
+# -------------------------------
+sub make_popup {
+  return defined &DropDown ? DropDown(@_) : PopUp(@_);
+}
+
+# -------------------------------
+# Create popup objects (blank default)
+# -------------------------------
+my @answer_letters = @ALPHABET[0 .. $#answers_sorted];
+my @answer_letters_with_blank = ('', @answer_letters);
+@answer_dropdowns =
+  map { make_popup([ @answer_letters_with_blank ], $answer_index{$q_and_a[$_][1]} + 1 ) }
+  0 .. $#q_and_a;
+
+# -------------------------------
+# Render the question
+# -------------------------------
+HEADER_TEXT(<<END_STYLE);
+<style>
+.pgml-bold { font-weight: 700; }
+.two-column {
+    display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	align-items: center;
+	justify-content: space-evenly;
+}
+</style>
+END_STYLE
+
+$question_text = 'Match each of the following DNA replication enzymes with their corresponding functions.';
+$note_text = 'Note: Each choice will be used exactly once.';
+
+BEGIN_PGML
+[$question_text]*
+[$note_text]*
+
+[@ MODES(HTML => '<div class="two-column"><div>') @]*
+[@ join(
+    "\n\n",
+    map {
+        '[_]{$answer_dropdowns[' . $_ . ']} '
+            . '*' . ($_ + 1) . '.* '
+            . '[$q_and_a[' . $_ . '][0]]*'
+    } 0 .. $#q_and_a
+) @]**
+[@ MODES(HTML => '</div><div class="right-col">') @]*
+[@ join(
+    "\n\n",
+    map {
+        chr(65 + $_) . '\\.' . ' ' . '[$answers_sorted_html[' . $_ . ']]*'
+    } 0 .. $#answers_sorted
+) @]**
+[@ MODES(HTML => '</div></div>') @]*
+END_PGML
+
+# -------------------------------
+# Dynamic Partial Credit Based on $n
+# -------------------------------
+$showPartialCorrectAnswers = 0;
+my @thresholds;
+my @scores;
+for (my $i = 1; $i <= $n; $i++) {
+  push @thresholds, $i;
+  push @scores, sprintf("%.2f", $i / $n);
+}
+
+install_problem_grader(~~&custom_problem_grader_fluid);
+$ENV{grader_numright} = [@thresholds];
+$ENV{grader_scores}   = [@scores];
+$ENV{grader_message} = 'You can earn partial credit.';
+
+# -------------------------------
+# Solution
+# -------------------------------
+$answer_list = join(', ', map { ($_ + 1) . '-' . $ALPHABET[$answer_index{$q_and_a[$_][1]}] } 0 .. $#q_and_a);
+BEGIN_PGML_SOLUTION
+The correct answers are: [$answer_list].
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+
