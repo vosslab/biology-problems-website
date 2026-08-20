@@ -10,28 +10,26 @@ registry with no filesystem I/O; scanner.py owns discovery.
 # Ordered tuple of format keys. Order controls scan and render order.
 FORMAT_KEYS: tuple = (
 	"bb_text",
-	"bb_qti",
+	"bb_export",
 	"canvas_qti",
 	"human_read",
 	"webwork_pgml",
 )
 
-# File suffix patterns used to detect each format inside a topic's
-# downloads/ directory. These are glob suffixes appended to the base
-# problem-set stem, e.g. "bbq-foo-questions.txt" -> "-questions.txt".
-# Kept as simple suffixes so scanner code stays easy to read.
-FORMAT_FILE_SUFFIXES: dict = {
-	# Blackboard Learn TXT: original BBQ text file lives in the topic
-	# directory itself (not downloads/) and is the source of truth for
+# Glob patterns used to detect each format inside a topic or its downloads/
+# directory. Generated download names put the format prefix before the core,
+# so each pattern spells out that prefix instead of trying to infer a suffix.
+FORMAT_FILE_GLOBS: dict = {
+	# BBQ Text format: canonical source file lives in the topic directory
+	# itself (not downloads/) and is the source of truth for
 	# question counts.
-	"bb_text": "-questions.txt",
-	# Blackboard Ultra QTI v2.1 (zipped)
-	"bb_qti": "-bbq21.zip",
+	"bb_text": "bbq-*-questions.txt",
+	# Blackboard pool export ZIP for Ultra's "Import from file" flow.
+	"bb_export": "blackboard_export_zip-*.zip",
 	# Canvas/ADAPT QTI v1.2 (zipped)
-	"canvas_qti": "-canvas12.zip",
+	"canvas_qti": "canvas_qti_v1_2-*.zip",
 	# Human-readable HTML derived from the BBQ text
-	"human_read": "-human.html",
+	"human_read": "human_readable-*.html",
 	# WeBWorK PGML
 	"webwork_pgml": ".pgml",
 }
-

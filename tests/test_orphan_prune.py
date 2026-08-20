@@ -25,7 +25,7 @@ import bioproblems_site.topic_page as topic_page
 # The 4 download format keys as (prefix, extension) pairs.
 DOWNLOAD_FORMAT_CASES = [
 	("selftest", "html"),
-	("blackboard_qti_v2_1", "zip"),
+	("blackboard_export_zip", "zip"),
 	("canvas_qti_v1_2", "zip"),
 	("human_readable", "html"),
 ]
@@ -67,14 +67,14 @@ def test_find_orphan_downloads_flags_prefixed_and_pgml_orphans(tmp_path):
 	# A live artifact, two ghost orphans, and one unmanaged support file
 	names = [
 		"selftest-alpha.html",
-		"blackboard_qti_v2_1-ghost.zip",
+		"blackboard_export_zip-ghost.zip",
 		"ghost.pgml",
 		"random_support.txt",
 	]
 	_make_downloads(tmp_path, names)
 	result = orphan_prune.find_orphan_downloads(str(tmp_path), live_cores)
 	orphan_basenames = {os.path.basename(p) for p in result["orphans"]}
-	assert orphan_basenames == {"blackboard_qti_v2_1-ghost.zip", "ghost.pgml"}
+	assert orphan_basenames == {"blackboard_export_zip-ghost.zip", "ghost.pgml"}
 
 
 def test_find_orphan_downloads_keeps_live_and_ignores_unmanaged(tmp_path):
@@ -89,6 +89,26 @@ def test_find_orphan_downloads_keeps_live_and_ignores_unmanaged(tmp_path):
 	assert result["orphans"] == []
 	unmanaged_basenames = {os.path.basename(p) for p in result["unmanaged"]}
 	assert "random_support.txt" in unmanaged_basenames
+
+
+#============================================
+def test_find_orphan_downloads_removes_retired_qti_for_live_core(tmp_path):
+	"""A retired format is removed even when its BBQ source core is still live."""
+	live_cores = {"alpha"}
+	_make_downloads(tmp_path, ["blackboard_qti_v2_1-alpha.zip"])
+	result = orphan_prune.find_orphan_downloads(str(tmp_path), live_cores)
+	orphan_basenames = {os.path.basename(p) for p in result["orphans"]}
+	assert orphan_basenames == {"blackboard_qti_v2_1-alpha.zip"}
+
+
+#============================================
+def test_find_orphan_downloads_removes_unsupported_order_export(tmp_path):
+	"""An ORDER pool export is removed even while its source is live."""
+	(tmp_path / "bbq-alpha-questions.txt").write_text("ORD\tOrder these.\n")
+	_make_downloads(tmp_path, ["blackboard_export_zip-alpha.zip"])
+	result = orphan_prune.find_orphan_downloads(str(tmp_path), {"alpha"})
+	orphan_basenames = {os.path.basename(path) for path in result["orphans"]}
+	assert orphan_basenames == {"blackboard_export_zip-alpha.zip"}
 
 
 #============================================

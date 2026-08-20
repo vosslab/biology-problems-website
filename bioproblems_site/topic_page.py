@@ -240,6 +240,24 @@ def create_downloadable_format(bbq_file: str, prefix: str, extension: str):
 		print(color_text(f"WARNING: {prefix}, {extension}, {bbq_file}", COLOR_YELLOW))
 	return file_path
 
+
+#==============
+BLACKBOARD_EXPORT_UNSUPPORTED_ITEM_TYPES = frozenset(("ORD", "ORDER"))
+
+
+def supports_blackboard_export(bbq_file_name: str) -> bool:
+	"""Return whether every question has a Blackboard Ultra export writer.
+
+	qti-package-maker's Blackboard pool-export engine has no ORDER writer.
+	Do not expose an empty pool ZIP when a source contains that item type.
+	"""
+	with open(bbq_file_name, "r") as bbq_file:
+		for line in bbq_file:
+			item_type = line.partition("\t")[0].strip().upper()
+			if item_type in BLACKBOARD_EXPORT_UNSUPPORTED_ITEM_TYPES:
+				return False
+	return True
+
 #==============
 def get_download_js_string():
 	download_js = (
@@ -328,13 +346,14 @@ def generate_download_button_row(
 			"prefix": "bbq",
 			"extension": "txt",
 			"button_class": "bb_text",
-			"display_name": "Blackboard Learn TXT"
+			"display_name": "BBQ Text"
 		},
-		"bb_qti": {
-			"prefix": "blackboard_qti_v2_1",
+		"bb_export": {
+			"prefix": "blackboard_export_zip",
 			"extension": "zip",
-			"button_class": "bb_qti",
-			"display_name": "Blackboard Ultra QTI v2.1"
+			"button_class": "bb_export",
+			"display_name": "Blackboard Ultra ZIP",
+			"accessibility_name": "Blackboard Ultra pool-export ZIP",
 		},
 		"canvas_qti": {
 			"prefix": "canvas_qti_v1_2",
@@ -368,6 +387,16 @@ def generate_download_button_row(
 		if type_key not in download_formats:
 			if verbose:
 				print(color_text(f"  SKIP {file_type['display_name']} (disabled)", COLOR_YELLOW))
+			record_stat(stats, type_key, "skipped")
+			continue
+		# The pool-export engine has no ORDER writer. Omit this format rather
+		# than linking an empty ZIP that Blackboard Ultra cannot use.
+		if type_key == "bb_export" and not supports_blackboard_export(bbq_file_name):
+			if verbose:
+				print(color_text(
+					f"  SKIP {file_type['display_name']}: unsupported ORDER item",
+					COLOR_YELLOW,
+				))
 			record_stat(stats, type_key, "skipped")
 			continue
 		# Special handling for WeBWorK PGML: search for existing file only
@@ -467,14 +496,16 @@ def generate_download_button_row(
 			record_stat(stats, type_key, "generated")
 		out_file_basename = os.path.basename(out_file_path)
 		out_relative_path = os.path.relpath(out_file_path, start=dir_name)
-		out_file_basename = os.path.basename(out_file_path)
+		accessibility_name = file_type.get(
+			"accessibility_name", file_type["display_name"]
+		)
 		# Create HTML button element with corresponding attributes
 		if type_key == "human_read":
 			button_html = (
 				f'<button class="md-button custom-button {file_type["button_class"]}" '
 				f'onclick="window.open(\'{out_relative_path}\', \'_blank\')" '
 				f'title="View {out_file_basename}" '
-				f'aria-label="Click to view the {file_type["display_name"]} file ({out_file_basename})">\n'
+				f'aria-label="Click to view the {accessibility_name} file ({out_file_basename})">\n'
 				f'    <i class="fa fa-eye"></i> {file_type["display_name"]}\n'
 				f'</button>'
 			)
@@ -484,7 +515,7 @@ def generate_download_button_row(
 				f'href="{out_relative_path}" '
 				f'download '
 				f'title="Download {out_file_basename}" '
-				f'aria-label="Click to download the {file_type["display_name"]} file ({out_file_basename})">\n'
+				f'aria-label="Click to download the {accessibility_name} file ({out_file_basename})">\n'
 				f'    <i class="fa fa-download"></i>{file_type["display_name"]}\n'
 				f'</a>'
 			)
@@ -952,7 +983,7 @@ def render_all(
 	if options.verbose:
 		print("\n\nSummary:")
 		format_order = (
-			"selftest", "bb_text", "bb_qti", "canvas_qti",
+			"selftest", "bb_text", "bb_export", "canvas_qti",
 			"human_read", "webwork_pgml",
 		)
 		for format_key in format_order:

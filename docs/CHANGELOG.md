@@ -1,5 +1,22 @@
 # Changelog
 
+## 2026-08-19
+
+### Behavior or Interface Changes
+
+- Switched the website's Blackboard Ultra download from the QTI v2.1 ZIP to qti-package-maker's
+  Blackboard pool-export ZIP (`--blackboard_export_zip`). The generated files, download buttons,
+  scanner, orphan reconciliation, and Ultra import tutorial now use the pool-export path, which
+  supports the site's matching questions through Ultra's **Import from file** workflow.
+- Corrected download-format scanning to use the generated filename patterns, including
+  `blackboard_export_zip-*.zip`, so the Blackboard Ultra export is discoverable after generation.
+- Omit the Ultra pool-export control for ORDER question sets, which the exporter cannot write,
+  and remove a stale empty ZIP during reconciliation instead of offering a broken download.
+- Shortened the visible control label to **Blackboard Ultra ZIP** while retaining the pool-export
+  format detail in its accessible name and import tutorial.
+- Renamed the canonical question-source download from **Blackboard Learn TXT** to **BBQ Text**,
+  separating the source format from Blackboard's retired product branding.
+
 ## 2026-07-15
 
 ### Behavior or Interface Changes

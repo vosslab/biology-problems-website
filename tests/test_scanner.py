@@ -25,6 +25,17 @@ def test_more_bbq_files_yields_higher_count(tmp_path):
 	assert "bb_text" in scanner.scan_topic(str(topic_dir)).formats
 
 
+def test_pool_export_zip_is_detected_in_downloads(tmp_path):
+	"""A Blackboard Ultra pool-export ZIP sets the bb_export format flag."""
+	topic_dir = tmp_path / "topic01"
+	downloads_dir = topic_dir / "downloads"
+	downloads_dir.mkdir(parents=True)
+	(topic_dir / "bbq-alpha-questions.txt").write_text("Q1\n")
+	(downloads_dir / "blackboard_export_zip-alpha.zip").touch()
+
+	assert "bb_export" in scanner.scan_topic(str(topic_dir)).formats
+
+
 def test_scan_subject_skips_missing_topic_folder(tmp_path):
 	"""Requested topics absent on disk scan cleanly to zero."""
 	site_docs = tmp_path / "site_docs"

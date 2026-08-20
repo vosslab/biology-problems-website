@@ -79,7 +79,7 @@ site_docs/<subject>/<topicNN>/
   downloads/
     selftest-<core>.html           GENERATED from bbq
     human_readable-<core>.html     GENERATED from bbq
-    blackboard_qti_v2_1-<core>.zip GENERATED from bbq
+    blackboard_export_zip-<core>.zip GENERATED from bbq
     canvas_qti_v1_2-<core>.zip     GENERATED from bbq
     <mapped>.pgml | <mapped>.pg    GENERATED/COPIED into downloads (disposable)
 ```
@@ -88,7 +88,7 @@ Source vs generated split:
 
 - GENERATED: `index.md` content; every file under `downloads/` (the 4 prefixed
   artifacts `selftest-*.html`, `human_readable-*.html`,
-  `blackboard_qti_v2_1-*.zip`, `canvas_qti_v1_2-*.zip`, plus the
+  `blackboard_export_zip-*.zip`, `canvas_qti_v1_2-*.zip`, plus the
   `downloads/*.pgml` and `downloads/*.pg` copies); and `problem_set_titles.yml`
   entries keyed by a bbq basename.
 - SOURCE: `bbq-*-questions.txt` (the truth, always left in place); and
@@ -121,7 +121,7 @@ implements; a live file keeps its current state in every class):
 | --- | --- |
 | `downloads/selftest-*.html` | delete (git rm / os.remove) |
 | `downloads/human_readable-*.html` | delete (git rm / os.remove) |
-| `downloads/blackboard_qti_v2_1-*.zip`, `downloads/canvas_qti_v1_2-*.zip` | delete |
+| `downloads/blackboard_export_zip-*.zip`, `downloads/canvas_qti_v1_2-*.zip` | delete |
 | `downloads/*.pgml`, `downloads/*.pg` | delete (reproducible copy) |
 | `index.md` `selftest-<core>` include line | strip that one line |
 | `problem_set_titles.yml` bbq-basename key | drop key (keep `last edit`) |

@@ -43,7 +43,7 @@ PGML_NAME = f"{CORE}.pgml"
 SELFTEST_NAME = f"selftest-{CORE}.html"
 ARTIFACT_NAMES = (
 	SELFTEST_NAME,
-	f"blackboard_qti_v2_1-{CORE}.zip",
+	f"blackboard_export_zip-{CORE}.zip",
 	f"canvas_qti_v1_2-{CORE}.zip",
 	f"human_readable-{CORE}.html",
 )

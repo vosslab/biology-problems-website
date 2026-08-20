@@ -21,7 +21,7 @@ Canvas, ADAPT, and other teaching workflows.
 
 - Practice with interactive example questions and browser-local progress tracking.
 - Explore daily puzzles for peptide chemistry, genetics, metabolism, and macromolecules.
-- Download editable or import-ready question sets in Blackboard TXT, Blackboard QTI,
+- Download editable or import-ready question sets in BBQ Text format, Blackboard Ultra ZIP,
   Canvas/ADAPT QTI, and human-readable formats.
 - Find distinct variants for difficulty, question format, dataset size, and course scope.
 - Reuse openly licensed material in teaching and study workflows.
