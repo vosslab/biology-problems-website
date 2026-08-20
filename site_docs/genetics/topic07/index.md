@@ -7,11 +7,11 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
 ## Matching Chi-Square Terms to Definitions
 
 <div id="MATCH-chi-square_terms-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MATCH-chi-square_terms-questions.txt" download title="Download bbq-MATCH-chi-square_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-chi-square_terms-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-MATCH-chi-square_terms-questions.txt" download title="Download bbq-MATCH-chi-square_terms-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-chi-square_terms-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-chi-square_terms.zip" download title="Download blackboard_qti_v2_1-MATCH-chi-square_terms.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-chi-square_terms.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-chi-square_terms.zip" download title="Download blackboard_export_zip-MATCH-chi-square_terms.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-chi-square_terms.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-chi-square_terms.zip" download title="Download canvas_qti_v1_2-MATCH-chi-square_terms.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-chi-square_terms.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -42,11 +42,11 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
 ## True/False Statements About Chi-Square Tests
 
 <div id="TFMS-chi-square-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-TFMS-chi-square-questions.txt" download title="Download bbq-TFMS-chi-square-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-chi-square-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-TFMS-chi-square-questions.txt" download title="Download bbq-TFMS-chi-square-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-chi-square-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-TFMS-chi-square.zip" download title="Download blackboard_qti_v2_1-TFMS-chi-square.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-TFMS-chi-square.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-chi-square.zip" download title="Download blackboard_export_zip-TFMS-chi-square.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-chi-square.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-chi-square.zip" download title="Download canvas_qti_v1_2-TFMS-chi-square.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-chi-square.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -77,11 +77,11 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
 ## Chi-Square Terms from Definitions
 
 <div id="WOMC-chi-square_terms-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-WOMC-chi-square_terms-questions.txt" download title="Download bbq-WOMC-chi-square_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-chi-square_terms-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-WOMC-chi-square_terms-questions.txt" download title="Download bbq-WOMC-chi-square_terms-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-chi-square_terms-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-chi-square_terms.zip" download title="Download blackboard_qti_v2_1-WOMC-chi-square_terms.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-chi-square_terms.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-chi-square_terms.zip" download title="Download blackboard_export_zip-WOMC-chi-square_terms.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-chi-square_terms.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-chi-square_terms.zip" download title="Download canvas_qti_v1_2-WOMC-chi-square_terms.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-chi-square_terms.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -112,11 +112,11 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
 ## Chi-Square Values for Phenotypic Ratios
 
 <div id="chi_square_calculated-ACCEPT-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-chi_square_calculated-ACCEPT-questions.txt" download title="Download bbq-chi_square_calculated-ACCEPT-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chi_square_calculated-ACCEPT-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-chi_square_calculated-ACCEPT-questions.txt" download title="Download bbq-chi_square_calculated-ACCEPT-questions.txt" aria-label="Click to download the BBQ Text file (bbq-chi_square_calculated-ACCEPT-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-chi_square_calculated-ACCEPT.zip" download title="Download blackboard_qti_v2_1-chi_square_calculated-ACCEPT.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-chi_square_calculated-ACCEPT.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-chi_square_calculated-ACCEPT.zip" download title="Download blackboard_export_zip-chi_square_calculated-ACCEPT.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-chi_square_calculated-ACCEPT.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-chi_square_calculated-ACCEPT.zip" download title="Download canvas_qti_v1_2-chi_square_calculated-ACCEPT.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-chi_square_calculated-ACCEPT.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -144,11 +144,11 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
 ## Hypothesis Decisions from Chi-Square Tests
 
 <div id="chi_square_choices-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-chi_square_choices-questions.txt" download title="Download bbq-chi_square_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chi_square_choices-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-chi_square_choices-questions.txt" download title="Download bbq-chi_square_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-chi_square_choices-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-chi_square_choices.zip" download title="Download blackboard_qti_v2_1-chi_square_choices.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-chi_square_choices.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-chi_square_choices.zip" download title="Download blackboard_export_zip-chi_square_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-chi_square_choices.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-chi_square_choices.zip" download title="Download canvas_qti_v1_2-chi_square_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-chi_square_choices.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -176,11 +176,11 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
 ## Errors in Chi-Square Calculations and Hypothesis Decisions
 
 <div id="chi_square_errors-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-chi_square_errors-questions.txt" download title="Download bbq-chi_square_errors-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chi_square_errors-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-chi_square_errors-questions.txt" download title="Download bbq-chi_square_errors-questions.txt" aria-label="Click to download the BBQ Text file (bbq-chi_square_errors-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-chi_square_errors.zip" download title="Download blackboard_qti_v2_1-chi_square_errors.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-chi_square_errors.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-chi_square_errors.zip" download title="Download blackboard_export_zip-chi_square_errors.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-chi_square_errors.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-chi_square_errors.zip" download title="Download canvas_qti_v1_2-chi_square_errors.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-chi_square_errors.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -208,11 +208,11 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
 ## Chi-Square Tests for Hardy-Weinberg Equilibrium
 
 <div id="chi_square_hardy_weinberg-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-chi_square_hardy_weinberg-questions.txt" download title="Download bbq-chi_square_hardy_weinberg-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chi_square_hardy_weinberg-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-chi_square_hardy_weinberg-questions.txt" download title="Download bbq-chi_square_hardy_weinberg-questions.txt" aria-label="Click to download the BBQ Text file (bbq-chi_square_hardy_weinberg-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-chi_square_hardy_weinberg.zip" download title="Download blackboard_qti_v2_1-chi_square_hardy_weinberg.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-chi_square_hardy_weinberg.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-chi_square_hardy_weinberg.zip" download title="Download blackboard_export_zip-chi_square_hardy_weinberg.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-chi_square_hardy_weinberg.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-chi_square_hardy_weinberg.zip" download title="Download canvas_qti_v1_2-chi_square_hardy_weinberg.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-chi_square_hardy_weinberg.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -240,11 +240,11 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
 ## Null and Alternative Hypotheses for Genetic Crosses
 
 <div id="chi_square_hypotheses-pair-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-chi_square_hypotheses-pair-questions.txt" download title="Download bbq-chi_square_hypotheses-pair-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chi_square_hypotheses-pair-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-chi_square_hypotheses-pair-questions.txt" download title="Download bbq-chi_square_hypotheses-pair-questions.txt" aria-label="Click to download the BBQ Text file (bbq-chi_square_hypotheses-pair-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-chi_square_hypotheses-pair.zip" download title="Download blackboard_qti_v2_1-chi_square_hypotheses-pair.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-chi_square_hypotheses-pair.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-chi_square_hypotheses-pair.zip" download title="Download blackboard_export_zip-chi_square_hypotheses-pair.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-chi_square_hypotheses-pair.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-chi_square_hypotheses-pair.zip" download title="Download canvas_qti_v1_2-chi_square_hypotheses-pair.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-chi_square_hypotheses-pair.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -272,11 +272,11 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
 ## Misstated Null Hypotheses for Genetic Ratios
 
 <div id="chi_square_hypotheses_lab_partner-hypotheses_partner-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt" download title="Download bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt" download title="Download bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt" aria-label="Click to download the BBQ Text file (bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-chi_square_hypotheses_lab_partner-hypotheses_partner.zip" download title="Download blackboard_qti_v2_1-chi_square_hypotheses_lab_partner-hypotheses_partner.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-chi_square_hypotheses_lab_partner-hypotheses_partner.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-chi_square_hypotheses_lab_partner-hypotheses_partner.zip" download title="Download blackboard_export_zip-chi_square_hypotheses_lab_partner-hypotheses_partner.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-chi_square_hypotheses_lab_partner-hypotheses_partner.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-chi_square_hypotheses_lab_partner-hypotheses_partner.zip" download title="Download canvas_qti_v1_2-chi_square_hypotheses_lab_partner-hypotheses_partner.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-chi_square_hypotheses_lab_partner-hypotheses_partner.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2

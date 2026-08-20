@@ -5,11 +5,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## Matching DNA Sequencing Techniques to Descriptions
 
 <div id="MATCH-dna_sequencing-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MATCH-dna_sequencing-questions.txt" download title="Download bbq-MATCH-dna_sequencing-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-dna_sequencing-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-MATCH-dna_sequencing-questions.txt" download title="Download bbq-MATCH-dna_sequencing-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-dna_sequencing-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-dna_sequencing.zip" download title="Download blackboard_qti_v2_1-MATCH-dna_sequencing.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-dna_sequencing.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-dna_sequencing.zip" download title="Download blackboard_export_zip-MATCH-dna_sequencing.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-dna_sequencing.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-dna_sequencing.zip" download title="Download canvas_qti_v1_2-MATCH-dna_sequencing.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-dna_sequencing.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -40,11 +40,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## Gene Expression Fold Change from RT-qPCR Data
 
 <div id="RT-qPCR-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-RT-qPCR-questions.txt" download title="Download bbq-RT-qPCR-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-RT-qPCR-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-RT-qPCR-questions.txt" download title="Download bbq-RT-qPCR-questions.txt" aria-label="Click to download the BBQ Text file (bbq-RT-qPCR-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-RT-qPCR.zip" download title="Download blackboard_qti_v2_1-RT-qPCR.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-RT-qPCR.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-RT-qPCR.zip" download title="Download blackboard_export_zip-RT-qPCR.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-RT-qPCR.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-RT-qPCR.zip" download title="Download canvas_qti_v1_2-RT-qPCR.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-RT-qPCR.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -72,11 +72,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## True/False Statements About DNA Structure (BIOL 351)
 
 <div id="TFMS-dna_structure-biol_351-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-TFMS-dna_structure-biol_351-questions.txt" download title="Download bbq-TFMS-dna_structure-biol_351-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-dna_structure-biol_351-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-TFMS-dna_structure-biol_351-questions.txt" download title="Download bbq-TFMS-dna_structure-biol_351-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-dna_structure-biol_351-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-TFMS-dna_structure-biol_351.zip" download title="Download blackboard_qti_v2_1-TFMS-dna_structure-biol_351.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-TFMS-dna_structure-biol_351.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-dna_structure-biol_351.zip" download title="Download blackboard_export_zip-TFMS-dna_structure-biol_351.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-dna_structure-biol_351.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-dna_structure-biol_351.zip" download title="Download canvas_qti_v1_2-TFMS-dna_structure-biol_351.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-dna_structure-biol_351.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -107,11 +107,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## True/False Statements About xDNA and XNA
 
 <div id="TFMS-xna_and_xdna-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-TFMS-xna_and_xdna-questions.txt" download title="Download bbq-TFMS-xna_and_xdna-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-xna_and_xdna-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-TFMS-xna_and_xdna-questions.txt" download title="Download bbq-TFMS-xna_and_xdna-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-xna_and_xdna-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-TFMS-xna_and_xdna.zip" download title="Download blackboard_qti_v2_1-TFMS-xna_and_xdna.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-TFMS-xna_and_xdna.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-xna_and_xdna.zip" download title="Download blackboard_export_zip-TFMS-xna_and_xdna.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-xna_and_xdna.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-xna_and_xdna.zip" download title="Download canvas_qti_v1_2-TFMS-xna_and_xdna.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-xna_and_xdna.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -142,11 +142,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## DNA Sequencing Techniques from Descriptions
 
 <div id="WOMC-dna_sequencing-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-WOMC-dna_sequencing-questions.txt" download title="Download bbq-WOMC-dna_sequencing-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-dna_sequencing-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-WOMC-dna_sequencing-questions.txt" download title="Download bbq-WOMC-dna_sequencing-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-dna_sequencing-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-dna_sequencing.zip" download title="Download blackboard_qti_v2_1-WOMC-dna_sequencing.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-dna_sequencing.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-dna_sequencing.zip" download title="Download blackboard_export_zip-WOMC-dna_sequencing.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-dna_sequencing.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-dna_sequencing.zip" download title="Download canvas_qti_v1_2-WOMC-dna_sequencing.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-dna_sequencing.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -177,11 +177,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## Amplicon Copy Number After PCR Rounds
 
 <div id="amplicon_copies-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-amplicon_copies-questions.txt" download title="Download bbq-amplicon_copies-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-amplicon_copies-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-amplicon_copies-questions.txt" download title="Download bbq-amplicon_copies-questions.txt" aria-label="Click to download the BBQ Text file (bbq-amplicon_copies-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-amplicon_copies.zip" download title="Download blackboard_qti_v2_1-amplicon_copies.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-amplicon_copies.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-amplicon_copies.zip" download title="Download blackboard_export_zip-amplicon_copies.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-amplicon_copies.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-amplicon_copies.zip" download title="Download canvas_qti_v1_2-amplicon_copies.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-amplicon_copies.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -209,11 +209,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## DNA Base Composition Using Chargaff's Rules (5 Choices)
 
 <div id="chargaff_dna_percent-5_choices-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-chargaff_dna_percent-5_choices-questions.txt" download title="Download bbq-chargaff_dna_percent-5_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chargaff_dna_percent-5_choices-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-chargaff_dna_percent-5_choices-questions.txt" download title="Download bbq-chargaff_dna_percent-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-chargaff_dna_percent-5_choices-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-chargaff_dna_percent-5_choices.zip" download title="Download blackboard_qti_v2_1-chargaff_dna_percent-5_choices.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-chargaff_dna_percent-5_choices.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-chargaff_dna_percent-5_choices.zip" download title="Download blackboard_export_zip-chargaff_dna_percent-5_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-chargaff_dna_percent-5_choices.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-chargaff_dna_percent-5_choices.zip" download title="Download canvas_qti_v1_2-chargaff_dna_percent-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-chargaff_dna_percent-5_choices.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -241,11 +241,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## Complementary DNA Sequences Without Direction Labels
 
 <div id="complementary_sequences-mc-directionless-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-complementary_sequences-mc-directionless-questions.txt" download title="Download bbq-complementary_sequences-mc-directionless-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-complementary_sequences-mc-directionless-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-complementary_sequences-mc-directionless-questions.txt" download title="Download bbq-complementary_sequences-mc-directionless-questions.txt" aria-label="Click to download the BBQ Text file (bbq-complementary_sequences-mc-directionless-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-complementary_sequences-mc-directionless.zip" download title="Download blackboard_qti_v2_1-complementary_sequences-mc-directionless.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-complementary_sequences-mc-directionless.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-complementary_sequences-mc-directionless.zip" download title="Download blackboard_export_zip-complementary_sequences-mc-directionless.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-complementary_sequences-mc-directionless.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-complementary_sequences-mc-directionless.zip" download title="Download canvas_qti_v1_2-complementary_sequences-mc-directionless.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-complementary_sequences-mc-directionless.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -273,11 +273,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## Degenerate Primer Codes from Sequence Alignments
 
 <div id="consensus_sequence_FIB-arbitrary_code-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" download title="Download bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-consensus_sequence_FIB-arbitrary_code-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" download title="Download bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" aria-label="Click to download the BBQ Text file (bbq-consensus_sequence_FIB-arbitrary_code-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-consensus_sequence_FIB-arbitrary_code.zip" download title="Download blackboard_qti_v2_1-consensus_sequence_FIB-arbitrary_code.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-consensus_sequence_FIB-arbitrary_code.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-consensus_sequence_FIB-arbitrary_code.zip" download title="Download blackboard_export_zip-consensus_sequence_FIB-arbitrary_code.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-consensus_sequence_FIB-arbitrary_code.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-consensus_sequence_FIB-arbitrary_code.zip" download title="Download canvas_qti_v1_2-consensus_sequence_FIB-arbitrary_code.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-consensus_sequence_FIB-arbitrary_code.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -305,11 +305,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## Consensus Sequences from Simple Alignments (Fill in the Blank)
 
 <div id="consensus_sequence_FIB-easy-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-easy-questions.txt" download title="Download bbq-consensus_sequence_FIB-easy-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-consensus_sequence_FIB-easy-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-easy-questions.txt" download title="Download bbq-consensus_sequence_FIB-easy-questions.txt" aria-label="Click to download the BBQ Text file (bbq-consensus_sequence_FIB-easy-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-consensus_sequence_FIB-easy.zip" download title="Download blackboard_qti_v2_1-consensus_sequence_FIB-easy.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-consensus_sequence_FIB-easy.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-consensus_sequence_FIB-easy.zip" download title="Download blackboard_export_zip-consensus_sequence_FIB-easy.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-consensus_sequence_FIB-easy.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-consensus_sequence_FIB-easy.zip" download title="Download canvas_qti_v1_2-consensus_sequence_FIB-easy.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-consensus_sequence_FIB-easy.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -337,11 +337,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## Consensus Sequences from Tables (Fill in the Blank)
 
 <div id="consensus_sequence_FIB-hard-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-hard-questions.txt" download title="Download bbq-consensus_sequence_FIB-hard-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-consensus_sequence_FIB-hard-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-hard-questions.txt" download title="Download bbq-consensus_sequence_FIB-hard-questions.txt" aria-label="Click to download the BBQ Text file (bbq-consensus_sequence_FIB-hard-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-consensus_sequence_FIB-hard.zip" download title="Download blackboard_qti_v2_1-consensus_sequence_FIB-hard.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-consensus_sequence_FIB-hard.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-consensus_sequence_FIB-hard.zip" download title="Download blackboard_export_zip-consensus_sequence_FIB-hard.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-consensus_sequence_FIB-hard.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-consensus_sequence_FIB-hard.zip" download title="Download canvas_qti_v1_2-consensus_sequence_FIB-hard.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-consensus_sequence_FIB-hard.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -369,11 +369,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## Consensus Sequences from Alignments (Multiple Choice)
 
 <div id="consensus_sequence_MC-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-consensus_sequence_MC-questions.txt" download title="Download bbq-consensus_sequence_MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-consensus_sequence_MC-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-consensus_sequence_MC-questions.txt" download title="Download bbq-consensus_sequence_MC-questions.txt" aria-label="Click to download the BBQ Text file (bbq-consensus_sequence_MC-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-consensus_sequence_MC.zip" download title="Download blackboard_qti_v2_1-consensus_sequence_MC.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-consensus_sequence_MC.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-consensus_sequence_MC.zip" download title="Download blackboard_export_zip-consensus_sequence_MC.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-consensus_sequence_MC.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-consensus_sequence_MC.zip" download title="Download canvas_qti_v1_2-consensus_sequence_MC.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-consensus_sequence_MC.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -401,11 +401,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## DNA Fragment Migration in Agarose Gel Electrophoresis (Closest/Farthest)
 
 <div id="dna_gel-closest_farthest_MC-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-dna_gel-closest_farthest_MC-questions.txt" download title="Download bbq-dna_gel-closest_farthest_MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-dna_gel-closest_farthest_MC-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-dna_gel-closest_farthest_MC-questions.txt" download title="Download bbq-dna_gel-closest_farthest_MC-questions.txt" aria-label="Click to download the BBQ Text file (bbq-dna_gel-closest_farthest_MC-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-dna_gel-closest_farthest_MC.zip" download title="Download blackboard_qti_v2_1-dna_gel-closest_farthest_MC.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-dna_gel-closest_farthest_MC.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-dna_gel-closest_farthest_MC.zip" download title="Download blackboard_export_zip-dna_gel-closest_farthest_MC.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-dna_gel-closest_farthest_MC.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-dna_gel-closest_farthest_MC.zip" download title="Download canvas_qti_v1_2-dna_gel-closest_farthest_MC.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-dna_gel-closest_farthest_MC.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -433,11 +433,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## DNA Fragment Size from Agarose Gel Migration (Numeric)
 
 <div id="dna_gel-estimate_size-MC_or_NUM-num-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt" download title="Download bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt" download title="Download bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt" aria-label="Click to download the BBQ Text file (bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-dna_gel-estimate_size-MC_or_NUM-num.zip" download title="Download blackboard_qti_v2_1-dna_gel-estimate_size-MC_or_NUM-num.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-dna_gel-estimate_size-MC_or_NUM-num.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-dna_gel-estimate_size-MC_or_NUM-num.zip" download title="Download blackboard_export_zip-dna_gel-estimate_size-MC_or_NUM-num.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-dna_gel-estimate_size-MC_or_NUM-num.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-dna_gel-estimate_size-MC_or_NUM-num.zip" download title="Download canvas_qti_v1_2-dna_gel-estimate_size-MC_or_NUM-num.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-dna_gel-estimate_size-MC_or_NUM-num.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -465,11 +465,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## DNA Melting Temperature Extremes from Sequence (12 Bases)
 
 <div id="dna_melting_temp-len_12-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-dna_melting_temp-len_12-questions.txt" download title="Download bbq-dna_melting_temp-len_12-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-dna_melting_temp-len_12-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-dna_melting_temp-len_12-questions.txt" download title="Download bbq-dna_melting_temp-len_12-questions.txt" aria-label="Click to download the BBQ Text file (bbq-dna_melting_temp-len_12-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-dna_melting_temp-len_12.zip" download title="Download blackboard_qti_v2_1-dna_melting_temp-len_12.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-dna_melting_temp-len_12.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-dna_melting_temp-len_12.zip" download title="Download blackboard_export_zip-dna_melting_temp-len_12.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-dna_melting_temp-len_12.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-dna_melting_temp-len_12.zip" download title="Download canvas_qti_v1_2-dna_melting_temp-len_12.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-dna_melting_temp-len_12.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -497,11 +497,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## Offspring HLA Genotypes (2 Markers, Color)
 
 <div id="hla_genotype-2_markers-color-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-hla_genotype-2_markers-color-questions.txt" download title="Download bbq-hla_genotype-2_markers-color-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-hla_genotype-2_markers-color-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-hla_genotype-2_markers-color-questions.txt" download title="Download bbq-hla_genotype-2_markers-color-questions.txt" aria-label="Click to download the BBQ Text file (bbq-hla_genotype-2_markers-color-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-hla_genotype-2_markers-color.zip" download title="Download blackboard_qti_v2_1-hla_genotype-2_markers-color.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-hla_genotype-2_markers-color.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-hla_genotype-2_markers-color.zip" download title="Download blackboard_export_zip-hla_genotype-2_markers-color.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-hla_genotype-2_markers-color.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-hla_genotype-2_markers-color.zip" download title="Download canvas_qti_v1_2-hla_genotype-2_markers-color.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-hla_genotype-2_markers-color.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -529,11 +529,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## Inverse PCR Primer Selection (15 nt)
 
 <div id="inverse_pcr_design-len_15-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-inverse_pcr_design-len_15-questions.txt" download title="Download bbq-inverse_pcr_design-len_15-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-inverse_pcr_design-len_15-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-inverse_pcr_design-len_15-questions.txt" download title="Download bbq-inverse_pcr_design-len_15-questions.txt" aria-label="Click to download the BBQ Text file (bbq-inverse_pcr_design-len_15-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-inverse_pcr_design-len_15.zip" download title="Download blackboard_qti_v2_1-inverse_pcr_design-len_15.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-inverse_pcr_design-len_15.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-inverse_pcr_design-len_15.zip" download title="Download blackboard_export_zip-inverse_pcr_design-len_15.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-inverse_pcr_design-len_15.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-inverse_pcr_design-len_15.zip" download title="Download canvas_qti_v1_2-inverse_pcr_design-len_15.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-inverse_pcr_design-len_15.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -561,11 +561,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## Restriction Fragment Sizes (12 Length, 2 Sites)
 
 <div id="linear_digest-length_12-sites_2-fragment-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-linear_digest-length_12-sites_2-fragment-questions.txt" download title="Download bbq-linear_digest-length_12-sites_2-fragment-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-linear_digest-length_12-sites_2-fragment-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-linear_digest-length_12-sites_2-fragment-questions.txt" download title="Download bbq-linear_digest-length_12-sites_2-fragment-questions.txt" aria-label="Click to download the BBQ Text file (bbq-linear_digest-length_12-sites_2-fragment-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-linear_digest-length_12-sites_2-fragment.zip" download title="Download blackboard_qti_v2_1-linear_digest-length_12-sites_2-fragment.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-linear_digest-length_12-sites_2-fragment.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-linear_digest-length_12-sites_2-fragment.zip" download title="Download blackboard_export_zip-linear_digest-length_12-sites_2-fragment.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-linear_digest-length_12-sites_2-fragment.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-linear_digest-length_12-sites_2-fragment.zip" download title="Download canvas_qti_v1_2-linear_digest-length_12-sites_2-fragment.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-linear_digest-length_12-sites_2-fragment.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -593,11 +593,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## Nested PCR Primer Pair Selection (24 nt)
 
 <div id="nested_pcr_design-len_24-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-nested_pcr_design-len_24-questions.txt" download title="Download bbq-nested_pcr_design-len_24-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-nested_pcr_design-len_24-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-nested_pcr_design-len_24-questions.txt" download title="Download bbq-nested_pcr_design-len_24-questions.txt" aria-label="Click to download the BBQ Text file (bbq-nested_pcr_design-len_24-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-nested_pcr_design-len_24.zip" download title="Download blackboard_qti_v2_1-nested_pcr_design-len_24.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-nested_pcr_design-len_24.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-nested_pcr_design-len_24.zip" download title="Download blackboard_export_zip-nested_pcr_design-len_24.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-nested_pcr_design-len_24.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-nested_pcr_design-len_24.zip" download title="Download canvas_qti_v1_2-nested_pcr_design-len_24.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-nested_pcr_design-len_24.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -625,11 +625,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## Restriction Enzyme Overhang Sequences
 
 <div id="overhang_sequence-mc-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-overhang_sequence-mc-questions.txt" download title="Download bbq-overhang_sequence-mc-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-overhang_sequence-mc-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-overhang_sequence-mc-questions.txt" download title="Download bbq-overhang_sequence-mc-questions.txt" aria-label="Click to download the BBQ Text file (bbq-overhang_sequence-mc-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-overhang_sequence-mc.zip" download title="Download blackboard_qti_v2_1-overhang_sequence-mc.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-overhang_sequence-mc.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-overhang_sequence-mc.zip" download title="Download blackboard_export_zip-overhang_sequence-mc.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-overhang_sequence-mc.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-overhang_sequence-mc.zip" download title="Download canvas_qti_v1_2-overhang_sequence-mc.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-overhang_sequence-mc.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -657,11 +657,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## Restriction Enzyme Cut Types (5', 3', or Blunt)
 
 <div id="overhang_type-5_3_blunt-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-overhang_type-5_3_blunt-questions.txt" download title="Download bbq-overhang_type-5_3_blunt-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-overhang_type-5_3_blunt-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-overhang_type-5_3_blunt-questions.txt" download title="Download bbq-overhang_type-5_3_blunt-questions.txt" aria-label="Click to download the BBQ Text file (bbq-overhang_type-5_3_blunt-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-overhang_type-5_3_blunt.zip" download title="Download blackboard_qti_v2_1-overhang_type-5_3_blunt.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-overhang_type-5_3_blunt.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-overhang_type-5_3_blunt.zip" download title="Download blackboard_export_zip-overhang_type-5_3_blunt.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-overhang_type-5_3_blunt.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-overhang_type-5_3_blunt.zip" download title="Download canvas_qti_v1_2-overhang_type-5_3_blunt.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-overhang_type-5_3_blunt.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -689,11 +689,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## Palindromic DNA Sequence Completion
 
 <div id="palindrome_sequence_match-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-palindrome_sequence_match-questions.txt" download title="Download bbq-palindrome_sequence_match-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-palindrome_sequence_match-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-palindrome_sequence_match-questions.txt" download title="Download bbq-palindrome_sequence_match-questions.txt" aria-label="Click to download the BBQ Text file (bbq-palindrome_sequence_match-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-palindrome_sequence_match.zip" download title="Download blackboard_qti_v2_1-palindrome_sequence_match.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-palindrome_sequence_match.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-palindrome_sequence_match.zip" download title="Download blackboard_export_zip-palindrome_sequence_match.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-palindrome_sequence_match.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-palindrome_sequence_match.zip" download title="Download canvas_qti_v1_2-palindrome_sequence_match.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-palindrome_sequence_match.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -721,11 +721,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## PCR Primer Selection (36 bp Template, 9-nt Primers)
 
 <div id="pcr_design-36_bp-9_primer-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-pcr_design-36_bp-9_primer-questions.txt" download title="Download bbq-pcr_design-36_bp-9_primer-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-pcr_design-36_bp-9_primer-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-pcr_design-36_bp-9_primer-questions.txt" download title="Download bbq-pcr_design-36_bp-9_primer-questions.txt" aria-label="Click to download the BBQ Text file (bbq-pcr_design-36_bp-9_primer-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-pcr_design-36_bp-9_primer.zip" download title="Download blackboard_qti_v2_1-pcr_design-36_bp-9_primer.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-pcr_design-36_bp-9_primer.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-pcr_design-36_bp-9_primer.zip" download title="Download blackboard_export_zip-pcr_design-36_bp-9_primer.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-pcr_design-36_bp-9_primer.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-pcr_design-36_bp-9_primer.zip" download title="Download canvas_qti_v1_2-pcr_design-36_bp-9_primer.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-pcr_design-36_bp-9_primer.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -753,11 +753,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## RFLP Paternity Testing (EASY, 3 Males)
 
 <div id="who_father_html-EASY-3_males-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-who_father_html-EASY-3_males-questions.txt" download title="Download bbq-who_father_html-EASY-3_males-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-who_father_html-EASY-3_males-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-who_father_html-EASY-3_males-questions.txt" download title="Download bbq-who_father_html-EASY-3_males-questions.txt" aria-label="Click to download the BBQ Text file (bbq-who_father_html-EASY-3_males-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-who_father_html-EASY-3_males.zip" download title="Download blackboard_qti_v2_1-who_father_html-EASY-3_males.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-who_father_html-EASY-3_males.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-who_father_html-EASY-3_males.zip" download title="Download blackboard_export_zip-who_father_html-EASY-3_males.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-who_father_html-EASY-3_males.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-who_father_html-EASY-3_males.zip" download title="Download canvas_qti_v1_2-who_father_html-EASY-3_males.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-who_father_html-EASY-3_males.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -785,11 +785,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## RFLP Paternity Testing (HARD, 9 Males)
 
 <div id="who_father_html-HARD-9_males-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-who_father_html-HARD-9_males-questions.txt" download title="Download bbq-who_father_html-HARD-9_males-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-who_father_html-HARD-9_males-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-who_father_html-HARD-9_males-questions.txt" download title="Download bbq-who_father_html-HARD-9_males-questions.txt" aria-label="Click to download the BBQ Text file (bbq-who_father_html-HARD-9_males-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-who_father_html-HARD-9_males.zip" download title="Download blackboard_qti_v2_1-who_father_html-HARD-9_males.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-who_father_html-HARD-9_males.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-who_father_html-HARD-9_males.zip" download title="Download blackboard_export_zip-who_father_html-HARD-9_males.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-who_father_html-HARD-9_males.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-who_father_html-HARD-9_males.zip" download title="Download canvas_qti_v1_2-who_father_html-HARD-9_males.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-who_father_html-HARD-9_males.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -817,11 +817,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## RFLP Paternity Testing (MEDIUM, 5 Males)
 
 <div id="who_father_html-MEDIUM-5_males-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-who_father_html-MEDIUM-5_males-questions.txt" download title="Download bbq-who_father_html-MEDIUM-5_males-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-who_father_html-MEDIUM-5_males-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-who_father_html-MEDIUM-5_males-questions.txt" download title="Download bbq-who_father_html-MEDIUM-5_males-questions.txt" aria-label="Click to download the BBQ Text file (bbq-who_father_html-MEDIUM-5_males-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-who_father_html-MEDIUM-5_males.zip" download title="Download blackboard_qti_v2_1-who_father_html-MEDIUM-5_males.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-who_father_html-MEDIUM-5_males.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-who_father_html-MEDIUM-5_males.zip" download title="Download blackboard_export_zip-who_father_html-MEDIUM-5_males.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-who_father_html-MEDIUM-5_males.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-who_father_html-MEDIUM-5_males.zip" download title="Download canvas_qti_v1_2-who_father_html-MEDIUM-5_males.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-who_father_html-MEDIUM-5_males.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -849,11 +849,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## RFLP Forensic DNA Analysis (EASY, 4 Suspects)
 
 <div id="who_killer_html-EASY-4_suspects-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-who_killer_html-EASY-4_suspects-questions.txt" download title="Download bbq-who_killer_html-EASY-4_suspects-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-who_killer_html-EASY-4_suspects-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-who_killer_html-EASY-4_suspects-questions.txt" download title="Download bbq-who_killer_html-EASY-4_suspects-questions.txt" aria-label="Click to download the BBQ Text file (bbq-who_killer_html-EASY-4_suspects-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-who_killer_html-EASY-4_suspects.zip" download title="Download blackboard_qti_v2_1-who_killer_html-EASY-4_suspects.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-who_killer_html-EASY-4_suspects.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-who_killer_html-EASY-4_suspects.zip" download title="Download blackboard_export_zip-who_killer_html-EASY-4_suspects.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-who_killer_html-EASY-4_suspects.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-who_killer_html-EASY-4_suspects.zip" download title="Download canvas_qti_v1_2-who_killer_html-EASY-4_suspects.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-who_killer_html-EASY-4_suspects.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -881,11 +881,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## RFLP Forensic DNA Analysis (HARD, 9 Suspects)
 
 <div id="who_killer_html-HARD-9_suspects-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-who_killer_html-HARD-9_suspects-questions.txt" download title="Download bbq-who_killer_html-HARD-9_suspects-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-who_killer_html-HARD-9_suspects-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-who_killer_html-HARD-9_suspects-questions.txt" download title="Download bbq-who_killer_html-HARD-9_suspects-questions.txt" aria-label="Click to download the BBQ Text file (bbq-who_killer_html-HARD-9_suspects-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-who_killer_html-HARD-9_suspects.zip" download title="Download blackboard_qti_v2_1-who_killer_html-HARD-9_suspects.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-who_killer_html-HARD-9_suspects.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-who_killer_html-HARD-9_suspects.zip" download title="Download blackboard_export_zip-who_killer_html-HARD-9_suspects.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-who_killer_html-HARD-9_suspects.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-who_killer_html-HARD-9_suspects.zip" download title="Download canvas_qti_v1_2-who_killer_html-HARD-9_suspects.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-who_killer_html-HARD-9_suspects.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -913,11 +913,11 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## RFLP Forensic DNA Analysis (MEDIUM, 5 Suspects)
 
 <div id="who_killer_html-MEDIUM-5_suspects-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-who_killer_html-MEDIUM-5_suspects-questions.txt" download title="Download bbq-who_killer_html-MEDIUM-5_suspects-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-who_killer_html-MEDIUM-5_suspects-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-who_killer_html-MEDIUM-5_suspects-questions.txt" download title="Download bbq-who_killer_html-MEDIUM-5_suspects-questions.txt" aria-label="Click to download the BBQ Text file (bbq-who_killer_html-MEDIUM-5_suspects-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-who_killer_html-MEDIUM-5_suspects.zip" download title="Download blackboard_qti_v2_1-who_killer_html-MEDIUM-5_suspects.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-who_killer_html-MEDIUM-5_suspects.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-who_killer_html-MEDIUM-5_suspects.zip" download title="Download blackboard_export_zip-who_killer_html-MEDIUM-5_suspects.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-who_killer_html-MEDIUM-5_suspects.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-who_killer_html-MEDIUM-5_suspects.zip" download title="Download canvas_qti_v1_2-who_killer_html-MEDIUM-5_suspects.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-who_killer_html-MEDIUM-5_suspects.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2

@@ -5,11 +5,11 @@ RNA splicing, mRNA maturation, and CRISPR gene editing.
 ## True/False Statements About Intron Removal Mechanisms
 
 <div id="TFMS-intron_splicing-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-TFMS-intron_splicing-questions.txt" download title="Download bbq-TFMS-intron_splicing-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-intron_splicing-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-TFMS-intron_splicing-questions.txt" download title="Download bbq-TFMS-intron_splicing-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-intron_splicing-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-TFMS-intron_splicing.zip" download title="Download blackboard_qti_v2_1-TFMS-intron_splicing.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-TFMS-intron_splicing.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-intron_splicing.zip" download title="Download blackboard_export_zip-TFMS-intron_splicing.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-intron_splicing.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-intron_splicing.zip" download title="Download canvas_qti_v1_2-TFMS-intron_splicing.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-intron_splicing.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -40,11 +40,11 @@ RNA splicing, mRNA maturation, and CRISPR gene editing.
 ## True/False Statements About mRNA Post-Transcriptional Modification
 
 <div id="TFMS-mRNA_processing-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-TFMS-mRNA_processing-questions.txt" download title="Download bbq-TFMS-mRNA_processing-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-mRNA_processing-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-TFMS-mRNA_processing-questions.txt" download title="Download bbq-TFMS-mRNA_processing-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-mRNA_processing-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-TFMS-mRNA_processing.zip" download title="Download blackboard_qti_v2_1-TFMS-mRNA_processing.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-TFMS-mRNA_processing.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-mRNA_processing.zip" download title="Download blackboard_export_zip-TFMS-mRNA_processing.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-mRNA_processing.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-mRNA_processing.zip" download title="Download canvas_qti_v1_2-TFMS-mRNA_processing.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-mRNA_processing.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -75,11 +75,11 @@ RNA splicing, mRNA maturation, and CRISPR gene editing.
 ## Alternative Splicing Possibilities
 
 <div id="exon_splicing-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-exon_splicing-questions.txt" download title="Download bbq-exon_splicing-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-exon_splicing-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-exon_splicing-questions.txt" download title="Download bbq-exon_splicing-questions.txt" aria-label="Click to download the BBQ Text file (bbq-exon_splicing-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-exon_splicing.zip" download title="Download blackboard_qti_v2_1-exon_splicing.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-exon_splicing.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-exon_splicing.zip" download title="Download blackboard_export_zip-exon_splicing.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-exon_splicing.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-exon_splicing.zip" download title="Download canvas_qti_v1_2-exon_splicing.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-exon_splicing.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2

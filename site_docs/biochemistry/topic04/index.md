@@ -7,11 +7,11 @@ Students identify levels of protein structure, distinguish alpha helices from be
 ## Matching Protein Structure Levels to Descriptions
 
 <div id="MATCH-levels_of_protein_structure-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MATCH-levels_of_protein_structure-questions.txt" download title="Download bbq-MATCH-levels_of_protein_structure-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-levels_of_protein_structure-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-MATCH-levels_of_protein_structure-questions.txt" download title="Download bbq-MATCH-levels_of_protein_structure-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-levels_of_protein_structure-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-levels_of_protein_structure.zip" download title="Download blackboard_qti_v2_1-MATCH-levels_of_protein_structure.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-levels_of_protein_structure.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-levels_of_protein_structure.zip" download title="Download blackboard_export_zip-MATCH-levels_of_protein_structure.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-levels_of_protein_structure.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-levels_of_protein_structure.zip" download title="Download canvas_qti_v1_2-MATCH-levels_of_protein_structure.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-levels_of_protein_structure.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -42,11 +42,11 @@ Students identify levels of protein structure, distinguish alpha helices from be
 ## Levels of Protein Structure from Descriptions
 
 <div id="WOMC-levels_of_protein_structure-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-WOMC-levels_of_protein_structure-questions.txt" download title="Download bbq-WOMC-levels_of_protein_structure-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-levels_of_protein_structure-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-WOMC-levels_of_protein_structure-questions.txt" download title="Download bbq-WOMC-levels_of_protein_structure-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-levels_of_protein_structure-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-levels_of_protein_structure.zip" download title="Download blackboard_qti_v2_1-WOMC-levels_of_protein_structure.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-levels_of_protein_structure.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-levels_of_protein_structure.zip" download title="Download blackboard_export_zip-WOMC-levels_of_protein_structure.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-levels_of_protein_structure.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-levels_of_protein_structure.zip" download title="Download canvas_qti_v1_2-WOMC-levels_of_protein_structure.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-levels_of_protein_structure.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -77,11 +77,11 @@ Students identify levels of protein structure, distinguish alpha helices from be
 ## Hydrogen Bonds in Alpha-Helix Structures (Multiple Answer)
 
 <div id="alpha_helix_h-bonds-MA-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-alpha_helix_h-bonds-MA-questions.txt" download title="Download bbq-alpha_helix_h-bonds-MA-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-alpha_helix_h-bonds-MA-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-alpha_helix_h-bonds-MA-questions.txt" download title="Download bbq-alpha_helix_h-bonds-MA-questions.txt" aria-label="Click to download the BBQ Text file (bbq-alpha_helix_h-bonds-MA-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-alpha_helix_h-bonds-MA.zip" download title="Download blackboard_qti_v2_1-alpha_helix_h-bonds-MA.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-alpha_helix_h-bonds-MA.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-alpha_helix_h-bonds-MA.zip" download title="Download blackboard_export_zip-alpha_helix_h-bonds-MA.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-alpha_helix_h-bonds-MA.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-alpha_helix_h-bonds-MA.zip" download title="Download canvas_qti_v1_2-alpha_helix_h-bonds-MA.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-alpha_helix_h-bonds-MA.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -109,11 +109,11 @@ Students identify levels of protein structure, distinguish alpha helices from be
 ## Hydrogen Bonds in Alpha-Helix Structures (Multiple Choice)
 
 <div id="alpha_helix_h-bonds-MC-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-alpha_helix_h-bonds-MC-questions.txt" download title="Download bbq-alpha_helix_h-bonds-MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-alpha_helix_h-bonds-MC-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-alpha_helix_h-bonds-MC-questions.txt" download title="Download bbq-alpha_helix_h-bonds-MC-questions.txt" aria-label="Click to download the BBQ Text file (bbq-alpha_helix_h-bonds-MC-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-alpha_helix_h-bonds-MC.zip" download title="Download blackboard_qti_v2_1-alpha_helix_h-bonds-MC.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-alpha_helix_h-bonds-MC.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-alpha_helix_h-bonds-MC.zip" download title="Download blackboard_export_zip-alpha_helix_h-bonds-MC.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-alpha_helix_h-bonds-MC.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-alpha_helix_h-bonds-MC.zip" download title="Download canvas_qti_v1_2-alpha_helix_h-bonds-MC.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-alpha_helix_h-bonds-MC.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2

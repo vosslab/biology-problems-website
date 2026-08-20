@@ -7,11 +7,11 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 ## Matching Biochemical Functional Groups to Descriptions
 
 <div id="MATCH-biochemical_functional_groups-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MATCH-biochemical_functional_groups-questions.txt" download title="Download bbq-MATCH-biochemical_functional_groups-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-biochemical_functional_groups-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-MATCH-biochemical_functional_groups-questions.txt" download title="Download bbq-MATCH-biochemical_functional_groups-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-biochemical_functional_groups-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-biochemical_functional_groups.zip" download title="Download blackboard_qti_v2_1-MATCH-biochemical_functional_groups.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-biochemical_functional_groups.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-biochemical_functional_groups.zip" download title="Download blackboard_export_zip-MATCH-biochemical_functional_groups.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-biochemical_functional_groups.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-biochemical_functional_groups.zip" download title="Download canvas_qti_v1_2-MATCH-biochemical_functional_groups.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-biochemical_functional_groups.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -42,11 +42,11 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 ## Matching Chemical Bond Types to Characteristics
 
 <div id="MATCH-bond_types-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MATCH-bond_types-questions.txt" download title="Download bbq-MATCH-bond_types-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-bond_types-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-MATCH-bond_types-questions.txt" download title="Download bbq-MATCH-bond_types-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-bond_types-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-bond_types.zip" download title="Download blackboard_qti_v2_1-MATCH-bond_types.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-bond_types.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-bond_types.zip" download title="Download blackboard_export_zip-MATCH-bond_types.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-bond_types.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-bond_types.zip" download title="Download canvas_qti_v1_2-MATCH-bond_types.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-bond_types.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -77,11 +77,11 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 ## Matching Macromolecule Types to Descriptions (Reduced Set)
 
 <div id="MATCH-macromolecules-biol301-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MATCH-macromolecules-biol301-questions.txt" download title="Download bbq-MATCH-macromolecules-biol301-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-macromolecules-biol301-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-MATCH-macromolecules-biol301-questions.txt" download title="Download bbq-MATCH-macromolecules-biol301-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-macromolecules-biol301-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-macromolecules-biol301.zip" download title="Download blackboard_qti_v2_1-MATCH-macromolecules-biol301.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-macromolecules-biol301.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-macromolecules-biol301.zip" download title="Download blackboard_export_zip-MATCH-macromolecules-biol301.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-macromolecules-biol301.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-macromolecules-biol301.zip" download title="Download canvas_qti_v1_2-MATCH-macromolecules-biol301.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-macromolecules-biol301.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -112,11 +112,11 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 ## Matching Macromolecule Types to Descriptions (Full Set)
 
 <div id="MATCH-macromolecules-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MATCH-macromolecules-questions.txt" download title="Download bbq-MATCH-macromolecules-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-macromolecules-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-MATCH-macromolecules-questions.txt" download title="Download bbq-MATCH-macromolecules-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-macromolecules-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-macromolecules.zip" download title="Download blackboard_qti_v2_1-MATCH-macromolecules.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-macromolecules.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-macromolecules.zip" download title="Download blackboard_export_zip-MATCH-macromolecules.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-macromolecules.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-macromolecules.zip" download title="Download canvas_qti_v1_2-MATCH-macromolecules.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-macromolecules.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -147,11 +147,11 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 ## Biochemical Functional Groups from Descriptions
 
 <div id="WOMC-biochemical_functional_groups-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-WOMC-biochemical_functional_groups-questions.txt" download title="Download bbq-WOMC-biochemical_functional_groups-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-biochemical_functional_groups-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-WOMC-biochemical_functional_groups-questions.txt" download title="Download bbq-WOMC-biochemical_functional_groups-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-biochemical_functional_groups-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-biochemical_functional_groups.zip" download title="Download blackboard_qti_v2_1-WOMC-biochemical_functional_groups.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-biochemical_functional_groups.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-biochemical_functional_groups.zip" download title="Download blackboard_export_zip-WOMC-biochemical_functional_groups.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-biochemical_functional_groups.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-biochemical_functional_groups.zip" download title="Download canvas_qti_v1_2-WOMC-biochemical_functional_groups.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-biochemical_functional_groups.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -182,11 +182,11 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 ## Types of Chemical Bonds from Examples
 
 <div id="WOMC-bond_types-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-WOMC-bond_types-questions.txt" download title="Download bbq-WOMC-bond_types-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-bond_types-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-WOMC-bond_types-questions.txt" download title="Download bbq-WOMC-bond_types-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-bond_types-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-bond_types.zip" download title="Download blackboard_qti_v2_1-WOMC-bond_types.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-bond_types.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-bond_types.zip" download title="Download blackboard_export_zip-WOMC-bond_types.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-bond_types.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-bond_types.zip" download title="Download canvas_qti_v1_2-WOMC-bond_types.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-bond_types.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -217,11 +217,11 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 ## Macromolecule Types from Descriptions (Reduced Set)
 
 <div id="WOMC-macromolecules-biol301-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-WOMC-macromolecules-biol301-questions.txt" download title="Download bbq-WOMC-macromolecules-biol301-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-macromolecules-biol301-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-WOMC-macromolecules-biol301-questions.txt" download title="Download bbq-WOMC-macromolecules-biol301-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-macromolecules-biol301-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-macromolecules-biol301.zip" download title="Download blackboard_qti_v2_1-WOMC-macromolecules-biol301.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-macromolecules-biol301.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-macromolecules-biol301.zip" download title="Download blackboard_export_zip-WOMC-macromolecules-biol301.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-macromolecules-biol301.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-macromolecules-biol301.zip" download title="Download canvas_qti_v1_2-WOMC-macromolecules-biol301.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-macromolecules-biol301.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -252,11 +252,11 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 ## Macromolecule Types from Examples (Full Set)
 
 <div id="WOMC-macromolecules-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-WOMC-macromolecules-questions.txt" download title="Download bbq-WOMC-macromolecules-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-macromolecules-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-WOMC-macromolecules-questions.txt" download title="Download bbq-WOMC-macromolecules-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-macromolecules-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-macromolecules.zip" download title="Download blackboard_qti_v2_1-WOMC-macromolecules.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-macromolecules.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-macromolecules.zip" download title="Download blackboard_export_zip-WOMC-macromolecules.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-macromolecules.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-macromolecules.zip" download title="Download canvas_qti_v1_2-WOMC-macromolecules.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-macromolecules.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -287,11 +287,11 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 ## Hydrophobic Compounds from Molecular Formulas
 
 <div id="which_hydrophobic-simple-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-which_hydrophobic-simple-questions.txt" download title="Download bbq-which_hydrophobic-simple-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-which_hydrophobic-simple-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-which_hydrophobic-simple-questions.txt" download title="Download bbq-which_hydrophobic-simple-questions.txt" aria-label="Click to download the BBQ Text file (bbq-which_hydrophobic-simple-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-which_hydrophobic-simple.zip" download title="Download blackboard_qti_v2_1-which_hydrophobic-simple.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-which_hydrophobic-simple.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-which_hydrophobic-simple.zip" download title="Download blackboard_export_zip-which_hydrophobic-simple.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-which_hydrophobic-simple.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-which_hydrophobic-simple.zip" download title="Download canvas_qti_v1_2-which_hydrophobic-simple.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-which_hydrophobic-simple.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -322,11 +322,11 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 ## Macromolecule Types from Chemical Structures
 
 <div id="which_macromolecule-MC-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-which_macromolecule-MC-questions.txt" download title="Download bbq-which_macromolecule-MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-which_macromolecule-MC-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-which_macromolecule-MC-questions.txt" download title="Download bbq-which_macromolecule-MC-questions.txt" aria-label="Click to download the BBQ Text file (bbq-which_macromolecule-MC-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-which_macromolecule-MC.zip" download title="Download blackboard_qti_v2_1-which_macromolecule-MC.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-which_macromolecule-MC.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-which_macromolecule-MC.zip" download title="Download blackboard_export_zip-which_macromolecule-MC.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-which_macromolecule-MC.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-which_macromolecule-MC.zip" download title="Download canvas_qti_v1_2-which_macromolecule-MC.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-which_macromolecule-MC.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2

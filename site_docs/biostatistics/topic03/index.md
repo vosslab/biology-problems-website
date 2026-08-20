@@ -5,11 +5,11 @@ Students calculate mean, median, standard deviation, and variance, convert value
 ## Matching Measures of Center to Definitions
 
 <div id="MATCH-measures_of_center-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MATCH-measures_of_center-questions.txt" download title="Download bbq-MATCH-measures_of_center-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-measures_of_center-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-MATCH-measures_of_center-questions.txt" download title="Download bbq-MATCH-measures_of_center-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-measures_of_center-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-measures_of_center.zip" download title="Download blackboard_qti_v2_1-MATCH-measures_of_center.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-measures_of_center.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-measures_of_center.zip" download title="Download blackboard_export_zip-MATCH-measures_of_center.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-measures_of_center.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-measures_of_center.zip" download title="Download canvas_qti_v1_2-MATCH-measures_of_center.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-measures_of_center.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -40,11 +40,11 @@ Students calculate mean, median, standard deviation, and variance, convert value
 ## Measures of Center from Definitions
 
 <div id="WOMC-measures_of_center-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-WOMC-measures_of_center-questions.txt" download title="Download bbq-WOMC-measures_of_center-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-measures_of_center-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-WOMC-measures_of_center-questions.txt" download title="Download bbq-WOMC-measures_of_center-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-measures_of_center-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-measures_of_center.zip" download title="Download blackboard_qti_v2_1-WOMC-measures_of_center.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-measures_of_center.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-measures_of_center.zip" download title="Download blackboard_export_zip-WOMC-measures_of_center.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-measures_of_center.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-measures_of_center.zip" download title="Download canvas_qti_v1_2-WOMC-measures_of_center.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-measures_of_center.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -75,11 +75,11 @@ Students calculate mean, median, standard deviation, and variance, convert value
 ## Descriptive Statistics Using Google Sheets
 
 <div id="descriptive_stats_google_sheet-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-descriptive_stats_google_sheet-questions.txt" download title="Download bbq-descriptive_stats_google_sheet-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-descriptive_stats_google_sheet-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-descriptive_stats_google_sheet-questions.txt" download title="Download bbq-descriptive_stats_google_sheet-questions.txt" aria-label="Click to download the BBQ Text file (bbq-descriptive_stats_google_sheet-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-descriptive_stats_google_sheet.zip" download title="Download blackboard_qti_v2_1-descriptive_stats_google_sheet.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-descriptive_stats_google_sheet.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-descriptive_stats_google_sheet.zip" download title="Download blackboard_export_zip-descriptive_stats_google_sheet.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-descriptive_stats_google_sheet.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-descriptive_stats_google_sheet.zip" download title="Download canvas_qti_v1_2-descriptive_stats_google_sheet.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-descriptive_stats_google_sheet.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2

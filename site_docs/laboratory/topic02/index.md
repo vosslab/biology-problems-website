@@ -5,11 +5,11 @@ Students prepare solutions from solids or stock reagents by calculating grams ne
 ## Mass for a Target Concentration
 
 <div id="solution-mass_concentration-numeric-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-solution-mass_concentration-numeric-questions.txt" download title="Download bbq-solution-mass_concentration-numeric-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-solution-mass_concentration-numeric-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-solution-mass_concentration-numeric-questions.txt" download title="Download bbq-solution-mass_concentration-numeric-questions.txt" aria-label="Click to download the BBQ Text file (bbq-solution-mass_concentration-numeric-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-solution-mass_concentration-numeric.zip" download title="Download blackboard_qti_v2_1-solution-mass_concentration-numeric.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-solution-mass_concentration-numeric.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-solution-mass_concentration-numeric.zip" download title="Download blackboard_export_zip-solution-mass_concentration-numeric.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-solution-mass_concentration-numeric.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-solution-mass_concentration-numeric.zip" download title="Download canvas_qti_v1_2-solution-mass_concentration-numeric.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-solution-mass_concentration-numeric.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -37,11 +37,11 @@ Students prepare solutions from solids or stock reagents by calculating grams ne
 ## Mass for Weight/Volume Solutions
 
 <div id="solution-mass_vol-numeric-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-solution-mass_vol-numeric-questions.txt" download title="Download bbq-solution-mass_vol-numeric-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-solution-mass_vol-numeric-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-solution-mass_vol-numeric-questions.txt" download title="Download bbq-solution-mass_vol-numeric-questions.txt" aria-label="Click to download the BBQ Text file (bbq-solution-mass_vol-numeric-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-solution-mass_vol-numeric.zip" download title="Download blackboard_qti_v2_1-solution-mass_vol-numeric.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-solution-mass_vol-numeric.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-solution-mass_vol-numeric.zip" download title="Download blackboard_export_zip-solution-mass_vol-numeric.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-solution-mass_vol-numeric.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-solution-mass_vol-numeric.zip" download title="Download canvas_qti_v1_2-solution-mass_vol-numeric.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-solution-mass_vol-numeric.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -69,11 +69,11 @@ Students prepare solutions from solids or stock reagents by calculating grams ne
 ## Mass for Solutions Using Molarity and Molecular Weight
 
 <div id="solution-molarity-mol_weight-numeric-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-solution-molarity-mol_weight-numeric-questions.txt" download title="Download bbq-solution-molarity-mol_weight-numeric-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-solution-molarity-mol_weight-numeric-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-solution-molarity-mol_weight-numeric-questions.txt" download title="Download bbq-solution-molarity-mol_weight-numeric-questions.txt" aria-label="Click to download the BBQ Text file (bbq-solution-molarity-mol_weight-numeric-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-solution-molarity-mol_weight-numeric.zip" download title="Download blackboard_qti_v2_1-solution-molarity-mol_weight-numeric.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-solution-molarity-mol_weight-numeric.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-solution-molarity-mol_weight-numeric.zip" download title="Download blackboard_export_zip-solution-molarity-mol_weight-numeric.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-solution-molarity-mol_weight-numeric.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-solution-molarity-mol_weight-numeric.zip" download title="Download canvas_qti_v1_2-solution-molarity-mol_weight-numeric.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-solution-molarity-mol_weight-numeric.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -101,11 +101,11 @@ Students prepare solutions from solids or stock reagents by calculating grams ne
 ## Solute Volume for Percent Volume/Volume Solutions
 
 <div id="solution-vol_vol-numeric-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-solution-vol_vol-numeric-questions.txt" download title="Download bbq-solution-vol_vol-numeric-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-solution-vol_vol-numeric-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-solution-vol_vol-numeric-questions.txt" download title="Download bbq-solution-vol_vol-numeric-questions.txt" aria-label="Click to download the BBQ Text file (bbq-solution-vol_vol-numeric-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-solution-vol_vol-numeric.zip" download title="Download blackboard_qti_v2_1-solution-vol_vol-numeric.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-solution-vol_vol-numeric.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-solution-vol_vol-numeric.zip" download title="Download blackboard_export_zip-solution-vol_vol-numeric.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-solution-vol_vol-numeric.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-solution-vol_vol-numeric.zip" download title="Download canvas_qti_v1_2-solution-vol_vol-numeric.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-solution-vol_vol-numeric.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2

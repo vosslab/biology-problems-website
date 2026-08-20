@@ -7,11 +7,11 @@ Students analyze allosteric regulation, cooperativity, and sigmoidal binding cur
 ## Allosteric Enzyme Models from Conformational Descriptions
 
 <div id="allosteric_enzyme_models-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-allosteric_enzyme_models-questions.txt" download title="Download bbq-allosteric_enzyme_models-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-allosteric_enzyme_models-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-allosteric_enzyme_models-questions.txt" download title="Download bbq-allosteric_enzyme_models-questions.txt" aria-label="Click to download the BBQ Text file (bbq-allosteric_enzyme_models-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-allosteric_enzyme_models.zip" download title="Download blackboard_qti_v2_1-allosteric_enzyme_models.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-allosteric_enzyme_models.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-allosteric_enzyme_models.zip" download title="Download blackboard_export_zip-allosteric_enzyme_models.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-allosteric_enzyme_models.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-allosteric_enzyme_models.zip" download title="Download canvas_qti_v1_2-allosteric_enzyme_models.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-allosteric_enzyme_models.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -42,11 +42,11 @@ Students analyze allosteric regulation, cooperativity, and sigmoidal binding cur
 ## Effects on Metabolite Production from Enzyme Inactivation
 
 <div id="feedback_merging_pathway-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-feedback_merging_pathway-questions.txt" download title="Download bbq-feedback_merging_pathway-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-feedback_merging_pathway-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-feedback_merging_pathway-questions.txt" download title="Download bbq-feedback_merging_pathway-questions.txt" aria-label="Click to download the BBQ Text file (bbq-feedback_merging_pathway-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-feedback_merging_pathway.zip" download title="Download blackboard_qti_v2_1-feedback_merging_pathway.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-feedback_merging_pathway.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-feedback_merging_pathway.zip" download title="Download blackboard_export_zip-feedback_merging_pathway.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-feedback_merging_pathway.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-feedback_merging_pathway.zip" download title="Download canvas_qti_v1_2-feedback_merging_pathway.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-feedback_merging_pathway.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -77,11 +77,11 @@ Students analyze allosteric regulation, cooperativity, and sigmoidal binding cur
 ## Effects of Enzyme Inhibition on Metabolite Production
 
 <div id="feedback_splitting_pathway-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-feedback_splitting_pathway-questions.txt" download title="Download bbq-feedback_splitting_pathway-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-feedback_splitting_pathway-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-feedback_splitting_pathway-questions.txt" download title="Download bbq-feedback_splitting_pathway-questions.txt" aria-label="Click to download the BBQ Text file (bbq-feedback_splitting_pathway-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-feedback_splitting_pathway.zip" download title="Download blackboard_qti_v2_1-feedback_splitting_pathway.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-feedback_splitting_pathway.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-feedback_splitting_pathway.zip" download title="Download blackboard_export_zip-feedback_splitting_pathway.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-feedback_splitting_pathway.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-feedback_splitting_pathway.zip" download title="Download canvas_qti_v1_2-feedback_splitting_pathway.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-feedback_splitting_pathway.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -112,11 +112,11 @@ Students analyze allosteric regulation, cooperativity, and sigmoidal binding cur
 ## Hemoglobin Oxygen Affinity Under Different Conditions
 
 <div id="hemoglobin_oxygen_affinity-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-hemoglobin_oxygen_affinity-questions.txt" download title="Download bbq-hemoglobin_oxygen_affinity-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-hemoglobin_oxygen_affinity-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-hemoglobin_oxygen_affinity-questions.txt" download title="Download bbq-hemoglobin_oxygen_affinity-questions.txt" aria-label="Click to download the BBQ Text file (bbq-hemoglobin_oxygen_affinity-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-hemoglobin_oxygen_affinity.zip" download title="Download blackboard_qti_v2_1-hemoglobin_oxygen_affinity.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-hemoglobin_oxygen_affinity.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-hemoglobin_oxygen_affinity.zip" download title="Download blackboard_export_zip-hemoglobin_oxygen_affinity.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-hemoglobin_oxygen_affinity.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-hemoglobin_oxygen_affinity.zip" download title="Download canvas_qti_v1_2-hemoglobin_oxygen_affinity.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-hemoglobin_oxygen_affinity.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -147,11 +147,11 @@ Students analyze allosteric regulation, cooperativity, and sigmoidal binding cur
 ## Allosteric Enzymes in Metabolic Pathways
 
 <div id="metabolic_pathway_allosteric-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-metabolic_pathway_allosteric-questions.txt" download title="Download bbq-metabolic_pathway_allosteric-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-metabolic_pathway_allosteric-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-metabolic_pathway_allosteric-questions.txt" download title="Download bbq-metabolic_pathway_allosteric-questions.txt" aria-label="Click to download the BBQ Text file (bbq-metabolic_pathway_allosteric-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-metabolic_pathway_allosteric.zip" download title="Download blackboard_qti_v2_1-metabolic_pathway_allosteric.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-metabolic_pathway_allosteric.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-metabolic_pathway_allosteric.zip" download title="Download blackboard_export_zip-metabolic_pathway_allosteric.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-metabolic_pathway_allosteric.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-metabolic_pathway_allosteric.zip" download title="Download canvas_qti_v1_2-metabolic_pathway_allosteric.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-metabolic_pathway_allosteric.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2

@@ -7,8 +7,9 @@ Blackboard Ultra will automatically randomize the questions, so each student rec
 ---
 
 ## **Part 1: Upload Questions**
-In this section, we will upload the questions into Blackboard Ultra using QTI .zip files.
-The QTI format makes it simple to transfer questions and prepare them for use in Blackboard Ultra quizzes.
+In this section, we will upload the questions into Blackboard Ultra using Blackboard pool-export
+ZIP files. This import path preserves the question formats used by the problem sets, including
+matching questions.
 
 **Steps:**
 
@@ -21,8 +22,8 @@ The QTI format makes it simple to transfer questions and prepare them for use in
 3. **Click on "PLUS" symbol:** In the middle of the page, click the **plus (+)** symbol. If you already have question banks, the plus symbol will appear above the existing banks.
 ![Blackboard Ultra Question Banks page with an arrow pointing to the plus (+) button for adding a new question bank.](bbq_ultra_how_to/Step_01_03-go_to_plus.png){ width=60% }
 
-4. After clicking the **plus (+)** symbol, a dropdown menu will appear. Select **Import from QTI 2.1 package**.
-![dropdown menu in Blackboard Ultra with an arrow pointing to the option 'Import from QTI 2.1 package.'](bbq_ultra_how_to/Step_01_04-dropown_import_qti.png){ width=60% }
+4. After clicking the **plus (+)** symbol, a dropdown menu will appear. Select **Import from
+   file**, then choose the Blackboard pool-export ZIP downloaded from this site.
 
 5. After uploading the .zip file, the new question bank will appear in the list. Click on it to change the name to something more descriptive, so you can easily identify it later.
 ![Blackboard Ultra Question Banks page showing a newly imported bank listed with an arrow pointing to its name, which can be clicked to rename.](bbq_ultra_how_to/Step_01_05-after_import.png){ width=60% }

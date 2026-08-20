@@ -39,7 +39,7 @@ Guides for formatting and importing question banks into popular LMS platforms.
 
 - **[Blackboard Learn](tutorials/bbq_tutorial.md)**  BBQ text file upload.
 
-- **[Blackboard Ultra](tutorials/bbq_ultra_tutorial.md)**  QTI .zip import guide.
+- **[Blackboard Ultra](tutorials/bbq_ultra_tutorial.md)**  Pool-export ZIP import guide.
 
 - **[Canvas](tutorials/canvas_tutorial.md)**  QTI .zip import guide.
 

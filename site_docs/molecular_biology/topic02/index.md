@@ -5,11 +5,11 @@ DNA composition, base pairing, and double-helix structure.
 ## True/False Statements About DNA Structure (BIOL 351)
 
 <div id="TFMS-dna_structure-biol_351-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-TFMS-dna_structure-biol_351-questions.txt" download title="Download bbq-TFMS-dna_structure-biol_351-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-dna_structure-biol_351-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-TFMS-dna_structure-biol_351-questions.txt" download title="Download bbq-TFMS-dna_structure-biol_351-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-dna_structure-biol_351-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-TFMS-dna_structure-biol_351.zip" download title="Download blackboard_qti_v2_1-TFMS-dna_structure-biol_351.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-TFMS-dna_structure-biol_351.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-dna_structure-biol_351.zip" download title="Download blackboard_export_zip-TFMS-dna_structure-biol_351.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-dna_structure-biol_351.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-dna_structure-biol_351.zip" download title="Download canvas_qti_v1_2-TFMS-dna_structure-biol_351.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-dna_structure-biol_351.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -40,11 +40,11 @@ DNA composition, base pairing, and double-helix structure.
 ## True/False Statements About DNA Structure
 
 <div id="TFMS-dna_structure-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-TFMS-dna_structure-questions.txt" download title="Download bbq-TFMS-dna_structure-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-dna_structure-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-TFMS-dna_structure-questions.txt" download title="Download bbq-TFMS-dna_structure-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-dna_structure-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-TFMS-dna_structure.zip" download title="Download blackboard_qti_v2_1-TFMS-dna_structure.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-TFMS-dna_structure.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-dna_structure.zip" download title="Download blackboard_export_zip-TFMS-dna_structure.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-dna_structure.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-dna_structure.zip" download title="Download canvas_qti_v1_2-TFMS-dna_structure.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-dna_structure.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -75,11 +75,11 @@ DNA composition, base pairing, and double-helix structure.
 ## True/False Statements About DNA Melting Temperature (Tm)
 
 <div id="TFMS-melting_Tm_type_1-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-TFMS-melting_Tm_type_1-questions.txt" download title="Download bbq-TFMS-melting_Tm_type_1-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-melting_Tm_type_1-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-TFMS-melting_Tm_type_1-questions.txt" download title="Download bbq-TFMS-melting_Tm_type_1-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-melting_Tm_type_1-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-TFMS-melting_Tm_type_1.zip" download title="Download blackboard_qti_v2_1-TFMS-melting_Tm_type_1.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-TFMS-melting_Tm_type_1.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-melting_Tm_type_1.zip" download title="Download blackboard_export_zip-TFMS-melting_Tm_type_1.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-melting_Tm_type_1.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-melting_Tm_type_1.zip" download title="Download canvas_qti_v1_2-TFMS-melting_Tm_type_1.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-melting_Tm_type_1.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -110,11 +110,11 @@ DNA composition, base pairing, and double-helix structure.
 ## True/False Statements About Factors That Increase DNA Melting Temperature (Tm)
 
 <div id="TFMS-melting_Tm_type_2a-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-TFMS-melting_Tm_type_2a-questions.txt" download title="Download bbq-TFMS-melting_Tm_type_2a-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-melting_Tm_type_2a-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-TFMS-melting_Tm_type_2a-questions.txt" download title="Download bbq-TFMS-melting_Tm_type_2a-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-melting_Tm_type_2a-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-TFMS-melting_Tm_type_2a.zip" download title="Download blackboard_qti_v2_1-TFMS-melting_Tm_type_2a.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-TFMS-melting_Tm_type_2a.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-melting_Tm_type_2a.zip" download title="Download blackboard_export_zip-TFMS-melting_Tm_type_2a.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-melting_Tm_type_2a.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-melting_Tm_type_2a.zip" download title="Download canvas_qti_v1_2-TFMS-melting_Tm_type_2a.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-melting_Tm_type_2a.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -145,11 +145,11 @@ DNA composition, base pairing, and double-helix structure.
 ## True/False Statements About Factors That Decrease DNA Melting Temperature (Tm)
 
 <div id="TFMS-melting_Tm_type_2b-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-TFMS-melting_Tm_type_2b-questions.txt" download title="Download bbq-TFMS-melting_Tm_type_2b-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-melting_Tm_type_2b-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-TFMS-melting_Tm_type_2b-questions.txt" download title="Download bbq-TFMS-melting_Tm_type_2b-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-melting_Tm_type_2b-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-TFMS-melting_Tm_type_2b.zip" download title="Download blackboard_qti_v2_1-TFMS-melting_Tm_type_2b.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-TFMS-melting_Tm_type_2b.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-melting_Tm_type_2b.zip" download title="Download blackboard_export_zip-TFMS-melting_Tm_type_2b.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-melting_Tm_type_2b.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-melting_Tm_type_2b.zip" download title="Download canvas_qti_v1_2-TFMS-melting_Tm_type_2b.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-melting_Tm_type_2b.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -180,11 +180,11 @@ DNA composition, base pairing, and double-helix structure.
 ## True/False Statements About Nucleotide Components
 
 <div id="TFMS-nucleotide_components-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-TFMS-nucleotide_components-questions.txt" download title="Download bbq-TFMS-nucleotide_components-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-nucleotide_components-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-TFMS-nucleotide_components-questions.txt" download title="Download bbq-TFMS-nucleotide_components-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-nucleotide_components-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-TFMS-nucleotide_components.zip" download title="Download blackboard_qti_v2_1-TFMS-nucleotide_components.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-TFMS-nucleotide_components.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-nucleotide_components.zip" download title="Download blackboard_export_zip-TFMS-nucleotide_components.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-nucleotide_components.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-nucleotide_components.zip" download title="Download canvas_qti_v1_2-TFMS-nucleotide_components.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-nucleotide_components.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -215,11 +215,11 @@ DNA composition, base pairing, and double-helix structure.
 ## True/False Statements About RNA and DNA Differences (BIOL 301)
 
 <div id="TFMS-rna_v_dna-biol_301-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-TFMS-rna_v_dna-biol_301-questions.txt" download title="Download bbq-TFMS-rna_v_dna-biol_301-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-rna_v_dna-biol_301-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-TFMS-rna_v_dna-biol_301-questions.txt" download title="Download bbq-TFMS-rna_v_dna-biol_301-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-rna_v_dna-biol_301-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-TFMS-rna_v_dna-biol_301.zip" download title="Download blackboard_qti_v2_1-TFMS-rna_v_dna-biol_301.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-TFMS-rna_v_dna-biol_301.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-rna_v_dna-biol_301.zip" download title="Download blackboard_export_zip-TFMS-rna_v_dna-biol_301.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-rna_v_dna-biol_301.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-rna_v_dna-biol_301.zip" download title="Download canvas_qti_v1_2-TFMS-rna_v_dna-biol_301.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-rna_v_dna-biol_301.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -250,11 +250,11 @@ DNA composition, base pairing, and double-helix structure.
 ## True/False Statements About RNA and DNA Differences
 
 <div id="TFMS-rna_v_dna-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-TFMS-rna_v_dna-questions.txt" download title="Download bbq-TFMS-rna_v_dna-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-rna_v_dna-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-TFMS-rna_v_dna-questions.txt" download title="Download bbq-TFMS-rna_v_dna-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-rna_v_dna-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-TFMS-rna_v_dna.zip" download title="Download blackboard_qti_v2_1-TFMS-rna_v_dna.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-TFMS-rna_v_dna.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-rna_v_dna.zip" download title="Download blackboard_export_zip-TFMS-rna_v_dna.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-rna_v_dna.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-rna_v_dna.zip" download title="Download canvas_qti_v1_2-TFMS-rna_v_dna.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-rna_v_dna.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -285,11 +285,11 @@ DNA composition, base pairing, and double-helix structure.
 ## DNA Base Composition Using Chargaff's Rules (5 Choices)
 
 <div id="chargaff_dna_percent-5_choices-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-chargaff_dna_percent-5_choices-questions.txt" download title="Download bbq-chargaff_dna_percent-5_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chargaff_dna_percent-5_choices-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-chargaff_dna_percent-5_choices-questions.txt" download title="Download bbq-chargaff_dna_percent-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-chargaff_dna_percent-5_choices-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-chargaff_dna_percent-5_choices.zip" download title="Download blackboard_qti_v2_1-chargaff_dna_percent-5_choices.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-chargaff_dna_percent-5_choices.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-chargaff_dna_percent-5_choices.zip" download title="Download blackboard_export_zip-chargaff_dna_percent-5_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-chargaff_dna_percent-5_choices.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-chargaff_dna_percent-5_choices.zip" download title="Download canvas_qti_v1_2-chargaff_dna_percent-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-chargaff_dna_percent-5_choices.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -317,11 +317,11 @@ DNA composition, base pairing, and double-helix structure.
 ## Complementary DNA Sequences Without Direction Labels
 
 <div id="complementary_sequences-mc-directionless-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-complementary_sequences-mc-directionless-questions.txt" download title="Download bbq-complementary_sequences-mc-directionless-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-complementary_sequences-mc-directionless-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-complementary_sequences-mc-directionless-questions.txt" download title="Download bbq-complementary_sequences-mc-directionless-questions.txt" aria-label="Click to download the BBQ Text file (bbq-complementary_sequences-mc-directionless-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-complementary_sequences-mc-directionless.zip" download title="Download blackboard_qti_v2_1-complementary_sequences-mc-directionless.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-complementary_sequences-mc-directionless.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-complementary_sequences-mc-directionless.zip" download title="Download blackboard_export_zip-complementary_sequences-mc-directionless.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-complementary_sequences-mc-directionless.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-complementary_sequences-mc-directionless.zip" download title="Download canvas_qti_v1_2-complementary_sequences-mc-directionless.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-complementary_sequences-mc-directionless.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -349,11 +349,11 @@ DNA composition, base pairing, and double-helix structure.
 ## DNA Melting Temperature Extremes from Sequence (12 Bases)
 
 <div id="dna_melting_temp-len_12-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-dna_melting_temp-len_12-questions.txt" download title="Download bbq-dna_melting_temp-len_12-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-dna_melting_temp-len_12-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-dna_melting_temp-len_12-questions.txt" download title="Download bbq-dna_melting_temp-len_12-questions.txt" aria-label="Click to download the BBQ Text file (bbq-dna_melting_temp-len_12-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-dna_melting_temp-len_12.zip" download title="Download blackboard_qti_v2_1-dna_melting_temp-len_12.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-dna_melting_temp-len_12.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-dna_melting_temp-len_12.zip" download title="Download blackboard_export_zip-dna_melting_temp-len_12.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-dna_melting_temp-len_12.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-dna_melting_temp-len_12.zip" download title="Download canvas_qti_v1_2-dna_melting_temp-len_12.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-dna_melting_temp-len_12.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2

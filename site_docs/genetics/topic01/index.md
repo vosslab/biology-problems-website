@@ -7,11 +7,11 @@ Students identify common genetic disorders and describe basic inheritance patter
 ## Matching Genetic Disorders to Descriptions
 
 <div id="MATCH-genetic_disorders-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MATCH-genetic_disorders-questions.txt" download title="Download bbq-MATCH-genetic_disorders-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-genetic_disorders-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-MATCH-genetic_disorders-questions.txt" download title="Download bbq-MATCH-genetic_disorders-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-genetic_disorders-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-genetic_disorders.zip" download title="Download blackboard_qti_v2_1-MATCH-genetic_disorders.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-genetic_disorders.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-genetic_disorders.zip" download title="Download blackboard_export_zip-MATCH-genetic_disorders.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-genetic_disorders.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-genetic_disorders.zip" download title="Download canvas_qti_v1_2-MATCH-genetic_disorders.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-genetic_disorders.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -42,11 +42,11 @@ Students identify common genetic disorders and describe basic inheritance patter
 ## Genetic Disorders from Descriptions
 
 <div id="WOMC-genetic_disorders-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-WOMC-genetic_disorders-questions.txt" download title="Download bbq-WOMC-genetic_disorders-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-genetic_disorders-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-WOMC-genetic_disorders-questions.txt" download title="Download bbq-WOMC-genetic_disorders-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-genetic_disorders-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-genetic_disorders.zip" download title="Download blackboard_qti_v2_1-WOMC-genetic_disorders.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-genetic_disorders.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-genetic_disorders.zip" download title="Download blackboard_export_zip-WOMC-genetic_disorders.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-genetic_disorders.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-genetic_disorders.zip" download title="Download canvas_qti_v1_2-WOMC-genetic_disorders.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-genetic_disorders.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2

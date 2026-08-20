@@ -5,11 +5,11 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 ## Protein Net Charge at a Given pH
 
 <div id="isoelectric_one_protein-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-isoelectric_one_protein-questions.txt" download title="Download bbq-isoelectric_one_protein-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-isoelectric_one_protein-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-isoelectric_one_protein-questions.txt" download title="Download bbq-isoelectric_one_protein-questions.txt" aria-label="Click to download the BBQ Text file (bbq-isoelectric_one_protein-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-isoelectric_one_protein.zip" download title="Download blackboard_qti_v2_1-isoelectric_one_protein.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-isoelectric_one_protein.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-isoelectric_one_protein.zip" download title="Download blackboard_export_zip-isoelectric_one_protein.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-isoelectric_one_protein.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-isoelectric_one_protein.zip" download title="Download canvas_qti_v1_2-isoelectric_one_protein.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-isoelectric_one_protein.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -40,11 +40,11 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 ## Protein Migration Direction in Isoelectric Focusing
 
 <div id="isoelectric_two_proteins-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-isoelectric_two_proteins-questions.txt" download title="Download bbq-isoelectric_two_proteins-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-isoelectric_two_proteins-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-isoelectric_two_proteins-questions.txt" download title="Download bbq-isoelectric_two_proteins-questions.txt" aria-label="Click to download the BBQ Text file (bbq-isoelectric_two_proteins-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-isoelectric_two_proteins.zip" download title="Download blackboard_qti_v2_1-isoelectric_two_proteins.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-isoelectric_two_proteins.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-isoelectric_two_proteins.zip" download title="Download blackboard_export_zip-isoelectric_two_proteins.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-isoelectric_two_proteins.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-isoelectric_two_proteins.zip" download title="Download canvas_qti_v1_2-isoelectric_two_proteins.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-isoelectric_two_proteins.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -75,11 +75,11 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 ## Protein Molecular Weight from an SDS-PAGE Ladder
 
 <div id="kaleidoscope_ladder_unknown_band-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-kaleidoscope_ladder_unknown_band-questions.txt" download title="Download bbq-kaleidoscope_ladder_unknown_band-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-kaleidoscope_ladder_unknown_band-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-kaleidoscope_ladder_unknown_band-questions.txt" download title="Download bbq-kaleidoscope_ladder_unknown_band-questions.txt" aria-label="Click to download the BBQ Text file (bbq-kaleidoscope_ladder_unknown_band-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-kaleidoscope_ladder_unknown_band.zip" download title="Download blackboard_qti_v2_1-kaleidoscope_ladder_unknown_band.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-kaleidoscope_ladder_unknown_band.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-kaleidoscope_ladder_unknown_band.zip" download title="Download blackboard_export_zip-kaleidoscope_ladder_unknown_band.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-kaleidoscope_ladder_unknown_band.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-kaleidoscope_ladder_unknown_band.zip" download title="Download canvas_qti_v1_2-kaleidoscope_ladder_unknown_band.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-kaleidoscope_ladder_unknown_band.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -110,11 +110,11 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 ## Protein Molecular Weight from SDS-PAGE Migration
 
 <div id="protein_gel_migration-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-protein_gel_migration-questions.txt" download title="Download bbq-protein_gel_migration-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-protein_gel_migration-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-protein_gel_migration-questions.txt" download title="Download bbq-protein_gel_migration-questions.txt" aria-label="Click to download the BBQ Text file (bbq-protein_gel_migration-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-protein_gel_migration.zip" download title="Download blackboard_qti_v2_1-protein_gel_migration.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-protein_gel_migration.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-protein_gel_migration.zip" download title="Download blackboard_export_zip-protein_gel_migration.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-protein_gel_migration.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-protein_gel_migration.zip" download title="Download canvas_qti_v1_2-protein_gel_migration.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-protein_gel_migration.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2

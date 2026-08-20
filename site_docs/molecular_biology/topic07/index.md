@@ -5,11 +5,11 @@ Transcription of genes, RNA polymerase, promoters, and regulation.
 ## Genes Expressed by Activator Proteins
 
 <div id="enhancer_gene_expression-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-enhancer_gene_expression-questions.txt" download title="Download bbq-enhancer_gene_expression-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-enhancer_gene_expression-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-enhancer_gene_expression-questions.txt" download title="Download bbq-enhancer_gene_expression-questions.txt" aria-label="Click to download the BBQ Text file (bbq-enhancer_gene_expression-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-enhancer_gene_expression.zip" download title="Download blackboard_qti_v2_1-enhancer_gene_expression.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-enhancer_gene_expression.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-enhancer_gene_expression.zip" download title="Download blackboard_export_zip-enhancer_gene_expression.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-enhancer_gene_expression.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-enhancer_gene_expression.zip" download title="Download canvas_qti_v1_2-enhancer_gene_expression.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-enhancer_gene_expression.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -37,11 +37,11 @@ Transcription of genes, RNA polymerase, promoters, and regulation.
 ## mRNA Sequences from DNA Templates (Fill in the Blank)
 
 <div id="rna_transcribe_fill_blank-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-rna_transcribe_fill_blank-questions.txt" download title="Download bbq-rna_transcribe_fill_blank-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-rna_transcribe_fill_blank-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-rna_transcribe_fill_blank-questions.txt" download title="Download bbq-rna_transcribe_fill_blank-questions.txt" aria-label="Click to download the BBQ Text file (bbq-rna_transcribe_fill_blank-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-rna_transcribe_fill_blank.zip" download title="Download blackboard_qti_v2_1-rna_transcribe_fill_blank.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-rna_transcribe_fill_blank.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-rna_transcribe_fill_blank.zip" download title="Download blackboard_export_zip-rna_transcribe_fill_blank.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-rna_transcribe_fill_blank.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-rna_transcribe_fill_blank.zip" download title="Download canvas_qti_v1_2-rna_transcribe_fill_blank.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-rna_transcribe_fill_blank.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -69,11 +69,11 @@ Transcription of genes, RNA polymerase, promoters, and regulation.
 ## mRNA Sequences from DNA Templates (5' and 3' Direction)
 
 <div id="rna_transcribe_prime-len_9-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-rna_transcribe_prime-len_9-questions.txt" download title="Download bbq-rna_transcribe_prime-len_9-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-rna_transcribe_prime-len_9-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-rna_transcribe_prime-len_9-questions.txt" download title="Download bbq-rna_transcribe_prime-len_9-questions.txt" aria-label="Click to download the BBQ Text file (bbq-rna_transcribe_prime-len_9-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-rna_transcribe_prime-len_9.zip" download title="Download blackboard_qti_v2_1-rna_transcribe_prime-len_9.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-rna_transcribe_prime-len_9.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-rna_transcribe_prime-len_9.zip" download title="Download blackboard_export_zip-rna_transcribe_prime-len_9.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-rna_transcribe_prime-len_9.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-rna_transcribe_prime-len_9.zip" download title="Download canvas_qti_v1_2-rna_transcribe_prime-len_9.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-rna_transcribe_prime-len_9.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -101,11 +101,11 @@ Transcription of genes, RNA polymerase, promoters, and regulation.
 ## mRNA Sequences from DNA Templates (5' and 3' Fill in the Blank)
 
 <div id="rna_transcribe_prime_fill_blank-len_9-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-rna_transcribe_prime_fill_blank-len_9-questions.txt" download title="Download bbq-rna_transcribe_prime_fill_blank-len_9-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-rna_transcribe_prime_fill_blank-len_9-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-rna_transcribe_prime_fill_blank-len_9-questions.txt" download title="Download bbq-rna_transcribe_prime_fill_blank-len_9-questions.txt" aria-label="Click to download the BBQ Text file (bbq-rna_transcribe_prime_fill_blank-len_9-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-rna_transcribe_prime_fill_blank-len_9.zip" download title="Download blackboard_qti_v2_1-rna_transcribe_prime_fill_blank-len_9.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-rna_transcribe_prime_fill_blank-len_9.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-rna_transcribe_prime_fill_blank-len_9.zip" download title="Download blackboard_export_zip-rna_transcribe_prime_fill_blank-len_9.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-rna_transcribe_prime_fill_blank-len_9.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-rna_transcribe_prime_fill_blank-len_9.zip" download title="Download canvas_qti_v1_2-rna_transcribe_prime_fill_blank-len_9.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-rna_transcribe_prime_fill_blank-len_9.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2

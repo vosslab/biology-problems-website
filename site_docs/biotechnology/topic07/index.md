@@ -5,11 +5,11 @@ Students discuss scientific misconduct, GMO ethics, bioweapons, de-extinction, C
 ## Matching People in the Theranos Story to Roles
 
 <div id="MATCH-theranos_people-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MATCH-theranos_people-questions.txt" download title="Download bbq-MATCH-theranos_people-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-theranos_people-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-MATCH-theranos_people-questions.txt" download title="Download bbq-MATCH-theranos_people-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-theranos_people-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-theranos_people.zip" download title="Download blackboard_qti_v2_1-MATCH-theranos_people.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-theranos_people.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-theranos_people.zip" download title="Download blackboard_export_zip-MATCH-theranos_people.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-theranos_people.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-theranos_people.zip" download title="Download canvas_qti_v1_2-MATCH-theranos_people.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-theranos_people.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -40,11 +40,11 @@ Students discuss scientific misconduct, GMO ethics, bioweapons, de-extinction, C
 ## People in the Theranos Story from Descriptions
 
 <div id="WOMC-theranos_people-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-WOMC-theranos_people-questions.txt" download title="Download bbq-WOMC-theranos_people-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-theranos_people-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-WOMC-theranos_people-questions.txt" download title="Download bbq-WOMC-theranos_people-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-theranos_people-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-theranos_people.zip" download title="Download blackboard_qti_v2_1-WOMC-theranos_people.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-theranos_people.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-theranos_people.zip" download title="Download blackboard_export_zip-WOMC-theranos_people.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-theranos_people.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-theranos_people.zip" download title="Download canvas_qti_v1_2-WOMC-theranos_people.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-theranos_people.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2

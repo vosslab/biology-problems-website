@@ -7,11 +7,11 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 ## Correct Form of the Henderson-Hasselbalch Equation
 
 <div id="Henderson-Hasselbalch-equation-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-equation-questions.txt" download title="Download bbq-Henderson-Hasselbalch-equation-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-Henderson-Hasselbalch-equation-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-equation-questions.txt" download title="Download bbq-Henderson-Hasselbalch-equation-questions.txt" aria-label="Click to download the BBQ Text file (bbq-Henderson-Hasselbalch-equation-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-Henderson-Hasselbalch-equation.zip" download title="Download blackboard_qti_v2_1-Henderson-Hasselbalch-equation.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-Henderson-Hasselbalch-equation.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-Henderson-Hasselbalch-equation.zip" download title="Download blackboard_export_zip-Henderson-Hasselbalch-equation.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-Henderson-Hasselbalch-equation.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-Henderson-Hasselbalch-equation.zip" download title="Download canvas_qti_v1_2-Henderson-Hasselbalch-equation.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-Henderson-Hasselbalch-equation.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -39,11 +39,11 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 ## pH Using the Henderson-Hasselbalch Equation (Multiple Choice)
 
 <div id="Henderson-Hasselbalch-pH_mc-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-pH_mc-questions.txt" download title="Download bbq-Henderson-Hasselbalch-pH_mc-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-Henderson-Hasselbalch-pH_mc-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-pH_mc-questions.txt" download title="Download bbq-Henderson-Hasselbalch-pH_mc-questions.txt" aria-label="Click to download the BBQ Text file (bbq-Henderson-Hasselbalch-pH_mc-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-Henderson-Hasselbalch-pH_mc.zip" download title="Download blackboard_qti_v2_1-Henderson-Hasselbalch-pH_mc.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-Henderson-Hasselbalch-pH_mc.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-Henderson-Hasselbalch-pH_mc.zip" download title="Download blackboard_export_zip-Henderson-Hasselbalch-pH_mc.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-Henderson-Hasselbalch-pH_mc.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-Henderson-Hasselbalch-pH_mc.zip" download title="Download canvas_qti_v1_2-Henderson-Hasselbalch-pH_mc.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-Henderson-Hasselbalch-pH_mc.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -71,11 +71,11 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 ## pH Using the Henderson-Hasselbalch Equation (Numeric)
 
 <div id="Henderson-Hasselbalch-pH_num-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-pH_num-questions.txt" download title="Download bbq-Henderson-Hasselbalch-pH_num-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-Henderson-Hasselbalch-pH_num-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-pH_num-questions.txt" download title="Download bbq-Henderson-Hasselbalch-pH_num-questions.txt" aria-label="Click to download the BBQ Text file (bbq-Henderson-Hasselbalch-pH_num-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-Henderson-Hasselbalch-pH_num.zip" download title="Download blackboard_qti_v2_1-Henderson-Hasselbalch-pH_num.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-Henderson-Hasselbalch-pH_num.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-Henderson-Hasselbalch-pH_num.zip" download title="Download blackboard_export_zip-Henderson-Hasselbalch-pH_num.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-Henderson-Hasselbalch-pH_num.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-Henderson-Hasselbalch-pH_num.zip" download title="Download canvas_qti_v1_2-Henderson-Hasselbalch-pH_num.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-Henderson-Hasselbalch-pH_num.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -103,11 +103,11 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 ## pKa and pKb Using the Henderson-Hasselbalch Equation (Multiple Choice)
 
 <div id="Henderson-Hasselbalch-pKa_mc-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-pKa_mc-questions.txt" download title="Download bbq-Henderson-Hasselbalch-pKa_mc-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-Henderson-Hasselbalch-pKa_mc-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-pKa_mc-questions.txt" download title="Download bbq-Henderson-Hasselbalch-pKa_mc-questions.txt" aria-label="Click to download the BBQ Text file (bbq-Henderson-Hasselbalch-pKa_mc-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-Henderson-Hasselbalch-pKa_mc.zip" download title="Download blackboard_qti_v2_1-Henderson-Hasselbalch-pKa_mc.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-Henderson-Hasselbalch-pKa_mc.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-Henderson-Hasselbalch-pKa_mc.zip" download title="Download blackboard_export_zip-Henderson-Hasselbalch-pKa_mc.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-Henderson-Hasselbalch-pKa_mc.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-Henderson-Hasselbalch-pKa_mc.zip" download title="Download canvas_qti_v1_2-Henderson-Hasselbalch-pKa_mc.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-Henderson-Hasselbalch-pKa_mc.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -135,11 +135,11 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 ## pKa and pKb Using the Henderson-Hasselbalch Equation (Numeric)
 
 <div id="Henderson-Hasselbalch-pKa_num-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-pKa_num-questions.txt" download title="Download bbq-Henderson-Hasselbalch-pKa_num-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-Henderson-Hasselbalch-pKa_num-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-pKa_num-questions.txt" download title="Download bbq-Henderson-Hasselbalch-pKa_num-questions.txt" aria-label="Click to download the BBQ Text file (bbq-Henderson-Hasselbalch-pKa_num-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-Henderson-Hasselbalch-pKa_num.zip" download title="Download blackboard_qti_v2_1-Henderson-Hasselbalch-pKa_num.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-Henderson-Hasselbalch-pKa_num.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-Henderson-Hasselbalch-pKa_num.zip" download title="Download blackboard_export_zip-Henderson-Hasselbalch-pKa_num.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-Henderson-Hasselbalch-pKa_num.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-Henderson-Hasselbalch-pKa_num.zip" download title="Download canvas_qti_v1_2-Henderson-Hasselbalch-pKa_num.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-Henderson-Hasselbalch-pKa_num.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -167,11 +167,11 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 ## Conjugate Base-to-Acid Ratios Using the Henderson-Hasselbalch Equation (Multiple Choice)
 
 <div id="Henderson-Hasselbalch-ratio_mc-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-ratio_mc-questions.txt" download title="Download bbq-Henderson-Hasselbalch-ratio_mc-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-Henderson-Hasselbalch-ratio_mc-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-ratio_mc-questions.txt" download title="Download bbq-Henderson-Hasselbalch-ratio_mc-questions.txt" aria-label="Click to download the BBQ Text file (bbq-Henderson-Hasselbalch-ratio_mc-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-Henderson-Hasselbalch-ratio_mc.zip" download title="Download blackboard_qti_v2_1-Henderson-Hasselbalch-ratio_mc.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-Henderson-Hasselbalch-ratio_mc.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-Henderson-Hasselbalch-ratio_mc.zip" download title="Download blackboard_export_zip-Henderson-Hasselbalch-ratio_mc.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-Henderson-Hasselbalch-ratio_mc.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-Henderson-Hasselbalch-ratio_mc.zip" download title="Download canvas_qti_v1_2-Henderson-Hasselbalch-ratio_mc.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-Henderson-Hasselbalch-ratio_mc.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -199,11 +199,11 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 ## Conjugate Base-to-Acid Ratios Using the Henderson-Hasselbalch Equation (Numeric)
 
 <div id="Henderson-Hasselbalch-ratio_num-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-ratio_num-questions.txt" download title="Download bbq-Henderson-Hasselbalch-ratio_num-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-Henderson-Hasselbalch-ratio_num-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-ratio_num-questions.txt" download title="Download bbq-Henderson-Hasselbalch-ratio_num-questions.txt" aria-label="Click to download the BBQ Text file (bbq-Henderson-Hasselbalch-ratio_num-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-Henderson-Hasselbalch-ratio_num.zip" download title="Download blackboard_qti_v2_1-Henderson-Hasselbalch-ratio_num.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-Henderson-Hasselbalch-ratio_num.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-Henderson-Hasselbalch-ratio_num.zip" download title="Download blackboard_export_zip-Henderson-Hasselbalch-ratio_num.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-Henderson-Hasselbalch-ratio_num.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-Henderson-Hasselbalch-ratio_num.zip" download title="Download canvas_qti_v1_2-Henderson-Hasselbalch-ratio_num.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-Henderson-Hasselbalch-ratio_num.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -231,11 +231,11 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 ## Protonation States of Chemical Groups
 
 <div id="chemical_group_pka_forms-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-chemical_group_pka_forms-questions.txt" download title="Download bbq-chemical_group_pka_forms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-chemical_group_pka_forms-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-chemical_group_pka_forms-questions.txt" download title="Download bbq-chemical_group_pka_forms-questions.txt" aria-label="Click to download the BBQ Text file (bbq-chemical_group_pka_forms-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-chemical_group_pka_forms.zip" download title="Download blackboard_qti_v2_1-chemical_group_pka_forms.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-chemical_group_pka_forms.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-chemical_group_pka_forms.zip" download title="Download blackboard_export_zip-chemical_group_pka_forms.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-chemical_group_pka_forms.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-chemical_group_pka_forms.zip" download title="Download canvas_qti_v1_2-chemical_group_pka_forms.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-chemical_group_pka_forms.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -266,11 +266,11 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 ## Functional Groups with Single Bonds
 
 <div id="functional_groups_bond_types-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-functional_groups_bond_types-questions.txt" download title="Download bbq-functional_groups_bond_types-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-functional_groups_bond_types-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-functional_groups_bond_types-questions.txt" download title="Download bbq-functional_groups_bond_types-questions.txt" aria-label="Click to download the BBQ Text file (bbq-functional_groups_bond_types-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-functional_groups_bond_types.zip" download title="Download blackboard_qti_v2_1-functional_groups_bond_types.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-functional_groups_bond_types.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-functional_groups_bond_types.zip" download title="Download blackboard_export_zip-functional_groups_bond_types.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-functional_groups_bond_types.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-functional_groups_bond_types.zip" download title="Download canvas_qti_v1_2-functional_groups_bond_types.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-functional_groups_bond_types.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -301,11 +301,11 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 ## Optimal Buffering Range Using pKa
 
 <div id="optimal_buffering_range-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-optimal_buffering_range-questions.txt" download title="Download bbq-optimal_buffering_range-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-optimal_buffering_range-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-optimal_buffering_range-questions.txt" download title="Download bbq-optimal_buffering_range-questions.txt" aria-label="Click to download the BBQ Text file (bbq-optimal_buffering_range-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-optimal_buffering_range.zip" download title="Download blackboard_qti_v2_1-optimal_buffering_range.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-optimal_buffering_range.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-optimal_buffering_range.zip" download title="Download blackboard_export_zip-optimal_buffering_range.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-optimal_buffering_range.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-optimal_buffering_range.zip" download title="Download canvas_qti_v1_2-optimal_buffering_range.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-optimal_buffering_range.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -336,11 +336,11 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 ## Most Abundant Diprotic State at a Given pH Using pKa
 
 <div id="pKa_buffer_state-2_protons-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-pKa_buffer_state-2_protons-questions.txt" download title="Download bbq-pKa_buffer_state-2_protons-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-pKa_buffer_state-2_protons-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-pKa_buffer_state-2_protons-questions.txt" download title="Download bbq-pKa_buffer_state-2_protons-questions.txt" aria-label="Click to download the BBQ Text file (bbq-pKa_buffer_state-2_protons-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-pKa_buffer_state-2_protons.zip" download title="Download blackboard_qti_v2_1-pKa_buffer_state-2_protons.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-pKa_buffer_state-2_protons.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-pKa_buffer_state-2_protons.zip" download title="Download blackboard_export_zip-pKa_buffer_state-2_protons.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-pKa_buffer_state-2_protons.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-pKa_buffer_state-2_protons.zip" download title="Download canvas_qti_v1_2-pKa_buffer_state-2_protons.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-pKa_buffer_state-2_protons.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -368,11 +368,11 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 ## Most Abundant Triprotic State at a Given pH Using pKa
 
 <div id="pKa_buffer_state-3_protons-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-pKa_buffer_state-3_protons-questions.txt" download title="Download bbq-pKa_buffer_state-3_protons-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-pKa_buffer_state-3_protons-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-pKa_buffer_state-3_protons-questions.txt" download title="Download bbq-pKa_buffer_state-3_protons-questions.txt" aria-label="Click to download the BBQ Text file (bbq-pKa_buffer_state-3_protons-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-pKa_buffer_state-3_protons.zip" download title="Download blackboard_qti_v2_1-pKa_buffer_state-3_protons.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-pKa_buffer_state-3_protons.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-pKa_buffer_state-3_protons.zip" download title="Download blackboard_export_zip-pKa_buffer_state-3_protons.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-pKa_buffer_state-3_protons.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-pKa_buffer_state-3_protons.zip" download title="Download canvas_qti_v1_2-pKa_buffer_state-3_protons.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-pKa_buffer_state-3_protons.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -400,11 +400,11 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 ## Most Abundant Tetraprotic State at a Given pH Using pKa
 
 <div id="pKa_buffer_state-4_protons-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-pKa_buffer_state-4_protons-questions.txt" download title="Download bbq-pKa_buffer_state-4_protons-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-pKa_buffer_state-4_protons-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-pKa_buffer_state-4_protons-questions.txt" download title="Download bbq-pKa_buffer_state-4_protons-questions.txt" aria-label="Click to download the BBQ Text file (bbq-pKa_buffer_state-4_protons-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-pKa_buffer_state-4_protons.zip" download title="Download blackboard_qti_v2_1-pKa_buffer_state-4_protons.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-pKa_buffer_state-4_protons.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-pKa_buffer_state-4_protons.zip" download title="Download blackboard_export_zip-pKa_buffer_state-4_protons.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-pKa_buffer_state-4_protons.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-pKa_buffer_state-4_protons.zip" download title="Download canvas_qti_v1_2-pKa_buffer_state-4_protons.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-pKa_buffer_state-4_protons.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -432,11 +432,11 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 ## pH Differences Between Solutions
 
 <div id="ph_h_concentration_ratio-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-ph_h_concentration_ratio-questions.txt" download title="Download bbq-ph_h_concentration_ratio-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-ph_h_concentration_ratio-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-ph_h_concentration_ratio-questions.txt" download title="Download bbq-ph_h_concentration_ratio-questions.txt" aria-label="Click to download the BBQ Text file (bbq-ph_h_concentration_ratio-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-ph_h_concentration_ratio.zip" download title="Download blackboard_qti_v2_1-ph_h_concentration_ratio.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-ph_h_concentration_ratio.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-ph_h_concentration_ratio.zip" download title="Download blackboard_export_zip-ph_h_concentration_ratio.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-ph_h_concentration_ratio.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-ph_h_concentration_ratio.zip" download title="Download canvas_qti_v1_2-ph_h_concentration_ratio.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-ph_h_concentration_ratio.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
