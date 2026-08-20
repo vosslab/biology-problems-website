@@ -5,7 +5,7 @@
 ## DBsubject('Genetics')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-07-12')
+## Date('2026-08-19')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -34,8 +34,8 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'definition',
     'choices' => [
       '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
+      '<span style="color: #007576; font-weight:700;">homologous</span>',
       'synapsis',
-      'crossing over',
       'chiasmata',
     ],
     'correct' => '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
@@ -48,7 +48,7 @@ $showPartialCorrectAnswers = 0;
       '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
       '<span style="color: #007576; font-weight:700;">homologous</span>',
       'sister chromatids',
-      'chiasmata',
+      'crossing over',
     ],
     'correct' => '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
   },
@@ -60,7 +60,7 @@ $showPartialCorrectAnswers = 0;
       '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
       '<span style="color: #007576; font-weight:700;">homologous</span>',
       'sister chromatids',
-      'chiasmata',
+      'crossing over',
     ],
     'correct' => '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
   },
@@ -83,8 +83,8 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
       'synapsis',
-      'sister chromatids',
       'crossing over',
+      'chiasmata',
     ],
     'correct' => '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
   },
@@ -94,9 +94,9 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'definition',
     'choices' => [
       '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
+      '<span style="color: #007576; font-weight:700;">homologous</span>',
       'synapsis',
       'crossing over',
-      'chiasmata',
     ],
     'correct' => '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
   },
@@ -106,9 +106,9 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'definition',
     'choices' => [
       '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
+      '<span style="color: #007576; font-weight:700;">homologous</span>',
       'synapsis',
       'sister chromatids',
-      'crossing over',
     ],
     'correct' => '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
   },
@@ -118,9 +118,9 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'definition',
     'choices' => [
       '<span style="color: #007576; font-weight:700;">homologous</span>',
+      'synapsis',
       'sister chromatids',
       'crossing over',
-      'chiasmata',
     ],
     'correct' => '<span style="color: #007576; font-weight:700;">homologous</span>',
   },
@@ -129,10 +129,10 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'Meiosis terms',
     'singular_item' => 'definition',
     'choices' => [
+      '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
       '<span style="color: #007576; font-weight:700;">homologous</span>',
       'sister chromatids',
       'crossing over',
-      'chiasmata',
     ],
     'correct' => '<span style="color: #007576; font-weight:700;">homologous</span>',
   },
@@ -141,8 +141,8 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'Meiosis terms',
     'singular_item' => 'definition',
     'choices' => [
-      '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
       '<span style="color: #007576; font-weight:700;">homologous</span>',
+      'synapsis',
       'sister chromatids',
       'crossing over',
     ],
@@ -155,8 +155,8 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
       '<span style="color: #007576; font-weight:700;">homologous</span>',
+      'synapsis',
       'sister chromatids',
-      'chiasmata',
     ],
     'correct' => '<span style="color: #007576; font-weight:700;">homologous</span>',
   },
@@ -167,8 +167,8 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
       '<span style="color: #007576; font-weight:700;">homologous</span>',
-      'sister chromatids',
-      'crossing over',
+      'synapsis',
+      'chiasmata',
     ],
     'correct' => '<span style="color: #007576; font-weight:700;">homologous</span>',
   },
@@ -177,10 +177,10 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'Meiosis terms',
     'singular_item' => 'definition',
     'choices' => [
+      '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
       '<span style="color: #007576; font-weight:700;">homologous</span>',
       'synapsis',
       'sister chromatids',
-      'crossing over',
     ],
     'correct' => '<span style="color: #007576; font-weight:700;">homologous</span>',
   },
@@ -191,7 +191,7 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       '<span style="color: #007576; font-weight:700;">homologous</span>',
       'synapsis',
-      'crossing over',
+      'sister chromatids',
       'chiasmata',
     ],
     'correct' => 'synapsis',
@@ -202,9 +202,9 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'definition',
     'choices' => [
       '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
-      '<span style="color: #007576; font-weight:700;">homologous</span>',
       'synapsis',
-      'sister chromatids',
+      'crossing over',
+      'chiasmata',
     ],
     'correct' => 'synapsis',
   },
@@ -213,10 +213,10 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'Meiosis terms',
     'singular_item' => 'definition',
     'choices' => [
+      '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
       '<span style="color: #007576; font-weight:700;">homologous</span>',
       'synapsis',
       'crossing over',
-      'chiasmata',
     ],
     'correct' => 'synapsis',
   },
@@ -226,8 +226,8 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'definition',
     'choices' => [
       '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
+      '<span style="color: #007576; font-weight:700;">homologous</span>',
       'synapsis',
-      'sister chromatids',
       'chiasmata',
     ],
     'correct' => 'synapsis',
@@ -239,8 +239,8 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       '<span style="color: #007576; font-weight:700;">homologous</span>',
       'synapsis',
+      'sister chromatids',
       'crossing over',
-      'chiasmata',
     ],
     'correct' => 'synapsis',
   },
@@ -249,10 +249,10 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'Meiosis terms',
     'singular_item' => 'definition',
     'choices' => [
-      '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
       '<span style="color: #007576; font-weight:700;">homologous</span>',
       'synapsis',
       'crossing over',
+      'chiasmata',
     ],
     'correct' => 'synapsis',
   },
@@ -261,10 +261,10 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'Meiosis terms',
     'singular_item' => 'definition',
     'choices' => [
-      '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
-      'synapsis',
+      '<span style="color: #007576; font-weight:700;">homologous</span>',
       'sister chromatids',
       'crossing over',
+      'chiasmata',
     ],
     'correct' => 'sister chromatids',
   },
@@ -273,10 +273,10 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'Meiosis terms',
     'singular_item' => 'definition',
     'choices' => [
-      '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
+      '<span style="color: #007576; font-weight:700;">homologous</span>',
+      'synapsis',
       'sister chromatids',
       'crossing over',
-      'chiasmata',
     ],
     'correct' => 'sister chromatids',
   },
@@ -285,10 +285,10 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'Meiosis terms',
     'singular_item' => 'definition',
     'choices' => [
-      '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
       '<span style="color: #007576; font-weight:700;">homologous</span>',
       'synapsis',
       'sister chromatids',
+      'crossing over',
     ],
     'correct' => 'sister chromatids',
   },
@@ -297,10 +297,10 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'Meiosis terms',
     'singular_item' => 'definition',
     'choices' => [
+      '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
+      '<span style="color: #007576; font-weight:700;">homologous</span>',
       'synapsis',
       'sister chromatids',
-      'crossing over',
-      'chiasmata',
     ],
     'correct' => 'sister chromatids',
   },
@@ -310,9 +310,9 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'definition',
     'choices' => [
       '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
-      'synapsis',
+      '<span style="color: #007576; font-weight:700;">homologous</span>',
       'sister chromatids',
-      'chiasmata',
+      'crossing over',
     ],
     'correct' => 'sister chromatids',
   },
@@ -334,9 +334,9 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'definition',
     'choices' => [
       '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
+      'synapsis',
       'sister chromatids',
       'crossing over',
-      'chiasmata',
     ],
     'correct' => 'sister chromatids',
   },
@@ -345,10 +345,10 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'Meiosis terms',
     'singular_item' => 'definition',
     'choices' => [
+      '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
       '<span style="color: #007576; font-weight:700;">homologous</span>',
+      'synapsis',
       'sister chromatids',
-      'crossing over',
-      'chiasmata',
     ],
     'correct' => 'sister chromatids',
   },
@@ -357,8 +357,8 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'Meiosis terms',
     'singular_item' => 'definition',
     'choices' => [
-      '<span style="color: #007576; font-weight:700;">homologous</span>',
       'synapsis',
+      'sister chromatids',
       'crossing over',
       'chiasmata',
     ],
@@ -370,7 +370,7 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'definition',
     'choices' => [
       '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
-      'sister chromatids',
+      'synapsis',
       'crossing over',
       'chiasmata',
     ],
@@ -381,8 +381,8 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'Meiosis terms',
     'singular_item' => 'definition',
     'choices' => [
+      '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
       'synapsis',
-      'sister chromatids',
       'crossing over',
       'chiasmata',
     ],
@@ -394,9 +394,9 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'definition',
     'choices' => [
       '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
-      'synapsis',
+      '<span style="color: #007576; font-weight:700;">homologous</span>',
+      'sister chromatids',
       'crossing over',
-      'chiasmata',
     ],
     'correct' => 'crossing over',
   },
@@ -407,7 +407,7 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
       '<span style="color: #007576; font-weight:700;">homologous</span>',
-      'sister chromatids',
+      'synapsis',
       'crossing over',
     ],
     'correct' => 'crossing over',
@@ -418,9 +418,9 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'definition',
     'choices' => [
       '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
-      'synapsis',
       'sister chromatids',
       'crossing over',
+      'chiasmata',
     ],
     'correct' => 'crossing over',
   },
@@ -429,8 +429,8 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'Meiosis terms',
     'singular_item' => 'definition',
     'choices' => [
-      '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
       '<span style="color: #007576; font-weight:700;">homologous</span>',
+      'sister chromatids',
       'crossing over',
       'chiasmata',
     ],
@@ -453,19 +453,7 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'Meiosis terms',
     'singular_item' => 'definition',
     'choices' => [
-      '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
       '<span style="color: #007576; font-weight:700;">homologous</span>',
-      'crossing over',
-      'chiasmata',
-    ],
-    'correct' => 'chiasmata',
-  },
-  {
-    'item_name' => '<strong>the visible link between two (non-sister) chromatids belonging to <span style="color: #d40000; font-weight:700;">homologous chromosomes</span></strong>',
-    'plural_choice' => 'Meiosis terms',
-    'singular_item' => 'definition',
-    'choices' => [
-      '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
       'synapsis',
       'crossing over',
       'chiasmata',
@@ -473,7 +461,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => 'chiasmata',
   },
   {
-    'item_name' => '<strong>the region where <span style="color: #d40000; font-weight:700;">homologous chromosomes</span> stay connected after crossing over</strong>',
+    'item_name' => '<strong>the visible link between two (non-sister) chromatids belonging to <span style="color: #d40000; font-weight:700;">homologous chromosomes</span></strong>',
     'plural_choice' => 'Meiosis terms',
     'singular_item' => 'definition',
     'choices' => [
@@ -485,13 +473,25 @@ $showPartialCorrectAnswers = 0;
     'correct' => 'chiasmata',
   },
   {
-    'item_name' => '<strong>a point of overlap of paired chromatids at which exchange of genetic material has taken place</strong>',
+    'item_name' => '<strong>the region where <span style="color: #d40000; font-weight:700;">homologous chromosomes</span> stay connected after crossing over</strong>',
     'plural_choice' => 'Meiosis terms',
     'singular_item' => 'definition',
     'choices' => [
       '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
-      '<span style="color: #007576; font-weight:700;">homologous</span>',
       'synapsis',
+      'crossing over',
+      'chiasmata',
+    ],
+    'correct' => 'chiasmata',
+  },
+  {
+    'item_name' => '<strong>a point of overlap of paired chromatids at which exchange of genetic material has taken place</strong>',
+    'plural_choice' => 'Meiosis terms',
+    'singular_item' => 'definition',
+    'choices' => [
+      'synapsis',
+      'sister chromatids',
+      'crossing over',
       'chiasmata',
     ],
     'correct' => 'chiasmata',

@@ -5,7 +5,7 @@
 ## DBsubject('Cell Biology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-07-12')
+## Date('2026-08-19')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -47,7 +47,7 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       'Sweet',
       'Umami',
-      'Sour',
+      'Salty',
       'Bitter',
     ],
     'correct' => 'Sweet',
@@ -71,8 +71,8 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       'Sweet',
       'Umami',
+      'Sour',
       'Salty',
-      'Bitter',
     ],
     'correct' => 'Sweet',
   },
@@ -107,7 +107,7 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       'Sweet',
       'Umami',
-      'Salty',
+      'Sour',
       'Bitter',
     ],
     'correct' => 'Sweet',
@@ -129,10 +129,10 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'taste qualities',
     'singular_item' => 'stimulus',
     'choices' => [
+      'Sweet',
       'Umami',
       'Sour',
       'Salty',
-      'Bitter',
     ],
     'correct' => 'Umami',
   },
@@ -141,10 +141,10 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'taste qualities',
     'singular_item' => 'stimulus',
     'choices' => [
-      'Sweet',
       'Umami',
       'Sour',
       'Salty',
+      'Bitter',
     ],
     'correct' => 'Umami',
   },
@@ -156,7 +156,7 @@ $showPartialCorrectAnswers = 0;
       'Sweet',
       'Umami',
       'Sour',
-      'Salty',
+      'Bitter',
     ],
     'correct' => 'Umami',
   },
@@ -165,8 +165,8 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'taste qualities',
     'singular_item' => 'stimulus',
     'choices' => [
+      'Sweet',
       'Umami',
-      'Sour',
       'Salty',
       'Bitter',
     ],
@@ -177,10 +177,10 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'taste qualities',
     'singular_item' => 'stimulus',
     'choices' => [
+      'Sweet',
       'Umami',
       'Sour',
       'Salty',
-      'Bitter',
     ],
     'correct' => 'Umami',
   },
@@ -189,10 +189,10 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'taste qualities',
     'singular_item' => 'stimulus',
     'choices' => [
-      'Sweet',
       'Umami',
       'Sour',
       'Salty',
+      'Bitter',
     ],
     'correct' => 'Sour',
   },
@@ -202,8 +202,8 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'stimulus',
     'choices' => [
       'Sweet',
+      'Umami',
       'Sour',
-      'Salty',
       'Bitter',
     ],
     'correct' => 'Sour',
@@ -225,10 +225,10 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'taste qualities',
     'singular_item' => 'stimulus',
     'choices' => [
+      'Sweet',
       'Umami',
       'Sour',
       'Salty',
-      'Bitter',
     ],
     'correct' => 'Sour',
   },
@@ -237,9 +237,9 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'taste qualities',
     'singular_item' => 'stimulus',
     'choices' => [
+      'Sweet',
       'Umami',
       'Sour',
-      'Salty',
       'Bitter',
     ],
     'correct' => 'Sour',
@@ -275,8 +275,8 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       'Sweet',
       'Umami',
-      'Sour',
       'Salty',
+      'Bitter',
     ],
     'correct' => 'Salty',
   },
@@ -285,8 +285,8 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'taste qualities',
     'singular_item' => 'stimulus',
     'choices' => [
-      'Sweet',
       'Umami',
+      'Sour',
       'Salty',
       'Bitter',
     ],
@@ -311,8 +311,8 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       'Sweet',
       'Umami',
-      'Sour',
       'Salty',
+      'Bitter',
     ],
     'correct' => 'Salty',
   },
@@ -321,10 +321,10 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'taste qualities',
     'singular_item' => 'stimulus',
     'choices' => [
+      'Sweet',
       'Umami',
       'Sour',
       'Salty',
-      'Bitter',
     ],
     'correct' => 'Salty',
   },
@@ -345,8 +345,8 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'taste qualities',
     'singular_item' => 'stimulus',
     'choices' => [
+      'Sweet',
       'Umami',
-      'Sour',
       'Salty',
       'Bitter',
     ],
@@ -358,8 +358,8 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'stimulus',
     'choices' => [
       'Sweet',
+      'Umami',
       'Sour',
-      'Salty',
       'Bitter',
     ],
     'correct' => 'Bitter',

@@ -5,7 +5,7 @@
 ## DBsubject('Cell Biology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-07-12')
+## Date('2026-08-19')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -49,7 +49,7 @@ $showPartialCorrectAnswers = 0;
       'Vision',
       'Smell (olfaction)',
       'Taste (gustation)',
-      'Hearing (audition)',
+      'Balance (vestibular)',
       'Touch (pressure, vibration)',
     ],
     'correct' => 'Vision',
@@ -62,7 +62,7 @@ $showPartialCorrectAnswers = 0;
       'Vision',
       'Smell (olfaction)',
       'Taste (gustation)',
-      'Balance (vestibular)',
+      'Hearing (audition)',
       'Touch (pressure, vibration)',
     ],
     'correct' => 'Vision',
@@ -75,7 +75,7 @@ $showPartialCorrectAnswers = 0;
       'Vision',
       'Smell (olfaction)',
       'Taste (gustation)',
-      'Hearing (audition)',
+      'Balance (vestibular)',
       'Touch (pressure, vibration)',
     ],
     'correct' => 'Smell (olfaction)',
@@ -101,7 +101,7 @@ $showPartialCorrectAnswers = 0;
       'Vision',
       'Smell (olfaction)',
       'Taste (gustation)',
-      'Balance (vestibular)',
+      'Hearing (audition)',
       'Touch (pressure, vibration)',
     ],
     'correct' => 'Smell (olfaction)',
@@ -127,7 +127,7 @@ $showPartialCorrectAnswers = 0;
       'Vision',
       'Smell (olfaction)',
       'Taste (gustation)',
-      'Balance (vestibular)',
+      'Hearing (audition)',
       'Touch (pressure, vibration)',
     ],
     'correct' => 'Taste (gustation)',
@@ -231,7 +231,7 @@ $showPartialCorrectAnswers = 0;
       'Vision',
       'Smell (olfaction)',
       'Taste (gustation)',
-      'Hearing (audition)',
+      'Balance (vestibular)',
       'Touch (pressure, vibration)',
     ],
     'correct' => 'Touch (pressure, vibration)',
@@ -257,7 +257,7 @@ $showPartialCorrectAnswers = 0;
       'Vision',
       'Smell (olfaction)',
       'Taste (gustation)',
-      'Balance (vestibular)',
+      'Hearing (audition)',
       'Touch (pressure, vibration)',
     ],
     'correct' => 'Touch (pressure, vibration)',

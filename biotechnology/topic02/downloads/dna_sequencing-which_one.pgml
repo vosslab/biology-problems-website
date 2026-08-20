@@ -5,7 +5,7 @@
 ## DBsubject('Biotechnology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-07-12')
+## Date('2026-08-19')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -36,7 +36,7 @@ $showPartialCorrectAnswers = 0;
       'Classical Sanger sequencing',
       'Terminal-dye Sanger sequencing',
       'Ion Torrent semiconductor sequencing',
-      'Oxford Nanopore sequencing',
+      'PacBio single molecule real time (SMRT) sequencing',
     ],
     'correct' => 'Classical Sanger sequencing',
   },
@@ -47,8 +47,8 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       'Classical Sanger sequencing',
       'Terminal-dye Sanger sequencing',
-      'Illumina sequencing by synthesis',
       'Ion Torrent semiconductor sequencing',
+      'PacBio single molecule real time (SMRT) sequencing',
     ],
     'correct' => 'Terminal-dye Sanger sequencing',
   },
@@ -57,10 +57,10 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'DNA sequencing techniques',
     'singular_item' => 'description',
     'choices' => [
-      'Terminal-dye Sanger sequencing',
       'Roche 454 pyrosequencing',
       'Ion Torrent semiconductor sequencing',
       'PacBio single molecule real time (SMRT) sequencing',
+      'Oxford Nanopore sequencing',
     ],
     'correct' => 'Roche 454 pyrosequencing',
   },
@@ -69,9 +69,9 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'DNA sequencing techniques',
     'singular_item' => 'description',
     'choices' => [
-      'Roche 454 pyrosequencing',
+      'Terminal-dye Sanger sequencing',
       'ABI solid sequencing',
-      'Ion Torrent semiconductor sequencing',
+      'Illumina sequencing by synthesis',
       'Oxford Nanopore sequencing',
     ],
     'correct' => 'ABI solid sequencing',
@@ -81,10 +81,10 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'DNA sequencing techniques',
     'singular_item' => 'description',
     'choices' => [
-      'Classical Sanger sequencing',
+      'Terminal-dye Sanger sequencing',
       'Illumina sequencing by synthesis',
       'Ion Torrent semiconductor sequencing',
-      'PacBio single molecule real time (SMRT) sequencing',
+      'Oxford Nanopore sequencing',
     ],
     'correct' => 'Illumina sequencing by synthesis',
   },
@@ -94,9 +94,9 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'description',
     'choices' => [
       'Classical Sanger sequencing',
-      'Roche 454 pyrosequencing',
+      'Illumina sequencing by synthesis',
       'Ion Torrent semiconductor sequencing',
-      'Oxford Nanopore sequencing',
+      'PacBio single molecule real time (SMRT) sequencing',
     ],
     'correct' => 'Ion Torrent semiconductor sequencing',
   },
@@ -105,10 +105,10 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'DNA sequencing techniques',
     'singular_item' => 'description',
     'choices' => [
+      'Classical Sanger sequencing',
       'Illumina sequencing by synthesis',
       'Ion Torrent semiconductor sequencing',
       'PacBio single molecule real time (SMRT) sequencing',
-      'Oxford Nanopore sequencing',
     ],
     'correct' => 'PacBio single molecule real time (SMRT) sequencing',
   },
@@ -118,8 +118,8 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'description',
     'choices' => [
       'Classical Sanger sequencing',
-      'Terminal-dye Sanger sequencing',
-      'Roche 454 pyrosequencing',
+      'Ion Torrent semiconductor sequencing',
+      'PacBio single molecule real time (SMRT) sequencing',
       'Oxford Nanopore sequencing',
     ],
     'correct' => 'Oxford Nanopore sequencing',

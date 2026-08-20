@@ -1,7 +1,7 @@
 <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n/* Each choice row: min 40px height for comfortable tap targets */\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  margin: 4px 0;\n  padding: 6px 4px;\n  min-height: 40px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 10px;\n  margin: 0;\n  cursor: pointer;\n}\n/* Enlarged radio/checkbox inputs: ~1.4em via width/height, transform-origin top-left keeps layout aligned */\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n  flex-shrink: 0;\n  width: 1.4em;\n  height: 1.4em;\n  cursor: pointer;\n  accent-color: var(--qti-btn-bg, #3a5acd);\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Primary filled button (Check Answer) */\n.qti-btn {\n  background-color: var(--qti-btn-bg, #3a5acd);\n  color: var(--qti-btn-fg, #ffffff);\n  border: none;\n  border-radius: 4px;\n  padding: 8px 20px;\n  font-weight: 600;\n  cursor: pointer;\n}\n.qti-btn:hover {\n  filter: brightness(1.1);\n}\n/* Disabled state: muted appearance after a correct answer (disabled attribute set by JS) */\n.qti-btn:disabled,\n.qti-btn[disabled] {\n  background-color: var(--qti-btn-disabled-bg, #aaaaaa);\n  color: var(--qti-btn-disabled-fg, #eeeeee);\n  opacity: 0.55;\n  cursor: not-allowed;\n  filter: none;\n}\n/* Secondary ghost button (Clear / Reset) */\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, transparent);\n  color: var(--qti-btn-reset-fg, #555555);\n  border: 1px solid var(--qti-btn-reset-border, #999999);\n  border-radius: 4px;\n  padding: 7px 20px;\n  cursor: pointer;\n}\n.qti-btn-reset:hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Text input styling */\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, #111111);\n  border: 1px solid var(--qti-input-border, #999999);\n  border-radius: 4px;\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n/* Responsive images: prevent RDKit/structure canvases from overflowing on mobile */\n.qti-selftest canvas,\n.qti-selftest img {\n  max-width: 100%;\n  height: auto;\n}\n/* Feedback pill: neutral base state (empty placeholder, invisible until JS sets content) */\n.qti-feedback-result {\n  display: inline-block;\n  min-height: 1.5em;\n  margin: 8px 0 8px 0;\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  vertical-align: middle;\n}\n/* Success pill */\n.qti-feedback-success {\n  display: inline-block;\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Error pill */\n.qti-feedback-error {\n  display: inline-block;\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Non-color accessibility markers (ASCII, no impact on textContent) */\n.qti-feedback-success::before { content: \"[+] \"; }\n.qti-feedback-error::before { content: \"[x] \"; }\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #4a6ee0;\n    --qti-btn-fg: #ffffff;\n    --qti-btn-disabled-bg: #555555;\n    --qti-btn-disabled-fg: #aaaaaa;\n    --qti-btn-reset-bg: transparent;\n    --qti-btn-reset-fg: #c0c0c0;\n    --qti-btn-reset-border: #777777;\n    --qti-input-bg: #2a2a2a;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #4a6ee0;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #555555;\n  --qti-btn-disabled-fg: #aaaaaa;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #c0c0c0;\n  --qti-btn-reset-border: #777777;\n  --qti-input-bg: #2a2a2a;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
 <div class="qti-selftest">
-<div id="question_html_3d8a_cf41">
-<div id="statement_text_3d8a_cf41">
+<div id="question_html_55cb_b817">
+<div id="statement_text_55cb_b817">
 <p><b>Busse Woods Microbial Diversity vs Benchmark</b></p>
 <p style="color:#004d99;"><b>Z-Test Scenario</b><br>Use a Z test. Population sd is known.<br>Fixed values: mu = 4.00, sigma = 0.60.<br>Alternative H1: diversity is different from the benchmark.<br>Use a two tailed test.<br>Sample Data Table:<br><em>Copy the table rows and use regular paste (Ctrl-V or &#8984;-V) into Google Sheets.</em></p>
 <table border="1" cellpadding="3" style="border-collapse:collapse;">
@@ -10,94 +10,90 @@
 <th style="text-align:center;">2024<br>Shannon<br>Index</th>
 </tr>
 <tr>
+<td>Andrews Park</td>
+<td style="text-align:right;">4.80</td>
+</tr>
+<tr>
+<td>Beisner Road Entrance</td>
+<td style="text-align:right;">3.91</td>
+</tr>
+<tr>
 <td>Boat Launch Area</td>
-<td style="text-align:right;">3.56</td>
+<td style="text-align:right;">3.67</td>
 </tr>
 <tr>
 <td>Busse Lake</td>
-<td style="text-align:right;">3.80</td>
+<td style="text-align:right;">4.01</td>
 </tr>
 <tr>
 <td>Debra Park</td>
-<td style="text-align:right;">2.81</td>
-</tr>
-<tr>
-<td>Elk Pasture</td>
-<td style="text-align:right;">4.00</td>
+<td style="text-align:right;">3.69</td>
 </tr>
 <tr>
 <td>Forest Central Grove</td>
-<td style="text-align:right;">2.58</td>
-</tr>
-<tr>
-<td>Forest North Grove</td>
-<td style="text-align:right;">4.59</td>
-</tr>
-<tr>
-<td>Forest South Grove</td>
-<td style="text-align:right;">5.00</td>
+<td style="text-align:right;">3.19</td>
 </tr>
 <tr>
 <td>Forest West Grove</td>
-<td style="text-align:right;">3.96</td>
+<td style="text-align:right;">4.56</td>
 </tr>
 <tr>
 <td>Lake Boating Center</td>
-<td style="text-align:right;">3.79</td>
+<td style="text-align:right;">4.31</td>
 </tr>
 <tr>
 <td>Large Event Area</td>
-<td style="text-align:right;">2.85</td>
+<td style="text-align:right;">3.49</td>
 </tr>
 <tr>
-<td>Main Dam</td>
-<td style="text-align:right;">5.28</td>
-</tr>
-<tr>
-<td>Main Pool</td>
-<td style="text-align:right;">3.30</td>
+<td>Marshall Park</td>
+<td style="text-align:right;">3.78</td>
 </tr>
 <tr>
 <td>Model Airplane Field</td>
-<td style="text-align:right;">3.54</td>
+<td style="text-align:right;">3.72</td>
 </tr>
 <tr>
-<td>Nature Preserve</td>
-<td style="text-align:right;">3.44</td>
+<td>Ned Brown Meadow</td>
+<td style="text-align:right;">4.36</td>
 </tr>
 <tr>
 <td>North Pool</td>
-<td style="text-align:right;">4.73</td>
+<td style="text-align:right;">3.67</td>
 </tr>
 <tr>
 <td>Osborn Park</td>
-<td style="text-align:right;">2.55</td>
+<td style="text-align:right;">3.66</td>
+</tr>
+<tr>
+<td>Salt Creek Trail</td>
+<td style="text-align:right;">3.27</td>
 </tr>
 <tr>
 <td>South Pool</td>
-<td style="text-align:right;">4.34</td>
+<td style="text-align:right;">3.06</td>
 </tr>
 <tr>
-<td>Wildlife Refuge</td>
-<td style="text-align:right;">3.62</td>
+<td>Woodland Meadow</td>
+<td style="text-align:right;">3.74</td>
 </tr>
 </table>
-<p>Alternate Copyable Format:<br><em>Copy this text and use <strong>Data &#8594; Split text to columns &#8594; Comma</strong> in Google Sheets.</em><br><span style="font-family: monospace; background-color:#eee;">Sample Location 2024 Shannon Index<br>Boat Launch Area,3.56<br>Busse Lake,3.80<br>Debra Park,2.81<br>Elk Pasture,4.00<br>Forest Central Grove,2.58<br>Forest North Grove,4.59<br>Forest South Grove,5.00<br>Forest West Grove,3.96<br>Lake Boating Center,3.79<br>Large Event Area,2.85<br>Main Dam,5.28<br>Main Pool,3.30<br>Model Airplane Field,3.54<br>Nature Preserve,3.44<br>North Pool,4.73<br>Osborn Park,2.55<br>South Pool,4.34<br>Wildlife Refuge,3.62<br></span><br>Follow the workflow in the tutorial: <a href="https://docs.google.com/document/d/1mWpCqMxqU0O2G7r1P0JdpMOgKyJie8Qcy4vwvXuBVuk/edit" target="_blank" rel="noopener">link here</a>.<br>Enter the p value as a decimal between 0 and 1.</p>
+<p>Alternate Copyable Format:<br><em>Copy this text and use <strong>Data &#8594; Split text to columns &#8594; Comma</strong> in Google Sheets.</em><br><span style="font-family: monospace; background-color:#eee;">Sample Location 2024 Shannon Index<br>Andrews Park,4.80<br>Beisner Road Entrance,3.91<br>Boat Launch Area,3.67<br>Busse Lake,4.01<br>Debra Park,3.69<br>Forest Central Grove,3.19<br>Forest West Grove,4.56<br>Lake Boating Center,4.31<br>Large Event Area,3.49<br>Marshall Park,3.78<br>Model Airplane Field,3.72<br>Ned Brown Meadow,4.36<br>North Pool,3.67<br>Osborn Park,3.66<br>Salt Creek Trail,3.27<br>South Pool,3.06<br>Woodland Meadow,3.74<br></span><br>Follow the workflow in the tutorial: <a href="https://docs.google.com/document/d/1mWpCqMxqU0O2G7r1P0JdpMOgKyJie8Qcy4vwvXuBVuk/edit" target="_blank" rel="noopener">link here</a>.<br>Enter the p value as a decimal between 0 and 1.</p>
 </div>
 <div>
-<input type="text" class="qti-input" id="num_input_3d8a_cf41" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Enter a number"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_3d8a_cf41()">Check Answer</button>
-<div id="result_3d8a_cf41" class="qti-feedback-result">&#160;</div>
+<input type="text" class="qti-input" id="num_input_55cb_b817" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Enter a number"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_55cb_b817()">Check Answer</button>
+<div id="result_55cb_b817" class="qti-feedback-result">&#160;</div>
 </div>
 <br>
 </div><script>
-const numAnswer_3d8a_cf41 = 0.09423165;
-const numTolerance_3d8a_cf41 = 0.001;
-function checkAnswer_3d8a_cf41() {
-  const inputEl = document.getElementById('num_input_3d8a_cf41');
+const numAnswer_55cb_b817 = 0.20870186;
+const numTolerance_55cb_b817 = 0.0021;
+function checkAnswer_55cb_b817() {
+  const inputEl = document.getElementById('num_input_55cb_b817');
   if (!inputEl) { return; }
   const valStr = inputEl.value.trim();
-  const resultDiv = document.getElementById('result_3d8a_cf41');
-  const checkBtn = document.querySelector("[onclick='checkAnswer_3d8a_cf41()']");
+  const resultDiv = document.getElementById('result_55cb_b817');
+  const checkBtn = document.querySelector("[onclick='checkAnswer_55cb_b817()']");
   if (valStr === '') {
     resultDiv.className = 'qti-feedback-result';
     resultDiv.textContent = 'Please enter a value.';
@@ -109,8 +105,8 @@ function checkAnswer_3d8a_cf41() {
     resultDiv.textContent = 'Please enter a valid number.';
     return;
   }
-  const lower = numAnswer_3d8a_cf41 - numTolerance_3d8a_cf41;
-  const upper = numAnswer_3d8a_cf41 + numTolerance_3d8a_cf41;
+  const lower = numAnswer_55cb_b817 - numTolerance_55cb_b817;
+  const upper = numAnswer_55cb_b817 + numTolerance_55cb_b817;
   const isCorrect = (userVal >= lower && userVal <= upper);
   if (isCorrect) {
     resultDiv.className = 'qti-feedback-result qti-feedback-success';
@@ -130,10 +126,10 @@ function checkAnswer_3d8a_cf41() {
   }
 }
 document.addEventListener('DOMContentLoaded', function() {
-  const inputEl = document.getElementById('num_input_3d8a_cf41');
+  const inputEl = document.getElementById('num_input_55cb_b817');
   if (!inputEl) return;
   inputEl.addEventListener('keydown', function(e) {
-    if (e.key === 'Enter') { e.preventDefault(); checkAnswer_3d8a_cf41(); }
+    if (e.key === 'Enter') { e.preventDefault(); checkAnswer_55cb_b817(); }
   });
 });
 </script>
