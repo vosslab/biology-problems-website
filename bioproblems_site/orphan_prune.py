@@ -41,9 +41,15 @@ import bioproblems_site.topic_page as topic_page
 # Equivalence is proven by snapshot test, not by calling get_outfile_name.
 DOWNLOAD_ARTIFACTS = (
 	("selftest", "html"),
-	("blackboard_qti_v2_1", "zip"),
+	("blackboard_export_zip", "zip"),
 	("canvas_qti_v1_2", "zip"),
 	("human_readable", "html"),
+)
+
+# Superseded generated artifacts remain decidable deletion candidates during
+# a format migration, but they are never included in a live expected set.
+RETIRED_DOWNLOAD_ARTIFACTS = (
+	("blackboard_qti_v2_1", "zip"),
 )
 
 # Include line basename anchor: mirrors selftest_manifest.INCLUDE_RE so the
@@ -91,30 +97,39 @@ def pure_download_basename(core: str, prefix: str, ext: str) -> str:
 
 
 #============================================
-def expected_download_basenames(core: str) -> set:
-	"""Return the set of 4 prefixed download artifact basenames for a core.
+def expected_download_basenames(
+	core: str,
+	*,
+	include_blackboard_export: bool = True,
+) -> set:
+	"""Return expected generated download artifact basenames for a core.
 
 	Args:
 		core (str): The bbq core name.
+		include_blackboard_export (bool): False for sources with an ORDER
+			item that the pool-export engine cannot write.
 
 	Returns:
-		set: The 4 expected generated-artifact basenames.
+		set: Expected generated-artifact basenames.
 	"""
 	expected = set()
 	# Build one basename per generated download format
 	for prefix, ext in DOWNLOAD_ARTIFACTS:
+		if prefix == "blackboard_export_zip" and not include_blackboard_export:
+			continue
 		expected.add(pure_download_basename(core, prefix, ext))
 	return expected
 
 
 #============================================
-def _live_download_basenames(live_cores: set) -> set:
+def _live_download_basenames(topic_folder: str, live_cores: set) -> set:
 	"""Return every legit download basename across all live cores.
 
 	Combines the 4 prefixed artifacts with the pgml/pg copies so a file
 	matching any live core is recognized as not-orphan.
 
 	Args:
+		topic_folder (str): Path to the topic directory.
 		live_cores (set): Cores backed by a live bbq file.
 
 	Returns:
@@ -123,7 +138,15 @@ def _live_download_basenames(live_cores: set) -> set:
 	live_basenames = set()
 	# Accumulate prefixed artifacts and pgml/pg copies for each live core
 	for core in live_cores:
-		live_basenames |= expected_download_basenames(core)
+		bbq_path = os.path.join(topic_folder, f"bbq-{core}-questions.txt")
+		include_blackboard_export = (
+			not os.path.isfile(bbq_path)
+			or topic_page.supports_blackboard_export(bbq_path)
+		)
+		live_basenames |= expected_download_basenames(
+			core,
+			include_blackboard_export=include_blackboard_export,
+		)
 		live_basenames |= expected_source_basenames(core)
 	return live_basenames
 
@@ -132,8 +155,8 @@ def _live_download_basenames(live_cores: set) -> set:
 def _decodes_to_core(basename: str) -> bool:
 	"""Return True if a download basename decidably encodes a bbq core.
 
-	A basename is managed (decidable) when it carries one of the 4 known
-	generated prefixes, or when it is a pgml/pg copy. Any other file is
+	A basename is managed (decidable) when it carries a current or retired
+	generated prefix, or when it is a pgml/pg copy. Any other file is
 	UNMANAGED and is never a deletion candidate.
 
 	Args:
@@ -142,8 +165,8 @@ def _decodes_to_core(basename: str) -> bool:
 	Returns:
 		bool: True if the basename maps to a bbq core class.
 	"""
-	# A known generated prefix makes the basename decidable
-	for prefix, ext in DOWNLOAD_ARTIFACTS:
+	# A current or retired generated prefix makes the basename decidable
+	for prefix, ext in DOWNLOAD_ARTIFACTS + RETIRED_DOWNLOAD_ARTIFACTS:
 		if basename.startswith(prefix + "-") and basename.endswith("." + ext):
 			return True
 	# A pgml/pg copy is decidable (its core is resolved via the live map)
@@ -176,7 +199,7 @@ def find_orphan_downloads(topic_folder: str, live_cores: set) -> dict:
 		empty_result = {"orphans": orphan_paths, "unmanaged": unmanaged_paths}
 		return empty_result
 	# Precompute every legit download basename across the live cores
-	live_basenames = _live_download_basenames(live_cores)
+	live_basenames = _live_download_basenames(topic_folder, live_cores)
 	# Classify each file in downloads/ as orphan, live, or unmanaged
 	for entry in sorted(os.listdir(downloads_dir)):
 		entry_path = os.path.join(downloads_dir, entry)

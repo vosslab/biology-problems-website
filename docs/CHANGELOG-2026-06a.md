@@ -108,7 +108,7 @@
   `index.md` selftest `{% include %}` lines behind; a bare `./generate_pages.py` then ran the
   manifest validator (which hard-raises on a missing included file) against the stale
   `index.md` without re-rendering.
-- New [bioproblems_site/orphan_prune.py](../bioproblems_site/orphan_prune.py): per-topic
+- New [orphan_prune.py](../bioproblems_site/orphan_prune.py): per-topic
   reconcile against the live `bbq-*-questions.txt` core set, with four targets. (1) Delete
   orphan `downloads/` generated artifacts (the 4 prefixed export formats plus the reproducible
   `downloads/*.pgml`/`*.pg` copies) via git rm or `os.remove`. (2) Strip orphan
@@ -117,11 +117,11 @@
   masters via git mv to a flat `orphaned/<basename>` at the repo root (a basename collision
   hard-fails). Files with no decidable bbq core are classified UNMANAGED and never deleted.
   Dry-run returns a risk-grouped plan and mutates nothing.
-- Extended [bioproblems_site/git_paths.py](../bioproblems_site/git_paths.py) with `git_rm`,
+- Extended [git_paths.py](../bioproblems_site/git_paths.py) with `git_rm`,
   `git_mv`, and `tracked_paths_set` (realpath-normalized for reliable tracked detection).
 
 ### Behavior or Interface Changes
-- [bioproblems_site/pipeline.py](../bioproblems_site/pipeline.py): `reconcile_all` now runs
+- [pipeline.py](../bioproblems_site/pipeline.py): `reconcile_all` now runs
   before `write_manifest` on every gated run, so a bare `./generate_pages.py` self-heals stale
   state instead of crashing. `build_manifest` stays strict (loud failure on a missing included
   file); reconcile runs first so it never sees an orphan.
@@ -153,19 +153,19 @@
   first so it never encounters an orphan.
 
 ### Developer Tests and Notes
-- Added [tests/test_orphan_prune.py](../tests/test_orphan_prune.py): naming equivalence to
+- Added [test_orphan_prune.py](../tests/test_orphan_prune.py): naming equivalence to
   `get_outfile_name`, all five pgml prefix branches, unknown-ignored, dry-run no-op, and the flat
   quarantine plus basename-collision case.
-- Code-review fixes applied to [bioproblems_site/orphan_prune.py](../bioproblems_site/orphan_prune.py)
-  and [tests/test_orphan_prune.py](../tests/test_orphan_prune.py): removed planning-scaffold tags
+- Code-review fixes applied to [orphan_prune.py](../bioproblems_site/orphan_prune.py)
+  and [test_orphan_prune.py](../tests/test_orphan_prune.py): removed planning-scaffold tags
   (WS#/M#) from all comments and docstrings; assigned inline return dicts to named variables before
   returning; corrected `_selftest_include_core` return annotation to `str | None`; removed dead
   `SITE_DOCS_BASE` constant; added missing `#====` separators in
-  [bioproblems_site/git_paths.py](../bioproblems_site/git_paths.py); replaced hardcoded date value
+  [git_paths.py](../bioproblems_site/git_paths.py); replaced hardcoded date value
   in title-cache test fixture with `"some-timestamp"`. 27 tests pass, E2E exit:0, 59 pyflakes pass.
 - Added `tests/e2e/e2e_orphan_reconcile.py`: real git rm/mv staging on a tmp repo.
 - New "Topic folder file taxonomy and orphan policy" subsection in
-  [docs/FILE_STRUCTURE.md](FILE_STRUCTURE.md) documenting the source-vs-generated split
+  [FILE_STRUCTURE.md](FILE_STRUCTURE.md) documenting the source-vs-generated split
   (`downloads/*` pgml = reproducible copy from the external masters; topic-level pgml = master,
   quarantined).
 
@@ -369,7 +369,7 @@
   after finding it was the only reachable topic page with BBQ sources but no
   self-test includes. The regenerated page now includes the 8 Life Molecules
   self-tests, including the newly generated
-  [selftest-MATCH-bond_types.html](../site_docs/biochemistry/topic01/downloads/selftest-MATCH-bond_types.html).
+  `selftest-MATCH-bond_types.html`.
 
 ### Developer Tests and Notes
 - Added [test_selftest_manifest.py](../tests/test_selftest_manifest.py)

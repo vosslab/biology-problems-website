@@ -28,8 +28,8 @@ class TopicScan:
 def _detect_formats(topic_dir: str) -> frozenset:
 	"""Return the set of format keys present in a topic directory.
 
-	Discovery is based on formats.FORMAT_FILE_SUFFIXES. A format counts
-	as present if at least one file matching its suffix exists in
+	Discovery is based on formats.FORMAT_FILE_GLOBS. A format counts
+	as present if at least one file matching its glob exists in
 	topic_dir or topic_dir/downloads.
 	"""
 	found = set()
@@ -38,9 +38,9 @@ def _detect_formats(topic_dir: str) -> frozenset:
 	if os.path.isdir(downloads_dir):
 		search_dirs.append(downloads_dir)
 	for key in formats.FORMAT_KEYS:
-		suffix = formats.FORMAT_FILE_SUFFIXES[key]
+		file_glob = formats.FORMAT_FILE_GLOBS[key]
 		for directory in search_dirs:
-			pattern = os.path.join(directory, f"*{suffix}")
+			pattern = os.path.join(directory, file_glob)
 			if glob.glob(pattern):
 				found.add(key)
 				break
