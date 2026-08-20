@@ -5,11 +5,11 @@ Students assess gene therapy, viral vectors, genome editing (ZFNs, TALENs, CRISP
 ## Matching Genetic Disease Treatment Methods to Descriptions
 
 <div id="MATCH-gene_therapy_v_edit-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MATCH-gene_therapy_v_edit-questions.txt" download title="Download bbq-MATCH-gene_therapy_v_edit-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-gene_therapy_v_edit-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-MATCH-gene_therapy_v_edit-questions.txt" download title="Download bbq-MATCH-gene_therapy_v_edit-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-gene_therapy_v_edit-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-gene_therapy_v_edit.zip" download title="Download blackboard_qti_v2_1-MATCH-gene_therapy_v_edit.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-gene_therapy_v_edit.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-gene_therapy_v_edit.zip" download title="Download blackboard_export_zip-MATCH-gene_therapy_v_edit.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-gene_therapy_v_edit.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-gene_therapy_v_edit.zip" download title="Download canvas_qti_v1_2-MATCH-gene_therapy_v_edit.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-gene_therapy_v_edit.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -40,11 +40,11 @@ Students assess gene therapy, viral vectors, genome editing (ZFNs, TALENs, CRISP
 ## Matching Stem Cell Potency Levels to Definitions
 
 <div id="MATCH-stem_cell_potency-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MATCH-stem_cell_potency-questions.txt" download title="Download bbq-MATCH-stem_cell_potency-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-stem_cell_potency-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-MATCH-stem_cell_potency-questions.txt" download title="Download bbq-MATCH-stem_cell_potency-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-stem_cell_potency-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-stem_cell_potency.zip" download title="Download blackboard_qti_v2_1-MATCH-stem_cell_potency.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-stem_cell_potency.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-stem_cell_potency.zip" download title="Download blackboard_export_zip-MATCH-stem_cell_potency.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-stem_cell_potency.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-stem_cell_potency.zip" download title="Download canvas_qti_v1_2-MATCH-stem_cell_potency.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-stem_cell_potency.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -75,11 +75,11 @@ Students assess gene therapy, viral vectors, genome editing (ZFNs, TALENs, CRISP
 ## Genetic Disease Treatment Methods from Descriptions
 
 <div id="WOMC-gene_therapy_v_edit-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-WOMC-gene_therapy_v_edit-questions.txt" download title="Download bbq-WOMC-gene_therapy_v_edit-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-gene_therapy_v_edit-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-WOMC-gene_therapy_v_edit-questions.txt" download title="Download bbq-WOMC-gene_therapy_v_edit-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-gene_therapy_v_edit-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-gene_therapy_v_edit.zip" download title="Download blackboard_qti_v2_1-WOMC-gene_therapy_v_edit.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-gene_therapy_v_edit.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-gene_therapy_v_edit.zip" download title="Download blackboard_export_zip-WOMC-gene_therapy_v_edit.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-gene_therapy_v_edit.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-gene_therapy_v_edit.zip" download title="Download canvas_qti_v1_2-WOMC-gene_therapy_v_edit.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-gene_therapy_v_edit.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -110,11 +110,11 @@ Students assess gene therapy, viral vectors, genome editing (ZFNs, TALENs, CRISP
 ## Stem Cell Potency Levels from Definitions
 
 <div id="WOMC-stem_cell_potency-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-WOMC-stem_cell_potency-questions.txt" download title="Download bbq-WOMC-stem_cell_potency-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-stem_cell_potency-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-WOMC-stem_cell_potency-questions.txt" download title="Download bbq-WOMC-stem_cell_potency-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-stem_cell_potency-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-stem_cell_potency.zip" download title="Download blackboard_qti_v2_1-WOMC-stem_cell_potency.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-stem_cell_potency.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-stem_cell_potency.zip" download title="Download blackboard_export_zip-WOMC-stem_cell_potency.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-stem_cell_potency.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-stem_cell_potency.zip" download title="Download canvas_qti_v1_2-WOMC-stem_cell_potency.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-stem_cell_potency.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2

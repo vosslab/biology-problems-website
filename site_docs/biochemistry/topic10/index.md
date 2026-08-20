@@ -7,11 +7,11 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 ## D/L Monosaccharide Configurations from Fischer Projections (Multiple Choice)
 
 <div id="D_to_L_Fischer_configuration-MC-with_hint-5_choices-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-D_to_L_Fischer_configuration-MC-with_hint-5_choices-questions.txt" download title="Download bbq-D_to_L_Fischer_configuration-MC-with_hint-5_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-D_to_L_Fischer_configuration-MC-with_hint-5_choices-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-D_to_L_Fischer_configuration-MC-with_hint-5_choices-questions.txt" download title="Download bbq-D_to_L_Fischer_configuration-MC-with_hint-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-D_to_L_Fischer_configuration-MC-with_hint-5_choices-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-D_to_L_Fischer_configuration-MC-with_hint-5_choices.zip" download title="Download blackboard_qti_v2_1-D_to_L_Fischer_configuration-MC-with_hint-5_choices.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-D_to_L_Fischer_configuration-MC-with_hint-5_choices.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-D_to_L_Fischer_configuration-MC-with_hint-5_choices.zip" download title="Download blackboard_export_zip-D_to_L_Fischer_configuration-MC-with_hint-5_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-D_to_L_Fischer_configuration-MC-with_hint-5_choices.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-D_to_L_Fischer_configuration-MC-with_hint-5_choices.zip" download title="Download canvas_qti_v1_2-D_to_L_Fischer_configuration-MC-with_hint-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-D_to_L_Fischer_configuration-MC-with_hint-5_choices.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -39,11 +39,11 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 ## D/L Monosaccharide Configurations from Haworth Projections (Multiple Choice)
 
 <div id="D_to_L_Haworth_configuration-MC-with_hint-5_choices-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt" download title="Download bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt" download title="Download bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-D_to_L_Haworth_configuration-MC-with_hint-5_choices.zip" download title="Download blackboard_qti_v2_1-D_to_L_Haworth_configuration-MC-with_hint-5_choices.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-D_to_L_Haworth_configuration-MC-with_hint-5_choices.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-D_to_L_Haworth_configuration-MC-with_hint-5_choices.zip" download title="Download blackboard_export_zip-D_to_L_Haworth_configuration-MC-with_hint-5_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-D_to_L_Haworth_configuration-MC-with_hint-5_choices.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-D_to_L_Haworth_configuration-MC-with_hint-5_choices.zip" download title="Download canvas_qti_v1_2-D_to_L_Haworth_configuration-MC-with_hint-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-D_to_L_Haworth_configuration-MC-with_hint-5_choices.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -71,11 +71,11 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 ## Matching Polysaccharides with Their Descriptions
 
 <div id="MATCH-polysaccharides-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MATCH-polysaccharides-questions.txt" download title="Download bbq-MATCH-polysaccharides-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-polysaccharides-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-MATCH-polysaccharides-questions.txt" download title="Download bbq-MATCH-polysaccharides-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-polysaccharides-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-polysaccharides.zip" download title="Download blackboard_qti_v2_1-MATCH-polysaccharides.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-polysaccharides.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-polysaccharides.zip" download title="Download blackboard_export_zip-MATCH-polysaccharides.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-polysaccharides.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-polysaccharides.zip" download title="Download canvas_qti_v1_2-MATCH-polysaccharides.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-polysaccharides.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -106,11 +106,11 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 ## Polysaccharides from Functional Descriptions
 
 <div id="WOMC-polysaccharides-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-WOMC-polysaccharides-questions.txt" download title="Download bbq-WOMC-polysaccharides-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-polysaccharides-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-WOMC-polysaccharides-questions.txt" download title="Download bbq-WOMC-polysaccharides-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-polysaccharides-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-polysaccharides.zip" download title="Download blackboard_qti_v2_1-WOMC-polysaccharides.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-polysaccharides.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-polysaccharides.zip" download title="Download blackboard_export_zip-WOMC-polysaccharides.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-polysaccharides.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-polysaccharides.zip" download title="Download canvas_qti_v1_2-WOMC-polysaccharides.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-polysaccharides.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -141,11 +141,11 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 ## Monosaccharide Types from Fischer Projections (Multiple Answers)
 
 <div id="classify_Fischer-MA-with_hint-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-classify_Fischer-MA-with_hint-questions.txt" download title="Download bbq-classify_Fischer-MA-with_hint-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-classify_Fischer-MA-with_hint-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-classify_Fischer-MA-with_hint-questions.txt" download title="Download bbq-classify_Fischer-MA-with_hint-questions.txt" aria-label="Click to download the BBQ Text file (bbq-classify_Fischer-MA-with_hint-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-classify_Fischer-MA-with_hint.zip" download title="Download blackboard_qti_v2_1-classify_Fischer-MA-with_hint.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-classify_Fischer-MA-with_hint.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-classify_Fischer-MA-with_hint.zip" download title="Download blackboard_export_zip-classify_Fischer-MA-with_hint.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-classify_Fischer-MA-with_hint.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-classify_Fischer-MA-with_hint.zip" download title="Download canvas_qti_v1_2-classify_Fischer-MA-with_hint.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-classify_Fischer-MA-with_hint.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -173,11 +173,11 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 ## Furanose Monosaccharide Classification from Haworth Projections (Multiple Answers)
 
 <div id="classify_Haworth-MA-with_hint-FURAN-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-classify_Haworth-MA-with_hint-FURAN-questions.txt" download title="Download bbq-classify_Haworth-MA-with_hint-FURAN-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-classify_Haworth-MA-with_hint-FURAN-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-classify_Haworth-MA-with_hint-FURAN-questions.txt" download title="Download bbq-classify_Haworth-MA-with_hint-FURAN-questions.txt" aria-label="Click to download the BBQ Text file (bbq-classify_Haworth-MA-with_hint-FURAN-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-classify_Haworth-MA-with_hint-FURAN.zip" download title="Download blackboard_qti_v2_1-classify_Haworth-MA-with_hint-FURAN.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-classify_Haworth-MA-with_hint-FURAN.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-classify_Haworth-MA-with_hint-FURAN.zip" download title="Download blackboard_export_zip-classify_Haworth-MA-with_hint-FURAN.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-classify_Haworth-MA-with_hint-FURAN.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-classify_Haworth-MA-with_hint-FURAN.zip" download title="Download canvas_qti_v1_2-classify_Haworth-MA-with_hint-FURAN.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-classify_Haworth-MA-with_hint-FURAN.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -205,11 +205,11 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 ## Pyranose Monosaccharide Classification from Haworth Projections (Multiple Answers)
 
 <div id="classify_Haworth-MA-with_hint-PYRAN-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-classify_Haworth-MA-with_hint-PYRAN-questions.txt" download title="Download bbq-classify_Haworth-MA-with_hint-PYRAN-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-classify_Haworth-MA-with_hint-PYRAN-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-classify_Haworth-MA-with_hint-PYRAN-questions.txt" download title="Download bbq-classify_Haworth-MA-with_hint-PYRAN-questions.txt" aria-label="Click to download the BBQ Text file (bbq-classify_Haworth-MA-with_hint-PYRAN-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-classify_Haworth-MA-with_hint-PYRAN.zip" download title="Download blackboard_qti_v2_1-classify_Haworth-MA-with_hint-PYRAN.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-classify_Haworth-MA-with_hint-PYRAN.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-classify_Haworth-MA-with_hint-PYRAN.zip" download title="Download blackboard_export_zip-classify_Haworth-MA-with_hint-PYRAN.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-classify_Haworth-MA-with_hint-PYRAN.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-classify_Haworth-MA-with_hint-PYRAN.zip" download title="Download canvas_qti_v1_2-classify_Haworth-MA-with_hint-PYRAN.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-classify_Haworth-MA-with_hint-PYRAN.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -237,11 +237,11 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 ## Furanose Haworth Projections from Fischer Projections (Multiple Choice)
 
 <div id="convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-questions.txt" download title="Download bbq-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-questions.txt" download title="Download bbq-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices.zip" download title="Download blackboard_qti_v2_1-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices.zip" download title="Download blackboard_export_zip-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices.zip" download title="Download canvas_qti_v1_2-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -269,11 +269,11 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 ## Pyranose Haworth Projections from Fischer Projections (Multiple Choice)
 
 <div id="convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices-questions.txt" download title="Download bbq-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices-questions.txt" download title="Download bbq-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices.zip" download title="Download blackboard_qti_v2_1-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices.zip" download title="Download blackboard_export_zip-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices.zip" download title="Download canvas_qti_v1_2-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -301,11 +301,11 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 ## Furanose Fischer Projections from Haworth Projections (Multiple Choice)
 
 <div id="convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-questions.txt" download title="Download bbq-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-questions.txt" download title="Download bbq-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices.zip" download title="Download blackboard_qti_v2_1-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices.zip" download title="Download blackboard_export_zip-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices.zip" download title="Download canvas_qti_v1_2-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -333,11 +333,11 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 ## Pyranose Fischer Projections from Haworth Projections (Multiple Choice)
 
 <div id="convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-questions.txt" download title="Download bbq-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-questions.txt" download title="Download bbq-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices.zip" download title="Download blackboard_qti_v2_1-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices.zip" download title="Download blackboard_export_zip-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices.zip" download title="Download canvas_qti_v1_2-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2

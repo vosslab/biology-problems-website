@@ -5,11 +5,11 @@ Students analyze GAPDH DNA and protein sequences using BLAST, interpret alignmen
 ## Degenerate Primer Codes from Sequence Alignments
 
 <div id="consensus_sequence_FIB-arbitrary_code-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" download title="Download bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-consensus_sequence_FIB-arbitrary_code-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" download title="Download bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" aria-label="Click to download the BBQ Text file (bbq-consensus_sequence_FIB-arbitrary_code-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-consensus_sequence_FIB-arbitrary_code.zip" download title="Download blackboard_qti_v2_1-consensus_sequence_FIB-arbitrary_code.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-consensus_sequence_FIB-arbitrary_code.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-consensus_sequence_FIB-arbitrary_code.zip" download title="Download blackboard_export_zip-consensus_sequence_FIB-arbitrary_code.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-consensus_sequence_FIB-arbitrary_code.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-consensus_sequence_FIB-arbitrary_code.zip" download title="Download canvas_qti_v1_2-consensus_sequence_FIB-arbitrary_code.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-consensus_sequence_FIB-arbitrary_code.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -37,11 +37,11 @@ Students analyze GAPDH DNA and protein sequences using BLAST, interpret alignmen
 ## Consensus Sequences from Simple Alignments (Fill in the Blank)
 
 <div id="consensus_sequence_FIB-easy-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-easy-questions.txt" download title="Download bbq-consensus_sequence_FIB-easy-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-consensus_sequence_FIB-easy-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-easy-questions.txt" download title="Download bbq-consensus_sequence_FIB-easy-questions.txt" aria-label="Click to download the BBQ Text file (bbq-consensus_sequence_FIB-easy-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-consensus_sequence_FIB-easy.zip" download title="Download blackboard_qti_v2_1-consensus_sequence_FIB-easy.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-consensus_sequence_FIB-easy.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-consensus_sequence_FIB-easy.zip" download title="Download blackboard_export_zip-consensus_sequence_FIB-easy.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-consensus_sequence_FIB-easy.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-consensus_sequence_FIB-easy.zip" download title="Download canvas_qti_v1_2-consensus_sequence_FIB-easy.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-consensus_sequence_FIB-easy.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -69,11 +69,11 @@ Students analyze GAPDH DNA and protein sequences using BLAST, interpret alignmen
 ## Consensus Sequences from Tables (Fill in the Blank)
 
 <div id="consensus_sequence_FIB-hard-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-hard-questions.txt" download title="Download bbq-consensus_sequence_FIB-hard-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-consensus_sequence_FIB-hard-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-hard-questions.txt" download title="Download bbq-consensus_sequence_FIB-hard-questions.txt" aria-label="Click to download the BBQ Text file (bbq-consensus_sequence_FIB-hard-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-consensus_sequence_FIB-hard.zip" download title="Download blackboard_qti_v2_1-consensus_sequence_FIB-hard.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-consensus_sequence_FIB-hard.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-consensus_sequence_FIB-hard.zip" download title="Download blackboard_export_zip-consensus_sequence_FIB-hard.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-consensus_sequence_FIB-hard.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-consensus_sequence_FIB-hard.zip" download title="Download canvas_qti_v1_2-consensus_sequence_FIB-hard.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-consensus_sequence_FIB-hard.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -101,11 +101,11 @@ Students analyze GAPDH DNA and protein sequences using BLAST, interpret alignmen
 ## Consensus Sequences from Alignments (Multiple Choice)
 
 <div id="consensus_sequence_MC-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-consensus_sequence_MC-questions.txt" download title="Download bbq-consensus_sequence_MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-consensus_sequence_MC-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-consensus_sequence_MC-questions.txt" download title="Download bbq-consensus_sequence_MC-questions.txt" aria-label="Click to download the BBQ Text file (bbq-consensus_sequence_MC-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-consensus_sequence_MC.zip" download title="Download blackboard_qti_v2_1-consensus_sequence_MC.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-consensus_sequence_MC.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-consensus_sequence_MC.zip" download title="Download blackboard_export_zip-consensus_sequence_MC.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-consensus_sequence_MC.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-consensus_sequence_MC.zip" download title="Download canvas_qti_v1_2-consensus_sequence_MC.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-consensus_sequence_MC.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -133,11 +133,11 @@ Students analyze GAPDH DNA and protein sequences using BLAST, interpret alignmen
 ## Gene Trees from Distance Matrices (5 Leaves, 5 Choices)
 
 <div id="gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices-questions.txt" download title="Download bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices-questions.txt" download title="Download bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices.zip" download title="Download blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices.zip" download title="Download blackboard_export_zip-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices.zip" download title="Download canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-5_leaves-5_choices.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2

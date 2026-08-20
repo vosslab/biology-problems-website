@@ -7,11 +7,11 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 ## Matching Amino Acids to Properties (Long Tables)
 
 <div id="MATCH-amino_acids_properties-long_tables-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MATCH-amino_acids_properties-long_tables-questions.txt" download title="Download bbq-MATCH-amino_acids_properties-long_tables-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-amino_acids_properties-long_tables-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-MATCH-amino_acids_properties-long_tables-questions.txt" download title="Download bbq-MATCH-amino_acids_properties-long_tables-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-amino_acids_properties-long_tables-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-amino_acids_properties-long_tables.zip" download title="Download blackboard_qti_v2_1-MATCH-amino_acids_properties-long_tables.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-amino_acids_properties-long_tables.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-amino_acids_properties-long_tables.zip" download title="Download blackboard_export_zip-MATCH-amino_acids_properties-long_tables.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-amino_acids_properties-long_tables.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-amino_acids_properties-long_tables.zip" download title="Download canvas_qti_v1_2-MATCH-amino_acids_properties-long_tables.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-amino_acids_properties-long_tables.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -42,11 +42,11 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 ## Matching Amino Acids to Descriptive Properties
 
 <div id="MATCH-amino_acids_properties-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MATCH-amino_acids_properties-questions.txt" download title="Download bbq-MATCH-amino_acids_properties-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-amino_acids_properties-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-MATCH-amino_acids_properties-questions.txt" download title="Download bbq-MATCH-amino_acids_properties-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-amino_acids_properties-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-amino_acids_properties.zip" download title="Download blackboard_qti_v2_1-MATCH-amino_acids_properties.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-amino_acids_properties.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-amino_acids_properties.zip" download title="Download blackboard_export_zip-MATCH-amino_acids_properties.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-amino_acids_properties.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-amino_acids_properties.zip" download title="Download canvas_qti_v1_2-MATCH-amino_acids_properties.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-amino_acids_properties.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -77,11 +77,11 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 ## Amino Acids from Properties (Long Tables)
 
 <div id="WOMC-amino_acids_properties-long_tables-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-WOMC-amino_acids_properties-long_tables-questions.txt" download title="Download bbq-WOMC-amino_acids_properties-long_tables-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-amino_acids_properties-long_tables-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-WOMC-amino_acids_properties-long_tables-questions.txt" download title="Download bbq-WOMC-amino_acids_properties-long_tables-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-amino_acids_properties-long_tables-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-amino_acids_properties-long_tables.zip" download title="Download blackboard_qti_v2_1-WOMC-amino_acids_properties-long_tables.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-amino_acids_properties-long_tables.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-amino_acids_properties-long_tables.zip" download title="Download blackboard_export_zip-WOMC-amino_acids_properties-long_tables.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-amino_acids_properties-long_tables.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-amino_acids_properties-long_tables.zip" download title="Download canvas_qti_v1_2-WOMC-amino_acids_properties-long_tables.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-amino_acids_properties-long_tables.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -112,11 +112,11 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 ## Amino Acids from Descriptions
 
 <div id="WOMC-amino_acids_properties-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-WOMC-amino_acids_properties-questions.txt" download title="Download bbq-WOMC-amino_acids_properties-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-amino_acids_properties-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-WOMC-amino_acids_properties-questions.txt" download title="Download bbq-WOMC-amino_acids_properties-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-amino_acids_properties-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-amino_acids_properties.zip" download title="Download blackboard_qti_v2_1-WOMC-amino_acids_properties.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-amino_acids_properties.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-amino_acids_properties.zip" download title="Download blackboard_export_zip-WOMC-amino_acids_properties.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-amino_acids_properties.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-amino_acids_properties.zip" download title="Download canvas_qti_v1_2-WOMC-amino_acids_properties.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-amino_acids_properties.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -147,11 +147,11 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 ## Alanine Charge States at Different pH Values
 
 <div id="alanine_protonation_states-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-alanine_protonation_states-questions.txt" download title="Download bbq-alanine_protonation_states-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-alanine_protonation_states-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-alanine_protonation_states-questions.txt" download title="Download bbq-alanine_protonation_states-questions.txt" aria-label="Click to download the BBQ Text file (bbq-alanine_protonation_states-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-alanine_protonation_states.zip" download title="Download blackboard_qti_v2_1-alanine_protonation_states.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-alanine_protonation_states.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-alanine_protonation_states.zip" download title="Download blackboard_export_zip-alanine_protonation_states.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-alanine_protonation_states.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-alanine_protonation_states.zip" download title="Download canvas_qti_v1_2-alanine_protonation_states.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-alanine_protonation_states.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -179,11 +179,11 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 ## Alpha Amino Acids
 
 <div id="alpha_amino_acid_identification-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-alpha_amino_acid_identification-questions.txt" download title="Download bbq-alpha_amino_acid_identification-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-alpha_amino_acid_identification-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-alpha_amino_acid_identification-questions.txt" download title="Download bbq-alpha_amino_acid_identification-questions.txt" aria-label="Click to download the BBQ Text file (bbq-alpha_amino_acid_identification-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-alpha_amino_acid_identification.zip" download title="Download blackboard_qti_v2_1-alpha_amino_acid_identification.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-alpha_amino_acid_identification.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-alpha_amino_acid_identification.zip" download title="Download blackboard_export_zip-alpha_amino_acid_identification.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-alpha_amino_acid_identification.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-alpha_amino_acid_identification.zip" download title="Download canvas_qti_v1_2-alpha_amino_acid_identification.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-alpha_amino_acid_identification.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -211,11 +211,11 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 ## Histidine Protonation States at Specific pH Values
 
 <div id="histidine_protonation_states-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-histidine_protonation_states-questions.txt" download title="Download bbq-histidine_protonation_states-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-histidine_protonation_states-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-histidine_protonation_states-questions.txt" download title="Download bbq-histidine_protonation_states-questions.txt" aria-label="Click to download the BBQ Text file (bbq-histidine_protonation_states-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-histidine_protonation_states.zip" download title="Download blackboard_qti_v2_1-histidine_protonation_states.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-histidine_protonation_states.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-histidine_protonation_states.zip" download title="Download blackboard_export_zip-histidine_protonation_states.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-histidine_protonation_states.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-histidine_protonation_states.zip" download title="Download canvas_qti_v1_2-histidine_protonation_states.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-histidine_protonation_states.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -243,11 +243,11 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 ## Ionic Bond Formation in Amino Acid Side Chains
 
 <div id="ionic_bond_amino_acids-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-ionic_bond_amino_acids-questions.txt" download title="Download bbq-ionic_bond_amino_acids-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-ionic_bond_amino_acids-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-ionic_bond_amino_acids-questions.txt" download title="Download bbq-ionic_bond_amino_acids-questions.txt" aria-label="Click to download the BBQ Text file (bbq-ionic_bond_amino_acids-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-ionic_bond_amino_acids.zip" download title="Download blackboard_qti_v2_1-ionic_bond_amino_acids.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-ionic_bond_amino_acids.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-ionic_bond_amino_acids.zip" download title="Download blackboard_export_zip-ionic_bond_amino_acids.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-ionic_bond_amino_acids.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-ionic_bond_amino_acids.zip" download title="Download canvas_qti_v1_2-ionic_bond_amino_acids.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-ionic_bond_amino_acids.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -278,11 +278,11 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 ## Amino Acid Names from Chemical Structures (4 Choices)
 
 <div id="match_amino_acid_structures-4_choices-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-match_amino_acid_structures-4_choices-questions.txt" download title="Download bbq-match_amino_acid_structures-4_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-match_amino_acid_structures-4_choices-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-match_amino_acid_structures-4_choices-questions.txt" download title="Download bbq-match_amino_acid_structures-4_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-match_amino_acid_structures-4_choices-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-match_amino_acid_structures-4_choices.zip" download title="Download blackboard_qti_v2_1-match_amino_acid_structures-4_choices.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-match_amino_acid_structures-4_choices.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-match_amino_acid_structures-4_choices.zip" download title="Download blackboard_export_zip-match_amino_acid_structures-4_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-match_amino_acid_structures-4_choices.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-match_amino_acid_structures-4_choices.zip" download title="Download canvas_qti_v1_2-match_amino_acid_structures-4_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-match_amino_acid_structures-4_choices.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -307,11 +307,11 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 ## Dipeptide Sequences from Structures
 
 <div id="polypeptide_fib_sequence-FIB-2aa-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-polypeptide_fib_sequence-FIB-2aa-questions.txt" download title="Download bbq-polypeptide_fib_sequence-FIB-2aa-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-polypeptide_fib_sequence-FIB-2aa-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-polypeptide_fib_sequence-FIB-2aa-questions.txt" download title="Download bbq-polypeptide_fib_sequence-FIB-2aa-questions.txt" aria-label="Click to download the BBQ Text file (bbq-polypeptide_fib_sequence-FIB-2aa-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-polypeptide_fib_sequence-FIB-2aa.zip" download title="Download blackboard_qti_v2_1-polypeptide_fib_sequence-FIB-2aa.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-polypeptide_fib_sequence-FIB-2aa.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-polypeptide_fib_sequence-FIB-2aa.zip" download title="Download blackboard_export_zip-polypeptide_fib_sequence-FIB-2aa.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-polypeptide_fib_sequence-FIB-2aa.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-polypeptide_fib_sequence-FIB-2aa.zip" download title="Download canvas_qti_v1_2-polypeptide_fib_sequence-FIB-2aa.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-polypeptide_fib_sequence-FIB-2aa.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -336,11 +336,11 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 ## Dipeptide Sequences from Descriptions
 
 <div id="polypeptide_mc_sequence-2_amino_acids-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-polypeptide_mc_sequence-2_amino_acids-questions.txt" download title="Download bbq-polypeptide_mc_sequence-2_amino_acids-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-polypeptide_mc_sequence-2_amino_acids-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-polypeptide_mc_sequence-2_amino_acids-questions.txt" download title="Download bbq-polypeptide_mc_sequence-2_amino_acids-questions.txt" aria-label="Click to download the BBQ Text file (bbq-polypeptide_mc_sequence-2_amino_acids-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-polypeptide_mc_sequence-2_amino_acids.zip" download title="Download blackboard_qti_v2_1-polypeptide_mc_sequence-2_amino_acids.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-polypeptide_mc_sequence-2_amino_acids.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-polypeptide_mc_sequence-2_amino_acids.zip" download title="Download blackboard_export_zip-polypeptide_mc_sequence-2_amino_acids.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-polypeptide_mc_sequence-2_amino_acids.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-polypeptide_mc_sequence-2_amino_acids.zip" download title="Download canvas_qti_v1_2-polypeptide_mc_sequence-2_amino_acids.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-polypeptide_mc_sequence-2_amino_acids.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -365,11 +365,11 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 ## Tripeptide Sequences from Structural Descriptions
 
 <div id="polypeptide_mc_sequence-3_amino_acids-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-polypeptide_mc_sequence-3_amino_acids-questions.txt" download title="Download bbq-polypeptide_mc_sequence-3_amino_acids-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-polypeptide_mc_sequence-3_amino_acids-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-polypeptide_mc_sequence-3_amino_acids-questions.txt" download title="Download bbq-polypeptide_mc_sequence-3_amino_acids-questions.txt" aria-label="Click to download the BBQ Text file (bbq-polypeptide_mc_sequence-3_amino_acids-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-polypeptide_mc_sequence-3_amino_acids.zip" download title="Download blackboard_qti_v2_1-polypeptide_mc_sequence-3_amino_acids.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-polypeptide_mc_sequence-3_amino_acids.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-polypeptide_mc_sequence-3_amino_acids.zip" download title="Download blackboard_export_zip-polypeptide_mc_sequence-3_amino_acids.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-polypeptide_mc_sequence-3_amino_acids.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-polypeptide_mc_sequence-3_amino_acids.zip" download title="Download canvas_qti_v1_2-polypeptide_mc_sequence-3_amino_acids.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-polypeptide_mc_sequence-3_amino_acids.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -394,11 +394,11 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 ## Peptide Sequences with Four Amino Acids
 
 <div id="polypeptide_mc_sequence-4_amino_acids-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-polypeptide_mc_sequence-4_amino_acids-questions.txt" download title="Download bbq-polypeptide_mc_sequence-4_amino_acids-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-polypeptide_mc_sequence-4_amino_acids-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-polypeptide_mc_sequence-4_amino_acids-questions.txt" download title="Download bbq-polypeptide_mc_sequence-4_amino_acids-questions.txt" aria-label="Click to download the BBQ Text file (bbq-polypeptide_mc_sequence-4_amino_acids-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-polypeptide_mc_sequence-4_amino_acids.zip" download title="Download blackboard_qti_v2_1-polypeptide_mc_sequence-4_amino_acids.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-polypeptide_mc_sequence-4_amino_acids.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-polypeptide_mc_sequence-4_amino_acids.zip" download title="Download blackboard_export_zip-polypeptide_mc_sequence-4_amino_acids.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-polypeptide_mc_sequence-4_amino_acids.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-polypeptide_mc_sequence-4_amino_acids.zip" download title="Download canvas_qti_v1_2-polypeptide_mc_sequence-4_amino_acids.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-polypeptide_mc_sequence-4_amino_acids.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -423,11 +423,11 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 ## Tetrapeptide Net Charge from pKa Values (5 Choices)
 
 <div id="tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-questions.txt" download title="Download bbq-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-questions.txt" download title="Download bbq-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices.zip" download title="Download blackboard_qti_v2_1-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices.zip" download title="Download blackboard_export_zip-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices.zip" download title="Download canvas_qti_v1_2-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -452,11 +452,11 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 ## Amino Acids from Chemical Structures
 
 <div id="which_amino_acid-FIB-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-which_amino_acid-FIB-questions.txt" download title="Download bbq-which_amino_acid-FIB-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-which_amino_acid-FIB-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-which_amino_acid-FIB-questions.txt" download title="Download bbq-which_amino_acid-FIB-questions.txt" aria-label="Click to download the BBQ Text file (bbq-which_amino_acid-FIB-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-which_amino_acid-FIB.zip" download title="Download blackboard_qti_v2_1-which_amino_acid-FIB.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-which_amino_acid-FIB.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-which_amino_acid-FIB.zip" download title="Download blackboard_export_zip-which_amino_acid-FIB.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-which_amino_acid-FIB.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-which_amino_acid-FIB.zip" download title="Download canvas_qti_v1_2-which_amino_acid-FIB.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-which_amino_acid-FIB.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -481,11 +481,11 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 ## Amino Acids from Chemical Structures (7 Choices)
 
 <div id="which_amino_acid-MC-7_choices-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-which_amino_acid-MC-7_choices-questions.txt" download title="Download bbq-which_amino_acid-MC-7_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-which_amino_acid-MC-7_choices-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-which_amino_acid-MC-7_choices-questions.txt" download title="Download bbq-which_amino_acid-MC-7_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-which_amino_acid-MC-7_choices-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-which_amino_acid-MC-7_choices.zip" download title="Download blackboard_qti_v2_1-which_amino_acid-MC-7_choices.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-which_amino_acid-MC-7_choices.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-which_amino_acid-MC-7_choices.zip" download title="Download blackboard_export_zip-which_amino_acid-MC-7_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-which_amino_acid-MC-7_choices.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-which_amino_acid-MC-7_choices.zip" download title="Download canvas_qti_v1_2-which_amino_acid-MC-7_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-which_amino_acid-MC-7_choices.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -510,11 +510,11 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 ## Peptide Sequences (Fill in the Blank)
 
 <div id="wordle_peptides-FIB-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-wordle_peptides-FIB-questions.txt" download title="Download bbq-wordle_peptides-FIB-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-wordle_peptides-FIB-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-wordle_peptides-FIB-questions.txt" download title="Download bbq-wordle_peptides-FIB-questions.txt" aria-label="Click to download the BBQ Text file (bbq-wordle_peptides-FIB-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-wordle_peptides-FIB.zip" download title="Download blackboard_qti_v2_1-wordle_peptides-FIB.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-wordle_peptides-FIB.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-wordle_peptides-FIB.zip" download title="Download blackboard_export_zip-wordle_peptides-FIB.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-wordle_peptides-FIB.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-wordle_peptides-FIB.zip" download title="Download canvas_qti_v1_2-wordle_peptides-FIB.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-wordle_peptides-FIB.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2

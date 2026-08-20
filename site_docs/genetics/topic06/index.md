@@ -7,11 +7,11 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## Matching Meiosis Prophase I Stages to Descriptions
 
 <div id="MATCH-meiosis_prophase_1-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MATCH-meiosis_prophase_1-questions.txt" download title="Download bbq-MATCH-meiosis_prophase_1-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-meiosis_prophase_1-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-MATCH-meiosis_prophase_1-questions.txt" download title="Download bbq-MATCH-meiosis_prophase_1-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-meiosis_prophase_1-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-meiosis_prophase_1.zip" download title="Download blackboard_qti_v2_1-MATCH-meiosis_prophase_1.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-meiosis_prophase_1.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-meiosis_prophase_1.zip" download title="Download blackboard_export_zip-MATCH-meiosis_prophase_1.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-meiosis_prophase_1.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-meiosis_prophase_1.zip" download title="Download canvas_qti_v1_2-MATCH-meiosis_prophase_1.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-meiosis_prophase_1.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -42,11 +42,11 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## Matching Meiosis Terms to Definitions
 
 <div id="MATCH-meiosis_terms-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MATCH-meiosis_terms-questions.txt" download title="Download bbq-MATCH-meiosis_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-meiosis_terms-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-MATCH-meiosis_terms-questions.txt" download title="Download bbq-MATCH-meiosis_terms-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-meiosis_terms-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-meiosis_terms.zip" download title="Download blackboard_qti_v2_1-MATCH-meiosis_terms.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-meiosis_terms.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-meiosis_terms.zip" download title="Download blackboard_export_zip-MATCH-meiosis_terms.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-meiosis_terms.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-meiosis_terms.zip" download title="Download canvas_qti_v1_2-MATCH-meiosis_terms.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-meiosis_terms.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -77,11 +77,11 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## Matching Sex Determination Systems to Descriptions
 
 <div id="MATCH-sex_determination-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MATCH-sex_determination-questions.txt" download title="Download bbq-MATCH-sex_determination-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-sex_determination-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-MATCH-sex_determination-questions.txt" download title="Download bbq-MATCH-sex_determination-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-sex_determination-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-sex_determination.zip" download title="Download blackboard_qti_v2_1-MATCH-sex_determination.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-sex_determination.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-sex_determination.zip" download title="Download blackboard_export_zip-MATCH-sex_determination.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-sex_determination.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-sex_determination.zip" download title="Download canvas_qti_v1_2-MATCH-sex_determination.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-sex_determination.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -112,11 +112,11 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## True/False Statements About Mitosis and Meiosis
 
 <div id="TFMS-mitosis_and_meiosis-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-TFMS-mitosis_and_meiosis-questions.txt" download title="Download bbq-TFMS-mitosis_and_meiosis-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-mitosis_and_meiosis-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-TFMS-mitosis_and_meiosis-questions.txt" download title="Download bbq-TFMS-mitosis_and_meiosis-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-mitosis_and_meiosis-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-TFMS-mitosis_and_meiosis.zip" download title="Download blackboard_qti_v2_1-TFMS-mitosis_and_meiosis.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-TFMS-mitosis_and_meiosis.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-mitosis_and_meiosis.zip" download title="Download blackboard_export_zip-TFMS-mitosis_and_meiosis.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-mitosis_and_meiosis.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-mitosis_and_meiosis.zip" download title="Download canvas_qti_v1_2-TFMS-mitosis_and_meiosis.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-mitosis_and_meiosis.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -147,11 +147,11 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## Meiosis Prophase I Stages from Descriptions
 
 <div id="WOMC-meiosis_prophase_1-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-WOMC-meiosis_prophase_1-questions.txt" download title="Download bbq-WOMC-meiosis_prophase_1-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-meiosis_prophase_1-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-WOMC-meiosis_prophase_1-questions.txt" download title="Download bbq-WOMC-meiosis_prophase_1-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-meiosis_prophase_1-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-meiosis_prophase_1.zip" download title="Download blackboard_qti_v2_1-WOMC-meiosis_prophase_1.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-meiosis_prophase_1.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-meiosis_prophase_1.zip" download title="Download blackboard_export_zip-WOMC-meiosis_prophase_1.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-meiosis_prophase_1.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-meiosis_prophase_1.zip" download title="Download canvas_qti_v1_2-WOMC-meiosis_prophase_1.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-meiosis_prophase_1.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -182,11 +182,11 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## Meiosis Terms from Definitions
 
 <div id="WOMC-meiosis_terms-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-WOMC-meiosis_terms-questions.txt" download title="Download bbq-WOMC-meiosis_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-meiosis_terms-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-WOMC-meiosis_terms-questions.txt" download title="Download bbq-WOMC-meiosis_terms-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-meiosis_terms-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-meiosis_terms.zip" download title="Download blackboard_qti_v2_1-WOMC-meiosis_terms.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-meiosis_terms.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-meiosis_terms.zip" download title="Download blackboard_export_zip-WOMC-meiosis_terms.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-meiosis_terms.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-meiosis_terms.zip" download title="Download canvas_qti_v1_2-WOMC-meiosis_terms.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-meiosis_terms.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -217,11 +217,11 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## Sex Determination Systems from Descriptions
 
 <div id="WOMC-sex_determination-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-WOMC-sex_determination-questions.txt" download title="Download bbq-WOMC-sex_determination-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-sex_determination-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-WOMC-sex_determination-questions.txt" download title="Download bbq-WOMC-sex_determination-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-sex_determination-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-sex_determination.zip" download title="Download blackboard_qti_v2_1-WOMC-sex_determination.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-sex_determination.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-sex_determination.zip" download title="Download blackboard_export_zip-WOMC-sex_determination.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-sex_determination.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-sex_determination.zip" download title="Download canvas_qti_v1_2-WOMC-sex_determination.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-sex_determination.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -252,11 +252,11 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## Fraction of Daughters with Both AIS and HD
 
 <div id="dominant_and_X-linked_recessive-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-dominant_and_X-linked_recessive-questions.txt" download title="Download bbq-dominant_and_X-linked_recessive-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-dominant_and_X-linked_recessive-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-dominant_and_X-linked_recessive-questions.txt" download title="Download bbq-dominant_and_X-linked_recessive-questions.txt" aria-label="Click to download the BBQ Text file (bbq-dominant_and_X-linked_recessive-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-dominant_and_X-linked_recessive.zip" download title="Download blackboard_qti_v2_1-dominant_and_X-linked_recessive.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-dominant_and_X-linked_recessive.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-dominant_and_X-linked_recessive.zip" download title="Download blackboard_export_zip-dominant_and_X-linked_recessive.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-dominant_and_X-linked_recessive.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-dominant_and_X-linked_recessive.zip" download title="Download canvas_qti_v1_2-dominant_and_X-linked_recessive.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-dominant_and_X-linked_recessive.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -284,11 +284,11 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## Combined Dominant and X-Linked Recessive Inheritance Variations
 
 <div id="dominant_and_X-linked_recessive_variations-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-dominant_and_X-linked_recessive_variations-questions.txt" download title="Download bbq-dominant_and_X-linked_recessive_variations-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-dominant_and_X-linked_recessive_variations-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-dominant_and_X-linked_recessive_variations-questions.txt" download title="Download bbq-dominant_and_X-linked_recessive_variations-questions.txt" aria-label="Click to download the BBQ Text file (bbq-dominant_and_X-linked_recessive_variations-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-dominant_and_X-linked_recessive_variations.zip" download title="Download blackboard_qti_v2_1-dominant_and_X-linked_recessive_variations.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-dominant_and_X-linked_recessive_variations.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-dominant_and_X-linked_recessive_variations.zip" download title="Download blackboard_export_zip-dominant_and_X-linked_recessive_variations.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-dominant_and_X-linked_recessive_variations.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-dominant_and_X-linked_recessive_variations.zip" download title="Download canvas_qti_v1_2-dominant_and_X-linked_recessive_variations.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-dominant_and_X-linked_recessive_variations.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -316,11 +316,11 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## Parent Genotypes in X-Linked Recessive Crosses
 
 <div id="poisson_flies-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-poisson_flies-questions.txt" download title="Download bbq-poisson_flies-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-poisson_flies-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-poisson_flies-questions.txt" download title="Download bbq-poisson_flies-questions.txt" aria-label="Click to download the BBQ Text file (bbq-poisson_flies-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-poisson_flies.zip" download title="Download blackboard_qti_v2_1-poisson_flies.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-poisson_flies.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-poisson_flies.zip" download title="Download blackboard_export_zip-poisson_flies.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-poisson_flies.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-poisson_flies.zip" download title="Download canvas_qti_v1_2-poisson_flies.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-poisson_flies.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -351,11 +351,11 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## X-linked Eye Color Inheritance
 
 <div id="x_linked_reciprocal_cross-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-x_linked_reciprocal_cross-questions.txt" download title="Download bbq-x_linked_reciprocal_cross-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-x_linked_reciprocal_cross-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-x_linked_reciprocal_cross-questions.txt" download title="Download bbq-x_linked_reciprocal_cross-questions.txt" aria-label="Click to download the BBQ Text file (bbq-x_linked_reciprocal_cross-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-x_linked_reciprocal_cross.zip" download title="Download blackboard_qti_v2_1-x_linked_reciprocal_cross.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-x_linked_reciprocal_cross.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-x_linked_reciprocal_cross.zip" download title="Download blackboard_export_zip-x_linked_reciprocal_cross.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-x_linked_reciprocal_cross.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-x_linked_reciprocal_cross.zip" download title="Download canvas_qti_v1_2-x_linked_reciprocal_cross.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-x_linked_reciprocal_cross.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -383,11 +383,11 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## X-linked Coat Color Probability
 
 <div id="x_linked_tortoiseshell-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-x_linked_tortoiseshell-questions.txt" download title="Download bbq-x_linked_tortoiseshell-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-x_linked_tortoiseshell-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-x_linked_tortoiseshell-questions.txt" download title="Download bbq-x_linked_tortoiseshell-questions.txt" aria-label="Click to download the BBQ Text file (bbq-x_linked_tortoiseshell-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-x_linked_tortoiseshell.zip" download title="Download blackboard_qti_v2_1-x_linked_tortoiseshell.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-x_linked_tortoiseshell.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-x_linked_tortoiseshell.zip" download title="Download blackboard_export_zip-x_linked_tortoiseshell.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-x_linked_tortoiseshell.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-x_linked_tortoiseshell.zip" download title="Download canvas_qti_v1_2-x_linked_tortoiseshell.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-x_linked_tortoiseshell.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2

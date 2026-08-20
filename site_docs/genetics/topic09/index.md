@@ -7,11 +7,11 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Matching Chromosome Structure Alterations to Descriptions
 
 <div id="MATCH-chromosome_alterations-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MATCH-chromosome_alterations-questions.txt" download title="Download bbq-MATCH-chromosome_alterations-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-chromosome_alterations-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-MATCH-chromosome_alterations-questions.txt" download title="Download bbq-MATCH-chromosome_alterations-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-chromosome_alterations-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-chromosome_alterations.zip" download title="Download blackboard_qti_v2_1-MATCH-chromosome_alterations.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-chromosome_alterations.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-chromosome_alterations.zip" download title="Download blackboard_export_zip-MATCH-chromosome_alterations.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-chromosome_alterations.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-chromosome_alterations.zip" download title="Download canvas_qti_v1_2-MATCH-chromosome_alterations.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-chromosome_alterations.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -42,11 +42,11 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Matching Chromosome Shapes to Descriptions
 
 <div id="MATCH-chromosome_shapes-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MATCH-chromosome_shapes-questions.txt" download title="Download bbq-MATCH-chromosome_shapes-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-chromosome_shapes-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-MATCH-chromosome_shapes-questions.txt" download title="Download bbq-MATCH-chromosome_shapes-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-chromosome_shapes-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-chromosome_shapes.zip" download title="Download blackboard_qti_v2_1-MATCH-chromosome_shapes.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-chromosome_shapes.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-chromosome_shapes.zip" download title="Download blackboard_export_zip-MATCH-chromosome_shapes.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-chromosome_shapes.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-chromosome_shapes.zip" download title="Download canvas_qti_v1_2-MATCH-chromosome_shapes.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-chromosome_shapes.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -77,11 +77,11 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Types of Chromosomal Alterations
 
 <div id="WOMC-chromosome_alterations-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-WOMC-chromosome_alterations-questions.txt" download title="Download bbq-WOMC-chromosome_alterations-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-chromosome_alterations-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-WOMC-chromosome_alterations-questions.txt" download title="Download bbq-WOMC-chromosome_alterations-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-chromosome_alterations-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-chromosome_alterations.zip" download title="Download blackboard_qti_v2_1-WOMC-chromosome_alterations.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-chromosome_alterations.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-chromosome_alterations.zip" download title="Download blackboard_export_zip-WOMC-chromosome_alterations.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-chromosome_alterations.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-chromosome_alterations.zip" download title="Download canvas_qti_v1_2-WOMC-chromosome_alterations.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-chromosome_alterations.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -112,11 +112,11 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Chromosome Shape Categories Based on Descriptions
 
 <div id="WOMC-chromosome_shapes-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-WOMC-chromosome_shapes-questions.txt" download title="Download bbq-WOMC-chromosome_shapes-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-chromosome_shapes-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-WOMC-chromosome_shapes-questions.txt" download title="Download bbq-WOMC-chromosome_shapes-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-chromosome_shapes-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-chromosome_shapes.zip" download title="Download blackboard_qti_v2_1-WOMC-chromosome_shapes.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-chromosome_shapes.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-chromosome_shapes.zip" download title="Download blackboard_export_zip-WOMC-chromosome_shapes.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-chromosome_shapes.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-chromosome_shapes.zip" download title="Download canvas_qti_v1_2-WOMC-chromosome_shapes.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-chromosome_shapes.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -147,11 +147,11 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Chromosomal Abnormalities from Karyotype Notation
 
 <div id="cytogenetic_notation-aneuploidy-5_choices-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-cytogenetic_notation-aneuploidy-5_choices-questions.txt" download title="Download bbq-cytogenetic_notation-aneuploidy-5_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-cytogenetic_notation-aneuploidy-5_choices-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-cytogenetic_notation-aneuploidy-5_choices-questions.txt" download title="Download bbq-cytogenetic_notation-aneuploidy-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-cytogenetic_notation-aneuploidy-5_choices-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-cytogenetic_notation-aneuploidy-5_choices.zip" download title="Download blackboard_qti_v2_1-cytogenetic_notation-aneuploidy-5_choices.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-cytogenetic_notation-aneuploidy-5_choices.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-cytogenetic_notation-aneuploidy-5_choices.zip" download title="Download blackboard_export_zip-cytogenetic_notation-aneuploidy-5_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-cytogenetic_notation-aneuploidy-5_choices.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-cytogenetic_notation-aneuploidy-5_choices.zip" download title="Download canvas_qti_v1_2-cytogenetic_notation-aneuploidy-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-cytogenetic_notation-aneuploidy-5_choices.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -179,11 +179,11 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Chromosome Band Proximity
 
 <div id="cytogenetic_notation-band_order-5_choices-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-cytogenetic_notation-band_order-5_choices-questions.txt" download title="Download bbq-cytogenetic_notation-band_order-5_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-cytogenetic_notation-band_order-5_choices-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-cytogenetic_notation-band_order-5_choices-questions.txt" download title="Download bbq-cytogenetic_notation-band_order-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-cytogenetic_notation-band_order-5_choices-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-cytogenetic_notation-band_order-5_choices.zip" download title="Download blackboard_qti_v2_1-cytogenetic_notation-band_order-5_choices.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-cytogenetic_notation-band_order-5_choices.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-cytogenetic_notation-band_order-5_choices.zip" download title="Download blackboard_export_zip-cytogenetic_notation-band_order-5_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-cytogenetic_notation-band_order-5_choices.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-cytogenetic_notation-band_order-5_choices.zip" download title="Download canvas_qti_v1_2-cytogenetic_notation-band_order-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-cytogenetic_notation-band_order-5_choices.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -211,11 +211,11 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Cytogenetic Notations in Genetic Disorders
 
 <div id="cytogenetic_notation-disorders-5_choices-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-cytogenetic_notation-disorders-5_choices-questions.txt" download title="Download bbq-cytogenetic_notation-disorders-5_choices-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-cytogenetic_notation-disorders-5_choices-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-cytogenetic_notation-disorders-5_choices-questions.txt" download title="Download bbq-cytogenetic_notation-disorders-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-cytogenetic_notation-disorders-5_choices-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-cytogenetic_notation-disorders-5_choices.zip" download title="Download blackboard_qti_v2_1-cytogenetic_notation-disorders-5_choices.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-cytogenetic_notation-disorders-5_choices.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-cytogenetic_notation-disorders-5_choices.zip" download title="Download blackboard_export_zip-cytogenetic_notation-disorders-5_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-cytogenetic_notation-disorders-5_choices.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-cytogenetic_notation-disorders-5_choices.zip" download title="Download canvas_qti_v1_2-cytogenetic_notation-disorders-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-cytogenetic_notation-disorders-5_choices.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -243,11 +243,11 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Cytogenetic Notation for Rearrangements
 
 <div id="cytogenetic_notation-rearrangements-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-cytogenetic_notation-rearrangements-questions.txt" download title="Download bbq-cytogenetic_notation-rearrangements-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-cytogenetic_notation-rearrangements-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-cytogenetic_notation-rearrangements-questions.txt" download title="Download bbq-cytogenetic_notation-rearrangements-questions.txt" aria-label="Click to download the BBQ Text file (bbq-cytogenetic_notation-rearrangements-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-cytogenetic_notation-rearrangements.zip" download title="Download blackboard_qti_v2_1-cytogenetic_notation-rearrangements.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-cytogenetic_notation-rearrangements.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-cytogenetic_notation-rearrangements.zip" download title="Download blackboard_export_zip-cytogenetic_notation-rearrangements.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-cytogenetic_notation-rearrangements.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-cytogenetic_notation-rearrangements.zip" download title="Download canvas_qti_v1_2-cytogenetic_notation-rearrangements.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-cytogenetic_notation-rearrangements.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -275,11 +275,11 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Chromosome Sub-Band Positions from Cytogenetic Notation
 
 <div id="cytogenetic_notation-sub-band_notation-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-cytogenetic_notation-sub-band_notation-questions.txt" download title="Download bbq-cytogenetic_notation-sub-band_notation-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-cytogenetic_notation-sub-band_notation-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-cytogenetic_notation-sub-band_notation-questions.txt" download title="Download bbq-cytogenetic_notation-sub-band_notation-questions.txt" aria-label="Click to download the BBQ Text file (bbq-cytogenetic_notation-sub-band_notation-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-cytogenetic_notation-sub-band_notation.zip" download title="Download blackboard_qti_v2_1-cytogenetic_notation-sub-band_notation.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-cytogenetic_notation-sub-band_notation.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-cytogenetic_notation-sub-band_notation.zip" download title="Download blackboard_export_zip-cytogenetic_notation-sub-band_notation.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-cytogenetic_notation-sub-band_notation.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-cytogenetic_notation-sub-band_notation.zip" download title="Download canvas_qti_v1_2-cytogenetic_notation-sub-band_notation.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-cytogenetic_notation-sub-band_notation.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -307,11 +307,11 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Gene Order from Deletion Mutants (4 Genes, Random Labels)
 
 <div id="deletion_mutant_random-04_genes-MC-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_random-04_genes-MC-questions.txt" download title="Download bbq-deletion_mutant_random-04_genes-MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-deletion_mutant_random-04_genes-MC-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_random-04_genes-MC-questions.txt" download title="Download bbq-deletion_mutant_random-04_genes-MC-questions.txt" aria-label="Click to download the BBQ Text file (bbq-deletion_mutant_random-04_genes-MC-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-deletion_mutant_random-04_genes-MC.zip" download title="Download blackboard_qti_v2_1-deletion_mutant_random-04_genes-MC.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-deletion_mutant_random-04_genes-MC.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-deletion_mutant_random-04_genes-MC.zip" download title="Download blackboard_export_zip-deletion_mutant_random-04_genes-MC.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-deletion_mutant_random-04_genes-MC.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-deletion_mutant_random-04_genes-MC.zip" download title="Download canvas_qti_v1_2-deletion_mutant_random-04_genes-MC.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-deletion_mutant_random-04_genes-MC.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -339,11 +339,11 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Gene Order from Deletion Mutants (5 Genes, Random Labels)
 
 <div id="deletion_mutant_random-05_genes-MC-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_random-05_genes-MC-questions.txt" download title="Download bbq-deletion_mutant_random-05_genes-MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-deletion_mutant_random-05_genes-MC-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_random-05_genes-MC-questions.txt" download title="Download bbq-deletion_mutant_random-05_genes-MC-questions.txt" aria-label="Click to download the BBQ Text file (bbq-deletion_mutant_random-05_genes-MC-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-deletion_mutant_random-05_genes-MC.zip" download title="Download blackboard_qti_v2_1-deletion_mutant_random-05_genes-MC.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-deletion_mutant_random-05_genes-MC.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-deletion_mutant_random-05_genes-MC.zip" download title="Download blackboard_export_zip-deletion_mutant_random-05_genes-MC.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-deletion_mutant_random-05_genes-MC.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-deletion_mutant_random-05_genes-MC.zip" download title="Download canvas_qti_v1_2-deletion_mutant_random-05_genes-MC.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-deletion_mutant_random-05_genes-MC.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -371,11 +371,11 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Gene Order from Deletion Mutants (6 Genes, Random Labels)
 
 <div id="deletion_mutant_random-06_genes-MC-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_random-06_genes-MC-questions.txt" download title="Download bbq-deletion_mutant_random-06_genes-MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-deletion_mutant_random-06_genes-MC-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_random-06_genes-MC-questions.txt" download title="Download bbq-deletion_mutant_random-06_genes-MC-questions.txt" aria-label="Click to download the BBQ Text file (bbq-deletion_mutant_random-06_genes-MC-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-deletion_mutant_random-06_genes-MC.zip" download title="Download blackboard_qti_v2_1-deletion_mutant_random-06_genes-MC.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-deletion_mutant_random-06_genes-MC.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-deletion_mutant_random-06_genes-MC.zip" download title="Download blackboard_export_zip-deletion_mutant_random-06_genes-MC.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-deletion_mutant_random-06_genes-MC.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-deletion_mutant_random-06_genes-MC.zip" download title="Download canvas_qti_v1_2-deletion_mutant_random-06_genes-MC.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-deletion_mutant_random-06_genes-MC.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -403,11 +403,11 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Gene Order from Deletion Mutants (4 Genes, Word Labels)
 
 <div id="deletion_mutant_words-04_genes-MC-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_words-04_genes-MC-questions.txt" download title="Download bbq-deletion_mutant_words-04_genes-MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-deletion_mutant_words-04_genes-MC-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_words-04_genes-MC-questions.txt" download title="Download bbq-deletion_mutant_words-04_genes-MC-questions.txt" aria-label="Click to download the BBQ Text file (bbq-deletion_mutant_words-04_genes-MC-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-deletion_mutant_words-04_genes-MC.zip" download title="Download blackboard_qti_v2_1-deletion_mutant_words-04_genes-MC.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-deletion_mutant_words-04_genes-MC.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-deletion_mutant_words-04_genes-MC.zip" download title="Download blackboard_export_zip-deletion_mutant_words-04_genes-MC.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-deletion_mutant_words-04_genes-MC.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-deletion_mutant_words-04_genes-MC.zip" download title="Download canvas_qti_v1_2-deletion_mutant_words-04_genes-MC.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-deletion_mutant_words-04_genes-MC.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -435,11 +435,11 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Gene Order from Deletion Mutants (5 Genes, Word Labels)
 
 <div id="deletion_mutant_words-05_genes-MC-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_words-05_genes-MC-questions.txt" download title="Download bbq-deletion_mutant_words-05_genes-MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-deletion_mutant_words-05_genes-MC-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_words-05_genes-MC-questions.txt" download title="Download bbq-deletion_mutant_words-05_genes-MC-questions.txt" aria-label="Click to download the BBQ Text file (bbq-deletion_mutant_words-05_genes-MC-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-deletion_mutant_words-05_genes-MC.zip" download title="Download blackboard_qti_v2_1-deletion_mutant_words-05_genes-MC.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-deletion_mutant_words-05_genes-MC.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-deletion_mutant_words-05_genes-MC.zip" download title="Download blackboard_export_zip-deletion_mutant_words-05_genes-MC.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-deletion_mutant_words-05_genes-MC.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-deletion_mutant_words-05_genes-MC.zip" download title="Download canvas_qti_v1_2-deletion_mutant_words-05_genes-MC.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-deletion_mutant_words-05_genes-MC.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -467,11 +467,11 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Gene Order from Deletion Mutants (6 Genes, Word Labels)
 
 <div id="deletion_mutant_words-06_genes-MC-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_words-06_genes-MC-questions.txt" download title="Download bbq-deletion_mutant_words-06_genes-MC-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-deletion_mutant_words-06_genes-MC-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_words-06_genes-MC-questions.txt" download title="Download bbq-deletion_mutant_words-06_genes-MC-questions.txt" aria-label="Click to download the BBQ Text file (bbq-deletion_mutant_words-06_genes-MC-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-deletion_mutant_words-06_genes-MC.zip" download title="Download blackboard_qti_v2_1-deletion_mutant_words-06_genes-MC.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-deletion_mutant_words-06_genes-MC.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-deletion_mutant_words-06_genes-MC.zip" download title="Download blackboard_export_zip-deletion_mutant_words-06_genes-MC.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-deletion_mutant_words-06_genes-MC.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-deletion_mutant_words-06_genes-MC.zip" download title="Download canvas_qti_v1_2-deletion_mutant_words-06_genes-MC.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-deletion_mutant_words-06_genes-MC.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -499,11 +499,11 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Chromosomal Translocation Outcomes (Color)
 
 <div id="letter_translocation_problem_color-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-letter_translocation_problem_color-questions.txt" download title="Download bbq-letter_translocation_problem_color-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-letter_translocation_problem_color-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-letter_translocation_problem_color-questions.txt" download title="Download bbq-letter_translocation_problem_color-questions.txt" aria-label="Click to download the BBQ Text file (bbq-letter_translocation_problem_color-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-letter_translocation_problem_color.zip" download title="Download blackboard_qti_v2_1-letter_translocation_problem_color.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-letter_translocation_problem_color.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-letter_translocation_problem_color.zip" download title="Download blackboard_export_zip-letter_translocation_problem_color.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-letter_translocation_problem_color.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-letter_translocation_problem_color.zip" download title="Download canvas_qti_v1_2-letter_translocation_problem_color.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-letter_translocation_problem_color.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -531,11 +531,11 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Gamete Chromosome Numbers in Polyploids
 
 <div id="polyploid-gametes-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-polyploid-gametes-questions.txt" download title="Download bbq-polyploid-gametes-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-polyploid-gametes-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-polyploid-gametes-questions.txt" download title="Download bbq-polyploid-gametes-questions.txt" aria-label="Click to download the BBQ Text file (bbq-polyploid-gametes-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-polyploid-gametes.zip" download title="Download blackboard_qti_v2_1-polyploid-gametes.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-polyploid-gametes.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-polyploid-gametes.zip" download title="Download blackboard_export_zip-polyploid-gametes.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-polyploid-gametes.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-polyploid-gametes.zip" download title="Download canvas_qti_v1_2-polyploid-gametes.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-polyploid-gametes.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -563,11 +563,11 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Monoploid and Haploid Numbers from Chromosome Counts
 
 <div id="polyploid-monoploid_v_haploid-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-polyploid-monoploid_v_haploid-questions.txt" download title="Download bbq-polyploid-monoploid_v_haploid-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-polyploid-monoploid_v_haploid-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-polyploid-monoploid_v_haploid-questions.txt" download title="Download bbq-polyploid-monoploid_v_haploid-questions.txt" aria-label="Click to download the BBQ Text file (bbq-polyploid-monoploid_v_haploid-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-polyploid-monoploid_v_haploid.zip" download title="Download blackboard_qti_v2_1-polyploid-monoploid_v_haploid.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-polyploid-monoploid_v_haploid.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-polyploid-monoploid_v_haploid.zip" download title="Download blackboard_export_zip-polyploid-monoploid_v_haploid.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-polyploid-monoploid_v_haploid.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-polyploid-monoploid_v_haploid.zip" download title="Download canvas_qti_v1_2-polyploid-monoploid_v_haploid.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-polyploid-monoploid_v_haploid.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -595,11 +595,11 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Gametes from Robertsonian Translocation
 
 <div id="robertsonian-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-robertsonian-questions.txt" download title="Download bbq-robertsonian-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-robertsonian-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-robertsonian-questions.txt" download title="Download bbq-robertsonian-questions.txt" aria-label="Click to download the BBQ Text file (bbq-robertsonian-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-robertsonian.zip" download title="Download blackboard_qti_v2_1-robertsonian.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-robertsonian.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-robertsonian.zip" download title="Download blackboard_export_zip-robertsonian.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-robertsonian.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-robertsonian.zip" download title="Download canvas_qti_v1_2-robertsonian.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-robertsonian.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -627,11 +627,11 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Balanced Translocation Segregation Outcomes
 
 <div id="translocation_meiosis_table-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-translocation_meiosis_table-questions.txt" download title="Download bbq-translocation_meiosis_table-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-translocation_meiosis_table-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-translocation_meiosis_table-questions.txt" download title="Download bbq-translocation_meiosis_table-questions.txt" aria-label="Click to download the BBQ Text file (bbq-translocation_meiosis_table-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-translocation_meiosis_table.zip" download title="Download blackboard_qti_v2_1-translocation_meiosis_table.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-translocation_meiosis_table.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-translocation_meiosis_table.zip" download title="Download blackboard_export_zip-translocation_meiosis_table.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-translocation_meiosis_table.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-translocation_meiosis_table.zip" download title="Download canvas_qti_v1_2-translocation_meiosis_table.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-translocation_meiosis_table.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2

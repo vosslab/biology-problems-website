@@ -7,11 +7,11 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 ## Gene Trees from Distance Matrices (Level 1)
 
 <div id="gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1-questions.txt" download title="Download bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1-questions.txt" download title="Download bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1-questions.txt" aria-label="Click to download the BBQ Text file (bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1.zip" download title="Download blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1.zip" download title="Download blackboard_export_zip-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1.zip" download title="Download canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -39,11 +39,11 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 ## Gene Trees from Distance Matrices (Level 2)
 
 <div id="gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2-questions.txt" download title="Download bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2-questions.txt" download title="Download bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2-questions.txt" aria-label="Click to download the BBQ Text file (bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2.zip" download title="Download blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2.zip" download title="Download blackboard_export_zip-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2.zip" download title="Download canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -71,11 +71,11 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 ## Gene Trees from Distance Matrices (Level 3)
 
 <div id="gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3-questions.txt" download title="Download bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3-questions.txt" download title="Download bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3-questions.txt" aria-label="Click to download the BBQ Text file (bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3.zip" download title="Download blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3.zip" download title="Download blackboard_export_zip-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3.zip" download title="Download canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -103,11 +103,11 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 ## Gene Trees from Distance Matrices (Level 4)
 
 <div id="gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4-questions.txt" download title="Download bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4-questions.txt" download title="Download bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4-questions.txt" aria-label="Click to download the BBQ Text file (bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4.zip" download title="Download blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4.zip" download title="Download blackboard_export_zip-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4.zip" download title="Download canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -135,11 +135,11 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 ## Gene Trees from Distance Matrices (Level 5)
 
 <div id="gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5-questions.txt" download title="Download bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5-questions.txt" download title="Download bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5-questions.txt" aria-label="Click to download the BBQ Text file (bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5.zip" download title="Download blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5.zip" download title="Download blackboard_export_zip-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5.zip" download title="Download canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -167,11 +167,11 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 ## Non-Equivalent Phylogenetic Tree Structures (EASY)
 
 <div id="gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level-questions.txt" download title="Download bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level-questions.txt" download title="Download bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level-questions.txt" aria-label="Click to download the BBQ Text file (bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level.zip" download title="Download blackboard_qti_v2_1-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level.zip" download title="Download blackboard_export_zip-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level.zip" download title="Download canvas_qti_v1_2-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -199,11 +199,11 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 ## Non-Equivalent Phylogenetic Tree Structures (MEDIUM)
 
 <div id="gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level-questions.txt" download title="Download bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level-questions.txt" download title="Download bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level-questions.txt" aria-label="Click to download the BBQ Text file (bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level.zip" download title="Download blackboard_qti_v2_1-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level.zip" download title="Download blackboard_export_zip-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level.zip" download title="Download canvas_qti_v1_2-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -231,11 +231,11 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 ## Equivalent Phylogenetic Tree Structures (EASY)
 
 <div id="gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level-questions.txt" download title="Download bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level-questions.txt" download title="Download bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level-questions.txt" aria-label="Click to download the BBQ Text file (bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level.zip" download title="Download blackboard_qti_v2_1-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level.zip" download title="Download blackboard_export_zip-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level.zip" download title="Download canvas_qti_v1_2-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -263,11 +263,11 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 ## Equivalent Phylogenetic Tree Structures (MEDIUM)
 
 <div id="gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level-questions.txt" download title="Download bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level-questions.txt" download title="Download bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level-questions.txt" aria-label="Click to download the BBQ Text file (bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level.zip" download title="Download blackboard_qti_v2_1-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level.zip" download title="Download blackboard_export_zip-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level.zip" download title="Download canvas_qti_v1_2-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2

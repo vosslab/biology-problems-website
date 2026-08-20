@@ -7,11 +7,11 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 ## Matching Genetic Terms to Definitions
 
 <div id="MATCH-genetics_terminology-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MATCH-genetics_terminology-questions.txt" download title="Download bbq-MATCH-genetics_terminology-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-genetics_terminology-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-MATCH-genetics_terminology-questions.txt" download title="Download bbq-MATCH-genetics_terminology-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-genetics_terminology-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-genetics_terminology.zip" download title="Download blackboard_qti_v2_1-MATCH-genetics_terminology.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-genetics_terminology.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-genetics_terminology.zip" download title="Download blackboard_export_zip-MATCH-genetics_terminology.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-genetics_terminology.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-genetics_terminology.zip" download title="Download canvas_qti_v1_2-MATCH-genetics_terminology.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-genetics_terminology.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -42,11 +42,11 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 ## Matching Mendelian Cross Generations to Descriptions
 
 <div id="MATCH-mendel_cross_terminology-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MATCH-mendel_cross_terminology-questions.txt" download title="Download bbq-MATCH-mendel_cross_terminology-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-mendel_cross_terminology-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-MATCH-mendel_cross_terminology-questions.txt" download title="Download bbq-MATCH-mendel_cross_terminology-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-mendel_cross_terminology-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-mendel_cross_terminology.zip" download title="Download blackboard_qti_v2_1-MATCH-mendel_cross_terminology.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-mendel_cross_terminology.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-mendel_cross_terminology.zip" download title="Download blackboard_export_zip-MATCH-mendel_cross_terminology.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-mendel_cross_terminology.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-mendel_cross_terminology.zip" download title="Download canvas_qti_v1_2-MATCH-mendel_cross_terminology.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-mendel_cross_terminology.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -77,11 +77,11 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 ## Matching Mendel's Principles to Descriptions
 
 <div id="MATCH-mendel_four_principles-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MATCH-mendel_four_principles-questions.txt" download title="Download bbq-MATCH-mendel_four_principles-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-mendel_four_principles-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-MATCH-mendel_four_principles-questions.txt" download title="Download bbq-MATCH-mendel_four_principles-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-mendel_four_principles-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-mendel_four_principles.zip" download title="Download blackboard_qti_v2_1-MATCH-mendel_four_principles.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-mendel_four_principles.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-mendel_four_principles.zip" download title="Download blackboard_export_zip-MATCH-mendel_four_principles.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-mendel_four_principles.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-mendel_four_principles.zip" download title="Download canvas_qti_v1_2-MATCH-mendel_four_principles.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-mendel_four_principles.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -112,11 +112,11 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 ## Matching Mendelian Genetics Terms to Definitions
 
 <div id="MATCH-mendelian_genetics_terms-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MATCH-mendelian_genetics_terms-questions.txt" download title="Download bbq-MATCH-mendelian_genetics_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-mendelian_genetics_terms-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-MATCH-mendelian_genetics_terms-questions.txt" download title="Download bbq-MATCH-mendelian_genetics_terms-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-mendelian_genetics_terms-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-mendelian_genetics_terms.zip" download title="Download blackboard_qti_v2_1-MATCH-mendelian_genetics_terms.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-mendelian_genetics_terms.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-mendelian_genetics_terms.zip" download title="Download blackboard_export_zip-MATCH-mendelian_genetics_terms.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-mendelian_genetics_terms.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-mendelian_genetics_terms.zip" download title="Download canvas_qti_v1_2-MATCH-mendelian_genetics_terms.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-mendelian_genetics_terms.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -147,11 +147,11 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 ## Matching Monohybrid Cross Genotypes to Phenotypes
 
 <div id="MATCH-monohybrid_cross_genotype-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MATCH-monohybrid_cross_genotype-questions.txt" download title="Download bbq-MATCH-monohybrid_cross_genotype-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-monohybrid_cross_genotype-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-MATCH-monohybrid_cross_genotype-questions.txt" download title="Download bbq-MATCH-monohybrid_cross_genotype-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-monohybrid_cross_genotype-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-monohybrid_cross_genotype.zip" download title="Download blackboard_qti_v2_1-MATCH-monohybrid_cross_genotype.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-monohybrid_cross_genotype.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-monohybrid_cross_genotype.zip" download title="Download blackboard_export_zip-MATCH-monohybrid_cross_genotype.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-monohybrid_cross_genotype.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-monohybrid_cross_genotype.zip" download title="Download canvas_qti_v1_2-MATCH-monohybrid_cross_genotype.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-monohybrid_cross_genotype.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -182,11 +182,11 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 ## Genetic Terms from Definitions
 
 <div id="WOMC-genetics_terminology-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-WOMC-genetics_terminology-questions.txt" download title="Download bbq-WOMC-genetics_terminology-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-genetics_terminology-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-WOMC-genetics_terminology-questions.txt" download title="Download bbq-WOMC-genetics_terminology-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-genetics_terminology-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-genetics_terminology.zip" download title="Download blackboard_qti_v2_1-WOMC-genetics_terminology.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-genetics_terminology.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-genetics_terminology.zip" download title="Download blackboard_export_zip-WOMC-genetics_terminology.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-genetics_terminology.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-genetics_terminology.zip" download title="Download canvas_qti_v1_2-WOMC-genetics_terminology.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-genetics_terminology.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -217,11 +217,11 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 ## Mendelian Cross Types from Generational Descriptions
 
 <div id="WOMC-mendel_cross_terminology-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-WOMC-mendel_cross_terminology-questions.txt" download title="Download bbq-WOMC-mendel_cross_terminology-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-mendel_cross_terminology-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-WOMC-mendel_cross_terminology-questions.txt" download title="Download bbq-WOMC-mendel_cross_terminology-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-mendel_cross_terminology-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-mendel_cross_terminology.zip" download title="Download blackboard_qti_v2_1-WOMC-mendel_cross_terminology.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-mendel_cross_terminology.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-mendel_cross_terminology.zip" download title="Download blackboard_export_zip-WOMC-mendel_cross_terminology.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-mendel_cross_terminology.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-mendel_cross_terminology.zip" download title="Download canvas_qti_v1_2-WOMC-mendel_cross_terminology.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-mendel_cross_terminology.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -252,11 +252,11 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 ## Mendel's Principles from Descriptions
 
 <div id="WOMC-mendel_four_principles-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-WOMC-mendel_four_principles-questions.txt" download title="Download bbq-WOMC-mendel_four_principles-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-mendel_four_principles-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-WOMC-mendel_four_principles-questions.txt" download title="Download bbq-WOMC-mendel_four_principles-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-mendel_four_principles-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-mendel_four_principles.zip" download title="Download blackboard_qti_v2_1-WOMC-mendel_four_principles.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-mendel_four_principles.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-mendel_four_principles.zip" download title="Download blackboard_export_zip-WOMC-mendel_four_principles.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-mendel_four_principles.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-mendel_four_principles.zip" download title="Download canvas_qti_v1_2-WOMC-mendel_four_principles.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-mendel_four_principles.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -287,11 +287,11 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 ## Mendelian Genetics Terms from Definitions
 
 <div id="WOMC-mendelian_genetics_terms-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-WOMC-mendelian_genetics_terms-questions.txt" download title="Download bbq-WOMC-mendelian_genetics_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-mendelian_genetics_terms-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-WOMC-mendelian_genetics_terms-questions.txt" download title="Download bbq-WOMC-mendelian_genetics_terms-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-mendelian_genetics_terms-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-mendelian_genetics_terms.zip" download title="Download blackboard_qti_v2_1-WOMC-mendelian_genetics_terms.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-mendelian_genetics_terms.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-mendelian_genetics_terms.zip" download title="Download blackboard_export_zip-WOMC-mendelian_genetics_terms.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-mendelian_genetics_terms.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-mendelian_genetics_terms.zip" download title="Download canvas_qti_v1_2-WOMC-mendelian_genetics_terms.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-mendelian_genetics_terms.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -322,11 +322,11 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 ## Parental Genotypes in Monohybrid Crosses from Offspring Outcomes
 
 <div id="WOMC-monohybrid_cross_genotype-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-WOMC-monohybrid_cross_genotype-questions.txt" download title="Download bbq-WOMC-monohybrid_cross_genotype-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-monohybrid_cross_genotype-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-WOMC-monohybrid_cross_genotype-questions.txt" download title="Download bbq-WOMC-monohybrid_cross_genotype-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-monohybrid_cross_genotype-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-monohybrid_cross_genotype.zip" download title="Download blackboard_qti_v2_1-WOMC-monohybrid_cross_genotype.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-monohybrid_cross_genotype.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-monohybrid_cross_genotype.zip" download title="Download blackboard_export_zip-WOMC-monohybrid_cross_genotype.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-monohybrid_cross_genotype.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-monohybrid_cross_genotype.zip" download title="Download canvas_qti_v1_2-WOMC-monohybrid_cross_genotype.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-monohybrid_cross_genotype.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -357,11 +357,11 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 ## Offspring Survival Ratios in Lethal Allele Crosses
 
 <div id="lethal_allele_survival-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-lethal_allele_survival-questions.txt" download title="Download bbq-lethal_allele_survival-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-lethal_allele_survival-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-lethal_allele_survival-questions.txt" download title="Download bbq-lethal_allele_survival-questions.txt" aria-label="Click to download the BBQ Text file (bbq-lethal_allele_survival-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-lethal_allele_survival.zip" download title="Download blackboard_qti_v2_1-lethal_allele_survival.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-lethal_allele_survival.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-lethal_allele_survival.zip" download title="Download blackboard_export_zip-lethal_allele_survival.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-lethal_allele_survival.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-lethal_allele_survival.zip" download title="Download canvas_qti_v1_2-lethal_allele_survival.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-lethal_allele_survival.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -389,11 +389,11 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 ## Dominance Types in Monohybrid Crosses
 
 <div id="monohybrid_degrees_of_dominance-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-monohybrid_degrees_of_dominance-questions.txt" download title="Download bbq-monohybrid_degrees_of_dominance-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-monohybrid_degrees_of_dominance-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-monohybrid_degrees_of_dominance-questions.txt" download title="Download bbq-monohybrid_degrees_of_dominance-questions.txt" aria-label="Click to download the BBQ Text file (bbq-monohybrid_degrees_of_dominance-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-monohybrid_degrees_of_dominance.zip" download title="Download blackboard_qti_v2_1-monohybrid_degrees_of_dominance.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-monohybrid_degrees_of_dominance.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-monohybrid_degrees_of_dominance.zip" download title="Download blackboard_export_zip-monohybrid_degrees_of_dominance.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-monohybrid_degrees_of_dominance.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-monohybrid_degrees_of_dominance.zip" download title="Download canvas_qti_v1_2-monohybrid_degrees_of_dominance.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-monohybrid_degrees_of_dominance.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -421,11 +421,11 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 ## Monohybrid Cross Outcomes
 
 <div id="monohybrid_genotype_statements-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-monohybrid_genotype_statements-questions.txt" download title="Download bbq-monohybrid_genotype_statements-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-monohybrid_genotype_statements-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-monohybrid_genotype_statements-questions.txt" download title="Download bbq-monohybrid_genotype_statements-questions.txt" aria-label="Click to download the BBQ Text file (bbq-monohybrid_genotype_statements-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-monohybrid_genotype_statements.zip" download title="Download blackboard_qti_v2_1-monohybrid_genotype_statements.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-monohybrid_genotype_statements.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-monohybrid_genotype_statements.zip" download title="Download blackboard_export_zip-monohybrid_genotype_statements.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-monohybrid_genotype_statements.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-monohybrid_genotype_statements.zip" download title="Download canvas_qti_v1_2-monohybrid_genotype_statements.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-monohybrid_genotype_statements.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -453,11 +453,11 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 ## Parent Genotypes from Offspring Ratios
 
 <div id="monohybrid_litter_inference-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-monohybrid_litter_inference-questions.txt" download title="Download bbq-monohybrid_litter_inference-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-monohybrid_litter_inference-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-monohybrid_litter_inference-questions.txt" download title="Download bbq-monohybrid_litter_inference-questions.txt" aria-label="Click to download the BBQ Text file (bbq-monohybrid_litter_inference-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-monohybrid_litter_inference.zip" download title="Download blackboard_qti_v2_1-monohybrid_litter_inference.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-monohybrid_litter_inference.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-monohybrid_litter_inference.zip" download title="Download blackboard_export_zip-monohybrid_litter_inference.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-monohybrid_litter_inference.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-monohybrid_litter_inference.zip" download title="Download canvas_qti_v1_2-monohybrid_litter_inference.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-monohybrid_litter_inference.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -485,11 +485,11 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 ## Offspring Sex Distribution Using the Binomial Model
 
 <div id="probabiliy_of_progeny-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-probabiliy_of_progeny-questions.txt" download title="Download bbq-probabiliy_of_progeny-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-probabiliy_of_progeny-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-probabiliy_of_progeny-questions.txt" download title="Download bbq-probabiliy_of_progeny-questions.txt" aria-label="Click to download the BBQ Text file (bbq-probabiliy_of_progeny-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-probabiliy_of_progeny.zip" download title="Download blackboard_qti_v2_1-probabiliy_of_progeny.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-probabiliy_of_progeny.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-probabiliy_of_progeny.zip" download title="Download blackboard_export_zip-probabiliy_of_progeny.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-probabiliy_of_progeny.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-probabiliy_of_progeny.zip" download title="Download canvas_qti_v1_2-probabiliy_of_progeny.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-probabiliy_of_progeny.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -517,11 +517,11 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 ## Punnett Square Results for Flower Color Inheritance
 
 <div id="punnett_choice-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-punnett_choice-questions.txt" download title="Download bbq-punnett_choice-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-punnett_choice-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-punnett_choice-questions.txt" download title="Download bbq-punnett_choice-questions.txt" aria-label="Click to download the BBQ Text file (bbq-punnett_choice-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-punnett_choice.zip" download title="Download blackboard_qti_v2_1-punnett_choice.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-punnett_choice.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-punnett_choice.zip" download title="Download blackboard_export_zip-punnett_choice.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-punnett_choice.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-punnett_choice.zip" download title="Download canvas_qti_v1_2-punnett_choice.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-punnett_choice.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -549,11 +549,11 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 ## Inheritance Patterns from Pedigrees (Single Diagram)
 
 <div id="write_pedigree_choice-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-write_pedigree_choice-questions.txt" download title="Download bbq-write_pedigree_choice-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-write_pedigree_choice-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-write_pedigree_choice-questions.txt" download title="Download bbq-write_pedigree_choice-questions.txt" aria-label="Click to download the BBQ Text file (bbq-write_pedigree_choice-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-write_pedigree_choice.zip" download title="Download blackboard_qti_v2_1-write_pedigree_choice.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-write_pedigree_choice.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-write_pedigree_choice.zip" download title="Download blackboard_export_zip-write_pedigree_choice.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-write_pedigree_choice.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-write_pedigree_choice.zip" download title="Download canvas_qti_v1_2-write_pedigree_choice.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-write_pedigree_choice.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -581,11 +581,11 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 ## Pedigree Diagrams from Inheritance Patterns (Standard Layout)
 
 <div id="write_pedigree_match-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-write_pedigree_match-questions.txt" download title="Download bbq-write_pedigree_match-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-write_pedigree_match-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-write_pedigree_match-questions.txt" download title="Download bbq-write_pedigree_match-questions.txt" aria-label="Click to download the BBQ Text file (bbq-write_pedigree_match-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-write_pedigree_match.zip" download title="Download blackboard_qti_v2_1-write_pedigree_match.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-write_pedigree_match.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-write_pedigree_match.zip" download title="Download blackboard_export_zip-write_pedigree_match.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-write_pedigree_match.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-write_pedigree_match.zip" download title="Download canvas_qti_v1_2-write_pedigree_match.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-write_pedigree_match.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -613,11 +613,11 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 ## Pedigree Diagrams from Inheritance Patterns (Randomized Layout)
 
 <div id="write_pedigree_match_random-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-write_pedigree_match_random-questions.txt" download title="Download bbq-write_pedigree_match_random-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-write_pedigree_match_random-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-write_pedigree_match_random-questions.txt" download title="Download bbq-write_pedigree_match_random-questions.txt" aria-label="Click to download the BBQ Text file (bbq-write_pedigree_match_random-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-write_pedigree_match_random.zip" download title="Download blackboard_qti_v2_1-write_pedigree_match_random.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-write_pedigree_match_random.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-write_pedigree_match_random.zip" download title="Download blackboard_export_zip-write_pedigree_match_random.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-write_pedigree_match_random.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-write_pedigree_match_random.zip" download title="Download canvas_qti_v1_2-write_pedigree_match_random.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-write_pedigree_match_random.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2

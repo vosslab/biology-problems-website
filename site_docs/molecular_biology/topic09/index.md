@@ -5,11 +5,11 @@ Translation of mRNA into protein, codons, anticodons, genetic code, ribosomes, t
 ## Matching Central Dogma Stages to Related Terms
 
 <div id="MATCH-central_dogma_terms-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MATCH-central_dogma_terms-questions.txt" download title="Download bbq-MATCH-central_dogma_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-central_dogma_terms-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-MATCH-central_dogma_terms-questions.txt" download title="Download bbq-MATCH-central_dogma_terms-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-central_dogma_terms-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-central_dogma_terms.zip" download title="Download blackboard_qti_v2_1-MATCH-central_dogma_terms.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-central_dogma_terms.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-central_dogma_terms.zip" download title="Download blackboard_export_zip-MATCH-central_dogma_terms.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-central_dogma_terms.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-central_dogma_terms.zip" download title="Download canvas_qti_v1_2-MATCH-central_dogma_terms.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-central_dogma_terms.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -40,11 +40,11 @@ Translation of mRNA into protein, codons, anticodons, genetic code, ribosomes, t
 ## True/False Statements About G-U Wobble Base Pairs
 
 <div id="TFMS-g-u_wobble-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-TFMS-g-u_wobble-questions.txt" download title="Download bbq-TFMS-g-u_wobble-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-g-u_wobble-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-TFMS-g-u_wobble-questions.txt" download title="Download bbq-TFMS-g-u_wobble-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-g-u_wobble-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-TFMS-g-u_wobble.zip" download title="Download blackboard_qti_v2_1-TFMS-g-u_wobble.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-TFMS-g-u_wobble.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-g-u_wobble.zip" download title="Download blackboard_export_zip-TFMS-g-u_wobble.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-g-u_wobble.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-g-u_wobble.zip" download title="Download canvas_qti_v1_2-TFMS-g-u_wobble.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-g-u_wobble.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -75,11 +75,11 @@ Translation of mRNA into protein, codons, anticodons, genetic code, ribosomes, t
 ## True/False Statements About Translation Accuracy
 
 <div id="TFMS-translation_accuracy-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-TFMS-translation_accuracy-questions.txt" download title="Download bbq-TFMS-translation_accuracy-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-translation_accuracy-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-TFMS-translation_accuracy-questions.txt" download title="Download bbq-TFMS-translation_accuracy-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-translation_accuracy-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-TFMS-translation_accuracy.zip" download title="Download blackboard_qti_v2_1-TFMS-translation_accuracy.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-TFMS-translation_accuracy.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-translation_accuracy.zip" download title="Download blackboard_export_zip-TFMS-translation_accuracy.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-translation_accuracy.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-translation_accuracy.zip" download title="Download canvas_qti_v1_2-TFMS-translation_accuracy.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-translation_accuracy.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -107,11 +107,11 @@ Translation of mRNA into protein, codons, anticodons, genetic code, ribosomes, t
 ## Central Dogma Stages from Terminology
 
 <div id="WOMC-central_dogma_terms-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-WOMC-central_dogma_terms-questions.txt" download title="Download bbq-WOMC-central_dogma_terms-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-central_dogma_terms-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-WOMC-central_dogma_terms-questions.txt" download title="Download bbq-WOMC-central_dogma_terms-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-central_dogma_terms-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-central_dogma_terms.zip" download title="Download blackboard_qti_v2_1-WOMC-central_dogma_terms.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-central_dogma_terms.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-central_dogma_terms.zip" download title="Download blackboard_export_zip-WOMC-central_dogma_terms.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-central_dogma_terms.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-central_dogma_terms.zip" download title="Download canvas_qti_v1_2-WOMC-central_dogma_terms.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-central_dogma_terms.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -142,11 +142,11 @@ Translation of mRNA into protein, codons, anticodons, genetic code, ribosomes, t
 ## Peptide Sequences from mRNA Using the Genetic Code (10 Amino Acids)
 
 <div id="translate_genetic_code-10_aa-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-translate_genetic_code-10_aa-questions.txt" download title="Download bbq-translate_genetic_code-10_aa-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-translate_genetic_code-10_aa-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-translate_genetic_code-10_aa-questions.txt" download title="Download bbq-translate_genetic_code-10_aa-questions.txt" aria-label="Click to download the BBQ Text file (bbq-translate_genetic_code-10_aa-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-translate_genetic_code-10_aa.zip" download title="Download blackboard_qti_v2_1-translate_genetic_code-10_aa.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-translate_genetic_code-10_aa.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-translate_genetic_code-10_aa.zip" download title="Download blackboard_export_zip-translate_genetic_code-10_aa.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-translate_genetic_code-10_aa.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-translate_genetic_code-10_aa.zip" download title="Download canvas_qti_v1_2-translate_genetic_code-10_aa.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-translate_genetic_code-10_aa.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2

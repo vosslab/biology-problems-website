@@ -5,11 +5,11 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 ## Matching DNA Replication Enzymes to Functions (BIOL 301)
 
 <div id="MATCH-dna_replication_enzymes-biol_301-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MATCH-dna_replication_enzymes-biol_301-questions.txt" download title="Download bbq-MATCH-dna_replication_enzymes-biol_301-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-dna_replication_enzymes-biol_301-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-MATCH-dna_replication_enzymes-biol_301-questions.txt" download title="Download bbq-MATCH-dna_replication_enzymes-biol_301-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-dna_replication_enzymes-biol_301-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-dna_replication_enzymes-biol_301.zip" download title="Download blackboard_qti_v2_1-MATCH-dna_replication_enzymes-biol_301.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-dna_replication_enzymes-biol_301.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-dna_replication_enzymes-biol_301.zip" download title="Download blackboard_export_zip-MATCH-dna_replication_enzymes-biol_301.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-dna_replication_enzymes-biol_301.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-dna_replication_enzymes-biol_301.zip" download title="Download canvas_qti_v1_2-MATCH-dna_replication_enzymes-biol_301.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-dna_replication_enzymes-biol_301.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -40,11 +40,11 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 ## Matching DNA Replication Enzymes to Functions
 
 <div id="MATCH-dna_replication_enzymes-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-MATCH-dna_replication_enzymes-questions.txt" download title="Download bbq-MATCH-dna_replication_enzymes-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-MATCH-dna_replication_enzymes-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-MATCH-dna_replication_enzymes-questions.txt" download title="Download bbq-MATCH-dna_replication_enzymes-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-dna_replication_enzymes-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-MATCH-dna_replication_enzymes.zip" download title="Download blackboard_qti_v2_1-MATCH-dna_replication_enzymes.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-MATCH-dna_replication_enzymes.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-dna_replication_enzymes.zip" download title="Download blackboard_export_zip-MATCH-dna_replication_enzymes.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-dna_replication_enzymes.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-dna_replication_enzymes.zip" download title="Download canvas_qti_v1_2-MATCH-dna_replication_enzymes.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-dna_replication_enzymes.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -75,11 +75,11 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 ## True/False Statements About Bacterial DNA Replication (BIOL 301)
 
 <div id="TFMS-dna_replication-biol_301-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-TFMS-dna_replication-biol_301-questions.txt" download title="Download bbq-TFMS-dna_replication-biol_301-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-dna_replication-biol_301-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-TFMS-dna_replication-biol_301-questions.txt" download title="Download bbq-TFMS-dna_replication-biol_301-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-dna_replication-biol_301-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-TFMS-dna_replication-biol_301.zip" download title="Download blackboard_qti_v2_1-TFMS-dna_replication-biol_301.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-TFMS-dna_replication-biol_301.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-dna_replication-biol_301.zip" download title="Download blackboard_export_zip-TFMS-dna_replication-biol_301.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-dna_replication-biol_301.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-dna_replication-biol_301.zip" download title="Download canvas_qti_v1_2-TFMS-dna_replication-biol_301.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-dna_replication-biol_301.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -110,11 +110,11 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 ## True/False Statements About Bacterial DNA Replication
 
 <div id="TFMS-dna_replication-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-TFMS-dna_replication-questions.txt" download title="Download bbq-TFMS-dna_replication-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-dna_replication-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-TFMS-dna_replication-questions.txt" download title="Download bbq-TFMS-dna_replication-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-dna_replication-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-TFMS-dna_replication.zip" download title="Download blackboard_qti_v2_1-TFMS-dna_replication.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-TFMS-dna_replication.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-dna_replication.zip" download title="Download blackboard_export_zip-TFMS-dna_replication.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-dna_replication.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-dna_replication.zip" download title="Download canvas_qti_v1_2-TFMS-dna_replication.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-dna_replication.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -145,11 +145,11 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 ## True/False Statements About Leading and Lagging Strands
 
 <div id="TFMS-leading_v_lagging_strand-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-TFMS-leading_v_lagging_strand-questions.txt" download title="Download bbq-TFMS-leading_v_lagging_strand-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-leading_v_lagging_strand-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-TFMS-leading_v_lagging_strand-questions.txt" download title="Download bbq-TFMS-leading_v_lagging_strand-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-leading_v_lagging_strand-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-TFMS-leading_v_lagging_strand.zip" download title="Download blackboard_qti_v2_1-TFMS-leading_v_lagging_strand.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-TFMS-leading_v_lagging_strand.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-leading_v_lagging_strand.zip" download title="Download blackboard_export_zip-TFMS-leading_v_lagging_strand.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-leading_v_lagging_strand.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-leading_v_lagging_strand.zip" download title="Download canvas_qti_v1_2-TFMS-leading_v_lagging_strand.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-leading_v_lagging_strand.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -180,11 +180,11 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 ## True/False Statements About DNA Polymerase Proofreading
 
 <div id="TFMS-proofreading-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-TFMS-proofreading-questions.txt" download title="Download bbq-TFMS-proofreading-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-proofreading-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-TFMS-proofreading-questions.txt" download title="Download bbq-TFMS-proofreading-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-proofreading-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-TFMS-proofreading.zip" download title="Download blackboard_qti_v2_1-TFMS-proofreading.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-TFMS-proofreading.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-proofreading.zip" download title="Download blackboard_export_zip-TFMS-proofreading.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-proofreading.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-proofreading.zip" download title="Download canvas_qti_v1_2-TFMS-proofreading.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-proofreading.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -215,11 +215,11 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 ## DNA Replication Enzymes from Functional Descriptions (BIOL 301)
 
 <div id="WOMC-dna_replication_enzymes-biol_301-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-WOMC-dna_replication_enzymes-biol_301-questions.txt" download title="Download bbq-WOMC-dna_replication_enzymes-biol_301-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-dna_replication_enzymes-biol_301-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-WOMC-dna_replication_enzymes-biol_301-questions.txt" download title="Download bbq-WOMC-dna_replication_enzymes-biol_301-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-dna_replication_enzymes-biol_301-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-dna_replication_enzymes-biol_301.zip" download title="Download blackboard_qti_v2_1-WOMC-dna_replication_enzymes-biol_301.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-dna_replication_enzymes-biol_301.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-dna_replication_enzymes-biol_301.zip" download title="Download blackboard_export_zip-WOMC-dna_replication_enzymes-biol_301.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-dna_replication_enzymes-biol_301.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-dna_replication_enzymes-biol_301.zip" download title="Download canvas_qti_v1_2-WOMC-dna_replication_enzymes-biol_301.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-dna_replication_enzymes-biol_301.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -250,11 +250,11 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 ## DNA Replication Enzymes from Functional Descriptions
 
 <div id="WOMC-dna_replication_enzymes-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-WOMC-dna_replication_enzymes-questions.txt" download title="Download bbq-WOMC-dna_replication_enzymes-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-WOMC-dna_replication_enzymes-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-WOMC-dna_replication_enzymes-questions.txt" download title="Download bbq-WOMC-dna_replication_enzymes-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-dna_replication_enzymes-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-WOMC-dna_replication_enzymes.zip" download title="Download blackboard_qti_v2_1-WOMC-dna_replication_enzymes.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-WOMC-dna_replication_enzymes.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-dna_replication_enzymes.zip" download title="Download blackboard_export_zip-WOMC-dna_replication_enzymes.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-dna_replication_enzymes.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-dna_replication_enzymes.zip" download title="Download canvas_qti_v1_2-WOMC-dna_replication_enzymes.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-dna_replication_enzymes.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2

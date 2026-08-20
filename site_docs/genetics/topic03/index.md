@@ -7,11 +7,11 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 ## True/False Statements About English Palindromes
 
 <div id="TFMS-english_palindromes-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-TFMS-english_palindromes-questions.txt" download title="Download bbq-TFMS-english_palindromes-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-TFMS-english_palindromes-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-TFMS-english_palindromes-questions.txt" download title="Download bbq-TFMS-english_palindromes-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-english_palindromes-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-TFMS-english_palindromes.zip" download title="Download blackboard_qti_v2_1-TFMS-english_palindromes.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-TFMS-english_palindromes.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-english_palindromes.zip" download title="Download blackboard_export_zip-TFMS-english_palindromes.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-english_palindromes.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-english_palindromes.zip" download title="Download canvas_qti_v1_2-TFMS-english_palindromes.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-english_palindromes.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -39,11 +39,11 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 ## Blood Types from Agglutination Test Results
 
 <div id="blood_type_agglutination_test-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-blood_type_agglutination_test-questions.txt" download title="Download bbq-blood_type_agglutination_test-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-blood_type_agglutination_test-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-blood_type_agglutination_test-questions.txt" download title="Download bbq-blood_type_agglutination_test-questions.txt" aria-label="Click to download the BBQ Text file (bbq-blood_type_agglutination_test-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-blood_type_agglutination_test.zip" download title="Download blackboard_qti_v2_1-blood_type_agglutination_test.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-blood_type_agglutination_test.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-blood_type_agglutination_test.zip" download title="Download blackboard_export_zip-blood_type_agglutination_test.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-blood_type_agglutination_test.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-blood_type_agglutination_test.zip" download title="Download canvas_qti_v1_2-blood_type_agglutination_test.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-blood_type_agglutination_test.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -71,11 +71,11 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 ## Offspring HLA Genotypes (2 Markers, Black)
 
 <div id="hla_genotype-2_markers-black-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-hla_genotype-2_markers-black-questions.txt" download title="Download bbq-hla_genotype-2_markers-black-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-hla_genotype-2_markers-black-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-hla_genotype-2_markers-black-questions.txt" download title="Download bbq-hla_genotype-2_markers-black-questions.txt" aria-label="Click to download the BBQ Text file (bbq-hla_genotype-2_markers-black-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-hla_genotype-2_markers-black.zip" download title="Download blackboard_qti_v2_1-hla_genotype-2_markers-black.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-hla_genotype-2_markers-black.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-hla_genotype-2_markers-black.zip" download title="Download blackboard_export_zip-hla_genotype-2_markers-black.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-hla_genotype-2_markers-black.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-hla_genotype-2_markers-black.zip" download title="Download canvas_qti_v1_2-hla_genotype-2_markers-black.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-hla_genotype-2_markers-black.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -103,11 +103,11 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 ## Offspring HLA Genotypes (2 Markers, Color)
 
 <div id="hla_genotype-2_markers-color-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-hla_genotype-2_markers-color-questions.txt" download title="Download bbq-hla_genotype-2_markers-color-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-hla_genotype-2_markers-color-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-hla_genotype-2_markers-color-questions.txt" download title="Download bbq-hla_genotype-2_markers-color-questions.txt" aria-label="Click to download the BBQ Text file (bbq-hla_genotype-2_markers-color-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-hla_genotype-2_markers-color.zip" download title="Download blackboard_qti_v2_1-hla_genotype-2_markers-color.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-hla_genotype-2_markers-color.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-hla_genotype-2_markers-color.zip" download title="Download blackboard_export_zip-hla_genotype-2_markers-color.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-hla_genotype-2_markers-color.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-hla_genotype-2_markers-color.zip" download title="Download canvas_qti_v1_2-hla_genotype-2_markers-color.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-hla_genotype-2_markers-color.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -135,11 +135,11 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 ## Offspring HLA Genotypes (3 Markers, Color)
 
 <div id="hla_genotype-3_markers-color-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-hla_genotype-3_markers-color-questions.txt" download title="Download bbq-hla_genotype-3_markers-color-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-hla_genotype-3_markers-color-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-hla_genotype-3_markers-color-questions.txt" download title="Download bbq-hla_genotype-3_markers-color-questions.txt" aria-label="Click to download the BBQ Text file (bbq-hla_genotype-3_markers-color-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-hla_genotype-3_markers-color.zip" download title="Download blackboard_qti_v2_1-hla_genotype-3_markers-color.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-hla_genotype-3_markers-color.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-hla_genotype-3_markers-color.zip" download title="Download blackboard_export_zip-hla_genotype-3_markers-color.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-hla_genotype-3_markers-color.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-hla_genotype-3_markers-color.zip" download title="Download canvas_qti_v1_2-hla_genotype-3_markers-color.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-hla_genotype-3_markers-color.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -167,11 +167,11 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 ## Restriction Enzyme DNA Strand Products (10 Length, 3 Sites)
 
 <div id="linear_digest-length_10-sites_3-strand-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-linear_digest-length_10-sites_3-strand-questions.txt" download title="Download bbq-linear_digest-length_10-sites_3-strand-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-linear_digest-length_10-sites_3-strand-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-linear_digest-length_10-sites_3-strand-questions.txt" download title="Download bbq-linear_digest-length_10-sites_3-strand-questions.txt" aria-label="Click to download the BBQ Text file (bbq-linear_digest-length_10-sites_3-strand-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-linear_digest-length_10-sites_3-strand.zip" download title="Download blackboard_qti_v2_1-linear_digest-length_10-sites_3-strand.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-linear_digest-length_10-sites_3-strand.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-linear_digest-length_10-sites_3-strand.zip" download title="Download blackboard_export_zip-linear_digest-length_10-sites_3-strand.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-linear_digest-length_10-sites_3-strand.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-linear_digest-length_10-sites_3-strand.zip" download title="Download canvas_qti_v1_2-linear_digest-length_10-sites_3-strand.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-linear_digest-length_10-sites_3-strand.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -199,11 +199,11 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 ## Restriction Enzyme DNA Fragment Products (13 Length, 3 Sites)
 
 <div id="linear_digest-length_13-sites_3-fragment-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-linear_digest-length_13-sites_3-fragment-questions.txt" download title="Download bbq-linear_digest-length_13-sites_3-fragment-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-linear_digest-length_13-sites_3-fragment-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-linear_digest-length_13-sites_3-fragment-questions.txt" download title="Download bbq-linear_digest-length_13-sites_3-fragment-questions.txt" aria-label="Click to download the BBQ Text file (bbq-linear_digest-length_13-sites_3-fragment-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-linear_digest-length_13-sites_3-fragment.zip" download title="Download blackboard_qti_v2_1-linear_digest-length_13-sites_3-fragment.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-linear_digest-length_13-sites_3-fragment.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-linear_digest-length_13-sites_3-fragment.zip" download title="Download blackboard_export_zip-linear_digest-length_13-sites_3-fragment.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-linear_digest-length_13-sites_3-fragment.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-linear_digest-length_13-sites_3-fragment.zip" download title="Download canvas_qti_v1_2-linear_digest-length_13-sites_3-fragment.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-linear_digest-length_13-sites_3-fragment.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -231,11 +231,11 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 ## Restriction Enzyme DNA Strand Products (16 Length, 4 Sites)
 
 <div id="linear_digest-length_16-sites_4-strand-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-linear_digest-length_16-sites_4-strand-questions.txt" download title="Download bbq-linear_digest-length_16-sites_4-strand-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-linear_digest-length_16-sites_4-strand-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-linear_digest-length_16-sites_4-strand-questions.txt" download title="Download bbq-linear_digest-length_16-sites_4-strand-questions.txt" aria-label="Click to download the BBQ Text file (bbq-linear_digest-length_16-sites_4-strand-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-linear_digest-length_16-sites_4-strand.zip" download title="Download blackboard_qti_v2_1-linear_digest-length_16-sites_4-strand.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-linear_digest-length_16-sites_4-strand.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-linear_digest-length_16-sites_4-strand.zip" download title="Download blackboard_export_zip-linear_digest-length_16-sites_4-strand.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-linear_digest-length_16-sites_4-strand.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-linear_digest-length_16-sites_4-strand.zip" download title="Download canvas_qti_v1_2-linear_digest-length_16-sites_4-strand.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-linear_digest-length_16-sites_4-strand.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -263,11 +263,11 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 ## Restriction Enzyme DNA Fragment Products (8 Length, 2 Sites)
 
 <div id="linear_digest-length_8-sites_2-fragment-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-linear_digest-length_8-sites_2-fragment-questions.txt" download title="Download bbq-linear_digest-length_8-sites_2-fragment-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-linear_digest-length_8-sites_2-fragment-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-linear_digest-length_8-sites_2-fragment-questions.txt" download title="Download bbq-linear_digest-length_8-sites_2-fragment-questions.txt" aria-label="Click to download the BBQ Text file (bbq-linear_digest-length_8-sites_2-fragment-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-linear_digest-length_8-sites_2-fragment.zip" download title="Download blackboard_qti_v2_1-linear_digest-length_8-sites_2-fragment.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-linear_digest-length_8-sites_2-fragment.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-linear_digest-length_8-sites_2-fragment.zip" download title="Download blackboard_export_zip-linear_digest-length_8-sites_2-fragment.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-linear_digest-length_8-sites_2-fragment.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-linear_digest-length_8-sites_2-fragment.zip" download title="Download canvas_qti_v1_2-linear_digest-length_8-sites_2-fragment.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-linear_digest-length_8-sites_2-fragment.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -295,11 +295,11 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 ## Restriction Enzyme Overhang Sequences
 
 <div id="overhang_sequence-mc-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-overhang_sequence-mc-questions.txt" download title="Download bbq-overhang_sequence-mc-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-overhang_sequence-mc-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-overhang_sequence-mc-questions.txt" download title="Download bbq-overhang_sequence-mc-questions.txt" aria-label="Click to download the BBQ Text file (bbq-overhang_sequence-mc-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-overhang_sequence-mc.zip" download title="Download blackboard_qti_v2_1-overhang_sequence-mc.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-overhang_sequence-mc.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-overhang_sequence-mc.zip" download title="Download blackboard_export_zip-overhang_sequence-mc.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-overhang_sequence-mc.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-overhang_sequence-mc.zip" download title="Download canvas_qti_v1_2-overhang_sequence-mc.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-overhang_sequence-mc.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -327,11 +327,11 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 ## Restriction Enzyme Cut Types (5', 3', or Blunt)
 
 <div id="overhang_type-5_3_blunt-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-overhang_type-5_3_blunt-questions.txt" download title="Download bbq-overhang_type-5_3_blunt-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-overhang_type-5_3_blunt-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-overhang_type-5_3_blunt-questions.txt" download title="Download bbq-overhang_type-5_3_blunt-questions.txt" aria-label="Click to download the BBQ Text file (bbq-overhang_type-5_3_blunt-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-overhang_type-5_3_blunt.zip" download title="Download blackboard_qti_v2_1-overhang_type-5_3_blunt.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-overhang_type-5_3_blunt.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-overhang_type-5_3_blunt.zip" download title="Download blackboard_export_zip-overhang_type-5_3_blunt.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-overhang_type-5_3_blunt.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-overhang_type-5_3_blunt.zip" download title="Download canvas_qti_v1_2-overhang_type-5_3_blunt.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-overhang_type-5_3_blunt.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -359,11 +359,11 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 ## Restriction Enzyme Overhang Type from Cleavage Patterns
 
 <div id="overhang_type-blunt_v_sticky-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-overhang_type-blunt_v_sticky-questions.txt" download title="Download bbq-overhang_type-blunt_v_sticky-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-overhang_type-blunt_v_sticky-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-overhang_type-blunt_v_sticky-questions.txt" download title="Download bbq-overhang_type-blunt_v_sticky-questions.txt" aria-label="Click to download the BBQ Text file (bbq-overhang_type-blunt_v_sticky-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-overhang_type-blunt_v_sticky.zip" download title="Download blackboard_qti_v2_1-overhang_type-blunt_v_sticky.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-overhang_type-blunt_v_sticky.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-overhang_type-blunt_v_sticky.zip" download title="Download blackboard_export_zip-overhang_type-blunt_v_sticky.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-overhang_type-blunt_v_sticky.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-overhang_type-blunt_v_sticky.zip" download title="Download canvas_qti_v1_2-overhang_type-blunt_v_sticky.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-overhang_type-blunt_v_sticky.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -391,11 +391,11 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 ## RFLP Paternity Testing (EASY, 3 Males)
 
 <div id="who_father_html-EASY-3_males-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-who_father_html-EASY-3_males-questions.txt" download title="Download bbq-who_father_html-EASY-3_males-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-who_father_html-EASY-3_males-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-who_father_html-EASY-3_males-questions.txt" download title="Download bbq-who_father_html-EASY-3_males-questions.txt" aria-label="Click to download the BBQ Text file (bbq-who_father_html-EASY-3_males-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-who_father_html-EASY-3_males.zip" download title="Download blackboard_qti_v2_1-who_father_html-EASY-3_males.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-who_father_html-EASY-3_males.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-who_father_html-EASY-3_males.zip" download title="Download blackboard_export_zip-who_father_html-EASY-3_males.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-who_father_html-EASY-3_males.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-who_father_html-EASY-3_males.zip" download title="Download canvas_qti_v1_2-who_father_html-EASY-3_males.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-who_father_html-EASY-3_males.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -423,11 +423,11 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 ## RFLP Paternity Testing (HARD, 9 Males)
 
 <div id="who_father_html-HARD-9_males-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-who_father_html-HARD-9_males-questions.txt" download title="Download bbq-who_father_html-HARD-9_males-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-who_father_html-HARD-9_males-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-who_father_html-HARD-9_males-questions.txt" download title="Download bbq-who_father_html-HARD-9_males-questions.txt" aria-label="Click to download the BBQ Text file (bbq-who_father_html-HARD-9_males-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-who_father_html-HARD-9_males.zip" download title="Download blackboard_qti_v2_1-who_father_html-HARD-9_males.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-who_father_html-HARD-9_males.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-who_father_html-HARD-9_males.zip" download title="Download blackboard_export_zip-who_father_html-HARD-9_males.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-who_father_html-HARD-9_males.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-who_father_html-HARD-9_males.zip" download title="Download canvas_qti_v1_2-who_father_html-HARD-9_males.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-who_father_html-HARD-9_males.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -455,11 +455,11 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 ## RFLP Paternity Testing (MEDIUM, 5 Males)
 
 <div id="who_father_html-MEDIUM-5_males-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-who_father_html-MEDIUM-5_males-questions.txt" download title="Download bbq-who_father_html-MEDIUM-5_males-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-who_father_html-MEDIUM-5_males-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-who_father_html-MEDIUM-5_males-questions.txt" download title="Download bbq-who_father_html-MEDIUM-5_males-questions.txt" aria-label="Click to download the BBQ Text file (bbq-who_father_html-MEDIUM-5_males-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-who_father_html-MEDIUM-5_males.zip" download title="Download blackboard_qti_v2_1-who_father_html-MEDIUM-5_males.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-who_father_html-MEDIUM-5_males.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-who_father_html-MEDIUM-5_males.zip" download title="Download blackboard_export_zip-who_father_html-MEDIUM-5_males.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-who_father_html-MEDIUM-5_males.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-who_father_html-MEDIUM-5_males.zip" download title="Download canvas_qti_v1_2-who_father_html-MEDIUM-5_males.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-who_father_html-MEDIUM-5_males.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -487,11 +487,11 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 ## RFLP Forensic DNA Analysis (EASY, 4 Suspects)
 
 <div id="who_killer_html-EASY-4_suspects-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-who_killer_html-EASY-4_suspects-questions.txt" download title="Download bbq-who_killer_html-EASY-4_suspects-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-who_killer_html-EASY-4_suspects-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-who_killer_html-EASY-4_suspects-questions.txt" download title="Download bbq-who_killer_html-EASY-4_suspects-questions.txt" aria-label="Click to download the BBQ Text file (bbq-who_killer_html-EASY-4_suspects-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-who_killer_html-EASY-4_suspects.zip" download title="Download blackboard_qti_v2_1-who_killer_html-EASY-4_suspects.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-who_killer_html-EASY-4_suspects.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-who_killer_html-EASY-4_suspects.zip" download title="Download blackboard_export_zip-who_killer_html-EASY-4_suspects.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-who_killer_html-EASY-4_suspects.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-who_killer_html-EASY-4_suspects.zip" download title="Download canvas_qti_v1_2-who_killer_html-EASY-4_suspects.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-who_killer_html-EASY-4_suspects.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -519,11 +519,11 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 ## RFLP Forensic DNA Analysis (HARD, 9 Suspects)
 
 <div id="who_killer_html-HARD-9_suspects-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-who_killer_html-HARD-9_suspects-questions.txt" download title="Download bbq-who_killer_html-HARD-9_suspects-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-who_killer_html-HARD-9_suspects-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-who_killer_html-HARD-9_suspects-questions.txt" download title="Download bbq-who_killer_html-HARD-9_suspects-questions.txt" aria-label="Click to download the BBQ Text file (bbq-who_killer_html-HARD-9_suspects-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-who_killer_html-HARD-9_suspects.zip" download title="Download blackboard_qti_v2_1-who_killer_html-HARD-9_suspects.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-who_killer_html-HARD-9_suspects.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-who_killer_html-HARD-9_suspects.zip" download title="Download blackboard_export_zip-who_killer_html-HARD-9_suspects.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-who_killer_html-HARD-9_suspects.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-who_killer_html-HARD-9_suspects.zip" download title="Download canvas_qti_v1_2-who_killer_html-HARD-9_suspects.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-who_killer_html-HARD-9_suspects.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
@@ -551,11 +551,11 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 ## RFLP Forensic DNA Analysis (MEDIUM, 5 Suspects)
 
 <div id="who_killer_html-MEDIUM-5_suspects-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-who_killer_html-MEDIUM-5_suspects-questions.txt" download title="Download bbq-who_killer_html-MEDIUM-5_suspects-questions.txt" aria-label="Click to download the Blackboard Learn TXT file (bbq-who_killer_html-MEDIUM-5_suspects-questions.txt)">
-    <i class="fa fa-download"></i>Blackboard Learn TXT
+<a class="md-button custom-button bb_text" href="bbq-who_killer_html-MEDIUM-5_suspects-questions.txt" download title="Download bbq-who_killer_html-MEDIUM-5_suspects-questions.txt" aria-label="Click to download the BBQ Text file (bbq-who_killer_html-MEDIUM-5_suspects-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_qti" href="downloads/blackboard_qti_v2_1-who_killer_html-MEDIUM-5_suspects.zip" download title="Download blackboard_qti_v2_1-who_killer_html-MEDIUM-5_suspects.zip" aria-label="Click to download the Blackboard Ultra QTI v2.1 file (blackboard_qti_v2_1-who_killer_html-MEDIUM-5_suspects.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra QTI v2.1
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-who_killer_html-MEDIUM-5_suspects.zip" download title="Download blackboard_export_zip-who_killer_html-MEDIUM-5_suspects.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-who_killer_html-MEDIUM-5_suspects.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
 <a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-who_killer_html-MEDIUM-5_suspects.zip" download title="Download canvas_qti_v1_2-who_killer_html-MEDIUM-5_suspects.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-who_killer_html-MEDIUM-5_suspects.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
