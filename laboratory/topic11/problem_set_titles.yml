@@ -3,8 +3,6 @@ bbq-dna_gel-closest_farthest_MC-questions.txt: DNA Fragment Migration in Agarose
   Electrophoresis (Closest/Farthest)
 bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt: DNA Fragment Size from Agarose
   Gel Migration (Numeric)
-bbq-hla_genotype-2_markers-color-questions.txt: Offspring HLA Genotypes (2 Markers,
-  Color)
 bbq-inverse_pcr_design-len_15-questions.txt: Inverse PCR Primer Selection (15 nt)
 bbq-kaleidoscope_ladder_mapping-questions.txt: Protein Molecular Weights from SDS-PAGE
   Band Positions
@@ -16,14 +14,4 @@ bbq-nested_pcr_design-len_24-questions.txt: Nested PCR Primer Pair Selection (24
 bbq-pcr_design-36_bp-9_primer-questions.txt: PCR Primer Selection (36 bp Template,
   9-nt Primers)
 bbq-protein_gel_migration-questions.txt: Protein Molecular Weight from SDS-PAGE Migration
-bbq-who_father_html-EASY-3_males-questions.txt: RFLP Paternity Testing (EASY, 3 Males)
-bbq-who_father_html-HARD-9_males-questions.txt: RFLP Paternity Testing (HARD, 9 Males)
-bbq-who_father_html-MEDIUM-5_males-questions.txt: RFLP Paternity Testing (MEDIUM,
-  5 Males)
-bbq-who_killer_html-EASY-4_suspects-questions.txt: RFLP Forensic DNA Analysis (EASY,
-  4 Suspects)
-bbq-who_killer_html-HARD-9_suspects-questions.txt: RFLP Forensic DNA Analysis (HARD,
-  9 Suspects)
-bbq-who_killer_html-MEDIUM-5_suspects-questions.txt: RFLP Forensic DNA Analysis (MEDIUM,
-  5 Suspects)
 last edit: Sun Jul 12 23:11:26 2026

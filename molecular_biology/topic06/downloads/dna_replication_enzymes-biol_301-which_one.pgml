@@ -5,7 +5,7 @@
 ## DBsubject('Molecular Biology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-07-12')
+## Date('2026-08-19')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -35,7 +35,7 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       '<span style="color: #935d00; font-weight:700;">DNA&nbsp;topoisomerase</span>',
       '<span style="color: #d40000; font-weight:700;">DNA&nbsp;helicase</span>',
-      '<span style="color: #b74300; font-weight:700;">DNA&nbsp;ligase</span>',
+      '<span style="color: #7b7737; font-weight:700;">single-strand binding proteins</span>',
       'DNA sliding clamp',
     ],
     'correct' => '<span style="color: #935d00; font-weight:700;">DNA&nbsp;topoisomerase</span>',
@@ -46,7 +46,7 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'function',
     'choices' => [
       '<span style="color: #935d00; font-weight:700;">DNA&nbsp;topoisomerase</span>',
-      '<span style="color: #b74300; font-weight:700;">DNA&nbsp;ligase</span>',
+      '<span style="color: #7b7737; font-weight:700;">single-strand binding proteins</span>',
       '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span>',
       'DNA sliding clamp',
     ],
@@ -57,9 +57,9 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'DNA replication enzymes',
     'singular_item' => 'function',
     'choices' => [
+      '<span style="color: #935d00; font-weight:700;">DNA&nbsp;topoisomerase</span>',
       '<span style="color: #6c6c00; font-weight:700;">primase</span>',
-      '<span style="color: #b74300; font-weight:700;">DNA&nbsp;ligase</span>',
-      '<span style="color: #7b7737; font-weight:700;">single-strand binding proteins</span>',
+      '<span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span>',
       'DNA sliding clamp',
     ],
     'correct' => '<span style="color: #6c6c00; font-weight:700;">primase</span>',
@@ -72,7 +72,7 @@ $showPartialCorrectAnswers = 0;
       '<span style="color: #6c6c00; font-weight:700;">primase</span>',
       '<span style="color: #d40000; font-weight:700;">DNA&nbsp;helicase</span>',
       '<span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span>',
-      'DNA sliding clamp',
+      '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span>',
     ],
     'correct' => '<span style="color: #6c6c00; font-weight:700;">primase</span>',
   },
@@ -81,10 +81,10 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'DNA replication enzymes',
     'singular_item' => 'function',
     'choices' => [
-      '<span style="color: #935d00; font-weight:700;">DNA&nbsp;topoisomerase</span>',
       '<span style="color: #d40000; font-weight:700;">DNA&nbsp;helicase</span>',
       '<span style="color: #b74300; font-weight:700;">DNA&nbsp;ligase</span>',
-      '<span style="color: #7b7737; font-weight:700;">single-strand binding proteins</span>',
+      '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span>',
+      'DNA sliding clamp',
     ],
     'correct' => '<span style="color: #d40000; font-weight:700;">DNA&nbsp;helicase</span>',
   },
@@ -93,7 +93,7 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'DNA replication enzymes',
     'singular_item' => 'function',
     'choices' => [
-      '<span style="color: #935d00; font-weight:700;">DNA&nbsp;topoisomerase</span>',
+      '<span style="color: #6c6c00; font-weight:700;">primase</span>',
       '<span style="color: #d40000; font-weight:700;">DNA&nbsp;helicase</span>',
       '<span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span>',
       'DNA sliding clamp',
@@ -106,9 +106,9 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'function',
     'choices' => [
       '<span style="color: #935d00; font-weight:700;">DNA&nbsp;topoisomerase</span>',
+      '<span style="color: #d40000; font-weight:700;">DNA&nbsp;helicase</span>',
       '<span style="color: #b74300; font-weight:700;">DNA&nbsp;ligase</span>',
-      '<span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span>',
-      '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span>',
+      '<span style="color: #7b7737; font-weight:700;">single-strand binding proteins</span>',
     ],
     'correct' => '<span style="color: #b74300; font-weight:700;">DNA&nbsp;ligase</span>',
   },
@@ -118,9 +118,9 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'function',
     'choices' => [
       '<span style="color: #935d00; font-weight:700;">DNA&nbsp;topoisomerase</span>',
+      '<span style="color: #6c6c00; font-weight:700;">primase</span>',
       '<span style="color: #b74300; font-weight:700;">DNA&nbsp;ligase</span>',
-      '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span>',
-      'DNA sliding clamp',
+      '<span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span>',
     ],
     'correct' => '<span style="color: #b74300; font-weight:700;">DNA&nbsp;ligase</span>',
   },
@@ -129,9 +129,9 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'DNA replication enzymes',
     'singular_item' => 'function',
     'choices' => [
-      '<span style="color: #d40000; font-weight:700;">DNA&nbsp;helicase</span>',
+      '<span style="color: #6c6c00; font-weight:700;">primase</span>',
+      '<span style="color: #b74300; font-weight:700;">DNA&nbsp;ligase</span>',
       '<span style="color: #7b7737; font-weight:700;">single-strand binding proteins</span>',
-      '<span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span>',
       '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span>',
     ],
     'correct' => '<span style="color: #7b7737; font-weight:700;">single-strand binding proteins</span>',
@@ -141,9 +141,9 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'DNA replication enzymes',
     'singular_item' => 'function',
     'choices' => [
-      '<span style="color: #6c6c00; font-weight:700;">primase</span>',
-      '<span style="color: #d40000; font-weight:700;">DNA&nbsp;helicase</span>',
+      '<span style="color: #935d00; font-weight:700;">DNA&nbsp;topoisomerase</span>',
       '<span style="color: #7b7737; font-weight:700;">single-strand binding proteins</span>',
+      '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span>',
       'DNA sliding clamp',
     ],
     'correct' => '<span style="color: #7b7737; font-weight:700;">single-strand binding proteins</span>',
@@ -153,7 +153,7 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'DNA replication enzymes',
     'singular_item' => 'function',
     'choices' => [
-      '<span style="color: #b74300; font-weight:700;">DNA&nbsp;ligase</span>',
+      '<span style="color: #7b7737; font-weight:700;">single-strand binding proteins</span>',
       '<span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span>',
       '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span>',
       'DNA sliding clamp',
@@ -165,10 +165,10 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'DNA replication enzymes',
     'singular_item' => 'function',
     'choices' => [
+      '<span style="color: #935d00; font-weight:700;">DNA&nbsp;topoisomerase</span>',
       '<span style="color: #6c6c00; font-weight:700;">primase</span>',
       '<span style="color: #b74300; font-weight:700;">DNA&nbsp;ligase</span>',
       '<span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span>',
-      '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span>',
     ],
     'correct' => '<span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span>',
   },
@@ -177,10 +177,10 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'DNA replication enzymes',
     'singular_item' => 'function',
     'choices' => [
-      '<span style="color: #6c6c00; font-weight:700;">primase</span>',
-      '<span style="color: #d40000; font-weight:700;">DNA&nbsp;helicase</span>',
+      '<span style="color: #b74300; font-weight:700;">DNA&nbsp;ligase</span>',
       '<span style="color: #7b7737; font-weight:700;">single-strand binding proteins</span>',
       '<span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span>',
+      '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span>',
     ],
     'correct' => '<span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span>',
   },
@@ -189,10 +189,10 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'DNA replication enzymes',
     'singular_item' => 'function',
     'choices' => [
+      '<span style="color: #6c6c00; font-weight:700;">primase</span>',
       '<span style="color: #b74300; font-weight:700;">DNA&nbsp;ligase</span>',
-      '<span style="color: #7b7737; font-weight:700;">single-strand binding proteins</span>',
-      '<span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span>',
       '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span>',
+      'DNA sliding clamp',
     ],
     'correct' => '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span>',
   },
@@ -203,8 +203,8 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       '<span style="color: #935d00; font-weight:700;">DNA&nbsp;topoisomerase</span>',
       '<span style="color: #6c6c00; font-weight:700;">primase</span>',
-      '<span style="color: #b74300; font-weight:700;">DNA&nbsp;ligase</span>',
       '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span>',
+      'DNA sliding clamp',
     ],
     'correct' => '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span>',
   },
@@ -214,7 +214,7 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'function',
     'choices' => [
       '<span style="color: #935d00; font-weight:700;">DNA&nbsp;topoisomerase</span>',
-      '<span style="color: #b74300; font-weight:700;">DNA&nbsp;ligase</span>',
+      '<span style="color: #6c6c00; font-weight:700;">primase</span>',
       '<span style="color: #7b7737; font-weight:700;">single-strand binding proteins</span>',
       '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span>',
     ],
@@ -225,8 +225,8 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'DNA replication enzymes',
     'singular_item' => 'function',
     'choices' => [
-      '<span style="color: #935d00; font-weight:700;">DNA&nbsp;topoisomerase</span>',
-      '<span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span>',
+      '<span style="color: #6c6c00; font-weight:700;">primase</span>',
+      '<span style="color: #d40000; font-weight:700;">DNA&nbsp;helicase</span>',
       '<span style="color: #3e3ec4; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8546;</span>',
       'DNA sliding clamp',
     ],
@@ -237,8 +237,8 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'DNA replication enzymes',
     'singular_item' => 'function',
     'choices' => [
-      '<span style="color: #6c6c00; font-weight:700;">primase</span>',
-      '<span style="color: #b74300; font-weight:700;">DNA&nbsp;ligase</span>',
+      '<span style="color: #d40000; font-weight:700;">DNA&nbsp;helicase</span>',
+      '<span style="color: #7b7737; font-weight:700;">single-strand binding proteins</span>',
       '<span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span>',
       'DNA sliding clamp',
     ],
@@ -249,8 +249,8 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'DNA replication enzymes',
     'singular_item' => 'function',
     'choices' => [
-      '<span style="color: #d40000; font-weight:700;">DNA&nbsp;helicase</span>',
-      '<span style="color: #b74300; font-weight:700;">DNA&nbsp;ligase</span>',
+      '<span style="color: #935d00; font-weight:700;">DNA&nbsp;topoisomerase</span>',
+      '<span style="color: #6c6c00; font-weight:700;">primase</span>',
       '<span style="color: #b45918; font-weight:700;">DNA&nbsp;polymerase&nbsp;&#8544;</span>',
       'DNA sliding clamp',
     ],

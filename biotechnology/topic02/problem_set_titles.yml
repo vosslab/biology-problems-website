@@ -1,7 +1,5 @@
 bbq-MATCH-dna_sequencing-questions.txt: Matching DNA Sequencing Techniques to Descriptions
 bbq-RT-qPCR-questions.txt: Gene Expression Fold Change from RT-qPCR Data
-bbq-TFMS-dna_structure-biol_351-questions.txt: True/False Statements About DNA Structure
-  (BIOL 351)
 bbq-TFMS-xna_and_xdna-questions.txt: True/False Statements About xDNA and XNA
 bbq-WOMC-dna_sequencing-questions.txt: DNA Sequencing Techniques from Descriptions
 bbq-amplicon_copies-questions.txt: Amplicon Copy Number After PCR Rounds
@@ -21,10 +19,8 @@ bbq-dna_gel-closest_farthest_MC-questions.txt: DNA Fragment Migration in Agarose
   Electrophoresis (Closest/Farthest)
 bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt: DNA Fragment Size from Agarose
   Gel Migration (Numeric)
-bbq-dna_melting_temp-len_12-questions.txt: DNA Melting Temperature Extremes from
-  Sequence (12 Bases)
-bbq-hla_genotype-2_markers-color-questions.txt: Offspring HLA Genotypes (2 Markers,
-  Color)
+bbq-dna_melting_temp-len_12-questions.txt: DNA Melting Temperature Extremes from Sequence
+  (12 Bases)
 bbq-inverse_pcr_design-len_15-questions.txt: Inverse PCR Primer Selection (15 nt)
 bbq-linear_digest-length_12-sites_2-fragment-questions.txt: Restriction Fragment Sizes
   (12 Length, 2 Sites)
@@ -35,14 +31,4 @@ bbq-overhang_type-5_3_blunt-questions.txt: Restriction Enzyme Cut Types (5', 3',
 bbq-palindrome_sequence_match-questions.txt: Palindromic DNA Sequence Completion
 bbq-pcr_design-36_bp-9_primer-questions.txt: PCR Primer Selection (36 bp Template,
   9-nt Primers)
-bbq-who_father_html-EASY-3_males-questions.txt: RFLP Paternity Testing (EASY, 3 Males)
-bbq-who_father_html-HARD-9_males-questions.txt: RFLP Paternity Testing (HARD, 9 Males)
-bbq-who_father_html-MEDIUM-5_males-questions.txt: RFLP Paternity Testing (MEDIUM,
-  5 Males)
-bbq-who_killer_html-EASY-4_suspects-questions.txt: RFLP Forensic DNA Analysis (EASY,
-  4 Suspects)
-bbq-who_killer_html-HARD-9_suspects-questions.txt: RFLP Forensic DNA Analysis (HARD,
-  9 Suspects)
-bbq-who_killer_html-MEDIUM-5_suspects-questions.txt: RFLP Forensic DNA Analysis (MEDIUM,
-  5 Suspects)
 last edit: Sun Jul 12 23:11:26 2026
