@@ -1,5 +1,3 @@
-bbq-TFMS-dna_structure-biol_351-questions.txt: True/False Statements About DNA Structure
-  (BIOL 351)
 bbq-TFMS-dna_structure-questions.txt: True/False Statements About DNA Structure
 bbq-TFMS-melting_Tm_type_1-questions.txt: True/False Statements About DNA Melting
   Temperature (Tm)
@@ -16,6 +14,6 @@ bbq-chargaff_dna_percent-5_choices-questions.txt: DNA Base Composition Using Cha
   Rules (5 Choices)
 bbq-complementary_sequences-mc-directionless-questions.txt: Complementary DNA Sequences
   Without Direction Labels
-bbq-dna_melting_temp-len_12-questions.txt: DNA Melting Temperature Extremes from
-  Sequence (12 Bases)
+bbq-dna_melting_temp-len_12-questions.txt: DNA Melting Temperature Extremes from Sequence
+  (12 Bases)
 last edit: Sun Jul 12 23:11:26 2026
