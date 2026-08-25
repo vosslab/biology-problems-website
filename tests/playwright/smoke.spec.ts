@@ -15,7 +15,9 @@
 // The structural shell and self-test drive logic (and the full selector
 // contract, cited by source file:line) live in ./helper_smoke_checks.mjs; both
 // exported checks throw on failure, which fails the owning test. The font
-// contract is custom.css:1-19 plus mkdocs.yml:4-6.
+// contract is custom.css:1-24, daily_puzzle.css:6-14, and mkdocs.yml:4-6.
+// Selector targets are daily_puzzles/peptidyle.md:21 and
+// biostatistics/topic06/downloads/selftest-z_score_table_interp.html:4.
 
 /// <reference types="node" />
 
@@ -26,7 +28,10 @@ import { execSync } from "node:child_process";
 
 import { REPO_ROOT } from "./repo_root.mjs";
 import { parseSitemap } from "./helper_discover.mjs";
-import { checkPageStructure, driveSelfTestIfPresent } from "./helper_smoke_checks.mjs";
+import {
+	checkPageStructure,
+	driveSelfTestIfPresent,
+} from "./helper_smoke_checks.mjs";
 
 //============================================
 // Collection-time route discovery from the built sitemap on disk
@@ -97,33 +102,61 @@ for (const route of ROUTES) {
 
 test("site uses the self-hosted Atkinson text font", async ({ page }) => {
 	await page.goto("/", { waitUntil: "load" });
-	const fontState = await page.evaluate(async () => {
+	const loadedFontState = await page.evaluate(async () => {
 		const loadedFaces = await Promise.all([
 			document.fonts.load('400 16px "Atkinson Hyperlegible Next"'),
 			document.fonts.load('italic 400 16px "Atkinson Hyperlegible Next"'),
 		]);
-		const resourceUrls = performance.getEntriesByType("resource").map((entry) => entry.name);
+		const resourceUrls = performance
+			.getEntriesByType("resource")
+			.map((entry) => entry.name);
 		const localFontUrls = resourceUrls.filter((url) =>
 			url.includes("/assets/fonts/atkinson_hyperlegible_next/"),
 		);
 		const state = {
 			facesLoaded: loadedFaces.every((faces) => faces.length > 0),
-			bodyUsesAtkinson: getComputedStyle(document.body).fontFamily.includes(
-				"Atkinson Hyperlegible Next",
-			),
 			fontsAreLocal:
 				localFontUrls.length > 0 &&
-				localFontUrls.every((url) => new URL(url).origin === window.location.origin),
+				localFontUrls.every(
+					(url) => new URL(url).origin === window.location.origin,
+				),
 			googleFontsAbsent: resourceUrls.every(
 				(url) => !/fonts\.(googleapis|gstatic)\.com/.test(url),
 			),
 		};
 		return state;
 	});
-	expect(fontState).toEqual({
+
+	const textFontFamilies = [
+		await page
+			.locator("body")
+			.evaluate((element) => getComputedStyle(element).fontFamily),
+	];
+	await page.route("https://**", (route) => route.abort());
+	await page.goto("/daily_puzzles/peptidyle/", {
+		waitUntil: "domcontentloaded",
+	});
+	textFontFamilies.push(
+		await page
+			.locator("#pw-root")
+			.evaluate((element) => getComputedStyle(element).fontFamily),
+	);
+	await page.goto("/biostatistics/topic06/", { waitUntil: "load" });
+	textFontFamilies.push(
+		await page
+			.locator('.qti-selftest table[style*="Arial"]')
+			.evaluate((element) => getComputedStyle(element).fontFamily),
+	);
+
+	expect({
+		...loadedFontState,
+		textUsesAtkinson: textFontFamilies.every((family) =>
+			family.includes("Atkinson Hyperlegible Next"),
+		),
+	}).toEqual({
 		facesLoaded: true,
-		bodyUsesAtkinson: true,
 		fontsAreLocal: true,
 		googleFontsAbsent: true,
+		textUsesAtkinson: true,
 	});
 });
