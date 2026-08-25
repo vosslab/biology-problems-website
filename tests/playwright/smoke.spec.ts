@@ -14,7 +14,8 @@
 //
 // The structural shell and self-test drive logic (and the full selector
 // contract, cited by source file:line) live in ./helper_smoke_checks.mjs; both
-// exported checks throw on failure, which fails the owning test.
+// exported checks throw on failure, which fails the owning test. The font
+// contract is custom.css:1-19 plus mkdocs.yml:4-6.
 
 /// <reference types="node" />
 
@@ -89,3 +90,40 @@ for (const route of ROUTES) {
 		expect(pageErrors).toEqual([]);
 	});
 }
+
+//============================================
+// Site-wide self-hosted font contract
+//============================================
+
+test("site uses the self-hosted Atkinson text font", async ({ page }) => {
+	await page.goto("/", { waitUntil: "load" });
+	const fontState = await page.evaluate(async () => {
+		const loadedFaces = await Promise.all([
+			document.fonts.load('400 16px "Atkinson Hyperlegible Next"'),
+			document.fonts.load('italic 400 16px "Atkinson Hyperlegible Next"'),
+		]);
+		const resourceUrls = performance.getEntriesByType("resource").map((entry) => entry.name);
+		const localFontUrls = resourceUrls.filter((url) =>
+			url.includes("/assets/fonts/atkinson_hyperlegible_next/"),
+		);
+		const state = {
+			facesLoaded: loadedFaces.every((faces) => faces.length > 0),
+			bodyUsesAtkinson: getComputedStyle(document.body).fontFamily.includes(
+				"Atkinson Hyperlegible Next",
+			),
+			fontsAreLocal:
+				localFontUrls.length > 0 &&
+				localFontUrls.every((url) => new URL(url).origin === window.location.origin),
+			googleFontsAbsent: resourceUrls.every(
+				(url) => !/fonts\.(googleapis|gstatic)\.com/.test(url),
+			),
+		};
+		return state;
+	});
+	expect(fontState).toEqual({
+		facesLoaded: true,
+		bodyUsesAtkinson: true,
+		fontsAreLocal: true,
+		googleFontsAbsent: true,
+	});
+});

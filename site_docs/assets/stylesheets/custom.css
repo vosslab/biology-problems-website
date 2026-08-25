@@ -1,4 +1,24 @@
 @font-face {
+  font-family: "Atkinson Hyperlegible Next";
+  src: url("../fonts/atkinson_hyperlegible_next/AtkinsonHyperlegibleNext-Variable.woff2") format("woff2");
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Atkinson Hyperlegible Next";
+  src: url("../fonts/atkinson_hyperlegible_next/AtkinsonHyperlegibleNext-VariableItalic.woff2") format("woff2");
+  font-weight: 200 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  --md-text-font: "Atkinson Hyperlegible Next";
+}
+
+@font-face {
   font-family: 'Font Awesome 6 Free';
   src: url('/assets/fonts/fa-solid-900.woff2') format('woff2');
   font-weight: 900;

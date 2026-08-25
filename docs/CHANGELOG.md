@@ -1,5 +1,43 @@
 # Changelog
 
+## 2026-08-25
+
+### Additions and New Features
+
+- Added [run_web_server.sh](../run_web_server.sh) as the repository-aware local preview command.
+  It resolves the Git root, loads [source_me.sh](../source_me.sh), serves MkDocs at
+  `http://127.0.0.1:8000/`, opens the browser, and cleans up automatically after five minutes
+  while preserving early server failures.
+- Routed the README and usage-guide preview examples through the new script and documented the
+  Python 3.12 module command for direct static builds.
+
+### Behavior or Interface Changes
+
+- Replaced MkDocs Material's externally loaded Roboto text face with self-hosted Atkinson
+  Hyperlegible Next variable fonts. The upright and italic web fonts cover weights 200 through
+  800, apply through Material's `--md-text-font` token, and ship with their SIL Open Font License.
+- Disabled Material's automatic Google Fonts loading so the site typography has no external font
+  request and uses the bundled files on GitHub Pages.
+
+### Decisions and Failures
+
+- Kept preview-server lifecycle probes as one-time implementation checks rather than permanent
+  tests. Removed the temporary fake-child harness and its custom environment control because a
+  timing-dependent subprocess fixture was disproportionate to this small convenience script.
+
+### Developer Tests and Notes
+
+- Verified the bundled WOFF2 files byte-match their upstream sources by SHA-256 and expose
+  upright and italic `wght` axes from 200 through 800, then completed a clean MkDocs build.
+- Confirmed through Chromium at 1440x1000 in light and dark modes and at 390x844 in light mode
+  that both font faces load, Material resolves the new text token for body, heading, and
+  navigation text, no Google Fonts links remain, and the layouts remain readable without
+  overflow. Added a browser regression check for loaded local font faces, computed text styles,
+  and the absence of Google Fonts. The full Playwright smoke suite passed all 77 checks across the
+  rendered site, and the complete pytest suite passed all 5,309 tests.
+- Validated the local preview script with `bash -n`, a live HTTP request to the served homepage,
+  Ctrl-C cleanup with status 130, and 3,120 focused shebang, Markdown-link, and README tests.
+
 ## 2026-08-19
 
 ### Behavior or Interface Changes
