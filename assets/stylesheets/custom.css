@@ -18,6 +18,11 @@
   --md-text-font: "Atkinson Hyperlegible Next";
 }
 
+/* Important overrides legacy inline Arial without changing intentional monospace text. */
+.qti-selftest [style*="font-family" i][style*="Arial" i] {
+  font-family: inherit !important;
+}
+
 @font-face {
   font-family: 'Font Awesome 6 Free';
   src: url('/assets/fonts/fa-solid-900.woff2') format('woff2');
