@@ -3,6 +3,7 @@ site_url: https://biologyproblems.org/
 docs_dir: site_docs
 theme:
   name: material
+  font: false
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default

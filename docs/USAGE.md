@@ -6,10 +6,13 @@ Use MkDocs to serve the local development site or build the static output from
 ## Quick start
 
 From the repo root:
+
 ```bash
-mkdocs serve
+./run_web_server.sh
 ```
-Open `http://127.0.0.1:8000/`.
+
+The script opens `http://127.0.0.1:8000/`, keeps live reload enabled, and stops
+the preview automatically after five minutes. Press Ctrl-C to stop it sooner.
 
 ## CLI
 
@@ -19,22 +22,22 @@ Open `http://127.0.0.1:8000/`.
   ```
 - Serve the site locally:
   ```bash
-  mkdocs serve
+  ./run_web_server.sh
   ```
 - Build the static site:
   ```bash
-  mkdocs build
+  source source_me.sh && python3 -m mkdocs build
   ```
 
 ## Examples
 
 - Serve locally for preview:
   ```bash
-  mkdocs serve
+  ./run_web_server.sh
   ```
 - Build output into the git-ignored `site/` directory:
   ```bash
-  mkdocs build
+  source source_me.sh && python3 -m mkdocs build
   ```
 
 ## Inputs and outputs
