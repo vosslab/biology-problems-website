@@ -19,6 +19,12 @@
 - Disabled Material's automatic Google Fonts loading so the site typography has no external font
   request and uses the bundled files on GitHub Pages.
 
+### Fixes and Maintenance
+
+- Extended the Atkinson text font through the daily puzzle roots and embedded selftest content.
+  Daily puzzles now inherit the site font instead of resetting to the system UI face, and the site
+  overrides legacy inline Arial declarations without changing intentional monospace content.
+
 ### Decisions and Failures
 
 - Kept preview-server lifecycle probes as one-time implementation checks rather than permanent
@@ -32,9 +38,10 @@
 - Confirmed through Chromium at 1440x1000 in light and dark modes and at 390x844 in light mode
   that both font faces load, Material resolves the new text token for body, heading, and
   navigation text, no Google Fonts links remain, and the layouts remain readable without
-  overflow. Added a browser regression check for loaded local font faces, computed text styles,
-  and the absence of Google Fonts. The full Playwright smoke suite passed all 77 checks across the
-  rendered site, and the complete pytest suite passed all 5,309 tests.
+  overflow. Added a browser regression check for loaded local font faces, computed text styles on
+  the homepage, Peptidyle puzzle, and an embedded selftest table, and the absence of Google Fonts.
+  The full Playwright smoke suite passed all 77 checks across the rendered site, and the complete
+  pytest suite passed all 5,309 tests.
 - Validated the local preview script with `bash -n`, a live HTTP request to the served homepage,
   Ctrl-C cleanup with status 130, and 3,120 focused shebang, Markdown-link, and README tests.
 
