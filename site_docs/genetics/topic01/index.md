@@ -4,7 +4,7 @@ Students identify common genetic disorders and describe basic inheritance patter
 
 **LibreTexts reference:** [Chapter 1: Foundations of Genetic Disorders](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/01:_Foundations_of_Genetic_Disorders) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/01:_Foundations_of_Genetic_Disorders" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 1" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
-## Matching Genetic Disorders to Descriptions
+## Matching Genetic Disorders with Descriptions (Multiple Files)
 
 <div id="MATCH-genetic_disorders-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-genetic_disorders-questions.txt" download title="Download bbq-MATCH-genetic_disorders-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-genetic_disorders-questions.txt)">
@@ -28,7 +28,7 @@ Students identify common genetic disorders and describe basic inheritance patter
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Genetic Disorders to Descriptions
+      Matching Genetic Disorders with Descriptions (Multiple Files)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -39,7 +39,7 @@ Students identify common genetic disorders and describe basic inheritance patter
 </details>
 
 
-## Genetic Disorders from Descriptions
+## Matching Chromosomal Abnormalities on Chromosome 18 (2 Problems)
 
 <div id="WOMC-genetic_disorders-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-genetic_disorders-questions.txt" download title="Download bbq-WOMC-genetic_disorders-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-genetic_disorders-questions.txt)">
@@ -63,7 +63,7 @@ Students identify common genetic disorders and describe basic inheritance patter
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Genetic Disorders from Descriptions
+      Matching Chromosomal Abnormalities on Chromosome 18 (2 Problems)
     </span>
     <span style='font-weight: normal;'>
       example problem
