@@ -36,7 +36,10 @@ function checkAnswer_f493_2b97() {
 	const numIncorrectSelected = selectedOptions.length - numCorrectSelected;
 	const totalCorrect = correctOptions.length;
 	const totalSelected = selectedOptions.length;
-	if (numCorrectSelected === totalCorrect && totalSelected === totalCorrect) {
+	if (totalSelected === 0) {
+		resultDiv.className = 'qti-feedback-result';
+		resultDiv.textContent = 'Please select an answer.';
+	} else if (numCorrectSelected === totalCorrect && totalSelected === totalCorrect) {
 		resultDiv.className = 'qti-feedback-result qti-feedback-success';
 		resultDiv.textContent = 'CORRECT';
 		if (checkBtn) { checkBtn.disabled = true; }
@@ -49,9 +52,6 @@ function checkAnswer_f493_2b97() {
 	} else if (totalSelected === totalCorrect && numCorrectSelected < totalCorrect) {
 		resultDiv.className = 'qti-feedback-result qti-feedback-error';
 		resultDiv.textContent = `You selected the right number of choices, but only ${numCorrectSelected} out of ${totalCorrect} are correct.`;
-	} else if (totalSelected === 0) {
-		resultDiv.className = 'qti-feedback-result';
-		resultDiv.textContent = 'Please select an answer.';
 	}
 }
 </script>
