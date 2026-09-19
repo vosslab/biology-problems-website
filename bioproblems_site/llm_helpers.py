@@ -11,6 +11,9 @@ import ollama
 import local_llm_wrapper.llm as llm
 
 
+DEFAULT_OLLAMA_MODEL = "gemma4:e4b"
+
+
 #============================================
 def validate_ollama_model(model: str) -> None:
 	"""Verify that model is installed locally in Ollama.
@@ -45,21 +48,16 @@ def validate_ollama_model(model: str) -> None:
 
 
 #============================================
-def create_llm_client(model: str = None, use_ollama: bool = False) -> llm.LLMClient:
-	"""Create an LLM client with strict transport selection.
+def create_llm_client(model: str = None) -> llm.LLMClient:
+	"""Create an Ollama client for problem-set title generation.
 
 	Args:
-		model: exact Ollama model name (requires use_ollama=True)
-		use_ollama: if True, use Ollama; if False, use Apple Intelligence
+		model: exact Ollama model name, or None for the project default
 
 	Returns:
-		configured LLMClient with a single transport
+		configured LLMClient with a single Ollama transport
 	"""
-	if use_ollama:
-		# When no explicit model is given, pick one based on available RAM.
-		ollama_model = model if model else llm.choose_model(None)
-		transport = llm.OllamaTransport(model=ollama_model)
-	else:
-		transport = llm.AppleTransport()
+	ollama_model = model if model else DEFAULT_OLLAMA_MODEL
+	transport = llm.OllamaTransport(model=ollama_model)
 	client = llm.LLMClient(transports=[transport], quiet=True)
 	return client

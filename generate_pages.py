@@ -80,12 +80,8 @@ def parse_args() -> argparse.Namespace:
 		help="Suppress per-file progress output.",
 	)
 	parser.add_argument(
-		"-O", "--ollama", dest="use_ollama", action="store_true",
-		help="Use Ollama instead of Apple Intelligence (auto-selects model by RAM).",
-	)
-	parser.add_argument(
 		"-m", "--model", dest="model", type=str, default=None,
-		help="Use Ollama with this exact local model (implies --ollama).",
+		help="Use this exact local Ollama model instead of gemma4:e4b.",
 	)
 	parser.set_defaults(verbose=True)
 	parser.set_defaults(regenerate_selftests=True)
@@ -128,11 +124,10 @@ def main() -> None:
 		subject_indexes = args.subject_indexes
 		topic_pages = args.topic_pages
 		generate_downloads = args.generate_downloads
-	# --model implies --ollama; collapse to a single boolean for downstream callers.
-	use_ollama = args.use_ollama or (args.model is not None)
-	# Pre-flight: fail fast if the requested Ollama model is not installed.
-	if args.model:
-		llm_helpers.validate_ollama_model(args.model)
+	# Pre-flight: fail fast if the selected Ollama model is not installed.
+	ollama_model = args.model if args.model else llm_helpers.DEFAULT_OLLAMA_MODEL
+	if topic_pages:
+		llm_helpers.validate_ollama_model(ollama_model)
 
 	# Resolve topic filter if provided. Load metadata once to get the
 	# alias map and subjects dict.
@@ -156,7 +151,6 @@ def main() -> None:
 		dry_run=args.dry_run,
 		verbose=args.verbose,
 		model=args.model,
-		use_ollama=use_ollama,
 	)
 
 

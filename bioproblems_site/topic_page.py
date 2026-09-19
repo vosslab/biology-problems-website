@@ -109,7 +109,7 @@ class RenderOptions:
 	regenerate_selftests: bool = True
 	verbose: bool = True
 	# Pre-built LLMClient for problem-set title generation. The pipeline
-	# constructs one client at startup based on --ollama / --model flags.
+	# constructs one Ollama client at startup using the default or --model.
 	llm_client: object = None
 
 #==============

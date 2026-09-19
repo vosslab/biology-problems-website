@@ -84,7 +84,6 @@ def run(
 	dry_run: bool = False,
 	verbose: bool = True,
 	model: "str | None" = None,
-	use_ollama: bool = False,
 	site_docs_dir: str = DEFAULT_SITE_DOCS,
 	metadata_path: str = DEFAULT_METADATA_PATH,
 	mkdocs_path: str = DEFAULT_MKDOCS_PATH,
@@ -143,9 +142,7 @@ def run(
 				))
 		else:
 			# Build a single LLMClient up front; reused for every topic page.
-			llm_client = llm_helpers.create_llm_client(
-				model=model, use_ollama=use_ollama,
-			)
+			llm_client = llm_helpers.create_llm_client(model=model)
 			options = topic_page_module.RenderOptions(
 				verbose=verbose,
 				llm_client=llm_client,
