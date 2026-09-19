@@ -53,7 +53,6 @@ INPUT_SCRIPT_BASENAMES = {
 	"yaml_mc_statements_to_bbq.py",
 	"yaml_make_match_sets.py",
 }
-DISABLE_ANTICHEAT_FLAGS = ("--no-hidden-terms", "--allow-click")
 
 
 def color(text: str, code: str) -> str:
@@ -1504,11 +1503,6 @@ def main():
 			continue
 		task.setdefault("extra_args", [])
 		task["extra_args"].extend(["-d", str(duplicates_count)])
-	# Force anti-cheat off for all generated scripts.
-	for task in tasks:
-		task.setdefault("extra_args", [])
-		task["extra_args"].extend(DISABLE_ANTICHEAT_FLAGS)
-
 	total = len(tasks)
 	if total == 0:
 		print(color("No tasks found in config.", COLOR_YELLOW))
