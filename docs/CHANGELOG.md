@@ -13,6 +13,9 @@
 
 ### Behavior or Interface Changes
 
+- Made Ollama with `gemma4:e4b` the default backend for problem-set title generation after
+  Apple Intelligence stopped supporting the workflow. Removed the obsolete `-O/--ollama`
+  switch; `-m/--model` still selects another installed Ollama model explicitly.
 - Replaced MkDocs Material's externally loaded Roboto text face with self-hosted Atkinson
   Hyperlegible Next variable fonts. The upright and italic web fonts cover weights 200 through
   800, apply through Material's `--md-text-font` token, and ship with their SIL Open Font License.
@@ -21,6 +24,12 @@
 
 ### Fixes and Maintenance
 
+- Removed obsolete `YMMS` rows from the active genetics task file. The old
+  `yaml_make_match_sets.py` generator was renamed to `yaml_match_to_bbq.py` and already runs
+  through each corresponding `YMATCH` row.
+- Removed the obsolete `--no-hidden-terms` and `--allow-click` arguments from BBQ batch commands;
+  current generators disable both anti-cheat transformations by default and no longer accept the
+  negative flags.
 - Extended the Atkinson text font through the daily puzzle roots and embedded selftest content.
   Daily puzzles now inherit the site font instead of resetting to the system UI face, and the site
   overrides legacy inline Arial declarations without changing intentional monospace content.
