@@ -1,0 +1,99 @@
+MC	<p>8e8b_4e04</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Refer	Incorrect	Stats	Incorrect	solo	Correct	Civic	Incorrect	Sos	Incorrect
+MC	<p>8741_845e</p> Which one of the following English words is a palindrome?	mirror	Incorrect	lulu	Incorrect	dodo	Incorrect	roto	Incorrect	Kayak	Correct
+MC	<p>8e8b_f6b4</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	dob	Correct	Madam	Incorrect	Radar	Incorrect	Level	Incorrect	Civic	Incorrect
+MC	<p>8e8b_0cdb</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Mom	Incorrect	Racecar	Incorrect	Kayak	Incorrect	dodo	Correct	Madam	Incorrect
+MC	<p>8e8b_fc4d</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Pop	Incorrect	Kayak	Incorrect	Redder	Incorrect	joy	Correct	Mom	Incorrect
+MC	<p>8e8b_820d</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Kayak	Incorrect	dollop	Correct	Radar	Incorrect	Madam	Incorrect	Pop	Incorrect
+MC	<p>8e8b_8f39</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	swims	Correct	Anna	Incorrect	Pop	Incorrect	Rotor	Incorrect	Mom	Incorrect
+MC	<p>8741_eed9</p> Which one of the following English words is a palindrome?	Racecar	Correct	bod	Incorrect	wog	Incorrect	mow	Incorrect	mali	Incorrect
+MC	<p>8741_d97d</p> Which one of the following English words is a palindrome?	bop	Incorrect	mali	Incorrect	Noon	Correct	wog	Incorrect	mirror	Incorrect
+MC	<p>8741_d7d6</p> Which one of the following English words is a palindrome?	passed	Incorrect	Rotator	Correct	mirror	Incorrect	stand	Incorrect	Rattat	Incorrect
+MC	<p>8741_6fce</p> Which one of the following English words is a palindrome?	Level	Correct	dog	Incorrect	mow	Incorrect	dob	Incorrect	dop	Incorrect
+MC	<p>8741_1998</p> Which one of the following English words is a palindrome?	Stats	Correct	joy	Incorrect	mow	Incorrect	dob	Incorrect	bod	Incorrect
+MC	<p>8e8b_7c7e</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Rotor	Incorrect	Mom	Incorrect	Racecar	Incorrect	Rattat	Correct	Solos	Incorrect
+MC	<p>8e8b_3da2</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Solos	Incorrect	Racecar	Incorrect	Level	Incorrect	mali	Correct	Civic	Incorrect
+MC	<p>8741_27ca</p> Which one of the following English words is a palindrome?	mow	Incorrect	passed	Incorrect	Stat	Incorrect	Madam	Correct	solo	Incorrect
+MC	<p>8741_a389</p> Which one of the following English words is a palindrome?	mali	Incorrect	Solos	Correct	dollop	Incorrect	mirror	Incorrect	wog	Incorrect
+MC	<p>8741_1e66</p> Which one of the following English words is a palindrome?	Mom	Correct	stand	Incorrect	dob	Incorrect	solo	Incorrect	dop	Incorrect
+MC	<p>8e8b_4cf6</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Pop	Incorrect	Kayak	Incorrect	Mom	Incorrect	lima	Correct	Racecar	Incorrect
+MC	<p>8e8b_afa2</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Civic	Incorrect	Refer	Incorrect	Sos	Incorrect	stand	Correct	Noon	Incorrect
+MC	<p>8741_03ed</p> Which one of the following English words is a palindrome?	dop	Incorrect	Noon	Correct	civil	Incorrect	roto	Incorrect	pod	Incorrect
+MC	<p>8e8b_1fd2</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Rotor	Incorrect	Rattat	Correct	Sos	Incorrect	Refer	Incorrect	Anna	Incorrect
+MC	<p>8e8b_a2a3</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Racecar	Incorrect	wog	Correct	Noon	Incorrect	Rotator	Incorrect	Kayak	Incorrect
+MC	<p>8741_3a08</p> Which one of the following English words is a palindrome?	Radar	Correct	dog	Incorrect	dop	Incorrect	Rattat	Incorrect	lulu	Incorrect
+MC	<p>8e8b_8cf1</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Stats	Incorrect	Kayak	Incorrect	Sos	Incorrect	pod	Correct	Racecar	Incorrect
+MC	<p>8e8b_d7ea</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Stats	Incorrect	Rotor	Incorrect	Noon	Incorrect	Rotator	Incorrect	yeah	Correct
+MC	<p>8e8b_9c51</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Pop	Incorrect	Kayak	Incorrect	dog	Correct	Racecar	Incorrect	Refer	Incorrect
+MC	<p>8741_c5bb</p> Which one of the following English words is a palindrome?	roto	Incorrect	bod	Incorrect	mali	Incorrect	lima	Incorrect	Kayak	Correct
+MC	<p>8e8b_9cdb</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Rotor	Incorrect	Anna	Incorrect	Refer	Incorrect	Racecar	Incorrect	lima	Correct
+MC	<p>8741_4172</p> Which one of the following English words is a palindrome?	lulu	Incorrect	suns	Incorrect	joy	Incorrect	Redder	Correct	pod	Incorrect
+MC	<p>8e8b_9142</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Solos	Incorrect	Pop	Incorrect	Mom	Incorrect	Stats	Incorrect	pod	Correct
+MC	<p>8741_e812</p> Which one of the following English words is a palindrome?	dollop	Incorrect	joy	Incorrect	yeah	Incorrect	Anna	Correct	passed	Incorrect
+MC	<p>8741_94a0</p> Which one of the following English words is a palindrome?	passed	Incorrect	Level	Correct	bop	Incorrect	mow	Incorrect	civil	Incorrect
+MC	<p>8e8b_3c6d</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Sos	Incorrect	bud	Correct	Pop	Incorrect	Rotor	Incorrect	Anna	Incorrect
+MC	<p>8e8b_4db4</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Madam	Incorrect	Level	Incorrect	Solos	Incorrect	Pop	Incorrect	lima	Correct
+MC	<p>8741_cd77</p> Which one of the following English words is a palindrome?	suns	Incorrect	passed	Incorrect	Racecar	Correct	roto	Incorrect	leaves	Incorrect
+MC	<p>8e8b_7b6f</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Kayak	Incorrect	Redder	Incorrect	Solos	Incorrect	Noon	Incorrect	Rattat	Correct
+MC	<p>8741_5600</p> Which one of the following English words is a palindrome?	lulu	Incorrect	stand	Incorrect	roto	Incorrect	Rotator	Correct	bod	Incorrect
+MC	<p>8741_54ab</p> Which one of the following English words is a palindrome?	dop	Incorrect	Refer	Correct	joy	Incorrect	dob	Incorrect	suns	Incorrect
+MC	<p>8e8b_4393</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Pop	Incorrect	Level	Incorrect	dollop	Correct	Madam	Incorrect	Rotator	Incorrect
+MC	<p>8741_9d95</p> Which one of the following English words is a palindrome?	dog	Incorrect	lulu	Incorrect	Racecar	Correct	dollop	Incorrect	suns	Incorrect
+MC	<p>8e8b_29e2</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Pop	Incorrect	Solos	Incorrect	dop	Correct	Sos	Incorrect	Rotator	Incorrect
+MC	<p>8741_846e</p> Which one of the following English words is a palindrome?	mali	Incorrect	Rotor	Correct	stand	Incorrect	solo	Incorrect	wog	Incorrect
+MC	<p>8e8b_87ca</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Refer	Incorrect	Racecar	Incorrect	Radar	Incorrect	Civic	Incorrect	dop	Correct
+MC	<p>8741_9445</p> Which one of the following English words is a palindrome?	bod	Incorrect	Rotator	Correct	mali	Incorrect	passed	Incorrect	leaves	Incorrect
+MC	<p>8741_4d3a</p> Which one of the following English words is a palindrome?	bod	Incorrect	dob	Incorrect	yeah	Incorrect	dog	Incorrect	Redder	Correct
+MC	<p>8741_0e85</p> Which one of the following English words is a palindrome?	bid	Incorrect	bod	Incorrect	mirror	Incorrect	Radar	Correct	solo	Incorrect
+MC	<p>8e8b_5e20</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Pop	Incorrect	Redder	Incorrect	Anna	Incorrect	Madam	Incorrect	bud	Correct
+MC	<p>8e8b_b464</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Refer	Incorrect	Rotor	Incorrect	Anna	Incorrect	Mom	Incorrect	Stat	Correct
+MC	<p>8e8b_1b6c</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Mom	Incorrect	Racecar	Incorrect	pod	Correct	Radar	Incorrect	Madam	Incorrect
+MC	<p>8e8b_2c81</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	dodo	Correct	Madam	Incorrect	Rotator	Incorrect	Radar	Incorrect	Anna	Incorrect
+MC	<p>8e8b_7baf</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Solos	Incorrect	Rotor	Incorrect	Anna	Incorrect	Pop	Incorrect	dollop	Correct
+MC	<p>8741_8862</p> Which one of the following English words is a palindrome?	Mom	Correct	roto	Incorrect	suns	Incorrect	mirror	Incorrect	mow	Incorrect
+MC	<p>8741_7f4a</p> Which one of the following English words is a palindrome?	lulu	Incorrect	dop	Incorrect	Mom	Correct	solo	Incorrect	bop	Incorrect
+MC	<p>8741_a3a6</p> Which one of the following English words is a palindrome?	lulu	Incorrect	wog	Incorrect	passed	Incorrect	solo	Incorrect	Pop	Correct
+MC	<p>8741_82f5</p> Which one of the following English words is a palindrome?	suns	Incorrect	Stat	Incorrect	dop	Incorrect	passed	Incorrect	Civic	Correct
+MC	<p>8e8b_768b</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Mom	Incorrect	Madam	Incorrect	mali	Correct	Level	Incorrect	Civic	Incorrect
+MC	<p>8741_7f4d</p> Which one of the following English words is a palindrome?	stand	Incorrect	bid	Incorrect	solo	Incorrect	mow	Incorrect	Noon	Correct
+MC	<p>8e8b_4927</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Redder	Incorrect	Sos	Incorrect	bop	Correct	Anna	Incorrect	Kayak	Incorrect
+MC	<p>8e8b_b004</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Racecar	Incorrect	wog	Correct	Redder	Incorrect	Madam	Incorrect	Sos	Incorrect
+MC	<p>8741_421f</p> Which one of the following English words is a palindrome?	Stat	Incorrect	pod	Incorrect	Radar	Correct	bop	Incorrect	bod	Incorrect
+MC	<p>8741_414f</p> Which one of the following English words is a palindrome?	pod	Incorrect	bod	Incorrect	Civic	Correct	yeah	Incorrect	bid	Incorrect
+MC	<p>8741_c660</p> Which one of the following English words is a palindrome?	mow	Incorrect	bop	Incorrect	Stats	Correct	dollop	Incorrect	solo	Incorrect
+MC	<p>8e8b_3d77</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Redder	Incorrect	Refer	Incorrect	Sos	Incorrect	roto	Correct	Stats	Incorrect
+MC	<p>8e8b_b007</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Level	Incorrect	Redder	Incorrect	mirror	Correct	Stats	Incorrect	Kayak	Incorrect
+MC	<p>8741_d145</p> Which one of the following English words is a palindrome?	yeah	Incorrect	leaves	Incorrect	mirror	Incorrect	stand	Incorrect	Stats	Correct
+MC	<p>8741_d7a4</p> Which one of the following English words is a palindrome?	dollop	Incorrect	mow	Incorrect	swims	Incorrect	Refer	Correct	bop	Incorrect
+MC	<p>8e8b_155c</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Solos	Incorrect	Refer	Incorrect	mirror	Correct	Civic	Incorrect	Madam	Incorrect
+MC	<p>8741_f2fe</p> Which one of the following English words is a palindrome?	passed	Incorrect	dollop	Incorrect	stand	Incorrect	Level	Correct	mirror	Incorrect
+MC	<p>8e8b_5b4b</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Radar	Incorrect	Rattat	Correct	Stats	Incorrect	Level	Incorrect	Rotator	Incorrect
+MC	<p>8741_70ba</p> Which one of the following English words is a palindrome?	bod	Incorrect	suns	Incorrect	Rotator	Correct	mali	Incorrect	dob	Incorrect
+MC	<p>8e8b_8716</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Level	Incorrect	Noon	Incorrect	Refer	Incorrect	Mom	Incorrect	roto	Correct
+MC	<p>8e8b_e575</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Racecar	Incorrect	Madam	Incorrect	Redder	Incorrect	Refer	Incorrect	joy	Correct
+MC	<p>8e8b_edac</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Sos	Incorrect	Anna	Incorrect	Level	Incorrect	Stat	Correct	Noon	Incorrect
+MC	<p>8e8b_7c72</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Level	Incorrect	Civic	Incorrect	Radar	Incorrect	lulu	Correct	Racecar	Incorrect
+MC	<p>8741_3bec</p> Which one of the following English words is a palindrome?	mow	Incorrect	mirror	Incorrect	Redder	Correct	bod	Incorrect	passed	Incorrect
+MC	<p>8741_9d69</p> Which one of the following English words is a palindrome?	wog	Incorrect	Madam	Correct	Rattat	Incorrect	bud	Incorrect	mali	Incorrect
+MC	<p>8e8b_19c7</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Redder	Incorrect	Rattat	Correct	Racecar	Incorrect	Kayak	Incorrect	Pop	Incorrect
+MC	<p>8e8b_3585</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	bid	Correct	Pop	Incorrect	Solos	Incorrect	Madam	Incorrect	Rotor	Incorrect
+MC	<p>8e8b_0793</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Anna	Incorrect	Refer	Incorrect	Mom	Incorrect	Stats	Incorrect	bod	Correct
+MC	<p>8e8b_defb</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Civic	Incorrect	Rotor	Incorrect	Pop	Incorrect	mow	Correct	Stats	Incorrect
+MC	<p>8e8b_4991</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Mom	Incorrect	Level	Incorrect	Redder	Incorrect	bop	Correct	Kayak	Incorrect
+MC	<p>8e8b_b581</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Noon	Incorrect	Civic	Incorrect	Sos	Incorrect	bud	Correct	Stats	Incorrect
+MC	<p>8e8b_bb74</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Noon	Incorrect	Racecar	Incorrect	mow	Correct	Rotator	Incorrect	Rotor	Incorrect
+MC	<p>8e8b_78cc</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Sos	Incorrect	Anna	Incorrect	Kayak	Incorrect	Solos	Incorrect	joy	Correct
+MC	<p>8e8b_139c</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Racecar	Incorrect	Sos	Incorrect	Level	Incorrect	Mom	Incorrect	dodo	Correct
+MC	<p>8741_eac6</p> Which one of the following English words is a palindrome?	mirror	Incorrect	dop	Incorrect	Radar	Correct	passed	Incorrect	swims	Incorrect
+MC	<p>8741_c5d5</p> Which one of the following English words is a palindrome?	dog	Incorrect	Rattat	Incorrect	Rotor	Correct	Stat	Incorrect	dob	Incorrect
+MC	<p>8e8b_165f</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Anna	Incorrect	Solos	Incorrect	bud	Correct	Level	Incorrect	Civic	Incorrect
+MC	<p>8741_47b9</p> Which one of the following English words is a palindrome?	roto	Incorrect	bud	Incorrect	mali	Incorrect	Noon	Correct	yeah	Incorrect
+MC	<p>8741_d173</p> Which one of the following English words is a palindrome?	Solos	Correct	leaves	Incorrect	bid	Incorrect	mow	Incorrect	bod	Incorrect
+MC	<p>8741_3d29</p> Which one of the following English words is a palindrome?	Rattat	Incorrect	dob	Incorrect	Rotator	Correct	stand	Incorrect	yeah	Incorrect
+MC	<p>8741_307a</p> Which one of the following English words is a palindrome?	suns	Incorrect	dodo	Incorrect	lulu	Incorrect	Civic	Correct	leaves	Incorrect
+MC	<p>8e8b_e35d</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	bid	Correct	Sos	Incorrect	Pop	Incorrect	Racecar	Incorrect	Solos	Incorrect
+MC	<p>8e8b_69e2</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Refer	Incorrect	Redder	Incorrect	Radar	Incorrect	Stats	Incorrect	bid	Correct
+MC	<p>8e8b_5fb6</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Stats	Incorrect	passed	Correct	Rotator	Incorrect	Refer	Incorrect	Redder	Incorrect
+MC	<p>8741_0bf3</p> Which one of the following English words is a palindrome?	mali	Incorrect	stand	Incorrect	dollop	Incorrect	leaves	Incorrect	Radar	Correct
+MC	<p>8741_1db4</p> Which one of the following English words is a palindrome?	Anna	Correct	dog	Incorrect	solo	Incorrect	Rattat	Incorrect	swims	Incorrect
+MC	<p>8e8b_b68e</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	Madam	Incorrect	passed	Correct	Pop	Incorrect	Rotor	Incorrect	Civic	Incorrect
+MC	<p>8e8b_278b</p> Which one of the following English words is <strong>NOT</strong> a palindrome?	dog	Correct	Anna	Incorrect	Redder	Incorrect	Refer	Incorrect	Pop	Incorrect
