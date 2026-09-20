@@ -1,5 +1,3 @@
-bbq-MATCH-genetic_disorders-questions.txt: Matching Genetic Disorders with Descriptions
-  (Multiple Files)
-bbq-WOMC-genetic_disorders-questions.txt: Matching Chromosomal Abnormalities on Chromosome
-  18 (2 Problems)
-last edit: Sat Sep 19 13:42:52 2026
+bbq-MATCH-genetic_disorders-questions.txt: Matching Genetic Disorders to Descriptions
+bbq-WOMC-genetic_disorders-questions.txt: Genetic Disorders from Descriptions
+last edit: Sun Sep 20 2026

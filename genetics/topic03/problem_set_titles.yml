@@ -1,19 +1,19 @@
-bbq-blood_type_agglutination_test-questions.txt: Blood Typing Results for A+, AB+,
-  O-, A- (3 Samples, Color)
-bbq-hla_genotype-2_markers-black-questions.txt: Matching HLA Genotypes (2_markers,
+bbq-blood_type_agglutination_test-questions.txt: Blood Types from Agglutination Test
+  Results
+bbq-hla_genotype-2_markers-black-questions.txt: Offspring HLA Genotypes (2 Markers,
   Black)
-bbq-hla_genotype-3_markers-color-questions.txt: Matching Offspring HLA Genotypes (2_markers,
+bbq-hla_genotype-3_markers-color-questions.txt: Offspring HLA Genotypes (3 Markers,
   Color)
-bbq-who_father_html-EASY-3_males-questions.txt: Matching Paternity Cases (RFLP, 3
-  Males)
-bbq-who_father_html-HARD-9_males-questions.txt: Matching Paternity Cases (9 Males,
-  RFLP, Detailed Profile)
-bbq-who_father_html-MEDIUM-5_males-questions.txt: Matching Fathers and Children (RFLP,
-  5 Males)
-bbq-who_killer_html-EASY-4_suspects-questions.txt: RFLP DNA Analysis (Forensic Application,
-  Easy Difficulty, 4 Suspects)
-bbq-who_killer_html-HARD-9_suspects-questions.txt: RFLP DNA Analysis (Forensic Matching
-  using Gel Electrophoresis, 9 Suspects)
-bbq-who_killer_html-MEDIUM-5_suspects-questions.txt: Forensic DNA Profiling (RFLP
-  Gel Analysis, 5 Suspects)
-last edit: Sat Sep 19 14:28:58 2026
+bbq-who_father_html-EASY-3_males-questions.txt: Identifying the Father from RFLP Gel
+  Profiles (EASY, 3 Potential Fathers)
+bbq-who_father_html-HARD-9_males-questions.txt: Identifying the Father from RFLP Gel
+  Profiles (HARD, 9 Potential Fathers)
+bbq-who_father_html-MEDIUM-5_males-questions.txt: Identifying the Father from RFLP
+  Gel Profiles (MEDIUM, 5 Potential Fathers)
+bbq-who_killer_html-EASY-4_suspects-questions.txt: Identifying the Killer from RFLP
+  Gel Profiles (EASY, 4 Suspects)
+bbq-who_killer_html-HARD-9_suspects-questions.txt: Identifying the Killer from RFLP
+  Gel Profiles (HARD, 9 Suspects)
+bbq-who_killer_html-MEDIUM-5_suspects-questions.txt: Identifying the Killer from RFLP
+  Gel Profiles (MEDIUM, 5 Suspects)
+last edit: Sun Sep 20 2026
