@@ -1,7 +1,7 @@
 bbq-blood_type_agglutination_test-questions.txt: Blood Types from Agglutination Test
   Results
 bbq-hla_genotype-2_markers-black-questions.txt: Offspring HLA Genotypes (2 Markers,
-  Black)
+  Black and White)
 bbq-hla_genotype-3_markers-color-questions.txt: Offspring HLA Genotypes (3 Markers,
   Color)
 bbq-who_father_html-EASY-3_males-questions.txt: Identifying the Father from RFLP Gel
