@@ -36,7 +36,7 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 </details>
 
 
-## Offspring HLA Genotypes (2 Markers, Black)
+## Offspring HLA Genotypes (2 Markers, Black and White)
 
 <div id="hla_genotype-2_markers-black-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-hla_genotype-2_markers-black-questions.txt" download title="Download bbq-hla_genotype-2_markers-black-questions.txt" aria-label="Click to download the BBQ Text file (bbq-hla_genotype-2_markers-black-questions.txt)">
@@ -57,7 +57,7 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Offspring HLA Genotypes (2 Markers, Black)
+      Offspring HLA Genotypes (2 Markers, Black and White)
     </span>
     <span style='font-weight: normal;'>
       example problem

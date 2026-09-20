@@ -7,8 +7,10 @@
 - Reviewed and revised the genetics problem-set titles in topics 1 through 4 for consistent,
   collection-level descriptions. Removed incidental generated examples such as individual
   restriction enzymes, sequences, and blood types, and aligned related restriction-digest,
-  restriction-cut, HLA, paternity, crime-scene gel-matching, Mendelian-cross, monohybrid, and
-  pedigree titles around their stable tasks, formats, and difficulty levels.
+  restriction-cut, HLA, paternity, crime-scene gel-matching, Mendelian-cross, monohybrid,
+  Punnett-square, and pedigree titles around their stable tasks, formats, and difficulty levels.
+  Matching banks and their parallel "which one" banks now explicitly distinguish matching from
+  multiple-choice response formats.
 
 ## 2026-08-25
 
