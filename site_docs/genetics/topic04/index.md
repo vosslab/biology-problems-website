@@ -4,7 +4,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 
 **LibreTexts reference:** [Chapter 4: Mendelian Genetics](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/04:_Mendelian_Genetics) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/04:_Mendelian_Genetics" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 4" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
-## Matching Genetic Terms to Definitions
+## Genetic Terms (Matching)
 
 <div id="MATCH-genetics_terminology-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-genetics_terminology-questions.txt" download title="Download bbq-MATCH-genetics_terminology-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-genetics_terminology-questions.txt)">
@@ -28,7 +28,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Genetic Terms to Definitions
+      Genetic Terms (Matching)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -39,7 +39,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 </details>
 
 
-## Matching Mendelian Crosses and Generations to Descriptions
+## Mendelian Crosses and Generations (Matching)
 
 <div id="MATCH-mendel_cross_terminology-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-mendel_cross_terminology-questions.txt" download title="Download bbq-MATCH-mendel_cross_terminology-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-mendel_cross_terminology-questions.txt)">
@@ -63,7 +63,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Mendelian Crosses and Generations to Descriptions
+      Mendelian Crosses and Generations (Matching)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -74,7 +74,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 </details>
 
 
-## Matching Mendel's Principles to Descriptions
+## Mendel's Principles (Matching)
 
 <div id="MATCH-mendel_four_principles-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-mendel_four_principles-questions.txt" download title="Download bbq-MATCH-mendel_four_principles-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-mendel_four_principles-questions.txt)">
@@ -98,7 +98,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Mendel's Principles to Descriptions
+      Mendel's Principles (Matching)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -109,7 +109,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 </details>
 
 
-## Matching Mendelian Genetics Terms to Definitions
+## Mendelian Genetics Terms (Matching)
 
 <div id="MATCH-mendelian_genetics_terms-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-mendelian_genetics_terms-questions.txt" download title="Download bbq-MATCH-mendelian_genetics_terms-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-mendelian_genetics_terms-questions.txt)">
@@ -133,7 +133,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Mendelian Genetics Terms to Definitions
+      Mendelian Genetics Terms (Matching)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -144,7 +144,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 </details>
 
 
-## Matching Parental Genotypes to Monohybrid Offspring Outcomes
+## Parental Genotypes in Monohybrid Crosses (Matching)
 
 <div id="MATCH-monohybrid_cross_genotype-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-MATCH-monohybrid_cross_genotype-questions.txt" download title="Download bbq-MATCH-monohybrid_cross_genotype-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-monohybrid_cross_genotype-questions.txt)">
@@ -168,7 +168,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Parental Genotypes to Monohybrid Offspring Outcomes
+      Parental Genotypes in Monohybrid Crosses (Matching)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -179,7 +179,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 </details>
 
 
-## Genetic Terms from Definitions
+## Genetic Terms (Multiple Choice)
 
 <div id="WOMC-genetics_terminology-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-genetics_terminology-questions.txt" download title="Download bbq-WOMC-genetics_terminology-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-genetics_terminology-questions.txt)">
@@ -203,7 +203,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Genetic Terms from Definitions
+      Genetic Terms (Multiple Choice)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -214,7 +214,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 </details>
 
 
-## Mendelian Crosses and Generations from Descriptions
+## Mendelian Crosses and Generations (Multiple Choice)
 
 <div id="WOMC-mendel_cross_terminology-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-mendel_cross_terminology-questions.txt" download title="Download bbq-WOMC-mendel_cross_terminology-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-mendel_cross_terminology-questions.txt)">
@@ -238,7 +238,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Mendelian Crosses and Generations from Descriptions
+      Mendelian Crosses and Generations (Multiple Choice)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -249,7 +249,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 </details>
 
 
-## Mendel's Principles from Descriptions
+## Mendel's Principles (Multiple Choice)
 
 <div id="WOMC-mendel_four_principles-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-mendel_four_principles-questions.txt" download title="Download bbq-WOMC-mendel_four_principles-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-mendel_four_principles-questions.txt)">
@@ -273,7 +273,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Mendel's Principles from Descriptions
+      Mendel's Principles (Multiple Choice)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -284,7 +284,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 </details>
 
 
-## Mendelian Genetics Terms from Definitions
+## Mendelian Genetics Terms (Multiple Choice)
 
 <div id="WOMC-mendelian_genetics_terms-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-mendelian_genetics_terms-questions.txt" download title="Download bbq-WOMC-mendelian_genetics_terms-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-mendelian_genetics_terms-questions.txt)">
@@ -308,7 +308,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Mendelian Genetics Terms from Definitions
+      Mendelian Genetics Terms (Multiple Choice)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -319,7 +319,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 </details>
 
 
-## Parental Genotypes from Monohybrid Offspring Outcomes
+## Parental Genotypes in Monohybrid Crosses (Multiple Choice)
 
 <div id="WOMC-monohybrid_cross_genotype-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-WOMC-monohybrid_cross_genotype-questions.txt" download title="Download bbq-WOMC-monohybrid_cross_genotype-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-monohybrid_cross_genotype-questions.txt)">
@@ -343,7 +343,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Parental Genotypes from Monohybrid Offspring Outcomes
+      Parental Genotypes in Monohybrid Crosses (Multiple Choice)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -514,7 +514,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 </details>
 
 
-## Punnett Square Results for Flower Color Inheritance
+## Choosing Punnett Squares for Flower Color Crosses
 
 <div id="punnett_choice-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-punnett_choice-questions.txt" download title="Download bbq-punnett_choice-questions.txt" aria-label="Click to download the BBQ Text file (bbq-punnett_choice-questions.txt)">
@@ -535,7 +535,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Punnett Square Results for Flower Color Inheritance
+      Choosing Punnett Squares for Flower Color Crosses
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -546,7 +546,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 </details>
 
 
-## Identifying Inheritance Patterns from Pedigree Diagrams (Single Diagram)
+## Identifying Inheritance Patterns from Pedigree Diagrams
 
 <div id="write_pedigree_choice-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-write_pedigree_choice-questions.txt" download title="Download bbq-write_pedigree_choice-questions.txt" aria-label="Click to download the BBQ Text file (bbq-write_pedigree_choice-questions.txt)">
@@ -567,7 +567,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Identifying Inheritance Patterns from Pedigree Diagrams (Single Diagram)
+      Identifying Inheritance Patterns from Pedigree Diagrams
     </span>
     <span style='font-weight: normal;'>
       example problem
