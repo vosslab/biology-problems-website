@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-09-20
+
+### Fixes and Maintenance
+
+- Reviewed and revised the genetics problem-set titles in topics 1 through 4 for consistent,
+  collection-level descriptions. Removed incidental generated examples such as individual
+  restriction enzymes, sequences, and blood types, and aligned related restriction-digest,
+  restriction-cut, HLA, paternity, crime-scene gel-matching, Mendelian-cross, monohybrid, and
+  pedigree titles around their stable tasks, formats, and difficulty levels.
+
 ## 2026-08-25
 
 ### Additions and New Features
