@@ -1,27 +1,28 @@
 bbq-TFMS-dna_structure-biol_351-questions.txt: True/False Statements About DNA Structure
-  (Multiple Statements)
-bbq-TFMS-english_palindromes-questions.txt: Matching Palindromes (Multiple Sets, Varying
-  Difficulty)
-bbq-TFMS-nucleotide_components-questions.txt: Matching Nucleotide Components (5 Problems)
-bbq-TFMS-rna_v_dna-questions.txt: True/False Statements About RNA and DNA (Multiple
-  Statements)
-bbq-chargaff_dna_percent-5_choices-questions.txt: Chargaff Percentages in Double-Stranded
-  DNA (5 Problems)
-bbq-complementary_sequences-mc-directionless-questions.txt: Complementary Base Pairs
-  (ab91_0668, 4389_c4e7)
-bbq-complementary_sequences-mc-prime-questions.txt: Complementary Base Pairing (2
-  Sequences, Directional)
-bbq-linear_digest-length_10-sites_3-strand-questions.txt: Matching Restriction Enzyme
-  Recognition Sites (2 Types, AgeI vs. SdaI)
-bbq-linear_digest-length_13-sites_3-fragment-questions.txt: Restriction Enzyme Cut
-  Sizes (2 Enzymes, 13 kb Fragment)
-bbq-linear_digest-length_16-sites_4-strand-questions.txt: Restriction Enzyme Recognition
-  Sites (2 Types, 2 Enzymes)
-bbq-linear_digest-length_8-sites_2-fragment-questions.txt: Restriction Enzyme Cuts
-  (2 Fragments, 8 kb)
-bbq-overhang_sequence-mc-questions.txt: Restriction Enzyme Overhangs (Hin6I vs. Bsp1407I)
-bbq-overhang_type-5_3_blunt-questions.txt: 'Restriction Cuts: Bsh1236I vs AluBI'
-bbq-overhang_type-blunt_v_sticky-questions.txt: 'Restriction Cuts: Blunt vs. Sticky'
-bbq-palindrome_sequence_match-questions.txt: Matching Palindromic Sequences (Multiple
-  Problems)
-last edit: Sat Sep 19 13:44:04 2026
+  (BIOL 351)
+bbq-TFMS-english_palindromes-questions.txt: True/False Statements About English Palindromes
+bbq-TFMS-nucleotide_components-questions.txt: True/False Statements About Nucleotide
+  Components
+bbq-TFMS-rna_v_dna-questions.txt: True/False Statements About RNA and DNA Differences
+bbq-chargaff_dna_percent-5_choices-questions.txt: DNA Base Composition Using Chargaff's
+  Rules (5 Choices)
+bbq-complementary_sequences-mc-directionless-questions.txt: Complementary DNA Sequences
+  Without Direction Labels
+bbq-complementary_sequences-mc-prime-questions.txt: Complementary DNA Sequences with
+  5' and 3' Direction Labels
+bbq-linear_digest-length_10-sites_3-strand-questions.txt: 'Restriction Digests: Determining
+  DNA Band Sizes (10 kb, 3 Sites, Strand Diagram)'
+bbq-linear_digest-length_13-sites_3-fragment-questions.txt: 'Restriction Digests: Determining
+  DNA Band Sizes (13 kb, 3 Sites, Fragment Diagram)'
+bbq-linear_digest-length_16-sites_4-strand-questions.txt: 'Restriction Digests: Determining
+  DNA Band Sizes (16 kb, 4 Sites, Strand Diagram)'
+bbq-linear_digest-length_8-sites_2-fragment-questions.txt: 'Restriction Digests: Determining
+  DNA Band Sizes (8 kb, 2 Sites, Fragment Diagram)'
+bbq-overhang_sequence-mc-questions.txt: 'Restriction Enzyme Cuts: Determining Overhang
+  Sequences'
+bbq-overhang_type-5_3_blunt-questions.txt: 'Restriction Enzyme Cuts: Identifying 5'',
+  3'', or Blunt Ends'
+bbq-overhang_type-blunt_v_sticky-questions.txt: 'Restriction Enzyme Cuts: Identifying
+  Blunt or Sticky Ends'
+bbq-palindrome_sequence_match-questions.txt: Palindromic DNA Sequence Completion
+last edit: Sun Sep 20 2026
