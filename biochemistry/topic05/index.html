@@ -3231,8 +3231,8 @@
   </summary>
   <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n/* Each choice row: min 40px height for comfortable tap targets */\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  margin: 4px 0;\n  padding: 6px 4px;\n  min-height: 40px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 10px;\n  margin: 0;\n  cursor: pointer;\n}\n/* Enlarged radio/checkbox inputs: ~1.4em via width/height, transform-origin top-left keeps layout aligned */\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n  flex-shrink: 0;\n  width: 1.4em;\n  height: 1.4em;\n  cursor: pointer;\n  accent-color: var(--qti-btn-bg, #3a5acd);\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Primary filled button (Check Answer) */\n.qti-btn {\n  background-color: var(--qti-btn-bg, #3a5acd);\n  color: var(--qti-btn-fg, #ffffff);\n  border: none;\n  border-radius: 4px;\n  padding: 8px 20px;\n  font-weight: 600;\n  cursor: pointer;\n}\n.qti-btn:hover {\n  filter: brightness(1.1);\n}\n/* Disabled state: muted appearance after a correct answer (disabled attribute set by JS) */\n.qti-btn:disabled,\n.qti-btn[disabled] {\n  background-color: var(--qti-btn-disabled-bg, #aaaaaa);\n  color: var(--qti-btn-disabled-fg, #eeeeee);\n  opacity: 0.55;\n  cursor: not-allowed;\n  filter: none;\n}\n/* Secondary ghost button (Clear / Reset) */\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, transparent);\n  color: var(--qti-btn-reset-fg, #555555);\n  border: 1px solid var(--qti-btn-reset-border, #999999);\n  border-radius: 4px;\n  padding: 7px 20px;\n  cursor: pointer;\n}\n.qti-btn-reset:hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Text input styling */\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, #111111);\n  border: 1px solid var(--qti-input-border, #999999);\n  border-radius: 4px;\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n/* Responsive images: prevent RDKit/structure canvases from overflowing on mobile */\n.qti-selftest canvas,\n.qti-selftest img {\n  max-width: 100%;\n  height: auto;\n}\n/* Feedback pill: neutral base state (empty placeholder, invisible until JS sets content) */\n.qti-feedback-result {\n  display: inline-block;\n  min-height: 1.5em;\n  margin: 8px 0 8px 0;\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  vertical-align: middle;\n}\n/* Success pill */\n.qti-feedback-success {\n  display: inline-block;\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Error pill */\n.qti-feedback-error {\n  display: inline-block;\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Non-color accessibility markers (ASCII, no impact on textContent) */\n.qti-feedback-success::before { content: \"[+] \"; }\n.qti-feedback-error::before { content: \"[x] \"; }\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #4a6ee0;\n    --qti-btn-fg: #ffffff;\n    --qti-btn-disabled-bg: #555555;\n    --qti-btn-disabled-fg: #aaaaaa;\n    --qti-btn-reset-bg: transparent;\n    --qti-btn-reset-fg: #c0c0c0;\n    --qti-btn-reset-border: #777777;\n    --qti-input-bg: #2a2a2a;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #4a6ee0;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #555555;\n  --qti-btn-disabled-fg: #aaaaaa;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #c0c0c0;\n  --qti-btn-reset-border: #777777;\n  --qti-input-bg: #2a2a2a;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
   <div class="qti-selftest">
-  <div id="question_html_45a0_e3f2">
-  <div id="statement_text_45a0_e3f2"><p>Match each of the following <strong><span style="color: #b74300;">cell</span> </strong>disruption techniques with their corresponding descriptions.<br><i>Note:</i> Each choice will be used exactly once.</p></div>
+  <div id="question_html_45a0_7d4f">
+  <div id="statement_text_45a0_7d4f"><p>Match each of the following <strong><span style="color: #b74300;">cell</span> </strong>disruption techniques with their corresponding descriptions.<br><i>Note:</i> Each choice will be used exactly once.</p></div>
   <!-- Matching Table -->
   <table style="border: 1px solid var(--qti-border, #999999); border-collapse: collapse;">
   <thead><tr>
@@ -3243,51 +3243,51 @@
   <tbody>
   <tr>
   <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-            <td class="dropzone qti-dropzone" data-correct="45a0_e3f2_001" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
-            <td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">1. <strong><span style="color: #007576;">Dounce Homogenizer</span></strong>
+            <td class="dropzone qti-dropzone" data-correct="45a0_7d4f_001" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+            <td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">1. <strong><span style="color: #007a00;">Freeze-thaw</span></strong>
   </td>
         </tr>
   <tr>
   <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-            <td class="dropzone qti-dropzone" data-correct="45a0_e3f2_002" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
-            <td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">2. <strong><span style="color: #00775f;">Mortar & Pestle</span></strong>
+            <td class="dropzone qti-dropzone" data-correct="45a0_7d4f_002" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+            <td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">2. <strong><span style="color: #935d00;">Enzymatic Method</span></strong>
   </td>
         </tr>
   <tr>
   <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-            <td class="dropzone qti-dropzone" data-correct="45a0_e3f2_003" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
-            <td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">3. <strong><span style="color: #6c6c00;">Bead-beating</span></strong>
+            <td class="dropzone qti-dropzone" data-correct="45a0_7d4f_003" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+            <td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">3. <strong><span style="color: #0067cc;">Microfluidizer</span></strong>
   </td>
         </tr>
   <tr>
   <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-            <td class="dropzone qti-dropzone" data-correct="45a0_e3f2_004" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
-            <td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">4. <strong><span style="color: #076dad;">Mechanical Homogenizer</span></strong>
+            <td class="dropzone qti-dropzone" data-correct="45a0_7d4f_004" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+            <td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">4. <strong><span style="color: #3b7600;">Sonication</span></strong>
   </td>
         </tr>
   </tbody>
   </table>
   <p style="font-style: italic; font-size: 14px; margin-top: 10px;">Drag one of the choices below:</p>
   <ul id="choiceList" style="list-style: none; padding: 0;">
-  <li class="draggable qti-choice-2" draggable="true" data-value="45a0_e3f2_002" title="Manual grinding of cells that can take several minutes." " style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-2-bg); display: inline-block;">
-        <span style="color: var(--qti-choice-2-fg);"><strong>A.</strong> Manual grinding of <strong><span style="color: #d40000;">cells</span></strong> that can take several minutes."</span>
+  <li class="draggable qti-choice-2" draggable="true" data-value="45a0_7d4f_003" title="Uses a pump and a Z-shaped interaction chamber to create high pressures." style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-2-bg); display: inline-block;">
+        <span style="color: var(--qti-choice-2-fg);"><strong>A.</strong> Uses a pump and a Z-shaped interaction chamber to create high pressures.</span>
     </li>
-    <li class="draggable qti-choice-3" draggable="true" data-value="45a0_e3f2_003" title="Glass or ceramic particles stirred at high speeds crack cells open." style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-3-bg); display: inline-block;">
-        <span style="color: var(--qti-choice-3-fg);"><strong>B.</strong> Glass or ceramic particles stirred at high speeds crack <strong><span style="color: #d40000;">cells</span></strong> open.</span>
+    <li class="draggable qti-choice-3" draggable="true" data-value="45a0_7d4f_002" title="Digestive protein catalysts digest and decompose the microbial cell wall." style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-3-bg); display: inline-block;">
+        <span style="color: var(--qti-choice-3-fg);"><strong>B.</strong> Digestive protein catalysts digest and decompose the microbial <strong><span style="color: #b74300;">cell</span> </strong>wall.</span>
     </li>
-    <li class="draggable qti-choice-4" draggable="true" data-value="45a0_e3f2_001" title="Handheld device that spins in a tube to smash cells ." style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-4-bg); display: inline-block;">
-        <span style="color: var(--qti-choice-4-fg);"><strong>C.</strong> Handheld device that spins in a tube to smash <strong><span style="color: #d40000;">cells</span></strong>.</span>
+    <li class="draggable qti-choice-4" draggable="true" data-value="45a0_7d4f_001" title="Ice crystal expansion leads to cell wall disruption." style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-4-bg); display: inline-block;">
+        <span style="color: var(--qti-choice-4-fg);"><strong>C.</strong> Ice crystal expansion leads to <strong><span style="color: #b74300;">cell</span> </strong>wall disruption.</span>
     </li>
-    <li class="draggable qti-choice-5" draggable="true" data-value="45a0_e3f2_004" title="Spinning rotor blades shear the cell walls." style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-5-bg); display: inline-block;">
-        <span style="color: var(--qti-choice-5-fg);"><strong>D.</strong> Spinning rotor blades shear the <strong><span style="color: #b74300;">cell</span> </strong>walls.</span>
+    <li class="draggable qti-choice-5" draggable="true" data-value="45a0_7d4f_004" title="Ultrasonic sound energy is used to cause air bubbles in a liquid to implode, damaging the cells ." style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-5-bg); display: inline-block;">
+        <span style="color: var(--qti-choice-5-fg);"><strong>D.</strong> Ultrasonic sound energy is used to cause air bubbles in a liquid to implode, damaging the <strong><span style="color: #d40000;">cells</span></strong>.</span>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_45a0_e3f2()">Check Answer</button>
-  <button type="button" class="md-button md-button--secondary custom-button qti-btn qti-btn-reset" onclick="resetGame_45a0_e3f2()">Reset Game</button>
-  <div id="result_45a0_e3f2" class="qti-feedback-result">&#160;</div>
+  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_45a0_7d4f()">Check Answer</button>
+  <button type="button" class="md-button md-button--secondary custom-button qti-btn qti-btn-reset" onclick="resetGame_45a0_7d4f()">Reset Game</button>
+  <div id="result_45a0_7d4f" class="qti-feedback-result">&#160;</div>
   </div><script>
-    function initDragAndDrop_45a0_e3f2() {
-        const container = document.getElementById('question_html_45a0_e3f2');
+    function initDragAndDrop_45a0_7d4f() {
+        const container = document.getElementById('question_html_45a0_7d4f');
         if (!container) {
             return;
         }
@@ -3335,11 +3335,11 @@
             });
         });
     }
-    initDragAndDrop_45a0_e3f2();
+    initDragAndDrop_45a0_7d4f();
   </script>
   <script>
-    function checkAnswer_45a0_e3f2() {
-        const container = document.getElementById('question_html_45a0_e3f2');
+    function checkAnswer_45a0_7d4f() {
+        const container = document.getElementById('question_html_45a0_7d4f');
         if (!container) {
             return;
         }
@@ -3367,8 +3367,8 @@
         });
 
         feedbackText = `Total Score: ${score} out of ${possible}`;
-        const resultDiv = document.getElementById('result_45a0_e3f2');
-        const checkBtn = document.querySelector("[onclick='checkAnswer_45a0_e3f2()']");
+        const resultDiv = document.getElementById('result_45a0_7d4f');
+        const checkBtn = document.querySelector("[onclick='checkAnswer_45a0_7d4f()']");
         if (score === possible) {
             resultDiv.className = 'qti-feedback-result qti-feedback-success';
             if (checkBtn) { checkBtn.disabled = true; }
@@ -3379,8 +3379,8 @@
     }
   </script>
   <script>
-    function resetGame_45a0_e3f2() {
-        const container = document.getElementById('question_html_45a0_e3f2');
+    function resetGame_45a0_7d4f() {
+        const container = document.getElementById('question_html_45a0_7d4f');
         if (!container) {
             return;
         }
@@ -3397,13 +3397,13 @@
             cell.textContent = "";
             cell.style.backgroundColor = "transparent";
         });
-        const resultDiv_45a0_e3f2 = document.getElementById("result_45a0_e3f2");
-        if (resultDiv_45a0_e3f2) {
-            resultDiv_45a0_e3f2.textContent = "";
-            resultDiv_45a0_e3f2.className = "qti-feedback-result";
+        const resultDiv_45a0_7d4f = document.getElementById("result_45a0_7d4f");
+        if (resultDiv_45a0_7d4f) {
+            resultDiv_45a0_7d4f.textContent = "";
+            resultDiv_45a0_7d4f.className = "qti-feedback-result";
         }
-        const checkBtn_45a0_e3f2 = document.querySelector("[onclick='checkAnswer_45a0_e3f2()']");
-        if (checkBtn_45a0_e3f2) { checkBtn_45a0_e3f2.disabled = false; }
+        const checkBtn_45a0_7d4f = document.querySelector("[onclick='checkAnswer_45a0_7d4f()']");
+        if (checkBtn_45a0_7d4f) { checkBtn_45a0_7d4f.disabled = false; }
     }
   </script>
 
@@ -3444,8 +3444,8 @@
   </summary>
   <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n/* Each choice row: min 40px height for comfortable tap targets */\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  margin: 4px 0;\n  padding: 6px 4px;\n  min-height: 40px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 10px;\n  margin: 0;\n  cursor: pointer;\n}\n/* Enlarged radio/checkbox inputs: ~1.4em via width/height, transform-origin top-left keeps layout aligned */\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n  flex-shrink: 0;\n  width: 1.4em;\n  height: 1.4em;\n  cursor: pointer;\n  accent-color: var(--qti-btn-bg, #3a5acd);\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Primary filled button (Check Answer) */\n.qti-btn {\n  background-color: var(--qti-btn-bg, #3a5acd);\n  color: var(--qti-btn-fg, #ffffff);\n  border: none;\n  border-radius: 4px;\n  padding: 8px 20px;\n  font-weight: 600;\n  cursor: pointer;\n}\n.qti-btn:hover {\n  filter: brightness(1.1);\n}\n/* Disabled state: muted appearance after a correct answer (disabled attribute set by JS) */\n.qti-btn:disabled,\n.qti-btn[disabled] {\n  background-color: var(--qti-btn-disabled-bg, #aaaaaa);\n  color: var(--qti-btn-disabled-fg, #eeeeee);\n  opacity: 0.55;\n  cursor: not-allowed;\n  filter: none;\n}\n/* Secondary ghost button (Clear / Reset) */\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, transparent);\n  color: var(--qti-btn-reset-fg, #555555);\n  border: 1px solid var(--qti-btn-reset-border, #999999);\n  border-radius: 4px;\n  padding: 7px 20px;\n  cursor: pointer;\n}\n.qti-btn-reset:hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Text input styling */\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, #111111);\n  border: 1px solid var(--qti-input-border, #999999);\n  border-radius: 4px;\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n/* Responsive images: prevent RDKit/structure canvases from overflowing on mobile */\n.qti-selftest canvas,\n.qti-selftest img {\n  max-width: 100%;\n  height: auto;\n}\n/* Feedback pill: neutral base state (empty placeholder, invisible until JS sets content) */\n.qti-feedback-result {\n  display: inline-block;\n  min-height: 1.5em;\n  margin: 8px 0 8px 0;\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  vertical-align: middle;\n}\n/* Success pill */\n.qti-feedback-success {\n  display: inline-block;\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Error pill */\n.qti-feedback-error {\n  display: inline-block;\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Non-color accessibility markers (ASCII, no impact on textContent) */\n.qti-feedback-success::before { content: \"[+] \"; }\n.qti-feedback-error::before { content: \"[x] \"; }\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #4a6ee0;\n    --qti-btn-fg: #ffffff;\n    --qti-btn-disabled-bg: #555555;\n    --qti-btn-disabled-fg: #aaaaaa;\n    --qti-btn-reset-bg: transparent;\n    --qti-btn-reset-fg: #c0c0c0;\n    --qti-btn-reset-border: #777777;\n    --qti-input-bg: #2a2a2a;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #4a6ee0;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #555555;\n  --qti-btn-disabled-fg: #aaaaaa;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #c0c0c0;\n  --qti-btn-reset-border: #777777;\n  --qti-input-bg: #2a2a2a;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
   <div class="qti-selftest">
-  <div id="question_html_fa7a_ed18">
-  <div id="statement_text_fa7a_ed18"><p>Match each of the following types of <strong><span style="color: #d40000;">column</span></strong> <strong><span style="color: #c80085;">chromatography</span></strong> with their corresponding descriptions.<br><i>Note:</i> Each choice will be used exactly once.</p></div>
+  <div id="question_html_fa7a_e6b8">
+  <div id="statement_text_fa7a_e6b8"><p>Match each of the following types of <strong><span style="color: #d40000;">column</span></strong> <strong><span style="color: #c80085;">chromatography</span></strong> with their corresponding descriptions.<br><i>Note:</i> Each choice will be used exactly once.</p></div>
   <!-- Matching Table -->
   <table style="border: 1px solid var(--qti-border, #999999); border-collapse: collapse;">
   <thead><tr>
@@ -3456,25 +3456,25 @@
   <tbody>
   <tr>
   <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-            <td class="dropzone qti-dropzone" data-correct="fa7a_ed18_001" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+            <td class="dropzone qti-dropzone" data-correct="fa7a_e6b8_001" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
             <td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">1. <strong><span style="color: #cc0066;">affinity column (AC)</span></strong>
   </td>
         </tr>
   <tr>
   <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-            <td class="dropzone qti-dropzone" data-correct="fa7a_ed18_002" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+            <td class="dropzone qti-dropzone" data-correct="fa7a_e6b8_002" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
             <td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">2. <strong><span style="color: #003fff;">ion exchange column (IEX)</span></strong>
   </td>
         </tr>
   <tr>
   <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-            <td class="dropzone qti-dropzone" data-correct="fa7a_ed18_003" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+            <td class="dropzone qti-dropzone" data-correct="fa7a_e6b8_003" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
             <td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">3. <strong><span style="color: #007a00;">size-exclusion column (SEC)</span></strong>
   </td>
         </tr>
   <tr>
   <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-            <td class="dropzone qti-dropzone" data-correct="fa7a_ed18_004" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+            <td class="dropzone qti-dropzone" data-correct="fa7a_e6b8_004" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
             <td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">4. <strong><span style="color: #935d00;">reverse phase column (RPC)</span></strong>
   </td>
         </tr>
@@ -3482,25 +3482,25 @@
   </table>
   <p style="font-style: italic; font-size: 14px; margin-top: 10px;">Drag one of the choices below:</p>
   <ul id="choiceList" style="list-style: none; padding: 0;">
-  <li class="draggable qti-choice-2" draggable="true" data-value="fa7a_ed18_003" title="size separation in a column filled with porous beads" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-2-bg); display: inline-block;">
-        <span style="color: var(--qti-choice-2-fg);"><strong>A.</strong> size <strong><span style="color: #b74300;">separation</span></strong> in a <strong><span style="color: #d40000;">column</span></strong> filled with porous beads</span>
+  <li class="draggable qti-choice-2" draggable="true" data-value="fa7a_e6b8_001" title="a specific ligand is attached to the particle resin in the column" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-2-bg); display: inline-block;">
+        <span style="color: var(--qti-choice-2-fg);"><strong>A.</strong> a specific <strong><span style="color: #a719db;">ligand</span></strong> is attached to the <strong><span style="color: #00775f;">particle</span> </strong>resin in the <strong><span style="color: #d40000;">column</span></strong></span>
     </li>
-    <li class="draggable qti-choice-3" draggable="true" data-value="fa7a_ed18_004" title="technique based on the ability to separate proteins based on relative hydrophobic differences" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-3-bg); display: inline-block;">
-        <span style="color: var(--qti-choice-3-fg);"><strong>B.</strong> technique based on the ability to separate <strong><span style="color: #007576;">proteins</span></strong> based on relative hydrophobic differences</span>
+    <li class="draggable qti-choice-3" draggable="true" data-value="fa7a_e6b8_004" title="for one type, high salt concentration enhances the interaction, whereas low salt concentrations weaken it" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-3-bg); display: inline-block;">
+        <span style="color: var(--qti-choice-3-fg);"><strong>B.</strong> for one type, high salt concentration enhances the interaction, whereas low salt concentrations weaken it</span>
     </li>
-    <li class="draggable qti-choice-4" draggable="true" data-value="fa7a_ed18_002" title="below its isoelectric point (pI), a protein will bind to a negatively charged cation exchanger" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-4-bg); display: inline-block;">
-        <span style="color: var(--qti-choice-4-fg);"><strong>C.</strong> below its isoelectric point (pI), a <strong><span style="color: #007576;">protein</span> </strong>will bind to a negatively <strong><span style="color: #0067cc;">charged</span></strong> cation exchanger</span>
+    <li class="draggable qti-choice-4" draggable="true" data-value="fa7a_e6b8_003" title="only liquid chromatography method where molecules do NOT bind to the chromatography particles" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-4-bg); display: inline-block;">
+        <span style="color: var(--qti-choice-4-fg);"><strong>C.</strong> only liquid <strong><span style="color: #c80085;">chromatography</span></strong> method where molecules do<strong> <strong>NOT</strong> </strong>bind to the <strong><span style="color: #c80085;">chromatography</span></strong> <strong><span style="color: #00775f;">particles</span></strong></span>
     </li>
-    <li class="draggable qti-choice-5" draggable="true" data-value="fa7a_ed18_001" title="a specific ligand is attached to the particle resin in the column" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-5-bg); display: inline-block;">
-        <span style="color: var(--qti-choice-5-fg);"><strong>D.</strong> a specific <strong><span style="color: #a719db;">ligand</span></strong> is attached to the <strong><span style="color: #00775f;">particle</span> </strong>resin in the <strong><span style="color: #d40000;">column</span></strong></span>
+    <li class="draggable qti-choice-5" draggable="true" data-value="fa7a_e6b8_002" title="separates proteins with differences in surface charge" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-5-bg); display: inline-block;">
+        <span style="color: var(--qti-choice-5-fg);"><strong>D.</strong> <strong><span style="color: #b74300;">separates</span></strong> <strong><span style="color: #007576;">proteins</span></strong> with differences in <strong><span style="color: #076dad;">surface</span></strong> charge</span>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_fa7a_ed18()">Check Answer</button>
-  <button type="button" class="md-button md-button--secondary custom-button qti-btn qti-btn-reset" onclick="resetGame_fa7a_ed18()">Reset Game</button>
-  <div id="result_fa7a_ed18" class="qti-feedback-result">&#160;</div>
+  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_fa7a_e6b8()">Check Answer</button>
+  <button type="button" class="md-button md-button--secondary custom-button qti-btn qti-btn-reset" onclick="resetGame_fa7a_e6b8()">Reset Game</button>
+  <div id="result_fa7a_e6b8" class="qti-feedback-result">&#160;</div>
   </div><script>
-    function initDragAndDrop_fa7a_ed18() {
-        const container = document.getElementById('question_html_fa7a_ed18');
+    function initDragAndDrop_fa7a_e6b8() {
+        const container = document.getElementById('question_html_fa7a_e6b8');
         if (!container) {
             return;
         }
@@ -3548,11 +3548,11 @@
             });
         });
     }
-    initDragAndDrop_fa7a_ed18();
+    initDragAndDrop_fa7a_e6b8();
   </script>
   <script>
-    function checkAnswer_fa7a_ed18() {
-        const container = document.getElementById('question_html_fa7a_ed18');
+    function checkAnswer_fa7a_e6b8() {
+        const container = document.getElementById('question_html_fa7a_e6b8');
         if (!container) {
             return;
         }
@@ -3580,8 +3580,8 @@
         });
 
         feedbackText = `Total Score: ${score} out of ${possible}`;
-        const resultDiv = document.getElementById('result_fa7a_ed18');
-        const checkBtn = document.querySelector("[onclick='checkAnswer_fa7a_ed18()']");
+        const resultDiv = document.getElementById('result_fa7a_e6b8');
+        const checkBtn = document.querySelector("[onclick='checkAnswer_fa7a_e6b8()']");
         if (score === possible) {
             resultDiv.className = 'qti-feedback-result qti-feedback-success';
             if (checkBtn) { checkBtn.disabled = true; }
@@ -3592,8 +3592,8 @@
     }
   </script>
   <script>
-    function resetGame_fa7a_ed18() {
-        const container = document.getElementById('question_html_fa7a_ed18');
+    function resetGame_fa7a_e6b8() {
+        const container = document.getElementById('question_html_fa7a_e6b8');
         if (!container) {
             return;
         }
@@ -3610,13 +3610,13 @@
             cell.textContent = "";
             cell.style.backgroundColor = "transparent";
         });
-        const resultDiv_fa7a_ed18 = document.getElementById("result_fa7a_ed18");
-        if (resultDiv_fa7a_ed18) {
-            resultDiv_fa7a_ed18.textContent = "";
-            resultDiv_fa7a_ed18.className = "qti-feedback-result";
+        const resultDiv_fa7a_e6b8 = document.getElementById("result_fa7a_e6b8");
+        if (resultDiv_fa7a_e6b8) {
+            resultDiv_fa7a_e6b8.textContent = "";
+            resultDiv_fa7a_e6b8.className = "qti-feedback-result";
         }
-        const checkBtn_fa7a_ed18 = document.querySelector("[onclick='checkAnswer_fa7a_ed18()']");
-        if (checkBtn_fa7a_ed18) { checkBtn_fa7a_ed18.disabled = false; }
+        const checkBtn_fa7a_e6b8 = document.querySelector("[onclick='checkAnswer_fa7a_e6b8()']");
+        if (checkBtn_fa7a_e6b8) { checkBtn_fa7a_e6b8.disabled = false; }
     }
   </script>
 
@@ -3657,8 +3657,8 @@
   </summary>
   <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n/* Each choice row: min 40px height for comfortable tap targets */\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  margin: 4px 0;\n  padding: 6px 4px;\n  min-height: 40px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 10px;\n  margin: 0;\n  cursor: pointer;\n}\n/* Enlarged radio/checkbox inputs: ~1.4em via width/height, transform-origin top-left keeps layout aligned */\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n  flex-shrink: 0;\n  width: 1.4em;\n  height: 1.4em;\n  cursor: pointer;\n  accent-color: var(--qti-btn-bg, #3a5acd);\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Primary filled button (Check Answer) */\n.qti-btn {\n  background-color: var(--qti-btn-bg, #3a5acd);\n  color: var(--qti-btn-fg, #ffffff);\n  border: none;\n  border-radius: 4px;\n  padding: 8px 20px;\n  font-weight: 600;\n  cursor: pointer;\n}\n.qti-btn:hover {\n  filter: brightness(1.1);\n}\n/* Disabled state: muted appearance after a correct answer (disabled attribute set by JS) */\n.qti-btn:disabled,\n.qti-btn[disabled] {\n  background-color: var(--qti-btn-disabled-bg, #aaaaaa);\n  color: var(--qti-btn-disabled-fg, #eeeeee);\n  opacity: 0.55;\n  cursor: not-allowed;\n  filter: none;\n}\n/* Secondary ghost button (Clear / Reset) */\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, transparent);\n  color: var(--qti-btn-reset-fg, #555555);\n  border: 1px solid var(--qti-btn-reset-border, #999999);\n  border-radius: 4px;\n  padding: 7px 20px;\n  cursor: pointer;\n}\n.qti-btn-reset:hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Text input styling */\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, #111111);\n  border: 1px solid var(--qti-input-border, #999999);\n  border-radius: 4px;\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n/* Responsive images: prevent RDKit/structure canvases from overflowing on mobile */\n.qti-selftest canvas,\n.qti-selftest img {\n  max-width: 100%;\n  height: auto;\n}\n/* Feedback pill: neutral base state (empty placeholder, invisible until JS sets content) */\n.qti-feedback-result {\n  display: inline-block;\n  min-height: 1.5em;\n  margin: 8px 0 8px 0;\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  vertical-align: middle;\n}\n/* Success pill */\n.qti-feedback-success {\n  display: inline-block;\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Error pill */\n.qti-feedback-error {\n  display: inline-block;\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Non-color accessibility markers (ASCII, no impact on textContent) */\n.qti-feedback-success::before { content: \"[+] \"; }\n.qti-feedback-error::before { content: \"[x] \"; }\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #4a6ee0;\n    --qti-btn-fg: #ffffff;\n    --qti-btn-disabled-bg: #555555;\n    --qti-btn-disabled-fg: #aaaaaa;\n    --qti-btn-reset-bg: transparent;\n    --qti-btn-reset-fg: #c0c0c0;\n    --qti-btn-reset-border: #777777;\n    --qti-input-bg: #2a2a2a;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #4a6ee0;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #555555;\n  --qti-btn-disabled-fg: #aaaaaa;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #c0c0c0;\n  --qti-btn-reset-border: #777777;\n  --qti-input-bg: #2a2a2a;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
   <div class="qti-selftest">
-  <div id="question_html_2166_74d9">
-  <div id="statement_text_2166_74d9"><p>Match each of the following types of macromolecules with their corresponding gel components or processes.<br><i>Note:</i> Each choice will be used exactly once.</p></div>
+  <div id="question_html_2166_a1e1">
+  <div id="statement_text_2166_a1e1"><p>Match each of the following types of macromolecules with their corresponding gel components or processes.<br><i>Note:</i> Each choice will be used exactly once.</p></div>
   <!-- Matching Table -->
   <table style="border: 1px solid var(--qti-border, #999999); border-collapse: collapse;">
   <thead><tr>
@@ -3669,19 +3669,19 @@
   <tbody>
   <tr>
   <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-            <td class="dropzone qti-dropzone" data-correct="2166_74d9_001" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+            <td class="dropzone qti-dropzone" data-correct="2166_a1e1_001" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
             <td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">1. <strong><span style="color: #007576;">Only nucleotides</span></strong>
   </td>
         </tr>
   <tr>
   <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-            <td class="dropzone qti-dropzone" data-correct="2166_74d9_002" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+            <td class="dropzone qti-dropzone" data-correct="2166_a1e1_002" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
             <td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">2. <strong><span style="color: #a719db;">Both protein and nucleotide</span></strong>
   </td>
         </tr>
   <tr>
   <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-            <td class="dropzone qti-dropzone" data-correct="2166_74d9_003" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+            <td class="dropzone qti-dropzone" data-correct="2166_a1e1_003" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
             <td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">3. <strong><span style="color: #b74300;">Only proteins</span></strong>
   </td>
         </tr>
@@ -3689,22 +3689,22 @@
   </table>
   <p style="font-style: italic; font-size: 14px; margin-top: 10px;">Drag one of the choices below:</p>
   <ul id="choiceList" style="list-style: none; padding: 0;">
-  <li class="draggable qti-choice-2" draggable="true" data-value="2166_74d9_003" title="2D gels" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-2-bg); display: inline-block;">
-        <span style="color: var(--qti-choice-2-fg);"><strong>A.</strong> <strong><span style="color: #00775f;">2D gels</span></strong></span>
+  <li class="draggable qti-choice-2" draggable="true" data-value="2166_a1e1_002" title="PAGE" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-2-bg); display: inline-block;">
+        <span style="color: var(--qti-choice-2-fg);"><strong>A.</strong> PAGE</span>
     </li>
-    <li class="draggable qti-choice-3" draggable="true" data-value="2166_74d9_002" title="acrylamide" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-3-bg); display: inline-block;">
-        <span style="color: var(--qti-choice-3-fg);"><strong>B.</strong> acrylamide</span>
+    <li class="draggable qti-choice-3" draggable="true" data-value="2166_a1e1_003" title="Coomassie blue stain" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-3-bg); display: inline-block;">
+        <span style="color: var(--qti-choice-3-fg);"><strong>B.</strong> <strong><span style="color: #003fff;">Coomassie blue stain</span></strong></span>
     </li>
-    <li class="draggable qti-choice-4" draggable="true" data-value="2166_74d9_001" title="gel red stain" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-4-bg); display: inline-block;">
-        <span style="color: var(--qti-choice-4-fg);"><strong>C.</strong> <strong><span style="color: #d40000;">gel red stain</span></strong></span>
+    <li class="draggable qti-choice-4" draggable="true" data-value="2166_a1e1_001" title="horizontally run gel" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-4-bg); display: inline-block;">
+        <span style="color: var(--qti-choice-4-fg);"><strong>C.</strong> horizontally run gel</span>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_2166_74d9()">Check Answer</button>
-  <button type="button" class="md-button md-button--secondary custom-button qti-btn qti-btn-reset" onclick="resetGame_2166_74d9()">Reset Game</button>
-  <div id="result_2166_74d9" class="qti-feedback-result">&#160;</div>
+  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_2166_a1e1()">Check Answer</button>
+  <button type="button" class="md-button md-button--secondary custom-button qti-btn qti-btn-reset" onclick="resetGame_2166_a1e1()">Reset Game</button>
+  <div id="result_2166_a1e1" class="qti-feedback-result">&#160;</div>
   </div><script>
-    function initDragAndDrop_2166_74d9() {
-        const container = document.getElementById('question_html_2166_74d9');
+    function initDragAndDrop_2166_a1e1() {
+        const container = document.getElementById('question_html_2166_a1e1');
         if (!container) {
             return;
         }
@@ -3752,11 +3752,11 @@
             });
         });
     }
-    initDragAndDrop_2166_74d9();
+    initDragAndDrop_2166_a1e1();
   </script>
   <script>
-    function checkAnswer_2166_74d9() {
-        const container = document.getElementById('question_html_2166_74d9');
+    function checkAnswer_2166_a1e1() {
+        const container = document.getElementById('question_html_2166_a1e1');
         if (!container) {
             return;
         }
@@ -3784,8 +3784,8 @@
         });
 
         feedbackText = `Total Score: ${score} out of ${possible}`;
-        const resultDiv = document.getElementById('result_2166_74d9');
-        const checkBtn = document.querySelector("[onclick='checkAnswer_2166_74d9()']");
+        const resultDiv = document.getElementById('result_2166_a1e1');
+        const checkBtn = document.querySelector("[onclick='checkAnswer_2166_a1e1()']");
         if (score === possible) {
             resultDiv.className = 'qti-feedback-result qti-feedback-success';
             if (checkBtn) { checkBtn.disabled = true; }
@@ -3796,8 +3796,8 @@
     }
   </script>
   <script>
-    function resetGame_2166_74d9() {
-        const container = document.getElementById('question_html_2166_74d9');
+    function resetGame_2166_a1e1() {
+        const container = document.getElementById('question_html_2166_a1e1');
         if (!container) {
             return;
         }
@@ -3814,13 +3814,13 @@
             cell.textContent = "";
             cell.style.backgroundColor = "transparent";
         });
-        const resultDiv_2166_74d9 = document.getElementById("result_2166_74d9");
-        if (resultDiv_2166_74d9) {
-            resultDiv_2166_74d9.textContent = "";
-            resultDiv_2166_74d9.className = "qti-feedback-result";
+        const resultDiv_2166_a1e1 = document.getElementById("result_2166_a1e1");
+        if (resultDiv_2166_a1e1) {
+            resultDiv_2166_a1e1.textContent = "";
+            resultDiv_2166_a1e1.className = "qti-feedback-result";
         }
-        const checkBtn_2166_74d9 = document.querySelector("[onclick='checkAnswer_2166_74d9()']");
-        if (checkBtn_2166_74d9) { checkBtn_2166_74d9.disabled = false; }
+        const checkBtn_2166_a1e1 = document.querySelector("[onclick='checkAnswer_2166_a1e1()']");
+        if (checkBtn_2166_a1e1) { checkBtn_2166_a1e1.disabled = false; }
     }
   </script>
 
@@ -3861,38 +3861,38 @@
   </summary>
   <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n/* Each choice row: min 40px height for comfortable tap targets */\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  margin: 4px 0;\n  padding: 6px 4px;\n  min-height: 40px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 10px;\n  margin: 0;\n  cursor: pointer;\n}\n/* Enlarged radio/checkbox inputs: ~1.4em via width/height, transform-origin top-left keeps layout aligned */\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n  flex-shrink: 0;\n  width: 1.4em;\n  height: 1.4em;\n  cursor: pointer;\n  accent-color: var(--qti-btn-bg, #3a5acd);\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Primary filled button (Check Answer) */\n.qti-btn {\n  background-color: var(--qti-btn-bg, #3a5acd);\n  color: var(--qti-btn-fg, #ffffff);\n  border: none;\n  border-radius: 4px;\n  padding: 8px 20px;\n  font-weight: 600;\n  cursor: pointer;\n}\n.qti-btn:hover {\n  filter: brightness(1.1);\n}\n/* Disabled state: muted appearance after a correct answer (disabled attribute set by JS) */\n.qti-btn:disabled,\n.qti-btn[disabled] {\n  background-color: var(--qti-btn-disabled-bg, #aaaaaa);\n  color: var(--qti-btn-disabled-fg, #eeeeee);\n  opacity: 0.55;\n  cursor: not-allowed;\n  filter: none;\n}\n/* Secondary ghost button (Clear / Reset) */\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, transparent);\n  color: var(--qti-btn-reset-fg, #555555);\n  border: 1px solid var(--qti-btn-reset-border, #999999);\n  border-radius: 4px;\n  padding: 7px 20px;\n  cursor: pointer;\n}\n.qti-btn-reset:hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Text input styling */\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, #111111);\n  border: 1px solid var(--qti-input-border, #999999);\n  border-radius: 4px;\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n/* Responsive images: prevent RDKit/structure canvases from overflowing on mobile */\n.qti-selftest canvas,\n.qti-selftest img {\n  max-width: 100%;\n  height: auto;\n}\n/* Feedback pill: neutral base state (empty placeholder, invisible until JS sets content) */\n.qti-feedback-result {\n  display: inline-block;\n  min-height: 1.5em;\n  margin: 8px 0 8px 0;\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  vertical-align: middle;\n}\n/* Success pill */\n.qti-feedback-success {\n  display: inline-block;\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Error pill */\n.qti-feedback-error {\n  display: inline-block;\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Non-color accessibility markers (ASCII, no impact on textContent) */\n.qti-feedback-success::before { content: \"[+] \"; }\n.qti-feedback-error::before { content: \"[x] \"; }\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #4a6ee0;\n    --qti-btn-fg: #ffffff;\n    --qti-btn-disabled-bg: #555555;\n    --qti-btn-disabled-fg: #aaaaaa;\n    --qti-btn-reset-bg: transparent;\n    --qti-btn-reset-fg: #c0c0c0;\n    --qti-btn-reset-border: #777777;\n    --qti-input-bg: #2a2a2a;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #4a6ee0;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #555555;\n  --qti-btn-disabled-fg: #aaaaaa;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #c0c0c0;\n  --qti-btn-reset-border: #777777;\n  --qti-input-bg: #2a2a2a;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
   <div class="qti-selftest">
-  <div id="question_html_98f2_cc9f">
-  <div id="statement_text_98f2_cc9f"><p>Which one of the following <strong><span style="color: #b74300;">cell</span> </strong>disruption techniques correspond to the description <span style="font-size: 1em;"><strong>'Ultrasonic sound energy is used to cause air bubbles in a liquid to implode, damaging the <strong><span style="color: #d40000;">cells</span></strong>.'</strong></span>.</p></div>
+  <div id="question_html_15c2_64cd">
+  <div id="statement_text_15c2_64cd"><p>Which one of the following <strong><span style="color: #b74300;">cell</span> </strong>disruption techniques correspond to the description <span style="font-size: 1em;"><strong>'Lysozyme is commonly used to digest the <strong><span style="color: #b74300;">cell</span> </strong>wall of gram-positive bacteria.'</strong></span>.</p></div>
   <form>
-  <ul id="choices_98f2_cc9f" class="qti-auto-grid-compact">
+  <ul id="choices_15c2_64cd" class="qti-auto-grid-compact">
   <li>
-      <input type="radio" id="option_98f2_cc9f_0" name="answer_98f2_cc9f" data-correct="false"><label for="option_98f2_cc9f_0"><span style="font-weight: bold;">A.</span> <span><strong><span style="color: #935d00;">Enzymatic Method</span></strong></span></label>
+      <input type="radio" id="option_15c2_64cd_0" name="answer_15c2_64cd" data-correct="false"><label for="option_15c2_64cd_0"><span style="font-weight: bold;">A.</span> <span><strong><span style="color: #007576;">Dounce Homogenizer</span></strong></span></label>
     </li>
     <li>
-      <input type="radio" id="option_98f2_cc9f_1" name="answer_98f2_cc9f" data-correct="false"><label for="option_98f2_cc9f_1"><span style="font-weight: bold;">B.</span> <span><strong><span style="color: #076dad;">Mechanical Homogenizer</span></strong></span></label>
+      <input type="radio" id="option_15c2_64cd_1" name="answer_15c2_64cd" data-correct="true"><label for="option_15c2_64cd_1"><span style="font-weight: bold;">B.</span> <span><strong><span style="color: #935d00;">Enzymatic Method</span></strong></span></label>
     </li>
     <li>
-      <input type="radio" id="option_98f2_cc9f_2" name="answer_98f2_cc9f" data-correct="false"><label for="option_98f2_cc9f_2"><span style="font-weight: bold;">C.</span> <span><strong><span style="color: #00775f;">Mortar & Pestle</span></strong></span></label>
+      <input type="radio" id="option_15c2_64cd_2" name="answer_15c2_64cd" data-correct="false"><label for="option_15c2_64cd_2"><span style="font-weight: bold;">C.</span> <span><strong><span style="color: #076dad;">Mechanical Homogenizer</span></strong></span></label>
     </li>
     <li>
-      <input type="radio" id="option_98f2_cc9f_3" name="answer_98f2_cc9f" data-correct="true"><label for="option_98f2_cc9f_3"><span style="font-weight: bold;">D.</span> <span><strong><span style="color: #3b7600;">Sonication</span></strong></span></label>
+      <input type="radio" id="option_15c2_64cd_3" name="answer_15c2_64cd" data-correct="false"><label for="option_15c2_64cd_3"><span style="font-weight: bold;">D.</span> <span><strong><span style="color: #00775f;">Mortar & Pestle</span></strong></span></label>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_98f2_cc9f()">Check Answer</button>
-  <div id="result_98f2_cc9f" class="qti-feedback-result">&#160;</div>
+  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_15c2_64cd()">Check Answer</button>
+  <div id="result_15c2_64cd" class="qti-feedback-result">&#160;</div>
   </form>
   <br>
   </div><script>
-  function checkAnswer_98f2_cc9f() {
-   const options = document.getElementsByName('answer_98f2_cc9f');
+  function checkAnswer_15c2_64cd() {
+   const options = document.getElementsByName('answer_15c2_64cd');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_98f2_cc9f');
-   const checkBtn = document.querySelector("[onclick='checkAnswer_98f2_cc9f()']");
+   const resultDiv = document.getElementById('result_15c2_64cd');
+   const checkBtn = document.querySelector("[onclick='checkAnswer_15c2_64cd()']");
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.className = 'qti-feedback-result qti-feedback-success';
@@ -3946,38 +3946,38 @@
   </summary>
   <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n/* Each choice row: min 40px height for comfortable tap targets */\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  margin: 4px 0;\n  padding: 6px 4px;\n  min-height: 40px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 10px;\n  margin: 0;\n  cursor: pointer;\n}\n/* Enlarged radio/checkbox inputs: ~1.4em via width/height, transform-origin top-left keeps layout aligned */\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n  flex-shrink: 0;\n  width: 1.4em;\n  height: 1.4em;\n  cursor: pointer;\n  accent-color: var(--qti-btn-bg, #3a5acd);\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Primary filled button (Check Answer) */\n.qti-btn {\n  background-color: var(--qti-btn-bg, #3a5acd);\n  color: var(--qti-btn-fg, #ffffff);\n  border: none;\n  border-radius: 4px;\n  padding: 8px 20px;\n  font-weight: 600;\n  cursor: pointer;\n}\n.qti-btn:hover {\n  filter: brightness(1.1);\n}\n/* Disabled state: muted appearance after a correct answer (disabled attribute set by JS) */\n.qti-btn:disabled,\n.qti-btn[disabled] {\n  background-color: var(--qti-btn-disabled-bg, #aaaaaa);\n  color: var(--qti-btn-disabled-fg, #eeeeee);\n  opacity: 0.55;\n  cursor: not-allowed;\n  filter: none;\n}\n/* Secondary ghost button (Clear / Reset) */\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, transparent);\n  color: var(--qti-btn-reset-fg, #555555);\n  border: 1px solid var(--qti-btn-reset-border, #999999);\n  border-radius: 4px;\n  padding: 7px 20px;\n  cursor: pointer;\n}\n.qti-btn-reset:hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Text input styling */\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, #111111);\n  border: 1px solid var(--qti-input-border, #999999);\n  border-radius: 4px;\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n/* Responsive images: prevent RDKit/structure canvases from overflowing on mobile */\n.qti-selftest canvas,\n.qti-selftest img {\n  max-width: 100%;\n  height: auto;\n}\n/* Feedback pill: neutral base state (empty placeholder, invisible until JS sets content) */\n.qti-feedback-result {\n  display: inline-block;\n  min-height: 1.5em;\n  margin: 8px 0 8px 0;\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  vertical-align: middle;\n}\n/* Success pill */\n.qti-feedback-success {\n  display: inline-block;\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Error pill */\n.qti-feedback-error {\n  display: inline-block;\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Non-color accessibility markers (ASCII, no impact on textContent) */\n.qti-feedback-success::before { content: \"[+] \"; }\n.qti-feedback-error::before { content: \"[x] \"; }\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #4a6ee0;\n    --qti-btn-fg: #ffffff;\n    --qti-btn-disabled-bg: #555555;\n    --qti-btn-disabled-fg: #aaaaaa;\n    --qti-btn-reset-bg: transparent;\n    --qti-btn-reset-fg: #c0c0c0;\n    --qti-btn-reset-border: #777777;\n    --qti-input-bg: #2a2a2a;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #4a6ee0;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #555555;\n  --qti-btn-disabled-fg: #aaaaaa;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #c0c0c0;\n  --qti-btn-reset-border: #777777;\n  --qti-input-bg: #2a2a2a;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
   <div class="qti-selftest">
-  <div id="question_html_77ad_03e6">
-  <div id="statement_text_77ad_03e6"><p>Which one of the following types of <strong><span style="color: #d40000;">column</span></strong> <strong><span style="color: #c80085;">chromatography</span></strong> correspond to the description <span style="font-size: 1em;"><strong>'<strong><span style="color: #b74300;">separates</span></strong> <strong><span style="color: #007576;">proteins</span></strong> on the basis of a reversible interaction between the target <strong><span style="color: #007576;">protein</span> </strong>and a specific <strong><span style="color: #a719db;">ligand</span></strong>'</strong></span>.</p></div>
+  <div id="question_html_0de8_03e6">
+  <div id="statement_text_0de8_03e6"><p>Which one of the following types of <strong><span style="color: #d40000;">column</span></strong> <strong><span style="color: #c80085;">chromatography</span></strong> correspond to the description <span style="font-size: 1em;"><strong>'<strong><span style="color: #0067cc;">charged</span></strong> <strong><span style="color: #007576;">proteins</span></strong> interact with an oppositely <strong><span style="color: #0067cc;">charged</span></strong> <strong><span style="color: #c80085;">chromatography</span></strong> <strong><span style="color: #00775f;">particle</span> </strong>resin'</strong></span>.</p></div>
   <form>
-  <ul id="choices_77ad_03e6" class="qti-auto-grid-compact">
+  <ul id="choices_0de8_03e6" class="qti-auto-grid-compact">
   <li>
-      <input type="radio" id="option_77ad_03e6_0" name="answer_77ad_03e6" data-correct="true"><label for="option_77ad_03e6_0"><span style="font-weight: bold;">A.</span> <span><strong><span style="color: #cc0066;">affinity column (AC)</span></strong></span></label>
+      <input type="radio" id="option_0de8_03e6_0" name="answer_0de8_03e6" data-correct="false"><label for="option_0de8_03e6_0"><span style="font-weight: bold;">A.</span> <span><strong><span style="color: #cc0066;">affinity column (AC)</span></strong></span></label>
     </li>
     <li>
-      <input type="radio" id="option_77ad_03e6_1" name="answer_77ad_03e6" data-correct="false"><label for="option_77ad_03e6_1"><span style="font-weight: bold;">B.</span> <span><strong><span style="color: #6c6c00;">hydrophobic interaction column (HIC)</span></strong></span></label>
+      <input type="radio" id="option_0de8_03e6_1" name="answer_0de8_03e6" data-correct="false"><label for="option_0de8_03e6_1"><span style="font-weight: bold;">B.</span> <span><strong><span style="color: #6c6c00;">hydrophobic interaction column (HIC)</span></strong></span></label>
     </li>
     <li>
-      <input type="radio" id="option_77ad_03e6_2" name="answer_77ad_03e6" data-correct="false"><label for="option_77ad_03e6_2"><span style="font-weight: bold;">C.</span> <span><strong><span style="color: #003fff;">ion exchange column (IEX)</span></strong></span></label>
+      <input type="radio" id="option_0de8_03e6_2" name="answer_0de8_03e6" data-correct="true"><label for="option_0de8_03e6_2"><span style="font-weight: bold;">C.</span> <span><strong><span style="color: #003fff;">ion exchange column (IEX)</span></strong></span></label>
     </li>
     <li>
-      <input type="radio" id="option_77ad_03e6_3" name="answer_77ad_03e6" data-correct="false"><label for="option_77ad_03e6_3"><span style="font-weight: bold;">D.</span> <span><strong><span style="color: #007a00;">size-exclusion column (SEC)</span></strong></span></label>
+      <input type="radio" id="option_0de8_03e6_3" name="answer_0de8_03e6" data-correct="false"><label for="option_0de8_03e6_3"><span style="font-weight: bold;">D.</span> <span><strong><span style="color: #007a00;">size-exclusion column (SEC)</span></strong></span></label>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_77ad_03e6()">Check Answer</button>
-  <div id="result_77ad_03e6" class="qti-feedback-result">&#160;</div>
+  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_0de8_03e6()">Check Answer</button>
+  <div id="result_0de8_03e6" class="qti-feedback-result">&#160;</div>
   </form>
   <br>
   </div><script>
-  function checkAnswer_77ad_03e6() {
-   const options = document.getElementsByName('answer_77ad_03e6');
+  function checkAnswer_0de8_03e6() {
+   const options = document.getElementsByName('answer_0de8_03e6');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_77ad_03e6');
-   const checkBtn = document.querySelector("[onclick='checkAnswer_77ad_03e6()']");
+   const resultDiv = document.getElementById('result_0de8_03e6');
+   const checkBtn = document.querySelector("[onclick='checkAnswer_0de8_03e6()']");
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.className = 'qti-feedback-result qti-feedback-success';
@@ -4113,8 +4113,8 @@
   </summary>
   <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n/* Each choice row: min 40px height for comfortable tap targets */\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  margin: 4px 0;\n  padding: 6px 4px;\n  min-height: 40px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 10px;\n  margin: 0;\n  cursor: pointer;\n}\n/* Enlarged radio/checkbox inputs: ~1.4em via width/height, transform-origin top-left keeps layout aligned */\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n  flex-shrink: 0;\n  width: 1.4em;\n  height: 1.4em;\n  cursor: pointer;\n  accent-color: var(--qti-btn-bg, #3a5acd);\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Primary filled button (Check Answer) */\n.qti-btn {\n  background-color: var(--qti-btn-bg, #3a5acd);\n  color: var(--qti-btn-fg, #ffffff);\n  border: none;\n  border-radius: 4px;\n  padding: 8px 20px;\n  font-weight: 600;\n  cursor: pointer;\n}\n.qti-btn:hover {\n  filter: brightness(1.1);\n}\n/* Disabled state: muted appearance after a correct answer (disabled attribute set by JS) */\n.qti-btn:disabled,\n.qti-btn[disabled] {\n  background-color: var(--qti-btn-disabled-bg, #aaaaaa);\n  color: var(--qti-btn-disabled-fg, #eeeeee);\n  opacity: 0.55;\n  cursor: not-allowed;\n  filter: none;\n}\n/* Secondary ghost button (Clear / Reset) */\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, transparent);\n  color: var(--qti-btn-reset-fg, #555555);\n  border: 1px solid var(--qti-btn-reset-border, #999999);\n  border-radius: 4px;\n  padding: 7px 20px;\n  cursor: pointer;\n}\n.qti-btn-reset:hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Text input styling */\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, #111111);\n  border: 1px solid var(--qti-input-border, #999999);\n  border-radius: 4px;\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n/* Responsive images: prevent RDKit/structure canvases from overflowing on mobile */\n.qti-selftest canvas,\n.qti-selftest img {\n  max-width: 100%;\n  height: auto;\n}\n/* Feedback pill: neutral base state (empty placeholder, invisible until JS sets content) */\n.qti-feedback-result {\n  display: inline-block;\n  min-height: 1.5em;\n  margin: 8px 0 8px 0;\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  vertical-align: middle;\n}\n/* Success pill */\n.qti-feedback-success {\n  display: inline-block;\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Error pill */\n.qti-feedback-error {\n  display: inline-block;\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Non-color accessibility markers (ASCII, no impact on textContent) */\n.qti-feedback-success::before { content: \"[+] \"; }\n.qti-feedback-error::before { content: \"[x] \"; }\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #4a6ee0;\n    --qti-btn-fg: #ffffff;\n    --qti-btn-disabled-bg: #555555;\n    --qti-btn-disabled-fg: #aaaaaa;\n    --qti-btn-reset-bg: transparent;\n    --qti-btn-reset-fg: #c0c0c0;\n    --qti-btn-reset-border: #777777;\n    --qti-input-bg: #2a2a2a;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #4a6ee0;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #555555;\n  --qti-btn-disabled-fg: #aaaaaa;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #c0c0c0;\n  --qti-btn-reset-border: #777777;\n  --qti-input-bg: #2a2a2a;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
   <div class="qti-selftest">
-  <div id="question_html_86a4_36d4">
-  <div id="statement_text_86a4_36d4">
+  <div id="question_html_5521_36d4">
+  <div id="statement_text_5521_36d4">
   <h6>Isoelectric Point Problem</h6> <table cellpadding="2" cellspacing="2" style="text-align:center; border: 1px solid black; font-size: 14px;">
   <tr>
   <th>Protein Name</th>
@@ -4122,39 +4122,39 @@
   <th>molecular weight</th>
   </tr>
   <tr>
-  <td>Lactalbumin (Lac)</td>
-  <td align="center">4.3</td>
-  <td align="center">13.0</td>
+  <td>Lysozyme (Lys)</td>
+  <td align="center">11.0</td>
+  <td align="center">14.4</td>
   </tr>
   </table>
-  <p>The protein in the table (above) is placed in a buffer solution with a pH of 3.0.<br>What is the correct net charge on the Lac protein at <b>pH of 3.0</b></p>?</div>
+  <p>The protein in the table (above) is placed in a buffer solution with a pH of 10.0.<br>What is the correct net charge on the Lys protein at <b>pH of 10.0</b></p>?</div>
   <form>
-  <ul id="choices_86a4_36d4">
+  <ul id="choices_5521_36d4">
   <li>
-      <input type="radio" id="option_86a4_36d4_0" name="answer_86a4_36d4" data-correct="true"><label for="option_86a4_36d4_0"><span style="font-weight: bold;">A.</span> <span>The protein will have a net <strong><span style="color: darkblue">positive (+)</span></strong> charge.</span></label>
+      <input type="radio" id="option_5521_36d4_0" name="answer_5521_36d4" data-correct="true"><label for="option_5521_36d4_0"><span style="font-weight: bold;">A.</span> <span>The protein will have a net <strong><span style="color: darkblue">positive (+)</span></strong> charge.</span></label>
     </li>
     <li>
-      <input type="radio" id="option_86a4_36d4_1" name="answer_86a4_36d4" data-correct="false"><label for="option_86a4_36d4_1"><span style="font-weight: bold;">B.</span> <span>The protein will have a net <strong><span style="color: darkred">negative (&#8211;)</span></strong> charge.</span></label>
+      <input type="radio" id="option_5521_36d4_1" name="answer_5521_36d4" data-correct="false"><label for="option_5521_36d4_1"><span style="font-weight: bold;">B.</span> <span>The protein will have a net <strong><span style="color: darkred">negative (&#8211;)</span></strong> charge.</span></label>
     </li>
     <li>
-      <input type="radio" id="option_86a4_36d4_2" name="answer_86a4_36d4" data-correct="false"><label for="option_86a4_36d4_2"><span style="font-weight: bold;">C.</span> <span>The protein will have a net <strong><span style="color: goldenrod">neutral (0)</span></strong> charge.</span></label>
+      <input type="radio" id="option_5521_36d4_2" name="answer_5521_36d4" data-correct="false"><label for="option_5521_36d4_2"><span style="font-weight: bold;">C.</span> <span>The protein will have a net <strong><span style="color: goldenrod">neutral (0)</span></strong> charge.</span></label>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_86a4_36d4()">Check Answer</button>
-  <div id="result_86a4_36d4" class="qti-feedback-result">&#160;</div>
+  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_5521_36d4()">Check Answer</button>
+  <div id="result_5521_36d4" class="qti-feedback-result">&#160;</div>
   </form>
   <br>
   </div><script>
-  function checkAnswer_86a4_36d4() {
-   const options = document.getElementsByName('answer_86a4_36d4');
+  function checkAnswer_5521_36d4() {
+   const options = document.getElementsByName('answer_5521_36d4');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_86a4_36d4');
-   const checkBtn = document.querySelector("[onclick='checkAnswer_86a4_36d4()']");
+   const resultDiv = document.getElementById('result_5521_36d4');
+   const checkBtn = document.querySelector("[onclick='checkAnswer_5521_36d4()']");
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.className = 'qti-feedback-result qti-feedback-success';
@@ -4208,8 +4208,8 @@
   </summary>
   <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n/* Each choice row: min 40px height for comfortable tap targets */\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  margin: 4px 0;\n  padding: 6px 4px;\n  min-height: 40px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 10px;\n  margin: 0;\n  cursor: pointer;\n}\n/* Enlarged radio/checkbox inputs: ~1.4em via width/height, transform-origin top-left keeps layout aligned */\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n  flex-shrink: 0;\n  width: 1.4em;\n  height: 1.4em;\n  cursor: pointer;\n  accent-color: var(--qti-btn-bg, #3a5acd);\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Primary filled button (Check Answer) */\n.qti-btn {\n  background-color: var(--qti-btn-bg, #3a5acd);\n  color: var(--qti-btn-fg, #ffffff);\n  border: none;\n  border-radius: 4px;\n  padding: 8px 20px;\n  font-weight: 600;\n  cursor: pointer;\n}\n.qti-btn:hover {\n  filter: brightness(1.1);\n}\n/* Disabled state: muted appearance after a correct answer (disabled attribute set by JS) */\n.qti-btn:disabled,\n.qti-btn[disabled] {\n  background-color: var(--qti-btn-disabled-bg, #aaaaaa);\n  color: var(--qti-btn-disabled-fg, #eeeeee);\n  opacity: 0.55;\n  cursor: not-allowed;\n  filter: none;\n}\n/* Secondary ghost button (Clear / Reset) */\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, transparent);\n  color: var(--qti-btn-reset-fg, #555555);\n  border: 1px solid var(--qti-btn-reset-border, #999999);\n  border-radius: 4px;\n  padding: 7px 20px;\n  cursor: pointer;\n}\n.qti-btn-reset:hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Text input styling */\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, #111111);\n  border: 1px solid var(--qti-input-border, #999999);\n  border-radius: 4px;\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n/* Responsive images: prevent RDKit/structure canvases from overflowing on mobile */\n.qti-selftest canvas,\n.qti-selftest img {\n  max-width: 100%;\n  height: auto;\n}\n/* Feedback pill: neutral base state (empty placeholder, invisible until JS sets content) */\n.qti-feedback-result {\n  display: inline-block;\n  min-height: 1.5em;\n  margin: 8px 0 8px 0;\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  vertical-align: middle;\n}\n/* Success pill */\n.qti-feedback-success {\n  display: inline-block;\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Error pill */\n.qti-feedback-error {\n  display: inline-block;\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Non-color accessibility markers (ASCII, no impact on textContent) */\n.qti-feedback-success::before { content: \"[+] \"; }\n.qti-feedback-error::before { content: \"[x] \"; }\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #4a6ee0;\n    --qti-btn-fg: #ffffff;\n    --qti-btn-disabled-bg: #555555;\n    --qti-btn-disabled-fg: #aaaaaa;\n    --qti-btn-reset-bg: transparent;\n    --qti-btn-reset-fg: #c0c0c0;\n    --qti-btn-reset-border: #777777;\n    --qti-input-bg: #2a2a2a;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #4a6ee0;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #555555;\n  --qti-btn-disabled-fg: #aaaaaa;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #c0c0c0;\n  --qti-btn-reset-border: #777777;\n  --qti-input-bg: #2a2a2a;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
   <div class="qti-selftest">
-  <div id="question_html_27e9_1047">
-  <div id="statement_text_27e9_1047">
+  <div id="question_html_fc2a_98c0">
+  <div id="statement_text_fc2a_98c0">
   <h6>Isoelectric Point Problem</h6> <p>A protein's isoelectric point (pI) is the pH at which it carries no net charge. When placed in a pH environment different from its pI, the protein will acquire a net charge and migrate in an electric field accordingly.<br>A mixture of two proteins are to be separated by isoelectric focusing.</p> <table cellpadding="2" cellspacing="2" style="text-align:center; border: 1px solid black;">
   <tr>
   <th>Protein<br>Name</th>
@@ -4217,48 +4217,48 @@
   <th>Molecular<br>Weight</th>
   </tr>
   <tr>
-  <td>Aldehyde Dehydrogenase (Alde)</td>
-  <td align="right">5.3</td>
-  <td align="right">53.0</td>
+  <td>Casein (Cas)</td>
+  <td align="right">4.9</td>
+  <td align="right">24.0</td>
   </tr>
   <tr>
-  <td>Myelin Basic Protein (MBP)</td>
-  <td align="right">9.5</td>
-  <td align="right">18.0</td>
+  <td>Immunoglobulin (IgG)</td>
+  <td align="right">7.3</td>
+  <td align="right">145.0</td>
   </tr>
   </table>
-  <p>Both protein samples are placed into a gel with a constant pH of 10.5. The gel is then placed into an electric field.<br>In which direction will each protein in the table migrate at <b>pH 10.5</b>?</p>
+  <p>Both protein samples are placed into a gel with a constant pH of 8.5. The gel is then placed into an electric field.<br>In which direction will each protein in the table migrate at <b>pH 8.5</b>?</p>
   </div>
   <form>
-  <ul id="choices_27e9_1047">
+  <ul id="choices_fc2a_98c0">
   <li>
-      <input type="radio" id="option_27e9_1047_0" name="answer_27e9_1047" data-correct="true"><label for="option_27e9_1047_0"><span style="font-weight: bold;">A.</span> <span>Both Alde and MBP will have a <span style="color:darkred">negative (&#8211;)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal</span></label>
+      <input type="radio" id="option_fc2a_98c0_0" name="answer_fc2a_98c0" data-correct="true"><label for="option_fc2a_98c0_0"><span style="font-weight: bold;">A.</span> <span>Both Cas and IgG will have a <span style="color:darkred">negative (&#8211;)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal</span></label>
     </li>
     <li>
-      <input type="radio" id="option_27e9_1047_1" name="answer_27e9_1047" data-correct="false"><label for="option_27e9_1047_1"><span style="font-weight: bold;">B.</span> <span>Both Alde and MBP will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (&#8211;)</span> terminal</span></label>
+      <input type="radio" id="option_fc2a_98c0_1" name="answer_fc2a_98c0" data-correct="false"><label for="option_fc2a_98c0_1"><span style="font-weight: bold;">B.</span> <span>Both Cas and IgG will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (&#8211;)</span> terminal</span></label>
     </li>
     <li>
-      <input type="radio" id="option_27e9_1047_2" name="answer_27e9_1047" data-correct="false"><label for="option_27e9_1047_2"><span style="font-weight: bold;">C.</span> <span>Alde will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (&#8211;)</span> terminal<br> MBP will have a <span style="color:darkred">negative (&#8211;)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal</span></label>
+      <input type="radio" id="option_fc2a_98c0_2" name="answer_fc2a_98c0" data-correct="false"><label for="option_fc2a_98c0_2"><span style="font-weight: bold;">C.</span> <span>Cas will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (&#8211;)</span> terminal<br> IgG will have a <span style="color:darkred">negative (&#8211;)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal</span></label>
     </li>
     <li>
-      <input type="radio" id="option_27e9_1047_3" name="answer_27e9_1047" data-correct="false"><label for="option_27e9_1047_3"><span style="font-weight: bold;">D.</span> <span>Alde will have a <span style="color:darkred">negative (&#8211;)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal<br> MBP will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (&#8211;)</span> terminal</span></label>
+      <input type="radio" id="option_fc2a_98c0_3" name="answer_fc2a_98c0" data-correct="false"><label for="option_fc2a_98c0_3"><span style="font-weight: bold;">D.</span> <span>Cas will have a <span style="color:darkred">negative (&#8211;)</span> charge and travel towards the <span style="color:darkblue">positive (+)</span> terminal<br> IgG will have a <span style="color:darkblue">positive (+)</span> charge and travel towards the <span style="color:darkred">negative (&#8211;)</span> terminal</span></label>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_27e9_1047()">Check Answer</button>
-  <div id="result_27e9_1047" class="qti-feedback-result">&#160;</div>
+  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_fc2a_98c0()">Check Answer</button>
+  <div id="result_fc2a_98c0" class="qti-feedback-result">&#160;</div>
   </form>
   <br>
   </div><script>
-  function checkAnswer_27e9_1047() {
-   const options = document.getElementsByName('answer_27e9_1047');
+  function checkAnswer_fc2a_98c0() {
+   const options = document.getElementsByName('answer_fc2a_98c0');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_27e9_1047');
-   const checkBtn = document.querySelector("[onclick='checkAnswer_27e9_1047()']");
+   const resultDiv = document.getElementById('result_fc2a_98c0');
+   const checkBtn = document.querySelector("[onclick='checkAnswer_fc2a_98c0()']");
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.className = 'qti-feedback-result qti-feedback-success';
@@ -4312,9 +4312,9 @@
   </summary>
   <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n/* Each choice row: min 40px height for comfortable tap targets */\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  margin: 4px 0;\n  padding: 6px 4px;\n  min-height: 40px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 10px;\n  margin: 0;\n  cursor: pointer;\n}\n/* Enlarged radio/checkbox inputs: ~1.4em via width/height, transform-origin top-left keeps layout aligned */\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n  flex-shrink: 0;\n  width: 1.4em;\n  height: 1.4em;\n  cursor: pointer;\n  accent-color: var(--qti-btn-bg, #3a5acd);\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Primary filled button (Check Answer) */\n.qti-btn {\n  background-color: var(--qti-btn-bg, #3a5acd);\n  color: var(--qti-btn-fg, #ffffff);\n  border: none;\n  border-radius: 4px;\n  padding: 8px 20px;\n  font-weight: 600;\n  cursor: pointer;\n}\n.qti-btn:hover {\n  filter: brightness(1.1);\n}\n/* Disabled state: muted appearance after a correct answer (disabled attribute set by JS) */\n.qti-btn:disabled,\n.qti-btn[disabled] {\n  background-color: var(--qti-btn-disabled-bg, #aaaaaa);\n  color: var(--qti-btn-disabled-fg, #eeeeee);\n  opacity: 0.55;\n  cursor: not-allowed;\n  filter: none;\n}\n/* Secondary ghost button (Clear / Reset) */\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, transparent);\n  color: var(--qti-btn-reset-fg, #555555);\n  border: 1px solid var(--qti-btn-reset-border, #999999);\n  border-radius: 4px;\n  padding: 7px 20px;\n  cursor: pointer;\n}\n.qti-btn-reset:hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Text input styling */\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, #111111);\n  border: 1px solid var(--qti-input-border, #999999);\n  border-radius: 4px;\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n/* Responsive images: prevent RDKit/structure canvases from overflowing on mobile */\n.qti-selftest canvas,\n.qti-selftest img {\n  max-width: 100%;\n  height: auto;\n}\n/* Feedback pill: neutral base state (empty placeholder, invisible until JS sets content) */\n.qti-feedback-result {\n  display: inline-block;\n  min-height: 1.5em;\n  margin: 8px 0 8px 0;\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  vertical-align: middle;\n}\n/* Success pill */\n.qti-feedback-success {\n  display: inline-block;\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Error pill */\n.qti-feedback-error {\n  display: inline-block;\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Non-color accessibility markers (ASCII, no impact on textContent) */\n.qti-feedback-success::before { content: \"[+] \"; }\n.qti-feedback-error::before { content: \"[x] \"; }\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #4a6ee0;\n    --qti-btn-fg: #ffffff;\n    --qti-btn-disabled-bg: #555555;\n    --qti-btn-disabled-fg: #aaaaaa;\n    --qti-btn-reset-bg: transparent;\n    --qti-btn-reset-fg: #c0c0c0;\n    --qti-btn-reset-border: #777777;\n    --qti-input-bg: #2a2a2a;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #4a6ee0;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #555555;\n  --qti-btn-disabled-fg: #aaaaaa;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #c0c0c0;\n  --qti-btn-reset-border: #777777;\n  --qti-input-bg: #2a2a2a;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
   <div class="qti-selftest">
-  <div id="question_html_fdf4_b614">
-  <div id="statement_text_fdf4_b614">
-  <p>Below is a simulated SDS&#8211;PAGE gel.<br>Lane 1 contains a Kaleidoscope-style pre-stained protein ladder.<br>Lane 2 contains a single band labeled <b>Protein X17</b>.<br>The gel was run for <b>too long</b> a time (some small bands may run off the bottom).<br><b>Standard ladder reference (kDa):</b></p>
+  <div id="question_html_4634_3928">
+  <div id="statement_text_4634_3928">
+  <p>Below is a simulated SDS&#8211;PAGE gel.<br>Lane 1 contains a Kaleidoscope-style pre-stained protein ladder.<br>Lane 2 contains a single band labeled <b>Protein X17</b>.<br>The gel was run for a typical amount of time.<br><b>Standard ladder reference (kDa):</b></p>
   <div style="display:inline-block; height:340px;"><table cellspacing="0" cellpadding="0" style="height:100%; border-spacing: 0; border-collapse: collapse; border: 1px solid black; display: inline-block; background-color: #fff;">
   <tr>
   <td style="width:15px; height:24px;"></td>
@@ -4513,54 +4513,57 @@
   <div style="margin-bottom:6px;"><b>Lane 1</b></div>
   <div style="position:relative; width:72px; height:340px; border:2px solid #000; background-color:#f7f7f7;">
   <div style="position:absolute; left:6px; right:6px; top:24.0px; height:8px; background-color:#99dbfb; border:1px solid #000;"></div>
-  <div style="position:absolute; left:6px; right:6px; top:90.0px; height:8px; background-color:#adafdf; border:1px solid #000;"></div>
-  <div style="position:absolute; left:6px; right:6px; top:142.4px; height:8px; background-color:#83c6ee; border:1px solid #000;"></div>
-  <div style="position:absolute; left:6px; right:6px; top:179.6px; height:8px; background-color:#feacd6; border:1px solid #000;"></div>
-  <div style="position:absolute; left:6px; right:6px; top:232.0px; height:8px; background-color:#80caf1; border:1px solid #000;"></div>
-  <div style="position:absolute; left:6px; right:6px; top:270.9px; height:8px; background-color:#9adb7f; border:1px solid #000;"></div>
-  <div style="position:absolute; left:6px; right:6px; top:321.6px; height:8px; background-color:#ffbbdc; border:1px solid #000;"></div>
+  <div style="position:absolute; left:6px; right:6px; top:69.4px; height:8px; background-color:#adafdf; border:1px solid #000;"></div>
+  <div style="position:absolute; left:6px; right:6px; top:105.5px; height:8px; background-color:#83c6ee; border:1px solid #000;"></div>
+  <div style="position:absolute; left:6px; right:6px; top:131.1px; height:8px; background-color:#feacd6; border:1px solid #000;"></div>
+  <div style="position:absolute; left:6px; right:6px; top:167.2px; height:8px; background-color:#80caf1; border:1px solid #000;"></div>
+  <div style="position:absolute; left:6px; right:6px; top:194.0px; height:8px; background-color:#9adb7f; border:1px solid #000;"></div>
+  <div style="position:absolute; left:6px; right:6px; top:228.8px; height:8px; background-color:#ffbbdc; border:1px solid #000;"></div>
+  <div style="position:absolute; left:6px; right:6px; top:248.7px; height:8px; background-color:#6dbfec; border:1px solid #000;"></div>
+  <div style="position:absolute; left:6px; right:6px; top:274.3px; height:8px; background-color:#b3def6; border:1px solid #000;"></div>
+  <div style="position:absolute; left:6px; right:6px; top:310.3px; height:8px; background-color:#ffee00; border:1px solid #000;"></div>
   </div>
   </div>
   <div style="text-align:center; font-family:Arial, sans-serif;">
   <div style="margin-bottom:6px;"><b>Lane 2</b></div>
-  <div style="position:relative; width:72px; height:340px; border:2px solid #000; background-color:#f7f7f7;"><div style="position:absolute; left:6px; right:6px; top:260.8px; height:8px; background-color:#111111; border:1px solid #000;"></div></div>
+  <div style="position:relative; width:72px; height:340px; border:2px solid #000; background-color:#f7f7f7;"><div style="position:absolute; left:6px; right:6px; top:212.6px; height:8px; background-color:#111111; border:1px solid #000;"></div></div>
   </div>
   </div>
   <p><b>Which protein (name and molecular weight) best matches Protein X17?</b><br><i>Use the ladder to estimate the band size. You do not need outside knowledge about the proteins.</i></p>
   </div>
   <form>
-  <ul id="choices_fdf4_b614" class="qti-auto-grid-compact">
+  <ul id="choices_4634_3928" class="qti-auto-grid-compact">
   <li>
-      <input type="radio" id="option_fdf4_b614_0" name="answer_fdf4_b614" data-correct="false"><label for="option_fdf4_b614_0"><span style="font-weight: bold;">A.</span> <span>Estrogen Binding Protein (115.0 kDa)</span></label>
+      <input type="radio" id="option_4634_3928_0" name="answer_4634_3928" data-correct="false"><label for="option_4634_3928_0"><span style="font-weight: bold;">A.</span> <span>Serine Protease (22.0 kDa)</span></label>
     </li>
     <li>
-      <input type="radio" id="option_fdf4_b614_1" name="answer_fdf4_b614" data-correct="true"><label for="option_fdf4_b614_1"><span style="font-weight: bold;">B.</span> <span>Epidermal Growth Factor (40.0 kDa)</span></label>
+      <input type="radio" id="option_4634_3928_1" name="answer_4634_3928" data-correct="false"><label for="option_4634_3928_1"><span style="font-weight: bold;">B.</span> <span>Myelin Basic Protein (18.0 kDa)</span></label>
     </li>
     <li>
-      <input type="radio" id="option_fdf4_b614_2" name="answer_fdf4_b614" data-correct="false"><label for="option_fdf4_b614_2"><span style="font-weight: bold;">C.</span> <span>Transferrin (80.0 kDa)</span></label>
+      <input type="radio" id="option_4634_3928_2" name="answer_4634_3928" data-correct="true"><label for="option_4634_3928_2"><span style="font-weight: bold;">C.</span> <span>Prostate-Specific Antigen (30.0 kDa)</span></label>
     </li>
     <li>
-      <input type="radio" id="option_fdf4_b614_3" name="answer_fdf4_b614" data-correct="false"><label for="option_fdf4_b614_3"><span style="font-weight: bold;">D.</span> <span>Horseradish peroxidase (34.0 kDa)</span></label>
+      <input type="radio" id="option_4634_3928_3" name="answer_4634_3928" data-correct="false"><label for="option_4634_3928_3"><span style="font-weight: bold;">D.</span> <span>Ovalbumin (45.0 kDa)</span></label>
     </li>
     <li>
-      <input type="radio" id="option_fdf4_b614_4" name="answer_fdf4_b614" data-correct="false"><label for="option_fdf4_b614_4"><span style="font-weight: bold;">E.</span> <span>DNA Ligase (60.0 kDa)</span></label>
+      <input type="radio" id="option_4634_3928_4" name="answer_4634_3928" data-correct="false"><label for="option_4634_3928_4"><span style="font-weight: bold;">E.</span> <span>DNA Ligase (60.0 kDa)</span></label>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_fdf4_b614()">Check Answer</button>
-  <div id="result_fdf4_b614" class="qti-feedback-result">&#160;</div>
+  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_4634_3928()">Check Answer</button>
+  <div id="result_4634_3928" class="qti-feedback-result">&#160;</div>
   </form>
   <br>
   </div><script>
-  function checkAnswer_fdf4_b614() {
-   const options = document.getElementsByName('answer_fdf4_b614');
+  function checkAnswer_4634_3928() {
+   const options = document.getElementsByName('answer_4634_3928');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_fdf4_b614');
-   const checkBtn = document.querySelector("[onclick='checkAnswer_fdf4_b614()']");
+   const resultDiv = document.getElementById('result_4634_3928');
+   const checkBtn = document.querySelector("[onclick='checkAnswer_4634_3928()']");
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.className = 'qti-feedback-result qti-feedback-success';
@@ -4614,8 +4617,8 @@
   </summary>
   <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n/* Each choice row: min 40px height for comfortable tap targets */\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  margin: 4px 0;\n  padding: 6px 4px;\n  min-height: 40px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 10px;\n  margin: 0;\n  cursor: pointer;\n}\n/* Enlarged radio/checkbox inputs: ~1.4em via width/height, transform-origin top-left keeps layout aligned */\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n  flex-shrink: 0;\n  width: 1.4em;\n  height: 1.4em;\n  cursor: pointer;\n  accent-color: var(--qti-btn-bg, #3a5acd);\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Primary filled button (Check Answer) */\n.qti-btn {\n  background-color: var(--qti-btn-bg, #3a5acd);\n  color: var(--qti-btn-fg, #ffffff);\n  border: none;\n  border-radius: 4px;\n  padding: 8px 20px;\n  font-weight: 600;\n  cursor: pointer;\n}\n.qti-btn:hover {\n  filter: brightness(1.1);\n}\n/* Disabled state: muted appearance after a correct answer (disabled attribute set by JS) */\n.qti-btn:disabled,\n.qti-btn[disabled] {\n  background-color: var(--qti-btn-disabled-bg, #aaaaaa);\n  color: var(--qti-btn-disabled-fg, #eeeeee);\n  opacity: 0.55;\n  cursor: not-allowed;\n  filter: none;\n}\n/* Secondary ghost button (Clear / Reset) */\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, transparent);\n  color: var(--qti-btn-reset-fg, #555555);\n  border: 1px solid var(--qti-btn-reset-border, #999999);\n  border-radius: 4px;\n  padding: 7px 20px;\n  cursor: pointer;\n}\n.qti-btn-reset:hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Text input styling */\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, #111111);\n  border: 1px solid var(--qti-input-border, #999999);\n  border-radius: 4px;\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n/* Responsive images: prevent RDKit/structure canvases from overflowing on mobile */\n.qti-selftest canvas,\n.qti-selftest img {\n  max-width: 100%;\n  height: auto;\n}\n/* Feedback pill: neutral base state (empty placeholder, invisible until JS sets content) */\n.qti-feedback-result {\n  display: inline-block;\n  min-height: 1.5em;\n  margin: 8px 0 8px 0;\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  vertical-align: middle;\n}\n/* Success pill */\n.qti-feedback-success {\n  display: inline-block;\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Error pill */\n.qti-feedback-error {\n  display: inline-block;\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Non-color accessibility markers (ASCII, no impact on textContent) */\n.qti-feedback-success::before { content: \"[+] \"; }\n.qti-feedback-error::before { content: \"[x] \"; }\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #4a6ee0;\n    --qti-btn-fg: #ffffff;\n    --qti-btn-disabled-bg: #555555;\n    --qti-btn-disabled-fg: #aaaaaa;\n    --qti-btn-reset-bg: transparent;\n    --qti-btn-reset-fg: #c0c0c0;\n    --qti-btn-reset-border: #777777;\n    --qti-input-bg: #2a2a2a;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #4a6ee0;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #555555;\n  --qti-btn-disabled-fg: #aaaaaa;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #c0c0c0;\n  --qti-btn-reset-border: #777777;\n  --qti-input-bg: #2a2a2a;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
   <div class="qti-selftest">
-  <div id="question_html_266e_aac6">
-  <div id="statement_text_266e_aac6">
+  <div id="question_html_338a_c4e5">
+  <div id="statement_text_338a_c4e5">
   <h6>Gel Migration Problem</h6> <p>In this task, data from an SDS-PAGE experiment, where proteins are separated based on molecular weight, is provided. The gel results table below shows some standard proteins with known molecular weights and one unknown protein.<br></p>
   <table cellpadding="2" cellspacing="2" style="text-align:center; border: 2px solid black; font-size: 14px;">
   <tr style="background-color: #f2f2f2; border-bottom: 3px solid grey;">
@@ -4624,24 +4627,24 @@
   <th>Migration<br>Distance (cm)</th>
   </tr>
   <tr>
-  <td>Streptavidin (Stp)</td>
-  <td align="center">13.2</td>
-  <td align="center">3.44</td>
+  <td>Lysozyme (Lys)</td>
+  <td align="center">14.4</td>
+  <td align="center">3.37</td>
   </tr>
   <tr>
-  <td>Avidin (Av)</td>
-  <td align="center">16.9</td>
-  <td align="center">3.24</td>
+  <td>Myoglobin (Myo)</td>
+  <td align="center">18.0</td>
+  <td align="center">3.19</td>
   </tr>
   <tr>
-  <td>Agglutinin (Agg)</td>
-  <td align="center">22.0</td>
-  <td align="center">3.03</td>
+  <td>Trypsin (Tryp)</td>
+  <td align="center">23.5</td>
+  <td align="center">2.97</td>
   </tr>
   <tr>
-  <td>Urease A (Ure)</td>
-  <td align="center">26.5</td>
-  <td align="center">2.88</td>
+  <td>Green Fluorescent Protein (GFP)</td>
+  <td align="center">28.0</td>
+  <td align="center">2.83</td>
   </tr>
   <tr>
   <td>Lipase (Lip)</td>
@@ -4649,53 +4652,56 @@
   <td align="center">2.55</td>
   </tr>
   <tr>
-  <td>Fumerase (Fum)</td>
-  <td align="center">48.5</td>
-  <td align="center">2.39</td>
+  <td>Neuraminidase (Neu)</td>
+  <td align="center">50.0</td>
+  <td align="center">2.37</td>
   </tr>
   <tr>
-  <td>Fibrinogen (Fib)</td>
-  <td align="center">63.5</td>
-  <td align="center">2.18</td>
+  <td>Catalase (Cat)</td>
+  <td align="center">65.5</td>
+  <td align="center">2.15</td>
   </tr>
   <tr style="border-top: 3px double gray; background-color: #fffacd;">
-  <td>Unknown</td> <td align="center"><strong>?</strong></td> <td align="center">3.31</td>
+  <td>Unknown</td> <td align="center"><strong>?</strong></td> <td align="center">2.25</td>
   </tr>
   </table>
   <br>Estimate the molecular weight of the unknown protein by comparing its gel migration distance with those of the standards.</div>
   <form>
-  <ul id="choices_266e_aac6" class="qti-auto-grid-compact">
+  <ul id="choices_338a_c4e5" class="qti-auto-grid">
   <li>
-      <input type="radio" id="option_266e_aac6_0" name="answer_266e_aac6" data-correct="true"><label for="option_266e_aac6_0"><span style="font-weight: bold;">A.</span> <span>15 kDa</span></label>
+      <input type="radio" id="option_338a_c4e5_0" name="answer_338a_c4e5" data-correct="false"><label for="option_338a_c4e5_0"><span style="font-weight: bold;">A.</span> <span>17 kDa</span></label>
     </li>
     <li>
-      <input type="radio" id="option_266e_aac6_1" name="answer_266e_aac6" data-correct="false"><label for="option_266e_aac6_1"><span style="font-weight: bold;">B.</span> <span>19 kDa</span></label>
+      <input type="radio" id="option_338a_c4e5_1" name="answer_338a_c4e5" data-correct="false"><label for="option_338a_c4e5_1"><span style="font-weight: bold;">B.</span> <span>20 kDa</span></label>
     </li>
     <li>
-      <input type="radio" id="option_266e_aac6_2" name="answer_266e_aac6" data-correct="false"><label for="option_266e_aac6_2"><span style="font-weight: bold;">C.</span> <span>25 kDa</span></label>
+      <input type="radio" id="option_338a_c4e5_2" name="answer_338a_c4e5" data-correct="false"><label for="option_338a_c4e5_2"><span style="font-weight: bold;">C.</span> <span>25 kDa</span></label>
     </li>
     <li>
-      <input type="radio" id="option_266e_aac6_3" name="answer_266e_aac6" data-correct="false"><label for="option_266e_aac6_3"><span style="font-weight: bold;">D.</span> <span>32 kDa</span></label>
+      <input type="radio" id="option_338a_c4e5_3" name="answer_338a_c4e5" data-correct="false"><label for="option_338a_c4e5_3"><span style="font-weight: bold;">D.</span> <span>36 kDa</span></label>
     </li>
     <li>
-      <input type="radio" id="option_266e_aac6_4" name="answer_266e_aac6" data-correct="false"><label for="option_266e_aac6_4"><span style="font-weight: bold;">E.</span> <span>45 kDa</span></label>
+      <input type="radio" id="option_338a_c4e5_4" name="answer_338a_c4e5" data-correct="false"><label for="option_338a_c4e5_4"><span style="font-weight: bold;">E.</span> <span>47 kDa</span></label>
+    </li>
+    <li>
+      <input type="radio" id="option_338a_c4e5_5" name="answer_338a_c4e5" data-correct="true"><label for="option_338a_c4e5_5"><span style="font-weight: bold;">F.</span> <span>58 kDa</span></label>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_266e_aac6()">Check Answer</button>
-  <div id="result_266e_aac6" class="qti-feedback-result">&#160;</div>
+  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_338a_c4e5()">Check Answer</button>
+  <div id="result_338a_c4e5" class="qti-feedback-result">&#160;</div>
   </form>
   <br>
   </div><script>
-  function checkAnswer_266e_aac6() {
-   const options = document.getElementsByName('answer_266e_aac6');
+  function checkAnswer_338a_c4e5() {
+   const options = document.getElementsByName('answer_338a_c4e5');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_266e_aac6');
-   const checkBtn = document.querySelector("[onclick='checkAnswer_266e_aac6()']");
+   const resultDiv = document.getElementById('result_338a_c4e5');
+   const checkBtn = document.querySelector("[onclick='checkAnswer_338a_c4e5()']");
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.className = 'qti-feedback-result qti-feedback-success';
@@ -4749,52 +4755,52 @@
   </summary>
   <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n/* Each choice row: min 40px height for comfortable tap targets */\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  margin: 4px 0;\n  padding: 6px 4px;\n  min-height: 40px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 10px;\n  margin: 0;\n  cursor: pointer;\n}\n/* Enlarged radio/checkbox inputs: ~1.4em via width/height, transform-origin top-left keeps layout aligned */\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n  flex-shrink: 0;\n  width: 1.4em;\n  height: 1.4em;\n  cursor: pointer;\n  accent-color: var(--qti-btn-bg, #3a5acd);\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Primary filled button (Check Answer) */\n.qti-btn {\n  background-color: var(--qti-btn-bg, #3a5acd);\n  color: var(--qti-btn-fg, #ffffff);\n  border: none;\n  border-radius: 4px;\n  padding: 8px 20px;\n  font-weight: 600;\n  cursor: pointer;\n}\n.qti-btn:hover {\n  filter: brightness(1.1);\n}\n/* Disabled state: muted appearance after a correct answer (disabled attribute set by JS) */\n.qti-btn:disabled,\n.qti-btn[disabled] {\n  background-color: var(--qti-btn-disabled-bg, #aaaaaa);\n  color: var(--qti-btn-disabled-fg, #eeeeee);\n  opacity: 0.55;\n  cursor: not-allowed;\n  filter: none;\n}\n/* Secondary ghost button (Clear / Reset) */\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, transparent);\n  color: var(--qti-btn-reset-fg, #555555);\n  border: 1px solid var(--qti-btn-reset-border, #999999);\n  border-radius: 4px;\n  padding: 7px 20px;\n  cursor: pointer;\n}\n.qti-btn-reset:hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Text input styling */\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, #111111);\n  border: 1px solid var(--qti-input-border, #999999);\n  border-radius: 4px;\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n/* Responsive images: prevent RDKit/structure canvases from overflowing on mobile */\n.qti-selftest canvas,\n.qti-selftest img {\n  max-width: 100%;\n  height: auto;\n}\n/* Feedback pill: neutral base state (empty placeholder, invisible until JS sets content) */\n.qti-feedback-result {\n  display: inline-block;\n  min-height: 1.5em;\n  margin: 8px 0 8px 0;\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  vertical-align: middle;\n}\n/* Success pill */\n.qti-feedback-success {\n  display: inline-block;\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Error pill */\n.qti-feedback-error {\n  display: inline-block;\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Non-color accessibility markers (ASCII, no impact on textContent) */\n.qti-feedback-success::before { content: \"[+] \"; }\n.qti-feedback-error::before { content: \"[x] \"; }\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #4a6ee0;\n    --qti-btn-fg: #ffffff;\n    --qti-btn-disabled-bg: #555555;\n    --qti-btn-disabled-fg: #aaaaaa;\n    --qti-btn-reset-bg: transparent;\n    --qti-btn-reset-fg: #c0c0c0;\n    --qti-btn-reset-border: #777777;\n    --qti-input-bg: #2a2a2a;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #4a6ee0;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #555555;\n  --qti-btn-disabled-fg: #aaaaaa;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #c0c0c0;\n  --qti-btn-reset-border: #777777;\n  --qti-input-bg: #2a2a2a;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
   <div class="qti-selftest">
-  <div id="question_html_40b2_c0c0">
-  <div id="statement_text_40b2_c0c0">
+  <div id="question_html_45ab_f2ba">
+  <div id="statement_text_45ab_f2ba">
   <h6>Isoelectric Point from Titration Curve</h6> <p>Below are four protonation states of a hypothetical molecule, shown in order as the solution is titrated from low pH to high pH.</p> <table style="border-collapse:collapse;"><tr>
   <td style="padding:4px;"><div style="border:1px solid #ccc;border-radius:10px;padding:8px 10px;min-width:160px;background:#fff;">
   <div style="text-align:center;font-size:13px;font-weight:700;margin-bottom:6px;">State 1</div>
   <div style="position:relative;height:72px;">
-  <div style="position:absolute;left:0;top:0;font-size:14px;">COOH</div>
-  <div style="position:absolute;right:0;top:0;font-size:14px;text-align:right;"><span style="color:#003399;font-weight:800;">NH<sub>3</sub><sup>+</sup></span></div>
-  <div style="position:absolute;left:0;bottom:0;font-size:14px;">CH<sub>3</sub>
+  <div style="position:absolute;left:0;top:0;font-size:14px;">CH<sub>3</sub>
   </div>
-  <div style="position:absolute;right:0;bottom:0;font-size:14px;text-align:right;"><span style="color:#003399;font-weight:800;">H<sub>3</sub>N<sup>+</sup></span></div>
+  <div style="position:absolute;right:0;top:0;font-size:14px;text-align:right;"><span style="color:#003399;font-weight:800;">H<sub>3</sub>N<sup>+</sup></span></div>
+  <div style="position:absolute;left:0;bottom:0;font-size:14px;">COOH</div>
+  <div style="position:absolute;right:0;bottom:0;font-size:14px;text-align:right;"><span style="color:#003399;font-weight:800;">NH<sub>3</sub><sup>+</sup></span></div>
   </div>
   </div></td>
   <td style="padding:4px;"><div style="text-align:center;font-size:20px;">&#8594;</div></td>
   <td style="padding:4px;"><div style="border:1px solid #ccc;border-radius:10px;padding:8px 10px;min-width:160px;background:#fff;">
   <div style="text-align:center;font-size:13px;font-weight:700;margin-bottom:6px;">State 2</div>
   <div style="position:relative;height:72px;">
-  <div style="position:absolute;left:0;top:0;font-size:14px;"><span style="color:#b00020;font-weight:800;">COO<sup>&#8722;</sup></span></div>
-  <div style="position:absolute;right:0;top:0;font-size:14px;text-align:right;"><span style="color:#003399;font-weight:800;">NH<sub>3</sub><sup>+</sup></span></div>
-  <div style="position:absolute;left:0;bottom:0;font-size:14px;">CH<sub>3</sub>
+  <div style="position:absolute;left:0;top:0;font-size:14px;">CH<sub>3</sub>
   </div>
-  <div style="position:absolute;right:0;bottom:0;font-size:14px;text-align:right;"><span style="color:#003399;font-weight:800;">H<sub>3</sub>N<sup>+</sup></span></div>
+  <div style="position:absolute;right:0;top:0;font-size:14px;text-align:right;"><span style="color:#003399;font-weight:800;">H<sub>3</sub>N<sup>+</sup></span></div>
+  <div style="position:absolute;left:0;bottom:0;font-size:14px;"><span style="color:#b00020;font-weight:800;">COO<sup>&#8722;</sup></span></div>
+  <div style="position:absolute;right:0;bottom:0;font-size:14px;text-align:right;"><span style="color:#003399;font-weight:800;">NH<sub>3</sub><sup>+</sup></span></div>
   </div>
   </div></td>
   <td style="padding:4px;"><div style="text-align:center;font-size:20px;">&#8594;</div></td>
   <td style="padding:4px;"><div style="border:1px solid #ccc;border-radius:10px;padding:8px 10px;min-width:160px;background:#fff;">
   <div style="text-align:center;font-size:13px;font-weight:700;margin-bottom:6px;">State 3</div>
   <div style="position:relative;height:72px;">
-  <div style="position:absolute;left:0;top:0;font-size:14px;"><span style="color:#b00020;font-weight:800;">COO<sup>&#8722;</sup></span></div>
-  <div style="position:absolute;right:0;top:0;font-size:14px;text-align:right;">NH<sub>2</sub>
+  <div style="position:absolute;left:0;top:0;font-size:14px;">CH<sub>3</sub>
   </div>
-  <div style="position:absolute;left:0;bottom:0;font-size:14px;">CH<sub>3</sub>
+  <div style="position:absolute;right:0;top:0;font-size:14px;text-align:right;"><span style="color:#003399;font-weight:800;">H<sub>3</sub>N<sup>+</sup></span></div>
+  <div style="position:absolute;left:0;bottom:0;font-size:14px;"><span style="color:#b00020;font-weight:800;">COO<sup>&#8722;</sup></span></div>
+  <div style="position:absolute;right:0;bottom:0;font-size:14px;text-align:right;">NH<sub>2</sub>
   </div>
-  <div style="position:absolute;right:0;bottom:0;font-size:14px;text-align:right;"><span style="color:#003399;font-weight:800;">H<sub>3</sub>N<sup>+</sup></span></div>
   </div>
   </div></td>
   <td style="padding:4px;"><div style="text-align:center;font-size:20px;">&#8594;</div></td>
   <td style="padding:4px;"><div style="border:1px solid #ccc;border-radius:10px;padding:8px 10px;min-width:160px;background:#fff;">
   <div style="text-align:center;font-size:13px;font-weight:700;margin-bottom:6px;">State 4</div>
   <div style="position:relative;height:72px;">
-  <div style="position:absolute;left:0;top:0;font-size:14px;"><span style="color:#b00020;font-weight:800;">COO<sup>&#8722;</sup></span></div>
-  <div style="position:absolute;right:0;top:0;font-size:14px;text-align:right;">NH<sub>2</sub>
+  <div style="position:absolute;left:0;top:0;font-size:14px;">CH<sub>3</sub>
   </div>
-  <div style="position:absolute;left:0;bottom:0;font-size:14px;">CH<sub>3</sub>
+  <div style="position:absolute;right:0;top:0;font-size:14px;text-align:right;">H<sub>2</sub>N</div>
+  <div style="position:absolute;left:0;bottom:0;font-size:14px;"><span style="color:#b00020;font-weight:800;">COO<sup>&#8722;</sup></span></div>
+  <div style="position:absolute;right:0;bottom:0;font-size:14px;text-align:right;">NH<sub>2</sub>
   </div>
-  <div style="position:absolute;right:0;bottom:0;font-size:14px;text-align:right;">H<sub>2</sub>N</div>
   </div>
   </div></td>
   </tr></table>
@@ -4810,17 +4816,17 @@
   </table></td>
   <td style="vertical-align:top;padding:0;border:none;"><table style="border-collapse:separate; border-spacing:0; table-layout:fixed; ">
   <tr>
-  <td style="width:100px; height:115px; padding:0; margin:0; border:none; border-left:2px solid #000; background:#ffffff; overflow:hidden; ">&#160;</td>
-  <td style="width:4px; height:115px; padding:0; margin:0; border:none; font-size:0; line-height:0; background:#ffffff; overflow:hidden; ">&#160;</td>
-  <td style="width:100px; height:115px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; ">&#160;</td>
-  <td style="width:4px; height:115px; padding:0; margin:0; overflow:hidden; font-size:0; line-height:0; background:#ffffff; border:none; ">&#160;</td>
-  <td style="width:100px; height:115px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; ">&#160;</td>
-  <td style="width:4px; height:115px; padding:0; margin:0; border:none; font-size:0; line-height:0; background:#ffffff; overflow:hidden; ">&#160;</td>
-  <td style="width:100px; height:115px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; ">&#160;</td>
-  <td style="width:4px; height:115px; padding:0; margin:0; overflow:hidden; font-size:0; line-height:0; background:#ffffff; border:none; ">&#160;</td>
-  <td style="width:100px; height:115px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; ">&#160;</td>
-  <td style="width:4px; height:115px; padding:0; margin:0; border:none; font-size:0; line-height:0; background:#ffffff; overflow:hidden; ">&#160;</td>
-  <td style="width:100px; height:115px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; border-top:3px solid #003399; border-left:3px solid #003399; border-top-left-radius:100px 115px; ">&#160;</td>
+  <td style="width:100px; height:119px; padding:0; margin:0; border:none; border-left:2px solid #000; background:#ffffff; overflow:hidden; ">&#160;</td>
+  <td style="width:4px; height:119px; padding:0; margin:0; border:none; font-size:0; line-height:0; background:#ffffff; overflow:hidden; ">&#160;</td>
+  <td style="width:100px; height:119px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; ">&#160;</td>
+  <td style="width:4px; height:119px; padding:0; margin:0; overflow:hidden; font-size:0; line-height:0; background:#ffffff; border:none; ">&#160;</td>
+  <td style="width:100px; height:119px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; ">&#160;</td>
+  <td style="width:4px; height:119px; padding:0; margin:0; border:none; font-size:0; line-height:0; background:#ffffff; overflow:hidden; ">&#160;</td>
+  <td style="width:100px; height:119px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; ">&#160;</td>
+  <td style="width:4px; height:119px; padding:0; margin:0; overflow:hidden; font-size:0; line-height:0; background:#ffffff; border:none; ">&#160;</td>
+  <td style="width:100px; height:119px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; ">&#160;</td>
+  <td style="width:4px; height:119px; padding:0; margin:0; border:none; font-size:0; line-height:0; background:#ffffff; overflow:hidden; ">&#160;</td>
+  <td style="width:100px; height:119px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; border-top:3px solid #003399; border-left:3px solid #003399; border-top-left-radius:100px 119px; ">&#160;</td>
   <td rowspan="2" style="width:80px; padding:0 0 0 6px; margin:0; border:none; white-space:nowrap; vertical-align:bottom; border-bottom:1px dashed #999; ">pK<sub>a2</sub>
   </td>
   </tr>
@@ -4838,17 +4844,17 @@
   <td style="width:100px; height:4px; padding:0; margin:0; font-size:0; line-height:0; border:none; border-bottom:1px dashed #999; background:#ffffff; overflow:hidden; ">&#160;</td>
   </tr>
   <tr>
-  <td style="width:100px; height:65px; padding:0; margin:0; border:none; border-left:2px solid #000; background:#ffffff; overflow:hidden; ">&#160;</td>
-  <td style="width:4px; height:65px; padding:0; margin:0; border:none; font-size:0; line-height:0; background:#ffffff; overflow:hidden; ">&#160;</td>
-  <td style="width:100px; height:65px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; ">&#160;</td>
-  <td style="width:4px; height:65px; padding:0; margin:0; overflow:hidden; font-size:0; line-height:0; background:#ffffff; border:none; ">&#160;</td>
-  <td style="width:100px; height:65px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; ">&#160;</td>
-  <td style="width:4px; height:65px; padding:0; margin:0; border:none; font-size:0; line-height:0; background:#ffffff; overflow:hidden; ">&#160;</td>
-  <td style="width:100px; height:65px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; ">&#160;</td>
-  <td style="width:4px; height:65px; padding:0; margin:0; overflow:hidden; font-size:0; line-height:0; background:#ffffff; border:none; ">&#160;</td>
-  <td style="width:100px; height:65px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; border-bottom:3px solid #003399; border-right:3px solid #003399; border-bottom-right-radius:100px 65px; ">&#160;</td>
-  <td style="width:4px; height:65px; padding:0; margin:0; border:none; font-size:0; line-height:0; border-right:1px dashed #999; background:#ffffff; overflow:hidden; ">&#160;</td>
-  <td style="width:100px; height:65px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; ">&#160;</td>
+  <td style="width:100px; height:58px; padding:0; margin:0; border:none; border-left:2px solid #000; background:#ffffff; overflow:hidden; ">&#160;</td>
+  <td style="width:4px; height:58px; padding:0; margin:0; border:none; font-size:0; line-height:0; background:#ffffff; overflow:hidden; ">&#160;</td>
+  <td style="width:100px; height:58px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; ">&#160;</td>
+  <td style="width:4px; height:58px; padding:0; margin:0; overflow:hidden; font-size:0; line-height:0; background:#ffffff; border:none; ">&#160;</td>
+  <td style="width:100px; height:58px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; ">&#160;</td>
+  <td style="width:4px; height:58px; padding:0; margin:0; border:none; font-size:0; line-height:0; background:#ffffff; overflow:hidden; ">&#160;</td>
+  <td style="width:100px; height:58px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; ">&#160;</td>
+  <td style="width:4px; height:58px; padding:0; margin:0; overflow:hidden; font-size:0; line-height:0; background:#ffffff; border:none; ">&#160;</td>
+  <td style="width:100px; height:58px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; border-bottom:3px solid #003399; border-right:3px solid #003399; border-bottom-right-radius:100px 58px; ">&#160;</td>
+  <td style="width:4px; height:58px; padding:0; margin:0; border:none; font-size:0; line-height:0; border-right:1px dashed #999; background:#ffffff; overflow:hidden; ">&#160;</td>
+  <td style="width:100px; height:58px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; ">&#160;</td>
   <td style="width:80px; padding:0 0 0 6px; margin:0; border:none; white-space:nowrap; vertical-align:bottom; ">&#160;</td>
   </tr>
   <tr>
@@ -4866,17 +4872,17 @@
   <td style="width:80px; padding:0; margin:0; border:none; font-size:0; line-height:0; ">&#160;</td>
   </tr>
   <tr>
-  <td style="width:100px; height:65px; padding:0; margin:0; border:none; border-left:2px solid #000; background:#ffffff; overflow:hidden; ">&#160;</td>
-  <td style="width:4px; height:65px; padding:0; margin:0; border:none; font-size:0; line-height:0; background:#ffffff; overflow:hidden; ">&#160;</td>
-  <td style="width:100px; height:65px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; ">&#160;</td>
-  <td style="width:4px; height:65px; padding:0; margin:0; overflow:hidden; font-size:0; line-height:0; background:#ffffff; border:none; ">&#160;</td>
-  <td style="width:100px; height:65px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; ">&#160;</td>
-  <td style="width:4px; height:65px; padding:0; margin:0; border:none; font-size:0; line-height:0; background:#ffffff; overflow:hidden; ">&#160;</td>
-  <td style="width:100px; height:65px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; border-top:3px solid #003399; border-left:3px solid #003399; border-top-left-radius:100px 65px; ">&#160;</td>
-  <td style="width:4px; height:65px; padding:0; margin:0; overflow:hidden; font-size:0; line-height:0; background:#ffffff; border:none; ">&#160;</td>
-  <td style="width:100px; height:65px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; ">&#160;</td>
-  <td style="width:4px; height:65px; padding:0; margin:0; border:none; font-size:0; line-height:0; border-right:1px dashed #999; background:#ffffff; overflow:hidden; ">&#160;</td>
-  <td style="width:100px; height:65px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; ">&#160;</td>
+  <td style="width:100px; height:58px; padding:0; margin:0; border:none; border-left:2px solid #000; background:#ffffff; overflow:hidden; ">&#160;</td>
+  <td style="width:4px; height:58px; padding:0; margin:0; border:none; font-size:0; line-height:0; background:#ffffff; overflow:hidden; ">&#160;</td>
+  <td style="width:100px; height:58px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; ">&#160;</td>
+  <td style="width:4px; height:58px; padding:0; margin:0; overflow:hidden; font-size:0; line-height:0; background:#ffffff; border:none; ">&#160;</td>
+  <td style="width:100px; height:58px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; ">&#160;</td>
+  <td style="width:4px; height:58px; padding:0; margin:0; border:none; font-size:0; line-height:0; background:#ffffff; overflow:hidden; ">&#160;</td>
+  <td style="width:100px; height:58px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; border-top:3px solid #003399; border-left:3px solid #003399; border-top-left-radius:100px 58px; ">&#160;</td>
+  <td style="width:4px; height:58px; padding:0; margin:0; overflow:hidden; font-size:0; line-height:0; background:#ffffff; border:none; ">&#160;</td>
+  <td style="width:100px; height:58px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; ">&#160;</td>
+  <td style="width:4px; height:58px; padding:0; margin:0; border:none; font-size:0; line-height:0; border-right:1px dashed #999; background:#ffffff; overflow:hidden; ">&#160;</td>
+  <td style="width:100px; height:58px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; ">&#160;</td>
   <td rowspan="2" style="width:80px; padding:0 0 0 6px; margin:0; border:none; white-space:nowrap; vertical-align:bottom; border-bottom:1px dashed #999; ">pK<sub>aR</sub>
   </td>
   </tr>
@@ -4950,17 +4956,17 @@
   <td style="width:100px; height:4px; padding:0; margin:0; font-size:0; line-height:0; border:none; border-bottom:1px dashed #999; background:#ffffff; overflow:hidden; ">&#160;</td>
   </tr>
   <tr>
-  <td style="width:100px; height:79px; padding:0; margin:0; border:none; border-left:2px solid #000; background:#ffffff; overflow:hidden; border-bottom:3px solid #003399; border-right:3px solid #003399; border-bottom-right-radius:100px 79px; ">&#160;</td>
-  <td style="width:4px; height:79px; padding:0; margin:0; border:none; font-size:0; line-height:0; border-right:1px dashed #999; background:#ffffff; overflow:hidden; ">&#160;</td>
-  <td style="width:100px; height:79px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; ">&#160;</td>
-  <td style="width:4px; height:79px; padding:0; margin:0; overflow:hidden; font-size:0; line-height:0; background:#ffffff; border:none; ">&#160;</td>
-  <td style="width:100px; height:79px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; ">&#160;</td>
-  <td style="width:4px; height:79px; padding:0; margin:0; border:none; font-size:0; line-height:0; border-right:1px dashed #999; background:#ffffff; overflow:hidden; ">&#160;</td>
-  <td style="width:100px; height:79px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; ">&#160;</td>
-  <td style="width:4px; height:79px; padding:0; margin:0; overflow:hidden; font-size:0; line-height:0; background:#ffffff; border:none; ">&#160;</td>
-  <td style="width:100px; height:79px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; ">&#160;</td>
-  <td style="width:4px; height:79px; padding:0; margin:0; border:none; font-size:0; line-height:0; border-right:1px dashed #999; background:#ffffff; overflow:hidden; ">&#160;</td>
-  <td style="width:100px; height:79px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; ">&#160;</td>
+  <td style="width:100px; height:90px; padding:0; margin:0; border:none; border-left:2px solid #000; background:#ffffff; overflow:hidden; border-bottom:3px solid #003399; border-right:3px solid #003399; border-bottom-right-radius:100px 90px; ">&#160;</td>
+  <td style="width:4px; height:90px; padding:0; margin:0; border:none; font-size:0; line-height:0; border-right:1px dashed #999; background:#ffffff; overflow:hidden; ">&#160;</td>
+  <td style="width:100px; height:90px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; ">&#160;</td>
+  <td style="width:4px; height:90px; padding:0; margin:0; overflow:hidden; font-size:0; line-height:0; background:#ffffff; border:none; ">&#160;</td>
+  <td style="width:100px; height:90px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; ">&#160;</td>
+  <td style="width:4px; height:90px; padding:0; margin:0; border:none; font-size:0; line-height:0; border-right:1px dashed #999; background:#ffffff; overflow:hidden; ">&#160;</td>
+  <td style="width:100px; height:90px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; ">&#160;</td>
+  <td style="width:4px; height:90px; padding:0; margin:0; overflow:hidden; font-size:0; line-height:0; background:#ffffff; border:none; ">&#160;</td>
+  <td style="width:100px; height:90px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; ">&#160;</td>
+  <td style="width:4px; height:90px; padding:0; margin:0; border:none; font-size:0; line-height:0; border-right:1px dashed #999; background:#ffffff; overflow:hidden; ">&#160;</td>
+  <td style="width:100px; height:90px; padding:0; margin:0; border:none; background:#ffffff; overflow:hidden; ">&#160;</td>
   <td style="width:80px; padding:0 0 0 6px; margin:0; border:none; white-space:nowrap; vertical-align:bottom; ">&#160;</td>
   </tr>
   <tr>
@@ -4997,38 +5003,38 @@
   </tr>
   </table></td>
   </tr></table>
-  <p>Given pK<sub>a</sub> values: pK<sub>a1</sub>&#160;=&#160;2.2, pK<sub>aR</sub>&#160;=&#160;5.7, pK<sub>a2</sub>&#160;=&#160;9.3.<br>The isoelectric point (pI) is closest to which value?</p>
+  <p>Given pK<sub>a</sub> values: pK<sub>a1</sub>&#160;=&#160;2.5, pK<sub>aR</sub>&#160;=&#160;6.0, pK<sub>a2</sub>&#160;=&#160;9.2.<br>The isoelectric point (pI) is closest to which value?</p>
   </div>
   <form>
-  <ul id="choices_40b2_c0c0" class="qti-auto-grid-compact">
+  <ul id="choices_45ab_f2ba" class="qti-auto-grid-compact">
   <li>
-      <input type="radio" id="option_40b2_c0c0_0" name="answer_40b2_c0c0" data-correct="false"><label for="option_40b2_c0c0_0"><span style="font-weight: bold;">A.</span> <span>pI = 0.9</span></label>
+      <input type="radio" id="option_45ab_f2ba_0" name="answer_45ab_f2ba" data-correct="false"><label for="option_45ab_f2ba_0"><span style="font-weight: bold;">A.</span> <span>pI = 1.4</span></label>
     </li>
     <li>
-      <input type="radio" id="option_40b2_c0c0_1" name="answer_40b2_c0c0" data-correct="false"><label for="option_40b2_c0c0_1"><span style="font-weight: bold;">B.</span> <span>pI = 4.2</span></label>
+      <input type="radio" id="option_45ab_f2ba_1" name="answer_45ab_f2ba" data-correct="false"><label for="option_45ab_f2ba_1"><span style="font-weight: bold;">B.</span> <span>pI = 4.2</span></label>
     </li>
     <li>
-      <input type="radio" id="option_40b2_c0c0_2" name="answer_40b2_c0c0" data-correct="true"><label for="option_40b2_c0c0_2"><span style="font-weight: bold;">C.</span> <span>pI = 7.5</span></label>
+      <input type="radio" id="option_45ab_f2ba_2" name="answer_45ab_f2ba" data-correct="true"><label for="option_45ab_f2ba_2"><span style="font-weight: bold;">C.</span> <span>pI = 7.6</span></label>
     </li>
     <li>
-      <input type="radio" id="option_40b2_c0c0_3" name="answer_40b2_c0c0" data-correct="false"><label for="option_40b2_c0c0_3"><span style="font-weight: bold;">D.</span> <span>pI = 11.6</span></label>
+      <input type="radio" id="option_45ab_f2ba_3" name="answer_45ab_f2ba" data-correct="false"><label for="option_45ab_f2ba_3"><span style="font-weight: bold;">D.</span> <span>pI = 11.5</span></label>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_40b2_c0c0()">Check Answer</button>
-  <div id="result_40b2_c0c0" class="qti-feedback-result">&#160;</div>
+  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_45ab_f2ba()">Check Answer</button>
+  <div id="result_45ab_f2ba" class="qti-feedback-result">&#160;</div>
   </form>
   <br>
   </div><script>
-  function checkAnswer_40b2_c0c0() {
-   const options = document.getElementsByName('answer_40b2_c0c0');
+  function checkAnswer_45ab_f2ba() {
+   const options = document.getElementsByName('answer_45ab_f2ba');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_40b2_c0c0');
-   const checkBtn = document.querySelector("[onclick='checkAnswer_40b2_c0c0()']");
+   const resultDiv = document.getElementById('result_45ab_f2ba');
+   const checkBtn = document.querySelector("[onclick='checkAnswer_45ab_f2ba()']");
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.className = 'qti-feedback-result qti-feedback-success';
