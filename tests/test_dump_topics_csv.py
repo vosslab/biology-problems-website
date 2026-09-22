@@ -1,12 +1,10 @@
-"""Tests for tools/dump_topics_csv.py CSV export utility."""
+"""Tests for the topics CSV export utility."""
 
 # Standard Library
 import csv
 
 # local repo modules
-# `tools/` is added to sys.path by tests/conftest.py so this is a
-# clean absolute import even though tools/ is not a Python package.
-import dump_topics_csv
+import bioproblems_site.topics_csv as topics_csv
 
 
 _NAV_TWO_SUBJECTS = (
@@ -17,14 +15,14 @@ _NAV_TWO_SUBJECTS = (
 )
 
 
-def _run_dump(tmp_path, yaml_body, nav_body=_NAV_TWO_SUBJECTS):
+def _run_dump(tmp_path: object, yaml_body: object, nav_body: object=_NAV_TWO_SUBJECTS) -> object:
 	"""Write YAML + nav, run dump, return (fieldnames, rows)."""
 	metadata_path = tmp_path / "topics.yml"
 	mkdocs_path = tmp_path / "mkdocs.yml"
 	output_path = tmp_path / "output.csv"
 	metadata_path.write_text(yaml_body)
 	mkdocs_path.write_text(nav_body)
-	dump_topics_csv.dump_topics_to_csv(
+	topics_csv.dump_topics_to_csv(
 		metadata_path=str(metadata_path),
 		mkdocs_path=str(mkdocs_path),
 		output_path=str(output_path),
@@ -39,7 +37,7 @@ def _run_dump(tmp_path, yaml_body, nav_body=_NAV_TWO_SUBJECTS):
 	return fieldnames, rows
 
 
-def test_alias_round_trip(tmp_path):
+def test_alias_round_trip(tmp_path: object) -> object:
 	# Aliased topic: alias column carries the YAML alias verbatim.
 	yaml_body = (
 		"biochemistry:\n"
@@ -56,7 +54,7 @@ def test_alias_round_trip(tmp_path):
 	assert rows[0]["alias"] == "amino_acids"
 
 
-def test_missing_alias_is_empty_string_not_none(tmp_path):
+def test_missing_alias_is_empty_string_not_none(tmp_path: object) -> object:
 	# Topic without alias: column is "" (must NOT be the literal "None").
 	yaml_body = (
 		"biochemistry:\n"
@@ -72,7 +70,7 @@ def test_missing_alias_is_empty_string_not_none(tmp_path):
 	assert rows[0]["alias"] == ""
 
 
-def test_subject_then_topic_ordering(tmp_path):
+def test_subject_then_topic_ordering(tmp_path: object) -> object:
 	# Two subjects out of input order; biochemistry must precede genetics
 	# and within biochemistry topic01 must precede topic02.
 	yaml_body = (
@@ -103,7 +101,7 @@ def test_subject_then_topic_ordering(tmp_path):
 	]
 
 
-def test_header_contains_expected_columns(tmp_path):
+def test_header_contains_expected_columns(tmp_path: object) -> object:
 	# Cheap sanity check: the documented columns are present (set
 	# semantics; do not pin column order to avoid breaking downstream
 	# consumers if a future column is appended).

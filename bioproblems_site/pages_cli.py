@@ -1,9 +1,4 @@
-#!/usr/bin/env python3
-
-"""Single page-generation entrypoint for biology-problems-website.
-
-Real logic lives in bioproblems_site.pipeline.
-"""
+"""Argument handling and orchestration for the site-generation command."""
 
 # Short form used for argparse -h (the module docstring is used for
 # in-editor help and is fine being longer; argparse gets this block).
@@ -17,7 +12,6 @@ _CLI_DESCRIPTION = (
 	"Use -G with -T to also create missing download artifact files."
 )
 
-# Standard Library
 import argparse
 
 # local repo modules
@@ -27,8 +21,9 @@ import bioproblems_site.metadata as metadata
 import bioproblems_site.topic_aliases as topic_aliases
 
 
-def parse_args() -> argparse.Namespace:
-	parser = argparse.ArgumentParser(description=_CLI_DESCRIPTION)
+def add_arguments(subparsers: argparse._SubParsersAction) -> None:
+	"""Add the ``pages`` subcommand to the application parser."""
+	parser = subparsers.add_parser("pages", description=_CLI_DESCRIPTION)
 	# Value-taking filters (lowercase short flags).
 	parser.add_argument(
 		"-s", "--subject", dest="subject_filter",
@@ -85,24 +80,26 @@ def parse_args() -> argparse.Namespace:
 	)
 	parser.set_defaults(verbose=True)
 	parser.set_defaults(regenerate_selftests=True)
-	args = parser.parse_args()
-	# --full is a convenience alias; combining it with the lower-level
-	# build flags is ambiguous, so reject.
+
+
+def run(args: argparse.Namespace) -> int:
+	"""Run the selected page-generation workflow."""
+	parser = getattr(args, "_root_parser", None)
 	if args.full and (
 		args.subject_indexes or args.topic_pages or args.generate_downloads
 	):
-		parser.error(
+		message = (
 			"--full cannot be combined with --subject-indexes, "
 			"--topic-pages, or --generate-downloads"
 		)
-	# Download generation has no meaning without topic-page rendering.
+		if parser is not None:
+			parser.error(message)
+		raise ValueError(message)
 	if args.generate_downloads and not args.topic_pages:
-		parser.error("--generate-downloads requires --topic-pages")
-	return args
-
-
-def main() -> None:
-	args = parse_args()
+		message = "--generate-downloads requires --topic-pages"
+		if parser is not None:
+			parser.error(message)
+		raise ValueError(message)
 	# Resolve the three normalized build bools. --full expands to all
 	# three; a bare invocation defaults to the fast subject-index path.
 	if args.full:
@@ -152,7 +149,4 @@ def main() -> None:
 		verbose=args.verbose,
 		model=args.model,
 	)
-
-
-if __name__ == "__main__":
-	main()
+	return 0

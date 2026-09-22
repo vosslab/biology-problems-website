@@ -1,0 +1,663 @@
+"""Execution and timing behavior for configured BBQ tasks."""
+
+import argparse
+import json
+import os
+import shlex
+import shutil
+import subprocess
+import time
+
+from bioproblems_site.bbq_config import (
+	get_missing_input_message,
+	get_missing_script_message,
+)
+from bioproblems_site.bbq_outputs import (
+	cleanup_dry_run_output,
+	count_output_lines_path,
+	log_error,
+	log_line,
+	move_output_candidate,
+	move_output_if_needed,
+	resolve_generated_output,
+	resolve_output_workdir,
+	resolve_output_workdir_recent,
+)
+
+# ANSI colors for concise CLI feedback
+COLOR_RESET = "\033[0m"
+COLOR_GREEN = "\033[92m"
+COLOR_YELLOW = "\033[93m"
+COLOR_CYAN = "\033[96m"
+COLOR_RED = "\033[91m"
+TASK_TIMING_LOG_ENV = "BBQ_TASK_TIMING_LOG"
+
+
+def color(text: str, code: str) -> str:
+	return f"{code}{text}{COLOR_RESET}"
+
+
+#============================================
+def format_elapsed_time(elapsed_seconds: float) -> str:
+	"""Format one task duration for concise terminal output."""
+	if elapsed_seconds < 60:
+		return f"{elapsed_seconds:.2f}s"
+	minutes = int(elapsed_seconds // 60)
+	seconds = elapsed_seconds % 60
+	return f"{minutes}m {seconds:05.2f}s"
+
+
+#============================================
+def get_slowest_task_timings(timing_records: list[dict], limit: int = 10) -> list[dict]:
+	"""Return task timing records from slowest to fastest."""
+	sorted_records = sorted(
+		timing_records,
+		key=lambda record: record["elapsed_seconds"],
+		reverse=True,
+	)
+	return sorted_records[:limit]
+
+
+#============================================
+def write_task_timing(
+	tasks_csv: str,
+	label: str,
+	elapsed_seconds: float,
+	ok: bool,
+) -> None:
+	"""Append a completed task timing when a parent batch run requests it."""
+	timing_log_path = os.environ.get(TASK_TIMING_LOG_ENV, "")
+	if not timing_log_path:
+		return
+	timing_record = {
+		"task_file": os.path.basename(tasks_csv),
+		"label": label,
+		"elapsed_seconds": elapsed_seconds,
+		"status": "DONE" if ok else "FAILED",
+	}
+	with open(timing_log_path, "a") as timing_handle:
+		timing_handle.write(json.dumps(timing_record) + "\n")
+
+
+#============================================
+def print_slowest_task_timings(timing_records: list[dict]) -> None:
+	"""Print up to ten slowest tasks from one CSV run."""
+	slowest_records = get_slowest_task_timings(timing_records)
+	if not slowest_records:
+		return
+	print(color(f"Slowest {len(slowest_records)} tasks:", COLOR_CYAN))
+	for timing_record in slowest_records:
+		duration = format_elapsed_time(timing_record["elapsed_seconds"])
+		print(
+			f"  {duration:>10}  {timing_record['label']} "
+			f"({timing_record['status']})"
+		)
+
+
+def build_command(task: dict) -> list:
+	# Simplest form: a single command string
+	if "cmd" in task:
+		cmd_value = task.get("cmd")
+		if isinstance(cmd_value, str):
+			parts = shlex.split(cmd_value)
+		elif isinstance(cmd_value, list):
+			parts = [str(x) for x in cmd_value]
+		else:
+			parts = []
+		extra_args = task.get("extra_args", [])
+		if extra_args:
+			parts.extend(str(a) for a in extra_args)
+		if parts and parts[0].endswith(".py"):
+			parts.insert(0, "python3")
+		return parts
+	program = task.get("program")
+	if not program:
+		program = "python3"
+	script = task.get("script")
+	args = task.get("args", [])
+	cmd = [str(program)]
+	if script:
+		cmd.append(str(script))
+	cmd.extend(str(a) for a in args)
+	extra_args = task.get("extra_args", [])
+	if extra_args:
+		cmd.extend(str(a) for a in extra_args)
+	return cmd
+
+
+def task_label(task: dict, index: int, output_path: str, cmd_list: list) -> str:
+	if task.get("name"):
+		return task.get("name")
+	script_path = task.get("script", "")
+	if script_path:
+		script_base = os.path.basename(script_path)
+		if script_base in (
+			"yaml_match_to_bbq.py",
+			"yaml_which_one_mc_to_bbq.py",
+			"yaml_mc_statements_to_bbq.py",
+		):
+			input_path = task.get("input_path", "")
+			input_base = os.path.splitext(os.path.basename(input_path))[0] if input_path else ""
+			if input_base:
+				return f"{script_base} ({input_base})"
+		return script_base
+	if output_path:
+		return os.path.basename(output_path)
+	if "cmd" in task and isinstance(task["cmd"], str):
+		return task["cmd"].split()[0]
+	if cmd_list:
+		return cmd_list[0]
+	return f"Task {index}"
+
+
+def shorten_text(text: str, max_len: int) -> str:
+	if len(text) <= max_len:
+		return text
+	if max_len <= 3:
+		return text[:max_len]
+	return text[:max_len - 3] + "..."
+
+
+#============================================
+class RunContext:
+	def __init__(
+		self,
+		log_path: str,
+		error_log_path: str,
+		allow_cleanup: bool,
+		pythonpath_value: str,
+	) -> None:
+		self.log_path = log_path
+		self.error_log_path = error_log_path
+		self.allow_cleanup = allow_cleanup
+		self.pythonpath_value = pythonpath_value
+
+
+def run_pgml_generation(task: dict, log_path: str, pythonpath_value: str = "") -> bool:
+	pgml_info = task.get("pgml_info")
+	if not pgml_info:
+		return True
+	pgml_script = pgml_info.get("script", "")
+	input_path = pgml_info.get("input_path", "")
+	pgml_suffix = pgml_info.get("suffix", "")
+	pgml_extension = pgml_info.get("extension", "pgml")
+	pgml_output_dir = pgml_info.get("output_dir", "")
+	if not pgml_script or not os.path.isfile(pgml_script):
+		log_line(log_path, f"PGML SKIP: script not found: {pgml_script}")
+		return True
+	if not input_path or not os.path.isfile(input_path):
+		log_line(log_path, f"PGML SKIP: input not found: {input_path}")
+		return True
+	yaml_basename = os.path.splitext(os.path.basename(input_path))[0]
+	output_filename = f"{yaml_basename}{pgml_suffix}.{pgml_extension}"
+	output_path = os.path.join(pgml_output_dir, output_filename)
+	if pgml_output_dir and not os.path.isdir(pgml_output_dir):
+		os.makedirs(pgml_output_dir, exist_ok=True)
+	cmd = ["python3", pgml_script, "-y", input_path, "-o", output_path]
+	log_line(log_path, f"PGML CMD  {' '.join(cmd)}")
+	env_override = None
+	if pythonpath_value:
+		env_override = os.environ.copy()
+		env_override["PYTHONPATH"] = pythonpath_value
+	try:
+		proc = subprocess.run(
+			cmd,
+			text=True,
+			capture_output=True,
+			check=False,
+			env=env_override,
+		)
+	except Exception as exc:
+		log_line(log_path, f"PGML ERROR: launch failed: {exc}")
+		return False
+	if proc.returncode != 0:
+		log_line(log_path, f"PGML FAILED (exit {proc.returncode}): {output_filename}")
+		if proc.stderr:
+			log_line(log_path, f"PGML STDERR:\n{proc.stderr.rstrip()}")
+		return False
+	if os.path.isfile(output_path):
+		log_line(log_path, f"PGML OK: {output_path}")
+		print(color(f"  PGML {output_filename}", COLOR_GREEN))
+	else:
+		log_line(log_path, f"PGML WARNING: output not found: {output_path}")
+		return False
+	return True
+
+
+#============================================
+def copy_sister_pgml(task: dict, log_path: str) -> bool:
+	"""Copy a sister PGML/PG file from the source script directory to downloads.
+
+	Looks for a .pgml or .pg file in the same directory as the task's source
+	script whose basename matches the script (exact or normalized). Copies the
+	first match to {output_dir}/downloads/.
+
+	Args:
+		task: Task dictionary with 'script', 'output_dir', and optionally 'pgml_info'.
+		log_path: Path to the run log file.
+
+	Returns:
+		True on success or benign skip, False on copy failure.
+	"""
+	# skip if task already has pgml_info (handled by run_pgml_generation)
+	if task.get("pgml_info"):
+		return True
+	script_path = task.get("script", "")
+	if not script_path or not os.path.isfile(script_path):
+		return True
+	source_dir = os.path.dirname(script_path)
+	script_stem = os.path.splitext(os.path.basename(script_path))[0]
+	# gather all .pgml and .pg files in the source directory
+	sister_candidates = []
+	for filename in os.listdir(source_dir):
+		if filename.endswith(".pgml") or filename.endswith(".pg"):
+			sister_candidates.append(filename)
+	if not sister_candidates:
+		return True
+	# try exact match first (.pgml before .pg)
+	matched_file = None
+	for ext in (".pgml", ".pg"):
+		candidate = script_stem + ext
+		if candidate in sister_candidates:
+			matched_file = candidate
+			break
+	# try normalized match: lowercase and replace hyphens with underscores
+	if matched_file is None:
+		normalized_stem = script_stem.lower().replace("-", "_")
+		for candidate in sister_candidates:
+			candidate_stem = os.path.splitext(candidate)[0]
+			normalized_candidate = candidate_stem.lower().replace("-", "_")
+			if normalized_candidate == normalized_stem:
+				matched_file = candidate
+				break
+	# no match found
+	if matched_file is None:
+		log_line(log_path, f"PGML COPY SKIP: no sister file for {os.path.basename(script_path)}")
+		return True
+	# build source and destination paths
+	source_pgml = os.path.join(source_dir, matched_file)
+	output_dir = task.get("output_dir", "")
+	if not output_dir:
+		log_line(log_path, f"PGML COPY SKIP: no output_dir for {os.path.basename(script_path)}")
+		return True
+	downloads_dir = os.path.join(output_dir, "downloads")
+	if not os.path.isdir(downloads_dir):
+		os.makedirs(downloads_dir, exist_ok=True)
+	dest_pgml = os.path.join(downloads_dir, matched_file)
+	# copy the file (assume source is newer)
+	try:
+		shutil.copy2(source_pgml, dest_pgml)
+	except OSError as exc:
+		log_line(log_path, f"PGML COPY ERROR: {exc}")
+		print(color(f"  PGML COPY FAIL {matched_file}", COLOR_RED))
+		return False
+	log_line(log_path, f"PGML COPY OK: {dest_pgml}")
+	print(color(f"  PGML COPY {matched_file}", COLOR_GREEN))
+	return True
+
+
+#============================================
+def run_task_capture(
+	task: dict,
+	log_path: str,
+	move_output: bool,
+	allow_cleanup: bool = True,
+	pythonpath_value: str = "",
+	error_log_path: str = "",
+) -> tuple:
+	output_path = task.get("output", "")
+	workdir = "."
+	cmd = build_command(task)
+	label = task_label(task, 0, output_path, cmd)
+	max_questions = task.get("max_questions")
+	start_time = time.time()
+	candidate_path = ""
+
+	missing_script = get_missing_script_message(task)
+	if missing_script:
+		log_line(log_path, missing_script)
+		log_error(error_log_path, label, missing_script, cmd_list=cmd)
+		return False, "", missing_script, 0
+	missing_input = get_missing_input_message(task)
+	if missing_input:
+		log_line(log_path, missing_input)
+		log_error(error_log_path, label, missing_input, cmd_list=cmd)
+		return False, "", missing_input, 0
+
+	log_line(log_path, f"CMD   {' '.join(cmd)} (cwd={workdir})")
+	env_override = None
+	if pythonpath_value:
+		env_override = os.environ.copy()
+		env_override["PYTHONPATH"] = pythonpath_value
+	try:
+		proc = subprocess.run(
+			cmd,
+			cwd=workdir,
+			env=env_override,
+			text=True,
+			capture_output=True,
+			check=False,
+		)
+	except Exception as exc:
+		log_line(log_path, f"LAUNCH ERROR {exc}")
+		log_error(error_log_path, label, f"Launch error: {exc}", cmd_list=cmd)
+		return False, "", str(exc), 0
+
+	if proc.stdout:
+		log_line(log_path, f"STDOUT:\n{proc.stdout.rstrip()}")
+	if proc.stderr:
+		log_line(log_path, f"STDERR:\n{proc.stderr.rstrip()}")
+
+	if proc.returncode != 0:
+		log_line(log_path, f"EXIT -> {proc.returncode}")
+		log_error(
+			error_log_path,
+			label,
+			f"Exit {proc.returncode}",
+			stdout_text=proc.stdout,
+			stderr_text=proc.stderr,
+			cmd_list=cmd,
+		)
+		return False, proc.stdout, proc.stderr, 0
+
+	if output_path:
+		if move_output:
+			moved_ok = move_output_if_needed(output_path, workdir)
+			if not moved_ok:
+				log_line(log_path, f"ERROR expected output not found: {output_path}")
+				return False, proc.stdout, proc.stderr, 0
+		else:
+			candidate_path = resolve_output_workdir_recent(output_path, workdir, start_time)
+			if not candidate_path:
+				log_line(log_path, f"ERROR expected output not found: {output_path}")
+				log_error(error_log_path, label, f"Output not found: {output_path}", cmd_list=cmd)
+				return False, proc.stdout, proc.stderr, 0
+	else:
+		ok, resolved_output, detected_path, error_message = resolve_generated_output(
+			task,
+			workdir,
+			start_time,
+		)
+		if not ok:
+			log_line(log_path, f"ERROR {error_message}")
+			log_error(
+				error_log_path,
+				label,
+				error_message,
+				stdout_text=proc.stdout,
+				stderr_text=proc.stderr,
+				cmd_list=cmd,
+			)
+			return False, proc.stdout, proc.stderr, 0
+		output_path = resolved_output
+		candidate_path = detected_path
+		log_line(log_path, f"DETECTED output -> {output_path}")
+		if move_output:
+			moved_ok = move_output_candidate(candidate_path, output_path)
+			if not moved_ok:
+				log_line(log_path, f"ERROR expected output not found: {output_path}")
+				log_error(error_log_path, label, f"Output not found: {output_path}", cmd_list=cmd)
+				return False, proc.stdout, proc.stderr, 0
+		else:
+			if not os.path.isfile(candidate_path):
+				log_line(log_path, f"ERROR expected output not found: {candidate_path}")
+				log_error(error_log_path, label, f"Output not found: {candidate_path}", cmd_list=cmd)
+				return False, proc.stdout, proc.stderr, 0
+
+	if move_output:
+		line_count = count_output_lines_path(output_path)
+	else:
+		if not candidate_path:
+			candidate_path = resolve_output_workdir_recent(output_path, workdir, start_time)
+		line_count = count_output_lines_path(candidate_path)
+	if max_questions and line_count > max_questions:
+		msg = f"Output has {line_count} lines; expected <= {max_questions}."
+		log_line(log_path, msg)
+		log_error(error_log_path, label, msg, cmd_list=cmd)
+		if proc.stderr:
+			return False, proc.stdout, proc.stderr + "\n" + msg, line_count
+		return False, proc.stdout, msg, line_count
+	if not move_output:
+		if allow_cleanup:
+			if candidate_path:
+				cleanup_dry_run_output(candidate_path, log_path)
+			else:
+				cleanup_dry_run_output(resolve_output_workdir(output_path, workdir), log_path)
+		else:
+			log_line(log_path, "SKIP CLEANUP (PYTHONPATH not set)")
+	if move_output:
+		run_pgml_generation(task, log_path, pythonpath_value)
+		copy_sister_pgml(task, log_path)
+	return True, proc.stdout, proc.stderr, line_count
+
+
+def run_task(
+	task: dict,
+	log_path: str,
+	index: int,
+	total: int,
+	move_output: bool = True,
+	allow_cleanup: bool = True,
+	pythonpath_value: str = "",
+	error_log_path: str = "",
+) -> bool:
+	output_path = task.get("output", "")
+	workdir = "."
+	max_questions = task.get("max_questions")
+	start_time = time.time()
+
+	cmd = build_command(task)
+	label = task_label(task, index, output_path, cmd)
+	summary = f"[{index}/{total}] {label}"
+	print(color(summary, COLOR_CYAN))
+	log_line(log_path, f"START {summary} -> {output_path or 'N/A'}")
+	missing_script = get_missing_script_message(task)
+	if missing_script:
+		print(color(f"FAILED {label}: {missing_script}", COLOR_RED))
+		log_line(log_path, missing_script)
+		log_error(error_log_path, label, missing_script, cmd_list=cmd)
+		return False
+	missing_input = get_missing_input_message(task)
+	if missing_input:
+		print(color(f"FAILED {label}: {missing_input}", COLOR_RED))
+		log_line(log_path, missing_input)
+		log_error(error_log_path, label, missing_input, cmd_list=cmd)
+		return False
+	log_line(log_path, f"CMD   {' '.join(cmd)} (cwd={workdir})")
+
+	env_override = None
+	if pythonpath_value:
+		env_override = os.environ.copy()
+		env_override["PYTHONPATH"] = pythonpath_value
+	try:
+		proc = subprocess.run(
+			cmd,
+			cwd=workdir,
+			env=env_override,
+			text=True,
+			capture_output=True,
+			check=False,
+		)
+	except Exception as exc:  # subprocess failure before execution
+		print(color(f"FAILED to launch {label}: {exc}", COLOR_RED))
+		log_line(log_path, f"LAUNCH ERROR {label}: {exc}")
+		log_error(error_log_path, label, f"Launch error: {exc}", cmd_list=cmd)
+		return False
+
+	if proc.stdout:
+		log_line(log_path, f"STDOUT {label}:\n{proc.stdout.rstrip()}")
+	if proc.stderr:
+		log_line(log_path, f"STDERR {label}:\n{proc.stderr.rstrip()}")
+
+	if proc.returncode != 0:
+		print(color(f"FAILED {label} (exit {proc.returncode})", COLOR_RED))
+		log_line(log_path, f"EXIT {label} -> {proc.returncode}")
+		log_error(
+			error_log_path,
+			label,
+			f"Exit {proc.returncode}",
+			stdout_text=proc.stdout,
+			stderr_text=proc.stderr,
+			cmd_list=cmd,
+		)
+		return False
+
+	# If the task specifies an output path and the script wrote to CWD, move it.
+	line_count = 0
+	candidate_path = ""
+	if output_path:
+		if move_output:
+			moved_ok = move_output_if_needed(output_path, workdir)
+			if moved_ok:
+				if os.path.isfile(output_path):
+					log_line(log_path, f"MOVED output to {output_path}")
+			else:
+				print(color(f"FAILED: expected output not found: {output_path}", COLOR_RED))
+				log_line(log_path, f"ERROR: expected output not found: {output_path}")
+				log_error(error_log_path, label, f"Output not found: {output_path}", cmd_list=cmd)
+				return False
+		else:
+			candidate_path = resolve_output_workdir_recent(output_path, workdir, start_time)
+			if not candidate_path:
+				print(color(f"FAILED: expected output not found: {output_path}", COLOR_RED))
+				log_line(log_path, f"ERROR: expected output not found: {output_path}")
+				log_error(error_log_path, label, f"Output not found: {output_path}", cmd_list=cmd)
+				return False
+			log_line(log_path, f"SKIP MOVE {label} -> {output_path}")
+	else:
+		ok, resolved_output, detected_path, error_message = resolve_generated_output(
+			task,
+			workdir,
+			start_time,
+		)
+		if not ok:
+			print(color(f"FAILED: {error_message}", COLOR_RED))
+			log_line(log_path, f"ERROR: {error_message}")
+			log_error(
+				error_log_path,
+				label,
+				error_message,
+				stdout_text=proc.stdout,
+				stderr_text=proc.stderr,
+				cmd_list=cmd,
+			)
+			return False
+		output_path = resolved_output
+		task["output"] = output_path
+		candidate_path = detected_path
+		log_line(log_path, f"DETECTED output -> {output_path}")
+		if move_output:
+			moved_ok = move_output_candidate(candidate_path, output_path)
+			if not moved_ok:
+				print(color(f"FAILED: expected output not found: {output_path}", COLOR_RED))
+				log_line(log_path, f"ERROR: expected output not found: {output_path}")
+				log_error(error_log_path, label, f"Output not found: {output_path}", cmd_list=cmd)
+				return False
+			log_line(log_path, f"MOVED output to {output_path}")
+		else:
+			if not os.path.isfile(candidate_path):
+				print(color(f"FAILED: expected output not found: {candidate_path}", COLOR_RED))
+				log_line(log_path, f"ERROR: expected output not found: {candidate_path}")
+				log_error(error_log_path, label, f"Output not found: {candidate_path}", cmd_list=cmd)
+				return False
+			log_line(log_path, f"SKIP MOVE {label} -> {candidate_path}")
+	# Count output lines
+	if move_output:
+		line_count = count_output_lines_path(output_path)
+	else:
+		if not candidate_path:
+			candidate_path = resolve_output_workdir_recent(output_path, workdir, start_time)
+		line_count = count_output_lines_path(candidate_path)
+	# Check against max_questions limit
+	if max_questions and line_count > max_questions:
+		msg = f"Output has {line_count} lines; expected <= {max_questions}."
+		print(color(f"FAILED {label}: {msg}", COLOR_RED))
+		log_line(log_path, msg)
+		log_error(error_log_path, label, msg, cmd_list=cmd)
+		return False
+	if not move_output:
+		if allow_cleanup:
+			if candidate_path:
+				cleanup_dry_run_output(candidate_path, log_path)
+			else:
+				cleanup_dry_run_output(resolve_output_workdir(output_path, workdir), log_path)
+		else:
+			log_line(log_path, "SKIP CLEANUP (PYTHONPATH not set)")
+
+	# Show line count in output
+	if line_count > 0:
+		print(color(f"DONE  {label} ({line_count} lines)", COLOR_GREEN))
+	else:
+		print(color(f"DONE  {label}", COLOR_GREEN))
+	log_line(log_path, f"EXIT {label} -> 0")
+	if move_output:
+		run_pgml_generation(task, log_path, pythonpath_value)
+		copy_sister_pgml(task, log_path)
+	return True
+
+
+
+#============================================
+def run_tasks_plain(
+	tasks: list[dict[str, object]],
+	args: argparse.Namespace,
+	run_context: RunContext,
+) -> int:
+	"""Run prepared tasks without the Textual interface."""
+	total = len(tasks)
+	log_line(run_context.log_path, f"=== RUN START ({total} tasks) ===")
+	failures = 0
+	timing_records: list[dict[str, object]] = []
+	for index, task in enumerate(tasks, start=1):
+		command = build_command(task)
+		label = task_label(task, index, task.get("output", ""), command)
+		task_start = time.perf_counter()
+		if args.dry_run:
+			print(color(f"[{index}/{total}] DRY-RUN {' '.join(command)}", COLOR_CYAN))
+			ok = run_task(
+				task,
+				run_context.log_path,
+				index,
+				total,
+				move_output=False,
+				allow_cleanup=run_context.allow_cleanup,
+				pythonpath_value=run_context.pythonpath_value,
+				error_log_path=run_context.error_log_path,
+			)
+		else:
+			ok = run_task(
+				task,
+				run_context.log_path,
+				index,
+				total,
+				allow_cleanup=run_context.allow_cleanup,
+				pythonpath_value=run_context.pythonpath_value,
+				error_log_path=run_context.error_log_path,
+			)
+		elapsed_seconds = time.perf_counter() - task_start
+		timing_record = {
+			"label": label,
+			"elapsed_seconds": elapsed_seconds,
+			"status": "DONE" if ok else "FAILED",
+		}
+		timing_records.append(timing_record)
+		log_line(
+			run_context.log_path,
+			f"TIME {label} -> {elapsed_seconds:.3f}s",
+		)
+		print(color(f"  TIME  {format_elapsed_time(elapsed_seconds)}", COLOR_CYAN))
+		write_task_timing(args.tasks_csv, label, elapsed_seconds, ok)
+		if not ok:
+			failures += 1
+	log_line(run_context.log_path, f"=== RUN END (failures={failures}) ===")
+	if not os.environ.get(TASK_TIMING_LOG_ENV):
+		print_slowest_task_timings(timing_records)
+	if failures:
+		print(color(
+			f"Completed with {failures} failure(s). See "
+			f"{run_context.log_path} and {run_context.error_log_path}",
+			COLOR_RED,
+		))
+		return 1
+	print(color("All tasks completed successfully.", COLOR_GREEN))
+	return 0

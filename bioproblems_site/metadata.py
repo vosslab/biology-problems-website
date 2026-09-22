@@ -61,7 +61,7 @@ class Topic:
 	libretexts: "LibreTextsLink | None"
 	visible: bool
 	# Optional human-readable alias used in author-facing inputs
-	# (CSV task files, generate_pages.py -t/--topic). None when no
+	# (CSV task files, bioproblems.py pages -t/--topic). None when no
 	# alias has been assigned. Charset [a-z0-9_]; unique per subject.
 	alias: "str | None"
 
@@ -258,7 +258,7 @@ def _nav_subject_keys(nav: list) -> tuple:
 	ordered = []
 	seen = set()
 
-	def handle(entry):
+	def handle(entry: object) -> None:
 		if isinstance(entry, dict):
 			for _label, value in entry.items():
 				if isinstance(value, str):

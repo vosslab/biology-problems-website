@@ -2,7 +2,56 @@
 
 ## 2026-09-21
 
+### Additions and New Features
+
+- Added [bioproblems.py](../bioproblems.py) as the short application CLI with
+  `pages` and `bbq` subcommands.
+- Extracted BBQ configuration, output handling, runner, TUI, and batch behavior
+  into `bioproblems_site/bbq_*.py` modules.
+- Added package-owned maintainer helpers for topic CSV export, BBQ line counts,
+  biomacromolecule data, and the deletion wordbank, exposed through
+  [devel/site_maint.py](../devel/site_maint.py).
+- Added `--all-tasks` and `--list-tasks` to the BBQ CLI and moved task CSVs and
+  BBQ settings to the repository root.
+
+### Behavior or Interface Changes
+
+- Replaced the separate page and BBQ root entrypoints with
+  `bioproblems.py pages` and `bioproblems.py bbq`; there are no compatibility
+  aliases for the removed commands.
+- Batch BBQ execution now uses `sys.executable`, one subprocess per CSV, a
+  batch-only default of 199 maximum questions, and opt-in shuffling.
+- Moved the Playwright runner to `devel/run_playwright_tests.sh` and kept its
+  command-line interface intact.
+
+### Removals
+
+- Removed the redundant page, BBQ, preview-server, generated-reset, question-
+  count, data-builder, and old BBQ-control wrapper scripts.
+
 ### Fixes and Maintenance
+
+- Reduced the maintained script inventory from 33 to 24 and made
+  [docs/FILE_STRUCTURE.md](FILE_STRUCTURE.md) the complete script map.
+- Removed the support-directory import violation by moving topic CSV export
+  into `bioproblems_site/` and removed the obsolete `tools/` test-path hook.
+- Trimmed the Playwright shell wrapper below the repository line limit and
+  annotated the moved CLI and package functions.
+
+### Decisions and Failures
+
+- Root scripts remain short workflow dispatchers; reusable behavior belongs to
+  `bioproblems_site/`, maintainer surfaces belong to `devel/`, and independent
+  utilities remain in `tools/`.
+
+### Developer Tests and Notes
+
+- Focused CLI and repository hygiene checks pass with Homebrew Git selected on
+  the host. The system Git executable is blocked by an unaccepted Xcode
+  license, so the full pytest command must use the same Git selection until the
+  host license is addressed.
+
+### Existing Support Synchronization
 
 - Synchronized shared style guides, tests, and repository support files from the starter template.
 

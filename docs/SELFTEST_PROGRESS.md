@@ -33,7 +33,7 @@ dashboard shows a non-blocking warning instead of pretending to save progress.
 
 ## Generated manifest
 
-[generate_pages.py](../generate_pages.py) writes
+`bioproblems.py pages` writes
 [selftest_question_manifest.json](../site_docs/assets/data/selftest_question_manifest.json)
 through the pipeline. The build reads topic pages reachable from the
 [mkdocs.yml](../mkdocs.yml) nav, follows their self-test `{% include ... %}`
@@ -61,7 +61,7 @@ Each manifest row has these fields:
    generated self-test shape).
 2. Reference it from a topic `index.md` reachable in the mkdocs nav via a
    `{% include "downloads/selftest-....html" %}` tag.
-3. Regenerate: `source source_me.sh && python generate_pages.py`.
+3. Regenerate: `source source_me.sh && python3 bioproblems.py pages`.
 4. Confirm the new CRC appears in the manifest JSON and that the build did not
    raise on a duplicate CRC.
 

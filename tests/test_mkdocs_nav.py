@@ -8,14 +8,14 @@ import yaml
 import bioproblems_site.mkdocs_nav as mkdocs_nav
 
 
-def test_missing_markers_raises(tmp_path):
+def test_missing_markers_raises(tmp_path: object) -> object:
 	mkdocs_path = tmp_path / "mkdocs.yml"
 	mkdocs_path.write_text("nav:\n- Home: index.md\n")
 	with pytest.raises(mkdocs_nav.NavMarkerError):
 		mkdocs_nav.replace_nav_block(str(mkdocs_path), "payload")
 
 
-def test_display_labels_read_from_list_shape(tmp_path):
+def test_display_labels_read_from_list_shape(tmp_path: object) -> object:
 	# Labels must survive when the subject's value is a list (the
 	# navigation.indexes shape) and not only when it is a bare string.
 	mkdocs_path = tmp_path / "mkdocs.yml"
@@ -32,7 +32,7 @@ def test_display_labels_read_from_list_shape(tmp_path):
 	assert labels["genetics"] == "[icon] Genetics"
 
 
-def test_replacement_preserves_surrounding_lines(tmp_path):
+def test_replacement_preserves_surrounding_lines(tmp_path: object) -> object:
 	mkdocs_path = tmp_path / "mkdocs.yml"
 	mkdocs_path.write_text(
 		"nav:\n"

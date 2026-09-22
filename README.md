@@ -37,10 +37,10 @@ To preview the site locally:
 
 ```bash
 python3.12 -m pip install -r pip_requirements.txt
-./run_web_server.sh
+source source_me.sh && python3 -m mkdocs serve
 ```
 
-The script opens `http://127.0.0.1:8000/` and stops the preview after five minutes. See
+MkDocs opens `http://127.0.0.1:8000/`. See
 [docs/INSTALL.md](docs/INSTALL.md) for setup and [docs/USAGE.md](docs/USAGE.md) for generation
 and testing workflows.
 

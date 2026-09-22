@@ -40,7 +40,7 @@ EQUIVALENCE_CORES = [
 
 @pytest.mark.parametrize("core", EQUIVALENCE_CORES)
 @pytest.mark.parametrize("prefix,ext", DOWNLOAD_FORMAT_CASES)
-def test_pure_download_basename_matches_get_outfile_name(tmp_path, core, prefix, ext):
+def test_pure_download_basename_matches_get_outfile_name(tmp_path: object, core: object, prefix: object, ext: object) -> object:
 	# Build a bbq path under tmp_path that encodes the target core
 	bbq_path = os.path.join(str(tmp_path), f"bbq-{core}-questions.txt")
 	expected_path = topic_page.get_outfile_name(bbq_path, prefix, ext)
@@ -52,7 +52,7 @@ def test_pure_download_basename_matches_get_outfile_name(tmp_path, core, prefix,
 #============================================
 # find_orphan_downloads orphan vs unmanaged classification
 
-def _make_downloads(tmp_path, names):
+def _make_downloads(tmp_path: object, names: object) -> object:
 	"""Create a downloads/ subdir with empty files for each name."""
 	downloads_dir = os.path.join(str(tmp_path), "downloads")
 	os.makedirs(downloads_dir)
@@ -62,7 +62,7 @@ def _make_downloads(tmp_path, names):
 	return downloads_dir
 
 
-def test_find_orphan_downloads_flags_prefixed_and_pgml_orphans(tmp_path):
+def test_find_orphan_downloads_flags_prefixed_and_pgml_orphans(tmp_path: object) -> object:
 	live_cores = {"alpha"}
 	# A live artifact, two ghost orphans, and one unmanaged support file
 	names = [
@@ -77,7 +77,7 @@ def test_find_orphan_downloads_flags_prefixed_and_pgml_orphans(tmp_path):
 	assert orphan_basenames == {"blackboard_export_zip-ghost.zip", "ghost.pgml"}
 
 
-def test_find_orphan_downloads_keeps_live_and_ignores_unmanaged(tmp_path):
+def test_find_orphan_downloads_keeps_live_and_ignores_unmanaged(tmp_path: object) -> object:
 	live_cores = {"alpha"}
 	names = [
 		"selftest-alpha.html",
@@ -92,7 +92,7 @@ def test_find_orphan_downloads_keeps_live_and_ignores_unmanaged(tmp_path):
 
 
 #============================================
-def test_find_orphan_downloads_removes_retired_qti_for_live_core(tmp_path):
+def test_find_orphan_downloads_removes_retired_qti_for_live_core(tmp_path: object) -> object:
 	"""A retired format is removed even when its BBQ source core is still live."""
 	live_cores = {"alpha"}
 	_make_downloads(tmp_path, ["blackboard_qti_v2_1-alpha.zip"])
@@ -102,7 +102,7 @@ def test_find_orphan_downloads_removes_retired_qti_for_live_core(tmp_path):
 
 
 #============================================
-def test_find_orphan_downloads_removes_unsupported_order_export(tmp_path):
+def test_find_orphan_downloads_removes_unsupported_order_export(tmp_path: object) -> object:
 	"""An ORDER pool export is removed even while its source is live."""
 	(tmp_path / "bbq-alpha-questions.txt").write_text("ORD\tOrder these.\n")
 	_make_downloads(tmp_path, ["blackboard_export_zip-alpha.zip"])
@@ -124,7 +124,7 @@ SOURCE_MAP_CASES = [
 
 
 @pytest.mark.parametrize("core,stem", SOURCE_MAP_CASES)
-def test_expected_source_basenames_branches(core, stem):
+def test_expected_source_basenames_branches(core: object, stem: object) -> object:
 	expected = {f"{stem}.pgml", f"{stem}.pg"}
 	assert orphan_prune.expected_source_basenames(core) == expected
 
@@ -132,14 +132,14 @@ def test_expected_source_basenames_branches(core, stem):
 #============================================
 # find_orphan_sources topic-dir scoping
 
-def test_find_orphan_sources_live_not_orphan(tmp_path):
+def test_find_orphan_sources_live_not_orphan(tmp_path: object) -> object:
 	# A topic-level master whose mapped core is live is not an orphan
 	pathlib.Path(os.path.join(str(tmp_path), "foo.pgml")).touch()
 	live_cores = {"foo"}
 	assert orphan_prune.find_orphan_sources(str(tmp_path), live_cores) == []
 
 
-def test_find_orphan_sources_absent_core_is_orphan(tmp_path):
+def test_find_orphan_sources_absent_core_is_orphan(tmp_path: object) -> object:
 	pathlib.Path(os.path.join(str(tmp_path), "foo.pgml")).touch()
 	live_cores = {"bar"}
 	orphans = orphan_prune.find_orphan_sources(str(tmp_path), live_cores)
@@ -150,7 +150,7 @@ def test_find_orphan_sources_absent_core_is_orphan(tmp_path):
 #============================================
 # quarantine_dest mapping and collision
 
-def test_quarantine_dest_maps_site_docs_to_orphaned(tmp_path):
+def test_quarantine_dest_maps_site_docs_to_orphaned(tmp_path: object) -> object:
 	# Build a synthetic site_docs subtree entirely under tmp_path
 	repo_root = str(tmp_path)
 	src_path = os.path.join(repo_root, "site_docs", "biochem", "topic07", "foo.pgml")
@@ -160,7 +160,7 @@ def test_quarantine_dest_maps_site_docs_to_orphaned(tmp_path):
 	assert dest_path == expected
 
 
-def test_quarantine_dest_raises_on_existing_dest(tmp_path):
+def test_quarantine_dest_raises_on_existing_dest(tmp_path: object) -> object:
 	# Build a synthetic site_docs subtree entirely under tmp_path
 	repo_root = str(tmp_path)
 	src_basename = "collision_master.pgml"
@@ -176,14 +176,14 @@ def test_quarantine_dest_raises_on_existing_dest(tmp_path):
 #============================================
 # strip_orphan_includes exact-line removal
 
-def _write_index(tmp_path, lines):
+def _write_index(tmp_path: object, lines: object) -> object:
 	index_path = os.path.join(str(tmp_path), "index.md")
 	with open(index_path, "w") as index_file:
 		index_file.write("".join(lines))
 	return index_path
 
 
-def test_strip_orphan_includes_removes_only_orphan_line(tmp_path):
+def test_strip_orphan_includes_removes_only_orphan_line(tmp_path: object) -> object:
 	lines = [
 		"# Topic title\n",
 		"\n",
@@ -202,7 +202,7 @@ def test_strip_orphan_includes_removes_only_orphan_line(tmp_path):
 	assert "Some prose stays here." in remaining
 
 
-def test_strip_orphan_includes_dry_run_no_write(tmp_path):
+def test_strip_orphan_includes_dry_run_no_write(tmp_path: object) -> object:
 	lines = ['{% include "downloads/selftest-ghost.html" %}\n']
 	index_path = _write_index(tmp_path, lines)
 	removed = orphan_prune.strip_orphan_includes(index_path, set(), dry_run=True)
@@ -215,7 +215,7 @@ def test_strip_orphan_includes_dry_run_no_write(tmp_path):
 #============================================
 # prune_title_cache key dropping
 
-def test_prune_title_cache_drops_stale_keeps_live_and_meta(tmp_path):
+def test_prune_title_cache_drops_stale_keeps_live_and_meta(tmp_path: object) -> object:
 	cache = {
 		"bbq-alpha-questions.txt": "Alpha title",
 		"bbq-ghost-questions.txt": "Ghost title",
@@ -237,7 +237,7 @@ def test_prune_title_cache_drops_stale_keeps_live_and_meta(tmp_path):
 #============================================
 # reconcile_topic dry-run performs no mutation
 
-def test_reconcile_topic_dry_run_no_mutation(tmp_path):
+def test_reconcile_topic_dry_run_no_mutation(tmp_path: object) -> object:
 	topic_folder = str(tmp_path)
 	# Live bbq file plus a dead include, dead artifact, and stale cache key
 	pathlib.Path(os.path.join(topic_folder, "bbq-alpha-questions.txt")).touch()

@@ -13,6 +13,7 @@ bioproblems_site.metadata.
 import os
 import glob
 import dataclasses
+from pathlib import Path
 
 # local repo modules
 import bioproblems_site.formats as formats
@@ -74,3 +75,17 @@ def scan_subject(site_docs_dir: str, subject_key: str, topic_keys: tuple) -> dic
 		topic_dir = os.path.join(subject_dir, key)
 		result[key] = scan_topic(topic_dir)
 	return result
+
+
+#============================================
+def count_bbq_lines(site_docs_dir: str | Path) -> list[tuple[int, str]]:
+	"""Return generated BBQ text files sorted from most to fewest lines."""
+	root = Path(site_docs_dir)
+	counts: list[tuple[int, str]] = []
+	for path in root.rglob("bbq-*.txt"):
+		if not path.is_file():
+			continue
+		with path.open("r") as file_handle:
+			line_count = sum(1 for _ in file_handle)
+		counts.append((line_count, str(path.relative_to(root))))
+	return sorted(counts, key=lambda item: (-item[0], item[1]))

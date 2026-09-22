@@ -7,7 +7,7 @@
 // collected by the runner.
 //
 // How to run:
-//   ./run_playwright_tests.sh          (front door: preflight + entry point)
+//   bash devel/run_playwright_tests.sh (front door: preflight + entry point)
 //   npx playwright test                (config's webServer builds + serves on its own)
 //
 // Server model: the webServer block below owns one managed server for every

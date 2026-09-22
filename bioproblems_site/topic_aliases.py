@@ -1,7 +1,7 @@
 """Pure helpers that resolve author-facing topic references.
 
 Authors type aliases (e.g. "amino_acids") in CSV task files and on the
-generate_pages.py -t/--topic CLI; the canonical internal id stays
+bioproblems.py pages -t/--topic CLI; the canonical internal id stays
 "topicNN". This module turns the author-facing form into the canonical
 form using the alias map produced by metadata.build_topic_alias_map.
 
@@ -74,7 +74,7 @@ def validate_topic_cell(text: str) -> str:
 
 
 #============================================
-def _format_source(source: str, line_number) -> str:
+def _format_source(source: str, line_number: int | None) -> str:
 	"""Compose 'source:line N' or 'source' for error messages.
 
 	Uses physical file line numbers (matching what the author sees
@@ -121,11 +121,11 @@ def resolve_topic_key(
 	alias_map: dict,
 	*,
 	source: str,
-	line_number=None,
+	line_number: int | None = None,
 ) -> str:
 	"""Resolve a per-row topic cell to a canonical topicNN key.
 
-	Used by run_bbq_tasks.py for CSV authoring; subject is known
+	Used by the BBQ CSV loader for CSV authoring; subject is known
 	per-row, so this does not return the subject.
 
 	Resolution:
@@ -192,7 +192,7 @@ def resolve_topic_filter(
 ) -> tuple:
 	"""Resolve a CLI -t/--topic argument to (subject_key, topic_key).
 
-	Used by generate_pages.py. Accepts (preferred form first):
+	Used by bioproblems.py pages. Accepts (preferred form first):
 	  - "biochemistry:amino_acids" -- always unambiguous
 	  - "biochemistry:topic03"     -- always unambiguous; raises if
 	                                  the topic has an alias defined

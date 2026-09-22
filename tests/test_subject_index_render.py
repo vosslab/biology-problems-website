@@ -15,7 +15,7 @@ import bioproblems_site.subject_index as subject_index
 
 
 @pytest.fixture
-def subject():
+def subject() -> object:
 	topic_a = metadata.Topic(
 		key="topic01", title="One", description="first",
 		libretexts=None, visible=True, alias=None,
@@ -32,7 +32,7 @@ def subject():
 	)
 
 
-def test_output_begins_with_generated_marker(subject):
+def test_output_begins_with_generated_marker(subject: object) -> object:
 	scans = {
 		"topic01": scanner.TopicScan(questions=3, formats=frozenset()),
 		"topic02": scanner.TopicScan(questions=0, formats=frozenset()),
@@ -41,7 +41,7 @@ def test_output_begins_with_generated_marker(subject):
 	assert out.startswith(subject_index.GENERATED_MARKER)
 
 
-def test_zero_question_topics_are_omitted(subject):
+def test_zero_question_topics_are_omitted(subject: object) -> object:
 	scans = {
 		"topic01": scanner.TopicScan(questions=3, formats=frozenset()),
 		"topic02": scanner.TopicScan(questions=0, formats=frozenset()),

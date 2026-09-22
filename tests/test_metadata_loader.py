@@ -11,12 +11,12 @@ import pytest
 import bioproblems_site.metadata as metadata_module
 
 
-def test_missing_file_raises(tmp_path):
+def test_missing_file_raises(tmp_path: object) -> object:
 	with pytest.raises(FileNotFoundError):
 		metadata_module.load_metadata_file(str(tmp_path / "missing.yml"))
 
 
-def test_missing_topic_description_raises(tmp_path):
+def test_missing_topic_description_raises(tmp_path: object) -> object:
 	yaml_body = (
 		"biochemistry:\n"
 		"  title: Biochemistry\n"
@@ -31,7 +31,7 @@ def test_missing_topic_description_raises(tmp_path):
 		metadata_module.load_metadata_file(str(metadata_path))
 
 
-def test_invalid_topic_key_raises(tmp_path):
+def test_invalid_topic_key_raises(tmp_path: object) -> object:
 	yaml_body = (
 		"biochemistry:\n"
 		"  title: Biochemistry\n"
@@ -47,7 +47,7 @@ def test_invalid_topic_key_raises(tmp_path):
 		metadata_module.load_metadata_file(str(metadata_path))
 
 
-def test_libretexts_bad_url_raises(tmp_path):
+def test_libretexts_bad_url_raises(tmp_path: object) -> object:
 	yaml_body = (
 		"biochemistry:\n"
 		"  title: Biochemistry\n"

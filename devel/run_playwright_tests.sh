@@ -1,29 +1,5 @@
 #!/usr/bin/env bash
-# run_playwright_tests.sh - run the Playwright browser test suite.
-#
-# Contract:
-#   - Requires node and npm on PATH.
-#   - Requires node_modules/ to be installed (npm install).
-#   - Requires playwright.config.ts at the repo root.
-#   - Assumption: playwright.config.ts owns the test server via its webServer
-#     block (mkdocs build, then serve site/ over HTTP). This script does NOT
-#     start the server itself; Playwright spins up its own managed server as
-#     configured in playwright.config.ts.
-#   - Pass --build to force a 'mkdocs build' pass before running tests. A
-#     normal run relies on the config's webServer to build; this script also
-#     runs a light build when site/ is not yet present.
-#   - Remaining arguments are forwarded to 'npx playwright test'.
-#   - Exits with playwright's exit code.
-#   - Prints a clear PASS or FAIL line on completion.
-#
-# Flags:
-#   -h, --help    Print usage and exit 0.
-#   --build       Force a 'mkdocs build' pass before running tests.
-#
-# Examples:
-#   bash run_playwright_tests.sh
-#   bash run_playwright_tests.sh --build
-#   bash run_playwright_tests.sh tests/playwright/smoke.spec.ts
+# Run the Playwright browser test suite. playwright.config.ts owns the server.
 
 set -euo pipefail
 
@@ -63,15 +39,8 @@ done
 cd "$(git rev-parse --show-toplevel)"
 
 # Preflight: ensure required tools and project state are present.
-if ! command -v node >/dev/null 2>&1; then
-	echo "ERROR: node not found on PATH. Install Node.js first." >&2
-	exit 1
-fi
-
-if ! command -v npm >/dev/null 2>&1; then
-	echo "ERROR: npm not found on PATH. Install Node.js first." >&2
-	exit 1
-fi
+command -v node >/dev/null 2>&1 || { echo "ERROR: node not found on PATH. Install Node.js first." >&2; exit 1; }
+command -v npm >/dev/null 2>&1 || { echo "ERROR: npm not found on PATH. Install Node.js first." >&2; exit 1; }
 
 if [ ! -d node_modules ]; then
 	echo "ERROR: node_modules/ missing. Run 'npm install' first." >&2
@@ -86,19 +55,12 @@ fi
 
 # Build gate: rebuild the MkDocs site when forced or when the built output is
 # not yet present. A normal run otherwise relies on the config's webServer.
-if [ "$FORCE_BUILD" -eq 1 ]; then
+if [ "$FORCE_BUILD" -eq 1 ] || [ ! -d site ]; then
 	if ! command -v mkdocs >/dev/null 2>&1; then
 		echo "ERROR: mkdocs not found on PATH. Install MkDocs first." >&2
 		exit 1
 	fi
-	echo "==> --build flag set: running mkdocs build..."
-	mkdocs build
-elif [ ! -d site ]; then
-	if ! command -v mkdocs >/dev/null 2>&1; then
-		echo "ERROR: mkdocs not found on PATH. Install MkDocs first." >&2
-		exit 1
-	fi
-	echo "==> site/ missing: running mkdocs build..."
+	echo "==> running mkdocs build..."
 	mkdocs build
 fi
 

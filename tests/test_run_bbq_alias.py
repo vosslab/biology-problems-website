@@ -1,6 +1,6 @@
-"""Integration tests for run_bbq_tasks.py CSV topic resolution.
+"""Integration tests for BBQ CSV topic resolution.
 
-Tests the resolver wiring inside load_tasks_csv via small in-memory
+Tests the resolver wiring inside bbq_config.load_tasks_csv via small in-memory
 CSVs and a hand-crafted alias map. Real metadata is not required.
 """
 
@@ -12,10 +12,10 @@ import pytest
 
 # local repo modules
 import bioproblems_site.metadata as metadata
-import run_bbq_tasks
+import bioproblems_site.bbq_config as bbq_config
 
 
-def _bbq_config(tmp_path):
+def _bbq_config(tmp_path: object) -> object:
 	"""Minimal bbq_config that load_tasks_csv accepts without aliases.
 
 	bp_root is a path-alias root that the resolver uses to expand
@@ -31,7 +31,7 @@ def _bbq_config(tmp_path):
 	return config
 
 
-def _alias_map_with_amino_acids():
+def _alias_map_with_amino_acids() -> object:
 	"""Alias map: biochemistry topic03 has alias amino_acids; topic14 has none."""
 	subjects = {
 		"biochemistry": metadata.Subject(
@@ -51,48 +51,48 @@ def _alias_map_with_amino_acids():
 	return metadata.build_topic_alias_map(subjects)
 
 
-def _write_csv(tmp_path, body):
+def _write_csv(tmp_path: object, body: object) -> object:
 	"""Write a CSV under tmp_path and return its absolute path."""
 	path = tmp_path / "tasks.csv"
 	path.write_text(textwrap.dedent(body).lstrip())
 	return str(path)
 
 
-def test_alias_resolves_to_canonical_topicNN(tmp_path):
+def test_alias_resolves_to_canonical_topicNN(tmp_path: object) -> object:
 	body = """
 		subject,topic,script,flags,input,notes
 		biochemistry,amino_acids,which_macromolecule.py,,,
 	"""
-	tasks = run_bbq_tasks.load_tasks_csv(
+	tasks = bbq_config.load_tasks_csv(
 		_write_csv(tmp_path, body), _bbq_config(tmp_path), _alias_map_with_amino_acids(),
 	)
 	# Output dir contains canonical topic03 even though the CSV used the alias.
 	assert tasks[0]["output_dir"].endswith("/topic03")
 
 
-def test_raw_topicNN_for_aliased_topic_raises(tmp_path):
+def test_raw_topicNN_for_aliased_topic_raises(tmp_path: object) -> object:
 	body = """
 		subject,topic,script,flags,input,notes
 		biochemistry,topic03,which_macromolecule.py,,,
 	"""
 	with pytest.raises(metadata.MetadataError):
-		run_bbq_tasks.load_tasks_csv(
+		bbq_config.load_tasks_csv(
 			_write_csv(tmp_path, body), _bbq_config(tmp_path), _alias_map_with_amino_acids(),
 		)
 
 
-def test_raw_topicNN_for_non_aliased_topic_accepted(tmp_path):
+def test_raw_topicNN_for_non_aliased_topic_accepted(tmp_path: object) -> object:
 	body = """
 		subject,topic,script,flags,input,notes
 		biochemistry,topic14,which_macromolecule.py,,,
 	"""
-	tasks = run_bbq_tasks.load_tasks_csv(
+	tasks = bbq_config.load_tasks_csv(
 		_write_csv(tmp_path, body), _bbq_config(tmp_path), _alias_map_with_amino_acids(),
 	)
 	assert tasks[0]["output_dir"].endswith("/topic14")
 
 
-def test_blank_separator_row_skipped(tmp_path):
+def test_blank_separator_row_skipped(tmp_path: object) -> object:
 	# All-blank rows between blocks should be skipped before topic
 	# resolution so an empty topic cell does not raise.
 	body = """
@@ -101,7 +101,7 @@ def test_blank_separator_row_skipped(tmp_path):
 		,,,,,
 		biochemistry,topic14,which_macromolecule.py,,,
 	"""
-	tasks = run_bbq_tasks.load_tasks_csv(
+	tasks = bbq_config.load_tasks_csv(
 		_write_csv(tmp_path, body), _bbq_config(tmp_path), _alias_map_with_amino_acids(),
 	)
 	# Both real rows resolved; the blank separator did not produce a
@@ -114,23 +114,23 @@ def test_blank_separator_row_skipped(tmp_path):
 	assert any(d.endswith("/topic14") for d in output_dirs)
 
 
-def test_unknown_subject_raises(tmp_path):
+def test_unknown_subject_raises(tmp_path: object) -> object:
 	body = """
 		subject,topic,script,flags,input,notes
 		physics,whatever,foo.py,,,
 	"""
 	with pytest.raises(metadata.MetadataError):
-		run_bbq_tasks.load_tasks_csv(
+		bbq_config.load_tasks_csv(
 			_write_csv(tmp_path, body), _bbq_config(tmp_path), _alias_map_with_amino_acids(),
 		)
 
 
-def test_unknown_alias_raises(tmp_path):
+def test_unknown_alias_raises(tmp_path: object) -> object:
 	body = """
 		subject,topic,script,flags,input,notes
 		biochemistry,nonexistent_alias,which_macromolecule.py,,,
 	"""
 	with pytest.raises(metadata.MetadataError):
-		run_bbq_tasks.load_tasks_csv(
+		bbq_config.load_tasks_csv(
 			_write_csv(tmp_path, body), _bbq_config(tmp_path), _alias_map_with_amino_acids(),
 		)
