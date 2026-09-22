@@ -36,4 +36,5 @@ class BuildScope:
 	dry_run: bool = False
 	full: bool = False
 	max_questions: int | None = None
+	backend: str = "ollama"
 	model: str | None = None

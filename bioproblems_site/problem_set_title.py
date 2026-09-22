@@ -141,7 +141,7 @@ def read_file_content(file_path: str) -> str:
 
 #==============
 
-# This function sends a prompt to a local LLM and retrieves the response.
+# This function sends a prompt to the selected LLM backend and retrieves the response.
 def run_llm(client: llm.LLMClient, prompt: str) -> str:
 	"""
 	Generate a response from a pre-built LLMClient.
@@ -165,7 +165,7 @@ def get_problem_title_from_response(response_content: str) -> str:
 	Extract and return the problem title from the response content.
 
 	Args:
-		response_content (str): The response content from the Ollama model.
+		response_content (str): The response content from the selected LLM backend.
 
 	Returns:
 		str: The extracted problem title.
@@ -268,7 +268,7 @@ def get_problem_title_from_file(client: llm.LLMClient, file_path: str) -> str:
 	# Generate a prompt using the loaded problem statements
 	prompt = generate_title_prompt(file_path, problem_statements)
 
-	# Run the local LLM to generate a response for the prompt
+	# Run the selected LLM backend to generate a response for the prompt
 	response_content = run_llm(client, prompt)
 
 	# Extract the problem title from the model's response

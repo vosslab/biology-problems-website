@@ -11,6 +11,9 @@
 - Added `--subject`, `--tasks`, `--limit`, `--shuffle`, `--dry-run`, `--full`, and `--model`
   to the public build command. Dry runs are planning-only; `--full` bypasses stale
   checks without expanding the requested scope.
+- Added `--backend` to choose Ollama, Codex CLI, or Claude Code CLI for generated
+  page titles. Ollama remains the default; Codex uses its configured CLI model
+  when `--model` is omitted.
 
 ### Fixes and Maintenance
 

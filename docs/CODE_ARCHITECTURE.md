@@ -15,6 +15,8 @@ CLI exposes one dependency-aware content build workflow.
   stale checks and output-owned stage entrypoints.
 - [bioproblems_site/question_index.py](../bioproblems_site/question_index.py):
   generated human-readable problem-set title index.
+- [bioproblems_site/llm_helpers.py](../bioproblems_site/llm_helpers.py):
+  title-generation backend seam for Ollama, Codex CLI, and Claude Code CLI.
 - [bioproblems_site/bbq_workflow.py](../bioproblems_site/bbq_workflow.py): task
   selection, local BBQ stale checks, and structured change reporting.
 - [bioproblems_site/bbq_config.py](../bioproblems_site/bbq_config.py): settings,

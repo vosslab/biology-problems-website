@@ -1,9 +1,11 @@
 """Project-local seam over local_llm_wrapper.llm.
 
-Mirrors validate_ollama_model and create_llm_client from the sibling repo
-biology-problems/topic_classifier/classifier_common.py so the integration
-shape stays consistent across repos.
+The build supports Ollama, Codex CLI, and Claude Code CLI title generation
+through the same LLMClient interface.
 """
+
+# Standard Library
+import shutil
 
 # PIP3 modules
 import ollama
@@ -12,6 +14,8 @@ import local_llm_wrapper.llm as llm
 
 
 DEFAULT_OLLAMA_MODEL = "gemma4:e4b"
+LLM_BACKENDS = ("ollama", "codex", "claude")
+DEFAULT_LLM_BACKEND = "ollama"
 
 
 #============================================
@@ -48,16 +52,49 @@ def validate_ollama_model(model: str) -> None:
 
 
 #============================================
-def create_llm_client(model: str = None) -> llm.LLMClient:
-	"""Create an Ollama client for problem-set title generation.
+def validate_backend(backend: str, model: str | None = None) -> None:
+	"""Validate the selected title-generation backend before rendering."""
+	if backend not in LLM_BACKENDS:
+		raise ValueError(
+			f"Unknown LLM backend: {backend}. "
+			f"Choose one of: {', '.join(LLM_BACKENDS)}."
+		)
+	if backend == "ollama":
+		validate_ollama_model(model or DEFAULT_OLLAMA_MODEL)
+		return
+	cli_name = "codex" if backend == "codex" else "claude"
+	if shutil.which(cli_name) is None:
+		raise RuntimeError(
+			f"The {backend} backend requires the '{cli_name}' command on PATH."
+		)
+
+
+#============================================
+def create_llm_client(
+		backend: str = DEFAULT_LLM_BACKEND,
+		model: str | None = None,
+	) -> llm.LLMClient:
+	"""Create a title-generation client for the selected backend.
 
 	Args:
-		model: exact Ollama model name, or None for the project default
+		backend: one of ``ollama``, ``codex``, or ``claude``
+		model: backend-specific model name, or None for that backend's default
 
 	Returns:
-		configured LLMClient with a single Ollama transport
+		configured LLMClient with one selected transport
 	"""
-	ollama_model = model if model else DEFAULT_OLLAMA_MODEL
-	transport = llm.OllamaTransport(model=ollama_model)
+	if backend == "ollama":
+		transport = llm.OllamaTransport(model=model or DEFAULT_OLLAMA_MODEL)
+	elif backend == "codex":
+		transport = llm.CodexTransport(model=model)
+	elif backend == "claude":
+		transport = llm.ClaudeCodeTransport(model=model)
+	else:
+		raise ValueError(
+			f"Unknown LLM backend: {backend}. "
+			f"Choose one of: {', '.join(LLM_BACKENDS)}."
+		)
+	# ASVS 1.2.5 and 2.2.1: backend names are an allowlist, and the selected
+	# transport receives the prompt through its parameterized process/API path.
 	client = llm.LLMClient(transports=[transport], quiet=True)
 	return client

@@ -27,11 +27,37 @@ def test_parse_scope_resolves_task_and_model_from_repository_root(
 	repo_root = Path(__file__).resolve().parents[1]
 	monkeypatch.chdir(repo_root / "tests")
 	scope = build_site.parse_scope([
-		"--tasks", "task_files/biochem_tasks1.csv", "--model", "gemma4:e4b",
+		"--tasks", "task_files/biochem_tasks1.csv", "--backend", "codex",
+		"--model", "gpt-5-codex",
 	])
 
 	assert scope.tasks_csv == repo_root / "task_files/biochem_tasks1.csv"
-	assert scope.model == "gemma4:e4b"
+	assert scope.backend == "codex"
+	assert scope.model == "gpt-5-codex"
+
+
+#============================================
+def test_codex_backend_selects_codex_transport(monkeypatch: pytest.MonkeyPatch) -> None:
+	"""The Codex backend maps to the wrapper's Codex transport."""
+	seen: dict[str, object] = {}
+
+	class FakeTransport:
+		def __init__(self, model: str | None) -> None:
+			seen["model"] = model
+
+	class FakeClient:
+		def __init__(self, transports: list[object], quiet: bool) -> None:
+			seen["transport"] = transports[0]
+			seen["quiet"] = quiet
+
+	monkeypatch.setattr(build_stages.llm_helpers.llm, "CodexTransport", FakeTransport)
+	monkeypatch.setattr(build_stages.llm_helpers.llm, "LLMClient", FakeClient)
+
+	build_stages.llm_helpers.create_llm_client("codex", "gpt-5-codex")
+
+	assert isinstance(seen["transport"], FakeTransport)
+	assert seen["model"] == "gpt-5-codex"
+	assert seen["quiet"] is True
 
 
 #============================================

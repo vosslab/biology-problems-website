@@ -72,10 +72,13 @@ Common flags:
 - `--tasks task_files/genetics_tasks1.csv`: select one configured CSV.
 - `--limit 1`: limit BBQ task selection during development.
 - `--shuffle`: shuffle BBQ task order before applying `--limit`.
+- `--backend BACKEND`: use `ollama`, `codex`, or `claude` for generated
+  problem-set titles. Ollama remains the default; Codex uses its configured
+  CLI model when `--model` is omitted.
 - `--dry-run`: report planned work without generators, LLM calls, subprocesses,
   or writes.
 - `--full`: bypass stale checks within the selected subject, task, or limit scope.
-- `--model MODEL`: use an installed Ollama model for problem-set title generation.
+- `--model MODEL`: use a specific model with the selected title-generation backend.
 
 An unrestricted run applies the all-task 199-question maximum. A selected CSV,
 subject, or limited run keeps its configured generator limits.
