@@ -1,7 +1,7 @@
 """Pure helpers that resolve author-facing topic references.
 
 Authors type aliases (e.g. "amino_acids") in CSV task files and on the
-bioproblems.py pages -t/--topic CLI; the canonical internal id stays
+the former page-only CLI; the canonical internal id stays
 "topicNN". This module turns the author-facing form into the canonical
 form using the alias map produced by metadata.build_topic_alias_map.
 
@@ -192,7 +192,7 @@ def resolve_topic_filter(
 ) -> tuple:
 	"""Resolve a CLI -t/--topic argument to (subject_key, topic_key).
 
-	Used by bioproblems.py pages. Accepts (preferred form first):
+Used by the former page-only CLI. Accepts (preferred form first):
 	  - "biochemistry:amino_acids" -- always unambiguous
 	  - "biochemistry:topic03"     -- always unambiguous; raises if
 	                                  the topic has an alias defined

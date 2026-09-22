@@ -2,7 +2,7 @@
 
 ## Top-level layout
 
-- [bioproblems.py](../bioproblems.py): primary `pages` and `bbq` application CLI.
+- [build_site.py](../build_site.py): primary unified site-build CLI.
 - [source_me.sh](../source_me.sh): Python and sibling-repository environment contract.
 - [topics_metadata.yml](../topics_metadata.yml): subject and topic source of truth.
 - [bbq_settings.yml](../bbq_settings.yml): BBQ path and script aliases.
@@ -26,7 +26,7 @@ maintenance and test orchestration; `tools/` remains standalone.
 
 | Path | Purpose | Invocation |
 | --- | --- | --- |
-| [bioproblems.py](../bioproblems.py) | Application dispatcher | `python3 bioproblems.py pages` or `bbq` |
+| [build_site.py](../build_site.py) | Unified content build | `source source_me.sh && ./build_site.py` |
 | [source_me.sh](../source_me.sh) | Shell environment contract | `source source_me.sh` |
 
 ### `tools/`

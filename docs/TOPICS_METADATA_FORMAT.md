@@ -2,7 +2,7 @@
 
 `topics_metadata.yml` at the repo root is the single source of truth for
 subject and topic metadata. It is loaded by every program that needs to
-know what subjects and topics exist: `bioproblems.py`, the package modules,
+know what subjects and topics exist: `build_site.py`, the package modules,
 and the task CSV loader.
 
 This document describes the file's schema and the canonical-id vs alias
@@ -69,8 +69,7 @@ There are two names for every topic, used at different layers:
   on-disk folder name (`site_docs/<subject>/topicNN/`), the mkdocs nav
   segment, the URL segment, and the sort order.
 - `alias` is the author-facing input form. Authors type the alias (for
-  example `amino_acids`) into BBQ task CSVs and into
-  `bioproblems.py pages -t/--topic`. The resolver in
+  example `amino_acids`) into BBQ task CSVs. The resolver in
   `bioproblems_site/topic_aliases.py` converts the alias back to the
   canonical `topicNN` at input time.
 
@@ -135,7 +134,7 @@ canonical id.
 ## Alias stability
 
 Aliases are part of the public author-facing contract. They appear
-verbatim in BBQ task CSVs, in CLI invocations, and in author memory.
+verbatim in BBQ task CSVs and in author memory.
 
 - Do NOT rename an alias casually as part of a metadata cleanup pass.
 - A rename is a deliberate, scripted CSV migration: update
@@ -147,8 +146,7 @@ verbatim in BBQ task CSVs, in CLI invocations, and in author memory.
 ## Hidden topics
 
 Topics with `visible: false` are still first-class metadata entries.
-They remain referenceable by both BBQ task CSVs and the
-`bioproblems.py pages -t/--topic` filter. The resolver does not filter on
+They remain referenceable by BBQ task CSVs. The resolver does not filter on
 `visible`; visibility only affects rendering (subject index, nav).
 
 This lets you keep a topic in the metadata file (for BBQ generation,
@@ -180,11 +178,11 @@ biochemistry:
 Notes on the example:
 
 - `topic01` has an alias; authors must write `biochemistry:biomolecules`
-  in CSVs and on the CLI. Writing `biochemistry,topic01` raises.
+  in CSVs. Writing `biochemistry,topic01` raises.
 - `topic02` has no alias; authors may still write `biochemistry,topic02`
   directly. Adding an alias later is fine but is a CSV migration event.
 - `topic02` is hidden from the rendered site but remains a valid target
-  for BBQ tasks and the CLI topic filter.
+  for BBQ tasks.
 
 ## See also
 

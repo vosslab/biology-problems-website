@@ -488,7 +488,7 @@
   for unaliased topics, subject:topicNN for aliased topics raises,
   bare alias unique, bare alias ambiguous raises, bare topicNN unaliased,
   bare topicNN all-aliased raises, unknown alias raises, malformed forms.
-- Patch 6: New [dump_topics_csv.py](../tools/dump_topics_csv.py)
+- Patch 6: New `dump_topics_csv.py`
   utility exports topics metadata to a CSV file with columns
   `subject, topic_key, alias, title, description` (one row per topic,
   ordered by subject then topic_key). Enables offline cross-reference
@@ -502,17 +502,17 @@
   and ordering (subjects alphabetical, topics within subject by key).
 - Patch 2: Relocated `bbq_control/run_bbq_tasks.py` to the repo root
   via `git mv` so the script can `import bioproblems_site` the same
-  way [generate_pages.py](../generate_pages.py) does. The repo-root
+  way `generate_pages.py` does. The repo-root
   `source_me.sh` does not add the repo root to `PYTHONPATH`, so a
   script under `bbq_control/` could not reach the `bioproblems_site`
-  package. Updated [all_tasks.sh](../bbq_control/all_tasks.sh)
+  package. Updated `all_tasks.sh`
   to call `../run_bbq_tasks.py`,
-  [USAGE.md](../bbq_control/USAGE.md) to reference the
+  `USAGE.md` to reference the
   repo-root path, and the BBQ-flow paragraph in
   [CODE_ARCHITECTURE.md](CODE_ARCHITECTURE.md). Verified
   the move with `python3 run_bbq_tasks.py -t bbq_control/task_files/biochem_tasks1.csv -s bbq_control/bbq_settings.yml -n -F -l 3` (after sourcing `bbq_control/source_me.sh` which sets up the BP_ROOT/qti-package-maker `PYTHONPATH` the script validates at startup).
 
-- Patch 3: Wired [run_bbq_tasks.py](../run_bbq_tasks.py) CSV `topic`
+- Patch 3: Wired `run_bbq_tasks.py` CSV `topic`
   column through `bioproblems_site.topic_aliases.resolve_topic_key`.
   Topic metadata loads once in `main()` (not per CSV / per row);
   schema validation now fires every BBQ run too. The legacy
@@ -535,7 +535,7 @@
   use chapter-only links" / "LibreTexts unit is optional; 0 means
   the external link has no unit number").
 - Cleaned up
-  [USAGE.md](../bbq_control/USAGE.md) "CSV format" header
+  `USAGE.md` "CSV format" header
   list which still said `chapter,topic,...`; corrected to
   `subject,topic,...` and added a short note that the topic cell
   may be either canonical `topicNN` or a per-subject alias.
@@ -585,17 +585,17 @@
   through aliases; cross-references the matching
   `generate_pages.py -t/--topic` syntax (preferred form
   `subject:alias`). Both docs cross-link to each other and to
-  [USAGE.md](../bbq_control/USAGE.md). README.md and
+  `USAGE.md`. README.md and
   docs/USAGE.md updated with pointers.
 - Made the `-o/--output` flag on
-  [dump_topics_csv.py](../tools/dump_topics_csv.py) optional;
+  `dump_topics_csv.py` optional;
   default is now `topics_reference.csv` in the current working
   directory (was: required `-o`). Relative paths resolve against
   CWD, not the repo root; no automatic directory creation.
 - Post-merge code/test cleanup from review:
   - Renamed the resolver kwarg `row_number` -> `line_number` in
     [topic_aliases.py](../bioproblems_site/topic_aliases.py)
-    and [run_bbq_tasks.py](../run_bbq_tasks.py); error messages now
+    and `run_bbq_tasks.py`; error messages now
     say `<csv>:line N` (physical file line, matches the editor)
     instead of `:row N` which was ambiguous between header-aware
     and 1-based-data-row counts.
@@ -604,7 +604,7 @@
     with `bp_metadata.TOPIC_KEY_RE.match(part)` so future changes
     to the topic key contract live in one place.
   - Swapped the inline `subprocess git rev-parse` repo-root call in
-    [dump_topics_csv.py](../tools/dump_topics_csv.py) for
+    `dump_topics_csv.py` for
     `bioproblems_site.git_paths.get_repo_root()` (production code
     must not import from `tests/`).
   - [test_run_bbq_alias.py](../tests/test_run_bbq_alias.py):
@@ -658,7 +658,7 @@
   post-rename production run on biochem_tasks1.csv exits 0.
 - Additional code cleanup from the round-2 review:
   - Replaced the local `get_repo_root()` in
-    [run_bbq_tasks.py](../run_bbq_tasks.py) with the shared
+    `run_bbq_tasks.py` with the shared
     `bioproblems_site.git_paths.get_repo_root()` so production
     code has one canonical implementation. Tests continue to use
     `tests/git_file_utils.get_repo_root()` (tests-only).
@@ -677,19 +677,18 @@
 
 ### Behavior or Interface Changes
 - Added two short path aliases to
-  [bbq_settings.yml](../bbq_control/bbq_settings.yml):
+  `bbq_settings.yml`:
   `bp_mcs` (resolves to `{bp_root}/multiple_choice_statements`) and
   `bp_match` (resolves to `{bp_root}/matching_sets`). Replaced the older
   long-named `multiple_choice_statements` and `matching_sets` aliases (the
   `script_aliases` and `pgml_script_map` blocks now reference the short
   names). Substituted `{bp_root}/multiple_choice_statements` -> `{bp_mcs}`
   and `{bp_root}/matching_sets` -> `{bp_match}` across
-  [biochem_tasks1.csv](../bbq_control/task_files/biochem_tasks1.csv),
-  [biochem_tasks2.csv](../bbq_control/task_files/biochem_tasks2.csv),
-  and [biochem_tasks3.csv](../bbq_control/task_files/biochem_tasks3.csv)
+  `biochem_tasks1.csv`, `biochem_tasks2.csv`,
+  and `biochem_tasks3.csv`
   to shorten frequent path prefixes. No code changes were required because
   `resolve_alias_map` in
-  [run_bbq_tasks.py](../run_bbq_tasks.py)
+  `run_bbq_tasks.py`
   already supports recursive `{key}` expansion.
 
 ### Developer Tests and Notes
@@ -702,8 +701,8 @@
 ## 2026-04-22
 
 ### Fixes and Maintenance
-- Updated [biochem_tasks1.csv](../bbq_control/task_files/biochem_tasks1.csv)
-  and [biochem_tasks3.csv](../bbq_control/task_files/biochem_tasks3.csv)
+- Updated `biochem_tasks1.csv`
+  and `biochem_tasks3.csv`
   to match the 2026-04-22 biology-problems changelog entry that moved lipid
   generators into `problems/biochemistry-problems/lipids/` and replaced
   `fatty_acid_naming.py` with four new generators
@@ -715,7 +714,7 @@
 ## 2026-04-18
 
 ### Behavior or Interface Changes
-- Redesigned the `generate_pages.py` CLI from two mutually-exclusive mode flags to three composable build-axis flags plus one alias. Old flags removed: `--indexes-only`, `--topics-only`, `--adopt-existing`. New flags: `-S`/`--subject-indexes`, `-T`/`--topic-pages`, `-G`/`--generate-downloads`, `--full`. The default (no flag) is now the fast subject-indexes + nav path (was: full run). Migration mapping: old `./generate_pages.py` full run -> `./generate_pages.py --full`; old `--indexes-only` -> bare `./generate_pages.py` (or `-S`); old `--topics-only` -> `-T -G`. Net-new workflow: bare `-T` regenerates `topic??/index.md` layout without rebuilding any download artifact files (fast middle path that did not exist before). `-G` without `-T` and `--full` combined with any of `-S`/`-T`/`-G` are hard argparse errors. Wired via [generate_pages.py](../generate_pages.py), [pipeline.py](../bioproblems_site/pipeline.py), [topic_page.py](../bioproblems_site/topic_page.py). Rationale: the old `--indexes-only`/`--topics-only` pair hid the real cost axes, and the old default always paid for the slow download-artifact regeneration even for routine top-level maintenance.
+- Redesigned the `generate_pages.py` CLI from two mutually-exclusive mode flags to three composable build-axis flags plus one alias. Old flags removed: `--indexes-only`, `--topics-only`, `--adopt-existing`. New flags: `-S`/`--subject-indexes`, `-T`/`--topic-pages`, `-G`/`--generate-downloads`, `--full`. The default (no flag) is now the fast subject-indexes + nav path (was: full run). Migration mapping: old `./generate_pages.py` full run -> `./generate_pages.py --full`; old `--indexes-only` -> bare `./generate_pages.py` (or `-S`); old `--topics-only` -> `-T -G`. Net-new workflow: bare `-T` regenerates `topic??/index.md` layout without rebuilding any download artifact files (fast middle path that did not exist before). `-G` without `-T` and `--full` combined with any of `-S`/`-T`/`-G` are hard argparse errors. Wired via `generate_pages.py`, [pipeline.py](../bioproblems_site/pipeline.py), [topic_page.py](../bioproblems_site/topic_page.py). Rationale: the old `--indexes-only`/`--topics-only` pair hid the real cost axes, and the old default always paid for the slow download-artifact regeneration even for routine top-level maintenance.
 
 ### Fixes and Maintenance
 - Dropped the `adopt_existing` kwarg from `bioproblems_site.pipeline.run` and `_write_subject_index`. All 6 live subject `index.md` files now carry the generated marker, so the one-shot migration escape hatch has no remaining use. The marker check still fires if a future hand-authored subject index appears; its error now points at "delete and regenerate" rather than the removed flag.

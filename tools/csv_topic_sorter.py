@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Sort BBQ task CSV rows into the topic order from topics_metadata.yml.
 
-The sorter is deliberately independent of bioproblems.py bbq and the site
+The sorter is deliberately independent of build_site.py and the site
 package. It reads topics_metadata.yml directly, keeps every nonblank CSV row
 unchanged, and writes only standardized blank separator rows between topic
 groups.

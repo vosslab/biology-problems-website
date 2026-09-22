@@ -323,6 +323,10 @@ def load_tasks_csv(
 					"output": output,
 					"output_dir": output_dir,
 					"input_path": input_path,
+					# These canonical keys come from the CSV and metadata resolver.
+					# Downstream stages must not recover them from output paths.
+					"subject": subject,
+					"topic": topic,
 				}
 				script_basename = os.path.basename(script_path)
 				if script_basename in pgml_script_map and input_path:

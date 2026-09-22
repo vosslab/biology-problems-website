@@ -1,5 +1,22 @@
 # Changelog
 
+## 2026-09-22
+
+### Behavior or Interface Changes
+
+- Replaced the root `bioproblems.py pages` and `bioproblems.py bbq` commands
+  with the unified [build_site.py](../build_site.py) workflow. It selects stale
+  BBQ tasks and propagates changed subject-qualified topics through self-tests,
+  topic pages, downloads, and subject indexes/navigation.
+- Added `--subject`, `--tasks`, `--limit`, `--dry-run`, `--full`, and `--model`
+  to the public build command. Dry runs are planning-only; `--full` bypasses stale
+  checks without expanding the requested scope.
+
+### Fixes and Maintenance
+
+- Separated self-test and download writes from topic-page rendering, retained
+  batch-only `--max-questions 199`, and left final sitemap generation to MkDocs.
+
 ## 2026-09-21
 
 ### Additions and New Features
@@ -71,7 +88,7 @@
 
 ### Additions and New Features
 
-- Added [run_web_server.sh](../run_web_server.sh) as the repository-aware local preview command.
+- Added `run_web_server.sh` as the repository-aware local preview command.
   It resolves the Git root, loads [source_me.sh](../source_me.sh), serves MkDocs at
   `http://127.0.0.1:8000/`, opens the browser, and cleans up automatically after five minutes
   while preserving early server failures.
@@ -242,7 +259,7 @@
   [tests/playwright/helper_smoke_checks.mjs](../tests/playwright/helper_smoke_checks.mjs)
   (structural checks plus the question-agnostic self-test driver), with `.d.mts` type
   declarations so the `.ts` spec can import them.
-- Added `-H`/`--selftests` to [generate_pages.py](../generate_pages.py): a standalone pass that
+- Added `-H`/`--selftests` to `generate_pages.py`: a standalone pass that
   force-regenerates every self-test HTML from its `bbq-*.txt` source via qti-package-maker
   (treats all as stale), honoring `-s`/`--subject` and `-t`/`--topic`, without rewriting
   `index.md` or contacting the LLM. Backed by `run_selftests` in

@@ -1,6 +1,6 @@
 """Orchestrate page generation: metadata load + scan + subject index
 rendering + topic page rendering + mkdocs.yml nav-block update. Called
-from the bioproblems.py pages entrypoint.
+from the former page-only entrypoint.
 """
 
 # Standard Library

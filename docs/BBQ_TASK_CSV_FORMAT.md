@@ -1,7 +1,7 @@
 # BBQ task CSV format
 
 BBQ task CSV files under [task_files/](../task_files/) drive
-`bioproblems.py bbq`. Each row describes one generation task: which script to run,
+`build_site.py`. Each row describes one generation task: which script to run,
 which inputs to pass, and where the output belongs.
 
 This document describes the column schema and how the `topic` column
@@ -125,29 +125,9 @@ Things to notice:
 
 ## CLI cross-reference
 
-The same alias system is used by `bioproblems.py pages -t/--topic`. The
-runner and the CLI share
-[bioproblems_site/topic_aliases.py](../bioproblems_site/topic_aliases.py)
-so the rules are identical.
-
-The preferred CLI form is `subject:alias`, which is always
-unambiguous:
-
-```bash
-source source_me.sh && python3 bioproblems.py pages -t biochemistry:amino_acids
-```
-
-Other accepted CLI forms:
-
-- `biochemistry:topic03` -- canonical pair; raises if the topic has an
-  alias defined (must use the alias instead).
-- `amino_acids` -- bare alias; valid only if exactly one subject
-  defines that alias. Ambiguous matches raise with the candidate
-  `subject:alias` list.
-- `topic03` -- bare canonical; valid only if exactly one subject
-  defines `topic03` and that topic has no alias. Most subjects share
-  `topic03`, so this form usually raises; this is intentional and
-  steers authors toward `subject:alias`.
+Task CSV aliases resolve to canonical `subject` plus `topicNN` keys. The unified
+build uses that pair directly for downstream stages because `topicNN` repeats
+across subjects.
 
 ## See also
 

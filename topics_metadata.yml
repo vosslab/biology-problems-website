@@ -1,7 +1,7 @@
 # topics_metadata.yml
 # Single source of truth for subject and topic metadata.
 # Question counts are NOT stored here; they are scanned from disk by
-# bioproblems.py pages at generation time.
+# build_site.py at generation time.
 # Subject display labels and nav order live in mkdocs.yml, not here.
 
 biochemistry:
