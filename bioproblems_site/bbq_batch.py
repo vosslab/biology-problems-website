@@ -29,15 +29,10 @@ def build_runner_command(
 	max_questions = args.max_questions if args.max_questions is not None else 199
 	command = [
 		sys.executable,
-		str(repo_root / "bioproblems.py"),
-		"bbq",
-		"--flat",
+		str(repo_root / "build_site.py"),
 		"--max-questions", str(max_questions),
-		"--settings", str(settings_path),
 		"--tasks", str(task_file),
 	]
-	if args.shuffle_tasks:
-		command.append("--shuffle")
 	if args.limit is not None:
 		command.extend(["--limit", str(args.limit)])
 	if args.dry_run:
@@ -131,7 +126,7 @@ def run_all_task_files(args: object) -> int:
 		print(f"No task CSV files found in {repo_root / 'task_files'}")
 		return 1
 	required_paths = (
-		repo_root / "bioproblems.py",
+		repo_root / "build_site.py",
 		repo_root / "topics_metadata.yml",
 		settings_path,
 		source_me_path,

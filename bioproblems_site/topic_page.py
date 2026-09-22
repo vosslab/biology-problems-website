@@ -2,7 +2,7 @@
 
 Extracted from the former root-level generate_topic_pages.py. Exposes
 render_all() as the callable entrypoint for bioproblems_site.pipeline.
-No argparse here -- that lives in bioproblems_site.pages_cli.
+No argparse here; the public parser lives in build_site.py.
 """
 
 # Standard Library
@@ -27,7 +27,7 @@ import bioproblems_site.problem_set_title
 
 #==============
 
-MKDOCS_CONFIG: str = "mkdocs.yml"
+MKDOCS_CONFIG: str = os.path.join(git_paths.get_repo_root(), "mkdocs.yml")
 
 # ANSI color codes for readable CLI output.
 COLOR_RESET = "\033[0m"
@@ -107,6 +107,9 @@ class RenderOptions:
 	# build draws a fresh random question from the bbq-*.txt source.
 	# Intentional -- do not re-gate for speed.
 	regenerate_selftests: bool = True
+	# A page can render expected missing links while the download stage owns
+	# every artifact write.
+	render_missing_download_links: bool = False
 	verbose: bool = True
 	# Pre-built LLMClient for problem-set title generation. The pipeline
 	# constructs one Ollama client at startup using the default or --model.
@@ -214,6 +217,7 @@ def create_downloadable_format(bbq_file: str, prefix: str, extension: str) -> st
 	if prefix == "bbq":
 		raise ValueError
 	file_path = get_outfile_name(bbq_file, prefix, extension)
+	remove_case_mismatched_files(file_path)
 	if os.path.exists(file_path):
 		os.remove(file_path)
 	converter_path = git_paths.find_bbq_converter()
@@ -329,6 +333,7 @@ def generate_download_button_row(
 	stats: dict,
 	*,
 	generate_downloads: bool = False,
+	render_missing_download_links: bool = False,
 ) -> str:
 	"""
 	Generates a row of HTML buttons for downloading various file types.
@@ -436,15 +441,17 @@ def generate_download_button_row(
 		# When generate_downloads is off, never create missing artifact
 		# files. Skip the button entirely for formats that do not yet
 		# exist on disk.
+		planned_missing_artifact = False
 		if not generate_downloads and not exists_before:
 			if verbose:
 				print(color_text(
-					f"  SKIP {file_type['display_name']}: "
-					f"not generating missing artifact",
+					f"  MISSING {file_type['display_name']}: {out_file_path}",
 					COLOR_YELLOW,
 				))
-			record_stat(stats, type_key, "skipped")
-			continue
+			record_stat(stats, type_key, "missing")
+			if not render_missing_download_links:
+				continue
+			planned_missing_artifact = True
 		# Check if the source file is newer than the existing download file
 		source_is_newer = False
 		if exists_before:
@@ -478,7 +485,7 @@ def generate_download_button_row(
 			if verbose:
 				print(color_text(f"  MISSING {file_type['display_name']}: {out_file_path}", COLOR_YELLOW))
 			record_stat(stats, type_key, "missing")
-		else:
+		elif not planned_missing_artifact:
 			if verbose:
 				print(color_text(f"  BUILD {file_type['display_name']}: {out_file_path}", COLOR_CYAN))
 			out_file_path = create_downloadable_format(
@@ -486,13 +493,17 @@ def generate_download_button_row(
 				file_type['prefix'],
 				file_type['extension'],
 			)
-		if not os.path.isfile(out_file_path):
+		if not planned_missing_artifact and not os.path.isfile(out_file_path):
 			if verbose:
 				print(color_text(f"  MISSING {file_type['display_name']}: {out_file_path}", COLOR_YELLOW))
 			if type_key != "bb_text":
 				record_stat(stats, type_key, "failed")
 			continue
-		if type_key != "bb_text" and not (exists_before and not force_downloads):
+		if (
+			type_key != "bb_text"
+			and not planned_missing_artifact
+			and not (exists_before and not force_downloads)
+		):
 			record_stat(stats, type_key, "generated")
 		out_file_basename = os.path.basename(out_file_path)
 		out_relative_path = os.path.relpath(out_file_path, start=dir_name)
@@ -632,7 +643,8 @@ def extract_core_name(bbq_file_name: str) -> str:
 
 
 #==============
-def get_outfile_name(bbq_file_name: str, prefix: str, extension: str) -> str:
+def get_expected_outfile_name(bbq_file_name: str, prefix: str, extension: str) -> str:
+	"""Return a generated artifact path without touching the filesystem."""
 	dirname = os.path.join(os.path.dirname(bbq_file_name), "downloads")
 	outfile = extract_core_name(bbq_file_name)
 	if not outfile.startswith(prefix):
@@ -641,8 +653,13 @@ def get_outfile_name(bbq_file_name: str, prefix: str, extension: str) -> str:
 	if not outfile.endswith("." + extension):
 		outfile += "." + extension
 	outfile = os.path.join(dirname, outfile)
-	remove_case_mismatched_files(outfile)
 	return outfile
+
+
+#============================================
+def get_outfile_name(bbq_file_name: str, prefix: str, extension: str) -> str:
+	"""Return the expected artifact path for compatibility with existing callers."""
+	return get_expected_outfile_name(bbq_file_name, prefix, extension)
 
 #==============
 
@@ -660,6 +677,7 @@ def update_index_md(
 	*,
 	generate_downloads: bool = False,
 	regenerate_selftests: bool = True,
+	render_missing_download_links: bool = False,
 ) -> None:
 	"""Update or create the index.md file for the topic.
 
@@ -692,10 +710,6 @@ def update_index_md(
 	index_md_path = os.path.join(topic_folder, "index.md")
 	print(f'writing to {index_md_path}')
 	with open(index_md_path, "w") as index_md:
-		downloads_folder = os.path.join(topic_folder, "downloads")
-		if not os.path.isdir(downloads_folder):
-			os.makedirs(downloads_folder)
-
 		index_md.write(f"# {title}\n\n")
 		index_md.write(f"{description}\n\n")
 		if libretexts_link:
@@ -740,10 +754,9 @@ def update_index_md(
 			html_file_path = get_outfile_name(bbq_file, 'selftest', 'html')
 			# The self-test HTML is a rotating artifact: each build draws a fresh
 			# random question from the bbq-*.txt source via bbq_converter. Rotation
-			# is intentional and ON by default (regenerate_selftests). --no-selftests
-			# reuses the existing file for fast -T iteration; a missing file is always
-			# built so the include on the following lines never breaks.
-			if regenerate_selftests or not os.path.isfile(html_file_path):
+			# is intentional when this low-level renderer is explicitly asked to
+			# rotate it. The unified build owns missing/stale self-test writes.
+			if regenerate_selftests:
 				if os.path.exists(html_file_path):
 					os.remove(html_file_path)
 				html_file_path = create_downloadable_format(bbq_file, 'selftest', 'html')
@@ -752,8 +765,10 @@ def update_index_md(
 					record_stat(stats, "selftest", "failed")
 					raise FileNotFoundError(html_file_path)
 				record_stat(stats, "selftest", "generated")
-			else:
+			elif os.path.isfile(html_file_path):
 				record_stat(stats, "selftest", "existing")
+			else:
+				record_stat(stats, "selftest", "missing")
 
 			# Generate the problem set title using the LLM
 			problem_set_title = get_problem_set_title(client, bbq_file)
@@ -769,6 +784,7 @@ def update_index_md(
 				verbose,
 				stats,
 				generate_downloads=generate_downloads,
+				render_missing_download_links=render_missing_download_links,
 			)
 			index_md.write(download_button_row)
 			index_md.write("<details>\n")
@@ -785,6 +801,20 @@ def update_index_md(
 			index_md.write("  </summary>\n")
 			index_md.write(f"  {{% include \"{os.path.relpath(html_file_path, base_dir)}\" %}}\n\n")
 			index_md.write("</details>\n\n\n")
+
+
+#==============
+def generate_download_artifacts(bbq_file_name: str, verbose: bool = True) -> None:
+	"""Create converter-owned downloads without rendering a topic page."""
+	stats = init_format_stats()
+	generate_download_button_row(
+		bbq_file_name,
+		list(DOWNLOAD_FORMAT_KEYS),
+		force_downloads=False,
+		verbose=verbose,
+		stats=stats,
+		generate_downloads=True,
+	)
 
 #==============
 
@@ -912,6 +942,7 @@ def render_all(
 	options: "RenderOptions | None" = None,
 	subject_filter: "str | None" = None,
 	topic_filter: "str | None" = None,
+	base_dir: "str | None" = None,
 ) -> None:
 	"""Traverse topic folders and (re)generate their index.md files.
 
@@ -924,11 +955,13 @@ def render_all(
 		subject_filter: if set, only render topics under this subject key.
 		topic_filter: if set, only render this topic key (within the
 			filtered subject, if subject_filter is also set).
+		base_dir: absolute site_docs directory supplied by a coordinator.
 	"""
 	if options is None:
 		options = RenderOptions()
 	stats = init_format_stats()
-	base_dir = get_docs_dir()
+	if base_dir is None:
+		base_dir = get_docs_dir()
 	if not os.path.exists(base_dir):
 		raise FileNotFoundError(f"Base directory '{base_dir}' not found.")
 	if options.verbose:
@@ -979,6 +1012,7 @@ def render_all(
 			client=options.llm_client,
 			generate_downloads=options.generate_downloads,
 			regenerate_selftests=options.regenerate_selftests,
+			render_missing_download_links=options.render_missing_download_links,
 		)
 	if options.verbose:
 		print("\n\nSummary:")

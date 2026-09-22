@@ -436,7 +436,47 @@ def prune_title_cache(yaml_path: str, live_bbq_basenames: set, dry_run: bool) ->
 # Topic reconcile driver
 
 #============================================
-def compute_live_state(topic_folder: str) -> tuple:
+def _matches_task_owned_pattern(
+		basename: str,
+		patterns: list[tuple[set[str], tuple[str, ...], set[str]]],
+	) -> bool:
+	"""Return whether a BBQ basename matches one current task-owned pattern."""
+	for prefixes, suffixes, explicit_basenames in patterns:
+		if basename in explicit_basenames:
+			return True
+		if not any(basename.startswith(prefix) for prefix in prefixes):
+			continue
+		if suffixes and not any(basename.endswith(suffix) for suffix in suffixes):
+			continue
+		return True
+	return False
+
+
+#============================================
+def find_task_owned_source_orphans(
+		topic_folder: str,
+		task_owned_patterns: list[tuple[set[str], tuple[str, ...], set[str]]] | None,
+	) -> list[str]:
+	"""Return recognized BBQ sources no current task pattern owns.
+
+	A missing pattern list preserves the legacy live-file policy. The caller
+	provides patterns only when all current task CSVs define ownership.
+	"""
+	if task_owned_patterns is None:
+		return []
+	orphan_paths: list[str] = []
+	for bbq_path in glob.glob(os.path.join(topic_folder, "bbq-*-questions.txt")):
+		basename = os.path.basename(bbq_path)
+		if not _matches_task_owned_pattern(basename, task_owned_patterns):
+			orphan_paths.append(bbq_path)
+	return orphan_paths
+
+
+#============================================
+def compute_live_state(
+		topic_folder: str,
+		task_owned_patterns: list[tuple[set[str], tuple[str, ...], set[str]]] | None = None,
+	) -> tuple:
 	"""Compute the live cores and bbq basenames for a topic.
 
 	Args:
@@ -448,10 +488,14 @@ def compute_live_state(topic_folder: str) -> tuple:
 	live_cores = set()
 	live_bbq_basenames = set()
 	bbq_glob = os.path.join(topic_folder, "bbq-*-questions.txt")
-	# Each live bbq file contributes one core and one basename
+	# Each task-owned live BBQ file contributes one core and one basename.
 	for bbq_path in glob.glob(bbq_glob):
+		basename = os.path.basename(bbq_path)
+		if task_owned_patterns is not None:
+			if not _matches_task_owned_pattern(basename, task_owned_patterns):
+				continue
 		live_cores.add(topic_page.extract_core_name(bbq_path))
-		live_bbq_basenames.add(os.path.basename(bbq_path))
+		live_bbq_basenames.add(basename)
 	return live_cores, live_bbq_basenames
 
 
@@ -461,6 +505,7 @@ def reconcile_topic(
 		live_cores: set,
 		tracked_set: set,
 		dry_run: bool,
+		task_owned_patterns: list[tuple[set[str], tuple[str, ...], set[str]]] | None = None,
 	) -> dict:
 	"""Reconcile every bbq-derived target for one topic against live cores.
 
@@ -482,20 +527,30 @@ def reconcile_topic(
 		dry_run (bool): When True, plan only; perform no mutation.
 
 	Returns:
-		dict: Risk-grouped action plan with keys delete_downloads,
+		dict: Risk-grouped action plan with keys delete_sources, delete_downloads,
 			strip_includes, drop_cache_keys, quarantine_sources, and
 			unmanaged.
 	"""
-	# Recompute live bbq basenames locally for the title-cache prune
-	_, live_bbq_basenames = compute_live_state(topic_folder)
+	# A supplied task map replaces the legacy file-exists definition of live.
+	if task_owned_patterns is not None:
+		live_cores, live_bbq_basenames = compute_live_state(topic_folder, task_owned_patterns)
+	else:
+		_, live_bbq_basenames = compute_live_state(topic_folder)
 
 	plan = {
+		"delete_sources": [],
 		"delete_downloads": [],
 		"strip_includes": [],
 		"drop_cache_keys": [],
 		"quarantine_sources": [],
 		"unmanaged": [],
 	}
+
+	# Target 0: recognized BBQ sources absent from all current task CSVs -> delete.
+	for orphan_path in find_task_owned_source_orphans(topic_folder, task_owned_patterns):
+		plan["delete_sources"].append(orphan_path)
+		if not dry_run:
+			_delete_path(orphan_path, tracked_set)
 
 	# Target 1: orphan downloads/ artifacts and pgml/pg copies -> delete
 	download_result = find_orphan_downloads(topic_folder, live_cores)
@@ -530,7 +585,12 @@ def reconcile_topic(
 
 
 #============================================
-def reconcile_all(site_docs_dir: str, dry_run: bool, verbose: bool) -> dict:
+def reconcile_all(
+		site_docs_dir: str,
+		dry_run: bool,
+		verbose: bool,
+		task_owned_pattern_map: dict[str, list[tuple[set[str], tuple[str, ...], set[str]]]] | None = None,
+	) -> dict:
 	"""Reconcile every topic under a site_docs dir against its live cores.
 
 	Builds the git tracked-set once, globs the same topic-folder shape as
@@ -545,7 +605,7 @@ def reconcile_all(site_docs_dir: str, dry_run: bool, verbose: bool) -> dict:
 
 	Returns:
 		dict: Combined risk-grouped action plan across all topics, with keys
-			delete_downloads, strip_includes, drop_cache_keys,
+			delete_sources, delete_downloads, strip_includes, drop_cache_keys,
 			quarantine_sources, and unmanaged.
 	"""
 	# Build the tracked-set once and inject it into every reconcile_topic call
@@ -555,6 +615,7 @@ def reconcile_all(site_docs_dir: str, dry_run: bool, verbose: bool) -> dict:
 	if verbose:
 		print(f"orphan_prune: reconciling {len(all_topic_folders)} topic folders")
 	combined = {
+		"delete_sources": [],
 		"delete_downloads": [],
 		"strip_includes": [],
 		"drop_cache_keys": [],
@@ -563,15 +624,19 @@ def reconcile_all(site_docs_dir: str, dry_run: bool, verbose: bool) -> dict:
 	}
 	# Reconcile each topic and fold its plan into the combined plan
 	for topic_folder in all_topic_folders:
-		# Live cores are derived from the topic's surviving bbq files
-		live_cores, _ = compute_live_state(topic_folder)
-		plan = reconcile_topic(topic_folder, live_cores, tracked_set, dry_run)
+		# A missing topic key means no current task owns this topic's BBQ files.
+		patterns = None
+		if task_owned_pattern_map is not None:
+			patterns = task_owned_pattern_map.get(os.path.realpath(topic_folder), [])
+		live_cores, _ = compute_live_state(topic_folder, patterns)
+		plan = reconcile_topic(topic_folder, live_cores, tracked_set, dry_run, patterns)
 		for key in combined:
 			combined[key].extend(plan[key])
 		if verbose:
 			summary = (
 				f"  {topic_folder}: "
-				f"delete={len(plan['delete_downloads'])} "
+				f"delete-sources={len(plan['delete_sources'])} "
+				f"delete-downloads={len(plan['delete_downloads'])} "
 				f"strip={len(plan['strip_includes'])} "
 				f"drop={len(plan['drop_cache_keys'])} "
 				f"quarantine={len(plan['quarantine_sources'])} "

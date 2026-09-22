@@ -13,6 +13,13 @@ import dataclasses
 # PIP3 modules
 import yaml
 
+import bioproblems_site.git_paths as git_paths
+
+
+REPO_ROOT: str = git_paths.get_repo_root()
+DEFAULT_METADATA_PATH = os.path.join(REPO_ROOT, "topics_metadata.yml")
+DEFAULT_MKDOCS_PATH = os.path.join(REPO_ROOT, "mkdocs.yml")
+
 #============================================
 # Nav entries that are allowed to exist in mkdocs.yml without a
 # matching YAML subject key. These are the top-level non-subject pages
@@ -61,7 +68,7 @@ class Topic:
 	libretexts: "LibreTextsLink | None"
 	visible: bool
 	# Optional human-readable alias used in author-facing inputs
-	# (CSV task files, bioproblems.py pages -t/--topic). None when no
+	# (CSV task files and former page-only CLI filters). None when no
 	# alias has been assigned. Charset [a-z0-9_]; unique per subject.
 	alias: "str | None"
 
@@ -300,8 +307,8 @@ def load_mkdocs_nav(mkdocs_path: str) -> tuple:
 
 #============================================
 def load_topics_metadata(
-	metadata_path: str = "topics_metadata.yml",
-	mkdocs_path: str = "mkdocs.yml",
+	metadata_path: str = DEFAULT_METADATA_PATH,
+	mkdocs_path: str = DEFAULT_MKDOCS_PATH,
 ) -> tuple:
 	"""Load YAML + cross-check mkdocs.yml.
 
