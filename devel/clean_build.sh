@@ -1,55 +1,50 @@
 #!/usr/bin/env bash
-# clean_build.sh - light clean: wipe build output, tool caches, and test
-# artifacts while KEEPING dependency installs (node_modules, Rust target/) so no
-# reinstall or full recompile is needed afterward.
-#
-# Front door: this is the everyday build cleaner, wired to `npm run clean` in
-# TypeScript repos. Run directly as ./devel/clean_build.sh. For a deep reset that
-# also removes node_modules and Rust target/ (a distribution-clean checkout), use
-# devel/dist_clean.sh instead. Both keep the committed package-lock.json.
-#
-# Universal across repo types (python, typescript, rust). Patterns that do not
-# exist in a given repo are silently skipped via `nullglob` + an existence
-# check, so no false-positive output.
+# This file is vendored. Local changes can and will be overwritten by propagation.
+
+# Light clean: build/test output and caches only. Dependencies stay installed.
+# For a distribution-clean checkout that re-fetches dependencies, use dist_clean.sh.
 set -euo pipefail
-shopt -s globstar nullglob
 cd "$(git rev-parse --show-toplevel)"
 
 DELETED=()
 
-# delete_if_exists <path...>
-# Removes each path that exists (file, dir, or symlink) and records it.
-# Unmatched globs expand to nothing under nullglob, so missing entries
-# silently no-op and are not reported.
-delete_if_exists() {
-	local p
-	for p in "$@"; do
-		if [ -e "$p" ] || [ -L "$p" ]; then
-			rm -rf "$p"
-			DELETED+=("$p")
-		fi
+delete_path() {
+	local p="$1"
+	if [ -e "$p" ] || [ -L "$p" ]; then
+		rm -rf "$p"
+		DELETED+=("$p")
+	fi
+}
+
+delete_paths() {
+	local path
+	for path in "$@"; do
+		delete_path "$path"
 	done
 }
 
-# Generic build outputs (any language).
-delete_if_exists dist dist-single _site build out
+delete_find_matches() {
+	local match
+	while IFS= read -r -d '' match; do
+		rm -rf "$match"
+		DELETED+=("${match#./}")
+	done < <(find . "$@" -print0)
+}
 
-# TypeScript / JS build artifacts and bundler metadata.
-delete_if_exists _bundle.js meta.json stats.html
-delete_if_exists **/*.tsbuildinfo
-
-# JS/TS tool caches.
-delete_if_exists .cache .eslintcache .prettiercache .nyc_output
-
-# Test outputs (Playwright, coverage).
-delete_if_exists test-results playwright-report blob-report coverage
-
-# Python bytecode and tool caches (any depth).
-delete_if_exists **/__pycache__ **/.pytest_cache **/.mypy_cache **/.ruff_cache
-
-# Dependency installs (node_modules, Rust target/) and the committed
-# package-lock.json are intentionally KEPT here. Use devel/dist_clean.sh for a
-# full reset that also removes node_modules and target/.
+delete_paths dist dist-single _site build out _bundle.js meta.json stats.html
+delete_paths .cache .eslintcache .prettiercache .nyc_output
+# Keep SwiftPM dependency checkouts and resolution state for the next build.
+delete_paths .build/debug .build/release .build/artifacts .build/build.db DerivedData
+delete_paths test-results playwright-report blob-report coverage
+delete_find_matches -type f -name '*.tsbuildinfo'
+delete_find_matches -type d -path './.build/*-apple-macosx'
+delete_find_matches -type f -path './.build/*.yaml'
+delete_find_matches -type d -name '*.xcresult'
+delete_find_matches -type d -name 'xcuserdata'
+delete_find_matches -type d -name '__pycache__'
+delete_find_matches -type d -name '.pytest_cache'
+delete_find_matches -type d -name '.mypy_cache'
+delete_find_matches -type d -name '.ruff_cache'
 
 if [ "${#DELETED[@]}" -eq 0 ]; then
 	echo "Nothing to clean."
