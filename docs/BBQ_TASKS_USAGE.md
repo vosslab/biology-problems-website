@@ -26,8 +26,9 @@ source source_me.sh && ./build_site.py
 Only an unrestricted all-task run receives the 199-question maximum. A selected
 CSV (`--tasks`) keeps each configured generator's own question limit; scoped
 `--subject` and `--limit` runs do not receive the all-task default. The public
-command accepts `--subject`, `--tasks`, `--limit`, `--shuffle`, `--dry-run`,
-`--full`, and `--model`.
+command accepts `--subject`, `--tasks`, `--limit`, `--shuffle`, `--backend`,
+`--dry-run`, `--full`, and `--model`. Use `--backend codex` to generate page
+titles through the configured Codex CLI instead of Ollama.
 
 Use `--shuffle --limit N` to sample N task rows in random order during
 development. Shuffling is opt-in and happens before the limit is applied.

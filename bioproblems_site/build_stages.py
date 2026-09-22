@@ -96,9 +96,11 @@ def run_topic_page(topic_ref: TopicRef, scope: BuildScope) -> set[Path]:
 	page_path = topic_folder(topic_ref) / "index.md"
 	if scope.dry_run:
 		return {page_path}
-	model = scope.model or llm_helpers.DEFAULT_OLLAMA_MODEL
-	llm_helpers.validate_ollama_model(model)
-	client = llm_helpers.create_llm_client(model=model)
+	llm_helpers.validate_backend(scope.backend, scope.model)
+	client = llm_helpers.create_llm_client(
+		backend=scope.backend,
+		model=scope.model,
+	)
 	options = topic_page_module.RenderOptions(
 		verbose=True,
 		llm_client=client,

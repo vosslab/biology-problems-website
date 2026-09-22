@@ -7,6 +7,7 @@ from pathlib import Path
 import bioproblems_site.build_contracts as build_contracts
 import bioproblems_site.build_coordinator as build_coordinator
 import bioproblems_site.git_paths as git_paths
+import bioproblems_site.llm_helpers as llm_helpers
 
 
 #============================================
@@ -24,6 +25,7 @@ def build_parser() -> argparse.ArgumentParser:
 			"  ./build_site.py --subject genetics\n"
 			"  ./build_site.py --tasks task_files/genetics_tasks1.csv\n"
 			"  ./build_site.py --shuffle --limit 1\n"
+			"  ./build_site.py --backend codex\n"
 			"  ./build_site.py --dry-run\n"
 			"  ./build_site.py --full"
 		),
@@ -36,7 +38,18 @@ def build_parser() -> argparse.ArgumentParser:
 	parser.add_argument("--shuffle", action="store_true", help="Shuffle BBQ tasks before applying --limit.")
 	parser.add_argument("--dry-run", action="store_true", help="Show what would be rebuilt without changing files.")
 	parser.add_argument("--full", action="store_true", help="Rebuild everything in the selected scope, even if up to date.")
-	parser.add_argument("--model", metavar="MODEL", help="Use a specific installed Ollama model for generated page titles.")
+	parser.add_argument(
+		"--backend",
+		choices=llm_helpers.LLM_BACKENDS,
+		default=llm_helpers.DEFAULT_LLM_BACKEND,
+		metavar="BACKEND",
+		help="Use Ollama, Codex, or Claude for generated page titles (default: ollama).",
+	)
+	parser.add_argument(
+		"--model",
+		metavar="MODEL",
+		help="Use a specific model with the selected title-generation backend.",
+	)
 	parser.add_argument("--max-questions", type=int, help=argparse.SUPPRESS)
 	return parser
 
@@ -69,6 +82,7 @@ def parse_scope(arguments: list[str] | None = None) -> build_contracts.BuildScop
 		dry_run=args.dry_run,
 		full=args.full,
 		max_questions=args.max_questions,
+		backend=args.backend,
 		model=args.model,
 	)
 	return scope

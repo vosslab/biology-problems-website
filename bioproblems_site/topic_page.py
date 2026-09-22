@@ -112,7 +112,7 @@ class RenderOptions:
 	render_missing_download_links: bool = False
 	verbose: bool = True
 	# Pre-built LLMClient for problem-set title generation. The pipeline
-	# constructs one Ollama client at startup using the default or --model.
+	# constructs it from the selected backend and optional --model.
 	llm_client: object = None
 
 #==============
