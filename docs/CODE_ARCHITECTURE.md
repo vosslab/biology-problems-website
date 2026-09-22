@@ -13,6 +13,8 @@ CLI exposes one dependency-aware content build workflow.
   ordered BBQ, self-test, topic-page, download, and index/navigation orchestration.
 - [bioproblems_site/build_stages.py](../bioproblems_site/build_stages.py): local
   stale checks and output-owned stage entrypoints.
+- [bioproblems_site/question_index.py](../bioproblems_site/question_index.py):
+  generated human-readable problem-set title index.
 - [bioproblems_site/bbq_workflow.py](../bioproblems_site/bbq_workflow.py): task
   selection, local BBQ stale checks, and structured change reporting.
 - [bioproblems_site/bbq_config.py](../bioproblems_site/bbq_config.py): settings,
@@ -41,8 +43,8 @@ versioning, changelog, release, graphify, and cleanup workflows.
 The coordinator loads the selected task CSVs from [task_files/](../task_files/),
 resolves their canonical subject/topic keys from metadata, and reports `TopicRef`
 changes rather than inferring identity from paths. It owns stage order: BBQ task
-generation, self-tests, topic pages, downloads, then subject indexes, navigation,
-reconciliation, and the self-test manifest. Each stage owns its direct stale
+generation, self-tests, topic pages, downloads, reconciliation, the searchable
+question index, then subject indexes, navigation, and the self-test manifest. Each stage owns its direct stale
 check and outputs. The index stage updates source navigation in
 [mkdocs.yml](../mkdocs.yml); MkDocs separately renders the final site and owns
 `sitemap.xml`.

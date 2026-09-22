@@ -71,6 +71,7 @@ Common flags:
 - `--subject genetics`: restrict every stage to genetics.
 - `--tasks task_files/genetics_tasks1.csv`: select one configured CSV.
 - `--limit 1`: limit BBQ task selection during development.
+- `--shuffle`: shuffle BBQ task order before applying `--limit`.
 - `--dry-run`: report planned work without generators, LLM calls, subprocesses,
   or writes.
 - `--full`: bypass stale checks within the selected subject, task, or limit scope.
@@ -78,6 +79,12 @@ Common flags:
 
 An unrestricted run applies the all-task 199-question maximum. A selected CSV,
 subject, or limited run keeps its configured generator limits.
+
+The generated [All Questions](../site_docs/sitemap.md) page is a human-readable
+sitemap of problem-set titles. It is included in the MkDocs navigation so users
+can search the complete title list with the browser's native Find command.
+MkDocs continues to generate the SEO `sitemap.xml`; that XML file lists URLs,
+while the page supplies the searchable problem information.
 
 ## Self-test progress
 

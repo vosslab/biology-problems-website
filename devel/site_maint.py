@@ -57,6 +57,7 @@ def run_reset_generated(_args: argparse.Namespace) -> int:
 		":(glob)site_docs/*/topic*/index.md",
 		":(glob)site_docs/**/bbq-*-questions.txt",
 		"site_docs/assets/data/selftest_question_manifest.json",
+		"site_docs/sitemap.md",
 	]
 	subprocess.run(["git", "checkout", "--", *pathspecs], cwd=repo_root, check=True)
 	subprocess.run(

@@ -3,6 +3,7 @@
 import dataclasses
 import os
 from pathlib import Path
+import random
 
 import bioproblems_site.bbq_config as bbq_config
 import bioproblems_site.bbq_outputs as bbq_outputs
@@ -109,6 +110,19 @@ def _task_ref(task: dict[str, object]) -> TopicRef:
 
 
 #============================================
+def _apply_task_selection(
+		tasks: list[dict[str, object]],
+		scope: BuildScope,
+	) -> list[dict[str, object]]:
+	"""Apply optional randomization before the development task limit."""
+	if scope.shuffle:
+		random.shuffle(tasks)
+	if scope.limit is not None:
+		return tasks[:scope.limit]
+	return tasks
+
+
+#============================================
 def _load_scoped_tasks(scope: BuildScope) -> list[dict[str, object]]:
 	"""Load canonical task dictionaries inside the requested public scope."""
 	settings = bbq_config.load_bbq_config(str(DEFAULT_SETTINGS_PATH))
@@ -127,9 +141,7 @@ def _load_scoped_tasks(scope: BuildScope) -> list[dict[str, object]]:
 			task["settings_path"] = str(DEFAULT_SETTINGS_PATH)
 			if scope.subject is None or task["subject"] == scope.subject:
 				tasks.append(task)
-	if scope.limit is not None:
-		tasks = tasks[:scope.limit]
-	return tasks
+	return _apply_task_selection(tasks, scope)
 
 
 #============================================
@@ -156,6 +168,7 @@ def configured_topics(scope: BuildScope) -> set[TopicRef]:
 def run_if_needed(scope: BuildScope) -> BuildChanges:
 	"""Run stale BBQ tasks or report their planned subject-qualified scope."""
 	tasks = _load_scoped_tasks(scope)
+	selected_topics = {_task_ref(task) for task in tasks}
 	pending_tasks = [task for task in tasks if task_needs_run(task, scope)]
 	if scope.dry_run:
 		planned_topics = {_task_ref(task) for task in pending_tasks}
@@ -163,9 +176,9 @@ def run_if_needed(scope: BuildScope) -> BuildChanges:
 		planned_files = set().union(*(expected_output_paths(task) for task in pending_tasks))
 		for task in pending_tasks:
 			print(f"[dry-run] BBQ {_task_ref(task).subject}/{_task_ref(task).topic}")
-		return BuildChanges(planned_topics, planned_subjects, planned_files)
+		return BuildChanges(planned_topics, planned_subjects, planned_files, selected_topics)
 	if not pending_tasks:
-		return BuildChanges()
+		return BuildChanges(selected_topics=selected_topics)
 	settings = bbq_config.load_bbq_config(str(DEFAULT_SETTINGS_PATH))
 	pythonpath_ok, pythonpath_message = bbq_config.check_pythonpath(settings)
 	if not pythonpath_ok:
@@ -206,4 +219,4 @@ def run_if_needed(scope: BuildScope) -> BuildChanges:
 		after_outputs = expected_output_paths(task)
 		changed_files.update(before_outputs)
 		changed_files.update(after_outputs)
-	return BuildChanges(changed_topics, changed_subjects, changed_files)
+	return BuildChanges(changed_topics, changed_subjects, changed_files, selected_topics)

@@ -7,6 +7,7 @@ import bioproblems_site.bbq_workflow as bbq_workflow
 import bioproblems_site.metadata as metadata_module
 import bioproblems_site.mkdocs_nav as mkdocs_nav_module
 import bioproblems_site.orphan_prune as orphan_prune_module
+import bioproblems_site.question_index as question_index_module
 import bioproblems_site.scanner as scanner_module
 import bioproblems_site.selftest_manifest as selftest_manifest_module
 import bioproblems_site.subject_index as subject_index_module
@@ -184,6 +185,15 @@ def run_subject_indexes(scope: BuildScope) -> set[Path]:
 		str(DEFAULT_SITE_DOCS), scope.dry_run, verbose=True,
 		task_owned_pattern_map=task_owned_patterns,
 	)
+	question_index_path = DEFAULT_SITE_DOCS / "sitemap.md"
+	question_index_module.write(
+		question_index_path,
+		DEFAULT_SITE_DOCS,
+		DEFAULT_METADATA_PATH,
+		DEFAULT_MKDOCS_PATH,
+		dry_run=scope.dry_run,
+	)
+	outputs.add(question_index_path)
 	for subject_key in subject_keys:
 		outputs.add(_write_subject_index(subjects[subject_key], DEFAULT_SITE_DOCS, scope.dry_run))
 	# Navigation is global and inexpensive. Rebuild it even for a selected

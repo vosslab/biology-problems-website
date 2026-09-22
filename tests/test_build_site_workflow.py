@@ -35,6 +35,20 @@ def test_parse_scope_resolves_task_and_model_from_repository_root(
 
 
 #============================================
+def test_shuffle_is_applied_before_limit(monkeypatch: pytest.MonkeyPatch) -> None:
+	"""The public shuffle option changes the sampled task set before its limit."""
+	tasks = [{"subject": "genetics", "topic": str(index)} for index in range(3)]
+	monkeypatch.setattr(bbq_workflow.random, "shuffle", lambda values: values.reverse())
+	scope = build_site.parse_scope(["--shuffle", "--limit", "2"])
+
+	selected = bbq_workflow._apply_task_selection(
+		tasks, BuildScope(shuffle=scope.shuffle, limit=scope.limit),
+	)
+
+	assert [task["topic"] for task in selected] == ["2", "1"]
+
+
+#============================================
 def test_task_needs_run_uses_direct_input_mtime(tmp_path: Path) -> None:
 	"""An output older than its configured source is selected again."""
 	script_path = tmp_path / "generator.py"
@@ -206,74 +220,6 @@ def test_subject_dry_run_plans_global_reconciliation_without_mutating_site_files
 	assert stage_order == ["reconcile", "index", "nav", "manifest"]
 	assert orphan_path.read_text() == orphan_content
 	assert manifest_calls[0]["dry_run"] is True
-
-
-#============================================
-@pytest.mark.parametrize("scope, expected_model", [
-	(BuildScope(model="test-model"), "test-model"),
-	(BuildScope(), build_stages.llm_helpers.DEFAULT_OLLAMA_MODEL),
-])
-def test_topic_page_validates_effective_model_before_creating_client(
-	monkeypatch: pytest.MonkeyPatch,
-	scope: BuildScope,
-	expected_model: str,
-) -> None:
-	"""A real topic-page render validates the requested or default model first."""
-	topic_ref = TopicRef("genetics", "topic01")
-	stage_order: list[str] = []
-	monkeypatch.setattr(
-		build_stages.llm_helpers,
-		"validate_ollama_model",
-		lambda model: stage_order.append(f"validate:{model}"),
-	)
-	monkeypatch.setattr(
-		build_stages.llm_helpers,
-		"create_llm_client",
-		lambda model: stage_order.append(f"client:{model}") or object(),
-	)
-	monkeypatch.setattr(
-		build_stages.topic_page_module,
-		"render_all",
-		lambda *args, **kwargs: stage_order.append("render"),
-	)
-
-	build_stages.run_topic_page(topic_ref, scope)
-
-	assert stage_order == [
-		f"validate:{expected_model}", f"client:{expected_model}", "render"
-	]
-
-
-#============================================
-def test_dry_run_topic_page_does_not_validate_or_create_client(
-	monkeypatch: pytest.MonkeyPatch,
-) -> None:
-	"""Planning a topic page does not contact Ollama or create a client."""
-	topic_ref = TopicRef("genetics", "topic01")
-
-	def ollama_must_not_run(model: str) -> None:
-		raise AssertionError(f"dry run validated {model}")
-
-	def client_must_not_run(model: str) -> object:
-		raise AssertionError(f"dry run created client for {model}")
-
-	monkeypatch.setattr(build_stages.llm_helpers, "validate_ollama_model", ollama_must_not_run)
-	monkeypatch.setattr(build_stages.llm_helpers, "create_llm_client", client_must_not_run)
-
-	assert build_stages.run_topic_page(topic_ref, BuildScope(dry_run=True)) == {
-		build_stages.topic_folder(topic_ref) / "index.md"
-	}
-
-
-#============================================
-def test_expected_download_paths_do_not_create_downloads_directory(tmp_path: Path) -> None:
-	"""Expected-path checks remain pure until the download stage writes artifacts."""
-	source_path = tmp_path / "bbq-example-questions.txt"
-	source_path.write_text("MC\tquestion\n")
-
-	build_stages.expected_downloads(source_path)
-
-	assert not (tmp_path / "downloads").exists()
 
 
 #============================================

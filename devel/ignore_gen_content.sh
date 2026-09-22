@@ -10,7 +10,8 @@ git checkout -- \
 	":(glob)site_docs/**/downloads/*" \
 	":(glob)site_docs/*/topic*/index.md" \
 	":(glob)site_docs/**/bbq-*-questions.txt" \
-	site_docs/assets/data/selftest_question_manifest.json
+	site_docs/assets/data/selftest_question_manifest.json \
+	site_docs/sitemap.md
 
 # Remove untracked generated files (new selftest-*.html, zips, pgml,
 # pg, and freshly added bbq question sets).

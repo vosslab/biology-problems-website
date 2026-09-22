@@ -40,7 +40,9 @@ def build_site(scope: BuildScope) -> BuildReport:
 	changes = bbq_workflow.run_if_needed(scope)
 	# Include configured topics so missing/stale downstream outputs recover even
 	# when their already-fresh BBQ source did not need regeneration.
-	affected_topics = bbq_workflow.configured_topics(scope)
+	affected_topics = set(changes.selected_topics)
+	if not affected_topics:
+		affected_topics = bbq_workflow.configured_topics(scope)
 	affected_topics.update(changes.changed_topics)
 	# A full unrestricted or subject build owns every metadata topic in that
 	# scope. A task CSV or development limit instead owns only the BBQ topics
