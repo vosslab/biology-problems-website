@@ -26,6 +26,7 @@ DEFAULT_MKDOCS_PATH = os.path.join(REPO_ROOT, "mkdocs.yml")
 # (home, puzzles, tutorials, author, license).
 RESERVED_NAV_TARGETS = (
 	"index.md",
+	"sitemap.md",
 	"author.md",
 	"license.md",
 )

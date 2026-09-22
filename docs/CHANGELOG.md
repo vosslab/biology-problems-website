@@ -8,7 +8,7 @@
   with the unified [build_site.py](../build_site.py) workflow. It selects stale
   BBQ tasks and propagates changed subject-qualified topics through self-tests,
   topic pages, downloads, and subject indexes/navigation.
-- Added `--subject`, `--tasks`, `--limit`, `--dry-run`, `--full`, and `--model`
+- Added `--subject`, `--tasks`, `--limit`, `--shuffle`, `--dry-run`, `--full`, and `--model`
   to the public build command. Dry runs are planning-only; `--full` bypasses stale
   checks without expanding the requested scope.
 
@@ -16,12 +16,15 @@
 
 - Separated self-test and download writes from topic-page rendering, retained
   batch-only `--max-questions 199`, and left final sitemap generation to MkDocs.
+- Added a generated, user-visible `All Questions` page that lists problem-set
+  titles for native browser search while keeping SEO `sitemap.xml` generation
+  under MkDocs.
 
 ## 2026-09-21
 
 ### Additions and New Features
 
-- Added [bioproblems.py](../bioproblems.py) as the short application CLI with
+- Added `bioproblems.py` as the short application CLI with
   `pages` and `bbq` subcommands.
 - Extracted BBQ configuration, output handling, runner, TUI, and batch behavior
   into `bioproblems_site/bbq_*.py` modules.

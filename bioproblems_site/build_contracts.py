@@ -16,11 +16,12 @@ class TopicRef:
 #============================================
 @dataclass(frozen=True)
 class BuildChanges:
-	"""Files and subject-qualified topics changed or planned by the BBQ stage."""
+	"""Files and topics changed or selected by the BBQ stage."""
 
 	changed_topics: set[TopicRef] = field(default_factory=set)
 	changed_subjects: set[str] = field(default_factory=set)
 	changed_files: set[Path] = field(default_factory=set)
+	selected_topics: set[TopicRef] = field(default_factory=set)
 
 
 #============================================
@@ -31,6 +32,7 @@ class BuildScope:
 	subject: str | None = None
 	tasks_csv: Path | None = None
 	limit: int | None = None
+	shuffle: bool = False
 	dry_run: bool = False
 	full: bool = False
 	max_questions: int | None = None

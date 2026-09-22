@@ -73,7 +73,8 @@ application commands.
 ## Key content trees
 
 Each subject under [site_docs/](../site_docs/) contains `topicNN/` pages and
-question-source text files. Generated downloads live under each topic's
+question-source text files. The generated [sitemap.md](../site_docs/sitemap.md)
+lists all problem-set titles for browser searching. Generated downloads live under each topic's
 `downloads/` directory. The page pipeline reconciles generated artifacts with
 the live `bbq-*-questions.txt` files and writes the self-test manifest at
 `site_docs/assets/data/selftest_question_manifest.json`.

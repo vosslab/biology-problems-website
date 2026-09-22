@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build stale biology problem content through the complete site workflow."""
+"""Build and update the Biology Problems website content."""
 
 import argparse
 from pathlib import Path
@@ -12,13 +12,31 @@ import bioproblems_site.git_paths as git_paths
 #============================================
 def build_parser() -> argparse.ArgumentParser:
 	"""Build the compact public parser for the unified workflow."""
-	parser = argparse.ArgumentParser(description=__doc__)
-	parser.add_argument("--subject", help="Restrict every stage to one canonical subject.")
-	parser.add_argument("--tasks", help="Run one CSV inside task_files/.")
-	parser.add_argument("--limit", type=int, help="Limit configured BBQ tasks before downstream work.")
-	parser.add_argument("--dry-run", action="store_true", help="Report planned work without writes.")
-	parser.add_argument("--full", action="store_true", help="Ignore stale checks within the selected scope.")
-	parser.add_argument("--model", help="Use this installed Ollama model for page-title generation.")
+	parser = argparse.ArgumentParser(
+		description="Build and update the Biology Problems website content.",
+		add_help=False,
+		epilog=(
+			"This command generates BBQ content and updates self-tests, topic pages,\n"
+			"downloads, indexes, and navigation. Then run MkDocs to build the final\n"
+			"static site.\n\n"
+			"Examples:\n"
+			"  ./build_site.py\n"
+			"  ./build_site.py --subject genetics\n"
+			"  ./build_site.py --tasks task_files/genetics_tasks1.csv\n"
+			"  ./build_site.py --shuffle --limit 1\n"
+			"  ./build_site.py --dry-run\n"
+			"  ./build_site.py --full"
+		),
+		formatter_class=argparse.RawDescriptionHelpFormatter,
+	)
+	parser.add_argument("-h", "--help", action="help", help="Show this help message and exit.")
+	parser.add_argument("--subject", metavar="SUBJECT", help="Build only one subject, for example genetics.")
+	parser.add_argument("--tasks", metavar="TASKS", help="Use one task CSV from task_files/ instead of all task files.")
+	parser.add_argument("--limit", metavar="N", type=int, help="Run at most N BBQ tasks.")
+	parser.add_argument("--shuffle", action="store_true", help="Shuffle BBQ tasks before applying --limit.")
+	parser.add_argument("--dry-run", action="store_true", help="Show what would be rebuilt without changing files.")
+	parser.add_argument("--full", action="store_true", help="Rebuild everything in the selected scope, even if up to date.")
+	parser.add_argument("--model", metavar="MODEL", help="Use a specific installed Ollama model for generated page titles.")
 	parser.add_argument("--max-questions", type=int, help=argparse.SUPPRESS)
 	return parser
 
@@ -47,6 +65,7 @@ def parse_scope(arguments: list[str] | None = None) -> build_contracts.BuildScop
 		subject=args.subject,
 		tasks_csv=tasks_csv,
 		limit=args.limit,
+		shuffle=args.shuffle,
 		dry_run=args.dry_run,
 		full=args.full,
 		max_questions=args.max_questions,
