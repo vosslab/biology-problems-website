@@ -16,7 +16,7 @@ import bioproblems_site.topic_page as topic_page
 
 
 #============================================
-def test_generate_downloads_off_creates_no_files(tmp_path):
+def test_generate_downloads_off_creates_no_files(tmp_path: object) -> object:
 	# Build a fake topic folder with one bbq-*-questions.txt source
 	# file. The bbq file itself is the bb_text "download"; bb_export would
 	# live under downloads/ if created.
@@ -39,7 +39,7 @@ def test_generate_downloads_off_creates_no_files(tmp_path):
 
 
 #============================================
-def test_bbq_text_uses_canonical_source_format_label(tmp_path):
+def test_bbq_text_uses_canonical_source_format_label(tmp_path: object) -> object:
 	"""The canonical source download does not use retired LMS branding."""
 	bbq_file = tmp_path / "bbq-xx-questions.txt"
 	bbq_file.write_text("MC\tQ1\n*A\tyes\nB\tno\n")

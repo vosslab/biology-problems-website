@@ -105,7 +105,7 @@ def generate_title_prompt(file_path: str, problem_statements: list) -> str:
 #==============
 
 # This function removes all HTML tags from a string.
-def strip_html_tags(html_string):
+def strip_html_tags(html_string: str) -> str:
 	"""
 	Removes all HTML tags from the input string and returns the plain text.
 
@@ -147,7 +147,7 @@ def run_llm(client: llm.LLMClient, prompt: str) -> str:
 	Generate a response from a pre-built LLMClient.
 
 	Args:
-		client (llm.LLMClient): Pre-built client (one per generate_pages.py run).
+		client (llm.LLMClient): Pre-built client (one per page CLI run).
 		prompt (str): The prompt to send to the model.
 
 	Returns:
@@ -252,7 +252,7 @@ def get_problem_title_from_file(client: llm.LLMClient, file_path: str) -> str:
 	Generate a problem title from a file containing problem statements.
 
 	Args:
-		client (llm.LLMClient): Pre-built client (one per generate_pages.py run).
+		client (llm.LLMClient): Pre-built client (one per page CLI run).
 		file_path (str): Path to the file containing problem statements.
 
 	Returns:

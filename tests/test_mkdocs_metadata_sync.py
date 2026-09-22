@@ -16,7 +16,7 @@ import bioproblems_site.metadata as metadata_module
 import file_utils
 
 
-def test_repo_yaml_and_mkdocs_nav_are_in_sync():
+def test_repo_yaml_and_mkdocs_nav_are_in_sync() -> object:
 	"""Live invariant: the repo's YAML and mkdocs.yml name the same subjects."""
 	repo_root = file_utils.get_repo_root()
 	metadata_path = os.path.join(repo_root, "topics_metadata.yml")
@@ -27,7 +27,7 @@ def test_repo_yaml_and_mkdocs_nav_are_in_sync():
 	)
 
 
-def test_mismatch_raises_clear_error(tmp_path):
+def test_mismatch_raises_clear_error(tmp_path: object) -> object:
 	metadata_path = tmp_path / "topics.yml"
 	mkdocs_path = tmp_path / "mkdocs.yml"
 	metadata_path.write_text(
@@ -42,7 +42,7 @@ def test_mismatch_raises_clear_error(tmp_path):
 		)
 
 
-def test_progress_nav_is_not_treated_as_subject(tmp_path):
+def test_progress_nav_is_not_treated_as_subject(tmp_path: object) -> object:
 	metadata_path = tmp_path / "topics.yml"
 	mkdocs_path = tmp_path / "mkdocs.yml"
 	metadata_path.write_text(

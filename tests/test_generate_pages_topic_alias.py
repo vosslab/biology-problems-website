@@ -1,6 +1,6 @@
-"""Integration tests for generate_pages.py topic filter resolution.
+"""Integration tests for the page CLI topic filter resolution.
 
-Tests the wiring of topic alias resolution in generate_pages.py through
+Tests the wiring of topic alias resolution through
 bioproblems_site.topic_aliases.resolve_topic_filter.
 """
 
@@ -51,7 +51,7 @@ _ALIAS_MAP = metadata.build_topic_alias_map(_SUBJECTS)
 
 # ========== Test subject:alias preferred form ==========
 
-def test_subject_alias_preferred_form():
+def test_subject_alias_preferred_form() -> object:
 	"""subject:alias is always unambiguous and preferred."""
 	subject, topic = topic_aliases.resolve_topic_filter(
 		"biochemistry:amino_acids", _ALIAS_MAP, _SUBJECTS,
@@ -62,7 +62,7 @@ def test_subject_alias_preferred_form():
 
 # ========== Test subject:topicNN for unaliased topic ==========
 
-def test_subject_unaliased_topicnn():
+def test_subject_unaliased_topicnn() -> object:
 	"""subject:topicNN accepted for topics with no alias."""
 	subject, topic = topic_aliases.resolve_topic_filter(
 		"biochemistry:topic14", _ALIAS_MAP, _SUBJECTS,
@@ -71,7 +71,7 @@ def test_subject_unaliased_topicnn():
 	assert topic == "topic14"
 
 
-def test_genetics_subject_unaliased_topicnn():
+def test_genetics_subject_unaliased_topicnn() -> object:
 	"""Works across different subjects."""
 	subject, topic = topic_aliases.resolve_topic_filter(
 		"genetics:topic05", _ALIAS_MAP, _SUBJECTS,
@@ -82,7 +82,7 @@ def test_genetics_subject_unaliased_topicnn():
 
 # ========== Test subject:topicNN for aliased topic raises ==========
 
-def test_subject_aliased_topicnn_raises():
+def test_subject_aliased_topicnn_raises() -> object:
 	"""subject:topicNN raises when topic has an alias defined."""
 	# The error must mention the alias the author should use; that
 	# is the actionable contract. Phrasing of the rest of the
@@ -95,7 +95,7 @@ def test_subject_aliased_topicnn_raises():
 
 # ========== Test bare alias unique ==========
 
-def test_bare_alias_unique():
+def test_bare_alias_unique() -> object:
 	"""Bare alias resolves when it exists in only one subject."""
 	subject, topic = topic_aliases.resolve_topic_filter(
 		"amino_acids", _ALIAS_MAP, _SUBJECTS,
@@ -104,7 +104,7 @@ def test_bare_alias_unique():
 	assert topic == "topic03"
 
 
-def test_genetics_bare_alias_unique():
+def test_genetics_bare_alias_unique() -> object:
 	"""Bare alias unique in genetics resolves."""
 	subject, topic = topic_aliases.resolve_topic_filter(
 		"dna_structure", _ALIAS_MAP, _SUBJECTS,
@@ -135,7 +135,7 @@ _SUBJECTS_AMBIGUOUS_ALIAS = {
 _ALIAS_MAP_AMBIGUOUS = metadata.build_topic_alias_map(_SUBJECTS_AMBIGUOUS_ALIAS)
 
 
-def test_bare_alias_ambiguous_raises():
+def test_bare_alias_ambiguous_raises() -> object:
 	"""Bare alias raises when it exists in multiple subjects."""
 	# Just check the error type; the specific phrasing is allowed
 	# to evolve. The integration is covered by resolver tests.
@@ -147,7 +147,7 @@ def test_bare_alias_ambiguous_raises():
 
 # ========== Test unknown alias raises ==========
 
-def test_unknown_alias_raises():
+def test_unknown_alias_raises() -> object:
 	"""Unknown alias raises with helpful message."""
 	# The error must name the offending value so the author knows
 	# what they typed; the exact phrasing of "unknown alias" is
@@ -160,7 +160,7 @@ def test_unknown_alias_raises():
 
 # ========== Test bare topicNN unaliased ==========
 
-def test_bare_topicnn_unaliased_unique():
+def test_bare_topicnn_unaliased_unique() -> object:
 	"""Bare topicNN accepted if it exists in exactly one subject with no alias."""
 	# topic05 exists only in genetics and has no alias.
 	subject, topic = topic_aliases.resolve_topic_filter(
@@ -203,7 +203,7 @@ _SUBJECTS_BOTH_ALIASED = {
 _ALIAS_MAP_BOTH_ALIASED = metadata.build_topic_alias_map(_SUBJECTS_BOTH_ALIASED)
 
 
-def test_bare_topicnn_all_aliased_raises():
+def test_bare_topicnn_all_aliased_raises() -> object:
 	"""Bare topicNN raises if all subjects that define it have an alias."""
 	# Pin only the offending value (topic03) so the test does not
 	# break if the error phrasing is reworded.
@@ -215,7 +215,7 @@ def test_bare_topicnn_all_aliased_raises():
 
 # ========== Test malformed subject:alias forms ==========
 
-def test_malformed_missing_subject():
+def test_malformed_missing_subject() -> object:
 	"""Missing subject in subject:alias form."""
 	with pytest.raises(metadata.MetadataError):
 		topic_aliases.resolve_topic_filter(
@@ -223,7 +223,7 @@ def test_malformed_missing_subject():
 		)
 
 
-def test_malformed_missing_topic():
+def test_malformed_missing_topic() -> object:
 	"""Missing topic in subject:alias form."""
 	with pytest.raises(metadata.MetadataError):
 		topic_aliases.resolve_topic_filter(
@@ -231,7 +231,7 @@ def test_malformed_missing_topic():
 		)
 
 
-def test_malformed_empty_string():
+def test_malformed_empty_string() -> object:
 	"""Empty string raises."""
 	with pytest.raises(metadata.MetadataError):
 		topic_aliases.resolve_topic_filter(
@@ -239,7 +239,7 @@ def test_malformed_empty_string():
 		)
 
 
-def test_malformed_whitespace_only():
+def test_malformed_whitespace_only() -> object:
 	"""Whitespace-only string raises."""
 	with pytest.raises(metadata.MetadataError):
 		topic_aliases.resolve_topic_filter(

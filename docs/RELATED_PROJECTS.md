@@ -9,7 +9,7 @@ and site framework used by Biology Problems OER.
 
 - Relationship: upstream question-generator collection
 - Link: [github.com/vosslab/biology-problems](https://github.com/vosslab/biology-problems)
-- Evidence: `bbq_control/bbq_settings.yml` points task rows at this repository, and
+- Evidence: `bbq_settings.yml` points task rows at this repository, and
   the public project contains the biology generators represented on this site.
 
 ### qti-package-maker

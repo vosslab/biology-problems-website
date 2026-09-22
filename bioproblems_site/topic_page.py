@@ -2,7 +2,7 @@
 
 Extracted from the former root-level generate_topic_pages.py. Exposes
 render_all() as the callable entrypoint for bioproblems_site.pipeline.
-No argparse here -- that lives in generate_pages.py at the repo root.
+No argparse here -- that lives in bioproblems_site.pages_cli.
 """
 
 # Standard Library
@@ -193,7 +193,7 @@ def get_topic_title(folder_path: str) -> str:
 
 #==============
 
-def get_libretexts_link(topic_folder: str):
+def get_libretexts_link(topic_folder: str) -> dict | None:
 	"""Return the LibreTexts mapping for a topic, or None if not linked."""
 	entry = _get_topic_entry(topic_folder)
 	return entry.get("libretexts")
@@ -210,7 +210,7 @@ def get_topic_description(topic_folder: str) -> str:
 	return description
 
 #==============
-def create_downloadable_format(bbq_file: str, prefix: str, extension: str):
+def create_downloadable_format(bbq_file: str, prefix: str, extension: str) -> str:
 	if prefix == "bbq":
 		raise ValueError
 	file_path = get_outfile_name(bbq_file, prefix, extension)
@@ -259,7 +259,7 @@ def supports_blackboard_export(bbq_file_name: str) -> bool:
 	return True
 
 #==============
-def get_download_js_string():
+def get_download_js_string() -> str:
 	download_js = (
 		'<script>\n'
 		'	function downloadFile(filePath) {\n'
@@ -552,7 +552,7 @@ def is_valid_title(title: str) -> bool:
 
 #============================================
 
-def get_problem_set_title(client, bbq_file: str) -> str:
+def get_problem_set_title(client: object, bbq_file: str) -> str:
 	"""
 	Extracts or generates the title for a problem set based on the provided file path.
 
@@ -617,7 +617,7 @@ def get_problem_set_title(client, bbq_file: str) -> str:
 
 #==============
 
-def extract_core_name(bbq_file_name):
+def extract_core_name(bbq_file_name: str) -> str:
 	# Regular expression to match the core part
 	if '/' in bbq_file_name:
 		bbq_file_basename = os.path.basename(bbq_file_name)
@@ -632,7 +632,7 @@ def extract_core_name(bbq_file_name):
 
 
 #==============
-def get_outfile_name(bbq_file_name: str, prefix: str, extension: str):
+def get_outfile_name(bbq_file_name: str, prefix: str, extension: str) -> str:
 	dirname = os.path.join(os.path.dirname(bbq_file_name), "downloads")
 	outfile = extract_core_name(bbq_file_name)
 	if not outfile.startswith(prefix):
@@ -656,7 +656,7 @@ def update_index_md(
 	verbose: bool,
 	stats: dict,
 	base_dir: str,
-	client=None,
+	client: object = None,
 	*,
 	generate_downloads: bool = False,
 	regenerate_selftests: bool = True,

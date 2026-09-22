@@ -4,14 +4,14 @@
 import bioproblems_site.scanner as scanner
 
 
-def test_missing_dir_returns_empty_scan(tmp_path):
+def test_missing_dir_returns_empty_scan(tmp_path: object) -> object:
 	"""Absent topic folder scans to zero questions and no formats."""
 	result = scanner.scan_topic(str(tmp_path / "does_not_exist"))
 	assert result.questions == 0
 	assert result.formats == frozenset()
 
 
-def test_more_bbq_files_yields_higher_count(tmp_path):
+def test_more_bbq_files_yields_higher_count(tmp_path: object) -> object:
 	"""Adding a bbq-*-questions.txt file increases the scanned count."""
 	topic_dir = tmp_path / "topic01"
 	topic_dir.mkdir()
@@ -25,7 +25,7 @@ def test_more_bbq_files_yields_higher_count(tmp_path):
 	assert "bb_text" in scanner.scan_topic(str(topic_dir)).formats
 
 
-def test_pool_export_zip_is_detected_in_downloads(tmp_path):
+def test_pool_export_zip_is_detected_in_downloads(tmp_path: object) -> object:
 	"""A Blackboard Ultra pool-export ZIP sets the bb_export format flag."""
 	topic_dir = tmp_path / "topic01"
 	downloads_dir = topic_dir / "downloads"
@@ -36,7 +36,7 @@ def test_pool_export_zip_is_detected_in_downloads(tmp_path):
 	assert "bb_export" in scanner.scan_topic(str(topic_dir)).formats
 
 
-def test_scan_subject_skips_missing_topic_folder(tmp_path):
+def test_scan_subject_skips_missing_topic_folder(tmp_path: object) -> object:
 	"""Requested topics absent on disk scan cleanly to zero."""
 	site_docs = tmp_path / "site_docs"
 	subject = site_docs / "biochemistry"

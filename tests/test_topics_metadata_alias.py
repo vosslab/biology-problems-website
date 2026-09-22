@@ -22,7 +22,7 @@ def _yaml_with_topic(alias_value: str) -> str:
 	return body
 
 
-def test_alias_optional(tmp_path):
+def test_alias_optional(tmp_path: object) -> object:
 	# Topic without an alias still loads.
 	metadata_path = tmp_path / "topics.yml"
 	metadata_path.write_text(_yaml_with_topic(""))
@@ -31,21 +31,21 @@ def test_alias_optional(tmp_path):
 	assert topic.alias is None
 
 
-def test_alias_accepted(tmp_path):
+def test_alias_accepted(tmp_path: object) -> object:
 	metadata_path = tmp_path / "topics.yml"
 	metadata_path.write_text(_yaml_with_topic("      alias: amino_acids\n"))
 	subjects = metadata_module.load_metadata_file(str(metadata_path))
 	assert subjects["biochemistry"].topics[0].alias == "amino_acids"
 
 
-def test_alias_uppercase_rejected(tmp_path):
+def test_alias_uppercase_rejected(tmp_path: object) -> object:
 	metadata_path = tmp_path / "topics.yml"
 	metadata_path.write_text(_yaml_with_topic("      alias: Amino_Acids\n"))
 	with pytest.raises(metadata_module.MetadataError):
 		metadata_module.load_metadata_file(str(metadata_path))
 
 
-def test_alias_topicNN_collision_rejected(tmp_path):
+def test_alias_topicNN_collision_rejected(tmp_path: object) -> object:
 	# alias 'topic15' would collide with the canonical key form.
 	metadata_path = tmp_path / "topics.yml"
 	metadata_path.write_text(_yaml_with_topic("      alias: topic15\n"))
@@ -53,7 +53,7 @@ def test_alias_topicNN_collision_rejected(tmp_path):
 		metadata_module.load_metadata_file(str(metadata_path))
 
 
-def test_duplicate_alias_within_subject_rejected(tmp_path):
+def test_duplicate_alias_within_subject_rejected(tmp_path: object) -> object:
 	body = (
 		"biochemistry:\n"
 		"  title: Biochemistry\n"
@@ -74,7 +74,7 @@ def test_duplicate_alias_within_subject_rejected(tmp_path):
 		metadata_module.load_metadata_file(str(metadata_path))
 
 
-def test_duplicate_alias_across_subjects_allowed(tmp_path):
+def test_duplicate_alias_across_subjects_allowed(tmp_path: object) -> object:
 	# Same alias text can appear in different subjects.
 	body = (
 		"biochemistry:\n"
@@ -101,7 +101,7 @@ def test_duplicate_alias_across_subjects_allowed(tmp_path):
 	assert subjects["genetics"].topics[0].alias == "dna_structure"
 
 
-def test_build_topic_alias_map(tmp_path):
+def test_build_topic_alias_map(tmp_path: object) -> object:
 	body = (
 		"biochemistry:\n"
 		"  title: Biochemistry\n"

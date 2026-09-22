@@ -72,7 +72,7 @@ Deliverable:
 - The live browser puzzle uses an embedded word list inside:
   - `site_docs/assets/scripts/deletion_mutants_words.js`
 - Refresh the embedded word list using:
-  - `build_deletion_mutants_wordbank.py`
+  - `python3 devel/site_maint.py build-deletion-wordbank`
   - optionally with `--src PATH/TO/real_wordles.txt` if your word list is not at the default location.
 
 ### Phase 2: Port Python deletion logic to JavaScript

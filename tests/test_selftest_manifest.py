@@ -9,7 +9,7 @@ import bioproblems_site.selftest_manifest as selftest_manifest
 
 
 #============================================
-def _write_metadata(path):
+def _write_metadata(path: object) -> object:
 	path.write_text(
 		"biology:\n"
 		"  title: Biology\n"
@@ -24,7 +24,7 @@ def _write_metadata(path):
 	)
 
 
-def _write_mkdocs(path):
+def _write_mkdocs(path: object) -> object:
 	path.write_text(
 		"nav:\n"
 		"- Biology:\n"
@@ -33,7 +33,7 @@ def _write_mkdocs(path):
 	)
 
 
-def _write_selftest(path, crc, statement):
+def _write_selftest(path: object, crc: object, statement: object) -> object:
 	path.parent.mkdir(parents=True, exist_ok=True)
 	path.write_text(
 		f"<div id=\"question_html_{crc}\">\n"
@@ -43,7 +43,7 @@ def _write_selftest(path, crc, statement):
 	)
 
 
-def test_manifest_uses_reachable_topic_pages(tmp_path):
+def test_manifest_uses_reachable_topic_pages(tmp_path: object) -> object:
 	site_docs = tmp_path / "site_docs"
 	topic_dir = site_docs / "biology" / "topic01"
 	topic_dir.mkdir(parents=True)
@@ -76,7 +76,7 @@ def test_manifest_uses_reachable_topic_pages(tmp_path):
 	assert manifest["questions"][0]["topicTitle"] == "Cells"
 
 
-def test_manifest_skips_unrendered_topic_page(tmp_path):
+def test_manifest_skips_unrendered_topic_page(tmp_path: object) -> object:
 	# Nav lists biology/topic01/index.md, but a fast subject-index-only run
 	# may not have rendered that index.md yet. The manifest must skip the
 	# unrendered page instead of crashing on the missing file.
@@ -95,7 +95,7 @@ def test_manifest_skips_unrendered_topic_page(tmp_path):
 	assert manifest["questions"] == []
 
 
-def test_manifest_rejects_duplicate_crc(tmp_path):
+def test_manifest_rejects_duplicate_crc(tmp_path: object) -> object:
 	site_docs = tmp_path / "site_docs"
 	topic_dir = site_docs / "biology" / "topic01"
 	topic_dir.mkdir(parents=True)
@@ -130,7 +130,7 @@ def test_manifest_rejects_duplicate_crc(tmp_path):
 		raise AssertionError("duplicate CRC did not raise")
 
 
-def test_write_manifest_creates_json(tmp_path):
+def test_write_manifest_creates_json(tmp_path: object) -> object:
 	site_docs = tmp_path / "site_docs"
 	topic_dir = site_docs / "biology" / "topic01"
 	topic_dir.mkdir(parents=True)

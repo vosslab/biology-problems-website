@@ -25,7 +25,7 @@ def get_repo_root() -> str:
 		repo_root = result.stdout.strip()
 		if repo_root:
 			return repo_root
-	return os.path.dirname(os.path.abspath(__file__))
+	return os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 @functools.lru_cache(maxsize=1)

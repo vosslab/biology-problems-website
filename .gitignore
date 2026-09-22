@@ -18,11 +18,9 @@ _temp*.?*
 package-lock.json
 topics_reference.csv
 bbq_converter.py
-bbq_control/bbq_generation.log*
-bbq_control/bbq_generation_errors.log
-bbq_generation.log*
+/bbq_generation.log*
+/bbq_generation_errors.log
 QTI12-*/
-bbq_control/*.png
 
 # Byte-compiled / optimized / DLL files
 *.py[cod]

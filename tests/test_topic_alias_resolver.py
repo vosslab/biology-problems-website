@@ -31,61 +31,61 @@ _ALIAS_MAP_SINGLE = metadata.build_topic_alias_map(_SUBJECTS_SINGLE)
 
 # ---------------- is_topic_key ----------------
 
-def test_is_topic_key_accepts_two_digit():
+def test_is_topic_key_accepts_two_digit() -> object:
 	assert topic_aliases.is_topic_key("topic03") is True
 
 
-def test_is_topic_key_rejects_one_digit():
+def test_is_topic_key_rejects_one_digit() -> object:
 	assert topic_aliases.is_topic_key("topic3") is False
 
 
-def test_is_topic_key_rejects_three_digit():
+def test_is_topic_key_rejects_three_digit() -> object:
 	assert topic_aliases.is_topic_key("topic003") is False
 
 
 # ---------------- validate_topic_cell ----------------
 
-def test_validate_strips_whitespace():
+def test_validate_strips_whitespace() -> object:
 	assert topic_aliases.validate_topic_cell("  amino_acids  ") == "amino_acids"
 
 
-def test_validate_rejects_empty():
+def test_validate_rejects_empty() -> object:
 	with pytest.raises(metadata.MetadataError):
 		topic_aliases.validate_topic_cell("   ")
 
 
-def test_validate_rejects_uppercase():
+def test_validate_rejects_uppercase() -> object:
 	with pytest.raises(metadata.MetadataError):
 		topic_aliases.validate_topic_cell("Amino_Acids")
 
 
-def test_validate_rejects_embedded_space():
+def test_validate_rejects_embedded_space() -> object:
 	with pytest.raises(metadata.MetadataError):
 		topic_aliases.validate_topic_cell("amino acids")
 
 
-def test_validate_rejects_dash():
+def test_validate_rejects_dash() -> object:
 	with pytest.raises(metadata.MetadataError):
 		topic_aliases.validate_topic_cell("amino-acids")
 
 
 # ---------------- resolve_topic_key ----------------
 
-def test_resolve_alias_hit():
+def test_resolve_alias_hit() -> object:
 	assert topic_aliases.resolve_topic_key(
 		"biochemistry", "amino_acids", _ALIAS_MAP_SINGLE,
 		source="t.csv", line_number=2,
 	) == "topic03"
 
 
-def test_resolve_alias_with_whitespace():
+def test_resolve_alias_with_whitespace() -> object:
 	assert topic_aliases.resolve_topic_key(
 		"biochemistry", " amino_acids ", _ALIAS_MAP_SINGLE,
 		source="t.csv",
 	) == "topic03"
 
 
-def test_resolve_unknown_alias_raises():
+def test_resolve_unknown_alias_raises() -> object:
 	with pytest.raises(metadata.MetadataError):
 		topic_aliases.resolve_topic_key(
 			"biochemistry", "amino_acid", _ALIAS_MAP_SINGLE,
@@ -93,7 +93,7 @@ def test_resolve_unknown_alias_raises():
 		)
 
 
-def test_resolve_topicNN_for_aliased_topic_raises():
+def test_resolve_topicNN_for_aliased_topic_raises() -> object:
 	# topic03 has alias 'amino_acids'; raw topicNN must be rejected.
 	with pytest.raises(metadata.MetadataError):
 		topic_aliases.resolve_topic_key(
@@ -102,7 +102,7 @@ def test_resolve_topicNN_for_aliased_topic_raises():
 		)
 
 
-def test_resolve_topicNN_for_non_aliased_topic_accepted():
+def test_resolve_topicNN_for_non_aliased_topic_accepted() -> object:
 	# topic14 has no alias, so raw topicNN is allowed.
 	assert topic_aliases.resolve_topic_key(
 		"biochemistry", "topic14", _ALIAS_MAP_SINGLE,
@@ -110,7 +110,7 @@ def test_resolve_topicNN_for_non_aliased_topic_accepted():
 	) == "topic14"
 
 
-def test_resolve_unknown_subject_raises():
+def test_resolve_unknown_subject_raises() -> object:
 	with pytest.raises(metadata.MetadataError):
 		topic_aliases.resolve_topic_key(
 			"physics", "amino_acids", _ALIAS_MAP_SINGLE,
@@ -118,7 +118,7 @@ def test_resolve_unknown_subject_raises():
 		)
 
 
-def test_resolve_uppercase_raises():
+def test_resolve_uppercase_raises() -> object:
 	with pytest.raises(metadata.MetadataError):
 		topic_aliases.resolve_topic_key(
 			"biochemistry", "Amino_Acids", _ALIAS_MAP_SINGLE,
@@ -160,13 +160,13 @@ _SUBJECTS_MULTI = {"biochemistry": _BIOCHEM_DNA, "genetics": _GENETICS}
 _ALIAS_MAP_MULTI = metadata.build_topic_alias_map(_SUBJECTS_MULTI)
 
 
-def test_filter_subject_alias_form():
+def test_filter_subject_alias_form() -> object:
 	assert topic_aliases.resolve_topic_filter(
 		"biochemistry:amino_acids", _ALIAS_MAP_MULTI, _SUBJECTS_MULTI,
 	) == ("biochemistry", "topic03")
 
 
-def test_filter_subject_topicNN_for_unaliased():
+def test_filter_subject_topicNN_for_unaliased() -> object:
 	# Add a non-aliased topic to test bare topicNN under subject prefix.
 	subjects = {
 		"biochemistry": metadata.Subject(
@@ -185,20 +185,20 @@ def test_filter_subject_topicNN_for_unaliased():
 	) == ("biochemistry", "topic14")
 
 
-def test_filter_subject_topicNN_for_aliased_raises():
+def test_filter_subject_topicNN_for_aliased_raises() -> object:
 	with pytest.raises(metadata.MetadataError):
 		topic_aliases.resolve_topic_filter(
 			"biochemistry:topic03", _ALIAS_MAP_MULTI, _SUBJECTS_MULTI,
 		)
 
 
-def test_filter_bare_alias_unique():
+def test_filter_bare_alias_unique() -> object:
 	assert topic_aliases.resolve_topic_filter(
 		"amino_acids", _ALIAS_MAP_MULTI, _SUBJECTS_MULTI,
 	) == ("biochemistry", "topic03")
 
 
-def test_filter_bare_alias_ambiguous_raises():
+def test_filter_bare_alias_ambiguous_raises() -> object:
 	# 'dna_structure' exists in both biochemistry and genetics.
 	with pytest.raises(metadata.MetadataError):
 		topic_aliases.resolve_topic_filter(
@@ -206,7 +206,7 @@ def test_filter_bare_alias_ambiguous_raises():
 		)
 
 
-def test_filter_bare_topicNN_all_aliased_raises():
+def test_filter_bare_topicNN_all_aliased_raises() -> object:
 	# topic03 exists in both subjects but each has an alias defined.
 	with pytest.raises(metadata.MetadataError):
 		topic_aliases.resolve_topic_filter(
@@ -214,14 +214,14 @@ def test_filter_bare_topicNN_all_aliased_raises():
 		)
 
 
-def test_filter_unknown_alias_raises():
+def test_filter_unknown_alias_raises() -> object:
 	with pytest.raises(metadata.MetadataError):
 		topic_aliases.resolve_topic_filter(
 			"nonexistent", _ALIAS_MAP_MULTI, _SUBJECTS_MULTI,
 		)
 
 
-def test_filter_malformed_subject_alias_raises():
+def test_filter_malformed_subject_alias_raises() -> object:
 	with pytest.raises(metadata.MetadataError):
 		topic_aliases.resolve_topic_filter(
 			":amino_acids", _ALIAS_MAP_MULTI, _SUBJECTS_MULTI,

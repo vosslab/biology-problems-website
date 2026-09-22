@@ -4,7 +4,7 @@
 # docs/PLAYWRIGHT_USAGE.md and docs/E2E_TESTS.md.
 collect_ignore = ["e2e", "playwright"]
 
-"""Pytest config: put the repo root and tools/ on sys.path so tests
+"""Pytest config: put the repo root on sys.path so tests
 can import bioproblems_site.* and tools scripts without requiring
 `source source_me.sh`.
 
@@ -15,7 +15,6 @@ same job; this conftest follows that convention.
 """
 
 # Standard Library
-import os
 import sys
 
 # local repo modules
@@ -24,12 +23,6 @@ import file_utils
 REPO_ROOT = file_utils.get_repo_root()
 if REPO_ROOT not in sys.path:
 	sys.path.insert(0, REPO_ROOT)
-
-# tools/ scripts are not a Python package; add the directory so
-# tests can import them as top-level modules (e.g. `import dump_topics_csv`).
-TOOLS_DIR = os.path.join(REPO_ROOT, "tools")
-if os.path.isdir(TOOLS_DIR) and TOOLS_DIR not in sys.path:
-	sys.path.insert(0, TOOLS_DIR)
 
 # REPO_HYGIENE_FILTERS is the repo-local hygiene-exclusion registry (Layer 2).
 # file_utils.discover_files reads it from this conftest, which is the right

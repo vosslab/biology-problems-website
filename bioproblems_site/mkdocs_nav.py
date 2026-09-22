@@ -64,7 +64,7 @@ def _subject_display_labels(mkdocs_path: str) -> dict:
 	return labels
 
 
-def _render_topic_lines(subject, scans: dict) -> list:
+def _render_topic_lines(subject: object, scans: dict) -> list:
 	"""Return the per-topic nav lines for one subject. Skips hidden
 	topics and topics with zero questions, mirroring the subject index.
 	Topic entries sit at the same indent as the subject index entry.

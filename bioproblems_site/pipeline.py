@@ -1,6 +1,6 @@
 """Orchestrate page generation: metadata load + scan + subject index
 rendering + topic page rendering + mkdocs.yml nav-block update. Called
-from the generate_pages.py entrypoint.
+from the bioproblems.py pages entrypoint.
 """
 
 # Standard Library
@@ -36,7 +36,7 @@ COLOR_YELLOW = "93"
 #============================================
 def _write_subject_index(
 	site_docs_dir: str,
-	subject,
+	subject: object,
 	scans: dict,
 	*,
 	dry_run: bool,

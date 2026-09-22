@@ -2,14 +2,14 @@
 
 `topics_metadata.yml` at the repo root is the single source of truth for
 subject and topic metadata. It is loaded by every program that needs to
-know what subjects and topics exist: `generate_pages.py`,
-`run_bbq_tasks.py`, and the `bioproblems_site/` package modules.
+know what subjects and topics exist: `bioproblems.py`, the package modules,
+and the task CSV loader.
 
 This document describes the file's schema and the canonical-id vs alias
 contract. The companion document
 [docs/BBQ_TASK_CSV_FORMAT.md](BBQ_TASK_CSV_FORMAT.md) describes how the
 `topic` column in BBQ task CSVs uses these aliases. Operational usage of
-the BBQ runner is in [bbq_control/USAGE.md](../bbq_control/USAGE.md).
+the BBQ runner is documented in [BBQ_TASKS_USAGE.md](BBQ_TASKS_USAGE.md).
 
 ## Top-level structure
 
@@ -70,7 +70,7 @@ There are two names for every topic, used at different layers:
   segment, the URL segment, and the sort order.
 - `alias` is the author-facing input form. Authors type the alias (for
   example `amino_acids`) into BBQ task CSVs and into
-  `generate_pages.py -t/--topic`. The resolver in
+  `bioproblems.py pages -t/--topic`. The resolver in
   `bioproblems_site/topic_aliases.py` converts the alias back to the
   canonical `topicNN` at input time.
 
@@ -140,7 +140,7 @@ verbatim in BBQ task CSVs, in CLI invocations, and in author memory.
 - Do NOT rename an alias casually as part of a metadata cleanup pass.
 - A rename is a deliberate, scripted CSV migration: update
   `topics_metadata.yml`, then rewrite every matching cell in
-  `bbq_control/task_files/*.csv` in the same patch.
+  `task_files/*.csv` in the same patch.
 - Adding a new alias to a topic that did not have one is also a
   contract change; expect to update CSVs in the same patch.
 
@@ -148,7 +148,7 @@ verbatim in BBQ task CSVs, in CLI invocations, and in author memory.
 
 Topics with `visible: false` are still first-class metadata entries.
 They remain referenceable by both BBQ task CSVs and the
-`generate_pages.py -t/--topic` filter. The resolver does not filter on
+`bioproblems.py pages -t/--topic` filter. The resolver does not filter on
 `visible`; visibility only affects rendering (subject index, nav).
 
 This lets you keep a topic in the metadata file (for BBQ generation,
@@ -190,7 +190,7 @@ Notes on the example:
 
 - [docs/BBQ_TASK_CSV_FORMAT.md](BBQ_TASK_CSV_FORMAT.md) -- BBQ task CSV
   schema and how the `topic` column resolves.
-- [bbq_control/USAGE.md](../bbq_control/USAGE.md) -- how to run the
+- [BBQ_TASKS_USAGE.md](BBQ_TASKS_USAGE.md) -- how to run the
   BBQ task runner.
 - [bioproblems_site/metadata.py](../bioproblems_site/metadata.py) --
   schema validator and loader.

@@ -63,6 +63,8 @@ def carries_header_markers(rel: str) -> bool:
 		bool: True when the file carries either marker as content.
 	"""
 	abs_path = os.path.join(file_utils.get_repo_root(), rel)
+	if not os.path.isfile(abs_path):
+		return False
 	with open(abs_path, "r", encoding="utf-8") as handle:
 		lines = handle.read().splitlines()
 	starts, ends = marker_lines(lines)
