@@ -5,7 +5,7 @@
 ## DBsubject('Genetics')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-08-19')
+## Date('2026-09-23')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -34,8 +34,8 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'definition',
     'choices' => [
       'mutation',
+      '<span style="color: #b74300; font-weight:700;">genetic</span> drift',
       'gene flow',
-      'random mating',
       'assortative mating',
       'consanguineous mating',
     ],
@@ -48,8 +48,8 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       'mutation',
       '<span style="color: #b74300; font-weight:700;">genetic</span> drift',
+      'gene flow',
       'random mating',
-      'assortative mating',
       'consanguineous mating',
     ],
     'correct' => 'mutation',
@@ -61,9 +61,9 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       'mutation',
       '<span style="color: #b74300; font-weight:700;">genetic</span> drift',
+      'gene flow',
       'random mating',
       'assortative mating',
-      'consanguineous mating',
     ],
     'correct' => '<span style="color: #b74300; font-weight:700;">genetic</span> drift',
   },
@@ -72,11 +72,11 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'population <span style="color: #b74300; font-weight:700;">genetic</span> terms',
     'singular_item' => 'definition',
     'choices' => [
+      'mutation',
       '<span style="color: #b74300; font-weight:700;">genetic</span> drift',
       'gene flow',
       'random mating',
       'assortative mating',
-      'consanguineous mating',
     ],
     'correct' => '<span style="color: #b74300; font-weight:700;">genetic</span> drift',
   },
@@ -100,8 +100,8 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       'mutation',
       '<span style="color: #b74300; font-weight:700;">genetic</span> drift',
+      'gene flow',
       'random mating',
-      'assortative mating',
       'consanguineous mating',
     ],
     'correct' => 'random mating',
@@ -111,8 +111,8 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'population <span style="color: #b74300; font-weight:700;">genetic</span> terms',
     'singular_item' => 'definition',
     'choices' => [
+      'mutation',
       '<span style="color: #b74300; font-weight:700;">genetic</span> drift',
-      'gene flow',
       'random mating',
       'assortative mating',
       'consanguineous mating',
@@ -124,9 +124,9 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'population <span style="color: #b74300; font-weight:700;">genetic</span> terms',
     'singular_item' => 'definition',
     'choices' => [
-      'mutation',
       '<span style="color: #b74300; font-weight:700;">genetic</span> drift',
       'gene flow',
+      'random mating',
       'assortative mating',
       'consanguineous mating',
     ],
@@ -138,7 +138,7 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'definition',
     'choices' => [
       'mutation',
-      '<span style="color: #b74300; font-weight:700;">genetic</span> drift',
+      'gene flow',
       'random mating',
       'assortative mating',
       'consanguineous mating',
@@ -150,8 +150,8 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'population <span style="color: #b74300; font-weight:700;">genetic</span> terms',
     'singular_item' => 'definition',
     'choices' => [
+      'mutation',
       '<span style="color: #b74300; font-weight:700;">genetic</span> drift',
-      'gene flow',
       'random mating',
       'assortative mating',
       'consanguineous mating',
