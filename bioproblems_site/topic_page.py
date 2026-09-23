@@ -40,6 +40,7 @@ COLOR_RESET = "\033[0m"
 COLOR_GREEN = "\033[92m"
 COLOR_YELLOW = "\033[93m"
 COLOR_CYAN = "\033[96m"
+COLOR_COMMAND = "\033[36m"
 COLOR_RED = "\033[91m"
 COLOR_MAGENTA = "\033[95m"
 
@@ -69,7 +70,10 @@ def remove_case_mismatched_files(expected_path: str) -> None:
 		if not os.path.isfile(entry_path):
 			continue
 		os.remove(entry_path)
-		print(color_text(f"  REMOVED CASE MISMATCH: {entry_path}", COLOR_YELLOW))
+		print(color_text(
+			f"  REMOVED CASE MISMATCH: {git_paths.display_path(entry_path)}",
+			COLOR_YELLOW,
+		))
 
 #==============
 
@@ -175,23 +179,35 @@ def create_downloadable_format(bbq_file: str, prefix: str, extension: str) -> st
 			"--output",
 			temporary_output_path,
 		]
-		cmd_display = " ".join(convert_cmd)
-		print(color_text(cmd_display, COLOR_CYAN))
+		display_cmd = list(convert_cmd)
+		display_cmd[1] = git_paths.display_path(converter_path)
+		for path_flag in ("--input", "--output"):
+			flag_index = display_cmd.index(path_flag)
+			display_cmd[flag_index + 1] = git_paths.display_path(
+				display_cmd[flag_index + 1]
+			)
+		cmd_display = " ".join(display_cmd)
+		print(color_text(cmd_display, COLOR_COMMAND))
 		completed_process = subprocess.run(convert_cmd, check=False)
 		if completed_process.returncode != 0:
 			raise RuntimeError(
 				f"{prefix} converter exited with status {completed_process.returncode} "
-				f"for {bbq_file}; did not replace {file_path}."
+				f"for {git_paths.display_path(bbq_file)}; did not replace "
+				f"{git_paths.display_path(file_path)}."
 			)
 		if (
 			not os.path.isfile(temporary_output_path)
 			or os.path.getsize(temporary_output_path) == 0
 		):
-			print("\n" + cmd_display + "\n")
-			print(color_text(f"WARNING: {prefix}, {extension}, {bbq_file}", COLOR_YELLOW))
+			print("\n" + color_text(cmd_display, COLOR_COMMAND) + "\n")
+			print(color_text(
+				f"WARNING: {prefix}, {extension}, {git_paths.display_path(bbq_file)}",
+				COLOR_YELLOW,
+			))
 			raise RuntimeError(
-				f"{prefix} converter produced no output for {bbq_file}; "
-				f"did not replace {file_path}."
+				f"{prefix} converter produced no output for "
+				f"{git_paths.display_path(bbq_file)}; did not replace "
+				f"{git_paths.display_path(file_path)}."
 			)
 		os.replace(temporary_output_path, file_path)
 	remove_case_mismatched_files(file_path)
@@ -362,11 +378,19 @@ def generate_download_button_row(
 			pgml_path = find_pgml_file(bbq_file_name)
 			if not pgml_path:
 				if verbose:
-					print(color_text(f"  MISSING {file_type['display_name']}", COLOR_YELLOW))
+					print(color_text(
+						f"  NOT FOUND (this stage only links existing files): "
+						f"{file_type['display_name']}",
+						COLOR_YELLOW,
+					))
 				record_stat(stats, type_key, "missing")
 				continue
 			if verbose:
-				print(color_text(f"  FOUND {file_type['display_name']}: {pgml_path}", COLOR_GREEN))
+				print(color_text(
+					f"  FOUND {file_type['display_name']}: "
+					f"{git_paths.display_path(pgml_path)}",
+					COLOR_GREEN,
+				))
 			record_stat(stats, type_key, "existing")
 			pgml_basename = os.path.basename(pgml_path)
 			pgml_relative_path = os.path.relpath(pgml_path, start=dir_name)
@@ -398,7 +422,9 @@ def generate_download_button_row(
 		if not generate_downloads and not exists_before:
 			if verbose:
 				print(color_text(
-					f"  MISSING {file_type['display_name']}: {out_file_path}",
+					f"  NOT PRESENT (this page-render stage does not generate downloads): "
+					f"{file_type['display_name']}: "
+					f"{git_paths.display_path(out_file_path)}",
 					COLOR_YELLOW,
 				))
 			record_stat(stats, type_key, "missing")
@@ -418,7 +444,11 @@ def generate_download_button_row(
 			source_is_newer = False
 		if exists_before and not force_downloads and not source_is_newer:
 			if verbose:
-				print(color_text(f"  FOUND {file_type['display_name']}: {out_file_path}", COLOR_GREEN))
+				print(color_text(
+					f"  FOUND {file_type['display_name']}: "
+					f"{git_paths.display_path(out_file_path)}",
+					COLOR_GREEN,
+				))
 			record_stat(stats, type_key, "existing")
 		elif source_is_newer:
 			if verbose:
@@ -430,17 +460,29 @@ def generate_download_button_row(
 			)
 			if not os.path.isfile(out_file_path):
 				if verbose:
-					print(color_text(f"  MISSING {file_type['display_name']}: {out_file_path}", COLOR_YELLOW))
+					print(color_text(
+						f"  MISSING {file_type['display_name']}: "
+						f"{git_paths.display_path(out_file_path)}",
+						COLOR_YELLOW,
+					))
 				record_stat(stats, type_key, "failed")
 				continue
 			record_stat(stats, type_key, "generated")
 		elif type_key == "bb_text":
 			if verbose:
-				print(color_text(f"  MISSING {file_type['display_name']}: {out_file_path}", COLOR_YELLOW))
+				print(color_text(
+					f"  MISSING {file_type['display_name']}: "
+					f"{git_paths.display_path(out_file_path)}",
+					COLOR_YELLOW,
+				))
 			record_stat(stats, type_key, "missing")
 		elif not planned_missing_artifact:
 			if verbose:
-				print(color_text(f"  BUILD {file_type['display_name']}: {out_file_path}", COLOR_CYAN))
+				print(color_text(
+					f"  BUILD {file_type['display_name']}: "
+					f"{git_paths.display_path(out_file_path)}",
+					COLOR_CYAN,
+				))
 			out_file_path = create_downloadable_format(
 				bbq_file_name,
 				file_type['prefix'],
@@ -448,7 +490,11 @@ def generate_download_button_row(
 			)
 		if not planned_missing_artifact and not os.path.isfile(out_file_path):
 			if verbose:
-				print(color_text(f"  MISSING {file_type['display_name']}: {out_file_path}", COLOR_YELLOW))
+				print(color_text(
+					f"  MISSING {file_type['display_name']}: "
+					f"{git_paths.display_path(out_file_path)}",
+					COLOR_YELLOW,
+				))
 			if type_key != "bb_text":
 				record_stat(stats, type_key, "failed")
 			continue
@@ -668,7 +714,7 @@ def update_index_md(
 		print(color_text(f"LibreTexts link: {libretexts_link}", COLOR_CYAN))
 
 	index_md_path = os.path.join(topic_folder, "index.md")
-	print(f'writing to {index_md_path}')
+	print(f"writing to {git_paths.display_path(index_md_path)}")
 	with _atomic_text_writer(index_md_path) as index_md:
 		index_md.write(f"# {title}\n\n")
 		index_md.write(f"{description}\n\n")
@@ -707,7 +753,10 @@ def update_index_md(
 				file_progress = f"[{file_counter['count']}/{total_files}] "
 			print('-' * 50)
 			# Convert the text file to HTML
-			print(color_text(f'  {file_progress}BBQ file {bbq_file}', COLOR_CYAN))
+			print(color_text(
+				f"  {file_progress}BBQ file {git_paths.display_path(bbq_file)}",
+				COLOR_CYAN,
+			))
 
 			html_file_path = get_outfile_name(bbq_file, 'selftest', 'html')
 			# The self-test HTML draws a fresh random question when explicitly
@@ -717,7 +766,7 @@ def update_index_md(
 				if not os.path.isfile(html_file_path):
 					print("\n\n\n!! unfortunately, the script requires a selftest for each problem !!")
 					record_stat(stats, "selftest", "failed")
-					raise FileNotFoundError(html_file_path)
+					raise FileNotFoundError(git_paths.display_path(html_file_path))
 				record_stat(stats, "selftest", "generated")
 			elif os.path.isfile(html_file_path):
 				record_stat(stats, "selftest", "existing")
@@ -853,7 +902,9 @@ def regenerate_all_selftests(
 	if base_dir is None:
 		base_dir = get_docs_dir()
 	if not os.path.exists(base_dir):
-		raise FileNotFoundError(f"Base directory '{base_dir}' not found.")
+		raise FileNotFoundError(
+			f"Base directory '{git_paths.display_path(base_dir)}' not found."
+		)
 	topic_jobs = enumerate_topic_jobs(base_dir, subject_filter, topic_filter)
 	total_bbq_files = sum(len(files) for _, files in topic_jobs)
 	if verbose:
@@ -875,15 +926,17 @@ def regenerate_all_selftests(
 			if not os.path.isfile(html_file_path):
 				if verbose:
 					print(color_text(
-						f"  [{file_count}/{total_bbq_files}] FAILED selftest: {bbq_file}",
+						f"  [{file_count}/{total_bbq_files}] FAILED selftest: "
+						f"{git_paths.display_path(bbq_file)}",
 						COLOR_YELLOW,
 					))
 				if stats is not None:
 					record_stat(stats, "selftest", "failed")
-				raise FileNotFoundError(html_file_path)
+				raise FileNotFoundError(git_paths.display_path(html_file_path))
 			if verbose:
 				print(color_text(
-					f"  [{file_count}/{total_bbq_files}] regenerated {html_file_path}",
+					f"  [{file_count}/{total_bbq_files}] regenerated "
+					f"{git_paths.display_path(html_file_path)}",
 					COLOR_GREEN,
 				))
 			if stats is not None:
@@ -914,7 +967,9 @@ def render_all(
 	if base_dir is None:
 		base_dir = get_docs_dir()
 	if not os.path.exists(base_dir):
-		raise FileNotFoundError(f"Base directory '{base_dir}' not found.")
+		raise FileNotFoundError(
+			f"Base directory '{git_paths.display_path(base_dir)}' not found."
+		)
 	if options.verbose:
 		joined_formats = ", ".join(options.download_formats) or "none"
 		print(color_text(f"Download formats: {joined_formats}", COLOR_CYAN))
@@ -947,7 +1002,8 @@ def render_all(
 					f"{total_bbq_files} files)"
 				)
 			print(color_text(
-				f"{progress} Current folder: {topic_folder}{file_progress}",
+				f"{progress} Current folder: {git_paths.display_path(topic_folder)}"
+				f"{file_progress}",
 				COLOR_MAGENTA,
 			))
 		update_index_md(

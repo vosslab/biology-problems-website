@@ -28,6 +28,20 @@ def get_repo_root() -> str:
 	return os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
+#============================================
+def display_path(file_path: str | os.PathLike[str]) -> str:
+	"""Format a filesystem path relative to the current working directory."""
+	path_value = os.fspath(file_path)
+	if not path_value:
+		return path_value
+	absolute_path = os.path.abspath(path_value)
+	try:
+		return os.path.relpath(absolute_path, start=os.getcwd())
+	except ValueError:
+		# Paths on a different volume cannot be made relative.
+		return absolute_path
+
+
 @functools.lru_cache(maxsize=1)
 def get_git_tracked_paths() -> dict:
 	"""Return {lowercase_path: actual_path} for every git-tracked file."""

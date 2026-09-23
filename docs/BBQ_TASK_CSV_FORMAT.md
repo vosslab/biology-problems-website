@@ -30,6 +30,11 @@ The runner reads these columns in `load_tasks_csv` in
 [bbq_config.py](../bioproblems_site/bbq_config.py); see the row loop near the
 `csv.DictReader` block for the exact field handling.
 
+The loader rejects missing or duplicate required columns, malformed active rows,
+and files with no active task rows. Completely blank separator rows are ignored.
+If an unrelated task file prevents repository-wide ownership checks, the build
+skips orphan cleanup so uncertain configuration cannot remove generated content.
+
 ## Subject and topic resolution
 
 The `subject` column holds the canonical subject key. Subjects are not

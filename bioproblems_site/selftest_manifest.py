@@ -18,6 +18,7 @@ import yaml
 
 # local repo modules
 import bioproblems_site.metadata as metadata_module
+import bioproblems_site.git_paths as git_paths
 
 
 #============================================
@@ -131,7 +132,7 @@ def build_manifest(
 		for include_path in _extract_include_paths(page_text):
 			full_selftest_path = os.path.join(site_docs_dir, include_path)
 			if not os.path.isfile(full_selftest_path):
-				raise FileNotFoundError(full_selftest_path)
+				raise FileNotFoundError(git_paths.display_path(full_selftest_path))
 			with open(full_selftest_path, "r", encoding="iso8859-1") as file_pointer:
 				selftest_html = file_pointer.read()
 			crcs = QUESTION_DIV_RE.findall(selftest_html)

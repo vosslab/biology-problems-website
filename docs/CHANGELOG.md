@@ -16,6 +16,18 @@
   builds refresh manifest rows for selected topics and preserve the other current
   rows; unrestricted builds still validate every reachable self-test include.
 - Normal builds omit per-topic orphan-prune summaries when a folder has no actions.
+- Topic pages now render once per affected topic after row-owned self-tests and
+  downloads finish, avoiding repeated whole-topic scans. Page-render logs identify
+  absent downloads as files this stage does not generate.
+- Task CSV headers and rows are validated before use. If repository-wide task ownership
+  cannot be established, orphan cleanup is skipped while index generation continues.
+- Configured PGML generation/copy failures now fail the owning task row. PGML files are
+  staged before publication so a failed generator preserves the prior file.
+- Generated subject/question indexes, navigation, and orphan-prune edits now publish
+  text atomically, preserving the prior complete file if writing is interrupted.
+- Each configured build now writes one fresh `bbq_generation.log` across all CSV rows;
+  errors share that log, and numbered backups are removed at startup.
+- Build status and diagnostic paths are shown relative to the current working directory.
 
 ## 2026-09-22
 
@@ -34,8 +46,9 @@
 - Added `-b/--backend` to choose Ollama, Codex CLI, or Claude Code CLI for generated
   page titles. Ollama remains the default; Codex uses its configured CLI model
   when `--model` is omitted.
-- Configured builds now finish each CSV task row's self-test, topic-page, and
-  download stages before starting the next row. Site-wide indexes remain final.
+- Configured builds finish each CSV task row's self-test and download stages before
+  starting the next row. Topic pages render once per affected topic afterward;
+  site-wide indexes remain final.
 
 ### Fixes and Maintenance
 

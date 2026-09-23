@@ -114,6 +114,18 @@ def test_blank_separator_row_skipped(tmp_path: object) -> object:
 	assert any(d.endswith("/topic14") for d in output_dirs)
 
 
+def test_missing_required_task_column_fails_with_csv_context(tmp_path: object) -> object:
+	"""A misspelled required header cannot silently remove task rows from a build."""
+	body = """
+		subject,topic,scrip,flags,input,notes
+		biochemistry,amino_acids,which_macromolecule.py,,,
+	"""
+	with pytest.raises(ValueError, match="missing required columns"):
+		bbq_config.load_tasks_csv(
+			_write_csv(tmp_path, body), _bbq_config(tmp_path), _alias_map_with_amino_acids(),
+		)
+
+
 def test_unknown_subject_raises(tmp_path: object) -> object:
 	body = """
 		subject,topic,script,flags,input,notes

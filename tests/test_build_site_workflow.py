@@ -186,16 +186,17 @@ def test_dry_run_reports_canonical_subject_qualified_topic(
 
 
 #============================================
-def test_csv_row_finishes_all_stages_before_next_row_generator(
+def test_csv_row_finishes_row_artifacts_before_next_generator_and_page_runs_once(
 	monkeypatch: pytest.MonkeyPatch,
 	tmp_path: Path,
 ) -> None:
-	"""Every expanded generator and local stage for a CSV row precedes the next row."""
+	"""Row outputs precede the next generator; each aggregate page renders once at the end."""
 	tasks_dir = tmp_path / "task_files"
 	tasks_dir.mkdir()
 	(tasks_dir / "tasks.csv").write_text(
 		"subject,topic,script,flags,input,notes\n"
 		"genetics,topic01,PAIR,,,\n"
+		"genetics,topic01,ADDITIONAL,,,\n"
 		"genetics,topic02,NEXT,,,\n"
 	)
 	site_docs_dir = tmp_path / "site_docs"
@@ -203,6 +204,7 @@ def test_csv_row_finishes_all_stages_before_next_row_generator(
 		"paths": {"bp_root": str(tmp_path)},
 		"script_aliases": {
 			"PAIR": [str(tmp_path / "match_generator.py"), str(tmp_path / "mc_generator.py")],
+			"ADDITIONAL": str(tmp_path / "additional_generator.py"),
 			"NEXT": str(tmp_path / "next_generator.py"),
 		},
 	}
@@ -232,7 +234,6 @@ def test_csv_row_finishes_all_stages_before_next_row_generator(
 	monkeypatch.setattr(bbq_workflow, "task_needs_run", lambda task, scope: True)
 	monkeypatch.setattr(bbq_workflow.bbq_config, "check_pythonpath", lambda value: (True, ""))
 	monkeypatch.setattr(bbq_workflow.bbq_config, "build_pythonpath", lambda value: "")
-	monkeypatch.setattr(bbq_workflow.bbq_outputs, "rotate_log", lambda path: None)
 
 	def run_task(task: dict[str, object], *args: object, **kwargs: object) -> bool:
 		script_name = Path(str(task["script"])).stem
@@ -283,10 +284,13 @@ def test_csv_row_finishes_all_stages_before_next_row_generator(
 		"bbq mc_generator",
 		"selftest topic01 (2)",
 		"downloads topic01 (2)",
-		"page topic01",
+		"bbq additional_generator",
+		"selftest topic01 (1)",
+		"downloads topic01 (1)",
 		"bbq next_generator",
 		"selftest topic02 (1)",
 		"downloads topic02 (1)",
+		"page topic01",
 		"page topic02",
 	]
 
@@ -326,7 +330,6 @@ def test_failed_csv_row_stops_before_downstream_and_later_generators(
 	monkeypatch.setattr(bbq_workflow.bbq_config, "load_bbq_config", lambda path: {})
 	monkeypatch.setattr(bbq_workflow.bbq_config, "check_pythonpath", lambda settings: (True, ""))
 	monkeypatch.setattr(bbq_workflow.bbq_config, "build_pythonpath", lambda settings: "")
-	monkeypatch.setattr(bbq_workflow.bbq_outputs, "rotate_log", lambda path: None)
 	monkeypatch.setattr(build_stages, "selftests_need_run", lambda *args: True)
 	monkeypatch.setattr(build_stages, "topic_page_needs_run", lambda *args: True)
 	monkeypatch.setattr(build_stages, "downloads_need_run", lambda *args: True)
@@ -355,6 +358,56 @@ def test_failed_csv_row_stops_before_downstream_and_later_generators(
 		build_coordinator.build_site(BuildScope(subject="genetics"))
 
 	assert events == ["generator topic01"]
+
+
+#============================================
+def test_configured_pgml_failure_restores_previous_bbq_and_pgml(
+	monkeypatch: pytest.MonkeyPatch,
+	tmp_path: Path,
+) -> None:
+	"""A configured PGML failure fails its row and preserves both prior outputs."""
+	workdir = tmp_path / "work"
+	workdir.mkdir()
+	monkeypatch.chdir(workdir)
+	output_path = tmp_path / "site_docs/genetics/topic01/bbq-example-questions.txt"
+	output_path.parent.mkdir(parents=True)
+	output_path.write_text("previous valid BBQ\n")
+	pgml_dir = output_path.parent / "downloads"
+	pgml_dir.mkdir()
+	pgml_path = pgml_dir / "example.pg"
+	pgml_path.write_text("previous valid PGML\n")
+	pgml_script = tmp_path / "pgml_generator.py"
+	pgml_script.write_text("# configured generator\n")
+	input_path = tmp_path / "example.yml"
+	input_path.write_text("questions: []\n")
+	task = {
+		"script": "fake_generator.py",
+		"args": [],
+		"output": str(output_path),
+		"pgml_info": {
+			"script": str(pgml_script),
+			"input_path": str(input_path),
+			"suffix": "",
+			"extension": "pg",
+			"output_dir": str(pgml_dir),
+		},
+	}
+	monkeypatch.setattr(bbq_workflow.bbq_runner, "build_command", lambda task: ["fake-bbq"])
+	monkeypatch.setattr(bbq_workflow.bbq_runner, "get_missing_script_message", lambda task: "")
+	monkeypatch.setattr(bbq_workflow.bbq_runner, "get_missing_input_message", lambda task: "")
+
+	def run_generators(command: list[str], **kwargs: object) -> SimpleNamespace:
+		if command == ["fake-bbq"]:
+			output_path.write_text("new valid BBQ\n")
+			return SimpleNamespace(returncode=0, stdout="", stderr="")
+		Path(command[-1]).write_text("partial PGML\n")
+		return SimpleNamespace(returncode=2, stdout="", stderr="generation failed")
+
+	monkeypatch.setattr(bbq_workflow.bbq_runner.subprocess, "run", run_generators)
+
+	assert not bbq_workflow.bbq_runner.run_task(task, str(tmp_path / "build.log"), 1, 1)
+	assert output_path.read_text() == "previous valid BBQ\n"
+	assert pgml_path.read_text() == "previous valid PGML\n"
 
 
 #============================================
@@ -452,6 +505,57 @@ def test_full_topic_build_stays_within_selected_topic(
 	)
 
 	assert selected_pages == [TopicRef("genetics", "topic01")]
+
+
+#============================================
+def test_unreadable_task_inventory_skips_pruning_and_preserves_sources(
+	monkeypatch: pytest.MonkeyPatch,
+	tmp_path: Path,
+	capsys: pytest.CaptureFixture[str],
+) -> None:
+	"""Uncertain task ownership must not delete sources or block index updates."""
+	task_dir = tmp_path / "task_files"
+	task_dir.mkdir()
+	(task_dir / "broken.csv").write_text("subject,topic,scrip\ngenetics,topic01,generate.py\n")
+	settings_path = tmp_path / "bbq_settings.yml"
+	settings_path.write_text("{}\n")
+	site_docs_dir = tmp_path / "site_docs"
+	topic_dir = site_docs_dir / "genetics" / "topic01"
+	topic_dir.mkdir(parents=True)
+	source_path = topic_dir / "bbq-preserve-this-questions.txt"
+	source_path.write_text("MC\tOriginal question\n")
+	subject = metadata.Subject("genetics", "Genetics", "", ())
+
+	monkeypatch.setattr(build_stages, "DEFAULT_SITE_DOCS", site_docs_dir)
+	monkeypatch.setattr(bbq_workflow, "DEFAULT_TASK_DIR", task_dir)
+	monkeypatch.setattr(bbq_workflow, "DEFAULT_SETTINGS_PATH", settings_path)
+	monkeypatch.setattr(bbq_workflow.bbq_config, "load_bbq_config", lambda path: {})
+	monkeypatch.setattr(
+		build_stages.metadata_module,
+		"load_topics_metadata",
+		lambda **kwargs: ({"genetics": subject}, ["genetics"]),
+	)
+	monkeypatch.setattr(build_stages.question_index_module, "write", lambda *args, **kwargs: None)
+	monkeypatch.setattr(
+		build_stages,
+		"_write_subject_index",
+		lambda subject, site_docs, dry_run: site_docs / "genetics" / "index.md",
+	)
+	monkeypatch.setattr(
+		build_stages.mkdocs_nav_module,
+		"update_from_sources",
+		lambda **kwargs: None,
+	)
+	monkeypatch.setattr(
+		build_stages.orphan_prune_module,
+		"reconcile_all",
+		lambda *args, **kwargs: pytest.fail("unsafe orphan pruning was attempted"),
+	)
+
+	build_stages.run_subject_indexes(BuildScope(subject="genetics", dry_run=True))
+
+	assert source_path.read_text() == "MC\tOriginal question\n"
+	assert "skipping orphan reconciliation" in capsys.readouterr().out
 
 
 #============================================
@@ -568,7 +672,6 @@ def test_all_task_mode_alone_sets_the_batch_question_limit(
 	monkeypatch.setattr(bbq_workflow.bbq_config, "load_bbq_config", lambda path: {})
 	monkeypatch.setattr(bbq_workflow.bbq_config, "check_pythonpath", lambda settings: (True, ""))
 	monkeypatch.setattr(bbq_workflow.bbq_config, "build_pythonpath", lambda settings: "")
-	monkeypatch.setattr(bbq_workflow.bbq_outputs, "rotate_log", lambda path: None)
 	monkeypatch.setattr(
 		bbq_workflow.bbq_runner,
 		"run_task",

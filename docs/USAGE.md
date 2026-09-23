@@ -51,21 +51,24 @@ MkDocs opens `http://127.0.0.1:8000/` with live reload. Press Ctrl-C to stop it.
 ## Page generation
 
 `build_site.py` completes each selected CSV row's BBQ generation, self-tests,
-downloads, and topic page before advancing to the next row. It then runs global
-orphan reconciliation, the searchable question index, navigation, and the
-self-test manifest; subject indexes are limited to the selected subject when
-`--subject` is used. The navigation stage updates source content in
-[mkdocs.yml](../mkdocs.yml); run MkDocs separately to render `site/` and
-`sitemap.xml`. Run the content workflow from the repo root:
+and downloads before advancing to the next row. It renders each affected topic
+page once after those row-owned files are ready, then runs global orphan
+reconciliation, the searchable question index, navigation, and the self-test
+manifest; subject indexes are limited to the selected subject when `--subject`
+is used. If task ownership cannot be read safely, orphan cleanup is skipped and
+reported while index generation continues. The navigation stage updates source
+content in [mkdocs.yml](../mkdocs.yml); run MkDocs separately to render `site/`
+and `sitemap.xml`. Run the content workflow from the repo root:
 
 ```bash
 source source_me.sh && ./build_site.py
 ```
 
-Every run reconciles `site_docs/` against the live `bbq-*-questions.txt` set
-before updating the manifest. It removes orphan generated artifacts, strips dead
-self-test includes, prunes stale title-cache entries, and quarantines orphan
-topic-level pgml/pg masters to a repo-root `orphaned/` folder. Dry runs report
+When task ownership can be established, the run reconciles `site_docs/` against
+the live `bbq-*-questions.txt` set before updating the manifest. It removes orphan
+generated artifacts, strips dead self-test includes, prunes stale title-cache
+entries, and quarantines orphan topic-level pgml/pg masters to a repo-root
+`orphaned/` folder. Dry runs report
 that reconciliation plan without changing files.
 
 Common flags:

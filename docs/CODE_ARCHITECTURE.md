@@ -13,6 +13,8 @@ CLI exposes one dependency-aware content build workflow.
   ordered BBQ, self-test, download, topic-page, and index/navigation orchestration.
 - [bioproblems_site/build_stages.py](../bioproblems_site/build_stages.py): local
   stale checks and output-owned stage entrypoints.
+- [bioproblems_site/atomic_write.py](../bioproblems_site/atomic_write.py): atomic
+  publication for generated text files and configuration updates.
 - [bioproblems_site/topic_metadata.py](../bioproblems_site/topic_metadata.py):
   cached topic title, description, and LibreTexts metadata lookup.
 - [bioproblems_site/topic_page.py](../bioproblems_site/topic_page.py): topic
@@ -49,11 +51,12 @@ versioning, changelog, release, graphify, and cleanup workflows.
 The coordinator loads the selected task CSVs from [task_files/](../task_files/),
 resolves their canonical subject/topic keys from metadata, and reports `TopicRef`
 changes rather than inferring identity from paths. It completes each selected
-configured CSV row's BBQ generation, self-tests, downloads, and topic page before
-advancing to the next row. After task rows, it runs repository-wide reconciliation,
-the searchable question index, selected subject indexes, navigation, and the
-self-test manifest. Each stage owns its direct stale check and outputs. The index
-stage updates source navigation in
+configured CSV row's BBQ generation, self-tests, and downloads before advancing
+to the next row. Since a topic page summarizes every question file in its folder,
+each affected page is rendered once after the selected rows finish. The coordinator
+then runs repository-wide reconciliation, the searchable question index, selected
+subject indexes, navigation, and the self-test manifest. Each stage owns its direct
+stale check and outputs. The index stage updates source navigation in
 [mkdocs.yml](../mkdocs.yml); MkDocs separately renders the final site and owns
 `sitemap.xml`.
 

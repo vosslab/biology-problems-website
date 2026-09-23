@@ -16,6 +16,7 @@ import bioproblems_site.mkdocs_nav as mkdocs_nav_module
 import bioproblems_site.orphan_prune as orphan_prune_module
 import bioproblems_site.selftest_manifest as selftest_manifest_module
 import bioproblems_site.llm_helpers as llm_helpers
+import bioproblems_site.git_paths as git_paths
 
 
 #============================================
@@ -57,19 +58,26 @@ def _write_subject_index(
 		marker_present = subject_index_module.has_generated_marker(expected_target)
 		if not marker_present:
 			raise RuntimeError(
-				f"Refusing to overwrite {expected_target} -- file has no "
+				f"Refusing to overwrite {git_paths.display_path(expected_target)} "
+				"-- file has no "
 				f"generated marker. Delete the file and re-run to "
 				f"regenerate from scratch."
 			)
 	if dry_run:
 		if verbose:
-			print(color_text(f"[dry-run] would write {expected_target}", COLOR_YELLOW))
+			print(color_text(
+				f"[dry-run] would write {git_paths.display_path(expected_target)}",
+				COLOR_YELLOW,
+			))
 		return
 	os.makedirs(out_dir, exist_ok=True)
 	with open(expected_target, "w") as file_pointer:
 		file_pointer.write(text)
 	if verbose:
-		print(color_text(f"wrote {expected_target}", COLOR_GREEN))
+		print(color_text(
+			f"wrote {git_paths.display_path(expected_target)}",
+			COLOR_GREEN,
+		))
 
 
 #============================================
@@ -178,7 +186,10 @@ def run(
 			dry_run=dry_run,
 		)
 		if verbose and not dry_run:
-			print(color_text(f"updated {mkdocs_path} nav block", COLOR_GREEN))
+			print(color_text(
+				f"updated {git_paths.display_path(mkdocs_path)} nav block",
+				COLOR_GREEN,
+			))
 
 	if subject_indexes or topic_pages or run_selftests:
 		# Reconcile orphaned bbq-derived state before the manifest is written,

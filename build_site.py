@@ -112,7 +112,9 @@ def parse_scope(arguments: list[str] | None = None) -> build_contracts.BuildScop
 		if task_dir not in tasks_csv.parents or tasks_csv.suffix != ".csv":
 			raise ValueError("--task must name a CSV inside task_files/")
 		if not tasks_csv.is_file():
-			raise FileNotFoundError(f"Task CSV not found: {tasks_csv}")
+			raise FileNotFoundError(
+				f"Task CSV not found: {git_paths.display_path(tasks_csv)}"
+			)
 	scope = build_contracts.BuildScope(
 		subject=args.subject,
 		topic=args.topic,

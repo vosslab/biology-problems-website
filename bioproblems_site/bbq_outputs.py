@@ -312,19 +312,29 @@ def log_error(
 		file_handle.write("\n")
 
 
-def rotate_log(log_path: str, max_backups: int = 5) -> bool:
-	"""Rotate a log file with numbered backups."""
+def start_run_log(log_path: str) -> None:
+	"""Start one fresh run log and remove numbered backups from older runs."""
 	if not log_path:
-		return False
-	rotated = False
-	for index in range(max_backups - 1, 0, -1):
-		old_backup = f"{log_path}.{index}"
-		new_backup = f"{log_path}.{index + 1}"
-		if os.path.isfile(old_backup):
-			shutil.move(old_backup, new_backup)
-	if os.path.isfile(log_path):
-		shutil.move(log_path, f"{log_path}.1")
-		rotated = True
+		return
+	ensure_parent_dir(log_path)
+	log_directory = os.path.dirname(log_path) or "."
+	backup_prefix = os.path.basename(log_path) + "."
+	try:
+		filenames = os.listdir(log_directory)
+	except OSError as exc:
+		print(f"WARNING: could not inspect old log backups in {log_directory}: {exc}")
+		filenames = []
+	for filename in filenames:
+		if not filename.startswith(backup_prefix):
+			continue
+		if not re.fullmatch(r"[0-9]+", filename[len(backup_prefix):]):
+			continue
+		backup_path = os.path.join(log_directory, filename)
+		if not os.path.isfile(backup_path):
+			continue
+		try:
+			os.remove(backup_path)
+		except OSError as exc:
+			print(f"WARNING: could not remove old log backup {backup_path}: {exc}")
 	with open(log_path, "w") as file_handle:
 		file_handle.write("")
-	return rotated
