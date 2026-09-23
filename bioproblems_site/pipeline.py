@@ -1,6 +1,7 @@
-"""Orchestrate page generation: metadata load + scan + subject index
-rendering + topic page rendering + mkdocs.yml nav-block update. Called
-from the former page-only entrypoint.
+"""Legacy page-only orchestrator retained for older programmatic callers.
+
+The supported build entrypoint is build_site.py, which coordinates BBQ,
+self-test, topic-page, download, and repository-wide index stages.
 """
 
 # Standard Library

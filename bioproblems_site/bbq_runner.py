@@ -13,14 +13,13 @@ from bioproblems_site.bbq_config import (
 	get_missing_script_message,
 )
 from bioproblems_site.bbq_outputs import (
+	OutputRollback,
 	cleanup_dry_run_output,
 	count_output_lines_path,
 	log_error,
 	log_line,
 	move_output_candidate,
-	move_output_if_needed,
 	resolve_generated_output,
-	resolve_output_workdir,
 	resolve_output_workdir_recent,
 )
 
@@ -150,6 +149,60 @@ def task_label(task: dict, index: int, output_path: str, cmd_list: list) -> str:
 	return f"Task {index}"
 
 
+#============================================
+def output_file_signature(output_path: str) -> tuple[int, int, int] | None:
+	"""Return the modification identity needed to detect a direct task output."""
+	if not output_path or not os.path.isfile(output_path):
+		return None
+	output_stat = os.stat(output_path)
+	return output_stat.st_mtime_ns, output_stat.st_size, output_stat.st_ino
+
+
+#============================================
+def recent_task_output_candidate(
+	output_path: str,
+	workdir: str,
+	start_time: float,
+	original_signature: tuple[int, int, int] | None,
+) -> str:
+	"""Prefer a destination changed by this run over a recent stale basename."""
+	current_signature = output_file_signature(output_path)
+	if current_signature is not None and current_signature != original_signature:
+		return output_path
+	candidate_path = resolve_output_workdir_recent(output_path, workdir, start_time)
+	if candidate_path and os.path.abspath(candidate_path) != os.path.abspath(output_path):
+		return candidate_path
+	return ""
+
+
+#============================================
+def validate_task_output(
+	candidate_path: str,
+	output_path: str,
+	max_questions: int | None,
+) -> tuple[int, str]:
+	"""Reject missing, empty, or oversized outputs before replacing prior files."""
+	if not candidate_path or not os.path.isfile(candidate_path):
+		return 0, f"Generated output not found: {candidate_path or output_path}"
+	line_count = count_output_lines_path(candidate_path)
+	if line_count == 0:
+		return 0, f"Generated BBQ output is empty; refusing to publish {output_path}."
+	if max_questions and line_count > max_questions:
+		return line_count, (
+			f"Output has {line_count} lines; expected <= {max_questions}. "
+			f"Refusing to publish {output_path}."
+		)
+	return line_count, ""
+
+
+#============================================
+def discard_unpublished_task_output(candidate_path: str, output_path: str, log_path: str) -> None:
+	"""Remove a rejected working copy while leaving the configured output alone."""
+	if not candidate_path or os.path.abspath(candidate_path) == os.path.abspath(output_path):
+		return
+	cleanup_dry_run_output(candidate_path, log_path)
+
+
 def shorten_text(text: str, max_len: int) -> str:
 	if len(text) <= max_len:
 		return text
@@ -207,7 +260,7 @@ def run_pgml_generation(task: dict, log_path: str, pythonpath_value: str = "") -
 			check=False,
 			env=env_override,
 		)
-	except Exception as exc:
+	except OSError as exc:
 		log_line(log_path, f"PGML ERROR: launch failed: {exc}")
 		return False
 	if proc.returncode != 0:
@@ -297,7 +350,7 @@ def copy_sister_pgml(task: dict, log_path: str) -> bool:
 
 
 #============================================
-def run_task_capture(
+def _run_task_capture(
 	task: dict,
 	log_path: str,
 	move_output: bool,
@@ -311,6 +364,7 @@ def run_task_capture(
 	label = task_label(task, 0, output_path, cmd)
 	max_questions = task.get("max_questions")
 	start_time = time.time()
+	original_output_signature = output_file_signature(output_path)
 	candidate_path = ""
 
 	missing_script = get_missing_script_message(task)
@@ -338,7 +392,7 @@ def run_task_capture(
 			capture_output=True,
 			check=False,
 		)
-	except Exception as exc:
+	except OSError as exc:
 		log_line(log_path, f"LAUNCH ERROR {exc}")
 		log_error(error_log_path, label, f"Launch error: {exc}", cmd_list=cmd)
 		return False, "", str(exc), 0
@@ -360,18 +414,19 @@ def run_task_capture(
 		)
 		return False, proc.stdout, proc.stderr, 0
 
-	if output_path:
-		if move_output:
-			moved_ok = move_output_if_needed(output_path, workdir)
-			if not moved_ok:
-				log_line(log_path, f"ERROR expected output not found: {output_path}")
-				return False, proc.stdout, proc.stderr, 0
-		else:
-			candidate_path = resolve_output_workdir_recent(output_path, workdir, start_time)
-			if not candidate_path:
-				log_line(log_path, f"ERROR expected output not found: {output_path}")
-				log_error(error_log_path, label, f"Output not found: {output_path}", cmd_list=cmd)
-				return False, proc.stdout, proc.stderr, 0
+	explicit_output = bool(output_path)
+	if explicit_output:
+		candidate_path = recent_task_output_candidate(
+			output_path,
+			workdir,
+			start_time,
+			original_output_signature,
+		)
+		if not candidate_path:
+			message = f"Generated output not found: {output_path}"
+			log_line(log_path, f"ERROR {message}")
+			log_error(error_log_path, label, message, cmd_list=cmd)
+			return False, proc.stdout, proc.stderr, 0
 	else:
 		ok, resolved_output, detected_path, error_message = resolve_generated_output(
 			task,
@@ -392,37 +447,35 @@ def run_task_capture(
 		output_path = resolved_output
 		candidate_path = detected_path
 		log_line(log_path, f"DETECTED output -> {output_path}")
-		if move_output:
-			moved_ok = move_output_candidate(candidate_path, output_path)
-			if not moved_ok:
-				log_line(log_path, f"ERROR expected output not found: {output_path}")
-				log_error(error_log_path, label, f"Output not found: {output_path}", cmd_list=cmd)
-				return False, proc.stdout, proc.stderr, 0
-		else:
-			if not os.path.isfile(candidate_path):
-				log_line(log_path, f"ERROR expected output not found: {candidate_path}")
-				log_error(error_log_path, label, f"Output not found: {candidate_path}", cmd_list=cmd)
-				return False, proc.stdout, proc.stderr, 0
+
+	line_count, output_error = validate_task_output(
+		candidate_path,
+		output_path,
+		max_questions,
+	)
+	if output_error:
+		discard_unpublished_task_output(candidate_path, output_path, log_path)
+		log_line(log_path, f"ERROR {output_error}")
+		log_error(
+			error_log_path,
+			label,
+			output_error,
+			stdout_text=proc.stdout,
+			stderr_text=proc.stderr,
+			cmd_list=cmd,
+		)
+		return False, proc.stdout, output_error, line_count
 
 	if move_output:
-		line_count = count_output_lines_path(output_path)
-	else:
-		if not candidate_path:
-			candidate_path = resolve_output_workdir_recent(output_path, workdir, start_time)
-		line_count = count_output_lines_path(candidate_path)
-	if max_questions and line_count > max_questions:
-		msg = f"Output has {line_count} lines; expected <= {max_questions}."
-		log_line(log_path, msg)
-		log_error(error_log_path, label, msg, cmd_list=cmd)
-		if proc.stderr:
-			return False, proc.stdout, proc.stderr + "\n" + msg, line_count
-		return False, proc.stdout, msg, line_count
+		moved_ok = move_output_candidate(candidate_path, output_path)
+		if not moved_ok:
+			message = f"Could not publish generated output: {output_path}"
+			log_line(log_path, f"ERROR {message}")
+			log_error(error_log_path, label, message, cmd_list=cmd)
+			return False, proc.stdout, proc.stderr, line_count
 	if not move_output:
 		if allow_cleanup:
-			if candidate_path:
-				cleanup_dry_run_output(candidate_path, log_path)
-			else:
-				cleanup_dry_run_output(resolve_output_workdir(output_path, workdir), log_path)
+			discard_unpublished_task_output(candidate_path, output_path, log_path)
 		else:
 			log_line(log_path, "SKIP CLEANUP (PYTHONPATH not set)")
 	if move_output:
@@ -431,7 +484,35 @@ def run_task_capture(
 	return True, proc.stdout, proc.stderr, line_count
 
 
-def run_task(
+#============================================
+def run_task_capture(
+	task: dict,
+	log_path: str,
+	move_output: bool,
+	allow_cleanup: bool = True,
+	pythonpath_value: str = "",
+	error_log_path: str = "",
+) -> tuple:
+	"""Run a captured task while restoring configured output after failure."""
+	output_rollback = OutputRollback(task)
+	successful = False
+	try:
+		result = _run_task_capture(
+			task,
+			log_path,
+			move_output,
+			allow_cleanup,
+			pythonpath_value,
+			error_log_path,
+		)
+		successful = bool(result[0]) and move_output
+		return result
+	finally:
+		output_rollback.finish(successful)
+
+
+#============================================
+def _run_task(
 	task: dict,
 	log_path: str,
 	index: int,
@@ -445,6 +526,7 @@ def run_task(
 	workdir = "."
 	max_questions = task.get("max_questions")
 	start_time = time.time()
+	original_output_signature = output_file_signature(output_path)
 
 	cmd = build_command(task)
 	label = task_label(task, index, output_path, cmd)
@@ -478,7 +560,7 @@ def run_task(
 			capture_output=True,
 			check=False,
 		)
-	except Exception as exc:  # subprocess failure before execution
+	except OSError as exc:  # subprocess launch failure
 		print(color(f"FAILED to launch {label}: {exc}", COLOR_RED))
 		log_line(log_path, f"LAUNCH ERROR {label}: {exc}")
 		log_error(error_log_path, label, f"Launch error: {exc}", cmd_list=cmd)
@@ -502,28 +584,29 @@ def run_task(
 		)
 		return False
 
-	# If the task specifies an output path and the script wrote to CWD, move it.
-	line_count = 0
+	# Validate the generated candidate before it can replace an existing output.
+	explicit_output = bool(output_path)
 	candidate_path = ""
-	if output_path:
-		if move_output:
-			moved_ok = move_output_if_needed(output_path, workdir)
-			if moved_ok:
-				if os.path.isfile(output_path):
-					log_line(log_path, f"MOVED output to {output_path}")
-			else:
-				print(color(f"FAILED: expected output not found: {output_path}", COLOR_RED))
-				log_line(log_path, f"ERROR: expected output not found: {output_path}")
-				log_error(error_log_path, label, f"Output not found: {output_path}", cmd_list=cmd)
-				return False
-		else:
-			candidate_path = resolve_output_workdir_recent(output_path, workdir, start_time)
-			if not candidate_path:
-				print(color(f"FAILED: expected output not found: {output_path}", COLOR_RED))
-				log_line(log_path, f"ERROR: expected output not found: {output_path}")
-				log_error(error_log_path, label, f"Output not found: {output_path}", cmd_list=cmd)
-				return False
-			log_line(log_path, f"SKIP MOVE {label} -> {output_path}")
+	if explicit_output:
+		candidate_path = recent_task_output_candidate(
+			output_path,
+			workdir,
+			start_time,
+			original_output_signature,
+		)
+		if not candidate_path:
+			message = f"Generated output not found: {output_path}"
+			print(color(f"FAILED {label}: {message}", COLOR_RED))
+			log_line(log_path, f"ERROR: {message}")
+			log_error(
+				error_log_path,
+				label,
+				message,
+				stdout_text=proc.stdout,
+				stderr_text=proc.stderr,
+				cmd_list=cmd,
+			)
+			return False
 	else:
 		ok, resolved_output, detected_path, error_message = resolve_generated_output(
 			task,
@@ -546,41 +629,40 @@ def run_task(
 		task["output"] = output_path
 		candidate_path = detected_path
 		log_line(log_path, f"DETECTED output -> {output_path}")
-		if move_output:
-			moved_ok = move_output_candidate(candidate_path, output_path)
-			if not moved_ok:
-				print(color(f"FAILED: expected output not found: {output_path}", COLOR_RED))
-				log_line(log_path, f"ERROR: expected output not found: {output_path}")
-				log_error(error_log_path, label, f"Output not found: {output_path}", cmd_list=cmd)
-				return False
-			log_line(log_path, f"MOVED output to {output_path}")
-		else:
-			if not os.path.isfile(candidate_path):
-				print(color(f"FAILED: expected output not found: {candidate_path}", COLOR_RED))
-				log_line(log_path, f"ERROR: expected output not found: {candidate_path}")
-				log_error(error_log_path, label, f"Output not found: {candidate_path}", cmd_list=cmd)
-				return False
-			log_line(log_path, f"SKIP MOVE {label} -> {candidate_path}")
-	# Count output lines
-	if move_output:
-		line_count = count_output_lines_path(output_path)
-	else:
-		if not candidate_path:
-			candidate_path = resolve_output_workdir_recent(output_path, workdir, start_time)
-		line_count = count_output_lines_path(candidate_path)
-	# Check against max_questions limit
-	if max_questions and line_count > max_questions:
-		msg = f"Output has {line_count} lines; expected <= {max_questions}."
-		print(color(f"FAILED {label}: {msg}", COLOR_RED))
-		log_line(log_path, msg)
-		log_error(error_log_path, label, msg, cmd_list=cmd)
+
+	line_count, output_error = validate_task_output(
+		candidate_path,
+		output_path,
+		max_questions,
+	)
+	if output_error:
+		discard_unpublished_task_output(candidate_path, output_path, log_path)
+		print(color(f"FAILED {label}: {output_error}", COLOR_RED))
+		log_line(log_path, f"ERROR: {output_error}")
+		log_error(
+			error_log_path,
+			label,
+			output_error,
+			stdout_text=proc.stdout,
+			stderr_text=proc.stderr,
+			cmd_list=cmd,
+		)
 		return False
+
+	if move_output:
+		moved_ok = move_output_candidate(candidate_path, output_path)
+		if not moved_ok:
+			message = f"Could not publish generated output: {output_path}"
+			print(color(f"FAILED {label}: {message}", COLOR_RED))
+			log_line(log_path, f"ERROR: {message}")
+			log_error(error_log_path, label, message, cmd_list=cmd)
+			return False
+		log_line(log_path, f"MOVED output to {output_path}")
+	else:
+		log_line(log_path, f"SKIP MOVE {label} -> {candidate_path}")
 	if not move_output:
 		if allow_cleanup:
-			if candidate_path:
-				cleanup_dry_run_output(candidate_path, log_path)
-			else:
-				cleanup_dry_run_output(resolve_output_workdir(output_path, workdir), log_path)
+			discard_unpublished_task_output(candidate_path, output_path, log_path)
 		else:
 			log_line(log_path, "SKIP CLEANUP (PYTHONPATH not set)")
 
@@ -595,6 +677,35 @@ def run_task(
 		copy_sister_pgml(task, log_path)
 	return True
 
+
+#============================================
+def run_task(
+	task: dict,
+	log_path: str,
+	index: int,
+	total: int,
+	move_output: bool = True,
+	allow_cleanup: bool = True,
+	pythonpath_value: str = "",
+	error_log_path: str = "",
+) -> bool:
+	"""Run one task while restoring configured output after failure."""
+	output_rollback = OutputRollback(task)
+	successful = False
+	try:
+		successful = _run_task(
+			task,
+			log_path,
+			index,
+			total,
+			move_output,
+			allow_cleanup,
+			pythonpath_value,
+			error_log_path,
+		)
+		return successful
+	finally:
+		output_rollback.finish(successful and move_output)
 
 
 #============================================

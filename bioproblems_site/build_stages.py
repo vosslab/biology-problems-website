@@ -37,6 +37,18 @@ def topic_sources(topic_ref: TopicRef, site_docs_dir: Path = DEFAULT_SITE_DOCS) 
 
 
 #============================================
+def selected_topic_sources(
+	topic_ref: TopicRef,
+	source_paths: set[Path] | None,
+) -> list[Path]:
+	"""Return one task row's BBQ files, or every file in the topic when unscoped."""
+	if source_paths is None:
+		return topic_sources(topic_ref)
+	owner_folder = topic_folder(topic_ref)
+	return sorted(source_path for source_path in source_paths if source_path.parent == owner_folder)
+
+
+#============================================
 def is_newer_than_any(output_path: Path, input_paths: list[Path]) -> bool:
 	"""Return whether any existing direct input is newer than an output."""
 	if not output_path.is_file():
@@ -47,11 +59,19 @@ def is_newer_than_any(output_path: Path, input_paths: list[Path]) -> bool:
 
 
 #============================================
-def selftests_need_run(topic_ref: TopicRef, scope: BuildScope, changes: BuildChanges) -> bool:
+def selftests_need_run(
+	topic_ref: TopicRef,
+	scope: BuildScope,
+	changes: BuildChanges,
+	source_paths: set[Path] | None = None,
+) -> bool:
 	"""Check direct BBQ-to-self-test relationships for one topic."""
+	sources = selected_topic_sources(topic_ref, source_paths)
+	if not sources:
+		return False
 	if scope.full or topic_ref in changes.changed_topics:
 		return True
-	for source_path in topic_sources(topic_ref):
+	for source_path in sources:
 		output_path = Path(topic_page_module.get_outfile_name(str(source_path), "selftest", "html"))
 		if is_newer_than_any(output_path, [source_path]):
 			return True
@@ -59,21 +79,21 @@ def selftests_need_run(topic_ref: TopicRef, scope: BuildScope, changes: BuildCha
 
 
 #============================================
-def run_selftests(topic_ref: TopicRef, scope: BuildScope) -> set[Path]:
-	"""Write stale self-tests for one topic, unless planning only."""
-	sources = topic_sources(topic_ref)
+def run_selftests(
+	topic_ref: TopicRef,
+	scope: BuildScope,
+	source_paths: set[Path] | None = None,
+) -> set[Path]:
+	"""Write self-tests for one task row, or all files in a topic when unscoped."""
+	sources = selected_topic_sources(topic_ref, source_paths)
 	outputs = {
 		Path(topic_page_module.get_outfile_name(str(source_path), "selftest", "html"))
 		for source_path in sources
 	}
 	if scope.dry_run:
 		return outputs
-	topic_page_module.regenerate_all_selftests(
-		topic_ref.subject,
-		topic_ref.topic,
-		str(DEFAULT_SITE_DOCS),
-		verbose=True,
-	)
+	for source_path in sources:
+		topic_page_module.create_downloadable_format(str(source_path), "selftest", "html")
 	return outputs
 
 
@@ -85,6 +105,7 @@ def topic_page_needs_run(topic_ref: TopicRef, scope: BuildScope, changes: BuildC
 	inputs.extend(topic_sources(topic_ref))
 	for source_path in topic_sources(topic_ref):
 		inputs.append(Path(topic_page_module.get_outfile_name(str(source_path), "selftest", "html")))
+		inputs.extend(expected_downloads(source_path))
 	if scope.full or topic_ref in changes.changed_topics:
 		return True
 	return is_newer_than_any(page_path, inputs)
@@ -106,7 +127,7 @@ def run_topic_page(topic_ref: TopicRef, scope: BuildScope) -> set[Path]:
 		llm_client=client,
 		generate_downloads=False,
 		regenerate_selftests=False,
-		render_missing_download_links=True,
+		render_missing_download_links=False,
 	)
 	topic_page_module.render_all(
 		options,
@@ -132,11 +153,19 @@ def expected_downloads(source_path: Path) -> set[Path]:
 
 
 #============================================
-def downloads_need_run(topic_ref: TopicRef, scope: BuildScope, changes: BuildChanges) -> bool:
+def downloads_need_run(
+	topic_ref: TopicRef,
+	scope: BuildScope,
+	changes: BuildChanges,
+	source_paths: set[Path] | None = None,
+) -> bool:
 	"""Check direct BBQ-to-download relationships for one topic."""
+	sources = selected_topic_sources(topic_ref, source_paths)
+	if not sources:
+		return False
 	if scope.full or topic_ref in changes.changed_topics:
 		return True
-	for source_path in topic_sources(topic_ref):
+	for source_path in sources:
 		for output_path in expected_downloads(source_path):
 			if is_newer_than_any(output_path, [source_path]):
 				return True
@@ -144,10 +173,14 @@ def downloads_need_run(topic_ref: TopicRef, scope: BuildScope, changes: BuildCha
 
 
 #============================================
-def run_downloads(topic_ref: TopicRef, scope: BuildScope) -> set[Path]:
-	"""Write converter-owned download artifacts without rendering a topic page."""
+def run_downloads(
+	topic_ref: TopicRef,
+	scope: BuildScope,
+	source_paths: set[Path] | None = None,
+) -> set[Path]:
+	"""Write converter-owned artifacts for one row or all files in a topic."""
 	outputs: set[Path] = set()
-	for source_path in topic_sources(topic_ref):
+	for source_path in selected_topic_sources(topic_ref, source_paths):
 		outputs.update(expected_downloads(source_path))
 		if scope.dry_run:
 			continue
@@ -171,7 +204,10 @@ def _write_subject_index(subject: object, site_docs_dir: Path, dry_run: bool) ->
 
 
 #============================================
-def run_subject_indexes(scope: BuildScope) -> set[Path]:
+def run_subject_indexes(
+	scope: BuildScope,
+	selected_topics: set[TopicRef] | None = None,
+) -> set[Path]:
 	"""Unconditionally refresh cheap subject indexes, nav, and manifest."""
 	subjects, nav_order = metadata_module.load_topics_metadata(
 		metadata_path=str(DEFAULT_METADATA_PATH),
@@ -183,7 +219,7 @@ def run_subject_indexes(scope: BuildScope) -> set[Path]:
 	# Reconcile first so indexes, nav, and the manifest see only current task-owned
 	# BBQ sources after a removed CSV row is cleaned up.
 	task_owned_patterns = bbq_workflow.load_task_owned_patterns()
-	orphan_prune_module.reconcile_all(
+	reconciliation = orphan_prune_module.reconcile_all(
 		str(DEFAULT_SITE_DOCS), scope.dry_run, verbose=True,
 		task_owned_pattern_map=task_owned_patterns,
 	)
@@ -207,12 +243,30 @@ def run_subject_indexes(scope: BuildScope) -> set[Path]:
 		dry_run=scope.dry_run,
 	)
 	outputs.add(DEFAULT_MKDOCS_PATH)
-	selftest_manifest_module.write_manifest(
-		output_path=str(DEFAULT_SITE_DOCS / "assets/data/selftest_question_manifest.json"),
-		site_docs_dir=str(DEFAULT_SITE_DOCS),
-		mkdocs_path=str(DEFAULT_MKDOCS_PATH),
-		metadata_path=str(DEFAULT_METADATA_PATH),
-		dry_run=scope.dry_run,
-	)
-	outputs.add(DEFAULT_SITE_DOCS / "assets/data/selftest_question_manifest.json")
+	manifest_path = DEFAULT_SITE_DOCS / "assets/data/selftest_question_manifest.json"
+	if not scope.dry_run:
+		unrestricted = not any((
+			scope.subject,
+			scope.topic,
+			scope.tasks_csv,
+			scope.limit,
+		))
+		manifest_topic_scope = None
+		if not unrestricted:
+			manifest_topics = set(selected_topics or ())
+			for changed_index in reconciliation["strip_includes"]:
+				relative_path = Path(changed_index["path"]).relative_to(DEFAULT_SITE_DOCS)
+				if len(relative_path.parts) >= 3:
+					manifest_topics.add(TopicRef(relative_path.parts[0], relative_path.parts[1]))
+			manifest_topic_scope = {
+				(topic.subject, topic.topic) for topic in manifest_topics
+			}
+		selftest_manifest_module.write_manifest(
+			output_path=str(manifest_path),
+			site_docs_dir=str(DEFAULT_SITE_DOCS),
+			mkdocs_path=str(DEFAULT_MKDOCS_PATH),
+			metadata_path=str(DEFAULT_METADATA_PATH),
+			topic_scope=manifest_topic_scope,
+		)
+	outputs.add(manifest_path)
 	return outputs

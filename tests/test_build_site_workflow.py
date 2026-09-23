@@ -9,7 +9,8 @@ import build_site
 import bioproblems_site.bbq_workflow as bbq_workflow
 import bioproblems_site.build_coordinator as build_coordinator
 import bioproblems_site.build_stages as build_stages
-from bioproblems_site.build_contracts import BuildChanges, BuildScope, TopicRef
+import bioproblems_site.metadata as metadata
+from bioproblems_site.build_contracts import BuildChanges, BuildScope, TaskBuildResult, TopicRef
 
 
 #============================================
@@ -20,20 +21,74 @@ def test_parse_scope_rejects_legacy_subcommands() -> None:
 
 
 #============================================
-def test_parse_scope_resolves_task_and_model_from_repository_root(
+def test_parse_scope_supports_task_option_and_short_options(
 	monkeypatch: pytest.MonkeyPatch,
 ) -> None:
-	"""The public command is independent of the caller's current directory."""
+	"""The public selector aliases resolve repository paths from any working directory."""
 	repo_root = Path(__file__).resolve().parents[1]
 	monkeypatch.chdir(repo_root / "tests")
 	scope = build_site.parse_scope([
-		"--tasks", "task_files/biochem_tasks1.csv", "--backend", "codex",
-		"--model", "gpt-5-codex",
+		"-S", "genetics", "-T", "topic01", "-t", "task_files/genetics_tasks1.csv", "-l", "2",
+		"-R", "-n", "-F", "-b", "codex", "-m", "gpt-5-codex",
 	])
 
-	assert scope.tasks_csv == repo_root / "task_files/biochem_tasks1.csv"
+	assert scope.tasks_csv == repo_root / "task_files/genetics_tasks1.csv"
+	assert scope.subject == "genetics"
+	assert scope.topic == "topic01"
+	assert scope.limit == 2
+	assert scope.shuffle is True
+	assert scope.dry_run is True
+	assert scope.full is True
 	assert scope.backend == "codex"
 	assert scope.model == "gpt-5-codex"
+	assert build_site.parse_scope([
+		"--task", "task_files/genetics_tasks1.csv",
+	]).tasks_csv == scope.tasks_csv
+	with pytest.raises(ValueError, match="--topic requires --subject"):
+		build_site.parse_scope(["-T", "topic01"])
+
+
+#============================================
+def test_topic_filter_intersects_subject_and_task_rows(
+	monkeypatch: pytest.MonkeyPatch,
+	tmp_path: Path,
+) -> None:
+	"""A focused subject/topic selection excludes other CSV topics and subjects."""
+	task_csv = tmp_path / "tasks.csv"
+	task_csv.write_text(
+		"subject,topic,script,flags,input,notes\n"
+		"genetics,topic01,first.py,,,\n"
+		"genetics,topic02,second.py,,,\n"
+		"biochemistry,topic01,third.py,,,\n"
+	)
+	topic01 = metadata.Topic("topic01", "Topic 1", "", None, True, None)
+	topic02 = metadata.Topic("topic02", "Topic 2", "", None, True, None)
+	subjects = {
+		"genetics": metadata.Subject("genetics", "Genetics", "", (topic01, topic02)),
+		"biochemistry": metadata.Subject("biochemistry", "Biochemistry", "", (topic01,)),
+	}
+	monkeypatch.setattr(bbq_workflow, "DEFAULT_SETTINGS_PATH", tmp_path / "settings.yml")
+	monkeypatch.setattr(bbq_workflow.bbq_config, "load_bbq_config", lambda path: {})
+	monkeypatch.setattr(
+		bbq_workflow.metadata_module,
+		"load_topics_metadata",
+		lambda: (subjects, ["genetics", "biochemistry"]),
+	)
+	monkeypatch.setattr(
+		bbq_workflow.bbq_config.bioproblems_site.git_paths,
+		"get_repo_root",
+		lambda: str(tmp_path),
+	)
+
+	task_rows = bbq_workflow._load_scoped_task_rows(
+		BuildScope(subject="genetics", topic="topic01", tasks_csv=task_csv)
+	)
+
+	assert [
+		(task["subject"], task["topic"])
+		for task_row in task_rows
+		for task in task_row
+	] == [("genetics", "topic01")]
 
 
 #============================================
@@ -62,16 +117,24 @@ def test_codex_backend_selects_codex_transport(monkeypatch: pytest.MonkeyPatch) 
 
 #============================================
 def test_shuffle_is_applied_before_limit(monkeypatch: pytest.MonkeyPatch) -> None:
-	"""The public shuffle option changes the sampled task set before its limit."""
-	tasks = [{"subject": "genetics", "topic": str(index)} for index in range(3)]
+	"""Random selection shuffles complete CSV rows before applying the row limit."""
+	task_rows = [
+		[{"subject": "genetics", "topic": "0", "output": "single"}],
+		[
+			{"subject": "genetics", "topic": "1", "output": "match"},
+			{"subject": "genetics", "topic": "1", "output": "multiple-choice"},
+		],
+		[{"subject": "genetics", "topic": "2", "output": "single"}],
+	]
 	monkeypatch.setattr(bbq_workflow.random, "shuffle", lambda values: values.reverse())
 	scope = build_site.parse_scope(["--shuffle", "--limit", "2"])
 
-	selected = bbq_workflow._apply_task_selection(
-		tasks, BuildScope(shuffle=scope.shuffle, limit=scope.limit),
+	selected_rows = bbq_workflow._apply_task_selection(
+		task_rows, BuildScope(shuffle=scope.shuffle, limit=scope.limit),
 	)
 
-	assert [task["topic"] for task in selected] == ["2", "1"]
+	assert [[task["topic"] for task in row] for row in selected_rows] == [["2"], ["1", "1"]]
+	assert [task["output"] for task in selected_rows[1]] == ["match", "multiple-choice"]
 
 
 #============================================
@@ -110,7 +173,7 @@ def test_dry_run_reports_canonical_subject_qualified_topic(
 		"settings_path": "",
 		"output": str(output_path),
 	}
-	monkeypatch.setattr(bbq_workflow, "_load_scoped_tasks", lambda scope: [task])
+	monkeypatch.setattr(bbq_workflow, "_load_scoped_task_rows", lambda scope: [[task]])
 
 	def generator_must_not_run(*args: object, **kwargs: object) -> bool:
 		raise AssertionError("dry run launched a generator")
@@ -123,24 +186,211 @@ def test_dry_run_reports_canonical_subject_qualified_topic(
 
 
 #============================================
-def test_coordinator_orders_downstream_stages(
+def test_csv_row_finishes_all_stages_before_next_row_generator(
 	monkeypatch: pytest.MonkeyPatch,
+	tmp_path: Path,
 ) -> None:
-	"""BBQ changes propagate only through the ordered downstream stages."""
+	"""Every expanded generator and local stage for a CSV row precedes the next row."""
+	tasks_dir = tmp_path / "task_files"
+	tasks_dir.mkdir()
+	(tasks_dir / "tasks.csv").write_text(
+		"subject,topic,script,flags,input,notes\n"
+		"genetics,topic01,PAIR,,,\n"
+		"genetics,topic02,NEXT,,,\n"
+	)
+	site_docs_dir = tmp_path / "site_docs"
+	settings = {
+		"paths": {"bp_root": str(tmp_path)},
+		"script_aliases": {
+			"PAIR": [str(tmp_path / "match_generator.py"), str(tmp_path / "mc_generator.py")],
+			"NEXT": str(tmp_path / "next_generator.py"),
+		},
+	}
+	topics = tuple(
+		metadata.Topic(key=key, title=key, description="", libretexts=None, visible=True, alias=None)
+		for key in ("topic01", "topic02")
+	)
+	subjects = {
+		"genetics": metadata.Subject(key="genetics", title="Genetics", description="", topics=topics),
+	}
+	events: list[str] = []
+	monkeypatch.chdir(tmp_path)
+	monkeypatch.setattr(bbq_workflow, "DEFAULT_TASK_DIR", tasks_dir)
+	monkeypatch.setattr(bbq_workflow, "DEFAULT_SETTINGS_PATH", tmp_path / "settings.yml")
+	monkeypatch.setattr(bbq_workflow.bbq_config, "load_bbq_config", lambda path: settings)
+	monkeypatch.setattr(
+		bbq_workflow.metadata_module,
+		"load_topics_metadata",
+		lambda: (subjects, ["genetics"]),
+	)
+	monkeypatch.setattr(
+		bbq_workflow.bbq_config.bioproblems_site.git_paths,
+		"get_repo_root",
+		lambda: str(tmp_path),
+	)
+	monkeypatch.setattr(build_stages, "DEFAULT_SITE_DOCS", site_docs_dir)
+	monkeypatch.setattr(bbq_workflow, "task_needs_run", lambda task, scope: True)
+	monkeypatch.setattr(bbq_workflow.bbq_config, "check_pythonpath", lambda value: (True, ""))
+	monkeypatch.setattr(bbq_workflow.bbq_config, "build_pythonpath", lambda value: "")
+	monkeypatch.setattr(bbq_workflow.bbq_outputs, "rotate_log", lambda path: None)
+
+	def run_task(task: dict[str, object], *args: object, **kwargs: object) -> bool:
+		script_name = Path(str(task["script"])).stem
+		events.append(f"bbq {script_name}")
+		output_path = Path(str(task["output_dir"])) / f"bbq-{script_name}-questions.txt"
+		output_path.parent.mkdir(parents=True, exist_ok=True)
+		output_path.write_text("question\n")
+		task["output"] = str(output_path)
+		return True
+
+	monkeypatch.setattr(bbq_workflow.bbq_runner, "run_task", run_task)
+	monkeypatch.setattr(build_stages, "selftests_need_run", lambda *args: True)
+	monkeypatch.setattr(build_stages, "topic_page_needs_run", lambda *args: True)
+	monkeypatch.setattr(build_stages, "downloads_need_run", lambda *args: True)
+
+	def record_selftests(
+		topic: TopicRef,
+		scope: BuildScope,
+		sources: set[Path],
+	) -> set[Path]:
+		events.append(f"selftest {topic.topic} ({len(sources)})")
+		return set()
+
+	monkeypatch.setattr(
+		build_stages, "run_selftests", record_selftests,
+	)
+	monkeypatch.setattr(
+		build_stages, "run_topic_page",
+		lambda topic, scope: events.append(f"page {topic.topic}") or set(),
+	)
+	def record_downloads(
+		topic: TopicRef,
+		scope: BuildScope,
+		sources: set[Path],
+	) -> set[Path]:
+		events.append(f"downloads {topic.topic} ({len(sources)})")
+		return set()
+
+	monkeypatch.setattr(
+		build_stages, "run_downloads", record_downloads,
+	)
+	monkeypatch.setattr(build_stages, "run_subject_indexes", lambda scope, selected=None: set())
+
+	build_coordinator.build_site(BuildScope(subject="genetics"))
+
+	assert events == [
+		"bbq match_generator",
+		"bbq mc_generator",
+		"selftest topic01 (2)",
+		"downloads topic01 (2)",
+		"page topic01",
+		"bbq next_generator",
+		"selftest topic02 (1)",
+		"downloads topic02 (1)",
+		"page topic02",
+	]
+
+
+#============================================
+def test_failed_csv_row_stops_before_downstream_and_later_generators(
+	monkeypatch: pytest.MonkeyPatch,
+	tmp_path: Path,
+) -> None:
+	"""A failed generator prevents local stages and later CSV rows from running."""
+	task_rows = [
+		[
+			{
+				"subject": "genetics",
+				"topic": "topic01",
+				"script": "first_generator.py",
+				"args": [],
+				"output": "",
+				"output_dir": str(tmp_path / "site_docs/genetics/topic01"),
+			}
+		],
+		[
+			{
+				"subject": "genetics",
+				"topic": "topic02",
+				"script": "second_generator.py",
+				"args": [],
+				"output": "",
+				"output_dir": str(tmp_path / "site_docs/genetics/topic02"),
+			}
+		],
+	]
+	events: list[str] = []
+	monkeypatch.chdir(tmp_path)
+	monkeypatch.setattr(bbq_workflow, "_load_scoped_task_rows", lambda scope: task_rows)
+	monkeypatch.setattr(bbq_workflow, "task_needs_run", lambda task, scope: True)
+	monkeypatch.setattr(bbq_workflow.bbq_config, "load_bbq_config", lambda path: {})
+	monkeypatch.setattr(bbq_workflow.bbq_config, "check_pythonpath", lambda settings: (True, ""))
+	monkeypatch.setattr(bbq_workflow.bbq_config, "build_pythonpath", lambda settings: "")
+	monkeypatch.setattr(bbq_workflow.bbq_outputs, "rotate_log", lambda path: None)
+	monkeypatch.setattr(build_stages, "selftests_need_run", lambda *args: True)
+	monkeypatch.setattr(build_stages, "topic_page_needs_run", lambda *args: True)
+	monkeypatch.setattr(build_stages, "downloads_need_run", lambda *args: True)
+	monkeypatch.setattr(
+		build_stages,
+		"run_selftests",
+		lambda topic, scope, sources: events.append(f"selftest {topic.topic}") or set(),
+	)
+	monkeypatch.setattr(
+		build_stages,
+		"run_topic_page",
+		lambda topic, scope: events.append(f"page {topic.topic}") or set(),
+	)
+	monkeypatch.setattr(
+		build_stages,
+		"run_downloads",
+		lambda topic, scope, sources: events.append(f"downloads {topic.topic}") or set(),
+	)
+
+	def fail_first_task(task: dict[str, object], *args: object, **kwargs: object) -> bool:
+		events.append(f"generator {task['topic']}")
+		return False
+
+	monkeypatch.setattr(bbq_workflow.bbq_runner, "run_task", fail_first_task)
+	with pytest.raises(RuntimeError, match="BBQ task failed"):
+		build_coordinator.build_site(BuildScope(subject="genetics"))
+
+	assert events == ["generator topic01"]
+
+
+#============================================
+def test_missing_download_is_rebuilt_for_a_fresh_bbq_source(
+	monkeypatch: pytest.MonkeyPatch,
+	tmp_path: Path,
+) -> None:
+	"""A missing converter artifact is repaired even when its BBQ source is current."""
 	topic_ref = TopicRef("genetics", "topic01")
-	changes = BuildChanges({topic_ref}, {"genetics"}, set())
-	stage_order: list[str] = []
-	monkeypatch.setattr(build_coordinator.bbq_workflow, "run_if_needed", lambda scope: changes)
-	monkeypatch.setattr(build_coordinator.bbq_workflow, "configured_topics", lambda scope: {topic_ref})
-	monkeypatch.setattr(build_stages, "selftests_need_run", lambda topic, scope, result: True)
-	monkeypatch.setattr(build_stages, "topic_page_needs_run", lambda topic, scope, result: True)
-	monkeypatch.setattr(build_stages, "downloads_need_run", lambda topic, scope, result: True)
-	monkeypatch.setattr(build_stages, "run_selftests", lambda topic, scope: stage_order.append("selftests") or set())
-	monkeypatch.setattr(build_stages, "run_topic_page", lambda topic, scope: stage_order.append("pages") or set())
-	monkeypatch.setattr(build_stages, "run_downloads", lambda topic, scope: stage_order.append("downloads") or set())
-	monkeypatch.setattr(build_stages, "run_subject_indexes", lambda scope: stage_order.append("indexes") or set())
-	build_coordinator.build_site(BuildScope())
-	assert stage_order == ["selftests", "pages", "downloads", "indexes"]
+	site_docs = tmp_path / "site_docs"
+	source_path = site_docs / "genetics/topic01/bbq-example-questions.txt"
+	output_path = site_docs / "genetics/topic01/downloads/canvas-example.zip"
+	source_path.parent.mkdir(parents=True)
+	source_path.write_text("question\n")
+	monkeypatch.setattr(build_stages, "DEFAULT_SITE_DOCS", site_docs)
+	monkeypatch.setattr(build_stages, "topic_folder", lambda topic: source_path.parent)
+	monkeypatch.setattr(build_stages, "expected_downloads", lambda source: {output_path})
+	generated_sources: list[Path] = []
+
+	def create_downloads(source: str, verbose: bool = True) -> None:
+		generated_sources.append(Path(source))
+		output_path.parent.mkdir(parents=True, exist_ok=True)
+		output_path.write_text("converted")
+
+	monkeypatch.setattr(build_stages.topic_page_module, "generate_download_artifacts", create_downloads)
+	assert build_stages.downloads_need_run(
+		topic_ref,
+		BuildScope(),
+		BuildChanges(),
+		{source_path},
+	)
+
+	build_stages.run_downloads(topic_ref, BuildScope(), {source_path})
+
+	assert generated_sources == [source_path]
+	assert output_path.read_text() == "converted"
 
 
 #============================================
@@ -149,17 +399,59 @@ def test_limited_full_build_does_not_expand_topic_scope(
 ) -> None:
 	"""Full mode bypasses stale checks but keeps a development limit narrow."""
 	topic_ref = TopicRef("genetics", "topic01")
-	changes = BuildChanges({topic_ref}, {"genetics"}, set())
 	selected_topics: list[TopicRef] = []
-	monkeypatch.setattr(build_coordinator.bbq_workflow, "run_if_needed", lambda scope: changes)
-	monkeypatch.setattr(build_coordinator.bbq_workflow, "configured_topics", lambda scope: {topic_ref})
-	monkeypatch.setattr(build_stages, "selftests_need_run", lambda topic, scope, result: True)
+	monkeypatch.setattr(
+		build_coordinator.bbq_workflow,
+		"iter_task_results",
+		lambda scope: iter([TaskBuildResult(topic_ref, needs_run=True)]),
+	)
+	monkeypatch.setattr(build_stages, "selftests_need_run", lambda *args: True)
 	monkeypatch.setattr(build_stages, "topic_page_needs_run", lambda topic, scope, result: False)
-	monkeypatch.setattr(build_stages, "downloads_need_run", lambda topic, scope, result: False)
-	monkeypatch.setattr(build_stages, "run_selftests", lambda topic, scope: selected_topics.append(topic) or set())
-	monkeypatch.setattr(build_stages, "run_subject_indexes", lambda scope: set())
+	monkeypatch.setattr(build_stages, "downloads_need_run", lambda *args: False)
+	monkeypatch.setattr(
+		build_stages, "run_selftests",
+		lambda topic, scope, sources: selected_topics.append(topic) or set(),
+	)
+	monkeypatch.setattr(build_stages, "run_subject_indexes", lambda scope, selected=None: set())
 	build_coordinator.build_site(BuildScope(full=True, limit=1, subject="genetics"))
 	assert selected_topics == [topic_ref]
+
+
+#============================================
+def test_full_topic_build_stays_within_selected_topic(
+	monkeypatch: pytest.MonkeyPatch,
+) -> None:
+	"""A full subject/topic selection does not expand to sibling topics."""
+	topics = (
+		metadata.Topic("topic01", "Topic 1", "", None, True, None),
+		metadata.Topic("topic02", "Topic 2", "", None, True, None),
+	)
+	subjects = {
+		"genetics": metadata.Subject("genetics", "Genetics", "", topics),
+	}
+	selected_pages: list[TopicRef] = []
+	monkeypatch.setattr(
+		build_coordinator.metadata_module,
+		"load_topics_metadata",
+		lambda **kwargs: (subjects, ["genetics"]),
+	)
+	monkeypatch.setattr(build_coordinator.bbq_workflow, "iter_task_results", lambda scope: iter([]))
+	monkeypatch.setattr(build_stages, "topic_sources", lambda topic: set())
+	monkeypatch.setattr(build_stages, "selftests_need_run", lambda *args: False)
+	monkeypatch.setattr(build_stages, "topic_page_needs_run", lambda *args: True)
+	monkeypatch.setattr(
+		build_stages,
+		"run_topic_page",
+		lambda topic, scope: selected_pages.append(topic) or set(),
+	)
+	monkeypatch.setattr(build_stages, "downloads_need_run", lambda *args: False)
+	monkeypatch.setattr(build_stages, "run_subject_indexes", lambda scope, selected=None: set())
+
+	build_coordinator.build_site(
+		BuildScope(full=True, subject="genetics", topic="topic01")
+	)
+
+	assert selected_pages == [TopicRef("genetics", "topic01")]
 
 
 #============================================
@@ -198,7 +490,11 @@ def test_subject_dry_run_plans_global_reconciliation_without_mutating_site_files
 	monkeypatch.setattr(
 		build_stages.selftest_manifest_module,
 		"write_manifest",
-		lambda **kwargs: stage_order.append("manifest") or manifest_calls.append(kwargs) or {"questions": []},
+		lambda **kwargs: (
+			stage_order.append("manifest")
+			or manifest_calls.append(kwargs)
+			or {"questions": []}
+		),
 	)
 	monkeypatch.setattr(
 		build_stages.orphan_prune_module.git_paths,
@@ -232,7 +528,7 @@ def test_subject_dry_run_plans_global_reconciliation_without_mutating_site_files
 		lambda: global_pattern_map,
 	)
 
-	build_stages.run_subject_indexes(BuildScope(subject="genetics", dry_run=True))
+	stage_outputs = build_stages.run_subject_indexes(BuildScope(subject="genetics", dry_run=True))
 
 	assert updates == [{
 		"metadata_path": str(build_stages.DEFAULT_METADATA_PATH),
@@ -243,9 +539,11 @@ def test_subject_dry_run_plans_global_reconciliation_without_mutating_site_files
 	assert reconciliation_plans[0]["delete_downloads"] == [str(orphan_path)]
 	assert reconciliation_plans[0]["delete_sources"] == []
 	assert reconciliation_maps == [global_pattern_map]
-	assert stage_order == ["reconcile", "index", "nav", "manifest"]
+	assert stage_order == ["reconcile", "index", "nav"]
 	assert orphan_path.read_text() == orphan_content
-	assert manifest_calls[0]["dry_run"] is True
+	assert manifest_calls == []
+	manifest_path = site_docs_dir / "assets/data/selftest_question_manifest.json"
+	assert manifest_path in stage_outputs
 
 
 #============================================
@@ -266,7 +564,7 @@ def test_all_task_mode_alone_sets_the_batch_question_limit(
 		"args": [],
 	}
 	seen_args: list[list[object]] = []
-	monkeypatch.setattr(bbq_workflow, "_load_scoped_tasks", lambda scope: [task.copy()])
+	monkeypatch.setattr(bbq_workflow, "_load_scoped_task_rows", lambda scope: [[task.copy()]])
 	monkeypatch.setattr(bbq_workflow.bbq_config, "load_bbq_config", lambda path: {})
 	monkeypatch.setattr(bbq_workflow.bbq_config, "check_pythonpath", lambda settings: (True, ""))
 	monkeypatch.setattr(bbq_workflow.bbq_config, "build_pythonpath", lambda settings: "")

@@ -632,7 +632,7 @@ def reconcile_all(
 		plan = reconcile_topic(topic_folder, live_cores, tracked_set, dry_run, patterns)
 		for key in combined:
 			combined[key].extend(plan[key])
-		if verbose:
+		if verbose and any(plan.values()):
 			summary = (
 				f"  {topic_folder}: "
 				f"delete-sources={len(plan['delete_sources'])} "

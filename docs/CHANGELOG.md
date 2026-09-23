@@ -1,5 +1,22 @@
 # Changelog
 
+## 2026-09-23
+
+### Fixes and Maintenance
+
+- Aligned build documentation with row-local task stages, repository-wide
+  finalization, task topic alias rules, and configured-output failure handling.
+- Corrected stale pipeline comments and helper documentation.
+- Topic pages now preserve the last complete `index.md` if rendering fails. Topic
+  metadata lookup is split into its own module, and BBQ/converter preservation
+  coverage includes oversized candidates and nonzero converter exits.
+- Subprocess launch handlers now report expected operating-system errors while
+  allowing programming errors to retain their traceback.
+- Missing converter outputs are built before the topic page is published. Focused
+  builds refresh manifest rows for selected topics and preserve the other current
+  rows; unrestricted builds still validate every reachable self-test include.
+- Normal builds omit per-topic orphan-prune summaries when a folder has no actions.
+
 ## 2026-09-22
 
 ### Behavior or Interface Changes
@@ -8,15 +25,26 @@
   with the unified [build_site.py](../build_site.py) workflow. It selects stale
   BBQ tasks and propagates changed subject-qualified topics through self-tests,
   topic pages, downloads, and subject indexes/navigation.
-- Added `--subject`, `--tasks`, `--limit`, `--shuffle`, `--dry-run`, `--full`, and `--model`
-  to the public build command. Dry runs are planning-only; `--full` bypasses stale
-  checks without expanding the requested scope.
-- Added `--backend` to choose Ollama, Codex CLI, or Claude Code CLI for generated
+- Added `-S/--subject`, `-t/--task`, `-l/--limit`, `-R/--shuffle`, `-n/--dry-run`,
+  `-F/--full`, and `-m/--model` to the public build command. Dry runs are planning-only;
+  `--full` bypasses stale checks without expanding the requested scope. Existing
+  `--tasks` remains as a migration spelling through 2026-12-31.
+- Added `-T/--topic` to narrow a subject build to one canonical topic. A topic filter
+  requires `-S/--subject` and intersects with any selected task CSV.
+- Added `-b/--backend` to choose Ollama, Codex CLI, or Claude Code CLI for generated
   page titles. Ollama remains the default; Codex uses its configured CLI model
   when `--model` is omitted.
+- Configured builds now finish each CSV task row's self-test, topic-page, and
+  download stages before starting the next row. Site-wide indexes remain final.
 
 ### Fixes and Maintenance
 
+- BBQ task runners now reject empty or oversized candidates and restore configured outputs when
+  generation fails, including when a generator writes directly to its destination. Validated
+  candidates replace existing outputs only after they are ready.
+- Self-test conversion stages HTML and preserves prior output when conversion fails or returns no
+  output. Configured the nucleotide-components bank for four choices, matching its three available
+  distractor groups.
 - Separated self-test and download writes from topic-page rendering, retained
   batch-only `--max-questions 199`, and left final sitemap generation to MkDocs.
 - Added a generated, user-visible `All Questions` page that lists problem-set

@@ -1,9 +1,11 @@
 """Output detection, movement, cleanup, and logging for BBQ tasks."""
 
 import datetime
+import errno
 import os
 import re
 import shutil
+import tempfile
 
 
 def ensure_parent_dir(path: str) -> None:
@@ -12,23 +14,109 @@ def ensure_parent_dir(path: str) -> None:
 		os.makedirs(parent, exist_ok=True)
 
 
-def move_output_if_needed(output_path: str, workdir: str = ".") -> bool:
-	"""Move a generated basename from the workdir to its configured path."""
-	if not output_path:
-		return True
-	base = os.path.basename(output_path)
-	if not base:
+#============================================
+class OutputRollback:
+	"""Restore configured BBQ outputs when a generator fails validation."""
+
+	def __init__(self, task: dict[str, object]) -> None:
+		output_value = task.get("output", "")
+		if isinstance(output_value, str) and output_value:
+			output_paths = [output_value]
+		else:
+			output_dir = task.get("output_dir", "")
+			prefixes, suffixes = build_output_patterns(task)
+			if not isinstance(output_dir, str) or not output_dir:
+				output_paths = []
+			else:
+				output_paths = [
+					os.path.join(output_dir, f"{prefix}{suffix}")
+					for prefix in prefixes
+					for suffix in suffixes
+				]
+		self.output_paths = sorted({os.path.abspath(path) for path in output_paths})
+		self.backups: dict[str, str] = {}
+		self.original_signatures: dict[str, tuple[int, int, int]] = {}
+		for output_path in self.output_paths:
+			if not os.path.isfile(output_path):
+				continue
+			output_stat = os.stat(output_path)
+			parent_directory = os.path.dirname(output_path)
+			file_descriptor, backup_path = tempfile.mkstemp(
+				prefix=".bbq-rollback-",
+				dir=parent_directory,
+			)
+			os.close(file_descriptor)
+			try:
+				shutil.copy2(output_path, backup_path)
+			except OSError:
+				if os.path.isfile(backup_path):
+					os.remove(backup_path)
+				raise
+			self.backups[output_path] = backup_path
+			self.original_signatures[output_path] = (
+				output_stat.st_mtime_ns,
+				output_stat.st_size,
+				output_stat.st_ino,
+			)
+
+	def finish(self, keep_output: bool) -> None:
+		"""Keep a validated output or restore every prior configured artifact."""
+		for output_path in self.output_paths:
+			backup_path = self.backups.get(output_path, "")
+			if keep_output:
+				if backup_path:
+					os.remove(backup_path)
+					self.backups.pop(output_path)
+				continue
+			if backup_path:
+				try:
+					output_stat = os.stat(output_path)
+				except FileNotFoundError:
+					output_stat = None
+				if output_stat is not None and (
+					output_stat.st_mtime_ns,
+					output_stat.st_size,
+					output_stat.st_ino,
+				) == self.original_signatures[output_path]:
+					os.remove(backup_path)
+					self.backups.pop(output_path)
+					continue
+				os.replace(backup_path, output_path)
+				self.backups.pop(output_path)
+			elif os.path.isfile(output_path):
+				os.remove(output_path)
+
+
+#============================================
+def replace_output_with_candidate(candidate_path: str, output_path: str) -> bool:
+	"""Replace an output only after its complete candidate is available."""
+	if not candidate_path or not output_path:
 		return False
-	candidate = os.path.join(workdir, base)
-	if os.path.isfile(candidate):
-		ensure_parent_dir(output_path)
-		if os.path.abspath(candidate) == os.path.abspath(output_path):
-			return True
-		if os.path.isfile(output_path):
-			os.remove(output_path)
-		shutil.move(candidate, output_path)
+	if os.path.abspath(candidate_path) == os.path.abspath(output_path):
 		return True
-	return os.path.isfile(output_path)
+	ensure_parent_dir(output_path)
+	try:
+		os.replace(candidate_path, output_path)
+		return True
+	except OSError as error:
+		if error.errno != errno.EXDEV:
+			raise
+
+	# Keep the destination intact until a cross-volume copy is complete.
+	output_directory = os.path.dirname(os.path.abspath(output_path))
+	file_descriptor, temporary_path = tempfile.mkstemp(
+		prefix=".bbq-output-",
+		dir=output_directory,
+	)
+	os.close(file_descriptor)
+	try:
+		shutil.copy2(candidate_path, temporary_path)
+		os.replace(temporary_path, output_path)
+		os.remove(candidate_path)
+	finally:
+		if os.path.exists(temporary_path):
+			os.remove(temporary_path)
+	return True
 
 
 def output_exists(output_path: str, workdir: str = ".") -> bool:
@@ -167,13 +255,7 @@ def resolve_generated_output(
 def move_output_candidate(candidate: str, output_path: str) -> bool:
 	if not candidate or not output_path:
 		return False
-	ensure_parent_dir(output_path)
-	if os.path.abspath(candidate) == os.path.abspath(output_path):
-		return True
-	if os.path.isfile(output_path):
-		os.remove(output_path)
-	shutil.move(candidate, output_path)
-	return True
+	return replace_output_with_candidate(candidate, output_path)
 
 
 def count_output_lines(output_path: str, workdir: str = ".") -> int:

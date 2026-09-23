@@ -160,8 +160,7 @@ def resolve_topic_key(
 	cleaned = validate_topic_cell(topic_text)
 	# Case 1: canonical topicNN literal.
 	if is_topic_key(cleaned):
-		# If this topicNN has an alias, the author must use the alias
-		# (consistent with the CSV policy stated in the plan).
+		# Author-facing input uses the alias whenever one is defined.
 		topic_to_alias = {tn: a for a, tn in subject_aliases.items()}
 		if cleaned in topic_to_alias:
 			alias_form = topic_to_alias[cleaned]
@@ -190,9 +189,9 @@ def resolve_topic_filter(
 	alias_map: dict,
 	subjects: dict,
 ) -> tuple:
-	"""Resolve a CLI -t/--topic argument to (subject_key, topic_key).
+	"""Resolve a legacy subject/topic selector to canonical topic keys.
 
-Used by the former page-only CLI. Accepts (preferred form first):
+	This helper is retained for callers of the former page-only CLI. It accepts:
 	  - "biochemistry:amino_acids" -- always unambiguous
 	  - "biochemistry:topic03"     -- always unambiguous; raises if
 	                                  the topic has an alias defined
@@ -203,7 +202,7 @@ Used by the former page-only CLI. Accepts (preferred form first):
 	                                  AND that topic has no alias
 
 	Args:
-		text: raw -t/--topic argv value.
+		text: subject-qualified or unqualified topic selector.
 		alias_map: dict from metadata.build_topic_alias_map.
 		subjects: dict[str, Subject] from metadata.load_metadata_file.
 

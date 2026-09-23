@@ -1,19 +1,21 @@
 """Topic-page renderer for bioproblems_site.
 
 Extracted from the former root-level generate_topic_pages.py. Exposes
-render_all() as the callable entrypoint for bioproblems_site.pipeline.
+render_all() for direct topic-page rendering; the unified build uses its
+topic-scoped stage through build_site.py.
 No argparse here; the public parser lives in build_site.py.
 """
 
 # Standard Library
+from contextlib import contextmanager
 import os
 import re
 import glob
 import time
-import functools
 import subprocess
-import urllib.parse
+import tempfile
 import dataclasses
+import stat
 
 # PIP3 modules
 import yaml
@@ -22,12 +24,16 @@ import yaml
 import bioproblems_site.formats as formats_module
 import bioproblems_site.git_paths as git_paths
 import bioproblems_site.metadata as bp_metadata
+from bioproblems_site.topic_metadata import (
+	get_docs_dir,
+	get_libretexts_link,
+	get_topic_description,
+	get_topic_title,
+)
 import bioproblems_site.download_buttons as download_buttons
 import bioproblems_site.problem_set_title
 
 #==============
-
-MKDOCS_CONFIG: str = os.path.join(git_paths.get_repo_root(), "mkdocs.yml")
 
 # ANSI color codes for readable CLI output.
 COLOR_RESET = "\033[0m"
@@ -96,7 +102,7 @@ def record_stat(stats: dict, format_key: str, bucket: str) -> None:
 
 @dataclasses.dataclass
 class RenderOptions:
-	"""Options consumed by render_all(). Populated by the pipeline."""
+	"""Options consumed by render_all()."""
 	download_formats: tuple = DOWNLOAD_FORMAT_KEYS
 	# When False, do not create missing artifact files. Buttons still
 	# render for files that already exist on disk; buttons for missing
@@ -111,137 +117,84 @@ class RenderOptions:
 	# every artifact write.
 	render_missing_download_links: bool = False
 	verbose: bool = True
-	# Pre-built LLMClient for problem-set title generation. The pipeline
-	# constructs it from the selected backend and optional --model.
+	# Optional pre-built client for problem-set title generation.
 	llm_client: object = None
 
 #==============
 
-def get_docs_dir() -> str:
-	if not os.path.isfile(MKDOCS_CONFIG):
-		raise FileNotFoundError(f"Config file '{MKDOCS_CONFIG}' not found.")
-	with open(MKDOCS_CONFIG, "r") as file_pointer:
-		config = yaml.safe_load(file_pointer) or {}
-	docs_dir = config["docs_dir"]
-	return docs_dir
+@contextmanager
+def _atomic_text_writer(output_path: str):
+	"""Write a text artifact beside its destination, replacing it on success."""
+	output_directory = os.path.dirname(output_path) or "."
+	existing_mode = None
+	try:
+		existing_mode = stat.S_IMODE(os.stat(output_path).st_mode)
+	except FileNotFoundError:
+		pass
+	with tempfile.TemporaryDirectory(
+		prefix=".topic-page-",
+		dir=output_directory,
+	) as temporary_directory:
+		temporary_path = os.path.join(temporary_directory, os.path.basename(output_path))
+		with open(temporary_path, "w", encoding="utf-8") as output_file:
+			yield output_file
+		if existing_mode is not None:
+			os.chmod(temporary_path, existing_mode)
+		os.replace(temporary_path, output_path)
 
-#==============
-
-def _derive_libretexts_title(url: str) -> str:
-	"""Recover a human-readable chapter title from a LibreTexts URL slug."""
-	# Take the last path segment and URL-decode it (e.g. '1.01%3A_Molecules_of_Life').
-	last_segment = url.rstrip("/").rsplit("/", 1)[-1]
-	decoded = urllib.parse.unquote(last_segment)
-	# Drop any leading 'N.NN: ' or 'NN: ' numeric prefix if present.
-	if ":" in decoded:
-		decoded = decoded.split(":", 1)[1]
-	# Convert underscores to spaces and tidy whitespace.
-	return decoded.replace("_", " ").strip()
-
-
-@functools.lru_cache(maxsize=None)
-def _topic_entry(subject_folder: str, relative_topic_name: str) -> dict:
-	"""Return the metadata entry for one topic.
-
-	Reads topics_metadata.yml via bioproblems_site.metadata and returns
-	the dict shape consumed by get_topic_title/get_libretexts_link/
-	get_topic_description. Cached per (subject, topic) tuple.
-	"""
-	subjects, _order = bp_metadata.load_topics_metadata()
-	subject = subjects.get(subject_folder)
-	if subject is None:
-		raise FileNotFoundError(
-			f"Subject {subject_folder!r} missing from topics_metadata.yml"
-		)
-	matching = [t for t in subject.topics if t.key == relative_topic_name]
-	if not matching:
-		raise ValueError(
-			f"No entry for {subject_folder}/{relative_topic_name} in "
-			f"topics_metadata.yml"
-		)
-	topic = matching[0]
-	libretexts_payload = None
-	if topic.libretexts is not None:
-		libretexts_payload = {
-			"url": topic.libretexts.url,
-			"title": _derive_libretexts_title(topic.libretexts.url),
-			"unit": topic.libretexts.unit,
-			"chapter": topic.libretexts.chapter,
-		}
-	return {
-		"title": topic.title,
-		"description": topic.description,
-		"libretexts": libretexts_payload,
-	}
-
-
-def _get_topic_entry(topic_folder: str) -> dict:
-	"""Path-based entry lookup retained for existing call sites."""
-	subject_folder = os.path.basename(os.path.dirname(topic_folder))
-	relative_topic_name = os.path.basename(os.path.normpath(topic_folder))
-	return _topic_entry(subject_folder, relative_topic_name)
-
-#==============
-
-def get_topic_title(folder_path: str) -> str:
-	"""Return the topic title parsed from site_docs/<subject>/index.md."""
-	entry = _get_topic_entry(folder_path)
-	title = entry.get("title")
-	if not title:
-		raise ValueError(f"No topic title found for folder path: {folder_path}")
-	# Prefix the numeric label so existing page output stays identical.
-	relative_topic_name = os.path.basename(os.path.normpath(folder_path))
-	topic_int = int(re.search(r'topic(\d+)', relative_topic_name).group(1))
-	return f"{topic_int}: {title}"
-
-#==============
-
-def get_libretexts_link(topic_folder: str) -> dict | None:
-	"""Return the LibreTexts mapping for a topic, or None if not linked."""
-	entry = _get_topic_entry(topic_folder)
-	return entry.get("libretexts")
-
-#==============
-
-def get_topic_description(topic_folder: str) -> str:
-	"""Return the description parsed from site_docs/<subject>/index.md."""
-	entry = _get_topic_entry(topic_folder)
-	description = entry.get("description")
-	if not description:
-		relative_topic_name = os.path.basename(os.path.normpath(topic_folder))
-		raise ValueError(f"No description found for topic: {relative_topic_name}")
-	return description
 
 #==============
 def create_downloadable_format(bbq_file: str, prefix: str, extension: str) -> str:
 	if prefix == "bbq":
 		raise ValueError
 	file_path = get_outfile_name(bbq_file, prefix, extension)
-	remove_case_mismatched_files(file_path)
-	if os.path.exists(file_path):
-		os.remove(file_path)
 	converter_path = git_paths.find_bbq_converter()
 	if not converter_path:
 		print(color_text("cannot find bbq_converter.py", COLOR_YELLOW))
 		print("Expected in repo root or qti_package_maker/tools.")
 		print("Example: ln -sv ~/nsh/PROBLEM/qti_package_maker/tools/bbq_converter.py .")
 		raise FileNotFoundError
-	convert_cmd = [
-		"python3",
-		converter_path,
-		"--quiet",
-		f"--{prefix}",
-		"--input",
-		bbq_file,
-		"--output",
-		file_path,
-	]
-	cmd_display = " ".join(convert_cmd)
-	print(color_text(cmd_display, COLOR_CYAN))
-	subprocess.run(convert_cmd, check=False)
-	if not os.path.isfile(file_path):
-		print("\n" + cmd_display + "\n")
-		print(color_text(f"WARNING: {prefix}, {extension}, {bbq_file}", COLOR_YELLOW))
+	output_directory = os.path.dirname(file_path) or "."
+	os.makedirs(output_directory, exist_ok=True)
+	# Stage output beside its destination so os.replace publishes it atomically.
+	with tempfile.TemporaryDirectory(
+		prefix=".bbq-convert-",
+		dir=output_directory,
+	) as temporary_directory:
+		temporary_output_path = os.path.join(
+			temporary_directory,
+			os.path.basename(file_path),
+		)
+		convert_cmd = [
+			"python3",
+			converter_path,
+			"--quiet",
+			f"--{prefix}",
+			"--input",
+			bbq_file,
+			"--output",
+			temporary_output_path,
+		]
+		cmd_display = " ".join(convert_cmd)
+		print(color_text(cmd_display, COLOR_CYAN))
+		completed_process = subprocess.run(convert_cmd, check=False)
+		if completed_process.returncode != 0:
+			raise RuntimeError(
+				f"{prefix} converter exited with status {completed_process.returncode} "
+				f"for {bbq_file}; did not replace {file_path}."
+			)
+		if (
+			not os.path.isfile(temporary_output_path)
+			or os.path.getsize(temporary_output_path) == 0
+		):
+			print("\n" + cmd_display + "\n")
+			print(color_text(f"WARNING: {prefix}, {extension}, {bbq_file}", COLOR_YELLOW))
+			raise RuntimeError(
+				f"{prefix} converter produced no output for {bbq_file}; "
+				f"did not replace {file_path}."
+			)
+		os.replace(temporary_output_path, file_path)
+	remove_case_mismatched_files(file_path)
 	return file_path
 
 
@@ -649,7 +602,7 @@ def get_expected_outfile_name(bbq_file_name: str, prefix: str, extension: str) -
 	outfile = extract_core_name(bbq_file_name)
 	if not outfile.startswith(prefix):
 		outfile = f'{prefix}-{outfile}'
-	# Ensure the extension is '.txt'
+	# Append the requested extension when it is not already present.
 	if not outfile.endswith("." + extension):
 		outfile += "." + extension
 	outfile = os.path.join(dirname, outfile)
@@ -679,16 +632,23 @@ def update_index_md(
 	regenerate_selftests: bool = True,
 	render_missing_download_links: bool = False,
 ) -> None:
-	"""Update or create the index.md file for the topic.
+	"""Update or create the topic index page and its configured artifacts.
 
 	Args:
-		topic_folder (str): The path to the topic folder.
-		subtitle (str): The subtitle for the topic.
-		bbq_files (list[str]): List of BBQ file paths to process.
-		file_counter (dict): Mutable counter tracking processed BBQ files.
-		total_files (int): Total number of BBQ files being processed.
+		topic_folder: Path to the topic folder.
+		bbq_files: BBQ question files to include on the page.
+		file_counter: Mutable counter tracking processed BBQ files.
+		total_files: Total number of BBQ files being processed.
+		download_formats: Download formats to display or generate.
+		force_downloads: Whether to replace existing download files.
+		verbose: Whether to print per-file progress.
+		stats: Mutable generation statistics.
+		base_dir: Base directory used to form include paths.
+		client: Optional title-generation client.
+		generate_downloads: Whether to create download files.
+		regenerate_selftests: Whether to regenerate self-test HTML.
+		render_missing_download_links: Whether to show links for missing files.
 	"""
-	# Get subtitle from the parent folder's index.md
 	# Normalize the folder path to handle trailing slashes
 	normalized_path = os.path.normpath(topic_folder)
 
@@ -709,7 +669,7 @@ def update_index_md(
 
 	index_md_path = os.path.join(topic_folder, "index.md")
 	print(f'writing to {index_md_path}')
-	with open(index_md_path, "w") as index_md:
+	with _atomic_text_writer(index_md_path) as index_md:
 		index_md.write(f"# {title}\n\n")
 		index_md.write(f"{description}\n\n")
 		if libretexts_link:
@@ -746,19 +706,13 @@ def update_index_md(
 			if total_files:
 				file_progress = f"[{file_counter['count']}/{total_files}] "
 			print('-' * 50)
-			# Extract the base file name from the input path
-			#bbq_file_basename = os.path.basename(bbq_file)
 			# Convert the text file to HTML
 			print(color_text(f'  {file_progress}BBQ file {bbq_file}', COLOR_CYAN))
 
 			html_file_path = get_outfile_name(bbq_file, 'selftest', 'html')
-			# The self-test HTML is a rotating artifact: each build draws a fresh
-			# random question from the bbq-*.txt source via bbq_converter. Rotation
-			# is intentional when this low-level renderer is explicitly asked to
-			# rotate it. The unified build owns missing/stale self-test writes.
+			# The self-test HTML draws a fresh random question when explicitly
+			# regenerated. Stage its replacement before publishing over the current file.
 			if regenerate_selftests:
-				if os.path.exists(html_file_path):
-					os.remove(html_file_path)
 				html_file_path = create_downloadable_format(bbq_file, 'selftest', 'html')
 				if not os.path.isfile(html_file_path):
 					print("\n\n\n!! unfortunately, the script requires a selftest for each problem !!")
@@ -776,7 +730,6 @@ def update_index_md(
 
 			# Add content to the index.md file
 			index_md.write(f"## {problem_set_title}\n\n")
-			#print("bbq_file_basename=", bbq_file_basename)
 			download_button_row = generate_download_button_row(
 				bbq_file,
 				download_formats,
@@ -879,8 +832,8 @@ def regenerate_all_selftests(
 
 	Standalone self-test regeneration pass: enumerates every BBQ source
 	file in scope (honoring subject_filter/topic_filter) and rebuilds its
-	self-test HTML via create_downloadable_format, which removes any
-	existing output first and rebuilds through qti-package-maker. Every
+	self-test HTML via create_downloadable_format. That helper stages and
+	validates the replacement before publishing through qti-package-maker. Every
 	self-test is treated as stale, so a fresh random question is drawn.
 
 	This pass does NOT write index.md, does NOT construct an LLMClient,
@@ -916,8 +869,8 @@ def regenerate_all_selftests(
 			# returned it (matches update_index_md's handling).
 			bbq_file = git_paths.canonicalize_git_path(bbq_file)
 			file_count += 1
-			# create_downloadable_format removes any existing output first,
-			# so every self-test is treated as stale and rebuilt fresh.
+			# create_downloadable_format preserves the current file until the
+			# replacement passes its converter output checks.
 			html_file_path = create_downloadable_format(bbq_file, "selftest", "html")
 			if not os.path.isfile(html_file_path):
 				if verbose:
@@ -946,9 +899,7 @@ def render_all(
 ) -> None:
 	"""Traverse topic folders and (re)generate their index.md files.
 
-	Called by bioproblems_site.pipeline.run. Metadata is sourced from
-	topics_metadata.yml exclusively (the legacy markdown parser was
-	removed in M3).
+	Metadata is sourced from topics_metadata.yml exclusively.
 
 	Args:
 		options: RenderOptions object (or None for defaults).

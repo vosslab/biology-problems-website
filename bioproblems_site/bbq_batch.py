@@ -31,7 +31,7 @@ def build_runner_command(
 		sys.executable,
 		str(repo_root / "build_site.py"),
 		"--max-questions", str(max_questions),
-		"--tasks", str(task_file),
+		"--task", str(task_file),
 	]
 	if args.limit is not None:
 		command.extend(["--limit", str(args.limit)])
@@ -103,7 +103,7 @@ def run_task_file(
 def _resolve_paths(args: object) -> tuple[Path, Path, Path, list[Path]]:
 	repo_root = Path(get_repo_root())
 	task_files = find_task_files(repo_root / "task_files")
-	settings_text = find_settings_yaml(args.settings_yaml)
+	settings_text = find_settings_yaml(getattr(args, "settings_yaml", None))
 	settings_path = Path(settings_text) if settings_text else repo_root / "bbq_settings.yml"
 	return repo_root, repo_root / "source_me.sh", settings_path, task_files
 

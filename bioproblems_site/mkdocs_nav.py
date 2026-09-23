@@ -188,7 +188,7 @@ def update_from_sources(
 ) -> "str | None":
 	"""Convenience: load metadata, scan disk, and rewrite the nav block.
 
-	This is what bioproblems_site.pipeline.run() calls.
+	The final index stage calls this after topic pages and reconciliation.
 	"""
 	subjects, nav_order = metadata_module.load_topics_metadata(
 		metadata_path=metadata_path, mkdocs_path=mkdocs_path

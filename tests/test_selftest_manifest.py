@@ -159,3 +159,78 @@ def test_write_manifest_creates_json(tmp_path: object) -> object:
 	assert data["source"] == "reachable-topic-pages"
 	assert data["questions"][0]["questionFingerprint"]
 	assert os.path.isfile(output_path)
+
+
+def test_scoped_manifest_refresh_preserves_unselected_topics(tmp_path: object) -> object:
+	"""A focused build replaces its topic rows without reading other topics' files."""
+	site_docs = tmp_path / "site_docs"
+	topic01_dir = site_docs / "biology" / "topic01"
+	topic02_dir = site_docs / "biology" / "topic02"
+	topic01_dir.mkdir(parents=True)
+	topic02_dir.mkdir(parents=True)
+	(topic01_dir / "index.md").write_text(
+		'# Cells\n{% include "biology/topic01/downloads/selftest-cells.html" %}\n'
+	)
+	(topic02_dir / "index.md").write_text(
+		'# Genetics\n{% include "biology/topic02/downloads/selftest-missing.html" %}\n'
+	)
+	_write_selftest(
+		topic01_dir / "downloads" / "selftest-cells.html",
+		"cccc_0003",
+		"A current cell question",
+	)
+	metadata_path = tmp_path / "topics_metadata.yml"
+	mkdocs_path = tmp_path / "mkdocs.yml"
+	_write_metadata(metadata_path)
+	mkdocs_path.write_text(
+		"nav:\n"
+		"- Biology:\n"
+		"  - biology/index.md\n"
+		"  - '01: Cells': biology/topic01/index.md\n"
+		"  - '02: Genetics': biology/topic02/index.md\n"
+	)
+	output_path = site_docs / "assets" / "data" / "manifest.json"
+	output_path.parent.mkdir(parents=True)
+	output_path.write_text(json.dumps({
+		"version": 1,
+		"source": "reachable-topic-pages",
+		"questions": [
+			{
+				"questionId": "aaaa_0001",
+				"subjectKey": "biology",
+				"topicKey": "topic01",
+				"pagePath": "biology/topic01/index.md",
+				"selftestPath": "biology/topic01/downloads/selftest-old.html",
+			},
+			{
+				"questionId": "bbbb_0002",
+				"subjectKey": "biology",
+				"topicKey": "topic02",
+				"pagePath": "biology/topic02/index.md",
+				"selftestPath": "biology/topic02/downloads/selftest-missing.html",
+			},
+		],
+	}))
+
+	data = selftest_manifest.write_manifest(
+		output_path=str(output_path),
+		site_docs_dir=str(site_docs),
+		mkdocs_path=str(mkdocs_path),
+		metadata_path=str(metadata_path),
+		topic_scope={("biology", "topic01")},
+	)
+
+	assert [row["questionId"] for row in data["questions"]] == [
+		"cccc_0003",
+		"bbbb_0002",
+	]
+	try:
+		selftest_manifest.build_manifest(
+			site_docs_dir=str(site_docs),
+			mkdocs_path=str(mkdocs_path),
+			metadata_path=str(metadata_path),
+		)
+	except FileNotFoundError as error:
+		assert "selftest-missing.html" in str(error)
+	else:
+		raise AssertionError("an unrestricted manifest build skipped a missing include")
