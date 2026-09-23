@@ -10,12 +10,12 @@ No argparse here; the public parser lives in build_site.py.
 import os
 import re
 import glob
+import sys
 import time
 import subprocess
 import dataclasses
 
 # PIP3 modules
-import yaml
 from qti_package_maker import package_interface
 
 # local repo modules
@@ -30,6 +30,7 @@ from bioproblems_site.topic_metadata import (
 	get_topic_title,
 )
 import bioproblems_site.download_buttons as download_buttons
+import bioproblems_site.build_progress as build_progress
 import bioproblems_site.problem_set_title
 
 #==============
@@ -165,7 +166,12 @@ def _create_human_readable_download(
 	return output_path
 
 #==============
-def create_downloadable_format(bbq_file: str, prefix: str, extension: str) -> str | None:
+def create_downloadable_format(
+	bbq_file: str,
+	prefix: str,
+	extension: str,
+	capture_output: bool = False,
+) -> str | None:
 	if prefix == "bbq":
 		raise ValueError
 	file_path = get_outfile_name(bbq_file, prefix, extension)
@@ -198,7 +204,16 @@ def create_downloadable_format(bbq_file: str, prefix: str, extension: str) -> st
 		)
 	cmd_display = " ".join(display_cmd)
 	print(color_text(cmd_display, COLOR_COMMAND))
-	completed_process = subprocess.run(convert_cmd, check=False)
+	completed_process = subprocess.run(
+		convert_cmd,
+		check=False,
+		capture_output=capture_output,
+		text=capture_output,
+	)
+	if completed_process.stdout:
+		print(completed_process.stdout.rstrip())
+	if completed_process.stderr:
+		print(completed_process.stderr.rstrip(), file=sys.stderr)
 	if completed_process.returncode != 0:
 		raise RuntimeError(
 			f"{prefix} converter exited with status {completed_process.returncode} "
@@ -224,9 +239,17 @@ def _create_optional_download(
 		prefix: str,
 		extension: str,
 		display_name: str,
+		capture_output: bool = False,
+		progress: build_progress.BuildProgress | None = None,
 ) -> str | None:
 	"""Skip a failed optional download without stopping the task build."""
+	if progress:
+		progress.check_cancelled()
 	try:
+		if capture_output:
+			return create_downloadable_format(
+				bbq_file, prefix, extension, capture_output=True,
+			)
 		return create_downloadable_format(bbq_file, prefix, extension)
 	except Exception as error:
 		output_path = get_outfile_name(bbq_file, prefix, extension)
@@ -339,6 +362,8 @@ def generate_download_button_row(
 	*,
 	generate_downloads: bool = False,
 	render_missing_download_links: bool = False,
+	capture_output: bool = False,
+	progress: build_progress.BuildProgress | None = None,
 ) -> str:
 	"""
 	Generates a row of HTML buttons for downloading various file types.
@@ -394,6 +419,8 @@ def generate_download_button_row(
 
 	# Generate a button for each file type
 	for type_key, file_type in file_types.items():
+		if progress:
+			progress.check_cancelled()
 		if type_key not in download_formats:
 			if verbose:
 				print(color_text(f"  SKIP {file_type['display_name']} (disabled)", COLOR_YELLOW))
@@ -504,6 +531,8 @@ def generate_download_button_row(
 				file_type['prefix'],
 				file_type['extension'],
 				file_type['display_name'],
+				capture_output,
+				progress,
 			)
 			if out_file_path is None:
 				record_stat(stats, type_key, "skipped")
@@ -537,6 +566,8 @@ def generate_download_button_row(
 				file_type['prefix'],
 				file_type['extension'],
 				file_type['display_name'],
+				capture_output,
+				progress,
 			)
 		if out_file_path is None:
 			record_stat(stats, type_key, "skipped")
@@ -847,7 +878,12 @@ def update_index_md(
 
 
 #==============
-def generate_download_artifacts(bbq_file_name: str, verbose: bool = True) -> None:
+def generate_download_artifacts(
+	bbq_file_name: str,
+	verbose: bool = True,
+	capture_output: bool = False,
+	progress: build_progress.BuildProgress | None = None,
+) -> None:
 	"""Create converter-owned downloads without rendering a topic page."""
 	stats = init_format_stats()
 	generate_download_button_row(
@@ -857,6 +893,8 @@ def generate_download_artifacts(bbq_file_name: str, verbose: bool = True) -> Non
 		verbose=verbose,
 		stats=stats,
 		generate_downloads=True,
+		capture_output=capture_output,
+		progress=progress,
 	)
 
 #==============

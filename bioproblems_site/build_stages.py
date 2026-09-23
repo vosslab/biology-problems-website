@@ -15,6 +15,7 @@ import bioproblems_site.subject_index as subject_index_module
 import bioproblems_site.topic_page as topic_page_module
 import bioproblems_site.git_paths as git_paths
 from bioproblems_site.build_contracts import BuildChanges, BuildScope, TopicRef
+from bioproblems_site.build_progress import BuildProgress
 
 
 REPO_ROOT = Path(git_paths.get_repo_root())
@@ -84,6 +85,7 @@ def run_selftests(
 	topic_ref: TopicRef,
 	scope: BuildScope,
 	source_paths: set[Path] | None = None,
+	progress: BuildProgress | None = None,
 ) -> set[Path]:
 	"""Write self-tests for one task row, or all files in a topic when unscoped."""
 	sources = selected_topic_sources(topic_ref, source_paths)
@@ -94,7 +96,16 @@ def run_selftests(
 	if scope.dry_run:
 		return outputs
 	for source_path in sources:
-		topic_page_module.create_downloadable_format(str(source_path), "selftest", "html")
+		if progress:
+			progress.check_cancelled()
+		if progress:
+			topic_page_module.create_downloadable_format(
+				str(source_path), "selftest", "html", capture_output=True,
+			)
+		else:
+			topic_page_module.create_downloadable_format(
+				str(source_path), "selftest", "html",
+			)
 	return outputs
 
 
@@ -184,14 +195,28 @@ def run_downloads(
 	topic_ref: TopicRef,
 	scope: BuildScope,
 	source_paths: set[Path] | None = None,
+	progress: BuildProgress | None = None,
 ) -> set[Path]:
 	"""Write converter-owned artifacts for one row or all files in a topic."""
 	outputs: set[Path] = set()
 	for source_path in selected_topic_sources(topic_ref, source_paths):
+		if progress:
+			progress.check_cancelled()
 		outputs.update(expected_downloads(source_path))
 		if scope.dry_run:
 			continue
-		topic_page_module.generate_download_artifacts(str(source_path), verbose=True)
+		if progress:
+			progress.check_cancelled()
+			topic_page_module.generate_download_artifacts(
+				str(source_path),
+				verbose=True,
+				capture_output=True,
+				progress=progress,
+			)
+		else:
+			topic_page_module.generate_download_artifacts(
+				str(source_path), verbose=True,
+			)
 	return outputs
 
 
@@ -216,6 +241,7 @@ def _write_subject_index(subject: object, site_docs_dir: Path, dry_run: bool) ->
 def run_subject_indexes(
 	scope: BuildScope,
 	selected_topics: set[TopicRef] | None = None,
+	progress: BuildProgress | None = None,
 ) -> set[Path]:
 	"""Unconditionally refresh cheap subject indexes, nav, and manifest."""
 	subjects, nav_order = metadata_module.load_topics_metadata(
@@ -224,6 +250,8 @@ def run_subject_indexes(
 	)
 	subject_keys = [scope.subject] if scope.subject else list(nav_order)
 	outputs: set[Path] = set()
+	if progress:
+		progress.check_cancelled()
 	# Orphan status is repository-global, even when generation is narrowly scoped.
 	# Reconcile first so indexes, nav, and the manifest see only current task-owned
 	# BBQ sources after a removed CSV row is cleaned up.
@@ -238,6 +266,9 @@ def run_subject_indexes(
 			task_owned_pattern_map=task_owned_patterns,
 		)
 	question_index_path = DEFAULT_SITE_DOCS / "sitemap.md"
+	if progress:
+		progress.check_cancelled()
+		progress.emit("log", message="Finalizing searchable question index")
 	question_index_module.write(
 		question_index_path,
 		DEFAULT_SITE_DOCS,
@@ -247,9 +278,15 @@ def run_subject_indexes(
 	)
 	outputs.add(question_index_path)
 	for subject_key in subject_keys:
+		if progress:
+			progress.check_cancelled()
+			progress.emit("log", message=f"Finalizing subject index: {subject_key}")
 		outputs.add(_write_subject_index(subjects[subject_key], DEFAULT_SITE_DOCS, scope.dry_run))
 	# Navigation is global and inexpensive. Rebuild it even for a selected
 	# subject so its visibility and counts cannot lag behind source content.
+	if progress:
+		progress.check_cancelled()
+		progress.emit("log", message="Finalizing MkDocs navigation")
 	mkdocs_nav_module.update_from_sources(
 		metadata_path=str(DEFAULT_METADATA_PATH),
 		mkdocs_path=str(DEFAULT_MKDOCS_PATH),
@@ -259,6 +296,9 @@ def run_subject_indexes(
 	outputs.add(DEFAULT_MKDOCS_PATH)
 	manifest_path = DEFAULT_SITE_DOCS / "assets/data/selftest_question_manifest.json"
 	if not scope.dry_run:
+		if progress:
+			progress.check_cancelled()
+			progress.emit("log", message="Finalizing self-test manifest")
 		unrestricted = not any((
 			scope.subject,
 			scope.topic,

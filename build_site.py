@@ -3,6 +3,7 @@
 
 import argparse
 from pathlib import Path
+import sys
 
 import bioproblems_site.build_contracts as build_contracts
 import bioproblems_site.build_coordinator as build_coordinator
@@ -60,6 +61,15 @@ def build_parser() -> argparse.ArgumentParser:
 	parser.add_argument(
 		"-n", "--dry-run", dest="dry_run", action="store_true",
 		help="Show what would be rebuilt without changing files.",
+	)
+	output_group = parser.add_mutually_exclusive_group()
+	output_group.add_argument(
+		"--cli", dest="cli", action="store_true",
+		help="Use plain output, even when stdin and stdout are interactive terminals.",
+	)
+	output_group.add_argument(
+		"--tui", dest="tui", action="store_true",
+		help="Open the Textual dashboard; requires interactive stdin and stdout.",
 	)
 	parser.add_argument(
 		"-F", "--rebuild", dest="full", action="store_true",
@@ -123,9 +133,8 @@ def _resolve_topic_filter(subject: metadata.Subject, topic_reference: str) -> st
 
 
 #============================================
-def parse_scope(arguments: list[str] | None = None) -> build_contracts.BuildScope:
-	"""Parse public arguments and validate their repository-local scope."""
-	args = build_parser().parse_args(arguments)
+def _scope_from_args(args: argparse.Namespace) -> build_contracts.BuildScope:
+	"""Validate parsed arguments and construct the repository-local build scope."""
 	if args.limit is not None and args.limit <= 0:
 		raise ValueError("--limit must be positive")
 	if args.max_questions is not None and args.max_questions <= 0:
@@ -171,12 +180,27 @@ def parse_scope(arguments: list[str] | None = None) -> build_contracts.BuildScop
 
 
 #============================================
+def parse_scope(arguments: list[str] | None = None) -> build_contracts.BuildScope:
+	"""Parse public arguments and validate their repository-local scope."""
+	args = build_parser().parse_args(arguments)
+	return _scope_from_args(args)
+
+
+#============================================
 def main(arguments: list[str] | None = None) -> int:
 	"""Run the selected unified build and return its process status."""
+	args = build_parser().parse_args(arguments)
 	try:
-		scope = parse_scope(arguments)
+		scope = _scope_from_args(args)
 	except (FileNotFoundError, ValueError) as error:
 		build_parser().error(str(error))
+	interactive = sys.stdin.isatty() and sys.stdout.isatty()
+	if args.tui and not interactive:
+		build_parser().error("--tui requires interactive stdin and stdout.")
+	if args.tui or (not args.cli and interactive):
+		import bioproblems_site.bbq_tui as bbq_tui
+
+		return bbq_tui.run_app(scope)
 	report = build_coordinator.build_site(scope)
 	for stage_name, stage_seconds in report.stage_seconds.items():
 		stage_files = report.stage_files.get(stage_name, set())
