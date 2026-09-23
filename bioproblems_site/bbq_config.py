@@ -17,6 +17,7 @@ INPUT_SCRIPT_BASENAMES = {
 	"yaml_mc_statements_to_bbq.py",
 	"yaml_make_match_sets.py",
 }
+REQUIRED_TASK_COLUMNS = ("subject", "topic", "script")
 
 
 def find_settings_yaml(settings_arg: str) -> str:
@@ -40,13 +41,25 @@ def find_settings_yaml(settings_arg: str) -> str:
 
 
 def load_bbq_config(config_path: str) -> dict[str, object]:
-	"""Load a YAML BBQ configuration, returning an empty config when absent."""
+	"""Load a YAML BBQ configuration or report the path/configuration error."""
 	if not config_path or not os.path.isfile(config_path):
-		return {}
-	with open(config_path, "r") as config_handle:
-		config_data = yaml.safe_load(config_handle)
+		raise FileNotFoundError(
+			"BBQ settings file not found: "
+			f"{bioproblems_site.git_paths.display_path(config_path)}"
+		)
+	try:
+		with open(config_path, "r") as config_handle:
+			config_data = yaml.safe_load(config_handle)
+	except yaml.YAMLError as exc:
+		raise ValueError(
+			"Invalid BBQ settings YAML in "
+			f"{bioproblems_site.git_paths.display_path(config_path)}: {exc}"
+		) from exc
 	if not isinstance(config_data, dict):
-		return {}
+		raise ValueError(
+			"BBQ settings must contain a YAML mapping: "
+			f"{bioproblems_site.git_paths.display_path(config_path)}"
+		)
 	return config_data
 
 
@@ -199,14 +212,14 @@ def get_missing_input_message(task: dict[str, object]) -> str:
 	input_path = task.get("input_path") or ""
 	if not input_path or os.path.isfile(input_path):
 		return ""
-	return f"Missing input file: {input_path}"
+	return f"Missing input file: {bioproblems_site.git_paths.display_path(input_path)}"
 
 
 def get_missing_script_message(task: dict[str, object]) -> str:
 	script_path = task.get("script") or ""
 	if not script_path or os.path.isfile(script_path):
 		return ""
-	return f"Missing script file: {script_path}"
+	return f"Missing script file: {bioproblems_site.git_paths.display_path(script_path)}"
 
 
 def load_tasks(
@@ -260,88 +273,139 @@ def load_tasks_csv(
 			}
 	base_root = (path_aliases.get("bp_root") or "").strip()
 	if not os.path.isfile(config_path):
-		raise FileNotFoundError(f"Config file not found: {config_path}")
-	with open(config_path, newline="") as file_handle:
-		reader = csv.DictReader(file_handle)
-		for row in reader:
-			csv_row_number = reader.line_num
-			program = (row.get("program") or "python3").strip()
-			script = (row.get("script") or "").strip()
-			flags = (row.get("flags") or "").strip()
-			input_value = (row.get("input") or "").strip()
-			output = (row.get("output") or "").strip()
-			subject = (row.get("subject") or "").strip()
-			raw_topic = (row.get("topic") or "").strip()
-			output_file = (row.get("output_file") or "").strip()
-			if not script and not flags:
-				continue
-			topic = bioproblems_site.topic_aliases.resolve_topic_key(
-				subject,
-				raw_topic,
-				topic_alias_map,
-				source=config_path,
-				line_number=reader.line_num,
-			)
-			script_value = resolve_script_alias(script, script_aliases)
-			if isinstance(script_value, list):
-				script_values = [item.strip() for item in script_value if isinstance(item, str) and item.strip()]
-			elif isinstance(script_value, str) and script_value:
-				script_values = [script_value]
-			else:
-				script_values = []
-			if not script_values and script:
-				script_values = [script]
-			output_dir_parts = [repo_root, "site_docs"]
-			if subject:
-				output_dir_parts.append(subject)
-			if topic:
-				output_dir_parts.append(topic)
-			output_dir = os.path.join(*output_dir_parts)
-			if not output and output_file:
-				output = os.path.join(output_dir, output_file)
-			output = normalize_path(output, repo_root, "", path_aliases)
-			base_args = shlex.split(expand_text(flags, path_aliases)) if flags else []
-			for script_entry in script_values:
-				script_path = normalize_path(script_entry, repo_root, base_root, path_aliases)
-				args = list(base_args)
-				input_path = ""
-				if input_value:
-					input_value_expanded = input_value
-					if os.path.basename(input_value_expanded) == input_value_expanded:
-						script_basename = os.path.basename(script_path)
-						if script_basename in INPUT_SCRIPT_BASENAMES:
-							input_value_expanded = os.path.join(
-								os.path.dirname(script_path), input_value_expanded
-							)
-					input_path = normalize_path(
-						input_value_expanded, repo_root, base_root, path_aliases
+		raise FileNotFoundError(
+			f"Config file not found: {bioproblems_site.git_paths.display_path(config_path)}"
+		)
+	reader: csv.DictReader | None = None
+	try:
+		with open(config_path, newline="", encoding="utf-8-sig") as file_handle:
+			reader = csv.DictReader(file_handle, strict=True)
+			fieldnames = reader.fieldnames
+			if not fieldnames:
+				raise ValueError(
+					"Task CSV is empty or has no header: "
+					f"{bioproblems_site.git_paths.display_path(config_path)}"
+				)
+			duplicate_fields = sorted({name for name in fieldnames if fieldnames.count(name) > 1})
+			if duplicate_fields:
+				raise ValueError(
+					f"Task CSV {bioproblems_site.git_paths.display_path(config_path)} "
+					f"has duplicate columns: {duplicate_fields}"
+				)
+			missing_fields = sorted(set(REQUIRED_TASK_COLUMNS) - set(fieldnames))
+			if missing_fields:
+				raise ValueError(
+					f"Task CSV {bioproblems_site.git_paths.display_path(config_path)} "
+					f"is missing required columns: {missing_fields}"
+				)
+			for row in reader:
+				csv_row_number = reader.line_num
+				if None in row:
+					raise ValueError(
+						f"Task CSV {bioproblems_site.git_paths.display_path(config_path)}:"
+						f"{csv_row_number} has more values than header columns"
 					)
-					args = add_input_args(args, default_input_flag, input_path)
-				task: dict[str, object] = {
-					"program": program or "python3",
-					"script": script_path,
-					"args": args,
-					"output": output,
-					"output_dir": output_dir,
-					"input_path": input_path,
-					"_csv_row_number": csv_row_number,
-					# These canonical keys come from the CSV and metadata resolver.
-					# Downstream stages must not recover them from output paths.
-					"subject": subject,
-					"topic": topic,
-				}
-				script_basename = os.path.basename(script_path)
-				if script_basename in pgml_script_map and input_path:
-					pgml_entry = pgml_script_map[script_basename]
-					pgml_script_path = normalize_path(
-						pgml_entry["script"], repo_root, base_root, path_aliases
+				if not any((row.get(name) or "").strip() for name in fieldnames):
+					continue
+				missing_values = [
+					name for name in REQUIRED_TASK_COLUMNS
+					if not (row.get(name) or "").strip()
+				]
+				if missing_values:
+					raise ValueError(
+						f"Task CSV {bioproblems_site.git_paths.display_path(config_path)}:"
+						f"{csv_row_number} is missing values for "
+						f"required columns: {missing_values}"
 					)
-					task["pgml_info"] = {
-						"script": pgml_script_path,
-						"suffix": pgml_entry["suffix"],
-						"extension": pgml_entry["extension"],
+				program = (row.get("program") or "python3").strip()
+				script = (row.get("script") or "").strip()
+				flags = (row.get("flags") or "").strip()
+				input_value = (row.get("input") or "").strip()
+				output = (row.get("output") or "").strip()
+				subject = (row.get("subject") or "").strip()
+				raw_topic = (row.get("topic") or "").strip()
+				output_file = (row.get("output_file") or "").strip()
+				topic = bioproblems_site.topic_aliases.resolve_topic_key(
+					subject,
+					raw_topic,
+					topic_alias_map,
+					source=config_path,
+					line_number=csv_row_number,
+				)
+				script_value = resolve_script_alias(script, script_aliases)
+				if isinstance(script_value, list):
+					script_values = [
+						item.strip() for item in script_value
+						if isinstance(item, str) and item.strip()
+					]
+				elif isinstance(script_value, str) and script_value:
+					script_values = [script_value]
+				else:
+					script_values = []
+				if not script_values and script:
+					script_values = [script]
+				output_dir_parts = [repo_root, "site_docs"]
+				if subject:
+					output_dir_parts.append(subject)
+				if topic:
+					output_dir_parts.append(topic)
+				output_dir = os.path.join(*output_dir_parts)
+				if not output and output_file:
+					output = os.path.join(output_dir, output_file)
+				output = normalize_path(output, repo_root, "", path_aliases)
+				base_args = shlex.split(expand_text(flags, path_aliases)) if flags else []
+				for script_entry in script_values:
+					script_path = normalize_path(script_entry, repo_root, base_root, path_aliases)
+					args = list(base_args)
+					input_path = ""
+					if input_value:
+						input_value_expanded = input_value
+						if os.path.basename(input_value_expanded) == input_value_expanded:
+							script_basename = os.path.basename(script_path)
+							if script_basename in INPUT_SCRIPT_BASENAMES:
+								input_value_expanded = os.path.join(
+									os.path.dirname(script_path), input_value_expanded
+								)
+						input_path = normalize_path(
+							input_value_expanded, repo_root, base_root, path_aliases
+						)
+						args = add_input_args(args, default_input_flag, input_path)
+					task: dict[str, object] = {
+						"program": program or "python3",
+						"script": script_path,
+						"args": args,
+						"output": output,
+						"output_dir": output_dir,
 						"input_path": input_path,
-						"output_dir": os.path.join(output_dir, "downloads"),
+						"_csv_row_number": csv_row_number,
+						# These canonical keys come from the CSV and metadata resolver.
+						# Downstream stages must not recover them from output paths.
+						"subject": subject,
+						"topic": topic,
 					}
-				tasks.append(task)
+					script_basename = os.path.basename(script_path)
+					if script_basename in pgml_script_map and input_path:
+						pgml_entry = pgml_script_map[script_basename]
+						pgml_script_path = normalize_path(
+							pgml_entry["script"], repo_root, base_root, path_aliases
+						)
+						task["pgml_info"] = {
+							"script": pgml_script_path,
+							"suffix": pgml_entry["suffix"],
+							"extension": pgml_entry["extension"],
+							"input_path": input_path,
+							"output_dir": os.path.join(output_dir, "downloads"),
+						}
+					tasks.append(task)
+	except csv.Error as exc:
+		line_number = reader.line_num if reader is not None else "unknown"
+		raise ValueError(
+			f"Malformed task CSV {bioproblems_site.git_paths.display_path(config_path)} "
+			f"near line {line_number}: {exc}"
+		) from exc
+	if not tasks:
+		raise ValueError(
+			"Task CSV has no active task rows: "
+			f"{bioproblems_site.git_paths.display_path(config_path)}"
+		)
 	return tasks

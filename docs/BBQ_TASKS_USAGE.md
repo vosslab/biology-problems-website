@@ -9,10 +9,10 @@ source source_me.sh && ./build_site.py \
   --task task_files/biochem_tasks1.csv
 ```
 
-The selected BBQ work automatically triggers the affected self-test, download,
-topic-page, and index/navigation stages. Downloads are ready before the topic page
-is published, so a failed conversion cannot leave that page newly linking to a
-missing file.
+Each selected CSV row automatically triggers its self-test and download work
+before the next row starts. After the selected rows finish, each affected topic
+page is rendered once with the available links, followed by index/navigation
+updates. A failed conversion stops the build before the page is published.
 
 Combine a subject and topic filter for a focused run:
 
@@ -93,10 +93,12 @@ biochemistry,topic01,YMATCH,,macromolecules.yml,
 repeating external repository paths. Export `bp_root` or `BP_ROOT` to override
 the configured biology-problems path for a local run.
 
-For each build run with pending tasks, the runner starts a fresh
-`bbq_generation_errors.log` in the current working directory and records failed
-scripts there. An invalid, empty, or oversized generated candidate is rejected;
-the previous configured output is restored when generation fails. A failed task
-stops the current build before its downstream stages and later CSV rows run;
-completed earlier rows remain published. Self-test conversion stages its HTML
-and replaces the previous file only after a successful, nonempty conversion.
+For each build run with pending tasks, the runner starts one fresh
+`bbq_generation.log` in the current working directory. It contains progress and
+failure details for every selected CSV row; numbered backups and the former
+`bbq_generation_errors.log` are cleared at startup. An invalid, empty, or
+oversized generated candidate is rejected; the previous configured output is
+restored when generation fails. A failed task stops the current build before
+its downstream stages and later CSV rows run; completed earlier rows remain
+published. Self-test conversion stages its HTML and replaces the previous file
+only after a successful, nonempty conversion.

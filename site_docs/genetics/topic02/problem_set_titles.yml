@@ -21,6 +21,12 @@ bbq-linear_digest-len_10-sites_3-strand-questions.txt: Restriction Digest Fragme
   Sizes on a Linear DNA Map (10 kb, 3 Sites)
 bbq-linear_digest-len_12-sites_3-fragment-questions.txt: Restriction Digest Band Sizes
   of a Linear DNA Fragment (12 kb, 3 Sites)
+bbq-linear_digest-len_12-sites_3-strand-questions.txt: Restriction Digest Fragment
+  Sizes on a Linear DNA Map (12 kb, 3 Sites)
+bbq-linear_digest-len_16-sites_4-fragment-questions.txt: Restriction Fragment Sizes
+  from Linear DNA Maps (16 kb, 4 Sites)
+bbq-linear_digest-len_16-sites_4-strand-questions.txt: Restriction Digest Band Sizes
+  from Linear DNA Maps (16 kb, 4 Sites)
 bbq-linear_digest-length_10-sites_3-strand-questions.txt: 'Restriction Digests: Determining
   DNA Band Sizes (10 kb, Strand Diagram)'
 bbq-linear_digest-length_13-sites_3-fragment-questions.txt: 'Restriction Digests:
@@ -36,4 +42,4 @@ bbq-overhang_type-5_3_blunt-questions.txt: 'Restriction Enzyme Cuts: Identifying
 bbq-overhang_type-blunt_v_sticky-questions.txt: 'Restriction Enzyme Cuts: Identifying
   Blunt or Sticky Ends'
 bbq-palindrome_sequence_match-questions.txt: Palindromic DNA Sequence Completion
-last edit: Wed Sep 23 08:42:36 2026
+last edit: Wed Sep 23 10:29:13 2026

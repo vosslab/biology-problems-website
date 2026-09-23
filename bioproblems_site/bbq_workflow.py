@@ -20,6 +20,11 @@ DEFAULT_TASK_DIR = REPO_ROOT / "task_files"
 
 
 #============================================
+class TaskOwnershipError(RuntimeError):
+	"""Raised when repository task files cannot establish safe cleanup ownership."""
+
+
+#============================================
 def load_task_owned_patterns() -> dict[str, list[tuple[set[str], tuple[str, ...], set[str]]]]:
 	"""Load every current CSV task as topic-local BBQ source ownership patterns.
 
@@ -27,27 +32,80 @@ def load_task_owned_patterns() -> dict[str, list[tuple[set[str], tuple[str, ...]
 		dict: Real topic directory paths mapped to automatic prefix/suffix and
 			explicit-basename ownership patterns.
 	"""
-	settings = bbq_config.load_bbq_config(str(DEFAULT_SETTINGS_PATH))
-	subjects, _nav_order = metadata_module.load_topics_metadata()
-	alias_map = metadata_module.build_topic_alias_map(subjects)
+	if not DEFAULT_TASK_DIR.is_dir():
+		raise TaskOwnershipError(
+			f"Task inventory directory not found: {git_paths.display_path(DEFAULT_TASK_DIR)}"
+		)
+	task_files = sorted(DEFAULT_TASK_DIR.glob("*.csv"))
+	if not task_files:
+		raise TaskOwnershipError(
+			f"No task CSV files found in {git_paths.display_path(DEFAULT_TASK_DIR)}"
+		)
+	try:
+		settings = bbq_config.load_bbq_config(str(DEFAULT_SETTINGS_PATH))
+		subjects, _nav_order = metadata_module.load_topics_metadata()
+		alias_map = metadata_module.build_topic_alias_map(subjects)
+	except (OSError, TypeError, ValueError) as exc:
+		raise TaskOwnershipError(f"Cannot establish task ownership: {exc}") from exc
 	topic_patterns: dict[str, list[tuple[set[str], tuple[str, ...], set[str]]]] = {}
-	for task_file in sorted(DEFAULT_TASK_DIR.glob("*.csv")):
-		loaded_tasks = bbq_config.load_tasks_csv(str(task_file), settings, alias_map)
+	for task_file in task_files:
+		try:
+			loaded_tasks = bbq_config.load_tasks_csv(str(task_file), settings, alias_map)
+		except (OSError, TypeError, ValueError) as exc:
+			raise TaskOwnershipError(
+				f"Cannot establish task ownership from "
+				f"{git_paths.display_path(task_file)}: {exc}"
+			) from exc
 		for task in loaded_tasks:
+			script_path = task.get("script", "")
+			if not isinstance(script_path, str) or not script_path or not os.path.isfile(script_path):
+				displayed_script = (
+					git_paths.display_path(script_path)
+					if isinstance(script_path, str)
+					else repr(script_path)
+				)
+				raise TaskOwnershipError(
+					f"Cannot establish task ownership from "
+					f"{git_paths.display_path(task_file)}: generator script is missing "
+					f"({displayed_script!r})"
+				)
+			input_path = task.get("input_path", "")
+			if isinstance(input_path, str) and input_path and not os.path.isfile(input_path):
+				raise TaskOwnershipError(
+					f"Cannot establish task ownership from "
+					f"{git_paths.display_path(task_file)}: task input is missing "
+					f"({git_paths.display_path(input_path)})"
+				)
 			output_dir = task["output_dir"]
 			if not isinstance(output_dir, str):
-				raise TypeError("BBQ task output directory must be a string")
+				raise TaskOwnershipError(
+					"BBQ task output directory must be a string in "
+					f"{git_paths.display_path(task_file)}"
+				)
 			output_value = task["output"]
 			if not isinstance(output_value, str):
-				raise TypeError("BBQ task output path must be a string")
+				raise TaskOwnershipError(
+					"BBQ task output path must be a string in "
+					f"{git_paths.display_path(task_file)}"
+				)
 			prefixes: list[str] = []
 			suffixes: tuple[str, ...] = ()
 			explicit_basenames = {os.path.basename(output_value)} if output_value else set()
 			if not explicit_basenames:
 				prefixes, suffixes = bbq_outputs.build_output_patterns(task)
+			if not explicit_basenames and not prefixes:
+				row_number = task.get("_csv_row_number", "?")
+				raise TaskOwnershipError(
+					f"Cannot derive BBQ ownership for "
+					f"{git_paths.display_path(task_file)}:{row_number}"
+				)
 			pattern = (set(prefixes), suffixes, explicit_basenames)
 			topic_path = os.path.realpath(output_dir)
 			topic_patterns.setdefault(topic_path, []).append(pattern)
+	if not topic_patterns:
+		raise TaskOwnershipError(
+			f"Task inventory owns no BBQ outputs: {git_paths.display_path(DEFAULT_TASK_DIR)}"
+		)
 	return topic_patterns
 
 
@@ -150,7 +208,19 @@ def _load_scoped_task_rows(scope: BuildScope) -> list[list[dict[str, object]]]:
 				f"expected one of {sorted(valid_topics)}"
 			)
 	alias_map = metadata_module.build_topic_alias_map(subjects)
-	task_files = [scope.tasks_csv] if scope.tasks_csv else sorted(DEFAULT_TASK_DIR.glob("*.csv"))
+	if scope.tasks_csv:
+		task_files = [scope.tasks_csv]
+	else:
+		if not DEFAULT_TASK_DIR.is_dir():
+			raise FileNotFoundError(
+				"Task inventory directory not found: "
+				f"{git_paths.display_path(DEFAULT_TASK_DIR)}"
+			)
+		task_files = sorted(DEFAULT_TASK_DIR.glob("*.csv"))
+		if not task_files:
+			raise ValueError(
+				f"No task CSV files found in {git_paths.display_path(DEFAULT_TASK_DIR)}"
+			)
 	task_rows: list[list[dict[str, object]]] = []
 	for task_file in task_files:
 		if task_file is None:
@@ -247,10 +317,14 @@ def iter_task_results(scope: BuildScope) -> Iterator[TaskBuildResult]:
 		raise RuntimeError(pythonpath_message)
 	pythonpath_value = bbq_config.build_pythonpath(settings)
 	log_path = "bbq_generation.log"
-	error_log_path = "bbq_generation_errors.log"
-	if os.path.isfile(error_log_path):
-		os.remove(error_log_path)
-	bbq_outputs.rotate_log(log_path)
+	error_log_path = log_path
+	bbq_outputs.start_run_log(log_path)
+	legacy_error_log_path = "bbq_generation_errors.log"
+	if os.path.isfile(legacy_error_log_path):
+		try:
+			os.remove(legacy_error_log_path)
+		except OSError as exc:
+			print(f"WARNING: could not remove old error log {legacy_error_log_path}: {exc}")
 	context = bbq_runner.RunContext(log_path, error_log_path, True, pythonpath_value)
 	total = pending_count
 	# The historical 199-question default belongs to an all-task batch.

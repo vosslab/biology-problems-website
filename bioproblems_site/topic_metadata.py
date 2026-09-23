@@ -17,7 +17,9 @@ MKDOCS_CONFIG = os.path.join(git_paths.get_repo_root(), "mkdocs.yml")
 def get_docs_dir() -> str:
 	"""Return the MkDocs source directory from its configuration."""
 	if not os.path.isfile(MKDOCS_CONFIG):
-		raise FileNotFoundError(f"Config file '{MKDOCS_CONFIG}' not found.")
+		raise FileNotFoundError(
+			f"Config file '{git_paths.display_path(MKDOCS_CONFIG)}' not found."
+		)
 	with open(MKDOCS_CONFIG, "r", encoding="utf-8") as file_pointer:
 		config = yaml.safe_load(file_pointer) or {}
 	return config["docs_dir"]
@@ -75,7 +77,10 @@ def get_topic_title(topic_folder: str) -> str:
 	entry = _get_topic_entry(topic_folder)
 	title = entry.get("title")
 	if not title:
-		raise ValueError(f"No topic title found for folder path: {topic_folder}")
+		raise ValueError(
+			"No topic title found for folder path: "
+			f"{git_paths.display_path(topic_folder)}"
+		)
 	topic_name = os.path.basename(os.path.normpath(topic_folder))
 	topic_number = int(re.search(r"topic(\d+)", topic_name).group(1))
 	return f"{topic_number}: {title}"

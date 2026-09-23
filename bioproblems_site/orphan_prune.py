@@ -28,6 +28,7 @@ import glob
 import yaml
 
 # local repo modules
+import bioproblems_site.atomic_write as atomic_write
 import bioproblems_site.git_paths as git_paths
 import bioproblems_site.topic_page as topic_page
 
@@ -371,8 +372,7 @@ def strip_orphan_includes(index_md_path: str, live_cores: set, dry_run: bool) ->
 		kept_lines.append(line)
 	# Only rewrite the file outside of dry-run when something changed
 	if not dry_run and removed_count > 0:
-		with open(index_md_path, "w") as index_md_file:
-			index_md_file.writelines(kept_lines)
+		atomic_write.atomic_write_text(index_md_path, "".join(kept_lines))
 	return removed_count
 
 
@@ -427,8 +427,7 @@ def prune_title_cache(yaml_path: str, live_bbq_basenames: set, dry_run: bool) ->
 		del cache_data[key]
 	# Only rewrite the file outside of dry-run when something changed
 	if not dry_run and stale_keys:
-		with open(yaml_path, "w") as yaml_file:
-			yaml.dump(cache_data, yaml_file)
+		atomic_write.atomic_write_text(yaml_path, yaml.dump(cache_data))
 	return len(stale_keys)
 
 
@@ -634,7 +633,7 @@ def reconcile_all(
 			combined[key].extend(plan[key])
 		if verbose and any(plan.values()):
 			summary = (
-				f"  {topic_folder}: "
+				f"  {git_paths.display_path(topic_folder)}: "
 				f"delete-sources={len(plan['delete_sources'])} "
 				f"delete-downloads={len(plan['delete_downloads'])} "
 				f"strip={len(plan['strip_includes'])} "

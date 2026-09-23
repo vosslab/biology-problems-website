@@ -4,6 +4,7 @@ from pathlib import Path
 
 import bioproblems_site.llm_helpers as llm_helpers
 import bioproblems_site.bbq_workflow as bbq_workflow
+import bioproblems_site.atomic_write as atomic_write
 import bioproblems_site.metadata as metadata_module
 import bioproblems_site.mkdocs_nav as mkdocs_nav_module
 import bioproblems_site.orphan_prune as orphan_prune_module
@@ -196,10 +197,12 @@ def _write_subject_index(subject: object, site_docs_dir: Path, dry_run: bool) ->
 	output_path = site_docs_dir / subject.key / "index.md"
 	text = subject_index_module.render_subject_index(subject, scans)
 	if output_path.is_file() and not subject_index_module.has_generated_marker(str(output_path)):
-		raise RuntimeError(f"Refusing to overwrite {output_path}: no generated marker.")
+		raise RuntimeError(
+			f"Refusing to overwrite {git_paths.display_path(output_path)}: "
+			"no generated marker."
+		)
 	if not dry_run:
-		output_path.parent.mkdir(parents=True, exist_ok=True)
-		output_path.write_text(text)
+		atomic_write.atomic_write_text(output_path, text)
 	return output_path
 
 
@@ -218,11 +221,16 @@ def run_subject_indexes(
 	# Orphan status is repository-global, even when generation is narrowly scoped.
 	# Reconcile first so indexes, nav, and the manifest see only current task-owned
 	# BBQ sources after a removed CSV row is cleaned up.
-	task_owned_patterns = bbq_workflow.load_task_owned_patterns()
-	reconciliation = orphan_prune_module.reconcile_all(
-		str(DEFAULT_SITE_DOCS), scope.dry_run, verbose=True,
-		task_owned_pattern_map=task_owned_patterns,
-	)
+	try:
+		task_owned_patterns = bbq_workflow.load_task_owned_patterns()
+	except bbq_workflow.TaskOwnershipError as exc:
+		print(f"WARNING: skipping orphan reconciliation because task ownership is uncertain: {exc}")
+		reconciliation = {"strip_includes": []}
+	else:
+		reconciliation = orphan_prune_module.reconcile_all(
+			str(DEFAULT_SITE_DOCS), scope.dry_run, verbose=True,
+			task_owned_pattern_map=task_owned_patterns,
+		)
 	question_index_path = DEFAULT_SITE_DOCS / "sitemap.md"
 	question_index_module.write(
 		question_index_path,

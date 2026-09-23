@@ -6,6 +6,7 @@ from pathlib import Path
 
 import yaml
 
+import bioproblems_site.atomic_write as atomic_write
 import bioproblems_site.metadata as metadata_module
 
 
@@ -132,6 +133,5 @@ def write(
 	)
 	text = render(collect_entries(site_docs_dir, subjects, nav_order))
 	if not dry_run:
-		output_path.parent.mkdir(parents=True, exist_ok=True)
-		output_path.write_text(text)
+		atomic_write.atomic_write_text(output_path, text)
 	return text
