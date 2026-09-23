@@ -89,6 +89,9 @@ Common flags:
   `genetic_disorders`, or `Genetic Disorders`; combine it with `-S/--subject`.
 - `-t/--task task_files/genetics_tasks1.csv`: select one configured CSV.
 - `-l/--limit 1`: limit the number of CSV task rows during development.
+- `-x/--max-questions 99`: set the common maximum for task rows without their
+  own `-x` flag. Unrestricted runs default to 199; scoped runs otherwise use
+  each generator's configured limit.
 - `-R/--shuffle`: shuffle BBQ task order before applying `--limit`.
 - `-b/--backend BACKEND`: use `ollama`, `codex`, or `claude` for generated
   problem-set titles. Ollama remains the default; Codex uses its configured
@@ -103,9 +106,6 @@ Common flags:
   and limit filters still apply; with no filters, rebuild all configured tasks
   and topics. The older `--full` spelling still works.
 - `-m/--model MODEL`: use a specific model with the selected title-generation backend.
-
-An unrestricted run applies the all-task 199-question maximum. A selected CSV,
-subject, or limited run keeps its configured generator limits.
 
 The generated [All Questions](../site_docs/sitemap.md) page is a human-readable
 sitemap of problem-set titles. It is included in the MkDocs navigation so users

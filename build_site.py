@@ -29,6 +29,7 @@ def build_parser() -> argparse.ArgumentParser:
 			"  ./build_site.py -S genetics -T topic01\n"
 			"  ./build_site.py -S genetics -T 'Genetic Disorders'\n"
 			"  ./build_site.py --task task_files/genetics_tasks1.csv\n"
+			"  ./build_site.py -x 99\n"
 			"  ./build_site.py -R -l 1\n"
 			"  ./build_site.py -b codex\n"
 			"  ./build_site.py -n\n"
@@ -93,7 +94,10 @@ def build_parser() -> argparse.ArgumentParser:
 		metavar="MODEL",
 		help="Use a specific model with the selected title-generation backend.",
 	)
-	parser.add_argument("--max-questions", type=int, help=argparse.SUPPRESS)
+	parser.add_argument(
+		"-x", "--max-questions", dest="max_questions", metavar="N", type=int,
+		help="Set the common per-task maximum where rows do not define -x (default: 199).",
+	)
 	return parser
 
 
