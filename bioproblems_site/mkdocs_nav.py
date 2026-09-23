@@ -15,7 +15,7 @@ Guardrails:
 import yaml
 
 # local repo modules
-import bioproblems_site.atomic_write as atomic_write
+import bioproblems_site.file_write as file_write
 import bioproblems_site.metadata as metadata_module
 import bioproblems_site.scanner as scanner_module
 
@@ -174,7 +174,7 @@ def write_nav_block(
 		yaml.safe_load(updated)
 	except yaml.YAMLError as error:
 		raise NavMarkerError(f"generated nav block broke mkdocs.yml YAML: {error}")
-	atomic_write.atomic_write_text(mkdocs_path, updated)
+	file_write.write_text(mkdocs_path, updated)
 	return new_block
 
 

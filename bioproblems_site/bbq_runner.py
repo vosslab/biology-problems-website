@@ -1,12 +1,10 @@
 """Execution and timing behavior for configured BBQ tasks."""
 
 import argparse
-import json
 import os
 import shlex
 import shutil
 import subprocess
-import tempfile
 import time
 
 from bioproblems_site.bbq_config import (
@@ -14,7 +12,6 @@ from bioproblems_site.bbq_config import (
 	get_missing_script_message,
 )
 from bioproblems_site.bbq_outputs import (
-	OutputRollback,
 	cleanup_dry_run_output,
 	count_output_lines_path,
 	log_error,
@@ -31,9 +28,6 @@ COLOR_GREEN = "\033[92m"
 COLOR_YELLOW = "\033[93m"
 COLOR_CYAN = "\033[96m"
 COLOR_RED = "\033[91m"
-TASK_TIMING_LOG_ENV = "BBQ_TASK_TIMING_LOG"
-
-
 def color(text: str, code: str) -> str:
 	return f"{code}{text}{COLOR_RESET}"
 
@@ -60,26 +54,6 @@ def get_slowest_task_timings(timing_records: list[dict], limit: int = 10) -> lis
 
 
 #============================================
-def write_task_timing(
-	tasks_csv: str,
-	label: str,
-	elapsed_seconds: float,
-	ok: bool,
-) -> None:
-	"""Append a completed task timing when a parent batch run requests it."""
-	timing_log_path = os.environ.get(TASK_TIMING_LOG_ENV, "")
-	if not timing_log_path:
-		return
-	timing_record = {
-		"task_file": os.path.basename(tasks_csv),
-		"label": label,
-		"elapsed_seconds": elapsed_seconds,
-		"status": "DONE" if ok else "FAILED",
-	}
-	with open(timing_log_path, "a") as timing_handle:
-		timing_handle.write(json.dumps(timing_record) + "\n")
-
-
 #============================================
 def print_slowest_task_timings(timing_records: list[dict]) -> None:
 	"""Print up to ten slowest tasks from one CSV run."""
@@ -257,56 +231,37 @@ def run_pgml_generation(task: dict, log_path: str, pythonpath_value: str = "") -
 	output_path = os.path.join(pgml_output_dir, output_filename)
 	try:
 		os.makedirs(pgml_output_dir, exist_ok=True)
-		file_descriptor, candidate_path = tempfile.mkstemp(
-			prefix=f".{yaml_basename}.",
-			suffix=f".{str(pgml_extension).lstrip('.')}",
-			dir=pgml_output_dir,
-		)
-		os.close(file_descriptor)
-		os.remove(candidate_path)
 	except OSError as exc:
-		log_line(log_path, f"PGML ERROR: could not prepare output: {exc}")
+		log_line(log_path, f"PGML ERROR: could not create output directory: {exc}")
 		return False
-	cmd = ["python3", pgml_script, "-y", input_path, "-o", candidate_path]
+	cmd = ["python3", pgml_script, "-y", input_path, "-o", output_path]
 	log_line(log_path, f"PGML CMD  {' '.join(cmd)}")
 	env_override = None
 	if pythonpath_value:
 		env_override = os.environ.copy()
 		env_override["PYTHONPATH"] = pythonpath_value
 	try:
-		try:
-			proc = subprocess.run(
-				cmd,
-				text=True,
-				capture_output=True,
-				check=False,
-				env=env_override,
-			)
-		except OSError as exc:
-			log_line(log_path, f"PGML ERROR: launch failed: {exc}")
-			return False
-		if proc.returncode != 0:
-			log_line(log_path, f"PGML FAILED (exit {proc.returncode}): {output_filename}")
-			if proc.stderr:
-				log_line(log_path, f"PGML STDERR:\n{proc.stderr.rstrip()}")
-			return False
-		if not os.path.isfile(candidate_path) or os.path.getsize(candidate_path) == 0:
-			log_line(log_path, f"PGML ERROR: generator produced no output: {output_filename}")
-			return False
-		try:
-			os.replace(candidate_path, output_path)
-		except OSError as exc:
-			log_line(log_path, f"PGML ERROR: could not publish {output_path}: {exc}")
-			return False
-		log_line(log_path, f"PGML OK: {output_path}")
-		print(color(f"  PGML {output_filename}", COLOR_GREEN))
-		return True
-	finally:
-		if os.path.isfile(candidate_path):
-			try:
-				os.remove(candidate_path)
-			except OSError as exc:
-				log_line(log_path, f"PGML WARNING: could not remove staged output {candidate_path}: {exc}")
+		proc = subprocess.run(
+			cmd,
+			text=True,
+			capture_output=True,
+			check=False,
+			env=env_override,
+		)
+	except OSError as exc:
+		log_line(log_path, f"PGML ERROR: launch failed: {exc}")
+		return False
+	if proc.returncode != 0:
+		log_line(log_path, f"PGML FAILED (exit {proc.returncode}): {output_filename}")
+		if proc.stderr:
+			log_line(log_path, f"PGML STDERR:\n{proc.stderr.rstrip()}")
+		return False
+	if not os.path.isfile(output_path) or os.path.getsize(output_path) == 0:
+		log_line(log_path, f"PGML ERROR: generator produced no output: {output_filename}")
+		return False
+	log_line(log_path, f"PGML OK: {output_path}")
+	print(color(f"  PGML {output_filename}", COLOR_GREEN))
+	return True
 
 
 #============================================
@@ -372,40 +327,25 @@ def copy_sister_pgml(task: dict, log_path: str) -> bool:
 		log_line(log_path, f"PGML COPY ERROR: cannot create {downloads_dir}: {exc}")
 		return False
 	dest_pgml = os.path.join(downloads_dir, matched_file)
-	temporary_path = ""
 	try:
-		file_descriptor, temporary_path = tempfile.mkstemp(
-			prefix=f".{matched_file}.",
-			suffix=os.path.splitext(matched_file)[1],
-			dir=downloads_dir,
-		)
-		os.close(file_descriptor)
-		shutil.copy2(source_pgml, temporary_path)
-		if os.path.getsize(temporary_path) == 0:
+		shutil.copy2(source_pgml, dest_pgml)
+		if os.path.getsize(dest_pgml) == 0:
 			log_line(log_path, f"PGML COPY ERROR: sister file is empty: {source_pgml}")
 			return False
-		os.replace(temporary_path, dest_pgml)
 	except OSError as exc:
 		log_line(log_path, f"PGML COPY ERROR: {exc}")
 		print(color(f"  PGML COPY FAIL {matched_file}", COLOR_RED))
 		return False
-	finally:
-		if temporary_path and os.path.isfile(temporary_path):
-			try:
-				os.remove(temporary_path)
-			except OSError as exc:
-				log_line(log_path, f"PGML COPY WARNING: could not remove {temporary_path}: {exc}")
 	log_line(log_path, f"PGML COPY OK: {dest_pgml}")
 	print(color(f"  PGML COPY {matched_file}", COLOR_GREEN))
 	return True
 
 
 #============================================
-def _complete_pgml_outputs(task: dict, log_path: str, pythonpath_value: str) -> bool:
-	"""Run configured PGML generation or copying before a task is successful."""
-	if not run_pgml_generation(task, log_path, pythonpath_value):
-		return False
-	return copy_sister_pgml(task, log_path)
+def _complete_pgml_outputs(task: dict, log_path: str, pythonpath_value: str) -> None:
+	"""Attempt optional PGML generation and copying."""
+	run_pgml_generation(task, log_path, pythonpath_value)
+	copy_sister_pgml(task, log_path)
 
 
 #============================================
@@ -538,10 +478,7 @@ def _run_task_capture(
 		else:
 			log_line(log_path, "SKIP CLEANUP (PYTHONPATH not set)")
 	if move_output:
-		if not _complete_pgml_outputs(task, log_path, pythonpath_value):
-			message = "Configured WeBWorK output generation or copying failed"
-			log_error(error_log_path, label, message, cmd_list=cmd)
-			return False, proc.stdout, message, line_count
+		_complete_pgml_outputs(task, log_path, pythonpath_value)
 	return True, proc.stdout, proc.stderr, line_count
 
 
@@ -554,22 +491,15 @@ def run_task_capture(
 	pythonpath_value: str = "",
 	error_log_path: str = "",
 ) -> tuple:
-	"""Run a captured task while restoring configured output after failure."""
-	output_rollback = OutputRollback(task)
-	successful = False
-	try:
-		result = _run_task_capture(
-			task,
-			log_path,
-			move_output,
-			allow_cleanup,
-			pythonpath_value,
-			error_log_path,
-		)
-		successful = bool(result[0]) and move_output
-		return result
-	finally:
-		output_rollback.finish(successful)
+	"""Run a captured task and return its result."""
+	return _run_task_capture(
+		task,
+		log_path,
+		move_output,
+		allow_cleanup,
+		pythonpath_value,
+		error_log_path,
+	)
 
 
 #============================================
@@ -727,12 +657,8 @@ def _run_task(
 		else:
 			log_line(log_path, "SKIP CLEANUP (PYTHONPATH not set)")
 
-	if move_output and not _complete_pgml_outputs(task, log_path, pythonpath_value):
-		message = "Configured WeBWorK output generation or copying failed"
-		print(color(f"FAILED {label}: {message}", COLOR_RED))
-		log_line(log_path, f"ERROR: {message}")
-		log_error(error_log_path, label, message, cmd_list=cmd)
-		return False
+	if move_output:
+		_complete_pgml_outputs(task, log_path, pythonpath_value)
 
 	# Show line count in output
 	if line_count > 0:
@@ -754,23 +680,17 @@ def run_task(
 	pythonpath_value: str = "",
 	error_log_path: str = "",
 ) -> bool:
-	"""Run one task while restoring configured output after failure."""
-	output_rollback = OutputRollback(task)
-	successful = False
-	try:
-		successful = _run_task(
-			task,
-			log_path,
-			index,
-			total,
-			move_output,
-			allow_cleanup,
-			pythonpath_value,
-			error_log_path,
-		)
-		return successful
-	finally:
-		output_rollback.finish(successful and move_output)
+	"""Run one task and return its success status."""
+	return _run_task(
+		task,
+		log_path,
+		index,
+		total,
+		move_output,
+		allow_cleanup,
+		pythonpath_value,
+		error_log_path,
+	)
 
 
 #============================================
@@ -822,12 +742,10 @@ def run_tasks_plain(
 			f"TIME {label} -> {elapsed_seconds:.3f}s",
 		)
 		print(color(f"  TIME  {format_elapsed_time(elapsed_seconds)}", COLOR_CYAN))
-		write_task_timing(args.tasks_csv, label, elapsed_seconds, ok)
 		if not ok:
 			failures += 1
 	log_line(run_context.log_path, f"=== RUN END (failures={failures}) ===")
-	if not os.environ.get(TASK_TIMING_LOG_ENV):
-		print_slowest_task_timings(timing_records)
+	print_slowest_task_timings(timing_records)
 	if failures:
 		log_paths = list(dict.fromkeys(
 			path for path in (run_context.log_path, run_context.error_log_path) if path

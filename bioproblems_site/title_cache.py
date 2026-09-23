@@ -7,7 +7,7 @@ from pathlib import Path
 import yaml
 
 # local repo modules
-import bioproblems_site.atomic_write as atomic_write
+import bioproblems_site.file_write as file_write
 import bioproblems_site.git_paths as git_paths
 
 
@@ -46,6 +46,6 @@ def load(cache_path: str | Path) -> dict:
 
 #============================================
 def save(cache_path: str | Path, titles: dict) -> None:
-	"""Atomically publish the shared title map as readable YAML."""
+	"""Write the shared title map as readable YAML."""
 	text = yaml.safe_dump(titles, sort_keys=True, allow_unicode=False)
-	atomic_write.atomic_write_text(cache_path, text)
+	file_write.write_text(cache_path, text)

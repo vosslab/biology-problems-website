@@ -27,7 +27,7 @@ import re
 import glob
 
 # local repo modules
-import bioproblems_site.atomic_write as atomic_write
+import bioproblems_site.file_write as file_write
 import bioproblems_site.git_paths as git_paths
 import bioproblems_site.topic_page as topic_page
 import bioproblems_site.title_cache as title_cache
@@ -369,7 +369,7 @@ def strip_orphan_includes(index_md_path: str, live_cores: set, dry_run: bool) ->
 		kept_lines.append(line)
 	# Only rewrite the file outside of dry-run when something changed
 	if not dry_run and removed_count > 0:
-		atomic_write.atomic_write_text(index_md_path, "".join(kept_lines))
+		file_write.write_text(index_md_path, "".join(kept_lines))
 	return removed_count
 
 
