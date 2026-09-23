@@ -5,7 +5,7 @@
 ## DBsubject('Biochemistry')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-08-19')
+## Date('2026-09-23')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -34,8 +34,8 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'description',
     'choices' => [
       '<span style="color: #d40000; font-weight:700;">Hydroxl</span>',
-      '<span style="color: #a719db; font-weight:700;">Carboxyl</span>',
-      '<span style="color: #935d00; font-weight:700;">Phosphate</span>',
+      '<span style="color: #00775f; font-weight:700;">Carbonyl</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Sulfhydryl</span>',
       '<span style="color: #cc0066; font-weight:700;">Methyl</span>',
     ],
     'correct' => '<span style="color: #d40000; font-weight:700;">Hydroxl</span>',
@@ -47,8 +47,8 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       '<span style="color: #d40000; font-weight:700;">Hydroxl</span>',
       '<span style="color: #00775f; font-weight:700;">Carbonyl</span>',
+      '<span style="color: #a719db; font-weight:700;">Carboxyl</span>',
       '<span style="color: #003fff; font-weight:700;">Amino</span>',
-      '<span style="color: #935d00; font-weight:700;">Phosphate</span>',
     ],
     'correct' => '<span style="color: #d40000; font-weight:700;">Hydroxl</span>',
   },
@@ -58,9 +58,9 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'description',
     'choices' => [
       '<span style="color: #d40000; font-weight:700;">Hydroxl</span>',
+      '<span style="color: #00775f; font-weight:700;">Carbonyl</span>',
       '<span style="color: #a719db; font-weight:700;">Carboxyl</span>',
-      '<span style="color: #003fff; font-weight:700;">Amino</span>',
-      '<span style="color: #6c6c00; font-weight:700;">Sulfhydryl</span>',
+      '<span style="color: #cc0066; font-weight:700;">Methyl</span>',
     ],
     'correct' => '<span style="color: #d40000; font-weight:700;">Hydroxl</span>',
   },
@@ -70,9 +70,9 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'description',
     'choices' => [
       '<span style="color: #d40000; font-weight:700;">Hydroxl</span>',
-      '<span style="color: #a719db; font-weight:700;">Carboxyl</span>',
-      '<span style="color: #003fff; font-weight:700;">Amino</span>',
       '<span style="color: #6c6c00; font-weight:700;">Sulfhydryl</span>',
+      '<span style="color: #935d00; font-weight:700;">Phosphate</span>',
+      '<span style="color: #cc0066; font-weight:700;">Methyl</span>',
     ],
     'correct' => '<span style="color: #d40000; font-weight:700;">Hydroxl</span>',
   },
@@ -81,10 +81,10 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'seven biochemical functional groups',
     'singular_item' => 'description',
     'choices' => [
+      '<span style="color: #d40000; font-weight:700;">Hydroxl</span>',
       '<span style="color: #00775f; font-weight:700;">Carbonyl</span>',
-      '<span style="color: #6c6c00; font-weight:700;">Sulfhydryl</span>',
+      '<span style="color: #003fff; font-weight:700;">Amino</span>',
       '<span style="color: #935d00; font-weight:700;">Phosphate</span>',
-      '<span style="color: #cc0066; font-weight:700;">Methyl</span>',
     ],
     'correct' => '<span style="color: #00775f; font-weight:700;">Carbonyl</span>',
   },
@@ -93,8 +93,8 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'seven biochemical functional groups',
     'singular_item' => 'description',
     'choices' => [
-      '<span style="color: #d40000; font-weight:700;">Hydroxl</span>',
       '<span style="color: #00775f; font-weight:700;">Carbonyl</span>',
+      '<span style="color: #003fff; font-weight:700;">Amino</span>',
       '<span style="color: #6c6c00; font-weight:700;">Sulfhydryl</span>',
       '<span style="color: #935d00; font-weight:700;">Phosphate</span>',
     ],
@@ -105,9 +105,9 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'seven biochemical functional groups',
     'singular_item' => 'description',
     'choices' => [
-      '<span style="color: #d40000; font-weight:700;">Hydroxl</span>',
       '<span style="color: #00775f; font-weight:700;">Carbonyl</span>',
-      '<span style="color: #6c6c00; font-weight:700;">Sulfhydryl</span>',
+      '<span style="color: #a719db; font-weight:700;">Carboxyl</span>',
+      '<span style="color: #935d00; font-weight:700;">Phosphate</span>',
       '<span style="color: #cc0066; font-weight:700;">Methyl</span>',
     ],
     'correct' => '<span style="color: #00775f; font-weight:700;">Carbonyl</span>',
@@ -117,10 +117,10 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'seven biochemical functional groups',
     'singular_item' => 'description',
     'choices' => [
-      '<span style="color: #d40000; font-weight:700;">Hydroxl</span>',
       '<span style="color: #00775f; font-weight:700;">Carbonyl</span>',
       '<span style="color: #a719db; font-weight:700;">Carboxyl</span>',
       '<span style="color: #003fff; font-weight:700;">Amino</span>',
+      '<span style="color: #935d00; font-weight:700;">Phosphate</span>',
     ],
     'correct' => '<span style="color: #a719db; font-weight:700;">Carboxyl</span>',
   },
@@ -131,7 +131,7 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       '<span style="color: #d40000; font-weight:700;">Hydroxl</span>',
       '<span style="color: #a719db; font-weight:700;">Carboxyl</span>',
-      '<span style="color: #6c6c00; font-weight:700;">Sulfhydryl</span>',
+      '<span style="color: #935d00; font-weight:700;">Phosphate</span>',
       '<span style="color: #cc0066; font-weight:700;">Methyl</span>',
     ],
     'correct' => '<span style="color: #a719db; font-weight:700;">Carboxyl</span>',
@@ -141,10 +141,10 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'seven biochemical functional groups',
     'singular_item' => 'description',
     'choices' => [
-      '<span style="color: #d40000; font-weight:700;">Hydroxl</span>',
+      '<span style="color: #00775f; font-weight:700;">Carbonyl</span>',
       '<span style="color: #a719db; font-weight:700;">Carboxyl</span>',
       '<span style="color: #003fff; font-weight:700;">Amino</span>',
-      '<span style="color: #cc0066; font-weight:700;">Methyl</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Sulfhydryl</span>',
     ],
     'correct' => '<span style="color: #a719db; font-weight:700;">Carboxyl</span>',
   },
@@ -153,27 +153,15 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'seven biochemical functional groups',
     'singular_item' => 'description',
     'choices' => [
-      '<span style="color: #d40000; font-weight:700;">Hydroxl</span>',
+      '<span style="color: #00775f; font-weight:700;">Carbonyl</span>',
       '<span style="color: #a719db; font-weight:700;">Carboxyl</span>',
       '<span style="color: #003fff; font-weight:700;">Amino</span>',
-      '<span style="color: #935d00; font-weight:700;">Phosphate</span>',
-    ],
-    'correct' => '<span style="color: #a719db; font-weight:700;">Carboxyl</span>',
-  },
-  {
-    'item_name' => '<strong>Located at the C-terminus of polypeptide chains</strong>',
-    'plural_choice' => 'seven biochemical functional groups',
-    'singular_item' => 'description',
-    'choices' => [
-      '<span style="color: #a719db; font-weight:700;">Carboxyl</span>',
-      '<span style="color: #003fff; font-weight:700;">Amino</span>',
-      '<span style="color: #935d00; font-weight:700;">Phosphate</span>',
       '<span style="color: #cc0066; font-weight:700;">Methyl</span>',
     ],
     'correct' => '<span style="color: #a719db; font-weight:700;">Carboxyl</span>',
   },
   {
-    'item_name' => '<strong>Responsible for the "acid" part of the term amino acid</strong>',
+    'item_name' => '<strong>Located at the C-terminus of polypeptide chains</strong>',
     'plural_choice' => 'seven biochemical functional groups',
     'singular_item' => 'description',
     'choices' => [
@@ -185,13 +173,25 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #a719db; font-weight:700;">Carboxyl</span>',
   },
   {
-    'item_name' => '<strong>Compound name: Amine</strong>',
+    'item_name' => '<strong>Responsible for the "acid" part of the term amino acid</strong>',
     'plural_choice' => 'seven biochemical functional groups',
     'singular_item' => 'description',
     'choices' => [
       '<span style="color: #d40000; font-weight:700;">Hydroxl</span>',
+      '<span style="color: #a719db; font-weight:700;">Carboxyl</span>',
+      '<span style="color: #003fff; font-weight:700;">Amino</span>',
+      '<span style="color: #cc0066; font-weight:700;">Methyl</span>',
+    ],
+    'correct' => '<span style="color: #a719db; font-weight:700;">Carboxyl</span>',
+  },
+  {
+    'item_name' => '<strong>Compound name: Amine</strong>',
+    'plural_choice' => 'seven biochemical functional groups',
+    'singular_item' => 'description',
+    'choices' => [
       '<span style="color: #00775f; font-weight:700;">Carbonyl</span>',
       '<span style="color: #003fff; font-weight:700;">Amino</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Sulfhydryl</span>',
       '<span style="color: #935d00; font-weight:700;">Phosphate</span>',
     ],
     'correct' => '<span style="color: #003fff; font-weight:700;">Amino</span>',
@@ -201,10 +201,10 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'seven biochemical functional groups',
     'singular_item' => 'description',
     'choices' => [
-      '<span style="color: #d40000; font-weight:700;">Hydroxl</span>',
+      '<span style="color: #00775f; font-weight:700;">Carbonyl</span>',
       '<span style="color: #a719db; font-weight:700;">Carboxyl</span>',
       '<span style="color: #003fff; font-weight:700;">Amino</span>',
-      '<span style="color: #cc0066; font-weight:700;">Methyl</span>',
+      '<span style="color: #935d00; font-weight:700;">Phosphate</span>',
     ],
     'correct' => '<span style="color: #003fff; font-weight:700;">Amino</span>',
   },
@@ -213,9 +213,9 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'seven biochemical functional groups',
     'singular_item' => 'description',
     'choices' => [
-      '<span style="color: #d40000; font-weight:700;">Hydroxl</span>',
+      '<span style="color: #00775f; font-weight:700;">Carbonyl</span>',
+      '<span style="color: #a719db; font-weight:700;">Carboxyl</span>',
       '<span style="color: #003fff; font-weight:700;">Amino</span>',
-      '<span style="color: #935d00; font-weight:700;">Phosphate</span>',
       '<span style="color: #cc0066; font-weight:700;">Methyl</span>',
     ],
     'correct' => '<span style="color: #003fff; font-weight:700;">Amino</span>',
@@ -225,10 +225,10 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'seven biochemical functional groups',
     'singular_item' => 'description',
     'choices' => [
+      '<span style="color: #d40000; font-weight:700;">Hydroxl</span>',
       '<span style="color: #00775f; font-weight:700;">Carbonyl</span>',
       '<span style="color: #003fff; font-weight:700;">Amino</span>',
-      '<span style="color: #935d00; font-weight:700;">Phosphate</span>',
-      '<span style="color: #cc0066; font-weight:700;">Methyl</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Sulfhydryl</span>',
     ],
     'correct' => '<span style="color: #003fff; font-weight:700;">Amino</span>',
   },
@@ -238,9 +238,9 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'description',
     'choices' => [
       '<span style="color: #00775f; font-weight:700;">Carbonyl</span>',
+      '<span style="color: #a719db; font-weight:700;">Carboxyl</span>',
       '<span style="color: #003fff; font-weight:700;">Amino</span>',
       '<span style="color: #935d00; font-weight:700;">Phosphate</span>',
-      '<span style="color: #cc0066; font-weight:700;">Methyl</span>',
     ],
     'correct' => '<span style="color: #003fff; font-weight:700;">Amino</span>',
   },
@@ -249,7 +249,7 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'seven biochemical functional groups',
     'singular_item' => 'description',
     'choices' => [
-      '<span style="color: #00775f; font-weight:700;">Carbonyl</span>',
+      '<span style="color: #d40000; font-weight:700;">Hydroxl</span>',
       '<span style="color: #003fff; font-weight:700;">Amino</span>',
       '<span style="color: #6c6c00; font-weight:700;">Sulfhydryl</span>',
       '<span style="color: #cc0066; font-weight:700;">Methyl</span>',
@@ -262,7 +262,7 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'description',
     'choices' => [
       '<span style="color: #d40000; font-weight:700;">Hydroxl</span>',
-      '<span style="color: #00775f; font-weight:700;">Carbonyl</span>',
+      '<span style="color: #a719db; font-weight:700;">Carboxyl</span>',
       '<span style="color: #6c6c00; font-weight:700;">Sulfhydryl</span>',
       '<span style="color: #cc0066; font-weight:700;">Methyl</span>',
     ],
@@ -273,10 +273,10 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'seven biochemical functional groups',
     'singular_item' => 'description',
     'choices' => [
-      '<span style="color: #d40000; font-weight:700;">Hydroxl</span>',
+      '<span style="color: #a719db; font-weight:700;">Carboxyl</span>',
       '<span style="color: #003fff; font-weight:700;">Amino</span>',
       '<span style="color: #6c6c00; font-weight:700;">Sulfhydryl</span>',
-      '<span style="color: #935d00; font-weight:700;">Phosphate</span>',
+      '<span style="color: #cc0066; font-weight:700;">Methyl</span>',
     ],
     'correct' => '<span style="color: #6c6c00; font-weight:700;">Sulfhydryl</span>',
   },
@@ -285,10 +285,10 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'seven biochemical functional groups',
     'singular_item' => 'description',
     'choices' => [
-      '<span style="color: #00775f; font-weight:700;">Carbonyl</span>',
       '<span style="color: #a719db; font-weight:700;">Carboxyl</span>',
-      '<span style="color: #003fff; font-weight:700;">Amino</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Sulfhydryl</span>',
       '<span style="color: #935d00; font-weight:700;">Phosphate</span>',
+      '<span style="color: #cc0066; font-weight:700;">Methyl</span>',
     ],
     'correct' => '<span style="color: #935d00; font-weight:700;">Phosphate</span>',
   },
@@ -297,10 +297,10 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'seven biochemical functional groups',
     'singular_item' => 'description',
     'choices' => [
-      '<span style="color: #d40000; font-weight:700;">Hydroxl</span>',
-      '<span style="color: #00775f; font-weight:700;">Carbonyl</span>',
       '<span style="color: #003fff; font-weight:700;">Amino</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Sulfhydryl</span>',
       '<span style="color: #935d00; font-weight:700;">Phosphate</span>',
+      '<span style="color: #cc0066; font-weight:700;">Methyl</span>',
     ],
     'correct' => '<span style="color: #935d00; font-weight:700;">Phosphate</span>',
   },
@@ -309,8 +309,8 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'seven biochemical functional groups',
     'singular_item' => 'description',
     'choices' => [
-      '<span style="color: #00775f; font-weight:700;">Carbonyl</span>',
       '<span style="color: #a719db; font-weight:700;">Carboxyl</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Sulfhydryl</span>',
       '<span style="color: #935d00; font-weight:700;">Phosphate</span>',
       '<span style="color: #cc0066; font-weight:700;">Methyl</span>',
     ],
@@ -322,7 +322,7 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'description',
     'choices' => [
       '<span style="color: #d40000; font-weight:700;">Hydroxl</span>',
-      '<span style="color: #00775f; font-weight:700;">Carbonyl</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Sulfhydryl</span>',
       '<span style="color: #935d00; font-weight:700;">Phosphate</span>',
       '<span style="color: #cc0066; font-weight:700;">Methyl</span>',
     ],
@@ -333,10 +333,10 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'seven biochemical functional groups',
     'singular_item' => 'description',
     'choices' => [
-      '<span style="color: #d40000; font-weight:700;">Hydroxl</span>',
-      '<span style="color: #a719db; font-weight:700;">Carboxyl</span>',
-      '<span style="color: #003fff; font-weight:700;">Amino</span>',
+      '<span style="color: #00775f; font-weight:700;">Carbonyl</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Sulfhydryl</span>',
       '<span style="color: #935d00; font-weight:700;">Phosphate</span>',
+      '<span style="color: #cc0066; font-weight:700;">Methyl</span>',
     ],
     'correct' => '<span style="color: #935d00; font-weight:700;">Phosphate</span>',
   },
@@ -345,8 +345,8 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'seven biochemical functional groups',
     'singular_item' => 'description',
     'choices' => [
-      '<span style="color: #00775f; font-weight:700;">Carbonyl</span>',
-      '<span style="color: #a719db; font-weight:700;">Carboxyl</span>',
+      '<span style="color: #d40000; font-weight:700;">Hydroxl</span>',
+      '<span style="color: #6c6c00; font-weight:700;">Sulfhydryl</span>',
       '<span style="color: #935d00; font-weight:700;">Phosphate</span>',
       '<span style="color: #cc0066; font-weight:700;">Methyl</span>',
     ],
@@ -357,7 +357,7 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'seven biochemical functional groups',
     'singular_item' => 'description',
     'choices' => [
-      '<span style="color: #00775f; font-weight:700;">Carbonyl</span>',
+      '<span style="color: #a719db; font-weight:700;">Carboxyl</span>',
       '<span style="color: #003fff; font-weight:700;">Amino</span>',
       '<span style="color: #6c6c00; font-weight:700;">Sulfhydryl</span>',
       '<span style="color: #935d00; font-weight:700;">Phosphate</span>',
@@ -369,9 +369,9 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'seven biochemical functional groups',
     'singular_item' => 'description',
     'choices' => [
-      '<span style="color: #00775f; font-weight:700;">Carbonyl</span>',
+      '<span style="color: #d40000; font-weight:700;">Hydroxl</span>',
       '<span style="color: #a719db; font-weight:700;">Carboxyl</span>',
-      '<span style="color: #6c6c00; font-weight:700;">Sulfhydryl</span>',
+      '<span style="color: #935d00; font-weight:700;">Phosphate</span>',
       '<span style="color: #cc0066; font-weight:700;">Methyl</span>',
     ],
     'correct' => '<span style="color: #cc0066; font-weight:700;">Methyl</span>',
@@ -383,7 +383,7 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       '<span style="color: #d40000; font-weight:700;">Hydroxl</span>',
       '<span style="color: #a719db; font-weight:700;">Carboxyl</span>',
-      '<span style="color: #6c6c00; font-weight:700;">Sulfhydryl</span>',
+      '<span style="color: #935d00; font-weight:700;">Phosphate</span>',
       '<span style="color: #cc0066; font-weight:700;">Methyl</span>',
     ],
     'correct' => '<span style="color: #cc0066; font-weight:700;">Methyl</span>',
@@ -395,7 +395,7 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       '<span style="color: #a719db; font-weight:700;">Carboxyl</span>',
       '<span style="color: #003fff; font-weight:700;">Amino</span>',
-      '<span style="color: #6c6c00; font-weight:700;">Sulfhydryl</span>',
+      '<span style="color: #935d00; font-weight:700;">Phosphate</span>',
       '<span style="color: #cc0066; font-weight:700;">Methyl</span>',
     ],
     'correct' => '<span style="color: #cc0066; font-weight:700;">Methyl</span>',
@@ -405,9 +405,9 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'seven biochemical functional groups',
     'singular_item' => 'description',
     'choices' => [
-      '<span style="color: #00775f; font-weight:700;">Carbonyl</span>',
       '<span style="color: #a719db; font-weight:700;">Carboxyl</span>',
       '<span style="color: #003fff; font-weight:700;">Amino</span>',
+      '<span style="color: #935d00; font-weight:700;">Phosphate</span>',
       '<span style="color: #cc0066; font-weight:700;">Methyl</span>',
     ],
     'correct' => '<span style="color: #cc0066; font-weight:700;">Methyl</span>',

@@ -5,7 +5,7 @@
 ## DBsubject('Biostatistics')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-08-19')
+## Date('2026-09-23')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -28,7 +28,7 @@ our @ALPHABET = ('A' .. 'Z');
 %match_data = (
   'critical value' => [
     'found in a table for given degrees of freedom and <span style="color: #a719db; font-weight:700;">level of significance, &alpha;</span>',
-    'the boundary for how extreme a <span style="color: #00775f; font-weight:700;">test statistic</span> must be to <span style="color: #d40000; font-weight:700;">reject</span>the <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+    'the boundary for how extreme a <span style="color: #00775f; font-weight:700;">test statistic</span> must be to <span style="color: #d40000; font-weight:700;">reject</span> the <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
     'the cutoff used to compare against the observed <span style="color: #00775f; font-weight:700;">test statistic</span>',
   ],
   'test statistic' => [
@@ -38,9 +38,9 @@ our @ALPHABET = ('A' .. 'Z');
     'the more extreme this value is under the <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>, the smaller the <span style="color: #c80085; font-weight:700;">p-value</span>',
   ],
   'level of significance, &alpha;' => [
-    'the probability cutoff used to decide whether to <span style="color: #d40000; font-weight:700;">reject</span>the <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
-    'the probability cutoff that limits how often we mistakenly <span style="color: #d40000; font-weight:700;">reject</span>a <span style="color: #127663; font-weight:700;">TRUE</span><span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span> (later called a Type I error).',
-    'the cutoff for how small a <span style="color: #c80085; font-weight:700;">p-value</span> must be to <span style="color: #d40000; font-weight:700;">reject</span>the <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+    'the probability cutoff used to decide whether to <span style="color: #d40000; font-weight:700;">reject</span> the <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+    'the probability cutoff that limits how often we mistakenly <span style="color: #d40000; font-weight:700;">reject</span> a <span style="color: #127663; font-weight:700;">TRUE</span> <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span> (later called a Type I error).',
+    'the cutoff for how small a <span style="color: #c80085; font-weight:700;">p-value</span> must be to <span style="color: #d40000; font-weight:700;">reject</span> the <span style="color: #007576; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
     'standard cutoff probability used to determine statistical significance',
     'biologists often use a probability of 0.05 (5%) for this value',
   ],
@@ -52,15 +52,15 @@ our @ALPHABET = ('A' .. 'Z');
   ],
   'null hypothesis, H<sub>0</sub>' => [
     'the hypothesis we attempt to find evidence against in a stattest',
-    'the hypothesis we want to <span style="color: #d40000; font-weight:700;">reject</span>in a stattest',
+    'the hypothesis we want to <span style="color: #d40000; font-weight:700;">reject</span> in a stattest',
     'this hypothesis defines the distribution used for comparison in the test',
     'defines the distribution used for comparison in the test',
     'defines the reference distribution used for comparison',
   ],
   'alternative hypothesis, H<sub>a</sub>' => [
     'the hypothesis we aim to support indirectly by rejecting another hypothesis',
-    'this hypothesis can sometimes be <span style="color: #127663; font-weight:700;">TRUE</span>even when the test fails to detect it (later called a Type II error)',
-    'can be <span style="color: #127663; font-weight:700;">TRUE</span>even if the test fails to detect it (later called a Type II error)',
+    'this hypothesis can sometimes be <span style="color: #127663; font-weight:700;">TRUE</span> even when the test fails to detect it (later called a Type II error)',
+    'can be <span style="color: #127663; font-weight:700;">TRUE</span> even if the test fails to detect it (later called a Type II error)',
     'this hypothesis represents the possibility that the observed effect is real and NOT random',
     'this hypothesis represents the possibility that the observed effect is NOT due to random chance',
     'represents the possibility that an observed effect or relationship is real and NOT random',
