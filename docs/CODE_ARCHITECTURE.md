@@ -10,23 +10,24 @@ CLI exposes one dependency-aware content build workflow.
 
 - [build_site.py](../build_site.py): short public argument parser and build entrypoint.
 - [bioproblems_site/build_coordinator.py](../bioproblems_site/build_coordinator.py):
-  ordered BBQ, self-test, download, topic-page, and index/navigation orchestration.
+  ordered BBQ, self-test, download, topic-page, and index/navigation orchestration
+  with stage timing summaries.
 - [bioproblems_site/build_stages.py](../bioproblems_site/build_stages.py): local
   stale checks and output-owned stage entrypoints.
-- [bioproblems_site/atomic_write.py](../bioproblems_site/atomic_write.py): atomic
-  publication for generated text files and configuration updates.
+- [bioproblems_site/file_write.py](../bioproblems_site/file_write.py): shared
+  direct text-file writing for generated site files.
 - [bioproblems_site/topic_metadata.py](../bioproblems_site/topic_metadata.py):
   cached topic title, description, and LibreTexts metadata lookup.
 - [bioproblems_site/topic_page.py](../bioproblems_site/topic_page.py): topic
   page rendering and generated-download helpers.
 - [bioproblems_site/title_cache.py](../bioproblems_site/title_cache.py): shared
-  title-cache path, YAML parsing, and atomic publication.
+  title-cache path, YAML parsing, and writing.
 - [bioproblems_site/question_index.py](../bioproblems_site/question_index.py):
   generated human-readable problem-set title index.
 - [bioproblems_site/llm_helpers.py](../bioproblems_site/llm_helpers.py):
   title-generation backend seam for Ollama, Codex CLI, and Claude Code CLI.
 - [bioproblems_site/bbq_workflow.py](../bioproblems_site/bbq_workflow.py): task
-  selection, local BBQ stale checks, and structured change reporting.
+  selection, local BBQ stale checks, per-task timing, and structured change reporting.
 - [bioproblems_site/bbq_config.py](../bioproblems_site/bbq_config.py): settings,
   aliases, environment paths, and CSV task shaping.
 - [bioproblems_site/bbq_outputs.py](../bioproblems_site/bbq_outputs.py): output

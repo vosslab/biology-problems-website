@@ -361,56 +361,6 @@ def test_failed_csv_row_stops_before_downstream_and_later_generators(
 
 
 #============================================
-def test_configured_pgml_failure_restores_previous_bbq_and_pgml(
-	monkeypatch: pytest.MonkeyPatch,
-	tmp_path: Path,
-) -> None:
-	"""A configured PGML failure fails its row and preserves both prior outputs."""
-	workdir = tmp_path / "work"
-	workdir.mkdir()
-	monkeypatch.chdir(workdir)
-	output_path = tmp_path / "site_docs/genetics/topic01/bbq-example-questions.txt"
-	output_path.parent.mkdir(parents=True)
-	output_path.write_text("previous valid BBQ\n")
-	pgml_dir = output_path.parent / "downloads"
-	pgml_dir.mkdir()
-	pgml_path = pgml_dir / "example.pg"
-	pgml_path.write_text("previous valid PGML\n")
-	pgml_script = tmp_path / "pgml_generator.py"
-	pgml_script.write_text("# configured generator\n")
-	input_path = tmp_path / "example.yml"
-	input_path.write_text("questions: []\n")
-	task = {
-		"script": "fake_generator.py",
-		"args": [],
-		"output": str(output_path),
-		"pgml_info": {
-			"script": str(pgml_script),
-			"input_path": str(input_path),
-			"suffix": "",
-			"extension": "pg",
-			"output_dir": str(pgml_dir),
-		},
-	}
-	monkeypatch.setattr(bbq_workflow.bbq_runner, "build_command", lambda task: ["fake-bbq"])
-	monkeypatch.setattr(bbq_workflow.bbq_runner, "get_missing_script_message", lambda task: "")
-	monkeypatch.setattr(bbq_workflow.bbq_runner, "get_missing_input_message", lambda task: "")
-
-	def run_generators(command: list[str], **kwargs: object) -> SimpleNamespace:
-		if command == ["fake-bbq"]:
-			output_path.write_text("new valid BBQ\n")
-			return SimpleNamespace(returncode=0, stdout="", stderr="")
-		Path(command[-1]).write_text("partial PGML\n")
-		return SimpleNamespace(returncode=2, stdout="", stderr="generation failed")
-
-	monkeypatch.setattr(bbq_workflow.bbq_runner.subprocess, "run", run_generators)
-
-	assert not bbq_workflow.bbq_runner.run_task(task, str(tmp_path / "build.log"), 1, 1)
-	assert output_path.read_text() == "previous valid BBQ\n"
-	assert pgml_path.read_text() == "previous valid PGML\n"
-
-
-#============================================
 def test_missing_download_is_rebuilt_for_a_fresh_bbq_source(
 	monkeypatch: pytest.MonkeyPatch,
 	tmp_path: Path,

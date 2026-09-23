@@ -4,6 +4,7 @@ import dataclasses
 import os
 from pathlib import Path
 import random
+import time
 from collections.abc import Iterator
 
 import bioproblems_site.bbq_config as bbq_config
@@ -338,6 +339,7 @@ def iter_task_results(scope: BuildScope) -> Iterator[TaskBuildResult]:
 	):
 		runner_scope = dataclasses.replace(scope, max_questions=199)
 	pending_index = 0
+	task_elapsed_total = 0.0
 	for task_row in task_rows:
 		topic_ref = _task_ref(task_row[0])
 		row_needs_run = any(id(task) in pending_task_ids for task in task_row)
@@ -348,6 +350,7 @@ def iter_task_results(scope: BuildScope) -> Iterator[TaskBuildResult]:
 			pending_index += 1
 			_prepare_task(task, runner_scope)
 			before_outputs = expected_output_paths(task)
+			task_start = time.perf_counter()
 			ok = bbq_runner.run_task(
 				task,
 				log_path,
@@ -355,6 +358,20 @@ def iter_task_results(scope: BuildScope) -> Iterator[TaskBuildResult]:
 				total,
 				pythonpath_value=context.pythonpath_value,
 				error_log_path=context.error_log_path,
+			)
+			elapsed_seconds = time.perf_counter() - task_start
+			task_elapsed_total += elapsed_seconds
+			average_task_seconds = task_elapsed_total / pending_index
+			eta_seconds = average_task_seconds * (total - pending_index)
+			print(
+				f"  task time: {bbq_runner.format_elapsed_time(elapsed_seconds)}; "
+				f"elapsed: {bbq_runner.format_elapsed_time(task_elapsed_total)}; "
+				f"ETA: {bbq_runner.format_elapsed_time(eta_seconds)}"
+			)
+			bbq_outputs.log_line(
+				log_path,
+				f"TIME [{pending_index}/{total}] {topic_ref.subject}/{topic_ref.topic} "
+				f"-> {elapsed_seconds:.3f}s",
 			)
 			if not ok:
 				raise RuntimeError(f"BBQ task failed for {topic_ref.subject}/{topic_ref.topic}")
