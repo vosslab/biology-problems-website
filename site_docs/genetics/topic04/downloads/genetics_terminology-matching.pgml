@@ -5,7 +5,7 @@
 ## DBsubject('Genetics')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-09-19')
+## Date('2026-09-22')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -60,11 +60,11 @@ our @ALPHABET = ('A' .. 'Z');
     'complete set of DNA in a cell or organism',
   ],
   'locus' => [
-    'location of a <span style="color: #b74300; font-weight:700;">gene</span>on a chromosome',
-    'where on a chromosome a specific <span style="color: #b74300; font-weight:700;">gene</span>is located',
+    'location of a <span style="color: #b74300; font-weight:700;">gene</span> on a chromosome',
+    'where on a chromosome a specific <span style="color: #b74300; font-weight:700;">gene</span> is located',
     'a specific, fixed position on a chromosome of a particular gene',
-    'a spot or "address" on a chromosome at which a <span style="color: #b74300; font-weight:700;">gene</span>for a particular trait is located',
-    'the physical position of a <span style="color: #b74300; font-weight:700;">gene</span>within a chromosome',
+    'a spot or "address" on a chromosome at which a <span style="color: #b74300; font-weight:700;">gene</span> for a particular trait is located',
+    'the physical position of a <span style="color: #b74300; font-weight:700;">gene</span> within a chromosome',
   ],
   'single nucleotide polymorphism (SNP)' => [
     'variation resulting from a single base pair change',
@@ -77,7 +77,7 @@ our @ALPHABET = ('A' .. 'Z');
     'one chromosome from the mother and one chromosome from the father',
     'two chromosomes which carry the same genes, one from each parental source',
     'chromosomes which contain the same genes in the same order along their chromosomal arms',
-    'chromosomes of similar length, <span style="color: #b74300; font-weight:700;">gene</span>position, and centromere location',
+    'chromosomes of similar length, <span style="color: #b74300; font-weight:700;">gene</span> position, and centromere location',
     'two chromosomes containing identical genetic loci although possibly different allelic forms',
   ],
 );
@@ -134,11 +134,11 @@ push(@answers, (map { $_->[1] } @q_and_a));
 %answer_html = (
   'haploid' => '<span style="color: #d40000; font-weight:700;">haploid</span>',
   'diploid' => '<span style="color: #007576; font-weight:700;">diploid</span>',
-  'gene ' => '<span style="color: #b74300; font-weight:700;">gene</span>',
+  'gene ' => '<span style="color: #b74300; font-weight:700;">gene</span> ',
   'genetics' => '<span style="color: #007a00; font-weight:700;">genetics</span>',
   'genetic code' => '<span style="color: #003fff; font-weight:700;">genetic code</span>',
   'genomics' => '<span style="color: #c80085; font-weight:700;">genomics</span>',
-  'genome ' => '<span style="color: #6c6c00; font-weight:700;">genome</span>',
+  'genome ' => '<span style="color: #6c6c00; font-weight:700;">genome</span> ',
   'locus' => '<span style="color: #935d00; font-weight:700;">locus</span>',
   'single nucleotide polymorphism (SNP)' => '<span style="color: #3b7600; font-weight:700;">single nucleotide polymorphism (SNP)</span>',
   'homologous chromosomes' => '<span style="color: #00775f; font-weight:700;">homologous chromosomes</span>',
