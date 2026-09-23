@@ -11,8 +11,8 @@
 - [bioproblems_site/](../bioproblems_site/): reusable site and BBQ package logic.
 - [bioproblems_site/topic_metadata.py](../bioproblems_site/topic_metadata.py):
   canonical metadata lookup for topic pages.
-- [bioproblems_site/atomic_write.py](../bioproblems_site/atomic_write.py):
-  atomic publication for generated text files and configuration updates.
+- [bioproblems_site/file_write.py](../bioproblems_site/file_write.py):
+  shared direct writes for generated text files.
 - [site_docs/](../site_docs/): MkDocs content root and generated question artifacts.
 - [docs/](.): documentation and repository standards.
 - [devel/](../devel/): maintainer command surfaces and propagated repository helpers.

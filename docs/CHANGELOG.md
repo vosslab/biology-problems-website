@@ -7,27 +7,24 @@
 - Aligned build documentation with row-local task stages, repository-wide
   finalization, task topic alias rules, and configured-output failure handling.
 - Corrected stale pipeline comments and helper documentation.
-- Topic pages now preserve the last complete `index.md` if rendering fails. Topic
-  metadata lookup is split into its own module, and BBQ/converter preservation
-  coverage includes oversized candidates and nonzero converter exits.
+- Topic metadata lookup is split into its own module.
 - Subprocess launch handlers now report expected operating-system errors while
   allowing programming errors to retain their traceback.
 - Missing converter outputs are built before the topic page is published. Focused
   builds refresh manifest rows for selected topics and preserve the other current
   rows; unrestricted builds still validate every reachable self-test include.
 - Human-readable downloads skip sources with no text-renderable questions. Non-selftest
-  download errors skip their artifact and page button; selftest failures still stop the
-  build.
+  download and optional PGML errors skip the affected artifact and page button; selftest
+  failures still stop the build.
 - Normal builds omit per-topic orphan-prune summaries when a folder has no actions.
 - Topic pages now render once per affected topic after row-owned self-tests and
   downloads finish, avoiding repeated whole-topic scans. Page-render logs identify
   absent downloads as files this stage does not generate.
 - Task CSV headers and rows are validated before use. If repository-wide task ownership
   cannot be established, orphan cleanup is skipped while index generation continues.
-- Configured PGML generation/copy failures now fail the owning task row. PGML files are
-  staged before publication so a failed generator preserves the prior file.
-- Generated subject/question indexes, navigation, and orphan-prune edits now publish
-  text atomically, preserving the prior complete file if writing is interrupted.
+- Generated site files, self-test manifests, and optional downloads now write directly to
+  their destinations without temporary output files.
+- The unified build reports per-task elapsed time and ETA, stage totals, and total build time.
 - Each configured build now writes one fresh `bbq_generation.log` across all CSV rows;
   errors share that log, and numbered backups are removed at startup.
 - Build status and diagnostic paths are shown relative to the current working directory.

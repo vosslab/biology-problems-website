@@ -6,6 +6,7 @@ from pathlib import Path
 
 import bioproblems_site.build_contracts as build_contracts
 import bioproblems_site.build_coordinator as build_coordinator
+import bioproblems_site.bbq_runner as bbq_runner
 import bioproblems_site.git_paths as git_paths
 import bioproblems_site.llm_helpers as llm_helpers
 import bioproblems_site.metadata as metadata
@@ -177,8 +178,12 @@ def main(arguments: list[str] | None = None) -> int:
 	except (FileNotFoundError, ValueError) as error:
 		build_parser().error(str(error))
 	report = build_coordinator.build_site(scope)
-	for stage_name, stage_files in report.stage_files.items():
-		print(f"{stage_name}: {len(stage_files)} file(s)")
+	for stage_name, stage_seconds in report.stage_seconds.items():
+		stage_files = report.stage_files.get(stage_name, set())
+		stage_duration = bbq_runner.format_elapsed_time(stage_seconds)
+		print(f"{stage_name}: {len(stage_files)} file(s) in {stage_duration}")
+	total_duration = bbq_runner.format_elapsed_time(report.elapsed_seconds)
+	print(f"total: {total_duration}")
 	return 0
 
 
