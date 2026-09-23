@@ -15,6 +15,9 @@
 - Missing converter outputs are built before the topic page is published. Focused
   builds refresh manifest rows for selected topics and preserve the other current
   rows; unrestricted builds still validate every reachable self-test include.
+- Human-readable downloads skip sources with no text-renderable questions, removing
+  any prior artifact and its page button. Other conversion failures still stop the
+  owning task row.
 - Normal builds omit per-topic orphan-prune summaries when a folder has no actions.
 - Topic pages now render once per affected topic after row-owned self-tests and
   downloads finish, avoiding repeated whole-topic scans. Page-render logs identify

@@ -19,6 +19,7 @@ import stat
 
 # PIP3 modules
 import yaml
+from qti_package_maker import package_interface
 
 # local repo modules
 import bioproblems_site.formats as formats_module
@@ -149,7 +150,48 @@ def _atomic_text_writer(output_path: str):
 
 
 #==============
-def create_downloadable_format(bbq_file: str, prefix: str, extension: str) -> str:
+def _create_human_readable_download(
+		bbq_file: str,
+		output_path: str,
+		temporary_output_path: str,
+) -> str | None:
+	qti_packer = package_interface.QTIPackageInterface(
+		package_name=extract_core_name(bbq_file),
+		verbose=False,
+	)
+	qti_packer.read_package(bbq_file, "bbq_text")
+	saved_path = qti_packer.save_package(
+		"human_readable", outfile=temporary_output_path)
+	if saved_path is None:
+		if len(qti_packer.item_bank) == 0:
+			raise RuntimeError(
+				f"human_readable could not read any questions from "
+				f"{git_paths.display_path(bbq_file)}"
+			)
+		if os.path.lexists(output_path):
+			if not os.path.isfile(output_path):
+				raise RuntimeError(
+					f"cannot remove non-file human_readable output at "
+					f"{git_paths.display_path(output_path)}"
+				)
+			os.remove(output_path)
+		print(color_text(
+			f"  SKIP Human-Readable: no supported text questions in "
+			f"{git_paths.display_path(bbq_file)}",
+			COLOR_YELLOW,
+		))
+		return None
+	if not os.path.isfile(saved_path) or os.path.getsize(saved_path) == 0:
+		raise RuntimeError(
+			f"human_readable engine reported output but wrote no file for "
+			f"{git_paths.display_path(bbq_file)}"
+		)
+	os.replace(saved_path, output_path)
+	remove_case_mismatched_files(output_path)
+	return output_path
+
+#==============
+def create_downloadable_format(bbq_file: str, prefix: str, extension: str) -> str | None:
 	if prefix == "bbq":
 		raise ValueError
 	file_path = get_outfile_name(bbq_file, prefix, extension)
@@ -170,6 +212,12 @@ def create_downloadable_format(bbq_file: str, prefix: str, extension: str) -> st
 			temporary_directory,
 			os.path.basename(file_path),
 		)
+		if prefix == "human_readable":
+			return _create_human_readable_download(
+				bbq_file,
+				file_path,
+				temporary_output_path,
+			)
 		convert_cmd = [
 			"python3",
 			converter_path,
@@ -459,6 +507,9 @@ def generate_download_button_row(
 				file_type['prefix'],
 				file_type['extension'],
 			)
+			if out_file_path is None:
+				record_stat(stats, type_key, "skipped")
+				continue
 			if not os.path.isfile(out_file_path):
 				if verbose:
 					print(color_text(
@@ -489,6 +540,9 @@ def generate_download_button_row(
 				file_type['prefix'],
 				file_type['extension'],
 			)
+		if out_file_path is None:
+			record_stat(stats, type_key, "skipped")
+			continue
 		if not planned_missing_artifact and not os.path.isfile(out_file_path):
 			if verbose:
 				print(color_text(
