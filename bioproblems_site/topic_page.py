@@ -7,15 +7,12 @@ No argparse here; the public parser lives in build_site.py.
 """
 
 # Standard Library
-from contextlib import contextmanager
 import os
 import re
 import glob
 import time
 import subprocess
-import tempfile
 import dataclasses
-import stat
 
 # PIP3 modules
 import yaml
@@ -128,32 +125,10 @@ class RenderOptions:
 
 #==============
 
-@contextmanager
-def _atomic_text_writer(output_path: str):
-	"""Write a text artifact beside its destination, replacing it on success."""
-	output_directory = os.path.dirname(output_path) or "."
-	existing_mode = None
-	try:
-		existing_mode = stat.S_IMODE(os.stat(output_path).st_mode)
-	except FileNotFoundError:
-		pass
-	with tempfile.TemporaryDirectory(
-		prefix=".topic-page-",
-		dir=output_directory,
-	) as temporary_directory:
-		temporary_path = os.path.join(temporary_directory, os.path.basename(output_path))
-		with open(temporary_path, "w", encoding="utf-8") as output_file:
-			yield output_file
-		if existing_mode is not None:
-			os.chmod(temporary_path, existing_mode)
-		os.replace(temporary_path, output_path)
-
-
 #==============
 def _create_human_readable_download(
 		bbq_file: str,
 		output_path: str,
-		temporary_output_path: str,
 ) -> str | None:
 	qti_packer = package_interface.QTIPackageInterface(
 		package_name=extract_core_name(bbq_file),
@@ -161,7 +136,7 @@ def _create_human_readable_download(
 	)
 	qti_packer.read_package(bbq_file, "bbq_text")
 	saved_path = qti_packer.save_package(
-		"human_readable", outfile=temporary_output_path)
+		"human_readable", outfile=output_path)
 	if saved_path is None:
 		if len(qti_packer.item_bank) == 0:
 			raise RuntimeError(
@@ -186,7 +161,6 @@ def _create_human_readable_download(
 			f"human_readable engine reported output but wrote no file for "
 			f"{git_paths.display_path(bbq_file)}"
 		)
-	os.replace(saved_path, output_path)
 	remove_case_mismatched_files(output_path)
 	return output_path
 
@@ -203,68 +177,86 @@ def create_downloadable_format(bbq_file: str, prefix: str, extension: str) -> st
 		raise FileNotFoundError
 	output_directory = os.path.dirname(file_path) or "."
 	os.makedirs(output_directory, exist_ok=True)
-	# Stage output beside its destination so os.replace publishes it atomically.
-	with tempfile.TemporaryDirectory(
-		prefix=".bbq-convert-",
-		dir=output_directory,
-	) as temporary_directory:
-		temporary_output_path = os.path.join(
-			temporary_directory,
-			os.path.basename(file_path),
+	if prefix == "human_readable":
+		return _create_human_readable_download(bbq_file, file_path)
+	convert_cmd = [
+		"python3",
+		converter_path,
+		"--quiet",
+		f"--{prefix}",
+		"--input",
+		bbq_file,
+		"--output",
+		file_path,
+	]
+	display_cmd = list(convert_cmd)
+	display_cmd[1] = git_paths.display_path(converter_path)
+	for path_flag in ("--input", "--output"):
+		flag_index = display_cmd.index(path_flag)
+		display_cmd[flag_index + 1] = git_paths.display_path(
+			display_cmd[flag_index + 1]
 		)
-		if prefix == "human_readable":
-			return _create_human_readable_download(
-				bbq_file,
-				file_path,
-				temporary_output_path,
-			)
-		convert_cmd = [
-			"python3",
-			converter_path,
-			"--quiet",
-			f"--{prefix}",
-			"--input",
-			bbq_file,
-			"--output",
-			temporary_output_path,
-		]
-		display_cmd = list(convert_cmd)
-		display_cmd[1] = git_paths.display_path(converter_path)
-		for path_flag in ("--input", "--output"):
-			flag_index = display_cmd.index(path_flag)
-			display_cmd[flag_index + 1] = git_paths.display_path(
-				display_cmd[flag_index + 1]
-			)
-		cmd_display = " ".join(display_cmd)
-		print(color_text(cmd_display, COLOR_COMMAND))
-		completed_process = subprocess.run(convert_cmd, check=False)
-		if completed_process.returncode != 0:
-			raise RuntimeError(
-				f"{prefix} converter exited with status {completed_process.returncode} "
-				f"for {git_paths.display_path(bbq_file)}; did not replace "
-				f"{git_paths.display_path(file_path)}."
-			)
-		if (
-			not os.path.isfile(temporary_output_path)
-			or os.path.getsize(temporary_output_path) == 0
-		):
-			print("\n" + color_text(cmd_display, COLOR_COMMAND) + "\n")
-			print(color_text(
-				f"WARNING: {prefix}, {extension}, {git_paths.display_path(bbq_file)}",
-				COLOR_YELLOW,
-			))
-			raise RuntimeError(
-				f"{prefix} converter produced no output for "
-				f"{git_paths.display_path(bbq_file)}; did not replace "
-				f"{git_paths.display_path(file_path)}."
-			)
-		os.replace(temporary_output_path, file_path)
+	cmd_display = " ".join(display_cmd)
+	print(color_text(cmd_display, COLOR_COMMAND))
+	completed_process = subprocess.run(convert_cmd, check=False)
+	if completed_process.returncode != 0:
+		raise RuntimeError(
+			f"{prefix} converter exited with status {completed_process.returncode} "
+			f"for {git_paths.display_path(bbq_file)}."
+		)
+	if not os.path.isfile(file_path) or os.path.getsize(file_path) == 0:
+		print("\n" + color_text(cmd_display, COLOR_COMMAND) + "\n")
+		print(color_text(
+			f"WARNING: {prefix}, {extension}, {git_paths.display_path(bbq_file)}",
+			COLOR_YELLOW,
+		))
+		raise RuntimeError(
+			f"{prefix} converter produced no output for "
+			f"{git_paths.display_path(bbq_file)}."
+		)
 	remove_case_mismatched_files(file_path)
 	return file_path
 
 
 #==============
-BLACKBOARD_EXPORT_UNSUPPORTED_ITEM_TYPES = frozenset(("ORD", "ORDER"))
+def _create_optional_download(
+		bbq_file: str,
+		prefix: str,
+		extension: str,
+		display_name: str,
+) -> str | None:
+	"""Skip a failed optional download without stopping the task build."""
+	try:
+		return create_downloadable_format(bbq_file, prefix, extension)
+	except Exception as error:
+		output_path = get_outfile_name(bbq_file, prefix, extension)
+		if os.path.isfile(output_path):
+			os.remove(output_path)
+		print(color_text(
+			f"  SKIP {display_name}: {type(error).__name__}: {error}",
+			COLOR_YELLOW,
+		))
+		return None
+
+
+#==============
+ORDER_ITEM_TYPES = frozenset(("ORD", "ORDER"))
+FORMAT_ITEM_TYPE_BLACKLIST = {
+	"bb_export": ORDER_ITEM_TYPES,
+	"canvas_qti": ORDER_ITEM_TYPES,
+}
+
+
+def find_blacklisted_item_type(bbq_file_name: str, format_key: str) -> str | None:
+	if format_key not in FORMAT_ITEM_TYPE_BLACKLIST:
+		return None
+	blacklist = FORMAT_ITEM_TYPE_BLACKLIST[format_key]
+	with open(bbq_file_name, "r") as bbq_file:
+		for line in bbq_file:
+			item_type = line.partition("\t")[0].strip().upper()
+			if item_type in blacklist:
+				return item_type
+	return None
 
 
 def supports_blackboard_export(bbq_file_name: str) -> bool:
@@ -273,12 +265,7 @@ def supports_blackboard_export(bbq_file_name: str) -> bool:
 	qti-package-maker's Blackboard pool-export engine has no ORDER writer.
 	Do not expose an empty pool ZIP when a source contains that item type.
 	"""
-	with open(bbq_file_name, "r") as bbq_file:
-		for line in bbq_file:
-			item_type = line.partition("\t")[0].strip().upper()
-			if item_type in BLACKBOARD_EXPORT_UNSUPPORTED_ITEM_TYPES:
-				return False
-	return True
+	return find_blacklisted_item_type(bbq_file_name, "bb_export") is None
 
 #==============
 def get_download_js_string() -> str:
@@ -412,14 +399,24 @@ def generate_download_button_row(
 				print(color_text(f"  SKIP {file_type['display_name']} (disabled)", COLOR_YELLOW))
 			record_stat(stats, type_key, "skipped")
 			continue
-		# The pool-export engine has no ORDER writer. Omit this format rather
-		# than linking an empty ZIP that Blackboard Ultra cannot use.
-		if type_key == "bb_export" and not supports_blackboard_export(bbq_file_name):
+		blacklisted_item_type = find_blacklisted_item_type(
+			bbq_file_name,
+			type_key,
+		)
+		if blacklisted_item_type is not None:
 			if verbose:
 				print(color_text(
-					f"  SKIP {file_type['display_name']}: unsupported ORDER item",
+					f"  SKIP {file_type['display_name']}: blacklisted item type "
+					f"{blacklisted_item_type}",
 					COLOR_YELLOW,
 				))
+			output_path = get_outfile_name(
+				bbq_file_name,
+				file_type['prefix'],
+				file_type['extension'],
+			)
+			if os.path.isfile(output_path):
+				os.remove(output_path)
 			record_stat(stats, type_key, "skipped")
 			continue
 		# Special handling for WeBWorK PGML: search for existing file only
@@ -502,10 +499,11 @@ def generate_download_button_row(
 		elif source_is_newer:
 			if verbose:
 				print(color_text(f"  STALE {file_type['display_name']}: source newer, rebuilding", COLOR_CYAN))
-			out_file_path = create_downloadable_format(
+			out_file_path = _create_optional_download(
 				bbq_file_name,
 				file_type['prefix'],
 				file_type['extension'],
+				file_type['display_name'],
 			)
 			if out_file_path is None:
 				record_stat(stats, type_key, "skipped")
@@ -513,11 +511,10 @@ def generate_download_button_row(
 			if not os.path.isfile(out_file_path):
 				if verbose:
 					print(color_text(
-						f"  MISSING {file_type['display_name']}: "
-						f"{git_paths.display_path(out_file_path)}",
+						f"  SKIP {file_type['display_name']}: output was not created",
 						COLOR_YELLOW,
 					))
-				record_stat(stats, type_key, "failed")
+				record_stat(stats, type_key, "skipped")
 				continue
 			record_stat(stats, type_key, "generated")
 		elif type_key == "bb_text":
@@ -535,10 +532,11 @@ def generate_download_button_row(
 					f"{git_paths.display_path(out_file_path)}",
 					COLOR_CYAN,
 				))
-			out_file_path = create_downloadable_format(
+			out_file_path = _create_optional_download(
 				bbq_file_name,
 				file_type['prefix'],
 				file_type['extension'],
+				file_type['display_name'],
 			)
 		if out_file_path is None:
 			record_stat(stats, type_key, "skipped")
@@ -546,12 +544,11 @@ def generate_download_button_row(
 		if not planned_missing_artifact and not os.path.isfile(out_file_path):
 			if verbose:
 				print(color_text(
-					f"  MISSING {file_type['display_name']}: "
-					f"{git_paths.display_path(out_file_path)}",
+					f"  SKIP {file_type['display_name']}: output was not created",
 					COLOR_YELLOW,
 				))
 			if type_key != "bb_text":
-				record_stat(stats, type_key, "failed")
+				record_stat(stats, type_key, "skipped")
 			continue
 		if (
 			type_key != "bb_text"
@@ -759,7 +756,7 @@ def update_index_md(
 
 	index_md_path = os.path.join(topic_folder, "index.md")
 	print(f"writing to {git_paths.display_path(index_md_path)}")
-	with _atomic_text_writer(index_md_path) as index_md:
+	with open(index_md_path, "w", encoding="utf-8") as index_md:
 		index_md.write(f"# {title}\n\n")
 		index_md.write(f"{description}\n\n")
 		if libretexts_link:

@@ -15,9 +15,9 @@
 - Missing converter outputs are built before the topic page is published. Focused
   builds refresh manifest rows for selected topics and preserve the other current
   rows; unrestricted builds still validate every reachable self-test include.
-- Human-readable downloads skip sources with no text-renderable questions, removing
-  any prior artifact and its page button. Other conversion failures still stop the
-  owning task row.
+- Human-readable downloads skip sources with no text-renderable questions. Non-selftest
+  download errors skip their artifact and page button; selftest failures still stop the
+  build.
 - Normal builds omit per-topic orphan-prune summaries when a folder has no actions.
 - Topic pages now render once per affected topic after row-owned self-tests and
   downloads finish, avoiding repeated whole-topic scans. Page-render logs identify
@@ -63,9 +63,9 @@
 
 ### Fixes and Maintenance
 
-- BBQ task runners now reject empty or oversized candidates and restore configured outputs when
-  generation fails, including when a generator writes directly to its destination. Validated
-  candidates replace existing outputs only after they are ready.
+- BBQ task runners reject empty or oversized candidates before moving them to configured
+  outputs. Per-run backups and PGML temp staging are removed; rerun failed generation and use Git
+  history to restore tracked files.
 - Self-test conversion stages HTML and preserves prior output when conversion fails or returns no
   output. Configured the nucleotide-components bank for four choices, matching its three available
   distractor groups.

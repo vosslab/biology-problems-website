@@ -10,8 +10,6 @@ import os
 import re
 import json
 import hashlib
-import stat
-import tempfile
 
 # PIP3 modules
 import yaml
@@ -255,22 +253,9 @@ def write_manifest(
 			)
 	if dry_run:
 		return manifest
-	output_dir = os.path.dirname(output_path)
+	output_dir = os.path.dirname(output_path) or "."
 	os.makedirs(output_dir, exist_ok=True)
-	try:
-		output_mode = stat.S_IMODE(os.stat(output_path).st_mode)
-	except FileNotFoundError:
-		output_mode = 0o644
-	with tempfile.NamedTemporaryFile(
-		mode="w",
-		encoding="utf-8",
-		dir=output_dir,
-		prefix=".selftest-manifest-",
-		delete=False,
-	) as file_pointer:
-		temporary_path = file_pointer.name
+	with open(output_path, "w", encoding="utf-8") as file_pointer:
 		json.dump(manifest, file_pointer, indent=2, sort_keys=True)
 		file_pointer.write("\n")
-	os.chmod(temporary_path, output_mode)
-	os.replace(temporary_path, output_path)
 	return manifest

@@ -4,7 +4,7 @@ import html
 from dataclasses import dataclass
 from pathlib import Path
 
-import bioproblems_site.atomic_write as atomic_write
+import bioproblems_site.file_write as file_write
 import bioproblems_site.metadata as metadata_module
 import bioproblems_site.title_cache as title_cache
 
@@ -128,5 +128,5 @@ def write(
 	)
 	text = render(collect_entries(site_docs_dir, subjects, nav_order))
 	if not dry_run:
-		atomic_write.atomic_write_text(output_path, text)
+		file_write.write_text(output_path, text)
 	return text

@@ -4,7 +4,7 @@ from pathlib import Path
 
 import bioproblems_site.llm_helpers as llm_helpers
 import bioproblems_site.bbq_workflow as bbq_workflow
-import bioproblems_site.atomic_write as atomic_write
+import bioproblems_site.file_write as file_write
 import bioproblems_site.metadata as metadata_module
 import bioproblems_site.mkdocs_nav as mkdocs_nav_module
 import bioproblems_site.orphan_prune as orphan_prune_module
@@ -143,9 +143,15 @@ def run_topic_page(topic_ref: TopicRef, scope: BuildScope) -> set[Path]:
 def expected_downloads(source_path: Path) -> set[Path]:
 	"""Return converter-owned artifacts expected for one BBQ source."""
 	outputs = {
-		Path(topic_page_module.get_outfile_name(str(source_path), "canvas_qti_v1_2", "zip")),
 		Path(topic_page_module.get_outfile_name(str(source_path), "human_readable", "html")),
 	}
+	if topic_page_module.find_blacklisted_item_type(
+		str(source_path),
+		"canvas_qti",
+	) is None:
+		outputs.add(Path(topic_page_module.get_outfile_name(
+			str(source_path), "canvas_qti_v1_2", "zip"
+		)))
 	if topic_page_module.supports_blackboard_export(str(source_path)):
 		outputs.add(Path(topic_page_module.get_outfile_name(
 			str(source_path), "blackboard_export_zip", "zip"
@@ -202,7 +208,7 @@ def _write_subject_index(subject: object, site_docs_dir: Path, dry_run: bool) ->
 			"no generated marker."
 		)
 	if not dry_run:
-		atomic_write.atomic_write_text(output_path, text)
+		file_write.write_text(output_path, text)
 	return output_path
 
 
