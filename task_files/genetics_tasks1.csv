@@ -59,7 +59,6 @@ genetics,gene_interactions,{bp_root}/inheritance-problems/epistasis/dihybrid_cro
 genetics,gene_interactions,{bp_root}/inheritance-problems/epistasis/dihybrid_cross_epistatic_gene_metabolics.py,,,
 genetics,gene_interactions,{bp_root}/inheritance-problems/epistasis/epistasis_test_cross.py,--inverse,,
 genetics,gene_interactions,{bp_root}/inheritance-problems/epistasis/epistasis_test_cross.py,--forward,,
-genetics,gene_interactions,{bp_root}/inheritance-problems/horse_coat_pattern_inference.py,,,
 ,,,,,
 genetics,chromosomal_inheritance,{bp_root}/inheritance-problems/dominant_and_X-linked_recessive.py,,,
 genetics,chromosomal_inheritance,{bp_root}/inheritance-problems/dominant_and_X-linked_recessive_variations.py ,,,
