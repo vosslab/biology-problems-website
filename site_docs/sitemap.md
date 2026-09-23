@@ -4,7 +4,7 @@
 
 Browse the generated problem sets by subject and topic. Use your browser's Find command to search all problem-set titles on this page.
 
-**468 problem sets**
+**476 problem sets**
 
 ## Biochemistry
 
@@ -214,8 +214,17 @@ Browse the generated problem sets by subject and topic. Use your browser's Find 
 - <a href="../genetics/topic02/">True/False Statements About Nucleotide Components</a>
 - <a href="../genetics/topic02/">True/False Statements About RNA and DNA Differences</a>
 - <a href="../genetics/topic02/">DNA Base Composition Using Chargaff&#x27;s Rules</a>
+- <a href="../genetics/topic02/">Problem set: circular digest length 10 sites 2 selected</a>
+- <a href="../genetics/topic02/">Problem set: circular digest length 12 sites 3 selected</a>
+- <a href="../genetics/topic02/">Problem set: circular digest length 16 sites 3 selected</a>
 - <a href="../genetics/topic02/">Complementary DNA Sequences Without Direction Labels</a>
 - <a href="../genetics/topic02/">Complementary DNA Sequences with 5&#x27; and 3&#x27; Direction Labels</a>
+- <a href="../genetics/topic02/">Problem set: linear digest len 10 sites 2 fragment</a>
+- <a href="../genetics/topic02/">Problem set: linear digest len 10 sites 3 strand</a>
+- <a href="../genetics/topic02/">Problem set: linear digest len 12 sites 3 fragment</a>
+- <a href="../genetics/topic02/">Problem set: linear digest len 12 sites 3 strand</a>
+- <a href="../genetics/topic02/">Problem set: linear digest len 16 sites 4 fragment</a>
+- <a href="../genetics/topic02/">Problem set: linear digest len 16 sites 4 strand</a>
 - <a href="../genetics/topic02/">Restriction Digests: Determining DNA Band Sizes (10 kb, Strand Diagram)</a>
 - <a href="../genetics/topic02/">Restriction Digests: Determining DNA Band Sizes (13 kb, Fragment Diagram)</a>
 - <a href="../genetics/topic02/">Restriction Digests: Determining DNA Band Sizes (16 kb, Strand Diagram)</a>
@@ -227,54 +236,53 @@ Browse the generated problem sets by subject and topic. Use your browser's Find 
 
 ### DNA Profiling
 
-- <a href="../genetics/topic03/">Blood Types from Agglutination Test Results</a>
-- <a href="../genetics/topic03/">Offspring HLA Genotypes (2 Markers, Black and White)</a>
-- <a href="../genetics/topic03/">Offspring HLA Genotypes (3 Markers, Color)</a>
-- <a href="../genetics/topic03/">Identifying the Father from RFLP Gel Profiles (EASY, 3 Potential Fathers)</a>
-- <a href="../genetics/topic03/">Identifying the Father from RFLP Gel Profiles (HARD, 9 Potential Fathers)</a>
-- <a href="../genetics/topic03/">Identifying the Father from RFLP Gel Profiles (MEDIUM, 5 Potential Fathers)</a>
-- <a href="../genetics/topic03/">Identifying the Killer from RFLP Gel Profiles (EASY, 4 Suspects)</a>
-- <a href="../genetics/topic03/">Identifying the Killer from RFLP Gel Profiles (HARD, 9 Suspects)</a>
-- <a href="../genetics/topic03/">Identifying the Killer from RFLP Gel Profiles (MEDIUM, 5 Suspects)</a>
+- <a href="../genetics/topic03/">Problem set: blood type agglutination test</a>
+- <a href="../genetics/topic03/">Problem set: hla genotype 2 markers black</a>
+- <a href="../genetics/topic03/">Problem set: hla genotype 3 markers color</a>
+- <a href="../genetics/topic03/">Problem set: who father html EASY 3 males</a>
+- <a href="../genetics/topic03/">Problem set: who father html HARD 9 males</a>
+- <a href="../genetics/topic03/">Problem set: who father html MEDIUM 5 males</a>
+- <a href="../genetics/topic03/">Problem set: who killer html EASY 4 suspects</a>
+- <a href="../genetics/topic03/">Problem set: who killer html HARD 9 suspects</a>
+- <a href="../genetics/topic03/">Problem set: who killer html MEDIUM 5 suspects</a>
 
 ### Mendelian Genetics
 
-- <a href="../genetics/topic04/">Genetic Terms (Matching)</a>
-- <a href="../genetics/topic04/">Mendelian Crosses and Generations (Matching)</a>
-- <a href="../genetics/topic04/">Mendel&#x27;s Principles (Matching)</a>
-- <a href="../genetics/topic04/">Mendelian Genetics Terms (Matching)</a>
-- <a href="../genetics/topic04/">Parental Genotypes in Monohybrid Crosses (Matching)</a>
-- <a href="../genetics/topic04/">Genetic Terms (Multiple Choice)</a>
-- <a href="../genetics/topic04/">Mendelian Crosses and Generations (Multiple Choice)</a>
-- <a href="../genetics/topic04/">Mendel&#x27;s Principles (Multiple Choice)</a>
-- <a href="../genetics/topic04/">Mendelian Genetics Terms (Multiple Choice)</a>
-- <a href="../genetics/topic04/">Parental Genotypes in Monohybrid Crosses (Multiple Choice)</a>
-- <a href="../genetics/topic04/">Offspring Survival Ratios in Lethal Allele Crosses</a>
-- <a href="../genetics/topic04/">Dominance Types in Monohybrid Crosses</a>
-- <a href="../genetics/topic04/">Monohybrid Cross Outcomes</a>
-- <a href="../genetics/topic04/">Parent Genotypes from Offspring Ratios</a>
-- <a href="../genetics/topic04/">Offspring Sex Distribution Using the Binomial Model</a>
-- <a href="../genetics/topic04/">Choosing Punnett Squares for Flower Color Crosses</a>
-- <a href="../genetics/topic04/">Identifying Inheritance Patterns from Pedigree Diagrams</a>
-- <a href="../genetics/topic04/">Matching Pedigree Diagrams to Inheritance Patterns (Standard Layout)</a>
-- <a href="../genetics/topic04/">Matching Pedigree Diagrams to Inheritance Patterns (Randomized Layout)</a>
+- <a href="../genetics/topic04/">Problem set: MATCH degrees of dominance</a>
+- <a href="../genetics/topic04/">Problem set: MATCH genetics terminology</a>
+- <a href="../genetics/topic04/">Problem set: MATCH mendel cross terminology</a>
+- <a href="../genetics/topic04/">Problem set: MATCH mendel four principles</a>
+- <a href="../genetics/topic04/">Problem set: MATCH mendelian genetics terms</a>
+- <a href="../genetics/topic04/">Problem set: MATCH monohybrid cross genotype</a>
+- <a href="../genetics/topic04/">Problem set: WOMC degrees of dominance</a>
+- <a href="../genetics/topic04/">Problem set: WOMC genetics terminology</a>
+- <a href="../genetics/topic04/">Problem set: WOMC mendel cross terminology</a>
+- <a href="../genetics/topic04/">Problem set: WOMC mendel four principles</a>
+- <a href="../genetics/topic04/">Problem set: WOMC mendelian genetics terms</a>
+- <a href="../genetics/topic04/">Problem set: WOMC monohybrid cross genotype</a>
+- <a href="../genetics/topic04/">Problem set: monohybrid degrees of dominance</a>
+- <a href="../genetics/topic04/">Problem set: monohybrid genotype statements</a>
+- <a href="../genetics/topic04/">Problem set: punnett choice</a>
+- <a href="../genetics/topic04/">Problem set: unique cross genotypes with hint 6 genes</a>
+- <a href="../genetics/topic04/">Problem set: unique cross phenotypes with hint 6 genes</a>
+- <a href="../genetics/topic04/">Problem set: unique gametes with hint 7 genes</a>
 
 ### Gene Interactions
 
-- <a href="../genetics/topic05/">Matching Inheritance Patterns to Definitions</a>
-- <a href="../genetics/topic05/">Inheritance Patterns from Allele-Expression Descriptions</a>
-- <a href="../genetics/topic05/">Bacterial Nutrient Requirements in Mutant Metabolic Pathways (5 Metabolites)</a>
-- <a href="../genetics/topic05/">ABO Blood Group Inheritance Patterns</a>
-- <a href="../genetics/topic05/">ABO Blood Group Inheritance in Offspring</a>
-- <a href="../genetics/topic05/">Gene Interaction Types in Dihybrid Crosses</a>
-- <a href="../genetics/topic05/">Epistasis in Metabolic Pathway Dihybrid Crosses</a>
-- <a href="../genetics/topic05/">Genetic Linkage and Epistasis in Dihybrid Crosses (Forward, 6 Choices)</a>
-- <a href="../genetics/topic05/">Dihybrid Cross Phenotypic Ratios with Epistasis (Inverse, 6 Choices)</a>
-- <a href="../genetics/topic05/">Horse Coat Patterns from Genetic Crosses</a>
-- <a href="../genetics/topic05/">Metabolic Pathway Precursor Order from Mutant Growth Data (4 Metabolites)</a>
-- <a href="../genetics/topic05/">Genotype Diversity in Hybrid Crosses (6 Genes, Hint)</a>
-- <a href="../genetics/topic05/">Phenotype Diversity in Genetic Crosses (6 Genes, Hint)</a>
-- <a href="../genetics/topic05/">Gamete Diversity Through Independent Assortment (7 Genes, Hint)</a>
+- <a href="../genetics/topic05/">Problem set: beadle tatum metabolic pathway 5 metabolites</a>
+- <a href="../genetics/topic05/">Problem set: blood type mother</a>
+- <a href="../genetics/topic05/">Problem set: blood type offspring</a>
+- <a href="../genetics/topic05/">Problem set: dihybrid cross epistatic gene interactions 4 choices</a>
+- <a href="../genetics/topic05/">Problem set: dihybrid cross epistatic gene metabolics 4 choices</a>
+- <a href="../genetics/topic05/">Problem set: epistasis test cross forward direction 6 choices</a>
+- <a href="../genetics/topic05/">Problem set: epistasis test cross inverse direction 6 choices</a>
+- <a href="../genetics/topic05/">Problem set: horses</a>
+- <a href="../genetics/topic05/">Problem set: lethal allele survival</a>
+- <a href="../genetics/topic05/">Problem set: monohybrid litter inference</a>
+- <a href="../genetics/topic05/">Problem set: probabiliy of progeny</a>
+- <a href="../genetics/topic05/">Problem set: write pedigree choice</a>
+- <a href="../genetics/topic05/">Problem set: write pedigree match</a>
+- <a href="../genetics/topic05/">Problem set: write pedigree match random</a>
 
 ### Chromosomal Inheritance
 

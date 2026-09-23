@@ -4,13 +4,14 @@ import dataclasses
 import os
 from pathlib import Path
 import random
+from collections.abc import Iterator
 
 import bioproblems_site.bbq_config as bbq_config
 import bioproblems_site.bbq_outputs as bbq_outputs
 import bioproblems_site.bbq_runner as bbq_runner
 import bioproblems_site.metadata as metadata_module
 import bioproblems_site.git_paths as git_paths
-from bioproblems_site.build_contracts import BuildChanges, BuildScope, TopicRef
+from bioproblems_site.build_contracts import BuildChanges, BuildScope, TaskBuildResult, TopicRef
 
 
 REPO_ROOT = Path(git_paths.get_repo_root())
@@ -82,6 +83,16 @@ def expected_output_paths(task: dict[str, object]) -> set[Path]:
 
 
 #============================================
+def _task_source_files(task: dict[str, object]) -> set[Path]:
+	"""Return the BBQ question files produced or owned by one task row."""
+	return {
+		output_path
+		for output_path in expected_output_paths(task)
+		if output_path.name.startswith("bbq-") and output_path.name.endswith("-questions.txt")
+	}
+
+
+#============================================
 def task_needs_run(task: dict[str, object], scope: BuildScope) -> bool:
 	"""Check only the direct task configuration, source inputs, and outputs."""
 	if scope.full:
@@ -111,37 +122,66 @@ def _task_ref(task: dict[str, object]) -> TopicRef:
 
 #============================================
 def _apply_task_selection(
-		tasks: list[dict[str, object]],
+		task_rows: list[list[dict[str, object]]],
 		scope: BuildScope,
-	) -> list[dict[str, object]]:
-	"""Apply optional randomization before the development task limit."""
+	) -> list[list[dict[str, object]]]:
+	"""Shuffle and limit complete CSV rows before running their generators."""
 	if scope.shuffle:
-		random.shuffle(tasks)
+		random.shuffle(task_rows)
 	if scope.limit is not None:
-		return tasks[:scope.limit]
-	return tasks
+		return task_rows[:scope.limit]
+	return task_rows
 
 
 #============================================
-def _load_scoped_tasks(scope: BuildScope) -> list[dict[str, object]]:
-	"""Load canonical task dictionaries inside the requested public scope."""
+def _load_scoped_task_rows(scope: BuildScope) -> list[list[dict[str, object]]]:
+	"""Load canonical CSV rows, preserving tasks expanded from one source row."""
 	settings = bbq_config.load_bbq_config(str(DEFAULT_SETTINGS_PATH))
 	subjects, _nav_order = metadata_module.load_topics_metadata()
 	if scope.subject is not None and scope.subject not in subjects:
 		raise ValueError(f"Unknown subject {scope.subject!r}; expected one of {sorted(subjects)}")
+	if scope.topic is not None:
+		if scope.subject is None:
+			raise ValueError("A topic filter requires a subject filter")
+		valid_topics = {topic.key for topic in subjects[scope.subject].topics}
+		if scope.topic not in valid_topics:
+			raise ValueError(
+				f"Unknown topic {scope.topic!r} for subject {scope.subject!r}; "
+				f"expected one of {sorted(valid_topics)}"
+			)
 	alias_map = metadata_module.build_topic_alias_map(subjects)
 	task_files = [scope.tasks_csv] if scope.tasks_csv else sorted(DEFAULT_TASK_DIR.glob("*.csv"))
-	tasks: list[dict[str, object]] = []
+	task_rows: list[list[dict[str, object]]] = []
 	for task_file in task_files:
 		if task_file is None:
 			continue
 		loaded_tasks = bbq_config.load_tasks_csv(str(task_file), settings, alias_map)
+		current_row_number: int | None = None
+		current_task_row: list[dict[str, object]] = []
 		for task in loaded_tasks:
 			task["task_file"] = str(task_file)
 			task["settings_path"] = str(DEFAULT_SETTINGS_PATH)
-			if scope.subject is None or task["subject"] == scope.subject:
-				tasks.append(task)
-	return _apply_task_selection(tasks, scope)
+			if scope.subject is not None and task["subject"] != scope.subject:
+				continue
+			if scope.topic is not None and task["topic"] != scope.topic:
+				continue
+			row_number = task["_csv_row_number"]
+			if not isinstance(row_number, int):
+				raise TypeError("CSV task row number must be an integer")
+			if current_task_row and row_number != current_row_number:
+				task_rows.append(current_task_row)
+				current_task_row = []
+			current_row_number = row_number
+			current_task_row.append(task)
+		if current_task_row:
+			task_rows.append(current_task_row)
+	return _apply_task_selection(task_rows, scope)
+
+
+#============================================
+def _load_scoped_tasks(scope: BuildScope) -> list[dict[str, object]]:
+	"""Load selected task dictionaries in CSV row and generator order."""
+	return [task for task_row in _load_scoped_task_rows(scope) for task in task_row]
 
 
 #============================================
@@ -165,20 +205,42 @@ def configured_topics(scope: BuildScope) -> set[TopicRef]:
 
 
 #============================================
-def run_if_needed(scope: BuildScope) -> BuildChanges:
-	"""Run stale BBQ tasks or report their planned subject-qualified scope."""
-	tasks = _load_scoped_tasks(scope)
-	selected_topics = {_task_ref(task) for task in tasks}
-	pending_tasks = [task for task in tasks if task_needs_run(task, scope)]
+def iter_task_results(scope: BuildScope) -> Iterator[TaskBuildResult]:
+	"""Run configured CSV rows lazily and yield each row before starting the next."""
+	task_rows = _load_scoped_task_rows(scope)
+	tasks = [task for task_row in task_rows for task in task_row]
+	pending_task_ids = {
+		id(task)
+		for task in tasks
+		if task_needs_run(task, scope)
+	}
+	pending_count = len(pending_task_ids)
 	if scope.dry_run:
-		planned_topics = {_task_ref(task) for task in pending_tasks}
-		planned_subjects = {topic_ref.subject for topic_ref in planned_topics}
-		planned_files = set().union(*(expected_output_paths(task) for task in pending_tasks))
-		for task in pending_tasks:
-			print(f"[dry-run] BBQ {_task_ref(task).subject}/{_task_ref(task).topic}")
-		return BuildChanges(planned_topics, planned_subjects, planned_files, selected_topics)
-	if not pending_tasks:
-		return BuildChanges(selected_topics=selected_topics)
+		for task_row in task_rows:
+			topic_ref = _task_ref(task_row[0])
+			row_needs_run = any(id(task) in pending_task_ids for task in task_row)
+			source_files: set[Path] = set()
+			changed_files: set[Path] = set()
+			for task in task_row:
+				source_files.update(_task_source_files(task))
+				if id(task) in pending_task_ids:
+					changed_files.update(expected_output_paths(task))
+			if row_needs_run:
+				print(f"[dry-run] BBQ {topic_ref.subject}/{topic_ref.topic}")
+			yield TaskBuildResult(
+				topic_ref=topic_ref,
+				source_files=source_files,
+				changed_files=changed_files,
+				needs_run=row_needs_run,
+			)
+		return
+	if pending_count == 0:
+		for task_row in task_rows:
+			yield TaskBuildResult(
+				topic_ref=_task_ref(task_row[0]),
+				source_files=set().union(*(_task_source_files(task) for task in task_row)),
+			)
+		return
 	settings = bbq_config.load_bbq_config(str(DEFAULT_SETTINGS_PATH))
 	pythonpath_ok, pythonpath_message = bbq_config.check_pythonpath(settings)
 	if not pythonpath_ok:
@@ -190,10 +252,7 @@ def run_if_needed(scope: BuildScope) -> BuildChanges:
 		os.remove(error_log_path)
 	bbq_outputs.rotate_log(log_path)
 	context = bbq_runner.RunContext(log_path, error_log_path, True, pythonpath_value)
-	changed_topics: set[TopicRef] = set()
-	changed_subjects: set[str] = set()
-	changed_files: set[Path] = set()
-	total = len(pending_tasks)
+	total = pending_count
 	# The historical 199-question default belongs to an all-task batch.
 	# A single selected CSV retains its generator-defined default.
 	runner_scope = scope
@@ -204,19 +263,50 @@ def run_if_needed(scope: BuildScope) -> BuildChanges:
 		and scope.max_questions is None
 	):
 		runner_scope = dataclasses.replace(scope, max_questions=199)
-	for index, task in enumerate(pending_tasks, start=1):
-		_prepare_task(task, runner_scope)
-		before_outputs = expected_output_paths(task)
-		ok = bbq_runner.run_task(
-			task, log_path, index, total, pythonpath_value=context.pythonpath_value,
-			error_log_path=context.error_log_path,
+	pending_index = 0
+	for task_row in task_rows:
+		topic_ref = _task_ref(task_row[0])
+		row_needs_run = any(id(task) in pending_task_ids for task in task_row)
+		changed_files: set[Path] = set()
+		for task in task_row:
+			if id(task) not in pending_task_ids:
+				continue
+			pending_index += 1
+			_prepare_task(task, runner_scope)
+			before_outputs = expected_output_paths(task)
+			ok = bbq_runner.run_task(
+				task,
+				log_path,
+				pending_index,
+				total,
+				pythonpath_value=context.pythonpath_value,
+				error_log_path=context.error_log_path,
+			)
+			if not ok:
+				raise RuntimeError(f"BBQ task failed for {topic_ref.subject}/{topic_ref.topic}")
+			after_outputs = expected_output_paths(task)
+			changed_files.update(before_outputs | after_outputs)
+		source_files = set().union(*(_task_source_files(task) for task in task_row))
+		yield TaskBuildResult(
+			topic_ref=topic_ref,
+			source_files=source_files,
+			changed_files=changed_files,
+			needs_run=row_needs_run,
 		)
-		if not ok:
-			raise RuntimeError(f"BBQ task failed for {_task_ref(task).subject}/{_task_ref(task).topic}")
-		topic_ref = _task_ref(task)
-		changed_topics.add(topic_ref)
-		changed_subjects.add(topic_ref.subject)
-		after_outputs = expected_output_paths(task)
-		changed_files.update(before_outputs)
-		changed_files.update(after_outputs)
+
+
+#============================================
+def run_if_needed(scope: BuildScope) -> BuildChanges:
+	"""Run selected rows and aggregate their task-level build changes."""
+	changed_topics: set[TopicRef] = set()
+	changed_subjects: set[str] = set()
+	changed_files: set[Path] = set()
+	selected_topics: set[TopicRef] = set()
+	for task_result in iter_task_results(scope):
+		selected_topics.add(task_result.topic_ref)
+		if not task_result.needs_run:
+			continue
+		changed_topics.add(task_result.topic_ref)
+		changed_subjects.add(task_result.topic_ref.subject)
+		changed_files.update(task_result.changed_files)
 	return BuildChanges(changed_topics, changed_subjects, changed_files, selected_topics)

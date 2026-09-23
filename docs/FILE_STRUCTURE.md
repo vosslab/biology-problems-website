@@ -9,6 +9,8 @@
 - [task_files/](../task_files/): per-subject BBQ task CSV inputs.
 - [mkdocs.yml](../mkdocs.yml): MkDocs configuration and generated navigation.
 - [bioproblems_site/](../bioproblems_site/): reusable site and BBQ package logic.
+- [bioproblems_site/topic_metadata.py](../bioproblems_site/topic_metadata.py):
+  canonical metadata lookup for topic pages.
 - [site_docs/](../site_docs/): MkDocs content root and generated question artifacts.
 - [docs/](.): documentation and repository standards.
 - [devel/](../devel/): maintainer command surfaces and propagated repository helpers.

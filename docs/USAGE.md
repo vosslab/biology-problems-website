@@ -50,11 +50,13 @@ MkDocs opens `http://127.0.0.1:8000/` with live reload. Press Ctrl-C to stop it.
 
 ## Page generation
 
-`build_site.py` runs the normal content workflow: stale BBQ generators, affected
-self-tests, topic pages, downloads, then subject indexes, navigation,
-reconciliation, and the self-test manifest. The navigation stage updates source
-content in [mkdocs.yml](../mkdocs.yml); run MkDocs separately to render `site/`
-and `sitemap.xml`. Run the content workflow from the repo root:
+`build_site.py` completes each selected CSV row's BBQ generation, self-tests,
+downloads, and topic page before advancing to the next row. It then runs global
+orphan reconciliation, the searchable question index, navigation, and the
+self-test manifest; subject indexes are limited to the selected subject when
+`--subject` is used. The navigation stage updates source content in
+[mkdocs.yml](../mkdocs.yml); run MkDocs separately to render `site/` and
+`sitemap.xml`. Run the content workflow from the repo root:
 
 ```bash
 source source_me.sh && ./build_site.py
@@ -68,17 +70,23 @@ that reconciliation plan without changing files.
 
 Common flags:
 
-- `--subject genetics`: restrict every stage to genetics.
-- `--tasks task_files/genetics_tasks1.csv`: select one configured CSV.
-- `--limit 1`: limit BBQ task selection during development.
-- `--shuffle`: shuffle BBQ task order before applying `--limit`.
-- `--backend BACKEND`: use `ollama`, `codex`, or `claude` for generated
+- `-S/--subject genetics`: restrict task rows and topic stages to genetics.
+  Orphan reconciliation, the searchable question index, and navigation still
+  cover the repository. The self-test manifest refreshes selected topics while
+  retaining current rows for other topics; an unrestricted build validates it
+  globally.
+- `-T/--topic topic01`: focus on one canonical topic within the selected subject;
+  combine it with `-S/--subject`.
+- `-t/--task task_files/genetics_tasks1.csv`: select one configured CSV.
+- `-l/--limit 1`: limit the number of CSV task rows during development.
+- `-R/--shuffle`: shuffle BBQ task order before applying `--limit`.
+- `-b/--backend BACKEND`: use `ollama`, `codex`, or `claude` for generated
   problem-set titles. Ollama remains the default; Codex uses its configured
   CLI model when `--model` is omitted.
-- `--dry-run`: report planned work without generators, LLM calls, subprocesses,
+- `-n/--dry-run`: report planned work without generators, LLM calls, subprocesses,
   or writes.
-- `--full`: bypass stale checks within the selected subject, task, or limit scope.
-- `--model MODEL`: use a specific model with the selected title-generation backend.
+- `-F/--full`: bypass stale checks within the selected subject, task, or limit scope.
+- `-m/--model MODEL`: use a specific model with the selected title-generation backend.
 
 An unrestricted run applies the all-task 199-question maximum. A selected CSV,
 subject, or limited run keeps its configured generator limits.

@@ -6,7 +6,7 @@ from pathlib import Path
 import bioproblems_site.bbq_workflow as bbq_workflow
 import bioproblems_site.build_stages as build_stages
 import bioproblems_site.metadata as metadata_module
-from bioproblems_site.build_contracts import BuildChanges, BuildScope, TopicRef
+from bioproblems_site.build_contracts import BuildChanges, BuildScope, TaskBuildResult, TopicRef
 
 
 #============================================
@@ -30,32 +30,77 @@ def _full_scope_topics(scope: BuildScope) -> set[TopicRef]:
 		TopicRef(subject_key, topic.key)
 		for subject_key in subject_keys
 		for topic in subjects[subject_key].topics
+		if scope.topic is None or topic.key == scope.topic
 	}
 	return topics
 
 
 #============================================
+def _run_topic_stages(
+	task_result: TaskBuildResult,
+	scope: BuildScope,
+	changes: BuildChanges,
+	stage_files: dict[str, set[Path]],
+) -> None:
+	"""Complete one row's self-test, download, and page stages in order."""
+	topic_ref = task_result.topic_ref
+	source_paths = task_result.source_files
+	if build_stages.selftests_need_run(topic_ref, scope, changes, source_paths):
+		stage_files.setdefault("selftests", set()).update(
+			build_stages.run_selftests(topic_ref, scope, source_paths)
+		)
+	# Publish a page only after its linked converter outputs are ready.
+	if build_stages.downloads_need_run(topic_ref, scope, changes, source_paths):
+		stage_files.setdefault("downloads", set()).update(
+			build_stages.run_downloads(topic_ref, scope, source_paths)
+		)
+	if build_stages.topic_page_needs_run(topic_ref, scope, changes):
+		stage_files.setdefault("topic_pages", set()).update(
+			build_stages.run_topic_page(topic_ref, scope)
+		)
+
+
+#============================================
 def build_site(scope: BuildScope) -> BuildReport:
-	"""Build configured BBQ work and its downstream content in dependency order."""
-	changes = bbq_workflow.run_if_needed(scope)
-	# Include configured topics so missing/stale downstream outputs recover even
-	# when their already-fresh BBQ source did not need regeneration.
-	affected_topics = set(changes.selected_topics)
-	if not affected_topics:
-		affected_topics = bbq_workflow.configured_topics(scope)
-	affected_topics.update(changes.changed_topics)
-	# A full unrestricted or subject build owns every metadata topic in that
-	# scope. A task CSV or development limit instead owns only the BBQ topics
-	# selected above; full bypasses stale checks but never expands that scope.
+	"""Build each selected CSV row through its downstream topic stages in order."""
+	stage_files: dict[str, set[Path]] = {"bbq": set()}
+	selected_topics: set[TopicRef] = set()
+	changed_topics: set[TopicRef] = set()
+	changed_subjects: set[str] = set()
+	changed_files: set[Path] = set()
+	processed_topics: set[TopicRef] = set()
+	# Finish each CSV row's local stages before advancing to the next row.
+	for task_result in bbq_workflow.iter_task_results(scope):
+		topic_ref = task_result.topic_ref
+		processed_topics.add(topic_ref)
+		selected_topics.add(topic_ref)
+		if task_result.needs_run:
+			changed_topics.add(topic_ref)
+			changed_subjects.add(topic_ref.subject)
+			changed_files.update(task_result.changed_files)
+			stage_files["bbq"].update(task_result.changed_files)
+		row_changes = BuildChanges(
+			changed_topics={topic_ref} if task_result.needs_run else set(),
+			changed_subjects={topic_ref.subject} if task_result.needs_run else set(),
+			changed_files=task_result.changed_files,
+			selected_topics={topic_ref},
+		)
+		_run_topic_stages(task_result, scope, row_changes, stage_files)
+
+	# A full unrestricted or subject build also owns metadata topics without CSV rows.
 	if scope.full and scope.tasks_csv is None and scope.limit is None:
-		affected_topics.update(_full_scope_topics(scope))
-	stage_files: dict[str, set[Path]] = {"bbq": set(changes.changed_files)}
-	for topic_ref in sorted(affected_topics):
-		if build_stages.selftests_need_run(topic_ref, scope, changes):
-			stage_files.setdefault("selftests", set()).update(build_stages.run_selftests(topic_ref, scope))
-		if build_stages.topic_page_needs_run(topic_ref, scope, changes):
-			stage_files.setdefault("topic_pages", set()).update(build_stages.run_topic_page(topic_ref, scope))
-		if build_stages.downloads_need_run(topic_ref, scope, changes):
-			stage_files.setdefault("downloads", set()).update(build_stages.run_downloads(topic_ref, scope))
-	stage_files["indexes"] = build_stages.run_subject_indexes(scope)
+		for topic_ref in sorted(_full_scope_topics(scope) - processed_topics):
+			topic_sources = set(build_stages.topic_sources(topic_ref))
+			task_result = TaskBuildResult(topic_ref=topic_ref, source_files=topic_sources)
+			row_changes = BuildChanges(selected_topics={topic_ref})
+			_run_topic_stages(task_result, scope, row_changes, stage_files)
+			selected_topics.add(topic_ref)
+
+	changes = BuildChanges(
+		changed_topics=changed_topics,
+		changed_subjects=changed_subjects,
+		changed_files=changed_files,
+		selected_topics=selected_topics,
+	)
+	stage_files["indexes"] = build_stages.run_subject_indexes(scope, selected_topics)
 	return BuildReport(changes=changes, stage_files=stage_files)

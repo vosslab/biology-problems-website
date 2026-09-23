@@ -264,6 +264,7 @@ def load_tasks_csv(
 	with open(config_path, newline="") as file_handle:
 		reader = csv.DictReader(file_handle)
 		for row in reader:
+			csv_row_number = reader.line_num
 			program = (row.get("program") or "python3").strip()
 			script = (row.get("script") or "").strip()
 			flags = (row.get("flags") or "").strip()
@@ -323,6 +324,7 @@ def load_tasks_csv(
 					"output": output,
 					"output_dir": output_dir,
 					"input_path": input_path,
+					"_csv_row_number": csv_row_number,
 					# These canonical keys come from the CSV and metadata resolver.
 					# Downstream stages must not recover them from output paths.
 					"subject": subject,

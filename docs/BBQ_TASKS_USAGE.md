@@ -6,11 +6,22 @@ From the repository root, source the environment and run the unified build:
 
 ```bash
 source source_me.sh && ./build_site.py \
-  --tasks task_files/biochem_tasks1.csv
+  --task task_files/biochem_tasks1.csv
 ```
 
-The selected BBQ work automatically triggers the affected self-test, topic-page,
-download, and index/navigation stages.
+The selected BBQ work automatically triggers the affected self-test, download,
+topic-page, and index/navigation stages. Downloads are ready before the topic page
+is published, so a failed conversion cannot leave that page newly linking to a
+missing file.
+
+Combine a subject and topic filter for a focused run:
+
+```bash
+source source_me.sh && ./build_site.py -S genetics -T topic01
+```
+
+`--topic` accepts a canonical `topicNN` key and requires `--subject`. When used
+with `--task`, it selects only that subject/topic's rows from the chosen CSV.
 
 ## Run every task file
 
@@ -24,14 +35,16 @@ source source_me.sh && ./build_site.py
 ```
 
 Only an unrestricted all-task run receives the 199-question maximum. A selected
-CSV (`--tasks`) keeps each configured generator's own question limit; scoped
-`--subject` and `--limit` runs do not receive the all-task default. The public
-command accepts `--subject`, `--tasks`, `--limit`, `--shuffle`, `--backend`,
-`--dry-run`, `--full`, and `--model`. Use `--backend codex` to generate page
-titles through the configured Codex CLI instead of Ollama.
+CSV (`--task`) keeps each configured generator's own
+question limit; scoped `-S/--subject` and `-l/--limit` runs do not receive the
+all-task default. The public command accepts `-S/--subject`, `-t/--task`,
+`-l/--limit`, `-R/--shuffle`, `-b/--backend`, `-n/--dry-run`, `-F/--full`, and
+`-m/--model`. Use
+`--backend codex` to generate page titles through the configured Codex CLI
+instead of Ollama.
 
-Use `--shuffle --limit N` to sample N task rows in random order during
-development. Shuffling is opt-in and happens before the limit is applied.
+Use `-R -l N` to sample N task rows in random order during development.
+Shuffling is opt-in and happens before the limit is applied.
 
 ## Key files
 
@@ -45,8 +58,8 @@ development. Shuffling is opt-in and happens before the limit is applied.
 ## CSV format
 
 - Columns: `subject,topic,script,flags,input,notes` (optional: `output`).
-- The `topic` cell may be a canonical `topicNN` key or a per-subject alias
-  from `topics_metadata.yml`.
+- The `topic` cell must use a per-subject alias when one is defined in
+  `topics_metadata.yml`; otherwise, use the canonical `topicNN` key.
 - Output files are auto-detected from newly generated
   `bbq-<script_name>*-problems.txt` files and moved to the matching
   `site_docs/<subject>/<topicNN>/` directory.
@@ -80,5 +93,10 @@ biochemistry,topic01,YMATCH,,macromolecules.yml,
 repeating external repository paths. Export `bp_root` or `BP_ROOT` to override
 the configured biology-problems path for a local run.
 
-Failed script output is appended to `bbq_generation_errors.log` in the current
-working directory.
+For each build run with pending tasks, the runner starts a fresh
+`bbq_generation_errors.log` in the current working directory and records failed
+scripts there. An invalid, empty, or oversized generated candidate is rejected;
+the previous configured output is restored when generation fails. A failed task
+stops the current build before its downstream stages and later CSV rows run;
+completed earlier rows remain published. Self-test conversion stages its HTML
+and replaces the previous file only after a successful, nonempty conversion.
