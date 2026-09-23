@@ -4,10 +4,9 @@ import html
 from dataclasses import dataclass
 from pathlib import Path
 
-import yaml
-
 import bioproblems_site.atomic_write as atomic_write
 import bioproblems_site.metadata as metadata_module
+import bioproblems_site.title_cache as title_cache
 
 
 GENERATED_MARKER = (
@@ -30,11 +29,7 @@ class QuestionSetEntry:
 #============================================
 def _load_titles(cache_path: Path) -> dict[str, str]:
 	"""Return cached generated titles keyed by BBQ source basename."""
-	if not cache_path.is_file():
-		return {}
-	payload = yaml.safe_load(cache_path.read_text())
-	if not isinstance(payload, dict):
-		return {}
+	payload = title_cache.load(cache_path)
 	return {
 		key: value.strip()
 		for key, value in payload.items()
@@ -61,6 +56,7 @@ def collect_entries(
 	) -> list[QuestionSetEntry]:
 	"""Collect current BBQ problem sets in subject and topic order."""
 	entries: list[QuestionSetEntry] = []
+	titles = _load_titles(title_cache.path_for_site_docs(site_docs_dir))
 	for subject_key in nav_order:
 		subject = subjects[subject_key]
 		for topic in subject.topics:
@@ -70,7 +66,6 @@ def collect_entries(
 			sources = sorted(topic_dir.glob("bbq-*-questions.txt"))
 			if not sources:
 				continue
-			titles = _load_titles(topic_dir / "problem_set_titles.yml")
 			page_path = f"{subject_key}/{topic.key}/index.md"
 			for source_path in sources:
 				entries.append(QuestionSetEntry(

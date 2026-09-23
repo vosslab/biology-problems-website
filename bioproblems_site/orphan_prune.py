@@ -1,15 +1,17 @@
-"""Reconcile bbq-derived state against the live bbq-core set per topic.
+"""Reconcile bbq-derived state against live sources across the repository.
 
 GitHub Pages deploys break when a `bbq-*-questions.txt` source file is
 deleted but its generated artifacts, include lines, and cache keys are
-left behind. This module detects those orphans -- files, include lines,
-and cache keys whose encoded core is no longer in the topic's live
-bbq-core set -- and reconciles them per the locked file-class policy:
+left behind. This module detects topic-local artifacts and includes whose
+cores are no longer live there, then drops global title keys whose BBQ
+basename is absent from every topic. It reconciles them per the locked
+file-class policy:
 
 - generated `downloads/*` artifacts and reproducible `downloads/*.pgml`
   / `*.pg` copies are deleted (git rm if tracked, else os.remove),
 - orphan `selftest-<core>` include lines in `index.md` are stripped,
-- orphan keys in `problem_set_titles.yml` are dropped (keep `last edit`),
+- stale keys in the repository-wide `problem_set_titles.yml` are dropped
+  (keep `last edit`) after all topic folders are reconciled,
 - orphan TOPIC-LEVEL `.pgml` / `.pg` masters are quarantined by git mv to
   a FLAT `orphaned/<basename>` at the repo root (never deleted).
 
@@ -24,13 +26,11 @@ import os
 import re
 import glob
 
-# PIP3 modules
-import yaml
-
 # local repo modules
 import bioproblems_site.atomic_write as atomic_write
 import bioproblems_site.git_paths as git_paths
 import bioproblems_site.topic_page as topic_page
+import bioproblems_site.title_cache as title_cache
 
 
 #============================================
@@ -56,9 +56,6 @@ RETIRED_DOWNLOAD_ARTIFACTS = (
 # Include line basename anchor: mirrors selftest_manifest.INCLUDE_RE so the
 # strip path removes only a self-test include, never an unrelated include.
 INCLUDE_RE = re.compile(r'{%\s*include\s+"([^"]*selftest[^"]*\.html)"\s*%}')
-
-# Title-cache meta key that is never a bbq basename and must be preserved.
-TITLE_CACHE_META_KEY = "last edit"
 
 # Quarantine root folder name at the repo root (outside docs_dir).
 # The quarantine layout is FLAT: a moved master lands at orphaned/<basename>
@@ -410,15 +407,14 @@ def prune_title_cache(yaml_path: str, live_bbq_basenames: set, dry_run: bool) ->
 	Returns:
 		int: Number of stale cache keys dropped.
 	"""
-	with open(yaml_path, "r") as yaml_file:
-		cache_data = yaml.safe_load(yaml_file)
+	cache_data = title_cache.load(yaml_path)
 	# An empty or absent cache has nothing to prune
 	if not cache_data:
 		return 0
 	stale_keys = []
 	# A key is stale when it is neither the meta key nor a live bbq basename
 	for key in cache_data:
-		if key == TITLE_CACHE_META_KEY:
+		if key == title_cache.LAST_EDIT_KEY:
 			continue
 		if key not in live_bbq_basenames:
 			stale_keys.append(key)
@@ -427,7 +423,7 @@ def prune_title_cache(yaml_path: str, live_bbq_basenames: set, dry_run: bool) ->
 		del cache_data[key]
 	# Only rewrite the file outside of dry-run when something changed
 	if not dry_run and stale_keys:
-		atomic_write.atomic_write_text(yaml_path, yaml.dump(cache_data))
+		title_cache.save(yaml_path, cache_data)
 	return len(stale_keys)
 
 
@@ -508,11 +504,9 @@ def reconcile_topic(
 	) -> dict:
 	"""Reconcile every bbq-derived target for one topic against live cores.
 
-	Composes the four reconcile targets:
-	  1. delete orphan downloads/ artifacts and pgml/pg copies,
-	  2. strip orphan selftest includes from index.md,
-	  3. drop stale problem_set_titles.yml keys,
-	  4. quarantine orphan topic-level pgml/pg masters.
+	Reconciles task-unowned sources, orphan downloads, orphan self-test includes,
+	and topic-level PGML/PG masters. The repository-wide title cache is pruned
+	once by reconcile_all after it gathers live basenames from every topic.
 
 	With dry_run=True this performs read-only scans only and returns the
 	risk-grouped planned action list without any write, remove, move, or
@@ -527,14 +521,12 @@ def reconcile_topic(
 
 	Returns:
 		dict: Risk-grouped action plan with keys delete_sources, delete_downloads,
-			strip_includes, drop_cache_keys, quarantine_sources, and
-			unmanaged.
+			strip_includes, quarantine_sources, and unmanaged. reconcile_all adds
+		drop_cache_keys for the single repository-wide title cache.
 	"""
 	# A supplied task map replaces the legacy file-exists definition of live.
 	if task_owned_patterns is not None:
-		live_cores, live_bbq_basenames = compute_live_state(topic_folder, task_owned_patterns)
-	else:
-		_, live_bbq_basenames = compute_live_state(topic_folder)
+		live_cores, _ = compute_live_state(topic_folder, task_owned_patterns)
 
 	plan = {
 		"delete_sources": [],
@@ -566,14 +558,7 @@ def reconcile_topic(
 		if removed > 0:
 			plan["strip_includes"].append({"path": index_md_path, "removed": removed})
 
-	# Target 3: stale problem_set_titles.yml keys -> drop
-	yaml_path = os.path.join(topic_folder, "problem_set_titles.yml")
-	if os.path.isfile(yaml_path):
-		dropped = prune_title_cache(yaml_path, live_bbq_basenames, dry_run)
-		if dropped > 0:
-			plan["drop_cache_keys"].append({"path": yaml_path, "dropped": dropped})
-
-	# Target 4: orphan topic-level pgml/pg masters -> quarantine (never delete)
+	# Target 3: orphan topic-level pgml/pg masters -> quarantine (never delete)
 	for src_path in find_orphan_sources(topic_folder, live_cores):
 		dest_path = quarantine_dest(src_path)
 		plan["quarantine_sources"].append({"src": src_path, "dest": dest_path})
@@ -592,15 +577,14 @@ def reconcile_all(
 	) -> dict:
 	"""Reconcile every topic under a site_docs dir against its live cores.
 
-	Builds the git tracked-set once, globs the same topic-folder shape as
-	topic_page.render_all (*/topic??/), computes live cores per topic, and
-	runs reconcile_topic for each. The per-topic plans are aggregated into a
-	single combined plan. With dry_run=True no mutation occurs.
+	Builds the git tracked-set once, reconciles every topic folder, and gathers
+	all live BBQ basenames before pruning the shared title cache once. With
+	dry_run=True no mutation occurs.
 
 	Args:
 		site_docs_dir (str): The mkdocs docs_dir to scan for topic folders.
 		dry_run (bool): When True, plan only; perform no mutation.
-		verbose (bool): When True, print a per-topic action summary.
+		verbose (bool): When True, print topic and global-cache action summaries.
 
 	Returns:
 		dict: Combined risk-grouped action plan across all topics, with keys
@@ -621,13 +605,15 @@ def reconcile_all(
 		"quarantine_sources": [],
 		"unmanaged": [],
 	}
-	# Reconcile each topic and fold its plan into the combined plan
+	all_live_bbq_basenames = set()
+	# Reconcile each topic and collect its currently owned BBQ basenames.
 	for topic_folder in all_topic_folders:
 		# A missing topic key means no current task owns this topic's BBQ files.
 		patterns = None
 		if task_owned_pattern_map is not None:
 			patterns = task_owned_pattern_map.get(os.path.realpath(topic_folder), [])
-		live_cores, _ = compute_live_state(topic_folder, patterns)
+		live_cores, live_bbq_basenames = compute_live_state(topic_folder, patterns)
+		all_live_bbq_basenames.update(live_bbq_basenames)
 		plan = reconcile_topic(topic_folder, live_cores, tracked_set, dry_run, patterns)
 		for key in combined:
 			combined[key].extend(plan[key])
@@ -637,11 +623,20 @@ def reconcile_all(
 				f"delete-sources={len(plan['delete_sources'])} "
 				f"delete-downloads={len(plan['delete_downloads'])} "
 				f"strip={len(plan['strip_includes'])} "
-				f"drop={len(plan['drop_cache_keys'])} "
 				f"quarantine={len(plan['quarantine_sources'])} "
 				f"unmanaged={len(plan['unmanaged'])}"
 			)
 			print(summary)
+	cache_path = title_cache.path_for_site_docs(site_docs_dir)
+	if cache_path.is_file():
+		dropped = prune_title_cache(str(cache_path), all_live_bbq_basenames, dry_run)
+		if dropped > 0:
+			combined["drop_cache_keys"].append({"path": str(cache_path), "dropped": dropped})
+			if verbose:
+				print(
+					f"  {git_paths.display_path(cache_path)}: "
+					f"drop-title-cache-keys={dropped}"
+				)
 	return combined
 
 

@@ -24,6 +24,7 @@ import yaml
 import bioproblems_site.formats as formats_module
 import bioproblems_site.git_paths as git_paths
 import bioproblems_site.metadata as bp_metadata
+import bioproblems_site.title_cache as title_cache
 from bioproblems_site.topic_metadata import (
 	get_docs_dir,
 	get_libretexts_link,
@@ -539,7 +540,7 @@ def generate_download_button_row(
 
 #============================================
 
-def is_valid_title(title: str) -> bool:
+def is_valid_title(title: object) -> bool:
 	"""
 	Check whether a problem set title is valid.
 
@@ -549,6 +550,8 @@ def is_valid_title(title: str) -> bool:
 	Returns:
 		bool: True if the title passes all checks, False otherwise.
 	"""
+	if not isinstance(title, str):
+		return False
 	# Reject titles longer than 140 characters
 	if len(title) > 140:
 		return False
@@ -572,21 +575,9 @@ def get_problem_set_title(client: object, bbq_file: str) -> str:
 	Returns:
 		str: The title of the problem set.
 	"""
-	# Normalize and obtain the directory path of the file
-	bbq_file_path = os.path.normpath(bbq_file)
-	dir_path = os.path.dirname(bbq_file_path)
-
-	# Define the path for the YAML file containing problem set titles
-	problem_set_title_yaml = os.path.join(dir_path, 'problem_set_titles.yml')
-
-	# Check if the YAML file exists
-	if os.path.isfile(problem_set_title_yaml):
-		# Load the YAML data if the file exists
-		with open(problem_set_title_yaml, 'r') as problem_set_title_file_pointer:
-			problem_set_title_data = yaml.safe_load(problem_set_title_file_pointer)
-	else:
-		# Initialize an empty dictionary if the file doesn't exist
-		problem_set_title_data = {}
+	# Load the one repository-wide map instead of a topic-local cache.
+	problem_set_title_yaml = title_cache.path_for_source(bbq_file)
+	problem_set_title_data = title_cache.load(problem_set_title_yaml)
 
 	# Extract the base file name from the input path
 	bbq_file_basename = os.path.basename(bbq_file)
@@ -616,11 +607,10 @@ def get_problem_set_title(client: object, bbq_file: str) -> str:
 
 	# Update the YAML data with the newly generated title and a timestamp of the edit
 	problem_set_title_data[bbq_file_basename] = problem_set_title
-	problem_set_title_data['last edit'] = time.asctime()
+	problem_set_title_data[title_cache.LAST_EDIT_KEY] = time.asctime()
 
-	# Write the updated data back to the YAML file
-	with open(problem_set_title_yaml, "w") as problem_set_title_file_pointer:
-		yaml.dump(problem_set_title_data, problem_set_title_file_pointer)
+	# Atomically update the shared map so interrupted writes preserve its prior state.
+	title_cache.save(problem_set_title_yaml, problem_set_title_data)
 
 	# Return the newly generated problem set title
 	return problem_set_title

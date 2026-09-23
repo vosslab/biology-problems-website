@@ -239,21 +239,14 @@ def test_prune_title_cache_drops_stale_keeps_live_and_meta(tmp_path: object) -> 
 
 def test_reconcile_topic_dry_run_no_mutation(tmp_path: object) -> object:
 	topic_folder = str(tmp_path)
-	# Live bbq file plus a dead include, dead artifact, and stale cache key
+	# Live bbq file plus a dead include and dead artifact
 	pathlib.Path(os.path.join(topic_folder, "bbq-alpha-questions.txt")).touch()
 	_make_downloads(tmp_path, ["selftest-ghost.html"])
 	index_lines = ['{% include "downloads/selftest-ghost.html" %}\n']
 	index_path = _write_index(tmp_path, index_lines)
-	yaml_path = os.path.join(topic_folder, "problem_set_titles.yml")
-	with open(yaml_path, "w") as yaml_file:
-		yaml.dump({"bbq-ghost-questions.txt": "x", "last edit": "now"}, yaml_file)
-
 	# Capture file contents before the dry_run call
 	with open(index_path, "r") as index_file:
 		index_before = index_file.read()
-	with open(yaml_path, "rb") as yaml_file:
-		yaml_before = yaml_file.read()
-
 	plan = orphan_prune.reconcile_topic(topic_folder, {"alpha"}, set(), dry_run=True)
 
 	# The plan reports the orphan download and the stripped include
@@ -264,9 +257,6 @@ def test_reconcile_topic_dry_run_no_mutation(tmp_path: object) -> object:
 	# No mutation: index.md is byte-identical after dry_run
 	with open(index_path, "r") as index_file:
 		assert index_file.read() == index_before
-	# No mutation: problem_set_titles.yml is byte-identical after dry_run
-	with open(yaml_path, "rb") as yaml_file:
-		assert yaml_file.read() == yaml_before
 
 
 #============================================
@@ -288,12 +278,6 @@ def test_task_owned_patterns_prune_unmatched_source_and_derivatives(tmp_path: pa
 		'{% include "downloads/selftest-owned.html" %}\n'
 		'{% include "downloads/selftest-removed.html" %}\n'
 	)
-	cache_path = topic_folder / "problem_set_titles.yml"
-	cache_path.write_text(
-		"bbq-owned-questions.txt: Owned\n"
-		"bbq-removed-questions.txt: Removed\n"
-		"last edit: now\n"
-	)
 	patterns = [({"bbq-owned"}, ("-questions.txt",), set())]
 
 	dry_run_plan = orphan_prune.reconcile_topic(
@@ -310,7 +294,6 @@ def test_task_owned_patterns_prune_unmatched_source_and_derivatives(tmp_path: pa
 	assert owned_download.is_file()
 	assert orphan_download.is_file()
 	assert "selftest-removed.html" in index_path.read_text()
-	assert "bbq-removed-questions.txt" in cache_path.read_text()
 
 	real_plan = orphan_prune.reconcile_topic(
 		str(topic_folder), set(), set(), dry_run=False, task_owned_patterns=patterns,
@@ -324,5 +307,3 @@ def test_task_owned_patterns_prune_unmatched_source_and_derivatives(tmp_path: pa
 	assert not orphan_download.exists()
 	assert "selftest-owned.html" in index_path.read_text()
 	assert "selftest-removed.html" not in index_path.read_text()
-	assert "bbq-owned-questions.txt" in cache_path.read_text()
-	assert "bbq-removed-questions.txt" not in cache_path.read_text()

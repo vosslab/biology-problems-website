@@ -3,17 +3,17 @@
 
 Builds a throwaway git repo with one topic that has a live bbq file, its 4
 generated download artifacts, a downloads/ pgml copy, a TOPIC-LEVEL pgml
-master, an index.md self-test include, and a problem_set_titles.yml cache
-key. After committing so everything is tracked, the bbq source file is
-deleted and reconcile is run. The check asserts the locked file-class
-policy end to end:
+master, an index.md self-test include, and the repository-wide
+problem_set_titles.yml cache. After committing so everything is tracked, the
+bbq source file is deleted and reconcile is run. The check asserts the locked
+file-class policy end to end:
 
   - the 4 downloads artifacts AND the downloads pgml copy are git-rm staged
     (gone from worktree, staged as deletions),
   - the TOPIC-LEVEL pgml master is git-mv staged to the FLAT orphaned/
     folder (present there, not deleted),
   - the orphan self-test include line is stripped from index.md,
-  - the stale key is dropped from problem_set_titles.yml,
+  - the stale key is dropped while a title for another live topic is kept,
   - a second reconcile that would collide with an existing orphaned/<name>
     raises FileExistsError,
   - a dry-run leaves index.md / yml / artifact bytes+mtimes unchanged and
@@ -94,12 +94,16 @@ def build_repo(repo_root: str) -> dict:
 		dict: Named paths used by the assertions.
 	"""
 	topic_dir = os.path.join(repo_root, "site_docs", "subj", "topic01")
+	other_topic_dir = os.path.join(repo_root, "site_docs", "subj", "topic02")
 	downloads_dir = os.path.join(topic_dir, "downloads")
 	os.makedirs(downloads_dir, exist_ok=True)
+	os.makedirs(other_topic_dir, exist_ok=True)
 
 	# The live bbq source file (its deletion triggers the orphan state)
 	bbq_path = os.path.join(topic_dir, BBQ_NAME)
 	write_file(bbq_path, "1. question alpha\n")
+	other_bbq_path = os.path.join(other_topic_dir, "bbq-beta-questions.txt")
+	write_file(other_bbq_path, "1. question beta\n")
 
 	# The 4 generated download artifacts for the core
 	for artifact_name in ARTIFACT_NAMES:
@@ -123,10 +127,11 @@ def build_repo(repo_root: str) -> dict:
 	)
 	write_file(index_path, index_text)
 
-	# problem_set_titles.yml cache with the bbq key plus the meta key
-	yaml_path = os.path.join(topic_dir, "problem_set_titles.yml")
+	# Repository-wide title map includes one stale and one still-live key.
+	yaml_path = os.path.join(repo_root, "problem_set_titles.yml")
 	yaml_text = (
 		f"{BBQ_NAME}: Alpha title\n"
+		"bbq-beta-questions.txt: Beta title\n"
 		"last edit: 2026-06-09\n"
 	)
 	write_file(yaml_path, yaml_text)
@@ -262,6 +267,7 @@ def check_live_run(repo_root: str, paths: dict) -> None:
 	with open(paths["yaml_path"], "r") as yaml_file:
 		yaml_after = yaml_file.read()
 	assert BBQ_NAME not in yaml_after, "stale title key not dropped"
+	assert "bbq-beta-questions.txt" in yaml_after, "live title from another topic was dropped"
 	assert "last edit" in yaml_after, "meta key was lost"
 
 

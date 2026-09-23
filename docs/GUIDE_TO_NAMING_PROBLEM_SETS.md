@@ -1,7 +1,8 @@
 # Guide to naming problem sets
 
-This guide defines how to name entries in `problem_set_titles.yml` so titles are
-consistent, informative, and easy to scan.
+This guide defines how to name entries in the repository-root
+`problem_set_titles.yml`. It is the shared title map for every subject and
+topic, so one BBQ filename has one title across the site.
 
 Titles are topic labels rather than student instructions. Most titles emphasize
 the concept first. Matching and true/false multiple-statement sets are useful
@@ -83,5 +84,5 @@ Examples of key details:
 
 ## Updating timestamps
 
-When a `problem_set_titles.yml` file is updated, refresh the `last edit` entry
-to reflect the current time.
+When the root `problem_set_titles.yml` is updated, refresh its `last edit`
+entry to reflect the current time.

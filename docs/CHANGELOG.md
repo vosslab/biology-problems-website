@@ -28,6 +28,10 @@
 - Each configured build now writes one fresh `bbq_generation.log` across all CSV rows;
   errors share that log, and numbered backups are removed at startup.
 - Build status and diagnostic paths are shown relative to the current working directory.
+- Consolidated per-topic `problem_set_titles.yml` caches into one repository-root
+  title map shared by every subject and topic. Title generation and the public
+  question index now read the shared map; repository-wide orphan reconciliation
+  prunes stale title keys once against all live BBQ basenames.
 
 ## 2026-09-22
 
