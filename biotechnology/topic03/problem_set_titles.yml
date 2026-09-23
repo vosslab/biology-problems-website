@@ -1,7 +1,0 @@
-bbq-isoelectric_one_protein-questions.txt: Protein Net Charge at a Given pH
-bbq-isoelectric_two_proteins-questions.txt: Protein Migration Direction in Isoelectric
-  Focusing
-bbq-kaleidoscope_ladder_unknown_band-questions.txt: Protein Molecular Weight from
-  an SDS-PAGE Ladder
-bbq-protein_gel_migration-questions.txt: Protein Molecular Weight from SDS-PAGE Migration
-last edit: Sun Jul 12 23:11:26 2026
