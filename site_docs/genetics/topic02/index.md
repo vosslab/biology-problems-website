@@ -4,7 +4,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 
 **LibreTexts reference:** [Chapter 2: DNA Structure and Sequences](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/02:_DNA_Structure_and_Sequences) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/02:_DNA_Structure_and_Sequences" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 2" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
-## True/False Statements About DNA Structure
+## True/False Statements About DNA Structure (BIOL 351)
 
 <div id="TFMS-dna_structure-biol_351-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-TFMS-dna_structure-biol_351-questions.txt" download title="Download bbq-TFMS-dna_structure-biol_351-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-dna_structure-biol_351-questions.txt)">
@@ -28,7 +28,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About DNA Structure
+      True/False Statements About DNA Structure (BIOL 351)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -144,7 +144,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## DNA Base Composition Using Chargaff's Rules
+## DNA Base Composition Using Chargaff's Rules (5 Choices)
 
 <div id="chargaff_dna_percent-5_choices-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-chargaff_dna_percent-5_choices-questions.txt" download title="Download bbq-chargaff_dna_percent-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-chargaff_dna_percent-5_choices-questions.txt)">
@@ -165,13 +165,109 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      DNA Base Composition Using Chargaff's Rules
+      DNA Base Composition Using Chargaff's Rules (5 Choices)
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
   {% include "genetics/topic02/downloads/selftest-chargaff_dna_percent-5_choices.html" %}
+
+</details>
+
+
+## Restriction Digest Band Sizes for Circular DNA (10 kb, 2 Sites)
+
+<div id="circular_digest-length_10-sites_2_selected-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-circular_digest-length_10-sites_2_selected-questions.txt" download title="Download bbq-circular_digest-length_10-sites_2_selected-questions.txt" aria-label="Click to download the BBQ Text file (bbq-circular_digest-length_10-sites_2_selected-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-circular_digest-length_10-sites_2_selected.zip" download title="Download blackboard_export_zip-circular_digest-length_10-sites_2_selected.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-circular_digest-length_10-sites_2_selected.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-circular_digest-length_10-sites_2_selected.zip" download title="Download canvas_qti_v1_2-circular_digest-length_10-sites_2_selected.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-circular_digest-length_10-sites_2_selected.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-circular_digest-length_10-sites_2_selected.html', '_blank')" title="View human_readable-circular_digest-length_10-sites_2_selected.html" aria-label="Click to view the Human-Readable TXT file (human_readable-circular_digest-length_10-sites_2_selected.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Restriction Digest Band Sizes for Circular DNA (10 kb, 2 Sites)
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic02/downloads/selftest-circular_digest-length_10-sites_2_selected.html" %}
+
+</details>
+
+
+## Band Sizes from Circular DNA Restriction Digests (12 kb, 3 Sites)
+
+<div id="circular_digest-length_12-sites_3_selected-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-circular_digest-length_12-sites_3_selected-questions.txt" download title="Download bbq-circular_digest-length_12-sites_3_selected-questions.txt" aria-label="Click to download the BBQ Text file (bbq-circular_digest-length_12-sites_3_selected-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-circular_digest-length_12-sites_3_selected.zip" download title="Download blackboard_export_zip-circular_digest-length_12-sites_3_selected.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-circular_digest-length_12-sites_3_selected.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-circular_digest-length_12-sites_3_selected.zip" download title="Download canvas_qti_v1_2-circular_digest-length_12-sites_3_selected.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-circular_digest-length_12-sites_3_selected.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-circular_digest-length_12-sites_3_selected.html', '_blank')" title="View human_readable-circular_digest-length_12-sites_3_selected.html" aria-label="Click to view the Human-Readable TXT file (human_readable-circular_digest-length_12-sites_3_selected.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Band Sizes from Circular DNA Restriction Digests (12 kb, 3 Sites)
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic02/downloads/selftest-circular_digest-length_12-sites_3_selected.html" %}
+
+</details>
+
+
+## Restriction Fragment Sizes from Circular DNA Maps (16 kb, 3 Sites)
+
+<div id="circular_digest-length_16-sites_3_selected-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-circular_digest-length_16-sites_3_selected-questions.txt" download title="Download bbq-circular_digest-length_16-sites_3_selected-questions.txt" aria-label="Click to download the BBQ Text file (bbq-circular_digest-length_16-sites_3_selected-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-circular_digest-length_16-sites_3_selected.zip" download title="Download blackboard_export_zip-circular_digest-length_16-sites_3_selected.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-circular_digest-length_16-sites_3_selected.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-circular_digest-length_16-sites_3_selected.zip" download title="Download canvas_qti_v1_2-circular_digest-length_16-sites_3_selected.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-circular_digest-length_16-sites_3_selected.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-circular_digest-length_16-sites_3_selected.html', '_blank')" title="View human_readable-circular_digest-length_16-sites_3_selected.html" aria-label="Click to view the Human-Readable TXT file (human_readable-circular_digest-length_16-sites_3_selected.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Restriction Fragment Sizes from Circular DNA Maps (16 kb, 3 Sites)
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic02/downloads/selftest-circular_digest-length_16-sites_3_selected.html" %}
 
 </details>
 
@@ -236,6 +332,198 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
     </span>
   </summary>
   {% include "genetics/topic02/downloads/selftest-complementary_sequences-mc-prime.html" %}
+
+</details>
+
+
+## DNA Fragment Sizes from Single Restriction Enzyme Digests (10 kb Linear Map, 2 Sites)
+
+<div id="linear_digest-len_10-sites_2-fragment-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-linear_digest-len_10-sites_2-fragment-questions.txt" download title="Download bbq-linear_digest-len_10-sites_2-fragment-questions.txt" aria-label="Click to download the BBQ Text file (bbq-linear_digest-len_10-sites_2-fragment-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-linear_digest-len_10-sites_2-fragment.zip" download title="Download blackboard_export_zip-linear_digest-len_10-sites_2-fragment.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-linear_digest-len_10-sites_2-fragment.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-linear_digest-len_10-sites_2-fragment.zip" download title="Download canvas_qti_v1_2-linear_digest-len_10-sites_2-fragment.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-linear_digest-len_10-sites_2-fragment.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-linear_digest-len_10-sites_2-fragment.html', '_blank')" title="View human_readable-linear_digest-len_10-sites_2-fragment.html" aria-label="Click to view the Human-Readable TXT file (human_readable-linear_digest-len_10-sites_2-fragment.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      DNA Fragment Sizes from Single Restriction Enzyme Digests (10 kb Linear Map, 2 Sites)
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic02/downloads/selftest-linear_digest-len_10-sites_2-fragment.html" %}
+
+</details>
+
+
+## Restriction Digest Fragment Sizes on a Linear DNA Map (10 kb, 3 Sites)
+
+<div id="linear_digest-len_10-sites_3-strand-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-linear_digest-len_10-sites_3-strand-questions.txt" download title="Download bbq-linear_digest-len_10-sites_3-strand-questions.txt" aria-label="Click to download the BBQ Text file (bbq-linear_digest-len_10-sites_3-strand-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-linear_digest-len_10-sites_3-strand.zip" download title="Download blackboard_export_zip-linear_digest-len_10-sites_3-strand.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-linear_digest-len_10-sites_3-strand.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-linear_digest-len_10-sites_3-strand.zip" download title="Download canvas_qti_v1_2-linear_digest-len_10-sites_3-strand.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-linear_digest-len_10-sites_3-strand.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-linear_digest-len_10-sites_3-strand.html', '_blank')" title="View human_readable-linear_digest-len_10-sites_3-strand.html" aria-label="Click to view the Human-Readable TXT file (human_readable-linear_digest-len_10-sites_3-strand.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Restriction Digest Fragment Sizes on a Linear DNA Map (10 kb, 3 Sites)
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic02/downloads/selftest-linear_digest-len_10-sites_3-strand.html" %}
+
+</details>
+
+
+## Restriction Digest Band Sizes of a Linear DNA Fragment (12 kb, 3 Sites)
+
+<div id="linear_digest-len_12-sites_3-fragment-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-linear_digest-len_12-sites_3-fragment-questions.txt" download title="Download bbq-linear_digest-len_12-sites_3-fragment-questions.txt" aria-label="Click to download the BBQ Text file (bbq-linear_digest-len_12-sites_3-fragment-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-linear_digest-len_12-sites_3-fragment.zip" download title="Download blackboard_export_zip-linear_digest-len_12-sites_3-fragment.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-linear_digest-len_12-sites_3-fragment.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-linear_digest-len_12-sites_3-fragment.zip" download title="Download canvas_qti_v1_2-linear_digest-len_12-sites_3-fragment.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-linear_digest-len_12-sites_3-fragment.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-linear_digest-len_12-sites_3-fragment.html', '_blank')" title="View human_readable-linear_digest-len_12-sites_3-fragment.html" aria-label="Click to view the Human-Readable TXT file (human_readable-linear_digest-len_12-sites_3-fragment.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Restriction Digest Band Sizes of a Linear DNA Fragment (12 kb, 3 Sites)
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic02/downloads/selftest-linear_digest-len_12-sites_3-fragment.html" %}
+
+</details>
+
+
+## Restriction Digest Fragment Sizes on a Linear DNA Map (12 kb, 3 Sites)
+
+<div id="linear_digest-len_12-sites_3-strand-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-linear_digest-len_12-sites_3-strand-questions.txt" download title="Download bbq-linear_digest-len_12-sites_3-strand-questions.txt" aria-label="Click to download the BBQ Text file (bbq-linear_digest-len_12-sites_3-strand-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-linear_digest-len_12-sites_3-strand.zip" download title="Download blackboard_export_zip-linear_digest-len_12-sites_3-strand.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-linear_digest-len_12-sites_3-strand.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-linear_digest-len_12-sites_3-strand.zip" download title="Download canvas_qti_v1_2-linear_digest-len_12-sites_3-strand.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-linear_digest-len_12-sites_3-strand.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-linear_digest-len_12-sites_3-strand.html', '_blank')" title="View human_readable-linear_digest-len_12-sites_3-strand.html" aria-label="Click to view the Human-Readable TXT file (human_readable-linear_digest-len_12-sites_3-strand.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Restriction Digest Fragment Sizes on a Linear DNA Map (12 kb, 3 Sites)
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic02/downloads/selftest-linear_digest-len_12-sites_3-strand.html" %}
+
+</details>
+
+
+## Restriction Fragment Sizes from Linear DNA Maps (16 kb, 4 Sites)
+
+<div id="linear_digest-len_16-sites_4-fragment-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-linear_digest-len_16-sites_4-fragment-questions.txt" download title="Download bbq-linear_digest-len_16-sites_4-fragment-questions.txt" aria-label="Click to download the BBQ Text file (bbq-linear_digest-len_16-sites_4-fragment-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-linear_digest-len_16-sites_4-fragment.zip" download title="Download blackboard_export_zip-linear_digest-len_16-sites_4-fragment.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-linear_digest-len_16-sites_4-fragment.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-linear_digest-len_16-sites_4-fragment.zip" download title="Download canvas_qti_v1_2-linear_digest-len_16-sites_4-fragment.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-linear_digest-len_16-sites_4-fragment.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-linear_digest-len_16-sites_4-fragment.html', '_blank')" title="View human_readable-linear_digest-len_16-sites_4-fragment.html" aria-label="Click to view the Human-Readable TXT file (human_readable-linear_digest-len_16-sites_4-fragment.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Restriction Fragment Sizes from Linear DNA Maps (16 kb, 4 Sites)
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic02/downloads/selftest-linear_digest-len_16-sites_4-fragment.html" %}
+
+</details>
+
+
+## Restriction Digest Band Sizes from Linear DNA Maps (16 kb, 4 Sites)
+
+<div id="linear_digest-len_16-sites_4-strand-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-linear_digest-len_16-sites_4-strand-questions.txt" download title="Download bbq-linear_digest-len_16-sites_4-strand-questions.txt" aria-label="Click to download the BBQ Text file (bbq-linear_digest-len_16-sites_4-strand-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-linear_digest-len_16-sites_4-strand.zip" download title="Download blackboard_export_zip-linear_digest-len_16-sites_4-strand.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-linear_digest-len_16-sites_4-strand.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-linear_digest-len_16-sites_4-strand.zip" download title="Download canvas_qti_v1_2-linear_digest-len_16-sites_4-strand.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-linear_digest-len_16-sites_4-strand.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-linear_digest-len_16-sites_4-strand.html', '_blank')" title="View human_readable-linear_digest-len_16-sites_4-strand.html" aria-label="Click to view the Human-Readable TXT file (human_readable-linear_digest-len_16-sites_4-strand.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Restriction Digest Band Sizes from Linear DNA Maps (16 kb, 4 Sites)
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic02/downloads/selftest-linear_digest-len_16-sites_4-strand.html" %}
 
 </details>
 
@@ -368,7 +656,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## Restriction Enzyme Cuts: Determining Overhang Sequences
+## Restriction Enzyme Overhang Sequences
 
 <div id="overhang_sequence-mc-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-overhang_sequence-mc-questions.txt" download title="Download bbq-overhang_sequence-mc-questions.txt" aria-label="Click to download the BBQ Text file (bbq-overhang_sequence-mc-questions.txt)">
@@ -389,7 +677,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Enzyme Cuts: Determining Overhang Sequences
+      Restriction Enzyme Overhang Sequences
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -400,7 +688,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## Restriction Enzyme Cuts: Identifying 5' Overhangs, 3' Overhangs, or Blunt Ends
+## Restriction Enzyme Cut Types (5', 3', or Blunt)
 
 <div id="overhang_type-5_3_blunt-button-container" class="button-container">
 <a class="md-button custom-button bb_text" href="bbq-overhang_type-5_3_blunt-questions.txt" download title="Download bbq-overhang_type-5_3_blunt-questions.txt" aria-label="Click to download the BBQ Text file (bbq-overhang_type-5_3_blunt-questions.txt)">
@@ -421,7 +709,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Enzyme Cuts: Identifying 5' Overhangs, 3' Overhangs, or Blunt Ends
+      Restriction Enzyme Cut Types (5', 3', or Blunt)
     </span>
     <span style='font-weight: normal;'>
       example problem
