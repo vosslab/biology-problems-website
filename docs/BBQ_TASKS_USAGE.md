@@ -36,14 +36,20 @@ build:
 source source_me.sh && ./build_site.py
 ```
 
-Only an unrestricted all-task run receives the 199-question maximum. A selected
-CSV (`--task`) keeps each configured generator's own
-question limit; scoped `-S/--subject` and `-l/--limit` runs do not receive the
-all-task default. The public command accepts `-S/--subject`, `-t/--task`,
-`-l/--limit`, `-R/--shuffle`, `-b/--backend`, `-n/--dry-run`, `-F/--rebuild`, and
-`-m/--model`. `--rebuild` forces regeneration within the selected filters; with
-no filters, it rebuilds all configured tasks and topics. The older `--full`
-spelling remains accepted. Use
+Only an unrestricted all-task run receives the 199-question maximum by default.
+A selected CSV (`--task`), subject (`-S/--subject`), or limited (`-l/--limit`)
+run keeps each configured generator's own limit. Use `-x/--max-questions N` to
+set the common maximum for task rows without their own `-x` flag, for example:
+
+```bash
+source source_me.sh && ./build_site.py -x 99
+```
+
+The public command accepts `-S/--subject`, `-t/--task`, `-l/--limit`,
+`-x/--max-questions`, `-R/--shuffle`, `-b/--backend`, `-n/--dry-run`,
+`-F/--rebuild`, and `-m/--model`. `--rebuild` forces regeneration within the
+selected filters; with no filters, it rebuilds all configured tasks and topics.
+The older `--full` spelling remains accepted. Use
 `--backend codex` to generate page titles through the configured Codex CLI
 instead of Ollama.
 

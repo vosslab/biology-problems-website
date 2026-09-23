@@ -8,6 +8,8 @@
   coordinator pipeline, with live finish estimates and confirmed cooperative cancellation.
 - Added mutually exclusive `--cli` and `--tui` options to select plain output or
   explicitly request the dashboard; automatic TTY detection remains the default.
+- Restored `-x/--max-questions` on `build_site.py` so CLI and TUI builds can set
+  a common per-task question maximum; unrestricted builds default to 199.
 
 ### Fixes and Maintenance
 
