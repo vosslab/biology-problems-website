@@ -44,7 +44,7 @@ molecular_biology,transcription,{bp_root}/molecular_biology-problems/rna_transcr
 molecular_biology,transcription,{bp_root}/molecular_biology-problems/rna_transcribe_prime_fill_blank.py,,,
 ,,,,,
 molecular_biology,rna_processing_crispr,{bp_root}/molecular_biology-problems/exon_splicing.py,,,
-molecular_biology,rna_processing_crispr,YMCS,,{bp_mcs}/molecular_biology/mRNA_processing.yml,
+molecular_biology,rna_processing_crispr,YMCS,-c 4,{bp_mcs}/molecular_biology/mRNA_processing.yml,
 molecular_biology,rna_processing_crispr,YMCS,,{bp_mcs}/molecular_biology/intron_splicing.yml,
 ,,,,,
 molecular_biology,translation,{bp_root}/molecular_biology-problems/translate_genetic_code.py,,,
