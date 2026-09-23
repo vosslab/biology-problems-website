@@ -17,16 +17,17 @@ def test_question_index_uses_cached_titles_and_fallbacks(tmp_path: Path) -> None
 		key="biology", title="Biology", description="Biology questions.",
 		topics=(topic,),
 	)
-	topic_dir = tmp_path / "biology" / "topic01"
+	site_docs_dir = tmp_path / "site_docs"
+	topic_dir = site_docs_dir / "biology" / "topic01"
 	topic_dir.mkdir(parents=True)
 	(topic_dir / "bbq-cells-questions.txt").write_text("MC\tQuestion\n")
 	(topic_dir / "bbq-missing-title-questions.txt").write_text("MC\tQuestion\n")
-	(topic_dir / "problem_set_titles.yml").write_text(
+	(tmp_path / "problem_set_titles.yml").write_text(
 		"bbq-cells-questions.txt: Cell Membranes\n"
 	)
 
 	entries = question_index.collect_entries(
-		tmp_path, {"biology": subject}, ("biology",),
+		site_docs_dir, {"biology": subject}, ("biology",),
 	)
 	text = question_index.render(entries)
 

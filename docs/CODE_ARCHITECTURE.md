@@ -19,6 +19,8 @@ CLI exposes one dependency-aware content build workflow.
   cached topic title, description, and LibreTexts metadata lookup.
 - [bioproblems_site/topic_page.py](../bioproblems_site/topic_page.py): topic
   page rendering and generated-download helpers.
+- [bioproblems_site/title_cache.py](../bioproblems_site/title_cache.py): shared
+  title-cache path, YAML parsing, and atomic publication.
 - [bioproblems_site/question_index.py](../bioproblems_site/question_index.py):
   generated human-readable problem-set title index.
 - [bioproblems_site/llm_helpers.py](../bioproblems_site/llm_helpers.py):
@@ -42,6 +44,8 @@ CLI exposes one dependency-aware content build workflow.
   package, including the task CSV topic sorter and Ultra transfer audit.
 - [task_files/](../task_files/) and [bbq_settings.yml](../bbq_settings.yml):
   BBQ operational inputs.
+- [problem_set_titles.yml](../problem_set_titles.yml): shared generated-title
+  cache keyed by BBQ source basename across every subject and topic.
 
 The remaining `devel/` helpers are propagated repository-maintenance commands for
 versioning, changelog, release, graphify, and cleanup workflows.
@@ -64,7 +68,8 @@ Topic aliases are resolved by
 [bioproblems_site/topic_aliases.py](../bioproblems_site/topic_aliases.py) while
 task CSVs load. A CSV row becomes a subject-qualified canonical topic before its
 downstream stages run. The index stage reconciles generated artifacts against the
-live BBQ question files before writing the self-test manifest.
+live BBQ question files, prunes the shared title cache against all live source
+basenames, and then writes the self-test manifest.
 
 ## Extension points
 
