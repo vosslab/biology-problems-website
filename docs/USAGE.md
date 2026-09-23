@@ -80,8 +80,9 @@ Common flags:
   cover the repository. The self-test manifest refreshes selected topics while
   retaining current rows for other topics; an unrestricted build validates it
   globally.
-- `-T/--topic topic01`: focus on one canonical topic within the selected subject;
-  combine it with `-S/--subject`.
+- `-T/--topic topic01`: focus on one topic within the selected subject. Use its
+  canonical key, metadata alias, or display title, such as `topic01`,
+  `genetic_disorders`, or `Genetic Disorders`; combine it with `-S/--subject`.
 - `-t/--task task_files/genetics_tasks1.csv`: select one configured CSV.
 - `-l/--limit 1`: limit the number of CSV task rows during development.
 - `-R/--shuffle`: shuffle BBQ task order before applying `--limit`.
@@ -90,7 +91,9 @@ Common flags:
   CLI model when `--model` is omitted.
 - `-n/--dry-run`: report planned work without generators, LLM calls, subprocesses,
   or writes.
-- `-F/--full`: bypass stale checks within the selected subject, task, or limit scope.
+- `-F/--rebuild`: regenerate outputs even when current. Subject, topic, task,
+  and limit filters still apply; with no filters, rebuild all configured tasks
+  and topics. The older `--full` spelling still works.
 - `-m/--model MODEL`: use a specific model with the selected title-generation backend.
 
 An unrestricted run applies the all-task 199-question maximum. A selected CSV,

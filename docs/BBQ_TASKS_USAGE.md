@@ -20,8 +20,10 @@ Combine a subject and topic filter for a focused run:
 source source_me.sh && ./build_site.py -S genetics -T topic01
 ```
 
-`--topic` accepts a canonical `topicNN` key and requires `--subject`. When used
-with `--task`, it selects only that subject/topic's rows from the chosen CSV.
+`--topic` accepts a canonical `topicNN` key, a metadata alias, or the topic's
+display title, and requires `--subject`. For example, these all select the same
+Genetics topic: `topic01`, `genetic_disorders`, and `Genetic Disorders`. When
+used with `--task`, it selects only that subject/topic's rows from the chosen CSV.
 
 ## Run every task file
 
@@ -38,8 +40,10 @@ Only an unrestricted all-task run receives the 199-question maximum. A selected
 CSV (`--task`) keeps each configured generator's own
 question limit; scoped `-S/--subject` and `-l/--limit` runs do not receive the
 all-task default. The public command accepts `-S/--subject`, `-t/--task`,
-`-l/--limit`, `-R/--shuffle`, `-b/--backend`, `-n/--dry-run`, `-F/--full`, and
-`-m/--model`. Use
+`-l/--limit`, `-R/--shuffle`, `-b/--backend`, `-n/--dry-run`, `-F/--rebuild`, and
+`-m/--model`. `--rebuild` forces regeneration within the selected filters; with
+no filters, it rebuilds all configured tasks and topics. The older `--full`
+spelling remains accepted. Use
 `--backend codex` to generate page titles through the configured Codex CLI
 instead of Ollama.
 

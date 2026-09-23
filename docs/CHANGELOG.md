@@ -32,6 +32,10 @@
   title map shared by every subject and topic. Title generation and the public
   question index now read the shared map; repository-wide orphan reconciliation
   prunes stale title keys once against all live BBQ basenames.
+- The `-T/--topic` filter accepts a canonical key, metadata alias, or display
+  title and resolves each form to the same canonical topic internally.
+- Added `--rebuild` as the clearer spelling for `-F`; it forces work only within
+  the selected filters. The existing `--full` spelling remains accepted.
 
 ## 2026-09-22
 

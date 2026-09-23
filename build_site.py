@@ -25,11 +25,12 @@ def build_parser() -> argparse.ArgumentParser:
 			"  ./build_site.py\n"
 			"  ./build_site.py -S genetics\n"
 			"  ./build_site.py -S genetics -T topic01\n"
+			"  ./build_site.py -S genetics -T 'Genetic Disorders'\n"
 			"  ./build_site.py --task task_files/genetics_tasks1.csv\n"
 			"  ./build_site.py -R -l 1\n"
 			"  ./build_site.py -b codex\n"
 			"  ./build_site.py -n\n"
-			"  ./build_site.py -F"
+			"  ./build_site.py -S genetics -T topic01 --rebuild"
 		),
 		formatter_class=argparse.RawDescriptionHelpFormatter,
 	)
@@ -40,7 +41,7 @@ def build_parser() -> argparse.ArgumentParser:
 	)
 	parser.add_argument(
 		"-T", "--topic", dest="topic", metavar="TOPIC",
-		help="Build one canonical topic within --subject, for example topic01.",
+		help="Build one topic by key, alias, or title within --subject.",
 	)
 	# Remove the previous plural spelling after 2026-12-31.
 	parser.add_argument(
@@ -60,8 +61,14 @@ def build_parser() -> argparse.ArgumentParser:
 		help="Show what would be rebuilt without changing files.",
 	)
 	parser.add_argument(
-		"-F", "--full", dest="full", action="store_true",
-		help="Rebuild everything in the selected scope, even if up to date.",
+		"-F", "--rebuild", dest="full", action="store_true",
+		help=(
+			"Force regeneration within the selected scope; without filters, "
+			"rebuild all configured tasks and topics."
+		),
+	)
+	parser.add_argument(
+		"--full", dest="full", action="store_true", help=argparse.SUPPRESS,
 	)
 	parser.add_argument(
 		"-b", "--backend", dest="backend",
@@ -80,6 +87,41 @@ def build_parser() -> argparse.ArgumentParser:
 
 
 #============================================
+def _normalize_topic_title(title: str) -> str:
+	"""Normalize display-title whitespace and casing for CLI matching."""
+	return " ".join(title.split()).casefold()
+
+
+#============================================
+def _resolve_topic_filter(subject: metadata.Subject, topic_reference: str) -> str:
+	"""Resolve a topic key, metadata alias, or display title to its canonical key."""
+	cleaned_reference = " ".join(topic_reference.split())
+	for topic in subject.topics:
+		if topic.key == cleaned_reference:
+			return topic.key
+	for topic in subject.topics:
+		if topic.alias == cleaned_reference:
+			return topic.key
+	title_matches = [
+		topic
+		for topic in subject.topics
+		if _normalize_topic_title(topic.title) == _normalize_topic_title(cleaned_reference)
+	]
+	if len(title_matches) == 1:
+		return title_matches[0].key
+	if len(title_matches) > 1:
+		keys = sorted(topic.key for topic in title_matches)
+		raise ValueError(
+			f"Topic title {topic_reference!r} is ambiguous for {subject.key!r}; "
+			f"use one of {keys}"
+		)
+	raise ValueError(
+			f"Unknown topic {topic_reference!r} for subject {subject.key!r}; "
+			"use a canonical topic key, its metadata alias, or its title"
+	)
+
+
+#============================================
 def parse_scope(arguments: list[str] | None = None) -> build_contracts.BuildScope:
 	"""Parse public arguments and validate their repository-local scope."""
 	args = build_parser().parse_args(arguments)
@@ -95,12 +137,9 @@ def parse_scope(arguments: list[str] | None = None) -> build_contracts.BuildScop
 			raise ValueError(
 				f"Unknown subject {args.subject!r}; expected one of {sorted(subjects)}"
 			)
-		valid_topics = {topic.key for topic in subjects[args.subject].topics}
-		if args.topic not in valid_topics:
-			raise ValueError(
-				f"Unknown topic {args.topic!r} for subject {args.subject!r}; "
-				f"expected one of {sorted(valid_topics)}"
-			)
+		topic = _resolve_topic_filter(subjects[args.subject], args.topic)
+	else:
+		topic = None
 	tasks_csv = None
 	if args.task_file:
 		repo_root = Path(git_paths.get_repo_root())
@@ -117,7 +156,7 @@ def parse_scope(arguments: list[str] | None = None) -> build_contracts.BuildScop
 			)
 	scope = build_contracts.BuildScope(
 		subject=args.subject,
-		topic=args.topic,
+		topic=topic,
 		tasks_csv=tasks_csv,
 		limit=args.limit,
 		shuffle=args.shuffle,

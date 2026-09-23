@@ -41,6 +41,7 @@ bbq-MATCH-column_chromatography-questions.txt: Matching Column Chromatography Ty
   to Descriptions
 bbq-MATCH-culture_enrichment-questions.txt: Matching Culture Enrichment Methods to
   Descriptions
+bbq-MATCH-degrees_of_dominance-questions.txt: Matching Degrees of Dominance to Definitions
 bbq-MATCH-dna_replication_enzymes-biol_301-questions.txt: Matching DNA Replication
   Enzymes to Functions (BIOL 301)
 bbq-MATCH-dna_replication_enzymes-questions.txt: Matching DNA Replication Enzymes
@@ -51,6 +52,7 @@ bbq-MATCH-enzyme_terminology-questions.txt: Matching Enzyme Catalysis Terms to D
 bbq-MATCH-gene_therapy_v_edit-questions.txt: Matching Genetic Disease Treatment Methods
   to Descriptions
 bbq-MATCH-genetic_disorders-questions.txt: Genetic Disorders (Matching)
+bbq-MATCH-genetics_terminology-questions.txt: Matching Genetics Terms to Definitions
 bbq-MATCH-hypothesis_testing-questions.txt: Matching Hypothesis Tests to Their Descriptions
 bbq-MATCH-intercellular_junctions-questions.txt: Matching Intercellular Junctions
   to Their Functions
@@ -64,6 +66,14 @@ bbq-MATCH-measures_of_center-questions.txt: Matching Measures of Center to Defin
 bbq-MATCH-meiosis_prophase_1-questions.txt: Matching Meiosis Prophase I Stages to
   Descriptions
 bbq-MATCH-meiosis_terms-questions.txt: Matching Meiosis Terms to Definitions
+bbq-MATCH-mendel_cross_terminology-questions.txt: Matching Mendelian Cross Terms to
+  Descriptions
+bbq-MATCH-mendel_four_principles-questions.txt: Matching Mendel's Four Principles
+  of Genetics to Descriptions
+bbq-MATCH-mendelian_genetics_terms-questions.txt: Matching Mendelian Genetics Terms
+  to Definitions
+bbq-MATCH-monohybrid_cross_genotype-questions.txt: Matching Monohybrid Cross Parental
+  Genotypes to Progeny Outcomes
 bbq-MATCH-plant_transgenes-questions.txt: Matching Plant Transgenes to Functions
 bbq-MATCH-polysaccharides-questions.txt: Matching Polysaccharides with Their Descriptions
 bbq-MATCH-population_genetics_terms-questions.txt: Matching Population Genetic Terms
@@ -179,6 +189,8 @@ bbq-WOMC-chromosome_alterations-questions.txt: Types of Chromosomal Alterations
 bbq-WOMC-chromosome_shapes-questions.txt: Chromosome Shape Categories Based on Descriptions
 bbq-WOMC-column_chromatography-questions.txt: Column Chromatography Types from Descriptions
 bbq-WOMC-culture_enrichment-questions.txt: Culture Enrichment Methods from Descriptions
+bbq-WOMC-degrees_of_dominance-questions.txt: Degrees of Dominance and Gene Interactions
+  from Definitions
 bbq-WOMC-dna_replication_enzymes-biol_301-questions.txt: DNA Replication Enzymes from
   Functional Descriptions (BIOL 301)
 bbq-WOMC-dna_replication_enzymes-questions.txt: DNA Replication Enzymes from Functional
@@ -189,6 +201,7 @@ bbq-WOMC-enzyme_terminology-questions.txt: Enzyme Catalysis Terms from Definitio
 bbq-WOMC-gene_therapy_v_edit-questions.txt: Genetic Disease Treatment Methods from
   Descriptions
 bbq-WOMC-genetic_disorders-questions.txt: Genetic Disorders (Multiple Choice)
+bbq-WOMC-genetics_terminology-questions.txt: Genetics Terms from Definitions
 bbq-WOMC-hypothesis_testing-questions.txt: Appropriate Hypothesis Tests for Mean Comparisons
 bbq-WOMC-intercellular_junctions-questions.txt: Intercellular Junction Functions
 bbq-WOMC-levels_of_protein_structure-questions.txt: Levels of Protein Structure from
@@ -199,6 +212,12 @@ bbq-WOMC-macromolecules-questions.txt: Macromolecule Types from Examples (Full S
 bbq-WOMC-measures_of_center-questions.txt: Measures of Center from Definitions
 bbq-WOMC-meiosis_prophase_1-questions.txt: Meiosis Prophase I Stages from Descriptions
 bbq-WOMC-meiosis_terms-questions.txt: Meiosis Terms from Definitions
+bbq-WOMC-mendel_cross_terminology-questions.txt: Mendelian Cross Types from Descriptions
+bbq-WOMC-mendel_four_principles-questions.txt: Mendel's Four Principles of Genetics
+  from Descriptions
+bbq-WOMC-mendelian_genetics_terms-questions.txt: Mendelian Genetics Terms from Definitions
+bbq-WOMC-monohybrid_cross_genotype-questions.txt: Monohybrid Cross Parental Genotypes
+  from Progeny Descriptions
 bbq-WOMC-plant_transgenes-questions.txt: Plant Transgenes from Functional Descriptions
 bbq-WOMC-polysaccharides-questions.txt: Polysaccharides from Functional Descriptions
 bbq-WOMC-population_genetics_terms-questions.txt: Population Genetics Terms from Definitions
@@ -232,6 +251,10 @@ bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt: Bacterial Nutrie
   Requirements in Mutant Metabolic Pathways (5 Metabolites)
 bbq-blood_type_agglutination_test-questions.txt: Blood Type Agglutination Test Results
   (ABO and Rh)
+bbq-blood_type_mother-questions.txt: Possible Mother ABO Blood Types from Father and
+  Child Types
+bbq-blood_type_offspring-questions.txt: Possible ABO Blood Types of Offspring from
+  Parent Blood Types
 bbq-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices-questions.txt: Box Plot Matching
 bbq-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices-questions.txt: Box
   Plots from Sorted Data
@@ -318,6 +341,10 @@ bbq-delta_g_prime_standard_state-questions.txt: Biochemical vs Chemical Standard
   Energy States
 bbq-descriptive_stats_google_sheet-questions.txt: Descriptive Statistics Using Google
   Sheets
+bbq-dihybrid_cross_epistatic_gene_interactions-4_choices-questions.txt: Gene Interaction
+  Types from Dihybrid Cross Ratios (4 Choices)
+bbq-dihybrid_cross_epistatic_gene_metabolics-4_choices-questions.txt: Dihybrid Cross
+  Ratios from Epistatic Metabolic Pathways (4 Choices)
 bbq-dilution_factor_aliquot_numeric-questions.txt: Aliquot Volumes for Dilutions
 bbq-dilution_factor_calc_numeric-questions.txt: Dilution Factors for Solutions
 bbq-dilution_factor_diluent_numeric-questions.txt: Diluent Volumes for Dilutions
@@ -333,6 +360,10 @@ bbq-dominant_and_X-linked_recessive-questions.txt: Fraction of Daughters with Bo
 bbq-dominant_and_X-linked_recessive_variations-questions.txt: Combined Dominant and
   X-Linked Recessive Inheritance Variations
 bbq-enhancer_gene_expression-questions.txt: Genes Expressed by Activator Proteins
+bbq-epistasis_test_cross-forward_direction-6_choices-questions.txt: Test-Cross Ratios
+  from Modified Epistatic F2 Ratios (Forward Direction, 6 Choices)
+bbq-epistasis_test_cross-inverse_direction-6_choices-questions.txt: Epistasis F2 Ratios
+  from Modified Test-Cross Ratios (6 Choices)
 bbq-exergonic_endergonic_reactions-questions.txt: Exergonic and Endergonic Reaction
   Classification
 bbq-exon_splicing-questions.txt: Alternative Splicing Possibilities
@@ -398,6 +429,8 @@ bbq-kaleidoscope_ladder_mapping-questions.txt: Protein Molecular Weights from SD
   Band Positions
 bbq-kaleidoscope_ladder_unknown_band-questions.txt: Protein Molecular Weight from
   an SDS-PAGE Ladder
+bbq-lethal_allele_survival-questions.txt: Lethal Allele Cross Ratios and Survival
+  Fractions
 bbq-letter_translocation_problem_color-questions.txt: Chromosomal Translocation Outcomes
   (Color)
 bbq-linear_digest-len_10-sites_2-fragment-questions.txt: DNA Fragment Sizes from Single
@@ -435,6 +468,12 @@ bbq-michaelis_menten_table-Km-questions.txt: Michaelis-Menten Constant (Km) from
   Activity Data
 bbq-michaelis_menten_table-inhibition-questions.txt: Enzyme Inhibition Type from Enzyme
   Activity Data
+bbq-monohybrid_degrees_of_dominance-questions.txt: Degrees of Dominance from Monohybrid
+  Cross Results
+bbq-monohybrid_genotype_statements-questions.txt: Parental Genotype Crosses from Monohybrid
+  Offspring Ratios
+bbq-monohybrid_litter_inference-questions.txt: Unknown Parent Genotype from Monohybrid
+  Offspring Counts
 bbq-mutant_screen-fib-4_metabolites-questions.txt: Metabolic Pathway Precursor Order
   from Mutant Growth Data (4 Metabolites)
 bbq-nested_pcr_design-len_24-questions.txt: Nested PCR Primer Pair Selection (24 nt)
@@ -481,6 +520,7 @@ bbq-population_test_google_sheet-ztest-questions.txt: Population Z-Test Using Go
 bbq-probabiliy_of_progeny-questions.txt: Offspring Sex Distribution Using the Binomial
   Model
 bbq-protein_gel_migration-questions.txt: Protein Molecular Weight from SDS-PAGE Migration
+bbq-punnett_choice-questions.txt: Punnett Squares for Mendel's Pea Flower Backcross
 bbq-quick_fatty_acid_colon_system-questions.txt: Fatty Acid Chain Length and Number
   of Double Bonds
 bbq-rna_transcribe_fill_blank-questions.txt: mRNA Sequences from DNA Templates (Fill
@@ -547,6 +587,12 @@ bbq-two-point_test_cross-which_genotypes-MA-with_hint-PARENTAL-questions.txt: Pa
   Genotype Combinations in a Two-Point Test Cross
 bbq-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT-questions.txt: Recombinant
   Genotype Combinations in a Two-Point Test Cross
+bbq-unique_cross_genotypes-with_hint-6_genes-questions.txt: Unique Offspring Genotypes
+  from Hybrid Crosses (6 Genes, With Hint)
+bbq-unique_cross_phenotypes-with_hint-6_genes-questions.txt: Unique Phenotypes from
+  Hybrid Crosses (6 Genes, With Hint)
+bbq-unique_gametes-with_hint-7_genes-questions.txt: Unique Gametes from Independent
+  Assortment (7 Genes, With Hint)
 bbq-which_amino_acid-FIB-questions.txt: Amino Acids from Chemical Structures
 bbq-which_amino_acid-MC-7_choices-questions.txt: Amino Acids from Chemical Structures
   (7 Choices)
@@ -561,9 +607,16 @@ bbq-who_father_html-MEDIUM-5_males-questions.txt: RFLP Paternity Testing from DN
   Gels (MEDIUM, 5 Males)
 bbq-who_killer_html-EASY-4_suspects-questions.txt: RFLP Forensic DNA Analysis Results
   (EASY, 4 Suspects)
+bbq-who_killer_html-HARD-9_suspects-questions.txt: RFLP Forensic DNA Analysis Results
+  (HARD, 9 Suspects)
+bbq-who_killer_html-MEDIUM-5_suspects-questions.txt: RFLP Forensic DNA Analysis Results
+  (MEDIUM, 5 Suspects)
 bbq-wordle_peptides-FIB-questions.txt: Peptide Sequences (Fill in the Blank)
+bbq-write_pedigree_choice-questions.txt: Pedigree Inheritance Patterns (Multiple Choice)
+bbq-write_pedigree_match-questions.txt: Matching Pedigrees to Inheritance Types
+bbq-write_pedigree_match_random-questions.txt: Pedigree Inheritance Patterns
 bbq-x_linked_reciprocal_cross-questions.txt: X-linked Eye Color Inheritance
 bbq-x_linked_tortoiseshell-questions.txt: X-linked Coat Color Probability
 bbq-z_score_google_sheet-questions.txt: Z-Scores in Google Sheets
 bbq-z_score_table_interp-questions.txt: Lowest Biodiversity Scores Using Z-Scores
-last edit: Wed Sep 23 11:56:57 2026
+last edit: Wed Sep 23 12:42:07 2026
