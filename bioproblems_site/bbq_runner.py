@@ -1,6 +1,7 @@
 """Execution and timing behavior for configured BBQ tasks."""
 
 import argparse
+from collections.abc import Callable
 import os
 import shlex
 import shutil
@@ -512,6 +513,7 @@ def _run_task(
 	allow_cleanup: bool = True,
 	pythonpath_value: str = "",
 	error_log_path: str = "",
+	output_callback: Callable[[str, str], None] | None = None,
 ) -> bool:
 	output_path = task.get("output", "")
 	workdir = "."
@@ -556,6 +558,11 @@ def _run_task(
 		log_line(log_path, f"LAUNCH ERROR {label}: {exc}")
 		log_error(error_log_path, label, f"Launch error: {exc}", cmd_list=cmd)
 		return False
+	if output_callback:
+		if proc.stdout:
+			output_callback("stdout", proc.stdout)
+		if proc.stderr:
+			output_callback("stderr", proc.stderr)
 
 	if proc.stdout:
 		log_line(log_path, f"STDOUT {label}:\n{proc.stdout.rstrip()}")
@@ -679,6 +686,7 @@ def run_task(
 	allow_cleanup: bool = True,
 	pythonpath_value: str = "",
 	error_log_path: str = "",
+	output_callback: Callable[[str, str], None] | None = None,
 ) -> bool:
 	"""Run one task and return its success status."""
 	return _run_task(
@@ -690,6 +698,7 @@ def run_task(
 		allow_cleanup,
 		pythonpath_value,
 		error_log_path,
+		output_callback,
 	)
 
 

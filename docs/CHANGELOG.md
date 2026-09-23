@@ -2,8 +2,17 @@
 
 ## 2026-09-23
 
+### Additions and New Features
+
+- Interactive `build_site.py` runs display the Textual dashboard for the complete
+  coordinator pipeline, with live finish estimates and confirmed cooperative cancellation.
+- Added mutually exclusive `--cli` and `--tui` options to select plain output or
+  explicitly request the dashboard; automatic TTY detection remains the default.
+
 ### Fixes and Maintenance
 
+- Set all configured nucleotide-components generators to four choices, matching the bank's three
+  independent distractor groups for its NOT form.
 - Aligned build documentation with row-local task stages, repository-wide
   finalization, task topic alias rules, and configured-output failure handling.
 - Corrected stale pipeline comments and helper documentation.

@@ -6,6 +6,7 @@ from pathlib import Path
 import random
 import time
 from collections.abc import Iterator
+from functools import partial
 
 import bioproblems_site.bbq_config as bbq_config
 import bioproblems_site.bbq_outputs as bbq_outputs
@@ -13,6 +14,7 @@ import bioproblems_site.bbq_runner as bbq_runner
 import bioproblems_site.metadata as metadata_module
 import bioproblems_site.git_paths as git_paths
 from bioproblems_site.build_contracts import BuildChanges, BuildScope, TaskBuildResult, TopicRef
+from bioproblems_site.build_progress import BuildProgress
 
 
 REPO_ROOT = Path(git_paths.get_repo_root())
@@ -276,10 +278,55 @@ def configured_topics(scope: BuildScope) -> set[TopicRef]:
 
 
 #============================================
-def iter_task_results(scope: BuildScope) -> Iterator[TaskBuildResult]:
+def _task_row_label(task_row: list[dict[str, object]], topic_ref: TopicRef) -> str:
+	"""Return a compact label for one selected CSV task row."""
+	task = task_row[0]
+	task_file = Path(str(task["task_file"])).name
+	row_number = task["_csv_row_number"]
+	label = f"{topic_ref.subject}/{topic_ref.topic} ({task_file}:{row_number})"
+	return label
+
+
+#============================================
+def _report_command_output(
+	progress: BuildProgress,
+	row_index: int,
+	task: dict[str, object],
+	stream_name: str,
+	output: str,
+) -> None:
+	"""Forward captured generator output to an optional build observer."""
+	label = bbq_runner.task_label(
+		task,
+		row_index,
+		task.get("output", ""),
+		bbq_runner.build_command(task),
+	)
+	message = f"{stream_name.upper()} {label}:\n{output.rstrip()}"
+	progress.emit("log", message=message)
+
+
+#============================================
+def iter_task_results(
+	scope: BuildScope,
+	progress: BuildProgress | None = None,
+) -> Iterator[TaskBuildResult]:
 	"""Run configured CSV rows lazily and yield each row before starting the next."""
 	task_rows = _load_scoped_task_rows(scope)
 	tasks = [task for task_row in task_rows for task in task_row]
+	row_total = len(task_rows)
+	if progress:
+		selected_topics = {_task_ref(task_row[0]) for task_row in task_rows}
+		row_labels = [
+			_task_row_label(task_row, _task_ref(task_row[0]))
+			for task_row in task_rows
+		]
+		progress.emit(
+			"plan",
+			task_rows=row_total,
+			topics=len(selected_topics),
+			row_labels=row_labels,
+		)
 	pending_task_ids = {
 		id(task)
 		for task in tasks
@@ -287,8 +334,11 @@ def iter_task_results(scope: BuildScope) -> Iterator[TaskBuildResult]:
 	}
 	pending_count = len(pending_task_ids)
 	if scope.dry_run:
-		for task_row in task_rows:
+		for row_index, task_row in enumerate(task_rows, start=1):
+			if progress:
+				progress.check_cancelled()
 			topic_ref = _task_ref(task_row[0])
+			row_label = _task_row_label(task_row, topic_ref) if progress else ""
 			row_needs_run = any(id(task) in pending_task_ids for task in task_row)
 			source_files: set[Path] = set()
 			changed_files: set[Path] = set()
@@ -298,6 +348,26 @@ def iter_task_results(scope: BuildScope) -> Iterator[TaskBuildResult]:
 					changed_files.update(expected_output_paths(task))
 			if row_needs_run:
 				print(f"[dry-run] BBQ {topic_ref.subject}/{topic_ref.topic}")
+			if progress:
+				progress.emit(
+					"row_started",
+					row=row_index,
+					total=row_total,
+					label=row_label,
+				)
+				if row_needs_run:
+					progress.emit(
+						"stage_started", phase="bbq", row=row_index, label=row_label,
+					)
+					progress.emit(
+						"stage_completed", phase="bbq", row=row_index,
+						label=row_label, duration=0.0, executed=False, planned=True,
+					)
+				else:
+					progress.emit(
+						"stage_skipped", phase="bbq", row=row_index, label=row_label,
+						detail="up to date",
+					)
 			yield TaskBuildResult(
 				topic_ref=topic_ref,
 				source_files=source_files,
@@ -306,9 +376,24 @@ def iter_task_results(scope: BuildScope) -> Iterator[TaskBuildResult]:
 			)
 		return
 	if pending_count == 0:
-		for task_row in task_rows:
+		for row_index, task_row in enumerate(task_rows, start=1):
+			if progress:
+				progress.check_cancelled()
+			topic_ref = _task_ref(task_row[0])
+			row_label = _task_row_label(task_row, topic_ref) if progress else ""
+			if progress:
+				progress.emit(
+					"row_started",
+					row=row_index,
+					total=row_total,
+					label=row_label,
+				)
+				progress.emit(
+					"stage_skipped", phase="bbq", row=row_index, label=row_label,
+					detail="up to date",
+				)
 			yield TaskBuildResult(
-				topic_ref=_task_ref(task_row[0]),
+				topic_ref=topic_ref,
 				source_files=set().union(*(_task_source_files(task) for task in task_row)),
 			)
 		return
@@ -340,25 +425,66 @@ def iter_task_results(scope: BuildScope) -> Iterator[TaskBuildResult]:
 		runner_scope = dataclasses.replace(scope, max_questions=199)
 	pending_index = 0
 	task_elapsed_total = 0.0
-	for task_row in task_rows:
+	for row_index, task_row in enumerate(task_rows, start=1):
+		if progress:
+			progress.check_cancelled()
 		topic_ref = _task_ref(task_row[0])
+		row_label = _task_row_label(task_row, topic_ref) if progress else ""
+		if progress:
+			progress.emit(
+				"row_started",
+				row=row_index,
+				total=row_total,
+				label=row_label,
+			)
 		row_needs_run = any(id(task) in pending_task_ids for task in task_row)
 		changed_files: set[Path] = set()
+		row_start = time.perf_counter()
+		if progress:
+			if row_needs_run:
+				progress.emit(
+					"stage_started", phase="bbq", row=row_index, label=row_label,
+				)
+			else:
+				progress.emit(
+					"stage_skipped", phase="bbq", row=row_index, label=row_label,
+					detail="up to date",
+				)
 		for task in task_row:
 			if id(task) not in pending_task_ids:
 				continue
+			if progress:
+				progress.check_cancelled()
 			pending_index += 1
 			_prepare_task(task, runner_scope)
 			before_outputs = expected_output_paths(task)
+			if progress:
+				progress.check_cancelled()
 			task_start = time.perf_counter()
-			ok = bbq_runner.run_task(
-				task,
-				log_path,
-				pending_index,
-				total,
-				pythonpath_value=context.pythonpath_value,
-				error_log_path=context.error_log_path,
-			)
+			try:
+				ok = bbq_runner.run_task(
+					task,
+					log_path,
+					pending_index,
+					total,
+					pythonpath_value=context.pythonpath_value,
+					error_log_path=context.error_log_path,
+					output_callback=(
+						partial(_report_command_output, progress, row_index, task)
+						if progress else None
+					),
+				)
+			except Exception as error:
+				if progress:
+					progress.emit(
+						"stage_failed",
+						phase="bbq",
+						row=row_index,
+						label=row_label,
+						duration=time.perf_counter() - row_start,
+						detail=str(error),
+					)
+				raise
 			elapsed_seconds = time.perf_counter() - task_start
 			task_elapsed_total += elapsed_seconds
 			average_task_seconds = task_elapsed_total / pending_index
@@ -374,10 +500,26 @@ def iter_task_results(scope: BuildScope) -> Iterator[TaskBuildResult]:
 				f"-> {elapsed_seconds:.3f}s",
 			)
 			if not ok:
+				if progress:
+					elapsed_seconds = time.perf_counter() - row_start
+					progress.emit(
+						"stage_failed", phase="bbq", row=row_index,
+						label=row_label, duration=elapsed_seconds,
+						detail="BBQ command failed",
+					)
 				raise RuntimeError(f"BBQ task failed for {topic_ref.subject}/{topic_ref.topic}")
 			after_outputs = expected_output_paths(task)
 			changed_files.update(before_outputs | after_outputs)
 		source_files = set().union(*(_task_source_files(task) for task in task_row))
+		if progress and row_needs_run:
+			progress.emit(
+				"stage_completed",
+				phase="bbq",
+				row=row_index,
+				label=row_label,
+				duration=time.perf_counter() - row_start,
+				executed=True,
+			)
 		yield TaskBuildResult(
 			topic_ref=topic_ref,
 			source_files=source_files,

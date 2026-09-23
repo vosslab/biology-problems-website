@@ -19,6 +19,10 @@ MkDocs opens `http://127.0.0.1:8000/` with live reload. Press Ctrl-C to stop it.
   ```bash
   source source_me.sh && ./build_site.py
   ```
+  When stdin and stdout are interactive terminals, the command opens the Textual
+  progress dashboard. Piped and CI runs keep plain output. Use `--cli` to force
+  plain output or `--tui` to request the dashboard explicitly; `--tui` requires
+  interactive stdin and stdout, and the two options cannot be combined.
 - Serve the site locally:
   ```bash
   source source_me.sh && python3 -m mkdocs serve
@@ -91,6 +95,10 @@ Common flags:
   CLI model when `--model` is omitted.
 - `-n/--dry-run`: report planned work without generators, LLM calls, subprocesses,
   or writes.
+- `--cli`: force plain output in an interactive terminal.
+- `--tui`: explicitly open the dashboard in an interactive terminal. Without
+  either display option, interactive terminals open the dashboard automatically
+  and piped runs use plain output.
 - `-F/--rebuild`: regenerate outputs even when current. Subject, topic, task,
   and limit filters still apply; with no filters, rebuild all configured tasks
   and topics. The older `--full` spelling still works.
