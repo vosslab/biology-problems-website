@@ -1,6 +1,6 @@
 subject,topic,script,flags,input,notes
 genetics,genetic_disorders,YMATCH,,{bp_match}/inheritance/genetic_disorders.yml,
-genetics,gene_interactions,{bp_root}/molecular_biology-problems/beadle_tatum-metabolic_pathway.py,,,
+genetics,genetic_disorders,{bp_root}/molecular_biology-problems/beadle_tatum-metabolic_pathway.py,,,
 ,,,,,
 genetics,dna_structure,YMCS,,{bp_mcs}/biochemistry/dna_structure-biol_351.yml,
 genetics,dna_structure,YMCS,-c 4,{bp_mcs}/biochemistry/nucleotide_components.yml,
