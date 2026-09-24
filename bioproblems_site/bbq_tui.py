@@ -189,7 +189,10 @@ class SiteBuildApp(App[int]):
 		elif event == "stage_completed":
 			phase = str(details["phase"])
 			status = "planned" if details.get("planned") else "ok"
-			self._set_row_stage(details, status)
+			cell_text = None
+			if phase == "downloads" and status == "ok":
+				cell_text = self._download_count_text(details)
+			self._set_row_stage(details, status, cell_text)
 			self._complete_phase(phase, details)
 			duration = float(details.get("duration", 0.0))
 			self.append_log(
@@ -199,7 +202,10 @@ class SiteBuildApp(App[int]):
 			self._clear_active_phase(phase)
 		elif event == "stage_skipped":
 			phase = str(details["phase"])
-			self._set_row_stage(details, "skipped")
+			cell_text = None
+			if phase == "downloads":
+				cell_text = self._download_count_text(details)
+			self._set_row_stage(details, "skipped", cell_text)
 			self.phase_completed[phase] = self.phase_completed.get(phase, 0) + 1
 			label = str(details["label"])
 			detail = str(details.get("detail", "not required"))
@@ -235,11 +241,17 @@ class SiteBuildApp(App[int]):
 		)
 		self.row_keys[row_index] = row_key
 
-	def _styled_status(self, status: str) -> Text:
+	def _styled_status(self, status: str, cell_text: str | None = None) -> Text:
 		"""Return a colored status cell."""
-		return Text(status, style=self.STATUS_STYLES[status])
+		display_text = cell_text if cell_text is not None else status
+		return Text(display_text, style=self.STATUS_STYLES[status])
 
-	def _set_row_stage(self, details: dict[str, object], status: str) -> None:
+	def _set_row_stage(
+		self,
+		details: dict[str, object],
+		status: str,
+		cell_text: str | None = None,
+	) -> None:
 		"""Update a table cell when an event belongs to a CSV task row."""
 		phase = str(details["phase"])
 		column = self.STAGE_COLUMNS.get(phase)
@@ -251,8 +263,17 @@ class SiteBuildApp(App[int]):
 		self.query_one(DataTable).update_cell(
 			row_key,
 			self.column_keys[column],
-			self._styled_status(status),
+			self._styled_status(status, cell_text),
 		)
+
+	@staticmethod
+	def _download_count_text(details: dict[str, object]) -> str | None:
+		"""Format the available and applicable download counts for one task row."""
+		count = details.get("download_count")
+		total = details.get("download_total")
+		if not isinstance(count, int) or not isinstance(total, int):
+			return None
+		return f"{count} of {total}"
 
 	def _complete_phase(self, phase: str, details: dict[str, object]) -> None:
 		"""Record completed work and timing samples for one pipeline phase."""

@@ -5,7 +5,7 @@
 ## DBsubject('Biochemistry')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-08-19')
+## Date('2026-09-23')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -28,8 +28,8 @@ our @ALPHABET = ('A' .. 'Z');
 %match_data = (
   'glycogen' => [
     '<span style="color: #693aaa; font-weight:700;">storage</span> form of glucose in <span style="color: #843232; font-weight:700;">animals</span>',
-    '<span style="color: #843232; font-weight:700;">animal</span>polysaccharide that contains &alpha;-glycosidic linkages',
-    '<span style="color: #843232; font-weight:700;">animal</span>molecule composed of linear chains of &alpha;-(1,4) D-glucose residues connected through &alpha;-(1,6) linkages',
+    '<span style="color: #843232; font-weight:700;">animal</span> polysaccharide that contains &alpha;-glycosidic linkages',
+    '<span style="color: #843232; font-weight:700;">animal</span> molecule composed of linear chains of &alpha;-(1,4) D-glucose residues connected through &alpha;-(1,6) linkages',
     'glucose <span style="color: #693aaa; font-weight:700;">storage</span> found in skeleton muscle and liver cells',
     'highly branched polymer of &alpha;-linked glucose units found in <span style="color: #843232; font-weight:700;">animals</span>',
     'highly branched energy <span style="color: #693aaa; font-weight:700;">storage</span> in <span style="color: #843232; font-weight:700;">animals</span>',
@@ -38,7 +38,7 @@ our @ALPHABET = ('A' .. 'Z');
     'branched <span style="color: #693aaa; font-weight:700;">storage</span> form of glucose in <span style="color: #598231; font-weight:700;">plants</span>',
     'highly branched polymer of &alpha;-linked glucose units found in <span style="color: #598231; font-weight:700;">plants</span>',
     'highly branched glucose polymer found in <span style="color: #598231; font-weight:700;">plants</span> that is readily digested by humans and other mammals',
-    '<span style="color: #598231; font-weight:700;">plant</span>molecule composed of linear chains of &alpha;-(1,4) D-glucose residues connected through &alpha;-(1,6) linkages',
+    '<span style="color: #598231; font-weight:700;">plant</span> molecule composed of linear chains of &alpha;-(1,4) D-glucose residues connected through &alpha;-(1,6) linkages',
     'moderately branched energy <span style="color: #693aaa; font-weight:700;">storage</span> in <span style="color: #598231; font-weight:700;">plants</span>',
   ],
   'amylose' => [
@@ -49,7 +49,7 @@ our @ALPHABET = ('A' .. 'Z');
   ],
   'chitin' => [
     '<span style="color: #a86739; font-weight:700;">structural</span> form of glucose in some <span style="color: #843232; font-weight:700;">animals</span>',
-    '<span style="color: #843232; font-weight:700;">animal</span>polysaccharide that contains &beta;-glycosidic linkages',
+    '<span style="color: #843232; font-weight:700;">animal</span> polysaccharide that contains &beta;-glycosidic linkages',
     'major <span style="color: #a86739; font-weight:700;">structural</span> component of arthopod (e.g., insects) exoskeletons',
     'polymer of &beta;-linked glucose units found in some <span style="color: #843232; font-weight:700;">animals</span>',
     'carbohydrate polymer that used for <span style="color: #a86739; font-weight:700;">structural</span> purposes by some <span style="color: #843232; font-weight:700;">animals</span>',
@@ -58,10 +58,10 @@ our @ALPHABET = ('A' .. 'Z');
   'cellulose' => [
     '<span style="color: #a86739; font-weight:700;">structural</span> form of glucose in <span style="color: #598231; font-weight:700;">plants</span>',
     'major <span style="color: #a86739; font-weight:700;">structural</span> component of <span style="color: #b45918; font-weight:700;">cell walls</span>',
-    '<span style="color: #598231; font-weight:700;">plant</span>polysaccharide that contains &beta;-glycosidic linkages',
+    '<span style="color: #598231; font-weight:700;">plant</span> polysaccharide that contains &beta;-glycosidic linkages',
     'polymer of &beta;-linked glucose units found in <span style="color: #598231; font-weight:700;">plants</span>',
     'carbohydrate polymer that used for <span style="color: #a86739; font-weight:700;">structural</span> purposes by <span style="color: #598231; font-weight:700;">plants</span>',
-    '<span style="color: #a86739; font-weight:700;">structural</span> material in <span style="color: #598231; font-weight:700;">plant</span><span style="color: #b45918; font-weight:700;">cell walls</span>',
+    '<span style="color: #a86739; font-weight:700;">structural</span> material in <span style="color: #598231; font-weight:700;">plant</span> <span style="color: #b45918; font-weight:700;">cell walls</span>',
   ],
 );
 

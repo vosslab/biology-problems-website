@@ -1,7 +1,7 @@
 <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n/* Each choice row: min 40px height for comfortable tap targets */\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  margin: 4px 0;\n  padding: 6px 4px;\n  min-height: 40px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 10px;\n  margin: 0;\n  cursor: pointer;\n}\n/* Enlarged radio/checkbox inputs: ~1.4em via width/height, transform-origin top-left keeps layout aligned */\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n  flex-shrink: 0;\n  width: 1.4em;\n  height: 1.4em;\n  cursor: pointer;\n  accent-color: var(--qti-btn-bg, #3a5acd);\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Primary filled button (Check Answer) */\n.qti-btn {\n  background-color: var(--qti-btn-bg, #3a5acd);\n  color: var(--qti-btn-fg, #ffffff);\n  border: none;\n  border-radius: 4px;\n  padding: 8px 20px;\n  font-weight: 600;\n  cursor: pointer;\n}\n.qti-btn:hover {\n  filter: brightness(1.1);\n}\n/* Disabled state: muted appearance after a correct answer (disabled attribute set by JS) */\n.qti-btn:disabled,\n.qti-btn[disabled] {\n  background-color: var(--qti-btn-disabled-bg, #aaaaaa);\n  color: var(--qti-btn-disabled-fg, #eeeeee);\n  opacity: 0.55;\n  cursor: not-allowed;\n  filter: none;\n}\n/* Secondary ghost button (Clear / Reset) */\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, transparent);\n  color: var(--qti-btn-reset-fg, #555555);\n  border: 1px solid var(--qti-btn-reset-border, #999999);\n  border-radius: 4px;\n  padding: 7px 20px;\n  cursor: pointer;\n}\n.qti-btn-reset:hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Text input styling */\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, #111111);\n  border: 1px solid var(--qti-input-border, #999999);\n  border-radius: 4px;\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n/* Responsive images: prevent RDKit/structure canvases from overflowing on mobile */\n.qti-selftest canvas,\n.qti-selftest img {\n  max-width: 100%;\n  height: auto;\n}\n/* Feedback pill: neutral base state (empty placeholder, invisible until JS sets content) */\n.qti-feedback-result {\n  display: inline-block;\n  min-height: 1.5em;\n  margin: 8px 0 8px 0;\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  vertical-align: middle;\n}\n/* Success pill */\n.qti-feedback-success {\n  display: inline-block;\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Error pill */\n.qti-feedback-error {\n  display: inline-block;\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Non-color accessibility markers (ASCII, no impact on textContent) */\n.qti-feedback-success::before { content: \"[+] \"; }\n.qti-feedback-error::before { content: \"[x] \"; }\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #4a6ee0;\n    --qti-btn-fg: #ffffff;\n    --qti-btn-disabled-bg: #555555;\n    --qti-btn-disabled-fg: #aaaaaa;\n    --qti-btn-reset-bg: transparent;\n    --qti-btn-reset-fg: #c0c0c0;\n    --qti-btn-reset-border: #777777;\n    --qti-input-bg: #2a2a2a;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #4a6ee0;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #555555;\n  --qti-btn-disabled-fg: #aaaaaa;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #c0c0c0;\n  --qti-btn-reset-border: #777777;\n  --qti-input-bg: #2a2a2a;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
 <div class="qti-selftest">
-<div id="question_html_5f6d_760a">
-<div id="statement_text_5f6d_760a"><p>Match each of the following sensory transduction components with their corresponding functions in signaling.<br><i>Note:</i> Each choice will be used exactly once.</p></div>
+<div id="question_html_5f6d_b36d">
+<div id="statement_text_5f6d_b36d"><p>Match each of the following sensory transduction components with their corresponding functions in signaling.<br><i>Note:</i> Each choice will be used exactly once.</p></div>
 <!-- Matching Table -->
 <table style="border: 1px solid var(--qti-border, #999999); border-collapse: collapse;">
 <thead><tr>
@@ -12,87 +12,87 @@
 <tbody>
 <tr>
 <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-			<td class="dropzone qti-dropzone" data-correct="5f6d_760a_001" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
-			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">1. <span style="color: #825200;">IP<sub>3</sub></span>
+			<td class="dropzone qti-dropzone" data-correct="5f6d_b36d_001" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">1. <span style="color: #266c50;">Phospholipase C-&#946;2 (PLC-&#946;2)</span>
 </td>
 		</tr>
 <tr>
 <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-			<td class="dropzone qti-dropzone" data-correct="5f6d_760a_002" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
-			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">2. <span style="color: #5f42c3;">Phospholipase C-&#946;2 (PLC-&#946;2)</span>
+			<td class="dropzone qti-dropzone" data-correct="5f6d_b36d_002" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">2. <span style="color: #9b3a27;">Adenylyl cyclase (AC3)</span>
 </td>
 		</tr>
 <tr>
 <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-			<td class="dropzone qti-dropzone" data-correct="5f6d_760a_003" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
-			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">3. <span style="color: #9c382e;">cAMP</span>
+			<td class="dropzone qti-dropzone" data-correct="5f6d_b36d_003" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">3. <span style="color: #026789;">Tip link (hair cell bundle)</span>
 </td>
 		</tr>
 <tr>
 <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-			<td class="dropzone qti-dropzone" data-correct="5f6d_760a_004" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
-			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">4. <span style="color: #5c6417;">Olfactory receptor (GPCR)</span>
+			<td class="dropzone qti-dropzone" data-correct="5f6d_b36d_004" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">4. <span style="color: #7d550c;">G<sub>olf</sub></span>
 </td>
 		</tr>
 <tr>
 <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-			<td class="dropzone qti-dropzone" data-correct="5f6d_760a_005" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
-			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">5. <span style="color: #8d397b;">Tip link (hair cell bundle)</span>
+			<td class="dropzone qti-dropzone" data-correct="5f6d_b36d_005" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">5. <span style="color: #6e5d01;">Mechanotransduction channel (hair cell MET channel)</span>
 </td>
 		</tr>
 <tr>
 <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-			<td class="dropzone qti-dropzone" data-correct="5f6d_760a_006" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
-			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">6. <span style="color: #8f4817;">G<sub>olf</sub></span>
+			<td class="dropzone qti-dropzone" data-correct="5f6d_b36d_006" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">6. <span style="color: #9a354e;">Transducin</span>
 </td>
 		</tr>
 <tr>
 <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-			<td class="dropzone qti-dropzone" data-correct="5f6d_760a_007" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
-			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">7. <span style="color: #006d61;">Phosphodiesterase 6 (PDE6)</span>
+			<td class="dropzone qti-dropzone" data-correct="5f6d_b36d_007" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">7. <span style="color: #8c4a12;">CNG channel (olfactory)</span>
 </td>
 		</tr>
 <tr>
 <td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-			<td class="dropzone qti-dropzone" data-correct="5f6d_760a_008" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
-			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">8. <span style="color: #6f5c15;">Mechanotransduction channel (hair cell MET channel)</span>
+			<td class="dropzone qti-dropzone" data-correct="5f6d_b36d_008" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
+			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">8. <span style="color: #58651c;">Olfactory receptor (GPCR)</span>
 </td>
 		</tr>
 </tbody>
 </table>
 <p style="font-style: italic; font-size: 14px; margin-top: 10px;">Drag one of the choices below:</p>
 <ul id="choiceList" style="list-style: none; padding: 0;">
-<li class="draggable qti-choice-2" draggable="true" data-value="5f6d_760a_005" title="Link between stereocilia that helps gate transduction channels" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-2-bg); display: inline-block;">
-		<span style="color: var(--qti-choice-2-fg);"><strong>A.</strong> Link between stereocilia that helps gate transduction channels</span>
+<li class="draggable qti-choice-2" draggable="true" data-value="5f6d_b36d_008" title="Odorant-activated GPCR upstream of cAMP production" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-2-bg); display: inline-block;">
+		<span style="color: var(--qti-choice-2-fg);"><strong>A.</strong> Odorant-activated GPCR upstream of cAMP production</span>
 	</li>
-	<li class="draggable qti-choice-3" draggable="true" data-value="5f6d_760a_001" title="Diffusible messenger that raises cytosolic Ca2+ in taste cells" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-3-bg); display: inline-block;">
-		<span style="color: var(--qti-choice-3-fg);"><strong>B.</strong> Diffusible messenger that raises cytosolic Ca<sup>2+</sup> in taste cells</span>
+	<li class="draggable qti-choice-3" draggable="true" data-value="5f6d_b36d_002" title="Enzyme that converts ATP to cAMP in olfactory neurons" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-3-bg); display: inline-block;">
+		<span style="color: var(--qti-choice-3-fg);"><strong>B.</strong> Enzyme that converts ATP to cAMP in olfactory neurons</span>
 	</li>
-	<li class="draggable qti-choice-4" draggable="true" data-value="5f6d_760a_008" title="Ion channel opened by stereocilia deflection in hearing and balance" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-4-bg); display: inline-block;">
-		<span style="color: var(--qti-choice-4-fg);"><strong>C.</strong> Ion channel opened by stereocilia deflection in hearing and balance</span>
+	<li class="draggable qti-choice-4" draggable="true" data-value="5f6d_b36d_003" title="Structure whose tension changes during stereocilia deflection" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-4-bg); display: inline-block;">
+		<span style="color: var(--qti-choice-4-fg);"><strong>C.</strong> Structure whose tension changes during stereocilia deflection</span>
 	</li>
-	<li class="draggable qti-choice-5" draggable="true" data-value="5f6d_760a_004" title="Receptor that binds odorants and activates G proteins" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-5-bg); display: inline-block;">
-		<span style="color: var(--qti-choice-5-fg);"><strong>D.</strong> Receptor that binds odorants and activates G proteins</span>
+	<li class="draggable qti-choice-5" draggable="true" data-value="5f6d_b36d_006" title="Heterotrimeric G protein in the visual cascade" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-5-bg); display: inline-block;">
+		<span style="color: var(--qti-choice-5-fg);"><strong>D.</strong> Heterotrimeric G protein in the visual cascade</span>
 	</li>
-	<li class="draggable qti-choice-1" draggable="true" data-value="5f6d_760a_002" title="PIP2-cleaving enzyme in bitter, sweet, and umami taste signaling" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-1-bg); display: inline-block;">
-		<span style="color: var(--qti-choice-1-fg);"><strong>E.</strong> PIP<sub>2</sub>-cleaving enzyme in bitter, sweet, and umami taste signaling</span>
+	<li class="draggable qti-choice-1" draggable="true" data-value="5f6d_b36d_007" title="Ion channel opened by cyclic nucleotides during odor detection" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-1-bg); display: inline-block;">
+		<span style="color: var(--qti-choice-1-fg);"><strong>E.</strong> Ion channel opened by cyclic nucleotides during odor detection</span>
 	</li>
-	<li class="draggable qti-choice-2" draggable="true" data-value="5f6d_760a_003" title="Second messenger made from ATP that rises during odor detection" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-2-bg); display: inline-block;">
-		<span style="color: var(--qti-choice-2-fg);"><strong>F.</strong> Second messenger made from ATP that rises during odor detection</span>
+	<li class="draggable qti-choice-2" draggable="true" data-value="5f6d_b36d_004" title="G protein coupling olfactory receptors to cAMP signaling" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-2-bg); display: inline-block;">
+		<span style="color: var(--qti-choice-2-fg);"><strong>F.</strong> G protein coupling olfactory receptors to cAMP signaling</span>
 	</li>
-	<li class="draggable qti-choice-3" draggable="true" data-value="5f6d_760a_006" title="Olfactory G protein that activates adenylyl cyclase" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-3-bg); display: inline-block;">
-		<span style="color: var(--qti-choice-3-fg);"><strong>G.</strong> Olfactory G protein that activates adenylyl cyclase</span>
+	<li class="draggable qti-choice-3" draggable="true" data-value="5f6d_b36d_001" title="Enzyme that produces IP3 downstream of taste GPCRs" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-3-bg); display: inline-block;">
+		<span style="color: var(--qti-choice-3-fg);"><strong>G.</strong> Enzyme that produces IP<sub>3</sub> downstream of taste GPCRs</span>
 	</li>
-	<li class="draggable qti-choice-4" draggable="true" data-value="5f6d_760a_007" title="cGMP-degrading enzyme downstream of transducin" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-4-bg); display: inline-block;">
-		<span style="color: var(--qti-choice-4-fg);"><strong>H.</strong> cGMP-degrading enzyme downstream of transducin</span>
+	<li class="draggable qti-choice-4" draggable="true" data-value="5f6d_b36d_005" title="Allows K+ influx from K+ rich endolymph to depolarize hair cells" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-4-bg); display: inline-block;">
+		<span style="color: var(--qti-choice-4-fg);"><strong>H.</strong> Allows K<sup>+</sup> influx from K<sup>+</sup> rich endolymph to depolarize hair cells</span>
 	</li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_5f6d_760a()">Check Answer</button>
-<button type="button" class="md-button md-button--secondary custom-button qti-btn qti-btn-reset" onclick="resetGame_5f6d_760a()">Reset Game</button>
-<div id="result_5f6d_760a" class="qti-feedback-result">&#160;</div>
+<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_5f6d_b36d()">Check Answer</button>
+<button type="button" class="md-button md-button--secondary custom-button qti-btn qti-btn-reset" onclick="resetGame_5f6d_b36d()">Reset Game</button>
+<div id="result_5f6d_b36d" class="qti-feedback-result">&#160;</div>
 </div><script>
-	function initDragAndDrop_5f6d_760a() {
-		const container = document.getElementById('question_html_5f6d_760a');
+	function initDragAndDrop_5f6d_b36d() {
+		const container = document.getElementById('question_html_5f6d_b36d');
 		if (!container) {
 			return;
 		}
@@ -140,11 +140,11 @@
 			});
 		});
 	}
-	initDragAndDrop_5f6d_760a();
+	initDragAndDrop_5f6d_b36d();
 </script>
 <script>
-	function checkAnswer_5f6d_760a() {
-		const container = document.getElementById('question_html_5f6d_760a');
+	function checkAnswer_5f6d_b36d() {
+		const container = document.getElementById('question_html_5f6d_b36d');
 		if (!container) {
 			return;
 		}
@@ -172,8 +172,8 @@
 		});
 
 		feedbackText = `Total Score: ${score} out of ${possible}`;
-		const resultDiv = document.getElementById('result_5f6d_760a');
-		const checkBtn = document.querySelector("[onclick='checkAnswer_5f6d_760a()']");
+		const resultDiv = document.getElementById('result_5f6d_b36d');
+		const checkBtn = document.querySelector("[onclick='checkAnswer_5f6d_b36d()']");
 		if (score === possible) {
 			resultDiv.className = 'qti-feedback-result qti-feedback-success';
 			if (checkBtn) { checkBtn.disabled = true; }
@@ -184,8 +184,8 @@
 	}
 </script>
 <script>
-	function resetGame_5f6d_760a() {
-		const container = document.getElementById('question_html_5f6d_760a');
+	function resetGame_5f6d_b36d() {
+		const container = document.getElementById('question_html_5f6d_b36d');
 		if (!container) {
 			return;
 		}
@@ -202,13 +202,13 @@
 			cell.textContent = "";
 			cell.style.backgroundColor = "transparent";
 		});
-		const resultDiv_5f6d_760a = document.getElementById("result_5f6d_760a");
-		if (resultDiv_5f6d_760a) {
-			resultDiv_5f6d_760a.textContent = "";
-			resultDiv_5f6d_760a.className = "qti-feedback-result";
+		const resultDiv_5f6d_b36d = document.getElementById("result_5f6d_b36d");
+		if (resultDiv_5f6d_b36d) {
+			resultDiv_5f6d_b36d.textContent = "";
+			resultDiv_5f6d_b36d.className = "qti-feedback-result";
 		}
-		const checkBtn_5f6d_760a = document.querySelector("[onclick='checkAnswer_5f6d_760a()']");
-		if (checkBtn_5f6d_760a) { checkBtn_5f6d_760a.disabled = false; }
+		const checkBtn_5f6d_b36d = document.querySelector("[onclick='checkAnswer_5f6d_b36d()']");
+		if (checkBtn_5f6d_b36d) { checkBtn_5f6d_b36d.disabled = false; }
 	}
 </script>
 

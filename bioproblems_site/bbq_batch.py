@@ -21,7 +21,7 @@ def build_runner_command(
 	args: object,
 ) -> list[str]:
 	"""Build the single-CSV application command used by the batch runner."""
-	max_questions = args.max_questions if args.max_questions is not None else 199
+	max_questions = args.max_questions if args.max_questions is not None else 50
 	command = [
 		sys.executable,
 		str(repo_root / "build_site.py"),
@@ -76,7 +76,7 @@ def list_task_files() -> int:
 
 def run_all_task_files(args: object) -> int:
 	"""Run each task CSV and return one batch-level exit status."""
-	args.max_questions = args.max_questions if args.max_questions is not None else 199
+	args.max_questions = args.max_questions if args.max_questions is not None else 50
 	repo_root, source_me_path, settings_path, task_files = _resolve_paths(args)
 	if not task_files:
 		print(f"No task CSV files found in {repo_root / 'task_files'}")

@@ -196,28 +196,6 @@ Students determine how multiple genes interact to produce phenotypes, including 
 </details>
 
 
-## Offspring Phenotype Counts from a Horse Dihybrid Cross with a Lethal Allele
-
-<div id="horses-button-container" class="button-container">
-<a class="md-button custom-button bb_text" href="bbq-horses-questions.txt" download title="Download bbq-horses-questions.txt" aria-label="Click to download the BBQ Text file (bbq-horses-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Offspring Phenotype Counts from a Horse Dihybrid Cross with a Lethal Allele
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-
-</details>
-
-
 ## Lethal Allele Cross Ratios and Survival Fractions
 
 <div id="lethal_allele_survival-button-container" class="button-container">

@@ -139,18 +139,33 @@ def _run_task_row_artifact_stages(
 				)
 			raise
 		if progress:
+			download_count, download_total = build_stages.count_downloads(
+				source_paths,
+				task_result.expected_pgml_files,
+			)
 			progress.emit(
 				"stage_completed",
 				phase="downloads",
 				duration=time.perf_counter() - stage_start,
 				executed=not scope.dry_run,
 				planned=scope.dry_run,
+				download_count=download_count,
+				download_total=download_total,
 				**row_details,
 			)
 	else:
 		if progress:
+			download_count, download_total = build_stages.count_downloads(
+				source_paths,
+				task_result.expected_pgml_files,
+			)
 			progress.emit(
-				"stage_skipped", phase="downloads", detail="up to date", **row_details,
+				"stage_skipped",
+				phase="downloads",
+				detail="up to date",
+				download_count=download_count,
+				download_total=download_total,
+				**row_details,
 			)
 	stage_seconds["downloads"] += time.perf_counter() - stage_start
 

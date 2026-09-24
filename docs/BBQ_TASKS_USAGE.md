@@ -36,7 +36,7 @@ build:
 source source_me.sh && ./build_site.py
 ```
 
-Only an unrestricted all-task run receives the 199-question maximum by default.
+Only an unrestricted all-task run receives the 50-question maximum by default.
 A selected CSV (`--task`), subject (`-S/--subject`), or limited (`-l/--limit`)
 run keeps each configured generator's own limit. Use `-x/--max-questions N` to
 set the common maximum for task rows without their own `-x` flag, for example:
@@ -44,6 +44,11 @@ set the common maximum for task rows without their own `-x` flag, for example:
 ```bash
 source source_me.sh && ./build_site.py -x 99
 ```
+
+Generators default to `-d 2`, which is too small for a larger question maximum.
+When a common maximum `N` is set, the runner passes `-d ceil(N * 1.1)` so it
+requests a small buffer; for example, `-x 50` results in `-d 55`. A task's
+explicit `-d` or `--duplicates` value takes precedence.
 
 The public command accepts `-S/--subject`, `-t/--task`, `-l/--limit`,
 `-x/--max-questions`, `-R/--shuffle`, `-b/--backend`, `-n/--dry-run`,

@@ -4,7 +4,7 @@
 
 Browse the generated problem sets by subject and topic. Use your browser's Find command to search all problem-set titles on this page.
 
-**475 problem sets**
+**478 problem sets**
 
 ## Biochemistry
 
@@ -415,6 +415,7 @@ Browse the generated problem sets by subject and topic. Use your browser's Find 
 - <a href="../laboratory/topic11/">Inverse PCR Primer Selection (15 nt)</a>
 - <a href="../laboratory/topic11/">Protein Molecular Weights from SDS-PAGE Band Positions</a>
 - <a href="../laboratory/topic11/">Protein Molecular Weight from an SDS-PAGE Ladder</a>
+- <a href="../laboratory/topic11/">Restriction Digest Band Sizes of a Linear DNA Fragment (12 kb, 3 Sites)</a>
 - <a href="../laboratory/topic11/">Restriction Fragment Sizes (12 Length, 2 Sites)</a>
 - <a href="../laboratory/topic11/">Nested PCR Primer Pair Selection (24 nt)</a>
 - <a href="../laboratory/topic11/">PCR Primer Selection (36 bp Template, 9-nt Primers)</a>
@@ -448,6 +449,7 @@ Browse the generated problem sets by subject and topic. Use your browser's Find 
 - <a href="../molecular_biology/topic04/">DNA Fragment Migration in Agarose Gel Electrophoresis (Closest/Farthest)</a>
 - <a href="../molecular_biology/topic04/">DNA Fragment Size from Agarose Gel Migration (Numeric)</a>
 - <a href="../molecular_biology/topic04/">Inverse PCR Primer Selection (15 nt)</a>
+- <a href="../molecular_biology/topic04/">Restriction Digest Band Sizes of a Linear DNA Fragment (12 kb, 3 Sites)</a>
 - <a href="../molecular_biology/topic04/">Restriction Fragment Sizes (12 Length, 2 Sites)</a>
 - <a href="../molecular_biology/topic04/">Nested PCR Primer Pair Selection (24 nt)</a>
 - <a href="../molecular_biology/topic04/">Restriction Enzyme Overhang Sequences</a>
@@ -591,6 +593,7 @@ Browse the generated problem sets by subject and topic. Use your browser's Find 
 - <a href="../biotechnology/topic02/">DNA Fragment Size from Agarose Gel Migration (Numeric)</a>
 - <a href="../biotechnology/topic02/">DNA Melting Temperature Extremes from Sequence (12 Bases)</a>
 - <a href="../biotechnology/topic02/">Inverse PCR Primer Selection (15 nt)</a>
+- <a href="../biotechnology/topic02/">Restriction Digest Band Sizes of a Linear DNA Fragment (12 kb, 3 Sites)</a>
 - <a href="../biotechnology/topic02/">Restriction Fragment Sizes (12 Length, 2 Sites)</a>
 - <a href="../biotechnology/topic02/">Nested PCR Primer Pair Selection (24 nt)</a>
 - <a href="../biotechnology/topic02/">Restriction Enzyme Overhang Sequences</a>

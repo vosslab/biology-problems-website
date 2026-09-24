@@ -130,6 +130,38 @@ Restriction enzymes, gel electrophoresis, and PCR.
 </details>
 
 
+## Restriction Digest Band Sizes of a Linear DNA Fragment (12 kb, 3 Sites)
+
+<div id="linear_digest-len_12-sites_3-fragment-button-container" class="button-container">
+<a class="md-button custom-button bb_text" href="bbq-linear_digest-len_12-sites_3-fragment-questions.txt" download title="Download bbq-linear_digest-len_12-sites_3-fragment-questions.txt" aria-label="Click to download the BBQ Text file (bbq-linear_digest-len_12-sites_3-fragment-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-linear_digest-len_12-sites_3-fragment.zip" download title="Download blackboard_export_zip-linear_digest-len_12-sites_3-fragment.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-linear_digest-len_12-sites_3-fragment.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-linear_digest-len_12-sites_3-fragment.zip" download title="Download canvas_qti_v1_2-linear_digest-len_12-sites_3-fragment.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-linear_digest-len_12-sites_3-fragment.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-linear_digest-len_12-sites_3-fragment.html', '_blank')" title="View human_readable-linear_digest-len_12-sites_3-fragment.html" aria-label="Click to view the Human-Readable TXT file (human_readable-linear_digest-len_12-sites_3-fragment.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Restriction Digest Band Sizes of a Linear DNA Fragment (12 kb, 3 Sites)
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "molecular_biology/topic04/downloads/selftest-linear_digest-len_12-sites_3-fragment.html" %}
+
+</details>
+
+
 ## Restriction Fragment Sizes (12 Length, 2 Sites)
 
 <div id="linear_digest-length_12-sites_2-fragment-button-container" class="button-container">

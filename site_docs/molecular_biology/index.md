@@ -11,7 +11,7 @@ Questions ask students to transcribe DNA to mRNA, translate codons to amino acid
 1. [DNA Structure](topic02/index.md) <span class='topic-count' title='10 questions'>10 questions</span>
     - DNA composition, base pairing, and double-helix structure.
 
-2. [Manipulation of Nucleic Acids](topic04/index.md) <span class='topic-count' title='10 questions'>10 questions</span>
+2. [Manipulation of Nucleic Acids](topic04/index.md) <span class='topic-count' title='11 questions'>11 questions</span>
     - Restriction enzymes, gel electrophoresis, and PCR.
 
 3. [Cloning and Sequencing](topic05/index.md) <span class='topic-count' title='9 questions'>9 questions</span>

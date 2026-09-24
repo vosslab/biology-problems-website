@@ -23,7 +23,7 @@ Questions ask students to calculate dilution volumes, prepare solutions at speci
 5. [Enzyme Kinetics](topic09/index.md) <span class='topic-count' title='2 questions'>2 questions</span>
     - Students measure lactase reaction rates at different substrate concentrations, plot velocity data, and analyze how temperature, pH, or inhibitors affect enzyme activity in a laboratory setting.
 
-6. [PCR and Electrophoresis](topic11/index.md) <span class='topic-count' title='10 questions'>10 questions</span>
+6. [PCR and Electrophoresis](topic11/index.md) <span class='topic-count' title='11 questions'>11 questions</span>
     - Students extract DNA, perform initial and nested PCR amplification of the GAPDH gene, run gel electrophoresis to separate DNA fragments, and interpret band patterns.
 
 7. [Bioinformatics](topic13/index.md) <span class='topic-count' title='4 questions'>4 questions</span>

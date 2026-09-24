@@ -6,7 +6,7 @@
 ## DBsubject('Cell Biology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-08-19')
+## Date('2026-09-23')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -90,11 +90,11 @@ $showPartialCorrectAnswers = 1;
     'Living things can "generate" from non-living matter.',
   ],
   [
-    'The <span style="color: mediumblue; font-weight:700;">organ</span>is the basic unit of structure and organization in organisms.',
+    'The <span style="color: mediumblue; font-weight:700;">organ</span> is the basic unit of structure and organization in organisms.',
     '<span style="color: mediumblue; font-weight:700;">Organs</span> are the basic unit of structure and function in all <span style="color: orangered; font-weight:700;">living things</span>.',
     'The basic units of structure and function are <span style="color: mediumblue; font-weight:700;">organs</span>.',
     '<span style="color: mediumblue; font-weight:700;">Organs</span> are the basic structural and functional units of <span style="color: orangered; font-weight:700;">life</span>.',
-    'The <span style="color: mediumblue; font-weight:700;">organ</span>is the smallest living thing that performs all the functions of <span style="color: orangered; font-weight:700;">life</span>.',
+    'The <span style="color: mediumblue; font-weight:700;">organ</span> is the smallest living thing that performs all the functions of <span style="color: orangered; font-weight:700;">life</span>.',
   ],
   [
     '<span style="color: mediumblue; font-weight:700;">Cells</span> are made primarily of water.',

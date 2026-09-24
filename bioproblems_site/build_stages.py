@@ -171,6 +171,28 @@ def expected_downloads(source_path: Path) -> set[Path]:
 
 
 #============================================
+def count_downloads(
+		source_paths: set[Path],
+		expected_pgml_files: set[Path],
+) -> tuple[int, int]:
+	"""Return available downloads and expected downloads for BBQ sources."""
+	expected_paths: set[Path] = set()
+	pgml_paths = set(expected_pgml_files)
+	for source_path in source_paths:
+		# The BBQ source is itself a downloadable format alongside its exports.
+		expected_paths.add(source_path)
+		expected_paths.update(expected_downloads(source_path))
+		# Non-YAML tasks have no configured PGML path; count a matching file if found.
+		if not expected_pgml_files:
+			pgml_path = topic_page_module.find_pgml_file(str(source_path))
+			if pgml_path:
+				pgml_paths.add(Path(pgml_path))
+	available_count = sum(path.is_file() for path in expected_paths | pgml_paths)
+	expected_count = len(expected_paths | pgml_paths)
+	return available_count, expected_count
+
+
+#============================================
 def downloads_need_run(
 	topic_ref: TopicRef,
 	scope: BuildScope,
