@@ -3100,56 +3100,56 @@
   </summary>
   <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n/* Each choice row: min 40px height for comfortable tap targets */\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  margin: 4px 0;\n  padding: 6px 4px;\n  min-height: 40px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 10px;\n  margin: 0;\n  cursor: pointer;\n}\n/* Enlarged radio/checkbox inputs: ~1.4em via width/height, transform-origin top-left keeps layout aligned */\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n  flex-shrink: 0;\n  width: 1.4em;\n  height: 1.4em;\n  cursor: pointer;\n  accent-color: var(--qti-btn-bg, #3a5acd);\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Primary filled button (Check Answer) */\n.qti-btn {\n  background-color: var(--qti-btn-bg, #3a5acd);\n  color: var(--qti-btn-fg, #ffffff);\n  border: none;\n  border-radius: 4px;\n  padding: 8px 20px;\n  font-weight: 600;\n  cursor: pointer;\n}\n.qti-btn:hover {\n  filter: brightness(1.1);\n}\n/* Disabled state: muted appearance after a correct answer (disabled attribute set by JS) */\n.qti-btn:disabled,\n.qti-btn[disabled] {\n  background-color: var(--qti-btn-disabled-bg, #aaaaaa);\n  color: var(--qti-btn-disabled-fg, #eeeeee);\n  opacity: 0.55;\n  cursor: not-allowed;\n  filter: none;\n}\n/* Secondary ghost button (Clear / Reset) */\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, transparent);\n  color: var(--qti-btn-reset-fg, #555555);\n  border: 1px solid var(--qti-btn-reset-border, #999999);\n  border-radius: 4px;\n  padding: 7px 20px;\n  cursor: pointer;\n}\n.qti-btn-reset:hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Text input styling */\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, #111111);\n  border: 1px solid var(--qti-input-border, #999999);\n  border-radius: 4px;\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n/* Responsive images: prevent RDKit/structure canvases from overflowing on mobile */\n.qti-selftest canvas,\n.qti-selftest img {\n  max-width: 100%;\n  height: auto;\n}\n/* Feedback pill: neutral base state (empty placeholder, invisible until JS sets content) */\n.qti-feedback-result {\n  display: inline-block;\n  min-height: 1.5em;\n  margin: 8px 0 8px 0;\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  vertical-align: middle;\n}\n/* Success pill */\n.qti-feedback-success {\n  display: inline-block;\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Error pill */\n.qti-feedback-error {\n  display: inline-block;\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Non-color accessibility markers (ASCII, no impact on textContent) */\n.qti-feedback-success::before { content: \"[+] \"; }\n.qti-feedback-error::before { content: \"[x] \"; }\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #4a6ee0;\n    --qti-btn-fg: #ffffff;\n    --qti-btn-disabled-bg: #555555;\n    --qti-btn-disabled-fg: #aaaaaa;\n    --qti-btn-reset-bg: transparent;\n    --qti-btn-reset-fg: #c0c0c0;\n    --qti-btn-reset-border: #777777;\n    --qti-input-bg: #2a2a2a;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #4a6ee0;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #555555;\n  --qti-btn-disabled-fg: #aaaaaa;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #c0c0c0;\n  --qti-btn-reset-border: #777777;\n  --qti-input-bg: #2a2a2a;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
   <div class="qti-selftest">
-  <div id="question_html_1cd8_d014">
-  <div id="statement_text_1cd8_d014">
-  <p>In the tropical rainforest population of butterflies, there is a display of incomplete dominance in wing pattern. Individuals with two C alleles exhibit cirlcular, those with one C allele and one c allele exhibit wavy pattern, and those with two c alleles exhibit solid color.<br>A group of 10000 butterflies were observed. 7921 exhibited the cirlcular wing pattern, 1958 had the wavy pattern wing pattern, and 121 showed the recessive form of solid color wing pattern.<br>Which Hardy-Weinberg variable is represented by the fraction&#160;</p>
+  <div id="question_html_9a32_d014">
+  <div id="statement_text_9a32_d014">
+  <p>In the forest population of snakes, there is a display of complete dominance in scale pattern. Individuals with at least one F allele show the diamond pattern scale pattern, while those no F alleles show the solid color scale pattern.<br>A group of 625 snakes were observed. 481 exhibited the diamond pattern scale pattern, while 144 showed the recessive form of solid color scale pattern.<br>Which Hardy-Weinberg variable is represented by the fraction&#160;</p>
   <table style="display: inline-table; border-collapse: collapse; line-height: 1; vertical-align: middle;">
   <tr>
-  <td style="border: none; font-size: 90%; padding: 2px; text-align: center;">&#160;7,921&#160;</td> </tr>
+  <td style="border: none; font-size: 90%; padding: 2px; text-align: center;">&#160;144&#160;</td> </tr>
   <tr>
   <td style="border: none; padding: 0; height: 2px; background-color: black;"></td> </tr>
   <tr>
-  <td style="border: none; font-size: 90%; padding: 2px; text-align: center;">&#160;10,000&#160;</td> </tr>
-  </table>&#160;? <br>Which Hardy-Weinberg variable is represented by the fraction 7921/10000?</div>
+  <td style="border: none; font-size: 90%; padding: 2px; text-align: center;">&#160;625&#160;</td> </tr>
+  </table>&#160;? </div>
   <form>
-  <ul id="choices_1cd8_d014">
+  <ul id="choices_9a32_d014">
   <li>
-      <input type="radio" id="option_1cd8_d014_0" name="answer_1cd8_d014" data-correct="false"><label for="option_1cd8_d014_0"><span style="font-weight: bold;">A.</span> <span><strong>p</strong> &#8212; Frequency of the dominant allele</span></label>
+      <input type="radio" id="option_9a32_d014_0" name="answer_9a32_d014" data-correct="false"><label for="option_9a32_d014_0"><span style="font-weight: bold;">A.</span> <span><strong>p</strong> &#8212; Frequency of the dominant allele</span></label>
     </li>
     <li>
-      <input type="radio" id="option_1cd8_d014_1" name="answer_1cd8_d014" data-correct="false"><label for="option_1cd8_d014_1"><span style="font-weight: bold;">B.</span> <span><strong>q</strong> &#8212; Frequency of the recessive allele</span></label>
+      <input type="radio" id="option_9a32_d014_1" name="answer_9a32_d014" data-correct="false"><label for="option_9a32_d014_1"><span style="font-weight: bold;">B.</span> <span><strong>q</strong> &#8212; Frequency of the recessive allele</span></label>
     </li>
     <li>
-      <input type="radio" id="option_1cd8_d014_2" name="answer_1cd8_d014" data-correct="true"><label for="option_1cd8_d014_2"><span style="font-weight: bold;">C.</span> <span><strong>p&#178;</strong> &#8212; Frequency of homozygous dominant individuals</span></label>
+      <input type="radio" id="option_9a32_d014_2" name="answer_9a32_d014" data-correct="false"><label for="option_9a32_d014_2"><span style="font-weight: bold;">C.</span> <span><strong>p&#178;</strong> &#8212; Frequency of homozygous dominant individuals</span></label>
     </li>
     <li>
-      <input type="radio" id="option_1cd8_d014_3" name="answer_1cd8_d014" data-correct="false"><label for="option_1cd8_d014_3"><span style="font-weight: bold;">D.</span> <span><strong>2pq</strong> &#8212; Frequency of heterozygous individuals</span></label>
+      <input type="radio" id="option_9a32_d014_3" name="answer_9a32_d014" data-correct="false"><label for="option_9a32_d014_3"><span style="font-weight: bold;">D.</span> <span><strong>2pq</strong> &#8212; Frequency of heterozygous individuals</span></label>
     </li>
     <li>
-      <input type="radio" id="option_1cd8_d014_4" name="answer_1cd8_d014" data-correct="false"><label for="option_1cd8_d014_4"><span style="font-weight: bold;">E.</span> <span><strong>q&#178;</strong> &#8212; Frequency of homozygous recessive individuals</span></label>
+      <input type="radio" id="option_9a32_d014_4" name="answer_9a32_d014" data-correct="true"><label for="option_9a32_d014_4"><span style="font-weight: bold;">E.</span> <span><strong>q&#178;</strong> &#8212; Frequency of homozygous recessive individuals</span></label>
     </li>
     <li>
-      <input type="radio" id="option_1cd8_d014_5" name="answer_1cd8_d014" data-correct="false"><label for="option_1cd8_d014_5"><span style="font-weight: bold;">F.</span> <span><strong>p&#178; + 2pq</strong> &#8212; Frequency of individuals with the dominant phenotype</span></label>
+      <input type="radio" id="option_9a32_d014_5" name="answer_9a32_d014" data-correct="false"><label for="option_9a32_d014_5"><span style="font-weight: bold;">F.</span> <span><strong>p&#178; + 2pq</strong> &#8212; Frequency of individuals with the dominant phenotype</span></label>
     </li>
     <li>
-      <input type="radio" id="option_1cd8_d014_6" name="answer_1cd8_d014" data-correct="false"><label for="option_1cd8_d014_6"><span style="font-weight: bold;">G.</span> <span><strong>2pq + q&#178;</strong> &#8212; Frequency of individuals that are NOT homozygous dominant</span></label>
+      <input type="radio" id="option_9a32_d014_6" name="answer_9a32_d014" data-correct="false"><label for="option_9a32_d014_6"><span style="font-weight: bold;">G.</span> <span><strong>2pq + q&#178;</strong> &#8212; Frequency of individuals that are NOT homozygous dominant</span></label>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_1cd8_d014()">Check Answer</button>
-  <div id="result_1cd8_d014" class="qti-feedback-result">&#160;</div>
+  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_9a32_d014()">Check Answer</button>
+  <div id="result_9a32_d014" class="qti-feedback-result">&#160;</div>
   </form>
   <br>
   </div><script>
-  function checkAnswer_1cd8_d014() {
-   const options = document.getElementsByName('answer_1cd8_d014');
+  function checkAnswer_9a32_d014() {
+   const options = document.getElementsByName('answer_9a32_d014');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_1cd8_d014');
-   const checkBtn = document.querySelector("[onclick='checkAnswer_1cd8_d014()']");
+   const resultDiv = document.getElementById('result_9a32_d014');
+   const checkBtn = document.querySelector("[onclick='checkAnswer_9a32_d014()']");
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.className = 'qti-feedback-result qti-feedback-success';
@@ -3200,42 +3200,42 @@
   </summary>
   <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n/* Each choice row: min 40px height for comfortable tap targets */\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  margin: 4px 0;\n  padding: 6px 4px;\n  min-height: 40px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 10px;\n  margin: 0;\n  cursor: pointer;\n}\n/* Enlarged radio/checkbox inputs: ~1.4em via width/height, transform-origin top-left keeps layout aligned */\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n  flex-shrink: 0;\n  width: 1.4em;\n  height: 1.4em;\n  cursor: pointer;\n  accent-color: var(--qti-btn-bg, #3a5acd);\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Primary filled button (Check Answer) */\n.qti-btn {\n  background-color: var(--qti-btn-bg, #3a5acd);\n  color: var(--qti-btn-fg, #ffffff);\n  border: none;\n  border-radius: 4px;\n  padding: 8px 20px;\n  font-weight: 600;\n  cursor: pointer;\n}\n.qti-btn:hover {\n  filter: brightness(1.1);\n}\n/* Disabled state: muted appearance after a correct answer (disabled attribute set by JS) */\n.qti-btn:disabled,\n.qti-btn[disabled] {\n  background-color: var(--qti-btn-disabled-bg, #aaaaaa);\n  color: var(--qti-btn-disabled-fg, #eeeeee);\n  opacity: 0.55;\n  cursor: not-allowed;\n  filter: none;\n}\n/* Secondary ghost button (Clear / Reset) */\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, transparent);\n  color: var(--qti-btn-reset-fg, #555555);\n  border: 1px solid var(--qti-btn-reset-border, #999999);\n  border-radius: 4px;\n  padding: 7px 20px;\n  cursor: pointer;\n}\n.qti-btn-reset:hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Text input styling */\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, #111111);\n  border: 1px solid var(--qti-input-border, #999999);\n  border-radius: 4px;\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n/* Responsive images: prevent RDKit/structure canvases from overflowing on mobile */\n.qti-selftest canvas,\n.qti-selftest img {\n  max-width: 100%;\n  height: auto;\n}\n/* Feedback pill: neutral base state (empty placeholder, invisible until JS sets content) */\n.qti-feedback-result {\n  display: inline-block;\n  min-height: 1.5em;\n  margin: 8px 0 8px 0;\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  vertical-align: middle;\n}\n/* Success pill */\n.qti-feedback-success {\n  display: inline-block;\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Error pill */\n.qti-feedback-error {\n  display: inline-block;\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Non-color accessibility markers (ASCII, no impact on textContent) */\n.qti-feedback-success::before { content: \"[+] \"; }\n.qti-feedback-error::before { content: \"[x] \"; }\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #4a6ee0;\n    --qti-btn-fg: #ffffff;\n    --qti-btn-disabled-bg: #555555;\n    --qti-btn-disabled-fg: #aaaaaa;\n    --qti-btn-reset-bg: transparent;\n    --qti-btn-reset-fg: #c0c0c0;\n    --qti-btn-reset-border: #777777;\n    --qti-input-bg: #2a2a2a;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #4a6ee0;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #555555;\n  --qti-btn-disabled-fg: #aaaaaa;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #c0c0c0;\n  --qti-btn-reset-border: #777777;\n  --qti-input-bg: #2a2a2a;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
   <div class="qti-selftest">
-  <div id="question_html_7cba_76f1">
-  <div id="statement_text_7cba_76f1">
+  <div id="question_html_78a5_2bca">
+  <div id="statement_text_78a5_2bca">
   <table style="border-collapse: collapse; border: 2px solid black;">
-  <tr><th colspan="3" align="center">fish</th></tr>
+  <tr><th colspan="3" align="center">birds</th></tr>
   <tr>
   <th align="center">genotype</th>  <th align="center">phenotype</th>  <th align="center">count</th>
   </tr>
   <tr>
-  <td align="center">homozygous<br>dominant</td>  <td align="center">red</td>  <td align="right">1,748</td>
+  <td align="center">homozygous<br>dominant</td>  <td align="center">red</td>  <td align="right">1,208</td>
   </tr>
   <tr>
-  <td align="center">heterozygous</td>  <td align="center">orange</td>  <td align="right">1,254</td>
+  <td align="center">heterozygous</td>  <td align="center">orange</td>  <td align="right">1,584</td>
   </tr>
   <tr>
-  <td align="center">homozygous<br>recessive</td>  <td align="center">yellow</td>  <td align="right">123</td>
+  <td align="center">homozygous<br>recessive</td>  <td align="center">yellow</td>  <td align="right">333</td>
   </tr>
   <tr>
   <th colspan="2" align="right">SUM</th>  <th align="right">3,125</th>
   </tr>
   </table>
-  <p>In a field there are 1,748 red fish, 1,254 orange fish, and 123 yellow fish that show incomplete dominance. What is the frequency of the <b>dominant</b> allele?<br>Note: Do not enter a percentage on the blank. For example, if the answer is 25.3%, enter 0.253 on the blank. Your answer will be a decimal value between 0 and 1.</p>
+  <p>In a field there are 1,208 red birds, 1,584 orange birds, and 333 yellow birds that show incomplete dominance. What is the frequency of the <b>dominant</b> allele?<br>Note: Do not enter a percentage on the blank. For example, if the answer is 75.4%, enter 0.754 on the blank. Your answer will be a decimal value between 0 and 1.</p>
   </div>
   <div>
-  <input type="text" class="qti-input" id="num_input_7cba_76f1" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Enter a number"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_7cba_76f1()">Check Answer</button>
-  <div id="result_7cba_76f1" class="qti-feedback-result">&#160;</div>
+  <input type="text" class="qti-input" id="num_input_78a5_2bca" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Enter a number"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_78a5_2bca()">Check Answer</button>
+  <div id="result_78a5_2bca" class="qti-feedback-result">&#160;</div>
   </div>
   <br>
   </div><script>
-  const numAnswer_7cba_76f1 = 0.76;
-  const numTolerance_7cba_76f1 = 0.0099;
-  function checkAnswer_7cba_76f1() {
-    const inputEl = document.getElementById('num_input_7cba_76f1');
+  const numAnswer_78a5_2bca = 0.64;
+  const numTolerance_78a5_2bca = 0.0099;
+  function checkAnswer_78a5_2bca() {
+    const inputEl = document.getElementById('num_input_78a5_2bca');
     if (!inputEl) { return; }
     const valStr = inputEl.value.trim();
-    const resultDiv = document.getElementById('result_7cba_76f1');
-    const checkBtn = document.querySelector("[onclick='checkAnswer_7cba_76f1()']");
+    const resultDiv = document.getElementById('result_78a5_2bca');
+    const checkBtn = document.querySelector("[onclick='checkAnswer_78a5_2bca()']");
     if (valStr === '') {
       resultDiv.className = 'qti-feedback-result';
       resultDiv.textContent = 'Please enter a value.';
@@ -3247,8 +3247,8 @@
       resultDiv.textContent = 'Please enter a valid number.';
       return;
     }
-    const lower = numAnswer_7cba_76f1 - numTolerance_7cba_76f1;
-    const upper = numAnswer_7cba_76f1 + numTolerance_7cba_76f1;
+    const lower = numAnswer_78a5_2bca - numTolerance_78a5_2bca;
+    const upper = numAnswer_78a5_2bca + numTolerance_78a5_2bca;
     const isCorrect = (userVal >= lower && userVal <= upper);
     if (isCorrect) {
       resultDiv.className = 'qti-feedback-result qti-feedback-success';
@@ -3268,10 +3268,10 @@
     }
   }
   document.addEventListener('DOMContentLoaded', function() {
-    const inputEl = document.getElementById('num_input_7cba_76f1');
+    const inputEl = document.getElementById('num_input_78a5_2bca');
     if (!inputEl) return;
     inputEl.addEventListener('keydown', function(e) {
-      if (e.key === 'Enter') { e.preventDefault(); checkAnswer_7cba_76f1(); }
+      if (e.key === 'Enter') { e.preventDefault(); checkAnswer_78a5_2bca(); }
     });
   });
   </script>
@@ -3313,9 +3313,9 @@
   </summary>
   <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n/* Each choice row: min 40px height for comfortable tap targets */\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  margin: 4px 0;\n  padding: 6px 4px;\n  min-height: 40px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 10px;\n  margin: 0;\n  cursor: pointer;\n}\n/* Enlarged radio/checkbox inputs: ~1.4em via width/height, transform-origin top-left keeps layout aligned */\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n  flex-shrink: 0;\n  width: 1.4em;\n  height: 1.4em;\n  cursor: pointer;\n  accent-color: var(--qti-btn-bg, #3a5acd);\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Primary filled button (Check Answer) */\n.qti-btn {\n  background-color: var(--qti-btn-bg, #3a5acd);\n  color: var(--qti-btn-fg, #ffffff);\n  border: none;\n  border-radius: 4px;\n  padding: 8px 20px;\n  font-weight: 600;\n  cursor: pointer;\n}\n.qti-btn:hover {\n  filter: brightness(1.1);\n}\n/* Disabled state: muted appearance after a correct answer (disabled attribute set by JS) */\n.qti-btn:disabled,\n.qti-btn[disabled] {\n  background-color: var(--qti-btn-disabled-bg, #aaaaaa);\n  color: var(--qti-btn-disabled-fg, #eeeeee);\n  opacity: 0.55;\n  cursor: not-allowed;\n  filter: none;\n}\n/* Secondary ghost button (Clear / Reset) */\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, transparent);\n  color: var(--qti-btn-reset-fg, #555555);\n  border: 1px solid var(--qti-btn-reset-border, #999999);\n  border-radius: 4px;\n  padding: 7px 20px;\n  cursor: pointer;\n}\n.qti-btn-reset:hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Text input styling */\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, #111111);\n  border: 1px solid var(--qti-input-border, #999999);\n  border-radius: 4px;\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n/* Responsive images: prevent RDKit/structure canvases from overflowing on mobile */\n.qti-selftest canvas,\n.qti-selftest img {\n  max-width: 100%;\n  height: auto;\n}\n/* Feedback pill: neutral base state (empty placeholder, invisible until JS sets content) */\n.qti-feedback-result {\n  display: inline-block;\n  min-height: 1.5em;\n  margin: 8px 0 8px 0;\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  vertical-align: middle;\n}\n/* Success pill */\n.qti-feedback-success {\n  display: inline-block;\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Error pill */\n.qti-feedback-error {\n  display: inline-block;\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Non-color accessibility markers (ASCII, no impact on textContent) */\n.qti-feedback-success::before { content: \"[+] \"; }\n.qti-feedback-error::before { content: \"[x] \"; }\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #4a6ee0;\n    --qti-btn-fg: #ffffff;\n    --qti-btn-disabled-bg: #555555;\n    --qti-btn-disabled-fg: #aaaaaa;\n    --qti-btn-reset-bg: transparent;\n    --qti-btn-reset-fg: #c0c0c0;\n    --qti-btn-reset-border: #777777;\n    --qti-input-bg: #2a2a2a;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #4a6ee0;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #555555;\n  --qti-btn-disabled-fg: #aaaaaa;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #c0c0c0;\n  --qti-btn-reset-border: #777777;\n  --qti-input-bg: #2a2a2a;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
   <div class="qti-selftest">
-  <div id="question_html_44fe_6b5e">
-  <div id="statement_text_44fe_6b5e">
-  <p>The <span style="color: #595959; font-weight: 600;">white-eyed (mutant)</span> phenotype is an X-linked recessive disorder in fruit flies. The <span style="color: #8b0000; font-weight: 600;">red-eyed (wildtype)</span> allele, <span style="font-family: monospace; font-size: 0.95em; font-weight: 600; text-transform: none; font-variant: normal;">+</span>, is dominant to the white (<span style="color: #595959; font-weight: 600;">mutant</span>) allele, <span style="font-family: monospace; font-size: 0.95em; font-weight: 600; text-transform: none; font-variant: normal;">w</span>. The offspring of size 400 from the mating of a single <span style="color: #990070; font-weight: 600;">female</span> <span style="font-weight: 400;">(</span><span style="font-weight: 400;">&#9792;</span><span style="font-weight: 400;">)</span> and a single <span style="color: #002499; font-weight: 600;">male</span> <span style="font-weight: 400;">(</span><span style="font-weight: 400;">&#9794;</span><span style="font-weight: 400;">)</span> are shown in the table below:</p>
+  <div id="question_html_8326_6b5e">
+  <div id="statement_text_8326_6b5e">
+  <p>The <span style="color: #595959; font-weight: 600;">white-eyed (mutant)</span> phenotype is an X-linked recessive disorder in fruit flies. The <span style="color: #8b0000; font-weight: 600;">red-eyed (wildtype)</span> allele, <span style="font-family: monospace; font-size: 0.95em; font-weight: 600; text-transform: none; font-variant: normal;">+</span>, is dominant to the white (<span style="color: #595959; font-weight: 600;">mutant</span>) allele, <span style="font-family: monospace; font-size: 0.95em; font-weight: 600; text-transform: none; font-variant: normal;">w</span>. The offspring of size 360 from the mating of a single <span style="color: #990070; font-weight: 600;">female</span> <span style="font-weight: 400;">(</span><span style="font-weight: 400;">&#9792;</span><span style="font-weight: 400;">)</span> and a single <span style="color: #002499; font-weight: 600;">male</span> <span style="font-weight: 400;">(</span><span style="font-weight: 400;">&#9794;</span><span style="font-weight: 400;">)</span> are shown in the table below:</p>
   <table cellpadding="2" cellspacing="2" style="border-collapse: collapse; text-align:center; border: 1px solid black; font-size: 14px;">
   <tr>
   <th>phenotype</th>
@@ -3327,49 +3327,49 @@
   </th>
   </tr>
   <tr>
-  <td><span style="color: darkred;">red-eyed (wildtype)</span></td> <td align="center">103</td>
-  <td align="center">94</td>
+  <td><span style="color: darkred;">red-eyed (wildtype)</span></td> <td align="center">184</td>
+  <td align="center">87</td>
   </tr>
   <tr>
-  <td><span style="color: #595959; font-weight: 600;">white-eyed (mutant)</span></td> <td align="center">106</td>
-  <td align="center">97</td>
+  <td><span style="color: #595959; font-weight: 600;">white-eyed (mutant)</span></td> <td align="center">0</td>
+  <td align="center">89</td>
   </tr>
   </table>
   <br><p><strong>What are the genotypes of the parents in this cross?</strong></p>
   </div>
   <form>
-  <ul id="choices_44fe_6b5e">
+  <ul id="choices_8326_6b5e">
   <li>
-      <input type="radio" id="option_44fe_6b5e_0" name="answer_44fe_6b5e" data-correct="true"><label for="option_44fe_6b5e_0"><span style="font-weight: bold;">A.</span> <span>heterozygous <span style="color: #990070; font-weight: 600;">female</span> <span style="font-weight: 400;">(</span><span style="font-weight: 400;">&#9792;</span><span style="font-weight: 400;">)</span> <span style="font-family: monospace; font-size: 0.95em; font-weight: 600; text-transform: none; font-variant: normal;">+w</span> and <span style="color: #595959; font-weight: 600;">mutant</span> <span style="color: #002499; font-weight: 600;">male</span> <span style="font-weight: 400;">(</span><span style="font-weight: 400;">&#9794;</span><span style="font-weight: 400;">)</span> <span style="font-family: monospace; font-size: 0.95em; font-weight: 600; text-transform: none; font-variant: normal;">w-</span></span></label>
+      <input type="radio" id="option_8326_6b5e_0" name="answer_8326_6b5e" data-correct="false"><label for="option_8326_6b5e_0"><span style="font-weight: bold;">A.</span> <span>heterozygous <span style="color: #990070; font-weight: 600;">female</span> <span style="font-weight: 400;">(</span><span style="font-weight: 400;">&#9792;</span><span style="font-weight: 400;">)</span> <span style="font-family: monospace; font-size: 0.95em; font-weight: 600; text-transform: none; font-variant: normal;">+w</span> and <span style="color: #595959; font-weight: 600;">mutant</span> <span style="color: #002499; font-weight: 600;">male</span> <span style="font-weight: 400;">(</span><span style="font-weight: 400;">&#9794;</span><span style="font-weight: 400;">)</span> <span style="font-family: monospace; font-size: 0.95em; font-weight: 600; text-transform: none; font-variant: normal;">w-</span></span></label>
     </li>
     <li>
-      <input type="radio" id="option_44fe_6b5e_1" name="answer_44fe_6b5e" data-correct="false"><label for="option_44fe_6b5e_1"><span style="font-weight: bold;">B.</span> <span>heterozygous <span style="color: #990070; font-weight: 600;">female</span> <span style="font-weight: 400;">(</span><span style="font-weight: 400;">&#9792;</span><span style="font-weight: 400;">)</span> <span style="font-family: monospace; font-size: 0.95em; font-weight: 600; text-transform: none; font-variant: normal;">+w</span> and <span style="color: #8b0000; font-weight: 600;">wildtype</span> <span style="color: #002499; font-weight: 600;">male</span> <span style="font-weight: 400;">(</span><span style="font-weight: 400;">&#9794;</span><span style="font-weight: 400;">)</span> <span style="font-family: monospace; font-size: 0.95em; font-weight: 600; text-transform: none; font-variant: normal;">+-</span></span></label>
+      <input type="radio" id="option_8326_6b5e_1" name="answer_8326_6b5e" data-correct="true"><label for="option_8326_6b5e_1"><span style="font-weight: bold;">B.</span> <span>heterozygous <span style="color: #990070; font-weight: 600;">female</span> <span style="font-weight: 400;">(</span><span style="font-weight: 400;">&#9792;</span><span style="font-weight: 400;">)</span> <span style="font-family: monospace; font-size: 0.95em; font-weight: 600; text-transform: none; font-variant: normal;">+w</span> and <span style="color: #8b0000; font-weight: 600;">wildtype</span> <span style="color: #002499; font-weight: 600;">male</span> <span style="font-weight: 400;">(</span><span style="font-weight: 400;">&#9794;</span><span style="font-weight: 400;">)</span> <span style="font-family: monospace; font-size: 0.95em; font-weight: 600; text-transform: none; font-variant: normal;">+-</span></span></label>
     </li>
     <li>
-      <input type="radio" id="option_44fe_6b5e_2" name="answer_44fe_6b5e" data-correct="false"><label for="option_44fe_6b5e_2"><span style="font-weight: bold;">C.</span> <span>homozygous <span style="color: #595959; font-weight: 600;">mutant</span> <span style="color: #990070; font-weight: 600;">female</span> <span style="font-weight: 400;">(</span><span style="font-weight: 400;">&#9792;</span><span style="font-weight: 400;">)</span> <span style="font-family: monospace; font-size: 0.95em; font-weight: 600; text-transform: none; font-variant: normal;">ww</span> and <span style="color: #595959; font-weight: 600;">mutant</span> <span style="color: #002499; font-weight: 600;">male</span> <span style="font-weight: 400;">(</span><span style="font-weight: 400;">&#9794;</span><span style="font-weight: 400;">)</span> <span style="font-family: monospace; font-size: 0.95em; font-weight: 600; text-transform: none; font-variant: normal;">w-</span></span></label>
+      <input type="radio" id="option_8326_6b5e_2" name="answer_8326_6b5e" data-correct="false"><label for="option_8326_6b5e_2"><span style="font-weight: bold;">C.</span> <span>homozygous <span style="color: #595959; font-weight: 600;">mutant</span> <span style="color: #990070; font-weight: 600;">female</span> <span style="font-weight: 400;">(</span><span style="font-weight: 400;">&#9792;</span><span style="font-weight: 400;">)</span> <span style="font-family: monospace; font-size: 0.95em; font-weight: 600; text-transform: none; font-variant: normal;">ww</span> and <span style="color: #595959; font-weight: 600;">mutant</span> <span style="color: #002499; font-weight: 600;">male</span> <span style="font-weight: 400;">(</span><span style="font-weight: 400;">&#9794;</span><span style="font-weight: 400;">)</span> <span style="font-family: monospace; font-size: 0.95em; font-weight: 600; text-transform: none; font-variant: normal;">w-</span></span></label>
     </li>
     <li>
-      <input type="radio" id="option_44fe_6b5e_3" name="answer_44fe_6b5e" data-correct="false"><label for="option_44fe_6b5e_3"><span style="font-weight: bold;">D.</span> <span>homozygous <span style="color: #595959; font-weight: 600;">mutant</span> <span style="color: #990070; font-weight: 600;">female</span> <span style="font-weight: 400;">(</span><span style="font-weight: 400;">&#9792;</span><span style="font-weight: 400;">)</span> <span style="font-family: monospace; font-size: 0.95em; font-weight: 600; text-transform: none; font-variant: normal;">ww</span> and <span style="color: #8b0000; font-weight: 600;">wildtype</span> <span style="color: #002499; font-weight: 600;">male</span> <span style="font-weight: 400;">(</span><span style="font-weight: 400;">&#9794;</span><span style="font-weight: 400;">)</span> <span style="font-family: monospace; font-size: 0.95em; font-weight: 600; text-transform: none; font-variant: normal;">+-</span></span></label>
+      <input type="radio" id="option_8326_6b5e_3" name="answer_8326_6b5e" data-correct="false"><label for="option_8326_6b5e_3"><span style="font-weight: bold;">D.</span> <span>homozygous <span style="color: #595959; font-weight: 600;">mutant</span> <span style="color: #990070; font-weight: 600;">female</span> <span style="font-weight: 400;">(</span><span style="font-weight: 400;">&#9792;</span><span style="font-weight: 400;">)</span> <span style="font-family: monospace; font-size: 0.95em; font-weight: 600; text-transform: none; font-variant: normal;">ww</span> and <span style="color: #8b0000; font-weight: 600;">wildtype</span> <span style="color: #002499; font-weight: 600;">male</span> <span style="font-weight: 400;">(</span><span style="font-weight: 400;">&#9794;</span><span style="font-weight: 400;">)</span> <span style="font-family: monospace; font-size: 0.95em; font-weight: 600; text-transform: none; font-variant: normal;">+-</span></span></label>
     </li>
     <li>
-      <input type="radio" id="option_44fe_6b5e_4" name="answer_44fe_6b5e" data-correct="false"><label for="option_44fe_6b5e_4"><span style="font-weight: bold;">E.</span> <span>homozygous <span style="color: #8b0000; font-weight: 600;">wildtype</span> <span style="color: #990070; font-weight: 600;">female</span> <span style="font-weight: 400;">(</span><span style="font-weight: 400;">&#9792;</span><span style="font-weight: 400;">)</span> <span style="font-family: monospace; font-size: 0.95em; font-weight: 600; text-transform: none; font-variant: normal;">++</span> and <span style="color: #002499; font-weight: 600;">male</span> <span style="font-weight: 400;">(</span><span style="font-weight: 400;">&#9794;</span><span style="font-weight: 400;">)</span> of unknown genotype</span></label>
+      <input type="radio" id="option_8326_6b5e_4" name="answer_8326_6b5e" data-correct="false"><label for="option_8326_6b5e_4"><span style="font-weight: bold;">E.</span> <span>homozygous <span style="color: #8b0000; font-weight: 600;">wildtype</span> <span style="color: #990070; font-weight: 600;">female</span> <span style="font-weight: 400;">(</span><span style="font-weight: 400;">&#9792;</span><span style="font-weight: 400;">)</span> <span style="font-family: monospace; font-size: 0.95em; font-weight: 600; text-transform: none; font-variant: normal;">++</span> and <span style="color: #002499; font-weight: 600;">male</span> <span style="font-weight: 400;">(</span><span style="font-weight: 400;">&#9794;</span><span style="font-weight: 400;">)</span> of unknown genotype</span></label>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_44fe_6b5e()">Check Answer</button>
-  <div id="result_44fe_6b5e" class="qti-feedback-result">&#160;</div>
+  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_8326_6b5e()">Check Answer</button>
+  <div id="result_8326_6b5e" class="qti-feedback-result">&#160;</div>
   </form>
   <br>
   </div><script>
-  function checkAnswer_44fe_6b5e() {
-   const options = document.getElementsByName('answer_44fe_6b5e');
+  function checkAnswer_8326_6b5e() {
+   const options = document.getElementsByName('answer_8326_6b5e');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_44fe_6b5e');
-   const checkBtn = document.querySelector("[onclick='checkAnswer_44fe_6b5e()']");
+   const resultDiv = document.getElementById('result_8326_6b5e');
+   const checkBtn = document.querySelector("[onclick='checkAnswer_8326_6b5e()']");
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.className = 'qti-feedback-result qti-feedback-success';
@@ -3420,8 +3420,8 @@
   </summary>
   <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n/* Each choice row: min 40px height for comfortable tap targets */\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  margin: 4px 0;\n  padding: 6px 4px;\n  min-height: 40px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 10px;\n  margin: 0;\n  cursor: pointer;\n}\n/* Enlarged radio/checkbox inputs: ~1.4em via width/height, transform-origin top-left keeps layout aligned */\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n  flex-shrink: 0;\n  width: 1.4em;\n  height: 1.4em;\n  cursor: pointer;\n  accent-color: var(--qti-btn-bg, #3a5acd);\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Primary filled button (Check Answer) */\n.qti-btn {\n  background-color: var(--qti-btn-bg, #3a5acd);\n  color: var(--qti-btn-fg, #ffffff);\n  border: none;\n  border-radius: 4px;\n  padding: 8px 20px;\n  font-weight: 600;\n  cursor: pointer;\n}\n.qti-btn:hover {\n  filter: brightness(1.1);\n}\n/* Disabled state: muted appearance after a correct answer (disabled attribute set by JS) */\n.qti-btn:disabled,\n.qti-btn[disabled] {\n  background-color: var(--qti-btn-disabled-bg, #aaaaaa);\n  color: var(--qti-btn-disabled-fg, #eeeeee);\n  opacity: 0.55;\n  cursor: not-allowed;\n  filter: none;\n}\n/* Secondary ghost button (Clear / Reset) */\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, transparent);\n  color: var(--qti-btn-reset-fg, #555555);\n  border: 1px solid var(--qti-btn-reset-border, #999999);\n  border-radius: 4px;\n  padding: 7px 20px;\n  cursor: pointer;\n}\n.qti-btn-reset:hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Text input styling */\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, #111111);\n  border: 1px solid var(--qti-input-border, #999999);\n  border-radius: 4px;\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n/* Responsive images: prevent RDKit/structure canvases from overflowing on mobile */\n.qti-selftest canvas,\n.qti-selftest img {\n  max-width: 100%;\n  height: auto;\n}\n/* Feedback pill: neutral base state (empty placeholder, invisible until JS sets content) */\n.qti-feedback-result {\n  display: inline-block;\n  min-height: 1.5em;\n  margin: 8px 0 8px 0;\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  vertical-align: middle;\n}\n/* Success pill */\n.qti-feedback-success {\n  display: inline-block;\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Error pill */\n.qti-feedback-error {\n  display: inline-block;\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Non-color accessibility markers (ASCII, no impact on textContent) */\n.qti-feedback-success::before { content: \"[+] \"; }\n.qti-feedback-error::before { content: \"[x] \"; }\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #4a6ee0;\n    --qti-btn-fg: #ffffff;\n    --qti-btn-disabled-bg: #555555;\n    --qti-btn-disabled-fg: #aaaaaa;\n    --qti-btn-reset-bg: transparent;\n    --qti-btn-reset-fg: #c0c0c0;\n    --qti-btn-reset-border: #777777;\n    --qti-input-bg: #2a2a2a;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #4a6ee0;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #555555;\n  --qti-btn-disabled-fg: #aaaaaa;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #c0c0c0;\n  --qti-btn-reset-border: #777777;\n  --qti-input-bg: #2a2a2a;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
   <div class="qti-selftest">
-  <div id="question_html_d2c1_b660">
-  <div id="statement_text_d2c1_b660">
+  <div id="question_html_87d6_45c7">
+  <div id="statement_text_87d6_45c7">
   <p style="margin:2px 0;color:#444;"><strong>Model:</strong> Binomial &#8594; </p>
   <table style="display:inline-table;vertical-align:middle;border-collapse:collapse;border:0;position:relative;top:-0.2em;">
   <tr>
@@ -3430,202 +3430,202 @@
   </td>
   </tr>
   <tr><td style="text-align:center;vertical-align:top;padding:0;">k</td></tr>
-  </table>&#8901;p<sup>k</sup>&#8901;q<sup>n-k</sup><br>In this scenario, assume that each child is born independently with the same chance of being either sex. The event outcomes are mutually exclusive, so we can apply the binomial model to determine the probability of a specific combination.<br>A woman has <strong>seven (7)</strong> children. What is the probability that she has exactly <span style="color:#0086b3;"><strong>four (4) boys &#9794;</strong></span> and <span style="color:#b30086;"><strong>three (3) girls &#9792;</strong></span>? </div>
+  </table>&#8901;p<sup>k</sup>&#8901;q<sup>n-k</sup><br>In this scenario, assume that each child is born independently with the same chance of being either sex. The event outcomes are mutually exclusive, so we can apply the binomial model to determine the probability of a specific combination.<br>A woman has <strong>five (5)</strong> children. What is the probability that she has exactly <span style="color:#0086b3;"><strong>three (3) boys &#9794;</strong></span> and <span style="color:#b30086;"><strong>two (2) girls &#9792;</strong></span>? </div>
   <form>
-  <ul id="choices_d2c1_b660">
+  <ul id="choices_87d6_45c7">
   <li>
-      <input type="radio" id="option_d2c1_b660_0" name="answer_d2c1_b660" data-correct="false"><label for="option_d2c1_b660_0"><span style="font-weight: bold;">A.</span> <span><table style="border-collapse: collapse; border: 1px solid white;"><tr>
+      <input type="radio" id="option_87d6_45c7_0" name="answer_87d6_45c7" data-correct="true"><label for="option_87d6_45c7_0"><span style="font-weight: bold;">A.</span> <span><table style="border-collapse: collapse; border: 1px solid white;"><tr>
   <td><table style="display:inline-table;vertical-align:middle;border-collapse:collapse;border:0;position:relative;top:-0.2em;">
   <tr>
   <td rowspan="2" style="text-align:center;vertical-align:middle;padding:0;margin-right:0.05em;">
-  <span style="font-size:xx-large;transform:scale(1.35);display:inline-block;margin-right:0.05em;">&#10222;</span>&#160;</td> <td style="text-align:center;vertical-align:bottom;padding:0;">4</td> <td rowspan="2" style="text-align:center;vertical-align:middle;padding:0;margin-left:0.05em;">&#160;<span style="font-size:xx-large;transform:scale(1.35);display:inline-block;margin-left:0.05em;">&#10223;</span>
-  </td>
-  </tr>
-  <tr><td style="text-align:center;vertical-align:top;padding:0;">4</td></tr>
-  </table></td>
-  <td>(<span style="font-size: large;">&#189;</span>)<sup>4</sup>&#8901;(<span style="font-size: large;">&#189;</span>)<sup>3</sup>
-  </td>
-  <td>&#160;=&#160;</td>
-  <td><table style="border-collapse: collapse; border: 1px solid white;">
-  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;4!&#160; </td></tr>
-  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;(4&#8211;4)!&#160;&#8901;&#160;4!&#160; </td></tr>
-  </table></td>
-  <td>(<span style="font-size: large;">&#189;</span>)<sup>4</sup>
-  </td>
-  <td>&#160;=&#160;</td>
-  <td><table style="border-collapse: collapse; border: 1px solid white;">
-  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;1&#160; </td></tr>
-  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;1&#160; </td></tr>
-  </table></td>
-  <td>&#215;</td>
-  <td><table style="border-collapse: collapse; border: 1px solid white;">
-  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;1&#160; </td></tr>
-  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;2<sup>4</sup>&#160; </td></tr>
-  </table></td>
-  <td>&#160;=&#160;</td>
-  <td><table style="border-collapse: collapse; border: 1px solid white;">
-  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;1&#160; </td></tr>
-  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;128&#160; </td></tr>
-  </table></td>
-  <td>&#160;=&#160;</td>
-  <td>0.0078</td>
-  <td><strong>&#160;=&#160;</strong></td>
-  <td><strong>0.8%</strong></td>
-  </tr></table></span></label>
-    </li>
-    <li>
-      <input type="radio" id="option_d2c1_b660_1" name="answer_d2c1_b660" data-correct="true"><label for="option_d2c1_b660_1"><span style="font-weight: bold;">B.</span> <span><table style="border-collapse: collapse; border: 1px solid white;"><tr>
-  <td><table style="display:inline-table;vertical-align:middle;border-collapse:collapse;border:0;position:relative;top:-0.2em;">
-  <tr>
-  <td rowspan="2" style="text-align:center;vertical-align:middle;padding:0;margin-right:0.05em;">
-  <span style="font-size:xx-large;transform:scale(1.35);display:inline-block;margin-right:0.05em;">&#10222;</span>&#160;</td> <td style="text-align:center;vertical-align:bottom;padding:0;">7</td> <td rowspan="2" style="text-align:center;vertical-align:middle;padding:0;margin-left:0.05em;">&#160;<span style="font-size:xx-large;transform:scale(1.35);display:inline-block;margin-left:0.05em;">&#10223;</span>
-  </td>
-  </tr>
-  <tr><td style="text-align:center;vertical-align:top;padding:0;">4</td></tr>
-  </table></td>
-  <td>(<span style="font-size: large;">&#189;</span>)<sup>4</sup>&#8901;(<span style="font-size: large;">&#189;</span>)<sup>3</sup>
-  </td>
-  <td>&#160;=&#160;</td>
-  <td><table style="border-collapse: collapse; border: 1px solid white;">
-  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;7!&#160; </td></tr>
-  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;(7&#8211;4)!&#160;&#8901;&#160;4!&#160; </td></tr>
-  </table></td>
-  <td>(<span style="font-size: large;">&#189;</span>)<sup>7</sup>
-  </td>
-  <td>&#160;=&#160;</td>
-  <td><table style="border-collapse: collapse; border: 1px solid white;">
-  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;7&#8901;6&#8901;5&#160; </td></tr>
-  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;4&#8901;3&#8901;2&#160; </td></tr>
-  </table></td>
-  <td>&#215;</td>
-  <td><table style="border-collapse: collapse; border: 1px solid white;">
-  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;1&#160; </td></tr>
-  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;2<sup>7</sup>&#160; </td></tr>
-  </table></td>
-  <td>&#160;=&#160;</td>
-  <td><table style="border-collapse: collapse; border: 1px solid white;">
-  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;35&#160; </td></tr>
-  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;128&#160; </td></tr>
-  </table></td>
-  <td>&#160;=&#160;</td>
-  <td>0.2734</td>
-  <td><strong>&#160;=&#160;</strong></td>
-  <td><strong>27.3%</strong></td>
-  </tr></table></span></label>
-    </li>
-    <li>
-      <input type="radio" id="option_d2c1_b660_2" name="answer_d2c1_b660" data-correct="false"><label for="option_d2c1_b660_2"><span style="font-weight: bold;">C.</span> <span><table style="border-collapse: collapse; border: 1px solid white;"><tr>
-  <td><table style="display:inline-table;vertical-align:middle;border-collapse:collapse;border:0;position:relative;top:-0.2em;">
-  <tr>
-  <td rowspan="2" style="text-align:center;vertical-align:middle;padding:0;margin-right:0.05em;">
-  <span style="font-size:xx-large;transform:scale(1.35);display:inline-block;margin-right:0.05em;">&#10222;</span>&#160;</td> <td style="text-align:center;vertical-align:bottom;padding:0;">7</td> <td rowspan="2" style="text-align:center;vertical-align:middle;padding:0;margin-left:0.05em;">&#160;<span style="font-size:xx-large;transform:scale(1.35);display:inline-block;margin-left:0.05em;">&#10223;</span>
-  </td>
-  </tr>
-  <tr><td style="text-align:center;vertical-align:top;padding:0;">4</td></tr>
-  </table></td>
-  <td>(<span style="font-size: large;">&#188;</span>)<sup>4</sup>&#8901;(<span style="font-size: large;">&#190;</span>)<sup>3</sup>
-  </td>
-  <td>&#160;=&#160;</td>
-  <td><table style="border-collapse: collapse; border: 1px solid white;">
-  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;7!&#160; </td></tr>
-  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;(7&#8211;4)!&#160;&#8901;&#160;4!&#160; </td></tr>
-  </table></td>
-  <td>(<span style="font-size: large;">&#188;</span>)<sup>4</sup>&#8901;(<span style="font-size: large;">&#190;</span>)<sup>3</sup>
-  </td>
-  <td>&#160;=&#160;</td>
-  <td><table style="border-collapse: collapse; border: 1px solid white;">
-  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;7&#8901;6&#8901;5&#160; </td></tr>
-  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;4&#8901;3&#8901;2&#160; </td></tr>
-  </table></td>
-  <td>&#215;</td>
-  <td><table style="border-collapse: collapse; border: 1px solid white;">
-  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;3<sup>3</sup>&#160; </td></tr>
-  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;4<sup>4</sup>4<sup>3</sup>&#160; </td></tr>
-  </table></td>
-  <td>&#160;=&#160;</td>
-  <td><table style="border-collapse: collapse; border: 1px solid white;">
-  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;35&#215;27&#160; </td></tr>
-  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;16384&#160; </td></tr>
-  </table></td>
-  <td>&#160;=&#160;</td>
-  <td>0.0577</td>
-  <td><strong>&#160;=&#160;</strong></td>
-  <td><strong>5.8%</strong></td>
-  </tr></table></span></label>
-    </li>
-    <li>
-      <input type="radio" id="option_d2c1_b660_3" name="answer_d2c1_b660" data-correct="false"><label for="option_d2c1_b660_3"><span style="font-weight: bold;">D.</span> <span><table style="border-collapse: collapse; border: 1px solid white;"><tr>
-  <td><table style="display:inline-table;vertical-align:middle;border-collapse:collapse;border:0;position:relative;top:-0.2em;">
-  <tr>
-  <td rowspan="2" style="text-align:center;vertical-align:middle;padding:0;margin-right:0.05em;">
-  <span style="font-size:xx-large;transform:scale(1.35);display:inline-block;margin-right:0.05em;">&#10222;</span>&#160;</td> <td style="text-align:center;vertical-align:bottom;padding:0;">7</td> <td rowspan="2" style="text-align:center;vertical-align:middle;padding:0;margin-left:0.05em;">&#160;<span style="font-size:xx-large;transform:scale(1.35);display:inline-block;margin-left:0.05em;">&#10223;</span>
-  </td>
-  </tr>
-  <tr><td style="text-align:center;vertical-align:top;padding:0;">4</td></tr>
-  </table></td>
-  <td>(<span style="font-size: large;">&#190;</span>)<sup>4</sup>&#8901;(<span style="font-size: large;">&#188;</span>)<sup>3</sup>
-  </td>
-  <td>&#160;=&#160;</td>
-  <td><table style="border-collapse: collapse; border: 1px solid white;">
-  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;7!&#160; </td></tr>
-  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;(7&#8211;4)!&#160;&#8901;&#160;4!&#160; </td></tr>
-  </table></td>
-  <td>(<span style="font-size: large;">&#190;</span>)<sup>4</sup>&#8901;(<span style="font-size: large;">&#188;</span>)<sup>3</sup>
-  </td>
-  <td>&#160;=&#160;</td>
-  <td><table style="border-collapse: collapse; border: 1px solid white;">
-  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;7&#8901;6&#8901;5&#160; </td></tr>
-  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;4&#8901;3&#8901;2&#160; </td></tr>
-  </table></td>
-  <td>&#215;</td>
-  <td><table style="border-collapse: collapse; border: 1px solid white;">
-  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;3<sup>4</sup>&#160; </td></tr>
-  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;4<sup>4</sup>4<sup>3</sup>&#160; </td></tr>
-  </table></td>
-  <td>&#160;=&#160;</td>
-  <td><table style="border-collapse: collapse; border: 1px solid white;">
-  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;35&#215;81&#160; </td></tr>
-  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;16384&#160; </td></tr>
-  </table></td>
-  <td>&#160;=&#160;</td>
-  <td>0.1730</td>
-  <td><strong>&#160;=&#160;</strong></td>
-  <td><strong>17.3%</strong></td>
-  </tr></table></span></label>
-    </li>
-    <li>
-      <input type="radio" id="option_d2c1_b660_4" name="answer_d2c1_b660" data-correct="false"><label for="option_d2c1_b660_4"><span style="font-weight: bold;">E.</span> <span><table style="border-collapse: collapse; border: 1px solid white;"><tr>
-  <td><table style="display:inline-table;vertical-align:middle;border-collapse:collapse;border:0;position:relative;top:-0.2em;">
-  <tr>
-  <td rowspan="2" style="text-align:center;vertical-align:middle;padding:0;margin-right:0.05em;">
-  <span style="font-size:xx-large;transform:scale(1.35);display:inline-block;margin-right:0.05em;">&#10222;</span>&#160;</td> <td style="text-align:center;vertical-align:bottom;padding:0;">4</td> <td rowspan="2" style="text-align:center;vertical-align:middle;padding:0;margin-left:0.05em;">&#160;<span style="font-size:xx-large;transform:scale(1.35);display:inline-block;margin-left:0.05em;">&#10223;</span>
+  <span style="font-size:xx-large;transform:scale(1.35);display:inline-block;margin-right:0.05em;">&#10222;</span>&#160;</td> <td style="text-align:center;vertical-align:bottom;padding:0;">5</td> <td rowspan="2" style="text-align:center;vertical-align:middle;padding:0;margin-left:0.05em;">&#160;<span style="font-size:xx-large;transform:scale(1.35);display:inline-block;margin-left:0.05em;">&#10223;</span>
   </td>
   </tr>
   <tr><td style="text-align:center;vertical-align:top;padding:0;">3</td></tr>
   </table></td>
-  <td>(<span style="font-size: large;">&#189;</span>)<sup>3</sup>&#8901;(<span style="font-size: large;">&#189;</span>)<sup>4</sup>
+  <td>(<span style="font-size: large;">&#189;</span>)<sup>3</sup>&#8901;(<span style="font-size: large;">&#189;</span>)<sup>2</sup>
   </td>
   <td>&#160;=&#160;</td>
   <td><table style="border-collapse: collapse; border: 1px solid white;">
-  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;4!&#160; </td></tr>
-  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;(4&#8211;3)!&#160;&#8901;&#160;3!&#160; </td></tr>
+  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;5!&#160; </td></tr>
+  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;(5&#8211;3)!&#160;&#8901;&#160;3!&#160; </td></tr>
   </table></td>
-  <td>(<span style="font-size: large;">&#189;</span>)<sup>4</sup>
+  <td>(<span style="font-size: large;">&#189;</span>)<sup>5</sup>
   </td>
   <td>&#160;=&#160;</td>
   <td><table style="border-collapse: collapse; border: 1px solid white;">
-  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;4&#160; </td></tr>
+  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;5&#8901;4&#160; </td></tr>
+  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;3&#8901;2&#160; </td></tr>
+  </table></td>
+  <td>&#215;</td>
+  <td><table style="border-collapse: collapse; border: 1px solid white;">
+  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;1&#160; </td></tr>
+  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;2<sup>5</sup>&#160; </td></tr>
+  </table></td>
+  <td>&#160;=&#160;</td>
+  <td><table style="border-collapse: collapse; border: 1px solid white;">
+  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;10&#160; </td></tr>
+  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;32&#160; </td></tr>
+  </table></td>
+  <td>&#160;=&#160;</td>
+  <td>0.3125</td>
+  <td><strong>&#160;=&#160;</strong></td>
+  <td><strong>31.2%</strong></td>
+  </tr></table></span></label>
+    </li>
+    <li>
+      <input type="radio" id="option_87d6_45c7_1" name="answer_87d6_45c7" data-correct="false"><label for="option_87d6_45c7_1"><span style="font-weight: bold;">B.</span> <span><table style="border-collapse: collapse; border: 1px solid white;"><tr>
+  <td><table style="display:inline-table;vertical-align:middle;border-collapse:collapse;border:0;position:relative;top:-0.2em;">
+  <tr>
+  <td rowspan="2" style="text-align:center;vertical-align:middle;padding:0;margin-right:0.05em;">
+  <span style="font-size:xx-large;transform:scale(1.35);display:inline-block;margin-right:0.05em;">&#10222;</span>&#160;</td> <td style="text-align:center;vertical-align:bottom;padding:0;">3</td> <td rowspan="2" style="text-align:center;vertical-align:middle;padding:0;margin-left:0.05em;">&#160;<span style="font-size:xx-large;transform:scale(1.35);display:inline-block;margin-left:0.05em;">&#10223;</span>
+  </td>
+  </tr>
+  <tr><td style="text-align:center;vertical-align:top;padding:0;">2</td></tr>
+  </table></td>
+  <td>(<span style="font-size: large;">&#189;</span>)<sup>2</sup>&#8901;(<span style="font-size: large;">&#189;</span>)<sup>3</sup>
+  </td>
+  <td>&#160;=&#160;</td>
+  <td><table style="border-collapse: collapse; border: 1px solid white;">
+  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;3!&#160; </td></tr>
+  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;(3&#8211;2)!&#160;&#8901;&#160;2!&#160; </td></tr>
+  </table></td>
+  <td>(<span style="font-size: large;">&#189;</span>)<sup>3</sup>
+  </td>
+  <td>&#160;=&#160;</td>
+  <td><table style="border-collapse: collapse; border: 1px solid white;">
+  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;3&#160; </td></tr>
   <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;1&#160; </td></tr>
   </table></td>
   <td>&#215;</td>
   <td><table style="border-collapse: collapse; border: 1px solid white;">
   <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;1&#160; </td></tr>
-  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;2<sup>4</sup>&#160; </td></tr>
+  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;2<sup>3</sup>&#160; </td></tr>
   </table></td>
   <td>&#160;=&#160;</td>
   <td><table style="border-collapse: collapse; border: 1px solid white;">
-  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;4&#160; </td></tr>
-  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;128&#160; </td></tr>
+  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;3&#160; </td></tr>
+  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;32&#160; </td></tr>
+  </table></td>
+  <td>&#160;=&#160;</td>
+  <td>0.0938</td>
+  <td><strong>&#160;=&#160;</strong></td>
+  <td><strong>9.4%</strong></td>
+  </tr></table></span></label>
+    </li>
+    <li>
+      <input type="radio" id="option_87d6_45c7_2" name="answer_87d6_45c7" data-correct="false"><label for="option_87d6_45c7_2"><span style="font-weight: bold;">C.</span> <span><table style="border-collapse: collapse; border: 1px solid white;"><tr>
+  <td><table style="display:inline-table;vertical-align:middle;border-collapse:collapse;border:0;position:relative;top:-0.2em;">
+  <tr>
+  <td rowspan="2" style="text-align:center;vertical-align:middle;padding:0;margin-right:0.05em;">
+  <span style="font-size:xx-large;transform:scale(1.35);display:inline-block;margin-right:0.05em;">&#10222;</span>&#160;</td> <td style="text-align:center;vertical-align:bottom;padding:0;">5</td> <td rowspan="2" style="text-align:center;vertical-align:middle;padding:0;margin-left:0.05em;">&#160;<span style="font-size:xx-large;transform:scale(1.35);display:inline-block;margin-left:0.05em;">&#10223;</span>
+  </td>
+  </tr>
+  <tr><td style="text-align:center;vertical-align:top;padding:0;">3</td></tr>
+  </table></td>
+  <td>(<span style="font-size: large;">&#190;</span>)<sup>3</sup>&#8901;(<span style="font-size: large;">&#188;</span>)<sup>2</sup>
+  </td>
+  <td>&#160;=&#160;</td>
+  <td><table style="border-collapse: collapse; border: 1px solid white;">
+  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;5!&#160; </td></tr>
+  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;(5&#8211;3)!&#160;&#8901;&#160;3!&#160; </td></tr>
+  </table></td>
+  <td>(<span style="font-size: large;">&#190;</span>)<sup>3</sup>&#8901;(<span style="font-size: large;">&#188;</span>)<sup>2</sup>
+  </td>
+  <td>&#160;=&#160;</td>
+  <td><table style="border-collapse: collapse; border: 1px solid white;">
+  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;5&#8901;4&#160; </td></tr>
+  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;3&#8901;2&#160; </td></tr>
+  </table></td>
+  <td>&#215;</td>
+  <td><table style="border-collapse: collapse; border: 1px solid white;">
+  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;3<sup>3</sup>&#160; </td></tr>
+  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;4<sup>3</sup>4<sup>2</sup>&#160; </td></tr>
+  </table></td>
+  <td>&#160;=&#160;</td>
+  <td><table style="border-collapse: collapse; border: 1px solid white;">
+  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;10&#215;27&#160; </td></tr>
+  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;1024&#160; </td></tr>
+  </table></td>
+  <td>&#160;=&#160;</td>
+  <td>0.2637</td>
+  <td><strong>&#160;=&#160;</strong></td>
+  <td><strong>26.4%</strong></td>
+  </tr></table></span></label>
+    </li>
+    <li>
+      <input type="radio" id="option_87d6_45c7_3" name="answer_87d6_45c7" data-correct="false"><label for="option_87d6_45c7_3"><span style="font-weight: bold;">D.</span> <span><table style="border-collapse: collapse; border: 1px solid white;"><tr>
+  <td><table style="display:inline-table;vertical-align:middle;border-collapse:collapse;border:0;position:relative;top:-0.2em;">
+  <tr>
+  <td rowspan="2" style="text-align:center;vertical-align:middle;padding:0;margin-right:0.05em;">
+  <span style="font-size:xx-large;transform:scale(1.35);display:inline-block;margin-right:0.05em;">&#10222;</span>&#160;</td> <td style="text-align:center;vertical-align:bottom;padding:0;">5</td> <td rowspan="2" style="text-align:center;vertical-align:middle;padding:0;margin-left:0.05em;">&#160;<span style="font-size:xx-large;transform:scale(1.35);display:inline-block;margin-left:0.05em;">&#10223;</span>
+  </td>
+  </tr>
+  <tr><td style="text-align:center;vertical-align:top;padding:0;">3</td></tr>
+  </table></td>
+  <td>(<span style="font-size: large;">&#188;</span>)<sup>3</sup>&#8901;(<span style="font-size: large;">&#190;</span>)<sup>2</sup>
+  </td>
+  <td>&#160;=&#160;</td>
+  <td><table style="border-collapse: collapse; border: 1px solid white;">
+  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;5!&#160; </td></tr>
+  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;(5&#8211;3)!&#160;&#8901;&#160;3!&#160; </td></tr>
+  </table></td>
+  <td>(<span style="font-size: large;">&#188;</span>)<sup>3</sup>&#8901;(<span style="font-size: large;">&#190;</span>)<sup>2</sup>
+  </td>
+  <td>&#160;=&#160;</td>
+  <td><table style="border-collapse: collapse; border: 1px solid white;">
+  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;5&#8901;4&#160; </td></tr>
+  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;3&#8901;2&#160; </td></tr>
+  </table></td>
+  <td>&#215;</td>
+  <td><table style="border-collapse: collapse; border: 1px solid white;">
+  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;3<sup>2</sup>&#160; </td></tr>
+  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;4<sup>3</sup>4<sup>2</sup>&#160; </td></tr>
+  </table></td>
+  <td>&#160;=&#160;</td>
+  <td><table style="border-collapse: collapse; border: 1px solid white;">
+  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;10&#215;9&#160; </td></tr>
+  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;1024&#160; </td></tr>
+  </table></td>
+  <td>&#160;=&#160;</td>
+  <td>0.0879</td>
+  <td><strong>&#160;=&#160;</strong></td>
+  <td><strong>8.8%</strong></td>
+  </tr></table></span></label>
+    </li>
+    <li>
+      <input type="radio" id="option_87d6_45c7_4" name="answer_87d6_45c7" data-correct="false"><label for="option_87d6_45c7_4"><span style="font-weight: bold;">E.</span> <span><table style="border-collapse: collapse; border: 1px solid white;"><tr>
+  <td><table style="display:inline-table;vertical-align:middle;border-collapse:collapse;border:0;position:relative;top:-0.2em;">
+  <tr>
+  <td rowspan="2" style="text-align:center;vertical-align:middle;padding:0;margin-right:0.05em;">
+  <span style="font-size:xx-large;transform:scale(1.35);display:inline-block;margin-right:0.05em;">&#10222;</span>&#160;</td> <td style="text-align:center;vertical-align:bottom;padding:0;">3</td> <td rowspan="2" style="text-align:center;vertical-align:middle;padding:0;margin-left:0.05em;">&#160;<span style="font-size:xx-large;transform:scale(1.35);display:inline-block;margin-left:0.05em;">&#10223;</span>
+  </td>
+  </tr>
+  <tr><td style="text-align:center;vertical-align:top;padding:0;">3</td></tr>
+  </table></td>
+  <td>(<span style="font-size: large;">&#189;</span>)<sup>3</sup>&#8901;(<span style="font-size: large;">&#189;</span>)<sup>2</sup>
+  </td>
+  <td>&#160;=&#160;</td>
+  <td><table style="border-collapse: collapse; border: 1px solid white;">
+  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;3!&#160; </td></tr>
+  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;(3&#8211;3)!&#160;&#8901;&#160;3!&#160; </td></tr>
+  </table></td>
+  <td>(<span style="font-size: large;">&#189;</span>)<sup>3</sup>
+  </td>
+  <td>&#160;=&#160;</td>
+  <td><table style="border-collapse: collapse; border: 1px solid white;">
+  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;1&#160; </td></tr>
+  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;1&#160; </td></tr>
+  </table></td>
+  <td>&#215;</td>
+  <td><table style="border-collapse: collapse; border: 1px solid white;">
+  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;1&#160; </td></tr>
+  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;2<sup>3</sup>&#160; </td></tr>
+  </table></td>
+  <td>&#160;=&#160;</td>
+  <td><table style="border-collapse: collapse; border: 1px solid white;">
+  <tr><td style="text-align: center; vertical-align: middle; border-bottom: 1px solid black;">&#160;1&#160; </td></tr>
+  <tr><td style="text-align: center; vertical-align: middle; border-top: 1px solid black;">&#160;32&#160; </td></tr>
   </table></td>
   <td>&#160;=&#160;</td>
   <td>0.0312</td>
@@ -3634,21 +3634,21 @@
   </tr></table></span></label>
     </li>
   </ul>
-  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_d2c1_b660()">Check Answer</button>
-  <div id="result_d2c1_b660" class="qti-feedback-result">&#160;</div>
+  <button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_87d6_45c7()">Check Answer</button>
+  <div id="result_87d6_45c7" class="qti-feedback-result">&#160;</div>
   </form>
   <br>
   </div><script>
-  function checkAnswer_d2c1_b660() {
-   const options = document.getElementsByName('answer_d2c1_b660');
+  function checkAnswer_87d6_45c7() {
+   const options = document.getElementsByName('answer_87d6_45c7');
    const correctOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.dataset.correct === 'true' ? option : null);
    }, null);
    const selectedOption = Array.from(options).reduce(function(acc, option) {
      return acc || (option.checked ? option : null);
    }, null);
-   const resultDiv = document.getElementById('result_d2c1_b660');
-   const checkBtn = document.querySelector("[onclick='checkAnswer_d2c1_b660()']");
+   const resultDiv = document.getElementById('result_87d6_45c7');
+   const checkBtn = document.querySelector("[onclick='checkAnswer_87d6_45c7()']");
    if (selectedOption) {
     if (selectedOption === correctOption) {
      resultDiv.className = 'qti-feedback-result qti-feedback-success';

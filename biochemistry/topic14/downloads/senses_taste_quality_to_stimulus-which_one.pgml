@@ -5,7 +5,7 @@
 ## DBsubject('Cell Biology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-08-19')
+## Date('2026-09-23')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -34,9 +34,9 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'stimulus',
     'choices' => [
       'Sweet',
-      'Umami',
       'Sour',
       'Salty',
+      'Bitter',
     ],
     'correct' => 'Sweet',
   },
@@ -47,7 +47,7 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       'Sweet',
       'Umami',
-      'Salty',
+      'Sour',
       'Bitter',
     ],
     'correct' => 'Sweet',
@@ -71,8 +71,8 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       'Sweet',
       'Umami',
-      'Sour',
       'Salty',
+      'Bitter',
     ],
     'correct' => 'Sweet',
   },
@@ -82,7 +82,7 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'stimulus',
     'choices' => [
       'Sweet',
-      'Umami',
+      'Sour',
       'Salty',
       'Bitter',
     ],
@@ -108,7 +108,7 @@ $showPartialCorrectAnswers = 0;
       'Sweet',
       'Umami',
       'Sour',
-      'Bitter',
+      'Salty',
     ],
     'correct' => 'Sweet',
   },
@@ -117,8 +117,8 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'taste qualities',
     'singular_item' => 'stimulus',
     'choices' => [
+      'Sweet',
       'Umami',
-      'Sour',
       'Salty',
       'Bitter',
     ],
@@ -141,8 +141,8 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'taste qualities',
     'singular_item' => 'stimulus',
     'choices' => [
+      'Sweet',
       'Umami',
-      'Sour',
       'Salty',
       'Bitter',
     ],
@@ -153,9 +153,9 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'taste qualities',
     'singular_item' => 'stimulus',
     'choices' => [
-      'Sweet',
       'Umami',
       'Sour',
+      'Salty',
       'Bitter',
     ],
     'correct' => 'Umami',
@@ -165,8 +165,8 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'taste qualities',
     'singular_item' => 'stimulus',
     'choices' => [
-      'Sweet',
       'Umami',
+      'Sour',
       'Salty',
       'Bitter',
     ],
@@ -180,7 +180,7 @@ $showPartialCorrectAnswers = 0;
       'Sweet',
       'Umami',
       'Sour',
-      'Salty',
+      'Bitter',
     ],
     'correct' => 'Umami',
   },
@@ -189,7 +189,7 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'taste qualities',
     'singular_item' => 'stimulus',
     'choices' => [
-      'Umami',
+      'Sweet',
       'Sour',
       'Salty',
       'Bitter',
@@ -202,8 +202,8 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'stimulus',
     'choices' => [
       'Sweet',
-      'Umami',
       'Sour',
+      'Salty',
       'Bitter',
     ],
     'correct' => 'Sour',
@@ -213,7 +213,7 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'taste qualities',
     'singular_item' => 'stimulus',
     'choices' => [
-      'Umami',
+      'Sweet',
       'Sour',
       'Salty',
       'Bitter',
@@ -238,8 +238,8 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'stimulus',
     'choices' => [
       'Sweet',
-      'Umami',
       'Sour',
+      'Salty',
       'Bitter',
     ],
     'correct' => 'Sour',
@@ -249,7 +249,7 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'taste qualities',
     'singular_item' => 'stimulus',
     'choices' => [
-      'Umami',
+      'Sweet',
       'Sour',
       'Salty',
       'Bitter',
@@ -261,8 +261,8 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'taste qualities',
     'singular_item' => 'stimulus',
     'choices' => [
+      'Sweet',
       'Umami',
-      'Sour',
       'Salty',
       'Bitter',
     ],
@@ -275,13 +275,25 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       'Sweet',
       'Umami',
+      'Sour',
       'Salty',
-      'Bitter',
     ],
     'correct' => 'Salty',
   },
   {
     'item_name' => '<strong>a sodium rich brine solution used to preserve foods like pickles</strong>',
+    'plural_choice' => 'taste qualities',
+    'singular_item' => 'stimulus',
+    'choices' => [
+      'Sweet',
+      'Umami',
+      'Sour',
+      'Salty',
+    ],
+    'correct' => 'Salty',
+  },
+  {
+    'item_name' => '<strong>electrolyte sodium ions common in broths and cured foods</strong>',
     'plural_choice' => 'taste qualities',
     'singular_item' => 'stimulus',
     'choices' => [
@@ -293,24 +305,12 @@ $showPartialCorrectAnswers = 0;
     'correct' => 'Salty',
   },
   {
-    'item_name' => '<strong>electrolyte sodium ions common in broths and cured foods</strong>',
-    'plural_choice' => 'taste qualities',
-    'singular_item' => 'stimulus',
-    'choices' => [
-      'Sweet',
-      'Umami',
-      'Salty',
-      'Bitter',
-    ],
-    'correct' => 'Salty',
-  },
-  {
     'item_name' => '<strong>Na<sup>+</sup> in solution from added sodium chloride</strong>',
     'plural_choice' => 'taste qualities',
     'singular_item' => 'stimulus',
     'choices' => [
-      'Sweet',
       'Umami',
+      'Sour',
       'Salty',
       'Bitter',
     ],
@@ -323,8 +323,8 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       'Sweet',
       'Umami',
-      'Sour',
       'Salty',
+      'Bitter',
     ],
     'correct' => 'Salty',
   },
@@ -369,9 +369,9 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'taste qualities',
     'singular_item' => 'stimulus',
     'choices' => [
+      'Sweet',
       'Umami',
       'Sour',
-      'Salty',
       'Bitter',
     ],
     'correct' => 'Bitter',
@@ -381,8 +381,8 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'taste qualities',
     'singular_item' => 'stimulus',
     'choices' => [
-      'Sweet',
       'Umami',
+      'Sour',
       'Salty',
       'Bitter',
     ],
@@ -395,7 +395,7 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       'Sweet',
       'Umami',
-      'Sour',
+      'Salty',
       'Bitter',
     ],
     'correct' => 'Bitter',

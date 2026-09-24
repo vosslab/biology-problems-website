@@ -5,7 +5,7 @@
 ## DBsubject('Biochemistry')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-08-19')
+## Date('2026-09-23')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -42,7 +42,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #d40000; font-weight:700;">glycogen</span>',
   },
   {
-    'item_name' => '<strong><span style="color: #843232; font-weight:700;">animal</span>polysaccharide that contains &alpha;-glycosidic linkages</strong>',
+    'item_name' => '<strong><span style="color: #843232; font-weight:700;">animal</span> polysaccharide that contains &alpha;-glycosidic linkages</strong>',
     'plural_choice' => 'polysaccharides',
     'singular_item' => 'description',
     'choices' => [
@@ -55,7 +55,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #d40000; font-weight:700;">glycogen</span>',
   },
   {
-    'item_name' => '<strong><span style="color: #843232; font-weight:700;">animal</span>molecule composed of linear chains of &alpha;-(1,4) D-glucose residues connected through &alpha;-(1,6) linkages</strong>',
+    'item_name' => '<strong><span style="color: #843232; font-weight:700;">animal</span> molecule composed of linear chains of &alpha;-(1,4) D-glucose residues connected through &alpha;-(1,6) linkages</strong>',
     'plural_choice' => 'polysaccharides',
     'singular_item' => 'description',
     'choices' => [
@@ -146,7 +146,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #3b7600; font-weight:700;">amylopectin</span>',
   },
   {
-    'item_name' => '<strong><span style="color: #598231; font-weight:700;">plant</span>molecule composed of linear chains of &alpha;-(1,4) D-glucose residues connected through &alpha;-(1,6) linkages</strong>',
+    'item_name' => '<strong><span style="color: #598231; font-weight:700;">plant</span> molecule composed of linear chains of &alpha;-(1,4) D-glucose residues connected through &alpha;-(1,6) linkages</strong>',
     'plural_choice' => 'polysaccharides',
     'singular_item' => 'description',
     'choices' => [
@@ -237,7 +237,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #b74300; font-weight:700;">chitin</span>',
   },
   {
-    'item_name' => '<strong><span style="color: #843232; font-weight:700;">animal</span>polysaccharide that contains &beta;-glycosidic linkages</strong>',
+    'item_name' => '<strong><span style="color: #843232; font-weight:700;">animal</span> polysaccharide that contains &beta;-glycosidic linkages</strong>',
     'plural_choice' => 'polysaccharides',
     'singular_item' => 'description',
     'choices' => [
@@ -328,7 +328,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #935d00; font-weight:700;">cellulose</span>',
   },
   {
-    'item_name' => '<strong><span style="color: #598231; font-weight:700;">plant</span>polysaccharide that contains &beta;-glycosidic linkages</strong>',
+    'item_name' => '<strong><span style="color: #598231; font-weight:700;">plant</span> polysaccharide that contains &beta;-glycosidic linkages</strong>',
     'plural_choice' => 'polysaccharides',
     'singular_item' => 'description',
     'choices' => [
@@ -367,7 +367,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #935d00; font-weight:700;">cellulose</span>',
   },
   {
-    'item_name' => '<strong><span style="color: #a86739; font-weight:700;">structural</span> material in <span style="color: #598231; font-weight:700;">plant</span><span style="color: #b45918; font-weight:700;">cell walls</span></strong>',
+    'item_name' => '<strong><span style="color: #a86739; font-weight:700;">structural</span> material in <span style="color: #598231; font-weight:700;">plant</span> <span style="color: #b45918; font-weight:700;">cell walls</span></strong>',
     'plural_choice' => 'polysaccharides',
     'singular_item' => 'description',
     'choices' => [

@@ -5,7 +5,7 @@
 ## DBsubject('Biochemistry')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-08-19')
+## Date('2026-09-23')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -30,14 +30,14 @@ our @ALPHABET = ('A' .. 'Z');
     'order of the <span style="color: #b74300; font-weight:700;">amino acids</span> in a <span style="color: #935d00; font-weight:700;">polypeptide chain</span>',
     'sequence of <span style="color: #b74300; font-weight:700;">amino acids</span> residues in the <span style="color: #c80085; font-weight:700;">protein</span> chain',
     'formation of <span style="color: #6c6c00; font-weight:700;">peptide bonds</span> to make a <span style="color: #935d00; font-weight:700;">polypeptide chain</span>',
-    'intramolecular <span style="color: #6c6c00; font-weight:700;">peptide bonds</span> of the linear <span style="color: #b74300; font-weight:700;">amino acid</span>chain',
+    'intramolecular <span style="color: #6c6c00; font-weight:700;">peptide bonds</span> of the linear <span style="color: #b74300; font-weight:700;">amino acid</span> chain',
     'linear arrangement of the <span style="color: #b74300; font-weight:700;">amino acids</span> connected by the <span style="color: #6c6c00; font-weight:700;">peptide bonds</span>',
     'N-terminal to C-terminal list of <span style="color: #b74300; font-weight:700;">amino acids</span>',
-    'length of the <span style="color: #b74300; font-weight:700;">amino acid</span>chain',
-    '<span style="color: #b74300; font-weight:700;">amino acid</span>sequence in a <span style="color: #935d00; font-weight:700;">polypeptide chain</span>',
+    'length of the <span style="color: #b74300; font-weight:700;">amino acid</span> chain',
+    '<span style="color: #b74300; font-weight:700;">amino acid</span> sequence in a <span style="color: #935d00; font-weight:700;">polypeptide chain</span>',
     'linear sequence of <span style="color: #b74300; font-weight:700;">amino acids</span> joined by <span style="color: #6c6c00; font-weight:700;">peptide bonds</span>',
     '<span style="color: #6c6c00; font-weight:700;">peptide bonds</span> forming a linear chain of <span style="color: #b74300; font-weight:700;">amino acids</span>',
-    '<span style="color: #b74300; font-weight:700;">amino acid</span>chain length',
+    '<span style="color: #b74300; font-weight:700;">amino acid</span> chain length',
   ],
   'secondary' => [
     'formation of a &beta;-strand within the polypeptide <span style="color: #007a00; font-weight:700;">backbone</span>',
@@ -58,7 +58,7 @@ our @ALPHABET = ('A' .. 'Z');
   ],
   'tertiary' => [
     'complete three-dimensional conformation',
-    'hydrophobic <span style="color: #003fff; font-weight:700;">side chain</span><span style="color: #0067cc; font-weight:700;">interactions</span>',
+    'hydrophobic <span style="color: #003fff; font-weight:700;">side chain</span> <span style="color: #0067cc; font-weight:700;">interactions</span>',
     '<span style="color: #00775f; font-weight:700;">hydrogen bonding</span> between polar <span style="color: #003fff; font-weight:700;">side chains</span>',
     'highest level for a <span style="color: #c80085; font-weight:700;">protein</span> with a single peptide chain',
     'formation of disulfide bonds by special <span style="color: #003fff; font-weight:700;">side chains</span>',
@@ -66,22 +66,22 @@ our @ALPHABET = ('A' .. 'Z');
     'electrostatic <span style="color: #0067cc; font-weight:700;">interactions</span> among charged <span style="color: #003fff; font-weight:700;">side chains</span>',
     'ionic bonds between oppositely charged <span style="color: #003fff; font-weight:700;">side chains</span>',
     'van der Waals (VDW) <span style="color: #0067cc; font-weight:700;">interactions</span> between uncharged <span style="color: #003fff; font-weight:700;">side chains</span>',
-    '<span style="color: #003fff; font-weight:700;">side chain</span><span style="color: #00775f; font-weight:700;">hydrogen bonding</span> between distant <span style="color: #b74300; font-weight:700;">amino acids</span>',
+    '<span style="color: #003fff; font-weight:700;">side chain</span> <span style="color: #00775f; font-weight:700;">hydrogen bonding</span> between distant <span style="color: #b74300; font-weight:700;">amino acids</span>',
     'formation of ionic salt bridges by charged <span style="color: #003fff; font-weight:700;">side chains</span>',
     'creation of hydrophobic core',
     'three-dimensional shape of a single <span style="color: #935d00; font-weight:700;">polypeptide chain</span>',
-    'hydrophobic <span style="color: #0067cc; font-weight:700;">interactions</span> of <span style="color: #b74300; font-weight:700;">amino acid</span><span style="color: #003fff; font-weight:700;">side chains</span>',
+    'hydrophobic <span style="color: #0067cc; font-weight:700;">interactions</span> of <span style="color: #b74300; font-weight:700;">amino acid</span> <span style="color: #003fff; font-weight:700;">side chains</span>',
     'creation of disulfide bridges by specific <span style="color: #003fff; font-weight:700;">side chains</span>',
     'distant <span style="color: #b74300; font-weight:700;">amino acids</span> linked by disulfide bonds',
-    'charged <span style="color: #003fff; font-weight:700;">side chain</span><span style="color: #0067cc; font-weight:700;">interactions</span>',
+    'charged <span style="color: #003fff; font-weight:700;">side chain</span> <span style="color: #0067cc; font-weight:700;">interactions</span>',
     '<span style="color: #003fff; font-weight:700;">side chains</span> with opposite charges forming ionic bonds',
-    'hydrophobic <span style="color: #003fff; font-weight:700;">side chain</span>van der Waals (VDW) <span style="color: #0067cc; font-weight:700;">interactions</span>',
-    '<span style="color: #00775f; font-weight:700;">hydrogen bonding</span> between distant <span style="color: #003fff; font-weight:700;">side chain</span><span style="color: #b74300; font-weight:700;">amino acids</span>',
+    'hydrophobic <span style="color: #003fff; font-weight:700;">side chain</span> van der Waals (VDW) <span style="color: #0067cc; font-weight:700;">interactions</span>',
+    '<span style="color: #00775f; font-weight:700;">hydrogen bonding</span> between distant <span style="color: #003fff; font-weight:700;">side chain</span> <span style="color: #b74300; font-weight:700;">amino acids</span>',
     'ionic salt bridge formations between charged <span style="color: #003fff; font-weight:700;">side chains</span>',
   ],
   'quaternary' => [
     'association of two or more <span style="color: #935d00; font-weight:700;">polypeptide chains</span>',
-    'relative orientation of one <span style="color: #c80085; font-weight:700;">protein</span> <span style="color: #cc0066; font-weight:700;">subunits</span>to another <span style="color: #c80085; font-weight:700;">protein</span> subunit',
+    'relative orientation of one <span style="color: #c80085; font-weight:700;">protein</span> <span style="color: #cc0066; font-weight:700;">subunits</span> to another <span style="color: #c80085; font-weight:700;">protein</span> subunit',
     'formation of oligomers from two or more <span style="color: #c80085; font-weight:700;">protein</span> <span style="color: #cc0066; font-weight:700;">subunits</span>',
     'manner in which <span style="color: #c80085; font-weight:700;">protein</span> <span style="color: #cc0066; font-weight:700;">subunits</span> are arranged in the native <span style="color: #c80085; font-weight:700;">protein</span>',
     'number and arrangement of multiple folded <span style="color: #c80085; font-weight:700;">protein</span> <span style="color: #cc0066; font-weight:700;">subunits</span>',
