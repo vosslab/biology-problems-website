@@ -9,12 +9,20 @@
 - Added mutually exclusive `--cli` and `--tui` options to select plain output or
   explicitly request the dashboard; automatic TTY detection remains the default.
 - Restored `-x/--max-questions` on `build_site.py` so CLI and TUI builds can set
-  a common per-task question maximum; unrestricted builds default to 199.
+  a common per-task question maximum; unrestricted builds default to 50.
+- Generators default to `-d 2`; with a common question maximum, the runner now
+  passes `-d ceil(max_questions * 1.1)` to request enough output, respecting
+  task-specific duplicate counts.
+- TUI download cells show available outputs out of applicable downloads.
+  Configured YMATCH/YMCS PGML outputs count in the total even when missing;
+  other tasks count PG/PGML only when a matching file exists.
 
 ### Fixes and Maintenance
 
-- Set all configured nucleotide-components generators to four choices, matching the bank's three
-  independent distractor groups for its NOT form.
+- Allow the import-requirements audit to recognize qti-package-maker as a sibling
+  dependency supplied through `source_me.sh`.
+- Removed per-task `-c 4` flags for the nucleotide-components and mRNA-processing banks after
+  moving those defaults into their YAML files.
 - Aligned build documentation with row-local task stages, repository-wide
   finalization, task topic alias rules, and configured-output failure handling.
 - Corrected stale pipeline comments and helper documentation.

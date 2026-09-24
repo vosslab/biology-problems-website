@@ -1,6 +1,7 @@
 """Configured BBQ selection, local stale checks, and change reporting."""
 
 import dataclasses
+import math
 import os
 from pathlib import Path
 import random
@@ -154,6 +155,30 @@ def _task_source_files(task: dict[str, object]) -> set[Path]:
 
 
 #============================================
+def _task_pgml_files(task: dict[str, object]) -> set[Path]:
+	"""Return configured PGML output paths for YAML-backed generator tasks."""
+	pgml_info = task.get("pgml_info")
+	if pgml_info is None:
+		return set()
+	if not isinstance(pgml_info, dict):
+		raise TypeError("BBQ task PGML information must be a dictionary")
+	input_path = pgml_info["input_path"]
+	output_dir = pgml_info["output_dir"]
+	suffix = pgml_info["suffix"]
+	extension = pgml_info["extension"]
+	if not isinstance(input_path, str):
+		raise TypeError("BBQ task PGML input path must be a string")
+	if not isinstance(output_dir, str):
+		raise TypeError("BBQ task PGML output directory must be a string")
+	if not isinstance(suffix, str):
+		raise TypeError("BBQ task PGML suffix must be a string")
+	if not isinstance(extension, str):
+		raise TypeError("BBQ task PGML extension must be a string")
+	filename = f"{Path(input_path).stem}{suffix}.{extension}"
+	return {Path(output_dir) / filename}
+
+
+#============================================
 def task_needs_run(task: dict[str, object], scope: BuildScope) -> bool:
 	"""Check only the direct task configuration, source inputs, and outputs."""
 	if scope.full:
@@ -259,15 +284,17 @@ def _load_scoped_tasks(scope: BuildScope) -> list[dict[str, object]]:
 
 #============================================
 def _prepare_task(task: dict[str, object], scope: BuildScope) -> None:
-	"""Apply the shared single-task max-question override when requested."""
-	if scope.max_questions is None:
-		return
+	"""Apply shared question and duplicate-count overrides when requested."""
 	task_args = task["args"]
 	if not isinstance(task_args, list):
 		raise TypeError("BBQ task args must be a list")
-	if "-x" not in task_args and "--max-questions" not in task_args:
-		task.setdefault("extra_args", []).extend(["-x", str(scope.max_questions)])
-	task["max_questions"] = scope.max_questions
+	if scope.max_questions is not None:
+		if "-x" not in task_args and "--max-questions" not in task_args:
+			task.setdefault("extra_args", []).extend(["-x", str(scope.max_questions)])
+		task["max_questions"] = scope.max_questions
+	duplicate_count = math.ceil(scope.max_questions * 1.1) if scope.max_questions else 99
+	if "-d" not in task_args and "--duplicates" not in task_args:
+		task.setdefault("extra_args", []).extend(["-d", str(duplicate_count)])
 
 
 #============================================
@@ -342,8 +369,10 @@ def iter_task_results(
 			row_needs_run = any(id(task) in pending_task_ids for task in task_row)
 			source_files: set[Path] = set()
 			changed_files: set[Path] = set()
+			expected_pgml_files: set[Path] = set()
 			for task in task_row:
 				source_files.update(_task_source_files(task))
+				expected_pgml_files.update(_task_pgml_files(task))
 				if id(task) in pending_task_ids:
 					changed_files.update(expected_output_paths(task))
 			if row_needs_run:
@@ -373,6 +402,7 @@ def iter_task_results(
 				source_files=source_files,
 				changed_files=changed_files,
 				needs_run=row_needs_run,
+				expected_pgml_files=expected_pgml_files,
 			)
 		return
 	if pending_count == 0:
@@ -395,6 +425,7 @@ def iter_task_results(
 			yield TaskBuildResult(
 				topic_ref=topic_ref,
 				source_files=set().union(*(_task_source_files(task) for task in task_row)),
+				expected_pgml_files=set().union(*(_task_pgml_files(task) for task in task_row)),
 			)
 		return
 	settings = bbq_config.load_bbq_config(str(DEFAULT_SETTINGS_PATH))
@@ -413,7 +444,7 @@ def iter_task_results(
 			print(f"WARNING: could not remove old error log {legacy_error_log_path}: {exc}")
 	context = bbq_runner.RunContext(log_path, error_log_path, True, pythonpath_value)
 	total = pending_count
-	# The historical 199-question default belongs to an all-task batch.
+	# The 50-question default belongs to an unrestricted all-task build.
 	# A single selected CSV retains its generator-defined default.
 	runner_scope = scope
 	if (
@@ -422,7 +453,7 @@ def iter_task_results(
 		and scope.limit is None
 		and scope.max_questions is None
 	):
-		runner_scope = dataclasses.replace(scope, max_questions=199)
+		runner_scope = dataclasses.replace(scope, max_questions=50)
 	pending_index = 0
 	task_elapsed_total = 0.0
 	for row_index, task_row in enumerate(task_rows, start=1):
@@ -511,6 +542,7 @@ def iter_task_results(
 			after_outputs = expected_output_paths(task)
 			changed_files.update(before_outputs | after_outputs)
 		source_files = set().union(*(_task_source_files(task) for task in task_row))
+		expected_pgml_files = set().union(*(_task_pgml_files(task) for task in task_row))
 		if progress and row_needs_run:
 			progress.emit(
 				"stage_completed",
@@ -525,6 +557,7 @@ def iter_task_results(
 			source_files=source_files,
 			changed_files=changed_files,
 			needs_run=row_needs_run,
+			expected_pgml_files=expected_pgml_files,
 		)
 
 

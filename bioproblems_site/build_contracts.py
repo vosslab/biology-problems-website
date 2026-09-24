@@ -33,6 +33,7 @@ class TaskBuildResult:
 	source_files: set[Path] = field(default_factory=set)
 	changed_files: set[Path] = field(default_factory=set)
 	needs_run: bool = False
+	expected_pgml_files: set[Path] = field(default_factory=set)
 
 
 #============================================

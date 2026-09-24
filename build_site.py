@@ -96,7 +96,7 @@ def build_parser() -> argparse.ArgumentParser:
 	)
 	parser.add_argument(
 		"-x", "--max-questions", dest="max_questions", metavar="N", type=int,
-		help="Set the common per-task maximum where rows do not define -x (default: 199).",
+		help="Set the common per-task maximum where rows do not define -x (default: 50).",
 	)
 	return parser
 
