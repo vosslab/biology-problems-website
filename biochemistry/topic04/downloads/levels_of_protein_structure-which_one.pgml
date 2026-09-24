@@ -5,7 +5,7 @@
 ## DBsubject('Biochemistry')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-08-19')
+## Date('2026-09-23')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -65,7 +65,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #d40000; font-weight:700;">primary</span>',
   },
   {
-    'item_name' => '<strong>intramolecular <span style="color: #6c6c00; font-weight:700;">peptide bonds</span> of the linear <span style="color: #b74300; font-weight:700;">amino acid</span>chain</strong>',
+    'item_name' => '<strong>intramolecular <span style="color: #6c6c00; font-weight:700;">peptide bonds</span> of the linear <span style="color: #b74300; font-weight:700;">amino acid</span> chain</strong>',
     'plural_choice' => 'levels of <span style="color: #c80085; font-weight:700;">protein</span> structure',
     'singular_item' => 'description',
     'choices' => [
@@ -101,7 +101,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #d40000; font-weight:700;">primary</span>',
   },
   {
-    'item_name' => '<strong>length of the <span style="color: #b74300; font-weight:700;">amino acid</span>chain</strong>',
+    'item_name' => '<strong>length of the <span style="color: #b74300; font-weight:700;">amino acid</span> chain</strong>',
     'plural_choice' => 'levels of <span style="color: #c80085; font-weight:700;">protein</span> structure',
     'singular_item' => 'description',
     'choices' => [
@@ -113,7 +113,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #d40000; font-weight:700;">primary</span>',
   },
   {
-    'item_name' => '<strong><span style="color: #b74300; font-weight:700;">amino acid</span>sequence in a <span style="color: #935d00; font-weight:700;">polypeptide chain</span></strong>',
+    'item_name' => '<strong><span style="color: #b74300; font-weight:700;">amino acid</span> sequence in a <span style="color: #935d00; font-weight:700;">polypeptide chain</span></strong>',
     'plural_choice' => 'levels of <span style="color: #c80085; font-weight:700;">protein</span> structure',
     'singular_item' => 'description',
     'choices' => [
@@ -149,7 +149,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #d40000; font-weight:700;">primary</span>',
   },
   {
-    'item_name' => '<strong><span style="color: #b74300; font-weight:700;">amino acid</span>chain length</strong>',
+    'item_name' => '<strong><span style="color: #b74300; font-weight:700;">amino acid</span> chain length</strong>',
     'plural_choice' => 'levels of <span style="color: #c80085; font-weight:700;">protein</span> structure',
     'singular_item' => 'description',
     'choices' => [
@@ -353,7 +353,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #076dad; font-weight:700;">tertiary</span>',
   },
   {
-    'item_name' => '<strong>hydrophobic <span style="color: #003fff; font-weight:700;">side chain</span><span style="color: #0067cc; font-weight:700;">interactions</span></strong>',
+    'item_name' => '<strong>hydrophobic <span style="color: #003fff; font-weight:700;">side chain</span> <span style="color: #0067cc; font-weight:700;">interactions</span></strong>',
     'plural_choice' => 'levels of <span style="color: #c80085; font-weight:700;">protein</span> structure',
     'singular_item' => 'description',
     'choices' => [
@@ -449,7 +449,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #076dad; font-weight:700;">tertiary</span>',
   },
   {
-    'item_name' => '<strong><span style="color: #003fff; font-weight:700;">side chain</span><span style="color: #00775f; font-weight:700;">hydrogen bonding</span> between distant <span style="color: #b74300; font-weight:700;">amino acids</span></strong>',
+    'item_name' => '<strong><span style="color: #003fff; font-weight:700;">side chain</span> <span style="color: #00775f; font-weight:700;">hydrogen bonding</span> between distant <span style="color: #b74300; font-weight:700;">amino acids</span></strong>',
     'plural_choice' => 'levels of <span style="color: #c80085; font-weight:700;">protein</span> structure',
     'singular_item' => 'description',
     'choices' => [
@@ -497,7 +497,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #076dad; font-weight:700;">tertiary</span>',
   },
   {
-    'item_name' => '<strong>hydrophobic <span style="color: #0067cc; font-weight:700;">interactions</span> of <span style="color: #b74300; font-weight:700;">amino acid</span><span style="color: #003fff; font-weight:700;">side chains</span></strong>',
+    'item_name' => '<strong>hydrophobic <span style="color: #0067cc; font-weight:700;">interactions</span> of <span style="color: #b74300; font-weight:700;">amino acid</span> <span style="color: #003fff; font-weight:700;">side chains</span></strong>',
     'plural_choice' => 'levels of <span style="color: #c80085; font-weight:700;">protein</span> structure',
     'singular_item' => 'description',
     'choices' => [
@@ -533,7 +533,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #076dad; font-weight:700;">tertiary</span>',
   },
   {
-    'item_name' => '<strong>charged <span style="color: #003fff; font-weight:700;">side chain</span><span style="color: #0067cc; font-weight:700;">interactions</span></strong>',
+    'item_name' => '<strong>charged <span style="color: #003fff; font-weight:700;">side chain</span> <span style="color: #0067cc; font-weight:700;">interactions</span></strong>',
     'plural_choice' => 'levels of <span style="color: #c80085; font-weight:700;">protein</span> structure',
     'singular_item' => 'description',
     'choices' => [
@@ -557,7 +557,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #076dad; font-weight:700;">tertiary</span>',
   },
   {
-    'item_name' => '<strong>hydrophobic <span style="color: #003fff; font-weight:700;">side chain</span>van der Waals (VDW) <span style="color: #0067cc; font-weight:700;">interactions</span></strong>',
+    'item_name' => '<strong>hydrophobic <span style="color: #003fff; font-weight:700;">side chain</span> van der Waals (VDW) <span style="color: #0067cc; font-weight:700;">interactions</span></strong>',
     'plural_choice' => 'levels of <span style="color: #c80085; font-weight:700;">protein</span> structure',
     'singular_item' => 'description',
     'choices' => [
@@ -569,7 +569,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #076dad; font-weight:700;">tertiary</span>',
   },
   {
-    'item_name' => '<strong><span style="color: #00775f; font-weight:700;">hydrogen bonding</span> between distant <span style="color: #003fff; font-weight:700;">side chain</span><span style="color: #b74300; font-weight:700;">amino acids</span></strong>',
+    'item_name' => '<strong><span style="color: #00775f; font-weight:700;">hydrogen bonding</span> between distant <span style="color: #003fff; font-weight:700;">side chain</span> <span style="color: #b74300; font-weight:700;">amino acids</span></strong>',
     'plural_choice' => 'levels of <span style="color: #c80085; font-weight:700;">protein</span> structure',
     'singular_item' => 'description',
     'choices' => [
@@ -605,7 +605,7 @@ $showPartialCorrectAnswers = 0;
     'correct' => '<span style="color: #a719db; font-weight:700;">quaternary</span>',
   },
   {
-    'item_name' => '<strong>relative orientation of one <span style="color: #c80085; font-weight:700;">protein</span> <span style="color: #cc0066; font-weight:700;">subunits</span>to another <span style="color: #c80085; font-weight:700;">protein</span> subunit</strong>',
+    'item_name' => '<strong>relative orientation of one <span style="color: #c80085; font-weight:700;">protein</span> <span style="color: #cc0066; font-weight:700;">subunits</span> to another <span style="color: #c80085; font-weight:700;">protein</span> subunit</strong>',
     'plural_choice' => 'levels of <span style="color: #c80085; font-weight:700;">protein</span> structure',
     'singular_item' => 'description',
     'choices' => [

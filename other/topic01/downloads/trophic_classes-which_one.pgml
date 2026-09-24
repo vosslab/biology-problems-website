@@ -5,7 +5,7 @@
 ## DBsubject('Cell Biology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-08-19')
+## Date('2026-09-23')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -35,9 +35,9 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
       '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
       '<span style="color: #007a00; font-weight:700;">phototroph</span>',
       '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
-      '<span style="color: #935d00; font-weight:700;">organotroph</span>',
     ],
     'correct' => '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
   },
@@ -47,7 +47,7 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'definition',
     'choices' => [
       '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
-      '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
+      '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
       '<span style="color: #007a00; font-weight:700;">phototroph</span>',
       '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
       '<span style="color: #935d00; font-weight:700;">organotroph</span>',
@@ -62,8 +62,8 @@ $showPartialCorrectAnswers = 0;
       '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
       '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
       '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
-      '<span style="color: #007a00; font-weight:700;">phototroph</span>',
       '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
+      '<span style="color: #935d00; font-weight:700;">organotroph</span>',
     ],
     'correct' => '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
   },
@@ -75,8 +75,8 @@ $showPartialCorrectAnswers = 0;
       '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
       '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
       '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
-      '<span style="color: #007a00; font-weight:700;">phototroph</span>',
       '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
+      '<span style="color: #935d00; font-weight:700;">organotroph</span>',
     ],
     'correct' => '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
   },
@@ -87,8 +87,8 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
       '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
-      '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
       '<span style="color: #007a00; font-weight:700;">phototroph</span>',
+      '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
       '<span style="color: #935d00; font-weight:700;">organotroph</span>',
     ],
     'correct' => '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
@@ -102,7 +102,7 @@ $showPartialCorrectAnswers = 0;
       '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
       '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
       '<span style="color: #007a00; font-weight:700;">phototroph</span>',
-      '<span style="color: #935d00; font-weight:700;">organotroph</span>',
+      '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
     ],
     'correct' => '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
   },
@@ -111,9 +111,9 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'trophic classifications',
     'singular_item' => 'definition',
     'choices' => [
+      '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
       '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
       '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
-      '<span style="color: #007a00; font-weight:700;">phototroph</span>',
       '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
       '<span style="color: #935d00; font-weight:700;">organotroph</span>',
     ],
@@ -141,7 +141,7 @@ $showPartialCorrectAnswers = 0;
       '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
       '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
       '<span style="color: #007a00; font-weight:700;">phototroph</span>',
-      '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
+      '<span style="color: #935d00; font-weight:700;">organotroph</span>',
     ],
     'correct' => '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
   },
@@ -150,10 +150,10 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'trophic classifications',
     'singular_item' => 'definition',
     'choices' => [
-      '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
       '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
       '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
       '<span style="color: #007a00; font-weight:700;">phototroph</span>',
+      '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
       '<span style="color: #935d00; font-weight:700;">organotroph</span>',
     ],
     'correct' => '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
@@ -164,7 +164,7 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'definition',
     'choices' => [
       '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
-      '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
       '<span style="color: #007a00; font-weight:700;">phototroph</span>',
       '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
       '<span style="color: #935d00; font-weight:700;">organotroph</span>',
@@ -177,10 +177,10 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'definition',
     'choices' => [
       '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
-      '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
       '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
       '<span style="color: #007a00; font-weight:700;">phototroph</span>',
       '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
+      '<span style="color: #935d00; font-weight:700;">organotroph</span>',
     ],
     'correct' => '<span style="color: #007a00; font-weight:700;">phototroph</span>',
   },
@@ -193,7 +193,7 @@ $showPartialCorrectAnswers = 0;
       '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
       '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
       '<span style="color: #007a00; font-weight:700;">phototroph</span>',
-      '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
+      '<span style="color: #935d00; font-weight:700;">organotroph</span>',
     ],
     'correct' => '<span style="color: #007a00; font-weight:700;">phototroph</span>',
   },
@@ -202,7 +202,7 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'trophic classifications',
     'singular_item' => 'definition',
     'choices' => [
-      '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
+      '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
       '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
       '<span style="color: #007a00; font-weight:700;">phototroph</span>',
       '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
@@ -215,9 +215,9 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'trophic classifications',
     'singular_item' => 'definition',
     'choices' => [
-      '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
       '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
       '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">phototroph</span>',
       '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
       '<span style="color: #935d00; font-weight:700;">organotroph</span>',
     ],
@@ -231,8 +231,8 @@ $showPartialCorrectAnswers = 0;
       '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
       '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
       '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
-      '<span style="color: #007a00; font-weight:700;">phototroph</span>',
       '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
+      '<span style="color: #935d00; font-weight:700;">organotroph</span>',
     ],
     'correct' => '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
   },
@@ -242,8 +242,8 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'definition',
     'choices' => [
       '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
+      '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
       '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
-      '<span style="color: #007a00; font-weight:700;">phototroph</span>',
       '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
       '<span style="color: #935d00; font-weight:700;">organotroph</span>',
     ],
@@ -256,7 +256,7 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
       '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
-      '<span style="color: #007a00; font-weight:700;">phototroph</span>',
+      '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
       '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
       '<span style="color: #935d00; font-weight:700;">organotroph</span>',
     ],
@@ -270,7 +270,7 @@ $showPartialCorrectAnswers = 0;
       '<span style="color: #d40000; font-weight:700;">heterotroph</span>',
       '<span style="color: #cc0066; font-weight:700;">autotroph</span>',
       '<span style="color: #076dad; font-weight:700;">chemotroph</span>',
-      '<span style="color: #6c6c00; font-weight:700;">lithotroph</span>',
+      '<span style="color: #007a00; font-weight:700;">phototroph</span>',
       '<span style="color: #935d00; font-weight:700;">organotroph</span>',
     ],
     'correct' => '<span style="color: #935d00; font-weight:700;">organotroph</span>',
