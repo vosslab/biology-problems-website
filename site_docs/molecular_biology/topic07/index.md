@@ -5,6 +5,7 @@ Transcription of genes, RNA polymerase, promoters, and regulation.
 ## Genes Expressed by Activator Proteins
 
 <div id="enhancer_gene_expression-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-enhancer_gene_expression-questions.txt" download title="Download bbq-enhancer_gene_expression-questions.txt" aria-label="Click to download the BBQ Text file (bbq-enhancer_gene_expression-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -34,9 +35,10 @@ Transcription of genes, RNA polymerase, promoters, and regulation.
 </details>
 
 
-## mRNA Sequences from DNA Templates (Fill in the Blank)
+## mRNA Sequences from DNA Templates
 
 <div id="rna_transcribe_fill_blank-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-rna_transcribe_fill_blank-questions.txt" download title="Download bbq-rna_transcribe_fill_blank-questions.txt" aria-label="Click to download the BBQ Text file (bbq-rna_transcribe_fill_blank-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -55,7 +57,7 @@ Transcription of genes, RNA polymerase, promoters, and regulation.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      mRNA Sequences from DNA Templates (Fill in the Blank)
+      mRNA Sequences from DNA Templates
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -66,9 +68,10 @@ Transcription of genes, RNA polymerase, promoters, and regulation.
 </details>
 
 
-## mRNA Sequences from DNA Templates (5' and 3' Direction)
+## mRNA Sequences from DNA Templates (5&#x27; and 3&#x27; Direction)
 
 <div id="rna_transcribe_prime-len_9-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-rna_transcribe_prime-len_9-questions.txt" download title="Download bbq-rna_transcribe_prime-len_9-questions.txt" aria-label="Click to download the BBQ Text file (bbq-rna_transcribe_prime-len_9-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -87,7 +90,7 @@ Transcription of genes, RNA polymerase, promoters, and regulation.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      mRNA Sequences from DNA Templates (5' and 3' Direction)
+      mRNA Sequences from DNA Templates (5&#x27; and 3&#x27; Direction)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -98,9 +101,10 @@ Transcription of genes, RNA polymerase, promoters, and regulation.
 </details>
 
 
-## mRNA Sequences from DNA Templates (5' and 3' Fill in the Blank)
+## mRNA Sequences from DNA Templates (5&#x27; and 3&#x27; Direction)
 
 <div id="rna_transcribe_prime_fill_blank-len_9-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-rna_transcribe_prime_fill_blank-len_9-questions.txt" download title="Download bbq-rna_transcribe_prime_fill_blank-len_9-questions.txt" aria-label="Click to download the BBQ Text file (bbq-rna_transcribe_prime_fill_blank-len_9-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -119,7 +123,7 @@ Transcription of genes, RNA polymerase, promoters, and regulation.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      mRNA Sequences from DNA Templates (5' and 3' Fill in the Blank)
+      mRNA Sequences from DNA Templates (5&#x27; and 3&#x27; Direction)
     </span>
     <span style='font-weight: normal;'>
       example problem

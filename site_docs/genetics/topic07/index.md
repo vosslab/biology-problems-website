@@ -4,9 +4,10 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
 
 **LibreTexts reference:** [Chapter 7: Chi Square Analysis](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/07:_Chi_Square_Analysis) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/07:_Chi_Square_Analysis" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 7" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
-## Matching Chi-Square Terms to Definitions
+## Chi-Square Terms from Definitions
 
 <div id="MATCH-chi-square_terms-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-chi-square_terms-questions.txt" download title="Download bbq-MATCH-chi-square_terms-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-chi-square_terms-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -28,7 +29,7 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Chi-Square Terms to Definitions
+      Chi-Square Terms from Definitions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -39,9 +40,10 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
 </details>
 
 
-## True/False Statements About Chi-Square Tests
+## Chi-Square Tests
 
 <div id="TFMS-chi-square-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-chi-square-questions.txt" download title="Download bbq-TFMS-chi-square-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-chi-square-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -63,7 +65,7 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Chi-Square Tests
+      Chi-Square Tests
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -77,6 +79,7 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
 ## Chi-Square Terms from Definitions
 
 <div id="WOMC-chi-square_terms-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-chi-square_terms-questions.txt" download title="Download bbq-WOMC-chi-square_terms-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-chi-square_terms-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -112,6 +115,7 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
 ## Chi-Square Values for Phenotypic Ratios
 
 <div id="chi_square_calculated-ACCEPT-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-chi_square_calculated-ACCEPT-questions.txt" download title="Download bbq-chi_square_calculated-ACCEPT-questions.txt" aria-label="Click to download the BBQ Text file (bbq-chi_square_calculated-ACCEPT-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -144,6 +148,7 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
 ## Hypothesis Decisions from Chi-Square Tests
 
 <div id="chi_square_choices-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-chi_square_choices-questions.txt" download title="Download bbq-chi_square_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-chi_square_choices-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -176,6 +181,7 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
 ## Errors in Chi-Square Calculations and Hypothesis Decisions
 
 <div id="chi_square_errors-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-chi_square_errors-questions.txt" download title="Download bbq-chi_square_errors-questions.txt" aria-label="Click to download the BBQ Text file (bbq-chi_square_errors-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -208,6 +214,7 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
 ## Chi-Square Tests for Hardy-Weinberg Equilibrium
 
 <div id="chi_square_hardy_weinberg-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-chi_square_hardy_weinberg-questions.txt" download title="Download bbq-chi_square_hardy_weinberg-questions.txt" aria-label="Click to download the BBQ Text file (bbq-chi_square_hardy_weinberg-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -240,6 +247,7 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
 ## Null and Alternative Hypotheses for Genetic Crosses
 
 <div id="chi_square_hypotheses-pair-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-chi_square_hypotheses-pair-questions.txt" download title="Download bbq-chi_square_hypotheses-pair-questions.txt" aria-label="Click to download the BBQ Text file (bbq-chi_square_hypotheses-pair-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -272,6 +280,7 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
 ## Misstated Null Hypotheses for Genetic Ratios
 
 <div id="chi_square_hypotheses_lab_partner-hypotheses_partner-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt" download title="Download bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt" aria-label="Click to download the BBQ Text file (bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>

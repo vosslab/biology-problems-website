@@ -7,6 +7,7 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 ## Blood Type Agglutination Test Results (ABO and Rh)
 
 <div id="blood_type_agglutination_test-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-blood_type_agglutination_test-questions.txt" download title="Download bbq-blood_type_agglutination_test-questions.txt" aria-label="Click to download the BBQ Text file (bbq-blood_type_agglutination_test-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -36,9 +37,10 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 </details>
 
 
-## Offspring HLA Genotypes (2 Markers, Black)
+## Offspring HLA Genotypes (2 Markers, Black-and-White)
 
 <div id="hla_genotype-2_markers-black-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-hla_genotype-2_markers-black-questions.txt" download title="Download bbq-hla_genotype-2_markers-black-questions.txt" aria-label="Click to download the BBQ Text file (bbq-hla_genotype-2_markers-black-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -57,7 +59,7 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Offspring HLA Genotypes (2 Markers, Black)
+      Offspring HLA Genotypes (2 Markers, Black-and-White)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -71,6 +73,7 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 ## Offspring HLA Genotypes (3 Markers, Color)
 
 <div id="hla_genotype-3_markers-color-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-hla_genotype-3_markers-color-questions.txt" download title="Download bbq-hla_genotype-3_markers-color-questions.txt" aria-label="Click to download the BBQ Text file (bbq-hla_genotype-3_markers-color-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -100,9 +103,10 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 </details>
 
 
-## RFLP Paternity Testing from DNA Gels (EASY, 3 Males)
+## RFLP Paternity Testing from DNA Gels (Easy, 3 Males)
 
 <div id="who_father_html-EASY-3_males-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-who_father_html-EASY-3_males-questions.txt" download title="Download bbq-who_father_html-EASY-3_males-questions.txt" aria-label="Click to download the BBQ Text file (bbq-who_father_html-EASY-3_males-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -121,7 +125,7 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      RFLP Paternity Testing from DNA Gels (EASY, 3 Males)
+      RFLP Paternity Testing from DNA Gels (Easy, 3 Males)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -132,9 +136,10 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 </details>
 
 
-## RFLP Paternity Testing from DNA Gel Profiles (HARD, 9 Males)
+## RFLP Paternity Testing from DNA Gels (Hard, 9 Males)
 
 <div id="who_father_html-HARD-9_males-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-who_father_html-HARD-9_males-questions.txt" download title="Download bbq-who_father_html-HARD-9_males-questions.txt" aria-label="Click to download the BBQ Text file (bbq-who_father_html-HARD-9_males-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -153,7 +158,7 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      RFLP Paternity Testing from DNA Gel Profiles (HARD, 9 Males)
+      RFLP Paternity Testing from DNA Gels (Hard, 9 Males)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -164,9 +169,10 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 </details>
 
 
-## RFLP Paternity Testing from DNA Gels (MEDIUM, 5 Males)
+## RFLP Paternity Testing from DNA Gels (Medium, 5 Males)
 
 <div id="who_father_html-MEDIUM-5_males-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-who_father_html-MEDIUM-5_males-questions.txt" download title="Download bbq-who_father_html-MEDIUM-5_males-questions.txt" aria-label="Click to download the BBQ Text file (bbq-who_father_html-MEDIUM-5_males-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -185,7 +191,7 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      RFLP Paternity Testing from DNA Gels (MEDIUM, 5 Males)
+      RFLP Paternity Testing from DNA Gels (Medium, 5 Males)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -196,9 +202,10 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 </details>
 
 
-## RFLP Forensic DNA Analysis Results (EASY, 4 Suspects)
+## RFLP Suspect Identification from DNA Profiles (Easy, 4 Suspects)
 
 <div id="who_killer_html-EASY-4_suspects-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-who_killer_html-EASY-4_suspects-questions.txt" download title="Download bbq-who_killer_html-EASY-4_suspects-questions.txt" aria-label="Click to download the BBQ Text file (bbq-who_killer_html-EASY-4_suspects-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -217,7 +224,7 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      RFLP Forensic DNA Analysis Results (EASY, 4 Suspects)
+      RFLP Suspect Identification from DNA Profiles (Easy, 4 Suspects)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -228,9 +235,10 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 </details>
 
 
-## RFLP Forensic DNA Analysis Results (HARD, 9 Suspects)
+## RFLP Suspect Identification from DNA Profiles (Hard, 9 Suspects)
 
 <div id="who_killer_html-HARD-9_suspects-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-who_killer_html-HARD-9_suspects-questions.txt" download title="Download bbq-who_killer_html-HARD-9_suspects-questions.txt" aria-label="Click to download the BBQ Text file (bbq-who_killer_html-HARD-9_suspects-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -249,7 +257,7 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      RFLP Forensic DNA Analysis Results (HARD, 9 Suspects)
+      RFLP Suspect Identification from DNA Profiles (Hard, 9 Suspects)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -260,9 +268,10 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 </details>
 
 
-## RFLP Forensic DNA Analysis Results (MEDIUM, 5 Suspects)
+## RFLP Suspect Identification from DNA Profiles (Medium, 5 Suspects)
 
 <div id="who_killer_html-MEDIUM-5_suspects-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-who_killer_html-MEDIUM-5_suspects-questions.txt" download title="Download bbq-who_killer_html-MEDIUM-5_suspects-questions.txt" aria-label="Click to download the BBQ Text file (bbq-who_killer_html-MEDIUM-5_suspects-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -281,7 +290,7 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      RFLP Forensic DNA Analysis Results (MEDIUM, 5 Suspects)
+      RFLP Suspect Identification from DNA Profiles (Medium, 5 Suspects)
     </span>
     <span style='font-weight: normal;'>
       example problem

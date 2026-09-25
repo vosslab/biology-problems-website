@@ -5,6 +5,7 @@ Students design multi-step dilution series to reach high overall dilution factor
 ## Aliquot Volumes for Serial Dilutions
 
 <div id="serial_dilution_factor_aliquot_numeric-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-serial_dilution_factor_aliquot_numeric-questions.txt" download title="Download bbq-serial_dilution_factor_aliquot_numeric-questions.txt" aria-label="Click to download the BBQ Text file (bbq-serial_dilution_factor_aliquot_numeric-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -37,6 +38,7 @@ Students design multi-step dilution series to reach high overall dilution factor
 ## Diluent Volumes for Serial Dilutions
 
 <div id="serial_dilution_factor_diluent_numeric-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-serial_dilution_factor_diluent_numeric-questions.txt" download title="Download bbq-serial_dilution_factor_diluent_numeric-questions.txt" aria-label="Click to download the BBQ Text file (bbq-serial_dilution_factor_diluent_numeric-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -66,9 +68,10 @@ Students design multi-step dilution series to reach high overall dilution factor
 </details>
 
 
-## Serial Dilution Factors
+## Aliquot and Diluent Volumes for Serial Dilutions
 
 <div id="serial_dilution_factor_mc-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-serial_dilution_factor_mc-questions.txt" download title="Download bbq-serial_dilution_factor_mc-questions.txt" aria-label="Click to download the BBQ Text file (bbq-serial_dilution_factor_mc-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -87,7 +90,7 @@ Students design multi-step dilution series to reach high overall dilution factor
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Serial Dilution Factors
+      Aliquot and Diluent Volumes for Serial Dilutions
     </span>
     <span style='font-weight: normal;'>
       example problem

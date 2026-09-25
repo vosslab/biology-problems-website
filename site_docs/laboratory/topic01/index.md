@@ -5,6 +5,7 @@ Students convert between SI-prefixed units, choose values with the correct order
 ## Orders of Magnitude for Given Quantities
 
 <div id="orders_of_magnitude_mc-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-orders_of_magnitude_mc-questions.txt" download title="Download bbq-orders_of_magnitude_mc-questions.txt" aria-label="Click to download the BBQ Text file (bbq-orders_of_magnitude_mc-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -37,6 +38,7 @@ Students convert between SI-prefixed units, choose values with the correct order
 ## Pipette Sizes for Given Volumes
 
 <div id="pipet_size_mc-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-pipet_size_mc-questions.txt" download title="Download bbq-pipet_size_mc-questions.txt" aria-label="Click to download the BBQ Text file (bbq-pipet_size_mc-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>

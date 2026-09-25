@@ -2,9 +2,10 @@
 
 Students analyze cell structure and function, calculate surface-to-volume ratios for different cell shapes, compare prokaryotic and eukaryotic organelles, and interpret membrane transport mechanisms.
 
-## Matching Cell Receptors to Descriptions
+## Cell Receptors from Descriptions
 
 <div id="MATCH-cell_receptors-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-cell_receptors-questions.txt" download title="Download bbq-MATCH-cell_receptors-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-cell_receptors-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -26,7 +27,7 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Cell Receptors to Descriptions
+      Cell Receptors from Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -37,9 +38,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 </details>
 
 
-## Matching Cellular Structures to Descriptions
+## Cellular Structures from Descriptions
 
 <div id="MATCH-cellular_structures-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-cellular_structures-questions.txt" download title="Download bbq-MATCH-cellular_structures-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-cellular_structures-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -61,7 +63,7 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Cellular Structures to Descriptions
+      Cellular Structures from Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -72,9 +74,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 </details>
 
 
-## Matching Intercellular Junctions to Their Functions
+## Intercellular Junctions from Functions
 
 <div id="MATCH-intercellular_junctions-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-intercellular_junctions-questions.txt" download title="Download bbq-MATCH-intercellular_junctions-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-intercellular_junctions-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -96,7 +99,7 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Intercellular Junctions to Their Functions
+      Intercellular Junctions from Functions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -107,9 +110,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 </details>
 
 
-## Matching Sensory Modalities to Receptor Cell Types
+## Sensory Modalities from Receptor Cell Types
 
 <div id="MATCH-senses_receptor_types_by_modality-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-senses_receptor_types_by_modality-questions.txt" download title="Download bbq-MATCH-senses_receptor_types_by_modality-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-senses_receptor_types_by_modality-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -131,7 +135,7 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Sensory Modalities to Receptor Cell Types
+      Sensory Modalities from Receptor Cell Types
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -142,9 +146,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 </details>
 
 
-## Matching Sensory Signal Transduction Components to Functions
+## Sensory Signal Transduction Components from Functions
 
 <div id="MATCH-senses_signal_transduction_matching_set-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-senses_signal_transduction_matching_set-questions.txt" download title="Download bbq-MATCH-senses_signal_transduction_matching_set-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-senses_signal_transduction_matching_set-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -166,7 +171,7 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Sensory Signal Transduction Components to Functions
+      Sensory Signal Transduction Components from Functions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -177,9 +182,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 </details>
 
 
-## Matching Taste Qualities to Stimuli
+## Taste Qualities from Stimuli
 
 <div id="MATCH-senses_taste_quality_to_stimulus-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-senses_taste_quality_to_stimulus-questions.txt" download title="Download bbq-MATCH-senses_taste_quality_to_stimulus-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-senses_taste_quality_to_stimulus-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -201,7 +207,7 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Taste Qualities to Stimuli
+      Taste Qualities from Stimuli
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -212,9 +218,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 </details>
 
 
-## Matching Stem Cell Potency Levels to Definitions
+## Stem Cell Potency Levels from Definitions
 
 <div id="MATCH-stem_cell_potency-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-stem_cell_potency-questions.txt" download title="Download bbq-MATCH-stem_cell_potency-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-stem_cell_potency-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -236,7 +243,7 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Stem Cell Potency Levels to Definitions
+      Stem Cell Potency Levels from Definitions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -247,9 +254,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 </details>
 
 
-## Matching Trophic Classifications to Definitions
+## Trophic Categories from Metabolic Definitions
 
 <div id="MATCH-trophic_classes-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-trophic_classes-questions.txt" download title="Download bbq-MATCH-trophic_classes-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-trophic_classes-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -271,7 +279,7 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Trophic Classifications to Definitions
+      Trophic Categories from Metabolic Definitions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -282,9 +290,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 </details>
 
 
-## Matching Trophic Organisms to Definitions
+## Trophic Classification from Energy and Carbon Sources
 
 <div id="MATCH-trophic_organisms-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-trophic_organisms-questions.txt" download title="Download bbq-MATCH-trophic_organisms-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-trophic_organisms-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -306,7 +315,7 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Trophic Organisms to Definitions
+      Trophic Classification from Energy and Carbon Sources
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -317,9 +326,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 </details>
 
 
-## True/False Statements About Cell Theory
+## Cell Theory
 
 <div id="TFMS-cell_theory-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-cell_theory-questions.txt" download title="Download bbq-TFMS-cell_theory-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-cell_theory-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -341,7 +351,7 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Cell Theory
+      Cell Theory
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -352,9 +362,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 </details>
 
 
-## True/False Statements About the Fluid Mosaic Model
+## Fluid Mosaic Model
 
 <div id="TFMS-fluid_mosaic_model-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-fluid_mosaic_model-questions.txt" download title="Download bbq-TFMS-fluid_mosaic_model-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-fluid_mosaic_model-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -376,7 +387,7 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About the Fluid Mosaic Model
+      Fluid Mosaic Model
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -387,9 +398,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 </details>
 
 
-## True/False Statements About Membrane Diffusion
+## Membrane Permeability to Ions and Molecules
 
 <div id="TFMS-membrane_diffusion-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-membrane_diffusion-questions.txt" download title="Download bbq-TFMS-membrane_diffusion-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-membrane_diffusion-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -411,7 +423,7 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Membrane Diffusion
+      Membrane Permeability to Ions and Molecules
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -422,9 +434,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 </details>
 
 
-## True/False Statements About Membrane Protein Functions
+## Membrane Protein Functions
 
 <div id="TFMS-membrane_protein_functions-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-membrane_protein_functions-questions.txt" download title="Download bbq-TFMS-membrane_protein_functions-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-membrane_protein_functions-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -446,7 +459,7 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Membrane Protein Functions
+      Membrane Protein Functions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -457,9 +470,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 </details>
 
 
-## True/False Statements About Mitosis and Meiosis
+## Mitosis and Meiosis
 
 <div id="TFMS-mitosis_and_meiosis-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-mitosis_and_meiosis-questions.txt" download title="Download bbq-TFMS-mitosis_and_meiosis-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-mitosis_and_meiosis-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -481,7 +495,7 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Mitosis and Meiosis
+      Mitosis and Meiosis
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -492,9 +506,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 </details>
 
 
-## True/False Statements About Secondary Messengers
+## Second Messenger Identification
 
 <div id="TFMS-secondary_messenger-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-secondary_messenger-questions.txt" download title="Download bbq-TFMS-secondary_messenger-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-secondary_messenger-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -516,7 +531,7 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Secondary Messengers
+      Second Messenger Identification
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -527,9 +542,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 </details>
 
 
-## True/False Statements About Chemosensation (Smell and Taste)
+## Chemosensation (Smell and Taste)
 
 <div id="TFMS-senses_chemosensation_smell_taste-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-senses_chemosensation_smell_taste-questions.txt" download title="Download bbq-TFMS-senses_chemosensation_smell_taste-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-senses_chemosensation_smell_taste-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -551,7 +567,7 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Chemosensation (Smell and Taste)
+      Chemosensation (Smell and Taste)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -562,9 +578,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 </details>
 
 
-## True/False Statements About Sensory Coding (Smell vs. Taste)
+## Sensory Coding (Smell vs. Taste)
 
 <div id="TFMS-senses_smell_vs_taste-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-senses_smell_vs_taste-questions.txt" download title="Download bbq-TFMS-senses_smell_vs_taste-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-senses_smell_vs_taste-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -586,7 +603,7 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Sensory Coding (Smell vs. Taste)
+      Sensory Coding (Smell vs. Taste)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -597,9 +614,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 </details>
 
 
-## True/False Statements About Vision and Hearing Transduction
+## Vision and Hearing Transduction
 
 <div id="TFMS-senses_vision_hearing-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-senses_vision_hearing-questions.txt" download title="Download bbq-TFMS-senses_vision_hearing-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-senses_vision_hearing-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -621,7 +639,7 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Vision and Hearing Transduction
+      Vision and Hearing Transduction
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -632,9 +650,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 </details>
 
 
-## Cell Receptor Characteristics
+## Cell Receptors from Descriptions
 
 <div id="WOMC-cell_receptors-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-cell_receptors-questions.txt" download title="Download bbq-WOMC-cell_receptors-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-cell_receptors-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -656,7 +675,7 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Cell Receptor Characteristics
+      Cell Receptors from Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -670,6 +689,7 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 ## Cellular Structures from Descriptions
 
 <div id="WOMC-cellular_structures-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-cellular_structures-questions.txt" download title="Download bbq-WOMC-cellular_structures-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-cellular_structures-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -702,9 +722,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 </details>
 
 
-## Intercellular Junction Functions
+## Intercellular Junctions from Functions
 
 <div id="WOMC-intercellular_junctions-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-intercellular_junctions-questions.txt" download title="Download bbq-WOMC-intercellular_junctions-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-intercellular_junctions-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -726,7 +747,7 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Intercellular Junction Functions
+      Intercellular Junctions from Functions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -737,9 +758,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 </details>
 
 
-## Receptor Cell Types from Sensory Modalities
+## Sensory Modalities from Receptor Cell Types
 
 <div id="WOMC-senses_receptor_types_by_modality-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-senses_receptor_types_by_modality-questions.txt" download title="Download bbq-WOMC-senses_receptor_types_by_modality-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-senses_receptor_types_by_modality-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -761,7 +783,7 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Receptor Cell Types from Sensory Modalities
+      Sensory Modalities from Receptor Cell Types
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -772,9 +794,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 </details>
 
 
-## Sensory Signal Transduction Components from Functional Descriptions
+## Sensory Signal Transduction Components from Functions
 
 <div id="WOMC-senses_signal_transduction_matching_set-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-senses_signal_transduction_matching_set-questions.txt" download title="Download bbq-WOMC-senses_signal_transduction_matching_set-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-senses_signal_transduction_matching_set-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -796,7 +819,7 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Sensory Signal Transduction Components from Functional Descriptions
+      Sensory Signal Transduction Components from Functions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -810,6 +833,7 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 ## Taste Qualities from Stimuli
 
 <div id="WOMC-senses_taste_quality_to_stimulus-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-senses_taste_quality_to_stimulus-questions.txt" download title="Download bbq-WOMC-senses_taste_quality_to_stimulus-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-senses_taste_quality_to_stimulus-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -845,6 +869,7 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 ## Stem Cell Potency Levels from Definitions
 
 <div id="WOMC-stem_cell_potency-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-stem_cell_potency-questions.txt" download title="Download bbq-WOMC-stem_cell_potency-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-stem_cell_potency-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -877,9 +902,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 </details>
 
 
-## Trophic Classifications as Autotrophs or Heterotrophs
+## Trophic Categories from Metabolic Definitions
 
 <div id="WOMC-trophic_classes-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-trophic_classes-questions.txt" download title="Download bbq-WOMC-trophic_classes-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-trophic_classes-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -901,7 +927,7 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Trophic Classifications as Autotrophs or Heterotrophs
+      Trophic Categories from Metabolic Definitions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -912,9 +938,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 </details>
 
 
-## Trophic Organisms Based on Energy and Carbon Sources
+## Trophic Classification from Energy and Carbon Sources
 
 <div id="WOMC-trophic_organisms-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-trophic_organisms-questions.txt" download title="Download bbq-WOMC-trophic_organisms-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-trophic_organisms-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -936,7 +963,7 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Trophic Organisms Based on Energy and Carbon Sources
+      Trophic Classification from Energy and Carbon Sources
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -950,6 +977,7 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 ## Cell Efficiency from Surface-Area-to-Volume Ratio
 
 <div id="cell_surf-to-vol_ratio-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-cell_surf-to-vol_ratio-questions.txt" download title="Download bbq-cell_surf-to-vol_ratio-questions.txt" aria-label="Click to download the BBQ Text file (bbq-cell_surf-to-vol_ratio-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>

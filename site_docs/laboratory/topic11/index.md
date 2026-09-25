@@ -5,6 +5,7 @@ Students extract DNA, perform initial and nested PCR amplification of the GAPDH 
 ## Gene Expression Fold Change from RT-qPCR Data
 
 <div id="RT-qPCR-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-RT-qPCR-questions.txt" download title="Download bbq-RT-qPCR-questions.txt" aria-label="Click to download the BBQ Text file (bbq-RT-qPCR-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -37,6 +38,7 @@ Students extract DNA, perform initial and nested PCR amplification of the GAPDH 
 ## DNA Fragment Migration in Agarose Gel Electrophoresis (Closest/Farthest)
 
 <div id="dna_gel-closest_farthest_MC-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-dna_gel-closest_farthest_MC-questions.txt" download title="Download bbq-dna_gel-closest_farthest_MC-questions.txt" aria-label="Click to download the BBQ Text file (bbq-dna_gel-closest_farthest_MC-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -66,9 +68,10 @@ Students extract DNA, perform initial and nested PCR amplification of the GAPDH 
 </details>
 
 
-## DNA Fragment Size from Agarose Gel Migration (Numeric)
+## DNA Fragment Size from Agarose Gel Migration
 
 <div id="dna_gel-estimate_size-MC_or_NUM-num-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt" download title="Download bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt" aria-label="Click to download the BBQ Text file (bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -87,7 +90,7 @@ Students extract DNA, perform initial and nested PCR amplification of the GAPDH 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      DNA Fragment Size from Agarose Gel Migration (Numeric)
+      DNA Fragment Size from Agarose Gel Migration
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -101,6 +104,7 @@ Students extract DNA, perform initial and nested PCR amplification of the GAPDH 
 ## Inverse PCR Primer Selection (15 nt)
 
 <div id="inverse_pcr_design-len_15-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-inverse_pcr_design-len_15-questions.txt" download title="Download bbq-inverse_pcr_design-len_15-questions.txt" aria-label="Click to download the BBQ Text file (bbq-inverse_pcr_design-len_15-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -133,6 +137,7 @@ Students extract DNA, perform initial and nested PCR amplification of the GAPDH 
 ## Protein Molecular Weights from SDS-PAGE Band Positions
 
 <div id="kaleidoscope_ladder_mapping-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-kaleidoscope_ladder_mapping-questions.txt" download title="Download bbq-kaleidoscope_ladder_mapping-questions.txt" aria-label="Click to download the BBQ Text file (bbq-kaleidoscope_ladder_mapping-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -165,6 +170,7 @@ Students extract DNA, perform initial and nested PCR amplification of the GAPDH 
 ## Protein Molecular Weight from an SDS-PAGE Ladder
 
 <div id="kaleidoscope_ladder_unknown_band-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-kaleidoscope_ladder_unknown_band-questions.txt" download title="Download bbq-kaleidoscope_ladder_unknown_band-questions.txt" aria-label="Click to download the BBQ Text file (bbq-kaleidoscope_ladder_unknown_band-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -197,9 +203,10 @@ Students extract DNA, perform initial and nested PCR amplification of the GAPDH 
 </details>
 
 
-## Restriction Digest Band Sizes of a Linear DNA Fragment (12 kb, 3 Sites)
+## Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Fragment Diagram)
 
 <div id="linear_digest-len_12-sites_3-fragment-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-linear_digest-len_12-sites_3-fragment-questions.txt" download title="Download bbq-linear_digest-len_12-sites_3-fragment-questions.txt" aria-label="Click to download the BBQ Text file (bbq-linear_digest-len_12-sites_3-fragment-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -218,7 +225,7 @@ Students extract DNA, perform initial and nested PCR amplification of the GAPDH 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Digest Band Sizes of a Linear DNA Fragment (12 kb, 3 Sites)
+      Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Fragment Diagram)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -229,9 +236,10 @@ Students extract DNA, perform initial and nested PCR amplification of the GAPDH 
 </details>
 
 
-## Restriction Fragment Sizes (12 Length, 2 Sites)
+## Restriction Fragment Sizes from Linear DNA Maps (12 kb, 2 Sites, Fragment Diagram)
 
 <div id="linear_digest-length_12-sites_2-fragment-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-linear_digest-length_12-sites_2-fragment-questions.txt" download title="Download bbq-linear_digest-length_12-sites_2-fragment-questions.txt" aria-label="Click to download the BBQ Text file (bbq-linear_digest-length_12-sites_2-fragment-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -250,7 +258,7 @@ Students extract DNA, perform initial and nested PCR amplification of the GAPDH 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Fragment Sizes (12 Length, 2 Sites)
+      Restriction Fragment Sizes from Linear DNA Maps (12 kb, 2 Sites, Fragment Diagram)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -264,6 +272,7 @@ Students extract DNA, perform initial and nested PCR amplification of the GAPDH 
 ## Nested PCR Primer Pair Selection (24 nt)
 
 <div id="nested_pcr_design-len_24-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-nested_pcr_design-len_24-questions.txt" download title="Download bbq-nested_pcr_design-len_24-questions.txt" aria-label="Click to download the BBQ Text file (bbq-nested_pcr_design-len_24-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -296,6 +305,7 @@ Students extract DNA, perform initial and nested PCR amplification of the GAPDH 
 ## PCR Primer Selection (36 bp Template, 9-nt Primers)
 
 <div id="pcr_design-36_bp-9_primer-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-pcr_design-36_bp-9_primer-questions.txt" download title="Download bbq-pcr_design-36_bp-9_primer-questions.txt" aria-label="Click to download the BBQ Text file (bbq-pcr_design-36_bp-9_primer-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -328,6 +338,7 @@ Students extract DNA, perform initial and nested PCR amplification of the GAPDH 
 ## Protein Molecular Weight from SDS-PAGE Migration
 
 <div id="protein_gel_migration-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-protein_gel_migration-questions.txt" download title="Download bbq-protein_gel_migration-questions.txt" aria-label="Click to download the BBQ Text file (bbq-protein_gel_migration-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>

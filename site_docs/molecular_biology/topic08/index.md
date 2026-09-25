@@ -2,9 +2,10 @@
 
 RNA splicing, mRNA maturation, and CRISPR gene editing.
 
-## True/False Statements About Intron Removal Mechanisms
+## Intron Removal Mechanisms
 
 <div id="TFMS-intron_splicing-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-intron_splicing-questions.txt" download title="Download bbq-TFMS-intron_splicing-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-intron_splicing-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -26,7 +27,7 @@ RNA splicing, mRNA maturation, and CRISPR gene editing.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Intron Removal Mechanisms
+      Intron Removal Mechanisms
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -37,9 +38,10 @@ RNA splicing, mRNA maturation, and CRISPR gene editing.
 </details>
 
 
-## True/False Statements About mRNA Post-Transcriptional Modification
+## mRNA Post-Transcriptional Modification
 
 <div id="TFMS-mRNA_processing-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-mRNA_processing-questions.txt" download title="Download bbq-TFMS-mRNA_processing-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-mRNA_processing-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -61,7 +63,7 @@ RNA splicing, mRNA maturation, and CRISPR gene editing.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About mRNA Post-Transcriptional Modification
+      mRNA Post-Transcriptional Modification
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -75,6 +77,7 @@ RNA splicing, mRNA maturation, and CRISPR gene editing.
 ## Alternative Splicing Possibilities
 
 <div id="exon_splicing-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-exon_splicing-questions.txt" download title="Download bbq-exon_splicing-questions.txt" aria-label="Click to download the BBQ Text file (bbq-exon_splicing-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>

@@ -7,6 +7,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 ## Correct Form of the Henderson-Hasselbalch Equation
 
 <div id="Henderson-Hasselbalch-equation-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-equation-questions.txt" download title="Download bbq-Henderson-Hasselbalch-equation-questions.txt" aria-label="Click to download the BBQ Text file (bbq-Henderson-Hasselbalch-equation-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -36,9 +37,10 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 </details>
 
 
-## pH Using the Henderson-Hasselbalch Equation (Multiple Choice)
+## pH Using the Henderson-Hasselbalch Equation
 
 <div id="Henderson-Hasselbalch-pH_mc-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-pH_mc-questions.txt" download title="Download bbq-Henderson-Hasselbalch-pH_mc-questions.txt" aria-label="Click to download the BBQ Text file (bbq-Henderson-Hasselbalch-pH_mc-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -57,7 +59,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      pH Using the Henderson-Hasselbalch Equation (Multiple Choice)
+      pH Using the Henderson-Hasselbalch Equation
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -68,9 +70,10 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 </details>
 
 
-## pH Using the Henderson-Hasselbalch Equation (Numeric)
+## pH Using the Henderson-Hasselbalch Equation
 
 <div id="Henderson-Hasselbalch-pH_num-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-pH_num-questions.txt" download title="Download bbq-Henderson-Hasselbalch-pH_num-questions.txt" aria-label="Click to download the BBQ Text file (bbq-Henderson-Hasselbalch-pH_num-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -89,7 +92,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      pH Using the Henderson-Hasselbalch Equation (Numeric)
+      pH Using the Henderson-Hasselbalch Equation
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -100,9 +103,10 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 </details>
 
 
-## pKa and pKb Using the Henderson-Hasselbalch Equation (Multiple Choice)
+## pKa and pKb Using the Henderson-Hasselbalch Equation
 
 <div id="Henderson-Hasselbalch-pKa_mc-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-pKa_mc-questions.txt" download title="Download bbq-Henderson-Hasselbalch-pKa_mc-questions.txt" aria-label="Click to download the BBQ Text file (bbq-Henderson-Hasselbalch-pKa_mc-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -121,7 +125,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      pKa and pKb Using the Henderson-Hasselbalch Equation (Multiple Choice)
+      pKa and pKb Using the Henderson-Hasselbalch Equation
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -132,9 +136,10 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 </details>
 
 
-## pKa and pKb Using the Henderson-Hasselbalch Equation (Numeric)
+## pKa and pKb Using the Henderson-Hasselbalch Equation
 
 <div id="Henderson-Hasselbalch-pKa_num-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-pKa_num-questions.txt" download title="Download bbq-Henderson-Hasselbalch-pKa_num-questions.txt" aria-label="Click to download the BBQ Text file (bbq-Henderson-Hasselbalch-pKa_num-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -153,7 +158,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      pKa and pKb Using the Henderson-Hasselbalch Equation (Numeric)
+      pKa and pKb Using the Henderson-Hasselbalch Equation
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -164,9 +169,10 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 </details>
 
 
-## Conjugate Base-to-Acid Ratios Using the Henderson-Hasselbalch Equation (Multiple Choice)
+## Conjugate Base-to-Acid Ratios Using the Henderson-Hasselbalch Equation
 
 <div id="Henderson-Hasselbalch-ratio_mc-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-ratio_mc-questions.txt" download title="Download bbq-Henderson-Hasselbalch-ratio_mc-questions.txt" aria-label="Click to download the BBQ Text file (bbq-Henderson-Hasselbalch-ratio_mc-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -185,7 +191,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Conjugate Base-to-Acid Ratios Using the Henderson-Hasselbalch Equation (Multiple Choice)
+      Conjugate Base-to-Acid Ratios Using the Henderson-Hasselbalch Equation
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -196,9 +202,10 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 </details>
 
 
-## Conjugate Base-to-Acid Ratios Using the Henderson-Hasselbalch Equation (Numeric)
+## Conjugate Base-to-Acid Ratios Using the Henderson-Hasselbalch Equation
 
 <div id="Henderson-Hasselbalch-ratio_num-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-Henderson-Hasselbalch-ratio_num-questions.txt" download title="Download bbq-Henderson-Hasselbalch-ratio_num-questions.txt" aria-label="Click to download the BBQ Text file (bbq-Henderson-Hasselbalch-ratio_num-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -217,7 +224,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Conjugate Base-to-Acid Ratios Using the Henderson-Hasselbalch Equation (Numeric)
+      Conjugate Base-to-Acid Ratios Using the Henderson-Hasselbalch Equation
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -231,6 +238,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 ## Protonation States of Chemical Groups
 
 <div id="chemical_group_pka_forms-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-chemical_group_pka_forms-questions.txt" download title="Download bbq-chemical_group_pka_forms-questions.txt" aria-label="Click to download the BBQ Text file (bbq-chemical_group_pka_forms-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -263,9 +271,10 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 </details>
 
 
-## Functional Groups with Single Bonds
+## Functional Group Classification by Bond Type
 
 <div id="functional_groups_bond_types-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-functional_groups_bond_types-questions.txt" download title="Download bbq-functional_groups_bond_types-questions.txt" aria-label="Click to download the BBQ Text file (bbq-functional_groups_bond_types-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -287,7 +296,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Functional Groups with Single Bonds
+      Functional Group Classification by Bond Type
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -301,6 +310,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 ## Optimal Buffering Range Using pKa
 
 <div id="optimal_buffering_range-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-optimal_buffering_range-questions.txt" download title="Download bbq-optimal_buffering_range-questions.txt" aria-label="Click to download the BBQ Text file (bbq-optimal_buffering_range-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -333,9 +343,10 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 </details>
 
 
-## Most Abundant Diprotic State at a Given pH Using pKa
+## Predominant Protonation State from pH and pKa (Diprotic)
 
 <div id="pKa_buffer_state-2_protons-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-pKa_buffer_state-2_protons-questions.txt" download title="Download bbq-pKa_buffer_state-2_protons-questions.txt" aria-label="Click to download the BBQ Text file (bbq-pKa_buffer_state-2_protons-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -354,7 +365,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Most Abundant Diprotic State at a Given pH Using pKa
+      Predominant Protonation State from pH and pKa (Diprotic)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -365,9 +376,10 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 </details>
 
 
-## Most Abundant Triprotic State at a Given pH Using pKa
+## Predominant Protonation State from pH and pKa (Triprotic)
 
 <div id="pKa_buffer_state-3_protons-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-pKa_buffer_state-3_protons-questions.txt" download title="Download bbq-pKa_buffer_state-3_protons-questions.txt" aria-label="Click to download the BBQ Text file (bbq-pKa_buffer_state-3_protons-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -386,7 +398,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Most Abundant Triprotic State at a Given pH Using pKa
+      Predominant Protonation State from pH and pKa (Triprotic)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -397,9 +409,10 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 </details>
 
 
-## Most Abundant Tetraprotic State at a Given pH Using pKa
+## Predominant Protonation State from pH and pKa (Tetraprotic)
 
 <div id="pKa_buffer_state-4_protons-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-pKa_buffer_state-4_protons-questions.txt" download title="Download bbq-pKa_buffer_state-4_protons-questions.txt" aria-label="Click to download the BBQ Text file (bbq-pKa_buffer_state-4_protons-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -418,7 +431,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Most Abundant Tetraprotic State at a Given pH Using pKa
+      Predominant Protonation State from pH and pKa (Tetraprotic)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -432,6 +445,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 ## pH Differences Between Solutions
 
 <div id="ph_h_concentration_ratio-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-ph_h_concentration_ratio-questions.txt" download title="Download bbq-ph_h_concentration_ratio-questions.txt" aria-label="Click to download the BBQ Text file (bbq-ph_h_concentration_ratio-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>

@@ -4,9 +4,10 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 
 **LibreTexts reference:** [Chapter 6: Chromosomal Inheritance](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/06:_Chromosomal_Inheritance) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/06:_Chromosomal_Inheritance" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 6" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
-## Matching Meiosis Prophase I Stages to Descriptions
+## Meiosis Prophase I Stages from Descriptions
 
 <div id="MATCH-meiosis_prophase_1-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-meiosis_prophase_1-questions.txt" download title="Download bbq-MATCH-meiosis_prophase_1-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-meiosis_prophase_1-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -28,7 +29,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Meiosis Prophase I Stages to Descriptions
+      Meiosis Prophase I Stages from Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -39,9 +40,10 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </details>
 
 
-## Matching Meiosis Terms to Definitions
+## Meiosis Terms from Definitions
 
 <div id="MATCH-meiosis_terms-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-meiosis_terms-questions.txt" download title="Download bbq-MATCH-meiosis_terms-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-meiosis_terms-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -63,7 +65,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Meiosis Terms to Definitions
+      Meiosis Terms from Definitions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -74,9 +76,10 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </details>
 
 
-## Matching Sex Determination Systems to Descriptions
+## Sex Determination Systems from Descriptions
 
 <div id="MATCH-sex_determination-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-sex_determination-questions.txt" download title="Download bbq-MATCH-sex_determination-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-sex_determination-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -98,7 +101,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Sex Determination Systems to Descriptions
+      Sex Determination Systems from Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -109,9 +112,10 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </details>
 
 
-## True/False Statements About Mitosis and Meiosis
+## Mitosis and Meiosis
 
 <div id="TFMS-mitosis_and_meiosis-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-mitosis_and_meiosis-questions.txt" download title="Download bbq-TFMS-mitosis_and_meiosis-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-mitosis_and_meiosis-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -133,7 +137,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Mitosis and Meiosis
+      Mitosis and Meiosis
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -147,6 +151,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## Meiosis Prophase I Stages from Descriptions
 
 <div id="WOMC-meiosis_prophase_1-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-meiosis_prophase_1-questions.txt" download title="Download bbq-WOMC-meiosis_prophase_1-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-meiosis_prophase_1-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -182,6 +187,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## Meiosis Terms from Definitions
 
 <div id="WOMC-meiosis_terms-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-meiosis_terms-questions.txt" download title="Download bbq-WOMC-meiosis_terms-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-meiosis_terms-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -217,6 +223,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## Sex Determination Systems from Descriptions
 
 <div id="WOMC-sex_determination-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-sex_determination-questions.txt" download title="Download bbq-WOMC-sex_determination-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-sex_determination-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -249,9 +256,10 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </details>
 
 
-## Fraction of Daughters with Both AIS and HD
+## Combined Autosomal Dominant and X-Linked Recessive Inheritance (Both Disorders)
 
 <div id="dominant_and_X-linked_recessive-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-dominant_and_X-linked_recessive-questions.txt" download title="Download bbq-dominant_and_X-linked_recessive-questions.txt" aria-label="Click to download the BBQ Text file (bbq-dominant_and_X-linked_recessive-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -270,7 +278,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Fraction of Daughters with Both AIS and HD
+      Combined Autosomal Dominant and X-Linked Recessive Inheritance (Both Disorders)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -281,9 +289,10 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </details>
 
 
-## Combined Dominant and X-Linked Recessive Inheritance Variations
+## Combined Autosomal Dominant and X-Linked Recessive Inheritance (Varied Outcomes)
 
 <div id="dominant_and_X-linked_recessive_variations-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-dominant_and_X-linked_recessive_variations-questions.txt" download title="Download bbq-dominant_and_X-linked_recessive_variations-questions.txt" aria-label="Click to download the BBQ Text file (bbq-dominant_and_X-linked_recessive_variations-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -302,7 +311,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Combined Dominant and X-Linked Recessive Inheritance Variations
+      Combined Autosomal Dominant and X-Linked Recessive Inheritance (Varied Outcomes)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -316,6 +325,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## Parent Genotypes in X-Linked Recessive Crosses
 
 <div id="poisson_flies-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-poisson_flies-questions.txt" download title="Download bbq-poisson_flies-questions.txt" aria-label="Click to download the BBQ Text file (bbq-poisson_flies-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -351,6 +361,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## X-linked Eye Color Inheritance
 
 <div id="x_linked_reciprocal_cross-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-x_linked_reciprocal_cross-questions.txt" download title="Download bbq-x_linked_reciprocal_cross-questions.txt" aria-label="Click to download the BBQ Text file (bbq-x_linked_reciprocal_cross-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -383,6 +394,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 ## X-linked Coat Color Probability
 
 <div id="x_linked_tortoiseshell-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-x_linked_tortoiseshell-questions.txt" download title="Download bbq-x_linked_tortoiseshell-questions.txt" aria-label="Click to download the BBQ Text file (bbq-x_linked_tortoiseshell-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>

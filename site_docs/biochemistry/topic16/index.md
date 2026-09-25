@@ -2,9 +2,10 @@
 
 Students trace glucose through glycolysis to pyruvate, calculate net ATP and NADH yield, explain how fructose and galactose enter the pathway, describe NAD+ regeneration through fermentation, identify regulatory control points responsive to energy demand and hormonal signals, and contrast gluconeogenesis bypass reactions with irreversible glycolytic steps including reciprocal regulation between the two pathways.
 
-## Matching Cellular Respiration Stages to Statements
+## Cellular Respiration Stages from Statements
 
 <div id="MATCH-respiration-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-respiration-questions.txt" download title="Download bbq-MATCH-respiration-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-respiration-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -26,7 +27,7 @@ Students trace glucose through glycolysis to pyruvate, calculate net ATP and NAD
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Cellular Respiration Stages to Statements
+      Cellular Respiration Stages from Statements
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -40,6 +41,7 @@ Students trace glucose through glycolysis to pyruvate, calculate net ATP and NAD
 ## Cellular Respiration Stages from Statements
 
 <div id="WOMC-respiration-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-respiration-questions.txt" download title="Download bbq-WOMC-respiration-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-respiration-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -72,9 +74,10 @@ Students trace glucose through glycolysis to pyruvate, calculate net ATP and NAD
 </details>
 
 
-## Ordering Glycolysis Intermediates
+## Glycolysis Intermediate Ordering
 
 <div id="order_glycolysis_molecules-ORD-4_choices-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-ord" title="Ordering">ORD</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-order_glycolysis_molecules-ORD-4_choices-questions.txt" download title="Download bbq-order_glycolysis_molecules-ORD-4_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-order_glycolysis_molecules-ORD-4_choices-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -84,7 +87,7 @@ Students trace glucose through glycolysis to pyruvate, calculate net ATP and NAD
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Ordering Glycolysis Intermediates
+      Glycolysis Intermediate Ordering
     </span>
     <span style='font-weight: normal;'>
       example problem

@@ -5,6 +5,7 @@ Students trace light energy capture through Photosystem II and Photosystem I, ex
 ## Optimal Wavelengths for Pigment Absorption
 
 <div id="photosynthetic_light_pigments-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-photosynthetic_light_pigments-questions.txt" download title="Download bbq-photosynthetic_light_pigments-questions.txt" aria-label="Click to download the BBQ Text file (bbq-photosynthetic_light_pigments-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>

@@ -2,9 +2,10 @@
 
 Students read, interpret, and compare graphical data displays including box plots, histograms, scatterplots, bar charts, ROC curves, and Kaplan-Meier survival plots.
 
-## Box Plot Matching
+## Box Plots from Cumulative Frequency Tables
 
 <div id="boxplot_from_cdf-MC-boxplot_from_cdf-5_choices-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices-questions.txt" download title="Download bbq-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -23,7 +24,7 @@ Students read, interpret, and compare graphical data displays including box plot
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Box Plot Matching
+      Box Plots from Cumulative Frequency Tables
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -37,6 +38,7 @@ Students read, interpret, and compare graphical data displays including box plot
 ## Box Plots from Sorted Data
 
 <div id="boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices-questions.txt" download title="Download bbq-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -69,6 +71,7 @@ Students read, interpret, and compare graphical data displays including box plot
 ## Box Plots from Five-Number Summary
 
 <div id="boxplot_from_summary-MC-boxplot_from_summary-5_choices-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-boxplot_from_summary-MC-boxplot_from_summary-5_choices-questions.txt" download title="Download bbq-boxplot_from_summary-MC-boxplot_from_summary-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-boxplot_from_summary-MC-boxplot_from_summary-5_choices-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -98,9 +101,10 @@ Students read, interpret, and compare graphical data displays including box plot
 </details>
 
 
-## Box Plots from Sample Data
+## Box Plots from Unsorted Data (Even Sample Size)
 
 <div id="boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices-questions.txt" download title="Download bbq-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -119,7 +123,7 @@ Students read, interpret, and compare graphical data displays including box plot
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Box Plots from Sample Data
+      Box Plots from Unsorted Data (Even Sample Size)
     </span>
     <span style='font-weight: normal;'>
       example problem

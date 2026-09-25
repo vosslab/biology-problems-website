@@ -2,9 +2,10 @@
 
 Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR, Sanger and next-generation sequencing, RT-qPCR, CRISPR technology, RNA interference, GWAS, and synthetic biology.
 
-## Matching DNA Sequencing Techniques to Descriptions
+## DNA Sequencing Techniques from Descriptions
 
 <div id="MATCH-dna_sequencing-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-dna_sequencing-questions.txt" download title="Download bbq-MATCH-dna_sequencing-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-dna_sequencing-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -26,7 +27,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching DNA Sequencing Techniques to Descriptions
+      DNA Sequencing Techniques from Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -40,6 +41,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## Gene Expression Fold Change from RT-qPCR Data
 
 <div id="RT-qPCR-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-RT-qPCR-questions.txt" download title="Download bbq-RT-qPCR-questions.txt" aria-label="Click to download the BBQ Text file (bbq-RT-qPCR-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -69,9 +71,10 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## True/False Statements About xDNA and XNA
+## xDNA and XNA
 
 <div id="TFMS-xna_and_xdna-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-xna_and_xdna-questions.txt" download title="Download bbq-TFMS-xna_and_xdna-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-xna_and_xdna-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -93,7 +96,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About xDNA and XNA
+      xDNA and XNA
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -107,6 +110,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## DNA Sequencing Techniques from Descriptions
 
 <div id="WOMC-dna_sequencing-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-dna_sequencing-questions.txt" download title="Download bbq-WOMC-dna_sequencing-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-dna_sequencing-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -142,6 +146,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## Amplicon Copy Number After PCR Rounds
 
 <div id="amplicon_copies-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-amplicon_copies-questions.txt" download title="Download bbq-amplicon_copies-questions.txt" aria-label="Click to download the BBQ Text file (bbq-amplicon_copies-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -171,9 +176,10 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## DNA Base Composition Using Chargaff's Rules (5 Choices)
+## DNA Base Composition Using Chargaff&#x27;s Rules (5 Choices)
 
 <div id="chargaff_dna_percent-5_choices-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-chargaff_dna_percent-5_choices-questions.txt" download title="Download bbq-chargaff_dna_percent-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-chargaff_dna_percent-5_choices-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -192,7 +198,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      DNA Base Composition Using Chargaff's Rules (5 Choices)
+      DNA Base Composition Using Chargaff&#x27;s Rules (5 Choices)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -206,6 +212,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## Complementary DNA Sequences Without Direction Labels
 
 <div id="complementary_sequences-mc-directionless-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-complementary_sequences-mc-directionless-questions.txt" download title="Download bbq-complementary_sequences-mc-directionless-questions.txt" aria-label="Click to download the BBQ Text file (bbq-complementary_sequences-mc-directionless-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -238,6 +245,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## Degenerate Primer Codes from Sequence Alignments
 
 <div id="consensus_sequence_FIB-arbitrary_code-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" download title="Download bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" aria-label="Click to download the BBQ Text file (bbq-consensus_sequence_FIB-arbitrary_code-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -267,9 +275,10 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## Consensus Sequences from Simple Alignments (Fill in the Blank)
+## Consensus Sequences from Alignments (Easy)
 
 <div id="consensus_sequence_FIB-easy-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-easy-questions.txt" download title="Download bbq-consensus_sequence_FIB-easy-questions.txt" aria-label="Click to download the BBQ Text file (bbq-consensus_sequence_FIB-easy-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -288,7 +297,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Consensus Sequences from Simple Alignments (Fill in the Blank)
+      Consensus Sequences from Alignments (Easy)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -299,9 +308,10 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## Consensus Sequences from Tables (Fill in the Blank)
+## Consensus Sequences from Alignments (Hard)
 
 <div id="consensus_sequence_FIB-hard-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-hard-questions.txt" download title="Download bbq-consensus_sequence_FIB-hard-questions.txt" aria-label="Click to download the BBQ Text file (bbq-consensus_sequence_FIB-hard-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -320,7 +330,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Consensus Sequences from Tables (Fill in the Blank)
+      Consensus Sequences from Alignments (Hard)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -331,9 +341,10 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## Consensus Sequences from Alignments (Multiple Choice)
+## Consensus Sequences from Alignments
 
 <div id="consensus_sequence_MC-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-consensus_sequence_MC-questions.txt" download title="Download bbq-consensus_sequence_MC-questions.txt" aria-label="Click to download the BBQ Text file (bbq-consensus_sequence_MC-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -352,7 +363,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Consensus Sequences from Alignments (Multiple Choice)
+      Consensus Sequences from Alignments
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -366,6 +377,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## DNA Fragment Migration in Agarose Gel Electrophoresis (Closest/Farthest)
 
 <div id="dna_gel-closest_farthest_MC-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-dna_gel-closest_farthest_MC-questions.txt" download title="Download bbq-dna_gel-closest_farthest_MC-questions.txt" aria-label="Click to download the BBQ Text file (bbq-dna_gel-closest_farthest_MC-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -395,9 +407,10 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## DNA Fragment Size from Agarose Gel Migration (Numeric)
+## DNA Fragment Size from Agarose Gel Migration
 
 <div id="dna_gel-estimate_size-MC_or_NUM-num-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt" download title="Download bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt" aria-label="Click to download the BBQ Text file (bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -416,7 +429,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      DNA Fragment Size from Agarose Gel Migration (Numeric)
+      DNA Fragment Size from Agarose Gel Migration
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -430,6 +443,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## DNA Melting Temperature Extremes from Sequence (12 Bases)
 
 <div id="dna_melting_temp-len_12-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-dna_melting_temp-len_12-questions.txt" download title="Download bbq-dna_melting_temp-len_12-questions.txt" aria-label="Click to download the BBQ Text file (bbq-dna_melting_temp-len_12-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -462,6 +476,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## Inverse PCR Primer Selection (15 nt)
 
 <div id="inverse_pcr_design-len_15-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-inverse_pcr_design-len_15-questions.txt" download title="Download bbq-inverse_pcr_design-len_15-questions.txt" aria-label="Click to download the BBQ Text file (bbq-inverse_pcr_design-len_15-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -491,9 +506,10 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## Restriction Digest Band Sizes of a Linear DNA Fragment (12 kb, 3 Sites)
+## Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Fragment Diagram)
 
 <div id="linear_digest-len_12-sites_3-fragment-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-linear_digest-len_12-sites_3-fragment-questions.txt" download title="Download bbq-linear_digest-len_12-sites_3-fragment-questions.txt" aria-label="Click to download the BBQ Text file (bbq-linear_digest-len_12-sites_3-fragment-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -512,7 +528,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Digest Band Sizes of a Linear DNA Fragment (12 kb, 3 Sites)
+      Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Fragment Diagram)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -523,9 +539,10 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## Restriction Fragment Sizes (12 Length, 2 Sites)
+## Restriction Fragment Sizes from Linear DNA Maps (12 kb, 2 Sites, Fragment Diagram)
 
 <div id="linear_digest-length_12-sites_2-fragment-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-linear_digest-length_12-sites_2-fragment-questions.txt" download title="Download bbq-linear_digest-length_12-sites_2-fragment-questions.txt" aria-label="Click to download the BBQ Text file (bbq-linear_digest-length_12-sites_2-fragment-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -544,7 +561,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Fragment Sizes (12 Length, 2 Sites)
+      Restriction Fragment Sizes from Linear DNA Maps (12 kb, 2 Sites, Fragment Diagram)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -558,6 +575,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## Nested PCR Primer Pair Selection (24 nt)
 
 <div id="nested_pcr_design-len_24-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-nested_pcr_design-len_24-questions.txt" download title="Download bbq-nested_pcr_design-len_24-questions.txt" aria-label="Click to download the BBQ Text file (bbq-nested_pcr_design-len_24-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -590,6 +608,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## Restriction Enzyme Overhang Sequences
 
 <div id="overhang_sequence-mc-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-overhang_sequence-mc-questions.txt" download title="Download bbq-overhang_sequence-mc-questions.txt" aria-label="Click to download the BBQ Text file (bbq-overhang_sequence-mc-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -619,9 +638,10 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## Restriction Enzyme Cut Types (5', 3', or Blunt)
+## Restriction Enzyme Cut Types (5&#x27;, 3&#x27;, or Blunt)
 
 <div id="overhang_type-5_3_blunt-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-overhang_type-5_3_blunt-questions.txt" download title="Download bbq-overhang_type-5_3_blunt-questions.txt" aria-label="Click to download the BBQ Text file (bbq-overhang_type-5_3_blunt-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -640,7 +660,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Enzyme Cut Types (5', 3', or Blunt)
+      Restriction Enzyme Cut Types (5&#x27;, 3&#x27;, or Blunt)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -654,6 +674,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## Palindromic DNA Sequence Completion
 
 <div id="palindrome_sequence_match-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-palindrome_sequence_match-questions.txt" download title="Download bbq-palindrome_sequence_match-questions.txt" aria-label="Click to download the BBQ Text file (bbq-palindrome_sequence_match-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -686,6 +707,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 ## PCR Primer Selection (36 bp Template, 9-nt Primers)
 
 <div id="pcr_design-36_bp-9_primer-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-pcr_design-36_bp-9_primer-questions.txt" download title="Download bbq-pcr_design-36_bp-9_primer-questions.txt" aria-label="Click to download the BBQ Text file (bbq-pcr_design-36_bp-9_primer-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>

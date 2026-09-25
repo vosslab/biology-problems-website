@@ -4,9 +4,10 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 
 **LibreTexts reference:** [Chapter 2: DNA Structure and Sequences](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/02:_DNA_Structure_and_Sequences) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/02:_DNA_Structure_and_Sequences" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 2" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
-## True/False Statements About DNA Structure (BIOL 351)
+## DNA Structure (Core Set)
 
 <div id="TFMS-dna_structure-biol_351-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-dna_structure-biol_351-questions.txt" download title="Download bbq-TFMS-dna_structure-biol_351-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-dna_structure-biol_351-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -28,7 +29,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About DNA Structure (BIOL 351)
+      DNA Structure (Core Set)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -39,9 +40,10 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## True/False Statements About English Palindromes
+## English Palindrome Identification
 
 <div id="TFMS-english_palindromes-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-english_palindromes-questions.txt" download title="Download bbq-TFMS-english_palindromes-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-english_palindromes-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -63,7 +65,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About English Palindromes
+      English Palindrome Identification
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -74,9 +76,10 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## True/False Statements About Nucleotide Components
+## Nucleotide Components
 
 <div id="TFMS-nucleotide_components-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-nucleotide_components-questions.txt" download title="Download bbq-TFMS-nucleotide_components-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-nucleotide_components-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -98,7 +101,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Nucleotide Components
+      Nucleotide Components
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -109,9 +112,10 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## True/False Statements About RNA and DNA Differences
+## RNA and DNA Differences (Helix Forms and Charge Included)
 
 <div id="TFMS-rna_v_dna-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-rna_v_dna-questions.txt" download title="Download bbq-TFMS-rna_v_dna-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-rna_v_dna-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -133,7 +137,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About RNA and DNA Differences
+      RNA and DNA Differences (Helix Forms and Charge Included)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -144,9 +148,10 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## DNA Base Composition Using Chargaff's Rules (5 Choices)
+## DNA Base Composition Using Chargaff&#x27;s Rules (5 Choices)
 
 <div id="chargaff_dna_percent-5_choices-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-chargaff_dna_percent-5_choices-questions.txt" download title="Download bbq-chargaff_dna_percent-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-chargaff_dna_percent-5_choices-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -165,7 +170,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      DNA Base Composition Using Chargaff's Rules (5 Choices)
+      DNA Base Composition Using Chargaff&#x27;s Rules (5 Choices)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -176,9 +181,10 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## Restriction Digest Band Sizes for Circular DNA (10 kb, 2 Sites)
+## Restriction Fragment Sizes from Circular DNA Maps (10 kb, 2 Sites)
 
 <div id="circular_digest-length_10-sites_2_selected-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-circular_digest-length_10-sites_2_selected-questions.txt" download title="Download bbq-circular_digest-length_10-sites_2_selected-questions.txt" aria-label="Click to download the BBQ Text file (bbq-circular_digest-length_10-sites_2_selected-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -197,7 +203,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Digest Band Sizes for Circular DNA (10 kb, 2 Sites)
+      Restriction Fragment Sizes from Circular DNA Maps (10 kb, 2 Sites)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -208,9 +214,10 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## Band Sizes from Circular DNA Restriction Digests (12 kb, 3 Sites)
+## Restriction Fragment Sizes from Circular DNA Maps (12 kb, 3 Sites)
 
 <div id="circular_digest-length_12-sites_3_selected-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-circular_digest-length_12-sites_3_selected-questions.txt" download title="Download bbq-circular_digest-length_12-sites_3_selected-questions.txt" aria-label="Click to download the BBQ Text file (bbq-circular_digest-length_12-sites_3_selected-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -229,7 +236,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Band Sizes from Circular DNA Restriction Digests (12 kb, 3 Sites)
+      Restriction Fragment Sizes from Circular DNA Maps (12 kb, 3 Sites)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -243,6 +250,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 ## Restriction Fragment Sizes from Circular DNA Maps (16 kb, 3 Sites)
 
 <div id="circular_digest-length_16-sites_3_selected-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-circular_digest-length_16-sites_3_selected-questions.txt" download title="Download bbq-circular_digest-length_16-sites_3_selected-questions.txt" aria-label="Click to download the BBQ Text file (bbq-circular_digest-length_16-sites_3_selected-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -275,6 +283,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 ## Complementary DNA Sequences Without Direction Labels
 
 <div id="complementary_sequences-mc-directionless-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-complementary_sequences-mc-directionless-questions.txt" download title="Download bbq-complementary_sequences-mc-directionless-questions.txt" aria-label="Click to download the BBQ Text file (bbq-complementary_sequences-mc-directionless-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -304,9 +313,10 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## Complementary DNA Sequences with 5' and 3' Direction Labels
+## Complementary DNA Sequences with 5&#x27; and 3&#x27; Direction Labels
 
 <div id="complementary_sequences-mc-prime-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-complementary_sequences-mc-prime-questions.txt" download title="Download bbq-complementary_sequences-mc-prime-questions.txt" aria-label="Click to download the BBQ Text file (bbq-complementary_sequences-mc-prime-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -325,7 +335,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Complementary DNA Sequences with 5' and 3' Direction Labels
+      Complementary DNA Sequences with 5&#x27; and 3&#x27; Direction Labels
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -336,9 +346,10 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## DNA Fragment Sizes from Single Restriction Enzyme Digests (10 kb Linear Map, 2 Sites)
+## Restriction Fragment Sizes from Linear DNA Maps (10 kb, 2 Sites, Fragment Diagram)
 
 <div id="linear_digest-len_10-sites_2-fragment-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-linear_digest-len_10-sites_2-fragment-questions.txt" download title="Download bbq-linear_digest-len_10-sites_2-fragment-questions.txt" aria-label="Click to download the BBQ Text file (bbq-linear_digest-len_10-sites_2-fragment-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -357,7 +368,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      DNA Fragment Sizes from Single Restriction Enzyme Digests (10 kb Linear Map, 2 Sites)
+      Restriction Fragment Sizes from Linear DNA Maps (10 kb, 2 Sites, Fragment Diagram)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -368,9 +379,10 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## Restriction Digest Fragment Sizes on a Linear DNA Map (10 kb, 3 Sites)
+## Restriction Fragment Sizes from Linear DNA Maps (10 kb, 3 Sites, Strand Diagram)
 
 <div id="linear_digest-len_10-sites_3-strand-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-linear_digest-len_10-sites_3-strand-questions.txt" download title="Download bbq-linear_digest-len_10-sites_3-strand-questions.txt" aria-label="Click to download the BBQ Text file (bbq-linear_digest-len_10-sites_3-strand-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -389,7 +401,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Digest Fragment Sizes on a Linear DNA Map (10 kb, 3 Sites)
+      Restriction Fragment Sizes from Linear DNA Maps (10 kb, 3 Sites, Strand Diagram)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -400,9 +412,10 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## Restriction Digest Band Sizes of a Linear DNA Fragment (12 kb, 3 Sites)
+## Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Fragment Diagram)
 
 <div id="linear_digest-len_12-sites_3-fragment-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-linear_digest-len_12-sites_3-fragment-questions.txt" download title="Download bbq-linear_digest-len_12-sites_3-fragment-questions.txt" aria-label="Click to download the BBQ Text file (bbq-linear_digest-len_12-sites_3-fragment-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -421,7 +434,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Digest Band Sizes of a Linear DNA Fragment (12 kb, 3 Sites)
+      Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Fragment Diagram)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -432,9 +445,10 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## Restriction Digest Fragment Sizes on a Linear DNA Map (12 kb, 3 Sites)
+## Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Strand Diagram)
 
 <div id="linear_digest-len_12-sites_3-strand-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-linear_digest-len_12-sites_3-strand-questions.txt" download title="Download bbq-linear_digest-len_12-sites_3-strand-questions.txt" aria-label="Click to download the BBQ Text file (bbq-linear_digest-len_12-sites_3-strand-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -453,7 +467,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Digest Fragment Sizes on a Linear DNA Map (12 kb, 3 Sites)
+      Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Strand Diagram)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -464,9 +478,10 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## Restriction Fragment Sizes from Linear DNA Maps (16 kb, 4 Sites)
+## Restriction Fragment Sizes from Linear DNA Maps (16 kb, 4 Sites, Fragment Diagram)
 
 <div id="linear_digest-len_16-sites_4-fragment-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-linear_digest-len_16-sites_4-fragment-questions.txt" download title="Download bbq-linear_digest-len_16-sites_4-fragment-questions.txt" aria-label="Click to download the BBQ Text file (bbq-linear_digest-len_16-sites_4-fragment-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -485,7 +500,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Fragment Sizes from Linear DNA Maps (16 kb, 4 Sites)
+      Restriction Fragment Sizes from Linear DNA Maps (16 kb, 4 Sites, Fragment Diagram)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -496,9 +511,10 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## Restriction Digest Band Sizes from Linear DNA Maps (16 kb, 4 Sites)
+## Restriction Fragment Sizes from Linear DNA Maps (16 kb, 4 Sites, Strand Diagram)
 
 <div id="linear_digest-len_16-sites_4-strand-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-linear_digest-len_16-sites_4-strand-questions.txt" download title="Download bbq-linear_digest-len_16-sites_4-strand-questions.txt" aria-label="Click to download the BBQ Text file (bbq-linear_digest-len_16-sites_4-strand-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -517,7 +533,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Digest Band Sizes from Linear DNA Maps (16 kb, 4 Sites)
+      Restriction Fragment Sizes from Linear DNA Maps (16 kb, 4 Sites, Strand Diagram)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -528,9 +544,10 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## Restriction Digests: Determining DNA Band Sizes (10 kb, Strand Diagram)
+## Restriction Fragment Sizes from Linear DNA Maps (10 kb, 3 Sites, Strand Diagram)
 
 <div id="linear_digest-length_10-sites_3-strand-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-linear_digest-length_10-sites_3-strand-questions.txt" download title="Download bbq-linear_digest-length_10-sites_3-strand-questions.txt" aria-label="Click to download the BBQ Text file (bbq-linear_digest-length_10-sites_3-strand-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -549,7 +566,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Digests: Determining DNA Band Sizes (10 kb, Strand Diagram)
+      Restriction Fragment Sizes from Linear DNA Maps (10 kb, 3 Sites, Strand Diagram)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -560,9 +577,10 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## Restriction Digests: Determining DNA Band Sizes (13 kb, Fragment Diagram)
+## Restriction Fragment Sizes from Linear DNA Maps (13 kb, 3 Sites, Fragment Diagram)
 
 <div id="linear_digest-length_13-sites_3-fragment-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-linear_digest-length_13-sites_3-fragment-questions.txt" download title="Download bbq-linear_digest-length_13-sites_3-fragment-questions.txt" aria-label="Click to download the BBQ Text file (bbq-linear_digest-length_13-sites_3-fragment-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -581,7 +599,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Digests: Determining DNA Band Sizes (13 kb, Fragment Diagram)
+      Restriction Fragment Sizes from Linear DNA Maps (13 kb, 3 Sites, Fragment Diagram)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -592,9 +610,10 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## Restriction Digests: Determining DNA Band Sizes (16 kb, Strand Diagram)
+## Restriction Fragment Sizes from Linear DNA Maps (16 kb, 4 Sites, Strand Diagram)
 
 <div id="linear_digest-length_16-sites_4-strand-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-linear_digest-length_16-sites_4-strand-questions.txt" download title="Download bbq-linear_digest-length_16-sites_4-strand-questions.txt" aria-label="Click to download the BBQ Text file (bbq-linear_digest-length_16-sites_4-strand-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -613,7 +632,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Digests: Determining DNA Band Sizes (16 kb, Strand Diagram)
+      Restriction Fragment Sizes from Linear DNA Maps (16 kb, 4 Sites, Strand Diagram)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -624,9 +643,10 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## Restriction Digests: Determining DNA Band Sizes (8 kb, Fragment Diagram)
+## Restriction Fragment Sizes from Linear DNA Maps (8 kb, 2 Sites, Fragment Diagram)
 
 <div id="linear_digest-length_8-sites_2-fragment-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-linear_digest-length_8-sites_2-fragment-questions.txt" download title="Download bbq-linear_digest-length_8-sites_2-fragment-questions.txt" aria-label="Click to download the BBQ Text file (bbq-linear_digest-length_8-sites_2-fragment-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -645,7 +665,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Digests: Determining DNA Band Sizes (8 kb, Fragment Diagram)
+      Restriction Fragment Sizes from Linear DNA Maps (8 kb, 2 Sites, Fragment Diagram)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -659,6 +679,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 ## Restriction Enzyme Overhang Sequences
 
 <div id="overhang_sequence-mc-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-overhang_sequence-mc-questions.txt" download title="Download bbq-overhang_sequence-mc-questions.txt" aria-label="Click to download the BBQ Text file (bbq-overhang_sequence-mc-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -688,9 +709,10 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## Restriction Enzyme Cut Types (5', 3', or Blunt)
+## Restriction Enzyme Cut Types (5&#x27;, 3&#x27;, or Blunt)
 
 <div id="overhang_type-5_3_blunt-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-overhang_type-5_3_blunt-questions.txt" download title="Download bbq-overhang_type-5_3_blunt-questions.txt" aria-label="Click to download the BBQ Text file (bbq-overhang_type-5_3_blunt-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -709,7 +731,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Enzyme Cut Types (5', 3', or Blunt)
+      Restriction Enzyme Cut Types (5&#x27;, 3&#x27;, or Blunt)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -720,9 +742,10 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## Restriction Enzyme Cuts: Identifying Blunt or Sticky Ends
+## Restriction Enzyme Cut Types (Blunt or Sticky)
 
 <div id="overhang_type-blunt_v_sticky-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-overhang_type-blunt_v_sticky-questions.txt" download title="Download bbq-overhang_type-blunt_v_sticky-questions.txt" aria-label="Click to download the BBQ Text file (bbq-overhang_type-blunt_v_sticky-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -741,7 +764,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Enzyme Cuts: Identifying Blunt or Sticky Ends
+      Restriction Enzyme Cut Types (Blunt or Sticky)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -755,6 +778,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 ## Palindromic DNA Sequence Completion
 
 <div id="palindrome_sequence_match-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-palindrome_sequence_match-questions.txt" download title="Download bbq-palindrome_sequence_match-questions.txt" aria-label="Click to download the BBQ Text file (bbq-palindrome_sequence_match-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>

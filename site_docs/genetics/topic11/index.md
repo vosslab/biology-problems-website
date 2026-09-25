@@ -4,9 +4,10 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 
 **LibreTexts reference:** [Chapter 11: Gene Trees and Relationships](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/11:_Gene_Trees_and_Relationships) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/11:_Gene_Trees_and_Relationships" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 11" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
-## Gene Trees from Distance Matrices (Level 1)
+## Phylogenetic Trees from Distance Matrices (3 Taxa)
 
 <div id="gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1-questions.txt" download title="Download bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1-questions.txt" aria-label="Click to download the BBQ Text file (bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -25,7 +26,7 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Gene Trees from Distance Matrices (Level 1)
+      Phylogenetic Trees from Distance Matrices (3 Taxa)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -36,9 +37,10 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 </details>
 
 
-## Gene Trees from Distance Matrices (Level 2)
+## Phylogenetic Trees from Distance Matrices (4 Taxa)
 
 <div id="gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2-questions.txt" download title="Download bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2-questions.txt" aria-label="Click to download the BBQ Text file (bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -57,7 +59,7 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Gene Trees from Distance Matrices (Level 2)
+      Phylogenetic Trees from Distance Matrices (4 Taxa)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -68,9 +70,10 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 </details>
 
 
-## Gene Trees from Distance Matrices (Level 3)
+## Phylogenetic Trees from Distance Matrices (5 Taxa)
 
 <div id="gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3-questions.txt" download title="Download bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3-questions.txt" aria-label="Click to download the BBQ Text file (bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -89,7 +92,7 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Gene Trees from Distance Matrices (Level 3)
+      Phylogenetic Trees from Distance Matrices (5 Taxa)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -100,9 +103,10 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 </details>
 
 
-## Gene Trees from Distance Matrices (Level 4)
+## Phylogenetic Trees from Distance Matrices (6 Taxa)
 
 <div id="gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4-questions.txt" download title="Download bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4-questions.txt" aria-label="Click to download the BBQ Text file (bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -121,7 +125,7 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Gene Trees from Distance Matrices (Level 4)
+      Phylogenetic Trees from Distance Matrices (6 Taxa)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -132,9 +136,10 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 </details>
 
 
-## Gene Trees from Distance Matrices (Level 5)
+## Phylogenetic Trees from Distance Matrices (7 Taxa)
 
 <div id="gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5-questions.txt" download title="Download bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5-questions.txt" aria-label="Click to download the BBQ Text file (bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -153,7 +158,7 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Gene Trees from Distance Matrices (Level 5)
+      Phylogenetic Trees from Distance Matrices (7 Taxa)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -164,9 +169,10 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 </details>
 
 
-## Non-Equivalent Phylogenetic Tree Structures (EASY)
+## Non-Equivalent Phylogenetic Tree Structures (Easy)
 
 <div id="gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level-questions.txt" download title="Download bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level-questions.txt" aria-label="Click to download the BBQ Text file (bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -185,7 +191,7 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Non-Equivalent Phylogenetic Tree Structures (EASY)
+      Non-Equivalent Phylogenetic Tree Structures (Easy)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -196,9 +202,10 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 </details>
 
 
-## Non-Equivalent Phylogenetic Tree Structures (MEDIUM)
+## Non-Equivalent Phylogenetic Tree Structures (Medium)
 
 <div id="gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level-questions.txt" download title="Download bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level-questions.txt" aria-label="Click to download the BBQ Text file (bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -217,7 +224,7 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Non-Equivalent Phylogenetic Tree Structures (MEDIUM)
+      Non-Equivalent Phylogenetic Tree Structures (Medium)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -228,9 +235,10 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 </details>
 
 
-## Equivalent Phylogenetic Tree Structures (EASY)
+## Equivalent Phylogenetic Tree Structures (Easy)
 
 <div id="gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level-questions.txt" download title="Download bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level-questions.txt" aria-label="Click to download the BBQ Text file (bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -249,7 +257,7 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Equivalent Phylogenetic Tree Structures (EASY)
+      Equivalent Phylogenetic Tree Structures (Easy)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -260,9 +268,10 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 </details>
 
 
-## Equivalent Phylogenetic Tree Structures (MEDIUM)
+## Equivalent Phylogenetic Tree Structures (Medium)
 
 <div id="gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level-questions.txt" download title="Download bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level-questions.txt" aria-label="Click to download the BBQ Text file (bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -281,7 +290,7 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Equivalent Phylogenetic Tree Structures (MEDIUM)
+      Equivalent Phylogenetic Tree Structures (Medium)
     </span>
     <span style='font-weight: normal;'>
       example problem

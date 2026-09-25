@@ -5,6 +5,7 @@ Students perform single-step dilution calculations using c1V1 = c2V2, determine 
 ## Aliquot Volumes for Dilutions
 
 <div id="dilution_factor_aliquot_numeric-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-dilution_factor_aliquot_numeric-questions.txt" download title="Download bbq-dilution_factor_aliquot_numeric-questions.txt" aria-label="Click to download the BBQ Text file (bbq-dilution_factor_aliquot_numeric-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -34,9 +35,10 @@ Students perform single-step dilution calculations using c1V1 = c2V2, determine 
 </details>
 
 
-## Dilution Factors for Solutions
+## Dilution Factor Calculations
 
 <div id="dilution_factor_calc_numeric-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-dilution_factor_calc_numeric-questions.txt" download title="Download bbq-dilution_factor_calc_numeric-questions.txt" aria-label="Click to download the BBQ Text file (bbq-dilution_factor_calc_numeric-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -55,7 +57,7 @@ Students perform single-step dilution calculations using c1V1 = c2V2, determine 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Dilution Factors for Solutions
+      Dilution Factor Calculations
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -69,6 +71,7 @@ Students perform single-step dilution calculations using c1V1 = c2V2, determine 
 ## Diluent Volumes for Dilutions
 
 <div id="dilution_factor_diluent_numeric-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-dilution_factor_diluent_numeric-questions.txt" download title="Download bbq-dilution_factor_diluent_numeric-questions.txt" aria-label="Click to download the BBQ Text file (bbq-dilution_factor_diluent_numeric-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -98,9 +101,10 @@ Students perform single-step dilution calculations using c1V1 = c2V2, determine 
 </details>
 
 
-## Dilution Factors
+## Aliquot and Diluent Volumes from Dilution Factors
 
 <div id="dilution_factor_mc-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-dilution_factor_mc-questions.txt" download title="Download bbq-dilution_factor_mc-questions.txt" aria-label="Click to download the BBQ Text file (bbq-dilution_factor_mc-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -119,7 +123,7 @@ Students perform single-step dilution calculations using c1V1 = c2V2, determine 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Dilution Factors
+      Aliquot and Diluent Volumes from Dilution Factors
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -133,6 +137,7 @@ Students perform single-step dilution calculations using c1V1 = c2V2, determine 
 ## Aliquot Volumes from Stock Solutions
 
 <div id="percent_dilution_aliquot_numeric-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-percent_dilution_aliquot_numeric-questions.txt" download title="Download bbq-percent_dilution_aliquot_numeric-questions.txt" aria-label="Click to download the BBQ Text file (bbq-percent_dilution_aliquot_numeric-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>

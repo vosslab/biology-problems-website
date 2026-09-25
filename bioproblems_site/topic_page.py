@@ -7,6 +7,7 @@ No argparse here; the public parser lives in build_site.py.
 """
 
 # Standard Library
+import html
 import os
 import re
 import glob
@@ -32,6 +33,7 @@ from bioproblems_site.topic_metadata import (
 import bioproblems_site.download_buttons as download_buttons
 import bioproblems_site.build_progress as build_progress
 import bioproblems_site.problem_set_title
+import bioproblems_site.problem_set_display as problem_set_display
 
 #==============
 
@@ -364,6 +366,7 @@ def generate_download_button_row(
 	render_missing_download_links: bool = False,
 	capture_output: bool = False,
 	progress: build_progress.BuildProgress | None = None,
+	question_type_badge: str = '',
 ) -> str:
 	"""
 	Generates a row of HTML buttons for downloading various file types.
@@ -373,6 +376,8 @@ def generate_download_button_row(
 			print(color_text("  Downloads disabled for this page.", COLOR_YELLOW))
 		for format_key in DOWNLOAD_FORMAT_KEYS:
 			record_stat(stats, format_key, "skipped")
+		if question_type_badge:
+			return f'<div class="button-container">{question_type_badge}</div>\n'
 		return ""
 
 	# Define file types with their prefixes, suffixes, and button classes
@@ -416,6 +421,8 @@ def generate_download_button_row(
 
 	# Initialize the HTML output string
 	html_output = f'<div id="{bbq_core_name}-button-container" class="button-container">\n'
+	if question_type_badge:
+		html_output += f'{question_type_badge}\n'
 
 	# Generate a button for each file type
 	for type_key, file_type in file_types.items():
@@ -850,7 +857,11 @@ def update_index_md(
 			print(color_text(f"  Problem set title: {problem_set_title}", COLOR_CYAN))
 
 			# Add content to the index.md file
-			index_md.write(f"## {problem_set_title}\n\n")
+			index_md.write(f"## {problem_set_display.render_title(problem_set_title)}\n\n")
+			display_title, _question_types = problem_set_display.split_title(problem_set_title)
+			question_type_badge = problem_set_display.render_badges(
+				problem_set_title, source_path=bbq_file,
+			)
 			download_button_row = generate_download_button_row(
 				bbq_file,
 				download_formats,
@@ -859,6 +870,7 @@ def update_index_md(
 				stats,
 				generate_downloads=generate_downloads,
 				render_missing_download_links=render_missing_download_links,
+				question_type_badge=question_type_badge,
 			)
 			index_md.write(download_button_row)
 			index_md.write("<details>\n")
@@ -867,7 +879,7 @@ def update_index_md(
 			index_md.write("       to show\n")
 			index_md.write("    </span>\n")
 			index_md.write("    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>\n")
-			index_md.write(f"      {problem_set_title}\n")
+			index_md.write(f"      {html.escape(display_title)}\n")
 			index_md.write("    </span>\n")
 			index_md.write("    <span style='font-weight: normal;'>\n")
 			index_md.write("      example problem\n")

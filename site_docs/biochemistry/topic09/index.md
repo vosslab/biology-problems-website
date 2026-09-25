@@ -7,6 +7,7 @@ Students analyze allosteric regulation, cooperativity, and sigmoidal binding cur
 ## Allosteric Enzyme Models from Conformational Descriptions
 
 <div id="allosteric_enzyme_models-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-allosteric_enzyme_models-questions.txt" download title="Download bbq-allosteric_enzyme_models-questions.txt" aria-label="Click to download the BBQ Text file (bbq-allosteric_enzyme_models-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -39,9 +40,10 @@ Students analyze allosteric regulation, cooperativity, and sigmoidal binding cur
 </details>
 
 
-## Effects on Metabolite Production from Enzyme Inactivation
+## Metabolic Regulation in Converging Pathways
 
 <div id="feedback_merging_pathway-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-feedback_merging_pathway-questions.txt" download title="Download bbq-feedback_merging_pathway-questions.txt" aria-label="Click to download the BBQ Text file (bbq-feedback_merging_pathway-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -63,7 +65,7 @@ Students analyze allosteric regulation, cooperativity, and sigmoidal binding cur
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Effects on Metabolite Production from Enzyme Inactivation
+      Metabolic Regulation in Converging Pathways
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -74,9 +76,10 @@ Students analyze allosteric regulation, cooperativity, and sigmoidal binding cur
 </details>
 
 
-## Effects of Enzyme Inhibition on Metabolite Production
+## Metabolic Regulation in Diverging Pathways
 
 <div id="feedback_splitting_pathway-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-feedback_splitting_pathway-questions.txt" download title="Download bbq-feedback_splitting_pathway-questions.txt" aria-label="Click to download the BBQ Text file (bbq-feedback_splitting_pathway-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -98,7 +101,7 @@ Students analyze allosteric regulation, cooperativity, and sigmoidal binding cur
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Effects of Enzyme Inhibition on Metabolite Production
+      Metabolic Regulation in Diverging Pathways
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -112,6 +115,7 @@ Students analyze allosteric regulation, cooperativity, and sigmoidal binding cur
 ## Hemoglobin Oxygen Affinity Under Different Conditions
 
 <div id="hemoglobin_oxygen_affinity-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-hemoglobin_oxygen_affinity-questions.txt" download title="Download bbq-hemoglobin_oxygen_affinity-questions.txt" aria-label="Click to download the BBQ Text file (bbq-hemoglobin_oxygen_affinity-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -147,6 +151,7 @@ Students analyze allosteric regulation, cooperativity, and sigmoidal binding cur
 ## Allosteric Enzymes in Metabolic Pathways
 
 <div id="metabolic_pathway_allosteric-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-metabolic_pathway_allosteric-questions.txt" download title="Download bbq-metabolic_pathway_allosteric-questions.txt" aria-label="Click to download the BBQ Text file (bbq-metabolic_pathway_allosteric-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>

@@ -2,9 +2,10 @@
 
 Students prepare solutions from solids or stock reagents by calculating grams needed for a target molarity, using formula weight, and converting between mass concentration, percent w/v, percent v/v, and molarity.
 
-## Mass for a Target Concentration
+## Solute Mass from Mass Concentration
 
 <div id="solution-mass_concentration-numeric-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-solution-mass_concentration-numeric-questions.txt" download title="Download bbq-solution-mass_concentration-numeric-questions.txt" aria-label="Click to download the BBQ Text file (bbq-solution-mass_concentration-numeric-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -23,7 +24,7 @@ Students prepare solutions from solids or stock reagents by calculating grams ne
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Mass for a Target Concentration
+      Solute Mass from Mass Concentration
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -37,6 +38,7 @@ Students prepare solutions from solids or stock reagents by calculating grams ne
 ## Mass for Weight/Volume Solutions
 
 <div id="solution-mass_vol-numeric-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-solution-mass_vol-numeric-questions.txt" download title="Download bbq-solution-mass_vol-numeric-questions.txt" aria-label="Click to download the BBQ Text file (bbq-solution-mass_vol-numeric-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -69,6 +71,7 @@ Students prepare solutions from solids or stock reagents by calculating grams ne
 ## Mass for Solutions Using Molarity and Molecular Weight
 
 <div id="solution-molarity-mol_weight-numeric-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-solution-molarity-mol_weight-numeric-questions.txt" download title="Download bbq-solution-molarity-mol_weight-numeric-questions.txt" aria-label="Click to download the BBQ Text file (bbq-solution-molarity-mol_weight-numeric-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -101,6 +104,7 @@ Students prepare solutions from solids or stock reagents by calculating grams ne
 ## Solute Volume for Percent Volume/Volume Solutions
 
 <div id="solution-vol_vol-numeric-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-solution-vol_vol-numeric-questions.txt" download title="Download bbq-solution-vol_vol-numeric-questions.txt" aria-label="Click to download the BBQ Text file (bbq-solution-vol_vol-numeric-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>

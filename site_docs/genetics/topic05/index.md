@@ -7,6 +7,7 @@ Students determine how multiple genes interact to produce phenotypes, including 
 ## Possible Mother ABO Blood Types from Father and Child Types
 
 <div id="blood_type_mother-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-blood_type_mother-questions.txt" download title="Download bbq-blood_type_mother-questions.txt" aria-label="Click to download the BBQ Text file (bbq-blood_type_mother-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -39,6 +40,7 @@ Students determine how multiple genes interact to produce phenotypes, including 
 ## Possible ABO Blood Types of Offspring from Parent Blood Types
 
 <div id="blood_type_offspring-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-blood_type_offspring-questions.txt" download title="Download bbq-blood_type_offspring-questions.txt" aria-label="Click to download the BBQ Text file (bbq-blood_type_offspring-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -71,6 +73,7 @@ Students determine how multiple genes interact to produce phenotypes, including 
 ## Gene Interaction Types from Dihybrid Cross Ratios (4 Choices)
 
 <div id="dihybrid_cross_epistatic_gene_interactions-4_choices-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-dihybrid_cross_epistatic_gene_interactions-4_choices-questions.txt" download title="Download bbq-dihybrid_cross_epistatic_gene_interactions-4_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-dihybrid_cross_epistatic_gene_interactions-4_choices-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -103,6 +106,7 @@ Students determine how multiple genes interact to produce phenotypes, including 
 ## Dihybrid Cross Ratios from Epistatic Metabolic Pathways (4 Choices)
 
 <div id="dihybrid_cross_epistatic_gene_metabolics-4_choices-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-dihybrid_cross_epistatic_gene_metabolics-4_choices-questions.txt" download title="Download bbq-dihybrid_cross_epistatic_gene_metabolics-4_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-dihybrid_cross_epistatic_gene_metabolics-4_choices-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -132,9 +136,10 @@ Students determine how multiple genes interact to produce phenotypes, including 
 </details>
 
 
-## Test-Cross Ratios from Modified Epistatic F2 Ratios (Forward Direction, 6 Choices)
+## Test-Cross Ratios from Epistatic F2 Ratios (6 Choices)
 
 <div id="epistasis_test_cross-forward_direction-6_choices-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-epistasis_test_cross-forward_direction-6_choices-questions.txt" download title="Download bbq-epistasis_test_cross-forward_direction-6_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-epistasis_test_cross-forward_direction-6_choices-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -153,7 +158,7 @@ Students determine how multiple genes interact to produce phenotypes, including 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Test-Cross Ratios from Modified Epistatic F2 Ratios (Forward Direction, 6 Choices)
+      Test-Cross Ratios from Epistatic F2 Ratios (6 Choices)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -164,9 +169,10 @@ Students determine how multiple genes interact to produce phenotypes, including 
 </details>
 
 
-## Epistasis F2 Ratios from Modified Test-Cross Ratios (6 Choices)
+## Epistatic F2 Ratios from Test-Cross Ratios (6 Choices)
 
 <div id="epistasis_test_cross-inverse_direction-6_choices-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-epistasis_test_cross-inverse_direction-6_choices-questions.txt" download title="Download bbq-epistasis_test_cross-inverse_direction-6_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-epistasis_test_cross-inverse_direction-6_choices-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -185,7 +191,7 @@ Students determine how multiple genes interact to produce phenotypes, including 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Epistasis F2 Ratios from Modified Test-Cross Ratios (6 Choices)
+      Epistatic F2 Ratios from Test-Cross Ratios (6 Choices)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -199,6 +205,7 @@ Students determine how multiple genes interact to produce phenotypes, including 
 ## Lethal Allele Cross Ratios and Survival Fractions
 
 <div id="lethal_allele_survival-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-lethal_allele_survival-questions.txt" download title="Download bbq-lethal_allele_survival-questions.txt" aria-label="Click to download the BBQ Text file (bbq-lethal_allele_survival-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -231,6 +238,7 @@ Students determine how multiple genes interact to produce phenotypes, including 
 ## Unknown Parent Genotype from Monohybrid Offspring Counts
 
 <div id="monohybrid_litter_inference-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-monohybrid_litter_inference-questions.txt" download title="Download bbq-monohybrid_litter_inference-questions.txt" aria-label="Click to download the BBQ Text file (bbq-monohybrid_litter_inference-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -263,6 +271,7 @@ Students determine how multiple genes interact to produce phenotypes, including 
 ## Offspring Sex Distribution Using the Binomial Model
 
 <div id="probabiliy_of_progeny-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-probabiliy_of_progeny-questions.txt" download title="Download bbq-probabiliy_of_progeny-questions.txt" aria-label="Click to download the BBQ Text file (bbq-probabiliy_of_progeny-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -292,9 +301,10 @@ Students determine how multiple genes interact to produce phenotypes, including 
 </details>
 
 
-## Pedigree Inheritance Patterns (Multiple Choice)
+## Pedigree Inheritance Patterns
 
 <div id="write_pedigree_choice-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-write_pedigree_choice-questions.txt" download title="Download bbq-write_pedigree_choice-questions.txt" aria-label="Click to download the BBQ Text file (bbq-write_pedigree_choice-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -313,7 +323,7 @@ Students determine how multiple genes interact to produce phenotypes, including 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Pedigree Inheritance Patterns (Multiple Choice)
+      Pedigree Inheritance Patterns
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -324,9 +334,10 @@ Students determine how multiple genes interact to produce phenotypes, including 
 </details>
 
 
-## Matching Pedigrees to Inheritance Types
+## Pedigree Inheritance Patterns
 
 <div id="write_pedigree_match-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-write_pedigree_match-questions.txt" download title="Download bbq-write_pedigree_match-questions.txt" aria-label="Click to download the BBQ Text file (bbq-write_pedigree_match-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -345,7 +356,7 @@ Students determine how multiple genes interact to produce phenotypes, including 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Pedigrees to Inheritance Types
+      Pedigree Inheritance Patterns
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -356,9 +367,10 @@ Students determine how multiple genes interact to produce phenotypes, including 
 </details>
 
 
-## Pedigree Inheritance Patterns
+## Pedigree Inheritance Patterns (Random Pedigrees)
 
 <div id="write_pedigree_match_random-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-write_pedigree_match_random-questions.txt" download title="Download bbq-write_pedigree_match_random-questions.txt" aria-label="Click to download the BBQ Text file (bbq-write_pedigree_match_random-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -377,7 +389,7 @@ Students determine how multiple genes interact to produce phenotypes, including 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Pedigree Inheritance Patterns
+      Pedigree Inheritance Patterns (Random Pedigrees)
     </span>
     <span style='font-weight: normal;'>
       example problem

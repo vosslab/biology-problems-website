@@ -4,9 +4,10 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 
 **LibreTexts reference:** [Unit 2, Chapter 1: Enzyme Thermodynamics](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/02%3A_Unit_2_-_Enzymes/2.01%3A_Enzyme_Thermodynamics) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/02%3A_Unit_2_-_Enzymes/2.01%3A_Enzyme_Thermodynamics" target="_blank" rel="noopener" aria-label="LibreTexts Unit 2, Chapter 1" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
-## Matching Energy Terms to Requirement Categories
+## Energy-Requiring and Energy-Releasing Processes
 
 <div id="MATCH-energy_terms-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-energy_terms-questions.txt" download title="Download bbq-MATCH-energy_terms-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-energy_terms-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -28,7 +29,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Energy Terms to Requirement Categories
+      Energy-Requiring and Energy-Releasing Processes
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -39,9 +40,10 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 </details>
 
 
-## Matching Enzyme Catalysis Terms to Definitions
+## Enzyme Catalysis Terms from Definitions
 
 <div id="MATCH-enzyme_terminology-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-enzyme_terminology-questions.txt" download title="Download bbq-MATCH-enzyme_terminology-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-enzyme_terminology-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -63,7 +65,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Enzyme Catalysis Terms to Definitions
+      Enzyme Catalysis Terms from Definitions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -74,9 +76,10 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 </details>
 
 
-## True/False Statements About Chemical Reactions
+## Chemical Reactions
 
 <div id="TFMS-chemical_reactions-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-chemical_reactions-questions.txt" download title="Download bbq-TFMS-chemical_reactions-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-chemical_reactions-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -98,7 +101,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Chemical Reactions
+      Chemical Reactions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -109,9 +112,10 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 </details>
 
 
-## True/False Statements About Enzyme Cofactors
+## Enzyme Cofactor Identification
 
 <div id="TFMS-enzyme_cofactors-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-enzyme_cofactors-questions.txt" download title="Download bbq-TFMS-enzyme_cofactors-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-enzyme_cofactors-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -133,7 +137,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Enzyme Cofactors
+      Enzyme Cofactor Identification
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -144,9 +148,10 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 </details>
 
 
-## True/False Statements About Enzyme Equilibrium and Kinetics
+## Enzyme Equilibrium and Kinetics
 
 <div id="TFMS-enzyme_equilibrium-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-enzyme_equilibrium-questions.txt" download title="Download bbq-TFMS-enzyme_equilibrium-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-enzyme_equilibrium-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -168,7 +173,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Enzyme Equilibrium and Kinetics
+      Enzyme Equilibrium and Kinetics
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -179,9 +184,10 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 </details>
 
 
-## True/False Statements About Gibbs Free Energy (Delta G = Delta H - T Delta S)
+## Gibbs Free Energy (Delta G = Delta H - T Delta S)
 
 <div id="TFMS-gibbs_free_energy_equation-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-gibbs_free_energy_equation-questions.txt" download title="Download bbq-TFMS-gibbs_free_energy_equation-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-gibbs_free_energy_equation-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -203,7 +209,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Gibbs Free Energy (Delta G = Delta H - T Delta S)
+      Gibbs Free Energy (Delta G = Delta H - T Delta S)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -214,9 +220,10 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 </details>
 
 
-## True/False Statements About Potential and Kinetic Energy
+## Potential and Kinetic Energy Examples
 
 <div id="TFMS-potential_v_kinetic_energy-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-potential_v_kinetic_energy-questions.txt" download title="Download bbq-TFMS-potential_v_kinetic_energy-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-potential_v_kinetic_energy-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -238,7 +245,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Potential and Kinetic Energy
+      Potential and Kinetic Energy Examples
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -249,9 +256,10 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 </details>
 
 
-## True/False Statements About Thermodynamics and Kinetics
+## Thermodynamics and Kinetics
 
 <div id="TFMS-thermodynamics-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-thermodynamics-questions.txt" download title="Download bbq-TFMS-thermodynamics-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-thermodynamics-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -273,7 +281,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Thermodynamics and Kinetics
+      Thermodynamics and Kinetics
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -284,9 +292,10 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 </details>
 
 
-## True/False Statements About Enzyme Naming Patterns
+## Enzyme Naming Patterns
 
 <div id="TFMS-which_enzyme-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-which_enzyme-questions.txt" download title="Download bbq-TFMS-which_enzyme-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-which_enzyme-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -308,7 +317,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Enzyme Naming Patterns
+      Enzyme Naming Patterns
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -319,9 +328,10 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 </details>
 
 
-## Energy Requirement Categories from Energy Terms
+## Energy-Requiring and Energy-Releasing Processes
 
 <div id="WOMC-energy_terms-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-energy_terms-questions.txt" download title="Download bbq-WOMC-energy_terms-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-energy_terms-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -343,7 +353,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Energy Requirement Categories from Energy Terms
+      Energy-Requiring and Energy-Releasing Processes
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -357,6 +367,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 ## Enzyme Catalysis Terms from Definitions
 
 <div id="WOMC-enzyme_terminology-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-enzyme_terminology-questions.txt" download title="Download bbq-WOMC-enzyme_terminology-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-enzyme_terminology-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -392,6 +403,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 ## Biochemical vs Chemical Standard Free Energy States
 
 <div id="delta_g_prime_standard_state-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-delta_g_prime_standard_state-questions.txt" download title="Download bbq-delta_g_prime_standard_state-questions.txt" aria-label="Click to download the BBQ Text file (bbq-delta_g_prime_standard_state-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -427,6 +439,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 ## Exergonic and Endergonic Reaction Classification
 
 <div id="exergonic_endergonic_reactions-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-exergonic_endergonic_reactions-questions.txt" download title="Download bbq-exergonic_endergonic_reactions-questions.txt" aria-label="Click to download the BBQ Text file (bbq-exergonic_endergonic_reactions-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -462,6 +475,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 ## Gibbs Free Energy Change and Equilibrium Constant Relationships
 
 <div id="free_energy_keq_relationship-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-free_energy_keq_relationship-questions.txt" download title="Download bbq-free_energy_keq_relationship-questions.txt" aria-label="Click to download the BBQ Text file (bbq-free_energy_keq_relationship-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -497,6 +511,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 ## Gibbs Free Energy Equation Symbols and Meanings
 
 <div id="gibbs_free_energy_equation_symbols-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-gibbs_free_energy_equation_symbols-questions.txt" download title="Download bbq-gibbs_free_energy_equation_symbols-questions.txt" aria-label="Click to download the BBQ Text file (bbq-gibbs_free_energy_equation_symbols-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -532,6 +547,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 ## Thermodynamics Law Statements
 
 <div id="thermodynamics_law_statements-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-thermodynamics_law_statements-questions.txt" download title="Download bbq-thermodynamics_law_statements-questions.txt" aria-label="Click to download the BBQ Text file (bbq-thermodynamics_law_statements-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -567,6 +583,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 ## First and Second Laws of Thermodynamics for Different Systems
 
 <div id="thermodynamics_system_laws-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-thermodynamics_system_laws-questions.txt" download title="Download bbq-thermodynamics_system_laws-questions.txt" aria-label="Click to download the BBQ Text file (bbq-thermodynamics_system_laws-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>

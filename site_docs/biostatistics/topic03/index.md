@@ -2,9 +2,10 @@
 
 Students calculate mean, median, standard deviation, and variance, convert values to z-scores, and determine percentile ranks from sorted data.
 
-## Matching Measures of Center to Definitions
+## Measures of Center from Definitions
 
 <div id="MATCH-measures_of_center-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-measures_of_center-questions.txt" download title="Download bbq-MATCH-measures_of_center-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-measures_of_center-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -26,7 +27,7 @@ Students calculate mean, median, standard deviation, and variance, convert value
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Measures of Center to Definitions
+      Measures of Center from Definitions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -40,6 +41,7 @@ Students calculate mean, median, standard deviation, and variance, convert value
 ## Measures of Center from Definitions
 
 <div id="WOMC-measures_of_center-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-measures_of_center-questions.txt" download title="Download bbq-WOMC-measures_of_center-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-measures_of_center-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -75,6 +77,7 @@ Students calculate mean, median, standard deviation, and variance, convert value
 ## Descriptive Statistics Using Google Sheets
 
 <div id="descriptive_stats_google_sheet-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-multi-fib" title="Multiple Fill in the Blanks">Multi-FiB</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-descriptive_stats_google_sheet-questions.txt" download title="Download bbq-descriptive_stats_google_sheet-questions.txt" aria-label="Click to download the BBQ Text file (bbq-descriptive_stats_google_sheet-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>

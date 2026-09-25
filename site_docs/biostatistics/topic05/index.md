@@ -2,9 +2,10 @@
 
 Students formulate null and alternative hypotheses, interpret p-values and significance levels, and perform t-tests and ANOVA.
 
-## Matching Chi-Square Terms to Definitions
+## Chi-Square Terms from Definitions
 
 <div id="MATCH-chi-square_terms-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-chi-square_terms-questions.txt" download title="Download bbq-MATCH-chi-square_terms-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-chi-square_terms-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -26,7 +27,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Chi-Square Terms to Definitions
+      Chi-Square Terms from Definitions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -37,9 +38,10 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 </details>
 
 
-## Matching Hypothesis Tests to Their Descriptions
+## Hypothesis Tests from Descriptions
 
 <div id="MATCH-hypothesis_testing-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-hypothesis_testing-questions.txt" download title="Download bbq-MATCH-hypothesis_testing-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-hypothesis_testing-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -61,7 +63,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Hypothesis Tests to Their Descriptions
+      Hypothesis Tests from Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -72,9 +74,10 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 </details>
 
 
-## Matching Statistical Test Terms to Definitions
+## Statistical Test Terms from Definitions
 
 <div id="MATCH-statistical_test_terms-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-statistical_test_terms-questions.txt" download title="Download bbq-MATCH-statistical_test_terms-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-statistical_test_terms-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -96,7 +99,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Statistical Test Terms to Definitions
+      Statistical Test Terms from Definitions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -107,9 +110,10 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 </details>
 
 
-## True/False Statements About Chi-Square Tests
+## Chi-Square Tests
 
 <div id="TFMS-chi-square-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-chi-square-questions.txt" download title="Download bbq-TFMS-chi-square-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-chi-square-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -131,7 +135,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Chi-Square Tests
+      Chi-Square Tests
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -142,9 +146,10 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 </details>
 
 
-## True/False Statements About Statistical Tests
+## Statistical Tests
 
 <div id="TFMS-statistical_tests-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-statistical_tests-questions.txt" download title="Download bbq-TFMS-statistical_tests-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-statistical_tests-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -166,7 +171,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Statistical Tests
+      Statistical Tests
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -180,6 +185,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 ## Chi-Square Terms from Definitions
 
 <div id="WOMC-chi-square_terms-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-chi-square_terms-questions.txt" download title="Download bbq-WOMC-chi-square_terms-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-chi-square_terms-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -212,9 +218,10 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 </details>
 
 
-## Appropriate Hypothesis Tests for Mean Comparisons
+## Hypothesis Tests from Descriptions
 
 <div id="WOMC-hypothesis_testing-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-hypothesis_testing-questions.txt" download title="Download bbq-WOMC-hypothesis_testing-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-hypothesis_testing-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -236,7 +243,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Appropriate Hypothesis Tests for Mean Comparisons
+      Hypothesis Tests from Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -250,6 +257,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 ## Statistical Test Terms from Definitions
 
 <div id="WOMC-statistical_test_terms-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-statistical_test_terms-questions.txt" download title="Download bbq-WOMC-statistical_test_terms-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-statistical_test_terms-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -285,6 +293,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 ## Two-Sample t-Test P-Values
 
 <div id="babies_two_sample_t_test-tails1-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-babies_two_sample_t_test-tails1-questions.txt" download title="Download bbq-babies_two_sample_t_test-tails1-questions.txt" aria-label="Click to download the BBQ Text file (bbq-babies_two_sample_t_test-tails1-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -317,6 +326,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 ## Biodiversity Differences Using ANOVA
 
 <div id="busse_woods_anova-anova-5year-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-busse_woods_anova-anova-5year-questions.txt" download title="Download bbq-busse_woods_anova-anova-5year-questions.txt" aria-label="Click to download the BBQ Text file (bbq-busse_woods_anova-anova-5year-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -349,6 +359,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 ## Microbial Diversity Significance Using a Z-Test
 
 <div id="busse_woods_one_sample_tests-ztest-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-busse_woods_one_sample_tests-ztest-questions.txt" download title="Download bbq-busse_woods_one_sample_tests-ztest-questions.txt" aria-label="Click to download the BBQ Text file (bbq-busse_woods_one_sample_tests-ztest-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -381,6 +392,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 ## Statistical Significance Using a Two-Sample F-Test
 
 <div id="busse_woods_two_sample_f_test-tails1-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-busse_woods_two_sample_f_test-tails1-questions.txt" download title="Download bbq-busse_woods_two_sample_f_test-tails1-questions.txt" aria-label="Click to download the BBQ Text file (bbq-busse_woods_two_sample_f_test-tails1-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -413,6 +425,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 ## Statistical Significance Using a Two-Sample t-Test
 
 <div id="busse_woods_two_sample_t_test-tails1-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-busse_woods_two_sample_t_test-tails1-questions.txt" download title="Download bbq-busse_woods_two_sample_t_test-tails1-questions.txt" aria-label="Click to download the BBQ Text file (bbq-busse_woods_two_sample_t_test-tails1-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -445,6 +458,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 ## Chi-Square Values for Phenotypic Ratios
 
 <div id="chi_square_calculated-ACCEPT-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-chi_square_calculated-ACCEPT-questions.txt" download title="Download bbq-chi_square_calculated-ACCEPT-questions.txt" aria-label="Click to download the BBQ Text file (bbq-chi_square_calculated-ACCEPT-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -477,6 +491,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 ## Hypothesis Decisions from Chi-Square Tests
 
 <div id="chi_square_choices-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-chi_square_choices-questions.txt" download title="Download bbq-chi_square_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-chi_square_choices-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -509,6 +524,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 ## Errors in Chi-Square Calculations and Hypothesis Decisions
 
 <div id="chi_square_errors-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-chi_square_errors-questions.txt" download title="Download bbq-chi_square_errors-questions.txt" aria-label="Click to download the BBQ Text file (bbq-chi_square_errors-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -541,6 +557,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 ## Chi-Square Tests for Hardy-Weinberg Equilibrium
 
 <div id="chi_square_hardy_weinberg-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-chi_square_hardy_weinberg-questions.txt" download title="Download bbq-chi_square_hardy_weinberg-questions.txt" aria-label="Click to download the BBQ Text file (bbq-chi_square_hardy_weinberg-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -573,6 +590,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 ## Null and Alternative Hypotheses for Genetic Crosses
 
 <div id="chi_square_hypotheses-pair-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-chi_square_hypotheses-pair-questions.txt" download title="Download bbq-chi_square_hypotheses-pair-questions.txt" aria-label="Click to download the BBQ Text file (bbq-chi_square_hypotheses-pair-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -605,6 +623,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 ## Misstated Null Hypotheses for Genetic Ratios
 
 <div id="chi_square_hypotheses_lab_partner-hypotheses_partner-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt" download title="Download bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt" aria-label="Click to download the BBQ Text file (bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -637,6 +656,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 ## Flaws in Statistical Hypothesis Testing
 
 <div id="hypothesis_lab_partner-hypotheses_partner-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-hypothesis_lab_partner-hypotheses_partner-questions.txt" download title="Download bbq-hypothesis_lab_partner-hypotheses_partner-questions.txt" aria-label="Click to download the BBQ Text file (bbq-hypothesis_lab_partner-hypotheses_partner-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -669,6 +689,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 ## Null and Alternative Hypotheses in Statistical Tests
 
 <div id="hypothesis_statements-pair-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-hypothesis_statements-pair-questions.txt" download title="Download bbq-hypothesis_statements-pair-questions.txt" aria-label="Click to download the BBQ Text file (bbq-hypothesis_statements-pair-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -701,6 +722,7 @@ Students formulate null and alternative hypotheses, interpret p-values and signi
 ## Population Z-Test Using Google Sheets Data
 
 <div id="population_test_google_sheet-ztest-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-population_test_google_sheet-ztest-questions.txt" download title="Download bbq-population_test_google_sheet-ztest-questions.txt" aria-label="Click to download the BBQ Text file (bbq-population_test_google_sheet-ztest-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>

@@ -2,9 +2,10 @@
 
 DNA composition, base pairing, and double-helix structure.
 
-## True/False Statements About DNA Structure
+## DNA Structure (Expanded Set)
 
 <div id="TFMS-dna_structure-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-dna_structure-questions.txt" download title="Download bbq-TFMS-dna_structure-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-dna_structure-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -26,7 +27,7 @@ DNA composition, base pairing, and double-helix structure.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About DNA Structure
+      DNA Structure (Expanded Set)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -37,9 +38,10 @@ DNA composition, base pairing, and double-helix structure.
 </details>
 
 
-## True/False Statements About DNA Melting Temperature (Tm)
+## DNA Melting Temperature (Tm)
 
 <div id="TFMS-melting_Tm_type_1-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-melting_Tm_type_1-questions.txt" download title="Download bbq-TFMS-melting_Tm_type_1-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-melting_Tm_type_1-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -61,7 +63,7 @@ DNA composition, base pairing, and double-helix structure.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About DNA Melting Temperature (Tm)
+      DNA Melting Temperature (Tm)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -72,9 +74,10 @@ DNA composition, base pairing, and double-helix structure.
 </details>
 
 
-## True/False Statements About Factors That Increase DNA Melting Temperature (Tm)
+## DNA Melting Temperature (Factors That Increase Tm)
 
 <div id="TFMS-melting_Tm_type_2a-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-melting_Tm_type_2a-questions.txt" download title="Download bbq-TFMS-melting_Tm_type_2a-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-melting_Tm_type_2a-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -96,7 +99,7 @@ DNA composition, base pairing, and double-helix structure.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Factors That Increase DNA Melting Temperature (Tm)
+      DNA Melting Temperature (Factors That Increase Tm)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -107,9 +110,10 @@ DNA composition, base pairing, and double-helix structure.
 </details>
 
 
-## True/False Statements About Factors That Decrease DNA Melting Temperature (Tm)
+## DNA Melting Temperature (Factors That Decrease Tm)
 
 <div id="TFMS-melting_Tm_type_2b-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-melting_Tm_type_2b-questions.txt" download title="Download bbq-TFMS-melting_Tm_type_2b-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-melting_Tm_type_2b-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -131,7 +135,7 @@ DNA composition, base pairing, and double-helix structure.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Factors That Decrease DNA Melting Temperature (Tm)
+      DNA Melting Temperature (Factors That Decrease Tm)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -142,9 +146,10 @@ DNA composition, base pairing, and double-helix structure.
 </details>
 
 
-## True/False Statements About Nucleotide Components
+## Nucleotide Components
 
 <div id="TFMS-nucleotide_components-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-nucleotide_components-questions.txt" download title="Download bbq-TFMS-nucleotide_components-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-nucleotide_components-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -166,7 +171,7 @@ DNA composition, base pairing, and double-helix structure.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Nucleotide Components
+      Nucleotide Components
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -177,9 +182,10 @@ DNA composition, base pairing, and double-helix structure.
 </details>
 
 
-## True/False Statements About RNA and DNA Differences (BIOL 301)
+## RNA and DNA Differences (Core Set)
 
 <div id="TFMS-rna_v_dna-biol_301-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-rna_v_dna-biol_301-questions.txt" download title="Download bbq-TFMS-rna_v_dna-biol_301-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-rna_v_dna-biol_301-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -201,7 +207,7 @@ DNA composition, base pairing, and double-helix structure.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About RNA and DNA Differences (BIOL 301)
+      RNA and DNA Differences (Core Set)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -212,9 +218,10 @@ DNA composition, base pairing, and double-helix structure.
 </details>
 
 
-## True/False Statements About RNA and DNA Differences
+## RNA and DNA Differences (Helix Forms and Charge Included)
 
 <div id="TFMS-rna_v_dna-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-rna_v_dna-questions.txt" download title="Download bbq-TFMS-rna_v_dna-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-rna_v_dna-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -236,7 +243,7 @@ DNA composition, base pairing, and double-helix structure.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About RNA and DNA Differences
+      RNA and DNA Differences (Helix Forms and Charge Included)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -247,9 +254,10 @@ DNA composition, base pairing, and double-helix structure.
 </details>
 
 
-## DNA Base Composition Using Chargaff's Rules (5 Choices)
+## DNA Base Composition Using Chargaff&#x27;s Rules (5 Choices)
 
 <div id="chargaff_dna_percent-5_choices-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-chargaff_dna_percent-5_choices-questions.txt" download title="Download bbq-chargaff_dna_percent-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-chargaff_dna_percent-5_choices-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -268,7 +276,7 @@ DNA composition, base pairing, and double-helix structure.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      DNA Base Composition Using Chargaff's Rules (5 Choices)
+      DNA Base Composition Using Chargaff&#x27;s Rules (5 Choices)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -282,6 +290,7 @@ DNA composition, base pairing, and double-helix structure.
 ## Complementary DNA Sequences Without Direction Labels
 
 <div id="complementary_sequences-mc-directionless-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-complementary_sequences-mc-directionless-questions.txt" download title="Download bbq-complementary_sequences-mc-directionless-questions.txt" aria-label="Click to download the BBQ Text file (bbq-complementary_sequences-mc-directionless-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -314,6 +323,7 @@ DNA composition, base pairing, and double-helix structure.
 ## DNA Melting Temperature Extremes from Sequence (12 Bases)
 
 <div id="dna_melting_temp-len_12-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-dna_melting_temp-len_12-questions.txt" download title="Download bbq-dna_melting_temp-len_12-questions.txt" aria-label="Click to download the BBQ Text file (bbq-dna_melting_temp-len_12-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>

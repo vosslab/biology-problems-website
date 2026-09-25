@@ -2,9 +2,10 @@
 
 Replication machinery, origins, forks, and fidelity mechanisms.
 
-## Matching DNA Replication Enzymes to Functions (BIOL 301)
+## Bacterial DNA Replication Proteins and Functions (Topoisomerase Terminology)
 
 <div id="MATCH-dna_replication_enzymes-biol_301-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-dna_replication_enzymes-biol_301-questions.txt" download title="Download bbq-MATCH-dna_replication_enzymes-biol_301-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-dna_replication_enzymes-biol_301-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -26,7 +27,7 @@ Replication machinery, origins, forks, and fidelity mechanisms.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching DNA Replication Enzymes to Functions (BIOL 301)
+      Bacterial DNA Replication Proteins and Functions (Topoisomerase Terminology)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -37,9 +38,10 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 </details>
 
 
-## Matching DNA Replication Enzymes to Functions
+## Bacterial DNA Replication Proteins and Functions (Gyrase Terminology)
 
 <div id="MATCH-dna_replication_enzymes-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-dna_replication_enzymes-questions.txt" download title="Download bbq-MATCH-dna_replication_enzymes-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-dna_replication_enzymes-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -61,7 +63,7 @@ Replication machinery, origins, forks, and fidelity mechanisms.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching DNA Replication Enzymes to Functions
+      Bacterial DNA Replication Proteins and Functions (Gyrase Terminology)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -72,9 +74,10 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 </details>
 
 
-## True/False Statements About Bacterial DNA Replication (BIOL 301)
+## Bacterial DNA Replication (Topoisomerase Terminology)
 
 <div id="TFMS-dna_replication-biol_301-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-dna_replication-biol_301-questions.txt" download title="Download bbq-TFMS-dna_replication-biol_301-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-dna_replication-biol_301-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -96,7 +99,7 @@ Replication machinery, origins, forks, and fidelity mechanisms.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Bacterial DNA Replication (BIOL 301)
+      Bacterial DNA Replication (Topoisomerase Terminology)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -107,9 +110,10 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 </details>
 
 
-## True/False Statements About Bacterial DNA Replication
+## Bacterial DNA Replication (Gyrase Terminology)
 
 <div id="TFMS-dna_replication-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-dna_replication-questions.txt" download title="Download bbq-TFMS-dna_replication-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-dna_replication-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -131,7 +135,7 @@ Replication machinery, origins, forks, and fidelity mechanisms.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Bacterial DNA Replication
+      Bacterial DNA Replication (Gyrase Terminology)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -142,9 +146,10 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 </details>
 
 
-## True/False Statements About Leading and Lagging Strands
+## Leading and Lagging Strands
 
 <div id="TFMS-leading_v_lagging_strand-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-leading_v_lagging_strand-questions.txt" download title="Download bbq-TFMS-leading_v_lagging_strand-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-leading_v_lagging_strand-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -166,7 +171,7 @@ Replication machinery, origins, forks, and fidelity mechanisms.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Leading and Lagging Strands
+      Leading and Lagging Strands
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -177,9 +182,10 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 </details>
 
 
-## True/False Statements About DNA Polymerase Proofreading
+## DNA Polymerase Proofreading
 
 <div id="TFMS-proofreading-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-proofreading-questions.txt" download title="Download bbq-TFMS-proofreading-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-proofreading-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -201,7 +207,7 @@ Replication machinery, origins, forks, and fidelity mechanisms.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About DNA Polymerase Proofreading
+      DNA Polymerase Proofreading
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -212,9 +218,10 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 </details>
 
 
-## DNA Replication Enzymes from Functional Descriptions (BIOL 301)
+## Bacterial DNA Replication Proteins and Functions (Topoisomerase Terminology)
 
 <div id="WOMC-dna_replication_enzymes-biol_301-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-dna_replication_enzymes-biol_301-questions.txt" download title="Download bbq-WOMC-dna_replication_enzymes-biol_301-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-dna_replication_enzymes-biol_301-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -236,7 +243,7 @@ Replication machinery, origins, forks, and fidelity mechanisms.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      DNA Replication Enzymes from Functional Descriptions (BIOL 301)
+      Bacterial DNA Replication Proteins and Functions (Topoisomerase Terminology)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -247,9 +254,10 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 </details>
 
 
-## DNA Replication Enzymes from Functional Descriptions
+## Bacterial DNA Replication Proteins and Functions (Gyrase Terminology)
 
 <div id="WOMC-dna_replication_enzymes-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-dna_replication_enzymes-questions.txt" download title="Download bbq-WOMC-dna_replication_enzymes-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-dna_replication_enzymes-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -271,7 +279,7 @@ Replication machinery, origins, forks, and fidelity mechanisms.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      DNA Replication Enzymes from Functional Descriptions
+      Bacterial DNA Replication Proteins and Functions (Gyrase Terminology)
     </span>
     <span style='font-weight: normal;'>
       example problem

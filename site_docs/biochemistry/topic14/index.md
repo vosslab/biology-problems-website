@@ -4,9 +4,10 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 
 **LibreTexts reference:** [Unit 4, Chapter 1: Biochemistry of Our Senses](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/04%3A_Biochemistry_of_Our_Senses) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/04%3A_Biochemistry_of_Our_Senses" target="_blank" rel="noopener" aria-label="LibreTexts Unit 4, Chapter 1" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
-## Matching Sensory Modalities to Receptor Cell Types
+## Sensory Modalities from Receptor Cell Types
 
 <div id="MATCH-senses_receptor_types_by_modality-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-senses_receptor_types_by_modality-questions.txt" download title="Download bbq-MATCH-senses_receptor_types_by_modality-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-senses_receptor_types_by_modality-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -28,7 +29,7 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Sensory Modalities to Receptor Cell Types
+      Sensory Modalities from Receptor Cell Types
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -39,9 +40,10 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 </details>
 
 
-## Matching Sensory Signal Transduction Components to Functions
+## Sensory Signal Transduction Components from Functions
 
 <div id="MATCH-senses_signal_transduction_matching_set-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-senses_signal_transduction_matching_set-questions.txt" download title="Download bbq-MATCH-senses_signal_transduction_matching_set-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-senses_signal_transduction_matching_set-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -63,7 +65,7 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Sensory Signal Transduction Components to Functions
+      Sensory Signal Transduction Components from Functions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -74,9 +76,10 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 </details>
 
 
-## Matching Taste Qualities to Stimuli
+## Taste Qualities from Stimuli
 
 <div id="MATCH-senses_taste_quality_to_stimulus-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-senses_taste_quality_to_stimulus-questions.txt" download title="Download bbq-MATCH-senses_taste_quality_to_stimulus-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-senses_taste_quality_to_stimulus-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -98,7 +101,7 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Taste Qualities to Stimuli
+      Taste Qualities from Stimuli
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -109,9 +112,10 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 </details>
 
 
-## True/False Statements About Chemosensation (Smell and Taste)
+## Chemosensation (Smell and Taste)
 
 <div id="TFMS-senses_chemosensation_smell_taste-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-senses_chemosensation_smell_taste-questions.txt" download title="Download bbq-TFMS-senses_chemosensation_smell_taste-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-senses_chemosensation_smell_taste-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -133,7 +137,7 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Chemosensation (Smell and Taste)
+      Chemosensation (Smell and Taste)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -144,9 +148,10 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 </details>
 
 
-## True/False Statements About Sensory Coding (Smell vs. Taste)
+## Sensory Coding (Smell vs. Taste)
 
 <div id="TFMS-senses_smell_vs_taste-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-senses_smell_vs_taste-questions.txt" download title="Download bbq-TFMS-senses_smell_vs_taste-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-senses_smell_vs_taste-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -168,7 +173,7 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Sensory Coding (Smell vs. Taste)
+      Sensory Coding (Smell vs. Taste)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -179,9 +184,10 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 </details>
 
 
-## True/False Statements About Vision and Hearing Transduction
+## Vision and Hearing Transduction
 
 <div id="TFMS-senses_vision_hearing-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-senses_vision_hearing-questions.txt" download title="Download bbq-TFMS-senses_vision_hearing-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-senses_vision_hearing-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -203,7 +209,7 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Vision and Hearing Transduction
+      Vision and Hearing Transduction
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -214,9 +220,10 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 </details>
 
 
-## Receptor Cell Types from Sensory Modalities
+## Sensory Modalities from Receptor Cell Types
 
 <div id="WOMC-senses_receptor_types_by_modality-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-senses_receptor_types_by_modality-questions.txt" download title="Download bbq-WOMC-senses_receptor_types_by_modality-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-senses_receptor_types_by_modality-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -238,7 +245,7 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Receptor Cell Types from Sensory Modalities
+      Sensory Modalities from Receptor Cell Types
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -249,9 +256,10 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 </details>
 
 
-## Sensory Signal Transduction Components from Functional Descriptions
+## Sensory Signal Transduction Components from Functions
 
 <div id="WOMC-senses_signal_transduction_matching_set-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-senses_signal_transduction_matching_set-questions.txt" download title="Download bbq-WOMC-senses_signal_transduction_matching_set-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-senses_signal_transduction_matching_set-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -273,7 +281,7 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Sensory Signal Transduction Components from Functional Descriptions
+      Sensory Signal Transduction Components from Functions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -287,6 +295,7 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 ## Taste Qualities from Stimuli
 
 <div id="WOMC-senses_taste_quality_to_stimulus-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-senses_taste_quality_to_stimulus-questions.txt" download title="Download bbq-WOMC-senses_taste_quality_to_stimulus-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-senses_taste_quality_to_stimulus-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
