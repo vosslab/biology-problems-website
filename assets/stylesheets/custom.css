@@ -88,6 +88,70 @@
 .fa-creative-commons-by:before { content: "\f4e7"; }
 .fa-creative-commons-sa:before { content: "\f4ef"; }
 
+/* Question formats: compact text badges shared by topic headings and the catalog. */
+.question-type-badges {
+  --question-type-border: rgba(0, 0, 0, 0.12);
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+  white-space: nowrap;
+  font-size: 0.7rem;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.question-index-entry {
+  display: flex;
+  align-items: flex-start;
+  gap: 7px;
+}
+
+.question-index-entry a {
+  min-width: 0;
+}
+
+.button-container > .question-type-badges {
+  align-self: center;
+}
+
+.md-typeset abbr.question-type {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 2px 7px;
+  border: 1px solid var(--question-type-border);
+  border-inline-start: 3px solid currentColor;
+  border-inline-end: 3px solid currentColor;
+  border-radius: 2px;
+  text-decoration: none;
+  cursor: default;
+}
+
+/* CAM16 wheel: 9 hues, 22.5 + 40*n degrees; xdark text and xlight fill. */
+.question-type-mc { color: #781719; background-color: #ffe3e0; }
+.question-type-womc { color: #4c2391; background-color: #efe5ff; }
+.question-type-tfms { color: #6d185b; background-color: #ffe0f2; }
+.question-type-ma { color: #0d500b; background-color: #d9f4cf; }
+.question-type-fib { color: #004d43; background-color: #caf5eb; }
+.question-type-multi-fib { color: #00495b; background-color: #cef1ff; }
+.question-type-num { color: #4a4200; background-color: #f5ecb8; }
+.question-type-matching { color: #613500; background-color: #ffe5cf; }
+.question-type-ord { color: #004182; background-color: #e1ebff; }
+
+[data-md-color-scheme="slate"] .question-type-badges {
+  --question-type-border: rgba(255, 255, 255, 0.2);
+}
+
+/* The same hues use light text and xdark fill in the dark theme. */
+[data-md-color-scheme="slate"] .question-type-mc { color: #ffc4bf; background-color: #781719; }
+[data-md-color-scheme="slate"] .question-type-womc { color: #ddcbff; background-color: #4c2391; }
+[data-md-color-scheme="slate"] .question-type-tfms { color: #ffbee8; background-color: #6d185b; }
+[data-md-color-scheme="slate"] .question-type-ma { color: #b0e6a2; background-color: #0d500b; }
+[data-md-color-scheme="slate"] .question-type-fib { color: #89ead7; background-color: #004d43; }
+[data-md-color-scheme="slate"] .question-type-multi-fib { color: #92e3ff; background-color: #00495b; }
+[data-md-color-scheme="slate"] .question-type-num { color: #e6d776; background-color: #4a4200; }
+[data-md-color-scheme="slate"] .question-type-matching { color: #ffc997; background-color: #613500; }
+[data-md-color-scheme="slate"] .question-type-ord { color: #c0d6ff; background-color: #004182; }
+
 /* Flexbox layout for button container */
 .button-container {
   display: flex;
