@@ -6,6 +6,7 @@ from pathlib import Path
 
 import bioproblems_site.file_write as file_write
 import bioproblems_site.metadata as metadata_module
+import bioproblems_site.problem_set_display as problem_set_display
 import bioproblems_site.title_cache as title_cache
 
 
@@ -24,6 +25,7 @@ class QuestionSetEntry:
 	topic_title: str
 	page_path: str
 	title: str
+	source_path: Path | None = None
 
 
 #============================================
@@ -73,6 +75,7 @@ def collect_entries(
 					topic_title=topic.title,
 					page_path=page_path,
 					title=titles.get(source_path.name, _fallback_title(source_path.name)),
+					source_path=source_path,
 				))
 	return entries
 
@@ -106,9 +109,9 @@ def render(entries: list[QuestionSetEntry]) -> str:
 			current_topic = entry.topic_title
 			lines.extend([f"### {html.escape(current_topic)}", ""])
 		page_href = f"../{entry.page_path.removesuffix('/index.md')}/"
-		lines.append(
-			f'- <a href="{page_href}">{html.escape(entry.title)}</a>'
-		)
+		badge = problem_set_display.render_badges(entry.title, source_path=entry.source_path)
+		title = problem_set_display.render_title(entry.title, href=page_href)
+		lines.append(f'- <span class="question-index-entry">{badge}{title}</span>')
 	lines.append("")
 	return "\n".join(lines)
 

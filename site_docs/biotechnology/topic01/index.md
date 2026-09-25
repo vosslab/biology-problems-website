@@ -2,9 +2,10 @@
 
 Students explore the history of biotechnology, model organisms, bacteriophage, cell culture, subviral agents, the central dogma, and endosymbiotic theory.
 
-## Matching Industries to Project Descriptions
+## Biotechnology and Related Industries from Project Descriptions
 
 <div id="MATCH-biotech_vs-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-biotech_vs-questions.txt" download title="Download bbq-MATCH-biotech_vs-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-biotech_vs-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -26,7 +27,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Industries to Project Descriptions
+      Biotechnology and Related Industries from Project Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -37,9 +38,10 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 </details>
 
 
-## Matching Biotechnology-Adjacent Industries to Project Descriptions
+## Biotechnology and Related Industries from Project Descriptions (Traditional vs. Modern)
 
 <div id="MATCH-biotech_vs_improved-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-biotech_vs_improved-questions.txt" download title="Download bbq-MATCH-biotech_vs_improved-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-biotech_vs_improved-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -61,7 +63,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Biotechnology-Adjacent Industries to Project Descriptions
+      Biotechnology and Related Industries from Project Descriptions (Traditional vs. Modern)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -72,9 +74,10 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 </details>
 
 
-## Matching Culture Enrichment Methods to Descriptions
+## Culture Enrichment Methods from Descriptions
 
 <div id="MATCH-culture_enrichment-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-culture_enrichment-questions.txt" download title="Download bbq-MATCH-culture_enrichment-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-culture_enrichment-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -96,7 +99,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Culture Enrichment Methods to Descriptions
+      Culture Enrichment Methods from Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -107,9 +110,10 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 </details>
 
 
-## True/False Statements About Nobel Prizes in Biotechnology
+## 2022 Nobel Prize Topics
 
 <div id="TFMS-nobel_prizes-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-nobel_prizes-questions.txt" download title="Download bbq-TFMS-nobel_prizes-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-nobel_prizes-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -131,7 +135,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Nobel Prizes in Biotechnology
+      2022 Nobel Prize Topics
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -142,9 +146,10 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 </details>
 
 
-## Industries from Project Descriptions
+## Biotechnology and Related Industries from Project Descriptions
 
 <div id="WOMC-biotech_vs-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-biotech_vs-questions.txt" download title="Download bbq-WOMC-biotech_vs-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-biotech_vs-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -166,7 +171,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Industries from Project Descriptions
+      Biotechnology and Related Industries from Project Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -177,9 +182,10 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 </details>
 
 
-## Biotechnology-Adjacent Industries from Project Descriptions
+## Biotechnology and Related Industries from Project Descriptions (Traditional vs. Modern)
 
 <div id="WOMC-biotech_vs_improved-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-biotech_vs_improved-questions.txt" download title="Download bbq-WOMC-biotech_vs_improved-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-biotech_vs_improved-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -201,7 +207,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Biotechnology-Adjacent Industries from Project Descriptions
+      Biotechnology and Related Industries from Project Descriptions (Traditional vs. Modern)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -215,6 +221,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 ## Culture Enrichment Methods from Descriptions
 
 <div id="WOMC-culture_enrichment-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-culture_enrichment-questions.txt" download title="Download bbq-WOMC-culture_enrichment-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-culture_enrichment-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -250,6 +257,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 ## Bacterial Nutrient Requirements in Mutant Metabolic Pathways (5 Metabolites)
 
 <div id="beadle_tatum-metabolic_pathway-5_metabolites-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt" download title="Download bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt" aria-label="Click to download the BBQ Text file (bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -282,6 +290,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 ## Metabolic Pathway Precursor Order from Mutant Growth Data (4 Metabolites)
 
 <div id="mutant_screen-fib-4_metabolites-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-mutant_screen-fib-4_metabolites-questions.txt" download title="Download bbq-mutant_screen-fib-4_metabolites-questions.txt" aria-label="Click to download the BBQ Text file (bbq-mutant_screen-fib-4_metabolites-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -311,9 +320,10 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 </details>
 
 
-## mRNA Sequences from DNA Templates (Fill in the Blank)
+## mRNA Sequences from DNA Templates
 
 <div id="rna_transcribe_fill_blank-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-rna_transcribe_fill_blank-questions.txt" download title="Download bbq-rna_transcribe_fill_blank-questions.txt" aria-label="Click to download the BBQ Text file (bbq-rna_transcribe_fill_blank-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -332,7 +342,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      mRNA Sequences from DNA Templates (Fill in the Blank)
+      mRNA Sequences from DNA Templates
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -343,9 +353,10 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 </details>
 
 
-## mRNA Sequences from DNA Templates (5' and 3' Direction)
+## mRNA Sequences from DNA Templates (5&#x27; and 3&#x27; Direction)
 
 <div id="rna_transcribe_prime-len_9-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-rna_transcribe_prime-len_9-questions.txt" download title="Download bbq-rna_transcribe_prime-len_9-questions.txt" aria-label="Click to download the BBQ Text file (bbq-rna_transcribe_prime-len_9-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -364,7 +375,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      mRNA Sequences from DNA Templates (5' and 3' Direction)
+      mRNA Sequences from DNA Templates (5&#x27; and 3&#x27; Direction)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -375,9 +386,10 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 </details>
 
 
-## mRNA Sequences from DNA Templates (5' and 3' Fill in the Blank)
+## mRNA Sequences from DNA Templates (5&#x27; and 3&#x27; Direction)
 
 <div id="rna_transcribe_prime_fill_blank-len_9-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-rna_transcribe_prime_fill_blank-len_9-questions.txt" download title="Download bbq-rna_transcribe_prime_fill_blank-len_9-questions.txt" aria-label="Click to download the BBQ Text file (bbq-rna_transcribe_prime_fill_blank-len_9-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -396,7 +408,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      mRNA Sequences from DNA Templates (5' and 3' Fill in the Blank)
+      mRNA Sequences from DNA Templates (5&#x27; and 3&#x27; Direction)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -410,6 +422,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 ## Peptide Sequences from mRNA Using the Genetic Code (10 Amino Acids)
 
 <div id="translate_genetic_code-10_aa-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-translate_genetic_code-10_aa-questions.txt" download title="Download bbq-translate_genetic_code-10_aa-questions.txt" aria-label="Click to download the BBQ Text file (bbq-translate_genetic_code-10_aa-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>

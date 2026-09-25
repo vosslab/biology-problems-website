@@ -5,6 +5,7 @@ Students measure lactase reaction rates at different substrate concentrations, p
 ## Michaelis-Menten Constant (Km) from Enzyme Activity Data
 
 <div id="michaelis_menten_table-Km-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-michaelis_menten_table-Km-questions.txt" download title="Download bbq-michaelis_menten_table-Km-questions.txt" aria-label="Click to download the BBQ Text file (bbq-michaelis_menten_table-Km-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -37,6 +38,7 @@ Students measure lactase reaction rates at different substrate concentrations, p
 ## Enzyme Inhibition Type from Enzyme Activity Data
 
 <div id="michaelis_menten_table-inhibition-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-michaelis_menten_table-inhibition-questions.txt" download title="Download bbq-michaelis_menten_table-inhibition-questions.txt" aria-label="Click to download the BBQ Text file (bbq-michaelis_menten_table-inhibition-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>

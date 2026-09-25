@@ -4,9 +4,10 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 
 **LibreTexts reference:** [Unit 3, Chapter 2: Nucleic Acids](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/03%3A_Unit_3_-_Macromolecules/3.02%3A_Nucleic_Acids) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/03%3A_Unit_3_-_Macromolecules/3.02%3A_Nucleic_Acids" target="_blank" rel="noopener" aria-label="LibreTexts Unit 3, Chapter 2" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
-## True/False Statements About DNA Structure (BIOL 351)
+## DNA Structure (Core Set)
 
 <div id="TFMS-dna_structure-biol_351-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-dna_structure-biol_351-questions.txt" download title="Download bbq-TFMS-dna_structure-biol_351-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-dna_structure-biol_351-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -28,7 +29,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About DNA Structure (BIOL 351)
+      DNA Structure (Core Set)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -39,9 +40,10 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 </details>
 
 
-## True/False Statements About DNA Structure
+## DNA Structure (Expanded Set)
 
 <div id="TFMS-dna_structure-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-dna_structure-questions.txt" download title="Download bbq-TFMS-dna_structure-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-dna_structure-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -63,7 +65,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About DNA Structure
+      DNA Structure (Expanded Set)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -74,9 +76,10 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 </details>
 
 
-## True/False Statements About Findings from Rosalind Franklin's Diffraction Pattern
+## DNA Structure from Rosalind Franklin&#x27;s Diffraction Data
 
 <div id="TFMS-franklin_diffraction-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-franklin_diffraction-questions.txt" download title="Download bbq-TFMS-franklin_diffraction-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-franklin_diffraction-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -98,7 +101,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Findings from Rosalind Franklin's Diffraction Pattern
+      DNA Structure from Rosalind Franklin&#x27;s Diffraction Data
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -109,9 +112,10 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 </details>
 
 
-## True/False Statements About G-U Wobble Base Pairs
+## G-U Wobble Base Pairs
 
 <div id="TFMS-g-u_wobble-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-g-u_wobble-questions.txt" download title="Download bbq-TFMS-g-u_wobble-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-g-u_wobble-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -133,7 +137,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About G-U Wobble Base Pairs
+      G-U Wobble Base Pairs
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -144,9 +148,10 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 </details>
 
 
-## True/False Statements About DNA Melting Temperature (Tm)
+## DNA Melting Temperature (Tm)
 
 <div id="TFMS-melting_Tm_type_1-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-melting_Tm_type_1-questions.txt" download title="Download bbq-TFMS-melting_Tm_type_1-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-melting_Tm_type_1-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -168,7 +173,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About DNA Melting Temperature (Tm)
+      DNA Melting Temperature (Tm)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -179,9 +184,10 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 </details>
 
 
-## True/False Statements About Factors That Increase DNA Melting Temperature (Tm)
+## DNA Melting Temperature (Factors That Increase Tm)
 
 <div id="TFMS-melting_Tm_type_2a-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-melting_Tm_type_2a-questions.txt" download title="Download bbq-TFMS-melting_Tm_type_2a-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-melting_Tm_type_2a-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -203,7 +209,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Factors That Increase DNA Melting Temperature (Tm)
+      DNA Melting Temperature (Factors That Increase Tm)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -214,9 +220,10 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 </details>
 
 
-## True/False Statements About Factors That Decrease DNA Melting Temperature (Tm)
+## DNA Melting Temperature (Factors That Decrease Tm)
 
 <div id="TFMS-melting_Tm_type_2b-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-melting_Tm_type_2b-questions.txt" download title="Download bbq-TFMS-melting_Tm_type_2b-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-melting_Tm_type_2b-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -238,7 +245,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Factors That Decrease DNA Melting Temperature (Tm)
+      DNA Melting Temperature (Factors That Decrease Tm)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -249,9 +256,10 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 </details>
 
 
-## True/False Statements About Nucleotide Components
+## Nucleotide Components
 
 <div id="TFMS-nucleotide_components-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-nucleotide_components-questions.txt" download title="Download bbq-TFMS-nucleotide_components-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-nucleotide_components-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -273,7 +281,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Nucleotide Components
+      Nucleotide Components
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -284,9 +292,10 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 </details>
 
 
-## True/False Statements About RNA and DNA Differences (BIOL 301)
+## RNA and DNA Differences (Core Set)
 
 <div id="TFMS-rna_v_dna-biol_301-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-rna_v_dna-biol_301-questions.txt" download title="Download bbq-TFMS-rna_v_dna-biol_301-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-rna_v_dna-biol_301-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -308,7 +317,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About RNA and DNA Differences (BIOL 301)
+      RNA and DNA Differences (Core Set)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -319,9 +328,10 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 </details>
 
 
-## True/False Statements About RNA and DNA Differences
+## RNA and DNA Differences (Helix Forms and Charge Included)
 
 <div id="TFMS-rna_v_dna-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-rna_v_dna-questions.txt" download title="Download bbq-TFMS-rna_v_dna-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-rna_v_dna-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -343,7 +353,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About RNA and DNA Differences
+      RNA and DNA Differences (Helix Forms and Charge Included)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -354,9 +364,10 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 </details>
 
 
-## DNA Base Composition Using Chargaff's Rules (5 Choices)
+## DNA Base Composition Using Chargaff&#x27;s Rules (5 Choices)
 
 <div id="chargaff_dna_percent-5_choices-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-chargaff_dna_percent-5_choices-questions.txt" download title="Download bbq-chargaff_dna_percent-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-chargaff_dna_percent-5_choices-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -375,7 +386,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      DNA Base Composition Using Chargaff's Rules (5 Choices)
+      DNA Base Composition Using Chargaff&#x27;s Rules (5 Choices)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -389,6 +400,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 ## Complementary DNA Sequences Without Direction Labels
 
 <div id="complementary_sequences-mc-directionless-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-complementary_sequences-mc-directionless-questions.txt" download title="Download bbq-complementary_sequences-mc-directionless-questions.txt" aria-label="Click to download the BBQ Text file (bbq-complementary_sequences-mc-directionless-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -421,6 +433,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 ## DNA Melting Temperature Extremes from Sequence (12 Bases)
 
 <div id="dna_melting_temp-len_12-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-dna_melting_temp-len_12-questions.txt" download title="Download bbq-dna_melting_temp-len_12-questions.txt" aria-label="Click to download the BBQ Text file (bbq-dna_melting_temp-len_12-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -453,6 +466,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 ## Purine Names from Chemical Structures (3 Choices)
 
 <div id="match_purine_structures-3_choices-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-match_purine_structures-3_choices-questions.txt" download title="Download bbq-match_purine_structures-3_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-match_purine_structures-3_choices-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -482,6 +496,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 ## Pyrimidine Names from Chemical Structures (4 Choices)
 
 <div id="match_pyrimidine_structures-4_choices-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-match_pyrimidine_structures-4_choices-questions.txt" download title="Download bbq-match_pyrimidine_structures-4_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-match_pyrimidine_structures-4_choices-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -511,6 +526,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 ## Palindromic DNA Sequence Completion
 
 <div id="palindrome_sequence_match-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-palindrome_sequence_match-questions.txt" download title="Download bbq-palindrome_sequence_match-questions.txt" aria-label="Click to download the BBQ Text file (bbq-palindrome_sequence_match-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -540,9 +556,10 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 </details>
 
 
-## mRNA Sequences from DNA Templates (Fill in the Blank)
+## mRNA Sequences from DNA Templates
 
 <div id="rna_transcribe_fill_blank-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-rna_transcribe_fill_blank-questions.txt" download title="Download bbq-rna_transcribe_fill_blank-questions.txt" aria-label="Click to download the BBQ Text file (bbq-rna_transcribe_fill_blank-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -561,7 +578,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      mRNA Sequences from DNA Templates (Fill in the Blank)
+      mRNA Sequences from DNA Templates
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -572,9 +589,10 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 </details>
 
 
-## mRNA Sequences from DNA Templates (5' and 3' Direction)
+## mRNA Sequences from DNA Templates (5&#x27; and 3&#x27; Direction)
 
 <div id="rna_transcribe_prime-len_9-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-rna_transcribe_prime-len_9-questions.txt" download title="Download bbq-rna_transcribe_prime-len_9-questions.txt" aria-label="Click to download the BBQ Text file (bbq-rna_transcribe_prime-len_9-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -593,7 +611,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      mRNA Sequences from DNA Templates (5' and 3' Direction)
+      mRNA Sequences from DNA Templates (5&#x27; and 3&#x27; Direction)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -604,9 +622,10 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 </details>
 
 
-## mRNA Sequences from DNA Templates (5' and 3' Fill in the Blank)
+## mRNA Sequences from DNA Templates (5&#x27; and 3&#x27; Direction)
 
 <div id="rna_transcribe_prime_fill_blank-len_9-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-rna_transcribe_prime_fill_blank-len_9-questions.txt" download title="Download bbq-rna_transcribe_prime_fill_blank-len_9-questions.txt" aria-label="Click to download the BBQ Text file (bbq-rna_transcribe_prime_fill_blank-len_9-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -625,7 +644,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      mRNA Sequences from DNA Templates (5' and 3' Fill in the Blank)
+      mRNA Sequences from DNA Templates (5&#x27; and 3&#x27; Direction)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -639,6 +658,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 ## Peptide Sequences from mRNA Using the Genetic Code (10 Amino Acids)
 
 <div id="translate_genetic_code-10_aa-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-translate_genetic_code-10_aa-questions.txt" download title="Download bbq-translate_genetic_code-10_aa-questions.txt" aria-label="Click to download the BBQ Text file (bbq-translate_genetic_code-10_aa-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>

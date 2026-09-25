@@ -5,6 +5,7 @@ Students analyze physical methods applied to biological molecules, including FRE
 ## FRET Donor-Acceptor Pairs from Spectral Overlap
 
 <div id="fret_overlap_colors-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-fret_overlap_colors-questions.txt" download title="Download bbq-fret_overlap_colors-questions.txt" aria-label="Click to download the BBQ Text file (bbq-fret_overlap_colors-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -37,6 +38,7 @@ Students analyze physical methods applied to biological molecules, including FRE
 ## FRET Color Assignments from Donor-Acceptor Permutations
 
 <div id="fret_permute_colors-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-fret_permute_colors-questions.txt" download title="Download bbq-fret_permute_colors-questions.txt" aria-label="Click to download the BBQ Text file (bbq-fret_permute_colors-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>

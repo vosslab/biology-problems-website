@@ -4,9 +4,10 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 
 **LibreTexts reference:** [Chapter 9: Chromosomal Disorders](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/09:_Chromosomal_Disorders) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/09:_Chromosomal_Disorders" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 9" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
-## Matching Chromosome Structure Alterations to Descriptions
+## Chromosome Structure Alterations from Descriptions
 
 <div id="MATCH-chromosome_alterations-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-chromosome_alterations-questions.txt" download title="Download bbq-MATCH-chromosome_alterations-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-chromosome_alterations-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -28,7 +29,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Chromosome Structure Alterations to Descriptions
+      Chromosome Structure Alterations from Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -39,9 +40,10 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 </details>
 
 
-## Matching Chromosome Shapes to Descriptions
+## Chromosome Shapes from Descriptions
 
 <div id="MATCH-chromosome_shapes-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-chromosome_shapes-questions.txt" download title="Download bbq-MATCH-chromosome_shapes-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-chromosome_shapes-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -63,7 +65,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Chromosome Shapes to Descriptions
+      Chromosome Shapes from Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -74,9 +76,10 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 </details>
 
 
-## Types of Chromosomal Alterations
+## Chromosome Structure Alterations from Descriptions
 
 <div id="WOMC-chromosome_alterations-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-chromosome_alterations-questions.txt" download title="Download bbq-WOMC-chromosome_alterations-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-chromosome_alterations-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -98,7 +101,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Types of Chromosomal Alterations
+      Chromosome Structure Alterations from Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -109,9 +112,10 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 </details>
 
 
-## Chromosome Shape Categories Based on Descriptions
+## Chromosome Shapes from Descriptions
 
 <div id="WOMC-chromosome_shapes-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-chromosome_shapes-questions.txt" download title="Download bbq-WOMC-chromosome_shapes-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-chromosome_shapes-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -133,7 +137,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Chromosome Shape Categories Based on Descriptions
+      Chromosome Shapes from Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -147,6 +151,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Chromosomal Abnormalities from Karyotype Notation
 
 <div id="cytogenetic_notation-aneuploidy-5_choices-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-cytogenetic_notation-aneuploidy-5_choices-questions.txt" download title="Download bbq-cytogenetic_notation-aneuploidy-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-cytogenetic_notation-aneuploidy-5_choices-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -179,6 +184,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Chromosome Band Proximity
 
 <div id="cytogenetic_notation-band_order-5_choices-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-cytogenetic_notation-band_order-5_choices-questions.txt" download title="Download bbq-cytogenetic_notation-band_order-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-cytogenetic_notation-band_order-5_choices-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -211,6 +217,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Cytogenetic Notations in Genetic Disorders
 
 <div id="cytogenetic_notation-disorders-5_choices-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-cytogenetic_notation-disorders-5_choices-questions.txt" download title="Download bbq-cytogenetic_notation-disorders-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-cytogenetic_notation-disorders-5_choices-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -243,6 +250,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Cytogenetic Notation for Rearrangements
 
 <div id="cytogenetic_notation-rearrangements-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-cytogenetic_notation-rearrangements-questions.txt" download title="Download bbq-cytogenetic_notation-rearrangements-questions.txt" aria-label="Click to download the BBQ Text file (bbq-cytogenetic_notation-rearrangements-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -275,6 +283,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Chromosome Sub-Band Positions from Cytogenetic Notation
 
 <div id="cytogenetic_notation-sub-band_notation-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-cytogenetic_notation-sub-band_notation-questions.txt" download title="Download bbq-cytogenetic_notation-sub-band_notation-questions.txt" aria-label="Click to download the BBQ Text file (bbq-cytogenetic_notation-sub-band_notation-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -307,6 +316,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Gene Order from Deletion Mutants (4 Genes, Random Labels)
 
 <div id="deletion_mutant_random-04_genes-MC-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-deletion_mutant_random-04_genes-MC-questions.txt" download title="Download bbq-deletion_mutant_random-04_genes-MC-questions.txt" aria-label="Click to download the BBQ Text file (bbq-deletion_mutant_random-04_genes-MC-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -339,6 +349,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Gene Order from Deletion Mutants (5 Genes, Random Labels)
 
 <div id="deletion_mutant_random-05_genes-MC-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-deletion_mutant_random-05_genes-MC-questions.txt" download title="Download bbq-deletion_mutant_random-05_genes-MC-questions.txt" aria-label="Click to download the BBQ Text file (bbq-deletion_mutant_random-05_genes-MC-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -371,6 +382,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Gene Order from Deletion Mutants (6 Genes, Random Labels)
 
 <div id="deletion_mutant_random-06_genes-MC-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-deletion_mutant_random-06_genes-MC-questions.txt" download title="Download bbq-deletion_mutant_random-06_genes-MC-questions.txt" aria-label="Click to download the BBQ Text file (bbq-deletion_mutant_random-06_genes-MC-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -403,6 +415,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Gene Order from Deletion Mutants (4 Genes, Word Labels)
 
 <div id="deletion_mutant_words-04_genes-MC-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-deletion_mutant_words-04_genes-MC-questions.txt" download title="Download bbq-deletion_mutant_words-04_genes-MC-questions.txt" aria-label="Click to download the BBQ Text file (bbq-deletion_mutant_words-04_genes-MC-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -435,6 +448,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Gene Order from Deletion Mutants (5 Genes, Word Labels)
 
 <div id="deletion_mutant_words-05_genes-MC-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-deletion_mutant_words-05_genes-MC-questions.txt" download title="Download bbq-deletion_mutant_words-05_genes-MC-questions.txt" aria-label="Click to download the BBQ Text file (bbq-deletion_mutant_words-05_genes-MC-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -467,6 +481,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Gene Order from Deletion Mutants (6 Genes, Word Labels)
 
 <div id="deletion_mutant_words-06_genes-MC-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-deletion_mutant_words-06_genes-MC-questions.txt" download title="Download bbq-deletion_mutant_words-06_genes-MC-questions.txt" aria-label="Click to download the BBQ Text file (bbq-deletion_mutant_words-06_genes-MC-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -499,6 +514,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Chromosomal Translocation Outcomes (Color)
 
 <div id="letter_translocation_problem_color-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-letter_translocation_problem_color-questions.txt" download title="Download bbq-letter_translocation_problem_color-questions.txt" aria-label="Click to download the BBQ Text file (bbq-letter_translocation_problem_color-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -531,6 +547,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Gamete Chromosome Numbers in Polyploids
 
 <div id="polyploid-gametes-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-polyploid-gametes-questions.txt" download title="Download bbq-polyploid-gametes-questions.txt" aria-label="Click to download the BBQ Text file (bbq-polyploid-gametes-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -563,6 +580,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Monoploid and Haploid Numbers from Chromosome Counts
 
 <div id="polyploid-monoploid_v_haploid-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-polyploid-monoploid_v_haploid-questions.txt" download title="Download bbq-polyploid-monoploid_v_haploid-questions.txt" aria-label="Click to download the BBQ Text file (bbq-polyploid-monoploid_v_haploid-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -595,6 +613,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Gametes from Robertsonian Translocation
 
 <div id="robertsonian-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-robertsonian-questions.txt" download title="Download bbq-robertsonian-questions.txt" aria-label="Click to download the BBQ Text file (bbq-robertsonian-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -627,6 +646,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 ## Balanced Translocation Segregation Outcomes
 
 <div id="translocation_meiosis_table-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-translocation_meiosis_table-questions.txt" download title="Download bbq-translocation_meiosis_table-questions.txt" aria-label="Click to download the BBQ Text file (bbq-translocation_meiosis_table-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>

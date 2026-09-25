@@ -2,9 +2,10 @@
 
 Students discuss scientific misconduct, GMO ethics, bioweapons, de-extinction, CRISPR babies, embryonic stem cells, biohackers, cloning ethics, and aid in dying.
 
-## Matching People in the Theranos Story to Roles
+## Theranos Case Study: People and Roles
 
 <div id="MATCH-theranos_people-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-theranos_people-questions.txt" download title="Download bbq-MATCH-theranos_people-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-theranos_people-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -26,7 +27,7 @@ Students discuss scientific misconduct, GMO ethics, bioweapons, de-extinction, C
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching People in the Theranos Story to Roles
+      Theranos Case Study: People and Roles
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -37,9 +38,10 @@ Students discuss scientific misconduct, GMO ethics, bioweapons, de-extinction, C
 </details>
 
 
-## People in the Theranos Story from Descriptions
+## Theranos Case Study: People and Roles
 
 <div id="WOMC-theranos_people-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-theranos_people-questions.txt" download title="Download bbq-WOMC-theranos_people-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-theranos_people-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -61,7 +63,7 @@ Students discuss scientific misconduct, GMO ethics, bioweapons, de-extinction, C
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      People in the Theranos Story from Descriptions
+      Theranos Case Study: People and Roles
     </span>
     <span style='font-weight: normal;'>
       example problem

@@ -2,9 +2,10 @@
 
 Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, biosensors, Agrobacterium, gene guns, transgenic organisms, and GMO applications.
 
-## Matching Plant Transgenes to Functions
+## Plant Transgenes from Functions
 
 <div id="MATCH-plant_transgenes-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-plant_transgenes-questions.txt" download title="Download bbq-MATCH-plant_transgenes-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-plant_transgenes-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -26,7 +27,7 @@ Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, bi
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Plant Transgenes to Functions
+      Plant Transgenes from Functions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -37,9 +38,10 @@ Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, bi
 </details>
 
 
-## Plant Transgenes from Functional Descriptions
+## Plant Transgenes from Functions
 
 <div id="WOMC-plant_transgenes-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-plant_transgenes-questions.txt" download title="Download bbq-WOMC-plant_transgenes-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-plant_transgenes-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -61,7 +63,7 @@ Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, bi
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Plant Transgenes from Functional Descriptions
+      Plant Transgenes from Functions
     </span>
     <span style='font-weight: normal;'>
       example problem

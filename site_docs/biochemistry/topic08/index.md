@@ -4,9 +4,10 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 
 **LibreTexts reference:** [Unit 2, Chapter 3: Enzyme Inhibition](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/02%3A_Unit_2_-_Enzymes/2.03%3A_Enzyme_Inhibition) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/02%3A_Unit_2_-_Enzymes/2.03%3A_Enzyme_Inhibition" target="_blank" rel="noopener" aria-label="LibreTexts Unit 2, Chapter 3" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
-## Matching Enzyme Catalytic Mechanisms to Definitions
+## Enzyme Catalytic Strategies
 
 <div id="MATCH-catalytic_strategies-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-catalytic_strategies-questions.txt" download title="Download bbq-MATCH-catalytic_strategies-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-catalytic_strategies-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -28,7 +29,7 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Enzyme Catalytic Mechanisms to Definitions
+      Enzyme Catalytic Strategies
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -39,9 +40,10 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 </details>
 
 
-## True/False Statements About Enzyme Catalytic Strategies
+## Enzyme Catalytic Strategies
 
 <div id="TFMS-catalytic_strategies-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-catalytic_strategies-questions.txt" download title="Download bbq-TFMS-catalytic_strategies-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-catalytic_strategies-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -63,7 +65,7 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Enzyme Catalytic Strategies
+      Enzyme Catalytic Strategies
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -74,9 +76,10 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 </details>
 
 
-## True/False Statements About Chymotrypsin Function
+## Chymotrypsin Function
 
 <div id="TFMS-chymotrypsin-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-chymotrypsin-questions.txt" download title="Download bbq-TFMS-chymotrypsin-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-chymotrypsin-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -98,7 +101,7 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Chymotrypsin Function
+      Chymotrypsin Function
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -109,9 +112,10 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 </details>
 
 
-## True/False Statements About Enzyme Inhibitors
+## Enzyme Inhibitors
 
 <div id="TFMS-enzyme_inhibitors-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-enzyme_inhibitors-questions.txt" download title="Download bbq-TFMS-enzyme_inhibitors-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-enzyme_inhibitors-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -133,7 +137,7 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Enzyme Inhibitors
+      Enzyme Inhibitors
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -144,9 +148,10 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 </details>
 
 
-## Enzyme Catalysis Mechanisms from Definitions
+## Enzyme Catalytic Strategies
 
 <div id="WOMC-catalytic_strategies-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-catalytic_strategies-questions.txt" download title="Download bbq-WOMC-catalytic_strategies-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-catalytic_strategies-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -168,7 +173,7 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Enzyme Catalysis Mechanisms from Definitions
+      Enzyme Catalytic Strategies
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -182,6 +187,7 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 ## Cleavage Sites for Chymotrypsin Digestion of Peptides
 
 <div id="chymotrypsin_substrate-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-chymotrypsin_substrate-questions.txt" download title="Download bbq-chymotrypsin_substrate-questions.txt" aria-label="Click to download the BBQ Text file (bbq-chymotrypsin_substrate-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -214,9 +220,10 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 </details>
 
 
-## Enzyme Inhibition Type from Metabolic Pathway Descriptions (BCHM 355)
+## Enzyme Inhibition Type from Metabolic Pathway Descriptions
 
 <div id="metabolic_pathway_inhibitor-BCHM355-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-metabolic_pathway_inhibitor-BCHM355-questions.txt" download title="Download bbq-metabolic_pathway_inhibitor-BCHM355-questions.txt" aria-label="Click to download the BBQ Text file (bbq-metabolic_pathway_inhibitor-BCHM355-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -235,7 +242,7 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Enzyme Inhibition Type from Metabolic Pathway Descriptions (BCHM 355)
+      Enzyme Inhibition Type from Metabolic Pathway Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -249,6 +256,7 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 ## Enzyme Inhibition Type from Enzyme Activity Data
 
 <div id="michaelis_menten_table-inhibition-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-michaelis_menten_table-inhibition-questions.txt" download title="Download bbq-michaelis_menten_table-inhibition-questions.txt" aria-label="Click to download the BBQ Text file (bbq-michaelis_menten_table-inhibition-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>

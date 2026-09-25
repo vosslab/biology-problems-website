@@ -12,6 +12,19 @@ origin belongs there too. Rules: [REPO_STYLE.md](REPO_STYLE.md).
 
 ## Review expectations
 
+- Curate problem-set titles for instructors browsing the corpus and considering whether
+  to use the material in their courses.
+- Question-type badges should be visually distinct from download buttons, using rectangular
+  labels with colored side bars like the user-role badges. Use the existing colorwheel
+  system for comparable badge saturation and lightness. Give MC, WOMC, TFMS, and
+  Matching clearly distinct colors, reasonably separate from the download buttons.
+- Put the type badge at the start of each download row for vertical scanning, with
+  each badge only as wide as its label.
+  Keep headings descriptive and place badges before linked titles in the All Questions index.
+  Have the Python site build write badge markup; use CSS only for its visual layout.
+- Identify the response type from each BBQ file's first record. Treat `FIB_PLUS` as the
+  distinct `MULTI_FIB` type, and distinguish regular MC, WOMC, and TFMS banks.
+
 ## Working style
 
 - I normally use Graphify update or fresh, sometimes context, and now the published map. Keep this

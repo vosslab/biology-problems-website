@@ -4,9 +4,10 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 
 **LibreTexts reference:** [Unit 1, Chapter 3: Amino Acids and Peptides](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.03%3A_Amino_Acids_and_Peptides) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.03%3A_Amino_Acids_and_Peptides" target="_blank" rel="noopener" aria-label="LibreTexts Unit 1, Chapter 3" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
-## Matching Amino Acids to Properties (Long Tables)
+## Amino Acid Properties (Structure Diagrams Included)
 
 <div id="MATCH-amino_acids_properties-long_tables-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-amino_acids_properties-long_tables-questions.txt" download title="Download bbq-MATCH-amino_acids_properties-long_tables-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-amino_acids_properties-long_tables-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -28,7 +29,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Amino Acids to Properties (Long Tables)
+      Amino Acid Properties (Structure Diagrams Included)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -39,9 +40,10 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 </details>
 
 
-## Matching Amino Acids to Descriptive Properties
+## Amino Acid Properties
 
 <div id="MATCH-amino_acids_properties-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-amino_acids_properties-questions.txt" download title="Download bbq-MATCH-amino_acids_properties-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-amino_acids_properties-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -63,7 +65,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Amino Acids to Descriptive Properties
+      Amino Acid Properties
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -74,9 +76,10 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 </details>
 
 
-## Amino Acids from Properties (Long Tables)
+## Amino Acid Properties (Structure Diagrams Included)
 
 <div id="WOMC-amino_acids_properties-long_tables-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-amino_acids_properties-long_tables-questions.txt" download title="Download bbq-WOMC-amino_acids_properties-long_tables-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-amino_acids_properties-long_tables-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -98,7 +101,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Amino Acids from Properties (Long Tables)
+      Amino Acid Properties (Structure Diagrams Included)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -109,9 +112,10 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 </details>
 
 
-## Amino Acids from Descriptions
+## Amino Acid Properties
 
 <div id="WOMC-amino_acids_properties-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-amino_acids_properties-questions.txt" download title="Download bbq-WOMC-amino_acids_properties-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-amino_acids_properties-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -133,7 +137,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Amino Acids from Descriptions
+      Amino Acid Properties
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -147,6 +151,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 ## Alanine Charge States at Different pH Values
 
 <div id="alanine_protonation_states-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-alanine_protonation_states-questions.txt" download title="Download bbq-alanine_protonation_states-questions.txt" aria-label="Click to download the BBQ Text file (bbq-alanine_protonation_states-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -176,9 +181,10 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 </details>
 
 
-## Alpha Amino Acids
+## Alpha-Amino Acid Identification from Structures
 
 <div id="alpha_amino_acid_identification-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-alpha_amino_acid_identification-questions.txt" download title="Download bbq-alpha_amino_acid_identification-questions.txt" aria-label="Click to download the BBQ Text file (bbq-alpha_amino_acid_identification-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -197,7 +203,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Alpha Amino Acids
+      Alpha-Amino Acid Identification from Structures
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -211,6 +217,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 ## Histidine Protonation States at Specific pH Values
 
 <div id="histidine_protonation_states-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-histidine_protonation_states-questions.txt" download title="Download bbq-histidine_protonation_states-questions.txt" aria-label="Click to download the BBQ Text file (bbq-histidine_protonation_states-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -243,6 +250,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 ## Ionic Bond Formation in Amino Acid Side Chains
 
 <div id="ionic_bond_amino_acids-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-ionic_bond_amino_acids-questions.txt" download title="Download bbq-ionic_bond_amino_acids-questions.txt" aria-label="Click to download the BBQ Text file (bbq-ionic_bond_amino_acids-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -275,9 +283,10 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 </details>
 
 
-## Amino Acid Names from Chemical Structures (4 Choices)
+## Amino Acids from Chemical Structures (4 Choices)
 
 <div id="match_amino_acid_structures-4_choices-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-match_amino_acid_structures-4_choices-questions.txt" download title="Download bbq-match_amino_acid_structures-4_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-match_amino_acid_structures-4_choices-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -293,7 +302,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Amino Acid Names from Chemical Structures (4 Choices)
+      Amino Acids from Chemical Structures (4 Choices)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -307,6 +316,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 ## Dipeptide Sequences from Structures
 
 <div id="polypeptide_fib_sequence-FIB-2aa-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-polypeptide_fib_sequence-FIB-2aa-questions.txt" download title="Download bbq-polypeptide_fib_sequence-FIB-2aa-questions.txt" aria-label="Click to download the BBQ Text file (bbq-polypeptide_fib_sequence-FIB-2aa-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -333,9 +343,10 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 </details>
 
 
-## Dipeptide Sequences from Descriptions
+## Dipeptide Sequences from Structures
 
 <div id="polypeptide_mc_sequence-2_amino_acids-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-polypeptide_mc_sequence-2_amino_acids-questions.txt" download title="Download bbq-polypeptide_mc_sequence-2_amino_acids-questions.txt" aria-label="Click to download the BBQ Text file (bbq-polypeptide_mc_sequence-2_amino_acids-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -351,7 +362,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Dipeptide Sequences from Descriptions
+      Dipeptide Sequences from Structures
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -362,9 +373,10 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 </details>
 
 
-## Tripeptide Sequences from Structural Descriptions
+## Tripeptide Sequences from Structures
 
 <div id="polypeptide_mc_sequence-3_amino_acids-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-polypeptide_mc_sequence-3_amino_acids-questions.txt" download title="Download bbq-polypeptide_mc_sequence-3_amino_acids-questions.txt" aria-label="Click to download the BBQ Text file (bbq-polypeptide_mc_sequence-3_amino_acids-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -380,7 +392,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Tripeptide Sequences from Structural Descriptions
+      Tripeptide Sequences from Structures
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -391,9 +403,10 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 </details>
 
 
-## Peptide Sequences with Four Amino Acids
+## Tetrapeptide Sequences from Structures
 
 <div id="polypeptide_mc_sequence-4_amino_acids-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-polypeptide_mc_sequence-4_amino_acids-questions.txt" download title="Download bbq-polypeptide_mc_sequence-4_amino_acids-questions.txt" aria-label="Click to download the BBQ Text file (bbq-polypeptide_mc_sequence-4_amino_acids-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -409,7 +422,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Peptide Sequences with Four Amino Acids
+      Tetrapeptide Sequences from Structures
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -423,6 +436,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 ## Tetrapeptide Net Charge from pKa Values (5 Choices)
 
 <div id="tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-questions.txt" download title="Download bbq-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -452,6 +466,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 ## Amino Acids from Chemical Structures
 
 <div id="which_amino_acid-FIB-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-which_amino_acid-FIB-questions.txt" download title="Download bbq-which_amino_acid-FIB-questions.txt" aria-label="Click to download the BBQ Text file (bbq-which_amino_acid-FIB-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -481,6 +496,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 ## Amino Acids from Chemical Structures (7 Choices)
 
 <div id="which_amino_acid-MC-7_choices-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-which_amino_acid-MC-7_choices-questions.txt" download title="Download bbq-which_amino_acid-MC-7_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-which_amino_acid-MC-7_choices-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -507,9 +523,10 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 </details>
 
 
-## Peptide Sequences (Fill in the Blank)
+## Pentapeptide Sequences from Structures (Wordle Words)
 
 <div id="wordle_peptides-FIB-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-wordle_peptides-FIB-questions.txt" download title="Download bbq-wordle_peptides-FIB-questions.txt" aria-label="Click to download the BBQ Text file (bbq-wordle_peptides-FIB-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -525,7 +542,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Peptide Sequences (Fill in the Blank)
+      Pentapeptide Sequences from Structures (Wordle Words)
     </span>
     <span style='font-weight: normal;'>
       example problem

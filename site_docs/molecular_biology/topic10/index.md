@@ -5,6 +5,7 @@ Landmark experiments that established core principles of molecular biology: Grif
 ## Bacterial Nutrient Requirements in Mutant Metabolic Pathways (5 Metabolites)
 
 <div id="beadle_tatum-metabolic_pathway-5_metabolites-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt" download title="Download bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt" aria-label="Click to download the BBQ Text file (bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -37,6 +38,7 @@ Landmark experiments that established core principles of molecular biology: Grif
 ## Metabolic Pathway Precursor Order from Mutant Growth Data (4 Metabolites)
 
 <div id="mutant_screen-fib-4_metabolites-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-mutant_screen-fib-4_metabolites-questions.txt" download title="Download bbq-mutant_screen-fib-4_metabolites-questions.txt" aria-label="Click to download the BBQ Text file (bbq-mutant_screen-fib-4_metabolites-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>

@@ -4,9 +4,10 @@ Students analyze phospholipid bilayer structure, predict how composition affects
 
 **LibreTexts reference:** [Unit 3, Chapter 4: Membranes and Membrane Proteins](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/03%3A_Unit_3_-_Macromolecules/3.04%3A_Membranes_and_Membrane_Proteins) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/03%3A_Unit_3_-_Macromolecules/3.04%3A_Membranes_and_Membrane_Proteins" target="_blank" rel="noopener" aria-label="LibreTexts Unit 3, Chapter 4" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
-## True/False Statements About the Fluid Mosaic Model
+## Fluid Mosaic Model
 
 <div id="TFMS-fluid_mosaic_model-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-fluid_mosaic_model-questions.txt" download title="Download bbq-TFMS-fluid_mosaic_model-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-fluid_mosaic_model-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -28,7 +29,7 @@ Students analyze phospholipid bilayer structure, predict how composition affects
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About the Fluid Mosaic Model
+      Fluid Mosaic Model
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -39,9 +40,10 @@ Students analyze phospholipid bilayer structure, predict how composition affects
 </details>
 
 
-## True/False Statements About Membrane Diffusion
+## Membrane Permeability to Ions and Molecules
 
 <div id="TFMS-membrane_diffusion-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-membrane_diffusion-questions.txt" download title="Download bbq-TFMS-membrane_diffusion-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-membrane_diffusion-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -63,7 +65,7 @@ Students analyze phospholipid bilayer structure, predict how composition affects
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Membrane Diffusion
+      Membrane Permeability to Ions and Molecules
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -74,9 +76,10 @@ Students analyze phospholipid bilayer structure, predict how composition affects
 </details>
 
 
-## True/False Statements About Membrane Protein Functions
+## Membrane Protein Functions
 
 <div id="TFMS-membrane_protein_functions-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-membrane_protein_functions-questions.txt" download title="Download bbq-TFMS-membrane_protein_functions-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-membrane_protein_functions-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -98,7 +101,7 @@ Students analyze phospholipid bilayer structure, predict how composition affects
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Membrane Protein Functions
+      Membrane Protein Functions
     </span>
     <span style='font-weight: normal;'>
       example problem

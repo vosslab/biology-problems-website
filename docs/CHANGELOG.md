@@ -1,5 +1,87 @@
 # Changelog
 
+## 2026-09-25
+
+### Additions and New Features
+
+- Display question formats as colored, labeled badges in generated topic download rows and
+  before titles in the All Questions index. Share one renderer, retain meaningful title qualifiers, and
+  resolve variable generator formats from each file with palettes for light and dark themes.
+- Distinguish MC and WOMC from `TFMS`, displayed as `T/F Statements (MC)`. Use compact
+  rectangular badges with muted fills and colored side bars, outside catalog links,
+  to distinguish static question metadata from download actions.
+
+### Fixes and Maintenance
+
+- Derive displayed question-type badges from each BBQ file's first record. Shared
+  `MC/NUM` cache titles now show the actual MC or NUM output in each topic and
+  catalog entry; classify MC generator subtypes from their filenames.
+- Align all 47 TFMS filename titles with their TFMS badge while retaining the
+  source-verified descriptions of the assessed tasks.
+- Generate the badge palette from the existing QTI package maker CAM16 wheel, using
+  fixed hues and balanced light/dark mode pairs. Give the four common classes
+  distinct red MC, violet WOMC, magenta TFMS, and warm-brown Matching colors.
+- Distinguish `FIB_PLUS` records as `MULTI_FIB` with a `Multi-FiB` badge and
+  matching cached title suffixes.
+- Use 14px type badges in both topic download rows and the catalog.
+- Move type badges from variable positions after topic titles to the start of each
+  download row; align badges before titles in the All Questions index. Let each badge
+  fit its label rather than stretching short labels to a fixed width.
+  Emit the markup during the Python site build, with CSS handling only presentation.
+- Align paired MATCH/WOMC titles in `problem_set_titles.yml` using the same subject
+  wording with format labels at the end.
+- Align related restriction-digest, fatty-acid, enzyme-condition, peptide-sequence,
+  and paternity-test titles while retaining their distinguishing parameters.
+- Align format and content variants for pedigrees, consensus sequences, transcription,
+  box plots, monosaccharide classification, restriction-enzyme cut types, and offspring
+  counts; use "Enzyme Catalytic Strategies" across MATCH, WOMC, and TFMS titles.
+- Shorten question-format labels to `FiB`, `MC`, `MA`, `NUM`, `TFMS`, and `MULTI_FIB` in cached
+  titles and title-generation instructions. Record the canonical spellings in
+  [PROBLEM_TITLE_ABBREVIATIONS.md](PROBLEM_TITLE_ABBREVIATIONS.md).
+- Curate titles for instructors selecting course material: lead with the topic and
+  assessed skill, replace format-first boilerplate, and explain variant differences
+  using source-verified content instead of opaque type, level, or course codes.
+- Record the instructor audience in [HUMAN_GUIDANCE.md](HUMAN_GUIDANCE.md) and update
+  title-generation guidance and examples to follow the catalog conventions.
+- Audit response formats against every generated bank and add consistent final format
+  labels. Identify TFMS and WOMC generator families among MC records,
+  distinguish generator-variable MC/NUM banks and multiple-blank `MULTI_FIB`
+  sets, and document `ORD` for ordering questions.
+- Correct titles that conceal content or tasks, including functional-group bond types,
+  alpha-amino-acid identification, Wordle pentapeptides, protonation states, and
+  serial-dilution volumes; normalize difficulty qualifier capitalization.
+- Correct gene-pair distance and monohybrid Punnett-square scope; distinguish
+  macromolecule banks by names and properties and amino-acid variants by structure diagrams.
+- Inspect all TFMS bank stems so titles describe their assessed task; 33 banks
+  evaluate statements and 14 use other MC prompts. Clarify second-messenger
+  identification, the 2022 Nobel Prize scope, and reciprocal epistasis-ratio
+  tasks. Update the title prompt and abbreviation guide accordingly.
+
+### Developer Tests and Notes
+
+- Regenerate all 55 topic pages and the 478-entry question index. Pass the MkDocs build,
+  12 focused renderer/download tests, `pyflakes`, and whitespace checks. Verify badges
+  on desktop and mobile in light and dark themes across eight browser cases, including
+  noninteractive labels, no horizontal overflow, and keyboard-operated previews.
+- Recheck source-specific MC/NUM badges and the final CAM16 palette in desktop
+  and mobile browser views, including light/dark colors, distinct common types,
+  download controls, and no horizontal overflow.
+- Measure all 18 badge text/background pairs at 6.77:1 contrast or higher and verify
+  that each CSS pair matches the fixed CAM16 wheel. Preserve all
+  379 title keys and parallel MATCH/WOMC content names while introducing explicit MC subtypes.
+- Validate all 379 titles as nonempty strings with unique, unchanged cache keys;
+  verify parallel names for all 51 MATCH/WOMC pairs and pass `git diff --check`.
+- Verify abbreviation replacements preserve all title keys and parallel pairs;
+  check the title-generation module with `pyflakes`.
+- Verify catalog titles keep all keys and paired base names, and smoke-check the
+  instructor prompt. Check enzyme tasks, tree sizes, and course variants against
+  their generator or bank sources.
+- Verify all 379 titles against the response formats present in their generated BBQ
+  records and retain all 51 parallel MATCH/WOMC pairs.
+- Recheck every TFMS question stem: 33 banks evaluate statements and 14 use other MC
+  tasks. Confirm unchanged unique keys, all 51 parallel pairs, and passing `pyflakes`
+  and whitespace checks after the final wording corrections.
+
 ## 2026-09-23
 
 ### Additions and New Features

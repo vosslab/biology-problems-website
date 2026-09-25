@@ -5,6 +5,7 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 ## Gene Expression Fold Change from RT-qPCR Data
 
 <div id="RT-qPCR-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-RT-qPCR-questions.txt" download title="Download bbq-RT-qPCR-questions.txt" aria-label="Click to download the BBQ Text file (bbq-RT-qPCR-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -34,9 +35,10 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 </details>
 
 
-## True/False Statements About Long-Distance PCR
+## Long-Distance PCR
 
 <div id="TFMS-long_run_pcr-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-long_run_pcr-questions.txt" download title="Download bbq-TFMS-long_run_pcr-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-long_run_pcr-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -58,7 +60,7 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Long-Distance PCR
+      Long-Distance PCR
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -69,9 +71,10 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 </details>
 
 
-## True/False Statements About PCR Components
+## PCR Components
 
 <div id="TFMS-pcr_components-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-pcr_components-questions.txt" download title="Download bbq-TFMS-pcr_components-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-pcr_components-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -93,7 +96,7 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About PCR Components
+      PCR Components
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -104,9 +107,10 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 </details>
 
 
-## True/False Statements About Efficient PCR Primers
+## Efficient PCR Primers
 
 <div id="TFMS-pcr_primers-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-pcr_primers-questions.txt" download title="Download bbq-TFMS-pcr_primers-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-pcr_primers-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -128,7 +132,7 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Efficient PCR Primers
+      Efficient PCR Primers
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -139,9 +143,10 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 </details>
 
 
-## True/False Statements About PCR Step Order
+## PCR Step Order
 
 <div id="TFMS-pcr_step_order-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-pcr_step_order-questions.txt" download title="Download bbq-TFMS-pcr_step_order-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-pcr_step_order-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -163,7 +168,7 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About PCR Step Order
+      PCR Step Order
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -177,6 +182,7 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 ## Degenerate Primer Codes from Sequence Alignments
 
 <div id="consensus_sequence_FIB-arbitrary_code-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" download title="Download bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" aria-label="Click to download the BBQ Text file (bbq-consensus_sequence_FIB-arbitrary_code-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -206,9 +212,10 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 </details>
 
 
-## Consensus Sequences from Simple Alignments (Fill in the Blank)
+## Consensus Sequences from Alignments (Easy)
 
 <div id="consensus_sequence_FIB-easy-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-easy-questions.txt" download title="Download bbq-consensus_sequence_FIB-easy-questions.txt" aria-label="Click to download the BBQ Text file (bbq-consensus_sequence_FIB-easy-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -227,7 +234,7 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Consensus Sequences from Simple Alignments (Fill in the Blank)
+      Consensus Sequences from Alignments (Easy)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -238,9 +245,10 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 </details>
 
 
-## Consensus Sequences from Tables (Fill in the Blank)
+## Consensus Sequences from Alignments (Hard)
 
 <div id="consensus_sequence_FIB-hard-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-hard-questions.txt" download title="Download bbq-consensus_sequence_FIB-hard-questions.txt" aria-label="Click to download the BBQ Text file (bbq-consensus_sequence_FIB-hard-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -259,7 +267,7 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Consensus Sequences from Tables (Fill in the Blank)
+      Consensus Sequences from Alignments (Hard)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -270,9 +278,10 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 </details>
 
 
-## Consensus Sequences from Alignments (Multiple Choice)
+## Consensus Sequences from Alignments
 
 <div id="consensus_sequence_MC-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-consensus_sequence_MC-questions.txt" download title="Download bbq-consensus_sequence_MC-questions.txt" aria-label="Click to download the BBQ Text file (bbq-consensus_sequence_MC-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -291,7 +300,7 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Consensus Sequences from Alignments (Multiple Choice)
+      Consensus Sequences from Alignments
     </span>
     <span style='font-weight: normal;'>
       example problem

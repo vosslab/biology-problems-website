@@ -4,9 +4,10 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 
 **LibreTexts reference:** [Unit 1, Chapter 1: Molecules of Life](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.01%3A_Molecules_of_Life) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.01%3A_Molecules_of_Life" target="_blank" rel="noopener" aria-label="LibreTexts Unit 1, Chapter 1" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
-## Matching Biochemical Functional Groups to Descriptions
+## Biochemical Functional Groups from Descriptions
 
 <div id="MATCH-biochemical_functional_groups-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-biochemical_functional_groups-questions.txt" download title="Download bbq-MATCH-biochemical_functional_groups-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-biochemical_functional_groups-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -28,7 +29,7 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Biochemical Functional Groups to Descriptions
+      Biochemical Functional Groups from Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -39,9 +40,10 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 </details>
 
 
-## Matching Chemical Bond Types to Characteristics
+## Chemical Bond Types from Characteristics
 
 <div id="MATCH-bond_types-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-bond_types-questions.txt" download title="Download bbq-MATCH-bond_types-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-bond_types-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -63,7 +65,7 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Chemical Bond Types to Characteristics
+      Chemical Bond Types from Characteristics
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -74,9 +76,10 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 </details>
 
 
-## Matching Macromolecule Types to Descriptions (Reduced Set)
+## Macromolecule Classification (Names and Properties)
 
 <div id="MATCH-macromolecules-biol301-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-macromolecules-biol301-questions.txt" download title="Download bbq-MATCH-macromolecules-biol301-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-macromolecules-biol301-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -98,7 +101,7 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Macromolecule Types to Descriptions (Reduced Set)
+      Macromolecule Classification (Names and Properties)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -109,9 +112,10 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 </details>
 
 
-## Matching Macromolecule Types to Descriptions (Full Set)
+## Macromolecule Classification (Molecule Names)
 
 <div id="MATCH-macromolecules-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-macromolecules-questions.txt" download title="Download bbq-MATCH-macromolecules-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-macromolecules-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -133,7 +137,7 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Macromolecule Types to Descriptions (Full Set)
+      Macromolecule Classification (Molecule Names)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -147,6 +151,7 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 ## Biochemical Functional Groups from Descriptions
 
 <div id="WOMC-biochemical_functional_groups-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-biochemical_functional_groups-questions.txt" download title="Download bbq-WOMC-biochemical_functional_groups-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-biochemical_functional_groups-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -179,9 +184,10 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 </details>
 
 
-## Types of Chemical Bonds from Examples
+## Chemical Bond Types from Characteristics
 
 <div id="WOMC-bond_types-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-bond_types-questions.txt" download title="Download bbq-WOMC-bond_types-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-bond_types-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -203,7 +209,7 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Types of Chemical Bonds from Examples
+      Chemical Bond Types from Characteristics
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -214,9 +220,10 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 </details>
 
 
-## Macromolecule Types from Descriptions (Reduced Set)
+## Macromolecule Classification (Names and Properties)
 
 <div id="WOMC-macromolecules-biol301-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-macromolecules-biol301-questions.txt" download title="Download bbq-WOMC-macromolecules-biol301-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-macromolecules-biol301-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -238,7 +245,7 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Macromolecule Types from Descriptions (Reduced Set)
+      Macromolecule Classification (Names and Properties)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -249,9 +256,10 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 </details>
 
 
-## Macromolecule Types from Examples (Full Set)
+## Macromolecule Classification (Molecule Names)
 
 <div id="WOMC-macromolecules-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-macromolecules-questions.txt" download title="Download bbq-WOMC-macromolecules-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-macromolecules-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -273,7 +281,7 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Macromolecule Types from Examples (Full Set)
+      Macromolecule Classification (Molecule Names)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -287,6 +295,7 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 ## Hydrophobic Compounds from Molecular Formulas
 
 <div id="which_hydrophobic-simple-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-which_hydrophobic-simple-questions.txt" download title="Download bbq-which_hydrophobic-simple-questions.txt" aria-label="Click to download the BBQ Text file (bbq-which_hydrophobic-simple-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -322,6 +331,7 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 ## Macromolecule Types from Chemical Structures
 
 <div id="which_macromolecule-MC-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-which_macromolecule-MC-questions.txt" download title="Download bbq-which_macromolecule-MC-questions.txt" aria-label="Click to download the BBQ Text file (bbq-which_macromolecule-MC-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>

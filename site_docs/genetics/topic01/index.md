@@ -4,9 +4,10 @@ Students identify common genetic disorders and describe basic inheritance patter
 
 **LibreTexts reference:** [Chapter 1: Foundations of Genetic Disorders](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/01:_Foundations_of_Genetic_Disorders) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/01:_Foundations_of_Genetic_Disorders" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 1" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
-## Genetic Disorders (Matching)
+## Genetic Disorders
 
 <div id="MATCH-genetic_disorders-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-genetic_disorders-questions.txt" download title="Download bbq-MATCH-genetic_disorders-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-genetic_disorders-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -28,7 +29,7 @@ Students identify common genetic disorders and describe basic inheritance patter
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Genetic Disorders (Matching)
+      Genetic Disorders
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -39,9 +40,10 @@ Students identify common genetic disorders and describe basic inheritance patter
 </details>
 
 
-## Genetic Disorders (Multiple Choice)
+## Genetic Disorders
 
 <div id="WOMC-genetic_disorders-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-genetic_disorders-questions.txt" download title="Download bbq-WOMC-genetic_disorders-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-genetic_disorders-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -63,7 +65,7 @@ Students identify common genetic disorders and describe basic inheritance patter
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Genetic Disorders (Multiple Choice)
+      Genetic Disorders
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -77,6 +79,7 @@ Students identify common genetic disorders and describe basic inheritance patter
 ## Bacterial Nutrient Requirements in Mutant Metabolic Pathways (5 Metabolites)
 
 <div id="beadle_tatum-metabolic_pathway-5_metabolites-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt" download title="Download bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt" aria-label="Click to download the BBQ Text file (bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>

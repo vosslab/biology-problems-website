@@ -5,6 +5,7 @@ Students convert raw scores to z-scores, use z-score thresholds to classify obse
 ## Z-Scores in Google Sheets
 
 <div id="z_score_google_sheet-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-z_score_google_sheet-questions.txt" download title="Download bbq-z_score_google_sheet-questions.txt" aria-label="Click to download the BBQ Text file (bbq-z_score_google_sheet-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -34,9 +35,10 @@ Students convert raw scores to z-scores, use z-score thresholds to classify obse
 </details>
 
 
-## Lowest Biodiversity Scores Using Z-Scores
+## Biodiversity Comparisons Using Z-Scores
 
 <div id="z_score_table_interp-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-z_score_table_interp-questions.txt" download title="Download bbq-z_score_table_interp-questions.txt" aria-label="Click to download the BBQ Text file (bbq-z_score_table_interp-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -55,7 +57,7 @@ Students convert raw scores to z-scores, use z-score thresholds to classify obse
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Lowest Biodiversity Scores Using Z-Scores
+      Biodiversity Comparisons Using Z-Scores
     </span>
     <span style='font-weight: normal;'>
       example problem

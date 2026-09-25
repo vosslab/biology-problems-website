@@ -4,9 +4,10 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
 
 **LibreTexts reference:** [Unit 3, Chapter 3: Lipids](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/03%3A_Unit_3_-_Macromolecules/3.03%3A_Lipids) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/03%3A_Unit_3_-_Macromolecules/3.03%3A_Lipids" target="_blank" rel="noopener" aria-label="LibreTexts Unit 3, Chapter 3" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
-## Fatty Acid Delta Positions from Structures
+## Fatty Acid Delta Notations from Structures
 
 <div id="fatty_acid_match_delta-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-fatty_acid_match_delta-questions.txt" download title="Download bbq-fatty_acid_match_delta-questions.txt" aria-label="Click to download the BBQ Text file (bbq-fatty_acid_match_delta-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -28,7 +29,7 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Fatty Acid Delta Positions from Structures
+      Fatty Acid Delta Notations from Structures
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -42,6 +43,7 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
 ## Fatty Acid Omega Notations from Structures
 
 <div id="fatty_acid_match_omega-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-fatty_acid_match_omega-questions.txt" download title="Download bbq-fatty_acid_match_omega-questions.txt" aria-label="Click to download the BBQ Text file (bbq-fatty_acid_match_omega-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -77,6 +79,7 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
 ## Fatty Acid Double-Bond Positions in Delta Notation
 
 <div id="fatty_acid_naming_delta-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-fatty_acid_naming_delta-questions.txt" download title="Download bbq-fatty_acid_naming_delta-questions.txt" aria-label="Click to download the BBQ Text file (bbq-fatty_acid_naming_delta-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -112,6 +115,7 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
 ## Fatty Acid Double-Bond Positions in Omega Notation
 
 <div id="fatty_acid_naming_omega-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-fatty_acid_naming_omega-questions.txt" download title="Download bbq-fatty_acid_naming_omega-questions.txt" aria-label="Click to download the BBQ Text file (bbq-fatty_acid_naming_omega-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -147,6 +151,7 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
 ## Fatty Acid Chain Length and Number of Double Bonds
 
 <div id="quick_fatty_acid_colon_system-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-quick_fatty_acid_colon_system-questions.txt" download title="Download bbq-quick_fatty_acid_colon_system-questions.txt" aria-label="Click to download the BBQ Text file (bbq-quick_fatty_acid_colon_system-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -182,6 +187,7 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
 ## Lipids by Molecular Formula
 
 <div id="which_lipid-chemical_formula-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-which_lipid-chemical_formula-questions.txt" download title="Download bbq-which_lipid-chemical_formula-questions.txt" aria-label="Click to download the BBQ Text file (bbq-which_lipid-chemical_formula-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>

@@ -4,9 +4,10 @@ Students choose purification methods for proteins based on size, charge, and bin
 
 **LibreTexts reference:** [Unit 1, Chapter 5: Protein Purification](https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.05%3A_Protein_Purification) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/BCHM_355_455_Biochemistry_(Roosevelt_University)/01%3A_Unit_1_-_Proteins/1.05%3A_Protein_Purification" target="_blank" rel="noopener" aria-label="LibreTexts Unit 1, Chapter 5" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
-## Matching Cell Disruption Techniques to Descriptions
+## Cell Disruption Techniques from Descriptions
 
 <div id="MATCH-cell_disruption-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-cell_disruption-questions.txt" download title="Download bbq-MATCH-cell_disruption-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-cell_disruption-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -28,7 +29,7 @@ Students choose purification methods for proteins based on size, charge, and bin
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Cell Disruption Techniques to Descriptions
+      Cell Disruption Techniques from Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -39,9 +40,10 @@ Students choose purification methods for proteins based on size, charge, and bin
 </details>
 
 
-## Matching Column Chromatography Types to Descriptions
+## Column Chromatography Types from Descriptions
 
 <div id="MATCH-column_chromatography-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-column_chromatography-questions.txt" download title="Download bbq-MATCH-column_chromatography-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-column_chromatography-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -63,7 +65,7 @@ Students choose purification methods for proteins based on size, charge, and bin
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Column Chromatography Types to Descriptions
+      Column Chromatography Types from Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -74,9 +76,10 @@ Students choose purification methods for proteins based on size, charge, and bin
 </details>
 
 
-## Matching Macromolecule Types to Gel Components or Processes
+## Protein and Nucleic Acid Gel Electrophoresis Components
 
 <div id="MATCH-protein_v_dna_gels-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-protein_v_dna_gels-questions.txt" download title="Download bbq-MATCH-protein_v_dna_gels-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-protein_v_dna_gels-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -98,7 +101,7 @@ Students choose purification methods for proteins based on size, charge, and bin
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Macromolecule Types to Gel Components or Processes
+      Protein and Nucleic Acid Gel Electrophoresis Components
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -112,6 +115,7 @@ Students choose purification methods for proteins based on size, charge, and bin
 ## Cell Disruption Techniques from Descriptions
 
 <div id="WOMC-cell_disruption-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-cell_disruption-questions.txt" download title="Download bbq-WOMC-cell_disruption-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-cell_disruption-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -147,6 +151,7 @@ Students choose purification methods for proteins based on size, charge, and bin
 ## Column Chromatography Types from Descriptions
 
 <div id="WOMC-column_chromatography-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-column_chromatography-questions.txt" download title="Download bbq-WOMC-column_chromatography-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-column_chromatography-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -179,9 +184,10 @@ Students choose purification methods for proteins based on size, charge, and bin
 </details>
 
 
-## Macromolecule Types from Gel Electrophoresis Descriptions
+## Protein and Nucleic Acid Gel Electrophoresis Components
 
 <div id="WOMC-protein_v_dna_gels-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-protein_v_dna_gels-questions.txt" download title="Download bbq-WOMC-protein_v_dna_gels-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-protein_v_dna_gels-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -203,7 +209,7 @@ Students choose purification methods for proteins based on size, charge, and bin
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Macromolecule Types from Gel Electrophoresis Descriptions
+      Protein and Nucleic Acid Gel Electrophoresis Components
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -217,6 +223,7 @@ Students choose purification methods for proteins based on size, charge, and bin
 ## Protein Net Charge at a Given pH
 
 <div id="isoelectric_one_protein-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-isoelectric_one_protein-questions.txt" download title="Download bbq-isoelectric_one_protein-questions.txt" aria-label="Click to download the BBQ Text file (bbq-isoelectric_one_protein-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -252,6 +259,7 @@ Students choose purification methods for proteins based on size, charge, and bin
 ## Protein Migration Direction in Isoelectric Focusing
 
 <div id="isoelectric_two_proteins-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-isoelectric_two_proteins-questions.txt" download title="Download bbq-isoelectric_two_proteins-questions.txt" aria-label="Click to download the BBQ Text file (bbq-isoelectric_two_proteins-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -287,6 +295,7 @@ Students choose purification methods for proteins based on size, charge, and bin
 ## Protein Molecular Weight from an SDS-PAGE Ladder
 
 <div id="kaleidoscope_ladder_unknown_band-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-kaleidoscope_ladder_unknown_band-questions.txt" download title="Download bbq-kaleidoscope_ladder_unknown_band-questions.txt" aria-label="Click to download the BBQ Text file (bbq-kaleidoscope_ladder_unknown_band-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -322,6 +331,7 @@ Students choose purification methods for proteins based on size, charge, and bin
 ## Protein Molecular Weight from SDS-PAGE Migration
 
 <div id="protein_gel_migration-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-protein_gel_migration-questions.txt" download title="Download bbq-protein_gel_migration-questions.txt" aria-label="Click to download the BBQ Text file (bbq-protein_gel_migration-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -357,6 +367,7 @@ Students choose purification methods for proteins based on size, charge, and bin
 ## Isoelectric Point from pKa Values
 
 <div id="titration_pI-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-titration_pI-questions.txt" download title="Download bbq-titration_pI-questions.txt" aria-label="Click to download the BBQ Text file (bbq-titration_pI-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>

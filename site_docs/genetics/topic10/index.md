@@ -4,9 +4,10 @@ Students calculate allele and genotype frequencies in populations, apply the Har
 
 **LibreTexts reference:** [Chapter 10: Population Genetics](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/10:_Population_Genetics) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/10:_Population_Genetics" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 10" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
-## Matching Population Genetic Terms
+## Population Genetics Terms from Definitions
 
 <div id="MATCH-population_genetics_terms-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-population_genetics_terms-questions.txt" download title="Download bbq-MATCH-population_genetics_terms-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-population_genetics_terms-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -28,7 +29,7 @@ Students calculate allele and genotype frequencies in populations, apply the Har
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Population Genetic Terms
+      Population Genetics Terms from Definitions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -39,9 +40,10 @@ Students calculate allele and genotype frequencies in populations, apply the Har
 </details>
 
 
-## True/False Statements About Hardy-Weinberg Equilibrium Conditions
+## Hardy-Weinberg Equilibrium Conditions
 
 <div id="TFMS-h-w_non-evolve_criteria-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-TFMS-h-w_non-evolve_criteria-questions.txt" download title="Download bbq-TFMS-h-w_non-evolve_criteria-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-h-w_non-evolve_criteria-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -63,7 +65,7 @@ Students calculate allele and genotype frequencies in populations, apply the Har
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      True/False Statements About Hardy-Weinberg Equilibrium Conditions
+      Hardy-Weinberg Equilibrium Conditions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -77,6 +79,7 @@ Students calculate allele and genotype frequencies in populations, apply the Har
 ## Population Genetics Terms from Definitions
 
 <div id="WOMC-population_genetics_terms-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-population_genetics_terms-questions.txt" download title="Download bbq-WOMC-population_genetics_terms-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-population_genetics_terms-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -112,6 +115,7 @@ Students calculate allele and genotype frequencies in populations, apply the Har
 ## Hardy-Weinberg Variables from Population Data
 
 <div id="hardy_weinberg_mc_type-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-hardy_weinberg_mc_type-questions.txt" download title="Download bbq-hardy_weinberg_mc_type-questions.txt" aria-label="Click to download the BBQ Text file (bbq-hardy_weinberg_mc_type-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -141,9 +145,10 @@ Students calculate allele and genotype frequencies in populations, apply the Har
 </details>
 
 
-## Hardy-Weinberg Allele and Genotype Frequencies from Population Data (Numeric)
+## Hardy-Weinberg Allele and Genotype Frequencies from Population Data
 
 <div id="hardy_weinberg_numeric-NUM-5_choices-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-hardy_weinberg_numeric-NUM-5_choices-questions.txt" download title="Download bbq-hardy_weinberg_numeric-NUM-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-hardy_weinberg_numeric-NUM-5_choices-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -162,7 +167,7 @@ Students calculate allele and genotype frequencies in populations, apply the Har
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Hardy-Weinberg Allele and Genotype Frequencies from Population Data (Numeric)
+      Hardy-Weinberg Allele and Genotype Frequencies from Population Data
     </span>
     <span style='font-weight: normal;'>
       example problem

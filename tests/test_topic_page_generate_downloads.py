@@ -10,8 +10,10 @@ import pathlib
 
 # PIP3 modules
 import pytest
+from bs4 import BeautifulSoup
 
 # local repo modules
+import bioproblems_site.problem_set_display as problem_set_display
 import bioproblems_site.topic_page as topic_page
 
 
@@ -104,6 +106,24 @@ def test_bbq_text_uses_canonical_source_format_label(tmp_path: object) -> object
 
 	assert "BBQ Text" in button_html
 	assert "Blackboard Learn TXT" not in button_html
+
+
+#============================================
+def test_question_type_badge_starts_download_row(tmp_path: pathlib.Path) -> None:
+	"""The generated type label precedes the actions as static metadata."""
+	bbq_file = tmp_path / 'bbq-TFMS-dna_structure-questions.txt'
+	bbq_file.write_text('MC\tQ1\n*A\tyes\nB\tno\n')
+	badge = problem_set_display.render_badges(
+		'DNA Structure (TFMS)', source_path=bbq_file,
+	)
+	row = topic_page.generate_download_button_row(
+		str(bbq_file), ['bb_text'], force_downloads=False,
+		verbose=False, stats={}, question_type_badge=badge,
+	)
+	soup = BeautifulSoup(row, 'html.parser')
+	assert soup.div.find_all(recursive=False)[0].name == 'span'
+	assert soup.div.find('abbr').get_text() == 'T/F Statements (MC)'
+	assert soup.div.find('a').get_text(strip=True) == 'BBQ Text'
 
 
 #============================================

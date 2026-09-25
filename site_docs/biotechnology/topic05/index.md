@@ -2,9 +2,10 @@
 
 Students assess gene therapy, viral vectors, genome editing (ZFNs, TALENs, CRISPR), stem cells, iPSC therapies, CAR-T therapy, cancer gene therapy, and prime editing.
 
-## Matching Genetic Disease Treatment Methods to Descriptions
+## Genetic Disease Treatment Methods from Descriptions
 
 <div id="MATCH-gene_therapy_v_edit-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-gene_therapy_v_edit-questions.txt" download title="Download bbq-MATCH-gene_therapy_v_edit-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-gene_therapy_v_edit-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -26,7 +27,7 @@ Students assess gene therapy, viral vectors, genome editing (ZFNs, TALENs, CRISP
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Genetic Disease Treatment Methods to Descriptions
+      Genetic Disease Treatment Methods from Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -37,9 +38,10 @@ Students assess gene therapy, viral vectors, genome editing (ZFNs, TALENs, CRISP
 </details>
 
 
-## Matching Stem Cell Potency Levels to Definitions
+## Stem Cell Potency Levels from Definitions
 
 <div id="MATCH-stem_cell_potency-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-MATCH-stem_cell_potency-questions.txt" download title="Download bbq-MATCH-stem_cell_potency-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-stem_cell_potency-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -61,7 +63,7 @@ Students assess gene therapy, viral vectors, genome editing (ZFNs, TALENs, CRISP
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Matching Stem Cell Potency Levels to Definitions
+      Stem Cell Potency Levels from Definitions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -75,6 +77,7 @@ Students assess gene therapy, viral vectors, genome editing (ZFNs, TALENs, CRISP
 ## Genetic Disease Treatment Methods from Descriptions
 
 <div id="WOMC-gene_therapy_v_edit-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-gene_therapy_v_edit-questions.txt" download title="Download bbq-WOMC-gene_therapy_v_edit-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-gene_therapy_v_edit-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -110,6 +113,7 @@ Students assess gene therapy, viral vectors, genome editing (ZFNs, TALENs, CRISP
 ## Stem Cell Potency Levels from Definitions
 
 <div id="WOMC-stem_cell_potency-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-WOMC-stem_cell_potency-questions.txt" download title="Download bbq-WOMC-stem_cell_potency-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-stem_cell_potency-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>

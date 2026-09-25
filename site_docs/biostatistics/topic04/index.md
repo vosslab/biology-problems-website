@@ -5,6 +5,7 @@ Students apply the normal distribution to calculate probabilities, use z-tables,
 ## Hardy-Weinberg Variables from Population Data
 
 <div id="hardy_weinberg_mc_type-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-hardy_weinberg_mc_type-questions.txt" download title="Download bbq-hardy_weinberg_mc_type-questions.txt" aria-label="Click to download the BBQ Text file (bbq-hardy_weinberg_mc_type-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -34,9 +35,10 @@ Students apply the normal distribution to calculate probabilities, use z-tables,
 </details>
 
 
-## Hardy-Weinberg Allele and Genotype Frequencies from Population Data (Numeric)
+## Hardy-Weinberg Allele and Genotype Frequencies from Population Data
 
 <div id="hardy_weinberg_numeric-NUM-5_choices-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-hardy_weinberg_numeric-NUM-5_choices-questions.txt" download title="Download bbq-hardy_weinberg_numeric-NUM-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-hardy_weinberg_numeric-NUM-5_choices-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -55,7 +57,7 @@ Students apply the normal distribution to calculate probabilities, use z-tables,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Hardy-Weinberg Allele and Genotype Frequencies from Population Data (Numeric)
+      Hardy-Weinberg Allele and Genotype Frequencies from Population Data
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -69,6 +71,7 @@ Students apply the normal distribution to calculate probabilities, use z-tables,
 ## Parent Genotypes in X-Linked Recessive Crosses
 
 <div id="poisson_flies-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-poisson_flies-questions.txt" download title="Download bbq-poisson_flies-questions.txt" aria-label="Click to download the BBQ Text file (bbq-poisson_flies-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -104,6 +107,7 @@ Students apply the normal distribution to calculate probabilities, use z-tables,
 ## Offspring Sex Distribution Using the Binomial Model
 
 <div id="probabiliy_of_progeny-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-probabiliy_of_progeny-questions.txt" download title="Download bbq-probabiliy_of_progeny-questions.txt" aria-label="Click to download the BBQ Text file (bbq-probabiliy_of_progeny-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
