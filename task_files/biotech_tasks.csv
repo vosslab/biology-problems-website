@@ -26,7 +26,7 @@ biotechnology,nucleic_acid_biotech,{bp_root}/molecular_biology-problems/pcr_desi
 ,,,,,
 biotechnology,protein_biotech,YMATCH,,{bp_match}/laboratory/protein_v_dna_gels.yml,
 biotechnology,protein_biotech,YMATCH,,{bp_match}/biotechnology/proteomics_v_metabolomics.yml,
-biotechnology,biotech_basics,YMCS,,{bp_mcs}/biotechnology/protein_stability.yml,
+biotechnology,protein_biotech,YMCS,,{bp_mcs}/biotechnology/protein_stability.yml,
 biotechnology,protein_biotech,{bp_root}/biochemistry-problems/electrophoresis/isoelectric_one_protein.py,,,
 biotechnology,protein_biotech,{bp_root}/biochemistry-problems/electrophoresis/kaleidoscope_ladder/kaleidoscope_ladder_unknown_band.py,--mc,,
 biotechnology,protein_biotech,{bp_root}/biochemistry-problems/electrophoresis/kaleidoscope_ladder/kaleidoscope_ladder_unknown_band.py,--num,,

@@ -2,41 +2,6 @@
 
 Students explore the history of biotechnology, model organisms, bacteriophage, cell culture, subviral agents, the central dogma, and endosymbiotic theory.
 
-## Biotechnology and Related Industries from Project Descriptions
-
-<div id="MATCH-biotech_vs-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-MATCH-biotech_vs-questions.txt" download title="Download bbq-MATCH-biotech_vs-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-biotech_vs-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-biotech_vs.zip" download title="Download blackboard_export_zip-MATCH-biotech_vs.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-biotech_vs.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-biotech_vs.zip" download title="Download canvas_qti_v1_2-MATCH-biotech_vs.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-biotech_vs.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-biotech_vs.html', '_blank')" title="View human_readable-MATCH-biotech_vs.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-biotech_vs.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/biotech_vs-matching.pgml" download title="Download biotech_vs-matching.pgml" aria-label="Click to download the WeBWorK PGML file (biotech_vs-matching.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Biotechnology and Related Industries from Project Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-
-</details>
-
-
 ## Biotechnology and Related Industries from Project Descriptions (Traditional vs. Modern)
 
 <div id="MATCH-biotech_vs_improved-button-container" class="button-container">
@@ -105,41 +70,6 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
     </span>
   </summary>
   {% include "biotechnology/topic01/downloads/selftest-MATCH-biotechnology_periods_and_milestones.html" %}
-
-</details>
-
-
-## Culture Enrichment Methods from Descriptions
-
-<div id="MATCH-culture_enrichment-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-MATCH-culture_enrichment-questions.txt" download title="Download bbq-MATCH-culture_enrichment-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-culture_enrichment-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-culture_enrichment.zip" download title="Download blackboard_export_zip-MATCH-culture_enrichment.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-culture_enrichment.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-culture_enrichment.zip" download title="Download canvas_qti_v1_2-MATCH-culture_enrichment.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-culture_enrichment.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-culture_enrichment.html', '_blank')" title="View human_readable-MATCH-culture_enrichment.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-culture_enrichment.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/culture_enrichment-matching.pgml" download title="Download culture_enrichment-matching.pgml" aria-label="Click to download the WeBWorK PGML file (culture_enrichment-matching.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Culture Enrichment Methods from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
 
 </details>
 
@@ -324,112 +254,6 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 </details>
 
 
-## 2022 Nobel Prize Topics
-
-<div id="TFMS-nobel_prizes-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-TFMS-nobel_prizes-questions.txt" download title="Download bbq-TFMS-nobel_prizes-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-nobel_prizes-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-nobel_prizes.zip" download title="Download blackboard_export_zip-TFMS-nobel_prizes.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-nobel_prizes.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-nobel_prizes.zip" download title="Download canvas_qti_v1_2-TFMS-nobel_prizes.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-nobel_prizes.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-nobel_prizes.html', '_blank')" title="View human_readable-TFMS-nobel_prizes.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-nobel_prizes.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/nobel_prizes.pg" download title="Download nobel_prizes.pg" aria-label="Click to download the WeBWorK PGML file (nobel_prizes.pg)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      2022 Nobel Prize Topics
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-
-</details>
-
-
-## Protein Stability
-
-<div id="TFMS-protein_stability-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-TFMS-protein_stability-questions.txt" download title="Download bbq-TFMS-protein_stability-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-protein_stability-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-protein_stability.zip" download title="Download blackboard_export_zip-TFMS-protein_stability.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-protein_stability.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-protein_stability.zip" download title="Download canvas_qti_v1_2-TFMS-protein_stability.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-protein_stability.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-protein_stability.html', '_blank')" title="View human_readable-TFMS-protein_stability.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-protein_stability.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/protein_stability.pg" download title="Download protein_stability.pg" aria-label="Click to download the WeBWorK PGML file (protein_stability.pg)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Protein Stability
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  {% include "biotechnology/topic01/downloads/selftest-TFMS-protein_stability.html" %}
-
-</details>
-
-
-## Biotechnology and Related Industries from Project Descriptions
-
-<div id="WOMC-biotech_vs-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-WOMC-biotech_vs-questions.txt" download title="Download bbq-WOMC-biotech_vs-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-biotech_vs-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-biotech_vs.zip" download title="Download blackboard_export_zip-WOMC-biotech_vs.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-biotech_vs.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-biotech_vs.zip" download title="Download canvas_qti_v1_2-WOMC-biotech_vs.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-biotech_vs.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-biotech_vs.html', '_blank')" title="View human_readable-WOMC-biotech_vs.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-biotech_vs.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/biotech_vs-which_one.pgml" download title="Download biotech_vs-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (biotech_vs-which_one.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Biotechnology and Related Industries from Project Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-
-</details>
-
-
 ## Biotechnology and Related Industries from Project Descriptions (Traditional vs. Modern)
 
 <div id="WOMC-biotech_vs_improved-button-container" class="button-container">
@@ -498,41 +322,6 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
     </span>
   </summary>
   {% include "biotechnology/topic01/downloads/selftest-WOMC-biotechnology_periods_and_milestones.html" %}
-
-</details>
-
-
-## Culture Enrichment Methods from Descriptions
-
-<div id="WOMC-culture_enrichment-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-WOMC-culture_enrichment-questions.txt" download title="Download bbq-WOMC-culture_enrichment-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-culture_enrichment-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-culture_enrichment.zip" download title="Download blackboard_export_zip-WOMC-culture_enrichment.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-culture_enrichment.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-culture_enrichment.zip" download title="Download canvas_qti_v1_2-WOMC-culture_enrichment.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-culture_enrichment.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-culture_enrichment.html', '_blank')" title="View human_readable-WOMC-culture_enrichment.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-culture_enrichment.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/culture_enrichment-which_one.pgml" download title="Download culture_enrichment-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (culture_enrichment-which_one.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Culture Enrichment Methods from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
 
 </details>
 
@@ -738,38 +527,6 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 </details>
 
 
-## mRNA Sequences from DNA Templates
-
-<div id="rna_transcribe_fill_blank-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-rna_transcribe_fill_blank-questions.txt" download title="Download bbq-rna_transcribe_fill_blank-questions.txt" aria-label="Click to download the BBQ Text file (bbq-rna_transcribe_fill_blank-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-rna_transcribe_fill_blank.zip" download title="Download blackboard_export_zip-rna_transcribe_fill_blank.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-rna_transcribe_fill_blank.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-rna_transcribe_fill_blank.zip" download title="Download canvas_qti_v1_2-rna_transcribe_fill_blank.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-rna_transcribe_fill_blank.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-rna_transcribe_fill_blank.html', '_blank')" title="View human_readable-rna_transcribe_fill_blank.html" aria-label="Click to view the Human-Readable TXT file (human_readable-rna_transcribe_fill_blank.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      mRNA Sequences from DNA Templates
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-
-</details>
-
-
 ## mRNA Sequences from DNA Templates (5&#x27; and 3&#x27; Direction)
 
 <div id="rna_transcribe_prime-len_9-button-container" class="button-container">
@@ -799,72 +556,6 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
     </span>
   </summary>
   {% include "biotechnology/topic01/downloads/selftest-rna_transcribe_prime-len_9.html" %}
-
-</details>
-
-
-## mRNA Sequences from DNA Templates (5&#x27; and 3&#x27; Direction)
-
-<div id="rna_transcribe_prime_fill_blank-len_9-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-rna_transcribe_prime_fill_blank-len_9-questions.txt" download title="Download bbq-rna_transcribe_prime_fill_blank-len_9-questions.txt" aria-label="Click to download the BBQ Text file (bbq-rna_transcribe_prime_fill_blank-len_9-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-rna_transcribe_prime_fill_blank-len_9.zip" download title="Download blackboard_export_zip-rna_transcribe_prime_fill_blank-len_9.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-rna_transcribe_prime_fill_blank-len_9.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-rna_transcribe_prime_fill_blank-len_9.zip" download title="Download canvas_qti_v1_2-rna_transcribe_prime_fill_blank-len_9.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-rna_transcribe_prime_fill_blank-len_9.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-rna_transcribe_prime_fill_blank-len_9.html', '_blank')" title="View human_readable-rna_transcribe_prime_fill_blank-len_9.html" aria-label="Click to view the Human-Readable TXT file (human_readable-rna_transcribe_prime_fill_blank-len_9.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      mRNA Sequences from DNA Templates (5&#x27; and 3&#x27; Direction)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  {% include "biotechnology/topic01/downloads/selftest-rna_transcribe_prime_fill_blank-len_9.html" %}
-
-</details>
-
-
-## Peptide Sequences from mRNA Using the Genetic Code (10 Amino Acids)
-
-<div id="translate_genetic_code-10_aa-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-translate_genetic_code-10_aa-questions.txt" download title="Download bbq-translate_genetic_code-10_aa-questions.txt" aria-label="Click to download the BBQ Text file (bbq-translate_genetic_code-10_aa-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-translate_genetic_code-10_aa.zip" download title="Download blackboard_export_zip-translate_genetic_code-10_aa.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-translate_genetic_code-10_aa.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-translate_genetic_code-10_aa.zip" download title="Download canvas_qti_v1_2-translate_genetic_code-10_aa.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-translate_genetic_code-10_aa.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-translate_genetic_code-10_aa.html', '_blank')" title="View human_readable-translate_genetic_code-10_aa.html" aria-label="Click to view the Human-Readable TXT file (human_readable-translate_genetic_code-10_aa.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Peptide Sequences from mRNA Using the Genetic Code (10 Amino Acids)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  {% include "biotechnology/topic01/downloads/selftest-translate_genetic_code-10_aa.html" %}
 
 </details>
 
