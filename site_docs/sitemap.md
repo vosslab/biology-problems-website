@@ -4,7 +4,7 @@
 
 Browse the generated problem sets by subject and topic. Use your browser's Find command to search all problem-set titles on this page.
 
-**478 problem sets**
+**492 problem sets**
 
 ## Biochemistry
 
@@ -562,56 +562,63 @@ Browse the generated problem sets by subject and topic. Use your browser's Find 
 
 ### Biotech Basics and Central Dogma
 
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../biotechnology/topic01/">Biotechnology and Related Industries from Project Descriptions</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../biotechnology/topic01/">Biotechnology and Related Industries from Project Descriptions (Traditional vs. Modern)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../biotechnology/topic01/">Culture Enrichment Methods from Descriptions</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span><a href="../biotechnology/topic01/">2022 Nobel Prize Topics</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../biotechnology/topic01/">Biotechnology and Related Industries from Project Descriptions</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../biotechnology/topic01/">Biotechnology Milestones by Historical Period</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../biotechnology/topic01/">Model Organisms and Their Approximate Generation Times</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../biotechnology/topic01/">Model Organism Research Concepts and Descriptions</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../biotechnology/topic01/">Model Organism Genus and Species Names to Common Names and Biological Groups</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span><a href="../biotechnology/topic01/">Fermentation Substrate Identification</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span><a href="../biotechnology/topic01/">mRNA Post-Transcriptional Modification</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span><a href="../biotechnology/topic01/">Protein Stability</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../biotechnology/topic01/">Biotechnology and Related Industries from Project Descriptions (Traditional vs. Modern)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../biotechnology/topic01/">Culture Enrichment Methods from Descriptions</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../biotechnology/topic01/">Historical Biotechnology Periods from Milestones</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../biotechnology/topic01/">Model Organism Identification from Approximate Generation Times</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../biotechnology/topic01/">Model Organisms: Selection Criteria, Benefits, Limitations, and Applications</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../biotechnology/topic01/">Model Organism Scientific Names from Common Names and Groups</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../biotechnology/topic01/">Bacterial Nutrient Requirements in Mutant Metabolic Pathways (5 Metabolites)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ord" title="Ordering">ORD</abbr></span><a href="../biotechnology/topic01/">Model Organisms Ordered by Complexity (5 Choices)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span><a href="../biotechnology/topic01/">Metabolic Pathway Precursor Order from Mutant Growth Data (4 Metabolites)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span><a href="../biotechnology/topic01/">mRNA Sequences from DNA Templates</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biotechnology/topic01/">mRNA Sequences from DNA Templates (5&#x27; and 3&#x27; Direction)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span><a href="../biotechnology/topic01/">mRNA Sequences from DNA Templates (5&#x27; and 3&#x27; Direction)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span><a href="../biotechnology/topic01/">Peptide Sequences from mRNA Using the Genetic Code (10 Amino Acids)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span><a href="../biotechnology/topic01/">mRNA Translation into a Peptide Sequence (6 Amino Acids)</a></span>
 
-### DNA and Genomics
+### DNA and Genomics Biotechnology
 
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../biotechnology/topic02/">Cell Disruption Techniques from Descriptions</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../biotechnology/topic02/">DNA Sequencing Techniques from Descriptions</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../biotechnology/topic02/">Latin Phrases and Their Meanings</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span><a href="../biotechnology/topic02/">Gene Expression Fold Change from RT-qPCR Data</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span><a href="../biotechnology/topic02/">xDNA and XNA</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../biotechnology/topic02/">Cell Disruption Techniques from Descriptions</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../biotechnology/topic02/">DNA Sequencing Techniques from Descriptions</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../biotechnology/topic02/">Latin Phrases from Their Meanings</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biotechnology/topic02/">Amplicon Copy Number After PCR Rounds</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biotechnology/topic02/">DNA Base Composition Using Chargaff&#x27;s Rules (5 Choices)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biotechnology/topic02/">Complementary DNA Sequences Without Direction Labels</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span><a href="../biotechnology/topic02/">Degenerate Primer Codes from Sequence Alignments</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span><a href="../biotechnology/topic02/">Consensus Sequences from Alignments (Easy)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span><a href="../biotechnology/topic02/">Consensus Sequences from Alignments (Hard)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biotechnology/topic02/">Consensus Sequences from Alignments</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biotechnology/topic02/">DNA Fragment Migration in Agarose Gel Electrophoresis (Closest/Farthest)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span><a href="../biotechnology/topic02/">DNA Fragment Size from Agarose Gel Migration</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biotechnology/topic02/">DNA Melting Temperature Extremes from Sequence (12 Bases)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biotechnology/topic02/">Inverse PCR Primer Selection (15 nt)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../biotechnology/topic02/">Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Fragment Diagram)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../biotechnology/topic02/">Restriction Fragment Sizes from Linear DNA Maps (12 kb, 2 Sites, Fragment Diagram)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biotechnology/topic02/">Nested PCR Primer Pair Selection (24 nt)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biotechnology/topic02/">Restriction Enzyme Overhang Sequences</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biotechnology/topic02/">Restriction Enzyme Cut Types (5&#x27;, 3&#x27;, or Blunt)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../biotechnology/topic02/">Palindromic DNA Sequence Completion</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biotechnology/topic02/">PCR Primer Selection (36 bp Template, 9-nt Primers)</a></span>
 
 ### Protein Biotechnology
 
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../biotechnology/topic03/">Protein and Nucleic Acid Gel Electrophoresis Components</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../biotechnology/topic03/">Proteomics and Metabolomics Techniques</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../biotechnology/topic03/">Protein and Nucleic Acid Gel Electrophoresis Components</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../biotechnology/topic03/">Proteomics and Metabolomics Techniques from Descriptions</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biotechnology/topic03/">Protein Net Charge at a Given pH</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biotechnology/topic03/">Protein Migration Direction in Isoelectric Focusing</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span><a href="../biotechnology/topic03/">Protein Molecular Weight from an SDS-PAGE Ladder</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span><a href="../biotechnology/topic03/">Protein Molecular Weight from SDS-PAGE Migration</a></span>
 
 ### Environmental and Synthetic Biology
 
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../biotechnology/topic04/">Culture Enrichment Methods from Descriptions</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../biotechnology/topic04/">Plant Transgenes from Functions</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span><a href="../biotechnology/topic04/">2022 Nobel Prize Topics</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span><a href="../biotechnology/topic04/">xDNA and XNA</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../biotechnology/topic04/">Culture Enrichment Methods from Descriptions</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../biotechnology/topic04/">Plant Transgenes from Functions</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ord" title="Ordering">ORD</abbr></span><a href="../biotechnology/topic04/">Environmental 16S rDNA Survey Workflow (6 Steps)</a></span>
 
 ### Medicinal Biotechnology
 
@@ -619,6 +626,16 @@ Browse the generated problem sets by subject and topic. Use your browser's Find 
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../biotechnology/topic05/">Stem Cell Potency Levels from Definitions</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../biotechnology/topic05/">Genetic Disease Treatment Methods from Descriptions</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../biotechnology/topic05/">Stem Cell Potency Levels from Definitions</a></span>
+
+### Regulation in Biotechnology
+
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../biotechnology/topic06/">Clinical Trial Phases from Descriptions</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../biotechnology/topic06/">Types of Intellectual Property from Descriptions</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../biotechnology/topic06/">Federal Agency Roles in Transgenic Crop Regulation</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span><a href="../biotechnology/topic06/">Patentable Inventions Versus Scientific Discoveries</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../biotechnology/topic06/">Clinical Trial Phases from Study Descriptions</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../biotechnology/topic06/">Types of Intellectual Property from Descriptions</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../biotechnology/topic06/">Federal Agencies by Transgenic Crop Regulatory Responsibility</a></span>
 
 ### Bioethics in Biotechnology
 

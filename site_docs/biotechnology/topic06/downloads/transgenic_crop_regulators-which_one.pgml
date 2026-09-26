@@ -1,0 +1,237 @@
+## DESCRIPTION
+## Select the federal agency that corresponds to the given regulatory job.
+## ENDDESCRIPTION
+## KEYWORDS('US regulation of transgenic crops','federal agencies','regulatory jobs','which one','multiple choice')
+## DBsubject('Biotechnology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-09-25')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserRadioButtons.pl',
+    'PGcourse.pl',
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 0;
+
+#==========================================================
+# QUESTION DATA
+#==========================================================
+
+# All questions data
+@questions_data = (
+  {
+    'item_name' => '<strong>Approves plan for a transgenic crop to be tested in a farmer\'s field (i.e. outside a laboratory).</strong>',
+    'plural_choice' => 'federal agencies',
+    'singular_item' => 'regulatory job',
+    'choices' => [
+      'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
+      'Food and Drug Administration (FDA)',
+      'National Institute of Health (NIH)',
+      'Environmental Protection Agency (EPA)',
+    ],
+    'correct' => 'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
+  },
+  {
+    'item_name' => '<strong>Decides whether a transgenic crop may be planted or moved outside the laboratory.</strong>',
+    'plural_choice' => 'federal agencies',
+    'singular_item' => 'regulatory job',
+    'choices' => [
+      'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
+      'Food and Drug Administration (FDA)',
+      'National Institute of Health (NIH)',
+      'Environmental Protection Agency (EPA)',
+    ],
+    'correct' => 'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
+  },
+  {
+    'item_name' => '<strong>Grants the permit for an outdoor field trial of a transgenic crop.</strong>',
+    'plural_choice' => 'federal agencies',
+    'singular_item' => 'regulatory job',
+    'choices' => [
+      'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
+      'Food and Drug Administration (FDA)',
+      'National Institute of Health (NIH)',
+      'Environmental Protection Agency (EPA)',
+    ],
+    'correct' => 'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
+  },
+  {
+    'item_name' => '<strong>Tests for possible allergies, toxicity, and nutrition when the transgenic crop is intended to be eaten.</strong>',
+    'plural_choice' => 'federal agencies',
+    'singular_item' => 'regulatory job',
+    'choices' => [
+      'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
+      'Food and Drug Administration (FDA)',
+      'National Institute of Health (NIH)',
+      'Environmental Protection Agency (EPA)',
+    ],
+    'correct' => 'Food and Drug Administration (FDA)',
+  },
+  {
+    'item_name' => '<strong>Reviews the safety of food made from a transgenic crop before people eat it.</strong>',
+    'plural_choice' => 'federal agencies',
+    'singular_item' => 'regulatory job',
+    'choices' => [
+      'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
+      'Food and Drug Administration (FDA)',
+      'National Institute of Health (NIH)',
+      'Center for Disease Control (CDC)',
+    ],
+    'correct' => 'Food and Drug Administration (FDA)',
+  },
+  {
+    'item_name' => '<strong>Checks whether eating a transgenic crop could cause an allergic or toxic reaction.</strong>',
+    'plural_choice' => 'federal agencies',
+    'singular_item' => 'regulatory job',
+    'choices' => [
+      'Food and Drug Administration (FDA)',
+      'National Institute of Health (NIH)',
+      'Environmental Protection Agency (EPA)',
+      'Center for Disease Control (CDC)',
+    ],
+    'correct' => 'Food and Drug Administration (FDA)',
+  },
+  {
+    'item_name' => '<strong>Provides guidelines that regulate the transgenes and where the transgenic crop can be grown.</strong>',
+    'plural_choice' => 'federal agencies',
+    'singular_item' => 'regulatory job',
+    'choices' => [
+      'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
+      'Food and Drug Administration (FDA)',
+      'National Institute of Health (NIH)',
+      'Environmental Protection Agency (EPA)',
+    ],
+    'correct' => 'National Institute of Health (NIH)',
+  },
+  {
+    'item_name' => '<strong>Sets the rules for which transgenes may be used and where the resulting crop is allowed.</strong>',
+    'plural_choice' => 'federal agencies',
+    'singular_item' => 'regulatory job',
+    'choices' => [
+      'Food and Drug Administration (FDA)',
+      'National Institute of Health (NIH)',
+      'Environmental Protection Agency (EPA)',
+      'Center for Disease Control (CDC)',
+    ],
+    'correct' => 'National Institute of Health (NIH)',
+  },
+  {
+    'item_name' => '<strong>Writes the guidelines that limit how a transgenic crop is constructed and grown.</strong>',
+    'plural_choice' => 'federal agencies',
+    'singular_item' => 'regulatory job',
+    'choices' => [
+      'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
+      'National Institute of Health (NIH)',
+      'Environmental Protection Agency (EPA)',
+      'Center for Disease Control (CDC)',
+    ],
+    'correct' => 'National Institute of Health (NIH)',
+  },
+  {
+    'item_name' => '<strong>Evaluates for potential effects on animals and insects that inhabit the farmers\' fields.</strong>',
+    'plural_choice' => 'federal agencies',
+    'singular_item' => 'regulatory job',
+    'choices' => [
+      'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
+      'Food and Drug Administration (FDA)',
+      'Environmental Protection Agency (EPA)',
+      'Center for Disease Control (CDC)',
+    ],
+    'correct' => 'Environmental Protection Agency (EPA)',
+  },
+  {
+    'item_name' => '<strong>Checks whether a transgenic crop harms insects or other animals living in the field.</strong>',
+    'plural_choice' => 'federal agencies',
+    'singular_item' => 'regulatory job',
+    'choices' => [
+      'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
+      'National Institute of Health (NIH)',
+      'Environmental Protection Agency (EPA)',
+      'Center for Disease Control (CDC)',
+    ],
+    'correct' => 'Environmental Protection Agency (EPA)',
+  },
+  {
+    'item_name' => '<strong>Assesses the environmental effect of a transgenic crop on the animals around the farm.</strong>',
+    'plural_choice' => 'federal agencies',
+    'singular_item' => 'regulatory job',
+    'choices' => [
+      'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
+      'National Institute of Health (NIH)',
+      'Environmental Protection Agency (EPA)',
+      'Center for Disease Control (CDC)',
+    ],
+    'correct' => 'Environmental Protection Agency (EPA)',
+  },
+);
+
+#==========================================================
+# SELECT RANDOM QUESTION
+#==========================================================
+
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+
+$question_idx = $local_random->random(0, scalar(@questions_data) - 1, 1);
+$q = $questions_data[$question_idx];
+
+$item_name = $q->{'item_name'};
+$plural_choice = $q->{'plural_choice'};
+$singular_item = $q->{'singular_item'};
+@choices = @{ $q->{'choices'} };
+$correct = $q->{'correct'};
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# BUILD RADIO BUTTONS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => 'ABC',
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+Which one of the following [$plural_choice]* corresponds to the [$singular_item]* [$item_name]*?
+
+[_]{$rb}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The correct answer is: [$correct]*
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+

@@ -13,6 +13,8 @@
 
 ### Fixes and Maintenance
 
+- Align biotechnology topic aliases with the approved task assignments while
+  retaining the broader DNA, environmental and synthetic biology, and regulation titles.
 - Derive displayed question-type badges from each BBQ file's first record. Shared
   `MC/NUM` cache titles now show the actual MC or NUM output in each topic and
   catalog entry; classify MC generator subtypes from their filenames.

@@ -8,20 +8,23 @@ Questions ask students to design cloning strategies with restriction enzymes and
 
 ## Topics
 
-1. [Biotech Basics and Central Dogma](topic01/index.md) <span class='topic-count' title='13 questions'>13 questions</span>
+1. [Biotech Basics and Central Dogma](topic01/index.md) <span class='topic-count' title='20 questions'>20 questions</span>
     - Students explore the history of biotechnology, model organisms, bacteriophage, cell culture, subviral agents, the central dogma, and endosymbiotic theory.
 
-2. [DNA and Genomics](topic02/index.md) <span class='topic-count' title='22 questions'>22 questions</span>
+2. [DNA and Genomics Biotechnology](topic02/index.md) <span class='topic-count' title='14 questions'>14 questions</span>
     - Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR, Sanger and next-generation sequencing, RT-qPCR, CRISPR technology, RNA interference, GWAS, and synthetic biology.
 
-3. [Protein Biotechnology](topic03/index.md) <span class='topic-count' title='4 questions'>4 questions</span>
+3. [Protein Biotechnology](topic03/index.md) <span class='topic-count' title='7 questions'>7 questions</span>
     - Students examine proteomics, western blotting, mass spectrometry, phage display, ELISA, recombinant expression systems, directed evolution, AlphaFold, cryo-EM, and de novo protein design.
 
-4. [Environmental and Synthetic Biology](topic04/index.md) <span class='topic-count' title='2 questions'>2 questions</span>
+4. [Environmental and Synthetic Biology](topic04/index.md) <span class='topic-count' title='7 questions'>7 questions</span>
     - Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, biosensors, Agrobacterium, gene guns, transgenic organisms, and GMO applications.
 
 5. [Medicinal Biotechnology](topic05/index.md) <span class='topic-count' title='4 questions'>4 questions</span>
     - Students assess gene therapy, viral vectors, genome editing (ZFNs, TALENs, CRISPR), stem cells, iPSC therapies, CAR-T therapy, cancer gene therapy, and prime editing.
 
-6. [Bioethics in Biotechnology](topic07/index.md) <span class='topic-count' title='2 questions'>2 questions</span>
+6. [Regulation in Biotechnology](topic06/index.md) <span class='topic-count' title='7 questions'>7 questions</span>
+    - Students review FDA history, clinical trial phases, the Asilomar Conference, the Coordinated Framework, biotech patents, CRISPR patent disputes, and drug regulation.
+
+7. [Bioethics in Biotechnology](topic07/index.md) <span class='topic-count' title='2 questions'>2 questions</span>
     - Students discuss scientific misconduct, GMO ethics, bioweapons, de-extinction, CRISPR babies, embryonic stem cells, biohackers, cloning ethics, and aid in dying.

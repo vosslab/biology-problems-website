@@ -2,6 +2,150 @@
 
 Students examine proteomics, western blotting, mass spectrometry, phage display, ELISA, recombinant expression systems, directed evolution, AlphaFold, cryo-EM, and de novo protein design.
 
+## Protein and Nucleic Acid Gel Electrophoresis Components
+
+<div id="MATCH-protein_v_dna_gels-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-MATCH-protein_v_dna_gels-questions.txt" download title="Download bbq-MATCH-protein_v_dna_gels-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-protein_v_dna_gels-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-protein_v_dna_gels.zip" download title="Download blackboard_export_zip-MATCH-protein_v_dna_gels.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-protein_v_dna_gels.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-protein_v_dna_gels.zip" download title="Download canvas_qti_v1_2-MATCH-protein_v_dna_gels.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-protein_v_dna_gels.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-protein_v_dna_gels.html', '_blank')" title="View human_readable-MATCH-protein_v_dna_gels.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-protein_v_dna_gels.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/protein_v_dna_gels-matching.pgml" download title="Download protein_v_dna_gels-matching.pgml" aria-label="Click to download the WeBWorK PGML file (protein_v_dna_gels-matching.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Protein and Nucleic Acid Gel Electrophoresis Components
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biotechnology/topic03/downloads/selftest-MATCH-protein_v_dna_gels.html" %}
+
+</details>
+
+
+## Proteomics and Metabolomics Techniques
+
+<div id="MATCH-proteomics_v_metabolomics-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-MATCH-proteomics_v_metabolomics-questions.txt" download title="Download bbq-MATCH-proteomics_v_metabolomics-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-proteomics_v_metabolomics-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-proteomics_v_metabolomics.zip" download title="Download blackboard_export_zip-MATCH-proteomics_v_metabolomics.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-proteomics_v_metabolomics.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-proteomics_v_metabolomics.zip" download title="Download canvas_qti_v1_2-MATCH-proteomics_v_metabolomics.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-proteomics_v_metabolomics.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-proteomics_v_metabolomics.html', '_blank')" title="View human_readable-MATCH-proteomics_v_metabolomics.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-proteomics_v_metabolomics.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/proteomics_v_metabolomics-matching.pgml" download title="Download proteomics_v_metabolomics-matching.pgml" aria-label="Click to download the WeBWorK PGML file (proteomics_v_metabolomics-matching.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Proteomics and Metabolomics Techniques
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biotechnology/topic03/downloads/selftest-MATCH-proteomics_v_metabolomics.html" %}
+
+</details>
+
+
+## Protein and Nucleic Acid Gel Electrophoresis Components
+
+<div id="WOMC-protein_v_dna_gels-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-WOMC-protein_v_dna_gels-questions.txt" download title="Download bbq-WOMC-protein_v_dna_gels-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-protein_v_dna_gels-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-protein_v_dna_gels.zip" download title="Download blackboard_export_zip-WOMC-protein_v_dna_gels.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-protein_v_dna_gels.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-protein_v_dna_gels.zip" download title="Download canvas_qti_v1_2-WOMC-protein_v_dna_gels.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-protein_v_dna_gels.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-protein_v_dna_gels.html', '_blank')" title="View human_readable-WOMC-protein_v_dna_gels.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-protein_v_dna_gels.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/protein_v_dna_gels-which_one.pgml" download title="Download protein_v_dna_gels-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (protein_v_dna_gels-which_one.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Protein and Nucleic Acid Gel Electrophoresis Components
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biotechnology/topic03/downloads/selftest-WOMC-protein_v_dna_gels.html" %}
+
+</details>
+
+
+## Proteomics and Metabolomics Techniques from Descriptions
+
+<div id="WOMC-proteomics_v_metabolomics-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-WOMC-proteomics_v_metabolomics-questions.txt" download title="Download bbq-WOMC-proteomics_v_metabolomics-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-proteomics_v_metabolomics-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-proteomics_v_metabolomics.zip" download title="Download blackboard_export_zip-WOMC-proteomics_v_metabolomics.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-proteomics_v_metabolomics.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-proteomics_v_metabolomics.zip" download title="Download canvas_qti_v1_2-WOMC-proteomics_v_metabolomics.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-proteomics_v_metabolomics.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-proteomics_v_metabolomics.html', '_blank')" title="View human_readable-WOMC-proteomics_v_metabolomics.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-proteomics_v_metabolomics.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/proteomics_v_metabolomics-which_one.pgml" download title="Download proteomics_v_metabolomics-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (proteomics_v_metabolomics-which_one.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Proteomics and Metabolomics Techniques from Descriptions
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biotechnology/topic03/downloads/selftest-WOMC-proteomics_v_metabolomics.html" %}
+
+</details>
+
+
 ## Protein Net Charge at a Given pH
 
 <div id="isoelectric_one_protein-button-container" class="button-container">
@@ -69,7 +213,6 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
       example problem
     </span>
   </summary>
-  {% include "biotechnology/topic03/downloads/selftest-isoelectric_two_proteins.html" %}
 
 </details>
 

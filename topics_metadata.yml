@@ -397,15 +397,15 @@ biotechnology:
       title: Biotech Basics and Central Dogma
       description: Students explore the history of biotechnology, model organisms, bacteriophage, cell culture, subviral agents, the central dogma, and endosymbiotic theory.
     topic02:
-      alias: dna_genomics
-      title: DNA and Genomics
+      alias: nucleic_acid_biotech
+      title: DNA and Genomics Biotechnology
       description: Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR, Sanger and next-generation sequencing, RT-qPCR, CRISPR technology, RNA interference, GWAS, and synthetic biology.
     topic03:
       alias: protein_biotech
       title: Protein Biotechnology
       description: Students examine proteomics, western blotting, mass spectrometry, phage display, ELISA, recombinant expression systems, directed evolution, AlphaFold, cryo-EM, and de novo protein design.
     topic04:
-      alias: synthetic_biology
+      alias: environmental_biotech
       title: Environmental and Synthetic Biology
       description: Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, biosensors, Agrobacterium, gene guns, transgenic organisms, and GMO applications.
     topic05:
@@ -413,7 +413,7 @@ biotechnology:
       title: Medicinal Biotechnology
       description: Students assess gene therapy, viral vectors, genome editing (ZFNs, TALENs, CRISPR), stem cells, iPSC therapies, CAR-T therapy, cancer gene therapy, and prime editing.
     topic06:
-      alias: regulation
+      alias: biotech_regulation
       title: Regulation in Biotechnology
       description: Students review FDA history, clinical trial phases, the Asilomar Conference, the Coordinated Framework, biotech patents, CRISPR patent disputes, and drug regulation.
     topic07:
