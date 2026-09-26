@@ -1,0 +1,223 @@
+## DESCRIPTION
+## Select the clinical-trial phase that corresponds to the given description.
+## ENDDESCRIPTION
+## KEYWORDS('clinical trial phases','clinical-trial phases','descriptions','which one','multiple choice')
+## DBsubject('Biotechnology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-09-25')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserRadioButtons.pl',
+    'PGcourse.pl',
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 0;
+
+#==========================================================
+# QUESTION DATA
+#==========================================================
+
+# All questions data
+@questions_data = (
+  {
+    'item_name' => '<strong>Altruistic volunteers who accept an invasive study that offers no treatment benefit</strong>',
+    'plural_choice' => 'clinical-trial phases',
+    'singular_item' => 'description',
+    'choices' => [
+      'Phase 0',
+      'Phase 1',
+      'Phase 2',
+      'Phase 3',
+      'Phase 4',
+    ],
+    'correct' => 'Phase 0',
+  },
+  {
+    'item_name' => '<strong>Give a dose too small to treat disease, only to see what the drug does in the body</strong>',
+    'plural_choice' => 'clinical-trial phases',
+    'singular_item' => 'description',
+    'choices' => [
+      'Phase 0',
+      'Phase 1',
+      'Phase 2',
+      'Phase 3',
+      'Phase 4',
+    ],
+    'correct' => 'Phase 0',
+  },
+  {
+    'item_name' => '<strong>Healthy volunteers, or terminally ill volunteers when healthy people should avoid the drug</strong>',
+    'plural_choice' => 'clinical-trial phases',
+    'singular_item' => 'description',
+    'choices' => [
+      'Phase 0',
+      'Phase 1',
+      'Phase 2',
+      'Phase 3',
+      'Phase 4',
+    ],
+    'correct' => 'Phase 1',
+  },
+  {
+    'item_name' => '<strong>Find the safe dosage range and the earliest side effects</strong>',
+    'plural_choice' => 'clinical-trial phases',
+    'singular_item' => 'description',
+    'choices' => [
+      'Phase 0',
+      'Phase 1',
+      'Phase 2',
+      'Phase 3',
+      'Phase 4',
+    ],
+    'correct' => 'Phase 1',
+  },
+  {
+    'item_name' => '<strong>A few hundred randomized patients chosen with strict eligibility rules</strong>',
+    'plural_choice' => 'clinical-trial phases',
+    'singular_item' => 'description',
+    'choices' => [
+      'Phase 0',
+      'Phase 1',
+      'Phase 2',
+      'Phase 3',
+      'Phase 4',
+    ],
+    'correct' => 'Phase 2',
+  },
+  {
+    'item_name' => '<strong>Test whether the drug is effective against the disease and record its side effects</strong>',
+    'plural_choice' => 'clinical-trial phases',
+    'singular_item' => 'description',
+    'choices' => [
+      'Phase 0',
+      'Phase 1',
+      'Phase 2',
+      'Phase 3',
+      'Phase 4',
+    ],
+    'correct' => 'Phase 2',
+  },
+  {
+    'item_name' => '<strong>Thousands of patients who have the condition the drug is meant to treat</strong>',
+    'plural_choice' => 'clinical-trial phases',
+    'singular_item' => 'description',
+    'choices' => [
+      'Phase 0',
+      'Phase 1',
+      'Phase 2',
+      'Phase 3',
+      'Phase 4',
+    ],
+    'correct' => 'Phase 3',
+  },
+  {
+    'item_name' => '<strong>Compare the drug with other treatments while continuing to monitor side effects</strong>',
+    'plural_choice' => 'clinical-trial phases',
+    'singular_item' => 'description',
+    'choices' => [
+      'Phase 0',
+      'Phase 1',
+      'Phase 2',
+      'Phase 3',
+      'Phase 4',
+    ],
+    'correct' => 'Phase 3',
+  },
+  {
+    'item_name' => '<strong>Patients who are already taking the approved drug</strong>',
+    'plural_choice' => 'clinical-trial phases',
+    'singular_item' => 'description',
+    'choices' => [
+      'Phase 0',
+      'Phase 1',
+      'Phase 2',
+      'Phase 3',
+      'Phase 4',
+    ],
+    'correct' => 'Phase 4',
+  },
+  {
+    'item_name' => '<strong>Monitor long-term effects after the drug is already being prescribed</strong>',
+    'plural_choice' => 'clinical-trial phases',
+    'singular_item' => 'description',
+    'choices' => [
+      'Phase 0',
+      'Phase 1',
+      'Phase 2',
+      'Phase 3',
+      'Phase 4',
+    ],
+    'correct' => 'Phase 4',
+  },
+);
+
+#==========================================================
+# SELECT RANDOM QUESTION
+#==========================================================
+
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+
+$question_idx = $local_random->random(0, scalar(@questions_data) - 1, 1);
+$q = $questions_data[$question_idx];
+
+$item_name = $q->{'item_name'};
+$plural_choice = $q->{'plural_choice'};
+$singular_item = $q->{'singular_item'};
+@choices = @{ $q->{'choices'} };
+$correct = $q->{'correct'};
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# BUILD RADIO BUTTONS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => 'ABC',
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+Which one of the following [$plural_choice]* corresponds to the [$singular_item]* [$item_name]*?
+
+[_]{$rb}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The correct answer is: [$correct]*
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+

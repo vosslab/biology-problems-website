@@ -1,0 +1,301 @@
+## DESCRIPTION
+## Select the Latin phrase that corresponds to the given meaning.
+## ENDDESCRIPTION
+## KEYWORDS('Latin phrases in biotechnology','Latin phrases','meanings','which one','multiple choice')
+## DBsubject('Biotechnology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-09-25')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserRadioButtons.pl',
+    'PGcourse.pl',
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 0;
+
+#==========================================================
+# QUESTION DATA
+#==========================================================
+
+# All questions data
+@questions_data = (
+  {
+    'item_name' => '<strong>performed via computer simulation</strong>',
+    'plural_choice' => 'Latin phrases',
+    'singular_item' => 'meaning',
+    'choices' => [
+      'in silico',
+      'in situ',
+      'in celio',
+      'in tubio',
+      'in papyro',
+    ],
+    'correct' => 'in silico',
+  },
+  {
+    'item_name' => '<strong>performed on a computer</strong>',
+    'plural_choice' => 'Latin phrases',
+    'singular_item' => 'meaning',
+    'choices' => [
+      'in silico',
+      'in utero',
+      'in simu',
+      'in unnatura',
+      'in ovum',
+    ],
+    'correct' => 'in silico',
+  },
+  {
+    'item_name' => '<strong>in its original place</strong>',
+    'plural_choice' => 'Latin phrases',
+    'singular_item' => 'meaning',
+    'choices' => [
+      'in situ',
+      'ex vivo',
+      'in celio',
+      'in tubio',
+      'in papyro',
+    ],
+    'correct' => 'in situ',
+  },
+  {
+    'item_name' => '<strong>at the original location</strong>',
+    'plural_choice' => 'Latin phrases',
+    'singular_item' => 'meaning',
+    'choices' => [
+      'in situ',
+      'in vitro',
+      'in ovo',
+      'in origino',
+      'in papyro',
+    ],
+    'correct' => 'in situ',
+  },
+  {
+    'item_name' => '<strong>inside a living organism</strong>',
+    'plural_choice' => 'Latin phrases',
+    'singular_item' => 'meaning',
+    'choices' => [
+      'in vivo',
+      'in natura',
+      'in ovo',
+      'in ovum',
+      'in spawna',
+    ],
+    'correct' => 'in vivo',
+  },
+  {
+    'item_name' => '<strong>within a living cell or organism</strong>',
+    'plural_choice' => 'Latin phrases',
+    'singular_item' => 'meaning',
+    'choices' => [
+      'in vivo',
+      'in origino',
+      'in tubio',
+      'in petri',
+      'in unnatura',
+    ],
+    'correct' => 'in vivo',
+  },
+  {
+    'item_name' => '<strong>inside a test tube or Petri dish</strong>',
+    'plural_choice' => 'Latin phrases',
+    'singular_item' => 'meaning',
+    'choices' => [
+      'in vitro',
+      'in celio',
+      'in tubio',
+      'in electro',
+      'in ovum',
+    ],
+    'correct' => 'in vitro',
+  },
+  {
+    'item_name' => '<strong>in laboratory glassware</strong>',
+    'plural_choice' => 'Latin phrases',
+    'singular_item' => 'meaning',
+    'choices' => [
+      'in vitro',
+      'in natura',
+      'in ovo',
+      'in origino',
+      'in vacuo',
+    ],
+    'correct' => 'in vitro',
+  },
+  {
+    'item_name' => '<strong>field work outside the laboratory</strong>',
+    'plural_choice' => 'Latin phrases',
+    'singular_item' => 'meaning',
+    'choices' => [
+      'in natura',
+      'ex vivo',
+      'in papyro',
+      'in vacuo',
+      'in electro',
+    ],
+    'correct' => 'in natura',
+  },
+  {
+    'item_name' => '<strong>in the natural environment</strong>',
+    'plural_choice' => 'Latin phrases',
+    'singular_item' => 'meaning',
+    'choices' => [
+      'in natura',
+      'in celio',
+      'in petri',
+      'in electro',
+      'in spawna',
+    ],
+    'correct' => 'in natura',
+  },
+  {
+    'item_name' => '<strong>inside an egg</strong>',
+    'plural_choice' => 'Latin phrases',
+    'singular_item' => 'meaning',
+    'choices' => [
+      'in natura',
+      'in ovo',
+      'in simulo',
+      'in petri',
+      'in papyro',
+    ],
+    'correct' => 'in ovo',
+  },
+  {
+    'item_name' => '<strong>within an egg</strong>',
+    'plural_choice' => 'Latin phrases',
+    'singular_item' => 'meaning',
+    'choices' => [
+      'in ovo',
+      'ex vivo',
+      'in techno',
+      'in papyro',
+      'in seed',
+    ],
+    'correct' => 'in ovo',
+  },
+  {
+    'item_name' => '<strong>inside the uterus</strong>',
+    'plural_choice' => 'Latin phrases',
+    'singular_item' => 'meaning',
+    'choices' => [
+      'in utero',
+      'ex vivo',
+      'in simulo',
+      'in papyro',
+      'in vacuo',
+    ],
+    'correct' => 'in utero',
+  },
+  {
+    'item_name' => '<strong>within the womb</strong>',
+    'plural_choice' => 'Latin phrases',
+    'singular_item' => 'meaning',
+    'choices' => [
+      'in utero',
+      'in techno',
+      'in petri',
+      'in unnatura',
+      'in seed',
+    ],
+    'correct' => 'in utero',
+  },
+  {
+    'item_name' => '<strong>using living tissue removed from the organism</strong>',
+    'plural_choice' => 'Latin phrases',
+    'singular_item' => 'meaning',
+    'choices' => [
+      'in vivo',
+      'in vitro',
+      'ex vivo',
+      'in simu',
+      'in unnatura',
+    ],
+    'correct' => 'ex vivo',
+  },
+  {
+    'item_name' => '<strong>outside the body with tissue that is still alive</strong>',
+    'plural_choice' => 'Latin phrases',
+    'singular_item' => 'meaning',
+    'choices' => [
+      'in vitro',
+      'in natura',
+      'in ovo',
+      'ex vivo',
+      'in celio',
+    ],
+    'correct' => 'ex vivo',
+  },
+);
+
+#==========================================================
+# SELECT RANDOM QUESTION
+#==========================================================
+
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+
+$question_idx = $local_random->random(0, scalar(@questions_data) - 1, 1);
+$q = $questions_data[$question_idx];
+
+$item_name = $q->{'item_name'};
+$plural_choice = $q->{'plural_choice'};
+$singular_item = $q->{'singular_item'};
+@choices = @{ $q->{'choices'} };
+$correct = $q->{'correct'};
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# BUILD RADIO BUTTONS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => 'ABC',
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+Which one of the following [$plural_choice]* corresponds to the [$singular_item]* [$item_name]*?
+
+[_]{$rb}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The correct answer is: [$correct]*
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+

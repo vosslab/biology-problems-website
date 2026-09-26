@@ -1,0 +1,669 @@
+## DESCRIPTION
+## Select the scientific name that corresponds to the given common name or group.
+## ENDDESCRIPTION
+## KEYWORDS('model_organisms','scientific names','common names or groups','which one','multiple choice')
+## DBsubject('Biotechnology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-09-25')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserRadioButtons.pl',
+    'PGcourse.pl',
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 0;
+
+#==========================================================
+# QUESTION DATA
+#==========================================================
+
+# All questions data
+@questions_data = (
+  {
+    'item_name' => '<strong>Bacteriophage</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Lambda phage',
+      'Photosynthetic cyanobacteria',
+      'Saccharomyces cerevisiae',
+      'Caenorhabditis elegans',
+      'Panicum virgatum',
+      'Ambystoma mexicanum',
+      'Oryctolagus cuniculus domesticus',
+      'Rhesus macaque',
+    ],
+    'correct' => 'Lambda phage',
+  },
+  {
+    'item_name' => '<strong>Bacterial virus</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Lambda phage',
+      'Saccharomyces cerevisiae',
+      'Chlamydomonas reinhardtii',
+      'Danio rerio',
+      'Xenopus laevis',
+      'Mus musculus',
+      'Rattus norvegicus',
+      'Oryctolagus cuniculus domesticus',
+    ],
+    'correct' => 'Lambda phage',
+  },
+  {
+    'item_name' => '<strong>Plant virus</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Lambda phage',
+      'Tobacco mosaic virus',
+      'Photosynthetic cyanobacteria',
+      'Caenorhabditis elegans',
+      'Arabidopsis thaliana',
+      'Panicum virgatum',
+      'Danio rerio',
+      'Ambystoma mexicanum',
+    ],
+    'correct' => 'Tobacco mosaic virus',
+  },
+  {
+    'item_name' => '<strong>Virus that infects plants</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Tobacco mosaic virus',
+      'Escherichia coli',
+      'Saccharomyces cerevisiae',
+      'Caenorhabditis elegans',
+      'Chlamydomonas reinhardtii',
+      'Drosophila melanogaster',
+      'Ambystoma mexicanum',
+      'Xenopus laevis',
+    ],
+    'correct' => 'Tobacco mosaic virus',
+  },
+  {
+    'item_name' => '<strong>Bacterium</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Lambda phage',
+      'Tobacco mosaic virus',
+      'Escherichia coli',
+      'Caenorhabditis elegans',
+      'Arabidopsis thaliana',
+      'Panicum virgatum',
+      'Ambystoma mexicanum',
+      'Rhesus macaque',
+    ],
+    'correct' => 'Escherichia coli',
+  },
+  {
+    'item_name' => '<strong>Common laboratory bacterium</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Tobacco mosaic virus',
+      'Escherichia coli',
+      'Tetrahymena thermophila',
+      'Panicum virgatum',
+      'Chlamydomonas reinhardtii',
+      'Danio rerio',
+      'Rattus norvegicus',
+      'Oryctolagus cuniculus domesticus',
+    ],
+    'correct' => 'Escherichia coli',
+  },
+  {
+    'item_name' => '<strong>Cyanobacterium</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Tobacco mosaic virus',
+      'Escherichia coli',
+      'Photosynthetic cyanobacteria',
+      'Saccharomyces cerevisiae',
+      'Tetrahymena thermophila',
+      'Panicum virgatum',
+      'Mus musculus',
+      'Rhesus macaque',
+    ],
+    'correct' => 'Photosynthetic cyanobacteria',
+  },
+  {
+    'item_name' => '<strong>Photosynthetic bacterium</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Photosynthetic cyanobacteria',
+      'Saccharomyces cerevisiae',
+      'Arabidopsis thaliana',
+      'Drosophila melanogaster',
+      'Danio rerio',
+      'Xenopus laevis',
+      'Mus musculus',
+      'Oryctolagus cuniculus domesticus',
+    ],
+    'correct' => 'Photosynthetic cyanobacteria',
+  },
+  {
+    'item_name' => '<strong>Yeast</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Saccharomyces cerevisiae',
+      'Tetrahymena thermophila',
+      'Arabidopsis thaliana',
+      'Panicum virgatum',
+      'Chlamydomonas reinhardtii',
+      'Ambystoma mexicanum',
+      'Rattus norvegicus',
+      'Rhesus macaque',
+    ],
+    'correct' => 'Saccharomyces cerevisiae',
+  },
+  {
+    'item_name' => '<strong>Baker\'s yeast</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Photosynthetic cyanobacteria',
+      'Saccharomyces cerevisiae',
+      'Caenorhabditis elegans',
+      'Arabidopsis thaliana',
+      'Drosophila melanogaster',
+      'Ambystoma mexicanum',
+      'Xenopus laevis',
+      'Oryctolagus cuniculus domesticus',
+    ],
+    'correct' => 'Saccharomyces cerevisiae',
+  },
+  {
+    'item_name' => '<strong>Ciliate</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Tetrahymena thermophila',
+      'Arabidopsis thaliana',
+      'Panicum virgatum',
+      'Chlamydomonas reinhardtii',
+      'Danio rerio',
+      'Xenopus laevis',
+      'Mus musculus',
+      'Oryctolagus cuniculus domesticus',
+    ],
+    'correct' => 'Tetrahymena thermophila',
+  },
+  {
+    'item_name' => '<strong>Ciliated protist</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Saccharomyces cerevisiae',
+      'Tetrahymena thermophila',
+      'Arabidopsis thaliana',
+      'Chlamydomonas reinhardtii',
+      'Danio rerio',
+      'Ambystoma mexicanum',
+      'Mus musculus',
+      'Oryctolagus cuniculus domesticus',
+    ],
+    'correct' => 'Tetrahymena thermophila',
+  },
+  {
+    'item_name' => '<strong>Nematode</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Tobacco mosaic virus',
+      'Escherichia coli',
+      'Saccharomyces cerevisiae',
+      'Caenorhabditis elegans',
+      'Drosophila melanogaster',
+      'Mus musculus',
+      'Rattus norvegicus',
+      'Rhesus macaque',
+    ],
+    'correct' => 'Caenorhabditis elegans',
+  },
+  {
+    'item_name' => '<strong>Roundworm</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Lambda phage',
+      'Photosynthetic cyanobacteria',
+      'Tetrahymena thermophila',
+      'Caenorhabditis elegans',
+      'Chlamydomonas reinhardtii',
+      'Ambystoma mexicanum',
+      'Xenopus laevis',
+      'Rattus norvegicus',
+    ],
+    'correct' => 'Caenorhabditis elegans',
+  },
+  {
+    'item_name' => '<strong>Thale cress</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Photosynthetic cyanobacteria',
+      'Saccharomyces cerevisiae',
+      'Tetrahymena thermophila',
+      'Caenorhabditis elegans',
+      'Arabidopsis thaliana',
+      'Danio rerio',
+      'Rattus norvegicus',
+      'Rhesus macaque',
+    ],
+    'correct' => 'Arabidopsis thaliana',
+  },
+  {
+    'item_name' => '<strong>Mustard-family plant</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Tobacco mosaic virus',
+      'Escherichia coli',
+      'Photosynthetic cyanobacteria',
+      'Arabidopsis thaliana',
+      'Panicum virgatum',
+      'Chlamydomonas reinhardtii',
+      'Xenopus laevis',
+      'Oryctolagus cuniculus domesticus',
+    ],
+    'correct' => 'Arabidopsis thaliana',
+  },
+  {
+    'item_name' => '<strong>Switchgrass</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Lambda phage',
+      'Tetrahymena thermophila',
+      'Arabidopsis thaliana',
+      'Panicum virgatum',
+      'Danio rerio',
+      'Xenopus laevis',
+      'Mus musculus',
+      'Oryctolagus cuniculus domesticus',
+    ],
+    'correct' => 'Panicum virgatum',
+  },
+  {
+    'item_name' => '<strong>Perennial grass</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Photosynthetic cyanobacteria',
+      'Tetrahymena thermophila',
+      'Caenorhabditis elegans',
+      'Panicum virgatum',
+      'Drosophila melanogaster',
+      'Danio rerio',
+      'Mus musculus',
+      'Rhesus macaque',
+    ],
+    'correct' => 'Panicum virgatum',
+  },
+  {
+    'item_name' => '<strong>Green alga</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Lambda phage',
+      'Tobacco mosaic virus',
+      'Tetrahymena thermophila',
+      'Caenorhabditis elegans',
+      'Chlamydomonas reinhardtii',
+      'Drosophila melanogaster',
+      'Ambystoma mexicanum',
+      'Mus musculus',
+    ],
+    'correct' => 'Chlamydomonas reinhardtii',
+  },
+  {
+    'item_name' => '<strong>Unicellular green alga</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Tobacco mosaic virus',
+      'Escherichia coli',
+      'Photosynthetic cyanobacteria',
+      'Caenorhabditis elegans',
+      'Arabidopsis thaliana',
+      'Chlamydomonas reinhardtii',
+      'Danio rerio',
+      'Rhesus macaque',
+    ],
+    'correct' => 'Chlamydomonas reinhardtii',
+  },
+  {
+    'item_name' => '<strong>Fly</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Photosynthetic cyanobacteria',
+      'Tetrahymena thermophila',
+      'Arabidopsis thaliana',
+      'Drosophila melanogaster',
+      'Ambystoma mexicanum',
+      'Rattus norvegicus',
+      'Oryctolagus cuniculus domesticus',
+      'Rhesus macaque',
+    ],
+    'correct' => 'Drosophila melanogaster',
+  },
+  {
+    'item_name' => '<strong>Fruit fly</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Escherichia coli',
+      'Arabidopsis thaliana',
+      'Chlamydomonas reinhardtii',
+      'Drosophila melanogaster',
+      'Xenopus laevis',
+      'Mus musculus',
+      'Rattus norvegicus',
+      'Oryctolagus cuniculus domesticus',
+    ],
+    'correct' => 'Drosophila melanogaster',
+  },
+  {
+    'item_name' => '<strong>Fish</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Photosynthetic cyanobacteria',
+      'Arabidopsis thaliana',
+      'Drosophila melanogaster',
+      'Danio rerio',
+      'Xenopus laevis',
+      'Mus musculus',
+      'Rattus norvegicus',
+      'Oryctolagus cuniculus domesticus',
+    ],
+    'correct' => 'Danio rerio',
+  },
+  {
+    'item_name' => '<strong>Zebrafish</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Lambda phage',
+      'Photosynthetic cyanobacteria',
+      'Tetrahymena thermophila',
+      'Arabidopsis thaliana',
+      'Panicum virgatum',
+      'Chlamydomonas reinhardtii',
+      'Danio rerio',
+      'Mus musculus',
+    ],
+    'correct' => 'Danio rerio',
+  },
+  {
+    'item_name' => '<strong>Axolotl</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Saccharomyces cerevisiae',
+      'Caenorhabditis elegans',
+      'Panicum virgatum',
+      'Danio rerio',
+      'Ambystoma mexicanum',
+      'Mus musculus',
+      'Oryctolagus cuniculus domesticus',
+      'Rhesus macaque',
+    ],
+    'correct' => 'Ambystoma mexicanum',
+  },
+  {
+    'item_name' => '<strong>Mexican salamander</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Lambda phage',
+      'Escherichia coli',
+      'Saccharomyces cerevisiae',
+      'Drosophila melanogaster',
+      'Ambystoma mexicanum',
+      'Mus musculus',
+      'Oryctolagus cuniculus domesticus',
+      'Rhesus macaque',
+    ],
+    'correct' => 'Ambystoma mexicanum',
+  },
+  {
+    'item_name' => '<strong>Frog</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Photosynthetic cyanobacteria',
+      'Caenorhabditis elegans',
+      'Panicum virgatum',
+      'Danio rerio',
+      'Xenopus laevis',
+      'Mus musculus',
+      'Rattus norvegicus',
+      'Rhesus macaque',
+    ],
+    'correct' => 'Xenopus laevis',
+  },
+  {
+    'item_name' => '<strong>African clawed frog</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Lambda phage',
+      'Saccharomyces cerevisiae',
+      'Drosophila melanogaster',
+      'Danio rerio',
+      'Ambystoma mexicanum',
+      'Xenopus laevis',
+      'Mus musculus',
+      'Rattus norvegicus',
+    ],
+    'correct' => 'Xenopus laevis',
+  },
+  {
+    'item_name' => '<strong>Mouse</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Lambda phage',
+      'Escherichia coli',
+      'Saccharomyces cerevisiae',
+      'Tetrahymena thermophila',
+      'Panicum virgatum',
+      'Mus musculus',
+      'Oryctolagus cuniculus domesticus',
+      'Rhesus macaque',
+    ],
+    'correct' => 'Mus musculus',
+  },
+  {
+    'item_name' => '<strong>House mouse</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Escherichia coli',
+      'Photosynthetic cyanobacteria',
+      'Saccharomyces cerevisiae',
+      'Tetrahymena thermophila',
+      'Caenorhabditis elegans',
+      'Danio rerio',
+      'Xenopus laevis',
+      'Mus musculus',
+    ],
+    'correct' => 'Mus musculus',
+  },
+  {
+    'item_name' => '<strong>Rat</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Lambda phage',
+      'Photosynthetic cyanobacteria',
+      'Caenorhabditis elegans',
+      'Drosophila melanogaster',
+      'Mus musculus',
+      'Rattus norvegicus',
+      'Oryctolagus cuniculus domesticus',
+      'Rhesus macaque',
+    ],
+    'correct' => 'Rattus norvegicus',
+  },
+  {
+    'item_name' => '<strong>Norway rat</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Escherichia coli',
+      'Tetrahymena thermophila',
+      'Caenorhabditis elegans',
+      'Panicum virgatum',
+      'Chlamydomonas reinhardtii',
+      'Rattus norvegicus',
+      'Oryctolagus cuniculus domesticus',
+      'Rhesus macaque',
+    ],
+    'correct' => 'Rattus norvegicus',
+  },
+  {
+    'item_name' => '<strong>Rabbit</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Lambda phage',
+      'Caenorhabditis elegans',
+      'Arabidopsis thaliana',
+      'Panicum virgatum',
+      'Chlamydomonas reinhardtii',
+      'Ambystoma mexicanum',
+      'Oryctolagus cuniculus domesticus',
+      'Rhesus macaque',
+    ],
+    'correct' => 'Oryctolagus cuniculus domesticus',
+  },
+  {
+    'item_name' => '<strong>Domestic rabbit</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Escherichia coli',
+      'Saccharomyces cerevisiae',
+      'Tetrahymena thermophila',
+      'Caenorhabditis elegans',
+      'Ambystoma mexicanum',
+      'Mus musculus',
+      'Oryctolagus cuniculus domesticus',
+      'Rhesus macaque',
+    ],
+    'correct' => 'Oryctolagus cuniculus domesticus',
+  },
+  {
+    'item_name' => '<strong>Monkey</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Lambda phage',
+      'Saccharomyces cerevisiae',
+      'Caenorhabditis elegans',
+      'Arabidopsis thaliana',
+      'Chlamydomonas reinhardtii',
+      'Danio rerio',
+      'Rattus norvegicus',
+      'Rhesus macaque',
+    ],
+    'correct' => 'Rhesus macaque',
+  },
+  {
+    'item_name' => '<strong>Rhesus monkey</strong>',
+    'plural_choice' => 'scientific names',
+    'singular_item' => 'common name or group',
+    'choices' => [
+      'Lambda phage',
+      'Tobacco mosaic virus',
+      'Chlamydomonas reinhardtii',
+      'Xenopus laevis',
+      'Mus musculus',
+      'Rattus norvegicus',
+      'Oryctolagus cuniculus domesticus',
+      'Rhesus macaque',
+    ],
+    'correct' => 'Rhesus macaque',
+  },
+);
+
+#==========================================================
+# SELECT RANDOM QUESTION
+#==========================================================
+
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+
+$question_idx = $local_random->random(0, scalar(@questions_data) - 1, 1);
+$q = $questions_data[$question_idx];
+
+$item_name = $q->{'item_name'};
+$plural_choice = $q->{'plural_choice'};
+$singular_item = $q->{'singular_item'};
+@choices = @{ $q->{'choices'} };
+$correct = $q->{'correct'};
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# BUILD RADIO BUTTONS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => 'ABC',
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+Which one of the following [$plural_choice]* corresponds to the [$singular_item]* [$item_name]*?
+
+[_]{$rb}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The correct answer is: [$correct]*
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+

@@ -1,0 +1,1 @@
+ORD	<p>6e99_b1fb</p> Place the following steps of an environmental 16S rDNA survey in order from first to last.	Microbial samples are collected from environment	DNA extraction and quantification	PCR amplification of the 16S rDNA genes	Sequencing of the 16S rDNA genes	Sequence clustering using bioinformatics	Analyze bacterial relative abundance graphs

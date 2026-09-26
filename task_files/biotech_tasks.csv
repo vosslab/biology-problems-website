@@ -3,7 +3,7 @@ biotechnology,biotech_basics,YMATCH,,{bp_match}/biotechnology/biotech_vs_improve
 biotechnology,biotech_basics,YMATCH,,{bp_match}/biotechnology/model_organism_generation_times.yml,
 biotechnology,biotech_basics,YMATCH,,{bp_match}/biotechnology/model_organism_principles.yml,
 biotechnology,biotech_basics,YMATCH,,{bp_match}/biotechnology/model_organisms-genus_species.yml,
-biotechnology,biotech_basics,YMATCH,,{bp_match}/biotechnology_periods_and_milestones.yml,
+biotechnology,biotech_basics,YMATCH,,{bp_match}/biotechnology/biotechnology_periods_and_milestones.yml,
 biotechnology,biotech_basics,YMCS,,{bp_mcs}/biotechnology/fermentation.yml,
 biotechnology,biotech_basics,YMCS,,{bp_mcs}/molecular_biology/mRNA_processing.yml,
 biotechnology,biotech_basics,{bp_root}/biotechnology-problems/model_organism_complexity_order.py,,,
