@@ -1,0 +1,237 @@
+## DESCRIPTION
+## Select the type of intellectual property that corresponds to the given description.
+## ENDDESCRIPTION
+## KEYWORDS('types of intellectual property','types of intellectual property','descriptions','which one','multiple choice')
+## DBsubject('Biotechnology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-09-25')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+    'PGstandard.pl',
+    'PGML.pl',
+    'PGchoicemacros.pl',
+    'parserRadioButtons.pl',
+    'PGcourse.pl',
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 0;
+
+#==========================================================
+# QUESTION DATA
+#==========================================================
+
+# All questions data
+@questions_data = (
+  {
+    'item_name' => '<strong>gives its owner the exclusive right to a recognizable insignia, phrase, word, or symbol</strong>',
+    'plural_choice' => 'types of intellectual property',
+    'singular_item' => 'description',
+    'choices' => [
+      'Trademark',
+      'Copyleft',
+      'Copyright',
+      'Patent',
+    ],
+    'correct' => 'Trademark',
+  },
+  {
+    'item_name' => '<strong>protects a brand name or logo that identifies the source of a product</strong>',
+    'plural_choice' => 'types of intellectual property',
+    'singular_item' => 'description',
+    'choices' => [
+      'Trademark',
+      'Copyleft',
+      'Copyright',
+      'Patent',
+    ],
+    'correct' => 'Trademark',
+  },
+  {
+    'item_name' => '<strong>stops another company from using a confusingly similar name or symbol</strong>',
+    'plural_choice' => 'types of intellectual property',
+    'singular_item' => 'description',
+    'choices' => [
+      'Trademark',
+      'Copyleft',
+      'Copyright',
+      'Patent',
+    ],
+    'correct' => 'Trademark',
+  },
+  {
+    'item_name' => '<strong>an arrangement where creative work may be distributed freely and modified such that any derivatives are also free</strong>',
+    'plural_choice' => 'types of intellectual property',
+    'singular_item' => 'description',
+    'choices' => [
+      'Trademark',
+      'Copyleft',
+      'Copyright',
+      'Patent',
+    ],
+    'correct' => 'Copyleft',
+  },
+  {
+    'item_name' => '<strong>lets people copy and change a work only if they share their changes under the same free terms</strong>',
+    'plural_choice' => 'types of intellectual property',
+    'singular_item' => 'description',
+    'choices' => [
+      'Trademark',
+      'Copyleft',
+      'Copyright',
+      'Patent',
+    ],
+    'correct' => 'Copyleft',
+  },
+  {
+    'item_name' => '<strong>requires that modified versions of a free work stay free for others to use</strong>',
+    'plural_choice' => 'types of intellectual property',
+    'singular_item' => 'description',
+    'choices' => [
+      'Trademark',
+      'Copyleft',
+      'Copyright',
+      'Patent',
+    ],
+    'correct' => 'Copyleft',
+  },
+  {
+    'item_name' => '<strong>gives its owner the exclusive right to make copies of a creative work, usually for a limited time</strong>',
+    'plural_choice' => 'types of intellectual property',
+    'singular_item' => 'description',
+    'choices' => [
+      'Trademark',
+      'Copyleft',
+      'Copyright',
+      'Patent',
+    ],
+    'correct' => 'Copyright',
+  },
+  {
+    'item_name' => '<strong>protects a book, song, or software from being copied for a limited time</strong>',
+    'plural_choice' => 'types of intellectual property',
+    'singular_item' => 'description',
+    'choices' => [
+      'Trademark',
+      'Copyleft',
+      'Copyright',
+      'Patent',
+    ],
+    'correct' => 'Copyright',
+  },
+  {
+    'item_name' => '<strong>covers the expression of a creative work rather than the underlying idea</strong>',
+    'plural_choice' => 'types of intellectual property',
+    'singular_item' => 'description',
+    'choices' => [
+      'Trademark',
+      'Copyleft',
+      'Copyright',
+      'Patent',
+    ],
+    'correct' => 'Copyright',
+  },
+  {
+    'item_name' => '<strong>gives its owner the exclusive right to exclude others from making an invention</strong>',
+    'plural_choice' => 'types of intellectual property',
+    'singular_item' => 'description',
+    'choices' => [
+      'Trademark',
+      'Copyleft',
+      'Copyright',
+      'Patent',
+    ],
+    'correct' => 'Patent',
+  },
+  {
+    'item_name' => '<strong>protects a new and useful invention for a limited time</strong>',
+    'plural_choice' => 'types of intellectual property',
+    'singular_item' => 'description',
+    'choices' => [
+      'Trademark',
+      'Copyleft',
+      'Copyright',
+      'Patent',
+    ],
+    'correct' => 'Patent',
+  },
+  {
+    'item_name' => '<strong>lets the inventor stop others from making, using, or selling the invention</strong>',
+    'plural_choice' => 'types of intellectual property',
+    'singular_item' => 'description',
+    'choices' => [
+      'Trademark',
+      'Copyleft',
+      'Copyright',
+      'Patent',
+    ],
+    'correct' => 'Patent',
+  },
+);
+
+#==========================================================
+# SELECT RANDOM QUESTION
+#==========================================================
+
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+
+$question_idx = $local_random->random(0, scalar(@questions_data) - 1, 1);
+$q = $questions_data[$question_idx];
+
+$item_name = $q->{'item_name'};
+$plural_choice = $q->{'plural_choice'};
+$singular_item = $q->{'singular_item'};
+@choices = @{ $q->{'choices'} };
+$correct = $q->{'correct'};
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# BUILD RADIO BUTTONS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => 'ABC',
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+Which one of the following [$plural_choice]* corresponds to the [$singular_item]* [$item_name]*?
+
+[_]{$rb}
+
+END_PGML
+
+BEGIN_PGML_SOLUTION
+
+The correct answer is: [$correct]*
+
+END_PGML_SOLUTION
+
+ENDDOCUMENT();
+

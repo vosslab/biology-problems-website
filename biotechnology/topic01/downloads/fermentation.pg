@@ -1,0 +1,481 @@
+## TITLE('Fermentation')
+## DESCRIPTION
+## Select the statement that is TRUE or FALSE about fermentation.
+## ENDDESCRIPTION
+## KEYWORDS('fermentation','true/false','multiple choice')
+## DBsubject('Biotechnology')
+## DBchapter('')
+## DBsection('')
+## Date('2026-09-25')
+## Author('Neil R. Voss')
+## Institution('Roosevelt University')
+
+DOCUMENT();
+
+loadMacros(
+  "PGstandard.pl",
+  "PGML.pl",
+  "PGchoicemacros.pl",
+  "parserRadioButtons.pl",
+  "PGcourse.pl",
+);
+
+TEXT(beginproblem());
+$showPartialCorrectAnswers = 1;
+
+#==========================================================
+# AUTO-GENERATED GROUPS FROM YAML
+#==========================================================
+
+@true_groups = (
+  [
+    'beer',
+    'ale',
+    'lager',
+    'Double India Pale Ale',
+  ],
+  [
+    'wine',
+    'red wine',
+    'white wine',
+  ],
+  [
+    'leavened bread',
+    q{baker's yeast bread},
+    'sourdough bread',
+    'bagels',
+  ],
+  [
+    'cheese',
+    'cheddar cheese',
+    'Swiss cheese',
+    'blue cheese',
+  ],
+  [
+    'yogurt',
+    'Greek yogurt',
+    'skyr',
+  ],
+  [
+    'vinegar',
+    'apple cider vinegar',
+    'balsamic vinegar',
+    'rice vinegar',
+  ],
+  [
+    'sauerkraut',
+  ],
+  [
+    'kimchi',
+  ],
+  [
+    'soy sauce',
+    'tamari',
+  ],
+  [
+    'miso',
+  ],
+  [
+    'tempeh',
+  ],
+  [
+    'kombucha',
+  ],
+  [
+    'kefir',
+  ],
+  [
+    'sake',
+  ],
+  [
+    'hard cider',
+  ],
+  [
+    'sour cream',
+  ],
+  [
+    'cultured buttermilk',
+  ],
+  [
+    'salami',
+    'pepperoni',
+    'summer sausage',
+  ],
+  [
+    'fish sauce',
+  ],
+  [
+    'natto',
+  ],
+  [
+    'mead',
+  ],
+  [
+    'Yakult',
+    'probiotic yogurt drink',
+  ],
+  [
+    'cultured cottage cheese',
+  ],
+  [
+    'gochujang',
+  ],
+  [
+    'Worcestershire sauce',
+  ],
+  [
+    'creme fraiche',
+  ],
+  [
+    'feta cheese',
+    'parmesan cheese',
+  ],
+  [
+    'lassi',
+  ],
+  [
+    'doenjang',
+  ],
+);
+@false_groups = (
+  [
+    'lemonade',
+    'limeade',
+  ],
+  [
+    'coffee',
+    'brewed coffee',
+    'iced coffee',
+    'espresso',
+  ],
+  [
+    'orange juice',
+  ],
+  [
+    'fresh milk',
+    'pasteurized milk',
+  ],
+  [
+    'olive oil',
+  ],
+  [
+    'maple syrup',
+  ],
+  [
+    'honey',
+  ],
+  [
+    'unleavened bread',
+    'matzo',
+  ],
+  [
+    'granulated sugar',
+    'table sugar',
+  ],
+  [
+    'apple juice',
+  ],
+  [
+    'grape juice',
+    'sparkling grape juice',
+  ],
+  [
+    'cranberry juice',
+  ],
+  [
+    'skim milk',
+  ],
+  [
+    'whole milk',
+  ],
+  [
+    'vegetable oil',
+  ],
+  [
+    'canola oil',
+  ],
+  [
+    'coconut oil',
+  ],
+  [
+    'brown sugar',
+  ],
+  [
+    'powdered sugar',
+  ],
+  [
+    'corn tortilla',
+  ],
+  [
+    'flour tortilla',
+  ],
+  [
+    'fruit punch',
+  ],
+  [
+    'cola',
+  ],
+  [
+    'root beer',
+  ],
+  [
+    'ginger ale',
+  ],
+  [
+    'orange soda',
+  ],
+  [
+    'lemon-lime soda',
+  ],
+  [
+    'club soda',
+    'sparkling water',
+  ],
+  [
+    'coconut water',
+  ],
+  [
+    'soy milk',
+  ],
+  [
+    'almond milk',
+  ],
+  [
+    'oat milk',
+  ],
+  [
+    'rice milk',
+  ],
+  [
+    'tofu',
+  ],
+  [
+    'edamame',
+    'fresh soybeans',
+  ],
+  [
+    'ice cream',
+  ],
+  [
+    'milkshake',
+  ],
+  [
+    'whipped cream',
+    'heavy cream',
+    'fresh cream',
+  ],
+  [
+    'half-and-half',
+  ],
+  [
+    'ketchup',
+  ],
+  [
+    'mayonnaise',
+  ],
+  [
+    'yellow mustard',
+  ],
+  [
+    'grape jelly',
+    'strawberry jam',
+  ],
+  [
+    'peanut butter',
+  ],
+  [
+    'dried pasta',
+    'spaghetti',
+  ],
+  [
+    'steamed white rice',
+  ],
+  [
+    'corn flakes',
+  ],
+  [
+    'instant oatmeal',
+  ],
+  [
+    'granola',
+  ],
+  [
+    'popcorn',
+  ],
+  [
+    'potato chips',
+    'tortilla chips',
+  ],
+  [
+    'mashed potatoes',
+    'boiled potatoes',
+  ],
+  [
+    'french fries',
+  ],
+  [
+    'pancakes',
+  ],
+  [
+    'sugar cookies',
+  ],
+  [
+    'layer cake',
+  ],
+  [
+    'baking-powder biscuits',
+    'baking-soda bread',
+  ],
+  [
+    'saltine crackers',
+  ],
+  [
+    'coleslaw',
+    'fresh cabbage',
+    'shredded cabbage',
+  ],
+  [
+    'molasses',
+  ],
+  [
+    'corn syrup',
+  ],
+  [
+    'agave nectar',
+  ],
+  [
+    'hot cocoa',
+  ],
+  [
+    'chocolate milk',
+  ],
+  [
+    'fruit smoothie',
+  ],
+  [
+    'margarine',
+  ],
+  [
+    'hummus',
+  ],
+  [
+    'paneer',
+  ],
+  [
+    'beef jerky',
+  ],
+  [
+    'fresh cucumbers',
+    'cucumber salad',
+  ],
+  [
+    'fresh mozzarella',
+  ],
+  [
+    'ricotta cheese',
+  ],
+  [
+    'pita chips',
+  ],
+  [
+    'malt extract',
+  ],
+  [
+    'sweet tea',
+  ],
+);
+
+#==========================================================
+# GLOBAL SETTINGS
+#==========================================================
+
+$topic = 'fermentation';
+my $local_random = PGrandom->new();
+$local_random->srand($problemSeed);
+my @mode_choices = ("TRUE", "FALSE");
+$mode = $mode_choices[$local_random->random(0, $#mode_choices, 1)];
+$num_distractors = 4;
+# Question text with TRUE override
+$question_true = 'Which one of the following is fermented?';
+# Question text with FALSE override
+$question_false = 'Which one of the following is NOT fermented?';
+#==========================================================
+# SELECT GROUP
+#==========================================================
+
+my (@selected_group, @opposite_groups);
+
+if ($mode eq "TRUE") {
+  $group_index      = $local_random->random(0, scalar(@true_groups)-1, 1);
+  @selected_group   = @{ $true_groups[$group_index] };
+  @opposite_groups  = @false_groups;
+} else {
+  $group_index      = $local_random->random(0, scalar(@false_groups)-1, 1);
+  @selected_group   = @{ $false_groups[$group_index] };
+  @opposite_groups  = @true_groups;
+}
+
+#==========================================================
+# PICK CORRECT + DISTRACTORS
+#==========================================================
+
+my $correct_index = $local_random->random(0, $#selected_group, 1);
+$correct = $selected_group[$correct_index];
+
+my @available_group_indices = (0 .. $#opposite_groups);
+my @selected_distractor_indices = ();
+
+while (@selected_distractor_indices < $num_distractors && @available_group_indices > 0) {
+  my $random_index = $local_random->random(0, scalar(@available_group_indices)-1, 1);
+  push @selected_distractor_indices, splice(@available_group_indices, $random_index, 1);
+}
+
+@distractors = ();
+foreach my $group_idx (@selected_distractor_indices) {
+  my @group = @{ $opposite_groups[$group_idx] };
+  my $distractor_index = $local_random->random(0, $#group, 1);
+  my $distractor = $group[$distractor_index];
+  push @distractors, $distractor;
+}
+
+@choices = ($correct, @distractors);
+
+#==========================================================
+# SHUFFLE CHOICES (SEED-STABLE)
+#==========================================================
+
+my @choice_indices = (0 .. $#choices);
+my @choice_shuffled = ();
+while (@choice_indices) {
+  my $pick = $local_random->random(0, $#choice_indices, 1);
+  push @choice_shuffled, splice(@choice_indices, $pick, 1);
+}
+@choices = @choices[@choice_shuffled];
+
+#==========================================================
+# RADIO BUTTONS WITH A/B/C/D/E LABELS
+#==========================================================
+
+$rb = RadioButtons(
+  [@choices],
+  $correct,
+  labels        => ['A','B','C','D','E'],
+  displayLabels => 1,
+  randomize     => 0,
+  separator     => '<div style="margin-bottom: 0.7em;"></div>',
+);
+
+#==========================================================
+# PGML
+#==========================================================
+
+BEGIN_PGML
+
+[@ $mode eq "TRUE" ? $question_true : $question_false @]*
+
+[_]{$rb}
+
+END_PGML
+
+ENDDOCUMENT();
+
