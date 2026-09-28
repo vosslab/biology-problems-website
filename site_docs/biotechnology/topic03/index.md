@@ -221,7 +221,7 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 ## Protein Molecular Weight from an SDS-PAGE Ladder
 
 <div id="kaleidoscope_ladder_unknown_band-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-kaleidoscope_ladder_unknown_band-questions.txt" download title="Download bbq-kaleidoscope_ladder_unknown_band-questions.txt" aria-label="Click to download the BBQ Text file (bbq-kaleidoscope_ladder_unknown_band-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -257,7 +257,7 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 ## Protein Molecular Weight from SDS-PAGE Migration
 
 <div id="protein_gel_migration-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-protein_gel_migration-questions.txt" download title="Download bbq-protein_gel_migration-questions.txt" aria-label="Click to download the BBQ Text file (bbq-protein_gel_migration-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
