@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  body {
+    background: white;
+    color: black;
+  }
+  @media (prefers-color-scheme: dark) {
+    body {
+      background: #121212;
+      color: #e0e0e0;
+    }
+  }
+</style>
+</head>
+<body>
+<pre>
+1. Hypotheses practice: One-sample mean test (baby weights) 
+Joe's Hospital of Fried Foods claims their newborns are heavier than the national average.
+The national average birth weight is 7.5 lbs.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Is the mean different from 7.5 lbs?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+ HA : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+- [ ] B. H0 : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+ HA : μhospital ( mu_hospital) = 7.5
+ In words: The hospital mean birth weight equals 7.5 lbs.
+- [*] C. H0 : μhospital ( mu_hospital) = 7.5
+ In words: The hospital mean birth weight equals 7.5 lbs.
+ HA : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+- [ ] D. H0 : μhospital ( mu_hospital) = 8.0
+ In words: The hospital mean birth weight equals 8.0 lbs.
+ HA : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+
+
+2. Hypotheses practice: ANOVA (five years of Shannon diversity) 
+Ecologists measure Shannon Diversity Index at the same set of sites across five years (1994, 2004, 2009, 2014, 2024).
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Are any of the group means different?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : The sample means are all equal.
+ In words: The sample means are all equal.
+ HA : The sample means are not all equal.
+ In words: The sample means are not all equal.
+- [*] B. H0 : All group means are equal.
+ In words: All group means are equal.
+ HA : At least one group mean is different.
+ In words: At least one group mean is different.
+- [ ] C. H0 : All group means are equal.
+ In words: All group means are equal.
+ HA : All group means are equal.
+ In words: All group means are equal.
+- [ ] D. H0 : At least one group mean is different.
+ In words: At least one group mean is different.
+ HA : All group means are equal.
+ In words: All group means are equal.
+
+
+3. Hypotheses practice: Two-sample mean test (Shannon diversity 2014 vs 2024) 
+Ecologists compare Shannon Diversity Index measurements taken at the same set of sites in 2014 and 2024.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Are the 2014 and 2024 values different?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : μ2014 ( mu_2014) < μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is less than the value in 2024.
+ HA : μ2014 ( mu_2014) ≥ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is greater than or equal to the value in 2024.
+- [ ] B. H0 : μ2014 ( mu_2014) ≠ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are different.
+ HA : μ2014 ( mu_2014) ≠ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are different.
+- [*] C. H0 : μ2014 ( mu_2014) = μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are equal.
+ HA : μ2014 ( mu_2014) ≠ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are different.
+- [ ] D. H0 : μ2014 ( mu_2014) ≠ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are different.
+ HA : μ2014 ( mu_2014) = μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are equal.
+
+
+4. Hypotheses practice: Two-sample mean test (Shannon diversity 2014 vs 2024) 
+Ecologists compare Shannon Diversity Index measurements taken at the same set of sites in 2014 and 2024.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Is the 2024 value larger than the 2014 value?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : μ2024 ( mu_2024) > μ2014 ( mu_2014)
+ In words: The mean Shannon Diversity Index value in 2024 is greater than the value in 2014.
+ HA : μ2014 ( mu_2014) = μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are equal.
+- [ ] B. H0 : μ2014 ( mu_2014) < μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is less than the value in 2024.
+ HA : μ2014 ( mu_2014) ≥ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is greater than or equal to the value in 2024.
+- [*] C. H0 : μ2014 ( mu_2014) = μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are equal.
+ HA : μ2024 ( mu_2024) > μ2014 ( mu_2014)
+ In words: The mean Shannon Diversity Index value in 2024 is greater than the value in 2014.
+- [ ] D. H0 : μ2014 ( mu_2014) > μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is greater than the value in 2024.
+ HA : μ2024 ( mu_2024) > μ2014 ( mu_2014)
+ In words: The mean Shannon Diversity Index value in 2024 is greater than the value in 2014.
+
+
+5. Hypotheses practice: One-sample mean test (baby weights) 
+Joe's Hospital of Fried Foods claims their newborns are heavier than the national average.
+The national average birth weight is 7.5 lbs.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Is the mean lower than 7.5 lbs?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : μhospital ( mu_hospital) < 7.5
+ In words: The hospital mean birth weight is less than 7.5 lbs.
+ HA : μhospital ( mu_hospital) < 7.5
+ In words: The hospital mean birth weight is less than 7.5 lbs.
+- [ ] B. H0 : μhospital ( mu_hospital) < 7.5
+ In words: The hospital mean birth weight is less than 7.5 lbs.
+ HA : μhospital ( mu_hospital) = 7.5
+ In words: The hospital mean birth weight equals 7.5 lbs.
+- [ ] C. H0 : μhospital ( mu_hospital) = 8.0
+ In words: The hospital mean birth weight equals 8.0 lbs.
+ HA : μhospital ( mu_hospital) < 7.5
+ In words: The hospital mean birth weight is less than 7.5 lbs.
+- [*] D. H0 : μhospital ( mu_hospital) = 7.5
+ In words: The hospital mean birth weight equals 7.5 lbs.
+ HA : μhospital ( mu_hospital) < 7.5
+ In words: The hospital mean birth weight is less than 7.5 lbs.
+
+
+6. Hypotheses practice: ANOVA (five years of Shannon diversity) 
+Ecologists measure Shannon Diversity Index at the same set of sites across five years (1994, 2004, 2009, 2014, 2024).
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Are any of the group means different?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : At least one group mean is different.
+ In words: At least one group mean is different.
+ HA : All group means are equal.
+ In words: All group means are equal.
+- [ ] B. H0 : The sample means are all equal.
+ In words: The sample means are all equal.
+ HA : The sample means are not all equal.
+ In words: The sample means are not all equal.
+- [ ] C. H0 : All group means are equal.
+ In words: All group means are equal.
+ HA : All group means are equal.
+ In words: All group means are equal.
+- [*] D. H0 : All group means are equal.
+ In words: All group means are equal.
+ HA : At least one group mean is different.
+ In words: At least one group mean is different.
+
+
+7. Hypotheses practice: One-sample mean test (baby weights) 
+Joe's Hospital of Fried Foods claims their newborns are heavier than the national average.
+The national average birth weight is 7.5 lbs.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Is the mean lower than 7.5 lbs?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : μhospital ( mu_hospital) < 7.5
+ In words: The hospital mean birth weight is less than 7.5 lbs.
+ HA : μhospital ( mu_hospital) = 7.5
+ In words: The hospital mean birth weight equals 7.5 lbs.
+- [ ] B. H0 : μhospital ( mu_hospital) < 7.5
+ In words: The hospital mean birth weight is less than 7.5 lbs.
+ HA : μhospital ( mu_hospital) < 7.5
+ In words: The hospital mean birth weight is less than 7.5 lbs.
+- [*] C. H0 : μhospital ( mu_hospital) = 7.5
+ In words: The hospital mean birth weight equals 7.5 lbs.
+ HA : μhospital ( mu_hospital) < 7.5
+ In words: The hospital mean birth weight is less than 7.5 lbs.
+- [ ] D. H0 : μhospital ( mu_hospital) = 8.0
+ In words: The hospital mean birth weight equals 8.0 lbs.
+ HA : μhospital ( mu_hospital) < 7.5
+ In words: The hospital mean birth weight is less than 7.5 lbs.
+
+
+8. Hypotheses practice: One-sample mean test (baby weights) 
+Joe's Hospital of Fried Foods claims their newborns are heavier than the national average.
+The national average birth weight is 7.5 lbs.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Is the mean different from 7.5 lbs?
+Which option correctly states H0 and HA?
+- [*] A. H0 : μhospital ( mu_hospital) = 7.5
+ In words: The hospital mean birth weight equals 7.5 lbs.
+ HA : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+- [ ] B. H0 : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+ HA : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+- [ ] C. H0 : μhospital ( mu_hospital) = 8.0
+ In words: The hospital mean birth weight equals 8.0 lbs.
+ HA : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+- [ ] D. H0 : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+ HA : μhospital ( mu_hospital) = 7.5
+ In words: The hospital mean birth weight equals 7.5 lbs.
+
+
+9. Hypotheses practice: ANOVA (five years of Shannon diversity) 
+Ecologists measure Shannon Diversity Index at the same set of sites across five years (1994, 2004, 2009, 2014, 2024).
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Are any of the group means different?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : All group means are equal.
+ In words: All group means are equal.
+ HA : All group means are equal.
+ In words: All group means are equal.
+- [ ] B. H0 : The sample means are all equal.
+ In words: The sample means are all equal.
+ HA : The sample means are not all equal.
+ In words: The sample means are not all equal.
+- [*] C. H0 : All group means are equal.
+ In words: All group means are equal.
+ HA : At least one group mean is different.
+ In words: At least one group mean is different.
+- [ ] D. H0 : At least one group mean is different.
+ In words: At least one group mean is different.
+ HA : All group means are equal.
+ In words: All group means are equal.
+
+
+10. Hypotheses practice: Two-sample variance test (F test) 
+Ecologists want to know whether the variability of Shannon Diversity Index measurements changed between 2014 and 2024.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Is the 2024 value larger than the 2014 value?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : σ20142 ( sigma^2_2014) < σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index value in 2014 is less than the value in 2024.
+ HA : σ20142 ( sigma^2_2014) ≥ σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index value in 2014 is greater than or equal to the value in 2024.
+- [ ] B. H0 : σ20142 ( sigma^2_2014) > σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index value in 2014 is greater than the value in 2024.
+ HA : σ20242 ( sigma^2_2024) > σ20142 ( sigma^2_2014)
+ In words: The variance Shannon Diversity Index value in 2024 is greater than the value in 2014.
+- [ ] C. H0 : σ20242 ( sigma^2_2024) > σ20142 ( sigma^2_2014)
+ In words: The variance Shannon Diversity Index value in 2024 is greater than the value in 2014.
+ HA : σ20142 ( sigma^2_2014) = σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are equal.
+- [*] D. H0 : σ20142 ( sigma^2_2014) = σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are equal.
+ HA : σ20242 ( sigma^2_2024) > σ20142 ( sigma^2_2014)
+ In words: The variance Shannon Diversity Index value in 2024 is greater than the value in 2014.
+
+
+11. Hypotheses practice: One-sample mean test (baby weights) 
+Joe's Hospital of Fried Foods claims their newborns are heavier than the national average.
+The national average birth weight is 7.5 lbs.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Is the mean different from 7.5 lbs?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+ HA : μhospital ( mu_hospital) = 7.5
+ In words: The hospital mean birth weight equals 7.5 lbs.
+- [ ] B. H0 : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+ HA : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+- [ ] C. H0 : μhospital ( mu_hospital) = 8.0
+ In words: The hospital mean birth weight equals 8.0 lbs.
+ HA : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+- [*] D. H0 : μhospital ( mu_hospital) = 7.5
+ In words: The hospital mean birth weight equals 7.5 lbs.
+ HA : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+
+
+12. Hypotheses practice: Two-sample variance test (F test) 
+Ecologists want to know whether the variability of Shannon Diversity Index measurements changed between 2014 and 2024.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Are the 2014 and 2024 values different?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : σ20142 ( sigma^2_2014) ≠ σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are different.
+ HA : σ20142 ( sigma^2_2014) ≠ σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are different.
+- [ ] B. H0 : σ20142 ( sigma^2_2014) < σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index value in 2014 is less than the value in 2024.
+ HA : σ20142 ( sigma^2_2014) ≥ σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index value in 2014 is greater than or equal to the value in 2024.
+- [*] C. H0 : σ20142 ( sigma^2_2014) = σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are equal.
+ HA : σ20142 ( sigma^2_2014) ≠ σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are different.
+- [ ] D. H0 : σ20142 ( sigma^2_2014) ≠ σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are different.
+ HA : σ20142 ( sigma^2_2014) = σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are equal.
+
+
+13. Hypotheses practice: Two-sample mean test (Shannon diversity 2014 vs 2024) 
+Ecologists compare Shannon Diversity Index measurements taken at the same set of sites in 2014 and 2024.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Is the 2024 value smaller than the 2014 value?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : μ2014 ( mu_2014) < μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is less than the value in 2024.
+ HA : μ2024 ( mu_2024) < μ2014 ( mu_2014)
+ In words: The mean Shannon Diversity Index value in 2024 is less than the value in 2014.
+- [*] B. H0 : μ2014 ( mu_2014) = μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are equal.
+ HA : μ2024 ( mu_2024) < μ2014 ( mu_2014)
+ In words: The mean Shannon Diversity Index value in 2024 is less than the value in 2014.
+- [ ] C. H0 : μ2014 ( mu_2014) < μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is less than the value in 2024.
+ HA : μ2014 ( mu_2014) ≥ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is greater than or equal to the value in 2024.
+- [ ] D. H0 : μ2024 ( mu_2024) < μ2014 ( mu_2014)
+ In words: The mean Shannon Diversity Index value in 2024 is less than the value in 2014.
+ HA : μ2014 ( mu_2014) = μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are equal.
+
+
+14. Hypotheses practice: Two-sample mean test (Shannon diversity 2014 vs 2024) 
+Ecologists compare Shannon Diversity Index measurements taken at the same set of sites in 2014 and 2024.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Are the 2014 and 2024 values different?
+Which option correctly states H0 and HA?
+- [*] A. H0 : μ2014 ( mu_2014) = μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are equal.
+ HA : μ2014 ( mu_2014) ≠ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are different.
+- [ ] B. H0 : μ2014 ( mu_2014) ≠ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are different.
+ HA : μ2014 ( mu_2014) = μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are equal.
+- [ ] C. H0 : μ2014 ( mu_2014) < μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is less than the value in 2024.
+ HA : μ2014 ( mu_2014) ≥ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is greater than or equal to the value in 2024.
+- [ ] D. H0 : μ2014 ( mu_2014) ≠ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are different.
+ HA : μ2014 ( mu_2014) ≠ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are different.
+
+
+15. Hypotheses practice: One-sample mean test (baby weights) 
+Joe's Hospital of Fried Foods claims their newborns are heavier than the national average.
+The national average birth weight is 7.5 lbs.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Is the mean different from 7.5 lbs?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+ HA : μhospital ( mu_hospital) = 7.5
+ In words: The hospital mean birth weight equals 7.5 lbs.
+- [ ] B. H0 : μhospital ( mu_hospital) = 8.0
+ In words: The hospital mean birth weight equals 8.0 lbs.
+ HA : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+- [*] C. H0 : μhospital ( mu_hospital) = 7.5
+ In words: The hospital mean birth weight equals 7.5 lbs.
+ HA : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+- [ ] D. H0 : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+ HA : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+
+
+16. Hypotheses practice: Two-sample mean test (Shannon diversity 2014 vs 2024) 
+Ecologists compare Shannon Diversity Index measurements taken at the same set of sites in 2014 and 2024.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Are the 2014 and 2024 values different?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : μ2014 ( mu_2014) < μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is less than the value in 2024.
+ HA : μ2014 ( mu_2014) ≥ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is greater than or equal to the value in 2024.
+- [*] B. H0 : μ2014 ( mu_2014) = μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are equal.
+ HA : μ2014 ( mu_2014) ≠ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are different.
+- [ ] C. H0 : μ2014 ( mu_2014) ≠ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are different.
+ HA : μ2014 ( mu_2014) ≠ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are different.
+- [ ] D. H0 : μ2014 ( mu_2014) ≠ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are different.
+ HA : μ2014 ( mu_2014) = μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are equal.
+
+
+17. Hypotheses practice: ANOVA (five years of Shannon diversity) 
+Ecologists measure Shannon Diversity Index at the same set of sites across five years (1994, 2004, 2009, 2014, 2024).
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Are any of the group means different?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : The sample means are all equal.
+ In words: The sample means are all equal.
+ HA : The sample means are not all equal.
+ In words: The sample means are not all equal.
+- [ ] B. H0 : All group means are equal.
+ In words: All group means are equal.
+ HA : All group means are equal.
+ In words: All group means are equal.
+- [ ] C. H0 : At least one group mean is different.
+ In words: At least one group mean is different.
+ HA : All group means are equal.
+ In words: All group means are equal.
+- [*] D. H0 : All group means are equal.
+ In words: All group means are equal.
+ HA : At least one group mean is different.
+ In words: At least one group mean is different.
+
+
+18. Hypotheses practice: One-sample mean test (baby weights) 
+Joe's Hospital of Fried Foods claims their newborns are heavier than the national average.
+The national average birth weight is 7.5 lbs.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Is the mean different from 7.5 lbs?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+ HA : μhospital ( mu_hospital) = 7.5
+ In words: The hospital mean birth weight equals 7.5 lbs.
+- [ ] B. H0 : μhospital ( mu_hospital) = 8.0
+ In words: The hospital mean birth weight equals 8.0 lbs.
+ HA : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+- [ ] C. H0 : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+ HA : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+- [*] D. H0 : μhospital ( mu_hospital) = 7.5
+ In words: The hospital mean birth weight equals 7.5 lbs.
+ HA : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+
+
+19. Hypotheses practice: Two-sample mean test (Shannon diversity 2014 vs 2024) 
+Ecologists compare Shannon Diversity Index measurements taken at the same set of sites in 2014 and 2024.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Is the 2024 value smaller than the 2014 value?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : μ2024 ( mu_2024) < μ2014 ( mu_2014)
+ In words: The mean Shannon Diversity Index value in 2024 is less than the value in 2014.
+ HA : μ2014 ( mu_2014) = μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are equal.
+- [ ] B. H0 : μ2014 ( mu_2014) < μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is less than the value in 2024.
+ HA : μ2014 ( mu_2014) ≥ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is greater than or equal to the value in 2024.
+- [*] C. H0 : μ2014 ( mu_2014) = μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are equal.
+ HA : μ2024 ( mu_2024) < μ2014 ( mu_2014)
+ In words: The mean Shannon Diversity Index value in 2024 is less than the value in 2014.
+- [ ] D. H0 : μ2014 ( mu_2014) < μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is less than the value in 2024.
+ HA : μ2024 ( mu_2024) < μ2014 ( mu_2014)
+ In words: The mean Shannon Diversity Index value in 2024 is less than the value in 2014.
+
+
+20. Hypotheses practice: Two-sample variance test (F test) 
+Ecologists want to know whether the variability of Shannon Diversity Index measurements changed between 2014 and 2024.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Are the 2014 and 2024 values different?
+Which option correctly states H0 and HA?
+- [*] A. H0 : σ20142 ( sigma^2_2014) = σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are equal.
+ HA : σ20142 ( sigma^2_2014) ≠ σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are different.
+- [ ] B. H0 : σ20142 ( sigma^2_2014) ≠ σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are different.
+ HA : σ20142 ( sigma^2_2014) = σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are equal.
+- [ ] C. H0 : σ20142 ( sigma^2_2014) < σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index value in 2014 is less than the value in 2024.
+ HA : σ20142 ( sigma^2_2014) ≥ σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index value in 2014 is greater than or equal to the value in 2024.
+- [ ] D. H0 : σ20142 ( sigma^2_2014) ≠ σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are different.
+ HA : σ20142 ( sigma^2_2014) ≠ σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are different.
+
+
+21. Hypotheses practice: Two-sample mean test (Shannon diversity 2014 vs 2024) 
+Ecologists compare Shannon Diversity Index measurements taken at the same set of sites in 2014 and 2024.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Is the 2024 value larger than the 2014 value?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : μ2014 ( mu_2014) < μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is less than the value in 2024.
+ HA : μ2014 ( mu_2014) ≥ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is greater than or equal to the value in 2024.
+- [*] B. H0 : μ2014 ( mu_2014) = μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are equal.
+ HA : μ2024 ( mu_2024) > μ2014 ( mu_2014)
+ In words: The mean Shannon Diversity Index value in 2024 is greater than the value in 2014.
+- [ ] C. H0 : μ2024 ( mu_2024) > μ2014 ( mu_2014)
+ In words: The mean Shannon Diversity Index value in 2024 is greater than the value in 2014.
+ HA : μ2014 ( mu_2014) = μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are equal.
+- [ ] D. H0 : μ2014 ( mu_2014) > μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is greater than the value in 2024.
+ HA : μ2024 ( mu_2024) > μ2014 ( mu_2014)
+ In words: The mean Shannon Diversity Index value in 2024 is greater than the value in 2014.
+
+
+22. Hypotheses practice: Two-sample variance test (F test) 
+Ecologists want to know whether the variability of Shannon Diversity Index measurements changed between 2014 and 2024.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Are the 2014 and 2024 values different?
+Which option correctly states H0 and HA?
+- [*] A. H0 : σ20142 ( sigma^2_2014) = σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are equal.
+ HA : σ20142 ( sigma^2_2014) ≠ σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are different.
+- [ ] B. H0 : σ20142 ( sigma^2_2014) ≠ σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are different.
+ HA : σ20142 ( sigma^2_2014) ≠ σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are different.
+- [ ] C. H0 : σ20142 ( sigma^2_2014) < σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index value in 2014 is less than the value in 2024.
+ HA : σ20142 ( sigma^2_2014) ≥ σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index value in 2014 is greater than or equal to the value in 2024.
+- [ ] D. H0 : σ20142 ( sigma^2_2014) ≠ σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are different.
+ HA : σ20142 ( sigma^2_2014) = σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are equal.
+
+
+23. Hypotheses practice: Two-sample variance test (F test) 
+Ecologists want to know whether the variability of Shannon Diversity Index measurements changed between 2014 and 2024.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Is the 2024 value smaller than the 2014 value?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : σ20142 ( sigma^2_2014) < σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index value in 2014 is less than the value in 2024.
+ HA : σ20142 ( sigma^2_2014) ≥ σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index value in 2014 is greater than or equal to the value in 2024.
+- [ ] B. H0 : σ20142 ( sigma^2_2014) < σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index value in 2014 is less than the value in 2024.
+ HA : σ20242 ( sigma^2_2024) < σ20142 ( sigma^2_2014)
+ In words: The variance Shannon Diversity Index value in 2024 is less than the value in 2014.
+- [*] C. H0 : σ20142 ( sigma^2_2014) = σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are equal.
+ HA : σ20242 ( sigma^2_2024) < σ20142 ( sigma^2_2014)
+ In words: The variance Shannon Diversity Index value in 2024 is less than the value in 2014.
+- [ ] D. H0 : σ20242 ( sigma^2_2024) < σ20142 ( sigma^2_2014)
+ In words: The variance Shannon Diversity Index value in 2024 is less than the value in 2014.
+ HA : σ20142 ( sigma^2_2014) = σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are equal.
+
+
+24. Hypotheses practice: One-sample mean test (baby weights) 
+Joe's Hospital of Fried Foods claims their newborns are heavier than the national average.
+The national average birth weight is 7.5 lbs.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Is the mean different from 7.5 lbs?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+ HA : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+- [ ] B. H0 : μhospital ( mu_hospital) = 8.0
+ In words: The hospital mean birth weight equals 8.0 lbs.
+ HA : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+- [ ] C. H0 : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+ HA : μhospital ( mu_hospital) = 7.5
+ In words: The hospital mean birth weight equals 7.5 lbs.
+- [*] D. H0 : μhospital ( mu_hospital) = 7.5
+ In words: The hospital mean birth weight equals 7.5 lbs.
+ HA : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+
+
+25. Hypotheses practice: Two-sample variance test (F test) 
+Ecologists want to know whether the variability of Shannon Diversity Index measurements changed between 2014 and 2024.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Is the 2024 value larger than the 2014 value?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : σ20142 ( sigma^2_2014) < σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index value in 2014 is less than the value in 2024.
+ HA : σ20142 ( sigma^2_2014) ≥ σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index value in 2014 is greater than or equal to the value in 2024.
+- [ ] B. H0 : σ20142 ( sigma^2_2014) > σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index value in 2014 is greater than the value in 2024.
+ HA : σ20242 ( sigma^2_2024) > σ20142 ( sigma^2_2014)
+ In words: The variance Shannon Diversity Index value in 2024 is greater than the value in 2014.
+- [*] C. H0 : σ20142 ( sigma^2_2014) = σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are equal.
+ HA : σ20242 ( sigma^2_2024) > σ20142 ( sigma^2_2014)
+ In words: The variance Shannon Diversity Index value in 2024 is greater than the value in 2014.
+- [ ] D. H0 : σ20242 ( sigma^2_2024) > σ20142 ( sigma^2_2014)
+ In words: The variance Shannon Diversity Index value in 2024 is greater than the value in 2014.
+ HA : σ20142 ( sigma^2_2014) = σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are equal.
+
+
+26. Hypotheses practice: One-sample mean test (baby weights) 
+Joe's Hospital of Fried Foods claims their newborns are heavier than the national average.
+The national average birth weight is 7.5 lbs.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Is the mean higher than 7.5 lbs?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : μhospital ( mu_hospital) > 7.5
+ In words: The hospital mean birth weight is greater than 7.5 lbs.
+ HA : μhospital ( mu_hospital) = 7.5
+ In words: The hospital mean birth weight equals 7.5 lbs.
+- [ ] B. H0 : μhospital ( mu_hospital) = 8.0
+ In words: The hospital mean birth weight equals 8.0 lbs.
+ HA : μhospital ( mu_hospital) > 7.5
+ In words: The hospital mean birth weight is greater than 7.5 lbs.
+- [ ] C. H0 : μhospital ( mu_hospital) > 7.5
+ In words: The hospital mean birth weight is greater than 7.5 lbs.
+ HA : μhospital ( mu_hospital) > 7.5
+ In words: The hospital mean birth weight is greater than 7.5 lbs.
+- [*] D. H0 : μhospital ( mu_hospital) = 7.5
+ In words: The hospital mean birth weight equals 7.5 lbs.
+ HA : μhospital ( mu_hospital) > 7.5
+ In words: The hospital mean birth weight is greater than 7.5 lbs.
+
+
+27. Hypotheses practice: Two-sample mean test (Shannon diversity 2014 vs 2024) 
+Ecologists compare Shannon Diversity Index measurements taken at the same set of sites in 2014 and 2024.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Is the 2024 value larger than the 2014 value?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : μ2014 ( mu_2014) < μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is less than the value in 2024.
+ HA : μ2014 ( mu_2014) ≥ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is greater than or equal to the value in 2024.
+- [ ] B. H0 : μ2024 ( mu_2024) > μ2014 ( mu_2014)
+ In words: The mean Shannon Diversity Index value in 2024 is greater than the value in 2014.
+ HA : μ2014 ( mu_2014) = μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are equal.
+- [ ] C. H0 : μ2014 ( mu_2014) > μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is greater than the value in 2024.
+ HA : μ2024 ( mu_2024) > μ2014 ( mu_2014)
+ In words: The mean Shannon Diversity Index value in 2024 is greater than the value in 2014.
+- [*] D. H0 : μ2014 ( mu_2014) = μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are equal.
+ HA : μ2024 ( mu_2024) > μ2014 ( mu_2014)
+ In words: The mean Shannon Diversity Index value in 2024 is greater than the value in 2014.
+
+
+28. Hypotheses practice: One-sample mean test (baby weights) 
+Joe's Hospital of Fried Foods claims their newborns are heavier than the national average.
+The national average birth weight is 7.5 lbs.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Is the mean different from 7.5 lbs?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+ HA : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+- [*] B. H0 : μhospital ( mu_hospital) = 7.5
+ In words: The hospital mean birth weight equals 7.5 lbs.
+ HA : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+- [ ] C. H0 : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+ HA : μhospital ( mu_hospital) = 7.5
+ In words: The hospital mean birth weight equals 7.5 lbs.
+- [ ] D. H0 : μhospital ( mu_hospital) = 8.0
+ In words: The hospital mean birth weight equals 8.0 lbs.
+ HA : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+
+
+29. Hypotheses practice: Two-sample variance test (F test) 
+Ecologists want to know whether the variability of Shannon Diversity Index measurements changed between 2014 and 2024.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Are the 2014 and 2024 values different?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : σ20142 ( sigma^2_2014) ≠ σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are different.
+ HA : σ20142 ( sigma^2_2014) ≠ σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are different.
+- [ ] B. H0 : σ20142 ( sigma^2_2014) ≠ σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are different.
+ HA : σ20142 ( sigma^2_2014) = σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are equal.
+- [ ] C. H0 : σ20142 ( sigma^2_2014) < σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index value in 2014 is less than the value in 2024.
+ HA : σ20142 ( sigma^2_2014) ≥ σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index value in 2014 is greater than or equal to the value in 2024.
+- [*] D. H0 : σ20142 ( sigma^2_2014) = σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are equal.
+ HA : σ20142 ( sigma^2_2014) ≠ σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are different.
+
+
+30. Hypotheses practice: Two-sample variance test (F test) 
+Ecologists want to know whether the variability of Shannon Diversity Index measurements changed between 2014 and 2024.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Is the 2024 value smaller than the 2014 value?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : σ20142 ( sigma^2_2014) < σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index value in 2014 is less than the value in 2024.
+ HA : σ20242 ( sigma^2_2024) < σ20142 ( sigma^2_2014)
+ In words: The variance Shannon Diversity Index value in 2024 is less than the value in 2014.
+- [ ] B. H0 : σ20142 ( sigma^2_2014) < σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index value in 2014 is less than the value in 2024.
+ HA : σ20142 ( sigma^2_2014) ≥ σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index value in 2014 is greater than or equal to the value in 2024.
+- [*] C. H0 : σ20142 ( sigma^2_2014) = σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are equal.
+ HA : σ20242 ( sigma^2_2024) < σ20142 ( sigma^2_2014)
+ In words: The variance Shannon Diversity Index value in 2024 is less than the value in 2014.
+- [ ] D. H0 : σ20242 ( sigma^2_2024) < σ20142 ( sigma^2_2014)
+ In words: The variance Shannon Diversity Index value in 2024 is less than the value in 2014.
+ HA : σ20142 ( sigma^2_2014) = σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are equal.
+
+
+31. Hypotheses practice: One-sample mean test (baby weights) 
+Joe's Hospital of Fried Foods claims their newborns are heavier than the national average.
+The national average birth weight is 7.5 lbs.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Is the mean higher than 7.5 lbs?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : μhospital ( mu_hospital) = 8.0
+ In words: The hospital mean birth weight equals 8.0 lbs.
+ HA : μhospital ( mu_hospital) > 7.5
+ In words: The hospital mean birth weight is greater than 7.5 lbs.
+- [*] B. H0 : μhospital ( mu_hospital) = 7.5
+ In words: The hospital mean birth weight equals 7.5 lbs.
+ HA : μhospital ( mu_hospital) > 7.5
+ In words: The hospital mean birth weight is greater than 7.5 lbs.
+- [ ] C. H0 : μhospital ( mu_hospital) > 7.5
+ In words: The hospital mean birth weight is greater than 7.5 lbs.
+ HA : μhospital ( mu_hospital) = 7.5
+ In words: The hospital mean birth weight equals 7.5 lbs.
+- [ ] D. H0 : μhospital ( mu_hospital) > 7.5
+ In words: The hospital mean birth weight is greater than 7.5 lbs.
+ HA : μhospital ( mu_hospital) > 7.5
+ In words: The hospital mean birth weight is greater than 7.5 lbs.
+
+
+32. Hypotheses practice: ANOVA (five years of Shannon diversity) 
+Ecologists measure Shannon Diversity Index at the same set of sites across five years (1994, 2004, 2009, 2014, 2024).
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Are any of the group means different?
+Which option correctly states H0 and HA?
+- [*] A. H0 : All group means are equal.
+ In words: All group means are equal.
+ HA : At least one group mean is different.
+ In words: At least one group mean is different.
+- [ ] B. H0 : All group means are equal.
+ In words: All group means are equal.
+ HA : All group means are equal.
+ In words: All group means are equal.
+- [ ] C. H0 : The sample means are all equal.
+ In words: The sample means are all equal.
+ HA : The sample means are not all equal.
+ In words: The sample means are not all equal.
+- [ ] D. H0 : At least one group mean is different.
+ In words: At least one group mean is different.
+ HA : All group means are equal.
+ In words: All group means are equal.
+
+
+33. Hypotheses practice: ANOVA (five years of Shannon diversity) 
+Ecologists measure Shannon Diversity Index at the same set of sites across five years (1994, 2004, 2009, 2014, 2024).
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Are any of the group means different?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : At least one group mean is different.
+ In words: At least one group mean is different.
+ HA : All group means are equal.
+ In words: All group means are equal.
+- [*] B. H0 : All group means are equal.
+ In words: All group means are equal.
+ HA : At least one group mean is different.
+ In words: At least one group mean is different.
+- [ ] C. H0 : The sample means are all equal.
+ In words: The sample means are all equal.
+ HA : The sample means are not all equal.
+ In words: The sample means are not all equal.
+- [ ] D. H0 : All group means are equal.
+ In words: All group means are equal.
+ HA : All group means are equal.
+ In words: All group means are equal.
+
+
+34. Hypotheses practice: Two-sample mean test (Shannon diversity 2014 vs 2024) 
+Ecologists compare Shannon Diversity Index measurements taken at the same set of sites in 2014 and 2024.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Is the 2024 value larger than the 2014 value?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : μ2024 ( mu_2024) > μ2014 ( mu_2014)
+ In words: The mean Shannon Diversity Index value in 2024 is greater than the value in 2014.
+ HA : μ2014 ( mu_2014) = μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are equal.
+- [ ] B. H0 : μ2014 ( mu_2014) < μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is less than the value in 2024.
+ HA : μ2014 ( mu_2014) ≥ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is greater than or equal to the value in 2024.
+- [ ] C. H0 : μ2014 ( mu_2014) > μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is greater than the value in 2024.
+ HA : μ2024 ( mu_2024) > μ2014 ( mu_2014)
+ In words: The mean Shannon Diversity Index value in 2024 is greater than the value in 2014.
+- [*] D. H0 : μ2014 ( mu_2014) = μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are equal.
+ HA : μ2024 ( mu_2024) > μ2014 ( mu_2014)
+ In words: The mean Shannon Diversity Index value in 2024 is greater than the value in 2014.
+
+
+35. Hypotheses practice: Two-sample mean test (Shannon diversity 2014 vs 2024) 
+Ecologists compare Shannon Diversity Index measurements taken at the same set of sites in 2014 and 2024.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Is the 2024 value smaller than the 2014 value?
+Which option correctly states H0 and HA?
+- [*] A. H0 : μ2014 ( mu_2014) = μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are equal.
+ HA : μ2024 ( mu_2024) < μ2014 ( mu_2014)
+ In words: The mean Shannon Diversity Index value in 2024 is less than the value in 2014.
+- [ ] B. H0 : μ2014 ( mu_2014) < μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is less than the value in 2024.
+ HA : μ2024 ( mu_2024) < μ2014 ( mu_2014)
+ In words: The mean Shannon Diversity Index value in 2024 is less than the value in 2014.
+- [ ] C. H0 : μ2024 ( mu_2024) < μ2014 ( mu_2014)
+ In words: The mean Shannon Diversity Index value in 2024 is less than the value in 2014.
+ HA : μ2014 ( mu_2014) = μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are equal.
+- [ ] D. H0 : μ2014 ( mu_2014) < μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is less than the value in 2024.
+ HA : μ2014 ( mu_2014) ≥ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is greater than or equal to the value in 2024.
+
+
+36. Hypotheses practice: Two-sample variance test (F test) 
+Ecologists want to know whether the variability of Shannon Diversity Index measurements changed between 2014 and 2024.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Is the 2024 value larger than the 2014 value?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : σ20242 ( sigma^2_2024) > σ20142 ( sigma^2_2014)
+ In words: The variance Shannon Diversity Index value in 2024 is greater than the value in 2014.
+ HA : σ20142 ( sigma^2_2014) = σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are equal.
+- [ ] B. H0 : σ20142 ( sigma^2_2014) > σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index value in 2014 is greater than the value in 2024.
+ HA : σ20242 ( sigma^2_2024) > σ20142 ( sigma^2_2014)
+ In words: The variance Shannon Diversity Index value in 2024 is greater than the value in 2014.
+- [*] C. H0 : σ20142 ( sigma^2_2014) = σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are equal.
+ HA : σ20242 ( sigma^2_2024) > σ20142 ( sigma^2_2014)
+ In words: The variance Shannon Diversity Index value in 2024 is greater than the value in 2014.
+- [ ] D. H0 : σ20142 ( sigma^2_2014) < σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index value in 2014 is less than the value in 2024.
+ HA : σ20142 ( sigma^2_2014) ≥ σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index value in 2014 is greater than or equal to the value in 2024.
+
+
+37. Hypotheses practice: Two-sample mean test (Shannon diversity 2014 vs 2024) 
+Ecologists compare Shannon Diversity Index measurements taken at the same set of sites in 2014 and 2024.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Are the 2014 and 2024 values different?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : μ2014 ( mu_2014) ≠ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are different.
+ HA : μ2014 ( mu_2014) = μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are equal.
+- [ ] B. H0 : μ2014 ( mu_2014) ≠ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are different.
+ HA : μ2014 ( mu_2014) ≠ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are different.
+- [ ] C. H0 : μ2014 ( mu_2014) < μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is less than the value in 2024.
+ HA : μ2014 ( mu_2014) ≥ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is greater than or equal to the value in 2024.
+- [*] D. H0 : μ2014 ( mu_2014) = μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are equal.
+ HA : μ2014 ( mu_2014) ≠ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are different.
+
+
+38. Hypotheses practice: Two-sample variance test (F test) 
+Ecologists want to know whether the variability of Shannon Diversity Index measurements changed between 2014 and 2024.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Are the 2014 and 2024 values different?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : σ20142 ( sigma^2_2014) ≠ σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are different.
+ HA : σ20142 ( sigma^2_2014) = σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are equal.
+- [ ] B. H0 : σ20142 ( sigma^2_2014) ≠ σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are different.
+ HA : σ20142 ( sigma^2_2014) ≠ σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are different.
+- [*] C. H0 : σ20142 ( sigma^2_2014) = σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are equal.
+ HA : σ20142 ( sigma^2_2014) ≠ σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index values in 2014 and 2024 are different.
+- [ ] D. H0 : σ20142 ( sigma^2_2014) < σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index value in 2014 is less than the value in 2024.
+ HA : σ20142 ( sigma^2_2014) ≥ σ20242 ( sigma^2_2024)
+ In words: The variance Shannon Diversity Index value in 2014 is greater than or equal to the value in 2024.
+
+
+39. Hypotheses practice: Two-sample mean test (Shannon diversity 2014 vs 2024) 
+Ecologists compare Shannon Diversity Index measurements taken at the same set of sites in 2014 and 2024.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Is the 2024 value larger than the 2014 value?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : μ2014 ( mu_2014) > μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is greater than the value in 2024.
+ HA : μ2024 ( mu_2024) > μ2014 ( mu_2014)
+ In words: The mean Shannon Diversity Index value in 2024 is greater than the value in 2014.
+- [ ] B. H0 : μ2024 ( mu_2024) > μ2014 ( mu_2014)
+ In words: The mean Shannon Diversity Index value in 2024 is greater than the value in 2014.
+ HA : μ2014 ( mu_2014) = μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are equal.
+- [*] C. H0 : μ2014 ( mu_2014) = μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are equal.
+ HA : μ2024 ( mu_2024) > μ2014 ( mu_2014)
+ In words: The mean Shannon Diversity Index value in 2024 is greater than the value in 2014.
+- [ ] D. H0 : μ2014 ( mu_2014) < μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is less than the value in 2024.
+ HA : μ2014 ( mu_2014) ≥ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is greater than or equal to the value in 2024.
+
+
+40. Hypotheses practice: Two-sample mean test (Shannon diversity 2014 vs 2024) 
+Ecologists compare Shannon Diversity Index measurements taken at the same set of sites in 2014 and 2024.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Is the 2024 value smaller than the 2014 value?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : μ2024 ( mu_2024) < μ2014 ( mu_2014)
+ In words: The mean Shannon Diversity Index value in 2024 is less than the value in 2014.
+ HA : μ2014 ( mu_2014) = μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are equal.
+- [*] B. H0 : μ2014 ( mu_2014) = μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are equal.
+ HA : μ2024 ( mu_2024) < μ2014 ( mu_2014)
+ In words: The mean Shannon Diversity Index value in 2024 is less than the value in 2014.
+- [ ] C. H0 : μ2014 ( mu_2014) < μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is less than the value in 2024.
+ HA : μ2024 ( mu_2024) < μ2014 ( mu_2014)
+ In words: The mean Shannon Diversity Index value in 2024 is less than the value in 2014.
+- [ ] D. H0 : μ2014 ( mu_2014) < μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is less than the value in 2024.
+ HA : μ2014 ( mu_2014) ≥ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is greater than or equal to the value in 2024.
+
+
+41. Hypotheses practice: One-sample mean test (baby weights) 
+Joe's Hospital of Fried Foods claims their newborns are heavier than the national average.
+The national average birth weight is 7.5 lbs.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Is the mean lower than 7.5 lbs?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : μhospital ( mu_hospital) < 7.5
+ In words: The hospital mean birth weight is less than 7.5 lbs.
+ HA : μhospital ( mu_hospital) < 7.5
+ In words: The hospital mean birth weight is less than 7.5 lbs.
+- [ ] B. H0 : μhospital ( mu_hospital) = 8.0
+ In words: The hospital mean birth weight equals 8.0 lbs.
+ HA : μhospital ( mu_hospital) < 7.5
+ In words: The hospital mean birth weight is less than 7.5 lbs.
+- [ ] C. H0 : μhospital ( mu_hospital) < 7.5
+ In words: The hospital mean birth weight is less than 7.5 lbs.
+ HA : μhospital ( mu_hospital) = 7.5
+ In words: The hospital mean birth weight equals 7.5 lbs.
+- [*] D. H0 : μhospital ( mu_hospital) = 7.5
+ In words: The hospital mean birth weight equals 7.5 lbs.
+ HA : μhospital ( mu_hospital) < 7.5
+ In words: The hospital mean birth weight is less than 7.5 lbs.
+
+
+42. Hypotheses practice: ANOVA (five years of Shannon diversity) 
+Ecologists measure Shannon Diversity Index at the same set of sites across five years (1994, 2004, 2009, 2014, 2024).
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Are any of the group means different?
+Which option correctly states H0 and HA?
+- [*] A. H0 : All group means are equal.
+ In words: All group means are equal.
+ HA : At least one group mean is different.
+ In words: At least one group mean is different.
+- [ ] B. H0 : At least one group mean is different.
+ In words: At least one group mean is different.
+ HA : All group means are equal.
+ In words: All group means are equal.
+- [ ] C. H0 : All group means are equal.
+ In words: All group means are equal.
+ HA : All group means are equal.
+ In words: All group means are equal.
+- [ ] D. H0 : The sample means are all equal.
+ In words: The sample means are all equal.
+ HA : The sample means are not all equal.
+ In words: The sample means are not all equal.
+
+
+43. Hypotheses practice: Two-sample mean test (Shannon diversity 2014 vs 2024) 
+Ecologists compare Shannon Diversity Index measurements taken at the same set of sites in 2014 and 2024.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Are the 2014 and 2024 values different?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : μ2014 ( mu_2014) ≠ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are different.
+ HA : μ2014 ( mu_2014) = μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are equal.
+- [*] B. H0 : μ2014 ( mu_2014) = μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are equal.
+ HA : μ2014 ( mu_2014) ≠ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are different.
+- [ ] C. H0 : μ2014 ( mu_2014) < μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is less than the value in 2024.
+ HA : μ2014 ( mu_2014) ≥ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is greater than or equal to the value in 2024.
+- [ ] D. H0 : μ2014 ( mu_2014) ≠ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are different.
+ HA : μ2014 ( mu_2014) ≠ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are different.
+
+
+44. Hypotheses practice: One-sample mean test (baby weights) 
+Joe's Hospital of Fried Foods claims their newborns are heavier than the national average.
+The national average birth weight is 7.5 lbs.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Is the mean different from 7.5 lbs?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : μhospital ( mu_hospital) = 8.0
+ In words: The hospital mean birth weight equals 8.0 lbs.
+ HA : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+- [ ] B. H0 : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+ HA : μhospital ( mu_hospital) = 7.5
+ In words: The hospital mean birth weight equals 7.5 lbs.
+- [ ] C. H0 : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+ HA : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+- [*] D. H0 : μhospital ( mu_hospital) = 7.5
+ In words: The hospital mean birth weight equals 7.5 lbs.
+ HA : μhospital ( mu_hospital) ≠ 7.5
+ In words: The hospital mean birth weight is different from 7.5 lbs.
+
+
+45. Hypotheses practice: One-sample mean test (baby weights) 
+Joe's Hospital of Fried Foods claims their newborns are heavier than the national average.
+The national average birth weight is 7.5 lbs.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Is the mean higher than 7.5 lbs?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : μhospital ( mu_hospital) = 8.0
+ In words: The hospital mean birth weight equals 8.0 lbs.
+ HA : μhospital ( mu_hospital) > 7.5
+ In words: The hospital mean birth weight is greater than 7.5 lbs.
+- [ ] B. H0 : μhospital ( mu_hospital) > 7.5
+ In words: The hospital mean birth weight is greater than 7.5 lbs.
+ HA : μhospital ( mu_hospital) = 7.5
+ In words: The hospital mean birth weight equals 7.5 lbs.
+- [ ] C. H0 : μhospital ( mu_hospital) > 7.5
+ In words: The hospital mean birth weight is greater than 7.5 lbs.
+ HA : μhospital ( mu_hospital) > 7.5
+ In words: The hospital mean birth weight is greater than 7.5 lbs.
+- [*] D. H0 : μhospital ( mu_hospital) = 7.5
+ In words: The hospital mean birth weight equals 7.5 lbs.
+ HA : μhospital ( mu_hospital) > 7.5
+ In words: The hospital mean birth weight is greater than 7.5 lbs.
+
+
+46. Hypotheses practice: Two-sample mean test (Shannon diversity 2014 vs 2024) 
+Ecologists compare Shannon Diversity Index measurements taken at the same set of sites in 2014 and 2024.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Are the 2014 and 2024 values different?
+Which option correctly states H0 and HA?
+- [*] A. H0 : μ2014 ( mu_2014) = μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are equal.
+ HA : μ2014 ( mu_2014) ≠ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are different.
+- [ ] B. H0 : μ2014 ( mu_2014) ≠ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are different.
+ HA : μ2014 ( mu_2014) ≠ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are different.
+- [ ] C. H0 : μ2014 ( mu_2014) ≠ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are different.
+ HA : μ2014 ( mu_2014) = μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are equal.
+- [ ] D. H0 : μ2014 ( mu_2014) < μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is less than the value in 2024.
+ HA : μ2014 ( mu_2014) ≥ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is greater than or equal to the value in 2024.
+
+
+47. Hypotheses practice: ANOVA (five years of Shannon diversity) 
+Ecologists measure Shannon Diversity Index at the same set of sites across five years (1994, 2004, 2009, 2014, 2024).
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Are any of the group means different?
+Which option correctly states H0 and HA?
+- [*] A. H0 : All group means are equal.
+ In words: All group means are equal.
+ HA : At least one group mean is different.
+ In words: At least one group mean is different.
+- [ ] B. H0 : The sample means are all equal.
+ In words: The sample means are all equal.
+ HA : The sample means are not all equal.
+ In words: The sample means are not all equal.
+- [ ] C. H0 : At least one group mean is different.
+ In words: At least one group mean is different.
+ HA : All group means are equal.
+ In words: All group means are equal.
+- [ ] D. H0 : All group means are equal.
+ In words: All group means are equal.
+ HA : All group means are equal.
+ In words: All group means are equal.
+
+
+48. Hypotheses practice: One-sample mean test (baby weights) 
+Joe's Hospital of Fried Foods claims their newborns are heavier than the national average.
+The national average birth weight is 7.5 lbs.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Is the mean higher than 7.5 lbs?
+Which option correctly states H0 and HA?
+- [*] A. H0 : μhospital ( mu_hospital) = 7.5
+ In words: The hospital mean birth weight equals 7.5 lbs.
+ HA : μhospital ( mu_hospital) > 7.5
+ In words: The hospital mean birth weight is greater than 7.5 lbs.
+- [ ] B. H0 : μhospital ( mu_hospital) > 7.5
+ In words: The hospital mean birth weight is greater than 7.5 lbs.
+ HA : μhospital ( mu_hospital) = 7.5
+ In words: The hospital mean birth weight equals 7.5 lbs.
+- [ ] C. H0 : μhospital ( mu_hospital) > 7.5
+ In words: The hospital mean birth weight is greater than 7.5 lbs.
+ HA : μhospital ( mu_hospital) > 7.5
+ In words: The hospital mean birth weight is greater than 7.5 lbs.
+- [ ] D. H0 : μhospital ( mu_hospital) = 8.0
+ In words: The hospital mean birth weight equals 8.0 lbs.
+ HA : μhospital ( mu_hospital) > 7.5
+ In words: The hospital mean birth weight is greater than 7.5 lbs.
+
+
+49. Hypotheses practice: Two-sample mean test (Shannon diversity 2014 vs 2024) 
+Ecologists compare Shannon Diversity Index measurements taken at the same set of sites in 2014 and 2024.
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Is the 2024 value smaller than the 2014 value?
+Which option correctly states H0 and HA?
+- [*] A. H0 : μ2014 ( mu_2014) = μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are equal.
+ HA : μ2024 ( mu_2024) < μ2014 ( mu_2014)
+ In words: The mean Shannon Diversity Index value in 2024 is less than the value in 2014.
+- [ ] B. H0 : μ2014 ( mu_2014) < μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is less than the value in 2024.
+ HA : μ2014 ( mu_2014) ≥ μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is greater than or equal to the value in 2024.
+- [ ] C. H0 : μ2014 ( mu_2014) < μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index value in 2014 is less than the value in 2024.
+ HA : μ2024 ( mu_2024) < μ2014 ( mu_2014)
+ In words: The mean Shannon Diversity Index value in 2024 is less than the value in 2014.
+- [ ] D. H0 : μ2024 ( mu_2024) < μ2014 ( mu_2014)
+ In words: The mean Shannon Diversity Index value in 2024 is less than the value in 2014.
+ HA : μ2014 ( mu_2014) = μ2024 ( mu_2024)
+ In words: The mean Shannon Diversity Index values in 2014 and 2024 are equal.
+
+
+50. Hypotheses practice: ANOVA (five years of Shannon diversity) 
+Ecologists measure Shannon Diversity Index at the same set of sites across five years (1994, 2004, 2009, 2014, 2024).
+Your task is to correctly identify the null hypothesis (H0) and the alternative hypothesis (HA).
+Research question: Are any of the group means different?
+Which option correctly states H0 and HA?
+- [ ] A. H0 : The sample means are all equal.
+ In words: The sample means are all equal.
+ HA : The sample means are not all equal.
+ In words: The sample means are not all equal.
+- [*] B. H0 : All group means are equal.
+ In words: All group means are equal.
+ HA : At least one group mean is different.
+ In words: At least one group mean is different.
+- [ ] C. H0 : At least one group mean is different.
+ In words: At least one group mean is different.
+ HA : All group means are equal.
+ In words: All group means are equal.
+- [ ] D. H0 : All group means are equal.
+ In words: All group means are equal.
+ HA : All group means are equal.
+ In words: All group means are equal.
+
+
+</pre>
+</body>
+</html>

@@ -1,120 +1,129 @@
-# 8: Graph Interpretation
+# 8: Chi-Square Tests
 
-Students read, interpret, and compare graphical data displays including box plots, histograms, scatterplots, bar charts, ROC curves, and Kaplan-Meier survival plots.
+Students formulate hypotheses, calculate expected counts and chi-square statistics, interpret goodness-of-fit tests for genetic ratios, and identify errors in test procedures.
 
-## Box Plots from Cumulative Frequency Tables
+## Chi-Square Terms from Definitions
 
-<div id="boxplot_from_cdf-MC-boxplot_from_cdf-5_choices-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices-questions.txt" download title="Download bbq-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices-questions.txt)">
+<div id="MATCH-chi-square_terms-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-MATCH-chi-square_terms-questions.txt" download title="Download bbq-MATCH-chi-square_terms-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-chi-square_terms-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices.zip" download title="Download blackboard_export_zip-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices.zip)">
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-chi-square_terms.zip" download title="Download blackboard_export_zip-MATCH-chi-square_terms.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-chi-square_terms.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices.zip" download title="Download canvas_qti_v1_2-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-chi-square_terms.zip" download title="Download canvas_qti_v1_2-MATCH-chi-square_terms.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-chi-square_terms.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices.html', '_blank')" title="View human_readable-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices.html" aria-label="Click to view the Human-Readable TXT file (human_readable-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-chi-square_terms.html', '_blank')" title="View human_readable-MATCH-chi-square_terms.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-chi-square_terms.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/chi-square_terms-matching.pgml" download title="Download chi-square_terms-matching.pgml" aria-label="Click to download the WeBWorK PGML file (chi-square_terms-matching.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Box Plots from Cumulative Frequency Tables
+      Chi-Square Terms from Definitions
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "biostatistics/topic08/downloads/selftest-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices.html" %}
+  {% include "biostatistics/topic08/downloads/selftest-MATCH-chi-square_terms.html" %}
 
 </details>
 
 
-## Box Plots from Sorted Data
+## Chi-Square Tests
 
-<div id="boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices-questions.txt" download title="Download bbq-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices-questions.txt)">
+<div id="TFMS-chi-square-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-TFMS-chi-square-questions.txt" download title="Download bbq-TFMS-chi-square-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-chi-square-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices.zip" download title="Download blackboard_export_zip-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices.zip)">
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-chi-square.zip" download title="Download blackboard_export_zip-TFMS-chi-square.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-chi-square.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices.zip" download title="Download canvas_qti_v1_2-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-chi-square.zip" download title="Download canvas_qti_v1_2-TFMS-chi-square.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-chi-square.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices.html', '_blank')" title="View human_readable-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices.html" aria-label="Click to view the Human-Readable TXT file (human_readable-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-chi-square.html', '_blank')" title="View human_readable-TFMS-chi-square.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-chi-square.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/chi-square.pg" download title="Download chi-square.pg" aria-label="Click to download the WeBWorK PGML file (chi-square.pg)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Box Plots from Sorted Data
+      Chi-Square Tests
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "biostatistics/topic08/downloads/selftest-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices.html" %}
+  {% include "biostatistics/topic08/downloads/selftest-TFMS-chi-square.html" %}
 
 </details>
 
 
-## Box Plots from Five-Number Summary
+## Chi-Square Terms from Definitions
 
-<div id="boxplot_from_summary-MC-boxplot_from_summary-5_choices-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-boxplot_from_summary-MC-boxplot_from_summary-5_choices-questions.txt" download title="Download bbq-boxplot_from_summary-MC-boxplot_from_summary-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-boxplot_from_summary-MC-boxplot_from_summary-5_choices-questions.txt)">
+<div id="WOMC-chi-square_terms-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-WOMC-chi-square_terms-questions.txt" download title="Download bbq-WOMC-chi-square_terms-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-chi-square_terms-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-boxplot_from_summary-MC-boxplot_from_summary-5_choices.zip" download title="Download blackboard_export_zip-boxplot_from_summary-MC-boxplot_from_summary-5_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-boxplot_from_summary-MC-boxplot_from_summary-5_choices.zip)">
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-chi-square_terms.zip" download title="Download blackboard_export_zip-WOMC-chi-square_terms.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-chi-square_terms.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-boxplot_from_summary-MC-boxplot_from_summary-5_choices.zip" download title="Download canvas_qti_v1_2-boxplot_from_summary-MC-boxplot_from_summary-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-boxplot_from_summary-MC-boxplot_from_summary-5_choices.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-chi-square_terms.zip" download title="Download canvas_qti_v1_2-WOMC-chi-square_terms.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-chi-square_terms.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-boxplot_from_summary-MC-boxplot_from_summary-5_choices.html', '_blank')" title="View human_readable-boxplot_from_summary-MC-boxplot_from_summary-5_choices.html" aria-label="Click to view the Human-Readable TXT file (human_readable-boxplot_from_summary-MC-boxplot_from_summary-5_choices.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-chi-square_terms.html', '_blank')" title="View human_readable-WOMC-chi-square_terms.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-chi-square_terms.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
+<a class="md-button custom-button webwork_pgml" href="downloads/chi-square_terms-which_one.pgml" download title="Download chi-square_terms-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (chi-square_terms-which_one.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Box Plots from Five-Number Summary
+      Chi-Square Terms from Definitions
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "biostatistics/topic08/downloads/selftest-boxplot_from_summary-MC-boxplot_from_summary-5_choices.html" %}
+  {% include "biostatistics/topic08/downloads/selftest-WOMC-chi-square_terms.html" %}
 
 </details>
 
 
-## Box Plots from Unsorted Data (Even Sample Size)
+## Chi-Square Values for Phenotypic Ratios
 
-<div id="boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices-questions.txt" download title="Download bbq-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices-questions.txt)">
+<div id="chi_square_calculated-ACCEPT-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-chi_square_calculated-ACCEPT-questions.txt" download title="Download bbq-chi_square_calculated-ACCEPT-questions.txt" aria-label="Click to download the BBQ Text file (bbq-chi_square_calculated-ACCEPT-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices.zip" download title="Download blackboard_export_zip-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices.zip)">
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-chi_square_calculated-ACCEPT.zip" download title="Download blackboard_export_zip-chi_square_calculated-ACCEPT.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-chi_square_calculated-ACCEPT.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices.zip" download title="Download canvas_qti_v1_2-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-chi_square_calculated-ACCEPT.zip" download title="Download canvas_qti_v1_2-chi_square_calculated-ACCEPT.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-chi_square_calculated-ACCEPT.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices.html', '_blank')" title="View human_readable-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices.html" aria-label="Click to view the Human-Readable TXT file (human_readable-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-chi_square_calculated-ACCEPT.html', '_blank')" title="View human_readable-chi_square_calculated-ACCEPT.html" aria-label="Click to view the Human-Readable TXT file (human_readable-chi_square_calculated-ACCEPT.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
@@ -123,13 +132,145 @@ Students read, interpret, and compare graphical data displays including box plot
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Box Plots from Unsorted Data (Even Sample Size)
+      Chi-Square Values for Phenotypic Ratios
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "biostatistics/topic08/downloads/selftest-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices.html" %}
+  {% include "biostatistics/topic08/downloads/selftest-chi_square_calculated-ACCEPT.html" %}
+
+</details>
+
+
+## Hypothesis Decisions from Chi-Square Tests
+
+<div id="chi_square_choices-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-chi_square_choices-questions.txt" download title="Download bbq-chi_square_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-chi_square_choices-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-chi_square_choices.zip" download title="Download blackboard_export_zip-chi_square_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-chi_square_choices.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-chi_square_choices.zip" download title="Download canvas_qti_v1_2-chi_square_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-chi_square_choices.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-chi_square_choices.html', '_blank')" title="View human_readable-chi_square_choices.html" aria-label="Click to view the Human-Readable TXT file (human_readable-chi_square_choices.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Hypothesis Decisions from Chi-Square Tests
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biostatistics/topic08/downloads/selftest-chi_square_choices.html" %}
+
+</details>
+
+
+## Errors in Chi-Square Calculations and Hypothesis Decisions
+
+<div id="chi_square_errors-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-chi_square_errors-questions.txt" download title="Download bbq-chi_square_errors-questions.txt" aria-label="Click to download the BBQ Text file (bbq-chi_square_errors-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-chi_square_errors.zip" download title="Download blackboard_export_zip-chi_square_errors.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-chi_square_errors.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-chi_square_errors.zip" download title="Download canvas_qti_v1_2-chi_square_errors.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-chi_square_errors.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-chi_square_errors.html', '_blank')" title="View human_readable-chi_square_errors.html" aria-label="Click to view the Human-Readable TXT file (human_readable-chi_square_errors.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Errors in Chi-Square Calculations and Hypothesis Decisions
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biostatistics/topic08/downloads/selftest-chi_square_errors.html" %}
+
+</details>
+
+
+## Null and Alternative Hypotheses for Genetic Crosses
+
+<div id="chi_square_hypotheses-pair-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-chi_square_hypotheses-pair-questions.txt" download title="Download bbq-chi_square_hypotheses-pair-questions.txt" aria-label="Click to download the BBQ Text file (bbq-chi_square_hypotheses-pair-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-chi_square_hypotheses-pair.zip" download title="Download blackboard_export_zip-chi_square_hypotheses-pair.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-chi_square_hypotheses-pair.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-chi_square_hypotheses-pair.zip" download title="Download canvas_qti_v1_2-chi_square_hypotheses-pair.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-chi_square_hypotheses-pair.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-chi_square_hypotheses-pair.html', '_blank')" title="View human_readable-chi_square_hypotheses-pair.html" aria-label="Click to view the Human-Readable TXT file (human_readable-chi_square_hypotheses-pair.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Null and Alternative Hypotheses for Genetic Crosses
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biostatistics/topic08/downloads/selftest-chi_square_hypotheses-pair.html" %}
+
+</details>
+
+
+## Misstated Null Hypotheses for Genetic Ratios
+
+<div id="chi_square_hypotheses_lab_partner-hypotheses_partner-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt" download title="Download bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt" aria-label="Click to download the BBQ Text file (bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-chi_square_hypotheses_lab_partner-hypotheses_partner.zip" download title="Download blackboard_export_zip-chi_square_hypotheses_lab_partner-hypotheses_partner.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-chi_square_hypotheses_lab_partner-hypotheses_partner.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-chi_square_hypotheses_lab_partner-hypotheses_partner.zip" download title="Download canvas_qti_v1_2-chi_square_hypotheses_lab_partner-hypotheses_partner.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-chi_square_hypotheses_lab_partner-hypotheses_partner.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-chi_square_hypotheses_lab_partner-hypotheses_partner.html', '_blank')" title="View human_readable-chi_square_hypotheses_lab_partner-hypotheses_partner.html" aria-label="Click to view the Human-Readable TXT file (human_readable-chi_square_hypotheses_lab_partner-hypotheses_partner.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Misstated Null Hypotheses for Genetic Ratios
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biostatistics/topic08/downloads/selftest-chi_square_hypotheses_lab_partner-hypotheses_partner.html" %}
 
 </details>
 
