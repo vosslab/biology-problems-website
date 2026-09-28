@@ -34,7 +34,7 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'approximate generation time',
     'choices' => [
       'Escherichia coli',
-      'Drosophila melanogaster',
+      'Caenorhabditis elegans',
       'Mus musculus',
     ],
     'correct' => 'Escherichia coli',
@@ -77,7 +77,7 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'model organisms',
     'singular_item' => 'approximate generation time',
     'choices' => [
-      'Escherichia coli',
+      'Saccharomyces cerevisiae',
       'Caenorhabditis elegans',
       'Mus musculus',
     ],
@@ -88,7 +88,7 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'model organisms',
     'singular_item' => 'approximate generation time',
     'choices' => [
-      'Escherichia coli',
+      'Saccharomyces cerevisiae',
       'Caenorhabditis elegans',
       'Mus musculus',
     ],
@@ -121,7 +121,7 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'model organisms',
     'singular_item' => 'approximate generation time',
     'choices' => [
-      'Escherichia coli',
+      'Saccharomyces cerevisiae',
       'Drosophila melanogaster',
       'Mus musculus',
     ],
@@ -132,8 +132,8 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'model organisms',
     'singular_item' => 'approximate generation time',
     'choices' => [
-      'Saccharomyces cerevisiae',
-      'Caenorhabditis elegans',
+      'Escherichia coli',
+      'Drosophila melanogaster',
       'Mus musculus',
     ],
     'correct' => 'Mus musculus',
