@@ -1,93 +1,87 @@
-# 3: Center, Variance, and Distributions
+# 3: Graph Interpretation
 
-Students calculate mean, median, standard deviation, and variance, convert values to z-scores, and determine percentile ranks from sorted data.
+Students read, interpret, and compare graphical data displays including box plots, histograms, scatterplots, bar charts, ROC curves, and Kaplan-Meier survival plots.
 
-## Measures of Center from Definitions
+## Box Plots from Cumulative Frequency Tables
 
-<div id="MATCH-measures_of_center-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-MATCH-measures_of_center-questions.txt" download title="Download bbq-MATCH-measures_of_center-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-measures_of_center-questions.txt)">
+<div id="boxplot_from_cdf-MC-boxplot_from_cdf-5_choices-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices-questions.txt" download title="Download bbq-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-measures_of_center.zip" download title="Download blackboard_export_zip-MATCH-measures_of_center.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-measures_of_center.zip)">
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices.zip" download title="Download blackboard_export_zip-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-measures_of_center.zip" download title="Download canvas_qti_v1_2-MATCH-measures_of_center.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-measures_of_center.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices.zip" download title="Download canvas_qti_v1_2-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-measures_of_center.html', '_blank')" title="View human_readable-MATCH-measures_of_center.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-measures_of_center.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices.html', '_blank')" title="View human_readable-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices.html" aria-label="Click to view the Human-Readable TXT file (human_readable-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
-<a class="md-button custom-button webwork_pgml" href="downloads/measures_of_center-matching.pgml" download title="Download measures_of_center-matching.pgml" aria-label="Click to download the WeBWorK PGML file (measures_of_center-matching.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Measures of Center from Definitions
+      Box Plots from Cumulative Frequency Tables
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "biostatistics/topic03/downloads/selftest-MATCH-measures_of_center.html" %}
+  {% include "biostatistics/topic03/downloads/selftest-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices.html" %}
 
 </details>
 
 
-## Measures of Center from Definitions
+## Box Plots from Sorted Data
 
-<div id="WOMC-measures_of_center-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-WOMC-measures_of_center-questions.txt" download title="Download bbq-WOMC-measures_of_center-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-measures_of_center-questions.txt)">
+<div id="boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices-questions.txt" download title="Download bbq-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-measures_of_center.zip" download title="Download blackboard_export_zip-WOMC-measures_of_center.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-measures_of_center.zip)">
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices.zip" download title="Download blackboard_export_zip-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-measures_of_center.zip" download title="Download canvas_qti_v1_2-WOMC-measures_of_center.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-measures_of_center.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices.zip" download title="Download canvas_qti_v1_2-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-measures_of_center.html', '_blank')" title="View human_readable-WOMC-measures_of_center.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-measures_of_center.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices.html', '_blank')" title="View human_readable-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices.html" aria-label="Click to view the Human-Readable TXT file (human_readable-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
-<a class="md-button custom-button webwork_pgml" href="downloads/measures_of_center-which_one.pgml" download title="Download measures_of_center-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (measures_of_center-which_one.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Measures of Center from Definitions
+      Box Plots from Sorted Data
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "biostatistics/topic03/downloads/selftest-WOMC-measures_of_center.html" %}
+  {% include "biostatistics/topic03/downloads/selftest-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices.html" %}
 
 </details>
 
 
-## Descriptive Statistics Using Google Sheets
+## Box Plots from Five-Number Summary
 
-<div id="descriptive_stats_google_sheet-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-multi-fib" title="Multiple Fill in the Blanks">Multi-FiB</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-descriptive_stats_google_sheet-questions.txt" download title="Download bbq-descriptive_stats_google_sheet-questions.txt" aria-label="Click to download the BBQ Text file (bbq-descriptive_stats_google_sheet-questions.txt)">
+<div id="boxplot_from_summary-MC-boxplot_from_summary-5_choices-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-boxplot_from_summary-MC-boxplot_from_summary-5_choices-questions.txt" download title="Download bbq-boxplot_from_summary-MC-boxplot_from_summary-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-boxplot_from_summary-MC-boxplot_from_summary-5_choices-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-descriptive_stats_google_sheet.zip" download title="Download blackboard_export_zip-descriptive_stats_google_sheet.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-descriptive_stats_google_sheet.zip)">
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-boxplot_from_summary-MC-boxplot_from_summary-5_choices.zip" download title="Download blackboard_export_zip-boxplot_from_summary-MC-boxplot_from_summary-5_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-boxplot_from_summary-MC-boxplot_from_summary-5_choices.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-descriptive_stats_google_sheet.zip" download title="Download canvas_qti_v1_2-descriptive_stats_google_sheet.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-descriptive_stats_google_sheet.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-boxplot_from_summary-MC-boxplot_from_summary-5_choices.zip" download title="Download canvas_qti_v1_2-boxplot_from_summary-MC-boxplot_from_summary-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-boxplot_from_summary-MC-boxplot_from_summary-5_choices.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-descriptive_stats_google_sheet.html', '_blank')" title="View human_readable-descriptive_stats_google_sheet.html" aria-label="Click to view the Human-Readable TXT file (human_readable-descriptive_stats_google_sheet.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-boxplot_from_summary-MC-boxplot_from_summary-5_choices.html', '_blank')" title="View human_readable-boxplot_from_summary-MC-boxplot_from_summary-5_choices.html" aria-label="Click to view the Human-Readable TXT file (human_readable-boxplot_from_summary-MC-boxplot_from_summary-5_choices.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
@@ -96,13 +90,46 @@ Students calculate mean, median, standard deviation, and variance, convert value
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Descriptive Statistics Using Google Sheets
+      Box Plots from Five-Number Summary
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "biostatistics/topic03/downloads/selftest-descriptive_stats_google_sheet.html" %}
+  {% include "biostatistics/topic03/downloads/selftest-boxplot_from_summary-MC-boxplot_from_summary-5_choices.html" %}
+
+</details>
+
+
+## Box Plots from Unsorted Data (Even Sample Size)
+
+<div id="boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices-questions.txt" download title="Download bbq-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices.zip" download title="Download blackboard_export_zip-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices.zip" download title="Download canvas_qti_v1_2-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices.html', '_blank')" title="View human_readable-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices.html" aria-label="Click to view the Human-Readable TXT file (human_readable-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Box Plots from Unsorted Data (Even Sample Size)
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biostatistics/topic03/downloads/selftest-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices.html" %}
 
 </details>
 

@@ -1441,354 +1441,354 @@
       "topicTitle": "Photosynthesis"
     },
     {
-      "crc": "4636_26d3",
-      "pagePath": "biostatistics/topic03/index.md",
+      "crc": "4636_7fac",
+      "pagePath": "biostatistics/topic02/index.md",
       "questionFingerprint": "00aad15ddb456272",
-      "questionId": "4636_26d3",
-      "selftestPath": "biostatistics/topic03/downloads/selftest-MATCH-measures_of_center.html",
+      "questionId": "4636_7fac",
+      "selftestPath": "biostatistics/topic02/downloads/selftest-MATCH-measures_of_center.html",
       "subjectKey": "biostatistics",
-      "topicKey": "topic03",
-      "topicTitle": "Center, Variance, and Distributions"
+      "topicKey": "topic02",
+      "topicTitle": "Descriptive Statistics"
     },
     {
-      "crc": "b5b2_036c",
+      "crc": "b4e4_036c",
+      "pagePath": "biostatistics/topic02/index.md",
+      "questionFingerprint": "0e553d9679944fb7",
+      "questionId": "b4e4_036c",
+      "selftestPath": "biostatistics/topic02/downloads/selftest-WOMC-measures_of_center.html",
+      "subjectKey": "biostatistics",
+      "topicKey": "topic02",
+      "topicTitle": "Descriptive Statistics"
+    },
+    {
+      "crc": "9c4d_5d7f",
+      "pagePath": "biostatistics/topic02/index.md",
+      "questionFingerprint": "48baee132b86bec2",
+      "questionId": "9c4d_5d7f",
+      "selftestPath": "biostatistics/topic02/downloads/selftest-descriptive_stats_google_sheet.html",
+      "subjectKey": "biostatistics",
+      "topicKey": "topic02",
+      "topicTitle": "Descriptive Statistics"
+    },
+    {
+      "crc": "e2cc_8ad8",
       "pagePath": "biostatistics/topic03/index.md",
-      "questionFingerprint": "ac1504ff567b43a0",
-      "questionId": "b5b2_036c",
-      "selftestPath": "biostatistics/topic03/downloads/selftest-WOMC-measures_of_center.html",
+      "questionFingerprint": "41ede01e197c3383",
+      "questionId": "e2cc_8ad8",
+      "selftestPath": "biostatistics/topic03/downloads/selftest-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices.html",
       "subjectKey": "biostatistics",
       "topicKey": "topic03",
-      "topicTitle": "Center, Variance, and Distributions"
+      "topicTitle": "Graph Interpretation"
     },
     {
-      "crc": "3593_544d",
+      "crc": "e74f_ad4d",
       "pagePath": "biostatistics/topic03/index.md",
-      "questionFingerprint": "daa362f881fccce3",
-      "questionId": "3593_544d",
-      "selftestPath": "biostatistics/topic03/downloads/selftest-descriptive_stats_google_sheet.html",
+      "questionFingerprint": "40c9c8e91dab00b3",
+      "questionId": "e74f_ad4d",
+      "selftestPath": "biostatistics/topic03/downloads/selftest-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices.html",
       "subjectKey": "biostatistics",
       "topicKey": "topic03",
-      "topicTitle": "Center, Variance, and Distributions"
+      "topicTitle": "Graph Interpretation"
     },
     {
-      "crc": "9a32_d014",
-      "pagePath": "biostatistics/topic04/index.md",
-      "questionFingerprint": "383c4d1d6db9783c",
-      "questionId": "9a32_d014",
-      "selftestPath": "biostatistics/topic04/downloads/selftest-hardy_weinberg_mc_type.html",
+      "crc": "6f6a_641c",
+      "pagePath": "biostatistics/topic03/index.md",
+      "questionFingerprint": "720ffe9e0822cfb6",
+      "questionId": "6f6a_641c",
+      "selftestPath": "biostatistics/topic03/downloads/selftest-boxplot_from_summary-MC-boxplot_from_summary-5_choices.html",
       "subjectKey": "biostatistics",
-      "topicKey": "topic04",
-      "topicTitle": "Probability Distributions"
+      "topicKey": "topic03",
+      "topicTitle": "Graph Interpretation"
     },
     {
-      "crc": "78a5_2bca",
-      "pagePath": "biostatistics/topic04/index.md",
-      "questionFingerprint": "00f321640dbd4371",
-      "questionId": "78a5_2bca",
-      "selftestPath": "biostatistics/topic04/downloads/selftest-hardy_weinberg_numeric-NUM-5_choices.html",
+      "crc": "1236_fd12",
+      "pagePath": "biostatistics/topic03/index.md",
+      "questionFingerprint": "a6d28d4a2c205475",
+      "questionId": "1236_fd12",
+      "selftestPath": "biostatistics/topic03/downloads/selftest-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices.html",
       "subjectKey": "biostatistics",
-      "topicKey": "topic04",
-      "topicTitle": "Probability Distributions"
+      "topicKey": "topic03",
+      "topicTitle": "Graph Interpretation"
     },
     {
-      "crc": "8326_6b5e",
+      "crc": "5b91_6b5e",
       "pagePath": "biostatistics/topic04/index.md",
-      "questionFingerprint": "fe5eda5251066e5e",
-      "questionId": "8326_6b5e",
+      "questionFingerprint": "11df3c3ea531fa61",
+      "questionId": "5b91_6b5e",
       "selftestPath": "biostatistics/topic04/downloads/selftest-poisson_flies.html",
       "subjectKey": "biostatistics",
       "topicKey": "topic04",
-      "topicTitle": "Probability Distributions"
+      "topicTitle": "Distributions and Probability"
     },
     {
-      "crc": "87d6_45c7",
+      "crc": "df82_b0bb",
       "pagePath": "biostatistics/topic04/index.md",
-      "questionFingerprint": "334a94c74b50bbc0",
-      "questionId": "87d6_45c7",
+      "questionFingerprint": "7ddc91972390bb54",
+      "questionId": "df82_b0bb",
       "selftestPath": "biostatistics/topic04/downloads/selftest-probabiliy_of_progeny.html",
       "subjectKey": "biostatistics",
       "topicKey": "topic04",
-      "topicTitle": "Probability Distributions"
+      "topicTitle": "Distributions and Probability"
     },
     {
-      "crc": "b33d_5c01",
+      "crc": "ec5a_0b1c",
       "pagePath": "biostatistics/topic05/index.md",
-      "questionFingerprint": "f7810c82ecfe6d08",
-      "questionId": "b33d_5c01",
-      "selftestPath": "biostatistics/topic05/downloads/selftest-MATCH-chi-square_terms.html",
+      "questionFingerprint": "38b60d475bffea16",
+      "questionId": "ec5a_0b1c",
+      "selftestPath": "biostatistics/topic05/downloads/selftest-z_score_google_sheet.html",
       "subjectKey": "biostatistics",
       "topicKey": "topic05",
-      "topicTitle": "Hypothesis Testing"
+      "topicTitle": "Grouping with Z-Scores"
     },
     {
-      "crc": "316c_93a3",
+      "crc": "3e08_36db",
       "pagePath": "biostatistics/topic05/index.md",
+      "questionFingerprint": "6b11d39014d8fc87",
+      "questionId": "3e08_36db",
+      "selftestPath": "biostatistics/topic05/downloads/selftest-z_score_table_interp.html",
+      "subjectKey": "biostatistics",
+      "topicKey": "topic05",
+      "topicTitle": "Grouping with Z-Scores"
+    },
+    {
+      "crc": "316c_2f3e",
+      "pagePath": "biostatistics/topic06/index.md",
       "questionFingerprint": "df0ad222ac319be3",
-      "questionId": "316c_93a3",
-      "selftestPath": "biostatistics/topic05/downloads/selftest-MATCH-hypothesis_testing.html",
+      "questionId": "316c_2f3e",
+      "selftestPath": "biostatistics/topic06/downloads/selftest-MATCH-hypothesis_testing.html",
       "subjectKey": "biostatistics",
-      "topicKey": "topic05",
-      "topicTitle": "Hypothesis Testing"
+      "topicKey": "topic06",
+      "topicTitle": "Hypothesis Testing Concepts"
     },
     {
-      "crc": "04ef_1631",
-      "pagePath": "biostatistics/topic05/index.md",
+      "crc": "04ef_41c8",
+      "pagePath": "biostatistics/topic06/index.md",
       "questionFingerprint": "20a06266f3ff6a63",
-      "questionId": "04ef_1631",
-      "selftestPath": "biostatistics/topic05/downloads/selftest-MATCH-statistical_test_terms.html",
-      "subjectKey": "biostatistics",
-      "topicKey": "topic05",
-      "topicTitle": "Hypothesis Testing"
-    },
-    {
-      "crc": "d032_a80d",
-      "pagePath": "biostatistics/topic05/index.md",
-      "questionFingerprint": "4b7ee23662307c94",
-      "questionId": "d032_a80d",
-      "selftestPath": "biostatistics/topic05/downloads/selftest-TFMS-chi-square.html",
-      "subjectKey": "biostatistics",
-      "topicKey": "topic05",
-      "topicTitle": "Hypothesis Testing"
-    },
-    {
-      "crc": "d6da_1531",
-      "pagePath": "biostatistics/topic05/index.md",
-      "questionFingerprint": "83be3a9aeeb8812a",
-      "questionId": "d6da_1531",
-      "selftestPath": "biostatistics/topic05/downloads/selftest-TFMS-statistical_tests.html",
-      "subjectKey": "biostatistics",
-      "topicKey": "topic05",
-      "topicTitle": "Hypothesis Testing"
-    },
-    {
-      "crc": "865c_0614",
-      "pagePath": "biostatistics/topic05/index.md",
-      "questionFingerprint": "41ae6ac19350a607",
-      "questionId": "865c_0614",
-      "selftestPath": "biostatistics/topic05/downloads/selftest-WOMC-chi-square_terms.html",
-      "subjectKey": "biostatistics",
-      "topicKey": "topic05",
-      "topicTitle": "Hypothesis Testing"
-    },
-    {
-      "crc": "e585_449d",
-      "pagePath": "biostatistics/topic05/index.md",
-      "questionFingerprint": "5bb4f204d5c4be0e",
-      "questionId": "e585_449d",
-      "selftestPath": "biostatistics/topic05/downloads/selftest-WOMC-hypothesis_testing.html",
-      "subjectKey": "biostatistics",
-      "topicKey": "topic05",
-      "topicTitle": "Hypothesis Testing"
-    },
-    {
-      "crc": "1be8_0d68",
-      "pagePath": "biostatistics/topic05/index.md",
-      "questionFingerprint": "37a8e7b9d6d2b48e",
-      "questionId": "1be8_0d68",
-      "selftestPath": "biostatistics/topic05/downloads/selftest-WOMC-statistical_test_terms.html",
-      "subjectKey": "biostatistics",
-      "topicKey": "topic05",
-      "topicTitle": "Hypothesis Testing"
-    },
-    {
-      "crc": "ee6d_21f0",
-      "pagePath": "biostatistics/topic05/index.md",
-      "questionFingerprint": "d3ed01162e795efe",
-      "questionId": "ee6d_21f0",
-      "selftestPath": "biostatistics/topic05/downloads/selftest-babies_two_sample_t_test-tails1.html",
-      "subjectKey": "biostatistics",
-      "topicKey": "topic05",
-      "topicTitle": "Hypothesis Testing"
-    },
-    {
-      "crc": "42d8_d816",
-      "pagePath": "biostatistics/topic05/index.md",
-      "questionFingerprint": "926da9c7dfc86f0c",
-      "questionId": "42d8_d816",
-      "selftestPath": "biostatistics/topic05/downloads/selftest-busse_woods_anova-anova-5year.html",
-      "subjectKey": "biostatistics",
-      "topicKey": "topic05",
-      "topicTitle": "Hypothesis Testing"
-    },
-    {
-      "crc": "3207_af78",
-      "pagePath": "biostatistics/topic05/index.md",
-      "questionFingerprint": "67f5cde2762a749f",
-      "questionId": "3207_af78",
-      "selftestPath": "biostatistics/topic05/downloads/selftest-busse_woods_one_sample_tests-ztest.html",
-      "subjectKey": "biostatistics",
-      "topicKey": "topic05",
-      "topicTitle": "Hypothesis Testing"
-    },
-    {
-      "crc": "783d_4985",
-      "pagePath": "biostatistics/topic05/index.md",
-      "questionFingerprint": "5fc3eb0b1f685ff0",
-      "questionId": "783d_4985",
-      "selftestPath": "biostatistics/topic05/downloads/selftest-busse_woods_two_sample_f_test-tails1.html",
-      "subjectKey": "biostatistics",
-      "topicKey": "topic05",
-      "topicTitle": "Hypothesis Testing"
-    },
-    {
-      "crc": "dbd7_c729",
-      "pagePath": "biostatistics/topic05/index.md",
-      "questionFingerprint": "cb1c291df335125e",
-      "questionId": "dbd7_c729",
-      "selftestPath": "biostatistics/topic05/downloads/selftest-busse_woods_two_sample_t_test-tails1.html",
-      "subjectKey": "biostatistics",
-      "topicKey": "topic05",
-      "topicTitle": "Hypothesis Testing"
-    },
-    {
-      "crc": "5939_1290",
-      "pagePath": "biostatistics/topic05/index.md",
-      "questionFingerprint": "035767d0e8523417",
-      "questionId": "5939_1290",
-      "selftestPath": "biostatistics/topic05/downloads/selftest-chi_square_calculated-ACCEPT.html",
-      "subjectKey": "biostatistics",
-      "topicKey": "topic05",
-      "topicTitle": "Hypothesis Testing"
-    },
-    {
-      "crc": "0f33_126c",
-      "pagePath": "biostatistics/topic05/index.md",
-      "questionFingerprint": "d1154e740b94133d",
-      "questionId": "0f33_126c",
-      "selftestPath": "biostatistics/topic05/downloads/selftest-chi_square_choices.html",
-      "subjectKey": "biostatistics",
-      "topicKey": "topic05",
-      "topicTitle": "Hypothesis Testing"
-    },
-    {
-      "crc": "b113_a0c8",
-      "pagePath": "biostatistics/topic05/index.md",
-      "questionFingerprint": "0c94da67475de4f1",
-      "questionId": "b113_a0c8",
-      "selftestPath": "biostatistics/topic05/downloads/selftest-chi_square_errors.html",
-      "subjectKey": "biostatistics",
-      "topicKey": "topic05",
-      "topicTitle": "Hypothesis Testing"
-    },
-    {
-      "crc": "45d5_81fe",
-      "pagePath": "biostatistics/topic05/index.md",
-      "questionFingerprint": "ce1661991142da32",
-      "questionId": "45d5_81fe",
-      "selftestPath": "biostatistics/topic05/downloads/selftest-chi_square_hardy_weinberg.html",
-      "subjectKey": "biostatistics",
-      "topicKey": "topic05",
-      "topicTitle": "Hypothesis Testing"
-    },
-    {
-      "crc": "e933_df5a",
-      "pagePath": "biostatistics/topic05/index.md",
-      "questionFingerprint": "96130f1df5dde100",
-      "questionId": "e933_df5a",
-      "selftestPath": "biostatistics/topic05/downloads/selftest-chi_square_hypotheses-pair.html",
-      "subjectKey": "biostatistics",
-      "topicKey": "topic05",
-      "topicTitle": "Hypothesis Testing"
-    },
-    {
-      "crc": "1a50_7cfa",
-      "pagePath": "biostatistics/topic05/index.md",
-      "questionFingerprint": "4f7604f6d0173eda",
-      "questionId": "1a50_7cfa",
-      "selftestPath": "biostatistics/topic05/downloads/selftest-chi_square_hypotheses_lab_partner-hypotheses_partner.html",
-      "subjectKey": "biostatistics",
-      "topicKey": "topic05",
-      "topicTitle": "Hypothesis Testing"
-    },
-    {
-      "crc": "41ba_ab9c",
-      "pagePath": "biostatistics/topic05/index.md",
-      "questionFingerprint": "c4312880e5c2030e",
-      "questionId": "41ba_ab9c",
-      "selftestPath": "biostatistics/topic05/downloads/selftest-hypothesis_lab_partner-hypotheses_partner.html",
-      "subjectKey": "biostatistics",
-      "topicKey": "topic05",
-      "topicTitle": "Hypothesis Testing"
-    },
-    {
-      "crc": "4f64_abc5",
-      "pagePath": "biostatistics/topic05/index.md",
-      "questionFingerprint": "ee8703c287eaedb6",
-      "questionId": "4f64_abc5",
-      "selftestPath": "biostatistics/topic05/downloads/selftest-hypothesis_statements-pair.html",
-      "subjectKey": "biostatistics",
-      "topicKey": "topic05",
-      "topicTitle": "Hypothesis Testing"
-    },
-    {
-      "crc": "160f_2ba9",
-      "pagePath": "biostatistics/topic05/index.md",
-      "questionFingerprint": "aed8ab545840ebea",
-      "questionId": "160f_2ba9",
-      "selftestPath": "biostatistics/topic05/downloads/selftest-population_test_google_sheet-ztest.html",
-      "subjectKey": "biostatistics",
-      "topicKey": "topic05",
-      "topicTitle": "Hypothesis Testing"
-    },
-    {
-      "crc": "d06e_83db",
-      "pagePath": "biostatistics/topic06/index.md",
-      "questionFingerprint": "19b1f4924b7a2552",
-      "questionId": "d06e_83db",
-      "selftestPath": "biostatistics/topic06/downloads/selftest-z_score_google_sheet.html",
+      "questionId": "04ef_41c8",
+      "selftestPath": "biostatistics/topic06/downloads/selftest-MATCH-statistical_test_terms.html",
       "subjectKey": "biostatistics",
       "topicKey": "topic06",
-      "topicTitle": "Grouping with Z-Scores"
+      "topicTitle": "Hypothesis Testing Concepts"
     },
     {
-      "crc": "15a3_0785",
+      "crc": "c8e7_fd3c",
       "pagePath": "biostatistics/topic06/index.md",
-      "questionFingerprint": "44e26193e4461c5e",
-      "questionId": "15a3_0785",
-      "selftestPath": "biostatistics/topic06/downloads/selftest-z_score_table_interp.html",
+      "questionFingerprint": "d7152eb899efc002",
+      "questionId": "c8e7_fd3c",
+      "selftestPath": "biostatistics/topic06/downloads/selftest-TFMS-statistical_tests.html",
       "subjectKey": "biostatistics",
       "topicKey": "topic06",
-      "topicTitle": "Grouping with Z-Scores"
+      "topicTitle": "Hypothesis Testing Concepts"
     },
     {
-      "crc": "bc9e_f17b",
-      "pagePath": "biostatistics/topic08/index.md",
-      "questionFingerprint": "03cace319e6e306a",
-      "questionId": "bc9e_f17b",
-      "selftestPath": "biostatistics/topic08/downloads/selftest-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices.html",
+      "crc": "29b8_449d",
+      "pagePath": "biostatistics/topic06/index.md",
+      "questionFingerprint": "b3787678c347493e",
+      "questionId": "29b8_449d",
+      "selftestPath": "biostatistics/topic06/downloads/selftest-WOMC-hypothesis_testing.html",
       "subjectKey": "biostatistics",
-      "topicKey": "topic08",
-      "topicTitle": "Graph Interpretation"
+      "topicKey": "topic06",
+      "topicTitle": "Hypothesis Testing Concepts"
     },
     {
-      "crc": "6dc7_7949",
-      "pagePath": "biostatistics/topic08/index.md",
-      "questionFingerprint": "b9d146f14f05599f",
-      "questionId": "6dc7_7949",
-      "selftestPath": "biostatistics/topic08/downloads/selftest-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices.html",
+      "crc": "977a_b168",
+      "pagePath": "biostatistics/topic06/index.md",
+      "questionFingerprint": "1ef839415fd9664c",
+      "questionId": "977a_b168",
+      "selftestPath": "biostatistics/topic06/downloads/selftest-WOMC-statistical_test_terms.html",
       "subjectKey": "biostatistics",
-      "topicKey": "topic08",
-      "topicTitle": "Graph Interpretation"
+      "topicKey": "topic06",
+      "topicTitle": "Hypothesis Testing Concepts"
     },
     {
-      "crc": "29ec_067b",
-      "pagePath": "biostatistics/topic08/index.md",
-      "questionFingerprint": "36fe67ba135ee62a",
-      "questionId": "29ec_067b",
-      "selftestPath": "biostatistics/topic08/downloads/selftest-boxplot_from_summary-MC-boxplot_from_summary-5_choices.html",
+      "crc": "5ff2_4801",
+      "pagePath": "biostatistics/topic06/index.md",
+      "questionFingerprint": "f90061a61b97da07",
+      "questionId": "5ff2_4801",
+      "selftestPath": "biostatistics/topic06/downloads/selftest-hypothesis_lab_partner-hypotheses_partner.html",
       "subjectKey": "biostatistics",
-      "topicKey": "topic08",
-      "topicTitle": "Graph Interpretation"
+      "topicKey": "topic06",
+      "topicTitle": "Hypothesis Testing Concepts"
     },
     {
-      "crc": "b8a0_50c6",
+      "crc": "733f_8b6d",
+      "pagePath": "biostatistics/topic06/index.md",
+      "questionFingerprint": "3ec82e234f406b4f",
+      "questionId": "733f_8b6d",
+      "selftestPath": "biostatistics/topic06/downloads/selftest-hypothesis_statements-pair.html",
+      "subjectKey": "biostatistics",
+      "topicKey": "topic06",
+      "topicTitle": "Hypothesis Testing Concepts"
+    },
+    {
+      "crc": "d661_ec94",
+      "pagePath": "biostatistics/topic07/index.md",
+      "questionFingerprint": "9a1133fb3d77ccc8",
+      "questionId": "d661_ec94",
+      "selftestPath": "biostatistics/topic07/downloads/selftest-babies_two_sample_t_test-tails1.html",
+      "subjectKey": "biostatistics",
+      "topicKey": "topic07",
+      "topicTitle": "Z-Tests, T-Tests, F-Tests, and ANOVA"
+    },
+    {
+      "crc": "a37e_fbca",
+      "pagePath": "biostatistics/topic07/index.md",
+      "questionFingerprint": "d98d46e0a6460e2c",
+      "questionId": "a37e_fbca",
+      "selftestPath": "biostatistics/topic07/downloads/selftest-busse_woods_anova-anova-5year.html",
+      "subjectKey": "biostatistics",
+      "topicKey": "topic07",
+      "topicTitle": "Z-Tests, T-Tests, F-Tests, and ANOVA"
+    },
+    {
+      "crc": "ddcf_9d8d",
+      "pagePath": "biostatistics/topic07/index.md",
+      "questionFingerprint": "64da0b788686f4f7",
+      "questionId": "ddcf_9d8d",
+      "selftestPath": "biostatistics/topic07/downloads/selftest-busse_woods_one_sample_tests-ztest.html",
+      "subjectKey": "biostatistics",
+      "topicKey": "topic07",
+      "topicTitle": "Z-Tests, T-Tests, F-Tests, and ANOVA"
+    },
+    {
+      "crc": "e6f6_04d3",
+      "pagePath": "biostatistics/topic07/index.md",
+      "questionFingerprint": "60eaecdccb897779",
+      "questionId": "e6f6_04d3",
+      "selftestPath": "biostatistics/topic07/downloads/selftest-busse_woods_two_sample_f_test-tails1.html",
+      "subjectKey": "biostatistics",
+      "topicKey": "topic07",
+      "topicTitle": "Z-Tests, T-Tests, F-Tests, and ANOVA"
+    },
+    {
+      "crc": "f90e_ac06",
+      "pagePath": "biostatistics/topic07/index.md",
+      "questionFingerprint": "2567f3bcdc83c235",
+      "questionId": "f90e_ac06",
+      "selftestPath": "biostatistics/topic07/downloads/selftest-busse_woods_two_sample_t_test-tails1.html",
+      "subjectKey": "biostatistics",
+      "topicKey": "topic07",
+      "topicTitle": "Z-Tests, T-Tests, F-Tests, and ANOVA"
+    },
+    {
+      "crc": "d0cc_622c",
+      "pagePath": "biostatistics/topic07/index.md",
+      "questionFingerprint": "38bfb328b9b945ab",
+      "questionId": "d0cc_622c",
+      "selftestPath": "biostatistics/topic07/downloads/selftest-population_test_google_sheet-ztest.html",
+      "subjectKey": "biostatistics",
+      "topicKey": "topic07",
+      "topicTitle": "Z-Tests, T-Tests, F-Tests, and ANOVA"
+    },
+    {
+      "crc": "b33d_0e5d",
       "pagePath": "biostatistics/topic08/index.md",
-      "questionFingerprint": "29af3ed54f571461",
-      "questionId": "b8a0_50c6",
-      "selftestPath": "biostatistics/topic08/downloads/selftest-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices.html",
+      "questionFingerprint": "f7810c82ecfe6d08",
+      "questionId": "b33d_0e5d",
+      "selftestPath": "biostatistics/topic08/downloads/selftest-MATCH-chi-square_terms.html",
       "subjectKey": "biostatistics",
       "topicKey": "topic08",
-      "topicTitle": "Graph Interpretation"
+      "topicTitle": "Chi-Square Tests"
+    },
+    {
+      "crc": "53f4_474a",
+      "pagePath": "biostatistics/topic08/index.md",
+      "questionFingerprint": "19db4ab72d8a15a1",
+      "questionId": "53f4_474a",
+      "selftestPath": "biostatistics/topic08/downloads/selftest-TFMS-chi-square.html",
+      "subjectKey": "biostatistics",
+      "topicKey": "topic08",
+      "topicTitle": "Chi-Square Tests"
+    },
+    {
+      "crc": "734e_ddd7",
+      "pagePath": "biostatistics/topic08/index.md",
+      "questionFingerprint": "75c6ffffe9577761",
+      "questionId": "734e_ddd7",
+      "selftestPath": "biostatistics/topic08/downloads/selftest-WOMC-chi-square_terms.html",
+      "subjectKey": "biostatistics",
+      "topicKey": "topic08",
+      "topicTitle": "Chi-Square Tests"
+    },
+    {
+      "crc": "ddc5_98bd",
+      "pagePath": "biostatistics/topic08/index.md",
+      "questionFingerprint": "2cfc3d79a03baa6f",
+      "questionId": "ddc5_98bd",
+      "selftestPath": "biostatistics/topic08/downloads/selftest-chi_square_calculated-ACCEPT.html",
+      "subjectKey": "biostatistics",
+      "topicKey": "topic08",
+      "topicTitle": "Chi-Square Tests"
+    },
+    {
+      "crc": "2b4f_71a5",
+      "pagePath": "biostatistics/topic08/index.md",
+      "questionFingerprint": "ad36754560c50708",
+      "questionId": "2b4f_71a5",
+      "selftestPath": "biostatistics/topic08/downloads/selftest-chi_square_choices.html",
+      "subjectKey": "biostatistics",
+      "topicKey": "topic08",
+      "topicTitle": "Chi-Square Tests"
+    },
+    {
+      "crc": "c5cb_156a",
+      "pagePath": "biostatistics/topic08/index.md",
+      "questionFingerprint": "8542481a8d81043a",
+      "questionId": "c5cb_156a",
+      "selftestPath": "biostatistics/topic08/downloads/selftest-chi_square_errors.html",
+      "subjectKey": "biostatistics",
+      "topicKey": "topic08",
+      "topicTitle": "Chi-Square Tests"
+    },
+    {
+      "crc": "af01_f7d7",
+      "pagePath": "biostatistics/topic08/index.md",
+      "questionFingerprint": "ea1deeb9837606ca",
+      "questionId": "af01_f7d7",
+      "selftestPath": "biostatistics/topic08/downloads/selftest-chi_square_hypotheses-pair.html",
+      "subjectKey": "biostatistics",
+      "topicKey": "topic08",
+      "topicTitle": "Chi-Square Tests"
+    },
+    {
+      "crc": "a034_7cfa",
+      "pagePath": "biostatistics/topic08/index.md",
+      "questionFingerprint": "3782fab9229b3a55",
+      "questionId": "a034_7cfa",
+      "selftestPath": "biostatistics/topic08/downloads/selftest-chi_square_hypotheses_lab_partner-hypotheses_partner.html",
+      "subjectKey": "biostatistics",
+      "topicKey": "topic08",
+      "topicTitle": "Chi-Square Tests"
+    },
+    {
+      "crc": "bded_81fe",
+      "pagePath": "biostatistics/topic09/index.md",
+      "questionFingerprint": "3e42d93439e0d760",
+      "questionId": "bded_81fe",
+      "selftestPath": "biostatistics/topic09/downloads/selftest-chi_square_hardy_weinberg.html",
+      "subjectKey": "biostatistics",
+      "topicKey": "topic09",
+      "topicTitle": "Hardy-Weinberg Equilibrium"
+    },
+    {
+      "crc": "72f3_d014",
+      "pagePath": "biostatistics/topic09/index.md",
+      "questionFingerprint": "02fecc655ca6bde1",
+      "questionId": "72f3_d014",
+      "selftestPath": "biostatistics/topic09/downloads/selftest-hardy_weinberg_mc_type.html",
+      "subjectKey": "biostatistics",
+      "topicKey": "topic09",
+      "topicTitle": "Hardy-Weinberg Equilibrium"
+    },
+    {
+      "crc": "7e08_1aec",
+      "pagePath": "biostatistics/topic09/index.md",
+      "questionFingerprint": "521af56b3800818d",
+      "questionId": "7e08_1aec",
+      "selftestPath": "biostatistics/topic09/downloads/selftest-hardy_weinberg_numeric-NUM-5_choices.html",
+      "subjectKey": "biostatistics",
+      "topicKey": "topic09",
+      "topicTitle": "Hardy-Weinberg Equilibrium"
     },
     {
       "crc": "8668_6f7a",
