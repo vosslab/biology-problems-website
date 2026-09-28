@@ -1,50 +1,50 @@
-MC	<p>645a_f441</p> Which one of the following is fermented?	granola	Incorrect	almond milk	Incorrect	sour cream	Correct	honey	Incorrect	ketchup	Incorrect
-MC	<p>3e92_02e5</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	Worcestershire sauce	Incorrect	soy sauce	Incorrect	matzo	Correct	skyr	Incorrect	cultured buttermilk	Incorrect
-MC	<p>3e92_020b</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	parmesan cheese	Incorrect	mashed potatoes	Correct	fish sauce	Incorrect	sake	Incorrect	sour cream	Incorrect
-MC	<p>645a_dee9</p> Which one of the following is fermented?	rice vinegar	Correct	agave nectar	Incorrect	paneer	Incorrect	french fries	Incorrect	fresh mozzarella	Incorrect
-MC	<p>3e92_fae4</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	feta cheese	Incorrect	skyr	Incorrect	corn flakes	Correct	cheese	Incorrect	gochujang	Incorrect
-MC	<p>3e92_1b3d</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	soy sauce	Incorrect	natto	Incorrect	fish sauce	Incorrect	miso	Incorrect	grape juice	Correct
-MC	<p>3e92_038b</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	probiotic yogurt drink	Incorrect	miso	Incorrect	orange soda	Correct	doenjang	Incorrect	balsamic vinegar	Incorrect
-MC	<p>645a_6b29</p> Which one of the following is fermented?	lemon-lime soda	Incorrect	pita chips	Incorrect	saltine crackers	Incorrect	gochujang	Correct	olive oil	Incorrect
-MC	<p>645a_9dec</p> Which one of the following is fermented?	hummus	Incorrect	agave nectar	Incorrect	spaghetti	Incorrect	shredded cabbage	Incorrect	beer	Correct
-MC	<p>3e92_8401</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	mead	Incorrect	natto	Incorrect	doenjang	Incorrect	rice vinegar	Incorrect	baking-soda bread	Correct
-MC	<p>3e92_2d4a</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	heavy cream	Correct	creme fraiche	Incorrect	Worcestershire sauce	Incorrect	cheese	Incorrect	cultured buttermilk	Incorrect
-MC	<p>645a_e463</p> Which one of the following is fermented?	yellow mustard	Incorrect	pancakes	Incorrect	coconut water	Incorrect	hard cider	Correct	beef jerky	Incorrect
-MC	<p>3e92_6d34</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	orange juice	Correct	hard cider	Incorrect	tempeh	Incorrect	kombucha	Incorrect	cultured cottage cheese	Incorrect
-MC	<p>3e92_86e2</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	white wine	Incorrect	tempeh	Incorrect	cheddar cheese	Incorrect	iced coffee	Correct	soy sauce	Incorrect
-MC	<p>645a_f301</p> Which one of the following is fermented?	hummus	Incorrect	sour cream	Correct	vegetable oil	Incorrect	fresh cabbage	Incorrect	mayonnaise	Incorrect
-MC	<p>645a_fba4</p> Which one of the following is fermented?	root beer	Incorrect	probiotic yogurt drink	Correct	iced coffee	Incorrect	powdered sugar	Incorrect	whole milk	Incorrect
-MC	<p>3e92_618b</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	Yakult	Incorrect	yogurt	Incorrect	gochujang	Incorrect	root beer	Correct	sour cream	Incorrect
-MC	<p>645a_1f0e</p> Which one of the following is fermented?	limeade	Incorrect	cola	Incorrect	vinegar	Correct	orange juice	Incorrect	lemon-lime soda	Incorrect
-MC	<p>645a_5dba</p> Which one of the following is fermented?	granola	Incorrect	table sugar	Incorrect	whole milk	Incorrect	ale	Correct	espresso	Incorrect
-MC	<p>645a_4b13</p> Which one of the following is fermented?	granulated sugar	Incorrect	lager	Correct	tofu	Incorrect	honey	Incorrect	whole milk	Incorrect
-MC	<p>3e92_35af</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	lassi	Incorrect	leavened bread	Incorrect	miso	Incorrect	probiotic yogurt drink	Incorrect	mayonnaise	Correct
-MC	<p>645a_66a1</p> Which one of the following is fermented?	orange juice	Incorrect	sweet tea	Incorrect	maple syrup	Incorrect	unleavened bread	Incorrect	summer sausage	Correct
-MC	<p>645a_6d78</p> Which one of the following is fermented?	popcorn	Incorrect	strawberry jam	Incorrect	flour tortilla	Incorrect	mashed potatoes	Incorrect	mead	Correct
-MC	<p>3e92_7c63</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	tamari	Incorrect	coffee	Correct	sauerkraut	Incorrect	miso	Incorrect	Worcestershire sauce	Incorrect
-MC	<p>3e92_f5dd</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	miso	Incorrect	sauerkraut	Incorrect	balsamic vinegar	Incorrect	hard cider	Incorrect	edamame	Correct
-MC	<p>3e92_501e</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	rice milk	Correct	cultured buttermilk	Incorrect	sour cream	Incorrect	miso	Incorrect	bagels	Incorrect
-MC	<p>3e92_ae12</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	hard cider	Incorrect	creme fraiche	Incorrect	milkshake	Correct	cultured cottage cheese	Incorrect	doenjang	Incorrect
-MC	<p>3e92_9a8e</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	natto	Incorrect	parmesan cheese	Incorrect	vinegar	Incorrect	corn syrup	Correct	tempeh	Incorrect
-MC	<p>3e92_e975</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	doenjang	Incorrect	mead	Incorrect	kombucha	Incorrect	fish sauce	Incorrect	club soda	Correct
-MC	<p>645a_e842</p> Which one of the following is fermented?	grape jelly	Incorrect	popcorn	Incorrect	Worcestershire sauce	Correct	mayonnaise	Incorrect	orange juice	Incorrect
-MC	<p>645a_f098</p> Which one of the following is fermented?	rice milk	Incorrect	almond milk	Incorrect	natto	Correct	steamed white rice	Incorrect	maple syrup	Incorrect
-MC	<p>645a_0ebd</p> Which one of the following is fermented?	orange juice	Incorrect	club soda	Incorrect	parmesan cheese	Correct	cranberry juice	Incorrect	soy milk	Incorrect
-MC	<p>645a_0117</p> Which one of the following is fermented?	orange soda	Incorrect	cultured buttermilk	Correct	lemonade	Incorrect	rice milk	Incorrect	apple juice	Incorrect
-MC	<p>3e92_6f26</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	parmesan cheese	Incorrect	miso	Incorrect	fresh cabbage	Correct	sour cream	Incorrect	mead	Incorrect
-MC	<p>3e92_3e88</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	fresh cabbage	Correct	Worcestershire sauce	Incorrect	kimchi	Incorrect	mead	Incorrect	sake	Incorrect
-MC	<p>3e92_095c</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	kombucha	Incorrect	baker's yeast bread	Incorrect	gochujang	Incorrect	vegetable oil	Correct	Greek yogurt	Incorrect
-MC	<p>3e92_c7b8</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	kimchi	Incorrect	Greek yogurt	Incorrect	cheese	Incorrect	canola oil	Correct	cultured cottage cheese	Incorrect
-MC	<p>645a_8da1</p> Which one of the following is fermented?	corn tortilla	Incorrect	beer	Correct	mayonnaise	Incorrect	cranberry juice	Incorrect	powdered sugar	Incorrect
-MC	<p>645a_7740</p> Which one of the following is fermented?	malt extract	Incorrect	yellow mustard	Incorrect	Yakult	Correct	honey	Incorrect	granola	Incorrect
-MC	<p>3e92_8713</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	sour cream	Incorrect	powdered sugar	Correct	cultured buttermilk	Incorrect	rice vinegar	Incorrect	tempeh	Incorrect
-MC	<p>3e92_0b47</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	kefir	Incorrect	baker's yeast bread	Incorrect	sweet tea	Correct	doenjang	Incorrect	gochujang	Incorrect
-MC	<p>645a_e511</p> Which one of the following is fermented?	ale	Correct	shredded cabbage	Incorrect	potato chips	Incorrect	ketchup	Incorrect	apple juice	Incorrect
-MC	<p>645a_7bc7</p> Which one of the following is fermented?	sake	Correct	paneer	Incorrect	molasses	Incorrect	hot cocoa	Incorrect	popcorn	Incorrect
-MC	<p>3e92_6cf7</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	miso	Incorrect	sauerkraut	Incorrect	soy milk	Correct	cultured buttermilk	Incorrect	probiotic yogurt drink	Incorrect
-MC	<p>645a_fe7a</p> Which one of the following is fermented?	yellow mustard	Incorrect	brown sugar	Incorrect	ale	Correct	ricotta cheese	Incorrect	peanut butter	Incorrect
-MC	<p>3e92_ec52</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	margarine	Correct	cultured buttermilk	Incorrect	sauerkraut	Incorrect	parmesan cheese	Incorrect	natto	Incorrect
-MC	<p>645a_ea85</p> Which one of the following is fermented?	honey	Incorrect	skyr	Correct	corn tortilla	Incorrect	ketchup	Incorrect	fresh soybeans	Incorrect
-MC	<p>645a_46b5</p> Which one of the following is fermented?	almond milk	Incorrect	Greek yogurt	Correct	whipped cream	Incorrect	french fries	Incorrect	lemon-lime soda	Incorrect
-MC	<p>645a_35d3</p> Which one of the following is fermented?	half-and-half	Incorrect	pita chips	Incorrect	boiled potatoes	Incorrect	agave nectar	Incorrect	sake	Correct
-MC	<p>3e92_00b0</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	natto	Incorrect	cultured buttermilk	Incorrect	brewed coffee	Correct	hard cider	Incorrect	kefir	Incorrect
+MC	<p>645a_7ad8</p> Which one of the following is fermented?	miso	Correct	agave nectar	Incorrect	spaghetti	Incorrect	olive oil	Incorrect	corn flakes	Incorrect
+MC	<p>645a_d94d</p> Which one of the following is fermented?	orange soda	Incorrect	Double India Pale Ale	Correct	ice cream	Incorrect	maple syrup	Incorrect	chocolate milk	Incorrect
+MC	<p>3e92_1497</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	skyr	Incorrect	table sugar	Correct	hard cider	Incorrect	lager	Incorrect	creme fraiche	Incorrect
+MC	<p>3e92_236c</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	natto	Incorrect	mashed potatoes	Correct	soy sauce	Incorrect	creme fraiche	Incorrect	kombucha	Incorrect
+MC	<p>3e92_6584</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	balsamic vinegar	Incorrect	fish sauce	Incorrect	gochujang	Incorrect	cultured buttermilk	Incorrect	baking-powder biscuits	Correct
+MC	<p>645a_5d30</p> Which one of the following is fermented?	soy milk	Incorrect	limeade	Incorrect	hummus	Incorrect	corn tortilla	Incorrect	cheese	Correct
+MC	<p>645a_ad40</p> Which one of the following is fermented?	sourdough bread	Correct	saltine crackers	Incorrect	steamed white rice	Incorrect	ricotta cheese	Incorrect	fruit punch	Incorrect
+MC	<p>3e92_02db</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	sauerkraut	Incorrect	parmesan cheese	Incorrect	kimchi	Incorrect	cheese	Incorrect	saltine crackers	Correct
+MC	<p>3e92_cb0d</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	sour cream	Incorrect	cultured cottage cheese	Incorrect	fresh milk	Correct	creme fraiche	Incorrect	mead	Incorrect
+MC	<p>645a_32ab</p> Which one of the following is fermented?	ginger ale	Incorrect	ice cream	Incorrect	granulated sugar	Incorrect	yellow mustard	Incorrect	bagels	Correct
+MC	<p>3e92_1b13</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	vinegar	Incorrect	miso	Incorrect	Worcestershire sauce	Incorrect	feta cheese	Incorrect	saltine crackers	Correct
+MC	<p>645a_3d77</p> Which one of the following is fermented?	orange soda	Incorrect	corn flakes	Incorrect	canola oil	Incorrect	corn syrup	Incorrect	tempeh	Correct
+MC	<p>645a_df71</p> Which one of the following is fermented?	olive oil	Incorrect	almond milk	Incorrect	sourdough bread	Correct	skim milk	Incorrect	fresh mozzarella	Incorrect
+MC	<p>3e92_e876</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	mead	Incorrect	gochujang	Incorrect	wine	Incorrect	rice milk	Correct	natto	Incorrect
+MC	<p>3e92_0685</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	sauerkraut	Incorrect	lassi	Incorrect	sweet tea	Correct	Worcestershire sauce	Incorrect	hard cider	Incorrect
+MC	<p>3e92_cc57</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	red wine	Incorrect	cultured buttermilk	Incorrect	unleavened bread	Correct	baker's yeast bread	Incorrect	sauerkraut	Incorrect
+MC	<p>645a_4372</p> Which one of the following is fermented?	kombucha	Correct	coleslaw	Incorrect	vegetable oil	Incorrect	sweet tea	Incorrect	edamame	Incorrect
+MC	<p>645a_40dc</p> Which one of the following is fermented?	corn syrup	Incorrect	coconut oil	Incorrect	cultured buttermilk	Correct	ginger ale	Incorrect	beef jerky	Incorrect
+MC	<p>3e92_03ed</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	table sugar	Correct	fish sauce	Incorrect	balsamic vinegar	Incorrect	soy sauce	Incorrect	cultured cottage cheese	Incorrect
+MC	<p>3e92_8807</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	parmesan cheese	Incorrect	agave nectar	Correct	ale	Incorrect	tempeh	Incorrect	doenjang	Incorrect
+MC	<p>645a_4642</p> Which one of the following is fermented?	whole milk	Incorrect	orange soda	Incorrect	layer cake	Incorrect	natto	Correct	corn tortilla	Incorrect
+MC	<p>3e92_4838</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	tempeh	Incorrect	shredded cabbage	Correct	sake	Incorrect	hard cider	Incorrect	doenjang	Incorrect
+MC	<p>3e92_49fc</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	mead	Incorrect	Swiss cheese	Incorrect	coconut water	Correct	vinegar	Incorrect	kimchi	Incorrect
+MC	<p>3e92_2721</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	almond milk	Correct	sour cream	Incorrect	cheese	Incorrect	gochujang	Incorrect	kombucha	Incorrect
+MC	<p>645a_eddf</p> Which one of the following is fermented?	honey	Incorrect	iced coffee	Incorrect	ketchup	Incorrect	probiotic yogurt drink	Correct	olive oil	Incorrect
+MC	<p>3e92_7cdf</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	mashed potatoes	Correct	sake	Incorrect	cultured cottage cheese	Incorrect	lassi	Incorrect	fish sauce	Incorrect
+MC	<p>3e92_31be</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	sparkling water	Correct	cheddar cheese	Incorrect	parmesan cheese	Incorrect	cultured buttermilk	Incorrect	doenjang	Incorrect
+MC	<p>3e92_824f</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	lassi	Incorrect	mashed potatoes	Correct	ale	Incorrect	kombucha	Incorrect	natto	Incorrect
+MC	<p>645a_1b15</p> Which one of the following is fermented?	half-and-half	Incorrect	paneer	Incorrect	rice milk	Incorrect	Double India Pale Ale	Correct	instant oatmeal	Incorrect
+MC	<p>645a_b4e8</p> Which one of the following is fermented?	kefir	Correct	canola oil	Incorrect	ricotta cheese	Incorrect	unleavened bread	Incorrect	shredded cabbage	Incorrect
+MC	<p>645a_f0fc</p> Which one of the following is fermented?	milkshake	Incorrect	sparkling grape juice	Incorrect	spaghetti	Incorrect	fresh mozzarella	Incorrect	sour cream	Correct
+MC	<p>645a_6e91</p> Which one of the following is fermented?	Worcestershire sauce	Correct	coconut oil	Incorrect	canola oil	Incorrect	honey	Incorrect	pita chips	Incorrect
+MC	<p>645a_c59e</p> Which one of the following is fermented?	cola	Incorrect	orange soda	Incorrect	tempeh	Correct	sparkling grape juice	Incorrect	beef jerky	Incorrect
+MC	<p>3e92_c7db</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	rice vinegar	Incorrect	kombucha	Incorrect	salami	Incorrect	yellow mustard	Correct	mead	Incorrect
+MC	<p>645a_9238</p> Which one of the following is fermented?	brown sugar	Incorrect	corn tortilla	Incorrect	tortilla chips	Incorrect	skyr	Correct	ketchup	Incorrect
+MC	<p>3e92_9262</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	doenjang	Incorrect	miso	Incorrect	baking-soda bread	Correct	natto	Incorrect	sour cream	Incorrect
+MC	<p>645a_673a</p> Which one of the following is fermented?	cucumber salad	Incorrect	sourdough bread	Correct	chocolate milk	Incorrect	lemon-lime soda	Incorrect	whole milk	Incorrect
+MC	<p>3e92_d64e</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	kefir	Incorrect	sauerkraut	Incorrect	Yakult	Incorrect	tamari	Incorrect	espresso	Correct
+MC	<p>3e92_d768</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	fruit smoothie	Correct	probiotic yogurt drink	Incorrect	tamari	Incorrect	kefir	Incorrect	creme fraiche	Incorrect
+MC	<p>3e92_a98c</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	sourdough bread	Incorrect	corn syrup	Correct	apple cider vinegar	Incorrect	ale	Incorrect	probiotic yogurt drink	Incorrect
+MC	<p>3e92_ed07</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	probiotic yogurt drink	Incorrect	soy sauce	Incorrect	Worcestershire sauce	Incorrect	baking-powder biscuits	Correct	tempeh	Incorrect
+MC	<p>645a_3094</p> Which one of the following is fermented?	hot cocoa	Incorrect	cucumber salad	Incorrect	maple syrup	Incorrect	orange juice	Incorrect	kombucha	Correct
+MC	<p>3e92_5e20</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	kombucha	Incorrect	cultured cottage cheese	Incorrect	lassi	Incorrect	blue cheese	Incorrect	pasteurized milk	Correct
+MC	<p>645a_7264</p> Which one of the following is fermented?	Yakult	Correct	pasteurized milk	Incorrect	oat milk	Incorrect	root beer	Incorrect	table sugar	Incorrect
+MC	<p>3e92_0d5d</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	cheddar cheese	Incorrect	balsamic vinegar	Incorrect	cultured cottage cheese	Incorrect	doenjang	Incorrect	limeade	Correct
+MC	<p>3e92_d75a</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	sour cream	Incorrect	fish sauce	Incorrect	creme fraiche	Incorrect	maple syrup	Correct	summer sausage	Incorrect
+MC	<p>3e92_9e3a</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	Worcestershire sauce	Incorrect	apple juice	Correct	Greek yogurt	Incorrect	kombucha	Incorrect	sake	Incorrect
+MC	<p>3e92_b437</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	kombucha	Incorrect	creme fraiche	Incorrect	maple syrup	Correct	gochujang	Incorrect	lassi	Incorrect
+MC	<p>645a_cdbb</p> Which one of the following is fermented?	almond milk	Incorrect	tofu	Incorrect	iced coffee	Incorrect	vegetable oil	Incorrect	baker's yeast bread	Correct
+MC	<p>3e92_76ac</p> Which one of the following is<strong> <strong>NOT</strong> </strong>fermented?	kefir	Incorrect	sour cream	Incorrect	summer sausage	Incorrect	fresh milk	Correct	tempeh	Incorrect
