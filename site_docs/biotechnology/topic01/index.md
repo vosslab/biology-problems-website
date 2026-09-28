@@ -527,3 +527,69 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 </details>
 
 
+## mRNA Sequences from DNA Template Strands (6 Nucleotides, 5&#x27;/3&#x27; Orientation)
+
+<div id="rna_transcribe-MC-prime-len_6-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-rna_transcribe-MC-prime-len_6-questions.txt" download title="Download bbq-rna_transcribe-MC-prime-len_6-questions.txt" aria-label="Click to download the BBQ Text file (bbq-rna_transcribe-MC-prime-len_6-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-rna_transcribe-MC-prime-len_6.zip" download title="Download blackboard_export_zip-rna_transcribe-MC-prime-len_6.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-rna_transcribe-MC-prime-len_6.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-rna_transcribe-MC-prime-len_6.zip" download title="Download canvas_qti_v1_2-rna_transcribe-MC-prime-len_6.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-rna_transcribe-MC-prime-len_6.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-rna_transcribe-MC-prime-len_6.html', '_blank')" title="View human_readable-rna_transcribe-MC-prime-len_6.html" aria-label="Click to view the Human-Readable TXT file (human_readable-rna_transcribe-MC-prime-len_6.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      mRNA Sequences from DNA Template Strands (6 Nucleotides, 5&#x27;/3&#x27; Orientation)
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biotechnology/topic01/downloads/selftest-rna_transcribe-MC-prime-len_6.html" %}
+
+</details>
+
+
+## Genetic Code Translation of mRNA into Five-Amino-Acid Peptides (5 Choices)
+
+<div id="translate_genetic_code-MC-5_aa-5_choices-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-translate_genetic_code-MC-5_aa-5_choices-questions.txt" download title="Download bbq-translate_genetic_code-MC-5_aa-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-translate_genetic_code-MC-5_aa-5_choices-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-translate_genetic_code-MC-5_aa-5_choices.zip" download title="Download blackboard_export_zip-translate_genetic_code-MC-5_aa-5_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-translate_genetic_code-MC-5_aa-5_choices.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-translate_genetic_code-MC-5_aa-5_choices.zip" download title="Download canvas_qti_v1_2-translate_genetic_code-MC-5_aa-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-translate_genetic_code-MC-5_aa-5_choices.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-translate_genetic_code-MC-5_aa-5_choices.html', '_blank')" title="View human_readable-translate_genetic_code-MC-5_aa-5_choices.html" aria-label="Click to view the Human-Readable TXT file (human_readable-translate_genetic_code-MC-5_aa-5_choices.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Genetic Code Translation of mRNA into Five-Amino-Acid Peptides (5 Choices)
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biotechnology/topic01/downloads/selftest-translate_genetic_code-MC-5_aa-5_choices.html" %}
+
+</details>
+
+
