@@ -17,7 +17,7 @@
 // exported checks throw on failure, which fails the owning test. The font
 // contract is custom.css:1-24, daily_puzzle.css:6-14, and mkdocs.yml:4-6.
 // Selector targets are daily_puzzles/peptidyle.md:21 and
-// biostatistics/topic06/downloads/selftest-z_score_table_interp.html:4.
+// biostatistics/topic05/downloads/selftest-z_score_table_interp.html:4.
 
 /// <reference types="node" />
 
@@ -141,7 +141,7 @@ test("site uses the self-hosted Atkinson text font", async ({ page }) => {
 			.locator("#pw-root")
 			.evaluate((element) => getComputedStyle(element).fontFamily),
 	);
-	await page.goto("/biostatistics/topic06/", { waitUntil: "load" });
+	await page.goto("/biostatistics/topic05/", { waitUntil: "load" });
 	textFontFamilies.push(
 		await page
 			.locator('.qti-selftest table[style*="Arial"]')
