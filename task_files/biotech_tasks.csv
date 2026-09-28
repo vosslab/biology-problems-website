@@ -9,7 +9,7 @@ biotechnology,biotech_basics,YMCS,,{bp_mcs}/molecular_biology/mRNA_processing.ym
 biotechnology,biotech_basics,{bp_root}/biotechnology-problems/model_organism_complexity_order.py,,,
 biotechnology,biotech_basics,{bp_root}/molecular_biology-problems/beadle_tatum-metabolic_pathway.py,,,
 biotechnology,biotech_basics,{bp_root}/molecular_biology-problems/mutant_screen.py,,,
-biotechnology,biotech_basics,{bp_root}/molecular_biology-problems/rna_transcribe_prime.py,,,
+biotechnology,biotech_basics,{bp_root}/molecular_biology-problems/rna_transcribe.py,--mc --prime,,
 biotechnology,biotech_basics,{bp_root}/molecular_biology-problems/translate_genetic_code.py,--peptide-length 6,,
 ,,,,,
 biotechnology,nucleic_acid_biotech,YMATCH,,{bp_match}/laboratory/cell_disruption.yml,
