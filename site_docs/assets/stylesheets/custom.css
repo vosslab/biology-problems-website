@@ -23,6 +23,36 @@
   font-family: inherit !important;
 }
 
+/* Table choices need a full row; compact grids make their drawings overlap. */
+.qti-selftest ul[id^="choices_"]:is(.qti-auto-grid, .qti-auto-grid-compact):has(table) {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.qti-selftest ul[id^="choices_"] > li > label:has(table) {
+  flex: 1;
+  min-width: 0;
+}
+
+.qti-selftest ul[id^="choices_"] > li > label:has(table) > span:first-child {
+  flex-shrink: 0;
+}
+
+/* Scroll the content on narrow screens while keeping the answer control visible. */
+.qti-selftest ul[id^="choices_"] > li > label > span:has(table) {
+  min-width: 0;
+  overflow-x: auto;
+}
+
+/* Preserve authored diagram widths instead of compressing their axis labels. */
+.qti-selftest ul[id^="choices_"] > li > label table {
+  max-width: none !important;
+}
+
+/* Material's inline-block tables leave percentage-based drawings only text-wide. */
+.md-typeset .qti-selftest ul[id^="choices_"] > li > label table[role="presentation"] {
+  display: table;
+}
+
 @font-face {
   font-family: 'Font Awesome 6 Free';
   src: url('/assets/fonts/fa-solid-900.woff2') format('woff2');
