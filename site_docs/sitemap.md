@@ -4,7 +4,7 @@
 
 Browse the generated problem sets by subject and topic. Use your browser's Find command to search all problem-set titles on this page.
 
-**490 problem sets**
+**487 problem sets**
 
 ## Biochemistry
 
@@ -574,28 +574,25 @@ Browse the generated problem sets by subject and topic. Use your browser's Find 
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../biotechnology/topic01/">Model Organism Identification from Approximate Generation Times</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../biotechnology/topic01/">Model Organisms: Selection Criteria, Benefits, Limitations, and Applications</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../biotechnology/topic01/">Model Organism Scientific Names from Common Names and Groups</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../biotechnology/topic01/">Bacterial Nutrient Requirements in Mutant Metabolic Pathways (5 Metabolites)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ord" title="Ordering">ORD</abbr></span><a href="../biotechnology/topic01/">Model Organisms Ordered by Complexity (5 Choices)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span><a href="../biotechnology/topic01/">Metabolic Pathway Precursor Order from Mutant Growth Data (4 Metabolites)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biotechnology/topic01/">mRNA Sequences from DNA Templates (5&#x27; and 3&#x27; Direction)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span><a href="../biotechnology/topic01/">mRNA Translation into a Peptide Sequence (6 Amino Acids)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../biotechnology/topic01/">Metabolic Pathway Mutant Growth Rescue by Nutrient Supplementation (4 Metabolites)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ord" title="Ordering">ORD</abbr></span><a href="../biotechnology/topic01/">Model Organisms by Complexity (4 Organisms)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biotechnology/topic01/">Metabolic Pathway Mutant Screens: Wild-Type Identification from Precursor Growth Patterns (4 Metabolites)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biotechnology/topic01/">Problem set: rna transcribe MC prime len 6</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biotechnology/topic01/">Problem set: translate genetic code MC 5 aa 5 choices</a></span>
 
 ### DNA and Genomics Biotechnology
 
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../biotechnology/topic02/">Cell Disruption Techniques from Descriptions</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../biotechnology/topic02/">DNA Sequencing Techniques from Descriptions</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../biotechnology/topic02/">Latin Phrases and Their Meanings</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span><a href="../biotechnology/topic02/">Gene Expression Fold Change from RT-qPCR Data</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../biotechnology/topic02/">Cell Disruption Techniques from Descriptions</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../biotechnology/topic02/">DNA Sequencing Techniques from Descriptions</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../biotechnology/topic02/">Latin Phrases from Their Meanings</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biotechnology/topic02/">Amplicon Copy Number After PCR Rounds</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biotechnology/topic02/">Complementary DNA Sequences Without Direction Labels</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biotechnology/topic02/">Complementary DNA Sequences with 5&#x27; and 3&#x27; Direction Labels</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biotechnology/topic02/">Consensus Sequences from Alignments</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biotechnology/topic02/">DNA Fragment Migration in Agarose Gel Electrophoresis (Closest/Farthest)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span><a href="../biotechnology/topic02/">DNA Fragment Size from Agarose Gel Migration</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biotechnology/topic02/">DNA Melting Temperature Extremes from Sequence (12 Bases)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biotechnology/topic02/">PCR Primer Selection (36 bp Template, 9-nt Primers)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biotechnology/topic02/">DNA Fragment Size from Agarose Gel Migration Data</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biotechnology/topic02/">PCR Primer Pair Selection from Double-Stranded DNA (9-bp Template, 6-Base RNA Primers)</a></span>
 
 ### Protein Biotechnology
 
@@ -605,8 +602,8 @@ Browse the generated problem sets by subject and topic. Use your browser's Find 
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../biotechnology/topic03/">Protein and Nucleic Acid Gel Electrophoresis Components</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../biotechnology/topic03/">Proteomics and Metabolomics Techniques from Descriptions</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biotechnology/topic03/">Protein Net Charge at a Given pH</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span><a href="../biotechnology/topic03/">Protein Molecular Weight from an SDS-PAGE Ladder</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span><a href="../biotechnology/topic03/">Protein Molecular Weight from SDS-PAGE Migration</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biotechnology/topic03/">Protein Molecular Weight from an SDS-PAGE Ladder</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biotechnology/topic03/">Protein Molecular Weight from SDS-PAGE Migration</a></span>
 
 ### Environmental and Synthetic Biology
 
