@@ -1,5 +1,19 @@
 # Changelog
 
+## 2026-09-28
+
+### Fixes and Maintenance
+
+- Updated all seven RNA transcription task rows in the biochemistry, molecular biology,
+  and biotechnology CSVs to use the consolidated `rna_transcribe.py` executable with
+  explicit format and direction flags. Existing course/topic assignments and variants
+  remain intact.
+
+### Developer Tests and Notes
+
+- Loaded all ten task CSVs through the website loader and validated all seven transcription
+  commands with the consolidated CLI. All 30 focused topic-alias and task-loader tests passed.
+
 ## 2026-09-25
 
 ### Additions and New Features
