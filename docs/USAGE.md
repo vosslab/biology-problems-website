@@ -70,6 +70,12 @@ and `sitemap.xml`. Run the content workflow from the repo root:
 source source_me.sh && ./build_site.py
 ```
 
+For Blackboard Ultra ZIP downloads, table-bearing BBQ files use the converter's
+`--html-to-image` option (the equivalent of `bptools -I`). A build also replaces
+an existing Blackboard ZIP when its pool still contains HTML tables. This
+requires Playwright Chromium for the table screenshots; if conversion fails,
+the affected ZIP download is skipped and the next build can retry it.
+
 When task ownership can be established, the run reconciles `site_docs/` against
 the live `bbq-*-questions.txt` set before updating the manifest. It removes orphan
 generated artifacts, strips dead self-test includes, prunes stale title-cache
