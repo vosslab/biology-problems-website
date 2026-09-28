@@ -4,6 +4,12 @@
 
 ### Fixes and Maintenance
 
+- Make answer labels allocate available space to their content while keeping
+  the answer letter visible. Remove Material's article-table gutters inside
+  answer labels so they do not introduce horizontal scrollbars. Remove the
+  blanket table-width, presentation-table display, and boxplot-specific overrides;
+  diagrams own their sizing independently of this shared choice layout.
+
 - Give table-based self-test choices a full row and scroll their content on narrow
   screens so box plots retain readable scales without overlapping nearby choices.
   Restore normal table layout for presentation tables so percentage-based plots
