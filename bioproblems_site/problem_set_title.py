@@ -46,6 +46,7 @@ def generate_title_prompt(file_path: str, problem_statements: list) -> str:
 		"- State difficulty and prerequisites only when the supplied material supports them.\n"
 		"- Use FiB (Fill in the Blank), MC (Multiple Choice), WOMC (Which One Multiple Choice), TFMS (True/False Multiple-Choice Statements), MA (Multiple Answer), NUM (Numeric), and ORD (Ordering). Preserve this capitalization.\n"
 		"- Use Easy, Medium, and Hard capitalization for supported difficulty qualifiers.\n"
+		"- Use ASCII characters only. Write DNA direction with straight apostrophes, as in 5'/3'.\n"
 		"- Return only <title>Your Title Here</title>, with no Markdown, commentary, or trailing punctuation in the title.\n\n"
 	)
 

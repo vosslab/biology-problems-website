@@ -298,6 +298,68 @@ def _prepare_task(task: dict[str, object], scope: BuildScope) -> None:
 
 
 #============================================
+def _task_question_limit(task: dict[str, object], scope: BuildScope) -> int | None:
+	"""Return the effective requested limit, including a CSV row override."""
+	args = task["args"]
+	if not isinstance(args, list):
+		raise TypeError("BBQ task args must be a list")
+	for index, arg in enumerate(args):
+		if arg in ("-x", "--max-questions"):
+			return int(args[index + 1])
+		if isinstance(arg, str) and arg.startswith("--max-questions="):
+			return int(arg.split("=", 1)[1])
+	if scope.max_questions is not None:
+		return scope.max_questions
+	return None
+
+
+#============================================
+def _row_question_counts(
+	task_row: list[dict[str, object]], scope: BuildScope,
+) -> list[dict[str, object]]:
+	"""Read the published BBQ records for each output owned by a CSV row."""
+	counts: list[dict[str, object]] = []
+	seen: set[Path] = set()
+	for task in task_row:
+		limit = _task_question_limit(task, scope)
+		for source_path in sorted(_task_source_files(task)):
+			if source_path in seen or not source_path.is_file():
+				continue
+			seen.add(source_path)
+			count = bbq_outputs.count_output_lines_path(str(source_path))
+			counts.append({"file": str(source_path), "count": count, "limit": limit})
+	return counts
+
+
+#============================================
+def _print_question_counts(counts: list[dict[str, object]]) -> None:
+	"""Report actual question counts for CLI and captured TUI output."""
+	for result in counts:
+		limit = result["limit"]
+		count_text = str(result["count"])
+		if limit is not None:
+			count_text += f"/{limit}"
+		print(f"  BBQ questions {git_paths.display_path(result['file'])}: {count_text}")
+
+
+#============================================
+def _report_row_question_counts(
+	progress: BuildProgress | None,
+	row_index: int,
+	row_label: str,
+	task_row: list[dict[str, object]],
+	scope: BuildScope,
+) -> None:
+	"""Publish actual BBQ question counts after a row completes or is skipped."""
+	counts = _row_question_counts(task_row, scope)
+	_print_question_counts(counts)
+	if progress:
+		progress.emit(
+			"bbq_counts", row=row_index, label=row_label, question_counts=counts,
+		)
+
+
+#============================================
 def configured_topics(scope: BuildScope) -> set[TopicRef]:
 	"""Return canonical topics configured by the current task-file selection."""
 	topics = {_task_ref(task) for task in _load_scoped_tasks(scope)}
@@ -422,6 +484,7 @@ def iter_task_results(
 					"stage_skipped", phase="bbq", row=row_index, label=row_label,
 					detail="up to date",
 				)
+			_report_row_question_counts(progress, row_index, row_label, task_row, scope)
 			yield TaskBuildResult(
 				topic_ref=topic_ref,
 				source_files=set().union(*(_task_source_files(task) for task in task_row)),
@@ -552,6 +615,7 @@ def iter_task_results(
 				duration=time.perf_counter() - row_start,
 				executed=True,
 			)
+		_report_row_question_counts(progress, row_index, row_label, task_row, scope)
 		yield TaskBuildResult(
 			topic_ref=topic_ref,
 			source_files=source_files,

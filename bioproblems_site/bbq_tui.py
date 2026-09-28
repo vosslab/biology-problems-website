@@ -74,16 +74,13 @@ class SiteBuildApp(App[int]):
 		"pending": "yellow",
 		"running": "cyan",
 		"ok": "green",
+		"short": "yellow",
 		"planned": "cyan",
 		"skipped": "dim",
 		"failed": "red",
 		"cancelled": "yellow",
 	}
-	STAGE_COLUMNS = {
-		"bbq": "bbq",
-		"selftests": "selftests",
-		"downloads": "downloads",
-	}
+	ROW_PHASES = ("bbq", "selftests", "downloads")
 	PHASE_LABELS = {
 		"bbq": "BBQ generation",
 		"selftests": "Self-tests",
@@ -109,9 +106,9 @@ class SiteBuildApp(App[int]):
 		self.started_at = time.time()
 		self.cancel_event = threading.Event()
 		self.progress = build_progress.BuildProgress(self._report_event, self.cancel_event)
-		self.row_keys: dict[int, object] = {}
-		self.rows: dict[int, dict[str, str]] = {}
-		self.column_keys: dict[str, object] = {}
+		self.step_keys: dict[tuple[str, int | str], object] = {}
+		self.step_status: dict[tuple[str, int | str], str] = {}
+		self.status_column: object | None = None
 		self.phase_totals: dict[str, int] = {}
 		self.phase_completed: dict[str, int] = {}
 		self.phase_samples: dict[str, list[float]] = {}
@@ -134,13 +131,10 @@ class SiteBuildApp(App[int]):
 				yield RichLog(id="messages", wrap=True, highlight=False, markup=False)
 			table = DataTable(id="task_table", zebra_stripes=True)
 			table.cursor_type = "row"
-			self.column_keys = {
-				"index": table.add_column("#"),
-				"task": table.add_column("CSV task row"),
-				"bbq": table.add_column("BBQ"),
-				"selftests": table.add_column("self-test"),
-				"downloads": table.add_column("downloads"),
-			}
+			table.add_column("#")
+			table.add_column("Step")
+			table.add_column("Item")
+			self.status_column = table.add_column("Status")
 			yield table
 
 	def on_mount(self) -> None:
@@ -165,25 +159,28 @@ class SiteBuildApp(App[int]):
 			row_labels = details["row_labels"]
 			if isinstance(row_labels, list):
 				for row_index, label in enumerate(row_labels, start=1):
-					self._add_row(row_index, str(label))
+					self._add_row_steps(row_index, str(label))
 			self.append_log(f"Build plan: {row_total} CSV row(s)")
 		elif event == "phase_plan":
 			phase = str(details["phase"])
 			self.phase_totals[phase] = int(details["total"])
 			self.phase_completed.setdefault(phase, 0)
+			if phase == "indexes":
+				label = "Indexes, navigation, manifest"
+				self._add_step((phase, label), self.PHASE_LABELS[phase], label)
 			self.append_log(
 				f"Planned {self.phase_totals[phase]} {self.PHASE_LABELS[phase].lower()} item(s)"
 			)
 		elif event == "row_started":
 			row_index = int(details["row"])
-			self._add_row(row_index, str(details["label"]))
+			self._add_row_steps(row_index, str(details["label"]))
 			self._update_metrics_text()
 		elif event == "stage_started":
 			phase = str(details["phase"])
 			self.active_phase = phase
 			self.active_label = str(details["label"])
 			self.active_started_at = time.time()
-			self._set_row_stage(details, "running")
+			self._set_step_stage(details, "running")
 			self.append_log(f"START {self.PHASE_LABELS[phase]}: {self.active_label}")
 			self._update_metrics_text()
 		elif event == "stage_completed":
@@ -192,7 +189,7 @@ class SiteBuildApp(App[int]):
 			cell_text = None
 			if phase == "downloads" and status == "ok":
 				cell_text = self._download_count_text(details)
-			self._set_row_stage(details, status, cell_text)
+			self._set_step_stage(details, status, cell_text)
 			self._complete_phase(phase, details)
 			duration = float(details.get("duration", 0.0))
 			self.append_log(
@@ -205,7 +202,7 @@ class SiteBuildApp(App[int]):
 			cell_text = None
 			if phase == "downloads":
 				cell_text = self._download_count_text(details)
-			self._set_row_stage(details, "skipped", cell_text)
+			self._set_step_stage(details, "skipped", cell_text)
 			self.phase_completed[phase] = self.phase_completed.get(phase, 0) + 1
 			label = str(details["label"])
 			detail = str(details.get("detail", "not required"))
@@ -213,57 +210,60 @@ class SiteBuildApp(App[int]):
 			self._clear_active_phase(phase)
 		elif event == "stage_failed":
 			phase = str(details["phase"])
-			self._set_row_stage(details, "failed")
+			self._set_step_stage(details, "failed")
 			self._complete_phase(phase, details)
 			self.append_log(
 				f"FAIL {self.PHASE_LABELS[phase]}: {details['label']} "
 				f"({details.get('detail', 'unknown error')})"
 			)
 			self._clear_active_phase(phase)
+		elif event == "bbq_counts":
+			count_text, short = self._question_count_text(details)
+			if count_text is not None:
+				row_index = int(details["row"])
+				prior_status = self.step_status[("bbq", row_index)]
+				status = "short" if short else prior_status
+				self._set_step_stage({**details, "phase": "bbq"}, status, count_text)
 		elif event == "log":
 			self.append_log(str(details["message"]))
 
-	def _add_row(self, row_index: int, label: str) -> None:
-		"""Add a CSV task row once, initially pending in each pipeline stage."""
-		if row_index in self.row_keys:
+	def _add_row_steps(self, row_index: int, label: str) -> None:
+		"""List all three operations owned by one CSV task row."""
+		for phase in self.ROW_PHASES:
+			self._add_step((phase, row_index), self.PHASE_LABELS[phase], label)
+
+	def _add_step(self, key: tuple[str, int | str], name: str, item: str) -> None:
+		"""Add one operation to the ordered build list once."""
+		if key in self.step_keys:
 			return
-		self.rows[row_index] = {
-			"bbq": "pending",
-			"selftests": "pending",
-			"downloads": "pending",
-		}
-		row_key = self.query_one(DataTable).add_row(
-			str(row_index),
-			label,
-			self._styled_status("pending"),
-			self._styled_status("pending"),
-			self._styled_status("pending"),
+		self.step_status[key] = "pending"
+		self.step_keys[key] = self.query_one(DataTable).add_row(
+			str(len(self.step_keys) + 1), name, item, self._styled_status("pending"),
 		)
-		self.row_keys[row_index] = row_key
 
 	def _styled_status(self, status: str, cell_text: str | None = None) -> Text:
 		"""Return a colored status cell."""
 		display_text = cell_text if cell_text is not None else status
 		return Text(display_text, style=self.STATUS_STYLES[status])
 
-	def _set_row_stage(
+	def _set_step_stage(
 		self,
 		details: dict[str, object],
 		status: str,
 		cell_text: str | None = None,
 	) -> None:
-		"""Update a table cell when an event belongs to a CSV task row."""
+		"""Update the listed operation for any build phase."""
 		phase = str(details["phase"])
-		column = self.STAGE_COLUMNS.get(phase)
 		row_index = details.get("row")
-		if column is None or not isinstance(row_index, int):
-			return
-		row_key = self.row_keys[row_index]
-		self.rows[row_index][column] = status
+		label = str(details["label"])
+		key = (phase, row_index if isinstance(row_index, int) else label)
+		self._add_step(key, self.PHASE_LABELS[phase], label)
+		self.step_status[key] = status
 		self.query_one(DataTable).update_cell(
-			row_key,
-			self.column_keys[column],
+			self.step_keys[key],
+			self.status_column,
 			self._styled_status(status, cell_text),
+			update_width=True,
 		)
 
 	@staticmethod
@@ -274,6 +274,26 @@ class SiteBuildApp(App[int]):
 		if not isinstance(count, int) or not isinstance(total, int):
 			return None
 		return f"{count} of {total}"
+
+	@staticmethod
+	def _question_count_text(details: dict[str, object]) -> tuple[str | None, bool]:
+		"""Summarize actual BBQ records and flag outputs below their limit."""
+		counts = details["question_counts"]
+		if not isinstance(counts, list) or not counts:
+			return None, False
+		actual = sum(int(result["count"]) for result in counts)
+		limits = [result["limit"] for result in counts]
+		short = any(
+			isinstance(limit, int) and int(result["count"]) < limit
+			for result, limit in zip(counts, limits)
+		)
+		count_text = str(actual)
+		if all(isinstance(limit, int) for limit in limits):
+			count_text += f"/{sum(limits)}"
+		count_text += " questions"
+		if len(counts) > 1:
+			count_text += f" ({len(counts)} BBQs)"
+		return count_text, short
 
 	def _complete_phase(self, phase: str, details: dict[str, object]) -> None:
 		"""Record completed work and timing samples for one pipeline phase."""
@@ -302,10 +322,14 @@ class SiteBuildApp(App[int]):
 		elapsed = time.time() - self.started_at
 		completed = sum(self.phase_completed.values())
 		planned = sum(self.phase_totals.values())
-		active = self.PHASE_LABELS.get(self.active_phase, "Preparing")
-		current = f"\nCurrent: {active}"
-		if self.active_label:
-			current += f"\nItem: {self.active_label}"
+		if self.finished:
+			result = "complete" if self.exit_code == 0 else "cancelled" if self.exit_code == 130 else "failed"
+			current = f"\nResult: {result}"
+		else:
+			active = self.PHASE_LABELS.get(self.active_phase, "Preparing")
+			current = f"\nCurrent: {active}"
+			if self.active_label:
+				current += f"\nItem: {self.active_label}"
 		metrics = (
 			f"Progress: {completed}/{planned or '...'} operations\n"
 			f"Elapsed: {bbq_runner.format_elapsed_time(elapsed)}"
@@ -328,6 +352,13 @@ class SiteBuildApp(App[int]):
 			else:
 				eta_widget.update("Build failed")
 			return
+		if self.active_phase and self.active_started_at is not None:
+			phase_values = self.phase_samples.get(self.active_phase, [])
+			active_elapsed = time.time() - self.active_started_at
+			if not phase_values or active_elapsed >= sum(phase_values) / len(phase_values):
+				elapsed_text = bbq_runner.format_elapsed_time(active_elapsed)
+				eta_widget.update(f"Working: {self.PHASE_LABELS[self.active_phase]}\n{elapsed_text} on item")
+				return
 		samples = [duration for values in self.phase_samples.values() for duration in values]
 		if len(samples) < 2:
 			eta_widget.update("Estimating finish time...")
@@ -341,9 +372,15 @@ class SiteBuildApp(App[int]):
 			remaining += phase_remaining * average
 		if self.active_phase and self.active_started_at is not None:
 			values = self.phase_samples.get(self.active_phase, [])
-			active_average = sum(values) / len(values) if values else global_average
+			active_average = sum(values) / len(values)
 			active_elapsed = time.time() - self.active_started_at
 			remaining = max(remaining - min(active_elapsed, active_average), 0.0)
+		if (
+			remaining < 1.0
+			and sum(self.phase_completed.values()) < sum(self.phase_totals.values())
+		):
+			eta_widget.update("Finishing remaining work...")
+			return
 		finish_time = datetime.now().astimezone() + timedelta(seconds=remaining)
 		clock_time = finish_time.strftime("%I:%M:%S %p").lstrip("0")
 		remaining_text = bbq_runner.format_elapsed_time(remaining)
@@ -397,13 +434,14 @@ class SiteBuildApp(App[int]):
 			message = "Build cancelled."
 		self.finished = True
 		self.exit_code = exit_code
-		for row_index, statuses in self.rows.items():
-			for column, status in statuses.items():
-				if status == "running" or (exit_code == 130 and status == "pending"):
-					self._set_row_stage(
-						{"phase": column, "row": row_index},
-						"cancelled" if exit_code == 130 else "failed",
-					)
+		for key, status in list(self.step_status.items()):
+			if status == "running" or (exit_code == 130 and status == "pending"):
+				self.step_status[key] = "cancelled" if exit_code == 130 else "failed"
+				self.query_one(DataTable).update_cell(
+					self.step_keys[key], self.status_column,
+					self._styled_status(self.step_status[key]),
+					update_width=True,
+				)
 		self.active_phase = ""
 		self.active_label = ""
 		self.active_started_at = None

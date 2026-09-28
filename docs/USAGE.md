@@ -93,10 +93,10 @@ Common flags:
   own `-x` flag. Unrestricted runs default to 50; scoped runs otherwise use
   each generator's configured limit. Since generators default to `-d 2`, the
   runner passes `-d ceil(N * 1.1)` for a common maximum `N` (so `-x 50` passes
-  `-d 55`); task-specific duplicate counts take precedence.
+  `-d 56` with floating-point rounding); task-specific duplicate counts take precedence.
 - `-R/--shuffle`: shuffle BBQ task order before applying `--limit`.
 - `-b/--backend BACKEND`: use `ollama`, `codex`, or `claude` for generated
-  problem-set titles. Ollama remains the default; Codex uses its configured
+  problem-set titles. Codex is the default and uses its configured
   CLI model when `--model` is omitted.
 - `-n/--dry-run`: report planned work without generators, LLM calls, subprocesses,
   or writes.
