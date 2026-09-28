@@ -4,6 +4,16 @@
 
 ### Fixes and Maintenance
 
+- Split biostatistics hypothesis-testing tasks into Hypothesis Testing Concepts,
+  Z-Tests, T-Tests, F-Tests, and ANOVA, and Chi-Square Tests.
+- Group the three biostatistics Hardy-Weinberg tasks in their own topic, including
+  frequency calculations and the chi-square equilibrium test.
+- Renumber biostatistics topics from descriptive statistics and graphs through
+  distributions and probability, z-scores, hypothesis testing, chi-square,
+  Hardy-Weinberg equilibrium, and regression for the planned full regeneration.
+  Update browser-check routes to retain their intended topic coverage.
+- Merge measures of center and variance into Descriptive Statistics, using the
+  `descriptive_statistics` task alias; keep Distributions and Probability separate.
 - Convert HTML tables and RDKit canvases to packaged images in Blackboard Ultra
   ZIP downloads when the BBQ source contains those drawings. Rebuild ZIPs whose
   pool still contains HTML tables; on conversion failure, omit the affected
