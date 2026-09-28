@@ -15,6 +15,7 @@ import sys
 import time
 import subprocess
 import dataclasses
+import zipfile
 
 # PIP3 modules
 from qti_package_maker import package_interface
@@ -197,6 +198,8 @@ def create_downloadable_format(
 		"--output",
 		file_path,
 	]
+	if prefix == "blackboard_export_zip" and bbq_has_html_drawings(bbq_file):
+		convert_cmd.append("--html-to-image")
 	display_cmd = list(convert_cmd)
 	display_cmd[1] = git_paths.display_path(converter_path)
 	for path_flag in ("--input", "--output"):
@@ -233,6 +236,25 @@ def create_downloadable_format(
 		)
 	remove_case_mismatched_files(file_path)
 	return file_path
+
+
+#==============
+def bbq_has_html_drawings(path: str) -> bool:
+	"""Check whether a BBQ source needs table or canvas rendering."""
+	with open(path, "rb") as source:
+		for line in source:
+			lower_line = line.lower()
+			if b"<table" in lower_line or b"<canvas" in lower_line:
+				return True
+	return False
+
+
+#==============
+def blackboard_export_has_html_tables(path: str | os.PathLike[str]) -> bool:
+	"""Find Ultra ZIPs whose pool still embeds HTML tables."""
+	with zipfile.ZipFile(path) as archive:
+		pool_xml = archive.read("res00002.dat")
+	return b"&lt;table" in pool_xml.lower()
 
 
 #==============
@@ -511,18 +533,22 @@ def generate_download_button_row(
 			if not render_missing_download_links:
 				continue
 			planned_missing_artifact = True
-		# Check if the source file is newer than the existing download file
-		source_is_newer = False
+		# Rebuild when the source changed or the ZIP still contains HTML tables.
+		needs_rebuild = False
+		table_export_needs_conversion = False
 		if exists_before:
 			source_mtime = os.path.getmtime(bbq_file_name)
 			download_mtime = os.path.getmtime(out_file_path)
-			source_is_newer = source_mtime > download_mtime
+			needs_rebuild = source_mtime > download_mtime
+			if type_key == "bb_export" and generate_downloads:
+				table_export_needs_conversion = blackboard_export_has_html_tables(out_file_path)
+				needs_rebuild = needs_rebuild or table_export_needs_conversion
 		# Honor generate_downloads for the stale-rebuild path too:
 		# render the button pointing at the stale file rather than
 		# rebuilding.
-		if source_is_newer and not generate_downloads:
-			source_is_newer = False
-		if exists_before and not force_downloads and not source_is_newer:
+		if needs_rebuild and not generate_downloads:
+			needs_rebuild = False
+		if exists_before and not force_downloads and not needs_rebuild:
 			if verbose:
 				print(color_text(
 					f"  FOUND {file_type['display_name']}: "
@@ -530,9 +556,10 @@ def generate_download_button_row(
 					COLOR_GREEN,
 				))
 			record_stat(stats, type_key, "existing")
-		elif source_is_newer:
+		elif needs_rebuild:
 			if verbose:
-				print(color_text(f"  STALE {file_type['display_name']}: source newer, rebuilding", COLOR_CYAN))
+				reason = "HTML table in ZIP" if table_export_needs_conversion else "source newer"
+				print(color_text(f"  STALE {file_type['display_name']}: {reason}, rebuilding", COLOR_CYAN))
 			out_file_path = _create_optional_download(
 				bbq_file_name,
 				file_type['prefix'],

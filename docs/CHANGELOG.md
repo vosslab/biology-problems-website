@@ -4,6 +4,10 @@
 
 ### Fixes and Maintenance
 
+- Convert HTML tables and RDKit canvases to packaged images in Blackboard Ultra
+  ZIP downloads when the BBQ source contains those drawings. Rebuild ZIPs whose
+  pool still contains HTML tables; on conversion failure, omit the affected
+  download so a later build can retry it.
 - Keep two durable dashboard checks and the generated-title regression check;
   remove the one-time ETA wording check and trim assertions tied to internal
   progress events and title-cache storage.
@@ -29,6 +33,9 @@
 
 ### Developer Tests and Notes
 
+- Verify one real Blackboard export from a table question contains packaged PNGs
+  and no table markup. Keep this browser-backed check as one-time evidence, not
+  a permanent pytest; remove the implementation-coupled mock test.
 - Check that every topic linked from `mkdocs.yml` navigation has an existing
   `site_docs/<subject>/topic##/index.md` page.
 - Pass the full offline test suite (5,885 tests) after the BBQ count and guidance fixes.

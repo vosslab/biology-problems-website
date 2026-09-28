@@ -209,6 +209,11 @@ def downloads_need_run(
 		for output_path in expected_downloads(source_path):
 			if is_newer_than_any(output_path, [source_path]):
 				return True
+			if (
+				output_path.name.startswith("blackboard_export_zip-")
+				and topic_page_module.blackboard_export_has_html_tables(output_path)
+			):
+				return True
 	return False
 
 

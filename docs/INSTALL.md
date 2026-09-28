@@ -9,6 +9,7 @@ serve or build the site from [site_docs/](../site_docs/) using
 - Python 3.12.
 - pip for installing dependencies from [pip_requirements.txt](../pip_requirements.txt).
 - Node.js and npm for Playwright tests and documentation screenshots.
+- Playwright Chromium for Blackboard Ultra ZIP downloads containing HTML tables.
 
 ## Install steps
 
@@ -22,6 +23,10 @@ serve or build the site from [site_docs/](../site_docs/) using
    ```bash
    npm install
    npx playwright install chromium
+   ```
+4. For Blackboard ZIP table screenshots, install the Python Playwright browser:
+   ```bash
+   source source_me.sh && python3 -m playwright install --only-shell chromium
    ```
 
 ## Verify install
