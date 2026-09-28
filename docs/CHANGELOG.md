@@ -4,6 +4,10 @@
 
 ### Fixes and Maintenance
 
+- Give table-based self-test choices a full row and scroll their content on narrow
+  screens so box plots retain readable scales without overlapping nearby choices.
+  Restore normal table layout for presentation tables so percentage-based plots
+  use the authored table width.
 - Split biostatistics hypothesis-testing tasks into Hypothesis Testing Concepts,
   Z-Tests, T-Tests, F-Tests, and ANOVA, and Chi-Square Tests.
 - Group the three biostatistics Hardy-Weinberg tasks in their own topic, including
