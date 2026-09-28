@@ -28,7 +28,7 @@ LOCAL_IMPORT_WHITELIST = {
 	# Vendored at ~/nsh/local-llm-wrapper and made importable via PYTHONPATH.
 	# Imported by bioproblems_site/llm_helpers.py and problem_set_title.py.
 	"local_llm_wrapper",
-	# Sibling checkout added by source_me.sh and imported by topic_page.py.
+	# Sibling source checkout included by source_me.sh for converter and topic pages.
 	"qti_package_maker",
 }
 IMPORT_REQUIREMENT_ALIASES = {

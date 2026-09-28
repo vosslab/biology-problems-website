@@ -47,8 +47,13 @@ source source_me.sh && ./build_site.py -x 99
 
 Generators default to `-d 2`, which is too small for a larger question maximum.
 When a common maximum `N` is set, the runner passes `-d ceil(N * 1.1)` so it
-requests a small buffer; for example, `-x 50` results in `-d 55`. A task's
+requests a small buffer; for example, `-x 50` results in `-d 56`. A task's
 explicit `-d` or `--duplicates` value takes precedence.
+
+The BBQ step reports the number of question records in each output file. With
+`-x 50`, `50/50 questions` means the file reached the requested maximum;
+`43/50 questions` means the generator produced fewer. The dashboard highlights
+short outputs, including files skipped because they were already current.
 
 The public command accepts `-S/--subject`, `-t/--task`, `-l/--limit`,
 `-x/--max-questions`, `-R/--shuffle`, `-b/--backend`, `-n/--dry-run`,

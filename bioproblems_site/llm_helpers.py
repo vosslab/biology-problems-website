@@ -15,7 +15,7 @@ import local_llm_wrapper.llm as llm
 
 DEFAULT_OLLAMA_MODEL = "gemma4:e4b"
 LLM_BACKENDS = ("ollama", "codex", "claude")
-DEFAULT_LLM_BACKEND = "ollama"
+DEFAULT_LLM_BACKEND = "codex"
 
 
 #============================================

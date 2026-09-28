@@ -4,13 +4,35 @@
 
 ### Fixes and Maintenance
 
+- Keep two durable dashboard checks and the generated-title regression check;
+  remove the one-time ETA wording check and trim assertions tied to internal
+  progress events and title-cache storage.
+- Allow up-to-date BBQ rows to finish when the optional progress observer is absent.
+- Report actual BBQ question counts against each task's effective `-x` limit in
+  the CLI and dashboard, including current files that skip regeneration.
+- Remove a brittle test that pinned the default question limit to a specific value.
+- Shorten two existing human-guidance bullets to meet the repository's format rule.
+- Restore the import-audit allowance for the `qti_package_maker` sibling checkout
+  configured by `source_me.sh`.
+- Default `build_site.py` title generation to Codex for CLI and programmatic builds.
+  `-b ollama` remains available when the required local model is installed.
+- List every build operation in the TUI, including topic pages and indexes, and show
+  active-step elapsed time when a reliable finish estimate is unavailable.
+- Normalize generated prime marks to ASCII apostrophes so DNA-orientation titles
+  pass the title validator and topic-page rendering can finish.
+- Let TUI status cells grow when download counts exceed the initial column width.
 - Updated all seven RNA transcription task rows in the biochemistry, molecular biology,
   and biotechnology CSVs to use the consolidated `rna_transcribe.py` executable with
   explicit format and direction flags. Existing course/topic assignments and variants
   remain intact.
+- Synchronized shared style guides, tests, and repository support files from the starter template.
 
 ### Developer Tests and Notes
 
+- Check that every topic linked from `mkdocs.yml` navigation has an existing
+  `site_docs/<subject>/topic##/index.md` page.
+- Pass the full offline test suite (5,885 tests) after the BBQ count and guidance fixes.
+- Pass focused CLI, dashboard, and title-generation tests plus `pyflakes` on changed Python files.
 - Loaded all ten task CSVs through the website loader and validated all seven transcription
   commands with the consolidated CLI. All 30 focused topic-alias and task-loader tests passed.
 

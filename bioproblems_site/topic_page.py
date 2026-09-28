@@ -687,6 +687,9 @@ def get_problem_set_title(client: object, bbq_file: str) -> str:
 		candidate = bioproblems_site.problem_set_title.get_problem_title_from_file(
 			client, bbq_file,
 		)
+		# Normalize common typographic prime marks before enforcing ASCII titles.
+		candidate = candidate.replace("\u2032", "'").replace("\u2033", "''")
+		candidate = candidate.replace("\u2019", "'")
 		if is_valid_title(candidate):
 			problem_set_title = candidate
 			break

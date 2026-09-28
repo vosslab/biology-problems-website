@@ -49,5 +49,5 @@ class BuildScope:
 	dry_run: bool = False
 	full: bool = False
 	max_questions: int | None = None
-	backend: str = "ollama"
+	backend: str = "codex"
 	model: str | None = None

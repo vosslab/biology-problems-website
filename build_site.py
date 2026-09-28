@@ -87,7 +87,7 @@ def build_parser() -> argparse.ArgumentParser:
 		choices=llm_helpers.LLM_BACKENDS,
 		default=llm_helpers.DEFAULT_LLM_BACKEND,
 		metavar="BACKEND",
-		help="Use Ollama, Codex, or Claude for generated page titles (default: ollama).",
+		help="Use Ollama, Codex, or Claude for generated page titles (default: codex).",
 	)
 	parser.add_argument(
 		"-m", "--model", dest="model",

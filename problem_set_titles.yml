@@ -293,6 +293,8 @@ bbq-alpha_helix_h-bonds-MC-questions.txt: Hydrogen Bonds in Alpha-Helix Structur
   (MC)
 bbq-amplicon_copies-questions.txt: Amplicon Copy Number After PCR Rounds (MC)
 bbq-babies_two_sample_t_test-tails1-questions.txt: Two-Sample t-Test P-Values (NUM)
+bbq-beadle_tatum-metabolic_pathway-4_metabolites-questions.txt: Metabolic Pathway
+  Mutant Growth Rescue by Nutrient Supplementation (4 Metabolites, MA)
 bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt: Bacterial Nutrient
   Requirements in Mutant Metabolic Pathways (5 Metabolites, MA)
 bbq-blood_type_agglutination_test-questions.txt: Blood Type Agglutination Test Results
@@ -404,6 +406,8 @@ bbq-dilution_factor_mc-questions.txt: Aliquot and Diluent Volumes from Dilution 
   (MC)
 bbq-dna_gel-closest_farthest_MC-questions.txt: DNA Fragment Migration in Agarose Gel
   Electrophoresis (Closest/Farthest, MC)
+bbq-dna_gel-estimate_size-MC_or_NUM-mc-questions.txt: DNA Fragment Size from Agarose
+  Gel Migration Data (MC)
 bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt: DNA Fragment Size from Agarose
   Gel Migration (NUM)
 bbq-dna_melting_temp-len_12-questions.txt: DNA Melting Temperature Extremes from Sequence
@@ -530,8 +534,8 @@ bbq-michaelis_menten_table-inhibition-questions.txt: Enzyme Inhibition Type from
   Activity Data (MC)
 bbq-microbial_16s_rdna_survey_order-ORD-6_choices-questions.txt: Environmental 16S
   rDNA Survey Workflow (6 Steps, ORD)
-bbq-model_organism_complexity_order-ORD-5_choices-questions.txt: Model Organisms Ordered
-  by Complexity (5 Choices, ORD)
+bbq-model_organism_complexity_order-ORD-4_choices-questions.txt: Model Organisms by
+  Complexity (4 Organisms, ORD)
 bbq-monohybrid_degrees_of_dominance-questions.txt: Degrees of Dominance from Monohybrid
   Cross Results (MC)
 bbq-monohybrid_genotype_statements-questions.txt: Parental Genotype Crosses from Monohybrid
@@ -540,6 +544,8 @@ bbq-monohybrid_litter_inference-questions.txt: Unknown Parent Genotype from Mono
   Offspring Counts (MC)
 bbq-mutant_screen-fib-4_metabolites-questions.txt: Metabolic Pathway Precursor Order
   from Mutant Growth Data (4 Metabolites, FiB)
+bbq-mutant_screen-mc-4_metabolites-questions.txt: 'Metabolic Pathway Mutant Screens:
+  Wild-Type Identification from Precursor Growth Patterns (4 Metabolites, MC)'
 bbq-nested_pcr_design-len_24-questions.txt: Nested PCR Primer Pair Selection (24 nt,
   MC)
 bbq-optimal_buffering_range-questions.txt: Optimal Buffering Range Using pKa (MC)
@@ -567,6 +573,8 @@ bbq-pKa_buffer_state-4_protons-questions.txt: Predominant Protonation State from
 bbq-palindrome_sequence_match-questions.txt: Palindromic DNA Sequence Completion (Matching)
 bbq-pcr_design-36_bp-9_primer-questions.txt: PCR Primer Selection (36 bp Template,
   9-nt Primers, MC)
+bbq-pcr_design-9_bp-6_primer-questions.txt: PCR Primer Pair Selection from Double-Stranded
+  DNA (9-bp Template, 6-Base RNA Primers, MC)
 bbq-percent_dilution_aliquot_numeric-questions.txt: Aliquot Volumes from Stock Solutions
   (NUM)
 bbq-ph_h_concentration_ratio-questions.txt: pH Differences Between Solutions (MC)
@@ -595,6 +603,8 @@ bbq-punnett_choice-questions.txt: Punnett Squares from Monohybrid Cross Descript
   (MC)
 bbq-quick_fatty_acid_colon_system-questions.txt: Fatty Acid Chain Length and Number
   of Double Bonds (MC)
+bbq-rna_transcribe-MC-prime-len_6-questions.txt: mRNA Sequences from DNA Template
+  Strands (6 Nucleotides, 5'/3' Orientation, MC)
 bbq-rna_transcribe_fill_blank-questions.txt: mRNA Sequences from DNA Templates (FiB)
 bbq-rna_transcribe_prime-len_9-questions.txt: mRNA Sequences from DNA Templates (5'
   and 3' Direction, MC)
@@ -648,8 +658,8 @@ bbq-three-point_test_cross-which_genotypes-PARENTAL-questions.txt: Parental Geno
 bbq-titration_pI-questions.txt: Isoelectric Point from pKa Values (MC)
 bbq-translate_genetic_code-10_aa-questions.txt: Peptide Sequences from mRNA Using
   the Genetic Code (10 Amino Acids, FiB)
-bbq-translate_genetic_code-6_aa-questions.txt: mRNA Translation into a Peptide Sequence
-  (6 Amino Acids, FiB)
+bbq-translate_genetic_code-MC-5_aa-5_choices-questions.txt: Genetic Code Translation
+  of mRNA into Five-Amino-Acid Peptides (5 Choices, MC)
 bbq-translocation_meiosis_table-questions.txt: Balanced Translocation Segregation
   Outcomes (MA)
 bbq-two-point_test_cross-cis-trans-MC-with_hint-questions.txt: Gene Configuration
@@ -698,4 +708,4 @@ bbq-x_linked_reciprocal_cross-questions.txt: X-linked Eye Color Inheritance (MC)
 bbq-x_linked_tortoiseshell-questions.txt: X-linked Coat Color Probability (MC)
 bbq-z_score_google_sheet-questions.txt: Z-Scores in Google Sheets (MC)
 bbq-z_score_table_interp-questions.txt: Biodiversity Comparisons Using Z-Scores (MC)
-last edit: Fri Sep 25 21:41:11 2026
+last edit: Mon Sep 28 14:37:48 2026

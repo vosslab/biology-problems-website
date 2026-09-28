@@ -21,6 +21,37 @@ def test_parse_scope_rejects_legacy_subcommands() -> None:
 
 
 #============================================
+def test_default_backend_is_codex() -> None:
+	"""The CLI and programmatic build scope select Codex unless overridden."""
+	assert build_site.parse_scope([]).backend == "codex"
+	assert BuildScope().backend == "codex"
+	assert build_site.parse_scope(["-b", "ollama"]).backend == "ollama"
+
+
+#============================================
+def test_bbq_reports_actual_questions_against_requested_limit(
+	monkeypatch: pytest.MonkeyPatch,
+	tmp_path: Path,
+	capsys: pytest.CaptureFixture[str],
+) -> None:
+	"""A current BBQ file reports its actual record count against the requested cap."""
+	output_path = tmp_path / "bbq-example-questions.txt"
+	output_path.write_text("MC\tfirst\nMC\tsecond\n")
+	task = {
+		"subject": "genetics", "topic": "topic01", "script": "",
+		"input_path": "", "task_file": "tasks.csv", "settings_path": "",
+		"output": str(output_path), "args": [], "_csv_row_number": 2,
+	}
+	monkeypatch.setattr(bbq_workflow, "_load_scoped_task_rows", lambda scope: [[task]])
+	requested_limit = 3
+	list(bbq_workflow.iter_task_results(BuildScope(max_questions=requested_limit)))
+
+	output = capsys.readouterr().out
+	assert "BBQ questions " in output
+	assert f"{output_path.name}: 2/{requested_limit}" in output
+
+
+#============================================
 def test_parse_scope_supports_task_option_and_short_options(
 	monkeypatch: pytest.MonkeyPatch,
 ) -> None:
@@ -598,37 +629,3 @@ def test_subject_dry_run_plans_global_reconciliation_without_mutating_site_files
 	assert manifest_calls == []
 	manifest_path = site_docs_dir / "assets/data/selftest_question_manifest.json"
 	assert manifest_path in stage_outputs
-
-
-#============================================
-def test_all_task_mode_alone_sets_the_batch_question_limit(
-	monkeypatch: pytest.MonkeyPatch,
-	tmp_path: Path,
-) -> None:
-	"""Only all-task selection supplies the historical 199-question limit."""
-	output_path = tmp_path / "missing.txt"
-	task = {
-		"subject": "genetics",
-		"topic": "topic01",
-		"script": str(tmp_path / "generator.py"),
-		"input_path": "",
-		"task_file": "",
-		"settings_path": "",
-		"output": str(output_path),
-		"args": [],
-	}
-	seen_args: list[list[object]] = []
-	monkeypatch.setattr(bbq_workflow, "_load_scoped_task_rows", lambda scope: [[task.copy()]])
-	monkeypatch.setattr(bbq_workflow.bbq_config, "load_bbq_config", lambda path: {})
-	monkeypatch.setattr(bbq_workflow.bbq_config, "check_pythonpath", lambda settings: (True, ""))
-	monkeypatch.setattr(bbq_workflow.bbq_config, "build_pythonpath", lambda settings: "")
-	monkeypatch.setattr(
-		bbq_workflow.bbq_runner,
-		"run_task",
-		lambda task, *args, **kwargs: seen_args.append(task.get("extra_args", [])) or True,
-	)
-
-	bbq_workflow.run_if_needed(BuildScope())
-	bbq_workflow.run_if_needed(BuildScope(tasks_csv=tmp_path / "one.csv"))
-
-	assert seen_args == [["-x", "199"], []]
