@@ -3,12 +3,10 @@
 // Quiz flow: opens the first self-test <details> automatically, then on a
 // correct answer collapses it and opens the next one, scrolling down to it.
 // Also highlights the chosen answer green (correct) or red (incorrect) using
-// the same CSS classes the questions already define, and plays a wrong-answer
-// sound on incorrect. Purely additive -- selftest_progress.js is unaffected.
+// the same CSS classes the questions already define.
 (function () {
 	// Wait long enough for the star-pop (950ms) and confetti to feel complete.
 	var ADVANCE_DELAY_MS = 1500;
-	var WRONG_SOUND_URL = "/assets/sounds/wrong-answer-buzzer.wav";
 
 	//============================================
 	function findQuizDetails() {
@@ -51,16 +49,6 @@
 			text === "Please select an answer." ||
 			text === "Please enter a value." ||
 			text === "Please enter a valid number.";
-	}
-
-	//============================================
-	function playWrongSound() {
-		try {
-			var audio = new window.Audio(WRONG_SOUND_URL);
-			audio.play();
-		} catch (_) {
-			// Sound is optional; silently ignore failures.
-		}
 	}
 
 	//============================================
@@ -127,8 +115,6 @@
 				window.setTimeout(function () {
 					advanceTo(allDetails, index);
 				}, ADVANCE_DELAY_MS);
-			} else {
-				playWrongSound();
 			}
 		});
 		observer.observe(resultDiv, { childList: true, characterData: true, subtree: true });
