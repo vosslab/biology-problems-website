@@ -3263,35 +3263,35 @@
       example problem
     </span>
   </summary>
-  <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n/* Each choice row: min 40px height for comfortable tap targets */\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  margin: 4px 0;\n  padding: 6px 4px;\n  min-height: 40px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 10px;\n  margin: 0;\n  cursor: pointer;\n}\n/* Enlarged radio/checkbox inputs: ~1.4em via width/height, transform-origin top-left keeps layout aligned */\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n  flex-shrink: 0;\n  width: 1.4em;\n  height: 1.4em;\n  cursor: pointer;\n  accent-color: var(--qti-btn-bg, #3a5acd);\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Primary filled button (Check Answer) */\n.qti-btn {\n  background-color: var(--qti-btn-bg, #3a5acd);\n  color: var(--qti-btn-fg, #ffffff);\n  border: none;\n  border-radius: 4px;\n  padding: 8px 20px;\n  font-weight: 600;\n  cursor: pointer;\n}\n.qti-btn:hover {\n  filter: brightness(1.1);\n}\n/* Disabled state: muted appearance after a correct answer (disabled attribute set by JS) */\n.qti-btn:disabled,\n.qti-btn[disabled] {\n  background-color: var(--qti-btn-disabled-bg, #aaaaaa);\n  color: var(--qti-btn-disabled-fg, #eeeeee);\n  opacity: 0.55;\n  cursor: not-allowed;\n  filter: none;\n}\n/* Secondary ghost button (Clear / Reset) */\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, transparent);\n  color: var(--qti-btn-reset-fg, #555555);\n  border: 1px solid var(--qti-btn-reset-border, #999999);\n  border-radius: 4px;\n  padding: 7px 20px;\n  cursor: pointer;\n}\n.qti-btn-reset:hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Text input styling */\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, #111111);\n  border: 1px solid var(--qti-input-border, #999999);\n  border-radius: 4px;\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n/* Responsive images: prevent RDKit/structure canvases from overflowing on mobile */\n.qti-selftest canvas,\n.qti-selftest img {\n  max-width: 100%;\n  height: auto;\n}\n/* Feedback pill: neutral base state (empty placeholder, invisible until JS sets content) */\n.qti-feedback-result {\n  display: inline-block;\n  min-height: 1.5em;\n  margin: 8px 0 8px 0;\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  vertical-align: middle;\n}\n/* Success pill */\n.qti-feedback-success {\n  display: inline-block;\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Error pill */\n.qti-feedback-error {\n  display: inline-block;\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Non-color accessibility markers (ASCII, no impact on textContent) */\n.qti-feedback-success::before { content: \"[+] \"; }\n.qti-feedback-error::before { content: \"[x] \"; }\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #4a6ee0;\n    --qti-btn-fg: #ffffff;\n    --qti-btn-disabled-bg: #555555;\n    --qti-btn-disabled-fg: #aaaaaa;\n    --qti-btn-reset-bg: transparent;\n    --qti-btn-reset-fg: #c0c0c0;\n    --qti-btn-reset-border: #777777;\n    --qti-input-bg: #2a2a2a;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #4a6ee0;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #555555;\n  --qti-btn-disabled-fg: #aaaaaa;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #c0c0c0;\n  --qti-btn-reset-border: #777777;\n  --qti-input-bg: #2a2a2a;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
+  <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n/* Each choice row: min 40px height for comfortable tap targets */\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  margin: 4px 0;\n  padding: 6px 4px;\n  min-height: 40px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: flex;\n  flex: 1;\n  min-width: 0;\n  align-items: center;\n  gap: 10px;\n  margin: 0;\n  cursor: pointer;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label > span:first-child {\n  flex-shrink: 0;\n}\n.qti-selftest .qti-choice-content {\n  flex: 1;\n  min-width: 0;\n  overflow-x: auto;\n}\n/* Preserve cell sizing when a host theme makes tables inline blocks. */\n.qti-selftest table:not([class]) {\n  display: table;\n}\n/* Enlarged radio/checkbox inputs: ~1.4em via width/height, transform-origin top-left keeps layout aligned */\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n  flex-shrink: 0;\n  width: 1.4em;\n  height: 1.4em;\n  cursor: pointer;\n  accent-color: var(--qti-btn-bg, #3a5acd);\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Primary filled button (Check Answer) */\n.qti-btn {\n  background-color: var(--qti-btn-bg, #3a5acd);\n  color: var(--qti-btn-fg, #ffffff);\n  border: none;\n  border-radius: 4px;\n  padding: 8px 20px;\n  font-weight: 600;\n  cursor: pointer;\n}\n.qti-btn:hover {\n  filter: brightness(1.1);\n}\n/* Disabled state: muted appearance after a correct answer (disabled attribute set by JS) */\n.qti-btn:disabled,\n.qti-btn[disabled] {\n  background-color: var(--qti-btn-disabled-bg, #aaaaaa);\n  color: var(--qti-btn-disabled-fg, #eeeeee);\n  opacity: 0.55;\n  cursor: not-allowed;\n  filter: none;\n}\n/* Secondary ghost button (Clear / Reset) */\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, transparent);\n  color: var(--qti-btn-reset-fg, #555555);\n  border: 1px solid var(--qti-btn-reset-border, #999999);\n  border-radius: 4px;\n  padding: 7px 20px;\n  cursor: pointer;\n}\n.qti-btn-reset:hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Text input styling */\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, #111111);\n  border: 1px solid var(--qti-input-border, #999999);\n  border-radius: 4px;\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n/* Responsive images: prevent RDKit/structure canvases from overflowing on mobile */\n.qti-selftest canvas,\n.qti-selftest img {\n  max-width: 100%;\n  height: auto;\n}\n/* Feedback pill: neutral base state (empty placeholder, invisible until JS sets content) */\n.qti-feedback-result {\n  display: inline-block;\n  min-height: 1.5em;\n  margin: 8px 0 8px 0;\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  vertical-align: middle;\n}\n/* Success pill */\n.qti-feedback-success {\n  display: inline-block;\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Error pill */\n.qti-feedback-error {\n  display: inline-block;\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Non-color accessibility markers (ASCII, no impact on textContent) */\n.qti-feedback-success::before { content: \"[+] \"; }\n.qti-feedback-error::before { content: \"[x] \"; }\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #4a6ee0;\n    --qti-btn-fg: #ffffff;\n    --qti-btn-disabled-bg: #555555;\n    --qti-btn-disabled-fg: #aaaaaa;\n    --qti-btn-reset-bg: transparent;\n    --qti-btn-reset-fg: #c0c0c0;\n    --qti-btn-reset-border: #777777;\n    --qti-input-bg: #2a2a2a;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #4a6ee0;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #555555;\n  --qti-btn-disabled-fg: #aaaaaa;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #c0c0c0;\n  --qti-btn-reset-border: #777777;\n  --qti-input-bg: #2a2a2a;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
   <div class="qti-selftest">
-  <div id="question_html_d661_ec94">
-  <div id="statement_text_d661_ec94">
-  <p><b>Two-Sample T-Test Scenario</b><br>Previously, you compared newborn weights at Joe's Hospital of Fried Foods to the national average (7.5 lbs) using a one-sample t-test. Now, Joe faces a challenge from Alex, CEO of Green Veggies Health Center, who believes her babies are just as heavy as Joe's fried-food babies.<br>Joe's Hospital of Fried Foods (n=35) and Green Veggies Health Center (n=38) each recorded the weights of newborns this month. Joe believes his hospital's babies weigh more on average than those from Green Veggies.<br>Use a one tailed two sample t test for H1: &#956;<sub>Joe</sub> &gt; &#956;<sub>Veggies</sub>.<br>Assume unequal variances (Welch's t test).</p>
+  <div id="question_html_5ef5_f303">
+  <div id="statement_text_5ef5_f303">
+  <p><b>Two-Sample T-Test Scenario</b><br>Previously, you compared newborn weights at Joe's Hospital of Fried Foods to the national average (7.5 lbs) using a one-sample t-test. Now, Joe faces a challenge from Alex, CEO of Green Veggies Health Center, who believes her babies are just as heavy as Joe's fried-food babies.<br>Joe's Hospital of Fried Foods (n=31) and Green Veggies Health Center (n=30) each recorded the weights of newborns this month. Joe believes his hospital's babies weigh more on average than those from Green Veggies.<br>Use a one tailed two sample t test for H1: &#956;<sub>Joe</sub> &gt; &#956;<sub>Veggies</sub>.<br>Assume unequal variances (Welch's t test).</p>
   <table style="border-collapse:collapse;"><tr>
   <td style="vertical-align:top; padding-right:20px;">
-  <b>Joe's Hospital (lbs):</b><br><span style="font-family:monospace; background-color:#eee; white-space:pre;">8.1<br>9.5<br>6.9<br>6.1<br>7.0<br>9.8<br>7.8<br>8.8<br>7.2<br>8.2<br>6.5<br>11.5<br>6.6<br>7.3<br>6.8<br>7.8<br>6.6<br>9.5<br>8.6<br>5.4<br>9.0<br>5.5<br>8.1<br>6.8<br>7.0<br>7.7<br>9.2<br>8.7<br>8.2<br>5.0<br>7.2<br>8.7<br>5.2<br>8.4<br>9.8</span>
+  <b>Joe's Hospital (lbs):</b><br><span style="font-family:monospace; background-color:#eee; white-space:pre;">6.3<br>10.2<br>9.2<br>6.9<br>8.7<br>5.5<br>7.4<br>9.1<br>9.7<br>7.7<br>6.2<br>8.6<br>7.5<br>8.9<br>7.1<br>7.3<br>6.1<br>6.5<br>9.7<br>5.7<br>7.2<br>7.2<br>8.6<br>8.1<br>6.4<br>9.7<br>5.6<br>4.5<br>7.4<br>8.1<br>9.2</span>
   </td>
   <td style="vertical-align:top;">
-  <b>Green Veggies (lbs):</b><br><span style="font-family:monospace; background-color:#eee; white-space:pre;">10.5<br>7.1<br>5.9<br>7.7<br>8.5<br>8.5<br>6.9<br>9.0<br>6.7<br>6.2<br>10.4<br>4.6<br>6.7<br>6.9<br>6.6<br>6.8<br>8.6<br>6.9<br>4.0<br>8.5<br>7.4<br>6.8<br>9.8<br>7.9<br>6.1<br>5.8<br>8.5<br>5.5<br>6.3<br>6.3<br>8.0<br>4.0<br>6.0<br>6.9<br>9.0<br>8.0<br>7.7<br>5.9</span>
+  <b>Green Veggies (lbs):</b><br><span style="font-family:monospace; background-color:#eee; white-space:pre;">6.0<br>5.5<br>8.4<br>8.5<br>11.0<br>8.9<br>8.3<br>6.9<br>7.8<br>5.3<br>8.1<br>5.6<br>5.7<br>9.8<br>6.2<br>6.7<br>6.2<br>11.2<br>5.7<br>8.6<br>8.1<br>9.2<br>7.8<br>8.1<br>8.8<br>5.2<br>4.7<br>6.9<br>5.9<br>6.3</span>
   </td>
   </tr></table>
   <p>Compute the p value in Google Sheets using the tutorial: <a href="https://docs.google.com/document/d/1k5UzUlpu-5wCMyWpop0bFlXBgAWivwTwd020Jgo1EIk/edit" target="_blank" rel="noopener">link here</a>.<br>Enter your result as a decimal between 0 and 1 (for example, 0.084, not 8.4%).</p>
   </div>
   <div>
-  <input type="text" class="qti-input" id="num_input_d661_ec94" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Enter a number"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_d661_ec94()">Check Answer</button>
-  <div id="result_d661_ec94" class="qti-feedback-result">&#160;</div>
+  <input type="text" class="qti-input" id="num_input_5ef5_f303" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Enter a number"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_5ef5_f303()">Check Answer</button>
+  <div id="result_5ef5_f303" class="qti-feedback-result">&#160;</div>
   </div>
   <br>
   </div><script>
-  const numAnswer_d661_ec94 = 0.06216814;
-  const numTolerance_d661_ec94 = 0.001;
-  function checkAnswer_d661_ec94() {
-    const inputEl = document.getElementById('num_input_d661_ec94');
+  const numAnswer_5ef5_f303 = 0.27759895;
+  const numTolerance_5ef5_f303 = 0.0028;
+  function checkAnswer_5ef5_f303() {
+    const inputEl = document.getElementById('num_input_5ef5_f303');
     if (!inputEl) { return; }
     const valStr = inputEl.value.trim();
-    const resultDiv = document.getElementById('result_d661_ec94');
-    const checkBtn = document.querySelector("[onclick='checkAnswer_d661_ec94()']");
+    const resultDiv = document.getElementById('result_5ef5_f303');
+    const checkBtn = document.querySelector("[onclick='checkAnswer_5ef5_f303()']");
     if (valStr === '') {
       resultDiv.className = 'qti-feedback-result';
       resultDiv.textContent = 'Please enter a value.';
@@ -3303,8 +3303,8 @@
       resultDiv.textContent = 'Please enter a valid number.';
       return;
     }
-    const lower = numAnswer_d661_ec94 - numTolerance_d661_ec94;
-    const upper = numAnswer_d661_ec94 + numTolerance_d661_ec94;
+    const lower = numAnswer_5ef5_f303 - numTolerance_5ef5_f303;
+    const upper = numAnswer_5ef5_f303 + numTolerance_5ef5_f303;
     const isCorrect = (userVal >= lower && userVal <= upper);
     if (isCorrect) {
       resultDiv.className = 'qti-feedback-result qti-feedback-success';
@@ -3324,10 +3324,10 @@
     }
   }
   document.addEventListener('DOMContentLoaded', function() {
-    const inputEl = document.getElementById('num_input_d661_ec94');
+    const inputEl = document.getElementById('num_input_5ef5_f303');
     if (!inputEl) return;
     inputEl.addEventListener('keydown', function(e) {
-      if (e.key === 'Enter') { e.preventDefault(); checkAnswer_d661_ec94(); }
+      if (e.key === 'Enter') { e.preventDefault(); checkAnswer_5ef5_f303(); }
     });
   });
   </script>
@@ -3365,10 +3365,10 @@
       example problem
     </span>
   </summary>
-  <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n/* Each choice row: min 40px height for comfortable tap targets */\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  margin: 4px 0;\n  padding: 6px 4px;\n  min-height: 40px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 10px;\n  margin: 0;\n  cursor: pointer;\n}\n/* Enlarged radio/checkbox inputs: ~1.4em via width/height, transform-origin top-left keeps layout aligned */\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n  flex-shrink: 0;\n  width: 1.4em;\n  height: 1.4em;\n  cursor: pointer;\n  accent-color: var(--qti-btn-bg, #3a5acd);\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Primary filled button (Check Answer) */\n.qti-btn {\n  background-color: var(--qti-btn-bg, #3a5acd);\n  color: var(--qti-btn-fg, #ffffff);\n  border: none;\n  border-radius: 4px;\n  padding: 8px 20px;\n  font-weight: 600;\n  cursor: pointer;\n}\n.qti-btn:hover {\n  filter: brightness(1.1);\n}\n/* Disabled state: muted appearance after a correct answer (disabled attribute set by JS) */\n.qti-btn:disabled,\n.qti-btn[disabled] {\n  background-color: var(--qti-btn-disabled-bg, #aaaaaa);\n  color: var(--qti-btn-disabled-fg, #eeeeee);\n  opacity: 0.55;\n  cursor: not-allowed;\n  filter: none;\n}\n/* Secondary ghost button (Clear / Reset) */\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, transparent);\n  color: var(--qti-btn-reset-fg, #555555);\n  border: 1px solid var(--qti-btn-reset-border, #999999);\n  border-radius: 4px;\n  padding: 7px 20px;\n  cursor: pointer;\n}\n.qti-btn-reset:hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Text input styling */\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, #111111);\n  border: 1px solid var(--qti-input-border, #999999);\n  border-radius: 4px;\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n/* Responsive images: prevent RDKit/structure canvases from overflowing on mobile */\n.qti-selftest canvas,\n.qti-selftest img {\n  max-width: 100%;\n  height: auto;\n}\n/* Feedback pill: neutral base state (empty placeholder, invisible until JS sets content) */\n.qti-feedback-result {\n  display: inline-block;\n  min-height: 1.5em;\n  margin: 8px 0 8px 0;\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  vertical-align: middle;\n}\n/* Success pill */\n.qti-feedback-success {\n  display: inline-block;\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Error pill */\n.qti-feedback-error {\n  display: inline-block;\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Non-color accessibility markers (ASCII, no impact on textContent) */\n.qti-feedback-success::before { content: \"[+] \"; }\n.qti-feedback-error::before { content: \"[x] \"; }\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #4a6ee0;\n    --qti-btn-fg: #ffffff;\n    --qti-btn-disabled-bg: #555555;\n    --qti-btn-disabled-fg: #aaaaaa;\n    --qti-btn-reset-bg: transparent;\n    --qti-btn-reset-fg: #c0c0c0;\n    --qti-btn-reset-border: #777777;\n    --qti-input-bg: #2a2a2a;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #4a6ee0;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #555555;\n  --qti-btn-disabled-fg: #aaaaaa;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #c0c0c0;\n  --qti-btn-reset-border: #777777;\n  --qti-input-bg: #2a2a2a;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
+  <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n/* Each choice row: min 40px height for comfortable tap targets */\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  margin: 4px 0;\n  padding: 6px 4px;\n  min-height: 40px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: flex;\n  flex: 1;\n  min-width: 0;\n  align-items: center;\n  gap: 10px;\n  margin: 0;\n  cursor: pointer;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label > span:first-child {\n  flex-shrink: 0;\n}\n.qti-selftest .qti-choice-content {\n  flex: 1;\n  min-width: 0;\n  overflow-x: auto;\n}\n/* Preserve cell sizing when a host theme makes tables inline blocks. */\n.qti-selftest table:not([class]) {\n  display: table;\n}\n/* Enlarged radio/checkbox inputs: ~1.4em via width/height, transform-origin top-left keeps layout aligned */\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n  flex-shrink: 0;\n  width: 1.4em;\n  height: 1.4em;\n  cursor: pointer;\n  accent-color: var(--qti-btn-bg, #3a5acd);\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Primary filled button (Check Answer) */\n.qti-btn {\n  background-color: var(--qti-btn-bg, #3a5acd);\n  color: var(--qti-btn-fg, #ffffff);\n  border: none;\n  border-radius: 4px;\n  padding: 8px 20px;\n  font-weight: 600;\n  cursor: pointer;\n}\n.qti-btn:hover {\n  filter: brightness(1.1);\n}\n/* Disabled state: muted appearance after a correct answer (disabled attribute set by JS) */\n.qti-btn:disabled,\n.qti-btn[disabled] {\n  background-color: var(--qti-btn-disabled-bg, #aaaaaa);\n  color: var(--qti-btn-disabled-fg, #eeeeee);\n  opacity: 0.55;\n  cursor: not-allowed;\n  filter: none;\n}\n/* Secondary ghost button (Clear / Reset) */\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, transparent);\n  color: var(--qti-btn-reset-fg, #555555);\n  border: 1px solid var(--qti-btn-reset-border, #999999);\n  border-radius: 4px;\n  padding: 7px 20px;\n  cursor: pointer;\n}\n.qti-btn-reset:hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Text input styling */\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, #111111);\n  border: 1px solid var(--qti-input-border, #999999);\n  border-radius: 4px;\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n/* Responsive images: prevent RDKit/structure canvases from overflowing on mobile */\n.qti-selftest canvas,\n.qti-selftest img {\n  max-width: 100%;\n  height: auto;\n}\n/* Feedback pill: neutral base state (empty placeholder, invisible until JS sets content) */\n.qti-feedback-result {\n  display: inline-block;\n  min-height: 1.5em;\n  margin: 8px 0 8px 0;\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  vertical-align: middle;\n}\n/* Success pill */\n.qti-feedback-success {\n  display: inline-block;\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Error pill */\n.qti-feedback-error {\n  display: inline-block;\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Non-color accessibility markers (ASCII, no impact on textContent) */\n.qti-feedback-success::before { content: \"[+] \"; }\n.qti-feedback-error::before { content: \"[x] \"; }\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #4a6ee0;\n    --qti-btn-fg: #ffffff;\n    --qti-btn-disabled-bg: #555555;\n    --qti-btn-disabled-fg: #aaaaaa;\n    --qti-btn-reset-bg: transparent;\n    --qti-btn-reset-fg: #c0c0c0;\n    --qti-btn-reset-border: #777777;\n    --qti-input-bg: #2a2a2a;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #4a6ee0;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #555555;\n  --qti-btn-disabled-fg: #aaaaaa;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #c0c0c0;\n  --qti-btn-reset-border: #777777;\n  --qti-input-bg: #2a2a2a;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
   <div class="qti-selftest">
-  <div id="question_html_a37e_fbca">
-  <div id="statement_text_a37e_fbca">
+  <div id="question_html_fd80_9447">
+  <div id="statement_text_fd80_9447">
   <p><b>ANOVA of Shannon Diversity: 1994, 2004, 2009, 2014, 2024</b><br>Compare microbial diversity across five years using one way ANOVA.<br>Sample Data Table:<br><em>Copy table rows and use regular paste (Ctrl-V or &#8984;-V) into Google Sheets.</em></p>
   <table border="1" cellpadding="3" style="border-collapse:collapse;">
   <tr>
@@ -3381,59 +3381,59 @@
   </tr>
   <tr>
   <td>Andrews Park</td>
-  <td style="text-align:right;">4.46</td>
-  <td style="text-align:right;">3.74</td>
-  <td style="text-align:right;">3.48</td>
-  <td style="text-align:right;">3.37</td>
-  <td style="text-align:right;">3.84</td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;">4.84</td>
+  <td style="text-align:right;">3.82</td>
+  <td style="text-align:right;">4.14</td>
   </tr>
   <tr>
   <td>Beisner Road Entrance</td>
-  <td style="text-align:right;">4.29</td>
-  <td style="text-align:right;">4.03</td>
-  <td style="text-align:right;">4.18</td>
-  <td style="text-align:right;">4.05</td>
-  <td style="text-align:right;">4.48</td>
+  <td style="text-align:right;">3.66</td>
+  <td style="text-align:right;">3.80</td>
+  <td style="text-align:right;">4.35</td>
+  <td style="text-align:right;">3.80</td>
+  <td style="text-align:right;">4.22</td>
   </tr>
   <tr>
   <td>Boat Launch Area</td>
-  <td style="text-align:right;">4.22</td>
-  <td style="text-align:right;">4.67</td>
-  <td style="text-align:right;">4.01</td>
-  <td style="text-align:right;">4.49</td>
-  <td style="text-align:right;">4.08</td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;">3.71</td>
+  <td style="text-align:right;">3.54</td>
+  <td style="text-align:right;">4.09</td>
+  <td style="text-align:right;">3.42</td>
   </tr>
   <tr>
   <td>Busse Lake</td>
-  <td style="text-align:right;"></td>
-  <td style="text-align:right;">4.89</td>
-  <td style="text-align:right;">4.20</td>
-  <td style="text-align:right;">2.84</td>
-  <td style="text-align:right;">4.16</td>
+  <td style="text-align:right;">5.05</td>
+  <td style="text-align:right;">5.16</td>
+  <td style="text-align:right;">3.90</td>
+  <td style="text-align:right;">4.36</td>
+  <td style="text-align:right;">3.56</td>
   </tr>
   <tr>
   <td>Debra Park</td>
-  <td style="text-align:right;">4.78</td>
+  <td style="text-align:right;">4.73</td>
   <td style="text-align:right;">3.89</td>
   <td style="text-align:right;">4.17</td>
-  <td style="text-align:right;">4.34</td>
-  <td style="text-align:right;">4.00</td>
+  <td style="text-align:right;">4.63</td>
+  <td style="text-align:right;">4.06</td>
   </tr>
   <tr>
   <td>Elk Pasture</td>
   <td style="text-align:right;"></td>
   <td style="text-align:right;"></td>
-  <td style="text-align:right;">4.11</td>
-  <td style="text-align:right;">4.32</td>
-  <td style="text-align:right;">4.39</td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;">3.86</td>
   </tr>
   <tr>
   <td>Forest Central Grove</td>
   <td style="text-align:right;"></td>
-  <td style="text-align:right;">3.96</td>
-  <td style="text-align:right;">3.65</td>
-  <td style="text-align:right;">4.01</td>
-  <td style="text-align:right;">3.91</td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;">4.25</td>
+  <td style="text-align:right;">3.72</td>
   </tr>
   <tr>
   <td>Forest North Grove</td>
@@ -3441,39 +3441,39 @@
   <td style="text-align:right;"></td>
   <td style="text-align:right;"></td>
   <td style="text-align:right;"></td>
-  <td style="text-align:right;">3.61</td>
+  <td style="text-align:right;">3.70</td>
   </tr>
   <tr>
   <td>Forest South Grove</td>
-  <td style="text-align:right;">4.36</td>
+  <td style="text-align:right;">4.39</td>
   <td style="text-align:right;">4.64</td>
-  <td style="text-align:right;">3.93</td>
-  <td style="text-align:right;">4.31</td>
-  <td style="text-align:right;">4.72</td>
+  <td style="text-align:right;">4.33</td>
+  <td style="text-align:right;">3.37</td>
+  <td style="text-align:right;">3.69</td>
   </tr>
   <tr>
   <td>Forest West Grove</td>
-  <td style="text-align:right;">3.62</td>
   <td style="text-align:right;">3.57</td>
-  <td style="text-align:right;">5.14</td>
-  <td style="text-align:right;">4.75</td>
-  <td style="text-align:right;">4.19</td>
+  <td style="text-align:right;">4.04</td>
+  <td style="text-align:right;">3.46</td>
+  <td style="text-align:right;">4.95</td>
+  <td style="text-align:right;">3.27</td>
   </tr>
   <tr>
   <td>Lake Boating Center</td>
   <td style="text-align:right;"></td>
-  <td style="text-align:right;"></td>
-  <td style="text-align:right;"></td>
-  <td style="text-align:right;"></td>
-  <td style="text-align:right;">4.02</td>
+  <td style="text-align:right;">3.91</td>
+  <td style="text-align:right;">3.93</td>
+  <td style="text-align:right;">4.09</td>
+  <td style="text-align:right;">4.53</td>
   </tr>
   <tr>
   <td>Large Event Area</td>
-  <td style="text-align:right;"></td>
-  <td style="text-align:right;"></td>
-  <td style="text-align:right;">4.11</td>
-  <td style="text-align:right;">3.72</td>
-  <td style="text-align:right;">4.30</td>
+  <td style="text-align:right;">3.92</td>
+  <td style="text-align:right;">3.59</td>
+  <td style="text-align:right;">4.40</td>
+  <td style="text-align:right;">3.90</td>
+  <td style="text-align:right;">4.81</td>
   </tr>
   <tr>
   <td>Main Dam</td>
@@ -3481,113 +3481,113 @@
   <td style="text-align:right;"></td>
   <td style="text-align:right;"></td>
   <td style="text-align:right;"></td>
-  <td style="text-align:right;">3.90</td>
+  <td style="text-align:right;">3.97</td>
   </tr>
   <tr>
   <td>Main Pool</td>
-  <td style="text-align:right;"></td>
-  <td style="text-align:right;"></td>
-  <td style="text-align:right;"></td>
-  <td style="text-align:right;"></td>
-  <td style="text-align:right;">4.17</td>
+  <td style="text-align:right;">4.21</td>
+  <td style="text-align:right;">3.91</td>
+  <td style="text-align:right;">4.37</td>
+  <td style="text-align:right;">3.95</td>
+  <td style="text-align:right;">4.37</td>
   </tr>
   <tr>
   <td>Marshall Park</td>
   <td style="text-align:right;"></td>
   <td style="text-align:right;"></td>
-  <td style="text-align:right;">4.39</td>
-  <td style="text-align:right;">3.98</td>
-  <td style="text-align:right;">3.20</td>
+  <td style="text-align:right;">3.81</td>
+  <td style="text-align:right;">3.90</td>
+  <td style="text-align:right;">3.92</td>
   </tr>
   <tr>
   <td>Model Airplane Field</td>
-  <td style="text-align:right;">4.05</td>
-  <td style="text-align:right;">4.05</td>
-  <td style="text-align:right;">3.79</td>
-  <td style="text-align:right;">3.84</td>
-  <td style="text-align:right;">4.51</td>
+  <td style="text-align:right;">4.59</td>
+  <td style="text-align:right;">4.00</td>
+  <td style="text-align:right;">3.73</td>
+  <td style="text-align:right;">3.73</td>
+  <td style="text-align:right;">3.99</td>
   </tr>
   <tr>
   <td>Nature Preserve</td>
   <td style="text-align:right;"></td>
   <td style="text-align:right;"></td>
   <td style="text-align:right;"></td>
-  <td style="text-align:right;">3.84</td>
-  <td style="text-align:right;">4.32</td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;">3.62</td>
   </tr>
   <tr>
   <td>Ned Brown Meadow</td>
   <td style="text-align:right;"></td>
-  <td style="text-align:right;">3.48</td>
-  <td style="text-align:right;">3.80</td>
-  <td style="text-align:right;">4.13</td>
-  <td style="text-align:right;">2.82</td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;">3.74</td>
   </tr>
   <tr>
   <td>North Pool</td>
-  <td style="text-align:right;"></td>
-  <td style="text-align:right;"></td>
-  <td style="text-align:right;">5.91</td>
-  <td style="text-align:right;">3.75</td>
-  <td style="text-align:right;">3.39</td>
+  <td style="text-align:right;">5.18</td>
+  <td style="text-align:right;">4.58</td>
+  <td style="text-align:right;">4.54</td>
+  <td style="text-align:right;">3.55</td>
+  <td style="text-align:right;">4.49</td>
   </tr>
   <tr>
   <td>Osborn Park</td>
   <td style="text-align:right;"></td>
   <td style="text-align:right;"></td>
-  <td style="text-align:right;">3.80</td>
-  <td style="text-align:right;">4.87</td>
-  <td style="text-align:right;">3.79</td>
+  <td style="text-align:right;"></td>
+  <td style="text-align:right;">3.72</td>
+  <td style="text-align:right;">3.82</td>
   </tr>
   <tr>
   <td>Salt Creek Trail</td>
-  <td style="text-align:right;">4.21</td>
-  <td style="text-align:right;">3.39</td>
-  <td style="text-align:right;">4.00</td>
-  <td style="text-align:right;">4.61</td>
-  <td style="text-align:right;">4.60</td>
+  <td style="text-align:right;">4.31</td>
+  <td style="text-align:right;">3.57</td>
+  <td style="text-align:right;">3.53</td>
+  <td style="text-align:right;">4.87</td>
+  <td style="text-align:right;">4.19</td>
   </tr>
   <tr>
   <td>South Pool</td>
-  <td style="text-align:right;">3.80</td>
-  <td style="text-align:right;">4.40</td>
-  <td style="text-align:right;">4.05</td>
-  <td style="text-align:right;">4.33</td>
-  <td style="text-align:right;">3.60</td>
+  <td style="text-align:right;">4.48</td>
+  <td style="text-align:right;">4.76</td>
+  <td style="text-align:right;">3.81</td>
+  <td style="text-align:right;">4.07</td>
+  <td style="text-align:right;">3.74</td>
   </tr>
   <tr>
   <td>Wildlife Refuge</td>
-  <td style="text-align:right;">4.22</td>
+  <td style="text-align:right;">3.52</td>
+  <td style="text-align:right;">4.40</td>
   <td style="text-align:right;">3.92</td>
-  <td style="text-align:right;">3.75</td>
-  <td style="text-align:right;">3.53</td>
-  <td style="text-align:right;">4.00</td>
+  <td style="text-align:right;">3.43</td>
+  <td style="text-align:right;">4.42</td>
   </tr>
   <tr>
   <td>Woodland Meadow</td>
-  <td style="text-align:right;"></td>
-  <td style="text-align:right;"></td>
-  <td style="text-align:right;"></td>
-  <td style="text-align:right;">4.26</td>
-  <td style="text-align:right;">3.20</td>
+  <td style="text-align:right;">4.04</td>
+  <td style="text-align:right;">4.15</td>
+  <td style="text-align:right;">4.93</td>
+  <td style="text-align:right;">4.59</td>
+  <td style="text-align:right;">3.60</td>
   </tr>
   </table>
-  <p>Alternate Copyable Format:<br><em>Copy this text and use <strong>Data &#8594; Split text to columns &#8594; Comma</strong> in Google Sheets.</em><br><span style="font-family: monospace; background-color:#eee;">Sample Location,1994 Shannon Index,2004 Shannon Index,2009 Shannon Index,2014 Shannon Index,2024 Shannon Index<br>Andrews Park,4.46,3.74,3.48,3.37,3.84<br>Beisner Road Entrance,4.29,4.03,4.18,4.05,4.48<br>Boat Launch Area,4.22,4.67,4.01,4.49,4.08<br>Busse Lake,,4.89,4.20,2.84,4.16<br>Debra Park,4.78,3.89,4.17,4.34,4.00<br>Elk Pasture,,,4.11,4.32,4.39<br>Forest Central Grove,,3.96,3.65,4.01,3.91<br>Forest North Grove,,,,,3.61<br>Forest South Grove,4.36,4.64,3.93,4.31,4.72<br>Forest West Grove,3.62,3.57,5.14,4.75,4.19<br>Lake Boating Center,,,,,4.02<br>Large Event Area,,,4.11,3.72,4.30<br>Main Dam,,,,,3.90<br>Main Pool,,,,,4.17<br>Marshall Park,,,4.39,3.98,3.20<br>Model Airplane Field,4.05,4.05,3.79,3.84,4.51<br>Nature Preserve,,,,3.84,4.32<br>Ned Brown Meadow,,3.48,3.80,4.13,2.82<br>North Pool,,,5.91,3.75,3.39<br>Osborn Park,,,3.80,4.87,3.79<br>Salt Creek Trail,4.21,3.39,4.00,4.61,4.60<br>South Pool,3.80,4.40,4.05,4.33,3.60<br>Wildlife Refuge,4.22,3.92,3.75,3.53,4.00<br>Woodland Meadow,,,,4.26,3.20<br></span><br>Enter the ANOVA p value as a decimal between 0 and 1.<br>Workflow: <a href="https://docs.google.com/document/d/1xkWsWENaOLRHUk6MO50anhL4DEbjmK8_xBmj22k3tts/edit" target="_blank" rel="noopener">link here</a>.</p>
+  <p>Alternate Copyable Format:<br><em>Copy this text and use <strong>Data &#8594; Split text to columns &#8594; Comma</strong> in Google Sheets.</em><br><span style="font-family: monospace; background-color:#eee;">Sample Location,1994 Shannon Index,2004 Shannon Index,2009 Shannon Index,2014 Shannon Index,2024 Shannon Index<br>Andrews Park,,,4.84,3.82,4.14<br>Beisner Road Entrance,3.66,3.80,4.35,3.80,4.22<br>Boat Launch Area,,3.71,3.54,4.09,3.42<br>Busse Lake,5.05,5.16,3.90,4.36,3.56<br>Debra Park,4.73,3.89,4.17,4.63,4.06<br>Elk Pasture,,,,,3.86<br>Forest Central Grove,,,,4.25,3.72<br>Forest North Grove,,,,,3.70<br>Forest South Grove,4.39,4.64,4.33,3.37,3.69<br>Forest West Grove,3.57,4.04,3.46,4.95,3.27<br>Lake Boating Center,,3.91,3.93,4.09,4.53<br>Large Event Area,3.92,3.59,4.40,3.90,4.81<br>Main Dam,,,,,3.97<br>Main Pool,4.21,3.91,4.37,3.95,4.37<br>Marshall Park,,,3.81,3.90,3.92<br>Model Airplane Field,4.59,4.00,3.73,3.73,3.99<br>Nature Preserve,,,,,3.62<br>Ned Brown Meadow,,,,,3.74<br>North Pool,5.18,4.58,4.54,3.55,4.49<br>Osborn Park,,,,3.72,3.82<br>Salt Creek Trail,4.31,3.57,3.53,4.87,4.19<br>South Pool,4.48,4.76,3.81,4.07,3.74<br>Wildlife Refuge,3.52,4.40,3.92,3.43,4.42<br>Woodland Meadow,4.04,4.15,4.93,4.59,3.60<br></span><br>Enter the ANOVA p value as a decimal between 0 and 1.<br>Workflow: <a href="https://docs.google.com/document/d/1xkWsWENaOLRHUk6MO50anhL4DEbjmK8_xBmj22k3tts/edit" target="_blank" rel="noopener">link here</a>.</p>
   </div>
   <div>
-  <input type="text" class="qti-input" id="num_input_a37e_fbca" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Enter a number"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_a37e_fbca()">Check Answer</button>
-  <div id="result_a37e_fbca" class="qti-feedback-result">&#160;</div>
+  <input type="text" class="qti-input" id="num_input_fd80_9447" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Enter a number"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_fd80_9447()">Check Answer</button>
+  <div id="result_fd80_9447" class="qti-feedback-result">&#160;</div>
   </div>
   <br>
   </div><script>
-  const numAnswer_a37e_fbca = 0.70294253;
-  const numTolerance_a37e_fbca = 0.007;
-  function checkAnswer_a37e_fbca() {
-    const inputEl = document.getElementById('num_input_a37e_fbca');
+  const numAnswer_fd80_9447 = 0.30843825;
+  const numTolerance_fd80_9447 = 0.0031;
+  function checkAnswer_fd80_9447() {
+    const inputEl = document.getElementById('num_input_fd80_9447');
     if (!inputEl) { return; }
     const valStr = inputEl.value.trim();
-    const resultDiv = document.getElementById('result_a37e_fbca');
-    const checkBtn = document.querySelector("[onclick='checkAnswer_a37e_fbca()']");
+    const resultDiv = document.getElementById('result_fd80_9447');
+    const checkBtn = document.querySelector("[onclick='checkAnswer_fd80_9447()']");
     if (valStr === '') {
       resultDiv.className = 'qti-feedback-result';
       resultDiv.textContent = 'Please enter a value.';
@@ -3599,8 +3599,8 @@
       resultDiv.textContent = 'Please enter a valid number.';
       return;
     }
-    const lower = numAnswer_a37e_fbca - numTolerance_a37e_fbca;
-    const upper = numAnswer_a37e_fbca + numTolerance_a37e_fbca;
+    const lower = numAnswer_fd80_9447 - numTolerance_fd80_9447;
+    const upper = numAnswer_fd80_9447 + numTolerance_fd80_9447;
     const isCorrect = (userVal >= lower && userVal <= upper);
     if (isCorrect) {
       resultDiv.className = 'qti-feedback-result qti-feedback-success';
@@ -3620,10 +3620,10 @@
     }
   }
   document.addEventListener('DOMContentLoaded', function() {
-    const inputEl = document.getElementById('num_input_a37e_fbca');
+    const inputEl = document.getElementById('num_input_fd80_9447');
     if (!inputEl) return;
     inputEl.addEventListener('keydown', function(e) {
-      if (e.key === 'Enter') { e.preventDefault(); checkAnswer_a37e_fbca(); }
+      if (e.key === 'Enter') { e.preventDefault(); checkAnswer_fd80_9447(); }
     });
   });
   </script>
@@ -3661,10 +3661,10 @@
       example problem
     </span>
   </summary>
-  <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n/* Each choice row: min 40px height for comfortable tap targets */\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  margin: 4px 0;\n  padding: 6px 4px;\n  min-height: 40px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 10px;\n  margin: 0;\n  cursor: pointer;\n}\n/* Enlarged radio/checkbox inputs: ~1.4em via width/height, transform-origin top-left keeps layout aligned */\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n  flex-shrink: 0;\n  width: 1.4em;\n  height: 1.4em;\n  cursor: pointer;\n  accent-color: var(--qti-btn-bg, #3a5acd);\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Primary filled button (Check Answer) */\n.qti-btn {\n  background-color: var(--qti-btn-bg, #3a5acd);\n  color: var(--qti-btn-fg, #ffffff);\n  border: none;\n  border-radius: 4px;\n  padding: 8px 20px;\n  font-weight: 600;\n  cursor: pointer;\n}\n.qti-btn:hover {\n  filter: brightness(1.1);\n}\n/* Disabled state: muted appearance after a correct answer (disabled attribute set by JS) */\n.qti-btn:disabled,\n.qti-btn[disabled] {\n  background-color: var(--qti-btn-disabled-bg, #aaaaaa);\n  color: var(--qti-btn-disabled-fg, #eeeeee);\n  opacity: 0.55;\n  cursor: not-allowed;\n  filter: none;\n}\n/* Secondary ghost button (Clear / Reset) */\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, transparent);\n  color: var(--qti-btn-reset-fg, #555555);\n  border: 1px solid var(--qti-btn-reset-border, #999999);\n  border-radius: 4px;\n  padding: 7px 20px;\n  cursor: pointer;\n}\n.qti-btn-reset:hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Text input styling */\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, #111111);\n  border: 1px solid var(--qti-input-border, #999999);\n  border-radius: 4px;\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n/* Responsive images: prevent RDKit/structure canvases from overflowing on mobile */\n.qti-selftest canvas,\n.qti-selftest img {\n  max-width: 100%;\n  height: auto;\n}\n/* Feedback pill: neutral base state (empty placeholder, invisible until JS sets content) */\n.qti-feedback-result {\n  display: inline-block;\n  min-height: 1.5em;\n  margin: 8px 0 8px 0;\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  vertical-align: middle;\n}\n/* Success pill */\n.qti-feedback-success {\n  display: inline-block;\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Error pill */\n.qti-feedback-error {\n  display: inline-block;\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Non-color accessibility markers (ASCII, no impact on textContent) */\n.qti-feedback-success::before { content: \"[+] \"; }\n.qti-feedback-error::before { content: \"[x] \"; }\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #4a6ee0;\n    --qti-btn-fg: #ffffff;\n    --qti-btn-disabled-bg: #555555;\n    --qti-btn-disabled-fg: #aaaaaa;\n    --qti-btn-reset-bg: transparent;\n    --qti-btn-reset-fg: #c0c0c0;\n    --qti-btn-reset-border: #777777;\n    --qti-input-bg: #2a2a2a;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #4a6ee0;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #555555;\n  --qti-btn-disabled-fg: #aaaaaa;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #c0c0c0;\n  --qti-btn-reset-border: #777777;\n  --qti-input-bg: #2a2a2a;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
+  <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n/* Each choice row: min 40px height for comfortable tap targets */\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  margin: 4px 0;\n  padding: 6px 4px;\n  min-height: 40px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: flex;\n  flex: 1;\n  min-width: 0;\n  align-items: center;\n  gap: 10px;\n  margin: 0;\n  cursor: pointer;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label > span:first-child {\n  flex-shrink: 0;\n}\n.qti-selftest .qti-choice-content {\n  flex: 1;\n  min-width: 0;\n  overflow-x: auto;\n}\n/* Preserve cell sizing when a host theme makes tables inline blocks. */\n.qti-selftest table:not([class]) {\n  display: table;\n}\n/* Enlarged radio/checkbox inputs: ~1.4em via width/height, transform-origin top-left keeps layout aligned */\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n  flex-shrink: 0;\n  width: 1.4em;\n  height: 1.4em;\n  cursor: pointer;\n  accent-color: var(--qti-btn-bg, #3a5acd);\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Primary filled button (Check Answer) */\n.qti-btn {\n  background-color: var(--qti-btn-bg, #3a5acd);\n  color: var(--qti-btn-fg, #ffffff);\n  border: none;\n  border-radius: 4px;\n  padding: 8px 20px;\n  font-weight: 600;\n  cursor: pointer;\n}\n.qti-btn:hover {\n  filter: brightness(1.1);\n}\n/* Disabled state: muted appearance after a correct answer (disabled attribute set by JS) */\n.qti-btn:disabled,\n.qti-btn[disabled] {\n  background-color: var(--qti-btn-disabled-bg, #aaaaaa);\n  color: var(--qti-btn-disabled-fg, #eeeeee);\n  opacity: 0.55;\n  cursor: not-allowed;\n  filter: none;\n}\n/* Secondary ghost button (Clear / Reset) */\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, transparent);\n  color: var(--qti-btn-reset-fg, #555555);\n  border: 1px solid var(--qti-btn-reset-border, #999999);\n  border-radius: 4px;\n  padding: 7px 20px;\n  cursor: pointer;\n}\n.qti-btn-reset:hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Text input styling */\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, #111111);\n  border: 1px solid var(--qti-input-border, #999999);\n  border-radius: 4px;\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n/* Responsive images: prevent RDKit/structure canvases from overflowing on mobile */\n.qti-selftest canvas,\n.qti-selftest img {\n  max-width: 100%;\n  height: auto;\n}\n/* Feedback pill: neutral base state (empty placeholder, invisible until JS sets content) */\n.qti-feedback-result {\n  display: inline-block;\n  min-height: 1.5em;\n  margin: 8px 0 8px 0;\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  vertical-align: middle;\n}\n/* Success pill */\n.qti-feedback-success {\n  display: inline-block;\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Error pill */\n.qti-feedback-error {\n  display: inline-block;\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Non-color accessibility markers (ASCII, no impact on textContent) */\n.qti-feedback-success::before { content: \"[+] \"; }\n.qti-feedback-error::before { content: \"[x] \"; }\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #4a6ee0;\n    --qti-btn-fg: #ffffff;\n    --qti-btn-disabled-bg: #555555;\n    --qti-btn-disabled-fg: #aaaaaa;\n    --qti-btn-reset-bg: transparent;\n    --qti-btn-reset-fg: #c0c0c0;\n    --qti-btn-reset-border: #777777;\n    --qti-input-bg: #2a2a2a;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #4a6ee0;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #555555;\n  --qti-btn-disabled-fg: #aaaaaa;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #c0c0c0;\n  --qti-btn-reset-border: #777777;\n  --qti-input-bg: #2a2a2a;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
   <div class="qti-selftest">
-  <div id="question_html_ddcf_9d8d">
-  <div id="statement_text_ddcf_9d8d">
+  <div id="question_html_d4bd_0672">
+  <div id="statement_text_d4bd_0672">
   <p><b>Busse Woods Microbial Diversity vs Benchmark</b></p>
   <p style="color:#004d99;"><b>Z-Test Scenario</b><br>Use a Z test. Population sd is known.<br>Fixed values: mu = 4.00, sigma = 0.60.<br>Alternative H1: diversity is different from the benchmark.<br>Use a two tailed test.<br>Sample Data Table:<br><em>Copy the table rows and use regular paste (Ctrl-V or &#8984;-V) into Google Sheets.</em></p>
   <table border="1" cellpadding="3" style="border-collapse:collapse;">
@@ -3674,93 +3674,69 @@
   </tr>
   <tr>
   <td>Andrews Park</td>
-  <td style="text-align:right;">4.06</td>
+  <td style="text-align:right;">4.18</td>
   </tr>
   <tr>
   <td>Boat Launch Area</td>
-  <td style="text-align:right;">3.86</td>
+  <td style="text-align:right;">4.36</td>
   </tr>
   <tr>
   <td>Busse Lake</td>
-  <td style="text-align:right;">4.19</td>
+  <td style="text-align:right;">4.47</td>
   </tr>
   <tr>
   <td>Debra Park</td>
-  <td style="text-align:right;">2.33</td>
+  <td style="text-align:right;">5.19</td>
   </tr>
   <tr>
   <td>Forest Central Grove</td>
-  <td style="text-align:right;">3.80</td>
+  <td style="text-align:right;">4.36</td>
   </tr>
   <tr>
   <td>Forest North Grove</td>
-  <td style="text-align:right;">4.28</td>
+  <td style="text-align:right;">3.56</td>
+  </tr>
+  <tr>
+  <td>Forest South Grove</td>
+  <td style="text-align:right;">3.73</td>
   </tr>
   <tr>
   <td>Forest West Grove</td>
-  <td style="text-align:right;">4.26</td>
+  <td style="text-align:right;">4.15</td>
   </tr>
   <tr>
   <td>Lake Boating Center</td>
-  <td style="text-align:right;">3.46</td>
-  </tr>
-  <tr>
-  <td>Main Dam</td>
-  <td style="text-align:right;">3.55</td>
+  <td style="text-align:right;">4.53</td>
   </tr>
   <tr>
   <td>Marshall Park</td>
-  <td style="text-align:right;">3.97</td>
+  <td style="text-align:right;">3.47</td>
   </tr>
   <tr>
   <td>Model Airplane Field</td>
-  <td style="text-align:right;">3.21</td>
-  </tr>
-  <tr>
-  <td>Nature Preserve</td>
-  <td style="text-align:right;">4.56</td>
-  </tr>
-  <tr>
-  <td>Ned Brown Meadow</td>
-  <td style="text-align:right;">3.59</td>
-  </tr>
-  <tr>
-  <td>North Pool</td>
-  <td style="text-align:right;">3.93</td>
-  </tr>
-  <tr>
-  <td>Osborn Park</td>
-  <td style="text-align:right;">4.54</td>
-  </tr>
-  <tr>
-  <td>Salt Creek Trail</td>
-  <td style="text-align:right;">3.72</td>
-  </tr>
-  <tr>
-  <td>Wildlife Refuge</td>
-  <td style="text-align:right;">3.45</td>
+  <td style="text-align:right;">3.13</td>
   </tr>
   <tr>
   <td>Woodland Meadow</td>
-  <td style="text-align:right;">2.76</td>
+  <td style="text-align:right;">4.64</td>
   </tr>
   </table>
-  <p>Alternate Copyable Format:<br><em>Copy this text and use <strong>Data &#8594; Split text to columns &#8594; Comma</strong> in Google Sheets.</em><br><span style="font-family: monospace; background-color:#eee;">Sample Location 2024 Shannon Index<br>Andrews Park,4.06<br>Boat Launch Area,3.86<br>Busse Lake,4.19<br>Debra Park,2.33<br>Forest Central Grove,3.80<br>Forest North Grove,4.28<br>Forest West Grove,4.26<br>Lake Boating Center,3.46<br>Main Dam,3.55<br>Marshall Park,3.97<br>Model Airplane Field,3.21<br>Nature Preserve,4.56<br>Ned Brown Meadow,3.59<br>North Pool,3.93<br>Osborn Park,4.54<br>Salt Creek Trail,3.72<br>Wildlife Refuge,3.45<br>Woodland Meadow,2.76<br></span><br>Follow the workflow in the tutorial: <a href="https://docs.google.com/document/d/1mWpCqMxqU0O2G7r1P0JdpMOgKyJie8Qcy4vwvXuBVuk/edit" target="_blank" rel="noopener">link here</a>.<br>Enter the p value as a decimal between 0 and 1.</p>
+  <p>Alternate Copyable Format:<br><em>Copy this text and use <strong>Data &#8594; Split text to columns &#8594; Comma</strong> in Google Sheets.</em><br><span style="font-family: monospace; background-color:#eee;">Sample Location 2024 Shannon Index<br>Andrews Park,4.18<br>Boat Launch Area,4.36<br>Busse Lake,4.47<br>Debra Park,5.19<br>Forest Central Grove,4.36<br>Forest North Grove,3.56<br>Forest South Grove,3.73<br>Forest West Grove,4.15<br>Lake Boating Center,4.53<br>Marshall Park,3.47<br>Model Airplane Field,3.13<br>Woodland Meadow,4.64<br></span><br>Follow the workflow in the tutorial: <a href="https://docs.google.com/document/d/1mWpCqMxqU0O2G7r1P0JdpMOgKyJie8Qcy4vwvXuBVuk/edit" target="_blank" rel="noopener">link here</a>.<br>Enter the p value as a decimal between 0 and 1.</p>
   </div>
   <div>
-  <input type="text" class="qti-input" id="num_input_ddcf_9d8d" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Enter a number"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_ddcf_9d8d()">Check Answer</button>
-  <div id="result_ddcf_9d8d" class="qti-feedback-result">&#160;</div>
+  <input type="text" class="qti-input" id="num_input_d4bd_0672" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Enter a number"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_d4bd_0672()">Check Answer</button>
+  <div id="result_d4bd_0672" class="qti-feedback-result">&#160;</div>
   </div>
   <br>
   </div><script>
-  const numAnswer_ddcf_9d8d = 0.07842303;
-  const numTolerance_ddcf_9d8d = 0.001;
-  function checkAnswer_ddcf_9d8d() {
-    const inputEl = document.getElementById('num_input_ddcf_9d8d');
+  const numAnswer_d4bd_0672 = 0.39444078;
+  const numTolerance_d4bd_0672 = 0.0039;
+  function checkAnswer_d4bd_0672() {
+    const inputEl = document.getElementById('num_input_d4bd_0672');
     if (!inputEl) { return; }
     const valStr = inputEl.value.trim();
-    const resultDiv = document.getElementById('result_ddcf_9d8d');
-    const checkBtn = document.querySelector("[onclick='checkAnswer_ddcf_9d8d()']");
+    const resultDiv = document.getElementById('result_d4bd_0672');
+    const checkBtn = document.querySelector("[onclick='checkAnswer_d4bd_0672()']");
     if (valStr === '') {
       resultDiv.className = 'qti-feedback-result';
       resultDiv.textContent = 'Please enter a value.';
@@ -3772,8 +3748,8 @@
       resultDiv.textContent = 'Please enter a valid number.';
       return;
     }
-    const lower = numAnswer_ddcf_9d8d - numTolerance_ddcf_9d8d;
-    const upper = numAnswer_ddcf_9d8d + numTolerance_ddcf_9d8d;
+    const lower = numAnswer_d4bd_0672 - numTolerance_d4bd_0672;
+    const upper = numAnswer_d4bd_0672 + numTolerance_d4bd_0672;
     const isCorrect = (userVal >= lower && userVal <= upper);
     if (isCorrect) {
       resultDiv.className = 'qti-feedback-result qti-feedback-success';
@@ -3793,10 +3769,10 @@
     }
   }
   document.addEventListener('DOMContentLoaded', function() {
-    const inputEl = document.getElementById('num_input_ddcf_9d8d');
+    const inputEl = document.getElementById('num_input_d4bd_0672');
     if (!inputEl) return;
     inputEl.addEventListener('keydown', function(e) {
-      if (e.key === 'Enter') { e.preventDefault(); checkAnswer_ddcf_9d8d(); }
+      if (e.key === 'Enter') { e.preventDefault(); checkAnswer_d4bd_0672(); }
     });
   });
   </script>
@@ -3834,10 +3810,10 @@
       example problem
     </span>
   </summary>
-  <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n/* Each choice row: min 40px height for comfortable tap targets */\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  margin: 4px 0;\n  padding: 6px 4px;\n  min-height: 40px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 10px;\n  margin: 0;\n  cursor: pointer;\n}\n/* Enlarged radio/checkbox inputs: ~1.4em via width/height, transform-origin top-left keeps layout aligned */\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n  flex-shrink: 0;\n  width: 1.4em;\n  height: 1.4em;\n  cursor: pointer;\n  accent-color: var(--qti-btn-bg, #3a5acd);\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Primary filled button (Check Answer) */\n.qti-btn {\n  background-color: var(--qti-btn-bg, #3a5acd);\n  color: var(--qti-btn-fg, #ffffff);\n  border: none;\n  border-radius: 4px;\n  padding: 8px 20px;\n  font-weight: 600;\n  cursor: pointer;\n}\n.qti-btn:hover {\n  filter: brightness(1.1);\n}\n/* Disabled state: muted appearance after a correct answer (disabled attribute set by JS) */\n.qti-btn:disabled,\n.qti-btn[disabled] {\n  background-color: var(--qti-btn-disabled-bg, #aaaaaa);\n  color: var(--qti-btn-disabled-fg, #eeeeee);\n  opacity: 0.55;\n  cursor: not-allowed;\n  filter: none;\n}\n/* Secondary ghost button (Clear / Reset) */\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, transparent);\n  color: var(--qti-btn-reset-fg, #555555);\n  border: 1px solid var(--qti-btn-reset-border, #999999);\n  border-radius: 4px;\n  padding: 7px 20px;\n  cursor: pointer;\n}\n.qti-btn-reset:hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Text input styling */\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, #111111);\n  border: 1px solid var(--qti-input-border, #999999);\n  border-radius: 4px;\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n/* Responsive images: prevent RDKit/structure canvases from overflowing on mobile */\n.qti-selftest canvas,\n.qti-selftest img {\n  max-width: 100%;\n  height: auto;\n}\n/* Feedback pill: neutral base state (empty placeholder, invisible until JS sets content) */\n.qti-feedback-result {\n  display: inline-block;\n  min-height: 1.5em;\n  margin: 8px 0 8px 0;\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  vertical-align: middle;\n}\n/* Success pill */\n.qti-feedback-success {\n  display: inline-block;\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Error pill */\n.qti-feedback-error {\n  display: inline-block;\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Non-color accessibility markers (ASCII, no impact on textContent) */\n.qti-feedback-success::before { content: \"[+] \"; }\n.qti-feedback-error::before { content: \"[x] \"; }\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #4a6ee0;\n    --qti-btn-fg: #ffffff;\n    --qti-btn-disabled-bg: #555555;\n    --qti-btn-disabled-fg: #aaaaaa;\n    --qti-btn-reset-bg: transparent;\n    --qti-btn-reset-fg: #c0c0c0;\n    --qti-btn-reset-border: #777777;\n    --qti-input-bg: #2a2a2a;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #4a6ee0;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #555555;\n  --qti-btn-disabled-fg: #aaaaaa;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #c0c0c0;\n  --qti-btn-reset-border: #777777;\n  --qti-input-bg: #2a2a2a;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
+  <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n/* Each choice row: min 40px height for comfortable tap targets */\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  margin: 4px 0;\n  padding: 6px 4px;\n  min-height: 40px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: flex;\n  flex: 1;\n  min-width: 0;\n  align-items: center;\n  gap: 10px;\n  margin: 0;\n  cursor: pointer;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label > span:first-child {\n  flex-shrink: 0;\n}\n.qti-selftest .qti-choice-content {\n  flex: 1;\n  min-width: 0;\n  overflow-x: auto;\n}\n/* Preserve cell sizing when a host theme makes tables inline blocks. */\n.qti-selftest table:not([class]) {\n  display: table;\n}\n/* Enlarged radio/checkbox inputs: ~1.4em via width/height, transform-origin top-left keeps layout aligned */\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n  flex-shrink: 0;\n  width: 1.4em;\n  height: 1.4em;\n  cursor: pointer;\n  accent-color: var(--qti-btn-bg, #3a5acd);\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Primary filled button (Check Answer) */\n.qti-btn {\n  background-color: var(--qti-btn-bg, #3a5acd);\n  color: var(--qti-btn-fg, #ffffff);\n  border: none;\n  border-radius: 4px;\n  padding: 8px 20px;\n  font-weight: 600;\n  cursor: pointer;\n}\n.qti-btn:hover {\n  filter: brightness(1.1);\n}\n/* Disabled state: muted appearance after a correct answer (disabled attribute set by JS) */\n.qti-btn:disabled,\n.qti-btn[disabled] {\n  background-color: var(--qti-btn-disabled-bg, #aaaaaa);\n  color: var(--qti-btn-disabled-fg, #eeeeee);\n  opacity: 0.55;\n  cursor: not-allowed;\n  filter: none;\n}\n/* Secondary ghost button (Clear / Reset) */\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, transparent);\n  color: var(--qti-btn-reset-fg, #555555);\n  border: 1px solid var(--qti-btn-reset-border, #999999);\n  border-radius: 4px;\n  padding: 7px 20px;\n  cursor: pointer;\n}\n.qti-btn-reset:hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Text input styling */\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, #111111);\n  border: 1px solid var(--qti-input-border, #999999);\n  border-radius: 4px;\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n/* Responsive images: prevent RDKit/structure canvases from overflowing on mobile */\n.qti-selftest canvas,\n.qti-selftest img {\n  max-width: 100%;\n  height: auto;\n}\n/* Feedback pill: neutral base state (empty placeholder, invisible until JS sets content) */\n.qti-feedback-result {\n  display: inline-block;\n  min-height: 1.5em;\n  margin: 8px 0 8px 0;\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  vertical-align: middle;\n}\n/* Success pill */\n.qti-feedback-success {\n  display: inline-block;\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Error pill */\n.qti-feedback-error {\n  display: inline-block;\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Non-color accessibility markers (ASCII, no impact on textContent) */\n.qti-feedback-success::before { content: \"[+] \"; }\n.qti-feedback-error::before { content: \"[x] \"; }\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #4a6ee0;\n    --qti-btn-fg: #ffffff;\n    --qti-btn-disabled-bg: #555555;\n    --qti-btn-disabled-fg: #aaaaaa;\n    --qti-btn-reset-bg: transparent;\n    --qti-btn-reset-fg: #c0c0c0;\n    --qti-btn-reset-border: #777777;\n    --qti-input-bg: #2a2a2a;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #4a6ee0;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #555555;\n  --qti-btn-disabled-fg: #aaaaaa;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #c0c0c0;\n  --qti-btn-reset-border: #777777;\n  --qti-input-bg: #2a2a2a;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
   <div class="qti-selftest">
-  <div id="question_html_e6f6_04d3">
-  <div id="statement_text_e6f6_04d3">
+  <div id="question_html_1f3c_2ba9">
+  <div id="statement_text_1f3c_2ba9">
   <p><b>F-Test of Variances: 2014 vs 2024</b><br>Use a one tailed F test for H1: variance_2024 &lt; variance_2014.<br>Sample Data Table:<br><em>Copy the table rows and use regular paste (Ctrl-V or &#8984;-V) into Google Sheets.</em></p>
   <table border="1" cellpadding="3" style="border-collapse:collapse;">
   <tr>
@@ -3846,127 +3822,87 @@
   <th style="text-align:center;">2024<br>Shannon<br>Index</th>
   </tr>
   <tr>
-  <td>Andrews Park</td>
-  <td style="text-align:right;">3.50</td>
-  <td style="text-align:right;">4.15</td>
-  </tr>
-  <tr>
   <td>Beisner Road Entrance</td>
-  <td style="text-align:right;">3.86</td>
-  <td style="text-align:right;">3.45</td>
-  </tr>
-  <tr>
-  <td>Boat Launch Area</td>
-  <td style="text-align:right;">3.57</td>
-  <td style="text-align:right;">3.40</td>
-  </tr>
-  <tr>
-  <td>Busse Lake</td>
-  <td style="text-align:right;">3.85</td>
-  <td style="text-align:right;">4.48</td>
-  </tr>
-  <tr>
-  <td>Debra Park</td>
-  <td style="text-align:right;">4.00</td>
-  <td style="text-align:right;">4.09</td>
+  <td style="text-align:right;">4.98</td>
+  <td style="text-align:right;">3.19</td>
   </tr>
   <tr>
   <td>Forest Central Grove</td>
-  <td style="text-align:right;">4.35</td>
-  <td style="text-align:right;">4.01</td>
+  <td style="text-align:right;">3.96</td>
+  <td style="text-align:right;">3.80</td>
   </tr>
   <tr>
   <td>Forest North Grove</td>
-  <td style="text-align:right;">4.29</td>
-  <td style="text-align:right;">3.89</td>
-  </tr>
-  <tr>
-  <td>Forest South Grove</td>
-  <td style="text-align:right;">3.69</td>
-  <td style="text-align:right;">4.23</td>
+  <td style="text-align:right;">4.55</td>
+  <td style="text-align:right;">3.83</td>
   </tr>
   <tr>
   <td>Forest West Grove</td>
-  <td style="text-align:right;">4.16</td>
-  <td style="text-align:right;">3.85</td>
-  </tr>
-  <tr>
-  <td>Lake Boating Center</td>
-  <td style="text-align:right;">4.39</td>
-  <td style="text-align:right;">4.42</td>
-  </tr>
-  <tr>
-  <td>Large Event Area</td>
-  <td style="text-align:right;">4.32</td>
-  <td style="text-align:right;">3.71</td>
+  <td style="text-align:right;">3.64</td>
+  <td style="text-align:right;">4.34</td>
   </tr>
   <tr>
   <td>Main Dam</td>
-  <td style="text-align:right;">5.01</td>
-  <td style="text-align:right;">3.63</td>
-  </tr>
-  <tr>
-  <td>Main Pool</td>
-  <td style="text-align:right;">3.32</td>
-  <td style="text-align:right;">4.58</td>
+  <td style="text-align:right;">4.57</td>
+  <td style="text-align:right;">4.29</td>
   </tr>
   <tr>
   <td>Marshall Park</td>
-  <td style="text-align:right;">4.07</td>
-  <td style="text-align:right;">3.88</td>
+  <td style="text-align:right;">3.47</td>
+  <td style="text-align:right;">4.11</td>
+  </tr>
+  <tr>
+  <td>Model Airplane Field</td>
+  <td style="text-align:right;">3.71</td>
+  <td style="text-align:right;">3.43</td>
   </tr>
   <tr>
   <td>Nature Preserve</td>
-  <td style="text-align:right;">4.31</td>
-  <td style="text-align:right;">3.49</td>
+  <td style="text-align:right;">4.85</td>
+  <td style="text-align:right;">3.92</td>
   </tr>
   <tr>
   <td>Ned Brown Meadow</td>
-  <td style="text-align:right;">3.57</td>
-  <td style="text-align:right;">4.24</td>
+  <td style="text-align:right;">3.66</td>
+  <td style="text-align:right;">4.02</td>
   </tr>
   <tr>
-  <td>Osborn Park</td>
-  <td style="text-align:right;">4.02</td>
-  <td style="text-align:right;">4.15</td>
+  <td>North Pool</td>
+  <td style="text-align:right;">4.09</td>
+  <td style="text-align:right;">3.89</td>
   </tr>
   <tr>
   <td>Salt Creek Trail</td>
-  <td style="text-align:right;">2.93</td>
-  <td style="text-align:right;">4.02</td>
-  </tr>
-  <tr>
-  <td>South Pool</td>
-  <td style="text-align:right;">4.19</td>
-  <td style="text-align:right;">3.45</td>
+  <td style="text-align:right;">4.52</td>
+  <td style="text-align:right;">3.85</td>
   </tr>
   <tr>
   <td>Wildlife Refuge</td>
-  <td style="text-align:right;">4.02</td>
-  <td style="text-align:right;">3.87</td>
+  <td style="text-align:right;">4.33</td>
+  <td style="text-align:right;">4.79</td>
   </tr>
   <tr>
   <td>Woodland Meadow</td>
-  <td style="text-align:right;">4.35</td>
-  <td style="text-align:right;">3.98</td>
+  <td style="text-align:right;">3.62</td>
+  <td style="text-align:right;">3.38</td>
   </tr>
   </table>
-  <p>Alternate Copyable Format:<br><em>Copy this text and use <strong>Data &#8594; Split text to columns &#8594; Comma</strong> in Google Sheets.</em><br><span style="font-family: monospace; background-color:#eee;">Sample Location,2014 Shannon Index,2024 Shannon Index<br>Andrews Park,3.50,4.15<br>Beisner Road Entrance,3.86,3.45<br>Boat Launch Area,3.57,3.40<br>Busse Lake,3.85,4.48<br>Debra Park,4.00,4.09<br>Forest Central Grove,4.35,4.01<br>Forest North Grove,4.29,3.89<br>Forest South Grove,3.69,4.23<br>Forest West Grove,4.16,3.85<br>Lake Boating Center,4.39,4.42<br>Large Event Area,4.32,3.71<br>Main Dam,5.01,3.63<br>Main Pool,3.32,4.58<br>Marshall Park,4.07,3.88<br>Nature Preserve,4.31,3.49<br>Ned Brown Meadow,3.57,4.24<br>Osborn Park,4.02,4.15<br>Salt Creek Trail,2.93,4.02<br>South Pool,4.19,3.45<br>Wildlife Refuge,4.02,3.87<br>Woodland Meadow,4.35,3.98<br></span><br>Enter the p value as a decimal between 0 and 1.<br>Workflow: <a href="https://docs.google.com/document/d/1tQE36lOQ_HJ2LsZdpqBnQl98xdz8G6YE7JRa6c9Mi9o/edit" target="_blank" rel="noopener">link here</a>.</p>
+  <p>Alternate Copyable Format:<br><em>Copy this text and use <strong>Data &#8594; Split text to columns &#8594; Comma</strong> in Google Sheets.</em><br><span style="font-family: monospace; background-color:#eee;">Sample Location,2014 Shannon Index,2024 Shannon Index<br>Beisner Road Entrance,4.98,3.19<br>Forest Central Grove,3.96,3.80<br>Forest North Grove,4.55,3.83<br>Forest West Grove,3.64,4.34<br>Main Dam,4.57,4.29<br>Marshall Park,3.47,4.11<br>Model Airplane Field,3.71,3.43<br>Nature Preserve,4.85,3.92<br>Ned Brown Meadow,3.66,4.02<br>North Pool,4.09,3.89<br>Salt Creek Trail,4.52,3.85<br>Wildlife Refuge,4.33,4.79<br>Woodland Meadow,3.62,3.38<br></span><br>Enter the p value as a decimal between 0 and 1.<br>Workflow: <a href="https://docs.google.com/document/d/1tQE36lOQ_HJ2LsZdpqBnQl98xdz8G6YE7JRa6c9Mi9o/edit" target="_blank" rel="noopener">link here</a>.</p>
   </div>
   <div>
-  <input type="text" class="qti-input" id="num_input_e6f6_04d3" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Enter a number"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_e6f6_04d3()">Check Answer</button>
-  <div id="result_e6f6_04d3" class="qti-feedback-result">&#160;</div>
+  <input type="text" class="qti-input" id="num_input_1f3c_2ba9" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Enter a number"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_1f3c_2ba9()">Check Answer</button>
+  <div id="result_1f3c_2ba9" class="qti-feedback-result">&#160;</div>
   </div>
   <br>
   </div><script>
-  const numAnswer_e6f6_04d3 = 0.11131697;
-  const numTolerance_e6f6_04d3 = 0.0011;
-  function checkAnswer_e6f6_04d3() {
-    const inputEl = document.getElementById('num_input_e6f6_04d3');
+  const numAnswer_1f3c_2ba9 = 0.27185234;
+  const numTolerance_1f3c_2ba9 = 0.0027;
+  function checkAnswer_1f3c_2ba9() {
+    const inputEl = document.getElementById('num_input_1f3c_2ba9');
     if (!inputEl) { return; }
     const valStr = inputEl.value.trim();
-    const resultDiv = document.getElementById('result_e6f6_04d3');
-    const checkBtn = document.querySelector("[onclick='checkAnswer_e6f6_04d3()']");
+    const resultDiv = document.getElementById('result_1f3c_2ba9');
+    const checkBtn = document.querySelector("[onclick='checkAnswer_1f3c_2ba9()']");
     if (valStr === '') {
       resultDiv.className = 'qti-feedback-result';
       resultDiv.textContent = 'Please enter a value.';
@@ -3978,8 +3914,8 @@
       resultDiv.textContent = 'Please enter a valid number.';
       return;
     }
-    const lower = numAnswer_e6f6_04d3 - numTolerance_e6f6_04d3;
-    const upper = numAnswer_e6f6_04d3 + numTolerance_e6f6_04d3;
+    const lower = numAnswer_1f3c_2ba9 - numTolerance_1f3c_2ba9;
+    const upper = numAnswer_1f3c_2ba9 + numTolerance_1f3c_2ba9;
     const isCorrect = (userVal >= lower && userVal <= upper);
     if (isCorrect) {
       resultDiv.className = 'qti-feedback-result qti-feedback-success';
@@ -3999,10 +3935,10 @@
     }
   }
   document.addEventListener('DOMContentLoaded', function() {
-    const inputEl = document.getElementById('num_input_e6f6_04d3');
+    const inputEl = document.getElementById('num_input_1f3c_2ba9');
     if (!inputEl) return;
     inputEl.addEventListener('keydown', function(e) {
-      if (e.key === 'Enter') { e.preventDefault(); checkAnswer_e6f6_04d3(); }
+      if (e.key === 'Enter') { e.preventDefault(); checkAnswer_1f3c_2ba9(); }
     });
   });
   </script>
@@ -4040,10 +3976,10 @@
       example problem
     </span>
   </summary>
-  <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n/* Each choice row: min 40px height for comfortable tap targets */\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  margin: 4px 0;\n  padding: 6px 4px;\n  min-height: 40px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 10px;\n  margin: 0;\n  cursor: pointer;\n}\n/* Enlarged radio/checkbox inputs: ~1.4em via width/height, transform-origin top-left keeps layout aligned */\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n  flex-shrink: 0;\n  width: 1.4em;\n  height: 1.4em;\n  cursor: pointer;\n  accent-color: var(--qti-btn-bg, #3a5acd);\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Primary filled button (Check Answer) */\n.qti-btn {\n  background-color: var(--qti-btn-bg, #3a5acd);\n  color: var(--qti-btn-fg, #ffffff);\n  border: none;\n  border-radius: 4px;\n  padding: 8px 20px;\n  font-weight: 600;\n  cursor: pointer;\n}\n.qti-btn:hover {\n  filter: brightness(1.1);\n}\n/* Disabled state: muted appearance after a correct answer (disabled attribute set by JS) */\n.qti-btn:disabled,\n.qti-btn[disabled] {\n  background-color: var(--qti-btn-disabled-bg, #aaaaaa);\n  color: var(--qti-btn-disabled-fg, #eeeeee);\n  opacity: 0.55;\n  cursor: not-allowed;\n  filter: none;\n}\n/* Secondary ghost button (Clear / Reset) */\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, transparent);\n  color: var(--qti-btn-reset-fg, #555555);\n  border: 1px solid var(--qti-btn-reset-border, #999999);\n  border-radius: 4px;\n  padding: 7px 20px;\n  cursor: pointer;\n}\n.qti-btn-reset:hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Text input styling */\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, #111111);\n  border: 1px solid var(--qti-input-border, #999999);\n  border-radius: 4px;\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n/* Responsive images: prevent RDKit/structure canvases from overflowing on mobile */\n.qti-selftest canvas,\n.qti-selftest img {\n  max-width: 100%;\n  height: auto;\n}\n/* Feedback pill: neutral base state (empty placeholder, invisible until JS sets content) */\n.qti-feedback-result {\n  display: inline-block;\n  min-height: 1.5em;\n  margin: 8px 0 8px 0;\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  vertical-align: middle;\n}\n/* Success pill */\n.qti-feedback-success {\n  display: inline-block;\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Error pill */\n.qti-feedback-error {\n  display: inline-block;\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Non-color accessibility markers (ASCII, no impact on textContent) */\n.qti-feedback-success::before { content: \"[+] \"; }\n.qti-feedback-error::before { content: \"[x] \"; }\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #4a6ee0;\n    --qti-btn-fg: #ffffff;\n    --qti-btn-disabled-bg: #555555;\n    --qti-btn-disabled-fg: #aaaaaa;\n    --qti-btn-reset-bg: transparent;\n    --qti-btn-reset-fg: #c0c0c0;\n    --qti-btn-reset-border: #777777;\n    --qti-input-bg: #2a2a2a;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #4a6ee0;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #555555;\n  --qti-btn-disabled-fg: #aaaaaa;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #c0c0c0;\n  --qti-btn-reset-border: #777777;\n  --qti-input-bg: #2a2a2a;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
+  <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n/* Each choice row: min 40px height for comfortable tap targets */\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  margin: 4px 0;\n  padding: 6px 4px;\n  min-height: 40px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: flex;\n  flex: 1;\n  min-width: 0;\n  align-items: center;\n  gap: 10px;\n  margin: 0;\n  cursor: pointer;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label > span:first-child {\n  flex-shrink: 0;\n}\n.qti-selftest .qti-choice-content {\n  flex: 1;\n  min-width: 0;\n  overflow-x: auto;\n}\n/* Preserve cell sizing when a host theme makes tables inline blocks. */\n.qti-selftest table:not([class]) {\n  display: table;\n}\n/* Enlarged radio/checkbox inputs: ~1.4em via width/height, transform-origin top-left keeps layout aligned */\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n  flex-shrink: 0;\n  width: 1.4em;\n  height: 1.4em;\n  cursor: pointer;\n  accent-color: var(--qti-btn-bg, #3a5acd);\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Primary filled button (Check Answer) */\n.qti-btn {\n  background-color: var(--qti-btn-bg, #3a5acd);\n  color: var(--qti-btn-fg, #ffffff);\n  border: none;\n  border-radius: 4px;\n  padding: 8px 20px;\n  font-weight: 600;\n  cursor: pointer;\n}\n.qti-btn:hover {\n  filter: brightness(1.1);\n}\n/* Disabled state: muted appearance after a correct answer (disabled attribute set by JS) */\n.qti-btn:disabled,\n.qti-btn[disabled] {\n  background-color: var(--qti-btn-disabled-bg, #aaaaaa);\n  color: var(--qti-btn-disabled-fg, #eeeeee);\n  opacity: 0.55;\n  cursor: not-allowed;\n  filter: none;\n}\n/* Secondary ghost button (Clear / Reset) */\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, transparent);\n  color: var(--qti-btn-reset-fg, #555555);\n  border: 1px solid var(--qti-btn-reset-border, #999999);\n  border-radius: 4px;\n  padding: 7px 20px;\n  cursor: pointer;\n}\n.qti-btn-reset:hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Text input styling */\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, #111111);\n  border: 1px solid var(--qti-input-border, #999999);\n  border-radius: 4px;\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n/* Responsive images: prevent RDKit/structure canvases from overflowing on mobile */\n.qti-selftest canvas,\n.qti-selftest img {\n  max-width: 100%;\n  height: auto;\n}\n/* Feedback pill: neutral base state (empty placeholder, invisible until JS sets content) */\n.qti-feedback-result {\n  display: inline-block;\n  min-height: 1.5em;\n  margin: 8px 0 8px 0;\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  vertical-align: middle;\n}\n/* Success pill */\n.qti-feedback-success {\n  display: inline-block;\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Error pill */\n.qti-feedback-error {\n  display: inline-block;\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Non-color accessibility markers (ASCII, no impact on textContent) */\n.qti-feedback-success::before { content: \"[+] \"; }\n.qti-feedback-error::before { content: \"[x] \"; }\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #4a6ee0;\n    --qti-btn-fg: #ffffff;\n    --qti-btn-disabled-bg: #555555;\n    --qti-btn-disabled-fg: #aaaaaa;\n    --qti-btn-reset-bg: transparent;\n    --qti-btn-reset-fg: #c0c0c0;\n    --qti-btn-reset-border: #777777;\n    --qti-input-bg: #2a2a2a;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #4a6ee0;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #555555;\n  --qti-btn-disabled-fg: #aaaaaa;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #c0c0c0;\n  --qti-btn-reset-border: #777777;\n  --qti-input-bg: #2a2a2a;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
   <div class="qti-selftest">
-  <div id="question_html_f90e_ac06">
-  <div id="statement_text_f90e_ac06">
+  <div id="question_html_6f08_9e82">
+  <div id="statement_text_6f08_9e82">
   <p><b>Two-Sample Test of Shannon Diversity: 2014 vs 2024</b><br>Use a one tailed Welch two sample t test for H1: mean_2024 &lt; mean_2014.<br>Assume unequal variances.<br>Sample Data Table:<br><em>Copy the table rows and use regular paste (Ctrl-V or &#8984;-V) into Google Sheets.</em></p>
   <table border="1" cellpadding="3" style="border-collapse:collapse;">
   <tr>
@@ -4053,86 +3989,136 @@
   </tr>
   <tr>
   <td>Andrews Park</td>
-  <td style="text-align:right;">4.75</td>
-  <td style="text-align:right;">2.47</td>
+  <td style="text-align:right;">4.11</td>
+  <td style="text-align:right;">3.75</td>
   </tr>
   <tr>
   <td>Beisner Road Entrance</td>
-  <td style="text-align:right;">4.57</td>
-  <td style="text-align:right;">4.71</td>
+  <td style="text-align:right;">4.34</td>
+  <td style="text-align:right;">5.51</td>
+  </tr>
+  <tr>
+  <td>Boat Launch Area</td>
+  <td style="text-align:right;">4.24</td>
+  <td style="text-align:right;">3.85</td>
   </tr>
   <tr>
   <td>Busse Lake</td>
-  <td style="text-align:right;">3.77</td>
-  <td style="text-align:right;">3.91</td>
+  <td style="text-align:right;">5.06</td>
+  <td style="text-align:right;">3.85</td>
   </tr>
   <tr>
   <td>Debra Park</td>
-  <td style="text-align:right;">4.41</td>
-  <td style="text-align:right;">3.59</td>
+  <td style="text-align:right;">4.07</td>
+  <td style="text-align:right;">4.44</td>
   </tr>
   <tr>
   <td>Elk Pasture</td>
-  <td style="text-align:right;">3.72</td>
-  <td style="text-align:right;">3.72</td>
+  <td style="text-align:right;">4.16</td>
+  <td style="text-align:right;">2.92</td>
   </tr>
   <tr>
   <td>Forest Central Grove</td>
-  <td style="text-align:right;">4.72</td>
-  <td style="text-align:right;">5.22</td>
+  <td style="text-align:right;">4.73</td>
+  <td style="text-align:right;">4.94</td>
+  </tr>
+  <tr>
+  <td>Forest North Grove</td>
+  <td style="text-align:right;">4.44</td>
+  <td style="text-align:right;">3.39</td>
+  </tr>
+  <tr>
+  <td>Forest South Grove</td>
+  <td style="text-align:right;">3.89</td>
+  <td style="text-align:right;">3.78</td>
+  </tr>
+  <tr>
+  <td>Forest West Grove</td>
+  <td style="text-align:right;">4.61</td>
+  <td style="text-align:right;">4.12</td>
   </tr>
   <tr>
   <td>Lake Boating Center</td>
-  <td style="text-align:right;">4.47</td>
-  <td style="text-align:right;">4.45</td>
+  <td style="text-align:right;">4.22</td>
+  <td style="text-align:right;">4.05</td>
   </tr>
   <tr>
-  <td>Large Event Area</td>
-  <td style="text-align:right;">4.08</td>
-  <td style="text-align:right;">3.38</td>
+  <td>Main Dam</td>
+  <td style="text-align:right;">4.15</td>
+  <td style="text-align:right;">3.71</td>
   </tr>
   <tr>
   <td>Main Pool</td>
-  <td style="text-align:right;">5.27</td>
-  <td style="text-align:right;">3.74</td>
+  <td style="text-align:right;">2.88</td>
+  <td style="text-align:right;">2.90</td>
   </tr>
   <tr>
-  <td>Nature Preserve</td>
-  <td style="text-align:right;">4.50</td>
-  <td style="text-align:right;">3.50</td>
+  <td>Marshall Park</td>
+  <td style="text-align:right;">4.10</td>
+  <td style="text-align:right;">4.01</td>
   </tr>
   <tr>
-  <td>Ned Brown Meadow</td>
-  <td style="text-align:right;">3.02</td>
-  <td style="text-align:right;">3.63</td>
-  </tr>
-  <tr>
-  <td>Osborn Park</td>
-  <td style="text-align:right;">4.15</td>
+  <td>Model Airplane Field</td>
+  <td style="text-align:right;">3.73</td>
   <td style="text-align:right;">4.13</td>
   </tr>
   <tr>
+  <td>Nature Preserve</td>
+  <td style="text-align:right;">3.33</td>
+  <td style="text-align:right;">3.37</td>
+  </tr>
+  <tr>
+  <td>Ned Brown Meadow</td>
+  <td style="text-align:right;">3.98</td>
+  <td style="text-align:right;">3.88</td>
+  </tr>
+  <tr>
+  <td>North Pool</td>
+  <td style="text-align:right;">4.56</td>
+  <td style="text-align:right;">4.60</td>
+  </tr>
+  <tr>
+  <td>Osborn Park</td>
+  <td style="text-align:right;">3.21</td>
+  <td style="text-align:right;">4.06</td>
+  </tr>
+  <tr>
+  <td>Salt Creek Trail</td>
+  <td style="text-align:right;">3.66</td>
+  <td style="text-align:right;">4.01</td>
+  </tr>
+  <tr>
   <td>South Pool</td>
-  <td style="text-align:right;">4.02</td>
+  <td style="text-align:right;">4.03</td>
+  <td style="text-align:right;">3.97</td>
+  </tr>
+  <tr>
+  <td>Wildlife Refuge</td>
+  <td style="text-align:right;">4.41</td>
   <td style="text-align:right;">4.15</td>
   </tr>
+  <tr>
+  <td>Woodland Meadow</td>
+  <td style="text-align:right;">4.16</td>
+  <td style="text-align:right;">3.94</td>
+  </tr>
   </table>
-  <p>Alternate Copyable Format:<br><em>Copy this text and use <strong>Data &#8594; Split text to columns &#8594; Comma</strong> in Google Sheets.</em><br><span style="font-family: monospace; background-color:#eee;">Sample Location,2014 Shannon Index,2024 Shannon Index<br>Andrews Park,4.75,2.47<br>Beisner Road Entrance,4.57,4.71<br>Busse Lake,3.77,3.91<br>Debra Park,4.41,3.59<br>Elk Pasture,3.72,3.72<br>Forest Central Grove,4.72,5.22<br>Lake Boating Center,4.47,4.45<br>Large Event Area,4.08,3.38<br>Main Pool,5.27,3.74<br>Nature Preserve,4.50,3.50<br>Ned Brown Meadow,3.02,3.63<br>Osborn Park,4.15,4.13<br>South Pool,4.02,4.15<br></span><br>Compute the p value in Google Sheets using the tutorial: <a href="https://docs.google.com/document/d/1DiSYMwPhs8tmWQMLqQwLGHBssy12o-pYzyUT1qIoXcU/edit" target="_blank" rel="noopener">link here</a>.<br>Enter the p value as a decimal between 0 and 1.</p>
+  <p>Alternate Copyable Format:<br><em>Copy this text and use <strong>Data &#8594; Split text to columns &#8594; Comma</strong> in Google Sheets.</em><br><span style="font-family: monospace; background-color:#eee;">Sample Location,2014 Shannon Index,2024 Shannon Index<br>Andrews Park,4.11,3.75<br>Beisner Road Entrance,4.34,5.51<br>Boat Launch Area,4.24,3.85<br>Busse Lake,5.06,3.85<br>Debra Park,4.07,4.44<br>Elk Pasture,4.16,2.92<br>Forest Central Grove,4.73,4.94<br>Forest North Grove,4.44,3.39<br>Forest South Grove,3.89,3.78<br>Forest West Grove,4.61,4.12<br>Lake Boating Center,4.22,4.05<br>Main Dam,4.15,3.71<br>Main Pool,2.88,2.90<br>Marshall Park,4.10,4.01<br>Model Airplane Field,3.73,4.13<br>Nature Preserve,3.33,3.37<br>Ned Brown Meadow,3.98,3.88<br>North Pool,4.56,4.60<br>Osborn Park,3.21,4.06<br>Salt Creek Trail,3.66,4.01<br>South Pool,4.03,3.97<br>Wildlife Refuge,4.41,4.15<br>Woodland Meadow,4.16,3.94<br></span><br>Compute the p value in Google Sheets using the tutorial: <a href="https://docs.google.com/document/d/1DiSYMwPhs8tmWQMLqQwLGHBssy12o-pYzyUT1qIoXcU/edit" target="_blank" rel="noopener">link here</a>.<br>Enter the p value as a decimal between 0 and 1.</p>
   </div>
   <div>
-  <input type="text" class="qti-input" id="num_input_f90e_ac06" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Enter a number"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_f90e_ac06()">Check Answer</button>
-  <div id="result_f90e_ac06" class="qti-feedback-result">&#160;</div>
+  <input type="text" class="qti-input" id="num_input_6f08_9e82" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Enter a number"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_6f08_9e82()">Check Answer</button>
+  <div id="result_6f08_9e82" class="qti-feedback-result">&#160;</div>
   </div>
   <br>
   </div><script>
-  const numAnswer_f90e_ac06 = 0.07081969;
-  const numTolerance_f90e_ac06 = 0.001;
-  function checkAnswer_f90e_ac06() {
-    const inputEl = document.getElementById('num_input_f90e_ac06');
+  const numAnswer_6f08_9e82 = 0.22658207;
+  const numTolerance_6f08_9e82 = 0.0023;
+  function checkAnswer_6f08_9e82() {
+    const inputEl = document.getElementById('num_input_6f08_9e82');
     if (!inputEl) { return; }
     const valStr = inputEl.value.trim();
-    const resultDiv = document.getElementById('result_f90e_ac06');
-    const checkBtn = document.querySelector("[onclick='checkAnswer_f90e_ac06()']");
+    const resultDiv = document.getElementById('result_6f08_9e82');
+    const checkBtn = document.querySelector("[onclick='checkAnswer_6f08_9e82()']");
     if (valStr === '') {
       resultDiv.className = 'qti-feedback-result';
       resultDiv.textContent = 'Please enter a value.';
@@ -4144,8 +4130,8 @@
       resultDiv.textContent = 'Please enter a valid number.';
       return;
     }
-    const lower = numAnswer_f90e_ac06 - numTolerance_f90e_ac06;
-    const upper = numAnswer_f90e_ac06 + numTolerance_f90e_ac06;
+    const lower = numAnswer_6f08_9e82 - numTolerance_6f08_9e82;
+    const upper = numAnswer_6f08_9e82 + numTolerance_6f08_9e82;
     const isCorrect = (userVal >= lower && userVal <= upper);
     if (isCorrect) {
       resultDiv.className = 'qti-feedback-result qti-feedback-success';
@@ -4165,10 +4151,10 @@
     }
   }
   document.addEventListener('DOMContentLoaded', function() {
-    const inputEl = document.getElementById('num_input_f90e_ac06');
+    const inputEl = document.getElementById('num_input_6f08_9e82');
     if (!inputEl) return;
     inputEl.addEventListener('keydown', function(e) {
-      if (e.key === 'Enter') { e.preventDefault(); checkAnswer_f90e_ac06(); }
+      if (e.key === 'Enter') { e.preventDefault(); checkAnswer_6f08_9e82(); }
     });
   });
   </script>
@@ -4206,24 +4192,24 @@
       example problem
     </span>
   </summary>
-  <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n/* Each choice row: min 40px height for comfortable tap targets */\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  margin: 4px 0;\n  padding: 6px 4px;\n  min-height: 40px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: inline-flex;\n  align-items: center;\n  gap: 10px;\n  margin: 0;\n  cursor: pointer;\n}\n/* Enlarged radio/checkbox inputs: ~1.4em via width/height, transform-origin top-left keeps layout aligned */\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n  flex-shrink: 0;\n  width: 1.4em;\n  height: 1.4em;\n  cursor: pointer;\n  accent-color: var(--qti-btn-bg, #3a5acd);\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Primary filled button (Check Answer) */\n.qti-btn {\n  background-color: var(--qti-btn-bg, #3a5acd);\n  color: var(--qti-btn-fg, #ffffff);\n  border: none;\n  border-radius: 4px;\n  padding: 8px 20px;\n  font-weight: 600;\n  cursor: pointer;\n}\n.qti-btn:hover {\n  filter: brightness(1.1);\n}\n/* Disabled state: muted appearance after a correct answer (disabled attribute set by JS) */\n.qti-btn:disabled,\n.qti-btn[disabled] {\n  background-color: var(--qti-btn-disabled-bg, #aaaaaa);\n  color: var(--qti-btn-disabled-fg, #eeeeee);\n  opacity: 0.55;\n  cursor: not-allowed;\n  filter: none;\n}\n/* Secondary ghost button (Clear / Reset) */\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, transparent);\n  color: var(--qti-btn-reset-fg, #555555);\n  border: 1px solid var(--qti-btn-reset-border, #999999);\n  border-radius: 4px;\n  padding: 7px 20px;\n  cursor: pointer;\n}\n.qti-btn-reset:hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Text input styling */\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, #111111);\n  border: 1px solid var(--qti-input-border, #999999);\n  border-radius: 4px;\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n/* Responsive images: prevent RDKit/structure canvases from overflowing on mobile */\n.qti-selftest canvas,\n.qti-selftest img {\n  max-width: 100%;\n  height: auto;\n}\n/* Feedback pill: neutral base state (empty placeholder, invisible until JS sets content) */\n.qti-feedback-result {\n  display: inline-block;\n  min-height: 1.5em;\n  margin: 8px 0 8px 0;\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  vertical-align: middle;\n}\n/* Success pill */\n.qti-feedback-success {\n  display: inline-block;\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Error pill */\n.qti-feedback-error {\n  display: inline-block;\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Non-color accessibility markers (ASCII, no impact on textContent) */\n.qti-feedback-success::before { content: \"[+] \"; }\n.qti-feedback-error::before { content: \"[x] \"; }\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #4a6ee0;\n    --qti-btn-fg: #ffffff;\n    --qti-btn-disabled-bg: #555555;\n    --qti-btn-disabled-fg: #aaaaaa;\n    --qti-btn-reset-bg: transparent;\n    --qti-btn-reset-fg: #c0c0c0;\n    --qti-btn-reset-border: #777777;\n    --qti-input-bg: #2a2a2a;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #4a6ee0;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #555555;\n  --qti-btn-disabled-fg: #aaaaaa;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #c0c0c0;\n  --qti-btn-reset-border: #777777;\n  --qti-input-bg: #2a2a2a;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
+  <script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n/* Each choice row: min 40px height for comfortable tap targets */\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  margin: 4px 0;\n  padding: 6px 4px;\n  min-height: 40px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: flex;\n  flex: 1;\n  min-width: 0;\n  align-items: center;\n  gap: 10px;\n  margin: 0;\n  cursor: pointer;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label > span:first-child {\n  flex-shrink: 0;\n}\n.qti-selftest .qti-choice-content {\n  flex: 1;\n  min-width: 0;\n  overflow-x: auto;\n}\n/* Preserve cell sizing when a host theme makes tables inline blocks. */\n.qti-selftest table:not([class]) {\n  display: table;\n}\n/* Enlarged radio/checkbox inputs: ~1.4em via width/height, transform-origin top-left keeps layout aligned */\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n  flex-shrink: 0;\n  width: 1.4em;\n  height: 1.4em;\n  cursor: pointer;\n  accent-color: var(--qti-btn-bg, #3a5acd);\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Primary filled button (Check Answer) */\n.qti-btn {\n  background-color: var(--qti-btn-bg, #3a5acd);\n  color: var(--qti-btn-fg, #ffffff);\n  border: none;\n  border-radius: 4px;\n  padding: 8px 20px;\n  font-weight: 600;\n  cursor: pointer;\n}\n.qti-btn:hover {\n  filter: brightness(1.1);\n}\n/* Disabled state: muted appearance after a correct answer (disabled attribute set by JS) */\n.qti-btn:disabled,\n.qti-btn[disabled] {\n  background-color: var(--qti-btn-disabled-bg, #aaaaaa);\n  color: var(--qti-btn-disabled-fg, #eeeeee);\n  opacity: 0.55;\n  cursor: not-allowed;\n  filter: none;\n}\n/* Secondary ghost button (Clear / Reset) */\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, transparent);\n  color: var(--qti-btn-reset-fg, #555555);\n  border: 1px solid var(--qti-btn-reset-border, #999999);\n  border-radius: 4px;\n  padding: 7px 20px;\n  cursor: pointer;\n}\n.qti-btn-reset:hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Text input styling */\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, #111111);\n  border: 1px solid var(--qti-input-border, #999999);\n  border-radius: 4px;\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n/* Responsive images: prevent RDKit/structure canvases from overflowing on mobile */\n.qti-selftest canvas,\n.qti-selftest img {\n  max-width: 100%;\n  height: auto;\n}\n/* Feedback pill: neutral base state (empty placeholder, invisible until JS sets content) */\n.qti-feedback-result {\n  display: inline-block;\n  min-height: 1.5em;\n  margin: 8px 0 8px 0;\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  vertical-align: middle;\n}\n/* Success pill */\n.qti-feedback-success {\n  display: inline-block;\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Error pill */\n.qti-feedback-error {\n  display: inline-block;\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Non-color accessibility markers (ASCII, no impact on textContent) */\n.qti-feedback-success::before { content: \"[+] \"; }\n.qti-feedback-error::before { content: \"[x] \"; }\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #4a6ee0;\n    --qti-btn-fg: #ffffff;\n    --qti-btn-disabled-bg: #555555;\n    --qti-btn-disabled-fg: #aaaaaa;\n    --qti-btn-reset-bg: transparent;\n    --qti-btn-reset-fg: #c0c0c0;\n    --qti-btn-reset-border: #777777;\n    --qti-input-bg: #2a2a2a;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #4a6ee0;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #555555;\n  --qti-btn-disabled-fg: #aaaaaa;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #c0c0c0;\n  --qti-btn-reset-border: #777777;\n  --qti-input-bg: #2a2a2a;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
   <div class="qti-selftest">
-  <div id="question_html_d0cc_622c">
-  <div id="statement_text_d0cc_622c"><p><b>Joe's Hospital of Fried Foods vs National Average</b><br>Use a one tailed Z test for H1: mu_hospital &gt; mu.<br>Fixed population values: &#956; = 7.5 lbs, &#963; = 1.5 lbs.<br>Sample weights (lbs), enter into a single column in Google Sheets:<br><span style="font-family: monospace; background-color:#eee;">8.4<br>7.7<br>8.9<br>7.6<br>8.5<br>9.9<br>7.3<br>6.9<br>7.3<br>8.4<br>9.5<br>8.0<br>5.6<br>6.7<br>6.9<br>6.9<br>8.4<br>9.5<br>7.6<br>7.9<br>6.2<br>8.1<br>10.3<br>5.9<br>6.7<br>9.6</span><br>Compute the one-tailed p-value using the tutorial workflow from last week: <a href="https://docs.google.com/document/d/1ZOLIw-JlNA6Mry1w0t5I5Ffgi7RMiBCSr7VtyNgsdt0/edit" target="_blank" rel="noopener">link here</a>.<br>Enter your result as a decimal between 0 and 1 (for example, 0.084, not 8.4%).</p></div>
+  <div id="question_html_61b2_9113">
+  <div id="statement_text_61b2_9113"><p><b>Joe's Hospital of Fried Foods vs National Average</b><br>Use a one tailed Z test for H1: mu_hospital &gt; mu.<br>Fixed population values: &#956; = 7.5 lbs, &#963; = 1.5 lbs.<br>Sample weights (lbs), enter into a single column in Google Sheets:<br><span style="font-family: monospace; background-color:#eee;">6.8<br>8.8<br>8.1<br>7.8<br>7.8<br>9.0<br>9.4<br>7.3<br>8.2<br>9.8<br>8.1<br>9.9<br>6.7<br>10.2<br>8.4<br>6.3<br>6.8<br>5.7<br>6.2<br>7.3<br>5.5<br>5.9<br>7.7<br>7.9<br>7.9<br>10.0<br>9.1<br>6.7<br>7.6<br>8.1<br>7.1</span><br>Compute the one-tailed p-value using the tutorial workflow from last week: <a href="https://docs.google.com/document/d/1ZOLIw-JlNA6Mry1w0t5I5Ffgi7RMiBCSr7VtyNgsdt0/edit" target="_blank" rel="noopener">link here</a>.<br>Enter your result as a decimal between 0 and 1 (for example, 0.084, not 8.4%).</p></div>
   <div>
-  <input type="text" class="qti-input" id="num_input_d0cc_622c" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Enter a number"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_d0cc_622c()">Check Answer</button>
-  <div id="result_d0cc_622c" class="qti-feedback-result">&#160;</div>
+  <input type="text" class="qti-input" id="num_input_61b2_9113" inputmode="decimal" pattern="[0-9]*[.,]?[0-9]*" placeholder="Enter a number"><button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_61b2_9113()">Check Answer</button>
+  <div id="result_61b2_9113" class="qti-feedback-result">&#160;</div>
   </div>
   <br>
   </div><script>
-  const numAnswer_d0cc_622c = 0.10236011;
-  const numTolerance_d0cc_622c = 0.001;
-  function checkAnswer_d0cc_622c() {
-    const inputEl = document.getElementById('num_input_d0cc_622c');
+  const numAnswer_61b2_9113 = 0.1251803;
+  const numTolerance_61b2_9113 = 0.0013;
+  function checkAnswer_61b2_9113() {
+    const inputEl = document.getElementById('num_input_61b2_9113');
     if (!inputEl) { return; }
     const valStr = inputEl.value.trim();
-    const resultDiv = document.getElementById('result_d0cc_622c');
-    const checkBtn = document.querySelector("[onclick='checkAnswer_d0cc_622c()']");
+    const resultDiv = document.getElementById('result_61b2_9113');
+    const checkBtn = document.querySelector("[onclick='checkAnswer_61b2_9113()']");
     if (valStr === '') {
       resultDiv.className = 'qti-feedback-result';
       resultDiv.textContent = 'Please enter a value.';
@@ -4235,8 +4221,8 @@
       resultDiv.textContent = 'Please enter a valid number.';
       return;
     }
-    const lower = numAnswer_d0cc_622c - numTolerance_d0cc_622c;
-    const upper = numAnswer_d0cc_622c + numTolerance_d0cc_622c;
+    const lower = numAnswer_61b2_9113 - numTolerance_61b2_9113;
+    const upper = numAnswer_61b2_9113 + numTolerance_61b2_9113;
     const isCorrect = (userVal >= lower && userVal <= upper);
     if (isCorrect) {
       resultDiv.className = 'qti-feedback-result qti-feedback-success';
@@ -4256,10 +4242,10 @@
     }
   }
   document.addEventListener('DOMContentLoaded', function() {
-    const inputEl = document.getElementById('num_input_d0cc_622c');
+    const inputEl = document.getElementById('num_input_61b2_9113');
     if (!inputEl) return;
     inputEl.addEventListener('keydown', function(e) {
-      if (e.key === 'Enter') { e.preventDefault(); checkAnswer_d0cc_622c(); }
+      if (e.key === 'Enter') { e.preventDefault(); checkAnswer_61b2_9113(); }
     });
   });
   </script>
