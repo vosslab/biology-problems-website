@@ -2,6 +2,11 @@
 
 ## 2026-09-29
 
+### Behavior or Interface Changes
+
+- Add a prominent All Questions sitemap link near the top of the home page.
+  Confirm the existing All Questions entry in the left navigation links to the same page.
+
 ### Fixes and Maintenance
 
 - Remove Git operations from the site build except repository-root discovery.

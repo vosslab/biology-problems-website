@@ -2,6 +2,9 @@
 
 *Biology Problems* is a resource hub for **professors and educators** to access free and open problem sets for Biochemistry, Genetics, and more.
 
+**[Browse All Questions](sitemap.md)** in the sitemap, organized by subject and topic with
+question-type labels for each problem set.
+
 ## **Daily Puzzles**
 Daily puzzles designed to strengthen biology knowledge.
 
