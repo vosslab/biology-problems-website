@@ -33,6 +33,10 @@ jobs:
             mkdocs-material \
             mkdocs-include-markdown-plugin
 
+      - name: Check Question Finder dependency freshness
+        continue-on-error: true
+        run: python devel/site_maint.py check-finder-dependencies
+
       - name: Build site
         run: mkdocs build
 
