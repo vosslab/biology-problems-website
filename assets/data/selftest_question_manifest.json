@@ -2351,30 +2351,30 @@
       "topicTitle": "Bioethics in Biotechnology"
     },
     {
-      "crc": "ce62_ec33",
+      "crc": "ce62_5dba",
       "pagePath": "genetics/topic01/index.md",
       "questionFingerprint": "1ce180d9d3571447",
-      "questionId": "ce62_ec33",
+      "questionId": "ce62_5dba",
       "selftestPath": "genetics/topic01/downloads/selftest-MATCH-genetic_disorders.html",
       "subjectKey": "genetics",
       "topicKey": "topic01",
       "topicTitle": "Genetic Disorders"
     },
     {
-      "crc": "153a_3737",
+      "crc": "35e7_fa80",
       "pagePath": "genetics/topic01/index.md",
-      "questionFingerprint": "e733026ee0654d4a",
-      "questionId": "153a_3737",
+      "questionFingerprint": "7b5eead812ea800b",
+      "questionId": "35e7_fa80",
       "selftestPath": "genetics/topic01/downloads/selftest-WOMC-genetic_disorders.html",
       "subjectKey": "genetics",
       "topicKey": "topic01",
       "topicTitle": "Genetic Disorders"
     },
     {
-      "crc": "b1b5_c6d8",
+      "crc": "7dc4_a657",
       "pagePath": "genetics/topic01/index.md",
-      "questionFingerprint": "32e4b3de94f4bd47",
-      "questionId": "b1b5_c6d8",
+      "questionFingerprint": "abb7f3f1dba61142",
+      "questionId": "7dc4_a657",
       "selftestPath": "genetics/topic01/downloads/selftest-beadle_tatum-metabolic_pathway-5_metabolites.html",
       "subjectKey": "genetics",
       "topicKey": "topic01",
