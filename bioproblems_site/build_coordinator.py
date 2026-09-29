@@ -7,6 +7,8 @@ import time
 import bioproblems_site.bbq_workflow as bbq_workflow
 import bioproblems_site.build_stages as build_stages
 import bioproblems_site.metadata as metadata_module
+import bioproblems_site.git_paths as git_paths
+import bioproblems_site.build_timing_log as build_timing_log
 from bioproblems_site.build_contracts import BuildChanges, BuildScope, TaskBuildResult, TopicRef
 from bioproblems_site.build_progress import BuildCancelledError, BuildProgress
 
@@ -20,6 +22,37 @@ class BuildReport:
 	stage_files: dict[str, set[Path]] = field(default_factory=dict)
 	stage_seconds: dict[str, float] = field(default_factory=dict)
 	elapsed_seconds: float = 0.0
+
+
+#============================================
+def build_site_with_timing(scope: BuildScope, progress: BuildProgress) -> BuildReport:
+	"""Run the script workflow with an append-only timing log; dry runs write nothing."""
+	if scope.dry_run:
+		return build_site(scope, progress)
+	log_path = Path(git_paths.get_repo_root()) / "build_timing.jsonl"
+	print(f"Timing log: {log_path.name}")
+	with log_path.open("a", encoding="utf-8") as stream:
+		logger = build_timing_log.BuildTimingLog(stream, scope)
+
+		def observe(event: str, details: dict[str, object]) -> None:
+			logger.observe(event, details)
+			progress.callback(event, details)
+
+		logged_progress = BuildProgress(observe, progress.cancel_event)
+		try:
+			report = build_site(scope, logged_progress)
+		except BaseException as error:
+			cancelled = isinstance(error, (BuildCancelledError, KeyboardInterrupt))
+			logger.write("build_cancelled" if cancelled else "build_failed", {
+				"error_type": type(error).__name__,
+			})
+			raise
+		logger.write("build_completed", {
+			"elapsed_seconds": report.elapsed_seconds,
+			"stage_seconds": report.stage_seconds,
+			"stage_file_counts": {phase: len(paths) for phase, paths in report.stage_files.items()},
+		})
+	return report
 
 
 #============================================
@@ -232,7 +265,11 @@ def build_site(scope: BuildScope, progress: BuildProgress | None = None) -> Buil
 
 	# A full unrestricted or subject build also owns metadata topics without CSV rows.
 	if scope.full and scope.tasks_csv is None and scope.limit is None:
-		for topic_ref in sorted(_full_scope_topics(scope) - processed_topics):
+		extra_topics = sorted(_full_scope_topics(scope) - processed_topics)
+		if progress:
+			for phase in ("selftests", "downloads"):
+				progress.emit("phase_plan", phase=phase, total=row_index + len(extra_topics))
+		for topic_ref in extra_topics:
 			if progress:
 				progress.check_cancelled()
 			topic_sources = set(build_stages.topic_sources(topic_ref))

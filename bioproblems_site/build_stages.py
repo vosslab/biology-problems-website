@@ -99,8 +99,8 @@ def run_selftests(
 		if progress:
 			progress.check_cancelled()
 		if progress:
-			topic_page_module.create_downloadable_format(
-				str(source_path), "selftest", "html", capture_output=True,
+			topic_page_module.create_timed_downloadable_format(
+				str(source_path), "selftest", "html", capture_output=True, progress=progress,
 			)
 		else:
 			topic_page_module.create_downloadable_format(
@@ -283,7 +283,7 @@ def run_subject_indexes(
 	# Reconcile first so indexes, nav, and the manifest see only current task-owned
 	# BBQ sources after a removed CSV row is cleaned up.
 	try:
-		task_owned_patterns = bbq_workflow.load_task_owned_patterns()
+		task_owned_patterns, task_owned_pgml_paths = bbq_workflow.load_task_ownership()
 	except bbq_workflow.TaskOwnershipError as exc:
 		print(f"WARNING: skipping orphan reconciliation because task ownership is uncertain: {exc}")
 		reconciliation = {"strip_includes": []}
@@ -291,6 +291,7 @@ def run_subject_indexes(
 		reconciliation = orphan_prune_module.reconcile_all(
 			str(DEFAULT_SITE_DOCS), scope.dry_run, verbose=True,
 			task_owned_pattern_map=task_owned_patterns,
+			task_owned_pgml_paths=task_owned_pgml_paths,
 		)
 	question_index_path = DEFAULT_SITE_DOCS / "sitemap.md"
 	if progress:

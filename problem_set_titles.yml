@@ -389,8 +389,6 @@ bbq-deletion_mutant_words-04_genes-MC-questions.txt: Gene Order from Deletion Mu
   (4 Genes, Word Labels, MC)
 bbq-deletion_mutant_words-05_genes-MC-questions.txt: Gene Order from Deletion Mutants
   (5 Genes, Word Labels, MC)
-bbq-deletion_mutant_words-06_genes-MC-questions.txt: Gene Order from Deletion Mutants
-  (6 Genes, Word Labels, MC)
 bbq-delta_g_prime_standard_state-questions.txt: Biochemical vs Chemical Standard Free
   Energy States (MC)
 bbq-descriptive_stats_google_sheet-questions.txt: Descriptive Statistics Using Google
@@ -455,13 +453,7 @@ bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4-questions.txt: Phyloge
   Trees from Distance Matrices (6 Taxa, MC)
 bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5-questions.txt: Phylogenetic
   Trees from Distance Matrices (7 Taxa, MC)
-bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level-questions.txt: Non-Equivalent
-  Phylogenetic Tree Structures (Easy, MC)
 bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level-questions.txt: Non-Equivalent
-  Phylogenetic Tree Structures (Medium, MC)
-bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level-questions.txt: Equivalent
-  Phylogenetic Tree Structures (Easy, MC)
-bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level-questions.txt: Equivalent
   Phylogenetic Tree Structures (Medium, MC)
 bbq-gibbs_free_energy_equation_symbols-questions.txt: Gibbs Free Energy Equation Symbols
   and Meanings (Matching)
@@ -498,26 +490,8 @@ bbq-letter_translocation_problem_color-questions.txt: Chromosomal Translocation 
   (Color, MC)
 bbq-linear_digest-len_10-sites_2-fragment-questions.txt: Restriction Fragment Sizes
   from Linear DNA Maps (10 kb, 2 Sites, Fragment Diagram, MA)
-bbq-linear_digest-len_10-sites_3-strand-questions.txt: Restriction Fragment Sizes
-  from Linear DNA Maps (10 kb, 3 Sites, Strand Diagram, MA)
 bbq-linear_digest-len_12-sites_3-fragment-questions.txt: Restriction Fragment Sizes
   from Linear DNA Maps (12 kb, 3 Sites, Fragment Diagram, MA)
-bbq-linear_digest-len_12-sites_3-strand-questions.txt: Restriction Fragment Sizes
-  from Linear DNA Maps (12 kb, 3 Sites, Strand Diagram, MA)
-bbq-linear_digest-len_16-sites_4-fragment-questions.txt: Restriction Fragment Sizes
-  from Linear DNA Maps (16 kb, 4 Sites, Fragment Diagram, MA)
-bbq-linear_digest-len_16-sites_4-strand-questions.txt: Restriction Fragment Sizes
-  from Linear DNA Maps (16 kb, 4 Sites, Strand Diagram, MA)
-bbq-linear_digest-length_10-sites_3-strand-questions.txt: Restriction Fragment Sizes
-  from Linear DNA Maps (10 kb, 3 Sites, Strand Diagram, MA)
-bbq-linear_digest-length_12-sites_2-fragment-questions.txt: Restriction Fragment Sizes
-  from Linear DNA Maps (12 kb, 2 Sites, Fragment Diagram, MA)
-bbq-linear_digest-length_13-sites_3-fragment-questions.txt: Restriction Fragment Sizes
-  from Linear DNA Maps (13 kb, 3 Sites, Fragment Diagram, MA)
-bbq-linear_digest-length_16-sites_4-strand-questions.txt: Restriction Fragment Sizes
-  from Linear DNA Maps (16 kb, 4 Sites, Strand Diagram, MA)
-bbq-linear_digest-length_8-sites_2-fragment-questions.txt: Restriction Fragment Sizes
-  from Linear DNA Maps (8 kb, 2 Sites, Fragment Diagram, MA)
 bbq-match_amino_acid_structures-4_choices-questions.txt: Amino Acids from Chemical
   Structures (4 Choices, Matching)
 bbq-match_purine_structures-3_choices-questions.txt: Purine Names from Chemical Structures
@@ -603,13 +577,14 @@ bbq-punnett_choice-questions.txt: Punnett Squares from Monohybrid Cross Descript
   (MC)
 bbq-quick_fatty_acid_colon_system-questions.txt: Fatty Acid Chain Length and Number
   of Double Bonds (MC)
+bbq-rna_transcribe-FIB-directionless-len_9-questions.txt: mRNA Sequences from DNA
+  Template Strands (9 Bases, Directionless, FiB)
+bbq-rna_transcribe-FIB-prime-len_9-questions.txt: mRNA Sequences from DNA Coding and
+  Template Strands (9 Nucleotides, 5'/3' Labels, FiB)
 bbq-rna_transcribe-MC-prime-len_6-questions.txt: mRNA Sequences from DNA Template
   Strands (6 Nucleotides, 5'/3' Orientation, MC)
-bbq-rna_transcribe_fill_blank-questions.txt: mRNA Sequences from DNA Templates (FiB)
-bbq-rna_transcribe_prime-len_9-questions.txt: mRNA Sequences from DNA Templates (5'
-  and 3' Direction, MC)
-bbq-rna_transcribe_prime_fill_blank-len_9-questions.txt: mRNA Sequences from DNA Templates
-  (5' and 3' Direction, FiB)
+bbq-rna_transcribe-MC-prime-len_9-questions.txt: 'RNA Transcription: mRNA Sequences
+  from DNA Template Strands (9 Nucleotides, 5''/3'' Directions, MC)'
 bbq-robertsonian-questions.txt: Gametes from Robertsonian Translocation (MC)
 bbq-serial_dilution_factor_aliquot_numeric-questions.txt: Aliquot Volumes for Serial
   Dilutions (NUM)
@@ -641,8 +616,6 @@ bbq-thermodynamics_system_laws-questions.txt: First and Second Laws of Thermodyn
   for Different Systems (MC)
 bbq-three-point_test_cross-distances_plus-questions.txt: Gene Order and Map Distances
   from Three-Point Test Crosses (MULTI_FIB)
-bbq-three-point_test_cross-find_interence-MC-6_choices-questions.txt: Interference
-  in Three-Point Test Crosses (6 Choices, MC)
 bbq-three-point_test_cross-find_interence-NUM-questions.txt: Interference in Three-Point
   Test Crosses (NUM)
 bbq-three-point_test_cross-one_gene_distance-MC-questions.txt: Genetic Distance for
@@ -651,10 +624,6 @@ bbq-three-point_test_cross-one_gene_distance-NUM-questions.txt: Genetic Distance
   a Gene Pair from Three-Point Test Crosses (NUM)
 bbq-three-point_test_cross-which_genotypes-DOUBLE-questions.txt: Double-Crossover
   Genotypes in Three-Point Test Crosses (MA)
-bbq-three-point_test_cross-which_genotypes-GENES-questions.txt: Recombinant Genotypes
-  for a Specified Gene Pair in Three-Point Test Crosses (MA)
-bbq-three-point_test_cross-which_genotypes-PARENTAL-questions.txt: Parental Genotype
-  Combinations in a Three-Point Test Cross (MA)
 bbq-titration_pI-questions.txt: Isoelectric Point from pKa Values (MC)
 bbq-translate_genetic_code-10_aa-questions.txt: Peptide Sequences from mRNA Using
   the Genetic Code (10 Amino Acids, FiB)
@@ -670,14 +639,12 @@ bbq-two-point_test_cross-distance-NUM-with_hint-questions.txt: Genetic Distance 
   Two-Point Test Crosses (NUM)
 bbq-two-point_test_cross-which_genotypes-MA-with_hint-PARENTAL-questions.txt: Parental
   Genotype Combinations in a Two-Point Test Cross (MA)
-bbq-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT-questions.txt: Recombinant
-  Genotype Combinations in a Two-Point Test Cross (MA)
-bbq-unique_cross_genotypes-with_hint-6_genes-questions.txt: Unique Offspring Genotypes
-  from Hybrid Crosses (6 Genes, With Hint, MC)
-bbq-unique_cross_phenotypes-with_hint-6_genes-questions.txt: Unique Offspring Phenotypes
-  from Hybrid Crosses (6 Genes, With Hint, MC)
-bbq-unique_gametes-with_hint-7_genes-questions.txt: Unique Gametes from Independent
-  Assortment (7 Genes, With Hint, MC)
+bbq-unique_cross_genotypes-with_hint-4_genes-questions.txt: Unique Offspring Genotypes
+  from Four-Gene Crosses (With Hint, MC)
+bbq-unique_cross_phenotypes-with_hint-4_genes-questions.txt: Unique Offspring Phenotypes
+  from Four-Gene Crosses (Hint, MC)
+bbq-unique_gametes-with_hint-4_genes-questions.txt: 'Independent Assortment: Unique
+  Gamete Counts from Four-Gene Genotypes (Hint, MC)'
 bbq-which_amino_acid-FIB-questions.txt: Amino Acids from Chemical Structures (FiB)
 bbq-which_amino_acid-MC-7_choices-questions.txt: Amino Acids from Chemical Structures
   (7 Choices, MC)
@@ -692,10 +659,6 @@ bbq-who_father_html-HARD-9_males-questions.txt: RFLP Paternity Testing from DNA 
   (Hard, 9 Males, MC)
 bbq-who_father_html-MEDIUM-5_males-questions.txt: RFLP Paternity Testing from DNA
   Gels (Medium, 5 Males, MC)
-bbq-who_killer_html-EASY-4_suspects-questions.txt: RFLP Suspect Identification from
-  DNA Profiles (Easy, 4 Suspects, MC)
-bbq-who_killer_html-HARD-9_suspects-questions.txt: RFLP Suspect Identification from
-  DNA Profiles (Hard, 9 Suspects, MC)
 bbq-who_killer_html-MEDIUM-5_suspects-questions.txt: RFLP Suspect Identification from
   DNA Profiles (Medium, 5 Suspects, MC)
 bbq-wordle_peptides-FIB-questions.txt: Pentapeptide Sequences from Structures (Wordle
@@ -708,4 +671,4 @@ bbq-x_linked_reciprocal_cross-questions.txt: X-linked Eye Color Inheritance (MC)
 bbq-x_linked_tortoiseshell-questions.txt: X-linked Coat Color Probability (MC)
 bbq-z_score_google_sheet-questions.txt: Z-Scores in Google Sheets (MC)
 bbq-z_score_table_interp-questions.txt: Biodiversity Comparisons Using Z-Scores (MC)
-last edit: Mon Sep 28 14:37:48 2026
+last edit: Mon Sep 28 20:55:39 2026

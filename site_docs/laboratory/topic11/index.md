@@ -170,7 +170,7 @@ Students extract DNA, perform initial and nested PCR amplification of the GAPDH 
 ## Protein Molecular Weight from an SDS-PAGE Ladder
 
 <div id="kaleidoscope_ladder_unknown_band-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-kaleidoscope_ladder_unknown_band-questions.txt" download title="Download bbq-kaleidoscope_ladder_unknown_band-questions.txt" aria-label="Click to download the BBQ Text file (bbq-kaleidoscope_ladder_unknown_band-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
@@ -232,39 +232,6 @@ Students extract DNA, perform initial and nested PCR amplification of the GAPDH 
     </span>
   </summary>
   {% include "laboratory/topic11/downloads/selftest-linear_digest-len_12-sites_3-fragment.html" %}
-
-</details>
-
-
-## Restriction Fragment Sizes from Linear DNA Maps (12 kb, 2 Sites, Fragment Diagram)
-
-<div id="linear_digest-length_12-sites_2-fragment-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-linear_digest-length_12-sites_2-fragment-questions.txt" download title="Download bbq-linear_digest-length_12-sites_2-fragment-questions.txt" aria-label="Click to download the BBQ Text file (bbq-linear_digest-length_12-sites_2-fragment-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-linear_digest-length_12-sites_2-fragment.zip" download title="Download blackboard_export_zip-linear_digest-length_12-sites_2-fragment.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-linear_digest-length_12-sites_2-fragment.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-linear_digest-length_12-sites_2-fragment.zip" download title="Download canvas_qti_v1_2-linear_digest-length_12-sites_2-fragment.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-linear_digest-length_12-sites_2-fragment.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-linear_digest-length_12-sites_2-fragment.html', '_blank')" title="View human_readable-linear_digest-length_12-sites_2-fragment.html" aria-label="Click to view the Human-Readable TXT file (human_readable-linear_digest-length_12-sites_2-fragment.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Fragment Sizes from Linear DNA Maps (12 kb, 2 Sites, Fragment Diagram)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  {% include "laboratory/topic11/downloads/selftest-linear_digest-length_12-sites_2-fragment.html" %}
 
 </details>
 
@@ -338,7 +305,7 @@ Students extract DNA, perform initial and nested PCR amplification of the GAPDH 
 ## Protein Molecular Weight from SDS-PAGE Migration
 
 <div id="protein_gel_migration-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
 <a class="md-button custom-button bb_text" href="bbq-protein_gel_migration-questions.txt" download title="Download bbq-protein_gel_migration-questions.txt" aria-label="Click to download the BBQ Text file (bbq-protein_gel_migration-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>

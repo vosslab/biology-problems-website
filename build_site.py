@@ -4,9 +4,11 @@
 import argparse
 from pathlib import Path
 import sys
+import threading
 
 import bioproblems_site.build_contracts as build_contracts
 import bioproblems_site.build_coordinator as build_coordinator
+import bioproblems_site.build_progress as build_progress
 import bioproblems_site.bbq_runner as bbq_runner
 import bioproblems_site.git_paths as git_paths
 import bioproblems_site.llm_helpers as llm_helpers
@@ -205,7 +207,9 @@ def main(arguments: list[str] | None = None) -> int:
 		import bioproblems_site.bbq_tui as bbq_tui
 
 		return bbq_tui.run_app(scope)
-	report = build_coordinator.build_site(scope)
+	timing = build_progress.PlainBuildTiming()
+	progress = build_progress.BuildProgress(timing.observe, threading.Event())
+	report = build_coordinator.build_site_with_timing(scope, progress)
 	for stage_name, stage_seconds in report.stage_seconds.items():
 		stage_files = report.stage_files.get(stage_name, set())
 		stage_duration = bbq_runner.format_elapsed_time(stage_seconds)

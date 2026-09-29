@@ -271,10 +271,10 @@ def _create_optional_download(
 		progress.check_cancelled()
 	try:
 		if capture_output:
-			return create_downloadable_format(
-				bbq_file, prefix, extension, capture_output=True,
+			return create_timed_downloadable_format(
+				bbq_file, prefix, extension, capture_output=True, progress=progress,
 			)
-		return create_downloadable_format(bbq_file, prefix, extension)
+		return create_timed_downloadable_format(bbq_file, prefix, extension, progress=progress)
 	except Exception as error:
 		output_path = get_outfile_name(bbq_file, prefix, extension)
 		if os.path.isfile(output_path):
@@ -284,6 +284,46 @@ def _create_optional_download(
 			COLOR_YELLOW,
 		))
 		return None
+
+
+#==============
+def create_timed_downloadable_format(
+	bbq_file: str,
+	prefix: str,
+	extension: str,
+	capture_output: bool = False,
+	progress: build_progress.BuildProgress | None = None,
+) -> str | None:
+	"""Measure a single export format, including browser rendering and startup."""
+	if progress is None:
+		if capture_output:
+			return create_downloadable_format(bbq_file, prefix, extension, capture_output=True)
+		return create_downloadable_format(bbq_file, prefix, extension)
+	measurements = {
+		"source_file": git_paths.display_path(bbq_file),
+		"format": prefix, "source_bytes": os.path.getsize(bbq_file),
+		"html_to_image": prefix == "blackboard_export_zip" and bbq_has_html_drawings(bbq_file),
+	}
+	progress.emit("artifact_started", **measurements)
+	started_at = time.perf_counter()
+	try:
+		if capture_output:
+			output = create_downloadable_format(bbq_file, prefix, extension, capture_output=True)
+		else:
+			output = create_downloadable_format(bbq_file, prefix, extension)
+	except Exception as error:
+		progress.emit(
+			"artifact_failed", **measurements,
+			duration=time.perf_counter() - started_at, error_type=type(error).__name__,
+		)
+		raise
+	duration = time.perf_counter() - started_at
+	output_bytes = os.path.getsize(output) if output is not None else 0
+	progress.emit(
+		"artifact_completed" if output is not None else "artifact_skipped",
+		**measurements, duration=duration, output_bytes=output_bytes,
+	)
+	return output
 
 
 #==============
@@ -855,7 +895,6 @@ def update_index_md(
 
 		bbq_files.sort()
 		for bbq_file in bbq_files:
-			bbq_file = git_paths.canonicalize_git_path(bbq_file)
 			file_counter["count"] += 1
 			file_progress = ""
 			if total_files:
@@ -1039,7 +1078,6 @@ def regenerate_all_selftests(
 		for bbq_file in bbq_files:
 			# Canonicalize so the path is stable regardless of how glob
 			# returned it (matches update_index_md's handling).
-			bbq_file = git_paths.canonicalize_git_path(bbq_file)
 			file_count += 1
 			# create_downloadable_format preserves the current file until the
 			# replacement passes its converter output checks.

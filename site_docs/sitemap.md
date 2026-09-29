@@ -4,7 +4,7 @@
 
 Browse the generated problem sets by subject and topic. Use your browser's Find command to search all problem-set titles on this page.
 
-**487 problem sets**
+**463 problem sets**
 
 ## Biochemistry
 
@@ -75,8 +75,8 @@ Browse the generated problem sets by subject and topic. Use your browser's Find 
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../biochemistry/topic05/">Protein and Nucleic Acid Gel Electrophoresis Components</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biochemistry/topic05/">Protein Net Charge at a Given pH</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biochemistry/topic05/">Protein Migration Direction in Isoelectric Focusing</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biochemistry/topic05/">Protein Molecular Weight from an SDS-PAGE Ladder</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biochemistry/topic05/">Protein Molecular Weight from SDS-PAGE Migration</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span><a href="../biochemistry/topic05/">Protein Molecular Weight from an SDS-PAGE Ladder</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span><a href="../biochemistry/topic05/">Protein Molecular Weight from SDS-PAGE Migration</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biochemistry/topic05/">Isoelectric Point from pKa Values</a></span>
 
 ### Thermodynamics
@@ -158,9 +158,9 @@ Browse the generated problem sets by subject and topic. Use your browser's Find 
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../biochemistry/topic11/">Purine Names from Chemical Structures (3 Choices)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../biochemistry/topic11/">Pyrimidine Names from Chemical Structures (4 Choices)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../biochemistry/topic11/">Palindromic DNA Sequence Completion</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span><a href="../biochemistry/topic11/">mRNA Sequences from DNA Templates</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biochemistry/topic11/">mRNA Sequences from DNA Templates (5&#x27; and 3&#x27; Direction)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span><a href="../biochemistry/topic11/">mRNA Sequences from DNA Templates (5&#x27; and 3&#x27; Direction)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span><a href="../biochemistry/topic11/">mRNA Sequences from DNA Template Strands (9 Bases, Directionless)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span><a href="../biochemistry/topic11/">mRNA Sequences from DNA Coding and Template Strands (9 Nucleotides, 5&#x27;/3&#x27; Labels)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biochemistry/topic11/">RNA Transcription: mRNA Sequences from DNA Template Strands (9 Nucleotides, 5&#x27;/3&#x27; Directions)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span><a href="../biochemistry/topic11/">Peptide Sequences from mRNA Using the Genetic Code (10 Amino Acids)</a></span>
 
 ### Lipids
@@ -221,15 +221,6 @@ Browse the generated problem sets by subject and topic. Use your browser's Find 
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic02/">Complementary DNA Sequences Without Direction Labels</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic02/">Complementary DNA Sequences with 5&#x27; and 3&#x27; Direction Labels</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../genetics/topic02/">Restriction Fragment Sizes from Linear DNA Maps (10 kb, 2 Sites, Fragment Diagram)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../genetics/topic02/">Restriction Fragment Sizes from Linear DNA Maps (10 kb, 3 Sites, Strand Diagram)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../genetics/topic02/">Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Fragment Diagram)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../genetics/topic02/">Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Strand Diagram)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../genetics/topic02/">Restriction Fragment Sizes from Linear DNA Maps (16 kb, 4 Sites, Fragment Diagram)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../genetics/topic02/">Restriction Fragment Sizes from Linear DNA Maps (16 kb, 4 Sites, Strand Diagram)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../genetics/topic02/">Restriction Fragment Sizes from Linear DNA Maps (10 kb, 3 Sites, Strand Diagram)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../genetics/topic02/">Restriction Fragment Sizes from Linear DNA Maps (13 kb, 3 Sites, Fragment Diagram)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../genetics/topic02/">Restriction Fragment Sizes from Linear DNA Maps (16 kb, 4 Sites, Strand Diagram)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../genetics/topic02/">Restriction Fragment Sizes from Linear DNA Maps (8 kb, 2 Sites, Fragment Diagram)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic02/">Restriction Enzyme Overhang Sequences</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic02/">Restriction Enzyme Cut Types (5&#x27;, 3&#x27;, or Blunt)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic02/">Restriction Enzyme Cut Types (Blunt or Sticky)</a></span>
@@ -243,8 +234,6 @@ Browse the generated problem sets by subject and topic. Use your browser's Find 
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic03/">RFLP Paternity Testing from DNA Gels (Easy, 3 Males)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic03/">RFLP Paternity Testing from DNA Gels (Hard, 9 Males)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic03/">RFLP Paternity Testing from DNA Gels (Medium, 5 Males)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic03/">RFLP Suspect Identification from DNA Profiles (Easy, 4 Suspects)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic03/">RFLP Suspect Identification from DNA Profiles (Hard, 9 Suspects)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic03/">RFLP Suspect Identification from DNA Profiles (Medium, 5 Suspects)</a></span>
 
 ### Mendelian Genetics
@@ -264,9 +253,9 @@ Browse the generated problem sets by subject and topic. Use your browser's Find 
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic04/">Degrees of Dominance from Monohybrid Cross Results</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic04/">Parental Genotype Crosses from Monohybrid Offspring Ratios</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic04/">Punnett Squares from Monohybrid Cross Descriptions</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic04/">Unique Offspring Genotypes from Hybrid Crosses (6 Genes, With Hint)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic04/">Unique Offspring Phenotypes from Hybrid Crosses (6 Genes, With Hint)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic04/">Unique Gametes from Independent Assortment (7 Genes, With Hint)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic04/">Unique Offspring Genotypes from Four-Gene Crosses (With Hint)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic04/">Unique Offspring Phenotypes from Four-Gene Crosses (Hint)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic04/">Independent Assortment: Unique Gamete Counts from Four-Gene Genotypes (Hint)</a></span>
 
 ### Gene Interactions
 
@@ -307,7 +296,6 @@ Browse the generated problem sets by subject and topic. Use your browser's Find 
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic07/">Hypothesis Decisions from Chi-Square Tests</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic07/">Errors in Chi-Square Calculations and Hypothesis Decisions</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic07/">Chi-Square Tests for Hardy-Weinberg Equilibrium</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic07/">Null and Alternative Hypotheses for Genetic Crosses</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic07/">Misstated Null Hypotheses for Genetic Ratios</a></span>
 
 ### Gene Mapping
@@ -318,18 +306,14 @@ Browse the generated problem sets by subject and topic. Use your browser's Find 
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic08/">Genetic Distance from Unordered Two-Gene Tetrads (6 Choices)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic08/">Linkage Tests from Unordered Two-Gene Tetrads</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-multi-fib" title="Multiple Fill in the Blanks">Multi-FiB</abbr></span><a href="../genetics/topic08/">Gene Order and Map Distances from Three-Point Test Crosses</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic08/">Interference in Three-Point Test Crosses (6 Choices)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span><a href="../genetics/topic08/">Interference in Three-Point Test Crosses</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic08/">Genetic Distance for a Gene Pair from Three-Point Test Crosses</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span><a href="../genetics/topic08/">Genetic Distance for a Gene Pair from Three-Point Test Crosses</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../genetics/topic08/">Double-Crossover Genotypes in Three-Point Test Crosses</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../genetics/topic08/">Recombinant Genotypes for a Specified Gene Pair in Three-Point Test Crosses</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../genetics/topic08/">Parental Genotype Combinations in a Three-Point Test Cross</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic08/">Gene Configuration (Cis vs. Trans) in Two-Point Test Crosses</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic08/">Genetic Distance in Two-Point Test Crosses (6 Choices)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span><a href="../genetics/topic08/">Genetic Distance in Two-Point Test Crosses</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../genetics/topic08/">Parental Genotype Combinations in a Two-Point Test Cross</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../genetics/topic08/">Recombinant Genotype Combinations in a Two-Point Test Cross</a></span>
 
 ### Chromosomal Disorders
 
@@ -347,7 +331,6 @@ Browse the generated problem sets by subject and topic. Use your browser's Find 
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic09/">Gene Order from Deletion Mutants (6 Genes, Random Labels)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic09/">Gene Order from Deletion Mutants (4 Genes, Word Labels)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic09/">Gene Order from Deletion Mutants (5 Genes, Word Labels)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic09/">Gene Order from Deletion Mutants (6 Genes, Word Labels)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic09/">Chromosomal Translocation Outcomes (Color)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic09/">Gamete Chromosome Numbers in Polyploids</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic09/">Monoploid and Haploid Numbers from Chromosome Counts</a></span>
@@ -369,10 +352,7 @@ Browse the generated problem sets by subject and topic. Use your browser's Find 
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic11/">Phylogenetic Trees from Distance Matrices (5 Taxa)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic11/">Phylogenetic Trees from Distance Matrices (6 Taxa)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic11/">Phylogenetic Trees from Distance Matrices (7 Taxa)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic11/">Non-Equivalent Phylogenetic Tree Structures (Easy)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic11/">Non-Equivalent Phylogenetic Tree Structures (Medium)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic11/">Equivalent Phylogenetic Tree Structures (Easy)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic11/">Equivalent Phylogenetic Tree Structures (Medium)</a></span>
 
 ## Laboratory
 
@@ -414,12 +394,11 @@ Browse the generated problem sets by subject and topic. Use your browser's Find 
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span><a href="../laboratory/topic11/">DNA Fragment Size from Agarose Gel Migration</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../laboratory/topic11/">Inverse PCR Primer Selection (15 nt)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../laboratory/topic11/">Protein Molecular Weights from SDS-PAGE Band Positions</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../laboratory/topic11/">Protein Molecular Weight from an SDS-PAGE Ladder</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span><a href="../laboratory/topic11/">Protein Molecular Weight from an SDS-PAGE Ladder</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../laboratory/topic11/">Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Fragment Diagram)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../laboratory/topic11/">Restriction Fragment Sizes from Linear DNA Maps (12 kb, 2 Sites, Fragment Diagram)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../laboratory/topic11/">Nested PCR Primer Pair Selection (24 nt)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../laboratory/topic11/">PCR Primer Selection (36 bp Template, 9-nt Primers)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../laboratory/topic11/">Protein Molecular Weight from SDS-PAGE Migration</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span><a href="../laboratory/topic11/">Protein Molecular Weight from SDS-PAGE Migration</a></span>
 
 ### Bioinformatics
 
@@ -450,7 +429,6 @@ Browse the generated problem sets by subject and topic. Use your browser's Find 
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span><a href="../molecular_biology/topic04/">DNA Fragment Size from Agarose Gel Migration</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../molecular_biology/topic04/">Inverse PCR Primer Selection (15 nt)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../molecular_biology/topic04/">Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Fragment Diagram)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../molecular_biology/topic04/">Restriction Fragment Sizes from Linear DNA Maps (12 kb, 2 Sites, Fragment Diagram)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../molecular_biology/topic04/">Nested PCR Primer Pair Selection (24 nt)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../molecular_biology/topic04/">Restriction Enzyme Overhang Sequences</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../molecular_biology/topic04/">Restriction Enzyme Cut Types (5&#x27;, 3&#x27;, or Blunt)</a></span>
@@ -483,9 +461,7 @@ Browse the generated problem sets by subject and topic. Use your browser's Find 
 ### RNA Transcription
 
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../molecular_biology/topic07/">Genes Expressed by Activator Proteins</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span><a href="../molecular_biology/topic07/">mRNA Sequences from DNA Templates</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../molecular_biology/topic07/">mRNA Sequences from DNA Templates (5&#x27; and 3&#x27; Direction)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span><a href="../molecular_biology/topic07/">mRNA Sequences from DNA Templates (5&#x27; and 3&#x27; Direction)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span><a href="../molecular_biology/topic07/">mRNA Sequences from DNA Coding and Template Strands (9 Nucleotides, 5&#x27;/3&#x27; Labels)</a></span>
 
 ### RNA Processing and CRISPR
 

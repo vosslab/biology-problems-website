@@ -1,8 +1,51 @@
 # Changelog
 
+## 2026-09-29
+
+### Fixes and Maintenance
+
+- Remove Git operations from the site build except repository-root discovery.
+  Orphan deletion and quarantine now use the filesystem regardless of staging
+  state. Filesystem cleanup failures are reported for retry while indexing
+  continues. Preserve task-owned PGML companions using the same discovery as
+  generation, even when BBQ filenames include variant suffixes.
+
 ## 2026-09-28
 
 ### Fixes and Maintenance
+
+- Show the download-stage average plus/minus one sample standard deviation in the
+  dashboard after two measured stages, excluding skips. Show stage averages and
+  download spread in seconds with one decimal place for remaining-task calculations.
+
+- Show elapsed/task durations and remaining-time estimates in whole seconds in the
+  CLI and dashboard; show subsecond durations as `<1s`. Keep precise JSONL timings.
+
+- Apply the permanent-test checklist to build timing coverage. Keep pipeline-cost,
+  skip-invariance, log-retention/accounting, and dashboard-result contracts; remove
+  duplicate cached-row, timer-wrapper, terminal-event, and dashboard-wording checks.
+  Remove dashboard column-width, row-order, and total-row assertions. Treat layout
+  captures and live timing-log analysis as one-time implementation evidence.
+
+- Exclude skipped stages and fully cached rows from build estimate timing samples.
+  Count skips as completed work without diluting measured stage costs or overhead.
+
+- Replace current-step details in the build dashboard's upper-left box with
+  average BBQ generation, download, and self-test stage times. Exclude cached
+  skips from these averages and keep estimated finish and time remaining visible.
+
+- Append a dedicated `build_timing.jsonl` log for normal CLI and dashboard builds.
+  Preserve measurements across runs, including start timestamps, total wall time,
+  complete rows, individual stages and export formats, task arguments, counts,
+  estimate snapshots, and terminal outcomes. Report accounted, active, and
+  untracked seconds to expose work outside stage timers; dry runs write no log.
+
+- Estimate remaining build time across generation, self-tests, downloads, topic
+  pages, and final indexing in both CLI and dashboard output. Include completed
+  rows' conversion overhead, estimate after two complete rows (six operations),
+  and reserve full-row costs for final stages until they supply timing samples.
+  Retain finish time and time left during slow conversions. Include indexing and
+  extra full-build topics in progress totals.
 
 - Move answer sizing and diagram row selection into qti-package-maker's shared
   self-test output. Keep only Material table-gutter integration in website CSS;
@@ -44,8 +87,7 @@
   configured by `source_me.sh`.
 - Default `build_site.py` title generation to Codex for CLI and programmatic builds.
   `-b ollama` remains available when the required local model is installed.
-- List every build operation in the TUI, including topic pages and indexes, and show
-  active-step elapsed time when a reliable finish estimate is unavailable.
+- List every build operation in the TUI, including topic pages and indexes.
 - Normalize generated prime marks to ASCII apostrophes so DNA-orientation titles
   pass the title validator and topic-page rendering can finish.
 - Let TUI status cells grow when download counts exceed the initial column width.
@@ -56,6 +98,25 @@
 - Synchronized shared style guides, tests, and repository support files from the starter template.
 
 ### Developer Tests and Notes
+
+- Pass 299 focused timing, dashboard, log, typing, lint, and import checks after
+  reducing the timing/dashboard coverage from ten cases to five durable contracts.
+  Earlier render and live-log checks remain one-time evidence.
+
+- Pass 295 timing, dashboard, log, typing, lint, and import checks after excluding
+  skipped work from estimates; cover skips before and after measured rows.
+
+- Pass 290 timing, dashboard, typing, lint, and import checks after replacing
+  current-step details with averages. Verify the rendered box at 126x34 and 80x24.
+
+- Pass 317 focused build, timing-log, converter, typing, lint, and import checks.
+  Observe the running full rebuild writing real stage and export measurements.
+  Full-suite collection remains blocked while its generated biochemistry index
+  is absent during that rebuild; leave the active build and generated files alone.
+
+- Pass all 5,958 offline tests, including full-pipeline timing and slow-conversion
+  dashboard regressions. Check rendered timing and progress boxes at 126x34 and
+  80x24 terminal sizes, and run a scoped CLI dry run without changing site output.
 
 - Verify one real Blackboard export from a table question contains packaged PNGs
   and no table markup. Keep this browser-backed check as one-time evidence, not

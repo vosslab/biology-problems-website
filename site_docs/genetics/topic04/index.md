@@ -535,20 +535,20 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 </details>
 
 
-## Unique Offspring Genotypes from Hybrid Crosses (6 Genes, With Hint)
+## Unique Offspring Genotypes from Four-Gene Crosses (With Hint)
 
-<div id="unique_cross_genotypes-with_hint-6_genes-button-container" class="button-container">
+<div id="unique_cross_genotypes-with_hint-4_genes-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-unique_cross_genotypes-with_hint-6_genes-questions.txt" download title="Download bbq-unique_cross_genotypes-with_hint-6_genes-questions.txt" aria-label="Click to download the BBQ Text file (bbq-unique_cross_genotypes-with_hint-6_genes-questions.txt)">
+<a class="md-button custom-button bb_text" href="bbq-unique_cross_genotypes-with_hint-4_genes-questions.txt" download title="Download bbq-unique_cross_genotypes-with_hint-4_genes-questions.txt" aria-label="Click to download the BBQ Text file (bbq-unique_cross_genotypes-with_hint-4_genes-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-unique_cross_genotypes-with_hint-6_genes.zip" download title="Download blackboard_export_zip-unique_cross_genotypes-with_hint-6_genes.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-unique_cross_genotypes-with_hint-6_genes.zip)">
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-unique_cross_genotypes-with_hint-4_genes.zip" download title="Download blackboard_export_zip-unique_cross_genotypes-with_hint-4_genes.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-unique_cross_genotypes-with_hint-4_genes.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-unique_cross_genotypes-with_hint-6_genes.zip" download title="Download canvas_qti_v1_2-unique_cross_genotypes-with_hint-6_genes.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-unique_cross_genotypes-with_hint-6_genes.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-unique_cross_genotypes-with_hint-4_genes.zip" download title="Download canvas_qti_v1_2-unique_cross_genotypes-with_hint-4_genes.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-unique_cross_genotypes-with_hint-4_genes.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-unique_cross_genotypes-with_hint-6_genes.html', '_blank')" title="View human_readable-unique_cross_genotypes-with_hint-6_genes.html" aria-label="Click to view the Human-Readable TXT file (human_readable-unique_cross_genotypes-with_hint-6_genes.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-unique_cross_genotypes-with_hint-4_genes.html', '_blank')" title="View human_readable-unique_cross_genotypes-with_hint-4_genes.html" aria-label="Click to view the Human-Readable TXT file (human_readable-unique_cross_genotypes-with_hint-4_genes.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
@@ -557,31 +557,31 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Unique Offspring Genotypes from Hybrid Crosses (6 Genes, With Hint)
+      Unique Offspring Genotypes from Four-Gene Crosses (With Hint)
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "genetics/topic04/downloads/selftest-unique_cross_genotypes-with_hint-6_genes.html" %}
+  {% include "genetics/topic04/downloads/selftest-unique_cross_genotypes-with_hint-4_genes.html" %}
 
 </details>
 
 
-## Unique Offspring Phenotypes from Hybrid Crosses (6 Genes, With Hint)
+## Unique Offspring Phenotypes from Four-Gene Crosses (Hint)
 
-<div id="unique_cross_phenotypes-with_hint-6_genes-button-container" class="button-container">
+<div id="unique_cross_phenotypes-with_hint-4_genes-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-unique_cross_phenotypes-with_hint-6_genes-questions.txt" download title="Download bbq-unique_cross_phenotypes-with_hint-6_genes-questions.txt" aria-label="Click to download the BBQ Text file (bbq-unique_cross_phenotypes-with_hint-6_genes-questions.txt)">
+<a class="md-button custom-button bb_text" href="bbq-unique_cross_phenotypes-with_hint-4_genes-questions.txt" download title="Download bbq-unique_cross_phenotypes-with_hint-4_genes-questions.txt" aria-label="Click to download the BBQ Text file (bbq-unique_cross_phenotypes-with_hint-4_genes-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-unique_cross_phenotypes-with_hint-6_genes.zip" download title="Download blackboard_export_zip-unique_cross_phenotypes-with_hint-6_genes.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-unique_cross_phenotypes-with_hint-6_genes.zip)">
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-unique_cross_phenotypes-with_hint-4_genes.zip" download title="Download blackboard_export_zip-unique_cross_phenotypes-with_hint-4_genes.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-unique_cross_phenotypes-with_hint-4_genes.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-unique_cross_phenotypes-with_hint-6_genes.zip" download title="Download canvas_qti_v1_2-unique_cross_phenotypes-with_hint-6_genes.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-unique_cross_phenotypes-with_hint-6_genes.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-unique_cross_phenotypes-with_hint-4_genes.zip" download title="Download canvas_qti_v1_2-unique_cross_phenotypes-with_hint-4_genes.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-unique_cross_phenotypes-with_hint-4_genes.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-unique_cross_phenotypes-with_hint-6_genes.html', '_blank')" title="View human_readable-unique_cross_phenotypes-with_hint-6_genes.html" aria-label="Click to view the Human-Readable TXT file (human_readable-unique_cross_phenotypes-with_hint-6_genes.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-unique_cross_phenotypes-with_hint-4_genes.html', '_blank')" title="View human_readable-unique_cross_phenotypes-with_hint-4_genes.html" aria-label="Click to view the Human-Readable TXT file (human_readable-unique_cross_phenotypes-with_hint-4_genes.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
@@ -590,31 +590,31 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Unique Offspring Phenotypes from Hybrid Crosses (6 Genes, With Hint)
+      Unique Offspring Phenotypes from Four-Gene Crosses (Hint)
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "genetics/topic04/downloads/selftest-unique_cross_phenotypes-with_hint-6_genes.html" %}
+  {% include "genetics/topic04/downloads/selftest-unique_cross_phenotypes-with_hint-4_genes.html" %}
 
 </details>
 
 
-## Unique Gametes from Independent Assortment (7 Genes, With Hint)
+## Independent Assortment: Unique Gamete Counts from Four-Gene Genotypes (Hint)
 
-<div id="unique_gametes-with_hint-7_genes-button-container" class="button-container">
+<div id="unique_gametes-with_hint-4_genes-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-unique_gametes-with_hint-7_genes-questions.txt" download title="Download bbq-unique_gametes-with_hint-7_genes-questions.txt" aria-label="Click to download the BBQ Text file (bbq-unique_gametes-with_hint-7_genes-questions.txt)">
+<a class="md-button custom-button bb_text" href="bbq-unique_gametes-with_hint-4_genes-questions.txt" download title="Download bbq-unique_gametes-with_hint-4_genes-questions.txt" aria-label="Click to download the BBQ Text file (bbq-unique_gametes-with_hint-4_genes-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-unique_gametes-with_hint-7_genes.zip" download title="Download blackboard_export_zip-unique_gametes-with_hint-7_genes.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-unique_gametes-with_hint-7_genes.zip)">
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-unique_gametes-with_hint-4_genes.zip" download title="Download blackboard_export_zip-unique_gametes-with_hint-4_genes.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-unique_gametes-with_hint-4_genes.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-unique_gametes-with_hint-7_genes.zip" download title="Download canvas_qti_v1_2-unique_gametes-with_hint-7_genes.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-unique_gametes-with_hint-7_genes.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-unique_gametes-with_hint-4_genes.zip" download title="Download canvas_qti_v1_2-unique_gametes-with_hint-4_genes.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-unique_gametes-with_hint-4_genes.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-unique_gametes-with_hint-7_genes.html', '_blank')" title="View human_readable-unique_gametes-with_hint-7_genes.html" aria-label="Click to view the Human-Readable TXT file (human_readable-unique_gametes-with_hint-7_genes.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-unique_gametes-with_hint-4_genes.html', '_blank')" title="View human_readable-unique_gametes-with_hint-4_genes.html" aria-label="Click to view the Human-Readable TXT file (human_readable-unique_gametes-with_hint-4_genes.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
@@ -623,13 +623,13 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Unique Gametes from Independent Assortment (7 Genes, With Hint)
+      Independent Assortment: Unique Gamete Counts from Four-Gene Genotypes (Hint)
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "genetics/topic04/downloads/selftest-unique_gametes-with_hint-7_genes.html" %}
+  {% include "genetics/topic04/downloads/selftest-unique_gametes-with_hint-4_genes.html" %}
 
 </details>
 
