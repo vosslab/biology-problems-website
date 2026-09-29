@@ -2,8 +2,8 @@
 
 Covers download detection and pure naming, in-file pruners (index includes
 and title cache), pgml/pg mapping and topic-master quarantine, and the
-dry-run no-op guarantee of reconcile_topic. Git helper integration is
-covered by the E2E test, not here.
+dry-run no-op guarantee of reconcile_topic. Staging independence is covered
+by the E2E test.
 """
 
 # Standard Library
@@ -17,10 +17,55 @@ import pytest
 # local repo modules
 import bioproblems_site.orphan_prune as orphan_prune
 import bioproblems_site.topic_page as topic_page
+import bioproblems_site.bbq_workflow as bbq_workflow
 
 
 #============================================
 # pure_download_basename equivalence with get_outfile_name
+
+
+def test_task_companion_survives_variant_bbq_name(tmp_path: pathlib.Path) -> None:
+	"""A live generator's companion file must survive cleanup of variant outputs."""
+	script = tmp_path / "generator.py"
+	script.touch()
+	(tmp_path / "generator.pgml").write_text("companion source")
+	topic = tmp_path / "topic01"
+	downloads = topic / "downloads"
+	downloads.mkdir(parents=True)
+	companion = downloads / "generator.pgml"
+	companion.write_text("companion source")
+	ghost = downloads / "removed.pgml"
+	ghost.touch()
+	owned = bbq_workflow._task_pgml_files({"script": str(script), "output_dir": str(topic)})
+	plan = orphan_prune.reconcile_topic(str(topic), {"generator-4_choices"}, False,
+		task_owned_pgml_paths={os.path.realpath(path) for path in owned})
+	assert companion.read_text() == "companion source"
+	assert not ghost.exists()
+	assert plan["deferred"] == []
+
+
+def test_failed_removal_keeps_cleaning_other_orphans(
+	tmp_path: pathlib.Path, monkeypatch: pytest.MonkeyPatch,
+) -> None:
+	"""One filesystem failure leaves an actionable report and allows other cleanup."""
+	downloads = tmp_path / "downloads"
+	downloads.mkdir()
+	blocked = downloads / "selftest-blocked.html"
+	removable = downloads / "selftest-removable.html"
+	blocked.touch()
+	removable.touch()
+	remove = os.remove
+
+	def remove_with_blocked_file(path: str) -> None:
+		if path == str(blocked):
+			raise PermissionError("fixture: file is locked")
+		remove(path)
+
+	monkeypatch.setattr(os, "remove", remove_with_blocked_file)
+	plan = orphan_prune.reconcile_topic(str(tmp_path), set(), False)
+	assert blocked.exists()
+	assert not removable.exists()
+	assert plan["deferred"] == [{"path": str(blocked), "reason": "fixture: file is locked"}]
 
 # The 4 download format keys as (prefix, extension) pairs.
 DOWNLOAD_FORMAT_CASES = [

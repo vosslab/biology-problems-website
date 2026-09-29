@@ -4,18 +4,17 @@
 Builds a throwaway git repo with one topic that has a live bbq file, its 4
 generated download artifacts, a downloads/ pgml copy, a TOPIC-LEVEL pgml
 master, an index.md self-test include, and the repository-wide
-problem_set_titles.yml cache. After committing so everything is tracked, the
+problem_set_titles.yml cache. After staging additions, the
 bbq source file is deleted and reconcile is run. The check asserts the locked
 file-class policy end to end:
 
-  - the 4 downloads artifacts AND the downloads pgml copy are git-rm staged
-    (gone from worktree, staged as deletions),
-  - the TOPIC-LEVEL pgml master is git-mv staged to the FLAT orphaned/
-    folder (present there, not deleted),
+  - the 4 downloads artifacts AND the downloads pgml copy leave the worktree,
+  - the TOPIC-LEVEL pgml master moves to the FLAT orphaned/ folder,
+  - the Git index is unchanged, even with staged and unstaged content,
   - the orphan self-test include line is stripped from index.md,
   - the stale key is dropped while a title for another live topic is kept,
   - a second reconcile that would collide with an existing orphaned/<name>
-    raises FileExistsError,
+    reports deferred cleanup and preserves both copies,
   - a dry-run leaves index.md / yml / artifact bytes+mtimes unchanged and
     stages nothing.
 
@@ -136,12 +135,12 @@ def build_repo(repo_root: str) -> dict:
 	)
 	write_file(yaml_path, yaml_text)
 
-	# Initialize git and commit everything so all paths are tracked
+	# Staged additions reproduce the state that previously made git rm fail.
 	run_git(repo_root, "init", "--quiet")
 	run_git(repo_root, "config", "user.email", "e2e@example.com")
 	run_git(repo_root, "config", "user.name", "e2e")
 	run_git(repo_root, "add", "-A")
-	run_git(repo_root, "commit", "--quiet", "-m", "fixture")
+	write_file(downloads_pgml, "DOCUMENT(); unstaged edit\n")
 
 	return {
 		"topic_dir": topic_dir,
@@ -182,7 +181,6 @@ def staged_status(repo_root: str) -> dict:
 def reset_git_caches() -> None:
 	"""Clear git_paths lru_caches so the tmp repo root is rediscovered."""
 	git_paths.get_repo_root.cache_clear()
-	git_paths.get_git_tracked_paths.cache_clear()
 
 
 #============================================
@@ -234,28 +232,29 @@ def check_live_run(repo_root: str, paths: dict) -> None:
 	"""
 	site_docs_dir = os.path.join(repo_root, "site_docs")
 	reset_git_caches()
+	with open(os.path.join(repo_root, ".git", "index"), "rb") as index_file:
+		git_index_before = index_file.read()
 	orphan_prune.reconcile_all(site_docs_dir, dry_run=False, verbose=False)
+	with open(os.path.join(repo_root, ".git", "index"), "rb") as index_file:
+		assert index_file.read() == git_index_before, "cleanup changed staging"
 
 	status = staged_status(repo_root)
 
-	# The 4 download artifacts and the downloads pgml copy are git-rm staged
+	# Deletions happen regardless of staged or unstaged changes.
 	deleted_basenames = list(ARTIFACT_NAMES) + [PGML_NAME]
 	for basename in deleted_basenames:
 		worktree_path = os.path.join(paths["downloads_dir"], basename)
 		assert not os.path.exists(worktree_path), f"{basename} still in worktree"
 		rel = os.path.relpath(worktree_path, repo_root)
-		assert rel in status, f"{rel} not staged"
-		assert status[rel].startswith("D"), f"{rel} not staged as deletion ({status[rel]})"
+		assert status[rel].endswith("D"), f"{rel} not removed from worktree ({status[rel]})"
 
-	# The topic-level pgml master is git-mv staged to FLAT orphaned/<basename>
+	# The topic-level pgml master is moved without staging it.
 	flat_dest = os.path.join(repo_root, "orphaned", PGML_NAME)
 	assert os.path.isfile(flat_dest), "quarantined master missing from orphaned/"
 	assert not os.path.exists(paths["topic_pgml"]), "topic pgml master still in topic dir"
 	# Confirm flatness: no subject/topic nesting under orphaned/
 	nested_dest = os.path.join(repo_root, "orphaned", "subj", "topic01", PGML_NAME)
 	assert not os.path.exists(nested_dest), "quarantine is nested, expected flat"
-	dest_rel = os.path.relpath(flat_dest, repo_root)
-	assert dest_rel in status, "quarantined master not staged"
 
 	# The orphan self-test include line is stripped from index.md
 	with open(paths["index_path"], "r") as index_file:
@@ -273,10 +272,10 @@ def check_live_run(repo_root: str, paths: dict) -> None:
 
 #============================================
 def check_collision(repo_root: str) -> None:
-	"""Assert a reconcile colliding with an existing orphaned/<name> raises.
+	"""A quarantine collision preserves both files while reconciliation finishes.
 
 	A fresh topic-level master with the SAME basename as the already
-	quarantined file must hard-fail because orphaned/<basename> exists.
+	quarantined file is deferred for a later cleanup.
 
 	Args:
 		repo_root (str): The tmp repo root directory.
@@ -288,12 +287,11 @@ def check_collision(repo_root: str) -> None:
 
 	site_docs_dir = os.path.join(repo_root, "site_docs")
 	reset_git_caches()
-	raised = False
-	try:
-		orphan_prune.reconcile_all(site_docs_dir, dry_run=False, verbose=False)
-	except FileExistsError:
-		raised = True
-	assert raised, "expected FileExistsError on quarantine collision"
+	plan = orphan_prune.reconcile_all(site_docs_dir, dry_run=False, verbose=False)
+	assert len(plan["deferred"]) == 1, "quarantine collision was not reported"
+	assert os.path.isfile(colliding_master), "colliding source was lost"
+	with open(os.path.join(repo_root, "orphaned", PGML_NAME)) as saved_file:
+		assert saved_file.read() == "DOCUMENT(); master\n", "quarantine was overwritten"
 
 
 #============================================
@@ -306,7 +304,7 @@ def main() -> None:
 	try:
 		repo_root = os.path.join(work_root, "repo")
 		os.makedirs(repo_root)
-		# git_rm/git_mv and get_repo_root resolve against the process cwd
+		# Repository-root discovery resolves against the process cwd.
 		os.chdir(repo_root)
 		paths = build_repo(repo_root)
 
@@ -317,7 +315,7 @@ def main() -> None:
 		check_dry_run(repo_root, paths)
 		# The real run enacts the locked file-class policy
 		check_live_run(repo_root, paths)
-		# A second run colliding on the flat dest must hard-fail
+		# A second run reports the collision and continues.
 		check_collision(repo_root)
 
 		print("e2e_orphan_reconcile: PASS")
