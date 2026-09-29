@@ -8,11 +8,11 @@ basename is absent from every topic. It reconciles them per the locked
 file-class policy:
 
 - generated `downloads/*` artifacts and reproducible `downloads/*.pgml`
-  / `*.pg` copies are deleted (git rm if tracked, else os.remove),
+  / `*.pg` copies are deleted from the filesystem,
 - orphan `selftest-<core>` include lines in `index.md` are stripped,
 - stale keys in the repository-wide `problem_set_titles.yml` are dropped
   (keep `last edit`) after all topic folders are reconciled,
-- orphan TOPIC-LEVEL `.pgml` / `.pg` masters are quarantined by git mv to
+- orphan TOPIC-LEVEL `.pgml` / `.pg` masters are moved to
   a FLAT `orphaned/<basename>` at the repo root (never deleted).
 
 Detection is forward-only and decidable: the expected name set is built
@@ -498,9 +498,9 @@ def compute_live_state(
 def reconcile_topic(
 		topic_folder: str,
 		live_cores: set,
-		tracked_set: set,
 		dry_run: bool,
 		task_owned_patterns: list[tuple[set[str], tuple[str, ...], set[str]]] | None = None,
+		task_owned_pgml_paths: set[str] | None = None,
 	) -> dict:
 	"""Reconcile every bbq-derived target for one topic against live cores.
 
@@ -508,15 +508,12 @@ def reconcile_topic(
 	and topic-level PGML/PG masters. The repository-wide title cache is pruned
 	once by reconcile_all after it gathers live basenames from every topic.
 
-	With dry_run=True this performs read-only scans only and returns the
-	risk-grouped planned action list without any write, remove, move, or
-	git-staging operation. The tracked_set is injected, so this function
-	makes no git call to decide tracked-vs-untracked.
+	With dry_run=True this returns a read-only plan. Cleanup uses only filesystem
+	operations. Failed file removals or moves are reported for a later retry.
 
 	Args:
 		topic_folder (str): Path to the topic directory.
 		live_cores (set): Cores backed by a live bbq file.
-		tracked_set (set): Absolute paths git currently tracks.
 		dry_run (bool): When True, plan only; perform no mutation.
 
 	Returns:
@@ -535,21 +532,25 @@ def reconcile_topic(
 		"drop_cache_keys": [],
 		"quarantine_sources": [],
 		"unmanaged": [],
+		"deferred": [],
 	}
+	owned_pgml = task_owned_pgml_paths if task_owned_pgml_paths is not None else set()
 
 	# Target 0: recognized BBQ sources absent from all current task CSVs -> delete.
 	for orphan_path in find_task_owned_source_orphans(topic_folder, task_owned_patterns):
 		plan["delete_sources"].append(orphan_path)
 		if not dry_run:
-			_delete_path(orphan_path, tracked_set)
+			_remove_or_defer(orphan_path, plan)
 
 	# Target 1: orphan downloads/ artifacts and pgml/pg copies -> delete
 	download_result = find_orphan_downloads(topic_folder, live_cores)
 	plan["unmanaged"] = list(download_result["unmanaged"])
 	for orphan_path in download_result["orphans"]:
+		if os.path.realpath(orphan_path) in owned_pgml:
+			continue
 		plan["delete_downloads"].append(orphan_path)
 		if not dry_run:
-			_delete_path(orphan_path, tracked_set)
+			_remove_or_defer(orphan_path, plan)
 
 	# Target 2: orphan selftest include lines in index.md -> strip
 	index_md_path = os.path.join(topic_folder, "index.md")
@@ -560,10 +561,19 @@ def reconcile_topic(
 
 	# Target 3: orphan topic-level pgml/pg masters -> quarantine (never delete)
 	for src_path in find_orphan_sources(topic_folder, live_cores):
-		dest_path = quarantine_dest(src_path)
+		if os.path.realpath(src_path) in owned_pgml:
+			continue
+		try:
+			dest_path = quarantine_dest(src_path)
+		except OSError as exc:
+			_record_deferred(src_path, exc, plan)
+			continue
 		plan["quarantine_sources"].append({"src": src_path, "dest": dest_path})
 		if not dry_run:
-			_quarantine_path(src_path, dest_path, tracked_set)
+			try:
+				_quarantine_path(src_path, dest_path)
+			except OSError as exc:
+				_record_deferred(src_path, exc, plan)
 
 	return plan
 
@@ -574,10 +584,11 @@ def reconcile_all(
 		dry_run: bool,
 		verbose: bool,
 		task_owned_pattern_map: dict[str, list[tuple[set[str], tuple[str, ...], set[str]]]] | None = None,
+		task_owned_pgml_paths: set[str] | None = None,
 	) -> dict:
 	"""Reconcile every topic under a site_docs dir against its live cores.
 
-	Builds the git tracked-set once, reconciles every topic folder, and gathers
+	Reconciles every topic folder and gathers
 	all live BBQ basenames before pruning the shared title cache once. With
 	dry_run=True no mutation occurs.
 
@@ -591,8 +602,6 @@ def reconcile_all(
 			delete_sources, delete_downloads, strip_includes, drop_cache_keys,
 			quarantine_sources, and unmanaged.
 	"""
-	# Build the tracked-set once and inject it into every reconcile_topic call
-	tracked_set = git_paths.tracked_paths_set()
 	# Match topic_page.render_all's topic-folder glob shape exactly
 	all_topic_folders = sorted(glob.glob(os.path.join(site_docs_dir, "*/topic??/")))
 	if verbose:
@@ -604,6 +613,7 @@ def reconcile_all(
 		"drop_cache_keys": [],
 		"quarantine_sources": [],
 		"unmanaged": [],
+		"deferred": [],
 	}
 	all_live_bbq_basenames = set()
 	# Reconcile each topic and collect its currently owned BBQ basenames.
@@ -614,7 +624,7 @@ def reconcile_all(
 			patterns = task_owned_pattern_map.get(os.path.realpath(topic_folder), [])
 		live_cores, live_bbq_basenames = compute_live_state(topic_folder, patterns)
 		all_live_bbq_basenames.update(live_bbq_basenames)
-		plan = reconcile_topic(topic_folder, live_cores, tracked_set, dry_run, patterns)
+		plan = reconcile_topic(topic_folder, live_cores, dry_run, patterns, task_owned_pgml_paths)
 		for key in combined:
 			combined[key].extend(plan[key])
 		if verbose and any(plan.values()):
@@ -625,6 +635,7 @@ def reconcile_all(
 				f"strip={len(plan['strip_includes'])} "
 				f"quarantine={len(plan['quarantine_sources'])} "
 				f"unmanaged={len(plan['unmanaged'])}"
+				f" deferred={len(plan['deferred'])}"
 			)
 			print(summary)
 	cache_path = title_cache.path_for_site_docs(site_docs_dir)
@@ -641,37 +652,36 @@ def reconcile_all(
 
 
 #============================================
-def _delete_path(path: str, tracked_set: set) -> None:
-	"""Delete a generated download orphan, git rm if tracked.
-
-	Args:
-		path (str): The file to delete.
-		tracked_set (set): Absolute paths git currently tracks.
-	"""
-	# A tracked file is removed via git so the deletion is staged
-	if os.path.realpath(path) in tracked_set:
-		git_paths.git_rm(path)
-	else:
+def _remove_or_defer(path: str, plan: dict) -> None:
+	"""Remove an orphan; a local filesystem failure must not stop indexing."""
+	try:
 		os.remove(path)
+	except FileNotFoundError:
+		# Another cleanup already removed it; the desired state is satisfied.
+		return
+	except OSError as exc:
+		_record_deferred(path, exc, plan)
+
+
+def _record_deferred(path: str, error: OSError, plan: dict) -> None:
+	"""Keep failed cleanup visible and actionable while other work continues."""
+	plan["deferred"].append({"path": path, "reason": str(error)})
+	print(f"WARNING: cleanup deferred for {git_paths.display_path(path)}: {error}. "
+		"Resolve this filesystem issue and rerun cleanup; indexing will continue.")
 
 
 #============================================
-def _quarantine_path(src_path: str, dest_path: str, tracked_set: set) -> None:
-	"""Move a topic-level master into quarantine, git mv if tracked.
+def _quarantine_path(src_path: str, dest_path: str) -> None:
+	"""Move a topic-level master into quarantine using the filesystem.
 
 	Creates the flat orphaned/ parent directory first.
 
 	Args:
 		src_path (str): The source master to quarantine.
 		dest_path (str): The quarantine destination path.
-		tracked_set (set): Absolute paths git currently tracks.
 	"""
 	# Ensure the quarantine parent directory exists before the move
 	dest_parent = os.path.dirname(dest_path)
 	if not os.path.isdir(dest_parent):
 		os.makedirs(dest_parent)
-	# A tracked master is moved via git so history is preserved and staged
-	if os.path.realpath(src_path) in tracked_set:
-		git_paths.git_mv(src_path, dest_path)
-	else:
-		os.rename(src_path, dest_path)
+	os.rename(src_path, dest_path)

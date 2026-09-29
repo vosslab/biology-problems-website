@@ -67,7 +67,7 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'approximate generation time',
     'choices' => [
       'Saccharomyces cerevisiae',
-      'Drosophila melanogaster',
+      'Caenorhabditis elegans',
       'Mus musculus',
     ],
     'correct' => 'Saccharomyces cerevisiae',
@@ -77,7 +77,7 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'model organisms',
     'singular_item' => 'approximate generation time',
     'choices' => [
-      'Saccharomyces cerevisiae',
+      'Escherichia coli',
       'Caenorhabditis elegans',
       'Mus musculus',
     ],
@@ -88,7 +88,7 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'model organisms',
     'singular_item' => 'approximate generation time',
     'choices' => [
-      'Saccharomyces cerevisiae',
+      'Escherichia coli',
       'Caenorhabditis elegans',
       'Mus musculus',
     ],
@@ -99,7 +99,7 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'model organisms',
     'singular_item' => 'approximate generation time',
     'choices' => [
-      'Escherichia coli',
+      'Saccharomyces cerevisiae',
       'Drosophila melanogaster',
       'Mus musculus',
     ],
@@ -110,7 +110,7 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'model organisms',
     'singular_item' => 'approximate generation time',
     'choices' => [
-      'Saccharomyces cerevisiae',
+      'Escherichia coli',
       'Drosophila melanogaster',
       'Mus musculus',
     ],
@@ -121,7 +121,7 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'model organisms',
     'singular_item' => 'approximate generation time',
     'choices' => [
-      'Saccharomyces cerevisiae',
+      'Escherichia coli',
       'Drosophila melanogaster',
       'Mus musculus',
     ],
@@ -133,7 +133,7 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'approximate generation time',
     'choices' => [
       'Escherichia coli',
-      'Drosophila melanogaster',
+      'Caenorhabditis elegans',
       'Mus musculus',
     ],
     'correct' => 'Mus musculus',

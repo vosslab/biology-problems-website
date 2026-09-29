@@ -20,6 +20,7 @@ topics_reference.csv
 bbq_converter.py
 /bbq_generation.log*
 /bbq_generation_errors.log
+/build_timing.jsonl
 QTI12-*/
 
 # Byte-compiled / optimized / DLL files

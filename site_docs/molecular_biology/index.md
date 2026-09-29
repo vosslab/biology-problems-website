@@ -11,7 +11,7 @@ Questions ask students to transcribe DNA to mRNA, translate codons to amino acid
 1. [DNA Structure](topic02/index.md) <span class='topic-count' title='10 questions'>10 questions</span>
     - DNA composition, base pairing, and double-helix structure.
 
-2. [Manipulation of Nucleic Acids](topic04/index.md) <span class='topic-count' title='11 questions'>11 questions</span>
+2. [Manipulation of Nucleic Acids](topic04/index.md) <span class='topic-count' title='10 questions'>10 questions</span>
     - Restriction enzymes, gel electrophoresis, and PCR.
 
 3. [Cloning and Sequencing](topic05/index.md) <span class='topic-count' title='9 questions'>9 questions</span>
@@ -20,7 +20,7 @@ Questions ask students to transcribe DNA to mRNA, translate codons to amino acid
 4. [DNA Replication](topic06/index.md) <span class='topic-count' title='8 questions'>8 questions</span>
     - Replication machinery, origins, forks, and fidelity mechanisms.
 
-5. [RNA Transcription](topic07/index.md) <span class='topic-count' title='4 questions'>4 questions</span>
+5. [RNA Transcription](topic07/index.md) <span class='topic-count' title='2 questions'>2 questions</span>
     - Transcription of genes, RNA polymerase, promoters, and regulation.
 
 6. [RNA Processing and CRISPR](topic08/index.md) <span class='topic-count' title='3 questions'>3 questions</span>

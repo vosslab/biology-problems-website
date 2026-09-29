@@ -247,7 +247,7 @@ def test_reconcile_topic_dry_run_no_mutation(tmp_path: object) -> object:
 	# Capture file contents before the dry_run call
 	with open(index_path, "r") as index_file:
 		index_before = index_file.read()
-	plan = orphan_prune.reconcile_topic(topic_folder, {"alpha"}, set(), dry_run=True)
+	plan = orphan_prune.reconcile_topic(topic_folder, {"alpha"}, dry_run=True)
 
 	# The plan reports the orphan download and the stripped include
 	delete_basenames = {os.path.basename(p) for p in plan["delete_downloads"]}
@@ -281,7 +281,7 @@ def test_task_owned_patterns_prune_unmatched_source_and_derivatives(tmp_path: pa
 	patterns = [({"bbq-owned"}, ("-questions.txt",), set())]
 
 	dry_run_plan = orphan_prune.reconcile_topic(
-		str(topic_folder), set(), set(), dry_run=True, task_owned_patterns=patterns,
+		str(topic_folder), set(), dry_run=True, task_owned_patterns=patterns,
 	)
 	assert {os.path.basename(path) for path in dry_run_plan["delete_sources"]} == {
 		"bbq-removed-questions.txt"
@@ -296,7 +296,7 @@ def test_task_owned_patterns_prune_unmatched_source_and_derivatives(tmp_path: pa
 	assert "selftest-removed.html" in index_path.read_text()
 
 	real_plan = orphan_prune.reconcile_topic(
-		str(topic_folder), set(), set(), dry_run=False, task_owned_patterns=patterns,
+		str(topic_folder), set(), dry_run=False, task_owned_patterns=patterns,
 	)
 	assert {os.path.basename(path) for path in real_plan["delete_sources"]} == {
 		"bbq-removed-questions.txt"

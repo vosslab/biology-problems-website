@@ -4,6 +4,7 @@ from contextlib import redirect_stderr, redirect_stdout
 from datetime import datetime, timedelta
 import threading
 import time
+import statistics
 from collections.abc import Callable
 
 from rich.text import Text
@@ -81,20 +82,14 @@ class SiteBuildApp(App[int]):
 		"cancelled": "yellow",
 	}
 	ROW_PHASES = ("bbq", "selftests", "downloads")
-	PHASE_LABELS = {
-		"bbq": "BBQ generation",
-		"selftests": "Self-tests",
-		"downloads": "Downloads",
-		"topic_pages": "Topic pages",
-		"indexes": "Indexes, navigation, and manifest",
-	}
+	PHASE_LABELS = build_progress.PHASE_LABELS
 	CSS = (
 		"#root { height: 1fr; }\n"
-		"#top_row { height: 38%; min-height: 10; }\n"
+		"#top_row { height: 38%; min-height: 14; }\n"
 		"#metrics_box { width: 38%; height: 1fr; border: solid gray; padding: 0 1; }\n"
 		"#metrics_title { height: 1; text-style: bold; }\n"
-		"#eta { height: 2; color: $success; text-style: bold; }\n"
-		"#metrics { height: 1fr; }\n"
+		"#eta { height: auto; min-height: 2; color: $success; text-style: bold; }\n"
+		"#metrics { height: auto; min-height: 5; }\n"
 		"#footer_note { height: 1; }\n"
 		"#messages { width: 62%; height: 1fr; border: solid gray; }\n"
 		"#task_table { height: 1fr; border: solid gray; }\n"
@@ -103,15 +98,13 @@ class SiteBuildApp(App[int]):
 	def __init__(self, scope: BuildScope) -> None:
 		super().__init__()
 		self.scope = scope
-		self.started_at = time.time()
+		self.started_at = time.perf_counter()
 		self.cancel_event = threading.Event()
 		self.progress = build_progress.BuildProgress(self._report_event, self.cancel_event)
 		self.step_keys: dict[tuple[str, int | str], object] = {}
 		self.step_status: dict[tuple[str, int | str], str] = {}
 		self.status_column: object | None = None
-		self.phase_totals: dict[str, int] = {}
-		self.phase_completed: dict[str, int] = {}
-		self.phase_samples: dict[str, list[float]] = {}
+		self.timing = build_progress.BuildTiming()
 		self.active_phase = ""
 		self.active_label = ""
 		self.active_started_at: float | None = None
@@ -147,15 +140,9 @@ class SiteBuildApp(App[int]):
 
 	def _handle_event(self, event: str, details: dict[str, object]) -> None:
 		"""Apply one coordinator progress event to the dashboard."""
+		self.timing.observe(event, details)
 		if event == "plan":
 			row_total = int(details["task_rows"])
-			topic_total = int(details["topics"])
-			self.phase_totals.update({
-				"bbq": row_total,
-				"selftests": row_total,
-				"downloads": row_total,
-				"topic_pages": topic_total,
-			})
 			row_labels = details["row_labels"]
 			if isinstance(row_labels, list):
 				for row_index, label in enumerate(row_labels, start=1):
@@ -163,13 +150,11 @@ class SiteBuildApp(App[int]):
 			self.append_log(f"Build plan: {row_total} CSV row(s)")
 		elif event == "phase_plan":
 			phase = str(details["phase"])
-			self.phase_totals[phase] = int(details["total"])
-			self.phase_completed.setdefault(phase, 0)
 			if phase == "indexes":
 				label = "Indexes, navigation, manifest"
 				self._add_step((phase, label), self.PHASE_LABELS[phase], label)
 			self.append_log(
-				f"Planned {self.phase_totals[phase]} {self.PHASE_LABELS[phase].lower()} item(s)"
+				f"Planned {self.timing.totals[phase]} {self.PHASE_LABELS[phase].lower()} item(s)"
 			)
 		elif event == "row_started":
 			row_index = int(details["row"])
@@ -179,7 +164,7 @@ class SiteBuildApp(App[int]):
 			phase = str(details["phase"])
 			self.active_phase = phase
 			self.active_label = str(details["label"])
-			self.active_started_at = time.time()
+			self.active_started_at = time.perf_counter()
 			self._set_step_stage(details, "running")
 			self.append_log(f"START {self.PHASE_LABELS[phase]}: {self.active_label}")
 			self._update_metrics_text()
@@ -190,11 +175,10 @@ class SiteBuildApp(App[int]):
 			if phase == "downloads" and status == "ok":
 				cell_text = self._download_count_text(details)
 			self._set_step_stage(details, status, cell_text)
-			self._complete_phase(phase, details)
 			duration = float(details.get("duration", 0.0))
 			self.append_log(
 				f"{status.upper()} {self.PHASE_LABELS[phase]}: "
-				f"{details['label']} ({duration:.1f}s)"
+				f"{details['label']} ({bbq_runner.format_elapsed_time(duration)})"
 			)
 			self._clear_active_phase(phase)
 		elif event == "stage_skipped":
@@ -203,7 +187,6 @@ class SiteBuildApp(App[int]):
 			if phase == "downloads":
 				cell_text = self._download_count_text(details)
 			self._set_step_stage(details, "skipped", cell_text)
-			self.phase_completed[phase] = self.phase_completed.get(phase, 0) + 1
 			label = str(details["label"])
 			detail = str(details.get("detail", "not required"))
 			self.append_log(f"SKIP {self.PHASE_LABELS[phase]}: {label} ({detail})")
@@ -211,7 +194,6 @@ class SiteBuildApp(App[int]):
 		elif event == "stage_failed":
 			phase = str(details["phase"])
 			self._set_step_stage(details, "failed")
-			self._complete_phase(phase, details)
 			self.append_log(
 				f"FAIL {self.PHASE_LABELS[phase]}: {details['label']} "
 				f"({details.get('detail', 'unknown error')})"
@@ -295,14 +277,6 @@ class SiteBuildApp(App[int]):
 			count_text += f" ({len(counts)} BBQs)"
 		return count_text, short
 
-	def _complete_phase(self, phase: str, details: dict[str, object]) -> None:
-		"""Record completed work and timing samples for one pipeline phase."""
-		self.phase_completed[phase] = self.phase_completed.get(phase, 0) + 1
-		if details.get("executed"):
-			duration = float(details.get("duration", 0.0))
-			if duration > 0.0:
-				self.phase_samples.setdefault(phase, []).append(duration)
-
 	def _clear_active_phase(self, phase: str) -> None:
 		if self.active_phase == phase:
 			self.active_phase = ""
@@ -318,23 +292,27 @@ class SiteBuildApp(App[int]):
 		self.query_one(RichLog).write(Text.from_ansi(message))
 
 	def update_metrics(self) -> None:
-		"""Refresh elapsed time, progress counts, and the estimated local finish."""
-		elapsed = time.time() - self.started_at
-		completed = sum(self.phase_completed.values())
-		planned = sum(self.phase_totals.values())
-		if self.finished:
-			result = "complete" if self.exit_code == 0 else "cancelled" if self.exit_code == 130 else "failed"
-			current = f"\nResult: {result}"
-		else:
-			active = self.PHASE_LABELS.get(self.active_phase, "Preparing")
-			current = f"\nCurrent: {active}"
-			if self.active_label:
-				current += f"\nItem: {self.active_label}"
+		"""Refresh elapsed time, phase averages, progress, and estimated finish."""
+		elapsed = time.perf_counter() - self.started_at
+		completed = sum(self.timing.completed.values())
+		planned = sum(self.timing.totals.values())
 		metrics = (
 			f"Progress: {completed}/{planned or '...'} operations\n"
 			f"Elapsed: {bbq_runner.format_elapsed_time(elapsed)}"
-			f"{current}"
 		)
+		for phase, label in (
+			("bbq", "BBQ gen avg"), ("downloads", "Downloads avg"),
+			("selftests", "Self-test avg"),
+		):
+			values = self.timing.samples.get(phase, [])
+			average = f"{sum(values) / len(values):.1f}s" if values else "..."
+			if phase == "downloads" and len(values) >= 2:
+				spread = f"{statistics.stdev(values):.1f}s"
+				average += f" +/- {spread}"
+			metrics += f"\n{label}: {average}"
+		if self.finished:
+			result = "complete" if self.exit_code == 0 else "cancelled" if self.exit_code == 130 else "failed"
+			metrics += f"\nResult: {result}"
 		self.query_one("#metrics", Static).update(metrics)
 		self._update_eta()
 
@@ -342,7 +320,7 @@ class SiteBuildApp(App[int]):
 		self.update_metrics()
 
 	def _update_eta(self) -> None:
-		"""Estimate remaining time from completed phase timings and known work."""
+		"""Keep the finish estimate visible during active-operation overruns."""
 		eta_widget = self.query_one("#eta", Static)
 		if self.finished:
 			if self.exit_code == 0:
@@ -352,39 +330,17 @@ class SiteBuildApp(App[int]):
 			else:
 				eta_widget.update("Build failed")
 			return
+		active_elapsed = 0.0
 		if self.active_phase and self.active_started_at is not None:
-			phase_values = self.phase_samples.get(self.active_phase, [])
-			active_elapsed = time.time() - self.active_started_at
-			if not phase_values or active_elapsed >= sum(phase_values) / len(phase_values):
-				elapsed_text = bbq_runner.format_elapsed_time(active_elapsed)
-				eta_widget.update(f"Working: {self.PHASE_LABELS[self.active_phase]}\n{elapsed_text} on item")
-				return
-		samples = [duration for values in self.phase_samples.values() for duration in values]
-		if len(samples) < 2:
-			eta_widget.update("Estimating finish time...")
-			return
-		global_average = sum(samples) / len(samples)
-		remaining = 0.0
-		for phase, total in self.phase_totals.items():
-			phase_remaining = max(total - self.phase_completed.get(phase, 0), 0)
-			phase_values = self.phase_samples.get(phase, [])
-			average = sum(phase_values) / len(phase_values) if phase_values else global_average
-			remaining += phase_remaining * average
-		if self.active_phase and self.active_started_at is not None:
-			values = self.phase_samples.get(self.active_phase, [])
-			active_average = sum(values) / len(values)
-			active_elapsed = time.time() - self.active_started_at
-			remaining = max(remaining - min(active_elapsed, active_average), 0.0)
-		if (
-			remaining < 1.0
-			and sum(self.phase_completed.values()) < sum(self.phase_totals.values())
-		):
-			eta_widget.update("Finishing remaining work...")
-			return
-		finish_time = datetime.now().astimezone() + timedelta(seconds=remaining)
-		clock_time = finish_time.strftime("%I:%M:%S %p").lstrip("0")
-		remaining_text = bbq_runner.format_elapsed_time(remaining)
-		eta_widget.update(f"Finish: {clock_time}\n~{remaining_text} left")
+			active_elapsed = time.perf_counter() - self.active_started_at
+		remaining = self.timing.estimate(self.active_phase, active_elapsed)
+		eta_text = "Estimating finish time..."
+		if remaining is not None:
+			finish_time = datetime.now().astimezone() + timedelta(seconds=remaining)
+			clock_time = finish_time.strftime("%I:%M:%S %p").lstrip("0")
+			remaining_text = bbq_runner.format_elapsed_time(remaining)
+			eta_text = f"Finish: ~{clock_time}\n~{remaining_text} left"
+		eta_widget.update(eta_text)
 
 	def action_request_cancel(self) -> None:
 		"""Ask before stopping, or close the completed dashboard."""
@@ -412,7 +368,7 @@ class SiteBuildApp(App[int]):
 		log_stream = _BuildLogStream(self._report_log)
 		try:
 			with redirect_stdout(log_stream), redirect_stderr(log_stream):
-				build_coordinator.build_site(self.scope, self.progress)
+				build_coordinator.build_site_with_timing(self.scope, self.progress)
 			log_stream.flush()
 		except build_progress.BuildCancelledError:
 			log_stream.flush()

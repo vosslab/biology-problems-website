@@ -23,6 +23,36 @@ MkDocs opens `http://127.0.0.1:8000/` with live reload. Press Ctrl-C to stop it.
   progress dashboard. Piped and CI runs keep plain output. Use `--cli` to force
   plain output or `--tui` to request the dashboard explicitly; `--tui` requires
   interactive stdin and stdout, and the two options cannot be combined.
+  After two complete rows (six operations), with executed-stage timings available,
+  both modes estimate remaining time across BBQ generation, self-tests, downloads,
+  topic pages, and final indexing.
+  Only executed stages train timing averages; skipped stages reduce remaining
+  work without lowering those averages. Rows with executed work supply wall-clock
+  overhead measurements; fully cached rows do not train the estimate. Final stages
+  reserve a complete row's cost per operation until their own timings are available.
+  The dashboard keeps estimated finish and time left visible, including when an
+  operation exceeds its earlier average. Its upper-left box shows average BBQ
+  generation, download, and self-test times for completed stages in the current
+  run, excluding cached skips. Each average covers one stage, including all work
+  for that task row, rather than one exported file.
+  After two measured download stages, Downloads shows the average `+/-` one sample
+  standard deviation to indicate variation in conversion time.
+  Stage averages and the download spread use seconds with one decimal place.
+  Elapsed time, remaining time, and individual task durations use whole seconds,
+  with `<1s` for subsecond work. The timing log retains full precision for analysis.
+  Normal CLI and dashboard builds also append measurements to `build_timing.jsonl`
+  in the repository root. Each run has a unique ID, its start time, UTC event
+  timestamps, and total wall time. Records contain task arguments, per-stage and
+  per-format conversion durations, complete-row durations, question/download
+  counts, and estimated time left and completion time at operation boundaries.
+  Blackboard conversions record whether image rendering was enabled.
+  `accounted_stage_seconds`, `active_stage_seconds`, and `untracked_seconds`
+  distinguish measured work from time outside the stage timers. Conversion
+  durations are nested within stages and are not counted twice. The log records
+  completion, cancellation, or failure and flushes each record as it happens.
+  It retains previous runs, is ignored by Git, and excludes question content and
+  command output. Dry runs create no timing log. These measurements are for
+  diagnosis; estimates currently learn from the active run, not past logs.
 - Serve the site locally:
   ```bash
   source source_me.sh && python3 -m mkdocs serve
@@ -82,6 +112,19 @@ generated artifacts, strips dead self-test includes, prunes stale title-cache
 entries, and quarantines orphan topic-level pgml/pg masters to a repo-root
 `orphaned/` folder. Dry runs report
 that reconciliation plan without changing files.
+
+The build uses Git only to find the repository root. Deletions and moves use
+the filesystem; your staging workflow handles the resulting changes. Cleanup
+preserves PGML companions belonging to configured tasks. If a filesystem issue
+prevents an orphan removal or quarantine, the build reports the path and reason,
+leaves that file for retry, and continues with indexing.
+
+To retry only final cleanup, indexes, navigation, and the manifest after an
+otherwise completed build, run from the website repository:
+
+```bash
+source source_me.sh && python3 -c 'from bioproblems_site.build_contracts import BuildScope; from bioproblems_site.build_stages import run_subject_indexes; run_subject_indexes(BuildScope())'
+```
 
 Common flags:
 

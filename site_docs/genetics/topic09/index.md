@@ -478,39 +478,6 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 </details>
 
 
-## Gene Order from Deletion Mutants (6 Genes, Word Labels)
-
-<div id="deletion_mutant_words-06_genes-MC-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_words-06_genes-MC-questions.txt" download title="Download bbq-deletion_mutant_words-06_genes-MC-questions.txt" aria-label="Click to download the BBQ Text file (bbq-deletion_mutant_words-06_genes-MC-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-deletion_mutant_words-06_genes-MC.zip" download title="Download blackboard_export_zip-deletion_mutant_words-06_genes-MC.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-deletion_mutant_words-06_genes-MC.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-deletion_mutant_words-06_genes-MC.zip" download title="Download canvas_qti_v1_2-deletion_mutant_words-06_genes-MC.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-deletion_mutant_words-06_genes-MC.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-deletion_mutant_words-06_genes-MC.html', '_blank')" title="View human_readable-deletion_mutant_words-06_genes-MC.html" aria-label="Click to view the Human-Readable TXT file (human_readable-deletion_mutant_words-06_genes-MC.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Gene Order from Deletion Mutants (6 Genes, Word Labels)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  {% include "genetics/topic09/downloads/selftest-deletion_mutant_words-06_genes-MC.html" %}
-
-</details>
-
-
 ## Chromosomal Translocation Outcomes (Color)
 
 <div id="letter_translocation_problem_color-button-container" class="button-container">

@@ -29,12 +29,11 @@ class TaskOwnershipError(RuntimeError):
 
 
 #============================================
-def load_task_owned_patterns() -> dict[str, list[tuple[set[str], tuple[str, ...], set[str]]]]:
-	"""Load every current CSV task as topic-local BBQ source ownership patterns.
+def load_task_ownership() -> tuple[dict, set[str]]:
+	"""Load current task ownership for BBQ patterns and exact PGML output paths.
 
 	Returns:
-		dict: Real topic directory paths mapped to automatic prefix/suffix and
-			explicit-basename ownership patterns.
+		tuple: Topic-local BBQ patterns and absolute paths of task-owned PGML files.
 	"""
 	if not DEFAULT_TASK_DIR.is_dir():
 		raise TaskOwnershipError(
@@ -52,6 +51,7 @@ def load_task_owned_patterns() -> dict[str, list[tuple[set[str], tuple[str, ...]
 	except (OSError, TypeError, ValueError) as exc:
 		raise TaskOwnershipError(f"Cannot establish task ownership: {exc}") from exc
 	topic_patterns: dict[str, list[tuple[set[str], tuple[str, ...], set[str]]]] = {}
+	pgml_paths: set[str] = set()
 	for task_file in task_files:
 		try:
 			loaded_tasks = bbq_config.load_tasks_csv(str(task_file), settings, alias_map)
@@ -106,11 +106,12 @@ def load_task_owned_patterns() -> dict[str, list[tuple[set[str], tuple[str, ...]
 			pattern = (set(prefixes), suffixes, explicit_basenames)
 			topic_path = os.path.realpath(output_dir)
 			topic_patterns.setdefault(topic_path, []).append(pattern)
+			pgml_paths.update(os.path.realpath(path) for path in _task_pgml_files(task))
 	if not topic_patterns:
 		raise TaskOwnershipError(
 			f"Task inventory owns no BBQ outputs: {git_paths.display_path(DEFAULT_TASK_DIR)}"
 		)
-	return topic_patterns
+	return topic_patterns, pgml_paths
 
 
 #============================================
@@ -156,9 +157,12 @@ def _task_source_files(task: dict[str, object]) -> set[Path]:
 
 #============================================
 def _task_pgml_files(task: dict[str, object]) -> set[Path]:
-	"""Return configured PGML output paths for YAML-backed generator tasks."""
+	"""Return PGML outputs for YAML generation and copied companion sources."""
 	pgml_info = task.get("pgml_info")
 	if pgml_info is None:
+		sister_path = bbq_runner.find_sister_pgml(task)
+		if sister_path:
+			return {Path(task["output_dir"]) / "downloads" / Path(sister_path).name}
 		return set()
 	if not isinstance(pgml_info, dict):
 		raise TypeError("BBQ task PGML information must be a dictionary")
@@ -518,7 +522,6 @@ def iter_task_results(
 	):
 		runner_scope = dataclasses.replace(scope, max_questions=50)
 	pending_index = 0
-	task_elapsed_total = 0.0
 	for row_index, task_row in enumerate(task_rows, start=1):
 		if progress:
 			progress.check_cancelled()
@@ -554,6 +557,11 @@ def iter_task_results(
 			before_outputs = expected_output_paths(task)
 			if progress:
 				progress.check_cancelled()
+				progress.emit(
+					"task_started", row=row_index, label=row_label,
+					generator=Path(str(task["script"])).name,
+					arguments=task["args"], input_file=Path(str(task["input_path"])).name,
+				)
 			task_start = time.perf_counter()
 			try:
 				ok = bbq_runner.run_task(
@@ -580,13 +588,14 @@ def iter_task_results(
 					)
 				raise
 			elapsed_seconds = time.perf_counter() - task_start
-			task_elapsed_total += elapsed_seconds
-			average_task_seconds = task_elapsed_total / pending_index
-			eta_seconds = average_task_seconds * (total - pending_index)
+			if progress:
+				progress.emit(
+					"task_completed", row=row_index, label=row_label,
+					generator=Path(str(task["script"])).name,
+					duration=elapsed_seconds, success=ok,
+				)
 			print(
-				f"  task time: {bbq_runner.format_elapsed_time(elapsed_seconds)}; "
-				f"elapsed: {bbq_runner.format_elapsed_time(task_elapsed_total)}; "
-				f"ETA: {bbq_runner.format_elapsed_time(eta_seconds)}"
+				f"  BBQ task time: {bbq_runner.format_elapsed_time(elapsed_seconds)}"
 			)
 			bbq_outputs.log_line(
 				log_path,

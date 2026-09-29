@@ -581,11 +581,6 @@ def test_subject_dry_run_plans_global_reconciliation_without_mutating_site_files
 			or {"questions": []}
 		),
 	)
-	monkeypatch.setattr(
-		build_stages.orphan_prune_module.git_paths,
-		"tracked_paths_set",
-		lambda: set(),
-	)
 	reconciliation_plans: list[dict] = []
 	reconciliation_maps: list[dict[str, object] | None] = []
 	original_reconcile_all = build_stages.orphan_prune_module.reconcile_all
@@ -595,10 +590,11 @@ def test_subject_dry_run_plans_global_reconciliation_without_mutating_site_files
 		dry_run: bool,
 		verbose: bool,
 		task_owned_pattern_map: dict[str, object] | None = None,
+		task_owned_pgml_paths: set[str] | None = None,
 	) -> dict:
 		"""Record the real dry-run plan for the scoped workflow assertion."""
 		plan = original_reconcile_all(
-			site_docs_dir, dry_run, verbose, task_owned_pattern_map,
+			site_docs_dir, dry_run, verbose, task_owned_pattern_map, task_owned_pgml_paths,
 		)
 		reconciliation_plans.append(plan)
 		reconciliation_maps.append(task_owned_pattern_map)
@@ -609,8 +605,8 @@ def test_subject_dry_run_plans_global_reconciliation_without_mutating_site_files
 	global_pattern_map = {str(site_docs_dir / "other/topic02"): []}
 	monkeypatch.setattr(
 		build_stages.bbq_workflow,
-		"load_task_owned_patterns",
-		lambda: global_pattern_map,
+		"load_task_ownership",
+		lambda: (global_pattern_map, set()),
 	)
 
 	stage_outputs = build_stages.run_subject_indexes(BuildScope(subject="genetics", dry_run=True))

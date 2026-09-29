@@ -202,39 +202,6 @@ Students determine gene order on chromosomes using recombination data from test 
 </details>
 
 
-## Interference in Three-Point Test Crosses (6 Choices)
-
-<div id="three-point_test_cross-find_interence-MC-6_choices-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-three-point_test_cross-find_interence-MC-6_choices-questions.txt" download title="Download bbq-three-point_test_cross-find_interence-MC-6_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-three-point_test_cross-find_interence-MC-6_choices-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-three-point_test_cross-find_interence-MC-6_choices.zip" download title="Download blackboard_export_zip-three-point_test_cross-find_interence-MC-6_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-three-point_test_cross-find_interence-MC-6_choices.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-three-point_test_cross-find_interence-MC-6_choices.zip" download title="Download canvas_qti_v1_2-three-point_test_cross-find_interence-MC-6_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-three-point_test_cross-find_interence-MC-6_choices.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-three-point_test_cross-find_interence-MC-6_choices.html', '_blank')" title="View human_readable-three-point_test_cross-find_interence-MC-6_choices.html" aria-label="Click to view the Human-Readable TXT file (human_readable-three-point_test_cross-find_interence-MC-6_choices.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Interference in Three-Point Test Crosses (6 Choices)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  {% include "genetics/topic08/downloads/selftest-three-point_test_cross-find_interence-MC-6_choices.html" %}
-
-</details>
-
-
 ## Interference in Three-Point Test Crosses
 
 <div id="three-point_test_cross-find_interence-NUM-button-container" class="button-container">
@@ -367,72 +334,6 @@ Students determine gene order on chromosomes using recombination data from test 
 </details>
 
 
-## Recombinant Genotypes for a Specified Gene Pair in Three-Point Test Crosses
-
-<div id="three-point_test_cross-which_genotypes-GENES-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-three-point_test_cross-which_genotypes-GENES-questions.txt" download title="Download bbq-three-point_test_cross-which_genotypes-GENES-questions.txt" aria-label="Click to download the BBQ Text file (bbq-three-point_test_cross-which_genotypes-GENES-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-three-point_test_cross-which_genotypes-GENES.zip" download title="Download blackboard_export_zip-three-point_test_cross-which_genotypes-GENES.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-three-point_test_cross-which_genotypes-GENES.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-three-point_test_cross-which_genotypes-GENES.zip" download title="Download canvas_qti_v1_2-three-point_test_cross-which_genotypes-GENES.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-three-point_test_cross-which_genotypes-GENES.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-three-point_test_cross-which_genotypes-GENES.html', '_blank')" title="View human_readable-three-point_test_cross-which_genotypes-GENES.html" aria-label="Click to view the Human-Readable TXT file (human_readable-three-point_test_cross-which_genotypes-GENES.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Recombinant Genotypes for a Specified Gene Pair in Three-Point Test Crosses
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  {% include "genetics/topic08/downloads/selftest-three-point_test_cross-which_genotypes-GENES.html" %}
-
-</details>
-
-
-## Parental Genotype Combinations in a Three-Point Test Cross
-
-<div id="three-point_test_cross-which_genotypes-PARENTAL-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-three-point_test_cross-which_genotypes-PARENTAL-questions.txt" download title="Download bbq-three-point_test_cross-which_genotypes-PARENTAL-questions.txt" aria-label="Click to download the BBQ Text file (bbq-three-point_test_cross-which_genotypes-PARENTAL-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-three-point_test_cross-which_genotypes-PARENTAL.zip" download title="Download blackboard_export_zip-three-point_test_cross-which_genotypes-PARENTAL.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-three-point_test_cross-which_genotypes-PARENTAL.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-three-point_test_cross-which_genotypes-PARENTAL.zip" download title="Download canvas_qti_v1_2-three-point_test_cross-which_genotypes-PARENTAL.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-three-point_test_cross-which_genotypes-PARENTAL.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-three-point_test_cross-which_genotypes-PARENTAL.html', '_blank')" title="View human_readable-three-point_test_cross-which_genotypes-PARENTAL.html" aria-label="Click to view the Human-Readable TXT file (human_readable-three-point_test_cross-which_genotypes-PARENTAL.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Parental Genotype Combinations in a Three-Point Test Cross
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  {% include "genetics/topic08/downloads/selftest-three-point_test_cross-which_genotypes-PARENTAL.html" %}
-
-</details>
-
-
 ## Gene Configuration (Cis vs. Trans) in Two-Point Test Crosses
 
 <div id="two-point_test_cross-cis-trans-MC-with_hint-button-container" class="button-container">
@@ -561,39 +462,6 @@ Students determine gene order on chromosomes using recombination data from test 
     </span>
   </summary>
   {% include "genetics/topic08/downloads/selftest-two-point_test_cross-which_genotypes-MA-with_hint-PARENTAL.html" %}
-
-</details>
-
-
-## Recombinant Genotype Combinations in a Two-Point Test Cross
-
-<div id="two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT-questions.txt" download title="Download bbq-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT-questions.txt" aria-label="Click to download the BBQ Text file (bbq-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT.zip" download title="Download blackboard_export_zip-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT.zip" download title="Download canvas_qti_v1_2-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT.html', '_blank')" title="View human_readable-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT.html" aria-label="Click to view the Human-Readable TXT file (human_readable-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Recombinant Genotype Combinations in a Two-Point Test Cross
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  {% include "genetics/topic08/downloads/selftest-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT.html" %}
 
 </details>
 

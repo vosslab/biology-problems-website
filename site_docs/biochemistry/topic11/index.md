@@ -556,20 +556,20 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 </details>
 
 
-## mRNA Sequences from DNA Templates
+## mRNA Sequences from DNA Template Strands (9 Bases, Directionless)
 
-<div id="rna_transcribe_fill_blank-button-container" class="button-container">
+<div id="rna_transcribe-FIB-directionless-len_9-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-rna_transcribe_fill_blank-questions.txt" download title="Download bbq-rna_transcribe_fill_blank-questions.txt" aria-label="Click to download the BBQ Text file (bbq-rna_transcribe_fill_blank-questions.txt)">
+<a class="md-button custom-button bb_text" href="bbq-rna_transcribe-FIB-directionless-len_9-questions.txt" download title="Download bbq-rna_transcribe-FIB-directionless-len_9-questions.txt" aria-label="Click to download the BBQ Text file (bbq-rna_transcribe-FIB-directionless-len_9-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-rna_transcribe_fill_blank.zip" download title="Download blackboard_export_zip-rna_transcribe_fill_blank.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-rna_transcribe_fill_blank.zip)">
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-rna_transcribe-FIB-directionless-len_9.zip" download title="Download blackboard_export_zip-rna_transcribe-FIB-directionless-len_9.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-rna_transcribe-FIB-directionless-len_9.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-rna_transcribe_fill_blank.zip" download title="Download canvas_qti_v1_2-rna_transcribe_fill_blank.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-rna_transcribe_fill_blank.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-rna_transcribe-FIB-directionless-len_9.zip" download title="Download canvas_qti_v1_2-rna_transcribe-FIB-directionless-len_9.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-rna_transcribe-FIB-directionless-len_9.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-rna_transcribe_fill_blank.html', '_blank')" title="View human_readable-rna_transcribe_fill_blank.html" aria-label="Click to view the Human-Readable TXT file (human_readable-rna_transcribe_fill_blank.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-rna_transcribe-FIB-directionless-len_9.html', '_blank')" title="View human_readable-rna_transcribe-FIB-directionless-len_9.html" aria-label="Click to view the Human-Readable TXT file (human_readable-rna_transcribe-FIB-directionless-len_9.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
@@ -578,31 +578,64 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      mRNA Sequences from DNA Templates
+      mRNA Sequences from DNA Template Strands (9 Bases, Directionless)
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic11/downloads/selftest-rna_transcribe_fill_blank.html" %}
+  {% include "biochemistry/topic11/downloads/selftest-rna_transcribe-FIB-directionless-len_9.html" %}
 
 </details>
 
 
-## mRNA Sequences from DNA Templates (5&#x27; and 3&#x27; Direction)
+## mRNA Sequences from DNA Coding and Template Strands (9 Nucleotides, 5&#x27;/3&#x27; Labels)
 
-<div id="rna_transcribe_prime-len_9-button-container" class="button-container">
+<div id="rna_transcribe-FIB-prime-len_9-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-rna_transcribe-FIB-prime-len_9-questions.txt" download title="Download bbq-rna_transcribe-FIB-prime-len_9-questions.txt" aria-label="Click to download the BBQ Text file (bbq-rna_transcribe-FIB-prime-len_9-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-rna_transcribe-FIB-prime-len_9.zip" download title="Download blackboard_export_zip-rna_transcribe-FIB-prime-len_9.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-rna_transcribe-FIB-prime-len_9.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-rna_transcribe-FIB-prime-len_9.zip" download title="Download canvas_qti_v1_2-rna_transcribe-FIB-prime-len_9.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-rna_transcribe-FIB-prime-len_9.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-rna_transcribe-FIB-prime-len_9.html', '_blank')" title="View human_readable-rna_transcribe-FIB-prime-len_9.html" aria-label="Click to view the Human-Readable TXT file (human_readable-rna_transcribe-FIB-prime-len_9.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      mRNA Sequences from DNA Coding and Template Strands (9 Nucleotides, 5&#x27;/3&#x27; Labels)
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biochemistry/topic11/downloads/selftest-rna_transcribe-FIB-prime-len_9.html" %}
+
+</details>
+
+
+## RNA Transcription: mRNA Sequences from DNA Template Strands (9 Nucleotides, 5&#x27;/3&#x27; Directions)
+
+<div id="rna_transcribe-MC-prime-len_9-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-rna_transcribe_prime-len_9-questions.txt" download title="Download bbq-rna_transcribe_prime-len_9-questions.txt" aria-label="Click to download the BBQ Text file (bbq-rna_transcribe_prime-len_9-questions.txt)">
+<a class="md-button custom-button bb_text" href="bbq-rna_transcribe-MC-prime-len_9-questions.txt" download title="Download bbq-rna_transcribe-MC-prime-len_9-questions.txt" aria-label="Click to download the BBQ Text file (bbq-rna_transcribe-MC-prime-len_9-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-rna_transcribe_prime-len_9.zip" download title="Download blackboard_export_zip-rna_transcribe_prime-len_9.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-rna_transcribe_prime-len_9.zip)">
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-rna_transcribe-MC-prime-len_9.zip" download title="Download blackboard_export_zip-rna_transcribe-MC-prime-len_9.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-rna_transcribe-MC-prime-len_9.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-rna_transcribe_prime-len_9.zip" download title="Download canvas_qti_v1_2-rna_transcribe_prime-len_9.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-rna_transcribe_prime-len_9.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-rna_transcribe-MC-prime-len_9.zip" download title="Download canvas_qti_v1_2-rna_transcribe-MC-prime-len_9.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-rna_transcribe-MC-prime-len_9.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-rna_transcribe_prime-len_9.html', '_blank')" title="View human_readable-rna_transcribe_prime-len_9.html" aria-label="Click to view the Human-Readable TXT file (human_readable-rna_transcribe_prime-len_9.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-rna_transcribe-MC-prime-len_9.html', '_blank')" title="View human_readable-rna_transcribe-MC-prime-len_9.html" aria-label="Click to view the Human-Readable TXT file (human_readable-rna_transcribe-MC-prime-len_9.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
@@ -611,46 +644,13 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      mRNA Sequences from DNA Templates (5&#x27; and 3&#x27; Direction)
+      RNA Transcription: mRNA Sequences from DNA Template Strands (9 Nucleotides, 5&#x27;/3&#x27; Directions)
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "biochemistry/topic11/downloads/selftest-rna_transcribe_prime-len_9.html" %}
-
-</details>
-
-
-## mRNA Sequences from DNA Templates (5&#x27; and 3&#x27; Direction)
-
-<div id="rna_transcribe_prime_fill_blank-len_9-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-rna_transcribe_prime_fill_blank-len_9-questions.txt" download title="Download bbq-rna_transcribe_prime_fill_blank-len_9-questions.txt" aria-label="Click to download the BBQ Text file (bbq-rna_transcribe_prime_fill_blank-len_9-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-rna_transcribe_prime_fill_blank-len_9.zip" download title="Download blackboard_export_zip-rna_transcribe_prime_fill_blank-len_9.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-rna_transcribe_prime_fill_blank-len_9.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-rna_transcribe_prime_fill_blank-len_9.zip" download title="Download canvas_qti_v1_2-rna_transcribe_prime_fill_blank-len_9.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-rna_transcribe_prime_fill_blank-len_9.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-rna_transcribe_prime_fill_blank-len_9.html', '_blank')" title="View human_readable-rna_transcribe_prime_fill_blank-len_9.html" aria-label="Click to view the Human-Readable TXT file (human_readable-rna_transcribe_prime_fill_blank-len_9.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      mRNA Sequences from DNA Templates (5&#x27; and 3&#x27; Direction)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  {% include "biochemistry/topic11/downloads/selftest-rna_transcribe_prime_fill_blank-len_9.html" %}
+  {% include "biochemistry/topic11/downloads/selftest-rna_transcribe-MC-prime-len_9.html" %}
 
 </details>
 

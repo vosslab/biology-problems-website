@@ -35,12 +35,13 @@ def color(text: str, code: str) -> str:
 
 #============================================
 def format_elapsed_time(elapsed_seconds: float) -> str:
-	"""Format one task duration for concise terminal output."""
-	if elapsed_seconds < 60:
-		return f"{elapsed_seconds:.2f}s"
-	minutes = int(elapsed_seconds // 60)
-	seconds = elapsed_seconds % 60
-	return f"{minutes}m {seconds:05.2f}s"
+	"""Format terminal durations in whole seconds, preserving minute rollover."""
+	if 0 < elapsed_seconds < 1:
+		return "<1s"
+	minutes, seconds = divmod(round(elapsed_seconds), 60)
+	if minutes == 0:
+		return f"{seconds}s"
+	return f"{minutes}m {seconds:02d}s"
 
 
 #============================================
@@ -266,35 +267,23 @@ def run_pgml_generation(task: dict, log_path: str, pythonpath_value: str = "") -
 
 
 #============================================
-def copy_sister_pgml(task: dict, log_path: str) -> bool:
-	"""Copy a sister PGML/PG file from the source script directory to downloads.
-
-	Looks for a .pgml or .pg file in the same directory as the task's source
-	script whose basename matches the script (exact or normalized). Copies the
-	first match to {output_dir}/downloads/.
-
-	Args:
-		task: Task dictionary with 'script', 'output_dir', and optionally 'pgml_info'.
-		log_path: Path to the run log file.
-
-	Returns:
-		True on success or benign skip, False on copy failure.
-	"""
+def find_sister_pgml(task: dict) -> str:
+	"""Resolve the companion source used by both copying and cleanup ownership."""
 	# skip if task already has pgml_info (handled by run_pgml_generation)
 	if task.get("pgml_info"):
-		return True
+		return ""
 	script_path = task.get("script", "")
 	if not script_path or not os.path.isfile(script_path):
-		return True
+		return ""
 	source_dir = os.path.dirname(script_path)
 	script_stem = os.path.splitext(os.path.basename(script_path))[0]
 	# gather all .pgml and .pg files in the source directory
 	sister_candidates = []
-	for filename in os.listdir(source_dir):
+	for filename in sorted(os.listdir(source_dir)):
 		if filename.endswith(".pgml") or filename.endswith(".pg"):
 			sister_candidates.append(filename)
 	if not sister_candidates:
-		return True
+		return ""
 	# try exact match first (.pgml before .pg)
 	matched_file = None
 	for ext in (".pgml", ".pg"):
@@ -313,13 +302,21 @@ def copy_sister_pgml(task: dict, log_path: str) -> bool:
 				break
 	# no match found
 	if matched_file is None:
-		log_line(log_path, f"PGML COPY SKIP: no sister file for {os.path.basename(script_path)}")
-		return True
-	# build source and destination paths
+		return ""
 	source_pgml = os.path.join(source_dir, matched_file)
+	return source_pgml
+
+
+#============================================
+def copy_sister_pgml(task: dict, log_path: str) -> bool:
+	"""Copy the task's companion PGML/PG source into its downloads folder."""
+	source_pgml = find_sister_pgml(task)
+	if not source_pgml:
+		return True
+	matched_file = os.path.basename(source_pgml)
 	output_dir = task.get("output_dir", "")
 	if not output_dir:
-		log_line(log_path, f"PGML COPY SKIP: no output_dir for {os.path.basename(script_path)}")
+		log_line(log_path, f"PGML COPY SKIP: no output_dir for {matched_file}")
 		return True
 	downloads_dir = os.path.join(output_dir, "downloads")
 	try:
