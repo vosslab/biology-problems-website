@@ -4,6 +4,9 @@
 
 ### Behavior or Interface Changes
 
+- Remove the self-test wrong-answer buzzer and reduce correct-answer playback volume
+  to 0.2. Visual answer feedback remains available for incorrect answers.
+
 - Add a Question Finder with sortable metadata, searchable column filters, active-filter
   removal, and tab-session state. Link it from navigation, the home page, and the sitemap.
   Preserve one row per visible BBQ file, source-derived types, and existing topic links.
@@ -24,6 +27,9 @@
   generation, even when BBQ filenames include variant suffixes.
 
 ### Developer Tests and Notes
+
+- Self-test storage, completion, and correctness Node tests pass. A temporary playback
+  check confirms incorrect answers stay silent and correct audio plays at volume 0.2.
 
 - Validate Finder generation and build integration with focused Python tests and the
   rendered page with Playwright. Check real CDN/SRI loading, filter combinations,

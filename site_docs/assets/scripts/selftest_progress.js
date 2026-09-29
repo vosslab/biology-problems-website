@@ -282,6 +282,7 @@
 	function playCorrectSound() {
 		try {
 			var audio = new window.Audio(CORRECT_SOUND_URL);
+			audio.volume = 0.2;
 			audio.play();
 		} catch (_) {
 			// Sound playback is optional; silently ignore failures.
