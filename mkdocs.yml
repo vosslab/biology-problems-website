@@ -79,8 +79,7 @@ copyright: >
 
 nav:
 - "<i class='fa fa-home'></i> Home": index.md
-- "📚 All Questions": sitemap.md
-- "Question Finder": question_finder.md
+- "🔍 Question Finder": question_finder.md
 - "\U0001F4C8 Progress": progress/index.md
 - "<i class='fa fa-puzzle-piece'></i> Daily Puzzles":
   - daily_puzzles/index.md
@@ -170,3 +169,4 @@ nav:
   - "<i class='fa fa-chalkboard'></i> Canvas QTI .zip Import Guide": tutorials/canvas_tutorial.md
 - "<i class='fa fa-user-tie'></i> Author": author.md
 - "<i class='fa fa-file-contract'></i> License": license.md
+- "📚 All Questions": sitemap.md

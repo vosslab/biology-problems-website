@@ -4,6 +4,11 @@
 
 ### Behavior or Interface Changes
 
+- Add a magnifying glass emoji to the Question Finder navigation entry.
+
+- Hide streak and self-test progress personalization on the sitemap and Question Finder.
+  Move All Questions to the bottom of the left navigation.
+
 - Remove the self-test wrong-answer buzzer and reduce correct-answer playback volume
   to 0.2. Visual answer feedback remains available for incorrect answers.
 

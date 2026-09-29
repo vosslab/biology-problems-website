@@ -9,7 +9,7 @@ Prefer browsing? [Browse All Questions in the sitemap](sitemap.md).
 <link rel="stylesheet" href="https://cdn.datatables.net/columncontrol/2.1.2/css/columnControl.dataTables.min.css" integrity="sha384-6J0Yn5VflAFZlwwk6LE8FtuppORLtNUl3VhRACLvSgnqT8GA0XA2VTIgkIyf/piJ" crossorigin="anonymous">
 <link rel="stylesheet" href="../assets/stylesheets/question_finder.css">
 
-<div id="question-finder-app" class="question-finder" data-catalog="../assets/data/question_finder.json">
+<div id="question-finder-app" class="question-finder" data-catalog="../assets/data/question_finder.json" data-selftest-personalization="off">
   <p id="finder-status" role="status">Loading question sets. You can also use the sitemap above.</p>
   <button id="finder-retry" type="button" hidden>Retry loading</button>
   <noscript><p>Enable JavaScript to filter this table, or use the sitemap above.</p></noscript>
