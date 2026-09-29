@@ -254,6 +254,10 @@
 
 	//============================================
 	function init() {
+		// Instructor catalog pages opt out of learning-progress personalization.
+		if (document.querySelector('[data-selftest-personalization="off"]')) {
+			return;
+		}
 		renderStreakBadge();
 		renderStreakDashboardPanel();
 		watchResultDivs();
