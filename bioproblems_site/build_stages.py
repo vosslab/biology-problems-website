@@ -9,6 +9,7 @@ import bioproblems_site.metadata as metadata_module
 import bioproblems_site.mkdocs_nav as mkdocs_nav_module
 import bioproblems_site.orphan_prune as orphan_prune_module
 import bioproblems_site.question_index as question_index_module
+import bioproblems_site.question_finder as question_finder_module
 import bioproblems_site.scanner as scanner_module
 import bioproblems_site.selftest_manifest as selftest_manifest_module
 import bioproblems_site.subject_index as subject_index_module
@@ -305,6 +306,15 @@ def run_subject_indexes(
 		dry_run=scope.dry_run,
 	)
 	outputs.add(question_index_path)
+	finder_path = DEFAULT_SITE_DOCS / "assets/data/question_finder.json"
+	if progress:
+		progress.check_cancelled()
+		progress.emit("log", message="Finalizing Question Finder catalog")
+	question_finder_module.write(
+		finder_path, DEFAULT_SITE_DOCS, DEFAULT_METADATA_PATH, DEFAULT_MKDOCS_PATH,
+		dry_run=scope.dry_run,
+	)
+	outputs.add(finder_path)
 	for subject_key in subject_keys:
 		if progress:
 			progress.check_cancelled()

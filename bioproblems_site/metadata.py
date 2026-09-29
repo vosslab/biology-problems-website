@@ -27,6 +27,7 @@ DEFAULT_MKDOCS_PATH = os.path.join(REPO_ROOT, "mkdocs.yml")
 RESERVED_NAV_TARGETS = (
 	"index.md",
 	"sitemap.md",
+	"question_finder.md",
 	"author.md",
 	"license.md",
 )

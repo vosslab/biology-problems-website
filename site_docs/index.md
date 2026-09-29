@@ -5,6 +5,9 @@
 **[Browse All Questions](sitemap.md)** in the sitemap, organized by subject and topic with
 question-type labels for each problem set.
 
+**[Question Finder](question_finder.md)** lets you search and filter problem sets by
+subject, topic, and question type.
+
 ## **Daily Puzzles**
 Daily puzzles designed to strengthen biology knowledge.
 
