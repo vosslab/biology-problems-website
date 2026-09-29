@@ -86,6 +86,8 @@ def render(entries: list[QuestionSetEntry]) -> str:
 	lines = [
 		GENERATED_MARKER,
 		"",
+		'<div data-selftest-personalization="off"></div>',
+		"",
 		"# All Biology Problems",
 		"",
 		"Browse the generated problem sets by subject and topic. Use your browser's "

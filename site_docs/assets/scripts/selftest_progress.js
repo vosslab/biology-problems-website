@@ -537,6 +537,10 @@
 	}
 
 	function initPage() {
+		// Instructor catalog pages do not need progress state or storage warnings.
+		if (document.querySelector('[data-selftest-personalization="off"]')) {
+			return;
+		}
 		var pagePath = normalizePagePath(window.location.pathname);
 		if (initializedPages[pagePath]) {
 			return;
