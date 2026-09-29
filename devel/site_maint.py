@@ -11,6 +11,7 @@ if str(REPO_ROOT) not in sys.path:
 	sys.path.insert(0, str(REPO_ROOT))
 
 from bioproblems_site import biomacromolecule_data, deletion_wordbank, scanner, topics_csv
+import bioproblems_site.question_finder as question_finder
 from bioproblems_site.git_paths import get_repo_root
 
 
@@ -40,6 +41,11 @@ def run_count_questions(_args: argparse.Namespace) -> int:
 	return 0
 
 
+def run_check_finder_dependencies(_args: argparse.Namespace) -> int:
+	question_finder.check_dependencies(Path(get_repo_root()) / "site_docs/question_finder.md")
+	return 0
+
+
 def run_build_biomacromolecule_data(_args: argparse.Namespace) -> int:
 	return biomacromolecule_data.write_js(Path(get_repo_root()))
 
@@ -58,6 +64,7 @@ def run_reset_generated(_args: argparse.Namespace) -> int:
 		":(glob)site_docs/**/bbq-*-questions.txt",
 		"site_docs/assets/data/selftest_question_manifest.json",
 		"site_docs/sitemap.md",
+		"site_docs/assets/data/question_finder.json",
 	]
 	subprocess.run(["git", "checkout", "--", *pathspecs], cwd=repo_root, check=True)
 	subprocess.run(
@@ -78,6 +85,9 @@ def build_parser() -> argparse.ArgumentParser:
 	topics_parser.add_argument("-k", "--mkdocs", default="mkdocs.yml")
 	subparsers.add_parser("count-questions", help="Count lines in generated BBQ text files.")
 	subparsers.add_parser(
+		"check-finder-dependencies", help="Report Question Finder CDN dependency freshness.",
+	)
+	subparsers.add_parser(
 		"build-biomacromolecule-data",
 		help="Build the biomacromolecule puzzle data JavaScript.",
 	)
@@ -96,6 +106,7 @@ def main() -> None:
 	dispatch = {
 		"topics-csv": run_topics_csv,
 		"count-questions": run_count_questions,
+		"check-finder-dependencies": run_check_finder_dependencies,
 		"build-biomacromolecule-data": run_build_biomacromolecule_data,
 		"build-deletion-wordbank": run_build_deletion_wordbank,
 		"reset-generated": run_reset_generated,

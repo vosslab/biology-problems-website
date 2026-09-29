@@ -195,12 +195,33 @@ schema and alias contract, see
 ```bash
 source source_me.sh && python3 devel/site_maint.py topics-csv -o /tmp/topics.csv
 source source_me.sh && python3 devel/site_maint.py count-questions
+source source_me.sh && python3 devel/site_maint.py check-finder-dependencies
 source source_me.sh && python3 devel/site_maint.py reset-generated
 ```
 
 The `build-biomacromolecule-data` and `build-deletion-wordbank` subcommands
 wrap the corresponding package generators. Browser tests run with
 `bash devel/run_playwright_tests.sh`.
+
+## Question Finder
+
+The Question Finder searches problem-set metadata and links to existing topic pages.
+Each visible BBQ text file supplies one row; names come from the shared title cache
+and types from the source file. Final indexing in `build_site.py` refreshes
+`site_docs/assets/data/question_finder.json` for the complete current corpus,
+including during scoped builds. The sitemap remains available for browsing.
+
+DataTables and ColumnControl load only on the Finder page from versioned CDN URLs
+with SRI. The freshness command above reads the versions from that page and compares
+them with the publisher's npm stable releases. Pages runs this as an advisory check;
+newer releases do not block publication or update files automatically.
+
+When refreshing dependencies, use current stable releases, review their release notes,
+and update all four CDN URLs and SHA-384 integrity hashes together in
+`site_docs/question_finder.md`. Compute each hash from the downloaded asset with
+`openssl dgst -sha384 -binary asset-file | openssl base64 -A`, prefixing it with
+`sha384-`. Then run `bash devel/run_playwright_tests.sh question_finder.spec.ts`
+to check real CDN/SRI loading and filtering. Production needs no Node build step.
 
 ## Documentation screenshots
 

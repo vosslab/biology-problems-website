@@ -4,10 +4,18 @@
 
 ### Behavior or Interface Changes
 
+- Add a Question Finder with sortable metadata, searchable column filters, active-filter
+  removal, and tab-session state. Link it from navigation, the home page, and the sitemap.
+  Preserve one row per visible BBQ file, source-derived types, and existing topic links.
+
 - Add a prominent All Questions sitemap link near the top of the home page.
   Confirm the existing All Questions entry in the left navigation links to the same page.
 
 ### Fixes and Maintenance
+
+- Refresh the complete Finder catalog during final indexing, including scoped builds.
+  Load versioned DataTables/ColumnControl CDN assets with SRI only on the Finder page.
+  Add an advisory dependency freshness command and Pages workflow check.
 
 - Remove Git operations from the site build except repository-root discovery.
   Orphan deletion and quarantine now use the filesystem regardless of staging
@@ -16,6 +24,11 @@
   generation, even when BBQ filenames include variant suffixes.
 
 ### Developer Tests and Notes
+
+- Validate Finder generation and build integration with focused Python tests and the
+  rendered page with Playwright. Check real CDN/SRI loading, filter combinations,
+  session restoration, sorting, pagination, keyboard controls, and load recovery;
+  inspect desktop light and mobile dark presentation.
 
 - Recovered the completed build by rerunning only final cleanup and indexing:
   reconciled 59 topic folders and refreshed 10 index, navigation, and manifest

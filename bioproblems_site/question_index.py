@@ -90,6 +90,8 @@ def render(entries: list[QuestionSetEntry]) -> str:
 		"",
 		"Browse the generated problem sets by subject and topic. Use your browser's "
 		"Find command to search all problem-set titles on this page.",
+		"For sortable results and subject, topic, and type filters, use the "
+		"[Question Finder](question_finder.md).",
 		"",
 		f"**{len(entries)} problem sets**",
 		"",
