@@ -518,7 +518,7 @@ def reconcile_topic(
 
 	Returns:
 		dict: Risk-grouped action plan with keys delete_sources, delete_downloads,
-			strip_includes, quarantine_sources, and unmanaged. reconcile_all adds
+			strip_includes, quarantine_sources, unmanaged, and deferred. reconcile_all adds
 		drop_cache_keys for the single repository-wide title cache.
 	"""
 	# A supplied task map replaces the legacy file-exists definition of live.
@@ -600,7 +600,7 @@ def reconcile_all(
 	Returns:
 		dict: Combined risk-grouped action plan across all topics, with keys
 			delete_sources, delete_downloads, strip_includes, drop_cache_keys,
-			quarantine_sources, and unmanaged.
+			quarantine_sources, unmanaged, and deferred.
 	"""
 	# Match topic_page.render_all's topic-folder glob shape exactly
 	all_topic_folders = sorted(glob.glob(os.path.join(site_docs_dir, "*/topic??/")))

@@ -10,6 +10,12 @@
   continues. Preserve task-owned PGML companions using the same discovery as
   generation, even when BBQ filenames include variant suffixes.
 
+### Developer Tests and Notes
+
+- Recovered the completed build by rerunning only final cleanup and indexing:
+  reconciled 59 topic folders and refreshed 10 index, navigation, and manifest
+  outputs without repeating question generation or export conversion.
+
 ## 2026-09-28
 
 ### Fixes and Maintenance

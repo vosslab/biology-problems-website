@@ -1076,8 +1076,6 @@ def regenerate_all_selftests(
 	file_count = 0
 	for topic_folder, bbq_files in topic_jobs:
 		for bbq_file in bbq_files:
-			# Canonicalize so the path is stable regardless of how glob
-			# returned it (matches update_index_md's handling).
 			file_count += 1
 			# create_downloadable_format preserves the current file until the
 			# replacement passes its converter output checks.
