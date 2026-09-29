@@ -4,6 +4,10 @@
 
 ### Fixes and Maintenance
 
+- Move answer sizing and diagram row selection into qti-package-maker's shared
+  self-test output. Keep only Material table-gutter integration in website CSS;
+  refresh existing self-test markup and shared styles without changing questions.
+
 - Make answer labels allocate available space to their content while keeping
   the answer letter visible. Remove Material's article-table gutters inside
   answer labels so they do not introduce horizontal scrollbars. Remove the
