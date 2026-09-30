@@ -35,7 +35,6 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
       example problem
     </span>
   </summary>
-  {% include "genetics/topic04/downloads/selftest-MATCH-degrees_of_dominance.html" %}
 
 </details>
 
@@ -251,7 +250,6 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
       example problem
     </span>
   </summary>
-  {% include "genetics/topic04/downloads/selftest-WOMC-degrees_of_dominance.html" %}
 
 </details>
 
@@ -464,7 +462,6 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
       example problem
     </span>
   </summary>
-  {% include "genetics/topic04/downloads/selftest-monohybrid_degrees_of_dominance.html" %}
 
 </details>
 
