@@ -7,7 +7,7 @@
 Browse the generated problem sets by subject and topic. Use your browser's Find command to search all problem-set titles on this page.
 For sortable results and subject, topic, and type filters, use the [Question Finder](question_finder.md).
 
-**462 problem sets**
+**471 problem sets**
 
 ## Biochemistry
 
@@ -224,6 +224,11 @@ For sortable results and subject, topic, and type filters, use the [Question Fin
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic02/">Complementary DNA Sequences Without Direction Labels</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic02/">Complementary DNA Sequences with 5&#x27; and 3&#x27; Direction Labels</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../genetics/topic02/">Restriction Fragment Sizes from Linear DNA Maps (10 kb, 2 Sites, Fragment Diagram)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../genetics/topic02/">Restriction Digest Fragment Sizes from Linear DNA Maps (3 Cut Sites, Internal Segment)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../genetics/topic02/">Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Fragment Diagram)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../genetics/topic02/">Restriction Digest Band Sizes from Linear DNA Maps (3 Sites, Internal Segment)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../genetics/topic02/">Restriction Digest Band Sizes from Linear DNA Maps (4 Cut Sites)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../genetics/topic02/">Restriction Digest Band Sizes from Linear DNA Maps (Single Enzyme)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic02/">Restriction Enzyme Overhang Sequences</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic02/">Restriction Enzyme Cut Types (5&#x27;, 3&#x27;, or Blunt)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic02/">Restriction Enzyme Cut Types (Blunt or Sticky)</a></span>
@@ -237,6 +242,8 @@ For sortable results and subject, topic, and type filters, use the [Question Fin
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic03/">RFLP Paternity Testing from DNA Gels (Easy, 3 Males)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic03/">RFLP Paternity Testing from DNA Gels (Hard, 9 Males)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic03/">RFLP Paternity Testing from DNA Gels (Medium, 5 Males)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic03/">RFLP Suspect Identification from DNA Profiles (Easy, 4 Suspects)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic03/">RFLP Suspect Identification from DNA Profiles (Hard, 9 Suspects)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic03/">RFLP Suspect Identification from DNA Profiles (Medium, 5 Suspects)</a></span>
 
 ### Mendelian Genetics
@@ -286,6 +293,7 @@ For sortable results and subject, topic, and type filters, use the [Question Fin
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic06/">Combined Autosomal Dominant and X-Linked Recessive Inheritance (Both Disorders)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic06/">Combined Autosomal Dominant and X-Linked Recessive Inheritance (Varied Outcomes)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic06/">Parent Genotypes in X-Linked Recessive Crosses</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic06/">Offspring Sex Distribution Using the Binomial Model</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic06/">X-linked Eye Color Inheritance</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic06/">X-linked Coat Color Probability</a></span>
 
@@ -298,6 +306,7 @@ For sortable results and subject, topic, and type filters, use the [Question Fin
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic07/">Hypothesis Decisions from Chi-Square Tests</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic07/">Errors in Chi-Square Calculations and Hypothesis Decisions</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic07/">Chi-Square Tests for Hardy-Weinberg Equilibrium</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic07/">Null and Alternative Hypotheses for Genetic Crosses</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic07/">Misstated Null Hypotheses for Genetic Ratios</a></span>
 
 ### Gene Mapping
