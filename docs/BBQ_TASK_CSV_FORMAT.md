@@ -12,7 +12,8 @@ operational usage of the runner, see
 
 ## Header row
 
-CSVs are plain RFC 4180 with a header row. The supported columns are:
+CSVs use RFC 4180 fields with a header row and optional `# comment` lines.
+The supported columns are:
 
 | Column        | Required | Notes                                                              |
 | ---           | ---      | ---                                                                |
@@ -101,6 +102,24 @@ A row whose `script` and `flags` cells are both empty is treated as a
 visual separator and skipped at parse time. Use blank rows to group
 related tasks (typically per topic) and keep the CSV scannable. The
 resolver is never asked to validate the topic cell on a separator row.
+
+## Comment lines
+
+The task loader ignores any line starting with the exact, case-sensitive prefix
+`# comment`. Add a standalone note or prepend `# comment ` to disable a task row:
+
+```csv
+# comment Temporarily disabled while revising this question
+subject,topic,script,flags,input,notes
+# comment biochemistry,amino_acids,disabled.py,,,
+biochemistry,amino_acids,active.py,,,
+```
+
+Comment lines may appear before the header, between tasks, or at the end of the file.
+They do not need CSV fields or balanced quotes. Error messages and task row numbers
+still refer to the original file lines. Put the prefix at the beginning of the line,
+with no leading spaces. Text within a field is handled as ordinary CSV content.
+Files must still contain a valid header and at least one active task row.
 
 ## Examples
 

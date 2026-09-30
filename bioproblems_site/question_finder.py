@@ -106,7 +106,9 @@ def check_dependencies(page_path: Path) -> None:
 	for package in packages:
 		url = f"https://registry.npmjs.org/{package}/latest"
 		time.sleep(random.random())
-		with urllib.request.urlopen(url, timeout=30) as response:
+		# ASVS 12.2.1: the HTTPS registry and package names above are fixed constants.
+		# No page content or caller input can select a URL scheme or destination.
+		with urllib.request.urlopen(url, timeout=30) as response:  # nosec B310
 			latest = json.load(response)["version"]
 		current = parser.versions[package]
 		newer = stable_version(latest) > stable_version(current)

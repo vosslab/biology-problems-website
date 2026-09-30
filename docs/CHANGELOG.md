@@ -1,5 +1,50 @@
 # Changelog
 
+## 2026-09-30
+
+### Behavior or Interface Changes
+
+- Group CLI help examples by workflow and show self-test rebuilds for all subjects,
+  one subject, and one topic by alias or title. Clarify that subject/topic filters
+  apply to standalone modes and include a focused dry-run example.
+
+- Restore standalone rebuild modes in `build_site.py`: `-H/--selftests-only`
+  rebuilds self-test HTML and its manifest from existing BBQ files;
+  `-I/--indexes-only` rewrites topic and subject indexes, navigation, and catalogs.
+  Both force their selected artifacts and honor subject/topic filters and dry runs.
+
+- Ignore lines beginning with `# comment` in task CSV files, including standalone
+  notes and disabled task rows. Preserve original line numbers for active tasks
+  and validation errors; comments may appear before the header.
+
+### Fixes and Maintenance
+
+- Document the fixed HTTPS npm registry and fixed package names at the URL-open
+  call, with a narrow B310 false-positive exemption. Preserve the vendored
+  Bandit and typing gates; annotate the catalog capture helper and give its
+  cleanup mock the real reconciliation-report shape.
+
+### Developer Tests and Notes
+
+- Apply the permanent-test checklist to recent rebuild and Finder coverage.
+  Remove duplicated flag-mapping checks, legacy-command rejection, and advisory
+  message-format verification as one-time implementation proof. Keep durable
+  catalog identity, global catalog scope, dry-run behavior, CSV comment handling,
+  and isolation of standalone rebuilds from generators and converters.
+  Disposable converter/render checks remain one-time evidence and are removed.
+- After the fixes and test retention review, `source source_me.sh && pytest tests/ -q`
+  passes the complete suite: 5,775 tests, zero failures.
+
+- Validate standalone rebuild selection, CLI flags, existing-source conversion,
+  manifest refresh, topic/subject index writers, and dry-run file preservation.
+  All 78 focused build, loader, cleanup, manifest, page, timing, and dashboard
+  tests pass; real conversion and index rendering pass in a disposable site copy.
+
+- Add focused loader coverage for notes, disabled rows, malformed comment text,
+  original task line numbers, and validation errors following comments.
+- All 57 focused loader, build workflow, and orphan cleanup tests pass. Pyflakes
+  passes for the changed Python files.
+
 ## 2026-09-29
 
 ### Behavior or Interface Changes

@@ -51,3 +51,4 @@ class BuildScope:
 	max_questions: int | None = None
 	backend: str = "codex"
 	model: str | None = None
+	mode: str = "all"

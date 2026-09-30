@@ -2,6 +2,7 @@
 
 from dataclasses import dataclass, field
 from pathlib import Path
+from collections.abc import Callable
 import time
 
 import bioproblems_site.bbq_workflow as bbq_workflow
@@ -204,8 +205,86 @@ def _run_task_row_artifact_stages(
 
 
 #============================================
+def _run_artifact_operation(
+	phase: str,
+	label: str,
+	operation: Callable[[], set[Path]],
+	scope: BuildScope,
+	stage_files: dict[str, set[Path]],
+	stage_seconds: dict[str, float],
+	progress: BuildProgress | None,
+) -> None:
+	"""Measure one standalone operation with the normal progress and error events."""
+	if progress:
+		progress.check_cancelled()
+		progress.emit("stage_started", phase=phase, label=label)
+	started = time.perf_counter()
+	try:
+		outputs = operation()
+	except BuildCancelledError:
+		raise
+	except Exception as error:
+		if progress:
+			progress.emit(
+				"stage_failed", phase=phase, label=label,
+				duration=time.perf_counter() - started, detail=str(error),
+			)
+		raise
+	duration = time.perf_counter() - started
+	stage_files.setdefault(phase, set()).update(outputs)
+	stage_seconds[phase] = stage_seconds.get(phase, 0.0) + duration
+	if progress:
+		progress.emit(
+			"stage_completed", phase=phase, label=label, duration=duration,
+			executed=not scope.dry_run, planned=scope.dry_run,
+		)
+
+
+#============================================
+def _build_existing_artifacts(scope: BuildScope, progress: BuildProgress | None) -> BuildReport:
+	"""Force selected derived artifacts from existing sources without BBQ generation."""
+	started = time.perf_counter()
+	topics = _full_scope_topics(scope)
+	stage_files: dict[str, set[Path]] = {}
+	stage_seconds: dict[str, float] = {}
+	phase = "selftests" if scope.mode == "selftests" else "topic_pages"
+	label = "Self-test manifest" if scope.mode == "selftests" else "Indexes, navigation, manifest"
+	if progress:
+		progress.emit("phase_plan", phase=phase, total=len(topics))
+		progress.emit("phase_plan", phase="indexes", total=1, label=label)
+	for topic_ref in sorted(topics):
+		def render_topic() -> set[Path]:
+			if scope.mode == "selftests":
+				return build_stages.run_selftests(topic_ref, scope, progress=progress)
+			return build_stages.run_topic_page(topic_ref, scope)
+
+		_run_artifact_operation(
+			phase, f"{topic_ref.subject}/{topic_ref.topic}", render_topic,
+			scope, stage_files, stage_seconds, progress,
+		)
+
+	def finalize() -> set[Path]:
+		if scope.mode == "selftests":
+			return build_stages.run_selftest_manifest(scope, topics, progress)
+		return build_stages.run_subject_indexes(scope, topics, progress)
+
+	_run_artifact_operation(
+		"indexes", label, finalize, scope, stage_files, stage_seconds, progress,
+	)
+	report = BuildReport(
+		changes=BuildChanges(selected_topics=topics), stage_files=stage_files,
+		stage_seconds=stage_seconds, elapsed_seconds=time.perf_counter() - started,
+	)
+	return report
+
+
+#============================================
 def build_site(scope: BuildScope, progress: BuildProgress | None = None) -> BuildReport:
 	"""Build row-owned artifacts in order, then each affected topic page once."""
+	if scope.mode != "all":
+		if scope.mode not in ("selftests", "indexes"):
+			raise ValueError(f"Unknown build mode: {scope.mode!r}")
+		return _build_existing_artifacts(scope, progress)
 	build_start = time.perf_counter()
 	stage_files: dict[str, set[Path]] = {"bbq": set()}
 	stage_seconds = {

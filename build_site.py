@@ -22,27 +22,48 @@ def build_parser() -> argparse.ArgumentParser:
 		description="Build and update the Biology Problems website content.",
 		add_help=False,
 		epilog=(
-			"This command generates BBQ content and updates self-tests, topic pages,\n"
-			"downloads, indexes, and navigation. Then run MkDocs to build the final\n"
-			"static site.\n\n"
+			"The default workflow generates stale BBQ content and updates self-tests,\n"
+			"downloads, topic pages, indexes, and navigation. Use -H or -I to rebuild\n"
+			"selected artifacts from existing BBQ files. Both modes honor -S and -T\n"
+			"and force their selected outputs without needing --rebuild.\n"
+			"Topic filters require a subject and accept a key, alias, or quoted title.\n"
+			"Then run MkDocs to build the final static site.\n\n"
 			"Examples:\n"
-			"  ./build_site.py\n"
-			"  ./build_site.py -S genetics\n"
-			"  ./build_site.py -S genetics -T topic01\n"
-			"  ./build_site.py -S genetics -T 'Genetic Disorders'\n"
-			"  ./build_site.py --task task_files/genetics_tasks1.csv\n"
-			"  ./build_site.py -x 99\n"
-			"  ./build_site.py -R -l 1\n"
-			"  ./build_site.py -b codex\n"
-			"  ./build_site.py -n\n"
-			"  ./build_site.py -S genetics -T topic01 --rebuild"
+			"  Generate questions and update site content:\n"
+			"    ./build_site.py\n"
+			"    ./build_site.py --task task_files/genetics_tasks1.csv\n"
+			"    ./build_site.py -S genetics -T topic01 --rebuild\n\n"
+			"  Rebuild self-test HTML (all subjects, one subject, or one topic):\n"
+			"    ./build_site.py -H\n"
+			"    ./build_site.py -H -S genetics\n"
+			"    ./build_site.py -H -S genetics -T genetic_disorders\n"
+			"    ./build_site.py -H -S genetics -T 'Genetic Disorders'\n\n"
+			"  Rewrite generated topic and subject index.md pages:\n"
+			"    ./build_site.py -I\n"
+			"    ./build_site.py -I -S genetics\n"
+			"    ./build_site.py -I -S genetics -T topic01\n\n"
+			"  Preview a focused self-test rebuild without changing files:\n"
+			"    ./build_site.py -H -S genetics -T topic01 -n --cli\n\n"
+			"  Set question counts or sample one task row:\n"
+			"    ./build_site.py -x 99\n"
+			"    ./build_site.py -R -l 1"
 		),
 		formatter_class=argparse.RawDescriptionHelpFormatter,
 	)
 	parser.add_argument("-h", "--help", action="help", help="Show this help message and exit.")
+	mode_group = parser.add_mutually_exclusive_group()
+	mode_group.add_argument(
+		"-H", "--selftests-only", dest="mode", action="store_const", const="selftests",
+		help="Regenerate self-test HTML in the selected subject/topic scope and refresh its manifest.",
+	)
+	mode_group.add_argument(
+		"-I", "--indexes-only", dest="mode", action="store_const", const="indexes",
+		help="Rewrite generated topic and subject index.md pages and refresh navigation/catalogs.",
+	)
+	parser.set_defaults(mode="all")
 	parser.add_argument(
 		"-S", "--subject", dest="subject", metavar="SUBJECT",
-		help="Build only one subject, for example genetics.",
+		help="Limit any build mode to one subject, for example genetics.",
 	)
 	parser.add_argument(
 		"-T", "--topic", dest="topic", metavar="TOPIC",
@@ -145,14 +166,23 @@ def _scope_from_args(args: argparse.Namespace) -> build_contracts.BuildScope:
 		raise ValueError("--limit must be positive")
 	if args.max_questions is not None and args.max_questions <= 0:
 		raise ValueError("--max-questions must be positive")
-	if args.topic is not None:
-		if args.subject is None:
-			raise ValueError("--topic requires --subject")
+	# ASVS 2.2.1: artifact-only modes use subject/topic scope, never generator controls.
+	if args.mode != "all" and any((
+		args.task_file, args.limit, args.shuffle, args.max_questions,
+	)):
+		raise ValueError(
+			"--selftests-only and --indexes-only cannot use "
+			"--task, --limit, --shuffle, or --max-questions; use --subject and --topic"
+		)
+	if args.topic is not None and args.subject is None:
+		raise ValueError("--topic requires --subject")
+	if args.subject is not None:
 		subjects, _nav_order = metadata.load_topics_metadata()
 		if args.subject not in subjects:
 			raise ValueError(
 				f"Unknown subject {args.subject!r}; expected one of {sorted(subjects)}"
 			)
+	if args.topic is not None:
 		topic = _resolve_topic_filter(subjects[args.subject], args.topic)
 	else:
 		topic = None
@@ -181,6 +211,7 @@ def _scope_from_args(args: argparse.Namespace) -> build_contracts.BuildScope:
 		max_questions=args.max_questions,
 		backend=args.backend,
 		model=args.model,
+		mode=args.mode,
 	)
 	return scope
 

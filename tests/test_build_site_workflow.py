@@ -14,10 +14,58 @@ from bioproblems_site.build_contracts import BuildChanges, BuildScope, TaskBuild
 
 
 #============================================
-def test_parse_scope_rejects_legacy_subcommands() -> None:
-	"""The replacement CLI has no compatibility aliases for pages or BBQ."""
-	with pytest.raises(SystemExit):
-		build_site.parse_scope(["pages"])
+@pytest.mark.parametrize("mode", ["selftests", "indexes"])
+def test_artifact_only_build_uses_existing_sources_and_selected_topics(
+	monkeypatch: pytest.MonkeyPatch, tmp_path: Path, mode: str,
+) -> None:
+	"""Standalone rebuilds force only their selected artifacts without BBQ or exports."""
+	topics = (
+		metadata.Topic("topic01", "Topic 1", "", None, True, None),
+		metadata.Topic("topic02", "Topic 2", "", None, True, None),
+	)
+	subjects = {"genetics": metadata.Subject("genetics", "Genetics", "", topics)}
+	monkeypatch.setattr(
+		build_coordinator.metadata_module, "load_topics_metadata",
+		lambda **kwargs: (subjects, ["genetics"]),
+	)
+	monkeypatch.setattr(
+		bbq_workflow, "iter_task_results",
+		lambda *args: pytest.fail("Artifact-only builds must not run BBQ generators"),
+	)
+	monkeypatch.setattr(
+		build_stages, "run_downloads",
+		lambda *args: pytest.fail("Artifact-only builds must not create export downloads"),
+	)
+	events: list[tuple[str, str]] = []
+
+	def render(topic: TopicRef, scope: BuildScope, **kwargs: object) -> set[Path]:
+		events.append((scope.mode, topic.topic))
+		return {tmp_path / topic.topic / ("selftest.html" if mode == "selftests" else "index.md")}
+
+	def finalize(scope: BuildScope, selected: set[TopicRef], progress: object) -> set[Path]:
+		events.append(("finalize", scope.mode))
+		assert selected == {TopicRef("genetics", "topic01")}
+		return {tmp_path / "manifest.json"}
+
+	if mode == "selftests":
+		monkeypatch.setattr(build_stages, "run_selftests", render)
+		monkeypatch.setattr(build_stages, "run_selftest_manifest", finalize)
+		monkeypatch.setattr(
+			build_stages, "run_topic_page", lambda *args: pytest.fail("Selftests cannot write pages"),
+		)
+		monkeypatch.setattr(
+			build_stages, "run_subject_indexes", lambda *args: pytest.fail("Selftests cannot index"),
+		)
+	else:
+		monkeypatch.setattr(build_stages, "run_topic_page", render)
+		monkeypatch.setattr(build_stages, "run_subject_indexes", finalize)
+		monkeypatch.setattr(
+			build_stages, "run_selftests", lambda *args: pytest.fail("Indexes cannot build selftests"),
+		)
+	scope = BuildScope(mode=mode, subject="genetics", topic="topic01")
+	report = build_coordinator.build_site(scope)
+	assert set(events) == {(mode, "topic01"), ("finalize", mode)}
+	assert report.changes.selected_topics == {TopicRef("genetics", "topic01")}
 
 
 #============================================
