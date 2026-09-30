@@ -490,8 +490,16 @@ bbq-letter_translocation_problem_color-questions.txt: Chromosomal Translocation 
   (Color, MC)
 bbq-linear_digest-len_10-sites_2-fragment-questions.txt: Restriction Fragment Sizes
   from Linear DNA Maps (10 kb, 2 Sites, Fragment Diagram, MA)
+bbq-linear_digest-len_10-sites_3-strand-questions.txt: Restriction Digest Fragment
+  Sizes from Linear DNA Maps (3 Cut Sites, Internal Segment, MA)
 bbq-linear_digest-len_12-sites_3-fragment-questions.txt: Restriction Fragment Sizes
   from Linear DNA Maps (12 kb, 3 Sites, Fragment Diagram, MA)
+bbq-linear_digest-len_12-sites_3-strand-questions.txt: Restriction Digest Band Sizes
+  from Linear DNA Maps (3 Sites, Internal Segment, MA)
+bbq-linear_digest-len_16-sites_4-fragment-questions.txt: Restriction Digest Band Sizes
+  from Linear DNA Maps (4 Cut Sites, MA)
+bbq-linear_digest-len_16-sites_4-strand-questions.txt: Restriction Digest Band Sizes
+  from Linear DNA Maps (Single Enzyme, MA)
 bbq-match_amino_acid_structures-4_choices-questions.txt: Amino Acids from Chemical
   Structures (4 Choices, Matching)
 bbq-match_purine_structures-3_choices-questions.txt: Purine Names from Chemical Structures
@@ -659,6 +667,10 @@ bbq-who_father_html-HARD-9_males-questions.txt: RFLP Paternity Testing from DNA 
   (Hard, 9 Males, MC)
 bbq-who_father_html-MEDIUM-5_males-questions.txt: RFLP Paternity Testing from DNA
   Gels (Medium, 5 Males, MC)
+bbq-who_killer_html-EASY-4_suspects-questions.txt: RFLP Suspect Identification from
+  DNA Profiles (Easy, 4 Suspects, MC)
+bbq-who_killer_html-HARD-9_suspects-questions.txt: RFLP Suspect Identification from
+  DNA Profiles (Hard, 9 Suspects, MC)
 bbq-who_killer_html-MEDIUM-5_suspects-questions.txt: RFLP Suspect Identification from
   DNA Profiles (Medium, 5 Suspects, MC)
 bbq-wordle_peptides-FIB-questions.txt: Pentapeptide Sequences from Structures (Wordle
@@ -671,4 +683,4 @@ bbq-x_linked_reciprocal_cross-questions.txt: X-linked Eye Color Inheritance (MC)
 bbq-x_linked_tortoiseshell-questions.txt: X-linked Coat Color Probability (MC)
 bbq-z_score_google_sheet-questions.txt: Z-Scores in Google Sheets (MC)
 bbq-z_score_table_interp-questions.txt: Biodiversity Comparisons Using Z-Scores (MC)
-last edit: Mon Sep 28 20:55:39 2026
+last edit: Wed Sep 30 09:32:16 2026
