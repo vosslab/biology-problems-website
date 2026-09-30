@@ -7,7 +7,7 @@
 Browse the generated problem sets by subject and topic. Use your browser's Find command to search all problem-set titles on this page.
 For sortable results and subject, topic, and type filters, use the [Question Finder](question_finder.md).
 
-**471 problem sets**
+**481 problem sets**
 
 ## Biochemistry
 
@@ -317,14 +317,18 @@ For sortable results and subject, topic, and type filters, use the [Question Fin
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic08/">Genetic Distance from Unordered Two-Gene Tetrads (6 Choices)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic08/">Linkage Tests from Unordered Two-Gene Tetrads</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-multi-fib" title="Multiple Fill in the Blanks">Multi-FiB</abbr></span><a href="../genetics/topic08/">Gene Order and Map Distances from Three-Point Test Crosses</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic08/">Crossover Interference from Three-Point Test Cross Data (6 Choices)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span><a href="../genetics/topic08/">Interference in Three-Point Test Crosses</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic08/">Genetic Distance for a Gene Pair from Three-Point Test Crosses</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span><a href="../genetics/topic08/">Genetic Distance for a Gene Pair from Three-Point Test Crosses</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../genetics/topic08/">Double-Crossover Genotypes in Three-Point Test Crosses</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../genetics/topic08/">Recombinant Genotypes for a Gene Pair from Three-Point Test Cross Data</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../genetics/topic08/">Three-Point Test Cross: Parental Genotypes from Progeny Counts</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic08/">Gene Configuration (Cis vs. Trans) in Two-Point Test Crosses</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic08/">Genetic Distance in Two-Point Test Crosses (6 Choices)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span><a href="../genetics/topic08/">Genetic Distance in Two-Point Test Crosses</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../genetics/topic08/">Parental Genotype Combinations in a Two-Point Test Cross</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../genetics/topic08/">Recombinant Genotypes from Two-Point Test Cross Progeny Counts (With Hint)</a></span>
 
 ### Chromosomal Disorders
 
@@ -342,6 +346,7 @@ For sortable results and subject, topic, and type filters, use the [Question Fin
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic09/">Gene Order from Deletion Mutants (6 Genes, Random Labels)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic09/">Gene Order from Deletion Mutants (4 Genes, Word Labels)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic09/">Gene Order from Deletion Mutants (5 Genes, Word Labels)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic09/">Gene Order from Deletion Mutants (6 Genes, English Word Answers)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic09/">Chromosomal Translocation Outcomes (Color)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic09/">Gamete Chromosome Numbers in Polyploids</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic09/">Monoploid and Haploid Numbers from Chromosome Counts</a></span>
@@ -363,7 +368,10 @@ For sortable results and subject, topic, and type filters, use the [Question Fin
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic11/">Phylogenetic Trees from Distance Matrices (5 Taxa)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic11/">Phylogenetic Trees from Distance Matrices (6 Taxa)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic11/">Phylogenetic Trees from Distance Matrices (7 Taxa)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic11/">Phylogenetic Tree Comparison: Identifying Different Evolutionary Relationships (6 Taxa, With Hint, Easy)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic11/">Non-Equivalent Phylogenetic Tree Structures (Medium)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic11/">Phylogenetic Tree Equivalence (5 Taxa, Rotation Hint, Easy)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic11/">Phylogenetic Tree Equivalence by Node Rotation (6 Taxa, With Hint, Medium)</a></span>
 
 ## Laboratory
 
@@ -472,7 +480,9 @@ For sortable results and subject, topic, and type filters, use the [Question Fin
 ### RNA Transcription
 
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../molecular_biology/topic07/">Genes Expressed by Activator Proteins</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span><a href="../molecular_biology/topic07/">mRNA Sequences from DNA Template Strands (9 Bases, Directionless)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span><a href="../molecular_biology/topic07/">mRNA Sequences from DNA Coding and Template Strands (9 Nucleotides, 5&#x27;/3&#x27; Labels)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../molecular_biology/topic07/">RNA Transcription: mRNA Sequences from DNA Template Strands (9 Nucleotides, 5&#x27;/3&#x27; Directions)</a></span>
 
 ### RNA Processing and CRISPR
 

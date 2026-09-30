@@ -20,7 +20,7 @@ Questions ask students to transcribe DNA to mRNA, translate codons to amino acid
 4. [DNA Replication](topic06/index.md) <span class='topic-count' title='8 questions'>8 questions</span>
     - Replication machinery, origins, forks, and fidelity mechanisms.
 
-5. [RNA Transcription](topic07/index.md) <span class='topic-count' title='2 questions'>2 questions</span>
+5. [RNA Transcription](topic07/index.md) <span class='topic-count' title='4 questions'>4 questions</span>
     - Transcription of genes, RNA polymerase, promoters, and regulation.
 
 6. [RNA Processing and CRISPR](topic08/index.md) <span class='topic-count' title='3 questions'>3 questions</span>

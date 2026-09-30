@@ -1,170 +1,227 @@
-<script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n/* Each choice row: min 40px height for comfortable tap targets */\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  margin: 4px 0;\n  padding: 6px 4px;\n  min-height: 40px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: flex;\n  flex: 1;\n  min-width: 0;\n  align-items: center;\n  gap: 10px;\n  margin: 0;\n  cursor: pointer;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label > span:first-child {\n  flex-shrink: 0;\n}\n.qti-selftest .qti-choice-content {\n  flex: 1;\n  min-width: 0;\n  overflow-x: auto;\n}\n/* Preserve cell sizing when a host theme makes tables inline blocks. */\n.qti-selftest table:not([class]) {\n  display: table;\n}\n/* Enlarged radio/checkbox inputs: ~1.4em via width/height, transform-origin top-left keeps layout aligned */\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n  flex-shrink: 0;\n  width: 1.4em;\n  height: 1.4em;\n  cursor: pointer;\n  accent-color: var(--qti-btn-bg, #3a5acd);\n}\n.qti-dropzone {\n  background-color: var(--qti-dropzone-bg, #f8f8f8);\n}\n.qti-dropzone-hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Primary filled button (Check Answer) */\n.qti-btn {\n  background-color: var(--qti-btn-bg, #3a5acd);\n  color: var(--qti-btn-fg, #ffffff);\n  border: none;\n  border-radius: 4px;\n  padding: 8px 20px;\n  font-weight: 600;\n  cursor: pointer;\n}\n.qti-btn:hover {\n  filter: brightness(1.1);\n}\n/* Disabled state: muted appearance after a correct answer (disabled attribute set by JS) */\n.qti-btn:disabled,\n.qti-btn[disabled] {\n  background-color: var(--qti-btn-disabled-bg, #aaaaaa);\n  color: var(--qti-btn-disabled-fg, #eeeeee);\n  opacity: 0.55;\n  cursor: not-allowed;\n  filter: none;\n}\n/* Secondary ghost button (Clear / Reset) */\n.qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, transparent);\n  color: var(--qti-btn-reset-fg, #555555);\n  border: 1px solid var(--qti-btn-reset-border, #999999);\n  border-radius: 4px;\n  padding: 7px 20px;\n  cursor: pointer;\n}\n.qti-btn-reset:hover {\n  background-color: var(--qti-dropzone-hover-bg, #e6e6e6);\n}\n/* Text input styling */\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, #111111);\n  border: 1px solid var(--qti-input-border, #999999);\n  border-radius: 4px;\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n/* Responsive images: prevent RDKit/structure canvases from overflowing on mobile */\n.qti-selftest canvas,\n.qti-selftest img {\n  max-width: 100%;\n  height: auto;\n}\n/* Feedback pill: neutral base state (empty placeholder, invisible until JS sets content) */\n.qti-feedback-result {\n  display: inline-block;\n  min-height: 1.5em;\n  margin: 8px 0 8px 0;\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  vertical-align: middle;\n}\n/* Success pill */\n.qti-feedback-success {\n  display: inline-block;\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Error pill */\n.qti-feedback-error {\n  display: inline-block;\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Non-color accessibility markers (ASCII, no impact on textContent) */\n.qti-feedback-success::before { content: \"[+] \"; }\n.qti-feedback-error::before { content: \"[x] \"; }\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-dropzone-bg: #2b2b2b;\n    --qti-dropzone-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-dropzone-border: #666666;\n    --qti-dropzone-border-filled: #888888;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #4a6ee0;\n    --qti-btn-fg: #ffffff;\n    --qti-btn-disabled-bg: #555555;\n    --qti-btn-disabled-fg: #aaaaaa;\n    --qti-btn-reset-bg: transparent;\n    --qti-btn-reset-fg: #c0c0c0;\n    --qti-btn-reset-border: #777777;\n    --qti-input-bg: #2a2a2a;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-dropzone-bg: #f8f8f8;\n  --qti-dropzone-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-dropzone-border: #bbbbbb;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-dropzone-bg: #2b2b2b;\n  --qti-dropzone-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-dropzone-border: #666666;\n  --qti-dropzone-border-filled: #888888;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #4a6ee0;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #555555;\n  --qti-btn-disabled-fg: #aaaaaa;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #c0c0c0;\n  --qti-btn-reset-border: #777777;\n  --qti-input-bg: #2a2a2a;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}";(document.head || document.documentElement).appendChild(style);})();</script>
+<script>(function() {if (document.getElementById('qti-selftest-theme')) return;var style = document.createElement('style');style.id = 'qti-selftest-theme';style.textContent = ".qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-slot-bg: #f8f8f8;\n  --qti-surface-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-slot-border: #bbbbbb;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\n.qti-choice-1 { background-color: var(--qti-choice-1-bg); color: var(--qti-choice-1-fg); }\n.qti-choice-2 { background-color: var(--qti-choice-2-bg); color: var(--qti-choice-2-fg); }\n.qti-choice-3 { background-color: var(--qti-choice-3-bg); color: var(--qti-choice-3-fg); }\n.qti-choice-4 { background-color: var(--qti-choice-4-bg); color: var(--qti-choice-4-fg); }\n.qti-choice-5 { background-color: var(--qti-choice-5-bg); color: var(--qti-choice-5-fg); }\n.qti-selftest ul[id^=\"choices_\"] {\n  list-style: none;\n  padding-left: 0;\n  margin: 0 0 12px 0;\n}\n/* Each choice row: min 40px height for comfortable tap targets */\n.qti-selftest ul[id^=\"choices_\"] > li {\n  display: flex;\n  align-items: center;\n  gap: 10px;\n  margin: 4px 0;\n  padding: 6px 4px;\n  min-height: 40px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"].qti-auto-grid-compact {\n  display: grid;\n  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));\n  gap: 6px 12px;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label {\n  display: flex;\n  flex: 1;\n  min-width: 0;\n  align-items: center;\n  gap: 10px;\n  margin: 0;\n  cursor: pointer;\n}\n.qti-selftest ul[id^=\"choices_\"] > li > label > span:first-child {\n  flex-shrink: 0;\n}\n.qti-selftest .qti-choice-content {\n  flex: 1;\n  min-width: 0;\n  overflow-x: auto;\n}\n/* Preserve cell sizing when a host theme makes tables inline blocks. */\n.qti-selftest table:not([class]) {\n  display: table;\n}\n/* Enlarged radio/checkbox inputs: ~1.4em via width/height, transform-origin top-left keeps layout aligned */\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"radio\"],\n.qti-selftest ul[id^=\"choices_\"] > li > input[type=\"checkbox\"] {\n  margin: 0;\n  flex-shrink: 0;\n  width: 1.4em;\n  height: 1.4em;\n  cursor: pointer;\n  accent-color: var(--qti-btn-bg, #3a5acd);\n}\n/* Primary filled button (Check Answer) */\n.qti-selftest .qti-btn {\n  display: inline-flex;\n  align-items: center;\n  justify-content: center;\n  box-sizing: border-box;\n  min-height: 44px;\n  margin: 0;\n  background-color: var(--qti-btn-bg, #3a5acd);\n  color: var(--qti-btn-fg, #ffffff);\n  border: none;\n  border-radius: 4px;\n  padding: 8px 14px;\n  font-family: inherit;\n  font-size: 14px;\n  font-weight: 600;\n  line-height: 1.3;\n  vertical-align: middle;\n  cursor: pointer;\n  transition: transform 80ms ease-out, filter 80ms ease-out;\n}\n.qti-selftest .qti-btn:hover {\n  filter: brightness(1.1);\n}\n.qti-selftest .qti-btn.qti-pressed:not(:disabled) {\n  transform: scale(0.97);\n  filter: brightness(0.93);\n}\n@media (prefers-reduced-motion: reduce) {\n  .qti-selftest .qti-btn { transition: none; }\n  .qti-selftest .qti-btn.qti-pressed:not(:disabled) { transform: none; }\n}\n/* Explicitly disabled controls retain a distinct state. */\n.qti-selftest .qti-btn:disabled {\n  background-color: var(--qti-btn-disabled-bg, #aaaaaa);\n  color: var(--qti-btn-disabled-fg, #eeeeee);\n  opacity: 0.55;\n  cursor: not-allowed;\n  filter: none;\n}\n/* Secondary ghost button (Clear / Reset) */\n.qti-selftest .qti-btn-reset {\n  background-color: var(--qti-btn-reset-bg, transparent);\n  color: var(--qti-btn-reset-fg, #555555);\n  border: 1px solid var(--qti-btn-reset-border, #999999);\n  border-radius: 4px;\n  cursor: pointer;\n}\n.qti-selftest .qti-btn-reset:hover {\n  background-color: var(--qti-surface-hover-bg, #e6e6e6);\n}\n/* Text input styling */\n.qti-input {\n  background-color: var(--qti-input-bg, #ffffff);\n  color: var(--qti-input-fg, #111111);\n  border: 1px solid var(--qti-input-border, #999999);\n  border-radius: 4px;\n  font-size: 1.1em;\n  line-height: 1.2;\n  padding: 4px 6px;\n}\n/* Responsive images: prevent RDKit/structure canvases from overflowing on mobile */\n.qti-selftest canvas,\n.qti-selftest img {\n  max-width: 100%;\n  height: auto;\n}\n/* Feedback pill: neutral base state (empty placeholder, invisible until JS sets content) */\n.qti-feedback-result {\n  display: inline-block;\n  min-height: 1.5em;\n  margin: 8px 0 8px 0;\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  vertical-align: middle;\n}\n/* Success pill */\n.qti-feedback-success {\n  display: inline-block;\n  background-color: var(--qti-success-bg, #ccffcc);\n  color: var(--qti-success-fg, #008000);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Error pill */\n.qti-feedback-error {\n  display: inline-block;\n  background-color: var(--qti-error-bg, #ffcccc);\n  color: var(--qti-error-fg, #9b1b1b);\n  padding: 4px 12px;\n  border-radius: 12px;\n  font-size: 1em;\n  font-weight: 600;\n  font-family: inherit;\n  line-height: 1.5;\n  margin: 8px 0 8px 0;\n  vertical-align: middle;\n}\n/* Non-color accessibility markers (ASCII, no impact on textContent) */\n.qti-feedback-success::before { content: \"[+] \"; }\n.qti-feedback-error::before { content: \"[x] \"; }\n@media (prefers-color-scheme: dark) {\n  .qti-selftest {\n    color: var(--md-default-fg-color, #e0e0e0);\n    background-color: var(--md-default-bg-color, transparent);\n    --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n    --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n    --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n    --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n    --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n    --qti-slot-bg: #2b2b2b;\n    --qti-surface-hover-bg: #3a3a3a;\n    --qti-border: #777777;\n    --qti-slot-border: #666666;\n    --qti-success-bg: #1f4d2a;\n    --qti-error-bg: #5a1f1f;\n    --qti-success-fg: #a8e6b0;\n    --qti-error-fg: #ffc1c1;\n    --qti-warning-fg: #ffd9a3;\n    --qti-btn-bg: #4a6ee0;\n    --qti-btn-fg: #ffffff;\n    --qti-btn-disabled-bg: #555555;\n    --qti-btn-disabled-fg: #aaaaaa;\n    --qti-btn-reset-bg: transparent;\n    --qti-btn-reset-fg: #c0c0c0;\n    --qti-btn-reset-border: #777777;\n    --qti-input-bg: #2a2a2a;\n    --qti-input-fg: #e0e0e0;\n    --qti-input-border: #666666;\n  }\n}\nbody[data-md-color-scheme=\"default\"] .qti-selftest {\n  color: var(--md-default-fg-color, #111111);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #fff3dc; --qti-choice-1-fg: #8a5300;\n  --qti-choice-2-bg: #e8f1ff; --qti-choice-2-fg: #004080;\n  --qti-choice-3-bg: #e6fff3; --qti-choice-3-fg: #008066;\n  --qti-choice-4-bg: #f5e6cc; --qti-choice-4-fg: #803300;\n  --qti-choice-5-bg: #ffd6ff; --qti-choice-5-fg: #660033;\n  --qti-slot-bg: #f8f8f8;\n  --qti-surface-hover-bg: #e6e6e6;\n  --qti-border: #999999;\n  --qti-slot-border: #bbbbbb;\n  --qti-success-bg: #ccffcc;\n  --qti-error-bg: #ffcccc;\n  --qti-success-fg: #008000;\n  --qti-error-fg: #9b1b1b;\n  --qti-warning-fg: #b37100;\n  --qti-btn-bg: #3a5acd;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #aaaaaa;\n  --qti-btn-disabled-fg: #eeeeee;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #555555;\n  --qti-btn-reset-border: #999999;\n  --qti-input-bg: #ffffff;\n  --qti-input-fg: #111111;\n  --qti-input-border: #999999;\n}\nbody[data-md-color-scheme=\"slate\"] .qti-selftest {\n  color: var(--md-default-fg-color, #e0e0e0);\n  background-color: var(--md-default-bg-color, transparent);\n  --qti-choice-1-bg: #5a3600; --qti-choice-1-fg: #ffd9a3;\n  --qti-choice-2-bg: #0f2a55; --qti-choice-2-fg: #b7d4ff;\n  --qti-choice-3-bg: #10493c; --qti-choice-3-fg: #b6f2e1;\n  --qti-choice-4-bg: #4a2300; --qti-choice-4-fg: #f1c7a0;\n  --qti-choice-5-bg: #4b0030; --qti-choice-5-fg: #f7b2df;\n  --qti-slot-bg: #2b2b2b;\n  --qti-surface-hover-bg: #3a3a3a;\n  --qti-border: #777777;\n  --qti-slot-border: #666666;\n  --qti-success-bg: #1f4d2a;\n  --qti-error-bg: #5a1f1f;\n  --qti-success-fg: #a8e6b0;\n  --qti-error-fg: #ffc1c1;\n  --qti-warning-fg: #ffd9a3;\n  --qti-btn-bg: #4a6ee0;\n  --qti-btn-fg: #ffffff;\n  --qti-btn-disabled-bg: #555555;\n  --qti-btn-disabled-fg: #aaaaaa;\n  --qti-btn-reset-bg: transparent;\n  --qti-btn-reset-fg: #c0c0c0;\n  --qti-btn-reset-border: #777777;\n  --qti-input-bg: #2a2a2a;\n  --qti-input-fg: #e0e0e0;\n  --qti-input-border: #666666;\n}\n\n.qti-selftest .qti-control-instructions {\n  font-style: italic;\n  font-size: 14px;\n  margin: 10px 0;\n}\n.qti-selftest .qti-order-list,\n.qti-selftest .qti-match-bank {\n  list-style: none;\n  padding: 0;\n  margin: 0 0 12px;\n}\n.qti-selftest .qti-order-row {\n  display: grid;\n  grid-template-columns: 30px 32px minmax(0, 1fr) auto;\n  align-items: center;\n  gap: 8px;\n  border: 1px solid var(--qti-border);\n  padding: 8px;\n  margin: 5px 0;\n}\n.qti-selftest .qti-order-position,\n.qti-selftest .feedback {\n  text-align: center;\n}\n.qti-selftest .qti-order-row[draggable=\"true\"],\n.qti-selftest .qti-match-choice[draggable=\"true\"] {\n  cursor: grab;\n}\n.qti-selftest .qti-dragging {\n  opacity: 0.65;\n  cursor: grabbing;\n}\n.qti-selftest .qti-drop-target {\n  outline: 3px solid var(--qti-btn-bg);\n  outline-offset: 2px;\n}\n.qti-selftest .qti-order-row.qti-drop-before {\n  box-shadow: inset 0 4px var(--qti-btn-bg);\n}\n.qti-selftest .qti-order-row.qti-drop-after {\n  box-shadow: inset 0 -4px var(--qti-btn-bg);\n}\n.qti-selftest .qti-order-row .feedback {\n  min-height: 30px;\n  line-height: 30px;\n}\n.qti-selftest .qti-order-actions {\n  display: flex;\n  gap: 6px;\n}\n.qti-selftest .qti-order-move {\n  background: var(--qti-btn-reset-bg);\n  color: var(--qti-btn-reset-fg);\n  border: 1px solid var(--qti-btn-reset-border);\n  border-radius: 4px;\n  padding: 6px 10px;\n}\n.qti-selftest .qti-order-move {\n  background: var(--qti-input-bg);\n}\n.qti-selftest .qti-match-layout {\n  container: qti-match / inline-size;\n}\n.qti-selftest .qti-match-table {\n  --qti-match-feedback-width: 64px;\n  --qti-match-choice-width: clamp(180px, 25cqi, 220px);\n  display: table;\n  width: auto;\n  max-width: 100%;\n  table-layout: auto;\n  border-collapse: collapse;\n  border: 1px solid var(--qti-border);\n  margin: 0;\n}\n.qti-selftest .qti-match-table > thead > tr > th,\n.qti-selftest .qti-match-table > tbody > tr > td {\n  border: 1px solid var(--qti-border);\n  padding: 8px;\n  vertical-align: middle;\n}\n.qti-selftest .qti-match-table > thead > tr > th:first-child {\n  box-sizing: border-box;\n  width: var(--qti-match-feedback-width);\n  min-width: var(--qti-match-feedback-width);\n  padding: 0;\n}\n.qti-selftest .qti-match-table td.qti-match-feedback {\n  padding: 0;\n}\n.qti-selftest .qti-match-feedback .feedback {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  height: 44px;\n}\n.qti-selftest .qti-match-table > thead > tr > th:nth-child(2),\n.qti-selftest .qti-match-table td.qti-match-answer {\n  box-sizing: border-box;\n  width: var(--qti-match-choice-width);\n  min-width: var(--qti-match-choice-width);\n}\n.qti-selftest .qti-match-table td.qti-match-answer {\n  position: relative;\n  height: 44px;\n  padding: 0;\n}\n/* Bound rich/long prompts before native table sizing; short prompts stay short.\n   Reserve the two control columns, prompt padding, and collapsed borders. */\n.qti-selftest .qti-match-prompt-content {\n  max-width: min(36ch, calc(100cqi - var(--qti-match-feedback-width) - var(--qti-match-choice-width) - 20px));\n  overflow-wrap: anywhere;\n  overflow-x: auto;\n}\n.qti-selftest .qti-game-actions,\n.qti-selftest .qti-game-buttons {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n}\n.qti-selftest .qti-game-actions {\n  flex-wrap: wrap;\n  margin: 10px 0;\n}\n.qti-selftest .qti-game-actions .qti-feedback-result {\n  margin: 0;\n  font-size: 14px;\n}\n.qti-selftest .qti-match-bank {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 8px;\n}\n.qti-selftest .qti-match-bank > li {\n  max-width: 100%;\n  min-width: 0;\n}\n.qti-selftest .qti-match-choice,\n.qti-selftest .qti-match-slot {\n  display: block;\n  width: 100%;\n  border: 1px solid var(--qti-border);\n  padding: 8px;\n  text-align: left;\n  overflow-x: auto;\n}\n.qti-selftest .qti-match-choice .qti-choice-content {\n  display: block;\n  overflow: visible;\n}\n.qti-selftest .qti-match-slot:not([data-value]) {\n  background: var(--qti-slot-bg);\n  color: inherit;\n  border: 2px dashed var(--qti-slot-border);\n  font-style: italic;\n  text-align: center;\n}\n.qti-selftest .qti-selected {\n  outline: 3px solid var(--qti-btn-bg);\n  outline-offset: 2px;\n}\n.qti-selftest .qti-order-move,\n.qti-selftest .qti-match-choice,\n.qti-selftest .qti-match-slot {\n  box-sizing: border-box;\n  min-height: 44px;\n  min-width: 44px;\n  font: inherit;\n  cursor: pointer;\n  overflow-wrap: anywhere;\n}\n.qti-selftest .qti-match-slot {\n  position: absolute;\n  inset: 0;\n  width: 100%;\n  height: 100%;\n  font-size: 12px;\n  overflow: hidden;\n  white-space: nowrap;\n  text-overflow: ellipsis;\n}\n.qti-selftest .qti-order-move:disabled {\n  opacity: 0.55;\n  cursor: default;\n}\n.qti-selftest button:focus-visible {\n  outline: 3px solid var(--qti-btn-bg);\n  outline-offset: 3px;\n}\n.qti-selftest .qti-sr-only {\n  position: absolute;\n  width: 1px;\n  height: 1px;\n  padding: 0;\n  margin: -1px;\n  overflow: hidden;\n  clip: rect(0, 0, 0, 0);\n  white-space: nowrap;\n  border: 0;\n}\n@media (max-width: 700px) {\n  .qti-selftest .qti-order-row { grid-template-columns: 30px 24px minmax(0, 1fr); }\n  .qti-selftest .qti-order-actions { grid-column: 3; flex-wrap: wrap; }\n}\n/* Respond to the embedded question's width, including narrow desktop panels. */\n@container qti-match (max-width: 420px) {\n  .qti-selftest .qti-match-table,\n  .qti-selftest .qti-match-table > tbody { display: block; }\n  .qti-selftest .qti-match-table { width: 100%; }\n  .qti-selftest .qti-match-table > thead { display: none; }\n  .qti-selftest .qti-match-table > tbody > tr {\n    display: grid;\n    grid-template-columns: var(--qti-match-feedback-width) minmax(0, 1fr);\n    border-bottom: 1px solid var(--qti-border);\n  }\n  .qti-selftest .qti-match-table > tbody > tr > td { border: 0; min-width: 0; }\n  .qti-selftest .qti-match-prompt { grid-column: 1 / 3; grid-row: 1; }\n  .qti-selftest .qti-match-prompt-content { max-width: 100%; }\n  .qti-selftest .qti-match-table td.qti-match-answer {\n    grid-column: 2;\n    grid-row: 2;\n    width: auto;\n    min-width: 0;\n  }\n  .qti-selftest .qti-match-table td.qti-match-feedback { grid-column: 1; grid-row: 2; }\n}";(document.head || document.documentElement).appendChild(style);let pressedButton = null;let keyboardPress = false;function releaseButton() {if (pressedButton) pressedButton.classList.remove('qti-pressed');pressedButton = null;keyboardPress = false;}function practiceButton(event) {return event.target instanceof Element ? event.target.closest('.qti-selftest .qti-btn') : null;}function pressButton(event) {releaseButton();const button = practiceButton(event);if (!button || button.disabled) return;pressedButton = button;keyboardPress = event.type === 'keydown';button.classList.add('qti-pressed');}document.addEventListener('pointerdown', function(event) {if (event.button === 0) pressButton(event);});document.addEventListener('pointerup', releaseButton);document.addEventListener('pointercancel', releaseButton);document.addEventListener('keydown', function(event) {if (![' ', 'Enter'].includes(event.key) || event.isComposing) return;if (event.ctrlKey || event.metaKey || event.altKey) return;pressButton(event);});document.addEventListener('keyup', function(event) {if ([' ', 'Enter'].includes(event.key)) releaseButton();});document.addEventListener('focusout', function(event) {if (keyboardPress && practiceButton(event) === pressedButton) releaseButton();});window.addEventListener('blur', releaseButton);})();</script>
 <div class="qti-selftest">
-<div id="question_html_2166_438b">
-<div id="statement_text_2166_438b"><p>Match each of the following types of macromolecules with their corresponding gel components or processes.<br><i>Note:</i> Each choice will be used exactly once.</p></div>
-<!-- Matching Table -->
-<table style="border: 1px solid var(--qti-border, #999999); border-collapse: collapse;">
+<div id="question_html_2166_a183">
+<div id="statement_text_2166_a183"><p>Match each of the following types of macromolecules with their corresponding gel components or processes.<br><i>Note:</i> Each choice will be used exactly once.</p></div>
+<div class="qti-match-layout"><table class="qti-match-table">
 <thead><tr>
-<th style="width: 20px;"></th>
-			<th style="padding: 10px; width: 180px; text-align: center;">Your Choice</th>
-			<th style="padding: 10px;">Prompt</th>
-		</tr></thead>
+<th scope="col"><span class="qti-sr-only">Feedback</span></th>
+<th scope="col">Your Choice</th>
+<th scope="col">Prompt</th>
+</tr></thead>
 <tbody>
-<tr>
-<td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-			<td class="dropzone qti-dropzone" data-correct="2166_438b_001" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
-			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">1. <strong><span style="color: #b74300;">Only proteins</span></strong>
-</td>
-		</tr>
-<tr>
-<td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-			<td class="dropzone qti-dropzone" data-correct="2166_438b_002" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
-			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">2. <strong><span style="color: #a719db;">Both protein and nucleotide</span></strong>
-</td>
-		</tr>
-<tr>
-<td class="feedback" style="border: 1px solid var(--qti-border, #999999); text-align: center; padding: 3px;"></td>
-			<td class="dropzone qti-dropzone" data-correct="2166_438b_003" title="Drop Your Choice Here" style="border: 2px dashed var(--qti-dropzone-border, #bbbbbb); padding: 8px; text-align: center; font-size: 12px; min-width: 120px; max-width: 200px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis;"><span style="font-style: italic;">Drop Your Choice Here</span></td>
-			<td style="border: 1px solid var(--qti-border, #999999); padding: 10px;">3. <strong><span style="color: #007576;">Only nucleotides</span></strong>
-</td>
-		</tr>
+<tr class="qti-match-row">
+<td class="qti-match-feedback"><span class="feedback"></span></td>
+<td class="qti-match-answer"><button type="button" class="qti-match-slot" data-correct="2166_a183_001" data-prompt="1" aria-label="Assign a choice to prompt 1" aria-describedby="prompt_2166_a183_1 instructions_2166_a183">Drop Your Choice Here</button></td>
+<td class="qti-match-prompt" id="prompt_2166_a183_1"><div class="qti-match-prompt-content">1. <strong><span style="color: #a719db;">Both protein and nucleotide</span></strong>
+</div></td>
+</tr>
+<tr class="qti-match-row">
+<td class="qti-match-feedback"><span class="feedback"></span></td>
+<td class="qti-match-answer"><button type="button" class="qti-match-slot" data-correct="2166_a183_002" data-prompt="2" aria-label="Assign a choice to prompt 2" aria-describedby="prompt_2166_a183_2 instructions_2166_a183">Drop Your Choice Here</button></td>
+<td class="qti-match-prompt" id="prompt_2166_a183_2"><div class="qti-match-prompt-content">2. <strong><span style="color: #b74300;">Only proteins</span></strong>
+</div></td>
+</tr>
+<tr class="qti-match-row">
+<td class="qti-match-feedback"><span class="feedback"></span></td>
+<td class="qti-match-answer"><button type="button" class="qti-match-slot" data-correct="2166_a183_003" data-prompt="3" aria-label="Assign a choice to prompt 3" aria-describedby="prompt_2166_a183_3 instructions_2166_a183">Drop Your Choice Here</button></td>
+<td class="qti-match-prompt" id="prompt_2166_a183_3"><div class="qti-match-prompt-content">3. <strong><span style="color: #007576;">Only nucleotides</span></strong>
+</div></td>
+</tr>
 </tbody>
-</table>
-<p style="font-style: italic; font-size: 14px; margin-top: 10px;">Drag one of the choices below:</p>
-<ul id="choiceList" style="list-style: none; padding: 0;">
-<li class="draggable qti-choice-2" draggable="true" data-value="2166_438b_001" title="2D gels" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-2-bg); display: inline-block;">
-		<span style="color: var(--qti-choice-2-fg);"><strong>A.</strong> <strong><span style="color: #00775f;">2D gels</span></strong></span>
-	</li>
-	<li class="draggable qti-choice-3" draggable="true" data-value="2166_438b_002" title="vertically run gel" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-3-bg); display: inline-block;">
-		<span style="color: var(--qti-choice-3-fg);"><strong>B.</strong> vertically run gel</span>
-	</li>
-	<li class="draggable qti-choice-4" draggable="true" data-value="2166_438b_003" title="SYBR safe stain" style="border: 1px solid var(--qti-border, #999999); padding: 8px; margin: 5px; cursor: grab; background-color: var(--qti-choice-4-bg); display: inline-block;">
-		<span style="color: var(--qti-choice-4-fg);"><strong>C.</strong> <strong><span style="color: #007a00;">SYBR safe stain</span></strong></span>
-	</li>
+</table></div>
+<div class="qti-game-actions">
+<div class="qti-game-buttons">
+<button type="button" class="qti-btn" onclick="checkAnswer_2166_a183()">Check Answer</button>
+<button type="button" class="qti-btn qti-btn-reset" onclick="resetGame_2166_a183()">Reset</button>
+</div>
+<div id="result_2166_a183" class="qti-feedback-result">&#160;</div>
+</div>
+<p class="qti-control-instructions" id="instructions_2166_a183">Drag a choice to a row, or click a choice and then a row. With a slot focused, type a letter to move that choice here from other rows.</p>
+<ul id="choiceList_2166_a183" class="qti-match-bank" aria-label="Answer choices">
+<li><button type="button" class="qti-match-choice qti-choice-2" data-value="2166_a183_002" data-letter="A" draggable="true" aria-pressed="false" aria-label="Select A. stain / destaining process"><span class="qti-choice-content"><strong>A.</strong> <strong><span style="color: #0067cc;">stain / destaining process</span></strong></span></button></li>
+<li><button type="button" class="qti-match-choice qti-choice-3" data-value="2166_a183_001" data-letter="B" draggable="true" aria-pressed="false" aria-label="Select B. PAGE"><span class="qti-choice-content"><strong>B.</strong> PAGE</span></button></li>
+<li><button type="button" class="qti-match-choice qti-choice-4" data-value="2166_a183_003" data-letter="C" draggable="true" aria-pressed="false" aria-label="Select C. gel red stain"><span class="qti-choice-content"><strong>C.</strong> <strong><span style="color: #d40000;">gel red stain</span></strong></span></button></li>
 </ul>
-<button type="button" class="md-button md-button--secondary custom-button qti-btn" onclick="checkAnswer_2166_438b()">Check Answer</button>
-<button type="button" class="md-button md-button--secondary custom-button qti-btn qti-btn-reset" onclick="resetGame_2166_438b()">Reset Game</button>
-<div id="result_2166_438b" class="qti-feedback-result">&#160;</div>
+<div class="qti-sr-only" role="status" aria-live="polite" aria-atomic="true"></div>
 </div><script>
-	function initDragAndDrop_2166_438b() {
-		const container = document.getElementById('question_html_2166_438b');
-		if (!container) {
-			return;
-		}
-		let draggedItem = null;
-
-		container.querySelectorAll(".draggable").forEach(item => {
-			item.addEventListener("dragstart", function() {
-				draggedItem = this;
-				setTimeout(() => this.style.opacity = "0.5", 0);
-			});
-
-			item.addEventListener("dragend", function() {
-				this.style.opacity = "1";
-			});
-		});
-
-		container.querySelectorAll(".dropzone").forEach(zone => {
-			zone.addEventListener("drop", function() {
-				if (!draggedItem) {
-					return;
-				}
-				this.dataset.originalBgColor = draggedItem.style.backgroundColor;
-				this.style.backgroundColor = this.dataset.originalBgColor;
-				this.style.border = "2px solid var(--qti-dropzone-border-filled, #888888)";
-				this.style.color = draggedItem.querySelector("span").style.color;
-				this.style.fontWeight = "bold";
-
-				let choiceText = draggedItem.innerText.trim();
-				this.innerHTML = choiceText.length > 30 ? choiceText.substring(0, 27) + "..." : choiceText;
-				this.dataset.value = draggedItem.dataset.value;
-				this.title = draggedItem.getAttribute("title");
-			});
-
-			zone.addEventListener("dragleave", function() {
-				if (!this.dataset.value) {
-					this.style.backgroundColor = "var(--qti-dropzone-bg, #f8f8f8)";
-				} else {
-					this.style.backgroundColor = this.dataset.originalBgColor;
-				}
-			});
-
-			zone.addEventListener("dragover", function(e) {
-				e.preventDefault();
-				this.style.backgroundColor = "var(--qti-dropzone-hover-bg, #e6e6e6)";
-			});
-		});
-	}
-	initDragAndDrop_2166_438b();
+function clearFeedback_2166_a183() {
+  const container = document.getElementById('question_html_2166_a183');
+  container.querySelectorAll('.feedback').forEach(cell => {
+    cell.textContent = '';
+    cell.style.backgroundColor = 'transparent';
+    cell.removeAttribute('aria-label');
+  });
+  const resultDiv = container.querySelector('#result_2166_a183');
+  resultDiv.textContent = '';
+  resultDiv.className = 'qti-feedback-result';
+}
+function resetGame_2166_a183() {
+  const container = document.getElementById('question_html_2166_a183');
+  container.qtiResetGame();
+  clearFeedback_2166_a183();
+}
 </script>
 <script>
-	function checkAnswer_2166_438b() {
-		const container = document.getElementById('question_html_2166_438b');
-		if (!container) {
-			return;
-		}
-		let score = 0;
-		let possible = 0;
-		let feedbackText = "";
-
-		const dropzones = container.querySelectorAll(".dropzone");
-		const feedbackCells = container.querySelectorAll(".feedback");
-		dropzones.forEach((zone, index) => {
-			let selectedValue = zone.dataset.value;
-			let correctValue = zone.dataset.correct;
-			let feedbackCell = feedbackCells[index];
-
-			if (selectedValue === correctValue) {
-				score++;
-				possible++;
-				feedbackCell.innerHTML = "<strong><span style='color:var(--qti-success-fg, #008000); font-size:large;'>&#9989;</span></strong>";
-				feedbackCell.style.backgroundColor = "var(--qti-success-bg, #ccffcc)";
-			} else {
-				possible++;
-				feedbackCell.innerHTML = "&#10060;";
-				feedbackCell.style.backgroundColor = "var(--qti-error-bg, #ffcccc)";
-			}
-		});
-
-		feedbackText = `Total Score: ${score} out of ${possible}`;
-		const resultDiv = document.getElementById('result_2166_438b');
-		const checkBtn = document.querySelector("[onclick='checkAnswer_2166_438b()']");
-		if (score === possible) {
-			resultDiv.className = 'qti-feedback-result qti-feedback-success';
-			if (checkBtn) { checkBtn.disabled = true; }
-		} else {
-			resultDiv.className = 'qti-feedback-result qti-feedback-error';
-		}
-		resultDiv.textContent = feedbackText;
-	}
+(function() {
+  const container = document.getElementById('question_html_2166_a183');
+  container.qtiBindDrag = ({sources, targets, reorder, drop}) => {
+    let active = null;
+    function clearTargets() {
+      container.querySelectorAll(targets).forEach(target => {
+        target.classList.remove('qti-drop-target', 'qti-drop-before', 'qti-drop-after');
+      });
+    }
+    function cancel() {
+      if (active) active.classList.remove('qti-dragging');
+      active = null;
+      clearTargets();
+    }
+    function after(event, target) {
+      const bounds = target.getBoundingClientRect();
+      return event.clientY > bounds.top + bounds.height / 2;
+    }
+    container.addEventListener('dragstart', event => {
+      const source = event.target.closest(sources);
+      if (!source || source.disabled || source.getAttribute('draggable') !== 'true') {
+        event.preventDefault();
+        return;
+      }
+      active = source;
+      event.dataTransfer.setData('text/plain', source.dataset.value);
+      event.dataTransfer.effectAllowed = reorder ? 'move' : 'copy';
+      source.classList.add('qti-dragging');
+    });
+    container.addEventListener('dragover', event => {
+      const target = event.target.closest(targets);
+      if (!active || !target || target === active) return;
+      event.preventDefault();
+      event.dataTransfer.dropEffect = reorder ? 'move' : 'copy';
+      clearTargets();
+      target.classList.add('qti-drop-target');
+      if (reorder) target.classList.add(after(event, target) ? 'qti-drop-after' : 'qti-drop-before');
+    });
+    container.addEventListener('dragleave', event => {
+      const target = event.target.closest(targets);
+      if (target && !target.contains(event.relatedTarget)) {
+        target.classList.remove('qti-drop-target', 'qti-drop-before', 'qti-drop-after');
+      }
+    });
+    container.addEventListener('drop', event => {
+      const target = event.target.closest(targets);
+      if (!target) return;
+      event.preventDefault();
+      const source = active;
+      const valid = source && !source.disabled && target !== source &&
+        event.dataTransfer.getData('text/plain') === source.dataset.value;
+      cancel();
+      if (valid) drop(source, target, after(event, target));
+    });
+    container.addEventListener('dragend', cancel);
+    container.qtiCancelDrag = cancel;
+  };
+})();
 </script>
 <script>
-	function resetGame_2166_438b() {
-		const container = document.getElementById('question_html_2166_438b');
-		if (!container) {
-			return;
-		}
-		container.querySelectorAll(".dropzone").forEach(zone => {
-			zone.textContent = "Drop Your Choice Here";
-			delete zone.dataset.value;
-			zone.style.backgroundColor = "var(--qti-dropzone-bg, #f8f8f8)";
-			zone.style.border = "2px dashed var(--qti-dropzone-border, #bbbbbb)";
-			zone.style.color = "inherit";
-			zone.style.fontWeight = "normal";
-		});
-
-		container.querySelectorAll(".feedback").forEach(cell => {
-			cell.textContent = "";
-			cell.style.backgroundColor = "transparent";
-		});
-		const resultDiv_2166_438b = document.getElementById("result_2166_438b");
-		if (resultDiv_2166_438b) {
-			resultDiv_2166_438b.textContent = "";
-			resultDiv_2166_438b.className = "qti-feedback-result";
-		}
-		const checkBtn_2166_438b = document.querySelector("[onclick='checkAnswer_2166_438b()']");
-		if (checkBtn_2166_438b) { checkBtn_2166_438b.disabled = false; }
-	}
+(function() {
+  const container = document.getElementById('question_html_2166_a183');
+  const choices = Array.from(container.querySelectorAll('.qti-match-choice'));
+  const slots = Array.from(container.querySelectorAll('.qti-match-slot'));
+  const status = container.querySelector('[role=status]');
+  let selected = null;
+  function select(choice) {
+    selected = choice;
+    choices.forEach(button => {
+      button.setAttribute('aria-pressed', button === selected ? 'true' : 'false');
+      button.classList.toggle('qti-selected', button === selected);
+    });
+  }
+  function emptySlot(slot) {
+    delete slot.dataset.value;
+    slot.className = 'qti-match-slot';
+    slot.textContent = 'Drop Your Choice Here';
+    slot.removeAttribute('title');
+    slot.setAttribute('aria-label', 'Assign a choice to prompt ' + slot.dataset.prompt);
+  }
+  function assign(choice, slot, move = false) {
+    const previous = slot.dataset.value;
+    const cleared = move ? slots.filter(other => other !== slot &&
+      other.dataset.value === choice.dataset.value) : [];
+    cleared.forEach(emptySlot);
+    const text = choice.innerText.trim().replace(/\s+/g, ' ');
+    slot.textContent = text;
+    slot.title = text;
+    slot.dataset.value = choice.dataset.value;
+    slot.className = 'qti-match-slot ' + Array.from(choice.classList).find(name => name.startsWith('qti-choice-'));
+    slot.setAttribute('aria-label', 'Prompt ' + slot.dataset.prompt + ': ' + text + '. Replace with selected choice');
+    select(null);
+    clearFeedback_2166_a183();
+    slot.focus();
+    let message = cleared.length ? choice.dataset.letter + ' moved from prompt ' +
+      cleared.map(other => other.dataset.prompt).join(', ') + ' to prompt ' + slot.dataset.prompt + '.' :
+      'Assigned ' + text + ' to prompt ' + slot.dataset.prompt + '.';
+    if (previous && previous !== choice.dataset.value) {
+      message += ' Replaced ' + choices.find(button => button.dataset.value === previous).dataset.letter + '.';
+    }
+    status.textContent = message;
+  }
+  container.qtiBindDrag({
+    sources: '.qti-match-choice', targets: '.qti-match-slot', reorder: false,
+    drop: (choice, slot) => assign(choice, slot)
+  });
+  container.addEventListener('click', event => {
+    const choice = event.target.closest('.qti-match-choice');
+    if (choice) {
+      select(choice === selected ? null : choice);
+      choice.focus();
+      status.textContent = selected ? 'Selected ' + selected.querySelector('.qti-choice-content').textContent.trim() + '. Choose a prompt.' : 'Selection cleared.';
+      return;
+    }
+    const slot = event.target.closest('.qti-match-slot');
+    if (!slot) return;
+    if (!selected) { status.textContent = 'Select a choice first.'; return; }
+    assign(selected, slot);
+  });
+  container.addEventListener('keydown', event => {
+    if (event.key === 'Escape') {
+      select(null); status.textContent = 'Selection cleared.'; return;
+    }
+    const slot = event.target.closest('.qti-match-slot');
+    if (!slot || event.ctrlKey || event.metaKey || event.altKey || event.isComposing) return;
+    const choice = choices.find(button => button.dataset.letter === event.key.toUpperCase());
+    if (!choice) return;
+    event.preventDefault();
+    assign(choice, slot, true);
+  });
+  container.qtiResetGame = () => {
+    container.qtiCancelDrag();
+    slots.forEach(emptySlot);
+    select(null);
+    status.textContent = 'Matches reset.';
+  };
+})();
+</script>
+<script>
+function checkAnswer_2166_a183() {
+  const container = document.getElementById('question_html_2166_a183');
+  const rows = container.querySelectorAll('.qti-match-slot');
+  const feedbackCells = container.querySelectorAll('.feedback');
+  let score = 0;
+  rows.forEach((row, index) => {
+    const expected = row.dataset.correct;
+    const right = row.dataset.value === expected;
+    if (right) score++;
+    const cell = feedbackCells[index];
+    cell.innerHTML = right ? '&#9989;' : '&#10060;';
+    cell.setAttribute('aria-label', right ? 'Correct' : 'Incorrect');
+    cell.style.backgroundColor = right ? 'var(--qti-success-bg)' : 'var(--qti-error-bg)';
+  });
+  const resultDiv = container.querySelector('#result_2166_a183');
+  const possible = rows.length;
+  resultDiv.textContent = `Total Score: ${score} out of ${possible}`;
+  resultDiv.className = 'qti-feedback-result ' +
+    (score === rows.length ? 'qti-feedback-success' : 'qti-feedback-error');
+  container.querySelector('[role=status]').textContent = resultDiv.textContent;
+}
 </script>
 
 </div>
