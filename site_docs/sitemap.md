@@ -7,7 +7,7 @@
 Browse the generated problem sets by subject and topic. Use your browser's Find command to search all problem-set titles on this page.
 For sortable results and subject, topic, and type filters, use the [Question Finder](question_finder.md).
 
-**463 problem sets**
+**462 problem sets**
 
 ## Biochemistry
 
@@ -241,19 +241,16 @@ For sortable results and subject, topic, and type filters, use the [Question Fin
 
 ### Mendelian Genetics
 
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../genetics/topic04/">Degrees of Dominance and Gene Interactions from Definitions</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../genetics/topic04/">Genetics Terms from Definitions</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../genetics/topic04/">Mendelian Cross Terms from Descriptions</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../genetics/topic04/">Mendel&#x27;s Four Principles of Genetics from Descriptions</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../genetics/topic04/">Mendelian Genetics Terms from Definitions</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../genetics/topic04/">Monohybrid Cross Parental Genotypes from Progeny Outcomes</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../genetics/topic04/">Degrees of Dominance and Gene Interactions from Definitions</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../genetics/topic04/">Genetics Terms from Definitions</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../genetics/topic04/">Mendelian Cross Terms from Descriptions</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../genetics/topic04/">Mendel&#x27;s Four Principles of Genetics from Descriptions</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../genetics/topic04/">Mendelian Genetics Terms from Definitions</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../genetics/topic04/">Monohybrid Cross Parental Genotypes from Progeny Outcomes</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic04/">Degrees of Dominance from Monohybrid Cross Results</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic04/">Parental Genotype Crosses from Monohybrid Offspring Ratios</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic04/">Punnett Squares from Monohybrid Cross Descriptions</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic04/">Unique Offspring Genotypes from Four-Gene Crosses (With Hint)</a></span>
@@ -262,6 +259,8 @@ For sortable results and subject, topic, and type filters, use the [Question Fin
 
 ### Gene Interactions
 
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../genetics/topic05/">Degrees of Dominance and Gene Interactions from Definitions</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../genetics/topic05/">Degrees of Dominance and Gene Interactions from Definitions</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../genetics/topic05/">Possible Mother ABO Blood Types from Father and Child Types</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span><a href="../genetics/topic05/">Possible ABO Blood Types of Offspring from Parent Blood Types</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic05/">Gene Interaction Types from Dihybrid Cross Ratios (4 Choices)</a></span>
@@ -269,8 +268,8 @@ For sortable results and subject, topic, and type filters, use the [Question Fin
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic05/">Test-Cross Ratios from Epistatic F2 Ratios (6 Choices)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic05/">Epistatic F2 Ratios from Test-Cross Ratios (6 Choices)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic05/">Lethal Allele Cross Ratios and Survival Fractions</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic05/">Degrees of Dominance from Monohybrid Cross Results</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic05/">Unknown Parent Genotype from Monohybrid Offspring Counts</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic05/">Offspring Sex Distribution Using the Binomial Model</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic05/">Pedigree Inheritance Patterns</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../genetics/topic05/">Pedigree Inheritance Patterns</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../genetics/topic05/">Pedigree Inheritance Patterns (Random Pedigrees)</a></span>

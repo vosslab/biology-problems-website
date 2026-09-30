@@ -4,6 +4,78 @@ Students determine how multiple genes interact to produce phenotypes, including 
 
 **LibreTexts reference:** [Chapter 5: Allele and Gene Interactions](https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/05:_Allele_and_Gene_Interactions) <a href="https://bio.libretexts.org/Courses/Roosevelt_University/Advanced_Genetics:_Mechanisms_of_Inheritance_and_Analysis/05:_Allele_and_Gene_Interactions" target="_blank" rel="noopener" aria-label="LibreTexts Chapter 5" title="Open LibreTexts chapter"><img src="/assets/images/libretexts.png" alt="LibreTexts" class="lt-icon"></a>
 
+## Degrees of Dominance and Gene Interactions from Definitions
+
+<div id="MATCH-degrees_of_dominance-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-MATCH-degrees_of_dominance-questions.txt" download title="Download bbq-MATCH-degrees_of_dominance-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-degrees_of_dominance-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-degrees_of_dominance.zip" download title="Download blackboard_export_zip-MATCH-degrees_of_dominance.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-degrees_of_dominance.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-degrees_of_dominance.zip" download title="Download canvas_qti_v1_2-MATCH-degrees_of_dominance.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-degrees_of_dominance.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-degrees_of_dominance.html', '_blank')" title="View human_readable-MATCH-degrees_of_dominance.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-degrees_of_dominance.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/degrees_of_dominance-matching.pgml" download title="Download degrees_of_dominance-matching.pgml" aria-label="Click to download the WeBWorK PGML file (degrees_of_dominance-matching.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Degrees of Dominance and Gene Interactions from Definitions
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic05/downloads/selftest-MATCH-degrees_of_dominance.html" %}
+
+</details>
+
+
+## Degrees of Dominance and Gene Interactions from Definitions
+
+<div id="WOMC-degrees_of_dominance-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-WOMC-degrees_of_dominance-questions.txt" download title="Download bbq-WOMC-degrees_of_dominance-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-degrees_of_dominance-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-degrees_of_dominance.zip" download title="Download blackboard_export_zip-WOMC-degrees_of_dominance.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-degrees_of_dominance.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-degrees_of_dominance.zip" download title="Download canvas_qti_v1_2-WOMC-degrees_of_dominance.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-degrees_of_dominance.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-degrees_of_dominance.html', '_blank')" title="View human_readable-WOMC-degrees_of_dominance.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-degrees_of_dominance.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/degrees_of_dominance-which_one.pgml" download title="Download degrees_of_dominance-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (degrees_of_dominance-which_one.pgml)">
+    <i class="fa fa-code"></i>WeBWorK PGML
+</a>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Degrees of Dominance and Gene Interactions from Definitions
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic05/downloads/selftest-WOMC-degrees_of_dominance.html" %}
+
+</details>
+
+
 ## Possible Mother ABO Blood Types from Father and Child Types
 
 <div id="blood_type_mother-button-container" class="button-container">
@@ -235,6 +307,39 @@ Students determine how multiple genes interact to produce phenotypes, including 
 </details>
 
 
+## Degrees of Dominance from Monohybrid Cross Results
+
+<div id="monohybrid_degrees_of_dominance-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-monohybrid_degrees_of_dominance-questions.txt" download title="Download bbq-monohybrid_degrees_of_dominance-questions.txt" aria-label="Click to download the BBQ Text file (bbq-monohybrid_degrees_of_dominance-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-monohybrid_degrees_of_dominance.zip" download title="Download blackboard_export_zip-monohybrid_degrees_of_dominance.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-monohybrid_degrees_of_dominance.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-monohybrid_degrees_of_dominance.zip" download title="Download canvas_qti_v1_2-monohybrid_degrees_of_dominance.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-monohybrid_degrees_of_dominance.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-monohybrid_degrees_of_dominance.html', '_blank')" title="View human_readable-monohybrid_degrees_of_dominance.html" aria-label="Click to view the Human-Readable TXT file (human_readable-monohybrid_degrees_of_dominance.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Degrees of Dominance from Monohybrid Cross Results
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic05/downloads/selftest-monohybrid_degrees_of_dominance.html" %}
+
+</details>
+
+
 ## Unknown Parent Genotype from Monohybrid Offspring Counts
 
 <div id="monohybrid_litter_inference-button-container" class="button-container">
@@ -296,7 +401,6 @@ Students determine how multiple genes interact to produce phenotypes, including 
       example problem
     </span>
   </summary>
-  {% include "genetics/topic05/downloads/selftest-probabiliy_of_progeny.html" %}
 
 </details>
 
