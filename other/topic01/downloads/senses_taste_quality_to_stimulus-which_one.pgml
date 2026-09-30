@@ -5,7 +5,7 @@
 ## DBsubject('Cell Biology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-09-28')
+## Date('2026-09-30')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -35,8 +35,8 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       'Sweet',
       'Umami',
+      'Sour',
       'Salty',
-      'Bitter',
     ],
     'correct' => 'Sweet',
   },
@@ -46,7 +46,7 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'stimulus',
     'choices' => [
       'Sweet',
-      'Sour',
+      'Umami',
       'Salty',
       'Bitter',
     ],
@@ -71,7 +71,7 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       'Sweet',
       'Umami',
-      'Salty',
+      'Sour',
       'Bitter',
     ],
     'correct' => 'Sweet',
@@ -82,9 +82,9 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'stimulus',
     'choices' => [
       'Sweet',
+      'Umami',
       'Sour',
       'Salty',
-      'Bitter',
     ],
     'correct' => 'Sweet',
   },
@@ -95,8 +95,8 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       'Sweet',
       'Umami',
+      'Sour',
       'Salty',
-      'Bitter',
     ],
     'correct' => 'Sweet',
   },
@@ -106,7 +106,7 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'stimulus',
     'choices' => [
       'Sweet',
-      'Sour',
+      'Umami',
       'Salty',
       'Bitter',
     ],
@@ -117,9 +117,9 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'taste qualities',
     'singular_item' => 'stimulus',
     'choices' => [
-      'Sweet',
       'Umami',
       'Sour',
+      'Salty',
       'Bitter',
     ],
     'correct' => 'Umami',
@@ -129,8 +129,8 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'taste qualities',
     'singular_item' => 'stimulus',
     'choices' => [
-      'Sweet',
       'Umami',
+      'Sour',
       'Salty',
       'Bitter',
     ],
@@ -141,9 +141,9 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'taste qualities',
     'singular_item' => 'stimulus',
     'choices' => [
-      'Sweet',
       'Umami',
       'Sour',
+      'Salty',
       'Bitter',
     ],
     'correct' => 'Umami',
@@ -165,10 +165,10 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'taste qualities',
     'singular_item' => 'stimulus',
     'choices' => [
-      'Sweet',
       'Umami',
       'Sour',
       'Salty',
+      'Bitter',
     ],
     'correct' => 'Umami',
   },
@@ -177,10 +177,10 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'taste qualities',
     'singular_item' => 'stimulus',
     'choices' => [
+      'Sweet',
       'Umami',
       'Sour',
       'Salty',
-      'Bitter',
     ],
     'correct' => 'Umami',
   },
@@ -190,9 +190,9 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'stimulus',
     'choices' => [
       'Sweet',
-      'Umami',
       'Sour',
       'Salty',
+      'Bitter',
     ],
     'correct' => 'Sour',
   },
@@ -216,7 +216,7 @@ $showPartialCorrectAnswers = 0;
       'Sweet',
       'Umami',
       'Sour',
-      'Bitter',
+      'Salty',
     ],
     'correct' => 'Sour',
   },
@@ -226,9 +226,9 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'stimulus',
     'choices' => [
       'Sweet',
-      'Umami',
       'Sour',
       'Salty',
+      'Bitter',
     ],
     'correct' => 'Sour',
   },
@@ -238,9 +238,9 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'stimulus',
     'choices' => [
       'Sweet',
-      'Umami',
       'Sour',
       'Salty',
+      'Bitter',
     ],
     'correct' => 'Sour',
   },
@@ -274,7 +274,7 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'stimulus',
     'choices' => [
       'Sweet',
-      'Sour',
+      'Umami',
       'Salty',
       'Bitter',
     ],
@@ -286,7 +286,7 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'stimulus',
     'choices' => [
       'Sweet',
-      'Umami',
+      'Sour',
       'Salty',
       'Bitter',
     ],
@@ -294,18 +294,6 @@ $showPartialCorrectAnswers = 0;
   },
   {
     'item_name' => '<strong>electrolyte sodium ions common in broths and cured foods</strong>',
-    'plural_choice' => 'taste qualities',
-    'singular_item' => 'stimulus',
-    'choices' => [
-      'Sweet',
-      'Umami',
-      'Salty',
-      'Bitter',
-    ],
-    'correct' => 'Salty',
-  },
-  {
-    'item_name' => '<strong>Na<sup>+</sup> in solution from added sodium chloride</strong>',
     'plural_choice' => 'taste qualities',
     'singular_item' => 'stimulus',
     'choices' => [
@@ -317,12 +305,24 @@ $showPartialCorrectAnswers = 0;
     'correct' => 'Salty',
   },
   {
-    'item_name' => '<strong>foods with high sodium chloride content</strong>',
+    'item_name' => '<strong>Na<sup>+</sup> in solution from added sodium chloride</strong>',
     'plural_choice' => 'taste qualities',
     'singular_item' => 'stimulus',
     'choices' => [
       'Sweet',
       'Umami',
+      'Salty',
+      'Bitter',
+    ],
+    'correct' => 'Salty',
+  },
+  {
+    'item_name' => '<strong>foods with high sodium chloride content</strong>',
+    'plural_choice' => 'taste qualities',
+    'singular_item' => 'stimulus',
+    'choices' => [
+      'Sweet',
+      'Sour',
       'Salty',
       'Bitter',
     ],
@@ -335,7 +335,7 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       'Sweet',
       'Umami',
-      'Salty',
+      'Sour',
       'Bitter',
     ],
     'correct' => 'Bitter',
@@ -347,7 +347,7 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       'Sweet',
       'Umami',
-      'Salty',
+      'Sour',
       'Bitter',
     ],
     'correct' => 'Bitter',
@@ -359,7 +359,7 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       'Sweet',
       'Umami',
-      'Salty',
+      'Sour',
       'Bitter',
     ],
     'correct' => 'Bitter',
@@ -395,7 +395,7 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       'Sweet',
       'Umami',
-      'Sour',
+      'Salty',
       'Bitter',
     ],
     'correct' => 'Bitter',
