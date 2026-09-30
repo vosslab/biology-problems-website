@@ -127,6 +127,8 @@ def topic_page_needs_run(topic_ref: TopicRef, scope: BuildScope, changes: BuildC
 #============================================
 def run_topic_page(topic_ref: TopicRef, scope: BuildScope) -> set[Path]:
 	"""Render one topic page without creating self-tests or downloads."""
+	if not topic_folder(topic_ref).is_dir():
+		return set()
 	page_path = topic_folder(topic_ref) / "index.md"
 	if scope.dry_run:
 		return {page_path}
@@ -283,17 +285,21 @@ def run_subject_indexes(
 	# Orphan status is repository-global, even when generation is narrowly scoped.
 	# Reconcile first so indexes, nav, and the manifest see only current task-owned
 	# BBQ sources after a removed CSV row is cleaned up.
-	try:
-		task_owned_patterns, task_owned_pgml_paths = bbq_workflow.load_task_ownership()
-	except bbq_workflow.TaskOwnershipError as exc:
-		print(f"WARNING: skipping orphan reconciliation because task ownership is uncertain: {exc}")
+	if scope.mode == "indexes":
+		# A standalone page refresh preserves existing BBQ and converter artifacts.
 		reconciliation = {"strip_includes": []}
 	else:
-		reconciliation = orphan_prune_module.reconcile_all(
-			str(DEFAULT_SITE_DOCS), scope.dry_run, verbose=True,
-			task_owned_pattern_map=task_owned_patterns,
-			task_owned_pgml_paths=task_owned_pgml_paths,
-		)
+		try:
+			task_owned_patterns, task_owned_pgml_paths = bbq_workflow.load_task_ownership()
+		except bbq_workflow.TaskOwnershipError as exc:
+			print(f"WARNING: skipping orphan reconciliation because task ownership is uncertain: {exc}")
+			reconciliation = {"strip_includes": []}
+		else:
+			reconciliation = orphan_prune_module.reconcile_all(
+				str(DEFAULT_SITE_DOCS), scope.dry_run, verbose=True,
+				task_owned_pattern_map=task_owned_patterns,
+				task_owned_pgml_paths=task_owned_pgml_paths,
+			)
 	question_index_path = DEFAULT_SITE_DOCS / "sitemap.md"
 	if progress:
 		progress.check_cancelled()
@@ -332,27 +338,31 @@ def run_subject_indexes(
 		dry_run=scope.dry_run,
 	)
 	outputs.add(DEFAULT_MKDOCS_PATH)
+	manifest_topics = set(selected_topics or ())
+	for changed_index in reconciliation["strip_includes"]:
+		relative_path = Path(changed_index["path"]).relative_to(DEFAULT_SITE_DOCS)
+		if len(relative_path.parts) >= 3:
+			manifest_topics.add(TopicRef(relative_path.parts[0], relative_path.parts[1]))
+	outputs.update(run_selftest_manifest(scope, manifest_topics, progress))
+	return outputs
+
+
+#============================================
+def run_selftest_manifest(
+	scope: BuildScope,
+	selected_topics: set[TopicRef],
+	progress: BuildProgress | None = None,
+) -> set[Path]:
+	"""Refresh self-test IDs without rewriting indexes or pruning source files."""
 	manifest_path = DEFAULT_SITE_DOCS / "assets/data/selftest_question_manifest.json"
+	if progress:
+		progress.check_cancelled()
+		progress.emit("log", message="Finalizing self-test manifest")
 	if not scope.dry_run:
-		if progress:
-			progress.check_cancelled()
-			progress.emit("log", message="Finalizing self-test manifest")
-		unrestricted = not any((
-			scope.subject,
-			scope.topic,
-			scope.tasks_csv,
-			scope.limit,
-		))
-		manifest_topic_scope = None
-		if not unrestricted:
-			manifest_topics = set(selected_topics or ())
-			for changed_index in reconciliation["strip_includes"]:
-				relative_path = Path(changed_index["path"]).relative_to(DEFAULT_SITE_DOCS)
-				if len(relative_path.parts) >= 3:
-					manifest_topics.add(TopicRef(relative_path.parts[0], relative_path.parts[1]))
-			manifest_topic_scope = {
-				(topic.subject, topic.topic) for topic in manifest_topics
-			}
+		unrestricted = not any((scope.subject, scope.topic, scope.tasks_csv, scope.limit))
+		manifest_topic_scope = None if unrestricted else {
+			(topic.subject, topic.topic) for topic in selected_topics
+		}
 		selftest_manifest_module.write_manifest(
 			output_path=str(manifest_path),
 			site_docs_dir=str(DEFAULT_SITE_DOCS),
@@ -360,5 +370,5 @@ def run_subject_indexes(
 			metadata_path=str(DEFAULT_METADATA_PATH),
 			topic_scope=manifest_topic_scope,
 		)
-	outputs.add(manifest_path)
+	outputs = {manifest_path}
 	return outputs

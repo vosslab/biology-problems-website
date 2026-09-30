@@ -126,6 +126,41 @@ def test_missing_required_task_column_fails_with_csv_context(tmp_path: object) -
 		)
 
 
+#============================================
+def test_comment_lines_skipped_with_original_line_numbers(tmp_path: object) -> None:
+	"""Notes and disabled rows cannot become tasks or shift active row identities."""
+	body = """
+		# comment Tasks for this chapter
+		subject,topic,script,flags,input,notes
+		# comment biochemistry,amino_acids,disabled.py,,,,extra
+		biochemistry,amino_acids,first.py,,,"Keep # comment in a cell"
+		# comment "Unclosed quotes in comments are ignored
+		biochemistry,topic14,second.py,,,
+		# comment End of tasks
+	"""
+	tasks = bbq_config.load_tasks_csv(
+		_write_csv(tmp_path, body), _bbq_config(tmp_path), _alias_map_with_amino_acids(),
+	)
+	assert [(task["topic"], task["_csv_row_number"]) for task in tasks] == [
+		("topic03", 4), ("topic14", 6),
+	]
+	assert [task["script"].rsplit("/", 1)[-1] for task in tasks] == ["first.py", "second.py"]
+
+
+#============================================
+def test_invalid_active_row_after_comment_reports_original_line(tmp_path: object) -> None:
+	"""Comment support preserves validation and error locations for active rows."""
+	body = """
+		subject,topic,script
+		# comment Ignore this note
+		biochemistry,amino_acids,
+	"""
+	with pytest.raises(ValueError, match=r"tasks\.csv:3 is missing values"):
+		bbq_config.load_tasks_csv(
+			_write_csv(tmp_path, body), _bbq_config(tmp_path), _alias_map_with_amino_acids(),
+		)
+
+
 def test_unknown_subject_raises(tmp_path: object) -> object:
 	body = """
 		subject,topic,script,flags,input,notes

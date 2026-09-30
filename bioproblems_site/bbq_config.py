@@ -279,8 +279,17 @@ def load_tasks_csv(
 	reader: csv.DictReader | None = None
 	try:
 		with open(config_path, newline="", encoding="utf-8-sig") as file_handle:
-			reader = csv.DictReader(file_handle, strict=True)
+			# ASVS 2.2.1: exclude comment lines before validating active CSV data.
+			# Blank placeholders preserve physical line numbers for errors and task grouping.
+			csv_lines = (
+				"\n" if line.startswith("# comment") else line
+				for line in file_handle
+			)
+			reader = csv.DictReader(csv_lines, strict=True)
 			fieldnames = reader.fieldnames
+			while fieldnames == []:
+				reader.fieldnames = None
+				fieldnames = reader.fieldnames
 			if not fieldnames:
 				raise ValueError(
 					"Task CSV is empty or has no header: "

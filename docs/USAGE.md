@@ -183,6 +183,9 @@ question, see [docs/SELFTEST_PROGRESS.md](SELFTEST_PROGRESS.md).
 
 `build_site.py` runs configured task CSVs as the first stage of the content
 workflow. Operational usage lives in [BBQ_TASKS_USAGE.md](BBQ_TASKS_USAGE.md).
+Use `-H/--selftests-only` to rebuild self-test HTML from existing BBQ files or
+`-I/--indexes-only` to rewrite generated topic and subject indexes. Both honor
+subject/topic filters and `--dry-run`.
 For the CSV schema and how the `topic` column resolves through aliases, see
 [docs/BBQ_TASK_CSV_FORMAT.md](BBQ_TASK_CSV_FORMAT.md). For the metadata
 schema and alias contract, see

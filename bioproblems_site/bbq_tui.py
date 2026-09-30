@@ -151,7 +151,7 @@ class SiteBuildApp(App[int]):
 		elif event == "phase_plan":
 			phase = str(details["phase"])
 			if phase == "indexes":
-				label = "Indexes, navigation, manifest"
+				label = str(details.get("label", "Indexes, navigation, manifest"))
 				self._add_step((phase, label), self.PHASE_LABELS[phase], label)
 			self.append_log(
 				f"Planned {self.timing.totals[phase]} {self.PHASE_LABELS[phase].lower()} item(s)"
