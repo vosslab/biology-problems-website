@@ -5,7 +5,7 @@
 ## DBsubject('Biotechnology')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-09-28')
+## Date('2026-09-30')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -34,8 +34,8 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'regulatory job',
     'choices' => [
       'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
-      'Food and Drug Administration (FDA)',
       'National Institute of Health (NIH)',
+      'Environmental Protection Agency (EPA)',
       'Center for Disease Control (CDC)',
     ],
     'correct' => 'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
@@ -46,8 +46,8 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'regulatory job',
     'choices' => [
       'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
-      'Food and Drug Administration (FDA)',
       'National Institute of Health (NIH)',
+      'Environmental Protection Agency (EPA)',
       'Center for Disease Control (CDC)',
     ],
     'correct' => 'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
@@ -60,7 +60,7 @@ $showPartialCorrectAnswers = 0;
       'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
       'Food and Drug Administration (FDA)',
       'National Institute of Health (NIH)',
-      'Environmental Protection Agency (EPA)',
+      'Center for Disease Control (CDC)',
     ],
     'correct' => 'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
   },
@@ -69,9 +69,9 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'federal agencies',
     'singular_item' => 'regulatory job',
     'choices' => [
-      'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
       'Food and Drug Administration (FDA)',
       'National Institute of Health (NIH)',
+      'Environmental Protection Agency (EPA)',
       'Center for Disease Control (CDC)',
     ],
     'correct' => 'Food and Drug Administration (FDA)',
@@ -93,8 +93,8 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'federal agencies',
     'singular_item' => 'regulatory job',
     'choices' => [
-      'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
       'Food and Drug Administration (FDA)',
+      'National Institute of Health (NIH)',
       'Environmental Protection Agency (EPA)',
       'Center for Disease Control (CDC)',
     ],
@@ -106,8 +106,8 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'regulatory job',
     'choices' => [
       'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
-      'Food and Drug Administration (FDA)',
       'National Institute of Health (NIH)',
+      'Environmental Protection Agency (EPA)',
       'Center for Disease Control (CDC)',
     ],
     'correct' => 'National Institute of Health (NIH)',
@@ -117,9 +117,9 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'federal agencies',
     'singular_item' => 'regulatory job',
     'choices' => [
-      'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
       'Food and Drug Administration (FDA)',
       'National Institute of Health (NIH)',
+      'Environmental Protection Agency (EPA)',
       'Center for Disease Control (CDC)',
     ],
     'correct' => 'National Institute of Health (NIH)',
@@ -129,9 +129,9 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => 'federal agencies',
     'singular_item' => 'regulatory job',
     'choices' => [
-      'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
       'Food and Drug Administration (FDA)',
       'National Institute of Health (NIH)',
+      'Environmental Protection Agency (EPA)',
       'Center for Disease Control (CDC)',
     ],
     'correct' => 'National Institute of Health (NIH)',
@@ -142,7 +142,7 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'regulatory job',
     'choices' => [
       'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
-      'National Institute of Health (NIH)',
+      'Food and Drug Administration (FDA)',
       'Environmental Protection Agency (EPA)',
       'Center for Disease Control (CDC)',
     ],
@@ -154,9 +154,9 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'regulatory job',
     'choices' => [
       'Health Inspection Service of the U.S. Department of Agriculture (USDA)',
-      'Food and Drug Administration (FDA)',
       'National Institute of Health (NIH)',
       'Environmental Protection Agency (EPA)',
+      'Center for Disease Control (CDC)',
     ],
     'correct' => 'Environmental Protection Agency (EPA)',
   },
