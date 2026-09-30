@@ -169,6 +169,39 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 </details>
 
 
+## Phylogenetic Tree Comparison: Identifying Different Evolutionary Relationships (6 Taxa, With Hint, Easy)
+
+<div id="gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level-questions.txt" download title="Download bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level-questions.txt" aria-label="Click to download the BBQ Text file (bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level.zip" download title="Download blackboard_export_zip-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level.zip" download title="Download canvas_qti_v1_2-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level.html', '_blank')" title="View human_readable-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Phylogenetic Tree Comparison: Identifying Different Evolutionary Relationships (6 Taxa, With Hint, Easy)
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic11/downloads/selftest-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level.html" %}
+
+</details>
+
+
 ## Non-Equivalent Phylogenetic Tree Structures (Medium)
 
 <div id="gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level-button-container" class="button-container">
@@ -198,6 +231,72 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
     </span>
   </summary>
   {% include "genetics/topic11/downloads/selftest-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level.html" %}
+
+</details>
+
+
+## Phylogenetic Tree Equivalence (5 Taxa, Rotation Hint, Easy)
+
+<div id="gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level-questions.txt" download title="Download bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level-questions.txt" aria-label="Click to download the BBQ Text file (bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level.zip" download title="Download blackboard_export_zip-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level.zip" download title="Download canvas_qti_v1_2-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level.html', '_blank')" title="View human_readable-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Phylogenetic Tree Equivalence (5 Taxa, Rotation Hint, Easy)
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic11/downloads/selftest-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level.html" %}
+
+</details>
+
+
+## Phylogenetic Tree Equivalence by Node Rotation (6 Taxa, With Hint, Medium)
+
+<div id="gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level-questions.txt" download title="Download bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level-questions.txt" aria-label="Click to download the BBQ Text file (bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level.zip" download title="Download blackboard_export_zip-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level.zip" download title="Download canvas_qti_v1_2-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level.html', '_blank')" title="View human_readable-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Phylogenetic Tree Equivalence by Node Rotation (6 Taxa, With Hint, Medium)
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic11/downloads/selftest-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level.html" %}
 
 </details>
 

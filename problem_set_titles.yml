@@ -389,6 +389,8 @@ bbq-deletion_mutant_words-04_genes-MC-questions.txt: Gene Order from Deletion Mu
   (4 Genes, Word Labels, MC)
 bbq-deletion_mutant_words-05_genes-MC-questions.txt: Gene Order from Deletion Mutants
   (5 Genes, Word Labels, MC)
+bbq-deletion_mutant_words-06_genes-MC-questions.txt: Gene Order from Deletion Mutants
+  (6 Genes, English Word Answers, MC)
 bbq-delta_g_prime_standard_state-questions.txt: Biochemical vs Chemical Standard Free
   Energy States (MC)
 bbq-descriptive_stats_google_sheet-questions.txt: Descriptive Statistics Using Google
@@ -453,8 +455,15 @@ bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4-questions.txt: Phyloge
   Trees from Distance Matrices (6 Taxa, MC)
 bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5-questions.txt: Phylogenetic
   Trees from Distance Matrices (7 Taxa, MC)
+bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level-questions.txt: 'Phylogenetic
+  Tree Comparison: Identifying Different Evolutionary Relationships (6 Taxa, With
+  Hint, Easy, MC)'
 bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level-questions.txt: Non-Equivalent
   Phylogenetic Tree Structures (Medium, MC)
+bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level-questions.txt: Phylogenetic
+  Tree Equivalence (5 Taxa, Rotation Hint, Easy, MC)
+bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level-questions.txt: Phylogenetic
+  Tree Equivalence by Node Rotation (6 Taxa, With Hint, Medium, MC)
 bbq-gibbs_free_energy_equation_symbols-questions.txt: Gibbs Free Energy Equation Symbols
   and Meanings (Matching)
 bbq-hardy_weinberg_mc_type-questions.txt: Hardy-Weinberg Variables from Population
@@ -624,6 +633,8 @@ bbq-thermodynamics_system_laws-questions.txt: First and Second Laws of Thermodyn
   for Different Systems (MC)
 bbq-three-point_test_cross-distances_plus-questions.txt: Gene Order and Map Distances
   from Three-Point Test Crosses (MULTI_FIB)
+bbq-three-point_test_cross-find_interence-MC-6_choices-questions.txt: Crossover Interference
+  from Three-Point Test Cross Data (6 Choices, MC)
 bbq-three-point_test_cross-find_interence-NUM-questions.txt: Interference in Three-Point
   Test Crosses (NUM)
 bbq-three-point_test_cross-one_gene_distance-MC-questions.txt: Genetic Distance for
@@ -632,6 +643,10 @@ bbq-three-point_test_cross-one_gene_distance-NUM-questions.txt: Genetic Distance
   a Gene Pair from Three-Point Test Crosses (NUM)
 bbq-three-point_test_cross-which_genotypes-DOUBLE-questions.txt: Double-Crossover
   Genotypes in Three-Point Test Crosses (MA)
+bbq-three-point_test_cross-which_genotypes-GENES-questions.txt: Recombinant Genotypes
+  for a Gene Pair from Three-Point Test Cross Data (MA)
+bbq-three-point_test_cross-which_genotypes-PARENTAL-questions.txt: 'Three-Point Test
+  Cross: Parental Genotypes from Progeny Counts (MA)'
 bbq-titration_pI-questions.txt: Isoelectric Point from pKa Values (MC)
 bbq-translate_genetic_code-10_aa-questions.txt: Peptide Sequences from mRNA Using
   the Genetic Code (10 Amino Acids, FiB)
@@ -647,6 +662,8 @@ bbq-two-point_test_cross-distance-NUM-with_hint-questions.txt: Genetic Distance 
   Two-Point Test Crosses (NUM)
 bbq-two-point_test_cross-which_genotypes-MA-with_hint-PARENTAL-questions.txt: Parental
   Genotype Combinations in a Two-Point Test Cross (MA)
+bbq-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT-questions.txt: Recombinant
+  Genotypes from Two-Point Test Cross Progeny Counts (With Hint, MA)
 bbq-unique_cross_genotypes-with_hint-4_genes-questions.txt: Unique Offspring Genotypes
   from Four-Gene Crosses (With Hint, MC)
 bbq-unique_cross_phenotypes-with_hint-4_genes-questions.txt: Unique Offspring Phenotypes
@@ -683,4 +700,4 @@ bbq-x_linked_reciprocal_cross-questions.txt: X-linked Eye Color Inheritance (MC)
 bbq-x_linked_tortoiseshell-questions.txt: X-linked Coat Color Probability (MC)
 bbq-z_score_google_sheet-questions.txt: Z-Scores in Google Sheets (MC)
 bbq-z_score_table_interp-questions.txt: Biodiversity Comparisons Using Z-Scores (MC)
-last edit: Wed Sep 30 09:32:16 2026
+last edit: Wed Sep 30 11:42:38 2026
