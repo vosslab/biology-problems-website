@@ -35,7 +35,7 @@ class BuildTimingLog:
 		selection = dataclasses.asdict(scope)
 		if scope.tasks_csv is not None:
 			selection["tasks_csv"] = str(scope.tasks_csv)
-		self.write("build_started", {"scope": selection, "estimator_version": 2})
+		self.write("build_started", {"scope": selection, "estimator_version": 3})
 
 	def write(self, event: str, details: dict[str, object]) -> None:
 		"""Flush one correlated measurement, including the current finish estimate."""
@@ -61,7 +61,8 @@ class BuildTimingLog:
 			"completed_operations": sum(self.timing.completed.values()),
 			"planned_operations": sum(self.timing.totals.values()),
 			"phase_mean_seconds": {
-				phase: sum(values) / len(values) for phase, values in self.timing.samples.items()
+				phase: build_progress.estimate_average(values)
+				for phase, values in self.timing.samples.items()
 			},
 		}
 		# ASVS 16.4.1: JSON escaping keeps embedded newlines inside one log record.

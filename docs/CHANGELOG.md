@@ -19,6 +19,11 @@
 
 ### Fixes and Maintenance
 
+- Start build estimates after three complete rows (or all rows in smaller builds).
+  Exclude one longest timing sample from each phase and row-overhead average once
+  three samples exist, reducing startup inflation in build finish estimates. Retain
+  raw durations and report the same trimmed averages in JSONL (estimator version 3).
+
 - Document the fixed HTTPS npm registry and fixed package names at the URL-open
   call, with a narrow B310 false-positive exemption. Preserve the vendored
   Bandit and typing gates; annotate the catalog capture helper and give its

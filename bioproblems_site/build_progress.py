@@ -19,6 +19,18 @@ PHASE_LABELS = {
 
 
 #============================================
+def estimate_average(values: list[float]) -> float:
+	"""Exclude one longest sample so one-time startup does not inflate remaining work."""
+	if not values:
+		return 0.0
+	if len(values) < 3:
+		average = sum(values) / len(values)
+	else:
+		average = (sum(values) - max(values)) / (len(values) - 1)
+	return average
+
+
+#============================================
 class BuildTiming:
 	"""Estimate each remaining phase from that phase's completed operations."""
 
@@ -66,21 +78,18 @@ class BuildTiming:
 	def estimate(
 		self, active_phase: str = "", active_elapsed: float = 0.0,
 	) -> float | None:
-		"""Estimate the whole pipeline after two complete rows (six operations)."""
+		"""Estimate after three complete rows, or all rows in a smaller build."""
 		rows = self.totals.get("bbq", 0)
-		if rows and len(self.row_samples) < min(2, rows):
+		if rows and len(self.row_samples) < min(3, rows):
 			return None
 		if not self.samples:
 			return None
 		remaining = 0.0
 		row_phase_average = sum(
-			sum(self.samples[phase]) / len(self.samples[phase])
+			estimate_average(self.samples[phase])
 			for phase in ("bbq", "selftests", "downloads") if self.samples.get(phase)
 		)
-		row_overhead = (
-			sum(self.row_overhead_samples) / len(self.row_overhead_samples)
-			if self.row_overhead_samples else 0.0
-		)
+		row_overhead = estimate_average(self.row_overhead_samples)
 		row_average = row_phase_average + row_overhead
 		for phase, total in self.totals.items():
 			count = max(total - self.completed.get(phase, 0), 0)
@@ -92,7 +101,7 @@ class BuildTiming:
 				# own timing is available; cheap generation alone is not a proxy.
 				average = row_average
 			else:
-				average = sum(values) / len(values)
+				average = estimate_average(values)
 			remaining += count * average
 			if phase == active_phase:
 				remaining -= min(active_elapsed, average)
