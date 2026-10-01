@@ -12,7 +12,7 @@ operational usage of the runner, see
 
 ## Header row
 
-CSVs use RFC 4180 fields with a header row and optional `# comment` lines.
+CSVs use RFC 4180 fields with a header row and optional `#` comment lines.
 The supported columns are:
 
 | Column        | Required | Notes                                                              |
@@ -105,13 +105,13 @@ resolver is never asked to validate the topic cell on a separator row.
 
 ## Comment lines
 
-The task loader ignores any line starting with the exact, case-sensitive prefix
-`# comment`. Add a standalone note or prepend `# comment ` to disable a task row:
+The task loader ignores any line starting with `#`. Add a standalone note or
+prepend `#` to disable a task row. Existing `# comment` lines remain supported:
 
 ```csv
-# comment Temporarily disabled while revising this question
+# Temporarily disabled while revising this question
 subject,topic,script,flags,input,notes
-# comment biochemistry,amino_acids,disabled.py,,,
+#biochemistry,amino_acids,disabled.py,,,
 biochemistry,amino_acids,active.py,,,
 ```
 

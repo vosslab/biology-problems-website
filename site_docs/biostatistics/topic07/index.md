@@ -2,6 +2,72 @@
 
 Students analyze biological datasets using one-sample z-tests and t-tests, two-sample t-tests, F-tests for comparing variances, and ANOVA for comparing group means.
 
+## Birth Weight One-Sample t-Test p-Value from Data (One-Tailed)
+
+<div id="babies_one_sample_t_test-tails1-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-babies_one_sample_t_test-tails1-questions.txt" download title="Download bbq-babies_one_sample_t_test-tails1-questions.txt" aria-label="Click to download the BBQ Text file (bbq-babies_one_sample_t_test-tails1-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-babies_one_sample_t_test-tails1.zip" download title="Download blackboard_export_zip-babies_one_sample_t_test-tails1.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-babies_one_sample_t_test-tails1.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-babies_one_sample_t_test-tails1.zip" download title="Download canvas_qti_v1_2-babies_one_sample_t_test-tails1.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-babies_one_sample_t_test-tails1.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-babies_one_sample_t_test-tails1.html', '_blank')" title="View human_readable-babies_one_sample_t_test-tails1.html" aria-label="Click to view the Human-Readable TXT file (human_readable-babies_one_sample_t_test-tails1.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Birth Weight One-Sample t-Test p-Value from Data (One-Tailed)
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biostatistics/topic07/downloads/selftest-babies_one_sample_t_test-tails1.html" %}
+
+</details>
+
+
+## Birth Weight One-Sample z-Test p-Value Calculations (One-Tailed)
+
+<div id="babies_one_sample_z_test-ztest-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-babies_one_sample_z_test-ztest-questions.txt" download title="Download bbq-babies_one_sample_z_test-ztest-questions.txt" aria-label="Click to download the BBQ Text file (bbq-babies_one_sample_z_test-ztest-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-babies_one_sample_z_test-ztest.zip" download title="Download blackboard_export_zip-babies_one_sample_z_test-ztest.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-babies_one_sample_z_test-ztest.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-babies_one_sample_z_test-ztest.zip" download title="Download canvas_qti_v1_2-babies_one_sample_z_test-ztest.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-babies_one_sample_z_test-ztest.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-babies_one_sample_z_test-ztest.html', '_blank')" title="View human_readable-babies_one_sample_z_test-ztest.html" aria-label="Click to view the Human-Readable TXT file (human_readable-babies_one_sample_z_test-ztest.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Birth Weight One-Sample z-Test p-Value Calculations (One-Tailed)
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "biostatistics/topic07/downloads/selftest-babies_one_sample_z_test-ztest.html" %}
+
+</details>
+
+
 ## Two-Sample t-Test P-Values
 
 <div id="babies_two_sample_t_test-tails1-button-container" class="button-container">
@@ -163,39 +229,6 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
     </span>
   </summary>
   {% include "biostatistics/topic07/downloads/selftest-busse_woods_two_sample_t_test-tails1.html" %}
-
-</details>
-
-
-## Population Z-Test Using Google Sheets Data
-
-<div id="population_test_google_sheet-ztest-button-container" class="button-container">
-<span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-population_test_google_sheet-ztest-questions.txt" download title="Download bbq-population_test_google_sheet-ztest-questions.txt" aria-label="Click to download the BBQ Text file (bbq-population_test_google_sheet-ztest-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-population_test_google_sheet-ztest.zip" download title="Download blackboard_export_zip-population_test_google_sheet-ztest.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-population_test_google_sheet-ztest.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-population_test_google_sheet-ztest.zip" download title="Download canvas_qti_v1_2-population_test_google_sheet-ztest.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-population_test_google_sheet-ztest.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-population_test_google_sheet-ztest.html', '_blank')" title="View human_readable-population_test_google_sheet-ztest.html" aria-label="Click to view the Human-Readable TXT file (human_readable-population_test_google_sheet-ztest.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Population Z-Test Using Google Sheets Data
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  {% include "biostatistics/topic07/downloads/selftest-population_test_google_sheet-ztest.html" %}
 
 </details>
 

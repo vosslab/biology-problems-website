@@ -61,6 +61,8 @@ bbq-MATCH-gene_therapy_v_edit-questions.txt: Genetic Disease Treatment Methods f
 bbq-MATCH-genetic_disorders-questions.txt: Genetic Disorders (Matching)
 bbq-MATCH-genetics_terminology-questions.txt: Genetics Terms from Definitions (Matching)
 bbq-MATCH-hypothesis_testing-questions.txt: Hypothesis Tests from Descriptions (Matching)
+bbq-MATCH-hypothesis_testing_terms-questions.txt: Hypothesis Testing Terms and Definitions
+  (Matching)
 bbq-MATCH-intellectual_property-questions.txt: Types of Intellectual Property from
   Descriptions (Matching)
 bbq-MATCH-intercellular_junctions-questions.txt: Intercellular Junctions from Functions
@@ -98,6 +100,8 @@ bbq-MATCH-protein_v_dna_gels-questions.txt: Protein and Nucleic Acid Gel Electro
 bbq-MATCH-proteomics_v_metabolomics-questions.txt: Proteomics and Metabolomics Techniques
   (Matching)
 bbq-MATCH-respiration-questions.txt: Cellular Respiration Stages from Statements (Matching)
+bbq-MATCH-selecting_statistical_tests-questions.txt: Statistical Hypothesis Tests
+  from Descriptions (Matching)
 bbq-MATCH-senses_receptor_types_by_modality-questions.txt: Sensory Modalities from
   Receptor Cell Types (Matching)
 bbq-MATCH-senses_signal_transduction_matching_set-questions.txt: Sensory Signal Transduction
@@ -142,6 +146,8 @@ bbq-TFMS-gibbs_free_energy_equation-questions.txt: Gibbs Free Energy (Delta G = 
   H - T Delta S, TFMS)
 bbq-TFMS-h-w_non-evolve_criteria-questions.txt: Hardy-Weinberg Equilibrium Conditions
   (TFMS)
+bbq-TFMS-hypothesis_testing_decisions-questions.txt: Statistical Hypothesis Testing
+  Decisions (TFMS)
 bbq-TFMS-intron_splicing-questions.txt: Intron Removal Mechanisms (TFMS)
 bbq-TFMS-inventions_v_discoveries-questions.txt: Patentable Inventions Versus Scientific
   Discoveries (TFMS)
@@ -225,6 +231,8 @@ bbq-WOMC-gene_therapy_v_edit-questions.txt: Genetic Disease Treatment Methods fr
 bbq-WOMC-genetic_disorders-questions.txt: Genetic Disorders (WOMC)
 bbq-WOMC-genetics_terminology-questions.txt: Genetics Terms from Definitions (WOMC)
 bbq-WOMC-hypothesis_testing-questions.txt: Hypothesis Tests from Descriptions (WOMC)
+bbq-WOMC-hypothesis_testing_terms-questions.txt: Statistical Hypothesis Testing Terms
+  from Definitions (WOMC)
 bbq-WOMC-intellectual_property-questions.txt: Types of Intellectual Property from
   Descriptions (WOMC)
 bbq-WOMC-intercellular_junctions-questions.txt: Intercellular Junctions from Functions
@@ -262,6 +270,8 @@ bbq-WOMC-protein_v_dna_gels-questions.txt: Protein and Nucleic Acid Gel Electrop
 bbq-WOMC-proteomics_v_metabolomics-questions.txt: Proteomics and Metabolomics Techniques
   from Descriptions (WOMC)
 bbq-WOMC-respiration-questions.txt: Cellular Respiration Stages from Statements (WOMC)
+bbq-WOMC-selecting_statistical_tests-questions.txt: Statistical Hypothesis Test Selection
+  from Study Descriptions (WOMC)
 bbq-WOMC-senses_receptor_types_by_modality-questions.txt: Sensory Modalities from
   Receptor Cell Types (WOMC)
 bbq-WOMC-senses_signal_transduction_matching_set-questions.txt: Sensory Signal Transduction
@@ -292,6 +302,10 @@ bbq-alpha_helix_h-bonds-MA-questions.txt: Hydrogen Bonds in Alpha-Helix Structur
 bbq-alpha_helix_h-bonds-MC-questions.txt: Hydrogen Bonds in Alpha-Helix Structures
   (MC)
 bbq-amplicon_copies-questions.txt: Amplicon Copy Number After PCR Rounds (MC)
+bbq-babies_one_sample_t_test-tails1-questions.txt: Birth Weight One-Sample t-Test
+  p-Value from Data (One-Tailed, NUM)
+bbq-babies_one_sample_z_test-ztest-questions.txt: Birth Weight One-Sample z-Test p-Value
+  Calculations (One-Tailed, NUM)
 bbq-babies_two_sample_t_test-tails1-questions.txt: Two-Sample t-Test P-Values (NUM)
 bbq-beadle_tatum-metabolic_pathway-4_metabolites-questions.txt: Metabolic Pathway
   Mutant Growth Rescue by Nutrient Supplementation (4 Metabolites, MA)
@@ -480,6 +494,8 @@ bbq-hla_genotype-3_markers-color-questions.txt: Offspring HLA Genotypes (3 Marke
   Color, MC)
 bbq-hypothesis_lab_partner-hypotheses_partner-questions.txt: Flaws in Statistical
   Hypothesis Testing (MC)
+bbq-hypothesis_statement_errors-hypotheses_partner-questions.txt: Errors in Null and
+  Alternative Hypotheses for Shannon Diversity Means and Variances (MC)
 bbq-hypothesis_statements-pair-questions.txt: Null and Alternative Hypotheses in Statistical
   Tests (MC)
 bbq-inverse_pcr_design-len_15-questions.txt: Inverse PCR Primer Selection (15 nt,
@@ -539,6 +555,8 @@ bbq-mutant_screen-mc-4_metabolites-questions.txt: 'Metabolic Pathway Mutant Scre
   Wild-Type Identification from Precursor Growth Patterns (4 Metabolites, MC)'
 bbq-nested_pcr_design-len_24-questions.txt: Nested PCR Primer Pair Selection (24 nt,
   MC)
+bbq-null_and_alternative_hypotheses-pair-questions.txt: Null and Alternative Hypothesis
+  Identification for Mean, Variance, and ANOVA Tests (MC)
 bbq-optimal_buffering_range-questions.txt: Optimal Buffering Range Using pKa (MC)
 bbq-optimal_enzyme-type_1-questions.txt: Enzyme Activity Changes with Temperature
   and pH (MC)
@@ -700,4 +718,4 @@ bbq-x_linked_reciprocal_cross-questions.txt: X-linked Eye Color Inheritance (MC)
 bbq-x_linked_tortoiseshell-questions.txt: X-linked Coat Color Probability (MC)
 bbq-z_score_google_sheet-questions.txt: Z-Scores in Google Sheets (MC)
 bbq-z_score_table_interp-questions.txt: Biodiversity Comparisons Using Z-Scores (MC)
-last edit: Wed Sep 30 11:42:38 2026
+last edit: Thu Oct  1 16:15:47 2026

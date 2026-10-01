@@ -130,11 +130,11 @@ def test_missing_required_task_column_fails_with_csv_context(tmp_path: object) -
 def test_comment_lines_skipped_with_original_line_numbers(tmp_path: object) -> None:
 	"""Notes and disabled rows cannot become tasks or shift active row identities."""
 	body = """
-		# comment Tasks for this chapter
+		# Tasks for this chapter
 		subject,topic,script,flags,input,notes
-		# comment biochemistry,amino_acids,disabled.py,,,,extra
+		#biochemistry,amino_acids,disabled.py,,,,extra
 		biochemistry,amino_acids,first.py,,,"Keep # comment in a cell"
-		# comment "Unclosed quotes in comments are ignored
+		# "Unclosed quotes in comments are ignored
 		biochemistry,topic14,second.py,,,
 		# comment End of tasks
 	"""
