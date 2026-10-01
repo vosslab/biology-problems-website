@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-10-01
+
+### Fixes and Maintenance
+
+- Updated biostatistics task inputs for the renamed
+  `null_and_alternative_hypotheses.py` and `hypothesis_statement_errors.py` generators.
+
+- Updated three biostatistics task inputs for renamed question banks:
+  `selecting_statistical_tests.yml`, `hypothesis_testing_terms.yml`, and
+  `hypothesis_testing_decisions.yml`.
+
 ## 2026-09-30
 
 ### Behavior or Interface Changes
