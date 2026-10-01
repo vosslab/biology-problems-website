@@ -14,20 +14,14 @@ Questions ask students to calculate means, standard deviations, and p-values, in
 2. [Graph Interpretation](topic03/index.md) <span class='topic-count' title='4 questions'>4 questions</span>
     - Students read, interpret, and compare graphical data displays including box plots, histograms, scatterplots, bar charts, ROC curves, and Kaplan-Meier survival plots.
 
-3. [Distributions and Probability](topic04/index.md) <span class='topic-count' title='2 questions'>2 questions</span>
-    - Students apply the normal distribution to calculate probabilities, use z-tables, and identify properties of probability distributions.
-
-4. [Grouping with Z-Scores](topic05/index.md) <span class='topic-count' title='2 questions'>2 questions</span>
+3. [Grouping with Z-Scores](topic05/index.md) <span class='topic-count' title='2 questions'>2 questions</span>
     - Students convert raw scores to z-scores, use z-score thresholds to classify observations into groups, and identify statistical outliers using standard deviation cutoffs.
 
-5. [Hypothesis Testing Concepts](topic06/index.md) <span class='topic-count' title='7 questions'>7 questions</span>
+4. [Hypothesis Testing Concepts](topic06/index.md) <span class='topic-count' title='7 questions'>7 questions</span>
     - Students formulate and critique null and alternative hypotheses, choose appropriate statistical tests, and interpret p-values, significance levels, and test decisions.
 
-6. [Z-Tests, T-Tests, F-Tests, and ANOVA](topic07/index.md) <span class='topic-count' title='6 questions'>6 questions</span>
+5. [Z-Tests, T-Tests, F-Tests, and ANOVA](topic07/index.md) <span class='topic-count' title='7 questions'>7 questions</span>
     - Students analyze biological datasets using one-sample z-tests and t-tests, two-sample t-tests, F-tests for comparing variances, and ANOVA for comparing group means.
 
-7. [Chi-Square Tests](topic08/index.md) <span class='topic-count' title='8 questions'>8 questions</span>
+6. [Chi-Square Tests](topic08/index.md) <span class='topic-count' title='4 questions'>4 questions</span>
     - Students formulate hypotheses, calculate expected counts and chi-square statistics, interpret goodness-of-fit tests for genetic ratios, and identify errors in test procedures.
-
-8. [Hardy-Weinberg Equilibrium](topic09/index.md) <span class='topic-count' title='3 questions'>3 questions</span>
-    - Students calculate allele and genotype frequencies using Hardy-Weinberg relationships and use chi-square goodness-of-fit tests to evaluate whether observed genotype counts fit equilibrium expectations.

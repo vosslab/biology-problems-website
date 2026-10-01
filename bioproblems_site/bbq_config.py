@@ -282,7 +282,7 @@ def load_tasks_csv(
 			# ASVS 2.2.1: exclude comment lines before validating active CSV data.
 			# Blank placeholders preserve physical line numbers for errors and task grouping.
 			csv_lines = (
-				"\n" if line.startswith("# comment") else line
+				"\n" if line.startswith("#") else line
 				for line in file_handle
 			)
 			reader = csv.DictReader(csv_lines, strict=True)

@@ -7,7 +7,7 @@
 Browse the generated problem sets by subject and topic. Use your browser's Find command to search all problem-set titles on this page.
 For sortable results and subject, topic, and type filters, use the [Question Finder](question_finder.md).
 
-**481 problem sets**
+**473 problem sets**
 
 ## Biochemistry
 
@@ -518,11 +518,6 @@ For sortable results and subject, topic, and type filters, use the [Question Fin
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biostatistics/topic03/">Box Plots from Five-Number Summary</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biostatistics/topic03/">Box Plots from Unsorted Data (Even Sample Size)</a></span>
 
-### Distributions and Probability
-
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biostatistics/topic04/">Parent Genotypes in X-Linked Recessive Crosses</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biostatistics/topic04/">Offspring Sex Distribution Using the Binomial Model</a></span>
-
 ### Grouping with Z-Scores
 
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biostatistics/topic05/">Z-Scores in Google Sheets</a></span>
@@ -530,39 +525,30 @@ For sortable results and subject, topic, and type filters, use the [Question Fin
 
 ### Hypothesis Testing Concepts
 
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../biostatistics/topic06/">Hypothesis Tests from Descriptions</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../biostatistics/topic06/">Statistical Test Terms from Definitions</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span><a href="../biostatistics/topic06/">Statistical Tests</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../biostatistics/topic06/">Hypothesis Tests from Descriptions</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../biostatistics/topic06/">Statistical Test Terms from Definitions</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biostatistics/topic06/">Flaws in Statistical Hypothesis Testing</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biostatistics/topic06/">Null and Alternative Hypotheses in Statistical Tests</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../biostatistics/topic06/">Hypothesis Testing Terms and Definitions</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../biostatistics/topic06/">Statistical Hypothesis Tests from Descriptions</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span><a href="../biostatistics/topic06/">Statistical Hypothesis Testing Decisions</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../biostatistics/topic06/">Statistical Hypothesis Testing Terms from Definitions</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../biostatistics/topic06/">Statistical Hypothesis Test Selection from Study Descriptions</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biostatistics/topic06/">Errors in Null and Alternative Hypotheses for Shannon Diversity Means and Variances</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biostatistics/topic06/">Null and Alternative Hypothesis Identification for Mean, Variance, and ANOVA Tests</a></span>
 
 ### Z-Tests, T-Tests, F-Tests, and ANOVA
 
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span><a href="../biostatistics/topic07/">Birth Weight One-Sample t-Test p-Value from Data (One-Tailed)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span><a href="../biostatistics/topic07/">Birth Weight One-Sample z-Test p-Value Calculations (One-Tailed)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span><a href="../biostatistics/topic07/">Two-Sample t-Test P-Values</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span><a href="../biostatistics/topic07/">Biodiversity Differences Using ANOVA</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span><a href="../biostatistics/topic07/">Microbial Diversity Significance Using a Z-Test</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span><a href="../biostatistics/topic07/">Statistical Significance Using a Two-Sample F-Test</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span><a href="../biostatistics/topic07/">Statistical Significance Using a Two-Sample t-Test</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span><a href="../biostatistics/topic07/">Population Z-Test Using Google Sheets Data</a></span>
 
 ### Chi-Square Tests
 
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../biostatistics/topic08/">Chi-Square Terms from Definitions</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span><a href="../biostatistics/topic08/">Chi-Square Tests</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span><a href="../biostatistics/topic08/">Chi-Square Terms from Definitions</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span><a href="../biostatistics/topic08/">Chi-Square Values for Phenotypic Ratios</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biostatistics/topic08/">Hypothesis Decisions from Chi-Square Tests</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biostatistics/topic08/">Errors in Chi-Square Calculations and Hypothesis Decisions</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biostatistics/topic08/">Null and Alternative Hypotheses for Genetic Crosses</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biostatistics/topic08/">Misstated Null Hypotheses for Genetic Ratios</a></span>
-
-### Hardy-Weinberg Equilibrium
-
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biostatistics/topic09/">Chi-Square Tests for Hardy-Weinberg Equilibrium</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../biostatistics/topic09/">Hardy-Weinberg Variables from Population Data</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span><a href="../biostatistics/topic09/">Hardy-Weinberg Allele and Genotype Frequencies from Population Data</a></span>
 
 ## Biotechnology
 

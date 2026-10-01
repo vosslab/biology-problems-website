@@ -4,6 +4,10 @@
 
 ### Fixes and Maintenance
 
+- Accept any task CSV line starting with `#` as a comment, including disabled
+  rows such as `#biostatistics,...`. Previously only `# comment` was recognized.
+  Preserve original row numbers and retain support for existing comments.
+
 - Updated biostatistics task inputs for the renamed
   `null_and_alternative_hypotheses.py` and `hypothesis_statement_errors.py` generators.
 

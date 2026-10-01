@@ -5,7 +5,7 @@
 ## DBsubject('Biostatistics')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-09-30')
+## Date('2026-10-01')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -35,7 +35,7 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       '<span style="color: #4424d6; font-weight:700;">critical value</span>',
       '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> test statistic',
-      '<span style="color: #c21460; font-weight:700;">p-value</span>',
+      '<span style="color: #8601af; font-weight:700;">level of significance, &alpha;</span>',
       '<span style="color: #cf4b03; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
       '<span style="color: #687f19; font-weight:700;">degrees of freedom</span>',
     ],
@@ -48,7 +48,7 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       '<span style="color: #4424d6; font-weight:700;">critical value</span>',
       '<span style="color: #8601af; font-weight:700;">level of significance, &alpha;</span>',
-      '<span style="color: #0247fe; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+      '<span style="color: #c21460; font-weight:700;">p-value</span>',
       '<span style="color: #cf4b03; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
       '<span style="color: #687f19; font-weight:700;">degrees of freedom</span>',
     ],
@@ -60,10 +60,10 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'definition',
     'choices' => [
       '<span style="color: #4424d6; font-weight:700;">critical value</span>',
+      '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> test statistic',
       '<span style="color: #8601af; font-weight:700;">level of significance, &alpha;</span>',
       '<span style="color: #c21460; font-weight:700;">p-value</span>',
-      '<span style="color: #cf4b03; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
-      '<span style="color: #687f19; font-weight:700;">degrees of freedom</span>',
+      '<span style="color: #0247fe; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
     ],
     'correct' => '<span style="color: #4424d6; font-weight:700;">critical value</span>',
   },
@@ -85,9 +85,9 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> terms',
     'singular_item' => 'definition',
     'choices' => [
-      '<span style="color: #4424d6; font-weight:700;">critical value</span>',
       '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> test statistic',
       '<span style="color: #8601af; font-weight:700;">level of significance, &alpha;</span>',
+      '<span style="color: #c21460; font-weight:700;">p-value</span>',
       '<span style="color: #0247fe; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
       '<span style="color: #cf4b03; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
     ],
@@ -101,7 +101,7 @@ $showPartialCorrectAnswers = 0;
       '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> test statistic',
       '<span style="color: #8601af; font-weight:700;">level of significance, &alpha;</span>',
       '<span style="color: #c21460; font-weight:700;">p-value</span>',
-      '<span style="color: #cf4b03; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
+      '<span style="color: #0247fe; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
       '<span style="color: #687f19; font-weight:700;">degrees of freedom</span>',
     ],
     'correct' => '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> test statistic',
@@ -113,9 +113,9 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       '<span style="color: #4424d6; font-weight:700;">critical value</span>',
       '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> test statistic',
-      '<span style="color: #8601af; font-weight:700;">level of significance, &alpha;</span>',
       '<span style="color: #c21460; font-weight:700;">p-value</span>',
       '<span style="color: #0247fe; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+      '<span style="color: #cf4b03; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
     ],
     'correct' => '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> test statistic',
   },
@@ -124,11 +124,11 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> terms',
     'singular_item' => 'definition',
     'choices' => [
-      '<span style="color: #4424d6; font-weight:700;">critical value</span>',
+      '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> test statistic',
       '<span style="color: #8601af; font-weight:700;">level of significance, &alpha;</span>',
       '<span style="color: #c21460; font-weight:700;">p-value</span>',
+      '<span style="color: #0247fe; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
       '<span style="color: #cf4b03; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
-      '<span style="color: #687f19; font-weight:700;">degrees of freedom</span>',
     ],
     'correct' => '<span style="color: #8601af; font-weight:700;">level of significance, &alpha;</span>',
   },
@@ -138,10 +138,10 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'definition',
     'choices' => [
       '<span style="color: #4424d6; font-weight:700;">critical value</span>',
-      '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> test statistic',
       '<span style="color: #8601af; font-weight:700;">level of significance, &alpha;</span>',
-      '<span style="color: #c21460; font-weight:700;">p-value</span>',
+      '<span style="color: #0247fe; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
       '<span style="color: #cf4b03; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
+      '<span style="color: #687f19; font-weight:700;">degrees of freedom</span>',
     ],
     'correct' => '<span style="color: #8601af; font-weight:700;">level of significance, &alpha;</span>',
   },
@@ -154,7 +154,7 @@ $showPartialCorrectAnswers = 0;
       '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> test statistic',
       '<span style="color: #8601af; font-weight:700;">level of significance, &alpha;</span>',
       '<span style="color: #c21460; font-weight:700;">p-value</span>',
-      '<span style="color: #687f19; font-weight:700;">degrees of freedom</span>',
+      '<span style="color: #cf4b03; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
     ],
     'correct' => '<span style="color: #8601af; font-weight:700;">level of significance, &alpha;</span>',
   },
@@ -176,10 +176,10 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> terms',
     'singular_item' => 'definition',
     'choices' => [
-      '<span style="color: #4424d6; font-weight:700;">critical value</span>',
-      '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> test statistic',
       '<span style="color: #8601af; font-weight:700;">level of significance, &alpha;</span>',
       '<span style="color: #c21460; font-weight:700;">p-value</span>',
+      '<span style="color: #0247fe; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+      '<span style="color: #cf4b03; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
       '<span style="color: #687f19; font-weight:700;">degrees of freedom</span>',
     ],
     'correct' => '<span style="color: #8601af; font-weight:700;">level of significance, &alpha;</span>',
@@ -190,8 +190,8 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'definition',
     'choices' => [
       '<span style="color: #4424d6; font-weight:700;">critical value</span>',
+      '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> test statistic',
       '<span style="color: #8601af; font-weight:700;">level of significance, &alpha;</span>',
-      '<span style="color: #0247fe; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
       '<span style="color: #cf4b03; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
       '<span style="color: #687f19; font-weight:700;">degrees of freedom</span>',
     ],
@@ -202,7 +202,7 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> terms',
     'singular_item' => 'definition',
     'choices' => [
-      '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> test statistic',
+      '<span style="color: #4424d6; font-weight:700;">critical value</span>',
       '<span style="color: #8601af; font-weight:700;">level of significance, &alpha;</span>',
       '<span style="color: #c21460; font-weight:700;">p-value</span>',
       '<span style="color: #0247fe; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
@@ -215,11 +215,11 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> terms',
     'singular_item' => 'definition',
     'choices' => [
-      '<span style="color: #4424d6; font-weight:700;">critical value</span>',
+      '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> test statistic',
+      '<span style="color: #8601af; font-weight:700;">level of significance, &alpha;</span>',
       '<span style="color: #c21460; font-weight:700;">p-value</span>',
       '<span style="color: #0247fe; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
       '<span style="color: #cf4b03; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
-      '<span style="color: #687f19; font-weight:700;">degrees of freedom</span>',
     ],
     'correct' => '<span style="color: #c21460; font-weight:700;">p-value</span>',
   },
@@ -228,9 +228,9 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> terms',
     'singular_item' => 'definition',
     'choices' => [
-      '<span style="color: #4424d6; font-weight:700;">critical value</span>',
+      '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> test statistic',
+      '<span style="color: #8601af; font-weight:700;">level of significance, &alpha;</span>',
       '<span style="color: #c21460; font-weight:700;">p-value</span>',
-      '<span style="color: #0247fe; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
       '<span style="color: #cf4b03; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
       '<span style="color: #687f19; font-weight:700;">degrees of freedom</span>',
     ],
@@ -242,9 +242,9 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'definition',
     'choices' => [
       '<span style="color: #4424d6; font-weight:700;">critical value</span>',
+      '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> test statistic',
       '<span style="color: #8601af; font-weight:700;">level of significance, &alpha;</span>',
       '<span style="color: #c21460; font-weight:700;">p-value</span>',
-      '<span style="color: #0247fe; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
       '<span style="color: #cf4b03; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
     ],
     'correct' => '<span style="color: #c21460; font-weight:700;">p-value</span>',
@@ -256,9 +256,9 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       '<span style="color: #4424d6; font-weight:700;">critical value</span>',
       '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> test statistic',
-      '<span style="color: #c21460; font-weight:700;">p-value</span>',
       '<span style="color: #0247fe; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
       '<span style="color: #cf4b03; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
+      '<span style="color: #687f19; font-weight:700;">degrees of freedom</span>',
     ],
     'correct' => '<span style="color: #0247fe; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
   },
@@ -268,9 +268,9 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'definition',
     'choices' => [
       '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> test statistic',
+      '<span style="color: #8601af; font-weight:700;">level of significance, &alpha;</span>',
       '<span style="color: #c21460; font-weight:700;">p-value</span>',
       '<span style="color: #0247fe; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
-      '<span style="color: #cf4b03; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
       '<span style="color: #687f19; font-weight:700;">degrees of freedom</span>',
     ],
     'correct' => '<span style="color: #0247fe; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
@@ -281,10 +281,10 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'definition',
     'choices' => [
       '<span style="color: #4424d6; font-weight:700;">critical value</span>',
-      '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> test statistic',
+      '<span style="color: #8601af; font-weight:700;">level of significance, &alpha;</span>',
       '<span style="color: #c21460; font-weight:700;">p-value</span>',
       '<span style="color: #0247fe; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
-      '<span style="color: #687f19; font-weight:700;">degrees of freedom</span>',
+      '<span style="color: #cf4b03; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
     ],
     'correct' => '<span style="color: #0247fe; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
   },
@@ -293,11 +293,11 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> terms',
     'singular_item' => 'definition',
     'choices' => [
-      '<span style="color: #4424d6; font-weight:700;">critical value</span>',
       '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> test statistic',
       '<span style="color: #8601af; font-weight:700;">level of significance, &alpha;</span>',
       '<span style="color: #0247fe; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
       '<span style="color: #cf4b03; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
+      '<span style="color: #687f19; font-weight:700;">degrees of freedom</span>',
     ],
     'correct' => '<span style="color: #cf4b03; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
   },
@@ -306,7 +306,7 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> terms',
     'singular_item' => 'definition',
     'choices' => [
-      '<span style="color: #4424d6; font-weight:700;">critical value</span>',
+      '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> test statistic',
       '<span style="color: #8601af; font-weight:700;">level of significance, &alpha;</span>',
       '<span style="color: #c21460; font-weight:700;">p-value</span>',
       '<span style="color: #cf4b03; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
@@ -322,7 +322,7 @@ $showPartialCorrectAnswers = 0;
       '<span style="color: #4424d6; font-weight:700;">critical value</span>',
       '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> test statistic',
       '<span style="color: #8601af; font-weight:700;">level of significance, &alpha;</span>',
-      '<span style="color: #0247fe; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+      '<span style="color: #c21460; font-weight:700;">p-value</span>',
       '<span style="color: #cf4b03; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
     ],
     'correct' => '<span style="color: #cf4b03; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
@@ -334,7 +334,7 @@ $showPartialCorrectAnswers = 0;
     'choices' => [
       '<span style="color: #4424d6; font-weight:700;">critical value</span>',
       '<span style="color: #8601af; font-weight:700;">level of significance, &alpha;</span>',
-      '<span style="color: #c21460; font-weight:700;">p-value</span>',
+      '<span style="color: #0247fe; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
       '<span style="color: #cf4b03; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
       '<span style="color: #687f19; font-weight:700;">degrees of freedom</span>',
     ],
@@ -345,9 +345,9 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> terms',
     'singular_item' => 'definition',
     'choices' => [
+      '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> test statistic',
       '<span style="color: #8601af; font-weight:700;">level of significance, &alpha;</span>',
       '<span style="color: #c21460; font-weight:700;">p-value</span>',
-      '<span style="color: #0247fe; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
       '<span style="color: #cf4b03; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
       '<span style="color: #687f19; font-weight:700;">degrees of freedom</span>',
     ],
@@ -359,8 +359,8 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'definition',
     'choices' => [
       '<span style="color: #4424d6; font-weight:700;">critical value</span>',
-      '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> test statistic',
       '<span style="color: #8601af; font-weight:700;">level of significance, &alpha;</span>',
+      '<span style="color: #0247fe; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
       '<span style="color: #cf4b03; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
       '<span style="color: #687f19; font-weight:700;">degrees of freedom</span>',
     ],
@@ -371,7 +371,7 @@ $showPartialCorrectAnswers = 0;
     'plural_choice' => '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> terms',
     'singular_item' => 'definition',
     'choices' => [
-      '<span style="color: #8601af; font-weight:700;">level of significance, &alpha;</span>',
+      '<span style="color: #4424d6; font-weight:700;">critical value</span>',
       '<span style="color: #c21460; font-weight:700;">p-value</span>',
       '<span style="color: #0247fe; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
       '<span style="color: #cf4b03; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
@@ -385,7 +385,7 @@ $showPartialCorrectAnswers = 0;
     'singular_item' => 'definition',
     'choices' => [
       '<span style="color: #4424d6; font-weight:700;">critical value</span>',
-      '<span style="color: #8601af; font-weight:700;">level of significance, &alpha;</span>',
+      '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> test statistic',
       '<span style="color: #c21460; font-weight:700;">p-value</span>',
       '<span style="color: #0247fe; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
       '<span style="color: #687f19; font-weight:700;">degrees of freedom</span>',
@@ -400,7 +400,7 @@ $showPartialCorrectAnswers = 0;
       '<span style="color: #4424d6; font-weight:700;">critical value</span>',
       '<span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> test statistic',
       '<span style="color: #8601af; font-weight:700;">level of significance, &alpha;</span>',
-      '<span style="color: #0247fe; font-weight:700;">null hypothesis, H<sub>0</sub></span>',
+      '<span style="color: #cf4b03; font-weight:700;">alternative hypothesis, H<sub>a</sub></span>',
       '<span style="color: #687f19; font-weight:700;">degrees of freedom</span>',
     ],
     'correct' => '<span style="color: #687f19; font-weight:700;">degrees of freedom</span>',
