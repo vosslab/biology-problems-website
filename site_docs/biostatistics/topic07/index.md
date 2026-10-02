@@ -2,7 +2,7 @@
 
 Students analyze biological datasets using one-sample z-tests and t-tests, two-sample t-tests, F-tests for comparing variances, and ANOVA for comparing group means.
 
-## Birth Weight One-Sample t-Test p-Value from Data (One-Tailed)
+## One-Sample t-Test p-Values from Birth Weight Data (One-Tailed)
 
 <div id="babies_one_sample_t_test-tails1-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
@@ -24,7 +24,7 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Birth Weight One-Sample t-Test p-Value from Data (One-Tailed)
+      One-Sample t-Test p-Values from Birth Weight Data (One-Tailed)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -35,7 +35,7 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
 </details>
 
 
-## Birth Weight One-Sample z-Test p-Value Calculations (One-Tailed)
+## One-Sample z-Test p-Values from Birth Weight Data (One-Tailed)
 
 <div id="babies_one_sample_z_test-ztest-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
@@ -57,7 +57,7 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Birth Weight One-Sample z-Test p-Value Calculations (One-Tailed)
+      One-Sample z-Test p-Values from Birth Weight Data (One-Tailed)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -68,7 +68,7 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
 </details>
 
 
-## Two-Sample t-Test P-Values
+## Two-Sample t-Test p-Values from Birth Weight Data (One-Tailed)
 
 <div id="babies_two_sample_t_test-tails1-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
@@ -90,7 +90,7 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Two-Sample t-Test P-Values
+      Two-Sample t-Test p-Values from Birth Weight Data (One-Tailed)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -101,7 +101,7 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
 </details>
 
 
-## Biodiversity Differences Using ANOVA
+## One-Way ANOVA p-Values from Shannon Diversity Data (5 Years)
 
 <div id="busse_woods_anova-anova-5year-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
@@ -123,7 +123,7 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Biodiversity Differences Using ANOVA
+      One-Way ANOVA p-Values from Shannon Diversity Data (5 Years)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -134,7 +134,7 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
 </details>
 
 
-## Microbial Diversity Significance Using a Z-Test
+## One-Sample z-Test p-Values from Shannon Diversity Data
 
 <div id="busse_woods_one_sample_tests-ztest-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
@@ -156,7 +156,7 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Microbial Diversity Significance Using a Z-Test
+      One-Sample z-Test p-Values from Shannon Diversity Data
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -167,7 +167,7 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
 </details>
 
 
-## Statistical Significance Using a Two-Sample F-Test
+## Two-Sample F-Test p-Values from Shannon Diversity Data (One-Tailed)
 
 <div id="busse_woods_two_sample_f_test-tails1-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
@@ -189,7 +189,7 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Statistical Significance Using a Two-Sample F-Test
+      Two-Sample F-Test p-Values from Shannon Diversity Data (One-Tailed)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -200,7 +200,7 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
 </details>
 
 
-## Statistical Significance Using a Two-Sample t-Test
+## Two-Sample t-Test p-Values from Shannon Diversity Data (One-Tailed)
 
 <div id="busse_woods_two_sample_t_test-tails1-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
@@ -222,7 +222,7 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Statistical Significance Using a Two-Sample t-Test
+      Two-Sample t-Test p-Values from Shannon Diversity Data (One-Tailed)
     </span>
     <span style='font-weight: normal;'>
       example problem

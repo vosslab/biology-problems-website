@@ -496,7 +496,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 </details>
 
 
-## Unique Offspring Phenotypes from Four-Gene Crosses (Hint)
+## Unique Offspring Phenotypes from Four-Gene Crosses (With Hint)
 
 <div id="unique_cross_phenotypes-with_hint-4_genes-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
@@ -518,7 +518,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Unique Offspring Phenotypes from Four-Gene Crosses (Hint)
+      Unique Offspring Phenotypes from Four-Gene Crosses (With Hint)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -529,7 +529,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 </details>
 
 
-## Independent Assortment: Unique Gamete Counts from Four-Gene Genotypes (Hint)
+## Unique Gametes from Four-Gene Genotypes (With Hint)
 
 <div id="unique_gametes-with_hint-4_genes-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
@@ -551,7 +551,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Independent Assortment: Unique Gamete Counts from Four-Gene Genotypes (Hint)
+      Unique Gametes from Four-Gene Genotypes (With Hint)
     </span>
     <span style='font-weight: normal;'>
       example problem

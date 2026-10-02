@@ -38,7 +38,7 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 </details>
 
 
-## Proteomics and Metabolomics Techniques
+## Proteomics and Metabolomics Techniques from Descriptions
 
 <div id="MATCH-proteomics_v_metabolomics-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
@@ -63,7 +63,7 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Proteomics and Metabolomics Techniques
+      Proteomics and Metabolomics Techniques from Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem

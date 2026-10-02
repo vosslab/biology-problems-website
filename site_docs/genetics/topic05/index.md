@@ -406,7 +406,7 @@ Students determine how multiple genes interact to produce phenotypes, including 
 </details>
 
 
-## Inheritance Patterns from Pedigrees
+## Inheritance Patterns from Pedigrees (Bonus)
 
 <div id="write_pedigree_to_pattern-bonus-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
@@ -428,7 +428,7 @@ Students determine how multiple genes interact to produce phenotypes, including 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Inheritance Patterns from Pedigrees
+      Inheritance Patterns from Pedigrees (Bonus)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -505,7 +505,7 @@ Students determine how multiple genes interact to produce phenotypes, including 
 </details>
 
 
-## Inheritance Patterns from Pedigrees (Rare Trait, Complete Penetrance)
+## Inheritance Patterns from Pedigrees (Rigorous)
 
 <div id="write_pedigree_to_pattern-rigorous-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
@@ -527,7 +527,7 @@ Students determine how multiple genes interact to produce phenotypes, including 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Inheritance Patterns from Pedigrees (Rare Trait, Complete Penetrance)
+      Inheritance Patterns from Pedigrees (Rigorous)
     </span>
     <span style='font-weight: normal;'>
       example problem

@@ -169,7 +169,7 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 </details>
 
 
-## Phylogenetic Tree Comparison: Identifying Different Evolutionary Relationships (6 Taxa, With Hint, Easy)
+## Phylogenetic Trees with Different Evolutionary Relationships (Easy, 6 Taxa, With Hint)
 
 <div id="gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
@@ -191,7 +191,7 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Phylogenetic Tree Comparison: Identifying Different Evolutionary Relationships (6 Taxa, With Hint, Easy)
+      Phylogenetic Trees with Different Evolutionary Relationships (Easy, 6 Taxa, With Hint)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -202,7 +202,7 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 </details>
 
 
-## Non-Equivalent Phylogenetic Tree Structures (Medium)
+## Phylogenetic Trees with Different Evolutionary Relationships (Medium, 7 Taxa, With Hint)
 
 <div id="gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
@@ -224,7 +224,7 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Non-Equivalent Phylogenetic Tree Structures (Medium)
+      Phylogenetic Trees with Different Evolutionary Relationships (Medium, 7 Taxa, With Hint)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -235,7 +235,7 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 </details>
 
 
-## Phylogenetic Tree Equivalence (5 Taxa, Rotation Hint, Easy)
+## Phylogenetic Trees with Equivalent Evolutionary Relationships (Easy, 5 Taxa, With Hint)
 
 <div id="gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
@@ -257,7 +257,7 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Phylogenetic Tree Equivalence (5 Taxa, Rotation Hint, Easy)
+      Phylogenetic Trees with Equivalent Evolutionary Relationships (Easy, 5 Taxa, With Hint)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -268,7 +268,7 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 </details>
 
 
-## Phylogenetic Tree Equivalence by Node Rotation (6 Taxa, With Hint, Medium)
+## Phylogenetic Trees with Equivalent Evolutionary Relationships (Medium, 6 Taxa, With Hint)
 
 <div id="gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
@@ -290,7 +290,7 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Phylogenetic Tree Equivalence by Node Rotation (6 Taxa, With Hint, Medium)
+      Phylogenetic Trees with Equivalent Evolutionary Relationships (Medium, 6 Taxa, With Hint)
     </span>
     <span style='font-weight: normal;'>
       example problem

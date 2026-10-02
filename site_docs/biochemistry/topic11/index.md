@@ -397,7 +397,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 </details>
 
 
-## Complementary DNA Sequences Without Direction Labels
+## Complementary DNA Sequences (Directionless)
 
 <div id="complementary_sequences-mc-directionless-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
@@ -419,7 +419,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Complementary DNA Sequences Without Direction Labels
+      Complementary DNA Sequences (Directionless)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -556,7 +556,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 </details>
 
 
-## mRNA Sequences from DNA Template Strands (9 Bases, Directionless)
+## mRNA Sequences from DNA Template Strands (9 Nucleotides, Directionless)
 
 <div id="rna_transcribe-FIB-directionless-len_9-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
@@ -578,7 +578,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      mRNA Sequences from DNA Template Strands (9 Bases, Directionless)
+      mRNA Sequences from DNA Template Strands (9 Nucleotides, Directionless)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -622,7 +622,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 </details>
 
 
-## RNA Transcription: mRNA Sequences from DNA Template Strands (9 Nucleotides, 5&#x27;/3&#x27; Directions)
+## mRNA Sequences from DNA Template Strands (9 Nucleotides, 5&#x27;/3&#x27; Labels)
 
 <div id="rna_transcribe-MC-prime-len_9-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
@@ -644,7 +644,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      RNA Transcription: mRNA Sequences from DNA Template Strands (9 Nucleotides, 5&#x27;/3&#x27; Directions)
+      mRNA Sequences from DNA Template Strands (9 Nucleotides, 5&#x27;/3&#x27; Labels)
     </span>
     <span style='font-weight: normal;'>
       example problem

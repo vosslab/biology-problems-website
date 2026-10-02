@@ -74,7 +74,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## Latin Phrases and Their Meanings
+## Latin Phrases from Their Meanings
 
 <div id="MATCH-latin_phrases-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
@@ -99,7 +99,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Latin Phrases and Their Meanings
+      Latin Phrases from Their Meanings
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -218,7 +218,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## Complementary DNA Sequences with 5&#x27; and 3&#x27; Direction Labels
+## Complementary DNA Sequences (5&#x27;/3&#x27; Labels)
 
 <div id="complementary_sequences-mc-prime-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
@@ -240,7 +240,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Complementary DNA Sequences with 5&#x27; and 3&#x27; Direction Labels
+      Complementary DNA Sequences (5&#x27;/3&#x27; Labels)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -350,7 +350,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 </details>
 
 
-## PCR Primer Pair Selection from Double-Stranded DNA (9-bp Template, 6-Base RNA Primers)
+## PCR Primer Pair Selection from Double-Stranded DNA (9 bp Template, 6-nt Primers)
 
 <div id="pcr_design-9_bp-6_primer-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
@@ -372,7 +372,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      PCR Primer Pair Selection from Double-Stranded DNA (9-bp Template, 6-Base RNA Primers)
+      PCR Primer Pair Selection from Double-Stranded DNA (9 bp Template, 6-nt Primers)
     </span>
     <span style='font-weight: normal;'>
       example problem

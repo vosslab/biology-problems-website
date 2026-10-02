@@ -23,8 +23,8 @@ bbq-MATCH-biochemical_functional_groups-questions.txt: Biochemical Functional Gr
   from Descriptions (Matching)
 bbq-MATCH-biotech_vs_improved-questions.txt: Biotechnology and Related Industries
   from Project Descriptions (Traditional vs. Modern, Matching)
-bbq-MATCH-biotechnology_periods_and_milestones-questions.txt: Biotechnology Milestones
-  by Historical Period (Matching)
+bbq-MATCH-biotechnology_periods_and_milestones-questions.txt: Historical Biotechnology
+  Periods from Milestones (Matching)
 bbq-MATCH-bond_types-questions.txt: Chemical Bond Types from Characteristics (Matching)
 bbq-MATCH-catalytic_strategies-questions.txt: Enzyme Catalytic Strategies (Matching)
 bbq-MATCH-cell_disruption-questions.txt: Cell Disruption Techniques from Descriptions
@@ -60,13 +60,13 @@ bbq-MATCH-gene_therapy_v_edit-questions.txt: Genetic Disease Treatment Methods f
   Descriptions (Matching)
 bbq-MATCH-genetic_disorders-questions.txt: Genetic Disorders (Matching)
 bbq-MATCH-genetics_terminology-questions.txt: Genetics Terms from Definitions (Matching)
-bbq-MATCH-hypothesis_testing_terms-questions.txt: Hypothesis Testing Terms and Definitions
+bbq-MATCH-hypothesis_testing_terms-questions.txt: Hypothesis Testing Terms from Definitions
   (Matching)
 bbq-MATCH-intellectual_property-questions.txt: Types of Intellectual Property from
   Descriptions (Matching)
 bbq-MATCH-intercellular_junctions-questions.txt: Intercellular Junctions from Functions
   (Matching)
-bbq-MATCH-latin_phrases-questions.txt: Latin Phrases and Their Meanings (Matching)
+bbq-MATCH-latin_phrases-questions.txt: Latin Phrases from Their Meanings (Matching)
 bbq-MATCH-levels_of_protein_structure-questions.txt: Levels of Protein Structure (Matching)
 bbq-MATCH-macromolecules-biol301-questions.txt: Macromolecule Classification (Names
   and Properties, Matching)
@@ -82,12 +82,12 @@ bbq-MATCH-mendel_four_principles-questions.txt: Mendel's Four Principles of Gene
   from Descriptions (Matching)
 bbq-MATCH-mendelian_genetics_terms-questions.txt: Mendelian Genetics Terms from Definitions
   (Matching)
-bbq-MATCH-model_organism_generation_times-questions.txt: Model Organisms and Their
-  Approximate Generation Times (Matching)
+bbq-MATCH-model_organism_generation_times-questions.txt: Model Organisms from Approximate
+  Generation Times (Matching)
 bbq-MATCH-model_organism_principles-questions.txt: Model Organism Research Concepts
-  and Descriptions (Matching)
-bbq-MATCH-model_organisms-genus_species-questions.txt: Model Organism Genus and Species
-  Names to Common Names and Biological Groups (Matching)
+  from Descriptions (Matching)
+bbq-MATCH-model_organisms-genus_species-questions.txt: Model Organism Scientific Names
+  from Common Names and Groups (Matching)
 bbq-MATCH-monohybrid_cross_genotype-questions.txt: Monohybrid Cross Parental Genotypes
   from Progeny Outcomes (Matching)
 bbq-MATCH-plant_transgenes-questions.txt: Plant Transgenes from Functions (Matching)
@@ -97,7 +97,7 @@ bbq-MATCH-population_genetics_terms-questions.txt: Population Genetics Terms fro
 bbq-MATCH-protein_v_dna_gels-questions.txt: Protein and Nucleic Acid Gel Electrophoresis
   Components (Matching)
 bbq-MATCH-proteomics_v_metabolomics-questions.txt: Proteomics and Metabolomics Techniques
-  (Matching)
+  from Descriptions (Matching)
 bbq-MATCH-respiration-questions.txt: Cellular Respiration Stages from Statements (Matching)
 bbq-MATCH-selecting_statistical_tests-questions.txt: Statistical Hypothesis Tests
   from Descriptions (Matching)
@@ -112,8 +112,8 @@ bbq-MATCH-sex_determination-questions.txt: Sex Determination Systems from Descri
 bbq-MATCH-stem_cell_potency-questions.txt: Stem Cell Potency Levels from Definitions
   (Matching)
 bbq-MATCH-theranos_people-questions.txt: 'Theranos Case Study: People and Roles (Matching)'
-bbq-MATCH-transgenic_crop_regulators-questions.txt: Federal Agency Roles in Transgenic
-  Crop Regulation (Matching)
+bbq-MATCH-transgenic_crop_regulators-questions.txt: Federal Agencies from Transgenic
+  Crop Regulatory Roles (Matching)
 bbq-MATCH-trophic_classes-questions.txt: Trophic Categories from Metabolic Definitions
   (Matching)
 bbq-MATCH-trophic_organisms-questions.txt: Trophic Classification from Energy and
@@ -204,7 +204,7 @@ bbq-WOMC-chi-square_terms-questions.txt: Chi-Square Terms from Definitions (WOMC
 bbq-WOMC-chromosome_alterations-questions.txt: Chromosome Structure Alterations from
   Descriptions (WOMC)
 bbq-WOMC-chromosome_shapes-questions.txt: Chromosome Shapes from Descriptions (WOMC)
-bbq-WOMC-clinical_trial_phases-questions.txt: Clinical Trial Phases from Study Descriptions
+bbq-WOMC-clinical_trial_phases-questions.txt: Clinical Trial Phases from Descriptions
   (WOMC)
 bbq-WOMC-column_chromatography-questions.txt: Column Chromatography Types from Descriptions
   (WOMC)
@@ -226,8 +226,8 @@ bbq-WOMC-gene_therapy_v_edit-questions.txt: Genetic Disease Treatment Methods fr
   Descriptions (WOMC)
 bbq-WOMC-genetic_disorders-questions.txt: Genetic Disorders (WOMC)
 bbq-WOMC-genetics_terminology-questions.txt: Genetics Terms from Definitions (WOMC)
-bbq-WOMC-hypothesis_testing_terms-questions.txt: Statistical Hypothesis Testing Terms
-  from Definitions (WOMC)
+bbq-WOMC-hypothesis_testing_terms-questions.txt: Hypothesis Testing Terms from Definitions
+  (WOMC)
 bbq-WOMC-intellectual_property-questions.txt: Types of Intellectual Property from
   Descriptions (WOMC)
 bbq-WOMC-intercellular_junctions-questions.txt: Intercellular Junctions from Functions
@@ -248,10 +248,10 @@ bbq-WOMC-mendel_four_principles-questions.txt: Mendel's Four Principles of Genet
   from Descriptions (WOMC)
 bbq-WOMC-mendelian_genetics_terms-questions.txt: Mendelian Genetics Terms from Definitions
   (WOMC)
-bbq-WOMC-model_organism_generation_times-questions.txt: Model Organism Identification
-  from Approximate Generation Times (WOMC)
-bbq-WOMC-model_organism_principles-questions.txt: 'Model Organisms: Selection Criteria,
-  Benefits, Limitations, and Applications (WOMC)'
+bbq-WOMC-model_organism_generation_times-questions.txt: Model Organisms from Approximate
+  Generation Times (WOMC)
+bbq-WOMC-model_organism_principles-questions.txt: Model Organism Research Concepts
+  from Descriptions (WOMC)
 bbq-WOMC-model_organisms-genus_species-questions.txt: Model Organism Scientific Names
   from Common Names and Groups (WOMC)
 bbq-WOMC-monohybrid_cross_genotype-questions.txt: Monohybrid Cross Parental Genotypes
@@ -265,8 +265,8 @@ bbq-WOMC-protein_v_dna_gels-questions.txt: Protein and Nucleic Acid Gel Electrop
 bbq-WOMC-proteomics_v_metabolomics-questions.txt: Proteomics and Metabolomics Techniques
   from Descriptions (WOMC)
 bbq-WOMC-respiration-questions.txt: Cellular Respiration Stages from Statements (WOMC)
-bbq-WOMC-selecting_statistical_tests-questions.txt: Statistical Hypothesis Test Selection
-  from Study Descriptions (WOMC)
+bbq-WOMC-selecting_statistical_tests-questions.txt: Statistical Hypothesis Tests from
+  Descriptions (WOMC)
 bbq-WOMC-senses_receptor_types_by_modality-questions.txt: Sensory Modalities from
   Receptor Cell Types (WOMC)
 bbq-WOMC-senses_signal_transduction_matching_set-questions.txt: Sensory Signal Transduction
@@ -278,8 +278,8 @@ bbq-WOMC-sex_determination-questions.txt: Sex Determination Systems from Descrip
 bbq-WOMC-stem_cell_potency-questions.txt: Stem Cell Potency Levels from Definitions
   (WOMC)
 bbq-WOMC-theranos_people-questions.txt: 'Theranos Case Study: People and Roles (WOMC)'
-bbq-WOMC-transgenic_crop_regulators-questions.txt: Federal Agencies by Transgenic
-  Crop Regulatory Responsibility (WOMC)
+bbq-WOMC-transgenic_crop_regulators-questions.txt: Federal Agencies from Transgenic
+  Crop Regulatory Roles (WOMC)
 bbq-WOMC-trophic_classes-questions.txt: Trophic Categories from Metabolic Definitions
   (WOMC)
 bbq-WOMC-trophic_organisms-questions.txt: Trophic Classification from Energy and Carbon
@@ -295,15 +295,16 @@ bbq-alpha_helix_h-bonds-MA-questions.txt: Hydrogen Bonds in Alpha-Helix Structur
 bbq-alpha_helix_h-bonds-MC-questions.txt: Hydrogen Bonds in Alpha-Helix Structures
   (MC)
 bbq-amplicon_copies-questions.txt: Amplicon Copy Number After PCR Rounds (MC)
-bbq-babies_one_sample_t_test-tails1-questions.txt: Birth Weight One-Sample t-Test
-  p-Value from Data (One-Tailed, NUM)
-bbq-babies_one_sample_z_test-ztest-questions.txt: Birth Weight One-Sample z-Test p-Value
-  Calculations (One-Tailed, NUM)
-bbq-babies_two_sample_t_test-tails1-questions.txt: Two-Sample t-Test P-Values (NUM)
+bbq-babies_one_sample_t_test-tails1-questions.txt: One-Sample t-Test p-Values from
+  Birth Weight Data (One-Tailed, NUM)
+bbq-babies_one_sample_z_test-ztest-questions.txt: One-Sample z-Test p-Values from
+  Birth Weight Data (One-Tailed, NUM)
+bbq-babies_two_sample_t_test-tails1-questions.txt: Two-Sample t-Test p-Values from
+  Birth Weight Data (One-Tailed, NUM)
 bbq-beadle_tatum-metabolic_pathway-4_metabolites-questions.txt: Metabolic Pathway
   Mutant Growth Rescue by Nutrient Supplementation (4 Metabolites, MA)
-bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt: Bacterial Nutrient
-  Requirements in Mutant Metabolic Pathways (5 Metabolites, MA)
+bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt: Metabolic Pathway
+  Mutant Growth Rescue by Nutrient Supplementation (5 Metabolites, MA)
 bbq-blood_type_agglutination_test-questions.txt: Blood Type Agglutination Test Results
   (ABO and Rh, MC)
 bbq-blood_type_mother-questions.txt: Possible Mother ABO Blood Types from Father and
@@ -318,14 +319,14 @@ bbq-boxplot_from_summary-MC-boxplot_from_summary-5_choices-questions.txt: Box Pl
   from Five-Number Summary (MC)
 bbq-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices-questions.txt: Box
   Plots from Unsorted Data (Even Sample Size, MC)
-bbq-busse_woods_anova-anova-5year-questions.txt: Biodiversity Differences Using ANOVA
-  (NUM)
-bbq-busse_woods_one_sample_tests-ztest-questions.txt: Microbial Diversity Significance
-  Using a Z-Test (NUM)
-bbq-busse_woods_two_sample_f_test-tails1-questions.txt: Statistical Significance Using
-  a Two-Sample F-Test (NUM)
-bbq-busse_woods_two_sample_t_test-tails1-questions.txt: Statistical Significance Using
-  a Two-Sample t-Test (NUM)
+bbq-busse_woods_anova-anova-5year-questions.txt: One-Way ANOVA p-Values from Shannon
+  Diversity Data (5 Years, NUM)
+bbq-busse_woods_one_sample_tests-ztest-questions.txt: One-Sample z-Test p-Values from
+  Shannon Diversity Data (NUM)
+bbq-busse_woods_two_sample_f_test-tails1-questions.txt: Two-Sample F-Test p-Values
+  from Shannon Diversity Data (One-Tailed, NUM)
+bbq-busse_woods_two_sample_t_test-tails1-questions.txt: Two-Sample t-Test p-Values
+  from Shannon Diversity Data (One-Tailed, NUM)
 bbq-cell_surf-to-vol_ratio-questions.txt: Cell Efficiency from Surface-Area-to-Volume
   Ratio (MC)
 bbq-chargaff_dna_percent-5_choices-questions.txt: DNA Base Composition Using Chargaff's
@@ -358,9 +359,9 @@ bbq-classify_Haworth-MA-with_hint-FURAN-questions.txt: Furanose Monosaccharide C
 bbq-classify_Haworth-MA-with_hint-PYRAN-questions.txt: Pyranose Monosaccharide Classification
   from Haworth Projections (MA)
 bbq-complementary_sequences-mc-directionless-questions.txt: Complementary DNA Sequences
-  Without Direction Labels (MC)
-bbq-complementary_sequences-mc-prime-questions.txt: Complementary DNA Sequences with
-  5' and 3' Direction Labels (MC)
+  (Directionless, MC)
+bbq-complementary_sequences-mc-prime-questions.txt: Complementary DNA Sequences (5'/3'
+  Labels, MC)
 bbq-consensus_sequence_FIB-arbitrary_code-questions.txt: Degenerate Primer Codes from
   Sequence Alignments (FiB)
 bbq-consensus_sequence_FIB-easy-questions.txt: Consensus Sequences from Alignments
@@ -397,7 +398,7 @@ bbq-deletion_mutant_words-04_genes-MC-questions.txt: Gene Order from Deletion Mu
 bbq-deletion_mutant_words-05_genes-MC-questions.txt: Gene Order from Deletion Mutants
   (5 Genes, Word Labels, MC)
 bbq-deletion_mutant_words-06_genes-MC-questions.txt: Gene Order from Deletion Mutants
-  (6 Genes, English Word Answers, MC)
+  (6 Genes, Word Labels, MC)
 bbq-delta_g_prime_standard_state-questions.txt: Biochemical vs Chemical Standard Free
   Energy States (MC)
 bbq-descriptive_stats_google_sheet-questions.txt: Descriptive Statistics Using Google
@@ -416,7 +417,7 @@ bbq-dna_gel-closest_farthest_MC-questions.txt: DNA Fragment Migration in Agarose
 bbq-dna_gel-estimate_size-MC_or_NUM-mc-questions.txt: DNA Fragment Size from Agarose
   Gel Migration Data (MC)
 bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt: DNA Fragment Size from Agarose
-  Gel Migration (NUM)
+  Gel Migration Data (NUM)
 bbq-dna_melting_temp-len_12-questions.txt: DNA Melting Temperature Extremes from Sequence
   (12 Bases, MC)
 bbq-dominant_and_X-linked_recessive-questions.txt: Combined Autosomal Dominant and
@@ -462,15 +463,14 @@ bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4-questions.txt: Phyloge
   Trees from Distance Matrices (6 Taxa, MC)
 bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5-questions.txt: Phylogenetic
   Trees from Distance Matrices (7 Taxa, MC)
-bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level-questions.txt: 'Phylogenetic
-  Tree Comparison: Identifying Different Evolutionary Relationships (6 Taxa, With
-  Hint, Easy, MC)'
-bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level-questions.txt: Non-Equivalent
-  Phylogenetic Tree Structures (Medium, MC)
+bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level-questions.txt: Phylogenetic
+  Trees with Different Evolutionary Relationships (Easy, 6 Taxa, With Hint, MC)
+bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level-questions.txt: Phylogenetic
+  Trees with Different Evolutionary Relationships (Medium, 7 Taxa, With Hint, MC)
 bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level-questions.txt: Phylogenetic
-  Tree Equivalence (5 Taxa, Rotation Hint, Easy, MC)
+  Trees with Equivalent Evolutionary Relationships (Easy, 5 Taxa, With Hint, MC)
 bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level-questions.txt: Phylogenetic
-  Tree Equivalence by Node Rotation (6 Taxa, With Hint, Medium, MC)
+  Trees with Equivalent Evolutionary Relationships (Medium, 6 Taxa, With Hint, MC)
 bbq-gibbs_free_energy_equation_symbols-questions.txt: Gibbs Free Energy Equation Symbols
   and Meanings (Matching)
 bbq-hardy_weinberg_mc_type-questions.txt: Hardy-Weinberg Variables from Population
@@ -503,17 +503,17 @@ bbq-lethal_allele_survival-questions.txt: Lethal Allele Cross Ratios and Surviva
 bbq-letter_translocation_problem_color-questions.txt: Chromosomal Translocation Outcomes
   (Color, MC)
 bbq-linear_digest-len_10-sites_2-fragment-questions.txt: Restriction Fragment Sizes
-  from Linear DNA Maps (10 kb, 2 Sites, Fragment Diagram, MA)
-bbq-linear_digest-len_10-sites_3-strand-questions.txt: Restriction Digest Fragment
-  Sizes from Linear DNA Maps (3 Cut Sites, Internal Segment, MA)
+  from Linear DNA Maps (10 kb, 2 Sites, Isolated Fragment, MA)
+bbq-linear_digest-len_10-sites_3-strand-questions.txt: Restriction Fragment Sizes
+  from Linear DNA Maps (10 kb, 3 Sites, Internal Segment, MA)
 bbq-linear_digest-len_12-sites_3-fragment-questions.txt: Restriction Fragment Sizes
-  from Linear DNA Maps (12 kb, 3 Sites, Fragment Diagram, MA)
-bbq-linear_digest-len_12-sites_3-strand-questions.txt: Restriction Digest Band Sizes
-  from Linear DNA Maps (3 Sites, Internal Segment, MA)
-bbq-linear_digest-len_16-sites_4-fragment-questions.txt: Restriction Digest Band Sizes
-  from Linear DNA Maps (4 Cut Sites, MA)
-bbq-linear_digest-len_16-sites_4-strand-questions.txt: Restriction Digest Band Sizes
-  from Linear DNA Maps (Single Enzyme, MA)
+  from Linear DNA Maps (12 kb, 3 Sites, Isolated Fragment, MA)
+bbq-linear_digest-len_12-sites_3-strand-questions.txt: Restriction Fragment Sizes
+  from Linear DNA Maps (12 kb, 3 Sites, Internal Segment, MA)
+bbq-linear_digest-len_16-sites_4-fragment-questions.txt: Restriction Fragment Sizes
+  from Linear DNA Maps (16 kb, 4 Sites, Isolated Fragment, MA)
+bbq-linear_digest-len_16-sites_4-strand-questions.txt: Restriction Fragment Sizes
+  from Linear DNA Maps (16 kb, 4 Sites, Internal Segment, MA)
 bbq-match_amino_acid_structures-4_choices-questions.txt: Amino Acids from Chemical
   Structures (4 Choices, Matching)
 bbq-match_purine_structures-3_choices-questions.txt: Purine Names from Chemical Structures
@@ -569,10 +569,10 @@ bbq-pKa_buffer_state-3_protons-questions.txt: Predominant Protonation State from
 bbq-pKa_buffer_state-4_protons-questions.txt: Predominant Protonation State from pH
   and pKa (Tetraprotic, MC)
 bbq-palindrome_sequence_match-questions.txt: Palindromic DNA Sequence Completion (Matching)
-bbq-pcr_design-36_bp-9_primer-questions.txt: PCR Primer Selection (36 bp Template,
-  9-nt Primers, MC)
+bbq-pcr_design-36_bp-9_primer-questions.txt: PCR Primer Pair Selection from Double-Stranded
+  DNA (36 bp Template, 9-nt Primers, MC)
 bbq-pcr_design-9_bp-6_primer-questions.txt: PCR Primer Pair Selection from Double-Stranded
-  DNA (9-bp Template, 6-Base RNA Primers, MC)
+  DNA (9 bp Template, 6-nt Primers, MC)
 bbq-percent_dilution_aliquot_numeric-questions.txt: Aliquot Volumes from Stock Solutions
   (NUM)
 bbq-ph_h_concentration_ratio-questions.txt: pH Differences Between Solutions (MC)
@@ -600,13 +600,13 @@ bbq-punnett_choice-questions.txt: Punnett Squares from Monohybrid Cross Descript
 bbq-quick_fatty_acid_colon_system-questions.txt: Fatty Acid Chain Length and Number
   of Double Bonds (MC)
 bbq-rna_transcribe-FIB-directionless-len_9-questions.txt: mRNA Sequences from DNA
-  Template Strands (9 Bases, Directionless, FiB)
+  Template Strands (9 Nucleotides, Directionless, FiB)
 bbq-rna_transcribe-FIB-prime-len_9-questions.txt: mRNA Sequences from DNA Coding and
   Template Strands (9 Nucleotides, 5'/3' Labels, FiB)
 bbq-rna_transcribe-MC-prime-len_6-questions.txt: mRNA Sequences from DNA Template
-  Strands (6 Nucleotides, 5'/3' Orientation, MC)
-bbq-rna_transcribe-MC-prime-len_9-questions.txt: 'RNA Transcription: mRNA Sequences
-  from DNA Template Strands (9 Nucleotides, 5''/3'' Directions, MC)'
+  Strands (6 Nucleotides, 5'/3' Labels, MC)
+bbq-rna_transcribe-MC-prime-len_9-questions.txt: mRNA Sequences from DNA Template
+  Strands (9 Nucleotides, 5'/3' Labels, MC)
 bbq-robertsonian-questions.txt: Gametes from Robertsonian Translocation (MC)
 bbq-serial_dilution_factor_aliquot_numeric-questions.txt: Aliquot Volumes for Serial
   Dilutions (NUM)
@@ -640,8 +640,8 @@ bbq-three-point_test_cross-distances_plus-questions.txt: Gene Order and Map Dist
   from Three-Point Test Crosses (MULTI_FIB)
 bbq-three-point_test_cross-find_interence-MC-6_choices-questions.txt: Crossover Interference
   from Three-Point Test Cross Data (6 Choices, MC)
-bbq-three-point_test_cross-find_interence-NUM-questions.txt: Interference in Three-Point
-  Test Crosses (NUM)
+bbq-three-point_test_cross-find_interence-NUM-questions.txt: Crossover Interference
+  from Three-Point Test Cross Data (NUM)
 bbq-three-point_test_cross-one_gene_distance-MC-questions.txt: Genetic Distance for
   a Gene Pair from Three-Point Test Crosses (MC)
 bbq-three-point_test_cross-one_gene_distance-NUM-questions.txt: Genetic Distance for
@@ -672,9 +672,9 @@ bbq-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT-questions.txt:
 bbq-unique_cross_genotypes-with_hint-4_genes-questions.txt: Unique Offspring Genotypes
   from Four-Gene Crosses (With Hint, MC)
 bbq-unique_cross_phenotypes-with_hint-4_genes-questions.txt: Unique Offspring Phenotypes
-  from Four-Gene Crosses (Hint, MC)
-bbq-unique_gametes-with_hint-4_genes-questions.txt: 'Independent Assortment: Unique
-  Gamete Counts from Four-Gene Genotypes (Hint, MC)'
+  from Four-Gene Crosses (With Hint, MC)
+bbq-unique_gametes-with_hint-4_genes-questions.txt: Unique Gametes from Four-Gene
+  Genotypes (With Hint, MC)
 bbq-which_amino_acid-FIB-questions.txt: Amino Acids from Chemical Structures (FiB)
 bbq-which_amino_acid-MC-7_choices-questions.txt: Amino Acids from Chemical Structures
   (7 Choices, MC)
@@ -702,15 +702,15 @@ bbq-write_pattern_to_pedigree-easy-questions.txt: Pedigree Identification from I
 bbq-write_pedigree_pattern_matching-easy-questions.txt: Inheritance Patterns from
   Pedigrees (Easy, Matching)
 bbq-write_pedigree_to_pattern-bonus-questions.txt: Inheritance Patterns from Pedigrees
-  (MC)
+  (Bonus, MC)
 bbq-write_pedigree_to_pattern-easy-questions.txt: Inheritance Patterns from Pedigrees
   (Easy, MC)
 bbq-write_pedigree_to_pattern-medium-questions.txt: Inheritance Patterns from Pedigrees
   (Medium, MC)
 bbq-write_pedigree_to_pattern-rigorous-questions.txt: Inheritance Patterns from Pedigrees
-  (Rare Trait, Complete Penetrance, MC)
-bbq-x_linked_reciprocal_cross-questions.txt: X-linked Eye Color Inheritance (MC)
-bbq-x_linked_tortoiseshell-questions.txt: X-linked Coat Color Probability (MC)
+  (Rigorous, MC)
+bbq-x_linked_reciprocal_cross-questions.txt: X-Linked Eye Color Inheritance (MC)
+bbq-x_linked_tortoiseshell-questions.txt: X-Linked Coat Color Probability (MC)
 bbq-z_score_google_sheet-questions.txt: Z-Scores in Google Sheets (MC)
 bbq-z_score_table_interp-questions.txt: Biodiversity Comparisons Using Z-Scores (MC)
-last edit: Thu Oct  1 18:14:26 2026
+last edit: Thu Oct 01 22:46:46 2026

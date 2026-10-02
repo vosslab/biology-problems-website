@@ -478,7 +478,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 </details>
 
 
-## Gene Order from Deletion Mutants (6 Genes, English Word Answers)
+## Gene Order from Deletion Mutants (6 Genes, Word Labels)
 
 <div id="deletion_mutant_words-06_genes-MC-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
@@ -500,7 +500,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Gene Order from Deletion Mutants (6 Genes, English Word Answers)
+      Gene Order from Deletion Mutants (6 Genes, Word Labels)
     </span>
     <span style='font-weight: normal;'>
       example problem

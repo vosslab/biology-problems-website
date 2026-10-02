@@ -4,6 +4,17 @@
 
 ### Fixes and Maintenance
 
+- Update the new-title prompt and editorial guidance for sitemap browsing: preserve explicit
+  difficulty labels including Rigorous and Bonus, distinguish variants with consistent qualifiers,
+  and demonstrate parallel family titles using curated pedigree, restriction-map, and statistics
+  examples.
+
+- Review all 405 cached problem-set titles in sitemap context and align 48 titles
+  across related banks. Restore Rigorous and Bonus pedigree labels; standardize
+  MATCH/WOMC pairs, restriction-map variants, tree comparisons, transcription,
+  statistical calculations, and other paired titles. Preserve source keys and
+  question-format labels, and refresh generated indexes from the curated cache.
+
 - Accept any task CSV line starting with `#` as a comment, including disabled
   rows such as `#biostatistics,...`. Previously only `# comment` was recognized.
   Preserve original row numbers and retain support for existing comments.

@@ -280,7 +280,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## Complementary DNA Sequences Without Direction Labels
+## Complementary DNA Sequences (Directionless)
 
 <div id="complementary_sequences-mc-directionless-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
@@ -302,7 +302,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Complementary DNA Sequences Without Direction Labels
+      Complementary DNA Sequences (Directionless)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -313,7 +313,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## Complementary DNA Sequences with 5&#x27; and 3&#x27; Direction Labels
+## Complementary DNA Sequences (5&#x27;/3&#x27; Labels)
 
 <div id="complementary_sequences-mc-prime-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
@@ -335,7 +335,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Complementary DNA Sequences with 5&#x27; and 3&#x27; Direction Labels
+      Complementary DNA Sequences (5&#x27;/3&#x27; Labels)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -346,7 +346,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## Restriction Fragment Sizes from Linear DNA Maps (10 kb, 2 Sites, Fragment Diagram)
+## Restriction Fragment Sizes from Linear DNA Maps (10 kb, 2 Sites, Isolated Fragment)
 
 <div id="linear_digest-len_10-sites_2-fragment-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
@@ -368,7 +368,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Fragment Sizes from Linear DNA Maps (10 kb, 2 Sites, Fragment Diagram)
+      Restriction Fragment Sizes from Linear DNA Maps (10 kb, 2 Sites, Isolated Fragment)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -379,7 +379,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## Restriction Digest Fragment Sizes from Linear DNA Maps (3 Cut Sites, Internal Segment)
+## Restriction Fragment Sizes from Linear DNA Maps (10 kb, 3 Sites, Internal Segment)
 
 <div id="linear_digest-len_10-sites_3-strand-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
@@ -401,7 +401,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Digest Fragment Sizes from Linear DNA Maps (3 Cut Sites, Internal Segment)
+      Restriction Fragment Sizes from Linear DNA Maps (10 kb, 3 Sites, Internal Segment)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -412,7 +412,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Fragment Diagram)
+## Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Isolated Fragment)
 
 <div id="linear_digest-len_12-sites_3-fragment-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
@@ -434,7 +434,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Fragment Diagram)
+      Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Isolated Fragment)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -445,7 +445,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## Restriction Digest Band Sizes from Linear DNA Maps (3 Sites, Internal Segment)
+## Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Internal Segment)
 
 <div id="linear_digest-len_12-sites_3-strand-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
@@ -467,7 +467,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Digest Band Sizes from Linear DNA Maps (3 Sites, Internal Segment)
+      Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Internal Segment)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -478,7 +478,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## Restriction Digest Band Sizes from Linear DNA Maps (4 Cut Sites)
+## Restriction Fragment Sizes from Linear DNA Maps (16 kb, 4 Sites, Isolated Fragment)
 
 <div id="linear_digest-len_16-sites_4-fragment-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
@@ -500,7 +500,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Digest Band Sizes from Linear DNA Maps (4 Cut Sites)
+      Restriction Fragment Sizes from Linear DNA Maps (16 kb, 4 Sites, Isolated Fragment)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -511,7 +511,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 </details>
 
 
-## Restriction Digest Band Sizes from Linear DNA Maps (Single Enzyme)
+## Restriction Fragment Sizes from Linear DNA Maps (16 kb, 4 Sites, Internal Segment)
 
 <div id="linear_digest-len_16-sites_4-strand-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
@@ -533,7 +533,7 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Digest Band Sizes from Linear DNA Maps (Single Enzyme)
+      Restriction Fragment Sizes from Linear DNA Maps (16 kb, 4 Sites, Internal Segment)
     </span>
     <span style='font-weight: normal;'>
       example problem

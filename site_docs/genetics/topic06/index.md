@@ -391,7 +391,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </details>
 
 
-## X-linked Eye Color Inheritance
+## X-Linked Eye Color Inheritance
 
 <div id="x_linked_reciprocal_cross-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
@@ -413,7 +413,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      X-linked Eye Color Inheritance
+      X-Linked Eye Color Inheritance
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -424,7 +424,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 </details>
 
 
-## X-linked Coat Color Probability
+## X-Linked Coat Color Probability
 
 <div id="x_linked_tortoiseshell-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
@@ -446,7 +446,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      X-linked Coat Color Probability
+      X-Linked Coat Color Probability
     </span>
     <span style='font-weight: normal;'>
       example problem
