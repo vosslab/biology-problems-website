@@ -340,6 +340,39 @@ Students determine how multiple genes interact to produce phenotypes, including 
 </details>
 
 
+## Pedigree Identification from Inheritance Patterns (Easy)
+
+<div id="write_pattern_to_pedigree-easy-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-write_pattern_to_pedigree-easy-questions.txt" download title="Download bbq-write_pattern_to_pedigree-easy-questions.txt" aria-label="Click to download the BBQ Text file (bbq-write_pattern_to_pedigree-easy-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-write_pattern_to_pedigree-easy.zip" download title="Download blackboard_export_zip-write_pattern_to_pedigree-easy.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-write_pattern_to_pedigree-easy.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-write_pattern_to_pedigree-easy.zip" download title="Download canvas_qti_v1_2-write_pattern_to_pedigree-easy.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-write_pattern_to_pedigree-easy.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-write_pattern_to_pedigree-easy.html', '_blank')" title="View human_readable-write_pattern_to_pedigree-easy.html" aria-label="Click to view the Human-Readable TXT file (human_readable-write_pattern_to_pedigree-easy.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Pedigree Identification from Inheritance Patterns (Easy)
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic05/downloads/selftest-write_pattern_to_pedigree-easy.html" %}
+
+</details>
+
+
 ## Pedigree Inheritance Patterns
 
 <div id="write_pedigree_choice-button-container" class="button-container">
@@ -368,7 +401,6 @@ Students determine how multiple genes interact to produce phenotypes, including 
       example problem
     </span>
   </summary>
-  {% include "genetics/topic05/downloads/selftest-write_pedigree_choice.html" %}
 
 </details>
 
@@ -401,7 +433,6 @@ Students determine how multiple genes interact to produce phenotypes, including 
       example problem
     </span>
   </summary>
-  {% include "genetics/topic05/downloads/selftest-write_pedigree_match.html" %}
 
 </details>
 
@@ -434,7 +465,171 @@ Students determine how multiple genes interact to produce phenotypes, including 
       example problem
     </span>
   </summary>
-  {% include "genetics/topic05/downloads/selftest-write_pedigree_match_random.html" %}
+
+</details>
+
+
+## Inheritance Patterns from Pedigrees (Easy)
+
+<div id="write_pedigree_pattern_matching-easy-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-write_pedigree_pattern_matching-easy-questions.txt" download title="Download bbq-write_pedigree_pattern_matching-easy-questions.txt" aria-label="Click to download the BBQ Text file (bbq-write_pedigree_pattern_matching-easy-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-write_pedigree_pattern_matching-easy.zip" download title="Download blackboard_export_zip-write_pedigree_pattern_matching-easy.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-write_pedigree_pattern_matching-easy.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-write_pedigree_pattern_matching-easy.zip" download title="Download canvas_qti_v1_2-write_pedigree_pattern_matching-easy.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-write_pedigree_pattern_matching-easy.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-write_pedigree_pattern_matching-easy.html', '_blank')" title="View human_readable-write_pedigree_pattern_matching-easy.html" aria-label="Click to view the Human-Readable TXT file (human_readable-write_pedigree_pattern_matching-easy.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Inheritance Patterns from Pedigrees (Easy)
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic05/downloads/selftest-write_pedigree_pattern_matching-easy.html" %}
+
+</details>
+
+
+## Inheritance Patterns from Pedigrees
+
+<div id="write_pedigree_to_pattern-bonus-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-write_pedigree_to_pattern-bonus-questions.txt" download title="Download bbq-write_pedigree_to_pattern-bonus-questions.txt" aria-label="Click to download the BBQ Text file (bbq-write_pedigree_to_pattern-bonus-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-write_pedigree_to_pattern-bonus.zip" download title="Download blackboard_export_zip-write_pedigree_to_pattern-bonus.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-write_pedigree_to_pattern-bonus.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-write_pedigree_to_pattern-bonus.zip" download title="Download canvas_qti_v1_2-write_pedigree_to_pattern-bonus.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-write_pedigree_to_pattern-bonus.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-write_pedigree_to_pattern-bonus.html', '_blank')" title="View human_readable-write_pedigree_to_pattern-bonus.html" aria-label="Click to view the Human-Readable TXT file (human_readable-write_pedigree_to_pattern-bonus.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Inheritance Patterns from Pedigrees
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic05/downloads/selftest-write_pedigree_to_pattern-bonus.html" %}
+
+</details>
+
+
+## Inheritance Patterns from Pedigrees (Easy)
+
+<div id="write_pedigree_to_pattern-easy-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-write_pedigree_to_pattern-easy-questions.txt" download title="Download bbq-write_pedigree_to_pattern-easy-questions.txt" aria-label="Click to download the BBQ Text file (bbq-write_pedigree_to_pattern-easy-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-write_pedigree_to_pattern-easy.zip" download title="Download blackboard_export_zip-write_pedigree_to_pattern-easy.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-write_pedigree_to_pattern-easy.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-write_pedigree_to_pattern-easy.zip" download title="Download canvas_qti_v1_2-write_pedigree_to_pattern-easy.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-write_pedigree_to_pattern-easy.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-write_pedigree_to_pattern-easy.html', '_blank')" title="View human_readable-write_pedigree_to_pattern-easy.html" aria-label="Click to view the Human-Readable TXT file (human_readable-write_pedigree_to_pattern-easy.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Inheritance Patterns from Pedigrees (Easy)
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic05/downloads/selftest-write_pedigree_to_pattern-easy.html" %}
+
+</details>
+
+
+## Inheritance Patterns from Pedigrees (Medium)
+
+<div id="write_pedigree_to_pattern-medium-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-write_pedigree_to_pattern-medium-questions.txt" download title="Download bbq-write_pedigree_to_pattern-medium-questions.txt" aria-label="Click to download the BBQ Text file (bbq-write_pedigree_to_pattern-medium-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-write_pedigree_to_pattern-medium.zip" download title="Download blackboard_export_zip-write_pedigree_to_pattern-medium.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-write_pedigree_to_pattern-medium.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-write_pedigree_to_pattern-medium.zip" download title="Download canvas_qti_v1_2-write_pedigree_to_pattern-medium.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-write_pedigree_to_pattern-medium.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-write_pedigree_to_pattern-medium.html', '_blank')" title="View human_readable-write_pedigree_to_pattern-medium.html" aria-label="Click to view the Human-Readable TXT file (human_readable-write_pedigree_to_pattern-medium.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Inheritance Patterns from Pedigrees (Medium)
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic05/downloads/selftest-write_pedigree_to_pattern-medium.html" %}
+
+</details>
+
+
+## Inheritance Patterns from Pedigrees (Rare Trait, Complete Penetrance)
+
+<div id="write_pedigree_to_pattern-rigorous-button-container" class="button-container">
+<span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
+<a class="md-button custom-button bb_text" href="bbq-write_pedigree_to_pattern-rigorous-questions.txt" download title="Download bbq-write_pedigree_to_pattern-rigorous-questions.txt" aria-label="Click to download the BBQ Text file (bbq-write_pedigree_to_pattern-rigorous-questions.txt)">
+    <i class="fa fa-download"></i>BBQ Text
+</a>
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-write_pedigree_to_pattern-rigorous.zip" download title="Download blackboard_export_zip-write_pedigree_to_pattern-rigorous.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-write_pedigree_to_pattern-rigorous.zip)">
+    <i class="fa fa-download"></i>Blackboard Ultra ZIP
+</a>
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-write_pedigree_to_pattern-rigorous.zip" download title="Download canvas_qti_v1_2-write_pedigree_to_pattern-rigorous.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-write_pedigree_to_pattern-rigorous.zip)">
+    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
+</a>
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-write_pedigree_to_pattern-rigorous.html', '_blank')" title="View human_readable-write_pedigree_to_pattern-rigorous.html" aria-label="Click to view the Human-Readable TXT file (human_readable-write_pedigree_to_pattern-rigorous.html)">
+    <i class="fa fa-eye"></i> Human-Readable TXT
+</button>
+</div><details>
+  <summary>Click
+    <span style='font-weight: normal;'>
+       to show
+    </span>
+    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
+      Inheritance Patterns from Pedigrees (Rare Trait, Complete Penetrance)
+    </span>
+    <span style='font-weight: normal;'>
+      example problem
+    </span>
+  </summary>
+  {% include "genetics/topic05/downloads/selftest-write_pedigree_to_pattern-rigorous.html" %}
 
 </details>
 

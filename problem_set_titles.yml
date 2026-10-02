@@ -60,7 +60,6 @@ bbq-MATCH-gene_therapy_v_edit-questions.txt: Genetic Disease Treatment Methods f
   Descriptions (Matching)
 bbq-MATCH-genetic_disorders-questions.txt: Genetic Disorders (Matching)
 bbq-MATCH-genetics_terminology-questions.txt: Genetics Terms from Definitions (Matching)
-bbq-MATCH-hypothesis_testing-questions.txt: Hypothesis Tests from Descriptions (Matching)
 bbq-MATCH-hypothesis_testing_terms-questions.txt: Hypothesis Testing Terms and Definitions
   (Matching)
 bbq-MATCH-intellectual_property-questions.txt: Types of Intellectual Property from
@@ -109,8 +108,6 @@ bbq-MATCH-senses_signal_transduction_matching_set-questions.txt: Sensory Signal 
 bbq-MATCH-senses_taste_quality_to_stimulus-questions.txt: Taste Qualities from Stimuli
   (Matching)
 bbq-MATCH-sex_determination-questions.txt: Sex Determination Systems from Descriptions
-  (Matching)
-bbq-MATCH-statistical_test_terms-questions.txt: Statistical Test Terms from Definitions
   (Matching)
 bbq-MATCH-stem_cell_potency-questions.txt: Stem Cell Potency Levels from Definitions
   (Matching)
@@ -181,7 +178,6 @@ bbq-TFMS-senses_chemosensation_smell_taste-questions.txt: Chemosensation (Smell 
   Taste, TFMS)
 bbq-TFMS-senses_smell_vs_taste-questions.txt: Sensory Coding (Smell vs. Taste, TFMS)
 bbq-TFMS-senses_vision_hearing-questions.txt: Vision and Hearing Transduction (TFMS)
-bbq-TFMS-statistical_tests-questions.txt: Statistical Tests (TFMS)
 bbq-TFMS-thermodynamics-questions.txt: Thermodynamics and Kinetics (TFMS)
 bbq-TFMS-translation_accuracy-questions.txt: Translation Accuracy (TFMS)
 bbq-TFMS-which_enzyme-questions.txt: Enzyme Naming Patterns (TFMS)
@@ -230,7 +226,6 @@ bbq-WOMC-gene_therapy_v_edit-questions.txt: Genetic Disease Treatment Methods fr
   Descriptions (WOMC)
 bbq-WOMC-genetic_disorders-questions.txt: Genetic Disorders (WOMC)
 bbq-WOMC-genetics_terminology-questions.txt: Genetics Terms from Definitions (WOMC)
-bbq-WOMC-hypothesis_testing-questions.txt: Hypothesis Tests from Descriptions (WOMC)
 bbq-WOMC-hypothesis_testing_terms-questions.txt: Statistical Hypothesis Testing Terms
   from Definitions (WOMC)
 bbq-WOMC-intellectual_property-questions.txt: Types of Intellectual Property from
@@ -279,8 +274,6 @@ bbq-WOMC-senses_signal_transduction_matching_set-questions.txt: Sensory Signal T
 bbq-WOMC-senses_taste_quality_to_stimulus-questions.txt: Taste Qualities from Stimuli
   (WOMC)
 bbq-WOMC-sex_determination-questions.txt: Sex Determination Systems from Descriptions
-  (WOMC)
-bbq-WOMC-statistical_test_terms-questions.txt: Statistical Test Terms from Definitions
   (WOMC)
 bbq-WOMC-stem_cell_potency-questions.txt: Stem Cell Potency Levels from Definitions
   (WOMC)
@@ -492,12 +485,8 @@ bbq-hla_genotype-2_markers-black-questions.txt: Offspring HLA Genotypes (2 Marke
   Black-and-White, MC)
 bbq-hla_genotype-3_markers-color-questions.txt: Offspring HLA Genotypes (3 Markers,
   Color, MC)
-bbq-hypothesis_lab_partner-hypotheses_partner-questions.txt: Flaws in Statistical
-  Hypothesis Testing (MC)
 bbq-hypothesis_statement_errors-hypotheses_partner-questions.txt: Errors in Null and
   Alternative Hypotheses for Shannon Diversity Means and Variances (MC)
-bbq-hypothesis_statements-pair-questions.txt: Null and Alternative Hypotheses in Statistical
-  Tests (MC)
 bbq-inverse_pcr_design-len_15-questions.txt: Inverse PCR Primer Selection (15 nt,
   MC)
 bbq-ionic_bond_amino_acids-questions.txt: Ionic Bond Formation in Amino Acid Side
@@ -602,8 +591,6 @@ bbq-polypeptide_mc_sequence-4_amino_acids-questions.txt: Tetrapeptide Sequences 
 bbq-polyploid-gametes-questions.txt: Gamete Chromosome Numbers in Polyploids (MC)
 bbq-polyploid-monoploid_v_haploid-questions.txt: Monoploid and Haploid Numbers from
   Chromosome Counts (MC)
-bbq-population_test_google_sheet-ztest-questions.txt: Population Z-Test Using Google
-  Sheets Data (NUM)
 bbq-probabiliy_of_progeny-questions.txt: Offspring Sex Distribution Using the Binomial
   Model (MC)
 bbq-protein_gel_migration-questions.txt: Protein Molecular Weight from SDS-PAGE Migration
@@ -710,12 +697,20 @@ bbq-who_killer_html-MEDIUM-5_suspects-questions.txt: RFLP Suspect Identification
   DNA Profiles (Medium, 5 Suspects, MC)
 bbq-wordle_peptides-FIB-questions.txt: Pentapeptide Sequences from Structures (Wordle
   Words, FiB)
-bbq-write_pedigree_choice-questions.txt: Pedigree Inheritance Patterns (MC)
-bbq-write_pedigree_match-questions.txt: Pedigree Inheritance Patterns (Matching)
-bbq-write_pedigree_match_random-questions.txt: Pedigree Inheritance Patterns (Random
-  Pedigrees, Matching)
+bbq-write_pattern_to_pedigree-easy-questions.txt: Pedigree Identification from Inheritance
+  Patterns (Easy, MC)
+bbq-write_pedigree_pattern_matching-easy-questions.txt: Inheritance Patterns from
+  Pedigrees (Easy, Matching)
+bbq-write_pedigree_to_pattern-bonus-questions.txt: Inheritance Patterns from Pedigrees
+  (MC)
+bbq-write_pedigree_to_pattern-easy-questions.txt: Inheritance Patterns from Pedigrees
+  (Easy, MC)
+bbq-write_pedigree_to_pattern-medium-questions.txt: Inheritance Patterns from Pedigrees
+  (Medium, MC)
+bbq-write_pedigree_to_pattern-rigorous-questions.txt: Inheritance Patterns from Pedigrees
+  (Rare Trait, Complete Penetrance, MC)
 bbq-x_linked_reciprocal_cross-questions.txt: X-linked Eye Color Inheritance (MC)
 bbq-x_linked_tortoiseshell-questions.txt: X-linked Coat Color Probability (MC)
 bbq-z_score_google_sheet-questions.txt: Z-Scores in Google Sheets (MC)
 bbq-z_score_table_interp-questions.txt: Biodiversity Comparisons Using Z-Scores (MC)
-last edit: Thu Oct  1 16:15:47 2026
+last edit: Thu Oct  1 18:14:26 2026
