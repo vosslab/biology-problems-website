@@ -38,7 +38,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 </details>
 
 
-## Biotechnology Milestones by Historical Period
+## Historical Biotechnology Periods from Milestones
 
 <div id="MATCH-biotechnology_periods_and_milestones-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
@@ -63,7 +63,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Biotechnology Milestones by Historical Period
+      Historical Biotechnology Periods from Milestones
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -74,7 +74,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 </details>
 
 
-## Model Organisms and Their Approximate Generation Times
+## Model Organisms from Approximate Generation Times
 
 <div id="MATCH-model_organism_generation_times-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
@@ -99,7 +99,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Model Organisms and Their Approximate Generation Times
+      Model Organisms from Approximate Generation Times
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -110,7 +110,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 </details>
 
 
-## Model Organism Research Concepts and Descriptions
+## Model Organism Research Concepts from Descriptions
 
 <div id="MATCH-model_organism_principles-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
@@ -135,7 +135,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Model Organism Research Concepts and Descriptions
+      Model Organism Research Concepts from Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -146,7 +146,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 </details>
 
 
-## Model Organism Genus and Species Names to Common Names and Biological Groups
+## Model Organism Scientific Names from Common Names and Groups
 
 <div id="MATCH-model_organisms-genus_species-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
@@ -171,7 +171,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Model Organism Genus and Species Names to Common Names and Biological Groups
+      Model Organism Scientific Names from Common Names and Groups
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -326,7 +326,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 </details>
 
 
-## Model Organism Identification from Approximate Generation Times
+## Model Organisms from Approximate Generation Times
 
 <div id="WOMC-model_organism_generation_times-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
@@ -351,7 +351,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Model Organism Identification from Approximate Generation Times
+      Model Organisms from Approximate Generation Times
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -362,7 +362,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 </details>
 
 
-## Model Organisms: Selection Criteria, Benefits, Limitations, and Applications
+## Model Organism Research Concepts from Descriptions
 
 <div id="WOMC-model_organism_principles-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
@@ -387,7 +387,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Model Organisms: Selection Criteria, Benefits, Limitations, and Applications
+      Model Organism Research Concepts from Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -527,7 +527,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 </details>
 
 
-## mRNA Sequences from DNA Template Strands (6 Nucleotides, 5&#x27;/3&#x27; Orientation)
+## mRNA Sequences from DNA Template Strands (6 Nucleotides, 5&#x27;/3&#x27; Labels)
 
 <div id="rna_transcribe-MC-prime-len_6-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
@@ -549,7 +549,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      mRNA Sequences from DNA Template Strands (6 Nucleotides, 5&#x27;/3&#x27; Orientation)
+      mRNA Sequences from DNA Template Strands (6 Nucleotides, 5&#x27;/3&#x27; Labels)
     </span>
     <span style='font-weight: normal;'>
       example problem

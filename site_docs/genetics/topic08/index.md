@@ -235,7 +235,7 @@ Students determine gene order on chromosomes using recombination data from test 
 </details>
 
 
-## Interference in Three-Point Test Crosses
+## Crossover Interference from Three-Point Test Cross Data
 
 <div id="three-point_test_cross-find_interence-NUM-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
@@ -257,7 +257,7 @@ Students determine gene order on chromosomes using recombination data from test 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Interference in Three-Point Test Crosses
+      Crossover Interference from Three-Point Test Cross Data
     </span>
     <span style='font-weight: normal;'>
       example problem

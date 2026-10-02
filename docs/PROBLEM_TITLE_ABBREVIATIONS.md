@@ -68,9 +68,20 @@ values are fixed in CSS so site builds do not depend on the colorwheel package.
   and correct answers should appear only when they define the set.
 - Give versions of the same content the same base title, with format and meaningful variant
   details in parentheses.
+- Review titles as adjacent sitemap entries: each should identify the task and variant without
+  requiring the filename or question text. Use parallel wording for parallel tasks, such as
+  `One-Sample t-Test p-Values from Birth Weight Data (One-Tailed, NUM)` and
+  `Two-Sample t-Test p-Values from Birth Weight Data (One-Tailed, NUM)`.
+- Retain explicit filename difficulty labels: `Easy`, `Medium`, `Hard`, `Rigorous`, and `Bonus`.
+  Shared scientific assumptions do not replace these labels. For example, pedigree variants use
+  `Inheritance Patterns from Pedigrees (Rigorous, MC)` and
+  `Inheritance Patterns from Pedigrees (Bonus, MC)`.
+- Order applicable qualifiers consistently: difficulty, size or count, representation or label
+  type, `With Hint`, then format. Preserve meaningful differences in the assessed content.
 - Replace opaque generator labels and local course codes with verified content distinctions.
   For example, use `3 Taxa` instead of `Level 1` when the generator confirms that meaning.
 - Retain information that affects course selection, including representation, prerequisites,
   question format, and scope. Use difficulty claims only when supported by the material.
 - Check the question bank or generator before claiming what a variant covers.
-- Use sentence-style capitalization for qualifiers such as `Easy`, `Medium`, and `Hard`.
+- Use consistent qualifier spellings such as `With Hint`, `Word Labels`, `Directionless`, and
+  `5'/3' Labels`.

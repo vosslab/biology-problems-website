@@ -35,7 +35,7 @@ Transcription of genes, RNA polymerase, promoters, and regulation.
 </details>
 
 
-## mRNA Sequences from DNA Template Strands (9 Bases, Directionless)
+## mRNA Sequences from DNA Template Strands (9 Nucleotides, Directionless)
 
 <div id="rna_transcribe-FIB-directionless-len_9-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
@@ -57,7 +57,7 @@ Transcription of genes, RNA polymerase, promoters, and regulation.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      mRNA Sequences from DNA Template Strands (9 Bases, Directionless)
+      mRNA Sequences from DNA Template Strands (9 Nucleotides, Directionless)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -101,7 +101,7 @@ Transcription of genes, RNA polymerase, promoters, and regulation.
 </details>
 
 
-## RNA Transcription: mRNA Sequences from DNA Template Strands (9 Nucleotides, 5&#x27;/3&#x27; Directions)
+## mRNA Sequences from DNA Template Strands (9 Nucleotides, 5&#x27;/3&#x27; Labels)
 
 <div id="rna_transcribe-MC-prime-len_9-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
@@ -123,7 +123,7 @@ Transcription of genes, RNA polymerase, promoters, and regulation.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      RNA Transcription: mRNA Sequences from DNA Template Strands (9 Nucleotides, 5&#x27;/3&#x27; Directions)
+      mRNA Sequences from DNA Template Strands (9 Nucleotides, 5&#x27;/3&#x27; Labels)
     </span>
     <span style='font-weight: normal;'>
       example problem

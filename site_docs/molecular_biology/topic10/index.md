@@ -2,7 +2,7 @@
 
 Landmark experiments that established core principles of molecular biology: Griffith's transformation experiment, Avery-MacLeod-McCarty's identification of DNA as the transforming principle, Hershey-Chase's confirmation that DNA carries genetic information, and Beadle-Tatum's one gene-one enzyme hypothesis linking genes to proteins.
 
-## Bacterial Nutrient Requirements in Mutant Metabolic Pathways (5 Metabolites)
+## Metabolic Pathway Mutant Growth Rescue by Nutrient Supplementation (5 Metabolites)
 
 <div id="beadle_tatum-metabolic_pathway-5_metabolites-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
@@ -24,7 +24,7 @@ Landmark experiments that established core principles of molecular biology: Grif
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Bacterial Nutrient Requirements in Mutant Metabolic Pathways (5 Metabolites)
+      Metabolic Pathway Mutant Growth Rescue by Nutrient Supplementation (5 Metabolites)
     </span>
     <span style='font-weight: normal;'>
       example problem

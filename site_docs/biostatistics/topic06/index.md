@@ -2,7 +2,7 @@
 
 Students formulate and critique null and alternative hypotheses, choose appropriate statistical tests, and interpret p-values, significance levels, and test decisions.
 
-## Hypothesis Testing Terms and Definitions
+## Hypothesis Testing Terms from Definitions
 
 <div id="MATCH-hypothesis_testing_terms-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
@@ -27,7 +27,7 @@ Students formulate and critique null and alternative hypotheses, choose appropri
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Hypothesis Testing Terms and Definitions
+      Hypothesis Testing Terms from Definitions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -110,7 +110,7 @@ Students formulate and critique null and alternative hypotheses, choose appropri
 </details>
 
 
-## Statistical Hypothesis Testing Terms from Definitions
+## Hypothesis Testing Terms from Definitions
 
 <div id="WOMC-hypothesis_testing_terms-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
@@ -135,7 +135,7 @@ Students formulate and critique null and alternative hypotheses, choose appropri
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Statistical Hypothesis Testing Terms from Definitions
+      Hypothesis Testing Terms from Definitions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -146,7 +146,7 @@ Students formulate and critique null and alternative hypotheses, choose appropri
 </details>
 
 
-## Statistical Hypothesis Test Selection from Study Descriptions
+## Statistical Hypothesis Tests from Descriptions
 
 <div id="WOMC-selecting_statistical_tests-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
@@ -171,7 +171,7 @@ Students formulate and critique null and alternative hypotheses, choose appropri
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Statistical Hypothesis Test Selection from Study Descriptions
+      Statistical Hypothesis Tests from Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem

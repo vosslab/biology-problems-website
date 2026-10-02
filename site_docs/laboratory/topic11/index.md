@@ -68,7 +68,7 @@ Students extract DNA, perform initial and nested PCR amplification of the GAPDH 
 </details>
 
 
-## DNA Fragment Size from Agarose Gel Migration
+## DNA Fragment Size from Agarose Gel Migration Data
 
 <div id="dna_gel-estimate_size-MC_or_NUM-num-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
@@ -90,7 +90,7 @@ Students extract DNA, perform initial and nested PCR amplification of the GAPDH 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      DNA Fragment Size from Agarose Gel Migration
+      DNA Fragment Size from Agarose Gel Migration Data
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -203,7 +203,7 @@ Students extract DNA, perform initial and nested PCR amplification of the GAPDH 
 </details>
 
 
-## Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Fragment Diagram)
+## Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Isolated Fragment)
 
 <div id="linear_digest-len_12-sites_3-fragment-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
@@ -225,7 +225,7 @@ Students extract DNA, perform initial and nested PCR amplification of the GAPDH 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Fragment Diagram)
+      Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Isolated Fragment)
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -269,7 +269,7 @@ Students extract DNA, perform initial and nested PCR amplification of the GAPDH 
 </details>
 
 
-## PCR Primer Selection (36 bp Template, 9-nt Primers)
+## PCR Primer Pair Selection from Double-Stranded DNA (36 bp Template, 9-nt Primers)
 
 <div id="pcr_design-36_bp-9_primer-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
@@ -291,7 +291,7 @@ Students extract DNA, perform initial and nested PCR amplification of the GAPDH 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      PCR Primer Selection (36 bp Template, 9-nt Primers)
+      PCR Primer Pair Selection from Double-Stranded DNA (36 bp Template, 9-nt Primers)
     </span>
     <span style='font-weight: normal;'>
       example problem

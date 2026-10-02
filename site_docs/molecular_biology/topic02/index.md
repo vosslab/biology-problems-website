@@ -287,7 +287,7 @@ DNA composition, base pairing, and double-helix structure.
 </details>
 
 
-## Complementary DNA Sequences Without Direction Labels
+## Complementary DNA Sequences (Directionless)
 
 <div id="complementary_sequences-mc-directionless-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
@@ -309,7 +309,7 @@ DNA composition, base pairing, and double-helix structure.
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Complementary DNA Sequences Without Direction Labels
+      Complementary DNA Sequences (Directionless)
     </span>
     <span style='font-weight: normal;'>
       example problem

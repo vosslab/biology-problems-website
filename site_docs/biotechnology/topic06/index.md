@@ -74,7 +74,7 @@ Students review FDA history, clinical trial phases, the Asilomar Conference, the
 </details>
 
 
-## Federal Agency Roles in Transgenic Crop Regulation
+## Federal Agencies from Transgenic Crop Regulatory Roles
 
 <div id="MATCH-transgenic_crop_regulators-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
@@ -99,7 +99,7 @@ Students review FDA history, clinical trial phases, the Asilomar Conference, the
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Federal Agency Roles in Transgenic Crop Regulation
+      Federal Agencies from Transgenic Crop Regulatory Roles
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -146,7 +146,7 @@ Students review FDA history, clinical trial phases, the Asilomar Conference, the
 </details>
 
 
-## Clinical Trial Phases from Study Descriptions
+## Clinical Trial Phases from Descriptions
 
 <div id="WOMC-clinical_trial_phases-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
@@ -171,7 +171,7 @@ Students review FDA history, clinical trial phases, the Asilomar Conference, the
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Clinical Trial Phases from Study Descriptions
+      Clinical Trial Phases from Descriptions
     </span>
     <span style='font-weight: normal;'>
       example problem
@@ -218,7 +218,7 @@ Students review FDA history, clinical trial phases, the Asilomar Conference, the
 </details>
 
 
-## Federal Agencies by Transgenic Crop Regulatory Responsibility
+## Federal Agencies from Transgenic Crop Regulatory Roles
 
 <div id="WOMC-transgenic_crop_regulators-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
@@ -243,7 +243,7 @@ Students review FDA history, clinical trial phases, the Asilomar Conference, the
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Federal Agencies by Transgenic Crop Regulatory Responsibility
+      Federal Agencies from Transgenic Crop Regulatory Roles
     </span>
     <span style='font-weight: normal;'>
       example problem
