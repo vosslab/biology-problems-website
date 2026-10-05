@@ -30,7 +30,7 @@ class NavMarkerError(RuntimeError):
 
 
 #============================================
-def _subject_display_labels(mkdocs_path: str) -> dict:
+def subject_display_labels(mkdocs_path: str) -> dict:
 	"""Extract the existing subject display label (with icon) from
 	mkdocs.yml nav. We preserve the hand-authored emoji/FontAwesome
 	prefixes rather than regenerating them from YAML.
@@ -162,7 +162,7 @@ def write_nav_block(
 	between the BEGIN/END markers. Re-parses the file afterwards to
 	catch typos. Returns the new block text, or None on dry run.
 	"""
-	display_labels = _subject_display_labels(mkdocs_path)
+	display_labels = subject_display_labels(mkdocs_path)
 	new_block = _render_nav_block(
 		subjects, nav_order, scans_per_subject, display_labels
 	)

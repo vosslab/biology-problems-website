@@ -86,6 +86,52 @@ MkDocs opens `http://127.0.0.1:8000/` with live reload. Press Ctrl-C to stop it.
 
 ## Page generation
 
+### Homepage statistics and activity
+
+Normal builds and `build_site.py --indexes-only` refresh the homepage and both full activity
+pages from active task CSVs and their published BBQ files, including after a subject/topic-scoped
+build. MkDocs consumes the committed
+generated snapshot; deployment does not need the upstream repository. A self-test-only build
+does not change counts or editorial dates.
+
+- Question sets count published bank placements once, regardless of download formats.
+  Cross-listed banks count in each subject; question-format variants count as separate sets.
+  Individual generated questions are not tracked: their number is an arbitrary build setting.
+- Latest additions (new to the site) groups source families by their first committed task-file inclusion. Row
+  ordering, CSV moves, subject/topic relocation, and Git-detected source renames preserve that
+  date. The first task inventory is an undated baseline for display. Adding another format or
+  argument variant of an existing family does not announce it as a new family.
+- Recently updated uses the authored input: a YAML bank for input-driven tasks, or a standalone
+  generator. Shared helper and renderer changes are outside this editorial history. Git content
+  revisions count; unchanged renames, filesystem timestamps, and randomized rebuilds do not.
+- Generation records the source fingerprint and committed content revision against the exact
+  output. Failed generation records no revision. Dirty/untracked sources and legacy outputs have
+  no verified update date; index-only runs never invent one. Regeneration establishes provenance.
+- History queries require the local upstream Git checkout. Git rename detection is heuristic;
+  unresolved or ambiguous ownership is reported and receives no guessed activity dates.
+
+Homepage previews show up to five families and link through View all to
+[Latest additions](../site_docs/latest_additions.md) and
+[Recently updated](../site_docs/recently_updated.md). Both full pages show all available dated
+families, newest first, with subject/topic context and a direct link to the representative
+bank's preview and download controls. Format variants and cross-listings remain grouped as one
+family in activity. These pages report the latest known date per family, not an event-by-event
+commit log or a prose changelog. Unknown dates stay out of dated activity; the empty update
+page explains the limitation and links to Question Finder.
+
+The generated [site_docs/assets/data/homepage.json](../site_docs/assets/data/homepage.json) and
+[site_docs/assets/generated/homepage.html](../site_docs/assets/generated/homepage.html) belong to
+[bioproblems_site/homepage_data.py](../bioproblems_site/homepage_data.py) and
+[bioproblems_site/homepage_render.py](../bioproblems_site/homepage_render.py). Edit those modules
+for behavior or layout; the same modules generate both activity Markdown pages. The generation receipt lives in
+[site_docs/assets/data/question_provenance.json](../site_docs/assets/data/question_provenance.json).
+
+Refresh the representative pedigree image from a locally served, built site with
+`node tests/playwright/capture_homepage_example.mjs http://127.0.0.1:8000`, then rebuild MkDocs.
+The capture uses the authored Medium pedigree table, without recreating its biological content.
+
+### Build ordering
+
 `build_site.py` completes each selected CSV row's BBQ generation, self-tests,
 and downloads before advancing to the next row. It renders each affected topic
 page once after those row-owned files are ready, then runs global orphan

@@ -1,0 +1,565 @@
+/* Homepage-only surfaces. Question and catalog pages retain their own styles. */
+.home {
+  --home-ink: #183b35;
+  --home-muted: #526761;
+  --home-line: #d6e3dc;
+  --home-surface: #f4f8f5;
+  --home-card: #fff;
+  --home-green: #176349;
+  --course-accent: var(--home-green);
+  --hero-background: #f2f8ed;
+  --hero-highlight: #e0efd7;
+  --hero-button: #176349;
+  --hero-button-ink: #fff;
+  color: var(--home-ink);
+}
+[data-md-color-scheme="slate"] .home {
+  --home-ink: #e1f2e9;
+  --home-muted: #b4c9bd;
+  --home-line: #40554c;
+  --home-surface: #202f29;
+  --home-card: #27382f;
+  --home-green: #8cdeb7;
+  --hero-background: #173d32;
+  --hero-highlight: #245640;
+  --hero-button: #d4f19c;
+  --hero-button-ink: #173a2c;
+}
+.md-typeset .home h1,
+.md-typeset .home h2,
+.md-typeset .home h3,
+.md-typeset .home p {
+  margin: 0;
+}
+.md-typeset .home a {
+  color: var(--home-green);
+}
+.md-typeset .home a:focus-visible {
+  outline: 3px solid var(--home-green);
+  outline-offset: 4px;
+}
+.home > section + section {
+  margin-top: 1.15rem;
+}
+.home .home-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1rem;
+  padding: 0.85rem 1rem;
+  border-radius: 10px;
+  color: var(--home-ink);
+  background:
+    radial-gradient(ellipse at 95% 0%, var(--hero-highlight), transparent 65%),
+    var(--hero-background);
+  box-shadow: 0 4px 12px #123e3410;
+  border: 1px solid var(--home-line);
+}
+.md-typeset .home .home-eyebrow {
+  font-size: 0.61rem;
+  font-weight: 750;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.home-hero .home-eyebrow {
+  color: var(--home-green);
+}
+.md-typeset .home h1 {
+  color: inherit;
+  font-size: clamp(1.65rem, 3.5vw, 2.25rem);
+  font-weight: 780;
+  letter-spacing: -0.045em;
+  line-height: 1.1;
+  margin: 0.25rem 0 0.35rem;
+}
+.md-typeset .home-hero h1 {
+  font-size: clamp(1.55rem, 3vw, 1.85rem);
+}
+.home-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  margin: 0.6rem 0 0.25rem;
+}
+.md-typeset .home-hero a {
+  color: var(--home-green);
+  font-size: 0.72rem;
+}
+.md-typeset .home-hero a:focus-visible {
+  outline-color: var(--home-green);
+}
+.md-typeset .home-hero .home-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  min-height: 44px;
+  background: var(--hero-button);
+  color: var(--hero-button-ink);
+  padding: 0.45rem 0.7rem;
+  border-radius: 7px;
+  font-weight: 750;
+  box-shadow: 0 2px 3px #09271f24;
+}
+.md-typeset .home .home-filter-hint {
+  font-size: 0.62rem;
+  color: var(--home-muted);
+}
+.home-stats {
+  min-width: 10rem;
+  align-self: center;
+  text-align: center;
+  padding-left: 1.15rem;
+  border-left: 1px solid var(--home-line);
+}
+.home-stats > strong {
+  display: block;
+  font-size: 2.8rem;
+  letter-spacing: -0.06em;
+  line-height: 1;
+  color: var(--home-green);
+}
+.home-stats > span {
+  font-size: 1rem;
+}
+.home-stats > div {
+  margin-top: 0.4rem;
+  font-size: 0.7rem;
+  line-height: 1.8;
+  color: var(--home-muted);
+}
+.home-section-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.2rem 0.6rem;
+  margin-bottom: 0.5rem;
+}
+.md-typeset .home h2 {
+  font-size: 1.05rem;
+  font-weight: 750;
+  letter-spacing: -0.025em;
+}
+.md-typeset .home h3 {
+  font-size: 0.85rem;
+  font-weight: 750;
+}
+.md-typeset .home-section-heading p,
+.home-section-heading > a {
+  font-size: 0.65rem;
+  color: var(--home-muted);
+}
+.home-featured {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.7rem;
+}
+.home-additional {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.55rem;
+}
+.md-typeset .home-course {
+  display: block;
+  position: relative;
+  padding: 0.7rem;
+  border: 1px solid var(--home-line);
+  border-top: 3px solid var(--course-accent);
+  border-radius: 9px;
+  background: var(--home-card);
+  box-shadow: 0 3px 8px #123e340b;
+  color: var(--home-ink);
+}
+.home-course:hover {
+  border-color: var(--course-accent);
+  box-shadow: 0 4px 12px #123e3424;
+}
+/* Course identities follow syllabus/docs/COURSE_COLORS.md, extended by the
+   Molecular Biology and Laboratory preferences in docs/HUMAN_GUIDANCE.md. */
+.home .subject-biochemistry {
+  --course-accent: #7b1fa2;
+}
+.home .subject-genetics {
+  --course-accent: #1565c0;
+}
+.home .subject-biostatistics {
+  --course-accent: #477427;
+}
+.home .subject-biotechnology {
+  --course-accent: #9e3d32;
+}
+.home .subject-molecular_biology {
+  --course-accent: #a62178;
+}
+.home .subject-laboratory {
+  --course-accent: #14756e;
+}
+.home .subject-other {
+  --course-accent: #b94b00;
+}
+[data-md-color-scheme="slate"] .home .subject-biochemistry {
+  --course-accent: #d6a0eb;
+}
+[data-md-color-scheme="slate"] .home .subject-genetics {
+  --course-accent: #8ab4f8;
+}
+[data-md-color-scheme="slate"] .home .subject-biostatistics {
+  --course-accent: #a8d58a;
+}
+[data-md-color-scheme="slate"] .home .subject-biotechnology {
+  --course-accent: #f28b82;
+}
+[data-md-color-scheme="slate"] .home .subject-molecular_biology {
+  --course-accent: #ee99ce;
+}
+[data-md-color-scheme="slate"] .home .subject-laboratory {
+  --course-accent: #7bd5cb;
+}
+[data-md-color-scheme="slate"] .home .subject-other {
+  --course-accent: #ffab57;
+}
+.md-typeset .home .home-more.subject-other a {
+  color: var(--course-accent);
+}
+.md-typeset .home-course h3,
+.md-typeset .home .home-chart a {
+  color: var(--course-accent);
+}
+.home-course.featured {
+  padding: 0.8rem 1rem;
+  background: linear-gradient(115deg, var(--home-surface), var(--home-card));
+}
+[data-md-color-scheme="slate"] .home-course {
+  --home-ink: #e6e8ed;
+  --home-muted: #c0c4cc;
+  --home-card: #292d34;
+  --home-surface: #24282f;
+  --home-line: #484e58;
+  --course-accent: #c7cdd7;
+}
+[data-md-color-scheme="slate"] .home .subject-biochemistry {
+  --home-card: #3c2947;
+  --home-surface: #2c2335;
+  --home-line: #635070;
+}
+[data-md-color-scheme="slate"] .home .subject-genetics {
+  --home-card: #243c58;
+  --home-surface: #202c40;
+  --home-line: #456080;
+}
+[data-md-color-scheme="slate"] .home .subject-biostatistics {
+  --home-card: #303d23;
+  --home-surface: #293123;
+  --home-line: #566a43;
+}
+[data-md-color-scheme="slate"] .home .subject-biotechnology {
+  --home-card: #462b2a;
+  --home-surface: #352629;
+  --home-line: #78504a;
+}
+[data-md-color-scheme="slate"] .home .subject-molecular_biology {
+  --home-card: #43273b;
+  --home-surface: #31232e;
+  --home-line: #745369;
+}
+[data-md-color-scheme="slate"] .home .subject-laboratory {
+  --home-card: #203c3a;
+  --home-surface: #20302f;
+  --home-line: #436b65;
+}
+[data-md-color-scheme="slate"] .md-typeset .home a.home-course {
+  color: var(--home-ink);
+}
+.md-typeset .home-course.featured h3 {
+  font-size: 1.2rem;
+}
+.home-course h3 > span {
+  float: right;
+  font-size: 0.8rem;
+}
+.home-course-icon {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1;
+  color: var(--course-accent);
+  margin-bottom: 0.35rem;
+}
+.home-tag {
+  float: right;
+  border: 1px solid var(--home-line);
+  border-radius: 20px;
+  padding: 0.05rem 0.4rem;
+  font-size: 0.57rem;
+  color: var(--home-muted);
+}
+.md-typeset .home-course p {
+  font-size: 0.68rem;
+  font-weight: 400;
+  line-height: 1.4;
+  margin: 0.25rem 0 0.45rem;
+}
+.md-typeset .home-course .home-detail {
+  font-size: 0.65rem;
+  color: var(--home-muted);
+}
+.home-count {
+  font-size: 0.62rem;
+  font-weight: 400;
+  color: var(--home-muted);
+}
+.md-typeset .home .home-more {
+  font-size: 0.7rem;
+  margin-top: 0.5rem;
+}
+.home-muted {
+  color: var(--home-muted);
+}
+.home-overview {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.6rem;
+}
+.home-panel {
+  padding: 0.75rem;
+  border: 1px solid var(--home-line);
+  border-radius: 9px;
+  background: var(--home-surface);
+}
+.md-typeset .home-panel ul {
+  list-style: none;
+  padding: 0;
+  margin: 0.65rem 0 0;
+}
+.md-typeset .home-panel li {
+  margin: 0;
+}
+.home-chart li + li {
+  padding-top: 0.5rem;
+}
+.home-chart a {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.3rem;
+  font-size: 0.63rem;
+}
+.home-bar {
+  display: block;
+  height: 5px;
+  background: var(--home-line);
+  border-radius: 5px;
+  margin-top: 0.12rem;
+}
+.home-bar i {
+  display: block;
+  height: 100%;
+  background: var(--course-accent);
+  border-radius: inherit;
+}
+.md-typeset .home .home-footnote {
+  font-size: 0.57rem;
+  color: var(--home-muted);
+  line-height: 1.4;
+  margin-top: 0.7rem;
+}
+.home-activity li + li {
+  border-top: 1px solid var(--home-line);
+  padding-top: 0.4rem;
+  margin-top: 0.4rem;
+}
+.home-activity a {
+  display: block;
+  font-size: 0.67rem;
+  line-height: 1.35;
+}
+.home-activity li > span {
+  display: block;
+  font-size: 0.56rem;
+  color: var(--home-muted);
+  margin-top: 0.12rem;
+}
+.md-typeset .home-panel .home-empty {
+  font-size: 0.7rem;
+  color: var(--home-muted);
+  margin-top: 0.65rem;
+}
+.home-example {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr);
+  gap: 1rem;
+  align-items: center;
+  padding: 0.9rem;
+  background: var(--home-surface);
+  border: 1px solid var(--home-line);
+  border-radius: 9px;
+}
+.home-example-image {
+  display: block;
+  background: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.home-example-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.md-typeset .home-example p {
+  font-size: 0.72rem;
+  margin: 0.4rem 0;
+}
+.md-typeset .home-example .home-eyebrow {
+  color: var(--home-green);
+}
+.home-example a {
+  font-size: 0.7rem;
+}
+.home-tutorials a {
+  display: inline-block;
+  margin-right: 0.35rem;
+}
+.home-puzzles {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.6rem;
+}
+.home-puzzles > a {
+  display: block;
+  padding: 0.55rem;
+  border-left: 3px solid var(--home-green);
+  background: var(--home-surface);
+  border-radius: 0 6px 6px 0;
+}
+.home-puzzles b {
+  display: block;
+  font-size: 0.72rem;
+}
+.home-puzzles span {
+  display: block;
+  font-size: 0.62rem;
+  font-weight: 400;
+  color: var(--home-muted);
+  margin-top: 0.2rem;
+}
+.home-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0.8rem 0;
+  margin-top: 1rem;
+  border-top: 1px solid var(--home-line);
+  font-size: 0.63rem;
+  color: var(--home-muted);
+}
+.home-view-all {
+  display: inline-block;
+  margin-top: 0.7rem;
+  font-size: 0.7rem;
+}
+.activity-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem 1rem;
+  margin-bottom: 0.8rem;
+  font-size: 0.75rem;
+}
+.activity-nav [aria-current="page"] {
+  font-weight: 750;
+  text-decoration: underline;
+}
+.md-typeset .activity-page h1 {
+  margin-bottom: 0.6rem;
+}
+.md-typeset .activity-page .activity-history {
+  margin-top: 0.6rem;
+  font-size: 0.72rem;
+  color: var(--home-muted);
+}
+.md-typeset .activity-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+.md-typeset .activity-list li {
+  margin: 0 0 0.6rem;
+}
+.activity-date {
+  font-size: 0.65rem;
+  color: var(--home-muted);
+}
+.md-typeset .activity-list h2 {
+  margin: 0.25rem 0;
+  font-size: 0.9rem;
+}
+.activity-context {
+  font-size: 0.72rem;
+  color: var(--home-muted);
+}
+.md-typeset .activity-page .activity-empty {
+  margin-top: 1rem;
+}
+@media (max-width: 760px) {
+  .home-additional,
+  .home-puzzles {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .home-overview {
+    grid-template-columns: 1fr 1fr;
+  }
+  .home-overview > :first-child {
+    grid-column: 1 / -1;
+  }
+  .home-stats {
+    min-width: 7rem;
+    padding-left: 0.6rem;
+  }
+  .home-stats > strong {
+    font-size: 2.6rem;
+  }
+}
+@media (max-width: 520px) {
+  .home .home-hero {
+    grid-template-columns: 1fr;
+    padding: 0.85rem;
+  }
+  .home-stats {
+    border-left: 0;
+    border-top: 1px solid var(--home-line);
+    padding: 0.65rem 0 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 0.3rem 0.5rem;
+    text-align: left;
+  }
+  .home-stats > strong {
+    font-size: 2rem;
+  }
+  .home-stats > span {
+    font-size: 0.8rem;
+  }
+  .home-stats > div {
+    margin: 0;
+    width: 100%;
+  }
+  .home-stats br {
+    display: none;
+  }
+  .home-stats div > b:not(:first-child) {
+    margin-left: 0.4rem;
+  }
+  .home-featured,
+  .home-overview,
+  .home-example {
+    grid-template-columns: 1fr;
+  }
+  .home-hero .home-actions {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+  .home-course.featured {
+    padding: 0.7rem;
+  }
+}

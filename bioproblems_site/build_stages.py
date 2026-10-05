@@ -15,6 +15,7 @@ import bioproblems_site.selftest_manifest as selftest_manifest_module
 import bioproblems_site.subject_index as subject_index_module
 import bioproblems_site.topic_page as topic_page_module
 import bioproblems_site.git_paths as git_paths
+import bioproblems_site.homepage_data as homepage_data
 from bioproblems_site.build_contracts import BuildChanges, BuildScope, TopicRef
 from bioproblems_site.build_progress import BuildProgress
 
@@ -344,6 +345,12 @@ def run_subject_indexes(
 		if len(relative_path.parts) >= 3:
 			manifest_topics.add(TopicRef(relative_path.parts[0], relative_path.parts[1]))
 	outputs.update(run_selftest_manifest(scope, manifest_topics, progress))
+	if progress:
+		progress.emit("log", message="Finalizing homepage statistics and activity")
+	outputs.update(homepage_data.write(
+		REPO_ROOT, DEFAULT_SITE_DOCS, DEFAULT_METADATA_PATH, DEFAULT_MKDOCS_PATH,
+		dry_run=scope.dry_run,
+	))
 	return outputs
 
 

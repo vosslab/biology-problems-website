@@ -12,6 +12,26 @@ origin belongs there too. Rules: [REPO_STYLE.md](REPO_STYLE.md).
 
 ## Review expectations
 
+- Feature Biochemistry and Genetics as complete courses developed with grant support. Use
+  subjects for course areas and topics for chapters; label the other collections Additional
+  Subjects. Make the homepage eye-catching while using space efficiently.
+- Track question sets, not individual generated questions: generated quantity is arbitrary.
+- Use emoji consistently for sidebar icons rather than mixing emoji and Font Awesome.
+- Put Latest additions and Recently updated in separate links at the bottom of the sidebar,
+  rather than nesting them under Collection activity.
+- Reuse preselected subject emojis from MkDocs navigation on course cards instead of
+  choosing a separate Font Awesome icon set.
+- Use the course identities recorded in `~/nsh/syllabus/docs/COURSE_COLORS.md`:
+  Biochemistry purple, Genetics blue, Biostatistics dark lime, and Biotechnology brick red.
+  Extend that palette with magenta for Molecular Biology and teal green for Laboratory.
+  Use Halloween/jack-o'-lantern orange for Other.
+  In dark mode, use course-tinted card backgrounds with neutral descriptive text.
+- Activity previews must lead to full Latest additions and Recently updated pages, then to
+  the relevant collection's preview/download controls. Keep unknown history undated.
+- Let task_files define the website inventory and query the source commands in biology-problems
+  for history. Renaming generated website files must not erase the question history. An older
+  source newly included on the website belongs under New to the site.
+
 - Curate problem-set titles for instructors browsing the corpus and considering whether
   to use the material in their courses.
 - Make question-type badges visually distinct from download buttons: rectangular

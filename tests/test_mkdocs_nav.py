@@ -27,7 +27,7 @@ def test_display_labels_read_from_list_shape(tmp_path: object) -> object:
 		"  - \"01: Life Molecules\": biochemistry/topic01/index.md\n"
 		"- \"[icon] Genetics\": genetics/index.md\n"
 	)
-	labels = mkdocs_nav._subject_display_labels(str(mkdocs_path))
+	labels = mkdocs_nav.subject_display_labels(str(mkdocs_path))
 	assert labels["biochemistry"] == "[icon] Biochemistry"
 	assert labels["genetics"] == "[icon] Genetics"
 

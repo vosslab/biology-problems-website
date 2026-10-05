@@ -35,6 +35,7 @@ plugins:
 
 extra_css:
   - assets/stylesheets/custom.css
+  - assets/stylesheets/homepage.css
   - assets/stylesheets/daily_puzzle.css
 
 extra_javascript:
@@ -78,15 +79,15 @@ copyright: >
   </a>
 
 nav:
-- "<i class='fa fa-home'></i> Home": index.md
+- "🏠 Home": index.md
 - "🔍 Question Finder": question_finder.md
 - "\U0001F4C8 Progress": progress/index.md
-- "<i class='fa fa-puzzle-piece'></i> Daily Puzzles":
+- "🧩 Daily Puzzles":
   - daily_puzzles/index.md
-  - "<i class='fa fa-dice-five'></i> Peptidyle": daily_puzzles/peptidyle.md
-  - "<i class='fa fa-dna'></i> Deletion mutants": daily_puzzles/deletion_mutants.md
-  - "<i class='fa fa-flask'></i> Mutant screen": daily_puzzles/mutant_screen.md
-  - "<i class='fa fa-sitemap'></i> Biomacromolecules": daily_puzzles/biomacromolecule.md
+  - "🎲 Peptidyle": daily_puzzles/peptidyle.md
+  - "🧬 Deletion mutants": daily_puzzles/deletion_mutants.md
+  - "🧪 Mutant screen": daily_puzzles/mutant_screen.md
+  - "🔬 Biomacromolecules": daily_puzzles/biomacromolecule.md
 # BEGIN GENERATED SUBJECT NAV
 - "🧪 Biochemistry":
   - biochemistry/index.md
@@ -160,11 +161,13 @@ nav:
   - "01: Cell Biology": other/topic01/index.md
   - "02: Biophysics": other/topic02/index.md
 # END GENERATED SUBJECT NAV
-- "<i class='fa fa-book-open'></i> Tutorials":
+- "📖 Tutorials":
   - 'List of Tutorials': tutorials/index.md
-  - "<i class='fa fa-chalkboard'></i> BBQ Text Upload": tutorials/bbq_tutorial.md
-  - "<i class='fa fa-chalkboard'></i> Blackboard Ultra Import Guide": tutorials/bbq_ultra_tutorial.md
-  - "<i class='fa fa-chalkboard'></i> Canvas QTI .zip Import Guide": tutorials/canvas_tutorial.md
-- "<i class='fa fa-user-tie'></i> Author": author.md
-- "<i class='fa fa-file-contract'></i> License": license.md
+  - "📋 BBQ Text Upload": tutorials/bbq_tutorial.md
+  - "📋 Blackboard Ultra Import Guide": tutorials/bbq_ultra_tutorial.md
+  - "📋 Canvas QTI .zip Import Guide": tutorials/canvas_tutorial.md
+- "👤 Author": author.md
+- "📜 License": license.md
 - "📚 All Questions": sitemap.md
+- "🆕 Latest additions": latest_additions.md
+- "🔄 Recently updated": recently_updated.md

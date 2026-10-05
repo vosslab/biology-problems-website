@@ -14,6 +14,19 @@
 - [bioproblems_site/file_write.py](../bioproblems_site/file_write.py):
   shared direct writes for generated text files.
 - [site_docs/](../site_docs/): MkDocs content root and generated question artifacts.
+- [bioproblems_site/homepage_data.py](../bioproblems_site/homepage_data.py):
+  task-owned homepage inventory and activity snapshot.
+- [bioproblems_site/homepage_render.py](../bioproblems_site/homepage_render.py):
+  homepage composition and editorial course descriptions.
+- [site_docs/assets/data/homepage.json](../site_docs/assets/data/homepage.json):
+  generated collection statistics, activity, and ownership diagnostics.
+- [site_docs/assets/data/question_provenance.json](../site_docs/assets/data/question_provenance.json):
+  successful-generation source and output fingerprints.
+- [site_docs/assets/generated/homepage.html](../site_docs/assets/generated/homepage.html):
+  generated static fragment included by the homepage.
+- [site_docs/latest_additions.md](../site_docs/latest_additions.md) and
+  [site_docs/recently_updated.md](../site_docs/recently_updated.md): generated full activity
+  pages, grouped by source family and refreshed with the homepage.
 - [docs/](.): documentation and repository standards.
 - [devel/](../devel/): maintainer command surfaces and propagated repository helpers.
 - [tools/](../tools/): independent utilities with no repository-package imports.

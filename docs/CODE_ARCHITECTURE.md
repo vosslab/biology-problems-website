@@ -72,6 +72,23 @@ downstream stages run. The index stage reconciles generated artifacts against th
 live BBQ question files, prunes the shared title cache against all live source
 basenames, and then writes the self-test manifest.
 
+## Homepage snapshot and source history
+
+Index finalization also refreshes the global homepage and both full activity pages through
+[homepage_data.py](../bioproblems_site/homepage_data.py) and
+[homepage_render.py](../bioproblems_site/homepage_render.py), including scoped builds.
+Current task CSVs own inventory membership; existing BBQ bank placements supply set counts.
+Generated question quantities are not collection metrics. The snapshot stores complete dated
+family lists; only the homepage renderer limits previews to five entries. The same renderer
+creates `latest_additions.md` and `recently_updated.md` with collection links and honest empty
+states. Both normal and index-only builds refresh these globally.
+[source_history.py](../bioproblems_site/source_history.py) follows upstream Git
+lineage and local task admissions. Successful generation records the source and
+output fingerprints through
+[question_provenance.py](../bioproblems_site/question_provenance.py).
+Only matching provenance supplies published revision dates. MkDocs consumes the
+committed snapshot and HTML fragment without querying upstream Git.
+
 ## Extension points
 
 - Add or edit a subject or topic in [topics_metadata.yml](../topics_metadata.yml),

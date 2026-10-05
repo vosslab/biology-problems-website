@@ -22,7 +22,7 @@ LIBRETEXTS_ICON_SRC = "/assets/images/libretexts.png"
 
 def _count_chip(question_count: int) -> str:
 	"""Return the inline span for the per-topic question count chip."""
-	noun = "question" if question_count == 1 else "questions"
+	noun = "question set" if question_count == 1 else "question sets"
 	return (
 		f"<span class='topic-count' title='{question_count} {noun}'>"
 		f"{question_count} {noun}</span>"

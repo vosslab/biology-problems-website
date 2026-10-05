@@ -14,6 +14,7 @@ import bioproblems_site.bbq_outputs as bbq_outputs
 import bioproblems_site.bbq_runner as bbq_runner
 import bioproblems_site.metadata as metadata_module
 import bioproblems_site.git_paths as git_paths
+import bioproblems_site.question_provenance as question_provenance
 from bioproblems_site.build_contracts import BuildChanges, BuildScope, TaskBuildResult, TopicRef
 from bioproblems_site.build_progress import BuildProgress
 
@@ -563,6 +564,7 @@ def iter_task_results(
 					arguments=task["args"], input_file=Path(str(task["input_path"])).name,
 				)
 			task_start = time.perf_counter()
+			provenance = question_provenance.capture(task)
 			try:
 				ok = bbq_runner.run_task(
 					task,
@@ -611,6 +613,7 @@ def iter_task_results(
 						detail="BBQ command failed",
 					)
 				raise RuntimeError(f"BBQ task failed for {topic_ref.subject}/{topic_ref.topic}")
+			question_provenance.record(task, provenance, REPO_ROOT / "site_docs")
 			after_outputs = expected_output_paths(task)
 			changed_files.update(before_outputs | after_outputs)
 		source_files = set().union(*(_task_source_files(task) for task in task_row))

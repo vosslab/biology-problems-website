@@ -58,7 +58,7 @@ def build_parser() -> argparse.ArgumentParser:
 	)
 	mode_group.add_argument(
 		"-I", "--indexes-only", dest="mode", action="store_const", const="indexes",
-		help="Rewrite generated topic and subject index.md pages and refresh navigation/catalogs.",
+		help="Rewrite generated indexes and refresh navigation, catalogs, and homepage statistics.",
 	)
 	parser.set_defaults(mode="all")
 	parser.add_argument(

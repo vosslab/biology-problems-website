@@ -1,5 +1,59 @@
 # Changelog
 
+## 2026-10-05
+
+### Additions and New Features
+
+- Add a compact teaching homepage with featured, grant-supported Biochemistry and Genetics
+  courses, additional subjects, a prominent Question Finder link, subject statistics, recent
+  additions, daily puzzles, and a real pedigree preview.
+- Generate homepage data and HTML during build finalization, including index-only and scoped
+  builds. Track task-file admission history and upstream source lineage across Git-detected
+  renames. Group format variants in activity feeds and treat the initial task inventory as a
+  baseline rather than new content.
+- Capture source and output fingerprints after successful question generation. Show revision
+  dates only for verified generated outputs; existing outputs begin with unknown provenance.
+- Complete activity navigation with generated Latest additions and Recently updated pages,
+  homepage View all links, full dated family lists, subject/topic context, and direct links to
+  question-bank preview/download controls. Refresh the pages globally during normal and
+  index-only builds, including subject/topic-scoped builds.
+
+### Fixes and Maintenance
+
+- Move Latest additions and Recently updated to separate bottom-of-sidebar links, replacing
+  the Collection activity group.
+- Use emoji consistently for sidebar navigation, including puzzle and tutorial links.
+- Add a clock emoji to Collection activity so every top-level sidebar entry has an icon.
+- Use jack-o'-lantern orange for Other's chart entry and Cell Biology/Biophysics links,
+  with a deeper light-theme accent and a brighter dark-theme companion.
+- Tint dark-mode course card surfaces and borders with their assigned identities and use
+  neutral descriptive text. Unassigned subjects use neutral dark cards instead of green fills.
+- Add Molecular Biology magenta and Laboratory teal-green course identities in both themes,
+  including their card surfaces and chart accents.
+- Reuse the existing subject emojis from MkDocs navigation on homepage course cards;
+  remove the separate Font Awesome subject mapping so identities stay consistent.
+- Compact the homepage hero and give it distinct light/dark surfaces: pale green with dark
+  text in light mode, deep green with light text in dark mode. Shorten introductory copy
+  and reduce padding and headline/stat sizing while retaining the primary search action.
+- Align homepage course cards and subject chart with the syllabus course palette: purple
+  Biochemistry, blue Genetics, dark lime Biostatistics, and brick red Biotechnology.
+  Reuse the documented dark accents and review a light-purple Biochemistry companion;
+  unassigned subjects retain site green.
+- Label subject-index bank counts as question sets, distinguishing them from generated question
+  counts. Keep topics as chapters and subjects as course areas.
+
+### Decisions and Failures
+
+- Keep Biochemistry and Genetics featured as complete, grant-supported courses. Use active task
+  CSVs for membership and upstream Git for authored history; do not infer dates from output
+  filenames or filesystem timestamps. Shared renderer changes do not refresh every YAML bank.
+- Two macromolecule inputs currently own the same output. Count that bank once and leave its
+  history unresolved until a successful generation records its actual input.
+- Homepage summaries alone did not complete the activity workflow. Add the dedicated pages
+  and verify both preview-to-download paths before closing the work.
+- Track question sets rather than individual generated questions; generated quantity is an
+  arbitrary build setting. Remove that quantity from the homepage snapshot and chart.
+
 ## 2026-10-01
 
 ### Fixes and Maintenance
