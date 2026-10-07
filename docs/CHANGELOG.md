@@ -4,6 +4,9 @@
 
 ### Additions and New Features
 
+- Add the six pedigree task variants to Genetics Topic 06 (Chromosomal Inheritance),
+  using the full inheritance-pattern set including X-linked and Y-linked inheritance.
+
 - Add a compact teaching homepage with featured, grant-supported Biochemistry and Genetics
   courses, additional subjects, a prominent Question Finder link, subject statistics, recent
   additions, daily puzzles, and a real pedigree preview.
@@ -19,6 +22,9 @@
   index-only builds, including subject/topic-scoped builds.
 
 ### Fixes and Maintenance
+
+- Restrict all six Genetics Topic 05 pedigree tasks to autosomal inheritance with
+  `--autosomal`; sex-linked inheritance has not been covered at this point.
 
 - Move Latest additions and Recently updated to separate bottom-of-sidebar links, replacing
   the Collection activity group.
