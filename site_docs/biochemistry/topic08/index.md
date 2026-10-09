@@ -8,21 +8,13 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 
 <div id="MATCH-catalytic_strategies-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-MATCH-catalytic_strategies-questions.txt" download title="Download bbq-MATCH-catalytic_strategies-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-catalytic_strategies-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-catalytic_strategies.zip" download title="Download blackboard_export_zip-MATCH-catalytic_strategies.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-catalytic_strategies.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-catalytic_strategies.zip" download title="Download canvas_qti_v1_2-MATCH-catalytic_strategies.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-catalytic_strategies.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-catalytic_strategies.html', '_blank')" title="View human_readable-MATCH-catalytic_strategies.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-catalytic_strategies.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/catalytic_strategies-matching.pgml" download title="Download catalytic_strategies-matching.pgml" aria-label="Click to download the WeBWorK PGML file (catalytic_strategies-matching.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-MATCH-catalytic_strategies-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-MATCH-catalytic_strategies-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-catalytic_strategies.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-MATCH-catalytic_strategies-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-catalytic_strategies.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-MATCH-catalytic_strategies-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-catalytic_strategies.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/catalytic_strategies-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -35,8 +27,10 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-MATCH-catalytic_strategies-questions.txt" data-bank-id="biochemistry/topic08/index.md:bbq-MATCH-catalytic_strategies-questions.txt">
   {% include "biochemistry/topic08/downloads/selftest-MATCH-catalytic_strategies.html" %}
 
+  </div>
 </details>
 
 
@@ -44,21 +38,13 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 
 <div id="TFMS-catalytic_strategies-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-TFMS-catalytic_strategies-questions.txt" download title="Download bbq-TFMS-catalytic_strategies-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-catalytic_strategies-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-catalytic_strategies.zip" download title="Download blackboard_export_zip-TFMS-catalytic_strategies.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-catalytic_strategies.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-catalytic_strategies.zip" download title="Download canvas_qti_v1_2-TFMS-catalytic_strategies.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-catalytic_strategies.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-catalytic_strategies.html', '_blank')" title="View human_readable-TFMS-catalytic_strategies.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-catalytic_strategies.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/catalytic_strategies.pg" download title="Download catalytic_strategies.pg" aria-label="Click to download the WeBWorK PGML file (catalytic_strategies.pg)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-TFMS-catalytic_strategies-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-TFMS-catalytic_strategies-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-catalytic_strategies.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-TFMS-catalytic_strategies-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-catalytic_strategies.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-TFMS-catalytic_strategies-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-catalytic_strategies.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/catalytic_strategies.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -71,8 +57,10 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-TFMS-catalytic_strategies-questions.txt" data-bank-id="biochemistry/topic08/index.md:bbq-TFMS-catalytic_strategies-questions.txt">
   {% include "biochemistry/topic08/downloads/selftest-TFMS-catalytic_strategies.html" %}
 
+  </div>
 </details>
 
 
@@ -80,21 +68,13 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 
 <div id="TFMS-chymotrypsin-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-TFMS-chymotrypsin-questions.txt" download title="Download bbq-TFMS-chymotrypsin-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-chymotrypsin-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-chymotrypsin.zip" download title="Download blackboard_export_zip-TFMS-chymotrypsin.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-chymotrypsin.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-chymotrypsin.zip" download title="Download canvas_qti_v1_2-TFMS-chymotrypsin.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-chymotrypsin.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-chymotrypsin.html', '_blank')" title="View human_readable-TFMS-chymotrypsin.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-chymotrypsin.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/chymotrypsin.pg" download title="Download chymotrypsin.pg" aria-label="Click to download the WeBWorK PGML file (chymotrypsin.pg)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-TFMS-chymotrypsin-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-TFMS-chymotrypsin-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-chymotrypsin.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-TFMS-chymotrypsin-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-chymotrypsin.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-TFMS-chymotrypsin-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-chymotrypsin.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/chymotrypsin.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -107,8 +87,10 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-TFMS-chymotrypsin-questions.txt" data-bank-id="biochemistry/topic08/index.md:bbq-TFMS-chymotrypsin-questions.txt">
   {% include "biochemistry/topic08/downloads/selftest-TFMS-chymotrypsin.html" %}
 
+  </div>
 </details>
 
 
@@ -116,21 +98,13 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 
 <div id="TFMS-enzyme_inhibitors-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-TFMS-enzyme_inhibitors-questions.txt" download title="Download bbq-TFMS-enzyme_inhibitors-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-enzyme_inhibitors-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-enzyme_inhibitors.zip" download title="Download blackboard_export_zip-TFMS-enzyme_inhibitors.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-enzyme_inhibitors.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-enzyme_inhibitors.zip" download title="Download canvas_qti_v1_2-TFMS-enzyme_inhibitors.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-enzyme_inhibitors.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-enzyme_inhibitors.html', '_blank')" title="View human_readable-TFMS-enzyme_inhibitors.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-enzyme_inhibitors.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/enzyme_inhibitors.pg" download title="Download enzyme_inhibitors.pg" aria-label="Click to download the WeBWorK PGML file (enzyme_inhibitors.pg)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-TFMS-enzyme_inhibitors-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-TFMS-enzyme_inhibitors-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-enzyme_inhibitors.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-TFMS-enzyme_inhibitors-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-enzyme_inhibitors.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-TFMS-enzyme_inhibitors-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-enzyme_inhibitors.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/enzyme_inhibitors.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -143,8 +117,10 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-TFMS-enzyme_inhibitors-questions.txt" data-bank-id="biochemistry/topic08/index.md:bbq-TFMS-enzyme_inhibitors-questions.txt">
   {% include "biochemistry/topic08/downloads/selftest-TFMS-enzyme_inhibitors.html" %}
 
+  </div>
 </details>
 
 
@@ -152,21 +128,13 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 
 <div id="WOMC-catalytic_strategies-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-WOMC-catalytic_strategies-questions.txt" download title="Download bbq-WOMC-catalytic_strategies-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-catalytic_strategies-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-catalytic_strategies.zip" download title="Download blackboard_export_zip-WOMC-catalytic_strategies.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-catalytic_strategies.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-catalytic_strategies.zip" download title="Download canvas_qti_v1_2-WOMC-catalytic_strategies.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-catalytic_strategies.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-catalytic_strategies.html', '_blank')" title="View human_readable-WOMC-catalytic_strategies.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-catalytic_strategies.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/catalytic_strategies-which_one.pgml" download title="Download catalytic_strategies-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (catalytic_strategies-which_one.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-WOMC-catalytic_strategies-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-WOMC-catalytic_strategies-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-catalytic_strategies.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-WOMC-catalytic_strategies-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-catalytic_strategies.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-WOMC-catalytic_strategies-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-catalytic_strategies.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/catalytic_strategies-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -179,8 +147,10 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-WOMC-catalytic_strategies-questions.txt" data-bank-id="biochemistry/topic08/index.md:bbq-WOMC-catalytic_strategies-questions.txt">
   {% include "biochemistry/topic08/downloads/selftest-WOMC-catalytic_strategies.html" %}
 
+  </div>
 </details>
 
 
@@ -188,21 +158,13 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 
 <div id="chymotrypsin_substrate-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-chymotrypsin_substrate-questions.txt" download title="Download bbq-chymotrypsin_substrate-questions.txt" aria-label="Click to download the BBQ Text file (bbq-chymotrypsin_substrate-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-chymotrypsin_substrate.zip" download title="Download blackboard_export_zip-chymotrypsin_substrate.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-chymotrypsin_substrate.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-chymotrypsin_substrate.zip" download title="Download canvas_qti_v1_2-chymotrypsin_substrate.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-chymotrypsin_substrate.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-chymotrypsin_substrate.html', '_blank')" title="View human_readable-chymotrypsin_substrate.html" aria-label="Click to view the Human-Readable TXT file (human_readable-chymotrypsin_substrate.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/chymotrypsin_substrate.pgml" download title="Download chymotrypsin_substrate.pgml" aria-label="Click to download the WeBWorK PGML file (chymotrypsin_substrate.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-chymotrypsin_substrate-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-chymotrypsin_substrate-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-chymotrypsin_substrate.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-chymotrypsin_substrate-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-chymotrypsin_substrate.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-chymotrypsin_substrate-questions.txt" data-format="human_readable" data-filename="human_readable-chymotrypsin_substrate.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/chymotrypsin_substrate.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -215,8 +177,10 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-chymotrypsin_substrate-questions.txt" data-bank-id="biochemistry/topic08/index.md:bbq-chymotrypsin_substrate-questions.txt">
   {% include "biochemistry/topic08/downloads/selftest-chymotrypsin_substrate.html" %}
 
+  </div>
 </details>
 
 
@@ -224,18 +188,12 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 
 <div id="metabolic_pathway_inhibitor-BCHM355-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-metabolic_pathway_inhibitor-BCHM355-questions.txt" download title="Download bbq-metabolic_pathway_inhibitor-BCHM355-questions.txt" aria-label="Click to download the BBQ Text file (bbq-metabolic_pathway_inhibitor-BCHM355-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-metabolic_pathway_inhibitor-BCHM355.zip" download title="Download blackboard_export_zip-metabolic_pathway_inhibitor-BCHM355.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-metabolic_pathway_inhibitor-BCHM355.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-metabolic_pathway_inhibitor-BCHM355.zip" download title="Download canvas_qti_v1_2-metabolic_pathway_inhibitor-BCHM355.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-metabolic_pathway_inhibitor-BCHM355.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-metabolic_pathway_inhibitor-BCHM355.html', '_blank')" title="View human_readable-metabolic_pathway_inhibitor-BCHM355.html" aria-label="Click to view the Human-Readable TXT file (human_readable-metabolic_pathway_inhibitor-BCHM355.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-metabolic_pathway_inhibitor-BCHM355-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-metabolic_pathway_inhibitor-BCHM355-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-metabolic_pathway_inhibitor-BCHM355.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-metabolic_pathway_inhibitor-BCHM355-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-metabolic_pathway_inhibitor-BCHM355.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-metabolic_pathway_inhibitor-BCHM355-questions.txt" data-format="human_readable" data-filename="human_readable-metabolic_pathway_inhibitor-BCHM355.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -248,8 +206,10 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-metabolic_pathway_inhibitor-BCHM355-questions.txt" data-bank-id="biochemistry/topic08/index.md:bbq-metabolic_pathway_inhibitor-BCHM355-questions.txt">
   {% include "biochemistry/topic08/downloads/selftest-metabolic_pathway_inhibitor-BCHM355.html" %}
 
+  </div>
 </details>
 
 
@@ -257,18 +217,12 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 
 <div id="michaelis_menten_table-inhibition-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-michaelis_menten_table-inhibition-questions.txt" download title="Download bbq-michaelis_menten_table-inhibition-questions.txt" aria-label="Click to download the BBQ Text file (bbq-michaelis_menten_table-inhibition-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-michaelis_menten_table-inhibition.zip" download title="Download blackboard_export_zip-michaelis_menten_table-inhibition.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-michaelis_menten_table-inhibition.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-michaelis_menten_table-inhibition.zip" download title="Download canvas_qti_v1_2-michaelis_menten_table-inhibition.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-michaelis_menten_table-inhibition.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-michaelis_menten_table-inhibition.html', '_blank')" title="View human_readable-michaelis_menten_table-inhibition.html" aria-label="Click to view the Human-Readable TXT file (human_readable-michaelis_menten_table-inhibition.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-michaelis_menten_table-inhibition-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-michaelis_menten_table-inhibition-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-michaelis_menten_table-inhibition.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-michaelis_menten_table-inhibition-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-michaelis_menten_table-inhibition.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-michaelis_menten_table-inhibition-questions.txt" data-format="human_readable" data-filename="human_readable-michaelis_menten_table-inhibition.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -281,8 +235,10 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-michaelis_menten_table-inhibition-questions.txt" data-bank-id="biochemistry/topic08/index.md:bbq-michaelis_menten_table-inhibition-questions.txt">
   {% include "biochemistry/topic08/downloads/selftest-michaelis_menten_table-inhibition.html" %}
 
+  </div>
 </details>
 
 

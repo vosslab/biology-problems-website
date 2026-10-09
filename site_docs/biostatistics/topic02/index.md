@@ -6,21 +6,13 @@ Students summarize data using frequency tables and proportions, calculate mean, 
 
 <div id="MATCH-measures_of_center-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-MATCH-measures_of_center-questions.txt" download title="Download bbq-MATCH-measures_of_center-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-measures_of_center-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-measures_of_center.zip" download title="Download blackboard_export_zip-MATCH-measures_of_center.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-measures_of_center.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-measures_of_center.zip" download title="Download canvas_qti_v1_2-MATCH-measures_of_center.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-measures_of_center.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-measures_of_center.html', '_blank')" title="View human_readable-MATCH-measures_of_center.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-measures_of_center.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/measures_of_center-matching.pgml" download title="Download measures_of_center-matching.pgml" aria-label="Click to download the WeBWorK PGML file (measures_of_center-matching.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-MATCH-measures_of_center-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-MATCH-measures_of_center-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-measures_of_center.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-MATCH-measures_of_center-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-measures_of_center.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-MATCH-measures_of_center-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-measures_of_center.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/measures_of_center-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -33,8 +25,10 @@ Students summarize data using frequency tables and proportions, calculate mean, 
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-MATCH-measures_of_center-questions.txt" data-bank-id="biostatistics/topic02/index.md:bbq-MATCH-measures_of_center-questions.txt">
   {% include "biostatistics/topic02/downloads/selftest-MATCH-measures_of_center.html" %}
 
+  </div>
 </details>
 
 
@@ -42,21 +36,13 @@ Students summarize data using frequency tables and proportions, calculate mean, 
 
 <div id="WOMC-measures_of_center-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-WOMC-measures_of_center-questions.txt" download title="Download bbq-WOMC-measures_of_center-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-measures_of_center-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-measures_of_center.zip" download title="Download blackboard_export_zip-WOMC-measures_of_center.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-measures_of_center.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-measures_of_center.zip" download title="Download canvas_qti_v1_2-WOMC-measures_of_center.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-measures_of_center.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-measures_of_center.html', '_blank')" title="View human_readable-WOMC-measures_of_center.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-measures_of_center.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/measures_of_center-which_one.pgml" download title="Download measures_of_center-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (measures_of_center-which_one.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-WOMC-measures_of_center-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-WOMC-measures_of_center-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-measures_of_center.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-WOMC-measures_of_center-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-measures_of_center.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-WOMC-measures_of_center-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-measures_of_center.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/measures_of_center-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -69,8 +55,10 @@ Students summarize data using frequency tables and proportions, calculate mean, 
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-WOMC-measures_of_center-questions.txt" data-bank-id="biostatistics/topic02/index.md:bbq-WOMC-measures_of_center-questions.txt">
   {% include "biostatistics/topic02/downloads/selftest-WOMC-measures_of_center.html" %}
 
+  </div>
 </details>
 
 
@@ -78,18 +66,12 @@ Students summarize data using frequency tables and proportions, calculate mean, 
 
 <div id="descriptive_stats_google_sheet-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-multi-fib" title="Multiple Fill in the Blanks">Multi-FiB</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-descriptive_stats_google_sheet-questions.txt" download title="Download bbq-descriptive_stats_google_sheet-questions.txt" aria-label="Click to download the BBQ Text file (bbq-descriptive_stats_google_sheet-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-descriptive_stats_google_sheet.zip" download title="Download blackboard_export_zip-descriptive_stats_google_sheet.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-descriptive_stats_google_sheet.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-descriptive_stats_google_sheet.zip" download title="Download canvas_qti_v1_2-descriptive_stats_google_sheet.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-descriptive_stats_google_sheet.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-descriptive_stats_google_sheet.html', '_blank')" title="View human_readable-descriptive_stats_google_sheet.html" aria-label="Click to view the Human-Readable TXT file (human_readable-descriptive_stats_google_sheet.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-descriptive_stats_google_sheet-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-descriptive_stats_google_sheet-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-descriptive_stats_google_sheet.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-descriptive_stats_google_sheet-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-descriptive_stats_google_sheet.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-descriptive_stats_google_sheet-questions.txt" data-format="human_readable" data-filename="human_readable-descriptive_stats_google_sheet.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -102,8 +84,10 @@ Students summarize data using frequency tables and proportions, calculate mean, 
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-descriptive_stats_google_sheet-questions.txt" data-bank-id="biostatistics/topic02/index.md:bbq-descriptive_stats_google_sheet-questions.txt">
   {% include "biostatistics/topic02/downloads/selftest-descriptive_stats_google_sheet.html" %}
 
+  </div>
 </details>
 
 

@@ -24,6 +24,24 @@ authoritative code or contract document, rather than a person.
 
 ## Software design
 
+### QPM owns browser conversion semantics
+
+**Decision.** QPM owns BBQ parsing, question identity, grading, render planning, and finalization.
+The website captures the supplied render jobs and returns their PNGs to canonical finalization.
+It consumes the sibling package's complete built WebAssembly distribution through explicit vendor
+refresh; [INSTALL.md](INSTALL.md) gives the build and copy commands.
+
+**Why.** One source owner keeps native and browser presentation changes tied to the same question
+and grading contracts. Reparsed presentation must preserve the original question identity.
+
+**Consequence.** Rendering metadata and drawing semantics come from QPM. The website manages
+loading, capture, progress, retry, and artifact delivery. Consumed-file hashes identify the local
+artifact bytes; dependency refresh builds the canonical package before copying its distribution.
+
+**Owner.** Sibling `qti-package-maker-rs` render/WASM contracts;
+[../site_docs/assets/scripts/package_download.js](../site_docs/assets/scripts/package_download.js)
+and [../devel/vendor_qti_wasm.py](../devel/vendor_qti_wasm.py) own website consumption.
+
 ## Dependencies
 
 ## Generated artifacts

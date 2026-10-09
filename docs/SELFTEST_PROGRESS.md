@@ -1,5 +1,11 @@
 # Self-test progress
 
+The 2026-10-09 Phase 2 runtime report records a passing real-WASM A/B/A journey and
+complete rollout of 482 self-tests, topic wrappers, and manifest banks. Existing v1
+completion records and timestamps remain intact. Final fresh post-KISS reviews are
+pending; the synthetic CRC finding remains upstream-owned. See
+[the Phase 2 acceptance report](active_plans/reports/optimized_spindle_phase2_acceptance.md).
+
 How local self-test completion tracking works, for authors adding questions and
 for anyone debugging the dashboard. Implementation lives in
 [selftest_manifest.py](../bioproblems_site/selftest_manifest.py) (build side) and
@@ -12,19 +18,31 @@ side). See also [CODE_ARCHITECTURE.md](CODE_ARCHITECTURE.md) for the data flow a
 - The scoring unit is a single self-test question, identified by its `hhhh_hhhh`
   CRC code.
 - A question is marked complete only after one fully correct answer.
+- Each variant has its own completion record. Completing variant A does not
+  complete variant B in the same bank.
+- A reroll resets the answer controls and feedback to provide a fresh attempt.
+  If the reroll shows a variant already completed, its CRC-specific completion
+  record remains; a previously unseen CRC starts incomplete.
+- Bank identity routes and groups variants for fetching. It does not own,
+  aggregate, or migrate completion records.
 - Wrong answers, partial credit, attempts, and accuracy are never stored.
 - Progress is local to the browser profile in `localStorage`. There is no server
   and no account.
 
 ## Browser storage
 
-Key: `selftest_progress_v1`. Value: a JSON object mapping completed question IDs
-to a first-correct timestamp. Only completed questions appear.
+Key: `selftest_progress_v1`. The value is a versioned envelope containing a
+`completed` object that maps completed question CRCs to their first-correct
+timestamp. Only completed questions appear. Bank completion is not stored, and
+there is no bank-level migration.
 
 ```json
 {
-  "1a2b_3c4d": { "firstCorrectAt": "2026-05-29T15:04:05.000Z" },
-  "9f8e_7d6c": { "firstCorrectAt": "2026-05-29T15:09:12.000Z" }
+  "version": 1,
+  "completed": {
+    "1a2b_3c4d": { "firstCorrectAt": "2026-05-29T15:04:05.000Z" },
+    "9f8e_7d6c": { "firstCorrectAt": "2026-05-29T15:09:12.000Z" }
+  }
 }
 ```
 
@@ -48,6 +66,7 @@ Each manifest row has these fields:
 | `questionId` | CRC code; the key used in `localStorage`. |
 | `crc` | The same CRC, kept for readability and DOM-id lookups. |
 | `pagePath` | Reachable topic page that owns the question. |
+| `bankId` | Bank routing/grouping key; it does not identify or aggregate completion. |
 | `selftestPath` | Included self-test HTML file. |
 | `subjectKey` | Subject grouping key (for the dashboard). |
 | `topicKey` | Topic grouping key (for the dashboard). |

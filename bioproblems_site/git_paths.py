@@ -52,3 +52,16 @@ def find_bbq_converter() -> str:
 		if os.path.isfile(candidate):
 			return os.path.abspath(candidate)
 	return ""
+
+
+#============================================
+def find_native_bbq_converter() -> str:
+	"""Resolve the required sibling Rust release converter, with no fallback."""
+	binary = os.path.abspath(os.path.join(
+		get_repo_root(), "..", "qti-package-maker-rs", "target", "release", "bbq-converter",
+	))
+	if not os.path.isfile(binary):
+		raise FileNotFoundError(f"Required Rust BBQ converter is missing: {binary}")
+	if not os.access(binary, os.X_OK):
+		raise PermissionError(f"Rust BBQ converter is not executable: {binary}")
+	return binary

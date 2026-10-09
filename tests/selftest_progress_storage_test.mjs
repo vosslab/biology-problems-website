@@ -19,6 +19,7 @@ function makeLocalStorage() {
 
 function loadProgress(localStorage = makeLocalStorage()) {
 	const context = {
+		URL,
 		window: {
 			localStorage,
 			location: { pathname: '/' },
@@ -31,6 +32,7 @@ function loadProgress(localStorage = makeLocalStorage()) {
 			},
 		},
 		document: {
+			currentScript: { src: 'https://example.org/assets/scripts/selftest_progress.js' },
 			readyState: 'loading',
 			addEventListener() {},
 			getElementById() {
@@ -86,6 +88,25 @@ function loadProgress(localStorage = makeLocalStorage()) {
 	const badState = api.loadState();
 	assert.equal(badState.version, 1);
 	assert.deepEqual(Object.keys(badState.completed), []);
+}
+
+// Existing v1 records survive new variants and a reload without bank migration.
+{
+	const storage = makeLocalStorage();
+	const timestamp = '2026-10-09T12:00:00Z';
+	storage.setItem('selftest_progress_v1', JSON.stringify({ version: 1, completed: {
+		'aaaa_0001': { firstCorrectAt: timestamp },
+		'older_0002': { firstCorrectAt: timestamp },
+	} }));
+	const { api } = loadProgress(storage);
+	assert.equal(api.isCompleted('aaaa_0001'), true);
+	assert.equal(api.isCompleted('bbbb_0002'), false);
+	api.markCompleted('bbbb_0002');
+	const reloaded = loadProgress(storage).api;
+	assert.equal(reloaded.isCompleted('aaaa_0001'), true);
+	assert.equal(reloaded.isCompleted('bbbb_0002'), true);
+	assert.equal(reloaded.loadState().completed.older_0002.firstCorrectAt, timestamp);
+	assert.equal(reloaded.loadState().completed.aaaa_0001.firstCorrectAt, timestamp);
 }
 
 console.log('selftest_progress_storage_test.mjs passed');

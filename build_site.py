@@ -22,8 +22,9 @@ def build_parser() -> argparse.ArgumentParser:
 		description="Build and update the Biology Problems website content.",
 		add_help=False,
 		epilog=(
-			"The default workflow generates stale BBQ content and updates self-tests,\n"
-			"downloads, topic pages, indexes, and navigation. Use -H or -I to rebuild\n"
+			"The default workflow generates stale BBQ content and updates native self-tests,\n"
+			"topic pages, indexes, and navigation. Package exports run in the browser;\n"
+			"BBQ and PGML remain direct files. Use -H or -I to rebuild\n"
 			"selected artifacts from existing BBQ files. Both modes honor -S and -T\n"
 			"and force their selected outputs without needing --rebuild.\n"
 			"Topic filters require a subject and accept a key, alias, or quoted title.\n"

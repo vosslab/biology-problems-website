@@ -8,21 +8,13 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 
 <div id="MATCH-energy_terms-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-MATCH-energy_terms-questions.txt" download title="Download bbq-MATCH-energy_terms-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-energy_terms-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-energy_terms.zip" download title="Download blackboard_export_zip-MATCH-energy_terms.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-energy_terms.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-energy_terms.zip" download title="Download canvas_qti_v1_2-MATCH-energy_terms.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-energy_terms.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-energy_terms.html', '_blank')" title="View human_readable-MATCH-energy_terms.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-energy_terms.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/energy_terms-matching.pgml" download title="Download energy_terms-matching.pgml" aria-label="Click to download the WeBWorK PGML file (energy_terms-matching.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-MATCH-energy_terms-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-MATCH-energy_terms-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-energy_terms.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-MATCH-energy_terms-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-energy_terms.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-MATCH-energy_terms-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-energy_terms.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/energy_terms-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -35,8 +27,10 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-MATCH-energy_terms-questions.txt" data-bank-id="biochemistry/topic06/index.md:bbq-MATCH-energy_terms-questions.txt">
   {% include "biochemistry/topic06/downloads/selftest-MATCH-energy_terms.html" %}
 
+  </div>
 </details>
 
 
@@ -44,21 +38,13 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 
 <div id="MATCH-enzyme_terminology-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-MATCH-enzyme_terminology-questions.txt" download title="Download bbq-MATCH-enzyme_terminology-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-enzyme_terminology-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-enzyme_terminology.zip" download title="Download blackboard_export_zip-MATCH-enzyme_terminology.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-enzyme_terminology.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-enzyme_terminology.zip" download title="Download canvas_qti_v1_2-MATCH-enzyme_terminology.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-enzyme_terminology.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-enzyme_terminology.html', '_blank')" title="View human_readable-MATCH-enzyme_terminology.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-enzyme_terminology.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/enzyme_terminology-matching.pgml" download title="Download enzyme_terminology-matching.pgml" aria-label="Click to download the WeBWorK PGML file (enzyme_terminology-matching.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-MATCH-enzyme_terminology-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-MATCH-enzyme_terminology-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-enzyme_terminology.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-MATCH-enzyme_terminology-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-enzyme_terminology.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-MATCH-enzyme_terminology-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-enzyme_terminology.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/enzyme_terminology-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -71,8 +57,10 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-MATCH-enzyme_terminology-questions.txt" data-bank-id="biochemistry/topic06/index.md:bbq-MATCH-enzyme_terminology-questions.txt">
   {% include "biochemistry/topic06/downloads/selftest-MATCH-enzyme_terminology.html" %}
 
+  </div>
 </details>
 
 
@@ -80,21 +68,13 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 
 <div id="TFMS-chemical_reactions-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-TFMS-chemical_reactions-questions.txt" download title="Download bbq-TFMS-chemical_reactions-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-chemical_reactions-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-chemical_reactions.zip" download title="Download blackboard_export_zip-TFMS-chemical_reactions.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-chemical_reactions.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-chemical_reactions.zip" download title="Download canvas_qti_v1_2-TFMS-chemical_reactions.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-chemical_reactions.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-chemical_reactions.html', '_blank')" title="View human_readable-TFMS-chemical_reactions.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-chemical_reactions.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/chemical_reactions.pg" download title="Download chemical_reactions.pg" aria-label="Click to download the WeBWorK PGML file (chemical_reactions.pg)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-TFMS-chemical_reactions-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-TFMS-chemical_reactions-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-chemical_reactions.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-TFMS-chemical_reactions-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-chemical_reactions.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-TFMS-chemical_reactions-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-chemical_reactions.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/chemical_reactions.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -107,8 +87,10 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-TFMS-chemical_reactions-questions.txt" data-bank-id="biochemistry/topic06/index.md:bbq-TFMS-chemical_reactions-questions.txt">
   {% include "biochemistry/topic06/downloads/selftest-TFMS-chemical_reactions.html" %}
 
+  </div>
 </details>
 
 
@@ -116,21 +98,13 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 
 <div id="TFMS-enzyme_cofactors-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-TFMS-enzyme_cofactors-questions.txt" download title="Download bbq-TFMS-enzyme_cofactors-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-enzyme_cofactors-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-enzyme_cofactors.zip" download title="Download blackboard_export_zip-TFMS-enzyme_cofactors.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-enzyme_cofactors.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-enzyme_cofactors.zip" download title="Download canvas_qti_v1_2-TFMS-enzyme_cofactors.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-enzyme_cofactors.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-enzyme_cofactors.html', '_blank')" title="View human_readable-TFMS-enzyme_cofactors.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-enzyme_cofactors.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/enzyme_cofactors.pg" download title="Download enzyme_cofactors.pg" aria-label="Click to download the WeBWorK PGML file (enzyme_cofactors.pg)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-TFMS-enzyme_cofactors-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-TFMS-enzyme_cofactors-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-enzyme_cofactors.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-TFMS-enzyme_cofactors-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-enzyme_cofactors.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-TFMS-enzyme_cofactors-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-enzyme_cofactors.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/enzyme_cofactors.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -143,8 +117,10 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-TFMS-enzyme_cofactors-questions.txt" data-bank-id="biochemistry/topic06/index.md:bbq-TFMS-enzyme_cofactors-questions.txt">
   {% include "biochemistry/topic06/downloads/selftest-TFMS-enzyme_cofactors.html" %}
 
+  </div>
 </details>
 
 
@@ -152,21 +128,13 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 
 <div id="TFMS-enzyme_equilibrium-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-TFMS-enzyme_equilibrium-questions.txt" download title="Download bbq-TFMS-enzyme_equilibrium-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-enzyme_equilibrium-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-enzyme_equilibrium.zip" download title="Download blackboard_export_zip-TFMS-enzyme_equilibrium.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-enzyme_equilibrium.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-enzyme_equilibrium.zip" download title="Download canvas_qti_v1_2-TFMS-enzyme_equilibrium.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-enzyme_equilibrium.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-enzyme_equilibrium.html', '_blank')" title="View human_readable-TFMS-enzyme_equilibrium.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-enzyme_equilibrium.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/enzyme_equilibrium.pg" download title="Download enzyme_equilibrium.pg" aria-label="Click to download the WeBWorK PGML file (enzyme_equilibrium.pg)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-TFMS-enzyme_equilibrium-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-TFMS-enzyme_equilibrium-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-enzyme_equilibrium.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-TFMS-enzyme_equilibrium-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-enzyme_equilibrium.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-TFMS-enzyme_equilibrium-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-enzyme_equilibrium.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/enzyme_equilibrium.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -179,8 +147,10 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-TFMS-enzyme_equilibrium-questions.txt" data-bank-id="biochemistry/topic06/index.md:bbq-TFMS-enzyme_equilibrium-questions.txt">
   {% include "biochemistry/topic06/downloads/selftest-TFMS-enzyme_equilibrium.html" %}
 
+  </div>
 </details>
 
 
@@ -188,21 +158,13 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 
 <div id="TFMS-gibbs_free_energy_equation-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-TFMS-gibbs_free_energy_equation-questions.txt" download title="Download bbq-TFMS-gibbs_free_energy_equation-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-gibbs_free_energy_equation-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-gibbs_free_energy_equation.zip" download title="Download blackboard_export_zip-TFMS-gibbs_free_energy_equation.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-gibbs_free_energy_equation.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-gibbs_free_energy_equation.zip" download title="Download canvas_qti_v1_2-TFMS-gibbs_free_energy_equation.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-gibbs_free_energy_equation.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-gibbs_free_energy_equation.html', '_blank')" title="View human_readable-TFMS-gibbs_free_energy_equation.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-gibbs_free_energy_equation.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/gibbs_free_energy_equation.pg" download title="Download gibbs_free_energy_equation.pg" aria-label="Click to download the WeBWorK PGML file (gibbs_free_energy_equation.pg)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-TFMS-gibbs_free_energy_equation-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-TFMS-gibbs_free_energy_equation-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-gibbs_free_energy_equation.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-TFMS-gibbs_free_energy_equation-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-gibbs_free_energy_equation.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-TFMS-gibbs_free_energy_equation-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-gibbs_free_energy_equation.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/gibbs_free_energy_equation.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -215,8 +177,10 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-TFMS-gibbs_free_energy_equation-questions.txt" data-bank-id="biochemistry/topic06/index.md:bbq-TFMS-gibbs_free_energy_equation-questions.txt">
   {% include "biochemistry/topic06/downloads/selftest-TFMS-gibbs_free_energy_equation.html" %}
 
+  </div>
 </details>
 
 
@@ -224,21 +188,13 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 
 <div id="TFMS-potential_v_kinetic_energy-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-TFMS-potential_v_kinetic_energy-questions.txt" download title="Download bbq-TFMS-potential_v_kinetic_energy-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-potential_v_kinetic_energy-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-potential_v_kinetic_energy.zip" download title="Download blackboard_export_zip-TFMS-potential_v_kinetic_energy.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-potential_v_kinetic_energy.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-potential_v_kinetic_energy.zip" download title="Download canvas_qti_v1_2-TFMS-potential_v_kinetic_energy.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-potential_v_kinetic_energy.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-potential_v_kinetic_energy.html', '_blank')" title="View human_readable-TFMS-potential_v_kinetic_energy.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-potential_v_kinetic_energy.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/potential_v_kinetic_energy.pg" download title="Download potential_v_kinetic_energy.pg" aria-label="Click to download the WeBWorK PGML file (potential_v_kinetic_energy.pg)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-TFMS-potential_v_kinetic_energy-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-TFMS-potential_v_kinetic_energy-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-potential_v_kinetic_energy.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-TFMS-potential_v_kinetic_energy-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-potential_v_kinetic_energy.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-TFMS-potential_v_kinetic_energy-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-potential_v_kinetic_energy.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/potential_v_kinetic_energy.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -251,8 +207,10 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-TFMS-potential_v_kinetic_energy-questions.txt" data-bank-id="biochemistry/topic06/index.md:bbq-TFMS-potential_v_kinetic_energy-questions.txt">
   {% include "biochemistry/topic06/downloads/selftest-TFMS-potential_v_kinetic_energy.html" %}
 
+  </div>
 </details>
 
 
@@ -260,21 +218,13 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 
 <div id="TFMS-thermodynamics-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-TFMS-thermodynamics-questions.txt" download title="Download bbq-TFMS-thermodynamics-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-thermodynamics-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-thermodynamics.zip" download title="Download blackboard_export_zip-TFMS-thermodynamics.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-thermodynamics.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-thermodynamics.zip" download title="Download canvas_qti_v1_2-TFMS-thermodynamics.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-thermodynamics.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-thermodynamics.html', '_blank')" title="View human_readable-TFMS-thermodynamics.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-thermodynamics.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/thermodynamics.pg" download title="Download thermodynamics.pg" aria-label="Click to download the WeBWorK PGML file (thermodynamics.pg)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-TFMS-thermodynamics-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-TFMS-thermodynamics-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-thermodynamics.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-TFMS-thermodynamics-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-thermodynamics.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-TFMS-thermodynamics-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-thermodynamics.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/thermodynamics.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -287,8 +237,10 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-TFMS-thermodynamics-questions.txt" data-bank-id="biochemistry/topic06/index.md:bbq-TFMS-thermodynamics-questions.txt">
   {% include "biochemistry/topic06/downloads/selftest-TFMS-thermodynamics.html" %}
 
+  </div>
 </details>
 
 
@@ -296,21 +248,13 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 
 <div id="TFMS-which_enzyme-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-TFMS-which_enzyme-questions.txt" download title="Download bbq-TFMS-which_enzyme-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-which_enzyme-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-which_enzyme.zip" download title="Download blackboard_export_zip-TFMS-which_enzyme.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-which_enzyme.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-which_enzyme.zip" download title="Download canvas_qti_v1_2-TFMS-which_enzyme.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-which_enzyme.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-which_enzyme.html', '_blank')" title="View human_readable-TFMS-which_enzyme.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-which_enzyme.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/which_enzyme.pg" download title="Download which_enzyme.pg" aria-label="Click to download the WeBWorK PGML file (which_enzyme.pg)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-TFMS-which_enzyme-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-TFMS-which_enzyme-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-which_enzyme.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-TFMS-which_enzyme-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-which_enzyme.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-TFMS-which_enzyme-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-which_enzyme.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/which_enzyme.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -323,8 +267,10 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-TFMS-which_enzyme-questions.txt" data-bank-id="biochemistry/topic06/index.md:bbq-TFMS-which_enzyme-questions.txt">
   {% include "biochemistry/topic06/downloads/selftest-TFMS-which_enzyme.html" %}
 
+  </div>
 </details>
 
 
@@ -332,21 +278,13 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 
 <div id="WOMC-energy_terms-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-WOMC-energy_terms-questions.txt" download title="Download bbq-WOMC-energy_terms-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-energy_terms-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-energy_terms.zip" download title="Download blackboard_export_zip-WOMC-energy_terms.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-energy_terms.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-energy_terms.zip" download title="Download canvas_qti_v1_2-WOMC-energy_terms.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-energy_terms.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-energy_terms.html', '_blank')" title="View human_readable-WOMC-energy_terms.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-energy_terms.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/energy_terms-which_one.pgml" download title="Download energy_terms-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (energy_terms-which_one.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-WOMC-energy_terms-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-WOMC-energy_terms-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-energy_terms.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-WOMC-energy_terms-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-energy_terms.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-WOMC-energy_terms-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-energy_terms.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/energy_terms-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -359,8 +297,10 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-WOMC-energy_terms-questions.txt" data-bank-id="biochemistry/topic06/index.md:bbq-WOMC-energy_terms-questions.txt">
   {% include "biochemistry/topic06/downloads/selftest-WOMC-energy_terms.html" %}
 
+  </div>
 </details>
 
 
@@ -368,21 +308,13 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 
 <div id="WOMC-enzyme_terminology-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-WOMC-enzyme_terminology-questions.txt" download title="Download bbq-WOMC-enzyme_terminology-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-enzyme_terminology-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-enzyme_terminology.zip" download title="Download blackboard_export_zip-WOMC-enzyme_terminology.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-enzyme_terminology.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-enzyme_terminology.zip" download title="Download canvas_qti_v1_2-WOMC-enzyme_terminology.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-enzyme_terminology.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-enzyme_terminology.html', '_blank')" title="View human_readable-WOMC-enzyme_terminology.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-enzyme_terminology.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/enzyme_terminology-which_one.pgml" download title="Download enzyme_terminology-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (enzyme_terminology-which_one.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-WOMC-enzyme_terminology-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-WOMC-enzyme_terminology-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-enzyme_terminology.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-WOMC-enzyme_terminology-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-enzyme_terminology.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-WOMC-enzyme_terminology-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-enzyme_terminology.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/enzyme_terminology-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -395,8 +327,10 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-WOMC-enzyme_terminology-questions.txt" data-bank-id="biochemistry/topic06/index.md:bbq-WOMC-enzyme_terminology-questions.txt">
   {% include "biochemistry/topic06/downloads/selftest-WOMC-enzyme_terminology.html" %}
 
+  </div>
 </details>
 
 
@@ -404,21 +338,13 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 
 <div id="delta_g_prime_standard_state-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-delta_g_prime_standard_state-questions.txt" download title="Download bbq-delta_g_prime_standard_state-questions.txt" aria-label="Click to download the BBQ Text file (bbq-delta_g_prime_standard_state-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-delta_g_prime_standard_state.zip" download title="Download blackboard_export_zip-delta_g_prime_standard_state.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-delta_g_prime_standard_state.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-delta_g_prime_standard_state.zip" download title="Download canvas_qti_v1_2-delta_g_prime_standard_state.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-delta_g_prime_standard_state.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-delta_g_prime_standard_state.html', '_blank')" title="View human_readable-delta_g_prime_standard_state.html" aria-label="Click to view the Human-Readable TXT file (human_readable-delta_g_prime_standard_state.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/delta_g_prime_standard_state.pgml" download title="Download delta_g_prime_standard_state.pgml" aria-label="Click to download the WeBWorK PGML file (delta_g_prime_standard_state.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-delta_g_prime_standard_state-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-delta_g_prime_standard_state-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-delta_g_prime_standard_state.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-delta_g_prime_standard_state-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-delta_g_prime_standard_state.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-delta_g_prime_standard_state-questions.txt" data-format="human_readable" data-filename="human_readable-delta_g_prime_standard_state.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/delta_g_prime_standard_state.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -431,8 +357,10 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-delta_g_prime_standard_state-questions.txt" data-bank-id="biochemistry/topic06/index.md:bbq-delta_g_prime_standard_state-questions.txt">
   {% include "biochemistry/topic06/downloads/selftest-delta_g_prime_standard_state.html" %}
 
+  </div>
 </details>
 
 
@@ -440,21 +368,13 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 
 <div id="exergonic_endergonic_reactions-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-exergonic_endergonic_reactions-questions.txt" download title="Download bbq-exergonic_endergonic_reactions-questions.txt" aria-label="Click to download the BBQ Text file (bbq-exergonic_endergonic_reactions-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-exergonic_endergonic_reactions.zip" download title="Download blackboard_export_zip-exergonic_endergonic_reactions.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-exergonic_endergonic_reactions.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-exergonic_endergonic_reactions.zip" download title="Download canvas_qti_v1_2-exergonic_endergonic_reactions.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-exergonic_endergonic_reactions.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-exergonic_endergonic_reactions.html', '_blank')" title="View human_readable-exergonic_endergonic_reactions.html" aria-label="Click to view the Human-Readable TXT file (human_readable-exergonic_endergonic_reactions.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/exergonic_endergonic_reactions.pgml" download title="Download exergonic_endergonic_reactions.pgml" aria-label="Click to download the WeBWorK PGML file (exergonic_endergonic_reactions.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-exergonic_endergonic_reactions-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-exergonic_endergonic_reactions-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-exergonic_endergonic_reactions.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-exergonic_endergonic_reactions-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-exergonic_endergonic_reactions.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-exergonic_endergonic_reactions-questions.txt" data-format="human_readable" data-filename="human_readable-exergonic_endergonic_reactions.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/exergonic_endergonic_reactions.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -467,8 +387,10 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-exergonic_endergonic_reactions-questions.txt" data-bank-id="biochemistry/topic06/index.md:bbq-exergonic_endergonic_reactions-questions.txt">
   {% include "biochemistry/topic06/downloads/selftest-exergonic_endergonic_reactions.html" %}
 
+  </div>
 </details>
 
 
@@ -476,21 +398,13 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 
 <div id="free_energy_keq_relationship-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-free_energy_keq_relationship-questions.txt" download title="Download bbq-free_energy_keq_relationship-questions.txt" aria-label="Click to download the BBQ Text file (bbq-free_energy_keq_relationship-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-free_energy_keq_relationship.zip" download title="Download blackboard_export_zip-free_energy_keq_relationship.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-free_energy_keq_relationship.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-free_energy_keq_relationship.zip" download title="Download canvas_qti_v1_2-free_energy_keq_relationship.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-free_energy_keq_relationship.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-free_energy_keq_relationship.html', '_blank')" title="View human_readable-free_energy_keq_relationship.html" aria-label="Click to view the Human-Readable TXT file (human_readable-free_energy_keq_relationship.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/free_energy_keq_relationship.pgml" download title="Download free_energy_keq_relationship.pgml" aria-label="Click to download the WeBWorK PGML file (free_energy_keq_relationship.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-free_energy_keq_relationship-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-free_energy_keq_relationship-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-free_energy_keq_relationship.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-free_energy_keq_relationship-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-free_energy_keq_relationship.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-free_energy_keq_relationship-questions.txt" data-format="human_readable" data-filename="human_readable-free_energy_keq_relationship.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/free_energy_keq_relationship.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -503,8 +417,10 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-free_energy_keq_relationship-questions.txt" data-bank-id="biochemistry/topic06/index.md:bbq-free_energy_keq_relationship-questions.txt">
   {% include "biochemistry/topic06/downloads/selftest-free_energy_keq_relationship.html" %}
 
+  </div>
 </details>
 
 
@@ -512,21 +428,13 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 
 <div id="gibbs_free_energy_equation_symbols-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-gibbs_free_energy_equation_symbols-questions.txt" download title="Download bbq-gibbs_free_energy_equation_symbols-questions.txt" aria-label="Click to download the BBQ Text file (bbq-gibbs_free_energy_equation_symbols-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-gibbs_free_energy_equation_symbols.zip" download title="Download blackboard_export_zip-gibbs_free_energy_equation_symbols.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-gibbs_free_energy_equation_symbols.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-gibbs_free_energy_equation_symbols.zip" download title="Download canvas_qti_v1_2-gibbs_free_energy_equation_symbols.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-gibbs_free_energy_equation_symbols.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-gibbs_free_energy_equation_symbols.html', '_blank')" title="View human_readable-gibbs_free_energy_equation_symbols.html" aria-label="Click to view the Human-Readable TXT file (human_readable-gibbs_free_energy_equation_symbols.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/gibbs_free_energy_equation_symbols.pgml" download title="Download gibbs_free_energy_equation_symbols.pgml" aria-label="Click to download the WeBWorK PGML file (gibbs_free_energy_equation_symbols.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-gibbs_free_energy_equation_symbols-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-gibbs_free_energy_equation_symbols-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-gibbs_free_energy_equation_symbols.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-gibbs_free_energy_equation_symbols-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-gibbs_free_energy_equation_symbols.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-gibbs_free_energy_equation_symbols-questions.txt" data-format="human_readable" data-filename="human_readable-gibbs_free_energy_equation_symbols.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/gibbs_free_energy_equation_symbols.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -539,8 +447,10 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-gibbs_free_energy_equation_symbols-questions.txt" data-bank-id="biochemistry/topic06/index.md:bbq-gibbs_free_energy_equation_symbols-questions.txt">
   {% include "biochemistry/topic06/downloads/selftest-gibbs_free_energy_equation_symbols.html" %}
 
+  </div>
 </details>
 
 
@@ -548,21 +458,13 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 
 <div id="thermodynamics_law_statements-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-thermodynamics_law_statements-questions.txt" download title="Download bbq-thermodynamics_law_statements-questions.txt" aria-label="Click to download the BBQ Text file (bbq-thermodynamics_law_statements-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-thermodynamics_law_statements.zip" download title="Download blackboard_export_zip-thermodynamics_law_statements.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-thermodynamics_law_statements.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-thermodynamics_law_statements.zip" download title="Download canvas_qti_v1_2-thermodynamics_law_statements.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-thermodynamics_law_statements.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-thermodynamics_law_statements.html', '_blank')" title="View human_readable-thermodynamics_law_statements.html" aria-label="Click to view the Human-Readable TXT file (human_readable-thermodynamics_law_statements.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/thermodynamics_law_statements.pgml" download title="Download thermodynamics_law_statements.pgml" aria-label="Click to download the WeBWorK PGML file (thermodynamics_law_statements.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-thermodynamics_law_statements-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-thermodynamics_law_statements-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-thermodynamics_law_statements.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-thermodynamics_law_statements-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-thermodynamics_law_statements.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-thermodynamics_law_statements-questions.txt" data-format="human_readable" data-filename="human_readable-thermodynamics_law_statements.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/thermodynamics_law_statements.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -575,8 +477,10 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-thermodynamics_law_statements-questions.txt" data-bank-id="biochemistry/topic06/index.md:bbq-thermodynamics_law_statements-questions.txt">
   {% include "biochemistry/topic06/downloads/selftest-thermodynamics_law_statements.html" %}
 
+  </div>
 </details>
 
 
@@ -584,21 +488,13 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 
 <div id="thermodynamics_system_laws-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-thermodynamics_system_laws-questions.txt" download title="Download bbq-thermodynamics_system_laws-questions.txt" aria-label="Click to download the BBQ Text file (bbq-thermodynamics_system_laws-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-thermodynamics_system_laws.zip" download title="Download blackboard_export_zip-thermodynamics_system_laws.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-thermodynamics_system_laws.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-thermodynamics_system_laws.zip" download title="Download canvas_qti_v1_2-thermodynamics_system_laws.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-thermodynamics_system_laws.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-thermodynamics_system_laws.html', '_blank')" title="View human_readable-thermodynamics_system_laws.html" aria-label="Click to view the Human-Readable TXT file (human_readable-thermodynamics_system_laws.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/thermodynamics_system_laws.pgml" download title="Download thermodynamics_system_laws.pgml" aria-label="Click to download the WeBWorK PGML file (thermodynamics_system_laws.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-thermodynamics_system_laws-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-thermodynamics_system_laws-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-thermodynamics_system_laws.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-thermodynamics_system_laws-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-thermodynamics_system_laws.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-thermodynamics_system_laws-questions.txt" data-format="human_readable" data-filename="human_readable-thermodynamics_system_laws.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/thermodynamics_system_laws.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -611,8 +507,10 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-thermodynamics_system_laws-questions.txt" data-bank-id="biochemistry/topic06/index.md:bbq-thermodynamics_system_laws-questions.txt">
   {% include "biochemistry/topic06/downloads/selftest-thermodynamics_system_laws.html" %}
 
+  </div>
 </details>
 
 

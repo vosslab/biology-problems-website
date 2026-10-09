@@ -6,18 +6,12 @@ Students analyze GAPDH DNA and protein sequences using BLAST, interpret alignmen
 
 <div id="consensus_sequence_FIB-arbitrary_code-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" download title="Download bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" aria-label="Click to download the BBQ Text file (bbq-consensus_sequence_FIB-arbitrary_code-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-consensus_sequence_FIB-arbitrary_code.zip" download title="Download blackboard_export_zip-consensus_sequence_FIB-arbitrary_code.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-consensus_sequence_FIB-arbitrary_code.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-consensus_sequence_FIB-arbitrary_code.zip" download title="Download canvas_qti_v1_2-consensus_sequence_FIB-arbitrary_code.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-consensus_sequence_FIB-arbitrary_code.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-consensus_sequence_FIB-arbitrary_code.html', '_blank')" title="View human_readable-consensus_sequence_FIB-arbitrary_code.html" aria-label="Click to view the Human-Readable TXT file (human_readable-consensus_sequence_FIB-arbitrary_code.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-consensus_sequence_FIB-arbitrary_code.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-consensus_sequence_FIB-arbitrary_code.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" data-format="human_readable" data-filename="human_readable-consensus_sequence_FIB-arbitrary_code.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -30,8 +24,10 @@ Students analyze GAPDH DNA and protein sequences using BLAST, interpret alignmen
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" data-bank-id="laboratory/topic13/index.md:bbq-consensus_sequence_FIB-arbitrary_code-questions.txt">
   {% include "laboratory/topic13/downloads/selftest-consensus_sequence_FIB-arbitrary_code.html" %}
 
+  </div>
 </details>
 
 
@@ -39,18 +35,12 @@ Students analyze GAPDH DNA and protein sequences using BLAST, interpret alignmen
 
 <div id="consensus_sequence_FIB-easy-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-easy-questions.txt" download title="Download bbq-consensus_sequence_FIB-easy-questions.txt" aria-label="Click to download the BBQ Text file (bbq-consensus_sequence_FIB-easy-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-consensus_sequence_FIB-easy.zip" download title="Download blackboard_export_zip-consensus_sequence_FIB-easy.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-consensus_sequence_FIB-easy.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-consensus_sequence_FIB-easy.zip" download title="Download canvas_qti_v1_2-consensus_sequence_FIB-easy.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-consensus_sequence_FIB-easy.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-consensus_sequence_FIB-easy.html', '_blank')" title="View human_readable-consensus_sequence_FIB-easy.html" aria-label="Click to view the Human-Readable TXT file (human_readable-consensus_sequence_FIB-easy.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-easy-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-consensus_sequence_FIB-easy-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-consensus_sequence_FIB-easy.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-consensus_sequence_FIB-easy-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-consensus_sequence_FIB-easy.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-consensus_sequence_FIB-easy-questions.txt" data-format="human_readable" data-filename="human_readable-consensus_sequence_FIB-easy.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -63,8 +53,10 @@ Students analyze GAPDH DNA and protein sequences using BLAST, interpret alignmen
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-consensus_sequence_FIB-easy-questions.txt" data-bank-id="laboratory/topic13/index.md:bbq-consensus_sequence_FIB-easy-questions.txt">
   {% include "laboratory/topic13/downloads/selftest-consensus_sequence_FIB-easy.html" %}
 
+  </div>
 </details>
 
 
@@ -72,18 +64,12 @@ Students analyze GAPDH DNA and protein sequences using BLAST, interpret alignmen
 
 <div id="consensus_sequence_FIB-hard-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-hard-questions.txt" download title="Download bbq-consensus_sequence_FIB-hard-questions.txt" aria-label="Click to download the BBQ Text file (bbq-consensus_sequence_FIB-hard-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-consensus_sequence_FIB-hard.zip" download title="Download blackboard_export_zip-consensus_sequence_FIB-hard.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-consensus_sequence_FIB-hard.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-consensus_sequence_FIB-hard.zip" download title="Download canvas_qti_v1_2-consensus_sequence_FIB-hard.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-consensus_sequence_FIB-hard.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-consensus_sequence_FIB-hard.html', '_blank')" title="View human_readable-consensus_sequence_FIB-hard.html" aria-label="Click to view the Human-Readable TXT file (human_readable-consensus_sequence_FIB-hard.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-hard-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-consensus_sequence_FIB-hard-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-consensus_sequence_FIB-hard.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-consensus_sequence_FIB-hard-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-consensus_sequence_FIB-hard.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-consensus_sequence_FIB-hard-questions.txt" data-format="human_readable" data-filename="human_readable-consensus_sequence_FIB-hard.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -96,8 +82,10 @@ Students analyze GAPDH DNA and protein sequences using BLAST, interpret alignmen
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-consensus_sequence_FIB-hard-questions.txt" data-bank-id="laboratory/topic13/index.md:bbq-consensus_sequence_FIB-hard-questions.txt">
   {% include "laboratory/topic13/downloads/selftest-consensus_sequence_FIB-hard.html" %}
 
+  </div>
 </details>
 
 
@@ -105,18 +93,12 @@ Students analyze GAPDH DNA and protein sequences using BLAST, interpret alignmen
 
 <div id="consensus_sequence_MC-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-consensus_sequence_MC-questions.txt" download title="Download bbq-consensus_sequence_MC-questions.txt" aria-label="Click to download the BBQ Text file (bbq-consensus_sequence_MC-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-consensus_sequence_MC.zip" download title="Download blackboard_export_zip-consensus_sequence_MC.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-consensus_sequence_MC.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-consensus_sequence_MC.zip" download title="Download canvas_qti_v1_2-consensus_sequence_MC.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-consensus_sequence_MC.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-consensus_sequence_MC.html', '_blank')" title="View human_readable-consensus_sequence_MC.html" aria-label="Click to view the Human-Readable TXT file (human_readable-consensus_sequence_MC.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-consensus_sequence_MC-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-consensus_sequence_MC-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-consensus_sequence_MC.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-consensus_sequence_MC-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-consensus_sequence_MC.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-consensus_sequence_MC-questions.txt" data-format="human_readable" data-filename="human_readable-consensus_sequence_MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -129,8 +111,10 @@ Students analyze GAPDH DNA and protein sequences using BLAST, interpret alignmen
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-consensus_sequence_MC-questions.txt" data-bank-id="laboratory/topic13/index.md:bbq-consensus_sequence_MC-questions.txt">
   {% include "laboratory/topic13/downloads/selftest-consensus_sequence_MC.html" %}
 
+  </div>
 </details>
 
 

@@ -4,6 +4,7 @@ import vm from 'node:vm';
 
 function loadProgress() {
 	const context = {
+		URL,
 		window: {
 			localStorage: {
 				getItem() { return null; },
@@ -20,6 +21,7 @@ function loadProgress() {
 			},
 		},
 		document: {
+			currentScript: { src: 'https://example.org/assets/scripts/selftest_progress.js' },
 			readyState: 'loading',
 			addEventListener() {},
 			getElementById() {

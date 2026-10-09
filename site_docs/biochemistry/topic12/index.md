@@ -8,21 +8,13 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
 
 <div id="fatty_acid_match_delta-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-fatty_acid_match_delta-questions.txt" download title="Download bbq-fatty_acid_match_delta-questions.txt" aria-label="Click to download the BBQ Text file (bbq-fatty_acid_match_delta-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-fatty_acid_match_delta.zip" download title="Download blackboard_export_zip-fatty_acid_match_delta.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-fatty_acid_match_delta.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-fatty_acid_match_delta.zip" download title="Download canvas_qti_v1_2-fatty_acid_match_delta.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-fatty_acid_match_delta.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-fatty_acid_match_delta.html', '_blank')" title="View human_readable-fatty_acid_match_delta.html" aria-label="Click to view the Human-Readable TXT file (human_readable-fatty_acid_match_delta.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/fatty_acid_match_delta.pgml" download title="Download fatty_acid_match_delta.pgml" aria-label="Click to download the WeBWorK PGML file (fatty_acid_match_delta.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-fatty_acid_match_delta-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-fatty_acid_match_delta-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-fatty_acid_match_delta.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-fatty_acid_match_delta-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-fatty_acid_match_delta.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-fatty_acid_match_delta-questions.txt" data-format="human_readable" data-filename="human_readable-fatty_acid_match_delta.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/fatty_acid_match_delta.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -35,8 +27,10 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-fatty_acid_match_delta-questions.txt" data-bank-id="biochemistry/topic12/index.md:bbq-fatty_acid_match_delta-questions.txt">
   {% include "biochemistry/topic12/downloads/selftest-fatty_acid_match_delta.html" %}
 
+  </div>
 </details>
 
 
@@ -44,21 +38,13 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
 
 <div id="fatty_acid_match_omega-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-fatty_acid_match_omega-questions.txt" download title="Download bbq-fatty_acid_match_omega-questions.txt" aria-label="Click to download the BBQ Text file (bbq-fatty_acid_match_omega-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-fatty_acid_match_omega.zip" download title="Download blackboard_export_zip-fatty_acid_match_omega.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-fatty_acid_match_omega.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-fatty_acid_match_omega.zip" download title="Download canvas_qti_v1_2-fatty_acid_match_omega.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-fatty_acid_match_omega.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-fatty_acid_match_omega.html', '_blank')" title="View human_readable-fatty_acid_match_omega.html" aria-label="Click to view the Human-Readable TXT file (human_readable-fatty_acid_match_omega.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/fatty_acid_match_omega.pgml" download title="Download fatty_acid_match_omega.pgml" aria-label="Click to download the WeBWorK PGML file (fatty_acid_match_omega.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-fatty_acid_match_omega-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-fatty_acid_match_omega-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-fatty_acid_match_omega.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-fatty_acid_match_omega-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-fatty_acid_match_omega.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-fatty_acid_match_omega-questions.txt" data-format="human_readable" data-filename="human_readable-fatty_acid_match_omega.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/fatty_acid_match_omega.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -71,8 +57,10 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-fatty_acid_match_omega-questions.txt" data-bank-id="biochemistry/topic12/index.md:bbq-fatty_acid_match_omega-questions.txt">
   {% include "biochemistry/topic12/downloads/selftest-fatty_acid_match_omega.html" %}
 
+  </div>
 </details>
 
 
@@ -80,21 +68,13 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
 
 <div id="fatty_acid_naming_delta-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-fatty_acid_naming_delta-questions.txt" download title="Download bbq-fatty_acid_naming_delta-questions.txt" aria-label="Click to download the BBQ Text file (bbq-fatty_acid_naming_delta-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-fatty_acid_naming_delta.zip" download title="Download blackboard_export_zip-fatty_acid_naming_delta.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-fatty_acid_naming_delta.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-fatty_acid_naming_delta.zip" download title="Download canvas_qti_v1_2-fatty_acid_naming_delta.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-fatty_acid_naming_delta.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-fatty_acid_naming_delta.html', '_blank')" title="View human_readable-fatty_acid_naming_delta.html" aria-label="Click to view the Human-Readable TXT file (human_readable-fatty_acid_naming_delta.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/fatty_acid_naming_delta.pgml" download title="Download fatty_acid_naming_delta.pgml" aria-label="Click to download the WeBWorK PGML file (fatty_acid_naming_delta.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-fatty_acid_naming_delta-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-fatty_acid_naming_delta-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-fatty_acid_naming_delta.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-fatty_acid_naming_delta-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-fatty_acid_naming_delta.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-fatty_acid_naming_delta-questions.txt" data-format="human_readable" data-filename="human_readable-fatty_acid_naming_delta.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/fatty_acid_naming_delta.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -107,8 +87,10 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-fatty_acid_naming_delta-questions.txt" data-bank-id="biochemistry/topic12/index.md:bbq-fatty_acid_naming_delta-questions.txt">
   {% include "biochemistry/topic12/downloads/selftest-fatty_acid_naming_delta.html" %}
 
+  </div>
 </details>
 
 
@@ -116,21 +98,13 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
 
 <div id="fatty_acid_naming_omega-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-fatty_acid_naming_omega-questions.txt" download title="Download bbq-fatty_acid_naming_omega-questions.txt" aria-label="Click to download the BBQ Text file (bbq-fatty_acid_naming_omega-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-fatty_acid_naming_omega.zip" download title="Download blackboard_export_zip-fatty_acid_naming_omega.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-fatty_acid_naming_omega.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-fatty_acid_naming_omega.zip" download title="Download canvas_qti_v1_2-fatty_acid_naming_omega.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-fatty_acid_naming_omega.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-fatty_acid_naming_omega.html', '_blank')" title="View human_readable-fatty_acid_naming_omega.html" aria-label="Click to view the Human-Readable TXT file (human_readable-fatty_acid_naming_omega.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/fatty_acid_naming_omega.pgml" download title="Download fatty_acid_naming_omega.pgml" aria-label="Click to download the WeBWorK PGML file (fatty_acid_naming_omega.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-fatty_acid_naming_omega-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-fatty_acid_naming_omega-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-fatty_acid_naming_omega.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-fatty_acid_naming_omega-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-fatty_acid_naming_omega.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-fatty_acid_naming_omega-questions.txt" data-format="human_readable" data-filename="human_readable-fatty_acid_naming_omega.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/fatty_acid_naming_omega.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -143,8 +117,10 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-fatty_acid_naming_omega-questions.txt" data-bank-id="biochemistry/topic12/index.md:bbq-fatty_acid_naming_omega-questions.txt">
   {% include "biochemistry/topic12/downloads/selftest-fatty_acid_naming_omega.html" %}
 
+  </div>
 </details>
 
 
@@ -152,21 +128,13 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
 
 <div id="quick_fatty_acid_colon_system-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-quick_fatty_acid_colon_system-questions.txt" download title="Download bbq-quick_fatty_acid_colon_system-questions.txt" aria-label="Click to download the BBQ Text file (bbq-quick_fatty_acid_colon_system-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-quick_fatty_acid_colon_system.zip" download title="Download blackboard_export_zip-quick_fatty_acid_colon_system.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-quick_fatty_acid_colon_system.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-quick_fatty_acid_colon_system.zip" download title="Download canvas_qti_v1_2-quick_fatty_acid_colon_system.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-quick_fatty_acid_colon_system.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-quick_fatty_acid_colon_system.html', '_blank')" title="View human_readable-quick_fatty_acid_colon_system.html" aria-label="Click to view the Human-Readable TXT file (human_readable-quick_fatty_acid_colon_system.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/quick_fatty_acid_colon_system.pgml" download title="Download quick_fatty_acid_colon_system.pgml" aria-label="Click to download the WeBWorK PGML file (quick_fatty_acid_colon_system.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-quick_fatty_acid_colon_system-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-quick_fatty_acid_colon_system-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-quick_fatty_acid_colon_system.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-quick_fatty_acid_colon_system-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-quick_fatty_acid_colon_system.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-quick_fatty_acid_colon_system-questions.txt" data-format="human_readable" data-filename="human_readable-quick_fatty_acid_colon_system.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/quick_fatty_acid_colon_system.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -179,8 +147,10 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-quick_fatty_acid_colon_system-questions.txt" data-bank-id="biochemistry/topic12/index.md:bbq-quick_fatty_acid_colon_system-questions.txt">
   {% include "biochemistry/topic12/downloads/selftest-quick_fatty_acid_colon_system.html" %}
 
+  </div>
 </details>
 
 
@@ -188,21 +158,13 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
 
 <div id="which_lipid-chemical_formula-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-which_lipid-chemical_formula-questions.txt" download title="Download bbq-which_lipid-chemical_formula-questions.txt" aria-label="Click to download the BBQ Text file (bbq-which_lipid-chemical_formula-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-which_lipid-chemical_formula.zip" download title="Download blackboard_export_zip-which_lipid-chemical_formula.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-which_lipid-chemical_formula.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-which_lipid-chemical_formula.zip" download title="Download canvas_qti_v1_2-which_lipid-chemical_formula.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-which_lipid-chemical_formula.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-which_lipid-chemical_formula.html', '_blank')" title="View human_readable-which_lipid-chemical_formula.html" aria-label="Click to view the Human-Readable TXT file (human_readable-which_lipid-chemical_formula.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/which_lipid-chemical_formula.pgml" download title="Download which_lipid-chemical_formula.pgml" aria-label="Click to download the WeBWorK PGML file (which_lipid-chemical_formula.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-which_lipid-chemical_formula-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-which_lipid-chemical_formula-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-which_lipid-chemical_formula.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-which_lipid-chemical_formula-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-which_lipid-chemical_formula.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-which_lipid-chemical_formula-questions.txt" data-format="human_readable" data-filename="human_readable-which_lipid-chemical_formula.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/which_lipid-chemical_formula.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -215,8 +177,10 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-which_lipid-chemical_formula-questions.txt" data-bank-id="biochemistry/topic12/index.md:bbq-which_lipid-chemical_formula-questions.txt">
   {% include "biochemistry/topic12/downloads/selftest-which_lipid-chemical_formula.html" %}
 
+  </div>
 </details>
 
 

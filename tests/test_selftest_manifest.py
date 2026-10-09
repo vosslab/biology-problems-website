@@ -4,6 +4,9 @@
 import os
 import json
 
+# PIP3 modules
+import pytest
+
 # local repo modules
 import bioproblems_site.selftest_manifest as selftest_manifest
 
@@ -93,6 +96,65 @@ def test_manifest_skips_unrendered_topic_page(tmp_path: object) -> object:
 		metadata_path=str(metadata_path),
 	)
 	assert manifest["questions"] == []
+
+
+def test_manifest_attribute_order_preserves_ids_and_fingerprints(tmp_path: object) -> None:
+	"""Native class-first roots and Python id-first roots describe the same questions."""
+	site_docs = tmp_path / "site_docs"
+	topic_dir = site_docs / "biology" / "topic01"
+	topic_dir.mkdir(parents=True)
+	(topic_dir / "index.md").write_text(
+		'{% include "biology/topic01/downloads/selftest-cells.html" %}\n'
+	)
+	selftest_path = topic_dir / "downloads" / "selftest-cells.html"
+	selftest_path.parent.mkdir()
+	metadata_path = tmp_path / "topics_metadata.yml"
+	mkdocs_path = tmp_path / "mkdocs.yml"
+	_write_metadata(metadata_path)
+	_write_mkdocs(mkdocs_path)
+	manifests = []
+	for native in (False, True):
+		markup = ""
+		if native:
+			markup += '<div class="qti-selftest-item" id="question_html_3593_4c9d">'
+			markup += "<div class='statement' id = 'statement_text_3593_4c9d'>Match the cells.</div>"
+		else:
+			markup += "<div id='question_html_3593_4c9d'>"
+			markup += '<div id="statement_text_3593_4c9d">Match the cells.</div>'
+		markup += "</div>\n"
+		selftest_path.write_text(markup, encoding="iso8859-1")
+		manifests.append(selftest_manifest.build_manifest(
+			site_docs_dir=str(site_docs),
+			mkdocs_path=str(mkdocs_path),
+			metadata_path=str(metadata_path),
+		))
+	python_question = manifests[0]["questions"][0]
+	native_question = manifests[1]["questions"][0]
+	assert python_question["questionId"] == native_question["questionId"] == "3593_4c9d"
+	assert python_question["questionFingerprint"] == native_question["questionFingerprint"]
+
+
+def test_manifest_rejects_missing_question_root(tmp_path: object) -> None:
+	"""Attribute flexibility must still fail when the required CRC root is absent."""
+	site_docs = tmp_path / "site_docs"
+	topic_dir = site_docs / "biology" / "topic01"
+	topic_dir.mkdir(parents=True)
+	(topic_dir / "index.md").write_text(
+		'{% include "biology/topic01/downloads/selftest-cells.html" %}\n'
+	)
+	selftest_path = topic_dir / "downloads" / "selftest-cells.html"
+	selftest_path.parent.mkdir()
+	selftest_path.write_text('<div class="qti-selftest-item">Missing id</div>', encoding="iso8859-1")
+	metadata_path = tmp_path / "topics_metadata.yml"
+	mkdocs_path = tmp_path / "mkdocs.yml"
+	_write_metadata(metadata_path)
+	_write_mkdocs(mkdocs_path)
+	with pytest.raises(ValueError, match="No question_html_<crc> div"):
+		selftest_manifest.build_manifest(
+			site_docs_dir=str(site_docs),
+			mkdocs_path=str(mkdocs_path),
+			metadata_path=str(metadata_path),
+		)
 
 
 def test_manifest_rejects_duplicate_crc(tmp_path: object) -> object:

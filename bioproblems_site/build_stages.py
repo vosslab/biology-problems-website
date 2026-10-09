@@ -1,6 +1,8 @@
 """Stage-local stale checks and writers for the unified site build."""
 
 from pathlib import Path
+import concurrent.futures
+import os
 
 import bioproblems_site.llm_helpers as llm_helpers
 import bioproblems_site.bbq_workflow as bbq_workflow
@@ -97,17 +99,7 @@ def run_selftests(
 	}
 	if scope.dry_run:
 		return outputs
-	for source_path in sources:
-		if progress:
-			progress.check_cancelled()
-		if progress:
-			topic_page_module.create_timed_downloadable_format(
-				str(source_path), "selftest", "html", capture_output=True, progress=progress,
-			)
-		else:
-			topic_page_module.create_downloadable_format(
-				str(source_path), "selftest", "html",
-			)
+	_run_bank_tasks(sources, progress)
 	return outputs
 
 
@@ -119,7 +111,6 @@ def topic_page_needs_run(topic_ref: TopicRef, scope: BuildScope, changes: BuildC
 	inputs.extend(topic_sources(topic_ref))
 	for source_path in topic_sources(topic_ref):
 		inputs.append(Path(topic_page_module.get_outfile_name(str(source_path), "selftest", "html")))
-		inputs.extend(expected_downloads(source_path))
 	if scope.full or topic_ref in changes.changed_topics:
 		return True
 	return is_newer_than_any(page_path, inputs)
@@ -141,9 +132,7 @@ def run_topic_page(topic_ref: TopicRef, scope: BuildScope) -> set[Path]:
 	options = topic_page_module.RenderOptions(
 		verbose=True,
 		llm_client=client,
-		generate_downloads=False,
 		regenerate_selftests=False,
-		render_missing_download_links=False,
 	)
 	topic_page_module.render_all(
 		options,
@@ -155,26 +144,6 @@ def run_topic_page(topic_ref: TopicRef, scope: BuildScope) -> set[Path]:
 
 
 #============================================
-def expected_downloads(source_path: Path) -> set[Path]:
-	"""Return converter-owned artifacts expected for one BBQ source."""
-	outputs = {
-		Path(topic_page_module.get_outfile_name(str(source_path), "human_readable", "html")),
-	}
-	if topic_page_module.find_blacklisted_item_type(
-		str(source_path),
-		"canvas_qti",
-	) is None:
-		outputs.add(Path(topic_page_module.get_outfile_name(
-			str(source_path), "canvas_qti_v1_2", "zip"
-		)))
-	if topic_page_module.supports_blackboard_export(str(source_path)):
-		outputs.add(Path(topic_page_module.get_outfile_name(
-			str(source_path), "blackboard_export_zip", "zip"
-		)))
-	return outputs
-
-
-#============================================
 def count_downloads(
 		source_paths: set[Path],
 		expected_pgml_files: set[Path],
@@ -183,9 +152,8 @@ def count_downloads(
 	expected_paths: set[Path] = set()
 	pgml_paths = set(expected_pgml_files)
 	for source_path in source_paths:
-		# The BBQ source is itself a downloadable format alongside its exports.
+		# Browser-generated packages are controls, not expected disk files.
 		expected_paths.add(source_path)
-		expected_paths.update(expected_downloads(source_path))
 		# Non-YAML tasks have no configured PGML path; count a matching file if found.
 		if not expected_pgml_files:
 			pgml_path = topic_page_module.find_pgml_file(str(source_path))
@@ -197,58 +165,58 @@ def count_downloads(
 
 
 #============================================
-def downloads_need_run(
-	topic_ref: TopicRef,
-	scope: BuildScope,
-	changes: BuildChanges,
-	source_paths: set[Path] | None = None,
-) -> bool:
-	"""Check direct BBQ-to-download relationships for one topic."""
-	sources = selected_topic_sources(topic_ref, source_paths)
-	if not sources:
-		return False
-	if scope.full or topic_ref in changes.changed_topics:
-		return True
-	for source_path in sources:
-		for output_path in expected_downloads(source_path):
-			if is_newer_than_any(output_path, [source_path]):
-				return True
-			if (
-				output_path.name.startswith("blackboard_export_zip-")
-				and topic_page_module.blackboard_export_has_html_tables(output_path)
-			):
-				return True
-	return False
+def _convert_bank(
+	source_path: Path,
+	task_log: list[str],
+	events: list[tuple[str, dict[str, object]]],
+	progress: BuildProgress | None,
+) -> None:
+	"""Own one bank's writes and collect messages without sharing stdout."""
+	bank_progress = None
+	if progress:
+		bank_progress = BuildProgress(
+			lambda event, details: events.append((event, details)), progress.cancel_event,
+		)
+		bank_progress.check_cancelled()
+	topic_page_module.create_timed_downloadable_format(
+		str(source_path), "selftest", "html", capture_output=True,
+		progress=bank_progress, task_log=task_log,
+	)
 
 
 #============================================
-def run_downloads(
-	topic_ref: TopicRef,
-	scope: BuildScope,
-	source_paths: set[Path] | None = None,
-	progress: BuildProgress | None = None,
-) -> set[Path]:
-	"""Write converter-owned artifacts for one row or all files in a topic."""
-	outputs: set[Path] = set()
-	for source_path in selected_topic_sources(topic_ref, source_paths):
-		if progress:
-			progress.check_cancelled()
-		outputs.update(expected_downloads(source_path))
-		if scope.dry_run:
-			continue
-		if progress:
-			progress.check_cancelled()
-			topic_page_module.generate_download_artifacts(
-				str(source_path),
-				verbose=True,
-				capture_output=True,
-				progress=progress,
-			)
-		else:
-			topic_page_module.generate_download_artifacts(
-				str(source_path), verbose=True,
-			)
-	return outputs
+def _run_bank_tasks(sources: list[Path], progress: BuildProgress | None) -> None:
+	"""Convert independent banks concurrently and publish whole task logs."""
+	if not sources:
+		return
+	# Validate the shared native dependency before dispatching self-test jobs.
+	git_paths.find_native_bbq_converter()
+	workers = max(1, (os.cpu_count() or 1) // 2)
+	first_error = None
+	with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as executor:
+		tasks = {}
+		for source_path in sources:
+			if progress:
+				progress.check_cancelled()
+			task_log: list[str] = []
+			events: list[tuple[str, dict[str, object]]] = []
+			future = executor.submit(_convert_bank, source_path, task_log, events, progress)
+			tasks[future] = (task_log, events)
+		for future in concurrent.futures.as_completed(tasks):
+			task_log, events = tasks[future]
+			# Only the owning thread prints and calls shared progress observers.
+			if task_log:
+				print("\n".join(task_log))
+			if progress:
+				for event, details in events:
+					progress.emit(event, **details)
+			try:
+				future.result()
+			except Exception as error:
+				if first_error is None:
+					first_error = error
+	if first_error is not None:
+		raise first_error
 
 
 #============================================

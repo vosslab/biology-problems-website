@@ -8,21 +8,13 @@ Students identify levels of protein structure, distinguish alpha helices from be
 
 <div id="MATCH-levels_of_protein_structure-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-MATCH-levels_of_protein_structure-questions.txt" download title="Download bbq-MATCH-levels_of_protein_structure-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-levels_of_protein_structure-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-levels_of_protein_structure.zip" download title="Download blackboard_export_zip-MATCH-levels_of_protein_structure.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-levels_of_protein_structure.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-levels_of_protein_structure.zip" download title="Download canvas_qti_v1_2-MATCH-levels_of_protein_structure.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-levels_of_protein_structure.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-levels_of_protein_structure.html', '_blank')" title="View human_readable-MATCH-levels_of_protein_structure.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-levels_of_protein_structure.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/levels_of_protein_structure-matching.pgml" download title="Download levels_of_protein_structure-matching.pgml" aria-label="Click to download the WeBWorK PGML file (levels_of_protein_structure-matching.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-MATCH-levels_of_protein_structure-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-MATCH-levels_of_protein_structure-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-levels_of_protein_structure.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-MATCH-levels_of_protein_structure-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-levels_of_protein_structure.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-MATCH-levels_of_protein_structure-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-levels_of_protein_structure.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/levels_of_protein_structure-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -35,8 +27,10 @@ Students identify levels of protein structure, distinguish alpha helices from be
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-MATCH-levels_of_protein_structure-questions.txt" data-bank-id="biochemistry/topic04/index.md:bbq-MATCH-levels_of_protein_structure-questions.txt">
   {% include "biochemistry/topic04/downloads/selftest-MATCH-levels_of_protein_structure.html" %}
 
+  </div>
 </details>
 
 
@@ -44,21 +38,13 @@ Students identify levels of protein structure, distinguish alpha helices from be
 
 <div id="WOMC-levels_of_protein_structure-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-WOMC-levels_of_protein_structure-questions.txt" download title="Download bbq-WOMC-levels_of_protein_structure-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-levels_of_protein_structure-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-levels_of_protein_structure.zip" download title="Download blackboard_export_zip-WOMC-levels_of_protein_structure.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-levels_of_protein_structure.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-levels_of_protein_structure.zip" download title="Download canvas_qti_v1_2-WOMC-levels_of_protein_structure.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-levels_of_protein_structure.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-levels_of_protein_structure.html', '_blank')" title="View human_readable-WOMC-levels_of_protein_structure.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-levels_of_protein_structure.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/levels_of_protein_structure-which_one.pgml" download title="Download levels_of_protein_structure-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (levels_of_protein_structure-which_one.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-WOMC-levels_of_protein_structure-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-WOMC-levels_of_protein_structure-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-levels_of_protein_structure.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-WOMC-levels_of_protein_structure-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-levels_of_protein_structure.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-WOMC-levels_of_protein_structure-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-levels_of_protein_structure.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/levels_of_protein_structure-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -71,8 +57,10 @@ Students identify levels of protein structure, distinguish alpha helices from be
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-WOMC-levels_of_protein_structure-questions.txt" data-bank-id="biochemistry/topic04/index.md:bbq-WOMC-levels_of_protein_structure-questions.txt">
   {% include "biochemistry/topic04/downloads/selftest-WOMC-levels_of_protein_structure.html" %}
 
+  </div>
 </details>
 
 
@@ -80,18 +68,12 @@ Students identify levels of protein structure, distinguish alpha helices from be
 
 <div id="alpha_helix_h-bonds-MA-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-alpha_helix_h-bonds-MA-questions.txt" download title="Download bbq-alpha_helix_h-bonds-MA-questions.txt" aria-label="Click to download the BBQ Text file (bbq-alpha_helix_h-bonds-MA-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-alpha_helix_h-bonds-MA.zip" download title="Download blackboard_export_zip-alpha_helix_h-bonds-MA.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-alpha_helix_h-bonds-MA.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-alpha_helix_h-bonds-MA.zip" download title="Download canvas_qti_v1_2-alpha_helix_h-bonds-MA.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-alpha_helix_h-bonds-MA.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-alpha_helix_h-bonds-MA.html', '_blank')" title="View human_readable-alpha_helix_h-bonds-MA.html" aria-label="Click to view the Human-Readable TXT file (human_readable-alpha_helix_h-bonds-MA.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-alpha_helix_h-bonds-MA-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-alpha_helix_h-bonds-MA-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-alpha_helix_h-bonds-MA.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-alpha_helix_h-bonds-MA-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-alpha_helix_h-bonds-MA.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-alpha_helix_h-bonds-MA-questions.txt" data-format="human_readable" data-filename="human_readable-alpha_helix_h-bonds-MA.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -104,8 +86,10 @@ Students identify levels of protein structure, distinguish alpha helices from be
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-alpha_helix_h-bonds-MA-questions.txt" data-bank-id="biochemistry/topic04/index.md:bbq-alpha_helix_h-bonds-MA-questions.txt">
   {% include "biochemistry/topic04/downloads/selftest-alpha_helix_h-bonds-MA.html" %}
 
+  </div>
 </details>
 
 
@@ -113,18 +97,12 @@ Students identify levels of protein structure, distinguish alpha helices from be
 
 <div id="alpha_helix_h-bonds-MC-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-alpha_helix_h-bonds-MC-questions.txt" download title="Download bbq-alpha_helix_h-bonds-MC-questions.txt" aria-label="Click to download the BBQ Text file (bbq-alpha_helix_h-bonds-MC-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-alpha_helix_h-bonds-MC.zip" download title="Download blackboard_export_zip-alpha_helix_h-bonds-MC.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-alpha_helix_h-bonds-MC.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-alpha_helix_h-bonds-MC.zip" download title="Download canvas_qti_v1_2-alpha_helix_h-bonds-MC.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-alpha_helix_h-bonds-MC.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-alpha_helix_h-bonds-MC.html', '_blank')" title="View human_readable-alpha_helix_h-bonds-MC.html" aria-label="Click to view the Human-Readable TXT file (human_readable-alpha_helix_h-bonds-MC.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-alpha_helix_h-bonds-MC-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-alpha_helix_h-bonds-MC-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-alpha_helix_h-bonds-MC.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-alpha_helix_h-bonds-MC-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-alpha_helix_h-bonds-MC.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-alpha_helix_h-bonds-MC-questions.txt" data-format="human_readable" data-filename="human_readable-alpha_helix_h-bonds-MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -137,8 +115,10 @@ Students identify levels of protein structure, distinguish alpha helices from be
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-alpha_helix_h-bonds-MC-questions.txt" data-bank-id="biochemistry/topic04/index.md:bbq-alpha_helix_h-bonds-MC-questions.txt">
   {% include "biochemistry/topic04/downloads/selftest-alpha_helix_h-bonds-MC.html" %}
 
+  </div>
 </details>
 
 

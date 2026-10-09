@@ -6,18 +6,12 @@ Students prepare solutions from solids or stock reagents by calculating grams ne
 
 <div id="solution-mass_concentration-numeric-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-solution-mass_concentration-numeric-questions.txt" download title="Download bbq-solution-mass_concentration-numeric-questions.txt" aria-label="Click to download the BBQ Text file (bbq-solution-mass_concentration-numeric-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-solution-mass_concentration-numeric.zip" download title="Download blackboard_export_zip-solution-mass_concentration-numeric.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-solution-mass_concentration-numeric.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-solution-mass_concentration-numeric.zip" download title="Download canvas_qti_v1_2-solution-mass_concentration-numeric.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-solution-mass_concentration-numeric.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-solution-mass_concentration-numeric.html', '_blank')" title="View human_readable-solution-mass_concentration-numeric.html" aria-label="Click to view the Human-Readable TXT file (human_readable-solution-mass_concentration-numeric.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-solution-mass_concentration-numeric-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-solution-mass_concentration-numeric-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-solution-mass_concentration-numeric.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-solution-mass_concentration-numeric-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-solution-mass_concentration-numeric.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-solution-mass_concentration-numeric-questions.txt" data-format="human_readable" data-filename="human_readable-solution-mass_concentration-numeric.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -30,8 +24,10 @@ Students prepare solutions from solids or stock reagents by calculating grams ne
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-solution-mass_concentration-numeric-questions.txt" data-bank-id="laboratory/topic02/index.md:bbq-solution-mass_concentration-numeric-questions.txt">
   {% include "laboratory/topic02/downloads/selftest-solution-mass_concentration-numeric.html" %}
 
+  </div>
 </details>
 
 
@@ -39,18 +35,12 @@ Students prepare solutions from solids or stock reagents by calculating grams ne
 
 <div id="solution-mass_vol-numeric-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-solution-mass_vol-numeric-questions.txt" download title="Download bbq-solution-mass_vol-numeric-questions.txt" aria-label="Click to download the BBQ Text file (bbq-solution-mass_vol-numeric-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-solution-mass_vol-numeric.zip" download title="Download blackboard_export_zip-solution-mass_vol-numeric.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-solution-mass_vol-numeric.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-solution-mass_vol-numeric.zip" download title="Download canvas_qti_v1_2-solution-mass_vol-numeric.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-solution-mass_vol-numeric.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-solution-mass_vol-numeric.html', '_blank')" title="View human_readable-solution-mass_vol-numeric.html" aria-label="Click to view the Human-Readable TXT file (human_readable-solution-mass_vol-numeric.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-solution-mass_vol-numeric-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-solution-mass_vol-numeric-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-solution-mass_vol-numeric.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-solution-mass_vol-numeric-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-solution-mass_vol-numeric.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-solution-mass_vol-numeric-questions.txt" data-format="human_readable" data-filename="human_readable-solution-mass_vol-numeric.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -63,8 +53,10 @@ Students prepare solutions from solids or stock reagents by calculating grams ne
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-solution-mass_vol-numeric-questions.txt" data-bank-id="laboratory/topic02/index.md:bbq-solution-mass_vol-numeric-questions.txt">
   {% include "laboratory/topic02/downloads/selftest-solution-mass_vol-numeric.html" %}
 
+  </div>
 </details>
 
 
@@ -72,18 +64,12 @@ Students prepare solutions from solids or stock reagents by calculating grams ne
 
 <div id="solution-molarity-mol_weight-numeric-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-solution-molarity-mol_weight-numeric-questions.txt" download title="Download bbq-solution-molarity-mol_weight-numeric-questions.txt" aria-label="Click to download the BBQ Text file (bbq-solution-molarity-mol_weight-numeric-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-solution-molarity-mol_weight-numeric.zip" download title="Download blackboard_export_zip-solution-molarity-mol_weight-numeric.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-solution-molarity-mol_weight-numeric.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-solution-molarity-mol_weight-numeric.zip" download title="Download canvas_qti_v1_2-solution-molarity-mol_weight-numeric.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-solution-molarity-mol_weight-numeric.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-solution-molarity-mol_weight-numeric.html', '_blank')" title="View human_readable-solution-molarity-mol_weight-numeric.html" aria-label="Click to view the Human-Readable TXT file (human_readable-solution-molarity-mol_weight-numeric.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-solution-molarity-mol_weight-numeric-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-solution-molarity-mol_weight-numeric-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-solution-molarity-mol_weight-numeric.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-solution-molarity-mol_weight-numeric-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-solution-molarity-mol_weight-numeric.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-solution-molarity-mol_weight-numeric-questions.txt" data-format="human_readable" data-filename="human_readable-solution-molarity-mol_weight-numeric.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -96,8 +82,10 @@ Students prepare solutions from solids or stock reagents by calculating grams ne
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-solution-molarity-mol_weight-numeric-questions.txt" data-bank-id="laboratory/topic02/index.md:bbq-solution-molarity-mol_weight-numeric-questions.txt">
   {% include "laboratory/topic02/downloads/selftest-solution-molarity-mol_weight-numeric.html" %}
 
+  </div>
 </details>
 
 
@@ -105,18 +93,12 @@ Students prepare solutions from solids or stock reagents by calculating grams ne
 
 <div id="solution-vol_vol-numeric-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-solution-vol_vol-numeric-questions.txt" download title="Download bbq-solution-vol_vol-numeric-questions.txt" aria-label="Click to download the BBQ Text file (bbq-solution-vol_vol-numeric-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-solution-vol_vol-numeric.zip" download title="Download blackboard_export_zip-solution-vol_vol-numeric.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-solution-vol_vol-numeric.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-solution-vol_vol-numeric.zip" download title="Download canvas_qti_v1_2-solution-vol_vol-numeric.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-solution-vol_vol-numeric.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-solution-vol_vol-numeric.html', '_blank')" title="View human_readable-solution-vol_vol-numeric.html" aria-label="Click to view the Human-Readable TXT file (human_readable-solution-vol_vol-numeric.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-solution-vol_vol-numeric-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-solution-vol_vol-numeric-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-solution-vol_vol-numeric.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-solution-vol_vol-numeric-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-solution-vol_vol-numeric.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-solution-vol_vol-numeric-questions.txt" data-format="human_readable" data-filename="human_readable-solution-vol_vol-numeric.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -129,8 +111,10 @@ Students prepare solutions from solids or stock reagents by calculating grams ne
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-solution-vol_vol-numeric-questions.txt" data-bank-id="laboratory/topic02/index.md:bbq-solution-vol_vol-numeric-questions.txt">
   {% include "laboratory/topic02/downloads/selftest-solution-vol_vol-numeric.html" %}
 
+  </div>
 </details>
 
 

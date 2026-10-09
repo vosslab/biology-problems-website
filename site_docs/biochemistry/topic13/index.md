@@ -8,21 +8,13 @@ Students analyze phospholipid bilayer structure, predict how composition affects
 
 <div id="TFMS-fluid_mosaic_model-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-TFMS-fluid_mosaic_model-questions.txt" download title="Download bbq-TFMS-fluid_mosaic_model-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-fluid_mosaic_model-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-fluid_mosaic_model.zip" download title="Download blackboard_export_zip-TFMS-fluid_mosaic_model.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-fluid_mosaic_model.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-fluid_mosaic_model.zip" download title="Download canvas_qti_v1_2-TFMS-fluid_mosaic_model.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-fluid_mosaic_model.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-fluid_mosaic_model.html', '_blank')" title="View human_readable-TFMS-fluid_mosaic_model.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-fluid_mosaic_model.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/fluid_mosaic_model.pg" download title="Download fluid_mosaic_model.pg" aria-label="Click to download the WeBWorK PGML file (fluid_mosaic_model.pg)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-TFMS-fluid_mosaic_model-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-TFMS-fluid_mosaic_model-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-fluid_mosaic_model.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-TFMS-fluid_mosaic_model-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-fluid_mosaic_model.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-TFMS-fluid_mosaic_model-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-fluid_mosaic_model.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/fluid_mosaic_model.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -35,8 +27,10 @@ Students analyze phospholipid bilayer structure, predict how composition affects
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-TFMS-fluid_mosaic_model-questions.txt" data-bank-id="biochemistry/topic13/index.md:bbq-TFMS-fluid_mosaic_model-questions.txt">
   {% include "biochemistry/topic13/downloads/selftest-TFMS-fluid_mosaic_model.html" %}
 
+  </div>
 </details>
 
 
@@ -44,21 +38,13 @@ Students analyze phospholipid bilayer structure, predict how composition affects
 
 <div id="TFMS-membrane_diffusion-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-TFMS-membrane_diffusion-questions.txt" download title="Download bbq-TFMS-membrane_diffusion-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-membrane_diffusion-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-membrane_diffusion.zip" download title="Download blackboard_export_zip-TFMS-membrane_diffusion.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-membrane_diffusion.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-membrane_diffusion.zip" download title="Download canvas_qti_v1_2-TFMS-membrane_diffusion.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-membrane_diffusion.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-membrane_diffusion.html', '_blank')" title="View human_readable-TFMS-membrane_diffusion.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-membrane_diffusion.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/membrane_diffusion.pg" download title="Download membrane_diffusion.pg" aria-label="Click to download the WeBWorK PGML file (membrane_diffusion.pg)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-TFMS-membrane_diffusion-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-TFMS-membrane_diffusion-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-membrane_diffusion.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-TFMS-membrane_diffusion-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-membrane_diffusion.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-TFMS-membrane_diffusion-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-membrane_diffusion.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/membrane_diffusion.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -71,8 +57,10 @@ Students analyze phospholipid bilayer structure, predict how composition affects
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-TFMS-membrane_diffusion-questions.txt" data-bank-id="biochemistry/topic13/index.md:bbq-TFMS-membrane_diffusion-questions.txt">
   {% include "biochemistry/topic13/downloads/selftest-TFMS-membrane_diffusion.html" %}
 
+  </div>
 </details>
 
 
@@ -80,21 +68,13 @@ Students analyze phospholipid bilayer structure, predict how composition affects
 
 <div id="TFMS-membrane_protein_functions-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-TFMS-membrane_protein_functions-questions.txt" download title="Download bbq-TFMS-membrane_protein_functions-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-membrane_protein_functions-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-membrane_protein_functions.zip" download title="Download blackboard_export_zip-TFMS-membrane_protein_functions.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-membrane_protein_functions.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-membrane_protein_functions.zip" download title="Download canvas_qti_v1_2-TFMS-membrane_protein_functions.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-membrane_protein_functions.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-membrane_protein_functions.html', '_blank')" title="View human_readable-TFMS-membrane_protein_functions.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-membrane_protein_functions.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/membrane_protein_functions.pg" download title="Download membrane_protein_functions.pg" aria-label="Click to download the WeBWorK PGML file (membrane_protein_functions.pg)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-TFMS-membrane_protein_functions-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-TFMS-membrane_protein_functions-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-membrane_protein_functions.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-TFMS-membrane_protein_functions-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-membrane_protein_functions.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-TFMS-membrane_protein_functions-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-membrane_protein_functions.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/membrane_protein_functions.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -107,8 +87,10 @@ Students analyze phospholipid bilayer structure, predict how composition affects
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-TFMS-membrane_protein_functions-questions.txt" data-bank-id="biochemistry/topic13/index.md:bbq-TFMS-membrane_protein_functions-questions.txt">
   {% include "biochemistry/topic13/downloads/selftest-TFMS-membrane_protein_functions.html" %}
 
+  </div>
 </details>
 
 

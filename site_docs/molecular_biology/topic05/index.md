@@ -6,18 +6,12 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 
 <div id="RT-qPCR-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-RT-qPCR-questions.txt" download title="Download bbq-RT-qPCR-questions.txt" aria-label="Click to download the BBQ Text file (bbq-RT-qPCR-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-RT-qPCR.zip" download title="Download blackboard_export_zip-RT-qPCR.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-RT-qPCR.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-RT-qPCR.zip" download title="Download canvas_qti_v1_2-RT-qPCR.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-RT-qPCR.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-RT-qPCR.html', '_blank')" title="View human_readable-RT-qPCR.html" aria-label="Click to view the Human-Readable TXT file (human_readable-RT-qPCR.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-RT-qPCR-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-RT-qPCR-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-RT-qPCR.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-RT-qPCR-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-RT-qPCR.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-RT-qPCR-questions.txt" data-format="human_readable" data-filename="human_readable-RT-qPCR.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -30,8 +24,10 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-RT-qPCR-questions.txt" data-bank-id="molecular_biology/topic05/index.md:bbq-RT-qPCR-questions.txt">
   {% include "molecular_biology/topic05/downloads/selftest-RT-qPCR.html" %}
 
+  </div>
 </details>
 
 
@@ -39,21 +35,13 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 
 <div id="TFMS-long_run_pcr-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-TFMS-long_run_pcr-questions.txt" download title="Download bbq-TFMS-long_run_pcr-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-long_run_pcr-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-long_run_pcr.zip" download title="Download blackboard_export_zip-TFMS-long_run_pcr.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-long_run_pcr.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-long_run_pcr.zip" download title="Download canvas_qti_v1_2-TFMS-long_run_pcr.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-long_run_pcr.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-long_run_pcr.html', '_blank')" title="View human_readable-TFMS-long_run_pcr.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-long_run_pcr.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/long_run_pcr.pg" download title="Download long_run_pcr.pg" aria-label="Click to download the WeBWorK PGML file (long_run_pcr.pg)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-TFMS-long_run_pcr-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-TFMS-long_run_pcr-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-long_run_pcr.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-TFMS-long_run_pcr-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-long_run_pcr.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-TFMS-long_run_pcr-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-long_run_pcr.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/long_run_pcr.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -66,8 +54,10 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-TFMS-long_run_pcr-questions.txt" data-bank-id="molecular_biology/topic05/index.md:bbq-TFMS-long_run_pcr-questions.txt">
   {% include "molecular_biology/topic05/downloads/selftest-TFMS-long_run_pcr.html" %}
 
+  </div>
 </details>
 
 
@@ -75,21 +65,13 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 
 <div id="TFMS-pcr_components-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-TFMS-pcr_components-questions.txt" download title="Download bbq-TFMS-pcr_components-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-pcr_components-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-pcr_components.zip" download title="Download blackboard_export_zip-TFMS-pcr_components.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-pcr_components.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-pcr_components.zip" download title="Download canvas_qti_v1_2-TFMS-pcr_components.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-pcr_components.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-pcr_components.html', '_blank')" title="View human_readable-TFMS-pcr_components.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-pcr_components.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/pcr_components.pg" download title="Download pcr_components.pg" aria-label="Click to download the WeBWorK PGML file (pcr_components.pg)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-TFMS-pcr_components-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-TFMS-pcr_components-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-pcr_components.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-TFMS-pcr_components-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-pcr_components.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-TFMS-pcr_components-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-pcr_components.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/pcr_components.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -102,8 +84,10 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-TFMS-pcr_components-questions.txt" data-bank-id="molecular_biology/topic05/index.md:bbq-TFMS-pcr_components-questions.txt">
   {% include "molecular_biology/topic05/downloads/selftest-TFMS-pcr_components.html" %}
 
+  </div>
 </details>
 
 
@@ -111,21 +95,13 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 
 <div id="TFMS-pcr_primers-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-TFMS-pcr_primers-questions.txt" download title="Download bbq-TFMS-pcr_primers-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-pcr_primers-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-pcr_primers.zip" download title="Download blackboard_export_zip-TFMS-pcr_primers.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-pcr_primers.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-pcr_primers.zip" download title="Download canvas_qti_v1_2-TFMS-pcr_primers.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-pcr_primers.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-pcr_primers.html', '_blank')" title="View human_readable-TFMS-pcr_primers.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-pcr_primers.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/pcr_primers.pg" download title="Download pcr_primers.pg" aria-label="Click to download the WeBWorK PGML file (pcr_primers.pg)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-TFMS-pcr_primers-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-TFMS-pcr_primers-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-pcr_primers.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-TFMS-pcr_primers-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-pcr_primers.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-TFMS-pcr_primers-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-pcr_primers.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/pcr_primers.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -138,8 +114,10 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-TFMS-pcr_primers-questions.txt" data-bank-id="molecular_biology/topic05/index.md:bbq-TFMS-pcr_primers-questions.txt">
   {% include "molecular_biology/topic05/downloads/selftest-TFMS-pcr_primers.html" %}
 
+  </div>
 </details>
 
 
@@ -147,21 +125,13 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 
 <div id="TFMS-pcr_step_order-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-TFMS-pcr_step_order-questions.txt" download title="Download bbq-TFMS-pcr_step_order-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-pcr_step_order-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-pcr_step_order.zip" download title="Download blackboard_export_zip-TFMS-pcr_step_order.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-pcr_step_order.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-pcr_step_order.zip" download title="Download canvas_qti_v1_2-TFMS-pcr_step_order.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-pcr_step_order.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-pcr_step_order.html', '_blank')" title="View human_readable-TFMS-pcr_step_order.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-pcr_step_order.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/pcr_step_order.pg" download title="Download pcr_step_order.pg" aria-label="Click to download the WeBWorK PGML file (pcr_step_order.pg)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-TFMS-pcr_step_order-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-TFMS-pcr_step_order-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-pcr_step_order.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-TFMS-pcr_step_order-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-pcr_step_order.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-TFMS-pcr_step_order-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-pcr_step_order.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/pcr_step_order.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -174,8 +144,10 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-TFMS-pcr_step_order-questions.txt" data-bank-id="molecular_biology/topic05/index.md:bbq-TFMS-pcr_step_order-questions.txt">
   {% include "molecular_biology/topic05/downloads/selftest-TFMS-pcr_step_order.html" %}
 
+  </div>
 </details>
 
 
@@ -183,18 +155,12 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 
 <div id="consensus_sequence_FIB-arbitrary_code-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" download title="Download bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" aria-label="Click to download the BBQ Text file (bbq-consensus_sequence_FIB-arbitrary_code-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-consensus_sequence_FIB-arbitrary_code.zip" download title="Download blackboard_export_zip-consensus_sequence_FIB-arbitrary_code.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-consensus_sequence_FIB-arbitrary_code.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-consensus_sequence_FIB-arbitrary_code.zip" download title="Download canvas_qti_v1_2-consensus_sequence_FIB-arbitrary_code.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-consensus_sequence_FIB-arbitrary_code.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-consensus_sequence_FIB-arbitrary_code.html', '_blank')" title="View human_readable-consensus_sequence_FIB-arbitrary_code.html" aria-label="Click to view the Human-Readable TXT file (human_readable-consensus_sequence_FIB-arbitrary_code.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-consensus_sequence_FIB-arbitrary_code.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-consensus_sequence_FIB-arbitrary_code.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" data-format="human_readable" data-filename="human_readable-consensus_sequence_FIB-arbitrary_code.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -207,8 +173,10 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" data-bank-id="molecular_biology/topic05/index.md:bbq-consensus_sequence_FIB-arbitrary_code-questions.txt">
   {% include "molecular_biology/topic05/downloads/selftest-consensus_sequence_FIB-arbitrary_code.html" %}
 
+  </div>
 </details>
 
 
@@ -216,18 +184,12 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 
 <div id="consensus_sequence_FIB-easy-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-easy-questions.txt" download title="Download bbq-consensus_sequence_FIB-easy-questions.txt" aria-label="Click to download the BBQ Text file (bbq-consensus_sequence_FIB-easy-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-consensus_sequence_FIB-easy.zip" download title="Download blackboard_export_zip-consensus_sequence_FIB-easy.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-consensus_sequence_FIB-easy.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-consensus_sequence_FIB-easy.zip" download title="Download canvas_qti_v1_2-consensus_sequence_FIB-easy.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-consensus_sequence_FIB-easy.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-consensus_sequence_FIB-easy.html', '_blank')" title="View human_readable-consensus_sequence_FIB-easy.html" aria-label="Click to view the Human-Readable TXT file (human_readable-consensus_sequence_FIB-easy.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-easy-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-consensus_sequence_FIB-easy-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-consensus_sequence_FIB-easy.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-consensus_sequence_FIB-easy-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-consensus_sequence_FIB-easy.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-consensus_sequence_FIB-easy-questions.txt" data-format="human_readable" data-filename="human_readable-consensus_sequence_FIB-easy.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -240,8 +202,10 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-consensus_sequence_FIB-easy-questions.txt" data-bank-id="molecular_biology/topic05/index.md:bbq-consensus_sequence_FIB-easy-questions.txt">
   {% include "molecular_biology/topic05/downloads/selftest-consensus_sequence_FIB-easy.html" %}
 
+  </div>
 </details>
 
 
@@ -249,18 +213,12 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 
 <div id="consensus_sequence_FIB-hard-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-hard-questions.txt" download title="Download bbq-consensus_sequence_FIB-hard-questions.txt" aria-label="Click to download the BBQ Text file (bbq-consensus_sequence_FIB-hard-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-consensus_sequence_FIB-hard.zip" download title="Download blackboard_export_zip-consensus_sequence_FIB-hard.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-consensus_sequence_FIB-hard.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-consensus_sequence_FIB-hard.zip" download title="Download canvas_qti_v1_2-consensus_sequence_FIB-hard.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-consensus_sequence_FIB-hard.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-consensus_sequence_FIB-hard.html', '_blank')" title="View human_readable-consensus_sequence_FIB-hard.html" aria-label="Click to view the Human-Readable TXT file (human_readable-consensus_sequence_FIB-hard.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-consensus_sequence_FIB-hard-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-consensus_sequence_FIB-hard-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-consensus_sequence_FIB-hard.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-consensus_sequence_FIB-hard-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-consensus_sequence_FIB-hard.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-consensus_sequence_FIB-hard-questions.txt" data-format="human_readable" data-filename="human_readable-consensus_sequence_FIB-hard.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -273,8 +231,10 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-consensus_sequence_FIB-hard-questions.txt" data-bank-id="molecular_biology/topic05/index.md:bbq-consensus_sequence_FIB-hard-questions.txt">
   {% include "molecular_biology/topic05/downloads/selftest-consensus_sequence_FIB-hard.html" %}
 
+  </div>
 </details>
 
 
@@ -282,18 +242,12 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 
 <div id="consensus_sequence_MC-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-consensus_sequence_MC-questions.txt" download title="Download bbq-consensus_sequence_MC-questions.txt" aria-label="Click to download the BBQ Text file (bbq-consensus_sequence_MC-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-consensus_sequence_MC.zip" download title="Download blackboard_export_zip-consensus_sequence_MC.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-consensus_sequence_MC.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-consensus_sequence_MC.zip" download title="Download canvas_qti_v1_2-consensus_sequence_MC.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-consensus_sequence_MC.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-consensus_sequence_MC.html', '_blank')" title="View human_readable-consensus_sequence_MC.html" aria-label="Click to view the Human-Readable TXT file (human_readable-consensus_sequence_MC.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-consensus_sequence_MC-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-consensus_sequence_MC-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-consensus_sequence_MC.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-consensus_sequence_MC-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-consensus_sequence_MC.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-consensus_sequence_MC-questions.txt" data-format="human_readable" data-filename="human_readable-consensus_sequence_MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -306,8 +260,10 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-consensus_sequence_MC-questions.txt" data-bank-id="molecular_biology/topic05/index.md:bbq-consensus_sequence_MC-questions.txt">
   {% include "molecular_biology/topic05/downloads/selftest-consensus_sequence_MC.html" %}
 
+  </div>
 </details>
 
 

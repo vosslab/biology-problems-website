@@ -20,6 +20,7 @@ function makeLocalStorage() {
 function loadProgress(resultElement) {
 	const localStorage = makeLocalStorage();
 	const context = {
+		URL,
 		window: {
 			localStorage,
 			location: { pathname: '/biology/topic01/' },
@@ -35,6 +36,7 @@ function loadProgress(resultElement) {
 			},
 		},
 		document: {
+			currentScript: { src: 'https://example.org/assets/scripts/selftest_progress.js' },
 			readyState: 'loading',
 			body: {
 				appendChild() {},
@@ -66,7 +68,7 @@ function loadProgress(resultElement) {
 	vm.createContext(context);
 	const source = fs.readFileSync('site_docs/assets/scripts/selftest_progress.js', 'utf8');
 	vm.runInContext(source, context);
-	return { api: context.module.exports, window: context.window };
+	return { api: context.module.exports, window: context.window, document: context.document };
 }
 
 {
@@ -99,6 +101,31 @@ function loadProgress(resultElement) {
 	api._test.wrapAnswerChecks(rows, manifest);
 	window.checkAnswer_aaaa_0001();
 	assert.equal(api.isCompleted('aaaa_0001'), false);
+}
+
+// Completing an unchanged question uses the current variant in another slot.
+{
+	const { api, window, document } = loadProgress({ textContent: 'CORRECT' });
+	const original = { questionId: 'bbbb_0002', crc: 'bbbb_0002', bankId: 'bank-b',
+		pagePath: 'biology/topic01/index.md', topicKey: 'topic01' };
+	const unchanged = { questionId: 'aaaa_0001', crc: 'aaaa_0001', bankId: 'bank-a',
+		pagePath: original.pagePath, topicKey: original.topicKey };
+	const manifest = { questions: [original, unchanged] };
+	let displayed = 'bbbb_0002';
+	document.querySelectorAll = () => [{ dataset: { bankId: 'bank-b' },
+		querySelector: () => ({ id: 'question_html_' + displayed }) }];
+	const count = { textContent: '' };
+	document.querySelector = (selector) => selector === '[data-selftest-topic-count]' ? count : null;
+	api.markCompleted('bbbb_0002');
+	api._test.wrapAnswerChecks([unchanged], manifest);
+	displayed = 'cccc_0003';
+	window.checkAnswer_aaaa_0001();
+	assert.equal(count.textContent, '1 / 2 completed');
+	assert.equal(api.isCompleted('cccc_0003'), false);
+	displayed = 'bbbb_0002';
+	window.checkAnswer_aaaa_0001();
+	assert.equal(count.textContent, '2 / 2 completed');
+	assert.equal(manifest.questions[0].questionId, 'bbbb_0002');
 }
 
 console.log('selftest_progress_dom_test.mjs passed');

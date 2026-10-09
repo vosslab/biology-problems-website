@@ -138,70 +138,16 @@ def _run_task_row_artifact_stages(
 				"stage_skipped", phase="selftests", detail="up to date", **row_details,
 			)
 	stage_seconds["selftests"] += time.perf_counter() - stage_start
-	# Publish a page only after its linked converter outputs are ready.
+	# Export packages are generated on demand in the browser.
 	if progress:
 		progress.check_cancelled()
-	stage_start = time.perf_counter()
-	downloads_required = build_stages.downloads_need_run(
-		topic_ref, scope, changes, source_paths,
-	)
-	if progress and downloads_required:
-		progress.check_cancelled()
-	if downloads_required:
-		if progress:
-			progress.emit("stage_started", phase="downloads", **row_details)
-		try:
-			if progress:
-				outputs = build_stages.run_downloads(
-					topic_ref, scope, source_paths, progress,
-				)
-			else:
-				outputs = build_stages.run_downloads(topic_ref, scope, source_paths)
-			stage_files.setdefault("downloads", set()).update(
-				outputs
-			)
-		except BuildCancelledError:
-			raise
-		except Exception as error:
-			if progress:
-				progress.emit(
-					"stage_failed",
-					phase="downloads",
-					duration=time.perf_counter() - stage_start,
-					detail=str(error),
-					**row_details,
-				)
-			raise
-		if progress:
-			download_count, download_total = build_stages.count_downloads(
-				source_paths,
-				task_result.expected_pgml_files,
-			)
-			progress.emit(
-				"stage_completed",
-				phase="downloads",
-				duration=time.perf_counter() - stage_start,
-				executed=not scope.dry_run,
-				planned=scope.dry_run,
-				download_count=download_count,
-				download_total=download_total,
-				**row_details,
-			)
-	else:
-		if progress:
-			download_count, download_total = build_stages.count_downloads(
-				source_paths,
-				task_result.expected_pgml_files,
-			)
-			progress.emit(
-				"stage_skipped",
-				phase="downloads",
-				detail="up to date",
-				download_count=download_count,
-				download_total=download_total,
-				**row_details,
-			)
-	stage_seconds["downloads"] += time.perf_counter() - stage_start
+		download_count, download_total = build_stages.count_downloads(
+			source_paths, task_result.expected_pgml_files,
+		)
+		progress.emit(
+			"stage_skipped", phase="downloads", detail="generated in browser",
+			download_count=download_count, download_total=download_total, **row_details,
+		)
 
 
 #============================================

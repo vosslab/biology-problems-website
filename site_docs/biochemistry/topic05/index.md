@@ -8,21 +8,13 @@ Students choose purification methods for proteins based on size, charge, and bin
 
 <div id="MATCH-cell_disruption-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-MATCH-cell_disruption-questions.txt" download title="Download bbq-MATCH-cell_disruption-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-cell_disruption-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-cell_disruption.zip" download title="Download blackboard_export_zip-MATCH-cell_disruption.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-cell_disruption.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-cell_disruption.zip" download title="Download canvas_qti_v1_2-MATCH-cell_disruption.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-cell_disruption.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-cell_disruption.html', '_blank')" title="View human_readable-MATCH-cell_disruption.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-cell_disruption.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/cell_disruption-matching.pgml" download title="Download cell_disruption-matching.pgml" aria-label="Click to download the WeBWorK PGML file (cell_disruption-matching.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-MATCH-cell_disruption-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-MATCH-cell_disruption-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-cell_disruption.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-MATCH-cell_disruption-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-cell_disruption.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-MATCH-cell_disruption-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-cell_disruption.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/cell_disruption-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -35,8 +27,10 @@ Students choose purification methods for proteins based on size, charge, and bin
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-MATCH-cell_disruption-questions.txt" data-bank-id="biochemistry/topic05/index.md:bbq-MATCH-cell_disruption-questions.txt">
   {% include "biochemistry/topic05/downloads/selftest-MATCH-cell_disruption.html" %}
 
+  </div>
 </details>
 
 
@@ -44,21 +38,13 @@ Students choose purification methods for proteins based on size, charge, and bin
 
 <div id="MATCH-column_chromatography-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-MATCH-column_chromatography-questions.txt" download title="Download bbq-MATCH-column_chromatography-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-column_chromatography-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-column_chromatography.zip" download title="Download blackboard_export_zip-MATCH-column_chromatography.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-column_chromatography.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-column_chromatography.zip" download title="Download canvas_qti_v1_2-MATCH-column_chromatography.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-column_chromatography.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-column_chromatography.html', '_blank')" title="View human_readable-MATCH-column_chromatography.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-column_chromatography.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/column_chromatography-matching.pgml" download title="Download column_chromatography-matching.pgml" aria-label="Click to download the WeBWorK PGML file (column_chromatography-matching.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-MATCH-column_chromatography-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-MATCH-column_chromatography-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-column_chromatography.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-MATCH-column_chromatography-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-column_chromatography.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-MATCH-column_chromatography-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-column_chromatography.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/column_chromatography-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -71,8 +57,10 @@ Students choose purification methods for proteins based on size, charge, and bin
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-MATCH-column_chromatography-questions.txt" data-bank-id="biochemistry/topic05/index.md:bbq-MATCH-column_chromatography-questions.txt">
   {% include "biochemistry/topic05/downloads/selftest-MATCH-column_chromatography.html" %}
 
+  </div>
 </details>
 
 
@@ -80,21 +68,13 @@ Students choose purification methods for proteins based on size, charge, and bin
 
 <div id="MATCH-protein_v_dna_gels-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-MATCH-protein_v_dna_gels-questions.txt" download title="Download bbq-MATCH-protein_v_dna_gels-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-protein_v_dna_gels-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-protein_v_dna_gels.zip" download title="Download blackboard_export_zip-MATCH-protein_v_dna_gels.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-protein_v_dna_gels.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-protein_v_dna_gels.zip" download title="Download canvas_qti_v1_2-MATCH-protein_v_dna_gels.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-protein_v_dna_gels.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-protein_v_dna_gels.html', '_blank')" title="View human_readable-MATCH-protein_v_dna_gels.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-protein_v_dna_gels.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/protein_v_dna_gels-matching.pgml" download title="Download protein_v_dna_gels-matching.pgml" aria-label="Click to download the WeBWorK PGML file (protein_v_dna_gels-matching.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-MATCH-protein_v_dna_gels-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-MATCH-protein_v_dna_gels-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-protein_v_dna_gels.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-MATCH-protein_v_dna_gels-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-protein_v_dna_gels.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-MATCH-protein_v_dna_gels-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-protein_v_dna_gels.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/protein_v_dna_gels-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -107,8 +87,10 @@ Students choose purification methods for proteins based on size, charge, and bin
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-MATCH-protein_v_dna_gels-questions.txt" data-bank-id="biochemistry/topic05/index.md:bbq-MATCH-protein_v_dna_gels-questions.txt">
   {% include "biochemistry/topic05/downloads/selftest-MATCH-protein_v_dna_gels.html" %}
 
+  </div>
 </details>
 
 
@@ -116,21 +98,13 @@ Students choose purification methods for proteins based on size, charge, and bin
 
 <div id="WOMC-cell_disruption-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-WOMC-cell_disruption-questions.txt" download title="Download bbq-WOMC-cell_disruption-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-cell_disruption-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-cell_disruption.zip" download title="Download blackboard_export_zip-WOMC-cell_disruption.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-cell_disruption.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-cell_disruption.zip" download title="Download canvas_qti_v1_2-WOMC-cell_disruption.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-cell_disruption.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-cell_disruption.html', '_blank')" title="View human_readable-WOMC-cell_disruption.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-cell_disruption.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/cell_disruption-which_one.pgml" download title="Download cell_disruption-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (cell_disruption-which_one.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-WOMC-cell_disruption-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-WOMC-cell_disruption-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-cell_disruption.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-WOMC-cell_disruption-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-cell_disruption.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-WOMC-cell_disruption-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-cell_disruption.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/cell_disruption-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -143,8 +117,10 @@ Students choose purification methods for proteins based on size, charge, and bin
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-WOMC-cell_disruption-questions.txt" data-bank-id="biochemistry/topic05/index.md:bbq-WOMC-cell_disruption-questions.txt">
   {% include "biochemistry/topic05/downloads/selftest-WOMC-cell_disruption.html" %}
 
+  </div>
 </details>
 
 
@@ -152,21 +128,13 @@ Students choose purification methods for proteins based on size, charge, and bin
 
 <div id="WOMC-column_chromatography-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-WOMC-column_chromatography-questions.txt" download title="Download bbq-WOMC-column_chromatography-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-column_chromatography-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-column_chromatography.zip" download title="Download blackboard_export_zip-WOMC-column_chromatography.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-column_chromatography.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-column_chromatography.zip" download title="Download canvas_qti_v1_2-WOMC-column_chromatography.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-column_chromatography.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-column_chromatography.html', '_blank')" title="View human_readable-WOMC-column_chromatography.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-column_chromatography.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/column_chromatography-which_one.pgml" download title="Download column_chromatography-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (column_chromatography-which_one.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-WOMC-column_chromatography-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-WOMC-column_chromatography-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-column_chromatography.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-WOMC-column_chromatography-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-column_chromatography.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-WOMC-column_chromatography-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-column_chromatography.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/column_chromatography-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -179,8 +147,10 @@ Students choose purification methods for proteins based on size, charge, and bin
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-WOMC-column_chromatography-questions.txt" data-bank-id="biochemistry/topic05/index.md:bbq-WOMC-column_chromatography-questions.txt">
   {% include "biochemistry/topic05/downloads/selftest-WOMC-column_chromatography.html" %}
 
+  </div>
 </details>
 
 
@@ -188,21 +158,13 @@ Students choose purification methods for proteins based on size, charge, and bin
 
 <div id="WOMC-protein_v_dna_gels-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-WOMC-protein_v_dna_gels-questions.txt" download title="Download bbq-WOMC-protein_v_dna_gels-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-protein_v_dna_gels-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-protein_v_dna_gels.zip" download title="Download blackboard_export_zip-WOMC-protein_v_dna_gels.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-protein_v_dna_gels.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-protein_v_dna_gels.zip" download title="Download canvas_qti_v1_2-WOMC-protein_v_dna_gels.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-protein_v_dna_gels.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-protein_v_dna_gels.html', '_blank')" title="View human_readable-WOMC-protein_v_dna_gels.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-protein_v_dna_gels.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/protein_v_dna_gels-which_one.pgml" download title="Download protein_v_dna_gels-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (protein_v_dna_gels-which_one.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-WOMC-protein_v_dna_gels-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-WOMC-protein_v_dna_gels-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-protein_v_dna_gels.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-WOMC-protein_v_dna_gels-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-protein_v_dna_gels.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-WOMC-protein_v_dna_gels-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-protein_v_dna_gels.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/protein_v_dna_gels-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -215,8 +177,10 @@ Students choose purification methods for proteins based on size, charge, and bin
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-WOMC-protein_v_dna_gels-questions.txt" data-bank-id="biochemistry/topic05/index.md:bbq-WOMC-protein_v_dna_gels-questions.txt">
   {% include "biochemistry/topic05/downloads/selftest-WOMC-protein_v_dna_gels.html" %}
 
+  </div>
 </details>
 
 
@@ -224,21 +188,13 @@ Students choose purification methods for proteins based on size, charge, and bin
 
 <div id="isoelectric_one_protein-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-isoelectric_one_protein-questions.txt" download title="Download bbq-isoelectric_one_protein-questions.txt" aria-label="Click to download the BBQ Text file (bbq-isoelectric_one_protein-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-isoelectric_one_protein.zip" download title="Download blackboard_export_zip-isoelectric_one_protein.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-isoelectric_one_protein.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-isoelectric_one_protein.zip" download title="Download canvas_qti_v1_2-isoelectric_one_protein.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-isoelectric_one_protein.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-isoelectric_one_protein.html', '_blank')" title="View human_readable-isoelectric_one_protein.html" aria-label="Click to view the Human-Readable TXT file (human_readable-isoelectric_one_protein.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/isoelectric_one_protein.pgml" download title="Download isoelectric_one_protein.pgml" aria-label="Click to download the WeBWorK PGML file (isoelectric_one_protein.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-isoelectric_one_protein-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-isoelectric_one_protein-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-isoelectric_one_protein.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-isoelectric_one_protein-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-isoelectric_one_protein.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-isoelectric_one_protein-questions.txt" data-format="human_readable" data-filename="human_readable-isoelectric_one_protein.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/isoelectric_one_protein.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -251,8 +207,10 @@ Students choose purification methods for proteins based on size, charge, and bin
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-isoelectric_one_protein-questions.txt" data-bank-id="biochemistry/topic05/index.md:bbq-isoelectric_one_protein-questions.txt">
   {% include "biochemistry/topic05/downloads/selftest-isoelectric_one_protein.html" %}
 
+  </div>
 </details>
 
 
@@ -260,21 +218,13 @@ Students choose purification methods for proteins based on size, charge, and bin
 
 <div id="isoelectric_two_proteins-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-isoelectric_two_proteins-questions.txt" download title="Download bbq-isoelectric_two_proteins-questions.txt" aria-label="Click to download the BBQ Text file (bbq-isoelectric_two_proteins-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-isoelectric_two_proteins.zip" download title="Download blackboard_export_zip-isoelectric_two_proteins.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-isoelectric_two_proteins.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-isoelectric_two_proteins.zip" download title="Download canvas_qti_v1_2-isoelectric_two_proteins.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-isoelectric_two_proteins.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-isoelectric_two_proteins.html', '_blank')" title="View human_readable-isoelectric_two_proteins.html" aria-label="Click to view the Human-Readable TXT file (human_readable-isoelectric_two_proteins.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/isoelectric_two_proteins.pgml" download title="Download isoelectric_two_proteins.pgml" aria-label="Click to download the WeBWorK PGML file (isoelectric_two_proteins.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-isoelectric_two_proteins-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-isoelectric_two_proteins-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-isoelectric_two_proteins.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-isoelectric_two_proteins-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-isoelectric_two_proteins.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-isoelectric_two_proteins-questions.txt" data-format="human_readable" data-filename="human_readable-isoelectric_two_proteins.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/isoelectric_two_proteins.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -287,8 +237,10 @@ Students choose purification methods for proteins based on size, charge, and bin
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-isoelectric_two_proteins-questions.txt" data-bank-id="biochemistry/topic05/index.md:bbq-isoelectric_two_proteins-questions.txt">
   {% include "biochemistry/topic05/downloads/selftest-isoelectric_two_proteins.html" %}
 
+  </div>
 </details>
 
 
@@ -296,21 +248,13 @@ Students choose purification methods for proteins based on size, charge, and bin
 
 <div id="kaleidoscope_ladder_unknown_band-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-kaleidoscope_ladder_unknown_band-questions.txt" download title="Download bbq-kaleidoscope_ladder_unknown_band-questions.txt" aria-label="Click to download the BBQ Text file (bbq-kaleidoscope_ladder_unknown_band-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-kaleidoscope_ladder_unknown_band.zip" download title="Download blackboard_export_zip-kaleidoscope_ladder_unknown_band.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-kaleidoscope_ladder_unknown_band.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-kaleidoscope_ladder_unknown_band.zip" download title="Download canvas_qti_v1_2-kaleidoscope_ladder_unknown_band.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-kaleidoscope_ladder_unknown_band.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-kaleidoscope_ladder_unknown_band.html', '_blank')" title="View human_readable-kaleidoscope_ladder_unknown_band.html" aria-label="Click to view the Human-Readable TXT file (human_readable-kaleidoscope_ladder_unknown_band.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/kaleidoscope_ladder_unknown_band.pgml" download title="Download kaleidoscope_ladder_unknown_band.pgml" aria-label="Click to download the WeBWorK PGML file (kaleidoscope_ladder_unknown_band.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-kaleidoscope_ladder_unknown_band-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-kaleidoscope_ladder_unknown_band-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-kaleidoscope_ladder_unknown_band.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-kaleidoscope_ladder_unknown_band-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-kaleidoscope_ladder_unknown_band.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-kaleidoscope_ladder_unknown_band-questions.txt" data-format="human_readable" data-filename="human_readable-kaleidoscope_ladder_unknown_band.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/kaleidoscope_ladder_unknown_band.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -323,8 +267,10 @@ Students choose purification methods for proteins based on size, charge, and bin
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-kaleidoscope_ladder_unknown_band-questions.txt" data-bank-id="biochemistry/topic05/index.md:bbq-kaleidoscope_ladder_unknown_band-questions.txt">
   {% include "biochemistry/topic05/downloads/selftest-kaleidoscope_ladder_unknown_band.html" %}
 
+  </div>
 </details>
 
 
@@ -332,21 +278,13 @@ Students choose purification methods for proteins based on size, charge, and bin
 
 <div id="protein_gel_migration-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-protein_gel_migration-questions.txt" download title="Download bbq-protein_gel_migration-questions.txt" aria-label="Click to download the BBQ Text file (bbq-protein_gel_migration-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-protein_gel_migration.zip" download title="Download blackboard_export_zip-protein_gel_migration.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-protein_gel_migration.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-protein_gel_migration.zip" download title="Download canvas_qti_v1_2-protein_gel_migration.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-protein_gel_migration.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-protein_gel_migration.html', '_blank')" title="View human_readable-protein_gel_migration.html" aria-label="Click to view the Human-Readable TXT file (human_readable-protein_gel_migration.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/protein_gel_migration.pgml" download title="Download protein_gel_migration.pgml" aria-label="Click to download the WeBWorK PGML file (protein_gel_migration.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-protein_gel_migration-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-protein_gel_migration-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-protein_gel_migration.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-protein_gel_migration-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-protein_gel_migration.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-protein_gel_migration-questions.txt" data-format="human_readable" data-filename="human_readable-protein_gel_migration.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/protein_gel_migration.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -359,8 +297,10 @@ Students choose purification methods for proteins based on size, charge, and bin
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-protein_gel_migration-questions.txt" data-bank-id="biochemistry/topic05/index.md:bbq-protein_gel_migration-questions.txt">
   {% include "biochemistry/topic05/downloads/selftest-protein_gel_migration.html" %}
 
+  </div>
 </details>
 
 
@@ -368,21 +308,13 @@ Students choose purification methods for proteins based on size, charge, and bin
 
 <div id="titration_pI-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-titration_pI-questions.txt" download title="Download bbq-titration_pI-questions.txt" aria-label="Click to download the BBQ Text file (bbq-titration_pI-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-titration_pI.zip" download title="Download blackboard_export_zip-titration_pI.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-titration_pI.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-titration_pI.zip" download title="Download canvas_qti_v1_2-titration_pI.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-titration_pI.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-titration_pI.html', '_blank')" title="View human_readable-titration_pI.html" aria-label="Click to view the Human-Readable TXT file (human_readable-titration_pI.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/titration_pI.pgml" download title="Download titration_pI.pgml" aria-label="Click to download the WeBWorK PGML file (titration_pI.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-titration_pI-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-titration_pI-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-titration_pI.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-titration_pI-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-titration_pI.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-titration_pI-questions.txt" data-format="human_readable" data-filename="human_readable-titration_pI.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/titration_pI.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -395,8 +327,10 @@ Students choose purification methods for proteins based on size, charge, and bin
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-titration_pI-questions.txt" data-bank-id="biochemistry/topic05/index.md:bbq-titration_pI-questions.txt">
   {% include "biochemistry/topic05/downloads/selftest-titration_pI.html" %}
 
+  </div>
 </details>
 
 

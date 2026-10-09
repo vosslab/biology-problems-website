@@ -26,8 +26,11 @@ DEFAULT_OUTPUT_PATH = os.path.join(
 
 TOPIC_PAGE_RE = re.compile(r"^([a-z_]+)/((?:topic)\d{2})/index\.md$")
 INCLUDE_RE = re.compile(r'{%\s*include\s+"([^"]*selftest[^"]*\.html)"\s*%}')
+# Consume quoted attributes whole so their values cannot masquerade as an id.
+DIV_ID_PREFIX = r"<div\b(?:[^>\"']|\"[^\"]*\"|'[^']*')*?\s+id\s*=\s*([\"'])"
+DIV_ID_SUFFIX = r"(?=\s|/?>)(?:[^>\"']|\"[^\"]*\"|'[^']*')*>"
 QUESTION_DIV_RE = re.compile(
-	r"<div\s+id=[\"']question_html_([0-9a-f]{4}_[0-9a-f]{4})[\"']",
+	DIV_ID_PREFIX + r"question_html_([0-9a-f]{4}_[0-9a-f]{4})\1" + DIV_ID_SUFFIX,
 	re.IGNORECASE,
 )
 
@@ -73,14 +76,14 @@ def _extract_include_paths(page_text: str) -> list:
 def _statement_fingerprint(html_text: str, crc: str) -> str:
 	"""Return a stable fingerprint for the question statement."""
 	pattern = re.compile(
-		rf"<div\s+id=[\"']statement_text_{re.escape(crc)}[\"'][^>]*>"
+		DIV_ID_PREFIX + rf"statement_text_{re.escape(crc)}\1" + DIV_ID_SUFFIX +
 		r"(.*?)"
 		r"</div>",
 		re.IGNORECASE | re.DOTALL,
 	)
 	match = pattern.search(html_text)
 	if match:
-		payload = match.group(1)
+		payload = match.group(2)
 	else:
 		payload = html_text
 	normalized = re.sub(r"\s+", " ", payload).strip()
@@ -133,13 +136,14 @@ def build_manifest(
 				raise FileNotFoundError(git_paths.display_path(full_selftest_path))
 			with open(full_selftest_path, "r", encoding="iso8859-1") as file_pointer:
 				selftest_html = file_pointer.read()
-			crcs = QUESTION_DIV_RE.findall(selftest_html)
+			crcs = [match.group(2) for match in QUESTION_DIV_RE.finditer(selftest_html)]
 			if not crcs:
 				raise ValueError(f"No question_html_<crc> div in {include_path}")
 			for crc in crcs:
 				fingerprint = _statement_fingerprint(selftest_html, crc)
 				row = {
 					"questionId": crc,
+					"bankId": f"{page_path}:bbq-{os.path.basename(include_path)[9:-5]}-questions.txt",
 					"crc": crc,
 					"subjectKey": subject_key,
 					"topicKey": topic_key,

@@ -8,21 +8,13 @@ Students determine Vmax and Km from substrate concentration data, interpret Mich
 
 <div id="TFMS-m-m_kinetics-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-TFMS-m-m_kinetics-questions.txt" download title="Download bbq-TFMS-m-m_kinetics-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-m-m_kinetics-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-m-m_kinetics.zip" download title="Download blackboard_export_zip-TFMS-m-m_kinetics.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-m-m_kinetics.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-m-m_kinetics.zip" download title="Download canvas_qti_v1_2-TFMS-m-m_kinetics.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-m-m_kinetics.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-m-m_kinetics.html', '_blank')" title="View human_readable-TFMS-m-m_kinetics.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-m-m_kinetics.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/m-m_kinetics.pg" download title="Download m-m_kinetics.pg" aria-label="Click to download the WeBWorK PGML file (m-m_kinetics.pg)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-TFMS-m-m_kinetics-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-TFMS-m-m_kinetics-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-m-m_kinetics.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-TFMS-m-m_kinetics-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-m-m_kinetics.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-TFMS-m-m_kinetics-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-m-m_kinetics.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/m-m_kinetics.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -35,8 +27,10 @@ Students determine Vmax and Km from substrate concentration data, interpret Mich
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-TFMS-m-m_kinetics-questions.txt" data-bank-id="biochemistry/topic07/index.md:bbq-TFMS-m-m_kinetics-questions.txt">
   {% include "biochemistry/topic07/downloads/selftest-TFMS-m-m_kinetics.html" %}
 
+  </div>
 </details>
 
 
@@ -44,18 +38,12 @@ Students determine Vmax and Km from substrate concentration data, interpret Mich
 
 <div id="michaelis_menten_table-Km-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-michaelis_menten_table-Km-questions.txt" download title="Download bbq-michaelis_menten_table-Km-questions.txt" aria-label="Click to download the BBQ Text file (bbq-michaelis_menten_table-Km-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-michaelis_menten_table-Km.zip" download title="Download blackboard_export_zip-michaelis_menten_table-Km.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-michaelis_menten_table-Km.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-michaelis_menten_table-Km.zip" download title="Download canvas_qti_v1_2-michaelis_menten_table-Km.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-michaelis_menten_table-Km.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-michaelis_menten_table-Km.html', '_blank')" title="View human_readable-michaelis_menten_table-Km.html" aria-label="Click to view the Human-Readable TXT file (human_readable-michaelis_menten_table-Km.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-michaelis_menten_table-Km-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-michaelis_menten_table-Km-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-michaelis_menten_table-Km.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-michaelis_menten_table-Km-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-michaelis_menten_table-Km.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-michaelis_menten_table-Km-questions.txt" data-format="human_readable" data-filename="human_readable-michaelis_menten_table-Km.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -68,8 +56,10 @@ Students determine Vmax and Km from substrate concentration data, interpret Mich
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-michaelis_menten_table-Km-questions.txt" data-bank-id="biochemistry/topic07/index.md:bbq-michaelis_menten_table-Km-questions.txt">
   {% include "biochemistry/topic07/downloads/selftest-michaelis_menten_table-Km.html" %}
 
+  </div>
 </details>
 
 
@@ -77,18 +67,12 @@ Students determine Vmax and Km from substrate concentration data, interpret Mich
 
 <div id="optimal_enzyme-type_1-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-optimal_enzyme-type_1-questions.txt" download title="Download bbq-optimal_enzyme-type_1-questions.txt" aria-label="Click to download the BBQ Text file (bbq-optimal_enzyme-type_1-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-optimal_enzyme-type_1.zip" download title="Download blackboard_export_zip-optimal_enzyme-type_1.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-optimal_enzyme-type_1.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-optimal_enzyme-type_1.zip" download title="Download canvas_qti_v1_2-optimal_enzyme-type_1.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-optimal_enzyme-type_1.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-optimal_enzyme-type_1.html', '_blank')" title="View human_readable-optimal_enzyme-type_1.html" aria-label="Click to view the Human-Readable TXT file (human_readable-optimal_enzyme-type_1.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-optimal_enzyme-type_1-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-optimal_enzyme-type_1-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-optimal_enzyme-type_1.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-optimal_enzyme-type_1-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-optimal_enzyme-type_1.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-optimal_enzyme-type_1-questions.txt" data-format="human_readable" data-filename="human_readable-optimal_enzyme-type_1.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -101,8 +85,10 @@ Students determine Vmax and Km from substrate concentration data, interpret Mich
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-optimal_enzyme-type_1-questions.txt" data-bank-id="biochemistry/topic07/index.md:bbq-optimal_enzyme-type_1-questions.txt">
   {% include "biochemistry/topic07/downloads/selftest-optimal_enzyme-type_1.html" %}
 
+  </div>
 </details>
 
 
@@ -110,18 +96,12 @@ Students determine Vmax and Km from substrate concentration data, interpret Mich
 
 <div id="optimal_enzyme-type_2-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-optimal_enzyme-type_2-questions.txt" download title="Download bbq-optimal_enzyme-type_2-questions.txt" aria-label="Click to download the BBQ Text file (bbq-optimal_enzyme-type_2-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-optimal_enzyme-type_2.zip" download title="Download blackboard_export_zip-optimal_enzyme-type_2.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-optimal_enzyme-type_2.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-optimal_enzyme-type_2.zip" download title="Download canvas_qti_v1_2-optimal_enzyme-type_2.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-optimal_enzyme-type_2.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-optimal_enzyme-type_2.html', '_blank')" title="View human_readable-optimal_enzyme-type_2.html" aria-label="Click to view the Human-Readable TXT file (human_readable-optimal_enzyme-type_2.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-optimal_enzyme-type_2-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-optimal_enzyme-type_2-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-optimal_enzyme-type_2.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-optimal_enzyme-type_2-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-optimal_enzyme-type_2.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-optimal_enzyme-type_2-questions.txt" data-format="human_readable" data-filename="human_readable-optimal_enzyme-type_2.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -134,8 +114,10 @@ Students determine Vmax and Km from substrate concentration data, interpret Mich
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-optimal_enzyme-type_2-questions.txt" data-bank-id="biochemistry/topic07/index.md:bbq-optimal_enzyme-type_2-questions.txt">
   {% include "biochemistry/topic07/downloads/selftest-optimal_enzyme-type_2.html" %}
 
+  </div>
 </details>
 
 
@@ -143,18 +125,12 @@ Students determine Vmax and Km from substrate concentration data, interpret Mich
 
 <div id="optimal_enzyme-type_3-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-optimal_enzyme-type_3-questions.txt" download title="Download bbq-optimal_enzyme-type_3-questions.txt" aria-label="Click to download the BBQ Text file (bbq-optimal_enzyme-type_3-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-optimal_enzyme-type_3.zip" download title="Download blackboard_export_zip-optimal_enzyme-type_3.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-optimal_enzyme-type_3.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-optimal_enzyme-type_3.zip" download title="Download canvas_qti_v1_2-optimal_enzyme-type_3.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-optimal_enzyme-type_3.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-optimal_enzyme-type_3.html', '_blank')" title="View human_readable-optimal_enzyme-type_3.html" aria-label="Click to view the Human-Readable TXT file (human_readable-optimal_enzyme-type_3.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-optimal_enzyme-type_3-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-optimal_enzyme-type_3-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-optimal_enzyme-type_3.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-optimal_enzyme-type_3-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-optimal_enzyme-type_3.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-optimal_enzyme-type_3-questions.txt" data-format="human_readable" data-filename="human_readable-optimal_enzyme-type_3.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -167,8 +143,10 @@ Students determine Vmax and Km from substrate concentration data, interpret Mich
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-optimal_enzyme-type_3-questions.txt" data-bank-id="biochemistry/topic07/index.md:bbq-optimal_enzyme-type_3-questions.txt">
   {% include "biochemistry/topic07/downloads/selftest-optimal_enzyme-type_3.html" %}
 
+  </div>
 </details>
 
 

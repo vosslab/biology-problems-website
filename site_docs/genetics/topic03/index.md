@@ -8,18 +8,12 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 
 <div id="blood_type_agglutination_test-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-blood_type_agglutination_test-questions.txt" download title="Download bbq-blood_type_agglutination_test-questions.txt" aria-label="Click to download the BBQ Text file (bbq-blood_type_agglutination_test-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-blood_type_agglutination_test.zip" download title="Download blackboard_export_zip-blood_type_agglutination_test.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-blood_type_agglutination_test.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-blood_type_agglutination_test.zip" download title="Download canvas_qti_v1_2-blood_type_agglutination_test.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-blood_type_agglutination_test.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-blood_type_agglutination_test.html', '_blank')" title="View human_readable-blood_type_agglutination_test.html" aria-label="Click to view the Human-Readable TXT file (human_readable-blood_type_agglutination_test.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-blood_type_agglutination_test-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-blood_type_agglutination_test-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-blood_type_agglutination_test.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-blood_type_agglutination_test-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-blood_type_agglutination_test.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-blood_type_agglutination_test-questions.txt" data-format="human_readable" data-filename="human_readable-blood_type_agglutination_test.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -32,8 +26,10 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-blood_type_agglutination_test-questions.txt" data-bank-id="genetics/topic03/index.md:bbq-blood_type_agglutination_test-questions.txt">
   {% include "genetics/topic03/downloads/selftest-blood_type_agglutination_test.html" %}
 
+  </div>
 </details>
 
 
@@ -41,18 +37,12 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 
 <div id="hla_genotype-2_markers-black-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-hla_genotype-2_markers-black-questions.txt" download title="Download bbq-hla_genotype-2_markers-black-questions.txt" aria-label="Click to download the BBQ Text file (bbq-hla_genotype-2_markers-black-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-hla_genotype-2_markers-black.zip" download title="Download blackboard_export_zip-hla_genotype-2_markers-black.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-hla_genotype-2_markers-black.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-hla_genotype-2_markers-black.zip" download title="Download canvas_qti_v1_2-hla_genotype-2_markers-black.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-hla_genotype-2_markers-black.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-hla_genotype-2_markers-black.html', '_blank')" title="View human_readable-hla_genotype-2_markers-black.html" aria-label="Click to view the Human-Readable TXT file (human_readable-hla_genotype-2_markers-black.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-hla_genotype-2_markers-black-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-hla_genotype-2_markers-black-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-hla_genotype-2_markers-black.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-hla_genotype-2_markers-black-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-hla_genotype-2_markers-black.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-hla_genotype-2_markers-black-questions.txt" data-format="human_readable" data-filename="human_readable-hla_genotype-2_markers-black.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -65,8 +55,10 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-hla_genotype-2_markers-black-questions.txt" data-bank-id="genetics/topic03/index.md:bbq-hla_genotype-2_markers-black-questions.txt">
   {% include "genetics/topic03/downloads/selftest-hla_genotype-2_markers-black.html" %}
 
+  </div>
 </details>
 
 
@@ -74,18 +66,12 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 
 <div id="hla_genotype-3_markers-color-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-hla_genotype-3_markers-color-questions.txt" download title="Download bbq-hla_genotype-3_markers-color-questions.txt" aria-label="Click to download the BBQ Text file (bbq-hla_genotype-3_markers-color-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-hla_genotype-3_markers-color.zip" download title="Download blackboard_export_zip-hla_genotype-3_markers-color.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-hla_genotype-3_markers-color.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-hla_genotype-3_markers-color.zip" download title="Download canvas_qti_v1_2-hla_genotype-3_markers-color.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-hla_genotype-3_markers-color.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-hla_genotype-3_markers-color.html', '_blank')" title="View human_readable-hla_genotype-3_markers-color.html" aria-label="Click to view the Human-Readable TXT file (human_readable-hla_genotype-3_markers-color.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-hla_genotype-3_markers-color-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-hla_genotype-3_markers-color-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-hla_genotype-3_markers-color.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-hla_genotype-3_markers-color-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-hla_genotype-3_markers-color.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-hla_genotype-3_markers-color-questions.txt" data-format="human_readable" data-filename="human_readable-hla_genotype-3_markers-color.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -98,8 +84,10 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-hla_genotype-3_markers-color-questions.txt" data-bank-id="genetics/topic03/index.md:bbq-hla_genotype-3_markers-color-questions.txt">
   {% include "genetics/topic03/downloads/selftest-hla_genotype-3_markers-color.html" %}
 
+  </div>
 </details>
 
 
@@ -107,18 +95,12 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 
 <div id="who_father_html-EASY-3_males-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-who_father_html-EASY-3_males-questions.txt" download title="Download bbq-who_father_html-EASY-3_males-questions.txt" aria-label="Click to download the BBQ Text file (bbq-who_father_html-EASY-3_males-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-who_father_html-EASY-3_males.zip" download title="Download blackboard_export_zip-who_father_html-EASY-3_males.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-who_father_html-EASY-3_males.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-who_father_html-EASY-3_males.zip" download title="Download canvas_qti_v1_2-who_father_html-EASY-3_males.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-who_father_html-EASY-3_males.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-who_father_html-EASY-3_males.html', '_blank')" title="View human_readable-who_father_html-EASY-3_males.html" aria-label="Click to view the Human-Readable TXT file (human_readable-who_father_html-EASY-3_males.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-who_father_html-EASY-3_males-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-who_father_html-EASY-3_males-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-who_father_html-EASY-3_males.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-who_father_html-EASY-3_males-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-who_father_html-EASY-3_males.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-who_father_html-EASY-3_males-questions.txt" data-format="human_readable" data-filename="human_readable-who_father_html-EASY-3_males.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -131,8 +113,10 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-who_father_html-EASY-3_males-questions.txt" data-bank-id="genetics/topic03/index.md:bbq-who_father_html-EASY-3_males-questions.txt">
   {% include "genetics/topic03/downloads/selftest-who_father_html-EASY-3_males.html" %}
 
+  </div>
 </details>
 
 
@@ -140,18 +124,12 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 
 <div id="who_father_html-HARD-9_males-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-who_father_html-HARD-9_males-questions.txt" download title="Download bbq-who_father_html-HARD-9_males-questions.txt" aria-label="Click to download the BBQ Text file (bbq-who_father_html-HARD-9_males-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-who_father_html-HARD-9_males.zip" download title="Download blackboard_export_zip-who_father_html-HARD-9_males.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-who_father_html-HARD-9_males.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-who_father_html-HARD-9_males.zip" download title="Download canvas_qti_v1_2-who_father_html-HARD-9_males.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-who_father_html-HARD-9_males.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-who_father_html-HARD-9_males.html', '_blank')" title="View human_readable-who_father_html-HARD-9_males.html" aria-label="Click to view the Human-Readable TXT file (human_readable-who_father_html-HARD-9_males.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-who_father_html-HARD-9_males-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-who_father_html-HARD-9_males-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-who_father_html-HARD-9_males.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-who_father_html-HARD-9_males-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-who_father_html-HARD-9_males.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-who_father_html-HARD-9_males-questions.txt" data-format="human_readable" data-filename="human_readable-who_father_html-HARD-9_males.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -164,8 +142,10 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-who_father_html-HARD-9_males-questions.txt" data-bank-id="genetics/topic03/index.md:bbq-who_father_html-HARD-9_males-questions.txt">
   {% include "genetics/topic03/downloads/selftest-who_father_html-HARD-9_males.html" %}
 
+  </div>
 </details>
 
 
@@ -173,18 +153,12 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 
 <div id="who_father_html-MEDIUM-5_males-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-who_father_html-MEDIUM-5_males-questions.txt" download title="Download bbq-who_father_html-MEDIUM-5_males-questions.txt" aria-label="Click to download the BBQ Text file (bbq-who_father_html-MEDIUM-5_males-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-who_father_html-MEDIUM-5_males.zip" download title="Download blackboard_export_zip-who_father_html-MEDIUM-5_males.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-who_father_html-MEDIUM-5_males.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-who_father_html-MEDIUM-5_males.zip" download title="Download canvas_qti_v1_2-who_father_html-MEDIUM-5_males.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-who_father_html-MEDIUM-5_males.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-who_father_html-MEDIUM-5_males.html', '_blank')" title="View human_readable-who_father_html-MEDIUM-5_males.html" aria-label="Click to view the Human-Readable TXT file (human_readable-who_father_html-MEDIUM-5_males.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-who_father_html-MEDIUM-5_males-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-who_father_html-MEDIUM-5_males-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-who_father_html-MEDIUM-5_males.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-who_father_html-MEDIUM-5_males-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-who_father_html-MEDIUM-5_males.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-who_father_html-MEDIUM-5_males-questions.txt" data-format="human_readable" data-filename="human_readable-who_father_html-MEDIUM-5_males.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -197,8 +171,10 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-who_father_html-MEDIUM-5_males-questions.txt" data-bank-id="genetics/topic03/index.md:bbq-who_father_html-MEDIUM-5_males-questions.txt">
   {% include "genetics/topic03/downloads/selftest-who_father_html-MEDIUM-5_males.html" %}
 
+  </div>
 </details>
 
 
@@ -206,18 +182,12 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 
 <div id="who_killer_html-EASY-4_suspects-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-who_killer_html-EASY-4_suspects-questions.txt" download title="Download bbq-who_killer_html-EASY-4_suspects-questions.txt" aria-label="Click to download the BBQ Text file (bbq-who_killer_html-EASY-4_suspects-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-who_killer_html-EASY-4_suspects.zip" download title="Download blackboard_export_zip-who_killer_html-EASY-4_suspects.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-who_killer_html-EASY-4_suspects.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-who_killer_html-EASY-4_suspects.zip" download title="Download canvas_qti_v1_2-who_killer_html-EASY-4_suspects.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-who_killer_html-EASY-4_suspects.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-who_killer_html-EASY-4_suspects.html', '_blank')" title="View human_readable-who_killer_html-EASY-4_suspects.html" aria-label="Click to view the Human-Readable TXT file (human_readable-who_killer_html-EASY-4_suspects.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-who_killer_html-EASY-4_suspects-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-who_killer_html-EASY-4_suspects-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-who_killer_html-EASY-4_suspects.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-who_killer_html-EASY-4_suspects-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-who_killer_html-EASY-4_suspects.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-who_killer_html-EASY-4_suspects-questions.txt" data-format="human_readable" data-filename="human_readable-who_killer_html-EASY-4_suspects.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -230,8 +200,10 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-who_killer_html-EASY-4_suspects-questions.txt" data-bank-id="genetics/topic03/index.md:bbq-who_killer_html-EASY-4_suspects-questions.txt">
   {% include "genetics/topic03/downloads/selftest-who_killer_html-EASY-4_suspects.html" %}
 
+  </div>
 </details>
 
 
@@ -239,18 +211,12 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 
 <div id="who_killer_html-HARD-9_suspects-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-who_killer_html-HARD-9_suspects-questions.txt" download title="Download bbq-who_killer_html-HARD-9_suspects-questions.txt" aria-label="Click to download the BBQ Text file (bbq-who_killer_html-HARD-9_suspects-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-who_killer_html-HARD-9_suspects.zip" download title="Download blackboard_export_zip-who_killer_html-HARD-9_suspects.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-who_killer_html-HARD-9_suspects.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-who_killer_html-HARD-9_suspects.zip" download title="Download canvas_qti_v1_2-who_killer_html-HARD-9_suspects.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-who_killer_html-HARD-9_suspects.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-who_killer_html-HARD-9_suspects.html', '_blank')" title="View human_readable-who_killer_html-HARD-9_suspects.html" aria-label="Click to view the Human-Readable TXT file (human_readable-who_killer_html-HARD-9_suspects.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-who_killer_html-HARD-9_suspects-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-who_killer_html-HARD-9_suspects-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-who_killer_html-HARD-9_suspects.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-who_killer_html-HARD-9_suspects-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-who_killer_html-HARD-9_suspects.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-who_killer_html-HARD-9_suspects-questions.txt" data-format="human_readable" data-filename="human_readable-who_killer_html-HARD-9_suspects.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -263,8 +229,10 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-who_killer_html-HARD-9_suspects-questions.txt" data-bank-id="genetics/topic03/index.md:bbq-who_killer_html-HARD-9_suspects-questions.txt">
   {% include "genetics/topic03/downloads/selftest-who_killer_html-HARD-9_suspects.html" %}
 
+  </div>
 </details>
 
 
@@ -272,18 +240,12 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 
 <div id="who_killer_html-MEDIUM-5_suspects-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-who_killer_html-MEDIUM-5_suspects-questions.txt" download title="Download bbq-who_killer_html-MEDIUM-5_suspects-questions.txt" aria-label="Click to download the BBQ Text file (bbq-who_killer_html-MEDIUM-5_suspects-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-who_killer_html-MEDIUM-5_suspects.zip" download title="Download blackboard_export_zip-who_killer_html-MEDIUM-5_suspects.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-who_killer_html-MEDIUM-5_suspects.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-who_killer_html-MEDIUM-5_suspects.zip" download title="Download canvas_qti_v1_2-who_killer_html-MEDIUM-5_suspects.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-who_killer_html-MEDIUM-5_suspects.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-who_killer_html-MEDIUM-5_suspects.html', '_blank')" title="View human_readable-who_killer_html-MEDIUM-5_suspects.html" aria-label="Click to view the Human-Readable TXT file (human_readable-who_killer_html-MEDIUM-5_suspects.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-who_killer_html-MEDIUM-5_suspects-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-who_killer_html-MEDIUM-5_suspects-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-who_killer_html-MEDIUM-5_suspects.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-who_killer_html-MEDIUM-5_suspects-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-who_killer_html-MEDIUM-5_suspects.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-who_killer_html-MEDIUM-5_suspects-questions.txt" data-format="human_readable" data-filename="human_readable-who_killer_html-MEDIUM-5_suspects.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -296,8 +258,10 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-who_killer_html-MEDIUM-5_suspects-questions.txt" data-bank-id="genetics/topic03/index.md:bbq-who_killer_html-MEDIUM-5_suspects-questions.txt">
   {% include "genetics/topic03/downloads/selftest-who_killer_html-MEDIUM-5_suspects.html" %}
 
+  </div>
 </details>
 
 

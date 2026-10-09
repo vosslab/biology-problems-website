@@ -6,21 +6,13 @@ Students assess gene therapy, viral vectors, genome editing (ZFNs, TALENs, CRISP
 
 <div id="MATCH-gene_therapy_v_edit-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-MATCH-gene_therapy_v_edit-questions.txt" download title="Download bbq-MATCH-gene_therapy_v_edit-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-gene_therapy_v_edit-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-gene_therapy_v_edit.zip" download title="Download blackboard_export_zip-MATCH-gene_therapy_v_edit.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-gene_therapy_v_edit.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-gene_therapy_v_edit.zip" download title="Download canvas_qti_v1_2-MATCH-gene_therapy_v_edit.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-gene_therapy_v_edit.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-gene_therapy_v_edit.html', '_blank')" title="View human_readable-MATCH-gene_therapy_v_edit.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-gene_therapy_v_edit.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/gene_therapy_v_edit-matching.pgml" download title="Download gene_therapy_v_edit-matching.pgml" aria-label="Click to download the WeBWorK PGML file (gene_therapy_v_edit-matching.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-MATCH-gene_therapy_v_edit-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-MATCH-gene_therapy_v_edit-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-gene_therapy_v_edit.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-MATCH-gene_therapy_v_edit-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-gene_therapy_v_edit.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-MATCH-gene_therapy_v_edit-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-gene_therapy_v_edit.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/gene_therapy_v_edit-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -33,8 +25,10 @@ Students assess gene therapy, viral vectors, genome editing (ZFNs, TALENs, CRISP
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-MATCH-gene_therapy_v_edit-questions.txt" data-bank-id="biotechnology/topic05/index.md:bbq-MATCH-gene_therapy_v_edit-questions.txt">
   {% include "biotechnology/topic05/downloads/selftest-MATCH-gene_therapy_v_edit.html" %}
 
+  </div>
 </details>
 
 
@@ -42,21 +36,13 @@ Students assess gene therapy, viral vectors, genome editing (ZFNs, TALENs, CRISP
 
 <div id="MATCH-stem_cell_potency-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-MATCH-stem_cell_potency-questions.txt" download title="Download bbq-MATCH-stem_cell_potency-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-stem_cell_potency-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-stem_cell_potency.zip" download title="Download blackboard_export_zip-MATCH-stem_cell_potency.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-stem_cell_potency.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-stem_cell_potency.zip" download title="Download canvas_qti_v1_2-MATCH-stem_cell_potency.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-stem_cell_potency.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-stem_cell_potency.html', '_blank')" title="View human_readable-MATCH-stem_cell_potency.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-stem_cell_potency.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/stem_cell_potency-matching.pgml" download title="Download stem_cell_potency-matching.pgml" aria-label="Click to download the WeBWorK PGML file (stem_cell_potency-matching.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-MATCH-stem_cell_potency-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-MATCH-stem_cell_potency-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-stem_cell_potency.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-MATCH-stem_cell_potency-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-stem_cell_potency.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-MATCH-stem_cell_potency-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-stem_cell_potency.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/stem_cell_potency-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -69,8 +55,10 @@ Students assess gene therapy, viral vectors, genome editing (ZFNs, TALENs, CRISP
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-MATCH-stem_cell_potency-questions.txt" data-bank-id="biotechnology/topic05/index.md:bbq-MATCH-stem_cell_potency-questions.txt">
   {% include "biotechnology/topic05/downloads/selftest-MATCH-stem_cell_potency.html" %}
 
+  </div>
 </details>
 
 
@@ -78,21 +66,13 @@ Students assess gene therapy, viral vectors, genome editing (ZFNs, TALENs, CRISP
 
 <div id="WOMC-gene_therapy_v_edit-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-WOMC-gene_therapy_v_edit-questions.txt" download title="Download bbq-WOMC-gene_therapy_v_edit-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-gene_therapy_v_edit-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-gene_therapy_v_edit.zip" download title="Download blackboard_export_zip-WOMC-gene_therapy_v_edit.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-gene_therapy_v_edit.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-gene_therapy_v_edit.zip" download title="Download canvas_qti_v1_2-WOMC-gene_therapy_v_edit.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-gene_therapy_v_edit.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-gene_therapy_v_edit.html', '_blank')" title="View human_readable-WOMC-gene_therapy_v_edit.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-gene_therapy_v_edit.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/gene_therapy_v_edit-which_one.pgml" download title="Download gene_therapy_v_edit-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (gene_therapy_v_edit-which_one.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-WOMC-gene_therapy_v_edit-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-WOMC-gene_therapy_v_edit-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-gene_therapy_v_edit.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-WOMC-gene_therapy_v_edit-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-gene_therapy_v_edit.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-WOMC-gene_therapy_v_edit-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-gene_therapy_v_edit.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/gene_therapy_v_edit-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -105,8 +85,10 @@ Students assess gene therapy, viral vectors, genome editing (ZFNs, TALENs, CRISP
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-WOMC-gene_therapy_v_edit-questions.txt" data-bank-id="biotechnology/topic05/index.md:bbq-WOMC-gene_therapy_v_edit-questions.txt">
   {% include "biotechnology/topic05/downloads/selftest-WOMC-gene_therapy_v_edit.html" %}
 
+  </div>
 </details>
 
 
@@ -114,21 +96,13 @@ Students assess gene therapy, viral vectors, genome editing (ZFNs, TALENs, CRISP
 
 <div id="WOMC-stem_cell_potency-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-WOMC-stem_cell_potency-questions.txt" download title="Download bbq-WOMC-stem_cell_potency-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-stem_cell_potency-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-stem_cell_potency.zip" download title="Download blackboard_export_zip-WOMC-stem_cell_potency.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-stem_cell_potency.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-stem_cell_potency.zip" download title="Download canvas_qti_v1_2-WOMC-stem_cell_potency.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-stem_cell_potency.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-stem_cell_potency.html', '_blank')" title="View human_readable-WOMC-stem_cell_potency.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-stem_cell_potency.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/stem_cell_potency-which_one.pgml" download title="Download stem_cell_potency-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (stem_cell_potency-which_one.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-WOMC-stem_cell_potency-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-WOMC-stem_cell_potency-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-stem_cell_potency.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-WOMC-stem_cell_potency-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-stem_cell_potency.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-WOMC-stem_cell_potency-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-stem_cell_potency.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/stem_cell_potency-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -141,8 +115,10 @@ Students assess gene therapy, viral vectors, genome editing (ZFNs, TALENs, CRISP
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-WOMC-stem_cell_potency-questions.txt" data-bank-id="biotechnology/topic05/index.md:bbq-WOMC-stem_cell_potency-questions.txt">
   {% include "biotechnology/topic05/downloads/selftest-WOMC-stem_cell_potency.html" %}
 
+  </div>
 </details>
 
 

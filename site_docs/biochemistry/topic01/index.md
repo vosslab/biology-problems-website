@@ -8,21 +8,13 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 
 <div id="MATCH-biochemical_functional_groups-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-MATCH-biochemical_functional_groups-questions.txt" download title="Download bbq-MATCH-biochemical_functional_groups-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-biochemical_functional_groups-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-biochemical_functional_groups.zip" download title="Download blackboard_export_zip-MATCH-biochemical_functional_groups.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-biochemical_functional_groups.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-biochemical_functional_groups.zip" download title="Download canvas_qti_v1_2-MATCH-biochemical_functional_groups.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-biochemical_functional_groups.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-biochemical_functional_groups.html', '_blank')" title="View human_readable-MATCH-biochemical_functional_groups.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-biochemical_functional_groups.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/biochemical_functional_groups-matching.pgml" download title="Download biochemical_functional_groups-matching.pgml" aria-label="Click to download the WeBWorK PGML file (biochemical_functional_groups-matching.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-MATCH-biochemical_functional_groups-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-MATCH-biochemical_functional_groups-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-biochemical_functional_groups.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-MATCH-biochemical_functional_groups-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-biochemical_functional_groups.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-MATCH-biochemical_functional_groups-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-biochemical_functional_groups.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/biochemical_functional_groups-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -35,8 +27,10 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-MATCH-biochemical_functional_groups-questions.txt" data-bank-id="biochemistry/topic01/index.md:bbq-MATCH-biochemical_functional_groups-questions.txt">
   {% include "biochemistry/topic01/downloads/selftest-MATCH-biochemical_functional_groups.html" %}
 
+  </div>
 </details>
 
 
@@ -44,21 +38,13 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 
 <div id="MATCH-bond_types-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-MATCH-bond_types-questions.txt" download title="Download bbq-MATCH-bond_types-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-bond_types-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-bond_types.zip" download title="Download blackboard_export_zip-MATCH-bond_types.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-bond_types.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-bond_types.zip" download title="Download canvas_qti_v1_2-MATCH-bond_types.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-bond_types.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-bond_types.html', '_blank')" title="View human_readable-MATCH-bond_types.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-bond_types.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/bond_types-matching.pgml" download title="Download bond_types-matching.pgml" aria-label="Click to download the WeBWorK PGML file (bond_types-matching.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-MATCH-bond_types-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-MATCH-bond_types-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-bond_types.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-MATCH-bond_types-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-bond_types.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-MATCH-bond_types-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-bond_types.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/bond_types-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -71,8 +57,10 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-MATCH-bond_types-questions.txt" data-bank-id="biochemistry/topic01/index.md:bbq-MATCH-bond_types-questions.txt">
   {% include "biochemistry/topic01/downloads/selftest-MATCH-bond_types.html" %}
 
+  </div>
 </details>
 
 
@@ -80,21 +68,13 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 
 <div id="MATCH-macromolecules-biol301-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-MATCH-macromolecules-biol301-questions.txt" download title="Download bbq-MATCH-macromolecules-biol301-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-macromolecules-biol301-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-macromolecules-biol301.zip" download title="Download blackboard_export_zip-MATCH-macromolecules-biol301.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-macromolecules-biol301.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-macromolecules-biol301.zip" download title="Download canvas_qti_v1_2-MATCH-macromolecules-biol301.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-macromolecules-biol301.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-macromolecules-biol301.html', '_blank')" title="View human_readable-MATCH-macromolecules-biol301.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-macromolecules-biol301.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/macromolecules-biol301-matching.pgml" download title="Download macromolecules-biol301-matching.pgml" aria-label="Click to download the WeBWorK PGML file (macromolecules-biol301-matching.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-MATCH-macromolecules-biol301-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-MATCH-macromolecules-biol301-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-macromolecules-biol301.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-MATCH-macromolecules-biol301-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-macromolecules-biol301.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-MATCH-macromolecules-biol301-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-macromolecules-biol301.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/macromolecules-biol301-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -107,8 +87,10 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-MATCH-macromolecules-biol301-questions.txt" data-bank-id="biochemistry/topic01/index.md:bbq-MATCH-macromolecules-biol301-questions.txt">
   {% include "biochemistry/topic01/downloads/selftest-MATCH-macromolecules-biol301.html" %}
 
+  </div>
 </details>
 
 
@@ -116,21 +98,13 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 
 <div id="MATCH-macromolecules-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-MATCH-macromolecules-questions.txt" download title="Download bbq-MATCH-macromolecules-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-macromolecules-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-macromolecules.zip" download title="Download blackboard_export_zip-MATCH-macromolecules.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-macromolecules.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-macromolecules.zip" download title="Download canvas_qti_v1_2-MATCH-macromolecules.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-macromolecules.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-macromolecules.html', '_blank')" title="View human_readable-MATCH-macromolecules.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-macromolecules.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/macromolecules-matching.pgml" download title="Download macromolecules-matching.pgml" aria-label="Click to download the WeBWorK PGML file (macromolecules-matching.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-MATCH-macromolecules-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-MATCH-macromolecules-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-macromolecules.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-MATCH-macromolecules-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-macromolecules.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-MATCH-macromolecules-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-macromolecules.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/macromolecules-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -143,8 +117,10 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-MATCH-macromolecules-questions.txt" data-bank-id="biochemistry/topic01/index.md:bbq-MATCH-macromolecules-questions.txt">
   {% include "biochemistry/topic01/downloads/selftest-MATCH-macromolecules.html" %}
 
+  </div>
 </details>
 
 
@@ -152,21 +128,13 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 
 <div id="WOMC-biochemical_functional_groups-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-WOMC-biochemical_functional_groups-questions.txt" download title="Download bbq-WOMC-biochemical_functional_groups-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-biochemical_functional_groups-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-biochemical_functional_groups.zip" download title="Download blackboard_export_zip-WOMC-biochemical_functional_groups.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-biochemical_functional_groups.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-biochemical_functional_groups.zip" download title="Download canvas_qti_v1_2-WOMC-biochemical_functional_groups.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-biochemical_functional_groups.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-biochemical_functional_groups.html', '_blank')" title="View human_readable-WOMC-biochemical_functional_groups.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-biochemical_functional_groups.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/biochemical_functional_groups-which_one.pgml" download title="Download biochemical_functional_groups-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (biochemical_functional_groups-which_one.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-WOMC-biochemical_functional_groups-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-WOMC-biochemical_functional_groups-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-biochemical_functional_groups.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-WOMC-biochemical_functional_groups-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-biochemical_functional_groups.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-WOMC-biochemical_functional_groups-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-biochemical_functional_groups.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/biochemical_functional_groups-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -179,8 +147,10 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-WOMC-biochemical_functional_groups-questions.txt" data-bank-id="biochemistry/topic01/index.md:bbq-WOMC-biochemical_functional_groups-questions.txt">
   {% include "biochemistry/topic01/downloads/selftest-WOMC-biochemical_functional_groups.html" %}
 
+  </div>
 </details>
 
 
@@ -188,21 +158,13 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 
 <div id="WOMC-bond_types-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-WOMC-bond_types-questions.txt" download title="Download bbq-WOMC-bond_types-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-bond_types-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-bond_types.zip" download title="Download blackboard_export_zip-WOMC-bond_types.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-bond_types.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-bond_types.zip" download title="Download canvas_qti_v1_2-WOMC-bond_types.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-bond_types.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-bond_types.html', '_blank')" title="View human_readable-WOMC-bond_types.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-bond_types.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/bond_types-which_one.pgml" download title="Download bond_types-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (bond_types-which_one.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-WOMC-bond_types-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-WOMC-bond_types-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-bond_types.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-WOMC-bond_types-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-bond_types.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-WOMC-bond_types-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-bond_types.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/bond_types-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -215,8 +177,10 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-WOMC-bond_types-questions.txt" data-bank-id="biochemistry/topic01/index.md:bbq-WOMC-bond_types-questions.txt">
   {% include "biochemistry/topic01/downloads/selftest-WOMC-bond_types.html" %}
 
+  </div>
 </details>
 
 
@@ -224,21 +188,13 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 
 <div id="WOMC-macromolecules-biol301-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-WOMC-macromolecules-biol301-questions.txt" download title="Download bbq-WOMC-macromolecules-biol301-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-macromolecules-biol301-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-macromolecules-biol301.zip" download title="Download blackboard_export_zip-WOMC-macromolecules-biol301.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-macromolecules-biol301.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-macromolecules-biol301.zip" download title="Download canvas_qti_v1_2-WOMC-macromolecules-biol301.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-macromolecules-biol301.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-macromolecules-biol301.html', '_blank')" title="View human_readable-WOMC-macromolecules-biol301.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-macromolecules-biol301.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/macromolecules-biol301-which_one.pgml" download title="Download macromolecules-biol301-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (macromolecules-biol301-which_one.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-WOMC-macromolecules-biol301-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-WOMC-macromolecules-biol301-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-macromolecules-biol301.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-WOMC-macromolecules-biol301-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-macromolecules-biol301.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-WOMC-macromolecules-biol301-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-macromolecules-biol301.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/macromolecules-biol301-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -251,8 +207,10 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-WOMC-macromolecules-biol301-questions.txt" data-bank-id="biochemistry/topic01/index.md:bbq-WOMC-macromolecules-biol301-questions.txt">
   {% include "biochemistry/topic01/downloads/selftest-WOMC-macromolecules-biol301.html" %}
 
+  </div>
 </details>
 
 
@@ -260,21 +218,13 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 
 <div id="WOMC-macromolecules-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-WOMC-macromolecules-questions.txt" download title="Download bbq-WOMC-macromolecules-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-macromolecules-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-macromolecules.zip" download title="Download blackboard_export_zip-WOMC-macromolecules.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-macromolecules.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-macromolecules.zip" download title="Download canvas_qti_v1_2-WOMC-macromolecules.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-macromolecules.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-macromolecules.html', '_blank')" title="View human_readable-WOMC-macromolecules.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-macromolecules.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/macromolecules-which_one.pgml" download title="Download macromolecules-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (macromolecules-which_one.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-WOMC-macromolecules-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-WOMC-macromolecules-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-macromolecules.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-WOMC-macromolecules-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-macromolecules.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-WOMC-macromolecules-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-macromolecules.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/macromolecules-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -287,8 +237,10 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-WOMC-macromolecules-questions.txt" data-bank-id="biochemistry/topic01/index.md:bbq-WOMC-macromolecules-questions.txt">
   {% include "biochemistry/topic01/downloads/selftest-WOMC-macromolecules.html" %}
 
+  </div>
 </details>
 
 
@@ -296,21 +248,13 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 
 <div id="which_hydrophobic-simple-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-which_hydrophobic-simple-questions.txt" download title="Download bbq-which_hydrophobic-simple-questions.txt" aria-label="Click to download the BBQ Text file (bbq-which_hydrophobic-simple-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-which_hydrophobic-simple.zip" download title="Download blackboard_export_zip-which_hydrophobic-simple.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-which_hydrophobic-simple.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-which_hydrophobic-simple.zip" download title="Download canvas_qti_v1_2-which_hydrophobic-simple.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-which_hydrophobic-simple.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-which_hydrophobic-simple.html', '_blank')" title="View human_readable-which_hydrophobic-simple.html" aria-label="Click to view the Human-Readable TXT file (human_readable-which_hydrophobic-simple.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/which_hydrophobic-simple.pgml" download title="Download which_hydrophobic-simple.pgml" aria-label="Click to download the WeBWorK PGML file (which_hydrophobic-simple.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-which_hydrophobic-simple-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-which_hydrophobic-simple-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-which_hydrophobic-simple.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-which_hydrophobic-simple-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-which_hydrophobic-simple.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-which_hydrophobic-simple-questions.txt" data-format="human_readable" data-filename="human_readable-which_hydrophobic-simple.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/which_hydrophobic-simple.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -323,8 +267,10 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-which_hydrophobic-simple-questions.txt" data-bank-id="biochemistry/topic01/index.md:bbq-which_hydrophobic-simple-questions.txt">
   {% include "biochemistry/topic01/downloads/selftest-which_hydrophobic-simple.html" %}
 
+  </div>
 </details>
 
 
@@ -332,15 +278,12 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 
 <div id="which_macromolecule-MC-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-which_macromolecule-MC-questions.txt" download title="Download bbq-which_macromolecule-MC-questions.txt" aria-label="Click to download the BBQ Text file (bbq-which_macromolecule-MC-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-which_macromolecule-MC.zip" download title="Download blackboard_export_zip-which_macromolecule-MC.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-which_macromolecule-MC.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-which_macromolecule-MC.zip" download title="Download canvas_qti_v1_2-which_macromolecule-MC.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-which_macromolecule-MC.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
+<a class="md-button custom-button bb_text" href="bbq-which_macromolecule-MC-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-which_macromolecule-MC-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-which_macromolecule-MC.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-which_macromolecule-MC-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-which_macromolecule-MC.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-which_macromolecule-MC-questions.txt" data-format="human_readable" data-filename="human_readable-which_macromolecule-MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -353,8 +296,10 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-which_macromolecule-MC-questions.txt" data-bank-id="biochemistry/topic01/index.md:bbq-which_macromolecule-MC-questions.txt">
   {% include "biochemistry/topic01/downloads/selftest-which_macromolecule-MC.html" %}
 
+  </div>
 </details>
 
 

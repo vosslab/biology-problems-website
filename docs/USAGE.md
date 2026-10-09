@@ -15,7 +15,7 @@ MkDocs opens `http://127.0.0.1:8000/` with live reload. Press Ctrl-C to stop it.
 
 ## CLI
 
-- Build stale BBQ output and every affected downstream artifact:
+- Build stale BBQ output, native self-tests, and affected site pages:
   ```bash
   source source_me.sh && ./build_site.py
   ```
@@ -23,29 +23,27 @@ MkDocs opens `http://127.0.0.1:8000/` with live reload. Press Ctrl-C to stop it.
   progress dashboard. Piped and CI runs keep plain output. Use `--cli` to force
   plain output or `--tui` to request the dashboard explicitly; `--tui` requires
   interactive stdin and stdout, and the two options cannot be combined.
-  After two complete rows (six operations), with executed-stage timings available,
-  both modes estimate remaining time across BBQ generation, self-tests, downloads,
-  topic pages, and final indexing.
+  After three complete rows, with executed-stage timings available, both modes
+  estimate remaining time across BBQ generation, native self-tests, topic pages,
+  and final indexing. The Downloads progress entry reports the direct BBQ/PGML
+  files that remain available; package exports run in the browser.
   Only executed stages train timing averages; skipped stages reduce remaining
   work without lowering those averages. Rows with executed work supply wall-clock
   overhead measurements; fully cached rows do not train the estimate. Final stages
   reserve a complete row's cost per operation until their own timings are available.
   The dashboard keeps estimated finish and time left visible, including when an
   operation exceeds its earlier average. Its upper-left box shows average BBQ
-  generation, download, and self-test times for completed stages in the current
+  generation and native self-test times for completed stages in the current
   run, excluding cached skips. Each average covers one stage, including all work
-  for that task row, rather than one exported file.
-  After two measured download stages, Downloads shows the average `+/-` one sample
-  standard deviation to indicate variation in conversion time.
-  Stage averages and the download spread use seconds with one decimal place.
+  for that task row, rather than one question file.
+  Stage averages use seconds with one decimal place.
   Elapsed time, remaining time, and individual task durations use whole seconds,
   with `<1s` for subsecond work. The timing log retains full precision for analysis.
   Normal CLI and dashboard builds also append measurements to `build_timing.jsonl`
   in the repository root. Each run has a unique ID, its start time, UTC event
   timestamps, and total wall time. Records contain task arguments, per-stage and
-  per-format conversion durations, complete-row durations, question/download
-  counts, and estimated time left and completion time at operation boundaries.
-  Blackboard conversions record whether image rendering was enabled.
+  complete-row durations, question/direct-download counts, and estimated time
+  left and completion time at operation boundaries.
   `accounted_stage_seconds`, `active_stage_seconds`, and `untracked_seconds`
   distinguish measured work from time outside the stage timers. Conversion
   durations are nested within stages and are not counted twice. The log records
@@ -132,9 +130,10 @@ The capture uses the authored Medium pedigree table, without recreating its biol
 
 ### Build ordering
 
-`build_site.py` completes each selected CSV row's BBQ generation, self-tests,
-and downloads before advancing to the next row. It renders each affected topic
-page once after those row-owned files are ready, then runs global orphan
+`build_site.py` completes each selected CSV row's BBQ generation and native self-tests
+before advancing to the next row. Topic pages provide browser package-generation controls and
+direct BBQ/PGML files. The build renders each affected topic page once after those row-owned
+files are ready, then runs global orphan
 reconciliation, the searchable question index, navigation, and the self-test
 manifest; subject indexes are limited to the selected subject when `--subject`
 is used. If task ownership cannot be read safely, orphan cleanup is skipped and
@@ -146,11 +145,31 @@ and `sitemap.xml`. Run the content workflow from the repo root:
 source source_me.sh && ./build_site.py
 ```
 
-For Blackboard Ultra ZIP downloads, table-bearing BBQ files use the converter's
-`--html-to-image` option (the equivalent of `bptools -I`). A build also replaces
-an existing Blackboard ZIP when its pool still contains HTML tables. This
-requires Playwright Chromium for the table screenshots; if conversion fails,
-the affected ZIP download is skipped and the next build can retry it.
+Artifact generation invokes the native `bbq-converter` from the sibling
+`../qti-package-maker-rs/target/release/` checkout. Build that executable as described in
+[INSTALL.md](INSTALL.md) before running a build that generates self-tests.
+Self-test banks run concurrently using half of the detected CPU count (minimum one
+worker); each bank's complete log is printed together.
+
+### Browser downloads
+
+Topic pages generate Blackboard Ultra ZIP, Canvas/ADAPT QTI v1.2 ZIP, and Human-Readable HTML
+from the original BBQ source when the corresponding control is clicked. BBQ and existing
+WeBWorK PGML remain direct file downloads. ORDER/ORD banks retain the existing Blackboard/Canvas
+availability restriction. Ordinary builds skip the three replaced prebuilt export formats.
+
+The first conversion loads the local QTI WebAssembly package. Blackboard table jobs load
+modern-screenshot as needed, and molecule jobs load RDKit and its WebAssembly bytes as needed.
+The control shows conversion status and rendering progress. On a load or conversion error,
+the status explains the failure and the control permits another attempt. Canvas and human HTML
+use direct canonical conversion; Blackboard uses canonical Rust planning and finalization around
+browser PNG capture. Original question identities and grading stay with the source converter.
+
+Human-Readable HTML opens a new tab from the click and displays the converted document when ready.
+Self-test grading and per-question completion remain independent of download conversion.
+The static site serves its vendored dependencies locally; see [INSTALL.md](INSTALL.md) for
+canonical build and dependency refresh commands. Actual Blackboard Ultra import/display/grading
+compatibility remains unverified external evidence.
 
 When task ownership can be established, the run reconciles `site_docs/` against
 the live `bbq-*-questions.txt` set before updating the manifest. It removes orphan
@@ -212,18 +231,33 @@ while the page supplies the searchable problem information.
 
 ## Self-test progress
 
+Self-test blocks use a **New version** button. The website implementation loads
+the question bank and vendored WebAssembly converter after the first click,
+then shows another variant. The build-time self-test remains the no-JavaScript
+default. Fresh isolated integration verifies 482 matching bank mappings and the
+real-WASM journey: correct grading, independent variant completion, and fresh controls when
+returning to a completed question. Separate specification and quality reviews pass. The user
+intentionally restored an earlier generated snapshot. The later scoped permanent migration
+preserves self-test HTML/CRCs, and final local static-site acceptance passes; remote publication
+remains unperformed. The synthetic CRC finding remains separately upstream-owned. See the
+[Phase 2 acceptance report](active_plans/reports/optimized_spindle_phase2_acceptance.md).
+
 The [Self-test Progress](../site_docs/progress/index.md) dashboard tracks which
-embedded self-test questions have been answered fully correctly in the current
-browser. Progress is local to browser `localStorage` under
-`selftest_progress_v1`; it stores completed question IDs and first-correct
-timestamps. Wrong answers, attempts, and accuracy are not stored.
+individual questions have had a fully correct answer in the current browser.
+Each variant is identified by its question CRC and keeps its own completion
+record. Completing one variant does not complete any other variant. A reroll
+resets the answer controls and feedback for a fresh attempt; if it shows a
+previously completed variant, that variant's stored completion remains. A new
+CRC starts incomplete. Bank identity is used to find and group variants, never
+to assign or aggregate completion. Progress remains local to browser
+`localStorage`; wrong answers, attempts, and accuracy are not stored.
 
 Clearing browser site data or using the dashboard reset button removes this
 self-test progress. Daily puzzle stats use separate storage keys and are not
 affected by the self-test reset.
 
-For the manifest schema, the storage format, and how to add a new self-test
-question, see [docs/SELFTEST_PROGRESS.md](SELFTEST_PROGRESS.md).
+For the manifest schema, question-level storage format, and how to add a new
+self-test question, see [SELFTEST_PROGRESS.md](SELFTEST_PROGRESS.md).
 
 ## BBQ task runner
 

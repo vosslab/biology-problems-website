@@ -3,3 +3,4 @@
 # Add one exact repo-relative POSIX path per line for a tracked external source
 # that must retain its upstream form.
 # Example: docs/EXTERNAL_SPECIFICATION.md
+site_docs/assets/package_render/modern_screenshot.mjs

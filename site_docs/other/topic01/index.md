@@ -6,21 +6,13 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 
 <div id="MATCH-cell_receptors-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-MATCH-cell_receptors-questions.txt" download title="Download bbq-MATCH-cell_receptors-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-cell_receptors-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-cell_receptors.zip" download title="Download blackboard_export_zip-MATCH-cell_receptors.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-cell_receptors.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-cell_receptors.zip" download title="Download canvas_qti_v1_2-MATCH-cell_receptors.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-cell_receptors.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-cell_receptors.html', '_blank')" title="View human_readable-MATCH-cell_receptors.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-cell_receptors.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/cell_receptors-matching.pgml" download title="Download cell_receptors-matching.pgml" aria-label="Click to download the WeBWorK PGML file (cell_receptors-matching.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-MATCH-cell_receptors-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-MATCH-cell_receptors-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-cell_receptors.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-MATCH-cell_receptors-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-cell_receptors.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-MATCH-cell_receptors-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-cell_receptors.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/cell_receptors-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -33,8 +25,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-MATCH-cell_receptors-questions.txt" data-bank-id="other/topic01/index.md:bbq-MATCH-cell_receptors-questions.txt">
   {% include "other/topic01/downloads/selftest-MATCH-cell_receptors.html" %}
 
+  </div>
 </details>
 
 
@@ -42,21 +36,13 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 
 <div id="MATCH-cellular_structures-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-MATCH-cellular_structures-questions.txt" download title="Download bbq-MATCH-cellular_structures-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-cellular_structures-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-cellular_structures.zip" download title="Download blackboard_export_zip-MATCH-cellular_structures.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-cellular_structures.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-cellular_structures.zip" download title="Download canvas_qti_v1_2-MATCH-cellular_structures.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-cellular_structures.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-cellular_structures.html', '_blank')" title="View human_readable-MATCH-cellular_structures.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-cellular_structures.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/cellular_structures-matching.pgml" download title="Download cellular_structures-matching.pgml" aria-label="Click to download the WeBWorK PGML file (cellular_structures-matching.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-MATCH-cellular_structures-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-MATCH-cellular_structures-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-cellular_structures.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-MATCH-cellular_structures-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-cellular_structures.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-MATCH-cellular_structures-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-cellular_structures.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/cellular_structures-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -69,8 +55,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-MATCH-cellular_structures-questions.txt" data-bank-id="other/topic01/index.md:bbq-MATCH-cellular_structures-questions.txt">
   {% include "other/topic01/downloads/selftest-MATCH-cellular_structures.html" %}
 
+  </div>
 </details>
 
 
@@ -78,21 +66,13 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 
 <div id="MATCH-intercellular_junctions-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-MATCH-intercellular_junctions-questions.txt" download title="Download bbq-MATCH-intercellular_junctions-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-intercellular_junctions-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-intercellular_junctions.zip" download title="Download blackboard_export_zip-MATCH-intercellular_junctions.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-intercellular_junctions.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-intercellular_junctions.zip" download title="Download canvas_qti_v1_2-MATCH-intercellular_junctions.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-intercellular_junctions.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-intercellular_junctions.html', '_blank')" title="View human_readable-MATCH-intercellular_junctions.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-intercellular_junctions.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/intercellular_junctions-matching.pgml" download title="Download intercellular_junctions-matching.pgml" aria-label="Click to download the WeBWorK PGML file (intercellular_junctions-matching.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-MATCH-intercellular_junctions-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-MATCH-intercellular_junctions-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-intercellular_junctions.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-MATCH-intercellular_junctions-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-intercellular_junctions.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-MATCH-intercellular_junctions-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-intercellular_junctions.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/intercellular_junctions-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -105,8 +85,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-MATCH-intercellular_junctions-questions.txt" data-bank-id="other/topic01/index.md:bbq-MATCH-intercellular_junctions-questions.txt">
   {% include "other/topic01/downloads/selftest-MATCH-intercellular_junctions.html" %}
 
+  </div>
 </details>
 
 
@@ -114,21 +96,13 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 
 <div id="MATCH-senses_receptor_types_by_modality-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-MATCH-senses_receptor_types_by_modality-questions.txt" download title="Download bbq-MATCH-senses_receptor_types_by_modality-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-senses_receptor_types_by_modality-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-senses_receptor_types_by_modality.zip" download title="Download blackboard_export_zip-MATCH-senses_receptor_types_by_modality.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-senses_receptor_types_by_modality.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-senses_receptor_types_by_modality.zip" download title="Download canvas_qti_v1_2-MATCH-senses_receptor_types_by_modality.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-senses_receptor_types_by_modality.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-senses_receptor_types_by_modality.html', '_blank')" title="View human_readable-MATCH-senses_receptor_types_by_modality.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-senses_receptor_types_by_modality.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/senses_receptor_types_by_modality-matching.pgml" download title="Download senses_receptor_types_by_modality-matching.pgml" aria-label="Click to download the WeBWorK PGML file (senses_receptor_types_by_modality-matching.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-MATCH-senses_receptor_types_by_modality-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-MATCH-senses_receptor_types_by_modality-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-senses_receptor_types_by_modality.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-MATCH-senses_receptor_types_by_modality-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-senses_receptor_types_by_modality.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-MATCH-senses_receptor_types_by_modality-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-senses_receptor_types_by_modality.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/senses_receptor_types_by_modality-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -141,8 +115,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-MATCH-senses_receptor_types_by_modality-questions.txt" data-bank-id="other/topic01/index.md:bbq-MATCH-senses_receptor_types_by_modality-questions.txt">
   {% include "other/topic01/downloads/selftest-MATCH-senses_receptor_types_by_modality.html" %}
 
+  </div>
 </details>
 
 
@@ -150,21 +126,13 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 
 <div id="MATCH-senses_signal_transduction_matching_set-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-MATCH-senses_signal_transduction_matching_set-questions.txt" download title="Download bbq-MATCH-senses_signal_transduction_matching_set-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-senses_signal_transduction_matching_set-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-senses_signal_transduction_matching_set.zip" download title="Download blackboard_export_zip-MATCH-senses_signal_transduction_matching_set.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-senses_signal_transduction_matching_set.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-senses_signal_transduction_matching_set.zip" download title="Download canvas_qti_v1_2-MATCH-senses_signal_transduction_matching_set.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-senses_signal_transduction_matching_set.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-senses_signal_transduction_matching_set.html', '_blank')" title="View human_readable-MATCH-senses_signal_transduction_matching_set.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-senses_signal_transduction_matching_set.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/senses_signal_transduction_matching_set-matching.pgml" download title="Download senses_signal_transduction_matching_set-matching.pgml" aria-label="Click to download the WeBWorK PGML file (senses_signal_transduction_matching_set-matching.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-MATCH-senses_signal_transduction_matching_set-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-MATCH-senses_signal_transduction_matching_set-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-senses_signal_transduction_matching_set.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-MATCH-senses_signal_transduction_matching_set-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-senses_signal_transduction_matching_set.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-MATCH-senses_signal_transduction_matching_set-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-senses_signal_transduction_matching_set.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/senses_signal_transduction_matching_set-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -177,8 +145,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-MATCH-senses_signal_transduction_matching_set-questions.txt" data-bank-id="other/topic01/index.md:bbq-MATCH-senses_signal_transduction_matching_set-questions.txt">
   {% include "other/topic01/downloads/selftest-MATCH-senses_signal_transduction_matching_set.html" %}
 
+  </div>
 </details>
 
 
@@ -186,21 +156,13 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 
 <div id="MATCH-senses_taste_quality_to_stimulus-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-MATCH-senses_taste_quality_to_stimulus-questions.txt" download title="Download bbq-MATCH-senses_taste_quality_to_stimulus-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-senses_taste_quality_to_stimulus-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-senses_taste_quality_to_stimulus.zip" download title="Download blackboard_export_zip-MATCH-senses_taste_quality_to_stimulus.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-senses_taste_quality_to_stimulus.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-senses_taste_quality_to_stimulus.zip" download title="Download canvas_qti_v1_2-MATCH-senses_taste_quality_to_stimulus.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-senses_taste_quality_to_stimulus.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-senses_taste_quality_to_stimulus.html', '_blank')" title="View human_readable-MATCH-senses_taste_quality_to_stimulus.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-senses_taste_quality_to_stimulus.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/senses_taste_quality_to_stimulus-matching.pgml" download title="Download senses_taste_quality_to_stimulus-matching.pgml" aria-label="Click to download the WeBWorK PGML file (senses_taste_quality_to_stimulus-matching.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-MATCH-senses_taste_quality_to_stimulus-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-MATCH-senses_taste_quality_to_stimulus-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-senses_taste_quality_to_stimulus.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-MATCH-senses_taste_quality_to_stimulus-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-senses_taste_quality_to_stimulus.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-MATCH-senses_taste_quality_to_stimulus-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-senses_taste_quality_to_stimulus.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/senses_taste_quality_to_stimulus-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -213,8 +175,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-MATCH-senses_taste_quality_to_stimulus-questions.txt" data-bank-id="other/topic01/index.md:bbq-MATCH-senses_taste_quality_to_stimulus-questions.txt">
   {% include "other/topic01/downloads/selftest-MATCH-senses_taste_quality_to_stimulus.html" %}
 
+  </div>
 </details>
 
 
@@ -222,21 +186,13 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 
 <div id="MATCH-stem_cell_potency-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-MATCH-stem_cell_potency-questions.txt" download title="Download bbq-MATCH-stem_cell_potency-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-stem_cell_potency-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-stem_cell_potency.zip" download title="Download blackboard_export_zip-MATCH-stem_cell_potency.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-stem_cell_potency.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-stem_cell_potency.zip" download title="Download canvas_qti_v1_2-MATCH-stem_cell_potency.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-stem_cell_potency.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-stem_cell_potency.html', '_blank')" title="View human_readable-MATCH-stem_cell_potency.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-stem_cell_potency.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/stem_cell_potency-matching.pgml" download title="Download stem_cell_potency-matching.pgml" aria-label="Click to download the WeBWorK PGML file (stem_cell_potency-matching.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-MATCH-stem_cell_potency-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-MATCH-stem_cell_potency-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-stem_cell_potency.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-MATCH-stem_cell_potency-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-stem_cell_potency.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-MATCH-stem_cell_potency-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-stem_cell_potency.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/stem_cell_potency-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -249,8 +205,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-MATCH-stem_cell_potency-questions.txt" data-bank-id="other/topic01/index.md:bbq-MATCH-stem_cell_potency-questions.txt">
   {% include "other/topic01/downloads/selftest-MATCH-stem_cell_potency.html" %}
 
+  </div>
 </details>
 
 
@@ -258,21 +216,13 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 
 <div id="MATCH-trophic_classes-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-MATCH-trophic_classes-questions.txt" download title="Download bbq-MATCH-trophic_classes-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-trophic_classes-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-trophic_classes.zip" download title="Download blackboard_export_zip-MATCH-trophic_classes.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-trophic_classes.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-trophic_classes.zip" download title="Download canvas_qti_v1_2-MATCH-trophic_classes.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-trophic_classes.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-trophic_classes.html', '_blank')" title="View human_readable-MATCH-trophic_classes.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-trophic_classes.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/trophic_classes-matching.pgml" download title="Download trophic_classes-matching.pgml" aria-label="Click to download the WeBWorK PGML file (trophic_classes-matching.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-MATCH-trophic_classes-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-MATCH-trophic_classes-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-trophic_classes.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-MATCH-trophic_classes-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-trophic_classes.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-MATCH-trophic_classes-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-trophic_classes.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/trophic_classes-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -285,8 +235,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-MATCH-trophic_classes-questions.txt" data-bank-id="other/topic01/index.md:bbq-MATCH-trophic_classes-questions.txt">
   {% include "other/topic01/downloads/selftest-MATCH-trophic_classes.html" %}
 
+  </div>
 </details>
 
 
@@ -294,21 +246,13 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 
 <div id="MATCH-trophic_organisms-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-MATCH-trophic_organisms-questions.txt" download title="Download bbq-MATCH-trophic_organisms-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-trophic_organisms-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-trophic_organisms.zip" download title="Download blackboard_export_zip-MATCH-trophic_organisms.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-trophic_organisms.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-trophic_organisms.zip" download title="Download canvas_qti_v1_2-MATCH-trophic_organisms.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-trophic_organisms.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-trophic_organisms.html', '_blank')" title="View human_readable-MATCH-trophic_organisms.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-trophic_organisms.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/trophic_organisms-matching.pgml" download title="Download trophic_organisms-matching.pgml" aria-label="Click to download the WeBWorK PGML file (trophic_organisms-matching.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-MATCH-trophic_organisms-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-MATCH-trophic_organisms-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-trophic_organisms.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-MATCH-trophic_organisms-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-trophic_organisms.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-MATCH-trophic_organisms-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-trophic_organisms.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/trophic_organisms-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -321,8 +265,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-MATCH-trophic_organisms-questions.txt" data-bank-id="other/topic01/index.md:bbq-MATCH-trophic_organisms-questions.txt">
   {% include "other/topic01/downloads/selftest-MATCH-trophic_organisms.html" %}
 
+  </div>
 </details>
 
 
@@ -330,21 +276,13 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 
 <div id="TFMS-cell_theory-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-TFMS-cell_theory-questions.txt" download title="Download bbq-TFMS-cell_theory-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-cell_theory-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-cell_theory.zip" download title="Download blackboard_export_zip-TFMS-cell_theory.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-cell_theory.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-cell_theory.zip" download title="Download canvas_qti_v1_2-TFMS-cell_theory.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-cell_theory.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-cell_theory.html', '_blank')" title="View human_readable-TFMS-cell_theory.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-cell_theory.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/cell_theory.pg" download title="Download cell_theory.pg" aria-label="Click to download the WeBWorK PGML file (cell_theory.pg)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-TFMS-cell_theory-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-TFMS-cell_theory-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-cell_theory.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-TFMS-cell_theory-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-cell_theory.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-TFMS-cell_theory-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-cell_theory.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/cell_theory.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -357,8 +295,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-TFMS-cell_theory-questions.txt" data-bank-id="other/topic01/index.md:bbq-TFMS-cell_theory-questions.txt">
   {% include "other/topic01/downloads/selftest-TFMS-cell_theory.html" %}
 
+  </div>
 </details>
 
 
@@ -366,21 +306,13 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 
 <div id="TFMS-fluid_mosaic_model-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-TFMS-fluid_mosaic_model-questions.txt" download title="Download bbq-TFMS-fluid_mosaic_model-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-fluid_mosaic_model-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-fluid_mosaic_model.zip" download title="Download blackboard_export_zip-TFMS-fluid_mosaic_model.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-fluid_mosaic_model.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-fluid_mosaic_model.zip" download title="Download canvas_qti_v1_2-TFMS-fluid_mosaic_model.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-fluid_mosaic_model.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-fluid_mosaic_model.html', '_blank')" title="View human_readable-TFMS-fluid_mosaic_model.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-fluid_mosaic_model.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/fluid_mosaic_model.pg" download title="Download fluid_mosaic_model.pg" aria-label="Click to download the WeBWorK PGML file (fluid_mosaic_model.pg)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-TFMS-fluid_mosaic_model-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-TFMS-fluid_mosaic_model-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-fluid_mosaic_model.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-TFMS-fluid_mosaic_model-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-fluid_mosaic_model.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-TFMS-fluid_mosaic_model-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-fluid_mosaic_model.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/fluid_mosaic_model.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -393,8 +325,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-TFMS-fluid_mosaic_model-questions.txt" data-bank-id="other/topic01/index.md:bbq-TFMS-fluid_mosaic_model-questions.txt">
   {% include "other/topic01/downloads/selftest-TFMS-fluid_mosaic_model.html" %}
 
+  </div>
 </details>
 
 
@@ -402,21 +336,13 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 
 <div id="TFMS-membrane_diffusion-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-TFMS-membrane_diffusion-questions.txt" download title="Download bbq-TFMS-membrane_diffusion-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-membrane_diffusion-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-membrane_diffusion.zip" download title="Download blackboard_export_zip-TFMS-membrane_diffusion.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-membrane_diffusion.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-membrane_diffusion.zip" download title="Download canvas_qti_v1_2-TFMS-membrane_diffusion.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-membrane_diffusion.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-membrane_diffusion.html', '_blank')" title="View human_readable-TFMS-membrane_diffusion.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-membrane_diffusion.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/membrane_diffusion.pg" download title="Download membrane_diffusion.pg" aria-label="Click to download the WeBWorK PGML file (membrane_diffusion.pg)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-TFMS-membrane_diffusion-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-TFMS-membrane_diffusion-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-membrane_diffusion.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-TFMS-membrane_diffusion-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-membrane_diffusion.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-TFMS-membrane_diffusion-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-membrane_diffusion.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/membrane_diffusion.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -429,8 +355,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-TFMS-membrane_diffusion-questions.txt" data-bank-id="other/topic01/index.md:bbq-TFMS-membrane_diffusion-questions.txt">
   {% include "other/topic01/downloads/selftest-TFMS-membrane_diffusion.html" %}
 
+  </div>
 </details>
 
 
@@ -438,21 +366,13 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 
 <div id="TFMS-membrane_protein_functions-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-TFMS-membrane_protein_functions-questions.txt" download title="Download bbq-TFMS-membrane_protein_functions-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-membrane_protein_functions-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-membrane_protein_functions.zip" download title="Download blackboard_export_zip-TFMS-membrane_protein_functions.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-membrane_protein_functions.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-membrane_protein_functions.zip" download title="Download canvas_qti_v1_2-TFMS-membrane_protein_functions.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-membrane_protein_functions.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-membrane_protein_functions.html', '_blank')" title="View human_readable-TFMS-membrane_protein_functions.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-membrane_protein_functions.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/membrane_protein_functions.pg" download title="Download membrane_protein_functions.pg" aria-label="Click to download the WeBWorK PGML file (membrane_protein_functions.pg)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-TFMS-membrane_protein_functions-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-TFMS-membrane_protein_functions-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-membrane_protein_functions.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-TFMS-membrane_protein_functions-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-membrane_protein_functions.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-TFMS-membrane_protein_functions-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-membrane_protein_functions.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/membrane_protein_functions.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -465,8 +385,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-TFMS-membrane_protein_functions-questions.txt" data-bank-id="other/topic01/index.md:bbq-TFMS-membrane_protein_functions-questions.txt">
   {% include "other/topic01/downloads/selftest-TFMS-membrane_protein_functions.html" %}
 
+  </div>
 </details>
 
 
@@ -474,21 +396,13 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 
 <div id="TFMS-mitosis_and_meiosis-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-TFMS-mitosis_and_meiosis-questions.txt" download title="Download bbq-TFMS-mitosis_and_meiosis-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-mitosis_and_meiosis-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-mitosis_and_meiosis.zip" download title="Download blackboard_export_zip-TFMS-mitosis_and_meiosis.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-mitosis_and_meiosis.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-mitosis_and_meiosis.zip" download title="Download canvas_qti_v1_2-TFMS-mitosis_and_meiosis.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-mitosis_and_meiosis.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-mitosis_and_meiosis.html', '_blank')" title="View human_readable-TFMS-mitosis_and_meiosis.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-mitosis_and_meiosis.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/mitosis_and_meiosis.pg" download title="Download mitosis_and_meiosis.pg" aria-label="Click to download the WeBWorK PGML file (mitosis_and_meiosis.pg)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-TFMS-mitosis_and_meiosis-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-TFMS-mitosis_and_meiosis-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-mitosis_and_meiosis.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-TFMS-mitosis_and_meiosis-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-mitosis_and_meiosis.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-TFMS-mitosis_and_meiosis-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-mitosis_and_meiosis.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/mitosis_and_meiosis.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -501,8 +415,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-TFMS-mitosis_and_meiosis-questions.txt" data-bank-id="other/topic01/index.md:bbq-TFMS-mitosis_and_meiosis-questions.txt">
   {% include "other/topic01/downloads/selftest-TFMS-mitosis_and_meiosis.html" %}
 
+  </div>
 </details>
 
 
@@ -510,21 +426,13 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 
 <div id="TFMS-secondary_messenger-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-TFMS-secondary_messenger-questions.txt" download title="Download bbq-TFMS-secondary_messenger-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-secondary_messenger-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-secondary_messenger.zip" download title="Download blackboard_export_zip-TFMS-secondary_messenger.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-secondary_messenger.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-secondary_messenger.zip" download title="Download canvas_qti_v1_2-TFMS-secondary_messenger.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-secondary_messenger.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-secondary_messenger.html', '_blank')" title="View human_readable-TFMS-secondary_messenger.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-secondary_messenger.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/secondary_messenger.pg" download title="Download secondary_messenger.pg" aria-label="Click to download the WeBWorK PGML file (secondary_messenger.pg)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-TFMS-secondary_messenger-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-TFMS-secondary_messenger-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-secondary_messenger.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-TFMS-secondary_messenger-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-secondary_messenger.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-TFMS-secondary_messenger-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-secondary_messenger.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/secondary_messenger.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -537,8 +445,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-TFMS-secondary_messenger-questions.txt" data-bank-id="other/topic01/index.md:bbq-TFMS-secondary_messenger-questions.txt">
   {% include "other/topic01/downloads/selftest-TFMS-secondary_messenger.html" %}
 
+  </div>
 </details>
 
 
@@ -546,21 +456,13 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 
 <div id="TFMS-senses_chemosensation_smell_taste-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-TFMS-senses_chemosensation_smell_taste-questions.txt" download title="Download bbq-TFMS-senses_chemosensation_smell_taste-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-senses_chemosensation_smell_taste-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-senses_chemosensation_smell_taste.zip" download title="Download blackboard_export_zip-TFMS-senses_chemosensation_smell_taste.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-senses_chemosensation_smell_taste.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-senses_chemosensation_smell_taste.zip" download title="Download canvas_qti_v1_2-TFMS-senses_chemosensation_smell_taste.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-senses_chemosensation_smell_taste.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-senses_chemosensation_smell_taste.html', '_blank')" title="View human_readable-TFMS-senses_chemosensation_smell_taste.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-senses_chemosensation_smell_taste.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/senses_chemosensation_smell_taste.pg" download title="Download senses_chemosensation_smell_taste.pg" aria-label="Click to download the WeBWorK PGML file (senses_chemosensation_smell_taste.pg)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-TFMS-senses_chemosensation_smell_taste-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-TFMS-senses_chemosensation_smell_taste-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-senses_chemosensation_smell_taste.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-TFMS-senses_chemosensation_smell_taste-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-senses_chemosensation_smell_taste.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-TFMS-senses_chemosensation_smell_taste-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-senses_chemosensation_smell_taste.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/senses_chemosensation_smell_taste.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -573,8 +475,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-TFMS-senses_chemosensation_smell_taste-questions.txt" data-bank-id="other/topic01/index.md:bbq-TFMS-senses_chemosensation_smell_taste-questions.txt">
   {% include "other/topic01/downloads/selftest-TFMS-senses_chemosensation_smell_taste.html" %}
 
+  </div>
 </details>
 
 
@@ -582,21 +486,13 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 
 <div id="TFMS-senses_smell_vs_taste-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-TFMS-senses_smell_vs_taste-questions.txt" download title="Download bbq-TFMS-senses_smell_vs_taste-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-senses_smell_vs_taste-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-senses_smell_vs_taste.zip" download title="Download blackboard_export_zip-TFMS-senses_smell_vs_taste.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-senses_smell_vs_taste.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-senses_smell_vs_taste.zip" download title="Download canvas_qti_v1_2-TFMS-senses_smell_vs_taste.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-senses_smell_vs_taste.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-senses_smell_vs_taste.html', '_blank')" title="View human_readable-TFMS-senses_smell_vs_taste.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-senses_smell_vs_taste.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/senses_smell_vs_taste.pg" download title="Download senses_smell_vs_taste.pg" aria-label="Click to download the WeBWorK PGML file (senses_smell_vs_taste.pg)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-TFMS-senses_smell_vs_taste-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-TFMS-senses_smell_vs_taste-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-senses_smell_vs_taste.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-TFMS-senses_smell_vs_taste-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-senses_smell_vs_taste.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-TFMS-senses_smell_vs_taste-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-senses_smell_vs_taste.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/senses_smell_vs_taste.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -609,8 +505,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-TFMS-senses_smell_vs_taste-questions.txt" data-bank-id="other/topic01/index.md:bbq-TFMS-senses_smell_vs_taste-questions.txt">
   {% include "other/topic01/downloads/selftest-TFMS-senses_smell_vs_taste.html" %}
 
+  </div>
 </details>
 
 
@@ -618,21 +516,13 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 
 <div id="TFMS-senses_vision_hearing-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-TFMS-senses_vision_hearing-questions.txt" download title="Download bbq-TFMS-senses_vision_hearing-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-senses_vision_hearing-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-senses_vision_hearing.zip" download title="Download blackboard_export_zip-TFMS-senses_vision_hearing.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-senses_vision_hearing.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-senses_vision_hearing.zip" download title="Download canvas_qti_v1_2-TFMS-senses_vision_hearing.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-senses_vision_hearing.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-senses_vision_hearing.html', '_blank')" title="View human_readable-TFMS-senses_vision_hearing.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-senses_vision_hearing.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/senses_vision_hearing.pg" download title="Download senses_vision_hearing.pg" aria-label="Click to download the WeBWorK PGML file (senses_vision_hearing.pg)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-TFMS-senses_vision_hearing-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-TFMS-senses_vision_hearing-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-senses_vision_hearing.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-TFMS-senses_vision_hearing-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-senses_vision_hearing.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-TFMS-senses_vision_hearing-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-senses_vision_hearing.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/senses_vision_hearing.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -645,8 +535,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-TFMS-senses_vision_hearing-questions.txt" data-bank-id="other/topic01/index.md:bbq-TFMS-senses_vision_hearing-questions.txt">
   {% include "other/topic01/downloads/selftest-TFMS-senses_vision_hearing.html" %}
 
+  </div>
 </details>
 
 
@@ -654,21 +546,13 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 
 <div id="WOMC-cell_receptors-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-WOMC-cell_receptors-questions.txt" download title="Download bbq-WOMC-cell_receptors-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-cell_receptors-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-cell_receptors.zip" download title="Download blackboard_export_zip-WOMC-cell_receptors.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-cell_receptors.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-cell_receptors.zip" download title="Download canvas_qti_v1_2-WOMC-cell_receptors.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-cell_receptors.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-cell_receptors.html', '_blank')" title="View human_readable-WOMC-cell_receptors.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-cell_receptors.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/cell_receptors-which_one.pgml" download title="Download cell_receptors-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (cell_receptors-which_one.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-WOMC-cell_receptors-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-WOMC-cell_receptors-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-cell_receptors.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-WOMC-cell_receptors-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-cell_receptors.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-WOMC-cell_receptors-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-cell_receptors.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/cell_receptors-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -681,8 +565,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-WOMC-cell_receptors-questions.txt" data-bank-id="other/topic01/index.md:bbq-WOMC-cell_receptors-questions.txt">
   {% include "other/topic01/downloads/selftest-WOMC-cell_receptors.html" %}
 
+  </div>
 </details>
 
 
@@ -690,21 +576,13 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 
 <div id="WOMC-cellular_structures-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-WOMC-cellular_structures-questions.txt" download title="Download bbq-WOMC-cellular_structures-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-cellular_structures-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-cellular_structures.zip" download title="Download blackboard_export_zip-WOMC-cellular_structures.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-cellular_structures.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-cellular_structures.zip" download title="Download canvas_qti_v1_2-WOMC-cellular_structures.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-cellular_structures.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-cellular_structures.html', '_blank')" title="View human_readable-WOMC-cellular_structures.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-cellular_structures.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/cellular_structures-which_one.pgml" download title="Download cellular_structures-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (cellular_structures-which_one.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-WOMC-cellular_structures-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-WOMC-cellular_structures-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-cellular_structures.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-WOMC-cellular_structures-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-cellular_structures.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-WOMC-cellular_structures-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-cellular_structures.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/cellular_structures-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -717,8 +595,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-WOMC-cellular_structures-questions.txt" data-bank-id="other/topic01/index.md:bbq-WOMC-cellular_structures-questions.txt">
   {% include "other/topic01/downloads/selftest-WOMC-cellular_structures.html" %}
 
+  </div>
 </details>
 
 
@@ -726,21 +606,13 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 
 <div id="WOMC-intercellular_junctions-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-WOMC-intercellular_junctions-questions.txt" download title="Download bbq-WOMC-intercellular_junctions-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-intercellular_junctions-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-intercellular_junctions.zip" download title="Download blackboard_export_zip-WOMC-intercellular_junctions.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-intercellular_junctions.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-intercellular_junctions.zip" download title="Download canvas_qti_v1_2-WOMC-intercellular_junctions.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-intercellular_junctions.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-intercellular_junctions.html', '_blank')" title="View human_readable-WOMC-intercellular_junctions.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-intercellular_junctions.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/intercellular_junctions-which_one.pgml" download title="Download intercellular_junctions-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (intercellular_junctions-which_one.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-WOMC-intercellular_junctions-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-WOMC-intercellular_junctions-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-intercellular_junctions.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-WOMC-intercellular_junctions-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-intercellular_junctions.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-WOMC-intercellular_junctions-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-intercellular_junctions.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/intercellular_junctions-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -753,8 +625,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-WOMC-intercellular_junctions-questions.txt" data-bank-id="other/topic01/index.md:bbq-WOMC-intercellular_junctions-questions.txt">
   {% include "other/topic01/downloads/selftest-WOMC-intercellular_junctions.html" %}
 
+  </div>
 </details>
 
 
@@ -762,21 +636,13 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 
 <div id="WOMC-senses_receptor_types_by_modality-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-WOMC-senses_receptor_types_by_modality-questions.txt" download title="Download bbq-WOMC-senses_receptor_types_by_modality-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-senses_receptor_types_by_modality-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-senses_receptor_types_by_modality.zip" download title="Download blackboard_export_zip-WOMC-senses_receptor_types_by_modality.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-senses_receptor_types_by_modality.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-senses_receptor_types_by_modality.zip" download title="Download canvas_qti_v1_2-WOMC-senses_receptor_types_by_modality.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-senses_receptor_types_by_modality.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-senses_receptor_types_by_modality.html', '_blank')" title="View human_readable-WOMC-senses_receptor_types_by_modality.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-senses_receptor_types_by_modality.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/senses_receptor_types_by_modality-which_one.pgml" download title="Download senses_receptor_types_by_modality-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (senses_receptor_types_by_modality-which_one.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-WOMC-senses_receptor_types_by_modality-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-WOMC-senses_receptor_types_by_modality-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-senses_receptor_types_by_modality.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-WOMC-senses_receptor_types_by_modality-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-senses_receptor_types_by_modality.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-WOMC-senses_receptor_types_by_modality-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-senses_receptor_types_by_modality.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/senses_receptor_types_by_modality-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -789,8 +655,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-WOMC-senses_receptor_types_by_modality-questions.txt" data-bank-id="other/topic01/index.md:bbq-WOMC-senses_receptor_types_by_modality-questions.txt">
   {% include "other/topic01/downloads/selftest-WOMC-senses_receptor_types_by_modality.html" %}
 
+  </div>
 </details>
 
 
@@ -798,21 +666,13 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 
 <div id="WOMC-senses_signal_transduction_matching_set-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-WOMC-senses_signal_transduction_matching_set-questions.txt" download title="Download bbq-WOMC-senses_signal_transduction_matching_set-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-senses_signal_transduction_matching_set-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-senses_signal_transduction_matching_set.zip" download title="Download blackboard_export_zip-WOMC-senses_signal_transduction_matching_set.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-senses_signal_transduction_matching_set.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-senses_signal_transduction_matching_set.zip" download title="Download canvas_qti_v1_2-WOMC-senses_signal_transduction_matching_set.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-senses_signal_transduction_matching_set.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-senses_signal_transduction_matching_set.html', '_blank')" title="View human_readable-WOMC-senses_signal_transduction_matching_set.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-senses_signal_transduction_matching_set.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/senses_signal_transduction_matching_set-which_one.pgml" download title="Download senses_signal_transduction_matching_set-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (senses_signal_transduction_matching_set-which_one.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-WOMC-senses_signal_transduction_matching_set-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-WOMC-senses_signal_transduction_matching_set-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-senses_signal_transduction_matching_set.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-WOMC-senses_signal_transduction_matching_set-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-senses_signal_transduction_matching_set.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-WOMC-senses_signal_transduction_matching_set-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-senses_signal_transduction_matching_set.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/senses_signal_transduction_matching_set-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -825,8 +685,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-WOMC-senses_signal_transduction_matching_set-questions.txt" data-bank-id="other/topic01/index.md:bbq-WOMC-senses_signal_transduction_matching_set-questions.txt">
   {% include "other/topic01/downloads/selftest-WOMC-senses_signal_transduction_matching_set.html" %}
 
+  </div>
 </details>
 
 
@@ -834,21 +696,13 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 
 <div id="WOMC-senses_taste_quality_to_stimulus-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-WOMC-senses_taste_quality_to_stimulus-questions.txt" download title="Download bbq-WOMC-senses_taste_quality_to_stimulus-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-senses_taste_quality_to_stimulus-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-senses_taste_quality_to_stimulus.zip" download title="Download blackboard_export_zip-WOMC-senses_taste_quality_to_stimulus.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-senses_taste_quality_to_stimulus.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-senses_taste_quality_to_stimulus.zip" download title="Download canvas_qti_v1_2-WOMC-senses_taste_quality_to_stimulus.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-senses_taste_quality_to_stimulus.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-senses_taste_quality_to_stimulus.html', '_blank')" title="View human_readable-WOMC-senses_taste_quality_to_stimulus.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-senses_taste_quality_to_stimulus.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/senses_taste_quality_to_stimulus-which_one.pgml" download title="Download senses_taste_quality_to_stimulus-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (senses_taste_quality_to_stimulus-which_one.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-WOMC-senses_taste_quality_to_stimulus-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-WOMC-senses_taste_quality_to_stimulus-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-senses_taste_quality_to_stimulus.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-WOMC-senses_taste_quality_to_stimulus-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-senses_taste_quality_to_stimulus.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-WOMC-senses_taste_quality_to_stimulus-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-senses_taste_quality_to_stimulus.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/senses_taste_quality_to_stimulus-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -861,8 +715,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-WOMC-senses_taste_quality_to_stimulus-questions.txt" data-bank-id="other/topic01/index.md:bbq-WOMC-senses_taste_quality_to_stimulus-questions.txt">
   {% include "other/topic01/downloads/selftest-WOMC-senses_taste_quality_to_stimulus.html" %}
 
+  </div>
 </details>
 
 
@@ -870,21 +726,13 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 
 <div id="WOMC-stem_cell_potency-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-WOMC-stem_cell_potency-questions.txt" download title="Download bbq-WOMC-stem_cell_potency-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-stem_cell_potency-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-stem_cell_potency.zip" download title="Download blackboard_export_zip-WOMC-stem_cell_potency.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-stem_cell_potency.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-stem_cell_potency.zip" download title="Download canvas_qti_v1_2-WOMC-stem_cell_potency.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-stem_cell_potency.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-stem_cell_potency.html', '_blank')" title="View human_readable-WOMC-stem_cell_potency.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-stem_cell_potency.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/stem_cell_potency-which_one.pgml" download title="Download stem_cell_potency-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (stem_cell_potency-which_one.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-WOMC-stem_cell_potency-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-WOMC-stem_cell_potency-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-stem_cell_potency.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-WOMC-stem_cell_potency-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-stem_cell_potency.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-WOMC-stem_cell_potency-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-stem_cell_potency.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/stem_cell_potency-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -897,8 +745,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-WOMC-stem_cell_potency-questions.txt" data-bank-id="other/topic01/index.md:bbq-WOMC-stem_cell_potency-questions.txt">
   {% include "other/topic01/downloads/selftest-WOMC-stem_cell_potency.html" %}
 
+  </div>
 </details>
 
 
@@ -906,21 +756,13 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 
 <div id="WOMC-trophic_classes-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-WOMC-trophic_classes-questions.txt" download title="Download bbq-WOMC-trophic_classes-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-trophic_classes-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-trophic_classes.zip" download title="Download blackboard_export_zip-WOMC-trophic_classes.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-trophic_classes.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-trophic_classes.zip" download title="Download canvas_qti_v1_2-WOMC-trophic_classes.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-trophic_classes.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-trophic_classes.html', '_blank')" title="View human_readable-WOMC-trophic_classes.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-trophic_classes.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/trophic_classes-which_one.pgml" download title="Download trophic_classes-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (trophic_classes-which_one.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-WOMC-trophic_classes-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-WOMC-trophic_classes-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-trophic_classes.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-WOMC-trophic_classes-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-trophic_classes.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-WOMC-trophic_classes-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-trophic_classes.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/trophic_classes-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -933,8 +775,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-WOMC-trophic_classes-questions.txt" data-bank-id="other/topic01/index.md:bbq-WOMC-trophic_classes-questions.txt">
   {% include "other/topic01/downloads/selftest-WOMC-trophic_classes.html" %}
 
+  </div>
 </details>
 
 
@@ -942,21 +786,13 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 
 <div id="WOMC-trophic_organisms-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-WOMC-trophic_organisms-questions.txt" download title="Download bbq-WOMC-trophic_organisms-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-trophic_organisms-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-trophic_organisms.zip" download title="Download blackboard_export_zip-WOMC-trophic_organisms.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-trophic_organisms.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-trophic_organisms.zip" download title="Download canvas_qti_v1_2-WOMC-trophic_organisms.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-trophic_organisms.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-trophic_organisms.html', '_blank')" title="View human_readable-WOMC-trophic_organisms.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-trophic_organisms.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/trophic_organisms-which_one.pgml" download title="Download trophic_organisms-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (trophic_organisms-which_one.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-WOMC-trophic_organisms-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-WOMC-trophic_organisms-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-trophic_organisms.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-WOMC-trophic_organisms-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-trophic_organisms.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-WOMC-trophic_organisms-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-trophic_organisms.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/trophic_organisms-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -969,8 +805,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-WOMC-trophic_organisms-questions.txt" data-bank-id="other/topic01/index.md:bbq-WOMC-trophic_organisms-questions.txt">
   {% include "other/topic01/downloads/selftest-WOMC-trophic_organisms.html" %}
 
+  </div>
 </details>
 
 
@@ -978,18 +816,12 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
 
 <div id="cell_surf-to-vol_ratio-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-cell_surf-to-vol_ratio-questions.txt" download title="Download bbq-cell_surf-to-vol_ratio-questions.txt" aria-label="Click to download the BBQ Text file (bbq-cell_surf-to-vol_ratio-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-cell_surf-to-vol_ratio.zip" download title="Download blackboard_export_zip-cell_surf-to-vol_ratio.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-cell_surf-to-vol_ratio.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-cell_surf-to-vol_ratio.zip" download title="Download canvas_qti_v1_2-cell_surf-to-vol_ratio.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-cell_surf-to-vol_ratio.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-cell_surf-to-vol_ratio.html', '_blank')" title="View human_readable-cell_surf-to-vol_ratio.html" aria-label="Click to view the Human-Readable TXT file (human_readable-cell_surf-to-vol_ratio.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-cell_surf-to-vol_ratio-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-cell_surf-to-vol_ratio-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-cell_surf-to-vol_ratio.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-cell_surf-to-vol_ratio-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-cell_surf-to-vol_ratio.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-cell_surf-to-vol_ratio-questions.txt" data-format="human_readable" data-filename="human_readable-cell_surf-to-vol_ratio.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -1002,8 +834,10 @@ Students analyze cell structure and function, calculate surface-to-volume ratios
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-cell_surf-to-vol_ratio-questions.txt" data-bank-id="other/topic01/index.md:bbq-cell_surf-to-vol_ratio-questions.txt">
   {% include "other/topic01/downloads/selftest-cell_surf-to-vol_ratio.html" %}
 
+  </div>
 </details>
 
 

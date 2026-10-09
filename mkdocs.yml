@@ -42,6 +42,8 @@ extra_javascript:
   - assets/scripts/custom.js
   - assets/scripts/confetti.browser.min.js
   - assets/scripts/selftest_progress.js
+  - assets/scripts/selftest_reroll.js
+  - assets/scripts/package_download.js
   - assets/scripts/quiz_flow.js
   - assets/scripts/streak.js
 

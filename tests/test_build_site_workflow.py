@@ -10,7 +10,7 @@ import bioproblems_site.bbq_workflow as bbq_workflow
 import bioproblems_site.build_coordinator as build_coordinator
 import bioproblems_site.build_stages as build_stages
 import bioproblems_site.metadata as metadata
-from bioproblems_site.build_contracts import BuildChanges, BuildScope, TaskBuildResult, TopicRef
+from bioproblems_site.build_contracts import BuildScope, TaskBuildResult, TopicRef
 
 
 #============================================
@@ -31,10 +31,6 @@ def test_artifact_only_build_uses_existing_sources_and_selected_topics(
 	monkeypatch.setattr(
 		bbq_workflow, "iter_task_results",
 		lambda *args: pytest.fail("Artifact-only builds must not run BBQ generators"),
-	)
-	monkeypatch.setattr(
-		build_stages, "run_downloads",
-		lambda *args: pytest.fail("Artifact-only builds must not create export downloads"),
 	)
 	events: list[tuple[str, str]] = []
 
@@ -326,7 +322,6 @@ def test_csv_row_finishes_row_artifacts_before_next_generator_and_page_runs_once
 	monkeypatch.setattr(bbq_workflow.bbq_runner, "run_task", run_task)
 	monkeypatch.setattr(build_stages, "selftests_need_run", lambda *args: True)
 	monkeypatch.setattr(build_stages, "topic_page_needs_run", lambda *args: True)
-	monkeypatch.setattr(build_stages, "downloads_need_run", lambda *args: True)
 
 	def record_selftests(
 		topic: TopicRef,
@@ -343,17 +338,6 @@ def test_csv_row_finishes_row_artifacts_before_next_generator_and_page_runs_once
 		build_stages, "run_topic_page",
 		lambda topic, scope: events.append(f"page {topic.topic}") or set(),
 	)
-	def record_downloads(
-		topic: TopicRef,
-		scope: BuildScope,
-		sources: set[Path],
-	) -> set[Path]:
-		events.append(f"downloads {topic.topic} ({len(sources)})")
-		return set()
-
-	monkeypatch.setattr(
-		build_stages, "run_downloads", record_downloads,
-	)
 	monkeypatch.setattr(build_stages, "run_subject_indexes", lambda scope, selected=None: set())
 
 	build_coordinator.build_site(BuildScope(subject="genetics"))
@@ -362,13 +346,10 @@ def test_csv_row_finishes_row_artifacts_before_next_generator_and_page_runs_once
 		"bbq match_generator",
 		"bbq mc_generator",
 		"selftest topic01 (2)",
-		"downloads topic01 (2)",
 		"bbq additional_generator",
 		"selftest topic01 (1)",
-		"downloads topic01 (1)",
 		"bbq next_generator",
 		"selftest topic02 (1)",
-		"downloads topic02 (1)",
 		"page topic01",
 		"page topic02",
 	]
@@ -411,7 +392,6 @@ def test_failed_csv_row_stops_before_downstream_and_later_generators(
 	monkeypatch.setattr(bbq_workflow.bbq_config, "build_pythonpath", lambda settings: "")
 	monkeypatch.setattr(build_stages, "selftests_need_run", lambda *args: True)
 	monkeypatch.setattr(build_stages, "topic_page_needs_run", lambda *args: True)
-	monkeypatch.setattr(build_stages, "downloads_need_run", lambda *args: True)
 	monkeypatch.setattr(
 		build_stages,
 		"run_selftests",
@@ -421,11 +401,6 @@ def test_failed_csv_row_stops_before_downstream_and_later_generators(
 		build_stages,
 		"run_topic_page",
 		lambda topic, scope: events.append(f"page {topic.topic}") or set(),
-	)
-	monkeypatch.setattr(
-		build_stages,
-		"run_downloads",
-		lambda topic, scope, sources: events.append(f"downloads {topic.topic}") or set(),
 	)
 
 	def fail_first_task(task: dict[str, object], *args: object, **kwargs: object) -> bool:
@@ -440,39 +415,15 @@ def test_failed_csv_row_stops_before_downstream_and_later_generators(
 
 
 #============================================
-def test_missing_download_is_rebuilt_for_a_fresh_bbq_source(
-	monkeypatch: pytest.MonkeyPatch,
-	tmp_path: Path,
-) -> None:
-	"""A missing converter artifact is repaired even when its BBQ source is current."""
-	topic_ref = TopicRef("genetics", "topic01")
-	site_docs = tmp_path / "site_docs"
-	source_path = site_docs / "genetics/topic01/bbq-example-questions.txt"
-	output_path = site_docs / "genetics/topic01/downloads/canvas-example.zip"
-	source_path.parent.mkdir(parents=True)
-	source_path.write_text("question\n")
-	monkeypatch.setattr(build_stages, "DEFAULT_SITE_DOCS", site_docs)
-	monkeypatch.setattr(build_stages, "topic_folder", lambda topic: source_path.parent)
-	monkeypatch.setattr(build_stages, "expected_downloads", lambda source: {output_path})
-	generated_sources: list[Path] = []
-
-	def create_downloads(source: str, verbose: bool = True) -> None:
-		generated_sources.append(Path(source))
-		output_path.parent.mkdir(parents=True, exist_ok=True)
-		output_path.write_text("converted")
-
-	monkeypatch.setattr(build_stages.topic_page_module, "generate_download_artifacts", create_downloads)
-	assert build_stages.downloads_need_run(
-		topic_ref,
-		BuildScope(),
-		BuildChanges(),
-		{source_path},
-	)
-
-	build_stages.run_downloads(topic_ref, BuildScope(), {source_path})
-
-	assert generated_sources == [source_path]
-	assert output_path.read_text() == "converted"
+def test_download_counts_track_source_files_and_pgml(tmp_path: Path) -> None:
+	"""Browser package choices do not inflate disk-file counts."""
+	bbq = tmp_path / "bbq-example-questions.txt"
+	bbq.write_text("MC\tQuestion\n")
+	pgml = tmp_path / "example.pgml"
+	pgml.write_text("DOCUMENT();\n")
+	missing_pgml = tmp_path / "missing.pgml"
+	assert build_stages.count_downloads({bbq}, {pgml, missing_pgml}) == (2, 3)
+	assert build_stages.count_downloads({bbq}, set()) == (2, 2)
 
 
 #============================================
@@ -489,7 +440,6 @@ def test_limited_full_build_does_not_expand_topic_scope(
 	)
 	monkeypatch.setattr(build_stages, "selftests_need_run", lambda *args: True)
 	monkeypatch.setattr(build_stages, "topic_page_needs_run", lambda topic, scope, result: False)
-	monkeypatch.setattr(build_stages, "downloads_need_run", lambda *args: False)
 	monkeypatch.setattr(
 		build_stages, "run_selftests",
 		lambda topic, scope, sources: selected_topics.append(topic) or set(),
@@ -526,7 +476,6 @@ def test_full_topic_build_stays_within_selected_topic(
 		"run_topic_page",
 		lambda topic, scope: selected_pages.append(topic) or set(),
 	)
-	monkeypatch.setattr(build_stages, "downloads_need_run", lambda *args: False)
 	monkeypatch.setattr(build_stages, "run_subject_indexes", lambda scope, selected=None: set())
 
 	build_coordinator.build_site(

@@ -8,21 +8,13 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 
 <div id="MATCH-chromosome_alterations-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-MATCH-chromosome_alterations-questions.txt" download title="Download bbq-MATCH-chromosome_alterations-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-chromosome_alterations-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-chromosome_alterations.zip" download title="Download blackboard_export_zip-MATCH-chromosome_alterations.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-chromosome_alterations.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-chromosome_alterations.zip" download title="Download canvas_qti_v1_2-MATCH-chromosome_alterations.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-chromosome_alterations.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-chromosome_alterations.html', '_blank')" title="View human_readable-MATCH-chromosome_alterations.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-chromosome_alterations.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/chromosome_alterations-matching.pgml" download title="Download chromosome_alterations-matching.pgml" aria-label="Click to download the WeBWorK PGML file (chromosome_alterations-matching.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-MATCH-chromosome_alterations-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-MATCH-chromosome_alterations-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-chromosome_alterations.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-MATCH-chromosome_alterations-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-chromosome_alterations.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-MATCH-chromosome_alterations-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-chromosome_alterations.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/chromosome_alterations-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -35,8 +27,10 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-MATCH-chromosome_alterations-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-MATCH-chromosome_alterations-questions.txt">
   {% include "genetics/topic09/downloads/selftest-MATCH-chromosome_alterations.html" %}
 
+  </div>
 </details>
 
 
@@ -44,21 +38,13 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 
 <div id="MATCH-chromosome_shapes-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-MATCH-chromosome_shapes-questions.txt" download title="Download bbq-MATCH-chromosome_shapes-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-chromosome_shapes-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-chromosome_shapes.zip" download title="Download blackboard_export_zip-MATCH-chromosome_shapes.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-chromosome_shapes.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-chromosome_shapes.zip" download title="Download canvas_qti_v1_2-MATCH-chromosome_shapes.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-chromosome_shapes.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-chromosome_shapes.html', '_blank')" title="View human_readable-MATCH-chromosome_shapes.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-chromosome_shapes.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/chromosome_shapes-matching.pgml" download title="Download chromosome_shapes-matching.pgml" aria-label="Click to download the WeBWorK PGML file (chromosome_shapes-matching.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-MATCH-chromosome_shapes-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-MATCH-chromosome_shapes-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-chromosome_shapes.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-MATCH-chromosome_shapes-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-chromosome_shapes.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-MATCH-chromosome_shapes-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-chromosome_shapes.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/chromosome_shapes-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -71,8 +57,10 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-MATCH-chromosome_shapes-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-MATCH-chromosome_shapes-questions.txt">
   {% include "genetics/topic09/downloads/selftest-MATCH-chromosome_shapes.html" %}
 
+  </div>
 </details>
 
 
@@ -80,21 +68,13 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 
 <div id="WOMC-chromosome_alterations-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-WOMC-chromosome_alterations-questions.txt" download title="Download bbq-WOMC-chromosome_alterations-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-chromosome_alterations-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-chromosome_alterations.zip" download title="Download blackboard_export_zip-WOMC-chromosome_alterations.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-chromosome_alterations.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-chromosome_alterations.zip" download title="Download canvas_qti_v1_2-WOMC-chromosome_alterations.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-chromosome_alterations.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-chromosome_alterations.html', '_blank')" title="View human_readable-WOMC-chromosome_alterations.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-chromosome_alterations.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/chromosome_alterations-which_one.pgml" download title="Download chromosome_alterations-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (chromosome_alterations-which_one.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-WOMC-chromosome_alterations-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-WOMC-chromosome_alterations-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-chromosome_alterations.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-WOMC-chromosome_alterations-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-chromosome_alterations.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-WOMC-chromosome_alterations-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-chromosome_alterations.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/chromosome_alterations-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -107,8 +87,10 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-WOMC-chromosome_alterations-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-WOMC-chromosome_alterations-questions.txt">
   {% include "genetics/topic09/downloads/selftest-WOMC-chromosome_alterations.html" %}
 
+  </div>
 </details>
 
 
@@ -116,21 +98,13 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 
 <div id="WOMC-chromosome_shapes-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-WOMC-chromosome_shapes-questions.txt" download title="Download bbq-WOMC-chromosome_shapes-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-chromosome_shapes-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-chromosome_shapes.zip" download title="Download blackboard_export_zip-WOMC-chromosome_shapes.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-chromosome_shapes.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-chromosome_shapes.zip" download title="Download canvas_qti_v1_2-WOMC-chromosome_shapes.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-chromosome_shapes.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-chromosome_shapes.html', '_blank')" title="View human_readable-WOMC-chromosome_shapes.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-chromosome_shapes.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/chromosome_shapes-which_one.pgml" download title="Download chromosome_shapes-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (chromosome_shapes-which_one.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-WOMC-chromosome_shapes-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-WOMC-chromosome_shapes-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-chromosome_shapes.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-WOMC-chromosome_shapes-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-chromosome_shapes.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-WOMC-chromosome_shapes-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-chromosome_shapes.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/chromosome_shapes-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -143,8 +117,10 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-WOMC-chromosome_shapes-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-WOMC-chromosome_shapes-questions.txt">
   {% include "genetics/topic09/downloads/selftest-WOMC-chromosome_shapes.html" %}
 
+  </div>
 </details>
 
 
@@ -152,18 +128,12 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 
 <div id="cytogenetic_notation-aneuploidy-5_choices-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-cytogenetic_notation-aneuploidy-5_choices-questions.txt" download title="Download bbq-cytogenetic_notation-aneuploidy-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-cytogenetic_notation-aneuploidy-5_choices-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-cytogenetic_notation-aneuploidy-5_choices.zip" download title="Download blackboard_export_zip-cytogenetic_notation-aneuploidy-5_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-cytogenetic_notation-aneuploidy-5_choices.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-cytogenetic_notation-aneuploidy-5_choices.zip" download title="Download canvas_qti_v1_2-cytogenetic_notation-aneuploidy-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-cytogenetic_notation-aneuploidy-5_choices.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-cytogenetic_notation-aneuploidy-5_choices.html', '_blank')" title="View human_readable-cytogenetic_notation-aneuploidy-5_choices.html" aria-label="Click to view the Human-Readable TXT file (human_readable-cytogenetic_notation-aneuploidy-5_choices.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-cytogenetic_notation-aneuploidy-5_choices-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-cytogenetic_notation-aneuploidy-5_choices-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-cytogenetic_notation-aneuploidy-5_choices.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-cytogenetic_notation-aneuploidy-5_choices-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-cytogenetic_notation-aneuploidy-5_choices.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-cytogenetic_notation-aneuploidy-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-cytogenetic_notation-aneuploidy-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -176,8 +146,10 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-cytogenetic_notation-aneuploidy-5_choices-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-cytogenetic_notation-aneuploidy-5_choices-questions.txt">
   {% include "genetics/topic09/downloads/selftest-cytogenetic_notation-aneuploidy-5_choices.html" %}
 
+  </div>
 </details>
 
 
@@ -185,18 +157,12 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 
 <div id="cytogenetic_notation-band_order-5_choices-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-cytogenetic_notation-band_order-5_choices-questions.txt" download title="Download bbq-cytogenetic_notation-band_order-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-cytogenetic_notation-band_order-5_choices-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-cytogenetic_notation-band_order-5_choices.zip" download title="Download blackboard_export_zip-cytogenetic_notation-band_order-5_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-cytogenetic_notation-band_order-5_choices.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-cytogenetic_notation-band_order-5_choices.zip" download title="Download canvas_qti_v1_2-cytogenetic_notation-band_order-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-cytogenetic_notation-band_order-5_choices.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-cytogenetic_notation-band_order-5_choices.html', '_blank')" title="View human_readable-cytogenetic_notation-band_order-5_choices.html" aria-label="Click to view the Human-Readable TXT file (human_readable-cytogenetic_notation-band_order-5_choices.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-cytogenetic_notation-band_order-5_choices-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-cytogenetic_notation-band_order-5_choices-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-cytogenetic_notation-band_order-5_choices.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-cytogenetic_notation-band_order-5_choices-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-cytogenetic_notation-band_order-5_choices.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-cytogenetic_notation-band_order-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-cytogenetic_notation-band_order-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -209,8 +175,10 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-cytogenetic_notation-band_order-5_choices-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-cytogenetic_notation-band_order-5_choices-questions.txt">
   {% include "genetics/topic09/downloads/selftest-cytogenetic_notation-band_order-5_choices.html" %}
 
+  </div>
 </details>
 
 
@@ -218,18 +186,12 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 
 <div id="cytogenetic_notation-disorders-5_choices-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-cytogenetic_notation-disorders-5_choices-questions.txt" download title="Download bbq-cytogenetic_notation-disorders-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-cytogenetic_notation-disorders-5_choices-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-cytogenetic_notation-disorders-5_choices.zip" download title="Download blackboard_export_zip-cytogenetic_notation-disorders-5_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-cytogenetic_notation-disorders-5_choices.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-cytogenetic_notation-disorders-5_choices.zip" download title="Download canvas_qti_v1_2-cytogenetic_notation-disorders-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-cytogenetic_notation-disorders-5_choices.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-cytogenetic_notation-disorders-5_choices.html', '_blank')" title="View human_readable-cytogenetic_notation-disorders-5_choices.html" aria-label="Click to view the Human-Readable TXT file (human_readable-cytogenetic_notation-disorders-5_choices.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-cytogenetic_notation-disorders-5_choices-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-cytogenetic_notation-disorders-5_choices-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-cytogenetic_notation-disorders-5_choices.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-cytogenetic_notation-disorders-5_choices-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-cytogenetic_notation-disorders-5_choices.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-cytogenetic_notation-disorders-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-cytogenetic_notation-disorders-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -242,8 +204,10 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-cytogenetic_notation-disorders-5_choices-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-cytogenetic_notation-disorders-5_choices-questions.txt">
   {% include "genetics/topic09/downloads/selftest-cytogenetic_notation-disorders-5_choices.html" %}
 
+  </div>
 </details>
 
 
@@ -251,18 +215,12 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 
 <div id="cytogenetic_notation-rearrangements-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-cytogenetic_notation-rearrangements-questions.txt" download title="Download bbq-cytogenetic_notation-rearrangements-questions.txt" aria-label="Click to download the BBQ Text file (bbq-cytogenetic_notation-rearrangements-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-cytogenetic_notation-rearrangements.zip" download title="Download blackboard_export_zip-cytogenetic_notation-rearrangements.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-cytogenetic_notation-rearrangements.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-cytogenetic_notation-rearrangements.zip" download title="Download canvas_qti_v1_2-cytogenetic_notation-rearrangements.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-cytogenetic_notation-rearrangements.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-cytogenetic_notation-rearrangements.html', '_blank')" title="View human_readable-cytogenetic_notation-rearrangements.html" aria-label="Click to view the Human-Readable TXT file (human_readable-cytogenetic_notation-rearrangements.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-cytogenetic_notation-rearrangements-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-cytogenetic_notation-rearrangements-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-cytogenetic_notation-rearrangements.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-cytogenetic_notation-rearrangements-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-cytogenetic_notation-rearrangements.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-cytogenetic_notation-rearrangements-questions.txt" data-format="human_readable" data-filename="human_readable-cytogenetic_notation-rearrangements.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -275,8 +233,10 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-cytogenetic_notation-rearrangements-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-cytogenetic_notation-rearrangements-questions.txt">
   {% include "genetics/topic09/downloads/selftest-cytogenetic_notation-rearrangements.html" %}
 
+  </div>
 </details>
 
 
@@ -284,18 +244,12 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 
 <div id="cytogenetic_notation-sub-band_notation-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-cytogenetic_notation-sub-band_notation-questions.txt" download title="Download bbq-cytogenetic_notation-sub-band_notation-questions.txt" aria-label="Click to download the BBQ Text file (bbq-cytogenetic_notation-sub-band_notation-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-cytogenetic_notation-sub-band_notation.zip" download title="Download blackboard_export_zip-cytogenetic_notation-sub-band_notation.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-cytogenetic_notation-sub-band_notation.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-cytogenetic_notation-sub-band_notation.zip" download title="Download canvas_qti_v1_2-cytogenetic_notation-sub-band_notation.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-cytogenetic_notation-sub-band_notation.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-cytogenetic_notation-sub-band_notation.html', '_blank')" title="View human_readable-cytogenetic_notation-sub-band_notation.html" aria-label="Click to view the Human-Readable TXT file (human_readable-cytogenetic_notation-sub-band_notation.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-cytogenetic_notation-sub-band_notation-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-cytogenetic_notation-sub-band_notation-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-cytogenetic_notation-sub-band_notation.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-cytogenetic_notation-sub-band_notation-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-cytogenetic_notation-sub-band_notation.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-cytogenetic_notation-sub-band_notation-questions.txt" data-format="human_readable" data-filename="human_readable-cytogenetic_notation-sub-band_notation.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -308,8 +262,10 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-cytogenetic_notation-sub-band_notation-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-cytogenetic_notation-sub-band_notation-questions.txt">
   {% include "genetics/topic09/downloads/selftest-cytogenetic_notation-sub-band_notation.html" %}
 
+  </div>
 </details>
 
 
@@ -317,18 +273,12 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 
 <div id="deletion_mutant_random-04_genes-MC-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_random-04_genes-MC-questions.txt" download title="Download bbq-deletion_mutant_random-04_genes-MC-questions.txt" aria-label="Click to download the BBQ Text file (bbq-deletion_mutant_random-04_genes-MC-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-deletion_mutant_random-04_genes-MC.zip" download title="Download blackboard_export_zip-deletion_mutant_random-04_genes-MC.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-deletion_mutant_random-04_genes-MC.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-deletion_mutant_random-04_genes-MC.zip" download title="Download canvas_qti_v1_2-deletion_mutant_random-04_genes-MC.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-deletion_mutant_random-04_genes-MC.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-deletion_mutant_random-04_genes-MC.html', '_blank')" title="View human_readable-deletion_mutant_random-04_genes-MC.html" aria-label="Click to view the Human-Readable TXT file (human_readable-deletion_mutant_random-04_genes-MC.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_random-04_genes-MC-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-deletion_mutant_random-04_genes-MC-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-deletion_mutant_random-04_genes-MC.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-deletion_mutant_random-04_genes-MC-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-deletion_mutant_random-04_genes-MC.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-deletion_mutant_random-04_genes-MC-questions.txt" data-format="human_readable" data-filename="human_readable-deletion_mutant_random-04_genes-MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -341,8 +291,10 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-deletion_mutant_random-04_genes-MC-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-deletion_mutant_random-04_genes-MC-questions.txt">
   {% include "genetics/topic09/downloads/selftest-deletion_mutant_random-04_genes-MC.html" %}
 
+  </div>
 </details>
 
 
@@ -350,18 +302,12 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 
 <div id="deletion_mutant_random-05_genes-MC-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_random-05_genes-MC-questions.txt" download title="Download bbq-deletion_mutant_random-05_genes-MC-questions.txt" aria-label="Click to download the BBQ Text file (bbq-deletion_mutant_random-05_genes-MC-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-deletion_mutant_random-05_genes-MC.zip" download title="Download blackboard_export_zip-deletion_mutant_random-05_genes-MC.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-deletion_mutant_random-05_genes-MC.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-deletion_mutant_random-05_genes-MC.zip" download title="Download canvas_qti_v1_2-deletion_mutant_random-05_genes-MC.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-deletion_mutant_random-05_genes-MC.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-deletion_mutant_random-05_genes-MC.html', '_blank')" title="View human_readable-deletion_mutant_random-05_genes-MC.html" aria-label="Click to view the Human-Readable TXT file (human_readable-deletion_mutant_random-05_genes-MC.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_random-05_genes-MC-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-deletion_mutant_random-05_genes-MC-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-deletion_mutant_random-05_genes-MC.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-deletion_mutant_random-05_genes-MC-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-deletion_mutant_random-05_genes-MC.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-deletion_mutant_random-05_genes-MC-questions.txt" data-format="human_readable" data-filename="human_readable-deletion_mutant_random-05_genes-MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -374,8 +320,10 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-deletion_mutant_random-05_genes-MC-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-deletion_mutant_random-05_genes-MC-questions.txt">
   {% include "genetics/topic09/downloads/selftest-deletion_mutant_random-05_genes-MC.html" %}
 
+  </div>
 </details>
 
 
@@ -383,18 +331,12 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 
 <div id="deletion_mutant_random-06_genes-MC-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_random-06_genes-MC-questions.txt" download title="Download bbq-deletion_mutant_random-06_genes-MC-questions.txt" aria-label="Click to download the BBQ Text file (bbq-deletion_mutant_random-06_genes-MC-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-deletion_mutant_random-06_genes-MC.zip" download title="Download blackboard_export_zip-deletion_mutant_random-06_genes-MC.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-deletion_mutant_random-06_genes-MC.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-deletion_mutant_random-06_genes-MC.zip" download title="Download canvas_qti_v1_2-deletion_mutant_random-06_genes-MC.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-deletion_mutant_random-06_genes-MC.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-deletion_mutant_random-06_genes-MC.html', '_blank')" title="View human_readable-deletion_mutant_random-06_genes-MC.html" aria-label="Click to view the Human-Readable TXT file (human_readable-deletion_mutant_random-06_genes-MC.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_random-06_genes-MC-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-deletion_mutant_random-06_genes-MC-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-deletion_mutant_random-06_genes-MC.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-deletion_mutant_random-06_genes-MC-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-deletion_mutant_random-06_genes-MC.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-deletion_mutant_random-06_genes-MC-questions.txt" data-format="human_readable" data-filename="human_readable-deletion_mutant_random-06_genes-MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -407,8 +349,10 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-deletion_mutant_random-06_genes-MC-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-deletion_mutant_random-06_genes-MC-questions.txt">
   {% include "genetics/topic09/downloads/selftest-deletion_mutant_random-06_genes-MC.html" %}
 
+  </div>
 </details>
 
 
@@ -416,18 +360,12 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 
 <div id="deletion_mutant_words-04_genes-MC-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_words-04_genes-MC-questions.txt" download title="Download bbq-deletion_mutant_words-04_genes-MC-questions.txt" aria-label="Click to download the BBQ Text file (bbq-deletion_mutant_words-04_genes-MC-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-deletion_mutant_words-04_genes-MC.zip" download title="Download blackboard_export_zip-deletion_mutant_words-04_genes-MC.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-deletion_mutant_words-04_genes-MC.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-deletion_mutant_words-04_genes-MC.zip" download title="Download canvas_qti_v1_2-deletion_mutant_words-04_genes-MC.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-deletion_mutant_words-04_genes-MC.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-deletion_mutant_words-04_genes-MC.html', '_blank')" title="View human_readable-deletion_mutant_words-04_genes-MC.html" aria-label="Click to view the Human-Readable TXT file (human_readable-deletion_mutant_words-04_genes-MC.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_words-04_genes-MC-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-deletion_mutant_words-04_genes-MC-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-deletion_mutant_words-04_genes-MC.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-deletion_mutant_words-04_genes-MC-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-deletion_mutant_words-04_genes-MC.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-deletion_mutant_words-04_genes-MC-questions.txt" data-format="human_readable" data-filename="human_readable-deletion_mutant_words-04_genes-MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -440,8 +378,10 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-deletion_mutant_words-04_genes-MC-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-deletion_mutant_words-04_genes-MC-questions.txt">
   {% include "genetics/topic09/downloads/selftest-deletion_mutant_words-04_genes-MC.html" %}
 
+  </div>
 </details>
 
 
@@ -449,18 +389,12 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 
 <div id="deletion_mutant_words-05_genes-MC-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_words-05_genes-MC-questions.txt" download title="Download bbq-deletion_mutant_words-05_genes-MC-questions.txt" aria-label="Click to download the BBQ Text file (bbq-deletion_mutant_words-05_genes-MC-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-deletion_mutant_words-05_genes-MC.zip" download title="Download blackboard_export_zip-deletion_mutant_words-05_genes-MC.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-deletion_mutant_words-05_genes-MC.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-deletion_mutant_words-05_genes-MC.zip" download title="Download canvas_qti_v1_2-deletion_mutant_words-05_genes-MC.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-deletion_mutant_words-05_genes-MC.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-deletion_mutant_words-05_genes-MC.html', '_blank')" title="View human_readable-deletion_mutant_words-05_genes-MC.html" aria-label="Click to view the Human-Readable TXT file (human_readable-deletion_mutant_words-05_genes-MC.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_words-05_genes-MC-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-deletion_mutant_words-05_genes-MC-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-deletion_mutant_words-05_genes-MC.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-deletion_mutant_words-05_genes-MC-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-deletion_mutant_words-05_genes-MC.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-deletion_mutant_words-05_genes-MC-questions.txt" data-format="human_readable" data-filename="human_readable-deletion_mutant_words-05_genes-MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -473,8 +407,10 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-deletion_mutant_words-05_genes-MC-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-deletion_mutant_words-05_genes-MC-questions.txt">
   {% include "genetics/topic09/downloads/selftest-deletion_mutant_words-05_genes-MC.html" %}
 
+  </div>
 </details>
 
 
@@ -482,18 +418,12 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 
 <div id="deletion_mutant_words-06_genes-MC-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_words-06_genes-MC-questions.txt" download title="Download bbq-deletion_mutant_words-06_genes-MC-questions.txt" aria-label="Click to download the BBQ Text file (bbq-deletion_mutant_words-06_genes-MC-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-deletion_mutant_words-06_genes-MC.zip" download title="Download blackboard_export_zip-deletion_mutant_words-06_genes-MC.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-deletion_mutant_words-06_genes-MC.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-deletion_mutant_words-06_genes-MC.zip" download title="Download canvas_qti_v1_2-deletion_mutant_words-06_genes-MC.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-deletion_mutant_words-06_genes-MC.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-deletion_mutant_words-06_genes-MC.html', '_blank')" title="View human_readable-deletion_mutant_words-06_genes-MC.html" aria-label="Click to view the Human-Readable TXT file (human_readable-deletion_mutant_words-06_genes-MC.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-deletion_mutant_words-06_genes-MC-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-deletion_mutant_words-06_genes-MC-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-deletion_mutant_words-06_genes-MC.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-deletion_mutant_words-06_genes-MC-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-deletion_mutant_words-06_genes-MC.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-deletion_mutant_words-06_genes-MC-questions.txt" data-format="human_readable" data-filename="human_readable-deletion_mutant_words-06_genes-MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -506,8 +436,10 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-deletion_mutant_words-06_genes-MC-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-deletion_mutant_words-06_genes-MC-questions.txt">
   {% include "genetics/topic09/downloads/selftest-deletion_mutant_words-06_genes-MC.html" %}
 
+  </div>
 </details>
 
 
@@ -515,18 +447,12 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 
 <div id="letter_translocation_problem_color-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-letter_translocation_problem_color-questions.txt" download title="Download bbq-letter_translocation_problem_color-questions.txt" aria-label="Click to download the BBQ Text file (bbq-letter_translocation_problem_color-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-letter_translocation_problem_color.zip" download title="Download blackboard_export_zip-letter_translocation_problem_color.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-letter_translocation_problem_color.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-letter_translocation_problem_color.zip" download title="Download canvas_qti_v1_2-letter_translocation_problem_color.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-letter_translocation_problem_color.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-letter_translocation_problem_color.html', '_blank')" title="View human_readable-letter_translocation_problem_color.html" aria-label="Click to view the Human-Readable TXT file (human_readable-letter_translocation_problem_color.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-letter_translocation_problem_color-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-letter_translocation_problem_color-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-letter_translocation_problem_color.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-letter_translocation_problem_color-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-letter_translocation_problem_color.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-letter_translocation_problem_color-questions.txt" data-format="human_readable" data-filename="human_readable-letter_translocation_problem_color.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -539,8 +465,10 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-letter_translocation_problem_color-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-letter_translocation_problem_color-questions.txt">
   {% include "genetics/topic09/downloads/selftest-letter_translocation_problem_color.html" %}
 
+  </div>
 </details>
 
 
@@ -548,18 +476,12 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 
 <div id="polyploid-gametes-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-polyploid-gametes-questions.txt" download title="Download bbq-polyploid-gametes-questions.txt" aria-label="Click to download the BBQ Text file (bbq-polyploid-gametes-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-polyploid-gametes.zip" download title="Download blackboard_export_zip-polyploid-gametes.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-polyploid-gametes.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-polyploid-gametes.zip" download title="Download canvas_qti_v1_2-polyploid-gametes.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-polyploid-gametes.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-polyploid-gametes.html', '_blank')" title="View human_readable-polyploid-gametes.html" aria-label="Click to view the Human-Readable TXT file (human_readable-polyploid-gametes.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-polyploid-gametes-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-polyploid-gametes-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-polyploid-gametes.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-polyploid-gametes-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-polyploid-gametes.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-polyploid-gametes-questions.txt" data-format="human_readable" data-filename="human_readable-polyploid-gametes.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -572,8 +494,10 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-polyploid-gametes-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-polyploid-gametes-questions.txt">
   {% include "genetics/topic09/downloads/selftest-polyploid-gametes.html" %}
 
+  </div>
 </details>
 
 
@@ -581,18 +505,12 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 
 <div id="polyploid-monoploid_v_haploid-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-polyploid-monoploid_v_haploid-questions.txt" download title="Download bbq-polyploid-monoploid_v_haploid-questions.txt" aria-label="Click to download the BBQ Text file (bbq-polyploid-monoploid_v_haploid-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-polyploid-monoploid_v_haploid.zip" download title="Download blackboard_export_zip-polyploid-monoploid_v_haploid.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-polyploid-monoploid_v_haploid.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-polyploid-monoploid_v_haploid.zip" download title="Download canvas_qti_v1_2-polyploid-monoploid_v_haploid.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-polyploid-monoploid_v_haploid.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-polyploid-monoploid_v_haploid.html', '_blank')" title="View human_readable-polyploid-monoploid_v_haploid.html" aria-label="Click to view the Human-Readable TXT file (human_readable-polyploid-monoploid_v_haploid.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-polyploid-monoploid_v_haploid-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-polyploid-monoploid_v_haploid-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-polyploid-monoploid_v_haploid.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-polyploid-monoploid_v_haploid-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-polyploid-monoploid_v_haploid.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-polyploid-monoploid_v_haploid-questions.txt" data-format="human_readable" data-filename="human_readable-polyploid-monoploid_v_haploid.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -605,8 +523,10 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-polyploid-monoploid_v_haploid-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-polyploid-monoploid_v_haploid-questions.txt">
   {% include "genetics/topic09/downloads/selftest-polyploid-monoploid_v_haploid.html" %}
 
+  </div>
 </details>
 
 
@@ -614,18 +534,12 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 
 <div id="robertsonian-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-robertsonian-questions.txt" download title="Download bbq-robertsonian-questions.txt" aria-label="Click to download the BBQ Text file (bbq-robertsonian-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-robertsonian.zip" download title="Download blackboard_export_zip-robertsonian.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-robertsonian.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-robertsonian.zip" download title="Download canvas_qti_v1_2-robertsonian.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-robertsonian.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-robertsonian.html', '_blank')" title="View human_readable-robertsonian.html" aria-label="Click to view the Human-Readable TXT file (human_readable-robertsonian.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-robertsonian-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-robertsonian-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-robertsonian.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-robertsonian-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-robertsonian.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-robertsonian-questions.txt" data-format="human_readable" data-filename="human_readable-robertsonian.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -638,8 +552,10 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-robertsonian-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-robertsonian-questions.txt">
   {% include "genetics/topic09/downloads/selftest-robertsonian.html" %}
 
+  </div>
 </details>
 
 
@@ -647,18 +563,12 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 
 <div id="translocation_meiosis_table-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-translocation_meiosis_table-questions.txt" download title="Download bbq-translocation_meiosis_table-questions.txt" aria-label="Click to download the BBQ Text file (bbq-translocation_meiosis_table-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-translocation_meiosis_table.zip" download title="Download blackboard_export_zip-translocation_meiosis_table.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-translocation_meiosis_table.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-translocation_meiosis_table.zip" download title="Download canvas_qti_v1_2-translocation_meiosis_table.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-translocation_meiosis_table.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-translocation_meiosis_table.html', '_blank')" title="View human_readable-translocation_meiosis_table.html" aria-label="Click to view the Human-Readable TXT file (human_readable-translocation_meiosis_table.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-translocation_meiosis_table-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-translocation_meiosis_table-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-translocation_meiosis_table.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-translocation_meiosis_table-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-translocation_meiosis_table.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-translocation_meiosis_table-questions.txt" data-format="human_readable" data-filename="human_readable-translocation_meiosis_table.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -671,8 +581,10 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-translocation_meiosis_table-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-translocation_meiosis_table-questions.txt">
   {% include "genetics/topic09/downloads/selftest-translocation_meiosis_table.html" %}
 
+  </div>
 </details>
 
 

@@ -6,21 +6,13 @@ Students discuss scientific misconduct, GMO ethics, bioweapons, de-extinction, C
 
 <div id="MATCH-theranos_people-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-MATCH-theranos_people-questions.txt" download title="Download bbq-MATCH-theranos_people-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-theranos_people-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-theranos_people.zip" download title="Download blackboard_export_zip-MATCH-theranos_people.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-theranos_people.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-theranos_people.zip" download title="Download canvas_qti_v1_2-MATCH-theranos_people.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-theranos_people.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-theranos_people.html', '_blank')" title="View human_readable-MATCH-theranos_people.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-theranos_people.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/theranos_people-matching.pgml" download title="Download theranos_people-matching.pgml" aria-label="Click to download the WeBWorK PGML file (theranos_people-matching.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-MATCH-theranos_people-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-MATCH-theranos_people-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-theranos_people.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-MATCH-theranos_people-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-theranos_people.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-MATCH-theranos_people-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-theranos_people.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/theranos_people-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -33,8 +25,10 @@ Students discuss scientific misconduct, GMO ethics, bioweapons, de-extinction, C
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-MATCH-theranos_people-questions.txt" data-bank-id="biotechnology/topic07/index.md:bbq-MATCH-theranos_people-questions.txt">
   {% include "biotechnology/topic07/downloads/selftest-MATCH-theranos_people.html" %}
 
+  </div>
 </details>
 
 
@@ -42,21 +36,13 @@ Students discuss scientific misconduct, GMO ethics, bioweapons, de-extinction, C
 
 <div id="WOMC-theranos_people-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-WOMC-theranos_people-questions.txt" download title="Download bbq-WOMC-theranos_people-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-theranos_people-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-theranos_people.zip" download title="Download blackboard_export_zip-WOMC-theranos_people.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-theranos_people.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-theranos_people.zip" download title="Download canvas_qti_v1_2-WOMC-theranos_people.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-theranos_people.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-theranos_people.html', '_blank')" title="View human_readable-WOMC-theranos_people.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-theranos_people.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/theranos_people-which_one.pgml" download title="Download theranos_people-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (theranos_people-which_one.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-WOMC-theranos_people-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-WOMC-theranos_people-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-theranos_people.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-WOMC-theranos_people-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-theranos_people.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-WOMC-theranos_people-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-theranos_people.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/theranos_people-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -69,8 +55,10 @@ Students discuss scientific misconduct, GMO ethics, bioweapons, de-extinction, C
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-WOMC-theranos_people-questions.txt" data-bank-id="biotechnology/topic07/index.md:bbq-WOMC-theranos_people-questions.txt">
   {% include "biotechnology/topic07/downloads/selftest-WOMC-theranos_people.html" %}
 
+  </div>
 </details>
 
 

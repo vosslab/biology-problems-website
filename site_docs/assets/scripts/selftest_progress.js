@@ -2,9 +2,10 @@
 
 (function () {
 	var STORAGE_KEY = "selftest_progress_v1";
-	var MANIFEST_URL = "/assets/data/selftest_question_manifest.json";
+	var siteBase = new URL("../", document.currentScript.src);
+	var MANIFEST_URL = new URL("data/selftest_question_manifest.json", siteBase).href;
+	var pageBase = new URL("../", siteBase).pathname;
 	var manifestCache = null;
-	var initializedPages = {};
 
 	function createEmptyState() {
 		return {
@@ -139,6 +140,7 @@
 	// for directory ("/x/") or extensionless URLs.
 	function normalizePagePath(pathname) {
 		var path = pathname || "";
+		if (path.indexOf(pageBase) === 0) { path = path.slice(pageBase.length); }
 		path = path.replace(/^\/+/, "");
 		if (path === "") {
 			return "index.md";
@@ -277,7 +279,7 @@
 		});
 	}
 
-	var CORRECT_SOUND_URL = "/assets/sounds/mixkit-correct-positive-notification-957.wav";
+	var CORRECT_SOUND_URL = new URL("sounds/mixkit-correct-positive-notification-957.wav", siteBase).href;
 
 	function playCorrectSound() {
 		try {
@@ -438,10 +440,11 @@
 					launchStarPop(document.getElementById("question_html_" + row.crc));
 					var markResult = markCompleted(row.questionId);
 					setQuestionStatus(row.questionId);
-					updateTopicSummary(rows, manifest);
+					var current = displayedPage(manifest);
+					updateTopicSummary(current.rows, current.manifest);
 					if (!wasComplete && markResult.changed) {
 						showPopup("Question completed");
-						var summary = topicSummary(row.topicKey, manifest);
+						var summary = topicSummary(row.topicKey, current.manifest);
 						if (summary.isComplete) {
 							showPopup("Topic complete");
 						}
@@ -512,7 +515,7 @@
 			Object.keys(subject.topics).sort().forEach(function (topicKey) {
 				var topic = subject.topics[topicKey];
 				var completeClass = topic.completed === topic.total ? " class='selftest-topic-complete'" : "";
-				var href = "/" + topic.pagePath.replace(/index\.md$/, "");
+				var href = pageBase + topic.pagePath.replace(/index\.md$/, "");
 				html += "<li" + completeClass + "><a href='" + href + "'>" +
 					topic.title + "</a>: " + topic.completed + " / " +
 					topic.total + " completed</li>";
@@ -536,23 +539,38 @@
 		}
 	}
 
+	function displayedPage(manifest) {
+		// Bank metadata locates the displayed slot; its current CRC owns completion.
+		var rows = getCurrentRows(manifest).map(function (row) {
+			var hosts = Array.from(document.querySelectorAll(".qti-selftest[data-bank-id]"));
+			var host = hosts.find(function (box) { return box.dataset.bankId === row.bankId; });
+			var item = host && host.querySelector("[id^='question_html_']");
+			var crc = item ? item.id.slice("question_html_".length) : row.crc;
+			return Object.assign({}, row, { questionId: crc, crc: crc });
+		});
+		var pagePath = normalizePagePath(window.location.pathname);
+		var displayedManifest = Object.assign({}, manifest, { questions: manifest.questions.map(function (row) {
+			if (row.pagePath !== pagePath) { return row; }
+			return rows.find(function (displayed) { return displayed.bankId === row.bankId; }) || row;
+		}) });
+		return { rows: rows, manifest: displayedManifest };
+	}
+
 	function initPage() {
 		// Instructor catalog pages do not need progress state or storage warnings.
 		if (document.querySelector('[data-selftest-personalization="off"]')) {
 			return;
 		}
-		var pagePath = normalizePagePath(window.location.pathname);
-		if (initializedPages[pagePath]) {
-			return;
-		}
-		initializedPages[pagePath] = true;
 		fetchManifest().then(function (manifest) {
 			renderStorageWarning();
-			var rows = getCurrentRows(manifest);
+			var displayed = displayedPage(manifest);
+			var rows = displayed.rows;
+			var displayedManifest = displayed.manifest;
 			renderTopicSummary(rows, manifest);
 			renderQuestionBadges(rows);
+			updateTopicSummary(rows, displayedManifest);
 			wrapAnswerChecks(rows, manifest);
-			renderDashboard(manifest);
+			renderDashboard(displayedManifest);
 		}).catch(function () {
 			renderStorageWarning();
 		});
@@ -586,7 +604,8 @@
 		_installLifecycleHooks: installLifecycleHooks,
 		_test: {
 			wrapAnswerChecks: wrapAnswerChecks,
-			getCurrentRows: getCurrentRows
+			getCurrentRows: getCurrentRows,
+			displayedPage: displayedPage
 		}
 	};
 

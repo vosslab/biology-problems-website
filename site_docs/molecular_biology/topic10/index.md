@@ -6,18 +6,12 @@ Landmark experiments that established core principles of molecular biology: Grif
 
 <div id="beadle_tatum-metabolic_pathway-5_metabolites-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt" download title="Download bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt" aria-label="Click to download the BBQ Text file (bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-beadle_tatum-metabolic_pathway-5_metabolites.zip" download title="Download blackboard_export_zip-beadle_tatum-metabolic_pathway-5_metabolites.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-beadle_tatum-metabolic_pathway-5_metabolites.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-beadle_tatum-metabolic_pathway-5_metabolites.zip" download title="Download canvas_qti_v1_2-beadle_tatum-metabolic_pathway-5_metabolites.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-beadle_tatum-metabolic_pathway-5_metabolites.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-beadle_tatum-metabolic_pathway-5_metabolites.html', '_blank')" title="View human_readable-beadle_tatum-metabolic_pathway-5_metabolites.html" aria-label="Click to view the Human-Readable TXT file (human_readable-beadle_tatum-metabolic_pathway-5_metabolites.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-beadle_tatum-metabolic_pathway-5_metabolites.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-beadle_tatum-metabolic_pathway-5_metabolites.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt" data-format="human_readable" data-filename="human_readable-beadle_tatum-metabolic_pathway-5_metabolites.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -30,8 +24,10 @@ Landmark experiments that established core principles of molecular biology: Grif
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt" data-bank-id="molecular_biology/topic10/index.md:bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt">
   {% include "molecular_biology/topic10/downloads/selftest-beadle_tatum-metabolic_pathway-5_metabolites.html" %}
 
+  </div>
 </details>
 
 
@@ -39,18 +35,12 @@ Landmark experiments that established core principles of molecular biology: Grif
 
 <div id="mutant_screen-fib-4_metabolites-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-mutant_screen-fib-4_metabolites-questions.txt" download title="Download bbq-mutant_screen-fib-4_metabolites-questions.txt" aria-label="Click to download the BBQ Text file (bbq-mutant_screen-fib-4_metabolites-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-mutant_screen-fib-4_metabolites.zip" download title="Download blackboard_export_zip-mutant_screen-fib-4_metabolites.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-mutant_screen-fib-4_metabolites.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-mutant_screen-fib-4_metabolites.zip" download title="Download canvas_qti_v1_2-mutant_screen-fib-4_metabolites.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-mutant_screen-fib-4_metabolites.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-mutant_screen-fib-4_metabolites.html', '_blank')" title="View human_readable-mutant_screen-fib-4_metabolites.html" aria-label="Click to view the Human-Readable TXT file (human_readable-mutant_screen-fib-4_metabolites.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-mutant_screen-fib-4_metabolites-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-mutant_screen-fib-4_metabolites-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-mutant_screen-fib-4_metabolites.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-mutant_screen-fib-4_metabolites-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-mutant_screen-fib-4_metabolites.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-mutant_screen-fib-4_metabolites-questions.txt" data-format="human_readable" data-filename="human_readable-mutant_screen-fib-4_metabolites.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -63,8 +53,10 @@ Landmark experiments that established core principles of molecular biology: Grif
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-mutant_screen-fib-4_metabolites-questions.txt" data-bank-id="molecular_biology/topic10/index.md:bbq-mutant_screen-fib-4_metabolites-questions.txt">
   {% include "molecular_biology/topic10/downloads/selftest-mutant_screen-fib-4_metabolites.html" %}
 
+  </div>
 </details>
 
 

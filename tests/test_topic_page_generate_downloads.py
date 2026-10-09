@@ -1,11 +1,5 @@
-"""Minimal pytest: generate_downloads=False must not create artifact files.
-
-Pins the one behavior that actually matters for the --topic-pages
-(without --generate-downloads) fast-path workflow.
-"""
-
+"""Stable source-link and browser-package controls."""
 # Standard Library
-import os
 import pathlib
 
 # PIP3 modules
@@ -18,55 +12,39 @@ import bioproblems_site.topic_page as topic_page
 
 
 #============================================
-def test_generate_downloads_off_creates_no_files(tmp_path: object) -> object:
-	# Build a fake topic folder with one bbq-*-questions.txt source
-	# file. The bbq file itself is the bb_text "download"; bb_export would
-	# live under downloads/ if created.
-	downloads_dir = tmp_path / "downloads"
-	downloads_dir.mkdir()
-	bbq_file = tmp_path / "bbq-xx-questions.txt"
-	bbq_file.write_text("MC\tQ1\n*A\tyes\nB\tno\n")
-	before = set(os.listdir(downloads_dir))
-	stats = {}
-	topic_page.generate_download_button_row(
-		str(bbq_file),
-		["bb_text", "bb_export"],
-		force_downloads=False,
-		verbose=False,
-		stats=stats,
-		generate_downloads=False,
-	)
-	after = set(os.listdir(downloads_dir))
-	assert before == after
-
-
-#============================================
-def test_page_links_missing_downloads_without_creating_them(
-	tmp_path: pathlib.Path,
-	monkeypatch: pytest.MonkeyPatch,
+def test_browser_controls_preserve_export_files(
+	tmp_path: pathlib.Path, monkeypatch: pytest.MonkeyPatch,
 ) -> None:
-	"""The page-only mode links its planned artifact without converter writes."""
+	"""Rendering offers all exports without writing or touching prebuilt files."""
 	bbq_file = tmp_path / "bbq-xx-questions.txt"
 	bbq_file.write_text("MC\tQ1\n*A\tyes\nB\tno\n")
-	calls: list[tuple[str, str, str]] = []
-
-	def create_must_not_run(bbq_path: str, prefix: str, extension: str) -> str:
-		calls.append((bbq_path, prefix, extension))
-		raise AssertionError("page rendering created a download")
-
-	monkeypatch.setattr(topic_page, "create_downloadable_format", create_must_not_run)
-	button_html = topic_page.generate_download_button_row(
-		str(bbq_file),
-		["canvas_qti"],
-		force_downloads=False,
-		verbose=False,
-		stats={},
-		generate_downloads=False,
-		render_missing_download_links=True,
+	downloads = tmp_path / "downloads"
+	downloads.mkdir()
+	old_export = downloads / "Canvas_QTI_v1_2-xx.zip"
+	old_export.write_bytes(b"existing package")
+	before = old_export.stat()
+	monkeypatch.setattr(
+		topic_page, "create_downloadable_format",
+		lambda *args, **kwargs: pytest.fail("Page rendering invoked conversion"),
 	)
-
-	assert calls == []
-	assert "downloads/canvas_qti_v1_2-xx.zip" in button_html
+	row = topic_page.generate_download_button_row(
+		str(bbq_file), list(topic_page.DOWNLOAD_FORMAT_KEYS), verbose=False, stats={},
+	)
+	soup = BeautifulSoup(row, "html.parser")
+	buttons = soup.select("button.qti-package-download")
+	assert [button["data-format"] for button in buttons] == [
+		"blackboard_export_zip", "canvas_qti_v1_2", "human_readable",
+	]
+	assert [button["data-filename"] for button in buttons] == [
+		"blackboard_export_zip-xx.zip", "canvas_qti_v1_2-xx.zip", "human_readable-xx.html",
+	]
+	assert all(button["data-bbq"] == bbq_file.name for button in buttons)
+	assert soup.select_one("a.bb_text")["href"] == bbq_file.name
+	assert soup.select_one(".qti-package-status")["role"] == "status"
+	assert soup.select_one("progress.qti-package-progress").has_attr("hidden")
+	assert list(downloads.iterdir()) == [old_export]
+	assert old_export.read_bytes() == b"existing package"
+	assert old_export.stat().st_mtime_ns == before.st_mtime_ns
 
 
 #============================================
@@ -98,10 +76,8 @@ def test_bbq_text_uses_canonical_source_format_label(tmp_path: object) -> object
 	button_html = topic_page.generate_download_button_row(
 		str(bbq_file),
 		["bb_text"],
-		force_downloads=False,
 		verbose=False,
 		stats={},
-		generate_downloads=False,
 	)
 
 	assert "BBQ Text" in button_html
@@ -117,7 +93,7 @@ def test_question_type_badge_starts_download_row(tmp_path: pathlib.Path) -> None
 		'DNA Structure (TFMS)', source_path=bbq_file,
 	)
 	row = topic_page.generate_download_button_row(
-		str(bbq_file), ['bb_text'], force_downloads=False,
+		str(bbq_file), ['bb_text'],
 		verbose=False, stats={}, question_type_badge=badge,
 	)
 	soup = BeautifulSoup(row, 'html.parser')
@@ -127,78 +103,26 @@ def test_question_type_badge_starts_download_row(tmp_path: pathlib.Path) -> None
 
 
 #============================================
-def test_blackboard_export_uses_pool_format(
-	tmp_path: pathlib.Path,
-	monkeypatch: pytest.MonkeyPatch,
+@pytest.mark.parametrize("item_type", ["ORD", "ORDER"])
+def test_order_question_omits_unsupported_packages(
+	tmp_path: pathlib.Path, item_type: str,
 ) -> None:
-	"""The Blackboard button builds the pool-export ZIP through its engine flag."""
-	downloads_dir = tmp_path / "downloads"
-	downloads_dir.mkdir()
-	bbq_file = tmp_path / "bbq-xx-questions.txt"
-	bbq_file.write_text("MC\tQ1\n*A\tyes\nB\tno\n")
-	calls: list[tuple[str, str, str]] = []
-
-	def fake_create_downloadable_format(
-		bbq_path: str,
-		prefix: str,
-		extension: str,
-	) -> str:
-		calls.append((bbq_path, prefix, extension))
-		outfile = topic_page.get_outfile_name(bbq_path, prefix, extension)
-		pathlib.Path(outfile).touch()
-		return outfile
-
-	monkeypatch.setattr(
-		topic_page,
-		"create_downloadable_format",
-		fake_create_downloadable_format,
-	)
-	button_html = topic_page.generate_download_button_row(
-		str(bbq_file),
-		["bb_export"],
-		force_downloads=False,
-		verbose=False,
-		stats={},
-		generate_downloads=True,
-	)
-
-	assert calls == [(str(bbq_file), "blackboard_export_zip", "zip")]
-	assert "Blackboard Ultra ZIP" in button_html
-	assert "Blackboard Ultra pool-export ZIP" in button_html
-
-
-#============================================
-def test_order_question_omits_unsupported_blackboard_export(
-	tmp_path: pathlib.Path,
-	monkeypatch: pytest.MonkeyPatch,
-) -> None:
-	"""ORDER sources do not link an empty Blackboard Ultra pool ZIP."""
-	(tmp_path / "downloads").mkdir()
+	"""ORDER banks retain human/source actions and preserve old exports."""
 	bbq_file = tmp_path / "bbq-order-questions.txt"
-	bbq_file.write_text("ORD\tPut these choices in order.\n")
-	calls: list[tuple[str, str, str]] = []
-
-	def fake_create_downloadable_format(
-		bbq_path: str,
-		prefix: str,
-		extension: str,
-	) -> str:
-		calls.append((bbq_path, prefix, extension))
-		return topic_page.get_outfile_name(bbq_path, prefix, extension)
-
-	monkeypatch.setattr(
-		topic_page,
-		"create_downloadable_format",
-		fake_create_downloadable_format,
+	bbq_file.write_text(f"{item_type}\tPut these choices in order.\n")
+	downloads = tmp_path / "downloads"
+	downloads.mkdir()
+	old_export = downloads / "blackboard_export_zip-order.zip"
+	old_export.write_bytes(b"previous export")
+	pgml = downloads / "order.pgml"
+	pgml.write_text("DOCUMENT();\n")
+	row = topic_page.generate_download_button_row(
+		str(bbq_file), list(topic_page.DOWNLOAD_FORMAT_KEYS), verbose=False, stats={},
 	)
-	button_html = topic_page.generate_download_button_row(
-		str(bbq_file),
-		["bb_export"],
-		force_downloads=False,
-		verbose=False,
-		stats={},
-		generate_downloads=True,
-	)
-
-	assert calls == []
-	assert "Blackboard Ultra ZIP" not in button_html
+	soup = BeautifulSoup(row, "html.parser")
+	assert [b["data-format"] for b in soup.select("button.qti-package-download")] == [
+		"human_readable",
+	]
+	assert soup.select_one("a.bb_text")["href"] == bbq_file.name
+	assert soup.select_one("a.webwork_pgml")["href"] == "downloads/order.pgml"
+	assert old_export.read_bytes() == b"previous export"

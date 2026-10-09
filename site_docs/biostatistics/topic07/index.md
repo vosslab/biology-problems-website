@@ -6,18 +6,12 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
 
 <div id="babies_one_sample_t_test-tails1-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-babies_one_sample_t_test-tails1-questions.txt" download title="Download bbq-babies_one_sample_t_test-tails1-questions.txt" aria-label="Click to download the BBQ Text file (bbq-babies_one_sample_t_test-tails1-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-babies_one_sample_t_test-tails1.zip" download title="Download blackboard_export_zip-babies_one_sample_t_test-tails1.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-babies_one_sample_t_test-tails1.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-babies_one_sample_t_test-tails1.zip" download title="Download canvas_qti_v1_2-babies_one_sample_t_test-tails1.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-babies_one_sample_t_test-tails1.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-babies_one_sample_t_test-tails1.html', '_blank')" title="View human_readable-babies_one_sample_t_test-tails1.html" aria-label="Click to view the Human-Readable TXT file (human_readable-babies_one_sample_t_test-tails1.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-babies_one_sample_t_test-tails1-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-babies_one_sample_t_test-tails1-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-babies_one_sample_t_test-tails1.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-babies_one_sample_t_test-tails1-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-babies_one_sample_t_test-tails1.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-babies_one_sample_t_test-tails1-questions.txt" data-format="human_readable" data-filename="human_readable-babies_one_sample_t_test-tails1.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -30,8 +24,10 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-babies_one_sample_t_test-tails1-questions.txt" data-bank-id="biostatistics/topic07/index.md:bbq-babies_one_sample_t_test-tails1-questions.txt">
   {% include "biostatistics/topic07/downloads/selftest-babies_one_sample_t_test-tails1.html" %}
 
+  </div>
 </details>
 
 
@@ -39,18 +35,12 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
 
 <div id="babies_one_sample_z_test-ztest-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-babies_one_sample_z_test-ztest-questions.txt" download title="Download bbq-babies_one_sample_z_test-ztest-questions.txt" aria-label="Click to download the BBQ Text file (bbq-babies_one_sample_z_test-ztest-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-babies_one_sample_z_test-ztest.zip" download title="Download blackboard_export_zip-babies_one_sample_z_test-ztest.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-babies_one_sample_z_test-ztest.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-babies_one_sample_z_test-ztest.zip" download title="Download canvas_qti_v1_2-babies_one_sample_z_test-ztest.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-babies_one_sample_z_test-ztest.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-babies_one_sample_z_test-ztest.html', '_blank')" title="View human_readable-babies_one_sample_z_test-ztest.html" aria-label="Click to view the Human-Readable TXT file (human_readable-babies_one_sample_z_test-ztest.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-babies_one_sample_z_test-ztest-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-babies_one_sample_z_test-ztest-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-babies_one_sample_z_test-ztest.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-babies_one_sample_z_test-ztest-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-babies_one_sample_z_test-ztest.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-babies_one_sample_z_test-ztest-questions.txt" data-format="human_readable" data-filename="human_readable-babies_one_sample_z_test-ztest.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -63,8 +53,10 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-babies_one_sample_z_test-ztest-questions.txt" data-bank-id="biostatistics/topic07/index.md:bbq-babies_one_sample_z_test-ztest-questions.txt">
   {% include "biostatistics/topic07/downloads/selftest-babies_one_sample_z_test-ztest.html" %}
 
+  </div>
 </details>
 
 
@@ -72,18 +64,12 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
 
 <div id="babies_two_sample_t_test-tails1-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-babies_two_sample_t_test-tails1-questions.txt" download title="Download bbq-babies_two_sample_t_test-tails1-questions.txt" aria-label="Click to download the BBQ Text file (bbq-babies_two_sample_t_test-tails1-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-babies_two_sample_t_test-tails1.zip" download title="Download blackboard_export_zip-babies_two_sample_t_test-tails1.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-babies_two_sample_t_test-tails1.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-babies_two_sample_t_test-tails1.zip" download title="Download canvas_qti_v1_2-babies_two_sample_t_test-tails1.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-babies_two_sample_t_test-tails1.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-babies_two_sample_t_test-tails1.html', '_blank')" title="View human_readable-babies_two_sample_t_test-tails1.html" aria-label="Click to view the Human-Readable TXT file (human_readable-babies_two_sample_t_test-tails1.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-babies_two_sample_t_test-tails1-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-babies_two_sample_t_test-tails1-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-babies_two_sample_t_test-tails1.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-babies_two_sample_t_test-tails1-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-babies_two_sample_t_test-tails1.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-babies_two_sample_t_test-tails1-questions.txt" data-format="human_readable" data-filename="human_readable-babies_two_sample_t_test-tails1.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -96,8 +82,10 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-babies_two_sample_t_test-tails1-questions.txt" data-bank-id="biostatistics/topic07/index.md:bbq-babies_two_sample_t_test-tails1-questions.txt">
   {% include "biostatistics/topic07/downloads/selftest-babies_two_sample_t_test-tails1.html" %}
 
+  </div>
 </details>
 
 
@@ -105,18 +93,12 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
 
 <div id="busse_woods_anova-anova-5year-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-busse_woods_anova-anova-5year-questions.txt" download title="Download bbq-busse_woods_anova-anova-5year-questions.txt" aria-label="Click to download the BBQ Text file (bbq-busse_woods_anova-anova-5year-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-busse_woods_anova-anova-5year.zip" download title="Download blackboard_export_zip-busse_woods_anova-anova-5year.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-busse_woods_anova-anova-5year.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-busse_woods_anova-anova-5year.zip" download title="Download canvas_qti_v1_2-busse_woods_anova-anova-5year.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-busse_woods_anova-anova-5year.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-busse_woods_anova-anova-5year.html', '_blank')" title="View human_readable-busse_woods_anova-anova-5year.html" aria-label="Click to view the Human-Readable TXT file (human_readable-busse_woods_anova-anova-5year.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-busse_woods_anova-anova-5year-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-busse_woods_anova-anova-5year-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-busse_woods_anova-anova-5year.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-busse_woods_anova-anova-5year-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-busse_woods_anova-anova-5year.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-busse_woods_anova-anova-5year-questions.txt" data-format="human_readable" data-filename="human_readable-busse_woods_anova-anova-5year.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -129,8 +111,10 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-busse_woods_anova-anova-5year-questions.txt" data-bank-id="biostatistics/topic07/index.md:bbq-busse_woods_anova-anova-5year-questions.txt">
   {% include "biostatistics/topic07/downloads/selftest-busse_woods_anova-anova-5year.html" %}
 
+  </div>
 </details>
 
 
@@ -138,18 +122,12 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
 
 <div id="busse_woods_one_sample_tests-ztest-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-busse_woods_one_sample_tests-ztest-questions.txt" download title="Download bbq-busse_woods_one_sample_tests-ztest-questions.txt" aria-label="Click to download the BBQ Text file (bbq-busse_woods_one_sample_tests-ztest-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-busse_woods_one_sample_tests-ztest.zip" download title="Download blackboard_export_zip-busse_woods_one_sample_tests-ztest.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-busse_woods_one_sample_tests-ztest.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-busse_woods_one_sample_tests-ztest.zip" download title="Download canvas_qti_v1_2-busse_woods_one_sample_tests-ztest.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-busse_woods_one_sample_tests-ztest.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-busse_woods_one_sample_tests-ztest.html', '_blank')" title="View human_readable-busse_woods_one_sample_tests-ztest.html" aria-label="Click to view the Human-Readable TXT file (human_readable-busse_woods_one_sample_tests-ztest.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-busse_woods_one_sample_tests-ztest-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-busse_woods_one_sample_tests-ztest-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-busse_woods_one_sample_tests-ztest.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-busse_woods_one_sample_tests-ztest-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-busse_woods_one_sample_tests-ztest.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-busse_woods_one_sample_tests-ztest-questions.txt" data-format="human_readable" data-filename="human_readable-busse_woods_one_sample_tests-ztest.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -162,8 +140,10 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-busse_woods_one_sample_tests-ztest-questions.txt" data-bank-id="biostatistics/topic07/index.md:bbq-busse_woods_one_sample_tests-ztest-questions.txt">
   {% include "biostatistics/topic07/downloads/selftest-busse_woods_one_sample_tests-ztest.html" %}
 
+  </div>
 </details>
 
 
@@ -171,18 +151,12 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
 
 <div id="busse_woods_two_sample_f_test-tails1-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-busse_woods_two_sample_f_test-tails1-questions.txt" download title="Download bbq-busse_woods_two_sample_f_test-tails1-questions.txt" aria-label="Click to download the BBQ Text file (bbq-busse_woods_two_sample_f_test-tails1-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-busse_woods_two_sample_f_test-tails1.zip" download title="Download blackboard_export_zip-busse_woods_two_sample_f_test-tails1.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-busse_woods_two_sample_f_test-tails1.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-busse_woods_two_sample_f_test-tails1.zip" download title="Download canvas_qti_v1_2-busse_woods_two_sample_f_test-tails1.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-busse_woods_two_sample_f_test-tails1.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-busse_woods_two_sample_f_test-tails1.html', '_blank')" title="View human_readable-busse_woods_two_sample_f_test-tails1.html" aria-label="Click to view the Human-Readable TXT file (human_readable-busse_woods_two_sample_f_test-tails1.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-busse_woods_two_sample_f_test-tails1-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-busse_woods_two_sample_f_test-tails1-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-busse_woods_two_sample_f_test-tails1.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-busse_woods_two_sample_f_test-tails1-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-busse_woods_two_sample_f_test-tails1.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-busse_woods_two_sample_f_test-tails1-questions.txt" data-format="human_readable" data-filename="human_readable-busse_woods_two_sample_f_test-tails1.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -195,8 +169,10 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-busse_woods_two_sample_f_test-tails1-questions.txt" data-bank-id="biostatistics/topic07/index.md:bbq-busse_woods_two_sample_f_test-tails1-questions.txt">
   {% include "biostatistics/topic07/downloads/selftest-busse_woods_two_sample_f_test-tails1.html" %}
 
+  </div>
 </details>
 
 
@@ -204,18 +180,12 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
 
 <div id="busse_woods_two_sample_t_test-tails1-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-num" title="Numeric">NUM</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-busse_woods_two_sample_t_test-tails1-questions.txt" download title="Download bbq-busse_woods_two_sample_t_test-tails1-questions.txt" aria-label="Click to download the BBQ Text file (bbq-busse_woods_two_sample_t_test-tails1-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-busse_woods_two_sample_t_test-tails1.zip" download title="Download blackboard_export_zip-busse_woods_two_sample_t_test-tails1.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-busse_woods_two_sample_t_test-tails1.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-busse_woods_two_sample_t_test-tails1.zip" download title="Download canvas_qti_v1_2-busse_woods_two_sample_t_test-tails1.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-busse_woods_two_sample_t_test-tails1.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-busse_woods_two_sample_t_test-tails1.html', '_blank')" title="View human_readable-busse_woods_two_sample_t_test-tails1.html" aria-label="Click to view the Human-Readable TXT file (human_readable-busse_woods_two_sample_t_test-tails1.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-busse_woods_two_sample_t_test-tails1-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-busse_woods_two_sample_t_test-tails1-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-busse_woods_two_sample_t_test-tails1.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-busse_woods_two_sample_t_test-tails1-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-busse_woods_two_sample_t_test-tails1.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-busse_woods_two_sample_t_test-tails1-questions.txt" data-format="human_readable" data-filename="human_readable-busse_woods_two_sample_t_test-tails1.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -228,8 +198,10 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-busse_woods_two_sample_t_test-tails1-questions.txt" data-bank-id="biostatistics/topic07/index.md:bbq-busse_woods_two_sample_t_test-tails1-questions.txt">
   {% include "biostatistics/topic07/downloads/selftest-busse_woods_two_sample_t_test-tails1.html" %}
 
+  </div>
 </details>
 
 

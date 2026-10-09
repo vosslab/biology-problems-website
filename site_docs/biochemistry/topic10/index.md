@@ -8,18 +8,12 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 
 <div id="D_to_L_Fischer_configuration-MC-with_hint-5_choices-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-D_to_L_Fischer_configuration-MC-with_hint-5_choices-questions.txt" download title="Download bbq-D_to_L_Fischer_configuration-MC-with_hint-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-D_to_L_Fischer_configuration-MC-with_hint-5_choices-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-D_to_L_Fischer_configuration-MC-with_hint-5_choices.zip" download title="Download blackboard_export_zip-D_to_L_Fischer_configuration-MC-with_hint-5_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-D_to_L_Fischer_configuration-MC-with_hint-5_choices.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-D_to_L_Fischer_configuration-MC-with_hint-5_choices.zip" download title="Download canvas_qti_v1_2-D_to_L_Fischer_configuration-MC-with_hint-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-D_to_L_Fischer_configuration-MC-with_hint-5_choices.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-D_to_L_Fischer_configuration-MC-with_hint-5_choices.html', '_blank')" title="View human_readable-D_to_L_Fischer_configuration-MC-with_hint-5_choices.html" aria-label="Click to view the Human-Readable TXT file (human_readable-D_to_L_Fischer_configuration-MC-with_hint-5_choices.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-D_to_L_Fischer_configuration-MC-with_hint-5_choices-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-D_to_L_Fischer_configuration-MC-with_hint-5_choices-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-D_to_L_Fischer_configuration-MC-with_hint-5_choices.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-D_to_L_Fischer_configuration-MC-with_hint-5_choices-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-D_to_L_Fischer_configuration-MC-with_hint-5_choices.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-D_to_L_Fischer_configuration-MC-with_hint-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-D_to_L_Fischer_configuration-MC-with_hint-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -32,8 +26,10 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-D_to_L_Fischer_configuration-MC-with_hint-5_choices-questions.txt" data-bank-id="biochemistry/topic10/index.md:bbq-D_to_L_Fischer_configuration-MC-with_hint-5_choices-questions.txt">
   {% include "biochemistry/topic10/downloads/selftest-D_to_L_Fischer_configuration-MC-with_hint-5_choices.html" %}
 
+  </div>
 </details>
 
 
@@ -41,18 +37,12 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 
 <div id="D_to_L_Haworth_configuration-MC-with_hint-5_choices-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt" download title="Download bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-D_to_L_Haworth_configuration-MC-with_hint-5_choices.zip" download title="Download blackboard_export_zip-D_to_L_Haworth_configuration-MC-with_hint-5_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-D_to_L_Haworth_configuration-MC-with_hint-5_choices.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-D_to_L_Haworth_configuration-MC-with_hint-5_choices.zip" download title="Download canvas_qti_v1_2-D_to_L_Haworth_configuration-MC-with_hint-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-D_to_L_Haworth_configuration-MC-with_hint-5_choices.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-D_to_L_Haworth_configuration-MC-with_hint-5_choices.html', '_blank')" title="View human_readable-D_to_L_Haworth_configuration-MC-with_hint-5_choices.html" aria-label="Click to view the Human-Readable TXT file (human_readable-D_to_L_Haworth_configuration-MC-with_hint-5_choices.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-D_to_L_Haworth_configuration-MC-with_hint-5_choices.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-D_to_L_Haworth_configuration-MC-with_hint-5_choices.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-D_to_L_Haworth_configuration-MC-with_hint-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -65,8 +55,10 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt" data-bank-id="biochemistry/topic10/index.md:bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt">
   {% include "biochemistry/topic10/downloads/selftest-D_to_L_Haworth_configuration-MC-with_hint-5_choices.html" %}
 
+  </div>
 </details>
 
 
@@ -74,21 +66,13 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 
 <div id="MATCH-polysaccharides-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-MATCH-polysaccharides-questions.txt" download title="Download bbq-MATCH-polysaccharides-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-polysaccharides-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-polysaccharides.zip" download title="Download blackboard_export_zip-MATCH-polysaccharides.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-polysaccharides.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-polysaccharides.zip" download title="Download canvas_qti_v1_2-MATCH-polysaccharides.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-polysaccharides.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-polysaccharides.html', '_blank')" title="View human_readable-MATCH-polysaccharides.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-polysaccharides.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/polysaccharides-matching.pgml" download title="Download polysaccharides-matching.pgml" aria-label="Click to download the WeBWorK PGML file (polysaccharides-matching.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-MATCH-polysaccharides-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-MATCH-polysaccharides-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-polysaccharides.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-MATCH-polysaccharides-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-polysaccharides.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-MATCH-polysaccharides-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-polysaccharides.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/polysaccharides-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -101,8 +85,10 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-MATCH-polysaccharides-questions.txt" data-bank-id="biochemistry/topic10/index.md:bbq-MATCH-polysaccharides-questions.txt">
   {% include "biochemistry/topic10/downloads/selftest-MATCH-polysaccharides.html" %}
 
+  </div>
 </details>
 
 
@@ -110,21 +96,13 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 
 <div id="WOMC-polysaccharides-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-WOMC-polysaccharides-questions.txt" download title="Download bbq-WOMC-polysaccharides-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-polysaccharides-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-polysaccharides.zip" download title="Download blackboard_export_zip-WOMC-polysaccharides.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-polysaccharides.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-polysaccharides.zip" download title="Download canvas_qti_v1_2-WOMC-polysaccharides.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-polysaccharides.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-polysaccharides.html', '_blank')" title="View human_readable-WOMC-polysaccharides.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-polysaccharides.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/polysaccharides-which_one.pgml" download title="Download polysaccharides-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (polysaccharides-which_one.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-WOMC-polysaccharides-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-WOMC-polysaccharides-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-polysaccharides.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-WOMC-polysaccharides-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-polysaccharides.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-WOMC-polysaccharides-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-polysaccharides.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/polysaccharides-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -137,8 +115,10 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-WOMC-polysaccharides-questions.txt" data-bank-id="biochemistry/topic10/index.md:bbq-WOMC-polysaccharides-questions.txt">
   {% include "biochemistry/topic10/downloads/selftest-WOMC-polysaccharides.html" %}
 
+  </div>
 </details>
 
 
@@ -146,18 +126,12 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 
 <div id="classify_Fischer-MA-with_hint-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-classify_Fischer-MA-with_hint-questions.txt" download title="Download bbq-classify_Fischer-MA-with_hint-questions.txt" aria-label="Click to download the BBQ Text file (bbq-classify_Fischer-MA-with_hint-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-classify_Fischer-MA-with_hint.zip" download title="Download blackboard_export_zip-classify_Fischer-MA-with_hint.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-classify_Fischer-MA-with_hint.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-classify_Fischer-MA-with_hint.zip" download title="Download canvas_qti_v1_2-classify_Fischer-MA-with_hint.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-classify_Fischer-MA-with_hint.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-classify_Fischer-MA-with_hint.html', '_blank')" title="View human_readable-classify_Fischer-MA-with_hint.html" aria-label="Click to view the Human-Readable TXT file (human_readable-classify_Fischer-MA-with_hint.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-classify_Fischer-MA-with_hint-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-classify_Fischer-MA-with_hint-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-classify_Fischer-MA-with_hint.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-classify_Fischer-MA-with_hint-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-classify_Fischer-MA-with_hint.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-classify_Fischer-MA-with_hint-questions.txt" data-format="human_readable" data-filename="human_readable-classify_Fischer-MA-with_hint.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -170,8 +144,10 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-classify_Fischer-MA-with_hint-questions.txt" data-bank-id="biochemistry/topic10/index.md:bbq-classify_Fischer-MA-with_hint-questions.txt">
   {% include "biochemistry/topic10/downloads/selftest-classify_Fischer-MA-with_hint.html" %}
 
+  </div>
 </details>
 
 
@@ -179,18 +155,12 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 
 <div id="classify_Haworth-MA-with_hint-FURAN-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-classify_Haworth-MA-with_hint-FURAN-questions.txt" download title="Download bbq-classify_Haworth-MA-with_hint-FURAN-questions.txt" aria-label="Click to download the BBQ Text file (bbq-classify_Haworth-MA-with_hint-FURAN-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-classify_Haworth-MA-with_hint-FURAN.zip" download title="Download blackboard_export_zip-classify_Haworth-MA-with_hint-FURAN.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-classify_Haworth-MA-with_hint-FURAN.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-classify_Haworth-MA-with_hint-FURAN.zip" download title="Download canvas_qti_v1_2-classify_Haworth-MA-with_hint-FURAN.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-classify_Haworth-MA-with_hint-FURAN.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-classify_Haworth-MA-with_hint-FURAN.html', '_blank')" title="View human_readable-classify_Haworth-MA-with_hint-FURAN.html" aria-label="Click to view the Human-Readable TXT file (human_readable-classify_Haworth-MA-with_hint-FURAN.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-classify_Haworth-MA-with_hint-FURAN-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-classify_Haworth-MA-with_hint-FURAN-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-classify_Haworth-MA-with_hint-FURAN.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-classify_Haworth-MA-with_hint-FURAN-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-classify_Haworth-MA-with_hint-FURAN.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-classify_Haworth-MA-with_hint-FURAN-questions.txt" data-format="human_readable" data-filename="human_readable-classify_Haworth-MA-with_hint-FURAN.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -203,8 +173,10 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-classify_Haworth-MA-with_hint-FURAN-questions.txt" data-bank-id="biochemistry/topic10/index.md:bbq-classify_Haworth-MA-with_hint-FURAN-questions.txt">
   {% include "biochemistry/topic10/downloads/selftest-classify_Haworth-MA-with_hint-FURAN.html" %}
 
+  </div>
 </details>
 
 
@@ -212,18 +184,12 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 
 <div id="classify_Haworth-MA-with_hint-PYRAN-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-ma" title="Multiple Answer">MA</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-classify_Haworth-MA-with_hint-PYRAN-questions.txt" download title="Download bbq-classify_Haworth-MA-with_hint-PYRAN-questions.txt" aria-label="Click to download the BBQ Text file (bbq-classify_Haworth-MA-with_hint-PYRAN-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-classify_Haworth-MA-with_hint-PYRAN.zip" download title="Download blackboard_export_zip-classify_Haworth-MA-with_hint-PYRAN.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-classify_Haworth-MA-with_hint-PYRAN.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-classify_Haworth-MA-with_hint-PYRAN.zip" download title="Download canvas_qti_v1_2-classify_Haworth-MA-with_hint-PYRAN.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-classify_Haworth-MA-with_hint-PYRAN.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-classify_Haworth-MA-with_hint-PYRAN.html', '_blank')" title="View human_readable-classify_Haworth-MA-with_hint-PYRAN.html" aria-label="Click to view the Human-Readable TXT file (human_readable-classify_Haworth-MA-with_hint-PYRAN.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-classify_Haworth-MA-with_hint-PYRAN-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-classify_Haworth-MA-with_hint-PYRAN-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-classify_Haworth-MA-with_hint-PYRAN.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-classify_Haworth-MA-with_hint-PYRAN-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-classify_Haworth-MA-with_hint-PYRAN.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-classify_Haworth-MA-with_hint-PYRAN-questions.txt" data-format="human_readable" data-filename="human_readable-classify_Haworth-MA-with_hint-PYRAN.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -236,8 +202,10 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-classify_Haworth-MA-with_hint-PYRAN-questions.txt" data-bank-id="biochemistry/topic10/index.md:bbq-classify_Haworth-MA-with_hint-PYRAN-questions.txt">
   {% include "biochemistry/topic10/downloads/selftest-classify_Haworth-MA-with_hint-PYRAN.html" %}
 
+  </div>
 </details>
 
 
@@ -245,18 +213,12 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 
 <div id="convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-questions.txt" download title="Download bbq-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices.zip" download title="Download blackboard_export_zip-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices.zip" download title="Download canvas_qti_v1_2-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices.html', '_blank')" title="View human_readable-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices.html" aria-label="Click to view the Human-Readable TXT file (human_readable-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -269,8 +231,10 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-questions.txt" data-bank-id="biochemistry/topic10/index.md:bbq-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-questions.txt">
   {% include "biochemistry/topic10/downloads/selftest-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices.html" %}
 
+  </div>
 </details>
 
 
@@ -278,18 +242,12 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 
 <div id="convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices-questions.txt" download title="Download bbq-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices.zip" download title="Download blackboard_export_zip-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices.zip" download title="Download canvas_qti_v1_2-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices.html', '_blank')" title="View human_readable-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices.html" aria-label="Click to view the Human-Readable TXT file (human_readable-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -302,8 +260,10 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices-questions.txt" data-bank-id="biochemistry/topic10/index.md:bbq-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices-questions.txt">
   {% include "biochemistry/topic10/downloads/selftest-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices.html" %}
 
+  </div>
 </details>
 
 
@@ -311,18 +271,12 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 
 <div id="convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-questions.txt" download title="Download bbq-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices.zip" download title="Download blackboard_export_zip-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices.zip" download title="Download canvas_qti_v1_2-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices.html', '_blank')" title="View human_readable-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices.html" aria-label="Click to view the Human-Readable TXT file (human_readable-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -335,8 +289,10 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-questions.txt" data-bank-id="biochemistry/topic10/index.md:bbq-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-questions.txt">
   {% include "biochemistry/topic10/downloads/selftest-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices.html" %}
 
+  </div>
 </details>
 
 
@@ -344,18 +300,12 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 
 <div id="convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-questions.txt" download title="Download bbq-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices.zip" download title="Download blackboard_export_zip-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices.zip" download title="Download canvas_qti_v1_2-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices.html', '_blank')" title="View human_readable-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices.html" aria-label="Click to view the Human-Readable TXT file (human_readable-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
+<a class="md-button custom-button bb_text" href="bbq-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -368,8 +318,10 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-questions.txt" data-bank-id="biochemistry/topic10/index.md:bbq-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-questions.txt">
   {% include "biochemistry/topic10/downloads/selftest-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices.html" %}
 
+  </div>
 </details>
 
 

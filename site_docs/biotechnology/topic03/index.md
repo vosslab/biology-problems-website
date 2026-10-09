@@ -6,21 +6,13 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 
 <div id="MATCH-protein_v_dna_gels-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-MATCH-protein_v_dna_gels-questions.txt" download title="Download bbq-MATCH-protein_v_dna_gels-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-protein_v_dna_gels-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-protein_v_dna_gels.zip" download title="Download blackboard_export_zip-MATCH-protein_v_dna_gels.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-protein_v_dna_gels.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-protein_v_dna_gels.zip" download title="Download canvas_qti_v1_2-MATCH-protein_v_dna_gels.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-protein_v_dna_gels.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-protein_v_dna_gels.html', '_blank')" title="View human_readable-MATCH-protein_v_dna_gels.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-protein_v_dna_gels.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/protein_v_dna_gels-matching.pgml" download title="Download protein_v_dna_gels-matching.pgml" aria-label="Click to download the WeBWorK PGML file (protein_v_dna_gels-matching.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-MATCH-protein_v_dna_gels-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-MATCH-protein_v_dna_gels-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-protein_v_dna_gels.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-MATCH-protein_v_dna_gels-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-protein_v_dna_gels.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-MATCH-protein_v_dna_gels-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-protein_v_dna_gels.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/protein_v_dna_gels-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -33,8 +25,10 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-MATCH-protein_v_dna_gels-questions.txt" data-bank-id="biotechnology/topic03/index.md:bbq-MATCH-protein_v_dna_gels-questions.txt">
   {% include "biotechnology/topic03/downloads/selftest-MATCH-protein_v_dna_gels.html" %}
 
+  </div>
 </details>
 
 
@@ -42,21 +36,13 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 
 <div id="MATCH-proteomics_v_metabolomics-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-MATCH-proteomics_v_metabolomics-questions.txt" download title="Download bbq-MATCH-proteomics_v_metabolomics-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-proteomics_v_metabolomics-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-proteomics_v_metabolomics.zip" download title="Download blackboard_export_zip-MATCH-proteomics_v_metabolomics.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-proteomics_v_metabolomics.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-proteomics_v_metabolomics.zip" download title="Download canvas_qti_v1_2-MATCH-proteomics_v_metabolomics.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-proteomics_v_metabolomics.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-proteomics_v_metabolomics.html', '_blank')" title="View human_readable-MATCH-proteomics_v_metabolomics.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-proteomics_v_metabolomics.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/proteomics_v_metabolomics-matching.pgml" download title="Download proteomics_v_metabolomics-matching.pgml" aria-label="Click to download the WeBWorK PGML file (proteomics_v_metabolomics-matching.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-MATCH-proteomics_v_metabolomics-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-MATCH-proteomics_v_metabolomics-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-proteomics_v_metabolomics.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-MATCH-proteomics_v_metabolomics-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-proteomics_v_metabolomics.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-MATCH-proteomics_v_metabolomics-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-proteomics_v_metabolomics.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/proteomics_v_metabolomics-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -69,8 +55,10 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-MATCH-proteomics_v_metabolomics-questions.txt" data-bank-id="biotechnology/topic03/index.md:bbq-MATCH-proteomics_v_metabolomics-questions.txt">
   {% include "biotechnology/topic03/downloads/selftest-MATCH-proteomics_v_metabolomics.html" %}
 
+  </div>
 </details>
 
 
@@ -78,21 +66,13 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 
 <div id="TFMS-protein_stability-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-tfms" title="True/False Statements (Multiple Choice)">T/F Statements (MC)</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-TFMS-protein_stability-questions.txt" download title="Download bbq-TFMS-protein_stability-questions.txt" aria-label="Click to download the BBQ Text file (bbq-TFMS-protein_stability-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-TFMS-protein_stability.zip" download title="Download blackboard_export_zip-TFMS-protein_stability.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-TFMS-protein_stability.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-TFMS-protein_stability.zip" download title="Download canvas_qti_v1_2-TFMS-protein_stability.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-TFMS-protein_stability.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-TFMS-protein_stability.html', '_blank')" title="View human_readable-TFMS-protein_stability.html" aria-label="Click to view the Human-Readable TXT file (human_readable-TFMS-protein_stability.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/protein_stability.pg" download title="Download protein_stability.pg" aria-label="Click to download the WeBWorK PGML file (protein_stability.pg)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-TFMS-protein_stability-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-TFMS-protein_stability-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-TFMS-protein_stability.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-TFMS-protein_stability-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-TFMS-protein_stability.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-TFMS-protein_stability-questions.txt" data-format="human_readable" data-filename="human_readable-TFMS-protein_stability.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/protein_stability.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -105,8 +85,10 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-TFMS-protein_stability-questions.txt" data-bank-id="biotechnology/topic03/index.md:bbq-TFMS-protein_stability-questions.txt">
   {% include "biotechnology/topic03/downloads/selftest-TFMS-protein_stability.html" %}
 
+  </div>
 </details>
 
 
@@ -114,21 +96,13 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 
 <div id="WOMC-protein_v_dna_gels-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-WOMC-protein_v_dna_gels-questions.txt" download title="Download bbq-WOMC-protein_v_dna_gels-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-protein_v_dna_gels-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-protein_v_dna_gels.zip" download title="Download blackboard_export_zip-WOMC-protein_v_dna_gels.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-protein_v_dna_gels.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-protein_v_dna_gels.zip" download title="Download canvas_qti_v1_2-WOMC-protein_v_dna_gels.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-protein_v_dna_gels.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-protein_v_dna_gels.html', '_blank')" title="View human_readable-WOMC-protein_v_dna_gels.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-protein_v_dna_gels.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/protein_v_dna_gels-which_one.pgml" download title="Download protein_v_dna_gels-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (protein_v_dna_gels-which_one.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-WOMC-protein_v_dna_gels-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-WOMC-protein_v_dna_gels-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-protein_v_dna_gels.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-WOMC-protein_v_dna_gels-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-protein_v_dna_gels.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-WOMC-protein_v_dna_gels-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-protein_v_dna_gels.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/protein_v_dna_gels-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -141,8 +115,10 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-WOMC-protein_v_dna_gels-questions.txt" data-bank-id="biotechnology/topic03/index.md:bbq-WOMC-protein_v_dna_gels-questions.txt">
   {% include "biotechnology/topic03/downloads/selftest-WOMC-protein_v_dna_gels.html" %}
 
+  </div>
 </details>
 
 
@@ -150,21 +126,13 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 
 <div id="WOMC-proteomics_v_metabolomics-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-WOMC-proteomics_v_metabolomics-questions.txt" download title="Download bbq-WOMC-proteomics_v_metabolomics-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-proteomics_v_metabolomics-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-proteomics_v_metabolomics.zip" download title="Download blackboard_export_zip-WOMC-proteomics_v_metabolomics.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-proteomics_v_metabolomics.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-proteomics_v_metabolomics.zip" download title="Download canvas_qti_v1_2-WOMC-proteomics_v_metabolomics.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-proteomics_v_metabolomics.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-proteomics_v_metabolomics.html', '_blank')" title="View human_readable-WOMC-proteomics_v_metabolomics.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-proteomics_v_metabolomics.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/proteomics_v_metabolomics-which_one.pgml" download title="Download proteomics_v_metabolomics-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (proteomics_v_metabolomics-which_one.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-WOMC-proteomics_v_metabolomics-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-WOMC-proteomics_v_metabolomics-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-proteomics_v_metabolomics.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-WOMC-proteomics_v_metabolomics-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-proteomics_v_metabolomics.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-WOMC-proteomics_v_metabolomics-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-proteomics_v_metabolomics.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/proteomics_v_metabolomics-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -177,8 +145,10 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-WOMC-proteomics_v_metabolomics-questions.txt" data-bank-id="biotechnology/topic03/index.md:bbq-WOMC-proteomics_v_metabolomics-questions.txt">
   {% include "biotechnology/topic03/downloads/selftest-WOMC-proteomics_v_metabolomics.html" %}
 
+  </div>
 </details>
 
 
@@ -186,21 +156,13 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 
 <div id="isoelectric_one_protein-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-isoelectric_one_protein-questions.txt" download title="Download bbq-isoelectric_one_protein-questions.txt" aria-label="Click to download the BBQ Text file (bbq-isoelectric_one_protein-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-isoelectric_one_protein.zip" download title="Download blackboard_export_zip-isoelectric_one_protein.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-isoelectric_one_protein.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-isoelectric_one_protein.zip" download title="Download canvas_qti_v1_2-isoelectric_one_protein.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-isoelectric_one_protein.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-isoelectric_one_protein.html', '_blank')" title="View human_readable-isoelectric_one_protein.html" aria-label="Click to view the Human-Readable TXT file (human_readable-isoelectric_one_protein.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/isoelectric_one_protein.pgml" download title="Download isoelectric_one_protein.pgml" aria-label="Click to download the WeBWorK PGML file (isoelectric_one_protein.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-isoelectric_one_protein-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-isoelectric_one_protein-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-isoelectric_one_protein.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-isoelectric_one_protein-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-isoelectric_one_protein.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-isoelectric_one_protein-questions.txt" data-format="human_readable" data-filename="human_readable-isoelectric_one_protein.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/isoelectric_one_protein.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -213,8 +175,10 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-isoelectric_one_protein-questions.txt" data-bank-id="biotechnology/topic03/index.md:bbq-isoelectric_one_protein-questions.txt">
   {% include "biotechnology/topic03/downloads/selftest-isoelectric_one_protein.html" %}
 
+  </div>
 </details>
 
 
@@ -222,21 +186,13 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 
 <div id="kaleidoscope_ladder_unknown_band-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-kaleidoscope_ladder_unknown_band-questions.txt" download title="Download bbq-kaleidoscope_ladder_unknown_band-questions.txt" aria-label="Click to download the BBQ Text file (bbq-kaleidoscope_ladder_unknown_band-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-kaleidoscope_ladder_unknown_band.zip" download title="Download blackboard_export_zip-kaleidoscope_ladder_unknown_band.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-kaleidoscope_ladder_unknown_band.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-kaleidoscope_ladder_unknown_band.zip" download title="Download canvas_qti_v1_2-kaleidoscope_ladder_unknown_band.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-kaleidoscope_ladder_unknown_band.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-kaleidoscope_ladder_unknown_band.html', '_blank')" title="View human_readable-kaleidoscope_ladder_unknown_band.html" aria-label="Click to view the Human-Readable TXT file (human_readable-kaleidoscope_ladder_unknown_band.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/kaleidoscope_ladder_unknown_band.pgml" download title="Download kaleidoscope_ladder_unknown_band.pgml" aria-label="Click to download the WeBWorK PGML file (kaleidoscope_ladder_unknown_band.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-kaleidoscope_ladder_unknown_band-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-kaleidoscope_ladder_unknown_band-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-kaleidoscope_ladder_unknown_band.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-kaleidoscope_ladder_unknown_band-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-kaleidoscope_ladder_unknown_band.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-kaleidoscope_ladder_unknown_band-questions.txt" data-format="human_readable" data-filename="human_readable-kaleidoscope_ladder_unknown_band.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/kaleidoscope_ladder_unknown_band.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -249,8 +205,10 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-kaleidoscope_ladder_unknown_band-questions.txt" data-bank-id="biotechnology/topic03/index.md:bbq-kaleidoscope_ladder_unknown_band-questions.txt">
   {% include "biotechnology/topic03/downloads/selftest-kaleidoscope_ladder_unknown_band.html" %}
 
+  </div>
 </details>
 
 
@@ -258,21 +216,13 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 
 <div id="protein_gel_migration-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-protein_gel_migration-questions.txt" download title="Download bbq-protein_gel_migration-questions.txt" aria-label="Click to download the BBQ Text file (bbq-protein_gel_migration-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-protein_gel_migration.zip" download title="Download blackboard_export_zip-protein_gel_migration.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-protein_gel_migration.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-protein_gel_migration.zip" download title="Download canvas_qti_v1_2-protein_gel_migration.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-protein_gel_migration.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-protein_gel_migration.html', '_blank')" title="View human_readable-protein_gel_migration.html" aria-label="Click to view the Human-Readable TXT file (human_readable-protein_gel_migration.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/protein_gel_migration.pgml" download title="Download protein_gel_migration.pgml" aria-label="Click to download the WeBWorK PGML file (protein_gel_migration.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-protein_gel_migration-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-protein_gel_migration-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-protein_gel_migration.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-protein_gel_migration-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-protein_gel_migration.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-protein_gel_migration-questions.txt" data-format="human_readable" data-filename="human_readable-protein_gel_migration.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/protein_gel_migration.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -285,8 +235,10 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-protein_gel_migration-questions.txt" data-bank-id="biotechnology/topic03/index.md:bbq-protein_gel_migration-questions.txt">
   {% include "biotechnology/topic03/downloads/selftest-protein_gel_migration.html" %}
 
+  </div>
 </details>
 
 

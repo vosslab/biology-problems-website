@@ -15,10 +15,7 @@ import sys
 import time
 import subprocess
 import dataclasses
-import zipfile
-
-# PIP3 modules
-from qti_package_maker import package_interface
+import tempfile
 
 # local repo modules
 import bioproblems_site.formats as formats_module
@@ -58,7 +55,7 @@ def color_text(text: str, color: str) -> str:
 
 #==============
 
-def remove_case_mismatched_files(expected_path: str) -> None:
+def remove_case_mismatched_files(expected_path: str, task_log: list[str] | None = None) -> None:
 	dir_name = os.path.dirname(expected_path)
 	base_name = os.path.basename(expected_path)
 	if not os.path.isdir(dir_name):
@@ -73,10 +70,10 @@ def remove_case_mismatched_files(expected_path: str) -> None:
 		if not os.path.isfile(entry_path):
 			continue
 		os.remove(entry_path)
-		print(color_text(
+		_download_log(color_text(
 			f"  REMOVED CASE MISMATCH: {git_paths.display_path(entry_path)}",
 			COLOR_YELLOW,
-		))
+		), task_log=task_log)
 
 #==============
 
@@ -111,18 +108,10 @@ def record_stat(stats: dict, format_key: str, bucket: str) -> None:
 class RenderOptions:
 	"""Options consumed by render_all()."""
 	download_formats: tuple = DOWNLOAD_FORMAT_KEYS
-	# When False, do not create missing artifact files. Buttons still
-	# render for files that already exist on disk; buttons for missing
-	# formats are omitted.
-	generate_downloads: bool = False
-	force_downloads: bool = False
 	# Rotate (regenerate) the per-BBQ self-test HTML on every build; each
 	# build draws a fresh random question from the bbq-*.txt source.
 	# Intentional -- do not re-gate for speed.
 	regenerate_selftests: bool = True
-	# A page can render expected missing links while the download stage owns
-	# every artifact write.
-	render_missing_download_links: bool = False
 	verbose: bool = True
 	# Optional pre-built client for problem-set title generation.
 	llm_client: object = None
@@ -130,43 +119,13 @@ class RenderOptions:
 #==============
 
 #==============
-def _create_human_readable_download(
-		bbq_file: str,
-		output_path: str,
-) -> str | None:
-	qti_packer = package_interface.QTIPackageInterface(
-		package_name=extract_core_name(bbq_file),
-		verbose=False,
-	)
-	qti_packer.read_package(bbq_file, "bbq_text")
-	saved_path = qti_packer.save_package(
-		"human_readable", outfile=output_path)
-	if saved_path is None:
-		if len(qti_packer.item_bank) == 0:
-			raise RuntimeError(
-				f"human_readable could not read any questions from "
-				f"{git_paths.display_path(bbq_file)}"
-			)
-		if os.path.lexists(output_path):
-			if not os.path.isfile(output_path):
-				raise RuntimeError(
-					f"cannot remove non-file human_readable output at "
-					f"{git_paths.display_path(output_path)}"
-				)
-			os.remove(output_path)
-		print(color_text(
-			f"  SKIP Human-Readable: no supported text questions in "
-			f"{git_paths.display_path(bbq_file)}",
-			COLOR_YELLOW,
-		))
-		return None
-	if not os.path.isfile(saved_path) or os.path.getsize(saved_path) == 0:
-		raise RuntimeError(
-			f"human_readable engine reported output but wrote no file for "
-			f"{git_paths.display_path(bbq_file)}"
-		)
-	remove_case_mismatched_files(output_path)
-	return output_path
+def _download_log(message: str, *, task_log: list[str] | None = None, file: object = None) -> None:
+	"""Collect a bank's messages for its owner thread, or print directly."""
+	if task_log is None:
+		print(message, file=file)
+	else:
+		task_log.append(message)
+
 
 #==============
 def create_downloadable_format(
@@ -174,67 +133,63 @@ def create_downloadable_format(
 	prefix: str,
 	extension: str,
 	capture_output: bool = False,
+	task_log: list[str] | None = None,
 ) -> str | None:
+	"""Run the required native converter and publish only a completed artifact."""
 	if prefix == "bbq":
 		raise ValueError
+	converter_path = git_paths.find_native_bbq_converter()
+	with open(bbq_file) as source:
+		if not any(line.strip() and not line.lstrip().startswith("#") for line in source):
+			raise RuntimeError(f"No questions in {git_paths.display_path(bbq_file)}")
 	file_path = get_outfile_name(bbq_file, prefix, extension)
-	converter_path = git_paths.find_bbq_converter()
-	if not converter_path:
-		print(color_text("cannot find bbq_converter.py", COLOR_YELLOW))
-		print("Expected in repo root or qti_package_maker/tools.")
-		print("Example: ln -sv ~/nsh/PROBLEM/qti_package_maker/tools/bbq_converter.py .")
-		raise FileNotFoundError
 	output_directory = os.path.dirname(file_path) or "."
 	os.makedirs(output_directory, exist_ok=True)
-	if prefix == "human_readable":
-		return _create_human_readable_download(bbq_file, file_path)
-	convert_cmd = [
-		"python3",
-		converter_path,
-		"--quiet",
-		f"--{prefix}",
-		"--input",
-		bbq_file,
-		"--output",
-		file_path,
-	]
-	if prefix == "blackboard_export_zip" and bbq_has_html_drawings(bbq_file):
-		convert_cmd.append("--html-to-image")
-	display_cmd = list(convert_cmd)
-	display_cmd[1] = git_paths.display_path(converter_path)
-	for path_flag in ("--input", "--output"):
-		flag_index = display_cmd.index(path_flag)
-		display_cmd[flag_index + 1] = git_paths.display_path(
-			display_cmd[flag_index + 1]
-		)
-	cmd_display = " ".join(display_cmd)
-	print(color_text(cmd_display, COLOR_COMMAND))
-	completed_process = subprocess.run(
-		convert_cmd,
-		check=False,
-		capture_output=capture_output,
-		text=capture_output,
-	)
-	if completed_process.stdout:
-		print(completed_process.stdout.rstrip())
-	if completed_process.stderr:
-		print(completed_process.stderr.rstrip(), file=sys.stderr)
-	if completed_process.returncode != 0:
-		raise RuntimeError(
-			f"{prefix} converter exited with status {completed_process.returncode} "
-			f"for {git_paths.display_path(bbq_file)}."
-		)
-	if not os.path.isfile(file_path) or os.path.getsize(file_path) == 0:
-		print("\n" + color_text(cmd_display, COLOR_COMMAND) + "\n")
-		print(color_text(
-			f"WARNING: {prefix}, {extension}, {git_paths.display_path(bbq_file)}",
-			COLOR_YELLOW,
-		))
-		raise RuntimeError(
-			f"{prefix} converter produced no output for "
-			f"{git_paths.display_path(bbq_file)}."
-		)
-	remove_case_mismatched_files(file_path)
+	# Keep the canonical basename: native writers derive package references from it.
+	with tempfile.TemporaryDirectory(prefix=".qti-", dir=output_directory) as staging:
+		staged_path = os.path.join(staging, os.path.basename(file_path))
+		convert_cmd = [
+			converter_path, "--quiet", f"--{prefix}",
+			"--input", bbq_file, "--output", staged_path,
+		]
+		if prefix == "blackboard_export_zip" and bbq_has_html_drawings(bbq_file):
+			convert_cmd.append("--html-to-image")
+		display_cmd = list(convert_cmd)
+		display_cmd[0] = git_paths.display_path(converter_path)
+		for path_flag in ("--input", "--output"):
+			flag_index = display_cmd.index(path_flag)
+			display_cmd[flag_index + 1] = git_paths.display_path(display_cmd[flag_index + 1])
+		_download_log(color_text(" ".join(display_cmd), COLOR_COMMAND), task_log=task_log)
+		completed = subprocess.run(convert_cmd, check=False, capture_output=True, text=True)
+		if completed.stdout:
+			_download_log(completed.stdout.rstrip(), task_log=task_log)
+		if completed.stderr:
+			_download_log(completed.stderr.rstrip(), task_log=task_log, file=sys.stderr)
+		if completed.returncode != 0:
+			raise RuntimeError(
+				f"{prefix} converter exited with status {completed.returncode} "
+				f"for {git_paths.display_path(bbq_file)}."
+			)
+		if prefix == "human_readable" and not os.path.exists(staged_path):
+			if os.path.lexists(file_path):
+				if not os.path.isfile(file_path):
+					raise RuntimeError(f"Cannot remove non-file human_readable output: {file_path}")
+				os.remove(file_path)
+			_download_log(color_text(
+				f"  SKIP Human-Readable: no supported text questions in "
+				f"{git_paths.display_path(bbq_file)}", COLOR_YELLOW,
+			), task_log=task_log)
+			return None
+		if not os.path.isfile(staged_path) or os.path.getsize(staged_path) == 0:
+			raise RuntimeError(
+				f"{prefix} converter produced no output for {git_paths.display_path(bbq_file)}."
+			)
+		# Self-test writers may also emit companion images alongside the HTML.
+		for entry in os.listdir(staging):
+			if entry != os.path.basename(staged_path):
+				os.replace(os.path.join(staging, entry), os.path.join(output_directory, entry))
+		os.replace(staged_path, file_path)
+	remove_case_mismatched_files(file_path, task_log=task_log)
 	return file_path
 
 
@@ -250,55 +205,19 @@ def bbq_has_html_drawings(path: str) -> bool:
 
 
 #==============
-def blackboard_export_has_html_tables(path: str | os.PathLike[str]) -> bool:
-	"""Find Ultra ZIPs whose pool still embeds HTML tables."""
-	with zipfile.ZipFile(path) as archive:
-		pool_xml = archive.read("res00002.dat")
-	return b"&lt;table" in pool_xml.lower()
-
-
-#==============
-def _create_optional_download(
-		bbq_file: str,
-		prefix: str,
-		extension: str,
-		display_name: str,
-		capture_output: bool = False,
-		progress: build_progress.BuildProgress | None = None,
-) -> str | None:
-	"""Skip a failed optional download without stopping the task build."""
-	if progress:
-		progress.check_cancelled()
-	try:
-		if capture_output:
-			return create_timed_downloadable_format(
-				bbq_file, prefix, extension, capture_output=True, progress=progress,
-			)
-		return create_timed_downloadable_format(bbq_file, prefix, extension, progress=progress)
-	except Exception as error:
-		output_path = get_outfile_name(bbq_file, prefix, extension)
-		if os.path.isfile(output_path):
-			os.remove(output_path)
-		print(color_text(
-			f"  SKIP {display_name}: {type(error).__name__}: {error}",
-			COLOR_YELLOW,
-		))
-		return None
-
-
-#==============
 def create_timed_downloadable_format(
 	bbq_file: str,
 	prefix: str,
 	extension: str,
 	capture_output: bool = False,
 	progress: build_progress.BuildProgress | None = None,
+	task_log: list[str] | None = None,
 ) -> str | None:
 	"""Measure a single export format, including browser rendering and startup."""
 	if progress is None:
-		if capture_output:
-			return create_downloadable_format(bbq_file, prefix, extension, capture_output=True)
-		return create_downloadable_format(bbq_file, prefix, extension)
+		return create_downloadable_format(
+			bbq_file, prefix, extension, capture_output=capture_output, task_log=task_log,
+		)
 	measurements = {
 		"source_file": git_paths.display_path(bbq_file),
 		"format": prefix, "source_bytes": os.path.getsize(bbq_file),
@@ -307,10 +226,9 @@ def create_timed_downloadable_format(
 	progress.emit("artifact_started", **measurements)
 	started_at = time.perf_counter()
 	try:
-		if capture_output:
-			output = create_downloadable_format(bbq_file, prefix, extension, capture_output=True)
-		else:
-			output = create_downloadable_format(bbq_file, prefix, extension)
+		output = create_downloadable_format(
+			bbq_file, prefix, extension, capture_output=capture_output, task_log=task_log,
+		)
 	except Exception as error:
 		progress.emit(
 			"artifact_failed", **measurements,
@@ -355,21 +273,6 @@ def supports_blackboard_export(bbq_file_name: str) -> bool:
 	return find_blacklisted_item_type(bbq_file_name, "bb_export") is None
 
 #==============
-def get_download_js_string() -> str:
-	download_js = (
-		'<script>\n'
-		'	function downloadFile(filePath) {\n'
-		'		const link = document.createElement(\'a\');\n'
-		'		link.href = filePath;\n'
-		'		link.download = filePath.split(\'/\').pop()\n'
-		'		document.body.appendChild(link);\n'
-		'		link.click();\n'
-		'		document.body.removeChild(link);\n'
-		'	}\n'
-		'</script>\n\n'
-	)
-	return download_js
-
 #==============
 def find_pgml_file(bbq_file_name: str) -> str:
 	"""Search for a PGML file matching a given BBQ file.
@@ -420,278 +323,58 @@ def find_pgml_file(bbq_file_name: str) -> str:
 def generate_download_button_row(
 	bbq_file_name: str,
 	download_formats: list,
-	force_downloads: bool,
 	verbose: bool,
 	stats: dict,
 	*,
-	generate_downloads: bool = False,
-	render_missing_download_links: bool = False,
-	capture_output: bool = False,
-	progress: build_progress.BuildProgress | None = None,
-	question_type_badge: str = '',
+	question_type_badge: str = "",
 ) -> str:
-	"""
-	Generates a row of HTML buttons for downloading various file types.
-	"""
-	if not download_formats:
-		if verbose:
-			print(color_text("  Downloads disabled for this page.", COLOR_YELLOW))
-		for format_key in DOWNLOAD_FORMAT_KEYS:
-			record_stat(stats, format_key, "skipped")
-		if question_type_badge:
-			return f'<div class="button-container">{question_type_badge}</div>\n'
-		return ""
-
-	# Define file types with their prefixes, suffixes, and button classes
-	file_types = {
-		"bb_text": {
-			"prefix": "bbq",
-			"extension": "txt",
-			"button_class": "bb_text",
-			"display_name": "BBQ Text"
-		},
-		"bb_export": {
-			"prefix": "blackboard_export_zip",
-			"extension": "zip",
-			"button_class": "bb_export",
-			"display_name": "Blackboard Ultra ZIP",
-			"accessibility_name": "Blackboard Ultra pool-export ZIP",
-		},
-		"canvas_qti": {
-			"prefix": "canvas_qti_v1_2",
-			"extension": "zip",
-			"button_class": "canvas_qti",
-			"display_name": "Canvas/ADAPT QTI v1.2"
-		},
-		"human_read": {
-			"prefix": "human_readable",
-			"extension": "html",
-			"button_class": "human_read",
-			"display_name": "Human-Readable TXT"
-		},
-		"webwork_pgml": {
-			"prefix": "webwork_pgml",
-			"extension": "pgml",
-			"button_class": "webwork_pgml",
-			"display_name": "WeBWorK PGML"
-		}
-	}
-
-	bbq_core_name = extract_core_name(bbq_file_name)
-	#bbq_base_name = os.path.basename(bbq_file_name)
-	dir_name = os.path.dirname(bbq_file_name)
-
-	# Initialize the HTML output string
-	html_output = f'<div id="{bbq_core_name}-button-container" class="button-container">\n'
+	"""Render source links and browser conversion controls without artifact writes."""
+	core_name = html.escape(extract_core_name(bbq_file_name), quote=True)
+	bank_name = html.escape(os.path.basename(bbq_file_name), quote=True)
+	html_output = f'<div id="{core_name}-button-container" class="button-container">\n'
 	if question_type_badge:
-		html_output += f'{question_type_badge}\n'
-
-	# Generate a button for each file type
-	for type_key, file_type in file_types.items():
-		if progress:
-			progress.check_cancelled()
-		if type_key not in download_formats:
-			if verbose:
-				print(color_text(f"  SKIP {file_type['display_name']} (disabled)", COLOR_YELLOW))
-			record_stat(stats, type_key, "skipped")
+		html_output += question_type_badge + "\n"
+	browser_controls = False
+	for format_key in DOWNLOAD_FORMAT_KEYS:
+		if format_key not in download_formats:
+			record_stat(stats, format_key, "skipped")
 			continue
-		blacklisted_item_type = find_blacklisted_item_type(
-			bbq_file_name,
-			type_key,
+		if find_blacklisted_item_type(bbq_file_name, format_key) is not None:
+			record_stat(stats, format_key, "skipped")
+			continue
+		label = FORMAT_LABELS[format_key]
+		if format_key in download_buttons.BROWSER_FORMATS:
+			prefix, extension = download_buttons.BROWSER_FORMATS[format_key]
+			output_path = get_expected_outfile_name(bbq_file_name, prefix, extension)
+			# ASVS 1.2.1: encode filenames at the HTML attribute boundary.
+			filename = html.escape(os.path.basename(output_path), quote=True)
+			accessibility_name = label
+			if format_key == "bb_export":
+				accessibility_name = "Blackboard Ultra pool-export ZIP"
+			html_output += (
+				f'<button type="button" class="md-button custom-button {format_key} qti-package-download" '
+				f'data-bbq="{bank_name}" data-format="{prefix}" data-filename="{filename}" '
+				f'aria-label="Generate {accessibility_name}">{label}</button>\n'
+			)
+			browser_controls = True
+			continue
+		path = bbq_file_name if format_key == "bb_text" else find_pgml_file(bbq_file_name)
+		if path is None or not os.path.isfile(path):
+			record_stat(stats, format_key, "missing")
+			continue
+		record_stat(stats, format_key, "existing")
+		relative_path = html.escape(os.path.relpath(path, os.path.dirname(bbq_file_name)), quote=True)
+		html_output += (
+			f'<a class="md-button custom-button {format_key}" href="{relative_path}" '
+			f'download aria-label="Download {label}">{label}</a>\n'
 		)
-		if blacklisted_item_type is not None:
-			if verbose:
-				print(color_text(
-					f"  SKIP {file_type['display_name']}: blacklisted item type "
-					f"{blacklisted_item_type}",
-					COLOR_YELLOW,
-				))
-			output_path = get_outfile_name(
-				bbq_file_name,
-				file_type['prefix'],
-				file_type['extension'],
-			)
-			if os.path.isfile(output_path):
-				os.remove(output_path)
-			record_stat(stats, type_key, "skipped")
-			continue
-		# Special handling for WeBWorK PGML: search for existing file only
-		if type_key == "webwork_pgml":
-			pgml_path = find_pgml_file(bbq_file_name)
-			if not pgml_path:
-				if verbose:
-					print(color_text(
-						f"  NOT FOUND (this stage only links existing files): "
-						f"{file_type['display_name']}",
-						COLOR_YELLOW,
-					))
-				record_stat(stats, type_key, "missing")
-				continue
-			if verbose:
-				print(color_text(
-					f"  FOUND {file_type['display_name']}: "
-					f"{git_paths.display_path(pgml_path)}",
-					COLOR_GREEN,
-				))
-			record_stat(stats, type_key, "existing")
-			pgml_basename = os.path.basename(pgml_path)
-			pgml_relative_path = os.path.relpath(pgml_path, start=dir_name)
-			button_html = (
-				f'<a class="md-button custom-button {file_type["button_class"]}" '
-				f'href="{pgml_relative_path}" '
-				f'download '
-				f'title="Download {pgml_basename}" '
-				f'aria-label="Click to download the {file_type["display_name"]} file ({pgml_basename})">\n'
-				f'    <i class="fa fa-code"></i>{file_type["display_name"]}\n'
-				f'</a>'
-			)
-			html_output += button_html + '\n'
-			continue
-		# Construct the filename using the base name and file type details
-		if type_key == "bb_text":
-			out_file_path = bbq_file_name
-		else:
-			out_file_path = get_outfile_name(
-				bbq_file_name,
-				file_type['prefix'],
-				file_type['extension'],
-			)
-		exists_before = os.path.isfile(out_file_path)
-		# When generate_downloads is off, never create missing artifact
-		# files. Skip the button entirely for formats that do not yet
-		# exist on disk.
-		planned_missing_artifact = False
-		if not generate_downloads and not exists_before:
-			if verbose:
-				print(color_text(
-					f"  NOT PRESENT (this page-render stage does not generate downloads): "
-					f"{file_type['display_name']}: "
-					f"{git_paths.display_path(out_file_path)}",
-					COLOR_YELLOW,
-				))
-			record_stat(stats, type_key, "missing")
-			if not render_missing_download_links:
-				continue
-			planned_missing_artifact = True
-		# Rebuild when the source changed or the ZIP still contains HTML tables.
-		needs_rebuild = False
-		table_export_needs_conversion = False
-		if exists_before:
-			source_mtime = os.path.getmtime(bbq_file_name)
-			download_mtime = os.path.getmtime(out_file_path)
-			needs_rebuild = source_mtime > download_mtime
-			if type_key == "bb_export" and generate_downloads:
-				table_export_needs_conversion = blackboard_export_has_html_tables(out_file_path)
-				needs_rebuild = needs_rebuild or table_export_needs_conversion
-		# Honor generate_downloads for the stale-rebuild path too:
-		# render the button pointing at the stale file rather than
-		# rebuilding.
-		if needs_rebuild and not generate_downloads:
-			needs_rebuild = False
-		if exists_before and not force_downloads and not needs_rebuild:
-			if verbose:
-				print(color_text(
-					f"  FOUND {file_type['display_name']}: "
-					f"{git_paths.display_path(out_file_path)}",
-					COLOR_GREEN,
-				))
-			record_stat(stats, type_key, "existing")
-		elif needs_rebuild:
-			if verbose:
-				reason = "HTML table in ZIP" if table_export_needs_conversion else "source newer"
-				print(color_text(f"  STALE {file_type['display_name']}: {reason}, rebuilding", COLOR_CYAN))
-			out_file_path = _create_optional_download(
-				bbq_file_name,
-				file_type['prefix'],
-				file_type['extension'],
-				file_type['display_name'],
-				capture_output,
-				progress,
-			)
-			if out_file_path is None:
-				record_stat(stats, type_key, "skipped")
-				continue
-			if not os.path.isfile(out_file_path):
-				if verbose:
-					print(color_text(
-						f"  SKIP {file_type['display_name']}: output was not created",
-						COLOR_YELLOW,
-					))
-				record_stat(stats, type_key, "skipped")
-				continue
-			record_stat(stats, type_key, "generated")
-		elif type_key == "bb_text":
-			if verbose:
-				print(color_text(
-					f"  MISSING {file_type['display_name']}: "
-					f"{git_paths.display_path(out_file_path)}",
-					COLOR_YELLOW,
-				))
-			record_stat(stats, type_key, "missing")
-		elif not planned_missing_artifact:
-			if verbose:
-				print(color_text(
-					f"  BUILD {file_type['display_name']}: "
-					f"{git_paths.display_path(out_file_path)}",
-					COLOR_CYAN,
-				))
-			out_file_path = _create_optional_download(
-				bbq_file_name,
-				file_type['prefix'],
-				file_type['extension'],
-				file_type['display_name'],
-				capture_output,
-				progress,
-			)
-		if out_file_path is None:
-			record_stat(stats, type_key, "skipped")
-			continue
-		if not planned_missing_artifact and not os.path.isfile(out_file_path):
-			if verbose:
-				print(color_text(
-					f"  SKIP {file_type['display_name']}: output was not created",
-					COLOR_YELLOW,
-				))
-			if type_key != "bb_text":
-				record_stat(stats, type_key, "skipped")
-			continue
-		if (
-			type_key != "bb_text"
-			and not planned_missing_artifact
-			and not (exists_before and not force_downloads)
-		):
-			record_stat(stats, type_key, "generated")
-		out_file_basename = os.path.basename(out_file_path)
-		out_relative_path = os.path.relpath(out_file_path, start=dir_name)
-		accessibility_name = file_type.get(
-			"accessibility_name", file_type["display_name"]
+	if browser_controls:
+		html_output += '<span class="qti-package-status" role="status" aria-live="polite"></span>\n'
+		html_output += (
+			'<progress class="qti-package-progress" max="1" value="0" hidden '
+			'aria-label="Package generation progress"></progress>\n'
 		)
-		# Create HTML button element with corresponding attributes
-		if type_key == "human_read":
-			button_html = (
-				f'<button class="md-button custom-button {file_type["button_class"]}" '
-				f'onclick="window.open(\'{out_relative_path}\', \'_blank\')" '
-				f'title="View {out_file_basename}" '
-				f'aria-label="Click to view the {accessibility_name} file ({out_file_basename})">\n'
-				f'    <i class="fa fa-eye"></i> {file_type["display_name"]}\n'
-				f'</button>'
-			)
-		else:
-			button_html = (
-				f'<a class="md-button custom-button {file_type["button_class"]}" '
-				f'href="{out_relative_path}" '
-				f'download '
-				f'title="Download {out_file_basename}" '
-				f'aria-label="Click to download the {accessibility_name} file ({out_file_basename})">\n'
-				f'    <i class="fa fa-download"></i>{file_type["display_name"]}\n'
-				f'</a>'
-			)
-		# Add the button to the HTML output
-		html_output += button_html + '\n'
-
-	# Close the container div
-	html_output += '</div>'
-
+	html_output += "</div>"
 	return html_output
 
 #============================================
@@ -817,15 +500,12 @@ def update_index_md(
 	file_counter: dict,
 	total_files: int,
 	download_formats: list,
-	force_downloads: bool,
 	verbose: bool,
 	stats: dict,
 	base_dir: str,
 	client: object = None,
 	*,
-	generate_downloads: bool = False,
 	regenerate_selftests: bool = True,
-	render_missing_download_links: bool = False,
 ) -> None:
 	"""Update or create the topic index page and its configured artifacts.
 
@@ -834,15 +514,12 @@ def update_index_md(
 		bbq_files: BBQ question files to include on the page.
 		file_counter: Mutable counter tracking processed BBQ files.
 		total_files: Total number of BBQ files being processed.
-		download_formats: Download formats to display or generate.
-		force_downloads: Whether to replace existing download files.
+		download_formats: Download formats to display.
 		verbose: Whether to print per-file progress.
 		stats: Mutable generation statistics.
 		base_dir: Base directory used to form include paths.
 		client: Optional title-generation client.
-		generate_downloads: Whether to create download files.
 		regenerate_selftests: Whether to regenerate self-test HTML.
-		render_missing_download_links: Whether to show links for missing files.
 	"""
 	# Normalize the folder path to handle trailing slashes
 	normalized_path = os.path.normpath(topic_folder)
@@ -934,11 +611,8 @@ def update_index_md(
 			download_button_row = generate_download_button_row(
 				bbq_file,
 				download_formats,
-				force_downloads,
 				verbose,
 				stats,
-				generate_downloads=generate_downloads,
-				render_missing_download_links=render_missing_download_links,
 				question_type_badge=question_type_badge,
 			)
 			index_md.write(download_button_row)
@@ -954,29 +628,15 @@ def update_index_md(
 			index_md.write("      example problem\n")
 			index_md.write("    </span>\n")
 			index_md.write("  </summary>\n")
+			bank_name = os.path.basename(bbq_file)
+			page_path = os.path.relpath(index_md_path, base_dir)
+			bank_id = html.escape(f"{page_path}:{bank_name}", quote=True)
+			bank_url = html.escape(bank_name, quote=True)
+			index_md.write(f'  <div class="qti-selftest" data-bbq="{bank_url}" data-bank-id="{bank_id}">\n')
 			index_md.write(f"  {{% include \"{os.path.relpath(html_file_path, base_dir)}\" %}}\n\n")
+			index_md.write("  </div>\n")
 			index_md.write("</details>\n\n\n")
 
-
-#==============
-def generate_download_artifacts(
-	bbq_file_name: str,
-	verbose: bool = True,
-	capture_output: bool = False,
-	progress: build_progress.BuildProgress | None = None,
-) -> None:
-	"""Create converter-owned downloads without rendering a topic page."""
-	stats = init_format_stats()
-	generate_download_button_row(
-		bbq_file_name,
-		list(DOWNLOAD_FORMAT_KEYS),
-		force_downloads=False,
-		verbose=verbose,
-		stats=stats,
-		generate_downloads=True,
-		capture_output=capture_output,
-		progress=progress,
-	)
 
 #==============
 
@@ -1130,7 +790,6 @@ def render_all(
 	if options.verbose:
 		joined_formats = ", ".join(options.download_formats) or "none"
 		print(color_text(f"Download formats: {joined_formats}", COLOR_CYAN))
-		print(color_text(f"Force downloads: {options.force_downloads}", COLOR_CYAN))
 
 	topic_jobs = enumerate_topic_jobs(base_dir, subject_filter, topic_filter)
 	if options.verbose:
@@ -1169,14 +828,11 @@ def render_all(
 			file_counter,
 			total_bbq_files,
 			list(options.download_formats),
-			options.force_downloads,
 			options.verbose,
 			stats,
 			base_dir,
 			client=options.llm_client,
-			generate_downloads=options.generate_downloads,
 			regenerate_selftests=options.regenerate_selftests,
-			render_missing_download_links=options.render_missing_download_links,
 		)
 	if options.verbose:
 		print("\n\nSummary:")

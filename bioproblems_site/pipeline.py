@@ -87,7 +87,6 @@ def run(
 	topic_filter: "str | None" = None,
 	subject_indexes: bool = True,
 	topic_pages: bool = False,
-	generate_downloads: bool = False,
 	regenerate_selftests: bool = True,
 	run_selftests: bool = False,
 	dry_run: bool = False,
@@ -99,14 +98,10 @@ def run(
 ) -> None:
 	"""Regenerate subject indexes, topic pages, and the mkdocs.yml nav block.
 
-	Three independent axes. `subject_indexes` also updates mkdocs nav.
-	`topic_pages` rewrites topic??/index.md files. `generate_downloads`
-	is only meaningful when `topic_pages` is True; when False, download
-	artifact files are not created (buttons still render for files that
-	already exist on disk). `regenerate_selftests` rotates the per-BBQ
-	self-test HTML by default whenever `topic_pages` is True, independent
-	of `generate_downloads`; each build draws a fresh random question from
-	the bbq-*.txt source. `run_selftests` triggers a standalone self-test
+	`subject_indexes` updates indexes and mkdocs navigation. `topic_pages` rewrites
+	topic??/index.md files with browser package controls. `regenerate_selftests` rotates
+	the per-BBQ self-test HTML by default whenever `topic_pages` is True. Each build
+	draws a fresh random question from the bbq-*.txt source. `run_selftests` triggers a standalone self-test
 	regeneration pass (independent of `topic_pages`): every self-test HTML
 	in scope is force-rebuilt from its BBQ source via qti-package-maker,
 	without rewriting index.md or contacting the LLM.
@@ -155,7 +150,6 @@ def run(
 			options = topic_page_module.RenderOptions(
 				verbose=verbose,
 				llm_client=llm_client,
-				generate_downloads=generate_downloads,
 				regenerate_selftests=regenerate_selftests,
 			)
 			topic_page_module.render_all(

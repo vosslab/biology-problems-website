@@ -1,5 +1,86 @@
 # Changelog
 
+## 2026-10-09
+
+### Additions and New Features
+
+- Add a **New version** control to embedded self-tests. Its intended behavior is to load the
+  vendored QTI WebAssembly converter and question bank on first use, then show another variant.
+  The build-time question remains the no-JavaScript default. The real-WASM A/B reroll browser
+  journey passes across the complete consumer rollout; separate specification and quality reviews
+  pass together with fresh isolated combined integration evidence.
+- Phase 2 progress contract: completion stays keyed by question CRC, with bank identity used only
+  to locate and group variants. Rerolling resets answer controls and feedback while retaining any
+  completion record for the shown CRC. No bank-level migration is intended.
+- Add `devel/vendor_qti_wasm.py` to copy the sibling QTI WebAssembly distribution into the site
+  and record its source path and per-file SHA256 in `source.json`; `sourceCommit` is null when no
+  revision receipt is supplied.
+
+### Behavior or Interface Changes
+
+- Generate Blackboard Ultra ZIP, Canvas/ADAPT QTI ZIP, and Human-Readable HTML in the browser
+  from the original BBQ source on demand. Load the vendored converter on first use and drawing
+  dependencies when needed; show progress and permit retry after failure. Human HTML opens in
+  a new tab. Native site builds retain self-tests and skip these prebuilt exports. Direct BBQ and
+  PGML downloads remain available.
+- Add pinned modern-screenshot/RDKit asset refresh through `devel/vendor_package_render.mjs`,
+  with local license texts and version/hash receipts. Refresh canonical QTI WASM by building
+  the sibling private package and copying its complete distribution.
+- Site artifact generation now requires the executable
+  `../qti-package-maker-rs/target/release/bbq-converter`; a missing or non-executable binary
+  stops generation rather than selecting the Python converter.
+- Run independent native self-test bank conversions concurrently with half of the detected CPU
+  count, using one worker when fewer than two CPUs are reported. Each bank's log is emitted as a
+  whole.
+
+### Fixes and Maintenance
+
+- Order reroll initialization after the external converter script loads successfully, handle load
+  errors before inline initialization, and reenable retry after a load failure.
+- Correct build help and developer documentation to describe browser-generated package exports,
+  direct BBQ/PGML files, and native self-test timing. Remove two request-path assertions that
+  duplicated semantic package and retry coverage.
+
+### Developer Tests and Notes
+
+- The website parser accepts valid class-first question containers. Full native `-H` generation
+  refreshes 482 self-tests in 13 seconds; `-I` refreshes 57 topic pages and 15 metadata outputs
+  in 22 seconds.
+  Wrapper/manifest sets match all 482 banks with no missing inputs/includes. The real-WASM
+  A/B/A journey passes, including incorrect B without stored completion, separate correct A/B
+  records, fresh controls on return to A, and one-time reload/multi-slot checks without page errors.
+- After KISS trimming, 3 permanent Playwright checks pass in 2.0 seconds against the existing
+  HTTP site on port 8734, 7 manifest cases pass in 0.05 seconds, and 3 Node checks pass. Retained
+  checks protect per-question completion, native attribute order/missing roots, and demonstrated
+  script readiness/retry. Removed speculative attribute matrices, repeated grading, redundant
+  permanent reload, and the v2-null assertion; one-time receipts preserve the broader proof.
+- A prefix inventory of 482 banks, 16,157 MC/MA rows, and 80,088 choices finds no affected raw
+  prefixes. The synthetic CRC discrepancy remains upstream-owned and does not block website
+  acceptance. Artifact hashes and `sourceCommit: null` record provenance, not compatibility gates.
+- Phase 1 full-build verification passes with zero failed exports, semantic question/grading/media
+  checks, matched native/Python timing, and 6,075 passing tests. Phase 2 consumer and fresh isolated
+  combined integration acceptance pass, including 482 matching wrappers/manifest rows, a successful
+  MkDocs build, and 3 browser checks including the real-WASM journey. The user intentionally
+  restored live generated files; future generation/browser proof runs in isolation. See
+  [optimized_spindle_phase2_acceptance.md](active_plans/reports/optimized_spindle_phase2_acceptance.md)
+  and [optimized_spindle_execution.md](active_plans/reports/optimized_spindle_execution.md).
+- Phase 3a representative visual review selects uniform full-color modern-screenshot captures at
+  scale 1; palette reduction changes guide heading colors. Fresh specification, quality, and local
+  integration reviews pass. The manager accepts Phase 3a and selects D under the revised local
+  acceptance criteria; Phase 3b and final independent local integration are complete. Actual
+  Ultra compatibility remains unverified.
+- Phase 3b source checks pass 6,081 website tests and 5 browser checks. Three real source banks
+  retain all 150 question identities, order, and grading with 1,051 valid packaged PNGs. PNG
+  completion rejects signature-only, truncated, and corrupt images before packaging. Final
+  scientific assessment passes for 14 sampled native/browser image pairs. Migrate 57 topic pages
+  and remove 1,424 retired generated exports after replacement acceptance; 1,400 protected files
+  remain unchanged. Site storage falls by 559,762,347 bytes. Live MkDocs and 5 post-cleanup browser
+  checks pass; final independent integration accepts the complete plan. Remote publication remains
+  unperformed; actual Ultra compatibility remains unverified external evidence. Temporary
+  experiments are archived at
+  `/private/tmp/optimized_spindle_evidence_20261009/` with path mappings and receipts. See
+  [optimized_spindle_phase3_acceptance.md](active_plans/reports/optimized_spindle_phase3_acceptance.md).
+
 ## 2026-10-05
 
 ### Additions and New Features

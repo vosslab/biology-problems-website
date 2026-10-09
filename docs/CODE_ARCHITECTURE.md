@@ -10,7 +10,7 @@ CLI exposes one dependency-aware content build workflow.
 
 - [build_site.py](../build_site.py): short public argument parser and build entrypoint.
 - [bioproblems_site/build_coordinator.py](../bioproblems_site/build_coordinator.py):
-  ordered BBQ, self-test, download, topic-page, and index/navigation orchestration
+  ordered BBQ, native self-test, topic-page, and index/navigation orchestration
   with stage timing summaries.
 - [bioproblems_site/build_stages.py](../bioproblems_site/build_stages.py): local
   stale checks and output-owned stage entrypoints.
@@ -19,7 +19,7 @@ CLI exposes one dependency-aware content build workflow.
 - [bioproblems_site/topic_metadata.py](../bioproblems_site/topic_metadata.py):
   cached topic title, description, and LibreTexts metadata lookup.
 - [bioproblems_site/topic_page.py](../bioproblems_site/topic_page.py): topic
-  page rendering and generated-download helpers.
+  page rendering, direct BBQ/PGML links, and browser-export controls.
 - [bioproblems_site/title_cache.py](../bioproblems_site/title_cache.py): shared
   title-cache path, YAML parsing, and writing.
 - [bioproblems_site/question_index.py](../bioproblems_site/question_index.py):
@@ -56,8 +56,9 @@ versioning, changelog, release, graphify, and cleanup workflows.
 The coordinator loads the selected task CSVs from [task_files/](../task_files/),
 resolves their canonical subject/topic keys from metadata, and reports `TopicRef`
 changes rather than inferring identity from paths. It completes each selected
-configured CSV row's BBQ generation, self-tests, and downloads before advancing
-to the next row. Since a topic page summarizes every question file in its folder,
+configured CSV row's BBQ generation and native self-tests before advancing to
+the next row. Browser controls generate package exports from BBQ source on demand;
+BBQ and PGML remain direct files. Since a topic page summarizes every question file in its folder,
 each affected page is rendered once after the selected rows finish. The coordinator
 then runs repository-wide reconciliation, the searchable question index, selected
 subject indexes, navigation, and the self-test manifest. Each stage owns its direct

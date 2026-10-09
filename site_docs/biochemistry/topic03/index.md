@@ -8,21 +8,13 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 
 <div id="MATCH-amino_acids_properties-long_tables-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-MATCH-amino_acids_properties-long_tables-questions.txt" download title="Download bbq-MATCH-amino_acids_properties-long_tables-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-amino_acids_properties-long_tables-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-amino_acids_properties-long_tables.zip" download title="Download blackboard_export_zip-MATCH-amino_acids_properties-long_tables.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-amino_acids_properties-long_tables.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-amino_acids_properties-long_tables.zip" download title="Download canvas_qti_v1_2-MATCH-amino_acids_properties-long_tables.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-amino_acids_properties-long_tables.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-amino_acids_properties-long_tables.html', '_blank')" title="View human_readable-MATCH-amino_acids_properties-long_tables.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-amino_acids_properties-long_tables.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/amino_acids_properties-long_tables-matching.pgml" download title="Download amino_acids_properties-long_tables-matching.pgml" aria-label="Click to download the WeBWorK PGML file (amino_acids_properties-long_tables-matching.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-MATCH-amino_acids_properties-long_tables-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-MATCH-amino_acids_properties-long_tables-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-amino_acids_properties-long_tables.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-MATCH-amino_acids_properties-long_tables-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-amino_acids_properties-long_tables.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-MATCH-amino_acids_properties-long_tables-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-amino_acids_properties-long_tables.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/amino_acids_properties-long_tables-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -35,8 +27,10 @@ Students identify amino acids by their side chains, classify R-groups by polarit
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-MATCH-amino_acids_properties-long_tables-questions.txt" data-bank-id="biochemistry/topic03/index.md:bbq-MATCH-amino_acids_properties-long_tables-questions.txt">
   {% include "biochemistry/topic03/downloads/selftest-MATCH-amino_acids_properties-long_tables.html" %}
 
+  </div>
 </details>
 
 
@@ -44,21 +38,13 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 
 <div id="MATCH-amino_acids_properties-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-MATCH-amino_acids_properties-questions.txt" download title="Download bbq-MATCH-amino_acids_properties-questions.txt" aria-label="Click to download the BBQ Text file (bbq-MATCH-amino_acids_properties-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-MATCH-amino_acids_properties.zip" download title="Download blackboard_export_zip-MATCH-amino_acids_properties.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-MATCH-amino_acids_properties.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-MATCH-amino_acids_properties.zip" download title="Download canvas_qti_v1_2-MATCH-amino_acids_properties.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-MATCH-amino_acids_properties.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-MATCH-amino_acids_properties.html', '_blank')" title="View human_readable-MATCH-amino_acids_properties.html" aria-label="Click to view the Human-Readable TXT file (human_readable-MATCH-amino_acids_properties.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/amino_acids_properties-matching.pgml" download title="Download amino_acids_properties-matching.pgml" aria-label="Click to download the WeBWorK PGML file (amino_acids_properties-matching.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-MATCH-amino_acids_properties-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-MATCH-amino_acids_properties-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-MATCH-amino_acids_properties.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-MATCH-amino_acids_properties-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-MATCH-amino_acids_properties.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-MATCH-amino_acids_properties-questions.txt" data-format="human_readable" data-filename="human_readable-MATCH-amino_acids_properties.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/amino_acids_properties-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -71,8 +57,10 @@ Students identify amino acids by their side chains, classify R-groups by polarit
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-MATCH-amino_acids_properties-questions.txt" data-bank-id="biochemistry/topic03/index.md:bbq-MATCH-amino_acids_properties-questions.txt">
   {% include "biochemistry/topic03/downloads/selftest-MATCH-amino_acids_properties.html" %}
 
+  </div>
 </details>
 
 
@@ -80,21 +68,13 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 
 <div id="WOMC-amino_acids_properties-long_tables-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-WOMC-amino_acids_properties-long_tables-questions.txt" download title="Download bbq-WOMC-amino_acids_properties-long_tables-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-amino_acids_properties-long_tables-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-amino_acids_properties-long_tables.zip" download title="Download blackboard_export_zip-WOMC-amino_acids_properties-long_tables.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-amino_acids_properties-long_tables.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-amino_acids_properties-long_tables.zip" download title="Download canvas_qti_v1_2-WOMC-amino_acids_properties-long_tables.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-amino_acids_properties-long_tables.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-amino_acids_properties-long_tables.html', '_blank')" title="View human_readable-WOMC-amino_acids_properties-long_tables.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-amino_acids_properties-long_tables.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/amino_acids_properties-long_tables-which_one.pgml" download title="Download amino_acids_properties-long_tables-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (amino_acids_properties-long_tables-which_one.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-WOMC-amino_acids_properties-long_tables-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-WOMC-amino_acids_properties-long_tables-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-amino_acids_properties-long_tables.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-WOMC-amino_acids_properties-long_tables-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-amino_acids_properties-long_tables.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-WOMC-amino_acids_properties-long_tables-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-amino_acids_properties-long_tables.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/amino_acids_properties-long_tables-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -107,8 +87,10 @@ Students identify amino acids by their side chains, classify R-groups by polarit
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-WOMC-amino_acids_properties-long_tables-questions.txt" data-bank-id="biochemistry/topic03/index.md:bbq-WOMC-amino_acids_properties-long_tables-questions.txt">
   {% include "biochemistry/topic03/downloads/selftest-WOMC-amino_acids_properties-long_tables.html" %}
 
+  </div>
 </details>
 
 
@@ -116,21 +98,13 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 
 <div id="WOMC-amino_acids_properties-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-womc" title="Which One Multiple Choice (from matching content)">WOMC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-WOMC-amino_acids_properties-questions.txt" download title="Download bbq-WOMC-amino_acids_properties-questions.txt" aria-label="Click to download the BBQ Text file (bbq-WOMC-amino_acids_properties-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-WOMC-amino_acids_properties.zip" download title="Download blackboard_export_zip-WOMC-amino_acids_properties.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-WOMC-amino_acids_properties.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-WOMC-amino_acids_properties.zip" download title="Download canvas_qti_v1_2-WOMC-amino_acids_properties.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-WOMC-amino_acids_properties.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-WOMC-amino_acids_properties.html', '_blank')" title="View human_readable-WOMC-amino_acids_properties.html" aria-label="Click to view the Human-Readable TXT file (human_readable-WOMC-amino_acids_properties.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/amino_acids_properties-which_one.pgml" download title="Download amino_acids_properties-which_one.pgml" aria-label="Click to download the WeBWorK PGML file (amino_acids_properties-which_one.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-WOMC-amino_acids_properties-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-WOMC-amino_acids_properties-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-WOMC-amino_acids_properties.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-WOMC-amino_acids_properties-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-WOMC-amino_acids_properties.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-WOMC-amino_acids_properties-questions.txt" data-format="human_readable" data-filename="human_readable-WOMC-amino_acids_properties.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/amino_acids_properties-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -143,8 +117,10 @@ Students identify amino acids by their side chains, classify R-groups by polarit
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-WOMC-amino_acids_properties-questions.txt" data-bank-id="biochemistry/topic03/index.md:bbq-WOMC-amino_acids_properties-questions.txt">
   {% include "biochemistry/topic03/downloads/selftest-WOMC-amino_acids_properties.html" %}
 
+  </div>
 </details>
 
 
@@ -152,18 +128,13 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 
 <div id="alanine_protonation_states-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-alanine_protonation_states-questions.txt" download title="Download bbq-alanine_protonation_states-questions.txt" aria-label="Click to download the BBQ Text file (bbq-alanine_protonation_states-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-alanine_protonation_states.zip" download title="Download blackboard_export_zip-alanine_protonation_states.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-alanine_protonation_states.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-alanine_protonation_states.zip" download title="Download canvas_qti_v1_2-alanine_protonation_states.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-alanine_protonation_states.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<a class="md-button custom-button webwork_pgml" href="downloads/alanine_protonation_states.pg" download title="Download alanine_protonation_states.pg" aria-label="Click to download the WeBWorK PGML file (alanine_protonation_states.pg)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-alanine_protonation_states-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-alanine_protonation_states-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-alanine_protonation_states.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-alanine_protonation_states-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-alanine_protonation_states.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-alanine_protonation_states-questions.txt" data-format="human_readable" data-filename="human_readable-alanine_protonation_states.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/alanine_protonation_states.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -176,8 +147,10 @@ Students identify amino acids by their side chains, classify R-groups by polarit
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-alanine_protonation_states-questions.txt" data-bank-id="biochemistry/topic03/index.md:bbq-alanine_protonation_states-questions.txt">
   {% include "biochemistry/topic03/downloads/selftest-alanine_protonation_states.html" %}
 
+  </div>
 </details>
 
 
@@ -185,18 +158,13 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 
 <div id="alpha_amino_acid_identification-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-alpha_amino_acid_identification-questions.txt" download title="Download bbq-alpha_amino_acid_identification-questions.txt" aria-label="Click to download the BBQ Text file (bbq-alpha_amino_acid_identification-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-alpha_amino_acid_identification.zip" download title="Download blackboard_export_zip-alpha_amino_acid_identification.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-alpha_amino_acid_identification.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-alpha_amino_acid_identification.zip" download title="Download canvas_qti_v1_2-alpha_amino_acid_identification.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-alpha_amino_acid_identification.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<a class="md-button custom-button webwork_pgml" href="downloads/alpha_amino_acid_identification.pg" download title="Download alpha_amino_acid_identification.pg" aria-label="Click to download the WeBWorK PGML file (alpha_amino_acid_identification.pg)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-alpha_amino_acid_identification-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-alpha_amino_acid_identification-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-alpha_amino_acid_identification.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-alpha_amino_acid_identification-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-alpha_amino_acid_identification.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-alpha_amino_acid_identification-questions.txt" data-format="human_readable" data-filename="human_readable-alpha_amino_acid_identification.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/alpha_amino_acid_identification.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -209,8 +177,10 @@ Students identify amino acids by their side chains, classify R-groups by polarit
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-alpha_amino_acid_identification-questions.txt" data-bank-id="biochemistry/topic03/index.md:bbq-alpha_amino_acid_identification-questions.txt">
   {% include "biochemistry/topic03/downloads/selftest-alpha_amino_acid_identification.html" %}
 
+  </div>
 </details>
 
 
@@ -218,18 +188,13 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 
 <div id="histidine_protonation_states-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-histidine_protonation_states-questions.txt" download title="Download bbq-histidine_protonation_states-questions.txt" aria-label="Click to download the BBQ Text file (bbq-histidine_protonation_states-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-histidine_protonation_states.zip" download title="Download blackboard_export_zip-histidine_protonation_states.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-histidine_protonation_states.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-histidine_protonation_states.zip" download title="Download canvas_qti_v1_2-histidine_protonation_states.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-histidine_protonation_states.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<a class="md-button custom-button webwork_pgml" href="downloads/histidine_protonation_states.pg" download title="Download histidine_protonation_states.pg" aria-label="Click to download the WeBWorK PGML file (histidine_protonation_states.pg)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-histidine_protonation_states-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-histidine_protonation_states-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-histidine_protonation_states.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-histidine_protonation_states-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-histidine_protonation_states.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-histidine_protonation_states-questions.txt" data-format="human_readable" data-filename="human_readable-histidine_protonation_states.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/histidine_protonation_states.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -242,8 +207,10 @@ Students identify amino acids by their side chains, classify R-groups by polarit
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-histidine_protonation_states-questions.txt" data-bank-id="biochemistry/topic03/index.md:bbq-histidine_protonation_states-questions.txt">
   {% include "biochemistry/topic03/downloads/selftest-histidine_protonation_states.html" %}
 
+  </div>
 </details>
 
 
@@ -251,21 +218,13 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 
 <div id="ionic_bond_amino_acids-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-ionic_bond_amino_acids-questions.txt" download title="Download bbq-ionic_bond_amino_acids-questions.txt" aria-label="Click to download the BBQ Text file (bbq-ionic_bond_amino_acids-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-ionic_bond_amino_acids.zip" download title="Download blackboard_export_zip-ionic_bond_amino_acids.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-ionic_bond_amino_acids.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-ionic_bond_amino_acids.zip" download title="Download canvas_qti_v1_2-ionic_bond_amino_acids.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-ionic_bond_amino_acids.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-ionic_bond_amino_acids.html', '_blank')" title="View human_readable-ionic_bond_amino_acids.html" aria-label="Click to view the Human-Readable TXT file (human_readable-ionic_bond_amino_acids.html)">
-    <i class="fa fa-eye"></i> Human-Readable TXT
-</button>
-<a class="md-button custom-button webwork_pgml" href="downloads/ionic_bond_amino_acids.pgml" download title="Download ionic_bond_amino_acids.pgml" aria-label="Click to download the WeBWorK PGML file (ionic_bond_amino_acids.pgml)">
-    <i class="fa fa-code"></i>WeBWorK PGML
-</a>
+<a class="md-button custom-button bb_text" href="bbq-ionic_bond_amino_acids-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-ionic_bond_amino_acids-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-ionic_bond_amino_acids.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-ionic_bond_amino_acids-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-ionic_bond_amino_acids.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-ionic_bond_amino_acids-questions.txt" data-format="human_readable" data-filename="human_readable-ionic_bond_amino_acids.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<a class="md-button custom-button webwork_pgml" href="downloads/ionic_bond_amino_acids.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -278,8 +237,10 @@ Students identify amino acids by their side chains, classify R-groups by polarit
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-ionic_bond_amino_acids-questions.txt" data-bank-id="biochemistry/topic03/index.md:bbq-ionic_bond_amino_acids-questions.txt">
   {% include "biochemistry/topic03/downloads/selftest-ionic_bond_amino_acids.html" %}
 
+  </div>
 </details>
 
 
@@ -287,15 +248,12 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 
 <div id="match_amino_acid_structures-4_choices-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-match_amino_acid_structures-4_choices-questions.txt" download title="Download bbq-match_amino_acid_structures-4_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-match_amino_acid_structures-4_choices-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-match_amino_acid_structures-4_choices.zip" download title="Download blackboard_export_zip-match_amino_acid_structures-4_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-match_amino_acid_structures-4_choices.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-match_amino_acid_structures-4_choices.zip" download title="Download canvas_qti_v1_2-match_amino_acid_structures-4_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-match_amino_acid_structures-4_choices.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
+<a class="md-button custom-button bb_text" href="bbq-match_amino_acid_structures-4_choices-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-match_amino_acid_structures-4_choices-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-match_amino_acid_structures-4_choices.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-match_amino_acid_structures-4_choices-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-match_amino_acid_structures-4_choices.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-match_amino_acid_structures-4_choices-questions.txt" data-format="human_readable" data-filename="human_readable-match_amino_acid_structures-4_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -308,8 +266,10 @@ Students identify amino acids by their side chains, classify R-groups by polarit
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-match_amino_acid_structures-4_choices-questions.txt" data-bank-id="biochemistry/topic03/index.md:bbq-match_amino_acid_structures-4_choices-questions.txt">
   {% include "biochemistry/topic03/downloads/selftest-match_amino_acid_structures-4_choices.html" %}
 
+  </div>
 </details>
 
 
@@ -317,15 +277,12 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 
 <div id="polypeptide_fib_sequence-FIB-2aa-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-polypeptide_fib_sequence-FIB-2aa-questions.txt" download title="Download bbq-polypeptide_fib_sequence-FIB-2aa-questions.txt" aria-label="Click to download the BBQ Text file (bbq-polypeptide_fib_sequence-FIB-2aa-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-polypeptide_fib_sequence-FIB-2aa.zip" download title="Download blackboard_export_zip-polypeptide_fib_sequence-FIB-2aa.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-polypeptide_fib_sequence-FIB-2aa.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-polypeptide_fib_sequence-FIB-2aa.zip" download title="Download canvas_qti_v1_2-polypeptide_fib_sequence-FIB-2aa.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-polypeptide_fib_sequence-FIB-2aa.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
+<a class="md-button custom-button bb_text" href="bbq-polypeptide_fib_sequence-FIB-2aa-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-polypeptide_fib_sequence-FIB-2aa-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-polypeptide_fib_sequence-FIB-2aa.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-polypeptide_fib_sequence-FIB-2aa-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-polypeptide_fib_sequence-FIB-2aa.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-polypeptide_fib_sequence-FIB-2aa-questions.txt" data-format="human_readable" data-filename="human_readable-polypeptide_fib_sequence-FIB-2aa.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -338,8 +295,10 @@ Students identify amino acids by their side chains, classify R-groups by polarit
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-polypeptide_fib_sequence-FIB-2aa-questions.txt" data-bank-id="biochemistry/topic03/index.md:bbq-polypeptide_fib_sequence-FIB-2aa-questions.txt">
   {% include "biochemistry/topic03/downloads/selftest-polypeptide_fib_sequence-FIB-2aa.html" %}
 
+  </div>
 </details>
 
 
@@ -347,15 +306,12 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 
 <div id="polypeptide_mc_sequence-2_amino_acids-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-polypeptide_mc_sequence-2_amino_acids-questions.txt" download title="Download bbq-polypeptide_mc_sequence-2_amino_acids-questions.txt" aria-label="Click to download the BBQ Text file (bbq-polypeptide_mc_sequence-2_amino_acids-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-polypeptide_mc_sequence-2_amino_acids.zip" download title="Download blackboard_export_zip-polypeptide_mc_sequence-2_amino_acids.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-polypeptide_mc_sequence-2_amino_acids.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-polypeptide_mc_sequence-2_amino_acids.zip" download title="Download canvas_qti_v1_2-polypeptide_mc_sequence-2_amino_acids.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-polypeptide_mc_sequence-2_amino_acids.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
+<a class="md-button custom-button bb_text" href="bbq-polypeptide_mc_sequence-2_amino_acids-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-polypeptide_mc_sequence-2_amino_acids-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-polypeptide_mc_sequence-2_amino_acids.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-polypeptide_mc_sequence-2_amino_acids-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-polypeptide_mc_sequence-2_amino_acids.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-polypeptide_mc_sequence-2_amino_acids-questions.txt" data-format="human_readable" data-filename="human_readable-polypeptide_mc_sequence-2_amino_acids.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -368,8 +324,10 @@ Students identify amino acids by their side chains, classify R-groups by polarit
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-polypeptide_mc_sequence-2_amino_acids-questions.txt" data-bank-id="biochemistry/topic03/index.md:bbq-polypeptide_mc_sequence-2_amino_acids-questions.txt">
   {% include "biochemistry/topic03/downloads/selftest-polypeptide_mc_sequence-2_amino_acids.html" %}
 
+  </div>
 </details>
 
 
@@ -377,15 +335,12 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 
 <div id="polypeptide_mc_sequence-3_amino_acids-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-polypeptide_mc_sequence-3_amino_acids-questions.txt" download title="Download bbq-polypeptide_mc_sequence-3_amino_acids-questions.txt" aria-label="Click to download the BBQ Text file (bbq-polypeptide_mc_sequence-3_amino_acids-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-polypeptide_mc_sequence-3_amino_acids.zip" download title="Download blackboard_export_zip-polypeptide_mc_sequence-3_amino_acids.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-polypeptide_mc_sequence-3_amino_acids.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-polypeptide_mc_sequence-3_amino_acids.zip" download title="Download canvas_qti_v1_2-polypeptide_mc_sequence-3_amino_acids.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-polypeptide_mc_sequence-3_amino_acids.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
+<a class="md-button custom-button bb_text" href="bbq-polypeptide_mc_sequence-3_amino_acids-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-polypeptide_mc_sequence-3_amino_acids-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-polypeptide_mc_sequence-3_amino_acids.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-polypeptide_mc_sequence-3_amino_acids-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-polypeptide_mc_sequence-3_amino_acids.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-polypeptide_mc_sequence-3_amino_acids-questions.txt" data-format="human_readable" data-filename="human_readable-polypeptide_mc_sequence-3_amino_acids.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -398,8 +353,10 @@ Students identify amino acids by their side chains, classify R-groups by polarit
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-polypeptide_mc_sequence-3_amino_acids-questions.txt" data-bank-id="biochemistry/topic03/index.md:bbq-polypeptide_mc_sequence-3_amino_acids-questions.txt">
   {% include "biochemistry/topic03/downloads/selftest-polypeptide_mc_sequence-3_amino_acids.html" %}
 
+  </div>
 </details>
 
 
@@ -407,15 +364,12 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 
 <div id="polypeptide_mc_sequence-4_amino_acids-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-polypeptide_mc_sequence-4_amino_acids-questions.txt" download title="Download bbq-polypeptide_mc_sequence-4_amino_acids-questions.txt" aria-label="Click to download the BBQ Text file (bbq-polypeptide_mc_sequence-4_amino_acids-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-polypeptide_mc_sequence-4_amino_acids.zip" download title="Download blackboard_export_zip-polypeptide_mc_sequence-4_amino_acids.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-polypeptide_mc_sequence-4_amino_acids.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-polypeptide_mc_sequence-4_amino_acids.zip" download title="Download canvas_qti_v1_2-polypeptide_mc_sequence-4_amino_acids.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-polypeptide_mc_sequence-4_amino_acids.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
+<a class="md-button custom-button bb_text" href="bbq-polypeptide_mc_sequence-4_amino_acids-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-polypeptide_mc_sequence-4_amino_acids-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-polypeptide_mc_sequence-4_amino_acids.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-polypeptide_mc_sequence-4_amino_acids-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-polypeptide_mc_sequence-4_amino_acids.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-polypeptide_mc_sequence-4_amino_acids-questions.txt" data-format="human_readable" data-filename="human_readable-polypeptide_mc_sequence-4_amino_acids.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -428,8 +382,10 @@ Students identify amino acids by their side chains, classify R-groups by polarit
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-polypeptide_mc_sequence-4_amino_acids-questions.txt" data-bank-id="biochemistry/topic03/index.md:bbq-polypeptide_mc_sequence-4_amino_acids-questions.txt">
   {% include "biochemistry/topic03/downloads/selftest-polypeptide_mc_sequence-4_amino_acids.html" %}
 
+  </div>
 </details>
 
 
@@ -437,15 +393,12 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 
 <div id="tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-questions.txt" download title="Download bbq-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices.zip" download title="Download blackboard_export_zip-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices.zip" download title="Download canvas_qti_v1_2-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
+<a class="md-button custom-button bb_text" href="bbq-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -458,8 +411,10 @@ Students identify amino acids by their side chains, classify R-groups by polarit
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-questions.txt" data-bank-id="biochemistry/topic03/index.md:bbq-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-questions.txt">
   {% include "biochemistry/topic03/downloads/selftest-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices.html" %}
 
+  </div>
 </details>
 
 
@@ -467,15 +422,12 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 
 <div id="which_amino_acid-FIB-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-which_amino_acid-FIB-questions.txt" download title="Download bbq-which_amino_acid-FIB-questions.txt" aria-label="Click to download the BBQ Text file (bbq-which_amino_acid-FIB-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-which_amino_acid-FIB.zip" download title="Download blackboard_export_zip-which_amino_acid-FIB.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-which_amino_acid-FIB.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-which_amino_acid-FIB.zip" download title="Download canvas_qti_v1_2-which_amino_acid-FIB.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-which_amino_acid-FIB.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
+<a class="md-button custom-button bb_text" href="bbq-which_amino_acid-FIB-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-which_amino_acid-FIB-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-which_amino_acid-FIB.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-which_amino_acid-FIB-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-which_amino_acid-FIB.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-which_amino_acid-FIB-questions.txt" data-format="human_readable" data-filename="human_readable-which_amino_acid-FIB.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -488,8 +440,10 @@ Students identify amino acids by their side chains, classify R-groups by polarit
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-which_amino_acid-FIB-questions.txt" data-bank-id="biochemistry/topic03/index.md:bbq-which_amino_acid-FIB-questions.txt">
   {% include "biochemistry/topic03/downloads/selftest-which_amino_acid-FIB.html" %}
 
+  </div>
 </details>
 
 
@@ -497,15 +451,12 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 
 <div id="which_amino_acid-MC-7_choices-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-which_amino_acid-MC-7_choices-questions.txt" download title="Download bbq-which_amino_acid-MC-7_choices-questions.txt" aria-label="Click to download the BBQ Text file (bbq-which_amino_acid-MC-7_choices-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-which_amino_acid-MC-7_choices.zip" download title="Download blackboard_export_zip-which_amino_acid-MC-7_choices.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-which_amino_acid-MC-7_choices.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-which_amino_acid-MC-7_choices.zip" download title="Download canvas_qti_v1_2-which_amino_acid-MC-7_choices.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-which_amino_acid-MC-7_choices.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
+<a class="md-button custom-button bb_text" href="bbq-which_amino_acid-MC-7_choices-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-which_amino_acid-MC-7_choices-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-which_amino_acid-MC-7_choices.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-which_amino_acid-MC-7_choices-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-which_amino_acid-MC-7_choices.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-which_amino_acid-MC-7_choices-questions.txt" data-format="human_readable" data-filename="human_readable-which_amino_acid-MC-7_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -518,8 +469,10 @@ Students identify amino acids by their side chains, classify R-groups by polarit
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-which_amino_acid-MC-7_choices-questions.txt" data-bank-id="biochemistry/topic03/index.md:bbq-which_amino_acid-MC-7_choices-questions.txt">
   {% include "biochemistry/topic03/downloads/selftest-which_amino_acid-MC-7_choices.html" %}
 
+  </div>
 </details>
 
 
@@ -527,15 +480,12 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 
 <div id="wordle_peptides-FIB-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-fib" title="Fill in the Blank">FiB</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-wordle_peptides-FIB-questions.txt" download title="Download bbq-wordle_peptides-FIB-questions.txt" aria-label="Click to download the BBQ Text file (bbq-wordle_peptides-FIB-questions.txt)">
-    <i class="fa fa-download"></i>BBQ Text
-</a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-wordle_peptides-FIB.zip" download title="Download blackboard_export_zip-wordle_peptides-FIB.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-wordle_peptides-FIB.zip)">
-    <i class="fa fa-download"></i>Blackboard Ultra ZIP
-</a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-wordle_peptides-FIB.zip" download title="Download canvas_qti_v1_2-wordle_peptides-FIB.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-wordle_peptides-FIB.zip)">
-    <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
-</a>
+<a class="md-button custom-button bb_text" href="bbq-wordle_peptides-FIB-questions.txt" download aria-label="Download BBQ Text">BBQ Text</a>
+<button type="button" class="md-button custom-button bb_export qti-package-download" data-bbq="bbq-wordle_peptides-FIB-questions.txt" data-format="blackboard_export_zip" data-filename="blackboard_export_zip-wordle_peptides-FIB.zip" aria-label="Generate Blackboard Ultra pool-export ZIP">Blackboard Ultra ZIP</button>
+<button type="button" class="md-button custom-button canvas_qti qti-package-download" data-bbq="bbq-wordle_peptides-FIB-questions.txt" data-format="canvas_qti_v1_2" data-filename="canvas_qti_v1_2-wordle_peptides-FIB.zip" aria-label="Generate Canvas/ADAPT QTI v1.2">Canvas/ADAPT QTI v1.2</button>
+<button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-wordle_peptides-FIB-questions.txt" data-format="human_readable" data-filename="human_readable-wordle_peptides-FIB.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
+<span class="qti-package-status" role="status" aria-live="polite"></span>
+<progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
 </div><details>
   <summary>Click
     <span style='font-weight: normal;'>
@@ -548,8 +498,10 @@ Students identify amino acids by their side chains, classify R-groups by polarit
       example problem
     </span>
   </summary>
+  <div class="qti-selftest" data-bbq="bbq-wordle_peptides-FIB-questions.txt" data-bank-id="biochemistry/topic03/index.md:bbq-wordle_peptides-FIB-questions.txt">
   {% include "biochemistry/topic03/downloads/selftest-wordle_peptides-FIB.html" %}
 
+  </div>
 </details>
 
 
