@@ -24,6 +24,36 @@ authoritative code or contract document, rather than a person.
 
 ## Software design
 
+### Website selectors stop at mounted question content
+
+**Decision.** Scope the built Material and website stylesheets to exclude
+`.selftest-reroll-content`. Keep QPM output untouched. The build hook uses a CSS parser
+to preserve nested conditional rules, document-root sizing, fonts, and keyframes.
+
+**Why.** Material list and table selectors override QPM layout and scientific table
+padding. Moving questions outside `.md-typeset` would require splitting the article's
+prose into separately styled containers and would still expose questions to global
+theme selectors. Shadow DOM would break generated scripts that use document-level
+element lookup. An iframe provides stronger isolation but requires a separate bridge
+for grading, progress, focus, sizing, and theme changes. The stylesheet boundary keeps
+the existing single-document lifecycle and avoids question-specific CSS overrides.
+
+**Consequence.** This is selector isolation, not a separate document: typography and
+theme variables still inherit. It relies on browser support for CSS `@scope`, as
+documented in [USAGE.md](USAGE.md); there is no browser-version gate. Generated CSS
+is transformed at build time, while canonical theme, website, and QPM sources remain
+unchanged. Root-only rules stay outside the scope because scoping them changed the
+site's rem sizing in browser checks. Reconsider this design if QPM adopts a component
+embedding API; do not accumulate renderer-specific exceptions here.
+
+An architectural probe intentionally created a speculative edge case by mounting two copies
+of the same question with the same CRC. This has almost no chance of occurring in normal BPW
+use and should not have been treated as an architectural requirement or a reason to redesign.
+Isolation choices should address demonstrated CSS interference and actual integration needs.
+
+**Owner.** [../bioproblems_site/mkdocs_styles.py](../bioproblems_site/mkdocs_styles.py)
+and [../mkdocs.yml](../mkdocs.yml)
+
 ### One lifecycle owns dynamic self-tests
 
 **Decision.** Use ordinary empty `.qti-selftest` containers and one browser

@@ -16,6 +16,10 @@ CLI exposes one dependency-aware content build workflow.
   stale checks and output-owned stage entrypoints.
 - [bioproblems_site/file_write.py](../bioproblems_site/file_write.py): shared
   direct text-file writing for generated site files.
+- [bioproblems_site/mkdocs_styles.py](../bioproblems_site/mkdocs_styles.py): MkDocs
+  post-build hook using `tinycss2` to scope copied website styles outside mounted
+  QPM content. Root-only rules and asset declarations remain global; see
+  [DESIGN_DECISIONS.md](DESIGN_DECISIONS.md) for the isolation rationale.
 - [bioproblems_site/topic_metadata.py](../bioproblems_site/topic_metadata.py):
   cached topic title, description, and LibreTexts metadata lookup.
 - [bioproblems_site/topic_page.py](../bioproblems_site/topic_page.py): topic
@@ -64,7 +68,9 @@ then runs repository-wide reconciliation, the searchable question index, selecte
 subject indexes, navigation, and the self-test manifest. Each stage owns its direct
 stale check and outputs. The index stage updates source navigation in
 [mkdocs.yml](../mkdocs.yml); MkDocs separately renders the final site and owns
-`sitemap.xml`.
+`sitemap.xml`. Its post-build hook transforms output stylesheets only, placing
+website selectors outside `.selftest-reroll-content`; the resulting site requires
+a browser supporting CSS `@scope`.
 
 Topic aliases are resolved by
 [bioproblems_site/topic_aliases.py](../bioproblems_site/topic_aliases.py) while

@@ -33,6 +33,9 @@ plugins:
 - search
 - include-markdown
 
+hooks:
+  - bioproblems_site/mkdocs_styles.py
+
 extra_css:
   - assets/stylesheets/custom.css
   - assets/stylesheets/homepage.css

@@ -6,3 +6,4 @@ ollama
 # local-llm-wrapper  # vendored at ~/nsh/local-llm-wrapper via PYTHONPATH for now
 PyYAML
 textual
+tinycss2

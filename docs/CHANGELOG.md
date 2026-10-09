@@ -43,6 +43,24 @@
 
 ### Fixes and Maintenance
 
+- Refresh the vendored QPM WASM from the corrected upstream package using
+  `devel/vendor_qti_wasm.py`; retain the existing CSS isolation boundary.
+- Validate MC, MA, MATCH, ORDER, scientific tables, and molecular drawings in light
+  and dark themes, including selection, grading, clearing/reset, repeated New version,
+  advancement, and persistent completion. Keep the representative rendering and
+  randomization probes temporary. MATCH/ORDER shuffle in QPM; MC/MA retain the
+  source's intentional choice ordering.
+- The approved BP source contrast correction pairs fixed light table backgrounds
+  with black text. Refresh the two affected dihybrid and macromolecule banks from
+  those corrected generators. Validation passes: 16 browser checks (11 temporary), 4,240 BPW Python
+  tests, and 5,084 BP Python tests. Four additional temporary browser journeys verify
+  the refreshed banks directly from the built site in light and dark modes.
+- Keep Material and website CSS outside dynamically mounted self-test content using a scoped
+  build-output stylesheet boundary. Remove obsolete question-specific website overrides.
+- Stop adding result-pill classes to answer rows; QPM owns feedback presentation and clearing.
+- Record independently reproduced renderer findings in
+  [RUST_QPM_SELFTEST_HANDOFF.md](RUST_QPM_SELFTEST_HANDOFF.md).
+
 - Consolidate initial generation, replacement, script readiness, grading notifications, and
   advancement in the question controller. Progress and streaks consume the same grading event;
   replaced questions and navigation invalidate pending advancement.
@@ -61,6 +79,16 @@
   duplicated semantic package and retry coverage.
 
 ### Developer Tests and Notes
+
+- Retain one real-WASM clearing/progress journey alongside the four lifecycle browser tests:
+  incorrect and correct feedback clear, while completion survives clearing, reroll, and reload.
+  Keep CSS comparisons and layout diagnostics as temporary implementation validation, not
+  permanent tests. Document the isolation alternatives in [DESIGN_DECISIONS.md](DESIGN_DECISIONS.md).
+  Earlier isolation probes checked MATCH in Chromium, Firefox, and WebKit at desktop/mobile
+  widths in both themes; the corrected-WASM integration checks above used Chromium.
+- Six independent audit passes completed. Add the CSS hook to the architecture map,
+  clarify its docstrings and validation history, and remove feedback-class assertions
+  from the permanent Clear Selection journey while retaining behavioral checks.
 
 - After the six-pass audit cleanup, all four focused lifecycle browser tests and three Node
   checks pass against the updated source. The full-suite counts below precede audit cleanup;

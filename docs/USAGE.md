@@ -13,6 +13,12 @@ source source_me.sh && python3 -m mkdocs serve
 
 MkDocs opens `http://127.0.0.1:8000/` with live reload. Press Ctrl-C to stop it.
 
+The site requires a browser supporting CSS `@scope` (available across current browsers since
+March 2026; see [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@scope)).
+The [mkdocs_styles.py](../bioproblems_site/mkdocs_styles.py) build hook scopes theme and website
+styles outside `.selftest-reroll-content`. QPM supplies the question styles; typography and theme
+variables inherit from the page. The hook changes built CSS only, including during local serving.
+
 ## CLI
 
 - Build stale BBQ output, native self-tests, and affected site pages:

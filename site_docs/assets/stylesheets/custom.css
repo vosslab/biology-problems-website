@@ -18,21 +18,6 @@
   --md-text-font: "Atkinson Hyperlegible Next";
 }
 
-/* Important overrides legacy inline Arial without changing intentional monospace text. */
-.qti-selftest [style*="font-family" i][style*="Arial" i] {
-  font-family: inherit !important;
-}
-
-/* Material's article-table gutters do not belong inside an answer label. */
-.qti-selftest ul[id^="choices_"] > li > label .md-typeset__scrollwrap {
-  margin: 0;
-}
-
-.qti-selftest ul[id^="choices_"] > li > label .md-typeset__table {
-  display: block;
-  padding: 0;
-}
-
 @font-face {
   font-family: 'Font Awesome 6 Free';
   src: url('/assets/fonts/fa-solid-900.woff2') format('woff2');

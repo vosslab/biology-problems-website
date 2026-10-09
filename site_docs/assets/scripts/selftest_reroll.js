@@ -261,16 +261,8 @@
 		var state = states.get(event.target);
 		if (!state || !state.ready || event.detail.crc !== state.crc) { return; }
 		var verdict = event.detail.verdict;
-		state.body.querySelectorAll("li.qti-feedback-success, li.qti-feedback-error").forEach(function (li) {
-			li.classList.remove("qti-feedback-success", "qti-feedback-error");
-		});
 		if (verdict === "no-answer" || verdict === "unknown") { return; }
 		var correct = verdict === "full-correct";
-		state.body.querySelectorAll("input[type='radio']:checked, input[type='checkbox']:checked")
-			.forEach(function (input) {
-				var li = input.closest("li");
-				if (li) { li.classList.add(correct ? "qti-feedback-success" : "qti-feedback-error"); }
-			});
 		if (correct && !state.advanced) {
 			state.advanced = true;
 			advance(state);
