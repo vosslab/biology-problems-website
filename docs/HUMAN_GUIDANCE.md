@@ -23,9 +23,9 @@ origin belongs there too. Rules: [REPO_STYLE.md](REPO_STYLE.md).
   choosing a separate Font Awesome icon set.
 - Use the course identities recorded in `~/nsh/syllabus/docs/COURSE_COLORS.md`:
   Biochemistry purple, Genetics blue, Biostatistics dark lime, and Biotechnology brick red.
-  Extend that palette with magenta for Molecular Biology and teal green for Laboratory.
+- Extend that palette with magenta for Molecular Biology and teal green for Laboratory.
   Use Halloween/jack-o'-lantern orange for Other.
-  In dark mode, use course-tinted card backgrounds with neutral descriptive text.
+- In dark mode, use course-tinted card backgrounds with neutral descriptive text.
 - Activity previews must lead to full Latest additions and Recently updated pages, then to
   the relevant collection's preview/download controls. Keep unknown history undated.
 - Let task_files define the website inventory and query the source commands in biology-problems
