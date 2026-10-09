@@ -8,10 +8,10 @@
   "new": [
     {
       "date": "2026-10-01",
-      "name": "Pedigree Identification from Inheritance Patterns (Easy)",
+      "name": "Pedigrees from Autosomal Inheritance Patterns (Easy)",
       "subject": "Genetics",
       "topic": "Gene Interactions",
-      "url": "genetics/topic05/#write_pattern_to_pedigree-easy-button-container"
+      "url": "genetics/topic05/#write_pattern_to_pedigree-easy-autosomal-button-container"
     },
     {
       "date": "2026-10-01",
@@ -24,15 +24,15 @@
       "date": "2026-10-01",
       "name": "Inheritance Patterns from Pedigrees (Rigorous)",
       "subject": "Genetics",
-      "topic": "Gene Interactions",
-      "url": "genetics/topic05/#write_pedigree_to_pattern-rigorous-button-container"
+      "topic": "Chromosomal Inheritance",
+      "url": "genetics/topic06/#write_pedigree_to_pattern-rigorous-button-container"
     },
     {
       "date": "2026-10-01",
       "name": "Inheritance Patterns from Pedigrees (Easy)",
       "subject": "Genetics",
-      "topic": "Gene Interactions",
-      "url": "genetics/topic05/#write_pedigree_pattern_matching-easy-button-container"
+      "topic": "Chromosomal Inheritance",
+      "url": "genetics/topic06/#write_pedigree_pattern_matching-easy-button-container"
     },
     {
       "date": "2026-09-28",
@@ -238,8 +238,8 @@
     },
     {
       "added": null,
-      "created": null,
-      "family": null,
+      "created": "2020-09-27",
+      "family": "18a3273dca2e9183923a4882244a12e9dbf35357:which_phobic.py",
       "id": "biochemistry/topic01/bbq-which_hydrophobic-simple-questions.txt",
       "name": "Hydrophobic Compounds from Molecular Formulas",
       "subject": "Biochemistry",
@@ -623,8 +623,8 @@
     },
     {
       "added": null,
-      "created": null,
-      "family": null,
+      "created": "2020-09-27",
+      "family": "18a3273dca2e9183923a4882244a12e9dbf35357:alpha_helix_h-bonds.py",
       "id": "biochemistry/topic04/bbq-alpha_helix_h-bonds-MA-questions.txt",
       "name": "Hydrogen Bonds in Alpha-Helix Structures",
       "subject": "Biochemistry",
@@ -634,8 +634,8 @@
     },
     {
       "added": null,
-      "created": null,
-      "family": null,
+      "created": "2020-09-27",
+      "family": "18a3273dca2e9183923a4882244a12e9dbf35357:alpha_helix_h-bonds.py",
       "id": "biochemistry/topic04/bbq-alpha_helix_h-bonds-MC-questions.txt",
       "name": "Hydrogen Bonds in Alpha-Helix Structures",
       "subject": "Biochemistry",
@@ -711,8 +711,8 @@
     },
     {
       "added": null,
-      "created": null,
-      "family": null,
+      "created": "2020-09-27",
+      "family": "18a3273dca2e9183923a4882244a12e9dbf35357:isoelectric_one_protein.py",
       "id": "biochemistry/topic05/bbq-isoelectric_one_protein-questions.txt",
       "name": "Protein Net Charge at a Given pH",
       "subject": "Biochemistry",
@@ -722,8 +722,8 @@
     },
     {
       "added": null,
-      "created": null,
-      "family": null,
+      "created": "2020-09-27",
+      "family": "18a3273dca2e9183923a4882244a12e9dbf35357:isoelectric_two_proteins.py",
       "id": "biochemistry/topic05/bbq-isoelectric_two_proteins-questions.txt",
       "name": "Protein Migration Direction in Isoelectric Focusing",
       "subject": "Biochemistry",
@@ -744,8 +744,8 @@
     },
     {
       "added": null,
-      "created": null,
-      "family": null,
+      "created": "2020-09-27",
+      "family": "3e07e65d2359ea5fdca01a7afff12daad54f0a43:gel_migration.py",
       "id": "biochemistry/topic05/bbq-protein_gel_migration-questions.txt",
       "name": "Protein Molecular Weight from SDS-PAGE Migration",
       "subject": "Biochemistry",
@@ -964,8 +964,8 @@
     },
     {
       "added": null,
-      "created": null,
-      "family": null,
+      "created": "2020-10-18",
+      "family": "0782cc2e0438db061f12c9eae6131e37bcec9b9e:michaelis_menten_table-Km.py",
       "id": "biochemistry/topic07/bbq-michaelis_menten_table-Km-questions.txt",
       "name": "Michaelis-Menten Constant (Km) from Enzyme Activity Data",
       "subject": "Biochemistry",
@@ -1063,8 +1063,8 @@
     },
     {
       "added": null,
-      "created": null,
-      "family": null,
+      "created": "2020-10-25",
+      "family": "9fc6afc8a6846d30ec03226946b91f7d55bbc150:chymotrypsin_substrate.py",
       "id": "biochemistry/topic08/bbq-chymotrypsin_substrate-questions.txt",
       "name": "Cleavage Sites for Chymotrypsin Digestion of Peptides",
       "subject": "Biochemistry",
@@ -1085,8 +1085,8 @@
     },
     {
       "added": null,
-      "created": null,
-      "family": null,
+      "created": "2020-10-18",
+      "family": "28fe27d8f0b45600add0becfea343b64ac9d83c9:michaelis_menten_table-inhibition.py",
       "id": "biochemistry/topic08/bbq-michaelis_menten_table-inhibition-questions.txt",
       "name": "Enzyme Inhibition Type from Enzyme Activity Data",
       "subject": "Biochemistry",
@@ -1151,8 +1151,8 @@
     },
     {
       "added": null,
-      "created": null,
-      "family": null,
+      "created": "2020-10-26",
+      "family": "688970e3eecceffbb52c0604ed75bc00cba7b45c:monosaccharide_d_to_l_configuration.py",
       "id": "biochemistry/topic10/bbq-D_to_L_Fischer_configuration-MC-with_hint-5_choices-questions.txt",
       "name": "D/L Monosaccharide Configurations from Fischer Projections",
       "subject": "Biochemistry",
@@ -1162,8 +1162,8 @@
     },
     {
       "added": null,
-      "created": null,
-      "family": null,
+      "created": "2020-10-28",
+      "family": "37c2928849aeaa7b144f0a5b096445bf48c038ba:monosaccharide_Haworth_D_to_L_configuration.py",
       "id": "biochemistry/topic10/bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt",
       "name": "D/L Monosaccharide Configurations from Haworth Projections",
       "subject": "Biochemistry",
@@ -1195,8 +1195,8 @@
     },
     {
       "added": null,
-      "created": null,
-      "family": null,
+      "created": "2020-10-28",
+      "family": "46d40a9fae2edba876f70c4dd4cd1705414fda4e:monosaccharide_Fischer_classification.py",
       "id": "biochemistry/topic10/bbq-classify_Fischer-MA-with_hint-questions.txt",
       "name": "Monosaccharide Classification from Fischer Projections",
       "subject": "Biochemistry",
@@ -1536,8 +1536,8 @@
     },
     {
       "added": null,
-      "created": null,
-      "family": null,
+      "created": "2020-11-27",
+      "family": "6afc83b5c98d5b8e5d65ef8aef66285a21839269:quick_fatty_acid_colon_system.py",
       "id": "biochemistry/topic12/bbq-quick_fatty_acid_colon_system-questions.txt",
       "name": "Fatty Acid Chain Length and Number of Double Bonds",
       "subject": "Biochemistry",
@@ -1547,8 +1547,8 @@
     },
     {
       "added": null,
-      "created": null,
-      "family": null,
+      "created": "2020-11-27",
+      "family": "3789f62de6721a28f7db89f55ea47553b3082e1c:which_phobic-big.py",
       "id": "biochemistry/topic12/bbq-which_lipid-chemical_formula-questions.txt",
       "name": "Lipids by Molecular Formula",
       "subject": "Biochemistry",
@@ -1740,7 +1740,7 @@
       "name": "Genetic Disorders",
       "subject": "Genetics",
       "topic": "Genetic Disorders",
-      "updated": null,
+      "updated": "2026-10-06",
       "url": "genetics/topic01/#MATCH-genetic_disorders-button-container"
     },
     {
@@ -1751,7 +1751,7 @@
       "name": "Genetic Disorders",
       "subject": "Genetics",
       "topic": "Genetic Disorders",
-      "updated": null,
+      "updated": "2026-10-06",
       "url": "genetics/topic01/#WOMC-genetic_disorders-button-container"
     },
     {
@@ -1762,7 +1762,7 @@
       "name": "Metabolic Pathway Mutant Growth Rescue by Nutrient Supplementation (5 Metabolites)",
       "subject": "Genetics",
       "topic": "Genetic Disorders",
-      "updated": null,
+      "updated": "2026-09-23",
       "url": "genetics/topic01/#beadle_tatum-metabolic_pathway-5_metabolites-button-container"
     },
     {
@@ -1773,7 +1773,7 @@
       "name": "DNA Structure (Core Set)",
       "subject": "Genetics",
       "topic": "DNA Structure",
-      "updated": null,
+      "updated": "2026-01-23",
       "url": "genetics/topic02/#TFMS-dna_structure-biol_351-button-container"
     },
     {
@@ -1784,7 +1784,7 @@
       "name": "English Palindrome Identification",
       "subject": "Genetics",
       "topic": "DNA Structure",
-      "updated": null,
+      "updated": "2026-08-19",
       "url": "genetics/topic02/#TFMS-english_palindromes-button-container"
     },
     {
@@ -1795,7 +1795,7 @@
       "name": "Nucleotide Components",
       "subject": "Genetics",
       "topic": "DNA Structure",
-      "updated": null,
+      "updated": "2026-09-23",
       "url": "genetics/topic02/#TFMS-nucleotide_components-button-container"
     },
     {
@@ -1806,7 +1806,7 @@
       "name": "RNA and DNA Differences (Helix Forms and Charge Included)",
       "subject": "Genetics",
       "topic": "DNA Structure",
-      "updated": null,
+      "updated": "2026-01-23",
       "url": "genetics/topic02/#TFMS-rna_v_dna-button-container"
     },
     {
@@ -1817,7 +1817,7 @@
       "name": "DNA Base Composition Using Chargaff's Rules (5 Choices)",
       "subject": "Genetics",
       "topic": "DNA Structure",
-      "updated": null,
+      "updated": "2026-09-22",
       "url": "genetics/topic02/#chargaff_dna_percent-5_choices-button-container"
     },
     {
@@ -1828,7 +1828,7 @@
       "name": "Restriction Fragment Sizes from Circular DNA Maps (10 kb, 2 Sites)",
       "subject": "Genetics",
       "topic": "DNA Structure",
-      "updated": null,
+      "updated": "2026-09-20",
       "url": "genetics/topic02/#circular_digest-length_10-sites_2_selected-button-container"
     },
     {
@@ -1839,7 +1839,7 @@
       "name": "Restriction Fragment Sizes from Circular DNA Maps (12 kb, 3 Sites)",
       "subject": "Genetics",
       "topic": "DNA Structure",
-      "updated": null,
+      "updated": "2026-09-20",
       "url": "genetics/topic02/#circular_digest-length_12-sites_3_selected-button-container"
     },
     {
@@ -1850,7 +1850,7 @@
       "name": "Restriction Fragment Sizes from Circular DNA Maps (16 kb, 3 Sites)",
       "subject": "Genetics",
       "topic": "DNA Structure",
-      "updated": null,
+      "updated": "2026-09-20",
       "url": "genetics/topic02/#circular_digest-length_16-sites_3_selected-button-container"
     },
     {
@@ -1861,7 +1861,7 @@
       "name": "Complementary DNA Sequences (Directionless)",
       "subject": "Genetics",
       "topic": "DNA Structure",
-      "updated": null,
+      "updated": "2026-09-22",
       "url": "genetics/topic02/#complementary_sequences-mc-directionless-button-container"
     },
     {
@@ -1872,7 +1872,7 @@
       "name": "Complementary DNA Sequences (5'/3' Labels)",
       "subject": "Genetics",
       "topic": "DNA Structure",
-      "updated": null,
+      "updated": "2026-09-22",
       "url": "genetics/topic02/#complementary_sequences-mc-prime-button-container"
     },
     {
@@ -1883,7 +1883,7 @@
       "name": "Restriction Fragment Sizes from Linear DNA Maps (10 kb, 2 Sites, Isolated Fragment)",
       "subject": "Genetics",
       "topic": "DNA Structure",
-      "updated": null,
+      "updated": "2026-09-20",
       "url": "genetics/topic02/#linear_digest-len_10-sites_2-fragment-button-container"
     },
     {
@@ -1894,7 +1894,7 @@
       "name": "Restriction Fragment Sizes from Linear DNA Maps (10 kb, 3 Sites, Internal Segment)",
       "subject": "Genetics",
       "topic": "DNA Structure",
-      "updated": null,
+      "updated": "2026-09-20",
       "url": "genetics/topic02/#linear_digest-len_10-sites_3-strand-button-container"
     },
     {
@@ -1905,7 +1905,7 @@
       "name": "Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Isolated Fragment)",
       "subject": "Genetics",
       "topic": "DNA Structure",
-      "updated": null,
+      "updated": "2026-09-20",
       "url": "genetics/topic02/#linear_digest-len_12-sites_3-fragment-button-container"
     },
     {
@@ -1916,7 +1916,7 @@
       "name": "Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Internal Segment)",
       "subject": "Genetics",
       "topic": "DNA Structure",
-      "updated": null,
+      "updated": "2026-09-20",
       "url": "genetics/topic02/#linear_digest-len_12-sites_3-strand-button-container"
     },
     {
@@ -1927,7 +1927,7 @@
       "name": "Restriction Fragment Sizes from Linear DNA Maps (16 kb, 4 Sites, Isolated Fragment)",
       "subject": "Genetics",
       "topic": "DNA Structure",
-      "updated": null,
+      "updated": "2026-09-20",
       "url": "genetics/topic02/#linear_digest-len_16-sites_4-fragment-button-container"
     },
     {
@@ -1938,7 +1938,7 @@
       "name": "Restriction Fragment Sizes from Linear DNA Maps (16 kb, 4 Sites, Internal Segment)",
       "subject": "Genetics",
       "topic": "DNA Structure",
-      "updated": null,
+      "updated": "2026-09-20",
       "url": "genetics/topic02/#linear_digest-len_16-sites_4-strand-button-container"
     },
     {
@@ -1949,7 +1949,7 @@
       "name": "Restriction Enzyme Overhang Sequences",
       "subject": "Genetics",
       "topic": "DNA Structure",
-      "updated": null,
+      "updated": "2026-09-30",
       "url": "genetics/topic02/#overhang_sequence-mc-button-container"
     },
     {
@@ -1960,7 +1960,7 @@
       "name": "Restriction Enzyme Cut Types (5', 3', or Blunt)",
       "subject": "Genetics",
       "topic": "DNA Structure",
-      "updated": null,
+      "updated": "2026-09-30",
       "url": "genetics/topic02/#overhang_type-5_3_blunt-button-container"
     },
     {
@@ -1971,7 +1971,7 @@
       "name": "Restriction Enzyme Cut Types (Blunt or Sticky)",
       "subject": "Genetics",
       "topic": "DNA Structure",
-      "updated": null,
+      "updated": "2026-09-30",
       "url": "genetics/topic02/#overhang_type-blunt_v_sticky-button-container"
     },
     {
@@ -1982,7 +1982,7 @@
       "name": "Palindromic DNA Sequence Completion",
       "subject": "Genetics",
       "topic": "DNA Structure",
-      "updated": null,
+      "updated": "2026-01-19",
       "url": "genetics/topic02/#palindrome_sequence_match-button-container"
     },
     {
@@ -1993,7 +1993,7 @@
       "name": "Blood Type Agglutination Test Results (ABO and Rh)",
       "subject": "Genetics",
       "topic": "DNA Profiling",
-      "updated": null,
+      "updated": "2026-01-10",
       "url": "genetics/topic03/#blood_type_agglutination_test-button-container"
     },
     {
@@ -2004,7 +2004,7 @@
       "name": "Offspring HLA Genotypes (2 Markers, Black-and-White)",
       "subject": "Genetics",
       "topic": "DNA Profiling",
-      "updated": null,
+      "updated": "2025-12-27",
       "url": "genetics/topic03/#hla_genotype-2_markers-black-button-container"
     },
     {
@@ -2015,7 +2015,7 @@
       "name": "Offspring HLA Genotypes (3 Markers, Color)",
       "subject": "Genetics",
       "topic": "DNA Profiling",
-      "updated": null,
+      "updated": "2025-12-27",
       "url": "genetics/topic03/#hla_genotype-3_markers-color-button-container"
     },
     {
@@ -2026,7 +2026,7 @@
       "name": "RFLP Paternity Testing from DNA Gels (Easy, 3 Males)",
       "subject": "Genetics",
       "topic": "DNA Profiling",
-      "updated": null,
+      "updated": "2026-07-12",
       "url": "genetics/topic03/#who_father_html-EASY-3_males-button-container"
     },
     {
@@ -2037,7 +2037,7 @@
       "name": "RFLP Paternity Testing from DNA Gels (Hard, 9 Males)",
       "subject": "Genetics",
       "topic": "DNA Profiling",
-      "updated": null,
+      "updated": "2026-07-12",
       "url": "genetics/topic03/#who_father_html-HARD-9_males-button-container"
     },
     {
@@ -2048,7 +2048,7 @@
       "name": "RFLP Paternity Testing from DNA Gels (Medium, 5 Males)",
       "subject": "Genetics",
       "topic": "DNA Profiling",
-      "updated": null,
+      "updated": "2026-07-12",
       "url": "genetics/topic03/#who_father_html-MEDIUM-5_males-button-container"
     },
     {
@@ -2059,7 +2059,7 @@
       "name": "RFLP Suspect Identification from DNA Profiles (Easy, 4 Suspects)",
       "subject": "Genetics",
       "topic": "DNA Profiling",
-      "updated": null,
+      "updated": "2026-07-12",
       "url": "genetics/topic03/#who_killer_html-EASY-4_suspects-button-container"
     },
     {
@@ -2070,7 +2070,7 @@
       "name": "RFLP Suspect Identification from DNA Profiles (Hard, 9 Suspects)",
       "subject": "Genetics",
       "topic": "DNA Profiling",
-      "updated": null,
+      "updated": "2026-07-12",
       "url": "genetics/topic03/#who_killer_html-HARD-9_suspects-button-container"
     },
     {
@@ -2081,7 +2081,7 @@
       "name": "RFLP Suspect Identification from DNA Profiles (Medium, 5 Suspects)",
       "subject": "Genetics",
       "topic": "DNA Profiling",
-      "updated": null,
+      "updated": "2026-07-12",
       "url": "genetics/topic03/#who_killer_html-MEDIUM-5_suspects-button-container"
     },
     {
@@ -2092,7 +2092,7 @@
       "name": "Genetics Terms from Definitions",
       "subject": "Genetics",
       "topic": "Mendelian Genetics",
-      "updated": null,
+      "updated": "2026-10-06",
       "url": "genetics/topic04/#MATCH-genetics_terminology-button-container"
     },
     {
@@ -2103,7 +2103,7 @@
       "name": "Mendelian Cross Terms from Descriptions",
       "subject": "Genetics",
       "topic": "Mendelian Genetics",
-      "updated": null,
+      "updated": "2026-10-06",
       "url": "genetics/topic04/#MATCH-mendel_cross_terminology-button-container"
     },
     {
@@ -2114,7 +2114,7 @@
       "name": "Mendel's Four Principles of Genetics from Descriptions",
       "subject": "Genetics",
       "topic": "Mendelian Genetics",
-      "updated": null,
+      "updated": "2026-10-06",
       "url": "genetics/topic04/#MATCH-mendel_four_principles-button-container"
     },
     {
@@ -2125,7 +2125,7 @@
       "name": "Mendelian Genetics Terms from Definitions",
       "subject": "Genetics",
       "topic": "Mendelian Genetics",
-      "updated": null,
+      "updated": "2026-10-06",
       "url": "genetics/topic04/#MATCH-mendelian_genetics_terms-button-container"
     },
     {
@@ -2136,7 +2136,7 @@
       "name": "Monohybrid Cross Parental Genotypes from Progeny Outcomes",
       "subject": "Genetics",
       "topic": "Mendelian Genetics",
-      "updated": null,
+      "updated": "2026-07-12",
       "url": "genetics/topic04/#MATCH-monohybrid_cross_genotype-button-container"
     },
     {
@@ -2147,7 +2147,7 @@
       "name": "Genetics Terms from Definitions",
       "subject": "Genetics",
       "topic": "Mendelian Genetics",
-      "updated": null,
+      "updated": "2026-10-06",
       "url": "genetics/topic04/#WOMC-genetics_terminology-button-container"
     },
     {
@@ -2158,7 +2158,7 @@
       "name": "Mendelian Cross Terms from Descriptions",
       "subject": "Genetics",
       "topic": "Mendelian Genetics",
-      "updated": null,
+      "updated": "2026-10-06",
       "url": "genetics/topic04/#WOMC-mendel_cross_terminology-button-container"
     },
     {
@@ -2169,7 +2169,7 @@
       "name": "Mendel's Four Principles of Genetics from Descriptions",
       "subject": "Genetics",
       "topic": "Mendelian Genetics",
-      "updated": null,
+      "updated": "2026-10-06",
       "url": "genetics/topic04/#WOMC-mendel_four_principles-button-container"
     },
     {
@@ -2180,7 +2180,7 @@
       "name": "Mendelian Genetics Terms from Definitions",
       "subject": "Genetics",
       "topic": "Mendelian Genetics",
-      "updated": null,
+      "updated": "2026-10-06",
       "url": "genetics/topic04/#WOMC-mendelian_genetics_terms-button-container"
     },
     {
@@ -2191,7 +2191,7 @@
       "name": "Monohybrid Cross Parental Genotypes from Progeny Outcomes",
       "subject": "Genetics",
       "topic": "Mendelian Genetics",
-      "updated": null,
+      "updated": "2026-07-12",
       "url": "genetics/topic04/#WOMC-monohybrid_cross_genotype-button-container"
     },
     {
@@ -2202,7 +2202,7 @@
       "name": "Parental Genotype Crosses from Monohybrid Offspring Ratios",
       "subject": "Genetics",
       "topic": "Mendelian Genetics",
-      "updated": null,
+      "updated": "2026-09-30",
       "url": "genetics/topic04/#monohybrid_genotype_statements-button-container"
     },
     {
@@ -2213,7 +2213,7 @@
       "name": "Unknown Parent Genotype from Monohybrid Offspring Counts",
       "subject": "Genetics",
       "topic": "Mendelian Genetics",
-      "updated": null,
+      "updated": "2026-10-01",
       "url": "genetics/topic04/#monohybrid_litter_inference-button-container"
     },
     {
@@ -2224,7 +2224,7 @@
       "name": "Punnett Squares from Monohybrid Cross Descriptions",
       "subject": "Genetics",
       "topic": "Mendelian Genetics",
-      "updated": null,
+      "updated": "2026-01-10",
       "url": "genetics/topic04/#punnett_choice-button-container"
     },
     {
@@ -2235,7 +2235,7 @@
       "name": "Unique Offspring Genotypes from Four-Gene Crosses (With Hint)",
       "subject": "Genetics",
       "topic": "Mendelian Genetics",
-      "updated": null,
+      "updated": "2026-09-28",
       "url": "genetics/topic04/#unique_cross_genotypes-with_hint-4_genes-button-container"
     },
     {
@@ -2246,7 +2246,7 @@
       "name": "Unique Offspring Phenotypes from Four-Gene Crosses (With Hint)",
       "subject": "Genetics",
       "topic": "Mendelian Genetics",
-      "updated": null,
+      "updated": "2026-09-28",
       "url": "genetics/topic04/#unique_cross_phenotypes-with_hint-4_genes-button-container"
     },
     {
@@ -2257,7 +2257,7 @@
       "name": "Unique Gametes from Four-Gene Genotypes (With Hint)",
       "subject": "Genetics",
       "topic": "Mendelian Genetics",
-      "updated": null,
+      "updated": "2026-09-28",
       "url": "genetics/topic04/#unique_gametes-with_hint-4_genes-button-container"
     },
     {
@@ -2268,7 +2268,7 @@
       "name": "Degrees of Dominance and Gene Interactions from Definitions",
       "subject": "Genetics",
       "topic": "Gene Interactions",
-      "updated": null,
+      "updated": "2026-01-23",
       "url": "genetics/topic05/#MATCH-degrees_of_dominance-button-container"
     },
     {
@@ -2279,7 +2279,7 @@
       "name": "Degrees of Dominance and Gene Interactions from Definitions",
       "subject": "Genetics",
       "topic": "Gene Interactions",
-      "updated": null,
+      "updated": "2026-01-23",
       "url": "genetics/topic05/#WOMC-degrees_of_dominance-button-container"
     },
     {
@@ -2290,7 +2290,7 @@
       "name": "Possible Mother ABO Blood Types from Father and Child Types",
       "subject": "Genetics",
       "topic": "Gene Interactions",
-      "updated": null,
+      "updated": "2026-01-10",
       "url": "genetics/topic05/#blood_type_mother-button-container"
     },
     {
@@ -2301,7 +2301,7 @@
       "name": "Possible ABO Blood Types of Offspring from Parent Blood Types",
       "subject": "Genetics",
       "topic": "Gene Interactions",
-      "updated": null,
+      "updated": "2026-01-10",
       "url": "genetics/topic05/#blood_type_offspring-button-container"
     },
     {
@@ -2312,7 +2312,7 @@
       "name": "Gene Interaction Types from Dihybrid Cross Ratios (4 Choices)",
       "subject": "Genetics",
       "topic": "Gene Interactions",
-      "updated": null,
+      "updated": "2026-10-01",
       "url": "genetics/topic05/#dihybrid_cross_epistatic_gene_interactions-4_choices-button-container"
     },
     {
@@ -2323,7 +2323,7 @@
       "name": "Dihybrid Cross Ratios from Epistatic Metabolic Pathways (4 Choices)",
       "subject": "Genetics",
       "topic": "Gene Interactions",
-      "updated": null,
+      "updated": "2026-01-16",
       "url": "genetics/topic05/#dihybrid_cross_epistatic_gene_metabolics-4_choices-button-container"
     },
     {
@@ -2334,7 +2334,7 @@
       "name": "Test-Cross Ratios from Epistatic F2 Ratios (6 Choices)",
       "subject": "Genetics",
       "topic": "Gene Interactions",
-      "updated": null,
+      "updated": "2026-10-01",
       "url": "genetics/topic05/#epistasis_test_cross-forward_direction-6_choices-button-container"
     },
     {
@@ -2345,7 +2345,7 @@
       "name": "Epistatic F2 Ratios from Test-Cross Ratios (6 Choices)",
       "subject": "Genetics",
       "topic": "Gene Interactions",
-      "updated": null,
+      "updated": "2026-10-01",
       "url": "genetics/topic05/#epistasis_test_cross-inverse_direction-6_choices-button-container"
     },
     {
@@ -2356,7 +2356,7 @@
       "name": "Lethal Allele Cross Ratios and Survival Fractions",
       "subject": "Genetics",
       "topic": "Gene Interactions",
-      "updated": null,
+      "updated": "2026-10-01",
       "url": "genetics/topic05/#lethal_allele_survival-button-container"
     },
     {
@@ -2367,74 +2367,74 @@
       "name": "Degrees of Dominance from Monohybrid Cross Results",
       "subject": "Genetics",
       "topic": "Gene Interactions",
-      "updated": null,
+      "updated": "2026-01-10",
       "url": "genetics/topic05/#monohybrid_degrees_of_dominance-button-container"
     },
     {
       "added": "2026-10-01",
       "created": "2026-10-01",
       "family": "b0cc5d52e0c80622457b5505980284e61be9041a:problems/inheritance-problems/pedigrees/write_pattern_to_pedigree.py",
-      "id": "genetics/topic05/bbq-write_pattern_to_pedigree-easy-questions.txt",
-      "name": "Pedigree Identification from Inheritance Patterns (Easy)",
+      "id": "genetics/topic05/bbq-write_pattern_to_pedigree-easy-autosomal-questions.txt",
+      "name": "Pedigrees from Autosomal Inheritance Patterns (Easy)",
       "subject": "Genetics",
       "topic": "Gene Interactions",
-      "updated": null,
-      "url": "genetics/topic05/#write_pattern_to_pedigree-easy-button-container"
+      "updated": "2026-10-01",
+      "url": "genetics/topic05/#write_pattern_to_pedigree-easy-autosomal-button-container"
     },
     {
       "added": "2026-10-01",
       "created": "2026-10-01",
       "family": "b0cc5d52e0c80622457b5505980284e61be9041a:problems/inheritance-problems/pedigrees/write_pedigree_pattern_matching.py",
-      "id": "genetics/topic05/bbq-write_pedigree_pattern_matching-easy-questions.txt",
-      "name": "Inheritance Patterns from Pedigrees (Easy)",
+      "id": "genetics/topic05/bbq-write_pedigree_pattern_matching-easy-autosomal-questions.txt",
+      "name": "Autosomal Inheritance Patterns from Pedigrees (Easy)",
       "subject": "Genetics",
       "topic": "Gene Interactions",
-      "updated": null,
-      "url": "genetics/topic05/#write_pedigree_pattern_matching-easy-button-container"
+      "updated": "2026-10-01",
+      "url": "genetics/topic05/#write_pedigree_pattern_matching-easy-autosomal-button-container"
     },
     {
       "added": "2026-10-01",
       "created": "2026-10-01",
       "family": "b0cc5d52e0c80622457b5505980284e61be9041a:problems/inheritance-problems/pedigrees/write_pedigree_to_pattern.py",
-      "id": "genetics/topic05/bbq-write_pedigree_to_pattern-bonus-questions.txt",
-      "name": "Inheritance Patterns from Pedigrees (Bonus)",
+      "id": "genetics/topic05/bbq-write_pedigree_to_pattern-bonus-autosomal-questions.txt",
+      "name": "Autosomal Inheritance Patterns from Pedigrees (Bonus)",
       "subject": "Genetics",
       "topic": "Gene Interactions",
-      "updated": null,
-      "url": "genetics/topic05/#write_pedigree_to_pattern-bonus-button-container"
+      "updated": "2026-10-01",
+      "url": "genetics/topic05/#write_pedigree_to_pattern-bonus-autosomal-button-container"
     },
     {
       "added": "2026-10-01",
       "created": "2026-10-01",
       "family": "b0cc5d52e0c80622457b5505980284e61be9041a:problems/inheritance-problems/pedigrees/write_pedigree_to_pattern.py",
-      "id": "genetics/topic05/bbq-write_pedigree_to_pattern-easy-questions.txt",
-      "name": "Inheritance Patterns from Pedigrees (Easy)",
+      "id": "genetics/topic05/bbq-write_pedigree_to_pattern-easy-autosomal-questions.txt",
+      "name": "Autosomal Inheritance Patterns from Pedigrees (Easy)",
       "subject": "Genetics",
       "topic": "Gene Interactions",
-      "updated": null,
-      "url": "genetics/topic05/#write_pedigree_to_pattern-easy-button-container"
+      "updated": "2026-10-01",
+      "url": "genetics/topic05/#write_pedigree_to_pattern-easy-autosomal-button-container"
     },
     {
       "added": "2026-10-01",
       "created": "2026-10-01",
       "family": "b0cc5d52e0c80622457b5505980284e61be9041a:problems/inheritance-problems/pedigrees/write_pedigree_to_pattern.py",
-      "id": "genetics/topic05/bbq-write_pedigree_to_pattern-medium-questions.txt",
-      "name": "Inheritance Patterns from Pedigrees (Medium)",
+      "id": "genetics/topic05/bbq-write_pedigree_to_pattern-medium-autosomal-questions.txt",
+      "name": "Autosomal Inheritance Patterns from Pedigrees (Medium)",
       "subject": "Genetics",
       "topic": "Gene Interactions",
-      "updated": null,
-      "url": "genetics/topic05/#write_pedigree_to_pattern-medium-button-container"
+      "updated": "2026-10-01",
+      "url": "genetics/topic05/#write_pedigree_to_pattern-medium-autosomal-button-container"
     },
     {
       "added": "2026-10-01",
       "created": "2026-10-01",
       "family": "b0cc5d52e0c80622457b5505980284e61be9041a:problems/inheritance-problems/pedigrees/write_pedigree_to_pattern.py",
-      "id": "genetics/topic05/bbq-write_pedigree_to_pattern-rigorous-questions.txt",
-      "name": "Inheritance Patterns from Pedigrees (Rigorous)",
+      "id": "genetics/topic05/bbq-write_pedigree_to_pattern-rigorous-autosomal-questions.txt",
+      "name": "Autosomal Inheritance Patterns from Pedigrees (Rigorous)",
       "subject": "Genetics",
       "topic": "Gene Interactions",
-      "updated": null,
-      "url": "genetics/topic05/#write_pedigree_to_pattern-rigorous-button-container"
+      "updated": "2026-10-01",
+      "url": "genetics/topic05/#write_pedigree_to_pattern-rigorous-autosomal-button-container"
     },
     {
       "added": null,
@@ -2444,7 +2444,7 @@
       "name": "Meiosis Prophase I Stages from Descriptions",
       "subject": "Genetics",
       "topic": "Chromosomal Inheritance",
-      "updated": null,
+      "updated": "2026-07-12",
       "url": "genetics/topic06/#MATCH-meiosis_prophase_1-button-container"
     },
     {
@@ -2455,7 +2455,7 @@
       "name": "Meiosis Terms from Definitions",
       "subject": "Genetics",
       "topic": "Chromosomal Inheritance",
-      "updated": null,
+      "updated": "2026-10-06",
       "url": "genetics/topic06/#MATCH-meiosis_terms-button-container"
     },
     {
@@ -2466,7 +2466,7 @@
       "name": "Sex Determination Systems from Descriptions",
       "subject": "Genetics",
       "topic": "Chromosomal Inheritance",
-      "updated": null,
+      "updated": "2026-10-06",
       "url": "genetics/topic06/#MATCH-sex_determination-button-container"
     },
     {
@@ -2477,7 +2477,7 @@
       "name": "Mitosis and Meiosis",
       "subject": "Genetics",
       "topic": "Chromosomal Inheritance",
-      "updated": null,
+      "updated": "2026-01-23",
       "url": "genetics/topic06/#TFMS-mitosis_and_meiosis-button-container"
     },
     {
@@ -2488,7 +2488,7 @@
       "name": "Meiosis Prophase I Stages from Descriptions",
       "subject": "Genetics",
       "topic": "Chromosomal Inheritance",
-      "updated": null,
+      "updated": "2026-07-12",
       "url": "genetics/topic06/#WOMC-meiosis_prophase_1-button-container"
     },
     {
@@ -2499,7 +2499,7 @@
       "name": "Meiosis Terms from Definitions",
       "subject": "Genetics",
       "topic": "Chromosomal Inheritance",
-      "updated": null,
+      "updated": "2026-10-06",
       "url": "genetics/topic06/#WOMC-meiosis_terms-button-container"
     },
     {
@@ -2510,7 +2510,7 @@
       "name": "Sex Determination Systems from Descriptions",
       "subject": "Genetics",
       "topic": "Chromosomal Inheritance",
-      "updated": null,
+      "updated": "2026-10-06",
       "url": "genetics/topic06/#WOMC-sex_determination-button-container"
     },
     {
@@ -2521,7 +2521,7 @@
       "name": "Combined Autosomal Dominant and X-Linked Recessive Inheritance (Both Disorders)",
       "subject": "Genetics",
       "topic": "Chromosomal Inheritance",
-      "updated": null,
+      "updated": "2026-01-10",
       "url": "genetics/topic06/#dominant_and_X-linked_recessive-button-container"
     },
     {
@@ -2532,7 +2532,7 @@
       "name": "Combined Autosomal Dominant and X-Linked Recessive Inheritance (Varied Outcomes)",
       "subject": "Genetics",
       "topic": "Chromosomal Inheritance",
-      "updated": null,
+      "updated": "2026-01-19",
       "url": "genetics/topic06/#dominant_and_X-linked_recessive_variations-button-container"
     },
     {
@@ -2543,7 +2543,7 @@
       "name": "Parent Genotypes in X-Linked Recessive Crosses",
       "subject": "Genetics",
       "topic": "Chromosomal Inheritance",
-      "updated": null,
+      "updated": "2026-01-28",
       "url": "genetics/topic06/#poisson_flies-button-container"
     },
     {
@@ -2554,8 +2554,74 @@
       "name": "Offspring Sex Distribution Using the Binomial Model",
       "subject": "Genetics",
       "topic": "Chromosomal Inheritance",
-      "updated": null,
+      "updated": "2026-01-04",
       "url": "genetics/topic06/#probabiliy_of_progeny-button-container"
+    },
+    {
+      "added": "2026-10-01",
+      "created": "2026-10-01",
+      "family": "b0cc5d52e0c80622457b5505980284e61be9041a:problems/inheritance-problems/pedigrees/write_pattern_to_pedigree.py",
+      "id": "genetics/topic06/bbq-write_pattern_to_pedigree-easy-questions.txt",
+      "name": "Pedigree Identification from Inheritance Patterns (Easy)",
+      "subject": "Genetics",
+      "topic": "Chromosomal Inheritance",
+      "updated": "2026-10-01",
+      "url": "genetics/topic06/#write_pattern_to_pedigree-easy-button-container"
+    },
+    {
+      "added": "2026-10-01",
+      "created": "2026-10-01",
+      "family": "b0cc5d52e0c80622457b5505980284e61be9041a:problems/inheritance-problems/pedigrees/write_pedigree_pattern_matching.py",
+      "id": "genetics/topic06/bbq-write_pedigree_pattern_matching-easy-questions.txt",
+      "name": "Inheritance Patterns from Pedigrees (Easy)",
+      "subject": "Genetics",
+      "topic": "Chromosomal Inheritance",
+      "updated": "2026-10-01",
+      "url": "genetics/topic06/#write_pedigree_pattern_matching-easy-button-container"
+    },
+    {
+      "added": "2026-10-01",
+      "created": "2026-10-01",
+      "family": "b0cc5d52e0c80622457b5505980284e61be9041a:problems/inheritance-problems/pedigrees/write_pedigree_to_pattern.py",
+      "id": "genetics/topic06/bbq-write_pedigree_to_pattern-bonus-questions.txt",
+      "name": "Inheritance Patterns from Pedigrees (Bonus)",
+      "subject": "Genetics",
+      "topic": "Chromosomal Inheritance",
+      "updated": "2026-10-01",
+      "url": "genetics/topic06/#write_pedigree_to_pattern-bonus-button-container"
+    },
+    {
+      "added": "2026-10-01",
+      "created": "2026-10-01",
+      "family": "b0cc5d52e0c80622457b5505980284e61be9041a:problems/inheritance-problems/pedigrees/write_pedigree_to_pattern.py",
+      "id": "genetics/topic06/bbq-write_pedigree_to_pattern-easy-questions.txt",
+      "name": "Inheritance Patterns from Pedigrees (Easy)",
+      "subject": "Genetics",
+      "topic": "Chromosomal Inheritance",
+      "updated": "2026-10-01",
+      "url": "genetics/topic06/#write_pedigree_to_pattern-easy-button-container"
+    },
+    {
+      "added": "2026-10-01",
+      "created": "2026-10-01",
+      "family": "b0cc5d52e0c80622457b5505980284e61be9041a:problems/inheritance-problems/pedigrees/write_pedigree_to_pattern.py",
+      "id": "genetics/topic06/bbq-write_pedigree_to_pattern-medium-questions.txt",
+      "name": "Inheritance Patterns from Pedigrees (Medium)",
+      "subject": "Genetics",
+      "topic": "Chromosomal Inheritance",
+      "updated": "2026-10-01",
+      "url": "genetics/topic06/#write_pedigree_to_pattern-medium-button-container"
+    },
+    {
+      "added": "2026-10-01",
+      "created": "2026-10-01",
+      "family": "b0cc5d52e0c80622457b5505980284e61be9041a:problems/inheritance-problems/pedigrees/write_pedigree_to_pattern.py",
+      "id": "genetics/topic06/bbq-write_pedigree_to_pattern-rigorous-questions.txt",
+      "name": "Inheritance Patterns from Pedigrees (Rigorous)",
+      "subject": "Genetics",
+      "topic": "Chromosomal Inheritance",
+      "updated": "2026-10-01",
+      "url": "genetics/topic06/#write_pedigree_to_pattern-rigorous-button-container"
     },
     {
       "added": null,
@@ -2565,7 +2631,7 @@
       "name": "X-Linked Eye Color Inheritance",
       "subject": "Genetics",
       "topic": "Chromosomal Inheritance",
-      "updated": null,
+      "updated": "2026-01-10",
       "url": "genetics/topic06/#x_linked_reciprocal_cross-button-container"
     },
     {
@@ -2576,7 +2642,7 @@
       "name": "X-Linked Coat Color Probability",
       "subject": "Genetics",
       "topic": "Chromosomal Inheritance",
-      "updated": null,
+      "updated": "2026-01-10",
       "url": "genetics/topic06/#x_linked_tortoiseshell-button-container"
     },
     {
@@ -2587,7 +2653,7 @@
       "name": "Chi-Square Terms from Definitions",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": null,
+      "updated": "2026-10-06",
       "url": "genetics/topic07/#MATCH-chi-square_terms-button-container"
     },
     {
@@ -2598,7 +2664,7 @@
       "name": "Chi-Square Tests",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": null,
+      "updated": "2026-03-05",
       "url": "genetics/topic07/#TFMS-chi-square-button-container"
     },
     {
@@ -2609,7 +2675,7 @@
       "name": "Chi-Square Terms from Definitions",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": null,
+      "updated": "2026-10-06",
       "url": "genetics/topic07/#WOMC-chi-square_terms-button-container"
     },
     {
@@ -2620,7 +2686,7 @@
       "name": "Chi-Square Values for Phenotypic Ratios",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": null,
+      "updated": "2026-01-10",
       "url": "genetics/topic07/#chi_square_calculated-ACCEPT-button-container"
     },
     {
@@ -2631,7 +2697,7 @@
       "name": "Hypothesis Decisions from Chi-Square Tests",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": null,
+      "updated": "2026-01-10",
       "url": "genetics/topic07/#chi_square_choices-button-container"
     },
     {
@@ -2642,7 +2708,7 @@
       "name": "Errors in Chi-Square Calculations and Hypothesis Decisions",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": null,
+      "updated": "2026-07-12",
       "url": "genetics/topic07/#chi_square_errors-button-container"
     },
     {
@@ -2653,7 +2719,7 @@
       "name": "Chi-Square Tests for Hardy-Weinberg Equilibrium",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": null,
+      "updated": "2026-01-10",
       "url": "genetics/topic07/#chi_square_hardy_weinberg-button-container"
     },
     {
@@ -2664,7 +2730,7 @@
       "name": "Null and Alternative Hypotheses for Genetic Crosses",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": null,
+      "updated": "2026-01-10",
       "url": "genetics/topic07/#chi_square_hypotheses-pair-button-container"
     },
     {
@@ -2675,7 +2741,7 @@
       "name": "Misstated Null Hypotheses for Genetic Ratios",
       "subject": "Genetics",
       "topic": "Chi Square Analysis",
-      "updated": null,
+      "updated": "2026-01-10",
       "url": "genetics/topic07/#chi_square_hypotheses_lab_partner-hypotheses_partner-button-container"
     },
     {
@@ -2686,13 +2752,13 @@
       "name": "Gene-to-Centromere Distance from Ordered Tetrads",
       "subject": "Genetics",
       "topic": "Gene Mapping",
-      "updated": null,
+      "updated": "2026-04-19",
       "url": "genetics/topic08/#tetrad_ordered-centromere_distance-MC-button-container"
     },
     {
       "added": null,
-      "created": "2021-10-20",
-      "family": "d3e24ca76e73d2bb33d2bc318b3b7c5f21f98b75:unordered_tetrad-html.py",
+      "created": null,
+      "family": null,
       "id": "genetics/topic08/bbq-tetrad_unordered_three_gene-distances_plus-questions.txt",
       "name": "Gene Order and Map Distances from Unordered Tetrads",
       "subject": "Genetics",
@@ -2702,8 +2768,8 @@
     },
     {
       "added": null,
-      "created": "2021-10-20",
-      "family": "d3e24ca76e73d2bb33d2bc318b3b7c5f21f98b75:unordered_tetrad-html.py",
+      "created": null,
+      "family": null,
       "id": "genetics/topic08/bbq-tetrad_unordered_three_gene-find_one_distance-MC-5_choices-questions.txt",
       "name": "Single Genetic Distance from Unordered Three-Gene Tetrads (5 Choices)",
       "subject": "Genetics",
@@ -2713,8 +2779,8 @@
     },
     {
       "added": null,
-      "created": "2021-11-09",
-      "family": "22d94705bdc06bd58add3fe3b2bce1f564c0b0fb:inheritance-problems/unordered_tetrad_two_gene_distance-html.py",
+      "created": null,
+      "family": null,
       "id": "genetics/topic08/bbq-tetrad_unordered_two_gene-find_distance-MC-6_choices-questions.txt",
       "name": "Genetic Distance from Unordered Two-Gene Tetrads (6 Choices)",
       "subject": "Genetics",
@@ -2724,8 +2790,8 @@
     },
     {
       "added": null,
-      "created": "2021-11-09",
-      "family": "22d94705bdc06bd58add3fe3b2bce1f564c0b0fb:inheritance-problems/unordered_tetrad_two_gene_distance-html.py",
+      "created": null,
+      "family": null,
       "id": "genetics/topic08/bbq-tetrad_unordered_two_gene-test_linkage-questions.txt",
       "name": "Linkage Tests from Unordered Two-Gene Tetrads",
       "subject": "Genetics",
@@ -2741,13 +2807,13 @@
       "name": "Gene Order and Map Distances from Three-Point Test Crosses",
       "subject": "Genetics",
       "topic": "Gene Mapping",
-      "updated": null,
+      "updated": "2026-01-11",
       "url": "genetics/topic08/#three-point_test_cross-distances_plus-button-container"
     },
     {
       "added": null,
-      "created": "2023-11-06",
-      "family": "265718c4138f482cda7cb063424ff0833265a0e4:inheritance-problems/three-point_test_cross-interence_MC.py",
+      "created": null,
+      "family": null,
       "id": "genetics/topic08/bbq-three-point_test_cross-find_interence-MC-6_choices-questions.txt",
       "name": "Crossover Interference from Three-Point Test Cross Data (6 Choices)",
       "subject": "Genetics",
@@ -2757,8 +2823,8 @@
     },
     {
       "added": null,
-      "created": "2023-11-06",
-      "family": "265718c4138f482cda7cb063424ff0833265a0e4:inheritance-problems/three-point_test_cross-interence_MC.py",
+      "created": null,
+      "family": null,
       "id": "genetics/topic08/bbq-three-point_test_cross-find_interence-NUM-questions.txt",
       "name": "Crossover Interference from Three-Point Test Cross Data",
       "subject": "Genetics",
@@ -2774,7 +2840,7 @@
       "name": "Genetic Distance for a Gene Pair from Three-Point Test Crosses",
       "subject": "Genetics",
       "topic": "Gene Mapping",
-      "updated": null,
+      "updated": "2026-04-19",
       "url": "genetics/topic08/#three-point_test_cross-one_gene_distance-MC-button-container"
     },
     {
@@ -2785,7 +2851,7 @@
       "name": "Genetic Distance for a Gene Pair from Three-Point Test Crosses",
       "subject": "Genetics",
       "topic": "Gene Mapping",
-      "updated": null,
+      "updated": "2026-04-19",
       "url": "genetics/topic08/#three-point_test_cross-one_gene_distance-NUM-button-container"
     },
     {
@@ -2796,7 +2862,7 @@
       "name": "Double-Crossover Genotypes in Three-Point Test Crosses",
       "subject": "Genetics",
       "topic": "Gene Mapping",
-      "updated": null,
+      "updated": "2026-04-19",
       "url": "genetics/topic08/#three-point_test_cross-which_genotypes-DOUBLE-button-container"
     },
     {
@@ -2807,7 +2873,7 @@
       "name": "Recombinant Genotypes for a Gene Pair from Three-Point Test Cross Data",
       "subject": "Genetics",
       "topic": "Gene Mapping",
-      "updated": null,
+      "updated": "2026-04-19",
       "url": "genetics/topic08/#three-point_test_cross-which_genotypes-GENES-button-container"
     },
     {
@@ -2818,7 +2884,7 @@
       "name": "Three-Point Test Cross: Parental Genotypes from Progeny Counts",
       "subject": "Genetics",
       "topic": "Gene Mapping",
-      "updated": null,
+      "updated": "2026-04-19",
       "url": "genetics/topic08/#three-point_test_cross-which_genotypes-PARENTAL-button-container"
     },
     {
@@ -2829,13 +2895,13 @@
       "name": "Gene Configuration (Cis vs. Trans) in Two-Point Test Crosses",
       "subject": "Genetics",
       "topic": "Gene Mapping",
-      "updated": null,
+      "updated": "2026-01-11",
       "url": "genetics/topic08/#two-point_test_cross-cis-trans-MC-with_hint-button-container"
     },
     {
       "added": null,
-      "created": "2021-10-20",
-      "family": "b7e09b97ac83228df19b8e61e1543eea935ded9d:three_point_test_cross-html.py",
+      "created": null,
+      "family": null,
       "id": "genetics/topic08/bbq-two-point_test_cross-distance-MC-with_hint-6_choices-questions.txt",
       "name": "Genetic Distance in Two-Point Test Crosses (6 Choices)",
       "subject": "Genetics",
@@ -2845,8 +2911,8 @@
     },
     {
       "added": null,
-      "created": "2021-10-20",
-      "family": "b7e09b97ac83228df19b8e61e1543eea935ded9d:three_point_test_cross-html.py",
+      "created": null,
+      "family": null,
       "id": "genetics/topic08/bbq-two-point_test_cross-distance-NUM-with_hint-questions.txt",
       "name": "Genetic Distance in Two-Point Test Crosses",
       "subject": "Genetics",
@@ -2862,7 +2928,7 @@
       "name": "Parental Genotype Combinations in a Two-Point Test Cross",
       "subject": "Genetics",
       "topic": "Gene Mapping",
-      "updated": null,
+      "updated": "2026-04-19",
       "url": "genetics/topic08/#two-point_test_cross-which_genotypes-MA-with_hint-PARENTAL-button-container"
     },
     {
@@ -2873,7 +2939,7 @@
       "name": "Recombinant Genotypes from Two-Point Test Cross Progeny Counts (With Hint)",
       "subject": "Genetics",
       "topic": "Gene Mapping",
-      "updated": null,
+      "updated": "2026-04-19",
       "url": "genetics/topic08/#two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT-button-container"
     },
     {
@@ -2884,7 +2950,7 @@
       "name": "Chromosome Structure Alterations from Descriptions",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": null,
+      "updated": "2026-10-06",
       "url": "genetics/topic09/#MATCH-chromosome_alterations-button-container"
     },
     {
@@ -2895,7 +2961,7 @@
       "name": "Chromosome Shapes from Descriptions",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": null,
+      "updated": "2026-10-06",
       "url": "genetics/topic09/#MATCH-chromosome_shapes-button-container"
     },
     {
@@ -2906,7 +2972,7 @@
       "name": "Chromosome Structure Alterations from Descriptions",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": null,
+      "updated": "2026-10-06",
       "url": "genetics/topic09/#WOMC-chromosome_alterations-button-container"
     },
     {
@@ -2917,7 +2983,7 @@
       "name": "Chromosome Shapes from Descriptions",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": null,
+      "updated": "2026-10-06",
       "url": "genetics/topic09/#WOMC-chromosome_shapes-button-container"
     },
     {
@@ -2928,7 +2994,7 @@
       "name": "Chromosomal Abnormalities from Karyotype Notation",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": null,
+      "updated": "2025-12-26",
       "url": "genetics/topic09/#cytogenetic_notation-aneuploidy-5_choices-button-container"
     },
     {
@@ -2939,7 +3005,7 @@
       "name": "Chromosome Band Proximity",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": null,
+      "updated": "2026-01-04",
       "url": "genetics/topic09/#cytogenetic_notation-band_order-5_choices-button-container"
     },
     {
@@ -2950,7 +3016,7 @@
       "name": "Cytogenetic Notations in Genetic Disorders",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": null,
+      "updated": "2026-04-27",
       "url": "genetics/topic09/#cytogenetic_notation-disorders-5_choices-button-container"
     },
     {
@@ -2961,7 +3027,7 @@
       "name": "Cytogenetic Notation for Rearrangements",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": null,
+      "updated": "2026-01-10",
       "url": "genetics/topic09/#cytogenetic_notation-rearrangements-button-container"
     },
     {
@@ -2972,7 +3038,7 @@
       "name": "Chromosome Sub-Band Positions from Cytogenetic Notation",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": null,
+      "updated": "2026-01-10",
       "url": "genetics/topic09/#cytogenetic_notation-sub-band_notation-button-container"
     },
     {
@@ -2983,7 +3049,7 @@
       "name": "Gene Order from Deletion Mutants (4 Genes, Random Labels)",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": null,
+      "updated": "2026-01-10",
       "url": "genetics/topic09/#deletion_mutant_random-04_genes-MC-button-container"
     },
     {
@@ -2994,7 +3060,7 @@
       "name": "Gene Order from Deletion Mutants (5 Genes, Random Labels)",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": null,
+      "updated": "2026-01-10",
       "url": "genetics/topic09/#deletion_mutant_random-05_genes-MC-button-container"
     },
     {
@@ -3005,7 +3071,7 @@
       "name": "Gene Order from Deletion Mutants (6 Genes, Random Labels)",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": null,
+      "updated": "2026-01-10",
       "url": "genetics/topic09/#deletion_mutant_random-06_genes-MC-button-container"
     },
     {
@@ -3016,7 +3082,7 @@
       "name": "Gene Order from Deletion Mutants (4 Genes, Word Labels)",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": null,
+      "updated": "2026-01-10",
       "url": "genetics/topic09/#deletion_mutant_words-04_genes-MC-button-container"
     },
     {
@@ -3027,7 +3093,7 @@
       "name": "Gene Order from Deletion Mutants (5 Genes, Word Labels)",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": null,
+      "updated": "2026-01-10",
       "url": "genetics/topic09/#deletion_mutant_words-05_genes-MC-button-container"
     },
     {
@@ -3038,7 +3104,7 @@
       "name": "Gene Order from Deletion Mutants (6 Genes, Word Labels)",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": null,
+      "updated": "2026-01-10",
       "url": "genetics/topic09/#deletion_mutant_words-06_genes-MC-button-container"
     },
     {
@@ -3049,7 +3115,7 @@
       "name": "Chromosomal Translocation Outcomes (Color)",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": null,
+      "updated": "2026-01-17",
       "url": "genetics/topic09/#letter_translocation_problem_color-button-container"
     },
     {
@@ -3060,7 +3126,7 @@
       "name": "Gamete Chromosome Numbers in Polyploids",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": null,
+      "updated": "2026-01-10",
       "url": "genetics/topic09/#polyploid-gametes-button-container"
     },
     {
@@ -3071,7 +3137,7 @@
       "name": "Monoploid and Haploid Numbers from Chromosome Counts",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": null,
+      "updated": "2025-12-26",
       "url": "genetics/topic09/#polyploid-monoploid_v_haploid-button-container"
     },
     {
@@ -3082,7 +3148,7 @@
       "name": "Gametes from Robertsonian Translocation",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": null,
+      "updated": "2026-01-10",
       "url": "genetics/topic09/#robertsonian-button-container"
     },
     {
@@ -3093,7 +3159,7 @@
       "name": "Balanced Translocation Segregation Outcomes",
       "subject": "Genetics",
       "topic": "Chromosomal Disorders",
-      "updated": null,
+      "updated": "2026-01-10",
       "url": "genetics/topic09/#translocation_meiosis_table-button-container"
     },
     {
@@ -3104,7 +3170,7 @@
       "name": "Population Genetics Terms from Definitions",
       "subject": "Genetics",
       "topic": "Population Genetics",
-      "updated": null,
+      "updated": "2026-10-06",
       "url": "genetics/topic10/#MATCH-population_genetics_terms-button-container"
     },
     {
@@ -3115,7 +3181,7 @@
       "name": "Hardy-Weinberg Equilibrium Conditions",
       "subject": "Genetics",
       "topic": "Population Genetics",
-      "updated": null,
+      "updated": "2026-01-23",
       "url": "genetics/topic10/#TFMS-h-w_non-evolve_criteria-button-container"
     },
     {
@@ -3126,7 +3192,7 @@
       "name": "Population Genetics Terms from Definitions",
       "subject": "Genetics",
       "topic": "Population Genetics",
-      "updated": null,
+      "updated": "2026-10-06",
       "url": "genetics/topic10/#WOMC-population_genetics_terms-button-container"
     },
     {
@@ -3137,7 +3203,7 @@
       "name": "Hardy-Weinberg Variables from Population Data",
       "subject": "Genetics",
       "topic": "Population Genetics",
-      "updated": null,
+      "updated": "2026-01-10",
       "url": "genetics/topic10/#hardy_weinberg_mc_type-button-container"
     },
     {
@@ -3148,7 +3214,7 @@
       "name": "Hardy-Weinberg Allele and Genotype Frequencies from Population Data",
       "subject": "Genetics",
       "topic": "Population Genetics",
-      "updated": null,
+      "updated": "2026-01-17",
       "url": "genetics/topic10/#hardy_weinberg_numeric-NUM-5_choices-button-container"
     },
     {
@@ -3159,7 +3225,7 @@
       "name": "Phylogenetic Trees from Distance Matrices (3 Taxa)",
       "subject": "Genetics",
       "topic": "Gene Trees",
-      "updated": null,
+      "updated": "2026-02-05",
       "url": "genetics/topic11/#gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1-button-container"
     },
     {
@@ -3170,7 +3236,7 @@
       "name": "Phylogenetic Trees from Distance Matrices (4 Taxa)",
       "subject": "Genetics",
       "topic": "Gene Trees",
-      "updated": null,
+      "updated": "2026-02-05",
       "url": "genetics/topic11/#gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2-button-container"
     },
     {
@@ -3181,7 +3247,7 @@
       "name": "Phylogenetic Trees from Distance Matrices (5 Taxa)",
       "subject": "Genetics",
       "topic": "Gene Trees",
-      "updated": null,
+      "updated": "2026-02-05",
       "url": "genetics/topic11/#gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3-button-container"
     },
     {
@@ -3192,7 +3258,7 @@
       "name": "Phylogenetic Trees from Distance Matrices (6 Taxa)",
       "subject": "Genetics",
       "topic": "Gene Trees",
-      "updated": null,
+      "updated": "2026-02-05",
       "url": "genetics/topic11/#gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4-button-container"
     },
     {
@@ -3203,7 +3269,7 @@
       "name": "Phylogenetic Trees from Distance Matrices (7 Taxa)",
       "subject": "Genetics",
       "topic": "Gene Trees",
-      "updated": null,
+      "updated": "2026-02-05",
       "url": "genetics/topic11/#gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5-button-container"
     },
     {
@@ -3214,7 +3280,7 @@
       "name": "Phylogenetic Trees with Different Evolutionary Relationships (Easy, 6 Taxa, With Hint)",
       "subject": "Genetics",
       "topic": "Gene Trees",
-      "updated": null,
+      "updated": "2026-07-12",
       "url": "genetics/topic11/#gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level-button-container"
     },
     {
@@ -3225,7 +3291,7 @@
       "name": "Phylogenetic Trees with Different Evolutionary Relationships (Medium, 7 Taxa, With Hint)",
       "subject": "Genetics",
       "topic": "Gene Trees",
-      "updated": null,
+      "updated": "2026-07-12",
       "url": "genetics/topic11/#gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level-button-container"
     },
     {
@@ -3236,7 +3302,7 @@
       "name": "Phylogenetic Trees with Equivalent Evolutionary Relationships (Easy, 5 Taxa, With Hint)",
       "subject": "Genetics",
       "topic": "Gene Trees",
-      "updated": null,
+      "updated": "2026-07-12",
       "url": "genetics/topic11/#gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level-button-container"
     },
     {
@@ -3247,7 +3313,7 @@
       "name": "Phylogenetic Trees with Equivalent Evolutionary Relationships (Medium, 6 Taxa, With Hint)",
       "subject": "Genetics",
       "topic": "Gene Trees",
-      "updated": null,
+      "updated": "2026-07-12",
       "url": "genetics/topic11/#gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level-button-container"
     },
     {
@@ -3406,8 +3472,8 @@
     },
     {
       "added": null,
-      "created": null,
-      "family": null,
+      "created": "2020-10-18",
+      "family": "0782cc2e0438db061f12c9eae6131e37bcec9b9e:michaelis_menten_table-Km.py",
       "id": "laboratory/topic09/bbq-michaelis_menten_table-Km-questions.txt",
       "name": "Michaelis-Menten Constant (Km) from Enzyme Activity Data",
       "subject": "Laboratory",
@@ -3417,8 +3483,8 @@
     },
     {
       "added": null,
-      "created": null,
-      "family": null,
+      "created": "2020-10-18",
+      "family": "28fe27d8f0b45600add0becfea343b64ac9d83c9:michaelis_menten_table-inhibition.py",
       "id": "laboratory/topic09/bbq-michaelis_menten_table-inhibition-questions.txt",
       "name": "Enzyme Inhibition Type from Enzyme Activity Data",
       "subject": "Laboratory",
@@ -3439,8 +3505,8 @@
     },
     {
       "added": null,
-      "created": null,
-      "family": null,
+      "created": "2021-10-17",
+      "family": "06da2314607c27e72ff7e195ffe842f1d06557ae:simple_dna_gel_migration.py",
       "id": "laboratory/topic11/bbq-dna_gel-closest_farthest_MC-questions.txt",
       "name": "DNA Fragment Migration in Agarose Gel Electrophoresis (Closest/Farthest)",
       "subject": "Laboratory",
@@ -3527,8 +3593,8 @@
     },
     {
       "added": null,
-      "created": null,
-      "family": null,
+      "created": "2020-09-27",
+      "family": "3e07e65d2359ea5fdca01a7afff12daad54f0a43:gel_migration.py",
       "id": "laboratory/topic11/bbq-protein_gel_migration-questions.txt",
       "name": "Protein Molecular Weight from SDS-PAGE Migration",
       "subject": "Laboratory",
@@ -3703,8 +3769,8 @@
     },
     {
       "added": null,
-      "created": null,
-      "family": null,
+      "created": "2021-10-17",
+      "family": "06da2314607c27e72ff7e195ffe842f1d06557ae:simple_dna_gel_migration.py",
       "id": "molecular_biology/topic04/bbq-dna_gel-closest_farthest_MC-questions.txt",
       "name": "DNA Fragment Migration in Agarose Gel Electrophoresis (Closest/Farthest)",
       "subject": "Molecular Biology",
@@ -4715,8 +4781,8 @@
     },
     {
       "added": null,
-      "created": null,
-      "family": null,
+      "created": "2021-10-17",
+      "family": "06da2314607c27e72ff7e195ffe842f1d06557ae:simple_dna_gel_migration.py",
       "id": "biotechnology/topic02/bbq-dna_gel-closest_farthest_MC-questions.txt",
       "name": "DNA Fragment Migration in Agarose Gel Electrophoresis (Closest/Farthest)",
       "subject": "Biotechnology",
@@ -4803,8 +4869,8 @@
     },
     {
       "added": null,
-      "created": null,
-      "family": null,
+      "created": "2020-09-27",
+      "family": "18a3273dca2e9183923a4882244a12e9dbf35357:isoelectric_one_protein.py",
       "id": "biotechnology/topic03/bbq-isoelectric_one_protein-questions.txt",
       "name": "Protein Net Charge at a Given pH",
       "subject": "Biotechnology",
@@ -4825,8 +4891,8 @@
     },
     {
       "added": null,
-      "created": null,
-      "family": null,
+      "created": "2020-09-27",
+      "family": "3e07e65d2359ea5fdca01a7afff12daad54f0a43:gel_migration.py",
       "id": "biotechnology/topic03/bbq-protein_gel_migration-questions.txt",
       "name": "Protein Molecular Weight from SDS-PAGE Migration",
       "subject": "Biotechnology",
@@ -5364,8 +5430,8 @@
     },
     {
       "added": null,
-      "created": null,
-      "family": null,
+      "created": "2021-10-11",
+      "family": "ac34b61348523301c49eeb40cb71efc914fc8537:fret_overlap.py",
       "id": "other/topic02/bbq-fret_overlap_colors-questions.txt",
       "name": "FRET Donor-Acceptor Pairs from Spectral Overlap",
       "subject": "Other",
@@ -5375,8 +5441,8 @@
     },
     {
       "added": null,
-      "created": null,
-      "family": null,
+      "created": "2021-10-11",
+      "family": "ac34b61348523301c49eeb40cb71efc914fc8537:fret_overlap.py",
       "id": "other/topic02/bbq-fret_permute_colors-questions.txt",
       "name": "FRET Color Assignments from Donor-Acceptor Permutations",
       "subject": "Other",
@@ -5397,7 +5463,7 @@
     {
       "icon": "\ud83e\udeb0",
       "key": "genetics",
-      "sets": 138,
+      "sets": 144,
       "title": "Genetics",
       "topics": 11,
       "url": "genetics/"
@@ -5444,9 +5510,521 @@
     }
   ],
   "totals": {
-    "sets": 476,
+    "sets": 482,
     "subjects": 7,
     "topics": 57
   },
-  "updated": []
+  "updated": [
+    {
+      "date": "2026-10-06",
+      "name": "Sex Determination Systems from Descriptions",
+      "subject": "Genetics",
+      "topic": "Chromosomal Inheritance",
+      "url": "genetics/topic06/#MATCH-sex_determination-button-container"
+    },
+    {
+      "date": "2026-10-06",
+      "name": "Population Genetics Terms from Definitions",
+      "subject": "Genetics",
+      "topic": "Population Genetics",
+      "url": "genetics/topic10/#MATCH-population_genetics_terms-button-container"
+    },
+    {
+      "date": "2026-10-06",
+      "name": "Mendelian Genetics Terms from Definitions",
+      "subject": "Genetics",
+      "topic": "Mendelian Genetics",
+      "url": "genetics/topic04/#MATCH-mendelian_genetics_terms-button-container"
+    },
+    {
+      "date": "2026-10-06",
+      "name": "Mendelian Cross Terms from Descriptions",
+      "subject": "Genetics",
+      "topic": "Mendelian Genetics",
+      "url": "genetics/topic04/#MATCH-mendel_cross_terminology-button-container"
+    },
+    {
+      "date": "2026-10-06",
+      "name": "Mendel's Four Principles of Genetics from Descriptions",
+      "subject": "Genetics",
+      "topic": "Mendelian Genetics",
+      "url": "genetics/topic04/#MATCH-mendel_four_principles-button-container"
+    },
+    {
+      "date": "2026-10-06",
+      "name": "Meiosis Terms from Definitions",
+      "subject": "Genetics",
+      "topic": "Chromosomal Inheritance",
+      "url": "genetics/topic06/#MATCH-meiosis_terms-button-container"
+    },
+    {
+      "date": "2026-10-06",
+      "name": "Genetics Terms from Definitions",
+      "subject": "Genetics",
+      "topic": "Mendelian Genetics",
+      "url": "genetics/topic04/#MATCH-genetics_terminology-button-container"
+    },
+    {
+      "date": "2026-10-06",
+      "name": "Genetic Disorders",
+      "subject": "Genetics",
+      "topic": "Genetic Disorders",
+      "url": "genetics/topic01/#MATCH-genetic_disorders-button-container"
+    },
+    {
+      "date": "2026-10-06",
+      "name": "Chromosome Structure Alterations from Descriptions",
+      "subject": "Genetics",
+      "topic": "Chromosomal Disorders",
+      "url": "genetics/topic09/#MATCH-chromosome_alterations-button-container"
+    },
+    {
+      "date": "2026-10-06",
+      "name": "Chromosome Shapes from Descriptions",
+      "subject": "Genetics",
+      "topic": "Chromosomal Disorders",
+      "url": "genetics/topic09/#MATCH-chromosome_shapes-button-container"
+    },
+    {
+      "date": "2026-10-06",
+      "name": "Chi-Square Terms from Definitions",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "url": "genetics/topic07/#MATCH-chi-square_terms-button-container"
+    },
+    {
+      "date": "2026-10-01",
+      "name": "Unknown Parent Genotype from Monohybrid Offspring Counts",
+      "subject": "Genetics",
+      "topic": "Mendelian Genetics",
+      "url": "genetics/topic04/#monohybrid_litter_inference-button-container"
+    },
+    {
+      "date": "2026-10-01",
+      "name": "Test-Cross Ratios from Epistatic F2 Ratios (6 Choices)",
+      "subject": "Genetics",
+      "topic": "Gene Interactions",
+      "url": "genetics/topic05/#epistasis_test_cross-forward_direction-6_choices-button-container"
+    },
+    {
+      "date": "2026-10-01",
+      "name": "Lethal Allele Cross Ratios and Survival Fractions",
+      "subject": "Genetics",
+      "topic": "Gene Interactions",
+      "url": "genetics/topic05/#lethal_allele_survival-button-container"
+    },
+    {
+      "date": "2026-10-01",
+      "name": "Gene Interaction Types from Dihybrid Cross Ratios (4 Choices)",
+      "subject": "Genetics",
+      "topic": "Gene Interactions",
+      "url": "genetics/topic05/#dihybrid_cross_epistatic_gene_interactions-4_choices-button-container"
+    },
+    {
+      "date": "2026-09-30",
+      "name": "Restriction Enzyme Overhang Sequences",
+      "subject": "Genetics",
+      "topic": "DNA Structure",
+      "url": "genetics/topic02/#overhang_sequence-mc-button-container"
+    },
+    {
+      "date": "2026-09-30",
+      "name": "Restriction Enzyme Cut Types (Blunt or Sticky)",
+      "subject": "Genetics",
+      "topic": "DNA Structure",
+      "url": "genetics/topic02/#overhang_type-blunt_v_sticky-button-container"
+    },
+    {
+      "date": "2026-09-30",
+      "name": "Parental Genotype Crosses from Monohybrid Offspring Ratios",
+      "subject": "Genetics",
+      "topic": "Mendelian Genetics",
+      "url": "genetics/topic04/#monohybrid_genotype_statements-button-container"
+    },
+    {
+      "date": "2026-09-28",
+      "name": "Unique Offspring Phenotypes from Four-Gene Crosses (With Hint)",
+      "subject": "Genetics",
+      "topic": "Mendelian Genetics",
+      "url": "genetics/topic04/#unique_cross_phenotypes-with_hint-4_genes-button-container"
+    },
+    {
+      "date": "2026-09-28",
+      "name": "Unique Offspring Genotypes from Four-Gene Crosses (With Hint)",
+      "subject": "Genetics",
+      "topic": "Mendelian Genetics",
+      "url": "genetics/topic04/#unique_cross_genotypes-with_hint-4_genes-button-container"
+    },
+    {
+      "date": "2026-09-28",
+      "name": "Unique Gametes from Four-Gene Genotypes (With Hint)",
+      "subject": "Genetics",
+      "topic": "Mendelian Genetics",
+      "url": "genetics/topic04/#unique_gametes-with_hint-4_genes-button-container"
+    },
+    {
+      "date": "2026-09-23",
+      "name": "Nucleotide Components",
+      "subject": "Genetics",
+      "topic": "DNA Structure",
+      "url": "genetics/topic02/#TFMS-nucleotide_components-button-container"
+    },
+    {
+      "date": "2026-09-23",
+      "name": "Metabolic Pathway Mutant Growth Rescue by Nutrient Supplementation (5 Metabolites)",
+      "subject": "Genetics",
+      "topic": "Genetic Disorders",
+      "url": "genetics/topic01/#beadle_tatum-metabolic_pathway-5_metabolites-button-container"
+    },
+    {
+      "date": "2026-09-22",
+      "name": "DNA Base Composition Using Chargaff's Rules (5 Choices)",
+      "subject": "Genetics",
+      "topic": "DNA Structure",
+      "url": "genetics/topic02/#chargaff_dna_percent-5_choices-button-container"
+    },
+    {
+      "date": "2026-09-22",
+      "name": "Complementary DNA Sequences (Directionless)",
+      "subject": "Genetics",
+      "topic": "DNA Structure",
+      "url": "genetics/topic02/#complementary_sequences-mc-directionless-button-container"
+    },
+    {
+      "date": "2026-09-20",
+      "name": "Restriction Fragment Sizes from Linear DNA Maps (16 kb, 4 Sites, Isolated Fragment)",
+      "subject": "Genetics",
+      "topic": "DNA Structure",
+      "url": "genetics/topic02/#linear_digest-len_16-sites_4-fragment-button-container"
+    },
+    {
+      "date": "2026-08-19",
+      "name": "English Palindrome Identification",
+      "subject": "Genetics",
+      "topic": "DNA Structure",
+      "url": "genetics/topic02/#TFMS-english_palindromes-button-container"
+    },
+    {
+      "date": "2026-07-12",
+      "name": "RFLP Suspect Identification from DNA Profiles (Medium, 5 Suspects)",
+      "subject": "Genetics",
+      "topic": "DNA Profiling",
+      "url": "genetics/topic03/#who_killer_html-MEDIUM-5_suspects-button-container"
+    },
+    {
+      "date": "2026-07-12",
+      "name": "RFLP Paternity Testing from DNA Gels (Medium, 5 Males)",
+      "subject": "Genetics",
+      "topic": "DNA Profiling",
+      "url": "genetics/topic03/#who_father_html-MEDIUM-5_males-button-container"
+    },
+    {
+      "date": "2026-07-12",
+      "name": "Phylogenetic Trees with Equivalent Evolutionary Relationships (Medium, 6 Taxa, With Hint)",
+      "subject": "Genetics",
+      "topic": "Gene Trees",
+      "url": "genetics/topic11/#gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level-button-container"
+    },
+    {
+      "date": "2026-07-12",
+      "name": "Monohybrid Cross Parental Genotypes from Progeny Outcomes",
+      "subject": "Genetics",
+      "topic": "Mendelian Genetics",
+      "url": "genetics/topic04/#MATCH-monohybrid_cross_genotype-button-container"
+    },
+    {
+      "date": "2026-07-12",
+      "name": "Meiosis Prophase I Stages from Descriptions",
+      "subject": "Genetics",
+      "topic": "Chromosomal Inheritance",
+      "url": "genetics/topic06/#MATCH-meiosis_prophase_1-button-container"
+    },
+    {
+      "date": "2026-07-12",
+      "name": "Errors in Chi-Square Calculations and Hypothesis Decisions",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "url": "genetics/topic07/#chi_square_errors-button-container"
+    },
+    {
+      "date": "2026-04-27",
+      "name": "Cytogenetic Notations in Genetic Disorders",
+      "subject": "Genetics",
+      "topic": "Chromosomal Disorders",
+      "url": "genetics/topic09/#cytogenetic_notation-disorders-5_choices-button-container"
+    },
+    {
+      "date": "2026-04-19",
+      "name": "Three-Point Test Cross: Parental Genotypes from Progeny Counts",
+      "subject": "Genetics",
+      "topic": "Gene Mapping",
+      "url": "genetics/topic08/#three-point_test_cross-which_genotypes-PARENTAL-button-container"
+    },
+    {
+      "date": "2026-04-19",
+      "name": "Recombinant Genotypes from Two-Point Test Cross Progeny Counts (With Hint)",
+      "subject": "Genetics",
+      "topic": "Gene Mapping",
+      "url": "genetics/topic08/#two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT-button-container"
+    },
+    {
+      "date": "2026-04-19",
+      "name": "Gene-to-Centromere Distance from Ordered Tetrads",
+      "subject": "Genetics",
+      "topic": "Gene Mapping",
+      "url": "genetics/topic08/#tetrad_ordered-centromere_distance-MC-button-container"
+    },
+    {
+      "date": "2026-03-05",
+      "name": "Chi-Square Tests",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "url": "genetics/topic07/#TFMS-chi-square-button-container"
+    },
+    {
+      "date": "2026-02-05",
+      "name": "Phylogenetic Trees from Distance Matrices (7 Taxa)",
+      "subject": "Genetics",
+      "topic": "Gene Trees",
+      "url": "genetics/topic11/#gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5-button-container"
+    },
+    {
+      "date": "2026-01-28",
+      "name": "Parent Genotypes in X-Linked Recessive Crosses",
+      "subject": "Genetics",
+      "topic": "Chromosomal Inheritance",
+      "url": "genetics/topic06/#poisson_flies-button-container"
+    },
+    {
+      "date": "2026-01-23",
+      "name": "RNA and DNA Differences (Helix Forms and Charge Included)",
+      "subject": "Genetics",
+      "topic": "DNA Structure",
+      "url": "genetics/topic02/#TFMS-rna_v_dna-button-container"
+    },
+    {
+      "date": "2026-01-23",
+      "name": "Mitosis and Meiosis",
+      "subject": "Genetics",
+      "topic": "Chromosomal Inheritance",
+      "url": "genetics/topic06/#TFMS-mitosis_and_meiosis-button-container"
+    },
+    {
+      "date": "2026-01-23",
+      "name": "Hardy-Weinberg Equilibrium Conditions",
+      "subject": "Genetics",
+      "topic": "Population Genetics",
+      "url": "genetics/topic10/#TFMS-h-w_non-evolve_criteria-button-container"
+    },
+    {
+      "date": "2026-01-23",
+      "name": "Degrees of Dominance and Gene Interactions from Definitions",
+      "subject": "Genetics",
+      "topic": "Gene Interactions",
+      "url": "genetics/topic05/#MATCH-degrees_of_dominance-button-container"
+    },
+    {
+      "date": "2026-01-23",
+      "name": "DNA Structure (Core Set)",
+      "subject": "Genetics",
+      "topic": "DNA Structure",
+      "url": "genetics/topic02/#TFMS-dna_structure-biol_351-button-container"
+    },
+    {
+      "date": "2026-01-19",
+      "name": "Palindromic DNA Sequence Completion",
+      "subject": "Genetics",
+      "topic": "DNA Structure",
+      "url": "genetics/topic02/#palindrome_sequence_match-button-container"
+    },
+    {
+      "date": "2026-01-19",
+      "name": "Combined Autosomal Dominant and X-Linked Recessive Inheritance (Varied Outcomes)",
+      "subject": "Genetics",
+      "topic": "Chromosomal Inheritance",
+      "url": "genetics/topic06/#dominant_and_X-linked_recessive_variations-button-container"
+    },
+    {
+      "date": "2026-01-17",
+      "name": "Hardy-Weinberg Allele and Genotype Frequencies from Population Data",
+      "subject": "Genetics",
+      "topic": "Population Genetics",
+      "url": "genetics/topic10/#hardy_weinberg_numeric-NUM-5_choices-button-container"
+    },
+    {
+      "date": "2026-01-17",
+      "name": "Chromosomal Translocation Outcomes (Color)",
+      "subject": "Genetics",
+      "topic": "Chromosomal Disorders",
+      "url": "genetics/topic09/#letter_translocation_problem_color-button-container"
+    },
+    {
+      "date": "2026-01-16",
+      "name": "Dihybrid Cross Ratios from Epistatic Metabolic Pathways (4 Choices)",
+      "subject": "Genetics",
+      "topic": "Gene Interactions",
+      "url": "genetics/topic05/#dihybrid_cross_epistatic_gene_metabolics-4_choices-button-container"
+    },
+    {
+      "date": "2026-01-11",
+      "name": "Gene Configuration (Cis vs. Trans) in Two-Point Test Crosses",
+      "subject": "Genetics",
+      "topic": "Gene Mapping",
+      "url": "genetics/topic08/#two-point_test_cross-cis-trans-MC-with_hint-button-container"
+    },
+    {
+      "date": "2026-01-10",
+      "name": "X-Linked Eye Color Inheritance",
+      "subject": "Genetics",
+      "topic": "Chromosomal Inheritance",
+      "url": "genetics/topic06/#x_linked_reciprocal_cross-button-container"
+    },
+    {
+      "date": "2026-01-10",
+      "name": "X-Linked Coat Color Probability",
+      "subject": "Genetics",
+      "topic": "Chromosomal Inheritance",
+      "url": "genetics/topic06/#x_linked_tortoiseshell-button-container"
+    },
+    {
+      "date": "2026-01-10",
+      "name": "Punnett Squares from Monohybrid Cross Descriptions",
+      "subject": "Genetics",
+      "topic": "Mendelian Genetics",
+      "url": "genetics/topic04/#punnett_choice-button-container"
+    },
+    {
+      "date": "2026-01-10",
+      "name": "Possible Mother ABO Blood Types from Father and Child Types",
+      "subject": "Genetics",
+      "topic": "Gene Interactions",
+      "url": "genetics/topic05/#blood_type_mother-button-container"
+    },
+    {
+      "date": "2026-01-10",
+      "name": "Possible ABO Blood Types of Offspring from Parent Blood Types",
+      "subject": "Genetics",
+      "topic": "Gene Interactions",
+      "url": "genetics/topic05/#blood_type_offspring-button-container"
+    },
+    {
+      "date": "2026-01-10",
+      "name": "Null and Alternative Hypotheses for Genetic Crosses",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "url": "genetics/topic07/#chi_square_hypotheses-pair-button-container"
+    },
+    {
+      "date": "2026-01-10",
+      "name": "Misstated Null Hypotheses for Genetic Ratios",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "url": "genetics/topic07/#chi_square_hypotheses_lab_partner-hypotheses_partner-button-container"
+    },
+    {
+      "date": "2026-01-10",
+      "name": "Hardy-Weinberg Variables from Population Data",
+      "subject": "Genetics",
+      "topic": "Population Genetics",
+      "url": "genetics/topic10/#hardy_weinberg_mc_type-button-container"
+    },
+    {
+      "date": "2026-01-10",
+      "name": "Gene Order from Deletion Mutants (6 Genes, Word Labels)",
+      "subject": "Genetics",
+      "topic": "Chromosomal Disorders",
+      "url": "genetics/topic09/#deletion_mutant_words-06_genes-MC-button-container"
+    },
+    {
+      "date": "2026-01-10",
+      "name": "Gametes from Robertsonian Translocation",
+      "subject": "Genetics",
+      "topic": "Chromosomal Disorders",
+      "url": "genetics/topic09/#robertsonian-button-container"
+    },
+    {
+      "date": "2026-01-10",
+      "name": "Gamete Chromosome Numbers in Polyploids",
+      "subject": "Genetics",
+      "topic": "Chromosomal Disorders",
+      "url": "genetics/topic09/#polyploid-gametes-button-container"
+    },
+    {
+      "date": "2026-01-10",
+      "name": "Degrees of Dominance from Monohybrid Cross Results",
+      "subject": "Genetics",
+      "topic": "Gene Interactions",
+      "url": "genetics/topic05/#monohybrid_degrees_of_dominance-button-container"
+    },
+    {
+      "date": "2026-01-10",
+      "name": "Cytogenetic Notation for Rearrangements",
+      "subject": "Genetics",
+      "topic": "Chromosomal Disorders",
+      "url": "genetics/topic09/#cytogenetic_notation-rearrangements-button-container"
+    },
+    {
+      "date": "2026-01-10",
+      "name": "Combined Autosomal Dominant and X-Linked Recessive Inheritance (Both Disorders)",
+      "subject": "Genetics",
+      "topic": "Chromosomal Inheritance",
+      "url": "genetics/topic06/#dominant_and_X-linked_recessive-button-container"
+    },
+    {
+      "date": "2026-01-10",
+      "name": "Chi-Square Values for Phenotypic Ratios",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "url": "genetics/topic07/#chi_square_calculated-ACCEPT-button-container"
+    },
+    {
+      "date": "2026-01-10",
+      "name": "Chi-Square Tests for Hardy-Weinberg Equilibrium",
+      "subject": "Genetics",
+      "topic": "Chi Square Analysis",
+      "url": "genetics/topic07/#chi_square_hardy_weinberg-button-container"
+    },
+    {
+      "date": "2026-01-10",
+      "name": "Blood Type Agglutination Test Results (ABO and Rh)",
+      "subject": "Genetics",
+      "topic": "DNA Profiling",
+      "url": "genetics/topic03/#blood_type_agglutination_test-button-container"
+    },
+    {
+      "date": "2026-01-10",
+      "name": "Balanced Translocation Segregation Outcomes",
+      "subject": "Genetics",
+      "topic": "Chromosomal Disorders",
+      "url": "genetics/topic09/#translocation_meiosis_table-button-container"
+    },
+    {
+      "date": "2026-01-04",
+      "name": "Offspring Sex Distribution Using the Binomial Model",
+      "subject": "Genetics",
+      "topic": "Chromosomal Inheritance",
+      "url": "genetics/topic06/#probabiliy_of_progeny-button-container"
+    },
+    {
+      "date": "2025-12-27",
+      "name": "Offspring HLA Genotypes (3 Markers, Color)",
+      "subject": "Genetics",
+      "topic": "DNA Profiling",
+      "url": "genetics/topic03/#hla_genotype-3_markers-color-button-container"
+    },
+    {
+      "date": "2025-12-26",
+      "name": "Monoploid and Haploid Numbers from Chromosome Counts",
+      "subject": "Genetics",
+      "topic": "Chromosomal Disorders",
+      "url": "genetics/topic09/#polyploid-monoploid_v_haploid-button-container"
+    },
+    {
+      "date": "2025-12-26",
+      "name": "Chromosomal Abnormalities from Karyotype Notation",
+      "subject": "Genetics",
+      "topic": "Chromosomal Disorders",
+      "url": "genetics/topic09/#cytogenetic_notation-aneuploidy-5_choices-button-container"
+    }
+  ]
 }

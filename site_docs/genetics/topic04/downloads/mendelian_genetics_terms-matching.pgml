@@ -5,7 +5,7 @@
 ## DBsubject('Genetics')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-10-01')
+## Date('2026-10-08')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -45,9 +45,9 @@ our @ALPHABET = ('A' .. 'Z');
   'trait' => [
     'each variant for a <span style="color: #076dad; font-weight:700;">character</span>, such as purple or white color for flowers',
     'each variant for a <span style="color: #076dad; font-weight:700;">character</span>, such as green or yellow color for seeds',
-    'each variant for a <span style="color: #076dad; font-weight:700;">character</span>, such as round or wrinkled seeds in flowers',
+    'each variant for a <span style="color: #076dad; font-weight:700;">character</span>, such as round or wrinkled seeds in plants',
     'a distinct variant of a <span style="color: #076dad; font-weight:700;">character</span> of an organism, such as purple or white color for flowers',
-    'a distinct variant of a <span style="color: #076dad; font-weight:700;">character</span> of an organism, such as short or long stems in flowers',
+    'a distinct variant of a <span style="color: #076dad; font-weight:700;">character</span> of an organism, such as short or long stems in plants',
     'a single variation in an inherited <span style="color: #076dad; font-weight:700;">character</span>',
     'a specific form of a heritable feature, like purple color in flowers',
     'green or yellow as specific forms of the seed color <span style="color: #076dad; font-weight:700;">character</span>',
@@ -75,7 +75,7 @@ our @ALPHABET = ('A' .. 'Z');
     'all <span style="color: #003fff; font-weight:700;">observable</span> <span style="color: #b74300; font-weight:700;">traits</span> due to how its <span style="color: #d40000; font-weight:700;">genes</span> interact with the environment',
     'the complete set of <span style="color: #003fff; font-weight:700;">observable</span> <span style="color: #b74300; font-weight:700;">traits</span> of an organism',
     'Mendel referred to this as the "external resemblance" of an organism',
-    'all <span style="color: #b74300; font-weight:700;">traits</span> that can all be observed in an organism',
+    'all <span style="color: #b74300; font-weight:700;">traits</span> that can be observed in an organism',
     'all <span style="color: #003fff; font-weight:700;">observable</span> <span style="color: #b74300; font-weight:700;">traits</span>, like eye color or blood type',
     'all <span style="color: #003fff; font-weight:700;">observable</span> <span style="color: #b74300; font-weight:700;">traits</span> such as height or blood type in an individual',
     'the manifestation of DNA as all <span style="color: #003fff; font-weight:700;">observable</span> <span style="color: #b74300; font-weight:700;">traits</span>',
@@ -84,7 +84,7 @@ our @ALPHABET = ('A' .. 'Z');
   ],
   'alleles' => [
     'different versions of the same gene, such as A or a',
-    'one of two or more versions of DNA sequence at a given genomic location',
+    'one of two or more versions of a DNA sequence at a given genomic location',
     'one of two or more alternative forms of a gene at the same site in a chromosome',
     'alternative forms of a specific gene',
     'variants of the gene',
@@ -100,7 +100,7 @@ our @ALPHABET = ('A' .. 'Z');
     'different forms at a single gene locus',
   ],
   'gamete' => [
-    'a haploid reproductive cell having the half number of chromosomes',
+    'a haploid reproductive cell having half the number of chromosomes',
     'a general term for either male (sperm) or female (egg) germ cells, which unite to form the zygote',
     'a haploid cell (e.g., sperm or egg) that fuses with another haploid cell during fertilization in organisms',
     'sex, or reproductive, cell containing only one set of dissimilar chromosomes',

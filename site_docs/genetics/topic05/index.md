@@ -340,20 +340,20 @@ Students determine how multiple genes interact to produce phenotypes, including 
 </details>
 
 
-## Pedigree Identification from Inheritance Patterns (Easy)
+## Pedigrees from Autosomal Inheritance Patterns (Easy)
 
-<div id="write_pattern_to_pedigree-easy-button-container" class="button-container">
+<div id="write_pattern_to_pedigree-easy-autosomal-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-write_pattern_to_pedigree-easy-questions.txt" download title="Download bbq-write_pattern_to_pedigree-easy-questions.txt" aria-label="Click to download the BBQ Text file (bbq-write_pattern_to_pedigree-easy-questions.txt)">
+<a class="md-button custom-button bb_text" href="bbq-write_pattern_to_pedigree-easy-autosomal-questions.txt" download title="Download bbq-write_pattern_to_pedigree-easy-autosomal-questions.txt" aria-label="Click to download the BBQ Text file (bbq-write_pattern_to_pedigree-easy-autosomal-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-write_pattern_to_pedigree-easy.zip" download title="Download blackboard_export_zip-write_pattern_to_pedigree-easy.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-write_pattern_to_pedigree-easy.zip)">
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-write_pattern_to_pedigree-easy-autosomal.zip" download title="Download blackboard_export_zip-write_pattern_to_pedigree-easy-autosomal.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-write_pattern_to_pedigree-easy-autosomal.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-write_pattern_to_pedigree-easy.zip" download title="Download canvas_qti_v1_2-write_pattern_to_pedigree-easy.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-write_pattern_to_pedigree-easy.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-write_pattern_to_pedigree-easy-autosomal.zip" download title="Download canvas_qti_v1_2-write_pattern_to_pedigree-easy-autosomal.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-write_pattern_to_pedigree-easy-autosomal.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-write_pattern_to_pedigree-easy.html', '_blank')" title="View human_readable-write_pattern_to_pedigree-easy.html" aria-label="Click to view the Human-Readable TXT file (human_readable-write_pattern_to_pedigree-easy.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-write_pattern_to_pedigree-easy-autosomal.html', '_blank')" title="View human_readable-write_pattern_to_pedigree-easy-autosomal.html" aria-label="Click to view the Human-Readable TXT file (human_readable-write_pattern_to_pedigree-easy-autosomal.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
@@ -362,31 +362,31 @@ Students determine how multiple genes interact to produce phenotypes, including 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Pedigree Identification from Inheritance Patterns (Easy)
+      Pedigrees from Autosomal Inheritance Patterns (Easy)
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "genetics/topic05/downloads/selftest-write_pattern_to_pedigree-easy.html" %}
+  {% include "genetics/topic05/downloads/selftest-write_pattern_to_pedigree-easy-autosomal.html" %}
 
 </details>
 
 
-## Inheritance Patterns from Pedigrees (Easy)
+## Autosomal Inheritance Patterns from Pedigrees (Easy)
 
-<div id="write_pedigree_pattern_matching-easy-button-container" class="button-container">
+<div id="write_pedigree_pattern_matching-easy-autosomal-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-write_pedigree_pattern_matching-easy-questions.txt" download title="Download bbq-write_pedigree_pattern_matching-easy-questions.txt" aria-label="Click to download the BBQ Text file (bbq-write_pedigree_pattern_matching-easy-questions.txt)">
+<a class="md-button custom-button bb_text" href="bbq-write_pedigree_pattern_matching-easy-autosomal-questions.txt" download title="Download bbq-write_pedigree_pattern_matching-easy-autosomal-questions.txt" aria-label="Click to download the BBQ Text file (bbq-write_pedigree_pattern_matching-easy-autosomal-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-write_pedigree_pattern_matching-easy.zip" download title="Download blackboard_export_zip-write_pedigree_pattern_matching-easy.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-write_pedigree_pattern_matching-easy.zip)">
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-write_pedigree_pattern_matching-easy-autosomal.zip" download title="Download blackboard_export_zip-write_pedigree_pattern_matching-easy-autosomal.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-write_pedigree_pattern_matching-easy-autosomal.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-write_pedigree_pattern_matching-easy.zip" download title="Download canvas_qti_v1_2-write_pedigree_pattern_matching-easy.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-write_pedigree_pattern_matching-easy.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-write_pedigree_pattern_matching-easy-autosomal.zip" download title="Download canvas_qti_v1_2-write_pedigree_pattern_matching-easy-autosomal.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-write_pedigree_pattern_matching-easy-autosomal.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-write_pedigree_pattern_matching-easy.html', '_blank')" title="View human_readable-write_pedigree_pattern_matching-easy.html" aria-label="Click to view the Human-Readable TXT file (human_readable-write_pedigree_pattern_matching-easy.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-write_pedigree_pattern_matching-easy-autosomal.html', '_blank')" title="View human_readable-write_pedigree_pattern_matching-easy-autosomal.html" aria-label="Click to view the Human-Readable TXT file (human_readable-write_pedigree_pattern_matching-easy-autosomal.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
@@ -395,31 +395,31 @@ Students determine how multiple genes interact to produce phenotypes, including 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Inheritance Patterns from Pedigrees (Easy)
+      Autosomal Inheritance Patterns from Pedigrees (Easy)
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "genetics/topic05/downloads/selftest-write_pedigree_pattern_matching-easy.html" %}
+  {% include "genetics/topic05/downloads/selftest-write_pedigree_pattern_matching-easy-autosomal.html" %}
 
 </details>
 
 
-## Inheritance Patterns from Pedigrees (Bonus)
+## Autosomal Inheritance Patterns from Pedigrees (Bonus)
 
-<div id="write_pedigree_to_pattern-bonus-button-container" class="button-container">
+<div id="write_pedigree_to_pattern-bonus-autosomal-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-write_pedigree_to_pattern-bonus-questions.txt" download title="Download bbq-write_pedigree_to_pattern-bonus-questions.txt" aria-label="Click to download the BBQ Text file (bbq-write_pedigree_to_pattern-bonus-questions.txt)">
+<a class="md-button custom-button bb_text" href="bbq-write_pedigree_to_pattern-bonus-autosomal-questions.txt" download title="Download bbq-write_pedigree_to_pattern-bonus-autosomal-questions.txt" aria-label="Click to download the BBQ Text file (bbq-write_pedigree_to_pattern-bonus-autosomal-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-write_pedigree_to_pattern-bonus.zip" download title="Download blackboard_export_zip-write_pedigree_to_pattern-bonus.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-write_pedigree_to_pattern-bonus.zip)">
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-write_pedigree_to_pattern-bonus-autosomal.zip" download title="Download blackboard_export_zip-write_pedigree_to_pattern-bonus-autosomal.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-write_pedigree_to_pattern-bonus-autosomal.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-write_pedigree_to_pattern-bonus.zip" download title="Download canvas_qti_v1_2-write_pedigree_to_pattern-bonus.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-write_pedigree_to_pattern-bonus.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-write_pedigree_to_pattern-bonus-autosomal.zip" download title="Download canvas_qti_v1_2-write_pedigree_to_pattern-bonus-autosomal.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-write_pedigree_to_pattern-bonus-autosomal.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-write_pedigree_to_pattern-bonus.html', '_blank')" title="View human_readable-write_pedigree_to_pattern-bonus.html" aria-label="Click to view the Human-Readable TXT file (human_readable-write_pedigree_to_pattern-bonus.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-write_pedigree_to_pattern-bonus-autosomal.html', '_blank')" title="View human_readable-write_pedigree_to_pattern-bonus-autosomal.html" aria-label="Click to view the Human-Readable TXT file (human_readable-write_pedigree_to_pattern-bonus-autosomal.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
@@ -428,31 +428,31 @@ Students determine how multiple genes interact to produce phenotypes, including 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Inheritance Patterns from Pedigrees (Bonus)
+      Autosomal Inheritance Patterns from Pedigrees (Bonus)
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "genetics/topic05/downloads/selftest-write_pedigree_to_pattern-bonus.html" %}
+  {% include "genetics/topic05/downloads/selftest-write_pedigree_to_pattern-bonus-autosomal.html" %}
 
 </details>
 
 
-## Inheritance Patterns from Pedigrees (Easy)
+## Autosomal Inheritance Patterns from Pedigrees (Easy)
 
-<div id="write_pedigree_to_pattern-easy-button-container" class="button-container">
+<div id="write_pedigree_to_pattern-easy-autosomal-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-write_pedigree_to_pattern-easy-questions.txt" download title="Download bbq-write_pedigree_to_pattern-easy-questions.txt" aria-label="Click to download the BBQ Text file (bbq-write_pedigree_to_pattern-easy-questions.txt)">
+<a class="md-button custom-button bb_text" href="bbq-write_pedigree_to_pattern-easy-autosomal-questions.txt" download title="Download bbq-write_pedigree_to_pattern-easy-autosomal-questions.txt" aria-label="Click to download the BBQ Text file (bbq-write_pedigree_to_pattern-easy-autosomal-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-write_pedigree_to_pattern-easy.zip" download title="Download blackboard_export_zip-write_pedigree_to_pattern-easy.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-write_pedigree_to_pattern-easy.zip)">
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-write_pedigree_to_pattern-easy-autosomal.zip" download title="Download blackboard_export_zip-write_pedigree_to_pattern-easy-autosomal.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-write_pedigree_to_pattern-easy-autosomal.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-write_pedigree_to_pattern-easy.zip" download title="Download canvas_qti_v1_2-write_pedigree_to_pattern-easy.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-write_pedigree_to_pattern-easy.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-write_pedigree_to_pattern-easy-autosomal.zip" download title="Download canvas_qti_v1_2-write_pedigree_to_pattern-easy-autosomal.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-write_pedigree_to_pattern-easy-autosomal.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-write_pedigree_to_pattern-easy.html', '_blank')" title="View human_readable-write_pedigree_to_pattern-easy.html" aria-label="Click to view the Human-Readable TXT file (human_readable-write_pedigree_to_pattern-easy.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-write_pedigree_to_pattern-easy-autosomal.html', '_blank')" title="View human_readable-write_pedigree_to_pattern-easy-autosomal.html" aria-label="Click to view the Human-Readable TXT file (human_readable-write_pedigree_to_pattern-easy-autosomal.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
@@ -461,31 +461,31 @@ Students determine how multiple genes interact to produce phenotypes, including 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Inheritance Patterns from Pedigrees (Easy)
+      Autosomal Inheritance Patterns from Pedigrees (Easy)
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "genetics/topic05/downloads/selftest-write_pedigree_to_pattern-easy.html" %}
+  {% include "genetics/topic05/downloads/selftest-write_pedigree_to_pattern-easy-autosomal.html" %}
 
 </details>
 
 
-## Inheritance Patterns from Pedigrees (Medium)
+## Autosomal Inheritance Patterns from Pedigrees (Medium)
 
-<div id="write_pedigree_to_pattern-medium-button-container" class="button-container">
+<div id="write_pedigree_to_pattern-medium-autosomal-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-write_pedigree_to_pattern-medium-questions.txt" download title="Download bbq-write_pedigree_to_pattern-medium-questions.txt" aria-label="Click to download the BBQ Text file (bbq-write_pedigree_to_pattern-medium-questions.txt)">
+<a class="md-button custom-button bb_text" href="bbq-write_pedigree_to_pattern-medium-autosomal-questions.txt" download title="Download bbq-write_pedigree_to_pattern-medium-autosomal-questions.txt" aria-label="Click to download the BBQ Text file (bbq-write_pedigree_to_pattern-medium-autosomal-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-write_pedigree_to_pattern-medium.zip" download title="Download blackboard_export_zip-write_pedigree_to_pattern-medium.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-write_pedigree_to_pattern-medium.zip)">
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-write_pedigree_to_pattern-medium-autosomal.zip" download title="Download blackboard_export_zip-write_pedigree_to_pattern-medium-autosomal.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-write_pedigree_to_pattern-medium-autosomal.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-write_pedigree_to_pattern-medium.zip" download title="Download canvas_qti_v1_2-write_pedigree_to_pattern-medium.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-write_pedigree_to_pattern-medium.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-write_pedigree_to_pattern-medium-autosomal.zip" download title="Download canvas_qti_v1_2-write_pedigree_to_pattern-medium-autosomal.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-write_pedigree_to_pattern-medium-autosomal.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-write_pedigree_to_pattern-medium.html', '_blank')" title="View human_readable-write_pedigree_to_pattern-medium.html" aria-label="Click to view the Human-Readable TXT file (human_readable-write_pedigree_to_pattern-medium.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-write_pedigree_to_pattern-medium-autosomal.html', '_blank')" title="View human_readable-write_pedigree_to_pattern-medium-autosomal.html" aria-label="Click to view the Human-Readable TXT file (human_readable-write_pedigree_to_pattern-medium-autosomal.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
@@ -494,31 +494,31 @@ Students determine how multiple genes interact to produce phenotypes, including 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Inheritance Patterns from Pedigrees (Medium)
+      Autosomal Inheritance Patterns from Pedigrees (Medium)
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "genetics/topic05/downloads/selftest-write_pedigree_to_pattern-medium.html" %}
+  {% include "genetics/topic05/downloads/selftest-write_pedigree_to_pattern-medium-autosomal.html" %}
 
 </details>
 
 
-## Inheritance Patterns from Pedigrees (Rigorous)
+## Autosomal Inheritance Patterns from Pedigrees (Rigorous)
 
-<div id="write_pedigree_to_pattern-rigorous-button-container" class="button-container">
+<div id="write_pedigree_to_pattern-rigorous-autosomal-button-container" class="button-container">
 <span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span>
-<a class="md-button custom-button bb_text" href="bbq-write_pedigree_to_pattern-rigorous-questions.txt" download title="Download bbq-write_pedigree_to_pattern-rigorous-questions.txt" aria-label="Click to download the BBQ Text file (bbq-write_pedigree_to_pattern-rigorous-questions.txt)">
+<a class="md-button custom-button bb_text" href="bbq-write_pedigree_to_pattern-rigorous-autosomal-questions.txt" download title="Download bbq-write_pedigree_to_pattern-rigorous-autosomal-questions.txt" aria-label="Click to download the BBQ Text file (bbq-write_pedigree_to_pattern-rigorous-autosomal-questions.txt)">
     <i class="fa fa-download"></i>BBQ Text
 </a>
-<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-write_pedigree_to_pattern-rigorous.zip" download title="Download blackboard_export_zip-write_pedigree_to_pattern-rigorous.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-write_pedigree_to_pattern-rigorous.zip)">
+<a class="md-button custom-button bb_export" href="downloads/blackboard_export_zip-write_pedigree_to_pattern-rigorous-autosomal.zip" download title="Download blackboard_export_zip-write_pedigree_to_pattern-rigorous-autosomal.zip" aria-label="Click to download the Blackboard Ultra pool-export ZIP file (blackboard_export_zip-write_pedigree_to_pattern-rigorous-autosomal.zip)">
     <i class="fa fa-download"></i>Blackboard Ultra ZIP
 </a>
-<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-write_pedigree_to_pattern-rigorous.zip" download title="Download canvas_qti_v1_2-write_pedigree_to_pattern-rigorous.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-write_pedigree_to_pattern-rigorous.zip)">
+<a class="md-button custom-button canvas_qti" href="downloads/canvas_qti_v1_2-write_pedigree_to_pattern-rigorous-autosomal.zip" download title="Download canvas_qti_v1_2-write_pedigree_to_pattern-rigorous-autosomal.zip" aria-label="Click to download the Canvas/ADAPT QTI v1.2 file (canvas_qti_v1_2-write_pedigree_to_pattern-rigorous-autosomal.zip)">
     <i class="fa fa-download"></i>Canvas/ADAPT QTI v1.2
 </a>
-<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-write_pedigree_to_pattern-rigorous.html', '_blank')" title="View human_readable-write_pedigree_to_pattern-rigorous.html" aria-label="Click to view the Human-Readable TXT file (human_readable-write_pedigree_to_pattern-rigorous.html)">
+<button class="md-button custom-button human_read" onclick="window.open('downloads/human_readable-write_pedigree_to_pattern-rigorous-autosomal.html', '_blank')" title="View human_readable-write_pedigree_to_pattern-rigorous-autosomal.html" aria-label="Click to view the Human-Readable TXT file (human_readable-write_pedigree_to_pattern-rigorous-autosomal.html)">
     <i class="fa fa-eye"></i> Human-Readable TXT
 </button>
 </div><details>
@@ -527,13 +527,13 @@ Students determine how multiple genes interact to produce phenotypes, including 
        to show
     </span>
     <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Inheritance Patterns from Pedigrees (Rigorous)
+      Autosomal Inheritance Patterns from Pedigrees (Rigorous)
     </span>
     <span style='font-weight: normal;'>
       example problem
     </span>
   </summary>
-  {% include "genetics/topic05/downloads/selftest-write_pedigree_to_pattern-rigorous.html" %}
+  {% include "genetics/topic05/downloads/selftest-write_pedigree_to_pattern-rigorous-autosomal.html" %}
 
 </details>
 

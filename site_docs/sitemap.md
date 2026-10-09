@@ -7,7 +7,7 @@
 Browse the generated problem sets by subject and topic. Use your browser's Find command to search all problem-set titles on this page.
 For sortable results and subject, topic, and type filters, use the [Question Finder](question_finder.md).
 
-**476 problem sets**
+**482 problem sets**
 
 ## Biochemistry
 
@@ -277,12 +277,12 @@ For sortable results and subject, topic, and type filters, use the [Question Fin
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic05/">Epistatic F2 Ratios from Test-Cross Ratios (6 Choices)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic05/">Lethal Allele Cross Ratios and Survival Fractions</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic05/">Degrees of Dominance from Monohybrid Cross Results</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic05/">Pedigree Identification from Inheritance Patterns (Easy)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../genetics/topic05/">Inheritance Patterns from Pedigrees (Easy)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic05/">Inheritance Patterns from Pedigrees (Bonus)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic05/">Inheritance Patterns from Pedigrees (Easy)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic05/">Inheritance Patterns from Pedigrees (Medium)</a></span>
-- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic05/">Inheritance Patterns from Pedigrees (Rigorous)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic05/">Pedigrees from Autosomal Inheritance Patterns (Easy)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../genetics/topic05/">Autosomal Inheritance Patterns from Pedigrees (Easy)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic05/">Autosomal Inheritance Patterns from Pedigrees (Bonus)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic05/">Autosomal Inheritance Patterns from Pedigrees (Easy)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic05/">Autosomal Inheritance Patterns from Pedigrees (Medium)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic05/">Autosomal Inheritance Patterns from Pedigrees (Rigorous)</a></span>
 
 ### Chromosomal Inheritance
 
@@ -297,6 +297,12 @@ For sortable results and subject, topic, and type filters, use the [Question Fin
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic06/">Combined Autosomal Dominant and X-Linked Recessive Inheritance (Varied Outcomes)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic06/">Parent Genotypes in X-Linked Recessive Crosses</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic06/">Offspring Sex Distribution Using the Binomial Model</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic06/">Pedigree Identification from Inheritance Patterns (Easy)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-matching" title="Matching">Matching</abbr></span><a href="../genetics/topic06/">Inheritance Patterns from Pedigrees (Easy)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic06/">Inheritance Patterns from Pedigrees (Bonus)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic06/">Inheritance Patterns from Pedigrees (Easy)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic06/">Inheritance Patterns from Pedigrees (Medium)</a></span>
+- <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic06/">Inheritance Patterns from Pedigrees (Rigorous)</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic06/">X-Linked Eye Color Inheritance</a></span>
 - <span class="question-index-entry"><span class="question-type-badges"><abbr class="question-type question-type-mc" title="Multiple Choice">MC</abbr></span><a href="../genetics/topic06/">X-Linked Coat Color Probability</a></span>
 

@@ -697,20 +697,32 @@ bbq-who_killer_html-MEDIUM-5_suspects-questions.txt: RFLP Suspect Identification
   DNA Profiles (Medium, 5 Suspects, MC)
 bbq-wordle_peptides-FIB-questions.txt: Pentapeptide Sequences from Structures (Wordle
   Words, FiB)
+bbq-write_pattern_to_pedigree-easy-autosomal-questions.txt: Pedigrees from Autosomal
+  Inheritance Patterns (Easy, MC)
 bbq-write_pattern_to_pedigree-easy-questions.txt: Pedigree Identification from Inheritance
   Patterns (Easy, MC)
+bbq-write_pedigree_pattern_matching-easy-autosomal-questions.txt: Autosomal Inheritance
+  Patterns from Pedigrees (Easy, Matching)
 bbq-write_pedigree_pattern_matching-easy-questions.txt: Inheritance Patterns from
   Pedigrees (Easy, Matching)
+bbq-write_pedigree_to_pattern-bonus-autosomal-questions.txt: Autosomal Inheritance
+  Patterns from Pedigrees (Bonus, MC)
 bbq-write_pedigree_to_pattern-bonus-questions.txt: Inheritance Patterns from Pedigrees
   (Bonus, MC)
+bbq-write_pedigree_to_pattern-easy-autosomal-questions.txt: Autosomal Inheritance
+  Patterns from Pedigrees (Easy, MC)
 bbq-write_pedigree_to_pattern-easy-questions.txt: Inheritance Patterns from Pedigrees
   (Easy, MC)
+bbq-write_pedigree_to_pattern-medium-autosomal-questions.txt: Autosomal Inheritance
+  Patterns from Pedigrees (Medium, MC)
 bbq-write_pedigree_to_pattern-medium-questions.txt: Inheritance Patterns from Pedigrees
   (Medium, MC)
+bbq-write_pedigree_to_pattern-rigorous-autosomal-questions.txt: Autosomal Inheritance
+  Patterns from Pedigrees (Rigorous, MC)
 bbq-write_pedigree_to_pattern-rigorous-questions.txt: Inheritance Patterns from Pedigrees
   (Rigorous, MC)
 bbq-x_linked_reciprocal_cross-questions.txt: X-Linked Eye Color Inheritance (MC)
 bbq-x_linked_tortoiseshell-questions.txt: X-Linked Coat Color Probability (MC)
 bbq-z_score_google_sheet-questions.txt: Z-Scores in Google Sheets (MC)
 bbq-z_score_table_interp-questions.txt: Biodiversity Comparisons Using Z-Scores (MC)
-last edit: Thu Oct 01 22:46:46 2026
+last edit: Thu Oct  8 17:59:26 2026

@@ -5,7 +5,7 @@
 ## DBsubject('Genetics')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-09-30')
+## Date('2026-10-08')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -44,10 +44,10 @@ our @ALPHABET = ('A' .. 'Z');
     'having a similar position, structure, value, or purpose',
   ],
   'synapsis' => [
-    'process of pairing of homologous (maternal and paternal) chromosomes',
+    'process of pairing of <span style="color: #007576; font-weight:700;">homologous</span> (maternal and paternal) chromosomes',
     'the lengthwise pairing of <span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
     'the joining of the two <span style="color: #d40000; font-weight:700;">homologous chromosomes</span>',
-    'the matching-up of homologous pairs prior to their segregation',
+    'the matching-up of <span style="color: #007576; font-weight:700;">homologous</span> pairs prior to their segregation',
     '<span style="color: #d40000; font-weight:700;">homologous chromosomes</span> pair with their counterparts and remain bound',
     'pairing of <span style="color: #d40000; font-weight:700;">homologous chromosomes</span> prior to their separation into daughter cells',
   ],

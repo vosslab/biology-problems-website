@@ -5,7 +5,7 @@
 ## DBsubject('Biostatistics')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-09-30')
+## Date('2026-10-08')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -53,7 +53,7 @@ our @ALPHABET = ('A' .. 'Z');
   ],
   'null hypothesis, H<sub>0</sub>' => [
     'we attempt to find evidence against this hypothesis in our <span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> test',
-    'we want to <span style="color: #eb1601; font-weight:700;">faill to support</span> this hypothesis in our <span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> test',
+    'we want to <span style="color: #eb1601; font-weight:700;">fail to support</span> this hypothesis in our <span style="color: #aa6701; font-weight:700;">chi-square (&chi;&sup2;)</span> test',
     'this hypothesis makes it easier to calculate the expected values',
   ],
   'alternative hypothesis, H<sub>a</sub>' => [
