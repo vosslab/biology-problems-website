@@ -43,6 +43,15 @@
 
 ### Fixes and Maintenance
 
+- Recover a missing native converter by preparing QPM with Cargo before bank jobs.
+  Resolve its checkout from `QPM_ROOT` or the sibling default and use Cargo's reported
+  executable path instead of assuming `target/release`. Cargo reuses current builds.
+  Report dependency failures without a CLI traceback and retain existing self-tests.
+  Keep native preparation separate from WASM vendoring.
+- Validate native recovery from the missing release binary, then rerun
+  `source source_me.sh && ./build_site.py -H --cli`: 482 self-test files and the
+  manifest regenerated successfully. All 4,241 Python tests and `mkdocs build` pass;
+  an unavailable QPM checkout reports actionable instructions without a traceback.
 - Refresh the vendored QPM WASM from the corrected upstream package using
   `devel/vendor_qti_wasm.py`; retain the existing CSS isolation boundary.
 - Validate MC, MA, MATCH, ORDER, scientific tables, and molecular drawings in light

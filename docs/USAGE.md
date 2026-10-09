@@ -151,9 +151,10 @@ and `sitemap.xml`. Run the content workflow from the repo root:
 source source_me.sh && ./build_site.py
 ```
 
-Artifact generation invokes the native `bbq-converter` from the sibling
-`../qti-package-maker-rs/target/release/` checkout. Build that executable as described in
-[INSTALL.md](INSTALL.md) before running a build that generates self-tests.
+Artifact generation prepares the native `bbq-converter` with Cargo automatically from
+`QPM_ROOT`, defaulting to the sibling `../qti-package-maker-rs` checkout. Cargo supplies
+the executable path and rebuilds only missing or stale artifacts. See
+[INSTALL.md](INSTALL.md) for setup and recovery instructions.
 Self-test banks run concurrently using half of the detected CPU count (minimum one
 worker); each bank's complete log is printed together.
 

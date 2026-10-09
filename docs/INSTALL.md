@@ -8,8 +8,8 @@ serve or build the site from [site_docs/](../site_docs/) using
 
 - Python 3.12.
 - pip for installing dependencies from [pip_requirements.txt](../pip_requirements.txt).
-- The sibling `qti-package-maker-rs` checkout and its release `bbq-converter` binary to
-  regenerate native self-tests with `build_site.py`.
+- The `qti-package-maker-rs` checkout and Cargo to regenerate native self-tests.
+  BPW prepares the native executable automatically.
 - Node.js 24 or later and npm for browser asset refresh, Playwright tests, and screenshots.
 - Rust/Cargo for the native converter and canonical WebAssembly package build.
 - A JavaScript-enabled browser for on-demand package downloads. Vendored WebAssembly,
@@ -18,16 +18,15 @@ serve or build the site from [site_docs/](../site_docs/) using
 ## Install steps
 
 1. Clone the repository.
-2. Clone `qti-package-maker-rs` beside this repository. From that checkout, build the
-   converter required by content generation:
-   ```bash
-   cd ../qti-package-maker-rs
-   cargo build --locked --release -p qti-cli --bins
-   cd ../biology-problems-website
-   ```
-   The website build expects the executable at
-   `../qti-package-maker-rs/target/release/bbq-converter` and stops if it is missing or not
-   executable. There is no Python converter fallback.
+2. Clone `qti-package-maker-rs` beside this repository. For a different checkout location,
+   set `QPM_ROOT` to that directory; relative paths resolve from the BPW repository root.
+   Before native conversion, BPW runs `cargo build --locked --release -p qti-cli
+   --bin bbq-converter` in that checkout. Cargo reuses current artifacts and builds missing
+   or stale ones. BPW uses Cargo's reported executable path, respecting its configured
+   target directory. Preparation happens once before parallel bank conversion.
+   If Cargo or the checkout is unavailable, the build reports recovery instructions
+   and preserves existing self-tests. `mkdocs build` can still build the existing site.
+   Native preparation is separate from the manual WASM refresh below.
 3. From the website repo root, install dependencies:
    ```bash
    source source_me.sh && python3 -m pip install -r pip_requirements.txt

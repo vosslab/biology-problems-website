@@ -2,6 +2,7 @@
 
 import pathlib
 import subprocess
+import json
 
 import pytest
 
@@ -16,8 +17,39 @@ def test_native_converter_is_required(tmp_path: pathlib.Path, monkeypatch: pytes
 	repo.mkdir()
 	(repo / "bbq_converter.py").write_text("legacy converter")
 	monkeypatch.setattr(git_paths, "get_repo_root", lambda: str(repo))
-	with pytest.raises(FileNotFoundError, match="Required Rust BBQ converter"):
+	monkeypatch.delenv("QPM_ROOT", raising=False)
+	with pytest.raises(git_paths.NativeConverterUnavailableError, match="set QPM_ROOT"):
 		git_paths.find_native_bbq_converter()
+
+
+#============================================
+def test_native_converter_builds_configured_checkout(
+	tmp_path: pathlib.Path, monkeypatch: pytest.MonkeyPatch,
+) -> None:
+	"""A missing binary is recovered using Cargo's actual executable location."""
+	qpm = tmp_path / "qpm source"
+	qpm.mkdir()
+	(qpm / "Cargo.toml").write_text("[workspace]\n")
+	binary = tmp_path / "custom target" / "bbq-converter"
+	monkeypatch.setenv("QPM_ROOT", str(qpm))
+	monkeypatch.setattr(git_paths.shutil, "which", lambda name: "/tools/cargo")
+	calls = []
+
+	def build(command: list[str], **options: object) -> subprocess.CompletedProcess:
+		calls.append((command, options["cwd"]))
+		binary.parent.mkdir()
+		binary.write_text("built converter")
+		message = {"reason": "compiler-artifact", "target": {"name": "bbq-converter"},
+			"executable": str(binary)}
+		return subprocess.CompletedProcess(command, 0, json.dumps(message) + "\n")
+
+	monkeypatch.setattr(git_paths.subprocess, "run", build)
+	monkeypatch.setattr(git_paths, "get_repo_root", lambda: str(tmp_path))
+	assert git_paths.find_native_bbq_converter() == str(binary)
+	assert git_paths.find_native_bbq_converter() == str(binary)
+	assert len(calls) == 1
+	assert calls[0][1] == str(qpm)
+	git_paths._build_native_bbq_converter.cache_clear()
 
 
 #============================================

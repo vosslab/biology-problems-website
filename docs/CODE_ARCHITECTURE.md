@@ -16,6 +16,10 @@ CLI exposes one dependency-aware content build workflow.
   stale checks and output-owned stage entrypoints.
 - [bioproblems_site/file_write.py](../bioproblems_site/file_write.py): shared
   direct text-file writing for generated site files.
+- [bioproblems_site/git_paths.py](../bioproblems_site/git_paths.py): repository
+  discovery and native QPM preparation. Before conversion jobs, Cargo builds or
+  reuses the configured QPM checkout and reports the executable path; BPW invokes
+  that artifact directly. Native preparation is separate from WASM vendoring.
 - [bioproblems_site/mkdocs_styles.py](../bioproblems_site/mkdocs_styles.py): MkDocs
   post-build hook using `tinycss2` to scope copied website styles outside mounted
   QPM content. Root-only rules and asset declarations remain global; see

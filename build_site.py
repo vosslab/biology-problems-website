@@ -241,7 +241,11 @@ def main(arguments: list[str] | None = None) -> int:
 		return bbq_tui.run_app(scope)
 	timing = build_progress.PlainBuildTiming()
 	progress = build_progress.BuildProgress(timing.observe, threading.Event())
-	report = build_coordinator.build_site_with_timing(scope, progress)
+	try:
+		report = build_coordinator.build_site_with_timing(scope, progress)
+	except git_paths.NativeConverterUnavailableError as error:
+		print(f"Build incomplete: {error}", file=sys.stderr)
+		return 1
 	for stage_name, stage_seconds in report.stage_seconds.items():
 		stage_files = report.stage_files.get(stage_name, set())
 		stage_duration = bbq_runner.format_elapsed_time(stage_seconds)
