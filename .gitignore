@@ -22,10 +22,10 @@ bbq_converter.py
 /bbq_generation_errors.log
 /build_timing.jsonl
 QTI12-*/
+tests/playwright/_temp/
 
 # Byte-compiled / optimized / DLL files
 *.py[cod]
 
 site/
-report_*.txt
 test-results/
