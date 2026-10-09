@@ -13,23 +13,9 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 <a class="md-button custom-button webwork_pgml" href="downloads/protein_v_dna_gels-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Protein and Nucleic Acid Gel Electrophoresis Components
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-protein_v_dna_gels-questions.txt" data-bank-id="biotechnology/topic03/index.md:bbq-MATCH-protein_v_dna_gels-questions.txt">
-  {% include "biotechnology/topic03/downloads/selftest-MATCH-protein_v_dna_gels.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-protein_v_dna_gels-questions.txt" data-selftest="biotechnology/topic03/downloads/selftest-MATCH-protein_v_dna_gels.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Proteomics and Metabolomics Techniques from Descriptions
@@ -43,23 +29,9 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 <a class="md-button custom-button webwork_pgml" href="downloads/proteomics_v_metabolomics-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Proteomics and Metabolomics Techniques from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-proteomics_v_metabolomics-questions.txt" data-bank-id="biotechnology/topic03/index.md:bbq-MATCH-proteomics_v_metabolomics-questions.txt">
-  {% include "biotechnology/topic03/downloads/selftest-MATCH-proteomics_v_metabolomics.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-proteomics_v_metabolomics-questions.txt" data-selftest="biotechnology/topic03/downloads/selftest-MATCH-proteomics_v_metabolomics.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Protein Stability
@@ -73,23 +45,9 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 <a class="md-button custom-button webwork_pgml" href="downloads/protein_stability.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Protein Stability
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-protein_stability-questions.txt" data-bank-id="biotechnology/topic03/index.md:bbq-TFMS-protein_stability-questions.txt">
-  {% include "biotechnology/topic03/downloads/selftest-TFMS-protein_stability.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-protein_stability-questions.txt" data-selftest="biotechnology/topic03/downloads/selftest-TFMS-protein_stability.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Protein and Nucleic Acid Gel Electrophoresis Components
@@ -103,23 +61,9 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 <a class="md-button custom-button webwork_pgml" href="downloads/protein_v_dna_gels-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Protein and Nucleic Acid Gel Electrophoresis Components
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-protein_v_dna_gels-questions.txt" data-bank-id="biotechnology/topic03/index.md:bbq-WOMC-protein_v_dna_gels-questions.txt">
-  {% include "biotechnology/topic03/downloads/selftest-WOMC-protein_v_dna_gels.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-protein_v_dna_gels-questions.txt" data-selftest="biotechnology/topic03/downloads/selftest-WOMC-protein_v_dna_gels.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Proteomics and Metabolomics Techniques from Descriptions
@@ -133,23 +77,9 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 <a class="md-button custom-button webwork_pgml" href="downloads/proteomics_v_metabolomics-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Proteomics and Metabolomics Techniques from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-proteomics_v_metabolomics-questions.txt" data-bank-id="biotechnology/topic03/index.md:bbq-WOMC-proteomics_v_metabolomics-questions.txt">
-  {% include "biotechnology/topic03/downloads/selftest-WOMC-proteomics_v_metabolomics.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-proteomics_v_metabolomics-questions.txt" data-selftest="biotechnology/topic03/downloads/selftest-WOMC-proteomics_v_metabolomics.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Protein Net Charge at a Given pH
@@ -163,23 +93,9 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 <a class="md-button custom-button webwork_pgml" href="downloads/isoelectric_one_protein.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Protein Net Charge at a Given pH
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-isoelectric_one_protein-questions.txt" data-bank-id="biotechnology/topic03/index.md:bbq-isoelectric_one_protein-questions.txt">
-  {% include "biotechnology/topic03/downloads/selftest-isoelectric_one_protein.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-isoelectric_one_protein-questions.txt" data-selftest="biotechnology/topic03/downloads/selftest-isoelectric_one_protein.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Protein Molecular Weight from an SDS-PAGE Ladder
@@ -193,23 +109,9 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 <a class="md-button custom-button webwork_pgml" href="downloads/kaleidoscope_ladder_unknown_band.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Protein Molecular Weight from an SDS-PAGE Ladder
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-kaleidoscope_ladder_unknown_band-questions.txt" data-bank-id="biotechnology/topic03/index.md:bbq-kaleidoscope_ladder_unknown_band-questions.txt">
-  {% include "biotechnology/topic03/downloads/selftest-kaleidoscope_ladder_unknown_band.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-kaleidoscope_ladder_unknown_band-questions.txt" data-selftest="biotechnology/topic03/downloads/selftest-kaleidoscope_ladder_unknown_band.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Protein Molecular Weight from SDS-PAGE Migration
@@ -223,22 +125,8 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 <a class="md-button custom-button webwork_pgml" href="downloads/protein_gel_migration.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Protein Molecular Weight from SDS-PAGE Migration
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-protein_gel_migration-questions.txt" data-bank-id="biotechnology/topic03/index.md:bbq-protein_gel_migration-questions.txt">
-  {% include "biotechnology/topic03/downloads/selftest-protein_gel_migration.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-protein_gel_migration-questions.txt" data-selftest="biotechnology/topic03/downloads/selftest-protein_gel_migration.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

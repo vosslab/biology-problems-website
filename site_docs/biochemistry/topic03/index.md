@@ -15,23 +15,9 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 <a class="md-button custom-button webwork_pgml" href="downloads/amino_acids_properties-long_tables-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Amino Acid Properties (Structure Diagrams Included)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-amino_acids_properties-long_tables-questions.txt" data-bank-id="biochemistry/topic03/index.md:bbq-MATCH-amino_acids_properties-long_tables-questions.txt">
-  {% include "biochemistry/topic03/downloads/selftest-MATCH-amino_acids_properties-long_tables.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-amino_acids_properties-long_tables-questions.txt" data-selftest="biochemistry/topic03/downloads/selftest-MATCH-amino_acids_properties-long_tables.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Amino Acid Properties
@@ -45,23 +31,9 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 <a class="md-button custom-button webwork_pgml" href="downloads/amino_acids_properties-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Amino Acid Properties
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-amino_acids_properties-questions.txt" data-bank-id="biochemistry/topic03/index.md:bbq-MATCH-amino_acids_properties-questions.txt">
-  {% include "biochemistry/topic03/downloads/selftest-MATCH-amino_acids_properties.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-amino_acids_properties-questions.txt" data-selftest="biochemistry/topic03/downloads/selftest-MATCH-amino_acids_properties.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Amino Acid Properties (Structure Diagrams Included)
@@ -75,23 +47,9 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 <a class="md-button custom-button webwork_pgml" href="downloads/amino_acids_properties-long_tables-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Amino Acid Properties (Structure Diagrams Included)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-amino_acids_properties-long_tables-questions.txt" data-bank-id="biochemistry/topic03/index.md:bbq-WOMC-amino_acids_properties-long_tables-questions.txt">
-  {% include "biochemistry/topic03/downloads/selftest-WOMC-amino_acids_properties-long_tables.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-amino_acids_properties-long_tables-questions.txt" data-selftest="biochemistry/topic03/downloads/selftest-WOMC-amino_acids_properties-long_tables.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Amino Acid Properties
@@ -105,23 +63,9 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 <a class="md-button custom-button webwork_pgml" href="downloads/amino_acids_properties-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Amino Acid Properties
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-amino_acids_properties-questions.txt" data-bank-id="biochemistry/topic03/index.md:bbq-WOMC-amino_acids_properties-questions.txt">
-  {% include "biochemistry/topic03/downloads/selftest-WOMC-amino_acids_properties.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-amino_acids_properties-questions.txt" data-selftest="biochemistry/topic03/downloads/selftest-WOMC-amino_acids_properties.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Alanine Charge States at Different pH Values
@@ -135,23 +79,9 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 <a class="md-button custom-button webwork_pgml" href="downloads/alanine_protonation_states.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Alanine Charge States at Different pH Values
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-alanine_protonation_states-questions.txt" data-bank-id="biochemistry/topic03/index.md:bbq-alanine_protonation_states-questions.txt">
-  {% include "biochemistry/topic03/downloads/selftest-alanine_protonation_states.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-alanine_protonation_states-questions.txt" data-selftest="biochemistry/topic03/downloads/selftest-alanine_protonation_states.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Alpha-Amino Acid Identification from Structures
@@ -165,23 +95,9 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 <a class="md-button custom-button webwork_pgml" href="downloads/alpha_amino_acid_identification.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Alpha-Amino Acid Identification from Structures
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-alpha_amino_acid_identification-questions.txt" data-bank-id="biochemistry/topic03/index.md:bbq-alpha_amino_acid_identification-questions.txt">
-  {% include "biochemistry/topic03/downloads/selftest-alpha_amino_acid_identification.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-alpha_amino_acid_identification-questions.txt" data-selftest="biochemistry/topic03/downloads/selftest-alpha_amino_acid_identification.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Histidine Protonation States at Specific pH Values
@@ -195,23 +111,9 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 <a class="md-button custom-button webwork_pgml" href="downloads/histidine_protonation_states.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Histidine Protonation States at Specific pH Values
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-histidine_protonation_states-questions.txt" data-bank-id="biochemistry/topic03/index.md:bbq-histidine_protonation_states-questions.txt">
-  {% include "biochemistry/topic03/downloads/selftest-histidine_protonation_states.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-histidine_protonation_states-questions.txt" data-selftest="biochemistry/topic03/downloads/selftest-histidine_protonation_states.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Ionic Bond Formation in Amino Acid Side Chains
@@ -225,23 +127,9 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 <a class="md-button custom-button webwork_pgml" href="downloads/ionic_bond_amino_acids.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Ionic Bond Formation in Amino Acid Side Chains
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-ionic_bond_amino_acids-questions.txt" data-bank-id="biochemistry/topic03/index.md:bbq-ionic_bond_amino_acids-questions.txt">
-  {% include "biochemistry/topic03/downloads/selftest-ionic_bond_amino_acids.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-ionic_bond_amino_acids-questions.txt" data-selftest="biochemistry/topic03/downloads/selftest-ionic_bond_amino_acids.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Amino Acids from Chemical Structures (4 Choices)
@@ -254,23 +142,9 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-match_amino_acid_structures-4_choices-questions.txt" data-format="human_readable" data-filename="human_readable-match_amino_acid_structures-4_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Amino Acids from Chemical Structures (4 Choices)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-match_amino_acid_structures-4_choices-questions.txt" data-bank-id="biochemistry/topic03/index.md:bbq-match_amino_acid_structures-4_choices-questions.txt">
-  {% include "biochemistry/topic03/downloads/selftest-match_amino_acid_structures-4_choices.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-match_amino_acid_structures-4_choices-questions.txt" data-selftest="biochemistry/topic03/downloads/selftest-match_amino_acid_structures-4_choices.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Dipeptide Sequences from Structures
@@ -283,23 +157,9 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-polypeptide_fib_sequence-FIB-2aa-questions.txt" data-format="human_readable" data-filename="human_readable-polypeptide_fib_sequence-FIB-2aa.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Dipeptide Sequences from Structures
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-polypeptide_fib_sequence-FIB-2aa-questions.txt" data-bank-id="biochemistry/topic03/index.md:bbq-polypeptide_fib_sequence-FIB-2aa-questions.txt">
-  {% include "biochemistry/topic03/downloads/selftest-polypeptide_fib_sequence-FIB-2aa.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-polypeptide_fib_sequence-FIB-2aa-questions.txt" data-selftest="biochemistry/topic03/downloads/selftest-polypeptide_fib_sequence-FIB-2aa.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Dipeptide Sequences from Structures
@@ -312,23 +172,9 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-polypeptide_mc_sequence-2_amino_acids-questions.txt" data-format="human_readable" data-filename="human_readable-polypeptide_mc_sequence-2_amino_acids.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Dipeptide Sequences from Structures
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-polypeptide_mc_sequence-2_amino_acids-questions.txt" data-bank-id="biochemistry/topic03/index.md:bbq-polypeptide_mc_sequence-2_amino_acids-questions.txt">
-  {% include "biochemistry/topic03/downloads/selftest-polypeptide_mc_sequence-2_amino_acids.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-polypeptide_mc_sequence-2_amino_acids-questions.txt" data-selftest="biochemistry/topic03/downloads/selftest-polypeptide_mc_sequence-2_amino_acids.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Tripeptide Sequences from Structures
@@ -341,23 +187,9 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-polypeptide_mc_sequence-3_amino_acids-questions.txt" data-format="human_readable" data-filename="human_readable-polypeptide_mc_sequence-3_amino_acids.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Tripeptide Sequences from Structures
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-polypeptide_mc_sequence-3_amino_acids-questions.txt" data-bank-id="biochemistry/topic03/index.md:bbq-polypeptide_mc_sequence-3_amino_acids-questions.txt">
-  {% include "biochemistry/topic03/downloads/selftest-polypeptide_mc_sequence-3_amino_acids.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-polypeptide_mc_sequence-3_amino_acids-questions.txt" data-selftest="biochemistry/topic03/downloads/selftest-polypeptide_mc_sequence-3_amino_acids.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Tetrapeptide Sequences from Structures
@@ -370,23 +202,9 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-polypeptide_mc_sequence-4_amino_acids-questions.txt" data-format="human_readable" data-filename="human_readable-polypeptide_mc_sequence-4_amino_acids.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Tetrapeptide Sequences from Structures
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-polypeptide_mc_sequence-4_amino_acids-questions.txt" data-bank-id="biochemistry/topic03/index.md:bbq-polypeptide_mc_sequence-4_amino_acids-questions.txt">
-  {% include "biochemistry/topic03/downloads/selftest-polypeptide_mc_sequence-4_amino_acids.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-polypeptide_mc_sequence-4_amino_acids-questions.txt" data-selftest="biochemistry/topic03/downloads/selftest-polypeptide_mc_sequence-4_amino_acids.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Tetrapeptide Net Charge from pKa Values (5 Choices)
@@ -399,23 +217,9 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Tetrapeptide Net Charge from pKa Values (5 Choices)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-questions.txt" data-bank-id="biochemistry/topic03/index.md:bbq-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-questions.txt">
-  {% include "biochemistry/topic03/downloads/selftest-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-questions.txt" data-selftest="biochemistry/topic03/downloads/selftest-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Amino Acids from Chemical Structures
@@ -428,23 +232,9 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-which_amino_acid-FIB-questions.txt" data-format="human_readable" data-filename="human_readable-which_amino_acid-FIB.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Amino Acids from Chemical Structures
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-which_amino_acid-FIB-questions.txt" data-bank-id="biochemistry/topic03/index.md:bbq-which_amino_acid-FIB-questions.txt">
-  {% include "biochemistry/topic03/downloads/selftest-which_amino_acid-FIB.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-which_amino_acid-FIB-questions.txt" data-selftest="biochemistry/topic03/downloads/selftest-which_amino_acid-FIB.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Amino Acids from Chemical Structures (7 Choices)
@@ -457,23 +247,9 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-which_amino_acid-MC-7_choices-questions.txt" data-format="human_readable" data-filename="human_readable-which_amino_acid-MC-7_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Amino Acids from Chemical Structures (7 Choices)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-which_amino_acid-MC-7_choices-questions.txt" data-bank-id="biochemistry/topic03/index.md:bbq-which_amino_acid-MC-7_choices-questions.txt">
-  {% include "biochemistry/topic03/downloads/selftest-which_amino_acid-MC-7_choices.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-which_amino_acid-MC-7_choices-questions.txt" data-selftest="biochemistry/topic03/downloads/selftest-which_amino_acid-MC-7_choices.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Pentapeptide Sequences from Structures (Wordle Words)
@@ -486,22 +262,8 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-wordle_peptides-FIB-questions.txt" data-format="human_readable" data-filename="human_readable-wordle_peptides-FIB.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Pentapeptide Sequences from Structures (Wordle Words)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-wordle_peptides-FIB-questions.txt" data-bank-id="biochemistry/topic03/index.md:bbq-wordle_peptides-FIB-questions.txt">
-  {% include "biochemistry/topic03/downloads/selftest-wordle_peptides-FIB.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-wordle_peptides-FIB-questions.txt" data-selftest="biochemistry/topic03/downloads/selftest-wordle_peptides-FIB.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

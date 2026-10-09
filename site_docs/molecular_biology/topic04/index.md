@@ -12,23 +12,9 @@ Restriction enzymes, gel electrophoresis, and PCR.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-amplicon_copies-questions.txt" data-format="human_readable" data-filename="human_readable-amplicon_copies.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Amplicon Copy Number After PCR Rounds
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-amplicon_copies-questions.txt" data-bank-id="molecular_biology/topic04/index.md:bbq-amplicon_copies-questions.txt">
-  {% include "molecular_biology/topic04/downloads/selftest-amplicon_copies.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-amplicon_copies-questions.txt" data-selftest="molecular_biology/topic04/downloads/selftest-amplicon_copies.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## DNA Fragment Migration in Agarose Gel Electrophoresis (Closest/Farthest)
@@ -41,23 +27,9 @@ Restriction enzymes, gel electrophoresis, and PCR.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-dna_gel-closest_farthest_MC-questions.txt" data-format="human_readable" data-filename="human_readable-dna_gel-closest_farthest_MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      DNA Fragment Migration in Agarose Gel Electrophoresis (Closest/Farthest)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-dna_gel-closest_farthest_MC-questions.txt" data-bank-id="molecular_biology/topic04/index.md:bbq-dna_gel-closest_farthest_MC-questions.txt">
-  {% include "molecular_biology/topic04/downloads/selftest-dna_gel-closest_farthest_MC.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-dna_gel-closest_farthest_MC-questions.txt" data-selftest="molecular_biology/topic04/downloads/selftest-dna_gel-closest_farthest_MC.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## DNA Fragment Size from Agarose Gel Migration Data
@@ -70,23 +42,9 @@ Restriction enzymes, gel electrophoresis, and PCR.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt" data-format="human_readable" data-filename="human_readable-dna_gel-estimate_size-MC_or_NUM-num.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      DNA Fragment Size from Agarose Gel Migration Data
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt" data-bank-id="molecular_biology/topic04/index.md:bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt">
-  {% include "molecular_biology/topic04/downloads/selftest-dna_gel-estimate_size-MC_or_NUM-num.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt" data-selftest="molecular_biology/topic04/downloads/selftest-dna_gel-estimate_size-MC_or_NUM-num.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Inverse PCR Primer Selection (15 nt)
@@ -99,23 +57,9 @@ Restriction enzymes, gel electrophoresis, and PCR.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-inverse_pcr_design-len_15-questions.txt" data-format="human_readable" data-filename="human_readable-inverse_pcr_design-len_15.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Inverse PCR Primer Selection (15 nt)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-inverse_pcr_design-len_15-questions.txt" data-bank-id="molecular_biology/topic04/index.md:bbq-inverse_pcr_design-len_15-questions.txt">
-  {% include "molecular_biology/topic04/downloads/selftest-inverse_pcr_design-len_15.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-inverse_pcr_design-len_15-questions.txt" data-selftest="molecular_biology/topic04/downloads/selftest-inverse_pcr_design-len_15.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Isolated Fragment)
@@ -128,23 +72,9 @@ Restriction enzymes, gel electrophoresis, and PCR.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-linear_digest-len_12-sites_3-fragment-questions.txt" data-format="human_readable" data-filename="human_readable-linear_digest-len_12-sites_3-fragment.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Isolated Fragment)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-linear_digest-len_12-sites_3-fragment-questions.txt" data-bank-id="molecular_biology/topic04/index.md:bbq-linear_digest-len_12-sites_3-fragment-questions.txt">
-  {% include "molecular_biology/topic04/downloads/selftest-linear_digest-len_12-sites_3-fragment.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-linear_digest-len_12-sites_3-fragment-questions.txt" data-selftest="molecular_biology/topic04/downloads/selftest-linear_digest-len_12-sites_3-fragment.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Nested PCR Primer Pair Selection (24 nt)
@@ -157,23 +87,9 @@ Restriction enzymes, gel electrophoresis, and PCR.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-nested_pcr_design-len_24-questions.txt" data-format="human_readable" data-filename="human_readable-nested_pcr_design-len_24.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Nested PCR Primer Pair Selection (24 nt)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-nested_pcr_design-len_24-questions.txt" data-bank-id="molecular_biology/topic04/index.md:bbq-nested_pcr_design-len_24-questions.txt">
-  {% include "molecular_biology/topic04/downloads/selftest-nested_pcr_design-len_24.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-nested_pcr_design-len_24-questions.txt" data-selftest="molecular_biology/topic04/downloads/selftest-nested_pcr_design-len_24.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Restriction Enzyme Overhang Sequences
@@ -186,23 +102,9 @@ Restriction enzymes, gel electrophoresis, and PCR.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-overhang_sequence-mc-questions.txt" data-format="human_readable" data-filename="human_readable-overhang_sequence-mc.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Enzyme Overhang Sequences
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-overhang_sequence-mc-questions.txt" data-bank-id="molecular_biology/topic04/index.md:bbq-overhang_sequence-mc-questions.txt">
-  {% include "molecular_biology/topic04/downloads/selftest-overhang_sequence-mc.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-overhang_sequence-mc-questions.txt" data-selftest="molecular_biology/topic04/downloads/selftest-overhang_sequence-mc.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Restriction Enzyme Cut Types (5&#x27;, 3&#x27;, or Blunt)
@@ -215,23 +117,9 @@ Restriction enzymes, gel electrophoresis, and PCR.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-overhang_type-5_3_blunt-questions.txt" data-format="human_readable" data-filename="human_readable-overhang_type-5_3_blunt.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Enzyme Cut Types (5&#x27;, 3&#x27;, or Blunt)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-overhang_type-5_3_blunt-questions.txt" data-bank-id="molecular_biology/topic04/index.md:bbq-overhang_type-5_3_blunt-questions.txt">
-  {% include "molecular_biology/topic04/downloads/selftest-overhang_type-5_3_blunt.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-overhang_type-5_3_blunt-questions.txt" data-selftest="molecular_biology/topic04/downloads/selftest-overhang_type-5_3_blunt.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Palindromic DNA Sequence Completion
@@ -244,23 +132,9 @@ Restriction enzymes, gel electrophoresis, and PCR.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-palindrome_sequence_match-questions.txt" data-format="human_readable" data-filename="human_readable-palindrome_sequence_match.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Palindromic DNA Sequence Completion
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-palindrome_sequence_match-questions.txt" data-bank-id="molecular_biology/topic04/index.md:bbq-palindrome_sequence_match-questions.txt">
-  {% include "molecular_biology/topic04/downloads/selftest-palindrome_sequence_match.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-palindrome_sequence_match-questions.txt" data-selftest="molecular_biology/topic04/downloads/selftest-palindrome_sequence_match.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## PCR Primer Pair Selection from Double-Stranded DNA (36 bp Template, 9-nt Primers)
@@ -273,22 +147,8 @@ Restriction enzymes, gel electrophoresis, and PCR.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-pcr_design-36_bp-9_primer-questions.txt" data-format="human_readable" data-filename="human_readable-pcr_design-36_bp-9_primer.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      PCR Primer Pair Selection from Double-Stranded DNA (36 bp Template, 9-nt Primers)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-pcr_design-36_bp-9_primer-questions.txt" data-bank-id="molecular_biology/topic04/index.md:bbq-pcr_design-36_bp-9_primer-questions.txt">
-  {% include "molecular_biology/topic04/downloads/selftest-pcr_design-36_bp-9_primer.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-pcr_design-36_bp-9_primer-questions.txt" data-selftest="molecular_biology/topic04/downloads/selftest-pcr_design-36_bp-9_primer.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

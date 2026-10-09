@@ -12,23 +12,9 @@ Students prepare solutions from solids or stock reagents by calculating grams ne
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-solution-mass_concentration-numeric-questions.txt" data-format="human_readable" data-filename="human_readable-solution-mass_concentration-numeric.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Solute Mass from Mass Concentration
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-solution-mass_concentration-numeric-questions.txt" data-bank-id="laboratory/topic02/index.md:bbq-solution-mass_concentration-numeric-questions.txt">
-  {% include "laboratory/topic02/downloads/selftest-solution-mass_concentration-numeric.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-solution-mass_concentration-numeric-questions.txt" data-selftest="laboratory/topic02/downloads/selftest-solution-mass_concentration-numeric.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Mass for Weight/Volume Solutions
@@ -41,23 +27,9 @@ Students prepare solutions from solids or stock reagents by calculating grams ne
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-solution-mass_vol-numeric-questions.txt" data-format="human_readable" data-filename="human_readable-solution-mass_vol-numeric.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Mass for Weight/Volume Solutions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-solution-mass_vol-numeric-questions.txt" data-bank-id="laboratory/topic02/index.md:bbq-solution-mass_vol-numeric-questions.txt">
-  {% include "laboratory/topic02/downloads/selftest-solution-mass_vol-numeric.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-solution-mass_vol-numeric-questions.txt" data-selftest="laboratory/topic02/downloads/selftest-solution-mass_vol-numeric.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Mass for Solutions Using Molarity and Molecular Weight
@@ -70,23 +42,9 @@ Students prepare solutions from solids or stock reagents by calculating grams ne
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-solution-molarity-mol_weight-numeric-questions.txt" data-format="human_readable" data-filename="human_readable-solution-molarity-mol_weight-numeric.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Mass for Solutions Using Molarity and Molecular Weight
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-solution-molarity-mol_weight-numeric-questions.txt" data-bank-id="laboratory/topic02/index.md:bbq-solution-molarity-mol_weight-numeric-questions.txt">
-  {% include "laboratory/topic02/downloads/selftest-solution-molarity-mol_weight-numeric.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-solution-molarity-mol_weight-numeric-questions.txt" data-selftest="laboratory/topic02/downloads/selftest-solution-molarity-mol_weight-numeric.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Solute Volume for Percent Volume/Volume Solutions
@@ -99,22 +57,8 @@ Students prepare solutions from solids or stock reagents by calculating grams ne
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-solution-vol_vol-numeric-questions.txt" data-format="human_readable" data-filename="human_readable-solution-vol_vol-numeric.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Solute Volume for Percent Volume/Volume Solutions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-solution-vol_vol-numeric-questions.txt" data-bank-id="laboratory/topic02/index.md:bbq-solution-vol_vol-numeric-questions.txt">
-  {% include "laboratory/topic02/downloads/selftest-solution-vol_vol-numeric.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-solution-vol_vol-numeric-questions.txt" data-selftest="laboratory/topic02/downloads/selftest-solution-vol_vol-numeric.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

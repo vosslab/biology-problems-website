@@ -14,23 +14,9 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-D_to_L_Fischer_configuration-MC-with_hint-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-D_to_L_Fischer_configuration-MC-with_hint-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      D/L Monosaccharide Configurations from Fischer Projections
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-D_to_L_Fischer_configuration-MC-with_hint-5_choices-questions.txt" data-bank-id="biochemistry/topic10/index.md:bbq-D_to_L_Fischer_configuration-MC-with_hint-5_choices-questions.txt">
-  {% include "biochemistry/topic10/downloads/selftest-D_to_L_Fischer_configuration-MC-with_hint-5_choices.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-D_to_L_Fischer_configuration-MC-with_hint-5_choices-questions.txt" data-selftest="biochemistry/topic10/downloads/selftest-D_to_L_Fischer_configuration-MC-with_hint-5_choices.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## D/L Monosaccharide Configurations from Haworth Projections
@@ -43,23 +29,9 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-D_to_L_Haworth_configuration-MC-with_hint-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      D/L Monosaccharide Configurations from Haworth Projections
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt" data-bank-id="biochemistry/topic10/index.md:bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt">
-  {% include "biochemistry/topic10/downloads/selftest-D_to_L_Haworth_configuration-MC-with_hint-5_choices.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt" data-selftest="biochemistry/topic10/downloads/selftest-D_to_L_Haworth_configuration-MC-with_hint-5_choices.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Polysaccharides from Descriptions
@@ -73,23 +45,9 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 <a class="md-button custom-button webwork_pgml" href="downloads/polysaccharides-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Polysaccharides from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-polysaccharides-questions.txt" data-bank-id="biochemistry/topic10/index.md:bbq-MATCH-polysaccharides-questions.txt">
-  {% include "biochemistry/topic10/downloads/selftest-MATCH-polysaccharides.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-polysaccharides-questions.txt" data-selftest="biochemistry/topic10/downloads/selftest-MATCH-polysaccharides.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Polysaccharides from Descriptions
@@ -103,23 +61,9 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 <a class="md-button custom-button webwork_pgml" href="downloads/polysaccharides-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Polysaccharides from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-polysaccharides-questions.txt" data-bank-id="biochemistry/topic10/index.md:bbq-WOMC-polysaccharides-questions.txt">
-  {% include "biochemistry/topic10/downloads/selftest-WOMC-polysaccharides.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-polysaccharides-questions.txt" data-selftest="biochemistry/topic10/downloads/selftest-WOMC-polysaccharides.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Monosaccharide Classification from Fischer Projections
@@ -132,23 +76,9 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-classify_Fischer-MA-with_hint-questions.txt" data-format="human_readable" data-filename="human_readable-classify_Fischer-MA-with_hint.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Monosaccharide Classification from Fischer Projections
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-classify_Fischer-MA-with_hint-questions.txt" data-bank-id="biochemistry/topic10/index.md:bbq-classify_Fischer-MA-with_hint-questions.txt">
-  {% include "biochemistry/topic10/downloads/selftest-classify_Fischer-MA-with_hint.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-classify_Fischer-MA-with_hint-questions.txt" data-selftest="biochemistry/topic10/downloads/selftest-classify_Fischer-MA-with_hint.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Furanose Monosaccharide Classification from Haworth Projections
@@ -161,23 +91,9 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-classify_Haworth-MA-with_hint-FURAN-questions.txt" data-format="human_readable" data-filename="human_readable-classify_Haworth-MA-with_hint-FURAN.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Furanose Monosaccharide Classification from Haworth Projections
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-classify_Haworth-MA-with_hint-FURAN-questions.txt" data-bank-id="biochemistry/topic10/index.md:bbq-classify_Haworth-MA-with_hint-FURAN-questions.txt">
-  {% include "biochemistry/topic10/downloads/selftest-classify_Haworth-MA-with_hint-FURAN.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-classify_Haworth-MA-with_hint-FURAN-questions.txt" data-selftest="biochemistry/topic10/downloads/selftest-classify_Haworth-MA-with_hint-FURAN.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Pyranose Monosaccharide Classification from Haworth Projections
@@ -190,23 +106,9 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-classify_Haworth-MA-with_hint-PYRAN-questions.txt" data-format="human_readable" data-filename="human_readable-classify_Haworth-MA-with_hint-PYRAN.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Pyranose Monosaccharide Classification from Haworth Projections
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-classify_Haworth-MA-with_hint-PYRAN-questions.txt" data-bank-id="biochemistry/topic10/index.md:bbq-classify_Haworth-MA-with_hint-PYRAN-questions.txt">
-  {% include "biochemistry/topic10/downloads/selftest-classify_Haworth-MA-with_hint-PYRAN.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-classify_Haworth-MA-with_hint-PYRAN-questions.txt" data-selftest="biochemistry/topic10/downloads/selftest-classify_Haworth-MA-with_hint-PYRAN.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Furanose Haworth Projections from Fischer Projections
@@ -219,23 +121,9 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Furanose Haworth Projections from Fischer Projections
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-questions.txt" data-bank-id="biochemistry/topic10/index.md:bbq-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-questions.txt">
-  {% include "biochemistry/topic10/downloads/selftest-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-questions.txt" data-selftest="biochemistry/topic10/downloads/selftest-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Pyranose Haworth Projections from Fischer Projections
@@ -248,23 +136,9 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Pyranose Haworth Projections from Fischer Projections
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices-questions.txt" data-bank-id="biochemistry/topic10/index.md:bbq-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices-questions.txt">
-  {% include "biochemistry/topic10/downloads/selftest-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices-questions.txt" data-selftest="biochemistry/topic10/downloads/selftest-convert_Fischer_to_Haworth-MC-with_hint-PYRAN-5_choices.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Furanose Fischer Projections from Haworth Projections
@@ -277,23 +151,9 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Furanose Fischer Projections from Haworth Projections
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-questions.txt" data-bank-id="biochemistry/topic10/index.md:bbq-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-questions.txt">
-  {% include "biochemistry/topic10/downloads/selftest-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-questions.txt" data-selftest="biochemistry/topic10/downloads/selftest-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Pyranose Fischer Projections from Haworth Projections
@@ -306,22 +166,8 @@ Students classify monosaccharides using Fischer and Haworth projections, identif
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Pyranose Fischer Projections from Haworth Projections
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-questions.txt" data-bank-id="biochemistry/topic10/index.md:bbq-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-questions.txt">
-  {% include "biochemistry/topic10/downloads/selftest-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices-questions.txt" data-selftest="biochemistry/topic10/downloads/selftest-convert_Haworth_to_Fischer-MC-with_hint-PYRAN-5_choices.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

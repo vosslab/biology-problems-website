@@ -12,23 +12,9 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-RT-qPCR-questions.txt" data-format="human_readable" data-filename="human_readable-RT-qPCR.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Gene Expression Fold Change from RT-qPCR Data
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-RT-qPCR-questions.txt" data-bank-id="molecular_biology/topic05/index.md:bbq-RT-qPCR-questions.txt">
-  {% include "molecular_biology/topic05/downloads/selftest-RT-qPCR.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-RT-qPCR-questions.txt" data-selftest="molecular_biology/topic05/downloads/selftest-RT-qPCR.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Long-Distance PCR
@@ -42,23 +28,9 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 <a class="md-button custom-button webwork_pgml" href="downloads/long_run_pcr.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Long-Distance PCR
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-long_run_pcr-questions.txt" data-bank-id="molecular_biology/topic05/index.md:bbq-TFMS-long_run_pcr-questions.txt">
-  {% include "molecular_biology/topic05/downloads/selftest-TFMS-long_run_pcr.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-long_run_pcr-questions.txt" data-selftest="molecular_biology/topic05/downloads/selftest-TFMS-long_run_pcr.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## PCR Components
@@ -72,23 +44,9 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 <a class="md-button custom-button webwork_pgml" href="downloads/pcr_components.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      PCR Components
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-pcr_components-questions.txt" data-bank-id="molecular_biology/topic05/index.md:bbq-TFMS-pcr_components-questions.txt">
-  {% include "molecular_biology/topic05/downloads/selftest-TFMS-pcr_components.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-pcr_components-questions.txt" data-selftest="molecular_biology/topic05/downloads/selftest-TFMS-pcr_components.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Efficient PCR Primers
@@ -102,23 +60,9 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 <a class="md-button custom-button webwork_pgml" href="downloads/pcr_primers.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Efficient PCR Primers
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-pcr_primers-questions.txt" data-bank-id="molecular_biology/topic05/index.md:bbq-TFMS-pcr_primers-questions.txt">
-  {% include "molecular_biology/topic05/downloads/selftest-TFMS-pcr_primers.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-pcr_primers-questions.txt" data-selftest="molecular_biology/topic05/downloads/selftest-TFMS-pcr_primers.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## PCR Step Order
@@ -132,23 +76,9 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 <a class="md-button custom-button webwork_pgml" href="downloads/pcr_step_order.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      PCR Step Order
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-pcr_step_order-questions.txt" data-bank-id="molecular_biology/topic05/index.md:bbq-TFMS-pcr_step_order-questions.txt">
-  {% include "molecular_biology/topic05/downloads/selftest-TFMS-pcr_step_order.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-pcr_step_order-questions.txt" data-selftest="molecular_biology/topic05/downloads/selftest-TFMS-pcr_step_order.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Degenerate Primer Codes from Sequence Alignments
@@ -161,23 +91,9 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" data-format="human_readable" data-filename="human_readable-consensus_sequence_FIB-arbitrary_code.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Degenerate Primer Codes from Sequence Alignments
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" data-bank-id="molecular_biology/topic05/index.md:bbq-consensus_sequence_FIB-arbitrary_code-questions.txt">
-  {% include "molecular_biology/topic05/downloads/selftest-consensus_sequence_FIB-arbitrary_code.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" data-selftest="molecular_biology/topic05/downloads/selftest-consensus_sequence_FIB-arbitrary_code.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Consensus Sequences from Alignments (Easy)
@@ -190,23 +106,9 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-consensus_sequence_FIB-easy-questions.txt" data-format="human_readable" data-filename="human_readable-consensus_sequence_FIB-easy.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Consensus Sequences from Alignments (Easy)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-consensus_sequence_FIB-easy-questions.txt" data-bank-id="molecular_biology/topic05/index.md:bbq-consensus_sequence_FIB-easy-questions.txt">
-  {% include "molecular_biology/topic05/downloads/selftest-consensus_sequence_FIB-easy.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-consensus_sequence_FIB-easy-questions.txt" data-selftest="molecular_biology/topic05/downloads/selftest-consensus_sequence_FIB-easy.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Consensus Sequences from Alignments (Hard)
@@ -219,23 +121,9 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-consensus_sequence_FIB-hard-questions.txt" data-format="human_readable" data-filename="human_readable-consensus_sequence_FIB-hard.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Consensus Sequences from Alignments (Hard)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-consensus_sequence_FIB-hard-questions.txt" data-bank-id="molecular_biology/topic05/index.md:bbq-consensus_sequence_FIB-hard-questions.txt">
-  {% include "molecular_biology/topic05/downloads/selftest-consensus_sequence_FIB-hard.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-consensus_sequence_FIB-hard-questions.txt" data-selftest="molecular_biology/topic05/downloads/selftest-consensus_sequence_FIB-hard.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Consensus Sequences from Alignments
@@ -248,22 +136,8 @@ Gene cloning, DNA sequencing methods, and RT-qPCR.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-consensus_sequence_MC-questions.txt" data-format="human_readable" data-filename="human_readable-consensus_sequence_MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Consensus Sequences from Alignments
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-consensus_sequence_MC-questions.txt" data-bank-id="molecular_biology/topic05/index.md:bbq-consensus_sequence_MC-questions.txt">
-  {% include "molecular_biology/topic05/downloads/selftest-consensus_sequence_MC.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-consensus_sequence_MC-questions.txt" data-selftest="molecular_biology/topic05/downloads/selftest-consensus_sequence_MC.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

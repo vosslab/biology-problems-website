@@ -15,23 +15,9 @@ Students calculate allele and genotype frequencies in populations, apply the Har
 <a class="md-button custom-button webwork_pgml" href="downloads/population_genetics_terms-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Population Genetics Terms from Definitions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-population_genetics_terms-questions.txt" data-bank-id="genetics/topic10/index.md:bbq-MATCH-population_genetics_terms-questions.txt">
-  {% include "genetics/topic10/downloads/selftest-MATCH-population_genetics_terms.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-population_genetics_terms-questions.txt" data-selftest="genetics/topic10/downloads/selftest-MATCH-population_genetics_terms.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Hardy-Weinberg Equilibrium Conditions
@@ -45,23 +31,9 @@ Students calculate allele and genotype frequencies in populations, apply the Har
 <a class="md-button custom-button webwork_pgml" href="downloads/h-w_non-evolve_criteria.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Hardy-Weinberg Equilibrium Conditions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-h-w_non-evolve_criteria-questions.txt" data-bank-id="genetics/topic10/index.md:bbq-TFMS-h-w_non-evolve_criteria-questions.txt">
-  {% include "genetics/topic10/downloads/selftest-TFMS-h-w_non-evolve_criteria.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-h-w_non-evolve_criteria-questions.txt" data-selftest="genetics/topic10/downloads/selftest-TFMS-h-w_non-evolve_criteria.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Population Genetics Terms from Definitions
@@ -75,23 +47,9 @@ Students calculate allele and genotype frequencies in populations, apply the Har
 <a class="md-button custom-button webwork_pgml" href="downloads/population_genetics_terms-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Population Genetics Terms from Definitions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-population_genetics_terms-questions.txt" data-bank-id="genetics/topic10/index.md:bbq-WOMC-population_genetics_terms-questions.txt">
-  {% include "genetics/topic10/downloads/selftest-WOMC-population_genetics_terms.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-population_genetics_terms-questions.txt" data-selftest="genetics/topic10/downloads/selftest-WOMC-population_genetics_terms.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Hardy-Weinberg Variables from Population Data
@@ -104,23 +62,9 @@ Students calculate allele and genotype frequencies in populations, apply the Har
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-hardy_weinberg_mc_type-questions.txt" data-format="human_readable" data-filename="human_readable-hardy_weinberg_mc_type.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Hardy-Weinberg Variables from Population Data
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-hardy_weinberg_mc_type-questions.txt" data-bank-id="genetics/topic10/index.md:bbq-hardy_weinberg_mc_type-questions.txt">
-  {% include "genetics/topic10/downloads/selftest-hardy_weinberg_mc_type.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-hardy_weinberg_mc_type-questions.txt" data-selftest="genetics/topic10/downloads/selftest-hardy_weinberg_mc_type.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Hardy-Weinberg Allele and Genotype Frequencies from Population Data
@@ -133,22 +77,8 @@ Students calculate allele and genotype frequencies in populations, apply the Har
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-hardy_weinberg_numeric-NUM-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-hardy_weinberg_numeric-NUM-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Hardy-Weinberg Allele and Genotype Frequencies from Population Data
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-hardy_weinberg_numeric-NUM-5_choices-questions.txt" data-bank-id="genetics/topic10/index.md:bbq-hardy_weinberg_numeric-NUM-5_choices-questions.txt">
-  {% include "genetics/topic10/downloads/selftest-hardy_weinberg_numeric-NUM-5_choices.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-hardy_weinberg_numeric-NUM-5_choices-questions.txt" data-selftest="genetics/topic10/downloads/selftest-hardy_weinberg_numeric-NUM-5_choices.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

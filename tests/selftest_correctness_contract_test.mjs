@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
 
-function loadProgress() {
+function loadQuestions() {
 	const context = {
 		URL,
 		window: {
@@ -21,7 +21,7 @@ function loadProgress() {
 			},
 		},
 		document: {
-			currentScript: { src: 'https://example.org/assets/scripts/selftest_progress.js' },
+			currentScript: { src: 'https://example.org/assets/scripts/selftest_reroll.js' },
 			readyState: 'loading',
 			addEventListener() {},
 			getElementById() {
@@ -36,7 +36,7 @@ function loadProgress() {
 	context.window.document = context.document;
 	context.window.window = context.window;
 	vm.createContext(context);
-	const source = fs.readFileSync('site_docs/assets/scripts/selftest_progress.js', 'utf8');
+	const source = fs.readFileSync('site_docs/assets/scripts/selftest_reroll.js', 'utf8');
 	vm.runInContext(source, context);
 	return context.module.exports;
 }
@@ -45,7 +45,7 @@ function result(text) {
 	return { textContent: text };
 }
 
-const api = loadProgress();
+const api = loadQuestions();
 
 assert.equal(api.classifyResultElement(result('CORRECT')), 'full-correct');
 assert.equal(api.classifyResultElement(result('incorrect')), 'incorrect');

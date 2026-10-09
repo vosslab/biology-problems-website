@@ -15,23 +15,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <a class="md-button custom-button webwork_pgml" href="downloads/meiosis_prophase_1-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Meiosis Prophase I Stages from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-meiosis_prophase_1-questions.txt" data-bank-id="genetics/topic06/index.md:bbq-MATCH-meiosis_prophase_1-questions.txt">
-  {% include "genetics/topic06/downloads/selftest-MATCH-meiosis_prophase_1.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-meiosis_prophase_1-questions.txt" data-selftest="genetics/topic06/downloads/selftest-MATCH-meiosis_prophase_1.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Meiosis Terms from Definitions
@@ -45,23 +31,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <a class="md-button custom-button webwork_pgml" href="downloads/meiosis_terms-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Meiosis Terms from Definitions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-meiosis_terms-questions.txt" data-bank-id="genetics/topic06/index.md:bbq-MATCH-meiosis_terms-questions.txt">
-  {% include "genetics/topic06/downloads/selftest-MATCH-meiosis_terms.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-meiosis_terms-questions.txt" data-selftest="genetics/topic06/downloads/selftest-MATCH-meiosis_terms.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Sex Determination Systems from Descriptions
@@ -75,23 +47,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <a class="md-button custom-button webwork_pgml" href="downloads/sex_determination-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Sex Determination Systems from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-sex_determination-questions.txt" data-bank-id="genetics/topic06/index.md:bbq-MATCH-sex_determination-questions.txt">
-  {% include "genetics/topic06/downloads/selftest-MATCH-sex_determination.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-sex_determination-questions.txt" data-selftest="genetics/topic06/downloads/selftest-MATCH-sex_determination.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Mitosis and Meiosis
@@ -105,23 +63,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <a class="md-button custom-button webwork_pgml" href="downloads/mitosis_and_meiosis.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Mitosis and Meiosis
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-mitosis_and_meiosis-questions.txt" data-bank-id="genetics/topic06/index.md:bbq-TFMS-mitosis_and_meiosis-questions.txt">
-  {% include "genetics/topic06/downloads/selftest-TFMS-mitosis_and_meiosis.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-mitosis_and_meiosis-questions.txt" data-selftest="genetics/topic06/downloads/selftest-TFMS-mitosis_and_meiosis.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Meiosis Prophase I Stages from Descriptions
@@ -135,23 +79,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <a class="md-button custom-button webwork_pgml" href="downloads/meiosis_prophase_1-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Meiosis Prophase I Stages from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-meiosis_prophase_1-questions.txt" data-bank-id="genetics/topic06/index.md:bbq-WOMC-meiosis_prophase_1-questions.txt">
-  {% include "genetics/topic06/downloads/selftest-WOMC-meiosis_prophase_1.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-meiosis_prophase_1-questions.txt" data-selftest="genetics/topic06/downloads/selftest-WOMC-meiosis_prophase_1.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Meiosis Terms from Definitions
@@ -165,23 +95,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <a class="md-button custom-button webwork_pgml" href="downloads/meiosis_terms-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Meiosis Terms from Definitions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-meiosis_terms-questions.txt" data-bank-id="genetics/topic06/index.md:bbq-WOMC-meiosis_terms-questions.txt">
-  {% include "genetics/topic06/downloads/selftest-WOMC-meiosis_terms.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-meiosis_terms-questions.txt" data-selftest="genetics/topic06/downloads/selftest-WOMC-meiosis_terms.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Sex Determination Systems from Descriptions
@@ -195,23 +111,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <a class="md-button custom-button webwork_pgml" href="downloads/sex_determination-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Sex Determination Systems from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-sex_determination-questions.txt" data-bank-id="genetics/topic06/index.md:bbq-WOMC-sex_determination-questions.txt">
-  {% include "genetics/topic06/downloads/selftest-WOMC-sex_determination.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-sex_determination-questions.txt" data-selftest="genetics/topic06/downloads/selftest-WOMC-sex_determination.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Combined Autosomal Dominant and X-Linked Recessive Inheritance (Both Disorders)
@@ -224,23 +126,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-dominant_and_X-linked_recessive-questions.txt" data-format="human_readable" data-filename="human_readable-dominant_and_X-linked_recessive.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Combined Autosomal Dominant and X-Linked Recessive Inheritance (Both Disorders)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-dominant_and_X-linked_recessive-questions.txt" data-bank-id="genetics/topic06/index.md:bbq-dominant_and_X-linked_recessive-questions.txt">
-  {% include "genetics/topic06/downloads/selftest-dominant_and_X-linked_recessive.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-dominant_and_X-linked_recessive-questions.txt" data-selftest="genetics/topic06/downloads/selftest-dominant_and_X-linked_recessive.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Combined Autosomal Dominant and X-Linked Recessive Inheritance (Varied Outcomes)
@@ -253,23 +141,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-dominant_and_X-linked_recessive_variations-questions.txt" data-format="human_readable" data-filename="human_readable-dominant_and_X-linked_recessive_variations.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Combined Autosomal Dominant and X-Linked Recessive Inheritance (Varied Outcomes)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-dominant_and_X-linked_recessive_variations-questions.txt" data-bank-id="genetics/topic06/index.md:bbq-dominant_and_X-linked_recessive_variations-questions.txt">
-  {% include "genetics/topic06/downloads/selftest-dominant_and_X-linked_recessive_variations.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-dominant_and_X-linked_recessive_variations-questions.txt" data-selftest="genetics/topic06/downloads/selftest-dominant_and_X-linked_recessive_variations.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Parent Genotypes in X-Linked Recessive Crosses
@@ -283,23 +157,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <a class="md-button custom-button webwork_pgml" href="downloads/poisson_flies.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Parent Genotypes in X-Linked Recessive Crosses
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-poisson_flies-questions.txt" data-bank-id="genetics/topic06/index.md:bbq-poisson_flies-questions.txt">
-  {% include "genetics/topic06/downloads/selftest-poisson_flies.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-poisson_flies-questions.txt" data-selftest="genetics/topic06/downloads/selftest-poisson_flies.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Offspring Sex Distribution Using the Binomial Model
@@ -312,23 +172,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-probabiliy_of_progeny-questions.txt" data-format="human_readable" data-filename="human_readable-probabiliy_of_progeny.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Offspring Sex Distribution Using the Binomial Model
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-probabiliy_of_progeny-questions.txt" data-bank-id="genetics/topic06/index.md:bbq-probabiliy_of_progeny-questions.txt">
-  {% include "genetics/topic06/downloads/selftest-probabiliy_of_progeny.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-probabiliy_of_progeny-questions.txt" data-selftest="genetics/topic06/downloads/selftest-probabiliy_of_progeny.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Pedigree Identification from Inheritance Patterns (Easy)
@@ -341,23 +187,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-write_pattern_to_pedigree-easy-questions.txt" data-format="human_readable" data-filename="human_readable-write_pattern_to_pedigree-easy.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Pedigree Identification from Inheritance Patterns (Easy)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-write_pattern_to_pedigree-easy-questions.txt" data-bank-id="genetics/topic06/index.md:bbq-write_pattern_to_pedigree-easy-questions.txt">
-  {% include "genetics/topic06/downloads/selftest-write_pattern_to_pedigree-easy.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-write_pattern_to_pedigree-easy-questions.txt" data-selftest="genetics/topic06/downloads/selftest-write_pattern_to_pedigree-easy.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Inheritance Patterns from Pedigrees (Easy)
@@ -370,23 +202,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-write_pedigree_pattern_matching-easy-questions.txt" data-format="human_readable" data-filename="human_readable-write_pedigree_pattern_matching-easy.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Inheritance Patterns from Pedigrees (Easy)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-write_pedigree_pattern_matching-easy-questions.txt" data-bank-id="genetics/topic06/index.md:bbq-write_pedigree_pattern_matching-easy-questions.txt">
-  {% include "genetics/topic06/downloads/selftest-write_pedigree_pattern_matching-easy.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-write_pedigree_pattern_matching-easy-questions.txt" data-selftest="genetics/topic06/downloads/selftest-write_pedigree_pattern_matching-easy.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Inheritance Patterns from Pedigrees (Bonus)
@@ -399,23 +217,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-write_pedigree_to_pattern-bonus-questions.txt" data-format="human_readable" data-filename="human_readable-write_pedigree_to_pattern-bonus.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Inheritance Patterns from Pedigrees (Bonus)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-write_pedigree_to_pattern-bonus-questions.txt" data-bank-id="genetics/topic06/index.md:bbq-write_pedigree_to_pattern-bonus-questions.txt">
-  {% include "genetics/topic06/downloads/selftest-write_pedigree_to_pattern-bonus.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-write_pedigree_to_pattern-bonus-questions.txt" data-selftest="genetics/topic06/downloads/selftest-write_pedigree_to_pattern-bonus.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Inheritance Patterns from Pedigrees (Easy)
@@ -428,23 +232,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-write_pedigree_to_pattern-easy-questions.txt" data-format="human_readable" data-filename="human_readable-write_pedigree_to_pattern-easy.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Inheritance Patterns from Pedigrees (Easy)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-write_pedigree_to_pattern-easy-questions.txt" data-bank-id="genetics/topic06/index.md:bbq-write_pedigree_to_pattern-easy-questions.txt">
-  {% include "genetics/topic06/downloads/selftest-write_pedigree_to_pattern-easy.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-write_pedigree_to_pattern-easy-questions.txt" data-selftest="genetics/topic06/downloads/selftest-write_pedigree_to_pattern-easy.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Inheritance Patterns from Pedigrees (Medium)
@@ -457,23 +247,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-write_pedigree_to_pattern-medium-questions.txt" data-format="human_readable" data-filename="human_readable-write_pedigree_to_pattern-medium.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Inheritance Patterns from Pedigrees (Medium)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-write_pedigree_to_pattern-medium-questions.txt" data-bank-id="genetics/topic06/index.md:bbq-write_pedigree_to_pattern-medium-questions.txt">
-  {% include "genetics/topic06/downloads/selftest-write_pedigree_to_pattern-medium.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-write_pedigree_to_pattern-medium-questions.txt" data-selftest="genetics/topic06/downloads/selftest-write_pedigree_to_pattern-medium.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Inheritance Patterns from Pedigrees (Rigorous)
@@ -486,23 +262,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-write_pedigree_to_pattern-rigorous-questions.txt" data-format="human_readable" data-filename="human_readable-write_pedigree_to_pattern-rigorous.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Inheritance Patterns from Pedigrees (Rigorous)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-write_pedigree_to_pattern-rigorous-questions.txt" data-bank-id="genetics/topic06/index.md:bbq-write_pedigree_to_pattern-rigorous-questions.txt">
-  {% include "genetics/topic06/downloads/selftest-write_pedigree_to_pattern-rigorous.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-write_pedigree_to_pattern-rigorous-questions.txt" data-selftest="genetics/topic06/downloads/selftest-write_pedigree_to_pattern-rigorous.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## X-Linked Eye Color Inheritance
@@ -515,23 +277,9 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-x_linked_reciprocal_cross-questions.txt" data-format="human_readable" data-filename="human_readable-x_linked_reciprocal_cross.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      X-Linked Eye Color Inheritance
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-x_linked_reciprocal_cross-questions.txt" data-bank-id="genetics/topic06/index.md:bbq-x_linked_reciprocal_cross-questions.txt">
-  {% include "genetics/topic06/downloads/selftest-x_linked_reciprocal_cross.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-x_linked_reciprocal_cross-questions.txt" data-selftest="genetics/topic06/downloads/selftest-x_linked_reciprocal_cross.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## X-Linked Coat Color Probability
@@ -544,22 +292,8 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-x_linked_tortoiseshell-questions.txt" data-format="human_readable" data-filename="human_readable-x_linked_tortoiseshell.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      X-Linked Coat Color Probability
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-x_linked_tortoiseshell-questions.txt" data-bank-id="genetics/topic06/index.md:bbq-x_linked_tortoiseshell-questions.txt">
-  {% include "genetics/topic06/downloads/selftest-x_linked_tortoiseshell.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-x_linked_tortoiseshell-questions.txt" data-selftest="genetics/topic06/downloads/selftest-x_linked_tortoiseshell.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

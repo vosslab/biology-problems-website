@@ -24,6 +24,46 @@ authoritative code or contract document, rather than a person.
 
 ## Software design
 
+### One lifecycle owns dynamic self-tests
+
+**Decision.** Use ordinary empty `.qti-selftest` containers and one browser
+lifecycle to generate, mount, grade, replace, and advance questions. The
+existing `selftest_reroll.js` filename remains the lifecycle owner. Progress and
+streak modules consume its DOM events rather than wrapping generated checkers.
+
+**Why.** Initial questions, replacement versions, grading, and automatic
+advancement need the same lifecycle. Separate static-page and reroll paths made
+that behavior diverge as questions became dynamic.
+
+**Consequence.** The first question generates on each page visit; later
+containers generate on request or after a fully correct answer. A 500 ms
+feedback pause runs while the next question loads. The active question alone is
+replaced by **New version**, while earlier work remains available during the
+visit.
+
+**Owner.** [../site_docs/assets/scripts/selftest_reroll.js](../site_docs/assets/scripts/selftest_reroll.js)
+and [../bioproblems_site/topic_page.py](../bioproblems_site/topic_page.py)
+
+### BBQ filenames identify lightweight progress
+
+**Decision.** Store browser completion by the BBQ filename basename and retain
+the existing daily streak rules. CRCs remain generated-question identifiers, not
+progress keys. The site stores no attempt history, migration data, authoritative
+record, or grade.
+
+**Why.** A filename already identifies the problem set students are practicing.
+Any generated version demonstrates success with that set, while progress and
+streaks remain recognition for voluntary practice rather than academic records.
+
+**Consequence.** Completion of version A marks the shared BBQ set complete for
+version B and later visits. A fresh page visit still starts at its first
+container regardless of saved completion. Browser storage uses
+`selftest_progress_v2`; CRC-keyed v1 data is not migrated. Dynamic questions
+still publish the grading events used by progress and streak subscribers.
+
+**Owner.** [../site_docs/assets/scripts/selftest_progress.js](../site_docs/assets/scripts/selftest_progress.js)
+and [../site_docs/assets/scripts/streak.js](../site_docs/assets/scripts/streak.js)
+
 ### QPM owns browser conversion semantics
 
 **Decision.** QPM owns BBQ parsing, question identity, grading, render planning, and finalization.

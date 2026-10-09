@@ -1,125 +1,114 @@
-// Regression: a reroll must give a fresh attempt without sharing another CRC's completion.
-// Uses the published bank and real vendored WASM; only random seeds are controlled.
-import { test, expect } from "@playwright/test";
+// Dynamic self-test contract. Selectors here describe the student-visible
+// container contract in selftest_reroll.js: an empty body is populated on
+// demand, its header owns the completion badge and version button, and the
+// status region reports readiness.
+import { expect, test } from "@playwright/test";
 import type { Locator, Page } from "@playwright/test";
 
-async function completeMultipleChoice(host: Locator) {
-  const radios = host.locator('input[type="radio"]');
-  const check = host.getByRole("button", { name: /check answer/i });
-  for (let index = 0; index < await radios.count(); index += 1) {
-    await radios.nth(index).check();
-    await check.click();
-    if ((await host.locator('[id^="result_"]').textContent())?.trim() === "CORRECT") {
-      await expect(host.locator("[data-selftest-status]")).toContainText("Completed");
-      await expect(check).toBeEnabled();
-      return;
-    }
-  }
-  throw new Error("The real MC bank had no correctly grading choice.");
+const QUESTION_ID_PREFIX = "question_html_";
+
+function questionId(host: Locator): Locator {
+  return host.locator(`[id^="${QUESTION_ID_PREFIX}"]`).first();
 }
 
-async function reroll(host: Locator) {
-  await host.getByRole("button", { name: "New version", exact: true }).click();
-  await expect(host.getByRole("status").filter({ hasText: "New version ready." })).toBeVisible();
-  return host.locator('[id^="question_html_"]').getAttribute("id");
+async function waitForReady(host: Locator): Promise<void> {
+  await expect(host.locator(".selftest-question-status")).toHaveText("Question ready.");
+  await expect(questionId(host)).toBeVisible();
 }
 
-async function setSeed(page: Page, seed: number) {
-  await page.evaluate((value) => {
-    Object.defineProperty(window.crypto, "getRandomValues", { configurable: true,
-      value: (array: Uint32Array) => { array[0] = value; return array; } });
-  }, seed);
-}
-
-test("real WASM rerolls retain completion only for the displayed question", async ({ page }) => {
+test("real WASM starts one question and loads another on request", async ({ page }) => {
   const errors: string[] = [];
   const wasmRequests: string[] = [];
   page.on("pageerror", (error) => errors.push(error.message));
   page.on("request", (request) => {
-    if (request.url().includes("/qti_wasm/")) { wasmRequests.push(request.url()); }
+    if (request.url().includes("/qti_wasm/")) {
+      wasmRequests.push(request.url());
+    }
   });
   await page.goto("/genetics/topic01/");
-  const host = page.locator('.qti-selftest[data-bbq="bbq-WOMC-genetic_disorders-questions.txt"]');
-  await host.locator("xpath=ancestor::details").evaluate((element) => element.setAttribute("open", ""));
-  await expect(host.locator("[data-selftest-status]")).toContainText("Not completed");
-  expect(wasmRequests).toEqual([]);
 
-  // Remember the successful selection seed so B -> A exercises the real converter again.
-  await page.evaluate(() => {
-    let seed = 0;
-    Object.defineProperty(window.crypto, "getRandomValues", { configurable: true,
-      value: (array: Uint32Array) => {
-        array[0] = ++seed;
-        (window as unknown as { rerollSeed: number }).rerollSeed = seed;
-        return array;
-      } });
-  });
-  const a = await reroll(host);
-  const seedA = await page.evaluate(() => (window as unknown as { rerollSeed: number }).rerollSeed);
+  const hosts = page.locator(".qti-selftest[data-bbq][data-selftest]");
+  await expect(hosts.first()).toBeAttached();
+  const first = hosts.first();
+  const second = hosts.nth(1);
+  await waitForReady(first);
   expect(wasmRequests.some((url) => url.endsWith(".wasm"))).toBe(true);
-  await completeMultipleChoice(host);
-  const b = await reroll(host);
-  expect(b).not.toEqual(a);
-  await expect(host.locator("[data-selftest-status]")).toHaveText("Not completed");
-  await expect(host.locator('input[type="radio"]:checked')).toHaveCount(0);
-  await expect(host.locator('[id^="result_"]')).toHaveText("");
+  await expect(second.locator(`[id^="${QUESTION_ID_PREFIX}"]`)).toHaveCount(0);
+  await expect(second.getByRole("button", { name: "Start question", exact: true })).toBeVisible();
 
-  await host.locator('input[type="radio"][data-correct="false"]').first().check();
-  await host.getByRole("button", { name: /check answer/i }).click();
-  await expect(host.locator('[id^="result_"]')).toHaveText("incorrect");
-  await expect(host.locator("[data-selftest-status]")).not.toContainText("Completed");
-  const afterIncorrect = await page.evaluate(() =>
-    JSON.parse(localStorage.getItem("selftest_progress_v1") || "null"));
-  expect(Object.keys(afterIncorrect.completed)).toContain(a!.slice("question_html_".length));
-  expect(Object.keys(afterIncorrect.completed)).not.toContain(b!.slice("question_html_".length));
-  await completeMultipleChoice(host);
-  const afterB = await page.evaluate(() =>
-    JSON.parse(localStorage.getItem("selftest_progress_v1") || "null"));
-  expect(Object.keys(afterB.completed).sort()).toEqual([
-    a!.slice("question_html_".length), b!.slice("question_html_".length),
-  ].sort());
-
-  await setSeed(page, seedA);
-  expect(await reroll(host)).toEqual(a);
-  await expect(host.locator("[data-selftest-status]")).toContainText("Completed");
-  await expect(host.locator('input[type="radio"]:checked')).toHaveCount(0);
-  await expect(host.locator('[id^="result_"]')).toHaveText("");
+  await second.getByRole("button", { name: "Start question", exact: true }).click();
+  await waitForReady(second);
   expect(errors).toEqual([]);
 });
 
-// This converter stub isolates script installation from the separate real-WASM acceptance above.
-// The fixture follows topic_page.py's data-bbq contract and loads the built reroll script over HTTP.
-// The status/button selector contract is selftest_reroll.js's init() control creation.
-async function scriptDependencyHost(page: Page) {
+// These fixtures isolate controller lifecycle from real-WASM conversion. Each
+// artifact includes a valid generated checkAnswer_* function so readiness proves
+// scripts finished installing, not merely that markup arrived.
+async function lifecycleFixture(page: Page): Promise<Locator> {
   await page.route("**/qti_wasm/src/index.js", async (route) => {
     await route.fulfill({ contentType: "text/javascript", body: `
-      let sequence = 0;
+      let version = 0;
       export async function initialize() {}
       export function convert() {
-        const html = '<html><body><div id="question_html_script_' + ++sequence + '">' +
-          '<canvas aria-label="Question drawing" width="10" height="10"></canvas></div>' +
-          '<script src="/assets/scripts/reroll_dependency.js"></script>' +
-          '<script>drawQuestion();</script>' +
-          '<script>document.querySelector("canvas[aria-label]")' +
-          '.dataset.initialized = "yes";</script></body></html>';
-        return { status: "success", artifact: { kind: "file",
-          primary: { bytes: new TextEncoder().encode(html) } } };
+        version += 1;
+        const id = 'fixture_' + version;
+        const html = '<html><body><div id="question_html_' + id + '">' +
+          '<label><input type="radio" name="' + id + '"> answer</label>' +
+          '<button type="button" onclick="checkAnswer_' + id + '()">Check Answer</button>' +
+          '<div id="result_' + id + '"></div></div>' +
+          '<script>function checkAnswer_' + id + '(){document.getElementById("result_' + id + '").textContent="CORRECT";}</script>' +
+          '</body></html>';
+        return { status: 'success', artifact: { kind: 'file', primary: {
+          bytes: new TextEncoder().encode(html) } } };
       }
     ` });
   });
-  await page.route("**/reroll_script_fixture/", async (route) => {
+  await page.route("**/selftest_lifecycle_fixture/", async (route) => {
     await route.fulfill({ contentType: "text/html", body: `
-      <div class="qti-selftest" data-bbq="questions.txt">
-        <div id="question_html_original">Original question</div>
-      </div>
+      <div class="qti-selftest" data-bbq="one.txt" data-selftest="one.html"><div class="selftest-reroll-content"></div></div>
+      <div class="qti-selftest" data-bbq="two.txt" data-selftest="two.html"><div class="selftest-reroll-content"></div></div>
+      <div class="qti-selftest" data-bbq="three.txt" data-selftest="three.html"><div class="selftest-reroll-content"></div></div>
       <script src="/assets/scripts/selftest_reroll.js"></script>
     ` });
   });
-  await page.route("**/reroll_script_fixture/questions.txt", async (route) => {
-    await route.fulfill({ body: "MC\tFixture question\tChoice\tCorrect" });
+  for (const name of ["one", "two", "three"]) {
+    await page.route(`**/selftest_lifecycle_fixture/${name}.txt`, async (route) => {
+      await route.fulfill({ body: "MC\tFixture\tAnswer\tCorrect" });
+    });
+  }
+  await page.goto("/selftest_lifecycle_fixture/");
+  return page.locator(".qti-selftest");
+}
+
+async function dependencyFixture(page: Page): Promise<Locator> {
+  await page.route("**/qti_wasm/src/index.js", async (route) => {
+    await route.fulfill({ contentType: "text/javascript", body: `
+      export async function initialize() {}
+      export function convert() {
+        const html = '<html><body><div id="question_html_dependency">' +
+          '<canvas aria-label="Question drawing" width="10" height="10"></canvas>' +
+          '<label><input type="radio" name="dependency"> answer</label>' +
+          '<button type="button" onclick="checkAnswer_dependency()">Check Answer</button>' +
+          '<div id="result_dependency"></div></div>' +
+          '<script src="/assets/scripts/reroll_dependency.js"></script>' +
+          '<script>drawQuestion();function checkAnswer_dependency(){document.getElementById("result_dependency").textContent="CORRECT";}</script>' +
+          '</body></html>';
+        return { status: 'success', artifact: { kind: 'file', primary: {
+          bytes: new TextEncoder().encode(html) } } };
+      }
+    ` });
   });
-  await page.goto("/reroll_script_fixture/");
-  return page.locator(".qti-selftest[data-bbq]");
+  await page.route("**/selftest_dependency_fixture/", async (route) => {
+    await route.fulfill({ contentType: "text/html", body: `
+      <div class="qti-selftest" data-bbq="dependency.txt" data-selftest="dependency.html"><div class="selftest-reroll-content"></div></div>
+      <script src="/assets/scripts/selftest_reroll.js"></script>
+    ` });
+  });
+  await page.route("**/selftest_dependency_fixture/dependency.txt", async (route) => {
+    await route.fulfill({ body: "MC\tFixture\tAnswer\tCorrect" });
+  });
+  await page.goto("/selftest_dependency_fixture/");
+  return page.locator(".qti-selftest");
 }
 
 const drawingLibrary = `
@@ -130,51 +119,81 @@ const drawingLibrary = `
   }
 `;
 
-test("reroll waits for an external drawing library before inline scripts and readiness", async ({ page }) => {
-  const errors: string[] = [];
-  page.on("pageerror", (error) => errors.push(error.message));
-  let release!: () => void;
-  const delayed = new Promise<void>((resolve) => { release = resolve; });
-  await page.route("**/reroll_dependency.js", async (route) => {
-    await delayed;
-    await route.fulfill({ contentType: "text/javascript", body: drawingLibrary });
-  });
-  const host = await scriptDependencyHost(page);
-  const requested = page.waitForRequest("**/reroll_dependency.js");
-  const button = host.getByRole("button", { name: "New version", exact: true });
-  const status = host.locator('.selftest-reroll-button + [role="status"]');
-  await button.click();
-  await requested;
-  await expect(status).toHaveText("Loading a new version...");
-  await expect(button).toBeDisabled();
-  await expect(host.locator("canvas")).not.toHaveAttribute("data-drawn", "yes");
-  await expect(host.locator("canvas")).not.toHaveAttribute("data-initialized", "yes");
-  release();
-  await expect(status).toHaveText("New version ready.");
-  await expect(host.locator("canvas")).toHaveAttribute("data-drawn", "yes");
-  await expect(host.locator("canvas")).toHaveAttribute("data-initialized", "yes");
-  await expect(button).toBeEnabled();
-  expect(errors).toEqual([]);
-});
-
-test("reroll reports an external script failure, skips dependents, and permits retry", async ({ page }) => {
+test("question readiness waits for external drawing dependencies, then retries a failed dependency", async ({ page }) => {
   let fail = true;
   await page.route("**/reroll_dependency.js", async (route) => {
-    if (fail) { await route.abort(); }
-    else { await route.fulfill({ contentType: "text/javascript", body: drawingLibrary }); }
+    if (fail) {
+      await route.abort();
+      return;
+    }
+    await route.fulfill({ contentType: "text/javascript", body: drawingLibrary });
   });
-  const host = await scriptDependencyHost(page);
-  const button = host.getByRole("button", { name: "New version", exact: true });
-  const status = host.locator('.selftest-reroll-button + [role="status"]');
-  await button.click();
-  await expect(status).toHaveText("Could not load a question script. Try again.");
-  await expect(button).toBeEnabled();
+  const host = await dependencyFixture(page);
+  await expect(host.locator(".selftest-question-status")).toContainText("Could not load a question script. Try again.");
+  await expect(host.getByRole("button", { name: "Retry", exact: true })).toBeEnabled();
   await expect(host.locator("canvas")).not.toHaveAttribute("data-drawn", "yes");
-  await expect(host.locator("canvas")).not.toHaveAttribute("data-initialized", "yes");
+
   fail = false;
-  await button.click();
-  await expect(status).toHaveText("New version ready.");
+  await host.getByRole("button", { name: "Retry", exact: true }).click();
+  await waitForReady(host);
   await expect(host.locator("canvas")).toHaveAttribute("data-drawn", "yes");
-  await expect(host.locator("canvas")).toHaveAttribute("data-initialized", "yes");
-  await expect(button).toBeEnabled();
+  await host.locator('input[type="radio"]').check();
+  await host.getByRole("button", { name: "Check Answer" }).click();
+  await expect(host.locator('[id^="result_"]')).toHaveText("CORRECT");
+});
+
+test("correct feedback remains while the next question becomes ready, and reroll only replaces its own question", async ({ page }) => {
+  const hosts = await lifecycleFixture(page);
+  const first = hosts.nth(0);
+  const second = hosts.nth(1);
+  const third = hosts.nth(2);
+  await waitForReady(first);
+  await expect(questionId(second)).toHaveCount(0);
+
+  await first.locator('input[type="radio"]').check();
+  await first.getByRole("button", { name: "Check Answer" }).click();
+  await expect(first.locator('[id^="result_"]')).toHaveText("CORRECT");
+  await waitForReady(second);
+  await expect(first.locator('[id^="result_"]')).toHaveText("CORRECT");
+  await expect(questionId(third)).toHaveCount(0);
+
+  const firstId = await questionId(first).getAttribute("id");
+  const secondId = await questionId(second).getAttribute("id");
+  await first.getByRole("button", { name: "New version", exact: true }).click();
+  await waitForReady(first);
+  await expect(questionId(first)).not.toHaveAttribute("id", firstId!);
+  await expect(questionId(second)).toHaveAttribute("id", secondId!);
+  await expect(first.locator('[id^="result_"]')).toHaveText("");
+});
+
+test("advancement waits 500 ms after feedback and a replacement cancels its stale timer", async ({ page }) => {
+  await page.clock.install({ time: new Date("2025-01-01T00:00:00Z") });
+  const hosts = await lifecycleFixture(page);
+  const first = hosts.nth(0);
+  const second = hosts.nth(1);
+  await waitForReady(first);
+  await page.clock.pauseAt(new Date("2025-01-02T00:00:00Z"));
+
+  await first.locator('input[type="radio"]').check();
+  await first.getByRole("button", { name: "Check Answer" }).click();
+  await expect(first.locator('[id^="result_"]')).toHaveText("CORRECT");
+  await waitForReady(second);
+  await page.clock.runFor(499);
+  await expect(second).not.toBeFocused();
+  await page.clock.runFor(1);
+  await expect(second).toBeFocused();
+
+  // A manual replacement cancels a previous automatic transition, so an old
+  // timer cannot unexpectedly pull a student away from the current question.
+  await first.getByRole("button", { name: "New version", exact: true }).click();
+  await waitForReady(first);
+  await first.locator('input[type="radio"]').check();
+  await first.getByRole("button", { name: "Check Answer" }).click();
+  await expect(first.locator('[id^="result_"]')).toHaveText("CORRECT");
+  await first.getByRole("button", { name: "New version", exact: true }).click();
+  await waitForReady(first);
+  await first.focus();
+  await page.clock.runFor(500);
+  await expect(first).toBeFocused();
+  await expect(second).not.toBeFocused();
 });

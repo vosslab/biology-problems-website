@@ -12,23 +12,9 @@ Students perform single-step dilution calculations using c1V1 = c2V2, determine 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-dilution_factor_aliquot_numeric-questions.txt" data-format="human_readable" data-filename="human_readable-dilution_factor_aliquot_numeric.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Aliquot Volumes for Dilutions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-dilution_factor_aliquot_numeric-questions.txt" data-bank-id="laboratory/topic03/index.md:bbq-dilution_factor_aliquot_numeric-questions.txt">
-  {% include "laboratory/topic03/downloads/selftest-dilution_factor_aliquot_numeric.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-dilution_factor_aliquot_numeric-questions.txt" data-selftest="laboratory/topic03/downloads/selftest-dilution_factor_aliquot_numeric.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Dilution Factor Calculations
@@ -41,23 +27,9 @@ Students perform single-step dilution calculations using c1V1 = c2V2, determine 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-dilution_factor_calc_numeric-questions.txt" data-format="human_readable" data-filename="human_readable-dilution_factor_calc_numeric.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Dilution Factor Calculations
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-dilution_factor_calc_numeric-questions.txt" data-bank-id="laboratory/topic03/index.md:bbq-dilution_factor_calc_numeric-questions.txt">
-  {% include "laboratory/topic03/downloads/selftest-dilution_factor_calc_numeric.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-dilution_factor_calc_numeric-questions.txt" data-selftest="laboratory/topic03/downloads/selftest-dilution_factor_calc_numeric.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Diluent Volumes for Dilutions
@@ -70,23 +42,9 @@ Students perform single-step dilution calculations using c1V1 = c2V2, determine 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-dilution_factor_diluent_numeric-questions.txt" data-format="human_readable" data-filename="human_readable-dilution_factor_diluent_numeric.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Diluent Volumes for Dilutions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-dilution_factor_diluent_numeric-questions.txt" data-bank-id="laboratory/topic03/index.md:bbq-dilution_factor_diluent_numeric-questions.txt">
-  {% include "laboratory/topic03/downloads/selftest-dilution_factor_diluent_numeric.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-dilution_factor_diluent_numeric-questions.txt" data-selftest="laboratory/topic03/downloads/selftest-dilution_factor_diluent_numeric.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Aliquot and Diluent Volumes from Dilution Factors
@@ -99,23 +57,9 @@ Students perform single-step dilution calculations using c1V1 = c2V2, determine 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-dilution_factor_mc-questions.txt" data-format="human_readable" data-filename="human_readable-dilution_factor_mc.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Aliquot and Diluent Volumes from Dilution Factors
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-dilution_factor_mc-questions.txt" data-bank-id="laboratory/topic03/index.md:bbq-dilution_factor_mc-questions.txt">
-  {% include "laboratory/topic03/downloads/selftest-dilution_factor_mc.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-dilution_factor_mc-questions.txt" data-selftest="laboratory/topic03/downloads/selftest-dilution_factor_mc.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Aliquot Volumes from Stock Solutions
@@ -128,22 +72,8 @@ Students perform single-step dilution calculations using c1V1 = c2V2, determine 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-percent_dilution_aliquot_numeric-questions.txt" data-format="human_readable" data-filename="human_readable-percent_dilution_aliquot_numeric.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Aliquot Volumes from Stock Solutions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-percent_dilution_aliquot_numeric-questions.txt" data-bank-id="laboratory/topic03/index.md:bbq-percent_dilution_aliquot_numeric-questions.txt">
-  {% include "laboratory/topic03/downloads/selftest-percent_dilution_aliquot_numeric.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-percent_dilution_aliquot_numeric-questions.txt" data-selftest="laboratory/topic03/downloads/selftest-percent_dilution_aliquot_numeric.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

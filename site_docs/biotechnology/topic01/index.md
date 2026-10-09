@@ -13,23 +13,9 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 <a class="md-button custom-button webwork_pgml" href="downloads/biotech_vs_improved-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Biotechnology and Related Industries from Project Descriptions (Traditional vs. Modern)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-biotech_vs_improved-questions.txt" data-bank-id="biotechnology/topic01/index.md:bbq-MATCH-biotech_vs_improved-questions.txt">
-  {% include "biotechnology/topic01/downloads/selftest-MATCH-biotech_vs_improved.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-biotech_vs_improved-questions.txt" data-selftest="biotechnology/topic01/downloads/selftest-MATCH-biotech_vs_improved.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Historical Biotechnology Periods from Milestones
@@ -43,23 +29,9 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 <a class="md-button custom-button webwork_pgml" href="downloads/biotechnology_periods_and_milestones-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Historical Biotechnology Periods from Milestones
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-biotechnology_periods_and_milestones-questions.txt" data-bank-id="biotechnology/topic01/index.md:bbq-MATCH-biotechnology_periods_and_milestones-questions.txt">
-  {% include "biotechnology/topic01/downloads/selftest-MATCH-biotechnology_periods_and_milestones.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-biotechnology_periods_and_milestones-questions.txt" data-selftest="biotechnology/topic01/downloads/selftest-MATCH-biotechnology_periods_and_milestones.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Model Organisms from Approximate Generation Times
@@ -73,23 +45,9 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 <a class="md-button custom-button webwork_pgml" href="downloads/model_organism_generation_times-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Model Organisms from Approximate Generation Times
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-model_organism_generation_times-questions.txt" data-bank-id="biotechnology/topic01/index.md:bbq-MATCH-model_organism_generation_times-questions.txt">
-  {% include "biotechnology/topic01/downloads/selftest-MATCH-model_organism_generation_times.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-model_organism_generation_times-questions.txt" data-selftest="biotechnology/topic01/downloads/selftest-MATCH-model_organism_generation_times.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Model Organism Research Concepts from Descriptions
@@ -103,23 +61,9 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 <a class="md-button custom-button webwork_pgml" href="downloads/model_organism_principles-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Model Organism Research Concepts from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-model_organism_principles-questions.txt" data-bank-id="biotechnology/topic01/index.md:bbq-MATCH-model_organism_principles-questions.txt">
-  {% include "biotechnology/topic01/downloads/selftest-MATCH-model_organism_principles.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-model_organism_principles-questions.txt" data-selftest="biotechnology/topic01/downloads/selftest-MATCH-model_organism_principles.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Model Organism Scientific Names from Common Names and Groups
@@ -133,23 +77,9 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 <a class="md-button custom-button webwork_pgml" href="downloads/model_organisms-genus_species-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Model Organism Scientific Names from Common Names and Groups
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-model_organisms-genus_species-questions.txt" data-bank-id="biotechnology/topic01/index.md:bbq-MATCH-model_organisms-genus_species-questions.txt">
-  {% include "biotechnology/topic01/downloads/selftest-MATCH-model_organisms-genus_species.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-model_organisms-genus_species-questions.txt" data-selftest="biotechnology/topic01/downloads/selftest-MATCH-model_organisms-genus_species.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Fermentation Substrate Identification
@@ -163,23 +93,9 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 <a class="md-button custom-button webwork_pgml" href="downloads/fermentation.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Fermentation Substrate Identification
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-fermentation-questions.txt" data-bank-id="biotechnology/topic01/index.md:bbq-TFMS-fermentation-questions.txt">
-  {% include "biotechnology/topic01/downloads/selftest-TFMS-fermentation.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-fermentation-questions.txt" data-selftest="biotechnology/topic01/downloads/selftest-TFMS-fermentation.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## mRNA Post-Transcriptional Modification
@@ -193,23 +109,9 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 <a class="md-button custom-button webwork_pgml" href="downloads/mRNA_processing.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      mRNA Post-Transcriptional Modification
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-mRNA_processing-questions.txt" data-bank-id="biotechnology/topic01/index.md:bbq-TFMS-mRNA_processing-questions.txt">
-  {% include "biotechnology/topic01/downloads/selftest-TFMS-mRNA_processing.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-mRNA_processing-questions.txt" data-selftest="biotechnology/topic01/downloads/selftest-TFMS-mRNA_processing.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Biotechnology and Related Industries from Project Descriptions (Traditional vs. Modern)
@@ -223,23 +125,9 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 <a class="md-button custom-button webwork_pgml" href="downloads/biotech_vs_improved-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Biotechnology and Related Industries from Project Descriptions (Traditional vs. Modern)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-biotech_vs_improved-questions.txt" data-bank-id="biotechnology/topic01/index.md:bbq-WOMC-biotech_vs_improved-questions.txt">
-  {% include "biotechnology/topic01/downloads/selftest-WOMC-biotech_vs_improved.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-biotech_vs_improved-questions.txt" data-selftest="biotechnology/topic01/downloads/selftest-WOMC-biotech_vs_improved.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Historical Biotechnology Periods from Milestones
@@ -253,23 +141,9 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 <a class="md-button custom-button webwork_pgml" href="downloads/biotechnology_periods_and_milestones-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Historical Biotechnology Periods from Milestones
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-biotechnology_periods_and_milestones-questions.txt" data-bank-id="biotechnology/topic01/index.md:bbq-WOMC-biotechnology_periods_and_milestones-questions.txt">
-  {% include "biotechnology/topic01/downloads/selftest-WOMC-biotechnology_periods_and_milestones.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-biotechnology_periods_and_milestones-questions.txt" data-selftest="biotechnology/topic01/downloads/selftest-WOMC-biotechnology_periods_and_milestones.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Model Organisms from Approximate Generation Times
@@ -283,23 +157,9 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 <a class="md-button custom-button webwork_pgml" href="downloads/model_organism_generation_times-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Model Organisms from Approximate Generation Times
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-model_organism_generation_times-questions.txt" data-bank-id="biotechnology/topic01/index.md:bbq-WOMC-model_organism_generation_times-questions.txt">
-  {% include "biotechnology/topic01/downloads/selftest-WOMC-model_organism_generation_times.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-model_organism_generation_times-questions.txt" data-selftest="biotechnology/topic01/downloads/selftest-WOMC-model_organism_generation_times.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Model Organism Research Concepts from Descriptions
@@ -313,23 +173,9 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 <a class="md-button custom-button webwork_pgml" href="downloads/model_organism_principles-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Model Organism Research Concepts from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-model_organism_principles-questions.txt" data-bank-id="biotechnology/topic01/index.md:bbq-WOMC-model_organism_principles-questions.txt">
-  {% include "biotechnology/topic01/downloads/selftest-WOMC-model_organism_principles.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-model_organism_principles-questions.txt" data-selftest="biotechnology/topic01/downloads/selftest-WOMC-model_organism_principles.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Model Organism Scientific Names from Common Names and Groups
@@ -343,23 +189,9 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 <a class="md-button custom-button webwork_pgml" href="downloads/model_organisms-genus_species-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Model Organism Scientific Names from Common Names and Groups
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-model_organisms-genus_species-questions.txt" data-bank-id="biotechnology/topic01/index.md:bbq-WOMC-model_organisms-genus_species-questions.txt">
-  {% include "biotechnology/topic01/downloads/selftest-WOMC-model_organisms-genus_species.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-model_organisms-genus_species-questions.txt" data-selftest="biotechnology/topic01/downloads/selftest-WOMC-model_organisms-genus_species.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Metabolic Pathway Mutant Growth Rescue by Nutrient Supplementation (4 Metabolites)
@@ -372,23 +204,9 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-beadle_tatum-metabolic_pathway-4_metabolites-questions.txt" data-format="human_readable" data-filename="human_readable-beadle_tatum-metabolic_pathway-4_metabolites.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Metabolic Pathway Mutant Growth Rescue by Nutrient Supplementation (4 Metabolites)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-beadle_tatum-metabolic_pathway-4_metabolites-questions.txt" data-bank-id="biotechnology/topic01/index.md:bbq-beadle_tatum-metabolic_pathway-4_metabolites-questions.txt">
-  {% include "biotechnology/topic01/downloads/selftest-beadle_tatum-metabolic_pathway-4_metabolites.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-beadle_tatum-metabolic_pathway-4_metabolites-questions.txt" data-selftest="biotechnology/topic01/downloads/selftest-beadle_tatum-metabolic_pathway-4_metabolites.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Model Organisms by Complexity (4 Organisms)
@@ -399,23 +217,9 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-model_organism_complexity_order-ORD-4_choices-questions.txt" data-format="human_readable" data-filename="human_readable-model_organism_complexity_order-ORD-4_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Model Organisms by Complexity (4 Organisms)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-model_organism_complexity_order-ORD-4_choices-questions.txt" data-bank-id="biotechnology/topic01/index.md:bbq-model_organism_complexity_order-ORD-4_choices-questions.txt">
-  {% include "biotechnology/topic01/downloads/selftest-model_organism_complexity_order-ORD-4_choices.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-model_organism_complexity_order-ORD-4_choices-questions.txt" data-selftest="biotechnology/topic01/downloads/selftest-model_organism_complexity_order-ORD-4_choices.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Metabolic Pathway Mutant Screens: Wild-Type Identification from Precursor Growth Patterns (4 Metabolites)
@@ -428,23 +232,9 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-mutant_screen-mc-4_metabolites-questions.txt" data-format="human_readable" data-filename="human_readable-mutant_screen-mc-4_metabolites.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Metabolic Pathway Mutant Screens: Wild-Type Identification from Precursor Growth Patterns (4 Metabolites)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-mutant_screen-mc-4_metabolites-questions.txt" data-bank-id="biotechnology/topic01/index.md:bbq-mutant_screen-mc-4_metabolites-questions.txt">
-  {% include "biotechnology/topic01/downloads/selftest-mutant_screen-mc-4_metabolites.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-mutant_screen-mc-4_metabolites-questions.txt" data-selftest="biotechnology/topic01/downloads/selftest-mutant_screen-mc-4_metabolites.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## mRNA Sequences from DNA Template Strands (6 Nucleotides, 5&#x27;/3&#x27; Labels)
@@ -457,23 +247,9 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-rna_transcribe-MC-prime-len_6-questions.txt" data-format="human_readable" data-filename="human_readable-rna_transcribe-MC-prime-len_6.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      mRNA Sequences from DNA Template Strands (6 Nucleotides, 5&#x27;/3&#x27; Labels)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-rna_transcribe-MC-prime-len_6-questions.txt" data-bank-id="biotechnology/topic01/index.md:bbq-rna_transcribe-MC-prime-len_6-questions.txt">
-  {% include "biotechnology/topic01/downloads/selftest-rna_transcribe-MC-prime-len_6.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-rna_transcribe-MC-prime-len_6-questions.txt" data-selftest="biotechnology/topic01/downloads/selftest-rna_transcribe-MC-prime-len_6.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Genetic Code Translation of mRNA into Five-Amino-Acid Peptides (5 Choices)
@@ -486,22 +262,8 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-translate_genetic_code-MC-5_aa-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-translate_genetic_code-MC-5_aa-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Genetic Code Translation of mRNA into Five-Amino-Acid Peptides (5 Choices)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-translate_genetic_code-MC-5_aa-5_choices-questions.txt" data-bank-id="biotechnology/topic01/index.md:bbq-translate_genetic_code-MC-5_aa-5_choices-questions.txt">
-  {% include "biotechnology/topic01/downloads/selftest-translate_genetic_code-MC-5_aa-5_choices.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-translate_genetic_code-MC-5_aa-5_choices-questions.txt" data-selftest="biotechnology/topic01/downloads/selftest-translate_genetic_code-MC-5_aa-5_choices.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

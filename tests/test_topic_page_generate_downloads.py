@@ -126,3 +126,46 @@ def test_order_question_omits_unsupported_packages(
 	assert soup.select_one("a.bb_text")["href"] == bbq_file.name
 	assert soup.select_one("a.webwork_pgml")["href"] == "downloads/order.pgml"
 	assert old_export.read_bytes() == b"previous export"
+
+
+#============================================
+def test_topic_page_uses_empty_dynamic_selftest_container(
+	tmp_path: pathlib.Path, monkeypatch: pytest.MonkeyPatch,
+) -> None:
+	"""Topic pages expose a WASM source path without embedding a static question."""
+	site_docs = tmp_path / "site_docs"
+	topic_dir = site_docs / "biology" / "topic01"
+	topic_dir.mkdir(parents=True)
+	bbq_file = topic_dir / "bbq-cells-questions.txt"
+	bbq_file.write_text("MC\tWhat is a cell?\n*A\tA cell\nB\tNot a cell\n")
+	downloads_dir = topic_dir / "downloads"
+	downloads_dir.mkdir()
+	(downloads_dir / "selftest-cells.html").write_text("<div>standalone question</div>\n")
+	monkeypatch.setattr(topic_page, "get_topic_title", lambda *args: "Cells")
+	monkeypatch.setattr(topic_page, "get_topic_description", lambda *args: "Cell questions.")
+	monkeypatch.setattr(topic_page, "get_libretexts_link", lambda *args: None)
+	monkeypatch.setattr(topic_page, "get_problem_set_title", lambda *args: "Cell Basics (MC)")
+	monkeypatch.setattr(topic_page, "generate_download_button_row", lambda *args, **kwargs: "")
+
+	topic_page.update_index_md(
+		str(topic_dir),
+		[str(bbq_file)],
+		{"count": 0},
+		1,
+		[],
+		False,
+		{},
+		str(site_docs),
+		regenerate_selftests=False,
+	)
+
+	page = (topic_dir / "index.md").read_text()
+	soup = BeautifulSoup(page, "html.parser")
+	container = soup.select_one("div.qti-selftest")
+	assert container is not None
+	assert container["data-bbq"] == "bbq-cells-questions.txt"
+	assert not container.has_attr("data-bank-id")
+	assert container["data-selftest"] == "biology/topic01/downloads/selftest-cells.html"
+	assert container.select_one(".selftest-reroll-content").get_text() == ""
+	assert "standalone question" not in page
+	assert "<details>" not in page

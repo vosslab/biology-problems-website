@@ -14,23 +14,9 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-blood_type_agglutination_test-questions.txt" data-format="human_readable" data-filename="human_readable-blood_type_agglutination_test.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Blood Type Agglutination Test Results (ABO and Rh)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-blood_type_agglutination_test-questions.txt" data-bank-id="genetics/topic03/index.md:bbq-blood_type_agglutination_test-questions.txt">
-  {% include "genetics/topic03/downloads/selftest-blood_type_agglutination_test.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-blood_type_agglutination_test-questions.txt" data-selftest="genetics/topic03/downloads/selftest-blood_type_agglutination_test.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Offspring HLA Genotypes (2 Markers, Black-and-White)
@@ -43,23 +29,9 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-hla_genotype-2_markers-black-questions.txt" data-format="human_readable" data-filename="human_readable-hla_genotype-2_markers-black.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Offspring HLA Genotypes (2 Markers, Black-and-White)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-hla_genotype-2_markers-black-questions.txt" data-bank-id="genetics/topic03/index.md:bbq-hla_genotype-2_markers-black-questions.txt">
-  {% include "genetics/topic03/downloads/selftest-hla_genotype-2_markers-black.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-hla_genotype-2_markers-black-questions.txt" data-selftest="genetics/topic03/downloads/selftest-hla_genotype-2_markers-black.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Offspring HLA Genotypes (3 Markers, Color)
@@ -72,23 +44,9 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-hla_genotype-3_markers-color-questions.txt" data-format="human_readable" data-filename="human_readable-hla_genotype-3_markers-color.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Offspring HLA Genotypes (3 Markers, Color)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-hla_genotype-3_markers-color-questions.txt" data-bank-id="genetics/topic03/index.md:bbq-hla_genotype-3_markers-color-questions.txt">
-  {% include "genetics/topic03/downloads/selftest-hla_genotype-3_markers-color.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-hla_genotype-3_markers-color-questions.txt" data-selftest="genetics/topic03/downloads/selftest-hla_genotype-3_markers-color.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## RFLP Paternity Testing from DNA Gels (Easy, 3 Males)
@@ -101,23 +59,9 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-who_father_html-EASY-3_males-questions.txt" data-format="human_readable" data-filename="human_readable-who_father_html-EASY-3_males.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      RFLP Paternity Testing from DNA Gels (Easy, 3 Males)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-who_father_html-EASY-3_males-questions.txt" data-bank-id="genetics/topic03/index.md:bbq-who_father_html-EASY-3_males-questions.txt">
-  {% include "genetics/topic03/downloads/selftest-who_father_html-EASY-3_males.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-who_father_html-EASY-3_males-questions.txt" data-selftest="genetics/topic03/downloads/selftest-who_father_html-EASY-3_males.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## RFLP Paternity Testing from DNA Gels (Hard, 9 Males)
@@ -130,23 +74,9 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-who_father_html-HARD-9_males-questions.txt" data-format="human_readable" data-filename="human_readable-who_father_html-HARD-9_males.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      RFLP Paternity Testing from DNA Gels (Hard, 9 Males)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-who_father_html-HARD-9_males-questions.txt" data-bank-id="genetics/topic03/index.md:bbq-who_father_html-HARD-9_males-questions.txt">
-  {% include "genetics/topic03/downloads/selftest-who_father_html-HARD-9_males.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-who_father_html-HARD-9_males-questions.txt" data-selftest="genetics/topic03/downloads/selftest-who_father_html-HARD-9_males.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## RFLP Paternity Testing from DNA Gels (Medium, 5 Males)
@@ -159,23 +89,9 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-who_father_html-MEDIUM-5_males-questions.txt" data-format="human_readable" data-filename="human_readable-who_father_html-MEDIUM-5_males.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      RFLP Paternity Testing from DNA Gels (Medium, 5 Males)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-who_father_html-MEDIUM-5_males-questions.txt" data-bank-id="genetics/topic03/index.md:bbq-who_father_html-MEDIUM-5_males-questions.txt">
-  {% include "genetics/topic03/downloads/selftest-who_father_html-MEDIUM-5_males.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-who_father_html-MEDIUM-5_males-questions.txt" data-selftest="genetics/topic03/downloads/selftest-who_father_html-MEDIUM-5_males.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## RFLP Suspect Identification from DNA Profiles (Easy, 4 Suspects)
@@ -188,23 +104,9 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-who_killer_html-EASY-4_suspects-questions.txt" data-format="human_readable" data-filename="human_readable-who_killer_html-EASY-4_suspects.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      RFLP Suspect Identification from DNA Profiles (Easy, 4 Suspects)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-who_killer_html-EASY-4_suspects-questions.txt" data-bank-id="genetics/topic03/index.md:bbq-who_killer_html-EASY-4_suspects-questions.txt">
-  {% include "genetics/topic03/downloads/selftest-who_killer_html-EASY-4_suspects.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-who_killer_html-EASY-4_suspects-questions.txt" data-selftest="genetics/topic03/downloads/selftest-who_killer_html-EASY-4_suspects.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## RFLP Suspect Identification from DNA Profiles (Hard, 9 Suspects)
@@ -217,23 +119,9 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-who_killer_html-HARD-9_suspects-questions.txt" data-format="human_readable" data-filename="human_readable-who_killer_html-HARD-9_suspects.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      RFLP Suspect Identification from DNA Profiles (Hard, 9 Suspects)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-who_killer_html-HARD-9_suspects-questions.txt" data-bank-id="genetics/topic03/index.md:bbq-who_killer_html-HARD-9_suspects-questions.txt">
-  {% include "genetics/topic03/downloads/selftest-who_killer_html-HARD-9_suspects.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-who_killer_html-HARD-9_suspects-questions.txt" data-selftest="genetics/topic03/downloads/selftest-who_killer_html-HARD-9_suspects.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## RFLP Suspect Identification from DNA Profiles (Medium, 5 Suspects)
@@ -246,22 +134,8 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-who_killer_html-MEDIUM-5_suspects-questions.txt" data-format="human_readable" data-filename="human_readable-who_killer_html-MEDIUM-5_suspects.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      RFLP Suspect Identification from DNA Profiles (Medium, 5 Suspects)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-who_killer_html-MEDIUM-5_suspects-questions.txt" data-bank-id="genetics/topic03/index.md:bbq-who_killer_html-MEDIUM-5_suspects-questions.txt">
-  {% include "genetics/topic03/downloads/selftest-who_killer_html-MEDIUM-5_suspects.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-who_killer_html-MEDIUM-5_suspects-questions.txt" data-selftest="genetics/topic03/downloads/selftest-who_killer_html-MEDIUM-5_suspects.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

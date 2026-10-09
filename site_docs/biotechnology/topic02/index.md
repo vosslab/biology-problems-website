@@ -13,23 +13,9 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 <a class="md-button custom-button webwork_pgml" href="downloads/cell_disruption-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Cell Disruption Techniques from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-cell_disruption-questions.txt" data-bank-id="biotechnology/topic02/index.md:bbq-MATCH-cell_disruption-questions.txt">
-  {% include "biotechnology/topic02/downloads/selftest-MATCH-cell_disruption.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-cell_disruption-questions.txt" data-selftest="biotechnology/topic02/downloads/selftest-MATCH-cell_disruption.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## DNA Sequencing Techniques from Descriptions
@@ -43,23 +29,9 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 <a class="md-button custom-button webwork_pgml" href="downloads/dna_sequencing-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      DNA Sequencing Techniques from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-dna_sequencing-questions.txt" data-bank-id="biotechnology/topic02/index.md:bbq-MATCH-dna_sequencing-questions.txt">
-  {% include "biotechnology/topic02/downloads/selftest-MATCH-dna_sequencing.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-dna_sequencing-questions.txt" data-selftest="biotechnology/topic02/downloads/selftest-MATCH-dna_sequencing.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Latin Phrases from Their Meanings
@@ -73,23 +45,9 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 <a class="md-button custom-button webwork_pgml" href="downloads/latin_phrases-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Latin Phrases from Their Meanings
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-latin_phrases-questions.txt" data-bank-id="biotechnology/topic02/index.md:bbq-MATCH-latin_phrases-questions.txt">
-  {% include "biotechnology/topic02/downloads/selftest-MATCH-latin_phrases.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-latin_phrases-questions.txt" data-selftest="biotechnology/topic02/downloads/selftest-MATCH-latin_phrases.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Cell Disruption Techniques from Descriptions
@@ -103,23 +61,9 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 <a class="md-button custom-button webwork_pgml" href="downloads/cell_disruption-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Cell Disruption Techniques from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-cell_disruption-questions.txt" data-bank-id="biotechnology/topic02/index.md:bbq-WOMC-cell_disruption-questions.txt">
-  {% include "biotechnology/topic02/downloads/selftest-WOMC-cell_disruption.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-cell_disruption-questions.txt" data-selftest="biotechnology/topic02/downloads/selftest-WOMC-cell_disruption.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## DNA Sequencing Techniques from Descriptions
@@ -133,23 +77,9 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 <a class="md-button custom-button webwork_pgml" href="downloads/dna_sequencing-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      DNA Sequencing Techniques from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-dna_sequencing-questions.txt" data-bank-id="biotechnology/topic02/index.md:bbq-WOMC-dna_sequencing-questions.txt">
-  {% include "biotechnology/topic02/downloads/selftest-WOMC-dna_sequencing.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-dna_sequencing-questions.txt" data-selftest="biotechnology/topic02/downloads/selftest-WOMC-dna_sequencing.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Latin Phrases from Their Meanings
@@ -163,23 +93,9 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 <a class="md-button custom-button webwork_pgml" href="downloads/latin_phrases-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Latin Phrases from Their Meanings
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-latin_phrases-questions.txt" data-bank-id="biotechnology/topic02/index.md:bbq-WOMC-latin_phrases-questions.txt">
-  {% include "biotechnology/topic02/downloads/selftest-WOMC-latin_phrases.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-latin_phrases-questions.txt" data-selftest="biotechnology/topic02/downloads/selftest-WOMC-latin_phrases.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Complementary DNA Sequences (5&#x27;/3&#x27; Labels)
@@ -192,23 +108,9 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-complementary_sequences-mc-prime-questions.txt" data-format="human_readable" data-filename="human_readable-complementary_sequences-mc-prime.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Complementary DNA Sequences (5&#x27;/3&#x27; Labels)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-complementary_sequences-mc-prime-questions.txt" data-bank-id="biotechnology/topic02/index.md:bbq-complementary_sequences-mc-prime-questions.txt">
-  {% include "biotechnology/topic02/downloads/selftest-complementary_sequences-mc-prime.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-complementary_sequences-mc-prime-questions.txt" data-selftest="biotechnology/topic02/downloads/selftest-complementary_sequences-mc-prime.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Consensus Sequences from Alignments
@@ -221,23 +123,9 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-consensus_sequence_MC-questions.txt" data-format="human_readable" data-filename="human_readable-consensus_sequence_MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Consensus Sequences from Alignments
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-consensus_sequence_MC-questions.txt" data-bank-id="biotechnology/topic02/index.md:bbq-consensus_sequence_MC-questions.txt">
-  {% include "biotechnology/topic02/downloads/selftest-consensus_sequence_MC.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-consensus_sequence_MC-questions.txt" data-selftest="biotechnology/topic02/downloads/selftest-consensus_sequence_MC.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## DNA Fragment Migration in Agarose Gel Electrophoresis (Closest/Farthest)
@@ -250,23 +138,9 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-dna_gel-closest_farthest_MC-questions.txt" data-format="human_readable" data-filename="human_readable-dna_gel-closest_farthest_MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      DNA Fragment Migration in Agarose Gel Electrophoresis (Closest/Farthest)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-dna_gel-closest_farthest_MC-questions.txt" data-bank-id="biotechnology/topic02/index.md:bbq-dna_gel-closest_farthest_MC-questions.txt">
-  {% include "biotechnology/topic02/downloads/selftest-dna_gel-closest_farthest_MC.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-dna_gel-closest_farthest_MC-questions.txt" data-selftest="biotechnology/topic02/downloads/selftest-dna_gel-closest_farthest_MC.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## DNA Fragment Size from Agarose Gel Migration Data
@@ -279,23 +153,9 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-dna_gel-estimate_size-MC_or_NUM-mc-questions.txt" data-format="human_readable" data-filename="human_readable-dna_gel-estimate_size-MC_or_NUM-mc.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      DNA Fragment Size from Agarose Gel Migration Data
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-dna_gel-estimate_size-MC_or_NUM-mc-questions.txt" data-bank-id="biotechnology/topic02/index.md:bbq-dna_gel-estimate_size-MC_or_NUM-mc-questions.txt">
-  {% include "biotechnology/topic02/downloads/selftest-dna_gel-estimate_size-MC_or_NUM-mc.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-dna_gel-estimate_size-MC_or_NUM-mc-questions.txt" data-selftest="biotechnology/topic02/downloads/selftest-dna_gel-estimate_size-MC_or_NUM-mc.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## PCR Primer Pair Selection from Double-Stranded DNA (9 bp Template, 6-nt Primers)
@@ -308,22 +168,8 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-pcr_design-9_bp-6_primer-questions.txt" data-format="human_readable" data-filename="human_readable-pcr_design-9_bp-6_primer.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      PCR Primer Pair Selection from Double-Stranded DNA (9 bp Template, 6-nt Primers)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-pcr_design-9_bp-6_primer-questions.txt" data-bank-id="biotechnology/topic02/index.md:bbq-pcr_design-9_bp-6_primer-questions.txt">
-  {% include "biotechnology/topic02/downloads/selftest-pcr_design-9_bp-6_primer.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-pcr_design-9_bp-6_primer-questions.txt" data-selftest="biotechnology/topic02/downloads/selftest-pcr_design-9_bp-6_primer.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

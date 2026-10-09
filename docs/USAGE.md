@@ -80,7 +80,7 @@ MkDocs opens `http://127.0.0.1:8000/` with live reload. Press Ctrl-C to stop it.
 - Generated progress data:
   [site_docs/assets/data/selftest_question_manifest.json](../site_docs/assets/data/selftest_question_manifest.json)
   is produced by [`build_site.py`](../build_site.py) from reachable topic
-  pages and their self-test includes.
+  pages and their self-test container declarations.
 
 ## Page generation
 
@@ -166,14 +166,14 @@ use direct canonical conversion; Blackboard uses canonical Rust planning and fin
 browser PNG capture. Original question identities and grading stay with the source converter.
 
 Human-Readable HTML opens a new tab from the click and displays the converted document when ready.
-Self-test grading and per-question completion remain independent of download conversion.
+Self-test grading and problem-set completion remain independent of download conversion.
 The static site serves its vendored dependencies locally; see [INSTALL.md](INSTALL.md) for
 canonical build and dependency refresh commands. Actual Blackboard Ultra import/display/grading
 compatibility remains unverified external evidence.
 
 When task ownership can be established, the run reconciles `site_docs/` against
 the live `bbq-*-questions.txt` set before updating the manifest. It removes orphan
-generated artifacts, strips dead self-test includes, prunes stale title-cache
+generated artifacts, removes orphan self-test containers, prunes stale title-cache
 entries, and quarantines orphan topic-level pgml/pg masters to a repo-root
 `orphaned/` folder. Dry runs report
 that reconciliation plan without changing files.
@@ -231,32 +231,32 @@ while the page supplies the searchable problem information.
 
 ## Self-test progress
 
-Self-test blocks use a **New version** button. The website implementation loads
-the question bank and vendored WebAssembly converter after the first click,
-then shows another variant. The build-time self-test remains the no-JavaScript
-default. Fresh isolated integration verifies 482 matching bank mappings and the
-real-WASM journey: correct grading, independent variant completion, and fresh controls when
-returning to a completed question. Separate specification and quality reviews pass. The user
-intentionally restored an earlier generated snapshot. The later scoped permanent migration
-preserves self-test HTML/CRCs, and final local static-site acceptance passes; remote publication
-remains unperformed. The synthetic CRC finding remains separately upstream-owned. See the
-[Phase 2 acceptance report](active_plans/reports/optimized_spindle_phase2_acceptance.md).
+Self-test pages are short, fresh practice sessions. Each page visit generates
+the first question from its bank with the vendored WebAssembly converter, even
+when that browser has already completed the same problem set. Other empty question
+containers offer **Start question**. A fully correct answer starts loading the
+next question immediately, keeps feedback visible for about half a second, and
+then moves to the ready question. Earlier questions remain available for review;
+the last question stays in place.
+
+**New version** appears beside the question's completion badge. It replaces only
+that question's active version, answers, and feedback. It does not replace other
+questions or retain an attempt history.
+If loading fails, the header offers **Retry** to try generating the question again.
 
 The [Self-test Progress](../site_docs/progress/index.md) dashboard tracks which
-individual questions have had a fully correct answer in the current browser.
-Each variant is identified by its question CRC and keeps its own completion
-record. Completing one variant does not complete any other variant. A reroll
-resets the answer controls and feedback for a fresh attempt; if it shows a
-previously completed variant, that variant's stored completion remains. A new
-CRC starts incomplete. Bank identity is used to find and group variants, never
-to assign or aggregate completion. Progress remains local to browser
-`localStorage`; wrong answers, attempts, and accuracy are not stored.
+problem sets have had a fully correct answer in this browser profile. The BBQ
+filename is the completion key, so completing any generated version completes
+that problem set across rerolls and visits. Generated CRCs still identify each
+rendered question's DOM and grading, but do not create separate completion
+records. Progress remains local to browser `localStorage`; wrong answers,
+attempts, and accuracy are not stored.
 
 Clearing browser site data or using the dashboard reset button removes this
 self-test progress. Daily puzzle stats use separate storage keys and are not
 affected by the self-test reset.
 
-For the manifest schema, question-level storage format, and how to add a new
+For the manifest schema, problem-set storage format, and how to add a new
 self-test question, see [SELFTEST_PROGRESS.md](SELFTEST_PROGRESS.md).
 
 ## BBQ task runner

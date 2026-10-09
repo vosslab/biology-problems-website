@@ -15,23 +15,9 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <a class="md-button custom-button webwork_pgml" href="downloads/genetics_terminology-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Genetics Terms from Definitions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-genetics_terminology-questions.txt" data-bank-id="genetics/topic04/index.md:bbq-MATCH-genetics_terminology-questions.txt">
-  {% include "genetics/topic04/downloads/selftest-MATCH-genetics_terminology.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-genetics_terminology-questions.txt" data-selftest="genetics/topic04/downloads/selftest-MATCH-genetics_terminology.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Mendelian Cross Terms from Descriptions
@@ -45,23 +31,9 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <a class="md-button custom-button webwork_pgml" href="downloads/mendel_cross_terminology-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Mendelian Cross Terms from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-mendel_cross_terminology-questions.txt" data-bank-id="genetics/topic04/index.md:bbq-MATCH-mendel_cross_terminology-questions.txt">
-  {% include "genetics/topic04/downloads/selftest-MATCH-mendel_cross_terminology.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-mendel_cross_terminology-questions.txt" data-selftest="genetics/topic04/downloads/selftest-MATCH-mendel_cross_terminology.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Mendel&#x27;s Four Principles of Genetics from Descriptions
@@ -75,23 +47,9 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <a class="md-button custom-button webwork_pgml" href="downloads/mendel_four_principles-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Mendel&#x27;s Four Principles of Genetics from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-mendel_four_principles-questions.txt" data-bank-id="genetics/topic04/index.md:bbq-MATCH-mendel_four_principles-questions.txt">
-  {% include "genetics/topic04/downloads/selftest-MATCH-mendel_four_principles.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-mendel_four_principles-questions.txt" data-selftest="genetics/topic04/downloads/selftest-MATCH-mendel_four_principles.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Mendelian Genetics Terms from Definitions
@@ -105,23 +63,9 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <a class="md-button custom-button webwork_pgml" href="downloads/mendelian_genetics_terms-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Mendelian Genetics Terms from Definitions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-mendelian_genetics_terms-questions.txt" data-bank-id="genetics/topic04/index.md:bbq-MATCH-mendelian_genetics_terms-questions.txt">
-  {% include "genetics/topic04/downloads/selftest-MATCH-mendelian_genetics_terms.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-mendelian_genetics_terms-questions.txt" data-selftest="genetics/topic04/downloads/selftest-MATCH-mendelian_genetics_terms.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Monohybrid Cross Parental Genotypes from Progeny Outcomes
@@ -135,23 +79,9 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <a class="md-button custom-button webwork_pgml" href="downloads/monohybrid_cross_genotype-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Monohybrid Cross Parental Genotypes from Progeny Outcomes
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-monohybrid_cross_genotype-questions.txt" data-bank-id="genetics/topic04/index.md:bbq-MATCH-monohybrid_cross_genotype-questions.txt">
-  {% include "genetics/topic04/downloads/selftest-MATCH-monohybrid_cross_genotype.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-monohybrid_cross_genotype-questions.txt" data-selftest="genetics/topic04/downloads/selftest-MATCH-monohybrid_cross_genotype.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Genetics Terms from Definitions
@@ -165,23 +95,9 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <a class="md-button custom-button webwork_pgml" href="downloads/genetics_terminology-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Genetics Terms from Definitions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-genetics_terminology-questions.txt" data-bank-id="genetics/topic04/index.md:bbq-WOMC-genetics_terminology-questions.txt">
-  {% include "genetics/topic04/downloads/selftest-WOMC-genetics_terminology.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-genetics_terminology-questions.txt" data-selftest="genetics/topic04/downloads/selftest-WOMC-genetics_terminology.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Mendelian Cross Terms from Descriptions
@@ -195,23 +111,9 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <a class="md-button custom-button webwork_pgml" href="downloads/mendel_cross_terminology-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Mendelian Cross Terms from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-mendel_cross_terminology-questions.txt" data-bank-id="genetics/topic04/index.md:bbq-WOMC-mendel_cross_terminology-questions.txt">
-  {% include "genetics/topic04/downloads/selftest-WOMC-mendel_cross_terminology.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-mendel_cross_terminology-questions.txt" data-selftest="genetics/topic04/downloads/selftest-WOMC-mendel_cross_terminology.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Mendel&#x27;s Four Principles of Genetics from Descriptions
@@ -225,23 +127,9 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <a class="md-button custom-button webwork_pgml" href="downloads/mendel_four_principles-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Mendel&#x27;s Four Principles of Genetics from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-mendel_four_principles-questions.txt" data-bank-id="genetics/topic04/index.md:bbq-WOMC-mendel_four_principles-questions.txt">
-  {% include "genetics/topic04/downloads/selftest-WOMC-mendel_four_principles.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-mendel_four_principles-questions.txt" data-selftest="genetics/topic04/downloads/selftest-WOMC-mendel_four_principles.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Mendelian Genetics Terms from Definitions
@@ -255,23 +143,9 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <a class="md-button custom-button webwork_pgml" href="downloads/mendelian_genetics_terms-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Mendelian Genetics Terms from Definitions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-mendelian_genetics_terms-questions.txt" data-bank-id="genetics/topic04/index.md:bbq-WOMC-mendelian_genetics_terms-questions.txt">
-  {% include "genetics/topic04/downloads/selftest-WOMC-mendelian_genetics_terms.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-mendelian_genetics_terms-questions.txt" data-selftest="genetics/topic04/downloads/selftest-WOMC-mendelian_genetics_terms.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Monohybrid Cross Parental Genotypes from Progeny Outcomes
@@ -285,23 +159,9 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <a class="md-button custom-button webwork_pgml" href="downloads/monohybrid_cross_genotype-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Monohybrid Cross Parental Genotypes from Progeny Outcomes
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-monohybrid_cross_genotype-questions.txt" data-bank-id="genetics/topic04/index.md:bbq-WOMC-monohybrid_cross_genotype-questions.txt">
-  {% include "genetics/topic04/downloads/selftest-WOMC-monohybrid_cross_genotype.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-monohybrid_cross_genotype-questions.txt" data-selftest="genetics/topic04/downloads/selftest-WOMC-monohybrid_cross_genotype.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Parental Genotype Crosses from Monohybrid Offspring Ratios
@@ -314,23 +174,9 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-monohybrid_genotype_statements-questions.txt" data-format="human_readable" data-filename="human_readable-monohybrid_genotype_statements.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Parental Genotype Crosses from Monohybrid Offspring Ratios
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-monohybrid_genotype_statements-questions.txt" data-bank-id="genetics/topic04/index.md:bbq-monohybrid_genotype_statements-questions.txt">
-  {% include "genetics/topic04/downloads/selftest-monohybrid_genotype_statements.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-monohybrid_genotype_statements-questions.txt" data-selftest="genetics/topic04/downloads/selftest-monohybrid_genotype_statements.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Unknown Parent Genotype from Monohybrid Offspring Counts
@@ -343,23 +189,9 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-monohybrid_litter_inference-questions.txt" data-format="human_readable" data-filename="human_readable-monohybrid_litter_inference.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Unknown Parent Genotype from Monohybrid Offspring Counts
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-monohybrid_litter_inference-questions.txt" data-bank-id="genetics/topic04/index.md:bbq-monohybrid_litter_inference-questions.txt">
-  {% include "genetics/topic04/downloads/selftest-monohybrid_litter_inference.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-monohybrid_litter_inference-questions.txt" data-selftest="genetics/topic04/downloads/selftest-monohybrid_litter_inference.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Punnett Squares from Monohybrid Cross Descriptions
@@ -372,23 +204,9 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-punnett_choice-questions.txt" data-format="human_readable" data-filename="human_readable-punnett_choice.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Punnett Squares from Monohybrid Cross Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-punnett_choice-questions.txt" data-bank-id="genetics/topic04/index.md:bbq-punnett_choice-questions.txt">
-  {% include "genetics/topic04/downloads/selftest-punnett_choice.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-punnett_choice-questions.txt" data-selftest="genetics/topic04/downloads/selftest-punnett_choice.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Unique Offspring Genotypes from Four-Gene Crosses (With Hint)
@@ -401,23 +219,9 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-unique_cross_genotypes-with_hint-4_genes-questions.txt" data-format="human_readable" data-filename="human_readable-unique_cross_genotypes-with_hint-4_genes.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Unique Offspring Genotypes from Four-Gene Crosses (With Hint)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-unique_cross_genotypes-with_hint-4_genes-questions.txt" data-bank-id="genetics/topic04/index.md:bbq-unique_cross_genotypes-with_hint-4_genes-questions.txt">
-  {% include "genetics/topic04/downloads/selftest-unique_cross_genotypes-with_hint-4_genes.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-unique_cross_genotypes-with_hint-4_genes-questions.txt" data-selftest="genetics/topic04/downloads/selftest-unique_cross_genotypes-with_hint-4_genes.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Unique Offspring Phenotypes from Four-Gene Crosses (With Hint)
@@ -430,23 +234,9 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-unique_cross_phenotypes-with_hint-4_genes-questions.txt" data-format="human_readable" data-filename="human_readable-unique_cross_phenotypes-with_hint-4_genes.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Unique Offspring Phenotypes from Four-Gene Crosses (With Hint)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-unique_cross_phenotypes-with_hint-4_genes-questions.txt" data-bank-id="genetics/topic04/index.md:bbq-unique_cross_phenotypes-with_hint-4_genes-questions.txt">
-  {% include "genetics/topic04/downloads/selftest-unique_cross_phenotypes-with_hint-4_genes.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-unique_cross_phenotypes-with_hint-4_genes-questions.txt" data-selftest="genetics/topic04/downloads/selftest-unique_cross_phenotypes-with_hint-4_genes.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Unique Gametes from Four-Gene Genotypes (With Hint)
@@ -459,22 +249,8 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-unique_gametes-with_hint-4_genes-questions.txt" data-format="human_readable" data-filename="human_readable-unique_gametes-with_hint-4_genes.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Unique Gametes from Four-Gene Genotypes (With Hint)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-unique_gametes-with_hint-4_genes-questions.txt" data-bank-id="genetics/topic04/index.md:bbq-unique_gametes-with_hint-4_genes-questions.txt">
-  {% include "genetics/topic04/downloads/selftest-unique_gametes-with_hint-4_genes.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-unique_gametes-with_hint-4_genes-questions.txt" data-selftest="genetics/topic04/downloads/selftest-unique_gametes-with_hint-4_genes.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

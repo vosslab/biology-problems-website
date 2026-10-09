@@ -19,6 +19,7 @@ function makeLocalStorage() {
 
 function loadProgress(resultElement) {
 	const localStorage = makeLocalStorage();
+	const listeners = new Map();
 	const context = {
 		URL,
 		window: {
@@ -41,7 +42,7 @@ function loadProgress(resultElement) {
 			body: {
 				appendChild() {},
 			},
-			addEventListener() {},
+			addEventListener(name, listener) { listeners.set(name, listener); },
 			createElement() {
 				return {
 					setAttribute() {},
@@ -68,64 +69,53 @@ function loadProgress(resultElement) {
 	vm.createContext(context);
 	const source = fs.readFileSync('site_docs/assets/scripts/selftest_progress.js', 'utf8');
 	vm.runInContext(source, context);
-	return { api: context.module.exports, window: context.window, document: context.document };
+	return { api: context.module.exports, window: context.window, document: context.document, listeners };
 }
 
 {
 	const resultElement = { textContent: 'CORRECT' };
-	const { api, window } = loadProgress(resultElement);
-	const rows = [{
-		questionId: 'aaaa_0001',
-		crc: 'aaaa_0001',
-		topicKey: 'topic01',
-	}];
-	const manifest = { questions: rows };
-	api._test.wrapAnswerChecks(rows, manifest);
-	const checked = window.checkAnswer_aaaa_0001();
-	assert.equal(checked, 'checked');
-	assert.equal(api.isCompleted('aaaa_0001'), true);
-	const wrapped = window.checkAnswer_aaaa_0001;
-	api._test.wrapAnswerChecks(rows, manifest);
-	assert.equal(window.checkAnswer_aaaa_0001, wrapped);
+	const { api, listeners } = loadProgress(resultElement);
+	await listeners.get('selftest:graded')({
+		detail: { crc: 'aaaa_0001', verdict: 'full-correct' },
+		target: { isConnected: true, dataset: { bbq: 'bbq-fret_overlap_colors-questions.txt' } },
+	});
+	assert.equal(api.isCompleted('bbq-fret_overlap_colors-questions.txt'), true);
+	assert.equal(api.isCompleted('aaaa_0001'), false);
 }
 
 {
 	const resultElement = { textContent: 'incorrect' };
-	const { api, window } = loadProgress(resultElement);
-	const rows = [{
-		questionId: 'aaaa_0001',
-		crc: 'aaaa_0001',
-		topicKey: 'topic01',
-	}];
-	const manifest = { questions: rows };
-	api._test.wrapAnswerChecks(rows, manifest);
-	window.checkAnswer_aaaa_0001();
-	assert.equal(api.isCompleted('aaaa_0001'), false);
+	const { api, listeners } = loadProgress(resultElement);
+	await listeners.get('selftest:graded')({
+		detail: { crc: 'aaaa_0001', verdict: 'incorrect' },
+		target: { isConnected: true, dataset: { bbq: 'bbq-fret_overlap_colors-questions.txt' } },
+	});
+	assert.equal(api.isCompleted('bbq-fret_overlap_colors-questions.txt'), false);
 }
 
-// Completing an unchanged question uses the current variant in another slot.
+// A rerolled CRC earns the same one completion credit for its BBQ problem set;
+// a different set remains incomplete.
 {
-	const { api, window, document } = loadProgress({ textContent: 'CORRECT' });
-	const original = { questionId: 'bbbb_0002', crc: 'bbbb_0002', bankId: 'bank-b',
+	const { api, window, document, listeners } = loadProgress({ textContent: 'CORRECT' });
+	const original = { questionId: 'bbq-fret_overlap_colors-questions.txt', crc: 'bbbb_0002',
 		pagePath: 'biology/topic01/index.md', topicKey: 'topic01' };
-	const unchanged = { questionId: 'aaaa_0001', crc: 'aaaa_0001', bankId: 'bank-a',
+	const unchanged = { questionId: 'bbq-other_problem_set-questions.txt', crc: 'aaaa_0001',
 		pagePath: original.pagePath, topicKey: original.topicKey };
 	const manifest = { questions: [original, unchanged] };
-	let displayed = 'bbbb_0002';
-	document.querySelectorAll = () => [{ dataset: { bankId: 'bank-b' },
-		querySelector: () => ({ id: 'question_html_' + displayed }) }];
-	const count = { textContent: '' };
-	document.querySelector = (selector) => selector === '[data-selftest-topic-count]' ? count : null;
-	api.markCompleted('bbbb_0002');
-	api._test.wrapAnswerChecks([unchanged], manifest);
-	displayed = 'cccc_0003';
-	window.checkAnswer_aaaa_0001();
-	assert.equal(count.textContent, '1 / 2 completed');
-	assert.equal(api.isCompleted('cccc_0003'), false);
-	displayed = 'bbbb_0002';
-	window.checkAnswer_aaaa_0001();
-	assert.equal(count.textContent, '2 / 2 completed');
-	assert.equal(manifest.questions[0].questionId, 'bbbb_0002');
+	window.fetch = async () => ({ ok: true, json: async () => manifest });
+	api.markCompleted(original.questionId);
+	await listeners.get('selftest:graded')({
+		detail: { crc: 'cccc_0003', verdict: 'full-correct' },
+		target: { isConnected: true, dataset: { bbq: original.questionId } },
+	});
+	assert.equal(api.isCompleted(original.questionId), true);
+	assert.equal(api.isCompleted(unchanged.questionId), false);
+	await listeners.get('selftest:graded')({
+		detail: { crc: 'aaaa_0001', verdict: 'full-correct' },
+		target: { isConnected: true, dataset: { bbq: unchanged.questionId } },
+	});
+	assert.equal(api.isCompleted(unchanged.questionId), true);
+	assert.equal(manifest.questions[0].questionId, original.questionId);
 }
 
 console.log('selftest_progress_dom_test.mjs passed');

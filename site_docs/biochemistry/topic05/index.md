@@ -15,23 +15,9 @@ Students choose purification methods for proteins based on size, charge, and bin
 <a class="md-button custom-button webwork_pgml" href="downloads/cell_disruption-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Cell Disruption Techniques from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-cell_disruption-questions.txt" data-bank-id="biochemistry/topic05/index.md:bbq-MATCH-cell_disruption-questions.txt">
-  {% include "biochemistry/topic05/downloads/selftest-MATCH-cell_disruption.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-cell_disruption-questions.txt" data-selftest="biochemistry/topic05/downloads/selftest-MATCH-cell_disruption.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Column Chromatography Types from Descriptions
@@ -45,23 +31,9 @@ Students choose purification methods for proteins based on size, charge, and bin
 <a class="md-button custom-button webwork_pgml" href="downloads/column_chromatography-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Column Chromatography Types from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-column_chromatography-questions.txt" data-bank-id="biochemistry/topic05/index.md:bbq-MATCH-column_chromatography-questions.txt">
-  {% include "biochemistry/topic05/downloads/selftest-MATCH-column_chromatography.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-column_chromatography-questions.txt" data-selftest="biochemistry/topic05/downloads/selftest-MATCH-column_chromatography.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Protein and Nucleic Acid Gel Electrophoresis Components
@@ -75,23 +47,9 @@ Students choose purification methods for proteins based on size, charge, and bin
 <a class="md-button custom-button webwork_pgml" href="downloads/protein_v_dna_gels-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Protein and Nucleic Acid Gel Electrophoresis Components
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-protein_v_dna_gels-questions.txt" data-bank-id="biochemistry/topic05/index.md:bbq-MATCH-protein_v_dna_gels-questions.txt">
-  {% include "biochemistry/topic05/downloads/selftest-MATCH-protein_v_dna_gels.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-protein_v_dna_gels-questions.txt" data-selftest="biochemistry/topic05/downloads/selftest-MATCH-protein_v_dna_gels.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Cell Disruption Techniques from Descriptions
@@ -105,23 +63,9 @@ Students choose purification methods for proteins based on size, charge, and bin
 <a class="md-button custom-button webwork_pgml" href="downloads/cell_disruption-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Cell Disruption Techniques from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-cell_disruption-questions.txt" data-bank-id="biochemistry/topic05/index.md:bbq-WOMC-cell_disruption-questions.txt">
-  {% include "biochemistry/topic05/downloads/selftest-WOMC-cell_disruption.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-cell_disruption-questions.txt" data-selftest="biochemistry/topic05/downloads/selftest-WOMC-cell_disruption.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Column Chromatography Types from Descriptions
@@ -135,23 +79,9 @@ Students choose purification methods for proteins based on size, charge, and bin
 <a class="md-button custom-button webwork_pgml" href="downloads/column_chromatography-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Column Chromatography Types from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-column_chromatography-questions.txt" data-bank-id="biochemistry/topic05/index.md:bbq-WOMC-column_chromatography-questions.txt">
-  {% include "biochemistry/topic05/downloads/selftest-WOMC-column_chromatography.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-column_chromatography-questions.txt" data-selftest="biochemistry/topic05/downloads/selftest-WOMC-column_chromatography.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Protein and Nucleic Acid Gel Electrophoresis Components
@@ -165,23 +95,9 @@ Students choose purification methods for proteins based on size, charge, and bin
 <a class="md-button custom-button webwork_pgml" href="downloads/protein_v_dna_gels-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Protein and Nucleic Acid Gel Electrophoresis Components
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-protein_v_dna_gels-questions.txt" data-bank-id="biochemistry/topic05/index.md:bbq-WOMC-protein_v_dna_gels-questions.txt">
-  {% include "biochemistry/topic05/downloads/selftest-WOMC-protein_v_dna_gels.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-protein_v_dna_gels-questions.txt" data-selftest="biochemistry/topic05/downloads/selftest-WOMC-protein_v_dna_gels.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Protein Net Charge at a Given pH
@@ -195,23 +111,9 @@ Students choose purification methods for proteins based on size, charge, and bin
 <a class="md-button custom-button webwork_pgml" href="downloads/isoelectric_one_protein.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Protein Net Charge at a Given pH
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-isoelectric_one_protein-questions.txt" data-bank-id="biochemistry/topic05/index.md:bbq-isoelectric_one_protein-questions.txt">
-  {% include "biochemistry/topic05/downloads/selftest-isoelectric_one_protein.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-isoelectric_one_protein-questions.txt" data-selftest="biochemistry/topic05/downloads/selftest-isoelectric_one_protein.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Protein Migration Direction in Isoelectric Focusing
@@ -225,23 +127,9 @@ Students choose purification methods for proteins based on size, charge, and bin
 <a class="md-button custom-button webwork_pgml" href="downloads/isoelectric_two_proteins.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Protein Migration Direction in Isoelectric Focusing
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-isoelectric_two_proteins-questions.txt" data-bank-id="biochemistry/topic05/index.md:bbq-isoelectric_two_proteins-questions.txt">
-  {% include "biochemistry/topic05/downloads/selftest-isoelectric_two_proteins.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-isoelectric_two_proteins-questions.txt" data-selftest="biochemistry/topic05/downloads/selftest-isoelectric_two_proteins.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Protein Molecular Weight from an SDS-PAGE Ladder
@@ -255,23 +143,9 @@ Students choose purification methods for proteins based on size, charge, and bin
 <a class="md-button custom-button webwork_pgml" href="downloads/kaleidoscope_ladder_unknown_band.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Protein Molecular Weight from an SDS-PAGE Ladder
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-kaleidoscope_ladder_unknown_band-questions.txt" data-bank-id="biochemistry/topic05/index.md:bbq-kaleidoscope_ladder_unknown_band-questions.txt">
-  {% include "biochemistry/topic05/downloads/selftest-kaleidoscope_ladder_unknown_band.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-kaleidoscope_ladder_unknown_band-questions.txt" data-selftest="biochemistry/topic05/downloads/selftest-kaleidoscope_ladder_unknown_band.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Protein Molecular Weight from SDS-PAGE Migration
@@ -285,23 +159,9 @@ Students choose purification methods for proteins based on size, charge, and bin
 <a class="md-button custom-button webwork_pgml" href="downloads/protein_gel_migration.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Protein Molecular Weight from SDS-PAGE Migration
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-protein_gel_migration-questions.txt" data-bank-id="biochemistry/topic05/index.md:bbq-protein_gel_migration-questions.txt">
-  {% include "biochemistry/topic05/downloads/selftest-protein_gel_migration.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-protein_gel_migration-questions.txt" data-selftest="biochemistry/topic05/downloads/selftest-protein_gel_migration.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Isoelectric Point from pKa Values
@@ -315,22 +175,8 @@ Students choose purification methods for proteins based on size, charge, and bin
 <a class="md-button custom-button webwork_pgml" href="downloads/titration_pI.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Isoelectric Point from pKa Values
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-titration_pI-questions.txt" data-bank-id="biochemistry/topic05/index.md:bbq-titration_pI-questions.txt">
-  {% include "biochemistry/topic05/downloads/selftest-titration_pI.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-titration_pI-questions.txt" data-selftest="biochemistry/topic05/downloads/selftest-titration_pI.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

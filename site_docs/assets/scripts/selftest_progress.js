@@ -1,7 +1,7 @@
 "use strict";
 
 (function () {
-	var STORAGE_KEY = "selftest_progress_v1";
+	var STORAGE_KEY = "selftest_progress_v2";
 	var siteBase = new URL("../", document.currentScript.src);
 	var MANIFEST_URL = new URL("data/selftest_question_manifest.json", siteBase).href;
 	var pageBase = new URL("../", siteBase).pathname;
@@ -9,7 +9,7 @@
 
 	function createEmptyState() {
 		return {
-			version: 1,
+			version: 2,
 			completed: {}
 		};
 	}
@@ -39,7 +39,7 @@
 		}
 		try {
 			var parsed = JSON.parse(raw);
-			if (parsed.version !== 1 || !parsed.completed) {
+			if (parsed.version !== 2 || !parsed.completed) {
 				return createEmptyState();
 			}
 			return parsed;
@@ -83,57 +83,6 @@
 		return true;
 	}
 
-	// Map a question's result element to a completion verdict. The literal
-	// strings and score formats below must match what the generated question
-	// HTML check functions write into result_<crc>; only "full-correct" marks
-	// a question complete. Unknown wording stays "unknown" (no completion).
-	function classifyResultElement(resultElement) {
-		if (!resultElement) {
-			return "unknown";
-		}
-		var text = (resultElement.textContent || "").trim();
-		if (text === "") {
-			return "no-answer";
-		}
-		if (text === "CORRECT") {
-			return "full-correct";
-		}
-		if (
-			text === "Please select an answer." ||
-			text === "Please enter a value." ||
-			text === "Please enter a valid number."
-		) {
-			return "no-answer";
-		}
-		var scoreMatch = text.match(/^Total Score: (\d+) out of (\d+)$/);
-		if (scoreMatch) {
-			return scoreMatch[1] === scoreMatch[2] ? "full-correct" : "partial";
-		}
-		var positionsMatch = text.match(/^Correct positions: (\d+) of (\d+)$/);
-		if (positionsMatch) {
-			return positionsMatch[1] === positionsMatch[2] ? "full-correct" : "partial";
-		}
-		var fibMatch = text.match(/^Correct: (\d+) of (\d+)$/);
-		if (fibMatch) {
-			return fibMatch[1] === fibMatch[2] ? "full-correct" : "partial";
-		}
-		if (
-			text === "incorrect" ||
-			text === "Incorrect. Try again." ||
-			text === "Too high. Try again." ||
-			text === "Too low. Try again."
-		) {
-			return "incorrect";
-		}
-		if (
-			text.indexOf("Too many answers selected.") === 0 ||
-			text.indexOf("Too few answers selected.") === 0 ||
-			text.indexOf("You selected the right number of choices, but only ") === 0
-		) {
-			return "partial";
-		}
-		return "unknown";
-	}
 
 	// Convert a browser pathname to the manifest pagePath form
 	// (subject/topicNN/index.md): strip leading slashes, and append index.md
@@ -179,27 +128,10 @@
 	}
 
 	function topicSummary(topicKey, manifest) {
-		var state = loadState();
 		var rows = manifest.questions.filter(function (row) {
 			return row.topicKey === topicKey;
 		});
-		var completed = rows.filter(function (row) {
-			return Boolean(state.completed[row.questionId]);
-		}).length;
-		return {
-			completed: completed,
-			total: rows.length,
-			isComplete: rows.length > 0 && completed === rows.length
-		};
-	}
-
-	function findQuestionRow(rows, crc) {
-		for (var i = 0; i < rows.length; i += 1) {
-			if (rows[i].crc === crc) {
-				return rows[i];
-			}
-		}
-		return null;
+		return pageSummary(rows);
 	}
 
 	function setQuestionStatus(questionId) {
@@ -225,13 +157,13 @@
 	// the number of badges the learner sees.
 	function pageSummary(rows) {
 		var state = loadState();
-		var completed = rows.filter(function (row) {
-			return Boolean(state.completed[row.questionId]);
-		}).length;
-		return { completed: completed, total: rows.length };
+		var ids = Array.from(new Set(rows.map(function (row) { return row.questionId; })));
+		var completed = ids.filter(function (id) { return Boolean(state.completed[id]); }).length;
+		return { completed: completed, total: ids.length,
+			isComplete: ids.length > 0 && completed === ids.length };
 	}
 
-	function renderTopicSummary(rows, manifest) {
+	function renderTopicSummary(rows) {
 		if (!rows.length || document.getElementById("selftest-topic-progress")) {
 			return;
 		}
@@ -253,7 +185,7 @@
 		h1.insertAdjacentElement("afterend", panel);
 	}
 
-	function updateTopicSummary(rows, manifest) {
+	function updateTopicSummary(rows) {
 		if (!rows.length) {
 			return;
 		}
@@ -264,19 +196,18 @@
 		}
 	}
 
-	function renderQuestionBadges(rows) {
-		rows.forEach(function (row) {
-			var question = document.getElementById("question_html_" + row.crc);
-			if (!question || question.querySelector("[data-selftest-status]")) {
-				return;
-			}
-			var badge = document.createElement("div");
-			badge.setAttribute("data-selftest-status", row.questionId);
-			// role=status so a screen reader announces Completed / Not completed.
-			badge.setAttribute("role", "status");
-			question.insertAdjacentElement("afterbegin", badge);
-			setQuestionStatus(row.questionId);
-		});
+	function renderQuestionBadge(host) {
+		var header = host.querySelector(".selftest-question-header");
+		if (!header) { return; }
+		var badge = header.querySelector("[data-selftest-status]") || document.createElement("div");
+		badge.setAttribute("data-selftest-status", host.dataset.bbq);
+		badge.setAttribute("role", "status");
+		header.prepend(badge);
+		setQuestionStatus(host.dataset.bbq);
+	}
+
+	function renderQuestionBadges() {
+		document.querySelectorAll(".qti-selftest[data-bbq]").forEach(renderQuestionBadge);
 	}
 
 	var CORRECT_SOUND_URL = new URL("sounds/mixkit-correct-positive-notification-957.wav", siteBase).href;
@@ -371,13 +302,6 @@
 		badge.setAttribute("aria-label", "Completed - earned star");
 	}
 
-	// Count total stars (= completed questions) across all manifest questions.
-	function countEarnedStars(manifest) {
-		var state = loadState();
-		return manifest.questions.filter(function (row) {
-			return Boolean(state.completed[row.questionId]);
-		}).length;
-	}
 
 	function showPopup(message) {
 		var status = storageStatus();
@@ -417,45 +341,31 @@
 		h1.insertAdjacentElement("afterend", warning);
 	}
 
-	// Each generated question defines a global checkAnswer_<crc>(). Wrap that
-	// global so we can inspect the rendered result after the original runs and
-	// mark completion on a fully correct answer. The __selfTestProgressWrapped
-	// sentinel prevents double-wrapping when MkDocs Material re-navigates.
-	function wrapAnswerChecks(rows, manifest) {
-		rows.forEach(function (row) {
-			var functionName = "checkAnswer_" + row.crc;
-			var original = window[functionName];
-			if (typeof original !== "function" || original.__selfTestProgressWrapped) {
-				return;
+	// Record completion immediately; loading the dashboard must not delay grading.
+	function onGraded(event) {
+		if (event.detail.verdict !== "full-correct") { return; }
+		if (document.querySelector('[data-selftest-personalization="off"]')) { return; }
+		var crc = event.detail.crc;
+		var questionId = event.target.dataset.bbq;
+		var wasComplete = isCompleted(questionId);
+		var markResult = markCompleted(questionId);
+		setQuestionStatus(questionId);
+		playCorrectSound();
+		launchConfetti();
+		launchStarPop(document.getElementById("question_html_" + crc));
+		if (!wasComplete && markResult.changed) { showPopup("Question completed"); }
+		return initPage().then(function (current) {
+			if (!current || wasComplete || !markResult.changed || !event.target.isConnected) { return; }
+			if (pageSummary(current.rows).isComplete) {
+				showPopup("Topic complete");
 			}
-			var wrapped = function () {
-				var wasComplete = isCompleted(row.questionId);
-				var result = original.apply(this, arguments);
-				var resultElement = document.getElementById("result_" + row.crc);
-				var status = classifyResultElement(resultElement);
-				if (status === "full-correct") {
-					playCorrectSound();
-					launchConfetti();
-					// Star burst near the question element.
-					launchStarPop(document.getElementById("question_html_" + row.crc));
-					var markResult = markCompleted(row.questionId);
-					setQuestionStatus(row.questionId);
-					var current = displayedPage(manifest);
-					updateTopicSummary(current.rows, current.manifest);
-					if (!wasComplete && markResult.changed) {
-						showPopup("Question completed");
-						var summary = topicSummary(row.topicKey, current.manifest);
-						if (summary.isComplete) {
-							showPopup("Topic complete");
-						}
-					}
-				}
-				return result;
-			};
-			wrapped.__selfTestProgressWrapped = true;
-			wrapped.__selfTestProgressOriginal = original;
-			window[functionName] = wrapped;
 		});
+	}
+
+	function onReady(event) {
+		if (document.querySelector('[data-selftest-personalization="off"]')) { return; }
+		renderQuestionBadge(event.target);
+		initPage();
 	}
 
 	function renderDashboard(manifest) {
@@ -469,8 +379,7 @@
 		manifest.questions.forEach(function (row) {
 			if (!subjects[row.subjectKey]) {
 				subjects[row.subjectKey] = {
-					completed: 0,
-					total: 0,
+					rows: [],
 					topics: {}
 				};
 			}
@@ -483,21 +392,16 @@
 					total: 0
 				};
 			}
-			subject.total += 1;
+			subject.rows.push(row);
 			subject.topics[row.topicKey].total += 1;
 			if (state.completed[row.questionId]) {
-				subject.completed += 1;
 				subject.topics[row.topicKey].completed += 1;
 			}
 		});
-		var total = manifest.questions.length;
-		var completed = Object.keys(state.completed).filter(function (questionId) {
-			return manifest.questions.some(function (row) {
-				return row.questionId === questionId;
-			});
-		}).length;
-		// Stars equal completed count (one star per first-correct answer).
-		var stars = countEarnedStars(manifest);
+		var summary = pageSummary(manifest.questions);
+		var total = summary.total;
+		var completed = summary.completed;
+		var stars = completed;
 		var html = "<section class='selftest-dashboard-summary' aria-live='polite'>" +
 			"<strong>Completed:</strong> " + completed + " / " + total +
 			"<span class='selftest-dashboard-stars' aria-label='Stars earned: " + stars + "'>" +
@@ -508,9 +412,10 @@
 		}
 		Object.keys(subjects).sort().forEach(function (subjectKey) {
 			var subject = subjects[subjectKey];
+			var subjectSummary = pageSummary(subject.rows);
 			html += "<section class='selftest-dashboard-subject'>" +
 				"<h2>" + subjectKey.replace(/_/g, " ") + "</h2>" +
-				"<p>" + subject.completed + " / " + subject.total + " completed</p>" +
+				"<p>" + subjectSummary.completed + " / " + subjectSummary.total + " completed</p>" +
 				"<ul>";
 			Object.keys(subject.topics).sort().forEach(function (topicKey) {
 				var topic = subject.topics[topicKey];
@@ -539,44 +444,28 @@
 		}
 	}
 
-	function displayedPage(manifest) {
-		// Bank metadata locates the displayed slot; its current CRC owns completion.
-		var rows = getCurrentRows(manifest).map(function (row) {
-			var hosts = Array.from(document.querySelectorAll(".qti-selftest[data-bank-id]"));
-			var host = hosts.find(function (box) { return box.dataset.bankId === row.bankId; });
-			var item = host && host.querySelector("[id^='question_html_']");
-			var crc = item ? item.id.slice("question_html_".length) : row.crc;
-			return Object.assign({}, row, { questionId: crc, crc: crc });
-		});
-		var pagePath = normalizePagePath(window.location.pathname);
-		var displayedManifest = Object.assign({}, manifest, { questions: manifest.questions.map(function (row) {
-			if (row.pagePath !== pagePath) { return row; }
-			return rows.find(function (displayed) { return displayed.bankId === row.bankId; }) || row;
-		}) });
-		return { rows: rows, manifest: displayedManifest };
-	}
 
 	function initPage() {
 		// Instructor catalog pages do not need progress state or storage warnings.
 		if (document.querySelector('[data-selftest-personalization="off"]')) {
 			return;
 		}
-		fetchManifest().then(function (manifest) {
+		return fetchManifest().then(function (manifest) {
 			renderStorageWarning();
-			var displayed = displayedPage(manifest);
-			var rows = displayed.rows;
-			var displayedManifest = displayed.manifest;
-			renderTopicSummary(rows, manifest);
-			renderQuestionBadges(rows);
-			updateTopicSummary(rows, displayedManifest);
-			wrapAnswerChecks(rows, manifest);
-			renderDashboard(displayedManifest);
+			var rows = getCurrentRows(manifest);
+			renderTopicSummary(rows);
+			renderQuestionBadges();
+			updateTopicSummary(rows);
+			renderDashboard(manifest);
+			return { rows: rows, manifest: manifest };
 		}).catch(function () {
 			renderStorageWarning();
 		});
 	}
 
 	function installLifecycleHooks() {
+		document.addEventListener("selftest:ready", onReady);
+		document.addEventListener("selftest:graded", onGraded);
 		if (document.readyState === "loading") {
 			document.addEventListener("DOMContentLoaded", initPage);
 		} else {
@@ -598,14 +487,11 @@
 		topicSummary: topicSummary,
 		resetAll: resetAll,
 		storageStatus: storageStatus,
-		classifyResultElement: classifyResultElement,
 		normalizePagePath: normalizePagePath,
 		initPage: initPage,
 		_installLifecycleHooks: installLifecycleHooks,
 		_test: {
-			wrapAnswerChecks: wrapAnswerChecks,
-			getCurrentRows: getCurrentRows,
-			displayedPage: displayedPage
+			getCurrentRows: getCurrentRows
 		}
 	};
 

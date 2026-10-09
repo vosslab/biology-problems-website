@@ -13,23 +13,9 @@ RNA splicing, mRNA maturation, and CRISPR gene editing.
 <a class="md-button custom-button webwork_pgml" href="downloads/intron_splicing.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Intron Removal Mechanisms
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-intron_splicing-questions.txt" data-bank-id="molecular_biology/topic08/index.md:bbq-TFMS-intron_splicing-questions.txt">
-  {% include "molecular_biology/topic08/downloads/selftest-TFMS-intron_splicing.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-intron_splicing-questions.txt" data-selftest="molecular_biology/topic08/downloads/selftest-TFMS-intron_splicing.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## mRNA Post-Transcriptional Modification
@@ -43,23 +29,9 @@ RNA splicing, mRNA maturation, and CRISPR gene editing.
 <a class="md-button custom-button webwork_pgml" href="downloads/mRNA_processing.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      mRNA Post-Transcriptional Modification
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-mRNA_processing-questions.txt" data-bank-id="molecular_biology/topic08/index.md:bbq-TFMS-mRNA_processing-questions.txt">
-  {% include "molecular_biology/topic08/downloads/selftest-TFMS-mRNA_processing.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-mRNA_processing-questions.txt" data-selftest="molecular_biology/topic08/downloads/selftest-TFMS-mRNA_processing.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Alternative Splicing Possibilities
@@ -72,22 +44,8 @@ RNA splicing, mRNA maturation, and CRISPR gene editing.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-exon_splicing-questions.txt" data-format="human_readable" data-filename="human_readable-exon_splicing.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Alternative Splicing Possibilities
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-exon_splicing-questions.txt" data-bank-id="molecular_biology/topic08/index.md:bbq-exon_splicing-questions.txt">
-  {% include "molecular_biology/topic08/downloads/selftest-exon_splicing.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-exon_splicing-questions.txt" data-selftest="molecular_biology/topic08/downloads/selftest-exon_splicing.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

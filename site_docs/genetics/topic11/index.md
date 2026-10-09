@@ -14,23 +14,9 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1-questions.txt" data-format="human_readable" data-filename="human_readable-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Phylogenetic Trees from Distance Matrices (3 Taxa)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1-questions.txt" data-bank-id="genetics/topic11/index.md:bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1-questions.txt">
-  {% include "genetics/topic11/downloads/selftest-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1-questions.txt" data-selftest="genetics/topic11/downloads/selftest-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Phylogenetic Trees from Distance Matrices (4 Taxa)
@@ -43,23 +29,9 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2-questions.txt" data-format="human_readable" data-filename="human_readable-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Phylogenetic Trees from Distance Matrices (4 Taxa)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2-questions.txt" data-bank-id="genetics/topic11/index.md:bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2-questions.txt">
-  {% include "genetics/topic11/downloads/selftest-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2-questions.txt" data-selftest="genetics/topic11/downloads/selftest-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Phylogenetic Trees from Distance Matrices (5 Taxa)
@@ -72,23 +44,9 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3-questions.txt" data-format="human_readable" data-filename="human_readable-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Phylogenetic Trees from Distance Matrices (5 Taxa)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3-questions.txt" data-bank-id="genetics/topic11/index.md:bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3-questions.txt">
-  {% include "genetics/topic11/downloads/selftest-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3-questions.txt" data-selftest="genetics/topic11/downloads/selftest-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Phylogenetic Trees from Distance Matrices (6 Taxa)
@@ -101,23 +59,9 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4-questions.txt" data-format="human_readable" data-filename="human_readable-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Phylogenetic Trees from Distance Matrices (6 Taxa)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4-questions.txt" data-bank-id="genetics/topic11/index.md:bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4-questions.txt">
-  {% include "genetics/topic11/downloads/selftest-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4-questions.txt" data-selftest="genetics/topic11/downloads/selftest-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Phylogenetic Trees from Distance Matrices (7 Taxa)
@@ -130,23 +74,9 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5-questions.txt" data-format="human_readable" data-filename="human_readable-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Phylogenetic Trees from Distance Matrices (7 Taxa)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5-questions.txt" data-bank-id="genetics/topic11/index.md:bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5-questions.txt">
-  {% include "genetics/topic11/downloads/selftest-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5-questions.txt" data-selftest="genetics/topic11/downloads/selftest-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Phylogenetic Trees with Different Evolutionary Relationships (Easy, 6 Taxa, With Hint)
@@ -159,23 +89,9 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level-questions.txt" data-format="human_readable" data-filename="human_readable-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Phylogenetic Trees with Different Evolutionary Relationships (Easy, 6 Taxa, With Hint)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level-questions.txt" data-bank-id="genetics/topic11/index.md:bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level-questions.txt">
-  {% include "genetics/topic11/downloads/selftest-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level-questions.txt" data-selftest="genetics/topic11/downloads/selftest-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Phylogenetic Trees with Different Evolutionary Relationships (Medium, 7 Taxa, With Hint)
@@ -188,23 +104,9 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level-questions.txt" data-format="human_readable" data-filename="human_readable-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Phylogenetic Trees with Different Evolutionary Relationships (Medium, 7 Taxa, With Hint)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level-questions.txt" data-bank-id="genetics/topic11/index.md:bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level-questions.txt">
-  {% include "genetics/topic11/downloads/selftest-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level-questions.txt" data-selftest="genetics/topic11/downloads/selftest-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Phylogenetic Trees with Equivalent Evolutionary Relationships (Easy, 5 Taxa, With Hint)
@@ -217,23 +119,9 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level-questions.txt" data-format="human_readable" data-filename="human_readable-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Phylogenetic Trees with Equivalent Evolutionary Relationships (Easy, 5 Taxa, With Hint)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level-questions.txt" data-bank-id="genetics/topic11/index.md:bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level-questions.txt">
-  {% include "genetics/topic11/downloads/selftest-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level-questions.txt" data-selftest="genetics/topic11/downloads/selftest-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Phylogenetic Trees with Equivalent Evolutionary Relationships (Medium, 6 Taxa, With Hint)
@@ -246,22 +134,8 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level-questions.txt" data-format="human_readable" data-filename="human_readable-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Phylogenetic Trees with Equivalent Evolutionary Relationships (Medium, 6 Taxa, With Hint)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level-questions.txt" data-bank-id="genetics/topic11/index.md:bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level-questions.txt">
-  {% include "genetics/topic11/downloads/selftest-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level-questions.txt" data-selftest="genetics/topic11/downloads/selftest-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

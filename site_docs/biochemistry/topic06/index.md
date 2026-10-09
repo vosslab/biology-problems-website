@@ -15,23 +15,9 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 <a class="md-button custom-button webwork_pgml" href="downloads/energy_terms-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Energy-Requiring and Energy-Releasing Processes
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-energy_terms-questions.txt" data-bank-id="biochemistry/topic06/index.md:bbq-MATCH-energy_terms-questions.txt">
-  {% include "biochemistry/topic06/downloads/selftest-MATCH-energy_terms.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-energy_terms-questions.txt" data-selftest="biochemistry/topic06/downloads/selftest-MATCH-energy_terms.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Enzyme Catalysis Terms from Definitions
@@ -45,23 +31,9 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 <a class="md-button custom-button webwork_pgml" href="downloads/enzyme_terminology-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Enzyme Catalysis Terms from Definitions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-enzyme_terminology-questions.txt" data-bank-id="biochemistry/topic06/index.md:bbq-MATCH-enzyme_terminology-questions.txt">
-  {% include "biochemistry/topic06/downloads/selftest-MATCH-enzyme_terminology.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-enzyme_terminology-questions.txt" data-selftest="biochemistry/topic06/downloads/selftest-MATCH-enzyme_terminology.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Chemical Reactions
@@ -75,23 +47,9 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 <a class="md-button custom-button webwork_pgml" href="downloads/chemical_reactions.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Chemical Reactions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-chemical_reactions-questions.txt" data-bank-id="biochemistry/topic06/index.md:bbq-TFMS-chemical_reactions-questions.txt">
-  {% include "biochemistry/topic06/downloads/selftest-TFMS-chemical_reactions.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-chemical_reactions-questions.txt" data-selftest="biochemistry/topic06/downloads/selftest-TFMS-chemical_reactions.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Enzyme Cofactor Identification
@@ -105,23 +63,9 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 <a class="md-button custom-button webwork_pgml" href="downloads/enzyme_cofactors.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Enzyme Cofactor Identification
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-enzyme_cofactors-questions.txt" data-bank-id="biochemistry/topic06/index.md:bbq-TFMS-enzyme_cofactors-questions.txt">
-  {% include "biochemistry/topic06/downloads/selftest-TFMS-enzyme_cofactors.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-enzyme_cofactors-questions.txt" data-selftest="biochemistry/topic06/downloads/selftest-TFMS-enzyme_cofactors.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Enzyme Equilibrium and Kinetics
@@ -135,23 +79,9 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 <a class="md-button custom-button webwork_pgml" href="downloads/enzyme_equilibrium.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Enzyme Equilibrium and Kinetics
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-enzyme_equilibrium-questions.txt" data-bank-id="biochemistry/topic06/index.md:bbq-TFMS-enzyme_equilibrium-questions.txt">
-  {% include "biochemistry/topic06/downloads/selftest-TFMS-enzyme_equilibrium.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-enzyme_equilibrium-questions.txt" data-selftest="biochemistry/topic06/downloads/selftest-TFMS-enzyme_equilibrium.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Gibbs Free Energy (Delta G = Delta H - T Delta S)
@@ -165,23 +95,9 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 <a class="md-button custom-button webwork_pgml" href="downloads/gibbs_free_energy_equation.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Gibbs Free Energy (Delta G = Delta H - T Delta S)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-gibbs_free_energy_equation-questions.txt" data-bank-id="biochemistry/topic06/index.md:bbq-TFMS-gibbs_free_energy_equation-questions.txt">
-  {% include "biochemistry/topic06/downloads/selftest-TFMS-gibbs_free_energy_equation.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-gibbs_free_energy_equation-questions.txt" data-selftest="biochemistry/topic06/downloads/selftest-TFMS-gibbs_free_energy_equation.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Potential and Kinetic Energy Examples
@@ -195,23 +111,9 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 <a class="md-button custom-button webwork_pgml" href="downloads/potential_v_kinetic_energy.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Potential and Kinetic Energy Examples
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-potential_v_kinetic_energy-questions.txt" data-bank-id="biochemistry/topic06/index.md:bbq-TFMS-potential_v_kinetic_energy-questions.txt">
-  {% include "biochemistry/topic06/downloads/selftest-TFMS-potential_v_kinetic_energy.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-potential_v_kinetic_energy-questions.txt" data-selftest="biochemistry/topic06/downloads/selftest-TFMS-potential_v_kinetic_energy.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Thermodynamics and Kinetics
@@ -225,23 +127,9 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 <a class="md-button custom-button webwork_pgml" href="downloads/thermodynamics.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Thermodynamics and Kinetics
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-thermodynamics-questions.txt" data-bank-id="biochemistry/topic06/index.md:bbq-TFMS-thermodynamics-questions.txt">
-  {% include "biochemistry/topic06/downloads/selftest-TFMS-thermodynamics.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-thermodynamics-questions.txt" data-selftest="biochemistry/topic06/downloads/selftest-TFMS-thermodynamics.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Enzyme Naming Patterns
@@ -255,23 +143,9 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 <a class="md-button custom-button webwork_pgml" href="downloads/which_enzyme.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Enzyme Naming Patterns
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-which_enzyme-questions.txt" data-bank-id="biochemistry/topic06/index.md:bbq-TFMS-which_enzyme-questions.txt">
-  {% include "biochemistry/topic06/downloads/selftest-TFMS-which_enzyme.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-which_enzyme-questions.txt" data-selftest="biochemistry/topic06/downloads/selftest-TFMS-which_enzyme.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Energy-Requiring and Energy-Releasing Processes
@@ -285,23 +159,9 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 <a class="md-button custom-button webwork_pgml" href="downloads/energy_terms-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Energy-Requiring and Energy-Releasing Processes
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-energy_terms-questions.txt" data-bank-id="biochemistry/topic06/index.md:bbq-WOMC-energy_terms-questions.txt">
-  {% include "biochemistry/topic06/downloads/selftest-WOMC-energy_terms.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-energy_terms-questions.txt" data-selftest="biochemistry/topic06/downloads/selftest-WOMC-energy_terms.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Enzyme Catalysis Terms from Definitions
@@ -315,23 +175,9 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 <a class="md-button custom-button webwork_pgml" href="downloads/enzyme_terminology-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Enzyme Catalysis Terms from Definitions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-enzyme_terminology-questions.txt" data-bank-id="biochemistry/topic06/index.md:bbq-WOMC-enzyme_terminology-questions.txt">
-  {% include "biochemistry/topic06/downloads/selftest-WOMC-enzyme_terminology.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-enzyme_terminology-questions.txt" data-selftest="biochemistry/topic06/downloads/selftest-WOMC-enzyme_terminology.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Biochemical vs Chemical Standard Free Energy States
@@ -345,23 +191,9 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 <a class="md-button custom-button webwork_pgml" href="downloads/delta_g_prime_standard_state.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Biochemical vs Chemical Standard Free Energy States
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-delta_g_prime_standard_state-questions.txt" data-bank-id="biochemistry/topic06/index.md:bbq-delta_g_prime_standard_state-questions.txt">
-  {% include "biochemistry/topic06/downloads/selftest-delta_g_prime_standard_state.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-delta_g_prime_standard_state-questions.txt" data-selftest="biochemistry/topic06/downloads/selftest-delta_g_prime_standard_state.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Exergonic and Endergonic Reaction Classification
@@ -375,23 +207,9 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 <a class="md-button custom-button webwork_pgml" href="downloads/exergonic_endergonic_reactions.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Exergonic and Endergonic Reaction Classification
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-exergonic_endergonic_reactions-questions.txt" data-bank-id="biochemistry/topic06/index.md:bbq-exergonic_endergonic_reactions-questions.txt">
-  {% include "biochemistry/topic06/downloads/selftest-exergonic_endergonic_reactions.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-exergonic_endergonic_reactions-questions.txt" data-selftest="biochemistry/topic06/downloads/selftest-exergonic_endergonic_reactions.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Gibbs Free Energy Change and Equilibrium Constant Relationships
@@ -405,23 +223,9 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 <a class="md-button custom-button webwork_pgml" href="downloads/free_energy_keq_relationship.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Gibbs Free Energy Change and Equilibrium Constant Relationships
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-free_energy_keq_relationship-questions.txt" data-bank-id="biochemistry/topic06/index.md:bbq-free_energy_keq_relationship-questions.txt">
-  {% include "biochemistry/topic06/downloads/selftest-free_energy_keq_relationship.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-free_energy_keq_relationship-questions.txt" data-selftest="biochemistry/topic06/downloads/selftest-free_energy_keq_relationship.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Gibbs Free Energy Equation Symbols and Meanings
@@ -435,23 +239,9 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 <a class="md-button custom-button webwork_pgml" href="downloads/gibbs_free_energy_equation_symbols.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Gibbs Free Energy Equation Symbols and Meanings
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-gibbs_free_energy_equation_symbols-questions.txt" data-bank-id="biochemistry/topic06/index.md:bbq-gibbs_free_energy_equation_symbols-questions.txt">
-  {% include "biochemistry/topic06/downloads/selftest-gibbs_free_energy_equation_symbols.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-gibbs_free_energy_equation_symbols-questions.txt" data-selftest="biochemistry/topic06/downloads/selftest-gibbs_free_energy_equation_symbols.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Thermodynamics Law Statements
@@ -465,23 +255,9 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 <a class="md-button custom-button webwork_pgml" href="downloads/thermodynamics_law_statements.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Thermodynamics Law Statements
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-thermodynamics_law_statements-questions.txt" data-bank-id="biochemistry/topic06/index.md:bbq-thermodynamics_law_statements-questions.txt">
-  {% include "biochemistry/topic06/downloads/selftest-thermodynamics_law_statements.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-thermodynamics_law_statements-questions.txt" data-selftest="biochemistry/topic06/downloads/selftest-thermodynamics_law_statements.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## First and Second Laws of Thermodynamics for Different Systems
@@ -495,22 +271,8 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 <a class="md-button custom-button webwork_pgml" href="downloads/thermodynamics_system_laws.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      First and Second Laws of Thermodynamics for Different Systems
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-thermodynamics_system_laws-questions.txt" data-bank-id="biochemistry/topic06/index.md:bbq-thermodynamics_system_laws-questions.txt">
-  {% include "biochemistry/topic06/downloads/selftest-thermodynamics_system_laws.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-thermodynamics_system_laws-questions.txt" data-selftest="biochemistry/topic06/downloads/selftest-thermodynamics_system_laws.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

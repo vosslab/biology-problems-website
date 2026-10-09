@@ -3,7 +3,7 @@
 
 Builds a throwaway git repo with one topic that has a live bbq file, its 4
 generated download artifacts, a downloads/ pgml copy, a TOPIC-LEVEL pgml
-master, an index.md self-test include, and the repository-wide
+master, an index.md self-test container, and the repository-wide
 problem_set_titles.yml cache. After staging additions, the
 bbq source file is deleted and reconcile is run. The check asserts the locked
 file-class policy end to end:
@@ -11,7 +11,7 @@ file-class policy end to end:
   - the 4 downloads artifacts AND the downloads pgml copy leave the worktree,
   - the TOPIC-LEVEL pgml master moves to the FLAT orphaned/ folder,
   - the Git index is unchanged, even with staged and unstaged content,
-  - the orphan self-test include line is stripped from index.md,
+  - the orphan self-test container is stripped from index.md,
   - the stale key is dropped while a title for another live topic is kept,
   - a second reconcile that would collide with an existing orphaned/<name>
     reports deferred cleanup and preserves both copies,
@@ -116,12 +116,15 @@ def build_repo(repo_root: str) -> dict:
 	topic_pgml = os.path.join(topic_dir, PGML_NAME)
 	write_file(topic_pgml, "DOCUMENT(); master\n")
 
-	# index.md self-test include for the core
+	# index.md self-test container for the core
 	index_path = os.path.join(topic_dir, "index.md")
 	index_text = (
 		"# Topic title\n"
 		"\n"
-		'{% include "downloads/' + SELFTEST_NAME + '" %}\n'
+		'<div class="qti-selftest" data-bbq="' + BBQ_NAME + '" '
+		'data-selftest="subj/topic01/downloads/' + SELFTEST_NAME + '">\n'
+		'  <div class="selftest-reroll-content"></div>\n'
+		"</div>\n"
 		"Some prose stays here.\n"
 	)
 	write_file(index_path, index_text)
@@ -256,7 +259,7 @@ def check_live_run(repo_root: str, paths: dict) -> None:
 	nested_dest = os.path.join(repo_root, "orphaned", "subj", "topic01", PGML_NAME)
 	assert not os.path.exists(nested_dest), "quarantine is nested, expected flat"
 
-	# The orphan self-test include line is stripped from index.md
+	# The orphan self-test container is stripped from index.md
 	with open(paths["index_path"], "r") as index_file:
 		index_after = index_file.read()
 	assert SELFTEST_NAME not in index_after, "orphan selftest include not stripped"

@@ -13,23 +13,9 @@ Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, bi
 <a class="md-button custom-button webwork_pgml" href="downloads/culture_enrichment-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Culture Enrichment Methods from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-culture_enrichment-questions.txt" data-bank-id="biotechnology/topic04/index.md:bbq-MATCH-culture_enrichment-questions.txt">
-  {% include "biotechnology/topic04/downloads/selftest-MATCH-culture_enrichment.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-culture_enrichment-questions.txt" data-selftest="biotechnology/topic04/downloads/selftest-MATCH-culture_enrichment.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Plant Transgenes from Functions
@@ -43,23 +29,9 @@ Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, bi
 <a class="md-button custom-button webwork_pgml" href="downloads/plant_transgenes-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Plant Transgenes from Functions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-plant_transgenes-questions.txt" data-bank-id="biotechnology/topic04/index.md:bbq-MATCH-plant_transgenes-questions.txt">
-  {% include "biotechnology/topic04/downloads/selftest-MATCH-plant_transgenes.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-plant_transgenes-questions.txt" data-selftest="biotechnology/topic04/downloads/selftest-MATCH-plant_transgenes.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## 2022 Nobel Prize Topics
@@ -73,23 +45,9 @@ Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, bi
 <a class="md-button custom-button webwork_pgml" href="downloads/nobel_prizes.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      2022 Nobel Prize Topics
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-nobel_prizes-questions.txt" data-bank-id="biotechnology/topic04/index.md:bbq-TFMS-nobel_prizes-questions.txt">
-  {% include "biotechnology/topic04/downloads/selftest-TFMS-nobel_prizes.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-nobel_prizes-questions.txt" data-selftest="biotechnology/topic04/downloads/selftest-TFMS-nobel_prizes.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## xDNA and XNA
@@ -103,23 +61,9 @@ Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, bi
 <a class="md-button custom-button webwork_pgml" href="downloads/xna_and_xdna.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      xDNA and XNA
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-xna_and_xdna-questions.txt" data-bank-id="biotechnology/topic04/index.md:bbq-TFMS-xna_and_xdna-questions.txt">
-  {% include "biotechnology/topic04/downloads/selftest-TFMS-xna_and_xdna.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-xna_and_xdna-questions.txt" data-selftest="biotechnology/topic04/downloads/selftest-TFMS-xna_and_xdna.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Culture Enrichment Methods from Descriptions
@@ -133,23 +77,9 @@ Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, bi
 <a class="md-button custom-button webwork_pgml" href="downloads/culture_enrichment-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Culture Enrichment Methods from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-culture_enrichment-questions.txt" data-bank-id="biotechnology/topic04/index.md:bbq-WOMC-culture_enrichment-questions.txt">
-  {% include "biotechnology/topic04/downloads/selftest-WOMC-culture_enrichment.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-culture_enrichment-questions.txt" data-selftest="biotechnology/topic04/downloads/selftest-WOMC-culture_enrichment.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Plant Transgenes from Functions
@@ -163,23 +93,9 @@ Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, bi
 <a class="md-button custom-button webwork_pgml" href="downloads/plant_transgenes-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Plant Transgenes from Functions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-plant_transgenes-questions.txt" data-bank-id="biotechnology/topic04/index.md:bbq-WOMC-plant_transgenes-questions.txt">
-  {% include "biotechnology/topic04/downloads/selftest-WOMC-plant_transgenes.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-plant_transgenes-questions.txt" data-selftest="biotechnology/topic04/downloads/selftest-WOMC-plant_transgenes.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Environmental 16S rDNA Survey Workflow (6 Steps)
@@ -190,22 +106,8 @@ Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, bi
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-microbial_16s_rdna_survey_order-ORD-6_choices-questions.txt" data-format="human_readable" data-filename="human_readable-microbial_16s_rdna_survey_order-ORD-6_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Environmental 16S rDNA Survey Workflow (6 Steps)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-microbial_16s_rdna_survey_order-ORD-6_choices-questions.txt" data-bank-id="biotechnology/topic04/index.md:bbq-microbial_16s_rdna_survey_order-ORD-6_choices-questions.txt">
-  {% include "biotechnology/topic04/downloads/selftest-microbial_16s_rdna_survey_order-ORD-6_choices.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-microbial_16s_rdna_survey_order-ORD-6_choices-questions.txt" data-selftest="biotechnology/topic04/downloads/selftest-microbial_16s_rdna_survey_order-ORD-6_choices.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

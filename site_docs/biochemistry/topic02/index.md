@@ -14,23 +14,9 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-Henderson-Hasselbalch-equation-questions.txt" data-format="human_readable" data-filename="human_readable-Henderson-Hasselbalch-equation.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Correct Form of the Henderson-Hasselbalch Equation
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-Henderson-Hasselbalch-equation-questions.txt" data-bank-id="biochemistry/topic02/index.md:bbq-Henderson-Hasselbalch-equation-questions.txt">
-  {% include "biochemistry/topic02/downloads/selftest-Henderson-Hasselbalch-equation.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-Henderson-Hasselbalch-equation-questions.txt" data-selftest="biochemistry/topic02/downloads/selftest-Henderson-Hasselbalch-equation.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## pH Using the Henderson-Hasselbalch Equation
@@ -43,23 +29,9 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-Henderson-Hasselbalch-pH_mc-questions.txt" data-format="human_readable" data-filename="human_readable-Henderson-Hasselbalch-pH_mc.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      pH Using the Henderson-Hasselbalch Equation
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-Henderson-Hasselbalch-pH_mc-questions.txt" data-bank-id="biochemistry/topic02/index.md:bbq-Henderson-Hasselbalch-pH_mc-questions.txt">
-  {% include "biochemistry/topic02/downloads/selftest-Henderson-Hasselbalch-pH_mc.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-Henderson-Hasselbalch-pH_mc-questions.txt" data-selftest="biochemistry/topic02/downloads/selftest-Henderson-Hasselbalch-pH_mc.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## pH Using the Henderson-Hasselbalch Equation
@@ -72,23 +44,9 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-Henderson-Hasselbalch-pH_num-questions.txt" data-format="human_readable" data-filename="human_readable-Henderson-Hasselbalch-pH_num.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      pH Using the Henderson-Hasselbalch Equation
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-Henderson-Hasselbalch-pH_num-questions.txt" data-bank-id="biochemistry/topic02/index.md:bbq-Henderson-Hasselbalch-pH_num-questions.txt">
-  {% include "biochemistry/topic02/downloads/selftest-Henderson-Hasselbalch-pH_num.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-Henderson-Hasselbalch-pH_num-questions.txt" data-selftest="biochemistry/topic02/downloads/selftest-Henderson-Hasselbalch-pH_num.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## pKa and pKb Using the Henderson-Hasselbalch Equation
@@ -101,23 +59,9 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-Henderson-Hasselbalch-pKa_mc-questions.txt" data-format="human_readable" data-filename="human_readable-Henderson-Hasselbalch-pKa_mc.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      pKa and pKb Using the Henderson-Hasselbalch Equation
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-Henderson-Hasselbalch-pKa_mc-questions.txt" data-bank-id="biochemistry/topic02/index.md:bbq-Henderson-Hasselbalch-pKa_mc-questions.txt">
-  {% include "biochemistry/topic02/downloads/selftest-Henderson-Hasselbalch-pKa_mc.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-Henderson-Hasselbalch-pKa_mc-questions.txt" data-selftest="biochemistry/topic02/downloads/selftest-Henderson-Hasselbalch-pKa_mc.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## pKa and pKb Using the Henderson-Hasselbalch Equation
@@ -130,23 +74,9 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-Henderson-Hasselbalch-pKa_num-questions.txt" data-format="human_readable" data-filename="human_readable-Henderson-Hasselbalch-pKa_num.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      pKa and pKb Using the Henderson-Hasselbalch Equation
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-Henderson-Hasselbalch-pKa_num-questions.txt" data-bank-id="biochemistry/topic02/index.md:bbq-Henderson-Hasselbalch-pKa_num-questions.txt">
-  {% include "biochemistry/topic02/downloads/selftest-Henderson-Hasselbalch-pKa_num.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-Henderson-Hasselbalch-pKa_num-questions.txt" data-selftest="biochemistry/topic02/downloads/selftest-Henderson-Hasselbalch-pKa_num.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Conjugate Base-to-Acid Ratios Using the Henderson-Hasselbalch Equation
@@ -159,23 +89,9 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-Henderson-Hasselbalch-ratio_mc-questions.txt" data-format="human_readable" data-filename="human_readable-Henderson-Hasselbalch-ratio_mc.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Conjugate Base-to-Acid Ratios Using the Henderson-Hasselbalch Equation
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-Henderson-Hasselbalch-ratio_mc-questions.txt" data-bank-id="biochemistry/topic02/index.md:bbq-Henderson-Hasselbalch-ratio_mc-questions.txt">
-  {% include "biochemistry/topic02/downloads/selftest-Henderson-Hasselbalch-ratio_mc.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-Henderson-Hasselbalch-ratio_mc-questions.txt" data-selftest="biochemistry/topic02/downloads/selftest-Henderson-Hasselbalch-ratio_mc.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Conjugate Base-to-Acid Ratios Using the Henderson-Hasselbalch Equation
@@ -188,23 +104,9 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-Henderson-Hasselbalch-ratio_num-questions.txt" data-format="human_readable" data-filename="human_readable-Henderson-Hasselbalch-ratio_num.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Conjugate Base-to-Acid Ratios Using the Henderson-Hasselbalch Equation
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-Henderson-Hasselbalch-ratio_num-questions.txt" data-bank-id="biochemistry/topic02/index.md:bbq-Henderson-Hasselbalch-ratio_num-questions.txt">
-  {% include "biochemistry/topic02/downloads/selftest-Henderson-Hasselbalch-ratio_num.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-Henderson-Hasselbalch-ratio_num-questions.txt" data-selftest="biochemistry/topic02/downloads/selftest-Henderson-Hasselbalch-ratio_num.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Protonation States of Chemical Groups
@@ -218,23 +120,9 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <a class="md-button custom-button webwork_pgml" href="downloads/chemical_group_pka_forms.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Protonation States of Chemical Groups
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-chemical_group_pka_forms-questions.txt" data-bank-id="biochemistry/topic02/index.md:bbq-chemical_group_pka_forms-questions.txt">
-  {% include "biochemistry/topic02/downloads/selftest-chemical_group_pka_forms.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-chemical_group_pka_forms-questions.txt" data-selftest="biochemistry/topic02/downloads/selftest-chemical_group_pka_forms.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Functional Group Classification by Bond Type
@@ -248,23 +136,9 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <a class="md-button custom-button webwork_pgml" href="downloads/functional_groups_bond_types.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Functional Group Classification by Bond Type
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-functional_groups_bond_types-questions.txt" data-bank-id="biochemistry/topic02/index.md:bbq-functional_groups_bond_types-questions.txt">
-  {% include "biochemistry/topic02/downloads/selftest-functional_groups_bond_types.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-functional_groups_bond_types-questions.txt" data-selftest="biochemistry/topic02/downloads/selftest-functional_groups_bond_types.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Optimal Buffering Range Using pKa
@@ -278,23 +152,9 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <a class="md-button custom-button webwork_pgml" href="downloads/optimal_buffering_range.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Optimal Buffering Range Using pKa
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-optimal_buffering_range-questions.txt" data-bank-id="biochemistry/topic02/index.md:bbq-optimal_buffering_range-questions.txt">
-  {% include "biochemistry/topic02/downloads/selftest-optimal_buffering_range.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-optimal_buffering_range-questions.txt" data-selftest="biochemistry/topic02/downloads/selftest-optimal_buffering_range.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Predominant Protonation State from pH and pKa (Diprotic)
@@ -307,23 +167,9 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-pKa_buffer_state-2_protons-questions.txt" data-format="human_readable" data-filename="human_readable-pKa_buffer_state-2_protons.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Predominant Protonation State from pH and pKa (Diprotic)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-pKa_buffer_state-2_protons-questions.txt" data-bank-id="biochemistry/topic02/index.md:bbq-pKa_buffer_state-2_protons-questions.txt">
-  {% include "biochemistry/topic02/downloads/selftest-pKa_buffer_state-2_protons.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-pKa_buffer_state-2_protons-questions.txt" data-selftest="biochemistry/topic02/downloads/selftest-pKa_buffer_state-2_protons.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Predominant Protonation State from pH and pKa (Triprotic)
@@ -336,23 +182,9 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-pKa_buffer_state-3_protons-questions.txt" data-format="human_readable" data-filename="human_readable-pKa_buffer_state-3_protons.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Predominant Protonation State from pH and pKa (Triprotic)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-pKa_buffer_state-3_protons-questions.txt" data-bank-id="biochemistry/topic02/index.md:bbq-pKa_buffer_state-3_protons-questions.txt">
-  {% include "biochemistry/topic02/downloads/selftest-pKa_buffer_state-3_protons.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-pKa_buffer_state-3_protons-questions.txt" data-selftest="biochemistry/topic02/downloads/selftest-pKa_buffer_state-3_protons.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Predominant Protonation State from pH and pKa (Tetraprotic)
@@ -365,23 +197,9 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-pKa_buffer_state-4_protons-questions.txt" data-format="human_readable" data-filename="human_readable-pKa_buffer_state-4_protons.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Predominant Protonation State from pH and pKa (Tetraprotic)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-pKa_buffer_state-4_protons-questions.txt" data-bank-id="biochemistry/topic02/index.md:bbq-pKa_buffer_state-4_protons-questions.txt">
-  {% include "biochemistry/topic02/downloads/selftest-pKa_buffer_state-4_protons.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-pKa_buffer_state-4_protons-questions.txt" data-selftest="biochemistry/topic02/downloads/selftest-pKa_buffer_state-4_protons.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## pH Differences Between Solutions
@@ -395,22 +213,8 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <a class="md-button custom-button webwork_pgml" href="downloads/ph_h_concentration_ratio.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      pH Differences Between Solutions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-ph_h_concentration_ratio-questions.txt" data-bank-id="biochemistry/topic02/index.md:bbq-ph_h_concentration_ratio-questions.txt">
-  {% include "biochemistry/topic02/downloads/selftest-ph_h_concentration_ratio.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-ph_h_concentration_ratio-questions.txt" data-selftest="biochemistry/topic02/downloads/selftest-ph_h_concentration_ratio.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

@@ -15,23 +15,9 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 <a class="md-button custom-button webwork_pgml" href="downloads/catalytic_strategies-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Enzyme Catalytic Strategies
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-catalytic_strategies-questions.txt" data-bank-id="biochemistry/topic08/index.md:bbq-MATCH-catalytic_strategies-questions.txt">
-  {% include "biochemistry/topic08/downloads/selftest-MATCH-catalytic_strategies.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-catalytic_strategies-questions.txt" data-selftest="biochemistry/topic08/downloads/selftest-MATCH-catalytic_strategies.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Enzyme Catalytic Strategies
@@ -45,23 +31,9 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 <a class="md-button custom-button webwork_pgml" href="downloads/catalytic_strategies.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Enzyme Catalytic Strategies
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-catalytic_strategies-questions.txt" data-bank-id="biochemistry/topic08/index.md:bbq-TFMS-catalytic_strategies-questions.txt">
-  {% include "biochemistry/topic08/downloads/selftest-TFMS-catalytic_strategies.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-catalytic_strategies-questions.txt" data-selftest="biochemistry/topic08/downloads/selftest-TFMS-catalytic_strategies.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Chymotrypsin Function
@@ -75,23 +47,9 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 <a class="md-button custom-button webwork_pgml" href="downloads/chymotrypsin.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Chymotrypsin Function
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-chymotrypsin-questions.txt" data-bank-id="biochemistry/topic08/index.md:bbq-TFMS-chymotrypsin-questions.txt">
-  {% include "biochemistry/topic08/downloads/selftest-TFMS-chymotrypsin.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-chymotrypsin-questions.txt" data-selftest="biochemistry/topic08/downloads/selftest-TFMS-chymotrypsin.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Enzyme Inhibitors
@@ -105,23 +63,9 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 <a class="md-button custom-button webwork_pgml" href="downloads/enzyme_inhibitors.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Enzyme Inhibitors
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-enzyme_inhibitors-questions.txt" data-bank-id="biochemistry/topic08/index.md:bbq-TFMS-enzyme_inhibitors-questions.txt">
-  {% include "biochemistry/topic08/downloads/selftest-TFMS-enzyme_inhibitors.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-enzyme_inhibitors-questions.txt" data-selftest="biochemistry/topic08/downloads/selftest-TFMS-enzyme_inhibitors.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Enzyme Catalytic Strategies
@@ -135,23 +79,9 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 <a class="md-button custom-button webwork_pgml" href="downloads/catalytic_strategies-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Enzyme Catalytic Strategies
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-catalytic_strategies-questions.txt" data-bank-id="biochemistry/topic08/index.md:bbq-WOMC-catalytic_strategies-questions.txt">
-  {% include "biochemistry/topic08/downloads/selftest-WOMC-catalytic_strategies.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-catalytic_strategies-questions.txt" data-selftest="biochemistry/topic08/downloads/selftest-WOMC-catalytic_strategies.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Cleavage Sites for Chymotrypsin Digestion of Peptides
@@ -165,23 +95,9 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 <a class="md-button custom-button webwork_pgml" href="downloads/chymotrypsin_substrate.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Cleavage Sites for Chymotrypsin Digestion of Peptides
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-chymotrypsin_substrate-questions.txt" data-bank-id="biochemistry/topic08/index.md:bbq-chymotrypsin_substrate-questions.txt">
-  {% include "biochemistry/topic08/downloads/selftest-chymotrypsin_substrate.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-chymotrypsin_substrate-questions.txt" data-selftest="biochemistry/topic08/downloads/selftest-chymotrypsin_substrate.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Enzyme Inhibition Type from Metabolic Pathway Descriptions
@@ -194,23 +110,9 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-metabolic_pathway_inhibitor-BCHM355-questions.txt" data-format="human_readable" data-filename="human_readable-metabolic_pathway_inhibitor-BCHM355.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Enzyme Inhibition Type from Metabolic Pathway Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-metabolic_pathway_inhibitor-BCHM355-questions.txt" data-bank-id="biochemistry/topic08/index.md:bbq-metabolic_pathway_inhibitor-BCHM355-questions.txt">
-  {% include "biochemistry/topic08/downloads/selftest-metabolic_pathway_inhibitor-BCHM355.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-metabolic_pathway_inhibitor-BCHM355-questions.txt" data-selftest="biochemistry/topic08/downloads/selftest-metabolic_pathway_inhibitor-BCHM355.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Enzyme Inhibition Type from Enzyme Activity Data
@@ -223,22 +125,8 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-michaelis_menten_table-inhibition-questions.txt" data-format="human_readable" data-filename="human_readable-michaelis_menten_table-inhibition.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Enzyme Inhibition Type from Enzyme Activity Data
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-michaelis_menten_table-inhibition-questions.txt" data-bank-id="biochemistry/topic08/index.md:bbq-michaelis_menten_table-inhibition-questions.txt">
-  {% include "biochemistry/topic08/downloads/selftest-michaelis_menten_table-inhibition.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-michaelis_menten_table-inhibition-questions.txt" data-selftest="biochemistry/topic08/downloads/selftest-michaelis_menten_table-inhibition.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

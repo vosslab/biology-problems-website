@@ -15,23 +15,9 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
 <a class="md-button custom-button webwork_pgml" href="downloads/fatty_acid_match_delta.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Fatty Acid Delta Notations from Structures
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-fatty_acid_match_delta-questions.txt" data-bank-id="biochemistry/topic12/index.md:bbq-fatty_acid_match_delta-questions.txt">
-  {% include "biochemistry/topic12/downloads/selftest-fatty_acid_match_delta.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-fatty_acid_match_delta-questions.txt" data-selftest="biochemistry/topic12/downloads/selftest-fatty_acid_match_delta.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Fatty Acid Omega Notations from Structures
@@ -45,23 +31,9 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
 <a class="md-button custom-button webwork_pgml" href="downloads/fatty_acid_match_omega.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Fatty Acid Omega Notations from Structures
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-fatty_acid_match_omega-questions.txt" data-bank-id="biochemistry/topic12/index.md:bbq-fatty_acid_match_omega-questions.txt">
-  {% include "biochemistry/topic12/downloads/selftest-fatty_acid_match_omega.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-fatty_acid_match_omega-questions.txt" data-selftest="biochemistry/topic12/downloads/selftest-fatty_acid_match_omega.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Fatty Acid Double-Bond Positions in Delta Notation
@@ -75,23 +47,9 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
 <a class="md-button custom-button webwork_pgml" href="downloads/fatty_acid_naming_delta.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Fatty Acid Double-Bond Positions in Delta Notation
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-fatty_acid_naming_delta-questions.txt" data-bank-id="biochemistry/topic12/index.md:bbq-fatty_acid_naming_delta-questions.txt">
-  {% include "biochemistry/topic12/downloads/selftest-fatty_acid_naming_delta.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-fatty_acid_naming_delta-questions.txt" data-selftest="biochemistry/topic12/downloads/selftest-fatty_acid_naming_delta.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Fatty Acid Double-Bond Positions in Omega Notation
@@ -105,23 +63,9 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
 <a class="md-button custom-button webwork_pgml" href="downloads/fatty_acid_naming_omega.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Fatty Acid Double-Bond Positions in Omega Notation
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-fatty_acid_naming_omega-questions.txt" data-bank-id="biochemistry/topic12/index.md:bbq-fatty_acid_naming_omega-questions.txt">
-  {% include "biochemistry/topic12/downloads/selftest-fatty_acid_naming_omega.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-fatty_acid_naming_omega-questions.txt" data-selftest="biochemistry/topic12/downloads/selftest-fatty_acid_naming_omega.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Fatty Acid Chain Length and Number of Double Bonds
@@ -135,23 +79,9 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
 <a class="md-button custom-button webwork_pgml" href="downloads/quick_fatty_acid_colon_system.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Fatty Acid Chain Length and Number of Double Bonds
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-quick_fatty_acid_colon_system-questions.txt" data-bank-id="biochemistry/topic12/index.md:bbq-quick_fatty_acid_colon_system-questions.txt">
-  {% include "biochemistry/topic12/downloads/selftest-quick_fatty_acid_colon_system.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-quick_fatty_acid_colon_system-questions.txt" data-selftest="biochemistry/topic12/downloads/selftest-quick_fatty_acid_colon_system.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Lipids by Molecular Formula
@@ -165,22 +95,8 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
 <a class="md-button custom-button webwork_pgml" href="downloads/which_lipid-chemical_formula.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Lipids by Molecular Formula
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-which_lipid-chemical_formula-questions.txt" data-bank-id="biochemistry/topic12/index.md:bbq-which_lipid-chemical_formula-questions.txt">
-  {% include "biochemistry/topic12/downloads/selftest-which_lipid-chemical_formula.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-which_lipid-chemical_formula-questions.txt" data-selftest="biochemistry/topic12/downloads/selftest-which_lipid-chemical_formula.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

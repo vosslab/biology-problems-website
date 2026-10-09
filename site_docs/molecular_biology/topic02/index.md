@@ -13,23 +13,9 @@ DNA composition, base pairing, and double-helix structure.
 <a class="md-button custom-button webwork_pgml" href="downloads/dna_structure.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      DNA Structure (Expanded Set)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-dna_structure-questions.txt" data-bank-id="molecular_biology/topic02/index.md:bbq-TFMS-dna_structure-questions.txt">
-  {% include "molecular_biology/topic02/downloads/selftest-TFMS-dna_structure.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-dna_structure-questions.txt" data-selftest="molecular_biology/topic02/downloads/selftest-TFMS-dna_structure.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## DNA Melting Temperature (Tm)
@@ -43,23 +29,9 @@ DNA composition, base pairing, and double-helix structure.
 <a class="md-button custom-button webwork_pgml" href="downloads/melting_Tm_type_1.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      DNA Melting Temperature (Tm)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-melting_Tm_type_1-questions.txt" data-bank-id="molecular_biology/topic02/index.md:bbq-TFMS-melting_Tm_type_1-questions.txt">
-  {% include "molecular_biology/topic02/downloads/selftest-TFMS-melting_Tm_type_1.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-melting_Tm_type_1-questions.txt" data-selftest="molecular_biology/topic02/downloads/selftest-TFMS-melting_Tm_type_1.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## DNA Melting Temperature (Factors That Increase Tm)
@@ -73,23 +45,9 @@ DNA composition, base pairing, and double-helix structure.
 <a class="md-button custom-button webwork_pgml" href="downloads/melting_Tm_type_2a.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      DNA Melting Temperature (Factors That Increase Tm)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-melting_Tm_type_2a-questions.txt" data-bank-id="molecular_biology/topic02/index.md:bbq-TFMS-melting_Tm_type_2a-questions.txt">
-  {% include "molecular_biology/topic02/downloads/selftest-TFMS-melting_Tm_type_2a.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-melting_Tm_type_2a-questions.txt" data-selftest="molecular_biology/topic02/downloads/selftest-TFMS-melting_Tm_type_2a.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## DNA Melting Temperature (Factors That Decrease Tm)
@@ -103,23 +61,9 @@ DNA composition, base pairing, and double-helix structure.
 <a class="md-button custom-button webwork_pgml" href="downloads/melting_Tm_type_2b.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      DNA Melting Temperature (Factors That Decrease Tm)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-melting_Tm_type_2b-questions.txt" data-bank-id="molecular_biology/topic02/index.md:bbq-TFMS-melting_Tm_type_2b-questions.txt">
-  {% include "molecular_biology/topic02/downloads/selftest-TFMS-melting_Tm_type_2b.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-melting_Tm_type_2b-questions.txt" data-selftest="molecular_biology/topic02/downloads/selftest-TFMS-melting_Tm_type_2b.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Nucleotide Components
@@ -133,23 +77,9 @@ DNA composition, base pairing, and double-helix structure.
 <a class="md-button custom-button webwork_pgml" href="downloads/nucleotide_components.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Nucleotide Components
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-nucleotide_components-questions.txt" data-bank-id="molecular_biology/topic02/index.md:bbq-TFMS-nucleotide_components-questions.txt">
-  {% include "molecular_biology/topic02/downloads/selftest-TFMS-nucleotide_components.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-nucleotide_components-questions.txt" data-selftest="molecular_biology/topic02/downloads/selftest-TFMS-nucleotide_components.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## RNA and DNA Differences (Core Set)
@@ -163,23 +93,9 @@ DNA composition, base pairing, and double-helix structure.
 <a class="md-button custom-button webwork_pgml" href="downloads/rna_v_dna-biol_301.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      RNA and DNA Differences (Core Set)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-rna_v_dna-biol_301-questions.txt" data-bank-id="molecular_biology/topic02/index.md:bbq-TFMS-rna_v_dna-biol_301-questions.txt">
-  {% include "molecular_biology/topic02/downloads/selftest-TFMS-rna_v_dna-biol_301.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-rna_v_dna-biol_301-questions.txt" data-selftest="molecular_biology/topic02/downloads/selftest-TFMS-rna_v_dna-biol_301.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## RNA and DNA Differences (Helix Forms and Charge Included)
@@ -193,23 +109,9 @@ DNA composition, base pairing, and double-helix structure.
 <a class="md-button custom-button webwork_pgml" href="downloads/rna_v_dna.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      RNA and DNA Differences (Helix Forms and Charge Included)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-rna_v_dna-questions.txt" data-bank-id="molecular_biology/topic02/index.md:bbq-TFMS-rna_v_dna-questions.txt">
-  {% include "molecular_biology/topic02/downloads/selftest-TFMS-rna_v_dna.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-rna_v_dna-questions.txt" data-selftest="molecular_biology/topic02/downloads/selftest-TFMS-rna_v_dna.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## DNA Base Composition Using Chargaff&#x27;s Rules (5 Choices)
@@ -222,23 +124,9 @@ DNA composition, base pairing, and double-helix structure.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-chargaff_dna_percent-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-chargaff_dna_percent-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      DNA Base Composition Using Chargaff&#x27;s Rules (5 Choices)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-chargaff_dna_percent-5_choices-questions.txt" data-bank-id="molecular_biology/topic02/index.md:bbq-chargaff_dna_percent-5_choices-questions.txt">
-  {% include "molecular_biology/topic02/downloads/selftest-chargaff_dna_percent-5_choices.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-chargaff_dna_percent-5_choices-questions.txt" data-selftest="molecular_biology/topic02/downloads/selftest-chargaff_dna_percent-5_choices.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Complementary DNA Sequences (Directionless)
@@ -251,23 +139,9 @@ DNA composition, base pairing, and double-helix structure.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-complementary_sequences-mc-directionless-questions.txt" data-format="human_readable" data-filename="human_readable-complementary_sequences-mc-directionless.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Complementary DNA Sequences (Directionless)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-complementary_sequences-mc-directionless-questions.txt" data-bank-id="molecular_biology/topic02/index.md:bbq-complementary_sequences-mc-directionless-questions.txt">
-  {% include "molecular_biology/topic02/downloads/selftest-complementary_sequences-mc-directionless.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-complementary_sequences-mc-directionless-questions.txt" data-selftest="molecular_biology/topic02/downloads/selftest-complementary_sequences-mc-directionless.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## DNA Melting Temperature Extremes from Sequence (12 Bases)
@@ -280,22 +154,8 @@ DNA composition, base pairing, and double-helix structure.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-dna_melting_temp-len_12-questions.txt" data-format="human_readable" data-filename="human_readable-dna_melting_temp-len_12.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      DNA Melting Temperature Extremes from Sequence (12 Bases)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-dna_melting_temp-len_12-questions.txt" data-bank-id="molecular_biology/topic02/index.md:bbq-dna_melting_temp-len_12-questions.txt">
-  {% include "molecular_biology/topic02/downloads/selftest-dna_melting_temp-len_12.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-dna_melting_temp-len_12-questions.txt" data-selftest="molecular_biology/topic02/downloads/selftest-dna_melting_temp-len_12.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

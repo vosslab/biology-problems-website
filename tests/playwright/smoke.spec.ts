@@ -77,7 +77,7 @@ for (const route of ROUTES) {
 		// Seed clean pre-boot state: clear any progress/streak left by a prior
 		// visit so each route is checked in isolation.
 		await page.addInitScript(() => {
-			window.localStorage.removeItem("selftest_progress_v1");
+			window.localStorage.removeItem("selftest_progress_v2");
 			window.localStorage.removeItem("selftest_streak_v1");
 		});
 
@@ -142,9 +142,14 @@ test("site uses the self-hosted Atkinson text font", async ({ page }) => {
 			.evaluate((element) => getComputedStyle(element).fontFamily),
 	);
 	await page.goto("/biostatistics/topic05/", { waitUntil: "load" });
+	const tableQuestion = page.locator(
+		'.qti-selftest[data-bbq="bbq-z_score_table_interp-questions.txt"]',
+	);
+	await tableQuestion.getByRole("button", { name: "Start question", exact: true }).click();
+	await expect(tableQuestion.locator(".selftest-question-status")).toHaveText("Question ready.");
 	textFontFamilies.push(
-		await page
-			.locator('.qti-selftest table[style*="Arial"]')
+		await tableQuestion
+			.getByRole("table").first()
 			.evaluate((element) => getComputedStyle(element).fontFamily),
 	);
 

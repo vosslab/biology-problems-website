@@ -4,9 +4,9 @@
 // fragment in site_docs/ for downstream visual review.
 //
 // For each fragment: 5 screenshots are captured (light + dark):
-//   1. desktop 1280 light  - passive (details expanded)
+//   1. desktop 1280 light  - passive
 //   2. desktop 1280 light  - after interaction (correct answer + Check)
-//   3. mobile 390  light   - passive (details expanded)
+//   3. mobile 390  light   - passive
 //   4. desktop 1280 dark   - passive (Material slate dark via __palette seed)
 //   5. desktop 1280 dark   - after interaction (correct answer + Check)
 //   For fragments with canvas/structure: also mobile 390 dark passive.

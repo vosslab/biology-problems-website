@@ -96,6 +96,12 @@ lists all problem-set titles for browser searching. Generated downloads live und
 the live `bbq-*-questions.txt` files and writes the self-test manifest at
 `site_docs/assets/data/selftest_question_manifest.json`.
 
+Topic pages use empty `.qti-selftest` containers that point to their BBQ bank
+and standalone self-test artifact. Browser lifecycle code in
+`site_docs/assets/scripts/selftest_reroll.js` generates and mounts active
+questions. `selftest_progress.js` keys completion directly by the BBQ filename,
+while `streak.js` subscribes to the lifecycle events.
+
 ## Documentation map
 
 - [README.md](../README.md): project landing page.

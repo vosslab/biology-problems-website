@@ -13,23 +13,9 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 <a class="md-button custom-button webwork_pgml" href="downloads/dna_replication_enzymes-biol_301-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Bacterial DNA Replication Proteins and Functions (Topoisomerase Terminology)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-dna_replication_enzymes-biol_301-questions.txt" data-bank-id="molecular_biology/topic06/index.md:bbq-MATCH-dna_replication_enzymes-biol_301-questions.txt">
-  {% include "molecular_biology/topic06/downloads/selftest-MATCH-dna_replication_enzymes-biol_301.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-dna_replication_enzymes-biol_301-questions.txt" data-selftest="molecular_biology/topic06/downloads/selftest-MATCH-dna_replication_enzymes-biol_301.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Bacterial DNA Replication Proteins and Functions (Gyrase Terminology)
@@ -43,23 +29,9 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 <a class="md-button custom-button webwork_pgml" href="downloads/dna_replication_enzymes-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Bacterial DNA Replication Proteins and Functions (Gyrase Terminology)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-dna_replication_enzymes-questions.txt" data-bank-id="molecular_biology/topic06/index.md:bbq-MATCH-dna_replication_enzymes-questions.txt">
-  {% include "molecular_biology/topic06/downloads/selftest-MATCH-dna_replication_enzymes.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-dna_replication_enzymes-questions.txt" data-selftest="molecular_biology/topic06/downloads/selftest-MATCH-dna_replication_enzymes.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Bacterial DNA Replication (Topoisomerase Terminology)
@@ -73,23 +45,9 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 <a class="md-button custom-button webwork_pgml" href="downloads/dna_replication-biol_301.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Bacterial DNA Replication (Topoisomerase Terminology)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-dna_replication-biol_301-questions.txt" data-bank-id="molecular_biology/topic06/index.md:bbq-TFMS-dna_replication-biol_301-questions.txt">
-  {% include "molecular_biology/topic06/downloads/selftest-TFMS-dna_replication-biol_301.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-dna_replication-biol_301-questions.txt" data-selftest="molecular_biology/topic06/downloads/selftest-TFMS-dna_replication-biol_301.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Bacterial DNA Replication (Gyrase Terminology)
@@ -103,23 +61,9 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 <a class="md-button custom-button webwork_pgml" href="downloads/dna_replication.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Bacterial DNA Replication (Gyrase Terminology)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-dna_replication-questions.txt" data-bank-id="molecular_biology/topic06/index.md:bbq-TFMS-dna_replication-questions.txt">
-  {% include "molecular_biology/topic06/downloads/selftest-TFMS-dna_replication.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-dna_replication-questions.txt" data-selftest="molecular_biology/topic06/downloads/selftest-TFMS-dna_replication.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Leading and Lagging Strands
@@ -133,23 +77,9 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 <a class="md-button custom-button webwork_pgml" href="downloads/leading_v_lagging_strand.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Leading and Lagging Strands
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-leading_v_lagging_strand-questions.txt" data-bank-id="molecular_biology/topic06/index.md:bbq-TFMS-leading_v_lagging_strand-questions.txt">
-  {% include "molecular_biology/topic06/downloads/selftest-TFMS-leading_v_lagging_strand.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-leading_v_lagging_strand-questions.txt" data-selftest="molecular_biology/topic06/downloads/selftest-TFMS-leading_v_lagging_strand.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## DNA Polymerase Proofreading
@@ -163,23 +93,9 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 <a class="md-button custom-button webwork_pgml" href="downloads/proofreading.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      DNA Polymerase Proofreading
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-proofreading-questions.txt" data-bank-id="molecular_biology/topic06/index.md:bbq-TFMS-proofreading-questions.txt">
-  {% include "molecular_biology/topic06/downloads/selftest-TFMS-proofreading.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-proofreading-questions.txt" data-selftest="molecular_biology/topic06/downloads/selftest-TFMS-proofreading.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Bacterial DNA Replication Proteins and Functions (Topoisomerase Terminology)
@@ -193,23 +109,9 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 <a class="md-button custom-button webwork_pgml" href="downloads/dna_replication_enzymes-biol_301-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Bacterial DNA Replication Proteins and Functions (Topoisomerase Terminology)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-dna_replication_enzymes-biol_301-questions.txt" data-bank-id="molecular_biology/topic06/index.md:bbq-WOMC-dna_replication_enzymes-biol_301-questions.txt">
-  {% include "molecular_biology/topic06/downloads/selftest-WOMC-dna_replication_enzymes-biol_301.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-dna_replication_enzymes-biol_301-questions.txt" data-selftest="molecular_biology/topic06/downloads/selftest-WOMC-dna_replication_enzymes-biol_301.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Bacterial DNA Replication Proteins and Functions (Gyrase Terminology)
@@ -223,22 +125,8 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 <a class="md-button custom-button webwork_pgml" href="downloads/dna_replication_enzymes-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Bacterial DNA Replication Proteins and Functions (Gyrase Terminology)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-dna_replication_enzymes-questions.txt" data-bank-id="molecular_biology/topic06/index.md:bbq-WOMC-dna_replication_enzymes-questions.txt">
-  {% include "molecular_biology/topic06/downloads/selftest-WOMC-dna_replication_enzymes.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-dna_replication_enzymes-questions.txt" data-selftest="molecular_biology/topic06/downloads/selftest-WOMC-dna_replication_enzymes.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

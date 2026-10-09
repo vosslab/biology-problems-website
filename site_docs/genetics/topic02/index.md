@@ -15,23 +15,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <a class="md-button custom-button webwork_pgml" href="downloads/dna_structure-biol_351.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      DNA Structure (Core Set)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-dna_structure-biol_351-questions.txt" data-bank-id="genetics/topic02/index.md:bbq-TFMS-dna_structure-biol_351-questions.txt">
-  {% include "genetics/topic02/downloads/selftest-TFMS-dna_structure-biol_351.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-dna_structure-biol_351-questions.txt" data-selftest="genetics/topic02/downloads/selftest-TFMS-dna_structure-biol_351.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## English Palindrome Identification
@@ -45,23 +31,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <a class="md-button custom-button webwork_pgml" href="downloads/english_palindromes.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      English Palindrome Identification
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-english_palindromes-questions.txt" data-bank-id="genetics/topic02/index.md:bbq-TFMS-english_palindromes-questions.txt">
-  {% include "genetics/topic02/downloads/selftest-TFMS-english_palindromes.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-english_palindromes-questions.txt" data-selftest="genetics/topic02/downloads/selftest-TFMS-english_palindromes.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Nucleotide Components
@@ -75,23 +47,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <a class="md-button custom-button webwork_pgml" href="downloads/nucleotide_components.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Nucleotide Components
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-nucleotide_components-questions.txt" data-bank-id="genetics/topic02/index.md:bbq-TFMS-nucleotide_components-questions.txt">
-  {% include "genetics/topic02/downloads/selftest-TFMS-nucleotide_components.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-nucleotide_components-questions.txt" data-selftest="genetics/topic02/downloads/selftest-TFMS-nucleotide_components.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## RNA and DNA Differences (Helix Forms and Charge Included)
@@ -105,23 +63,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <a class="md-button custom-button webwork_pgml" href="downloads/rna_v_dna.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      RNA and DNA Differences (Helix Forms and Charge Included)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-rna_v_dna-questions.txt" data-bank-id="genetics/topic02/index.md:bbq-TFMS-rna_v_dna-questions.txt">
-  {% include "genetics/topic02/downloads/selftest-TFMS-rna_v_dna.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-rna_v_dna-questions.txt" data-selftest="genetics/topic02/downloads/selftest-TFMS-rna_v_dna.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## DNA Base Composition Using Chargaff&#x27;s Rules (5 Choices)
@@ -134,23 +78,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-chargaff_dna_percent-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-chargaff_dna_percent-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      DNA Base Composition Using Chargaff&#x27;s Rules (5 Choices)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-chargaff_dna_percent-5_choices-questions.txt" data-bank-id="genetics/topic02/index.md:bbq-chargaff_dna_percent-5_choices-questions.txt">
-  {% include "genetics/topic02/downloads/selftest-chargaff_dna_percent-5_choices.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-chargaff_dna_percent-5_choices-questions.txt" data-selftest="genetics/topic02/downloads/selftest-chargaff_dna_percent-5_choices.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Restriction Fragment Sizes from Circular DNA Maps (10 kb, 2 Sites)
@@ -163,23 +93,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-circular_digest-length_10-sites_2_selected-questions.txt" data-format="human_readable" data-filename="human_readable-circular_digest-length_10-sites_2_selected.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Fragment Sizes from Circular DNA Maps (10 kb, 2 Sites)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-circular_digest-length_10-sites_2_selected-questions.txt" data-bank-id="genetics/topic02/index.md:bbq-circular_digest-length_10-sites_2_selected-questions.txt">
-  {% include "genetics/topic02/downloads/selftest-circular_digest-length_10-sites_2_selected.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-circular_digest-length_10-sites_2_selected-questions.txt" data-selftest="genetics/topic02/downloads/selftest-circular_digest-length_10-sites_2_selected.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Restriction Fragment Sizes from Circular DNA Maps (12 kb, 3 Sites)
@@ -192,23 +108,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-circular_digest-length_12-sites_3_selected-questions.txt" data-format="human_readable" data-filename="human_readable-circular_digest-length_12-sites_3_selected.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Fragment Sizes from Circular DNA Maps (12 kb, 3 Sites)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-circular_digest-length_12-sites_3_selected-questions.txt" data-bank-id="genetics/topic02/index.md:bbq-circular_digest-length_12-sites_3_selected-questions.txt">
-  {% include "genetics/topic02/downloads/selftest-circular_digest-length_12-sites_3_selected.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-circular_digest-length_12-sites_3_selected-questions.txt" data-selftest="genetics/topic02/downloads/selftest-circular_digest-length_12-sites_3_selected.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Restriction Fragment Sizes from Circular DNA Maps (16 kb, 3 Sites)
@@ -221,23 +123,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-circular_digest-length_16-sites_3_selected-questions.txt" data-format="human_readable" data-filename="human_readable-circular_digest-length_16-sites_3_selected.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Fragment Sizes from Circular DNA Maps (16 kb, 3 Sites)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-circular_digest-length_16-sites_3_selected-questions.txt" data-bank-id="genetics/topic02/index.md:bbq-circular_digest-length_16-sites_3_selected-questions.txt">
-  {% include "genetics/topic02/downloads/selftest-circular_digest-length_16-sites_3_selected.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-circular_digest-length_16-sites_3_selected-questions.txt" data-selftest="genetics/topic02/downloads/selftest-circular_digest-length_16-sites_3_selected.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Complementary DNA Sequences (Directionless)
@@ -250,23 +138,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-complementary_sequences-mc-directionless-questions.txt" data-format="human_readable" data-filename="human_readable-complementary_sequences-mc-directionless.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Complementary DNA Sequences (Directionless)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-complementary_sequences-mc-directionless-questions.txt" data-bank-id="genetics/topic02/index.md:bbq-complementary_sequences-mc-directionless-questions.txt">
-  {% include "genetics/topic02/downloads/selftest-complementary_sequences-mc-directionless.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-complementary_sequences-mc-directionless-questions.txt" data-selftest="genetics/topic02/downloads/selftest-complementary_sequences-mc-directionless.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Complementary DNA Sequences (5&#x27;/3&#x27; Labels)
@@ -279,23 +153,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-complementary_sequences-mc-prime-questions.txt" data-format="human_readable" data-filename="human_readable-complementary_sequences-mc-prime.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Complementary DNA Sequences (5&#x27;/3&#x27; Labels)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-complementary_sequences-mc-prime-questions.txt" data-bank-id="genetics/topic02/index.md:bbq-complementary_sequences-mc-prime-questions.txt">
-  {% include "genetics/topic02/downloads/selftest-complementary_sequences-mc-prime.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-complementary_sequences-mc-prime-questions.txt" data-selftest="genetics/topic02/downloads/selftest-complementary_sequences-mc-prime.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Restriction Fragment Sizes from Linear DNA Maps (10 kb, 2 Sites, Isolated Fragment)
@@ -308,23 +168,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-linear_digest-len_10-sites_2-fragment-questions.txt" data-format="human_readable" data-filename="human_readable-linear_digest-len_10-sites_2-fragment.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Fragment Sizes from Linear DNA Maps (10 kb, 2 Sites, Isolated Fragment)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-linear_digest-len_10-sites_2-fragment-questions.txt" data-bank-id="genetics/topic02/index.md:bbq-linear_digest-len_10-sites_2-fragment-questions.txt">
-  {% include "genetics/topic02/downloads/selftest-linear_digest-len_10-sites_2-fragment.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-linear_digest-len_10-sites_2-fragment-questions.txt" data-selftest="genetics/topic02/downloads/selftest-linear_digest-len_10-sites_2-fragment.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Restriction Fragment Sizes from Linear DNA Maps (10 kb, 3 Sites, Internal Segment)
@@ -337,23 +183,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-linear_digest-len_10-sites_3-strand-questions.txt" data-format="human_readable" data-filename="human_readable-linear_digest-len_10-sites_3-strand.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Fragment Sizes from Linear DNA Maps (10 kb, 3 Sites, Internal Segment)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-linear_digest-len_10-sites_3-strand-questions.txt" data-bank-id="genetics/topic02/index.md:bbq-linear_digest-len_10-sites_3-strand-questions.txt">
-  {% include "genetics/topic02/downloads/selftest-linear_digest-len_10-sites_3-strand.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-linear_digest-len_10-sites_3-strand-questions.txt" data-selftest="genetics/topic02/downloads/selftest-linear_digest-len_10-sites_3-strand.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Isolated Fragment)
@@ -366,23 +198,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-linear_digest-len_12-sites_3-fragment-questions.txt" data-format="human_readable" data-filename="human_readable-linear_digest-len_12-sites_3-fragment.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Isolated Fragment)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-linear_digest-len_12-sites_3-fragment-questions.txt" data-bank-id="genetics/topic02/index.md:bbq-linear_digest-len_12-sites_3-fragment-questions.txt">
-  {% include "genetics/topic02/downloads/selftest-linear_digest-len_12-sites_3-fragment.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-linear_digest-len_12-sites_3-fragment-questions.txt" data-selftest="genetics/topic02/downloads/selftest-linear_digest-len_12-sites_3-fragment.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Internal Segment)
@@ -395,23 +213,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-linear_digest-len_12-sites_3-strand-questions.txt" data-format="human_readable" data-filename="human_readable-linear_digest-len_12-sites_3-strand.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Internal Segment)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-linear_digest-len_12-sites_3-strand-questions.txt" data-bank-id="genetics/topic02/index.md:bbq-linear_digest-len_12-sites_3-strand-questions.txt">
-  {% include "genetics/topic02/downloads/selftest-linear_digest-len_12-sites_3-strand.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-linear_digest-len_12-sites_3-strand-questions.txt" data-selftest="genetics/topic02/downloads/selftest-linear_digest-len_12-sites_3-strand.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Restriction Fragment Sizes from Linear DNA Maps (16 kb, 4 Sites, Isolated Fragment)
@@ -424,23 +228,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-linear_digest-len_16-sites_4-fragment-questions.txt" data-format="human_readable" data-filename="human_readable-linear_digest-len_16-sites_4-fragment.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Fragment Sizes from Linear DNA Maps (16 kb, 4 Sites, Isolated Fragment)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-linear_digest-len_16-sites_4-fragment-questions.txt" data-bank-id="genetics/topic02/index.md:bbq-linear_digest-len_16-sites_4-fragment-questions.txt">
-  {% include "genetics/topic02/downloads/selftest-linear_digest-len_16-sites_4-fragment.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-linear_digest-len_16-sites_4-fragment-questions.txt" data-selftest="genetics/topic02/downloads/selftest-linear_digest-len_16-sites_4-fragment.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Restriction Fragment Sizes from Linear DNA Maps (16 kb, 4 Sites, Internal Segment)
@@ -453,23 +243,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-linear_digest-len_16-sites_4-strand-questions.txt" data-format="human_readable" data-filename="human_readable-linear_digest-len_16-sites_4-strand.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Fragment Sizes from Linear DNA Maps (16 kb, 4 Sites, Internal Segment)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-linear_digest-len_16-sites_4-strand-questions.txt" data-bank-id="genetics/topic02/index.md:bbq-linear_digest-len_16-sites_4-strand-questions.txt">
-  {% include "genetics/topic02/downloads/selftest-linear_digest-len_16-sites_4-strand.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-linear_digest-len_16-sites_4-strand-questions.txt" data-selftest="genetics/topic02/downloads/selftest-linear_digest-len_16-sites_4-strand.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Restriction Enzyme Overhang Sequences
@@ -482,23 +258,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-overhang_sequence-mc-questions.txt" data-format="human_readable" data-filename="human_readable-overhang_sequence-mc.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Enzyme Overhang Sequences
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-overhang_sequence-mc-questions.txt" data-bank-id="genetics/topic02/index.md:bbq-overhang_sequence-mc-questions.txt">
-  {% include "genetics/topic02/downloads/selftest-overhang_sequence-mc.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-overhang_sequence-mc-questions.txt" data-selftest="genetics/topic02/downloads/selftest-overhang_sequence-mc.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Restriction Enzyme Cut Types (5&#x27;, 3&#x27;, or Blunt)
@@ -511,23 +273,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-overhang_type-5_3_blunt-questions.txt" data-format="human_readable" data-filename="human_readable-overhang_type-5_3_blunt.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Enzyme Cut Types (5&#x27;, 3&#x27;, or Blunt)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-overhang_type-5_3_blunt-questions.txt" data-bank-id="genetics/topic02/index.md:bbq-overhang_type-5_3_blunt-questions.txt">
-  {% include "genetics/topic02/downloads/selftest-overhang_type-5_3_blunt.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-overhang_type-5_3_blunt-questions.txt" data-selftest="genetics/topic02/downloads/selftest-overhang_type-5_3_blunt.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Restriction Enzyme Cut Types (Blunt or Sticky)
@@ -540,23 +288,9 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-overhang_type-blunt_v_sticky-questions.txt" data-format="human_readable" data-filename="human_readable-overhang_type-blunt_v_sticky.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Enzyme Cut Types (Blunt or Sticky)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-overhang_type-blunt_v_sticky-questions.txt" data-bank-id="genetics/topic02/index.md:bbq-overhang_type-blunt_v_sticky-questions.txt">
-  {% include "genetics/topic02/downloads/selftest-overhang_type-blunt_v_sticky.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-overhang_type-blunt_v_sticky-questions.txt" data-selftest="genetics/topic02/downloads/selftest-overhang_type-blunt_v_sticky.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Palindromic DNA Sequence Completion
@@ -569,22 +303,8 @@ Students answer questions about DNA composition, base pairing rules, nucleotide 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-palindrome_sequence_match-questions.txt" data-format="human_readable" data-filename="human_readable-palindrome_sequence_match.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Palindromic DNA Sequence Completion
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-palindrome_sequence_match-questions.txt" data-bank-id="genetics/topic02/index.md:bbq-palindrome_sequence_match-questions.txt">
-  {% include "genetics/topic02/downloads/selftest-palindrome_sequence_match.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-palindrome_sequence_match-questions.txt" data-selftest="genetics/topic02/downloads/selftest-palindrome_sequence_match.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

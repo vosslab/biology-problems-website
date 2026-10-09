@@ -15,23 +15,9 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 <a class="md-button custom-button webwork_pgml" href="downloads/senses_receptor_types_by_modality-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Sensory Modalities from Receptor Cell Types
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-senses_receptor_types_by_modality-questions.txt" data-bank-id="biochemistry/topic14/index.md:bbq-MATCH-senses_receptor_types_by_modality-questions.txt">
-  {% include "biochemistry/topic14/downloads/selftest-MATCH-senses_receptor_types_by_modality.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-senses_receptor_types_by_modality-questions.txt" data-selftest="biochemistry/topic14/downloads/selftest-MATCH-senses_receptor_types_by_modality.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Sensory Signal Transduction Components from Functions
@@ -45,23 +31,9 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 <a class="md-button custom-button webwork_pgml" href="downloads/senses_signal_transduction_matching_set-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Sensory Signal Transduction Components from Functions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-senses_signal_transduction_matching_set-questions.txt" data-bank-id="biochemistry/topic14/index.md:bbq-MATCH-senses_signal_transduction_matching_set-questions.txt">
-  {% include "biochemistry/topic14/downloads/selftest-MATCH-senses_signal_transduction_matching_set.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-senses_signal_transduction_matching_set-questions.txt" data-selftest="biochemistry/topic14/downloads/selftest-MATCH-senses_signal_transduction_matching_set.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Taste Qualities from Stimuli
@@ -75,23 +47,9 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 <a class="md-button custom-button webwork_pgml" href="downloads/senses_taste_quality_to_stimulus-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Taste Qualities from Stimuli
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-senses_taste_quality_to_stimulus-questions.txt" data-bank-id="biochemistry/topic14/index.md:bbq-MATCH-senses_taste_quality_to_stimulus-questions.txt">
-  {% include "biochemistry/topic14/downloads/selftest-MATCH-senses_taste_quality_to_stimulus.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-senses_taste_quality_to_stimulus-questions.txt" data-selftest="biochemistry/topic14/downloads/selftest-MATCH-senses_taste_quality_to_stimulus.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Chemosensation (Smell and Taste)
@@ -105,23 +63,9 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 <a class="md-button custom-button webwork_pgml" href="downloads/senses_chemosensation_smell_taste.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Chemosensation (Smell and Taste)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-senses_chemosensation_smell_taste-questions.txt" data-bank-id="biochemistry/topic14/index.md:bbq-TFMS-senses_chemosensation_smell_taste-questions.txt">
-  {% include "biochemistry/topic14/downloads/selftest-TFMS-senses_chemosensation_smell_taste.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-senses_chemosensation_smell_taste-questions.txt" data-selftest="biochemistry/topic14/downloads/selftest-TFMS-senses_chemosensation_smell_taste.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Sensory Coding (Smell vs. Taste)
@@ -135,23 +79,9 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 <a class="md-button custom-button webwork_pgml" href="downloads/senses_smell_vs_taste.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Sensory Coding (Smell vs. Taste)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-senses_smell_vs_taste-questions.txt" data-bank-id="biochemistry/topic14/index.md:bbq-TFMS-senses_smell_vs_taste-questions.txt">
-  {% include "biochemistry/topic14/downloads/selftest-TFMS-senses_smell_vs_taste.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-senses_smell_vs_taste-questions.txt" data-selftest="biochemistry/topic14/downloads/selftest-TFMS-senses_smell_vs_taste.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Vision and Hearing Transduction
@@ -165,23 +95,9 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 <a class="md-button custom-button webwork_pgml" href="downloads/senses_vision_hearing.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Vision and Hearing Transduction
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-senses_vision_hearing-questions.txt" data-bank-id="biochemistry/topic14/index.md:bbq-TFMS-senses_vision_hearing-questions.txt">
-  {% include "biochemistry/topic14/downloads/selftest-TFMS-senses_vision_hearing.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-senses_vision_hearing-questions.txt" data-selftest="biochemistry/topic14/downloads/selftest-TFMS-senses_vision_hearing.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Sensory Modalities from Receptor Cell Types
@@ -195,23 +111,9 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 <a class="md-button custom-button webwork_pgml" href="downloads/senses_receptor_types_by_modality-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Sensory Modalities from Receptor Cell Types
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-senses_receptor_types_by_modality-questions.txt" data-bank-id="biochemistry/topic14/index.md:bbq-WOMC-senses_receptor_types_by_modality-questions.txt">
-  {% include "biochemistry/topic14/downloads/selftest-WOMC-senses_receptor_types_by_modality.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-senses_receptor_types_by_modality-questions.txt" data-selftest="biochemistry/topic14/downloads/selftest-WOMC-senses_receptor_types_by_modality.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Sensory Signal Transduction Components from Functions
@@ -225,23 +127,9 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 <a class="md-button custom-button webwork_pgml" href="downloads/senses_signal_transduction_matching_set-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Sensory Signal Transduction Components from Functions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-senses_signal_transduction_matching_set-questions.txt" data-bank-id="biochemistry/topic14/index.md:bbq-WOMC-senses_signal_transduction_matching_set-questions.txt">
-  {% include "biochemistry/topic14/downloads/selftest-WOMC-senses_signal_transduction_matching_set.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-senses_signal_transduction_matching_set-questions.txt" data-selftest="biochemistry/topic14/downloads/selftest-WOMC-senses_signal_transduction_matching_set.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Taste Qualities from Stimuli
@@ -255,22 +143,8 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 <a class="md-button custom-button webwork_pgml" href="downloads/senses_taste_quality_to_stimulus-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Taste Qualities from Stimuli
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-senses_taste_quality_to_stimulus-questions.txt" data-bank-id="biochemistry/topic14/index.md:bbq-WOMC-senses_taste_quality_to_stimulus-questions.txt">
-  {% include "biochemistry/topic14/downloads/selftest-WOMC-senses_taste_quality_to_stimulus.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-senses_taste_quality_to_stimulus-questions.txt" data-selftest="biochemistry/topic14/downloads/selftest-WOMC-senses_taste_quality_to_stimulus.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

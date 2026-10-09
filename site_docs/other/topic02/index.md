@@ -12,23 +12,9 @@ Students analyze physical methods applied to biological molecules, including FRE
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-fret_overlap_colors-questions.txt" data-format="human_readable" data-filename="human_readable-fret_overlap_colors.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      FRET Donor-Acceptor Pairs from Spectral Overlap
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-fret_overlap_colors-questions.txt" data-bank-id="other/topic02/index.md:bbq-fret_overlap_colors-questions.txt">
-  {% include "other/topic02/downloads/selftest-fret_overlap_colors.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-fret_overlap_colors-questions.txt" data-selftest="other/topic02/downloads/selftest-fret_overlap_colors.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## FRET Color Assignments from Donor-Acceptor Permutations
@@ -41,22 +27,8 @@ Students analyze physical methods applied to biological molecules, including FRE
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-fret_permute_colors-questions.txt" data-format="human_readable" data-filename="human_readable-fret_permute_colors.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      FRET Color Assignments from Donor-Acceptor Permutations
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-fret_permute_colors-questions.txt" data-bank-id="other/topic02/index.md:bbq-fret_permute_colors-questions.txt">
-  {% include "other/topic02/downloads/selftest-fret_permute_colors.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-fret_permute_colors-questions.txt" data-selftest="other/topic02/downloads/selftest-fret_permute_colors.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

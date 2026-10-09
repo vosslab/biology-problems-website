@@ -219,7 +219,7 @@ def test_quarantine_dest_raises_on_existing_dest(tmp_path: object) -> object:
 
 
 #============================================
-# strip_orphan_includes exact-line removal
+# strip_orphan_selftests exact-container removal
 
 def _write_index(tmp_path: object, lines: object) -> object:
 	index_path = os.path.join(str(tmp_path), "index.md")
@@ -228,33 +228,50 @@ def _write_index(tmp_path: object, lines: object) -> object:
 	return index_path
 
 
-def test_strip_orphan_includes_removes_only_orphan_line(tmp_path: object) -> object:
+def _selftest_container(core: str) -> str:
+	"""Return the generated topic-page shell for one BBQ source."""
+	return (
+		f'<div class="qti-selftest" data-bbq="bbq-{core}-questions.txt">\n'
+		'  <div class="selftest-reroll-content"></div>\n'
+		'</div>\n'
+	)
+
+
+def test_strip_orphan_selftests_removes_only_orphan_container(tmp_path: object) -> object:
 	lines = [
 		"# Topic title\n",
 		"\n",
-		'{% include "downloads/selftest-alpha.html" %}\n',
-		'{% include "downloads/selftest-ghost.html" %}\n',
+		'<div class="qti-selftest" data-bbq="bbq-alpha-questions.txt">\n',
+		'  <div class="selftest-reroll-content"></div>\n',
+		"</div>\n",
+		'<div class="qti-selftest" data-bbq="bbq-ghost-questions.txt">\n',
+		'  <div class="selftest-reroll-content"></div>\n',
+		"</div>\n",
 		"Some prose stays here.\n",
 	]
 	index_path = _write_index(tmp_path, lines)
-	removed = orphan_prune.strip_orphan_includes(index_path, {"alpha"}, dry_run=False)
+	removed = orphan_prune.strip_orphan_selftests(index_path, {"alpha"}, dry_run=False)
 	assert removed == 1
 	with open(index_path, "r") as index_file:
 		remaining = index_file.read()
-	# The orphan include is gone, the live include and prose remain
-	assert "selftest-ghost.html" not in remaining
-	assert "selftest-alpha.html" in remaining
+	# The orphan container is gone, the live container and prose remain.
+	assert "bbq-ghost-questions.txt" not in remaining
+	assert "bbq-alpha-questions.txt" in remaining
 	assert "Some prose stays here." in remaining
 
 
-def test_strip_orphan_includes_dry_run_no_write(tmp_path: object) -> object:
-	lines = ['{% include "downloads/selftest-ghost.html" %}\n']
+def test_strip_orphan_selftests_dry_run_no_write(tmp_path: object) -> object:
+	lines = [
+		'<div class="qti-selftest" data-bbq="bbq-ghost-questions.txt">\n',
+		'  <div class="selftest-reroll-content"></div>\n',
+		"</div>\n",
+	]
 	index_path = _write_index(tmp_path, lines)
-	removed = orphan_prune.strip_orphan_includes(index_path, set(), dry_run=True)
+	removed = orphan_prune.strip_orphan_selftests(index_path, set(), dry_run=True)
 	assert removed == 1
 	with open(index_path, "r") as index_file:
 		# Dry-run reports the count but leaves the file unchanged
-		assert "selftest-ghost.html" in index_file.read()
+		assert "bbq-ghost-questions.txt" in index_file.read()
 
 
 #============================================
@@ -287,7 +304,7 @@ def test_reconcile_topic_dry_run_no_mutation(tmp_path: object) -> object:
 	# Live bbq file plus a dead include and dead artifact
 	pathlib.Path(os.path.join(topic_folder, "bbq-alpha-questions.txt")).touch()
 	_make_downloads(tmp_path, ["selftest-ghost.html"])
-	index_lines = ['{% include "downloads/selftest-ghost.html" %}\n']
+	index_lines = [_selftest_container("ghost")]
 	index_path = _write_index(tmp_path, index_lines)
 	# Capture file contents before the dry_run call
 	with open(index_path, "r") as index_file:
@@ -320,8 +337,8 @@ def test_task_owned_patterns_prune_unmatched_source_and_derivatives(tmp_path: pa
 	orphan_download.write_text("removed\n")
 	index_path = topic_folder / "index.md"
 	index_path.write_text(
-		'{% include "downloads/selftest-owned.html" %}\n'
-		'{% include "downloads/selftest-removed.html" %}\n'
+		_selftest_container("owned")
+		+ _selftest_container("removed")
 	)
 	patterns = [({"bbq-owned"}, ("-questions.txt",), set())]
 
@@ -338,7 +355,7 @@ def test_task_owned_patterns_prune_unmatched_source_and_derivatives(tmp_path: pa
 	assert orphan_source.is_file()
 	assert owned_download.is_file()
 	assert orphan_download.is_file()
-	assert "selftest-removed.html" in index_path.read_text()
+	assert "bbq-removed-questions.txt" in index_path.read_text()
 
 	real_plan = orphan_prune.reconcile_topic(
 		str(topic_folder), set(), dry_run=False, task_owned_patterns=patterns,
@@ -350,5 +367,5 @@ def test_task_owned_patterns_prune_unmatched_source_and_derivatives(tmp_path: pa
 	assert not orphan_source.exists()
 	assert owned_download.is_file()
 	assert not orphan_download.exists()
-	assert "selftest-owned.html" in index_path.read_text()
-	assert "selftest-removed.html" not in index_path.read_text()
+	assert "bbq-owned-questions.txt" in index_path.read_text()
+	assert "bbq-removed-questions.txt" not in index_path.read_text()

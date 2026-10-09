@@ -20,23 +20,21 @@
 //     .md-header, article.md-typeset / .md-content, .md-footer,
 //     .md-nav--primary, .md-search input.md-search__input.
 //   Self-test container and machinery (site fragments + hook scripts):
-//     .qti-selftest ....................... site_docs/assets/scripts/quiz_flow.js:17
-//                                            site_docs/biochemistry/topic03/downloads/selftest-alpha_amino_acid_identification.html:2
-//     [id^='question_html_'] ............... site_docs/assets/scripts/quiz_flow.js:109
-//                                            site_docs/assets/scripts/selftest_progress.js:267
-//     radio/checkbox answer inputs ......... site_docs/biochemistry/topic03/downloads/selftest-alpha_amino_acid_identification.html:8,12
-//                                            site_docs/assets/scripts/quiz_flow.js:80
-//     text input (fill-in-the-blank) ....... site_docs/biochemistry/topic03/downloads/selftest-which_amino_acid-FIB.html:6
-//     drag-and-drop (matching) ............. site_docs/biochemistry/topic03/downloads/selftest-MATCH-amino_acids_properties.html:15 (.qti-dropzone), :47 (.draggable)
+//     .qti-selftest ....................... site_docs/assets/scripts/selftest_reroll.js
+//     .selftest-question-status ........... site_docs/assets/scripts/selftest_reroll.js
+//     [id^='question_html_'] ............... dynamically mounted question body
+//     radio/checkbox answer inputs ......... generated WASM self-test markup
+//     text/number inputs .................... generated WASM self-test markup
+//     matching controls ..................... .qti-match-choice, .qti-match-slot
+//     ordering controls ..................... .qti-order-row, .qti-order-move
 //     Check-answer button ("Check Answer") . site_docs/biochemistry/topic03/downloads/selftest-alpha_amino_acid_identification.html:24
 //                                            site_docs/biochemistry/topic03/downloads/selftest-MATCH-amino_acids_properties.html:63
-//     [id^='result_'] result target ....... site_docs/assets/scripts/quiz_flow.js:24
+//     [id^='result_'] result target ........ generated WASM self-test markup
 //                                            site_docs/biochemistry/topic03/downloads/selftest-alpha_amino_acid_identification.html:25
-//     no-answer prompt strings ............. site_docs/assets/scripts/selftest_progress.js:100-104
-//                                            site_docs/assets/scripts/quiz_flow.js:50-53
-//     verdict result text (e.g. "CORRECT") . site_docs/assets/scripts/selftest_progress.js:97
+//     no-answer prompt strings ............. site_docs/assets/scripts/selftest_reroll.js
+//     verdict result text (e.g. "CORRECT") . site_docs/assets/scripts/selftest_reroll.js
 //                                            site_docs/biochemistry/topic03/downloads/selftest-MATCH-amino_acids_properties.html:147 ("Total Score:")
-//     .qti-feedback-success/-error ......... site_docs/assets/scripts/quiz_flow.js:82
+//     .qti-feedback-success/-error ......... generated self-test question
 //
 // Design note (deviation from the plan's literal rule-2 wording): the plan text
 // names "radio/checkbox input" as the required answer control, but the real
@@ -45,9 +43,9 @@
 // self-test is a matching question with no radio/checkbox. Requiring
 // radio/checkbox would falsely FAIL matching and fill-in-the-blank pages and
 // defeat the plan's stated question-agnostic goal. To honor that goal, an
-// "answer control" here is any of: radio/checkbox input, text/number input, or
-// a drag-and-drop element (.draggable / .qti-dropzone). Rule 2 still FAILS when
-// none of these exist (genuinely no way to answer).
+// "answer control" here is any of: radio/checkbox input, text/number input,
+// matching controls, or ordering controls. Rule 2 still FAILS when none of
+// these exist (genuinely no way to answer).
 
 // Timeout budgets are hardcoded (no config knobs, per the plan). Structure
 // waits are short; the self-test reaction gets a longer budget because the
@@ -56,7 +54,7 @@ const STRUCTURE_TIMEOUT_MS = 10000;
 const REACTION_TIMEOUT_MS = 15000;
 
 // Result strings the site treats as "no answer given" rather than a real
-// verdict. Kept in sync with selftest_progress.js:100-104 and quiz_flow.js:50-53.
+// verdict. Kept in sync with selftest_reroll.js's shared verdict classifier.
 const NO_ANSWER_TEXTS = [
 	"",
 	"Please select an answer.",
@@ -162,7 +160,12 @@ export async function driveSelfTestIfPresent(page, route) {
 	// per page, so driving the first is sufficient.
 	const container = selfTests.first();
 
-	// Rule 2: the basic machinery must exist, or the markup/JS is broken.
+	// The first host starts during page initialization. Wait for that lifecycle
+	// signal instead of racing it with a secondary Start-question interaction.
+	await ensureQuestionReady(container, route);
+
+	// Rule 2: the basic machinery must exist after a question is ready, or the
+	// markup/JS is broken.
 	const missing = await findMissingMachinery(container);
 	if (missing.length > 0) {
 		throw new Error(
@@ -170,10 +173,6 @@ export async function driveSelfTestIfPresent(page, route) {
 			`missing required machinery: ${missing.join(", ")}.`
 		);
 	}
-
-	// The fragment lives inside a <details>; expand it so its controls are
-	// reachable for a real click.
-	await ensureEnclosingDetailsOpen(container);
 
 	// Record the result element and its pre-click text so a change is detectable.
 	const resultLocator = container.locator("[id^='result_']").first();
@@ -191,6 +190,34 @@ export async function driveSelfTestIfPresent(page, route) {
 }
 
 //============================================
+// Wait for the controller's live region to report a mounted question. Errors
+// stay visible and become a route-named smoke error.
+async function ensureQuestionReady(container, route) {
+	const status = container.locator(".selftest-question-status").first();
+	try {
+		await pageWaitForReadyStatus(status);
+	} catch (_) {
+		const message = ((await status.textContent()) || "").trim();
+		throw new Error(
+			`Self-test check failed on ${route}: the question did not become ready` +
+			` (${message || "no readiness status"}).`
+		);
+	}
+}
+
+//============================================
+// A locator-level wait keeps the helper compatible with the bare Playwright
+// library model used by its smoke-test caller.
+async function pageWaitForReadyStatus(status) {
+	await status.waitFor({ state: "visible", timeout: REACTION_TIMEOUT_MS });
+	await status.page().waitForFunction(
+		(element) => element.textContent?.trim() === "Question ready.",
+		await status.elementHandle(),
+		{ timeout: REACTION_TIMEOUT_MS }
+	);
+}
+
+//============================================
 // Return a list of missing machinery pieces for the self-test container.
 // An empty list means all required pieces are present.
 async function findMissingMachinery(container) {
@@ -201,10 +228,10 @@ async function findMissingMachinery(container) {
 		missing.push("question block ([id^='question_html_'])");
 	}
 	// Some answer mechanism must exist (see the header design note for why this
-	// accepts radio/checkbox, text/number inputs, or drag-and-drop elements).
+	// accepts radio/checkbox, text/number inputs, matching, or ordering).
 	const answerCount = await countAnswerControls(container);
 	if (answerCount === 0) {
-		missing.push("an answer control (radio/checkbox, text/number input, or drag-and-drop element)");
+		missing.push("an answer control (radio/checkbox, text/number input, matching, or ordering control)");
 	}
 	// A Check-answer button drives evaluation.
 	const buttonCount = await container.getByRole("button", { name: /check/i }).count();
@@ -220,37 +247,20 @@ async function findMissingMachinery(container) {
 }
 
 //============================================
-// Count answer controls across all three question archetypes.
+// Count answer controls across the generated question archetypes.
 async function countAnswerControls(container) {
 	// Multiple-choice and multi-answer use radio/checkbox; fill-in-the-blank and
-	// numeric use text/number inputs.
+	// numeric use text/number inputs, sometimes without an explicit type.
 	const inputCount = await container.locator(
-		"input[type='radio'], input[type='checkbox'], input[type='text'], input[type='number']"
+		"input[type='radio'], input[type='checkbox'], input[type='text'], input[type='number'], input:not([type])"
 	).count();
 	if (inputCount > 0) {
 		return inputCount;
 	}
-	// Matching questions have no form input; they use drag-and-drop elements.
-	const dragDropCount = await container.locator(".draggable, .qti-dropzone").count();
-	return dragDropCount;
-}
-
-//============================================
-// Expand the <details> wrapping this self-test, if any, via a real summary
-// click. Skips when already open (quiz_flow.js auto-opens the first) or when
-// the self-test is not inside a <details>.
-async function ensureEnclosingDetailsOpen(container) {
-	const details = container.locator("xpath=ancestor::details[1]");
-	const detailsCount = await details.count();
-	if (detailsCount === 0) {
-		return;
-	}
-	const isOpen = await details.evaluate((node) => node.open);
-	if (isOpen) {
-		return;
-	}
-	// Click the summary, the same gesture a user makes to reveal the question.
-	await details.locator("summary").first().click();
+	const interactiveCount = await container.locator(
+		".qti-match-choice, .qti-match-slot, .qti-order-row, .qti-order-move"
+	).count();
+	return interactiveCount;
 }
 
 //============================================
@@ -265,13 +275,26 @@ async function provideFirstAnswer(container) {
 		return;
 	}
 	// Fill-in-the-blank / numeric questions: a benign value produces a verdict.
-	const textInputs = container.locator("input[type='text'], input[type='number']");
+	const textInputs = container.locator("input[type='text'], input[type='number'], input:not([type])");
 	if ((await textInputs.count()) > 0) {
 		await textInputs.first().fill("1");
 		return;
 	}
-	// Drag-and-drop (matching) questions have no simple input; clicking Check
-	// still scores the empty dropzones and produces an observable reaction.
+	// Matching uses selection followed by a target click.
+	const matchChoices = container.locator(".qti-match-choice");
+	const matchSlots = container.locator(".qti-match-slot");
+	if ((await matchChoices.count()) > 0 && (await matchSlots.count()) > 0) {
+		await matchChoices.first().click();
+		await matchSlots.first().click();
+		return;
+	}
+	// Ordering questions expose move buttons; activate one through the keyboard
+	// before grading so the smoke test exercises the rendered control surface.
+	const orderMove = container.locator(".qti-order-move:not(:disabled)").first();
+	if (await orderMove.count() > 0) {
+		await orderMove.focus();
+		await orderMove.press("Enter");
+	}
 }
 
 //============================================

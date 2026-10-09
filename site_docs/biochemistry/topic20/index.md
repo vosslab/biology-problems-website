@@ -12,22 +12,8 @@ Students trace light energy capture through Photosystem II and Photosystem I, ex
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-photosynthetic_light_pigments-questions.txt" data-format="human_readable" data-filename="human_readable-photosynthetic_light_pigments.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Optimal Wavelengths for Pigment Absorption
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-photosynthetic_light_pigments-questions.txt" data-bank-id="biochemistry/topic20/index.md:bbq-photosynthetic_light_pigments-questions.txt">
-  {% include "biochemistry/topic20/downloads/selftest-photosynthetic_light_pigments.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-photosynthetic_light_pigments-questions.txt" data-selftest="biochemistry/topic20/downloads/selftest-photosynthetic_light_pigments.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

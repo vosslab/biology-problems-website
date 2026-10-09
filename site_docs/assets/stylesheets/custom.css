@@ -420,6 +420,48 @@ body[data-md-color-scheme="slate"] .streak-at-risk {
   border-color: var(--md-warning-fg-color, #b37100);
 }
 
+.selftest-question-header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.6rem 0;
+}
+
+/* Bootstrap empty containers; the converter's shared button rules take precedence. */
+:where(.selftest-question-header .qti-btn) {
+  padding: 7px 20px;
+  border: 1px solid var(--qti-btn-reset-border, var(--md-default-fg-color--light));
+  border-radius: 4px;
+  background: var(--qti-btn-reset-bg, transparent);
+  color: var(--qti-btn-reset-fg, var(--md-default-fg-color));
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.selftest-question-header .qti-btn:disabled {
+  cursor: wait;
+  opacity: 0.55;
+}
+
+.selftest-question-header .selftest-status {
+  margin: 0;
+}
+
+.selftest-question-status {
+  font-size: 0.75rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.qti-selftest[data-bbq] {
+  scroll-margin-top: 5rem;
+}
+
+.qti-selftest[data-bbq]:focus-visible {
+  outline: 2px solid var(--md-accent-fg-color);
+  outline-offset: 4px;
+}
+
 .selftest-status {
   display: inline-block;
   font-size: 0.78rem;

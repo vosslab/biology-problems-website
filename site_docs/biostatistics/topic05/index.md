@@ -12,23 +12,9 @@ Students convert raw scores to z-scores, use z-score thresholds to classify obse
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-z_score_google_sheet-questions.txt" data-format="human_readable" data-filename="human_readable-z_score_google_sheet.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Z-Scores in Google Sheets
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-z_score_google_sheet-questions.txt" data-bank-id="biostatistics/topic05/index.md:bbq-z_score_google_sheet-questions.txt">
-  {% include "biostatistics/topic05/downloads/selftest-z_score_google_sheet.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-z_score_google_sheet-questions.txt" data-selftest="biostatistics/topic05/downloads/selftest-z_score_google_sheet.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Biodiversity Comparisons Using Z-Scores
@@ -41,22 +27,8 @@ Students convert raw scores to z-scores, use z-score thresholds to classify obse
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-z_score_table_interp-questions.txt" data-format="human_readable" data-filename="human_readable-z_score_table_interp.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Biodiversity Comparisons Using Z-Scores
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-z_score_table_interp-questions.txt" data-bank-id="biostatistics/topic05/index.md:bbq-z_score_table_interp-questions.txt">
-  {% include "biostatistics/topic05/downloads/selftest-z_score_table_interp.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-z_score_table_interp-questions.txt" data-selftest="biostatistics/topic05/downloads/selftest-z_score_table_interp.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

@@ -87,7 +87,7 @@ test("Finder loads the shipped catalog and CDN assets, sorts, pages, and links",
   });
   await page.goto("/");
   expect(requested).toEqual([]);
-  await page.locator("article").getByRole("link", { name: "Question Finder", exact: true }).click();
+  await page.locator("article").getByRole("link", { name: "Find question sets →", exact: true }).click();
   await expect(page.getByLabel("Search questions", { exact: true })).toBeVisible();
   const response = await page.request.get("/assets/data/question_finder.json");
   const rows = await response.json();

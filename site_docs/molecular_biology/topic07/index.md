@@ -12,23 +12,9 @@ Transcription of genes, RNA polymerase, promoters, and regulation.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-enhancer_gene_expression-questions.txt" data-format="human_readable" data-filename="human_readable-enhancer_gene_expression.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Genes Expressed by Activator Proteins
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-enhancer_gene_expression-questions.txt" data-bank-id="molecular_biology/topic07/index.md:bbq-enhancer_gene_expression-questions.txt">
-  {% include "molecular_biology/topic07/downloads/selftest-enhancer_gene_expression.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-enhancer_gene_expression-questions.txt" data-selftest="molecular_biology/topic07/downloads/selftest-enhancer_gene_expression.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## mRNA Sequences from DNA Template Strands (9 Nucleotides, Directionless)
@@ -41,23 +27,9 @@ Transcription of genes, RNA polymerase, promoters, and regulation.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-rna_transcribe-FIB-directionless-len_9-questions.txt" data-format="human_readable" data-filename="human_readable-rna_transcribe-FIB-directionless-len_9.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      mRNA Sequences from DNA Template Strands (9 Nucleotides, Directionless)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-rna_transcribe-FIB-directionless-len_9-questions.txt" data-bank-id="molecular_biology/topic07/index.md:bbq-rna_transcribe-FIB-directionless-len_9-questions.txt">
-  {% include "molecular_biology/topic07/downloads/selftest-rna_transcribe-FIB-directionless-len_9.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-rna_transcribe-FIB-directionless-len_9-questions.txt" data-selftest="molecular_biology/topic07/downloads/selftest-rna_transcribe-FIB-directionless-len_9.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## mRNA Sequences from DNA Coding and Template Strands (9 Nucleotides, 5&#x27;/3&#x27; Labels)
@@ -70,23 +42,9 @@ Transcription of genes, RNA polymerase, promoters, and regulation.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-rna_transcribe-FIB-prime-len_9-questions.txt" data-format="human_readable" data-filename="human_readable-rna_transcribe-FIB-prime-len_9.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      mRNA Sequences from DNA Coding and Template Strands (9 Nucleotides, 5&#x27;/3&#x27; Labels)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-rna_transcribe-FIB-prime-len_9-questions.txt" data-bank-id="molecular_biology/topic07/index.md:bbq-rna_transcribe-FIB-prime-len_9-questions.txt">
-  {% include "molecular_biology/topic07/downloads/selftest-rna_transcribe-FIB-prime-len_9.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-rna_transcribe-FIB-prime-len_9-questions.txt" data-selftest="molecular_biology/topic07/downloads/selftest-rna_transcribe-FIB-prime-len_9.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## mRNA Sequences from DNA Template Strands (9 Nucleotides, 5&#x27;/3&#x27; Labels)
@@ -99,22 +57,8 @@ Transcription of genes, RNA polymerase, promoters, and regulation.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-rna_transcribe-MC-prime-len_9-questions.txt" data-format="human_readable" data-filename="human_readable-rna_transcribe-MC-prime-len_9.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      mRNA Sequences from DNA Template Strands (9 Nucleotides, 5&#x27;/3&#x27; Labels)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-rna_transcribe-MC-prime-len_9-questions.txt" data-bank-id="molecular_biology/topic07/index.md:bbq-rna_transcribe-MC-prime-len_9-questions.txt">
-  {% include "molecular_biology/topic07/downloads/selftest-rna_transcribe-MC-prime-len_9.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-rna_transcribe-MC-prime-len_9-questions.txt" data-selftest="molecular_biology/topic07/downloads/selftest-rna_transcribe-MC-prime-len_9.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

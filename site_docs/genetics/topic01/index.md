@@ -15,23 +15,9 @@ Students identify common genetic disorders and describe basic inheritance patter
 <a class="md-button custom-button webwork_pgml" href="downloads/genetic_disorders-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Genetic Disorders
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-genetic_disorders-questions.txt" data-bank-id="genetics/topic01/index.md:bbq-MATCH-genetic_disorders-questions.txt">
-  {% include "genetics/topic01/downloads/selftest-MATCH-genetic_disorders.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-genetic_disorders-questions.txt" data-selftest="genetics/topic01/downloads/selftest-MATCH-genetic_disorders.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Genetic Disorders
@@ -45,23 +31,9 @@ Students identify common genetic disorders and describe basic inheritance patter
 <a class="md-button custom-button webwork_pgml" href="downloads/genetic_disorders-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Genetic Disorders
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-genetic_disorders-questions.txt" data-bank-id="genetics/topic01/index.md:bbq-WOMC-genetic_disorders-questions.txt">
-  {% include "genetics/topic01/downloads/selftest-WOMC-genetic_disorders.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-genetic_disorders-questions.txt" data-selftest="genetics/topic01/downloads/selftest-WOMC-genetic_disorders.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Metabolic Pathway Mutant Growth Rescue by Nutrient Supplementation (5 Metabolites)
@@ -74,22 +46,8 @@ Students identify common genetic disorders and describe basic inheritance patter
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt" data-format="human_readable" data-filename="human_readable-beadle_tatum-metabolic_pathway-5_metabolites.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Metabolic Pathway Mutant Growth Rescue by Nutrient Supplementation (5 Metabolites)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt" data-bank-id="genetics/topic01/index.md:bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt">
-  {% include "genetics/topic01/downloads/selftest-beadle_tatum-metabolic_pathway-5_metabolites.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt" data-selftest="genetics/topic01/downloads/selftest-beadle_tatum-metabolic_pathway-5_metabolites.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

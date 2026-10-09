@@ -12,23 +12,9 @@ Students extract DNA, perform initial and nested PCR amplification of the GAPDH 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-RT-qPCR-questions.txt" data-format="human_readable" data-filename="human_readable-RT-qPCR.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Gene Expression Fold Change from RT-qPCR Data
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-RT-qPCR-questions.txt" data-bank-id="laboratory/topic11/index.md:bbq-RT-qPCR-questions.txt">
-  {% include "laboratory/topic11/downloads/selftest-RT-qPCR.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-RT-qPCR-questions.txt" data-selftest="laboratory/topic11/downloads/selftest-RT-qPCR.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## DNA Fragment Migration in Agarose Gel Electrophoresis (Closest/Farthest)
@@ -41,23 +27,9 @@ Students extract DNA, perform initial and nested PCR amplification of the GAPDH 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-dna_gel-closest_farthest_MC-questions.txt" data-format="human_readable" data-filename="human_readable-dna_gel-closest_farthest_MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      DNA Fragment Migration in Agarose Gel Electrophoresis (Closest/Farthest)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-dna_gel-closest_farthest_MC-questions.txt" data-bank-id="laboratory/topic11/index.md:bbq-dna_gel-closest_farthest_MC-questions.txt">
-  {% include "laboratory/topic11/downloads/selftest-dna_gel-closest_farthest_MC.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-dna_gel-closest_farthest_MC-questions.txt" data-selftest="laboratory/topic11/downloads/selftest-dna_gel-closest_farthest_MC.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## DNA Fragment Size from Agarose Gel Migration Data
@@ -70,23 +42,9 @@ Students extract DNA, perform initial and nested PCR amplification of the GAPDH 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt" data-format="human_readable" data-filename="human_readable-dna_gel-estimate_size-MC_or_NUM-num.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      DNA Fragment Size from Agarose Gel Migration Data
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt" data-bank-id="laboratory/topic11/index.md:bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt">
-  {% include "laboratory/topic11/downloads/selftest-dna_gel-estimate_size-MC_or_NUM-num.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt" data-selftest="laboratory/topic11/downloads/selftest-dna_gel-estimate_size-MC_or_NUM-num.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Inverse PCR Primer Selection (15 nt)
@@ -99,23 +57,9 @@ Students extract DNA, perform initial and nested PCR amplification of the GAPDH 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-inverse_pcr_design-len_15-questions.txt" data-format="human_readable" data-filename="human_readable-inverse_pcr_design-len_15.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Inverse PCR Primer Selection (15 nt)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-inverse_pcr_design-len_15-questions.txt" data-bank-id="laboratory/topic11/index.md:bbq-inverse_pcr_design-len_15-questions.txt">
-  {% include "laboratory/topic11/downloads/selftest-inverse_pcr_design-len_15.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-inverse_pcr_design-len_15-questions.txt" data-selftest="laboratory/topic11/downloads/selftest-inverse_pcr_design-len_15.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Protein Molecular Weights from SDS-PAGE Band Positions
@@ -128,23 +72,9 @@ Students extract DNA, perform initial and nested PCR amplification of the GAPDH 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-kaleidoscope_ladder_mapping-questions.txt" data-format="human_readable" data-filename="human_readable-kaleidoscope_ladder_mapping.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Protein Molecular Weights from SDS-PAGE Band Positions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-kaleidoscope_ladder_mapping-questions.txt" data-bank-id="laboratory/topic11/index.md:bbq-kaleidoscope_ladder_mapping-questions.txt">
-  {% include "laboratory/topic11/downloads/selftest-kaleidoscope_ladder_mapping.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-kaleidoscope_ladder_mapping-questions.txt" data-selftest="laboratory/topic11/downloads/selftest-kaleidoscope_ladder_mapping.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Protein Molecular Weight from an SDS-PAGE Ladder
@@ -158,23 +88,9 @@ Students extract DNA, perform initial and nested PCR amplification of the GAPDH 
 <a class="md-button custom-button webwork_pgml" href="downloads/kaleidoscope_ladder_unknown_band.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Protein Molecular Weight from an SDS-PAGE Ladder
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-kaleidoscope_ladder_unknown_band-questions.txt" data-bank-id="laboratory/topic11/index.md:bbq-kaleidoscope_ladder_unknown_band-questions.txt">
-  {% include "laboratory/topic11/downloads/selftest-kaleidoscope_ladder_unknown_band.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-kaleidoscope_ladder_unknown_band-questions.txt" data-selftest="laboratory/topic11/downloads/selftest-kaleidoscope_ladder_unknown_band.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Isolated Fragment)
@@ -187,23 +103,9 @@ Students extract DNA, perform initial and nested PCR amplification of the GAPDH 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-linear_digest-len_12-sites_3-fragment-questions.txt" data-format="human_readable" data-filename="human_readable-linear_digest-len_12-sites_3-fragment.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Restriction Fragment Sizes from Linear DNA Maps (12 kb, 3 Sites, Isolated Fragment)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-linear_digest-len_12-sites_3-fragment-questions.txt" data-bank-id="laboratory/topic11/index.md:bbq-linear_digest-len_12-sites_3-fragment-questions.txt">
-  {% include "laboratory/topic11/downloads/selftest-linear_digest-len_12-sites_3-fragment.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-linear_digest-len_12-sites_3-fragment-questions.txt" data-selftest="laboratory/topic11/downloads/selftest-linear_digest-len_12-sites_3-fragment.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Nested PCR Primer Pair Selection (24 nt)
@@ -216,23 +118,9 @@ Students extract DNA, perform initial and nested PCR amplification of the GAPDH 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-nested_pcr_design-len_24-questions.txt" data-format="human_readable" data-filename="human_readable-nested_pcr_design-len_24.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Nested PCR Primer Pair Selection (24 nt)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-nested_pcr_design-len_24-questions.txt" data-bank-id="laboratory/topic11/index.md:bbq-nested_pcr_design-len_24-questions.txt">
-  {% include "laboratory/topic11/downloads/selftest-nested_pcr_design-len_24.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-nested_pcr_design-len_24-questions.txt" data-selftest="laboratory/topic11/downloads/selftest-nested_pcr_design-len_24.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## PCR Primer Pair Selection from Double-Stranded DNA (36 bp Template, 9-nt Primers)
@@ -245,23 +133,9 @@ Students extract DNA, perform initial and nested PCR amplification of the GAPDH 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-pcr_design-36_bp-9_primer-questions.txt" data-format="human_readable" data-filename="human_readable-pcr_design-36_bp-9_primer.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      PCR Primer Pair Selection from Double-Stranded DNA (36 bp Template, 9-nt Primers)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-pcr_design-36_bp-9_primer-questions.txt" data-bank-id="laboratory/topic11/index.md:bbq-pcr_design-36_bp-9_primer-questions.txt">
-  {% include "laboratory/topic11/downloads/selftest-pcr_design-36_bp-9_primer.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-pcr_design-36_bp-9_primer-questions.txt" data-selftest="laboratory/topic11/downloads/selftest-pcr_design-36_bp-9_primer.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Protein Molecular Weight from SDS-PAGE Migration
@@ -275,22 +149,8 @@ Students extract DNA, perform initial and nested PCR amplification of the GAPDH 
 <a class="md-button custom-button webwork_pgml" href="downloads/protein_gel_migration.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Protein Molecular Weight from SDS-PAGE Migration
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-protein_gel_migration-questions.txt" data-bank-id="laboratory/topic11/index.md:bbq-protein_gel_migration-questions.txt">
-  {% include "laboratory/topic11/downloads/selftest-protein_gel_migration.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-protein_gel_migration-questions.txt" data-selftest="laboratory/topic11/downloads/selftest-protein_gel_migration.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

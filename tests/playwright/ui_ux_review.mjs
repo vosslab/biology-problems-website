@@ -19,7 +19,7 @@ import path from 'path';
 
 const BASE = 'http://127.0.0.1:8000';
 const OUT = 'test-results/ui_ux_review';
-const STORAGE_KEY = 'selftest_progress_v1';
+const STORAGE_KEY = 'selftest_progress_v2';
 const MANIFEST_URL = '/assets/data/selftest_question_manifest.json';
 const TOPIC_URL = '/biochemistry/topic01/';
 const PROGRESS_URL = '/progress/';
@@ -88,8 +88,9 @@ async function evalPage(page) {
 		const smallFontIcons = Array.from(document.querySelectorAll('[style*="font-size: 0.8em"], [style*="font-size:0.8em"]')).length;
 		const allTables = Array.from(document.querySelectorAll('article table'));
 		const tables = allTables.length;
-		// Tables that are visible on page load (i.e., not inside a collapsed <details>).
-		const visibleTables = allTables.filter(t => !t.closest('details:not([open])')).length;
+		// Topic questions are mounted lazily; this remains a general rendered-table
+		// count rather than treating collapsed example panels as a product state.
+		const visibleTables = allTables.filter(t => !t.closest('[hidden]')).length;
 		const detailsBlocks = document.querySelectorAll('article details').length;
 		const title = document.title;
 		const navItems = document.querySelectorAll('.md-nav__item').length;
@@ -107,10 +108,8 @@ async function evalPage(page) {
 // initPage() fetches the manifest, then renders badges / dashboard, so we wait
 // for a feature-specific element rather than a fixed timeout.
 //
-// state defaults to 'attached' (not 'visible'): the per-question badges are
-// injected inside collapsed <details> blocks on topic pages, so they are
-// present in the DOM but not visible. Waiting for 'visible' would falsely time
-// out even though the badge exists and is wired up.
+// state defaults to 'attached' (not 'visible') so the review can inspect the
+// badge while a topic page is still positioning its newly mounted question.
 async function waitForSelector(page, selector, timeout = 8000, state = 'attached') {
 	try {
 		await page.waitForSelector(selector, { timeout, state });
@@ -237,7 +236,7 @@ async function reviewWrongAnswerStoresNothing(browser, findings) {
 	await page.evaluate((key) => window.localStorage.removeItem(key), STORAGE_KEY);
 
 	const classification = await page.evaluate(() => {
-		const api = window.SelfTestProgress;
+		const api = window.SelfTestQuestions;
 		function classify(text) {
 			const el = document.createElement('div');
 			el.textContent = text;
@@ -291,7 +290,7 @@ async function reviewDashboard(browser, vp, findings) {
 		return manifest.questions.slice(0, 3).map(q => q.questionId);
 	}, MANIFEST_URL);
 	await popPage.evaluate(({ key, ids }) => {
-		const state = { version: 1, completed: {} };
+		const state = { version: 2, completed: {} };
 		ids.forEach(id => { state.completed[id] = { firstCorrectAt: new Date().toISOString() }; });
 		window.localStorage.setItem(key, JSON.stringify(state));
 	}, { key: STORAGE_KEY, ids: seedIds });
@@ -312,7 +311,7 @@ async function reviewDashboard(browser, vp, findings) {
 
 	// Reset-with-confirmation dismissal: re-seed, dismiss the dialog, expect no clear.
 	await popPage.evaluate(({ key, ids }) => {
-		const state = { version: 1, completed: {} };
+		const state = { version: 2, completed: {} };
 		ids.forEach(id => { state.completed[id] = { firstCorrectAt: new Date().toISOString() }; });
 		window.localStorage.setItem(key, JSON.stringify(state));
 	}, { key: STORAGE_KEY, ids: seedIds });
@@ -439,7 +438,7 @@ for (const vp of viewports) {
 				return manifest.questions.slice(0, 3).map(q => q.questionId);
 			}, MANIFEST_URL);
 			await darkPage.evaluate(({ key, ids }) => {
-				const state = { version: 1, completed: {} };
+				const state = { version: 2, completed: {} };
 				ids.forEach(id => { state.completed[id] = { firstCorrectAt: new Date().toISOString() }; });
 				window.localStorage.setItem(key, JSON.stringify(state));
 			}, { key: STORAGE_KEY, ids: darkSeed });

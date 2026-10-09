@@ -15,23 +15,9 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 <a class="md-button custom-button webwork_pgml" href="downloads/biochemical_functional_groups-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Biochemical Functional Groups from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-biochemical_functional_groups-questions.txt" data-bank-id="biochemistry/topic01/index.md:bbq-MATCH-biochemical_functional_groups-questions.txt">
-  {% include "biochemistry/topic01/downloads/selftest-MATCH-biochemical_functional_groups.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-biochemical_functional_groups-questions.txt" data-selftest="biochemistry/topic01/downloads/selftest-MATCH-biochemical_functional_groups.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Chemical Bond Types from Characteristics
@@ -45,23 +31,9 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 <a class="md-button custom-button webwork_pgml" href="downloads/bond_types-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Chemical Bond Types from Characteristics
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-bond_types-questions.txt" data-bank-id="biochemistry/topic01/index.md:bbq-MATCH-bond_types-questions.txt">
-  {% include "biochemistry/topic01/downloads/selftest-MATCH-bond_types.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-bond_types-questions.txt" data-selftest="biochemistry/topic01/downloads/selftest-MATCH-bond_types.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Macromolecule Classification (Names and Properties)
@@ -75,23 +47,9 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 <a class="md-button custom-button webwork_pgml" href="downloads/macromolecules-biol301-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Macromolecule Classification (Names and Properties)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-macromolecules-biol301-questions.txt" data-bank-id="biochemistry/topic01/index.md:bbq-MATCH-macromolecules-biol301-questions.txt">
-  {% include "biochemistry/topic01/downloads/selftest-MATCH-macromolecules-biol301.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-macromolecules-biol301-questions.txt" data-selftest="biochemistry/topic01/downloads/selftest-MATCH-macromolecules-biol301.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Macromolecule Classification (Molecule Names)
@@ -105,23 +63,9 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 <a class="md-button custom-button webwork_pgml" href="downloads/macromolecules-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Macromolecule Classification (Molecule Names)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-macromolecules-questions.txt" data-bank-id="biochemistry/topic01/index.md:bbq-MATCH-macromolecules-questions.txt">
-  {% include "biochemistry/topic01/downloads/selftest-MATCH-macromolecules.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-macromolecules-questions.txt" data-selftest="biochemistry/topic01/downloads/selftest-MATCH-macromolecules.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Biochemical Functional Groups from Descriptions
@@ -135,23 +79,9 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 <a class="md-button custom-button webwork_pgml" href="downloads/biochemical_functional_groups-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Biochemical Functional Groups from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-biochemical_functional_groups-questions.txt" data-bank-id="biochemistry/topic01/index.md:bbq-WOMC-biochemical_functional_groups-questions.txt">
-  {% include "biochemistry/topic01/downloads/selftest-WOMC-biochemical_functional_groups.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-biochemical_functional_groups-questions.txt" data-selftest="biochemistry/topic01/downloads/selftest-WOMC-biochemical_functional_groups.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Chemical Bond Types from Characteristics
@@ -165,23 +95,9 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 <a class="md-button custom-button webwork_pgml" href="downloads/bond_types-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Chemical Bond Types from Characteristics
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-bond_types-questions.txt" data-bank-id="biochemistry/topic01/index.md:bbq-WOMC-bond_types-questions.txt">
-  {% include "biochemistry/topic01/downloads/selftest-WOMC-bond_types.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-bond_types-questions.txt" data-selftest="biochemistry/topic01/downloads/selftest-WOMC-bond_types.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Macromolecule Classification (Names and Properties)
@@ -195,23 +111,9 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 <a class="md-button custom-button webwork_pgml" href="downloads/macromolecules-biol301-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Macromolecule Classification (Names and Properties)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-macromolecules-biol301-questions.txt" data-bank-id="biochemistry/topic01/index.md:bbq-WOMC-macromolecules-biol301-questions.txt">
-  {% include "biochemistry/topic01/downloads/selftest-WOMC-macromolecules-biol301.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-macromolecules-biol301-questions.txt" data-selftest="biochemistry/topic01/downloads/selftest-WOMC-macromolecules-biol301.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Macromolecule Classification (Molecule Names)
@@ -225,23 +127,9 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 <a class="md-button custom-button webwork_pgml" href="downloads/macromolecules-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Macromolecule Classification (Molecule Names)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-macromolecules-questions.txt" data-bank-id="biochemistry/topic01/index.md:bbq-WOMC-macromolecules-questions.txt">
-  {% include "biochemistry/topic01/downloads/selftest-WOMC-macromolecules.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-macromolecules-questions.txt" data-selftest="biochemistry/topic01/downloads/selftest-WOMC-macromolecules.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Hydrophobic Compounds from Molecular Formulas
@@ -255,23 +143,9 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 <a class="md-button custom-button webwork_pgml" href="downloads/which_hydrophobic-simple.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Hydrophobic Compounds from Molecular Formulas
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-which_hydrophobic-simple-questions.txt" data-bank-id="biochemistry/topic01/index.md:bbq-which_hydrophobic-simple-questions.txt">
-  {% include "biochemistry/topic01/downloads/selftest-which_hydrophobic-simple.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-which_hydrophobic-simple-questions.txt" data-selftest="biochemistry/topic01/downloads/selftest-which_hydrophobic-simple.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Macromolecule Types from Chemical Structures
@@ -284,22 +158,8 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-which_macromolecule-MC-questions.txt" data-format="human_readable" data-filename="human_readable-which_macromolecule-MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Macromolecule Types from Chemical Structures
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-which_macromolecule-MC-questions.txt" data-bank-id="biochemistry/topic01/index.md:bbq-which_macromolecule-MC-questions.txt">
-  {% include "biochemistry/topic01/downloads/selftest-which_macromolecule-MC.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-which_macromolecule-MC-questions.txt" data-selftest="biochemistry/topic01/downloads/selftest-which_macromolecule-MC.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

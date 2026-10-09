@@ -9,7 +9,7 @@ file-class policy:
 
 - generated `downloads/*` artifacts and reproducible `downloads/*.pgml`
   / `*.pg` copies are deleted from the filesystem,
-- orphan `selftest-<core>` include lines in `index.md` are stripped,
+- orphan self-test containers in `index.md` are stripped,
 - stale keys in the repository-wide `problem_set_titles.yml` are dropped
   (keep `last edit`) after all topic folders are reconciled,
 - orphan TOPIC-LEVEL `.pgml` / `.pg` masters are moved to
@@ -53,9 +53,11 @@ RETIRED_DOWNLOAD_ARTIFACTS = (
 	("blackboard_qti_v2_1", "zip"),
 )
 
-# Include line basename anchor: mirrors selftest_manifest.INCLUDE_RE so the
-# strip path removes only a self-test include, never an unrelated include.
-INCLUDE_RE = re.compile(r'{%\s*include\s+"([^"]*selftest[^"]*\.html)"\s*%}')
+# Topic pages declare each dynamic self-test with a qti-selftest container.
+# Scan balanced div tags so pruning removes the complete generated container.
+DIV_TAG_RE = re.compile(r"<(?P<closing>/)?div\b(?P<attributes>(?:[^>\"']|\"[^\"]*\"|'[^']*')*)>", re.IGNORECASE)
+CLASS_ATTRIBUTE_RE = re.compile(r"\bclass\s*=\s*([\"'])(.*?)\1", re.IGNORECASE)
+BBQ_ATTRIBUTE_RE = re.compile(r"\bdata-bbq\s*=\s*([\"'])(.*?)\1", re.IGNORECASE)
 
 # Quarantine root folder name at the repo root (outside docs_dir).
 # The quarantine layout is FLAT: a moved master lands at orphaned/<basename>
@@ -334,15 +336,14 @@ def quarantine_dest(src_path: str, repo_root: str = None) -> str:
 
 
 #============================================
-# In-file pruners: index includes and title cache
+# In-file pruners: self-test containers and title cache
 
 #============================================
-def strip_orphan_includes(index_md_path: str, live_cores: set, dry_run: bool) -> int:
-	"""Strip orphan selftest include lines from a topic index.md.
+def strip_orphan_selftests(index_md_path: str, live_cores: set, dry_run: bool) -> int:
+	"""Strip orphan self-test containers from a topic index.md.
 
-	Removes ONLY a line whose included basename is selftest-<core>.html
-	for a core not in live_cores. Other includes, headings, blank lines,
-	and prose are left untouched. Mirrors selftest_manifest INCLUDE_RE.
+	Removes only a qti-selftest container whose data-bbq core is not live.
+	Other containers, headings, blank lines, and prose remain untouched.
 
 	Args:
 		index_md_path (str): Path to the topic index.md.
@@ -350,44 +351,71 @@ def strip_orphan_includes(index_md_path: str, live_cores: set, dry_run: bool) ->
 		dry_run (bool): When True, count but do not write changes.
 
 	Returns:
-		int: Number of orphan include lines removed.
+		int: Number of orphan self-test containers removed.
 	"""
 	with open(index_md_path, "r") as index_md_file:
-		lines = index_md_file.readlines()
-	kept_lines = []
+		index_text = index_md_file.read()
+	kept_parts = []
+	last_end = 0
 	removed_count = 0
-	# Keep every line except an include that points at an orphan selftest
-	for line in lines:
-		match = INCLUDE_RE.search(line)
-		if match is not None:
-			included_basename = os.path.basename(match.group(1))
-			# The included core is the selftest-<core>.html stem
-			core = _selftest_include_core(included_basename)
-			if core is not None and core not in live_cores:
-				removed_count += 1
-				continue
-		kept_lines.append(line)
+	for match in DIV_TAG_RE.finditer(index_text):
+		# A removed container owns its nested markup, including any later divs.
+		if match.start() < last_end:
+			continue
+		if match.group("closing"):
+			continue
+		attributes = match.group("attributes")
+		class_match = CLASS_ATTRIBUTE_RE.search(attributes)
+		if class_match is None or "qti-selftest" not in class_match.group(2).split():
+			continue
+		bbq_match = BBQ_ATTRIBUTE_RE.search(attributes)
+		if bbq_match is None:
+			continue
+		core = _bbq_core(bbq_match.group(2))
+		if core is None or core in live_cores:
+			continue
+		container_end = _closing_div_end(index_text, match.end())
+		if container_end is None:
+			raise ValueError(f"Unclosed qti-selftest container in {index_md_path}")
+		kept_parts.append(index_text[last_end:match.start()])
+		last_end = container_end
+		removed_count += 1
+	kept_parts.append(index_text[last_end:])
 	# Only rewrite the file outside of dry-run when something changed
 	if not dry_run and removed_count > 0:
-		file_write.write_text(index_md_path, "".join(kept_lines))
+		file_write.write_text(index_md_path, "".join(kept_parts))
 	return removed_count
 
 
 #============================================
-def _selftest_include_core(included_basename: str) -> str | None:
-	"""Return the core encoded in a selftest-<core>.html basename.
+def _bbq_core(bbq_basename: str) -> str | None:
+	"""Return the core encoded in a bbq-<core>-questions.txt basename.
 
 	Args:
-		included_basename (str): The included file basename.
+		bbq_basename (str): The self-test container's BBQ source basename.
 
 	Returns:
-		str: The core name, or None if the basename is not a selftest.
+		str: The core name, or None if the basename is not a BBQ source.
 	"""
-	prefix = "selftest-"
-	suffix = ".html"
-	# A selftest include decidably encodes its core between prefix/suffix
-	if included_basename.startswith(prefix) and included_basename.endswith(suffix):
-		return included_basename[len(prefix):-len(suffix)]
+	prefix = "bbq-"
+	suffix = "-questions.txt"
+	# A self-test container references its source directly through data-bbq.
+	if bbq_basename.startswith(prefix) and bbq_basename.endswith(suffix):
+		return bbq_basename[len(prefix):-len(suffix)]
+	return None
+
+
+#============================================
+def _closing_div_end(index_text: str, start: int) -> int | None:
+	"""Return the end position of the div opened before start."""
+	depth = 1
+	for match in DIV_TAG_RE.finditer(index_text, start):
+		if match.group("closing"):
+			depth -= 1
+			if depth == 0:
+				return match.end()
+		else:
+			depth += 1
 	return None
 
 
@@ -552,10 +580,10 @@ def reconcile_topic(
 		if not dry_run:
 			_remove_or_defer(orphan_path, plan)
 
-	# Target 2: orphan selftest include lines in index.md -> strip
+	# Target 2: orphan self-test containers in index.md -> strip
 	index_md_path = os.path.join(topic_folder, "index.md")
 	if os.path.isfile(index_md_path):
-		removed = strip_orphan_includes(index_md_path, live_cores, dry_run)
+		removed = strip_orphan_selftests(index_md_path, live_cores, dry_run)
 		if removed > 0:
 			plan["strip_includes"].append({"path": index_md_path, "removed": removed})
 

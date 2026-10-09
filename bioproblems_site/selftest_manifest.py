@@ -6,10 +6,11 @@ downloads/ are intentionally ignored.
 """
 
 # Standard Library
+import html
+import hashlib
+import json
 import os
 import re
-import json
-import hashlib
 
 # PIP3 modules
 import yaml
@@ -25,7 +26,13 @@ DEFAULT_OUTPUT_PATH = os.path.join(
 )
 
 TOPIC_PAGE_RE = re.compile(r"^([a-z_]+)/((?:topic)\d{2})/index\.md$")
-INCLUDE_RE = re.compile(r'{%\s*include\s+"([^"]*selftest[^"]*\.html)"\s*%}')
+OPENING_DIV_RE = re.compile(
+	r"<div\b(?P<attributes>(?:[^>\"']|\"[^\"]*\"|'[^']*')*)>",
+	re.IGNORECASE,
+)
+CLASS_ATTRIBUTE_RE = re.compile(r"\bclass\s*=\s*([\"'])(.*?)\1", re.IGNORECASE)
+SELFTEST_ATTRIBUTE_RE = re.compile(r"\bdata-selftest\s*=\s*([\"'])(.*?)\1", re.IGNORECASE)
+BBQ_ATTRIBUTE_RE = re.compile(r"\bdata-bbq\s*=\s*([\"'])(.*?)\1", re.IGNORECASE)
 # Consume quoted attributes whole so their values cannot masquerade as an id.
 DIV_ID_PREFIX = r"<div\b(?:[^>\"']|\"[^\"]*\"|'[^']*')*?\s+id\s*=\s*([\"'])"
 DIV_ID_SUFFIX = r"(?=\s|/?>)(?:[^>\"']|\"[^\"]*\"|'[^']*')*>"
@@ -66,11 +73,29 @@ def reachable_topic_pages(mkdocs_path: str) -> list:
 	return topic_pages
 
 
-def _extract_include_paths(page_text: str) -> list:
-	"""Return included selftest HTML paths from a rendered topic page."""
-	paths = INCLUDE_RE.findall(page_text)
-	paths.sort()
-	return paths
+def _extract_selftest_sources(page_text: str) -> list:
+	"""Return (BBQ basename, standalone path) pairs from self-test containers."""
+	sources = []
+	for match in OPENING_DIV_RE.finditer(page_text):
+		attributes = match.group("attributes")
+		class_match = CLASS_ATTRIBUTE_RE.search(attributes)
+		if class_match is None:
+			continue
+		classes = class_match.group(2).split()
+		if "qti-selftest" not in classes:
+			continue
+		path_match = SELFTEST_ATTRIBUTE_RE.search(attributes)
+		if path_match is None:
+			raise ValueError("Self-test container is missing data-selftest")
+		bbq_match = BBQ_ATTRIBUTE_RE.search(attributes)
+		if bbq_match is None:
+			raise ValueError("Self-test container is missing data-bbq")
+		bbq_basename = html.unescape(bbq_match.group(2))
+		if os.path.basename(bbq_basename) != bbq_basename:
+			raise ValueError(f"Self-test data-bbq must be a basename: {bbq_basename}")
+		sources.append((bbq_basename, html.unescape(path_match.group(2))))
+	sources.sort()
+	return sources
 
 
 def _statement_fingerprint(html_text: str, crc: str) -> str:
@@ -115,7 +140,7 @@ def build_manifest(
 		metadata_path=metadata_path, mkdocs_path=mkdocs_path
 	)
 	rows = []
-	seen_ids = {}
+	seen_placements = {}
 	for page_path in reachable_topic_pages(mkdocs_path):
 		page_match = TOPIC_PAGE_RE.match(page_path)
 		subject_key = page_match.group(1)
@@ -130,36 +155,38 @@ def build_manifest(
 			continue
 		with open(full_page_path, "r") as file_pointer:
 			page_text = file_pointer.read()
-		for include_path in _extract_include_paths(page_text):
-			full_selftest_path = os.path.join(site_docs_dir, include_path)
+		for bbq_basename, selftest_path in _extract_selftest_sources(page_text):
+			full_selftest_path = os.path.join(site_docs_dir, selftest_path)
 			if not os.path.isfile(full_selftest_path):
 				raise FileNotFoundError(git_paths.display_path(full_selftest_path))
 			with open(full_selftest_path, "r", encoding="iso8859-1") as file_pointer:
 				selftest_html = file_pointer.read()
 			crcs = [match.group(2) for match in QUESTION_DIV_RE.finditer(selftest_html)]
 			if not crcs:
-				raise ValueError(f"No question_html_<crc> div in {include_path}")
-			for crc in crcs:
-				fingerprint = _statement_fingerprint(selftest_html, crc)
-				row = {
-					"questionId": crc,
-					"bankId": f"{page_path}:bbq-{os.path.basename(include_path)[9:-5]}-questions.txt",
-					"crc": crc,
-					"subjectKey": subject_key,
-					"topicKey": topic_key,
-					"topicTitle": _topic_title(subjects, subject_key, topic_key),
-					"pagePath": page_path,
-					"selftestPath": include_path,
-					"questionFingerprint": fingerprint,
-				}
-				if crc in seen_ids:
-					previous = seen_ids[crc]
-					raise ValueError(
-						f"Duplicate selftest CRC {crc}: "
-						f"{previous['selftestPath']} and {include_path}"
-					)
-				seen_ids[crc] = row
-				rows.append(row)
+				raise ValueError(f"No question_html_<crc> div in {selftest_path}")
+			# A standalone artifact supplies a representative question only. The
+			# BBQ filename is the durable identity of the problem set students
+			# practice, while its sample CRC remains useful for diagnostics.
+			crc = crcs[0]
+			row = {
+				"questionId": bbq_basename,
+				"crc": crc,
+				"subjectKey": subject_key,
+				"topicKey": topic_key,
+				"topicTitle": _topic_title(subjects, subject_key, topic_key),
+				"pagePath": page_path,
+				"selftestPath": selftest_path,
+				"questionFingerprint": _statement_fingerprint(selftest_html, crc),
+			}
+			placement_key = (page_path, bbq_basename)
+			if placement_key in seen_placements:
+				previous = seen_placements[placement_key]
+				raise ValueError(
+					f"Duplicate selftest problem set {bbq_basename} on {page_path}: "
+					f"{previous['selftestPath']} and {selftest_path}"
+				)
+			seen_placements[placement_key] = row
+			rows.append(row)
 	rows.sort(key=lambda row: (
 		row["subjectKey"],
 		row["topicKey"],
@@ -167,7 +194,7 @@ def build_manifest(
 		row["questionId"],
 	))
 	manifest = {
-		"version": 1,
+		"version": 2,
 		"source": "reachable-topic-pages",
 		"questions": rows,
 	}
@@ -184,7 +211,7 @@ def _merge_scoped_manifest(
 ) -> dict:
 	"""Replace selected topic rows and retain currently reachable rows elsewhere."""
 	if (
-		existing_manifest.get("version") != 1
+		existing_manifest.get("version") != 2
 		or existing_manifest.get("source") != "reachable-topic-pages"
 		or not isinstance(existing_manifest.get("questions"), list)
 	):
@@ -207,14 +234,17 @@ def _merge_scoped_manifest(
 		row["selftestPath"],
 		row["questionId"],
 	))
-	seen_ids = set()
+	seen_placements = set()
 	for row in rows:
-		question_id = row["questionId"]
-		if question_id in seen_ids:
-			raise ValueError(f"Duplicate selftest CRC {question_id} in merged manifest")
-		seen_ids.add(question_id)
+		placement_key = (row["pagePath"], row["questionId"])
+		if placement_key in seen_placements:
+			raise ValueError(
+				f"Duplicate selftest problem set {placement_key[1]} on {placement_key[0]} "
+				"in merged manifest"
+			)
+		seen_placements.add(placement_key)
 	return {
-		"version": 1,
+		"version": 2,
 		"source": "reachable-topic-pages",
 		"questions": rows,
 	}

@@ -12,23 +12,9 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-babies_one_sample_t_test-tails1-questions.txt" data-format="human_readable" data-filename="human_readable-babies_one_sample_t_test-tails1.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      One-Sample t-Test p-Values from Birth Weight Data (One-Tailed)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-babies_one_sample_t_test-tails1-questions.txt" data-bank-id="biostatistics/topic07/index.md:bbq-babies_one_sample_t_test-tails1-questions.txt">
-  {% include "biostatistics/topic07/downloads/selftest-babies_one_sample_t_test-tails1.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-babies_one_sample_t_test-tails1-questions.txt" data-selftest="biostatistics/topic07/downloads/selftest-babies_one_sample_t_test-tails1.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## One-Sample z-Test p-Values from Birth Weight Data (One-Tailed)
@@ -41,23 +27,9 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-babies_one_sample_z_test-ztest-questions.txt" data-format="human_readable" data-filename="human_readable-babies_one_sample_z_test-ztest.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      One-Sample z-Test p-Values from Birth Weight Data (One-Tailed)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-babies_one_sample_z_test-ztest-questions.txt" data-bank-id="biostatistics/topic07/index.md:bbq-babies_one_sample_z_test-ztest-questions.txt">
-  {% include "biostatistics/topic07/downloads/selftest-babies_one_sample_z_test-ztest.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-babies_one_sample_z_test-ztest-questions.txt" data-selftest="biostatistics/topic07/downloads/selftest-babies_one_sample_z_test-ztest.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Two-Sample t-Test p-Values from Birth Weight Data (One-Tailed)
@@ -70,23 +42,9 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-babies_two_sample_t_test-tails1-questions.txt" data-format="human_readable" data-filename="human_readable-babies_two_sample_t_test-tails1.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Two-Sample t-Test p-Values from Birth Weight Data (One-Tailed)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-babies_two_sample_t_test-tails1-questions.txt" data-bank-id="biostatistics/topic07/index.md:bbq-babies_two_sample_t_test-tails1-questions.txt">
-  {% include "biostatistics/topic07/downloads/selftest-babies_two_sample_t_test-tails1.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-babies_two_sample_t_test-tails1-questions.txt" data-selftest="biostatistics/topic07/downloads/selftest-babies_two_sample_t_test-tails1.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## One-Way ANOVA p-Values from Shannon Diversity Data (5 Years)
@@ -99,23 +57,9 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-busse_woods_anova-anova-5year-questions.txt" data-format="human_readable" data-filename="human_readable-busse_woods_anova-anova-5year.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      One-Way ANOVA p-Values from Shannon Diversity Data (5 Years)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-busse_woods_anova-anova-5year-questions.txt" data-bank-id="biostatistics/topic07/index.md:bbq-busse_woods_anova-anova-5year-questions.txt">
-  {% include "biostatistics/topic07/downloads/selftest-busse_woods_anova-anova-5year.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-busse_woods_anova-anova-5year-questions.txt" data-selftest="biostatistics/topic07/downloads/selftest-busse_woods_anova-anova-5year.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## One-Sample z-Test p-Values from Shannon Diversity Data
@@ -128,23 +72,9 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-busse_woods_one_sample_tests-ztest-questions.txt" data-format="human_readable" data-filename="human_readable-busse_woods_one_sample_tests-ztest.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      One-Sample z-Test p-Values from Shannon Diversity Data
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-busse_woods_one_sample_tests-ztest-questions.txt" data-bank-id="biostatistics/topic07/index.md:bbq-busse_woods_one_sample_tests-ztest-questions.txt">
-  {% include "biostatistics/topic07/downloads/selftest-busse_woods_one_sample_tests-ztest.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-busse_woods_one_sample_tests-ztest-questions.txt" data-selftest="biostatistics/topic07/downloads/selftest-busse_woods_one_sample_tests-ztest.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Two-Sample F-Test p-Values from Shannon Diversity Data (One-Tailed)
@@ -157,23 +87,9 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-busse_woods_two_sample_f_test-tails1-questions.txt" data-format="human_readable" data-filename="human_readable-busse_woods_two_sample_f_test-tails1.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Two-Sample F-Test p-Values from Shannon Diversity Data (One-Tailed)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-busse_woods_two_sample_f_test-tails1-questions.txt" data-bank-id="biostatistics/topic07/index.md:bbq-busse_woods_two_sample_f_test-tails1-questions.txt">
-  {% include "biostatistics/topic07/downloads/selftest-busse_woods_two_sample_f_test-tails1.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-busse_woods_two_sample_f_test-tails1-questions.txt" data-selftest="biostatistics/topic07/downloads/selftest-busse_woods_two_sample_f_test-tails1.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Two-Sample t-Test p-Values from Shannon Diversity Data (One-Tailed)
@@ -186,22 +102,8 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-busse_woods_two_sample_t_test-tails1-questions.txt" data-format="human_readable" data-filename="human_readable-busse_woods_two_sample_t_test-tails1.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Two-Sample t-Test p-Values from Shannon Diversity Data (One-Tailed)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-busse_woods_two_sample_t_test-tails1-questions.txt" data-bank-id="biostatistics/topic07/index.md:bbq-busse_woods_two_sample_t_test-tails1-questions.txt">
-  {% include "biostatistics/topic07/downloads/selftest-busse_woods_two_sample_t_test-tails1.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-busse_woods_two_sample_t_test-tails1-questions.txt" data-selftest="biostatistics/topic07/downloads/selftest-busse_woods_two_sample_t_test-tails1.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

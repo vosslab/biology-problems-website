@@ -54,11 +54,11 @@ function loadProgress(localStorage = makeLocalStorage()) {
 
 {
 	const { api } = loadProgress();
-	assert.equal(api.isCompleted('aaaa_0001'), false);
-	const result = api.markCompleted('aaaa_0001');
+	assert.equal(api.isCompleted('bbq-fret_overlap_colors-questions.txt'), false);
+	const result = api.markCompleted('bbq-fret_overlap_colors-questions.txt');
 	assert.equal(result.changed, true);
-	assert.equal(api.isCompleted('aaaa_0001'), true);
-	const second = api.markCompleted('aaaa_0001');
+	assert.equal(api.isCompleted('bbq-fret_overlap_colors-questions.txt'), true);
+	const second = api.markCompleted('bbq-fret_overlap_colors-questions.txt');
 	assert.equal(second.changed, false);
 }
 
@@ -77,36 +77,53 @@ function loadProgress(localStorage = makeLocalStorage()) {
 	const { api } = loadProgress(blocked);
 	assert.equal(api.storageStatus().available, false);
 	const blockedState = api.loadState();
-	assert.equal(blockedState.version, 1);
+	assert.equal(blockedState.version, 2);
 	assert.deepEqual(Object.keys(blockedState.completed), []);
-	assert.equal(api.markCompleted('aaaa_0001').changed, false);
+	assert.equal(api.markCompleted('bbq-fret_overlap_colors-questions.txt').changed, false);
 }
 
 {
 	const { api, localStorage } = loadProgress();
-	localStorage.setItem('selftest_progress_v1', '{bad json');
+	localStorage.setItem('selftest_progress_v2', '{bad json');
 	const badState = api.loadState();
-	assert.equal(badState.version, 1);
+	assert.equal(badState.version, 2);
 	assert.deepEqual(Object.keys(badState.completed), []);
 }
 
-// Existing v1 records survive new variants and a reload without bank migration.
+// Earlier CRC records are intentionally ignored. A problem-set completion is
+// keyed by its stable BBQ filename, so every generated variant shares credit.
 {
 	const storage = makeLocalStorage();
 	const timestamp = '2026-10-09T12:00:00Z';
 	storage.setItem('selftest_progress_v1', JSON.stringify({ version: 1, completed: {
 		'aaaa_0001': { firstCorrectAt: timestamp },
-		'older_0002': { firstCorrectAt: timestamp },
 	} }));
 	const { api } = loadProgress(storage);
-	assert.equal(api.isCompleted('aaaa_0001'), true);
-	assert.equal(api.isCompleted('bbbb_0002'), false);
-	api.markCompleted('bbbb_0002');
+	assert.equal(api.isCompleted('aaaa_0001'), false);
+	assert.equal(api.isCompleted('bbq-fret_overlap_colors-questions.txt'), false);
+	api.markCompleted('bbq-fret_overlap_colors-questions.txt');
 	const reloaded = loadProgress(storage).api;
-	assert.equal(reloaded.isCompleted('aaaa_0001'), true);
-	assert.equal(reloaded.isCompleted('bbbb_0002'), true);
-	assert.equal(reloaded.loadState().completed.older_0002.firstCorrectAt, timestamp);
-	assert.equal(reloaded.loadState().completed.aaaa_0001.firstCorrectAt, timestamp);
+	assert.equal(reloaded.isCompleted('bbq-fret_overlap_colors-questions.txt'), true);
+	assert.equal(reloaded.isCompleted('bbq-a_different_problem_set.txt'), false);
+	assert.deepEqual(Object.keys(reloaded.loadState().completed), [
+		'bbq-fret_overlap_colors-questions.txt',
+	]);
+	assert.equal(reloaded.loadState().completed['bbq-fret_overlap_colors-questions.txt'].firstCorrectAt !== timestamp, true);
+}
+
+// A shared problem-set filename may appear on more than one reachable page.
+// It remains one achievement wherever the dashboard or topic summary sees it.
+{
+	const { api } = loadProgress();
+	api.markCompleted('bbq-fret_overlap_colors-questions.txt');
+	const summary = api.topicSummary('topic01', { questions: [
+		{ questionId: 'bbq-fret_overlap_colors-questions.txt', topicKey: 'topic01' },
+		{ questionId: 'bbq-fret_overlap_colors-questions.txt', topicKey: 'topic01' },
+		{ questionId: 'bbq-a_different_problem_set.txt', topicKey: 'topic01' },
+	] });
+	assert.equal(summary.completed, 1);
+	assert.equal(summary.total, 2);
+	assert.equal(summary.isComplete, false);
 }
 
 console.log('selftest_progress_storage_test.mjs passed');

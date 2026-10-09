@@ -95,7 +95,7 @@ test("real downloads preserve source identity, grading and scientific media", as
   page.on("pageerror", error => errors.push(error.message));
   const row = await host(page);
   expect(dependencies).toEqual([]);
-  await page.evaluate(() => localStorage.setItem("selftest_progress_v1", '{"completed":{"previous":true}}'));
+  await page.evaluate(() => localStorage.setItem("selftest_progress_v2", '{"version":2,"completed":{"previous":true}}'));
   const downloaded = page.waitForEvent("download");
   await row.getByRole("button", { name: "Blackboard", exact: true }).click();
   const blackboard = await downloaded;
@@ -161,8 +161,8 @@ test("real downloads preserve source identity, grading and scientific media", as
   await expect(popup.locator("body")).toContainText("Identify methane.");
   expect(popup.url()).toMatch(/^blob:/);
   expect(await popup.evaluate(() => window.opener === null)).toBe(true);
-  expect(await page.evaluate(() => localStorage.getItem("selftest_progress_v1")))
-    .toBe('{"completed":{"previous":true}}');
+  expect(await page.evaluate(() => localStorage.getItem("selftest_progress_v2")))
+    .toBe('{"version":2,"completed":{"previous":true}}');
   expect(errors).toEqual([]);
 });
 

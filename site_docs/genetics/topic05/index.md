@@ -15,23 +15,9 @@ Students determine how multiple genes interact to produce phenotypes, including 
 <a class="md-button custom-button webwork_pgml" href="downloads/degrees_of_dominance-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Degrees of Dominance and Gene Interactions from Definitions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-degrees_of_dominance-questions.txt" data-bank-id="genetics/topic05/index.md:bbq-MATCH-degrees_of_dominance-questions.txt">
-  {% include "genetics/topic05/downloads/selftest-MATCH-degrees_of_dominance.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-degrees_of_dominance-questions.txt" data-selftest="genetics/topic05/downloads/selftest-MATCH-degrees_of_dominance.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Degrees of Dominance and Gene Interactions from Definitions
@@ -45,23 +31,9 @@ Students determine how multiple genes interact to produce phenotypes, including 
 <a class="md-button custom-button webwork_pgml" href="downloads/degrees_of_dominance-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Degrees of Dominance and Gene Interactions from Definitions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-degrees_of_dominance-questions.txt" data-bank-id="genetics/topic05/index.md:bbq-WOMC-degrees_of_dominance-questions.txt">
-  {% include "genetics/topic05/downloads/selftest-WOMC-degrees_of_dominance.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-degrees_of_dominance-questions.txt" data-selftest="genetics/topic05/downloads/selftest-WOMC-degrees_of_dominance.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Possible Mother ABO Blood Types from Father and Child Types
@@ -74,23 +46,9 @@ Students determine how multiple genes interact to produce phenotypes, including 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-blood_type_mother-questions.txt" data-format="human_readable" data-filename="human_readable-blood_type_mother.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Possible Mother ABO Blood Types from Father and Child Types
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-blood_type_mother-questions.txt" data-bank-id="genetics/topic05/index.md:bbq-blood_type_mother-questions.txt">
-  {% include "genetics/topic05/downloads/selftest-blood_type_mother.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-blood_type_mother-questions.txt" data-selftest="genetics/topic05/downloads/selftest-blood_type_mother.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Possible ABO Blood Types of Offspring from Parent Blood Types
@@ -103,23 +61,9 @@ Students determine how multiple genes interact to produce phenotypes, including 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-blood_type_offspring-questions.txt" data-format="human_readable" data-filename="human_readable-blood_type_offspring.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Possible ABO Blood Types of Offspring from Parent Blood Types
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-blood_type_offspring-questions.txt" data-bank-id="genetics/topic05/index.md:bbq-blood_type_offspring-questions.txt">
-  {% include "genetics/topic05/downloads/selftest-blood_type_offspring.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-blood_type_offspring-questions.txt" data-selftest="genetics/topic05/downloads/selftest-blood_type_offspring.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Gene Interaction Types from Dihybrid Cross Ratios (4 Choices)
@@ -132,23 +76,9 @@ Students determine how multiple genes interact to produce phenotypes, including 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-dihybrid_cross_epistatic_gene_interactions-4_choices-questions.txt" data-format="human_readable" data-filename="human_readable-dihybrid_cross_epistatic_gene_interactions-4_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Gene Interaction Types from Dihybrid Cross Ratios (4 Choices)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-dihybrid_cross_epistatic_gene_interactions-4_choices-questions.txt" data-bank-id="genetics/topic05/index.md:bbq-dihybrid_cross_epistatic_gene_interactions-4_choices-questions.txt">
-  {% include "genetics/topic05/downloads/selftest-dihybrid_cross_epistatic_gene_interactions-4_choices.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-dihybrid_cross_epistatic_gene_interactions-4_choices-questions.txt" data-selftest="genetics/topic05/downloads/selftest-dihybrid_cross_epistatic_gene_interactions-4_choices.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Dihybrid Cross Ratios from Epistatic Metabolic Pathways (4 Choices)
@@ -161,23 +91,9 @@ Students determine how multiple genes interact to produce phenotypes, including 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-dihybrid_cross_epistatic_gene_metabolics-4_choices-questions.txt" data-format="human_readable" data-filename="human_readable-dihybrid_cross_epistatic_gene_metabolics-4_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Dihybrid Cross Ratios from Epistatic Metabolic Pathways (4 Choices)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-dihybrid_cross_epistatic_gene_metabolics-4_choices-questions.txt" data-bank-id="genetics/topic05/index.md:bbq-dihybrid_cross_epistatic_gene_metabolics-4_choices-questions.txt">
-  {% include "genetics/topic05/downloads/selftest-dihybrid_cross_epistatic_gene_metabolics-4_choices.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-dihybrid_cross_epistatic_gene_metabolics-4_choices-questions.txt" data-selftest="genetics/topic05/downloads/selftest-dihybrid_cross_epistatic_gene_metabolics-4_choices.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Test-Cross Ratios from Epistatic F2 Ratios (6 Choices)
@@ -190,23 +106,9 @@ Students determine how multiple genes interact to produce phenotypes, including 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-epistasis_test_cross-forward_direction-6_choices-questions.txt" data-format="human_readable" data-filename="human_readable-epistasis_test_cross-forward_direction-6_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Test-Cross Ratios from Epistatic F2 Ratios (6 Choices)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-epistasis_test_cross-forward_direction-6_choices-questions.txt" data-bank-id="genetics/topic05/index.md:bbq-epistasis_test_cross-forward_direction-6_choices-questions.txt">
-  {% include "genetics/topic05/downloads/selftest-epistasis_test_cross-forward_direction-6_choices.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-epistasis_test_cross-forward_direction-6_choices-questions.txt" data-selftest="genetics/topic05/downloads/selftest-epistasis_test_cross-forward_direction-6_choices.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Epistatic F2 Ratios from Test-Cross Ratios (6 Choices)
@@ -219,23 +121,9 @@ Students determine how multiple genes interact to produce phenotypes, including 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-epistasis_test_cross-inverse_direction-6_choices-questions.txt" data-format="human_readable" data-filename="human_readable-epistasis_test_cross-inverse_direction-6_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Epistatic F2 Ratios from Test-Cross Ratios (6 Choices)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-epistasis_test_cross-inverse_direction-6_choices-questions.txt" data-bank-id="genetics/topic05/index.md:bbq-epistasis_test_cross-inverse_direction-6_choices-questions.txt">
-  {% include "genetics/topic05/downloads/selftest-epistasis_test_cross-inverse_direction-6_choices.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-epistasis_test_cross-inverse_direction-6_choices-questions.txt" data-selftest="genetics/topic05/downloads/selftest-epistasis_test_cross-inverse_direction-6_choices.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Lethal Allele Cross Ratios and Survival Fractions
@@ -248,23 +136,9 @@ Students determine how multiple genes interact to produce phenotypes, including 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-lethal_allele_survival-questions.txt" data-format="human_readable" data-filename="human_readable-lethal_allele_survival.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Lethal Allele Cross Ratios and Survival Fractions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-lethal_allele_survival-questions.txt" data-bank-id="genetics/topic05/index.md:bbq-lethal_allele_survival-questions.txt">
-  {% include "genetics/topic05/downloads/selftest-lethal_allele_survival.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-lethal_allele_survival-questions.txt" data-selftest="genetics/topic05/downloads/selftest-lethal_allele_survival.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Degrees of Dominance from Monohybrid Cross Results
@@ -277,23 +151,9 @@ Students determine how multiple genes interact to produce phenotypes, including 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-monohybrid_degrees_of_dominance-questions.txt" data-format="human_readable" data-filename="human_readable-monohybrid_degrees_of_dominance.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Degrees of Dominance from Monohybrid Cross Results
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-monohybrid_degrees_of_dominance-questions.txt" data-bank-id="genetics/topic05/index.md:bbq-monohybrid_degrees_of_dominance-questions.txt">
-  {% include "genetics/topic05/downloads/selftest-monohybrid_degrees_of_dominance.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-monohybrid_degrees_of_dominance-questions.txt" data-selftest="genetics/topic05/downloads/selftest-monohybrid_degrees_of_dominance.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Pedigrees from Autosomal Inheritance Patterns (Easy)
@@ -306,23 +166,9 @@ Students determine how multiple genes interact to produce phenotypes, including 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-write_pattern_to_pedigree-easy-autosomal-questions.txt" data-format="human_readable" data-filename="human_readable-write_pattern_to_pedigree-easy-autosomal.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Pedigrees from Autosomal Inheritance Patterns (Easy)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-write_pattern_to_pedigree-easy-autosomal-questions.txt" data-bank-id="genetics/topic05/index.md:bbq-write_pattern_to_pedigree-easy-autosomal-questions.txt">
-  {% include "genetics/topic05/downloads/selftest-write_pattern_to_pedigree-easy-autosomal.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-write_pattern_to_pedigree-easy-autosomal-questions.txt" data-selftest="genetics/topic05/downloads/selftest-write_pattern_to_pedigree-easy-autosomal.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Autosomal Inheritance Patterns from Pedigrees (Easy)
@@ -335,23 +181,9 @@ Students determine how multiple genes interact to produce phenotypes, including 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-write_pedigree_pattern_matching-easy-autosomal-questions.txt" data-format="human_readable" data-filename="human_readable-write_pedigree_pattern_matching-easy-autosomal.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Autosomal Inheritance Patterns from Pedigrees (Easy)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-write_pedigree_pattern_matching-easy-autosomal-questions.txt" data-bank-id="genetics/topic05/index.md:bbq-write_pedigree_pattern_matching-easy-autosomal-questions.txt">
-  {% include "genetics/topic05/downloads/selftest-write_pedigree_pattern_matching-easy-autosomal.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-write_pedigree_pattern_matching-easy-autosomal-questions.txt" data-selftest="genetics/topic05/downloads/selftest-write_pedigree_pattern_matching-easy-autosomal.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Autosomal Inheritance Patterns from Pedigrees (Bonus)
@@ -364,23 +196,9 @@ Students determine how multiple genes interact to produce phenotypes, including 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-write_pedigree_to_pattern-bonus-autosomal-questions.txt" data-format="human_readable" data-filename="human_readable-write_pedigree_to_pattern-bonus-autosomal.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Autosomal Inheritance Patterns from Pedigrees (Bonus)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-write_pedigree_to_pattern-bonus-autosomal-questions.txt" data-bank-id="genetics/topic05/index.md:bbq-write_pedigree_to_pattern-bonus-autosomal-questions.txt">
-  {% include "genetics/topic05/downloads/selftest-write_pedigree_to_pattern-bonus-autosomal.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-write_pedigree_to_pattern-bonus-autosomal-questions.txt" data-selftest="genetics/topic05/downloads/selftest-write_pedigree_to_pattern-bonus-autosomal.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Autosomal Inheritance Patterns from Pedigrees (Easy)
@@ -393,23 +211,9 @@ Students determine how multiple genes interact to produce phenotypes, including 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-write_pedigree_to_pattern-easy-autosomal-questions.txt" data-format="human_readable" data-filename="human_readable-write_pedigree_to_pattern-easy-autosomal.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Autosomal Inheritance Patterns from Pedigrees (Easy)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-write_pedigree_to_pattern-easy-autosomal-questions.txt" data-bank-id="genetics/topic05/index.md:bbq-write_pedigree_to_pattern-easy-autosomal-questions.txt">
-  {% include "genetics/topic05/downloads/selftest-write_pedigree_to_pattern-easy-autosomal.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-write_pedigree_to_pattern-easy-autosomal-questions.txt" data-selftest="genetics/topic05/downloads/selftest-write_pedigree_to_pattern-easy-autosomal.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Autosomal Inheritance Patterns from Pedigrees (Medium)
@@ -422,23 +226,9 @@ Students determine how multiple genes interact to produce phenotypes, including 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-write_pedigree_to_pattern-medium-autosomal-questions.txt" data-format="human_readable" data-filename="human_readable-write_pedigree_to_pattern-medium-autosomal.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Autosomal Inheritance Patterns from Pedigrees (Medium)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-write_pedigree_to_pattern-medium-autosomal-questions.txt" data-bank-id="genetics/topic05/index.md:bbq-write_pedigree_to_pattern-medium-autosomal-questions.txt">
-  {% include "genetics/topic05/downloads/selftest-write_pedigree_to_pattern-medium-autosomal.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-write_pedigree_to_pattern-medium-autosomal-questions.txt" data-selftest="genetics/topic05/downloads/selftest-write_pedigree_to_pattern-medium-autosomal.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Autosomal Inheritance Patterns from Pedigrees (Rigorous)
@@ -451,22 +241,8 @@ Students determine how multiple genes interact to produce phenotypes, including 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-write_pedigree_to_pattern-rigorous-autosomal-questions.txt" data-format="human_readable" data-filename="human_readable-write_pedigree_to_pattern-rigorous-autosomal.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Autosomal Inheritance Patterns from Pedigrees (Rigorous)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-write_pedigree_to_pattern-rigorous-autosomal-questions.txt" data-bank-id="genetics/topic05/index.md:bbq-write_pedigree_to_pattern-rigorous-autosomal-questions.txt">
-  {% include "genetics/topic05/downloads/selftest-write_pedigree_to_pattern-rigorous-autosomal.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-write_pedigree_to_pattern-rigorous-autosomal-questions.txt" data-selftest="genetics/topic05/downloads/selftest-write_pedigree_to_pattern-rigorous-autosomal.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

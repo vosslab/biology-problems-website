@@ -15,23 +15,9 @@ Students analyze phospholipid bilayer structure, predict how composition affects
 <a class="md-button custom-button webwork_pgml" href="downloads/fluid_mosaic_model.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Fluid Mosaic Model
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-fluid_mosaic_model-questions.txt" data-bank-id="biochemistry/topic13/index.md:bbq-TFMS-fluid_mosaic_model-questions.txt">
-  {% include "biochemistry/topic13/downloads/selftest-TFMS-fluid_mosaic_model.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-fluid_mosaic_model-questions.txt" data-selftest="biochemistry/topic13/downloads/selftest-TFMS-fluid_mosaic_model.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Membrane Permeability to Ions and Molecules
@@ -45,23 +31,9 @@ Students analyze phospholipid bilayer structure, predict how composition affects
 <a class="md-button custom-button webwork_pgml" href="downloads/membrane_diffusion.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Membrane Permeability to Ions and Molecules
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-membrane_diffusion-questions.txt" data-bank-id="biochemistry/topic13/index.md:bbq-TFMS-membrane_diffusion-questions.txt">
-  {% include "biochemistry/topic13/downloads/selftest-TFMS-membrane_diffusion.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-membrane_diffusion-questions.txt" data-selftest="biochemistry/topic13/downloads/selftest-TFMS-membrane_diffusion.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Membrane Protein Functions
@@ -75,22 +47,8 @@ Students analyze phospholipid bilayer structure, predict how composition affects
 <a class="md-button custom-button webwork_pgml" href="downloads/membrane_protein_functions.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Membrane Protein Functions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-membrane_protein_functions-questions.txt" data-bank-id="biochemistry/topic13/index.md:bbq-TFMS-membrane_protein_functions-questions.txt">
-  {% include "biochemistry/topic13/downloads/selftest-TFMS-membrane_protein_functions.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-membrane_protein_functions-questions.txt" data-selftest="biochemistry/topic13/downloads/selftest-TFMS-membrane_protein_functions.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

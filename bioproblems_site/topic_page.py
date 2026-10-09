@@ -604,7 +604,6 @@ def update_index_md(
 
 			# Add content to the index.md file
 			index_md.write(f"## {problem_set_display.render_title(problem_set_title)}\n\n")
-			display_title, _question_types = problem_set_display.split_title(problem_set_title)
 			question_type_badge = problem_set_display.render_badges(
 				problem_set_title, source_path=bbq_file,
 			)
@@ -616,26 +615,18 @@ def update_index_md(
 				question_type_badge=question_type_badge,
 			)
 			index_md.write(download_button_row)
-			index_md.write("<details>\n")
-			index_md.write("  <summary>Click\n")
-			index_md.write("    <span style='font-weight: normal;'>\n")
-			index_md.write("       to show\n")
-			index_md.write("    </span>\n")
-			index_md.write("    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>\n")
-			index_md.write(f"      {html.escape(display_title)}\n")
-			index_md.write("    </span>\n")
-			index_md.write("    <span style='font-weight: normal;'>\n")
-			index_md.write("      example problem\n")
-			index_md.write("    </span>\n")
-			index_md.write("  </summary>\n")
 			bank_name = os.path.basename(bbq_file)
-			page_path = os.path.relpath(index_md_path, base_dir)
-			bank_id = html.escape(f"{page_path}:{bank_name}", quote=True)
+			selftest_path = os.path.relpath(html_file_path, base_dir)
 			bank_url = html.escape(bank_name, quote=True)
-			index_md.write(f'  <div class="qti-selftest" data-bbq="{bank_url}" data-bank-id="{bank_id}">\n')
-			index_md.write(f"  {{% include \"{os.path.relpath(html_file_path, base_dir)}\" %}}\n\n")
-			index_md.write("  </div>\n")
-			index_md.write("</details>\n\n\n")
+			selftest_url = html.escape(selftest_path, quote=True)
+			# The browser controller owns the active question. The standalone
+			# artifact remains available as the WASM source and manifest record.
+			index_md.write(
+				f'<div class="qti-selftest" data-bbq="{bank_url}" '
+				f'data-selftest="{selftest_url}">\n'
+			)
+			index_md.write('  <div class="selftest-reroll-content"></div>\n')
+			index_md.write("</div>\n\n\n")
 
 
 #==============

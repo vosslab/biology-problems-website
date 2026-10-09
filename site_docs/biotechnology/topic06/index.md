@@ -13,23 +13,9 @@ Students review FDA history, clinical trial phases, the Asilomar Conference, the
 <a class="md-button custom-button webwork_pgml" href="downloads/clinical_trial_phases-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Clinical Trial Phases from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-clinical_trial_phases-questions.txt" data-bank-id="biotechnology/topic06/index.md:bbq-MATCH-clinical_trial_phases-questions.txt">
-  {% include "biotechnology/topic06/downloads/selftest-MATCH-clinical_trial_phases.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-clinical_trial_phases-questions.txt" data-selftest="biotechnology/topic06/downloads/selftest-MATCH-clinical_trial_phases.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Types of Intellectual Property from Descriptions
@@ -43,23 +29,9 @@ Students review FDA history, clinical trial phases, the Asilomar Conference, the
 <a class="md-button custom-button webwork_pgml" href="downloads/intellectual_property-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Types of Intellectual Property from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-intellectual_property-questions.txt" data-bank-id="biotechnology/topic06/index.md:bbq-MATCH-intellectual_property-questions.txt">
-  {% include "biotechnology/topic06/downloads/selftest-MATCH-intellectual_property.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-intellectual_property-questions.txt" data-selftest="biotechnology/topic06/downloads/selftest-MATCH-intellectual_property.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Federal Agencies from Transgenic Crop Regulatory Roles
@@ -73,23 +45,9 @@ Students review FDA history, clinical trial phases, the Asilomar Conference, the
 <a class="md-button custom-button webwork_pgml" href="downloads/transgenic_crop_regulators-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Federal Agencies from Transgenic Crop Regulatory Roles
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-transgenic_crop_regulators-questions.txt" data-bank-id="biotechnology/topic06/index.md:bbq-MATCH-transgenic_crop_regulators-questions.txt">
-  {% include "biotechnology/topic06/downloads/selftest-MATCH-transgenic_crop_regulators.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-transgenic_crop_regulators-questions.txt" data-selftest="biotechnology/topic06/downloads/selftest-MATCH-transgenic_crop_regulators.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Patentable Inventions Versus Scientific Discoveries
@@ -103,23 +61,9 @@ Students review FDA history, clinical trial phases, the Asilomar Conference, the
 <a class="md-button custom-button webwork_pgml" href="downloads/inventions_v_discoveries.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Patentable Inventions Versus Scientific Discoveries
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-inventions_v_discoveries-questions.txt" data-bank-id="biotechnology/topic06/index.md:bbq-TFMS-inventions_v_discoveries-questions.txt">
-  {% include "biotechnology/topic06/downloads/selftest-TFMS-inventions_v_discoveries.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-inventions_v_discoveries-questions.txt" data-selftest="biotechnology/topic06/downloads/selftest-TFMS-inventions_v_discoveries.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Clinical Trial Phases from Descriptions
@@ -133,23 +77,9 @@ Students review FDA history, clinical trial phases, the Asilomar Conference, the
 <a class="md-button custom-button webwork_pgml" href="downloads/clinical_trial_phases-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Clinical Trial Phases from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-clinical_trial_phases-questions.txt" data-bank-id="biotechnology/topic06/index.md:bbq-WOMC-clinical_trial_phases-questions.txt">
-  {% include "biotechnology/topic06/downloads/selftest-WOMC-clinical_trial_phases.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-clinical_trial_phases-questions.txt" data-selftest="biotechnology/topic06/downloads/selftest-WOMC-clinical_trial_phases.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Types of Intellectual Property from Descriptions
@@ -163,23 +93,9 @@ Students review FDA history, clinical trial phases, the Asilomar Conference, the
 <a class="md-button custom-button webwork_pgml" href="downloads/intellectual_property-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Types of Intellectual Property from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-intellectual_property-questions.txt" data-bank-id="biotechnology/topic06/index.md:bbq-WOMC-intellectual_property-questions.txt">
-  {% include "biotechnology/topic06/downloads/selftest-WOMC-intellectual_property.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-intellectual_property-questions.txt" data-selftest="biotechnology/topic06/downloads/selftest-WOMC-intellectual_property.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Federal Agencies from Transgenic Crop Regulatory Roles
@@ -193,22 +109,8 @@ Students review FDA history, clinical trial phases, the Asilomar Conference, the
 <a class="md-button custom-button webwork_pgml" href="downloads/transgenic_crop_regulators-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Federal Agencies from Transgenic Crop Regulatory Roles
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-transgenic_crop_regulators-questions.txt" data-bank-id="biotechnology/topic06/index.md:bbq-WOMC-transgenic_crop_regulators-questions.txt">
-  {% include "biotechnology/topic06/downloads/selftest-WOMC-transgenic_crop_regulators.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-transgenic_crop_regulators-questions.txt" data-selftest="biotechnology/topic06/downloads/selftest-WOMC-transgenic_crop_regulators.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

@@ -12,23 +12,9 @@ Students read, interpret, and compare graphical data displays including box plot
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Box Plots from Cumulative Frequency Tables
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices-questions.txt" data-bank-id="biostatistics/topic03/index.md:bbq-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices-questions.txt">
-  {% include "biostatistics/topic03/downloads/selftest-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices-questions.txt" data-selftest="biostatistics/topic03/downloads/selftest-boxplot_from_cdf-MC-boxplot_from_cdf-5_choices.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Box Plots from Sorted Data
@@ -41,23 +27,9 @@ Students read, interpret, and compare graphical data displays including box plot
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Box Plots from Sorted Data
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices-questions.txt" data-bank-id="biostatistics/topic03/index.md:bbq-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices-questions.txt">
-  {% include "biostatistics/topic03/downloads/selftest-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices-questions.txt" data-selftest="biostatistics/topic03/downloads/selftest-boxplot_from_sorted_data-MC-boxplot_from_sorted_data-5_choices.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Box Plots from Five-Number Summary
@@ -70,23 +42,9 @@ Students read, interpret, and compare graphical data displays including box plot
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-boxplot_from_summary-MC-boxplot_from_summary-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-boxplot_from_summary-MC-boxplot_from_summary-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Box Plots from Five-Number Summary
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-boxplot_from_summary-MC-boxplot_from_summary-5_choices-questions.txt" data-bank-id="biostatistics/topic03/index.md:bbq-boxplot_from_summary-MC-boxplot_from_summary-5_choices-questions.txt">
-  {% include "biostatistics/topic03/downloads/selftest-boxplot_from_summary-MC-boxplot_from_summary-5_choices.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-boxplot_from_summary-MC-boxplot_from_summary-5_choices-questions.txt" data-selftest="biostatistics/topic03/downloads/selftest-boxplot_from_summary-MC-boxplot_from_summary-5_choices.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Box Plots from Unsorted Data (Even Sample Size)
@@ -99,22 +57,8 @@ Students read, interpret, and compare graphical data displays including box plot
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Box Plots from Unsorted Data (Even Sample Size)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices-questions.txt" data-bank-id="biostatistics/topic03/index.md:bbq-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices-questions.txt">
-  {% include "biostatistics/topic03/downloads/selftest-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices-questions.txt" data-selftest="biostatistics/topic03/downloads/selftest-boxplot_from_unsorted_even-MC-boxplot_from_unsorted_even-5_choices.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

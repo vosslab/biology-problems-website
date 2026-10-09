@@ -4,8 +4,8 @@
 // problems website dev server (http://127.0.0.1:8000).
 //
 // Passive visual survey:
-//   Opens each representative page, expands the <details> panel, takes
-//   screenshots before interaction, and captures console errors.
+//   Opens each representative page, waits for its initial dynamic question,
+//   takes screenshots before interaction, and captures console errors.
 //   Covers desktop (1280) and mobile (390) in both light and dark themes
 //   (Material "slate" via __palette localStorage seed).
 //
@@ -129,6 +129,19 @@ function darkInitScript() {
 			color: { scheme: 'slate', primary: 'green', accent: 'lime' },
 		}));
 	};
+}
+
+// Topic pages now mount one fresh question through the browser controller.
+// Standalone selftest artifacts deliberately have no host, so this is a no-op
+// for them and preserves the survey's direct-artifact coverage.
+async function waitForDynamicQuestion(page) {
+	const host = page.locator('.qti-selftest[data-bbq]').first();
+	if (await host.count() === 0) return false;
+	await page.waitForFunction(() => {
+		const status = document.querySelector('.qti-selftest[data-bbq] .selftest-question-status');
+		return status && status.textContent.trim() === 'Question ready.';
+	}, { timeout: 30000 });
+	return true;
 }
 
 // ===========================================================================
@@ -329,23 +342,21 @@ async function passiveSurvey(browser, target, theme, viewport) {
 	try {
 		const resp = await page.goto(BASE + target.url, { waitUntil: 'domcontentloaded', timeout: 30000 });
 		status = resp ? resp.status() : 0;
-		await page.waitForTimeout(800);
+		await waitForDynamicQuestion(page);
 
 		// Screenshot before expanding any details
 		shotBefore = path.join(OUT, `${slug}_before.png`);
 		await page.screenshot({ path: shotBefore, fullPage: true });
 
-		// Expand all <details> panels to show selftest fragments
+		// The active question is already mounted in an ordinary container.
+		// Retain counts for older unrelated disclosure elements without changing
+		// their open state during visual review.
 		detailsCount = await page.evaluate(() => document.querySelectorAll('article details').length);
-		detailsExpanded = await page.evaluate(() => {
-			const panels = Array.from(document.querySelectorAll('article details'));
-			panels.forEach(d => { d.open = true; });
-			return panels.length;
-		});
+		detailsExpanded = 0;
 		// Wait for RDKit canvas renders etc
 		await page.waitForTimeout(1500);
 
-		// Screenshot after expanding
+		// Screenshot after question readiness
 		shotAfterExpand = path.join(OUT, `${slug}_expanded.png`);
 		await page.screenshot({ path: shotAfterExpand, fullPage: true });
 
@@ -401,13 +412,7 @@ async function interactiveSurvey(browser, target) {
 	try {
 		const resp = await page.goto(BASE + target.url, { waitUntil: 'domcontentloaded', timeout: 30000 });
 		status = resp ? resp.status() : 0;
-		await page.waitForTimeout(800);
-
-		// Expand all <details> panels
-		await page.evaluate(() => {
-			document.querySelectorAll('article details').forEach(d => { d.open = true; });
-		});
-		await page.waitForTimeout(1000);
+		await waitForDynamicQuestion(page);
 
 		shotBefore = path.join(OUT, `${slug}_before.png`);
 		await page.screenshot({ path: shotBefore, fullPage: true });

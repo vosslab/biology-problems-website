@@ -13,23 +13,9 @@ Students summarize data using frequency tables and proportions, calculate mean, 
 <a class="md-button custom-button webwork_pgml" href="downloads/measures_of_center-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Measures of Center from Definitions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-measures_of_center-questions.txt" data-bank-id="biostatistics/topic02/index.md:bbq-MATCH-measures_of_center-questions.txt">
-  {% include "biostatistics/topic02/downloads/selftest-MATCH-measures_of_center.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-measures_of_center-questions.txt" data-selftest="biostatistics/topic02/downloads/selftest-MATCH-measures_of_center.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Measures of Center from Definitions
@@ -43,23 +29,9 @@ Students summarize data using frequency tables and proportions, calculate mean, 
 <a class="md-button custom-button webwork_pgml" href="downloads/measures_of_center-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Measures of Center from Definitions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-measures_of_center-questions.txt" data-bank-id="biostatistics/topic02/index.md:bbq-WOMC-measures_of_center-questions.txt">
-  {% include "biostatistics/topic02/downloads/selftest-WOMC-measures_of_center.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-measures_of_center-questions.txt" data-selftest="biostatistics/topic02/downloads/selftest-WOMC-measures_of_center.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Descriptive Statistics Using Google Sheets
@@ -72,22 +44,8 @@ Students summarize data using frequency tables and proportions, calculate mean, 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-descriptive_stats_google_sheet-questions.txt" data-format="human_readable" data-filename="human_readable-descriptive_stats_google_sheet.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Descriptive Statistics Using Google Sheets
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-descriptive_stats_google_sheet-questions.txt" data-bank-id="biostatistics/topic02/index.md:bbq-descriptive_stats_google_sheet-questions.txt">
-  {% include "biostatistics/topic02/downloads/selftest-descriptive_stats_google_sheet.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-descriptive_stats_google_sheet-questions.txt" data-selftest="biostatistics/topic02/downloads/selftest-descriptive_stats_google_sheet.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

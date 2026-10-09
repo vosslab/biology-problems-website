@@ -13,23 +13,9 @@ Students discuss scientific misconduct, GMO ethics, bioweapons, de-extinction, C
 <a class="md-button custom-button webwork_pgml" href="downloads/theranos_people-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Theranos Case Study: People and Roles
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-theranos_people-questions.txt" data-bank-id="biotechnology/topic07/index.md:bbq-MATCH-theranos_people-questions.txt">
-  {% include "biotechnology/topic07/downloads/selftest-MATCH-theranos_people.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-theranos_people-questions.txt" data-selftest="biotechnology/topic07/downloads/selftest-MATCH-theranos_people.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Theranos Case Study: People and Roles
@@ -43,22 +29,8 @@ Students discuss scientific misconduct, GMO ethics, bioweapons, de-extinction, C
 <a class="md-button custom-button webwork_pgml" href="downloads/theranos_people-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Theranos Case Study: People and Roles
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-theranos_people-questions.txt" data-bank-id="biotechnology/topic07/index.md:bbq-WOMC-theranos_people-questions.txt">
-  {% include "biotechnology/topic07/downloads/selftest-WOMC-theranos_people.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-theranos_people-questions.txt" data-selftest="biotechnology/topic07/downloads/selftest-WOMC-theranos_people.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

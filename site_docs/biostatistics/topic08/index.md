@@ -13,23 +13,9 @@ Students formulate hypotheses, calculate expected counts and chi-square statisti
 <a class="md-button custom-button webwork_pgml" href="downloads/chi-square_terms-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Chi-Square Terms from Definitions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-chi-square_terms-questions.txt" data-bank-id="biostatistics/topic08/index.md:bbq-MATCH-chi-square_terms-questions.txt">
-  {% include "biostatistics/topic08/downloads/selftest-MATCH-chi-square_terms.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-chi-square_terms-questions.txt" data-selftest="biostatistics/topic08/downloads/selftest-MATCH-chi-square_terms.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Chi-Square Tests
@@ -43,23 +29,9 @@ Students formulate hypotheses, calculate expected counts and chi-square statisti
 <a class="md-button custom-button webwork_pgml" href="downloads/chi-square.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Chi-Square Tests
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-TFMS-chi-square-questions.txt" data-bank-id="biostatistics/topic08/index.md:bbq-TFMS-chi-square-questions.txt">
-  {% include "biostatistics/topic08/downloads/selftest-TFMS-chi-square.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-chi-square-questions.txt" data-selftest="biostatistics/topic08/downloads/selftest-TFMS-chi-square.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Chi-Square Terms from Definitions
@@ -73,23 +45,9 @@ Students formulate hypotheses, calculate expected counts and chi-square statisti
 <a class="md-button custom-button webwork_pgml" href="downloads/chi-square_terms-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Chi-Square Terms from Definitions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-chi-square_terms-questions.txt" data-bank-id="biostatistics/topic08/index.md:bbq-WOMC-chi-square_terms-questions.txt">
-  {% include "biostatistics/topic08/downloads/selftest-WOMC-chi-square_terms.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-chi-square_terms-questions.txt" data-selftest="biostatistics/topic08/downloads/selftest-WOMC-chi-square_terms.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Null and Alternative Hypotheses for Genetic Crosses
@@ -102,22 +60,8 @@ Students formulate hypotheses, calculate expected counts and chi-square statisti
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-chi_square_hypotheses-pair-questions.txt" data-format="human_readable" data-filename="human_readable-chi_square_hypotheses-pair.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Null and Alternative Hypotheses for Genetic Crosses
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-chi_square_hypotheses-pair-questions.txt" data-bank-id="biostatistics/topic08/index.md:bbq-chi_square_hypotheses-pair-questions.txt">
-  {% include "biostatistics/topic08/downloads/selftest-chi_square_hypotheses-pair.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-chi_square_hypotheses-pair-questions.txt" data-selftest="biostatistics/topic08/downloads/selftest-chi_square_hypotheses-pair.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

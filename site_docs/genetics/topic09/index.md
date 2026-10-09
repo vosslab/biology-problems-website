@@ -15,23 +15,9 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <a class="md-button custom-button webwork_pgml" href="downloads/chromosome_alterations-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Chromosome Structure Alterations from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-chromosome_alterations-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-MATCH-chromosome_alterations-questions.txt">
-  {% include "genetics/topic09/downloads/selftest-MATCH-chromosome_alterations.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-chromosome_alterations-questions.txt" data-selftest="genetics/topic09/downloads/selftest-MATCH-chromosome_alterations.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Chromosome Shapes from Descriptions
@@ -45,23 +31,9 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <a class="md-button custom-button webwork_pgml" href="downloads/chromosome_shapes-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Chromosome Shapes from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-MATCH-chromosome_shapes-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-MATCH-chromosome_shapes-questions.txt">
-  {% include "genetics/topic09/downloads/selftest-MATCH-chromosome_shapes.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-chromosome_shapes-questions.txt" data-selftest="genetics/topic09/downloads/selftest-MATCH-chromosome_shapes.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Chromosome Structure Alterations from Descriptions
@@ -75,23 +47,9 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <a class="md-button custom-button webwork_pgml" href="downloads/chromosome_alterations-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Chromosome Structure Alterations from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-chromosome_alterations-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-WOMC-chromosome_alterations-questions.txt">
-  {% include "genetics/topic09/downloads/selftest-WOMC-chromosome_alterations.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-chromosome_alterations-questions.txt" data-selftest="genetics/topic09/downloads/selftest-WOMC-chromosome_alterations.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Chromosome Shapes from Descriptions
@@ -105,23 +63,9 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <a class="md-button custom-button webwork_pgml" href="downloads/chromosome_shapes-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Chromosome Shapes from Descriptions
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-WOMC-chromosome_shapes-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-WOMC-chromosome_shapes-questions.txt">
-  {% include "genetics/topic09/downloads/selftest-WOMC-chromosome_shapes.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-chromosome_shapes-questions.txt" data-selftest="genetics/topic09/downloads/selftest-WOMC-chromosome_shapes.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Chromosomal Abnormalities from Karyotype Notation
@@ -134,23 +78,9 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-cytogenetic_notation-aneuploidy-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-cytogenetic_notation-aneuploidy-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Chromosomal Abnormalities from Karyotype Notation
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-cytogenetic_notation-aneuploidy-5_choices-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-cytogenetic_notation-aneuploidy-5_choices-questions.txt">
-  {% include "genetics/topic09/downloads/selftest-cytogenetic_notation-aneuploidy-5_choices.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-cytogenetic_notation-aneuploidy-5_choices-questions.txt" data-selftest="genetics/topic09/downloads/selftest-cytogenetic_notation-aneuploidy-5_choices.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Chromosome Band Proximity
@@ -163,23 +93,9 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-cytogenetic_notation-band_order-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-cytogenetic_notation-band_order-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Chromosome Band Proximity
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-cytogenetic_notation-band_order-5_choices-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-cytogenetic_notation-band_order-5_choices-questions.txt">
-  {% include "genetics/topic09/downloads/selftest-cytogenetic_notation-band_order-5_choices.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-cytogenetic_notation-band_order-5_choices-questions.txt" data-selftest="genetics/topic09/downloads/selftest-cytogenetic_notation-band_order-5_choices.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Cytogenetic Notations in Genetic Disorders
@@ -192,23 +108,9 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-cytogenetic_notation-disorders-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-cytogenetic_notation-disorders-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Cytogenetic Notations in Genetic Disorders
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-cytogenetic_notation-disorders-5_choices-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-cytogenetic_notation-disorders-5_choices-questions.txt">
-  {% include "genetics/topic09/downloads/selftest-cytogenetic_notation-disorders-5_choices.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-cytogenetic_notation-disorders-5_choices-questions.txt" data-selftest="genetics/topic09/downloads/selftest-cytogenetic_notation-disorders-5_choices.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Cytogenetic Notation for Rearrangements
@@ -221,23 +123,9 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-cytogenetic_notation-rearrangements-questions.txt" data-format="human_readable" data-filename="human_readable-cytogenetic_notation-rearrangements.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Cytogenetic Notation for Rearrangements
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-cytogenetic_notation-rearrangements-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-cytogenetic_notation-rearrangements-questions.txt">
-  {% include "genetics/topic09/downloads/selftest-cytogenetic_notation-rearrangements.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-cytogenetic_notation-rearrangements-questions.txt" data-selftest="genetics/topic09/downloads/selftest-cytogenetic_notation-rearrangements.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Chromosome Sub-Band Positions from Cytogenetic Notation
@@ -250,23 +138,9 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-cytogenetic_notation-sub-band_notation-questions.txt" data-format="human_readable" data-filename="human_readable-cytogenetic_notation-sub-band_notation.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Chromosome Sub-Band Positions from Cytogenetic Notation
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-cytogenetic_notation-sub-band_notation-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-cytogenetic_notation-sub-band_notation-questions.txt">
-  {% include "genetics/topic09/downloads/selftest-cytogenetic_notation-sub-band_notation.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-cytogenetic_notation-sub-band_notation-questions.txt" data-selftest="genetics/topic09/downloads/selftest-cytogenetic_notation-sub-band_notation.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Gene Order from Deletion Mutants (4 Genes, Random Labels)
@@ -279,23 +153,9 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-deletion_mutant_random-04_genes-MC-questions.txt" data-format="human_readable" data-filename="human_readable-deletion_mutant_random-04_genes-MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Gene Order from Deletion Mutants (4 Genes, Random Labels)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-deletion_mutant_random-04_genes-MC-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-deletion_mutant_random-04_genes-MC-questions.txt">
-  {% include "genetics/topic09/downloads/selftest-deletion_mutant_random-04_genes-MC.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-deletion_mutant_random-04_genes-MC-questions.txt" data-selftest="genetics/topic09/downloads/selftest-deletion_mutant_random-04_genes-MC.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Gene Order from Deletion Mutants (5 Genes, Random Labels)
@@ -308,23 +168,9 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-deletion_mutant_random-05_genes-MC-questions.txt" data-format="human_readable" data-filename="human_readable-deletion_mutant_random-05_genes-MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Gene Order from Deletion Mutants (5 Genes, Random Labels)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-deletion_mutant_random-05_genes-MC-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-deletion_mutant_random-05_genes-MC-questions.txt">
-  {% include "genetics/topic09/downloads/selftest-deletion_mutant_random-05_genes-MC.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-deletion_mutant_random-05_genes-MC-questions.txt" data-selftest="genetics/topic09/downloads/selftest-deletion_mutant_random-05_genes-MC.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Gene Order from Deletion Mutants (6 Genes, Random Labels)
@@ -337,23 +183,9 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-deletion_mutant_random-06_genes-MC-questions.txt" data-format="human_readable" data-filename="human_readable-deletion_mutant_random-06_genes-MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Gene Order from Deletion Mutants (6 Genes, Random Labels)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-deletion_mutant_random-06_genes-MC-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-deletion_mutant_random-06_genes-MC-questions.txt">
-  {% include "genetics/topic09/downloads/selftest-deletion_mutant_random-06_genes-MC.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-deletion_mutant_random-06_genes-MC-questions.txt" data-selftest="genetics/topic09/downloads/selftest-deletion_mutant_random-06_genes-MC.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Gene Order from Deletion Mutants (4 Genes, Word Labels)
@@ -366,23 +198,9 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-deletion_mutant_words-04_genes-MC-questions.txt" data-format="human_readable" data-filename="human_readable-deletion_mutant_words-04_genes-MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Gene Order from Deletion Mutants (4 Genes, Word Labels)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-deletion_mutant_words-04_genes-MC-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-deletion_mutant_words-04_genes-MC-questions.txt">
-  {% include "genetics/topic09/downloads/selftest-deletion_mutant_words-04_genes-MC.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-deletion_mutant_words-04_genes-MC-questions.txt" data-selftest="genetics/topic09/downloads/selftest-deletion_mutant_words-04_genes-MC.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Gene Order from Deletion Mutants (5 Genes, Word Labels)
@@ -395,23 +213,9 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-deletion_mutant_words-05_genes-MC-questions.txt" data-format="human_readable" data-filename="human_readable-deletion_mutant_words-05_genes-MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Gene Order from Deletion Mutants (5 Genes, Word Labels)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-deletion_mutant_words-05_genes-MC-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-deletion_mutant_words-05_genes-MC-questions.txt">
-  {% include "genetics/topic09/downloads/selftest-deletion_mutant_words-05_genes-MC.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-deletion_mutant_words-05_genes-MC-questions.txt" data-selftest="genetics/topic09/downloads/selftest-deletion_mutant_words-05_genes-MC.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Gene Order from Deletion Mutants (6 Genes, Word Labels)
@@ -424,23 +228,9 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-deletion_mutant_words-06_genes-MC-questions.txt" data-format="human_readable" data-filename="human_readable-deletion_mutant_words-06_genes-MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Gene Order from Deletion Mutants (6 Genes, Word Labels)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-deletion_mutant_words-06_genes-MC-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-deletion_mutant_words-06_genes-MC-questions.txt">
-  {% include "genetics/topic09/downloads/selftest-deletion_mutant_words-06_genes-MC.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-deletion_mutant_words-06_genes-MC-questions.txt" data-selftest="genetics/topic09/downloads/selftest-deletion_mutant_words-06_genes-MC.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Chromosomal Translocation Outcomes (Color)
@@ -453,23 +243,9 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-letter_translocation_problem_color-questions.txt" data-format="human_readable" data-filename="human_readable-letter_translocation_problem_color.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Chromosomal Translocation Outcomes (Color)
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-letter_translocation_problem_color-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-letter_translocation_problem_color-questions.txt">
-  {% include "genetics/topic09/downloads/selftest-letter_translocation_problem_color.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-letter_translocation_problem_color-questions.txt" data-selftest="genetics/topic09/downloads/selftest-letter_translocation_problem_color.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Gamete Chromosome Numbers in Polyploids
@@ -482,23 +258,9 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-polyploid-gametes-questions.txt" data-format="human_readable" data-filename="human_readable-polyploid-gametes.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Gamete Chromosome Numbers in Polyploids
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-polyploid-gametes-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-polyploid-gametes-questions.txt">
-  {% include "genetics/topic09/downloads/selftest-polyploid-gametes.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-polyploid-gametes-questions.txt" data-selftest="genetics/topic09/downloads/selftest-polyploid-gametes.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Monoploid and Haploid Numbers from Chromosome Counts
@@ -511,23 +273,9 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-polyploid-monoploid_v_haploid-questions.txt" data-format="human_readable" data-filename="human_readable-polyploid-monoploid_v_haploid.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Monoploid and Haploid Numbers from Chromosome Counts
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-polyploid-monoploid_v_haploid-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-polyploid-monoploid_v_haploid-questions.txt">
-  {% include "genetics/topic09/downloads/selftest-polyploid-monoploid_v_haploid.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-polyploid-monoploid_v_haploid-questions.txt" data-selftest="genetics/topic09/downloads/selftest-polyploid-monoploid_v_haploid.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Gametes from Robertsonian Translocation
@@ -540,23 +288,9 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-robertsonian-questions.txt" data-format="human_readable" data-filename="human_readable-robertsonian.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Gametes from Robertsonian Translocation
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-robertsonian-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-robertsonian-questions.txt">
-  {% include "genetics/topic09/downloads/selftest-robertsonian.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-robertsonian-questions.txt" data-selftest="genetics/topic09/downloads/selftest-robertsonian.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Balanced Translocation Segregation Outcomes
@@ -569,22 +303,8 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-translocation_meiosis_table-questions.txt" data-format="human_readable" data-filename="human_readable-translocation_meiosis_table.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Balanced Translocation Segregation Outcomes
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-translocation_meiosis_table-questions.txt" data-bank-id="genetics/topic09/index.md:bbq-translocation_meiosis_table-questions.txt">
-  {% include "genetics/topic09/downloads/selftest-translocation_meiosis_table.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-translocation_meiosis_table-questions.txt" data-selftest="genetics/topic09/downloads/selftest-translocation_meiosis_table.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

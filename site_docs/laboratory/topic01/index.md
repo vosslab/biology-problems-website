@@ -12,23 +12,9 @@ Students convert between SI-prefixed units, choose values with the correct order
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-orders_of_magnitude_mc-questions.txt" data-format="human_readable" data-filename="human_readable-orders_of_magnitude_mc.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Orders of Magnitude for Given Quantities
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-orders_of_magnitude_mc-questions.txt" data-bank-id="laboratory/topic01/index.md:bbq-orders_of_magnitude_mc-questions.txt">
-  {% include "laboratory/topic01/downloads/selftest-orders_of_magnitude_mc.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-orders_of_magnitude_mc-questions.txt" data-selftest="laboratory/topic01/downloads/selftest-orders_of_magnitude_mc.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 
 ## Pipette Sizes for Given Volumes
@@ -41,22 +27,8 @@ Students convert between SI-prefixed units, choose values with the correct order
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-pipet_size_mc-questions.txt" data-format="human_readable" data-filename="human_readable-pipet_size_mc.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><details>
-  <summary>Click
-    <span style='font-weight: normal;'>
-       to show
-    </span>
-    <span style='font-size: 1.1em; color: var(--md-primary-fg-color--dark)'>
-      Pipette Sizes for Given Volumes
-    </span>
-    <span style='font-weight: normal;'>
-      example problem
-    </span>
-  </summary>
-  <div class="qti-selftest" data-bbq="bbq-pipet_size_mc-questions.txt" data-bank-id="laboratory/topic01/index.md:bbq-pipet_size_mc-questions.txt">
-  {% include "laboratory/topic01/downloads/selftest-pipet_size_mc.html" %}
-
-  </div>
-</details>
+</div><div class="qti-selftest" data-bbq="bbq-pipet_size_mc-questions.txt" data-selftest="laboratory/topic01/downloads/selftest-pipet_size_mc.html">
+  <div class="selftest-reroll-content"></div>
+</div>
 
 

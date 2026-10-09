@@ -73,6 +73,32 @@ downstream stages run. The index stage reconciles generated artifacts against th
 live BBQ question files, prunes the shared title cache against all live source
 basenames, and then writes the self-test manifest.
 
+## Browser self-test lifecycle
+
+Topic pages contain empty `.qti-selftest` containers rather than embedded
+standalone question HTML. Each container identifies its BBQ bank, stable page
+placement, and standalone self-test artifact with `data-bbq` and
+`data-selftest`. The standalone artifact remains the manifest source; the
+browser uses the BBQ bank and vendored WebAssembly converter to make its active
+question.
+
+[selftest_reroll.js](../site_docs/assets/scripts/selftest_reroll.js) owns the
+whole question lifecycle: it creates the question header, generates the first
+container on page load, mounts converter output, wraps the generated answer
+checker, and advances after a fully correct answer. It emits bubbling
+`selftest:ready` and `selftest:graded` events. The next question begins loading
+alongside the 500 ms feedback pause and receives focus only when it is ready.
+Manual **New version** replaces one container without retaining attempt history.
+
+[selftest_progress.js](../site_docs/assets/scripts/selftest_progress.js) and
+[streak.js](../site_docs/assets/scripts/streak.js) subscribe to those events.
+Progress stores completed BBQ filename basenames in browser `localStorage`; a
+correct generated version completes its shared source set. CRCs remain scoped
+to generated DOM and grading. Streak rules remain independent of question
+navigation. This separates lifecycle ownership from lightweight motivational
+records and lets dynamically generated questions use the same grading path as
+the initial question.
+
 ## Homepage snapshot and source history
 
 Index finalization also refreshes the global homepage and both full activity pages through

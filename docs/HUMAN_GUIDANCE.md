@@ -10,6 +10,15 @@ origin belongs there too. Rules: [REPO_STYLE.md](REPO_STYLE.md).
 
 ## Decision priority
 
+- I want students to drop in, answer a few questions, and come back tomorrow.
+  This is a self-test website, not an LMS.
+- The questions are the main attraction. Progress and streaks are just
+  encouragement to keep practicing.
+- The BBQ filename is the unique identifier for a problem set. Track completion
+  by filename, not by the CRC of a randomly generated question.
+- Fix the design, not the symptom. Prefer durable fixes over quick patches
+  when the durable fix is justified.
+
 ## Review expectations
 
 - Feature Biochemistry and Genetics as complete courses developed with grant support. Use
