@@ -43,6 +43,9 @@
 
 ### Fixes and Maintenance
 
+- Install the shared `pip_requirements.txt` for GitHub Pages deployment instead
+  of a separate incomplete package list;
+  this supplies `tinycss2`, required by the CSS-isolation build hook.
 - Vendor the macOS ARM64 Rust `bbq-converter` as a Git-tracked BPW dependency.
   Normal builds select the local binary by OS/CPU and require no QPM checkout or
   Cargo. Move Cargo preparation into the explicit QPM refresh helper, supporting
