@@ -5,7 +5,7 @@
 ## DBsubject('Genetics')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-09-30')
+## Date('2026-10-08')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -32,7 +32,7 @@ our @ALPHABET = ('A' .. 'Z');
   ],
   'genetic drift' => [
     'a random change in the allele frequencies within a population',
-    'stronger in small populations and decrease the overall fitness of that population',
+    'stronger in small populations and can cause substantial changes in allele frequencies',
   ],
   'gene flow' => [
     'movement of alleles between populations',
@@ -45,7 +45,7 @@ our @ALPHABET = ('A' .. 'Z');
     'mating between individuals with similar phenotypes',
   ],
   'consanguineous mating' => [
-    'mating between <span style="color: #b74300; font-weight:700;">genetic</span>ally related individuals',
+    'mating between <span style="color: #b74300; font-weight:700;">genetically</span> related individuals',
     'mating between relatives, such as first cousins',
     'type of mating that reduces heterozygotes and increases homozygotes',
   ],

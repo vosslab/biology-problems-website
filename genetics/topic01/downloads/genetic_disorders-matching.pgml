@@ -5,7 +5,7 @@
 ## DBsubject('Genetics')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-09-30')
+## Date('2026-10-08')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -73,14 +73,14 @@ our @ALPHABET = ('A' .. 'Z');
   ],
   'Angelman syndrome' => [
     'caused by duplications of the UBE3A gene located on <span style="color: #6c6c00; font-weight:700;">chromosome</span> 15',
-    '<span style="color: #d40000; font-weight:700;">disorder</span> that is due to a extra piece (duplication) of a specific gene on <span style="color: #6c6c00; font-weight:700;">chromosome</span> 15',
+    '<span style="color: #d40000; font-weight:700;">disorder</span> that is due to an extra piece (duplication) of a specific gene on <span style="color: #6c6c00; font-weight:700;">chromosome</span> 15',
   ],
   'Prader-Willi syndrome' => [
     'a <span style="color: #b74300; font-weight:700;">genetic</span> <span style="color: #d40000; font-weight:700;">disorder</span> caused by a loss of function of specific genes on <span style="color: #6c6c00; font-weight:700;">chromosome</span> 15',
     '<span style="color: #d40000; font-weight:700;">disorder</span> that is due to a missing piece (deletion) of a specific part of <span style="color: #6c6c00; font-weight:700;">chromosome</span> 15',
   ],
   'Cri du chat syndrome' => [
-    'usually include a high-pitched cat-like cry, mental disability, delayed development, distinctive facial features, widely-spaced eyes',
+    'features usually include a high-pitched cat-like cry, mental disability, delayed development, distinctive facial features, widely-spaced eyes',
     '<span style="color: #d40000; font-weight:700;">disorder</span> that is due to a missing piece (deletion) of a specific part of <span style="color: #6c6c00; font-weight:700;">chromosome</span> 5',
     '<span style="color: #d40000; font-weight:700;">disorder</span> caused when a small part of <span style="color: #6c6c00; font-weight:700;">chromosome</span> 5 is missing',
   ],
@@ -115,11 +115,11 @@ our @ALPHABET = ('A' .. 'Z');
     'forms when <span style="color: #6c6c00; font-weight:700;">chromosome</span> 9 and <span style="color: #6c6c00; font-weight:700;">chromosome</span> 22 break and exchange portions of their <span style="color: #b74300; font-weight:700;">genetic</span> material',
   ],
   'Triple X syndrome' => [
-    'also known as 47,XXX, is a <span style="color: #b74300; font-weight:700;">genetic</span> <span style="color: #d40000; font-weight:700;">disorder</span> that results in a female that has three X <span style="color: #6c6c00; font-weight:700;">chromosome</span>s',
-    'a <span style="color: #b74300; font-weight:700;">genetic</span> condition in females which there are three copies of the X <span style="color: #6c6c00; font-weight:700;">chromosome</span>',
+    'also known as 47,XXX, is a <span style="color: #b74300; font-weight:700;">genetic</span> <span style="color: #d40000; font-weight:700;">disorder</span> that results in a female that has three X <span style="color: #6c6c00; font-weight:700;">chromosomes</span>',
+    'a <span style="color: #b74300; font-weight:700;">genetic</span> condition in females in which there are three copies of the X <span style="color: #6c6c00; font-weight:700;">chromosome</span>',
   ],
   'Turner syndrome' => [
-    'a condition that affects only females, results when one of their X <span style="color: #6c6c00; font-weight:700;">chromosome</span>s is missing or partially missing',
+    'a condition that affects only females and results when one of their X <span style="color: #6c6c00; font-weight:700;">chromosomes</span> is missing or partially missing',
     'also known as monosomy X, includes a number of typical physical features observed such as webbed neck',
   ],
   'WAGR syndrome' => [

@@ -5,7 +5,7 @@
 ## DBsubject('Genetics')
 ## DBchapter('')
 ## DBsection('')
-## Date('2026-10-01')
+## Date('2026-10-08')
 ## Author('Neil R. Voss')
 ## Institution('Roosevelt University')
 
@@ -30,9 +30,9 @@ our @ALPHABET = ('A' .. 'Z');
     'a type of cross where the <span style="color: #003fff; font-weight:700;">dominant</span> <span style="color: #cc0066; font-weight:700;">phenotype</span> is crossed with the <span style="color: #6c6c00; font-weight:700;">homozygous</span> <span style="color: #00775f; font-weight:700;">recessive</span> <span style="color: #076dad; font-weight:700;">genotype</span>',
     'a type of cross that uses a <span style="color: #6c6c00; font-weight:700;">homozygous</span> <span style="color: #00775f; font-weight:700;">recessive</span> organism to determine the genetic makeup of another <span style="color: #003fff; font-weight:700;">dominant</span> organism',
     'a type of cross involving an individual which is <span style="color: #6c6c00; font-weight:700;">homozygous</span> <span style="color: #00775f; font-weight:700;">recessive</span> for all genes of interest',
-    'a type of cross involving an individuals with a <span style="color: #003fff; font-weight:700;">dominant</span> <span style="color: #cc0066; font-weight:700;">phenotype</span> and an unknown <span style="color: #076dad; font-weight:700;">genotype</span>, mated with a <span style="color: #6c6c00; font-weight:700;">homozygous</span> <span style="color: #00775f; font-weight:700;">recessive</span> individual',
+    'a type of cross involving an individual with a <span style="color: #003fff; font-weight:700;">dominant</span> <span style="color: #cc0066; font-weight:700;">phenotype</span> and an unknown <span style="color: #076dad; font-weight:700;">genotype</span>, mated with a <span style="color: #6c6c00; font-weight:700;">homozygous</span> <span style="color: #00775f; font-weight:700;">recessive</span> individual',
     'a type of cross where a test organism showing a <span style="color: #003fff; font-weight:700;">dominant</span> trait is crossed with one showing all <span style="color: #00775f; font-weight:700;">recessive</span> traits',
-    'a type of cross between a <span style="color: #6c6c00; font-weight:700;">homozygous</span> <span style="color: #00775f; font-weight:700;">recessive</span> individual with an individual of an unknown <span style="color: #003fff; font-weight:700;">dominant</span> <span style="color: #076dad; font-weight:700;">genotype</span>',
+    'a type of cross between a <span style="color: #6c6c00; font-weight:700;">homozygous</span> <span style="color: #00775f; font-weight:700;">recessive</span> individual and an individual of an unknown <span style="color: #003fff; font-weight:700;">dominant</span> <span style="color: #076dad; font-weight:700;">genotype</span>',
     'a type of cross of an individual of <span style="color: #003fff; font-weight:700;">dominant</span> <span style="color: #cc0066; font-weight:700;">phenotype</span> and unknown <span style="color: #076dad; font-weight:700;">genotype</span> and an individual with a <span style="color: #6c6c00; font-weight:700;">homozygous</span> <span style="color: #00775f; font-weight:700;">recessive</span> <span style="color: #076dad; font-weight:700;">genotype</span>',
     'a genetic cross in which a <span style="color: #003fff; font-weight:700;">dominant</span> <span style="color: #cc0066; font-weight:700;">phenotype</span> is paired with a <span style="color: #6c6c00; font-weight:700;">homozygous</span> <span style="color: #00775f; font-weight:700;">recessive</span> <span style="color: #076dad; font-weight:700;">genotype</span>',
     'a genetic cross to identify the <span style="color: #076dad; font-weight:700;">genotype</span> of an organism with a <span style="color: #003fff; font-weight:700;">dominant</span> <span style="color: #cc0066; font-weight:700;">phenotype</span> by crossing it with a <span style="color: #6c6c00; font-weight:700;">homozygous</span> <span style="color: #00775f; font-weight:700;">recessive</span> individual',
@@ -41,17 +41,17 @@ our @ALPHABET = ('A' .. 'Z');
     'a cross designed to reveal the <span style="color: #076dad; font-weight:700;">genotype</span> of a <span style="color: #003fff; font-weight:700;">dominant</span> <span style="color: #cc0066; font-weight:700;">phenotype</span> individual by pairing it with a <span style="color: #6c6c00; font-weight:700;">homozygous</span> <span style="color: #00775f; font-weight:700;">recessive</span> individual',
   ],
   'backcross' => [
-    'a type of cross where <span style="color: #b74300; font-weight:700;">F<sub>1</sub> generation</span> hybrids are crossed with one of the <span style="color: #0067cc; font-weight:700;">parental</span> <span style="color: #076dad; font-weight:700;">genotype</span>',
-    'a type of cross when <span style="color: #b74300; font-weight:700;">F<sub>1</sub> generation</span> individuals are crossed with one of the two parents',
-    'a cross involving <span style="color: #b74300; font-weight:700;">F<sub>1</sub> generation</span> hybrids and one of their <span style="color: #0067cc; font-weight:700;">parental</span> <span style="color: #076dad; font-weight:700;">genotype</span>',
-    'a mating event where <span style="color: #b74300; font-weight:700;">F<sub>1</sub> generation</span> individuals are bred with one of the original <span style="color: #0067cc; font-weight:700;">parental</span> types',
+    'a type of cross where <span style="color: #b74300; font-weight:700;">F<sub>1</sub></span> hybrids are crossed with one of the <span style="color: #0067cc; font-weight:700;">parental</span> <span style="color: #076dad; font-weight:700;">genotypes</span>',
+    'a type of cross when <span style="color: #b74300; font-weight:700;">F<sub>1</sub></span> individuals are crossed with one of the two parents',
+    'a cross involving <span style="color: #b74300; font-weight:700;">F<sub>1</sub></span> hybrids and one of their <span style="color: #0067cc; font-weight:700;">parental</span> <span style="color: #076dad; font-weight:700;">genotypes</span>',
+    'a mating event where <span style="color: #b74300; font-weight:700;">F<sub>1</sub></span> individuals are bred with one of the original <span style="color: #0067cc; font-weight:700;">parental</span> types',
     'a genetic cross to trace the <span style="color: #935d00; font-weight:700;">inheritance</span> of a specific trait back to one of the original parents',
-    'a genetic cross that involves the <span style="color: #b74300; font-weight:700;">F<sub>1</sub> generation</span> generation being mated with one of the parent types',
+    'a genetic cross that involves the <span style="color: #b74300; font-weight:700;">F<sub>1</sub></span> generation being mated with one of the parent types',
   ],
   'hybrid cross' => [
-    'a type of cross between two individuals who have distinct <span style="color: #6c6c00; font-weight:700;">homozygous</span> <span style="color: #076dad; font-weight:700;">genotype</span>',
-    'a type of cross between two true-breeding individuals with different <span style="color: #cc0066; font-weight:700;">phenotype</span>',
-    'a type of cross that mates two true-breeding individuals with different <span style="color: #cc0066; font-weight:700;">phenotype</span>',
+    'a type of cross between two individuals who have distinct <span style="color: #6c6c00; font-weight:700;">homozygous</span> <span style="color: #076dad; font-weight:700;">genotypes</span>',
+    'a type of cross between two true-breeding individuals with different <span style="color: #cc0066; font-weight:700;">phenotypes</span>',
+    'a type of cross that mates two true-breeding individuals with different <span style="color: #cc0066; font-weight:700;">phenotypes</span>',
     'a genetic cross between two <span style="color: #6c6c00; font-weight:700;">homozygous</span> individuals with different traits',
     'a cross involving two true-breeding organisms with distinct traits',
     'a mating event that pairs two <span style="color: #6c6c00; font-weight:700;">homozygous</span> individuals with different characteristics',
@@ -73,13 +73,13 @@ our @ALPHABET = ('A' .. 'Z');
     'the <span style="color: #0067cc; font-weight:700;">parental</span> generation in a <span style="color: #007576; font-weight:700;">hybrid cross</span>',
     'this generation includes two true-breeding individuals with different traits in a <span style="color: #007576; font-weight:700;">hybrid cross</span>',
     'this generation consists of two true-breeding individuals, each exhibiting different traits, participating in a <span style="color: #007576; font-weight:700;">hybrid cross</span>',
-    'this generation consists of two <span style="color: #6c6c00; font-weight:700;">homozygous</span> individuals with different <span style="color: #cc0066; font-weight:700;">phenotype</span> for a <span style="color: #007576; font-weight:700;">hybrid cross</span>',
+    'this generation consists of two <span style="color: #6c6c00; font-weight:700;">homozygous</span> individuals with different <span style="color: #cc0066; font-weight:700;">phenotypes</span> for a <span style="color: #007576; font-weight:700;">hybrid cross</span>',
     'the original <span style="color: #0067cc; font-weight:700;">parental</span> generation in a <span style="color: #007576; font-weight:700;">hybrid cross</span>',
-    'a generation with two <span style="color: #6c6c00; font-weight:700;">homozygous</span> individuals with different <span style="color: #cc0066; font-weight:700;">phenotype</span> in a <span style="color: #007576; font-weight:700;">hybrid cross</span>',
+    'a generation with two <span style="color: #6c6c00; font-weight:700;">homozygous</span> individuals with different <span style="color: #cc0066; font-weight:700;">phenotypes</span> in a <span style="color: #007576; font-weight:700;">hybrid cross</span>',
     'the starting generation consisting of true-breeding parents in a <span style="color: #007576; font-weight:700;">hybrid cross</span>',
-    'the initial generation of a <span style="color: #007576; font-weight:700;">hybrid cross</span> that includes two <span style="color: #6c6c00; font-weight:700;">homozygous</span>, true-breeding organisms with distinct <span style="color: #cc0066; font-weight:700;">phenotype</span>',
+    'the initial generation of a <span style="color: #007576; font-weight:700;">hybrid cross</span> that includes two <span style="color: #6c6c00; font-weight:700;">homozygous</span>, true-breeding organisms with distinct <span style="color: #cc0066; font-weight:700;">phenotypes</span>',
   ],
-  'F<sub>1</sub> generation' => [
+  'F<sub>1</sub>' => [
     'the first generation in a cross; the offspring of the <span style="color: #0067cc; font-weight:700;">parental</span> generation',
     'hybrid offspring of the <span style="color: #0067cc; font-weight:700;">parental</span> generation',
     'the first generation of offspring from the <span style="color: #0067cc; font-weight:700;">parental</span> generation',
@@ -87,17 +87,17 @@ our @ALPHABET = ('A' .. 'Z');
     'the first generation of hybrids resulting from a cross between two <span style="color: #0067cc; font-weight:700;">parental</span> organisms',
     'the initial offspring derived from a cross between two <span style="color: #0067cc; font-weight:700;">parental</span> types',
     'the first generational step in assessing genetic variance, originating from the <span style="color: #0067cc; font-weight:700;">parental</span> generation',
-    'the immediate progeny produced by the cross of two distinct <span style="color: #0067cc; font-weight:700;">parental</span> <span style="color: #076dad; font-weight:700;">genotype</span>',
+    'the immediate progeny produced by the cross of two distinct <span style="color: #0067cc; font-weight:700;">parental</span> <span style="color: #076dad; font-weight:700;">genotypes</span>',
   ],
-  'F<sub>2</sub> generation' => [
-    'the second generation in a cross; the offspring of the <span style="color: #b74300; font-weight:700;">F<sub>1</sub> generation</span> generation',
-    'the second generation produced when <span style="color: #b74300; font-weight:700;">F<sub>1</sub> generation</span> individuals are self-crossed or fertilized with each other',
-    'the offspring of the <span style="color: #b74300; font-weight:700;">F<sub>1</sub> generation</span> generation; the "grandchildren" of the <span style="color: #0067cc; font-weight:700;">parental</span> generation',
-    'the offspring from the <span style="color: #b74300; font-weight:700;">F<sub>1</sub> generation</span> generation, and considered the \'grandchildren\' of the initial <span style="color: #0067cc; font-weight:700;">parental</span> generation',
-    'the second generation of offspring, descended from the <span style="color: #b74300; font-weight:700;">F<sub>1</sub> generation</span> generation',
-    'the offspring resulting from either self-fertilization or cross-fertilization of <span style="color: #b74300; font-weight:700;">F<sub>1</sub> generation</span> individuals',
-    'the subsequent generation derived from interbreeding or self-breeding of <span style="color: #b74300; font-weight:700;">F<sub>1</sub> generation</span> hybrids',
-    'the generation resulting from the mating of <span style="color: #b74300; font-weight:700;">F<sub>1</sub> generation</span> hybrids',
+  'F<sub>2</sub>' => [
+    'the second generation in a cross; the offspring of the <span style="color: #b74300; font-weight:700;">F<sub>1</sub></span> generation',
+    'the second generation produced when <span style="color: #b74300; font-weight:700;">F<sub>1</sub></span> individuals are self-crossed or fertilized with each other',
+    'the offspring of the <span style="color: #b74300; font-weight:700;">F<sub>1</sub></span> generation; the "grandchildren" of the <span style="color: #0067cc; font-weight:700;">parental</span> generation',
+    'the offspring from the <span style="color: #b74300; font-weight:700;">F<sub>1</sub></span> generation, and considered the \'grandchildren\' of the initial <span style="color: #0067cc; font-weight:700;">parental</span> generation',
+    'the second generation of offspring, descended from the <span style="color: #b74300; font-weight:700;">F<sub>1</sub></span> generation',
+    'the offspring resulting from either self-fertilization or cross-fertilization of <span style="color: #b74300; font-weight:700;">F<sub>1</sub></span> individuals',
+    'the subsequent generation derived from interbreeding or self-breeding of <span style="color: #b74300; font-weight:700;">F<sub>1</sub></span> hybrids',
+    'the generation resulting from the mating of <span style="color: #b74300; font-weight:700;">F<sub>1</sub></span> hybrids',
   ],
 );
 
@@ -156,8 +156,8 @@ push(@answers, (map { $_->[1] } @q_and_a));
   'hybrid cross' => '<span style="color: #007576; font-weight:700;">hybrid cross</span>',
   'reciprocal cross' => '<span style="color: #a719db; font-weight:700;">reciprocal cross</span>',
   'P generation' => '<span style="color: #c80085; font-weight:700;">P generation</span>',
-  'F<sub>1</sub> generation' => '<span style="color: #b74300; font-weight:700;">F<sub>1</sub> generation</span>',
-  'F<sub>2</sub> generation' => '<span style="color: #007a00; font-weight:700;">F<sub>2</sub> generation</span>',
+  'F<sub>1</sub>' => '<span style="color: #b74300; font-weight:700;">F<sub>1</sub></span>',
+  'F<sub>2</sub>' => '<span style="color: #007a00; font-weight:700;">F<sub>2</sub></span>',
 );
 
 @answers_sorted_html = map { $answer_html{$_} || $_ } @answers_sorted;
