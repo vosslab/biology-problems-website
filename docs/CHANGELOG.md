@@ -43,6 +43,16 @@
 
 ### Fixes and Maintenance
 
+- Vendor the macOS ARM64 Rust `bbq-converter` as a Git-tracked BPW dependency.
+  Normal builds select the local binary by OS/CPU and require no QPM checkout or
+  Cargo. Move Cargo preparation into the explicit QPM refresh helper, supporting
+  native-only, WASM-only, or combined refresh with native provenance and license.
+  This supersedes automatic Cargo preparation during site builds described below.
+- Verify the vendored binary with QPM checkout reads denied and Cargo/rustc absent
+  from PATH: the actual `build_site.py -H --cli` regenerates all 482 self-tests and
+  the manifest. Retain platform-selection and source-independent resolution tests;
+  exclude native machine code from the script-only shebang hygiene check. The final
+  Python suite passes 4,248 tests, and the MkDocs build succeeds.
 - Recover a missing native converter by preparing QPM with Cargo before bank jobs.
   Resolve its checkout from `QPM_ROOT` or the sibling default and use Cargo's reported
   executable path instead of assuming `target/release`. Cargo reuses current builds.

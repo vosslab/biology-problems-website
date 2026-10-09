@@ -151,10 +151,11 @@ and `sitemap.xml`. Run the content workflow from the repo root:
 source source_me.sh && ./build_site.py
 ```
 
-Artifact generation prepares the native `bbq-converter` with Cargo automatically from
-`QPM_ROOT`, defaulting to the sibling `../qti-package-maker-rs` checkout. Cargo supplies
-the executable path and rebuilds only missing or stale artifacts. See
-[INSTALL.md](INSTALL.md) for setup and recovery instructions.
+Artifact generation invokes the Git-tracked native `bbq-converter` in
+`vendor/qpm-native/<os>-<architecture>/`. macOS ARM64 is currently supplied.
+Ordinary builds require neither the QPM checkout nor Rust/Cargo and never refresh
+the dependency automatically. See [INSTALL.md](INSTALL.md) for explicit refresh
+instructions and platform support.
 Self-test banks run concurrently using half of the detected CPU count (minimum one
 worker); each bank's complete log is printed together.
 

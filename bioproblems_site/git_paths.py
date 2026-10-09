@@ -3,13 +3,12 @@
 import os
 import subprocess
 import functools
-import json
-import shutil
+import platform
 
 
 #============================================
 class NativeConverterUnavailableError(RuntimeError):
-	"""Native conversion cannot proceed after dependency recovery."""
+	"""The vendored native converter is unavailable for this host."""
 
 
 #============================================
@@ -63,50 +62,29 @@ def find_bbq_converter() -> str:
 
 #============================================
 def find_native_bbq_converter() -> str:
-	"""Prepare the converter from QPM_ROOT or the sibling QPM checkout.
+	"""Resolve BPW's vendored executable for the current operating system and CPU.
 
 	Returns:
-		Executable path supplied by Cargo, independent of target layout.
+		The executable in BPW's vendor directory; no source checkout is required.
 	"""
-	qpm_root = os.environ.get("QPM_ROOT", "").strip() or "../qti-package-maker-rs"
-	qpm_root = os.path.abspath(os.path.join(get_repo_root(), os.path.expanduser(qpm_root)))
-	manifest = os.path.join(qpm_root, "Cargo.toml")
-	if not os.path.isfile(manifest) or not shutil.which("cargo"):
+	host = f"{platform.system().lower()}-{platform.machine().lower()}"
+	vendor_dir = os.path.join(get_repo_root(), "vendor", "qpm-native")
+	binary = os.path.join(vendor_dir, host, "bbq-converter")
+	if not os.path.isfile(binary):
+		available = []
+		if os.path.isdir(vendor_dir):
+			available = sorted(name for name in os.listdir(vendor_dir)
+				if os.path.isfile(os.path.join(vendor_dir, name, "bbq-converter")))
 		raise NativeConverterUnavailableError(
-			f"Cannot prepare the Rust BBQ converter from {qpm_root}. "
-			"Install Cargo and clone QPM beside BPW, or set QPM_ROOT to its checkout. "
-			"Existing self-tests are unchanged; mkdocs build can still serve them."
+			f"No vendored Rust BBQ converter for {host}. "
+			f"Available platforms: {', '.join(available) or 'none'}. "
+			"Restore the vendor directory from Git or ask a maintainer to refresh a "
+			"compatible binary with devel/vendor_qti_wasm.py --native-only. "
+			"Existing self-tests are unchanged."
 		)
-	return _build_native_bbq_converter(manifest)
-
-
-#============================================
-@functools.lru_cache(maxsize=1)
-def _build_native_bbq_converter(manifest: str) -> str:
-	"""Prepare QPM once before the bank workers start.
-
-	Args:
-		manifest: Cargo manifest in the trusted sibling QPM checkout.
-
-	Returns:
-		The executable artifact path reported by a successful Cargo build.
-	"""
-	print("Preparing Rust BBQ converter with Cargo...", flush=True)
-	# Run in QPM so Cargo honors its local configuration and target directory.
-	command = [
-		"cargo", "build", "--locked", "--release", "-p", "qti-cli",
-		"--bin", "bbq-converter", "--message-format=json-render-diagnostics",
-	]
-	completed = subprocess.run(
-		command, cwd=os.path.dirname(manifest), stdout=subprocess.PIPE, text=True, check=False,
-	)
-	if completed.returncode == 0:
-		for line in completed.stdout.splitlines():
-			message = json.loads(line)
-			if message.get("reason") == "compiler-artifact" and message.get("executable"):
-				if message["target"]["name"] == "bbq-converter":
-					return message["executable"]
-	raise NativeConverterUnavailableError(
-		"Cargo could not prepare bbq-converter. Resolve the Cargo diagnostics above "
-		"and rerun the website build. Existing self-tests are unchanged."
-	)
+	if not os.access(binary, os.X_OK):
+		raise NativeConverterUnavailableError(
+			f"Vendored converter is not executable: {binary}. "
+			"Restore its executable permission from Git."
+		)
+	return binary

@@ -17,9 +17,10 @@ CLI exposes one dependency-aware content build workflow.
 - [bioproblems_site/file_write.py](../bioproblems_site/file_write.py): shared
   direct text-file writing for generated site files.
 - [bioproblems_site/git_paths.py](../bioproblems_site/git_paths.py): repository
-  discovery and native QPM preparation. Before conversion jobs, Cargo builds or
-  reuses the configured QPM checkout and reports the executable path; BPW invokes
-  that artifact directly. Native preparation is separate from WASM vendoring.
+  discovery and selection of BPW's Git-tracked native converter by host OS and CPU.
+  Build-time conversion has no QPM-source or Cargo dependency. The explicit
+  [devel/vendor_qti_wasm.py](../devel/vendor_qti_wasm.py) refresh workflow builds and
+  copies the native executable and records provenance alongside the WASM workflow.
 - [bioproblems_site/mkdocs_styles.py](../bioproblems_site/mkdocs_styles.py): MkDocs
   post-build hook using `tinycss2` to scope copied website styles outside mounted
   QPM content. Root-only rules and asset declarations remain global; see

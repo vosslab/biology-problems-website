@@ -51,9 +51,9 @@
       "topicTitle": "Life Molecules"
     },
     {
-      "crc": "734d_cd6e",
+      "crc": "1fc0_cd6e",
       "pagePath": "biochemistry/topic01/index.md",
-      "questionFingerprint": "cece8f9ee1ac8b76",
+      "questionFingerprint": "8f3a5b2de3f5b300",
       "questionId": "bbq-WOMC-bond_types-questions.txt",
       "selftestPath": "biochemistry/topic01/downloads/selftest-WOMC-bond_types.html",
       "subjectKey": "biochemistry",
@@ -651,9 +651,9 @@
       "topicTitle": "Thermodynamics"
     },
     {
-      "crc": "fa79_d754",
+      "crc": "ba7f_d754",
       "pagePath": "biochemistry/topic06/index.md",
-      "questionFingerprint": "151efe02b6f7627b",
+      "questionFingerprint": "9b83b79ed5995fab",
       "questionId": "bbq-WOMC-energy_terms-questions.txt",
       "selftestPath": "biochemistry/topic06/downloads/selftest-WOMC-energy_terms.html",
       "subjectKey": "biochemistry",
@@ -691,9 +691,9 @@
       "topicTitle": "Thermodynamics"
     },
     {
-      "crc": "1b64_5261",
+      "crc": "603a_5261",
       "pagePath": "biochemistry/topic06/index.md",
-      "questionFingerprint": "7133060d74db95f0",
+      "questionFingerprint": "8c594050fd7ef19b",
       "questionId": "bbq-free_energy_keq_relationship-questions.txt",
       "selftestPath": "biochemistry/topic06/downloads/selftest-free_energy_keq_relationship.html",
       "subjectKey": "biochemistry",
@@ -721,9 +721,9 @@
       "topicTitle": "Thermodynamics"
     },
     {
-      "crc": "e706_c50e",
+      "crc": "c8ee_c50e",
       "pagePath": "biochemistry/topic06/index.md",
-      "questionFingerprint": "d57b935863da9526",
+      "questionFingerprint": "daee638860f26f80",
       "questionId": "bbq-thermodynamics_system_laws-questions.txt",
       "selftestPath": "biochemistry/topic06/downloads/selftest-thermodynamics_system_laws.html",
       "subjectKey": "biochemistry",
@@ -861,9 +861,9 @@
       "topicTitle": "Enzyme Inhibition"
     },
     {
-      "crc": "6c87_74d2",
+      "crc": "37b7_feb2",
       "pagePath": "biochemistry/topic09/index.md",
-      "questionFingerprint": "746baa2f51256ea1",
+      "questionFingerprint": "8301c7bfa22b5cbf",
       "questionId": "bbq-allosteric_enzyme_models-questions.txt",
       "selftestPath": "biochemistry/topic09/downloads/selftest-allosteric_enzyme_models.html",
       "subjectKey": "biochemistry",
@@ -891,9 +891,9 @@
       "topicTitle": "Enzyme Allostery"
     },
     {
-      "crc": "e4eb_2abd",
+      "crc": "b019_2abd",
       "pagePath": "biochemistry/topic09/index.md",
-      "questionFingerprint": "d17881b429a00d0b",
+      "questionFingerprint": "b5c5c4649121dd94",
       "questionId": "bbq-hemoglobin_oxygen_affinity-questions.txt",
       "selftestPath": "biochemistry/topic09/downloads/selftest-hemoglobin_oxygen_affinity.html",
       "subjectKey": "biochemistry",
@@ -911,9 +911,9 @@
       "topicTitle": "Enzyme Allostery"
     },
     {
-      "crc": "2b0c_a924",
+      "crc": "38a4_c372",
       "pagePath": "biochemistry/topic10/index.md",
-      "questionFingerprint": "fef79051a00a25d9",
+      "questionFingerprint": "039ccc5e60fc1da1",
       "questionId": "bbq-D_to_L_Fischer_configuration-MC-with_hint-5_choices-questions.txt",
       "selftestPath": "biochemistry/topic10/downloads/selftest-D_to_L_Fischer_configuration-MC-with_hint-5_choices.html",
       "subjectKey": "biochemistry",
@@ -921,9 +921,9 @@
       "topicTitle": "Carbohydrates"
     },
     {
-      "crc": "aec2_a9c3",
+      "crc": "9330_df64",
       "pagePath": "biochemistry/topic10/index.md",
-      "questionFingerprint": "c53328e8146d76d1",
+      "questionFingerprint": "af8ac00b88087937",
       "questionId": "bbq-D_to_L_Haworth_configuration-MC-with_hint-5_choices-questions.txt",
       "selftestPath": "biochemistry/topic10/downloads/selftest-D_to_L_Haworth_configuration-MC-with_hint-5_choices.html",
       "subjectKey": "biochemistry",
@@ -941,9 +941,9 @@
       "topicTitle": "Carbohydrates"
     },
     {
-      "crc": "77b4_e94d",
+      "crc": "d5cd_e94d",
       "pagePath": "biochemistry/topic10/index.md",
-      "questionFingerprint": "21d62b812abb2cb7",
+      "questionFingerprint": "fbd3c303033c751d",
       "questionId": "bbq-WOMC-polysaccharides-questions.txt",
       "selftestPath": "biochemistry/topic10/downloads/selftest-WOMC-polysaccharides.html",
       "subjectKey": "biochemistry",
@@ -951,9 +951,9 @@
       "topicTitle": "Carbohydrates"
     },
     {
-      "crc": "37af_d72d",
+      "crc": "e903_d72d",
       "pagePath": "biochemistry/topic10/index.md",
-      "questionFingerprint": "797cb63bf08615ae",
+      "questionFingerprint": "372777bbb9c01ae1",
       "questionId": "bbq-classify_Fischer-MA-with_hint-questions.txt",
       "selftestPath": "biochemistry/topic10/downloads/selftest-classify_Fischer-MA-with_hint.html",
       "subjectKey": "biochemistry",
@@ -961,9 +961,9 @@
       "topicTitle": "Carbohydrates"
     },
     {
-      "crc": "0afa_fc0c",
+      "crc": "520f_fc0c",
       "pagePath": "biochemistry/topic10/index.md",
-      "questionFingerprint": "08397b3d19bde404",
+      "questionFingerprint": "721e8da78c8d536d",
       "questionId": "bbq-classify_Haworth-MA-with_hint-FURAN-questions.txt",
       "selftestPath": "biochemistry/topic10/downloads/selftest-classify_Haworth-MA-with_hint-FURAN.html",
       "subjectKey": "biochemistry",
@@ -981,9 +981,9 @@
       "topicTitle": "Carbohydrates"
     },
     {
-      "crc": "0f09_ec1b",
+      "crc": "97bf_1872",
       "pagePath": "biochemistry/topic10/index.md",
-      "questionFingerprint": "7eb18aa6e491b7a0",
+      "questionFingerprint": "221519768d505652",
       "questionId": "bbq-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices-questions.txt",
       "selftestPath": "biochemistry/topic10/downloads/selftest-convert_Fischer_to_Haworth-MC-with_hint-FURAN-5_choices.html",
       "subjectKey": "biochemistry",
@@ -1001,9 +1001,9 @@
       "topicTitle": "Carbohydrates"
     },
     {
-      "crc": "dfef_25a7",
+      "crc": "0be6_bdc9",
       "pagePath": "biochemistry/topic10/index.md",
-      "questionFingerprint": "ca8d62224636514d",
+      "questionFingerprint": "c2eb5c42d42e4673",
       "questionId": "bbq-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices-questions.txt",
       "selftestPath": "biochemistry/topic10/downloads/selftest-convert_Haworth_to_Fischer-MC-with_hint-FURAN-5_choices.html",
       "subjectKey": "biochemistry",
@@ -1161,7 +1161,7 @@
       "topicTitle": "Nucleic Acids"
     },
     {
-      "crc": "808c_1416",
+      "crc": "808c_ac1f",
       "pagePath": "biochemistry/topic11/index.md",
       "questionFingerprint": "2e0866d20c5164e8",
       "questionId": "bbq-match_pyrimidine_structures-4_choices-questions.txt",
@@ -1371,9 +1371,9 @@
       "topicTitle": "Human Senses"
     },
     {
-      "crc": "15e8_2b0b",
+      "crc": "c0cd_2b0b",
       "pagePath": "biochemistry/topic14/index.md",
-      "questionFingerprint": "97551f70c733544e",
+      "questionFingerprint": "31637e202cf6c9f0",
       "questionId": "bbq-WOMC-senses_receptor_types_by_modality-questions.txt",
       "selftestPath": "biochemistry/topic14/downloads/selftest-WOMC-senses_receptor_types_by_modality.html",
       "subjectKey": "biochemistry",
@@ -1451,9 +1451,9 @@
       "topicTitle": "Descriptive Statistics"
     },
     {
-      "crc": "68fb_036c",
+      "crc": "bbfb_036c",
       "pagePath": "biostatistics/topic02/index.md",
-      "questionFingerprint": "5eaccd2586a69fa5",
+      "questionFingerprint": "d11b2e33810ee32f",
       "questionId": "bbq-WOMC-measures_of_center-questions.txt",
       "selftestPath": "biostatistics/topic02/downloads/selftest-WOMC-measures_of_center.html",
       "subjectKey": "biostatistics",
@@ -1781,9 +1781,9 @@
       "topicTitle": "Biotech Basics and Central Dogma"
     },
     {
-      "crc": "0daf_03e5",
+      "crc": "b9ed_03e5",
       "pagePath": "biotechnology/topic01/index.md",
-      "questionFingerprint": "afca97e3e0ae8b13",
+      "questionFingerprint": "4858fe56f724066a",
       "questionId": "bbq-WOMC-biotech_vs_improved-questions.txt",
       "selftestPath": "biotechnology/topic01/downloads/selftest-WOMC-biotech_vs_improved.html",
       "subjectKey": "biotechnology",
@@ -1791,9 +1791,9 @@
       "topicTitle": "Biotech Basics and Central Dogma"
     },
     {
-      "crc": "a0cd_3cd9",
+      "crc": "7d17_3cd9",
       "pagePath": "biotechnology/topic01/index.md",
-      "questionFingerprint": "393866d7b96b067a",
+      "questionFingerprint": "bb56b703c1ed26cf",
       "questionId": "bbq-WOMC-biotechnology_periods_and_milestones-questions.txt",
       "selftestPath": "biotechnology/topic01/downloads/selftest-WOMC-biotechnology_periods_and_milestones.html",
       "subjectKey": "biotechnology",
@@ -1801,9 +1801,9 @@
       "topicTitle": "Biotech Basics and Central Dogma"
     },
     {
-      "crc": "815c_7d2d",
+      "crc": "0077_97a7",
       "pagePath": "biotechnology/topic01/index.md",
-      "questionFingerprint": "1023b84ed6d40a1f",
+      "questionFingerprint": "7a06fb0df638009f",
       "questionId": "bbq-WOMC-model_organism_generation_times-questions.txt",
       "selftestPath": "biotechnology/topic01/downloads/selftest-WOMC-model_organism_generation_times.html",
       "subjectKey": "biotechnology",
@@ -2021,9 +2021,9 @@
       "topicTitle": "Protein Biotechnology"
     },
     {
-      "crc": "a9ef_0eef",
+      "crc": "d943_0eef",
       "pagePath": "biotechnology/topic03/index.md",
-      "questionFingerprint": "4791156a351bcd62",
+      "questionFingerprint": "cad8a194536be914",
       "questionId": "bbq-WOMC-protein_v_dna_gels-questions.txt",
       "selftestPath": "biotechnology/topic03/downloads/selftest-WOMC-protein_v_dna_gels.html",
       "subjectKey": "biotechnology",
@@ -2031,9 +2031,9 @@
       "topicTitle": "Protein Biotechnology"
     },
     {
-      "crc": "bf37_a02c",
+      "crc": "e130_a02c",
       "pagePath": "biotechnology/topic03/index.md",
-      "questionFingerprint": "ab710002360dc5b1",
+      "questionFingerprint": "7017be3f1d1f6e2a",
       "questionId": "bbq-WOMC-proteomics_v_metabolomics-questions.txt",
       "selftestPath": "biotechnology/topic03/downloads/selftest-WOMC-proteomics_v_metabolomics.html",
       "subjectKey": "biotechnology",
@@ -2111,9 +2111,9 @@
       "topicTitle": "Environmental and Synthetic Biology"
     },
     {
-      "crc": "41e5_39dd",
+      "crc": "206b_39dd",
       "pagePath": "biotechnology/topic04/index.md",
-      "questionFingerprint": "d1794300b87af98e",
+      "questionFingerprint": "436c5c9c37355e8f",
       "questionId": "bbq-WOMC-culture_enrichment-questions.txt",
       "selftestPath": "biotechnology/topic04/downloads/selftest-WOMC-culture_enrichment.html",
       "subjectKey": "biotechnology",
@@ -2241,9 +2241,9 @@
       "topicTitle": "Regulation in Biotechnology"
     },
     {
-      "crc": "51c2_a9ab",
+      "crc": "7185_e169",
       "pagePath": "biotechnology/topic06/index.md",
-      "questionFingerprint": "1e4f9d1ce1e4777e",
+      "questionFingerprint": "99638542e8173dfd",
       "questionId": "bbq-WOMC-transgenic_crop_regulators-questions.txt",
       "selftestPath": "biotechnology/topic06/downloads/selftest-WOMC-transgenic_crop_regulators.html",
       "subjectKey": "biotechnology",
@@ -2681,9 +2681,9 @@
       "topicTitle": "Mendelian Genetics"
     },
     {
-      "crc": "229c_5a2c",
+      "crc": "8ca3_5a2c",
       "pagePath": "genetics/topic04/index.md",
-      "questionFingerprint": "4d3689b79d7b5084",
+      "questionFingerprint": "2903299d97494664",
       "questionId": "bbq-WOMC-monohybrid_cross_genotype-questions.txt",
       "selftestPath": "genetics/topic04/downloads/selftest-WOMC-monohybrid_cross_genotype.html",
       "subjectKey": "genetics",
@@ -2691,9 +2691,9 @@
       "topicTitle": "Mendelian Genetics"
     },
     {
-      "crc": "383d_c859",
+      "crc": "eb07_fdcc",
       "pagePath": "genetics/topic04/index.md",
-      "questionFingerprint": "71f4f3cd8a70f909",
+      "questionFingerprint": "048562f648f68115",
       "questionId": "bbq-monohybrid_genotype_statements-questions.txt",
       "selftestPath": "genetics/topic04/downloads/selftest-monohybrid_genotype_statements.html",
       "subjectKey": "genetics",
@@ -2711,9 +2711,9 @@
       "topicTitle": "Mendelian Genetics"
     },
     {
-      "crc": "2636_b34f",
+      "crc": "e719_b34f",
       "pagePath": "genetics/topic04/index.md",
-      "questionFingerprint": "6e328701a98fd34d",
+      "questionFingerprint": "9a34eb9091abe485",
       "questionId": "bbq-punnett_choice-questions.txt",
       "selftestPath": "genetics/topic04/downloads/selftest-punnett_choice.html",
       "subjectKey": "genetics",
@@ -2771,9 +2771,9 @@
       "topicTitle": "Gene Interactions"
     },
     {
-      "crc": "a934_2b97",
+      "crc": "88e8_4463",
       "pagePath": "genetics/topic05/index.md",
-      "questionFingerprint": "8d6c60d8781e8be6",
+      "questionFingerprint": "12bf15eb5d0c8658",
       "questionId": "bbq-blood_type_mother-questions.txt",
       "selftestPath": "genetics/topic05/downloads/selftest-blood_type_mother.html",
       "subjectKey": "genetics",
@@ -2781,9 +2781,9 @@
       "topicTitle": "Gene Interactions"
     },
     {
-      "crc": "9f68_72be",
+      "crc": "dabb_72be",
       "pagePath": "genetics/topic05/index.md",
-      "questionFingerprint": "cf1b5f12f51d4e75",
+      "questionFingerprint": "3316fb3430463bba",
       "questionId": "bbq-blood_type_offspring-questions.txt",
       "selftestPath": "genetics/topic05/downloads/selftest-blood_type_offspring.html",
       "subjectKey": "genetics",
@@ -2971,9 +2971,9 @@
       "topicTitle": "Chromosomal Inheritance"
     },
     {
-      "crc": "1940_beed",
+      "crc": "df7b_beed",
       "pagePath": "genetics/topic06/index.md",
-      "questionFingerprint": "6b66a4276c4f0199",
+      "questionFingerprint": "cd8fcbfc9a34e9cf",
       "questionId": "bbq-WOMC-sex_determination-questions.txt",
       "selftestPath": "genetics/topic06/downloads/selftest-WOMC-sex_determination.html",
       "subjectKey": "genetics",
@@ -2981,9 +2981,9 @@
       "topicTitle": "Chromosomal Inheritance"
     },
     {
-      "crc": "c9d5_e69f",
+      "crc": "49d4_e69f",
       "pagePath": "genetics/topic06/index.md",
-      "questionFingerprint": "f7c4ad1bd288e30b",
+      "questionFingerprint": "c79475c8a968280e",
       "questionId": "bbq-dominant_and_X-linked_recessive-questions.txt",
       "selftestPath": "genetics/topic06/downloads/selftest-dominant_and_X-linked_recessive.html",
       "subjectKey": "genetics",
@@ -3091,9 +3091,9 @@
       "topicTitle": "Chromosomal Inheritance"
     },
     {
-      "crc": "bc79_e69f",
+      "crc": "2ed0_e69f",
       "pagePath": "genetics/topic06/index.md",
-      "questionFingerprint": "05b3509867d94c15",
+      "questionFingerprint": "3fb6af468481d69c",
       "questionId": "bbq-x_linked_tortoiseshell-questions.txt",
       "selftestPath": "genetics/topic06/downloads/selftest-x_linked_tortoiseshell.html",
       "subjectKey": "genetics",
@@ -3401,9 +3401,9 @@
       "topicTitle": "Chromosomal Disorders"
     },
     {
-      "crc": "a3f3_bd27",
+      "crc": "2078_bd27",
       "pagePath": "genetics/topic09/index.md",
-      "questionFingerprint": "92e67624dca65d30",
+      "questionFingerprint": "064143ccaaac3248",
       "questionId": "bbq-WOMC-chromosome_shapes-questions.txt",
       "selftestPath": "genetics/topic09/downloads/selftest-WOMC-chromosome_shapes.html",
       "subjectKey": "genetics",
@@ -3911,7 +3911,7 @@
       "topicTitle": "PCR and Electrophoresis"
     },
     {
-      "crc": "b01b_9964",
+      "crc": "b01b_2b6a",
       "pagePath": "laboratory/topic11/index.md",
       "questionFingerprint": "c3cda9c3d169d309",
       "questionId": "bbq-kaleidoscope_ladder_mapping-questions.txt",
@@ -4231,7 +4231,7 @@
       "topicTitle": "Cloning and Sequencing"
     },
     {
-      "crc": "8e51_f6e7",
+      "crc": "8e51_6164",
       "pagePath": "molecular_biology/topic05/index.md",
       "questionFingerprint": "5f2573ed21f1b666",
       "questionId": "bbq-TFMS-pcr_components-questions.txt",
@@ -4701,9 +4701,9 @@
       "topicTitle": "Cell Biology"
     },
     {
-      "crc": "bec4_55ce",
+      "crc": "46d6_55ce",
       "pagePath": "other/topic01/index.md",
-      "questionFingerprint": "33e137ee8f51ce0e",
+      "questionFingerprint": "b37dffa4bdf21f31",
       "questionId": "bbq-WOMC-cell_receptors-questions.txt",
       "selftestPath": "other/topic01/downloads/selftest-WOMC-cell_receptors.html",
       "subjectKey": "other",
@@ -4711,9 +4711,9 @@
       "topicTitle": "Cell Biology"
     },
     {
-      "crc": "e109_c5ae",
+      "crc": "c944_c5ae",
       "pagePath": "other/topic01/index.md",
-      "questionFingerprint": "a6e4593d108375ca",
+      "questionFingerprint": "ac85a6713340bb4c",
       "questionId": "bbq-WOMC-cellular_structures-questions.txt",
       "selftestPath": "other/topic01/downloads/selftest-WOMC-cellular_structures.html",
       "subjectKey": "other",
@@ -4731,9 +4731,9 @@
       "topicTitle": "Cell Biology"
     },
     {
-      "crc": "a5e4_abb3",
+      "crc": "cfd7_abb3",
       "pagePath": "other/topic01/index.md",
-      "questionFingerprint": "0752cd7c27dbb4f2",
+      "questionFingerprint": "009da60d6ee4a3cf",
       "questionId": "bbq-WOMC-senses_receptor_types_by_modality-questions.txt",
       "selftestPath": "other/topic01/downloads/selftest-WOMC-senses_receptor_types_by_modality.html",
       "subjectKey": "other",
@@ -4781,9 +4781,9 @@
       "topicTitle": "Cell Biology"
     },
     {
-      "crc": "bee7_02fb",
+      "crc": "5491_02fb",
       "pagePath": "other/topic01/index.md",
-      "questionFingerprint": "e3abe5261f1c91ce",
+      "questionFingerprint": "761a0722e137d7c3",
       "questionId": "bbq-WOMC-trophic_organisms-questions.txt",
       "selftestPath": "other/topic01/downloads/selftest-WOMC-trophic_organisms.html",
       "subjectKey": "other",

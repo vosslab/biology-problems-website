@@ -2,7 +2,6 @@
 
 import pathlib
 import subprocess
-import json
 
 import pytest
 
@@ -18,38 +17,33 @@ def test_native_converter_is_required(tmp_path: pathlib.Path, monkeypatch: pytes
 	(repo / "bbq_converter.py").write_text("legacy converter")
 	monkeypatch.setattr(git_paths, "get_repo_root", lambda: str(repo))
 	monkeypatch.delenv("QPM_ROOT", raising=False)
-	with pytest.raises(git_paths.NativeConverterUnavailableError, match="set QPM_ROOT"):
+	with pytest.raises(git_paths.NativeConverterUnavailableError, match="No vendored Rust BBQ converter"):
 		git_paths.find_native_bbq_converter()
 
 
 #============================================
-def test_native_converter_builds_configured_checkout(
+@pytest.mark.parametrize("system, cpu, supported", [
+	("Darwin", "arm64", True), ("Linux", "x86_64", False),
+])
+def test_vendored_converter_is_independent_and_platform_specific(
 	tmp_path: pathlib.Path, monkeypatch: pytest.MonkeyPatch,
+	system: str, cpu: str, supported: bool,
 ) -> None:
-	"""A missing binary is recovered using Cargo's actual executable location."""
-	qpm = tmp_path / "qpm source"
-	qpm.mkdir()
-	(qpm / "Cargo.toml").write_text("[workspace]\n")
-	binary = tmp_path / "custom target" / "bbq-converter"
-	monkeypatch.setenv("QPM_ROOT", str(qpm))
-	monkeypatch.setattr(git_paths.shutil, "which", lambda name: "/tools/cargo")
-	calls = []
-
-	def build(command: list[str], **options: object) -> subprocess.CompletedProcess:
-		calls.append((command, options["cwd"]))
-		binary.parent.mkdir()
-		binary.write_text("built converter")
-		message = {"reason": "compiler-artifact", "target": {"name": "bbq-converter"},
-			"executable": str(binary)}
-		return subprocess.CompletedProcess(command, 0, json.dumps(message) + "\n")
-
-	monkeypatch.setattr(git_paths.subprocess, "run", build)
+	"""Use BPW's executable without QPM/Cargo; reject an incompatible platform."""
+	binary = tmp_path / "vendor" / "qpm-native" / "darwin-arm64" / "bbq-converter"
+	binary.parent.mkdir(parents=True)
+	binary.write_text("vendored converter")
+	binary.chmod(0o755)
 	monkeypatch.setattr(git_paths, "get_repo_root", lambda: str(tmp_path))
-	assert git_paths.find_native_bbq_converter() == str(binary)
-	assert git_paths.find_native_bbq_converter() == str(binary)
-	assert len(calls) == 1
-	assert calls[0][1] == str(qpm)
-	git_paths._build_native_bbq_converter.cache_clear()
+	monkeypatch.setattr(git_paths.platform, "system", lambda: system)
+	monkeypatch.setattr(git_paths.platform, "machine", lambda: cpu)
+	monkeypatch.setenv("PATH", "")
+	monkeypatch.setenv("QPM_ROOT", str(tmp_path / "absent-qpm"))
+	if supported:
+		assert git_paths.find_native_bbq_converter() == str(binary)
+	else:
+		with pytest.raises(git_paths.NativeConverterUnavailableError, match="linux-x86_64"):
+			git_paths.find_native_bbq_converter()
 
 
 #============================================

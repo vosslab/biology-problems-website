@@ -43,14 +43,16 @@ if REPO_ROOT not in sys.path:
 #   - Recursive directory exclusions need an explicit /** because fnmatch's *
 #     does not cross "/". Use "temp_scripts/**" to exclude a whole subtree.
 #
-# This template has no repo-specific exclusions, so the registry is empty.
-# Example entries (commented out; this repo needs none):
+# Example entries:
 #   REPO_HYGIENE_FILTERS = {
 #       "all": ["temp_scripts/**", "TEMPLATE.py"],
 #       "ascii_compliance": ["human_readable-*.html"],
 #       "pyflakes_code_lint": ["devel/scratch_*.py"],
 #   }
-REPO_HYGIENE_FILTERS = {}
+REPO_HYGIENE_FILTERS = {
+	# Native machine-code executables have executable bits but no script shebang.
+	"shebangs": ["vendor/qpm-native/*/bbq-converter"],
+}
 
 # === OPTIONAL_HELPERS_MENU ===
 # See meta/docs/PROPAGATION_RULES.md for the managed-block propagation contract.
