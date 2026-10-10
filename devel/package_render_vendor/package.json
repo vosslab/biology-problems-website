@@ -1,8 +1,8 @@
 {
-  "private": true,
-  "description": "Pinned browser package rendering assets",
-  "dependencies": {
-    "@rdkit/rdkit": "2026.9.1",
-    "modern-screenshot": "4.7.0"
-  }
+	"private": true,
+	"description": "Pinned browser package rendering assets",
+	"dependencies": {
+		"@rdkit/rdkit": ">=2026.9.1",
+		"modern-screenshot": ">=4.7.0"
+	}
 }

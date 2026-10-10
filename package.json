@@ -1,15 +1,15 @@
 {
-  "name": "biology-problems-website",
-  "version": "26.10.0",
-  "description": "Biology problems website Playwright test harness",
-  "private": true,
-  "scripts": {
-    "docs:screenshots": "node tests/playwright/capture_docs_screenshots.mjs",
-    "test:ui": "node tests/playwright/ui_ux_review.mjs",
-    "test:smoke": "playwright test smoke.spec.ts"
-  },
-  "devDependencies": {
-    "@playwright/test": "^1.64.0",
-    "playwright": ">=1.60.0"
-  }
+	"name": "biology-problems-website",
+	"version": "26.10.0",
+	"description": "Biology problems website Playwright test harness",
+	"private": true,
+	"scripts": {
+		"docs:screenshots": "node tests/playwright/capture_docs_screenshots.mjs",
+		"test:ui": "node tests/playwright/ui_ux_review.mjs",
+		"test:smoke": "playwright test smoke.spec.ts"
+	},
+	"devDependencies": {
+		"@playwright/test": ">=1.64.0",
+		"playwright": ">=1.64.0"
+	}
 }
