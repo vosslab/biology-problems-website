@@ -81,7 +81,7 @@ class SiteBuildApp(App[int]):
 		"failed": "red",
 		"cancelled": "yellow",
 	}
-	ROW_PHASES = ("bbq", "selftests", "downloads")
+	ROW_PHASES = ("bbq", "downloads")
 	PHASE_LABELS = build_progress.PHASE_LABELS
 	CSS = (
 		"#root { height: 1fr; }\n"
@@ -302,7 +302,6 @@ class SiteBuildApp(App[int]):
 		)
 		for phase, label in (
 			("bbq", "BBQ gen avg"), ("downloads", "Downloads avg"),
-			("selftests", "Self-test avg"),
 		):
 			values = self.timing.samples.get(phase, [])
 			average = f"{sum(values) / len(values):.1f}s" if values else "..."

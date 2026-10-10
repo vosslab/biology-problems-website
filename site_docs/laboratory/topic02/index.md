@@ -12,7 +12,7 @@ Students prepare solutions from solids or stock reagents by calculating grams ne
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-solution-mass_concentration-numeric-questions.txt" data-format="human_readable" data-filename="human_readable-solution-mass_concentration-numeric.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-solution-mass_concentration-numeric-questions.txt" data-selftest="laboratory/topic02/downloads/selftest-solution-mass_concentration-numeric.html">
+</div><div class="qti-selftest" data-bbq="bbq-solution-mass_concentration-numeric-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -27,7 +27,7 @@ Students prepare solutions from solids or stock reagents by calculating grams ne
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-solution-mass_vol-numeric-questions.txt" data-format="human_readable" data-filename="human_readable-solution-mass_vol-numeric.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-solution-mass_vol-numeric-questions.txt" data-selftest="laboratory/topic02/downloads/selftest-solution-mass_vol-numeric.html">
+</div><div class="qti-selftest" data-bbq="bbq-solution-mass_vol-numeric-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -42,7 +42,7 @@ Students prepare solutions from solids or stock reagents by calculating grams ne
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-solution-molarity-mol_weight-numeric-questions.txt" data-format="human_readable" data-filename="human_readable-solution-molarity-mol_weight-numeric.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-solution-molarity-mol_weight-numeric-questions.txt" data-selftest="laboratory/topic02/downloads/selftest-solution-molarity-mol_weight-numeric.html">
+</div><div class="qti-selftest" data-bbq="bbq-solution-molarity-mol_weight-numeric-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -57,7 +57,7 @@ Students prepare solutions from solids or stock reagents by calculating grams ne
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-solution-vol_vol-numeric-questions.txt" data-format="human_readable" data-filename="human_readable-solution-vol_vol-numeric.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-solution-vol_vol-numeric-questions.txt" data-selftest="laboratory/topic02/downloads/selftest-solution-vol_vol-numeric.html">
+</div><div class="qti-selftest" data-bbq="bbq-solution-vol_vol-numeric-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

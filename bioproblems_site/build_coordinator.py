@@ -74,70 +74,17 @@ def _full_scope_topics(scope: BuildScope) -> set[TopicRef]:
 
 
 #============================================
-def _run_task_row_artifact_stages(
+def _report_task_downloads(
 	task_result: TaskBuildResult,
-	scope: BuildScope,
-	changes: BuildChanges,
-	stage_files: dict[str, set[Path]],
-	stage_seconds: dict[str, float],
 	row_index: int | None,
 	row_label: str,
 	progress: BuildProgress | None,
 ) -> None:
-	"""Complete one row's self-test and download stages before the next row."""
-	topic_ref = task_result.topic_ref
+	"""Report available downloads and complete one row before the next row."""
 	source_paths = task_result.source_files
 	row_details: dict[str, object] = {"label": row_label}
 	if row_index is not None:
 		row_details["row"] = row_index
-	if progress:
-		progress.check_cancelled()
-	stage_start = time.perf_counter()
-	selftests_required = build_stages.selftests_need_run(
-		topic_ref, scope, changes, source_paths,
-	)
-	if progress and selftests_required:
-		progress.check_cancelled()
-	if selftests_required:
-		if progress:
-			progress.emit("stage_started", phase="selftests", **row_details)
-		try:
-			if progress:
-				outputs = build_stages.run_selftests(
-					topic_ref, scope, source_paths, progress,
-				)
-			else:
-				outputs = build_stages.run_selftests(topic_ref, scope, source_paths)
-			stage_files.setdefault("selftests", set()).update(
-				outputs
-			)
-		except BuildCancelledError:
-			raise
-		except Exception as error:
-			if progress:
-				progress.emit(
-					"stage_failed",
-					phase="selftests",
-					duration=time.perf_counter() - stage_start,
-					detail=str(error),
-					**row_details,
-				)
-			raise
-		if progress:
-			progress.emit(
-				"stage_completed",
-				phase="selftests",
-				duration=time.perf_counter() - stage_start,
-				executed=not scope.dry_run,
-				planned=scope.dry_run,
-				**row_details,
-			)
-	else:
-		if progress:
-			progress.emit(
-				"stage_skipped", phase="selftests", detail="up to date", **row_details,
-			)
-	stage_seconds["selftests"] += time.perf_counter() - stage_start
 	# Export packages are generated on demand in the browser.
 	if progress:
 		progress.check_cancelled()
@@ -193,15 +140,13 @@ def _build_existing_artifacts(scope: BuildScope, progress: BuildProgress | None)
 	topics = _full_scope_topics(scope)
 	stage_files: dict[str, set[Path]] = {}
 	stage_seconds: dict[str, float] = {}
-	phase = "selftests" if scope.mode == "selftests" else "topic_pages"
-	label = "Self-test manifest" if scope.mode == "selftests" else "Indexes, navigation, manifest"
+	phase = "topic_pages"
+	label = "Indexes, navigation, manifest"
 	if progress:
 		progress.emit("phase_plan", phase=phase, total=len(topics))
 		progress.emit("phase_plan", phase="indexes", total=1, label=label)
 	for topic_ref in sorted(topics):
 		def render_topic() -> set[Path]:
-			if scope.mode == "selftests":
-				return build_stages.run_selftests(topic_ref, scope, progress=progress)
 			return build_stages.run_topic_page(topic_ref, scope)
 
 		_run_artifact_operation(
@@ -210,8 +155,6 @@ def _build_existing_artifacts(scope: BuildScope, progress: BuildProgress | None)
 		)
 
 	def finalize() -> set[Path]:
-		if scope.mode == "selftests":
-			return build_stages.run_selftest_manifest(scope, topics, progress)
 		return build_stages.run_subject_indexes(scope, topics, progress)
 
 	_run_artifact_operation(
@@ -228,14 +171,13 @@ def _build_existing_artifacts(scope: BuildScope, progress: BuildProgress | None)
 def build_site(scope: BuildScope, progress: BuildProgress | None = None) -> BuildReport:
 	"""Build row-owned artifacts in order, then each affected topic page once."""
 	if scope.mode != "all":
-		if scope.mode not in ("selftests", "indexes"):
+		if scope.mode != "indexes":
 			raise ValueError(f"Unknown build mode: {scope.mode!r}")
 		return _build_existing_artifacts(scope, progress)
 	build_start = time.perf_counter()
 	stage_files: dict[str, set[Path]] = {"bbq": set()}
 	stage_seconds = {
 		"bbq": 0.0,
-		"selftests": 0.0,
 		"downloads": 0.0,
 		"topic_pages": 0.0,
 		"indexes": 0.0,
@@ -271,44 +213,21 @@ def build_site(scope: BuildScope, progress: BuildProgress | None = None) -> Buil
 			changed_subjects.add(topic_ref.subject)
 			changed_files.update(task_result.changed_files)
 			stage_files["bbq"].update(task_result.changed_files)
-		row_changes = BuildChanges(
-			changed_topics={topic_ref} if task_result.needs_run else set(),
-			changed_subjects={topic_ref.subject} if task_result.needs_run else set(),
-			changed_files=task_result.changed_files,
-			selected_topics={topic_ref},
-		)
-		_run_task_row_artifact_stages(
-			task_result,
-			scope,
-			row_changes,
-			stage_files,
-			stage_seconds,
-			row_index,
-			row_label,
-			progress,
-		)
+
+		_report_task_downloads(task_result, row_index, row_label, progress)
 
 	# A full unrestricted or subject build also owns metadata topics without CSV rows.
 	if scope.full and scope.tasks_csv is None and scope.limit is None:
 		extra_topics = sorted(_full_scope_topics(scope) - processed_topics)
 		if progress:
-			for phase in ("selftests", "downloads"):
-				progress.emit("phase_plan", phase=phase, total=row_index + len(extra_topics))
+			progress.emit("phase_plan", phase="downloads", total=row_index + len(extra_topics))
 		for topic_ref in extra_topics:
 			if progress:
 				progress.check_cancelled()
 			topic_sources = set(build_stages.topic_sources(topic_ref))
 			task_result = TaskBuildResult(topic_ref=topic_ref, source_files=topic_sources)
-			row_changes = BuildChanges(selected_topics={topic_ref})
-			_run_task_row_artifact_stages(
-				task_result,
-				scope,
-				row_changes,
-				stage_files,
-				stage_seconds,
-				None,
-				f"{topic_ref.subject}/{topic_ref.topic}",
-				progress,
+			_report_task_downloads(
+				task_result, None, f"{topic_ref.subject}/{topic_ref.topic}", progress,
 			)
 			selected_topics.add(topic_ref)
 
@@ -319,7 +238,7 @@ def build_site(scope: BuildScope, progress: BuildProgress | None = None) -> Buil
 		selected_topics=selected_topics,
 	)
 	# A topic page summarizes every BBQ source in its folder. Refresh it once after
-	# all selected rows have produced their own self-tests and converter outputs.
+	# all selected rows have produced their BBQ sources.
 	stage_start = time.perf_counter()
 	if progress:
 		progress.emit("phase_plan", phase="topic_pages", total=len(selected_topics))

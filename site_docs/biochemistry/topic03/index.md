@@ -15,7 +15,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 <a class="md-button custom-button webwork_pgml" href="downloads/amino_acids_properties-long_tables-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-amino_acids_properties-long_tables-questions.txt" data-selftest="biochemistry/topic03/downloads/selftest-MATCH-amino_acids_properties-long_tables.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-amino_acids_properties-long_tables-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -31,7 +31,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 <a class="md-button custom-button webwork_pgml" href="downloads/amino_acids_properties-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-amino_acids_properties-questions.txt" data-selftest="biochemistry/topic03/downloads/selftest-MATCH-amino_acids_properties.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-amino_acids_properties-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -47,7 +47,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 <a class="md-button custom-button webwork_pgml" href="downloads/amino_acids_properties-long_tables-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-amino_acids_properties-long_tables-questions.txt" data-selftest="biochemistry/topic03/downloads/selftest-WOMC-amino_acids_properties-long_tables.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-amino_acids_properties-long_tables-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -63,7 +63,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 <a class="md-button custom-button webwork_pgml" href="downloads/amino_acids_properties-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-amino_acids_properties-questions.txt" data-selftest="biochemistry/topic03/downloads/selftest-WOMC-amino_acids_properties.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-amino_acids_properties-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -79,7 +79,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 <a class="md-button custom-button webwork_pgml" href="downloads/alanine_protonation_states.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-alanine_protonation_states-questions.txt" data-selftest="biochemistry/topic03/downloads/selftest-alanine_protonation_states.html">
+</div><div class="qti-selftest" data-bbq="bbq-alanine_protonation_states-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -95,7 +95,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 <a class="md-button custom-button webwork_pgml" href="downloads/alpha_amino_acid_identification.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-alpha_amino_acid_identification-questions.txt" data-selftest="biochemistry/topic03/downloads/selftest-alpha_amino_acid_identification.html">
+</div><div class="qti-selftest" data-bbq="bbq-alpha_amino_acid_identification-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -111,7 +111,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 <a class="md-button custom-button webwork_pgml" href="downloads/histidine_protonation_states.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-histidine_protonation_states-questions.txt" data-selftest="biochemistry/topic03/downloads/selftest-histidine_protonation_states.html">
+</div><div class="qti-selftest" data-bbq="bbq-histidine_protonation_states-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -127,7 +127,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 <a class="md-button custom-button webwork_pgml" href="downloads/ionic_bond_amino_acids.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-ionic_bond_amino_acids-questions.txt" data-selftest="biochemistry/topic03/downloads/selftest-ionic_bond_amino_acids.html">
+</div><div class="qti-selftest" data-bbq="bbq-ionic_bond_amino_acids-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -142,7 +142,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-match_amino_acid_structures-4_choices-questions.txt" data-format="human_readable" data-filename="human_readable-match_amino_acid_structures-4_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-match_amino_acid_structures-4_choices-questions.txt" data-selftest="biochemistry/topic03/downloads/selftest-match_amino_acid_structures-4_choices.html">
+</div><div class="qti-selftest" data-bbq="bbq-match_amino_acid_structures-4_choices-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -157,7 +157,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-polypeptide_fib_sequence-FIB-2aa-questions.txt" data-format="human_readable" data-filename="human_readable-polypeptide_fib_sequence-FIB-2aa.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-polypeptide_fib_sequence-FIB-2aa-questions.txt" data-selftest="biochemistry/topic03/downloads/selftest-polypeptide_fib_sequence-FIB-2aa.html">
+</div><div class="qti-selftest" data-bbq="bbq-polypeptide_fib_sequence-FIB-2aa-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -172,7 +172,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-polypeptide_mc_sequence-2_amino_acids-questions.txt" data-format="human_readable" data-filename="human_readable-polypeptide_mc_sequence-2_amino_acids.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-polypeptide_mc_sequence-2_amino_acids-questions.txt" data-selftest="biochemistry/topic03/downloads/selftest-polypeptide_mc_sequence-2_amino_acids.html">
+</div><div class="qti-selftest" data-bbq="bbq-polypeptide_mc_sequence-2_amino_acids-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -187,7 +187,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-polypeptide_mc_sequence-3_amino_acids-questions.txt" data-format="human_readable" data-filename="human_readable-polypeptide_mc_sequence-3_amino_acids.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-polypeptide_mc_sequence-3_amino_acids-questions.txt" data-selftest="biochemistry/topic03/downloads/selftest-polypeptide_mc_sequence-3_amino_acids.html">
+</div><div class="qti-selftest" data-bbq="bbq-polypeptide_mc_sequence-3_amino_acids-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -202,7 +202,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-polypeptide_mc_sequence-4_amino_acids-questions.txt" data-format="human_readable" data-filename="human_readable-polypeptide_mc_sequence-4_amino_acids.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-polypeptide_mc_sequence-4_amino_acids-questions.txt" data-selftest="biochemistry/topic03/downloads/selftest-polypeptide_mc_sequence-4_amino_acids.html">
+</div><div class="qti-selftest" data-bbq="bbq-polypeptide_mc_sequence-4_amino_acids-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -217,7 +217,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-questions.txt" data-selftest="biochemistry/topic03/downloads/selftest-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices.html">
+</div><div class="qti-selftest" data-bbq="bbq-tetrapeptide_net_charge-tetrapeptide_net_charge-5_choices-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -232,7 +232,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-which_amino_acid-FIB-questions.txt" data-format="human_readable" data-filename="human_readable-which_amino_acid-FIB.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-which_amino_acid-FIB-questions.txt" data-selftest="biochemistry/topic03/downloads/selftest-which_amino_acid-FIB.html">
+</div><div class="qti-selftest" data-bbq="bbq-which_amino_acid-FIB-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -247,7 +247,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-which_amino_acid-MC-7_choices-questions.txt" data-format="human_readable" data-filename="human_readable-which_amino_acid-MC-7_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-which_amino_acid-MC-7_choices-questions.txt" data-selftest="biochemistry/topic03/downloads/selftest-which_amino_acid-MC-7_choices.html">
+</div><div class="qti-selftest" data-bbq="bbq-which_amino_acid-MC-7_choices-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -262,7 +262,7 @@ Students identify amino acids by their side chains, classify R-groups by polarit
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-wordle_peptides-FIB-questions.txt" data-format="human_readable" data-filename="human_readable-wordle_peptides-FIB.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-wordle_peptides-FIB-questions.txt" data-selftest="biochemistry/topic03/downloads/selftest-wordle_peptides-FIB.html">
+</div><div class="qti-selftest" data-bbq="bbq-wordle_peptides-FIB-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

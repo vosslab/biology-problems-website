@@ -11,11 +11,8 @@ import html
 import os
 import re
 import glob
-import sys
 import time
-import subprocess
 import dataclasses
-import tempfile
 
 # local repo modules
 import bioproblems_site.formats as formats_module
@@ -29,7 +26,6 @@ from bioproblems_site.topic_metadata import (
 	get_topic_title,
 )
 import bioproblems_site.download_buttons as download_buttons
-import bioproblems_site.build_progress as build_progress
 import bioproblems_site.problem_set_title
 import bioproblems_site.problem_set_display as problem_set_display
 
@@ -40,8 +36,6 @@ COLOR_RESET = "\033[0m"
 COLOR_GREEN = "\033[92m"
 COLOR_YELLOW = "\033[93m"
 COLOR_CYAN = "\033[96m"
-COLOR_COMMAND = "\033[36m"
-COLOR_RED = "\033[91m"
 COLOR_MAGENTA = "\033[95m"
 
 # Format keys + labels come from the canonical registries; no local copies.
@@ -52,28 +46,6 @@ FORMAT_LABELS = download_buttons.FORMAT_LABELS
 def color_text(text: str, color: str) -> str:
 	"""Return colored text for CLI readability."""
 	return f"{color}{text}{COLOR_RESET}"
-
-#==============
-
-def remove_case_mismatched_files(expected_path: str, task_log: list[str] | None = None) -> None:
-	dir_name = os.path.dirname(expected_path)
-	base_name = os.path.basename(expected_path)
-	if not os.path.isdir(dir_name):
-		return
-	lower_name = base_name.lower()
-	for entry in os.listdir(dir_name):
-		if entry == base_name:
-			continue
-		if entry.lower() != lower_name:
-			continue
-		entry_path = os.path.join(dir_name, entry)
-		if not os.path.isfile(entry_path):
-			continue
-		os.remove(entry_path)
-		_download_log(color_text(
-			f"  REMOVED CASE MISMATCH: {git_paths.display_path(entry_path)}",
-			COLOR_YELLOW,
-		), task_log=task_log)
 
 #==============
 
@@ -108,141 +80,9 @@ def record_stat(stats: dict, format_key: str, bucket: str) -> None:
 class RenderOptions:
 	"""Options consumed by render_all()."""
 	download_formats: tuple = DOWNLOAD_FORMAT_KEYS
-	# Rotate (regenerate) the per-BBQ self-test HTML on every build; each
-	# build draws a fresh random question from the bbq-*.txt source.
-	# Intentional -- do not re-gate for speed.
-	regenerate_selftests: bool = True
 	verbose: bool = True
 	# Optional pre-built client for problem-set title generation.
 	llm_client: object = None
-
-#==============
-
-#==============
-def _download_log(message: str, *, task_log: list[str] | None = None, file: object = None) -> None:
-	"""Collect a bank's messages for its owner thread, or print directly."""
-	if task_log is None:
-		print(message, file=file)
-	else:
-		task_log.append(message)
-
-
-#==============
-def create_downloadable_format(
-	bbq_file: str,
-	prefix: str,
-	extension: str,
-	capture_output: bool = False,
-	task_log: list[str] | None = None,
-) -> str | None:
-	"""Run the required native converter and publish only a completed artifact."""
-	if prefix == "bbq":
-		raise ValueError
-	converter_path = git_paths.find_native_bbq_converter()
-	with open(bbq_file) as source:
-		if not any(line.strip() and not line.lstrip().startswith("#") for line in source):
-			raise RuntimeError(f"No questions in {git_paths.display_path(bbq_file)}")
-	file_path = get_outfile_name(bbq_file, prefix, extension)
-	output_directory = os.path.dirname(file_path) or "."
-	os.makedirs(output_directory, exist_ok=True)
-	# Keep the canonical basename: native writers derive package references from it.
-	with tempfile.TemporaryDirectory(prefix=".qti-", dir=output_directory) as staging:
-		staged_path = os.path.join(staging, os.path.basename(file_path))
-		convert_cmd = [
-			converter_path, "--quiet", f"--{prefix}",
-			"--input", bbq_file, "--output", staged_path,
-		]
-		if prefix == "blackboard_export_zip" and bbq_has_html_drawings(bbq_file):
-			convert_cmd.append("--html-to-image")
-		display_cmd = list(convert_cmd)
-		display_cmd[0] = git_paths.display_path(converter_path)
-		for path_flag in ("--input", "--output"):
-			flag_index = display_cmd.index(path_flag)
-			display_cmd[flag_index + 1] = git_paths.display_path(display_cmd[flag_index + 1])
-		_download_log(color_text(" ".join(display_cmd), COLOR_COMMAND), task_log=task_log)
-		completed = subprocess.run(convert_cmd, check=False, capture_output=True, text=True)
-		if completed.stdout:
-			_download_log(completed.stdout.rstrip(), task_log=task_log)
-		if completed.stderr:
-			_download_log(completed.stderr.rstrip(), task_log=task_log, file=sys.stderr)
-		if completed.returncode != 0:
-			raise RuntimeError(
-				f"{prefix} converter exited with status {completed.returncode} "
-				f"for {git_paths.display_path(bbq_file)}."
-			)
-		if prefix == "human_readable" and not os.path.exists(staged_path):
-			if os.path.lexists(file_path):
-				if not os.path.isfile(file_path):
-					raise RuntimeError(f"Cannot remove non-file human_readable output: {file_path}")
-				os.remove(file_path)
-			_download_log(color_text(
-				f"  SKIP Human-Readable: no supported text questions in "
-				f"{git_paths.display_path(bbq_file)}", COLOR_YELLOW,
-			), task_log=task_log)
-			return None
-		if not os.path.isfile(staged_path) or os.path.getsize(staged_path) == 0:
-			raise RuntimeError(
-				f"{prefix} converter produced no output for {git_paths.display_path(bbq_file)}."
-			)
-		# Self-test writers may also emit companion images alongside the HTML.
-		for entry in os.listdir(staging):
-			if entry != os.path.basename(staged_path):
-				os.replace(os.path.join(staging, entry), os.path.join(output_directory, entry))
-		os.replace(staged_path, file_path)
-	remove_case_mismatched_files(file_path, task_log=task_log)
-	return file_path
-
-
-#==============
-def bbq_has_html_drawings(path: str) -> bool:
-	"""Check whether a BBQ source needs table or canvas rendering."""
-	with open(path, "rb") as source:
-		for line in source:
-			lower_line = line.lower()
-			if b"<table" in lower_line or b"<canvas" in lower_line:
-				return True
-	return False
-
-
-#==============
-def create_timed_downloadable_format(
-	bbq_file: str,
-	prefix: str,
-	extension: str,
-	capture_output: bool = False,
-	progress: build_progress.BuildProgress | None = None,
-	task_log: list[str] | None = None,
-) -> str | None:
-	"""Measure a single export format, including browser rendering and startup."""
-	if progress is None:
-		return create_downloadable_format(
-			bbq_file, prefix, extension, capture_output=capture_output, task_log=task_log,
-		)
-	measurements = {
-		"source_file": git_paths.display_path(bbq_file),
-		"format": prefix, "source_bytes": os.path.getsize(bbq_file),
-		"html_to_image": prefix == "blackboard_export_zip" and bbq_has_html_drawings(bbq_file),
-	}
-	progress.emit("artifact_started", **measurements)
-	started_at = time.perf_counter()
-	try:
-		output = create_downloadable_format(
-			bbq_file, prefix, extension, capture_output=capture_output, task_log=task_log,
-		)
-	except Exception as error:
-		progress.emit(
-			"artifact_failed", **measurements,
-			duration=time.perf_counter() - started_at, error_type=type(error).__name__,
-		)
-		raise
-	duration = time.perf_counter() - started_at
-	output_bytes = os.path.getsize(output) if output is not None else 0
-	progress.emit(
-		"artifact_completed" if output is not None else "artifact_skipped",
-		**measurements, duration=duration, output_bytes=output_bytes,
-	)
-	return output
-
 
 #==============
 ORDER_ITEM_TYPES = frozenset(("ORD", "ORDER"))
@@ -487,11 +327,6 @@ def get_expected_outfile_name(bbq_file_name: str, prefix: str, extension: str) -
 	return outfile
 
 
-#============================================
-def get_outfile_name(bbq_file_name: str, prefix: str, extension: str) -> str:
-	"""Return the expected artifact path for compatibility with existing callers."""
-	return get_expected_outfile_name(bbq_file_name, prefix, extension)
-
 #==============
 
 def update_index_md(
@@ -502,10 +337,7 @@ def update_index_md(
 	download_formats: list,
 	verbose: bool,
 	stats: dict,
-	base_dir: str,
 	client: object = None,
-	*,
-	regenerate_selftests: bool = True,
 ) -> None:
 	"""Update or create the topic index page and its configured artifacts.
 
@@ -517,9 +349,7 @@ def update_index_md(
 		download_formats: Download formats to display.
 		verbose: Whether to print per-file progress.
 		stats: Mutable generation statistics.
-		base_dir: Base directory used to form include paths.
 		client: Optional title-generation client.
-		regenerate_selftests: Whether to regenerate self-test HTML.
 	"""
 	# Normalize the folder path to handle trailing slashes
 	normalized_path = os.path.normpath(topic_folder)
@@ -577,26 +407,10 @@ def update_index_md(
 			if total_files:
 				file_progress = f"[{file_counter['count']}/{total_files}] "
 			print('-' * 50)
-			# Convert the text file to HTML
 			print(color_text(
 				f"  {file_progress}BBQ file {git_paths.display_path(bbq_file)}",
 				COLOR_CYAN,
 			))
-
-			html_file_path = get_outfile_name(bbq_file, 'selftest', 'html')
-			# The self-test HTML draws a fresh random question when explicitly
-			# regenerated. Stage its replacement before publishing over the current file.
-			if regenerate_selftests:
-				html_file_path = create_downloadable_format(bbq_file, 'selftest', 'html')
-				if not os.path.isfile(html_file_path):
-					print("\n\n\n!! unfortunately, the script requires a selftest for each problem !!")
-					record_stat(stats, "selftest", "failed")
-					raise FileNotFoundError(git_paths.display_path(html_file_path))
-				record_stat(stats, "selftest", "generated")
-			elif os.path.isfile(html_file_path):
-				record_stat(stats, "selftest", "existing")
-			else:
-				record_stat(stats, "selftest", "missing")
 
 			# Generate the problem set title using the LLM
 			problem_set_title = get_problem_set_title(client, bbq_file)
@@ -616,14 +430,9 @@ def update_index_md(
 			)
 			index_md.write(download_button_row)
 			bank_name = os.path.basename(bbq_file)
-			selftest_path = os.path.relpath(html_file_path, base_dir)
 			bank_url = html.escape(bank_name, quote=True)
-			selftest_url = html.escape(selftest_path, quote=True)
-			# The browser controller owns the active question. The standalone
-			# artifact remains available as the WASM source and manifest record.
 			index_md.write(
-				f'<div class="qti-selftest" data-bbq="{bank_url}" '
-				f'data-selftest="{selftest_url}">\n'
+				f'<div class="qti-selftest" data-bbq="{bank_url}">\n'
 			)
 			index_md.write('  <div class="selftest-reroll-content"></div>\n')
 			index_md.write("</div>\n\n\n")
@@ -641,8 +450,7 @@ def enumerate_topic_jobs(
 	Traverses site_docs/<subject>/topic??/ folders, honoring the same
 	subject/topic filters as render_all. Returns a list of
 	(topic_folder, bbq_files) tuples for folders that contain at least
-	one bbq-*-questions.txt source. Shared by render_all and
-	regenerate_all_selftests so the discovery logic lives in one place.
+	one bbq-*-questions.txt source.
 	"""
 	all_topic_folders = glob.glob(os.path.join(base_dir, "*/topic??/"))
 	all_topic_folders.sort()
@@ -678,77 +486,6 @@ def enumerate_topic_jobs(
 		bbq_files.sort()
 		topic_jobs.append((norm_topic, bbq_files))
 	return topic_jobs
-
-#==============
-
-def regenerate_all_selftests(
-	subject_filter: "str | None" = None,
-	topic_filter: "str | None" = None,
-	site_docs_dir: "str | None" = None,
-	verbose: bool = True,
-	stats: "dict | None" = None,
-) -> None:
-	"""Force-regenerate every self-test HTML from its BBQ source.
-
-	Standalone self-test regeneration pass: enumerates every BBQ source
-	file in scope (honoring subject_filter/topic_filter) and rebuilds its
-	self-test HTML via create_downloadable_format. That helper stages and
-	validates the replacement before publishing through qti-package-maker. Every
-	self-test is treated as stale, so a fresh random question is drawn.
-
-	This pass does NOT write index.md, does NOT construct an LLMClient,
-	and does NOT call get_problem_set_title. When a stats dict is passed,
-	per-file generated/failed counts are recorded under the "selftest" key.
-
-	Args:
-		subject_filter: if set, only regenerate self-tests for this subject.
-		topic_filter: if set, only regenerate self-tests for this topic.
-		site_docs_dir: docs root; falls back to mkdocs.yml docs_dir when None.
-		verbose: print a concise per-file line for each regenerated self-test.
-		stats: optional stats dict; when provided, records selftest counts.
-	"""
-	# Resolve the docs root. When the caller does not supply one, read the
-	# canonical docs_dir from mkdocs.yml so this matches render_all.
-	base_dir = site_docs_dir
-	if base_dir is None:
-		base_dir = get_docs_dir()
-	if not os.path.exists(base_dir):
-		raise FileNotFoundError(
-			f"Base directory '{git_paths.display_path(base_dir)}' not found."
-		)
-	topic_jobs = enumerate_topic_jobs(base_dir, subject_filter, topic_filter)
-	total_bbq_files = sum(len(files) for _, files in topic_jobs)
-	if verbose:
-		print(color_text(
-			f"Regenerating self-tests for {len(topic_jobs)} topic folders "
-			f"with {total_bbq_files} BBQ files",
-			COLOR_CYAN,
-		))
-	file_count = 0
-	for topic_folder, bbq_files in topic_jobs:
-		for bbq_file in bbq_files:
-			file_count += 1
-			# create_downloadable_format preserves the current file until the
-			# replacement passes its converter output checks.
-			html_file_path = create_downloadable_format(bbq_file, "selftest", "html")
-			if not os.path.isfile(html_file_path):
-				if verbose:
-					print(color_text(
-						f"  [{file_count}/{total_bbq_files}] FAILED selftest: "
-						f"{git_paths.display_path(bbq_file)}",
-						COLOR_YELLOW,
-					))
-				if stats is not None:
-					record_stat(stats, "selftest", "failed")
-				raise FileNotFoundError(git_paths.display_path(html_file_path))
-			if verbose:
-				print(color_text(
-					f"  [{file_count}/{total_bbq_files}] regenerated "
-					f"{git_paths.display_path(html_file_path)}",
-					COLOR_GREEN,
-				))
-			if stats is not None:
-				record_stat(stats, "selftest", "generated")
 
 #==============
 
@@ -821,14 +558,12 @@ def render_all(
 			list(options.download_formats),
 			options.verbose,
 			stats,
-			base_dir,
 			client=options.llm_client,
-			regenerate_selftests=options.regenerate_selftests,
 		)
 	if options.verbose:
 		print("\n\nSummary:")
 		format_order = (
-			"selftest", "bb_text", "bb_export", "canvas_qti",
+			"bb_text", "bb_export", "canvas_qti",
 			"human_read", "webwork_pgml",
 		)
 		for format_key in format_order:
@@ -839,9 +574,6 @@ def render_all(
 			existing = counts.get("existing", 0)
 			missing = counts.get("missing", 0)
 			skipped = counts.get("skipped", 0)
-			if format_key == "selftest":
-				print(f"- {label}: generated {generated}, failed {failed}")
-				continue
 			print(
 				f"- {label}: generated {generated}, failed {failed}, "
 				f"existing {existing}, missing {missing}, skipped {skipped}"

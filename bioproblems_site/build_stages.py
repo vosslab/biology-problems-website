@@ -1,8 +1,6 @@
 """Stage-local stale checks and writers for the unified site build."""
 
 from pathlib import Path
-import concurrent.futures
-import os
 
 import bioproblems_site.llm_helpers as llm_helpers
 import bioproblems_site.bbq_workflow as bbq_workflow
@@ -43,18 +41,6 @@ def topic_sources(topic_ref: TopicRef, site_docs_dir: Path = DEFAULT_SITE_DOCS) 
 
 
 #============================================
-def selected_topic_sources(
-	topic_ref: TopicRef,
-	source_paths: set[Path] | None,
-) -> list[Path]:
-	"""Return one task row's BBQ files, or every file in the topic when unscoped."""
-	if source_paths is None:
-		return topic_sources(topic_ref)
-	owner_folder = topic_folder(topic_ref)
-	return sorted(source_path for source_path in source_paths if source_path.parent == owner_folder)
-
-
-#============================================
 def is_newer_than_any(output_path: Path, input_paths: list[Path]) -> bool:
 	"""Return whether any existing direct input is newer than an output."""
 	if not output_path.is_file():
@@ -65,52 +51,11 @@ def is_newer_than_any(output_path: Path, input_paths: list[Path]) -> bool:
 
 
 #============================================
-def selftests_need_run(
-	topic_ref: TopicRef,
-	scope: BuildScope,
-	changes: BuildChanges,
-	source_paths: set[Path] | None = None,
-) -> bool:
-	"""Check direct BBQ-to-self-test relationships for one topic."""
-	sources = selected_topic_sources(topic_ref, source_paths)
-	if not sources:
-		return False
-	if scope.full or topic_ref in changes.changed_topics:
-		return True
-	for source_path in sources:
-		output_path = Path(topic_page_module.get_outfile_name(str(source_path), "selftest", "html"))
-		if is_newer_than_any(output_path, [source_path]):
-			return True
-	return False
-
-
-#============================================
-def run_selftests(
-	topic_ref: TopicRef,
-	scope: BuildScope,
-	source_paths: set[Path] | None = None,
-	progress: BuildProgress | None = None,
-) -> set[Path]:
-	"""Write self-tests for one task row, or all files in a topic when unscoped."""
-	sources = selected_topic_sources(topic_ref, source_paths)
-	outputs = {
-		Path(topic_page_module.get_outfile_name(str(source_path), "selftest", "html"))
-		for source_path in sources
-	}
-	if scope.dry_run:
-		return outputs
-	_run_bank_tasks(sources, progress)
-	return outputs
-
-
-#============================================
 def topic_page_needs_run(topic_ref: TopicRef, scope: BuildScope, changes: BuildChanges) -> bool:
 	"""Check direct topic-page inputs without scanning unrelated topics."""
 	page_path = topic_folder(topic_ref) / "index.md"
 	inputs = [DEFAULT_METADATA_PATH]
 	inputs.extend(topic_sources(topic_ref))
-	for source_path in topic_sources(topic_ref):
-		inputs.append(Path(topic_page_module.get_outfile_name(str(source_path), "selftest", "html")))
 	if scope.full or topic_ref in changes.changed_topics:
 		return True
 	return is_newer_than_any(page_path, inputs)
@@ -132,7 +77,6 @@ def run_topic_page(topic_ref: TopicRef, scope: BuildScope) -> set[Path]:
 	options = topic_page_module.RenderOptions(
 		verbose=True,
 		llm_client=client,
-		regenerate_selftests=False,
 	)
 	topic_page_module.render_all(
 		options,
@@ -162,61 +106,6 @@ def count_downloads(
 	available_count = sum(path.is_file() for path in expected_paths | pgml_paths)
 	expected_count = len(expected_paths | pgml_paths)
 	return available_count, expected_count
-
-
-#============================================
-def _convert_bank(
-	source_path: Path,
-	task_log: list[str],
-	events: list[tuple[str, dict[str, object]]],
-	progress: BuildProgress | None,
-) -> None:
-	"""Own one bank's writes and collect messages without sharing stdout."""
-	bank_progress = None
-	if progress:
-		bank_progress = BuildProgress(
-			lambda event, details: events.append((event, details)), progress.cancel_event,
-		)
-		bank_progress.check_cancelled()
-	topic_page_module.create_timed_downloadable_format(
-		str(source_path), "selftest", "html", capture_output=True,
-		progress=bank_progress, task_log=task_log,
-	)
-
-
-#============================================
-def _run_bank_tasks(sources: list[Path], progress: BuildProgress | None) -> None:
-	"""Convert independent banks concurrently and publish whole task logs."""
-	if not sources:
-		return
-	# Validate the shared native dependency before dispatching self-test jobs.
-	git_paths.find_native_bbq_converter()
-	workers = max(1, (os.cpu_count() or 1) // 2)
-	first_error = None
-	with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as executor:
-		tasks = {}
-		for source_path in sources:
-			if progress:
-				progress.check_cancelled()
-			task_log: list[str] = []
-			events: list[tuple[str, dict[str, object]]] = []
-			future = executor.submit(_convert_bank, source_path, task_log, events, progress)
-			tasks[future] = (task_log, events)
-		for future in concurrent.futures.as_completed(tasks):
-			task_log, events = tasks[future]
-			# Only the owning thread prints and calls shared progress observers.
-			if task_log:
-				print("\n".join(task_log))
-			if progress:
-				for event, details in events:
-					progress.emit(event, **details)
-			try:
-				future.result()
-			except Exception as error:
-				if first_error is None:
-					first_error = error
-	if first_error is not None:
-		raise first_error
 
 
 #============================================

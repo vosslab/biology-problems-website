@@ -12,7 +12,7 @@ Students convert raw scores to z-scores, use z-score thresholds to classify obse
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-z_score_google_sheet-questions.txt" data-format="human_readable" data-filename="human_readable-z_score_google_sheet.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-z_score_google_sheet-questions.txt" data-selftest="biostatistics/topic05/downloads/selftest-z_score_google_sheet.html">
+</div><div class="qti-selftest" data-bbq="bbq-z_score_google_sheet-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -27,7 +27,7 @@ Students convert raw scores to z-scores, use z-score thresholds to classify obse
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-z_score_table_interp-questions.txt" data-format="human_readable" data-filename="human_readable-z_score_table_interp.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-z_score_table_interp-questions.txt" data-selftest="biostatistics/topic05/downloads/selftest-z_score_table_interp.html">
+</div><div class="qti-selftest" data-bbq="bbq-z_score_table_interp-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

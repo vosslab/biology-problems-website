@@ -36,12 +36,8 @@ import bioproblems_site.title_cache as title_cache
 #============================================
 # Pure naming and detection constants
 
-# The four prefixed download artifacts generated from each bbq file.
-# Each entry mirrors topic_page.get_outfile_name(bbq, prefix, ext) output
-# but without that function's remove_case_mismatched_files side effect.
-# Equivalence is proven by snapshot test, not by calling get_outfile_name.
+# Legacy package artifacts associated with each BBQ file.
 DOWNLOAD_ARTIFACTS = (
-	("selftest", "html"),
 	("blackboard_export_zip", "zip"),
 	("canvas_qti_v1_2", "zip"),
 	("human_readable", "html"),
@@ -50,6 +46,7 @@ DOWNLOAD_ARTIFACTS = (
 # Superseded generated artifacts remain decidable deletion candidates during
 # a format migration, but they are never included in a live expected set.
 RETIRED_DOWNLOAD_ARTIFACTS = (
+	("selftest", "html"),
 	("blackboard_qti_v2_1", "zip"),
 )
 
@@ -72,8 +69,7 @@ QUARANTINE_ROOT = "orphaned"
 def pure_download_basename(core: str, prefix: str, ext: str) -> str:
 	"""Return the download artifact basename for a core, prefix, and ext.
 
-	Pure reimplementation of the naming in topic_page.get_outfile_name,
-	without the remove_case_mismatched_files filesystem side effect.
+	Uses the same naming as topic_page.get_expected_outfile_name.
 	Mirrors the startswith(prefix) guard so a core that already begins
 	with a known prefix (for example a MATCH-* core) is not double
 	prefixed.
@@ -125,7 +121,7 @@ def expected_download_basenames(
 def _live_download_basenames(topic_folder: str, live_cores: set) -> set:
 	"""Return every legit download basename across all live cores.
 
-	Combines the 4 prefixed artifacts with the pgml/pg copies so a file
+	Combines the legacy prefixed artifacts with the pgml/pg copies so a file
 	matching any live core is recognized as not-orphan.
 
 	Args:

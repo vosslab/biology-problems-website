@@ -15,7 +15,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 <a class="md-button custom-button webwork_pgml" href="downloads/energy_terms-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-energy_terms-questions.txt" data-selftest="biochemistry/topic06/downloads/selftest-MATCH-energy_terms.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-energy_terms-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -31,7 +31,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 <a class="md-button custom-button webwork_pgml" href="downloads/enzyme_terminology-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-enzyme_terminology-questions.txt" data-selftest="biochemistry/topic06/downloads/selftest-MATCH-enzyme_terminology.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-enzyme_terminology-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -47,7 +47,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 <a class="md-button custom-button webwork_pgml" href="downloads/chemical_reactions.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-chemical_reactions-questions.txt" data-selftest="biochemistry/topic06/downloads/selftest-TFMS-chemical_reactions.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-chemical_reactions-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -63,7 +63,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 <a class="md-button custom-button webwork_pgml" href="downloads/enzyme_cofactors.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-enzyme_cofactors-questions.txt" data-selftest="biochemistry/topic06/downloads/selftest-TFMS-enzyme_cofactors.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-enzyme_cofactors-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -79,7 +79,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 <a class="md-button custom-button webwork_pgml" href="downloads/enzyme_equilibrium.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-enzyme_equilibrium-questions.txt" data-selftest="biochemistry/topic06/downloads/selftest-TFMS-enzyme_equilibrium.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-enzyme_equilibrium-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -95,7 +95,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 <a class="md-button custom-button webwork_pgml" href="downloads/gibbs_free_energy_equation.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-gibbs_free_energy_equation-questions.txt" data-selftest="biochemistry/topic06/downloads/selftest-TFMS-gibbs_free_energy_equation.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-gibbs_free_energy_equation-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -111,7 +111,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 <a class="md-button custom-button webwork_pgml" href="downloads/potential_v_kinetic_energy.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-potential_v_kinetic_energy-questions.txt" data-selftest="biochemistry/topic06/downloads/selftest-TFMS-potential_v_kinetic_energy.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-potential_v_kinetic_energy-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -127,7 +127,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 <a class="md-button custom-button webwork_pgml" href="downloads/thermodynamics.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-thermodynamics-questions.txt" data-selftest="biochemistry/topic06/downloads/selftest-TFMS-thermodynamics.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-thermodynamics-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -143,7 +143,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 <a class="md-button custom-button webwork_pgml" href="downloads/which_enzyme.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-which_enzyme-questions.txt" data-selftest="biochemistry/topic06/downloads/selftest-TFMS-which_enzyme.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-which_enzyme-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -159,7 +159,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 <a class="md-button custom-button webwork_pgml" href="downloads/energy_terms-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-energy_terms-questions.txt" data-selftest="biochemistry/topic06/downloads/selftest-WOMC-energy_terms.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-energy_terms-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -175,7 +175,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 <a class="md-button custom-button webwork_pgml" href="downloads/enzyme_terminology-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-enzyme_terminology-questions.txt" data-selftest="biochemistry/topic06/downloads/selftest-WOMC-enzyme_terminology.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-enzyme_terminology-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -191,7 +191,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 <a class="md-button custom-button webwork_pgml" href="downloads/delta_g_prime_standard_state.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-delta_g_prime_standard_state-questions.txt" data-selftest="biochemistry/topic06/downloads/selftest-delta_g_prime_standard_state.html">
+</div><div class="qti-selftest" data-bbq="bbq-delta_g_prime_standard_state-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -207,7 +207,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 <a class="md-button custom-button webwork_pgml" href="downloads/exergonic_endergonic_reactions.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-exergonic_endergonic_reactions-questions.txt" data-selftest="biochemistry/topic06/downloads/selftest-exergonic_endergonic_reactions.html">
+</div><div class="qti-selftest" data-bbq="bbq-exergonic_endergonic_reactions-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -223,7 +223,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 <a class="md-button custom-button webwork_pgml" href="downloads/free_energy_keq_relationship.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-free_energy_keq_relationship-questions.txt" data-selftest="biochemistry/topic06/downloads/selftest-free_energy_keq_relationship.html">
+</div><div class="qti-selftest" data-bbq="bbq-free_energy_keq_relationship-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -239,7 +239,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 <a class="md-button custom-button webwork_pgml" href="downloads/gibbs_free_energy_equation_symbols.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-gibbs_free_energy_equation_symbols-questions.txt" data-selftest="biochemistry/topic06/downloads/selftest-gibbs_free_energy_equation_symbols.html">
+</div><div class="qti-selftest" data-bbq="bbq-gibbs_free_energy_equation_symbols-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -255,7 +255,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 <a class="md-button custom-button webwork_pgml" href="downloads/thermodynamics_law_statements.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-thermodynamics_law_statements-questions.txt" data-selftest="biochemistry/topic06/downloads/selftest-thermodynamics_law_statements.html">
+</div><div class="qti-selftest" data-bbq="bbq-thermodynamics_law_statements-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -271,7 +271,7 @@ Students calculate delta G and Keq, determine whether reactions are spontaneous,
 <a class="md-button custom-button webwork_pgml" href="downloads/thermodynamics_system_laws.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-thermodynamics_system_laws-questions.txt" data-selftest="biochemistry/topic06/downloads/selftest-thermodynamics_system_laws.html">
+</div><div class="qti-selftest" data-bbq="bbq-thermodynamics_system_laws-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

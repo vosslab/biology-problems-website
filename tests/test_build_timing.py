@@ -14,7 +14,7 @@ def test_startup_outlier_is_excluded_after_three_rows(monkeypatch: pytest.Monkey
 	timing.observe("plan", {"task_rows": 4, "topics": 0})
 	for row, download_seconds in enumerate((100.0, 4.0, 6.0), start=1):
 		timing.observe("row_started", {"row": row})
-		for phase, duration in (("bbq", 1.0), ("selftests", 2.0), ("downloads", download_seconds)):
+		for phase, duration in (("bbq", 1.0), ("downloads", download_seconds)):
 			clock[0] += duration
 			timing.observe("stage_completed", {
 				"phase": phase, "row": row, "duration": duration, "executed": True,
@@ -22,12 +22,12 @@ def test_startup_outlier_is_excluded_after_three_rows(monkeypatch: pytest.Monkey
 		if row < 3:
 			assert timing.estimate() is None
 	# One remaining row and final indexing each reserve the trimmed row cost.
-	assert timing.estimate() == pytest.approx(16.0)
+	assert timing.estimate() == pytest.approx(12.0)
 	assert timing.samples["downloads"] == [100.0, 4.0, 6.0]
 
 
 #============================================
-def test_estimate_includes_conversions_and_finalization(monkeypatch: pytest.MonkeyPatch) -> None:
+def test_estimate_includes_row_overhead_and_finalization(monkeypatch: pytest.MonkeyPatch) -> None:
 	"""Slow downloads and row overhead must contribute to the finish estimate."""
 	timing = build_progress.BuildTiming()
 	clock = [0.0]
@@ -35,7 +35,7 @@ def test_estimate_includes_conversions_and_finalization(monkeypatch: pytest.Monk
 	timing.observe("plan", {"task_rows": 4, "topics": 2})
 	for row in (1, 2, 3):
 		timing.observe("row_started", {"row": row})
-		for phase, duration in (("bbq", 1.0), ("selftests", 2.0), ("downloads", 120.0)):
+		for phase, duration in (("bbq", 1.0), ("downloads", 120.0)):
 			clock[0] += duration
 			if phase == "downloads":
 				clock[0] += 7.0
@@ -70,7 +70,7 @@ def test_skips_do_not_dilute_estimates(
 	for row in (1, 2, 3):
 		timing.observe("row_started", {"row": row})
 		without_cached_row.observe("row_started", {"row": row})
-		for phase in ("bbq", "selftests", "downloads"):
+		for phase in ("bbq", "downloads"):
 			clock[0] += 10.0
 			if phase == "downloads":
 				clock[0] += 5.0
@@ -80,7 +80,7 @@ def test_skips_do_not_dilute_estimates(
 			timing.observe("stage_completed", details)
 			without_cached_row.observe("stage_completed", details)
 	timing.observe("row_started", {"row": 4})
-	for phase in ("bbq", "selftests", "downloads"):
+	for phase in ("bbq", "downloads"):
 		clock[0] += 1.0
 		timing.observe("stage_skipped", {"phase": phase, "row": 4})
 	after_cached = timing.estimate()

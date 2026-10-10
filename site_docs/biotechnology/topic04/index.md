@@ -13,7 +13,7 @@ Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, bi
 <a class="md-button custom-button webwork_pgml" href="downloads/culture_enrichment-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-culture_enrichment-questions.txt" data-selftest="biotechnology/topic04/downloads/selftest-MATCH-culture_enrichment.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-culture_enrichment-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -29,7 +29,7 @@ Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, bi
 <a class="md-button custom-button webwork_pgml" href="downloads/plant_transgenes-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-plant_transgenes-questions.txt" data-selftest="biotechnology/topic04/downloads/selftest-MATCH-plant_transgenes.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-plant_transgenes-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -45,7 +45,7 @@ Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, bi
 <a class="md-button custom-button webwork_pgml" href="downloads/nobel_prizes.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-nobel_prizes-questions.txt" data-selftest="biotechnology/topic04/downloads/selftest-TFMS-nobel_prizes.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-nobel_prizes-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -61,7 +61,7 @@ Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, bi
 <a class="md-button custom-button webwork_pgml" href="downloads/xna_and_xdna.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-xna_and_xdna-questions.txt" data-selftest="biotechnology/topic04/downloads/selftest-TFMS-xna_and_xdna.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-xna_and_xdna-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -77,7 +77,7 @@ Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, bi
 <a class="md-button custom-button webwork_pgml" href="downloads/culture_enrichment-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-culture_enrichment-questions.txt" data-selftest="biotechnology/topic04/downloads/selftest-WOMC-culture_enrichment.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-culture_enrichment-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -93,7 +93,7 @@ Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, bi
 <a class="md-button custom-button webwork_pgml" href="downloads/plant_transgenes-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-plant_transgenes-questions.txt" data-selftest="biotechnology/topic04/downloads/selftest-WOMC-plant_transgenes.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-plant_transgenes-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -106,7 +106,7 @@ Students evaluate bioremediation, biofuels, synthetic cells, minimal genomes, bi
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-microbial_16s_rdna_survey_order-ORD-6_choices-questions.txt" data-format="human_readable" data-filename="human_readable-microbial_16s_rdna_survey_order-ORD-6_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-microbial_16s_rdna_survey_order-ORD-6_choices-questions.txt" data-selftest="biotechnology/topic04/downloads/selftest-microbial_16s_rdna_survey_order-ORD-6_choices.html">
+</div><div class="qti-selftest" data-bbq="bbq-microbial_16s_rdna_survey_order-ORD-6_choices-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

@@ -13,7 +13,7 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 <a class="md-button custom-button webwork_pgml" href="downloads/protein_v_dna_gels-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-protein_v_dna_gels-questions.txt" data-selftest="biotechnology/topic03/downloads/selftest-MATCH-protein_v_dna_gels.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-protein_v_dna_gels-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -29,7 +29,7 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 <a class="md-button custom-button webwork_pgml" href="downloads/proteomics_v_metabolomics-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-proteomics_v_metabolomics-questions.txt" data-selftest="biotechnology/topic03/downloads/selftest-MATCH-proteomics_v_metabolomics.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-proteomics_v_metabolomics-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -45,7 +45,7 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 <a class="md-button custom-button webwork_pgml" href="downloads/protein_stability.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-protein_stability-questions.txt" data-selftest="biotechnology/topic03/downloads/selftest-TFMS-protein_stability.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-protein_stability-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -61,7 +61,7 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 <a class="md-button custom-button webwork_pgml" href="downloads/protein_v_dna_gels-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-protein_v_dna_gels-questions.txt" data-selftest="biotechnology/topic03/downloads/selftest-WOMC-protein_v_dna_gels.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-protein_v_dna_gels-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -77,7 +77,7 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 <a class="md-button custom-button webwork_pgml" href="downloads/proteomics_v_metabolomics-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-proteomics_v_metabolomics-questions.txt" data-selftest="biotechnology/topic03/downloads/selftest-WOMC-proteomics_v_metabolomics.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-proteomics_v_metabolomics-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -93,7 +93,7 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 <a class="md-button custom-button webwork_pgml" href="downloads/isoelectric_one_protein.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-isoelectric_one_protein-questions.txt" data-selftest="biotechnology/topic03/downloads/selftest-isoelectric_one_protein.html">
+</div><div class="qti-selftest" data-bbq="bbq-isoelectric_one_protein-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -109,7 +109,7 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 <a class="md-button custom-button webwork_pgml" href="downloads/kaleidoscope_ladder_unknown_band.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-kaleidoscope_ladder_unknown_band-questions.txt" data-selftest="biotechnology/topic03/downloads/selftest-kaleidoscope_ladder_unknown_band.html">
+</div><div class="qti-selftest" data-bbq="bbq-kaleidoscope_ladder_unknown_band-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -125,7 +125,7 @@ Students examine proteomics, western blotting, mass spectrometry, phage display,
 <a class="md-button custom-button webwork_pgml" href="downloads/protein_gel_migration.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-protein_gel_migration-questions.txt" data-selftest="biotechnology/topic03/downloads/selftest-protein_gel_migration.html">
+</div><div class="qti-selftest" data-bbq="bbq-protein_gel_migration-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

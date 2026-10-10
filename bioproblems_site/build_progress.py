@@ -11,7 +11,6 @@ import bioproblems_site.bbq_runner as bbq_runner
 
 PHASE_LABELS = {
 	"bbq": "BBQ generation",
-	"selftests": "Self-tests",
 	"downloads": "Downloads",
 	"topic_pages": "Topic pages",
 	"indexes": "Indexes, navigation, and manifest",
@@ -48,7 +47,7 @@ class BuildTiming:
 		if event == "plan":
 			rows = int(details["task_rows"])
 			self.totals.update({
-				"bbq": rows, "selftests": rows, "downloads": rows,
+				"bbq": rows, "downloads": rows,
 				"topic_pages": int(details["topics"]), "indexes": 1,
 			})
 		elif event == "phase_plan":
@@ -62,7 +61,7 @@ class BuildTiming:
 			if event == "stage_completed" and details["executed"]:
 				duration = float(details["duration"])
 				self.samples.setdefault(phase, []).append(duration)
-				if self.row_started_at is not None and phase in ("bbq", "selftests", "downloads"):
+				if self.row_started_at is not None and phase in ("bbq", "downloads"):
 					self.row_stage_seconds += duration
 			if (
 				phase == "downloads" and "row" in details
@@ -87,7 +86,7 @@ class BuildTiming:
 		remaining = 0.0
 		row_phase_average = sum(
 			estimate_average(self.samples[phase])
-			for phase in ("bbq", "selftests", "downloads") if self.samples.get(phase)
+			for phase in ("bbq", "downloads") if self.samples.get(phase)
 		)
 		row_overhead = estimate_average(self.row_overhead_samples)
 		row_average = row_phase_average + row_overhead

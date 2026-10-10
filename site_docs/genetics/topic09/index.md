@@ -15,7 +15,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <a class="md-button custom-button webwork_pgml" href="downloads/chromosome_alterations-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-chromosome_alterations-questions.txt" data-selftest="genetics/topic09/downloads/selftest-MATCH-chromosome_alterations.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-chromosome_alterations-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -31,7 +31,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <a class="md-button custom-button webwork_pgml" href="downloads/chromosome_shapes-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-chromosome_shapes-questions.txt" data-selftest="genetics/topic09/downloads/selftest-MATCH-chromosome_shapes.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-chromosome_shapes-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -47,7 +47,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <a class="md-button custom-button webwork_pgml" href="downloads/chromosome_alterations-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-chromosome_alterations-questions.txt" data-selftest="genetics/topic09/downloads/selftest-WOMC-chromosome_alterations.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-chromosome_alterations-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -63,7 +63,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <a class="md-button custom-button webwork_pgml" href="downloads/chromosome_shapes-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-chromosome_shapes-questions.txt" data-selftest="genetics/topic09/downloads/selftest-WOMC-chromosome_shapes.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-chromosome_shapes-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -78,7 +78,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-cytogenetic_notation-aneuploidy-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-cytogenetic_notation-aneuploidy-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-cytogenetic_notation-aneuploidy-5_choices-questions.txt" data-selftest="genetics/topic09/downloads/selftest-cytogenetic_notation-aneuploidy-5_choices.html">
+</div><div class="qti-selftest" data-bbq="bbq-cytogenetic_notation-aneuploidy-5_choices-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -93,7 +93,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-cytogenetic_notation-band_order-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-cytogenetic_notation-band_order-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-cytogenetic_notation-band_order-5_choices-questions.txt" data-selftest="genetics/topic09/downloads/selftest-cytogenetic_notation-band_order-5_choices.html">
+</div><div class="qti-selftest" data-bbq="bbq-cytogenetic_notation-band_order-5_choices-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -108,7 +108,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-cytogenetic_notation-disorders-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-cytogenetic_notation-disorders-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-cytogenetic_notation-disorders-5_choices-questions.txt" data-selftest="genetics/topic09/downloads/selftest-cytogenetic_notation-disorders-5_choices.html">
+</div><div class="qti-selftest" data-bbq="bbq-cytogenetic_notation-disorders-5_choices-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -123,7 +123,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-cytogenetic_notation-rearrangements-questions.txt" data-format="human_readable" data-filename="human_readable-cytogenetic_notation-rearrangements.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-cytogenetic_notation-rearrangements-questions.txt" data-selftest="genetics/topic09/downloads/selftest-cytogenetic_notation-rearrangements.html">
+</div><div class="qti-selftest" data-bbq="bbq-cytogenetic_notation-rearrangements-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -138,7 +138,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-cytogenetic_notation-sub-band_notation-questions.txt" data-format="human_readable" data-filename="human_readable-cytogenetic_notation-sub-band_notation.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-cytogenetic_notation-sub-band_notation-questions.txt" data-selftest="genetics/topic09/downloads/selftest-cytogenetic_notation-sub-band_notation.html">
+</div><div class="qti-selftest" data-bbq="bbq-cytogenetic_notation-sub-band_notation-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -153,7 +153,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-deletion_mutant_random-04_genes-MC-questions.txt" data-format="human_readable" data-filename="human_readable-deletion_mutant_random-04_genes-MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-deletion_mutant_random-04_genes-MC-questions.txt" data-selftest="genetics/topic09/downloads/selftest-deletion_mutant_random-04_genes-MC.html">
+</div><div class="qti-selftest" data-bbq="bbq-deletion_mutant_random-04_genes-MC-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -168,7 +168,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-deletion_mutant_random-05_genes-MC-questions.txt" data-format="human_readable" data-filename="human_readable-deletion_mutant_random-05_genes-MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-deletion_mutant_random-05_genes-MC-questions.txt" data-selftest="genetics/topic09/downloads/selftest-deletion_mutant_random-05_genes-MC.html">
+</div><div class="qti-selftest" data-bbq="bbq-deletion_mutant_random-05_genes-MC-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -183,7 +183,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-deletion_mutant_random-06_genes-MC-questions.txt" data-format="human_readable" data-filename="human_readable-deletion_mutant_random-06_genes-MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-deletion_mutant_random-06_genes-MC-questions.txt" data-selftest="genetics/topic09/downloads/selftest-deletion_mutant_random-06_genes-MC.html">
+</div><div class="qti-selftest" data-bbq="bbq-deletion_mutant_random-06_genes-MC-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -198,7 +198,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-deletion_mutant_words-04_genes-MC-questions.txt" data-format="human_readable" data-filename="human_readable-deletion_mutant_words-04_genes-MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-deletion_mutant_words-04_genes-MC-questions.txt" data-selftest="genetics/topic09/downloads/selftest-deletion_mutant_words-04_genes-MC.html">
+</div><div class="qti-selftest" data-bbq="bbq-deletion_mutant_words-04_genes-MC-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -213,7 +213,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-deletion_mutant_words-05_genes-MC-questions.txt" data-format="human_readable" data-filename="human_readable-deletion_mutant_words-05_genes-MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-deletion_mutant_words-05_genes-MC-questions.txt" data-selftest="genetics/topic09/downloads/selftest-deletion_mutant_words-05_genes-MC.html">
+</div><div class="qti-selftest" data-bbq="bbq-deletion_mutant_words-05_genes-MC-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -228,7 +228,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-deletion_mutant_words-06_genes-MC-questions.txt" data-format="human_readable" data-filename="human_readable-deletion_mutant_words-06_genes-MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-deletion_mutant_words-06_genes-MC-questions.txt" data-selftest="genetics/topic09/downloads/selftest-deletion_mutant_words-06_genes-MC.html">
+</div><div class="qti-selftest" data-bbq="bbq-deletion_mutant_words-06_genes-MC-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -243,7 +243,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-letter_translocation_problem_color-questions.txt" data-format="human_readable" data-filename="human_readable-letter_translocation_problem_color.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-letter_translocation_problem_color-questions.txt" data-selftest="genetics/topic09/downloads/selftest-letter_translocation_problem_color.html">
+</div><div class="qti-selftest" data-bbq="bbq-letter_translocation_problem_color-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -258,7 +258,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-polyploid-gametes-questions.txt" data-format="human_readable" data-filename="human_readable-polyploid-gametes.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-polyploid-gametes-questions.txt" data-selftest="genetics/topic09/downloads/selftest-polyploid-gametes.html">
+</div><div class="qti-selftest" data-bbq="bbq-polyploid-gametes-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -273,7 +273,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-polyploid-monoploid_v_haploid-questions.txt" data-format="human_readable" data-filename="human_readable-polyploid-monoploid_v_haploid.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-polyploid-monoploid_v_haploid-questions.txt" data-selftest="genetics/topic09/downloads/selftest-polyploid-monoploid_v_haploid.html">
+</div><div class="qti-selftest" data-bbq="bbq-polyploid-monoploid_v_haploid-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -288,7 +288,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-robertsonian-questions.txt" data-format="human_readable" data-filename="human_readable-robertsonian.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-robertsonian-questions.txt" data-selftest="genetics/topic09/downloads/selftest-robertsonian.html">
+</div><div class="qti-selftest" data-bbq="bbq-robertsonian-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -303,7 +303,7 @@ Students interpret karyotypes, identify aneuploid conditions, classify chromosom
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-translocation_meiosis_table-questions.txt" data-format="human_readable" data-filename="human_readable-translocation_meiosis_table.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-translocation_meiosis_table-questions.txt" data-selftest="genetics/topic09/downloads/selftest-translocation_meiosis_table.html">
+</div><div class="qti-selftest" data-bbq="bbq-translocation_meiosis_table-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

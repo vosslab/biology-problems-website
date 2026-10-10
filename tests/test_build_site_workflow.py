@@ -14,9 +14,8 @@ from bioproblems_site.build_contracts import BuildScope, TaskBuildResult, TopicR
 
 
 #============================================
-@pytest.mark.parametrize("mode", ["selftests", "indexes"])
 def test_artifact_only_build_uses_existing_sources_and_selected_topics(
-	monkeypatch: pytest.MonkeyPatch, tmp_path: Path, mode: str,
+	monkeypatch: pytest.MonkeyPatch, tmp_path: Path,
 ) -> None:
 	"""Standalone rebuilds force only their selected artifacts without BBQ or exports."""
 	topics = (
@@ -36,31 +35,18 @@ def test_artifact_only_build_uses_existing_sources_and_selected_topics(
 
 	def render(topic: TopicRef, scope: BuildScope, **kwargs: object) -> set[Path]:
 		events.append((scope.mode, topic.topic))
-		return {tmp_path / topic.topic / ("selftest.html" if mode == "selftests" else "index.md")}
+		return {tmp_path / topic.topic / "index.md"}
 
 	def finalize(scope: BuildScope, selected: set[TopicRef], progress: object) -> set[Path]:
 		events.append(("finalize", scope.mode))
 		assert selected == {TopicRef("genetics", "topic01")}
 		return {tmp_path / "manifest.json"}
 
-	if mode == "selftests":
-		monkeypatch.setattr(build_stages, "run_selftests", render)
-		monkeypatch.setattr(build_stages, "run_selftest_manifest", finalize)
-		monkeypatch.setattr(
-			build_stages, "run_topic_page", lambda *args: pytest.fail("Selftests cannot write pages"),
-		)
-		monkeypatch.setattr(
-			build_stages, "run_subject_indexes", lambda *args: pytest.fail("Selftests cannot index"),
-		)
-	else:
-		monkeypatch.setattr(build_stages, "run_topic_page", render)
-		monkeypatch.setattr(build_stages, "run_subject_indexes", finalize)
-		monkeypatch.setattr(
-			build_stages, "run_selftests", lambda *args: pytest.fail("Indexes cannot build selftests"),
-		)
-	scope = BuildScope(mode=mode, subject="genetics", topic="topic01")
+	monkeypatch.setattr(build_stages, "run_topic_page", render)
+	monkeypatch.setattr(build_stages, "run_subject_indexes", finalize)
+	scope = BuildScope(mode="indexes", subject="genetics", topic="topic01")
 	report = build_coordinator.build_site(scope)
-	assert set(events) == {(mode, "topic01"), ("finalize", mode)}
+	assert set(events) == {("indexes", "topic01"), ("finalize", "indexes")}
 	assert report.changes.selected_topics == {TopicRef("genetics", "topic01")}
 
 
@@ -261,11 +247,11 @@ def test_dry_run_reports_canonical_subject_qualified_topic(
 
 
 #============================================
-def test_csv_row_finishes_row_artifacts_before_next_generator_and_page_runs_once(
+def test_csv_rows_finish_before_each_topic_page_runs_once(
 	monkeypatch: pytest.MonkeyPatch,
 	tmp_path: Path,
 ) -> None:
-	"""Row outputs precede the next generator; each aggregate page renders once at the end."""
+	"""Generators finish in row order; each aggregate page renders once at the end."""
 	tasks_dir = tmp_path / "task_files"
 	tasks_dir.mkdir()
 	(tasks_dir / "tasks.csv").write_text(
@@ -320,20 +306,8 @@ def test_csv_row_finishes_row_artifacts_before_next_generator_and_page_runs_once
 		return True
 
 	monkeypatch.setattr(bbq_workflow.bbq_runner, "run_task", run_task)
-	monkeypatch.setattr(build_stages, "selftests_need_run", lambda *args: True)
 	monkeypatch.setattr(build_stages, "topic_page_needs_run", lambda *args: True)
 
-	def record_selftests(
-		topic: TopicRef,
-		scope: BuildScope,
-		sources: set[Path],
-	) -> set[Path]:
-		events.append(f"selftest {topic.topic} ({len(sources)})")
-		return set()
-
-	monkeypatch.setattr(
-		build_stages, "run_selftests", record_selftests,
-	)
 	monkeypatch.setattr(
 		build_stages, "run_topic_page",
 		lambda topic, scope: events.append(f"page {topic.topic}") or set(),
@@ -345,11 +319,8 @@ def test_csv_row_finishes_row_artifacts_before_next_generator_and_page_runs_once
 	assert events == [
 		"bbq match_generator",
 		"bbq mc_generator",
-		"selftest topic01 (2)",
 		"bbq additional_generator",
-		"selftest topic01 (1)",
 		"bbq next_generator",
-		"selftest topic02 (1)",
 		"page topic01",
 		"page topic02",
 	]
@@ -390,13 +361,7 @@ def test_failed_csv_row_stops_before_downstream_and_later_generators(
 	monkeypatch.setattr(bbq_workflow.bbq_config, "load_bbq_config", lambda path: {})
 	monkeypatch.setattr(bbq_workflow.bbq_config, "check_pythonpath", lambda settings: (True, ""))
 	monkeypatch.setattr(bbq_workflow.bbq_config, "build_pythonpath", lambda settings: "")
-	monkeypatch.setattr(build_stages, "selftests_need_run", lambda *args: True)
 	monkeypatch.setattr(build_stages, "topic_page_needs_run", lambda *args: True)
-	monkeypatch.setattr(
-		build_stages,
-		"run_selftests",
-		lambda topic, scope, sources: events.append(f"selftest {topic.topic}") or set(),
-	)
 	monkeypatch.setattr(
 		build_stages,
 		"run_topic_page",
@@ -438,11 +403,10 @@ def test_limited_full_build_does_not_expand_topic_scope(
 		"iter_task_results",
 		lambda scope: iter([TaskBuildResult(topic_ref, needs_run=True)]),
 	)
-	monkeypatch.setattr(build_stages, "selftests_need_run", lambda *args: True)
-	monkeypatch.setattr(build_stages, "topic_page_needs_run", lambda topic, scope, result: False)
+	monkeypatch.setattr(build_stages, "topic_page_needs_run", lambda topic, scope, result: True)
 	monkeypatch.setattr(
-		build_stages, "run_selftests",
-		lambda topic, scope, sources: selected_topics.append(topic) or set(),
+		build_stages, "run_topic_page",
+		lambda topic, scope: selected_topics.append(topic) or set(),
 	)
 	monkeypatch.setattr(build_stages, "run_subject_indexes", lambda scope, selected=None: set())
 	build_coordinator.build_site(BuildScope(full=True, limit=1, subject="genetics"))
@@ -469,7 +433,6 @@ def test_full_topic_build_stays_within_selected_topic(
 	)
 	monkeypatch.setattr(build_coordinator.bbq_workflow, "iter_task_results", lambda scope: iter([]))
 	monkeypatch.setattr(build_stages, "topic_sources", lambda topic: set())
-	monkeypatch.setattr(build_stages, "selftests_need_run", lambda *args: False)
 	monkeypatch.setattr(build_stages, "topic_page_needs_run", lambda *args: True)
 	monkeypatch.setattr(
 		build_stages,

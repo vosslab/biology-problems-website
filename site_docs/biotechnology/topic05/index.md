@@ -13,7 +13,7 @@ Students assess gene therapy, viral vectors, genome editing (ZFNs, TALENs, CRISP
 <a class="md-button custom-button webwork_pgml" href="downloads/gene_therapy_v_edit-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-gene_therapy_v_edit-questions.txt" data-selftest="biotechnology/topic05/downloads/selftest-MATCH-gene_therapy_v_edit.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-gene_therapy_v_edit-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -29,7 +29,7 @@ Students assess gene therapy, viral vectors, genome editing (ZFNs, TALENs, CRISP
 <a class="md-button custom-button webwork_pgml" href="downloads/stem_cell_potency-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-stem_cell_potency-questions.txt" data-selftest="biotechnology/topic05/downloads/selftest-MATCH-stem_cell_potency.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-stem_cell_potency-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -45,7 +45,7 @@ Students assess gene therapy, viral vectors, genome editing (ZFNs, TALENs, CRISP
 <a class="md-button custom-button webwork_pgml" href="downloads/gene_therapy_v_edit-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-gene_therapy_v_edit-questions.txt" data-selftest="biotechnology/topic05/downloads/selftest-WOMC-gene_therapy_v_edit.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-gene_therapy_v_edit-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -61,7 +61,7 @@ Students assess gene therapy, viral vectors, genome editing (ZFNs, TALENs, CRISP
 <a class="md-button custom-button webwork_pgml" href="downloads/stem_cell_potency-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-stem_cell_potency-questions.txt" data-selftest="biotechnology/topic05/downloads/selftest-WOMC-stem_cell_potency.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-stem_cell_potency-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

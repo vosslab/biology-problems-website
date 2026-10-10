@@ -14,7 +14,7 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1-questions.txt" data-format="human_readable" data-filename="human_readable-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1-questions.txt" data-selftest="genetics/topic11/downloads/selftest-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1.html">
+</div><div class="qti-selftest" data-bbq="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_1-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -29,7 +29,7 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2-questions.txt" data-format="human_readable" data-filename="human_readable-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2-questions.txt" data-selftest="genetics/topic11/downloads/selftest-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2.html">
+</div><div class="qti-selftest" data-bbq="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_2-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -44,7 +44,7 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3-questions.txt" data-format="human_readable" data-filename="human_readable-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3-questions.txt" data-selftest="genetics/topic11/downloads/selftest-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3.html">
+</div><div class="qti-selftest" data-bbq="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_3-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -59,7 +59,7 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4-questions.txt" data-format="human_readable" data-filename="human_readable-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4-questions.txt" data-selftest="genetics/topic11/downloads/selftest-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4.html">
+</div><div class="qti-selftest" data-bbq="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_4-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -74,7 +74,7 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5-questions.txt" data-format="human_readable" data-filename="human_readable-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5-questions.txt" data-selftest="genetics/topic11/downloads/selftest-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5.html">
+</div><div class="qti-selftest" data-bbq="bbq-gene_tree_choice_plus-MC-with_hint-TABLE_mode-LEVEL_5-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -89,7 +89,7 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level-questions.txt" data-format="human_readable" data-filename="human_readable-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level-questions.txt" data-selftest="genetics/topic11/downloads/selftest-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level.html">
+</div><div class="qti-selftest" data-bbq="bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-EASY_level-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -104,7 +104,7 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level-questions.txt" data-format="human_readable" data-filename="human_readable-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level-questions.txt" data-selftest="genetics/topic11/downloads/selftest-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level.html">
+</div><div class="qti-selftest" data-bbq="bbq-gene_tree_matches_plus-MC-with_hint-DIFFERENT_mode-MEDIUM_level-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -119,7 +119,7 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level-questions.txt" data-format="human_readable" data-filename="human_readable-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level-questions.txt" data-selftest="genetics/topic11/downloads/selftest-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level.html">
+</div><div class="qti-selftest" data-bbq="bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-EASY_level-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -134,7 +134,7 @@ Students construct and compare phylogenetic trees, interpret evolutionary distan
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level-questions.txt" data-format="human_readable" data-filename="human_readable-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level-questions.txt" data-selftest="genetics/topic11/downloads/selftest-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level.html">
+</div><div class="qti-selftest" data-bbq="bbq-gene_tree_matches_plus-MC-with_hint-SAME_mode-MEDIUM_level-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

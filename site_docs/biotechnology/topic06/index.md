@@ -13,7 +13,7 @@ Students review FDA history, clinical trial phases, the Asilomar Conference, the
 <a class="md-button custom-button webwork_pgml" href="downloads/clinical_trial_phases-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-clinical_trial_phases-questions.txt" data-selftest="biotechnology/topic06/downloads/selftest-MATCH-clinical_trial_phases.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-clinical_trial_phases-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -29,7 +29,7 @@ Students review FDA history, clinical trial phases, the Asilomar Conference, the
 <a class="md-button custom-button webwork_pgml" href="downloads/intellectual_property-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-intellectual_property-questions.txt" data-selftest="biotechnology/topic06/downloads/selftest-MATCH-intellectual_property.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-intellectual_property-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -45,7 +45,7 @@ Students review FDA history, clinical trial phases, the Asilomar Conference, the
 <a class="md-button custom-button webwork_pgml" href="downloads/transgenic_crop_regulators-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-transgenic_crop_regulators-questions.txt" data-selftest="biotechnology/topic06/downloads/selftest-MATCH-transgenic_crop_regulators.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-transgenic_crop_regulators-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -61,7 +61,7 @@ Students review FDA history, clinical trial phases, the Asilomar Conference, the
 <a class="md-button custom-button webwork_pgml" href="downloads/inventions_v_discoveries.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-inventions_v_discoveries-questions.txt" data-selftest="biotechnology/topic06/downloads/selftest-TFMS-inventions_v_discoveries.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-inventions_v_discoveries-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -77,7 +77,7 @@ Students review FDA history, clinical trial phases, the Asilomar Conference, the
 <a class="md-button custom-button webwork_pgml" href="downloads/clinical_trial_phases-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-clinical_trial_phases-questions.txt" data-selftest="biotechnology/topic06/downloads/selftest-WOMC-clinical_trial_phases.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-clinical_trial_phases-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -93,7 +93,7 @@ Students review FDA history, clinical trial phases, the Asilomar Conference, the
 <a class="md-button custom-button webwork_pgml" href="downloads/intellectual_property-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-intellectual_property-questions.txt" data-selftest="biotechnology/topic06/downloads/selftest-WOMC-intellectual_property.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-intellectual_property-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -109,7 +109,7 @@ Students review FDA history, clinical trial phases, the Asilomar Conference, the
 <a class="md-button custom-button webwork_pgml" href="downloads/transgenic_crop_regulators-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-transgenic_crop_regulators-questions.txt" data-selftest="biotechnology/topic06/downloads/selftest-WOMC-transgenic_crop_regulators.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-transgenic_crop_regulators-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

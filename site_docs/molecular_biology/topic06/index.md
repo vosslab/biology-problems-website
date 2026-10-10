@@ -13,7 +13,7 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 <a class="md-button custom-button webwork_pgml" href="downloads/dna_replication_enzymes-biol_301-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-dna_replication_enzymes-biol_301-questions.txt" data-selftest="molecular_biology/topic06/downloads/selftest-MATCH-dna_replication_enzymes-biol_301.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-dna_replication_enzymes-biol_301-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -29,7 +29,7 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 <a class="md-button custom-button webwork_pgml" href="downloads/dna_replication_enzymes-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-dna_replication_enzymes-questions.txt" data-selftest="molecular_biology/topic06/downloads/selftest-MATCH-dna_replication_enzymes.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-dna_replication_enzymes-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -45,7 +45,7 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 <a class="md-button custom-button webwork_pgml" href="downloads/dna_replication-biol_301.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-dna_replication-biol_301-questions.txt" data-selftest="molecular_biology/topic06/downloads/selftest-TFMS-dna_replication-biol_301.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-dna_replication-biol_301-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -61,7 +61,7 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 <a class="md-button custom-button webwork_pgml" href="downloads/dna_replication.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-dna_replication-questions.txt" data-selftest="molecular_biology/topic06/downloads/selftest-TFMS-dna_replication.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-dna_replication-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -77,7 +77,7 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 <a class="md-button custom-button webwork_pgml" href="downloads/leading_v_lagging_strand.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-leading_v_lagging_strand-questions.txt" data-selftest="molecular_biology/topic06/downloads/selftest-TFMS-leading_v_lagging_strand.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-leading_v_lagging_strand-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -93,7 +93,7 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 <a class="md-button custom-button webwork_pgml" href="downloads/proofreading.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-proofreading-questions.txt" data-selftest="molecular_biology/topic06/downloads/selftest-TFMS-proofreading.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-proofreading-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -109,7 +109,7 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 <a class="md-button custom-button webwork_pgml" href="downloads/dna_replication_enzymes-biol_301-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-dna_replication_enzymes-biol_301-questions.txt" data-selftest="molecular_biology/topic06/downloads/selftest-WOMC-dna_replication_enzymes-biol_301.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-dna_replication_enzymes-biol_301-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -125,7 +125,7 @@ Replication machinery, origins, forks, and fidelity mechanisms.
 <a class="md-button custom-button webwork_pgml" href="downloads/dna_replication_enzymes-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-dna_replication_enzymes-questions.txt" data-selftest="molecular_biology/topic06/downloads/selftest-WOMC-dna_replication_enzymes.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-dna_replication_enzymes-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

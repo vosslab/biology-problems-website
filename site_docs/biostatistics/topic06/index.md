@@ -13,7 +13,7 @@ Students formulate and critique null and alternative hypotheses, choose appropri
 <a class="md-button custom-button webwork_pgml" href="downloads/hypothesis_testing_terms-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-hypothesis_testing_terms-questions.txt" data-selftest="biostatistics/topic06/downloads/selftest-MATCH-hypothesis_testing_terms.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-hypothesis_testing_terms-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -29,7 +29,7 @@ Students formulate and critique null and alternative hypotheses, choose appropri
 <a class="md-button custom-button webwork_pgml" href="downloads/selecting_statistical_tests-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-selecting_statistical_tests-questions.txt" data-selftest="biostatistics/topic06/downloads/selftest-MATCH-selecting_statistical_tests.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-selecting_statistical_tests-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -45,7 +45,7 @@ Students formulate and critique null and alternative hypotheses, choose appropri
 <a class="md-button custom-button webwork_pgml" href="downloads/hypothesis_testing_decisions.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-hypothesis_testing_decisions-questions.txt" data-selftest="biostatistics/topic06/downloads/selftest-TFMS-hypothesis_testing_decisions.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-hypothesis_testing_decisions-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -61,7 +61,7 @@ Students formulate and critique null and alternative hypotheses, choose appropri
 <a class="md-button custom-button webwork_pgml" href="downloads/hypothesis_testing_terms-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-hypothesis_testing_terms-questions.txt" data-selftest="biostatistics/topic06/downloads/selftest-WOMC-hypothesis_testing_terms.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-hypothesis_testing_terms-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -77,7 +77,7 @@ Students formulate and critique null and alternative hypotheses, choose appropri
 <a class="md-button custom-button webwork_pgml" href="downloads/selecting_statistical_tests-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-selecting_statistical_tests-questions.txt" data-selftest="biostatistics/topic06/downloads/selftest-WOMC-selecting_statistical_tests.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-selecting_statistical_tests-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -92,7 +92,7 @@ Students formulate and critique null and alternative hypotheses, choose appropri
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-hypothesis_statement_errors-hypotheses_partner-questions.txt" data-format="human_readable" data-filename="human_readable-hypothesis_statement_errors-hypotheses_partner.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-hypothesis_statement_errors-hypotheses_partner-questions.txt" data-selftest="biostatistics/topic06/downloads/selftest-hypothesis_statement_errors-hypotheses_partner.html">
+</div><div class="qti-selftest" data-bbq="bbq-hypothesis_statement_errors-hypotheses_partner-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -107,7 +107,7 @@ Students formulate and critique null and alternative hypotheses, choose appropri
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-null_and_alternative_hypotheses-pair-questions.txt" data-format="human_readable" data-filename="human_readable-null_and_alternative_hypotheses-pair.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-null_and_alternative_hypotheses-pair-questions.txt" data-selftest="biostatistics/topic06/downloads/selftest-null_and_alternative_hypotheses-pair.html">
+</div><div class="qti-selftest" data-bbq="bbq-null_and_alternative_hypotheses-pair-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

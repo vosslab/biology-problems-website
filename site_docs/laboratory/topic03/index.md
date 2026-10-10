@@ -12,7 +12,7 @@ Students perform single-step dilution calculations using c1V1 = c2V2, determine 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-dilution_factor_aliquot_numeric-questions.txt" data-format="human_readable" data-filename="human_readable-dilution_factor_aliquot_numeric.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-dilution_factor_aliquot_numeric-questions.txt" data-selftest="laboratory/topic03/downloads/selftest-dilution_factor_aliquot_numeric.html">
+</div><div class="qti-selftest" data-bbq="bbq-dilution_factor_aliquot_numeric-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -27,7 +27,7 @@ Students perform single-step dilution calculations using c1V1 = c2V2, determine 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-dilution_factor_calc_numeric-questions.txt" data-format="human_readable" data-filename="human_readable-dilution_factor_calc_numeric.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-dilution_factor_calc_numeric-questions.txt" data-selftest="laboratory/topic03/downloads/selftest-dilution_factor_calc_numeric.html">
+</div><div class="qti-selftest" data-bbq="bbq-dilution_factor_calc_numeric-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -42,7 +42,7 @@ Students perform single-step dilution calculations using c1V1 = c2V2, determine 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-dilution_factor_diluent_numeric-questions.txt" data-format="human_readable" data-filename="human_readable-dilution_factor_diluent_numeric.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-dilution_factor_diluent_numeric-questions.txt" data-selftest="laboratory/topic03/downloads/selftest-dilution_factor_diluent_numeric.html">
+</div><div class="qti-selftest" data-bbq="bbq-dilution_factor_diluent_numeric-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -57,7 +57,7 @@ Students perform single-step dilution calculations using c1V1 = c2V2, determine 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-dilution_factor_mc-questions.txt" data-format="human_readable" data-filename="human_readable-dilution_factor_mc.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-dilution_factor_mc-questions.txt" data-selftest="laboratory/topic03/downloads/selftest-dilution_factor_mc.html">
+</div><div class="qti-selftest" data-bbq="bbq-dilution_factor_mc-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -72,7 +72,7 @@ Students perform single-step dilution calculations using c1V1 = c2V2, determine 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-percent_dilution_aliquot_numeric-questions.txt" data-format="human_readable" data-filename="human_readable-percent_dilution_aliquot_numeric.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-percent_dilution_aliquot_numeric-questions.txt" data-selftest="laboratory/topic03/downloads/selftest-percent_dilution_aliquot_numeric.html">
+</div><div class="qti-selftest" data-bbq="bbq-percent_dilution_aliquot_numeric-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

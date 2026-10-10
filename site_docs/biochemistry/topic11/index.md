@@ -15,7 +15,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 <a class="md-button custom-button webwork_pgml" href="downloads/dna_structure-biol_351.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-dna_structure-biol_351-questions.txt" data-selftest="biochemistry/topic11/downloads/selftest-TFMS-dna_structure-biol_351.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-dna_structure-biol_351-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -31,7 +31,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 <a class="md-button custom-button webwork_pgml" href="downloads/dna_structure.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-dna_structure-questions.txt" data-selftest="biochemistry/topic11/downloads/selftest-TFMS-dna_structure.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-dna_structure-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -47,7 +47,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 <a class="md-button custom-button webwork_pgml" href="downloads/franklin_diffraction.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-franklin_diffraction-questions.txt" data-selftest="biochemistry/topic11/downloads/selftest-TFMS-franklin_diffraction.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-franklin_diffraction-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -63,7 +63,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 <a class="md-button custom-button webwork_pgml" href="downloads/g-u_wobble.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-g-u_wobble-questions.txt" data-selftest="biochemistry/topic11/downloads/selftest-TFMS-g-u_wobble.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-g-u_wobble-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -79,7 +79,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 <a class="md-button custom-button webwork_pgml" href="downloads/melting_Tm_type_1.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-melting_Tm_type_1-questions.txt" data-selftest="biochemistry/topic11/downloads/selftest-TFMS-melting_Tm_type_1.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-melting_Tm_type_1-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -95,7 +95,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 <a class="md-button custom-button webwork_pgml" href="downloads/melting_Tm_type_2a.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-melting_Tm_type_2a-questions.txt" data-selftest="biochemistry/topic11/downloads/selftest-TFMS-melting_Tm_type_2a.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-melting_Tm_type_2a-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -111,7 +111,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 <a class="md-button custom-button webwork_pgml" href="downloads/melting_Tm_type_2b.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-melting_Tm_type_2b-questions.txt" data-selftest="biochemistry/topic11/downloads/selftest-TFMS-melting_Tm_type_2b.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-melting_Tm_type_2b-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -127,7 +127,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 <a class="md-button custom-button webwork_pgml" href="downloads/nucleotide_components.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-nucleotide_components-questions.txt" data-selftest="biochemistry/topic11/downloads/selftest-TFMS-nucleotide_components.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-nucleotide_components-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -143,7 +143,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 <a class="md-button custom-button webwork_pgml" href="downloads/rna_v_dna-biol_301.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-rna_v_dna-biol_301-questions.txt" data-selftest="biochemistry/topic11/downloads/selftest-TFMS-rna_v_dna-biol_301.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-rna_v_dna-biol_301-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -159,7 +159,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 <a class="md-button custom-button webwork_pgml" href="downloads/rna_v_dna.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-rna_v_dna-questions.txt" data-selftest="biochemistry/topic11/downloads/selftest-TFMS-rna_v_dna.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-rna_v_dna-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -174,7 +174,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-chargaff_dna_percent-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-chargaff_dna_percent-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-chargaff_dna_percent-5_choices-questions.txt" data-selftest="biochemistry/topic11/downloads/selftest-chargaff_dna_percent-5_choices.html">
+</div><div class="qti-selftest" data-bbq="bbq-chargaff_dna_percent-5_choices-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -189,7 +189,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-complementary_sequences-mc-directionless-questions.txt" data-format="human_readable" data-filename="human_readable-complementary_sequences-mc-directionless.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-complementary_sequences-mc-directionless-questions.txt" data-selftest="biochemistry/topic11/downloads/selftest-complementary_sequences-mc-directionless.html">
+</div><div class="qti-selftest" data-bbq="bbq-complementary_sequences-mc-directionless-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -204,7 +204,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-dna_melting_temp-len_12-questions.txt" data-format="human_readable" data-filename="human_readable-dna_melting_temp-len_12.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-dna_melting_temp-len_12-questions.txt" data-selftest="biochemistry/topic11/downloads/selftest-dna_melting_temp-len_12.html">
+</div><div class="qti-selftest" data-bbq="bbq-dna_melting_temp-len_12-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -219,7 +219,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-match_purine_structures-3_choices-questions.txt" data-format="human_readable" data-filename="human_readable-match_purine_structures-3_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-match_purine_structures-3_choices-questions.txt" data-selftest="biochemistry/topic11/downloads/selftest-match_purine_structures-3_choices.html">
+</div><div class="qti-selftest" data-bbq="bbq-match_purine_structures-3_choices-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -234,7 +234,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-match_pyrimidine_structures-4_choices-questions.txt" data-format="human_readable" data-filename="human_readable-match_pyrimidine_structures-4_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-match_pyrimidine_structures-4_choices-questions.txt" data-selftest="biochemistry/topic11/downloads/selftest-match_pyrimidine_structures-4_choices.html">
+</div><div class="qti-selftest" data-bbq="bbq-match_pyrimidine_structures-4_choices-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -249,7 +249,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-palindrome_sequence_match-questions.txt" data-format="human_readable" data-filename="human_readable-palindrome_sequence_match.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-palindrome_sequence_match-questions.txt" data-selftest="biochemistry/topic11/downloads/selftest-palindrome_sequence_match.html">
+</div><div class="qti-selftest" data-bbq="bbq-palindrome_sequence_match-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -264,7 +264,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-rna_transcribe-FIB-directionless-len_9-questions.txt" data-format="human_readable" data-filename="human_readable-rna_transcribe-FIB-directionless-len_9.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-rna_transcribe-FIB-directionless-len_9-questions.txt" data-selftest="biochemistry/topic11/downloads/selftest-rna_transcribe-FIB-directionless-len_9.html">
+</div><div class="qti-selftest" data-bbq="bbq-rna_transcribe-FIB-directionless-len_9-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -279,7 +279,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-rna_transcribe-FIB-prime-len_9-questions.txt" data-format="human_readable" data-filename="human_readable-rna_transcribe-FIB-prime-len_9.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-rna_transcribe-FIB-prime-len_9-questions.txt" data-selftest="biochemistry/topic11/downloads/selftest-rna_transcribe-FIB-prime-len_9.html">
+</div><div class="qti-selftest" data-bbq="bbq-rna_transcribe-FIB-prime-len_9-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -294,7 +294,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-rna_transcribe-MC-prime-len_9-questions.txt" data-format="human_readable" data-filename="human_readable-rna_transcribe-MC-prime-len_9.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-rna_transcribe-MC-prime-len_9-questions.txt" data-selftest="biochemistry/topic11/downloads/selftest-rna_transcribe-MC-prime-len_9.html">
+</div><div class="qti-selftest" data-bbq="bbq-rna_transcribe-MC-prime-len_9-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -309,7 +309,7 @@ Students identify nucleotide components, compare DNA and RNA chemical structure,
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-translate_genetic_code-10_aa-questions.txt" data-format="human_readable" data-filename="human_readable-translate_genetic_code-10_aa.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-translate_genetic_code-10_aa-questions.txt" data-selftest="biochemistry/topic11/downloads/selftest-translate_genetic_code-10_aa.html">
+</div><div class="qti-selftest" data-bbq="bbq-translate_genetic_code-10_aa-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

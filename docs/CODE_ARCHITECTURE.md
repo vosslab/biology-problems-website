@@ -10,17 +10,16 @@ CLI exposes one dependency-aware content build workflow.
 
 - [build_site.py](../build_site.py): short public argument parser and build entrypoint.
 - [bioproblems_site/build_coordinator.py](../bioproblems_site/build_coordinator.py):
-  ordered BBQ, native self-test, topic-page, and index/navigation orchestration
+  ordered BBQ, topic-page, and index/navigation orchestration
   with stage timing summaries.
 - [bioproblems_site/build_stages.py](../bioproblems_site/build_stages.py): local
   stale checks and output-owned stage entrypoints.
 - [bioproblems_site/file_write.py](../bioproblems_site/file_write.py): shared
   direct text-file writing for generated site files.
 - [bioproblems_site/git_paths.py](../bioproblems_site/git_paths.py): repository
-  discovery and selection of BPW's Git-tracked native converter by host OS and CPU.
-  Build-time conversion has no QPM-source or Cargo dependency. The explicit
-  [devel/vendor_qti_wasm.py](../devel/vendor_qti_wasm.py) refresh workflow builds and
-  copies the native executable and records provenance alongside the WASM workflow.
+  discovery and relative display paths.
+- [devel/vendor_qti_wasm.py](../devel/vendor_qti_wasm.py): builds QPM's browser package,
+  copies the complete distribution, and records consumed-file hashes.
 - [bioproblems_site/mkdocs_styles.py](../bioproblems_site/mkdocs_styles.py): MkDocs
   post-build hook using `tinycss2` to scope copied website styles outside mounted
   QPM content. Root-only rules and asset declarations remain global; see
@@ -65,7 +64,7 @@ versioning, changelog, release, graphify, and cleanup workflows.
 The coordinator loads the selected task CSVs from [task_files/](../task_files/),
 resolves their canonical subject/topic keys from metadata, and reports `TopicRef`
 changes rather than inferring identity from paths. It completes each selected
-configured CSV row's BBQ generation and native self-tests before advancing to
+configured CSV row's BBQ generation before advancing to
 the next row. Browser controls generate package exports from BBQ source on demand;
 BBQ and PGML remain direct files. Since a topic page summarizes every question file in its folder,
 each affected page is rendered once after the selected rows finish. The coordinator
@@ -86,12 +85,10 @@ basenames, and then writes the self-test manifest.
 
 ## Browser self-test lifecycle
 
-Topic pages contain empty `.qti-selftest` containers rather than embedded
-standalone question HTML. Each container identifies its BBQ bank, stable page
-placement, and standalone self-test artifact with `data-bbq` and
-`data-selftest`. The standalone artifact remains the manifest source; the
-browser uses the BBQ bank and vendored WebAssembly converter to make its active
-question.
+Topic pages contain empty `.qti-selftest` containers identifying their BBQ bank with
+`data-bbq`. The manifest reads these declarations on reachable pages and validates
+each bank in its topic directory. The browser uses the bank and vendored WebAssembly
+converter to make its active question.
 
 [selftest_reroll.js](../site_docs/assets/scripts/selftest_reroll.js) owns the
 whole question lifecycle: it creates the question header, generates the first

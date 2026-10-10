@@ -66,18 +66,6 @@ instead of Ollama.
 Use `-R -l N` to sample N task rows in random order during development.
 Shuffling is opt-in and happens before the limit is applied.
 
-## Rebuild self-tests only
-
-Force-rebuild every self-test HTML file from its existing BBQ source:
-
-```bash
-source source_me.sh && ./build_site.py -H
-```
-
-`-H/--selftests-only` draws fresh self-test questions and refreshes the self-test
-manifest. It leaves index pages and export downloads unchanged and does not run
-question generators or contact the title-generation backend.
-
 ## Rewrite generated indexes
 
 Rewrite all generated topic and subject `index.md` files from existing content:
@@ -89,20 +77,19 @@ source source_me.sh && ./build_site.py -I
 `-I/--indexes-only` also refreshes navigation, the sitemap, the Question Finder
 catalog, and the self-test manifest. Topic pages reuse cached titles and may ask
 the selected title-generation backend for missing titles. It does not regenerate
-BBQ files, self-test HTML, or export downloads. Authored pages such as the home
+BBQ files or export downloads. Authored pages such as the home
 page keep their existing content.
 
-Both modes force their selected outputs without needing `--rebuild`. They honor
+This mode forces its selected outputs without needing `--rebuild`. It honors
 `-S/--subject` and `-T/--topic`, including topic aliases and titles:
 
 ```bash
-source source_me.sh && ./build_site.py -H -S genetics -T genetic_disorders
+source source_me.sh && ./build_site.py -I -S genetics -T genetic_disorders
 source source_me.sh && ./build_site.py -I -S genetics
 source source_me.sh && ./build_site.py -I -n --cli
 ```
 
-Use `-n/--dry-run` to preview without changing files. These modes are mutually
-exclusive and do not accept task-row controls (`--task`, `--limit`, `--shuffle`,
+Use `-n/--dry-run` to preview without changing files. This mode does not accept task-row controls (`--task`, `--limit`, `--shuffle`,
 or `--max-questions`).
 
 ## Key files

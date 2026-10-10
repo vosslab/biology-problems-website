@@ -43,6 +43,33 @@
 
 ### Fixes and Maintenance
 
+- Complete six independent KISS audit passes. Remove the obsolete standalone-HTML
+  Playwright survey tools and `test:survey` entrypoint, fix retired-mode usage text,
+  and correct the updater command example and a function separator. Keep the shared
+  vendored collector's unstaged-deletion failure separate from BPW behavior.
+  All 3,257 tests pass in a temporary current-file checkout. Record findings and
+  validation boundaries in the
+  [KISS audit](active_plans/audits/bpw_flat_html_kiss_audit_2026_10_09.md).
+- Make `devel/vendor_qti_wasm.py` the one-command QPM browser update: install locked
+  npm dependencies, run the canonical Rust/WASM and TypeScript build, then vendor
+  the result. Stop before touching BPW's current package if either command fails.
+  Reuse the existing sibling checkout and `QPM_ROOT` selection without adding modes.
+  Verify a real build and WASM conversion in a temporary destination, plus both
+  failure paths; leave BPW's accepted WASM artifacts unchanged and remove the probes.
+- Retire flat self-test HTML generation and all 482 artifacts. Derive the v2 progress
+  manifest directly from reachable topic declarations and nonempty BBQ banks; preserve
+  all 482 placements, 411 bank identities, topic metadata, and row order. Remove the unused
+  sample CRC, fingerprint, and standalone path fields from the regenerated manifest.
+- Remove native QPM vendoring and conversion stages, the self-test build mode, and related
+  timing UI. Keep WASM self-tests, browser exports, and direct BBQ/PGML downloads unchanged.
+  Compare the old and new manifests before deletion and preserve external reference evidence.
+  Record build, test, and fresh-browser evidence in [BPW_FLAT_HTML_RETIREMENT.md](BPW_FLAT_HTML_RETIREMENT.md).
+- Apply KISS to the cleanup: remove the unused naming wrapper, duplicate naming and
+  filesystem-side-effect tests, migration-only field stripping, redundant sorting,
+  and the speculative symlink gate. Keep the manifest's reachability, identity,
+  invalid-bank, scoped-refresh, and dry-run contracts; document recovery on failure.
+  Treat migration counts and hashes as one-time evidence rather than permanent gates.
+
 - Install the shared `pip_requirements.txt` for GitHub Pages deployment instead
   of a separate incomplete package list;
   this supplies `tinycss2`, required by the CSS-isolation build hook.

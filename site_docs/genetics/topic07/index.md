@@ -15,7 +15,7 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
 <a class="md-button custom-button webwork_pgml" href="downloads/chi-square_terms-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-chi-square_terms-questions.txt" data-selftest="genetics/topic07/downloads/selftest-MATCH-chi-square_terms.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-chi-square_terms-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -31,7 +31,7 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
 <a class="md-button custom-button webwork_pgml" href="downloads/chi-square.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-chi-square-questions.txt" data-selftest="genetics/topic07/downloads/selftest-TFMS-chi-square.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-chi-square-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -47,7 +47,7 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
 <a class="md-button custom-button webwork_pgml" href="downloads/chi-square_terms-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-chi-square_terms-questions.txt" data-selftest="genetics/topic07/downloads/selftest-WOMC-chi-square_terms.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-chi-square_terms-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -62,7 +62,7 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-chi_square_calculated-ACCEPT-questions.txt" data-format="human_readable" data-filename="human_readable-chi_square_calculated-ACCEPT.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-chi_square_calculated-ACCEPT-questions.txt" data-selftest="genetics/topic07/downloads/selftest-chi_square_calculated-ACCEPT.html">
+</div><div class="qti-selftest" data-bbq="bbq-chi_square_calculated-ACCEPT-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -77,7 +77,7 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-chi_square_choices-questions.txt" data-format="human_readable" data-filename="human_readable-chi_square_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-chi_square_choices-questions.txt" data-selftest="genetics/topic07/downloads/selftest-chi_square_choices.html">
+</div><div class="qti-selftest" data-bbq="bbq-chi_square_choices-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -92,7 +92,7 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-chi_square_errors-questions.txt" data-format="human_readable" data-filename="human_readable-chi_square_errors.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-chi_square_errors-questions.txt" data-selftest="genetics/topic07/downloads/selftest-chi_square_errors.html">
+</div><div class="qti-selftest" data-bbq="bbq-chi_square_errors-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -107,7 +107,7 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-chi_square_hardy_weinberg-questions.txt" data-format="human_readable" data-filename="human_readable-chi_square_hardy_weinberg.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-chi_square_hardy_weinberg-questions.txt" data-selftest="genetics/topic07/downloads/selftest-chi_square_hardy_weinberg.html">
+</div><div class="qti-selftest" data-bbq="bbq-chi_square_hardy_weinberg-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -122,7 +122,7 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-chi_square_hypotheses-pair-questions.txt" data-format="human_readable" data-filename="human_readable-chi_square_hypotheses-pair.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-chi_square_hypotheses-pair-questions.txt" data-selftest="genetics/topic07/downloads/selftest-chi_square_hypotheses-pair.html">
+</div><div class="qti-selftest" data-bbq="bbq-chi_square_hypotheses-pair-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -137,7 +137,7 @@ Students perform chi-square tests on genetic cross data to evaluate whether obse
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt" data-format="human_readable" data-filename="human_readable-chi_square_hypotheses_lab_partner-hypotheses_partner.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt" data-selftest="genetics/topic07/downloads/selftest-chi_square_hypotheses_lab_partner-hypotheses_partner.html">
+</div><div class="qti-selftest" data-bbq="bbq-chi_square_hypotheses_lab_partner-hypotheses_partner-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

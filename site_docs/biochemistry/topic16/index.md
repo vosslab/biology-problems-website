@@ -13,7 +13,7 @@ Students trace glucose through glycolysis to pyruvate, calculate net ATP and NAD
 <a class="md-button custom-button webwork_pgml" href="downloads/respiration-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-respiration-questions.txt" data-selftest="biochemistry/topic16/downloads/selftest-MATCH-respiration.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-respiration-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -29,7 +29,7 @@ Students trace glucose through glycolysis to pyruvate, calculate net ATP and NAD
 <a class="md-button custom-button webwork_pgml" href="downloads/respiration-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-respiration-questions.txt" data-selftest="biochemistry/topic16/downloads/selftest-WOMC-respiration.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-respiration-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -42,7 +42,7 @@ Students trace glucose through glycolysis to pyruvate, calculate net ATP and NAD
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-order_glycolysis_molecules-ORD-4_choices-questions.txt" data-format="human_readable" data-filename="human_readable-order_glycolysis_molecules-ORD-4_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-order_glycolysis_molecules-ORD-4_choices-questions.txt" data-selftest="biochemistry/topic16/downloads/selftest-order_glycolysis_molecules-ORD-4_choices.html">
+</div><div class="qti-selftest" data-bbq="bbq-order_glycolysis_molecules-ORD-4_choices-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

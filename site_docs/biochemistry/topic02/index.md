@@ -14,7 +14,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-Henderson-Hasselbalch-equation-questions.txt" data-format="human_readable" data-filename="human_readable-Henderson-Hasselbalch-equation.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-Henderson-Hasselbalch-equation-questions.txt" data-selftest="biochemistry/topic02/downloads/selftest-Henderson-Hasselbalch-equation.html">
+</div><div class="qti-selftest" data-bbq="bbq-Henderson-Hasselbalch-equation-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -29,7 +29,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-Henderson-Hasselbalch-pH_mc-questions.txt" data-format="human_readable" data-filename="human_readable-Henderson-Hasselbalch-pH_mc.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-Henderson-Hasselbalch-pH_mc-questions.txt" data-selftest="biochemistry/topic02/downloads/selftest-Henderson-Hasselbalch-pH_mc.html">
+</div><div class="qti-selftest" data-bbq="bbq-Henderson-Hasselbalch-pH_mc-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -44,7 +44,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-Henderson-Hasselbalch-pH_num-questions.txt" data-format="human_readable" data-filename="human_readable-Henderson-Hasselbalch-pH_num.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-Henderson-Hasselbalch-pH_num-questions.txt" data-selftest="biochemistry/topic02/downloads/selftest-Henderson-Hasselbalch-pH_num.html">
+</div><div class="qti-selftest" data-bbq="bbq-Henderson-Hasselbalch-pH_num-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -59,7 +59,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-Henderson-Hasselbalch-pKa_mc-questions.txt" data-format="human_readable" data-filename="human_readable-Henderson-Hasselbalch-pKa_mc.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-Henderson-Hasselbalch-pKa_mc-questions.txt" data-selftest="biochemistry/topic02/downloads/selftest-Henderson-Hasselbalch-pKa_mc.html">
+</div><div class="qti-selftest" data-bbq="bbq-Henderson-Hasselbalch-pKa_mc-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -74,7 +74,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-Henderson-Hasselbalch-pKa_num-questions.txt" data-format="human_readable" data-filename="human_readable-Henderson-Hasselbalch-pKa_num.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-Henderson-Hasselbalch-pKa_num-questions.txt" data-selftest="biochemistry/topic02/downloads/selftest-Henderson-Hasselbalch-pKa_num.html">
+</div><div class="qti-selftest" data-bbq="bbq-Henderson-Hasselbalch-pKa_num-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -89,7 +89,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-Henderson-Hasselbalch-ratio_mc-questions.txt" data-format="human_readable" data-filename="human_readable-Henderson-Hasselbalch-ratio_mc.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-Henderson-Hasselbalch-ratio_mc-questions.txt" data-selftest="biochemistry/topic02/downloads/selftest-Henderson-Hasselbalch-ratio_mc.html">
+</div><div class="qti-selftest" data-bbq="bbq-Henderson-Hasselbalch-ratio_mc-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -104,7 +104,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-Henderson-Hasselbalch-ratio_num-questions.txt" data-format="human_readable" data-filename="human_readable-Henderson-Hasselbalch-ratio_num.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-Henderson-Hasselbalch-ratio_num-questions.txt" data-selftest="biochemistry/topic02/downloads/selftest-Henderson-Hasselbalch-ratio_num.html">
+</div><div class="qti-selftest" data-bbq="bbq-Henderson-Hasselbalch-ratio_num-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -120,7 +120,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <a class="md-button custom-button webwork_pgml" href="downloads/chemical_group_pka_forms.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-chemical_group_pka_forms-questions.txt" data-selftest="biochemistry/topic02/downloads/selftest-chemical_group_pka_forms.html">
+</div><div class="qti-selftest" data-bbq="bbq-chemical_group_pka_forms-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -136,7 +136,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <a class="md-button custom-button webwork_pgml" href="downloads/functional_groups_bond_types.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-functional_groups_bond_types-questions.txt" data-selftest="biochemistry/topic02/downloads/selftest-functional_groups_bond_types.html">
+</div><div class="qti-selftest" data-bbq="bbq-functional_groups_bond_types-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -152,7 +152,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <a class="md-button custom-button webwork_pgml" href="downloads/optimal_buffering_range.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-optimal_buffering_range-questions.txt" data-selftest="biochemistry/topic02/downloads/selftest-optimal_buffering_range.html">
+</div><div class="qti-selftest" data-bbq="bbq-optimal_buffering_range-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -167,7 +167,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-pKa_buffer_state-2_protons-questions.txt" data-format="human_readable" data-filename="human_readable-pKa_buffer_state-2_protons.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-pKa_buffer_state-2_protons-questions.txt" data-selftest="biochemistry/topic02/downloads/selftest-pKa_buffer_state-2_protons.html">
+</div><div class="qti-selftest" data-bbq="bbq-pKa_buffer_state-2_protons-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -182,7 +182,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-pKa_buffer_state-3_protons-questions.txt" data-format="human_readable" data-filename="human_readable-pKa_buffer_state-3_protons.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-pKa_buffer_state-3_protons-questions.txt" data-selftest="biochemistry/topic02/downloads/selftest-pKa_buffer_state-3_protons.html">
+</div><div class="qti-selftest" data-bbq="bbq-pKa_buffer_state-3_protons-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -197,7 +197,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-pKa_buffer_state-4_protons-questions.txt" data-format="human_readable" data-filename="human_readable-pKa_buffer_state-4_protons.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-pKa_buffer_state-4_protons-questions.txt" data-selftest="biochemistry/topic02/downloads/selftest-pKa_buffer_state-4_protons.html">
+</div><div class="qti-selftest" data-bbq="bbq-pKa_buffer_state-4_protons-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -213,7 +213,7 @@ Students calculate pH from pKa using the Henderson-Hasselbalch equation, predict
 <a class="md-button custom-button webwork_pgml" href="downloads/ph_h_concentration_ratio.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-ph_h_concentration_ratio-questions.txt" data-selftest="biochemistry/topic02/downloads/selftest-ph_h_concentration_ratio.html">
+</div><div class="qti-selftest" data-bbq="bbq-ph_h_concentration_ratio-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

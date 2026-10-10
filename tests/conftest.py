@@ -49,10 +49,7 @@ if REPO_ROOT not in sys.path:
 #       "ascii_compliance": ["human_readable-*.html"],
 #       "pyflakes_code_lint": ["devel/scratch_*.py"],
 #   }
-REPO_HYGIENE_FILTERS = {
-	# Native machine-code executables have executable bits but no script shebang.
-	"shebangs": ["vendor/qpm-native/*/bbq-converter"],
-}
+REPO_HYGIENE_FILTERS = {}
 
 # === OPTIONAL_HELPERS_MENU ===
 # See meta/docs/PROPAGATION_RULES.md for the managed-block propagation contract.

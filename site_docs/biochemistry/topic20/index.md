@@ -12,7 +12,7 @@ Students trace light energy capture through Photosystem II and Photosystem I, ex
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-photosynthetic_light_pigments-questions.txt" data-format="human_readable" data-filename="human_readable-photosynthetic_light_pigments.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-photosynthetic_light_pigments-questions.txt" data-selftest="biochemistry/topic20/downloads/selftest-photosynthetic_light_pigments.html">
+</div><div class="qti-selftest" data-bbq="bbq-photosynthetic_light_pigments-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

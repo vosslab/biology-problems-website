@@ -15,7 +15,7 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 <a class="md-button custom-button webwork_pgml" href="downloads/senses_receptor_types_by_modality-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-senses_receptor_types_by_modality-questions.txt" data-selftest="biochemistry/topic14/downloads/selftest-MATCH-senses_receptor_types_by_modality.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-senses_receptor_types_by_modality-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -31,7 +31,7 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 <a class="md-button custom-button webwork_pgml" href="downloads/senses_signal_transduction_matching_set-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-senses_signal_transduction_matching_set-questions.txt" data-selftest="biochemistry/topic14/downloads/selftest-MATCH-senses_signal_transduction_matching_set.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-senses_signal_transduction_matching_set-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -47,7 +47,7 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 <a class="md-button custom-button webwork_pgml" href="downloads/senses_taste_quality_to_stimulus-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-senses_taste_quality_to_stimulus-questions.txt" data-selftest="biochemistry/topic14/downloads/selftest-MATCH-senses_taste_quality_to_stimulus.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-senses_taste_quality_to_stimulus-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -63,7 +63,7 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 <a class="md-button custom-button webwork_pgml" href="downloads/senses_chemosensation_smell_taste.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-senses_chemosensation_smell_taste-questions.txt" data-selftest="biochemistry/topic14/downloads/selftest-TFMS-senses_chemosensation_smell_taste.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-senses_chemosensation_smell_taste-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -79,7 +79,7 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 <a class="md-button custom-button webwork_pgml" href="downloads/senses_smell_vs_taste.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-senses_smell_vs_taste-questions.txt" data-selftest="biochemistry/topic14/downloads/selftest-TFMS-senses_smell_vs_taste.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-senses_smell_vs_taste-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -95,7 +95,7 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 <a class="md-button custom-button webwork_pgml" href="downloads/senses_vision_hearing.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-senses_vision_hearing-questions.txt" data-selftest="biochemistry/topic14/downloads/selftest-TFMS-senses_vision_hearing.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-senses_vision_hearing-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -111,7 +111,7 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 <a class="md-button custom-button webwork_pgml" href="downloads/senses_receptor_types_by_modality-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-senses_receptor_types_by_modality-questions.txt" data-selftest="biochemistry/topic14/downloads/selftest-WOMC-senses_receptor_types_by_modality.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-senses_receptor_types_by_modality-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -127,7 +127,7 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 <a class="md-button custom-button webwork_pgml" href="downloads/senses_signal_transduction_matching_set-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-senses_signal_transduction_matching_set-questions.txt" data-selftest="biochemistry/topic14/downloads/selftest-WOMC-senses_signal_transduction_matching_set.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-senses_signal_transduction_matching_set-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -143,7 +143,7 @@ Students explain the biochemical basis of taste, smell, hearing, sight, and touc
 <a class="md-button custom-button webwork_pgml" href="downloads/senses_taste_quality_to_stimulus-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-senses_taste_quality_to_stimulus-questions.txt" data-selftest="biochemistry/topic14/downloads/selftest-WOMC-senses_taste_quality_to_stimulus.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-senses_taste_quality_to_stimulus-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

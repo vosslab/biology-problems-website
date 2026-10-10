@@ -15,7 +15,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <a class="md-button custom-button webwork_pgml" href="downloads/meiosis_prophase_1-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-meiosis_prophase_1-questions.txt" data-selftest="genetics/topic06/downloads/selftest-MATCH-meiosis_prophase_1.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-meiosis_prophase_1-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -31,7 +31,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <a class="md-button custom-button webwork_pgml" href="downloads/meiosis_terms-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-meiosis_terms-questions.txt" data-selftest="genetics/topic06/downloads/selftest-MATCH-meiosis_terms.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-meiosis_terms-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -47,7 +47,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <a class="md-button custom-button webwork_pgml" href="downloads/sex_determination-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-sex_determination-questions.txt" data-selftest="genetics/topic06/downloads/selftest-MATCH-sex_determination.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-sex_determination-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -63,7 +63,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <a class="md-button custom-button webwork_pgml" href="downloads/mitosis_and_meiosis.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-mitosis_and_meiosis-questions.txt" data-selftest="genetics/topic06/downloads/selftest-TFMS-mitosis_and_meiosis.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-mitosis_and_meiosis-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -79,7 +79,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <a class="md-button custom-button webwork_pgml" href="downloads/meiosis_prophase_1-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-meiosis_prophase_1-questions.txt" data-selftest="genetics/topic06/downloads/selftest-WOMC-meiosis_prophase_1.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-meiosis_prophase_1-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -95,7 +95,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <a class="md-button custom-button webwork_pgml" href="downloads/meiosis_terms-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-meiosis_terms-questions.txt" data-selftest="genetics/topic06/downloads/selftest-WOMC-meiosis_terms.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-meiosis_terms-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -111,7 +111,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <a class="md-button custom-button webwork_pgml" href="downloads/sex_determination-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-sex_determination-questions.txt" data-selftest="genetics/topic06/downloads/selftest-WOMC-sex_determination.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-sex_determination-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -126,7 +126,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-dominant_and_X-linked_recessive-questions.txt" data-format="human_readable" data-filename="human_readable-dominant_and_X-linked_recessive.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-dominant_and_X-linked_recessive-questions.txt" data-selftest="genetics/topic06/downloads/selftest-dominant_and_X-linked_recessive.html">
+</div><div class="qti-selftest" data-bbq="bbq-dominant_and_X-linked_recessive-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -141,7 +141,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-dominant_and_X-linked_recessive_variations-questions.txt" data-format="human_readable" data-filename="human_readable-dominant_and_X-linked_recessive_variations.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-dominant_and_X-linked_recessive_variations-questions.txt" data-selftest="genetics/topic06/downloads/selftest-dominant_and_X-linked_recessive_variations.html">
+</div><div class="qti-selftest" data-bbq="bbq-dominant_and_X-linked_recessive_variations-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -157,7 +157,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <a class="md-button custom-button webwork_pgml" href="downloads/poisson_flies.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-poisson_flies-questions.txt" data-selftest="genetics/topic06/downloads/selftest-poisson_flies.html">
+</div><div class="qti-selftest" data-bbq="bbq-poisson_flies-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -172,7 +172,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-probabiliy_of_progeny-questions.txt" data-format="human_readable" data-filename="human_readable-probabiliy_of_progeny.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-probabiliy_of_progeny-questions.txt" data-selftest="genetics/topic06/downloads/selftest-probabiliy_of_progeny.html">
+</div><div class="qti-selftest" data-bbq="bbq-probabiliy_of_progeny-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -187,7 +187,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-write_pattern_to_pedigree-easy-questions.txt" data-format="human_readable" data-filename="human_readable-write_pattern_to_pedigree-easy.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-write_pattern_to_pedigree-easy-questions.txt" data-selftest="genetics/topic06/downloads/selftest-write_pattern_to_pedigree-easy.html">
+</div><div class="qti-selftest" data-bbq="bbq-write_pattern_to_pedigree-easy-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -202,7 +202,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-write_pedigree_pattern_matching-easy-questions.txt" data-format="human_readable" data-filename="human_readable-write_pedigree_pattern_matching-easy.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-write_pedigree_pattern_matching-easy-questions.txt" data-selftest="genetics/topic06/downloads/selftest-write_pedigree_pattern_matching-easy.html">
+</div><div class="qti-selftest" data-bbq="bbq-write_pedigree_pattern_matching-easy-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -217,7 +217,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-write_pedigree_to_pattern-bonus-questions.txt" data-format="human_readable" data-filename="human_readable-write_pedigree_to_pattern-bonus.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-write_pedigree_to_pattern-bonus-questions.txt" data-selftest="genetics/topic06/downloads/selftest-write_pedigree_to_pattern-bonus.html">
+</div><div class="qti-selftest" data-bbq="bbq-write_pedigree_to_pattern-bonus-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -232,7 +232,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-write_pedigree_to_pattern-easy-questions.txt" data-format="human_readable" data-filename="human_readable-write_pedigree_to_pattern-easy.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-write_pedigree_to_pattern-easy-questions.txt" data-selftest="genetics/topic06/downloads/selftest-write_pedigree_to_pattern-easy.html">
+</div><div class="qti-selftest" data-bbq="bbq-write_pedigree_to_pattern-easy-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -247,7 +247,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-write_pedigree_to_pattern-medium-questions.txt" data-format="human_readable" data-filename="human_readable-write_pedigree_to_pattern-medium.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-write_pedigree_to_pattern-medium-questions.txt" data-selftest="genetics/topic06/downloads/selftest-write_pedigree_to_pattern-medium.html">
+</div><div class="qti-selftest" data-bbq="bbq-write_pedigree_to_pattern-medium-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -262,7 +262,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-write_pedigree_to_pattern-rigorous-questions.txt" data-format="human_readable" data-filename="human_readable-write_pedigree_to_pattern-rigorous.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-write_pedigree_to_pattern-rigorous-questions.txt" data-selftest="genetics/topic06/downloads/selftest-write_pedigree_to_pattern-rigorous.html">
+</div><div class="qti-selftest" data-bbq="bbq-write_pedigree_to_pattern-rigorous-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -277,7 +277,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-x_linked_reciprocal_cross-questions.txt" data-format="human_readable" data-filename="human_readable-x_linked_reciprocal_cross.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-x_linked_reciprocal_cross-questions.txt" data-selftest="genetics/topic06/downloads/selftest-x_linked_reciprocal_cross.html">
+</div><div class="qti-selftest" data-bbq="bbq-x_linked_reciprocal_cross-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -292,7 +292,7 @@ Students trace inheritance of X-linked genes through meiosis, predict progeny ou
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-x_linked_tortoiseshell-questions.txt" data-format="human_readable" data-filename="human_readable-x_linked_tortoiseshell.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-x_linked_tortoiseshell-questions.txt" data-selftest="genetics/topic06/downloads/selftest-x_linked_tortoiseshell.html">
+</div><div class="qti-selftest" data-bbq="bbq-x_linked_tortoiseshell-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

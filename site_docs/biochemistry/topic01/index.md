@@ -15,7 +15,7 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 <a class="md-button custom-button webwork_pgml" href="downloads/biochemical_functional_groups-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-biochemical_functional_groups-questions.txt" data-selftest="biochemistry/topic01/downloads/selftest-MATCH-biochemical_functional_groups.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-biochemical_functional_groups-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -31,7 +31,7 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 <a class="md-button custom-button webwork_pgml" href="downloads/bond_types-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-bond_types-questions.txt" data-selftest="biochemistry/topic01/downloads/selftest-MATCH-bond_types.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-bond_types-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -47,7 +47,7 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 <a class="md-button custom-button webwork_pgml" href="downloads/macromolecules-biol301-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-macromolecules-biol301-questions.txt" data-selftest="biochemistry/topic01/downloads/selftest-MATCH-macromolecules-biol301.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-macromolecules-biol301-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -63,7 +63,7 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 <a class="md-button custom-button webwork_pgml" href="downloads/macromolecules-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-macromolecules-questions.txt" data-selftest="biochemistry/topic01/downloads/selftest-MATCH-macromolecules.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-macromolecules-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -79,7 +79,7 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 <a class="md-button custom-button webwork_pgml" href="downloads/biochemical_functional_groups-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-biochemical_functional_groups-questions.txt" data-selftest="biochemistry/topic01/downloads/selftest-WOMC-biochemical_functional_groups.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-biochemical_functional_groups-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -95,7 +95,7 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 <a class="md-button custom-button webwork_pgml" href="downloads/bond_types-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-bond_types-questions.txt" data-selftest="biochemistry/topic01/downloads/selftest-WOMC-bond_types.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-bond_types-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -111,7 +111,7 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 <a class="md-button custom-button webwork_pgml" href="downloads/macromolecules-biol301-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-macromolecules-biol301-questions.txt" data-selftest="biochemistry/topic01/downloads/selftest-WOMC-macromolecules-biol301.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-macromolecules-biol301-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -127,7 +127,7 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 <a class="md-button custom-button webwork_pgml" href="downloads/macromolecules-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-macromolecules-questions.txt" data-selftest="biochemistry/topic01/downloads/selftest-WOMC-macromolecules.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-macromolecules-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -143,7 +143,7 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 <a class="md-button custom-button webwork_pgml" href="downloads/which_hydrophobic-simple.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-which_hydrophobic-simple-questions.txt" data-selftest="biochemistry/topic01/downloads/selftest-which_hydrophobic-simple.html">
+</div><div class="qti-selftest" data-bbq="bbq-which_hydrophobic-simple-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -158,7 +158,7 @@ Students categorize biomolecules into major classes (proteins, carbohydrates, li
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-which_macromolecule-MC-questions.txt" data-format="human_readable" data-filename="human_readable-which_macromolecule-MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-which_macromolecule-MC-questions.txt" data-selftest="biochemistry/topic01/downloads/selftest-which_macromolecule-MC.html">
+</div><div class="qti-selftest" data-bbq="bbq-which_macromolecule-MC-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

@@ -12,7 +12,7 @@ Transcription of genes, RNA polymerase, promoters, and regulation.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-enhancer_gene_expression-questions.txt" data-format="human_readable" data-filename="human_readable-enhancer_gene_expression.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-enhancer_gene_expression-questions.txt" data-selftest="molecular_biology/topic07/downloads/selftest-enhancer_gene_expression.html">
+</div><div class="qti-selftest" data-bbq="bbq-enhancer_gene_expression-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -27,7 +27,7 @@ Transcription of genes, RNA polymerase, promoters, and regulation.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-rna_transcribe-FIB-directionless-len_9-questions.txt" data-format="human_readable" data-filename="human_readable-rna_transcribe-FIB-directionless-len_9.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-rna_transcribe-FIB-directionless-len_9-questions.txt" data-selftest="molecular_biology/topic07/downloads/selftest-rna_transcribe-FIB-directionless-len_9.html">
+</div><div class="qti-selftest" data-bbq="bbq-rna_transcribe-FIB-directionless-len_9-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -42,7 +42,7 @@ Transcription of genes, RNA polymerase, promoters, and regulation.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-rna_transcribe-FIB-prime-len_9-questions.txt" data-format="human_readable" data-filename="human_readable-rna_transcribe-FIB-prime-len_9.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-rna_transcribe-FIB-prime-len_9-questions.txt" data-selftest="molecular_biology/topic07/downloads/selftest-rna_transcribe-FIB-prime-len_9.html">
+</div><div class="qti-selftest" data-bbq="bbq-rna_transcribe-FIB-prime-len_9-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -57,7 +57,7 @@ Transcription of genes, RNA polymerase, promoters, and regulation.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-rna_transcribe-MC-prime-len_9-questions.txt" data-format="human_readable" data-filename="human_readable-rna_transcribe-MC-prime-len_9.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-rna_transcribe-MC-prime-len_9-questions.txt" data-selftest="molecular_biology/topic07/downloads/selftest-rna_transcribe-MC-prime-len_9.html">
+</div><div class="qti-selftest" data-bbq="bbq-rna_transcribe-MC-prime-len_9-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

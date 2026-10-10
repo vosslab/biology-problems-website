@@ -59,6 +59,7 @@ maintenance and test orchestration; `tools/` remains standalone.
 | --- | --- | --- |
 | [devel/site_maint.py](../devel/site_maint.py) | Topics CSV, question counts, two data builds, and generated reset | `python3 devel/site_maint.py COMMAND` |
 | [devel/run_playwright_tests.sh](../devel/run_playwright_tests.sh) | Playwright preflight and runner wrapper | `bash devel/run_playwright_tests.sh` |
+| [devel/vendor_qti_wasm.py](../devel/vendor_qti_wasm.py) | Build and refresh the QPM browser package | `source source_me.sh && python3 devel/vendor_qti_wasm.py` |
 | [devel/setup_playwright.sh](../devel/setup_playwright.sh) | Install or verify Playwright tooling | `bash devel/setup_playwright.sh` |
 
 ### `devel/` propagated
@@ -97,7 +98,7 @@ the live `bbq-*-questions.txt` files and writes the self-test manifest at
 `site_docs/assets/data/selftest_question_manifest.json`.
 
 Topic pages use empty `.qti-selftest` containers that point to their BBQ bank
-and standalone self-test artifact. Browser lifecycle code in
+through `data-bbq`. The manifest validates those declared banks directly. Browser lifecycle code in
 `site_docs/assets/scripts/selftest_reroll.js` generates and mounts active
 questions. `selftest_progress.js` keys completion directly by the BBQ filename,
 while `streak.js` subscribes to the lifecycle events.

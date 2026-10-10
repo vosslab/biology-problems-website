@@ -13,7 +13,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 <a class="md-button custom-button webwork_pgml" href="downloads/biotech_vs_improved-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-biotech_vs_improved-questions.txt" data-selftest="biotechnology/topic01/downloads/selftest-MATCH-biotech_vs_improved.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-biotech_vs_improved-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -29,7 +29,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 <a class="md-button custom-button webwork_pgml" href="downloads/biotechnology_periods_and_milestones-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-biotechnology_periods_and_milestones-questions.txt" data-selftest="biotechnology/topic01/downloads/selftest-MATCH-biotechnology_periods_and_milestones.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-biotechnology_periods_and_milestones-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -45,7 +45,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 <a class="md-button custom-button webwork_pgml" href="downloads/model_organism_generation_times-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-model_organism_generation_times-questions.txt" data-selftest="biotechnology/topic01/downloads/selftest-MATCH-model_organism_generation_times.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-model_organism_generation_times-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -61,7 +61,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 <a class="md-button custom-button webwork_pgml" href="downloads/model_organism_principles-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-model_organism_principles-questions.txt" data-selftest="biotechnology/topic01/downloads/selftest-MATCH-model_organism_principles.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-model_organism_principles-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -77,7 +77,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 <a class="md-button custom-button webwork_pgml" href="downloads/model_organisms-genus_species-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-model_organisms-genus_species-questions.txt" data-selftest="biotechnology/topic01/downloads/selftest-MATCH-model_organisms-genus_species.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-model_organisms-genus_species-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -93,7 +93,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 <a class="md-button custom-button webwork_pgml" href="downloads/fermentation.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-fermentation-questions.txt" data-selftest="biotechnology/topic01/downloads/selftest-TFMS-fermentation.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-fermentation-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -109,7 +109,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 <a class="md-button custom-button webwork_pgml" href="downloads/mRNA_processing.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-mRNA_processing-questions.txt" data-selftest="biotechnology/topic01/downloads/selftest-TFMS-mRNA_processing.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-mRNA_processing-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -125,7 +125,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 <a class="md-button custom-button webwork_pgml" href="downloads/biotech_vs_improved-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-biotech_vs_improved-questions.txt" data-selftest="biotechnology/topic01/downloads/selftest-WOMC-biotech_vs_improved.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-biotech_vs_improved-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -141,7 +141,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 <a class="md-button custom-button webwork_pgml" href="downloads/biotechnology_periods_and_milestones-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-biotechnology_periods_and_milestones-questions.txt" data-selftest="biotechnology/topic01/downloads/selftest-WOMC-biotechnology_periods_and_milestones.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-biotechnology_periods_and_milestones-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -157,7 +157,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 <a class="md-button custom-button webwork_pgml" href="downloads/model_organism_generation_times-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-model_organism_generation_times-questions.txt" data-selftest="biotechnology/topic01/downloads/selftest-WOMC-model_organism_generation_times.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-model_organism_generation_times-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -173,7 +173,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 <a class="md-button custom-button webwork_pgml" href="downloads/model_organism_principles-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-model_organism_principles-questions.txt" data-selftest="biotechnology/topic01/downloads/selftest-WOMC-model_organism_principles.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-model_organism_principles-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -189,7 +189,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 <a class="md-button custom-button webwork_pgml" href="downloads/model_organisms-genus_species-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-model_organisms-genus_species-questions.txt" data-selftest="biotechnology/topic01/downloads/selftest-WOMC-model_organisms-genus_species.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-model_organisms-genus_species-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -204,7 +204,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-beadle_tatum-metabolic_pathway-4_metabolites-questions.txt" data-format="human_readable" data-filename="human_readable-beadle_tatum-metabolic_pathway-4_metabolites.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-beadle_tatum-metabolic_pathway-4_metabolites-questions.txt" data-selftest="biotechnology/topic01/downloads/selftest-beadle_tatum-metabolic_pathway-4_metabolites.html">
+</div><div class="qti-selftest" data-bbq="bbq-beadle_tatum-metabolic_pathway-4_metabolites-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -217,7 +217,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-model_organism_complexity_order-ORD-4_choices-questions.txt" data-format="human_readable" data-filename="human_readable-model_organism_complexity_order-ORD-4_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-model_organism_complexity_order-ORD-4_choices-questions.txt" data-selftest="biotechnology/topic01/downloads/selftest-model_organism_complexity_order-ORD-4_choices.html">
+</div><div class="qti-selftest" data-bbq="bbq-model_organism_complexity_order-ORD-4_choices-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -232,7 +232,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-mutant_screen-mc-4_metabolites-questions.txt" data-format="human_readable" data-filename="human_readable-mutant_screen-mc-4_metabolites.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-mutant_screen-mc-4_metabolites-questions.txt" data-selftest="biotechnology/topic01/downloads/selftest-mutant_screen-mc-4_metabolites.html">
+</div><div class="qti-selftest" data-bbq="bbq-mutant_screen-mc-4_metabolites-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -247,7 +247,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-rna_transcribe-MC-prime-len_6-questions.txt" data-format="human_readable" data-filename="human_readable-rna_transcribe-MC-prime-len_6.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-rna_transcribe-MC-prime-len_6-questions.txt" data-selftest="biotechnology/topic01/downloads/selftest-rna_transcribe-MC-prime-len_6.html">
+</div><div class="qti-selftest" data-bbq="bbq-rna_transcribe-MC-prime-len_6-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -262,7 +262,7 @@ Students explore the history of biotechnology, model organisms, bacteriophage, c
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-translate_genetic_code-MC-5_aa-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-translate_genetic_code-MC-5_aa-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-translate_genetic_code-MC-5_aa-5_choices-questions.txt" data-selftest="biotechnology/topic01/downloads/selftest-translate_genetic_code-MC-5_aa-5_choices.html">
+</div><div class="qti-selftest" data-bbq="bbq-translate_genetic_code-MC-5_aa-5_choices-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

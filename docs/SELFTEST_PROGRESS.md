@@ -56,30 +56,31 @@ The unified `build_site.py` workflow writes
 [selftest_question_manifest.json](../site_docs/assets/data/selftest_question_manifest.json)
 through the pipeline. The build reads topic pages reachable from the
 [mkdocs.yml](../mkdocs.yml) nav, finds their `.qti-selftest` containers, follows
-each `data-selftest` path to its standalone artifact, extracts
-`question_html_hhhh_hhhh` container IDs, and records a sample CRC for
-diagnostics. Files that are generated but not declared by a reachable topic
-container are excluded. The manifest envelope is version 2.
+each `data-bbq` basename to a nonempty bank in the topic directory, and records
+the stable problem-set identity and topic metadata. Undeclared banks are excluded.
+The manifest remains version 2 with source `reachable-topic-pages`; rows sort by
+subject, topic, and bank basename. Scoped refreshes replace selected topics and
+retain reachable rows elsewhere. No standalone HTML is read or generated.
+
+A missing or empty declared bank, invalid basename, or duplicate placement stops
+the build. Correct the declaration or regenerate the bank, then rebuild. Scoped
+refreshes require the filename-based v2 baseline; run `./build_site.py -I --cli`
+to replace an old CRC-based manifest. No legacy-field migration runs during merges.
 
 Each manifest row has these fields:
 
 | Field | Meaning |
 | --- | --- |
 | `questionId` | BBQ filename basename; the key used in `localStorage`. |
-| `crc` | Sample generated CRC, retained for diagnostics and DOM-id lookups. |
 | `pagePath` | Reachable topic page that owns the question. |
-| `selftestPath` | Standalone sample self-test HTML file. |
 | `subjectKey` | Subject grouping key (for the dashboard). |
 | `topicKey` | Topic grouping key (for the dashboard). |
 | `topicTitle` | Human-readable topic title. |
-| `questionFingerprint` | Short content hash, a diagnostic to flag CRC reuse. |
 
 ## Adding a new self-test question
 
-1. Generate the standalone self-test artifact with its
-   `question_html_hhhh_hhhh`, `checkAnswer_<crc>()`, and `result_<crc>` elements.
-2. Let the topic-page build create its `.qti-selftest` container with
-   `data-bbq` and `data-selftest` attributes.
+1. Add the BBQ bank through the configured task workflow.
+2. Let the topic-page build create its `.qti-selftest` container with `data-bbq`.
 3. Regenerate: `source source_me.sh && ./build_site.py`.
 4. Confirm the BBQ filename appears as `questionId` in the manifest JSON.
 
@@ -88,4 +89,4 @@ Each manifest row has these fields:
 A question's CRC is derived from its generated content, so it may change when
 the source bank is edited or a different version is generated. Completion stays
 with the BBQ filename, so those changes do not remove earned problem-set credit.
-The manifest fingerprint and sample CRC are diagnostic data only.
+The manifest does not store a sample CRC or content fingerprint.

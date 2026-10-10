@@ -26,8 +26,8 @@ def test_timing_log_retains_runs_and_exposes_time_outside_stages(
 		progress.emit("plan", task_rows=1, topics=0)
 		clock[0] += 2.0
 		progress.emit("row_started", row=1, label="genetics/topic01 (tasks.csv:2)")
-		for phase, duration in (("bbq", 2.0), ("selftests", 3.0), ("downloads", 4.0)):
-			if phase == "selftests":
+		for phase, duration in (("bbq", 2.0), ("downloads", 4.0)):
+			if phase == "downloads":
 				clock[0] += 4.0
 			progress.emit("stage_started", phase=phase, label="genetics/topic01", row=1)
 			clock[0] += duration
@@ -41,7 +41,7 @@ def test_timing_log_retains_runs_and_exposes_time_outside_stages(
 		progress.emit("stage_started", phase="indexes", label="Final indexes")
 		clock[0] += 1.0
 		progress.emit("stage_completed", phase="indexes", duration=1.0, executed=True)
-		report = build_coordinator.BuildReport(BuildChanges(), elapsed_seconds=16.0)
+		report = build_coordinator.BuildReport(BuildChanges(), elapsed_seconds=13.0)
 		return report
 
 	monkeypatch.setattr(build_coordinator, "build_site", measured_build)
@@ -56,12 +56,12 @@ def test_timing_log_retains_runs_and_exposes_time_outside_stages(
 	completed = [record for record in records if record["event"] == "build_completed"]
 	assert len(completed) == 2
 	for record in completed:
-		assert record["wall_seconds"] == pytest.approx(16.0)
-		assert record["accounted_stage_seconds"] == pytest.approx(10.0)
+		assert record["wall_seconds"] == pytest.approx(13.0)
+		assert record["accounted_stage_seconds"] == pytest.approx(7.0)
 		assert record["untracked_seconds"] == pytest.approx(6.0)
 		assert record["build_started_at"].endswith("+00:00")
 	rows = [record for record in records if record["event"] == "row_completed"]
-	assert rows[0]["details"]["duration"] == pytest.approx(13.0)
+	assert rows[0]["details"]["duration"] == pytest.approx(10.0)
 	assert rows[0]["details"]["untracked_seconds"] == pytest.approx(4.0)
 	build_coordinator.build_site_with_timing(BuildScope(dry_run=True), progress)
 	assert [json.loads(line) for line in log_path.read_text().splitlines()] == records

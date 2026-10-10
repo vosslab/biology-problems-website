@@ -8,68 +8,50 @@ serve or build the site from [site_docs/](../site_docs/) using
 
 - Python 3.12.
 - pip for installing dependencies from [pip_requirements.txt](../pip_requirements.txt).
-- macOS ARM64 for native self-test generation with the Git-tracked converter.
-  A normal build requires neither QPM source nor Rust/Cargo.
 - Node.js 24 or later and npm for browser asset refresh, Playwright tests, and screenshots.
-- Rust/Cargo and QPM source only when refreshing the vendored QPM dependencies.
-- A JavaScript-enabled browser for on-demand package downloads. Vendored WebAssembly,
+- Rust/Cargo and QPM source only when building a new vendored WASM package.
+- A JavaScript-enabled browser for self-tests and on-demand package downloads. Vendored WebAssembly,
   modern-screenshot, and RDKit assets are served with the static site.
 
 ## Install steps
 
 1. Clone the repository.
-2. Keep the tracked [vendor/qpm-native/](../vendor/qpm-native/) directory, including
-   the executable permission on `bbq-converter`. BPW selects the binary matching the
-   host OS and CPU. Currently macOS ARM64 is supplied; other hosts receive a clear
-   incompatibility message. No compilation occurs during ordinary site builds.
-3. From the website repo root, install dependencies:
+2. From the website repo root, install dependencies:
    ```bash
    source source_me.sh && python3 -m pip install -r pip_requirements.txt
    ```
-4. For browser tests and screenshot capture, install the development packages and
+3. For browser tests and screenshot capture, install the development packages and
    Chromium:
    ```bash
    npm install
    npx playwright install chromium
    ```
 Browser downloads render tables and molecules in the visitor's browser. Ordinary content
-builds generate native self-tests and retain direct BBQ/PGML files.
+builds retain direct BBQ/PGML files. Self-test HTML is generated in the browser from BBQ banks.
 
 ## Refresh QPM dependencies
 
 QPM is a stable vendored dependency. Refresh deliberately when adopting an upstream fix.
-On macOS ARM64, clone QPM beside BPW (or set `QPM_ROOT` to another checkout; relative
-paths resolve from the BPW root). To build and refresh only the native executable:
-
-```bash
-source source_me.sh && python3 devel/vendor_qti_wasm.py --native-only
-```
-
-The helper runs Cargo with the `aarch64-apple-darwin` target and obtains the actual
-executable path from Cargo's artifact messages. It verifies execution with `--help`, then copies
-the binary, license, and `source.json` into
-[vendor/qpm-native/darwin-arm64/](../vendor/qpm-native/darwin-arm64/).
-The receipt records source revision and dirty state, target, Cargo package version, build command,
-and binary hash. Commit all three files together. Prefer a clean upstream checkout
-for releases; a dirty receipt does not claim that its commit reproduces the bytes.
+Clone QPM beside BPW or set `QPM_ROOT` to another checkout; relative paths resolve
+from the BPW root. Ordinary site builds require neither QPM source nor Rust/Cargo.
 
 The sibling `@vosslab/qti-wasm` package is private. This website consumes its complete built
-`dist` as a vendored artifact dependency. After changing its Rust or TypeScript sources, run
-its canonical build and then refresh the website copy:
+`dist` as a vendored artifact dependency. After updating the QPM checkout's Rust or
+TypeScript sources, compile and refresh BPW with one command from the BPW root:
 
 ```bash
-cd ../qti-package-maker-rs/packages/qti-wasm
-npm ci
-npm run build
-cd ../../../biology-problems-website
 source source_me.sh && python3 devel/vendor_qti_wasm.py
 ```
 
-With no flags, `vendor_qti_wasm.py` refreshes both native and WASM artifacts. Use
-`--wasm-only` to refresh only the prebuilt browser package. The canonical WASM build
-invokes wasm-pack for the release web target and compiles TypeScript.
-The vendor helper copies the complete distribution and records consumed-file SHA256 hashes,
-source path, and a null source revision when no revision receipt is supplied.
+The helper runs `npm ci` and QPM's canonical `npm run build`. That build invokes
+wasm-pack for the release web target and compiles TypeScript. Only after it succeeds
+does the helper replace BPW's browser package and record consumed-file SHA256 hashes.
+If installation or compilation fails, fix the reported error and rerun the same
+command; BPW's existing package remains untouched. The helper uses the current
+local QPM sources without pulling Git changes. Local edits are included, so the
+recorded source revision remains null and hashes identify the consumed bytes.
+
+Run `mkdocs build` afterward to include the refreshed package in the built site.
 
 ## Refresh other browser dependencies
 

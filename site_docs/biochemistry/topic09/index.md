@@ -15,7 +15,7 @@ Students analyze allosteric regulation, cooperativity, and sigmoidal binding cur
 <a class="md-button custom-button webwork_pgml" href="downloads/allosteric_enzyme_models.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-allosteric_enzyme_models-questions.txt" data-selftest="biochemistry/topic09/downloads/selftest-allosteric_enzyme_models.html">
+</div><div class="qti-selftest" data-bbq="bbq-allosteric_enzyme_models-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -31,7 +31,7 @@ Students analyze allosteric regulation, cooperativity, and sigmoidal binding cur
 <a class="md-button custom-button webwork_pgml" href="downloads/feedback_merging_pathway.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-feedback_merging_pathway-questions.txt" data-selftest="biochemistry/topic09/downloads/selftest-feedback_merging_pathway.html">
+</div><div class="qti-selftest" data-bbq="bbq-feedback_merging_pathway-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -47,7 +47,7 @@ Students analyze allosteric regulation, cooperativity, and sigmoidal binding cur
 <a class="md-button custom-button webwork_pgml" href="downloads/feedback_splitting_pathway.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-feedback_splitting_pathway-questions.txt" data-selftest="biochemistry/topic09/downloads/selftest-feedback_splitting_pathway.html">
+</div><div class="qti-selftest" data-bbq="bbq-feedback_splitting_pathway-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -63,7 +63,7 @@ Students analyze allosteric regulation, cooperativity, and sigmoidal binding cur
 <a class="md-button custom-button webwork_pgml" href="downloads/hemoglobin_oxygen_affinity.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-hemoglobin_oxygen_affinity-questions.txt" data-selftest="biochemistry/topic09/downloads/selftest-hemoglobin_oxygen_affinity.html">
+</div><div class="qti-selftest" data-bbq="bbq-hemoglobin_oxygen_affinity-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -79,7 +79,7 @@ Students analyze allosteric regulation, cooperativity, and sigmoidal binding cur
 <a class="md-button custom-button webwork_pgml" href="downloads/metabolic_pathway_allosteric.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-metabolic_pathway_allosteric-questions.txt" data-selftest="biochemistry/topic09/downloads/selftest-metabolic_pathway_allosteric.html">
+</div><div class="qti-selftest" data-bbq="bbq-metabolic_pathway_allosteric-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

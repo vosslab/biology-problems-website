@@ -26,7 +26,7 @@ def test_topic_and_index_results_are_listed(monkeypatch: pytest.MonkeyPatch) -> 
 			})
 			await pilot.pause()
 			table = app.query_one(DataTable)
-			assert str(table.get_row_at(2)[3]) == "10 of 10"
+			assert str(table.get_row_at(1)[3]) == "10 of 10"
 			app._handle_event("bbq_counts", {
 				"row": 1, "label": label,
 				"question_counts": [{"file": "bbq-example-questions.txt", "count": 2, "limit": 3}],

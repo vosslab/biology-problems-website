@@ -12,7 +12,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-amplicon_copies-questions.txt" data-format="human_readable" data-filename="human_readable-amplicon_copies.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-amplicon_copies-questions.txt" data-selftest="molecular_biology/topic04/downloads/selftest-amplicon_copies.html">
+</div><div class="qti-selftest" data-bbq="bbq-amplicon_copies-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -27,7 +27,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-dna_gel-closest_farthest_MC-questions.txt" data-format="human_readable" data-filename="human_readable-dna_gel-closest_farthest_MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-dna_gel-closest_farthest_MC-questions.txt" data-selftest="molecular_biology/topic04/downloads/selftest-dna_gel-closest_farthest_MC.html">
+</div><div class="qti-selftest" data-bbq="bbq-dna_gel-closest_farthest_MC-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -42,7 +42,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt" data-format="human_readable" data-filename="human_readable-dna_gel-estimate_size-MC_or_NUM-num.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt" data-selftest="molecular_biology/topic04/downloads/selftest-dna_gel-estimate_size-MC_or_NUM-num.html">
+</div><div class="qti-selftest" data-bbq="bbq-dna_gel-estimate_size-MC_or_NUM-num-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -57,7 +57,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-inverse_pcr_design-len_15-questions.txt" data-format="human_readable" data-filename="human_readable-inverse_pcr_design-len_15.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-inverse_pcr_design-len_15-questions.txt" data-selftest="molecular_biology/topic04/downloads/selftest-inverse_pcr_design-len_15.html">
+</div><div class="qti-selftest" data-bbq="bbq-inverse_pcr_design-len_15-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -72,7 +72,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-linear_digest-len_12-sites_3-fragment-questions.txt" data-format="human_readable" data-filename="human_readable-linear_digest-len_12-sites_3-fragment.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-linear_digest-len_12-sites_3-fragment-questions.txt" data-selftest="molecular_biology/topic04/downloads/selftest-linear_digest-len_12-sites_3-fragment.html">
+</div><div class="qti-selftest" data-bbq="bbq-linear_digest-len_12-sites_3-fragment-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -87,7 +87,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-nested_pcr_design-len_24-questions.txt" data-format="human_readable" data-filename="human_readable-nested_pcr_design-len_24.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-nested_pcr_design-len_24-questions.txt" data-selftest="molecular_biology/topic04/downloads/selftest-nested_pcr_design-len_24.html">
+</div><div class="qti-selftest" data-bbq="bbq-nested_pcr_design-len_24-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -102,7 +102,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-overhang_sequence-mc-questions.txt" data-format="human_readable" data-filename="human_readable-overhang_sequence-mc.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-overhang_sequence-mc-questions.txt" data-selftest="molecular_biology/topic04/downloads/selftest-overhang_sequence-mc.html">
+</div><div class="qti-selftest" data-bbq="bbq-overhang_sequence-mc-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -117,7 +117,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-overhang_type-5_3_blunt-questions.txt" data-format="human_readable" data-filename="human_readable-overhang_type-5_3_blunt.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-overhang_type-5_3_blunt-questions.txt" data-selftest="molecular_biology/topic04/downloads/selftest-overhang_type-5_3_blunt.html">
+</div><div class="qti-selftest" data-bbq="bbq-overhang_type-5_3_blunt-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -132,7 +132,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-palindrome_sequence_match-questions.txt" data-format="human_readable" data-filename="human_readable-palindrome_sequence_match.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-palindrome_sequence_match-questions.txt" data-selftest="molecular_biology/topic04/downloads/selftest-palindrome_sequence_match.html">
+</div><div class="qti-selftest" data-bbq="bbq-palindrome_sequence_match-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -147,7 +147,7 @@ Restriction enzymes, gel electrophoresis, and PCR.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-pcr_design-36_bp-9_primer-questions.txt" data-format="human_readable" data-filename="human_readable-pcr_design-36_bp-9_primer.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-pcr_design-36_bp-9_primer-questions.txt" data-selftest="molecular_biology/topic04/downloads/selftest-pcr_design-36_bp-9_primer.html">
+</div><div class="qti-selftest" data-bbq="bbq-pcr_design-36_bp-9_primer-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

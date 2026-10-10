@@ -121,8 +121,7 @@ def build_repo(repo_root: str) -> dict:
 	index_text = (
 		"# Topic title\n"
 		"\n"
-		'<div class="qti-selftest" data-bbq="' + BBQ_NAME + '" '
-		'data-selftest="subj/topic01/downloads/' + SELFTEST_NAME + '">\n'
+		'<div class="qti-selftest" data-bbq="' + BBQ_NAME + '">\n'
 		'  <div class="selftest-reroll-content"></div>\n'
 		"</div>\n"
 		"Some prose stays here.\n"
@@ -262,7 +261,7 @@ def check_live_run(repo_root: str, paths: dict) -> None:
 	# The orphan self-test container is stripped from index.md
 	with open(paths["index_path"], "r") as index_file:
 		index_after = index_file.read()
-	assert SELFTEST_NAME not in index_after, "orphan selftest include not stripped"
+	assert BBQ_NAME not in index_after, "orphan selftest container not stripped"
 	assert "Some prose stays here." in index_after, "prose was lost"
 
 	# The stale bbq key is dropped from problem_set_titles.yml

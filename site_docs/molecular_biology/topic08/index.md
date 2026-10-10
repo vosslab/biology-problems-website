@@ -13,7 +13,7 @@ RNA splicing, mRNA maturation, and CRISPR gene editing.
 <a class="md-button custom-button webwork_pgml" href="downloads/intron_splicing.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-intron_splicing-questions.txt" data-selftest="molecular_biology/topic08/downloads/selftest-TFMS-intron_splicing.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-intron_splicing-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -29,7 +29,7 @@ RNA splicing, mRNA maturation, and CRISPR gene editing.
 <a class="md-button custom-button webwork_pgml" href="downloads/mRNA_processing.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-mRNA_processing-questions.txt" data-selftest="molecular_biology/topic08/downloads/selftest-TFMS-mRNA_processing.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-mRNA_processing-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -44,7 +44,7 @@ RNA splicing, mRNA maturation, and CRISPR gene editing.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-exon_splicing-questions.txt" data-format="human_readable" data-filename="human_readable-exon_splicing.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-exon_splicing-questions.txt" data-selftest="molecular_biology/topic08/downloads/selftest-exon_splicing.html">
+</div><div class="qti-selftest" data-bbq="bbq-exon_splicing-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

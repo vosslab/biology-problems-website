@@ -14,7 +14,7 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-blood_type_agglutination_test-questions.txt" data-format="human_readable" data-filename="human_readable-blood_type_agglutination_test.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-blood_type_agglutination_test-questions.txt" data-selftest="genetics/topic03/downloads/selftest-blood_type_agglutination_test.html">
+</div><div class="qti-selftest" data-bbq="bbq-blood_type_agglutination_test-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -29,7 +29,7 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-hla_genotype-2_markers-black-questions.txt" data-format="human_readable" data-filename="human_readable-hla_genotype-2_markers-black.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-hla_genotype-2_markers-black-questions.txt" data-selftest="genetics/topic03/downloads/selftest-hla_genotype-2_markers-black.html">
+</div><div class="qti-selftest" data-bbq="bbq-hla_genotype-2_markers-black-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -44,7 +44,7 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-hla_genotype-3_markers-color-questions.txt" data-format="human_readable" data-filename="human_readable-hla_genotype-3_markers-color.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-hla_genotype-3_markers-color-questions.txt" data-selftest="genetics/topic03/downloads/selftest-hla_genotype-3_markers-color.html">
+</div><div class="qti-selftest" data-bbq="bbq-hla_genotype-3_markers-color-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -59,7 +59,7 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-who_father_html-EASY-3_males-questions.txt" data-format="human_readable" data-filename="human_readable-who_father_html-EASY-3_males.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-who_father_html-EASY-3_males-questions.txt" data-selftest="genetics/topic03/downloads/selftest-who_father_html-EASY-3_males.html">
+</div><div class="qti-selftest" data-bbq="bbq-who_father_html-EASY-3_males-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -74,7 +74,7 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-who_father_html-HARD-9_males-questions.txt" data-format="human_readable" data-filename="human_readable-who_father_html-HARD-9_males.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-who_father_html-HARD-9_males-questions.txt" data-selftest="genetics/topic03/downloads/selftest-who_father_html-HARD-9_males.html">
+</div><div class="qti-selftest" data-bbq="bbq-who_father_html-HARD-9_males-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -89,7 +89,7 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-who_father_html-MEDIUM-5_males-questions.txt" data-format="human_readable" data-filename="human_readable-who_father_html-MEDIUM-5_males.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-who_father_html-MEDIUM-5_males-questions.txt" data-selftest="genetics/topic03/downloads/selftest-who_father_html-MEDIUM-5_males.html">
+</div><div class="qti-selftest" data-bbq="bbq-who_father_html-MEDIUM-5_males-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -104,7 +104,7 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-who_killer_html-EASY-4_suspects-questions.txt" data-format="human_readable" data-filename="human_readable-who_killer_html-EASY-4_suspects.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-who_killer_html-EASY-4_suspects-questions.txt" data-selftest="genetics/topic03/downloads/selftest-who_killer_html-EASY-4_suspects.html">
+</div><div class="qti-selftest" data-bbq="bbq-who_killer_html-EASY-4_suspects-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -119,7 +119,7 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-who_killer_html-HARD-9_suspects-questions.txt" data-format="human_readable" data-filename="human_readable-who_killer_html-HARD-9_suspects.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-who_killer_html-HARD-9_suspects-questions.txt" data-selftest="genetics/topic03/downloads/selftest-who_killer_html-HARD-9_suspects.html">
+</div><div class="qti-selftest" data-bbq="bbq-who_killer_html-HARD-9_suspects-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -134,7 +134,7 @@ Students use blood typing agglutination tests, HLA genotyping, gel electrophores
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-who_killer_html-MEDIUM-5_suspects-questions.txt" data-format="human_readable" data-filename="human_readable-who_killer_html-MEDIUM-5_suspects.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-who_killer_html-MEDIUM-5_suspects-questions.txt" data-selftest="genetics/topic03/downloads/selftest-who_killer_html-MEDIUM-5_suspects.html">
+</div><div class="qti-selftest" data-bbq="bbq-who_killer_html-MEDIUM-5_suspects-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

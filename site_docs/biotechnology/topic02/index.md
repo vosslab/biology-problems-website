@@ -13,7 +13,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 <a class="md-button custom-button webwork_pgml" href="downloads/cell_disruption-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-cell_disruption-questions.txt" data-selftest="biotechnology/topic02/downloads/selftest-MATCH-cell_disruption.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-cell_disruption-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -29,7 +29,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 <a class="md-button custom-button webwork_pgml" href="downloads/dna_sequencing-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-dna_sequencing-questions.txt" data-selftest="biotechnology/topic02/downloads/selftest-MATCH-dna_sequencing.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-dna_sequencing-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -45,7 +45,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 <a class="md-button custom-button webwork_pgml" href="downloads/latin_phrases-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-latin_phrases-questions.txt" data-selftest="biotechnology/topic02/downloads/selftest-MATCH-latin_phrases.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-latin_phrases-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -61,7 +61,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 <a class="md-button custom-button webwork_pgml" href="downloads/cell_disruption-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-cell_disruption-questions.txt" data-selftest="biotechnology/topic02/downloads/selftest-WOMC-cell_disruption.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-cell_disruption-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -77,7 +77,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 <a class="md-button custom-button webwork_pgml" href="downloads/dna_sequencing-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-dna_sequencing-questions.txt" data-selftest="biotechnology/topic02/downloads/selftest-WOMC-dna_sequencing.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-dna_sequencing-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -93,7 +93,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 <a class="md-button custom-button webwork_pgml" href="downloads/latin_phrases-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-latin_phrases-questions.txt" data-selftest="biotechnology/topic02/downloads/selftest-WOMC-latin_phrases.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-latin_phrases-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -108,7 +108,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-complementary_sequences-mc-prime-questions.txt" data-format="human_readable" data-filename="human_readable-complementary_sequences-mc-prime.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-complementary_sequences-mc-prime-questions.txt" data-selftest="biotechnology/topic02/downloads/selftest-complementary_sequences-mc-prime.html">
+</div><div class="qti-selftest" data-bbq="bbq-complementary_sequences-mc-prime-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -123,7 +123,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-consensus_sequence_MC-questions.txt" data-format="human_readable" data-filename="human_readable-consensus_sequence_MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-consensus_sequence_MC-questions.txt" data-selftest="biotechnology/topic02/downloads/selftest-consensus_sequence_MC.html">
+</div><div class="qti-selftest" data-bbq="bbq-consensus_sequence_MC-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -138,7 +138,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-dna_gel-closest_farthest_MC-questions.txt" data-format="human_readable" data-filename="human_readable-dna_gel-closest_farthest_MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-dna_gel-closest_farthest_MC-questions.txt" data-selftest="biotechnology/topic02/downloads/selftest-dna_gel-closest_farthest_MC.html">
+</div><div class="qti-selftest" data-bbq="bbq-dna_gel-closest_farthest_MC-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -153,7 +153,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-dna_gel-estimate_size-MC_or_NUM-mc-questions.txt" data-format="human_readable" data-filename="human_readable-dna_gel-estimate_size-MC_or_NUM-mc.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-dna_gel-estimate_size-MC_or_NUM-mc-questions.txt" data-selftest="biotechnology/topic02/downloads/selftest-dna_gel-estimate_size-MC_or_NUM-mc.html">
+</div><div class="qti-selftest" data-bbq="bbq-dna_gel-estimate_size-MC_or_NUM-mc-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -168,7 +168,7 @@ Students analyze DNA isolation, FISH, SNP arrays, plasmids, gene libraries, PCR,
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-pcr_design-9_bp-6_primer-questions.txt" data-format="human_readable" data-filename="human_readable-pcr_design-9_bp-6_primer.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-pcr_design-9_bp-6_primer-questions.txt" data-selftest="biotechnology/topic02/downloads/selftest-pcr_design-9_bp-6_primer.html">
+</div><div class="qti-selftest" data-bbq="bbq-pcr_design-9_bp-6_primer-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

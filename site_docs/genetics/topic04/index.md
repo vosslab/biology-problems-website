@@ -15,7 +15,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <a class="md-button custom-button webwork_pgml" href="downloads/genetics_terminology-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-genetics_terminology-questions.txt" data-selftest="genetics/topic04/downloads/selftest-MATCH-genetics_terminology.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-genetics_terminology-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -31,7 +31,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <a class="md-button custom-button webwork_pgml" href="downloads/mendel_cross_terminology-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-mendel_cross_terminology-questions.txt" data-selftest="genetics/topic04/downloads/selftest-MATCH-mendel_cross_terminology.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-mendel_cross_terminology-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -47,7 +47,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <a class="md-button custom-button webwork_pgml" href="downloads/mendel_four_principles-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-mendel_four_principles-questions.txt" data-selftest="genetics/topic04/downloads/selftest-MATCH-mendel_four_principles.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-mendel_four_principles-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -63,7 +63,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <a class="md-button custom-button webwork_pgml" href="downloads/mendelian_genetics_terms-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-mendelian_genetics_terms-questions.txt" data-selftest="genetics/topic04/downloads/selftest-MATCH-mendelian_genetics_terms.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-mendelian_genetics_terms-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -79,7 +79,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <a class="md-button custom-button webwork_pgml" href="downloads/monohybrid_cross_genotype-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-monohybrid_cross_genotype-questions.txt" data-selftest="genetics/topic04/downloads/selftest-MATCH-monohybrid_cross_genotype.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-monohybrid_cross_genotype-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -95,7 +95,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <a class="md-button custom-button webwork_pgml" href="downloads/genetics_terminology-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-genetics_terminology-questions.txt" data-selftest="genetics/topic04/downloads/selftest-WOMC-genetics_terminology.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-genetics_terminology-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -111,7 +111,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <a class="md-button custom-button webwork_pgml" href="downloads/mendel_cross_terminology-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-mendel_cross_terminology-questions.txt" data-selftest="genetics/topic04/downloads/selftest-WOMC-mendel_cross_terminology.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-mendel_cross_terminology-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -127,7 +127,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <a class="md-button custom-button webwork_pgml" href="downloads/mendel_four_principles-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-mendel_four_principles-questions.txt" data-selftest="genetics/topic04/downloads/selftest-WOMC-mendel_four_principles.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-mendel_four_principles-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -143,7 +143,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <a class="md-button custom-button webwork_pgml" href="downloads/mendelian_genetics_terms-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-mendelian_genetics_terms-questions.txt" data-selftest="genetics/topic04/downloads/selftest-WOMC-mendelian_genetics_terms.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-mendelian_genetics_terms-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -159,7 +159,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <a class="md-button custom-button webwork_pgml" href="downloads/monohybrid_cross_genotype-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-monohybrid_cross_genotype-questions.txt" data-selftest="genetics/topic04/downloads/selftest-WOMC-monohybrid_cross_genotype.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-monohybrid_cross_genotype-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -174,7 +174,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-monohybrid_genotype_statements-questions.txt" data-format="human_readable" data-filename="human_readable-monohybrid_genotype_statements.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-monohybrid_genotype_statements-questions.txt" data-selftest="genetics/topic04/downloads/selftest-monohybrid_genotype_statements.html">
+</div><div class="qti-selftest" data-bbq="bbq-monohybrid_genotype_statements-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -189,7 +189,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-monohybrid_litter_inference-questions.txt" data-format="human_readable" data-filename="human_readable-monohybrid_litter_inference.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-monohybrid_litter_inference-questions.txt" data-selftest="genetics/topic04/downloads/selftest-monohybrid_litter_inference.html">
+</div><div class="qti-selftest" data-bbq="bbq-monohybrid_litter_inference-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -204,7 +204,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-punnett_choice-questions.txt" data-format="human_readable" data-filename="human_readable-punnett_choice.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-punnett_choice-questions.txt" data-selftest="genetics/topic04/downloads/selftest-punnett_choice.html">
+</div><div class="qti-selftest" data-bbq="bbq-punnett_choice-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -219,7 +219,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-unique_cross_genotypes-with_hint-4_genes-questions.txt" data-format="human_readable" data-filename="human_readable-unique_cross_genotypes-with_hint-4_genes.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-unique_cross_genotypes-with_hint-4_genes-questions.txt" data-selftest="genetics/topic04/downloads/selftest-unique_cross_genotypes-with_hint-4_genes.html">
+</div><div class="qti-selftest" data-bbq="bbq-unique_cross_genotypes-with_hint-4_genes-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -234,7 +234,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-unique_cross_phenotypes-with_hint-4_genes-questions.txt" data-format="human_readable" data-filename="human_readable-unique_cross_phenotypes-with_hint-4_genes.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-unique_cross_phenotypes-with_hint-4_genes-questions.txt" data-selftest="genetics/topic04/downloads/selftest-unique_cross_phenotypes-with_hint-4_genes.html">
+</div><div class="qti-selftest" data-bbq="bbq-unique_cross_phenotypes-with_hint-4_genes-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -249,7 +249,7 @@ Students predict offspring ratios using Punnett squares, apply Mendel's principl
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-unique_gametes-with_hint-4_genes-questions.txt" data-format="human_readable" data-filename="human_readable-unique_gametes-with_hint-4_genes.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-unique_gametes-with_hint-4_genes-questions.txt" data-selftest="genetics/topic04/downloads/selftest-unique_gametes-with_hint-4_genes.html">
+</div><div class="qti-selftest" data-bbq="bbq-unique_gametes-with_hint-4_genes-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

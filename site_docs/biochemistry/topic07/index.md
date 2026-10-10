@@ -15,7 +15,7 @@ Students determine Vmax and Km from substrate concentration data, interpret Mich
 <a class="md-button custom-button webwork_pgml" href="downloads/m-m_kinetics.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-m-m_kinetics-questions.txt" data-selftest="biochemistry/topic07/downloads/selftest-TFMS-m-m_kinetics.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-m-m_kinetics-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -30,7 +30,7 @@ Students determine Vmax and Km from substrate concentration data, interpret Mich
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-michaelis_menten_table-Km-questions.txt" data-format="human_readable" data-filename="human_readable-michaelis_menten_table-Km.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-michaelis_menten_table-Km-questions.txt" data-selftest="biochemistry/topic07/downloads/selftest-michaelis_menten_table-Km.html">
+</div><div class="qti-selftest" data-bbq="bbq-michaelis_menten_table-Km-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -45,7 +45,7 @@ Students determine Vmax and Km from substrate concentration data, interpret Mich
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-optimal_enzyme-type_1-questions.txt" data-format="human_readable" data-filename="human_readable-optimal_enzyme-type_1.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-optimal_enzyme-type_1-questions.txt" data-selftest="biochemistry/topic07/downloads/selftest-optimal_enzyme-type_1.html">
+</div><div class="qti-selftest" data-bbq="bbq-optimal_enzyme-type_1-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -60,7 +60,7 @@ Students determine Vmax and Km from substrate concentration data, interpret Mich
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-optimal_enzyme-type_2-questions.txt" data-format="human_readable" data-filename="human_readable-optimal_enzyme-type_2.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-optimal_enzyme-type_2-questions.txt" data-selftest="biochemistry/topic07/downloads/selftest-optimal_enzyme-type_2.html">
+</div><div class="qti-selftest" data-bbq="bbq-optimal_enzyme-type_2-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -75,7 +75,7 @@ Students determine Vmax and Km from substrate concentration data, interpret Mich
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-optimal_enzyme-type_3-questions.txt" data-format="human_readable" data-filename="human_readable-optimal_enzyme-type_3.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-optimal_enzyme-type_3-questions.txt" data-selftest="biochemistry/topic07/downloads/selftest-optimal_enzyme-type_3.html">
+</div><div class="qti-selftest" data-bbq="bbq-optimal_enzyme-type_3-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

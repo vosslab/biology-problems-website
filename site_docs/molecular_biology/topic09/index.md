@@ -13,7 +13,7 @@ Translation of mRNA into protein, codons, anticodons, genetic code, ribosomes, t
 <a class="md-button custom-button webwork_pgml" href="downloads/central_dogma_terms-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-central_dogma_terms-questions.txt" data-selftest="molecular_biology/topic09/downloads/selftest-MATCH-central_dogma_terms.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-central_dogma_terms-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -29,7 +29,7 @@ Translation of mRNA into protein, codons, anticodons, genetic code, ribosomes, t
 <a class="md-button custom-button webwork_pgml" href="downloads/g-u_wobble.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-g-u_wobble-questions.txt" data-selftest="molecular_biology/topic09/downloads/selftest-TFMS-g-u_wobble.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-g-u_wobble-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -45,7 +45,7 @@ Translation of mRNA into protein, codons, anticodons, genetic code, ribosomes, t
 <a class="md-button custom-button webwork_pgml" href="downloads/translation_accuracy.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-translation_accuracy-questions.txt" data-selftest="molecular_biology/topic09/downloads/selftest-TFMS-translation_accuracy.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-translation_accuracy-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -61,7 +61,7 @@ Translation of mRNA into protein, codons, anticodons, genetic code, ribosomes, t
 <a class="md-button custom-button webwork_pgml" href="downloads/central_dogma_terms-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-central_dogma_terms-questions.txt" data-selftest="molecular_biology/topic09/downloads/selftest-WOMC-central_dogma_terms.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-central_dogma_terms-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -76,7 +76,7 @@ Translation of mRNA into protein, codons, anticodons, genetic code, ribosomes, t
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-translate_genetic_code-10_aa-questions.txt" data-format="human_readable" data-filename="human_readable-translate_genetic_code-10_aa.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-translate_genetic_code-10_aa-questions.txt" data-selftest="molecular_biology/topic09/downloads/selftest-translate_genetic_code-10_aa.html">
+</div><div class="qti-selftest" data-bbq="bbq-translate_genetic_code-10_aa-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

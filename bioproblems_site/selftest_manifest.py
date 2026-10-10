@@ -1,13 +1,12 @@
 """Build the browser self-test completion manifest.
 
 The student-facing dashboard must count only questions reachable from
-rendered topic pages. Generated-but-orphaned selftest files under
-downloads/ are intentionally ignored.
+rendered topic pages. Each declaration identifies a BBQ bank in the
+topic directory; standalone HTML is not part of this contract.
 """
 
 # Standard Library
 import html
-import hashlib
 import json
 import os
 import re
@@ -31,15 +30,7 @@ OPENING_DIV_RE = re.compile(
 	re.IGNORECASE,
 )
 CLASS_ATTRIBUTE_RE = re.compile(r"\bclass\s*=\s*([\"'])(.*?)\1", re.IGNORECASE)
-SELFTEST_ATTRIBUTE_RE = re.compile(r"\bdata-selftest\s*=\s*([\"'])(.*?)\1", re.IGNORECASE)
 BBQ_ATTRIBUTE_RE = re.compile(r"\bdata-bbq\s*=\s*([\"'])(.*?)\1", re.IGNORECASE)
-# Consume quoted attributes whole so their values cannot masquerade as an id.
-DIV_ID_PREFIX = r"<div\b(?:[^>\"']|\"[^\"]*\"|'[^']*')*?\s+id\s*=\s*([\"'])"
-DIV_ID_SUFFIX = r"(?=\s|/?>)(?:[^>\"']|\"[^\"]*\"|'[^']*')*>"
-QUESTION_DIV_RE = re.compile(
-	DIV_ID_PREFIX + r"question_html_([0-9a-f]{4}_[0-9a-f]{4})\1" + DIV_ID_SUFFIX,
-	re.IGNORECASE,
-)
 
 
 #============================================
@@ -74,7 +65,7 @@ def reachable_topic_pages(mkdocs_path: str) -> list:
 
 
 def _extract_selftest_sources(page_text: str) -> list:
-	"""Return (BBQ basename, standalone path) pairs from self-test containers."""
+	"""Return BBQ basenames declared by self-test containers."""
 	sources = []
 	for match in OPENING_DIV_RE.finditer(page_text):
 		attributes = match.group("attributes")
@@ -84,36 +75,23 @@ def _extract_selftest_sources(page_text: str) -> list:
 		classes = class_match.group(2).split()
 		if "qti-selftest" not in classes:
 			continue
-		path_match = SELFTEST_ATTRIBUTE_RE.search(attributes)
-		if path_match is None:
-			raise ValueError("Self-test container is missing data-selftest")
 		bbq_match = BBQ_ATTRIBUTE_RE.search(attributes)
 		if bbq_match is None:
 			raise ValueError("Self-test container is missing data-bbq")
 		bbq_basename = html.unescape(bbq_match.group(2))
-		if os.path.basename(bbq_basename) != bbq_basename:
+		if not bbq_basename or os.path.basename(bbq_basename) != bbq_basename:
 			raise ValueError(f"Self-test data-bbq must be a basename: {bbq_basename}")
-		sources.append((bbq_basename, html.unescape(path_match.group(2))))
-	sources.sort()
+		sources.append(bbq_basename)
 	return sources
 
 
-def _statement_fingerprint(html_text: str, crc: str) -> str:
-	"""Return a stable fingerprint for the question statement."""
-	pattern = re.compile(
-		DIV_ID_PREFIX + rf"statement_text_{re.escape(crc)}\1" + DIV_ID_SUFFIX +
-		r"(.*?)"
-		r"</div>",
-		re.IGNORECASE | re.DOTALL,
-	)
-	match = pattern.search(html_text)
-	if match:
-		payload = match.group(2)
-	else:
-		payload = html_text
-	normalized = re.sub(r"\s+", " ", payload).strip()
-	digest = hashlib.sha256(normalized.encode("utf-8")).hexdigest()
-	return digest[:16]
+#============================================
+def _validate_bank(topic_dir: str, bbq_basename: str) -> None:
+	"""Require a local bank with question data without interpreting QPM records."""
+	bank_path = os.path.join(topic_dir, bbq_basename)
+	with open(bank_path, "rb") as source:
+		if not any(line.strip() and not line.lstrip().startswith(b"#") for line in source):
+			raise ValueError(f"No questions in {git_paths.display_path(bank_path)}")
 
 
 def _topic_title(subjects: dict, subject_key: str, topic_key: str) -> str:
@@ -140,7 +118,7 @@ def build_manifest(
 		metadata_path=metadata_path, mkdocs_path=mkdocs_path
 	)
 	rows = []
-	seen_placements = {}
+	seen_placements = set()
 	for page_path in reachable_topic_pages(mkdocs_path):
 		page_match = TOPIC_PAGE_RE.match(page_path)
 		subject_key = page_match.group(1)
@@ -155,42 +133,25 @@ def build_manifest(
 			continue
 		with open(full_page_path, "r") as file_pointer:
 			page_text = file_pointer.read()
-		for bbq_basename, selftest_path in _extract_selftest_sources(page_text):
-			full_selftest_path = os.path.join(site_docs_dir, selftest_path)
-			if not os.path.isfile(full_selftest_path):
-				raise FileNotFoundError(git_paths.display_path(full_selftest_path))
-			with open(full_selftest_path, "r", encoding="iso8859-1") as file_pointer:
-				selftest_html = file_pointer.read()
-			crcs = [match.group(2) for match in QUESTION_DIV_RE.finditer(selftest_html)]
-			if not crcs:
-				raise ValueError(f"No question_html_<crc> div in {selftest_path}")
-			# A standalone artifact supplies a representative question only. The
-			# BBQ filename is the durable identity of the problem set students
-			# practice, while its sample CRC remains useful for diagnostics.
-			crc = crcs[0]
+		for bbq_basename in _extract_selftest_sources(page_text):
+			_validate_bank(os.path.dirname(full_page_path), bbq_basename)
 			row = {
 				"questionId": bbq_basename,
-				"crc": crc,
 				"subjectKey": subject_key,
 				"topicKey": topic_key,
 				"topicTitle": _topic_title(subjects, subject_key, topic_key),
 				"pagePath": page_path,
-				"selftestPath": selftest_path,
-				"questionFingerprint": _statement_fingerprint(selftest_html, crc),
 			}
 			placement_key = (page_path, bbq_basename)
 			if placement_key in seen_placements:
-				previous = seen_placements[placement_key]
 				raise ValueError(
-					f"Duplicate selftest problem set {bbq_basename} on {page_path}: "
-					f"{previous['selftestPath']} and {selftest_path}"
+					f"Duplicate selftest problem set {bbq_basename} on {page_path}"
 				)
-			seen_placements[placement_key] = row
+			seen_placements.add(placement_key)
 			rows.append(row)
 	rows.sort(key=lambda row: (
 		row["subjectKey"],
 		row["topicKey"],
-		row["selftestPath"],
 		row["questionId"],
 	))
 	manifest = {
@@ -231,7 +192,6 @@ def _merge_scoped_manifest(
 	rows.sort(key=lambda row: (
 		row["subjectKey"],
 		row["topicKey"],
-		row["selftestPath"],
 		row["questionId"],
 	))
 	seen_placements = set()

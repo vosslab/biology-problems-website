@@ -15,7 +15,7 @@ Students analyze phospholipid bilayer structure, predict how composition affects
 <a class="md-button custom-button webwork_pgml" href="downloads/fluid_mosaic_model.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-fluid_mosaic_model-questions.txt" data-selftest="biochemistry/topic13/downloads/selftest-TFMS-fluid_mosaic_model.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-fluid_mosaic_model-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -31,7 +31,7 @@ Students analyze phospholipid bilayer structure, predict how composition affects
 <a class="md-button custom-button webwork_pgml" href="downloads/membrane_diffusion.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-membrane_diffusion-questions.txt" data-selftest="biochemistry/topic13/downloads/selftest-TFMS-membrane_diffusion.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-membrane_diffusion-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -47,7 +47,7 @@ Students analyze phospholipid bilayer structure, predict how composition affects
 <a class="md-button custom-button webwork_pgml" href="downloads/membrane_protein_functions.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-membrane_protein_functions-questions.txt" data-selftest="biochemistry/topic13/downloads/selftest-TFMS-membrane_protein_functions.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-membrane_protein_functions-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

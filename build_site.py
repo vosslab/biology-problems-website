@@ -22,11 +22,11 @@ def build_parser() -> argparse.ArgumentParser:
 		description="Build and update the Biology Problems website content.",
 		add_help=False,
 		epilog=(
-			"The default workflow generates stale BBQ content and updates native self-tests,\n"
-			"topic pages, indexes, and navigation. Package exports run in the browser;\n"
-			"BBQ and PGML remain direct files. Use -H or -I to rebuild\n"
-			"selected artifacts from existing BBQ files. Both modes honor -S and -T\n"
-			"and force their selected outputs without needing --rebuild.\n"
+			"The default workflow generates stale BBQ content and updates topic pages,\n"
+			"indexes, navigation, and the self-test manifest. Self-tests and package\n"
+			"exports run in the browser; BBQ and PGML remain direct files.\n"
+			"Use -I to rebuild pages and indexes from existing BBQ files. It honors\n"
+			"-S and -T and forces selected outputs without needing --rebuild.\n"
 			"Topic filters require a subject and accept a key, alias, or quoted title.\n"
 			"Then run MkDocs to build the final static site.\n\n"
 			"Examples:\n"
@@ -34,17 +34,12 @@ def build_parser() -> argparse.ArgumentParser:
 			"    ./build_site.py\n"
 			"    ./build_site.py --task task_files/genetics_tasks1.csv\n"
 			"    ./build_site.py -S genetics -T topic01 --rebuild\n\n"
-			"  Rebuild self-test HTML (all subjects, one subject, or one topic):\n"
-			"    ./build_site.py -H\n"
-			"    ./build_site.py -H -S genetics\n"
-			"    ./build_site.py -H -S genetics -T genetic_disorders\n"
-			"    ./build_site.py -H -S genetics -T 'Genetic Disorders'\n\n"
 			"  Rewrite generated topic and subject index.md pages:\n"
 			"    ./build_site.py -I\n"
 			"    ./build_site.py -I -S genetics\n"
 			"    ./build_site.py -I -S genetics -T topic01\n\n"
-			"  Preview a focused self-test rebuild without changing files:\n"
-			"    ./build_site.py -H -S genetics -T topic01 -n --cli\n\n"
+			"  Preview a focused page rebuild without changing files:\n"
+			"    ./build_site.py -I -S genetics -T topic01 -n --cli\n\n"
 			"  Set question counts or sample one task row:\n"
 			"    ./build_site.py -x 99\n"
 			"    ./build_site.py -R -l 1"
@@ -52,12 +47,7 @@ def build_parser() -> argparse.ArgumentParser:
 		formatter_class=argparse.RawDescriptionHelpFormatter,
 	)
 	parser.add_argument("-h", "--help", action="help", help="Show this help message and exit.")
-	mode_group = parser.add_mutually_exclusive_group()
-	mode_group.add_argument(
-		"-H", "--selftests-only", dest="mode", action="store_const", const="selftests",
-		help="Regenerate self-test HTML in the selected subject/topic scope and refresh its manifest.",
-	)
-	mode_group.add_argument(
+	parser.add_argument(
 		"-I", "--indexes-only", dest="mode", action="store_const", const="indexes",
 		help="Rewrite generated indexes and refresh navigation, catalogs, and homepage statistics.",
 	)
@@ -167,12 +157,12 @@ def _scope_from_args(args: argparse.Namespace) -> build_contracts.BuildScope:
 		raise ValueError("--limit must be positive")
 	if args.max_questions is not None and args.max_questions <= 0:
 		raise ValueError("--max-questions must be positive")
-	# ASVS 2.2.1: artifact-only modes use subject/topic scope, never generator controls.
+	# ASVS 2.2.1: index-only builds use subject/topic scope, never generator controls.
 	if args.mode != "all" and any((
 		args.task_file, args.limit, args.shuffle, args.max_questions,
 	)):
 		raise ValueError(
-			"--selftests-only and --indexes-only cannot use "
+			"--indexes-only cannot use "
 			"--task, --limit, --shuffle, or --max-questions; use --subject and --topic"
 		)
 	if args.topic is not None and args.subject is None:
@@ -241,11 +231,7 @@ def main(arguments: list[str] | None = None) -> int:
 		return bbq_tui.run_app(scope)
 	timing = build_progress.PlainBuildTiming()
 	progress = build_progress.BuildProgress(timing.observe, threading.Event())
-	try:
-		report = build_coordinator.build_site_with_timing(scope, progress)
-	except git_paths.NativeConverterUnavailableError as error:
-		print(f"Build incomplete: {error}", file=sys.stderr)
-		return 1
+	report = build_coordinator.build_site_with_timing(scope, progress)
 	for stage_name, stage_seconds in report.stage_seconds.items():
 		stage_files = report.stage_files.get(stage_name, set())
 		stage_duration = bbq_runner.format_elapsed_time(stage_seconds)

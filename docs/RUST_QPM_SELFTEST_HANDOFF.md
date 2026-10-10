@@ -2,6 +2,10 @@
 
 Date: 2026-10-09
 
+This is a historical upstream reproduction receipt. BPW's later
+[flat HTML retirement](BPW_FLAT_HTML_RETIREMENT.md) removes the generated reference
+files from the website; their baseline remains available in Git history.
+
 Please investigate presentation differences in the standalone HTML produced by Rust QPM's
 `html_selftest` writer. The findings below reproduce without MkDocs or website JavaScript.
 QPM owns the generated HTML, CSS, controls, and internal interactions. Please choose the

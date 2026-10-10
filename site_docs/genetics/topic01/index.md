@@ -15,7 +15,7 @@ Students identify common genetic disorders and describe basic inheritance patter
 <a class="md-button custom-button webwork_pgml" href="downloads/genetic_disorders-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-genetic_disorders-questions.txt" data-selftest="genetics/topic01/downloads/selftest-MATCH-genetic_disorders.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-genetic_disorders-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -31,7 +31,7 @@ Students identify common genetic disorders and describe basic inheritance patter
 <a class="md-button custom-button webwork_pgml" href="downloads/genetic_disorders-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-genetic_disorders-questions.txt" data-selftest="genetics/topic01/downloads/selftest-WOMC-genetic_disorders.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-genetic_disorders-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -46,7 +46,7 @@ Students identify common genetic disorders and describe basic inheritance patter
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt" data-format="human_readable" data-filename="human_readable-beadle_tatum-metabolic_pathway-5_metabolites.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt" data-selftest="genetics/topic01/downloads/selftest-beadle_tatum-metabolic_pathway-5_metabolites.html">
+</div><div class="qti-selftest" data-bbq="bbq-beadle_tatum-metabolic_pathway-5_metabolites-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

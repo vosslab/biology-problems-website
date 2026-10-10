@@ -16,8 +16,8 @@
 // contract, cited by source file:line) live in ./helper_smoke_checks.mjs; both
 // exported checks throw on failure, which fails the owning test. The font
 // contract is custom.css:1-24, daily_puzzle.css:6-14, and mkdocs.yml:4-6.
-// Selector targets are daily_puzzles/peptidyle.md:21 and
-// biostatistics/topic05/downloads/selftest-z_score_table_interp.html:4.
+// Selector targets are daily_puzzles/peptidyle.md and the WASM-generated
+// z_score_table_interp question declared by biostatistics/topic05/index.md.
 
 /// <reference types="node" />
 

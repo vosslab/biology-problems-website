@@ -12,7 +12,7 @@ Students analyze GAPDH DNA and protein sequences using BLAST, interpret alignmen
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" data-format="human_readable" data-filename="human_readable-consensus_sequence_FIB-arbitrary_code.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-consensus_sequence_FIB-arbitrary_code-questions.txt" data-selftest="laboratory/topic13/downloads/selftest-consensus_sequence_FIB-arbitrary_code.html">
+</div><div class="qti-selftest" data-bbq="bbq-consensus_sequence_FIB-arbitrary_code-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -27,7 +27,7 @@ Students analyze GAPDH DNA and protein sequences using BLAST, interpret alignmen
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-consensus_sequence_FIB-easy-questions.txt" data-format="human_readable" data-filename="human_readable-consensus_sequence_FIB-easy.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-consensus_sequence_FIB-easy-questions.txt" data-selftest="laboratory/topic13/downloads/selftest-consensus_sequence_FIB-easy.html">
+</div><div class="qti-selftest" data-bbq="bbq-consensus_sequence_FIB-easy-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -42,7 +42,7 @@ Students analyze GAPDH DNA and protein sequences using BLAST, interpret alignmen
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-consensus_sequence_FIB-hard-questions.txt" data-format="human_readable" data-filename="human_readable-consensus_sequence_FIB-hard.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-consensus_sequence_FIB-hard-questions.txt" data-selftest="laboratory/topic13/downloads/selftest-consensus_sequence_FIB-hard.html">
+</div><div class="qti-selftest" data-bbq="bbq-consensus_sequence_FIB-hard-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -57,7 +57,7 @@ Students analyze GAPDH DNA and protein sequences using BLAST, interpret alignmen
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-consensus_sequence_MC-questions.txt" data-format="human_readable" data-filename="human_readable-consensus_sequence_MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-consensus_sequence_MC-questions.txt" data-selftest="laboratory/topic13/downloads/selftest-consensus_sequence_MC.html">
+</div><div class="qti-selftest" data-bbq="bbq-consensus_sequence_MC-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

@@ -13,7 +13,7 @@ Students summarize data using frequency tables and proportions, calculate mean, 
 <a class="md-button custom-button webwork_pgml" href="downloads/measures_of_center-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-measures_of_center-questions.txt" data-selftest="biostatistics/topic02/downloads/selftest-MATCH-measures_of_center.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-measures_of_center-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -29,7 +29,7 @@ Students summarize data using frequency tables and proportions, calculate mean, 
 <a class="md-button custom-button webwork_pgml" href="downloads/measures_of_center-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-measures_of_center-questions.txt" data-selftest="biostatistics/topic02/downloads/selftest-WOMC-measures_of_center.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-measures_of_center-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -44,7 +44,7 @@ Students summarize data using frequency tables and proportions, calculate mean, 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-descriptive_stats_google_sheet-questions.txt" data-format="human_readable" data-filename="human_readable-descriptive_stats_google_sheet.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-descriptive_stats_google_sheet-questions.txt" data-selftest="biostatistics/topic02/downloads/selftest-descriptive_stats_google_sheet.html">
+</div><div class="qti-selftest" data-bbq="bbq-descriptive_stats_google_sheet-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

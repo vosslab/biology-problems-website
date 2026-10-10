@@ -16,14 +16,10 @@ import pytest
 
 # local repo modules
 import bioproblems_site.orphan_prune as orphan_prune
-import bioproblems_site.topic_page as topic_page
 import bioproblems_site.bbq_workflow as bbq_workflow
 
 
 #============================================
-# pure_download_basename equivalence with get_outfile_name
-
-
 def test_task_companion_survives_variant_bbq_name(tmp_path: pathlib.Path) -> None:
 	"""A live generator's companion file must survive cleanup of variant outputs."""
 	script = tmp_path / "generator.py"
@@ -67,33 +63,6 @@ def test_failed_removal_keeps_cleaning_other_orphans(
 	assert not removable.exists()
 	assert plan["deferred"] == [{"path": str(blocked), "reason": "fixture: file is locked"}]
 
-# The 4 download format keys as (prefix, extension) pairs.
-DOWNLOAD_FORMAT_CASES = [
-	("selftest", "html"),
-	("blackboard_export_zip", "zip"),
-	("canvas_qti_v1_2", "zip"),
-	("human_readable", "html"),
-]
-
-# Cores exercising the naming branches: normal, MATCH-*, already-prefixed.
-EQUIVALENCE_CORES = [
-	"chemical_group_pka_forms",
-	"MATCH-amino_acid_codes",
-	"selftest-already_prefixed",
-]
-
-
-@pytest.mark.parametrize("core", EQUIVALENCE_CORES)
-@pytest.mark.parametrize("prefix,ext", DOWNLOAD_FORMAT_CASES)
-def test_pure_download_basename_matches_get_outfile_name(tmp_path: object, core: object, prefix: object, ext: object) -> object:
-	# Build a bbq path under tmp_path that encodes the target core
-	bbq_path = os.path.join(str(tmp_path), f"bbq-{core}-questions.txt")
-	expected_path = topic_page.get_outfile_name(bbq_path, prefix, ext)
-	expected_basename = os.path.basename(expected_path)
-	pure_basename = orphan_prune.pure_download_basename(core, prefix, ext)
-	assert pure_basename == expected_basename
-
-
 #============================================
 # find_orphan_downloads orphan vs unmanaged classification
 
@@ -111,7 +80,7 @@ def test_find_orphan_downloads_flags_prefixed_and_pgml_orphans(tmp_path: object)
 	live_cores = {"alpha"}
 	# A live artifact, two ghost orphans, and one unmanaged support file
 	names = [
-		"selftest-alpha.html",
+		"human_readable-alpha.html",
 		"blackboard_export_zip-ghost.zip",
 		"ghost.pgml",
 		"random_support.txt",
@@ -125,7 +94,7 @@ def test_find_orphan_downloads_flags_prefixed_and_pgml_orphans(tmp_path: object)
 def test_find_orphan_downloads_keeps_live_and_ignores_unmanaged(tmp_path: object) -> object:
 	live_cores = {"alpha"}
 	names = [
-		"selftest-alpha.html",
+		"human_readable-alpha.html",
 		"random_support.txt",
 	]
 	_make_downloads(tmp_path, names)
@@ -137,13 +106,14 @@ def test_find_orphan_downloads_keeps_live_and_ignores_unmanaged(tmp_path: object
 
 
 #============================================
-def test_find_orphan_downloads_removes_retired_qti_for_live_core(tmp_path: object) -> object:
+@pytest.mark.parametrize("artifact", ["blackboard_qti_v2_1-alpha.zip", "selftest-alpha.html"])
+def test_find_orphan_downloads_removes_retired_format_for_live_core(tmp_path: object, artifact: str) -> None:
 	"""A retired format is removed even when its BBQ source core is still live."""
 	live_cores = {"alpha"}
-	_make_downloads(tmp_path, ["blackboard_qti_v2_1-alpha.zip"])
+	_make_downloads(tmp_path, [artifact])
 	result = orphan_prune.find_orphan_downloads(str(tmp_path), live_cores)
 	orphan_basenames = {os.path.basename(p) for p in result["orphans"]}
-	assert orphan_basenames == {"blackboard_qti_v2_1-alpha.zip"}
+	assert orphan_basenames == {artifact}
 
 
 #============================================
@@ -331,8 +301,8 @@ def test_task_owned_patterns_prune_unmatched_source_and_derivatives(tmp_path: pa
 	orphan_source = topic_folder / "bbq-removed-questions.txt"
 	owned_source.write_text("MC\tOwned question\n")
 	orphan_source.write_text("MC\tRemoved question\n")
-	owned_download = downloads_dir / "selftest-owned.html"
-	orphan_download = downloads_dir / "selftest-removed.html"
+	owned_download = downloads_dir / "human_readable-owned.html"
+	orphan_download = downloads_dir / "human_readable-removed.html"
 	owned_download.write_text("owned\n")
 	orphan_download.write_text("removed\n")
 	index_path = topic_folder / "index.md"
@@ -349,7 +319,7 @@ def test_task_owned_patterns_prune_unmatched_source_and_derivatives(tmp_path: pa
 		"bbq-removed-questions.txt"
 	}
 	assert {os.path.basename(path) for path in dry_run_plan["delete_downloads"]} == {
-		"selftest-removed.html"
+		"human_readable-removed.html"
 	}
 	assert owned_source.is_file()
 	assert orphan_source.is_file()

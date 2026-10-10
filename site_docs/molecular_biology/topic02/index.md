@@ -13,7 +13,7 @@ DNA composition, base pairing, and double-helix structure.
 <a class="md-button custom-button webwork_pgml" href="downloads/dna_structure.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-dna_structure-questions.txt" data-selftest="molecular_biology/topic02/downloads/selftest-TFMS-dna_structure.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-dna_structure-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -29,7 +29,7 @@ DNA composition, base pairing, and double-helix structure.
 <a class="md-button custom-button webwork_pgml" href="downloads/melting_Tm_type_1.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-melting_Tm_type_1-questions.txt" data-selftest="molecular_biology/topic02/downloads/selftest-TFMS-melting_Tm_type_1.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-melting_Tm_type_1-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -45,7 +45,7 @@ DNA composition, base pairing, and double-helix structure.
 <a class="md-button custom-button webwork_pgml" href="downloads/melting_Tm_type_2a.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-melting_Tm_type_2a-questions.txt" data-selftest="molecular_biology/topic02/downloads/selftest-TFMS-melting_Tm_type_2a.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-melting_Tm_type_2a-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -61,7 +61,7 @@ DNA composition, base pairing, and double-helix structure.
 <a class="md-button custom-button webwork_pgml" href="downloads/melting_Tm_type_2b.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-melting_Tm_type_2b-questions.txt" data-selftest="molecular_biology/topic02/downloads/selftest-TFMS-melting_Tm_type_2b.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-melting_Tm_type_2b-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -77,7 +77,7 @@ DNA composition, base pairing, and double-helix structure.
 <a class="md-button custom-button webwork_pgml" href="downloads/nucleotide_components.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-nucleotide_components-questions.txt" data-selftest="molecular_biology/topic02/downloads/selftest-TFMS-nucleotide_components.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-nucleotide_components-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -93,7 +93,7 @@ DNA composition, base pairing, and double-helix structure.
 <a class="md-button custom-button webwork_pgml" href="downloads/rna_v_dna-biol_301.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-rna_v_dna-biol_301-questions.txt" data-selftest="molecular_biology/topic02/downloads/selftest-TFMS-rna_v_dna-biol_301.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-rna_v_dna-biol_301-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -109,7 +109,7 @@ DNA composition, base pairing, and double-helix structure.
 <a class="md-button custom-button webwork_pgml" href="downloads/rna_v_dna.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-rna_v_dna-questions.txt" data-selftest="molecular_biology/topic02/downloads/selftest-TFMS-rna_v_dna.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-rna_v_dna-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -124,7 +124,7 @@ DNA composition, base pairing, and double-helix structure.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-chargaff_dna_percent-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-chargaff_dna_percent-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-chargaff_dna_percent-5_choices-questions.txt" data-selftest="molecular_biology/topic02/downloads/selftest-chargaff_dna_percent-5_choices.html">
+</div><div class="qti-selftest" data-bbq="bbq-chargaff_dna_percent-5_choices-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -139,7 +139,7 @@ DNA composition, base pairing, and double-helix structure.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-complementary_sequences-mc-directionless-questions.txt" data-format="human_readable" data-filename="human_readable-complementary_sequences-mc-directionless.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-complementary_sequences-mc-directionless-questions.txt" data-selftest="molecular_biology/topic02/downloads/selftest-complementary_sequences-mc-directionless.html">
+</div><div class="qti-selftest" data-bbq="bbq-complementary_sequences-mc-directionless-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -154,7 +154,7 @@ DNA composition, base pairing, and double-helix structure.
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-dna_melting_temp-len_12-questions.txt" data-format="human_readable" data-filename="human_readable-dna_melting_temp-len_12.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-dna_melting_temp-len_12-questions.txt" data-selftest="molecular_biology/topic02/downloads/selftest-dna_melting_temp-len_12.html">
+</div><div class="qti-selftest" data-bbq="bbq-dna_melting_temp-len_12-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

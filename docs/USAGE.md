@@ -21,7 +21,7 @@ variables inherit from the page. The hook changes built CSS only, including duri
 
 ## CLI
 
-- Build stale BBQ output, native self-tests, and affected site pages:
+- Build stale BBQ output and affected site pages:
   ```bash
   source source_me.sh && ./build_site.py
   ```
@@ -30,7 +30,7 @@ variables inherit from the page. The hook changes built CSS only, including duri
   plain output or `--tui` to request the dashboard explicitly; `--tui` requires
   interactive stdin and stdout, and the two options cannot be combined.
   After three complete rows, with executed-stage timings available, both modes
-  estimate remaining time across BBQ generation, native self-tests, topic pages,
+  estimate remaining time across BBQ generation, topic pages,
   and final indexing. The Downloads progress entry reports the direct BBQ/PGML
   files that remain available; package exports run in the browser.
   Only executed stages train timing averages; skipped stages reduce remaining
@@ -39,7 +39,7 @@ variables inherit from the page. The hook changes built CSS only, including duri
   reserve a complete row's cost per operation until their own timings are available.
   The dashboard keeps estimated finish and time left visible, including when an
   operation exceeds its earlier average. Its upper-left box shows average BBQ
-  generation and native self-test times for completed stages in the current
+  generation time for completed stages in the current
   run, excluding cached skips. Each average covers one stage, including all work
   for that task row, rather than one question file.
   Stage averages use seconds with one decimal place.
@@ -94,9 +94,8 @@ variables inherit from the page. The hook changes built CSS only, including duri
 
 Normal builds and `build_site.py --indexes-only` refresh the homepage and both full activity
 pages from active task CSVs and their published BBQ files, including after a subject/topic-scoped
-build. MkDocs consumes the committed
-generated snapshot; deployment does not need the upstream repository. A self-test-only build
-does not change counts or editorial dates.
+build. MkDocs consumes the committed generated snapshot; deployment does not need
+the upstream repository.
 
 - Question sets count published bank placements once, regardless of download formats.
   Cross-listed banks count in each subject; question-format variants count as separate sets.
@@ -136,7 +135,7 @@ The capture uses the authored Medium pedigree table, without recreating its biol
 
 ### Build ordering
 
-`build_site.py` completes each selected CSV row's BBQ generation and native self-tests
+`build_site.py` completes each selected CSV row's BBQ generation
 before advancing to the next row. Topic pages provide browser package-generation controls and
 direct BBQ/PGML files. The build renders each affected topic page once after those row-owned
 files are ready, then runs global orphan
@@ -151,13 +150,9 @@ and `sitemap.xml`. Run the content workflow from the repo root:
 source source_me.sh && ./build_site.py
 ```
 
-Artifact generation invokes the Git-tracked native `bbq-converter` in
-`vendor/qpm-native/<os>-<architecture>/`. macOS ARM64 is currently supplied.
+Self-tests and package exports use the vendored QPM WebAssembly package in the browser.
 Ordinary builds require neither the QPM checkout nor Rust/Cargo and never refresh
-the dependency automatically. See [INSTALL.md](INSTALL.md) for explicit refresh
-instructions and platform support.
-Self-test banks run concurrently using half of the detected CPU count (minimum one
-worker); each bank's complete log is printed together.
+the dependency automatically. See [INSTALL.md](INSTALL.md) for explicit refresh instructions.
 
 ### Browser downloads
 
@@ -271,9 +266,9 @@ self-test question, see [SELFTEST_PROGRESS.md](SELFTEST_PROGRESS.md).
 
 `build_site.py` runs configured task CSVs as the first stage of the content
 workflow. Operational usage lives in [BBQ_TASKS_USAGE.md](BBQ_TASKS_USAGE.md).
-Use `-H/--selftests-only` to rebuild self-test HTML from existing BBQ files or
-`-I/--indexes-only` to rewrite generated topic and subject indexes. Both honor
-subject/topic filters and `--dry-run`.
+Use `-I/--indexes-only` to rewrite generated topic and subject indexes from existing
+BBQ files and refresh the self-test manifest. It honors subject/topic filters and `--dry-run`.
+The retired `-H/--selftests-only` mode is no longer accepted.
 For the CSV schema and how the `topic` column resolves through aliases, see
 [docs/BBQ_TASK_CSV_FORMAT.md](BBQ_TASK_CSV_FORMAT.md). For the metadata
 schema and alias contract, see

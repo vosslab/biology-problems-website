@@ -15,7 +15,7 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 <a class="md-button custom-button webwork_pgml" href="downloads/catalytic_strategies-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-catalytic_strategies-questions.txt" data-selftest="biochemistry/topic08/downloads/selftest-MATCH-catalytic_strategies.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-catalytic_strategies-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -31,7 +31,7 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 <a class="md-button custom-button webwork_pgml" href="downloads/catalytic_strategies.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-catalytic_strategies-questions.txt" data-selftest="biochemistry/topic08/downloads/selftest-TFMS-catalytic_strategies.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-catalytic_strategies-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -47,7 +47,7 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 <a class="md-button custom-button webwork_pgml" href="downloads/chymotrypsin.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-chymotrypsin-questions.txt" data-selftest="biochemistry/topic08/downloads/selftest-TFMS-chymotrypsin.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-chymotrypsin-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -63,7 +63,7 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 <a class="md-button custom-button webwork_pgml" href="downloads/enzyme_inhibitors.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-enzyme_inhibitors-questions.txt" data-selftest="biochemistry/topic08/downloads/selftest-TFMS-enzyme_inhibitors.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-enzyme_inhibitors-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -79,7 +79,7 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 <a class="md-button custom-button webwork_pgml" href="downloads/catalytic_strategies-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-catalytic_strategies-questions.txt" data-selftest="biochemistry/topic08/downloads/selftest-WOMC-catalytic_strategies.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-catalytic_strategies-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -95,7 +95,7 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 <a class="md-button custom-button webwork_pgml" href="downloads/chymotrypsin_substrate.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-chymotrypsin_substrate-questions.txt" data-selftest="biochemistry/topic08/downloads/selftest-chymotrypsin_substrate.html">
+</div><div class="qti-selftest" data-bbq="bbq-chymotrypsin_substrate-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -110,7 +110,7 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-metabolic_pathway_inhibitor-BCHM355-questions.txt" data-format="human_readable" data-filename="human_readable-metabolic_pathway_inhibitor-BCHM355.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-metabolic_pathway_inhibitor-BCHM355-questions.txt" data-selftest="biochemistry/topic08/downloads/selftest-metabolic_pathway_inhibitor-BCHM355.html">
+</div><div class="qti-selftest" data-bbq="bbq-metabolic_pathway_inhibitor-BCHM355-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -125,7 +125,7 @@ Students classify inhibition type (competitive, noncompetitive, uncompetitive, m
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-michaelis_menten_table-inhibition-questions.txt" data-format="human_readable" data-filename="human_readable-michaelis_menten_table-inhibition.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-michaelis_menten_table-inhibition-questions.txt" data-selftest="biochemistry/topic08/downloads/selftest-michaelis_menten_table-inhibition.html">
+</div><div class="qti-selftest" data-bbq="bbq-michaelis_menten_table-inhibition-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

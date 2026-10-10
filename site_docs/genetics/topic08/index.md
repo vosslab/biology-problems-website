@@ -14,7 +14,7 @@ Students determine gene order on chromosomes using recombination data from test 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-tetrad_ordered-centromere_distance-MC-questions.txt" data-format="human_readable" data-filename="human_readable-tetrad_ordered-centromere_distance-MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-tetrad_ordered-centromere_distance-MC-questions.txt" data-selftest="genetics/topic08/downloads/selftest-tetrad_ordered-centromere_distance-MC.html">
+</div><div class="qti-selftest" data-bbq="bbq-tetrad_ordered-centromere_distance-MC-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -29,7 +29,7 @@ Students determine gene order on chromosomes using recombination data from test 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-tetrad_unordered_three_gene-distances_plus-questions.txt" data-format="human_readable" data-filename="human_readable-tetrad_unordered_three_gene-distances_plus.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-tetrad_unordered_three_gene-distances_plus-questions.txt" data-selftest="genetics/topic08/downloads/selftest-tetrad_unordered_three_gene-distances_plus.html">
+</div><div class="qti-selftest" data-bbq="bbq-tetrad_unordered_three_gene-distances_plus-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -44,7 +44,7 @@ Students determine gene order on chromosomes using recombination data from test 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-tetrad_unordered_three_gene-find_one_distance-MC-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-tetrad_unordered_three_gene-find_one_distance-MC-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-tetrad_unordered_three_gene-find_one_distance-MC-5_choices-questions.txt" data-selftest="genetics/topic08/downloads/selftest-tetrad_unordered_three_gene-find_one_distance-MC-5_choices.html">
+</div><div class="qti-selftest" data-bbq="bbq-tetrad_unordered_three_gene-find_one_distance-MC-5_choices-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -59,7 +59,7 @@ Students determine gene order on chromosomes using recombination data from test 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-tetrad_unordered_two_gene-find_distance-MC-6_choices-questions.txt" data-format="human_readable" data-filename="human_readable-tetrad_unordered_two_gene-find_distance-MC-6_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-tetrad_unordered_two_gene-find_distance-MC-6_choices-questions.txt" data-selftest="genetics/topic08/downloads/selftest-tetrad_unordered_two_gene-find_distance-MC-6_choices.html">
+</div><div class="qti-selftest" data-bbq="bbq-tetrad_unordered_two_gene-find_distance-MC-6_choices-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -74,7 +74,7 @@ Students determine gene order on chromosomes using recombination data from test 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-tetrad_unordered_two_gene-test_linkage-questions.txt" data-format="human_readable" data-filename="human_readable-tetrad_unordered_two_gene-test_linkage.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-tetrad_unordered_two_gene-test_linkage-questions.txt" data-selftest="genetics/topic08/downloads/selftest-tetrad_unordered_two_gene-test_linkage.html">
+</div><div class="qti-selftest" data-bbq="bbq-tetrad_unordered_two_gene-test_linkage-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -89,7 +89,7 @@ Students determine gene order on chromosomes using recombination data from test 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-three-point_test_cross-distances_plus-questions.txt" data-format="human_readable" data-filename="human_readable-three-point_test_cross-distances_plus.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-three-point_test_cross-distances_plus-questions.txt" data-selftest="genetics/topic08/downloads/selftest-three-point_test_cross-distances_plus.html">
+</div><div class="qti-selftest" data-bbq="bbq-three-point_test_cross-distances_plus-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -104,7 +104,7 @@ Students determine gene order on chromosomes using recombination data from test 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-three-point_test_cross-find_interence-MC-6_choices-questions.txt" data-format="human_readable" data-filename="human_readable-three-point_test_cross-find_interence-MC-6_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-three-point_test_cross-find_interence-MC-6_choices-questions.txt" data-selftest="genetics/topic08/downloads/selftest-three-point_test_cross-find_interence-MC-6_choices.html">
+</div><div class="qti-selftest" data-bbq="bbq-three-point_test_cross-find_interence-MC-6_choices-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -119,7 +119,7 @@ Students determine gene order on chromosomes using recombination data from test 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-three-point_test_cross-find_interence-NUM-questions.txt" data-format="human_readable" data-filename="human_readable-three-point_test_cross-find_interence-NUM.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-three-point_test_cross-find_interence-NUM-questions.txt" data-selftest="genetics/topic08/downloads/selftest-three-point_test_cross-find_interence-NUM.html">
+</div><div class="qti-selftest" data-bbq="bbq-three-point_test_cross-find_interence-NUM-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -134,7 +134,7 @@ Students determine gene order on chromosomes using recombination data from test 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-three-point_test_cross-one_gene_distance-MC-questions.txt" data-format="human_readable" data-filename="human_readable-three-point_test_cross-one_gene_distance-MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-three-point_test_cross-one_gene_distance-MC-questions.txt" data-selftest="genetics/topic08/downloads/selftest-three-point_test_cross-one_gene_distance-MC.html">
+</div><div class="qti-selftest" data-bbq="bbq-three-point_test_cross-one_gene_distance-MC-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -149,7 +149,7 @@ Students determine gene order on chromosomes using recombination data from test 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-three-point_test_cross-one_gene_distance-NUM-questions.txt" data-format="human_readable" data-filename="human_readable-three-point_test_cross-one_gene_distance-NUM.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-three-point_test_cross-one_gene_distance-NUM-questions.txt" data-selftest="genetics/topic08/downloads/selftest-three-point_test_cross-one_gene_distance-NUM.html">
+</div><div class="qti-selftest" data-bbq="bbq-three-point_test_cross-one_gene_distance-NUM-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -164,7 +164,7 @@ Students determine gene order on chromosomes using recombination data from test 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-three-point_test_cross-which_genotypes-DOUBLE-questions.txt" data-format="human_readable" data-filename="human_readable-three-point_test_cross-which_genotypes-DOUBLE.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-three-point_test_cross-which_genotypes-DOUBLE-questions.txt" data-selftest="genetics/topic08/downloads/selftest-three-point_test_cross-which_genotypes-DOUBLE.html">
+</div><div class="qti-selftest" data-bbq="bbq-three-point_test_cross-which_genotypes-DOUBLE-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -179,7 +179,7 @@ Students determine gene order on chromosomes using recombination data from test 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-three-point_test_cross-which_genotypes-GENES-questions.txt" data-format="human_readable" data-filename="human_readable-three-point_test_cross-which_genotypes-GENES.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-three-point_test_cross-which_genotypes-GENES-questions.txt" data-selftest="genetics/topic08/downloads/selftest-three-point_test_cross-which_genotypes-GENES.html">
+</div><div class="qti-selftest" data-bbq="bbq-three-point_test_cross-which_genotypes-GENES-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -194,7 +194,7 @@ Students determine gene order on chromosomes using recombination data from test 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-three-point_test_cross-which_genotypes-PARENTAL-questions.txt" data-format="human_readable" data-filename="human_readable-three-point_test_cross-which_genotypes-PARENTAL.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-three-point_test_cross-which_genotypes-PARENTAL-questions.txt" data-selftest="genetics/topic08/downloads/selftest-three-point_test_cross-which_genotypes-PARENTAL.html">
+</div><div class="qti-selftest" data-bbq="bbq-three-point_test_cross-which_genotypes-PARENTAL-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -209,7 +209,7 @@ Students determine gene order on chromosomes using recombination data from test 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-two-point_test_cross-cis-trans-MC-with_hint-questions.txt" data-format="human_readable" data-filename="human_readable-two-point_test_cross-cis-trans-MC-with_hint.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-two-point_test_cross-cis-trans-MC-with_hint-questions.txt" data-selftest="genetics/topic08/downloads/selftest-two-point_test_cross-cis-trans-MC-with_hint.html">
+</div><div class="qti-selftest" data-bbq="bbq-two-point_test_cross-cis-trans-MC-with_hint-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -224,7 +224,7 @@ Students determine gene order on chromosomes using recombination data from test 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-two-point_test_cross-distance-MC-with_hint-6_choices-questions.txt" data-format="human_readable" data-filename="human_readable-two-point_test_cross-distance-MC-with_hint-6_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-two-point_test_cross-distance-MC-with_hint-6_choices-questions.txt" data-selftest="genetics/topic08/downloads/selftest-two-point_test_cross-distance-MC-with_hint-6_choices.html">
+</div><div class="qti-selftest" data-bbq="bbq-two-point_test_cross-distance-MC-with_hint-6_choices-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -239,7 +239,7 @@ Students determine gene order on chromosomes using recombination data from test 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-two-point_test_cross-distance-NUM-with_hint-questions.txt" data-format="human_readable" data-filename="human_readable-two-point_test_cross-distance-NUM-with_hint.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-two-point_test_cross-distance-NUM-with_hint-questions.txt" data-selftest="genetics/topic08/downloads/selftest-two-point_test_cross-distance-NUM-with_hint.html">
+</div><div class="qti-selftest" data-bbq="bbq-two-point_test_cross-distance-NUM-with_hint-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -254,7 +254,7 @@ Students determine gene order on chromosomes using recombination data from test 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-two-point_test_cross-which_genotypes-MA-with_hint-PARENTAL-questions.txt" data-format="human_readable" data-filename="human_readable-two-point_test_cross-which_genotypes-MA-with_hint-PARENTAL.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-two-point_test_cross-which_genotypes-MA-with_hint-PARENTAL-questions.txt" data-selftest="genetics/topic08/downloads/selftest-two-point_test_cross-which_genotypes-MA-with_hint-PARENTAL.html">
+</div><div class="qti-selftest" data-bbq="bbq-two-point_test_cross-which_genotypes-MA-with_hint-PARENTAL-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -269,7 +269,7 @@ Students determine gene order on chromosomes using recombination data from test 
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT-questions.txt" data-format="human_readable" data-filename="human_readable-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT-questions.txt" data-selftest="genetics/topic08/downloads/selftest-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT.html">
+</div><div class="qti-selftest" data-bbq="bbq-two-point_test_cross-which_genotypes-MA-with_hint-RECOMBINANT-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

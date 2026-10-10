@@ -12,7 +12,7 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-babies_one_sample_t_test-tails1-questions.txt" data-format="human_readable" data-filename="human_readable-babies_one_sample_t_test-tails1.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-babies_one_sample_t_test-tails1-questions.txt" data-selftest="biostatistics/topic07/downloads/selftest-babies_one_sample_t_test-tails1.html">
+</div><div class="qti-selftest" data-bbq="bbq-babies_one_sample_t_test-tails1-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -27,7 +27,7 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-babies_one_sample_z_test-ztest-questions.txt" data-format="human_readable" data-filename="human_readable-babies_one_sample_z_test-ztest.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-babies_one_sample_z_test-ztest-questions.txt" data-selftest="biostatistics/topic07/downloads/selftest-babies_one_sample_z_test-ztest.html">
+</div><div class="qti-selftest" data-bbq="bbq-babies_one_sample_z_test-ztest-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -42,7 +42,7 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-babies_two_sample_t_test-tails1-questions.txt" data-format="human_readable" data-filename="human_readable-babies_two_sample_t_test-tails1.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-babies_two_sample_t_test-tails1-questions.txt" data-selftest="biostatistics/topic07/downloads/selftest-babies_two_sample_t_test-tails1.html">
+</div><div class="qti-selftest" data-bbq="bbq-babies_two_sample_t_test-tails1-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -57,7 +57,7 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-busse_woods_anova-anova-5year-questions.txt" data-format="human_readable" data-filename="human_readable-busse_woods_anova-anova-5year.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-busse_woods_anova-anova-5year-questions.txt" data-selftest="biostatistics/topic07/downloads/selftest-busse_woods_anova-anova-5year.html">
+</div><div class="qti-selftest" data-bbq="bbq-busse_woods_anova-anova-5year-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -72,7 +72,7 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-busse_woods_one_sample_tests-ztest-questions.txt" data-format="human_readable" data-filename="human_readable-busse_woods_one_sample_tests-ztest.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-busse_woods_one_sample_tests-ztest-questions.txt" data-selftest="biostatistics/topic07/downloads/selftest-busse_woods_one_sample_tests-ztest.html">
+</div><div class="qti-selftest" data-bbq="bbq-busse_woods_one_sample_tests-ztest-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -87,7 +87,7 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-busse_woods_two_sample_f_test-tails1-questions.txt" data-format="human_readable" data-filename="human_readable-busse_woods_two_sample_f_test-tails1.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-busse_woods_two_sample_f_test-tails1-questions.txt" data-selftest="biostatistics/topic07/downloads/selftest-busse_woods_two_sample_f_test-tails1.html">
+</div><div class="qti-selftest" data-bbq="bbq-busse_woods_two_sample_f_test-tails1-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -102,7 +102,7 @@ Students analyze biological datasets using one-sample z-tests and t-tests, two-s
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-busse_woods_two_sample_t_test-tails1-questions.txt" data-format="human_readable" data-filename="human_readable-busse_woods_two_sample_t_test-tails1.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-busse_woods_two_sample_t_test-tails1-questions.txt" data-selftest="biostatistics/topic07/downloads/selftest-busse_woods_two_sample_t_test-tails1.html">
+</div><div class="qti-selftest" data-bbq="bbq-busse_woods_two_sample_t_test-tails1-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

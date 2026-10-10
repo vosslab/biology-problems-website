@@ -15,7 +15,7 @@ Students identify levels of protein structure, distinguish alpha helices from be
 <a class="md-button custom-button webwork_pgml" href="downloads/levels_of_protein_structure-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-levels_of_protein_structure-questions.txt" data-selftest="biochemistry/topic04/downloads/selftest-MATCH-levels_of_protein_structure.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-levels_of_protein_structure-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -31,7 +31,7 @@ Students identify levels of protein structure, distinguish alpha helices from be
 <a class="md-button custom-button webwork_pgml" href="downloads/levels_of_protein_structure-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-levels_of_protein_structure-questions.txt" data-selftest="biochemistry/topic04/downloads/selftest-WOMC-levels_of_protein_structure.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-levels_of_protein_structure-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -46,7 +46,7 @@ Students identify levels of protein structure, distinguish alpha helices from be
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-alpha_helix_h-bonds-MA-questions.txt" data-format="human_readable" data-filename="human_readable-alpha_helix_h-bonds-MA.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-alpha_helix_h-bonds-MA-questions.txt" data-selftest="biochemistry/topic04/downloads/selftest-alpha_helix_h-bonds-MA.html">
+</div><div class="qti-selftest" data-bbq="bbq-alpha_helix_h-bonds-MA-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -61,7 +61,7 @@ Students identify levels of protein structure, distinguish alpha helices from be
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-alpha_helix_h-bonds-MC-questions.txt" data-format="human_readable" data-filename="human_readable-alpha_helix_h-bonds-MC.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-alpha_helix_h-bonds-MC-questions.txt" data-selftest="biochemistry/topic04/downloads/selftest-alpha_helix_h-bonds-MC.html">
+</div><div class="qti-selftest" data-bbq="bbq-alpha_helix_h-bonds-MC-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

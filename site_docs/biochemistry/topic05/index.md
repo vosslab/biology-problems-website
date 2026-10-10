@@ -15,7 +15,7 @@ Students choose purification methods for proteins based on size, charge, and bin
 <a class="md-button custom-button webwork_pgml" href="downloads/cell_disruption-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-cell_disruption-questions.txt" data-selftest="biochemistry/topic05/downloads/selftest-MATCH-cell_disruption.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-cell_disruption-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -31,7 +31,7 @@ Students choose purification methods for proteins based on size, charge, and bin
 <a class="md-button custom-button webwork_pgml" href="downloads/column_chromatography-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-column_chromatography-questions.txt" data-selftest="biochemistry/topic05/downloads/selftest-MATCH-column_chromatography.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-column_chromatography-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -47,7 +47,7 @@ Students choose purification methods for proteins based on size, charge, and bin
 <a class="md-button custom-button webwork_pgml" href="downloads/protein_v_dna_gels-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-protein_v_dna_gels-questions.txt" data-selftest="biochemistry/topic05/downloads/selftest-MATCH-protein_v_dna_gels.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-protein_v_dna_gels-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -63,7 +63,7 @@ Students choose purification methods for proteins based on size, charge, and bin
 <a class="md-button custom-button webwork_pgml" href="downloads/cell_disruption-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-cell_disruption-questions.txt" data-selftest="biochemistry/topic05/downloads/selftest-WOMC-cell_disruption.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-cell_disruption-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -79,7 +79,7 @@ Students choose purification methods for proteins based on size, charge, and bin
 <a class="md-button custom-button webwork_pgml" href="downloads/column_chromatography-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-column_chromatography-questions.txt" data-selftest="biochemistry/topic05/downloads/selftest-WOMC-column_chromatography.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-column_chromatography-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -95,7 +95,7 @@ Students choose purification methods for proteins based on size, charge, and bin
 <a class="md-button custom-button webwork_pgml" href="downloads/protein_v_dna_gels-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-protein_v_dna_gels-questions.txt" data-selftest="biochemistry/topic05/downloads/selftest-WOMC-protein_v_dna_gels.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-protein_v_dna_gels-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -111,7 +111,7 @@ Students choose purification methods for proteins based on size, charge, and bin
 <a class="md-button custom-button webwork_pgml" href="downloads/isoelectric_one_protein.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-isoelectric_one_protein-questions.txt" data-selftest="biochemistry/topic05/downloads/selftest-isoelectric_one_protein.html">
+</div><div class="qti-selftest" data-bbq="bbq-isoelectric_one_protein-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -127,7 +127,7 @@ Students choose purification methods for proteins based on size, charge, and bin
 <a class="md-button custom-button webwork_pgml" href="downloads/isoelectric_two_proteins.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-isoelectric_two_proteins-questions.txt" data-selftest="biochemistry/topic05/downloads/selftest-isoelectric_two_proteins.html">
+</div><div class="qti-selftest" data-bbq="bbq-isoelectric_two_proteins-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -143,7 +143,7 @@ Students choose purification methods for proteins based on size, charge, and bin
 <a class="md-button custom-button webwork_pgml" href="downloads/kaleidoscope_ladder_unknown_band.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-kaleidoscope_ladder_unknown_band-questions.txt" data-selftest="biochemistry/topic05/downloads/selftest-kaleidoscope_ladder_unknown_band.html">
+</div><div class="qti-selftest" data-bbq="bbq-kaleidoscope_ladder_unknown_band-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -159,7 +159,7 @@ Students choose purification methods for proteins based on size, charge, and bin
 <a class="md-button custom-button webwork_pgml" href="downloads/protein_gel_migration.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-protein_gel_migration-questions.txt" data-selftest="biochemistry/topic05/downloads/selftest-protein_gel_migration.html">
+</div><div class="qti-selftest" data-bbq="bbq-protein_gel_migration-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -175,7 +175,7 @@ Students choose purification methods for proteins based on size, charge, and bin
 <a class="md-button custom-button webwork_pgml" href="downloads/titration_pI.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-titration_pI-questions.txt" data-selftest="biochemistry/topic05/downloads/selftest-titration_pI.html">
+</div><div class="qti-selftest" data-bbq="bbq-titration_pI-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

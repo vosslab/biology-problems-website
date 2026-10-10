@@ -13,7 +13,7 @@ import bioproblems_site.topic_page as topic_page
 
 #============================================
 def test_browser_controls_preserve_export_files(
-	tmp_path: pathlib.Path, monkeypatch: pytest.MonkeyPatch,
+	tmp_path: pathlib.Path,
 ) -> None:
 	"""Rendering offers all exports without writing or touching prebuilt files."""
 	bbq_file = tmp_path / "bbq-xx-questions.txt"
@@ -23,10 +23,6 @@ def test_browser_controls_preserve_export_files(
 	old_export = downloads / "Canvas_QTI_v1_2-xx.zip"
 	old_export.write_bytes(b"existing package")
 	before = old_export.stat()
-	monkeypatch.setattr(
-		topic_page, "create_downloadable_format",
-		lambda *args, **kwargs: pytest.fail("Page rendering invoked conversion"),
-	)
 	row = topic_page.generate_download_button_row(
 		str(bbq_file), list(topic_page.DOWNLOAD_FORMAT_KEYS), verbose=False, stats={},
 	)
@@ -45,26 +41,6 @@ def test_browser_controls_preserve_export_files(
 	assert list(downloads.iterdir()) == [old_export]
 	assert old_export.read_bytes() == b"existing package"
 	assert old_export.stat().st_mtime_ns == before.st_mtime_ns
-
-
-#============================================
-def test_expected_output_path_does_not_remove_case_mismatch(
-	tmp_path: pathlib.Path,
-) -> None:
-	"""Stale checks can derive paths without deleting differently cased files."""
-	downloads_dir = tmp_path / "downloads"
-	downloads_dir.mkdir()
-	bbq_file = tmp_path / "bbq-xx-questions.txt"
-	bbq_file.write_text("MC\tQ1\n*A\tyes\nB\tno\n")
-	case_mismatch = downloads_dir / "Canvas_QTI_v1_2-xx.zip"
-	case_mismatch.touch()
-
-	expected = topic_page.get_expected_outfile_name(
-		str(bbq_file), "canvas_qti_v1_2", "zip"
-	)
-
-	assert expected.endswith("canvas_qti_v1_2-xx.zip")
-	assert case_mismatch.is_file()
 
 
 #============================================
@@ -138,9 +114,6 @@ def test_topic_page_uses_empty_dynamic_selftest_container(
 	topic_dir.mkdir(parents=True)
 	bbq_file = topic_dir / "bbq-cells-questions.txt"
 	bbq_file.write_text("MC\tWhat is a cell?\n*A\tA cell\nB\tNot a cell\n")
-	downloads_dir = topic_dir / "downloads"
-	downloads_dir.mkdir()
-	(downloads_dir / "selftest-cells.html").write_text("<div>standalone question</div>\n")
 	monkeypatch.setattr(topic_page, "get_topic_title", lambda *args: "Cells")
 	monkeypatch.setattr(topic_page, "get_topic_description", lambda *args: "Cell questions.")
 	monkeypatch.setattr(topic_page, "get_libretexts_link", lambda *args: None)
@@ -155,8 +128,6 @@ def test_topic_page_uses_empty_dynamic_selftest_container(
 		[],
 		False,
 		{},
-		str(site_docs),
-		regenerate_selftests=False,
 	)
 
 	page = (topic_dir / "index.md").read_text()
@@ -164,8 +135,6 @@ def test_topic_page_uses_empty_dynamic_selftest_container(
 	container = soup.select_one("div.qti-selftest")
 	assert container is not None
 	assert container["data-bbq"] == "bbq-cells-questions.txt"
-	assert not container.has_attr("data-bank-id")
-	assert container["data-selftest"] == "biology/topic01/downloads/selftest-cells.html"
+	assert not (topic_dir / "downloads").exists()
 	assert container.select_one(".selftest-reroll-content").get_text() == ""
-	assert "standalone question" not in page
 	assert "<details>" not in page

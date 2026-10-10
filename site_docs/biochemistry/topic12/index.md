@@ -15,7 +15,7 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
 <a class="md-button custom-button webwork_pgml" href="downloads/fatty_acid_match_delta.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-fatty_acid_match_delta-questions.txt" data-selftest="biochemistry/topic12/downloads/selftest-fatty_acid_match_delta.html">
+</div><div class="qti-selftest" data-bbq="bbq-fatty_acid_match_delta-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -31,7 +31,7 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
 <a class="md-button custom-button webwork_pgml" href="downloads/fatty_acid_match_omega.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-fatty_acid_match_omega-questions.txt" data-selftest="biochemistry/topic12/downloads/selftest-fatty_acid_match_omega.html">
+</div><div class="qti-selftest" data-bbq="bbq-fatty_acid_match_omega-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -47,7 +47,7 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
 <a class="md-button custom-button webwork_pgml" href="downloads/fatty_acid_naming_delta.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-fatty_acid_naming_delta-questions.txt" data-selftest="biochemistry/topic12/downloads/selftest-fatty_acid_naming_delta.html">
+</div><div class="qti-selftest" data-bbq="bbq-fatty_acid_naming_delta-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -63,7 +63,7 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
 <a class="md-button custom-button webwork_pgml" href="downloads/fatty_acid_naming_omega.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-fatty_acid_naming_omega-questions.txt" data-selftest="biochemistry/topic12/downloads/selftest-fatty_acid_naming_omega.html">
+</div><div class="qti-selftest" data-bbq="bbq-fatty_acid_naming_omega-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -79,7 +79,7 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
 <a class="md-button custom-button webwork_pgml" href="downloads/quick_fatty_acid_colon_system.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-quick_fatty_acid_colon_system-questions.txt" data-selftest="biochemistry/topic12/downloads/selftest-quick_fatty_acid_colon_system.html">
+</div><div class="qti-selftest" data-bbq="bbq-quick_fatty_acid_colon_system-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -95,7 +95,7 @@ Students classify lipids by type (fatty acids, triacylglycerols, sphingolipids, 
 <a class="md-button custom-button webwork_pgml" href="downloads/which_lipid-chemical_formula.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-which_lipid-chemical_formula-questions.txt" data-selftest="biochemistry/topic12/downloads/selftest-which_lipid-chemical_formula.html">
+</div><div class="qti-selftest" data-bbq="bbq-which_lipid-chemical_formula-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

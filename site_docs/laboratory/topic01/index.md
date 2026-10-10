@@ -12,7 +12,7 @@ Students convert between SI-prefixed units, choose values with the correct order
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-orders_of_magnitude_mc-questions.txt" data-format="human_readable" data-filename="human_readable-orders_of_magnitude_mc.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-orders_of_magnitude_mc-questions.txt" data-selftest="laboratory/topic01/downloads/selftest-orders_of_magnitude_mc.html">
+</div><div class="qti-selftest" data-bbq="bbq-orders_of_magnitude_mc-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -27,7 +27,7 @@ Students convert between SI-prefixed units, choose values with the correct order
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-pipet_size_mc-questions.txt" data-format="human_readable" data-filename="human_readable-pipet_size_mc.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-pipet_size_mc-questions.txt" data-selftest="laboratory/topic01/downloads/selftest-pipet_size_mc.html">
+</div><div class="qti-selftest" data-bbq="bbq-pipet_size_mc-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 

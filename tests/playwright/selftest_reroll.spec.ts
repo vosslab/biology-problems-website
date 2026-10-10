@@ -27,7 +27,7 @@ test("real WASM starts one question and loads another on request", async ({ page
   });
   await page.goto("/genetics/topic01/");
 
-  const hosts = page.locator(".qti-selftest[data-bbq][data-selftest]");
+  const hosts = page.locator(".qti-selftest[data-bbq]");
   await expect(hosts.first()).toBeAttached();
   const first = hosts.first();
   const second = hosts.nth(1);
@@ -65,9 +65,9 @@ async function lifecycleFixture(page: Page): Promise<Locator> {
   });
   await page.route("**/selftest_lifecycle_fixture/", async (route) => {
     await route.fulfill({ contentType: "text/html", body: `
-      <div class="qti-selftest" data-bbq="one.txt" data-selftest="one.html"><div class="selftest-reroll-content"></div></div>
-      <div class="qti-selftest" data-bbq="two.txt" data-selftest="two.html"><div class="selftest-reroll-content"></div></div>
-      <div class="qti-selftest" data-bbq="three.txt" data-selftest="three.html"><div class="selftest-reroll-content"></div></div>
+      <div class="qti-selftest" data-bbq="one.txt"><div class="selftest-reroll-content"></div></div>
+      <div class="qti-selftest" data-bbq="two.txt"><div class="selftest-reroll-content"></div></div>
+      <div class="qti-selftest" data-bbq="three.txt"><div class="selftest-reroll-content"></div></div>
       <script src="/assets/scripts/selftest_reroll.js"></script>
     ` });
   });
@@ -100,7 +100,7 @@ async function dependencyFixture(page: Page): Promise<Locator> {
   });
   await page.route("**/selftest_dependency_fixture/", async (route) => {
     await route.fulfill({ contentType: "text/html", body: `
-      <div class="qti-selftest" data-bbq="dependency.txt" data-selftest="dependency.html"><div class="selftest-reroll-content"></div></div>
+      <div class="qti-selftest" data-bbq="dependency.txt"><div class="selftest-reroll-content"></div></div>
       <script src="/assets/scripts/selftest_reroll.js"></script>
     ` });
   });

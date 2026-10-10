@@ -5,7 +5,6 @@ bioproblems_site.topic_page imports these constants while it renders button rows
 
 #============================================
 FORMAT_LABELS: dict = {
-	"selftest": "Selftest HTML",
 	"bb_text": "BBQ Text",
 	"bb_export": "Blackboard Ultra ZIP",
 	"canvas_qti": "Canvas/ADAPT QTI v1.2",

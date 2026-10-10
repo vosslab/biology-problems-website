@@ -15,7 +15,7 @@ Students calculate allele and genotype frequencies in populations, apply the Har
 <a class="md-button custom-button webwork_pgml" href="downloads/population_genetics_terms-matching.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-MATCH-population_genetics_terms-questions.txt" data-selftest="genetics/topic10/downloads/selftest-MATCH-population_genetics_terms.html">
+</div><div class="qti-selftest" data-bbq="bbq-MATCH-population_genetics_terms-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -31,7 +31,7 @@ Students calculate allele and genotype frequencies in populations, apply the Har
 <a class="md-button custom-button webwork_pgml" href="downloads/h-w_non-evolve_criteria.pg" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-TFMS-h-w_non-evolve_criteria-questions.txt" data-selftest="genetics/topic10/downloads/selftest-TFMS-h-w_non-evolve_criteria.html">
+</div><div class="qti-selftest" data-bbq="bbq-TFMS-h-w_non-evolve_criteria-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -47,7 +47,7 @@ Students calculate allele and genotype frequencies in populations, apply the Har
 <a class="md-button custom-button webwork_pgml" href="downloads/population_genetics_terms-which_one.pgml" download aria-label="Download WeBWorK PGML">WeBWorK PGML</a>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-WOMC-population_genetics_terms-questions.txt" data-selftest="genetics/topic10/downloads/selftest-WOMC-population_genetics_terms.html">
+</div><div class="qti-selftest" data-bbq="bbq-WOMC-population_genetics_terms-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -62,7 +62,7 @@ Students calculate allele and genotype frequencies in populations, apply the Har
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-hardy_weinberg_mc_type-questions.txt" data-format="human_readable" data-filename="human_readable-hardy_weinberg_mc_type.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-hardy_weinberg_mc_type-questions.txt" data-selftest="genetics/topic10/downloads/selftest-hardy_weinberg_mc_type.html">
+</div><div class="qti-selftest" data-bbq="bbq-hardy_weinberg_mc_type-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
@@ -77,7 +77,7 @@ Students calculate allele and genotype frequencies in populations, apply the Har
 <button type="button" class="md-button custom-button human_read qti-package-download" data-bbq="bbq-hardy_weinberg_numeric-NUM-5_choices-questions.txt" data-format="human_readable" data-filename="human_readable-hardy_weinberg_numeric-NUM-5_choices.html" aria-label="Generate Human-Readable HTML">Human-Readable HTML</button>
 <span class="qti-package-status" role="status" aria-live="polite"></span>
 <progress class="qti-package-progress" max="1" value="0" hidden aria-label="Package generation progress"></progress>
-</div><div class="qti-selftest" data-bbq="bbq-hardy_weinberg_numeric-NUM-5_choices-questions.txt" data-selftest="genetics/topic10/downloads/selftest-hardy_weinberg_numeric-NUM-5_choices.html">
+</div><div class="qti-selftest" data-bbq="bbq-hardy_weinberg_numeric-NUM-5_choices-questions.txt">
   <div class="selftest-reroll-content"></div>
 </div>
 
