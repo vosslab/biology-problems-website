@@ -29,6 +29,12 @@ serve or build the site from [site_docs/](../site_docs/) using
 Browser downloads render tables and molecules in the visitor's browser. Ordinary content
 builds retain direct BBQ/PGML files. Self-test HTML is generated in the browser from BBQ banks.
 
+The documentation capture command also needs ImageMagick, FFmpeg, and `cwebp`.
+On macOS, install them with `brew install imagemagick ffmpeg webp`. Keep the
+`qti-package-maker-rs` sibling checkout for its frozen references and the
+`../../vosslab-skills` checkout for its `screenshot-docs/scripts/make_gif.sh` helper.
+Run [devel/capture_screenshots.sh](../devel/capture_screenshots.sh) to refresh the corpus.
+
 ## Refresh QPM dependencies
 
 QPM is a stable vendored dependency. Refresh deliberately when adopting an upstream fix.

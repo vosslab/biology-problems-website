@@ -3,6 +3,9 @@
 
 ### Behavior or Interface Changes
 
+- Use Roosevelt green with white text for the practice action, at a compact 28px minimum
+  height. Consume Rust QPM's matching green Check Answer buttons and tighter MC/MA rows.
+  This requested styling update intentionally differs from the unchanged Python references.
 - Tighten the practice toolbar to 8px gaps so its button, completion badge, and hint read
   as one compact group. Preserve existing button padding, heights, colors, and QPM controls.
 - Make **Show another question** advance through a bank's source records in
@@ -23,11 +26,24 @@
 
 ### Fixes and Maintenance
 
+- Consolidate README and self-test captures under `devel/capture_screenshots.sh`.
+  The command loads the environment, owns one MkDocs server, refreshes the full corpus
+  and its receipt, and shuts down the browser and server. Move capture code out of
+  `tests/`; read frozen Python references directly without a separate gallery server.
+  Point `npm run docs:screenshots` at the same complete refresh.
+- Store the 48 static documentation captures as WebP using the text preset at
+  quality 90. Refresh their embeds and receipt, retaining the MATCH GIF and original
+  regression PNG. Complete captures in a temporary directory before replacing the corpus.
+  Remove the superseded static PNGs; their combined size falls from 4.67 MB to 2.41 MB.
 - Make the self-test screenshot capture script executable to match its Node shebang and
   the existing screenshot runner convention.
 
 ### Developer Tests and Notes
 
+- Run the unified capture command successfully for all 48 WebP images and the GIF.
+  Verify receipt hashes, all live embeds, and unchanged frozen Python files. Temporary
+  occupied-port, encoder-failure, and interruption checks confirm server cleanup and
+  preservation of the published corpus. Remove these one-time checks after verification.
 - Verify sequential selection, wraparound, single-question restart, and failed-load
   recovery through the real MkDocs browser lane (seven tests pass). All three Node
   self-test checks pass. An independent Chromium walk visits all 50 questions in the

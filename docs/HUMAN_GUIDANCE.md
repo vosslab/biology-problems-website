@@ -23,6 +23,9 @@ origin belongs there too. Rules: [REPO_STYLE.md](REPO_STYLE.md).
 
 ## Review expectations
 
+- Make Check Answer Roosevelt University green. Use compact button heights close to the
+  completion badge and download links, give Show another question a dark fill with white text,
+  and reduce MC/MA answer padding.
 - Keep button spacing compact: enough separation to prevent touching, with only a little
   padding. Too much space is worse than too little.
 - Feature Biochemistry and Genetics as complete courses developed with grant support. Use
@@ -58,6 +61,9 @@ origin belongs there too. Rules: [REPO_STYLE.md](REPO_STYLE.md).
 
 ## Working style
 
+- Keep screenshot capture commands in `devel/`, with one executable
+  `capture_screenshots.sh` to update the complete documentation corpus.
+- Use WebP instead of PNG for documentation screenshots to save space.
 - Use the Codex backend by default for `build_site.py` title generation.
 - I normally use Graphify update or fresh, sometimes context, and now the published map. Keep this
   command line to those recurring actions, with Ollama available when my Claude usage is maxed out.

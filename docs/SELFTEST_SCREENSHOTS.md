@@ -6,6 +6,10 @@ timestamped record of how the website appeared on an earlier day.
 
 ## Provenance
 
+The BPW captures include the requested compact green buttons and tighter MC/MA rows.
+The Python reference output remains unchanged. Static captures use text-optimized WebP
+at quality 90; the original regression PNG and the demonstration GIF retain their formats.
+
 The captures use the frozen Python QPM references and the served BPW site. Each
 comparison uses the same saved BBQ input and named question route. The capture
 harness records its viewport, color scheme, fixture provenance, and resulting
@@ -17,51 +21,51 @@ User-supplied styling regression, 2026-10-09.
 
 <!-- screenshots:begin (managed by screenshot-docs) -->
 ![User-supplied unstyled MATCH self-test regression](screenshots/reference_reported_unstyled_match.png)
-![BPW fill-in-the-blank question in light mode](screenshots/selftest_bpw_fib_light.png)
-![Frozen Python QPM fill-in-the-blank reference in light mode](screenshots/selftest_python_fib_light.png)
-![BPW fill-in-the-blank question in dark mode](screenshots/selftest_bpw_fib_dark.png)
-![Frozen Python QPM fill-in-the-blank reference in dark mode](screenshots/selftest_python_fib_dark.png)
-![BPW multiple-answer question in light mode](screenshots/selftest_bpw_ma_light.png)
-![Frozen Python QPM multiple-answer reference in light mode](screenshots/selftest_python_ma_light.png)
-![BPW multiple-answer question in dark mode](screenshots/selftest_bpw_ma_dark.png)
-![Frozen Python QPM multiple-answer reference in dark mode](screenshots/selftest_python_ma_dark.png)
-![BPW MATCH question in light mode](screenshots/selftest_bpw_match_light.png)
-![Frozen Python QPM MATCH reference in light mode](screenshots/selftest_python_match_light.png)
-![BPW MATCH question in dark mode](screenshots/selftest_bpw_match_dark.png)
-![Frozen Python QPM MATCH reference in dark mode](screenshots/selftest_python_match_dark.png)
-![BPW RDKit MATCH question in light mode](screenshots/selftest_bpw_match_rdkit_light.png)
-![Frozen Python QPM RDKit MATCH reference in light mode](screenshots/selftest_python_match_rdkit_light.png)
-![BPW RDKit MATCH question in dark mode](screenshots/selftest_bpw_match_rdkit_dark.png)
-![Frozen Python QPM RDKit MATCH reference in dark mode](screenshots/selftest_python_match_rdkit_dark.png)
-![BPW table MATCH question in light mode](screenshots/selftest_bpw_match_tables_light.png)
-![Frozen Python QPM table MATCH reference in light mode](screenshots/selftest_python_match_tables_light.png)
-![BPW table MATCH question in dark mode](screenshots/selftest_bpw_match_tables_dark.png)
-![Frozen Python QPM table MATCH reference in dark mode](screenshots/selftest_python_match_tables_dark.png)
-![BPW multiple-choice question in light mode](screenshots/selftest_bpw_mc_light.png)
-![Frozen Python QPM multiple-choice reference in light mode](screenshots/selftest_python_mc_light.png)
-![BPW multiple-choice question in dark mode](screenshots/selftest_bpw_mc_dark.png)
-![Frozen Python QPM multiple-choice reference in dark mode](screenshots/selftest_python_mc_dark.png)
-![BPW RDKit multiple-choice question in light mode](screenshots/selftest_bpw_mc_rdkit_light.png)
-![Frozen Python QPM RDKit multiple-choice reference in light mode](screenshots/selftest_python_mc_rdkit_light.png)
-![BPW RDKit multiple-choice question in dark mode](screenshots/selftest_bpw_mc_rdkit_dark.png)
-![Frozen Python QPM RDKit multiple-choice reference in dark mode](screenshots/selftest_python_mc_rdkit_dark.png)
-![BPW multiple-fill-in-the-blank question in light mode](screenshots/selftest_bpw_multi_fib_light.png)
-![Frozen Python QPM multiple-fill-in-the-blank reference in light mode](screenshots/selftest_python_multi_fib_light.png)
-![BPW multiple-fill-in-the-blank question in dark mode](screenshots/selftest_bpw_multi_fib_dark.png)
-![Frozen Python QPM multiple-fill-in-the-blank reference in dark mode](screenshots/selftest_python_multi_fib_dark.png)
-![BPW numeric question in light mode](screenshots/selftest_bpw_num_light.png)
-![Frozen Python QPM numeric reference in light mode](screenshots/selftest_python_num_light.png)
-![BPW numeric question in dark mode](screenshots/selftest_bpw_num_dark.png)
-![Frozen Python QPM numeric reference in dark mode](screenshots/selftest_python_num_dark.png)
-![BPW ordering question in light mode](screenshots/selftest_bpw_order_light.png)
-![Frozen Python QPM ordering reference in light mode](screenshots/selftest_python_order_light.png)
-![BPW ordering question in dark mode](screenshots/selftest_bpw_order_dark.png)
-![Frozen Python QPM ordering reference in dark mode](screenshots/selftest_python_order_dark.png)
-![BPW page with an automatically loaded practice question](screenshots/selftest_bpw_site_context_loaded.png)
-![BPW MATCH assignment with feedback after checking an answer](screenshots/selftest_bpw_match_feedback_light.png)
-![BPW mobile fill-in-the-blank question before horizontal table scrolling](screenshots/selftest_bpw_mobile_fib_initial_dark.png)
-![BPW mobile fill-in-the-blank question after horizontal table scrolling](screenshots/selftest_bpw_mobile_fib_scrolled_dark.png)
-![BPW mobile RDKit MATCH question with painted molecular structure](screenshots/selftest_bpw_mobile_match_rdkit_light.png)
+![BPW fill-in-the-blank question in light mode](screenshots/selftest_bpw_fib_light.webp)
+![Frozen Python QPM fill-in-the-blank reference in light mode](screenshots/selftest_python_fib_light.webp)
+![BPW fill-in-the-blank question in dark mode](screenshots/selftest_bpw_fib_dark.webp)
+![Frozen Python QPM fill-in-the-blank reference in dark mode](screenshots/selftest_python_fib_dark.webp)
+![BPW multiple-answer question in light mode](screenshots/selftest_bpw_ma_light.webp)
+![Frozen Python QPM multiple-answer reference in light mode](screenshots/selftest_python_ma_light.webp)
+![BPW multiple-answer question in dark mode](screenshots/selftest_bpw_ma_dark.webp)
+![Frozen Python QPM multiple-answer reference in dark mode](screenshots/selftest_python_ma_dark.webp)
+![BPW MATCH question in light mode](screenshots/selftest_bpw_match_light.webp)
+![Frozen Python QPM MATCH reference in light mode](screenshots/selftest_python_match_light.webp)
+![BPW MATCH question in dark mode](screenshots/selftest_bpw_match_dark.webp)
+![Frozen Python QPM MATCH reference in dark mode](screenshots/selftest_python_match_dark.webp)
+![BPW RDKit MATCH question in light mode](screenshots/selftest_bpw_match_rdkit_light.webp)
+![Frozen Python QPM RDKit MATCH reference in light mode](screenshots/selftest_python_match_rdkit_light.webp)
+![BPW RDKit MATCH question in dark mode](screenshots/selftest_bpw_match_rdkit_dark.webp)
+![Frozen Python QPM RDKit MATCH reference in dark mode](screenshots/selftest_python_match_rdkit_dark.webp)
+![BPW table MATCH question in light mode](screenshots/selftest_bpw_match_tables_light.webp)
+![Frozen Python QPM table MATCH reference in light mode](screenshots/selftest_python_match_tables_light.webp)
+![BPW table MATCH question in dark mode](screenshots/selftest_bpw_match_tables_dark.webp)
+![Frozen Python QPM table MATCH reference in dark mode](screenshots/selftest_python_match_tables_dark.webp)
+![BPW multiple-choice question in light mode](screenshots/selftest_bpw_mc_light.webp)
+![Frozen Python QPM multiple-choice reference in light mode](screenshots/selftest_python_mc_light.webp)
+![BPW multiple-choice question in dark mode](screenshots/selftest_bpw_mc_dark.webp)
+![Frozen Python QPM multiple-choice reference in dark mode](screenshots/selftest_python_mc_dark.webp)
+![BPW RDKit multiple-choice question in light mode](screenshots/selftest_bpw_mc_rdkit_light.webp)
+![Frozen Python QPM RDKit multiple-choice reference in light mode](screenshots/selftest_python_mc_rdkit_light.webp)
+![BPW RDKit multiple-choice question in dark mode](screenshots/selftest_bpw_mc_rdkit_dark.webp)
+![Frozen Python QPM RDKit multiple-choice reference in dark mode](screenshots/selftest_python_mc_rdkit_dark.webp)
+![BPW multiple-fill-in-the-blank question in light mode](screenshots/selftest_bpw_multi_fib_light.webp)
+![Frozen Python QPM multiple-fill-in-the-blank reference in light mode](screenshots/selftest_python_multi_fib_light.webp)
+![BPW multiple-fill-in-the-blank question in dark mode](screenshots/selftest_bpw_multi_fib_dark.webp)
+![Frozen Python QPM multiple-fill-in-the-blank reference in dark mode](screenshots/selftest_python_multi_fib_dark.webp)
+![BPW numeric question in light mode](screenshots/selftest_bpw_num_light.webp)
+![Frozen Python QPM numeric reference in light mode](screenshots/selftest_python_num_light.webp)
+![BPW numeric question in dark mode](screenshots/selftest_bpw_num_dark.webp)
+![Frozen Python QPM numeric reference in dark mode](screenshots/selftest_python_num_dark.webp)
+![BPW ordering question in light mode](screenshots/selftest_bpw_order_light.webp)
+![Frozen Python QPM ordering reference in light mode](screenshots/selftest_python_order_light.webp)
+![BPW ordering question in dark mode](screenshots/selftest_bpw_order_dark.webp)
+![Frozen Python QPM ordering reference in dark mode](screenshots/selftest_python_order_dark.webp)
+![BPW page with an automatically loaded practice question](screenshots/selftest_bpw_site_context_loaded.webp)
+![BPW MATCH assignment with feedback after checking an answer](screenshots/selftest_bpw_match_feedback_light.webp)
+![BPW mobile fill-in-the-blank question before horizontal table scrolling](screenshots/selftest_bpw_mobile_fib_initial_dark.webp)
+![BPW mobile fill-in-the-blank question after horizontal table scrolling](screenshots/selftest_bpw_mobile_fib_scrolled_dark.webp)
+![BPW mobile RDKit MATCH question with painted molecular structure](screenshots/selftest_bpw_mobile_match_rdkit_light.webp)
 ![BPW MATCH assignment and feedback demonstration](screenshots/selftest_match_assignment_demo.gif)
 <!-- screenshots:end -->
 
@@ -93,19 +97,18 @@ record.
 
 ## Capture commands
 
-Refresh the README website views, including a loaded HLA question, from the
-repository root:
+Refresh every managed screenshot, including the three README website views and
+the self-test demonstration GIF, from the repository root:
 
 ```bash
-source source_me.sh && node tests/playwright/capture_docs_screenshots.mjs
+./devel/capture_screenshots.sh
 ```
 
-With the BPW site on port 8123 and the frozen Python gallery on port 8124,
-refresh the self-test evidence:
-
-```bash
-source source_me.sh && node tests/playwright/capture_selftest_screenshots.mjs
-```
+The command loads the repository environment, starts its own MkDocs server on
+port 8765, captures all ten references and their BPW counterparts, and stops the
+browser and server. Leave that port free. Frozen Python files are read directly
+from the sibling QPM checkout; a Python gallery server is unnecessary.
+`npm run docs:screenshots` invokes the same complete refresh.
 
 The capture receipt is
 [screenshots/selftest_capture_receipt.json](screenshots/selftest_capture_receipt.json).
@@ -115,7 +118,7 @@ The capture receipt is
 The capture harness verifies HTTP availability, records the fixture manifest and
 case input, waits for the QPM stylesheet and rendered controls, and fails on
 JavaScript errors. It verifies painted RDKit canvases and records image
-dimensions, hashes, and GIF duration in the receipt. The README harness also
-rejects request failures while it captures the live website views. Visual review
+dimensions, hashes, and GIF duration in the receipt. The README captures also
+reject request failures while capturing the live website views. Visual review
 remains separate from functional browser tests. The captures show representative
 states; the integration test suite establishes interaction behavior.

@@ -437,21 +437,21 @@ body[data-md-color-scheme="slate"] .streak-at-risk {
 /* These controls belong to the website, outside the generated question body. */
 .selftest-reroll-button {
   flex: 0 1 auto;
-  min-height: 2.2rem;
-  padding: 0.45rem 0.7rem;
-  border: 1px solid var(--md-primary-fg-color);
+  min-height: 28px;
+  padding: 3px 10px;
+  border: 1px solid #008852;
   border-radius: 0.25rem;
-  background: var(--md-default-bg-color);
-  color: var(--md-default-fg-color);
+  background: #008852;
+  color: #ffffff;
   font: inherit;
   font-size: 0.78rem;
   font-weight: 600;
-  line-height: 1.3;
+  line-height: 1.2;
   cursor: pointer;
 }
 
 .selftest-reroll-button:hover:not(:disabled) {
-  background: var(--md-default-fg-color--lightest, #dddddd);
+  filter: brightness(0.9);
 }
 
 .selftest-reroll-button:focus-visible {

@@ -130,7 +130,7 @@ for behavior or layout; the same modules generate both activity Markdown pages. 
 [site_docs/assets/data/question_provenance.json](../site_docs/assets/data/question_provenance.json).
 
 Refresh the representative pedigree image from a locally served, built site with
-`node tests/playwright/capture_homepage_example.mjs http://127.0.0.1:8000`, then rebuild MkDocs.
+`node devel/capture_homepage_example.mjs http://127.0.0.1:8000`, then rebuild MkDocs.
 The capture uses the authored Medium pedigree table, without recreating its biological content.
 
 ### Build ordering
@@ -313,20 +313,20 @@ to check real CDN/SRI loading and filtering. Production needs no Node build step
 
 ## Documentation screenshots
 
-Capture the stable README views with the permanent Playwright script:
+Refresh all README and self-test screenshots with the maintainer command:
 
 ```bash
-./tests/playwright/capture_docs_screenshots.mjs
+./devel/capture_screenshots.sh
 ```
 
-The script starts `mkdocs serve` on port 8765, waits until the site responds,
-captures the managed views, loads the HLA self-test through its WebAssembly
-renderer, and stops the server. It rejects page and request errors. To use
-another port:
+The script loads `source_me.sh`, starts its own `mkdocs serve` on port 8765,
+captures the three README views and the complete self-test corpus, then stops
+the browser and server. Leave port 8765 free. The existing frozen Python
+fixtures in the sibling `qti-package-maker-rs` checkout are read unchanged;
+no separate reference server is needed.
 
-```bash
-DOCS_SCREENSHOT_PORT=8877 ./tests/playwright/capture_docs_screenshots.mjs
-```
+The capture uses installed Playwright Chromium, ImageMagick, `cwebp`, FFmpeg, and the
+`make_gif.sh` helper in the sibling `../../vosslab-skills` checkout.
 
 The package alias is available as a convenience:
 
@@ -334,6 +334,7 @@ The package alias is available as a convenience:
 npm run docs:screenshots
 ```
 
-The script writes reproducible 1440x900 PNGs under
-[docs/screenshots/](screenshots/). See [SELFTEST_SCREENSHOTS.md](SELFTEST_SCREENSHOTS.md)
-for the current self-test evidence and its matching Python-reference capture command.
+The script refreshes 48 WebP images, the MATCH demonstration GIF, and the capture
+receipt under [docs/screenshots/](screenshots/). It preserves the historical
+`reference_` PNG. Static captures use the WebP text preset at quality 90.
+See [SELFTEST_SCREENSHOTS.md](SELFTEST_SCREENSHOTS.md) for coverage and provenance.

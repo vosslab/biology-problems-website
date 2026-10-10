@@ -12,9 +12,9 @@ Canvas, ADAPT, and other teaching workflows.
 ## See what is inside
 
 <!-- screenshots:begin (managed by screenshot-docs) -->
-![Biology Problems homepage showing Question Finder and subject collections](docs/screenshots/website_home.png)
-![Loaded three-marker HLA question with download controls and the next practice placeholder](docs/screenshots/hla_problem_sets.png)
-![Daily biology puzzle collection with four playable challenges](docs/screenshots/daily_puzzles.png)
+![Biology Problems homepage showing Question Finder and subject collections](docs/screenshots/website_home.webp)
+![Loaded three-marker HLA question with download controls and the next practice placeholder](docs/screenshots/hla_problem_sets.webp)
+![Daily biology puzzle collection with four playable challenges](docs/screenshots/daily_puzzles.webp)
 <!-- screenshots:end -->
 
 ## Why use it?

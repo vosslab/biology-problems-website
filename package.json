@@ -4,7 +4,7 @@
 	"description": "Biology problems website Playwright test harness",
 	"private": true,
 	"scripts": {
-		"docs:screenshots": "node tests/playwright/capture_docs_screenshots.mjs",
+		"docs:screenshots": "bash devel/capture_screenshots.sh",
 		"test:ui": "node tests/playwright/ui_ux_review.mjs",
 		"test:smoke": "playwright test smoke.spec.ts"
 	},
