@@ -23,6 +23,9 @@ origin belongs there too. Rules: [REPO_STYLE.md](REPO_STYLE.md).
 
 ## Review expectations
 
+- Give Show practice question and Show another question slightly different colors so the
+  changed action is visible. Give Show another question a thin border that the initial
+  button does not visibly have, while keeping the approved compact styling.
 - Make Check Answer Roosevelt University green. Use compact button heights close to the
   completion badge and download links, give Show another question a dark fill with white text,
   and reduce MC/MA answer padding.

@@ -1,5 +1,5 @@
 {
-  "captured_at": "2026-10-10T18:41:05.326Z",
+  "captured_at": "2026-10-10T18:58:53.665Z",
   "browser": "Playwright Chromium",
   "bpw_url": "http://127.0.0.1:8765",
   "fixture_manifest": "../qti-package-maker-rs/tests/fixtures/python_selftest/manifest.json",
@@ -63,8 +63,8 @@
       },
       "width": 1440,
       "height": 900,
-      "bytes": 114092,
-      "sha256": "1514caa9478344c08e14c68cb20f0d68e19620495ad34175a6082b38216ae68b"
+      "bytes": 114064,
+      "sha256": "52734463f2895bd3ea77f33d4ed694c43c4c55272b9ea6457d449d903a1cd5b0"
     },
     {
       "slug": "selftest_bpw_mc_light",
@@ -81,8 +81,8 @@
       "controls": "BPW lifecycle header and real Wasm question controls",
       "width": 930,
       "height": 355,
-      "bytes": 22424,
-      "sha256": "2f258e43ce6b095391395da053cd0441080d1beb6eb15b992895270793c2ca7b"
+      "bytes": 22404,
+      "sha256": "648d8d22d51c0b441c73f0f6328871f6b2c34a047aa0804bde64faa00d99c78a"
     },
     {
       "slug": "selftest_python_mc_light",
@@ -118,8 +118,8 @@
       "controls": "BPW lifecycle header and real Wasm question controls",
       "width": 930,
       "height": 355,
-      "bytes": 20724,
-      "sha256": "c47224fac8b1f36d4fdb44d09098d73aa678fa52c4fe767830e2f1050e97342d"
+      "bytes": 20656,
+      "sha256": "d7c9e963dcc7f6f9ff2ebc0ca265b5ca1524438c878deb566f7c675ba87cf652"
     },
     {
       "slug": "selftest_python_mc_dark",
@@ -155,8 +155,8 @@
       "controls": "BPW lifecycle header and real Wasm question controls",
       "width": 930,
       "height": 370,
-      "bytes": 36808,
-      "sha256": "ed4d77e8047ab6ae8ef542d955c59e28ef73758bded83459ad53cbf8e21e565a"
+      "bytes": 36772,
+      "sha256": "581e51a7d4ae2ec8c204b9e2d65328f2b6263143a94ce1ed78977a7c1c2c178b"
     },
     {
       "slug": "selftest_python_ma_light",
@@ -192,8 +192,8 @@
       "controls": "BPW lifecycle header and real Wasm question controls",
       "width": 930,
       "height": 370,
-      "bytes": 33942,
-      "sha256": "057c09d9f710be8b60a6f1e634039684c8808bcc628ca6486bcdd5a22a8e29cf"
+      "bytes": 33934,
+      "sha256": "8bf5fcbbd04c394118398e1be2c420bae749167a6fbf44f145aee65f17be9d6d"
     },
     {
       "slug": "selftest_python_ma_dark",
@@ -229,8 +229,8 @@
       "controls": "BPW lifecycle header and real Wasm question controls",
       "width": 930,
       "height": 590,
-      "bytes": 51148,
-      "sha256": "cc3152a00c4172a709313c9fbded8d8841479804030a11ced4755c364fd35660"
+      "bytes": 51118,
+      "sha256": "398dc881be930d6ca6b80e3a8e0d71e8402d22addaea44037b2ba9fa9f41b76d"
     },
     {
       "slug": "selftest_python_match_light",
@@ -266,8 +266,8 @@
       "controls": "BPW lifecycle header and real Wasm question controls",
       "width": 930,
       "height": 590,
-      "bytes": 44242,
-      "sha256": "6a6a9fc85247519a37319cbfe29febbbeea1e9f69c7522da8872cd8ea605c1f0"
+      "bytes": 44230,
+      "sha256": "6daf4ad30b847766a1924e549aff650955fa8ad031551c964081d09326e1f8b3"
     },
     {
       "slug": "selftest_python_match_dark",
@@ -303,8 +303,8 @@
       "controls": "BPW lifecycle header and real Wasm question controls",
       "width": 930,
       "height": 305,
-      "bytes": 22728,
-      "sha256": "07b775c14950de2ed87eee2d0f3a296f0dc150a633ae70e87d5cbf772f3e5b42"
+      "bytes": 22696,
+      "sha256": "e9d9ee733591cc584b0ba160c84d5c47ff225a5fc7177cb961e40579060a770e"
     },
     {
       "slug": "selftest_python_num_light",
@@ -340,8 +340,8 @@
       "controls": "BPW lifecycle header and real Wasm question controls",
       "width": 930,
       "height": 305,
-      "bytes": 20908,
-      "sha256": "cedacb388480c404dcc14cf973b5b7f88d095045a34f4b81cc71737d8ddadda7"
+      "bytes": 20888,
+      "sha256": "730323a9995de44be0ad486ca0ecf80996e04f6298d8565ca85f63ef09a7ec4f"
     },
     {
       "slug": "selftest_python_num_dark",
@@ -377,8 +377,8 @@
       "controls": "BPW lifecycle header and real Wasm question controls",
       "width": 930,
       "height": 273,
-      "bytes": 21194,
-      "sha256": "12d808bfa8b62e2642da321b50a4ba7032e885abc98c1b15de0d9c53aef761d7"
+      "bytes": 21198,
+      "sha256": "fb012ec8908ef092af1659609c69fb73980b1bd967a30011390edf6b8ad4992c"
     },
     {
       "slug": "selftest_python_fib_light",
@@ -414,8 +414,8 @@
       "controls": "BPW lifecycle header and real Wasm question controls",
       "width": 930,
       "height": 273,
-      "bytes": 19762,
-      "sha256": "85432192e32abffc1ff11051d87a28c786176f6c22e28c6f7a8dcfbedb597270"
+      "bytes": 19710,
+      "sha256": "56d4b462baf332be4e1c2c3ca8ebc91a4bd22e37bc6a84d186a14a9790087858"
     },
     {
       "slug": "selftest_python_fib_dark",
@@ -451,8 +451,8 @@
       "controls": "BPW lifecycle header and real Wasm question controls",
       "width": 930,
       "height": 1513,
-      "bytes": 137178,
-      "sha256": "b07a505d565cde82cd563a6ae8dc2fb175f10dce6e8dc98b873aab7e1bbdb21d"
+      "bytes": 137168,
+      "sha256": "c216569016784e07bc1b2591347a128dcbc2e8b6919b59737f5b2561018937a2"
     },
     {
       "slug": "selftest_python_multi_fib_light",
@@ -488,8 +488,8 @@
       "controls": "BPW lifecycle header and real Wasm question controls",
       "width": 930,
       "height": 1513,
-      "bytes": 126400,
-      "sha256": "b7508f363e3c31b75f2c81751befff8e94c8975298ca2dcbe2fca32bdf023ed7"
+      "bytes": 126352,
+      "sha256": "2b8f00207e9727991a4707b0d06c5a21d85f41f0e57f8424edfdbd279014ffe3"
     },
     {
       "slug": "selftest_python_multi_fib_dark",
@@ -525,8 +525,8 @@
       "controls": "BPW lifecycle header and real Wasm question controls",
       "width": 930,
       "height": 435,
-      "bytes": 34684,
-      "sha256": "b2b7bf2caeddd6b808027e32bf1d0f6344061bd695c896aa2feb81ef359c3cca"
+      "bytes": 34566,
+      "sha256": "eef317067e3a96bfb0ba811101f410fde53feed27657eaa682c49df22d048000"
     },
     {
       "slug": "selftest_python_order_light",
@@ -562,8 +562,8 @@
       "controls": "BPW lifecycle header and real Wasm question controls",
       "width": 930,
       "height": 435,
-      "bytes": 31050,
-      "sha256": "9b0b6ff4110091a49dda730552b1bd581f7aa6d15fc25e02d11930bbbecf73e0"
+      "bytes": 31072,
+      "sha256": "e8c6b2816bccdc493e9df7d1eb7dad35ef858cc499b00d09e499badf8030cc69"
     },
     {
       "slug": "selftest_python_order_dark",
@@ -599,8 +599,8 @@
       "controls": "BPW lifecycle header and real Wasm question controls",
       "width": 930,
       "height": 744,
-      "bytes": 59458,
-      "sha256": "48d48d11759c2078ccc439cab09e61ae400107c99931a701d1e0f33b800a8ec1"
+      "bytes": 59400,
+      "sha256": "7ea0daf65b24f88e9f8b7bc2f81c51b0d6fccf41049879563934ca1ce51d4682"
     },
     {
       "slug": "selftest_python_match_tables_light",
@@ -637,7 +637,7 @@
       "width": 930,
       "height": 744,
       "bytes": 50812,
-      "sha256": "e93f62064d177af661100d0be57ece3f2945f0566c009816c4a6487f70c4fdd6"
+      "sha256": "3ec80ceb380ab73601d1eac572cc5c857b70660b72749bbdc39c84b9a250acb8"
     },
     {
       "slug": "selftest_python_match_tables_dark",
@@ -673,8 +673,8 @@
       "controls": "BPW lifecycle header and real Wasm question controls",
       "width": 930,
       "height": 610,
-      "bytes": 24156,
-      "sha256": "f0674e2f4559f24b69bc3c11a77eb0b5cdc9487c250dcad31ba60754dba0ab97"
+      "bytes": 24134,
+      "sha256": "36451caeb11bbd6349bf70bb957624b337e9bc4b24717f6fb8d737dbbd61c2ea"
     },
     {
       "slug": "selftest_python_mc_rdkit_light",
@@ -710,8 +710,8 @@
       "controls": "BPW lifecycle header and real Wasm question controls",
       "width": 930,
       "height": 610,
-      "bytes": 23076,
-      "sha256": "bea9cbc2658fe225fd017883896fedd8197895a4f9d3b4167d655be7958a4d18"
+      "bytes": 23016,
+      "sha256": "1682b48a969e5cb09245ebacc6632cb39c8d89e19f61e37f71fcdcfac06dbbd3"
     },
     {
       "slug": "selftest_python_mc_rdkit_dark",
@@ -747,8 +747,8 @@
       "controls": "BPW lifecycle header and real Wasm question controls",
       "width": 920,
       "height": 1920,
-      "bytes": 66254,
-      "sha256": "fdd2e628f74ffe08d169fddde7ab82c69d1cea45d2b074049a4d40946f41e453"
+      "bytes": 66232,
+      "sha256": "170bf5a525d7e52be4c4aaf5d1e4334fca32361eb83d585b647a4dccb4b8e364"
     },
     {
       "slug": "selftest_python_match_rdkit_light",
@@ -784,8 +784,8 @@
       "controls": "BPW lifecycle header and real Wasm question controls",
       "width": 920,
       "height": 1920,
-      "bytes": 66344,
-      "sha256": "7345d2a09cb4b3473db37c330659138112dac8743fad37776fddc8b3eaf62ed5"
+      "bytes": 66342,
+      "sha256": "af1b06d8544c373655ad691ce535a49a37edfd8d91b1ef0458a987520b4229c7"
     },
     {
       "slug": "selftest_python_match_rdkit_dark",
@@ -837,8 +837,8 @@
       "controls": "MATCH assignment then Check Answer with feedback",
       "width": 930,
       "height": 590,
-      "bytes": 54332,
-      "sha256": "d3c2f8e8e5372915002f5bc9a2106d94d43391c7b23e4e3de91658c57be20e94"
+      "bytes": 54328,
+      "sha256": "bad677650aa575a8a22223eba003fff1094b50b9e35f2f8d89e77491d0f0e349"
     },
     {
       "slug": "selftest_bpw_mobile_fib_initial_dark",
@@ -855,8 +855,8 @@
       "controls": "mobile FIB at the initial table position",
       "width": 328,
       "height": 581,
-      "bytes": 20384,
-      "sha256": "13741ab400272924f6579ff33e755f685825d5c7f88d0acfe1bcb55c3fea4cf0"
+      "bytes": 20376,
+      "sha256": "ce6b98f07a2c92a60ce6273cc28c12417139dc1791f803bb53ad049a4e8f8773"
     },
     {
       "slug": "selftest_bpw_mobile_fib_scrolled_dark",
@@ -891,8 +891,8 @@
       "controls": "mobile RDKit MATCH with painted canvases",
       "width": 360,
       "height": 800,
-      "bytes": 35036,
-      "sha256": "a7d1f40d05fd5f0ae949c2f5c60b568d7facc87b843782936d3eb8989b3b9988"
+      "bytes": 30072,
+      "sha256": "961e7676eff76e9ac18383f86d9127604a8275d5b45be778f20264b5edae2da8"
     },
     {
       "slug": "selftest_match_assignment_demo",
@@ -907,8 +907,8 @@
       "controls": "MATCH click assignment, Check Answer, feedback",
       "width": 1000,
       "height": 760,
-      "bytes": 315586,
-      "sha256": "f1063db72dd0fe2c402cb731309963a6bf3a1b1a53b39871f98b0ca863147acc",
+      "bytes": 307069,
+      "sha256": "37ccdf1a1aa093ff77bd4849a43eae40df8e0d45b68f626e46cc15b6c4dc4df6",
       "duration_seconds": 2.58,
       "fps": 12,
       "loops": 1

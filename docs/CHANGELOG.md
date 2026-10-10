@@ -3,6 +3,10 @@
 
 ### Behavior or Interface Changes
 
+- Distinguish the practice button states with two greens: Roosevelt green for
+  **Show practice question** and a slightly deeper green with a thin darker border for
+  **Show another question**. Reuse the existing placeholder state and adjust padding
+  for the border, preserving compact dimensions and white labels.
 - Use Roosevelt green with white text for the practice action, at a compact 28px minimum
   height. Consume Rust QPM's matching green Check Answer buttons and tighter MC/MA rows.
   This requested styling update intentionally differs from the unchanged Python references.
@@ -40,6 +44,9 @@
 
 ### Developer Tests and Notes
 
+- Verify both practice button states in light/dark modes at desktop and mobile widths.
+  Both retain a 28px height; white-label contrast is 4.52:1 initially and 6.20:1 after
+  loading. Keyboard activation and replacement pass, and the WebP corpus is refreshed.
 - Run the unified capture command successfully for all 48 WebP images and the GIF.
   Verify receipt hashes, all live embeds, and unchanged frozen Python files. Temporary
   occupied-port, encoder-failure, and interruption checks confirm server cleanup and

@@ -454,6 +454,13 @@ body[data-md-color-scheme="slate"] .streak-at-risk {
   filter: brightness(0.9);
 }
 
+/* A loaded question offers the next question with a deeper green and an outline. */
+.selftest-question-header:not(.selftest-question-placeholder) .selftest-reroll-button {
+  background: #006f50;
+  border: 2px solid #004b35;
+  padding: 2px 9px;
+}
+
 .selftest-reroll-button:focus-visible {
   outline: 2px solid var(--md-accent-fg-color);
   outline-offset: 3px;
